@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ING-P2-GRUPO-006",
+    "modulo": "ingles",
+    "parte": 2,
+    "tipo": "emparejamiento_avisos",
+    "nivel_mcer": "A2",
+    "banco_opciones": {
+      "A": "primary school",
+      "B": "university",
+      "C": "language academy",
+      "D": "kindergarten",
+      "E": "tutoring center",
+      "F": "school cafeteria",
+      "G": "lecture hall",
+      "H": "student dormitory (reservada para el ejemplo 0)"
+    },
+    "avisos": [
+      {"num": 1, "texto_aviso": "Parents must sign their child in and out at the front gate every day.", "respuesta_correcta": "A"},
+      {"num": 2, "texto_aviso": "Students must present a valid ID card to borrow equipment from the science labs.", "respuesta_correcta": "B"},
+      {"num": 3, "texto_aviso": "Level placement tests are held every Monday at 9 a.m.; no appointment necessary.", "respuesta_correcta": "C"},
+      {"num": 4, "texto_aviso": "One-on-one sessions must be booked at least 24 hours in advance; walk-ins are not guaranteed.", "respuesta_correcta": "E"},
+      {"num": 5, "texto_aviso": "Please switch off all mobile phones before the professor begins; latecomers must wait outside until the break.", "respuesta_correcta": "G"}
+    ]
+  },
+  {
+    "id": "ING-P2-GRUPO-007",
+    "modulo": "ingles",
+    "parte": 2,
+    "tipo": "emparejamiento_avisos",
+    "nivel_mcer": "B1",
+    "banco_opciones": {
+      "A": "open-plan office",
+      "B": "meeting room",
+      "C": "human resources department",
+      "D": "reception desk",
+      "E": "staff break room",
+      "F": "IT help desk",
+      "G": "print and copy room",
+      "H": "employee parking area (reservada para el ejemplo 0)"
+    },
+    "avisos": [
+      {"num": 1, "texto_aviso": "This room must be booked in advance through the online calendar; unbooked meetings will be asked to relocate.", "respuesta_correcta": "B"},
+      {"num": 2, "texto_aviso": "All requests for leave must be submitted at least two weeks before the intended start date.", "respuesta_correcta": "C"},
+      {"num": 3, "texto_aviso": "Visitors must sign in and wear a badge at all times while on the premises.", "respuesta_correcta": "D"},
+      {"num": 4, "texto_aviso": "Please log a ticket online before calling; urgent hardware issues are prioritized.", "respuesta_correcta": "F"},
+      {"num": 5, "texto_aviso": "Toner cartridges are replaced every Friday; please report any paper jams to the office manager immediately.", "respuesta_correcta": "G"}
+    ]
+  },
+  {
+    "id": "ING-P2-GRUPO-008",
+    "modulo": "ingles",
+    "parte": 2,
+    "tipo": "emparejamiento_avisos",
+    "nivel_mcer": "A2",
+    "banco_opciones": {
+      "A": "cinema",
+      "B": "theater",
+      "C": "amusement park",
+      "D": "bowling alley",
+      "E": "art gallery",
+      "F": "concert hall",
+      "G": "board game café",
+      "H": "sports stadium (reservada para el ejemplo 0)"
+    },
+    "avisos": [
+      {"num": 1, "texto_aviso": "No outside food or drinks are allowed inside the screening rooms.", "respuesta_correcta": "A"},
+      {"num": 2, "texto_aviso": "Riders must be at least 1.4 meters tall to access the roller coasters.", "respuesta_correcta": "C"},
+      {"num": 3, "texto_aviso": "Shoe rental is included in the price of each game; socks must be worn at all times.", "respuesta_correcta": "D"},
+      {"num": 4, "texto_aviso": "Flash photography is not permitted near the paintings; please keep a respectful distance from the artwork.", "respuesta_correcta": "E"},
+      {"num": 5, "texto_aviso": "A minimum spend of one drink or snack per person applies for groups staying longer than two hours.", "respuesta_correcta": "G"}
+    ]
+  },
+  {
+    "id": "ING-P2-GRUPO-009",
+    "modulo": "ingles",
+    "parte": 2,
+    "tipo": "emparejamiento_avisos",
+    "nivel_mcer": "B1",
+    "banco_opciones": {
+      "A": "building lobby",
+      "B": "elevator",
+      "C": "laundry room",
+      "D": "mailbox area",
+      "E": "rooftop terrace",
+      "F": "bike storage room",
+      "G": "building parking garage",
+      "H": "maintenance office (reservada para el ejemplo 0)"
+    },
+    "avisos": [
+      {"num": 1, "texto_aviso": "Maximum capacity: 8 people or 630 kg. Please do not overload during peak hours.", "respuesta_correcta": "B"},
+      {"num": 2, "texto_aviso": "Machines must be emptied within 30 minutes of the cycle ending, or items may be removed by staff.", "respuesta_correcta": "C"},
+      {"num": 3, "texto_aviso": "Access closes at 10 p.m. on weekdays; no loud music or parties are permitted after 9 p.m.", "respuesta_correcta": "E"},
+      {"num": 4, "texto_aviso": "Bicycles left unregistered for more than six months will be removed and donated to charity.", "respuesta_correcta": "F"},
+      {"num": 5, "texto_aviso": "Visitor spaces are limited to four hours; residents must display their permit at all times.", "respuesta_correcta": "G"}
+    ]
+  },
+  {
+    "id": "ING-P2-GRUPO-010",
+    "modulo": "ingles",
+    "parte": 2,
+    "tipo": "emparejamiento_avisos",
+    "nivel_mcer": "B1",
+    "banco_opciones": {
+      "A": "fire escape route",
+      "B": "emergency exit",
+      "C": "first aid station",
+      "D": "evacuation assembly point",
+      "E": "no smoking area",
+      "F": "fire extinguisher location",
+      "G": "security checkpoint",
+      "H": "lost and found office (reservada para el ejemplo 0)"
+    },
+    "avisos": [
+      {"num": 1, "texto_aviso": "This door must remain unlocked and unobstructed at all times during opening hours.", "respuesta_correcta": "B"},
+      {"num": 2, "texto_aviso": "A trained staff member is available here to treat minor cuts, burns, and fainting.", "respuesta_correcta": "C"},
+      {"num": 3, "texto_aviso": "In case of alarm, proceed calmly to the car park on the north side of the building and wait for further instructions.", "respuesta_correcta": "D"},
+      {"num": 4, "texto_aviso": "Fines apply to anyone caught lighting a cigarette within 10 meters of this sign.", "respuesta_correcta": "E"},
+      {"num": 5, "texto_aviso": "All bags will be scanned and visitors may be asked to walk through the metal detector.", "respuesta_correcta": "G"}
+    ]
+  }
+]

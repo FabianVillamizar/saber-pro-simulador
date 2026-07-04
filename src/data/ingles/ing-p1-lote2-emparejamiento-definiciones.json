@@ -1,0 +1,127 @@
+[
+  {
+    "id": "ING-P1-GRUPO-006",
+    "modulo": "ingles",
+    "parte": 1,
+    "tipo": "emparejamiento_definiciones",
+    "tema": "sports and physical activities",
+    "nivel_mcer": "A2",
+    "banco_opciones": {
+      "A": "swimming",
+      "B": "cycling",
+      "C": "wrestling",
+      "D": "rowing",
+      "E": "gymnastics",
+      "F": "archery",
+      "G": "fencing",
+      "H": "boxing (reservada para el ejemplo 0)"
+    },
+    "descripciones": [
+      {"num": 1, "texto": "Moving through water using your arms and legs, often done in a pool or the sea.", "respuesta_correcta": "A"},
+      {"num": 2, "texto": "Riding a bicycle, either for exercise, transport, or as a competitive sport.", "respuesta_correcta": "B"},
+      {"num": 3, "texto": "Propelling a boat forward using long oars, usually practiced on rivers or lakes.", "respuesta_correcta": "D"},
+      {"num": 4, "texto": "A sport that combines strength, flexibility, and balance, often performed on a mat or with equipment like bars and rings.", "respuesta_correcta": "E"},
+      {"num": 5, "texto": "A sport in which competitors shoot arrows at a target using a bow.", "respuesta_correcta": "F"}
+    ]
+  },
+  {
+    "id": "ING-P1-GRUPO-007",
+    "modulo": "ingles",
+    "parte": 1,
+    "tipo": "emparejamiento_definiciones",
+    "tema": "household items / furniture",
+    "nivel_mcer": "A2",
+    "banco_opciones": {
+      "A": "wardrobe",
+      "B": "armchair",
+      "C": "bookshelf",
+      "D": "mattress",
+      "E": "chest of drawers",
+      "F": "rug",
+      "G": "mirror",
+      "H": "sofa (reservada para el ejemplo 0)"
+    },
+    "descripciones": [
+      {"num": 1, "texto": "A tall piece of furniture with doors, used to hang and store clothes.", "respuesta_correcta": "A"},
+      {"num": 2, "texto": "A single, comfortable chair with armrests, usually found in a living room.", "respuesta_correcta": "B"},
+      {"num": 3, "texto": "The thick, padded part of a bed that you actually lie on.", "respuesta_correcta": "D"},
+      {"num": 4, "texto": "A piece of furniture with several stacked drawers, used to store folded clothes.", "respuesta_correcta": "E"},
+      {"num": 5, "texto": "A flat piece of glass that reflects your image, often hung on a wall.", "respuesta_correcta": "G"}
+    ]
+  },
+  {
+    "id": "ING-P1-GRUPO-008",
+    "modulo": "ingles",
+    "parte": 1,
+    "tipo": "emparejamiento_definiciones",
+    "tema": "clothing and accessories",
+    "nivel_mcer": "A2",
+    "banco_opciones": {
+      "A": "scarf",
+      "B": "belt",
+      "C": "gloves",
+      "D": "cardigan",
+      "E": "sandals",
+      "F": "raincoat",
+      "G": "tie",
+      "H": "jacket (reservada para el ejemplo 0)"
+    },
+    "descripciones": [
+      {"num": 1, "texto": "A long piece of fabric worn around the neck, often for warmth or style.", "respuesta_correcta": "A"},
+      {"num": 2, "texto": "A strip of leather or fabric worn around the waist to hold up trousers.", "respuesta_correcta": "B"},
+      {"num": 3, "texto": "A soft knitted jacket, usually buttoned up the front, worn over a shirt.", "respuesta_correcta": "D"},
+      {"num": 4, "texto": "A waterproof coat worn to stay dry when it's raining outside.", "respuesta_correcta": "F"},
+      {"num": 5, "texto": "A narrow piece of cloth worn around the neck under a shirt collar, usually with formal outfits.", "respuesta_correcta": "G"}
+    ]
+  },
+  {
+    "id": "ING-P1-GRUPO-009",
+    "modulo": "ingles",
+    "parte": 1,
+    "tipo": "emparejamiento_definiciones",
+    "tema": "animals",
+    "nivel_mcer": "A2",
+    "banco_opciones": {
+      "A": "squirrel",
+      "B": "dolphin",
+      "C": "eagle",
+      "D": "turtle",
+      "E": "kangaroo",
+      "F": "octopus",
+      "G": "hedgehog",
+      "H": "penguin (reservada para el ejemplo 0)"
+    },
+    "descripciones": [
+      {"num": 1, "texto": "A small animal with a bushy tail that climbs trees and collects nuts.", "respuesta_correcta": "A"},
+      {"num": 2, "texto": "A highly intelligent sea mammal known for jumping out of the water and being friendly toward humans.", "respuesta_correcta": "B"},
+      {"num": 3, "texto": "A slow-moving reptile with a hard shell that protects its body.", "respuesta_correcta": "D"},
+      {"num": 4, "texto": "An animal from Australia that carries its baby in a pouch and moves by jumping.", "respuesta_correcta": "E"},
+      {"num": 5, "texto": "A small animal covered in sharp spines that curls into a ball when it feels threatened.", "respuesta_correcta": "G"}
+    ]
+  },
+  {
+    "id": "ING-P1-GRUPO-010",
+    "modulo": "ingles",
+    "parte": 1,
+    "tipo": "emparejamiento_definiciones",
+    "tema": "personality traits",
+    "nivel_mcer": "A2",
+    "banco_opciones": {
+      "A": "stubborn",
+      "B": "generous",
+      "C": "reliable",
+      "D": "curious",
+      "E": "patient",
+      "F": "shy",
+      "G": "ambitious",
+      "H": "honest (reservada para el ejemplo 0)"
+    },
+    "descripciones": [
+      {"num": 1, "texto": "Describes someone who refuses to change their mind or opinion, even when others disagree.", "respuesta_correcta": "A"},
+      {"num": 2, "texto": "Describes someone who likes to give money, gifts, or time to help other people.", "respuesta_correcta": "B"},
+      {"num": 3, "texto": "Describes someone who always wants to learn new things and ask questions about the world.", "respuesta_correcta": "D"},
+      {"num": 4, "texto": "Describes someone who can wait calmly for a long time without getting annoyed or upset.", "respuesta_correcta": "E"},
+      {"num": 5, "texto": "Describes someone who has strong goals and works hard to become very successful.", "respuesta_correcta": "G"}
+    ]
+  }
+]

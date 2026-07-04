@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ING-P2-GRUPO-001",
+    "modulo": "ingles",
+    "parte": 2,
+    "tipo": "emparejamiento_avisos",
+    "nivel_mcer": "A2",
+    "banco_opciones": {
+      "A": "pharmacy",
+      "B": "dry cleaner's",
+      "C": "hair salon",
+      "D": "post office",
+      "E": "supermarket",
+      "F": "shoe repair shop",
+      "G": "bookstore",
+      "H": "bank (reservada para el ejemplo 0)"
+    },
+    "avisos": [
+      {"num": 1, "texto_aviso": "Prescriptions ready for collection after 2 p.m. Please bring your ID.", "respuesta_correcta": "A"},
+      {"num": 2, "texto_aviso": "Free haircut for children under 5 every Tuesday morning. Walk-ins welcome.", "respuesta_correcta": "C"},
+      {"num": 3, "texto_aviso": "Parcels over 20 kg cannot be accepted at this counter.", "respuesta_correcta": "D"},
+      {"num": 4, "texto_aviso": "Self-checkout lanes are for baskets with 15 items or fewer.", "respuesta_correcta": "E"},
+      {"num": 5, "texto_aviso": "Members get 10% off all new releases and a free bookmark with every purchase.", "respuesta_correcta": "G"}
+    ]
+  },
+  {
+    "id": "ING-P2-GRUPO-002",
+    "modulo": "ingles",
+    "parte": 2,
+    "tipo": "emparejamiento_avisos",
+    "nivel_mcer": "B1",
+    "banco_opciones": {
+      "A": "train station",
+      "B": "airport check-in desk",
+      "C": "bus stop",
+      "D": "car rental office",
+      "E": "ferry terminal",
+      "F": "parking garage",
+      "G": "car repair shop",
+      "H": "petrol station (reservada para el ejemplo 0)"
+    },
+    "avisos": [
+      {"num": 1, "texto_aviso": "Platform 4 is currently closed for maintenance. Please use platform 6 for all southbound services.", "respuesta_correcta": "A"},
+      {"num": 2, "texto_aviso": "Please have your passport and boarding pass ready. Baggage must not exceed 23 kg.", "respuesta_correcta": "B"},
+      {"num": 3, "texto_aviso": "A full tank and a valid driving licence are required before you can drive the vehicle away.", "respuesta_correcta": "D"},
+      {"num": 4, "texto_aviso": "Vehicles must be on board thirty minutes before departure. Foot passengers should proceed to the waiting lounge.", "respuesta_correcta": "E"},
+      {"num": 5, "texto_aviso": "We do not carry out bodywork repairs, only engine and electrical diagnostics.", "respuesta_correcta": "G"}
+    ]
+  },
+  {
+    "id": "ING-P2-GRUPO-003",
+    "modulo": "ingles",
+    "parte": 2,
+    "tipo": "emparejamiento_avisos",
+    "nivel_mcer": "B1",
+    "banco_opciones": {
+      "A": "public library",
+      "B": "city park",
+      "C": "museum",
+      "D": "town hall",
+      "E": "public swimming pool",
+      "F": "community center",
+      "G": "police station",
+      "H": "tourist information office (reservada para el ejemplo 0)"
+    },
+    "avisos": [
+      {"num": 1, "texto_aviso": "Books must be returned within three weeks or a small daily fine will apply.", "respuesta_correcta": "A"},
+      {"num": 2, "texto_aviso": "Dogs must be kept on a leash at all times near the children's playground.", "respuesta_correcta": "B"},
+      {"num": 3, "texto_aviso": "Marriage licence applications are only processed between 9 a.m. and noon, Monday to Friday.", "respuesta_correcta": "D"},
+      {"num": 4, "texto_aviso": "Swimming caps are compulsory at all times. Diving is not permitted in the shallow end.", "respuesta_correcta": "E"},
+      {"num": 5, "texto_aviso": "To report a lost item or a minor incident, please speak to the officer at the front desk.", "respuesta_correcta": "G"}
+    ]
+  },
+  {
+    "id": "ING-P2-GRUPO-004",
+    "modulo": "ingles",
+    "parte": 2,
+    "tipo": "emparejamiento_avisos",
+    "nivel_mcer": "A2",
+    "banco_opciones": {
+      "A": "restaurant",
+      "B": "café",
+      "C": "hotel reception",
+      "D": "hostel",
+      "E": "bakery",
+      "F": "ice cream shop",
+      "G": "catering company",
+      "H": "food truck (reservada para el ejemplo 0)"
+    },
+    "avisos": [
+      {"num": 1, "texto_aviso": "Tables cannot be reserved after 9 p.m. on weekends; we operate on a first-come, first-served basis after that time.", "respuesta_correcta": "A"},
+      {"num": 2, "texto_aviso": "Check-out time is 11 a.m. Late check-out may be arranged for an extra fee, subject to availability.", "respuesta_correcta": "C"},
+      {"num": 3, "texto_aviso": "Shared dormitory rooms include lockers, but guests must bring their own padlock.", "respuesta_correcta": "D"},
+      {"num": 4, "texto_aviso": "Fresh loaves come out of the oven at 6 a.m., 10 a.m., and 3 p.m. daily.", "respuesta_correcta": "E"},
+      {"num": 5, "texto_aviso": "All flavours are made fresh daily; please ask staff about today's vegan and dairy-free options.", "respuesta_correcta": "F"}
+    ]
+  },
+  {
+    "id": "ING-P2-GRUPO-005",
+    "modulo": "ingles",
+    "parte": 2,
+    "tipo": "emparejamiento_avisos",
+    "nivel_mcer": "B1",
+    "banco_opciones": {
+      "A": "hospital",
+      "B": "dental clinic",
+      "C": "doctor's office",
+      "D": "gym",
+      "E": "spa",
+      "F": "yoga studio",
+      "G": "physiotherapy clinic",
+      "H": "optician's (reservada para el ejemplo 0)"
+    },
+    "avisos": [
+      {"num": 1, "texto_aviso": "Visiting hours for patients in the intensive care unit are strictly limited to two people at a time.", "respuesta_correcta": "A"},
+      {"num": 2, "texto_aviso": "Please arrive fifteen minutes early for X-rays; anaesthesia may cause temporary numbness afterward.", "respuesta_correcta": "B"},
+      {"num": 3, "texto_aviso": "Members must wipe down equipment after use and return weights to the designated racks.", "respuesta_correcta": "D"},
+      {"num": 4, "texto_aviso": "Please arrive with an empty stomach and bring your own mat; blocks and straps are provided.", "respuesta_correcta": "F"},
+      {"num": 5, "texto_aviso": "Exercises must be performed exactly as demonstrated by your therapist to avoid re-injury.", "respuesta_correcta": "G"}
+    ]
+  }
+]

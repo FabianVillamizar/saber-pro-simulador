@@ -1,0 +1,127 @@
+[
+  {
+    "id": "ING-P1-GRUPO-001",
+    "modulo": "ingles",
+    "parte": 1,
+    "tipo": "emparejamiento_definiciones",
+    "tema": "feelings",
+    "nivel_mcer": "A2",
+    "banco_opciones": {
+      "A": "excited",
+      "B": "bored",
+      "C": "nervous",
+      "D": "relieved",
+      "E": "jealous",
+      "F": "proud",
+      "G": "confused",
+      "H": "embarrassed (reservada para el ejemplo 0)"
+    },
+    "descripciones": [
+      {"num": 1, "texto": "You feel this way when you are really looking forward to something that is about to happen.", "respuesta_correcta": "A"},
+      {"num": 2, "texto": "You feel this way when you have nothing interesting to do and time seems to pass very slowly.", "respuesta_correcta": "B"},
+      {"num": 3, "texto": "You feel this way after something stressful finally ends and everything turns out fine.", "respuesta_correcta": "D"},
+      {"num": 4, "texto": "You feel this way when someone close to you achieves something impressive, or when you achieve something yourself.", "respuesta_correcta": "F"},
+      {"num": 5, "texto": "You feel this way when you don't understand what is happening or what to do next.", "respuesta_correcta": "G"}
+    ]
+  },
+  {
+    "id": "ING-P1-GRUPO-002",
+    "modulo": "ingles",
+    "parte": 1,
+    "tipo": "emparejamiento_definiciones",
+    "tema": "jobs",
+    "nivel_mcer": "A2",
+    "banco_opciones": {
+      "A": "electrician",
+      "B": "plumber",
+      "C": "accountant",
+      "D": "firefighter",
+      "E": "journalist",
+      "F": "architect",
+      "G": "veterinarian",
+      "H": "pharmacist (reservada para el ejemplo 0)"
+    },
+    "descripciones": [
+      {"num": 1, "texto": "This person installs and repairs electrical wiring and systems in homes and buildings.", "respuesta_correcta": "A"},
+      {"num": 2, "texto": "This person fixes leaking pipes and installs bathroom and kitchen water systems.", "respuesta_correcta": "B"},
+      {"num": 3, "texto": "This person's job is to put out fires and rescue people from dangerous situations.", "respuesta_correcta": "D"},
+      {"num": 4, "texto": "This person investigates and writes news stories for newspapers, websites, or television.", "respuesta_correcta": "E"},
+      {"num": 5, "texto": "This person examines and treats sick or injured animals.", "respuesta_correcta": "G"}
+    ]
+  },
+  {
+    "id": "ING-P1-GRUPO-003",
+    "modulo": "ingles",
+    "parte": 1,
+    "tipo": "emparejamiento_definiciones",
+    "tema": "weather",
+    "nivel_mcer": "A2",
+    "banco_opciones": {
+      "A": "drizzle",
+      "B": "thunderstorm",
+      "C": "humid",
+      "D": "breeze",
+      "E": "foggy",
+      "F": "frost",
+      "G": "heatwave",
+      "H": "hail (reservada para el ejemplo 0)"
+    },
+    "descripciones": [
+      {"num": 1, "texto": "Light rain that falls in very fine, small drops.", "respuesta_correcta": "A"},
+      {"num": 2, "texto": "A storm with strong wind, heavy rain, thunder, and lightning.", "respuesta_correcta": "B"},
+      {"num": 3, "texto": "Weather with thick mist that makes it hard to see very far.", "respuesta_correcta": "E"},
+      {"num": 4, "texto": "A thin layer of ice that forms on surfaces on very cold mornings.", "respuesta_correcta": "F"},
+      {"num": 5, "texto": "A period of several days with unusually high temperatures.", "respuesta_correcta": "G"}
+    ]
+  },
+  {
+    "id": "ING-P1-GRUPO-004",
+    "modulo": "ingles",
+    "parte": 1,
+    "tipo": "emparejamiento_definiciones",
+    "tema": "food and drink",
+    "nivel_mcer": "A2",
+    "banco_opciones": {
+      "A": "broth",
+      "B": "dough",
+      "C": "leftovers",
+      "D": "garnish",
+      "E": "appetizer",
+      "F": "beverage",
+      "G": "seasoning",
+      "H": "ingredient (reservada para el ejemplo 0)"
+    },
+    "descripciones": [
+      {"num": 1, "texto": "A clear liquid made by boiling meat, bones, or vegetables in water.", "respuesta_correcta": "A"},
+      {"num": 2, "texto": "A soft, thick mixture of flour and water (or other liquid) used to make bread or pastries.", "respuesta_correcta": "B"},
+      {"num": 3, "texto": "A small dish served before the main course of a meal.", "respuesta_correcta": "E"},
+      {"num": 4, "texto": "Any type of drink, especially one that is not water.", "respuesta_correcta": "F"},
+      {"num": 5, "texto": "Salt, pepper, herbs, or spices added to food to improve its flavor.", "respuesta_correcta": "G"}
+    ]
+  },
+  {
+    "id": "ING-P1-GRUPO-005",
+    "modulo": "ingles",
+    "parte": 1,
+    "tipo": "emparejamiento_definiciones",
+    "tema": "means of transport",
+    "nivel_mcer": "A2",
+    "banco_opciones": {
+      "A": "ferry",
+      "B": "subway",
+      "C": "scooter",
+      "D": "van",
+      "E": "tram",
+      "F": "cargo ship",
+      "G": "cable car",
+      "H": "taxi (reservada para el ejemplo 0)"
+    },
+    "descripciones": [
+      {"num": 1, "texto": "A boat that regularly carries passengers and vehicles across a river, lake, or short stretch of sea.", "respuesta_correcta": "A"},
+      {"num": 2, "texto": "An underground train system used to move around a big city quickly.", "respuesta_correcta": "B"},
+      {"num": 3, "texto": "A small, light vehicle with two wheels and a platform to stand on, often used for short trips.", "respuesta_correcta": "C"},
+      {"num": 4, "texto": "A vehicle that runs on rails along city streets, similar to a train but usually shorter.", "respuesta_correcta": "E"},
+      {"num": 5, "texto": "A vehicle that hangs from a cable and carries people up and down mountains.", "respuesta_correcta": "G"}
+    ]
+  }
+]

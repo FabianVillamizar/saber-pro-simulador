@@ -1,0 +1,477 @@
+[
+  {
+    "id": "ING-P3-ITEM-001",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Would you like to come to my birthday party on Saturday?",
+    "opciones": {
+      "A": "I'd love to! What time should I arrive?",
+      "B": "I've never been to a party before.",
+      "C": "I shall be delighted to attend, kindly advise the details."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Acepta la invitación y hace una pregunta lógica de seguimiento (la hora), tal como se esperaría en una conversación real sobre una invitación.",
+    "distractores": {
+      "B": {"explicacion": "Suena plausible como comentario aislado, pero no responde si la persona va a ir o no; funcionaría mejor en una conversación sobre experiencias pasadas con fiestas.", "patron_trampa": "fuera_de_contexto"},
+      "C": {"explicacion": "Aunque acepta, el registro extremadamente formal ('shall be delighted', 'kindly advise') no encaja con una invitación casual entre amigos a un cumpleaños.", "patron_trampa": "registro_inadecuado"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-002",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "We're having a barbecue this weekend. Do you want to join us?",
+    "opciones": {
+      "A": "I'm sorry to hear that you're not feeling well.",
+      "B": "That sounds great, but I already have plans on Saturday.",
+      "C": "Dear Sir, thank you kindly for your gracious invitation; I shall consider attending."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Responde de forma coherente a la invitación, mostrando interés pero explicando que no puede asistir por un compromiso ya existente.",
+    "distractores": {
+      "A": {"explicacion": "Sería una respuesta adecuada si alguien mencionara estar enfermo; no encaja con una invitación a un asado.", "patron_trampa": "fuera_de_contexto"},
+      "C": {"explicacion": "El registro extremadamente formal y arcaico no es apropiado para responder a una invitación informal entre amigos.", "patron_trampa": "registro_inadecuado"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-003",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "A few of us are going to the cinema tonight. Want to come?",
+    "opciones": {
+      "A": "The cinema closes at midnight on weekends.",
+      "B": "I saw that movie last month with my sister.",
+      "C": "Sure, what time does it start?"
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Acepta la invitación de forma natural y hace una pregunta de seguimiento coherente con el plan propuesto.",
+    "distractores": {
+      "A": {"explicacion": "Es un dato factual sobre el cine que no responde si la persona va a ir o no.", "patron_trampa": "logica_conversacional_rota"},
+      "B": {"explicacion": "Encajaría en una conversación sobre qué película están planeando ver, pero no responde directamente a la invitación.", "patron_trampa": "fuera_de_contexto"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-004",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "My cousin is visiting from abroad. Would you like to meet her for coffee tomorrow?",
+    "opciones": {
+      "A": "That would be lovely. Where should we meet?",
+      "B": "Coffee prices have gone up a lot recently.",
+      "C": "I hope your cousin has a safe flight."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Acepta la invitación y avanza la conversación preguntando por el lugar de encuentro.",
+    "distractores": {
+      "B": {"explicacion": "Encajaría en una conversación sobre precios en general, pero no responde a la invitación.", "patron_trampa": "fuera_de_contexto"},
+      "C": {"explicacion": "Responde como si el viaje de la prima aún no hubiera ocurrido, ignorando la pregunta real sobre quedar para un café.", "patron_trampa": "logica_conversacional_rota"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-005",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "We're organizing a picnic in the park next Sunday if the weather's nice. Are you in?",
+    "opciones": {
+      "A": "Picnics are more common in the summer than in winter.",
+      "B": "Count me in! Should I bring anything?",
+      "C": "I've heard the weather forecast is unreliable these days."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Acepta claramente el plan y hace una pregunta práctica de seguimiento, coherente con organizar un picnic en grupo.",
+    "distractores": {
+      "A": {"explicacion": "Es un dato general sobre picnics que no responde si la persona participará.", "patron_trampa": "logica_conversacional_rota"},
+      "C": {"explicacion": "Encajaría en una conversación específicamente sobre la precisión de los pronósticos del clima, no responde a la invitación.", "patron_trampa": "fuera_de_contexto"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-006",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Excuse me, do you know what time the museum opens?",
+    "opciones": {
+      "A": "The museum has a wonderful collection of modern art.",
+      "B": "I visited that museum a few years ago.",
+      "C": "I think it opens at nine, but you should check online to be sure."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Responde directamente a la pregunta sobre el horario y añade una sugerencia útil y realista.",
+    "distractores": {
+      "A": {"explicacion": "Respondería a una pregunta sobre cómo es el museo, no sobre su horario de apertura.", "patron_trampa": "fuera_de_contexto"},
+      "B": {"explicacion": "Comparte una experiencia personal irrelevante en vez de responder sobre el horario.", "patron_trampa": "logica_conversacional_rota"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-007",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Could you tell me how to get to the nearest pharmacy from here?",
+    "opciones": {
+      "A": "Sure, go straight for two blocks and it's on your left, next to the bank.",
+      "B": "Pharmacies usually close earlier on Sundays.",
+      "C": "I don't really need to go to the pharmacy today."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Da instrucciones claras y directas, respondiendo exactamente a lo que se pidió.",
+    "distractores": {
+      "B": {"explicacion": "Encajaría en una conversación sobre horarios de farmacias, no sobre cómo llegar a una.", "patron_trampa": "fuera_de_contexto"},
+      "C": {"explicacion": "Responde como si hablara de su propia necesidad de ir, no de cómo llegar, ignorando la petición.", "patron_trampa": "logica_conversacional_rota"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-008",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "Do you happen to know if this train stops at Central Station?",
+    "opciones": {
+      "A": "I usually take the bus instead of the train.",
+      "B": "Yes, it's the third stop from here.",
+      "C": "I would be delighted to provide you with that information at your earliest convenience."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Confirma directamente la información solicitada de forma clara y natural.",
+    "distractores": {
+      "A": {"explicacion": "Encajaría en una conversación comparando preferencias de transporte, no responde si el tren para en esa estación.", "patron_trampa": "fuera_de_contexto"},
+      "C": {"explicacion": "El registro extremadamente formal es inapropiado para responder una pregunta rápida entre desconocidos en un tren.", "patron_trampa": "registro_inadecuado"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-009",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Sorry to bother you, but do you know the Wi-Fi password for this café?",
+    "opciones": {
+      "A": "This café has really good coffee, in my opinion.",
+      "B": "I don't come here very often, to be honest.",
+      "C": "Yes, it's written on the receipt they give you."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Responde directamente a la pregunta sobre la contraseña del Wi-Fi con información útil y específica.",
+    "distractores": {
+      "A": {"explicacion": "Es una opinión sobre el café que no responde a la pregunta sobre el Wi-Fi.", "patron_trampa": "logica_conversacional_rota"},
+      "B": {"explicacion": "Encajaría en una conversación sobre la frecuencia con la que visita el lugar, no sobre la contraseña.", "patron_trampa": "fuera_de_contexto"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-010",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Excuse me, could you tell me where the nearest ATM is?",
+    "opciones": {
+      "A": "There's one right around the corner, next to the supermarket.",
+      "B": "I never carry cash with me anymore.",
+      "C": "ATMs sometimes charge a fee for withdrawals."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Da la ubicación exacta solicitada de forma clara y útil.",
+    "distractores": {
+      "B": {"explicacion": "Encajaría en una conversación sobre hábitos de pago, no responde dónde está el cajero.", "patron_trampa": "fuera_de_contexto"},
+      "C": {"explicacion": "Ofrece un dato irrelevante sobre comisiones en vez de indicar la ubicación pedida.", "patron_trampa": "logica_conversacional_rota"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-011",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "I'm really sorry, but I broke one of your glasses while washing the dishes.",
+    "opciones": {
+      "A": "Glasses are often made of very fragile material.",
+      "B": "Don't worry about it, accidents happen. I have plenty more.",
+      "C": "I hope you enjoyed the dinner last night."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Responde adecuadamente a la disculpa, restando importancia al incidente de forma tranquilizadora.",
+    "distractores": {
+      "A": {"explicacion": "Es un comentario factual genérico que no responde a la disculpa.", "patron_trampa": "logica_conversacional_rota"},
+      "C": {"explicacion": "Encajaría en una conversación diferente sobre una cena, no responde al incidente de los vasos rotos.", "patron_trampa": "fuera_de_contexto"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-012",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "This soup is cold, and I ordered it twenty minutes ago. Could someone check on it?",
+    "opciones": {
+      "A": "Soup is one of our most popular dishes here.",
+      "B": "I'll have the same thing you're having, please.",
+      "C": "I apologize for the delay. I'll bring you a hot one right away."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Reconoce la queja, se disculpa y ofrece una solución concreta e inmediata.",
+    "distractores": {
+      "A": {"explicacion": "Encajaría en una conversación recomendando platos del menú, no responde a la queja.", "patron_trampa": "fuera_de_contexto"},
+      "B": {"explicacion": "Suena como si estuviera ordenando comida, ignorando por completo la queja planteada.", "patron_trampa": "logica_conversacional_rota"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-013",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "I'm sorry I'm late. My bus got stuck in traffic.",
+    "opciones": {
+      "A": "No problem, we haven't even started yet.",
+      "B": "Traffic in this city is getting worse every year.",
+      "C": "I take the bus to work every single day."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Responde adecuadamente aceptando la disculpa y tranquilizando a la otra persona con información relevante.",
+    "distractores": {
+      "B": {"explicacion": "Encajaría en una conversación general sobre el tráfico de la ciudad, no responde directamente a la disculpa.", "patron_trampa": "fuera_de_contexto"},
+      "C": {"explicacion": "Comparte una rutina personal irrelevante en vez de aceptar la disculpa.", "patron_trampa": "logica_conversacional_rota"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-014",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "I need to complain about the noise coming from the apartment upstairs; it kept me up all night.",
+    "opciones": {
+      "A": "Some apartments have better soundproofing than others.",
+      "B": "I'm sorry to hear that. I'll speak to the tenants about it today.",
+      "C": "Might I inquire as to the precise nature and duration of said disturbance?"
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Reconoce la queja con empatía y ofrece una acción concreta para resolverla, como se esperaría de un administrador responsable.",
+    "distractores": {
+      "A": {"explicacion": "Es un comentario factual genérico que no atiende la queja concreta.", "patron_trampa": "logica_conversacional_rota"},
+      "C": {"explicacion": "El registro extremadamente formal y legalista no encaja con la forma natural en que un administrador respondería a un vecino molesto.", "patron_trampa": "registro_inadecuado"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-015",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "I'm afraid I can't make it to the meeting tomorrow. Something urgent came up.",
+    "opciones": {
+      "A": "Urgent situations can be really stressful to deal with.",
+      "B": "The meeting room has been recently renovated.",
+      "C": "No worries, I'll send you a summary afterward."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Responde de forma práctica y tranquilizadora, ofreciendo una solución razonable ante la ausencia.",
+    "distractores": {
+      "A": {"explicacion": "Encajaría en una conversación empática general sobre el estrés, no ofrece una respuesta práctica a la cancelación.", "patron_trampa": "fuera_de_contexto"},
+      "B": {"explicacion": "Es un dato irrelevante sobre la sala que ignora por completo el mensaje sobre la ausencia.", "patron_trampa": "logica_conversacional_rota"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-016",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Would you rather have pizza or sushi tonight?",
+    "opciones": {
+      "A": "I'm in the mood for pizza, actually.",
+      "B": "I had sushi for lunch yesterday.",
+      "C": "Some restaurants deliver both pizza and sushi."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Expresa una preferencia clara y directa entre las dos opciones planteadas.",
+    "distractores": {
+      "B": {"explicacion": "Menciona un evento pasado en vez de expresar la preferencia actual que se pidió.", "patron_trampa": "logica_conversacional_rota"},
+      "C": {"explicacion": "Es un dato general sobre restaurantes que no expresa ninguna preferencia personal.", "patron_trampa": "fuera_de_contexto"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-017",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Do you prefer working from home or going to the office?",
+    "opciones": {
+      "A": "The office is only a ten-minute walk from my house.",
+      "B": "Honestly, I prefer working from home, it's quieter.",
+      "C": "A lot of companies switched to remote work recently."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Expresa una preferencia personal clara con una razón, respondiendo directamente a la pregunta.",
+    "distractores": {
+      "A": {"explicacion": "Describe la distancia a la oficina, pero no expresa ninguna preferencia entre las dos opciones.", "patron_trampa": "fuera_de_contexto"},
+      "C": {"explicacion": "Es una tendencia general que no responde a la preferencia personal que se pidió.", "patron_trampa": "logica_conversacional_rota"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-018",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Which do you like better, the mountains or the beach, for a vacation?",
+    "opciones": {
+      "A": "I've never traveled outside my own country.",
+      "B": "The beach is usually busier during the summer months.",
+      "C": "I'd definitely choose the mountains; I love hiking."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Expresa una preferencia clara entre las dos opciones y la justifica brevemente.",
+    "distractores": {
+      "A": {"explicacion": "Encajaría en una pregunta sobre experiencia de viaje internacional, no expresa una preferencia entre montaña y playa.", "patron_trampa": "fuera_de_contexto"},
+      "B": {"explicacion": "Es un dato factual general que no responde cuál opción prefiere la persona.", "patron_trampa": "logica_conversacional_rota"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-019",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Would you rather watch a comedy or a horror movie tonight?",
+    "opciones": {
+      "A": "Let's go with the comedy, I really need to laugh.",
+      "B": "Horror movies became popular again a few years ago.",
+      "C": "I watched a great documentary last weekend."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Elige claramente una de las dos opciones y da una razón coherente con el contexto.",
+    "distractores": {
+      "B": {"explicacion": "Es un comentario sobre una tendencia general que no expresa una elección personal.", "patron_trampa": "logica_conversacional_rota"},
+      "C": {"explicacion": "Encajaría en una conversación sobre lo que se vio recientemente, no responde a la elección entre comedia y terror.", "patron_trampa": "fuera_de_contexto"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-020",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Do you like your coffee with milk or black?",
+    "opciones": {
+      "A": "I don't usually drink coffee in the afternoon.",
+      "B": "Black, please, no milk or sugar.",
+      "C": "I would prefer to abstain from providing a definitive answer at this juncture."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Responde directamente a la pregunta con una preferencia clara y específica.",
+    "distractores": {
+      "A": {"explicacion": "Encajaría en una pregunta sobre el horario en que se toma café, no sobre cómo se prefiere.", "patron_trampa": "fuera_de_contexto"},
+      "C": {"explicacion": "El registro exageradamente formal y evasivo es completamente inapropiado para una pregunta tan simple y cotidiana.", "patron_trampa": "registro_inadecuado"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-021",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Why don't we try that new Italian restaurant this weekend?",
+    "opciones": {
+      "A": "Italian food originated in different regions of Italy.",
+      "B": "I had pasta for dinner last night.",
+      "C": "That sounds great, should I make a reservation?"
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Acepta la sugerencia y da un paso práctico y lógico a seguir.",
+    "distractores": {
+      "A": {"explicacion": "Es un dato cultural genérico que no responde a la sugerencia planteada.", "patron_trampa": "logica_conversacional_rota"},
+      "B": {"explicacion": "Encajaría en una conversación sobre lo que se comió recientemente, no responde a la sugerencia del restaurante.", "patron_trampa": "fuera_de_contexto"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-022",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Would you like me to carry one of those bags for you?",
+    "opciones": {
+      "A": "That would be really helpful, thank you.",
+      "B": "I bought these bags at the market this morning.",
+      "C": "Carrying heavy things can hurt your back."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Acepta el ofrecimiento de ayuda de forma clara y agradecida.",
+    "distractores": {
+      "B": {"explicacion": "Encajaría en una conversación sobre dónde se compraron las bolsas, no responde al ofrecimiento de ayuda.", "patron_trampa": "fuera_de_contexto"},
+      "C": {"explicacion": "Es un consejo general de salud que no acepta ni rechaza la oferta hecha.", "patron_trampa": "logica_conversacional_rota"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-023",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Shall we take a break and grab some coffee?",
+    "opciones": {
+      "A": "Coffee shops are usually crowded around this time.",
+      "B": "Good idea, I could really use a break.",
+      "C": "I don't drink coffee very often."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Acepta claramente la sugerencia de tomar un descanso, mostrando acuerdo directo.",
+    "distractores": {
+      "A": {"explicacion": "Es un comentario general que no confirma ni rechaza la sugerencia hecha.", "patron_trampa": "logica_conversacional_rota"},
+      "C": {"explicacion": "Encajaría en una conversación sobre hábitos de consumo de café, no responde si acepta el descanso.", "patron_trampa": "fuera_de_contexto"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-024",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "How about we split the bill evenly instead of calculating exactly what everyone had?",
+    "opciones": {
+      "A": "The bill includes a service charge already.",
+      "B": "I only had a salad and some water.",
+      "C": "Sure, that's much easier for everyone."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Acepta la propuesta de dividir la cuenta de forma sencilla, coherente con lo planteado.",
+    "distractores": {
+      "A": {"explicacion": "Encajaría en una conversación explicando el detalle de la cuenta, no responde a la propuesta de dividirla.", "patron_trampa": "fuera_de_contexto"},
+      "B": {"explicacion": "Justifica su propio consumo, lo cual solo tendría sentido si se opusiera a dividir en partes iguales, pero no responde directamente a la propuesta.", "patron_trampa": "logica_conversacional_rota"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-025",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "I could give you a ride to the airport tomorrow if you'd like.",
+    "opciones": {
+      "A": "I'd really appreciate that, thanks so much!",
+      "B": "The airport is usually busiest in the early morning.",
+      "C": "I've flown from that airport many times before."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Acepta el ofrecimiento de forma clara y agradecida.",
+    "distractores": {
+      "B": {"explicacion": "Es un dato general sobre el aeropuerto que no responde al ofrecimiento hecho.", "patron_trampa": "logica_conversacional_rota"},
+      "C": {"explicacion": "Encajaría en una conversación sobre experiencias de viaje pasadas, no responde si acepta el aventón ofrecido.", "patron_trampa": "fuera_de_contexto"}
+    }
+  }
+]

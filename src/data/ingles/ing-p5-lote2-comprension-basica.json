@@ -1,0 +1,490 @@
+[
+  {
+    "id": "ING-P5-TEXTO-005",
+    "modulo": "ingles",
+    "parte": 5,
+    "tipo": "comprension_basica",
+    "nivel_mcer": "B1",
+    "texto_base": "The zipper, a device now found on almost every jacket, bag, and pair of jeans, took several decades and multiple inventors to develop into the reliable fastener we use today. The earliest version, patented in 1893 by an American engineer named Whitcomb Judson, was actually quite unreliable and prone to popping open unexpectedly, which meant it never became popular with the general public.\n\nFor nearly twenty years, Judson's invention remained a commercial failure, largely because it required careful, precise manufacturing that factories at the time struggled to produce consistently. It was not until 1913 that a Swedish-American engineer named Gideon Sundback significantly improved the design, increasing the number of teeth per inch and creating interlocking parts that gripped each other far more securely than earlier versions.\n\nDespite this improvement, the zipper still took years to catch on with the public. Early advertisements struggled to explain exactly what the device was or why it was better than traditional buttons, which most people already understood and trusted. The turning point came when clothing manufacturers began using zippers on boots and tobacco pouches, allowing customers to experience the convenience directly rather than simply reading about it in an advertisement.\n\nThe fashion industry was initially slow to adopt the zipper as well, since designers worried it looked too mechanical or industrial for elegant clothing. This attitude changed dramatically in the 1930s, when the zipper began appearing in children's clothing, marketed partly as a way to encourage independence, since children could dress themselves without needing help with buttons.\n\nBy the mid-twentieth century, zippers had become a standard feature in trousers, dresses, and countless other garments, largely replacing buttons in many types of clothing. Today, the device is manufactured by the billions each year, and most people rarely think twice about the decades of trial and error that went into perfecting something so seemingly simple.",
+    "preguntas": [
+      {
+        "num": 1,
+        "habilidad": "informacion_explicita",
+        "enunciado": "According to the text, why was Judson's original zipper design a commercial failure?",
+        "opciones": {
+          "A": "It was too expensive for most consumers to buy",
+          "B": "It required precise manufacturing that factories struggled to produce consistently",
+          "C": "It could not be used on any type of clothing"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto indica que la manufactura precisa que requería el diseño original era difícil de producir de forma consistente en esa época.",
+        "distractores": {
+          "A": {"explicacion": "El texto no menciona el costo como motivo del fracaso.", "patron_trampa": "fuera_de_contexto"},
+          "C": {"explicacion": "El texto no dice que no pudiera usarse en ropa, sino que era poco confiable.", "patron_trampa": "significado_cercano"}
+        }
+      },
+      {
+        "num": 2,
+        "habilidad": "vocabulario_en_contexto",
+        "enunciado": "In the text, the phrase 'catch on' is closest in meaning to:",
+        "opciones": {
+          "A": "be repaired quickly",
+          "B": "be sold at a discount",
+          "C": "become popular"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto describe que la cremallera tardó años en 'catch on' con el público, es decir, en volverse popular.",
+        "distractores": {
+          "A": {"explicacion": "No corresponde en absoluto al significado de la expresión.", "patron_trampa": "fuera_de_contexto"},
+          "B": {"explicacion": "Relacionado con ventas, pero no es el significado de 'catch on'.", "patron_trampa": "significado_cercano"}
+        }
+      },
+      {
+        "num": 3,
+        "habilidad": "referencia_pronominal",
+        "enunciado": "In the sentence 'which most people already understood and trusted,' what does 'which' refer to?",
+        "opciones": {
+          "A": "traditional buttons",
+          "B": "advertisements",
+          "C": "the zipper"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Which' se refiere a 'traditional buttons', mencionado justo antes en la misma oración.",
+        "distractores": {
+          "B": {"explicacion": "Es un sustantivo cercano en el texto, pero no es a lo que se refiere 'which'.", "patron_trampa": "referencia_incorrecta"},
+          "C": {"explicacion": "Es precisamente lo contrario a lo que la gente ya entendía y confiaba.", "patron_trampa": "fuera_de_contexto"}
+        }
+      },
+      {
+        "num": 4,
+        "habilidad": "idea_principal",
+        "enunciado": "What is the main idea of the text?",
+        "opciones": {
+          "A": "Gideon Sundback was the sole inventor of the zipper",
+          "B": "The zipper took decades of gradual improvement and changing attitudes before it became a widely accepted part of clothing",
+          "C": "Buttons are more reliable than zippers even today"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto narra el largo proceso de mejora técnica y de aceptación social que tomó la cremallera hasta volverse estándar.",
+        "distractores": {
+          "A": {"explicacion": "Sundback mejoró el diseño, pero Judson lo patentó primero; el texto no dice que Sundback fue el único inventor.", "patron_trampa": "significado_cercano"},
+          "C": {"explicacion": "No es una afirmación que el texto sostenga.", "patron_trampa": "fuera_de_contexto"}
+        }
+      },
+      {
+        "num": 5,
+        "habilidad": "informacion_explicita",
+        "enunciado": "According to the text, how did clothing manufacturers help the zipper become more accepted?",
+        "opciones": {
+          "A": "By offering free zippers to fashion designers",
+          "B": "By lowering the price of zippers significantly",
+          "C": "By using it on boots and tobacco pouches so customers could experience it directly"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto explica que usar la cremallera en botas y bolsas de tabaco permitió que los clientes la probaran directamente.",
+        "distractores": {
+          "A": {"explicacion": "El texto no menciona ninguna oferta gratuita a diseñadores.", "patron_trampa": "fuera_de_contexto"},
+          "B": {"explicacion": "Relacionado con estrategias comerciales, pero no es lo que el texto menciona específicamente.", "patron_trampa": "significado_cercano"}
+        }
+      },
+      {
+        "num": 6,
+        "habilidad": "vocabulario_en_contexto",
+        "enunciado": "In the text, the word 'interlocking' most likely means:",
+        "opciones": {
+          "A": "fitting together closely, like connected pieces",
+          "B": "completely separate and unconnected",
+          "C": "made of metal instead of plastic"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El texto describe piezas 'interlocking' que se agarran entre sí con más firmeza, es decir, que encajan estrechamente.",
+        "distractores": {
+          "B": {"explicacion": "Es el significado opuesto al de 'interlocking'.", "patron_trampa": "fuera_de_contexto"},
+          "C": {"explicacion": "Los cierres suelen ser de metal, pero eso no es lo que significa 'interlocking'.", "patron_trampa": "significado_cercano"}
+        }
+      },
+      {
+        "num": 7,
+        "habilidad": "referencia_pronominal",
+        "enunciado": "In the sentence 'children could dress themselves without needing help with buttons,' what does 'themselves' refer to?",
+        "opciones": {
+          "A": "designers",
+          "B": "children",
+          "C": "buttons"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Themselves' refuerza que son los propios niños quienes se visten solos.",
+        "distractores": {
+          "A": {"explicacion": "Es un sustantivo mencionado en el texto, pero no es a quien se refiere 'themselves'.", "patron_trampa": "referencia_incorrecta"},
+          "C": {"explicacion": "No corresponde como referente lógico de un pronombre reflexivo de persona.", "patron_trampa": "fuera_de_contexto"}
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P5-TEXTO-006",
+    "modulo": "ingles",
+    "parte": 5,
+    "tipo": "comprension_basica",
+    "nivel_mcer": "B1",
+    "texto_base": "Almost everyone has experienced goosebumps at some point, whether from feeling suddenly cold, watching an emotional scene in a movie, or hearing a piece of music that gives them chills. This strange physical reaction, technically known as piloerection, causes tiny bumps to appear on the skin as the hair follicles briefly contract.\n\nThe reaction begins with a small muscle attached to each hair follicle called the arrector pili muscle. When triggered, usually by cold temperatures or strong emotions, this muscle contracts and pulls the hair upright, creating the small raised bumps we recognize as goosebumps. In animals with thick fur, this reaction traps a layer of air close to the skin, which helps with insulation during cold weather.\n\nFor humans, however, this response is largely a leftover from our evolutionary past. Since humans have relatively little body hair compared to our ancestors, raising it no longer provides any meaningful warmth. Despite this, the underlying reflex remains fully intact in our nervous system, which is why cold temperatures can still trigger goosebumps even though the response barely helps us stay warm.\n\nInterestingly, goosebumps are not limited to cold weather. The same reflex can be triggered by strong emotional experiences, including fear, awe, or deep appreciation for music or art. Researchers believe this emotional version of the reflex may be connected to an older evolutionary function: making an animal's fur stand up to appear larger and more intimidating when frightened or threatened, a reaction still visible today in animals such as cats.\n\nScientists studying this emotional trigger have found that goosebumps often appear at particularly meaningful or unexpected moments in music, such as a sudden change in volume or an unexpected harmony. This has led some researchers to use goosebumps as a measurable, physical sign of a genuine emotional response, since the reaction is difficult to fake intentionally.\n\nAlthough goosebumps may seem like a minor, almost trivial bodily reaction, they offer a small but fascinating window into how the human body continues to carry physical traces of behaviors that once served a clear evolutionary purpose.",
+    "preguntas": [
+      {
+        "num": 1,
+        "habilidad": "informacion_explicita",
+        "enunciado": "According to the text, what causes the small bumps on the skin during goosebumps?",
+        "opciones": {
+          "A": "A sudden increase in body temperature",
+          "B": "Blood rushing quickly to the surface of the skin",
+          "C": "The contraction of the arrector pili muscle, which pulls the hair upright"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto explica que el músculo arrector pili se contrae y levanta el vello, formando las pequeñas protuberancias.",
+        "distractores": {
+          "A": {"explicacion": "El texto no menciona ningún aumento de temperatura corporal como causa.", "patron_trampa": "fuera_de_contexto"},
+          "B": {"explicacion": "Suena a una explicación fisiológica plausible, pero no es la mencionada en el texto.", "patron_trampa": "significado_cercano"}
+        }
+      },
+      {
+        "num": 2,
+        "habilidad": "vocabulario_en_contexto",
+        "enunciado": "In the text, the word 'intact' is closest in meaning to:",
+        "opciones": {
+          "A": "still complete and functioning",
+          "B": "completely removed",
+          "C": "slightly damaged"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El texto dice que el reflejo permanece 'fully intact', es decir, completamente funcional pese a ya no servir del todo su propósito original.",
+        "distractores": {
+          "B": {"explicacion": "Es el significado opuesto al de 'intact'.", "patron_trampa": "fuera_de_contexto"},
+          "C": {"explicacion": "Sugiere algún tipo de deterioro parcial, pero 'intact' implica que no hay ningún daño.", "patron_trampa": "significado_cercano"}
+        }
+      },
+      {
+        "num": 3,
+        "habilidad": "referencia_pronominal",
+        "enunciado": "In the sentence 'raising it no longer provides any meaningful warmth,' what does 'it' refer to?",
+        "opciones": {
+          "A": "the arrector pili muscle",
+          "B": "body hair",
+          "C": "our evolutionary past"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'It' se refiere a 'body hair', mencionado justo antes en la misma oración.",
+        "distractores": {
+          "A": {"explicacion": "Es un sustantivo cercano en el texto, pero no es a lo que se refiere 'it'.", "patron_trampa": "referencia_incorrecta"},
+          "C": {"explicacion": "No tiene sentido lógico como algo que se pueda 'levantar' físicamente.", "patron_trampa": "fuera_de_contexto"}
+        }
+      },
+      {
+        "num": 4,
+        "habilidad": "idea_principal",
+        "enunciado": "What is the main idea of the text?",
+        "opciones": {
+          "A": "Goosebumps are a modern medical condition that doctors are still trying to cure",
+          "B": "Only animals with thick fur experience goosebumps",
+          "C": "Goosebumps are a leftover evolutionary reflex that can still be triggered by cold or strong emotions, even though it no longer serves its original purpose in humans"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto explica que la piel de gallina es un reflejo evolutivo que persiste aunque ya no cumpla su función original en los humanos.",
+        "distractores": {
+          "A": {"explicacion": "No es una afirmación que el texto sostenga; no se describe como una condición médica.", "patron_trampa": "fuera_de_contexto"},
+          "B": {"explicacion": "El texto menciona animales con pelaje grueso, pero también aclara que los humanos experimentan la misma reacción.", "patron_trampa": "significado_cercano"}
+        }
+      },
+      {
+        "num": 5,
+        "habilidad": "informacion_explicita",
+        "enunciado": "According to the text, why might goosebumps be useful to researchers studying emotion?",
+        "opciones": {
+          "A": "Because they are difficult to fake intentionally, making them a genuine sign of emotional response",
+          "B": "Because they always appear at the same moment in every song",
+          "C": "Because they can be measured more accurately than heart rate"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El texto indica que los investigadores usan la piel de gallina como señal física genuina precisamente porque es difícil de fingir.",
+        "distractores": {
+          "B": {"explicacion": "El texto no dice que ocurra siempre en el mismo momento en cada canción.", "patron_trampa": "fuera_de_contexto"},
+          "C": {"explicacion": "Suena a una comparación científica plausible, pero el texto no compara con la frecuencia cardíaca.", "patron_trampa": "significado_cercano"}
+        }
+      },
+      {
+        "num": 6,
+        "habilidad": "vocabulario_en_contexto",
+        "enunciado": "In the text, the word 'intimidating' most likely means:",
+        "opciones": {
+          "A": "extremely attractive",
+          "B": "causing fear or a sense of threat",
+          "C": "unusually colorful"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto describe que el pelaje erizado hace parecer a un animal más grande y 'intimidating', es decir, más amenazante.",
+        "distractores": {
+          "A": {"explicacion": "No corresponde en absoluto al significado de 'intimidating'.", "patron_trampa": "fuera_de_contexto"},
+          "C": {"explicacion": "Podría sonar relacionado con la apariencia visual de un animal, pero no es el significado de 'intimidating'.", "patron_trampa": "significado_cercano"}
+        }
+      },
+      {
+        "num": 7,
+        "habilidad": "referencia_pronominal",
+        "enunciado": "In the sentence 'a reaction still visible today in animals such as cats,' what does 'a reaction' refer to?",
+        "opciones": {
+          "A": "the ability to see in the dark",
+          "B": "the arrector pili muscle itself",
+          "C": "fur standing up to appear larger when frightened"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'A reaction' se refiere a que el pelaje se eriza para parecer más grande, mencionado justo antes en la misma oración.",
+        "distractores": {
+          "A": {"explicacion": "No tiene relación con lo descrito en esa oración sobre el pelaje.", "patron_trampa": "fuera_de_contexto"},
+          "B": {"explicacion": "Es la estructura responsable del reflejo, no la reacción en sí misma descrita en esa oración.", "patron_trampa": "referencia_incorrecta"}
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P5-TEXTO-007",
+    "modulo": "ingles",
+    "parte": 5,
+    "tipo": "comprension_basica",
+    "nivel_mcer": "A2",
+    "texto_base": "Vending machines seem simple from the outside: insert money, press a button, and a snack or drink drops down for collection. Behind this straightforward experience, however, lies a surprisingly complex combination of mechanics, electronics, and inventory management working together every time a purchase is made.\n\nWhen a customer inserts coins, bills, or a card, the machine's payment system first verifies that the correct amount has been received. Coin mechanisms use the size, weight, and even the metal composition of each coin to confirm it is genuine, rejecting anything that does not match the expected measurements. Modern machines equipped with card readers or mobile payment options rely on a small internal computer to communicate with a bank or payment network before authorizing the transaction.\n\nOnce payment is confirmed, the machine needs to identify which product the customer selected. Most machines assign each item to a specific row and column, often labeled with a letter and a number, such as B4 or C7. When the customer enters this code, the machine's control board activates a small motor connected to that particular slot, which rotates or releases a mechanism holding the product in place.\n\nFor snacks arranged on spiral coils, the motor slowly turns the coil, gradually pushing the item forward until it falls off the edge into the collection area below. Drink machines often use a different mechanism, releasing a bottle or can from a stacked column using a small trapdoor or gate that opens just long enough for one item to fall through.\n\nBehind the scenes, many modern vending machines also track inventory automatically, sending alerts to suppliers when a particular product is running low. Some machines even use sensors to detect when an item becomes stuck, alerting operators remotely so the problem can be fixed before too many customers are affected.\n\nAlthough vending machines might seem like a purely mechanical convenience, this quiet combination of sensors, small motors, and inventory software allows companies to sell products around the clock, in locations where staffing a human cashier would simply not be practical.",
+    "preguntas": [
+      {
+        "num": 1,
+        "habilidad": "informacion_explicita",
+        "enunciado": "According to the text, how do coin mechanisms verify that a coin is genuine?",
+        "opciones": {
+          "A": "By checking its size, weight, and metal composition",
+          "B": "By scanning a barcode printed on each coin",
+          "C": "By comparing it to a photograph stored in the machine"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El texto indica que el mecanismo verifica el tamaño, peso y composición metálica de cada moneda.",
+        "distractores": {
+          "B": {"explicacion": "El texto no menciona ningún código de barras en las monedas.", "patron_trampa": "fuera_de_contexto"},
+          "C": {"explicacion": "Suena a un método de verificación plausible, pero el texto no lo menciona.", "patron_trampa": "significado_cercano"}
+        }
+      },
+      {
+        "num": 2,
+        "habilidad": "vocabulario_en_contexto",
+        "enunciado": "In the text, the word 'authorizing' is closest in meaning to:",
+        "opciones": {
+          "A": "canceling completely",
+          "B": "officially approving",
+          "C": "recording for future reference"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto describe que la computadora se comunica con el banco antes de 'authorizing' la transacción, es decir, aprobarla oficialmente.",
+        "distractores": {
+          "A": {"explicacion": "Es el significado opuesto al de 'authorizing'.", "patron_trampa": "fuera_de_contexto"},
+          "C": {"explicacion": "Relacionado con procesar una transacción, pero no es el significado de 'authorizing'.", "patron_trampa": "significado_cercano"}
+        }
+      },
+      {
+        "num": 3,
+        "habilidad": "referencia_pronominal",
+        "enunciado": "In the sentence 'When the customer enters this code, the machine's control board activates a small motor,' what does 'this code' refer to?",
+        "opciones": {
+          "A": "the customer's payment card number",
+          "B": "the machine's serial number",
+          "C": "the letter and number combination identifying the product"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'This code' se refiere a la combinación de letra y número, como B4, mencionada justo antes.",
+        "distractores": {
+          "A": {"explicacion": "Es un dato relacionado con el pago, pero no es a lo que se refiere 'this code' en esta oración.", "patron_trampa": "referencia_incorrecta"},
+          "B": {"explicacion": "No se menciona ningún número de serie de la máquina en el texto.", "patron_trampa": "fuera_de_contexto"}
+        }
+      },
+      {
+        "num": 4,
+        "habilidad": "idea_principal",
+        "enunciado": "What is the main idea of the text?",
+        "opciones": {
+          "A": "Vending machines rely on a complex combination of mechanical and electronic systems to complete what looks like a simple transaction",
+          "B": "Vending machines are gradually being replaced entirely by human cashiers",
+          "C": "Card payments are more reliable than coin payments in vending machines"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El texto describe los distintos sistemas mecánicos y electrónicos que trabajan juntos detrás de una compra aparentemente simple.",
+        "distractores": {
+          "B": {"explicacion": "Contradice el texto, que explica que las máquinas permiten prescindir de cajeros humanos, no que estén siendo reemplazadas por ellos.", "patron_trampa": "fuera_de_contexto"},
+          "C": {"explicacion": "El texto menciona ambos métodos de pago, pero no hace esa comparación de fiabilidad.", "patron_trampa": "significado_cercano"}
+        }
+      },
+      {
+        "num": 5,
+        "habilidad": "informacion_explicita",
+        "enunciado": "According to the text, how do modern vending machines help suppliers manage inventory?",
+        "opciones": {
+          "A": "By printing a paper report at the end of each day",
+          "B": "By automatically sending alerts when a product is running low",
+          "C": "By requiring suppliers to check the machine in person every week"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto indica que las máquinas envían alertas automáticas a los proveedores cuando un producto se está agotando.",
+        "distractores": {
+          "A": {"explicacion": "El texto no menciona ningún reporte impreso diario.", "patron_trampa": "fuera_de_contexto"},
+          "C": {"explicacion": "Relacionado con la gestión de inventario, pero el texto describe un sistema automático, no visitas manuales obligatorias.", "patron_trampa": "significado_cercano"}
+        }
+      },
+      {
+        "num": 6,
+        "habilidad": "vocabulario_en_contexto",
+        "enunciado": "In the text, the word 'stuck' most likely means:",
+        "opciones": {
+          "A": "specially discounted",
+          "B": "sold out completely",
+          "C": "unable to move or fall as expected"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto describe sensores que detectan cuando un producto queda 'stuck', es decir, atascado sin poder caer correctamente.",
+        "distractores": {
+          "A": {"explicacion": "No corresponde en absoluto al significado de 'stuck'.", "patron_trampa": "fuera_de_contexto"},
+          "B": {"explicacion": "Relacionado con productos no disponibles, pero no es el significado de 'stuck'.", "patron_trampa": "significado_cercano"}
+        }
+      },
+      {
+        "num": 7,
+        "habilidad": "referencia_pronominal",
+        "enunciado": "In the sentence 'alerting operators remotely so the problem can be fixed,' what does 'the problem' refer to?",
+        "opciones": {
+          "A": "an item becoming stuck in the machine",
+          "B": "a coin being rejected by the machine",
+          "C": "a customer losing their payment card"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'The problem' se refiere al ítem atascado descrito justo antes en la misma oración.",
+        "distractores": {
+          "B": {"explicacion": "Es un evento mencionado antes en el texto, pero no es a lo que se refiere 'the problem' en esta oración específica.", "patron_trampa": "referencia_incorrecta"},
+          "C": {"explicacion": "No se menciona en el texto ninguna situación relacionada con tarjetas perdidas.", "patron_trampa": "fuera_de_contexto"}
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P5-TEXTO-008",
+    "modulo": "ingles",
+    "parte": 5,
+    "tipo": "comprension_basica",
+    "nivel_mcer": "B1",
+    "texto_base": "Before the nineteenth century, blind individuals had extremely limited access to written information, relying almost entirely on others to read aloud to them. Although a few raised-letter systems existed, they were slow to read and difficult to produce, since each book had to be printed using large, expensive embossed letters that closely copied ordinary print.\n\nThe system that would eventually transform this situation was developed by a young Frenchman named Louis Braille, who lost his sight in a childhood accident at the age of three. As a teenager attending a school for blind students in Paris, Braille encountered a military communication system called \"night writing,\" originally designed by a French army officer so soldiers could read messages in the dark without using light that might reveal their position to the enemy.\n\nBraille recognized the potential of this system but felt it was unnecessarily complicated, since it used twelve raised dots to represent each sound. Over several years, he simplified and adapted the idea, eventually creating a system based on a much simpler arrangement of just six dots, arranged in two columns of three, which could represent letters, numbers, and punctuation.\n\nDespite its clear advantages, Braille's system faced significant resistance for decades, even at the very school where he had developed it. Many sighted teachers and administrators were reluctant to adopt a system they themselves could not easily read, and some worried that promoting a separate system for blind students would isolate them from the sighted world rather than integrate them into it.\n\nIt was not until after Braille's death in 1852 that his system finally received widespread official recognition, first in France and later in schools and organizations around the world. Today, braille has been adapted for use in almost every written language, allowing blind and visually impaired people to read books, signs, medication labels, and countless other everyday materials independently.\n\nLouis Braille never lived to see his invention widely accepted, yet the six-dot system he developed as a teenager remains, nearly two centuries later, one of the most significant tools for literacy and independence available to blind people worldwide.",
+    "preguntas": [
+      {
+        "num": 1,
+        "habilidad": "informacion_explicita",
+        "enunciado": "According to the text, what was 'night writing' originally designed for?",
+        "opciones": {
+          "A": "So blind students could communicate secretly during class",
+          "B": "So soldiers could read messages in the dark without using light",
+          "C": "So messages could be sent over long distances more quickly"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto explica que 'night writing' fue diseñado por un oficial militar para que los soldados leyeran mensajes en la oscuridad sin usar luz.",
+        "distractores": {
+          "A": {"explicacion": "El texto no menciona ningún uso original relacionado con estudiantes ciegos comunicándose en clase.", "patron_trampa": "fuera_de_contexto"},
+          "C": {"explicacion": "Suena a un propósito militar plausible, pero el texto especifica que era para leer en la oscuridad, no para enviar mensajes a distancia.", "patron_trampa": "significado_cercano"}
+        }
+      },
+      {
+        "num": 2,
+        "habilidad": "vocabulario_en_contexto",
+        "enunciado": "In the text, the word 'embossed' is closest in meaning to:",
+        "opciones": {
+          "A": "printed in bright colors",
+          "B": "written by hand",
+          "C": "raised above the surface"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto describe letras 'embossed' que copiaban la impresión ordinaria en relieve, es decir, elevadas sobre la superficie.",
+        "distractores": {
+          "A": {"explicacion": "No corresponde en absoluto al significado de 'embossed'.", "patron_trampa": "fuera_de_contexto"},
+          "B": {"explicacion": "Relacionado con métodos antiguos de producir texto, pero no es el significado de 'embossed'.", "patron_trampa": "significado_cercano"}
+        }
+      },
+      {
+        "num": 3,
+        "habilidad": "referencia_pronominal",
+        "enunciado": "In the sentence 'he simplified and adapted the idea,' what does 'the idea' refer to?",
+        "opciones": {
+          "A": "the twelve-dot night writing system",
+          "B": "the school for blind students",
+          "C": "Braille's childhood accident"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'The idea' se refiere al sistema de doce puntos de 'night writing', mencionado en la oración anterior.",
+        "distractores": {
+          "B": {"explicacion": "Es un lugar mencionado en el texto, pero no es la idea que Braille simplificó.", "patron_trampa": "referencia_incorrecta"},
+          "C": {"explicacion": "No tiene relación lógica con lo que Braille simplificó y adaptó.", "patron_trampa": "fuera_de_contexto"}
+        }
+      },
+      {
+        "num": 4,
+        "habilidad": "idea_principal",
+        "enunciado": "What is the main idea of the text?",
+        "opciones": {
+          "A": "Braille invented night writing for the French army",
+          "B": "Louis Braille developed a simplified reading system for blind people that faced resistance before eventually becoming widely accepted",
+          "C": "Blind people had no way to read at all before the twentieth century"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto narra cómo Braille creó y simplificó un sistema de lectura que enfrentó resistencia antes de ser adoptado ampliamente.",
+        "distractores": {
+          "A": {"explicacion": "Confunde quién inventó el sistema militar original ('night writing') con quién lo adaptó, que fue Braille.", "patron_trampa": "significado_cercano"},
+          "C": {"explicacion": "El texto menciona sistemas anteriores, aunque limitados, no una ausencia total de formas de leer.", "patron_trampa": "fuera_de_contexto"}
+        }
+      },
+      {
+        "num": 5,
+        "habilidad": "informacion_explicita",
+        "enunciado": "According to the text, why were some teachers reluctant to adopt Braille's system?",
+        "opciones": {
+          "A": "They believed the six-dot system was too expensive to produce",
+          "B": "They thought blind students preferred to be read to instead",
+          "C": "They could not easily read it themselves and worried it might isolate blind students"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto indica que los maestros no podían leer fácilmente el sistema y temían que aislara a los estudiantes ciegos.",
+        "distractores": {
+          "A": {"explicacion": "El texto no menciona el costo como motivo de resistencia.", "patron_trampa": "fuera_de_contexto"},
+          "B": {"explicacion": "Relacionado con el tema del texto, pero no es la razón de resistencia mencionada explícitamente.", "patron_trampa": "significado_cercano"}
+        }
+      },
+      {
+        "num": 6,
+        "habilidad": "vocabulario_en_contexto",
+        "enunciado": "In the text, the word 'isolate' most likely means:",
+        "opciones": {
+          "A": "to separate from others",
+          "B": "to protect from harm",
+          "C": "to financially support"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El texto describe el temor de que el sistema 'isolate' a los estudiantes ciegos, es decir, los separara del mundo de los videntes.",
+        "distractores": {
+          "B": {"explicacion": "Podría sonar como una intención positiva relacionada, pero no es el significado de 'isolate'.", "patron_trampa": "significado_cercano"},
+          "C": {"explicacion": "No corresponde en absoluto al significado de 'isolate'.", "patron_trampa": "fuera_de_contexto"}
+        }
+      },
+      {
+        "num": 7,
+        "habilidad": "referencia_pronominal",
+        "enunciado": "In the sentence 'allowing blind and visually impaired people to read... countless other everyday materials independently,' what does 'independently' describe?",
+        "opciones": {
+          "A": "how braille was created without any help from other inventors",
+          "B": "how blind people can now read materials without needing help from others",
+          "C": "how schools for the blind operate separately from other schools"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Independently' describe que las personas ciegas ahora pueden leer materiales cotidianos sin necesitar ayuda de otros.",
+        "distractores": {
+          "A": {"explicacion": "No se refiere a la creación del sistema por parte de Braille, sino a la lectura por parte de los usuarios.", "patron_trampa": "fuera_de_contexto"},
+          "C": {"explicacion": "Es un tema relacionado con la educación de ciegos mencionado en el texto, pero no es lo que describe 'independently' en esta oración.", "patron_trampa": "referencia_incorrecta"}
+        }
+      }
+    ]
+  }
+]

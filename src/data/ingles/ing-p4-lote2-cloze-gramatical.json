@@ -1,0 +1,398 @@
+[
+  {
+    "id": "ING-P4-TEXTO-005",
+    "modulo": "ingles",
+    "parte": 4,
+    "tipo": "cloze_gramatical",
+    "nivel_mcer": "B1",
+    "titulo": "The History of Street Lighting",
+    "texto_con_huecos": "Anyone who has walked down a poorly lit street at night can appreciate just how much modern lighting is taken for granted. Before the invention of reliable street lighting, cities after dark [1] extremely dangerous places, full of shadows where crime, accidents, and simple confusion were common. For centuries, the only light available after sunset came from candles, oil lamps, or the moon itself, and most people avoided walking outside once darkness fell unless it [2] absolutely necessary.\n\nThe first major step toward safer streets came in the seventeenth century, when several European cities began installing oil lamps [3] main roads and public squares. Wealthier neighborhoods were often the first to benefit, while poorer districts sometimes waited decades for the same improvements. These early lamps had to be lit and refilled by hand every night, a job [4] required an army of workers known as lamplighters.\n\nEverything changed again in the early nineteenth century with the introduction of gas lighting. Gas lamps were much [5] than oil lamps, and [6] they were still expensive to install, cities that adopted them quickly noticed a drop in nighttime crime. London, [7] famously became one of the first cities to light its streets with gas, was soon followed by Paris, Berlin, and eventually cities across the world.\n\nBy the late nineteenth century, electric street lighting began to replace gas almost everywhere, offering light that [8] cleaner, safer, and far cheaper to maintain in the long run. Lamplighters, once a common sight in every major city, gradually disappeared from view.\n\nToday, street lighting is so common that it is easy to forget how transformative it once was. What began as a simple safety measure eventually reshaped how cities function after dark, extending working hours, encouraging nightlife, and making urban streets feel far less threatening than they once were. It is a quiet reminder that some of the most ordinary conveniences of modern life were once hard-won achievements.",
+    "huecos": [
+      {
+        "num": 1,
+        "categoria_gramatical": "tiempo verbal (pasado simple)",
+        "opciones": {"A": "are", "B": "was", "C": "were"},
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El sujeto plural 'cities' requiere el pasado simple 'were' para narrar cómo eran las ciudades antes de la iluminación moderna.",
+        "distractores": {
+          "A": {"explicacion": "Usa presente en una narración claramente situada en el pasado histórico.", "patron_trampa": "tiempo_verbal_incorrecto"},
+          "B": {"explicacion": "'Was' es la forma singular; el sujeto plural 'cities' requiere 'were'.", "patron_trampa": "concordancia_incorrecta"}
+        }
+      },
+      {
+        "num": 2,
+        "categoria_gramatical": "tiempo verbal (pasado simple)",
+        "opciones": {"A": "was", "B": "is", "C": "were"},
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El sujeto singular 'it' y el contexto narrativo en pasado requieren 'was'.",
+        "distractores": {
+          "B": {"explicacion": "Usa presente en una narración situada claramente en el pasado.", "patron_trampa": "tiempo_verbal_incorrecto"},
+          "C": {"explicacion": "'Were' es la forma plural; el sujeto singular 'it' requiere 'was'.", "patron_trampa": "concordancia_incorrecta"}
+        }
+      },
+      {
+        "num": 3,
+        "categoria_gramatical": "preposición",
+        "opciones": {"A": "in", "B": "along", "C": "between"},
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Along' expresa la idea de distribuir algo a lo largo de una vía o calle, que es el sentido necesario aquí.",
+        "distractores": {
+          "A": {"explicacion": "'In' no es la preposición natural para describir algo distribuido a lo largo de una calle o vía.", "patron_trampa": "preposicion_incorrecta"},
+          "C": {"explicacion": "'Between' requiere dos elementos específicos, no encaja con una vía extendida como 'main roads'.", "patron_trampa": "estructura_gramatical_invalida"}
+        }
+      },
+      {
+        "num": 4,
+        "categoria_gramatical": "pronombre relativo",
+        "opciones": {"A": "who", "B": "whose", "C": "that"},
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'That' es el pronombre relativo correcto para referirse a 'a job', que no es una persona.",
+        "distractores": {
+          "A": {"explicacion": "'Who' se usa para personas, no para referirse a 'a job'.", "patron_trampa": "referencia_incorrecta"},
+          "B": {"explicacion": "'Whose' indica posesión y no corresponde a la estructura necesaria aquí.", "patron_trampa": "estructura_gramatical_invalida"}
+        }
+      },
+      {
+        "num": 5,
+        "categoria_gramatical": "comparativo",
+        "opciones": {"A": "brighter", "B": "more bright", "C": "brightest"},
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Bright' es un adjetivo corto y forma el comparativo añadiendo '-er': 'brighter'.",
+        "distractores": {
+          "B": {"explicacion": "Los adjetivos cortos como 'bright' forman el comparativo con '-er', no con 'more'.", "patron_trampa": "estructura_gramatical_invalida"},
+          "C": {"explicacion": "Usa la forma superlativa, apropiada para comparar tres o más elementos, no la comparación directa entre lámparas de gas y de aceite.", "patron_trampa": "significado_cercano"}
+        }
+      },
+      {
+        "num": 6,
+        "categoria_gramatical": "conector (concesión)",
+        "opciones": {"A": "because", "B": "although", "C": "despite"},
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Although' introduce la cláusula de concesión necesaria para contrastar el costo elevado con la reducción de la delincuencia.",
+        "distractores": {
+          "A": {"explicacion": "Introduce causa, no la relación de concesión/contraste que exige la oración.", "patron_trampa": "significado_cercano"},
+          "C": {"explicacion": "'Despite' requiere un sustantivo o gerundio, no puede preceder una oración completa con sujeto y verbo conjugado de esta forma.", "patron_trampa": "estructura_gramatical_invalida"}
+        }
+      },
+      {
+        "num": 7,
+        "categoria_gramatical": "pronombre relativo",
+        "opciones": {"A": "that", "B": "who", "C": "which"},
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Which' se usa en cláusulas relativas no restrictivas separadas por comas, y aquí se refiere a 'London', no a una persona.",
+        "distractores": {
+          "A": {"explicacion": "'That' no se usa en cláusulas relativas no restrictivas introducidas por comas.", "patron_trampa": "estructura_gramatical_invalida"},
+          "B": {"explicacion": "'Who' se usa para personas, no para ciudades como 'London'.", "patron_trampa": "referencia_incorrecta"}
+        }
+      },
+      {
+        "num": 8,
+        "categoria_gramatical": "tiempo verbal (pasado simple)",
+        "opciones": {"A": "was", "B": "were", "C": "is"},
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El sujeto singular 'light' y la narración en pasado requieren 'was'.",
+        "distractores": {
+          "B": {"explicacion": "'Were' es la forma plural; el sujeto singular 'light' requiere 'was'.", "patron_trampa": "concordancia_incorrecta"},
+          "C": {"explicacion": "Usa presente en una narración claramente situada en el pasado.", "patron_trampa": "tiempo_verbal_incorrecto"}
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P4-TEXTO-006",
+    "modulo": "ingles",
+    "parte": 4,
+    "tipo": "cloze_gramatical",
+    "nivel_mcer": "B1",
+    "titulo": "Why Do Onions Make Us Cry?",
+    "texto_con_huecos": "Few kitchen tasks provoke as much complaining, and as many old wives' tales about prevention, as slicing a fresh onion. Cutting an onion is one of the most common causes of sudden, unexplained tears in the kitchen, and almost everyone [1] experienced it at least once. Although it might feel like a strange or even embarrassing reaction, there is a very specific chemical explanation behind it.\n\nWhen an onion [2] cut, its cells are damaged, releasing enzymes and sulfur compounds that had previously been kept safely separate inside the plant. These substances react quickly in the air, forming a gas [3] can irritate the eyes almost immediately. As soon as this gas reaches your eyes, your body responds [4] producing tears to wash the irritating substance away.\n\nInterestingly, onions did not evolve this defense mechanism to annoy cooks; [5], the chemical reaction is believed to be a way of protecting the plant from insects and animals that might otherwise eat it. In other words, the tears in your kitchen are really just a side effect of the onion's own survival strategy.\n\nSeveral popular tricks claim to reduce tearing, [6] chilling the onion before cutting it or using a very sharp knife to minimize cell damage. Some people also recommend cutting onions [7] a fan or under running water, since moving air or water can help carry the irritating gas away from the eyes before it causes discomfort.\n\nScientists have also found that certain onion varieties release [8] of the irritating compound than others, which explains why some onions seem to cause far more tears than others, even when they are cut in exactly the same way. Whatever the method, understanding the actual chemistry behind onion tears can at least make the experience feel a little less mysterious. For now, though, a sharp knife and a bit of patience remain the simplest defense against watery eyes.",
+    "huecos": [
+      {
+        "num": 1,
+        "categoria_gramatical": "tiempo verbal (present perfect)",
+        "opciones": {"A": "have", "B": "has", "C": "had"},
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El sujeto singular 'everyone' requiere present perfect en tercera persona: 'has experienced', para conectar la experiencia pasada con el presente.",
+        "distractores": {
+          "A": {"explicacion": "'Have' es la forma para sujetos plurales o 'I/you/we/they'; 'everyone' es gramaticalmente singular y requiere 'has'.", "patron_trampa": "concordancia_incorrecta"},
+          "C": {"explicacion": "Usa pasado perfecto en vez del present perfect necesario para expresar una experiencia general hasta el presente.", "patron_trampa": "tiempo_verbal_incorrecto"}
+        }
+      },
+      {
+        "num": 2,
+        "categoria_gramatical": "voz pasiva (presente simple)",
+        "opciones": {"A": "are", "B": "was", "C": "is"},
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El sujeto singular 'an onion' y la explicación de un proceso general requieren presente simple pasivo: 'is cut'.",
+        "distractores": {
+          "A": {"explicacion": "'Are' es la forma plural; el sujeto singular 'an onion' requiere 'is'.", "patron_trampa": "concordancia_incorrecta"},
+          "B": {"explicacion": "Usa pasado en una explicación de un proceso general que requiere presente.", "patron_trampa": "tiempo_verbal_incorrecto"}
+        }
+      },
+      {
+        "num": 3,
+        "categoria_gramatical": "pronombre relativo",
+        "opciones": {"A": "that", "B": "who", "C": "whom"},
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'That' es el pronombre relativo de sujeto correcto para referirse a 'a gas', que no es una persona.",
+        "distractores": {
+          "B": {"explicacion": "'Who' se usa para personas, no para referirse a 'a gas'.", "patron_trampa": "referencia_incorrecta"},
+          "C": {"explicacion": "'Whom' es un pronombre de objeto; aquí se necesita uno de sujeto para la cláusula relativa.", "patron_trampa": "estructura_gramatical_invalida"}
+        }
+      },
+      {
+        "num": 4,
+        "categoria_gramatical": "preposición",
+        "opciones": {"A": "with", "B": "by", "C": "for"},
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Respond by + gerundio' es la colocación fija correcta para describir una reacción mediante una acción.",
+        "distractores": {
+          "A": {"explicacion": "'With' no forma parte de la colocación fija 'respond by + gerundio'.", "patron_trampa": "preposicion_incorrecta"},
+          "C": {"explicacion": "'For' no puede preceder directamente a un gerundio en esta estructura de causa-efecto.", "patron_trampa": "estructura_gramatical_invalida"}
+        }
+      },
+      {
+        "num": 5,
+        "categoria_gramatical": "conector (contraste/corrección)",
+        "opciones": {"A": "therefore", "B": "besides", "C": "instead"},
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Instead' corrige la idea anterior (no es para molestar a los cocineros) y la reemplaza con la explicación real, que es el sentido necesario aquí.",
+        "distractores": {
+          "A": {"explicacion": "Expresa consecuencia lógica, no la corrección de una idea que exige el contexto.", "patron_trampa": "significado_cercano"},
+          "B": {"explicacion": "'Besides' añade información adicional, no reemplaza ni corrige la idea anterior como exige el contexto.", "patron_trampa": "estructura_gramatical_invalida"}
+        }
+      },
+      {
+        "num": 6,
+        "categoria_gramatical": "expresión fija (ejemplificación)",
+        "opciones": {"A": "such as", "B": "as such", "C": "like as"},
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Such as' introduce los ejemplos de trucos mencionados a continuación.",
+        "distractores": {
+          "B": {"explicacion": "'As such' significa 'como tal' y no se usa para introducir ejemplos.", "patron_trampa": "estructura_gramatical_invalida"},
+          "C": {"explicacion": "Combina dos formas que individualmente sugieren 'como', pero juntas no constituyen una expresión válida en inglés estándar.", "patron_trampa": "significado_cercano"}
+        }
+      },
+      {
+        "num": 7,
+        "categoria_gramatical": "preposición",
+        "opciones": {"A": "in", "B": "near", "C": "between"},
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Near' expresa la proximidad al ventilador que sugiere el consejo práctico descrito.",
+        "distractores": {
+          "A": {"explicacion": "'In' no expresa proximidad, que es lo que exige el contexto de colocarse cerca del ventilador.", "patron_trampa": "preposicion_incorrecta"},
+          "C": {"explicacion": "'Between' requiere dos elementos específicos y no encaja en este contexto.", "patron_trampa": "estructura_gramatical_invalida"}
+        }
+      },
+      {
+        "num": 8,
+        "categoria_gramatical": "cuantificador (comparativo)",
+        "opciones": {"A": "much", "B": "most", "C": "more"},
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Se compara la cantidad liberada entre variedades de cebolla frente a 'others', lo cual requiere el comparativo 'more'.",
+        "distractores": {
+          "A": {"explicacion": "'Much' no se usa para comparar cantidades entre dos grupos de esta forma; se necesita 'more'.", "patron_trampa": "estructura_gramatical_invalida"},
+          "B": {"explicacion": "Es la forma superlativa, pero aquí solo se compara con 'others', no con todo un conjunto completo.", "patron_trampa": "significado_cercano"}
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P4-TEXTO-007",
+    "modulo": "ingles",
+    "parte": 4,
+    "tipo": "cloze_gramatical",
+    "nivel_mcer": "B2",
+    "titulo": "The History of the Umbrella",
+    "texto_con_huecos": "Few everyday objects carry as much forgotten social history as the humble umbrella hanging by the front door. Long before umbrellas became a common accessory for rainy days, early versions of the object [1] used mainly for a very different purpose: blocking the sun. In ancient Egypt, China, and Mesopotamia, large parasols [2] carried by servants to shield important figures, such as kings or nobles, from direct sunlight.\n\nFor centuries, using an umbrella for protection against rain, rather than sun, was considered unusual in much of Europe. [3], umbrellas were mostly seen as a \"feminine\" accessory, largely because respectable men were expected to withstand bad weather without complaint. It was not until the eighteenth century that a British traveler and philanthropist named Jonas Hanway began carrying an umbrella publicly in London, despite [4] regularly mocked and even laughed at in the street.\n\nHanway's persistence gradually helped change public opinion, and [5] the end of the century, umbrellas for rain had become widely accepted for men as well as women across much of Britain. Manufacturers responded to this growing demand by improving the umbrella's design, replacing heavy wooden frames [6] lighter materials such as steel ribs, which made the object far easier to carry and open.\n\nBy the twentieth century, the umbrella [7] transformed from a rare, expensive item into an inexpensive object found in almost every household. Folding designs, automatic opening mechanisms, and a huge variety of colors and patterns further cemented its place as an everyday essential rather than a luxury.\n\nToday, few people think twice about grabbing an umbrella on their way out the door, but the object's long and occasionally awkward social history shows [8] something as ordinary as staying dry can carry centuries of cultural meaning behind it. It is a small but telling example of how fashion, gender expectations, and practicality can shape the objects we use every day.",
+    "huecos": [
+      {
+        "num": 1,
+        "categoria_gramatical": "voz pasiva (pasado simple)",
+        "opciones": {"A": "was", "B": "were", "C": "is"},
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El sujeto singular 'the object' requiere pasado simple pasivo: 'was used'.",
+        "distractores": {
+          "B": {"explicacion": "'Were' es la forma plural; el sujeto singular 'the object' requiere 'was'.", "patron_trampa": "concordancia_incorrecta"},
+          "C": {"explicacion": "Usa presente en una narración histórica claramente situada en el pasado.", "patron_trampa": "tiempo_verbal_incorrecto"}
+        }
+      },
+      {
+        "num": 2,
+        "categoria_gramatical": "voz pasiva (pasado simple)",
+        "opciones": {"A": "was", "B": "were", "C": "are"},
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El sujeto plural 'parasols' requiere pasado simple pasivo: 'were carried'.",
+        "distractores": {
+          "A": {"explicacion": "'Was' es la forma singular; el sujeto plural 'parasols' requiere 'were'.", "patron_trampa": "concordancia_incorrecta"},
+          "C": {"explicacion": "Usa presente en una narración histórica claramente situada en el pasado.", "patron_trampa": "tiempo_verbal_incorrecto"}
+        }
+      },
+      {
+        "num": 3,
+        "categoria_gramatical": "conector (consecuencia)",
+        "opciones": {"A": "However", "B": "Although", "C": "Consequently"},
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Consequently' conecta dos oraciones independientes mostrando que la percepción de 'accesorio femenino' fue consecuencia de la actitud descrita antes.",
+        "distractores": {
+          "A": {"explicacion": "Expresa contraste, no la relación de consecuencia que se necesita aquí.", "patron_trampa": "significado_cercano"},
+          "B": {"explicacion": "'Although' introduce una cláusula subordinada dentro de una sola oración, no puede iniciar una oración independiente conectándose así con la anterior.", "patron_trampa": "estructura_gramatical_invalida"}
+        }
+      },
+      {
+        "num": 4,
+        "categoria_gramatical": "estructura verbal (gerundio tras preposición)",
+        "opciones": {"A": "being", "B": "to be", "C": "been"},
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Después de la preposición 'despite' se necesita un gerundio: 'despite being mocked'.",
+        "distractores": {
+          "B": {"explicacion": "'Despite' requiere gerundio, no infinitivo con 'to'.", "patron_trampa": "estructura_gramatical_invalida"},
+          "C": {"explicacion": "Confunde el gerundio 'being' con el participio pasado 'been', un error común de forma verbal.", "patron_trampa": "tiempo_verbal_incorrecto"}
+        }
+      },
+      {
+        "num": 5,
+        "categoria_gramatical": "preposición",
+        "opciones": {"A": "at", "B": "by", "C": "in"},
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'By the end of' es la colocación fija correcta para expresar un plazo límite en el tiempo.",
+        "distractores": {
+          "A": {"explicacion": "'At' no forma parte de la colocación fija 'by the end of' para expresar un plazo límite.", "patron_trampa": "preposicion_incorrecta"},
+          "C": {"explicacion": "'In the end' existe como expresión distinta, pero no se combina con 'of the century' de esta manera.", "patron_trampa": "estructura_gramatical_invalida"}
+        }
+      },
+      {
+        "num": 6,
+        "categoria_gramatical": "preposición",
+        "opciones": {"A": "by", "B": "for", "C": "with"},
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Replace X with Y' es la colocación fija correcta para indicar sustitución de materiales.",
+        "distractores": {
+          "A": {"explicacion": "'Replace by' no es la colocación fija estándar en este uso; se necesita 'with'.", "patron_trampa": "preposicion_incorrecta"},
+          "B": {"explicacion": "'For' no se usa en la colocación 'replace...with' para indicar sustitución de materiales.", "patron_trampa": "estructura_gramatical_invalida"}
+        }
+      },
+      {
+        "num": 7,
+        "categoria_gramatical": "voz pasiva (pasado perfecto)",
+        "opciones": {"A": "had been", "B": "has been", "C": "was being"},
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'By the twentieth century' marca un punto de referencia en el pasado, por lo que se necesita pasado perfecto pasivo: 'had been transformed'.",
+        "distractores": {
+          "B": {"explicacion": "Usa present perfect en vez de pasado perfecto, que es necesario porque el punto de referencia ya es un momento pasado.", "patron_trampa": "tiempo_verbal_incorrecto"},
+          "C": {"explicacion": "Es una forma pasiva continua incompleta que no corresponde a una transformación ya completada en ese punto del pasado.", "patron_trampa": "estructura_gramatical_invalida"}
+        }
+      },
+      {
+        "num": 8,
+        "categoria_gramatical": "conector/conjunción subordinante",
+        "opciones": {"A": "which", "B": "that", "C": "what"},
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'That' introduce la cláusula sustantiva completa que sigue al verbo 'shows'.",
+        "distractores": {
+          "A": {"explicacion": "'Which' no introduce cláusulas sustantivas completas de esta manera después de 'shows'.", "patron_trampa": "estructura_gramatical_invalida"},
+          "C": {"explicacion": "Se confunde con 'that' por introducir cláusulas, pero 'what' significa 'lo que', lo cual cambia la estructura gramatical necesaria.", "patron_trampa": "significado_cercano"}
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P4-TEXTO-008",
+    "modulo": "ingles",
+    "parte": 4,
+    "tipo": "cloze_gramatical",
+    "nivel_mcer": "B2",
+    "titulo": "Why Leaves Change Color in Autumn",
+    "texto_con_huecos": "Few natural events attract as many visitors, hikers, and photographers each year as the sudden burst of autumn color across a forest. Every autumn, forests across many parts of the world transform from green to brilliant shades of red, orange, and yellow, a change [1] draws tourists and photographers from around the globe. Although the process looks almost magical, it is actually driven by simple and well-understood chemistry.\n\nDuring spring and summer, leaves [2] green because they contain large amounts of chlorophyll, the pigment that allows plants to absorb sunlight and convert it into energy through photosynthesis. Chlorophyll is so abundant during the warmer months that it masks other pigments [3] are also present in the leaf but usually invisible.\n\nAs temperatures drop and daylight hours grow shorter in autumn, trees gradually stop producing chlorophyll [4] preparation for winter, a period when there is not enough sunlight or water to support active growth. Without fresh chlorophyll being produced, the green pigment breaks down and fades away.\n\nOnce the chlorophyll disappears, the other pigments that [5] hidden underneath finally become visible. Yellow and orange colors come from pigments called carotenoids, which had been present in the leaf all along, [6] partially masked by chlorophyll. Red colors, on the other hand, are often produced fresh in autumn, as some trees create a new pigment called anthocyanin in response to bright sunlight and cool temperatures.\n\nThe exact colors and intensity of autumn foliage [7] from year to year, depending on temperature, rainfall, and sunlight during the preceding months. A dry, sunny autumn with cool nights, for example, often produces the [8] vivid displays of red and orange.\n\nEventually, as the leaf's connection to the tree weakens completely, it falls to the ground, having provided one last, spectacular display before winter sets in. It is a brief but striking reminder of the hidden chemistry working quietly inside every leaf all year long.",
+    "huecos": [
+      {
+        "num": 1,
+        "categoria_gramatical": "pronombre relativo",
+        "opciones": {"A": "who", "B": "whom", "C": "that"},
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'That' es el pronombre relativo de sujeto correcto para referirse a 'a change', que no es una persona.",
+        "distractores": {
+          "A": {"explicacion": "'Who' se usa para personas, no para referirse a 'a change'.", "patron_trampa": "referencia_incorrecta"},
+          "B": {"explicacion": "'Whom' es un pronombre de objeto; aquí se necesita uno de sujeto.", "patron_trampa": "estructura_gramatical_invalida"}
+        }
+      },
+      {
+        "num": 2,
+        "categoria_gramatical": "tiempo verbal (presente simple)",
+        "opciones": {"A": "are", "B": "is", "C": "were"},
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El sujeto plural 'leaves' y la explicación de un proceso general requieren presente simple: 'are'.",
+        "distractores": {
+          "B": {"explicacion": "'Is' es la forma singular; el sujeto plural 'leaves' requiere 'are'.", "patron_trampa": "concordancia_incorrecta"},
+          "C": {"explicacion": "Usa pasado en una explicación de un proceso general que requiere presente.", "patron_trampa": "tiempo_verbal_incorrecto"}
+        }
+      },
+      {
+        "num": 3,
+        "categoria_gramatical": "pronombre relativo",
+        "opciones": {"A": "who", "B": "that", "C": "whom"},
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'That' es el pronombre relativo de sujeto correcto para referirse a 'other pigments', que no son personas.",
+        "distractores": {
+          "A": {"explicacion": "'Who' se usa para personas, no para referirse a pigmentos.", "patron_trampa": "referencia_incorrecta"},
+          "C": {"explicacion": "'Whom' es un pronombre de objeto; aquí se necesita uno de sujeto.", "patron_trampa": "estructura_gramatical_invalida"}
+        }
+      },
+      {
+        "num": 4,
+        "categoria_gramatical": "preposición",
+        "opciones": {"A": "on", "B": "at", "C": "in"},
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'In preparation for' es la colocación fija correcta para expresar que algo se hace anticipándose a otra cosa.",
+        "distractores": {
+          "A": {"explicacion": "'On preparation for' no es una colocación válida en inglés estándar.", "patron_trampa": "preposicion_incorrecta"},
+          "B": {"explicacion": "'At preparation for' tampoco existe como expresión estándar en inglés.", "patron_trampa": "estructura_gramatical_invalida"}
+        }
+      },
+      {
+        "num": 5,
+        "categoria_gramatical": "voz pasiva (pasado simple)",
+        "opciones": {"A": "were", "B": "was", "C": "are"},
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El sujeto plural 'pigments' requiere pasado simple pasivo: 'were hidden', ya que describe un estado anterior al cambio de color.",
+        "distractores": {
+          "B": {"explicacion": "'Was' es la forma singular; el sujeto plural 'pigments' requiere 'were'.", "patron_trampa": "concordancia_incorrecta"},
+          "C": {"explicacion": "Usa presente en un contexto que describe un estado anterior ya cambiado, lo cual requiere pasado.", "patron_trampa": "tiempo_verbal_incorrecto"}
+        }
+      },
+      {
+        "num": 6,
+        "categoria_gramatical": "conector (concesión reducida)",
+        "opciones": {"A": "because", "B": "though", "C": "so"},
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Though' introduce la concesión reducida necesaria para contrastar la presencia constante del pigmento con el hecho de estar oculto.",
+        "distractores": {
+          "A": {"explicacion": "Introduce causa, no la relación de concesión/contraste necesaria en la oración.", "patron_trampa": "significado_cercano"},
+          "C": {"explicacion": "'So' introduce consecuencia y no puede conectar de esta forma reducida sin un verbo conjugado explícito.", "patron_trampa": "estructura_gramatical_invalida"}
+        }
+      },
+      {
+        "num": 7,
+        "categoria_gramatical": "tiempo verbal (presente simple)",
+        "opciones": {"A": "varies", "B": "varied", "C": "vary"},
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El sujeto compuesto plural 'colors and intensity' requiere presente simple sin '-s': 'vary'.",
+        "distractores": {
+          "A": {"explicacion": "Añade la terminación '-s' de tercera persona singular a un sujeto compuesto plural.", "patron_trampa": "concordancia_incorrecta"},
+          "B": {"explicacion": "Usa pasado en un enunciado de patrón general que requiere presente.", "patron_trampa": "tiempo_verbal_incorrecto"}
+        }
+      },
+      {
+        "num": 8,
+        "categoria_gramatical": "comparativo (superlativo)",
+        "opciones": {"A": "most", "B": "more", "C": "much"},
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Se compara implícitamente con todas las posibles combinaciones de clima, por lo que se necesita el superlativo 'most'.",
+        "distractores": {
+          "B": {"explicacion": "'More' es la forma comparativa, pero la oración requiere el superlativo porque compara con todas las demás combinaciones posibles de clima.", "patron_trampa": "estructura_gramatical_invalida"},
+          "C": {"explicacion": "'Much' no se usa para formar el superlativo de adjetivos como 'vivid'.", "patron_trampa": "concordancia_incorrecta"}
+        }
+      }
+    ]
+  }
+]

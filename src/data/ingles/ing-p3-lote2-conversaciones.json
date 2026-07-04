@@ -1,0 +1,477 @@
+[
+  {
+    "id": "ING-P3-ITEM-026",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "Can we move our meeting from 3 p.m. to 4 p.m. tomorrow?",
+    "opciones": {
+      "A": "Meetings usually run more smoothly in the morning.",
+      "B": "Sure, 4 p.m. works fine for me.",
+      "C": "I had a meeting at 3 p.m. yesterday too."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Confirma directamente el nuevo horario propuesto, respondiendo exactamente a lo pedido.",
+    "distractores": {
+      "A": {"explicacion": "Es una opinión general sobre reuniones que no confirma el nuevo horario.", "patron_trampa": "logica_conversacional_rota"},
+      "C": {"explicacion": "Comparte un dato irrelevante del día anterior en vez de confirmar el nuevo horario.", "patron_trampa": "fuera_de_contexto"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-027",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Are you free to grab lunch on Thursday around noon?",
+    "opciones": {
+      "A": "Lunch breaks are usually around thirty minutes at my job.",
+      "B": "I shall have to consult my schedule and revert to you in due course.",
+      "C": "Thursday at noon works great for me."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Confirma disponibilidad directamente para el día y hora propuestos.",
+    "distractores": {
+      "A": {"explicacion": "Es un dato genérico sobre horarios de trabajo que no confirma disponibilidad para el plan propuesto.", "patron_trampa": "logica_conversacional_rota"},
+      "B": {"explicacion": "El registro extremadamente formal ('revert to you in due course') no es natural entre amigos o colegas coordinando un almuerzo informal.", "patron_trampa": "registro_inadecuado"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-028",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "Let's reschedule our call for next week since something came up on my end.",
+    "opciones": {
+      "A": "No problem, just let me know what day works for you.",
+      "B": "Phone calls can sometimes be difficult to schedule.",
+      "C": "I've been really busy with calls lately too."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Acepta el cambio de forma flexible y propone un siguiente paso lógico.",
+    "distractores": {
+      "B": {"explicacion": "Es un comentario genérico que no responde a la petición concreta de reagendar.", "patron_trampa": "logica_conversacional_rota"},
+      "C": {"explicacion": "Habla de su propia agenda en vez de responder a la petición de reprogramar la llamada.", "patron_trampa": "fuera_de_contexto"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-029",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "Could we push our appointment back by half an hour? I'm running late.",
+    "opciones": {
+      "A": "Appointments should always be booked well in advance.",
+      "B": "That's fine, I'll see you at the new time then.",
+      "C": "I've been late to appointments before myself."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Confirma el nuevo horario propuesto de forma clara y directa.",
+    "distractores": {
+      "A": {"explicacion": "Es un consejo general que no confirma ni rechaza el cambio de horario solicitado.", "patron_trampa": "logica_conversacional_rota"},
+      "C": {"explicacion": "Comparte una experiencia personal irrelevante en vez de confirmar el nuevo horario.", "patron_trampa": "fuera_de_contexto"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-030",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "Do you mind if we meet at the café instead of the office this time?",
+    "opciones": {
+      "A": "The office has a much quieter meeting room.",
+      "B": "I usually prefer working in silence.",
+      "C": "That's fine with me, which café did you have in mind?"
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Acepta el cambio de lugar propuesto y hace una pregunta lógica de seguimiento.",
+    "distractores": {
+      "A": {"explicacion": "Argumenta a favor de la oficina en vez de responder si acepta el cambio propuesto.", "patron_trampa": "fuera_de_contexto"},
+      "B": {"explicacion": "Es una preferencia personal general que no responde directamente al cambio de lugar propuesto.", "patron_trampa": "logica_conversacional_rota"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-031",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "I think remote work is much more productive than working in an office. What do you think?",
+    "opciones": {
+      "A": "I actually agree, I get a lot more done at home.",
+      "B": "Offices were designed to encourage collaboration.",
+      "C": "I've worked in an office for the past five years."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Responde directamente a la opinión expresada, mostrando acuerdo con una razón personal.",
+    "distractores": {
+      "B": {"explicacion": "Es un dato general sobre oficinas que no expresa acuerdo ni desacuerdo con la opinión planteada.", "patron_trampa": "logica_conversacional_rota"},
+      "C": {"explicacion": "Comparte información biográfica en vez de reaccionar a la opinión expresada.", "patron_trampa": "fuera_de_contexto"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-032",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "Don't you think social media does more harm than good?",
+    "opciones": {
+      "A": "Social media platforms have billions of users worldwide.",
+      "B": "I actually disagree, I think it depends on how you use it.",
+      "C": "I deleted all my social media accounts last year."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Responde directamente a la opinión planteada, expresando desacuerdo y justificándolo brevemente.",
+    "distractores": {
+      "A": {"explicacion": "Es un dato factual genérico que no expresa una postura personal sobre la afirmación.", "patron_trampa": "logica_conversacional_rota"},
+      "C": {"explicacion": "Comparte una acción personal pasada en vez de reaccionar directamente a la opinión planteada.", "patron_trampa": "fuera_de_contexto"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-033",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "In my opinion, this city has become too crowded in the last few years.",
+    "opciones": {
+      "A": "Cities tend to grow rapidly when the economy improves.",
+      "B": "I must respectfully decline to offer an opinion on urban demographic trends.",
+      "C": "I completely agree, the traffic has gotten so much worse."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Reacciona directamente a la opinión expresada, mostrando acuerdo y añadiendo un detalle relacionado.",
+    "distractores": {
+      "A": {"explicacion": "Es un dato económico general que no reacciona a la opinión personal expresada.", "patron_trampa": "logica_conversacional_rota"},
+      "B": {"explicacion": "El registro extremadamente formal y evasivo no encaja con una conversación casual sobre una opinión cotidiana.", "patron_trampa": "registro_inadecuado"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-034",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "I really believe schools should teach more practical life skills. Do you agree?",
+    "opciones": {
+      "A": "Yes, definitely, things like budgeting and cooking should be part of the curriculum.",
+      "B": "Schools have changed a lot over the past decades.",
+      "C": "I remember my school days quite fondly."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Responde directamente a la pregunta mostrando acuerdo y aportando ejemplos concretos.",
+    "distractores": {
+      "B": {"explicacion": "Es un comentario histórico general que no expresa acuerdo ni desacuerdo con la opinión.", "patron_trampa": "logica_conversacional_rota"},
+      "C": {"explicacion": "Es un comentario nostálgico personal que no responde si está de acuerdo con la opinión planteada.", "patron_trampa": "fuera_de_contexto"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-035",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "I'm not convinced that this new policy will actually help small businesses.",
+    "opciones": {
+      "A": "Small businesses make up a large part of the economy.",
+      "B": "I see your point, the requirements do seem quite complicated.",
+      "C": "I used to own a small business myself."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Reacciona directamente a la duda expresada, mostrando que entiende y comparte parte de la preocupación.",
+    "distractores": {
+      "A": {"explicacion": "Es un dato general sobre la economía que no reacciona a la duda específica planteada.", "patron_trampa": "logica_conversacional_rota"},
+      "C": {"explicacion": "Comparte información biográfica personal en vez de reaccionar al argumento planteado.", "patron_trampa": "fuera_de_contexto"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-036",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Would it be okay if I left work a bit early today? I have a doctor's appointment.",
+    "opciones": {
+      "A": "Doctor's appointments can sometimes run longer than expected.",
+      "B": "I went to the doctor last week for a check-up.",
+      "C": "Of course, just make sure to finish the report before you go."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Concede el permiso solicitado y añade una condición razonable, como se esperaría de un jefe o supervisor.",
+    "distractores": {
+      "A": {"explicacion": "Es un comentario general sobre citas médicas que no concede ni niega el permiso pedido.", "patron_trampa": "logica_conversacional_rota"},
+      "B": {"explicacion": "Comparte una anécdota personal irrelevante en vez de responder a la solicitud de permiso.", "patron_trampa": "fuera_de_contexto"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-037",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Is it alright if I bring a friend along to the party?",
+    "opciones": {
+      "A": "Sure, the more the merrier!",
+      "B": "Parties are always more fun with a lot of people.",
+      "C": "I usually go to parties alone."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Concede el permiso de forma clara y entusiasta.",
+    "distractores": {
+      "B": {"explicacion": "Es una afirmación general sobre fiestas que no concede directamente el permiso pedido.", "patron_trampa": "logica_conversacional_rota"},
+      "C": {"explicacion": "Comparte un hábito personal irrelevante en vez de responder a la solicitud de traer a un amigo.", "patron_trampa": "fuera_de_contexto"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-038",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Do you mind if I open the window? It's a bit stuffy in here.",
+    "opciones": {
+      "A": "I would gladly oblige your request.",
+      "B": "Not at all, go ahead.",
+      "C": "I get cold very easily, to be honest."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Concede el permiso de forma clara, directa y natural.",
+    "distractores": {
+      "A": {"explicacion": "El registro extremadamente formal ('oblige your request') es inapropiado para una petición cotidiana tan sencilla.", "patron_trampa": "registro_inadecuado"},
+      "C": {"explicacion": "Encajaría en una conversación sobre sensibilidad al frío, pero no responde claramente si concede o no el permiso.", "patron_trampa": "fuera_de_contexto"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-039",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Could I possibly borrow your charger for a few minutes? My phone is about to die.",
+    "opciones": {
+      "A": "Phone batteries don't last as long as they used to.",
+      "B": "I forgot my charger at home this morning.",
+      "C": "Yeah, no problem, here you go."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Concede lo pedido de forma directa y natural.",
+    "distractores": {
+      "A": {"explicacion": "Es un comentario general sobre baterías que no responde a la petición concreta.", "patron_trampa": "logica_conversacional_rota"},
+      "B": {"explicacion": "Explica su propia situación, lo cual solo tendría sentido si estuviera rechazando el préstamo por no tener el cargador, pero no responde claramente a la petición.", "patron_trampa": "fuera_de_contexto"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-040",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "Would it be possible to hand in the assignment a day late? I've had some personal issues this week.",
+    "opciones": {
+      "A": "That should be fine, just let me know by tomorrow.",
+      "B": "Personal issues can really affect your studies.",
+      "C": "I once had to hand in an assignment late too."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Concede el permiso solicitado con una condición clara, como se esperaría de un profesor.",
+    "distractores": {
+      "B": {"explicacion": "Es un comentario empático genérico que no concede ni niega el permiso solicitado.", "patron_trampa": "logica_conversacional_rota"},
+      "C": {"explicacion": "Comparte una anécdota personal irrelevante en vez de responder a la solicitud concreta.", "patron_trampa": "fuera_de_contexto"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-041",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Hi! Long time no see, how have you been?",
+    "opciones": {
+      "A": "I'll see you again sometime soon, I hope.",
+      "B": "I've been great, thanks! Just busy with work.",
+      "C": "It's supposed to rain later today."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Responde directamente al saludo, dando una actualización personal breve y natural.",
+    "distractores": {
+      "A": {"explicacion": "No responde cómo ha estado la persona, sino que habla de un futuro encuentro.", "patron_trampa": "logica_conversacional_rota"},
+      "C": {"explicacion": "Es un comentario de small talk sobre el clima que ignora por completo la pregunta hecha.", "patron_trampa": "fuera_de_contexto"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-042",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "It's such a beautiful day today, isn't it?",
+    "opciones": {
+      "A": "I need to remember to water my plants later.",
+      "B": "The gym down the street just opened a new branch.",
+      "C": "It really is, perfect for a walk in the park."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Responde directamente al comentario sobre el clima, mostrando acuerdo y añadiendo una idea relacionada.",
+    "distractores": {
+      "A": {"explicacion": "Es un pensamiento aleatorio no relacionado que ignora el comentario hecho sobre el clima.", "patron_trampa": "logica_conversacional_rota"},
+      "B": {"explicacion": "Encajaría en una conversación sobre negocios locales nuevos, no responde al comentario sobre el clima.", "patron_trampa": "fuera_de_contexto"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-043",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "How was your weekend?",
+    "opciones": {
+      "A": "It was really relaxing, I just stayed home and read a book.",
+      "B": "I usually wake up early on weekdays.",
+      "C": "This weekend I have a lot of errands to run."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Responde directamente sobre el fin de semana que ya pasó, con un detalle natural.",
+    "distractores": {
+      "B": {"explicacion": "Habla de los días de semana en vez del fin de semana que se preguntó.", "patron_trampa": "fuera_de_contexto"},
+      "C": {"explicacion": "Habla del próximo fin de semana en vez de responder sobre el que ya pasó.", "patron_trampa": "logica_conversacional_rota"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-044",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Nice weather we're having lately, don't you think?",
+    "opciones": {
+      "A": "I need to buy an umbrella soon.",
+      "B": "Yes, it's been lovely, much better than last month.",
+      "C": "The bus was late again this morning."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Responde directamente al comentario sobre el buen clima, mostrando acuerdo y una comparación natural.",
+    "distractores": {
+      "A": {"explicacion": "Sugiere mal tiempo próximo sin responder claramente al comentario hecho sobre el buen clima actual.", "patron_trampa": "logica_conversacional_rota"},
+      "C": {"explicacion": "Es una queja no relacionada que encajaría en otro tema de small talk, no responde al comentario sobre el clima.", "patron_trampa": "fuera_de_contexto"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-045",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "How's the family doing?",
+    "opciones": {
+      "A": "I have two brothers and one sister.",
+      "B": "Families are the foundation of society.",
+      "C": "Everyone's doing well, thanks for asking!"
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Responde directamente a la pregunta con una actualización breve y natural.",
+    "distractores": {
+      "A": {"explicacion": "Responde a una pregunta distinta, como '¿cuántos hermanos tienes?', no a cómo está la familia.", "patron_trampa": "fuera_de_contexto"},
+      "B": {"explicacion": "Es una afirmación abstracta genérica que no da ninguna actualización personal sobre la familia.", "patron_trampa": "logica_conversacional_rota"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-046",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "I've been having trouble sleeping lately. Any advice?",
+    "opciones": {
+      "A": "Maybe try avoiding your phone right before bed.",
+      "B": "Sleep is important for your overall health.",
+      "C": "I slept really well last night, actually."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Ofrece un consejo concreto y accionable, respondiendo directamente a lo que se pidió.",
+    "distractores": {
+      "B": {"explicacion": "Es un dato general que no constituye un consejo concreto para solucionar el problema.", "patron_trampa": "logica_conversacional_rota"},
+      "C": {"explicacion": "Comparte una experiencia personal en vez de ofrecer un consejo, como se pidió.", "patron_trampa": "fuera_de_contexto"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-047",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "I'm thinking about learning a new language. Which one would you recommend?",
+    "opciones": {
+      "A": "Languages are an important part of every culture.",
+      "B": "I'd say Spanish, it's useful and not too hard to start with.",
+      "C": "I studied French in high school."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Da una recomendación concreta con una razón, respondiendo directamente a lo que se pidió.",
+    "distractores": {
+      "A": {"explicacion": "Es una afirmación general que no constituye una recomendación concreta.", "patron_trampa": "logica_conversacional_rota"},
+      "C": {"explicacion": "Comparte historia personal en vez de dar una recomendación, como se pidió.", "patron_trampa": "fuera_de_contexto"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-048",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "My back has been hurting after long hours at my desk. What should I do?",
+    "opciones": {
+      "A": "Desks and chairs come in many different styles.",
+      "B": "I used to have a standing desk a few years ago.",
+      "C": "You should try to stretch and take short breaks every hour."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Ofrece un consejo práctico y concreto que responde directamente a lo que se pidió.",
+    "distractores": {
+      "A": {"explicacion": "Es un dato genérico sobre mobiliario que no constituye un consejo concreto.", "patron_trampa": "logica_conversacional_rota"},
+      "B": {"explicacion": "Comparte una experiencia personal pasada en vez de ofrecer un consejo accionable.", "patron_trampa": "fuera_de_contexto"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-049",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "I want to start saving more money each month. Any tips?",
+    "opciones": {
+      "A": "Try setting up an automatic transfer to a savings account on payday.",
+      "B": "I would recommend consulting a certified financial advisor about this.",
+      "C": "I saved a lot of money when I was younger."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Ofrece un consejo concreto y fácil de aplicar, respondiendo directamente a lo pedido.",
+    "distractores": {
+      "B": {"explicacion": "El registro corporativo ('certified financial advisor') es inapropiado para un consejo informal entre amigos.", "patron_trampa": "registro_inadecuado"},
+      "C": {"explicacion": "Comparte una anécdota personal del pasado en vez de dar un consejo práctico actual.", "patron_trampa": "fuera_de_contexto"}
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-050",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "I'm nervous about my job interview tomorrow. Do you have any advice?",
+    "opciones": {
+      "A": "Job interviews can be stressful for a lot of people.",
+      "B": "Just relax, prepare a few questions to ask them, and be yourself.",
+      "C": "I had a job interview last month, actually."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Ofrece consejos concretos y accionables, respondiendo directamente a lo que se pidió.",
+    "distractores": {
+      "A": {"explicacion": "Es un comentario empático genérico que no constituye un consejo concreto.", "patron_trampa": "logica_conversacional_rota"},
+      "C": {"explicacion": "Comparte una experiencia personal reciente en vez de dar consejos, como se pidió.", "patron_trampa": "fuera_de_contexto"}
+    }
+  }
+]
