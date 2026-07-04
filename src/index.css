@@ -11,6 +11,8 @@
   --accent-hover: #7ea0ff;
   --accent-text: #0b0d12;
   --success: #34d399;
+  --error: #f87171;
+  --warning: #fbbf24;
 
   --sans:
     -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,

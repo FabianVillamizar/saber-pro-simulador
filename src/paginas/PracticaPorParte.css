@@ -1,0 +1,60 @@
+.practica-subtitulo {
+  margin-bottom: 1.5rem;
+}
+
+.partes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.parte-tarjeta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 1.25rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  text-align: left;
+  cursor: pointer;
+  color: var(--text);
+}
+
+.parte-tarjeta:hover {
+  border-color: var(--accent);
+  background: var(--surface-hover);
+}
+
+.parte-numero {
+  font-weight: 600;
+}
+
+.parte-etiqueta {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  text-transform: capitalize;
+}
+
+.parte-conteo {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.practica-progreso {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.practica-siguiente {
+  margin-top: 1rem;
+}
+
+.practica-fin {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.practica-fin h2 {
+  margin-bottom: 0.5rem;
+}

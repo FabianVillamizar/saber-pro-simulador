@@ -1,0 +1,117 @@
+.simulacro-info {
+  margin-bottom: 1.5rem;
+  max-width: 640px;
+}
+
+.simulacro-duracion {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  color: var(--text);
+}
+
+.simulacro-duracion input {
+  width: 5rem;
+  padding: 0.4rem 0.6rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
+.simulacro-barra {
+  justify-content: space-between;
+}
+
+.simulacro-tiempo {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.simulacro-indice {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.simulacro-advertencia {
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  background: rgba(251, 191, 36, 0.1);
+  border: 1px solid var(--warning);
+  border-radius: 8px;
+  color: var(--warning);
+  font-size: 0.85rem;
+}
+
+.simulacro-navegacion {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.25rem;
+}
+
+.simulacro-mapa {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 2rem;
+}
+
+.simulacro-mapa-item {
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.simulacro-mapa-item--respondida {
+  border-color: var(--accent);
+  color: var(--text);
+}
+
+.simulacro-mapa-item--actual {
+  background: var(--accent);
+  color: var(--accent-text);
+  border-color: var(--accent);
+}
+
+.simulacro-puntaje {
+  font-size: 1.3rem;
+  color: var(--text);
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.simulacro-detalle {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.simulacro-detalle-item {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.simulacro-detalle-item:last-child {
+  border-bottom: none;
+}
+
+.simulacro-detalle-numero {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.5rem;
+}
+
+.simulacro-no-respondida {
+  margin-top: 1rem;
+  color: var(--warning);
+  font-size: 0.9rem;
+}

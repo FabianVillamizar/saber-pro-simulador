@@ -1,32 +1,44 @@
+import { useState } from 'react'
 import './App.css'
-import { listarModulos } from './engine/loadModulos.js'
+import { Home } from './paginas/Home.jsx'
+import { ModuloHub } from './paginas/ModuloHub.jsx'
+import { RepasoConceptos } from './paginas/RepasoConceptos.jsx'
+import { PracticaPorParte } from './paginas/PracticaPorParte.jsx'
+import { Simulacro } from './paginas/Simulacro.jsx'
 
 function App() {
-  const modulos = listarModulos()
+  const [pantalla, setPantalla] = useState({ tipo: 'home' })
 
-  return (
-    <div className="page">
-      <header className="header">
-        <h1>Saber Pro</h1>
-        <p>Simulador de estudio · ICFES Colombia</p>
-      </header>
+  if (pantalla.tipo === 'home') {
+    return <Home onAbrirModulo={(moduloId) => setPantalla({ tipo: 'modulo', moduloId })} />
+  }
 
-      <main className="modulos">
-        {modulos.map((modulo) => (
-          <article
-            key={modulo.id}
-            className={`tarjeta${modulo.disponible ? '' : ' tarjeta--bloqueada'}`}
-          >
-            <h2>{modulo.nombre}</h2>
-            <p>{modulo.descripcion}</p>
-            <button type="button" disabled={!modulo.disponible}>
-              {modulo.disponible ? 'Comenzar' : 'Próximamente'}
-            </button>
-          </article>
-        ))}
-      </main>
-    </div>
-  )
+  const volverAModulo = () => setPantalla({ tipo: 'modulo', moduloId: pantalla.moduloId })
+  const volverAHome = () => setPantalla({ tipo: 'home' })
+
+  if (pantalla.tipo === 'modulo') {
+    return (
+      <ModuloHub
+        moduloId={pantalla.moduloId}
+        onVolver={volverAHome}
+        onSeleccionarModo={(modo) => setPantalla({ tipo: modo, moduloId: pantalla.moduloId })}
+      />
+    )
+  }
+
+  if (pantalla.tipo === 'repaso') {
+    return <RepasoConceptos moduloId={pantalla.moduloId} onVolver={volverAModulo} />
+  }
+
+  if (pantalla.tipo === 'practica-parte') {
+    return <PracticaPorParte moduloId={pantalla.moduloId} onVolver={volverAModulo} />
+  }
+
+  if (pantalla.tipo === 'simulacro') {
+    return <Simulacro moduloId={pantalla.moduloId} onVolver={volverAModulo} />
+  }
+
+  return null
 }
 
 export default App

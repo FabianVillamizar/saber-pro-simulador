@@ -1,0 +1,71 @@
+.pregunta-enunciado {
+  color: var(--text);
+  font-size: 1.05rem;
+  margin-bottom: 1rem;
+}
+
+.pregunta-opciones {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.opcion {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  text-align: left;
+  padding: 0.7rem 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.opcion:hover:not(:disabled) {
+  background: var(--surface-hover);
+  border-color: var(--accent);
+}
+
+.opcion:disabled {
+  cursor: default;
+}
+
+.opcion-letra {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: grid;
+  place-items: center;
+  border-radius: 6px;
+  background: var(--surface-hover);
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.opcion--seleccionada {
+  border-color: var(--accent);
+  background: var(--surface-hover);
+}
+
+.opcion--correcta {
+  border-color: var(--success);
+  background: rgba(52, 211, 153, 0.1);
+}
+
+.opcion--correcta .opcion-letra {
+  background: var(--success);
+  color: var(--accent-text);
+}
+
+.opcion--incorrecta {
+  border-color: var(--error);
+  background: rgba(248, 113, 113, 0.1);
+}
+
+.opcion--incorrecta .opcion-letra {
+  background: var(--error);
+  color: var(--accent-text);
+}

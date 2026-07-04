@@ -1,0 +1,41 @@
+.modulo-hub-header {
+  margin-bottom: 2rem;
+}
+
+.modulo-hub-header p {
+  margin-top: 0.4rem;
+}
+
+.modulo-hub-resumen {
+  font-size: 0.85rem;
+  margin-top: 0.6rem;
+}
+
+.modos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+}
+
+.modo-tarjeta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.modo-tarjeta h2 {
+  font-size: 1.1rem;
+}
+
+.modo-tarjeta p {
+  flex-grow: 1;
+  font-size: 0.9rem;
+}
+
+.modo-tarjeta button {
+  align-self: flex-start;
+}
