@@ -1,6 +1,12 @@
 import { useEffect, useState } from 'react'
 import { useModulo } from '../hooks/useModulo.js'
 import { armarSimulacro, calificarSimulacro, DURACION_DEFECTO_MINUTOS } from '../engine/simulacro.js'
+import {
+  calcularPuntajeSimulado,
+  clasificarNivel,
+  aciertosPorParte,
+  patronesTrampaFrecuentes,
+} from '../engine/reporte.js'
 import { PreguntaMultipleChoice } from '../componentes/PreguntaMultipleChoice.jsx'
 import { PanelExplicacion } from '../componentes/PanelExplicacion.jsx'
 import './Simulacro.css'
@@ -22,19 +28,24 @@ export function Simulacro({ moduloId, onVolver }) {
   const [tiempoRestante, setTiempoRestante] = useState(0)
   const [resultado, setResultado] = useState(null)
 
+  function terminar(tiempoRestanteFinal) {
+    const calificado = calificarSimulacro(examen, respuestas)
+    setResultado({ ...calificado, tiempoUsadoSegundos: duracionMinutos * 60 - tiempoRestanteFinal })
+    setFase('resultados')
+  }
+
   // setTimeout encadenado en vez de setInterval: cada disparo recalcula
   // contra el estado más reciente, así que no se acumula drift ni queda
   // un closure con respuestas/examen desactualizados al terminar.
   useEffect(() => {
     if (fase !== 'examen') return
     if (tiempoRestante <= 0) {
-      setResultado(calificarSimulacro(examen, respuestas))
-      setFase('resultados')
+      terminar(0)
       return
     }
     const id = setTimeout(() => setTiempoRestante((t) => t - 1), 1000)
     return () => clearTimeout(id)
-  }, [fase, tiempoRestante, examen, respuestas])
+  }, [fase, tiempoRestante, examen, respuestas, duracionMinutos])
 
   if (cargando) return <div className="page estado-carga">Cargando…</div>
   if (error) return <div className="page estado-error">No se pudo cargar el módulo: {error.message}</div>
@@ -66,8 +77,7 @@ export function Simulacro({ moduloId, onVolver }) {
     ) {
       return
     }
-    setResultado(calificarSimulacro(examen, respuestas))
-    setFase('resultados')
+    terminar(tiempoRestante)
   }
 
   if (fase === 'config') {
@@ -164,6 +174,15 @@ export function Simulacro({ moduloId, onVolver }) {
   }
 
   // fase === 'resultados'
+  const puntajeSimulado = calcularPuntajeSimulado(resultado.correctas, resultado.total)
+  const nivel = clasificarNivel(puntajeSimulado)
+  const porParte = aciertosPorParte(resultado.detalle)
+  const partesOrdenadas = Object.keys(porParte)
+    .map(Number)
+    .sort((a, b) => a - b)
+  const patrones = patronesTrampaFrecuentes(resultado.detalle)
+  const tiempoEstimadoSegundos = duracionMinutos * 60
+
   return (
     <div className="page">
       <div className="barra-superior">
@@ -176,6 +195,69 @@ export function Simulacro({ moduloId, onVolver }) {
         {resultado.correctas} / {resultado.total} correctas ({Math.round((resultado.correctas / resultado.total) * 100)}
         %)
       </p>
+
+      <div className="reporte">
+        <div className="reporte-bloque">
+          <h2>Puntaje simulado</h2>
+          <p className="reporte-cifra">{puntajeSimulado} / 300</p>
+          <p className="reporte-nota">
+            Aproximación simple (aciertos ÷ {resultado.total} × 300) — no es el algoritmo real del ICFES, que usa
+            Teoría de Respuesta al Ítem (TRI) con parámetros de dificultad y discriminación por pregunta que no
+            tenemos.
+          </p>
+        </div>
+
+        <div className="reporte-bloque">
+          <h2>Nivel estimado</h2>
+          <p className="reporte-cifra">{nivel ? nivel.nivel : '—'}</p>
+          <p className="reporte-nota">
+            Tabla vigente del ICFES: A1 0-120 · A2 121-164 · B1 165-195 · B2 196-300. Hereda la misma aproximación
+            del puntaje simulado de arriba.
+          </p>
+        </div>
+
+        <div className="reporte-bloque">
+          <h2>Tiempo usado</h2>
+          <p className="reporte-cifra">
+            {formatoTiempo(resultado.tiempoUsadoSegundos)} / {formatoTiempo(tiempoEstimadoSegundos)}
+          </p>
+          <p className="reporte-nota">Tiempo usado frente al tiempo estimado configurado para este simulacro.</p>
+        </div>
+
+        <div className="reporte-bloque">
+          <h2>Aciertos por parte</h2>
+          <ul className="reporte-lista">
+            {partesOrdenadas.map((parte) => (
+              <li key={parte}>
+                <span>Parte {parte}</span>
+                <span>
+                  {porParte[parte].correctas} / {porParte[parte].total}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="reporte-bloque reporte-bloque--ancho">
+          <h2>Errores más frecuentes</h2>
+          {patrones.length === 0 ? (
+            <p className="reporte-nota">No se registraron patrones de error clasificados en este intento.</p>
+          ) : (
+            <ul className="reporte-lista">
+              {patrones.map(({ patron, cantidad }) => (
+                <li key={patron}>
+                  <span>{patron.replaceAll('_', ' ')}</span>
+                  <span>{cantidad}×</span>
+                </li>
+              ))}
+            </ul>
+          )}
+          <p className="reporte-nota">
+            Es el tipo de error que más se repite, no solo el conteo de fallos. No incluye las partes 1 y 2
+            (emparejamiento), que no tienen distractor clasificado en los datos.
+          </p>
+        </div>
+      </div>
 
       <div className="simulacro-detalle">
         {resultado.detalle.map(({ pregunta, elegida, esCorrecta }, i) => (
