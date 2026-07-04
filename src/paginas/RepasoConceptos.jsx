@@ -3,6 +3,7 @@ import { useModulo } from '../hooks/useModulo.js'
 import { leerJSON, escribirJSON } from '../engine/storage.js'
 import { estadoInicial, siguienteEstado, estaLista, CALIFICACIONES } from '../engine/srs.js'
 import { crearCola, reencolarTrasFallo, retirarTrasAcierto } from '../engine/colaRefuerzo.js'
+import { registrarRepaso } from '../engine/progreso.js'
 import './RepasoConceptos.css'
 
 const ETIQUETAS_CALIFICACION = {
@@ -40,6 +41,7 @@ export function RepasoConceptos({ moduloId, onVolver }) {
 
     setEstadosSRS(nuevosEstados)
     escribirJSON(`srs:${moduloId}`, nuevosEstados)
+    registrarRepaso()
     setRevisadasHoy((n) => n + 1)
     setMostrarReverso(false)
     setCola(calificacion === 'otra_vez' ? reencolarTrasFallo(cola, entrada) : retirarTrasAcierto(cola, entrada))

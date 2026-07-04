@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useModulo } from '../hooks/useModulo.js'
 import { crearCola, reencolarTrasFallo, retirarTrasAcierto } from '../engine/colaRefuerzo.js'
+import { registrarPracticaParte } from '../engine/progreso.js'
 import { PreguntaMultipleChoice } from '../componentes/PreguntaMultipleChoice.jsx'
 import { PanelExplicacion } from '../componentes/PanelExplicacion.jsx'
 import './PracticaPorParte.css'
@@ -38,6 +39,7 @@ export function PracticaPorParte({ moduloId, onVolver }) {
     if (letra === entrada.valor.respuestaCorrecta && entrada.fallos === 0) {
       setAciertosPrimerIntento((n) => n + 1)
     }
+    registrarPracticaParte()
     setSeleccion(letra)
     setRespondida(true)
   }

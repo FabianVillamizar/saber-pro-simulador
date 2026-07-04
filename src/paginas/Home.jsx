@@ -1,4 +1,5 @@
 import { listarModulos } from '../engine/loadModulos.js'
+import { PanelProgreso } from '../componentes/PanelProgreso.jsx'
 import './Home.css'
 
 export function Home({ onAbrirModulo }) {
@@ -10,6 +11,8 @@ export function Home({ onAbrirModulo }) {
         <h1>Saber Pro</h1>
         <p>Simulador de estudio · ICFES Colombia</p>
       </header>
+
+      <PanelProgreso />
 
       <main className="modulos">
         {modulos.map((modulo) => (

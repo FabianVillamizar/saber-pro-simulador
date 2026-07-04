@@ -1,0 +1,50 @@
+.heatmap {
+  display: flex;
+  gap: 3px;
+  overflow-x: auto;
+  padding-bottom: 0.25rem;
+}
+
+.heatmap-columna {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.heatmap-celda {
+  width: 11px;
+  height: 11px;
+  border-radius: 2px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.heatmap-celda--futuro {
+  background: transparent;
+  border: 1px dashed var(--border);
+  opacity: 0.4;
+}
+
+.heatmap-celda--nivel0 {
+  background: var(--surface);
+}
+
+.heatmap-celda--nivel1 {
+  background: #0e4429;
+  border-color: #0e4429;
+}
+
+.heatmap-celda--nivel2 {
+  background: #006d32;
+  border-color: #006d32;
+}
+
+.heatmap-celda--nivel3 {
+  background: #26a641;
+  border-color: #26a641;
+}
+
+.heatmap-celda--nivel4 {
+  background: #39d353;
+  border-color: #39d353;
+}

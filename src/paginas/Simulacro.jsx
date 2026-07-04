@@ -7,6 +7,7 @@ import {
   aciertosPorParte,
   patronesTrampaFrecuentes,
 } from '../engine/reporte.js'
+import { registrarSimulacro } from '../engine/progreso.js'
 import { PreguntaMultipleChoice } from '../componentes/PreguntaMultipleChoice.jsx'
 import { PanelExplicacion } from '../componentes/PanelExplicacion.jsx'
 import './Simulacro.css'
@@ -30,6 +31,7 @@ export function Simulacro({ moduloId, onVolver }) {
 
   function terminar(tiempoRestanteFinal) {
     const calificado = calificarSimulacro(examen, respuestas)
+    registrarSimulacro()
     setResultado({ ...calificado, tiempoUsadoSegundos: duracionMinutos * 60 - tiempoRestanteFinal })
     setFase('resultados')
   }
