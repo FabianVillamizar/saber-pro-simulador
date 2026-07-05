@@ -54,6 +54,16 @@ export function verificarPin(perfil, pin) {
   return perfil.pinHash === hashPin(pin ?? '')
 }
 
+// Recuperación de PIN olvidado: no requiere el PIN anterior (si lo
+// requiriera, no serviría de nada) — solo lo reemplaza por uno nuevo. El
+// progreso del perfil vive bajo su id, que no cambia, así que esto no lo
+// toca.
+export function restablecerPin(perfilId, nuevoPin) {
+  if (!/^\d{4}$/.test(nuevoPin ?? '')) throw new Error('El PIN debe tener 4 dígitos.')
+  const actualizados = listarPerfiles().map((p) => (p.id === perfilId ? { ...p, pinHash: hashPin(nuevoPin) } : p))
+  escribirJSON(CLAVE_PERFILES, actualizados)
+}
+
 export function obtenerPerfilActivo() {
   const id = leerJSON(CLAVE_ACTIVO, null)
   if (!id) return null

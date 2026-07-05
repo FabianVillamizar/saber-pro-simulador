@@ -7,7 +7,7 @@ import {
   TABLA_NIVELES,
   DESCRIPCIONES_PATRON,
 } from '../engine/reporte.js'
-import { leerPatronesTrampa } from '../engine/patronesPerfil.js'
+import { leerPatronesTrampa, VENTANA_DIAS } from '../engine/patronesPerfil.js'
 import { ThemeToggle } from '../componentes/ThemeToggle.jsx'
 import { SelectorPerfil } from '../componentes/SelectorPerfil.jsx'
 import { Marca } from '../componentes/Marca.jsx'
@@ -64,10 +64,12 @@ export function Resultado({ resultado, modulo, perfil, onCambiarPerfil, onVolver
     }))
     .sort((a, b) => b.pct - a.pct)
 
-  // Historial completo del perfil (práctica por parte + todos los
-  // simulacros previos), no solo las respuestas de este intento — este
-  // intento ya quedó incluido antes de llegar aquí (Simulacro.terminar()
-  // registra los fallos antes de mostrar el resultado).
+  // Últimos VENTANA_DIAS del perfil (práctica por parte + simulacros),
+  // no solo las respuestas de este intento — este intento ya quedó
+  // incluido antes de llegar aquí (Simulacro.terminar() registra los
+  // fallos antes de mostrar el resultado). Es una ventana, no un conteo de
+  // por vida: un error ya corregido deja de dominar este panel con el
+  // tiempo en vez de quedarse pegado para siempre.
   const patronesHistorial = Object.entries(leerPatronesTrampa(perfil.id))
     .map(([patron, cantidad]) => ({ patron, cantidad }))
     .sort((a, b) => b.cantidad - a.cantidad)
@@ -137,8 +139,8 @@ export function Resultado({ resultado, modulo, perfil, onCambiarPerfil, onVolver
             </div>
             <div className="resultado-error-titulo">{DESCRIPCIONES_PATRON[patronTop.patron] ?? patronTop.patron}</div>
             <div className="resultado-error-cuerpo">
-              Has caído en este patrón {patronTop.cantidad} {patronTop.cantidad === 1 ? 'vez' : 'veces'} en total,
-              entre simulacros y práctica por parte
+              Has caído en este patrón {patronTop.cantidad} {patronTop.cantidad === 1 ? 'vez' : 'veces'} en los
+              últimos {VENTANA_DIAS} días, entre simulacros y práctica por parte
               {partesConPatronEnEsteIntento.length > 0
                 ? `; en este intento apareció en ${partesConPatronEnEsteIntento.join(' y ')}`
                 : ''}

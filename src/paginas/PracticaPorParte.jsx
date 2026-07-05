@@ -40,8 +40,9 @@ export function PracticaPorParte({ moduloId, perfil, onCambiarPerfil, onVolver }
   function elegirParte(parte, preguntasParte) {
     // Se baraja por grupo (no pregunta por pregunta) para que las
     // preguntas que comparten texto/pasaje queden adyacentes, y luego se
-    // reordena por tus patron_trampa históricamente más frecuentes: lo que
-    // más te cuesta aparece antes en la cola.
+    // reordena por tus patron_trampa más frecuentes en los últimos días
+    // (ver VENTANA_DIAS en patronesPerfil.js): lo que más te cuesta ahora
+    // aparece antes en la cola.
     const barajadas = barajarPorGrupo(preguntasParte)
     const priorizadas = priorizarPorPatrones(barajadas, leerPatronesTrampa(perfil.id))
     const colaInicial = crearCola(priorizadas, { yaOrdenado: true })

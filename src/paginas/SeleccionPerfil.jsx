@@ -3,6 +3,7 @@ import {
   listarPerfiles,
   crearPerfil,
   verificarPin,
+  restablecerPin,
   COLORES_PERFIL,
   MAX_PERFILES,
   ID_INVITADO,
@@ -30,6 +31,10 @@ export function SeleccionPerfil({ onSeleccionar }) {
   const [desbloqueando, setDesbloqueando] = useState(null)
   const [pinDesbloqueo, setPinDesbloqueo] = useState('')
   const [errorDesbloqueo, setErrorDesbloqueo] = useState(null)
+  const [restableciendoPin, setRestableciendoPin] = useState(false)
+  const [nuevoPin, setNuevoPin] = useState('')
+  const [nuevoPinConfirmar, setNuevoPinConfirmar] = useState('')
+  const [errorNuevoPin, setErrorNuevoPin] = useState(null)
 
   const hayCupo = perfiles.length < MAX_PERFILES
 
@@ -66,6 +71,41 @@ export function SeleccionPerfil({ onSeleccionar }) {
     onSeleccionar(desbloqueando.id)
   }
 
+  function cancelarDesbloqueo() {
+    setDesbloqueando(null)
+    setPinDesbloqueo('')
+    setErrorDesbloqueo(null)
+    setRestableciendoPin(false)
+    setNuevoPin('')
+    setNuevoPinConfirmar('')
+    setErrorNuevoPin(null)
+  }
+
+  function iniciarRestablecerPin() {
+    if (
+      !window.confirm(`Esto va a reemplazar el PIN de ${desbloqueando.nombre}. Su progreso no se toca. ¿Continuar?`)
+    ) {
+      return
+    }
+    setRestableciendoPin(true)
+    setPinDesbloqueo('')
+    setErrorDesbloqueo(null)
+  }
+
+  function confirmarNuevoPin(e) {
+    e.preventDefault()
+    if (nuevoPin.length !== 4) {
+      setErrorNuevoPin('El PIN debe tener 4 dígitos.')
+      return
+    }
+    if (nuevoPin !== nuevoPinConfirmar) {
+      setErrorNuevoPin('Los dos PIN no coinciden.')
+      return
+    }
+    restablecerPin(desbloqueando.id, nuevoPin)
+    onSeleccionar(desbloqueando.id)
+  }
+
   if (desbloqueando) {
     return (
       <div className="seleccion-perfil">
@@ -75,40 +115,79 @@ export function SeleccionPerfil({ onSeleccionar }) {
 
         <div className="seleccion-perfil-tarjeta">
           <Avatar nombre={desbloqueando.nombre} color={desbloqueando.color} size={48} />
-          <h1 className="seleccion-perfil-titulo">PIN de {desbloqueando.nombre}</h1>
+          <h1 className="seleccion-perfil-titulo">
+            {restableciendoPin ? `Nuevo PIN de ${desbloqueando.nombre}` : `PIN de ${desbloqueando.nombre}`}
+          </h1>
 
-          <form className="seleccion-perfil-form" onSubmit={confirmarDesbloqueo}>
-            <label className="seleccion-perfil-label">
-              PIN
-              <input
-                type="password"
-                inputMode="numeric"
-                value={pinDesbloqueo}
-                onChange={(e) => {
-                  setPinDesbloqueo(soloDigitos(e.target.value))
-                  setErrorDesbloqueo(null)
-                }}
-                placeholder="••••"
-                autoFocus
-              />
-            </label>
-            {errorDesbloqueo && <p className="seleccion-perfil-error">{errorDesbloqueo}</p>}
+          {!restableciendoPin && (
+            <form className="seleccion-perfil-form" onSubmit={confirmarDesbloqueo}>
+              <label className="seleccion-perfil-label">
+                PIN
+                <input
+                  type="password"
+                  inputMode="numeric"
+                  value={pinDesbloqueo}
+                  onChange={(e) => {
+                    setPinDesbloqueo(soloDigitos(e.target.value))
+                    setErrorDesbloqueo(null)
+                  }}
+                  placeholder="••••"
+                  autoFocus
+                />
+              </label>
+              {errorDesbloqueo && <p className="seleccion-perfil-error">{errorDesbloqueo}</p>}
 
-            <button type="submit" className="boton-primario" disabled={pinDesbloqueo.length !== 4}>
-              Continuar
-            </button>
-            <button
-              type="button"
-              className="seleccion-perfil-cancelar"
-              onClick={() => {
-                setDesbloqueando(null)
-                setPinDesbloqueo('')
-                setErrorDesbloqueo(null)
-              }}
-            >
-              ← Elegir otro perfil
-            </button>
-          </form>
+              <button type="submit" className="boton-primario" disabled={pinDesbloqueo.length !== 4}>
+                Continuar
+              </button>
+              <button type="button" className="seleccion-perfil-cancelar" onClick={iniciarRestablecerPin}>
+                ¿Olvidaste tu PIN?
+              </button>
+              <button type="button" className="seleccion-perfil-cancelar" onClick={cancelarDesbloqueo}>
+                ← Elegir otro perfil
+              </button>
+            </form>
+          )}
+
+          {restableciendoPin && (
+            <form className="seleccion-perfil-form" onSubmit={confirmarNuevoPin}>
+              <label className="seleccion-perfil-label">
+                Nuevo PIN (4 dígitos)
+                <input
+                  type="password"
+                  inputMode="numeric"
+                  value={nuevoPin}
+                  onChange={(e) => {
+                    setNuevoPin(soloDigitos(e.target.value))
+                    setErrorNuevoPin(null)
+                  }}
+                  placeholder="••••"
+                  autoFocus
+                />
+              </label>
+              <label className="seleccion-perfil-label">
+                Confirmar nuevo PIN
+                <input
+                  type="password"
+                  inputMode="numeric"
+                  value={nuevoPinConfirmar}
+                  onChange={(e) => {
+                    setNuevoPinConfirmar(soloDigitos(e.target.value))
+                    setErrorNuevoPin(null)
+                  }}
+                  placeholder="••••"
+                />
+              </label>
+              {errorNuevoPin && <p className="seleccion-perfil-error">{errorNuevoPin}</p>}
+
+              <button type="submit" className="boton-primario">
+                Guardar y continuar
+              </button>
+              <button type="button" className="seleccion-perfil-cancelar" onClick={cancelarDesbloqueo}>
+                ← Elegir otro perfil
+              </button>
+            </form>
+          )}
         </div>
       </div>
     )
