@@ -110,6 +110,30 @@ export function IconoSonido({ size = 17, color = 'currentColor' }) {
   )
 }
 
+export function IconoCheck({ size = 14, color = 'currentColor' }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 14 14">
+      <path
+        d="M2.5 7.2 L5.5 10.2 L11.5 3.8"
+        fill="none"
+        stroke={color}
+        strokeWidth="1.8"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}
+
+export function IconoX({ size = 14, color = 'currentColor' }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 14 14">
+      <line x1="3" y1="3" x2="11" y2="11" stroke={color} strokeWidth="1.8" strokeLinecap="round" />
+      <line x1="11" y1="3" x2="3" y2="11" stroke={color} strokeWidth="1.8" strokeLinecap="round" />
+    </svg>
+  )
+}
+
 export function IconoSonidoMudo({ size = 17, color = 'currentColor' }) {
   return (
     <svg width={size} height={size} viewBox="0 0 18 18">

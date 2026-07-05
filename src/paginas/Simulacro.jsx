@@ -3,6 +3,7 @@ import { useModulo } from '../hooks/useModulo.js'
 import { useTheme } from '../hooks/useTheme.js'
 import { armarSimulacro, calificarSimulacro, DURACION_DEFECTO_MINUTOS } from '../engine/simulacro.js'
 import { registrarSimulacro } from '../engine/progreso.js'
+import { registrarFalloTrampa } from '../engine/patronesPerfil.js'
 import { reproducirSonido } from '../engine/sonido.js'
 import { PreguntaMultipleChoice } from '../componentes/PreguntaMultipleChoice.jsx'
 import { ThemeToggle } from '../componentes/ThemeToggle.jsx'
@@ -36,6 +37,9 @@ export function Simulacro({ moduloId, perfil, onCambiarPerfil, onVolver, onIrARe
 
   function terminar(tiempoRestanteFinal) {
     const calificado = calificarSimulacro(examen, respuestas)
+    for (const { pregunta, elegida, esCorrecta } of calificado.detalle) {
+      if (!esCorrecta && elegida) registrarFalloTrampa(perfil.id, pregunta.distractores?.[elegida]?.patron_trampa)
+    }
     registrarSimulacro(perfil.id)
     reproducirSonido(perfil.id, 'simulacro')
     setResultado({ ...calificado, tiempoUsadoSegundos: duracionMinutos * 60 - tiempoRestanteFinal })

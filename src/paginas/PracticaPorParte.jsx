@@ -4,6 +4,7 @@ import { useTheme } from '../hooks/useTheme.js'
 import { crearCola, reencolarTrasFallo, retirarTrasAcierto } from '../engine/colaRefuerzo.js'
 import { barajarPorGrupo } from '../engine/simulacro.js'
 import { registrarPracticaParte } from '../engine/progreso.js'
+import { registrarFalloTrampa } from '../engine/patronesPerfil.js'
 import { reproducirSonido } from '../engine/sonido.js'
 import { PreguntaMultipleChoice } from '../componentes/PreguntaMultipleChoice.jsx'
 import { PanelExplicacion } from '../componentes/PanelExplicacion.jsx'
@@ -52,8 +53,11 @@ export function PracticaPorParte({ moduloId, perfil, onCambiarPerfil, onVolver }
   function seleccionarOpcion(letra) {
     if (respondida) return
     const entrada = cola[0]
-    if (letra === entrada.valor.respuestaCorrecta && entrada.fallos === 0) {
+    const pregunta = entrada.valor
+    if (letra === pregunta.respuestaCorrecta && entrada.fallos === 0) {
       setAciertosPrimerIntento((n) => n + 1)
+    } else if (letra !== pregunta.respuestaCorrecta) {
+      registrarFalloTrampa(perfil.id, pregunta.distractores?.[letra]?.patron_trampa)
     }
     const { rachaAlcanzadaHoy } = registrarPracticaParte(perfil.id)
     if (rachaAlcanzadaHoy) reproducirSonido(perfil.id, 'racha')
@@ -167,7 +171,7 @@ export function PracticaPorParte({ moduloId, perfil, onCambiarPerfil, onVolver }
 
       {respondida && (
         <button type="button" className="boton-primario practica-siguiente" onClick={siguiente}>
-          Siguiente
+          Siguiente pregunta
         </button>
       )}
     </div>

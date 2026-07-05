@@ -49,6 +49,22 @@ export const DESCRIPCIONES_PATRON = {
   tiempo_verbal_incorrecto: 'Confundes tiempos verbales: usas uno distinto al que exige el contexto de la oración.',
 }
 
+// Etiqueta corta por patrón, para la insignia "Trampa: …" en el panel de
+// confusión (distinta de DESCRIPCIONES_PATRON, que es la frase larga del
+// callout de "error más frecuente").
+export const ETIQUETAS_PATRON = {
+  concordancia_incorrecta: 'Concordancia incorrecta',
+  estructura_gramatical_invalida: 'Estructura gramatical inválida',
+  falso_amigo: 'Falso amigo',
+  fuera_de_contexto: 'Fuera de contexto',
+  logica_conversacional_rota: 'Lógica conversacional rota',
+  preposicion_incorrecta: 'Preposición incorrecta',
+  referencia_incorrecta: 'Referencia incorrecta',
+  registro_inadecuado: 'Registro inadecuado',
+  significado_cercano: 'Significado cercano',
+  tiempo_verbal_incorrecto: 'Tiempo verbal incorrecto',
+}
+
 export function patronesTrampaFrecuentes(detalle) {
   const conteo = new Map()
   for (const { pregunta, elegida, esCorrecta } of detalle) {

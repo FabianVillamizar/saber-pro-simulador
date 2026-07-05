@@ -1,4 +1,5 @@
 import { ContextoPregunta } from './ContextoPregunta.jsx'
+import { IconoCheck, IconoX } from './iconos.jsx'
 import './PreguntaMultipleChoice.css'
 
 export function PreguntaMultipleChoice({
@@ -21,6 +22,9 @@ export function PreguntaMultipleChoice({
           else if (mostrarCorreccion && esSeleccionada) clase += ' opcion--incorrecta'
           else if (esSeleccionada) clase += ' opcion--seleccionada'
 
+          const mostrarCheck = mostrarCorreccion && esCorrecta
+          const mostrarX = mostrarCorreccion && esSeleccionada && !esCorrecta
+
           return (
             <button
               key={letra}
@@ -29,7 +33,9 @@ export function PreguntaMultipleChoice({
               disabled={deshabilitado}
               onClick={() => onSeleccionar(letra)}
             >
-              <span className="opcion-letra">{letra}</span>
+              <span className="opcion-letra">
+                {mostrarCheck ? <IconoCheck color="#fff" /> : mostrarX ? <IconoX color="#fff" /> : letra}
+              </span>
               <span className="opcion-texto">{texto}</span>
             </button>
           )
