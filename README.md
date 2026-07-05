@@ -1,10 +1,6 @@
-# Saber Pro — Simulador de estudio
+# Proyecto de estudio personal
 
-Simulador de estudio para el examen Saber Pro (ICFES, Colombia), construido
-con React + Vite. Arranca con el módulo de Inglés para validar la
-arquitectura antes de agregar los otros cinco módulos (Razonamiento
-Cuantitativo, Lectura Crítica, Competencias Ciudadanas, Comunicación Escrita,
-Pensamiento Científico).
+Aplicación personal de práctica y repaso, construida con React + Vite.
 
 ## Correr en local
 
