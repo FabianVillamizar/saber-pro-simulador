@@ -3,6 +3,7 @@ import { useModulo } from '../hooks/useModulo.js'
 import { useTheme } from '../hooks/useTheme.js'
 import { leerJSON, escribirJSON } from '../engine/storage.js'
 import { claveSRS } from '../engine/clavesPerfil.js'
+import { ID_INVITADO } from '../engine/perfiles.js'
 import { estadoInicial, siguienteEstado, estaLista } from '../engine/srs.js'
 import { crearCola, reencolarTrasFallo, retirarTrasAcierto } from '../engine/colaRefuerzo.js'
 import { registrarRepaso } from '../engine/progreso.js'
@@ -58,7 +59,7 @@ export function RepasoConceptos({ moduloId, perfil, onCambiarPerfil, onVolver })
     const nuevosEstados = { ...estadosSRS, [tarjeta.id]: nuevoEstado }
 
     setEstadosSRS(nuevosEstados)
-    escribirJSON(claveSRS(perfil.id, moduloId), nuevosEstados)
+    if (perfil.id !== ID_INVITADO) escribirJSON(claveSRS(perfil.id, moduloId), nuevosEstados)
 
     if (calificacion === 'bien' || calificacion === 'facil') reproducirSonido(perfil.id, 'tarjeta')
     const { rachaAlcanzadaHoy } = registrarRepaso(perfil.id)

@@ -1,10 +1,21 @@
 import { useState } from 'react'
-import { listarPerfiles, crearPerfil, COLORES_PERFIL } from '../engine/perfiles.js'
+import {
+  listarPerfiles,
+  crearPerfil,
+  verificarPin,
+  COLORES_PERFIL,
+  MAX_PERFILES,
+  ID_INVITADO,
+} from '../engine/perfiles.js'
 import { useTheme } from '../hooks/useTheme.js'
 import { ThemeToggle } from '../componentes/ThemeToggle.jsx'
 import { Avatar } from '../componentes/Avatar.jsx'
 import { Marca } from '../componentes/Marca.jsx'
 import './SeleccionPerfil.css'
+
+function soloDigitos(valor) {
+  return valor.replace(/\D/g, '').slice(0, 4)
+}
 
 export function SeleccionPerfil({ onSeleccionar }) {
   const { dark, toggle } = useTheme()
@@ -12,17 +23,95 @@ export function SeleccionPerfil({ onSeleccionar }) {
   const [creando, setCreando] = useState(perfiles.length === 0)
   const [nombre, setNombre] = useState('')
   const [color, setColor] = useState(null)
-  const [errorNombre, setErrorNombre] = useState(null)
+  const [pin, setPin] = useState('')
+  const [pinConfirmar, setPinConfirmar] = useState('')
+  const [errorCreacion, setErrorCreacion] = useState(null)
+
+  const [desbloqueando, setDesbloqueando] = useState(null)
+  const [pinDesbloqueo, setPinDesbloqueo] = useState('')
+  const [errorDesbloqueo, setErrorDesbloqueo] = useState(null)
+
+  const hayCupo = perfiles.length < MAX_PERFILES
 
   function confirmarCreacion(e) {
     e.preventDefault()
     if (!nombre.trim()) {
-      setErrorNombre('Escribe un nombre para el perfil.')
+      setErrorCreacion('Escribe un nombre para el perfil.')
       return
     }
-    const perfil = crearPerfil({ nombre, color })
-    setPerfiles([...perfiles, perfil])
-    onSeleccionar(perfil.id)
+    if (pin.length !== 4) {
+      setErrorCreacion('El PIN debe tener 4 dígitos.')
+      return
+    }
+    if (pin !== pinConfirmar) {
+      setErrorCreacion('Los dos PIN no coinciden.')
+      return
+    }
+    try {
+      const perfil = crearPerfil({ nombre, color, pin })
+      setPerfiles([...perfiles, perfil])
+      onSeleccionar(perfil.id)
+    } catch (err) {
+      setErrorCreacion(err.message)
+    }
+  }
+
+  function confirmarDesbloqueo(e) {
+    e.preventDefault()
+    if (!verificarPin(desbloqueando, pinDesbloqueo)) {
+      setErrorDesbloqueo('PIN incorrecto.')
+      setPinDesbloqueo('')
+      return
+    }
+    onSeleccionar(desbloqueando.id)
+  }
+
+  if (desbloqueando) {
+    return (
+      <div className="seleccion-perfil">
+        <div className="seleccion-perfil-toggle">
+          <ThemeToggle dark={dark} onToggle={toggle} />
+        </div>
+
+        <div className="seleccion-perfil-tarjeta">
+          <Avatar nombre={desbloqueando.nombre} color={desbloqueando.color} size={48} />
+          <h1 className="seleccion-perfil-titulo">PIN de {desbloqueando.nombre}</h1>
+
+          <form className="seleccion-perfil-form" onSubmit={confirmarDesbloqueo}>
+            <label className="seleccion-perfil-label">
+              PIN
+              <input
+                type="password"
+                inputMode="numeric"
+                value={pinDesbloqueo}
+                onChange={(e) => {
+                  setPinDesbloqueo(soloDigitos(e.target.value))
+                  setErrorDesbloqueo(null)
+                }}
+                placeholder="••••"
+                autoFocus
+              />
+            </label>
+            {errorDesbloqueo && <p className="seleccion-perfil-error">{errorDesbloqueo}</p>}
+
+            <button type="submit" className="boton-primario" disabled={pinDesbloqueo.length !== 4}>
+              Continuar
+            </button>
+            <button
+              type="button"
+              className="seleccion-perfil-cancelar"
+              onClick={() => {
+                setDesbloqueando(null)
+                setPinDesbloqueo('')
+                setErrorDesbloqueo(null)
+              }}
+            >
+              ← Elegir otro perfil
+            </button>
+          </form>
+        </div>
+      </div>
+    )
   }
 
   return (
@@ -42,20 +131,37 @@ export function SeleccionPerfil({ onSeleccionar }) {
                 key={p.id}
                 type="button"
                 className="seleccion-perfil-item"
-                onClick={() => onSeleccionar(p.id)}
+                onClick={() => setDesbloqueando(p)}
               >
                 <Avatar nombre={p.nombre} color={p.color} size={48} />
                 <span>{p.nombre}</span>
               </button>
             ))}
-            <button type="button" className="seleccion-perfil-item seleccion-perfil-item--nuevo" onClick={() => setCreando(true)}>
-              <span className="seleccion-perfil-mas">+</span>
-              <span>Crear perfil</span>
-            </button>
+            {hayCupo && (
+              <button type="button" className="seleccion-perfil-item seleccion-perfil-item--nuevo" onClick={() => setCreando(true)}>
+                <span className="seleccion-perfil-mas">+</span>
+                <span>Crear perfil</span>
+              </button>
+            )}
           </div>
         )}
 
-        {creando && (
+        {!hayCupo && !creando && (
+          <button
+            type="button"
+            className="seleccion-perfil-invitado"
+            onClick={() => onSeleccionar(ID_INVITADO)}
+          >
+            Continuar como invitado
+          </button>
+        )}
+        {!hayCupo && !creando && (
+          <p className="seleccion-perfil-invitado-nota">
+            Ya hay {MAX_PERFILES} perfiles en este dispositivo. Como invitado puedes practicar, pero nada se guarda.
+          </p>
+        )}
+
+        {creando && hayCupo && (
           <form className="seleccion-perfil-form" onSubmit={confirmarCreacion}>
             <label className="seleccion-perfil-label">
               Nombre
@@ -64,13 +170,12 @@ export function SeleccionPerfil({ onSeleccionar }) {
                 value={nombre}
                 onChange={(e) => {
                   setNombre(e.target.value)
-                  setErrorNombre(null)
+                  setErrorCreacion(null)
                 }}
                 placeholder="Tu nombre"
                 autoFocus
               />
             </label>
-            {errorNombre && <p className="seleccion-perfil-error">{errorNombre}</p>}
 
             <div className="seleccion-perfil-colores">
               <span className="seleccion-perfil-label">Color (opcional)</span>
@@ -94,9 +199,42 @@ export function SeleccionPerfil({ onSeleccionar }) {
               </div>
             </div>
 
+            <label className="seleccion-perfil-label">
+              PIN (4 dígitos)
+              <input
+                type="password"
+                inputMode="numeric"
+                value={pin}
+                onChange={(e) => {
+                  setPin(soloDigitos(e.target.value))
+                  setErrorCreacion(null)
+                }}
+                placeholder="••••"
+              />
+            </label>
+            <label className="seleccion-perfil-label">
+              Confirmar PIN
+              <input
+                type="password"
+                inputMode="numeric"
+                value={pinConfirmar}
+                onChange={(e) => {
+                  setPinConfirmar(soloDigitos(e.target.value))
+                  setErrorCreacion(null)
+                }}
+                placeholder="••••"
+              />
+            </label>
+            {errorCreacion && <p className="seleccion-perfil-error">{errorCreacion}</p>}
+
             <button type="submit" className="boton-primario">
               Crear y continuar
             </button>
+            {perfiles.length > 0 && (
+              <button type="button" className="seleccion-perfil-cancelar" onClick={() => setCreando(false)}>
+                ← Elegir otro perfil
+              </button>
+            )}
           </form>
         )}
       </div>

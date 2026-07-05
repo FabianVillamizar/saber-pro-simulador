@@ -4,6 +4,7 @@
 import { leerJSON, escribirJSON } from './storage.js'
 import { fechaDesdeClave, formatoFecha, sumarDias } from './fecha.js'
 import { claveProgreso } from './clavesPerfil.js'
+import { ID_INVITADO } from './perfiles.js'
 
 export function leerProgreso(perfilId) {
   return leerJSON(claveProgreso(perfilId), {})
@@ -21,7 +22,7 @@ function registrarActividad(perfilId, tipo, ahora = new Date()) {
   const dia = diaAntes ?? { repaso: 0, practicaParte: 0, simulacro: 0 }
   dia[tipo] = (dia[tipo] ?? 0) + 1
   progreso[fecha] = dia
-  escribirJSON(claveProgreso(perfilId), progreso)
+  if (perfilId !== ID_INVITADO) escribirJSON(claveProgreso(perfilId), progreso)
 
   return { progreso, rachaAlcanzadaHoy: !completoAntes && diaCompleto(dia) }
 }
