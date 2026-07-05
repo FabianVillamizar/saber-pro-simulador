@@ -4,7 +4,7 @@ import { useTheme } from '../hooks/useTheme.js'
 import { crearCola, reencolarTrasFallo, retirarTrasAcierto } from '../engine/colaRefuerzo.js'
 import { barajarPorGrupo } from '../engine/simulacro.js'
 import { registrarPracticaParte } from '../engine/progreso.js'
-import { registrarFalloTrampa } from '../engine/patronesPerfil.js'
+import { registrarFalloTrampa, leerPatronesTrampa, priorizarPorPatrones } from '../engine/patronesPerfil.js'
 import { reproducirSonido } from '../engine/sonido.js'
 import { PreguntaMultipleChoice } from '../componentes/PreguntaMultipleChoice.jsx'
 import { PanelExplicacion } from '../componentes/PanelExplicacion.jsx'
@@ -39,8 +39,12 @@ export function PracticaPorParte({ moduloId, perfil, onCambiarPerfil, onVolver }
 
   function elegirParte(parte, preguntasParte) {
     // Se baraja por grupo (no pregunta por pregunta) para que las
-    // preguntas que comparten texto/pasaje queden adyacentes.
-    const colaInicial = crearCola(barajarPorGrupo(preguntasParte), { yaOrdenado: true })
+    // preguntas que comparten texto/pasaje queden adyacentes, y luego se
+    // reordena por tus patron_trampa históricamente más frecuentes: lo que
+    // más te cuesta aparece antes en la cola.
+    const barajadas = barajarPorGrupo(preguntasParte)
+    const priorizadas = priorizarPorPatrones(barajadas, leerPatronesTrampa(perfil.id))
+    const colaInicial = crearCola(priorizadas, { yaOrdenado: true })
     setParteSeleccionada(parte)
     setCola(colaInicial)
     setGruposConteo(contarPorGrupo(preguntasParte))

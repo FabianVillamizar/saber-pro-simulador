@@ -28,14 +28,12 @@ export function aciertosPorParte(detalle) {
   return porParte
 }
 
-// Cuenta el patrón de trampa de las opciones incorrectas elegidas, no el
-// número de fallos en sí: agrupa por el *tipo* de error recurrente
-// (fuera_de_contexto, tiempo_verbal_incorrecto, etc.), no por pregunta.
-// Las partes 1/2 (emparejamiento) no tienen distractores clasificados en
-// los datos, así que sus fallos no entran en este conteo.
 // Frase humana por patrón de trampa, para el callout de "error más
-// frecuente" del Resultado. Cubre los patron_trampa reales presentes en
-// los datos de Inglés (ver src/data/ingles/*.json).
+// frecuente" del Resultado (que lee el historial acumulado por perfil de
+// engine/patronesPerfil.js, no solo este intento). Cubre los patron_trampa
+// reales presentes en los datos de Inglés (ver src/data/ingles/*.json).
+// Las partes 1/2 (emparejamiento) no tienen distractores clasificados, así
+// que sus fallos nunca entran en este conteo.
 export const DESCRIPCIONES_PATRON = {
   concordancia_incorrecta: 'Fallas en la concordancia entre sujeto y verbo, o entre sustantivo y sus modificadores.',
   estructura_gramatical_invalida: 'Eliges estructuras gramaticales que no son válidas en inglés, aunque suenen parecidas al español.',
@@ -63,17 +61,4 @@ export const ETIQUETAS_PATRON = {
   registro_inadecuado: 'Registro inadecuado',
   significado_cercano: 'Significado cercano',
   tiempo_verbal_incorrecto: 'Tiempo verbal incorrecto',
-}
-
-export function patronesTrampaFrecuentes(detalle) {
-  const conteo = new Map()
-  for (const { pregunta, elegida, esCorrecta } of detalle) {
-    if (esCorrecta || !elegida) continue
-    const patron = pregunta.distractores?.[elegida]?.patron_trampa
-    if (!patron) continue
-    conteo.set(patron, (conteo.get(patron) ?? 0) + 1)
-  }
-  return [...conteo.entries()]
-    .map(([patron, cantidad]) => ({ patron, cantidad }))
-    .sort((a, b) => b.cantidad - a.cantidad)
 }

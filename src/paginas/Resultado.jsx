@@ -4,10 +4,10 @@ import {
   calcularPuntajeSimulado,
   clasificarNivel,
   aciertosPorParte,
-  patronesTrampaFrecuentes,
   TABLA_NIVELES,
   DESCRIPCIONES_PATRON,
 } from '../engine/reporte.js'
+import { leerPatronesTrampa } from '../engine/patronesPerfil.js'
 import { ThemeToggle } from '../componentes/ThemeToggle.jsx'
 import { SelectorPerfil } from '../componentes/SelectorPerfil.jsx'
 import { Marca } from '../componentes/Marca.jsx'
@@ -64,10 +64,15 @@ export function Resultado({ resultado, modulo, perfil, onCambiarPerfil, onVolver
     }))
     .sort((a, b) => b.pct - a.pct)
 
-  const patrones = patronesTrampaFrecuentes(resultado.detalle)
-  const totalFallos = resultado.detalle.filter((d) => !d.esCorrecta).length
-  const patronTop = patrones[0]
-  const partesConPatron = patronTop
+  // Historial completo del perfil (práctica por parte + todos los
+  // simulacros previos), no solo las respuestas de este intento — este
+  // intento ya quedó incluido antes de llegar aquí (Simulacro.terminar()
+  // registra los fallos antes de mostrar el resultado).
+  const patronesHistorial = Object.entries(leerPatronesTrampa(perfil.id))
+    .map(([patron, cantidad]) => ({ patron, cantidad }))
+    .sort((a, b) => b.cantidad - a.cantidad)
+  const patronTop = patronesHistorial[0]
+  const partesConPatronEnEsteIntento = patronTop
     ? [
         ...new Set(
           resultado.detalle
@@ -132,9 +137,12 @@ export function Resultado({ resultado, modulo, perfil, onCambiarPerfil, onVolver
             </div>
             <div className="resultado-error-titulo">{DESCRIPCIONES_PATRON[patronTop.patron] ?? patronTop.patron}</div>
             <div className="resultado-error-cuerpo">
-              Este patrón se repitió en {patronTop.cantidad} de las {totalFallos} preguntas que fallaste
-              {partesConPatron.length > 0 ? `, principalmente en ${partesConPatron.join(' y ')}` : ''}. No incluye
-              las partes 1 y 2 (emparejamiento), que no tienen distractor clasificado.
+              Has caído en este patrón {patronTop.cantidad} {patronTop.cantidad === 1 ? 'vez' : 'veces'} en total,
+              entre simulacros y práctica por parte
+              {partesConPatronEnEsteIntento.length > 0
+                ? `; en este intento apareció en ${partesConPatronEnEsteIntento.join(' y ')}`
+                : ''}
+              . No incluye las partes 1 y 2 (emparejamiento), que no tienen distractor clasificado.
             </div>
           </div>
         )}
