@@ -1,0 +1,962 @@
+[
+  {
+    "id": "ING-P6-TEXTO-001",
+    "modulo": "ingles",
+    "parte": 6,
+    "tipo": "comprension_compleja",
+    "nivel_mcer": "B2",
+    "texto_base": "Somewhere along the way, we agreed to let our phones interrupt us constantly, and most of us can't quite remember giving that permission. A text message here, an app update there, a reminder about a sale we never asked to hear about — the average phone user now receives dozens, sometimes hundreds, of notifications a day. We've grown so used to this constant pinging that many people feel a flicker of anxiety the moment their phone goes silent for too long, as though silence itself has become suspicious.\n\nTechnology companies will tell you that notifications exist to keep you informed, to make your life more convenient. There is some truth to this, of course — a warning about severe weather or a message from a family member matters. But let's not pretend that most notifications serve our interests rather than someone else's. A notification that a stranger liked your photo from three days ago exists for one reason only: to pull you back into an app you had, perhaps wisely, stopped using for a few hours. Somewhere, a team of very smart people spent a very long time designing that little red dot to be as irresistible as possible, and it worked.\n\nThe cost of this constant interruption is easy to underestimate because it doesn't announce itself the way a bigger problem might. Nobody collapses from checking their phone forty times a day. But something quieter happens: our attention, once capable of sustained focus for hours, has been trained instead to jump every few minutes, always half-expecting the next buzz. Reading a long book has become, for many people, a genuinely difficult task — not because books have changed, but because our capacity to sit with one thought for very long has quietly eroded.\n\nNone of this means we need to abandon our phones entirely, and anyone suggesting a return to some notification-free paradise is probably selling something just as aggressively as the tech companies are. What we can do, though, is stop treating every notification as equally urgent, because they most certainly are not. Turning off non-essential alerts, silencing apps that exist purely to compete for your attention, and allowing ourselves long stretches of uninterrupted time are not radical acts of rebellion — they are simply reasonable responses to a system that was never designed with our best interests in mind.\n\nThe next time your phone buzzes, it might be worth pausing before reaching for it, if only to ask a simple question: who, exactly, benefits from me looking at this right now? Often enough, the honest answer will not be you.",
+    "preguntas": [
+      {
+        "num": 1,
+        "habilidad": "inferencia",
+        "enunciado": "What can be inferred about the author's view of technology companies' claims that notifications are meant to be helpful?",
+        "opciones": {
+          "A": "The author believes these claims are only partly true and often serve the companies' interests more than the user's.",
+          "B": "The author fully agrees that all notifications are designed to help users.",
+          "C": "The author believes technology companies have no influence over how notifications are designed."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El autor reconoce 'some truth' en la afirmación, pero inmediatamente la cuestiona ('let's not pretend that most notifications serve our interests'), mostrando una postura escéptica pero matizada.",
+        "distractores": {
+          "B": {
+            "explicacion": "El autor no está de acuerdo por completo; de hecho, cuestiona explícitamente la mayoría de las notificaciones.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "El autor describe explícitamente cómo un equipo diseñó las notificaciones para ser irresistibles, mostrando lo contrario.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "habilidad": "proposito_autor",
+        "enunciado": "What is the author's main purpose in writing this text?",
+        "opciones": {
+          "A": "To provide a technical explanation of how notification systems are programmed.",
+          "B": "To encourage readers to reconsider their relationship with phone notifications rather than accept them passively.",
+          "C": "To convince readers to stop using smartphones completely."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto argumenta a favor de una reflexión crítica, terminando con una pregunta directa al lector para que reconsidere su comportamiento.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no ofrece detalles técnicos sobre programación; se enfoca en el impacto psicológico y social.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "C": {
+            "explicacion": "El autor aclara explícitamente que 'none of this means we need to abandon our phones entirely'.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "habilidad": "tono_actitud",
+        "enunciado": "What is the author's tone throughout most of the text?",
+        "opciones": {
+          "A": "Purely angry and dismissive of all technology.",
+          "B": "Neutral and completely indifferent to the topic.",
+          "C": "Critical but reasonable, acknowledging some benefits while questioning common assumptions."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El autor reconoce ciertos beneficios mientras cuestiona firmemente la mayoría de las notificaciones, un tono crítico pero equilibrado.",
+        "distractores": {
+          "A": {
+            "explicacion": "El tono no es de enojo puro; el autor reconoce matices y ofrece sugerencias razonables.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "El autor claramente tiene una postura definida, expresada con ironía y argumentos, no con indiferencia.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "habilidad": "significado_implicito",
+        "enunciado": "What does the author imply by saying 'anyone suggesting a return to some notification-free paradise is probably selling something just as aggressively as the tech companies are'?",
+        "opciones": {
+          "A": "Claims of a perfect solution to phone addiction should be viewed with the same skepticism as the tech industry's own claims.",
+          "B": "There is no way to reduce phone notifications at all.",
+          "C": "Technology companies have created a genuinely perfect way to live without notifications."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Esta frase sugiere que las soluciones 'perfectas' también deben cuestionarse con el mismo escepticismo que las afirmaciones de las empresas tecnológicas.",
+        "distractores": {
+          "B": {
+            "explicacion": "El autor sí ofrece sugerencias prácticas para reducir las notificaciones más adelante en el texto.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "C": {
+            "explicacion": "El autor está siendo irónico sobre la idea de un 'paraíso sin notificaciones', no afirmando que exista tal solución.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "habilidad": "inferencia",
+        "enunciado": "Based on the text, what can be inferred about the effect of notifications on reading long books?",
+        "opciones": {
+          "A": "Books have become significantly longer and more complex in recent years.",
+          "B": "Frequent interruptions have gradually reduced people's ability to concentrate for long periods.",
+          "C": "People no longer have access to physical books due to technology."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto sugiere que 'our capacity to sit with one thought for very long has quietly eroded' debido al hábito de saltar la atención.",
+        "distractores": {
+          "A": {
+            "explicacion": "El autor aclara explícitamente que 'not because books have changed', descartando esta opción.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "C": {
+            "explicacion": "El texto no menciona ningún problema de acceso a libros físicos; el problema es de atención, no de disponibilidad.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P6-TEXTO-002",
+    "modulo": "ingles",
+    "parte": 6,
+    "tipo": "comprension_compleja",
+    "nivel_mcer": "B2",
+    "texto_base": "Somewhere in the last decade, boredom quietly became something to be avoided at all costs, a problem to be solved the instant it appears. The moment a spare five minutes threatens to arrive — while waiting for a bus, standing in line, or sitting through a slow moment at dinner — most of us reach automatically for a phone, filling the gap before we've even registered that a gap existed. I'd like to make an unfashionable argument: this reflex is doing us more harm than the boredom it's meant to prevent.\n\nConsider what boredom actually is: a mental state with nowhere obvious to go, a mind temporarily without a task. It sounds unpleasant, and often it is, at least initially. But sit with it a little longer, and something interesting tends to happen. Ideas that had no room to surface during busier moments begin to drift in. Solutions to problems you'd forgotten you were even thinking about occasionally appear, seemingly out of nowhere. Writers, scientists, and artists have described this phenomenon for centuries, long before smartphones existed to interrupt it: the mind, left alone, does not simply idle — it wanders, and wandering is often where genuinely new thoughts come from.\n\nWe have, in a sense, engineered boredom out of existence, and in doing so, we may have accidentally engineered away some of its benefits as well. Every idle moment can now be filled instantly and effortlessly, which sounds like an improvement until you notice what's missing: the space in which unstructured thinking used to happen. Children, in particular, seem to be losing this experience earliest and most thoroughly, since a phone or tablet is now often within reach before boredom has any chance to set in and do its quiet work.\n\nNone of this is an argument for suffering through tedious tasks needlessly, nor is it a call to throw away your phone in some dramatic gesture. The point is far more modest: perhaps the next time boredom arrives, it's worth resisting the urge to immediately banish it. Let it sit for a few minutes longer than feels comfortable. See what surfaces.\n\nIt's a strange thing to have to argue for something so easily available and so consistently avoided, but here we are. Boredom, once simply an unavoidable part of daily life, now requires a small, deliberate act of patience to experience at all — and perhaps that says more about how we live than we'd like to admit.",
+    "preguntas": [
+      {
+        "num": 1,
+        "habilidad": "inferencia",
+        "enunciado": "What can be inferred about the author's view of constantly filling idle moments with a phone?",
+        "opciones": {
+          "A": "The author believes it has no effect on how people think.",
+          "B": "The author believes it is the most efficient use of spare time.",
+          "C": "The author believes it may prevent valuable, unstructured thinking from occurring."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El autor argumenta que llenar cada momento libre elimina 'the space in which unstructured thinking used to happen'.",
+        "distractores": {
+          "A": {
+            "explicacion": "El autor claramente sugiere un efecto negativo en el pensamiento, no una ausencia de efecto.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "El autor cuestiona esta práctica en vez de elogiarla como eficiente.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "habilidad": "proposito_autor",
+        "enunciado": "What is the author's main purpose in this text?",
+        "opciones": {
+          "A": "To argue that boredom has hidden value that is being lost in modern life.",
+          "B": "To provide scientific data proving that boredom improves memory.",
+          "C": "To criticize people who use smartphones in public places."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El texto completo defiende la idea de que el aburrimiento tiene un valor oculto que se está perdiendo.",
+        "distractores": {
+          "B": {
+            "explicacion": "El autor no presenta datos científicos ni estudios formales; usa argumentos y observaciones generales.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "C": {
+            "explicacion": "El autor no critica a personas específicas por usar el teléfono en público; hace un argumento general.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "habilidad": "tono_actitud",
+        "enunciado": "What is the author's tone in this text?",
+        "opciones": {
+          "A": "Angry and accusatory toward technology companies.",
+          "B": "Thoughtful and mildly persuasive, presenting an unconventional viewpoint.",
+          "C": "Purely factual and emotionally detached."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El autor presenta un argumento poco convencional ('I'd like to make an unfashionable argument') de manera reflexiva y persuasiva.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no acusa directamente a ninguna empresa tecnológica; se enfoca en el comportamiento humano.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "C": {
+            "explicacion": "El texto expresa claramente una opinión personal y una postura argumentativa, no un tono neutral.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "habilidad": "significado_implicito",
+        "enunciado": "What does the author imply by saying 'It's a strange thing to have to argue for something so easily available and so consistently avoided'?",
+        "opciones": {
+          "A": "Boredom has become impossible to experience under any circumstances.",
+          "B": "The author believes boredom should be made illegal in public spaces.",
+          "C": "Boredom is not actually rare, but people actively avoid experiencing it despite its accessibility."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Esta frase implica que, aunque el aburrimiento sigue siendo fácilmente accesible, las personas lo evitan de forma tan constante que defenderlo suena extraño.",
+        "distractores": {
+          "A": {
+            "explicacion": "El autor no dice que sea imposible experimentar aburrimiento, sino que la gente lo evita activamente aunque esté disponible.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "No hay ninguna sugerencia de prohibir nada; el argumento es sobre un cambio de actitud personal.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "habilidad": "inferencia",
+        "enunciado": "What can be inferred about children's experience of boredom, according to the text?",
+        "opciones": {
+          "A": "Children today have less opportunity to experience boredom because devices are almost always available to them.",
+          "B": "Children today experience boredom more intensely than adults.",
+          "C": "Children are no longer capable of feeling bored under any circumstances."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El texto dice que los niños 'seem to be losing this experience earliest and most thoroughly, since a phone or tablet is now often within reach'.",
+        "distractores": {
+          "B": {
+            "explicacion": "El texto no compara la intensidad del aburrimiento entre niños y adultos; se enfoca en la frecuencia.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "C": {
+            "explicacion": "El texto no afirma que sea imposible para los niños aburrirse, sino que tienen menos oportunidades.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P6-TEXTO-003",
+    "modulo": "ingles",
+    "parte": 6,
+    "tipo": "comprension_compleja",
+    "nivel_mcer": "B2",
+    "texto_base": "When offices around the world emptied out almost overnight a few years ago, many workers discovered something unexpected: they didn't miss the commute, the fluorescent lighting, or the forced small talk by the coffee machine nearly as much as they'd assumed they would. Remote work, once viewed with suspicion by many employers, quickly became something many employees insisted they could never give up. And yet, several years later, a more complicated picture has emerged — one that the loudest defenders of remote work rarely acknowledge.\n\nFor a certain kind of worker — experienced, self-directed, with a quiet home and a clearly defined role — working from home genuinely can be an improvement in every measurable way. But this description does not fit everyone, and pretending otherwise does a disservice to those for whom remote work has been quietly difficult. Younger employees, in particular, often report a specific kind of loss: the informal mentorship that used to happen simply by sitting near more experienced colleagues, overhearing how problems got solved, asking a quick question without scheduling a call for it. That kind of learning is difficult to replicate over a screen, no matter how many virtual coffee chats a company schedules in its place.\n\nThere is also the matter of home itself, a detail conveniently ignored in most arguments celebrating remote work. Not everyone has a spare room, a quiet corner, or even a reliable internet connection. For someone sharing a small apartment with three roommates, or living with young children and no separate space to work, \"just work from home\" can mean something closer to a daily obstacle course than a convenient arrangement. The freedom that remote work offers some people functions, for others, as an invisible tax paid in distraction and discomfort.\n\nNone of this is an argument for forcing everyone back into an office five days a week, a demand that ignores just as many real benefits on the other side. The point is simpler and less satisfying than either extreme position: remote work is neither a universal solution nor a universal mistake, and treating it as either one flattens a much messier reality. What actually works seems to depend heavily on the specific person, their home situation, their career stage, and the kind of work they do — details that get lost whenever the conversation splits neatly into two opposing camps.\n\nPerhaps the most useful question isn't whether remote work is good or bad, but for whom, under what conditions, and at what point in their career — questions considerably harder to fit into a confident headline.",
+    "preguntas": [
+      {
+        "num": 1,
+        "habilidad": "inferencia",
+        "enunciado": "What can be inferred about the author's opinion of arguments that strongly favor remote work for everyone?",
+        "opciones": {
+          "A": "The author completely agrees with these arguments.",
+          "B": "The author believes such arguments overlook important differences between workers' situations.",
+          "C": "The author believes remote work should be banned entirely."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El autor señala repetidamente detalles que 'los defensores más ruidosos del trabajo remoto rara vez reconocen', sugiriendo que estas visiones simplifican demasiado la realidad.",
+        "distractores": {
+          "A": {
+            "explicacion": "El autor no está completamente de acuerdo; señala varias limitaciones importantes de esta postura.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "El autor aclara explícitamente que su argumento no es 'forzar a todos de vuelta a la oficina'.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "habilidad": "proposito_autor",
+        "enunciado": "What is the author's main purpose in this text?",
+        "opciones": {
+          "A": "To convince companies to eliminate remote work policies completely.",
+          "B": "To describe the technical requirements for setting up a home office.",
+          "C": "To argue that the value of remote work depends on individual circumstances rather than being universally good or bad."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto concluye explícitamente que el trabajo remoto 'is neither a universal solution nor a universal mistake'.",
+        "distractores": {
+          "A": {
+            "explicacion": "El autor rechaza explícitamente la idea de forzar a todos de vuelta a la oficina.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "El texto no ofrece ninguna guía técnica sobre cómo configurar una oficina en casa.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "habilidad": "tono_actitud",
+        "enunciado": "What is the author's tone in this text?",
+        "opciones": {
+          "A": "Balanced and measured, resisting simple conclusions in favor of nuance.",
+          "B": "Enthusiastically supportive of remote work in all situations.",
+          "C": "Dismissive and mocking toward remote workers."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El autor evita tomar una postura extrema, reconociendo beneficios y problemas según la situación de cada persona.",
+        "distractores": {
+          "B": {
+            "explicacion": "El autor no apoya el trabajo remoto de forma incondicional; señala varias limitaciones importantes.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "El tono no es burlón ni despectivo; el autor trata el tema con seriedad.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "habilidad": "significado_implicito",
+        "enunciado": "What does the author imply by describing remote work's freedom as 'an invisible tax paid in distraction and discomfort' for some people?",
+        "opciones": {
+          "A": "Remote workers are literally required to pay additional taxes to their government.",
+          "B": "For some workers, the apparent benefits of remote work come with hidden, less visible costs.",
+          "C": "Remote work always costs more money than commuting to an office."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Esta metáfora sugiere que, aunque el trabajo remoto parece ofrecer libertad, para algunas personas implica costos ocultos no siempre evidentes.",
+        "distractores": {
+          "A": {
+            "explicacion": "El autor usa 'tax' de forma metafórica, no literal; no se refiere a impuestos reales.",
+            "patron_trampa": "falso_amigo"
+          },
+          "C": {
+            "explicacion": "El texto no compara costos monetarios entre trabajar remoto y desplazarse a una oficina.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "habilidad": "inferencia",
+        "enunciado": "What can be inferred about the experience of younger employees working remotely, according to the text?",
+        "opciones": {
+          "A": "They generally prefer remote work more than experienced employees do.",
+          "B": "They are unable to perform their job duties without in-person supervision.",
+          "C": "They may miss out on informal learning opportunities that happen naturally in a physical office."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto menciona que los empleados jóvenes 'often report a specific kind of loss: the informal mentorship' de estar cerca de colegas experimentados.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no compara las preferencias generales de empleados jóvenes frente a los experimentados.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "B": {
+            "explicacion": "El texto no sugiere que sean incapaces de trabajar sin supervisión; el problema es la pérdida de mentoría informal.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P6-TEXTO-004",
+    "modulo": "ingles",
+    "parte": 6,
+    "tipo": "comprension_compleja",
+    "nivel_mcer": "B1",
+    "texto_base": "A shirt that costs less than a cup of coffee should probably make us pause before we buy it, and yet most of us don't pause at all. Fast fashion — the industry built around producing cheap, trend-driven clothing at a staggering pace — has become so normal that questioning it can feel almost strange, like objecting to gravity. But the convenience of a five-dollar T-shirt rests on a set of costs that simply don't appear on the price tag.\n\nConsider, first, the human cost. Behind most extremely cheap garments sits a long, often opaque supply chain, at the end of which workers — frequently in countries with weak labor protections — are paid very little to produce clothing at a relentless pace. This isn't a secret exactly; documentaries have been made, investigations published, factory collapses reported on the news. And yet the information rarely seems to translate into changed buying habits, perhaps because the connection between a shirt on a hanger and the person who sewed it feels abstract, easy to set aside at the checkout counter.\n\nThen there's the environmental cost, which is arguably even harder to ignore once you start looking at the numbers. The fashion industry as a whole produces an enormous share of global carbon emissions, and fast fashion in particular generates staggering amounts of textile waste, since clothes designed to be worn a handful of times before falling apart or falling out of style are, almost by definition, designed to become garbage relatively quickly. Donation bins offer a comforting illusion of responsibility, but the reality is that only a small fraction of donated clothing actually gets resold; much of the rest ends up shipped overseas or simply discarded.\n\nNone of this is to suggest that anyone who buys an inexpensive T-shirt is personally responsible for the industry's problems — the system, after all, was designed precisely to make cheap, frequent purchasing feel effortless and consequence-free. Blaming individual shoppers while ignoring the businesses that built this model, and profit enormously from it, misses the larger point entirely.\n\nStill, individual choices are not entirely powerless, either. Buying less, buying better, and occasionally asking an uncomfortable question — who actually made this, and what did they get paid? — won't fix a global industry on its own, but it does chip away, however slowly, at the illusion that our clothing choices exist in some consequence-free bubble, disconnected from the people and places that made them possible in the first place.",
+    "preguntas": [
+      {
+        "num": 1,
+        "habilidad": "inferencia",
+        "enunciado": "What can be inferred about why people continue buying fast fashion despite knowing about its human costs?",
+        "opciones": {
+          "A": "The connection between the product and the people who made it feels distant and abstract to consumers.",
+          "B": "Most consumers are completely unaware that any problems exist in the fashion industry.",
+          "C": "Fast fashion companies have made it illegal to discuss labor conditions publicly."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El texto sugiere que 'the connection between a shirt on a hanger and the person who sewed it feels abstract, easy to set aside at the checkout counter'.",
+        "distractores": {
+          "B": {
+            "explicacion": "El texto dice explícitamente que se han hecho documentales e investigaciones publicadas, por lo que la información sí está disponible.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "C": {
+            "explicacion": "No hay ninguna mención de restricciones legales sobre hablar de condiciones laborales.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "habilidad": "proposito_autor",
+        "enunciado": "What is the author's main purpose in this text?",
+        "opciones": {
+          "A": "To provide a step-by-step guide for starting a clothing recycling business.",
+          "B": "To raise awareness about the hidden human and environmental costs of fast fashion while avoiding blaming individual consumers entirely.",
+          "C": "To argue that all clothing donation programs are completely useless."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto expone los costos de la moda rápida, pero aclara explícitamente que no busca culpar únicamente a los consumidores individuales.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no ofrece ninguna guía práctica para iniciar un negocio de reciclaje.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "C": {
+            "explicacion": "El autor no dice que los programas de donación sean 'completamente inútiles'; señala que solo una fracción se revende.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "habilidad": "tono_actitud",
+        "enunciado": "What is the author's tone in this text?",
+        "opciones": {
+          "A": "Completely indifferent to the ethical concerns of the fashion industry.",
+          "B": "Celebratory and enthusiastic about the fast fashion industry.",
+          "C": "Concerned and critical, but ultimately measured rather than accusatory toward individual shoppers."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El autor expresa preocupación por los costos ocultos de la moda rápida, pero explícitamente evita culpar a los compradores individuales.",
+        "distractores": {
+          "A": {
+            "explicacion": "El autor claramente muestra preocupación por el tema, no indiferencia.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "El tono del texto es crítico hacia la industria, no celebratorio.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "habilidad": "significado_implicito",
+        "enunciado": "What does the author imply by comparing questioning fast fashion to 'objecting to gravity'?",
+        "opciones": {
+          "A": "Fast fashion has become so widely accepted as normal that criticizing it feels unusual or out of place.",
+          "B": "Fast fashion is a scientifically proven natural law that cannot be changed.",
+          "C": "The fashion industry has more power than the laws of physics."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Esta comparación exagerada sugiere que cuestionar la moda rápida se siente tan extraño como cuestionar una ley física básica, porque se ha normalizado tanto.",
+        "distractores": {
+          "B": {
+            "explicacion": "La comparación es una metáfora retórica, no una afirmación científica literal.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "Esta interpretación toma la metáfora de manera demasiado literal.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "habilidad": "inferencia",
+        "enunciado": "What can be inferred about the effectiveness of clothing donation bins, according to the text?",
+        "opciones": {
+          "A": "They completely eliminate the environmental impact of discarded clothing.",
+          "B": "They provide a false sense of responsibility, since only a small fraction of donated clothing is actually resold.",
+          "C": "They are the primary way that fast fashion companies reduce their carbon emissions."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto dice explícitamente que las cajas de donación 'offer a comforting illusion of responsibility', ya que solo una pequeña fracción se revende.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto sugiere justamente lo contrario: gran parte de la ropa donada termina desechada o enviada al extranjero.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "El texto no relaciona las donaciones con las emisiones de carbono de las empresas.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P6-TEXTO-005",
+    "modulo": "ingles",
+    "parte": 6,
+    "tipo": "comprension_compleja",
+    "nivel_mcer": "B2",
+    "texto_base": "Ask most people whether they're good at multitasking, and a surprising number will say yes, often with a hint of pride. We've come to treat the ability to juggle several tasks at once as a kind of modern superpower, something to list on a resume without embarrassment. There's just one inconvenient problem with this belief: decades of research on attention suggest that, for the vast majority of people, multitasking in the way we usually mean it simply doesn't exist.\n\nWhat actually happens when someone \"multitasks\" — writing an email while half-listening to a meeting, for instance — is not two tasks being performed simultaneously, but rather rapid switching between them, with the brain paying a small cognitive cost each time it shifts focus. Those costs add up quickly. Studies consistently find that people who frequently switch between tasks take longer to complete each one and make more mistakes than people who focus on a single task until it's finished. In other words, the thing we call multitasking isn't actually saving time; in most cases, it's quietly costing us time while making us feel productive in the moment.\n\nWhy, then, does multitasking feel so effective while we're doing it? Part of the answer seems to lie in a kind of pleasant self-deception. Rapidly switching between tasks creates a sense of busyness, of forward motion, that a single, sustained task sometimes lacks, especially if that task is difficult or tedious. Answering ten small emails while a longer, more demanding project sits untouched feels productive, even though the demanding project — arguably the one that mattered most — hasn't actually moved forward at all.\n\nNone of this means occasional task-switching is inherently harmful, or that anyone should feel guilty for briefly checking a message during a long task. Life rarely allows for perfectly uninterrupted focus, and expecting otherwise is its own kind of unrealistic standard. The issue is less about occasional interruption and more about treating constant switching as an efficient default, rather than recognizing it for what research suggests it actually is: a way of feeling busy that frequently gets in the way of being effective.\n\nPerhaps the most useful shift isn't eliminating multitasking altogether, an unrealistic goal for most modern jobs, but simply becoming more honest about what it costs. The next time a full afternoon disappears into a blur of switching between six half-finished tasks, it might be worth asking what, exactly, got done — and whether doing fewer things, one at a time, might have actually gotten more accomplished.",
+    "preguntas": [
+      {
+        "num": 1,
+        "habilidad": "inferencia",
+        "enunciado": "What can be inferred about why multitasking feels productive even when it isn't, according to the text?",
+        "opciones": {
+          "A": "Multitasking has been scientifically proven to save significant amounts of time.",
+          "B": "People who multitask are naturally more intelligent than those who focus on one task.",
+          "C": "The sense of busyness created by switching tasks feels satisfying, even without real progress."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto explica que 'rapidly switching between tasks creates a sense of busyness... even though the demanding project... hasn't actually moved forward at all'.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto afirma justamente lo contrario: la investigación sugiere que la multitarea cuesta tiempo, no lo ahorra.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "El texto no hace ninguna afirmación sobre la inteligencia de quienes hacen multitarea.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "habilidad": "proposito_autor",
+        "enunciado": "What is the author's main purpose in this text?",
+        "opciones": {
+          "A": "To challenge the common belief that multitasking is an efficient and admirable skill.",
+          "B": "To provide step-by-step instructions for improving multitasking ability.",
+          "C": "To argue that all forms of task-switching should be completely eliminated from daily life."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El texto cuestiona directamente la creencia popular de que la multitarea es eficiente, citando investigación sobre atención.",
+        "distractores": {
+          "B": {
+            "explicacion": "El texto no ofrece ninguna guía para mejorar la habilidad de hacer multitarea.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "C": {
+            "explicacion": "El autor aclara explícitamente que no busca eliminar todo cambio de tarea.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "habilidad": "tono_actitud",
+        "enunciado": "What is the author's tone in this text?",
+        "opciones": {
+          "A": "Angry and highly critical of people who multitask.",
+          "B": "Skeptical but reasonable, questioning a popular belief without being extreme.",
+          "C": "Completely neutral, presenting no personal viewpoint at all."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El autor cuestiona la creencia popular con base en investigación, pero mantiene un tono razonable, sin culpar a nadie.",
+        "distractores": {
+          "A": {
+            "explicacion": "El autor no critica a las personas que hacen multitarea; cuestiona la creencia en sí.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "El autor claramente presenta una postura argumentativa clara, no una ausencia total de opinión.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "habilidad": "significado_implicito",
+        "enunciado": "What does the author imply by describing multitasking as 'a way of feeling busy that frequently gets in the way of being effective'?",
+        "opciones": {
+          "A": "People who multitask are lazy and unwilling to work hard.",
+          "B": "Feeling busy and being effective always mean exactly the same thing.",
+          "C": "The sensation of productivity from multitasking often does not match actual results."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Esta frase distingue entre 'sentirse ocupado' (una sensación) y 'ser efectivo' (un resultado real), sugiriendo que la multitarea genera la sensación sin el resultado.",
+        "distractores": {
+          "A": {
+            "explicacion": "El autor no sugiere pereza; al contrario, describe a las personas como ocupadas, solo que de forma ineficiente.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "La frase distingue explícitamente entre ambos conceptos, sugiriendo que NO son lo mismo.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "habilidad": "inferencia",
+        "enunciado": "What can be inferred about the author's view of completely eliminating task-switching from daily life?",
+        "opciones": {
+          "A": "The author believes this is an unrealistic goal that isn't necessary to address the real problem.",
+          "B": "The author believes this is essential and should be everyone's top priority.",
+          "C": "The author believes this has already been achieved by most successful professionals."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El autor dice explícitamente que eliminar la multitarea por completo es 'an unrealistic goal for most modern jobs'.",
+        "distractores": {
+          "B": {
+            "explicacion": "El autor no presenta esto como esencial ni como prioridad; lo describe como poco realista.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "No hay ninguna mención de que los profesionales exitosos ya hayan logrado esto.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P6-TEXTO-006",
+    "modulo": "ingles",
+    "parte": 6,
+    "tipo": "comprension_compleja",
+    "nivel_mcer": "B1",
+    "texto_base": "Step outside in almost any major city and silence is the one thing you're unlikely to find. Traffic hums in the background even at odd hours, construction crews start early, sirens pass with some regularity, and somewhere, almost always, a delivery truck is reversing with that particular beeping sound designed to be impossible to ignore. City dwellers tend to treat this constant noise as simply the price of urban life, an unavoidable tax paid for the convenience and energy that dense cities offer. I'd like to suggest we've accepted this trade-off too easily.\n\nNoise pollution, unlike the visible kind, rarely gets the attention it deserves in conversations about urban planning, perhaps because its effects are harder to photograph than smog or litter. But the research on chronic noise exposure paints a fairly troubling picture: elevated stress hormones, disrupted sleep, increased risk of cardiovascular problems, and measurable effects on children's learning in schools located near busy roads. None of this is speculative or minor; it is simply less visible than other forms of pollution, and therefore easier for city planners to deprioritize.\n\nPart of the problem is that noise, unlike a poorly designed building or an ugly billboard, has no obvious villain to blame. It emerges instead from thousands of small, individually reasonable decisions — a business installing a loud air conditioning unit, a road built without noise barriers, a nightlife district positioned too close to residential blocks — that collectively add up to an environment that never quite goes quiet. Fixing any single source barely moves the needle, which may explain why the problem persists even in cities that pride themselves on forward-thinking urban design.\n\nSome cities have started experimenting with solutions: dedicated quiet zones in parks, stricter limits on construction hours, quieter road surfaces that reduce tire noise, and green spaces specifically designed to buffer sound rather than simply look pleasant. These interventions rarely make headlines the way a new stadium or transit line might, but their effects on daily life and long-term health may ultimately matter just as much, if not more.\n\nNone of this suggests cities should — or realistically could — become silent. A city entirely without sound would likely feel unsettling rather than pleasant; the hum of urban life is, after all, part of what makes cities feel alive. The point is simply that silence deserves a seat at the table when we design urban spaces, rather than being treated as a minor inconvenience we've all quietly agreed to live without.",
+    "preguntas": [
+      {
+        "num": 1,
+        "habilidad": "inferencia",
+        "enunciado": "What can be inferred about why noise pollution receives less attention than other forms of pollution, according to the text?",
+        "opciones": {
+          "A": "Noise pollution does not actually cause any real health problems.",
+          "B": "Its effects are less visible and harder to represent visually than problems like smog or litter.",
+          "C": "City planners are completely unaware that noise pollution exists."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto sugiere que la contaminación acústica 'rarely gets the attention it deserves... perhaps because its effects are harder to photograph than smog or litter'.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto describe varios efectos reales en la salud, contradiciendo esta opción.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "El texto no sugiere que los planificadores desconozcan el problema, sino que lo despriorizan por ser menos visible.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "habilidad": "proposito_autor",
+        "enunciado": "What is the author's main purpose in this text?",
+        "opciones": {
+          "A": "To provide a technical manual for reducing traffic noise using specific materials.",
+          "B": "To convince readers that cities should eliminate all forms of noise entirely.",
+          "C": "To argue that noise pollution deserves more serious consideration in urban planning."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto argumenta consistentemente que el silencio 'deserves a seat at the table when we design urban spaces'.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto menciona algunas soluciones de forma general, pero no ofrece un manual técnico detallado.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "B": {
+            "explicacion": "El autor aclara explícitamente que no sugiere que las ciudades deban volverse completamente silenciosas.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "habilidad": "tono_actitud",
+        "enunciado": "What is the author's tone in this text?",
+        "opciones": {
+          "A": "Advocating and concerned, calling for more attention to an underappreciated issue.",
+          "B": "Purely humorous, treating the topic as a joke.",
+          "C": "Resigned and hopeless about the possibility of any improvement."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El autor defiende activamente la importancia del silencio en la planificación urbana, mostrando preocupación por un problema subestimado.",
+        "distractores": {
+          "B": {
+            "explicacion": "El texto trata el tema con seriedad, citando investigación y consecuencias reales, no con humor.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "El autor menciona soluciones que ya se están probando en algunas ciudades, mostrando cierto optimismo.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "habilidad": "significado_implicito",
+        "enunciado": "What does the author imply by saying noise pollution has 'no obvious villain to blame'?",
+        "opciones": {
+          "A": "No person or company has ever contributed to noise pollution.",
+          "B": "Noise pollution results from many small, individually reasonable decisions rather than one clear cause.",
+          "C": "Noise pollution is a crime that cannot be legally prosecuted."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto explica que el ruido 'emerges... from thousands of small, individually reasonable decisions', lo cual implica que no hay un solo responsable claro.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto sí menciona fuentes específicas del ruido, por lo que sí hay contribuyentes identificables, solo que dispersos.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "El texto no discute el ruido como un delito legal; usa 'villain' de forma metafórica, no literal.",
+            "patron_trampa": "falso_amigo"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "habilidad": "inferencia",
+        "enunciado": "What can be inferred about the author's view of a completely silent city?",
+        "opciones": {
+          "A": "The author believes total silence is achievable and should be the ultimate goal for all cities.",
+          "B": "The author believes cities were completely silent before industrialization and should return to that state.",
+          "C": "The author believes total silence would feel unsettling and is not a realistic or desirable goal."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto dice explícitamente que 'a city entirely without sound would likely feel unsettling rather than pleasant'.",
+        "distractores": {
+          "A": {
+            "explicacion": "El autor aclara que las ciudades no deberían ni podrían volverse completamente silenciosas.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "El texto no hace ninguna comparación histórica con ciudades antes de la industrialización.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P6-TEXTO-007",
+    "modulo": "ingles",
+    "parte": 6,
+    "tipo": "comprension_compleja",
+    "nivel_mcer": "B1",
+    "texto_base": "There is a particular kind of person, and I say this with some affection, who feels compelled to inform you that reading on a screen counts exactly as much as reading on paper. Words are words, after all, and formats shouldn't matter. I understand the argument, and I even agree with parts of it — a good story remains a good story regardless of what it's printed on. And yet, something in me still resists the idea that the two experiences are truly equivalent, and I don't think this resistance is pure nostalgia.\n\nConsider what happens the moment you pick up an e-reader or a phone to read: you are holding, in your hands, the same device that also contains your email, several social media apps, and a small red notification badge patiently waiting to interrupt you. A physical book offers no such temptation, no side door leading elsewhere. Its single, stubborn function is to be read, and this apparent limitation is, I'd argue, one of its greatest strengths in an environment engineered to fragment our attention at every opportunity.\n\nThere is also something to be said for the physical memory a printed book creates that a digital one rarely does. Most people who read regularly can recall, with surprising clarity, roughly where in a physical book a particular passage appeared — near the beginning, close to the end, on a left-hand page. This spatial memory, built from the physical act of turning pages and watching a bookmark travel from one side to the other, seems to help some readers retain and process what they've read more deeply, even if the words themselves are identical to a digital version.\n\nNone of this is meant to shame anyone who prefers e-readers, which offer real, undeniable advantages: portability, adjustable text size, the ability to carry an entire library while traveling with a single light device. For some readers, particularly those with visual impairments, digital formats aren't simply a preference but a genuine necessity. This isn't a case against convenience or accessibility.\n\nIt's simply an argument for not dismissing the physical book as a quaint, outdated relic just yet. There remains something to be said for an object whose entire, singular purpose is to hold your attention on one story, one page at a time, without a notification anywhere in sight.",
+    "preguntas": [
+      {
+        "num": 1,
+        "habilidad": "inferencia",
+        "enunciado": "What can be inferred about the author's view of people who claim reading formats don't matter at all?",
+        "opciones": {
+          "A": "The author partially agrees but still believes there are meaningful differences between formats.",
+          "B": "The author completely agrees that formats make no difference whatsoever.",
+          "C": "The author believes these people have never actually read a physical book."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El autor dice explícitamente 'I understand the argument, and I even agree with parts of it', pero luego explica por qué sigue resistiéndose a la idea de una equivalencia total.",
+        "distractores": {
+          "B": {
+            "explicacion": "El autor no está completamente de acuerdo; presenta varias razones por las que los formatos sí importan.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "El texto no hace ninguna suposición sobre si estas personas han leído libros físicos o no.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "habilidad": "proposito_autor",
+        "enunciado": "What is the author's main purpose in this text?",
+        "opciones": {
+          "A": "To convince readers to completely stop using e-readers.",
+          "B": "To argue that physical books offer distinct advantages that shouldn't be dismissed, without rejecting e-readers entirely.",
+          "C": "To provide a detailed history of how printed books were first invented."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El autor defiende el valor de los libros físicos mientras reconoce explícitamente las ventajas reales de los e-readers.",
+        "distractores": {
+          "A": {
+            "explicacion": "El autor reconoce explícitamente las 'real, undeniable advantages' de los e-readers, no pide eliminarlos.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "El texto no ofrece ninguna historia sobre la invención de los libros impresos.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "habilidad": "tono_actitud",
+        "enunciado": "What is the author's tone in this text?",
+        "opciones": {
+          "A": "Harshly critical of anyone who uses e-readers.",
+          "B": "Completely indifferent to the topic of reading formats.",
+          "C": "Fond and persuasive, defending a personal preference while acknowledging other viewpoints."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El autor expresa cariño por los libros físicos ('with some affection') mientras reconoce con respeto las ventajas de los formatos digitales.",
+        "distractores": {
+          "A": {
+            "explicacion": "El autor explícitamente evita 'shame anyone who prefers e-readers', contradiciendo un tono duramente crítico.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "El autor claramente tiene una opinión y una preferencia personal fuerte sobre el tema.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "habilidad": "significado_implicito",
+        "enunciado": "What does the author imply by describing a physical book's single function as 'one of its greatest strengths'?",
+        "opciones": {
+          "A": "A physical book's inability to offer distractions helps readers maintain focus, unlike multipurpose digital devices.",
+          "B": "Physical books are technologically more advanced than digital devices.",
+          "C": "Physical books are more difficult to use than digital devices, which makes them special."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El autor contrasta el libro físico, que 'offers no such temptation', con los dispositivos digitales llenos de distracciones.",
+        "distractores": {
+          "B": {
+            "explicacion": "El autor no sugiere que los libros físicos sean tecnológicamente superiores; el argumento es sobre distracción, no tecnología.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "El autor no describe los libros físicos como difíciles de usar; su simplicidad es la ventaja mencionada.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "habilidad": "inferencia",
+        "enunciado": "What can be inferred about the author's view of digital reading formats for people with visual impairments?",
+        "opciones": {
+          "A": "The author believes people with visual impairments should not use any reading format at all.",
+          "B": "The author believes digital formats can be a genuine necessity rather than simply a preference for some readers.",
+          "C": "The author believes digital formats are never appropriate for anyone under any circumstances."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto dice explícitamente que para lectores con discapacidades visuales, los formatos digitales 'aren't simply a preference but a genuine necessity'.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto sugiere justamente lo contrario: reconoce que los formatos digitales son necesarios para algunas personas.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "El autor reconoce explícitamente ventajas reales de los formatos digitales para ciertos lectores.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P6-TEXTO-008",
+    "modulo": "ingles",
+    "parte": 6,
+    "tipo": "comprension_compleja",
+    "nivel_mcer": "B2",
+    "texto_base": "There is a particular kind of disappointment reserved for arriving somewhere beautiful only to find it overrun — the ancient street lined with souvenir shops selling identical magnets, the scenic viewpoint requiring a twenty-minute wait for a five-second photo, the historic neighborhood where more buildings now house short-term rentals than actual residents. Tourism, once framed almost entirely as an unambiguous economic gift to the places that receive it, has begun revealing a more complicated set of costs, ones that rarely appear in glossy travel brochures.\n\nThe economic argument for tourism is real and shouldn't be dismissed: it creates jobs, supports local businesses, and often funds the preservation of historic sites that might otherwise crumble from neglect. But this argument, repeated so often it has become close to unquestionable, tends to obscure an important detail: the economic benefits of tourism and the people who bear its costs are frequently not the same people at all. A hotel chain's profits rarely trickle down evenly to residents dealing with rising rents, overwhelmed infrastructure, and neighborhoods that no longer function as neighborhoods so much as backdrops for visitors passing through.\n\nVenice offers perhaps the starkest example: a city where the resident population has shrunk dramatically over recent decades even as visitor numbers climbed into the millions annually, to the point where locals sometimes describe their own city as feeling more like a theme park than a place to actually live. This isn't unique to Venice, though it's often cited as the clearest case; similar tensions have surfaced in cities and regions across the world as previously undiscovered destinations get flooded with visitors following the same recommendations from the same articles and videos.\n\nNone of this amounts to an argument against travel itself, a conclusion that would be both impractical and, frankly, a little hypocritical coming from someone who enjoys visiting new places as much as anyone. The point is more specific: tourism, left entirely unmanaged, tends to concentrate benefits in ways that don't always serve the communities generating them, while spreading costs across residents who rarely get meaningfully consulted about the changes reshaping their neighborhoods.\n\nSome places have begun experimenting with solutions — visitor caps, taxes redirected specifically toward affected communities, incentives for exploring less crowded alternatives — though these remain exceptions rather than the rule. Until managing tourism's less visible costs becomes as much a priority as counting its visible benefits, the disappointment of finding a place overrun will likely remain a feeling shared by travelers and residents alike, for somewhat different reasons.",
+    "preguntas": [
+      {
+        "num": 1,
+        "habilidad": "inferencia",
+        "enunciado": "What can be inferred about the relationship between tourism's economic benefits and its costs, according to the text?",
+        "opciones": {
+          "A": "Tourism's economic benefits and costs are always shared equally among all residents.",
+          "B": "Tourism has no negative effects on local communities at all.",
+          "C": "The people who benefit economically from tourism are often different from those who bear its negative effects."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto dice explícitamente que 'the economic benefits of tourism and the people who bear its costs are frequently not the same people at all'.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto sugiere justamente lo contrario: no se distribuyen de manera equitativa entre los residentes.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "El texto describe varios efectos negativos claros, contradiciendo esta opción.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "habilidad": "proposito_autor",
+        "enunciado": "What is the author's main purpose in this text?",
+        "opciones": {
+          "A": "To highlight the often-overlooked costs of tourism without arguing against travel itself.",
+          "B": "To convince readers to stop traveling completely.",
+          "C": "To provide a list of the best tourist destinations to visit this year."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El autor aclara explícitamente que su argumento 'is not an argument against travel itself', sino un llamado a considerar los costos menos visibles.",
+        "distractores": {
+          "B": {
+            "explicacion": "El autor rechaza explícitamente esta conclusión, calificándola de 'impractical' e 'hypocritical'.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "El texto no menciona ni recomienda destinos turísticos específicos.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "habilidad": "tono_actitud",
+        "enunciado": "What is the author's tone in this text?",
+        "opciones": {
+          "A": "Completely hostile toward all tourists and travel companies.",
+          "B": "Concerned but self-aware, acknowledging their own position as someone who also enjoys traveling.",
+          "C": "Indifferent and disengaged from the topic."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El autor reconoce su propia posición como viajero ('coming from someone who enjoys visiting new places as much as anyone').",
+        "distractores": {
+          "A": {
+            "explicacion": "El autor no muestra hostilidad hacia los turistas individuales; se enfoca en la gestión estructural del turismo.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "El autor claramente muestra preocupación e interés en el tema a lo largo de todo el texto.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "habilidad": "significado_implicito",
+        "enunciado": "What does the author imply by describing some neighborhoods as functioning 'more like backdrops for visitors passing through'?",
+        "opciones": {
+          "A": "These neighborhoods have literally been converted into movie or photography studios.",
+          "B": "These neighborhoods have become completely empty, with no visitors or residents at all.",
+          "C": "These neighborhoods have lost their character as functional communities and exist mainly for tourists' visual experience."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Esta metáfora sugiere que estos vecindarios han perdido su función como comunidades reales, existiendo principalmente como una experiencia visual para los turistas.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Backdrop' se usa de forma metafórica para describir un cambio de función social, no una conversión literal.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "El texto describe vecindarios llenos de turistas, no vacíos; el problema es la sobrepoblación turística.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "habilidad": "inferencia",
+        "enunciado": "What can be inferred about the current state of solutions like visitor caps and redirected taxes, according to the text?",
+        "opciones": {
+          "A": "These solutions exist in some places but are not yet widely adopted.",
+          "B": "These solutions have completely solved the problem of overtourism worldwide.",
+          "C": "These solutions have been tried everywhere and have all failed completely."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El texto dice explícitamente que estas soluciones 'remain exceptions rather than the rule'.",
+        "distractores": {
+          "B": {
+            "explicacion": "El texto no sugiere que el problema esté resuelto; al contrario, indica que sigue siendo un desafío pendiente.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "El texto no afirma que estas soluciones hayan fracasado; simplemente indica que son poco comunes todavía.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      }
+    ]
+  }
+]

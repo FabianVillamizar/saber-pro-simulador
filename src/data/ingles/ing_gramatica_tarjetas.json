@@ -1,0 +1,1657 @@
+[
+  {
+    "id": "ING-GRA-001",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A1",
+    "bloque": "tiempos_presente",
+    "antes": "My sister",
+    "despues": "in a hospital in Bogotá.",
+    "respuesta": "works",
+    "regla": "El **present simple** (presente simple) se usa para hablar de hábitos, rutinas y hechos generales. Cuando el sujeto es **él/ella/eso** (he/she/it), el verbo lleva una **-s** al final: work → works, live → lives, study → studies.",
+    "ejemplo": "He plays soccer every Saturday.",
+    "error_comun": "Muchos hispanohablantes olvidan la **-s** de la tercera persona porque en español el verbo cambia de forma distinta ('ella trabaja', no 'ella trabajas'), así que dicen incorrectamente **'she work'** en vez de 'she works'.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-002",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A1",
+    "bloque": "tiempos_presente",
+    "antes": "I",
+    "despues": "coffee; I prefer tea.",
+    "respuesta": "don't drink",
+    "regla": "Para negar en **present simple**, se usa el auxiliar **don't** (do not) con I/you/we/they, y **doesn't** (does not) con he/she/it, seguido del verbo en su forma base (sin -s).",
+    "ejemplo": "She doesn't like spicy food.",
+    "error_comun": "Un error común es agregar la -s al verbo principal después de 'doesn't', diciendo **'she doesn't likes'**, porque en español no hay un auxiliar equivalente y se piensa que la marca de tercera persona debe repetirse.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-003",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A1",
+    "bloque": "tiempos_presente",
+    "antes": "",
+    "despues": "your parents speak English?",
+    "respuesta": "Do",
+    "regla": "Para hacer preguntas en **present simple** con sujetos I/you/we/they se usa **Do** al inicio, y con he/she/it se usa **Does**; en ambos casos el verbo principal queda en su forma base.",
+    "ejemplo": "Does your brother live in Medellín?",
+    "error_comun": "Es común omitir el auxiliar y preguntar directamente **'Speak your parents English?'**, calcando el orden del español ('¿Hablan tus padres inglés?'), donde no existe un auxiliar equivalente.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-004",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A1",
+    "bloque": "tiempos_presente",
+    "antes": "Look! It",
+    "despues": "outside.",
+    "respuesta": "is raining",
+    "regla": "El **present continuous** (be + verbo-ing) se usa para acciones que están ocurriendo justo en el momento de hablar, o para situaciones temporales.",
+    "ejemplo": "I'm reading a really interesting book these days.",
+    "error_comun": "Los hispanohablantes a veces usan el present simple para acciones en curso ('It rains outside' en vez de 'It's raining'), porque en español el presente simple también puede describir acciones inmediatas ('llueve ahora').",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-005",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "tiempos_presente",
+    "antes": "I",
+    "despues": "the answer, but I can't remember it right now.",
+    "respuesta": "know",
+    "regla": "Algunos verbos, llamados **verbos de estado** (stative verbs) como know, like, love, hate, want, believe, need, describen estados mentales o emociones y normalmente NO se usan en forma continua, incluso si la acción ocurre 'ahora'.",
+    "ejemplo": "She likes classical music.",
+    "error_comun": "Es frecuente escribir **'I'm knowing'** o **'I'm liking'** porque el continuo suena más natural para acciones presentes, pero estos verbos describen un estado, no una acción en desarrollo.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-004"
+    ]
+  },
+  {
+    "id": "ING-GRA-006",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "tiempos_presente",
+    "antes": "She usually",
+    "despues": "the bus, but today she is driving her car.",
+    "respuesta": "takes",
+    "regla": "El **present simple** describe lo habitual (rutinas, hechos generales), mientras que el **present continuous** describe lo que ocurre en este momento específico o de forma temporal. Ambos pueden aparecer en la misma oración para contrastar lo normal con lo excepcional.",
+    "ejemplo": "I normally walk to work, but this week I'm taking the bus because of the rain.",
+    "error_comun": "Un error típico es usar el continuo para hábitos generales, diciendo **'She is usually taking'**, mezclando la idea de rutina (que pide simple) con la forma continua.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-004"
+    ]
+  },
+  {
+    "id": "ING-GRA-007",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A1",
+    "bloque": "tiempos_pasado",
+    "antes": "Yesterday, we",
+    "despues": "the museum downtown.",
+    "respuesta": "visited",
+    "regla": "El **past simple** de los verbos regulares se forma añadiendo **-ed** al verbo base (visit → visited, work → worked). Se usa para acciones completadas en un momento específico del pasado.",
+    "ejemplo": "They finished the project last week.",
+    "error_comun": "Un error frecuente es olvidar la terminación -ed y dejar el verbo en presente, diciendo **'we visit the museum yesterday'**, porque en español la marca temporal a veces recae más en la palabra 'ayer' que en el verbo mismo.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-008",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A1",
+    "bloque": "tiempos_pasado",
+    "antes": "She",
+    "despues": "to Paris three years ago.",
+    "respuesta": "went",
+    "regla": "Muchos verbos en inglés son **irregulares** en pasado y no siguen la regla de -ed; deben memorizarse individualmente. Por ejemplo: go → went, eat → ate, see → saw, have → had.",
+    "ejemplo": "We ate dinner at a new restaurant last night.",
+    "error_comun": "Un error común es regularizar el verbo irregular, escribiendo **'goed'** en vez de 'went', aplicando la regla general de -ed a un verbo que no la sigue.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-009",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "tiempos_pasado",
+    "antes": "At 8 pm yesterday, I",
+    "despues": "dinner with my family.",
+    "respuesta": "was having",
+    "regla": "El **past continuous** (was/were + verbo-ing) describe una acción que estaba en desarrollo en un momento específico del pasado, sin importar si terminó o no.",
+    "ejemplo": "They were watching a movie when the power went out.",
+    "error_comun": "Es común usar el past simple en vez del continuo para describir una acción en curso en un momento preciso, diciendo **'I had dinner at 8pm'** cuando se quiere enfatizar que la acción estaba en proceso, no que ocurrió puntualmente.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-007"
+    ]
+  },
+  {
+    "id": "ING-GRA-010",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "tiempos_pasado",
+    "antes": "I was cooking",
+    "despues": "the phone rang.",
+    "respuesta": "when",
+    "regla": "**When** introduce una acción corta que interrumpe otra acción más larga (por eso suele ir con past simple), mientras que **while** introduce dos acciones largas que ocurren al mismo tiempo (por eso suele ir con past continuous).",
+    "ejemplo": "While I was studying, my roommate was cleaning the kitchen.",
+    "error_comun": "Los hispanohablantes suelen confundir **'while'** y **'when'** porque ambos se traducen como 'mientras' o 'cuando' en ciertos contextos del español, sin distinguir cuál acompaña a la acción de fondo (continua) y cuál a la interrupción (puntual).",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-009"
+    ]
+  },
+  {
+    "id": "ING-GRA-011",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "tiempos_pasado",
+    "antes": "When I arrived at the station, the train",
+    "despues": "already.",
+    "respuesta": "had left",
+    "regla": "El **past perfect** (had + participio pasado) se usa para hablar de una acción que ocurrió **antes** de otro momento o acción en el pasado. Establece un orden claro: primero pasó una cosa, después otra.",
+    "ejemplo": "By the time she called, I had already finished my homework.",
+    "error_comun": "Un error común es usar el past simple para ambas acciones, diciendo **'the train left already'**, lo que hace ambiguo cuál acción ocurrió primero, ya que en español a veces el orden cronológico se infiere del contexto sin cambiar el tiempo verbal.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-007"
+    ]
+  },
+  {
+    "id": "ING-GRA-012",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "tiempos_pasado",
+    "antes": "She was tired because she",
+    "despues": "for six hours straight.",
+    "respuesta": "had been studying",
+    "regla": "El **past perfect continuous** (had been + verbo-ing) enfatiza la **duración** de una acción que venía ocurriendo antes de otro momento en el pasado, a menudo explicando la causa de una situación posterior.",
+    "ejemplo": "He had been working on the report all night before the meeting.",
+    "error_comun": "Se suele confundir con el past perfect simple, usando **'she had studied for six hours'** sin transmitir la idea de duración continua e ininterrumpida, que es precisamente lo que aporta la forma continua.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-011",
+      "ING-GRA-009"
+    ]
+  },
+  {
+    "id": "ING-GRA-013",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "tiempos_presente_perfecto",
+    "antes": "I",
+    "despues": "my keys. Can you help me find them?",
+    "respuesta": "have lost",
+    "regla": "El **present perfect** (have/has + participio pasado) conecta una acción pasada con el presente: algo ocurrió en un momento no especificado, pero su resultado importa **ahora**.",
+    "ejemplo": "She has broken her arm, so she can't play tennis this month.",
+    "error_comun": "Los hispanohablantes a veces usan el past simple porque en español el pretérito perfecto compuesto ('he perdido') y el simple ('perdí') se usan de forma más intercambiable en muchas regiones, lo que lleva a decir **'I lost my keys'** cuando el enfoque debería estar en la consecuencia presente.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-014",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "tiempos_presente_perfecto",
+    "antes": "I've",
+    "despues": "finished my homework, so I can go out now.",
+    "respuesta": "just",
+    "regla": "Con el present perfect se usan adverbios como **just** (hace un momento), **already** (ya, antes de lo esperado), **yet** (todavía, en negativas y preguntas), **ever** (alguna vez, en preguntas) y **never** (nunca).",
+    "ejemplo": "Have you ever tried Ethiopian food?",
+    "error_comun": "Un error común es colocar **'yet'** en oraciones afirmativas con sentido de 'ya', como en **'I have yet finished'**, cuando 'yet' se reserva para negativas ('I haven't finished yet') y preguntas ('Have you finished yet?').",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-013"
+    ]
+  },
+  {
+    "id": "ING-GRA-015",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "tiempos_presente_perfecto",
+    "antes": "I have lived in this city",
+    "despues": "2015.",
+    "respuesta": "since",
+    "regla": "**For** se usa con un período de tiempo (for five years, for two hours), mientras que **since** se usa con un punto de inicio en el tiempo (since 2015, since Monday).",
+    "ejemplo": "We've known each other for ten years.",
+    "error_comun": "Es común confundirlos porque ambos se traducen como 'desde' en algunos contextos del español, llevando a errores como **'since five years'** cuando debería ser 'for five years'.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-013"
+    ]
+  },
+  {
+    "id": "ING-GRA-016",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "tiempos_presente_perfecto",
+    "antes": "I",
+    "despues": "to Japan last year.",
+    "respuesta": "went",
+    "regla": "Cuando se menciona un momento específico y terminado del pasado (last year, in 2019, yesterday), se usa **past simple**, no present perfect, porque el foco está en el hecho pasado en sí, no en su conexión con el presente.",
+    "ejemplo": "She visited her grandmother in 2020.",
+    "error_comun": "Un error frecuente es usar present perfect con marcadores de tiempo específico, diciendo **'I have gone to Japan last year'**, mezclando dos tiempos que en inglés son incompatibles entre sí.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-013",
+      "ING-GRA-007"
+    ]
+  },
+  {
+    "id": "ING-GRA-017",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "tiempos_presente_perfecto",
+    "antes": "I",
+    "despues": "for this exam for three months.",
+    "respuesta": "have been studying",
+    "regla": "El **present perfect continuous** (have/has been + verbo-ing) enfatiza la duración de una acción que empezó en el pasado y continúa hasta ahora, o que acaba de terminar y explica un resultado visible en el presente.",
+    "ejemplo": "My hands are dirty because I've been fixing the car.",
+    "error_comun": "Se suele omitir 'been' y decir **'I have studying'**, ya que en la mente del hablante el auxiliar 'have' ya marca el tiempo perfecto y parece redundante agregar 'been' antes del gerundio.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-013"
+    ]
+  },
+  {
+    "id": "ING-GRA-018",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "tiempos_presente_perfecto",
+    "antes": "He",
+    "despues": "three books this year — an amazing achievement!",
+    "respuesta": "has written",
+    "regla": "Se usa el **present perfect simple** (have/has + participio) cuando se habla de un resultado o cantidad completada (cuántas cosas se han hecho), mientras que el **present perfect continuous** enfatiza la actividad en sí y su duración, sin importar si terminó.",
+    "ejemplo": "I've been reading that book all afternoon, but I've only read fifty pages.",
+    "error_comun": "Un error común es usar la forma continua cuando se quiere resaltar un logro cuantificable, diciendo **'he has been writing three books'**, lo cual suena extraño porque 'three books' es un resultado contable, no una actividad en curso.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-017",
+      "ING-GRA-013"
+    ]
+  },
+  {
+    "id": "ING-GRA-019",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A1",
+    "bloque": "futuro",
+    "antes": "I think it",
+    "despues": "rain tomorrow.",
+    "respuesta": "will",
+    "regla": "**Will** + verbo base se usa para hacer predicciones sobre el futuro basadas en opinión, creencia o intuición, sin evidencia visible en el momento de hablar.",
+    "ejemplo": "I think she will pass the exam.",
+    "error_comun": "Muchos hispanohablantes agregan **'going'** antes de 'will' por error, diciendo **'it is going will rain'**, mezclando las dos estructuras de futuro que aprenden casi al mismo tiempo (will y going to).",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-020",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "futuro",
+    "antes": "The phone is ringing. I",
+    "despues": "answer it.",
+    "respuesta": "will",
+    "regla": "**Will** también se usa para expresar una decisión **espontánea**, tomada en el mismo momento de hablar, sin planificación previa.",
+    "ejemplo": "I'm thirsty. I'll get some water.",
+    "error_comun": "Un error común es usar 'going to' para decisiones tomadas en el momento, diciendo **'I'm going to answer it'**, cuando 'going to' implica que la decisión ya existía antes de hablar, no que se toma en ese instante.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-019"
+    ]
+  },
+  {
+    "id": "ING-GRA-021",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "futuro",
+    "antes": "We",
+    "despues": "visit my grandparents next weekend; we already bought the bus tickets.",
+    "respuesta": "are going to",
+    "regla": "**Be going to + verbo base** se usa para planes o intenciones decididos **antes** del momento de hablar, especialmente cuando ya hay pasos concretos tomados (como comprar boletos).",
+    "ejemplo": "She's going to study medicine at university.",
+    "error_comun": "Es frecuente usar 'will' para planes ya decididos, diciendo **'we will visit my grandparents'**, sin transmitir que la decisión y los preparativos ya existían de antemano.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-019"
+    ]
+  },
+  {
+    "id": "ING-GRA-022",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "futuro",
+    "antes": "Look at those dark clouds! It",
+    "despues": "rain.",
+    "respuesta": "is going to",
+    "regla": "'Be going to' también se usa cuando hay **evidencia visible** en el presente de que algo va a suceder (como nubes oscuras que anuncian lluvia).",
+    "ejemplo": "Watch out, that glass is going to fall!",
+    "error_comun": "Un error típico es usar 'will' en este contexto, diciendo **'it will rain'** sin conexión clara con la evidencia observada, cuando 'going to' es la forma que específicamente señala esa relación causa-evidencia.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-021"
+    ]
+  },
+  {
+    "id": "ING-GRA-023",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "futuro",
+    "antes": "I",
+    "despues": "my dentist at 4 pm tomorrow.",
+    "respuesta": "am seeing",
+    "regla": "El **present continuous** también puede expresar planes futuros ya organizados y con hora o fecha fija, especialmente con verbos de cita o desplazamiento (meet, see, leave, arrive).",
+    "ejemplo": "We're flying to Miami next Friday.",
+    "error_comun": "Un error común es usar 'will' para citas ya agendadas, diciendo **'I will see my dentist tomorrow'**, lo cual suena como una decisión espontánea y no como un plan ya confirmado en la agenda.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-021"
+    ]
+  },
+  {
+    "id": "ING-GRA-024",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "futuro",
+    "antes": "The train",
+    "despues": "at 6:45 tomorrow morning.",
+    "respuesta": "leaves",
+    "regla": "El **present simple** se usa para referirse a **horarios fijos** de eventos programados institucionalmente, como trenes, vuelos, clases o programas de televisión, aunque el evento sea futuro.",
+    "ejemplo": "The movie starts at 8 pm.",
+    "error_comun": "Un error común es usar el present continuous para horarios institucionales, diciendo **'the train is leaving at 6:45'**, cuando esta estructura suena más a un plan personal que a un horario fijo establecido por un tercero.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-023"
+    ]
+  },
+  {
+    "id": "ING-GRA-025",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "futuro",
+    "antes": "Don't call me at 8 pm; I",
+    "despues": "dinner then.",
+    "respuesta": "will be having",
+    "regla": "El **future continuous** (will be + verbo-ing) describe una acción que estará **en progreso** en un momento específico del futuro.",
+    "ejemplo": "This time next week, I'll be lying on a beach in Cartagena.",
+    "error_comun": "Un error común es usar el future simple en su lugar, diciendo **'I will have dinner then'**, lo cual expresa la acción completa en ese punto, no el hecho de que estará ocurriendo en ese preciso instante.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-004"
+    ]
+  },
+  {
+    "id": "ING-GRA-026",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "futuro",
+    "antes": "By next year, I",
+    "despues": "my degree.",
+    "respuesta": "will have finished",
+    "regla": "El **future perfect** (will have + participio pasado) se usa para hablar de una acción que estará **completada antes de un momento específico** en el futuro.",
+    "ejemplo": "By the time you arrive, we will have already eaten dinner.",
+    "error_comun": "Un error común es usar el future simple en su lugar, diciendo **'I will finish my degree by next year'**, lo cual es posible pero pierde el matiz de que la acción estará terminada ANTES de ese punto futuro, no simplemente que ocurrirá para entonces.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-011"
+    ]
+  },
+  {
+    "id": "ING-GRA-027",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "condicionales",
+    "antes": "If you",
+    "despues": "water to 100°C, it boils.",
+    "respuesta": "heat",
+    "regla": "El **zero conditional** (if + present simple, present simple) se usa para hechos generales, científicos o siempre verdaderos, donde la condición y el resultado son automáticos.",
+    "ejemplo": "If you mix blue and yellow, you get green.",
+    "error_comun": "Un error común es usar 'will' en la cláusula de resultado cuando se habla de una verdad general, diciendo **'it will boil'**, cuando el zero conditional requiere presente simple en ambas partes porque no describe una predicción sino una regla constante.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-028",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "condicionales",
+    "antes": "If it rains tomorrow, we",
+    "despues": "the picnic.",
+    "respuesta": "will cancel",
+    "regla": "El **first conditional** (if + present simple, will + verbo base) se usa para situaciones futuras reales y posibles: la condición es probable de cumplirse.",
+    "ejemplo": "If she studies hard, she will pass the exam.",
+    "error_comun": "Un error muy común es usar 'will' también en la cláusula con 'if', diciendo **'If it will rain'**, calcando la idea de futuro del español ('si lloverá'), cuando en inglés la cláusula condicional siempre lleva presente simple, nunca 'will'.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-027"
+    ]
+  },
+  {
+    "id": "ING-GRA-029",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "condicionales",
+    "antes": "If I",
+    "despues": "the lottery, I would travel around the world.",
+    "respuesta": "won",
+    "regla": "El **second conditional** (if + past simple, would + verbo base) se usa para situaciones hipotéticas o improbables en el presente o futuro, que no son reales o son poco probables.",
+    "ejemplo": "If I were you, I would talk to her.",
+    "error_comun": "Un error común es usar 'will' en vez de 'would' en la cláusula de resultado, diciendo **'I will travel'**, sin marcar que se trata de una situación imaginaria e improbable, no de un plan real como en el first conditional.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-028"
+    ]
+  },
+  {
+    "id": "ING-GRA-030",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "condicionales",
+    "antes": "If she had studied harder, she",
+    "despues": "the exam.",
+    "respuesta": "would have passed",
+    "regla": "El **third conditional** (if + past perfect, would have + participio pasado) se usa para hablar de situaciones hipotéticas en el **pasado** que no ocurrieron: es una crítica o reflexión sobre algo que ya no se puede cambiar.",
+    "ejemplo": "If I had known about the traffic, I would have left earlier.",
+    "error_comun": "Un error frecuente es usar el second conditional para hablar del pasado, diciendo **'If she studied harder, she would pass'**, sin marcar que la situación ya terminó y es imposible de cambiar, lo cual requiere past perfect y 'would have'.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-029",
+      "ING-GRA-011"
+    ]
+  },
+  {
+    "id": "ING-GRA-031",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "condicionales",
+    "antes": "If I had taken that job, I",
+    "despues": "richer now.",
+    "respuesta": "would be",
+    "regla": "Los **mixed conditionals** (condicionales mixtos) combinan una condición pasada (if + past perfect) con un resultado en el presente (would + verbo base), cuando una acción no realizada en el pasado tiene consecuencias que se sienten **ahora**.",
+    "ejemplo": "If he hadn't missed the flight, he would be here with us today.",
+    "error_comun": "Un error común es usar 'would have' + participio en la cláusula de resultado incluso cuando el resultado es presente, diciendo **'I would have been richer now'**, sin distinguir que el resultado mixto se refiere al presente y por eso solo necesita 'would' + verbo base.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-030"
+    ]
+  },
+  {
+    "id": "ING-GRA-032",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "voz_pasiva",
+    "antes": "English",
+    "despues": "in more than 50 countries as an official language.",
+    "respuesta": "is spoken",
+    "regla": "La **voz pasiva** en presente se forma con **am/is/are + participio pasado**. Se usa cuando el foco de la oración está en la acción o el receptor, no en quién la realiza.",
+    "ejemplo": "This bread is made with organic flour.",
+    "error_comun": "Un error común es olvidar el verbo 'be' y usar solo el participio, diciendo **'English spoken in 50 countries'**, porque en español la voz pasiva a veces se expresa con 'se' sin un verbo auxiliar equivalente tan explícito ('se habla inglés').",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-033",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "voz_pasiva",
+    "antes": "The Eiffel Tower",
+    "despues": "in 1889.",
+    "respuesta": "was built",
+    "regla": "La voz pasiva en pasado se forma con **was/were + participio pasado**, y se usa frecuentemente para hechos históricos donde no importa (o no se sabe) quién realizó la acción.",
+    "ejemplo": "The Mona Lisa was painted by Leonardo da Vinci.",
+    "error_comun": "Un error común es usar el pasado simple del verbo principal en vez de la estructura pasiva, diciendo **'The Eiffel Tower built in 1889'**, sin el auxiliar 'was', que es indispensable en inglés para marcar la voz pasiva.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-032"
+    ]
+  },
+  {
+    "id": "ING-GRA-034",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "voz_pasiva",
+    "antes": "The new bridge",
+    "despues": "next year.",
+    "respuesta": "will be finished",
+    "regla": "La voz pasiva en futuro se forma con **will be + participio pasado**, útil para anunciar planes o proyectos donde el agente no es el foco de la oración.",
+    "ejemplo": "The results will be announced on Friday.",
+    "error_comun": "Un error común es duplicar el auxiliar, diciendo **'will be will finished'**, o combinar erróneamente 'be' con el verbo en su forma base sin participio, como **'will be finish'**, olvidando que se necesita la forma de participio pasado.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-032"
+    ]
+  },
+  {
+    "id": "ING-GRA-035",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "voz_pasiva",
+    "antes": "This novel",
+    "despues": "by Gabriel García Márquez.",
+    "respuesta": "was written",
+    "regla": "Cuando se quiere mencionar quién realizó la acción en una oración pasiva, se usa **by + agente** al final de la oración. Se incluye solo cuando el agente aporta información relevante o nueva.",
+    "ejemplo": "The award was given to her by the committee.",
+    "error_comun": "Un error común es usar 'from' en vez de 'by' para introducir al agente, diciendo **'written from Gabriel García Márquez'**, por interferencia con la preposición española 'de', que en otros contextos se traduce como 'from'.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-033"
+    ]
+  },
+  {
+    "id": "ING-GRA-036",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "voz_pasiva",
+    "antes": "My wallet",
+    "despues": "yesterday, but I don't know who did it.",
+    "respuesta": "was stolen",
+    "regla": "Se prefiere la **voz pasiva** sobre la activa cuando no se sabe quién realizó la acción, no importa quién la hizo, o se quiere enfatizar el resultado/receptor en vez del agente.",
+    "ejemplo": "The window was broken during the storm.",
+    "error_comun": "Un error común es forzar la voz activa con un sujeto genérico como 'someone', diciendo **'someone stole my wallet yesterday but I don't know who'**, lo cual es gramaticalmente válido, pero suena redundante repetir 'someone' y luego decir que no se sabe quién fue; la pasiva evita esa repetición de forma más natural.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-033"
+    ]
+  },
+  {
+    "id": "ING-GRA-037",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "discurso_indirecto",
+    "antes": "She said she",
+    "despues": "tired.",
+    "respuesta": "was",
+    "regla": "En el **discurso indirecto** (reported speech), cuando el verbo introductorio está en pasado (said, told), el tiempo verbal del discurso original generalmente retrocede un paso: present simple → past simple. Esto se llama 'backshift' (retroceso de tiempo verbal).",
+    "ejemplo": "He said he lived in Bucaramanga.",
+    "error_comun": "Un error común es mantener el tiempo original sin cambiarlo, diciendo **'she said she is tired'**, porque en español el cambio de tiempo en el discurso indirecto es menos estricto y a veces se mantiene el tiempo original ('dijo que está cansada').",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-038",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "discurso_indirecto",
+    "antes": "Katherin said",
+    "despues": "was baking cookies.",
+    "respuesta": "she",
+    "regla": "Al convertir una oración a discurso indirecto, los **pronombres** también cambian según la perspectiva del que reporta: 'I' se convierte en 'she/he' si se habla de otra persona, 'my' en 'her/his', etc.",
+    "ejemplo": "Juan said his dog was sick.",
+    "error_comun": "Un error común es mantener el pronombre original de la cita, diciendo **'Katherin said I was baking cookies'**, tal como aparecería en la cita directa, sin ajustarlo a la perspectiva de quien reporta el mensaje.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-037"
+    ]
+  },
+  {
+    "id": "ING-GRA-039",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "discurso_indirecto",
+    "antes": "He asked me if I",
+    "despues": "the report.",
+    "respuesta": "had finished",
+    "regla": "En las **reported questions** de tipo sí/no, se usa **if** o **whether** (en vez de un signo de interrogación) y el orden de la oración vuelve a ser afirmativo (sujeto antes del verbo), no interrogativo.",
+    "ejemplo": "She asked me if I liked the movie.",
+    "error_comun": "Un error común es mantener el orden interrogativo original, diciendo **'he asked me had I finished'**, calcando la estructura de la pregunta directa en vez de convertirla en una oración afirmativa introducida por 'if'.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-037"
+    ]
+  },
+  {
+    "id": "ING-GRA-040",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "discurso_indirecto",
+    "antes": "She asked me where",
+    "despues": ".",
+    "respuesta": "I lived",
+    "regla": "En las **reported questions** con palabras interrogativas (what, where, why, when, who), se conserva la palabra wh- pero el resto de la oración vuelve al orden afirmativo, sin el auxiliar 'do/does/did' de la pregunta original.",
+    "ejemplo": "He wanted to know what time the meeting started.",
+    "error_comun": "Un error común es mantener el auxiliar 'do/did', diciendo **'she asked me where did I live'**, en vez del orden afirmativo directo 'where I lived', porque el hablante sigue pensando en la estructura de la pregunta original.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-039"
+    ]
+  },
+  {
+    "id": "ING-GRA-041",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "discurso_indirecto",
+    "antes": "The teacher told us",
+    "despues": "quiet during the exam.",
+    "respuesta": "to be",
+    "regla": "Las **reported commands** (órdenes reportadas) se forman con **tell/ask + objeto + to + verbo base** (afirmativo) o **not to + verbo base** (negativo), sin usar el imperativo original.",
+    "ejemplo": "My mom told me not to be late.",
+    "error_comun": "Un error común es usar 'that' seguido de un imperativo o de una oración completa, diciendo **'told us that be quiet'**, en vez de la estructura correcta con infinitivo 'to be quiet', que es la forma estándar para reportar órdenes.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-037"
+    ]
+  },
+  {
+    "id": "ING-GRA-042",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "discurso_indirecto",
+    "antes": "He told",
+    "despues": "not to touch his laptop.",
+    "respuesta": "me",
+    "regla": "El verbo **tell** siempre necesita un objeto directo (a quién se le dice algo: tell me, tell her, tell them), mientras que **say** normalmente no lo necesita (say that... o say to someone, en formal).",
+    "ejemplo": "She said that she would call later.",
+    "error_comun": "Un error muy común es usar 'say' con un objeto directo sin la preposición 'to', diciendo **'he said me not to touch it'**, en vez de 'he told me' o 'he said to me', confundiendo el patrón gramatical de estos dos verbos que en español se traducen igual ('decir').",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-041"
+    ]
+  },
+  {
+    "id": "ING-GRA-043",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A1",
+    "bloque": "modales_habilidad_permiso",
+    "antes": "My dog",
+    "despues": "sit and give a paw.",
+    "respuesta": "can",
+    "regla": "**Can** + verbo base se usa para expresar habilidad o capacidad en el presente. Es un verbo modal, así que no cambia de forma (no lleva -s) ni necesita 'to' antes del verbo siguiente.",
+    "ejemplo": "She can speak three languages.",
+    "error_comun": "Un error común es agregar 'to' después de 'can', diciendo **'can to sit'**, porque muchos otros verbos que expresan habilidad o intención en inglés sí requieren 'to' (like 'want to', 'need to'), y esa regla se sobregeneraliza a 'can'.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-044",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "modales_habilidad_permiso",
+    "antes": "When I was a child, I",
+    "despues": "climb trees very fast.",
+    "respuesta": "could",
+    "regla": "**Could** es la forma pasada de 'can' para hablar de una habilidad general que se tenía en el pasado (ya no necesariamente ahora).",
+    "ejemplo": "He could swim before he could walk.",
+    "error_comun": "Un error común es usar 'can' para hablar del pasado, diciendo **'I can climb trees when I was a child'**, sin ajustar el modal a su forma pasada, algo que en español no siempre es tan explícito porque el contexto temporal ya lo indica ('podía').",
+    "dificultad": "baja",
+    "prereqs": [
+      "ING-GRA-043"
+    ]
+  },
+  {
+    "id": "ING-GRA-045",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "modales_habilidad_permiso",
+    "antes": "I hope I",
+    "despues": "attend the conference next month.",
+    "respuesta": "will be able to",
+    "regla": "**Be able to** se usa como alternativa a 'can/could' en tiempos donde el modal 'can' no existe directamente, como el futuro (will be able to) o después de otros modales/verbos (might be able to).",
+    "ejemplo": "After the surgery, she wasn't able to walk for two weeks.",
+    "error_comun": "Un error común es intentar usar 'will can', diciendo **'I will can attend'**, ya que en inglés no se pueden combinar dos verbos modales seguidos; se necesita 'be able to' para expresar habilidad futura.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-043"
+    ]
+  },
+  {
+    "id": "ING-GRA-046",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A1",
+    "bloque": "modales_habilidad_permiso",
+    "antes": "",
+    "despues": "I borrow your pen, please?",
+    "respuesta": "Can",
+    "regla": "**Can** también se usa de forma informal para pedir o dar **permiso**, especialmente en contextos cotidianos y entre personas cercanas.",
+    "ejemplo": "You can leave early today if you want.",
+    "error_comun": "Un error común entre hablantes de español es confundir 'can' con habilidad únicamente y no reconocerlo también como forma de pedir permiso, usando en su lugar estructuras más largas como **'is it possible that I borrow'**.",
+    "dificultad": "baja",
+    "prereqs": [
+      "ING-GRA-043"
+    ]
+  },
+  {
+    "id": "ING-GRA-047",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "modales_habilidad_permiso",
+    "antes": "",
+    "despues": "you please pass the salt?",
+    "respuesta": "Could",
+    "regla": "**Could** se usa para pedir permiso o hacer peticiones de forma más **cortés y formal** que 'can', especialmente con desconocidos o en situaciones formales.",
+    "ejemplo": "Could I ask you a personal question?",
+    "error_comun": "Un error común es pensar que 'could' aquí se refiere al pasado (habilidad pasada), confundiéndolo con el uso de habilidad pasada, cuando en realidad en preguntas de petición 'could' funciona como una versión más educada de 'can' en el presente.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-044",
+      "ING-GRA-046"
+    ]
+  },
+  {
+    "id": "ING-GRA-048",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "modales_obligacion",
+    "antes": "I",
+    "despues": "finish this report tonight; it's due tomorrow morning.",
+    "respuesta": "must",
+    "regla": "**Must** expresa una obligación fuerte que suele venir del propio hablante (una regla que él mismo considera importante o urgente), y se usa frecuentemente en instrucciones formales o oficiales.",
+    "ejemplo": "Passengers must fasten their seatbelts during takeoff.",
+    "error_comun": "Un error común es agregar 'to' después de 'must', diciendo **'must to finish'**, aplicando por analogía la regla de otros verbos que sí llevan 'to' (like 'have to'), a un modal que nunca lo necesita.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-049",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "modales_obligacion",
+    "antes": "I",
+    "despues": "wear a uniform at my job.",
+    "respuesta": "have to",
+    "regla": "**Have to** expresa una obligación que viene de una regla o autoridad **externa** (una ley, un jefe, una institución), a diferencia de 'must', que suele reflejar una obligación personal.",
+    "ejemplo": "She has to renew her passport before traveling.",
+    "error_comun": "Un error común es olvidar la -s en tercera persona con 'has to', diciendo **'she have to renew'**, porque 'have to' se comporta como un verbo normal (no como un modal puro) y necesita concordancia con el sujeto.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-048"
+    ]
+  },
+  {
+    "id": "ING-GRA-050",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "modales_obligacion",
+    "antes": "You really",
+    "despues": "try this cake — it's delicious!",
+    "respuesta": "must",
+    "regla": "Aunque 'must' y 'have to' a veces se traducen igual al español ('deber'), 'must' comunica que la obligación o recomendación viene del propio hablante, mientras que 'have to' señala una regla impuesta por alguien o algo externo.",
+    "ejemplo": "I have to be at work by 8, but I must call my mom first — I promised her.",
+    "error_comun": "Un error común es usarlos como sinónimos perfectos sin distinguir el origen de la obligación, lo que en exámenes de opción múltiple puede llevar a elegir **'have to'** en contextos donde el matiz personal/interno claramente pide 'must'.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-048",
+      "ING-GRA-049"
+    ]
+  },
+  {
+    "id": "ING-GRA-051",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "modales_obligacion",
+    "antes": "You",
+    "despues": "smoke inside the hospital.",
+    "respuesta": "mustn't",
+    "regla": "**Mustn't** (must not) expresa **prohibición**: algo que está terminantemente prohibido hacer, no una simple falta de obligación.",
+    "ejemplo": "You mustn't tell anyone about the surprise party.",
+    "error_comun": "Un error muy común es confundir 'mustn't' con 'don't have to', pensando que ambos significan 'no es necesario', cuando en realidad 'mustn't' significa 'está prohibido' y 'don't have to' significa 'no es obligatorio, pero puedes si quieres'.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-048"
+    ]
+  },
+  {
+    "id": "ING-GRA-052",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "modales_obligacion",
+    "antes": "You",
+    "despues": "come to the party if you don't feel like it.",
+    "respuesta": "don't have to",
+    "regla": "**Don't have to** significa que **no hay obligación**: la acción es opcional, puedes hacerla o no, a diferencia de 'mustn't', que prohíbe la acción por completo.",
+    "ejemplo": "We don't have to bring anything; the host said everything is covered.",
+    "error_comun": "Un error común es usar 'mustn't' cuando se quiere decir que algo es opcional, diciendo **'you mustn't come to the party'** cuando en realidad se quiere decir que no es obligatorio venir, no que esté prohibido asistir.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-051"
+    ]
+  },
+  {
+    "id": "ING-GRA-053",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "modales_consejo_posibilidad",
+    "antes": "You",
+    "despues": "see a doctor about that cough.",
+    "respuesta": "should",
+    "regla": "**Should** se usa para dar **consejos** o recomendaciones, expresando lo que el hablante considera una buena idea, sin ser una obligación estricta.",
+    "ejemplo": "You should drink more water every day.",
+    "error_comun": "Un error común es agregar 'to' después de 'should', diciendo **'should to see'**, por la misma sobregeneralización que ocurre con otros modales como 'must' y 'can'.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-054",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "modales_consejo_posibilidad",
+    "antes": "We",
+    "despues": "leave now if we want to catch the bus.",
+    "respuesta": "ought to",
+    "regla": "**Ought to** tiene un significado casi idéntico a 'should' (dar consejos o recomendaciones), pero es un poco más formal y menos común en el habla cotidiana.",
+    "ejemplo": "Students ought to arrive on time for the exam.",
+    "error_comun": "Un error común es olvidar el 'to' después de 'ought', diciendo **'ought leave now'**, ya que a diferencia de otros modales como 'should', 'ought' sí requiere 'to' antes del verbo principal.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-053"
+    ]
+  },
+  {
+    "id": "ING-GRA-055",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "modales_consejo_posibilidad",
+    "antes": "She",
+    "despues": "come to the party; she hasn't decided yet.",
+    "respuesta": "might",
+    "regla": "**Might** y **may** se usan para expresar **posibilidad** en el presente o futuro: algo que podría suceder, pero no es seguro.",
+    "ejemplo": "It may rain later, so bring an umbrella.",
+    "error_comun": "Un error común es usar 'can' para expresar posibilidad incierta, diciendo **'she can come to the party'**, cuando 'can' se asocia más con habilidad o permiso, y 'might/may' es la forma correcta para señalar incertidumbre sobre un evento futuro.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-056",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "modales_consejo_posibilidad",
+    "antes": "The ground is wet, so it",
+    "despues": "rained last night.",
+    "respuesta": "must have",
+    "regla": "**Must have + participio pasado** se usa para hacer una **deducción lógica muy probable** sobre algo que ocurrió en el pasado, basada en evidencia presente.",
+    "ejemplo": "She's not answering her phone; she must have forgotten to charge it.",
+    "error_comun": "Un error común es usar 'must' sin 'have' para referirse al pasado, diciendo **'it must rained last night'**, sin el auxiliar perfecto 'have', que es indispensable para ubicar la deducción en el pasado.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-048",
+      "ING-GRA-011"
+    ]
+  },
+  {
+    "id": "ING-GRA-057",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "modales_consejo_posibilidad",
+    "antes": "I don't know why he didn't answer; he",
+    "despues": "been busy.",
+    "respuesta": "might have",
+    "regla": "**Might have / may have + participio pasado** expresan una **posibilidad incierta sobre el pasado**: algo que quizás ocurrió, pero sin la certeza de 'must have'.",
+    "ejemplo": "She might have missed the bus; that's probably why she's late.",
+    "error_comun": "Un error común es confundir el grado de certeza y usar 'must have' cuando la situación es realmente incierta, o viceversa, usar 'might have' cuando la evidencia es tan fuerte que 'must have' sería más preciso; distinguir el nivel de certeza es la clave de este bloque.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-056"
+    ]
+  },
+  {
+    "id": "ING-GRA-058",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "modales_consejo_posibilidad",
+    "antes": "You",
+    "despues": "studied more before the exam.",
+    "respuesta": "should have",
+    "regla": "**Should have + participio pasado** expresa una **crítica o arrepentimiento** sobre algo que no se hizo en el pasado (pero habría sido lo correcto o recomendable hacerlo).",
+    "ejemplo": "I should have called her before showing up at her house.",
+    "error_comun": "Un error común es usar el past simple después de 'should', diciendo **'you should studied more'**, olvidando que 'should have' siempre requiere el participio pasado y no el pasado simple del verbo.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-053",
+      "ING-GRA-011"
+    ]
+  },
+  {
+    "id": "ING-GRA-059",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "clausulas_relativas",
+    "antes": "The woman",
+    "despues": "lives next door is a doctor.",
+    "respuesta": "who",
+    "regla": "**Who** se usa para introducir una **cláusula relativa** (una oración que da información extra sobre un sustantivo) cuando el sustantivo es una **persona** y funciona como sujeto de la cláusula.",
+    "ejemplo": "The man who called earlier didn't leave his name.",
+    "error_comun": "Un error común es usar 'which' para referirse a personas, diciendo **'the woman which lives next door'**, porque en español el pronombre relativo 'que' no distingue entre personas y cosas, a diferencia del inglés.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-060",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "clausulas_relativas",
+    "antes": "The book",
+    "despues": "I bought yesterday is really interesting.",
+    "respuesta": "which",
+    "regla": "**Which** se usa para introducir cláusulas relativas cuando el sustantivo del que se habla es una **cosa o un animal**, nunca una persona.",
+    "ejemplo": "The car which broke down is finally fixed.",
+    "error_comun": "Un error común es usar 'who' para objetos, diciendo **'the book who I bought'**, aplicando por error la regla de personas a un sustantivo que no lo es.",
+    "dificultad": "baja",
+    "prereqs": [
+      "ING-GRA-059"
+    ]
+  },
+  {
+    "id": "ING-GRA-061",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "clausulas_relativas",
+    "antes": "This is the restaurant",
+    "despues": "we told you about.",
+    "respuesta": "that",
+    "regla": "**That** puede reemplazar tanto a 'who' como a 'which' en **cláusulas relativas especificativas** (defining, que dan información esencial para identificar el sustantivo), pero NO se puede usar en cláusulas no especificativas (con comas).",
+    "ejemplo": "The movie that won the award is playing at the local theater.",
+    "error_comun": "Un error común es usar 'that' después de una coma en cláusulas no especificativas, diciendo **'My sister, that lives in Bogotá, is visiting'**, cuando esa estructura con coma requiere 'who' (para personas), nunca 'that'.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-059",
+      "ING-GRA-060"
+    ]
+  },
+  {
+    "id": "ING-GRA-062",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "clausulas_relativas",
+    "antes": "That's the man",
+    "despues": "car was stolen last week.",
+    "respuesta": "whose",
+    "regla": "**Whose** se usa para indicar **posesión** dentro de una cláusula relativa (equivalente a 'cuyo/cuya' en español), tanto para personas como, en menor medida, para cosas.",
+    "ejemplo": "She's the artist whose paintings are in that gallery.",
+    "error_comun": "Un error común es confundir 'whose' con 'who's' (contracción de 'who is'), escribiendo **'the man who's car was stolen'**, cuando la posesión requiere 'whose' sin apóstrofo.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-059"
+    ]
+  },
+  {
+    "id": "ING-GRA-063",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "clausulas_relativas",
+    "antes": "That's the restaurant",
+    "despues": "we had our first date.",
+    "respuesta": "where",
+    "regla": "**Where** se usa para introducir cláusulas relativas que se refieren a un **lugar**, reemplazando expresiones como 'in which' o 'at which'.",
+    "ejemplo": "This is the park where I usually go running.",
+    "error_comun": "Un error común es usar 'which' seguido de una preposición de forma incorrecta o mantener la preposición al final de manera redundante, diciendo **'the restaurant which we had our first date in it'**, en vez de simplificar con 'where'.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-060"
+    ]
+  },
+  {
+    "id": "ING-GRA-064",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "clausulas_relativas",
+    "antes": "My laptop,",
+    "despues": "I bought last year, has already stopped working.",
+    "respuesta": "which",
+    "regla": "Las cláusulas relativas **no especificativas** (non-defining, separadas por comas) añaden información extra pero no esencial para identificar el sustantivo; en estas, NUNCA se puede usar 'that', solo 'who'/'which'. Las **especificativas** (defining, sin comas) sí aceptan 'that' y dan información necesaria para saber de qué/quién se habla.",
+    "ejemplo": "Bucaramanga, which is known as the 'Ciudad Bonita', has a pleasant climate.",
+    "error_comun": "Un error común es usar 'that' dentro de comas, diciendo **'My laptop, that I bought last year, has stopped working'**, sin reconocer que la presencia de comas señala una cláusula no especificativa donde 'that' no está permitido.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-061",
+      "ING-GRA-060"
+    ]
+  },
+  {
+    "id": "ING-GRA-065",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A1",
+    "bloque": "comparativos_superlativos",
+    "antes": "This exercise is",
+    "despues": "than the last one.",
+    "respuesta": "harder",
+    "regla": "Los adjetivos cortos (una sílaba, o dos terminados en -y) forman el comparativo agregando **-er** (hard → harder, easy → easier), seguido de 'than' para comparar dos elementos.",
+    "ejemplo": "My house is bigger than my cousin's apartment.",
+    "error_comun": "Un error común es agregar 'more' junto con '-er', diciendo **'more harder'**, duplicando la marca de comparación porque en español el comparativo siempre usa 'más' ('más difícil'), y esa estructura se traslada erróneamente al inglés.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-066",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A1",
+    "bloque": "comparativos_superlativos",
+    "antes": "This course is",
+    "despues": "than the one I took last semester.",
+    "respuesta": "more interesting",
+    "regla": "Los adjetivos largos (de tres o más sílabas, y muchos de dos sílabas) forman el comparativo con **more + adjetivo**, en vez de agregar '-er'.",
+    "ejemplo": "Learning French is more challenging than I expected.",
+    "error_comun": "Un error común es agregar '-er' a un adjetivo largo, diciendo **'interestinger'**, aplicando la regla de los adjetivos cortos a uno que requiere 'more'.",
+    "dificultad": "baja",
+    "prereqs": [
+      "ING-GRA-065"
+    ]
+  },
+  {
+    "id": "ING-GRA-067",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "comparativos_superlativos",
+    "antes": "My English is",
+    "despues": "than it was last year.",
+    "respuesta": "better",
+    "regla": "Algunos adjetivos tienen comparativos **irregulares** que no siguen ninguna de las reglas anteriores: good → better, bad → worse, far → farther/further.",
+    "ejemplo": "The situation got worse after the storm.",
+    "error_comun": "Un error común es regularizar estos adjetivos, diciendo **'gooder'** en vez de 'better', aplicando por error la regla de -er a una forma que debe memorizarse aparte.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-065"
+    ]
+  },
+  {
+    "id": "ING-GRA-068",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "comparativos_superlativos",
+    "antes": "This backpack is",
+    "despues": "as the one I had before.",
+    "respuesta": "not as heavy",
+    "regla": "**As + adjetivo + as** se usa para comparar dos elementos que son **iguales** en cierta cualidad; en forma negativa (not as...as) indica que uno tiene menos de esa cualidad que el otro.",
+    "ejemplo": "She runs as fast as her older brother.",
+    "error_comun": "Un error común es usar el comparativo con '-er' o 'more' dentro de esta estructura, diciendo **'as heavier as'**, mezclando dos formas de comparación (as...as y el comparativo regular) que no se combinan entre sí.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-065"
+    ]
+  },
+  {
+    "id": "ING-GRA-069",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "comparativos_superlativos",
+    "antes": "There are",
+    "despues": "students in this class than in the other one.",
+    "respuesta": "fewer",
+    "regla": "**Fewer** se usa con sustantivos contables en plural (fewer students, fewer books), mientras que **less** se usa con sustantivos incontables (less time, less money), para expresar una cantidad menor.",
+    "ejemplo": "I have less time to study this week because of my exams.",
+    "error_comun": "Un error muy común, incluso entre hablantes nativos informales, es usar 'less' con sustantivos contables, diciendo **'less students'** en vez de 'fewer students', ya que ambos se traducen igual como 'menos' en español, sin la distinción contable/incontable del inglés.",
+    "dificultad": "alta",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-070",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "comparativos_superlativos",
+    "antes": "Everest is",
+    "despues": "mountain in the world.",
+    "respuesta": "the highest",
+    "regla": "El **superlativo** compara un elemento con TODOS los demás de un grupo, indicando que tiene el grado máximo (o mínimo) de una cualidad. Se forma con **the + adjetivo-est** (adjetivos cortos) o **the most + adjetivo** (adjetivos largos).",
+    "ejemplo": "That was the most delicious meal I've had in years.",
+    "error_comun": "Un error común es olvidar el artículo **'the'** antes del superlativo, diciendo **'Everest is highest mountain'**, porque en español el artículo no siempre es tan obligatorio en construcciones similares.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-065",
+      "ING-GRA-066"
+    ]
+  },
+  {
+    "id": "ING-GRA-071",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A1",
+    "bloque": "articulos",
+    "antes": "I saw",
+    "despues": "elephant at the zoo.",
+    "respuesta": "an",
+    "regla": "Se usa **an** (en vez de 'a') antes de palabras que comienzan con **sonido vocálico** (no necesariamente letra vocal), y **a** antes de sonido consonántico.",
+    "ejemplo": "She waited for an hour before the doctor arrived.",
+    "error_comun": "Un error común es basarse en la letra en vez del sonido, diciendo **'a hour'** en vez de 'an hour', porque 'hour' empieza con una letra consonante (h) pero su sonido inicial es vocálico (la h es muda).",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-072",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A1",
+    "bloque": "articulos",
+    "antes": "Can you close",
+    "despues": "door, please? It's cold.",
+    "respuesta": "the",
+    "regla": "Se usa **the** cuando el sustantivo es específico y tanto el hablante como el oyente saben exactamente a cuál se refieren (por contexto, por mención previa, o porque solo hay uno).",
+    "ejemplo": "The sun rises in the east.",
+    "error_comun": "Un error común es omitir 'the' en estos casos porque en español a veces se prescinde del artículo definido en construcciones similares, diciendo **'close door, please'** sin marcar que se trata de una puerta específica y conocida por ambos.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-073",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "articulos",
+    "antes": "In general,",
+    "despues": "are very loyal animals.",
+    "respuesta": "dogs",
+    "regla": "El **artículo cero** (no usar ningún artículo) se usa al hablar de sustantivos plurales o incontables en un sentido **general**, sin referirse a un grupo específico y conocido.",
+    "ejemplo": "Water is essential for life.",
+    "error_comun": "Un error común es agregar 'the' para generalizar, diciendo **'the dogs are very loyal animals'**, cuando en realidad 'the dogs' se referiría a un grupo específico de perros (como los de una casa), no a los perros en general, que es la idea que se quiere expresar.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-072"
+    ]
+  },
+  {
+    "id": "ING-GRA-074",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "articulos",
+    "antes": "She's been learning to play",
+    "despues": "guitar for two years.",
+    "respuesta": "the",
+    "regla": "Se usa **the** antes de instrumentos musicales cuando se habla de tocarlos (play the guitar, play the piano), a diferencia de los deportes, donde normalmente no se usa artículo (play soccer, play tennis).",
+    "ejemplo": "He plays the violin beautifully.",
+    "error_comun": "Un error común es omitir 'the' con instrumentos musicales por analogía con los deportes, diciendo **'play guitar'** en vez de 'play the guitar', sin distinguir esta excepción específica del inglés.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-072"
+    ]
+  },
+  {
+    "id": "ING-GRA-075",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "articulos",
+    "antes": "We're planning a trip to",
+    "despues": "Netherlands next summer.",
+    "respuesta": "the",
+    "regla": "La mayoría de los nombres de países no llevan artículo (Colombia, France, Japan), pero hay excepciones que sí requieren **the**: países con nombres plurales o que incluyen palabras como 'Republic'/'Kingdom' (the Netherlands, the United States, the United Kingdom), ríos (the Amazon) y cordilleras (the Andes).",
+    "ejemplo": "The Andes stretch along the western coast of South America.",
+    "error_comun": "Un error común es aplicar la regla general de 'sin artículo' a estos casos excepcionales, diciendo **'we're planning a trip to Netherlands'**, sin reconocer que estos nombres específicos sí requieren 'the' por su estructura plural o compuesta.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-073"
+    ]
+  },
+  {
+    "id": "ING-GRA-076",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A1",
+    "bloque": "articulos",
+    "antes": "My mother is",
+    "despues": "engineer.",
+    "respuesta": "an",
+    "regla": "Se usa **a/an** antes de sustantivos contables singulares cuando se mencionan por primera vez o de forma general, como al describir una **profesión** (be + a/an + profesión).",
+    "ejemplo": "He wants to be a doctor when he grows up.",
+    "error_comun": "Un error común, por interferencia del español (donde no se usa artículo con profesiones: 'Mi madre es ingeniera'), es omitir el artículo en inglés, diciendo **'my mother is engineer'**, cuando el inglés sí lo requiere obligatoriamente.",
+    "dificultad": "baja",
+    "prereqs": [
+      "ING-GRA-071"
+    ]
+  },
+  {
+    "id": "ING-GRA-077",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "preposiciones",
+    "antes": "She's waiting",
+    "despues": "the bus stop.",
+    "respuesta": "at",
+    "regla": "Para lugar, se usa **at** para puntos específicos (at the bus stop, at the corner), **on** para superficies (on the table, on the wall), e **in** para espacios delimitados o contenedores (in the room, in the box).",
+    "ejemplo": "The keys are on the kitchen table.",
+    "error_comun": "Un error común es usar 'in' de forma general para todos los lugares, diciendo **'in the bus stop'**, por influencia del español, donde 'en' cubre estos tres matices distintos del inglés (at/on/in) sin diferenciarlos.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-078",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "preposiciones",
+    "antes": "My birthday is",
+    "despues": "March.",
+    "respuesta": "in",
+    "regla": "Para tiempo, se usa **in** con meses, años y períodos largos (in March, in 2020, in the morning), **on** con días y fechas (on Monday, on July 4th), y **at** con horas exactas y ciertos momentos (at 5 pm, at night, at Christmas).",
+    "ejemplo": "The meeting is on Friday at 3 pm.",
+    "error_comun": "Un error común es usar 'on' con partes del día en general, diciendo **'on the morning'** en vez de 'in the morning', porque en español 'en la mañana' usa la misma preposición 'en' para todos estos casos.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-077"
+    ]
+  },
+  {
+    "id": "ING-GRA-079",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "preposiciones",
+    "antes": "The cat jumped",
+    "despues": "the table.",
+    "respuesta": "onto",
+    "regla": "Las preposiciones de **movimiento** indican dirección o destino: **to** (movimiento hacia un lugar en general), **into** (movimiento hacia el interior de algo) y **onto** (movimiento hacia la superficie de algo).",
+    "ejemplo": "She walked into the room without knocking.",
+    "error_comun": "Un error común es usar 'in' (posición estática) en vez de 'into' (movimiento) para acciones de entrada, diciendo **'she walked in the room'** cuando se busca expresar la acción de entrar y no solo la ubicación posterior.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-077"
+    ]
+  },
+  {
+    "id": "ING-GRA-080",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "preposiciones",
+    "antes": "It all",
+    "despues": "the weather; we might cancel the trip.",
+    "respuesta": "depends on",
+    "regla": "Muchos verbos en inglés van seguidos de una **preposición fija** que no siempre coincide con la que se usaría en español; estas combinaciones deben aprenderse como unidad (depend ON, listen TO, look AT, wait FOR).",
+    "ejemplo": "Please listen to me carefully before you decide.",
+    "error_comun": "Un error común es traducir la preposición directamente del español, diciendo **'depends of the weather'** (por 'depende DE'), cuando en inglés la combinación fija correcta es 'depend ON'.",
+    "dificultad": "alta",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-081",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "preposiciones",
+    "antes": "She's really",
+    "despues": "playing chess.",
+    "respuesta": "good at",
+    "regla": "Al igual que con los verbos, muchos adjetivos van seguidos de una **preposición fija** que debe memorizarse junto con el adjetivo (good AT, afraid OF, interested IN, tired OF, married TO).",
+    "ejemplo": "He's afraid of spiders.",
+    "error_comun": "Un error común es usar 'in' con 'good' por analogía con otras estructuras, diciendo **'good in playing chess'**, en vez de la combinación fija correcta 'good AT'.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-080"
+    ]
+  },
+  {
+    "id": "ING-GRA-082",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "preposiciones",
+    "antes": "I lived in Spain",
+    "despues": "two years.",
+    "respuesta": "for",
+    "regla": "**For** se usa con una duración de tiempo (for two years, for a while) y responde a '¿por cuánto tiempo?'; **during** se usa con un sustantivo que nombra un evento o período (during the summer, during the meeting) y responde a '¿durante cuál evento?'.",
+    "ejemplo": "We didn't talk much during the flight.",
+    "error_comun": "Un error común es usar 'during' con una cantidad de tiempo en vez de un evento, diciendo **'during two years'**, cuando 'during' necesita un sustantivo de evento/período, no una duración numérica, que es el terreno de 'for'.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-078"
+    ]
+  },
+  {
+    "id": "ING-GRA-083",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "conectores_conjunciones",
+    "antes": "The trip was expensive.",
+    "despues": "it was totally worth it.",
+    "respuesta": "However,",
+    "regla": "**However** conecta dos ideas contrastantes que están en oraciones **independientes** (separadas por punto); va seguido de una coma y suele empezar una nueva oración.",
+    "ejemplo": "It rained all week. However, we still enjoyed our vacation.",
+    "error_comun": "Un error común es usar 'however' como si fuera 'but', uniendo las dos ideas sin punto ni coma en medio, diciendo **'The trip was expensive however it was worth it'** sin la puntuación correcta que 'however' requiere entre las dos ideas.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-084",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "conectores_conjunciones",
+    "antes": "",
+    "despues": "it was raining, we decided to go for a walk.",
+    "respuesta": "Although",
+    "regla": "**Although** conecta dos ideas contrastantes dentro de la **misma oración** (una cláusula subordinada + una principal), sin necesidad de punto entre ellas.",
+    "ejemplo": "Although she was tired, she finished the race.",
+    "error_comun": "Un error común es usar 'although' seguido de 'but' en la segunda cláusula, diciendo **'Although it was raining, but we went for a walk'**, duplicando la idea de contraste con dos conectores cuando solo se necesita uno.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-083"
+    ]
+  },
+  {
+    "id": "ING-GRA-085",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "conectores_conjunciones",
+    "antes": "",
+    "despues": "the heavy traffic, we arrived on time.",
+    "respuesta": "Despite",
+    "regla": "**Despite** e **in spite of** también expresan contraste, pero a diferencia de 'although', van seguidos de un **sustantivo o un gerundio** (verbo + -ing), nunca de una cláusula completa con sujeto y verbo conjugado.",
+    "ejemplo": "In spite of feeling nervous, she gave a great presentation.",
+    "error_comun": "Un error común es usar 'despite' seguido de una cláusula completa como si fuera 'although', diciendo **'Despite it was raining, we went out'**, cuando 'despite' necesita un sustantivo o gerundio, no una oración con sujeto y verbo conjugado.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-084"
+    ]
+  },
+  {
+    "id": "ING-GRA-086",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "conectores_conjunciones",
+    "antes": "It was raining,",
+    "despues": "we stayed home.",
+    "respuesta": "so",
+    "regla": "**So** introduce el **resultado/consecuencia** de algo (causa + so + consecuencia), mientras que **because** introduce la **causa** de algo (efecto + because + causa); ambos expresan causa-efecto, pero en direcciones opuestas.",
+    "ejemplo": "We stayed home because it was raining.",
+    "error_comun": "Un error común es confundir el orden lógico y usar 'because' donde se necesita 'so', diciendo **'It was raining because we stayed home'**, lo cual invierte la relación causal (sugiriendo que quedarse en casa causó la lluvia).",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-087",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "conectores_conjunciones",
+    "antes": "The hotel was affordable.",
+    "despues": "it was located right on the beach.",
+    "respuesta": "Moreover,",
+    "regla": "**Moreover** y **furthermore** se usan para **añadir información** que refuerza un punto anterior, típicamente en textos formales o argumentativos; equivalen a 'además' en un registro más elevado que 'also' o 'and'.",
+    "ejemplo": "The plan is cost-effective. Furthermore, it can be implemented immediately.",
+    "error_comun": "Un error común es usarlos en contextos muy informales o hablados, donde suenan artificiales, o confundirlos con conectores de contraste como 'however', olvidando que su función es sumar información, no contrastarla.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-083"
+    ]
+  },
+  {
+    "id": "ING-GRA-088",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "conectores_conjunciones",
+    "antes": "She failed the exam",
+    "despues": "she hadn't studied at all.",
+    "respuesta": "because",
+    "regla": "Es clave distinguir los conectores de **contraste** (however, although, despite — dos ideas que chocan) de los de **causa-efecto** (because, so — una idea explica o resulta de la otra); usar el conector equivocado cambia por completo el sentido lógico de la oración.",
+    "ejemplo": "Although she hadn't studied, she passed the exam.",
+    "error_comun": "Un error común en exámenes es elegir un conector de contraste cuando la relación real es de causa, diciendo **'She failed the exam although she hadn't studied'**, lo cual sugiere incorrectamente que no estudiar debería haberla ayudado a pasar, en vez de explicar por qué falló.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-084",
+      "ING-GRA-086"
+    ]
+  },
+  {
+    "id": "ING-GRA-089",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A1",
+    "bloque": "cuantificadores",
+    "antes": "There is",
+    "despues": "milk in the fridge.",
+    "respuesta": "some",
+    "regla": "**Some** se usa en oraciones **afirmativas** con sustantivos contables en plural o incontables, para referirse a una cantidad indefinida pero positiva.",
+    "ejemplo": "I have some questions about the assignment.",
+    "error_comun": "Un error común es usar 'any' en oraciones afirmativas, diciendo **'there is any milk'**, confundiendo su uso con el de las oraciones negativas e interrogativas, donde 'any' sí es la forma correcta.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-090",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A1",
+    "bloque": "cuantificadores",
+    "antes": "Do you have",
+    "despues": "questions about the assignment?",
+    "respuesta": "any",
+    "regla": "**Any** se usa típicamente en oraciones **negativas** (I don't have any money) e **interrogativas** (Do you have any siblings?), en contraste con 'some', que se reserva para afirmativas.",
+    "ejemplo": "We don't have any tickets left for tonight's show.",
+    "error_comun": "Un error común es usar 'some' en preguntas, diciendo **'Do you have some questions?'**, lo cual no es imposible (a veces se usa 'some' en preguntas que son ofrecimientos), pero en preguntas neutras e informativas 'any' es la opción esperada.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-089"
+    ]
+  },
+  {
+    "id": "ING-GRA-091",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "cuantificadores",
+    "antes": "There isn't",
+    "despues": "time left before the exam.",
+    "respuesta": "much",
+    "regla": "**Many** se usa con sustantivos contables plurales (many books), **much** con incontables (much time), y **a lot of** funciona con ambos tipos, siendo más común en oraciones afirmativas.",
+    "ejemplo": "She doesn't have many friends in this city yet.",
+    "error_comun": "Un error común es usar 'many' con sustantivos incontables, diciendo **'many time'** en vez de 'much time', sin distinguir si el sustantivo se puede contar individualmente o no.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-092",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "cuantificadores",
+    "antes": "Don't worry, we have",
+    "despues": "time left — enough to finish.",
+    "respuesta": "a little",
+    "regla": "**A few** (con contables) y **a little** (con incontables) significan 'algo de, un poco de' con un matiz **positivo** (suficiente). En cambio, **few** y **little** (sin 'a') significan 'casi nada' con un matiz **negativo** (insuficiente).",
+    "ejemplo": "Few students passed the test; it was extremely difficult.",
+    "error_comun": "Un error común es omitir el artículo 'a' sin darse cuenta de que esto invierte completamente el significado de positivo a negativo, diciendo **'we have little time left — enough to finish'**, lo cual es contradictorio porque 'little' (sin 'a') implica que NO hay suficiente tiempo.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-091"
+    ]
+  },
+  {
+    "id": "ING-GRA-093",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "cuantificadores",
+    "antes": "",
+    "despues": "student must bring their own laptop to the exam.",
+    "respuesta": "Every",
+    "regla": "**Every** y **each** se usan con sustantivos singulares para referirse a todos los miembros de un grupo, pero **every** enfatiza el grupo como conjunto (más común con números grandes), mientras que **each** enfatiza a los individuos uno por uno (más común con grupos pequeños o al repartir algo).",
+    "ejemplo": "Each student received a personalized certificate at the ceremony.",
+    "error_comun": "Un error común es usar estas palabras con el verbo en plural, diciendo **'every students bring'**, cuando 'every' y 'each' siempre requieren un sustantivo y un verbo en **singular**, aunque el significado se refiera a varias personas.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-094",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "cuantificadores",
+    "antes": "",
+    "despues": "of us wanted to watch a horror movie, so we watched a comedy instead.",
+    "respuesta": "Neither",
+    "regla": "**Both** significa 'los dos' (afirmativo), **either** significa 'cualquiera de los dos' (en afirmativas/preguntas) o 'ninguno de los dos' (en negativas: not either), y **neither** significa 'ninguno de los dos' de forma ya negativa por sí sola (no necesita 'not').",
+    "ejemplo": "Both of my parents were born in Santander.",
+    "error_comun": "Un error común es agregar 'not' antes de 'neither', diciendo **'we didn't neither wanted'**, creando una doble negación innecesaria, ya que 'neither' ya es negativo por sí mismo y no debe combinarse con 'not' o 'don't'.",
+    "dificultad": "alta",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-095",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "gerundios_infinitivos",
+    "antes": "I really enjoy",
+    "despues": "on weekends.",
+    "respuesta": "running",
+    "regla": "Algunos verbos, como **enjoy, avoid, finish, suggest, mind**, siempre van seguidos de un verbo en forma **gerundio** (-ing), nunca de 'to + infinitivo'.",
+    "ejemplo": "She avoided answering the question directly.",
+    "error_comun": "Un error común es usar 'to + infinitivo' después de estos verbos, diciendo **'I enjoy to run'**, porque en español el equivalente ('disfruto correr') no marca esta restricción gramatical tan claramente.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-096",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "gerundios_infinitivos",
+    "antes": "She decided",
+    "despues": "medicine at university.",
+    "respuesta": "to study",
+    "regla": "Otros verbos, como **want, decide, plan, hope, promise, agree**, siempre van seguidos de **to + infinitivo**, nunca de la forma -ing directamente.",
+    "ejemplo": "We plan to visit Cartagena next summer.",
+    "error_comun": "Un error común es usar el gerundio después de estos verbos, diciendo **'she decided studying medicine'**, aplicando por error la regla de los verbos con -ing a un grupo distinto de verbos.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-095"
+    ]
+  },
+  {
+    "id": "ING-GRA-097",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "gerundios_infinitivos",
+    "antes": "It started",
+    "despues": "as soon as we left the house.",
+    "respuesta": "raining",
+    "regla": "Algunos verbos, como **start, begin, like, love, hate, continue**, pueden ir seguidos tanto de **-ing** como de **to + infinitivo**, prácticamente sin cambio de significado (start raining / start to rain).",
+    "ejemplo": "It began snowing early this morning.",
+    "error_comun": "Un error común es pensar que solo una de las dos formas es correcta y marcar la otra como error, cuando en realidad ambas son válidas para este grupo específico de verbos; la confusión suele surgir al contrastarlos con verbos que sí son estrictos (solo -ing o solo infinitivo).",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-095",
+      "ING-GRA-096"
+    ]
+  },
+  {
+    "id": "ING-GRA-098",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "gerundios_infinitivos",
+    "antes": "He stopped",
+    "despues": "some bread on his way home.",
+    "respuesta": "to buy",
+    "regla": "Con verbos como **stop, remember, forget, try**, la forma elegida (-ing o to+infinitivo) **cambia el significado** de la oración. 'Stop + to + infinitivo' significa que se detuvo CON EL PROPÓSITO de hacer algo; 'stop + -ing' significa que dejó de hacer una acción que ya realizaba.",
+    "ejemplo": "She stopped smoking two years ago.",
+    "error_comun": "Un error común es confundir ambos significados, diciendo **'he stopped buying bread'** cuando se quiere decir que se detuvo (de caminar, por ejemplo) para comprar pan, ya que esa oración en realidad significa que dejó el hábito de comprar pan, el sentido opuesto al que se buscaba.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-097"
+    ]
+  },
+  {
+    "id": "ING-GRA-099",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "gerundios_infinitivos",
+    "antes": "I remember",
+    "despues": "that movie when I was a kid — it scared me so much!",
+    "respuesta": "watching",
+    "regla": "Con **remember** y **forget**, la forma **-ing** se refiere a un recuerdo de algo que ya ocurrió en el pasado (recordar HABER hecho algo), mientras que **to + infinitivo** se refiere a no olvidar hacer algo que aún está pendiente (acordarse DE hacer algo).",
+    "ejemplo": "Please remember to lock the door before you leave.",
+    "error_comun": "Un error común es usar 'to + infinitivo' para hablar de recuerdos del pasado, diciendo **'I remember to watch that movie when I was a kid'**, cuando la referencia a una experiencia pasada requiere la forma -ing ('remember watching'), no el infinitivo.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-098"
+    ]
+  },
+  {
+    "id": "ING-GRA-100",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "gerundios_infinitivos",
+    "antes": "She's really good at",
+    "despues": "problems quickly.",
+    "respuesta": "solving",
+    "regla": "Cuando un verbo aparece inmediatamente después de una **preposición** (at, of, for, about, in, etc.), siempre toma la forma de **gerundio** (-ing), nunca 'to + infinitivo', sin importar el verbo que sea.",
+    "ejemplo": "He's interested in learning new languages.",
+    "error_comun": "Un error común es usar 'to + infinitivo' después de una preposición, diciendo **'good at to solve problems'**, ya que en inglés ninguna preposición puede ir seguida directamente de un infinitivo con 'to'.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-095"
+    ]
+  }
+]

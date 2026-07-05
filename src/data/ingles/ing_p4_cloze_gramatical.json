@@ -1,0 +1,1434 @@
+[
+  {
+    "id": "ING-P4-TEXTO-001",
+    "modulo": "ingles",
+    "parte": 4,
+    "tipo": "cloze_gramatical",
+    "nivel_mcer": "B1",
+    "titulo": "How Bees Communicate",
+    "texto_con_huecos": "Honeybees [1] one of the most sophisticated communication systems in the animal kingdom. When a worker bee finds food, it returns to the hive and performs a special movement called the waggle dance. This dance [2] discovered by the biologist Karl von Frisch, who studied bee behavior for many years. The angle of the movement shows the direction of the food, and its duration shows how far away it is — in fact, this dance is far [3] a simple gesture; it works almost like a map. Bees also communicate [4] pheromones and touch, especially inside the dark, crowded hive. [5] research on bee communication began decades ago, scientists are still discovering new details about it today. Understanding this system is important, because it could help explain why bee populations are declining in [6] wild. Some scientists hope [7] new tools to track individual bees more precisely. Despite [8] progress, a great deal about the inner life of a hive remains a mystery.",
+    "huecos": [
+      {
+        "num": 1,
+        "categoria_gramatical": "tiempos_presente",
+        "opciones": {
+          "A": "have",
+          "B": "had",
+          "C": "are having"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Se usa el present simple ('have') porque se describe un hecho general y permanente sobre las abejas, no una acción puntual del pasado ni algo en curso ahora mismo.",
+        "distractores": {
+          "B": {
+            "explicacion": "El pasado simple ('had') sugeriría que esto ya no es cierto, cuando en realidad se describe una característica permanente y actual de las abejas.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          },
+          "C": {
+            "explicacion": "'Have' en el sentido de posesión es un verbo de estado y no se usa normalmente en forma continua, ya que no describe una acción en desarrollo.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "categoria_gramatical": "voz_pasiva",
+        "opciones": {
+          "A": "has been",
+          "B": "was",
+          "C": "is"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Se necesita la voz pasiva en pasado ('was discovered') porque el sujeto 'this dance' es singular y recibe la acción; además, coincide con la referencia temporal pasada del texto.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Has been discovered' sería present perfect passive, un tiempo que no encaja con la narración claramente ubicada en el pasado (se estudió 'for many years' en una época determinada).",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          },
+          "C": {
+            "explicacion": "'Is discovered' sería voz pasiva en presente, un tiempo incompatible con el hecho histórico específico que se describe.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "categoria_gramatical": "comparativos_superlativos",
+        "opciones": {
+          "A": "more as",
+          "B": "the most than",
+          "C": "more than"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Se necesita el comparativo 'more' seguido de 'than' para comparar la complejidad de la danza con un simple gesto; 'far' intensifica la diferencia.",
+        "distractores": {
+          "A": {
+            "explicacion": "Después de un comparativo con 'more' se usa 'than', nunca 'as', que pertenece a la estructura distinta 'as...as'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "B": {
+            "explicacion": "'The most' es la forma superlativa y no se combina con 'than', que es exclusivo de comparativos con 'more'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "categoria_gramatical": "preposiciones",
+        "opciones": {
+          "A": "through",
+          "B": "in",
+          "C": "for"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Through' indica el medio o método por el cual ocurre la comunicación (a través de feromonas y contacto).",
+        "distractores": {
+          "B": {
+            "explicacion": "'In' no expresa la idea de medio o método; sonaría como si las feromonas fueran un lugar, no el canal de comunicación.",
+            "patron_trampa": "preposicion_incorrecta"
+          },
+          "C": {
+            "explicacion": "'For' expresaría propósito o destinatario, no el medio por el cual se transmite la comunicación.",
+            "patron_trampa": "preposicion_incorrecta"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "categoria_gramatical": "conectores_conjunciones",
+        "opciones": {
+          "A": "Despite",
+          "B": "Although",
+          "C": "However"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Although' conecta dos ideas contrastantes dentro de la misma oración: aunque la investigación empezó hace décadas, los científicos siguen descubriendo cosas nuevas.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Despite' debe ir seguido de un sustantivo o gerundio, no de una cláusula completa con sujeto y verbo conjugado como 'research... began'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'However' conecta oraciones independientes separadas por punto, no una cláusula subordinada dentro de la misma oración como se necesita aquí.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 6,
+        "categoria_gramatical": "articulos",
+        "opciones": {
+          "A": "a",
+          "B": "",
+          "C": "the"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'In the wild' es una expresión fija que siempre requiere el artículo definido 'the' para referirse al hábitat natural.",
+        "distractores": {
+          "A": {
+            "explicacion": "El artículo indefinido 'a' no es compatible con la expresión fija 'in the wild', que siempre usa 'the'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "B": {
+            "explicacion": "Omitir el artículo no es válido en esta expresión fija específica; 'in the wild' siempre requiere 'the'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 7,
+        "categoria_gramatical": "gerundios_infinitivos",
+        "opciones": {
+          "A": "to develop",
+          "B": "developing",
+          "C": "develop"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Hope' es uno de los verbos que siempre van seguidos de 'to + infinitivo', nunca de la forma -ing directamente.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Hope' no acepta el gerundio directamente después; requiere 'to + infinitivo', a diferencia de verbos como 'enjoy' o 'avoid'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "Falta la partícula 'to' antes del verbo; después de 'hope', el infinitivo siempre debe llevar 'to'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 8,
+        "categoria_gramatical": "cuantificadores",
+        "opciones": {
+          "A": "many",
+          "B": "much",
+          "C": "a few"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Progress' es un sustantivo incontable, por lo que se usa 'much', no 'many' (para contables) ni 'a few' (también para contables).",
+        "distractores": {
+          "A": {
+            "explicacion": "'Many' se usa con sustantivos contables en plural, pero 'progress' es incontable, por lo que requiere 'much'.",
+            "patron_trampa": "concordancia_incorrecta"
+          },
+          "C": {
+            "explicacion": "'A few' se reserva para sustantivos contables en plural; con 'progress' (incontable) se necesita 'much' o 'a little'.",
+            "patron_trampa": "concordancia_incorrecta"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P4-TEXTO-002",
+    "modulo": "ingles",
+    "parte": 4,
+    "tipo": "cloze_gramatical",
+    "nivel_mcer": "B2",
+    "titulo": "The History of the Printing Press",
+    "texto_con_huecos": "Before the fifteenth century, books [1] by hand, one copy at a time, which made them extremely expensive and rare. Everything changed when Johannes Gutenberg, a German craftsman [2] developed a printing press with movable metal type around 1440. His invention [3] already begun to spread across Europe by the end of the century, dramatically reducing the cost of producing books. [4] Gutenberg's press was not the very first printing technology in the world — earlier methods had existed in Asia — his version was far [5] efficient for European languages, thanks to its reusable metal letters. The press worked [6] combining ink, paper, and a wooden frame to apply even pressure. Literacy rates [7] significantly since the invention of the printing press, and books became accessible to a much wider audience. Today, historians consider Gutenberg's invention one of [8] most important developments in human history.",
+    "huecos": [
+      {
+        "num": 1,
+        "categoria_gramatical": "voz_pasiva",
+        "opciones": {
+          "A": "copied",
+          "B": "have copied",
+          "C": "were copied"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Se necesita la voz pasiva en pasado porque los libros reciben la acción de ser copiados; no son ellos quienes copian.",
+        "distractores": {
+          "A": {
+            "explicacion": "Falta el auxiliar 'were' para formar la voz pasiva; sin él, la oración queda gramaticalmente incompleta en este contexto.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "B": {
+            "explicacion": "'Have copied' es voz activa en presente perfecto, pero los libros no pueden copiar por sí mismos; se necesita la voz pasiva.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "categoria_gramatical": "clausulas_relativas",
+        "opciones": {
+          "A": "who",
+          "B": "which",
+          "C": "whose"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Who' se usa para cláusulas relativas que se refieren a una persona (craftsman) y funciona aquí como sujeto de la cláusula.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Which' se reserva para cosas o animales, nunca para personas, como es el caso de 'craftsman' aquí.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Whose' indica posesión, pero aquí no se describe algo que pertenece al artesano, sino que simplemente se lo identifica como sujeto.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "categoria_gramatical": "tiempos_pasado",
+        "opciones": {
+          "A": "has",
+          "B": "had",
+          "C": "was"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Se usa el past perfect ('had already begun') porque la acción ocurrió antes de un punto de referencia en el pasado ('by the end of the century').",
+        "distractores": {
+          "A": {
+            "explicacion": "'Has' formaría un present perfect, pero la referencia temporal es un momento específico del pasado, no el presente.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          },
+          "C": {
+            "explicacion": "'Was' no combina correctamente con 'already begun'; se necesita el auxiliar 'had' del past perfect.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "categoria_gramatical": "conectores_conjunciones",
+        "opciones": {
+          "A": "Despite",
+          "B": "However",
+          "C": "Although"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Although' conecta dos ideas contrastantes en la misma oración, que es la estructura presente aquí.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Despite' requiere un sustantivo o gerundio después, no una cláusula completa con sujeto y verbo conjugado.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "B": {
+            "explicacion": "'However' conecta oraciones independientes separadas por punto, no una cláusula subordinada dentro de la misma oración.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "categoria_gramatical": "comparativos_superlativos",
+        "opciones": {
+          "A": "more",
+          "B": "most",
+          "C": "very"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Se necesita el comparativo 'more' (con adjetivos largos como 'efficient') para comparar con las tecnologías anteriores.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Most' es la forma superlativa y no se usa en una comparación directa entre dos elementos.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Very' es un intensificador simple, pero no funciona junto con 'far' para expresar una comparación.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 6,
+        "categoria_gramatical": "preposiciones",
+        "opciones": {
+          "A": "with",
+          "B": "by",
+          "C": "for"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'By + gerundio' expresa el método por el cual algo funciona ('worked by combining...').",
+        "distractores": {
+          "A": {
+            "explicacion": "'With' no expresa correctamente la idea de método en esta estructura.",
+            "patron_trampa": "preposicion_incorrecta"
+          },
+          "C": {
+            "explicacion": "'For' expresaría propósito, no el método por el cual funcionaba la prensa.",
+            "patron_trampa": "preposicion_incorrecta"
+          }
+        }
+      },
+      {
+        "num": 7,
+        "categoria_gramatical": "tiempos_presente_perfecto",
+        "opciones": {
+          "A": "rose",
+          "B": "are rising",
+          "C": "have risen"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Se usa el present perfect porque 'since the invention' señala un período que comienza en el pasado y continúa relevante hasta hoy.",
+        "distractores": {
+          "A": {
+            "explicacion": "El past simple no encaja con 'since', que marca el inicio de un período que continúa hasta el presente.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          },
+          "B": {
+            "explicacion": "El presente continuo no combina naturalmente con 'since' para describir un cambio acumulado a lo largo de un largo período.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 8,
+        "categoria_gramatical": "articulos",
+        "opciones": {
+          "A": "the",
+          "B": "a",
+          "C": ""
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Los superlativos siempre requieren el artículo 'the' ('one of the most important'), ya que comparan con todo un grupo.",
+        "distractores": {
+          "B": {
+            "explicacion": "El artículo indefinido 'a' no se usa con superlativos, que siempre requieren 'the'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "Omitir el artículo no es válido con superlativos en inglés; siempre se necesita 'the'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P4-TEXTO-003",
+    "modulo": "ingles",
+    "parte": 4,
+    "tipo": "cloze_gramatical",
+    "nivel_mcer": "B1",
+    "titulo": "Why We Dream",
+    "texto_con_huecos": "Every night, our brains [1] through several stages of sleep, and during one of these stages, called REM sleep, most dreaming occurs. Scientists still don't fully agree on why we dream, but some researchers believe dreams [2] help the brain process emotions and memories from the day. If a person [3] REM sleep for several nights in a row, they often become irritable and have trouble concentrating, which suggests dreaming serves an important function. Dreams often include people, places, or situations [4] we recognize from real life, even if the details are strange or exaggerated. Interestingly, [5] average adult has around four to six dreams per night, although most are forgotten within minutes of waking up. [6] people remember their dreams vividly, while others almost never do, and researchers are still investigating why this difference exists. [7] understand this process better, scientists have started using brain imaging technology during sleep studies. [8] the exact purpose of dreaming remains unclear, most experts agree that it plays some role in mental health.",
+    "huecos": [
+      {
+        "num": 1,
+        "categoria_gramatical": "tiempos_presente",
+        "opciones": {
+          "A": "went",
+          "B": "go",
+          "C": "are going"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Se usa el present simple ('go') porque se describe un proceso habitual y general que ocurre todas las noches.",
+        "distractores": {
+          "A": {
+            "explicacion": "El pasado simple sugeriría un evento específico ya terminado, pero aquí se describe algo habitual cada noche.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          },
+          "C": {
+            "explicacion": "El presente continuo describiría una acción específica ocurriendo ahora mismo, no un proceso habitual y repetido.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "categoria_gramatical": "modales_consejo_posibilidad",
+        "opciones": {
+          "A": "must",
+          "B": "should",
+          "C": "may"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'May' expresa posibilidad: los investigadores creen que esto es probable, pero no lo afirman con total certeza.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Must' expresaría una deducción casi segura, un grado de certeza mayor del que la oración plantea.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "B": {
+            "explicacion": "'Should' expresaría un consejo o expectativa, no la posibilidad incierta que se describe sobre una teoría científica.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "categoria_gramatical": "condicionales",
+        "opciones": {
+          "A": "misses",
+          "B": "will miss",
+          "C": "missed"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El zero conditional (if + present simple, present simple) se usa para hechos generales; aquí se describe una relación causa-efecto constante.",
+        "distractores": {
+          "B": {
+            "explicacion": "En la cláusula con 'if' del zero conditional nunca se usa 'will'; se requiere presente simple en ambas partes.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "El pasado simple no encaja con la estructura del zero conditional, que requiere presente simple para verdades generales.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "categoria_gramatical": "clausulas_relativas",
+        "opciones": {
+          "A": "who",
+          "B": "that",
+          "C": "whose"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'That' introduce una cláusula relativa especificativa que se refiere a cosas/situaciones, dando información esencial.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Who' se reserva para personas; la lista incluye también 'places' y 'situations', que no son personas.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Whose' indica posesión, pero aquí no se describe algo que pertenece a las personas, lugares o situaciones.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "categoria_gramatical": "articulos",
+        "opciones": {
+          "A": "An",
+          "B": "",
+          "C": "The"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Se usa 'the' con 'average adult' para referirse a un miembro típico y representativo de una categoría general.",
+        "distractores": {
+          "A": {
+            "explicacion": "La expresión fija 'the average adult' siempre usa el artículo definido para referirse al concepto representativo, no 'an'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "B": {
+            "explicacion": "Omitir el artículo no es válido aquí; 'average adult' en este uso representativo siempre requiere un artículo.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 6,
+        "categoria_gramatical": "cuantificadores",
+        "opciones": {
+          "A": "Some",
+          "B": "Every",
+          "C": "Much"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Some' se usa para referirse a una parte indefinida de un grupo, estableciendo un contraste natural con 'others' después.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Every' implica la totalidad de un grupo, lo cual contradice el contraste presentado después con 'others'.",
+            "patron_trampa": "concordancia_incorrecta"
+          },
+          "C": {
+            "explicacion": "'Much' se usa con sustantivos incontables, pero 'people' es contable en plural, por lo que requiere 'some'.",
+            "patron_trampa": "concordancia_incorrecta"
+          }
+        }
+      },
+      {
+        "num": 7,
+        "categoria_gramatical": "gerundios_infinitivos",
+        "opciones": {
+          "A": "For",
+          "B": "To",
+          "C": "Understanding"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'To + infinitivo' al inicio de una oración expresa el propósito de una acción ('para entender mejor este proceso...').",
+        "distractores": {
+          "A": {
+            "explicacion": "'For' seguido de un verbo base no es una estructura válida en inglés para expresar propósito.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "El gerundio al inicio no expresa el propósito de la misma forma que el infinitivo en esta estructura específica.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 8,
+        "categoria_gramatical": "conectores_conjunciones",
+        "opciones": {
+          "A": "Despite",
+          "B": "Therefore",
+          "C": "Although"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Although' conecta dos ideas contrastantes: aunque el propósito no está claro, los expertos sí coinciden en algo.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Despite' debe ir seguido de un sustantivo o gerundio, no de una cláusula completa con sujeto y verbo conjugado.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "B": {
+            "explicacion": "'Therefore' indicaría una consecuencia, pero aquí la relación entre las ideas es de contraste, no de causa-efecto.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P4-TEXTO-004",
+    "modulo": "ingles",
+    "parte": 4,
+    "tipo": "cloze_gramatical",
+    "nivel_mcer": "B2",
+    "titulo": "The Origins of the Olympic Games",
+    "texto_con_huecos": "The ancient Olympic Games [1] in Olympia, Greece, more than 2,700 years ago, as part of a religious festival honoring the god Zeus. Since their revival in 1896, the modern Olympics [2] into one of the largest sporting events in the world. The very first modern Games [3] organized by a French educator named Pierre de Coubertin, who wanted to promote international cooperation through sport. Coubertin believed the Games [4] bring nations together more effectively than politics alone. Today's Olympics are far [5] complex than the ancient version, involving thousands of athletes [6] over 200 countries. By the time the next Games begin, organizers [7] already spent nearly a decade preparing the venues and facilities. Coubertin always said that sport had the power to unite [8] world in ways politics alone could not.",
+    "huecos": [
+      {
+        "num": 1,
+        "categoria_gramatical": "tiempos_pasado",
+        "opciones": {
+          "A": "began",
+          "B": "have begun",
+          "C": "begin"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Se usa el past simple ('began') porque se menciona un momento específico y terminado del pasado ('more than 2,700 years ago').",
+        "distractores": {
+          "B": {
+            "explicacion": "El present perfect no se usa con marcadores de tiempo específicos y terminados como 'more than 2,700 years ago'.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          },
+          "C": {
+            "explicacion": "El presente simple no puede describir un evento histórico específico y ya terminado.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "categoria_gramatical": "tiempos_presente_perfecto",
+        "opciones": {
+          "A": "grew",
+          "B": "have grown",
+          "C": "are growing"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Se usa el present perfect porque 'since their revival in 1896' señala un período que continúa relevante hasta hoy.",
+        "distractores": {
+          "A": {
+            "explicacion": "El past simple no encaja con 'since', que marca el inicio de un período que continúa hasta el presente.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          },
+          "C": {
+            "explicacion": "El presente continuo no combina naturalmente con 'since + fecha' para un cambio acumulado a largo plazo.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "categoria_gramatical": "voz_pasiva",
+        "opciones": {
+          "A": "was",
+          "B": "have",
+          "C": "were"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Se necesita la voz pasiva en pasado con 'were' porque el sujeto 'Games' es plural y recibe la acción de ser organizado.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Games' es un sujeto plural, por lo que el auxiliar debe ser 'were', no 'was'.",
+            "patron_trampa": "concordancia_incorrecta"
+          },
+          "B": {
+            "explicacion": "'Have organized' sería voz activa en presente perfecto, pero los Juegos no organizan, sino que son organizados.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "categoria_gramatical": "discurso_indirecto",
+        "opciones": {
+          "A": "would",
+          "B": "will",
+          "C": "must"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "En el discurso indirecto, cuando el verbo introductorio está en pasado ('believed'), 'will' retrocede a 'would'.",
+        "distractores": {
+          "B": {
+            "explicacion": "Al reportar una creencia con un verbo introductorio en pasado, 'will' debe retroceder a 'would'.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          },
+          "C": {
+            "explicacion": "'Must' expresaría obligación o deducción, un significado distinto de la predicción que Coubertin expresaba.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "categoria_gramatical": "comparativos_superlativos",
+        "opciones": {
+          "A": "most",
+          "B": "more",
+          "C": "as"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Se necesita el comparativo 'more' seguido de 'than' para comparar la complejidad de ambas versiones de los Juegos.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Most' es la forma superlativa y no se combina con 'than' en una comparación directa entre dos elementos.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'As' se usaría en la estructura 'as...as' para igualdad, no en una comparación de superioridad con 'more... than'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 6,
+        "categoria_gramatical": "preposiciones",
+        "opciones": {
+          "A": "of",
+          "B": "in",
+          "C": "from"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'From' indica el origen o procedencia de los atletas (vienen de más de 200 países).",
+        "distractores": {
+          "A": {
+            "explicacion": "'Of' no expresa correctamente la idea de procedencia geográfica que se necesita aquí.",
+            "patron_trampa": "preposicion_incorrecta"
+          },
+          "B": {
+            "explicacion": "'In' sugeriría ubicación dentro de un lugar, no el país de origen de cada atleta.",
+            "patron_trampa": "preposicion_incorrecta"
+          }
+        }
+      },
+      {
+        "num": 7,
+        "categoria_gramatical": "futuro",
+        "opciones": {
+          "A": "will have",
+          "B": "have",
+          "C": "will"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El future perfect se usa para una acción que estará completada antes de un momento específico en el futuro ('by the time...').",
+        "distractores": {
+          "B": {
+            "explicacion": "'Have spent' sería present perfect, pero la referencia es a un punto futuro, no al presente.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          },
+          "C": {
+            "explicacion": "'Will' solo formaría el future simple, pero se necesita expresar que la acción estará completada antes de ese punto futuro.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 8,
+        "categoria_gramatical": "articulos",
+        "opciones": {
+          "A": "a",
+          "B": "the",
+          "C": ""
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'The world' es una expresión fija que siempre requiere el artículo definido, ya que se refiere a un concepto único.",
+        "distractores": {
+          "A": {
+            "explicacion": "'A world' sugeriría un mundo hipotético o alternativo, no el mundo real en su totalidad.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "Omitir el artículo no es válido aquí; 'world' en este sentido específico y único siempre requiere 'the'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P4-TEXTO-005",
+    "modulo": "ingles",
+    "parte": 4,
+    "tipo": "cloze_gramatical",
+    "nivel_mcer": "B1",
+    "titulo": "How Coffee Is Made",
+    "texto_con_huecos": "Coffee [1] made from the roasted seeds of the coffee plant, commonly known as coffee beans. These plants [2] best in tropical regions, especially in countries located near the equator, where temperatures stay warm year-round. After the beans are picked, [3] of them are separated by size and quality before roasting begins. Roasting requires careful attention, because even a small change [4] temperature can transform the beans' flavor completely. [5] roasting affects flavor so dramatically, many producers keep detailed records of every batch, including exact time and temperature. Producers often enjoy [6] with different roasting methods to create unique flavor profiles for their customers. Dark roasts tend to taste [7] bitter than light roasts, since they spend more time exposed to high heat. With proper training, almost anyone [8] learn to identify subtle differences between coffee varieties just by tasting them.",
+    "huecos": [
+      {
+        "num": 1,
+        "categoria_gramatical": "voz_pasiva",
+        "opciones": {
+          "A": "does",
+          "B": "has",
+          "C": "is"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Se necesita la voz pasiva en presente ('is made') porque el café recibe la acción de ser elaborado; no la realiza.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Does' es el auxiliar de preguntas/negaciones en presente simple activo, pero aquí se necesita 'be' para la voz pasiva.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "B": {
+            "explicacion": "'Has made' sería voz activa en presente perfecto, pero el café no fabrica nada; necesita la voz pasiva.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "categoria_gramatical": "tiempos_presente",
+        "opciones": {
+          "A": "grow",
+          "B": "grew",
+          "C": "are growing"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Se usa el present simple para describir un hecho general y permanente sobre dónde crecen mejor estas plantas.",
+        "distractores": {
+          "B": {
+            "explicacion": "El pasado simple sugeriría un evento específico ya terminado, cuando se describe una característica permanente.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          },
+          "C": {
+            "explicacion": "El presente continuo describiría un proceso específico en desarrollo ahora, no un hecho general y constante.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "categoria_gramatical": "cuantificadores",
+        "opciones": {
+          "A": "much",
+          "B": "many",
+          "C": "every"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Many' se usa con sustantivos contables en plural ('beans') para referirse a una cantidad indefinida pero significativa.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Much' se usa con sustantivos incontables, pero 'beans' es contable en plural, por lo que requiere 'many'.",
+            "patron_trampa": "concordancia_incorrecta"
+          },
+          "C": {
+            "explicacion": "'Every' requeriría un sustantivo singular después, pero aquí la estructura usa 'of them' con un plural implícito.",
+            "patron_trampa": "concordancia_incorrecta"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "categoria_gramatical": "preposiciones",
+        "opciones": {
+          "A": "of",
+          "B": "at",
+          "C": "in"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'A change in something' es la colocación fija correcta para hablar de una variación en una magnitud como la temperatura.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Change of' se usaría en otros contextos, pero para variaciones en una magnitud medible se necesita 'in'.",
+            "patron_trampa": "preposicion_incorrecta"
+          },
+          "B": {
+            "explicacion": "'At' indicaría un punto específico, no un cambio o variación.",
+            "patron_trampa": "preposicion_incorrecta"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "categoria_gramatical": "conectores_conjunciones",
+        "opciones": {
+          "A": "Because",
+          "B": "Although",
+          "C": "However"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Because' introduce la causa de una acción; aquí, la razón por la que los productores llevan registros detallados.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Although' introduciría un contraste, pero la relación real entre las dos ideas es de causa-efecto, no de contraste.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'However' conecta oraciones independientes separadas por punto y no expresa la relación causal que se necesita aquí.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 6,
+        "categoria_gramatical": "gerundios_infinitivos",
+        "opciones": {
+          "A": "to experiment",
+          "B": "experimenting",
+          "C": "experiment"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Enjoy' es uno de los verbos que siempre van seguidos de la forma gerundio (-ing), nunca de 'to + infinitivo'.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Enjoy' no acepta 'to + infinitivo' después; requiere el gerundio, a diferencia de verbos como 'want' o 'decide'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "Después de 'enjoy', el verbo siempre debe tomar la forma -ing; el verbo en forma base sola no es válido.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 7,
+        "categoria_gramatical": "comparativos_superlativos",
+        "opciones": {
+          "A": "most",
+          "B": "as",
+          "C": "more"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Se necesita el comparativo 'more' seguido de 'than' para comparar el sabor de dos tipos de tueste.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Most' es la forma superlativa y no se combina con 'than' en una comparación directa entre dos elementos.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "B": {
+            "explicacion": "'As' se usaría en la estructura 'as bitter as' para igualdad, no en una comparación de superioridad.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 8,
+        "categoria_gramatical": "modales_habilidad_permiso",
+        "opciones": {
+          "A": "can",
+          "B": "must",
+          "C": "should"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Can' expresa habilidad o capacidad general: con el entrenamiento adecuado, es posible desarrollar esta habilidad.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Must' expresaría obligación, un significado distinto de la simple posibilidad/capacidad que se describe.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Should' expresaría un consejo, no la capacidad general que la oración busca comunicar.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P4-TEXTO-006",
+    "modulo": "ingles",
+    "parte": 4,
+    "tipo": "cloze_gramatical",
+    "nivel_mcer": "B2",
+    "titulo": "The Rise of Renewable Energy",
+    "texto_con_huecos": "Over the next few decades, renewable energy [1] a much larger share of the world's electricity supply, according to most experts. If governments [2] investing in solar and wind power now, the transition away from fossil fuels will happen much faster. Countries [3] have committed to reducing their carbon emissions under international climate agreements often face pressure to adopt cleaner energy sources more quickly. Solar panels have become far [4] affordable over the past decade, thanks to improvements in manufacturing technology. Under most international climate agreements, wealthier nations [5] provide financial support to developing countries adopting clean energy. Storing energy efficiently remains one of the biggest challenges [6] renewable power, since sunlight and wind are not always available. [7] solar and wind power have grown rapidly, they still make up a relatively small percentage of global energy production. [8] countries have set ambitious targets for reducing their reliance on coal and oil in the coming years.",
+    "huecos": [
+      {
+        "num": 1,
+        "categoria_gramatical": "futuro",
+        "opciones": {
+          "A": "represents",
+          "B": "will represent",
+          "C": "represented"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Se usa 'will' para hacer una predicción sobre el futuro basada en la opinión de expertos, como indica 'according to most experts'.",
+        "distractores": {
+          "A": {
+            "explicacion": "El presente simple describiría un hecho actual, no una predicción sobre las próximas décadas.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          },
+          "C": {
+            "explicacion": "El pasado simple no tiene sentido, ya que la oración se refiere claramente a un evento futuro.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "categoria_gramatical": "condicionales",
+        "opciones": {
+          "A": "will keep",
+          "B": "kept",
+          "C": "keep"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El first conditional (if + present simple, will + verbo base) requiere presente simple en la cláusula con 'if'.",
+        "distractores": {
+          "A": {
+            "explicacion": "En la cláusula con 'if' del first conditional nunca se usa 'will'; esa forma se reserva para la cláusula de resultado.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "B": {
+            "explicacion": "El pasado simple correspondería a un second conditional hipotético, pero aquí se describe una condición futura real.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "categoria_gramatical": "clausulas_relativas",
+        "opciones": {
+          "A": "that",
+          "B": "who",
+          "C": "whom"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'That' introduce una cláusula relativa especificativa que se refiere a 'countries' (una entidad, no una persona).",
+        "distractores": {
+          "B": {
+            "explicacion": "'Who' se reserva para personas; 'countries' es una entidad, no un grupo de personas individuales.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Whom' también se reserva para personas y funciona como objeto, no como sujeto de la cláusula.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "categoria_gramatical": "comparativos_superlativos",
+        "opciones": {
+          "A": "most",
+          "B": "more",
+          "C": "very"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Se necesita el comparativo 'more' para comparar el precio actual de los paneles solares con el de hace una década.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Most' es la forma superlativa y no se usa en una comparación directa con un punto de referencia temporal.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Very' es un intensificador simple, pero no forma una comparación válida junto con 'far'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "categoria_gramatical": "modales_obligacion",
+        "opciones": {
+          "A": "can",
+          "B": "might",
+          "C": "must"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Must' expresa una obligación derivada de las reglas o compromisos establecidos en los acuerdos internacionales.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Can' expresaría habilidad o permiso, no la obligación derivada de un acuerdo internacional formal.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "B": {
+            "explicacion": "'Might' expresaría posibilidad incierta, un significado mucho más débil que la obligación establecida por los acuerdos.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 6,
+        "categoria_gramatical": "preposiciones",
+        "opciones": {
+          "A": "for",
+          "B": "of",
+          "C": "to"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'A challenge for something' es la colocación fija correcta para indicar para quién o qué representa una dificultad.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Challenge of' se usaría en otro tipo de estructura, pero para indicar 'para quién' es un desafío se necesita 'for'.",
+            "patron_trampa": "preposicion_incorrecta"
+          },
+          "C": {
+            "explicacion": "'To' no expresa correctamente esta relación; la colocación fija con 'challenge' en este sentido siempre usa 'for'.",
+            "patron_trampa": "preposicion_incorrecta"
+          }
+        }
+      },
+      {
+        "num": 7,
+        "categoria_gramatical": "conectores_conjunciones",
+        "opciones": {
+          "A": "Despite",
+          "B": "Although",
+          "C": "Because"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Although' conecta dos ideas contrastantes: aunque han crecido rápidamente, todavía representan una parte pequeña del total.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Despite' requiere un sustantivo o gerundio después, no una cláusula completa con sujeto y verbo conjugado.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Because' introduciría causa-efecto, pero aquí la relación entre las ideas es de contraste, no de causa.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 8,
+        "categoria_gramatical": "cuantificadores",
+        "opciones": {
+          "A": "Much",
+          "B": "Every",
+          "C": "Many"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Many' se usa con sustantivos contables en plural ('countries') para referirse a un número indefinido pero significativo.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Much' se usa con sustantivos incontables, pero 'countries' es contable en plural, por lo que requiere 'many'.",
+            "patron_trampa": "concordancia_incorrecta"
+          },
+          "B": {
+            "explicacion": "'Every' requeriría un sustantivo singular, pero aquí el verbo 'have set' está en plural.",
+            "patron_trampa": "concordancia_incorrecta"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P4-TEXTO-007",
+    "modulo": "ingles",
+    "parte": 4,
+    "tipo": "cloze_gramatical",
+    "nivel_mcer": "B2",
+    "titulo": "The Psychology of First Impressions",
+    "texto_con_huecos": "Psychologists [1] that people form first impressions of others within just a few seconds of meeting them. Researchers [2] studied this phenomenon extensively over the past several decades, using experiments that measure how quickly people judge traits like trustworthiness and competence. A person [3] change someone's first impression of them, but doing so usually takes much longer than the few seconds it took to form it in the first place. If you want to make a good impression, you [4] pay attention to small details, like eye contact and posture, since these often matter more than what is actually said. The person [5] you meet at a job interview is likely forming judgments about you long before you finish your first sentence. Making eye contact is important, but so is [6] genuine smile, since both signals tend to increase trust almost instantly. [7] first impressions can be surprisingly accurate in some situations, they can also lead to unfair judgments based on stereotypes. Psychologists keep [8] this topic, hoping to help people understand their own biases better.",
+    "huecos": [
+      {
+        "num": 1,
+        "categoria_gramatical": "tiempos_presente",
+        "opciones": {
+          "A": "believe",
+          "B": "believed",
+          "C": "are believing"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Se usa el present simple para describir un consenso general y actual entre los psicólogos, no un evento puntual pasado.",
+        "distractores": {
+          "B": {
+            "explicacion": "El pasado simple sugeriría que esta creencia ya no es válida, cuando en realidad se describe un consenso actual.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          },
+          "C": {
+            "explicacion": "'Believe' es un verbo de estado y normalmente no se usa en forma continua, incluso si describe algo cierto 'ahora'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "categoria_gramatical": "tiempos_presente_perfecto",
+        "opciones": {
+          "A": "had",
+          "B": "have",
+          "C": "are"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Se usa el present perfect porque 'over the past several decades' indica un período que continúa siendo relevante hasta hoy.",
+        "distractores": {
+          "A": {
+            "explicacion": "El past perfect se usaría para una acción anterior a otro momento del pasado, pero aquí no hay otro evento de referencia.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          },
+          "C": {
+            "explicacion": "'Are studied' formaría una estructura pasiva incompleta; se necesita 'have' para el present perfect activo con 'studied'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "categoria_gramatical": "modales_habilidad_permiso",
+        "opciones": {
+          "A": "must",
+          "B": "should",
+          "C": "can"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Can' expresa que es posible cambiar una primera impresión, sin implicar obligación ni recomendación.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Must' expresaría obligación, un significado distinto de la simple posibilidad que se comunica.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "B": {
+            "explicacion": "'Should' expresaría un consejo, pero la oración solo afirma que cambiar una impresión es posible.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "categoria_gramatical": "modales_consejo_posibilidad",
+        "opciones": {
+          "A": "should",
+          "B": "must",
+          "C": "can"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Should' se usa para dar un consejo, que es exactamente lo que se ofrece sobre cómo causar una buena impresión.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Must' expresaría una obligación estricta, un matiz más fuerte del que la oración realmente comunica.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Can' expresaría posibilidad o habilidad, no el consejo específico que se está dando.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "categoria_gramatical": "clausulas_relativas",
+        "opciones": {
+          "A": "whose",
+          "B": "that",
+          "C": "which"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'That' introduce una cláusula relativa especificativa que funciona como objeto del verbo 'meet' ('the person that you meet').",
+        "distractores": {
+          "A": {
+            "explicacion": "'Whose' indica posesión, pero aquí no se describe algo que pertenece a la persona, sino que se la identifica como objeto de la acción.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Which' se reserva para cosas o animales, nunca para personas, como es el caso de 'the person' aquí.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 6,
+        "categoria_gramatical": "articulos",
+        "opciones": {
+          "A": "the",
+          "B": "",
+          "C": "a"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Se usa 'a' porque se habla de una sonrisa genuina en general, no de una sonrisa específica y conocida por ambos.",
+        "distractores": {
+          "A": {
+            "explicacion": "'The' implicaría una sonrisa específica y conocida por el oyente, pero aquí se habla del concepto general.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "B": {
+            "explicacion": "Omitir el artículo no es válido aquí, ya que 'smile' es un sustantivo contable en singular y necesita un artículo.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 7,
+        "categoria_gramatical": "conectores_conjunciones",
+        "opciones": {
+          "A": "Although",
+          "B": "Despite",
+          "C": "Therefore"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Although' conecta dos ideas contrastantes: aunque las primeras impresiones pueden ser precisas, también pueden llevar a juicios injustos.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Despite' requiere un sustantivo o gerundio después, no una cláusula completa con sujeto y verbo conjugado.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Therefore' indicaría consecuencia, pero aquí la relación entre las ideas es de contraste, no de causa-efecto.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 8,
+        "categoria_gramatical": "gerundios_infinitivos",
+        "opciones": {
+          "A": "to study",
+          "B": "studying",
+          "C": "study"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Keep' es uno de los verbos que siempre van seguidos de la forma gerundio (-ing) para expresar que una acción continúa.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Keep' no acepta 'to + infinitivo' después; siempre requiere el gerundio para expresar continuidad.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "Después de 'keep', el verbo siempre debe tomar la forma -ing; la forma base sola no es válida.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P4-TEXTO-008",
+    "modulo": "ingles",
+    "parte": 4,
+    "tipo": "cloze_gramatical",
+    "nivel_mcer": "B1",
+    "titulo": "A Brief History of the Internet",
+    "texto_con_huecos": "The internet [1] as a small research project in the late 1960s, originally funded by the U.S. government to connect computers at a handful of universities. Early versions of the network [2] designed mainly for scientists and government researchers, not for the general public. One of the original engineers later said that he [3] never imagined how large the network would eventually become. By the next decade, experts predict that nearly everyone on the planet [4] regular access to some form of internet connection. Compared to the internet of the 1990s, today's version is far [5] complex, supporting video, voice calls, and instant messaging [6] a single connection. The project faced [7] technical challenges in its early years, but its founders remained convinced of its long-term potential. Engineers kept [8] new protocols throughout the 1980s, gradually building the foundation of the modern web.",
+    "huecos": [
+      {
+        "num": 1,
+        "categoria_gramatical": "tiempos_pasado",
+        "opciones": {
+          "A": "has begun",
+          "B": "begins",
+          "C": "began"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Se usa el past simple ('began') porque se menciona un momento específico y terminado del pasado ('in the late 1960s').",
+        "distractores": {
+          "A": {
+            "explicacion": "El present perfect no se usa con marcadores de tiempo específicos y terminados como 'in the late 1960s'.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          },
+          "B": {
+            "explicacion": "El presente simple no puede describir un evento histórico específico y ya terminado.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "categoria_gramatical": "voz_pasiva",
+        "opciones": {
+          "A": "were",
+          "B": "was",
+          "C": "have"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Se necesita la voz pasiva en pasado con 'were' porque el sujeto 'versions' es plural y recibe la acción de ser diseñado.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Versions' es un sujeto plural, por lo que el auxiliar debe ser 'were', no 'was'.",
+            "patron_trampa": "concordancia_incorrecta"
+          },
+          "C": {
+            "explicacion": "'Have designed' sería voz activa en presente perfecto, pero las versiones de la red no diseñan nada.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "categoria_gramatical": "discurso_indirecto",
+        "opciones": {
+          "A": "has",
+          "B": "had",
+          "C": "was"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "En el discurso indirecto, con un verbo introductorio en pasado ('said'), la acción retrocede al past perfect ('had never imagined').",
+        "distractores": {
+          "A": {
+            "explicacion": "'Has never imagined' sería present perfect, pero al reportar con un verbo introductorio en pasado se necesita el retroceso hacia el past perfect.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          },
+          "C": {
+            "explicacion": "'Was' no combina correctamente con 'never imagined'; se necesita el auxiliar 'had' del past perfect.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "categoria_gramatical": "futuro",
+        "opciones": {
+          "A": "has",
+          "B": "had",
+          "C": "will have"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Se usa 'will' para expresar una predicción sobre el futuro, tal como indica el verbo introductorio 'predict'.",
+        "distractores": {
+          "A": {
+            "explicacion": "El presente simple describiría la situación actual, no una predicción sobre la próxima década.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          },
+          "B": {
+            "explicacion": "El pasado simple no tiene sentido en una predicción sobre el futuro.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "categoria_gramatical": "comparativos_superlativos",
+        "opciones": {
+          "A": "more",
+          "B": "most",
+          "C": "very"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Se necesita el comparativo 'more' para comparar la versión actual de internet con la de los años noventa.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Most' es la forma superlativa y no se usa en una comparación directa entre dos versiones específicas.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Very' es un intensificador simple y no forma una comparación válida junto con 'far'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 6,
+        "categoria_gramatical": "preposiciones",
+        "opciones": {
+          "A": "in",
+          "B": "over",
+          "C": "at"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Over a connection' es la colocación fija correcta para describir que varios servicios funcionan a través de una misma conexión.",
+        "distractores": {
+          "A": {
+            "explicacion": "'In' no expresa correctamente la idea de transmisión a través de un medio.",
+            "patron_trampa": "preposicion_incorrecta"
+          },
+          "C": {
+            "explicacion": "'At' indicaría un punto específico, no el medio a través del cual se transmiten estos servicios.",
+            "patron_trampa": "preposicion_incorrecta"
+          }
+        }
+      },
+      {
+        "num": 7,
+        "categoria_gramatical": "cuantificadores",
+        "opciones": {
+          "A": "much",
+          "B": "every",
+          "C": "many"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Many' se usa con sustantivos contables en plural ('challenges') para referirse a una cantidad indefinida pero significativa.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Much' se usa con sustantivos incontables, pero 'challenges' es contable en plural, por lo que requiere 'many'.",
+            "patron_trampa": "concordancia_incorrecta"
+          },
+          "B": {
+            "explicacion": "'Every' requeriría un sustantivo singular, pero aquí se habla de varios desafíos en conjunto.",
+            "patron_trampa": "concordancia_incorrecta"
+          }
+        }
+      },
+      {
+        "num": 8,
+        "categoria_gramatical": "gerundios_infinitivos",
+        "opciones": {
+          "A": "developing",
+          "B": "to develop",
+          "C": "develop"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Keep' es uno de los verbos que siempre van seguidos de la forma gerundio (-ing) para expresar continuidad de una acción.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Keep' no acepta 'to + infinitivo' después; siempre requiere el gerundio.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "Después de 'keep', el verbo siempre debe tomar la forma -ing; la forma base sola no es válida.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      }
+    ]
+  }
+]

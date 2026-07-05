@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    table { border-collapse: collapse; width: 100%; }
+  </style>
+</helmet>
+
+<div style="font-family:'Manrope',system-ui,sans-serif;background:{{ t.bg }};min-height:100vh;transition:background .25s ease;">
+
+  <!-- Top bar -->
+  <div style="max-width:820px;margin:0 auto;padding:24px 24px 0;">
+    <div style="display:flex;align-items:center;justify-content:space-between;">
+      <div style="display:flex;align-items:center;gap:10px;">
+        <div style="width:30px;height:30px;border-radius:8px;background:{{ accent }};display:flex;align-items:center;justify-content:center;color:white;font-weight:800;font-size:14px;">S</div>
+        <div style="font-weight:800;font-size:15.5px;color:{{ t.text }};letter-spacing:-0.01em;">Simulacro completo</div>
+      </div>
+
+      <div style="display:flex;align-items:center;gap:10px;">
+        <div style="display:flex;align-items:center;gap:7px;padding:8px 14px;border-radius:100px;background:{{ timerBg }};border:1px solid {{ timerBorder }};font-variant-numeric:tabular-nums;">
+          <svg width="14" height="14" viewBox="0 0 14 14">
+            <circle cx="7" cy="7" r="6" fill="none" stroke="{{ timerColor }}" stroke-width="1.4"></circle>
+            <line x1="7" y1="7" x2="7" y2="3.3" stroke="{{ timerColor }}" stroke-width="1.4"></line>
+            <line x1="7" y1="7" x2="9.6" y2="8.2" stroke="{{ timerColor }}" stroke-width="1.4"></line>
+          </svg>
+          <span style="font-size:13.5px;font-weight:800;color:{{ timerColor }};">{{ timeLabel }}</span>
+        </div>
+
+        <button onClick="{{ toggleDark }}" style="width:36px;height:36px;border-radius:10px;border:1px solid {{ t.border }};background:{{ t.surface }};display:flex;align-items:center;justify-content:center;cursor:pointer;padding:0;flex-shrink:0;" style-hover="border-color:{{ accent }};">
+          <sc-if value="{{ dark }}" hint-placeholder-val="{{ false }}">
+            <svg width="16" height="16" viewBox="0 0 18 18">
+              <circle cx="9" cy="9" r="4" fill="{{ t.textSub }}"></circle>
+              <line x1="9" y1="0.5" x2="9" y2="2.5" stroke="{{ t.textSub }}" stroke-width="1.4"></line>
+              <line x1="9" y1="15.5" x2="9" y2="17.5" stroke="{{ t.textSub }}" stroke-width="1.4"></line>
+              <line x1="0.5" y1="9" x2="2.5" y2="9" stroke="{{ t.textSub }}" stroke-width="1.4"></line>
+              <line x1="15.5" y1="9" x2="17.5" y2="9" stroke="{{ t.textSub }}" stroke-width="1.4"></line>
+              <line x1="2.8" y1="2.8" x2="4.2" y2="4.2" stroke="{{ t.textSub }}" stroke-width="1.4"></line>
+              <line x1="13.8" y1="13.8" x2="15.2" y2="15.2" stroke="{{ t.textSub }}" stroke-width="1.4"></line>
+              <line x1="13.8" y1="4.2" x2="15.2" y2="2.8" stroke="{{ t.textSub }}" stroke-width="1.4"></line>
+              <line x1="2.8" y1="15.2" x2="4.2" y2="13.8" stroke="{{ t.textSub }}" stroke-width="1.4"></line>
+            </svg>
+          </sc-if>
+          <sc-if value="{{ notDark }}" hint-placeholder-val="{{ true }}">
+            <svg width="16" height="16" viewBox="0 0 18 18">
+              <circle cx="9" cy="9" r="7" fill="{{ t.textSub }}"></circle>
+              <circle cx="13" cy="5.5" r="6" fill="{{ t.surface }}"></circle>
+            </svg>
+          </sc-if>
+        </button>
+      </div>
+    </div>
+
+    <div style="margin-top:20px;display:flex;align-items:center;gap:14px;">
+      <div style="font-size:13.5px;font-weight:700;color:{{ t.textSub }};white-space:nowrap;">Pregunta {{ qNumber }} de {{ total }}</div>
+      <div style="flex:1;height:7px;border-radius:100px;background:{{ t.border }};overflow:hidden;">
+        <div style="height:100%;width:{{ progressPct }}%;background:{{ accent }};border-radius:100px;transition:width .4s ease;"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Body -->
+  <div style="max-width:680px;margin:0 auto;padding:32px 24px 60px;">
+
+    <div style="font-size:12px;font-weight:800;color:{{ accent }};text-transform:uppercase;letter-spacing:0.07em;margin-bottom:12px;">{{ card.module }}</div>
+
+    <sc-if value="{{ card.isText }}" hint-placeholder-val="{{ false }}">
+      <div style="background:{{ t.surfaceAlt }};border:1px solid {{ t.border }};border-radius:16px;padding:20px 22px;margin-bottom:22px;">
+        <div style="font-size:14.5px;color:{{ t.textSub }};line-height:1.65;">{{ card.passage }}</div>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ card.isTable }}" hint-placeholder-val="{{ false }}">
+      <div style="border:1px solid {{ t.border }};border-radius:16px;overflow:hidden;margin-bottom:22px;">
+        <table>
+          <thead>
+            <tr>
+              <th style="text-align:left;padding:11px 18px;background:{{ t.surfaceAlt }};font-size:12.5px;font-weight:800;color:{{ t.textSub }};border-bottom:1px solid {{ t.border }};">Trimestre</th>
+              <th style="text-align:right;padding:11px 18px;background:{{ t.surfaceAlt }};font-size:12.5px;font-weight:800;color:{{ t.textSub }};border-bottom:1px solid {{ t.border }};">Ventas (millones COP)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <sc-for list="{{ card.tableRows }}" as="row" hint-placeholder-count="4">
+              <tr>
+                <td style="padding:10px 18px;font-size:14px;color:{{ t.text }};border-bottom:1px solid {{ t.border }};">{{ row.label }}</td>
+                <td style="padding:10px 18px;font-size:14px;color:{{ t.text }};text-align:right;font-weight:700;border-bottom:1px solid {{ t.border }};">{{ row.value }}</td>
+              </tr>
+            </sc-for>
+          </tbody>
+        </table>
+      </div>
+    </sc-if>
+
+    <div style="font-size:18.5px;font-weight:700;color:{{ t.text }};line-height:1.5;margin-bottom:22px;letter-spacing:-0.005em;">{{ card.question }}</div>
+
+    <div style="display:flex;flex-direction:column;gap:10px;">
+      <div onClick="{{ selectA }}" style="display:flex;align-items:center;gap:14px;padding:15px 18px;border-radius:14px;border:1.5px solid {{ optABorder }};background:{{ optABg }};cursor:pointer;transition:all .15s ease;">
+        <div style="width:26px;height:26px;border-radius:50%;background:{{ optABadgeBg }};color:{{ optABadgeColor }};display:flex;align-items:center;justify-content:center;font-size:12.5px;font-weight:800;flex-shrink:0;">A</div>
+        <div style="font-size:14.5px;color:{{ t.text }};line-height:1.4;">{{ card.optA }}</div>
+      </div>
+      <div onClick="{{ selectB }}" style="display:flex;align-items:center;gap:14px;padding:15px 18px;border-radius:14px;border:1.5px solid {{ optBBorder }};background:{{ optBBg }};cursor:pointer;transition:all .15s ease;">
+        <div style="width:26px;height:26px;border-radius:50%;background:{{ optBBadgeBg }};color:{{ optBBadgeColor }};display:flex;align-items:center;justify-content:center;font-size:12.5px;font-weight:800;flex-shrink:0;">B</div>
+        <div style="font-size:14.5px;color:{{ t.text }};line-height:1.4;">{{ card.optB }}</div>
+      </div>
+      <div onClick="{{ selectC }}" style="display:flex;align-items:center;gap:14px;padding:15px 18px;border-radius:14px;border:1.5px solid {{ optCBorder }};background:{{ optCBg }};cursor:pointer;transition:all .15s ease;">
+        <div style="width:26px;height:26px;border-radius:50%;background:{{ optCBadgeBg }};color:{{ optCBadgeColor }};display:flex;align-items:center;justify-content:center;font-size:12.5px;font-weight:800;flex-shrink:0;">C</div>
+        <div style="font-size:14.5px;color:{{ t.text }};line-height:1.4;">{{ card.optC }}</div>
+      </div>
+      <div onClick="{{ selectD }}" style="display:flex;align-items:center;gap:14px;padding:15px 18px;border-radius:14px;border:1.5px solid {{ optDBorder }};background:{{ optDBg }};cursor:pointer;transition:all .15s ease;">
+        <div style="width:26px;height:26px;border-radius:50%;background:{{ optDBadgeBg }};color:{{ optDBadgeColor }};display:flex;align-items:center;justify-content:center;font-size:12.5px;font-weight:800;flex-shrink:0;">D</div>
+        <div style="font-size:14.5px;color:{{ t.text }};line-height:1.4;">{{ card.optD }}</div>
+      </div>
+    </div>
+
+    <div style="display:flex;justify-content:flex-end;margin-top:28px;">
+      <button onClick="{{ onNext }}" style="padding:14px 28px;border-radius:14px;border:none;font-weight:700;font-size:15px;cursor:{{ nextCursor }};background:{{ nextBg }};color:{{ nextColor }};display:flex;align-items:center;gap:8px;transition:all .15s ease;" style-hover="{{ nextHoverStyle }}">
+        {{ nextLabel }}
+        <svg width="15" height="15" viewBox="0 0 15 15"><line x1="2" y1="7.5" x2="12" y2="7.5" stroke="{{ nextColor }}" stroke-width="1.6"></line><line x1="8" y1="3.5" x2="12" y2="7.5" stroke="{{ nextColor }}" stroke-width="1.6"></line><line x1="8" y1="11.5" x2="12" y2="7.5" stroke="{{ nextColor }}" stroke-width="1.6"></line></svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{
+  &quot;$preview&quot;: {&quot;width&quot;: 820, &quot;height&quot;: 900},
+  &quot;accentColor&quot;: {&quot;editor&quot;: &quot;color&quot;, &quot;default&quot;: &quot;#2563EB&quot;, &quot;options&quot;: [&quot;#2563EB&quot;, &quot;#0F766E&quot;, &quot;#7C3AED&quot;, &quot;#EA580C&quot;], &quot;tsType&quot;: &quot;string&quot;},
+  &quot;totalQuestions&quot;: {&quot;editor&quot;: &quot;int&quot;, &quot;default&quot;: 45, &quot;min&quot;: 10, &quot;max&quot;: 60, &quot;tsType&quot;: &quot;number&quot;},
+  &quot;remainingSeconds&quot;: {&quot;editor&quot;: &quot;range&quot;, &quot;default&quot;: 1104, &quot;min&quot;: 0, &quot;max&quot;: 3000, &quot;step&quot;: 1, &quot;tsType&quot;: &quot;number&quot;}
+}">
+class Component extends DCLogic {
+  state = { dark: false, selected: null, qNumber: 12, secondsLeft: null };
+
+  componentDidMount() {
+    const start = this.props.remainingSeconds != null ? this.props.remainingSeconds : 1104;
+    this.setState({ secondsLeft: start });
+    this._interval = setInterval(() => {
+      this.setState(s => ({ secondsLeft: Math.max(0, (s.secondsLeft || 0) - 1) }));
+    }, 1000);
+  }
+
+  componentWillUnmount() {
+    if (this._interval) clearInterval(this._interval);
+  }
+
+  cards() {
+    return [
+      {
+        module: 'Lectura Crítica', isText: true, isTable: false,
+        passage: 'En muchas ciudades colombianas, el sistema de transporte público ha tenido que adaptarse al crecimiento acelerado de la población. Las rutas troncales reducen los tiempos de viaje en las horas pico, pero dependen de una infraestructura vial que no siempre crece al mismo ritmo que la demanda. Esto genera una tensión constante entre la cobertura del servicio y su capacidad real.',
+        question: 'Según el texto, ¿cuál es la idea principal?',
+        optA: 'El transporte público colombiano ha dejado de ser una prioridad de inversión estatal.',
+        optB: 'La demanda de transporte crece más rápido de lo que la infraestructura vial puede sostener.',
+        optC: 'Las rutas troncales son la única solución viable para las horas pico.',
+        optD: 'La población de las ciudades colombianas ha dejado de crecer en la última década.',
+      },
+      {
+        module: 'Razonamiento Cuantitativo', isText: false, isTable: true,
+        tableRows: [
+          { label: 'Trimestre 1', value: '120' },
+          { label: 'Trimestre 2', value: '135' },
+          { label: 'Trimestre 3', value: '118' },
+          { label: 'Trimestre 4', value: '162' },
+        ],
+        question: '¿En qué trimestre se presentó el mayor incremento porcentual respecto al trimestre anterior?',
+        optA: 'Trimestre 1',
+        optB: 'Trimestre 2',
+        optC: 'Trimestre 3',
+        optD: 'Trimestre 4',
+      },
+      {
+        module: 'Competencias Ciudadanas', isText: true, isTable: false,
+        passage: 'En un barrio, dos familias vecinas llevan meses en desacuerdo por el ruido de una obra de construcción. La comunidad ha propuesto una reunión con la Junta de Acción Comunal para escuchar a ambas partes antes de tomar cualquier decisión sobre horarios permitidos.',
+        question: '¿Cuál de las siguientes acciones representa mejor una resolución pacífica del conflicto descrito?',
+        optA: 'Que una de las familias denuncie a la otra sin antes dialogar.',
+        optB: 'Ignorar el conflicto hasta que se resuelva por sí solo.',
+        optC: 'Participar en la reunión mediada por la Junta de Acción Comunal para acordar horarios.',
+        optD: 'Que los vecinos decidan por votación sin escuchar a los involucrados.',
+      },
+      {
+        module: 'Pensamiento Científico', isText: true, isTable: false,
+        passage: 'Un grupo de estudiantes riega tres grupos de plantas idénticas con distintas cantidades de agua diaria (50ml, 100ml y 150ml) manteniendo iguales la luz y el tipo de suelo. Después de tres semanas, miden la altura de cada planta.',
+        question: '¿Cuál es la variable dependiente en el experimento descrito?',
+        optA: 'La cantidad de agua suministrada',
+        optB: 'El tipo de suelo utilizado',
+        optC: 'La altura de las plantas',
+        optD: 'La cantidad de luz recibida',
+      },
+    ];
+  }
+
+  formatTime(s) {
+    const m = Math.floor(s / 60);
+    const sec = s % 60;
+    return `${m}:${sec < 10 ? '0' : ''}${sec}`;
+  }
+
+  renderVals() {
+    const dark = this.state.dark;
+    const accent = this.props.accentColor || '#2563EB';
+    const total = this.props.totalQuestions || 45;
+    const samples = this.cards();
+    const card = samples[(this.state.qNumber - 1) % samples.length];
+    const secondsLeft = this.state.secondsLeft == null ? (this.props.remainingSeconds != null ? this.props.remainingSeconds : 1104) : this.state.secondsLeft;
+    const isWarning = secondsLeft < 300;
+
+    const t = dark ? {
+      bg: 'oklch(19% 0.012 258)',
+      surface: 'oklch(24% 0.014 258)',
+      surfaceAlt: 'oklch(27.5% 0.014 258)',
+      border: 'oklch(33% 0.015 258)',
+      text: 'oklch(96% 0.004 258)',
+      textSub: 'oklch(76% 0.01 258)',
+      textFaint: 'oklch(56% 0.012 258)',
+    } : {
+      bg: 'oklch(97.8% 0.004 250)',
+      surface: '#FFFFFF',
+      surfaceAlt: 'oklch(96% 0.006 250)',
+      border: 'oklch(91% 0.006 250)',
+      text: 'oklch(23% 0.012 258)',
+      textSub: 'oklch(46% 0.014 258)',
+      textFaint: 'oklch(62% 0.012 258)',
+    };
+
+    const warnColor = dark ? 'oklch(72% 0.14 65)' : 'oklch(60% 0.16 55)';
+    const timerColor = isWarning ? warnColor : accent;
+    const timerBg = `color-mix(in oklch, ${timerColor} ${dark ? 18 : 9}%, ${t.surface})`;
+    const timerBorder = `color-mix(in oklch, ${timerColor} 30%, ${t.border})`;
+
+    const optStyle = (letter) => {
+      const sel = this.state.selected === letter;
+      return {
+        border: sel ? accent : t.border,
+        bg: sel ? `color-mix(in oklch, ${accent} ${dark ? 16 : 8}%, ${t.surface})` : t.surface,
+        badgeBg: sel ? accent : t.surfaceAlt,
+        badgeColor: sel ? '#FFFFFF' : t.textSub,
+      };
+    };
+    const a = optStyle('A'), b = optStyle('B'), c = optStyle('C'), d = optStyle('D');
+
+    const hasSelection = !!this.state.selected;
+    const isLast = this.state.qNumber >= total;
+
+    return {
+      dark, notDark: !dark, t, accent, card,
+      toggleDark: () => this.setState(s => ({ dark: !s.dark })),
+      timeLabel: this.formatTime(secondsLeft),
+      timerColor, timerBg, timerBorder,
+      qNumber: this.state.qNumber, total,
+      progressPct: Math.round(((this.state.qNumber - 1) / total) * 100),
+      selectA: () => this.setState({ selected: 'A' }),
+      selectB: () => this.setState({ selected: 'B' }),
+      selectC: () => this.setState({ selected: 'C' }),
+      selectD: () => this.setState({ selected: 'D' }),
+      optABorder: a.border, optABg: a.bg, optABadgeBg: a.badgeBg, optABadgeColor: a.badgeColor,
+      optBBorder: b.border, optBBg: b.bg, optBBadgeBg: b.badgeBg, optBBadgeColor: b.badgeColor,
+      optCBorder: c.border, optCBg: c.bg, optCBadgeBg: c.badgeBg, optCBadgeColor: c.badgeColor,
+      optDBorder: d.border, optDBg: d.bg, optDBadgeBg: d.badgeBg, optDBadgeColor: d.badgeColor,
+      nextLabel: isLast ? 'Finalizar simulacro' : 'Siguiente pregunta',
+      nextCursor: hasSelection ? 'pointer' : 'not-allowed',
+      nextBg: hasSelection ? accent : t.border,
+      nextColor: hasSelection ? '#FFFFFF' : t.textFaint,
+      nextHoverStyle: hasSelection ? 'transform:translateY(-2px);' : '',
+      onNext: () => {
+        if (!hasSelection) return;
+        this.setState(s => ({
+          qNumber: s.qNumber >= total ? total : s.qNumber + 1,
+          selected: null,
+        }));
+      },
+    };
+  }
+}
+
+</script>
+</body>
+</html>

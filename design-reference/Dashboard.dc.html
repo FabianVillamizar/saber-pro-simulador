@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Manrope:ital@0&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+  </style>
+</helmet>
+
+<div style="font-family:'Manrope',system-ui,sans-serif;background:{{ t.bg }};min-height:100vh;transition:background .25s ease;">
+
+  <!-- Header -->
+  <div style="max-width:1160px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:28px 40px 0;">
+    <div style="display:flex;align-items:center;gap:10px;">
+      <div style="width:32px;height:32px;border-radius:9px;background:{{ accent }};display:flex;align-items:center;justify-content:center;color:white;font-weight:800;font-size:15px;">S</div>
+      <div style="font-weight:800;font-size:17px;color:{{ t.text }};letter-spacing:-0.01em;">Saber Pro</div>
+    </div>
+    <div style="display:flex;align-items:center;gap:12px;">
+      <div style="display:flex;align-items:center;gap:7px;padding:8px 14px;border-radius:100px;background:{{ t.surfaceAlt }};border:1px solid {{ t.border }};font-size:13px;color:{{ t.textSub }};font-weight:600;">
+        <svg width="14" height="14" viewBox="0 0 14 14" style="flex-shrink:0;">
+          <rect x="1" y="2.5" width="12" height="10" rx="1.5" fill="none" stroke="{{ t.textSub }}" stroke-width="1.3"></rect>
+          <line x1="1" y1="5.5" x2="13" y2="5.5" stroke="{{ t.textSub }}" stroke-width="1.3"></line>
+        </svg>
+        {{ daysToExam }} días para el examen
+      </div>
+      <button onClick="{{ toggleDark }}" style="width:36px;height:36px;border-radius:10px;border:1px solid {{ t.border }};background:{{ t.surface }};display:flex;align-items:center;justify-content:center;cursor:pointer;padding:0;" style-hover="border-color:{{ accent }};">
+        <sc-if value="{{ dark }}" hint-placeholder-val="{{ false }}">
+          <svg width="17" height="17" viewBox="0 0 18 18">
+            <circle cx="9" cy="9" r="4" fill="{{ t.textSub }}"></circle>
+            <line x1="9" y1="0.5" x2="9" y2="2.5" stroke="{{ t.textSub }}" stroke-width="1.4"></line>
+            <line x1="9" y1="15.5" x2="9" y2="17.5" stroke="{{ t.textSub }}" stroke-width="1.4"></line>
+            <line x1="0.5" y1="9" x2="2.5" y2="9" stroke="{{ t.textSub }}" stroke-width="1.4"></line>
+            <line x1="15.5" y1="9" x2="17.5" y2="9" stroke="{{ t.textSub }}" stroke-width="1.4"></line>
+            <line x1="2.8" y1="2.8" x2="4.2" y2="4.2" stroke="{{ t.textSub }}" stroke-width="1.4"></line>
+            <line x1="13.8" y1="13.8" x2="15.2" y2="15.2" stroke="{{ t.textSub }}" stroke-width="1.4"></line>
+            <line x1="13.8" y1="4.2" x2="15.2" y2="2.8" stroke="{{ t.textSub }}" stroke-width="1.4"></line>
+            <line x1="2.8" y1="15.2" x2="4.2" y2="13.8" stroke="{{ t.textSub }}" stroke-width="1.4"></line>
+          </svg>
+        </sc-if>
+        <sc-if value="{{ notDark }}" hint-placeholder-val="{{ true }}">
+          <svg width="17" height="17" viewBox="0 0 18 18">
+            <circle cx="9" cy="9" r="7" fill="{{ t.textSub }}"></circle>
+            <circle cx="13" cy="5.5" r="6" fill="{{ t.surface }}"></circle>
+          </svg>
+        </sc-if>
+      </button>
+    </div>
+  </div>
+
+  <!-- Greeting -->
+  <div style="max-width:1160px;margin:0 auto;padding:22px 40px 0;">
+    <div style="font-size:27px;font-weight:800;color:{{ t.text }};letter-spacing:-0.02em;">Hola, {{ studentName }}</div>
+    <div style="font-size:14.5px;color:{{ t.textSub }};margin-top:4px;">Sigue así — vas mejor que la semana pasada.</div>
+  </div>
+
+  <div style="max-width:1160px;margin:0 auto;padding:22px 40px 60px;opacity:{{ mountOpacity }};transform:{{ mountTransform }};transition:opacity .5s ease, transform .5s ease;">
+
+    <!-- Streak / heatmap card -->
+    <div style="background:{{ t.surface }};border:1px solid {{ t.border }};border-radius:20px;padding:28px 32px;display:flex;align-items:center;gap:44px;flex-wrap:wrap;">
+      <div style="display:flex;flex-direction:column;gap:4px;min-width:150px;">
+        <div style="font-size:38px;font-weight:800;color:{{ t.text }};line-height:1;">{{ streakCount }}</div>
+        <div style="font-size:13.5px;color:{{ t.textSub }};font-weight:600;">días seguidos de estudio</div>
+        <div style="font-size:12.5px;color:{{ t.textFaint }};margin-top:10px;">Racha más larga: {{ bestStreak }} días</div>
+      </div>
+
+      <div style="flex:1;min-width:280px;overflow-x:auto;padding-bottom:2px;">
+        <div style="display:flex;gap:3px;width:max-content;">
+          <sc-for list="{{ weeks }}" as="week" hint-placeholder-count="18">
+            <div style="display:flex;flex-direction:column;gap:3px;">
+              <sc-for list="{{ week.cells }}" as="cell" hint-placeholder-count="7">
+                <div title="{{ cell.dateLabel }}" style="width:11px;height:11px;border-radius:3px;background:{{ cell.color }};"></div>
+              </sc-for>
+            </div>
+          </sc-for>
+        </div>
+        <div style="display:flex;align-items:center;gap:6px;margin-top:12px;">
+          <span style="font-size:11.5px;color:{{ t.textFaint }};">Menos</span>
+          <div style="width:10px;height:10px;border-radius:3px;background:{{ legend.l0 }};"></div>
+          <div style="width:10px;height:10px;border-radius:3px;background:{{ legend.l1 }};"></div>
+          <div style="width:10px;height:10px;border-radius:3px;background:{{ legend.l2 }};"></div>
+          <div style="width:10px;height:10px;border-radius:3px;background:{{ legend.l3 }};"></div>
+          <div style="width:10px;height:10px;border-radius:3px;background:{{ legend.l4 }};"></div>
+          <span style="font-size:11.5px;color:{{ t.textFaint }};">Más</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Continuar estudiando CTA -->
+    <div style="margin-top:18px;background:{{ ctaBg }};border:1px solid {{ ctaBorder }};border-radius:20px;padding:30px 32px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;">
+      <div style="min-width:260px;">
+        <div style="font-size:12px;font-weight:700;color:{{ accent }};text-transform:uppercase;letter-spacing:0.07em;">Continúa donde quedaste</div>
+        <div style="font-size:21px;font-weight:800;color:{{ t.text }};margin-top:7px;letter-spacing:-0.01em;">Lectura Crítica · Inferencias y relaciones lógicas</div>
+        <div style="font-size:13.5px;color:{{ t.textSub }};margin-top:5px;">Pregunta 8 de 15 · ~6 min restantes</div>
+        <div style="margin-top:14px;width:280px;max-width:100%;height:7px;border-radius:100px;background:{{ t.border }};overflow:hidden;">
+          <div style="width:53%;height:100%;background:{{ accent }};border-radius:100px;"></div>
+        </div>
+      </div>
+      <button onClick="{{ onContinue }}" style="padding:16px 26px;border-radius:14px;background:{{ accent }};color:white;font-weight:700;font-size:15.5px;border:none;cursor:pointer;display:flex;align-items:center;gap:8px;white-space:nowrap;box-shadow:{{ ctaShadow }};transition:transform .15s ease;" style-hover="transform:translateY(-2px);">
+        Continuar estudiando
+        <svg width="15" height="15" viewBox="0 0 15 15"><line x1="2" y1="7.5" x2="12" y2="7.5" stroke="white" stroke-width="1.6"></line><line x1="8" y1="3.5" x2="12" y2="7.5" stroke="white" stroke-width="1.6"></line><line x1="8" y1="11.5" x2="12" y2="7.5" stroke="white" stroke-width="1.6"></line></svg>
+      </button>
+    </div>
+
+    <!-- Modules -->
+    <div style="margin-top:38px;display:flex;align-items:baseline;justify-content:space-between;">
+      <div style="font-size:18px;font-weight:800;color:{{ t.text }};letter-spacing:-0.01em;">Tus módulos</div>
+      <div style="font-size:13px;color:{{ t.textSub }};">{{ overallAvg }}% promedio general</div>
+    </div>
+
+    <div style="margin-top:16px;display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:14px;">
+
+      <div style="background:{{ t.surface }};border:1px solid {{ t.border }};border-radius:16px;padding:20px 22px;display:flex;align-items:center;gap:16px;cursor:pointer;transition:all .15s ease;" style-hover="border-color:{{ accent }};box-shadow:0 6px 18px {{ hoverShadow }};transform:translateY(-2px);">
+        <div style="width:42px;height:42px;border-radius:11px;background:{{ badgeBg }};color:{{ accent }};display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;flex-shrink:0;">IN</div>
+        <div style="flex:1;min-width:0;">
+          <div style="font-size:15px;font-weight:700;color:{{ t.text }};">Inglés</div>
+          <div style="font-size:12.5px;color:{{ t.textFaint }};margin-top:2px;">127/176 tarjetas · hoy</div>
+        </div>
+        <div style="width:54px;height:54px;border-radius:50%;background:{{ m1Ring }};display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <div style="width:42px;height:42px;border-radius:50%;background:{{ t.surface }};display:flex;align-items:center;justify-content:center;font-size:12.5px;font-weight:800;color:{{ t.text }};">72%</div>
+        </div>
+      </div>
+
+      <div style="background:{{ t.surface }};border:1px solid {{ t.border }};border-radius:16px;padding:20px 22px;display:flex;align-items:center;gap:16px;cursor:pointer;transition:all .15s ease;" style-hover="border-color:{{ accent }};box-shadow:0 6px 18px {{ hoverShadow }};transform:translateY(-2px);">
+        <div style="width:42px;height:42px;border-radius:11px;background:{{ badgeBg }};color:{{ accent }};display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;flex-shrink:0;">RC</div>
+        <div style="flex:1;min-width:0;">
+          <div style="font-size:15px;font-weight:700;color:{{ t.text }};">Razonamiento Cuantitativo</div>
+          <div style="font-size:12.5px;color:{{ t.textFaint }};margin-top:2px;">88/196 tarjetas · ayer</div>
+        </div>
+        <div style="width:54px;height:54px;border-radius:50%;background:{{ m2Ring }};display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <div style="width:42px;height:42px;border-radius:50%;background:{{ t.surface }};display:flex;align-items:center;justify-content:center;font-size:12.5px;font-weight:800;color:{{ t.text }};">45%</div>
+        </div>
+      </div>
+
+      <div style="background:{{ t.surface }};border:1px solid {{ t.border }};border-radius:16px;padding:20px 22px;display:flex;align-items:center;gap:16px;cursor:pointer;transition:all .15s ease;" style-hover="border-color:{{ accent }};box-shadow:0 6px 18px {{ hoverShadow }};transform:translateY(-2px);">
+        <div style="width:42px;height:42px;border-radius:11px;background:{{ badgeBg }};color:{{ accent }};display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;flex-shrink:0;">LC</div>
+        <div style="flex:1;min-width:0;">
+          <div style="font-size:15px;font-weight:700;color:{{ t.text }};">Lectura Crítica</div>
+          <div style="font-size:12.5px;color:{{ t.textFaint }};margin-top:2px;">203/230 tarjetas · hoy</div>
+        </div>
+        <div style="width:54px;height:54px;border-radius:50%;background:{{ m3Ring }};display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <div style="width:42px;height:42px;border-radius:50%;background:{{ t.surface }};display:flex;align-items:center;justify-content:center;font-size:12.5px;font-weight:800;color:{{ t.text }};">88%</div>
+        </div>
+      </div>
+
+      <div style="background:{{ t.surface }};border:1px solid {{ t.border }};border-radius:16px;padding:20px 22px;display:flex;align-items:center;gap:16px;cursor:pointer;transition:all .15s ease;" style-hover="border-color:{{ accent }};box-shadow:0 6px 18px {{ hoverShadow }};transform:translateY(-2px);">
+        <div style="width:42px;height:42px;border-radius:11px;background:{{ badgeBg }};color:{{ accent }};display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;flex-shrink:0;">CC</div>
+        <div style="flex:1;min-width:0;">
+          <div style="font-size:15px;font-weight:700;color:{{ t.text }};">Competencias Ciudadanas</div>
+          <div style="font-size:12.5px;color:{{ t.textFaint }};margin-top:2px;">94/156 tarjetas · hace 2 días</div>
+        </div>
+        <div style="width:54px;height:54px;border-radius:50%;background:{{ m4Ring }};display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <div style="width:42px;height:42px;border-radius:50%;background:{{ t.surface }};display:flex;align-items:center;justify-content:center;font-size:12.5px;font-weight:800;color:{{ t.text }};">60%</div>
+        </div>
+      </div>
+
+      <div style="background:{{ t.surface }};border:1px solid {{ t.border }};border-radius:16px;padding:20px 22px;display:flex;align-items:center;gap:16px;cursor:pointer;transition:all .15s ease;" style-hover="border-color:{{ accent }};box-shadow:0 6px 18px {{ hoverShadow }};transform:translateY(-2px);">
+        <div style="width:42px;height:42px;border-radius:11px;background:{{ badgeBg }};color:{{ accent }};display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;flex-shrink:0;">CE</div>
+        <div style="flex:1;min-width:0;">
+          <div style="font-size:15px;font-weight:700;color:{{ t.text }};">Comunicación Escrita</div>
+          <div style="font-size:12.5px;color:{{ t.textFaint }};margin-top:2px;">52/158 tarjetas · hace 4 días</div>
+        </div>
+        <div style="width:54px;height:54px;border-radius:50%;background:{{ m5Ring }};display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <div style="width:42px;height:42px;border-radius:50%;background:{{ t.surface }};display:flex;align-items:center;justify-content:center;font-size:12.5px;font-weight:800;color:{{ t.text }};">33%</div>
+        </div>
+      </div>
+
+      <div style="background:{{ t.surface }};border:1px solid {{ t.border }};border-radius:16px;padding:20px 22px;display:flex;align-items:center;gap:16px;cursor:pointer;transition:all .15s ease;" style-hover="border-color:{{ accent }};box-shadow:0 6px 18px {{ hoverShadow }};transform:translateY(-2px);">
+        <div style="width:42px;height:42px;border-radius:11px;background:{{ badgeBg }};color:{{ accent }};display:flex;align-items:center;justify-content:center;font-weight:800;font-size:13px;flex-shrink:0;">PC</div>
+        <div style="flex:1;min-width:0;">
+          <div style="font-size:15px;font-weight:700;color:{{ t.text }};">Pensamiento Científico</div>
+          <div style="font-size:12.5px;color:{{ t.textFaint }};margin-top:2px;">110/200 tarjetas · hace 1 día</div>
+        </div>
+        <div style="width:54px;height:54px;border-radius:50%;background:{{ m6Ring }};display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <div style="width:42px;height:42px;border-radius:50%;background:{{ t.surface }};display:flex;align-items:center;justify-content:center;font-size:12.5px;font-weight:800;color:{{ t.text }};">55%</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:1280,&quot;height&quot;:900},&quot;accentColor&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#2563EB&quot;,&quot;options&quot;:[&quot;#2563EB&quot;,&quot;#0F766E&quot;,&quot;#7C3AED&quot;,&quot;#EA580C&quot;],&quot;tsType&quot;:&quot;string&quot;},&quot;studentName&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;Fabian&quot;,&quot;tsType&quot;:&quot;string&quot;}}">
+class Component extends DCLogic {
+  state = { dark: false, mounted: false };
+
+  constructor(props) {
+    super(props);
+    this.levels = this.buildHeatmap();
+  }
+
+  componentDidMount() {
+    requestAnimationFrame(() => requestAnimationFrame(() => this.setState({ mounted: true })));
+  }
+
+  // Deterministic seeded PRNG so the pattern is stable across renders
+  mulberry32(a) {
+    return function () {
+      a |= 0; a = (a + 0x6D2B79F5) | 0;
+      let t = Math.imul(a ^ (a >>> 15), 1 | a);
+      t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+
+  buildHeatmap() {
+    const rand = this.mulberry32(42);
+    const total = 126; // 18 weeks x 7 days
+    const levels = [];
+    for (let i = 0; i < total; i++) {
+      const daysFromEnd = total - 1 - i;
+      if (daysFromEnd < 47) {
+        // current streak: always active, varied intensity
+        levels.push(1 + Math.floor(rand() * 4));
+      } else {
+        const r = rand();
+        if (r < 0.32) levels.push(0);
+        else levels.push(1 + Math.floor(rand() * 4));
+      }
+    }
+    return levels;
+  }
+
+  longestRun(levels) {
+    let best = 0, cur = 0;
+    for (const l of levels) {
+      if (l > 0) { cur++; best = Math.max(best, cur); }
+      else cur = 0;
+    }
+    return best;
+  }
+
+  currentStreak(levels) {
+    let cur = 0;
+    for (let i = levels.length - 1; i >= 0; i--) {
+      if (levels[i] > 0) cur++; else break;
+    }
+    return cur;
+  }
+
+  formatDate(daysAgo) {
+    const months = ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+    const today = new Date('2026-07-04');
+    const d = new Date(today);
+    d.setDate(d.getDate() - daysAgo);
+    return `${d.getDate()} ${months[d.getMonth()]}`;
+  }
+
+  renderVals() {
+    const dark = this.state.dark;
+    const accent = this.props.accentColor || '#2563EB';
+    const studentName = this.props.studentName || 'Valentina';
+
+    const t = dark ? {
+      bg: 'oklch(19% 0.012 258)',
+      surface: 'oklch(24% 0.014 258)',
+      surfaceAlt: 'oklch(27.5% 0.014 258)',
+      border: 'oklch(33% 0.015 258)',
+      text: 'oklch(96% 0.004 258)',
+      textSub: 'oklch(76% 0.01 258)',
+      textFaint: 'oklch(56% 0.012 258)',
+    } : {
+      bg: 'oklch(97.8% 0.004 250)',
+      surface: '#FFFFFF',
+      surfaceAlt: 'oklch(96% 0.006 250)',
+      border: 'oklch(91% 0.006 250)',
+      text: 'oklch(23% 0.012 258)',
+      textSub: 'oklch(46% 0.014 258)',
+      textFaint: 'oklch(62% 0.012 258)',
+    };
+
+    const mixBase = dark ? 'black' : 'white';
+    const cellColor = (level) => {
+      if (level === 0) return t.border;
+      const pct = [0, 32, 55, 78, 100][level];
+      return pct === 100 ? accent : `color-mix(in oklch, ${accent} ${pct}%, ${mixBase})`;
+    };
+
+    const weeks = [];
+    for (let w = 0; w < 18; w++) {
+      const cells = [];
+      for (let d = 0; d < 7; d++) {
+        const idx = w * 7 + d;
+        const level = this.levels[idx];
+        const daysAgo = 125 - idx;
+        cells.push({ level, color: cellColor(level), dateLabel: this.formatDate(daysAgo) });
+      }
+      weeks.push({ cells });
+    }
+
+    const legend = { l0: cellColor(0), l1: cellColor(1), l2: cellColor(2), l3: cellColor(3), l4: cellColor(4) };
+
+    const ringStyle = (pct) => `conic-gradient(${accent} 0deg ${pct * 3.6}deg, ${t.border} ${pct * 3.6}deg 360deg)`;
+
+    const pcts = [72, 45, 88, 60, 33, 55];
+    const overallAvg = Math.round(pcts.reduce((a, b) => a + b, 0) / pcts.length);
+
+    return {
+      dark,
+      notDark: !dark,
+      t,
+      accent,
+      studentName,
+      toggleDark: () => this.setState(s => ({ dark: !s.dark })),
+      onContinue: () => {},
+      daysToExam: 127,
+      streakCount: this.currentStreak(this.levels),
+      bestStreak: this.longestRun(this.levels),
+      weeks,
+      legend,
+      overallAvg,
+      mountOpacity: this.state.mounted ? 1 : 0,
+      mountTransform: this.state.mounted ? 'translateY(0px)' : 'translateY(10px)',
+      ctaBg: `color-mix(in oklch, ${accent} ${dark ? 14 : 7}%, ${t.surface})`,
+      ctaBorder: `color-mix(in oklch, ${accent} 28%, ${t.border})`,
+      ctaShadow: `0 10px 24px color-mix(in oklch, ${accent} 35%, transparent)`,
+      hoverShadow: dark ? 'rgba(0,0,0,0.35)' : 'rgba(20,25,40,0.08)',
+      badgeBg: `color-mix(in oklch, ${accent} ${dark ? 22 : 12}%, ${t.surface})`,
+      m1Ring: ringStyle(pcts[0]),
+      m2Ring: ringStyle(pcts[1]),
+      m3Ring: ringStyle(pcts[2]),
+      m4Ring: ringStyle(pcts[3]),
+      m5Ring: ringStyle(pcts[4]),
+      m6Ring: ringStyle(pcts[5]),
+    };
+  }
+}
+
+</script>
+</body>
+</html>

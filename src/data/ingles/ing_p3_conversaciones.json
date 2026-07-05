@@ -1,0 +1,1252 @@
+[
+  {
+    "id": "ING-P3-ITEM-001",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Would you like to come to my birthday party on Saturday?",
+    "opciones": {
+      "A": "I'd love to! What time should I arrive?",
+      "B": "No, I haven't been there before.",
+      "C": "Sure, I'll have a large one, please."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Esta respuesta acepta la invitación de forma natural y añade una pregunta lógica de seguimiento (la hora), que es exactamente el tipo de respuesta que se espera ante una invitación.",
+    "distractores": {
+      "B": {
+        "explicacion": "Esta respuesta trata el enunciado como si fuera una pregunta sobre haber visitado un lugar antes, no como una invitación a un evento futuro.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "C": {
+        "explicacion": "Esta respuesta suena como si estuviera aceptando un pedido de comida o bebida, no una invitación a una fiesta.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-002",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Do you want to grab lunch together tomorrow?",
+    "opciones": {
+      "A": "Yes, I had a great time yesterday.",
+      "B": "Sure, is 1 pm okay with you?",
+      "C": "Yes, it's usually pretty quiet on weekends."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Esta respuesta acepta la invitación y sugiere lógicamente coordinar un horario, que es la continuación natural de una invitación a almorzar juntos.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta habla de un evento pasado, cuando la invitación es sobre un plan futuro; la referencia temporal no encaja con la pregunta.",
+        "patron_trampa": "referencia_incorrecta"
+      },
+      "C": {
+        "explicacion": "Esta respuesta parece describir un lugar o negocio, no una reacción a una invitación a almorzar.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-003",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "We're having a barbecue this weekend. Why don't you join us?",
+    "opciones": {
+      "A": "I know, the weather has been really hot lately.",
+      "B": "I usually go to bed around 10.",
+      "C": "That sounds great — can I bring anything?"
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Esta respuesta acepta la invitación de forma entusiasta y hace una pregunta de cortesía típica al aceptar una invitación a una comida.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta se queda en el tema del clima, sin realmente responder si la persona asistirá o no a la invitación.",
+        "patron_trampa": "significado_cercano"
+      },
+      "B": {
+        "explicacion": "Esta respuesta habla de un hábito de sueño, algo completamente desconectado de una invitación a una parrillada.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-004",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "There's a new exhibit at the art museum. Want to check it out this weekend?",
+    "opciones": {
+      "A": "I'd love to. What time does it open?",
+      "B": "I've never really liked painting my own art.",
+      "C": "That museum is closed on Mondays, I think."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Esta respuesta acepta la invitación y pregunta un detalle práctico relevante (el horario), como haría una persona interesada en asistir.",
+    "distractores": {
+      "B": {
+        "explicacion": "Esta respuesta confunde 'ver una exhibición de arte' con 'pintar arte propio', respondiendo a una actividad distinta de la que se propuso.",
+        "patron_trampa": "logica_conversacional_rota"
+      },
+      "C": {
+        "explicacion": "Esta respuesta da un dato sobre el museo sin aceptar ni rechazar la invitación, dejando la pregunta original sin responder.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-005",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "A few of us are going hiking on Sunday morning. Would you like to come along?",
+    "opciones": {
+      "A": "Yes, I go to the gym three times a week.",
+      "B": "Sounds fun, but I already have plans that day.",
+      "C": "I think it's supposed to rain on Tuesday."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Esta respuesta responde directamente a la invitación, declinándola de forma cortés y dando una razón, lo cual es una respuesta natural y completa.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta habla de una rutina de ejercicio general, sin aceptar ni rechazar el plan específico de la caminata del domingo.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "C": {
+        "explicacion": "Esta respuesta menciona el clima de un día distinto (martes) al domingo mencionado en la invitación, por lo que no aporta información relevante.",
+        "patron_trampa": "referencia_incorrecta"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-006",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "My cousin is visiting from out of town. Would you like to meet her for coffee sometime this week?",
+    "opciones": {
+      "A": "No, I don't drink coffee in the morning.",
+      "B": "She's staying with us until next month.",
+      "C": "Sure, I'm free on Thursday afternoon."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Esta respuesta acepta la invitación y propone un momento concreto, respondiendo directamente a la pregunta sobre si le gustaría conocer a la prima.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta parece rechazar la invitación, pero en realidad solo comenta un hábito relacionado con el café en la mañana, sin aclarar si acepta conocer a la prima en algún otro momento.",
+        "patron_trampa": "significado_cercano"
+      },
+      "B": {
+        "explicacion": "Esta respuesta da información sobre cuánto tiempo se quedará la prima, un dato que quien invita ya conocería, no algo que respondería la persona invitada.",
+        "patron_trampa": "referencia_incorrecta"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-007",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Some friends and I are watching the game at my place on Friday. You in?",
+    "opciones": {
+      "A": "Definitely, what time should I get there?",
+      "B": "I used to play on my school team.",
+      "C": "The last game went into overtime, I heard."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Esta respuesta acepta la invitación de forma directa y pregunta un detalle lógico (la hora), como se esperaría de alguien que confirma asistencia a un plan.",
+    "distractores": {
+      "B": {
+        "explicacion": "Esta respuesta habla de una experiencia personal jugando deportes en el pasado, no de si asistirá o no a ver el partido con los amigos.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "C": {
+        "explicacion": "Esta respuesta comenta un resultado deportivo pasado, sin responder si la persona asistirá a la reunión propuesta.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-008",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "We're thinking of having a picnic in the park next Saturday. Interested?",
+    "opciones": {
+      "A": "It rained really hard last Saturday.",
+      "B": "That could be fun. Should I bring some snacks?",
+      "C": "I've never really liked parks that much."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Esta respuesta muestra interés genuino en el plan y ofrece colaborar, que es una respuesta natural y colaborativa ante una invitación.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta habla del sábado pasado, mientras que la invitación es para el sábado próximo, generando una confusión temporal que no responde a la propuesta.",
+        "patron_trampa": "referencia_incorrecta"
+      },
+      "C": {
+        "explicacion": "Esta respuesta no acepta ni rechaza claramente la invitación; solo expresa una preferencia vaga sin responder a la propuesta concreta.",
+        "patron_trampa": "logica_conversacional_rota"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-009",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "I'm so sorry I'm late — the bus took forever.",
+    "opciones": {
+      "A": "That's okay, I'll take the next one.",
+      "B": "No problem, I already paid for the tickets.",
+      "C": "Don't worry about it, we haven't started yet."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Esta respuesta acepta la disculpa y tranquiliza a la persona, aclarando que no ha habido ningún inconveniente porque el evento aún no ha comenzado.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta habla de tomar 'el siguiente autobús', como si la otra persona fuera quien llegó tarde en transporte público, en vez de aceptar la disculpa de quien habla.",
+        "patron_trampa": "logica_conversacional_rota"
+      },
+      "B": {
+        "explicacion": "Esta respuesta menciona haber pagado boletos, un tema que no tiene relación con aceptar una disculpa por llegar tarde.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-010",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "Excuse me, but this soup is cold. Could you please heat it up?",
+    "opciones": {
+      "A": "I'm so sorry about that. I'll bring you a hot one right away.",
+      "B": "Sure, the restaurant closes at 10 tonight.",
+      "C": "Of course, would you like it well done?"
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Esta respuesta responde apropiadamente a una queja de servicio, disculpándose y ofreciendo una solución inmediata al problema mencionado.",
+    "distractores": {
+      "B": {
+        "explicacion": "Esta respuesta da información sobre el horario de cierre del restaurante, algo irrelevante ante una queja sobre comida fría.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "C": {
+        "explicacion": "Esta respuesta pregunta sobre el término de cocción de una carne, como si la queja fuera sobre un plato distinto, no sobre una sopa fría.",
+        "patron_trampa": "logica_conversacional_rota"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-011",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "I'm really sorry, I completely forgot to send you the file yesterday.",
+    "opciones": {
+      "A": "Yes, I received three files last week.",
+      "B": "No worries, just send it whenever you get the chance.",
+      "C": "I'm sure it will arrive on time tomorrow."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Esta respuesta acepta la disculpa de manera comprensiva y da una instrucción clara sobre qué hacer a continuación, que es la reacción natural ante este tipo de disculpa.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta habla de archivos recibidos la semana pasada, un evento distinto y ya ocurrido, sin relación con el archivo que se olvidó enviar ayer.",
+        "patron_trampa": "referencia_incorrecta"
+      },
+      "C": {
+        "explicacion": "Esta respuesta habla como si el envío fuera automático o garantizado por un tercero, en vez de responder directamente a la disculpa de quien olvidó enviarlo.",
+        "patron_trampa": "logica_conversacional_rota"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-012",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "This jacket has a small hole in the sleeve. I'd like a refund, please.",
+    "opciones": {
+      "A": "Yes, that color is very popular this season.",
+      "B": "Sure, would you like to try a smaller size?",
+      "C": "I apologize for the inconvenience. Let me process that refund for you."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Esta respuesta reconoce el problema, se disculpa y ofrece exactamente lo que el cliente pidió (el reembolso), respondiendo de forma completa a la queja.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta comenta sobre la popularidad del color de la prenda, sin abordar en absoluto el defecto ni la solicitud de reembolso.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "B": {
+        "explicacion": "Esta respuesta ofrece cambiar de talla, como si el problema fuera que la prenda no queda bien, cuando el problema real es un defecto y lo pedido específicamente fue un reembolso.",
+        "patron_trampa": "logica_conversacional_rota"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-013",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "I owe you an apology — I shouldn't have raised my voice during the meeting.",
+    "opciones": {
+      "A": "Thank you for saying that. I really appreciate it.",
+      "B": "Yes, the meeting started a bit late.",
+      "C": "That's fine, I'll email you the notes later."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Esta respuesta reconoce y agradece la disculpa de forma directa, que es la respuesta esperada cuando alguien se disculpa sinceramente por su comportamiento.",
+    "distractores": {
+      "B": {
+        "explicacion": "Esta respuesta comenta sobre el horario de inicio de la reunión, sin relacionarse con la disculpa por haber alzado la voz.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "C": {
+        "explicacion": "Esta respuesta se enfoca en un tema logístico, ignorando por completo la disculpa que se acaba de ofrecer.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-014",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "The delivery was supposed to arrive yesterday, and it's still not here. This is unacceptable.",
+    "opciones": {
+      "A": "Yes, our store opens at 9 am every day.",
+      "B": "I completely understand your frustration. Let me check the status right away.",
+      "C": "Yeah, my bad, that's kind of a bummer, I guess."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Esta respuesta valida la frustración del cliente y ofrece una acción concreta e inmediata, que es la manera adecuada de responder a una queja formal sobre un servicio.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta da el horario de apertura de la tienda, un dato sin ninguna relación con el retraso de una entrega.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "C": {
+        "explicacion": "Esta respuesta usa un lenguaje demasiado informal y casual para un contexto de atención al cliente formal, donde se espera un tono profesional y empático.",
+        "patron_trampa": "registro_inadecuado"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-015",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "I'm sorry for the mess I made in the kitchen last night.",
+    "opciones": {
+      "A": "Yes, I cooked pasta for dinner.",
+      "B": "I think we're out of clean towels.",
+      "C": "It's okay, I already cleaned it up this morning."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Esta respuesta acepta la disculpa y aclara la situación actual (que ya se limpió), respondiendo directamente a lo que la persona mencionó.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta habla de qué se cocinó, sin relación con la disculpa por el desorden dejado en la cocina.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "B": {
+        "explicacion": "Esta respuesta menciona la falta de toallas limpias, un tema que no responde a la disculpa presentada.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-016",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "I apologize for interrupting, but could I ask you something quickly?",
+    "opciones": {
+      "A": "Of course, go ahead.",
+      "B": "Yes, the meeting room is down the hall.",
+      "C": "That's a great question, actually."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Esta respuesta responde de forma natural, dando permiso para que la persona continúe con su pregunta, que es justo lo que se necesita tras esa disculpa cortés por interrumpir.",
+    "distractores": {
+      "B": {
+        "explicacion": "Esta respuesta da direcciones hacia una sala de reuniones, un tema sin relación con la solicitud de permiso para hacer una pregunta.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "C": {
+        "explicacion": "Esta respuesta reacciona como si ya se hubiera hecho la pregunta y fuera buena, cuando en realidad la persona apenas está pidiendo permiso para preguntar.",
+        "patron_trampa": "logica_conversacional_rota"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-017",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "I'm afraid I can't come to your presentation — something urgent came up at work.",
+    "opciones": {
+      "A": "Yes, the presentation starts at 3 pm sharp.",
+      "B": "No worries at all, I'll send you the slides afterward.",
+      "C": "I hope your presentation goes really well."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Esta respuesta acepta la disculpa por no poder asistir y ofrece una solución razonable (compartir el material después), que responde adecuadamente a la situación.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta simplemente repite el horario de la presentación, sin reaccionar a la noticia de que la persona no podrá asistir.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "C": {
+        "explicacion": "Esta respuesta desea buena suerte 'con tu presentación', como si la otra persona fuera quien va a presentar, cuando en realidad quien habla es quien no podrá asistir a la presentación de otra persona.",
+        "patron_trampa": "logica_conversacional_rota"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-018",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Excuse me, do you know what time the next train to the city center leaves?",
+    "opciones": {
+      "A": "Yes, I take the train every day for work.",
+      "B": "It's about a 20-minute ride, if I remember correctly.",
+      "C": "I think there's one at 4:15, but you should double-check the board."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Esta respuesta responde directamente a la pregunta sobre la hora del próximo tren, dando información útil y sugiriendo confirmar en el tablero.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta habla de un hábito personal de tomar el tren, sin dar la información específica que se pidió sobre el horario.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "B": {
+        "explicacion": "Esta respuesta da información sobre la duración del viaje, no sobre la hora de salida, que es lo que realmente se preguntó.",
+        "patron_trampa": "significado_cercano"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-019",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Could you tell me where the nearest pharmacy is?",
+    "opciones": {
+      "A": "Yes, there's one two blocks from here, on the left.",
+      "B": "Sure, they open at 8 am on weekdays.",
+      "C": "I think they're having a sale this week."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Esta respuesta da la ubicación específica que se pidió, respondiendo de forma directa y útil a la pregunta sobre dónde queda la farmacia.",
+    "distractores": {
+      "B": {
+        "explicacion": "Esta respuesta da el horario de apertura de una farmacia, no su ubicación, que es lo que realmente se preguntó.",
+        "patron_trampa": "significado_cercano"
+      },
+      "C": {
+        "explicacion": "Esta respuesta comenta sobre una oferta o descuento, sin dar ninguna indicación sobre dónde se encuentra la farmacia.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-020",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Do you happen to know how much this jacket costs?",
+    "opciones": {
+      "A": "Yes, it comes in three different colors.",
+      "B": "Let me check — I think it's on sale for $45.",
+      "C": "It's made of a really soft, warm fabric."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Esta respuesta responde con la información específica que se pidió, el precio, que es exactamente lo que la pregunta buscaba.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta habla de los colores disponibles, no del precio, que era lo que se preguntó.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "C": {
+        "explicacion": "Esta respuesta describe la tela de la chaqueta, sin mencionar el precio en absoluto.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-021",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Do you know if this bus goes to the airport?",
+    "opciones": {
+      "A": "Yes, I flew out of that airport last month.",
+      "B": "It usually takes about 45 minutes by car.",
+      "C": "I'm not sure, but you could ask the driver to confirm."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Esta respuesta responde honestamente que no está seguro y da una sugerencia práctica, lo cual es una respuesta razonable ante una pregunta que no se puede contestar con certeza.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta habla de una experiencia personal viajando en avión, sin responder si el autobús va o no al aeropuerto.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "B": {
+        "explicacion": "Esta respuesta da un tiempo de viaje en auto, no responde si este autobús específico va al aeropuerto, que es la pregunta original.",
+        "patron_trampa": "referencia_incorrecta"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-022",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Could you tell me how to get to the city library from here?",
+    "opciones": {
+      "A": "Sure, just go straight for two blocks and turn left.",
+      "B": "Yes, it's open until 8 pm on weekdays.",
+      "C": "I borrowed a really interesting book from there last week."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Esta respuesta da instrucciones claras sobre cómo llegar, respondiendo exactamente a la pregunta sobre direcciones.",
+    "distractores": {
+      "B": {
+        "explicacion": "Esta respuesta da el horario de la biblioteca, no las indicaciones para llegar, que era lo que se preguntó.",
+        "patron_trampa": "significado_cercano"
+      },
+      "C": {
+        "explicacion": "Esta respuesta comparte una experiencia personal sobre un libro, sin dar ninguna indicación de cómo llegar al lugar.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-023",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Do you know if the museum is open on public holidays?",
+    "opciones": {
+      "A": "Yes, I visited it last summer with my family.",
+      "B": "I believe it is, but it might have shorter hours.",
+      "C": "The entrance fee is quite reasonable, actually."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Esta respuesta responde directamente a la pregunta sobre si el museo abre en días festivos, dando información relevante y matizada.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta comparte una experiencia pasada de visita, sin responder si el museo abre específicamente en días festivos.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "C": {
+        "explicacion": "Esta respuesta habla del precio de entrada, un tema no relacionado con la pregunta sobre los horarios en días festivos.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-024",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Excuse me, is there a public restroom nearby?",
+    "opciones": {
+      "A": "Sure, I'll have a large coffee, please.",
+      "B": "It's usually pretty crowded around lunchtime.",
+      "C": "Yes, there's one just past the food court."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Esta respuesta da la información de ubicación solicitada de forma directa y clara.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta suena como si estuviera respondiendo a una pregunta sobre pedir una bebida, no sobre la ubicación de un baño.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "B": {
+        "explicacion": "Esta respuesta habla sobre qué tan concurrido está un lugar, sin realmente confirmar si hay un baño cercano o dónde se encuentra.",
+        "patron_trampa": "significado_cercano"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-025",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Do you know what the wifi password is here?",
+    "opciones": {
+      "A": "I think it's written on a sign near the counter.",
+      "B": "I would be delighted to inform you that the network here functions adequately.",
+      "C": "I usually just use my phone's data instead."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Esta respuesta da una pista útil sobre dónde encontrar la contraseña, respondiendo de forma práctica a la pregunta.",
+    "distractores": {
+      "B": {
+        "explicacion": "Esta respuesta usa un registro extremadamente formal y rebuscado para una pregunta cotidiana y casual, sonando forzado y fuera de lugar en el contexto informal de la conversación.",
+        "patron_trampa": "registro_inadecuado"
+      },
+      "C": {
+        "explicacion": "Esta respuesta explica una preferencia personal por usar datos móviles, sin ayudar a responder la pregunta sobre la contraseña.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-026",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Would you rather watch a movie or go for a walk tonight?",
+    "opciones": {
+      "A": "Yes, I really enjoy watching documentaries.",
+      "B": "Honestly, I'd prefer to stay in and watch something relaxing.",
+      "C": "The weather forecast says it might rain later."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Esta respuesta responde directamente a la pregunta de preferencia entre dos opciones, eligiendo una de ellas con una razón implícita.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta habla de un gusto general por los documentales, sin elegir claramente entre 'ver una película' o 'salir a caminar' esta noche.",
+        "patron_trampa": "significado_cercano"
+      },
+      "C": {
+        "explicacion": "Esta respuesta da información sobre el clima, sin realmente responder cuál actividad prefiere la persona.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-027",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Do you prefer tea or coffee in the morning?",
+    "opciones": {
+      "A": "Yes, I usually wake up around 7.",
+      "B": "This coffee shop has really good pastries.",
+      "C": "I'm more of a tea person, actually."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Esta respuesta responde de forma directa y natural a la pregunta sobre preferencia entre dos bebidas.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta habla de la hora en que se despierta la persona, sin relación con la preferencia entre té y café.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "B": {
+        "explicacion": "Esta respuesta elogia los productos de una cafetería, sin responder cuál bebida prefiere la persona.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-028",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Would you rather live in a big city or a small town?",
+    "opciones": {
+      "A": "I think I'd choose a small town — it feels calmer.",
+      "B": "Yes, I've lived in three different cities.",
+      "C": "Big cities usually have more traffic and noise."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Esta respuesta elige directamente una de las dos opciones presentadas y da una breve razón, respondiendo completamente a la pregunta de preferencia.",
+    "distractores": {
+      "B": {
+        "explicacion": "Esta respuesta comparte una experiencia pasada viviendo en varias ciudades, sin decir cuál preferiría entre las dos opciones planteadas.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "C": {
+        "explicacion": "Esta respuesta hace una afirmación general sobre las ciudades grandes sin realmente elegir una opción como su preferencia personal.",
+        "patron_trampa": "logica_conversacional_rota"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-029",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Which do you like better, action movies or comedies?",
+    "opciones": {
+      "A": "Yes, I go to the movies almost every weekend.",
+      "B": "I'd say comedies — I just want to relax and laugh.",
+      "C": "That theater has really comfortable seats."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Esta respuesta elige una de las dos categorías mencionadas y justifica brevemente su preferencia, respondiendo directamente a la pregunta.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta habla de la frecuencia con la que va al cine, sin decir qué tipo de película prefiere.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "C": {
+        "explicacion": "Esta respuesta elogia la comodidad de un cine, sin relación con el tipo de película preferido.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-030",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Would you rather travel by train or by plane?",
+    "opciones": {
+      "A": "Yes, I've flown to Europe twice.",
+      "B": "Planes are usually much faster for long distances.",
+      "C": "I actually prefer trains — I like watching the scenery go by."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Esta respuesta elige claramente una de las dos opciones y da una razón personal, siendo la respuesta más completa y natural a la pregunta de preferencia.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta menciona experiencias pasadas volando, sin decir cuál medio de transporte prefiere entre las dos opciones.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "B": {
+        "explicacion": "Esta respuesta hace una afirmación objetiva sobre los aviones, sin expresar una preferencia personal como se pidió.",
+        "patron_trampa": "logica_conversacional_rota"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-031",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Do you like spicy food, or do you prefer milder dishes?",
+    "opciones": {
+      "A": "I actually love spicy food — the spicier, the better!",
+      "B": "Yes, I cook dinner almost every night.",
+      "C": "That restaurant has amazing service."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Esta respuesta responde directamente indicando su preferencia entre las dos opciones mencionadas.",
+    "distractores": {
+      "B": {
+        "explicacion": "Esta respuesta habla de la frecuencia con la que cocina, sin decir si prefiere la comida picante o suave.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "C": {
+        "explicacion": "Esta respuesta elogia el servicio de un restaurante, sin relación con la preferencia de sabor preguntada.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-032",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Would you rather work from home or go to the office?",
+    "opciones": {
+      "A": "Yes, I usually start work around 9 am.",
+      "B": "Honestly, I like going to the office — I miss the social interaction otherwise.",
+      "C": "Working from home can save a lot of commuting time."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Esta respuesta elige directamente una de las dos opciones planteadas y explica brevemente por qué, respondiendo completamente a la pregunta.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta habla de la hora en que empieza a trabajar, sin decir cuál modalidad de trabajo prefiere.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "C": {
+        "explicacion": "Esta respuesta hace una afirmación general sobre trabajar desde casa sin expresar cuál es la preferencia personal de quien responde.",
+        "patron_trampa": "logica_conversacional_rota"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-033",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Do you prefer reading paper books or e-books?",
+    "opciones": {
+      "A": "Yes, I read almost every night before bed.",
+      "B": "E-readers have gotten a lot cheaper recently.",
+      "C": "I still prefer paper books — I like the feel of turning pages."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Esta respuesta responde directamente a la pregunta, eligiendo entre las dos opciones y justificando su elección.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta habla de un hábito de lectura, sin especificar cuál formato prefiere entre libro físico y electrónico.",
+        "patron_trampa": "significado_cercano"
+      },
+      "B": {
+        "explicacion": "Esta respuesta da un dato sobre el precio de los lectores electrónicos, sin expresar una preferencia personal.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-034",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "I think we should postpone the meeting until next week.",
+    "opciones": {
+      "A": "I agree, that would give us more time to prepare.",
+      "B": "Yes, the meeting room holds about twenty people.",
+      "C": "I already sent the invitations to everyone."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Esta respuesta expresa acuerdo directo con la propuesta y añade una razón que apoya la idea.",
+    "distractores": {
+      "B": {
+        "explicacion": "Esta respuesta da un dato sobre la capacidad de la sala, sin expresar acuerdo o desacuerdo con la propuesta de posponer la reunión.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "C": {
+        "explicacion": "Esta respuesta sugeriría implícitamente una razón para no posponer, pero no expresa claramente ni acuerdo ni desacuerdo con la propuesta.",
+        "patron_trampa": "logica_conversacional_rota"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-035",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "I don't think we should cancel the trip just because of the weather forecast.",
+    "opciones": {
+      "A": "Yes, I checked the forecast this morning.",
+      "B": "That's a fair point — forecasts aren't always accurate anyway.",
+      "C": "The hotel has a great cancellation policy."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Esta respuesta expresa acuerdo con la opinión presentada y añade una razón que refuerza el punto de vista.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta simplemente confirma haber revisado el pronóstico, sin expresar si está de acuerdo o no con no cancelar el viaje.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "C": {
+        "explicacion": "Esta respuesta da información sobre la política de cancelación del hotel, sin relación directa con la opinión expresada sobre el pronóstico.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-036",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "In my opinion, remote work is more productive than working in an office.",
+    "opciones": {
+      "A": "Yes, a lot of companies offer remote positions now.",
+      "B": "My office is about a 20-minute drive from my house.",
+      "C": "I actually disagree — I think people focus better with a clear routine at the office."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Esta respuesta expresa un desacuerdo claro y respetuoso con la opinión, dando una razón que sustenta su punto de vista contrario.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta da un dato general sobre el mercado laboral, sin expresar acuerdo o desacuerdo con la opinión sobre la productividad.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "B": {
+        "explicacion": "Esta respuesta habla de la distancia hasta la oficina de quien responde, sin relación con la opinión sobre productividad.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-037",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "I believe we should invest more in renewable energy sources.",
+    "opciones": {
+      "A": "I couldn't agree more — it's essential for the future.",
+      "B": "Yes, solar panels have become more common in recent years.",
+      "C": "Our electricity bill went up a lot last month."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Esta respuesta expresa un acuerdo enfático y directo con la opinión presentada.",
+    "distractores": {
+      "B": {
+        "explicacion": "Esta respuesta menciona un hecho relacionado con energía renovable, pero no expresa si la persona está de acuerdo o no con invertir más en ella.",
+        "patron_trampa": "significado_cercano"
+      },
+      "C": {
+        "explicacion": "Esta respuesta habla de una factura personal de electricidad, sin relación directa con la opinión sobre invertir en energías renovables.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-038",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "I don't think social media has a negative effect on teenagers.",
+    "opciones": {
+      "A": "Yes, most teenagers use social media every day.",
+      "B": "I see it differently — I think it can affect their self-esteem quite a bit.",
+      "C": "My phone's battery doesn't last very long these days."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Esta respuesta expresa un desacuerdo claro con la opinión presentada, dando una razón concreta que sustenta su postura contraria.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta da un dato sobre el uso general de redes sociales entre adolescentes, sin expresar acuerdo o desacuerdo con la opinión sobre su efecto negativo.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "C": {
+        "explicacion": "Esta respuesta habla sobre la batería de un teléfono, algo completamente ajeno a la opinión sobre redes sociales y adolescentes.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-039",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "I think the new policy will actually help small businesses.",
+    "opciones": {
+      "A": "Yes, the policy was announced last Tuesday.",
+      "B": "Small businesses often struggle with high rent costs.",
+      "C": "That's a fair point, though I'm still not fully convinced."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Esta respuesta reconoce el argumento de la otra persona mientras expresa una opinión matizada (acuerdo parcial), que es una respuesta natural y respetuosa en un desacuerdo suave.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta da un dato sobre cuándo se anunció la política, sin expresar ninguna opinión sobre si ayudará o no a las pequeñas empresas.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "B": {
+        "explicacion": "Esta respuesta hace una afirmación general sobre las dificultades de las pequeñas empresas, sin realmente responder si está de acuerdo con la opinión sobre la nueva política.",
+        "patron_trampa": "significado_cercano"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-040",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "I really think the movie was overrated; I didn't enjoy it at all.",
+    "opciones": {
+      "A": "Really? I actually loved it — I thought the story was great.",
+      "B": "Yes, it was released a few months ago.",
+      "C": "The tickets for that movie were pretty expensive."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Esta respuesta expresa un desacuerdo directo con la opinión sobre la película, ofreciendo su propia valoración contraria.",
+    "distractores": {
+      "B": {
+        "explicacion": "Esta respuesta da un dato sobre la fecha de estreno, sin expresar acuerdo o desacuerdo con la opinión sobre la calidad de la película.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "C": {
+        "explicacion": "Esta respuesta comenta sobre el precio de las entradas, sin relación con si la película fue buena o sobrevalorada.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-041",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "I think we should wait until prices go down before buying a new car.",
+    "opciones": {
+      "A": "Yes, car prices have gone up a lot recently.",
+      "B": "That makes sense to me; there's no rush anyway.",
+      "C": "My current car is almost ten years old."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Esta respuesta expresa acuerdo con la sugerencia y añade una razón que la respalda.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta confirma un hecho relacionado, pero no expresa claramente si está de acuerdo con la sugerencia de esperar.",
+        "patron_trampa": "significado_cercano"
+      },
+      "C": {
+        "explicacion": "Esta respuesta da información sobre la antigüedad del auto actual, sin expresar acuerdo o desacuerdo con la sugerencia de esperar para comprar uno nuevo.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-042",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "B1",
+    "enunciado": "I don't think it's a good idea to skip breakfast every day.",
+    "opciones": {
+      "A": "Yes, I usually wake up around 6:30.",
+      "B": "Breakfast food can be quite expensive these days.",
+      "C": "I agree — it's important to have some energy in the morning."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Esta respuesta expresa acuerdo directo con la opinión y añade una razón lógica que la respalda.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta habla de la hora en que se despierta la persona, sin expresar acuerdo o desacuerdo con la opinión sobre saltarse el desayuno.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "B": {
+        "explicacion": "Esta respuesta comenta sobre el costo de los alimentos de desayuno, sin relación con la opinión sobre si es buena idea saltárselo.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-043",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Would you like some help carrying those bags?",
+    "opciones": {
+      "A": "That would be great, thank you so much.",
+      "B": "Yes, I bought them at the mall yesterday.",
+      "C": "They're not too heavy, just a bit bulky."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Esta respuesta acepta el ofrecimiento de forma directa y agradecida, respondiendo completamente a la pregunta.",
+    "distractores": {
+      "B": {
+        "explicacion": "Esta respuesta da información sobre dónde se compraron las bolsas, sin aceptar ni rechazar la ayuda ofrecida.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "C": {
+        "explicacion": "Esta respuesta describe las bolsas sin aceptar ni rechazar claramente el ofrecimiento de ayuda.",
+        "patron_trampa": "logica_conversacional_rota"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-044",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Can I get you something to drink while you wait?",
+    "opciones": {
+      "A": "Yes, the waiting room is just down the hall.",
+      "B": "Sure, a glass of water would be great, thanks.",
+      "C": "I've been waiting for about ten minutes."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Esta respuesta acepta el ofrecimiento y especifica lo que le gustaría, respondiendo de forma completa y natural.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta da direcciones hacia la sala de espera, algo sin relación con el ofrecimiento de una bebida.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "C": {
+        "explicacion": "Esta respuesta menciona cuánto tiempo lleva esperando, sin aceptar ni rechazar el ofrecimiento de una bebida.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-045",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "I made too much pasta — would you like some?",
+    "opciones": {
+      "A": "Yes, I love Italian restaurants.",
+      "B": "I usually cook pasta on Fridays.",
+      "C": "Sure, that would be lovely, thank you."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Esta respuesta acepta el ofrecimiento de comida de forma directa y cortés.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta habla de un gusto general por los restaurantes italianos, sin aceptar ni rechazar el ofrecimiento específico de pasta.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "B": {
+        "explicacion": "Esta respuesta habla de un hábito personal de cocinar pasta, sin responder al ofrecimiento que se le hizo.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-046",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Do you want me to give you a ride to the airport tomorrow?",
+    "opciones": {
+      "A": "That would really help, thank you so much.",
+      "B": "Yes, my flight leaves at 7 am.",
+      "C": "I shall gladly transport you to the aerodrome at your earliest convenience."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Esta respuesta acepta el ofrecimiento de transporte y expresa agradecimiento, respondiendo directamente a la pregunta.",
+    "distractores": {
+      "B": {
+        "explicacion": "Esta respuesta da información sobre la hora del vuelo, relevante pero sin aceptar o rechazar claramente el ofrecimiento de que lo lleven.",
+        "patron_trampa": "significado_cercano"
+      },
+      "C": {
+        "explicacion": "Esta respuesta usa un registro extremadamente formal y arcaico ('shall', 'aerodrome') que no encaja con el tono casual de una conversación entre conocidos.",
+        "patron_trampa": "registro_inadecuado"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-047",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Let me know if you need any help moving those boxes.",
+    "opciones": {
+      "A": "Yes, we're moving to a new apartment next month.",
+      "B": "Thanks, I might take you up on that a bit later.",
+      "C": "The boxes are labeled by room."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Esta respuesta responde apropiadamente al ofrecimiento, indicando que podría aceptar la ayuda más adelante, lo cual es una respuesta natural y educada.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta da información sobre una mudanza futura, sin relación directa con el ofrecimiento inmediato de ayuda con las cajas.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "C": {
+        "explicacion": "Esta respuesta describe cómo están organizadas las cajas, sin aceptar ni rechazar el ofrecimiento de ayuda.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-048",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Would you like me to email you the presentation slides?",
+    "opciones": {
+      "A": "Yes, the presentation lasted about an hour.",
+      "B": "I really enjoyed the presentation, actually.",
+      "C": "Yes, please, that would be really helpful."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "Esta respuesta acepta el ofrecimiento directamente, respondiendo de forma completa a la pregunta.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta da un dato sobre la duración de la presentación, sin aceptar ni rechazar el ofrecimiento de recibir las diapositivas por correo.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "B": {
+        "explicacion": "Esta respuesta expresa una opinión general sobre la presentación, sin responder si desea o no recibir las diapositivas.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-049",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "I'm heading to the store — do you want me to pick up anything for you?",
+    "opciones": {
+      "A": "Actually, could you grab some milk if it's not too much trouble?",
+      "B": "Yes, that store has really good prices.",
+      "C": "I went there yesterday and it was quite crowded."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Esta respuesta aprovecha el ofrecimiento y hace una petición específica y cortés, respondiendo de forma natural a la pregunta.",
+    "distractores": {
+      "B": {
+        "explicacion": "Esta respuesta elogia los precios de la tienda, sin responder si necesita que le traigan algo.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "C": {
+        "explicacion": "Esta respuesta comparte una experiencia pasada en la tienda, sin aceptar ni rechazar el ofrecimiento de traerle algo.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-050",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Can I help you set up the chairs for the event?",
+    "opciones": {
+      "A": "Yes, the event starts at 6 pm sharp.",
+      "B": "That would be great, we could really use an extra pair of hands.",
+      "C": "There are about fifty chairs in storage."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "Esta respuesta acepta el ofrecimiento de ayuda de forma directa y agradecida, respondiendo completamente a la pregunta.",
+    "distractores": {
+      "A": {
+        "explicacion": "Esta respuesta da la hora de inicio del evento, sin aceptar ni rechazar la ayuda ofrecida para acomodar las sillas.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "C": {
+        "explicacion": "Esta respuesta da un dato sobre la cantidad de sillas disponibles, sin responder si acepta la ayuda ofrecida.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  }
+]

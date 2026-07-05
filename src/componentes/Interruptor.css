@@ -1,0 +1,29 @@
+.interruptor {
+  width: 44px;
+  height: 26px;
+  border-radius: var(--radio-pill);
+  border: 1px solid var(--border);
+  background: var(--surface-alt);
+  padding: 2px;
+  cursor: pointer;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  transition: background var(--dur-hover) ease, border-color var(--dur-hover) ease;
+}
+
+.interruptor--activo {
+  background: var(--accent);
+  border-color: var(--accent);
+  justify-content: flex-end;
+}
+
+.interruptor-perilla {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  transition: transform var(--dur-hover) ease;
+}

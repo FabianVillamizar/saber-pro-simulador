@@ -1,0 +1,530 @@
+[
+  {
+    "id": "ING-P2-GRUPO-001",
+    "modulo": "ingles",
+    "parte": 2,
+    "tipo": "emparejamiento_avisos",
+    "nivel_mcer": "A2",
+    "banco_opciones": {
+      "A": "bookstore",
+      "B": "supermarket",
+      "C": "pharmacy",
+      "D": "electronics store",
+      "E": "pet store",
+      "F": "bakery",
+      "G": "shoe store",
+      "H": "clothing store"
+    },
+    "avisos": [
+      {
+        "num": 1,
+        "texto_aviso": "Please ask a member of staff before testing any of the display devices.",
+        "respuesta_correcta": "D"
+      },
+      {
+        "num": 2,
+        "texto_aviso": "Fresh loaves are baked every morning at 6 am — ask if you'd like one warm.",
+        "respuesta_correcta": "F"
+      },
+      {
+        "num": 3,
+        "texto_aviso": "All medication requires a valid prescription; over-the-counter items are on aisle 2.",
+        "respuesta_correcta": "C"
+      },
+      {
+        "num": 4,
+        "texto_aviso": "Try before you buy — free size exchanges within 30 days.",
+        "respuesta_correcta": "G"
+      },
+      {
+        "num": 5,
+        "texto_aviso": "Please keep dogs on a leash while browsing; treats are available at the counter.",
+        "respuesta_correcta": "E"
+      }
+    ]
+  },
+  {
+    "id": "ING-P2-GRUPO-002",
+    "modulo": "ingles",
+    "parte": 2,
+    "tipo": "emparejamiento_avisos",
+    "nivel_mcer": "A2",
+    "banco_opciones": {
+      "A": "airport",
+      "B": "train station",
+      "C": "bus stop",
+      "D": "taxi rank",
+      "E": "ferry terminal",
+      "F": "parking garage",
+      "G": "subway platform",
+      "H": "bike rental station"
+    },
+    "avisos": [
+      {
+        "num": 1,
+        "texto_aviso": "Boarding passes must be scanned at the gate at least 30 minutes before departure.",
+        "respuesta_correcta": "A"
+      },
+      {
+        "num": 2,
+        "texto_aviso": "Mind the gap between the train and the platform.",
+        "respuesta_correcta": "G"
+      },
+      {
+        "num": 3,
+        "texto_aviso": "Please check the departure board for your platform number before boarding.",
+        "respuesta_correcta": "B"
+      },
+      {
+        "num": 4,
+        "texto_aviso": "Please have exact change ready; the driver cannot provide change for large bills.",
+        "respuesta_correcta": "C"
+      },
+      {
+        "num": 5,
+        "texto_aviso": "Vehicles left for more than 24 hours without a valid ticket will be towed.",
+        "respuesta_correcta": "F"
+      }
+    ]
+  },
+  {
+    "id": "ING-P2-GRUPO-003",
+    "modulo": "ingles",
+    "parte": 2,
+    "tipo": "emparejamiento_avisos",
+    "nivel_mcer": "A2",
+    "banco_opciones": {
+      "A": "public park",
+      "B": "public library",
+      "C": "museum",
+      "D": "swimming pool",
+      "E": "playground",
+      "F": "public restroom",
+      "G": "town square",
+      "H": "botanical garden"
+    },
+    "avisos": [
+      {
+        "num": 1,
+        "texto_aviso": "Flash photography is not permitted near the paintings.",
+        "respuesta_correcta": "C"
+      },
+      {
+        "num": 2,
+        "texto_aviso": "Children must be supervised by an adult at all times.",
+        "respuesta_correcta": "E"
+      },
+      {
+        "num": 3,
+        "texto_aviso": "Please shower before entering; running is not allowed on the wet floor.",
+        "respuesta_correcta": "D"
+      },
+      {
+        "num": 4,
+        "texto_aviso": "Quiet please — other visitors are studying and reading.",
+        "respuesta_correcta": "B"
+      },
+      {
+        "num": 5,
+        "texto_aviso": "Please keep off the grass while the new seeds are growing.",
+        "respuesta_correcta": "A"
+      }
+    ]
+  },
+  {
+    "id": "ING-P2-GRUPO-004",
+    "modulo": "ingles",
+    "parte": 2,
+    "tipo": "emparejamiento_avisos",
+    "nivel_mcer": "B1",
+    "banco_opciones": {
+      "A": "bank",
+      "B": "post office",
+      "C": "dry cleaner's",
+      "D": "hair salon",
+      "E": "car repair shop",
+      "F": "doctor's office",
+      "G": "hotel reception",
+      "H": "gym"
+    },
+    "avisos": [
+      {
+        "num": 1,
+        "texto_aviso": "Please take a number and wait until it is called on the screen.",
+        "respuesta_correcta": "A"
+      },
+      {
+        "num": 2,
+        "texto_aviso": "Garments left for more than 30 days will be donated to charity.",
+        "respuesta_correcta": "C"
+      },
+      {
+        "num": 3,
+        "texto_aviso": "Please arrive 10 minutes early to fill out any necessary forms.",
+        "respuesta_correcta": "F"
+      },
+      {
+        "num": 4,
+        "texto_aviso": "Check-out time is 11 am; late check-out may incur an extra charge.",
+        "respuesta_correcta": "G"
+      },
+      {
+        "num": 5,
+        "texto_aviso": "We are currently experiencing longer wait times for parcel collection due to high demand.",
+        "respuesta_correcta": "B"
+      }
+    ]
+  },
+  {
+    "id": "ING-P2-GRUPO-005",
+    "modulo": "ingles",
+    "parte": 2,
+    "tipo": "emparejamiento_avisos",
+    "nivel_mcer": "A2",
+    "banco_opciones": {
+      "A": "supermarket",
+      "B": "furniture store",
+      "C": "toy store",
+      "D": "jewelry store",
+      "E": "hardware store",
+      "F": "flower shop",
+      "G": "stationery store",
+      "H": "bookstore"
+    },
+    "avisos": [
+      {
+        "num": 1,
+        "texto_aviso": "Assembly instructions are included; assembly service is also available for an extra fee.",
+        "respuesta_correcta": "B"
+      },
+      {
+        "num": 2,
+        "texto_aviso": "All watches and rings are kept in locked display cases; please ask for assistance.",
+        "respuesta_correcta": "D"
+      },
+      {
+        "num": 3,
+        "texto_aviso": "We deliver fresh arrangements same-day if ordered before 2 pm.",
+        "respuesta_correcta": "F"
+      },
+      {
+        "num": 4,
+        "texto_aviso": "Key cutting and battery testing are both available at the counter.",
+        "respuesta_correcta": "E"
+      },
+      {
+        "num": 5,
+        "texto_aviso": "Notebooks and pens are 20% off this week for back-to-school season.",
+        "respuesta_correcta": "G"
+      }
+    ]
+  },
+  {
+    "id": "ING-P2-GRUPO-006",
+    "modulo": "ingles",
+    "parte": 2,
+    "tipo": "emparejamiento_avisos",
+    "nivel_mcer": "B1",
+    "banco_opciones": {
+      "A": "highway",
+      "B": "cruise ship",
+      "C": "cable car station",
+      "D": "car rental office",
+      "E": "gas station",
+      "F": "toll booth",
+      "G": "airport security",
+      "H": "bus terminal"
+    },
+    "avisos": [
+      {
+        "num": 1,
+        "texto_aviso": "All liquids over 100ml must be placed in the tray provided.",
+        "respuesta_correcta": "G"
+      },
+      {
+        "num": 2,
+        "texto_aviso": "Please have your pass ready or exact change for cash payment; cards are not accepted at this lane.",
+        "respuesta_correcta": "F"
+      },
+      {
+        "num": 3,
+        "texto_aviso": "A valid driver's license and credit card are required to rent a vehicle.",
+        "respuesta_correcta": "D"
+      },
+      {
+        "num": 4,
+        "texto_aviso": "Life jackets are located under every seat in case of emergency.",
+        "respuesta_correcta": "B"
+      },
+      {
+        "num": 5,
+        "texto_aviso": "Turn off your engine while refueling.",
+        "respuesta_correcta": "E"
+      }
+    ]
+  },
+  {
+    "id": "ING-P2-GRUPO-007",
+    "modulo": "ingles",
+    "parte": 2,
+    "tipo": "emparejamiento_avisos",
+    "nivel_mcer": "A2",
+    "banco_opciones": {
+      "A": "cinema",
+      "B": "stadium",
+      "C": "beach",
+      "D": "campsite",
+      "E": "shopping mall",
+      "F": "zoo",
+      "G": "amusement park",
+      "H": "art gallery"
+    },
+    "avisos": [
+      {
+        "num": 1,
+        "texto_aviso": "Please silence your phone before the film begins.",
+        "respuesta_correcta": "A"
+      },
+      {
+        "num": 2,
+        "texto_aviso": "Do not feed the animals; it can make them sick.",
+        "respuesta_correcta": "F"
+      },
+      {
+        "num": 3,
+        "texto_aviso": "Lifeguards patrol the shoreline from 9 am to 6 pm only.",
+        "respuesta_correcta": "C"
+      },
+      {
+        "num": 4,
+        "texto_aviso": "Fires are only allowed in the designated pits after 6 pm.",
+        "respuesta_correcta": "D"
+      },
+      {
+        "num": 5,
+        "texto_aviso": "Height restrictions apply to some rides; please check the signs before queuing.",
+        "respuesta_correcta": "G"
+      }
+    ]
+  },
+  {
+    "id": "ING-P2-GRUPO-008",
+    "modulo": "ingles",
+    "parte": 2,
+    "tipo": "emparejamiento_avisos",
+    "nivel_mcer": "B1",
+    "banco_opciones": {
+      "A": "veterinary clinic",
+      "B": "law firm",
+      "C": "driving school",
+      "D": "recycling center",
+      "E": "locksmith",
+      "F": "tailor",
+      "G": "travel agency",
+      "H": "photography studio"
+    },
+    "avisos": [
+      {
+        "num": 1,
+        "texto_aviso": "Please bring your pet's vaccination records to your first appointment.",
+        "respuesta_correcta": "A"
+      },
+      {
+        "num": 2,
+        "texto_aviso": "Alterations usually take 3 to 5 business days.",
+        "respuesta_correcta": "F"
+      },
+      {
+        "num": 3,
+        "texto_aviso": "Glass, plastic, and paper must be sorted into separate containers.",
+        "respuesta_correcta": "D"
+      },
+      {
+        "num": 4,
+        "texto_aviso": "A road test can be scheduled after completing at least 10 practice hours.",
+        "respuesta_correcta": "C"
+      },
+      {
+        "num": 5,
+        "texto_aviso": "We offer 24-hour emergency service for lockouts.",
+        "respuesta_correcta": "E"
+      }
+    ]
+  },
+  {
+    "id": "ING-P2-GRUPO-009",
+    "modulo": "ingles",
+    "parte": 2,
+    "tipo": "emparejamiento_avisos",
+    "nivel_mcer": "B1",
+    "banco_opciones": {
+      "A": "butcher shop",
+      "B": "fish market",
+      "C": "cheese shop",
+      "D": "wine shop",
+      "E": "candy store",
+      "F": "antique shop",
+      "G": "farmers market",
+      "H": "hardware store"
+    },
+    "avisos": [
+      {
+        "num": 1,
+        "texto_aviso": "Ask about today's fresh catch; it changes daily depending on the season.",
+        "respuesta_correcta": "B"
+      },
+      {
+        "num": 2,
+        "texto_aviso": "Free tastings of our aged and soft varieties are available every Saturday afternoon.",
+        "respuesta_correcta": "C"
+      },
+      {
+        "num": 3,
+        "texto_aviso": "Most items here are one of a kind; prices are not fixed.",
+        "respuesta_correcta": "F"
+      },
+      {
+        "num": 4,
+        "texto_aviso": "Vendors here only accept cash on Sundays; card payments resume Monday.",
+        "respuesta_correcta": "G"
+      },
+      {
+        "num": 5,
+        "texto_aviso": "Custom cuts are available upon request; please allow 10 extra minutes.",
+        "respuesta_correcta": "A"
+      }
+    ]
+  },
+  {
+    "id": "ING-P2-GRUPO-010",
+    "modulo": "ingles",
+    "parte": 2,
+    "tipo": "emparejamiento_avisos",
+    "nivel_mcer": "B1",
+    "banco_opciones": {
+      "A": "ski lift",
+      "B": "hot air balloon ride",
+      "C": "taxi",
+      "D": "rideshare pickup point",
+      "E": "subway platform",
+      "F": "rental car return",
+      "G": "airport check-in desk",
+      "H": "bike lane"
+    },
+    "avisos": [
+      {
+        "num": 1,
+        "texto_aviso": "Please check your bags do not exceed the weight limit before proceeding.",
+        "respuesta_correcta": "G"
+      },
+      {
+        "num": 2,
+        "texto_aviso": "Fasten the safety bar before the ride begins.",
+        "respuesta_correcta": "A"
+      },
+      {
+        "num": 3,
+        "texto_aviso": "Please wait in the marked zone; do not approach moving vehicles.",
+        "respuesta_correcta": "D"
+      },
+      {
+        "num": 4,
+        "texto_aviso": "Return the vehicle with a full tank to avoid extra charges.",
+        "respuesta_correcta": "F"
+      },
+      {
+        "num": 5,
+        "texto_aviso": "Flights depend on wind speed and may be delayed or cancelled without prior notice; check in 2 hours before your slot.",
+        "respuesta_correcta": "B"
+      }
+    ]
+  },
+  {
+    "id": "ING-P2-GRUPO-011",
+    "modulo": "ingles",
+    "parte": 2,
+    "tipo": "emparejamiento_avisos",
+    "nivel_mcer": "A2",
+    "banco_opciones": {
+      "A": "public pool",
+      "B": "skate park",
+      "C": "hiking trail",
+      "D": "dog park",
+      "E": "public garden",
+      "F": "ice rink",
+      "G": "concert venue",
+      "H": "community center"
+    },
+    "avisos": [
+      {
+        "num": 1,
+        "texto_aviso": "Helmets and pads are strongly recommended for all skill levels.",
+        "respuesta_correcta": "B"
+      },
+      {
+        "num": 2,
+        "texto_aviso": "Please stay on the marked path to protect the local wildlife.",
+        "respuesta_correcta": "C"
+      },
+      {
+        "num": 3,
+        "texto_aviso": "Dogs must be up to date on vaccinations to enter.",
+        "respuesta_correcta": "D"
+      },
+      {
+        "num": 4,
+        "texto_aviso": "Ice skate rental is available at the entrance for a small fee.",
+        "respuesta_correcta": "F"
+      },
+      {
+        "num": 5,
+        "texto_aviso": "Doors open one hour before the show starts.",
+        "respuesta_correcta": "G"
+      }
+    ]
+  },
+  {
+    "id": "ING-P2-GRUPO-012",
+    "modulo": "ingles",
+    "parte": 2,
+    "tipo": "emparejamiento_avisos",
+    "nivel_mcer": "B1",
+    "banco_opciones": {
+      "A": "insurance office",
+      "B": "notary office",
+      "C": "printing shop",
+      "D": "moving company",
+      "E": "catering service",
+      "F": "computer repair shop",
+      "G": "accounting firm",
+      "H": "real estate agency"
+    },
+    "avisos": [
+      {
+        "num": 1,
+        "texto_aviso": "Please bring a valid ID to have any document officially certified.",
+        "respuesta_correcta": "B"
+      },
+      {
+        "num": 2,
+        "texto_aviso": "Free quotes are given based on the number of boxes and furniture size.",
+        "respuesta_correcta": "D"
+      },
+      {
+        "num": 3,
+        "texto_aviso": "Data recovery service is available even if the device won't turn on.",
+        "respuesta_correcta": "F"
+      },
+      {
+        "num": 4,
+        "texto_aviso": "Tax season appointments should be booked at least two weeks in advance.",
+        "respuesta_correcta": "G"
+      },
+      {
+        "num": 5,
+        "texto_aviso": "Same-day service is available for orders placed before noon; ask about bulk discounts for large documents.",
+        "respuesta_correcta": "C"
+      }
+    ]
+  }
+]

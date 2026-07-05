@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+  </style>
+</helmet>
+
+<div style="font-family:'Manrope',system-ui,sans-serif;background:{{ t.bg }};min-height:100vh;transition:background .25s ease;">
+
+  <!-- Top bar -->
+  <div style="max-width:720px;margin:0 auto;display:flex;align-items:center;gap:16px;padding:24px 24px 0;">
+    <button style="width:36px;height:36px;border-radius:10px;border:1px solid {{ t.border }};background:{{ t.surface }};display:flex;align-items:center;justify-content:center;cursor:pointer;padding:0;flex-shrink:0;" style-hover="border-color:{{ accent }};">
+      <svg width="16" height="16" viewBox="0 0 16 16"><line x1="10" y1="2" x2="4" y2="8" stroke="{{ t.textSub }}" stroke-width="1.6"></line><line x1="4" y1="8" x2="10" y2="14" stroke="{{ t.textSub }}" stroke-width="1.6"></line></svg>
+    </button>
+
+    <div style="min-width:0;">
+      <div style="font-size:15px;font-weight:800;color:{{ t.text }};letter-spacing:-0.01em;">Inglés</div>
+      <div style="font-size:12px;color:{{ t.textFaint }};margin-top:1px;">Repaso de tarjetas</div>
+    </div>
+
+    <div style="flex:1;min-width:60px;">
+      <div style="height:7px;border-radius:100px;background:{{ t.border }};overflow:hidden;">
+        <div style="height:100%;width:{{ progressPct }}%;background:{{ accent }};border-radius:100px;transition:width .4s ease;"></div>
+      </div>
+    </div>
+
+    <div style="font-size:13px;font-weight:700;color:{{ t.textSub }};white-space:nowrap;flex-shrink:0;">{{ remaining }} restantes</div>
+
+    <button onClick="{{ toggleDark }}" style="width:36px;height:36px;border-radius:10px;border:1px solid {{ t.border }};background:{{ t.surface }};display:flex;align-items:center;justify-content:center;cursor:pointer;padding:0;flex-shrink:0;" style-hover="border-color:{{ accent }};">
+      <sc-if value="{{ dark }}" hint-placeholder-val="{{ false }}">
+        <svg width="16" height="16" viewBox="0 0 18 18">
+          <circle cx="9" cy="9" r="4" fill="{{ t.textSub }}"></circle>
+          <line x1="9" y1="0.5" x2="9" y2="2.5" stroke="{{ t.textSub }}" stroke-width="1.4"></line>
+          <line x1="9" y1="15.5" x2="9" y2="17.5" stroke="{{ t.textSub }}" stroke-width="1.4"></line>
+          <line x1="0.5" y1="9" x2="2.5" y2="9" stroke="{{ t.textSub }}" stroke-width="1.4"></line>
+          <line x1="15.5" y1="9" x2="17.5" y2="9" stroke="{{ t.textSub }}" stroke-width="1.4"></line>
+          <line x1="2.8" y1="2.8" x2="4.2" y2="4.2" stroke="{{ t.textSub }}" stroke-width="1.4"></line>
+          <line x1="13.8" y1="13.8" x2="15.2" y2="15.2" stroke="{{ t.textSub }}" stroke-width="1.4"></line>
+          <line x1="13.8" y1="4.2" x2="15.2" y2="2.8" stroke="{{ t.textSub }}" stroke-width="1.4"></line>
+          <line x1="2.8" y1="15.2" x2="4.2" y2="13.8" stroke="{{ t.textSub }}" stroke-width="1.4"></line>
+        </svg>
+      </sc-if>
+      <sc-if value="{{ notDark }}" hint-placeholder-val="{{ true }}">
+        <svg width="16" height="16" viewBox="0 0 18 18">
+          <circle cx="9" cy="9" r="7" fill="{{ t.textSub }}"></circle>
+          <circle cx="13" cy="5.5" r="6" fill="{{ t.surface }}"></circle>
+        </svg>
+      </sc-if>
+    </button>
+  </div>
+
+  <!-- Card stage -->
+  <div style="max-width:600px;margin:0 auto;padding:40px 24px 0;">
+    <div onClick="{{ toggleFlip }}" style="perspective:1400px;width:100%;cursor:pointer;">
+      <div style="position:relative;width:100%;height:{{ cardHeight }}px;transform-style:preserve-3d;transition:transform .6s cubic-bezier(.4,.15,.2,1);transform:{{ flipTransform }};">
+
+        <!-- FRONT -->
+        <div style="position:absolute;inset:0;backface-visibility:hidden;background:{{ t.surface }};border:1px solid {{ t.border }};border-radius:22px;padding:36px;display:flex;flex-direction:column;box-shadow:{{ cardShadow }};pointer-events:{{ frontPointer }};">
+          <div style="display:flex;align-items:center;gap:8px;">
+            <div style="padding:5px 11px;border-radius:100px;background:{{ levelBg }};color:{{ accent }};font-size:12px;font-weight:800;letter-spacing:0.02em;">{{ card.level }}</div>
+            <div style="padding:5px 11px;border-radius:100px;background:{{ t.surfaceAlt }};color:{{ t.textSub }};font-size:12px;font-weight:700;">{{ card.type }}</div>
+          </div>
+
+          <div style="flex:1;display:flex;align-items:center;justify-content:center;padding:20px 0;">
+            <div style="font-size:23px;font-weight:700;color:{{ t.text }};text-align:center;line-height:1.55;letter-spacing:-0.005em;">
+              {{ card.before }}<span style="display:inline-block;min-width:74px;border-bottom:2.5px dashed {{ t.textFaint }};margin:0 4px;"></span>{{ card.after }}
+            </div>
+          </div>
+
+          <div style="display:flex;align-items:center;justify-content:center;gap:8px;color:{{ t.textFaint }};font-size:12.5px;font-weight:600;">
+            <svg width="14" height="14" viewBox="0 0 14 14"><path d="M2 7 A5 5 0 1 1 4 10.5" fill="none" stroke="{{ t.textFaint }}" stroke-width="1.4"></path><line x1="2" y1="7" x2="2" y2="3.5" stroke="{{ t.textFaint }}" stroke-width="1.4"></line><line x1="2" y1="7" x2="4.8" y2="7.4" stroke="{{ t.textFaint }}" stroke-width="1.4"></line></svg>
+            Toca para ver la explicación
+          </div>
+        </div>
+
+        <!-- BACK -->
+        <div style="position:absolute;inset:0;backface-visibility:hidden;transform:rotateY(180deg);background:{{ t.surface }};border:1px solid {{ t.border }};border-radius:22px;padding:30px 32px;display:flex;flex-direction:column;gap:14px;overflow-y:auto;box-shadow:{{ cardShadow }};pointer-events:{{ backPointer }};">
+
+          <div style="display:flex;align-items:center;gap:8px;">
+            <div style="padding:4px 10px;border-radius:100px;background:{{ levelBg }};color:{{ accent }};font-size:11.5px;font-weight:800;">{{ card.level }}</div>
+            <div style="font-size:13.5px;font-weight:700;color:{{ t.text }};">{{ card.before }}<span style="color:{{ accent }};">{{ card.answer }}</span>{{ card.after }}</div>
+          </div>
+
+          <div>
+            <div style="font-size:11px;font-weight:800;color:{{ t.textFaint }};text-transform:uppercase;letter-spacing:0.08em;margin-bottom:6px;">Regla</div>
+            <div style="font-size:14.5px;color:{{ t.textSub }};line-height:1.5;">{{ card.rule }}</div>
+          </div>
+
+          <div style="border-left:3px solid {{ accent }};background:{{ exampleBg }};border-radius:0 12px 12px 0;padding:12px 16px;">
+            <div style="font-size:11px;font-weight:800;color:{{ accent }};text-transform:uppercase;letter-spacing:0.08em;margin-bottom:4px;">Ejemplo</div>
+            <div style="font-size:14.5px;color:{{ t.text }};line-height:1.5;">{{ card.example }}</div>
+          </div>
+
+          <div style="background:{{ warnBg }};border:1px solid {{ warnBorder }};border-radius:12px;padding:12px 16px;display:flex;gap:10px;">
+            <svg width="18" height="18" viewBox="0 0 18 18" style="flex-shrink:0;margin-top:1px;">
+              <circle cx="9" cy="9" r="8" fill="{{ warnColor }}"></circle>
+              <rect x="8.1" y="4.5" width="1.8" height="5.5" rx="0.9" fill="white"></rect>
+              <circle cx="9" cy="12.7" r="1.1" fill="white"></circle>
+            </svg>
+            <div>
+              <div style="font-size:11px;font-weight:800;color:{{ warnColor }};text-transform:uppercase;letter-spacing:0.08em;margin-bottom:4px;">Error común</div>
+              <div style="font-size:14px;color:{{ t.text }};line-height:1.5;">{{ card.mistake }}</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Self-eval buttons -->
+    <div style="margin-top:22px;display:grid;grid-template-columns:repeat(4,1fr);gap:10px;opacity:{{ evalOpacity }};pointer-events:{{ evalPointer }};transform:{{ evalTransform }};transition:opacity .3s ease, transform .3s ease;">
+      <button onClick="{{ evalAgain }}" style="border:1px solid {{ againBorder }};background:{{ againBg }};color:{{ againColor }};border-radius:14px;padding:13px 6px;display:flex;flex-direction:column;align-items:center;gap:3px;cursor:pointer;font-family:inherit;" style-hover="filter:brightness(0.97);">
+        <span style="font-size:14px;font-weight:800;">Otra vez</span>
+        <span style="font-size:11px;font-weight:600;opacity:0.75;">&lt; 10 min</span>
+      </button>
+      <button onClick="{{ evalHard }}" style="border:1px solid {{ hardBorder }};background:{{ hardBg }};color:{{ hardColor }};border-radius:14px;padding:13px 6px;display:flex;flex-direction:column;align-items:center;gap:3px;cursor:pointer;font-family:inherit;" style-hover="filter:brightness(0.97);">
+        <span style="font-size:14px;font-weight:800;">Difícil</span>
+        <span style="font-size:11px;font-weight:600;opacity:0.75;">1 día</span>
+      </button>
+      <button onClick="{{ evalGood }}" style="border:1px solid {{ goodBorder }};background:{{ goodBg }};color:{{ goodColor }};border-radius:14px;padding:13px 6px;display:flex;flex-direction:column;align-items:center;gap:3px;cursor:pointer;font-family:inherit;" style-hover="filter:brightness(0.97);">
+        <span style="font-size:14px;font-weight:800;">Bien</span>
+        <span style="font-size:11px;font-weight:600;opacity:0.75;">3 días</span>
+      </button>
+      <button onClick="{{ evalEasy }}" style="border:1px solid {{ easyBorder }};background:{{ easyBg }};color:{{ easyColor }};border-radius:14px;padding:13px 6px;display:flex;flex-direction:column;align-items:center;gap:3px;cursor:pointer;font-family:inherit;" style-hover="filter:brightness(0.97);">
+        <span style="font-size:14px;font-weight:800;">Fácil</span>
+        <span style="font-size:11px;font-weight:600;opacity:0.75;">6 días</span>
+      </button>
+    </div>
+  </div>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{
+  &quot;$preview&quot;: {&quot;width&quot;: 720, &quot;height&quot;: 780},
+  &quot;accentColor&quot;: {&quot;editor&quot;: &quot;color&quot;, &quot;default&quot;: &quot;#2563EB&quot;, &quot;options&quot;: [&quot;#2563EB&quot;, &quot;#0F766E&quot;, &quot;#7C3AED&quot;, &quot;#EA580C&quot;], &quot;tsType&quot;: &quot;string&quot;},
+  &quot;sessionTotal&quot;: {&quot;editor&quot;: &quot;int&quot;, &quot;default&quot;: 20, &quot;min&quot;: 5, &quot;max&quot;: 50, &quot;tsType&quot;: &quot;number&quot;}
+}">
+class Component extends DCLogic {
+  state = { dark: false, flipped: false, index: 0 };
+
+  cards() {
+    return [
+      { level: 'A2', type: 'Gramática', before: 'She ', after: ' to the store every day.', answer: 'goes',
+        rule: 'Con sujetos en tercera persona singular (he/she/it) en presente simple, el verbo lleva -s o -es.',
+        example: '"She goes to school." · "He watches TV every night."',
+        mistake: 'Olvidar la -s en tercera persona: "She go" es incorrecto; debe ser "She goes".' },
+      { level: 'B1', type: 'Vocabulario', before: 'The opposite of "increase" is ', after: '.', answer: 'decrease',
+        rule: 'Los antónimos expresan un cambio en la dirección contraria de un concepto.',
+        example: '"Prices increase in summer but decrease in winter."',
+        mistake: 'Confundir "decrease" con "decrees" (decretos) — se escriben y significan cosas distintas.' },
+      { level: 'B1', type: 'Gramática', before: 'If it rains tomorrow, we ', after: ' at home.', answer: 'will stay',
+        rule: 'Primer condicional: If + presente simple, + will + verbo base, para hablar de una consecuencia futura probable.',
+        example: '"If it rains, we will stay home."',
+        mistake: 'Usar "will" también en la cláusula con "if": "If it will rain" es incorrecto.' },
+      { level: 'A2', type: 'Vocabulario', before: 'My brother works ', after: ' a hospital as a nurse.', answer: 'at',
+        rule: 'Se usa "at" para referirse al lugar específico donde alguien trabaja.',
+        example: '"She works at a hospital." · "He studies at a university."',
+        mistake: 'Usar "on" en vez de "at": "works on a hospital" es incorrecto.' },
+      { level: 'B2', type: 'Gramática', before: 'By next year, she ', after: ' her degree.', answer: 'will have finished',
+        rule: 'Futuro perfecto: will have + participio pasado, para acciones que estarán completas antes de un momento futuro.',
+        example: '"By 2027, she will have finished her degree."',
+        mistake: 'Olvidar "have": "she will finished" es incorrecto; debe ser "will have finished".' },
+    ];
+  }
+
+  scheduleNext() {
+    const total = this.props.sessionTotal || 20;
+    setTimeout(() => {
+      this.setState(s => ({ index: (s.index + 1) % total }));
+    }, 550);
+    this.setState({ flipped: false });
+  }
+
+  renderVals() {
+    const dark = this.state.dark;
+    const accent = this.props.accentColor || '#2563EB';
+    const total = this.props.sessionTotal || 20;
+    const cards = this.cards();
+    const card = cards[this.state.index % cards.length];
+
+    const t = dark ? {
+      bg: 'oklch(19% 0.012 258)',
+      surface: 'oklch(24% 0.014 258)',
+      surfaceAlt: 'oklch(27.5% 0.014 258)',
+      border: 'oklch(33% 0.015 258)',
+      text: 'oklch(96% 0.004 258)',
+      textSub: 'oklch(76% 0.01 258)',
+      textFaint: 'oklch(56% 0.012 258)',
+    } : {
+      bg: 'oklch(97.8% 0.004 250)',
+      surface: '#FFFFFF',
+      surfaceAlt: 'oklch(96% 0.006 250)',
+      border: 'oklch(91% 0.006 250)',
+      text: 'oklch(23% 0.012 258)',
+      textSub: 'oklch(46% 0.014 258)',
+      textFaint: 'oklch(62% 0.012 258)',
+    };
+
+    const warnColor = dark ? 'oklch(72% 0.14 65)' : 'oklch(62% 0.16 55)';
+    const semantic = (hue) => ({
+      color: dark ? `oklch(75% 0.13 ${hue})` : `oklch(48% 0.15 ${hue})`,
+      bg: `color-mix(in oklch, oklch(60% 0.16 ${hue}) ${dark ? 20 : 10}%, ${t.surface})`,
+      border: `color-mix(in oklch, oklch(60% 0.16 ${hue}) ${dark ? 45 : 30}%, ${t.border})`,
+    });
+    const rose = semantic(20);
+    const amber = semantic(65);
+    const green = semantic(150);
+
+    const flipped = this.state.flipped;
+    const remaining = total - this.state.index;
+    const progressPct = Math.round((this.state.index / total) * 100);
+
+    return {
+      dark, notDark: !dark,
+      t, accent, card,
+      toggleDark: () => this.setState(s => ({ dark: !s.dark })),
+      toggleFlip: () => this.setState(s => ({ flipped: !s.flipped })),
+      flipTransform: flipped ? 'rotateY(180deg)' : 'rotateY(0deg)',
+      cardHeight: 340,
+      frontPointer: flipped ? 'none' : 'auto',
+      backPointer: flipped ? 'auto' : 'none',
+      cardShadow: dark ? '0 12px 30px rgba(0,0,0,0.35)' : '0 12px 30px rgba(20,25,40,0.07)',
+      levelBg: `color-mix(in oklch, ${accent} ${dark ? 22 : 12}%, ${t.surface})`,
+      exampleBg: `color-mix(in oklch, ${accent} ${dark ? 12 : 6}%, ${t.surface})`,
+      warnColor,
+      warnBg: `color-mix(in oklch, ${warnColor} ${dark ? 16 : 9}%, ${t.surface})`,
+      warnBorder: `color-mix(in oklch, ${warnColor} 30%, ${t.border})`,
+      remaining, progressPct,
+      evalOpacity: flipped ? 1 : 0.35,
+      evalPointer: flipped ? 'auto' : 'none',
+      evalTransform: flipped ? 'translateY(0px)' : 'translateY(6px)',
+      evalAgain: () => this.scheduleNext(),
+      evalHard: () => this.scheduleNext(),
+      evalGood: () => this.scheduleNext(),
+      evalEasy: () => this.scheduleNext(),
+      againColor: rose.color, againBg: rose.bg, againBorder: rose.border,
+      hardColor: amber.color, hardBg: amber.bg, hardBorder: amber.border,
+      goodColor: accent, goodBg: `color-mix(in oklch, ${accent} ${dark ? 20 : 10}%, ${t.surface})`, goodBorder: `color-mix(in oklch, ${accent} 30%, ${t.border})`,
+      easyColor: green.color, easyBg: green.bg, easyBorder: green.border,
+    };
+  }
+}
+
+</script>
+</body>
+</html>

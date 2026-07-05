@@ -23,11 +23,19 @@ function agruparPorGrupo(preguntas) {
   return [...grupos.values()]
 }
 
+// Baraja preguntas manteniendo juntas las que comparten grupoId (mismo
+// texto/banco de opciones): se barajan los grupos completos, no cada
+// pregunta suelta, para no separar preguntas que "se basan en el mismo
+// texto". Usado tanto para armar el simulacro como la cola de práctica
+// por parte.
+export function barajarPorGrupo(preguntas) {
+  return barajar(agruparPorGrupo(preguntas)).flat()
+}
+
 // Selecciona `cantidad` preguntas de una parte barajando grupos completos
-// (todas las preguntas que comparten un mismo texto/banco de opciones
-// quedan juntas) y cortando al total exacto. Funciona igual para partes
-// con grupos de 1 pregunta (conversación) que con grupos de varias
-// (emparejamiento, cloze, comprensión).
+// y cortando al total exacto. Funciona igual para partes con grupos de 1
+// pregunta (conversación) que con grupos de varias (emparejamiento,
+// cloze, comprensión).
 function seleccionarPreguntasParte(preguntasParte, cantidad) {
   const gruposBarajados = barajar(agruparPorGrupo(preguntasParte))
   const seleccionadas = []

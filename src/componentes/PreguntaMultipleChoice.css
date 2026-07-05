@@ -1,31 +1,35 @@
 .pregunta-enunciado {
   color: var(--text);
-  font-size: 1.05rem;
-  margin-bottom: 1rem;
+  font-size: 18.5px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: -0.005em;
+  margin-bottom: 22px;
 }
 
 .pregunta-opciones {
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
+  gap: 10px;
 }
 
 .opcion {
   display: flex;
-  align-items: flex-start;
-  gap: 0.75rem;
+  align-items: center;
+  gap: 14px;
   text-align: left;
-  padding: 0.7rem 1rem;
+  padding: 15px 18px;
   background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 8px;
+  border: 1.5px solid var(--border);
+  border-radius: 14px;
   color: var(--text);
   cursor: pointer;
-  font-size: 0.95rem;
+  font-size: 14.5px;
+  line-height: 1.4;
+  transition: border-color var(--dur-hover) ease, background var(--dur-hover) ease;
 }
 
 .opcion:hover:not(:disabled) {
-  background: var(--surface-hover);
   border-color: var(--accent);
 }
 
@@ -35,37 +39,57 @@
 
 .opcion-letra {
   flex-shrink: 0;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 26px;
+  height: 26px;
   display: grid;
   place-items: center;
-  border-radius: 6px;
-  background: var(--surface-hover);
-  font-weight: 600;
-  font-size: 0.8rem;
+  border-radius: 50%;
+  background: var(--surface-alt);
+  color: var(--text-sub);
+  font-weight: 800;
+  font-size: 12.5px;
 }
 
 .opcion--seleccionada {
   border-color: var(--accent);
-  background: var(--surface-hover);
+  background: color-mix(in oklch, var(--accent) 8%, var(--surface));
+}
+
+:root[data-theme='dark'] .opcion--seleccionada {
+  background: color-mix(in oklch, var(--accent) 16%, var(--surface));
+}
+
+.opcion--seleccionada .opcion-letra {
+  background: var(--accent);
+  color: #fff;
 }
 
 .opcion--correcta {
-  border-color: var(--success);
-  background: rgba(52, 211, 153, 0.1);
+  border-color: color-mix(in oklch, oklch(60% 0.16 150) 30%, var(--border));
+  background: color-mix(in oklch, oklch(60% 0.16 150) 10%, var(--surface));
+}
+
+:root[data-theme='dark'] .opcion--correcta {
+  border-color: color-mix(in oklch, oklch(60% 0.16 150) 45%, var(--border));
+  background: color-mix(in oklch, oklch(60% 0.16 150) 20%, var(--surface));
 }
 
 .opcion--correcta .opcion-letra {
-  background: var(--success);
-  color: var(--accent-text);
+  background: oklch(48% 0.15 150);
+  color: #fff;
 }
 
 .opcion--incorrecta {
-  border-color: var(--error);
-  background: rgba(248, 113, 113, 0.1);
+  border-color: color-mix(in oklch, oklch(60% 0.16 20) 30%, var(--border));
+  background: color-mix(in oklch, oklch(60% 0.16 20) 10%, var(--surface));
+}
+
+:root[data-theme='dark'] .opcion--incorrecta {
+  border-color: color-mix(in oklch, oklch(60% 0.16 20) 45%, var(--border));
+  background: color-mix(in oklch, oklch(60% 0.16 20) 20%, var(--surface));
 }
 
 .opcion--incorrecta .opcion-letra {
-  background: var(--error);
-  color: var(--accent-text);
+  background: oklch(48% 0.15 20);
+  color: #fff;
 }

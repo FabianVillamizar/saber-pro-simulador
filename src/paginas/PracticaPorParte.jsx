@@ -1,9 +1,14 @@
 import { useState } from 'react'
 import { useModulo } from '../hooks/useModulo.js'
+import { useTheme } from '../hooks/useTheme.js'
 import { crearCola, reencolarTrasFallo, retirarTrasAcierto } from '../engine/colaRefuerzo.js'
+import { barajarPorGrupo } from '../engine/simulacro.js'
 import { registrarPracticaParte } from '../engine/progreso.js'
+import { reproducirSonido } from '../engine/sonido.js'
 import { PreguntaMultipleChoice } from '../componentes/PreguntaMultipleChoice.jsx'
 import { PanelExplicacion } from '../componentes/PanelExplicacion.jsx'
+import { ThemeToggle } from '../componentes/ThemeToggle.jsx'
+import { SelectorPerfil } from '../componentes/SelectorPerfil.jsx'
 import './PracticaPorParte.css'
 
 function etiquetaParte(preguntasDeParte) {
@@ -11,10 +16,18 @@ function etiquetaParte(preguntasDeParte) {
   return tipos.map((t) => t.replaceAll('_', ' ')).join(' / ')
 }
 
-export function PracticaPorParte({ moduloId, onVolver }) {
+function contarPorGrupo(preguntas) {
+  const conteo = {}
+  for (const p of preguntas) conteo[p.grupoId] = (conteo[p.grupoId] ?? 0) + 1
+  return conteo
+}
+
+export function PracticaPorParte({ moduloId, perfil, onCambiarPerfil, onVolver }) {
   const { modulo, cargando, error } = useModulo(moduloId)
+  const { dark, toggle } = useTheme()
   const [parteSeleccionada, setParteSeleccionada] = useState(null)
   const [cola, setCola] = useState(null)
+  const [gruposConteo, setGruposConteo] = useState({})
   const [seleccion, setSeleccion] = useState(null)
   const [respondida, setRespondida] = useState(false)
   const [totalInicial, setTotalInicial] = useState(0)
@@ -24,9 +37,12 @@ export function PracticaPorParte({ moduloId, onVolver }) {
   if (error) return <div className="page estado-error">No se pudo cargar el módulo: {error.message}</div>
 
   function elegirParte(parte, preguntasParte) {
-    const colaInicial = crearCola(preguntasParte)
+    // Se baraja por grupo (no pregunta por pregunta) para que las
+    // preguntas que comparten texto/pasaje queden adyacentes.
+    const colaInicial = crearCola(barajarPorGrupo(preguntasParte), { yaOrdenado: true })
     setParteSeleccionada(parte)
     setCola(colaInicial)
+    setGruposConteo(contarPorGrupo(preguntasParte))
     setTotalInicial(colaInicial.length)
     setAciertosPrimerIntento(0)
     setSeleccion(null)
@@ -39,7 +55,8 @@ export function PracticaPorParte({ moduloId, onVolver }) {
     if (letra === entrada.valor.respuestaCorrecta && entrada.fallos === 0) {
       setAciertosPrimerIntento((n) => n + 1)
     }
-    registrarPracticaParte()
+    const { rachaAlcanzadaHoy } = registrarPracticaParte(perfil.id)
+    if (rachaAlcanzadaHoy) reproducirSonido(perfil.id, 'racha')
     setSeleccion(letra)
     setRespondida(true)
   }
@@ -66,6 +83,9 @@ export function PracticaPorParte({ moduloId, onVolver }) {
           <button type="button" className="boton-volver" onClick={onVolver}>
             ← {modulo.nombre}
           </button>
+          <div style={{ flex: 1 }} />
+          <SelectorPerfil perfil={perfil} onClick={onCambiarPerfil} />
+          <ThemeToggle dark={dark} onToggle={toggle} />
         </div>
         <h1>Práctica por parte</h1>
         <p className="practica-subtitulo">Elige una parte para practicar sus ítems en orden aleatorio.</p>
@@ -95,6 +115,9 @@ export function PracticaPorParte({ moduloId, onVolver }) {
           <button type="button" className="boton-volver" onClick={() => setParteSeleccionada(null)}>
             ← Elegir otra parte
           </button>
+          <div style={{ flex: 1 }} />
+          <SelectorPerfil perfil={perfil} onClick={onCambiarPerfil} />
+          <ThemeToggle dark={dark} onToggle={toggle} />
         </div>
         <div className="practica-fin">
           <h2>Completaste la Parte {parteSeleccionada}</h2>
@@ -121,7 +144,16 @@ export function PracticaPorParte({ moduloId, onVolver }) {
         <span className="practica-progreso">
           {dominadas}/{totalInicial} dominadas · {cola.length} en cola
         </span>
+        <div style={{ flex: 1 }} />
+        <SelectorPerfil perfil={perfil} onClick={onCambiarPerfil} />
+        <ThemeToggle dark={dark} onToggle={toggle} />
       </div>
+
+      {gruposConteo[pregunta.grupoId] > 1 && (
+        <p className="practica-grupo-nota">
+          Estas preguntas se basan en el mismo texto · {pregunta.numEnGrupo} de {gruposConteo[pregunta.grupoId]}
+        </p>
+      )}
 
       <PreguntaMultipleChoice
         pregunta={pregunta}

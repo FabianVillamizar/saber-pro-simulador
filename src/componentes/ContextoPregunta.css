@@ -1,40 +1,70 @@
 .contexto {
-  margin-bottom: 1.25rem;
-  padding: 1rem 1.25rem;
-  background: var(--surface-hover);
+  margin-bottom: 22px;
+}
+
+.contexto--pasaje,
+.contexto--banco {
+  background: var(--surface-alt);
   border: 1px solid var(--border);
-  border-radius: 10px;
+  border-radius: var(--radio-md);
+  padding: 20px 22px;
 }
 
 .contexto-tema {
-  font-size: 0.85rem;
+  font-size: 12.5px;
+  color: var(--text-sub);
   text-transform: uppercase;
   letter-spacing: 0.04em;
 }
 
 .contexto-titulo {
-  font-size: 1rem;
-  margin-bottom: 0.75rem;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 10px;
 }
 
 .contexto-texto {
   white-space: pre-wrap;
-  color: var(--text);
-  font-size: 0.95rem;
-  line-height: 1.6;
+  color: var(--text-sub);
+  font-size: 14.5px;
+  line-height: 1.65;
   max-height: 320px;
   overflow-y: auto;
 }
 
+.contexto--imagen {
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radio-md);
+  padding: 16px;
+  text-align: center;
+}
+
+.contexto--imagen img {
+  max-width: 100%;
+  height: auto;
+}
+
+.contexto--formula {
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radio-md);
+  padding: 20px 22px;
+  font-size: 17px;
+  color: var(--text);
+  overflow-x: auto;
+}
+
 .marcador {
   background: none;
-  color: var(--text-muted);
-  font-weight: 600;
+  color: var(--text-sub);
+  font-weight: 700;
 }
 
 .marcador--actual {
   background: var(--accent);
-  color: var(--accent-text);
-  padding: 0 0.2rem;
+  color: #fff;
+  padding: 0 4px;
   border-radius: 4px;
 }

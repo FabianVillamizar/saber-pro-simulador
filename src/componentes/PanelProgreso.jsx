@@ -1,19 +1,14 @@
 import { useRef, useState } from 'react'
-import { leerProgreso, calcularRacha } from '../engine/progreso.js'
-import { formatoFecha } from '../engine/fecha.js'
 import { exportarProgreso, importarProgreso } from '../engine/exportarImportar.js'
-import { Heatmap } from './Heatmap.jsx'
+import { formatoFecha } from '../engine/fecha.js'
 import './PanelProgreso.css'
 
+// Backup/restauración de progreso local: no está en el mockup del
+// Dashboard, pero es funcionalidad real (localStorage no sincroniza entre
+// dispositivos) que vale la pena conservar — discreta, al pie de la página.
 export function PanelProgreso() {
-  const [progreso, setProgreso] = useState(() => leerProgreso())
   const [mensaje, setMensaje] = useState(null)
   const inputRef = useRef(null)
-
-  const racha = calcularRacha(progreso)
-  const diaDeHoy = progreso[formatoFecha(new Date())]
-  const repasoHecho = (diaDeHoy?.repaso ?? 0) > 0
-  const practicaHecha = (diaDeHoy?.practicaParte ?? 0) > 0
 
   function exportar() {
     const datos = exportarProgreso()
@@ -35,48 +30,31 @@ export function PanelProgreso() {
     lector.onload = () => {
       try {
         importarProgreso(JSON.parse(lector.result))
-        setProgreso(leerProgreso())
-        setMensaje({ tipo: 'ok', texto: 'Progreso importado correctamente.' })
+        window.location.reload()
       } catch (e) {
-        setMensaje({ tipo: 'error', texto: `No se pudo importar: ${e.message}` })
+        setMensaje(`No se pudo importar: ${e.message}`)
       }
     }
     lector.readAsText(archivo)
   }
 
   return (
-    <section className="panel-progreso">
-      <div className="panel-progreso-cabecera">
-        <div>
-          <p className="racha">
-            🔥 {racha} {racha === 1 ? 'día' : 'días'} de racha
-          </p>
-          <p className="racha-hoy">
-            Hoy: {repasoHecho ? '✓' : '—'} repaso de conceptos · {practicaHecha ? '✓' : '—'} práctica por parte
-          </p>
-        </div>
-        <div className="panel-progreso-acciones">
-          <button type="button" className="boton-secundario" onClick={exportar}>
-            Exportar progreso
-          </button>
-          <button type="button" className="boton-secundario" onClick={() => inputRef.current.click()}>
-            Importar progreso
-          </button>
-          <input
-            ref={inputRef}
-            type="file"
-            accept="application/json"
-            className="panel-progreso-input-oculto"
-            onChange={manejarArchivoSeleccionado}
-          />
-        </div>
-      </div>
-
-      {mensaje && (
-        <p className={`panel-progreso-mensaje panel-progreso-mensaje--${mensaje.tipo}`}>{mensaje.texto}</p>
-      )}
-
-      <Heatmap progreso={progreso} />
-    </section>
+    <div className="panel-progreso">
+      <button type="button" className="panel-progreso-link" onClick={exportar}>
+        Exportar progreso
+      </button>
+      <span className="panel-progreso-separador">·</span>
+      <button type="button" className="panel-progreso-link" onClick={() => inputRef.current.click()}>
+        Importar progreso
+      </button>
+      <input
+        ref={inputRef}
+        type="file"
+        accept="application/json"
+        className="panel-progreso-input-oculto"
+        onChange={manejarArchivoSeleccionado}
+      />
+      {mensaje && <p className="panel-progreso-mensaje">{mensaje}</p>}
+    </div>
   )
 }

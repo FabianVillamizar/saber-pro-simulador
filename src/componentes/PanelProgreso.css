@@ -1,39 +1,29 @@
 .panel-progreso {
-  padding: 1.25rem 1.5rem;
-  margin-bottom: 2.5rem;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 12px;
+  margin-top: 32px;
+  text-align: center;
+  font-size: 12.5px;
+  color: var(--text-faint);
 }
 
-.panel-progreso-cabecera {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-bottom: 1rem;
+.panel-progreso-link {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  font-size: 12.5px;
+  color: var(--text-faint);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
-.racha {
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: var(--text);
+.panel-progreso-link:hover {
+  color: var(--accent);
 }
 
-.racha-hoy {
-  margin-top: 0.2rem;
-  font-size: 0.85rem;
-}
-
-.panel-progreso-acciones {
-  display: flex;
-  gap: 0.6rem;
-}
-
-.panel-progreso-acciones .boton-secundario {
-  padding: 0.4rem 0.8rem;
-  font-size: 0.8rem;
+.panel-progreso-separador {
+  margin: 0 8px;
+  color: var(--border);
 }
 
 .panel-progreso-input-oculto {
@@ -41,14 +31,6 @@
 }
 
 .panel-progreso-mensaje {
-  font-size: 0.85rem;
-  margin-bottom: 0.75rem;
-}
-
-.panel-progreso-mensaje--ok {
-  color: var(--success);
-}
-
-.panel-progreso-mensaje--error {
-  color: var(--error);
+  margin-top: 8px;
+  color: var(--warning);
 }

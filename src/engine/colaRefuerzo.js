@@ -11,8 +11,11 @@ function barajar(items) {
   return copia
 }
 
-export function crearCola(items) {
-  return barajar(items).map((valor) => ({ valor, fallos: 0 }))
+// `yaOrdenado` lo usan las partes con preguntas agrupadas (mismo texto):
+// el llamador ya barajó por grupo con barajarPorGrupo() y no quiere que
+// crearCola vuelva a barajar suelto y separe preguntas del mismo grupo.
+export function crearCola(items, { yaOrdenado = false } = {}) {
+  return (yaOrdenado ? items : barajar(items)).map((valor) => ({ valor, fallos: 0 }))
 }
 
 // Reinserta la entrada más adelante en la cola (no al final): entre más

@@ -16,7 +16,7 @@ function resumenDia(dia) {
   return `${dia.repaso ?? 0} repaso · ${dia.practicaParte ?? 0} práctica · ${dia.simulacro ?? 0} simulacro`
 }
 
-export function Heatmap({ progreso, semanas = 20 }) {
+export function Heatmap({ progreso, semanas = 18 }) {
   const hoy = new Date()
   const finSemana = sumarDias(hoy, 6 - hoy.getDay())
   const inicio = sumarDias(finSemana, -(semanas * 7 - 1))
@@ -33,25 +33,34 @@ export function Heatmap({ progreso, semanas = 20 }) {
   }
 
   return (
-    <div className="heatmap">
-      {columnas.map((dias, i) => (
-        <div key={i} className="heatmap-columna">
-          {dias.map((fecha) => {
-            const clave = formatoFecha(fecha)
-            if (fecha > hoy) {
-              return <div key={clave} className="heatmap-celda heatmap-celda--futuro" />
-            }
-            const nivel = nivelActividad(progreso[clave])
-            return (
-              <div
-                key={clave}
-                className={`heatmap-celda heatmap-celda--nivel${nivel}`}
-                title={`${clave}: ${resumenDia(progreso[clave])}`}
-              />
-            )
-          })}
-        </div>
-      ))}
+    <div>
+      <div className="heatmap">
+        {columnas.map((dias, i) => (
+          <div key={i} className="heatmap-columna">
+            {dias.map((fecha) => {
+              const clave = formatoFecha(fecha)
+              if (fecha > hoy) {
+                return <div key={clave} className="heatmap-celda heatmap-celda--futuro" />
+              }
+              const nivel = nivelActividad(progreso[clave])
+              return (
+                <div
+                  key={clave}
+                  className={`heatmap-celda heatmap-celda--nivel${nivel}`}
+                  title={`${clave}: ${resumenDia(progreso[clave])}`}
+                />
+              )
+            })}
+          </div>
+        ))}
+      </div>
+      <div className="heatmap-leyenda">
+        <span className="heatmap-leyenda-texto">Menos</span>
+        {[0, 1, 2, 3, 4].map((nivel) => (
+          <div key={nivel} className={`heatmap-leyenda-celda heatmap-celda--nivel${nivel}`} />
+        ))}
+        <span className="heatmap-leyenda-texto">Más</span>
+      </div>
     </div>
   )
 }

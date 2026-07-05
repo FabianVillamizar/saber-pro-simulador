@@ -1,0 +1,1328 @@
+[
+  {
+    "id": "ING-P7-TEXTO-001",
+    "modulo": "ingles",
+    "parte": 7,
+    "tipo": "cloze_lexico",
+    "nivel_mcer": "B1",
+    "titulo": "Online Shopping Habits",
+    "texto_con_huecos": "Online shopping has completely changed the way people [1] their purchases. Instead of visiting several stores, most people can now compare prices and read reviews [2] the click of a button. One of the biggest advantages is convenience: packages can be delivered directly to your door, often [3] a day or two. However, this convenience comes with some downsides. Many shoppers admit to making [4] purchases they later regret, especially during big sales events. Retailers know this well, which is why they [5] limited-time offers to create a sense of urgency. Returns have also become a common headache; some companies make the process so complicated that customers give up and simply [6] the item, even if they don't want it. [7] all these challenges, online shopping isn't going away anytime soon — if anything, it continues to grow at a [8] rate. Experts suggest that the next big shift will come from technology that lets customers [9] products virtually before buying, reducing the number of returns. For now, though, most shoppers are simply happy to [10] the convenience, even with its occasional frustrations.",
+    "huecos": [
+      {
+        "num": 1,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "make",
+          "B": "do",
+          "C": "take"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Make a purchase' es la colocación fija correcta para hablar de comprar algo; 'make' se combina con 'purchase', no 'do' ni 'take'.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Do' no se combina con 'purchases' en esta colocación fija; 'do' se usa con actividades generales (do homework), no con compras.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Take' no forma la colocación correcta con 'purchases'; se usa en otras expresiones (take a photo), pero no aquí.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "categoria": "estructura_fija",
+        "opciones": {
+          "A": "with",
+          "B": "at",
+          "C": "on"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'At the click of a button' es una expresión fija que significa hacer algo muy fácil y rápidamente con la tecnología; siempre usa la preposición 'at'.",
+        "distractores": {
+          "A": {
+            "explicacion": "'With the click' no es la expresión fija correcta; la colocación establecida siempre usa 'at'.",
+            "patron_trampa": "preposicion_incorrecta"
+          },
+          "C": {
+            "explicacion": "'On the click' no es una expresión reconocida en inglés; la fija correcta usa 'at'.",
+            "patron_trampa": "preposicion_incorrecta"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "categoria": "estructura_fija",
+        "opciones": {
+          "A": "inside",
+          "B": "between",
+          "C": "within"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Within a day or two' es la expresión fija correcta para indicar un plazo de tiempo máximo; 'within' se usa para plazos.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Inside' se usa para espacios físicos, no para expresar un plazo de tiempo.",
+            "patron_trampa": "preposicion_incorrecta"
+          },
+          "B": {
+            "explicacion": "'Between' requeriría dos puntos específicos conectados por 'and' (between one and two days), no esta estructura simple.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "impulse",
+          "B": "sudden",
+          "C": "quick"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Impulse purchase' es la colocación fija en inglés para referirse a una compra hecha sin pensar, de forma impulsiva.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Sudden' no forma la colocación fija correcta con 'purchases'; la expresión establecida usa 'impulse'.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Quick purchases' no es la expresión fija reconocida; 'impulse purchases' es el término específico para compras impulsivas.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "make",
+          "B": "run",
+          "C": "do"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Run an offer/promotion' es la colocación fija correcta para hablar de ofrecer una promoción comercial.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Make offers' no es tan natural en este contexto comercial específico; la colocación establecida usa 'run'.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Do offers' no es una colocación reconocida en inglés; para promociones comerciales se usa 'run'.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 6,
+        "categoria": "vocabulario",
+        "opciones": {
+          "A": "hold",
+          "B": "carry",
+          "C": "keep"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Keep' significa quedarse con algo; en este contexto, el cliente decide conservar el artículo en vez de devolverlo.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Hold' significa sostener algo físicamente por un momento, no quedarse con la propiedad de un artículo permanentemente.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "'Carry' significa transportar algo, no quedarse con su propiedad; no es el significado correcto en este contexto.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 7,
+        "categoria": "estructura_fija",
+        "opciones": {
+          "A": "Despite",
+          "B": "Besides",
+          "C": "Regarding"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Despite + sustantivo' es la estructura fija correcta para introducir un contraste seguido de un sustantivo ('all these challenges').",
+        "distractores": {
+          "B": {
+            "explicacion": "'Besides' significa 'además de', lo cual no expresa el mismo contraste que 'despite'; confundir estas dos preposiciones es un error común.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Regarding' significa 'con respecto a' y se usa para introducir un tema, no para expresar un contraste como el que se necesita aquí.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 8,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "heavy",
+          "B": "steady",
+          "C": "strong"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'A steady rate' es la colocación fija correcta para describir un crecimiento constante y sostenido.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Heavy' no se combina con 'rate' en inglés natural; se usa con otros sustantivos como 'heavy rain' o 'heavy traffic'.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Strong' no es la colocación fija con 'rate' en este contexto; 'steady rate' es la expresión establecida.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 9,
+        "categoria": "vocabulario",
+        "opciones": {
+          "A": "prove",
+          "B": "taste",
+          "C": "try"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Try' significa probar algo para ver si te gusta o te queda bien, que es el sentido correcto aquí (probar productos virtualmente antes de comprar).",
+        "distractores": {
+          "A": {
+            "explicacion": "'Prove' es un falso amigo de 'probar'; en inglés significa 'demostrar' o 'comprobar', no 'probar' en el sentido de experimentar con algo.",
+            "patron_trampa": "falso_amigo"
+          },
+          "B": {
+            "explicacion": "'Taste' se refiere específicamente a probar el sabor de algo (comida o bebida), no a probar productos en general de forma virtual.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 10,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "enjoy",
+          "B": "use",
+          "C": "take"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Enjoy the convenience' es la colocación natural para expresar que alguien disfruta o aprovecha positivamente una comodidad.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Use' es gramaticalmente posible pero no captura el matiz de disfrute que 'enjoy' transmite en este contexto positivo.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Take the convenience' no es una colocación natural en inglés; no se usa 'take' con 'convenience' de esta manera.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P7-TEXTO-002",
+    "modulo": "ingles",
+    "parte": 7,
+    "tipo": "cloze_lexico",
+    "nivel_mcer": "B1",
+    "titulo": "The Science of a Good Night's Sleep",
+    "texto_con_huecos": "Getting enough sleep is one of the most important things you can do to [1] your overall health. Yet many people [2] sleep in favor of work, socializing, or scrolling through their phones late at night. Experts recommend that adults [3] between seven and nine hours of sleep per night for optimal functioning. Without enough rest, it becomes much harder to [4] attention during the day, and even simple tasks can start to feel exhausting. One of the most common mistakes people make is using bright screens right before bed, since the light can [5] the body's natural signal to feel sleepy. Establishing a consistent bedtime routine can make a [6] difference, helping the body recognize when it's time to wind down. Caffeine is another factor worth considering — consuming it too late in the day can [7] falling asleep much harder than most people realize. Regular exercise, on the other hand, tends to [8] better sleep quality, as long as it isn't done too close to bedtime. [9] popular belief, sleeping in on weekends to \"catch up\" on lost sleep doesn't fully undo the effects of a week of poor rest. Ultimately, treating sleep as a priority rather than an afterthought can [10] a noticeable difference in both mood and productivity.",
+    "huecos": [
+      {
+        "num": 1,
+        "categoria": "vocabulario",
+        "opciones": {
+          "A": "increase",
+          "B": "improve",
+          "C": "grow"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Improve' significa mejorar la calidad de algo, que es el sentido correcto para hablar de mejorar la salud en general.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Increase' se refiere a aumentar una cantidad medible; 'improve' es la palabra correcta para mejorar la calidad general de la salud.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Grow' se usa para el crecimiento físico o de negocios, no para mejorar la salud en este sentido general.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "lose",
+          "B": "spend",
+          "C": "sacrifice"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Sacrifice sleep' es la colocación fija correcta para describir renunciar voluntariamente a dormir por otras prioridades.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Lose sleep' se usa más para expresar preocupación por algo ('losing sleep over something'), no la decisión deliberada de renunciar a dormir.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "'Spend sleep' no es una colocación natural en inglés; no se usa 'spend' con 'sleep' de esta manera.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "get",
+          "B": "make",
+          "C": "have"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Get sleep' (o 'get hours of sleep') es la colocación más natural y común en inglés para hablar de la cantidad de sueño recomendada.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Make sleep' no es una colocación reconocida en inglés; 'make' no se combina con 'sleep' de esta manera.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "Aunque 'have' es gramaticalmente posible, la colocación más natural y frecuente en este contexto específico es 'get', no 'have'.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "give",
+          "B": "pay",
+          "C": "put"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Pay attention' es la colocación fija correcta en inglés para describir el acto de concentrarse en algo.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Give attention' no es la colocación fija estándar; la expresión establecida siempre usa 'pay'.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Put attention' no es una colocación natural en inglés; la expresión fija correcta es 'pay attention'.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "categoria": "vocabulario",
+        "opciones": {
+          "A": "destroy",
+          "B": "damage",
+          "C": "disrupt"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Disrupt' significa interrumpir o alterar un proceso natural, el sentido correcto para describir cómo la luz afecta la señal de sueño.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Destroy' implica una destrucción permanente y total, un grado mucho más fuerte del que la luz realmente causa.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "'Damage' sugiere un daño físico duradero, mientras que 'disrupt' describe mejor una interrupción temporal.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 6,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "significant",
+          "B": "heavy",
+          "C": "strong"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'A significant difference' es la colocación fija correcta para describir un cambio notable e importante.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Heavy' no se combina con 'difference' en inglés natural; se usa con otros sustantivos como 'heavy rain'.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Strong' no es la colocación establecida con 'difference'; la expresión fija correcta usa 'significant' o 'big'.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 7,
+        "categoria": "estructura_fija",
+        "opciones": {
+          "A": "do",
+          "B": "make",
+          "C": "create"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Make + gerundio/sustantivo + adjetivo' es la estructura causativa fija para expresar que algo provoca un cambio de estado.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Do' no se usa en esta estructura causativa; no se dice 'do something harder' para expresar que algo causa una dificultad.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Create' no se combina naturalmente con un adjetivo de esta manera; no es una estructura válida en inglés.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 8,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "make",
+          "B": "grow",
+          "C": "promote"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Promote' significa fomentar o favorecer algo positivo, la colocación natural para el efecto del ejercicio sobre el sueño.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Make better sleep quality' no es una colocación natural; 'promote' o 'improve' son las opciones correctas.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "'Grow' no se combina con 'sleep quality' de esta manera; se usa para el crecimiento físico o de negocios.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 9,
+        "categoria": "estructura_fija",
+        "opciones": {
+          "A": "Contrary to",
+          "B": "Opposite to",
+          "C": "Against to"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Contrary to popular belief' es una expresión fija muy común para introducir una idea que contradice lo que la mayoría piensa.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Opposite to' no es la expresión fija correcta; en inglés estándar se dice 'opposite of' o se usa 'contrary to'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Against to' no es una expresión válida en inglés; 'against' nunca se combina con 'to' de esta manera.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 10,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "do",
+          "B": "make",
+          "C": "have"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Make a difference' es la expresión fija correcta en inglés para decir que algo tiene un impacto positivo notable.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Do a difference' no es una expresión reconocida en inglés; la expresión fija correcta siempre usa 'make'.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Have a difference' no es la expresión fija estándar; se dice 'make a difference', no 'have a difference'.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P7-TEXTO-003",
+    "modulo": "ingles",
+    "parte": 7,
+    "tipo": "cloze_lexico",
+    "nivel_mcer": "B2",
+    "titulo": "Team Meetings: How to Make Them Useful",
+    "texto_con_huecos": "Few things drain workplace energy faster than a meeting that could have [1] been an email. Still, meetings remain a necessary part of most jobs, so learning to run them well is a skill worth developing. The first step is to [2] a clear purpose before sending the invitation; if you can't explain in one sentence why the meeting needs to happen, it probably doesn't. Once the meeting begins, someone should [3] responsibility for keeping the discussion on track, gently steering the conversation back whenever it starts to wander. It also helps to [4] a strict time limit and stick to it, since meetings tend to expand to fill whatever time is available. Encouraging quieter participants to [5] their opinions can prevent a handful of voices from dominating the entire conversation. Visual aids, when used sparingly, can also [6] complex information easier to understand than a long verbal explanation alone. At the end, it's worth taking a few minutes to [7] the key decisions and assign clear next steps, since vague conclusions tend to [8] confusion later on. Some companies have started experimenting with shorter, more frequent check-ins instead of long weekly meetings, [9] to reduce fatigue while keeping everyone informed. Whatever format a team chooses, the underlying goal should always be the same: to [10] time rather than waste it.",
+    "huecos": [
+      {
+        "num": 1,
+        "categoria": "vocabulario",
+        "opciones": {
+          "A": "hardly",
+          "B": "rarely",
+          "C": "easily"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Easily' expresa que algo se podría haber hecho sin dificultad, el sentido irónico correcto aquí (fácilmente podría haber sido un correo).",
+        "distractores": {
+          "A": {
+            "explicacion": "'Hardly' significa 'apenas' o 'casi no', lo cual invertiría el sentido de la oración.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "'Rarely' significa 'raramente', un significado de frecuencia que no encaja en esta oración sobre una posibilidad hipotética.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "establish",
+          "B": "make",
+          "C": "build"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Establish a purpose' es la colocación natural para describir el acto de definir claramente el objetivo de algo.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Make a purpose' no es una colocación natural en inglés; 'establish' o 'define' son las opciones correctas.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Build a purpose' no es la colocación establecida; 'build' se usa más para relaciones o estructuras.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "make",
+          "B": "take",
+          "C": "do"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Take responsibility' es la colocación fija correcta en inglés para asumir el cargo de algo.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Make responsibility' no es una colocación reconocida en inglés.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Do responsibility' no es una expresión válida; la colocación fija correcta siempre usa 'take'.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "make",
+          "B": "put",
+          "C": "set"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Set a time limit' es la colocación fija correcta para establecer un límite de tiempo.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Make a time limit' no es la colocación natural; 'set' es la palabra correcta para este contexto.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "'Put a time limit' no es tan natural como 'set a time limit', que es la colocación establecida.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "categoria": "vocabulario",
+        "opciones": {
+          "A": "share",
+          "B": "say",
+          "C": "tell"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Share an opinion' es la expresión correcta para comunicar un punto de vista con otros.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Say their opinions' no suena natural en inglés; se dice 'share', 'express', o 'voice' una opinión.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Tell' necesita un objeto indirecto (tell someone something) y no se combina naturalmente con 'opinions' de esta manera.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 6,
+        "categoria": "estructura_fija",
+        "opciones": {
+          "A": "do",
+          "B": "make",
+          "C": "create"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Make + sustantivo + adjetivo' es la estructura causativa fija para expresar que algo provoca un cambio de estado.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Do' no se usa en esta estructura causativa con un adjetivo de resultado.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Create' no se combina con un adjetivo de esta manera; necesita un objeto directo simple, no esta estructura causativa.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 7,
+        "categoria": "vocabulario",
+        "opciones": {
+          "A": "resume",
+          "B": "conclude",
+          "C": "summarize"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Summarize' significa resumir de forma breve los puntos principales, el sentido correcto para repasar las decisiones clave.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Resume' es un falso amigo de 'resumir'; en inglés significa 'continuar' o 'reanudar', no 'hacer un resumen'.",
+            "patron_trampa": "falso_amigo"
+          },
+          "B": {
+            "explicacion": "'Conclude' significa llegar a una conclusión final, pero no captura el acto de resumir varios puntos ya decididos.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 8,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "cause",
+          "B": "make",
+          "C": "do"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Cause confusion' es la colocación fija correcta para describir que algo provoca confusión.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Make confusion' no es la colocación natural; se dice 'cause confusion' o 'create confusion', no 'make'.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Do confusion' no es una expresión válida en inglés.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 9,
+        "categoria": "estructura_fija",
+        "opciones": {
+          "A": "pretending",
+          "B": "aiming",
+          "C": "expecting"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Aim to do something' es la expresión fija correcta para describir la intención u objetivo detrás de una acción.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Pretending' significa fingir, un significado completamente distinto de tener una intención genuina.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Expecting to reduce fatigue' sugiere una expectativa pasiva, no la intención activa que 'aiming' comunica.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 10,
+        "categoria": "vocabulario",
+        "opciones": {
+          "A": "keep",
+          "B": "hold",
+          "C": "save"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Save time' es la expresión correcta para hablar de usar el tiempo de manera eficiente, en contraste con 'waste it'.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Keep time' tiene un significado distinto en inglés (llevar el ritmo musical); no expresa usar el tiempo eficientemente.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "'Hold time' no es una expresión natural en inglés para este contexto; 'save time' es la expresión correcta.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P7-TEXTO-004",
+    "modulo": "ingles",
+    "parte": 7,
+    "tipo": "cloze_lexico",
+    "nivel_mcer": "B2",
+    "titulo": "Protecting Coral Reefs",
+    "texto_con_huecos": "Coral reefs are often described as the rainforests of the sea, and for good reason: despite covering less than one percent of the ocean floor, they [1] home to nearly a quarter of all marine species. Unfortunately, rising ocean temperatures have begun to [2] serious damage to reef ecosystems around the world. When water becomes too warm, coral can [3] a process known as bleaching, losing the colorful algae that normally live inside it and provide it with food. A bleached reef isn't necessarily dead, but it becomes far more vulnerable and can [4] within weeks if conditions don't improve. Scientists have been racing to [5] solutions, from breeding more heat-resistant coral varieties to creating underwater nurseries where young coral can grow before being transplanted onto damaged reefs. Local communities also [6] a crucial role in reef conservation, since overfishing and pollution can weaken a reef's ability to [7] from other stresses like warming water. Some governments have started to [8] stricter fishing regulations near vulnerable reef systems, though enforcement remains a persistent challenge in many regions. Tourism, too, can be managed more carefully — simple measures like limiting the number of divers at a single site can [9] a noticeable difference over time. Protecting coral reefs won't be easy, but experts agree that [10] action now offers the best chance of preserving these ecosystems for future generations.",
+    "huecos": [
+      {
+        "num": 1,
+        "categoria": "estructura_fija",
+        "opciones": {
+          "A": "are",
+          "B": "make",
+          "C": "have"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Be home to' es una expresión fija que significa albergar o ser el hábitat de una población específica; siempre usa el verbo 'be'.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Make home to' no es una expresión reconocida en inglés; la expresión fija siempre usa el verbo 'be'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Have home to' no es gramaticalmente válido; la expresión fija correcta es 'be home to'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "make",
+          "B": "cause",
+          "C": "do"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Cause damage' es la colocación fija correcta en inglés para describir que algo provoca daño.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Make damage' no es una colocación natural en inglés; se dice 'cause damage', no 'make damage'.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "Aunque 'do damage' existe en inglés informal, en un registro más formal como este, la colocación estándar es 'cause damage'.",
+            "patron_trampa": "registro_inadecuado"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "suffer",
+          "B": "pass",
+          "C": "undergo"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Undergo a process' es la colocación fija correcta para describir que algo pasa por un proceso, especialmente en contextos científicos.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Suffer' sugiere dolor o sufrimiento activo, mientras que 'undergo' describe neutralmente pasar por un proceso.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "'Pass a process' no es una colocación natural en inglés; se necesitaría 'go through' o 'undergo', no 'pass'.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "categoria": "vocabulario",
+        "opciones": {
+          "A": "die",
+          "B": "kill",
+          "C": "destroy"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Die' es el verbo intransitivo correcto para describir que el arrecife deja de vivir.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Kill' es un verbo transitivo que necesita un objeto directo; el arrecife no está matando a otra cosa, sino muriendo él mismo.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Destroy' también es transitivo y necesita un objeto directo; el arrecife no destruye algo, sino que es destruido.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "make",
+          "B": "find",
+          "C": "do"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Find a solution' es la colocación fija correcta para describir el proceso de descubrir una manera de resolver un problema.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Make solutions' no es tan natural como 'find solutions'; 'make' se usa más para crear un producto o decisión.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Do solutions' no es una colocación reconocida en inglés.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 6,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "make",
+          "B": "do",
+          "C": "play"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Play a role' es la expresión fija correcta en inglés para describir la participación o función de alguien en una situación.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Make a role' no es una colocación reconocida en inglés; la expresión fija siempre usa 'play'.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "'Do a role' no es gramaticalmente correcto en este contexto; se dice 'play a role', no 'do a role'.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 7,
+        "categoria": "vocabulario",
+        "opciones": {
+          "A": "recover",
+          "B": "restore",
+          "C": "renew"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Recover from something' es la expresión correcta para describir que algo vuelve a su estado normal después de una dificultad.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Restore' es un verbo transitivo que normalmente necesita un objeto directo, no la estructura intransitiva 'restore from' usada aquí.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Renew' significa renovar o reiniciar algo (como un contrato), no recuperarse de un daño o estrés físico.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 8,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "make",
+          "B": "implement",
+          "C": "create"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Implement regulations' es la colocación formal estándar para describir que un gobierno pone en práctica nuevas normas.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Make regulations' es posible pero menos formal y específico que 'implement', que es la colocación estándar en política pública.",
+            "patron_trampa": "registro_inadecuado"
+          },
+          "C": {
+            "explicacion": "'Create regulations' sugiere el proceso de redactar las normas, mientras que 'implement' se refiere a ponerlas en práctica.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 9,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "do",
+          "B": "have",
+          "C": "make"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Make a difference' es la expresión fija correcta en inglés para decir que algo tiene un impacto positivo notable.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Do a difference' no es una expresión reconocida en inglés; siempre se dice 'make a difference'.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "'Have a difference' no es la expresión fija estándar en este contexto.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 10,
+        "categoria": "vocabulario",
+        "opciones": {
+          "A": "immediate",
+          "B": "fast",
+          "C": "quick"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Immediate action' es la colocación formal más común para referirse a actuar sin demora ante una situación urgente.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Fast action' es menos común como colocación formal; 'immediate' es la palabra estándar en este tipo de contexto.",
+            "patron_trampa": "registro_inadecuado"
+          },
+          "C": {
+            "explicacion": "'Quick action' es posible pero suena más informal; en un contexto formal como este, 'immediate' es más apropiado.",
+            "patron_trampa": "registro_inadecuado"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P7-TEXTO-005",
+    "modulo": "ingles",
+    "parte": 7,
+    "tipo": "cloze_lexico",
+    "nivel_mcer": "B1",
+    "titulo": "Learning a New Language as an Adult",
+    "texto_con_huecos": "Many adults assume that learning a new language becomes nearly impossible after childhood, but this belief is largely a [1]. While it's true that children tend to pick up pronunciation more naturally, adults actually have several advantages that are often [2]. For one, adults already understand how grammar works in their first language, which allows them to [3] connections between languages more quickly than a young child could. Adults also tend to have stronger self-discipline, which can [4] up for the fact that they usually have less free time to dedicate to practice. One common mistake adult learners make is [5] too much emphasis on grammar rules while neglecting actual conversation practice, which is ultimately what builds fluency. Fear of making mistakes is another obstacle; many adults would [6] avoid speaking altogether than risk sounding foolish, even though genuine progress depends on making — and learning from — plenty of errors. [7] contrast to popular belief, watching movies or listening to music in the target language, while enjoyable, rarely [8] the same results as active practice like speaking and writing. Consistency tends to matter more than intensity: studying for twenty minutes every day generally produces [9] results than a single three-hour session once a week. Ultimately, the biggest barrier for most adult learners isn't age at all — it's simply finding the [10] to practice regularly despite a busy schedule.",
+    "huecos": [
+      {
+        "num": 1,
+        "categoria": "vocabulario",
+        "opciones": {
+          "A": "lie",
+          "B": "myth",
+          "C": "mistake"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Myth' describe una creencia popular ampliamente extendida pero falsa, exactamente el sentido de esta oración.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Lie' implica una mentira deliberada dicha por alguien específico, no una creencia popular equivocada y extendida.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Mistake' se refiere a un error puntual, no a una creencia cultural ampliamente compartida.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "categoria": "vocabulario",
+        "opciones": {
+          "A": "overpassed",
+          "B": "overworked",
+          "C": "overlooked"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Overlooked' significa pasado por alto o ignorado sin querer, el sentido correcto para ventajas que la gente no suele notar.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Overpassed' no es una palabra estándar en inglés con este significado; no es una opción léxica válida.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "B": {
+            "explicacion": "'Overworked' significa haber trabajado demasiado, un significado completamente distinto de 'pasado por alto'.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "make",
+          "B": "do",
+          "C": "take"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Make connections' es la colocación fija correcta en inglés para describir el proceso de relacionar ideas o conceptos.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Do connections' no es una colocación reconocida en inglés.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Take connections' no es una expresión válida en inglés para este contexto de relacionar ideas.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "categoria": "estructura_fija",
+        "opciones": {
+          "A": "do",
+          "B": "make",
+          "C": "take"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Make up for something' es una expresión fija (phrasal verb) que significa compensar una desventaja con otra ventaja.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Do up for' no es una expresión reconocida en inglés; la expresión fija correcta es 'make up for'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Take up for' no es la expresión fija correcta; 'make up for' es la forma establecida para expresar compensación.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "making",
+          "B": "doing",
+          "C": "putting"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Put emphasis on something' es la colocación fija correcta para describir que se le da demasiada importancia a algo.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Making emphasis' no es la colocación natural en inglés; la expresión fija correcta usa 'put', no 'make'.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "'Doing emphasis' no es una expresión reconocida en inglés.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 6,
+        "categoria": "estructura_fija",
+        "opciones": {
+          "A": "rather",
+          "B": "either",
+          "C": "more"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Would rather... than...' es la estructura fija correcta para expresar una preferencia entre dos opciones.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Either' se usa en estructuras con 'or', no con 'than'; no forma la expresión fija de preferencia necesaria aquí.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Would more avoid... than' no es una estructura gramatical válida; la expresión fija correcta es 'would rather... than'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 7,
+        "categoria": "estructura_fija",
+        "opciones": {
+          "A": "At",
+          "B": "In",
+          "C": "On"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'In contrast to' es la expresión fija correcta para introducir un contraste; siempre usa la preposición 'in'.",
+        "distractores": {
+          "A": {
+            "explicacion": "'At contrast to' no es una expresión reconocida en inglés.",
+            "patron_trampa": "preposicion_incorrecta"
+          },
+          "C": {
+            "explicacion": "'On contrast to' no es la expresión fija correcta; siempre se usa 'in contrast to'.",
+            "patron_trampa": "preposicion_incorrecta"
+          }
+        }
+      },
+      {
+        "num": 8,
+        "categoria": "vocabulario",
+        "opciones": {
+          "A": "makes",
+          "B": "does",
+          "C": "produces"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Produce results' es la colocación correcta para describir que una actividad genera un efecto o resultado medible.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Make results' no es una colocación tan natural como 'produce results' en este contexto sobre efectividad de un método.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "'Do results' no es una colocación reconocida en inglés.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 9,
+        "categoria": "vocabulario",
+        "opciones": {
+          "A": "better",
+          "B": "highest",
+          "C": "most"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Better' es el comparativo correcto para comparar los resultados de dos métodos de estudio, seguido de 'than'.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Highest' es una forma superlativa y no se combina con 'than' en una comparación directa entre dos opciones.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Most' también es una forma superlativa; no es compatible con la estructura comparativa 'than' necesaria aquí.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 10,
+        "categoria": "vocabulario",
+        "opciones": {
+          "A": "hour",
+          "B": "time",
+          "C": "moment"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Find the time' es la expresión correcta para describir el reto de organizar el tiempo disponible para hacer algo regularmente.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Finding the hour' no es una expresión natural en inglés; se usa 'time' de forma general, no una unidad específica.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Finding the moment' sugiere un instante específico y puntual, no el tiempo continuo y regular que la oración describe.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P7-TEXTO-006",
+    "modulo": "ingles",
+    "parte": 7,
+    "tipo": "cloze_lexico",
+    "nivel_mcer": "B1",
+    "titulo": "The Rise of Food Delivery Apps",
+    "texto_con_huecos": "Food delivery apps have completely [1] the way many people think about eating at home. Instead of cooking or driving to a restaurant, users can now [2] an order with just a few taps and have a meal arrive at their door within the hour. Restaurants, for their part, have had to [3] quickly to this shift, since a growing share of their revenue now comes from delivery rather than in-person dining. This convenience, however, [4] a price — delivery apps typically charge restaurants a significant commission on every order, which can [5] into already thin profit margins. Some restaurant owners have started raising menu prices specifically for delivery orders to help [6] this cost, a practice that isn't always obvious to customers browsing the app. Delivery drivers, meanwhile, occupy a complicated position in this system; many work as independent contractors, which means they typically don't [7] benefits like health insurance or paid time off. [8] these challenges, the convenience that delivery apps offer has proven difficult for consumers to give up, especially in busy cities where free time is scarce. Some experts believe the industry will eventually need stricter regulation to [9] a fairer balance between convenience, restaurant profitability, and driver compensation. For now, though, the sound of a delivery bag at the door has become, for better or worse, a [10] part of everyday life in many cities.",
+    "huecos": [
+      {
+        "num": 1,
+        "categoria": "vocabulario",
+        "opciones": {
+          "A": "turned",
+          "B": "moved",
+          "C": "changed"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Change the way' es la expresión correcta para describir una transformación en cómo se hace o percibe algo.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Turned the way' no es una expresión natural en inglés; 'turn' necesitaría una preposición o estructura distinta.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "'Moved the way' no es una colocación reconocida en inglés para expresar transformación de hábitos.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "place",
+          "B": "make",
+          "C": "do"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Place an order' es la colocación fija correcta en inglés para describir el acto de pedir algo, especialmente comida.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Make an order' es menos común y menos natural que 'place an order' en el contexto de pedidos de comida.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Do an order' no es una colocación reconocida en inglés.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "categoria": "vocabulario",
+        "opciones": {
+          "A": "adopt",
+          "B": "adapt",
+          "C": "accept"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Adapt to something' significa ajustarse a un cambio, el sentido correcto sobre cómo los restaurantes se ajustan a la nueva realidad.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Adopt' significa adoptar una práctica o política nueva, no ajustarse a un cambio externo; es un error común confundirlo con 'adapt'.",
+            "patron_trampa": "falso_amigo"
+          },
+          "C": {
+            "explicacion": "'Accept' significa aceptar algo pasivamente, pero no captura la idea de ajuste activo y rápido que 'adapt' comunica.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "arrives at",
+          "B": "goes at",
+          "C": "comes at"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Come at a price' es una expresión fija que significa que algo tiene un costo oculto o una desventaja, pese a sus beneficios.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Arrive at a price' no es la expresión fija reconocida; 'arrive at' se usa más para llegar a una conclusión o decisión.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "B": {
+            "explicacion": "'Goes at a price' no es una expresión válida en inglés; la expresión fija correcta es 'come at a price'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "cut",
+          "B": "break",
+          "C": "fall"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Cut into profit margins' es una expresión fija que significa reducir las ganancias de un negocio de forma notable.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Break into profit margins' no es una expresión reconocida en inglés con este sentido.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Fall into profit margins' no tiene sentido gramatical ni idiomático en este contexto; la expresión fija correcta es 'cut into'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 6,
+        "categoria": "vocabulario",
+        "opciones": {
+          "A": "outweigh",
+          "B": "offset",
+          "C": "upset"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Offset a cost' significa compensar o contrarrestar un gasto con otra medida, el sentido correcto sobre subir precios para cubrir la comisión.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Outweigh' significa que algo pesa más o es más importante que otra cosa, no compensar un costo específico como 'offset'.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Upset' significa molestar o alterar emocionalmente a alguien, un significado completamente distinto de compensar un costo económico.",
+            "patron_trampa": "falso_amigo"
+          }
+        }
+      },
+      {
+        "num": 7,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "take",
+          "B": "hold",
+          "C": "receive"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Receive benefits' es la colocación correcta para describir que alguien obtiene prestaciones laborales como parte de su empleo.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Take benefits' no es la colocación natural en este contexto; se usa 'receive' o 'get', no 'take'.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "'Hold benefits' no es una expresión natural en inglés para este contexto laboral.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 8,
+        "categoria": "estructura_fija",
+        "opciones": {
+          "A": "Despite",
+          "B": "Instead of",
+          "C": "Because of"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Despite + sustantivo' es la estructura fija correcta para introducir un contraste seguido de un sustantivo ('these challenges').",
+        "distractores": {
+          "B": {
+            "explicacion": "'Instead of' significa 'en lugar de', indicando una sustitución, no el contraste concesivo que expresa 'despite'.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Because of' introduce una causa, pero la relación real entre las ideas es de contraste, no de causa-efecto.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 9,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "make",
+          "B": "achieve",
+          "C": "do"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Achieve a balance' es la colocación fija correcta para describir el logro de un equilibrio entre distintos intereses.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Make a balance' no es la colocación natural en este contexto; 'achieve' o 'strike' son las opciones correctas.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Do a balance' no es una expresión reconocida en inglés.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 10,
+        "categoria": "vocabulario",
+        "opciones": {
+          "A": "known",
+          "B": "usual",
+          "C": "familiar"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'A familiar part of' es la colocación natural para describir algo que se ha vuelto común y reconocible en la vida cotidiana.",
+        "distractores": {
+          "A": {
+            "explicacion": "'A known part' no es tan natural como 'familiar part' en este contexto; 'known' se usa más para hechos o información.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "'A usual part' es posible, pero 'familiar' es la colocación más natural para describir algo integrado a la rutina diaria.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      }
+    ]
+  }
+]

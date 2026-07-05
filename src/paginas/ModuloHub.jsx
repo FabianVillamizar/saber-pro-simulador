@@ -1,4 +1,7 @@
 import { useModulo } from '../hooks/useModulo.js'
+import { useTheme } from '../hooks/useTheme.js'
+import { ThemeToggle } from '../componentes/ThemeToggle.jsx'
+import { SelectorPerfil } from '../componentes/SelectorPerfil.jsx'
 import './ModuloHub.css'
 
 const MODOS = [
@@ -19,8 +22,9 @@ const MODOS = [
   },
 ]
 
-export function ModuloHub({ moduloId, onVolver, onSeleccionarModo }) {
+export function ModuloHub({ moduloId, perfil, onCambiarPerfil, onVolver, onSeleccionarModo }) {
   const { modulo, cargando, error } = useModulo(moduloId)
+  const { dark, toggle } = useTheme()
 
   if (cargando) return <div className="page estado-carga">Cargando módulo…</div>
   if (error) return <div className="page estado-error">No se pudo cargar el módulo: {error.message}</div>
@@ -31,6 +35,9 @@ export function ModuloHub({ moduloId, onVolver, onSeleccionarModo }) {
         <button type="button" className="boton-volver" onClick={onVolver}>
           ← Módulos
         </button>
+        <div style={{ flex: 1 }} />
+        <SelectorPerfil perfil={perfil} onClick={onCambiarPerfil} />
+        <ThemeToggle dark={dark} onToggle={toggle} />
       </div>
 
       <header className="modulo-hub-header">

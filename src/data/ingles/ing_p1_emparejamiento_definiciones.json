@@ -1,0 +1,542 @@
+[
+  {
+    "id": "ING-P1-GRUPO-001",
+    "modulo": "ingles",
+    "parte": 1,
+    "tipo": "emparejamiento_definiciones",
+    "tema": "sentimientos y emociones",
+    "nivel_mcer": "A2",
+    "banco_opciones": {
+      "A": "happy",
+      "B": "sad",
+      "C": "angry",
+      "D": "nervous",
+      "E": "bored",
+      "F": "surprised",
+      "G": "proud",
+      "H": "scared"
+    },
+    "descripciones": [
+      {
+        "num": 1,
+        "texto": "You feel this way when you did something really well and you want others to notice.",
+        "respuesta_correcta": "G"
+      },
+      {
+        "num": 2,
+        "texto": "You feel this way when there is nothing interesting to do and time passes slowly.",
+        "respuesta_correcta": "E"
+      },
+      {
+        "num": 3,
+        "texto": "You feel this way when something happens that you didn't expect at all.",
+        "respuesta_correcta": "F"
+      },
+      {
+        "num": 4,
+        "texto": "You feel this way before an important exam or a job interview.",
+        "respuesta_correcta": "D"
+      },
+      {
+        "num": 5,
+        "texto": "You feel this way when someone breaks a promise or treats you unfairly.",
+        "respuesta_correcta": "C"
+      }
+    ]
+  },
+  {
+    "id": "ING-P1-GRUPO-002",
+    "modulo": "ingles",
+    "parte": 1,
+    "tipo": "emparejamiento_definiciones",
+    "tema": "profesiones y oficios",
+    "nivel_mcer": "A2",
+    "banco_opciones": {
+      "A": "electrician",
+      "B": "firefighter",
+      "C": "accountant",
+      "D": "journalist",
+      "E": "plumber",
+      "F": "architect",
+      "G": "dentist",
+      "H": "mechanic"
+    },
+    "descripciones": [
+      {
+        "num": 1,
+        "texto": "This person designs the plans for new buildings before they are constructed.",
+        "respuesta_correcta": "F"
+      },
+      {
+        "num": 2,
+        "texto": "This person writes articles and reports the news for a newspaper or website.",
+        "respuesta_correcta": "D"
+      },
+      {
+        "num": 3,
+        "texto": "This person fixes broken pipes and makes sure the water system works properly.",
+        "respuesta_correcta": "E"
+      },
+      {
+        "num": 4,
+        "texto": "This person checks your teeth and treats problems like cavities.",
+        "respuesta_correcta": "G"
+      },
+      {
+        "num": 5,
+        "texto": "This person manages a company's financial records and prepares tax reports.",
+        "respuesta_correcta": "C"
+      }
+    ]
+  },
+  {
+    "id": "ING-P1-GRUPO-003",
+    "modulo": "ingles",
+    "parte": 1,
+    "tipo": "emparejamiento_definiciones",
+    "tema": "objetos cotidianos",
+    "nivel_mcer": "A1",
+    "banco_opciones": {
+      "A": "umbrella",
+      "B": "wallet",
+      "C": "mirror",
+      "D": "candle",
+      "E": "blanket",
+      "F": "scissors",
+      "G": "ladder",
+      "H": "broom"
+    },
+    "descripciones": [
+      {
+        "num": 1,
+        "texto": "You use this to see your own reflection before leaving the house.",
+        "respuesta_correcta": "C"
+      },
+      {
+        "num": 2,
+        "texto": "You use this tool to cut paper or fabric.",
+        "respuesta_correcta": "F"
+      },
+      {
+        "num": 3,
+        "texto": "You use this to climb up and reach something high, like a shelf or a roof.",
+        "respuesta_correcta": "G"
+      },
+      {
+        "num": 4,
+        "texto": "You keep this warm, soft object on your bed to cover yourself at night.",
+        "respuesta_correcta": "E"
+      },
+      {
+        "num": 5,
+        "texto": "You carry this small object in your pocket or bag to keep your money and cards.",
+        "respuesta_correcta": "B"
+      }
+    ]
+  },
+  {
+    "id": "ING-P1-GRUPO-004",
+    "modulo": "ingles",
+    "parte": 1,
+    "tipo": "emparejamiento_definiciones",
+    "tema": "adjetivos de personalidad",
+    "nivel_mcer": "A2",
+    "banco_opciones": {
+      "A": "generous",
+      "B": "shy",
+      "C": "reliable",
+      "D": "arrogant",
+      "E": "curious",
+      "F": "patient",
+      "G": "honest",
+      "H": "lazy"
+    },
+    "descripciones": [
+      {
+        "num": 1,
+        "texto": "This person always tells the truth, even when it's difficult to do so.",
+        "respuesta_correcta": "G"
+      },
+      {
+        "num": 2,
+        "texto": "This person doesn't like being the center of attention and feels uncomfortable meeting new people.",
+        "respuesta_correcta": "B"
+      },
+      {
+        "num": 3,
+        "texto": "This person always keeps their promises and can be trusted to do what they say.",
+        "respuesta_correcta": "C"
+      },
+      {
+        "num": 4,
+        "texto": "This person wants to learn and ask questions about everything around them.",
+        "respuesta_correcta": "E"
+      },
+      {
+        "num": 5,
+        "texto": "This person doesn't get upset even when things take a long time or go wrong.",
+        "respuesta_correcta": "F"
+      }
+    ]
+  },
+  {
+    "id": "ING-P1-GRUPO-005",
+    "modulo": "ingles",
+    "parte": 1,
+    "tipo": "emparejamiento_definiciones",
+    "tema": "lugares en la ciudad",
+    "nivel_mcer": "A1",
+    "banco_opciones": {
+      "A": "pharmacy",
+      "B": "bakery",
+      "C": "library",
+      "D": "gym",
+      "E": "post office",
+      "F": "bank",
+      "G": "police station",
+      "H": "supermarket"
+    },
+    "descripciones": [
+      {
+        "num": 1,
+        "texto": "You can buy fresh bread and pastries at this place every morning.",
+        "respuesta_correcta": "B"
+      },
+      {
+        "num": 2,
+        "texto": "You go to this place to borrow books for free.",
+        "respuesta_correcta": "C"
+      },
+      {
+        "num": 3,
+        "texto": "You go to this place to send letters and packages.",
+        "respuesta_correcta": "E"
+      },
+      {
+        "num": 4,
+        "texto": "You can exercise and lift weights at this place.",
+        "respuesta_correcta": "D"
+      },
+      {
+        "num": 5,
+        "texto": "You go to this place if you need to report a crime.",
+        "respuesta_correcta": "G"
+      }
+    ]
+  },
+  {
+    "id": "ING-P1-GRUPO-006",
+    "modulo": "ingles",
+    "parte": 1,
+    "tipo": "emparejamiento_definiciones",
+    "tema": "miembros de la familia",
+    "nivel_mcer": "A1",
+    "banco_opciones": {
+      "A": "nephew",
+      "B": "niece",
+      "C": "grandfather",
+      "D": "cousin",
+      "E": "stepmother",
+      "F": "sister-in-law",
+      "G": "grandson",
+      "H": "aunt"
+    },
+    "descripciones": [
+      {
+        "num": 1,
+        "texto": "This is your father's or mother's father.",
+        "respuesta_correcta": "C"
+      },
+      {
+        "num": 2,
+        "texto": "This is the son of your brother or sister.",
+        "respuesta_correcta": "A"
+      },
+      {
+        "num": 3,
+        "texto": "This is the woman your father married after your parents separated, but who is not your biological mother.",
+        "respuesta_correcta": "E"
+      },
+      {
+        "num": 4,
+        "texto": "This is the child of your aunt or uncle.",
+        "respuesta_correcta": "D"
+      },
+      {
+        "num": 5,
+        "texto": "This is your brother's wife or your husband's sister.",
+        "respuesta_correcta": "F"
+      }
+    ]
+  },
+  {
+    "id": "ING-P1-GRUPO-007",
+    "modulo": "ingles",
+    "parte": 1,
+    "tipo": "emparejamiento_definiciones",
+    "tema": "utensilios de cocina",
+    "nivel_mcer": "A2",
+    "banco_opciones": {
+      "A": "frying pan",
+      "B": "whisk",
+      "C": "grater",
+      "D": "colander",
+      "E": "rolling pin",
+      "F": "spatula",
+      "G": "cutting board",
+      "H": "ladle"
+    },
+    "descripciones": [
+      {
+        "num": 1,
+        "texto": "You use this flat tool to flip pancakes or burgers while cooking.",
+        "respuesta_correcta": "F"
+      },
+      {
+        "num": 2,
+        "texto": "You use this to drain water from pasta or vegetables.",
+        "respuesta_correcta": "D"
+      },
+      {
+        "num": 3,
+        "texto": "You use this tool to shred cheese or vegetables into small pieces.",
+        "respuesta_correcta": "C"
+      },
+      {
+        "num": 4,
+        "texto": "You use this cylindrical tool to flatten dough before baking.",
+        "respuesta_correcta": "E"
+      },
+      {
+        "num": 5,
+        "texto": "You use this surface to chop vegetables or meat safely.",
+        "respuesta_correcta": "G"
+      }
+    ]
+  },
+  {
+    "id": "ING-P1-GRUPO-008",
+    "modulo": "ingles",
+    "parte": 1,
+    "tipo": "emparejamiento_definiciones",
+    "tema": "medios de transporte",
+    "nivel_mcer": "A1",
+    "banco_opciones": {
+      "A": "subway",
+      "B": "ferry",
+      "C": "scooter",
+      "D": "cargo ship",
+      "E": "cable car",
+      "F": "taxi",
+      "G": "bicycle",
+      "H": "bus"
+    },
+    "descripciones": [
+      {
+        "num": 1,
+        "texto": "This vehicle travels underground in big cities and is usually very fast.",
+        "respuesta_correcta": "A"
+      },
+      {
+        "num": 2,
+        "texto": "This vehicle crosses rivers or short distances over water, carrying passengers and sometimes cars.",
+        "respuesta_correcta": "B"
+      },
+      {
+        "num": 3,
+        "texto": "This vehicle hangs from a cable and takes people up a mountain or over a city.",
+        "respuesta_correcta": "E"
+      },
+      {
+        "num": 4,
+        "texto": "You can rent this small motorized vehicle to move quickly around a city without a license in many places.",
+        "respuesta_correcta": "C"
+      },
+      {
+        "num": 5,
+        "texto": "You pay a driver to take you somewhere directly in this private vehicle.",
+        "respuesta_correcta": "F"
+      }
+    ]
+  },
+  {
+    "id": "ING-P1-GRUPO-009",
+    "modulo": "ingles",
+    "parte": 1,
+    "tipo": "emparejamiento_definiciones",
+    "tema": "partes del cuerpo",
+    "nivel_mcer": "A1",
+    "banco_opciones": {
+      "A": "elbow",
+      "B": "wrist",
+      "C": "eyebrow",
+      "D": "chin",
+      "E": "ankle",
+      "F": "shoulder",
+      "G": "thumb",
+      "H": "knee"
+    },
+    "descripciones": [
+      {
+        "num": 1,
+        "texto": "This is the joint that connects your hand to your arm.",
+        "respuesta_correcta": "B"
+      },
+      {
+        "num": 2,
+        "texto": "This is the joint that connects your foot to your leg.",
+        "respuesta_correcta": "E"
+      },
+      {
+        "num": 3,
+        "texto": "This is the part of your face just above your eye.",
+        "respuesta_correcta": "C"
+      },
+      {
+        "num": 4,
+        "texto": "This is the part below your mouth, at the bottom of your face.",
+        "respuesta_correcta": "D"
+      },
+      {
+        "num": 5,
+        "texto": "This is the largest finger on your hand, used for gripping things.",
+        "respuesta_correcta": "G"
+      }
+    ]
+  },
+  {
+    "id": "ING-P1-GRUPO-010",
+    "modulo": "ingles",
+    "parte": 1,
+    "tipo": "emparejamiento_definiciones",
+    "tema": "animales domésticos y salvajes",
+    "nivel_mcer": "A1",
+    "banco_opciones": {
+      "A": "squirrel",
+      "B": "turtle",
+      "C": "owl",
+      "D": "goat",
+      "E": "dolphin",
+      "F": "hedgehog",
+      "G": "bat",
+      "H": "rabbit"
+    },
+    "descripciones": [
+      {
+        "num": 1,
+        "texto": "This animal has a hard shell and moves very slowly.",
+        "respuesta_correcta": "B"
+      },
+      {
+        "num": 2,
+        "texto": "This animal is a bird that is awake at night and can turn its head almost all the way around.",
+        "respuesta_correcta": "C"
+      },
+      {
+        "num": 3,
+        "texto": "This small animal has sharp spines all over its back to protect itself.",
+        "respuesta_correcta": "F"
+      },
+      {
+        "num": 4,
+        "texto": "This flying mammal sleeps hanging upside down during the day.",
+        "respuesta_correcta": "G"
+      },
+      {
+        "num": 5,
+        "texto": "This intelligent sea mammal is known for being very social and playful.",
+        "respuesta_correcta": "E"
+      }
+    ]
+  },
+  {
+    "id": "ING-P1-GRUPO-011",
+    "modulo": "ingles",
+    "parte": 1,
+    "tipo": "emparejamiento_definiciones",
+    "tema": "ropa y accesorios",
+    "nivel_mcer": "A1",
+    "banco_opciones": {
+      "A": "scarf",
+      "B": "belt",
+      "C": "gloves",
+      "D": "raincoat",
+      "E": "earrings",
+      "F": "sneakers",
+      "G": "hat",
+      "H": "sweater"
+    },
+    "descripciones": [
+      {
+        "num": 1,
+        "texto": "You wear this around your neck to keep warm in cold weather.",
+        "respuesta_correcta": "A"
+      },
+      {
+        "num": 2,
+        "texto": "You wear these on your hands to protect them from the cold.",
+        "respuesta_correcta": "C"
+      },
+      {
+        "num": 3,
+        "texto": "You wear this waterproof piece of clothing to stay dry when it rains.",
+        "respuesta_correcta": "D"
+      },
+      {
+        "num": 4,
+        "texto": "You wear this around your waist to hold up your trousers.",
+        "respuesta_correcta": "B"
+      },
+      {
+        "num": 5,
+        "texto": "You wear these comfortable shoes especially for sports or casual walking.",
+        "respuesta_correcta": "F"
+      }
+    ]
+  },
+  {
+    "id": "ING-P1-GRUPO-012",
+    "modulo": "ingles",
+    "parte": 1,
+    "tipo": "emparejamiento_definiciones",
+    "tema": "deportes y pasatiempos",
+    "nivel_mcer": "A2",
+    "banco_opciones": {
+      "A": "fishing",
+      "B": "chess",
+      "C": "painting",
+      "D": "hiking",
+      "E": "gardening",
+      "F": "knitting",
+      "G": "surfing",
+      "H": "cycling"
+    },
+    "descripciones": [
+      {
+        "num": 1,
+        "texto": "This strategic board game is played by two people who move pieces to try to trap the opponent's king.",
+        "respuesta_correcta": "B"
+      },
+      {
+        "num": 2,
+        "texto": "This activity involves walking long distances in nature, often up hills or mountains.",
+        "respuesta_correcta": "D"
+      },
+      {
+        "num": 3,
+        "texto": "In this water sport, you ride a board on top of ocean waves.",
+        "respuesta_correcta": "G"
+      },
+      {
+        "num": 4,
+        "texto": "This creative hobby involves using needles and yarn to make clothes like scarves or sweaters.",
+        "respuesta_correcta": "F"
+      },
+      {
+        "num": 5,
+        "texto": "This relaxing activity involves growing flowers, vegetables, or plants in your yard.",
+        "respuesta_correcta": "E"
+      }
+    ]
+  }
+]

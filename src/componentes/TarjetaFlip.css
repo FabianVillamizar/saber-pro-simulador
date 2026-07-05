@@ -1,0 +1,32 @@
+.tarjeta-flip-escenario {
+  perspective: 1400px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.tarjeta-flip-interior {
+  position: relative;
+  width: 100%;
+  transform-style: preserve-3d;
+  transition: transform var(--dur-flip) cubic-bezier(0.4, 0.15, 0.2, 1);
+}
+
+.tarjeta-flip-cara {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radio-xl);
+  box-shadow: var(--sombra-suave);
+  display: flex;
+  flex-direction: column;
+  padding: 36px;
+}
+
+.tarjeta-flip-cara--reverso {
+  transform: rotateY(180deg);
+  padding: 30px 32px;
+  gap: 14px;
+  overflow-y: auto;
+}

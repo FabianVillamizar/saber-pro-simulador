@@ -33,6 +33,22 @@ export function aciertosPorParte(detalle) {
 // (fuera_de_contexto, tiempo_verbal_incorrecto, etc.), no por pregunta.
 // Las partes 1/2 (emparejamiento) no tienen distractores clasificados en
 // los datos, así que sus fallos no entran en este conteo.
+// Frase humana por patrón de trampa, para el callout de "error más
+// frecuente" del Resultado. Cubre los patron_trampa reales presentes en
+// los datos de Inglés (ver src/data/ingles/*.json).
+export const DESCRIPCIONES_PATRON = {
+  concordancia_incorrecta: 'Fallas en la concordancia entre sujeto y verbo, o entre sustantivo y sus modificadores.',
+  estructura_gramatical_invalida: 'Eliges estructuras gramaticales que no son válidas en inglés, aunque suenen parecidas al español.',
+  falso_amigo: 'Caes en falsos amigos: palabras que se parecen al español pero significan algo distinto en inglés.',
+  fuera_de_contexto: 'Eliges respuestas que no encajan con el contexto real de la conversación o el texto.',
+  logica_conversacional_rota: 'Respondes de una forma que rompe la lógica natural de una conversación en inglés.',
+  preposicion_incorrecta: 'Usas la preposición incorrecta en construcciones que en español no requieren una equivalente.',
+  referencia_incorrecta: 'Pierdes el hilo de a qué o quién se refiere un pronombre o conector dentro del texto.',
+  registro_inadecuado: 'Usas un registro (formal/informal) que no corresponde a la situación planteada.',
+  significado_cercano: 'Confundes palabras de significado cercano pero no intercambiable en el contexto dado.',
+  tiempo_verbal_incorrecto: 'Confundes tiempos verbales: usas uno distinto al que exige el contexto de la oración.',
+}
+
 export function patronesTrampaFrecuentes(detalle) {
   const conteo = new Map()
   for (const { pregunta, elegida, esCorrecta } of detalle) {

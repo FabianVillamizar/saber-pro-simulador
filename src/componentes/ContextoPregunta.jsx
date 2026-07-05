@@ -1,3 +1,4 @@
+import { Formula } from './Formula.jsx'
 import './ContextoPregunta.css'
 
 function TextoConMarcadores({ texto, huecoActual }) {
@@ -42,6 +43,25 @@ export function ContextoPregunta({ contexto, numEnGrupo }) {
     return (
       <div className="contexto contexto--pasaje">
         <p className="contexto-texto">{contexto.texto}</p>
+      </div>
+    )
+  }
+
+  // Razonamiento Cuantitativo / Pensamiento Científico (sin datos reales
+  // todavía): tablas/gráficas ya renderizadas a SVG por separado, o
+  // notación matemática renderizada del lado del cliente con KaTeX.
+  if (contexto.tipo === 'imagen') {
+    return (
+      <div className="contexto contexto--imagen">
+        <img src={contexto.imagen} alt={contexto.descripcion ?? ''} />
+      </div>
+    )
+  }
+
+  if (contexto.tipo === 'formula') {
+    return (
+      <div className="contexto contexto--formula">
+        <Formula tex={contexto.tex} bloque />
       </div>
     )
   }

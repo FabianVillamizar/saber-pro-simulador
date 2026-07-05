@@ -1,24 +1,7 @@
+@import './estilos/tokens.css';
+
 :root {
-  color-scheme: dark;
-
-  --bg: #0b0d12;
-  --surface: #14171f;
-  --surface-hover: #1b1f2a;
-  --border: #262b38;
-  --text: #e7e9ee;
-  --text-muted: #8b93a7;
-  --accent: #5b8cff;
-  --accent-hover: #7ea0ff;
-  --accent-text: #0b0d12;
-  --success: #34d399;
-  --error: #f87171;
-  --warning: #fbbf24;
-
-  --sans:
-    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,
-    sans-serif;
-
-  font: 16px/1.5 var(--sans);
+  font: 16px/1.5 'Manrope', system-ui, sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -33,6 +16,7 @@ body {
   min-height: 100vh;
   background: var(--bg);
   color: var(--text);
+  transition: background 0.25s ease;
 }
 
 #root {
@@ -42,7 +26,7 @@ body {
 h1,
 h2,
 h3 {
-  font-weight: 600;
+  font-weight: 800;
   letter-spacing: -0.01em;
   color: var(--text);
   margin: 0;
@@ -50,7 +34,7 @@ h3 {
 
 p {
   margin: 0;
-  color: var(--text-muted);
+  color: var(--text-sub);
 }
 
 button {

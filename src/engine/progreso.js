@@ -1,34 +1,41 @@
 // Racha y progreso diario, compartidos por todos los módulos (es un
-// hábito de estudio general, no algo que se fragmente por módulo).
+// hábito de estudio general, no algo que se fragmente por módulo) pero
+// namespaced por perfil (esta app la usan varias personas).
 import { leerJSON, escribirJSON } from './storage.js'
-import { formatoFecha, sumarDias } from './fecha.js'
+import { fechaDesdeClave, formatoFecha, sumarDias } from './fecha.js'
+import { claveProgreso } from './clavesPerfil.js'
 
-const CLAVE = 'progreso'
-
-export function leerProgreso() {
-  return leerJSON(CLAVE, {})
+export function leerProgreso(perfilId) {
+  return leerJSON(claveProgreso(perfilId), {})
 }
 
-function registrarActividad(tipo, ahora = new Date()) {
-  const progreso = leerProgreso()
+// `rachaAlcanzadaHoy` avisa al llamador si este registro fue el que
+// acaba de completar el día (repaso + práctica por parte) — el momento
+// exacto en el que suena el sonido de racha, no en cada actividad.
+function registrarActividad(perfilId, tipo, ahora = new Date()) {
+  const progreso = leerProgreso(perfilId)
   const fecha = formatoFecha(ahora)
-  const dia = progreso[fecha] ?? { repaso: 0, practicaParte: 0, simulacro: 0 }
+  const diaAntes = progreso[fecha]
+  const completoAntes = diaCompleto(diaAntes)
+
+  const dia = diaAntes ?? { repaso: 0, practicaParte: 0, simulacro: 0 }
   dia[tipo] = (dia[tipo] ?? 0) + 1
   progreso[fecha] = dia
-  escribirJSON(CLAVE, progreso)
-  return progreso
+  escribirJSON(claveProgreso(perfilId), progreso)
+
+  return { progreso, rachaAlcanzadaHoy: !completoAntes && diaCompleto(dia) }
 }
 
-export function registrarRepaso(ahora) {
-  return registrarActividad('repaso', ahora)
+export function registrarRepaso(perfilId, ahora) {
+  return registrarActividad(perfilId, 'repaso', ahora)
 }
 
-export function registrarPracticaParte(ahora) {
-  return registrarActividad('practicaParte', ahora)
+export function registrarPracticaParte(perfilId, ahora) {
+  return registrarActividad(perfilId, 'practicaParte', ahora)
 }
 
-export function registrarSimulacro(ahora) {
-  return registrarActividad('simulacro', ahora)
+export function registrarSimulacro(perfilId, ahora) {
+  return registrarActividad(perfilId, 'simulacro', ahora)
 }
 
 // Día completo = al menos una sesión de repaso de conceptos + al menos
@@ -52,4 +59,25 @@ export function calcularRacha(progreso, ahora = new Date()) {
     cursor = sumarDias(cursor, -1)
   }
   return racha
+}
+
+// Racha más larga de días completos registrada en todo el historial, no
+// solo la que termina hoy/ayer (a diferencia de calcularRacha).
+export function calcularRachaMasLarga(progreso) {
+  const fechas = Object.keys(progreso).sort()
+  let mejor = 0
+  let actual = 0
+  let anterior = null
+  for (const fecha of fechas) {
+    if (!diaCompleto(progreso[fecha])) {
+      actual = 0
+      anterior = fecha
+      continue
+    }
+    const esConsecutivo = anterior && formatoFecha(sumarDias(fechaDesdeClave(anterior), 1)) === fecha
+    actual = esConsecutivo ? actual + 1 : 1
+    mejor = Math.max(mejor, actual)
+    anterior = fecha
+  }
+  return mejor
 }

@@ -1,0 +1,1314 @@
+[
+  {
+    "id": "ING-P5-TEXTO-001",
+    "modulo": "ingles",
+    "parte": 5,
+    "tipo": "comprension_basica",
+    "nivel_mcer": "A2",
+    "texto_base": "Maria Torres never planned to become a baker. She grew up in a small apartment above her parents' shoe repair shop and spent most of her childhood helping customers rather than mixing dough. It wasn't until she turned twenty-five, after losing her job at a call center, that she began baking bread in her tiny kitchen just to pass the time.\n\nAt first, her loaves came out too dense, too dry, or simply burnt. She didn't own any baking books, so she watched free videos online and asked questions in internet forums where other home bakers shared advice. Little by little, her bread improved. Friends who tried it kept asking for more, and soon neighbors were placing small orders every weekend.\n\nMaria decided to enter a regional baking competition almost as a joke, mostly because a friend convinced her it would be fun. She spent three days preparing a traditional sourdough loaf, testing different flour combinations until she found one she liked. To her surprise, the judges — professional bakers with years of formal training — chose her loaf as the winner, beating dozens of entries from established bakeries.\n\nNews of her win spread quickly through the small city where she lived, and within weeks she was receiving requests from local cafés wanting to sell her bread. She turned her apartment kitchen into a tiny home bakery, waking up at four in the morning to prepare dough before her day job. Eventually, she saved enough money to rent a small storefront, which she opened last year with the help of her parents.\n\nToday, Maria's bakery is known throughout the region for its sourdough, and she often tells customers that she still can't quite believe how it all happened. She never took a single baking class, and she still keeps the same simple recipe notebook she started years ago, its pages now stained with flour and butter. When young people ask her for advice about starting their own business without formal training, she always gives them the same answer: mistakes are not failures, they are simply part of learning something you truly love.",
+    "preguntas": [
+      {
+        "num": 1,
+        "habilidad": "informacion_explicita",
+        "enunciado": "What was Maria's job before she started baking?",
+        "opciones": {
+          "A": "She worked at a call center.",
+          "B": "She worked at a shoe repair shop.",
+          "C": "She worked at a bakery."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El texto dice explícitamente que ella empezó a hornear pan 'after losing her job at a call center', lo que indica que trabajaba en un centro de llamadas antes de la panadería.",
+        "distractores": {
+          "B": {
+            "explicacion": "El texto menciona que ella creció arriba de la zapatería de sus padres, pero eso no significa que ella trabajara allí como empleo.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "El texto aclara que ella nunca tomó clases de panadería y que aprendió sola; no tenía trabajo previo en una panadería.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "habilidad": "vocabulario_en_contexto",
+        "enunciado": "In the text, the word 'dense' (paragraph 2) is closest in meaning to:",
+        "opciones": {
+          "A": "sweet and sugary",
+          "B": "heavy and thick",
+          "C": "dark in color"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "En el contexto ('her loaves came out too dense'), 'dense' describe un pan pesado y compacto, un problema común al hornear pan.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Dense' no tiene relación con el sabor dulce; el texto habla de problemas de textura, no de sabor.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Dense' no describe color; el texto menciona el color quemado ('burnt') como un problema aparte.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "habilidad": "referencia_pronominal",
+        "enunciado": "In the sentence 'She spent three days preparing a traditional sourdough loaf, testing different flour combinations until she found one she liked,' what does 'one' refer to?",
+        "opciones": {
+          "A": "a baking competition",
+          "B": "a sourdough loaf",
+          "C": "a flour combination"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'One' reemplaza a 'a flour combination', ya que la oración habla de probar combinaciones de harina hasta encontrar una que le gustara.",
+        "distractores": {
+          "A": {
+            "explicacion": "La competencia se menciona antes en el párrafo, pero 'one' se refiere específicamente a las combinaciones de harina.",
+            "patron_trampa": "referencia_incorrecta"
+          },
+          "B": {
+            "explicacion": "Aunque el pan es el tema general del párrafo, 'one' reemplaza específicamente a 'combination', la palabra más cercana en la oración.",
+            "patron_trampa": "referencia_incorrecta"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "habilidad": "informacion_explicita",
+        "enunciado": "How did Maria first learn to bake bread?",
+        "opciones": {
+          "A": "By watching free videos online and reading forum advice.",
+          "B": "By taking a professional baking course.",
+          "C": "By working as an apprentice at a local bakery."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El texto dice explícitamente que ella 'watched free videos online and asked questions in internet forums'.",
+        "distractores": {
+          "B": {
+            "explicacion": "El texto aclara varias veces que ella nunca tomó ninguna clase formal de panadería.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "C": {
+            "explicacion": "No hay ninguna mención de que ella haya trabajado como aprendiz en una panadería.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "habilidad": "idea_principal",
+        "enunciado": "What is the main idea of this text?",
+        "opciones": {
+          "A": "Professional training is necessary to win baking competitions.",
+          "B": "A self-taught baker turned her passion into a successful small business.",
+          "C": "Home bakers should always enter regional competitions."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto narra de principio a fin cómo Maria, sin formación formal, convirtió su afición en un negocio exitoso.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto contradice esta idea, ya que Maria ganó la competencia SIN entrenamiento profesional.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "Esto es un detalle específico de la historia, no la idea general que resume todo el texto.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 6,
+        "habilidad": "informacion_explicita",
+        "enunciado": "What did Maria do after winning the competition?",
+        "opciones": {
+          "A": "She immediately opened a large bakery chain.",
+          "B": "She stopped baking and returned to her old job.",
+          "C": "She began receiving requests from local cafés to sell her bread."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto dice explícitamente que 'within weeks she was receiving requests from local cafés wanting to sell her bread.'",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto describe un crecimiento gradual y modesto, no la apertura inmediata de una cadena grande.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "El texto muestra justo lo contrario: ella continuó horneando y eventualmente abrió su propia tienda.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 7,
+        "habilidad": "vocabulario_en_contexto",
+        "enunciado": "In the last paragraph, the word 'stained' is closest in meaning to:",
+        "opciones": {
+          "A": "marked with spots or marks",
+          "B": "torn into pieces",
+          "C": "written in a different language"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "En el contexto ('its pages now stained with flour and butter'), 'stained' describe las páginas con manchas por el uso.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Stained' no significa roto; el texto no menciona que las páginas estén dañadas físicamente en pedazos.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Stained' no tiene relación con el idioma del cuaderno; describe una marca física.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P5-TEXTO-002",
+    "modulo": "ingles",
+    "parte": 5,
+    "tipo": "comprension_basica",
+    "nivel_mcer": "B1",
+    "texto_base": "In the middle of the Australian desert, there is a small town where most people live underground. Coober Pedy is famous for its opal mines, but it is just as well known for its unusual homes, which are dug directly into the hillsides rather than built above ground.\n\nThe reason behind this unusual lifestyle is simple: the desert heat. During summer, temperatures on the surface can reach nearly 50 degrees Celsius, making normal houses almost unbearable without constant air conditioning. Underground, however, the temperature stays a comfortable 23 to 25 degrees all year round, regardless of what is happening outside. Early miners discovered this natural advantage by accident, since many of them were already living in abandoned mining tunnels to escape the heat.\n\nOver time, what began as a practical solution turned into a full way of life. Today, Coober Pedy has underground homes, underground churches, underground shops, and even an underground hotel where visitors can spend the night. Some of these spaces are surprisingly spacious, with several rooms carved out of the soft sandstone rock. Because the rock does not need much reinforcement, building underground is often cheaper than constructing a traditional house above ground.\n\nDespite its unusual appearance, life in Coober Pedy includes many familiar things. Children go to school, families do their grocery shopping, and residents gather for community events, just like in any small town — they simply do most of it beneath the surface. The town's population is a mix of long-time Australian families and immigrants from dozens of countries who originally arrived to work in the opal mines, giving Coober Pedy a surprisingly diverse culture for such a remote location.\n\nTourists who visit Coober Pedy are often struck by how normal everything feels once they step underground. Many expect something strange or cave-like, but instead they find comfortable, well-lit rooms that could easily belong to a house anywhere else in the world. For the people who call it home, living underground isn't unusual at all — it's simply the most sensible way to deal with one of the harshest climates on the planet.",
+    "preguntas": [
+      {
+        "num": 1,
+        "habilidad": "informacion_explicita",
+        "enunciado": "Why do most people in Coober Pedy live underground?",
+        "opciones": {
+          "A": "Because there is no space above ground.",
+          "B": "To escape the extreme desert heat.",
+          "C": "Because underground homes are required by law."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto explica claramente que 'the reason behind this unusual lifestyle is simple: the desert heat.'",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no menciona ningún problema de espacio en la superficie.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "C": {
+            "explicacion": "No hay ninguna mención de una ley que obligue a vivir bajo tierra.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "habilidad": "vocabulario_en_contexto",
+        "enunciado": "In the second paragraph, the word 'unbearable' is closest in meaning to:",
+        "opciones": {
+          "A": "extremely enjoyable",
+          "B": "completely empty",
+          "C": "too difficult or uncomfortable to tolerate"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "En el contexto ('making normal houses almost unbearable'), describe algo tan incómodo que es difícil de soportar.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto describe el calor como un problema, no como algo agradable.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "'Unbearable' no tiene relación con estar vacío; describe un nivel de incomodidad.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "habilidad": "referencia_pronominal",
+        "enunciado": "In the sentence 'Early miners discovered this natural advantage by accident, since many of them were already living in abandoned mining tunnels,' what does 'them' refer to?",
+        "opciones": {
+          "A": "the early miners",
+          "B": "the underground homes",
+          "C": "the desert temperatures"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Them' se refiere a 'early miners', el sujeto plural mencionado justo antes en la misma oración.",
+        "distractores": {
+          "B": {
+            "explicacion": "Las casas subterráneas no son el sujeto de la oración; 'them' se refiere a personas.",
+            "patron_trampa": "referencia_incorrecta"
+          },
+          "C": {
+            "explicacion": "Las temperaturas son el tema del párrafo anterior, pero 'them' se refiere al sujeto plural de personas más cercano.",
+            "patron_trampa": "referencia_incorrecta"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "habilidad": "informacion_explicita",
+        "enunciado": "According to the text, why is building underground often cheaper in Coober Pedy?",
+        "opciones": {
+          "A": "Because the government pays for construction costs.",
+          "B": "Because the soft sandstone rock doesn't need much reinforcement.",
+          "C": "Because building materials are imported for free."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto dice explícitamente que 'because the rock does not need much reinforcement, building underground is often cheaper.'",
+        "distractores": {
+          "A": {
+            "explicacion": "No hay ninguna mención de financiamiento gubernamental en el texto.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "C": {
+            "explicacion": "El texto no menciona nada sobre materiales importados gratuitos.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "habilidad": "idea_principal",
+        "enunciado": "What is the main idea of this text?",
+        "opciones": {
+          "A": "Coober Pedy is a dangerous place because of its abandoned mining tunnels.",
+          "B": "Tourists should avoid visiting Coober Pedy because it feels strange underground.",
+          "C": "Coober Pedy's underground lifestyle developed as a practical response to extreme heat and has become a normal way of life."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto explica el origen práctico de este estilo de vida y cómo se convirtió en algo completamente normal, que es la idea central.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no describe los túneles como peligrosos; los presenta como una solución práctica.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "El texto dice justamente lo contrario: los turistas se sorprenden de lo normal y cómodo que se siente todo.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 6,
+        "habilidad": "informacion_explicita",
+        "enunciado": "What do tourists often expect before visiting the underground parts of Coober Pedy?",
+        "opciones": {
+          "A": "Something strange or cave-like.",
+          "B": "A large modern shopping center.",
+          "C": "An empty and abandoned town."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El texto dice explícitamente que 'many expect something strange or cave-like', pero encuentran habitaciones cómodas.",
+        "distractores": {
+          "B": {
+            "explicacion": "El texto no menciona expectativas sobre centros comerciales modernos.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "C": {
+            "explicacion": "El texto describe un pueblo activo, no un lugar abandonado.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 7,
+        "habilidad": "vocabulario_en_contexto",
+        "enunciado": "In the last paragraph, the word 'sensible' is closest in meaning to:",
+        "opciones": {
+          "A": "emotional and sensitive",
+          "B": "practical and reasonable",
+          "C": "expensive and luxurious"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "En el contexto ('the most sensible way to deal with...'), describe una decisión práctica y razonable.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Sensible' en inglés no significa 'sensible' emocionalmente (es un falso amigo); aquí significa 'sensato'.",
+            "patron_trampa": "falso_amigo"
+          },
+          "C": {
+            "explicacion": "El texto describe vivir bajo tierra como una opción más barata, no lujosa.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P5-TEXTO-003",
+    "modulo": "ingles",
+    "parte": 5,
+    "tipo": "comprension_basica",
+    "nivel_mcer": "B1",
+    "texto_base": "Every spring, streets across India and parts of Nepal fill with clouds of bright pink, yellow, green, and blue powder as people celebrate Holi, one of the most colorful festivals in the world. Known as the Festival of Colors, Holi marks the arrival of spring and celebrates the victory of good over evil, according to ancient Hindu stories passed down through generations.\n\nThe celebration usually lasts two days. On the first evening, communities gather around large bonfires, a tradition known as Holika Dahan, which symbolizes the burning away of negativity and evil. The following morning, the real fun begins: people take to the streets armed with colored powder and water, throwing it playfully at friends, family members, and even strangers. By midday, entire neighborhoods look like a rainbow, with participants covered from head to toe in bright pigment.\n\nAlthough Holi has deep religious roots, today it is celebrated by people of many different backgrounds and beliefs, and it has become a symbol of unity and joy rather than a strictly religious event. During the festival, social boundaries tend to relax; it is common to see people who wouldn't normally interact — neighbors, coworkers, or even strangers — laughing and celebrating together, covered in the same colors. This is part of what makes Holi so special: for one day, differences in wealth, age, or social status seem to matter much less.\n\nFood also plays a major role in the celebration. Sweet treats made from milk and sugar are shared generously among neighbors, and many families prepare a traditional drink flavored with spices, which adds to the festive mood in many regions.\n\nIn recent years, Holi celebrations have spread far beyond South Asia, with cities around the world hosting their own color festivals inspired by the tradition. While these international versions often focus more on music and fun than religious meaning, they still capture the spirit of the original celebration: bringing people together, regardless of background, for a joyful, colorful start to the new season.",
+    "preguntas": [
+      {
+        "num": 1,
+        "habilidad": "informacion_explicita",
+        "enunciado": "What does the bonfire ceremony on the first evening of Holi symbolize?",
+        "opciones": {
+          "A": "The end of the harvest season.",
+          "B": "A wedding ceremony between two families.",
+          "C": "The burning away of negativity and evil."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto dice explícitamente que Holika Dahan 'symbolizes the burning away of negativity and evil.'",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no menciona la cosecha en absoluto.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "B": {
+            "explicacion": "No hay ninguna mención de una boda relacionada con esta ceremonia.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "habilidad": "vocabulario_en_contexto",
+        "enunciado": "In the third paragraph, the word 'boundaries' is closest in meaning to:",
+        "opciones": {
+          "A": "limits or divisions between groups",
+          "B": "colorful powders",
+          "C": "religious traditions"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "En el contexto ('social boundaries tend to relax'), se refiere a las divisiones entre grupos sociales.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Boundaries' no se refiere a los polvos de colores; se refiere a divisiones sociales.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "El texto habla de tradiciones en otro momento, pero 'boundaries' se refiere específicamente a límites sociales.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "habilidad": "referencia_pronominal",
+        "enunciado": "In the sentence 'people who wouldn't normally interact... laughing and celebrating together, covered in the same colors,' what does 'the same colors' refer to?",
+        "opciones": {
+          "A": "the colors of traditional clothing",
+          "B": "the colored powder used during Holi",
+          "C": "the colors of the bonfire flames"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Se refiere al polvo de colores usado durante la celebración, mencionado varias veces como el elemento central de Holi.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no menciona ropa tradicional de colores específicos.",
+            "patron_trampa": "referencia_incorrecta"
+          },
+          "C": {
+            "explicacion": "Las llamas se mencionan en un párrafo anterior sobre un evento distinto (la noche anterior).",
+            "patron_trampa": "referencia_incorrecta"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "habilidad": "informacion_explicita",
+        "enunciado": "According to the text, how has Holi changed in recent years?",
+        "opciones": {
+          "A": "It has become a strictly private religious ceremony.",
+          "B": "It has been banned in most major cities.",
+          "C": "It has spread to cities around the world beyond South Asia."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto dice explícitamente que 'Holi celebrations have spread far beyond South Asia.'",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto describe justamente lo contrario: se ha vuelto menos estrictamente religioso y más inclusivo.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "No hay ninguna mención de que el festival haya sido prohibido.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "habilidad": "idea_principal",
+        "enunciado": "What is the main idea of this text?",
+        "opciones": {
+          "A": "Holi is a joyful festival that brings people together across social and cultural differences.",
+          "B": "Holi is a religious ceremony that only Hindu families are allowed to celebrate.",
+          "C": "Holi celebrations are dangerous because of the large bonfires."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El texto describe repetidamente cómo Holi une a personas de distintos orígenes en una celebración conjunta y alegre.",
+        "distractores": {
+          "B": {
+            "explicacion": "El texto dice que hoy personas de muchos orígenes celebran Holi, no solo familias hindúes.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "El texto no presenta las hogueras como peligrosas; las describe como parte simbólica de la celebración.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 6,
+        "habilidad": "informacion_explicita",
+        "enunciado": "What role does food play during Holi, according to the text?",
+        "opciones": {
+          "A": "Families fast completely for the two days of the festival.",
+          "B": "Sweet treats and a traditional spiced drink are shared among neighbors.",
+          "C": "Only rice dishes are allowed to be eaten during the celebration."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto menciona que 'sweet treats... are shared generously among neighbors' y una bebida tradicional con especias.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no menciona ningún ayuno; describe comida y bebidas compartidas alegremente.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "C": {
+            "explicacion": "No hay ninguna mención de restricciones alimenticias relacionadas con el arroz.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 7,
+        "habilidad": "vocabulario_en_contexto",
+        "enunciado": "In the last paragraph, the word 'inspired by' is closest in meaning to:",
+        "opciones": {
+          "A": "completely different from",
+          "B": "opposed to",
+          "C": "based on or influenced by"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "En el contexto ('their own color festivals inspired by the tradition'), significa basado en o influenciado por la tradición original.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Inspired by' no significa lo opuesto; indica una conexión directa con la tradición original.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "'Inspired by' no tiene un sentido de oposición; describe una influencia positiva.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P5-TEXTO-004",
+    "modulo": "ingles",
+    "parte": 5,
+    "tipo": "comprension_basica",
+    "nivel_mcer": "A2",
+    "texto_base": "Daniel Reyes used to spend almost two hours a day sitting in traffic on his way to and from work. Like many people in his city, he had never seriously considered any other way of getting around — driving was simply what everyone did. That changed three years ago, when a bad case of stress and a doctor's warning about his health pushed him to try something different.\n\nAt first, the idea of cycling nearly twelve kilometers each way seemed exhausting, if not slightly ridiculous. Daniel bought a basic secondhand bicycle and told himself he would try it for just one week, mostly to prove to his doctor that he had made an effort. To his surprise, that first week left him feeling more energized than he had in years, despite the sore muscles and the awkward experience of arriving at the office slightly sweaty.\n\nWithin a month, Daniel noticed several unexpected changes. His commute, once a source of constant frustration, had become the best part of his day. He started noticing small details about his city that he had never paid attention to while driving: a quiet park he had passed hundreds of times without seeing it properly, a bakery with a line of regular customers every morning, neighbors who waved as he rode past. The bicycle had somehow made his daily routine feel less like an obligation and more like a small adventure.\n\nThere were challenges, of course. Rainy days required proper gear, and some drivers were not always careful around cyclists. Daniel eventually joined a local group of bicycle commuters, who shared tips about safe routes and helped push the city government to build more dedicated bike lanes. Over time, what had started as a personal health decision turned into something bigger: Daniel became an active voice in his community, arguing that better cycling infrastructure would benefit everyone, not just cyclists.\n\nToday, Daniel rarely uses his car at all, reserving it mostly for trips outside the city. He often tells friends who complain about traffic that switching to a bicycle didn't just save him time and money — it completely changed how he experiences his own city, one street at a time.",
+    "preguntas": [
+      {
+        "num": 1,
+        "habilidad": "informacion_explicita",
+        "enunciado": "What originally motivated Daniel to start cycling?",
+        "opciones": {
+          "A": "Stress and a doctor's warning about his health.",
+          "B": "A new law that banned cars in the city.",
+          "C": "A friend who offered him a free bicycle."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El texto dice explícitamente que 'a bad case of stress and a doctor's warning about his health pushed him to try something different.'",
+        "distractores": {
+          "B": {
+            "explicacion": "No hay ninguna mención de una ley que prohíba los autos.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "C": {
+            "explicacion": "El texto dice que Daniel compró una bicicleta usada básica, no que un amigo se la regalara.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "habilidad": "vocabulario_en_contexto",
+        "enunciado": "In the second paragraph, the word 'ridiculous' is closest in meaning to:",
+        "opciones": {
+          "A": "expensive",
+          "B": "silly or unreasonable",
+          "C": "dangerous"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "En el contexto ('seemed exhausting, if not slightly ridiculous'), describe algo que parece absurdo o poco razonable.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Ridiculous' no tiene relación con el costo.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Ridiculous' no significa peligroso; describe algo que parece absurdo.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "habilidad": "referencia_pronominal",
+        "enunciado": "In the sentence 'a quiet park he had passed hundreds of times without seeing it properly,' what does 'it' refer to?",
+        "opciones": {
+          "A": "the bicycle",
+          "B": "the city",
+          "C": "the park"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'It' se refiere a 'a quiet park', el sustantivo singular más cercano mencionado justo antes.",
+        "distractores": {
+          "A": {
+            "explicacion": "La bicicleta se menciona en otras partes del texto, pero aquí 'it' se refiere al parque.",
+            "patron_trampa": "referencia_incorrecta"
+          },
+          "B": {
+            "explicacion": "La ciudad es un tema general, pero 'it' reemplaza específicamente al sustantivo más cercano: 'park'.",
+            "patron_trampa": "referencia_incorrecta"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "habilidad": "informacion_explicita",
+        "enunciado": "What did Daniel's local cycling group help achieve?",
+        "opciones": {
+          "A": "They helped push the city government to build more bike lanes.",
+          "B": "They organized a citywide ban on cars.",
+          "C": "They opened a bicycle repair shop together."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El texto dice explícitamente que el grupo 'helped push the city government to build more dedicated bike lanes.'",
+        "distractores": {
+          "B": {
+            "explicacion": "No hay ninguna mención de una prohibición de autos en la ciudad.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "C": {
+            "explicacion": "El texto no menciona que el grupo haya abierto ningún negocio.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "habilidad": "idea_principal",
+        "enunciado": "What is the main idea of this text?",
+        "opciones": {
+          "A": "Cycling to work is always faster than driving in a big city.",
+          "B": "Switching from driving to cycling transformed Daniel's health, daily routine, and connection to his community.",
+          "C": "Daniel regrets giving up his car and plans to start driving again soon."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto describe cómo el cambio de Daniel mejoró su salud, transformó su rutina y lo conectó más con su comunidad.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no compara directamente los tiempos de viaje entre conducir y pedalear.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "C": {
+            "explicacion": "El texto dice justamente lo contrario: Daniel rara vez usa su auto ahora.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 6,
+        "habilidad": "informacion_explicita",
+        "enunciado": "According to the text, what challenge did Daniel face while cycling?",
+        "opciones": {
+          "A": "His bicycle was stolen twice in one year.",
+          "B": "He was not allowed to cycle on most streets in his city.",
+          "C": "Some drivers were not always careful around cyclists."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto menciona explícitamente que 'some drivers were not always careful around cyclists.'",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no menciona ningún robo de bicicleta.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "B": {
+            "explicacion": "No hay ninguna mención de restricciones legales sobre dónde podía pedalear.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 7,
+        "habilidad": "vocabulario_en_contexto",
+        "enunciado": "In the last paragraph, the phrase 'one street at a time' is closest in meaning to:",
+        "opciones": {
+          "A": "gradually, little by little",
+          "B": "very quickly and suddenly",
+          "C": "only during weekends"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "En el contexto, la expresión sugiere un proceso gradual de descubrimiento, calle por calle.",
+        "distractores": {
+          "B": {
+            "explicacion": "La expresión no sugiere rapidez; transmite un proceso lento y progresivo.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "La expresión no tiene relación con los fines de semana.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P5-TEXTO-005",
+    "modulo": "ingles",
+    "parte": 5,
+    "tipo": "comprension_basica",
+    "nivel_mcer": "B1",
+    "texto_base": "When Elena lost most of her vision in her thirties due to a genetic condition, she assumed her days of walking confidently through the city were over. For nearly two years, she relied entirely on a white cane and the help of family members, rarely leaving her apartment alone. Everything changed the day she met Max, a golden retriever trained specifically to guide people who are blind or have low vision.\n\nTraining with a guide dog is a demanding process, both for the dog and for its future owner. Before Elena even met Max, he had already spent almost eighteen months learning specific commands, how to safely stop at curbs, and how to avoid obstacles that might not be visible to his handler. Once matched together, Elena and Max spent several intense weeks training as a team, learning to trust each other completely — something that does not happen overnight.\n\nAccording to Elena, the hardest part was not learning the commands but learning to trust a dog's judgment over her own instincts. Guide dogs are trained to disobey a command if following it would put their handler in danger, a skill known as \"intelligent disobedience.\" The first time Max refused to move forward at a crosswalk, even though Elena believed it was safe, she felt frustrated. Seconds later, a car turned quickly around the corner, and she understood exactly why he had stopped.\n\nBeyond safety, Max gave Elena something she hadn't expected: a renewed sense of independence. She began taking walks alone again, running errands without waiting for someone to accompany her, and even returned to a part-time job that required commuting across the city. Max seemed to enjoy his work as much as Elena appreciated it, wagging his tail enthusiastically every time his harness came out, a clear signal that it was time to go outside.\n\nNot everyone understands the responsibilities that come with owning a guide dog. Elena often has to explain to strangers that Max is working and should not be petted or distracted, even when he looks friendly and approachable. Despite these small frustrations, she describes her life with Max simply: before him, she navigated the world cautiously and often alone; now, she moves through it with a steady, four-legged companion by her side.",
+    "preguntas": [
+      {
+        "num": 1,
+        "habilidad": "informacion_explicita",
+        "enunciado": "How long had Max been training before he met Elena?",
+        "opciones": {
+          "A": "Two years.",
+          "B": "Almost eighteen months.",
+          "C": "A few weeks."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto dice explícitamente que Max 'had already spent almost eighteen months learning specific commands.'",
+        "distractores": {
+          "A": {
+            "explicacion": "Los dos años mencionados se refieren al tiempo que Elena dependió de un bastón blanco, no al entrenamiento de Max.",
+            "patron_trampa": "referencia_incorrecta"
+          },
+          "C": {
+            "explicacion": "Las 'varias semanas intensas' se refieren al entrenamiento conjunto de Elena y Max, no al entrenamiento previo de Max solo.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "habilidad": "vocabulario_en_contexto",
+        "enunciado": "In the third paragraph, the phrase 'intelligent disobedience' refers to:",
+        "opciones": {
+          "A": "a dog's tendency to ignore all commands",
+          "B": "a training method used only for puppies",
+          "C": "a guide dog's ability to refuse a command when it would be dangerous"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto explica directamente que es 'a skill known as intelligent disobedience' para desobedecer cuando hay peligro.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto aclara que esto no es ignorar todos los comandos, sino desobedecer específicamente cuando hay peligro.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "No hay ninguna mención de que esta habilidad se use solo con cachorros.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "habilidad": "referencia_pronominal",
+        "enunciado": "In the sentence 'The first time Max refused to move forward at a crosswalk, even though Elena believed it was safe, she felt frustrated,' what does 'it' refer to?",
+        "opciones": {
+          "A": "crossing the street at that moment",
+          "B": "the guide dog training program",
+          "C": "Elena's apartment"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Se refiere a la situación de cruzar la calle en ese momento específico, que Elena creía segura.",
+        "distractores": {
+          "B": {
+            "explicacion": "El programa de entrenamiento no es lo que Elena consideraba 'seguro' en esa oración específica.",
+            "patron_trampa": "referencia_incorrecta"
+          },
+          "C": {
+            "explicacion": "El apartamento de Elena no tiene relación con esta oración sobre cruzar la calle.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "habilidad": "informacion_explicita",
+        "enunciado": "What unexpected benefit did Max give Elena, according to the text?",
+        "opciones": {
+          "A": "A significant increase in her income.",
+          "B": "A renewed sense of independence.",
+          "C": "A new group of close friends."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto dice explícitamente que Max le dio a Elena 'a renewed sense of independence.'",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no menciona ningún cambio en los ingresos de Elena.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "C": {
+            "explicacion": "El texto no menciona que Elena haya hecho nuevas amistades cercanas gracias a Max.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "habilidad": "idea_principal",
+        "enunciado": "What is the main idea of this text?",
+        "opciones": {
+          "A": "Training guide dogs is more difficult than training any other type of service animal.",
+          "B": "Elena believes strangers should be allowed to pet working guide dogs.",
+          "C": "A guide dog helped Elena regain independence and safely navigate the world after losing her vision."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto narra cómo Max le devolvió a Elena independencia y seguridad después de perder la vista.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no compara el entrenamiento de perros guía con el de otros animales de servicio.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "B": {
+            "explicacion": "El texto dice justamente lo contrario: Elena explica que NO deben acariciar a Max mientras trabaja.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 6,
+        "habilidad": "informacion_explicita",
+        "enunciado": "What does Elena often have to explain to strangers?",
+        "opciones": {
+          "A": "That Max is working and should not be petted or distracted.",
+          "B": "That Max is not actually a trained guide dog.",
+          "C": "That she prefers to walk without any assistance at all."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El texto dice explícitamente que 'Elena often has to explain to strangers that Max is working and should not be petted.'",
+        "distractores": {
+          "B": {
+            "explicacion": "El texto deja claro que Max sí es un perro guía entrenado.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "C": {
+            "explicacion": "El texto muestra que Elena valora mucho la ayuda de Max.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 7,
+        "habilidad": "vocabulario_en_contexto",
+        "enunciado": "In the last paragraph, the word 'steady' is closest in meaning to:",
+        "opciones": {
+          "A": "fast and energetic",
+          "B": "reliable and constant",
+          "C": "expensive to maintain"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "En el contexto ('a steady, four-legged companion'), describe algo confiable y constante.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Steady' no significa rápido o enérgico; describe estabilidad y confiabilidad.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Steady' no tiene relación con el costo de mantener al perro.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P5-TEXTO-006",
+    "modulo": "ingles",
+    "parte": 5,
+    "tipo": "comprension_basica",
+    "nivel_mcer": "B1",
+    "texto_base": "Long before sunrise, while most people are still asleep, Carla Jiménez is already hiking through the forest with a heavy camera bag on her back. As a wildlife photographer, she has learned that the best opportunities to photograph animals happen during the early morning hours, when many species are most active and the soft light creates the most striking images.\n\nCarla's work looks glamorous in photographs, but the reality involves long hours of waiting, often in uncomfortable conditions. On a typical assignment, she might spend six or seven hours sitting quietly in a hidden shelter, watching a nest or a watering hole, hoping that an animal will eventually appear. Some days, nothing happens at all, and she returns home without a single usable photograph. Patience, she often says, is more important to her job than any piece of equipment.\n\nBefore becoming a full-time photographer, Carla studied biology at university, a background that turned out to be extremely useful. Understanding animal behavior allows her to predict where a creature is likely to go or how it might react to her presence, helping her get closer without disturbing it. She insists that respecting the animals always comes before getting a good shot; if approaching a nest or a den seems likely to stress the animals, she will back away, even if it means missing an important photograph.\n\nWeather is another constant challenge. Carla has spent entire days lying in mud during a rainstorm, waiting for a specific bird to return to its nest, and she has also endured freezing temperatures in mountain regions to photograph animals that only appear during winter. She keeps several sets of equipment, since cameras and lenses can easily be damaged by extreme humidity or cold.\n\nDespite the physical demands, Carla says she wouldn't trade her career for anything. The moments when everything comes together — the right light, the right angle, an animal behaving naturally, unaware of her presence — make all the difficult waiting worthwhile. She hopes her photographs do more than simply look beautiful; she wants them to help people care about protecting the wild spaces where these animals live, many of which are disappearing faster than most people realize.",
+    "preguntas": [
+      {
+        "num": 1,
+        "habilidad": "informacion_explicita",
+        "enunciado": "Why does Carla often work during the early morning hours?",
+        "opciones": {
+          "A": "Because it is the only time she is allowed to enter the forest.",
+          "B": "Because her camera equipment works better in cooler temperatures.",
+          "C": "Because many animals are most active then and the light is ideal for photos."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto dice explícitamente que en la mañana 'many species are most active and the soft light creates the most striking images.'",
+        "distractores": {
+          "A": {
+            "explicacion": "No hay ninguna mención de restricciones sobre cuándo puede entrar al bosque.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "B": {
+            "explicacion": "El texto no relaciona el funcionamiento del equipo con la temperatura de la mañana.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "habilidad": "vocabulario_en_contexto",
+        "enunciado": "In the second paragraph, the word 'glamorous' is closest in meaning to:",
+        "opciones": {
+          "A": "attractive and exciting",
+          "B": "dangerous and risky",
+          "C": "boring and repetitive"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "En el contexto ('looks glamorous in photographs'), describe algo que parece atractivo y emocionante desde fuera.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Glamorous' no significa peligroso; describe una apariencia atractiva.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "El texto usa 'glamorous' para describir cómo se ve el trabajo desde fuera, no la realidad misma.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "habilidad": "referencia_pronominal",
+        "enunciado": "In the sentence 'if approaching a nest or a den seems likely to stress the animals, she will back away, even if it means missing an important photograph,' what does 'it' refer to?",
+        "opciones": {
+          "A": "studying biology at university",
+          "B": "backing away from the nest or den",
+          "C": "the camera equipment"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'It' se refiere a la acción de retroceder mencionada justo antes en la misma oración.",
+        "distractores": {
+          "A": {
+            "explicacion": "Estudiar biología se menciona en el párrafo anterior, sobre un tema distinto.",
+            "patron_trampa": "referencia_incorrecta"
+          },
+          "C": {
+            "explicacion": "El equipo de cámara no es el tema de esta oración específica sobre retroceder.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "habilidad": "informacion_explicita",
+        "enunciado": "What did Carla study before becoming a full-time photographer?",
+        "opciones": {
+          "A": "Fine arts and photography.",
+          "B": "Environmental law.",
+          "C": "Biology."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto dice explícitamente que 'Carla studied biology at university.'",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no menciona estudios formales de fotografía o bellas artes.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "B": {
+            "explicacion": "No hay ninguna mención de estudios de derecho ambiental.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "habilidad": "idea_principal",
+        "enunciado": "What is the main idea of this text?",
+        "opciones": {
+          "A": "Wildlife photography requires patience, knowledge, and respect for animals, often involving difficult conditions behind the beautiful final images.",
+          "B": "Wildlife photography is a simple job that anyone can do with the right camera.",
+          "C": "Carla plans to quit wildlife photography because of the physical demands."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El texto describe repetidamente la paciencia, el conocimiento y el respeto que requiere este trabajo, junto con sus condiciones difíciles.",
+        "distractores": {
+          "B": {
+            "explicacion": "El texto describe justamente lo contrario: un trabajo exigente que requiere condiciones difíciles.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "El texto dice claramente que ella 'wouldn't trade her career for anything.'",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 6,
+        "habilidad": "informacion_explicita",
+        "enunciado": "According to the text, what does Carla hope her photographs accomplish?",
+        "opciones": {
+          "A": "Win international photography awards.",
+          "B": "Help people care about protecting wild spaces.",
+          "C": "Convince zoos to release their animals into the wild."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto dice explícitamente que ella quiere que sus fotos 'help people care about protecting the wild spaces.'",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no menciona ningún interés en ganar premios de fotografía.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "C": {
+            "explicacion": "No hay ninguna mención de zoológicos ni de liberar animales.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 7,
+        "habilidad": "vocabulario_en_contexto",
+        "enunciado": "In the last paragraph, the word 'worthwhile' is closest in meaning to:",
+        "opciones": {
+          "A": "extremely expensive",
+          "B": "completely unnecessary",
+          "C": "valuable enough to justify the effort"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "En el contexto ('make all the difficult waiting worthwhile'), significa que algo justifica el esfuerzo invertido.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Worthwhile' no tiene relación con el costo económico.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "'Worthwhile' tiene el sentido opuesto a innecesario.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P5-TEXTO-007",
+    "modulo": "ingles",
+    "parte": 5,
+    "tipo": "comprension_basica",
+    "nivel_mcer": "A2",
+    "texto_base": "When a large chain bookstore opened just two blocks away, most people assumed that Page One, a small independent bookshop that had operated in the same neighborhood for over twenty years, would soon be forced to close. Owner Robert Kim admits that he seriously considered shutting down during that first difficult year, as sales dropped by nearly forty percent.\n\nInstead of trying to compete directly with the chain's lower prices and wider selection, Robert decided to focus on what his shop could offer that a large store could not: a genuine sense of community. He began hosting free weekly events, including book clubs, poetry readings, and story time sessions for young children, turning the shop into a gathering place rather than simply somewhere to buy books.\n\nRobert also made a point of getting to know his regular customers personally, remembering their favorite authors and genres well enough to recommend new titles they hadn't even heard of yet. This kind of personal attention, he explains, is something a larger store with rotating staff simply cannot replicate. Customers began returning not just to buy books, but to chat, ask for recommendations, and feel like part of something.\n\nSlowly, Page One began to recover. Local authors started asking to host their book launches there instead of at the larger chain, appreciating the more intimate atmosphere and Robert's genuine enthusiasm for their work. Word of mouth spread, and people from other neighborhoods started making special trips to visit the shop, drawn by its reputation as a warm, welcoming space rather than just another place to buy books.\n\nFive years after the chain store's arrival, Page One is not only still open but has expanded, taking over the space next door to make room for a small café where customers can read while enjoying coffee. Ironically, the chain bookstore that once seemed like such a threat closed its doors last year, unable to compete with online retailers.\n\nRobert often tells other small business owners that trying to beat a large competitor at its own game rarely works. Instead, he suggests finding what makes a small business special and building on that, even if it means moving more slowly than the competition.",
+    "preguntas": [
+      {
+        "num": 1,
+        "habilidad": "informacion_explicita",
+        "enunciado": "What happened to Page One's sales after the chain bookstore opened nearby?",
+        "opciones": {
+          "A": "They dropped by nearly forty percent.",
+          "B": "They increased significantly.",
+          "C": "They stayed exactly the same."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El texto dice explícitamente que 'sales dropped by nearly forty percent.'",
+        "distractores": {
+          "B": {
+            "explicacion": "El texto describe una caída en las ventas, no un aumento.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "El texto indica un cambio significativo, no que las ventas se mantuvieran iguales.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "habilidad": "vocabulario_en_contexto",
+        "enunciado": "In the third paragraph, the word 'replicate' is closest in meaning to:",
+        "opciones": {
+          "A": "sell at a lower price",
+          "B": "copy or reproduce",
+          "C": "advertise widely"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "En el contexto ('simply cannot replicate'), significa copiar o reproducir algo.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Replicate' no tiene relación con el precio.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Replicate' no significa publicitar; se refiere a la imposibilidad de copiar algo específico.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "habilidad": "referencia_pronominal",
+        "enunciado": "In the sentence 'Local authors started asking to host their book launches there instead of at the larger chain,' what does 'there' refer to?",
+        "opciones": {
+          "A": "the customers' homes",
+          "B": "the neighborhood in general",
+          "C": "Page One bookshop"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'There' se refiere a Page One, el lugar alternativo preferido por los autores locales.",
+        "distractores": {
+          "A": {
+            "explicacion": "No hay ninguna mención de lanzamientos de libros en las casas de los clientes.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "B": {
+            "explicacion": "El vecindario no es el lugar específico donde se organizan los lanzamientos; es Page One específicamente.",
+            "patron_trampa": "referencia_incorrecta"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "habilidad": "informacion_explicita",
+        "enunciado": "What eventually happened to the large chain bookstore?",
+        "opciones": {
+          "A": "It closed because it couldn't compete with online retailers.",
+          "B": "It merged with Page One to form one large store.",
+          "C": "It moved to a different neighborhood."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El texto dice explícitamente que la cadena 'closed its doors last year, unable to compete with online retailers.'",
+        "distractores": {
+          "B": {
+            "explicacion": "El texto no menciona ninguna fusión; describe a Page One expandiéndose por su cuenta.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "C": {
+            "explicacion": "El texto dice que la tienda cerró completamente, no que se mudara.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "habilidad": "idea_principal",
+        "enunciado": "What is the main idea of this text?",
+        "opciones": {
+          "A": "Large chain bookstores always eventually fail in small neighborhoods.",
+          "B": "A small bookshop survived competition from a large chain by focusing on community and personal connection rather than competing on price.",
+          "C": "Robert Kim regrets not closing his bookshop when sales first dropped."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto narra cómo Page One sobrevivió centrándose en la comunidad y la atención personal en vez de competir en precio.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no afirma que esto sea siempre el caso para todas las cadenas grandes.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "El texto no menciona ningún arrepentimiento; su decisión de perseverar resultó exitosa.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 6,
+        "habilidad": "informacion_explicita",
+        "enunciado": "How did Page One expand five years after the chain store's arrival?",
+        "opciones": {
+          "A": "By opening several new locations in other cities.",
+          "B": "By selling books exclusively online.",
+          "C": "By taking over the space next door to add a small café."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto dice explícitamente que Page One 'has expanded, taking over the space next door to make room for a small café.'",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no menciona ninguna expansión a otras ciudades.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "B": {
+            "explicacion": "El texto no menciona que la librería haya pasado a vender exclusivamente en línea.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 7,
+        "habilidad": "vocabulario_en_contexto",
+        "enunciado": "In the last paragraph, the phrase 'building on that' is closest in meaning to:",
+        "opciones": {
+          "A": "developing and expanding a particular strength",
+          "B": "constructing a new building",
+          "C": "borrowing money from a bank"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "En el contexto ('finding what makes a small business special and building on that'), significa desarrollar esa característica especial.",
+        "distractores": {
+          "B": {
+            "explicacion": "La expresión no se refiere a construcción física.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "No hay relación con préstamos bancarios.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P5-TEXTO-008",
+    "modulo": "ingles",
+    "parte": 5,
+    "tipo": "comprension_basica",
+    "nivel_mcer": "B1",
+    "texto_base": "In the city of Barcelona, a massive cathedral has been under construction for more than 140 years, and it is still not finished. The Sagrada Família, designed by architect Antoni Gaudí, is one of the most visited religious buildings in the world, even though tourists who visit it today are, technically, looking at a construction site.\n\nGaudí took over the project in 1883, just a year after construction had begun, and dedicated more than forty years of his life to the design. He knew he would never see it completed, once reportedly telling a visitor that his client — meaning God — was in no hurry. When Gaudí died unexpectedly in 1926, after being hit by a tram, construction had barely started on some of the building's most ambitious sections.\n\nWork continued slowly over the following decades, interrupted at various points by the Spanish Civil War, which destroyed many of Gaudí's original drawings and models. Architects who came after him had to reconstruct much of his vision using photographs, damaged fragments of plaster models, and their best understanding of his unfinished notes. This process required enormous patience, since even small design decisions had to be carefully researched to remain faithful to Gaudí's original ideas.\n\nFor most of its history, the Sagrada Família was funded almost entirely by private donations rather than government money, which partly explains why construction has moved so slowly compared to other major building projects. In recent decades, however, the millions of tourists who pay to visit the site each year have provided a much larger and steadier source of funding, dramatically speeding up construction.\n\nArchitects now estimate that the main structure could finally be completed sometime in the next few years, more than a century after construction began, although certain decorative details may take additional years to finish afterward. When completed, it will be the tallest religious building in Europe, deliberately designed to remain slightly shorter than the highest hill in Barcelona, since Gaudí believed that no human construction should surpass the work of God.\n\nFor many visitors, the building's unfinished state is part of its appeal. Walking through the Sagrada Família means witnessing something rare: a masterpiece that is, quite literally, still being created.",
+    "preguntas": [
+      {
+        "num": 1,
+        "habilidad": "informacion_explicita",
+        "enunciado": "Who designed the Sagrada Família?",
+        "opciones": {
+          "A": "The Spanish government.",
+          "B": "Antoni Gaudí.",
+          "C": "A group of tourists."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto dice explícitamente que la Sagrada Família fue 'designed by architect Antoni Gaudí.'",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto explica que la construcción se financió con donaciones privadas, no que el gobierno la haya diseñado.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "C": {
+            "explicacion": "El texto no sugiere que los turistas hayan participado en el diseño.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "habilidad": "vocabulario_en_contexto",
+        "enunciado": "In the third paragraph, the word 'faithful' is closest in meaning to:",
+        "opciones": {
+          "A": "religious and spiritual",
+          "B": "quick and efficient",
+          "C": "accurate and true to the original"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "En el contexto ('to remain faithful to Gaudí's original ideas'), significa mantenerse fiel o preciso respecto a las ideas originales.",
+        "distractores": {
+          "A": {
+            "explicacion": "Aunque el edificio es una catedral, 'faithful' aquí no se refiere a religión, sino a precisión.",
+            "patron_trampa": "falso_amigo"
+          },
+          "B": {
+            "explicacion": "'Faithful' no tiene relación con la velocidad del proceso.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "habilidad": "referencia_pronominal",
+        "enunciado": "In the sentence 'he would never see it completed, once reportedly telling a visitor that his client... was in no hurry,' what does 'it' refer to?",
+        "opciones": {
+          "A": "the construction of the Sagrada Família",
+          "B": "the tram that hit Gaudí",
+          "C": "the Spanish Civil War"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'It' se refiere a la construcción de la Sagrada Família, el proyecto que Gaudí sabía que no vería terminado.",
+        "distractores": {
+          "B": {
+            "explicacion": "El tranvía se menciona más adelante, en un contexto distinto (la muerte de Gaudí).",
+            "patron_trampa": "referencia_incorrecta"
+          },
+          "C": {
+            "explicacion": "La Guerra Civil se menciona en el párrafo siguiente, sobre un tema distinto.",
+            "patron_trampa": "referencia_incorrecta"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "habilidad": "informacion_explicita",
+        "enunciado": "What happened to many of Gaudí's original drawings and models?",
+        "opciones": {
+          "A": "They were sold to a museum in another country.",
+          "B": "They were destroyed during the Spanish Civil War.",
+          "C": "They were completed by Gaudí before his death."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto dice explícitamente que la Guerra Civil 'destroyed many of Gaudí's original drawings and models.'",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no menciona ninguna venta de los diseños a un museo.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "C": {
+            "explicacion": "El texto indica que muchas secciones apenas habían comenzado cuando Gaudí murió.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "habilidad": "idea_principal",
+        "enunciado": "What is the main idea of this text?",
+        "opciones": {
+          "A": "Antoni Gaudí completed the Sagrada Família entirely before his death in 1926.",
+          "B": "The Sagrada Família is no longer open to tourists due to ongoing construction.",
+          "C": "The Sagrada Família's construction has taken over a century due to its ambitious design, historical interruptions, and funding challenges, but it is nearing completion."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto explica las razones históricas, artísticas y de financiamiento detrás de la larga construcción, y menciona que se acerca a su finalización.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto dice claramente que Gaudí murió sin haber visto el edificio terminado.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "El texto dice justamente lo contrario: millones de turistas visitan el sitio cada año.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 6,
+        "habilidad": "informacion_explicita",
+        "enunciado": "Why is the Sagrada Família designed to be shorter than the highest hill in Barcelona?",
+        "opciones": {
+          "A": "Because Gaudí believed no human construction should surpass the work of God.",
+          "B": "Because local building laws prohibit taller structures.",
+          "C": "Because a taller design would have been too expensive to build."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El texto dice explícitamente que esto se debe a que 'Gaudí believed that no human construction should surpass the work of God.'",
+        "distractores": {
+          "B": {
+            "explicacion": "El texto no menciona ninguna ley de construcción local que limite la altura.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "C": {
+            "explicacion": "El texto no menciona el costo como razón para esta decisión de diseño.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 7,
+        "habilidad": "vocabulario_en_contexto",
+        "enunciado": "In the last paragraph, the word 'appeal' is closest in meaning to:",
+        "opciones": {
+          "A": "a formal complaint",
+          "B": "attractiveness or charm",
+          "C": "a request for money"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "En el contexto ('part of its appeal'), significa el atractivo que tiene el edificio para los visitantes.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Appeal' aquí no significa una apelación legal o queja formal.",
+            "patron_trampa": "falso_amigo"
+          },
+          "C": {
+            "explicacion": "'Appeal' en este contexto no se relaciona con pedir dinero.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      }
+    ]
+  }
+]

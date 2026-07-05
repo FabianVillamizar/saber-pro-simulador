@@ -1,8 +1,9 @@
 .heatmap {
   display: flex;
   gap: 3px;
+  width: max-content;
   overflow-x: auto;
-  padding-bottom: 0.25rem;
+  padding-bottom: 2px;
 }
 
 .heatmap-columna {
@@ -14,37 +15,48 @@
 .heatmap-celda {
   width: 11px;
   height: 11px;
-  border-radius: 2px;
-  background: var(--surface);
-  border: 1px solid var(--border);
+  border-radius: 3px;
+  background: var(--border);
+}
+
+.heatmap-celda--nivel0 {
+  background: var(--border);
+}
+
+.heatmap-celda--nivel1 {
+  background: color-mix(in oklch, var(--accent) 32%, var(--mix-base));
+}
+
+.heatmap-celda--nivel2 {
+  background: color-mix(in oklch, var(--accent) 55%, var(--mix-base));
+}
+
+.heatmap-celda--nivel3 {
+  background: color-mix(in oklch, var(--accent) 78%, var(--mix-base));
+}
+
+.heatmap-celda--nivel4 {
+  background: var(--accent);
 }
 
 .heatmap-celda--futuro {
   background: transparent;
-  border: 1px dashed var(--border);
-  opacity: 0.4;
 }
 
-.heatmap-celda--nivel0 {
-  background: var(--surface);
+.heatmap-leyenda {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
 }
 
-.heatmap-celda--nivel1 {
-  background: #0e4429;
-  border-color: #0e4429;
+.heatmap-leyenda-texto {
+  font-size: 11.5px;
+  color: var(--text-faint);
 }
 
-.heatmap-celda--nivel2 {
-  background: #006d32;
-  border-color: #006d32;
-}
-
-.heatmap-celda--nivel3 {
-  background: #26a641;
-  border-color: #26a641;
-}
-
-.heatmap-celda--nivel4 {
-  background: #39d353;
-  border-color: #39d353;
+.heatmap-leyenda-celda {
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
 }

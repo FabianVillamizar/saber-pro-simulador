@@ -1,29 +1,40 @@
 .panel-explicacion {
-  margin-top: 1rem;
-  padding: 1rem 1.25rem;
-  border-radius: 10px;
+  margin-top: 14px;
+  padding: 14px 18px;
+  border-radius: var(--radio-md);
   border: 1px solid var(--border);
 }
 
 .panel-explicacion--correcta {
-  border-color: var(--success);
-  background: rgba(52, 211, 153, 0.08);
+  border-color: color-mix(in oklch, oklch(60% 0.16 150) 30%, var(--border));
+  background: color-mix(in oklch, oklch(60% 0.16 150) 8%, var(--surface));
+}
+
+:root[data-theme='dark'] .panel-explicacion--correcta {
+  background: color-mix(in oklch, oklch(60% 0.16 150) 15%, var(--surface));
 }
 
 .panel-explicacion--incorrecta {
-  border-color: var(--error);
-  background: rgba(248, 113, 113, 0.08);
+  border-color: color-mix(in oklch, oklch(60% 0.16 20) 30%, var(--border));
+  background: color-mix(in oklch, oklch(60% 0.16 20) 8%, var(--surface));
+}
+
+:root[data-theme='dark'] .panel-explicacion--incorrecta {
+  background: color-mix(in oklch, oklch(60% 0.16 20) 15%, var(--surface));
 }
 
 .panel-explicacion-titulo {
-  font-weight: 600;
+  font-weight: 700;
   color: var(--text);
-  margin-bottom: 0.4rem;
+  margin-bottom: 6px;
+  font-size: 14.5px;
 }
 
 .panel-explicacion-cuerpo {
-  font-size: 0.9rem;
-  margin-top: 0.4rem;
+  font-size: 13.5px;
+  color: var(--text-sub);
+  line-height: 1.5;
+  margin-top: 6px;
 }
 
 .panel-explicacion-cuerpo:first-of-type {

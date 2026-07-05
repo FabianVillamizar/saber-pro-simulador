@@ -1,0 +1,37 @@
+.marca {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.marca-logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.marca-texto {
+  font-weight: 800;
+  font-size: 15.5px;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+
+.marca--grande .marca-logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 9px;
+  font-size: 15px;
+}
+
+.marca--grande .marca-texto {
+  font-size: 17px;
+}

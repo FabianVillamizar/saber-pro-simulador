@@ -1,0 +1,18 @@
+.selector-perfil {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+  flex-shrink: 0;
+  transition: border-color var(--dur-hover) ease;
+}
+
+.selector-perfil:hover {
+  border-color: var(--accent);
+}
