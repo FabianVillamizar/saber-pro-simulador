@@ -26,11 +26,13 @@ export async function cargarModulo(moduloId) {
   const itemsCrudos = []
 
   // Mismo discriminador estructural que antes: las tarjetas de concepto
-  // nunca tienen `parte`; los ítems/grupos de examen siempre la tienen.
+  // nunca tienen `parte` ni `preguntas`; los ítems/grupos de examen siempre
+  // tienen una u otra (número de parte en Inglés, array de preguntas en
+  // Competencias Ciudadanas).
   for (const modulo of archivosCargados) {
     const entradas = modulo.default ?? modulo
     for (const entrada of entradas) {
-      if ('parte' in entrada) itemsCrudos.push(entrada)
+      if ('parte' in entrada || 'preguntas' in entrada) itemsCrudos.push(entrada)
       else tarjetasConcepto.push(entrada)
     }
   }

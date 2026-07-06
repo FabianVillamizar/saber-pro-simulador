@@ -1,0 +1,887 @@
+[
+  {
+    "id": "CC-GRUPO-026",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "educacion",
+    "situacion": "Durante un consejo académico, una docente presenta el siguiente argumento para justificar la ampliación de un programa de tutorías entre pares: 'Los estudiantes que participan en el programa de tutorías mejoran su promedio académico en el semestre siguiente. Los estudiantes con mejor promedio tienen más probabilidades de graduarse a tiempo. Por lo tanto, ampliar el programa de tutorías reducirá la tasa de deserción del colegio.'",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-036",
+        "competencia": "argumentacion",
+        "bloque": "estructura_del_argumento",
+        "enunciado": "En este argumento, ¿qué papel cumple la afirmación 'los estudiantes con mejor promedio tienen más probabilidades de graduarse a tiempo'?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Es una conclusión intermedia: se deriva de la primera afirmación y, a la vez, sirve de premisa para llegar a la conclusión final sobre la deserción.",
+          "B": "Es la conclusión final de todo el argumento, ya que es la afirmación más general que se presenta.",
+          "C": "Es un supuesto implícito, porque el argumento nunca menciona explícitamente esta relación entre promedio y graduación.",
+          "D": "Es un dato de contexto irrelevante que podría eliminarse del argumento sin afectar en nada su validez."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Los argumentos en cadena tienen afirmaciones que cumplen un doble papel: son la **conclusión** de un primer paso del razonamiento y, a la vez, la **premisa** del siguiente. Aquí, la mejora en el promedio (primera premisa) lleva a esta afirmación sobre la graduación a tiempo, que a su vez sostiene la conclusión final sobre la reducción de la deserción.",
+        "distractores": {
+          "B": {
+            "explicacion": "La conclusión final del argumento es la reducción de la deserción escolar, no la afirmación sobre la graduación a tiempo, que en realidad funciona como un paso intermedio hacia esa conclusión final.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "Esta afirmación sí aparece explícitamente en el texto del argumento; un supuesto implícito es, por definición, algo que el argumento necesita pero que nunca se menciona en ninguna parte, lo cual no es el caso aquí.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "Esta afirmación no es un dato accesorio: es el eslabón que conecta la primera premisa con la conclusión final; eliminarla rompería la cadena de razonamiento entre la mejora del promedio y la reducción de la deserción.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          }
+        }
+      },
+      {
+        "id": "CC-ITEM-037",
+        "competencia": "argumentacion",
+        "bloque": "estructura_del_argumento",
+        "enunciado": "¿Qué se necesitaría verificar adicionalmente para confirmar que las premisas de este argumento, aunque parezcan razonables, realmente sostienen la conclusión sobre la reducción de la deserción?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Nada adicional, porque cada paso del argumento se sigue lógicamente y de forma automática del anterior, sin necesidad de ninguna evidencia adicional.",
+          "B": "Que exista evidencia de que la mejora en el promedio y la mayor probabilidad de graduación realmente se traduzcan en una menor deserción específicamente atribuible al programa de tutorías, y no a otros factores simultáneos.",
+          "C": "Únicamente que el colegio cuente con recursos suficientes para ampliar el programa de tutorías a todos los estudiantes interesados.",
+          "D": "Únicamente que los docentes del programa de tutorías estén de acuerdo con la propuesta de ampliación presentada en el consejo académico."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El argumento encadena varias afirmaciones plausibles, pero para que la conclusión esté genuinamente sostenida hace falta evidencia de que la cadena causal completa (tutorías → mejor promedio → graduación a tiempo → menor deserción) opere realmente así, y no que la relación se explique por otros factores que ocurren al mismo tiempo, como cambios en la composición de los estudiantes que ingresan al programa.",
+        "distractores": {
+          "A": {
+            "explicacion": "Que un argumento tenga una estructura de cadena razonable no garantiza que cada paso sea empíricamente cierto; encadenar afirmaciones plausibles no sustituye la necesidad de evidencia que confirme cada eslabón.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "C": {
+            "explicacion": "La disponibilidad de recursos es relevante para poder implementar la ampliación, pero no tiene relación con si la cadena de razonamiento presentada es empíricamente correcta, que es lo que la pregunta indaga.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "El acuerdo de los docentes con la propuesta no aporta ninguna evidencia sobre si la cadena causal entre tutorías, promedio, graduación y deserción efectivamente se cumple; es una opinión sobre la conveniencia, no una verificación de la solidez del argumento.",
+            "patron_trampa": "fuente_no_evaluada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-027",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "medio_ambiente",
+    "situacion": "Un funcionario municipal declara: 'Como este año sembramos el doble de árboles que el año pasado en la ronda del río, la calidad del agua de la cuenca mejorará significativamente en los próximos meses.'",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-038",
+        "competencia": "argumentacion",
+        "bloque": "premisas_implicitas_o_supuestos_no_explicitos",
+        "enunciado": "¿Cuál es el supuesto implícito mínimo necesario para que esta conclusión se siga de la premisa presentada?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Que el municipio cuenta con el presupuesto necesario para mantener el doble de árboles sembrados este año.",
+          "B": "Que los habitantes de la región apoyan las políticas ambientales del municipio relacionadas con la reforestación de la ronda del río.",
+          "C": "Que los árboles sembrados alcanzarán, en ese plazo, un desarrollo suficiente para generar un efecto medible sobre la calidad del agua de la cuenca.",
+          "D": "Que ningún otro factor, como vertimientos industriales, esté afectando actualmente la calidad del agua de la cuenca."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El argumento salta de 'sembramos más árboles' a 'la calidad del agua mejorará en los próximos meses' sin decir explícitamente que esos árboles, en tan poco tiempo, alcanzarán el desarrollo necesario para influir en la calidad del agua; ese es exactamente el **supuesto mínimo** que el argumento necesita para sostenerse, aunque nunca lo diga.",
+        "distractores": {
+          "A": {
+            "explicacion": "El presupuesto para mantenimiento es un dato relevante en general, pero no es el supuesto que conecta específicamente la siembra de árboles con la mejora en la calidad del agua en el plazo mencionado; es más de lo estrictamente necesario para el argumento.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "B": {
+            "explicacion": "El apoyo ciudadano a la política no tiene relación lógica con si los árboles sembrados producirán, en el plazo señalado, un efecto medible sobre la calidad del agua; este supuesto no es indispensable para que la conclusión se siga de la premisa.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "Aunque la ausencia de otros factores contaminantes sería relevante para que la mejora sea atribuible únicamente a la siembra, no es el supuesto mínimo que el argumento necesita para conectar la premisa con la conclusión sobre el efecto de los árboles en el corto plazo.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-028",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "salud_publica",
+    "situacion": "Una autoridad de salud pública afirma: 'Como esta vacuna ya fue aprobada por las agencias regulatorias de varios países desarrollados, es segura para aplicarse de inmediato a toda la población de nuestro país sin ningún estudio adicional.'",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-039",
+        "competencia": "argumentacion",
+        "bloque": "premisas_implicitas_o_supuestos_no_explicitos",
+        "enunciado": "¿Qué supuesto implícito necesita este argumento para que su conclusión se siga válidamente de la premisa presentada?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Que las agencias regulatorias de esos países desarrollados nunca cometen errores en sus procesos de aprobación de medicamentos y vacunas.",
+          "B": "Que la vacuna tiene un costo de producción suficientemente bajo como para distribuirla gratuitamente a toda la población del país.",
+          "C": "Que la población de este país ha solicitado explícitamente que se acelere el proceso de vacunación sin más estudios adicionales.",
+          "D": "Que las condiciones de salud, genética y contexto epidemiológico de la población de este país son suficientemente similares a las de esos países desarrollados como para que los resultados de seguridad se trasladen sin ajustes adicionales."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El argumento asume, sin decirlo explícitamente, que la aprobación en otros países garantiza automáticamente la misma seguridad en un contexto poblacional distinto; ese es el **supuesto mínimo** que necesita, y precisamente el más cuestionable, porque las condiciones de salud y epidemiológicas pueden variar de un país a otro.",
+        "distractores": {
+          "A": {
+            "explicacion": "El argumento no necesita asumir una infalibilidad absoluta de esas agencias; basta con asumir que sus evaluaciones de seguridad son aplicables al contexto local, que es un supuesto más modesto y es el que realmente sostiene la conclusión.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "B": {
+            "explicacion": "El costo de producción no tiene relación con la validez lógica de este argumento sobre seguridad; introduce un elemento que el argumento no necesita para sostener su conclusión sobre la seguridad de la vacuna.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "C": {
+            "explicacion": "La opinión o solicitud de la población no es un supuesto lógico necesario para que la conclusión sobre seguridad se siga de la premisa sobre la aprobación en otros países; es un elemento externo a la estructura del argumento.",
+            "patron_trampa": "fuente_no_evaluada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-029",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "politica_e_instituciones",
+    "situacion": "Un analista político afirma: 'Contar con una cédula vigente es indispensable para poder votar en las elecciones; por lo tanto, basta con que todos los ciudadanos tengan su cédula vigente para garantizar una alta participación electoral en la próxima jornada.'",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-040",
+        "competencia": "argumentacion",
+        "bloque": "condiciones_necesarias_vs_suficientes",
+        "enunciado": "¿Qué error de razonamiento comete este analista al pasar de la primera afirmación a la conclusión sobre la alta participación electoral?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Trata una condición necesaria (tener cédula vigente) como si también fuera una condición suficiente para lograr una alta participación electoral, ignorando que existen otros factores igualmente necesarios para que las personas efectivamente voten.",
+          "B": "Ningún error; el razonamiento es válido porque toda condición necesaria para un resultado es, automáticamente, también suficiente para producirlo.",
+          "C": "Comete una generalización indebida, porque supone que todos los ciudadanos del país opinan igual sobre la importancia de votar.",
+          "D": "Comete una falacia de apelación a la autoridad, porque asume que, por ser un analista político, su afirmación debe aceptarse sin cuestionamientos."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Tener cédula vigente es, en efecto, una condición **necesaria** para votar: sin ella, nadie puede hacerlo. Pero de ahí no se sigue que sea **suficiente** para garantizar una alta participación, porque factores como el interés político, el acceso a los puestos de votación o la confianza en el sistema electoral también son necesarios para que la gente efectivamente vote.",
+        "distractores": {
+          "B": {
+            "explicacion": "Esta opción invierte la relación lógica correcta entre ambos conceptos: que algo sea necesario para un resultado no implica que sea suficiente; la mayoría de las condiciones necesarias son solo un requisito entre varios que deben cumplirse conjuntamente.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "El argumento no hace ninguna afirmación sobre las opiniones de los ciudadanos ni generaliza a partir de una muestra; el error específico está en confundir una condición necesaria con una suficiente, no en una generalización sobre opiniones.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "El error del argumento no depende de quién lo diga, sino de la relación lógica entre las dos afirmaciones que presenta; identificarlo como apelación a la autoridad desvía la atención del verdadero problema, que es la confusión entre necesidad y suficiencia.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-030",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "convivencia_y_discriminacion",
+    "situacion": "Un gerente de recursos humanos sostiene: 'Tener un título universitario es un requisito suficiente para desempeñarse exitosamente en este cargo directivo; por eso, cualquier candidato que lo tenga debe ser contratado de inmediato, sin más evaluaciones.'",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-041",
+        "competencia": "argumentacion",
+        "bloque": "condiciones_necesarias_vs_suficientes",
+        "enunciado": "¿Qué problema tiene este razonamiento, incluso si aceptamos que el título universitario efectivamente es relevante para el cargo?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Ninguno; si una condición es suficiente para un resultado, entonces cualquier persona que la cumpla debe producir automáticamente ese mismo resultado, sin necesidad de más evaluación.",
+          "B": "Trata una condición suficiente entre varias posibles como si fuera la única vía válida para el éxito en el cargo, descartando sin evaluar otras competencias (como experiencia o habilidades de liderazgo) que también podrían ser relevantes.",
+          "C": "El problema es que el título universitario en realidad es una condición necesaria, no suficiente, para desempeñarse en cualquier cargo directivo del país.",
+          "D": "El problema es que el gerente de recursos humanos no tiene la autoridad institucional para decidir sobre las contrataciones de este cargo directivo."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Aun si se acepta que tener un título universitario puede ser una condición **suficiente** en algunos casos, tratarlo como el único criterio válido ignora que pueden existir **otras condiciones suficientes** igualmente relevantes para el éxito en el cargo, como la experiencia previa o las habilidades de liderazgo, que el argumento descarta sin ninguna evaluación.",
+        "distractores": {
+          "A": {
+            "explicacion": "Que una condición sea suficiente en general no garantiza que se cumpla exactamente igual en cada caso individual; además, el error central aquí es tratarla como la única vía posible, descartando otras condiciones igualmente suficientes que el argumento nunca evalúa.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "C": {
+            "explicacion": "Esta opción no identifica el problema central del argumento presentado, que es tratar una condición suficiente como la única vía válida; además, plantea una afirmación general sobre todos los cargos directivos que la situación no permite evaluar.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "La autoridad institucional del gerente para tomar la decisión no es el problema que la pregunta indaga; el error que se busca identificar es puramente de razonamiento sobre condiciones suficientes, no un problema de competencia institucional para decidir.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-031",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "salud_publica",
+    "situacion": "Una directiva de salud afirma: 'Encuestamos a doscientos pacientes que asisten a una clínica privada de alta gama en el norte de la ciudad, y el 95% calificó como excelente la atención del sistema de salud; por lo tanto, el sistema de salud del país funciona de manera excelente para la población en general.'",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-042",
+        "competencia": "argumentacion",
+        "bloque": "generalizacion_indebida_muestra_no_representativa",
+        "enunciado": "¿Por qué esta generalización es indebida, incluso considerando que la muestra encuestada no es pequeña en número?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Porque doscientas personas es un número demasiado pequeño para que cualquier encuesta sobre un tema de salud pública sea considerada válida.",
+          "B": "Porque las personas encuestadas podrían haber mentido al calificar la atención recibida en la clínica donde fueron atendidas.",
+          "C": "Porque la muestra, aunque numerosa, proviene exclusivamente de un segmento específico y no representativo (pacientes de una clínica privada de alta gama), lo que impide extender la conclusión a la población general que usa el sistema de salud en condiciones muy distintas.",
+          "D": "Porque el sistema de salud del país efectivamente no funciona de manera excelente para ningún segmento de la población, incluidos los pacientes de la clínica encuestada."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El tamaño de una muestra no garantiza su **representatividad**. Doscientas personas pueden parecer suficientes, pero si todas provienen de un mismo segmento socioeconómico y de un mismo tipo de servicio de salud (privado y de alta gama), la muestra sigue sin representar la diversidad de experiencias de quienes usan el sistema de salud público o de menores recursos, por lo que la generalización a 'la población en general' es indebida.",
+        "distractores": {
+          "A": {
+            "explicacion": "El problema central no es el tamaño numérico de la muestra, sino su falta de representatividad; una muestra de doscientas personas podría ser suficiente si estuviera bien distribuida entre distintos segmentos de la población, que es precisamente lo que falta aquí.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "B": {
+            "explicacion": "El problema de esta generalización no depende de si las respuestas individuales fueron sinceras o no, sino de que la muestra completa proviene de un segmento no representativo de la población total.",
+            "patron_trampa": "fuente_no_evaluada"
+          },
+          "D": {
+            "explicacion": "Esta opción hace una afirmación general sobre el sistema de salud que la situación no permite verificar en ningún sentido; el punto que se busca identificar es un problema de representatividad de la muestra, no una evaluación general sobre si el sistema funciona bien o mal.",
+            "patron_trampa": "generalizacion_invalida"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-032",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "educacion",
+    "situacion": "Un funcionario de educación declara: 'Visitamos un colegio piloto donde se implementó la jornada única y el rendimiento académico de los estudiantes mejoró notablemente en un año; esto demuestra que la jornada única mejorará el rendimiento académico en todos los colegios del país.'",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-043",
+        "competencia": "argumentacion",
+        "bloque": "generalizacion_indebida_muestra_no_representativa",
+        "enunciado": "¿Qué elemento adicional necesitaría verificarse antes de aceptar esta generalización sobre todos los colegios del país?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Nada adicional; un solo caso documentado con rigor metodológico es suficiente para generalizar con confianza a cualquier contexto educativo del país.",
+          "B": "Verificar únicamente que los estudiantes de ese colegio piloto hayan aprobado satisfactoriamente todas las materias del año escolar evaluado.",
+          "C": "Verificar que el funcionario de educación tenga suficiente experiencia profesional como para hacer afirmaciones sobre políticas educativas nacionales.",
+          "D": "Si las condiciones particulares del colegio piloto (recursos, infraestructura, apoyo docente) se repiten de forma similar en la generalidad de los colegios del país, o si fueron factores específicos de ese colegio los que explican la mejora observada."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Un solo caso exitoso, aunque documentado con rigor, no permite generalizar automáticamente a un contexto tan diverso como 'todos los colegios del país' sin verificar si las condiciones que explicaron el éxito en ese colegio piloto (por ejemplo, mayores recursos o apoyo docente adicional) están presentes de forma similar en la generalidad de las instituciones educativas.",
+        "distractores": {
+          "A": {
+            "explicacion": "Ni siquiera el rigor metodológico de un solo estudio de caso resuelve el problema de representatividad: un colegio piloto puede tener condiciones muy particulares que no se repiten en la generalidad de las instituciones, por lo que un solo caso no basta para una generalización tan amplia.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "B": {
+            "explicacion": "Esto no aporta la información necesaria para evaluar si el resultado es generalizable a otros colegios; lo relevante es si las condiciones que explicaron la mejora se repiten en otros contextos, no si los estudiantes de ese colegio específico aprobaron sus materias.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "C": {
+            "explicacion": "La experiencia profesional de quien hace la afirmación no resuelve el problema de fondo, que es si la evidencia de un solo colegio piloto puede generalizarse válidamente a todos los colegios del país; el error es de generalización, no de credibilidad de la fuente.",
+            "patron_trampa": "fuente_no_evaluada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-033",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "medio_ambiente",
+    "situacion": "Un concejal afirma: 'Como logramos instalar contenedores de reciclaje en cinco parques de la ciudad este año, hemos resuelto el problema de manejo de residuos sólidos de todo el municipio.'",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-044",
+        "competencia": "argumentacion",
+        "bloque": "informacion_insuficiente_para_sostener_una_conclusion",
+        "enunciado": "¿Por qué esta conclusión no está suficientemente sostenida por la premisa presentada, aunque el dato sobre los contenedores sea completamente cierto?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Porque instalar contenedores en cinco parques no alcanza a cubrir todos los aspectos del manejo de residuos sólidos de todo un municipio, como la recolección residencial, industrial o la disposición final, que la premisa no menciona en absoluto.",
+          "B": "Porque es falso que se hayan instalado contenedores de reciclaje en esos cinco parques durante este año.",
+          "C": "Porque los habitantes del municipio no fueron consultados antes de decidir en qué parques instalar los contenedores de reciclaje.",
+          "D": "Porque el concejal no tiene la competencia legal para anunciar este tipo de logros en materia de manejo de residuos sólidos."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El problema no es que el dato sobre los contenedores sea falso, sino que su **alcance** es mucho menor que el de la conclusión: 'resolver el problema de manejo de residuos de todo el municipio' exige atender muchas más dimensiones (recolección residencial, comercial, industrial, disposición final) que la sola instalación de contenedores en algunos parques.",
+        "distractores": {
+          "B": {
+            "explicacion": "La situación no da ninguna razón para dudar de la veracidad del dato sobre los contenedores; el problema identificado no es sobre la falsedad de la premisa, sino sobre si esa premisa, siendo cierta, alcanza a sostener una conclusión tan amplia.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "La falta de consulta ciudadana sobre la ubicación de los contenedores no es el problema que hace insuficiente esta conclusión; el punto central es que la premisa, aunque cierta, no cubre todo lo que la conclusión afirma sobre resolver el problema completo del municipio.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "D": {
+            "explicacion": "La competencia legal del concejal para hacer el anuncio no es relevante para evaluar si el argumento está bien sostenido; el análisis debe centrarse en si la premisa alcanza a justificar la conclusión, no en quién hace la afirmación.",
+            "patron_trampa": "fuente_no_evaluada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-034",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "ciencia_y_sociedad",
+    "situacion": "Un estudio universitario encuentra que, en un grupo de cien voluntarios, quienes durmieron ocho horas diarias durante un mes reportaron sentirse con más energía que quienes durmieron seis horas. Un titular de prensa resume la investigación así: 'La ciencia demuestra que dormir ocho horas garantiza una vida más saludable y productiva para cualquier persona.'",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-045",
+        "competencia": "argumentacion",
+        "bloque": "informacion_insuficiente_para_sostener_una_conclusion",
+        "enunciado": "¿Por qué el titular de prensa excede lo que el estudio descrito realmente permite afirmar?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Porque es imposible que un estudio con solo cien voluntarios arroje resultados científicamente válidos sobre cualquier tema relacionado con la salud.",
+          "B": "Porque el estudio solo midió la percepción de energía en un grupo específico durante un mes, mientras que el titular generaliza a 'una vida más saludable y productiva' para 'cualquier persona', un alcance mucho mayor al que la evidencia concreta permite sostener.",
+          "C": "Porque los voluntarios que durmieron ocho horas podrían haber exagerado deliberadamente su sensación de energía al responder la encuesta del estudio.",
+          "D": "Porque el estudio debió haber sido publicado en una revista científica reconocida internacionalmente para que sus resultados fueran creíbles."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Existe una diferencia importante entre lo que el estudio realmente midió (la percepción de energía en un grupo de cien personas durante un mes) y lo que el titular afirma (que dormir ocho horas 'garantiza' una vida saludable y productiva para 'cualquier persona'). El uso de palabras de **alcance absoluto** como 'garantiza' y 'cualquier persona' excede ampliamente lo que un solo estudio de este tipo permite concluir.",
+        "distractores": {
+          "A": {
+            "explicacion": "Cien voluntarios pueden ser una muestra razonable dependiendo del diseño del estudio; el problema señalado no es el tamaño de la muestra en sí, sino que el titular generaliza el hallazgo mucho más allá de lo que incluso una muestra bien diseñada de ese tamaño permitiría concluir.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "C": {
+            "explicacion": "Aunque el sesgo de respuesta es una preocupación metodológica general, el problema específico señalado en la pregunta es la diferencia de alcance entre lo medido por el estudio y lo afirmado por el titular, no una sospecha sobre la sinceridad de los participantes.",
+            "patron_trampa": "fuente_no_evaluada"
+          },
+          "D": {
+            "explicacion": "El lugar de publicación del estudio no es el problema que la pregunta indaga; el punto central es la brecha entre el alcance de lo que el estudio efectivamente midió y el alcance absoluto de lo que el titular de prensa afirma.",
+            "patron_trampa": "fuente_no_evaluada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-035",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "ciencia_y_sociedad",
+    "situacion": "En un debate público sobre una propuesta de reforma tributaria, un reconocido cirujano con años de experiencia hospitalaria interviene con una opinión detallada sobre los efectos macroeconómicos que tendría la reforma en el crecimiento del país.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-046",
+        "competencia": "argumentacion",
+        "bloque": "credibilidad_y_pertinencia_de_fuentes",
+        "enunciado": "¿Qué problema tiene apoyarse en la opinión de este cirujano para sostener una conclusión sobre los efectos macroeconómicos de la reforma tributaria?",
+        "dificultad": "baja",
+        "opciones": {
+          "A": "Ningún problema, porque cualquier persona con reconocimiento profesional en su campo tiene automáticamente la autoridad para opinar válidamente sobre cualquier otro tema de interés público.",
+          "B": "El problema es que el cirujano probablemente tiene una posición política personal que sesga completamente su opinión sobre la reforma tributaria.",
+          "C": "Es una fuente creíble en su campo de especialidad médica, pero no necesariamente pertinente para pronunciarse sobre efectos macroeconómicos, un área ajena a su formación y experiencia profesional.",
+          "D": "Ningún problema, porque cualquier persona con muchos años de experiencia profesional, sin importar en qué campo, adquiere automáticamente competencia en temas económicos."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "La **credibilidad** de una fuente (su prestigio y experiencia reconocida) no es lo mismo que su **pertinencia** para un tema específico. El cirujano puede ser una fuente muy creíble en temas médicos, pero eso no lo convierte automáticamente en una fuente pertinente para pronunciarse sobre macroeconomía, un campo que exige una formación y experiencia distintas a la suya.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta opción confunde el prestigio general de una persona con la pertinencia específica de su opinión sobre un tema ajeno a su especialidad; el reconocimiento en un campo no se traslada automáticamente a la validez de sus opiniones en campos completamente distintos.",
+            "patron_trampa": "fuente_no_evaluada"
+          },
+          "B": {
+            "explicacion": "Esta opción introduce una sospecha sobre las motivaciones personales del cirujano que la situación no menciona ni permite verificar; el problema identificable con la información dada es de pertinencia temática, no de un sesgo político específico no descrito.",
+            "patron_trampa": "interes_mal_atribuido"
+          },
+          "D": {
+            "explicacion": "La experiencia profesional prolongada en un campo específico no genera automáticamente competencia en un campo distinto como la macroeconomía; esta opción generaliza indebidamente la experiencia de un campo a cualquier otro.",
+            "patron_trampa": "generalizacion_invalida"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-036",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "politica_e_instituciones",
+    "situacion": "Una empresa constructora, que aspira a ganar la licitación de un proyecto vial, presenta ante el concejo municipal un informe propio en el que concluye que su propuesta técnica es la más eficiente entre todas las opciones presentadas por los proponentes.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-047",
+        "competencia": "argumentacion",
+        "bloque": "credibilidad_y_pertinencia_de_fuentes",
+        "enunciado": "¿Qué elemento adicional debería evaluarse antes de aceptar sin más la conclusión de ese informe presentado por la empresa constructora?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Ninguno; toda empresa que participa en una licitación tiene automáticamente la obligación legal de presentar información veraz, por lo que su informe debe aceptarse sin más verificación.",
+          "B": "Si la empresa tiene suficiente experiencia previa en la construcción de proyectos viales similares en otras regiones del país.",
+          "C": "Si el informe fue redactado usando un lenguaje técnico apropiado y con buena ortografía y presentación formal.",
+          "D": "Si existe un conflicto de interés evidente, dado que la empresa que elabora el informe es, al mismo tiempo, una de las interesadas directas en ganar la licitación que ese mismo informe evalúa."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Cuando la fuente de una información tiene un **interés directo** en el resultado del debate —como ocurre aquí, pues la empresa evalúa su propia propuesta dentro de una licitación en la que compite—, conviene contrastar esa información con fuentes independientes antes de aceptar sus conclusiones sin más, sin que esto signifique que la información sea automáticamente falsa.",
+        "distractores": {
+          "A": {
+            "explicacion": "La existencia de una obligación legal general de veracidad no elimina la necesidad de contrastar un informe elaborado por una parte interesada en el resultado; el conflicto de interés sigue siendo relevante para evaluar con cuidado, aunque no se asuma mala fe automática.",
+            "patron_trampa": "interes_mal_atribuido"
+          },
+          "B": {
+            "explicacion": "La experiencia previa de la empresa es relevante para evaluar su capacidad técnica general, pero no resuelve el problema específico señalado: que el informe que evalúa su propia propuesta frente a las demás proviene de una parte con un interés directo en el resultado de esa comparación.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "La calidad formal de la redacción de un informe no tiene relación con el problema de fondo, que es el conflicto de interés de quien lo elabora frente al resultado que ese mismo informe pretende sustentar.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-037",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "convivencia_y_discriminacion",
+    "situacion": "El vocero de una cadena de tiendas declara en una entrevista: 'Nuestra empresa cree firmemente en la igualdad de oportunidades y nunca ha discriminado a ningún candidato en sus procesos de selección.' Más adelante, en la misma entrevista, al preguntársele por qué ninguna persona mayor de 50 años ha sido contratada en los últimos tres años pese a haberse postulado varias veces, responde: 'Preferimos perfiles con proyección de carrera a muy largo plazo dentro de la compañía.'",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-048",
+        "competencia": "argumentacion",
+        "bloque": "coherencia_e_incoherencia_entre_enunciados",
+        "enunciado": "¿Por qué estas dos afirmaciones del vocero podrían considerarse incoherentes entre sí?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Porque sostener que nunca ha habido discriminación resulta difícil de conciliar con un criterio de selección que, en la práctica, ha excluido sistemáticamente a un grupo etario específico durante varios años.",
+          "B": "No hay ninguna incoherencia, porque ambas afirmaciones se refieren a temas completamente distintos y no guardan ninguna relación lógica entre sí.",
+          "C": "Sí hay una incoherencia, pero se debe a que el vocero mintió deliberadamente sobre la política de contratación de la empresa en toda la entrevista.",
+          "D": "No hay incoherencia, porque preferir perfiles con proyección de carrera a largo plazo es un criterio empresarial legítimo que cualquier compañía puede aplicar libremente."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Hay **incoherencia** cuando dos afirmaciones, tomadas juntas, generan una tensión lógica difícil de sostener a la vez. Afirmar que 'nunca ha habido discriminación' resulta poco compatible con reconocer, en la misma entrevista, un criterio de selección que ha tenido como efecto sistemático excluir a un grupo etario completo durante varios años, aunque el criterio se presente en términos aparentemente neutrales.",
+        "distractores": {
+          "B": {
+            "explicacion": "Ambas afirmaciones sí están lógicamente conectadas: la primera hace una declaración general sobre la ausencia de discriminación, y la segunda ofrece una explicación concreta sobre un patrón de exclusión etaria; evaluarlas juntas es precisamente lo que permite detectar la tensión entre ellas.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "Detectar una incoherencia no requiere establecer si hubo intención deliberada de mentir; el análisis de coherencia se limita a si las afirmaciones, tomadas en conjunto, generan una tensión lógica, independientemente de las motivaciones internas del vocero.",
+            "patron_trampa": "interes_mal_atribuido"
+          },
+          "D": {
+            "explicacion": "Que un criterio sea, en principio, legítimo no elimina la tensión lógica con la afirmación anterior; el punto de la incoherencia no es si el criterio es legítimo en abstracto, sino si es compatible con sostener, al mismo tiempo, que nunca ha habido ningún tipo de discriminación.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      },
+      {
+        "id": "CC-ITEM-049",
+        "competencia": "argumentacion",
+        "bloque": "coherencia_e_incoherencia_entre_enunciados",
+        "enunciado": "¿Cuál de las siguientes afirmaciones, si el vocero la hubiera dicho en lugar de la segunda, habría sido más coherente con su primera declaración sobre la igualdad de oportunidades?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "'Preferimos perfiles jóvenes porque se adaptan más fácilmente a los cambios tecnológicos que la empresa ha venido implementando en los últimos años.'",
+          "B": "'Revisamos nuestros criterios de selección recientemente porque notamos que estaban excluyendo, sin ninguna justificación técnica, a candidatos mayores de 50 años, y ya los hemos corregido.'",
+          "C": "'Los candidatos mayores de 50 años simplemente no se han postulado con la frecuencia suficiente como para ser considerados en los procesos recientes.'",
+          "D": "'La empresa cree en la igualdad de oportunidades para todos los grupos de edad, aunque reconocemos que aún no hemos revisado si existe algún patrón de exclusión en nuestros procesos.'"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Esta afirmación sí es coherente con la primera declaración sobre igualdad de oportunidades, porque reconoce el problema detectado y describe una acción concreta para corregirlo, en lugar de justificar el patrón de exclusión con un criterio que, en la práctica, produce el mismo efecto discriminatorio.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta afirmación, aunque distinta en su justificación, sigue produciendo el mismo efecto de exclusión etaria sistemática; seguiría siendo poco coherente con una declaración de igualdad de oportunidades sin ninguna evaluación individual de cada candidato mayor de 50 años.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "Esta afirmación contradice directamente lo ya establecido en la situación, que indica expresamente que sí se postularon varias veces; una afirmación que ignora ese dato no resuelve la incoherencia, sino que introduce una nueva contradicción con los hechos ya descritos.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "D": {
+            "explicacion": "Aunque esta opción es más honesta que la original, sigue sin resolver la tensión lógica señalada, porque no explica el patrón de exclusión ya evidenciado ni ofrece ninguna corrección concreta frente a los hechos ya conocidos por la empresa.",
+            "patron_trampa": "solucion_parcial"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-038",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "politica_e_instituciones",
+    "situacion": "Un alto funcionario declara ante los medios: 'Nuestra entidad no cuenta actualmente con los recursos suficientes para ampliar la cobertura de un programa social a nuevas zonas del país.' Dos semanas después, en un evento distinto, el mismo funcionario anuncia: 'Vamos a triplicar la cobertura del programa social a nivel nacional este mismo año, sin necesidad de gestionar ningún recurso adicional.'",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-050",
+        "competencia": "argumentacion",
+        "bloque": "coherencia_e_incoherencia_entre_enunciados",
+        "enunciado": "¿Por qué estas dos declaraciones del funcionario resultan incoherentes entre sí?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "No hay ninguna incoherencia, porque las dos declaraciones fueron hechas en eventos distintos y ante audiencias diferentes.",
+          "B": "Sí hay incoherencia, pero únicamente porque el funcionario cambió deliberadamente de opinión para quedar bien políticamente ante la segunda audiencia.",
+          "C": "Porque afirmar que no hay recursos suficientes para ampliar el programa es difícil de conciliar con anunciar, poco después, una triplicación de su cobertura sin necesidad de recursos adicionales.",
+          "D": "No hay incoherencia, porque es perfectamente posible ampliar la cobertura de cualquier programa social sin necesidad de ningún recurso adicional en ningún caso."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Existe una tensión lógica directa entre ambas afirmaciones: si la entidad reconoce no tener recursos suficientes para una ampliación, resulta contradictorio sostener, poco después, que logrará triplicar la cobertura del mismo programa sin gestionar ningún recurso adicional, salvo que exista una explicación intermedia (como una reestructuración de costos) que el funcionario no ha ofrecido.",
+        "distractores": {
+          "A": {
+            "explicacion": "El contexto o la audiencia en la que se hacen dos declaraciones no elimina la posible incoherencia entre su contenido; lo relevante para el análisis es si ambas afirmaciones pueden sostenerse juntas de forma lógica, no dónde ni ante quién se pronunciaron.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "B": {
+            "explicacion": "Detectar la incoherencia no depende de establecer una intención deliberada de quedar bien políticamente; el análisis de coherencia se limita a verificar si el contenido de ambas afirmaciones es compatible entre sí, sin necesidad de atribuir motivaciones específicas que la situación no confirma.",
+            "patron_trampa": "interes_mal_atribuido"
+          },
+          "D": {
+            "explicacion": "Esta opción hace una afirmación general poco plausible sobre la ampliación de programas sociales sin ningún costo adicional, sin abordar la tensión lógica específica entre las dos declaraciones concretas del funcionario descritas en la situación.",
+            "patron_trampa": "generalizacion_invalida"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-039",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "educacion",
+    "situacion": "En un debate sobre una propuesta para modificar el sistema de evaluación docente, un participante responde a su oponente: 'No hay que tomar en serio lo que propone, si ni siquiera terminó su propia carrera universitaria a tiempo.'",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-051",
+        "competencia": "argumentacion",
+        "bloque": "tipos_de_falacias_comunes",
+        "enunciado": "¿Qué falacia comete esta respuesta?",
+        "dificultad": "baja",
+        "opciones": {
+          "A": "Falsa dicotomía, porque presenta solo dos opciones posibles frente a la propuesta de evaluación docente, sin considerar alternativas intermedias.",
+          "B": "Apelación a la autoridad, porque asume que la opinión de quien responde debe aceptarse simplemente por su experiencia profesional.",
+          "C": "Hombre de paja, porque distorsiona la propuesta original sobre evaluación docente para hacerla parecer más fácil de rechazar.",
+          "D": "Ad hominem, porque ataca una característica personal de quien defiende la propuesta en lugar de refutar el contenido de lo que propone."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "La falacia **ad hominem** desvía la discusión del contenido del argumento hacia cuestionar a la persona que lo defiende. Aquí, en lugar de analizar si la propuesta sobre evaluación docente tiene fundamentos razonables, se ataca un aspecto personal (el tiempo que tardó en terminar su carrera), sin decir nada sobre el contenido de la propuesta misma.",
+        "distractores": {
+          "A": {
+            "explicacion": "La respuesta no presenta ninguna dicotomía ni reduce las opciones disponibles a solo dos alternativas; el problema es que ataca a la persona en lugar de discutir el contenido, lo cual corresponde a la falacia ad hominem.",
+            "patron_trampa": "falacia_falsa_dicotomia"
+          },
+          "B": {
+            "explicacion": "La respuesta no invoca ninguna autoridad o experiencia de quien la pronuncia para respaldar su postura; en cambio, ataca directamente una característica de la otra persona, que es justamente lo que define al ad hominem.",
+            "patron_trampa": "falacia_apelacion_autoridad"
+          },
+          "C": {
+            "explicacion": "La respuesta no describe ni deforma el contenido de la propuesta en ningún momento; simplemente ignora la propuesta por completo y ataca a la persona que la presentó, lo cual es la esencia específica del ad hominem, distinta de deformar el argumento del oponente.",
+            "patron_trampa": "falacia_hombre_de_paja"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-040",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "salud_publica",
+    "situacion": "Durante un debate sobre el financiamiento del sistema de salud, un participante afirma: 'O aumentamos drásticamente los impuestos a las empresas para financiar la salud pública, o resignémonos a que miles de personas sigan muriendo por falta de atención médica; no hay otra alternativa posible.'",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-052",
+        "competencia": "argumentacion",
+        "bloque": "tipos_de_falacias_comunes",
+        "enunciado": "¿Qué falacia comete esta afirmación?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Falsa dicotomía, porque presenta solo dos opciones extremas como si fueran las únicas posibles, ignorando alternativas intermedias de financiamiento del sistema de salud.",
+          "B": "Apelación a la emoción, porque menciona la posibilidad de que miles de personas mueran para conmover al público sin ofrecer ninguna razón adicional.",
+          "C": "Pendiente resbaladiza, porque afirma que no aumentar los impuestos desencadenará automáticamente una cadena de consecuencias cada vez más graves para el sistema de salud.",
+          "D": "Circularidad, porque la conclusión sobre la necesidad de aumentar los impuestos ya estaba contenida en la premisa presentada por el participante."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La **falsa dicotomía** reduce un problema complejo a solo dos opciones extremas, eliminando cualquier alternativa intermedia. Aquí se presenta la disyuntiva como 'aumentar drásticamente los impuestos' o 'resignarse a muertes evitables', ignorando otras alternativas posibles, como reformas parciales al sistema, reasignación de recursos existentes o combinaciones de fuentes de financiamiento distintas.",
+        "distractores": {
+          "B": {
+            "explicacion": "Aunque la frase sí tiene un componente emocional, el error central identificable no es que la emoción sustituya por completo a las razones, sino que se reduce el abanico de soluciones posibles a solo dos extremos, lo cual corresponde a la falsa dicotomía.",
+            "patron_trampa": "falacia_apelacion_emocion"
+          },
+          "C": {
+            "explicacion": "La afirmación no describe una cadena de pasos progresivamente más extremos que se derivarían unos de otros; simplemente reduce las opciones a dos alternativas excluyentes, que es el patrón propio de la falsa dicotomía, no de la pendiente resbaladiza.",
+            "patron_trampa": "falacia_pendiente_resbaladiza"
+          },
+          "D": {
+            "explicacion": "No hay ninguna repetición disfrazada entre premisa y conclusión en esta afirmación; el problema identificable es que se presentan solo dos opciones como si fueran las únicas posibles, lo cual es el patrón específico de la falsa dicotomía.",
+            "patron_trampa": "falacia_circularidad"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-041",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "medio_ambiente",
+    "situacion": "En un debate sobre la conveniencia de un proyecto de explotación minera, uno de los participantes concluye: 'El proyecto es completamente seguro para el ambiente, porque lo dijo un reconocido ganador de un premio internacional de física durante una entrevista reciente.'",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-053",
+        "competencia": "argumentacion",
+        "bloque": "tipos_de_falacias_comunes",
+        "enunciado": "¿Qué falacia comete esta afirmación?",
+        "dificultad": "baja",
+        "opciones": {
+          "A": "Hombre de paja, porque distorsiona la posición de quienes se oponen al proyecto minero para hacerla parecer más fácil de refutar.",
+          "B": "Apelación a la autoridad, porque respalda la conclusión únicamente en el prestigio de una persona reconocida en un campo (la física) que no tiene relación directa con la evaluación de impactos ambientales de un proyecto minero.",
+          "C": "Generalización apresurada, porque concluye algo sobre todos los proyectos mineros del país a partir de la opinión de una sola persona.",
+          "D": "Circularidad, porque la conclusión sobre la seguridad ambiental del proyecto ya estaba contenida, con otras palabras, en la premisa presentada."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "La **apelación a la autoridad** ocurre cuando el peso de un argumento descansa exclusivamente en quién lo dice y no en las razones ofrecidas, especialmente cuando esa persona no tiene competencia específica en el tema en cuestión. Un premio internacional de física no otorga experticia particular en evaluación de impactos ambientales de proyectos mineros.",
+        "distractores": {
+          "A": {
+            "explicacion": "La afirmación no describe ni deforma ninguna postura opositora al proyecto; simplemente respalda su conclusión en el prestigio de una persona ajena al tema, lo cual corresponde específicamente a la apelación a la autoridad.",
+            "patron_trampa": "falacia_hombre_de_paja"
+          },
+          "C": {
+            "explicacion": "La afirmación no generaliza sobre todos los proyectos mineros del país; se limita a este proyecto específico, respaldando su seguridad ambiental en el prestigio de una persona sin competencia en el tema.",
+            "patron_trampa": "falacia_generalizacion_apresurada"
+          },
+          "D": {
+            "explicacion": "No hay ninguna repetición disfrazada entre la premisa (la opinión del físico) y la conclusión (la seguridad ambiental); son dos afirmaciones distintas conectadas por una autoridad sin competencia en el tema.",
+            "patron_trampa": "falacia_circularidad"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-042",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "convivencia_y_discriminacion",
+    "situacion": "Durante una campaña para exigir la aprobación inmediata de un proyecto de vivienda para población desplazada, uno de sus promotores presenta únicamente fotografías de niños llorando frente a viviendas destruidas, y concluye: 'Por eso el proyecto debe aprobarse hoy mismo, sin más discusión ni análisis técnico adicional.'",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-054",
+        "competencia": "argumentacion",
+        "bloque": "tipos_de_falacias_comunes",
+        "enunciado": "¿Qué falacia comete este argumento?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Falsa dicotomía, porque presenta solo dos alternativas posibles: aprobar el proyecto de inmediato o dejar a la población desplazada sin ninguna solución.",
+          "B": "Generalización apresurada, porque concluye a partir de unas pocas fotografías que todos los proyectos de vivienda para población desplazada deben aprobarse sin análisis técnico.",
+          "C": "Apelación a la emoción, porque busca que la audiencia acepte la conclusión por el impacto emocional de las imágenes presentadas, sustituyendo por completo cualquier análisis técnico o de viabilidad del proyecto.",
+          "D": "Ad hominem, porque ataca a quienes se oponen al proyecto de vivienda calificándolos de insensibles ante el sufrimiento de la población desplazada."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "La **apelación a la emoción** ocurre cuando se busca persuadir generando una emoción intensa en lugar de ofrecer razones que sostengan racionalmente la conclusión. No es falaz mencionar el sufrimiento humano real asociado a un problema, pero sí lo es cuando esa apelación **reemplaza por completo** cualquier razón concreta, como ocurre aquí al pedir aprobar el proyecto 'sin más discusión ni análisis técnico adicional'.",
+        "distractores": {
+          "A": {
+            "explicacion": "Aunque el argumento no explora alternativas, su estructura central no es la de presentar dos opciones excluyentes, sino la de sustituir el análisis técnico por completo mediante un impacto emocional; ese es el patrón específico de la apelación a la emoción.",
+            "patron_trampa": "falacia_falsa_dicotomia"
+          },
+          "B": {
+            "explicacion": "El argumento no generaliza sobre otros proyectos de vivienda; se refiere únicamente a este proyecto específico, y su error central es sustituir el análisis racional por un impacto emocional, no generalizar a partir de una muestra pequeña de casos.",
+            "patron_trampa": "falacia_generalizacion_apresurada"
+          },
+          "D": {
+            "explicacion": "El argumento presentado no ataca directamente a ninguna persona opositora ni menciona sus características personales; se limita a usar imágenes emocionales para sustituir el análisis técnico, lo cual corresponde a la apelación a la emoción, no al ad hominem.",
+            "patron_trampa": "falacia_ad_hominem"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-043",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "politica_e_instituciones",
+    "situacion": "Durante el debate de un proyecto que otorgaría una pequeña excepción a una norma de contratación pública para agilizar la compra de insumos médicos en una emergencia sanitaria puntual, un congresista argumenta: 'Si aprobamos esta excepción hoy, mañana cualquier entidad pedirá excepciones similares para cualquier tipo de compra, y en poco tiempo todo el sistema de contratación pública del país se derrumbará por completo.'",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-055",
+        "competencia": "argumentacion",
+        "bloque": "tipos_de_falacias_comunes",
+        "enunciado": "¿Qué falacia comete este argumento?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Falsa dicotomía, porque el congresista presenta solo dos alternativas: aprobar la excepción o mantener intacto el sistema de contratación pública sin ningún cambio.",
+          "B": "Apelación a la emoción, porque busca generar temor entre los congresistas para que rechacen la propuesta sin ningún análisis adicional.",
+          "C": "Circularidad, porque la conclusión sobre el colapso del sistema de contratación pública ya estaba contenida en la premisa sobre la excepción puntual.",
+          "D": "Pendiente resbaladiza, porque afirma que una excepción puntual desencadenará inevitablemente una cadena de consecuencias cada vez más graves, sin ofrecer evidencia de que cada paso de esa cadena efectivamente ocurriría."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "La **pendiente resbaladiza** presenta una sucesión de pasos hipotéticos, cada uno más extremo que el anterior, como si fueran una consecuencia automática e inevitable del primer paso, sin demostrar el mecanismo concreto que conectaría una excepción puntual y limitada a una emergencia sanitaria con el colapso total del sistema de contratación pública del país.",
+        "distractores": {
+          "A": {
+            "explicacion": "El argumento no se limita a plantear dos opciones excluyentes; en cambio, describe una cadena progresiva de consecuencias cada vez más extremas derivadas de un primer paso, que es precisamente el patrón de la pendiente resbaladiza, no de la falsa dicotomía.",
+            "patron_trampa": "falacia_falsa_dicotomia"
+          },
+          "B": {
+            "explicacion": "Aunque el argumento puede generar cierta preocupación, su estructura central no es apelar directamente a una emoción como sustituto de razones, sino encadenar una serie de consecuencias hipotéticas cada vez más graves sin evidencia, lo cual corresponde a la pendiente resbaladiza.",
+            "patron_trampa": "falacia_apelacion_emocion"
+          },
+          "C": {
+            "explicacion": "No existe ninguna repetición disfrazada entre la premisa y la conclusión; el argumento describe una cadena de eventos hipotéticos entre un primer paso y una consecuencia final extrema, que es el patrón propio de la pendiente resbaladiza, no de la circularidad.",
+            "patron_trampa": "falacia_circularidad"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-044",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "ciencia_y_sociedad",
+    "situacion": "Un investigador afirma en una publicación: 'Todo programa de mentoría entre pares mejora el desempeño académico de los estudiantes participantes.'",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-056",
+        "competencia": "argumentacion",
+        "bloque": "refutar_vs_sustentar_un_argumento",
+        "enunciado": "¿Cuál de los siguientes hallazgos, si se confirmara, refutaría la afirmación del investigador tal como fue formulada?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Un programa de mentoría entre pares implementado en una universidad, documentado y evaluado rigurosamente, en el que el desempeño académico de los participantes no mejoró ni se mantuvo igual respecto al de un grupo similar sin mentoría.",
+          "B": "Un programa de mentoría entre pares implementado en un colegio, en el que el desempeño académico de los participantes mejoró de forma similar a lo que el investigador describe.",
+          "C": "Una encuesta de opinión en la que la mayoría de los estudiantes universitarios del país afirma estar de acuerdo con la implementación de programas de mentoría entre pares.",
+          "D": "Un estudio que concluye que los programas de mentoría entre pares son más económicos de implementar que otras estrategias de acompañamiento académico."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Como la afirmación del investigador usa la palabra 'todo', basta con un solo caso real y bien documentado donde un programa de mentoría entre pares no haya mejorado el desempeño académico para **refutar** la afirmación tal como fue formulada, sin necesidad de encontrar muchos casos similares.",
+        "distractores": {
+          "B": {
+            "explicacion": "Este hallazgo **sustenta** la afirmación del investigador, en lugar de refutarla; la pregunta pide identificar un hallazgo que la contradiga, no uno que confirme el mismo patrón que la afirmación ya describe.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "La opinión favorable de los estudiantes sobre la conveniencia de estos programas no dice nada sobre si efectivamente mejoran o no el desempeño académico medido; no aporta evidencia que confirme ni que refute la afirmación empírica del investigador.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "D": {
+            "explicacion": "El costo de implementación de un programa no tiene relación con si efectivamente mejora o no el desempeño académico de los participantes, que es lo que la afirmación original sostiene; este hallazgo no refuta ni sustenta directamente la afirmación sobre el desempeño.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      },
+      {
+        "id": "CC-ITEM-057",
+        "competencia": "argumentacion",
+        "bloque": "funcion_de_los_contraejemplos",
+        "enunciado": "Si se encontrara un solo caso bien documentado de un programa de mentoría entre pares que no mejoró el desempeño académico de sus participantes, ¿qué función cumpliría ese caso frente a la afirmación original del investigador?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "No cumpliría ninguna función relevante, porque un solo caso nunca es suficiente para cuestionar una afirmación general sobre un tema académico.",
+          "B": "Funcionaría como un contraejemplo suficiente para invalidar la afirmación tal como fue formulada, precisamente porque el uso de la palabra 'todo' la compromete con que no exista ningún caso distinto.",
+          "C": "Funcionaría como evidencia de que la mayoría de los programas de mentoría entre pares no mejoran el desempeño académico de los estudiantes.",
+          "D": "Funcionaría únicamente como una anécdota interesante para incluir en publicaciones futuras, pero sin ningún peso lógico frente a la afirmación original del investigador."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Como la afirmación original es absoluta (usa la palabra 'todo'), un solo **contraejemplo** real y bien documentado basta para invalidarla tal como fue formulada, sin necesidad de que ese caso represente a la mayoría de los programas de mentoría existentes.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta opción ignora que, frente a afirmaciones absolutas como 'todo programa...', un solo contraejemplo real sí es lógicamente suficiente para invalidarla, precisamente porque la afirmación se comprometió con que no existiera ningún caso distinto.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "Un solo contraejemplo no permite concluir nada sobre la mayoría de los casos; solo permite invalidar la afirmación absoluta original, sin que eso implique que la mayoría de los programas fracasen.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "D": {
+            "explicacion": "Esta opción subestima la fuerza lógica real de un contraejemplo bien documentado frente a una afirmación de alcance absoluto; no se trata solo de una anécdota, sino de un caso con capacidad lógica genuina para invalidar la formulación original.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-045",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "medio_ambiente",
+    "situacion": "Un funcionario ambiental afirma: 'La instalación de paneles solares en edificios públicos siempre reduce de forma significativa el consumo de energía proveniente de fuentes no renovables en cualquier ciudad donde se implemente.'",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-058",
+        "competencia": "argumentacion",
+        "bloque": "refutar_vs_sustentar_un_argumento",
+        "enunciado": "¿Cuál de los siguientes hallazgos sustentaría, sin refutarla, la afirmación del funcionario?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Un informe que documenta una ciudad específica donde, tras instalar paneles solares en edificios públicos, el consumo de energía no renovable se mantuvo exactamente igual que antes.",
+          "B": "Una encuesta que muestra que la mayoría de los ciudadanos apoya la instalación de paneles solares en edificios públicos por razones estéticas y de imagen institucional.",
+          "C": "Un informe que documenta, en varias ciudades con climas y niveles de radiación solar distintos, una reducción consistente del consumo de energía no renovable tras la instalación de paneles solares en edificios públicos.",
+          "D": "Un estudio que concluye que instalar paneles solares en edificios públicos es más costoso a corto plazo que mantener el suministro eléctrico convencional."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Este hallazgo **sustenta** la afirmación porque aporta evidencia adicional, y en distintos contextos, de que el patrón descrito (reducción del consumo de energía no renovable) efectivamente se repite, reforzando la conclusión original sin contradecirla.",
+        "distractores": {
+          "A": {
+            "explicacion": "Este hallazgo no sustenta la afirmación, sino que la contradice directamente, ya que describe un caso donde la reducción esperada simplemente no ocurrió; sería un hallazgo que refuta, no que sustenta, la afirmación original.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "B": {
+            "explicacion": "El apoyo ciudadano por razones estéticas no aporta ninguna evidencia sobre si los paneles efectivamente reducen o no el consumo de energía no renovable, que es lo que la afirmación original sostiene; no sustenta ni refuta el contenido específico de la afirmación.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "D": {
+            "explicacion": "El costo de instalación no tiene relación directa con si los paneles reducen o no el consumo de energía no renovable, que es la afirmación puntual del funcionario; este hallazgo no aporta evidencia que sustente ni refute esa afirmación específica.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-046",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "educacion",
+    "situacion": "Un rector afirma ante la comunidad educativa: 'En la mayoría de los casos, los estudiantes que repiten un año escolar terminan abandonando definitivamente sus estudios poco después.'",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-059",
+        "competencia": "argumentacion",
+        "bloque": "funcion_de_los_contraejemplos",
+        "enunciado": "Si un profesor quisiera cuestionar esta afirmación aportando un contraejemplo, ¿qué tipo de caso necesitaría presentar para que ese contraejemplo tuviera fuerza lógica real frente a lo que el rector realmente afirmó?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Bastaría con presentar un solo caso documentado de un estudiante que repitió el año y continuó exitosamente sus estudios después, sin necesidad de ningún dato adicional.",
+          "B": "Necesitaría demostrar que ningún estudiante en la historia del colegio ha abandonado definitivamente sus estudios después de repetir un año escolar.",
+          "C": "Necesitaría cuestionar directamente la experiencia profesional del rector como educador, en lugar de aportar casos concretos sobre estudiantes que repitieron el año escolar.",
+          "D": "Necesitaría mostrar que los casos de estudiantes que repiten un año y continúan sus estudios exitosamente son más frecuentes de lo que la expresión 'en la mayoría de los casos' sugiere, y no solo presentar uno o dos casos aislados de éxito."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Como la afirmación del rector ya reconoce excepciones (usa la expresión 'en la mayoría de los casos', no 'todos los casos'), un solo contraejemplo aislado de un estudiante que repitió el año y continuó exitosamente no la refuta, porque la afirmación ya contemplaba que existieran casos distintos. Para cuestionarla con fuerza real, habría que mostrar que esos casos de continuidad exitosa son más frecuentes de lo que la propia afirmación reconoce, no simplemente que existen.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta opción funcionaría si la afirmación del rector fuera absoluta ('todos los estudiantes que repiten abandonan'), pero como la afirmación ya reconoce excepciones ('en la mayoría de los casos'), un solo caso aislado no es suficiente para cuestionarla con fuerza lógica real.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "B": {
+            "explicacion": "Esta opción exige un estándar de prueba excesivo y distinto al que corresponde: no se trata de negar que existan casos de abandono, sino de mostrar que los casos de continuidad exitosa son más frecuentes de lo que la afirmación del rector, que ya reconoce excepciones, sugiere.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "C": {
+            "explicacion": "Cuestionar la experiencia profesional del rector no aporta ningún contraejemplo real sobre el patrón que él describe; el análisis debe centrarse en los casos concretos de estudiantes, no en atacar la credibilidad general de quien hace la afirmación.",
+            "patron_trampa": "fuente_no_evaluada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  }
+]

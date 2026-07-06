@@ -1,0 +1,508 @@
+[
+  {
+    "id": "CC-MUL-001",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "diferencia_entre_posicion_e_interes",
+    "pregunta": "¿Qué diferencia hay entre la posición de un actor en un conflicto y su interés subyacente?",
+    "respuesta_breve": "La posición es lo que el actor pide o propone explícitamente; el interés es la necesidad o motivación de fondo que esa posición busca satisfacer, y que a veces podría lograrse por otras vías.",
+    "explicacion": "La **posición** es la solución concreta que un actor exige o defiende en público ('quiero que se construya un puente aquí'). El **interés** es la razón de fondo que motiva esa posición ('necesito llegar más rápido a mi trabajo'). Distinguir ambos es clave porque dos actores pueden tener posiciones opuestas y, sin embargo, compartir el mismo interés de fondo, lo cual abre posibilidades de acuerdo que no aparecen si solo se miran las posiciones.",
+    "ejemplo_aplicado": "En un barrio, un grupo pide que se cierre una calle al tráfico vehicular (posición) porque su interés real es reducir el ruido y el riesgo de accidentes para los niños; otro grupo pide que la calle se mantenga abierta (posición opuesta) porque su interés real es no perder tiempo en sus desplazamientos diarios.",
+    "error_comun": "Se analiza el conflicto comparando únicamente las posiciones enfrentadas, sin preguntarse qué necesidad de fondo persigue cada una; esto lleva a ver el conflicto como más irreconciliable de lo que realmente es.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CC-MUL-002",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "diferencia_entre_posicion_e_interes",
+    "pregunta": "¿Puede un mismo interés dar lugar a posiciones completamente distintas en dos actores diferentes?",
+    "respuesta_breve": "Sí; el mismo interés de fondo puede traducirse en posiciones distintas o incluso opuestas, dependiendo de la situación particular de cada actor.",
+    "explicacion": "No existe una relación fija entre un interés y una única posición posible. Dos actores pueden compartir exactamente el mismo interés general (por ejemplo, 'proteger la estabilidad económica de mi familia') y, sin embargo, defender posiciones opuestas sobre cómo lograrlo, según su situación específica.",
+    "ejemplo_aplicado": "Un trabajador defiende un aumento salarial (posición) por su interés en mantener su poder adquisitivo; un pequeño empresario se opone a ese mismo aumento (posición opuesta) por su interés en mantener la viabilidad financiera de su negocio, que también es una forma de proteger la estabilidad económica de su propia familia.",
+    "error_comun": "Se asume que posiciones opuestas siempre reflejan intereses opuestos, cuando en realidad ambas posiciones pueden derivarse de un interés parecido o incluso idéntico, aplicado a circunstancias distintas.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-MUL-001"
+    ]
+  },
+  {
+    "id": "CC-MUL-003",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "diferencia_entre_posicion_e_interes",
+    "pregunta": "¿Por qué identificar el interés detrás de una posición ayuda a encontrar soluciones que un análisis superficial no vería?",
+    "respuesta_breve": "Porque permite explorar alternativas que satisfacen el interés de fondo sin necesidad de que ninguna de las partes ceda completamente en su posición original.",
+    "explicacion": "Cuando un conflicto se analiza únicamente a nivel de **posiciones**, suele parecer que solo hay dos salidas: que gane una postura o que gane la otra. Al bajar al nivel de los **intereses**, muchas veces aparecen soluciones alternativas que ninguna de las posiciones originales contemplaba, pero que satisfacen igualmente las necesidades de fondo de ambas partes.",
+    "ejemplo_aplicado": "Si el interés de una comunidad es reducir la contaminación del aire y el interés de una fábrica es no detener su producción, una solución que instale filtros de emisiones satisface ambos intereses sin que la comunidad logre cerrar la fábrica ni que la fábrica evite cualquier inversión ambiental.",
+    "error_comun": "Se evalúan las propuestas de solución comparándolas solo con las posiciones iniciales de las partes, y se descartan alternativas nuevas por no coincidir con ninguna de esas posiciones, sin notar que sí podrían satisfacer los intereses de fondo.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-MUL-001",
+      "CC-MUL-002"
+    ]
+  },
+  {
+    "id": "CC-MUL-004",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "postura_explicita_vs_implicita",
+    "pregunta": "¿Qué diferencia hay entre la postura explícita de un actor y su postura implícita frente a un conflicto?",
+    "respuesta_breve": "La postura explícita es lo que el actor declara abiertamente que piensa o defiende; la postura implícita se infiere de sus acciones, silencios o decisiones concretas, y a veces no coincide con lo que declara.",
+    "explicacion": "Una **postura explícita** aparece directamente en las palabras del actor: lo que dice en un comunicado, una entrevista o un discurso. Una **postura implícita** se deduce observando lo que realmente hace, decide o evita mencionar, y puede revelar una posición distinta —o más matizada— que la declarada abiertamente.",
+    "ejemplo_aplicado": "Una empresa declara públicamente su compromiso con la sostenibilidad ambiental (postura explícita), pero al mismo tiempo reduce año tras año su presupuesto para el tratamiento de sus residuos (postura implícita distinta, revelada por sus decisiones).",
+    "error_comun": "Se acepta la postura explícita como la única postura real del actor, sin contrastarla con lo que efectivamente hace; esto lleva a ignorar contradicciones que solo se detectan comparando el discurso con la acción.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CC-MUL-005",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "postura_explicita_vs_implicita",
+    "pregunta": "¿Es siempre un signo de mala fe que la postura implícita de un actor no coincida con su postura explícita?",
+    "respuesta_breve": "No necesariamente; la discrepancia puede deberse a restricciones prácticas, cambios de circunstancias o falta de recursos, y no siempre a una intención deliberada de engañar.",
+    "explicacion": "Aunque detectar una diferencia entre lo que un actor **dice** y lo que **hace** es señal de que conviene analizar el caso con más cuidado, esa diferencia no siempre implica mala intención. A veces existen limitaciones presupuestales, técnicas o de tiempo que impiden actuar exactamente según lo declarado.",
+    "ejemplo_aplicado": "Un municipio anuncia públicamente un plan ambicioso de ciclorrutas (postura explícita) pero solo construye una fracción pequeña en el primer año (postura implícita distinta); esto puede deberse a limitaciones reales de presupuesto, no necesariamente a que el anuncio fuera una promesa vacía.",
+    "error_comun": "Se concluye automáticamente que toda discrepancia entre discurso y acción revela mala fe o engaño deliberado, sin considerar primero si existen explicaciones legítimas, como restricciones de recursos, que expliquen esa diferencia.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-MUL-004"
+    ]
+  },
+  {
+    "id": "CC-MUL-006",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "postura_explicita_vs_implicita",
+    "pregunta": "¿Cómo se identifica la postura implícita de un actor cuando el texto no describe directamente sus acciones?",
+    "respuesta_breve": "Observando lo que el actor decide omitir, minimizar o no mencionar en su discurso, ya que esos silencios selectivos también revelan una postura, aunque no se exprese con palabras directas.",
+    "explicacion": "La postura implícita no solo se revela en acciones visibles; también se manifiesta en lo que un actor **elige no decir**. Cuando un discurso menciona ciertos aspectos de un problema con detalle pero pasa por alto otros que serían relevantes, esa omisión selectiva suele reflejar una postura implícita sobre qué le interesa resaltar.",
+    "ejemplo_aplicado": "Un vocero que, al hablar de un proyecto de vivienda, detalla extensamente los beneficios económicos para la región, pero nunca menciona el desplazamiento de familias que ya habitan el terreno, revela con esa omisión una postura que prioriza el desarrollo económico sobre el impacto social del proyecto.",
+    "error_comun": "Se busca la postura implícita únicamente en acciones explícitas y visibles, pasando por alto que los silencios y omisiones selectivas dentro de un mismo discurso también son una fuente válida de información.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-MUL-004",
+      "CC-MUL-005"
+    ]
+  },
+  {
+    "id": "CC-MUL-007",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "acuerdos_y_desacuerdos_parciales",
+    "pregunta": "¿Qué significa que dos actores tengan un acuerdo parcial sobre un conflicto?",
+    "respuesta_breve": "Que coinciden en algunos aspectos del problema (por ejemplo, en el diagnóstico de lo que está ocurriendo) pero difieren en otros (por ejemplo, en cuál es la mejor solución).",
+    "explicacion": "Es un error común asumir que dos actores en conflicto están en desacuerdo sobre todo. En muchos casos existe un **acuerdo parcial**: ambos reconocen la misma realidad o el mismo diagnóstico del problema, y su desacuerdo se concentra específicamente en qué hacer al respecto.",
+    "ejemplo_aplicado": "Un sindicato y una empresa pueden coincidir plenamente en que la productividad de una planta ha bajado en el último año (diagnóstico compartido), pero discrepar radicalmente sobre si la solución es invertir en nueva maquinaria o modificar los turnos de trabajo (desacuerdo en la solución).",
+    "error_comun": "Se presenta el conflicto como una oposición total entre las partes, ignorando que gran parte de la discusión podría estar ya resuelta por consenso en el diagnóstico, y que el verdadero punto de fricción es mucho más específico.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CC-MUL-008",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "acuerdos_y_desacuerdos_parciales",
+    "pregunta": "¿Puede haber acuerdo en la solución general de un problema pero desacuerdo en cómo implementarla?",
+    "respuesta_breve": "Sí; dos actores pueden coincidir en el tipo de solución que se necesita y, aun así, discrepar profundamente sobre los detalles de su implementación, como los plazos, los costos o quién debe asumir la responsabilidad.",
+    "explicacion": "El acuerdo o desacuerdo entre actores puede darse en distintos **niveles**: el diagnóstico del problema, el tipo general de solución, y los detalles concretos de implementación. Dos partes pueden estar de acuerdo en los dos primeros niveles y, sin embargo, enfrentarse fuertemente en el tercero.",
+    "ejemplo_aplicado": "Un gremio de transportadores y una alcaldía pueden coincidir en que se necesita modernizar la flota de buses (acuerdo en el tipo de solución), pero discrepar completamente sobre quién debe financiarlo y en qué plazo debe completarse (desacuerdo en la implementación).",
+    "error_comun": "Se concluye que existe un desacuerdo total entre las partes por observar solo el nivel de implementación, sin reconocer que ya existe consenso en niveles más generales del problema, lo que en realidad facilita encontrar una solución negociada.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-MUL-007"
+    ]
+  },
+  {
+    "id": "CC-MUL-009",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "acuerdos_y_desacuerdos_parciales",
+    "pregunta": "¿Qué utilidad tiene identificar el punto exacto de un desacuerdo parcial, en lugar de describir el conflicto de forma general?",
+    "respuesta_breve": "Permite enfocar cualquier propuesta de solución específicamente en el punto real de fricción, en vez de tratar de resolver aspectos del problema en los que las partes ya estaban de acuerdo desde el principio.",
+    "explicacion": "Cuando se identifica con precisión en qué nivel exacto se ubica el desacuerdo (diagnóstico, tipo de solución o implementación), cualquier propuesta de mediación puede concentrar sus esfuerzos únicamente en ese punto, en lugar de reabrir discusiones sobre aspectos donde ya existía consenso.",
+    "ejemplo_aplicado": "Si dos comunidades ya coinciden en que un río está contaminado (diagnóstico) y en que se necesita una planta de tratamiento (tipo de solución), pero discrepan solo en su ubicación exacta (implementación), una mediación efectiva debería concentrarse exclusivamente en negociar la ubicación.",
+    "error_comun": "Se diseñan propuestas de solución que intentan convencer a las partes de aspectos en los que ya estaban de acuerdo, desperdiciando esfuerzo de negociación en puntos que nunca fueron el verdadero origen del conflicto.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-MUL-007",
+      "CC-MUL-008"
+    ]
+  },
+  {
+    "id": "CC-MUL-010",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "acuerdos_y_desacuerdos_parciales",
+    "pregunta": "¿Un desacuerdo parcial puede convertirse en un desacuerdo total si no se maneja adecuadamente?",
+    "respuesta_breve": "Sí; cuando un desacuerdo puntual en la solución se comunica de forma que hace parecer que las partes tienen visiones irreconciliables sobre todo el problema, el conflicto puede escalar más allá de su alcance original.",
+    "explicacion": "La forma en que se comunica un desacuerdo influye en cómo se percibe su magnitud. Si un actor presenta un desacuerdo puntual (por ejemplo, sobre el plazo de una medida) como si reflejara una oposición total e irreconciliable con la otra parte, puede generar una escalada del conflicto que no corresponde a la distancia real entre ambas posiciones.",
+    "ejemplo_aplicado": "Si un gremio de comerciantes, en desacuerdo únicamente con la fecha de entrada en vigencia de una nueva norma ambiental, declara públicamente que 'el Gobierno quiere acabar con el comercio de la ciudad', está transformando un desacuerdo puntual sobre plazos en una narrativa de conflicto total.",
+    "error_comun": "Se toma la retórica más extrema de un actor como reflejo fiel de la distancia real entre las partes, sin distinguir si esa retórica exagera un desacuerdo que, analizado con cuidado, resulta mucho más específico y acotado.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-MUL-007",
+      "CC-MUL-009"
+    ]
+  },
+  {
+    "id": "CC-MUL-011",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "interseccion_de_intereses",
+    "pregunta": "¿Qué es la intersección de intereses entre actores en conflicto y por qué es útil identificarla?",
+    "respuesta_breve": "Es el conjunto de necesidades o beneficios que dos o más actores comparten, a pesar de tener posiciones distintas o incluso opuestas sobre la solución; identificarla ayuda a encontrar puntos de partida para una solución negociada.",
+    "explicacion": "Aunque dos actores defiendan posiciones opuestas, es frecuente que compartan al menos un interés de fondo en común. A ese terreno compartido se le llama **intersección de intereses**. Encontrarlo no elimina el conflicto por completo, pero ofrece una base sobre la cual construir una solución que ambas partes puedan aceptar.",
+    "ejemplo_aplicado": "En un conflicto sobre la explotación de un yacimiento minero, tanto la empresa como la comunidad local comparten el interés de que la región tenga una economía estable a largo plazo, aunque discrepen sobre si la minería es la mejor vía para lograrlo.",
+    "error_comun": "Se presentan los conflictos como si las partes no tuvieran absolutamente nada en común, cuando casi siempre existe algún interés compartido que simplemente no se ha hecho explícito en la discusión pública del conflicto.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CC-MUL-012",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "interseccion_de_intereses",
+    "pregunta": "¿La existencia de una intersección de intereses garantiza que el conflicto se resolverá fácilmente?",
+    "respuesta_breve": "No; la intersección de intereses es un punto de partida útil para la negociación, pero no elimina las diferencias reales sobre cómo lograr ese interés compartido, que pueden seguir siendo profundas.",
+    "explicacion": "Encontrar un interés común no equivale a resolver automáticamente el conflicto, porque las partes pueden seguir teniendo desacuerdos serios sobre **cómo** alcanzar ese interés compartido, sobre los costos que cada una debe asumir, o sobre los plazos para lograrlo.",
+    "ejemplo_aplicado": "Aunque un gremio agrícola y una autoridad ambiental compartan el interés de mantener la fertilidad del suelo a largo plazo, pueden seguir en desacuerdo profundo sobre si lograrlo implica restringir de inmediato ciertos pesticidas o dar un plazo más largo de transición.",
+    "error_comun": "Se asume que basta con señalar un interés común para dar por resuelto el conflicto, sin reconocer que la intersección de intereses solo abre una vía de diálogo, y que las diferencias sobre la implementación concreta pueden seguir siendo tan profundas como antes.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-MUL-011"
+    ]
+  },
+  {
+    "id": "CC-MUL-013",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "interseccion_de_intereses",
+    "pregunta": "¿Cómo se diferencia la intersección de intereses de un simple acuerdo parcial en el diagnóstico?",
+    "respuesta_breve": "El acuerdo parcial en el diagnóstico se refiere a que las partes reconocen los mismos hechos sobre el problema; la intersección de intereses se refiere a que, además, ambas partes desean o necesitan un mismo resultado de fondo, más allá de si coinciden en describir la situación actual.",
+    "explicacion": "El **acuerdo parcial en el diagnóstico** significa que las partes coinciden en los **hechos**: qué está pasando. La **intersección de intereses** significa que, incluso si describen el problema de forma distinta, ambas partes **quieren lo mismo** en algún nivel de fondo, como estabilidad, seguridad o bienestar futuro.",
+    "ejemplo_aplicado": "Una comunidad y una empresa constructora pueden describir de forma distinta el estado actual de un barrio (una lo ve como 'abandonado', la otra como 'con potencial de renovación'), sin coincidir en el diagnóstico; y aun así, ambas comparten el interés de que ese barrio termine siendo un lugar seguro y habitable.",
+    "error_comun": "Se confunde 'estar de acuerdo en los hechos' con 'querer lo mismo de fondo', tratando ambos conceptos como intercambiables, cuando en realidad son dos niveles distintos de análisis de un conflicto que pueden presentarse de forma independiente.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-MUL-011",
+      "CC-MUL-007"
+    ]
+  },
+  {
+    "id": "CC-MUL-014",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "interseccion_de_intereses",
+    "pregunta": "¿Todo conflicto social tiene necesariamente una intersección de intereses entre las partes?",
+    "respuesta_breve": "No; aunque en la mayoría de los conflictos existe algún interés compartido, hay casos genuinamente de suma cero donde satisfacer completamente el interés de una parte excluye necesariamente el de la otra.",
+    "explicacion": "Aunque buscar la intersección de intereses es una herramienta valiosa de análisis, no se debe forzar su existencia donde realmente no la hay. En algunos conflictos, los intereses de fondo de las partes son genuinamente incompatibles: no existe una solución que satisfaga completamente a ambas.",
+    "ejemplo_aplicado": "En un conflicto por el uso de un terreno único y limitado, donde una parte necesita todo el espacio para una reserva natural intangible y la otra lo necesita completo para una infraestructura esencial que no admite reducción, puede no existir una intersección real de intereses más allá de reconocer ambos como legítimos.",
+    "error_comun": "Se fuerza la búsqueda de un interés común incluso en casos genuinamente irreconciliables, produciendo análisis poco honestos que minimizan artificialmente la magnitud real del conflicto.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-MUL-011",
+      "CC-MUL-012"
+    ]
+  },
+  {
+    "id": "CC-MUL-015",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "cosmovision_reflejada_en_comportamiento_o_argumento",
+    "pregunta": "¿Qué es una cosmovisión y cómo se refleja en el comportamiento de una persona o de un grupo?",
+    "respuesta_breve": "Es el conjunto de valores, creencias y forma de entender el mundo que comparte una persona o una comunidad, y que se manifiesta en las decisiones concretas que toman, aunque no siempre lo expresen de forma explícita.",
+    "explicacion": "La **cosmovisión** de un grupo no es solo lo que declara creer, sino el trasfondo de significados desde el cual interpreta la realidad y decide cómo actuar. Muchas veces esa cosmovisión no se anuncia directamente, sino que se puede inferir observando patrones de comportamiento: qué prioriza el grupo, qué rechaza, y cómo organiza su vida cotidiana.",
+    "ejemplo_aplicado": "Una comunidad que organiza su calendario agrícola en torno a ciclos naturales y rituales colectivos, en lugar de exclusivamente en torno a la eficiencia productiva, refleja en ese comportamiento una cosmovisión donde la relación con la naturaleza y la vida comunitaria tienen un valor central.",
+    "error_comun": "Se busca la cosmovisión de un grupo únicamente en discursos formales o declaraciones explícitas, sin observar que se manifiesta de forma más clara y consistente en las decisiones prácticas y cotidianas que ese grupo toma.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CC-MUL-016",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "cosmovision_reflejada_en_comportamiento_o_argumento",
+    "pregunta": "¿Cómo se refleja una cosmovisión dentro de la estructura de un argumento, más allá del comportamiento observable?",
+    "respuesta_breve": "Se refleja en qué tipo de razones se consideran válidas o suficientes para sostener una conclusión, y en qué aspectos de un problema se dan por obvios sin necesidad de justificarlos.",
+    "explicacion": "La cosmovisión de quien argumenta no solo aparece en lo que hace, sino también en la **estructura misma de su razonamiento**: qué tipo de evidencia considera relevante, qué valores da por sentado sin cuestionarlos, y qué aspectos de la realidad ni siquiera menciona porque para su marco de referencia no requieren justificación.",
+    "ejemplo_aplicado": "Un argumento que defiende un proyecto urbanístico basándose exclusivamente en cifras de crecimiento económico, sin considerar en ningún momento el impacto sobre el tejido social del barrio, refleja una cosmovisión donde el valor económico se entiende como criterio suficiente de éxito.",
+    "error_comun": "Se evalúa un argumento solo por su lógica interna (si las premisas sostienen la conclusión), sin notar que la elección misma de qué premisas incluir y cuáles omitir ya revela una cosmovisión particular sobre qué es relevante.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-MUL-015"
+    ]
+  },
+  {
+    "id": "CC-MUL-017",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "cosmovision_reflejada_en_comportamiento_o_argumento",
+    "pregunta": "¿Dos grupos pueden compartir la misma cosmovisión general y aun así comportarse de forma distinta frente a un mismo problema?",
+    "respuesta_breve": "Sí; compartir una cosmovisión general no implica coincidir en todas las decisiones prácticas, porque esa cosmovisión puede aplicarse de formas distintas según las circunstancias particulares de cada grupo.",
+    "explicacion": "Una cosmovisión compartida (por ejemplo, dar gran valor a la preservación del medio ambiente) no determina automáticamente una única forma de actuar; cada grupo puede traducir esos mismos valores en decisiones prácticas distintas, según sus circunstancias específicas o su interpretación particular de cómo aplicarlos.",
+    "ejemplo_aplicado": "Dos comunidades rurales que comparten un fuerte valor de conservación ambiental pueden tomar decisiones distintas frente a un mismo bosque: una prioriza la prohibición total de la tala, mientras que la otra prioriza un esquema de tala controlada con reforestación obligatoria, ambas desde el mismo valor de fondo.",
+    "error_comun": "Se asume que compartir una cosmovisión implica necesariamente coincidir en cualquier decisión concreta relacionada con ella, sin reconocer que una misma cosmovisión puede dar lugar legítimamente a distintas estrategias prácticas.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-MUL-015",
+      "CC-MUL-016"
+    ]
+  },
+  {
+    "id": "CC-MUL-018",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "cosmovision_reflejada_en_comportamiento_o_argumento",
+    "pregunta": "¿Es correcto inferir la cosmovisión completa de un grupo a partir de una sola decisión o comportamiento observado?",
+    "respuesta_breve": "No; una sola decisión puede estar influida por múltiples factores puntuales (económicos, circunstanciales) y no necesariamente representa de forma fiel el conjunto más amplio de valores del grupo.",
+    "explicacion": "Aunque el comportamiento es una fuente válida para inferir una cosmovisión, hacerlo a partir de un **único** caso observado es arriesgado, porque esa decisión puntual puede estar determinada por circunstancias específicas que no reflejan necesariamente los valores generales y permanentes del grupo.",
+    "ejemplo_aplicado": "Que una comunidad acepte, en un año de sequía extrema, un acuerdo comercial que en otras circunstancias habría rechazado no permite concluir que esa comunidad haya abandonado su cosmovisión tradicional de relación con la tierra; puede tratarse de una decisión puntual forzada por una circunstancia excepcional.",
+    "error_comun": "Se generaliza la cosmovisión de un grupo a partir de un solo episodio observado, sin considerar que las decisiones puntuales pueden estar condicionadas por circunstancias excepcionales que no representan el patrón habitual de comportamiento.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-MUL-015",
+      "CC-MUL-017"
+    ]
+  },
+  {
+    "id": "CC-MUL-019",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "rol_institucional_vs_opinion_personal",
+    "pregunta": "¿Qué diferencia hay entre lo que un funcionario declara en su rol institucional y lo que podría pensar como opinión personal?",
+    "respuesta_breve": "Lo que declara en su rol institucional representa la posición oficial de la entidad que dirige o representa, incluso si no coincide exactamente con lo que esa persona pensaría a título individual sobre el mismo tema.",
+    "explicacion": "Cuando una persona ocupa un **cargo institucional**, sus declaraciones públicas en esa función comprometen a la entidad que representa, no solo a su punto de vista personal. Un funcionario puede defender una postura institucional con la que, a título individual, tuviera reservas, porque su rol le exige representar la posición oficial de la entidad.",
+    "ejemplo_aplicado": "El vocero de una entidad de salud pública puede defender públicamente una política de racionamiento de recursos médicos durante una emergencia, en su rol institucional, incluso si como profesional individual tuviera reservas personales sobre algún aspecto específico.",
+    "error_comun": "Se interpreta cualquier declaración institucional como un reflejo directo y fiel de las creencias personales de quien la pronuncia, sin considerar que el rol que ocupa esa persona puede exigirle representar una posición oficial distinta de su opinión privada.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CC-MUL-020",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "rol_institucional_vs_opinion_personal",
+    "pregunta": "¿Por qué es un error analizar el conflicto asumiendo que la postura institucional de un actor representa exactamente lo que piensa toda la organización?",
+    "respuesta_breve": "Porque dentro de una misma institución puede haber diversidad de opiniones internas, y la postura institucional oficial es apenas el resultado de un proceso de consenso o de decisión jerárquica, no necesariamente lo que piensa cada uno de sus miembros.",
+    "explicacion": "Una **postura institucional** es el resultado de un proceso interno —de consenso, votación o decisión jerárquica— que no garantiza uniformidad de opiniones entre todos los integrantes de la organización. Tratarla como si fuera 'lo que piensa la organización entera, sin excepción' ignora que puede haber desacuerdos internos que no se hacen públicos.",
+    "ejemplo_aplicado": "Que una universidad adopte oficialmente una postura institucional a favor de cierta política de admisión no significa que todos sus profesores o directivos coincidan individualmente con esa decisión; algunos pueden tener reservas que no llegan a expresarse públicamente por disciplina institucional.",
+    "error_comun": "Se asume que la postura institucional refleja unanimidad interna, cuando en realidad es el resultado de un proceso de decisión que puede ocultar desacuerdos internos legítimos entre los miembros de la organización.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-MUL-019"
+    ]
+  },
+  {
+    "id": "CC-MUL-021",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "rol_institucional_vs_opinion_personal",
+    "pregunta": "¿Cómo afecta el cambio de una persona de un rol personal a uno institucional a la forma en que se debe interpretar su discurso?",
+    "respuesta_breve": "Al asumir un rol institucional, sus declaraciones deben leerse considerando las responsabilidades y límites que ese cargo le impone, y no solo como una expresión libre de sus convicciones personales previas.",
+    "explicacion": "Cuando una persona pasa de expresarse a título personal a hacerlo desde un **cargo institucional**, las expectativas sobre su discurso cambian: ahora debe considerar las consecuencias de sus palabras para la entidad que representa y los límites legales o normativos de su función, lo cual puede llevarla a moderar posiciones que sostenía libremente antes.",
+    "ejemplo_aplicado": "Un activista ambiental que, tras ser nombrado director de una entidad estatal encargada de otorgar licencias, modera públicamente algunas de sus posturas más radicales previas, no necesariamente por haber cambiado sus convicciones, sino porque su nuevo rol le exige considerar factores legales y técnicos que antes no formaban parte de su discurso.",
+    "error_comun": "Se interpreta un cambio de discurso al asumir un cargo institucional como una traición a las convicciones personales previas, sin considerar que el rol institucional impone responsabilidades y límites que legítimamente moderan cómo se puede expresar una misma convicción de fondo.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-MUL-019",
+      "CC-MUL-020"
+    ]
+  },
+  {
+    "id": "CC-MUL-022",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "cambio_de_postura_ante_nueva_evidencia",
+    "pregunta": "¿Cambiar de postura frente a nueva evidencia es señal de debilidad argumentativa?",
+    "respuesta_breve": "No; cambiar de postura cuando aparece evidencia nueva y relevante es, en general, una señal de rigor y honestidad intelectual, no de debilidad.",
+    "explicacion": "Existe la percepción errónea de que sostener siempre la misma postura, sin importar la evidencia nueva que surja, es señal de fortaleza. En realidad, un razonamiento riguroso exige **actualizar las conclusiones** cuando aparece información nueva y relevante que las pone en duda; aferrarse a una postura pese a la evidencia en contra es signo de rigidez, no de solidez.",
+    "ejemplo_aplicado": "Un funcionario que inicialmente apoyaba una estrategia de transporte público basada en un estudio previo, y que actualiza su postura al conocer un nuevo estudio con datos más recientes sobre los patrones de movilidad de la ciudad, está actuando con rigor, no con debilidad.",
+    "error_comun": "Se interpreta cualquier cambio de postura como inconsistencia o falta de convicción, sin distinguir si ese cambio responde a evidencia nueva legítima o simplemente a presión externa sin ningún fundamento adicional.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CC-MUL-023",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "cambio_de_postura_ante_nueva_evidencia",
+    "pregunta": "¿Cómo se distingue un cambio de postura genuino basado en evidencia de un cambio de postura oportunista?",
+    "respuesta_breve": "El cambio genuino explica con claridad qué evidencia nueva llevó a modificar la conclusión anterior; el cambio oportunista carece de esa justificación y suele coincidir más con un cambio de conveniencia que con la aparición de datos nuevos.",
+    "explicacion": "Un cambio **genuino** se acompaña de una explicación clara sobre qué información nueva llevó a modificar la conclusión previa, y esa información puede verificarse de forma independiente. Un cambio **oportunista** carece de esa justificación basada en evidencia, y suele coincidir sospechosamente con un cambio en las circunstancias de conveniencia del actor.",
+    "ejemplo_aplicado": "Un actor que cambia de postura sobre un proyecto de infraestructura justo después de obtener un beneficio personal en ese mismo proyecto, sin ofrecer ninguna evidencia técnica nueva que explique el cambio, muestra un patrón más cercano al oportunismo que a una actualización genuina.",
+    "error_comun": "Se asume que todo cambio de postura debe evaluarse de la misma manera, sin exigir que quien cambia de opinión ofrezca la evidencia específica que justificó ese cambio, en lugar de aceptar la nueva postura sin más explicación.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-MUL-022"
+    ]
+  },
+  {
+    "id": "CC-MUL-024",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "cambio_de_postura_ante_nueva_evidencia",
+    "pregunta": "¿Un cambio parcial de postura (matizar un argumento sin abandonarlo del todo) cuenta como un verdadero cambio de postura ante nueva evidencia?",
+    "respuesta_breve": "Sí; no todo cambio de postura implica abandonar por completo la conclusión anterior, sino que puede consistir en matizarla, restringir su alcance o reconocer excepciones, sin dejar de sostener la idea central.",
+    "explicacion": "Un cambio de postura ante nueva evidencia no siempre significa pasar de 'sí' a 'no' de forma total; muchas veces consiste en **matizar** una conclusión previa: reconocer que aplica en menos casos de los que se pensaba, o que requiere condiciones adicionales. Este ajuste parcial también refleja rigor intelectual.",
+    "ejemplo_aplicado": "Un experto que originalmente sostenía que cierta política de subsidios agrícolas beneficia a todos los pequeños productores por igual, y que tras conocer nueva evidencia matiza su postura reconociendo que el beneficio es menor para quienes no tienen acceso a canales de comercialización adecuados, está haciendo un cambio parcial legítimo.",
+    "error_comun": "Se espera que un cambio de postura genuino implique una reversión completa de la conclusión original, sin reconocer que matizar o acotar el alcance de una afirmación previa, a la luz de nueva evidencia, también constituye un cambio de postura legítimo y valioso.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-MUL-022",
+      "CC-MUL-023"
+    ]
+  },
+  {
+    "id": "CC-MUL-025",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "tension_entre_derechos_constitucionales_legitimos",
+    "pregunta": "¿Por qué la tensión entre la libertad de expresión y el derecho al buen nombre no se resuelve simplemente dándole prioridad automática a uno de los dos?",
+    "respuesta_breve": "Porque ambos son derechos legítimos con protección constitucional, y la solución depende del contexto específico: qué tan pública es la persona involucrada, si la información es de interés general, y si existe base fáctica para lo que se afirma.",
+    "explicacion": "Este es un ejemplo de **tensión entre derechos genuinamente legítimos**: no se trata de un interés económico contra uno social, sino de dos derechos fundamentales que a veces chocan entre sí. La **libertad de expresión** protege el derecho a informar y opinar; el **buen nombre** protege a las personas de afirmaciones falsas o difamatorias. Ninguno de los dos es absoluto: depende de si la información tiene sustento fáctico, si la persona ejerce una función pública, y si el tema es de interés general.",
+    "ejemplo_aplicado": "Un medio de comunicación que publica una investigación sobre el manejo de fondos públicos de un funcionario ejerce legítimamente la libertad de expresión, incluso si eso afecta su reputación; pero difundir un rumor no verificado sobre la vida privada de una persona sin relación con su función pública sí podría vulnerar su buen nombre.",
+    "error_comun": "Se asume que uno de los dos derechos siempre debe prevalecer sobre el otro ('la prensa siempre tiene razón' o 'la reputación siempre se protege'), cuando la Constitución exige ponderar caso por caso, considerando el interés público de la información y su veracidad.",
+    "dificultad": "alta",
+    "prereqs": []
+  },
+  {
+    "id": "CC-MUL-026",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "tension_entre_derechos_constitucionales_legitimos",
+    "pregunta": "¿Cómo se presenta la tensión entre el derecho a la privacidad y el derecho a la información en un contexto de salud pública?",
+    "respuesta_breve": "El derecho a la privacidad protege los datos personales de salud de un individuo; el interés colectivo en salud pública puede requerir conocer ciertos datos agregados o incluso individuales en situaciones excepcionales, como brotes epidemiológicos, generando una tensión legítima entre ambos.",
+    "explicacion": "Esta tensión aparece cuando la comunidad necesita información para protegerse de un riesgo colectivo, pero esa información involucra datos sensibles de personas específicas. La **privacidad** protege el control de cada persona sobre su información médica; el **interés público en salud** puede justificar excepciones limitadas, pero solo bajo condiciones estrictas de proporcionalidad y anonimización, nunca de forma ilimitada.",
+    "ejemplo_aplicado": "Ante un brote de una enfermedad contagiosa en un colegio, las autoridades de salud pueden justificar el acceso a cierta información médica de los estudiantes afectados para contener el contagio, pero divulgar públicamente sus nombres iría más allá de lo que el interés colectivo realmente requiere.",
+    "error_comun": "Se trata esta tensión como si el interés colectivo en salud siempre autorizara el acceso ilimitado a información personal, sin reconocer que incluso en emergencias existen límites de proporcionalidad y anonimización que protegen la privacidad individual.",
+    "dificultad": "alta",
+    "prereqs": []
+  },
+  {
+    "id": "CC-MUL-027",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "tension_entre_derechos_constitucionales_legitimos",
+    "pregunta": "¿Qué tensión legítima puede existir entre la autonomía cultural de una comunidad étnica y la libertad religiosa de un individuo que pertenece a ella?",
+    "respuesta_breve": "La comunidad étnica tiene derecho a preservar sus propias prácticas culturales y espirituales colectivas, mientras que cada uno de sus miembros individuales tiene derecho a la libertad de conciencia y de cultos, lo cual puede generar tensión cuando un integrante decide no participar en una práctica tradicional del grupo.",
+    "explicacion": "Esta es una tensión entre dos derechos igualmente legítimos, no entre 'la comunidad' y 'un interés externo'. La **autonomía cultural** protege la capacidad de los pueblos étnicos de mantener sus tradiciones y decisiones colectivas. La **libertad religiosa individual** protege el derecho de cada persona, incluso dentro de esa misma comunidad, a no ser obligada a participar en prácticas con las que no está de acuerdo.",
+    "ejemplo_aplicado": "Si un integrante de una comunidad indígena decide convertirse a una religión distinta de las prácticas tradicionales del grupo y por ello se le excluye de ciertos beneficios colectivos, se genera una tensión real entre el derecho de la comunidad a preservar su cohesión cultural y el derecho individual a la libertad religiosa.",
+    "error_comun": "Se asume automáticamente que la autonomía colectiva de una comunidad étnica siempre debe prevalecer sobre cualquier decisión individual de sus miembros, o al revés, sin reconocer que ambos derechos están genuinamente protegidos y requieren un análisis particular del caso.",
+    "dificultad": "alta",
+    "prereqs": []
+  },
+  {
+    "id": "CC-MUL-028",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "tension_entre_derechos_constitucionales_legitimos",
+    "pregunta": "¿Cómo se presenta la tensión entre la libertad de conciencia religiosa de unos padres y el interés superior de un menor de edad?",
+    "respuesta_breve": "Los padres tienen derecho a educar a sus hijos conforme a sus propias convicciones religiosas, pero ese derecho encuentra un límite legítimo cuando una decisión basada en esas convicciones pone en riesgo grave la salud o la vida del menor, cuyo interés superior tiene una protección constitucional reforzada.",
+    "explicacion": "Esta tensión enfrenta dos derechos genuinamente protegidos: la **libertad de conciencia y de cultos** de los padres para criar a sus hijos según sus convicciones, y el **interés superior del menor**, protegido de forma reforzada dado que los niños no pueden decidir plenamente por sí mismos. Cuando una decisión religiosa pone en riesgo grave la vida del menor, se ha priorizado su interés superior, sin negar la legitimidad general de la libertad religiosa de los padres en otros aspectos de la crianza.",
+    "ejemplo_aplicado": "Si unos padres se niegan, por convicciones religiosas, a autorizar un tratamiento médico urgente y comprobadamente necesario para salvar la vida de su hijo menor, un juez puede autorizar el tratamiento invocando el interés superior del menor, sin negar en general el derecho de los padres a educar según sus creencias.",
+    "error_comun": "Se presenta este tipo de caso como si la libertad religiosa de los padres no mereciera ninguna consideración, cuando en realidad sí es un derecho legítimo que se pondera frente al interés superior del menor; la limitación se activa solo ante un riesgo grave y comprobado para la vida o la salud del niño.",
+    "dificultad": "alta",
+    "prereqs": []
+  },
+  {
+    "id": "CC-MUL-029",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "tension_entre_derechos_constitucionales_legitimos",
+    "pregunta": "¿Qué tensión legítima existe entre la libertad de empresa y el derecho a la igualdad en el ámbito laboral?",
+    "respuesta_breve": "La libertad de empresa protege la autonomía de un empleador para organizar y dirigir su negocio, incluyendo decisiones de contratación; el derecho a la igualdad protege a los trabajadores y aspirantes de ser tratados sin discriminación arbitraria, lo cual limita legítimamente esa autonomía empresarial en ciertos aspectos.",
+    "explicacion": "La **libertad de empresa** reconoce a los empleadores un margen amplio de decisión sobre cómo organizar su actividad económica, incluyendo a quién contratar. El **derecho a la igualdad** limita esa libertad cuando las decisiones de contratación se basan en criterios discriminatorios sin relación con la idoneidad para el cargo. Ambos derechos son legítimos: el empleador conserva un margen real de decisión, pero ese margen no incluye la discriminación arbitraria.",
+    "ejemplo_aplicado": "Una empresa tiene libertad para definir qué perfil técnico requiere para un cargo (libertad de empresa), pero no puede excluir sistemáticamente a candidatos igualmente calificados por su edad, género o lugar de origen, sin una relación real entre ese criterio y las exigencias del puesto.",
+    "error_comun": "Se presenta esta tensión como si cualquier criterio de selección laboral fuera automáticamente discriminatorio, o como si la libertad de empresa autorizara cualquier decisión sin límite; la clave está en si el criterio usado tiene una relación razonable y verificable con las exigencias reales del cargo.",
+    "dificultad": "alta",
+    "prereqs": []
+  },
+  {
+    "id": "CC-MUL-030",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "tension_entre_derechos_constitucionales_legitimos",
+    "pregunta": "¿Cómo se presenta la tensión entre el derecho a la educación y la autonomía cultural de una comunidad étnica frente a un modelo educativo externo?",
+    "respuesta_breve": "El derecho a la educación busca garantizar el acceso de todos los niños a una formación de calidad; la autonomía cultural protege el derecho de las comunidades étnicas a decidir el contenido y la forma de la educación de sus propios hijos según su cosmovisión, lo cual puede generar tensión cuando un modelo educativo externo no incorpora esa perspectiva.",
+    "explicacion": "Esta tensión no enfrenta 'educación' contra 'atraso cultural', sino dos derechos legítimos: el **derecho a la educación** de los niños, y la **autonomía cultural y educativa** (etnoeducación) que se reconoce a los pueblos étnicos para que la formación de sus hijos respete su lengua, cosmovisión y prácticas propias. La solución no es imponer un modelo uniforme, sino garantizar una educación de calidad que también respete la identidad cultural.",
+    "ejemplo_aplicado": "Una comunidad indígena puede rechazar un modelo educativo estandarizado que ignore su lengua propia y su cosmovisión, no porque se oponga al derecho a la educación de sus niños, sino porque defiende su derecho a una etnoeducación que garantice ese mismo derecho de forma culturalmente pertinente.",
+    "error_comun": "Se presenta cualquier resistencia de una comunidad étnica a un modelo educativo externo como si fuera una negación del derecho a la educación de sus propios niños, cuando puede tratarse de la defensa legítima de un modelo alternativo que también garantiza ese derecho.",
+    "dificultad": "alta",
+    "prereqs": []
+  },
+  {
+    "id": "CC-MUL-031",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "tension_entre_derechos_constitucionales_legitimos",
+    "pregunta": "¿Qué tensión legítima existe entre el derecho a la protesta social y el derecho a la libre circulación de otros ciudadanos?",
+    "respuesta_breve": "El derecho a la protesta protege la manifestación pública de una postura colectiva, incluyendo el uso temporal del espacio público; el derecho a la libre circulación protege a otros ciudadanos que no participan en la protesta y que también tienen derecho a movilizarse por la ciudad, lo cual genera una tensión legítima cuando ambos usos del espacio público chocan.",
+    "explicacion": "Esta tensión enfrenta dos derechos constitucionales reales, no un derecho legítimo contra un simple malestar ciudadano. El **derecho a la protesta y a la reunión pacífica** permite el uso del espacio público para la manifestación colectiva. El **derecho a la libre circulación** protege a quienes no participan en la protesta pero necesitan desplazarse por esas mismas vías. Ninguno de los dos es absoluto: se han buscado fórmulas de proporcionalidad, como rutas alternas o límites de duración, en lugar de anular por completo alguno de los dos.",
+    "ejemplo_aplicado": "Un grupo de trabajadores que bloquea completamente, y por tiempo indefinido, la única vía de acceso a un hospital durante una protesta legítima sobre sus condiciones laborales genera una tensión real con el derecho a la libre circulación de quienes necesitan llegar a ese hospital, sin que esto signifique que la protesta en sí misma sea ilegítima.",
+    "error_comun": "Se presenta esta tensión como si uno de los dos derechos no mereciera ninguna consideración (o toda protesta que afecte el tránsito es ilegítima, o cualquier afectación debe tolerarse sin límite), cuando se exige buscar un balance proporcional entre ambos derechos según las circunstancias.",
+    "dificultad": "alta",
+    "prereqs": []
+  },
+  {
+    "id": "CC-MUL-032",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "tension_entre_derechos_constitucionales_legitimos",
+    "pregunta": "¿Qué tensión legítima existe entre el derecho a la vivienda digna y la protección del patrimonio cultural en proyectos de renovación urbana?",
+    "respuesta_breve": "El derecho a la vivienda busca garantizar espacios habitables y accesibles para la población, especialmente para quienes tienen menos recursos; la protección del patrimonio cultural busca conservar edificaciones o zonas de valor histórico, lo cual puede limitar legítimamente las posibilidades de construir nueva vivienda en esos espacios.",
+    "explicacion": "Esta tensión no enfrenta 'necesidad social' contra 'capricho estético', sino dos bienes protegidos constitucionalmente: el **derecho a la vivienda digna**, especialmente relevante para poblaciones vulnerables, y la **protección del patrimonio cultural**, que reconoce el valor colectivo de conservar edificaciones históricas para las generaciones presentes y futuras. Resolver esta tensión exige fórmulas que concilien ambos objetivos, como preservar fachadas históricas mientras se habilita nueva vivienda en su interior.",
+    "ejemplo_aplicado": "Un proyecto que busca demoler un conjunto de edificaciones declaradas patrimonio histórico para construir vivienda social genera una tensión real entre ambos derechos; una alternativa de conciliación podría ser adaptar el interior de esas edificaciones para uso habitacional, conservando su fachada y valor histórico exterior.",
+    "error_comun": "Se presenta esta tensión como si la protección patrimonial fuera un simple obstáculo burocrático sin valor social real, o como si la necesidad de vivienda careciera de peso frente al patrimonio, sin reconocer que ambos son bienes colectivos legítimos que requieren una solución conciliadora.",
+    "dificultad": "alta",
+    "prereqs": []
+  },
+  {
+    "id": "CC-MUL-033",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "multiperspectivismo",
+    "bloque": "tension_entre_derechos_constitucionales_legitimos",
+    "pregunta": "¿Qué tensión legítima existe entre el derecho a la privacidad de un trabajador y la facultad de supervisión del empleador dentro de una relación laboral?",
+    "respuesta_breve": "El trabajador tiene derecho a que su vida personal y sus comunicaciones privadas no sean invadidas sin justificación; el empleador tiene la facultad legítima de supervisar el cumplimiento de las funciones laborales dentro del tiempo y los medios de trabajo, lo cual puede generar tensión cuando esa supervisión se extiende más allá de lo estrictamente laboral.",
+    "explicacion": "Esta tensión enfrenta el **derecho a la intimidad** del trabajador con el **poder de dirección y supervisión** que se reconoce al empleador dentro de la relación laboral. El empleador puede supervisar legítimamente el uso de los recursos y el tiempo de trabajo que él mismo provee, pero esa facultad no se extiende automáticamente a invadir aspectos estrictamente personales del trabajador fuera del ámbito laboral.",
+    "ejemplo_aplicado": "Una empresa puede revisar legítimamente el uso que un empleado da al correo electrónico corporativo durante su jornada laboral, pero no tendría el mismo fundamento para exigir acceso a las redes sociales personales del trabajador fuera de su horario, sin una justificación específica y proporcional.",
+    "error_comun": "Se asume que la relación laboral elimina por completo el derecho a la privacidad del trabajador dentro del lugar de trabajo, o al contrario, que cualquier supervisión del empleador vulnera automáticamente su privacidad, sin reconocer que ambos derechos coexisten con un límite de proporcionalidad.",
+    "dificultad": "alta",
+    "prereqs": []
+  }
+]

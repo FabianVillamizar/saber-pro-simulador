@@ -1,0 +1,476 @@
+[
+  {
+    "id": "CC-SIS-001",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "dimensiones_de_un_problema_con_ejemplos_que_las_distingan",
+    "pregunta": "¿Qué caracteriza a la dimensión política de un problema, y en qué se diferencia de la dimensión económica?",
+    "respuesta_breve": "La dimensión política se refiere a cómo se distribuye y ejerce el poder de decisión —quién decide, mediante qué reglas y con qué legitimidad—, mientras que la dimensión económica se refiere a la producción, distribución y uso de recursos materiales.",
+    "explicacion": "La **dimensión política** se enfoca en las relaciones de poder y toma de decisiones: qué actores tienen la autoridad para decidir, cómo se legitima esa autoridad, y qué mecanismos institucionales regulan el conflicto. Esto es distinto de la **dimensión económica**, que analiza cómo se producen, distribuyen o usan los recursos, independientemente de quién tenga el poder formal de decidir sobre ellos.",
+    "ejemplo_aplicado": "En un conflicto sobre la construcción de una represa, la dimensión política analiza quién tiene la autoridad legal para aprobar el proyecto y qué tan legítimo es ese proceso de decisión (consulta previa, participación ciudadana); la dimensión económica analiza los costos de construcción, el valor de la energía generada y quién se beneficia financieramente.",
+    "error_comun": "Se mezclan ambas dimensiones asumiendo que 'quién tiene el poder de decidir' es lo mismo que 'quién tiene los recursos económicos', cuando el poder de decisión formal puede no coincidir con quien controla los recursos económicos del proyecto.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CC-SIS-002",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "dimensiones_de_un_problema_con_ejemplos_que_las_distingan",
+    "pregunta": "¿Qué caracteriza a la dimensión económica de un problema y cómo se distingue de la dimensión social?",
+    "respuesta_breve": "La dimensión económica analiza la producción, distribución, costos y beneficios materiales de una situación; la dimensión social analiza cómo esa situación afecta las relaciones, la cohesión y el bienestar cotidiano de las personas y comunidades.",
+    "explicacion": "La **dimensión económica** se centra en flujos de recursos: empleo, ingresos, costos, inversión, rentabilidad. La **dimensión social** se centra en cómo cambian las relaciones entre las personas, el acceso a oportunidades o la calidad de vida cotidiana, más allá de lo estrictamente monetario. Un mismo hecho puede tener fuertes implicaciones económicas sin que eso agote su impacto social, o viceversa.",
+    "ejemplo_aplicado": "El cierre de una fábrica tiene una dimensión económica clara (pérdida de ingresos, caída en la producción regional), pero también una dimensión social distinta: la fragmentación de redes de apoyo entre trabajadores o el debilitamiento de la vida comunitaria que giraba en torno a esa fábrica.",
+    "error_comun": "Se reduce el impacto social de un problema a sus cifras económicas, como si 'perder empleos' agotara todo el análisis social, sin reconocer que las consecuencias sociales incluyen aspectos relacionales y comunitarios que no se capturan solo con datos de ingresos o empleo.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CC-SIS-003",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "dimensiones_de_un_problema_con_ejemplos_que_las_distingan",
+    "pregunta": "¿Qué caracteriza a la dimensión ambiental de un problema y por qué no debe reducirse a un simple costo económico?",
+    "respuesta_breve": "La dimensión ambiental analiza los efectos sobre los ecosistemas, los recursos naturales y el equilibrio ecológico, incluyendo efectos que no siempre tienen un precio de mercado claro ni son reversibles en el corto plazo.",
+    "explicacion": "La **dimensión ambiental** examina cómo una situación afecta el aire, el agua, el suelo, la biodiversidad o los ciclos naturales. Aunque a veces se intenta traducir estos efectos a términos económicos, muchos impactos ambientales —como la pérdida irreversible de una especie— no tienen un equivalente monetario claro ni pueden revertirse simplemente con una compensación económica.",
+    "ejemplo_aplicado": "La deforestación de una cuenca hidrográfica tiene una dimensión ambiental que incluye la pérdida de capacidad de regulación hídrica de la zona, un efecto que persiste incluso si se paga una compensación económica a las comunidades afectadas, porque el ecosistema deforestado no se recupera de forma inmediata ni completa.",
+    "error_comun": "Se asume que cualquier daño ambiental puede 'compensarse' plenamente con dinero, ignorando que ciertos efectos ambientales son parcialmente irreversibles o de recuperación muy lenta.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CC-SIS-004",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "dimensiones_de_un_problema_con_ejemplos_que_las_distingan",
+    "pregunta": "¿Qué caracteriza a la dimensión cultural de un problema y en qué se diferencia de la dimensión social?",
+    "respuesta_breve": "La dimensión cultural se refiere a los valores, creencias, identidades y significados compartidos que un grupo atribuye a una situación; la dimensión social se refiere más bien a las relaciones concretas, la cohesión y el bienestar cotidiano entre las personas.",
+    "explicacion": "La **dimensión cultural** examina el sistema de significados, valores e identidad de un grupo, mientras que la **dimensión social** examina la estructura de relaciones cotidianas entre personas (redes de apoyo, cohesión comunitaria, acceso a oportunidades). Un mismo problema puede afectar profundamente el significado cultural de algo sin alterar de forma directa las relaciones sociales cotidianas, y viceversa.",
+    "ejemplo_aplicado": "La modificación de una fiesta tradicional para adaptarla a fines turísticos puede tener una dimensión cultural significativa (pérdida de significado ritual original), independientemente de que las relaciones sociales cotidianas del pueblo (vecindad, trabajo conjunto) sigan funcionando igual que antes.",
+    "error_comun": "Se trata lo cultural como un simple subconjunto de lo social, sin reconocer que un cambio puede preservar la estructura social de un grupo y, al mismo tiempo, vaciar de significado una práctica central para su identidad cultural.",
+    "dificultad": "alta",
+    "prereqs": []
+  },
+  {
+    "id": "CC-SIS-005",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "dimensiones_de_un_problema_con_ejemplos_que_las_distingan",
+    "pregunta": "¿Qué pregunta clave ayuda a distinguir rápidamente si un efecto pertenece a la dimensión política, económica, social, ambiental o cultural?",
+    "respuesta_breve": "Preguntar '¿sobre qué recae principalmente este efecto: el poder de decisión (política), los recursos materiales (económica), las relaciones humanas cotidianas (social), los ecosistemas (ambiental), o los significados e identidad de un grupo (cultural)?'.",
+    "explicacion": "Un mismo hecho puede generar efectos en varias dimensiones a la vez, y el reto es identificar sobre **qué recae principalmente** cada consecuencia descrita. Preguntarse qué tipo de 'sustancia' tiene el efecto ayuda a clasificarlo correctamente, en lugar de asumir que todos los efectos de un problema pertenecen automáticamente a la misma dimensión.",
+    "ejemplo_aplicado": "Si la construcción de una carretera reduce el tiempo de viaje de una comunidad (dimensión social), aumenta el valor comercial de los terrenos cercanos (dimensión económica), y atraviesa un sitio sagrado para una comunidad indígena (dimensión cultural), un mismo proyecto puede clasificarse en tres dimensiones distintas según el efecto específico que se analice.",
+    "error_comun": "Se asigna todo un problema a una sola dimensión dominante ('es un problema económico') sin reconocer que distintos efectos concretos del mismo problema pueden clasificarse en dimensiones diferentes, cada una con su propia lógica de análisis.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-SIS-001",
+      "CC-SIS-002",
+      "CC-SIS-003",
+      "CC-SIS-004"
+    ]
+  },
+  {
+    "id": "CC-SIS-006",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "dimensiones_de_un_problema_con_ejemplos_que_las_distingan",
+    "pregunta": "¿Qué caracteriza específicamente a la dimensión social de un problema, más allá de ser 'todo lo que no es económico ni ambiental'?",
+    "respuesta_breve": "La dimensión social se enfoca en cómo un problema transforma las relaciones entre las personas: el acceso a oportunidades, las redes de apoyo, la cohesión comunitaria y las condiciones de convivencia cotidiana.",
+    "explicacion": "Es un error tratar la dimensión social como un 'cajón residual' donde se mete cualquier efecto que no encaje en las otras dimensiones. Tiene un objeto propio de análisis: las **relaciones humanas** y cómo se organizan, independientemente de si esas relaciones también tienen componentes económicos o culturales.",
+    "ejemplo_aplicado": "El desplazamiento de una comunidad por un proyecto de infraestructura tiene una dimensión social propia: la ruptura de redes de vecindad y apoyo mutuo construidas durante años, un efecto que persiste incluso si a cada familia se le compensa económicamente de forma justa.",
+    "error_comun": "Se define la dimensión social solo por exclusión ('lo que no es económico, ambiental o político'), en lugar de reconocer que tiene un objeto de análisis propio y bien definido: la estructura y calidad de las relaciones humanas cotidianas.",
+    "dificultad": "media",
+    "prereqs": [
+      "CC-SIS-002"
+    ]
+  },
+  {
+    "id": "CC-SIS-007",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "relaciones_entre_dimensiones",
+    "pregunta": "¿Qué significa que dos dimensiones de un problema estén relacionadas entre sí, y por qué no deben analizarse de forma completamente aislada?",
+    "respuesta_breve": "Significa que un cambio en una dimensión produce efectos en otra, de modo que analizar cada dimensión por separado, sin considerar cómo se afectan mutuamente, ofrece una imagen incompleta del problema.",
+    "explicacion": "Las dimensiones de un problema rara vez funcionan de forma independiente; suelen estar **interconectadas**, de modo que un cambio en una genera efectos en otra. Comprender un problema de forma sistémica exige rastrear esas conexiones, en lugar de evaluar cada dimensión como si existiera en un compartimento separado.",
+    "ejemplo_aplicado": "Una decisión política de otorgar una licencia minera (dimensión política) puede alterar los ingresos económicos de una región (dimensión económica), lo cual a su vez modifica los patrones de migración interna y las relaciones comunitarias existentes (dimensión social).",
+    "error_comun": "Se analiza cada dimensión de un problema como un compartimento cerrado, evaluando por ejemplo solo el impacto económico de una decisión sin rastrear cómo ese impacto termina generando, a su vez, efectos sociales o culturales.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CC-SIS-008",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "relaciones_entre_dimensiones",
+    "pregunta": "¿Qué es una relación de doble vía (o retroalimentación) entre dos dimensiones de un problema?",
+    "respuesta_breve": "Es una relación donde no solo una dimensión afecta a la otra, sino que el efecto producido en la segunda dimensión regresa e influye de nuevo sobre la primera, generando un ciclo continuo.",
+    "explicacion": "Algunas relaciones entre dimensiones no son de una sola dirección sino de **doble vía**: A afecta a B, y ese cambio en B vuelve a afectar a A, generando un ciclo que se retroalimenta con el tiempo. Identificar estos ciclos es clave para entender por qué ciertos problemas tienden a agravarse o a estabilizarse en el tiempo.",
+    "ejemplo_aplicado": "La pérdida de cobertura vegetal en una cuenca (ambiental) reduce la capacidad del suelo para retener agua, intensificando las inundaciones; estas dañan cultivos y reducen los ingresos agrícolas (económica), lo que presiona a las familias a talar más bosque para sembrar nuevas tierras (retroalimentación hacia lo ambiental).",
+    "error_comun": "Se identifica solo una dirección de causalidad entre dos dimensiones sin verificar si existe también un efecto de retorno, lo cual lleva a subestimar cómo ciertos problemas se agravan progresivamente por un ciclo de retroalimentación.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-SIS-007"
+    ]
+  },
+  {
+    "id": "CC-SIS-009",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "relaciones_entre_dimensiones",
+    "pregunta": "¿Puede una misma acción tener un efecto positivo en una dimensión y, simultáneamente, un efecto negativo en otra?",
+    "respuesta_breve": "Sí; una misma acción concreta puede beneficiar claramente una dimensión mientras perjudica otra, sin que esto signifique que la acción en sí sea contradictoria o esté mal diseñada.",
+    "explicacion": "Como las dimensiones de un problema tienen lógicas distintas, es posible que una misma decisión genere resultados favorables en una dimensión y desfavorables en otra, de forma simultánea. Reconocer esta posibilidad evita esperar que una buena solución deba ser positiva en todas las dimensiones a la vez.",
+    "ejemplo_aplicado": "La construcción de una vía que conecta una región aislada con el resto del país puede mejorar el acceso a mercados y servicios (económica y social positiva), mientras fragmenta el hábitat natural de especies que dependían de esa zona boscosa (ambiental negativa).",
+    "error_comun": "Se espera que una solución sea 'buena' o 'mala' de forma uniforme en todas las dimensiones, sin reconocer que es normal, e incluso frecuente, que una misma acción tenga efectos de signo contrario según la dimensión evaluada.",
+    "dificultad": "media",
+    "prereqs": [
+      "CC-SIS-007"
+    ]
+  },
+  {
+    "id": "CC-SIS-010",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "relaciones_entre_dimensiones",
+    "pregunta": "¿Cómo se identifica cuál de dos dimensiones relacionadas está actuando como causa y cuál como efecto en un problema concreto?",
+    "respuesta_breve": "Rastreando la secuencia temporal y el mecanismo concreto de influencia: la dimensión que se modifica primero y que explica por qué cambió la otra suele funcionar como causa, mientras que la que cambia como consecuencia funciona como efecto.",
+    "explicacion": "Cuando dos dimensiones aparecen relacionadas en un problema, no basta con notar que están conectadas; hay que precisar la **dirección** de esa relación, identificando qué cambio ocurrió primero y qué mecanismo concreto conecta ambos cambios.",
+    "ejemplo_aplicado": "Si en una región primero se aprueba una política de reducción de aranceles agrícolas (política/económica) y después se observa una caída en el empleo rural (social), el orden temporal y el mecanismo (menor protección arancelaria reduce la competitividad local) permiten identificar la política como causa y la caída de empleo como efecto, no al revés.",
+    "error_comun": "Se asume la dirección de la relación entre dos dimensiones sin verificar el orden temporal ni el mecanismo concreto, lo que puede llevar a confundir la causa con el efecto o a inventar una relación causal donde solo existe una coincidencia temporal.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-SIS-007",
+      "CC-SIS-008"
+    ]
+  },
+  {
+    "id": "CC-SIS-011",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "transferibilidad_de_una_solucion_a_otro_contexto",
+    "pregunta": "¿Qué significa evaluar la transferibilidad de una solución de un contexto a otro?",
+    "respuesta_breve": "Significa analizar si las condiciones que permitieron que una solución funcionara en un lugar o momento específico también están presentes en el nuevo contexto donde se quiere aplicar, y no asumir automáticamente que funcionará igual.",
+    "explicacion": "Una solución exitosa depende de **condiciones específicas** de ese contexto: recursos disponibles, cultura local, marco institucional, geografía. Evaluar la **transferibilidad** implica identificar cuáles de esas condiciones son indispensables para el éxito y verificar si el nuevo contexto las tiene también.",
+    "ejemplo_aplicado": "Un programa de bicicletas públicas que funcionó bien en una ciudad con topografía plana y clima templado no necesariamente tendrá el mismo éxito en una ciudad con terreno montañoso y lluvias intensas, porque esas condiciones geográficas no están presentes en el segundo contexto.",
+    "error_comun": "Se asume que una solución exitosa en un lugar funcionará igual de bien en cualquier otro simplemente por haber funcionado antes, sin verificar si las condiciones específicas que explicaron ese éxito realmente se repiten en el nuevo contexto.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CC-SIS-012",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "transferibilidad_de_una_solucion_a_otro_contexto",
+    "pregunta": "¿Qué diferencia hay entre transferir el principio general de una solución y transferir sus detalles exactos de implementación?",
+    "respuesta_breve": "El principio general puede ser válido en muchos contextos distintos, mientras que los detalles exactos de implementación suelen depender de condiciones locales específicas que no siempre se repiten.",
+    "explicacion": "Conviene distinguir entre el **principio general** de una solución (la idea o mecanismo de fondo que explica por qué funciona) y sus **detalles concretos de implementación**. El principio general puede adaptarse a nuevos contextos, pero replicar los detalles exactos sin ajustarlos suele fracasar.",
+    "ejemplo_aplicado": "El principio general de un programa exitoso de reciclaje ('dar incentivos económicos directos a los hogares que separan sus residuos') puede transferirse a otra ciudad, pero los detalles exactos (monto del incentivo, logística de recolección) probablemente deban ajustarse según el nivel de ingresos y la infraestructura local.",
+    "error_comun": "Se copian los detalles exactos de una solución exitosa sin adaptarlos, asumiendo que la fidelidad total a la implementación original garantiza el éxito, cuando lo transferible es principalmente el principio de fondo, no cada detalle operativo.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-SIS-011"
+    ]
+  },
+  {
+    "id": "CC-SIS-013",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "transferibilidad_de_una_solucion_a_otro_contexto",
+    "pregunta": "¿Qué tipo de condiciones conviene revisar antes de trasladar una solución de un contexto rural a uno urbano, o viceversa?",
+    "respuesta_breve": "Conviene revisar diferencias en densidad poblacional, disponibilidad de infraestructura, acceso a servicios, y estructura de las relaciones comunitarias, ya que estos factores suelen cambiar radicalmente entre contextos rurales y urbanos.",
+    "explicacion": "El contraste entre contextos **rurales y urbanos** implica diferencias en variables que afectan el éxito de una solución: densidad de población, infraestructura existente, acceso previo a servicios, y la forma en que están organizadas las relaciones comunitarias.",
+    "ejemplo_aplicado": "Un programa de salud comunitaria que depende de que los promotores conozcan personalmente a cada familia puede funcionar bien en una vereda pequeña, pero requerirá un rediseño significativo en un barrio urbano densamente poblado, donde ese nivel de conocimiento personal es mucho más difícil de replicar.",
+    "error_comun": "Se traslada una solución de un contexto rural a uno urbano (o viceversa) enfocándose solo en el objetivo general de la política, sin examinar si las condiciones estructurales de densidad, infraestructura y organización comunitaria permiten la misma implementación.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-SIS-011",
+      "CC-SIS-012"
+    ]
+  },
+  {
+    "id": "CC-SIS-014",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "transferibilidad_de_una_solucion_a_otro_contexto",
+    "pregunta": "¿Una solución que fracasó en un contexto anterior debe descartarse automáticamente para cualquier otro contexto?",
+    "respuesta_breve": "No; el fracaso en un contexto puede deberse a condiciones específicas de ese caso que no necesariamente se repiten en otro, por lo que conviene analizar la causa concreta del fracaso antes de descartar la solución de forma general.",
+    "explicacion": "Así como el éxito de una solución no garantiza su transferibilidad automática, tampoco su fracaso en un contexto específico implica que sea inválida en cualquier otro lugar. Es necesario identificar la **causa concreta** del fracaso antes de generalizar esa conclusión.",
+    "ejemplo_aplicado": "Un programa de formalización laboral que fracasó en una región por la ausencia de oficinas administrativas cercanas no necesariamente fracasaría en otra región que sí cuenta con esa infraestructura, porque la causa concreta del fracaso original no estaría presente en el nuevo contexto.",
+    "error_comun": "Se descarta una solución de forma generalizada solo por haber fracasado en un caso particular, sin distinguir si ese fracaso se debió a una condición específica y no generalizable de ese contexto, en lugar de a un defecto inherente a la solución misma.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-SIS-011",
+      "CC-SIS-013"
+    ]
+  },
+  {
+    "id": "CC-SIS-015",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "consecuencias_deseadas_vs_no_deseadas",
+    "pregunta": "¿Qué diferencia hay entre una consecuencia deseada y una consecuencia no deseada de una medida?",
+    "respuesta_breve": "La consecuencia deseada es el efecto que se buscaba producir intencionalmente con la medida; la consecuencia no deseada es un efecto adicional que ocurre como resultado de la misma medida, sin que haya sido parte del objetivo original.",
+    "explicacion": "Toda medida se diseña para lograr un objetivo específico: su **consecuencia deseada**. Sin embargo, casi ninguna intervención produce únicamente ese efecto planeado; suelen aparecer también **consecuencias no deseadas**, efectos secundarios que no formaban parte del propósito original.",
+    "ejemplo_aplicado": "Una política que aumenta el impuesto a los cigarrillos busca reducir el consumo de tabaco (consecuencia deseada), pero puede generar, como consecuencia no deseada, un aumento del contrabando de cigarrillos de países con impuestos más bajos.",
+    "error_comun": "Se evalúa el éxito de una medida únicamente mirando si logró su consecuencia deseada, sin examinar si generó además consecuencias no deseadas que podrían contrarrestar parcialmente, o incluso superar, el beneficio buscado originalmente.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CC-SIS-016",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "consecuencias_deseadas_vs_no_deseadas",
+    "pregunta": "¿Una consecuencia no deseada siempre es negativa?",
+    "respuesta_breve": "No; una consecuencia no deseada simplemente no estaba prevista ni era el objetivo de la medida, pero puede resultar tanto positiva como negativa para el problema en su conjunto.",
+    "explicacion": "Es un error asumir que 'no deseado' equivale automáticamente a 'perjudicial'. Una consecuencia no deseada es, en sentido estricto, cualquier efecto que no formaba parte del objetivo explícito de la medida, independientemente de si termina siendo beneficioso o dañino.",
+    "ejemplo_aplicado": "Un programa de mejoramiento de vías rurales diseñado para facilitar el transporte de cosechas (consecuencia deseada) puede tener como consecuencia no deseada, pero positiva, un aumento en la asistencia escolar de niños que ahora pueden llegar más fácilmente a sus colegios.",
+    "error_comun": "Se asocia automáticamente 'consecuencia no deseada' con 'consecuencia negativa', cuando el término solo indica que el efecto no estaba planeado, sin prejuzgar si termina siendo favorable o desfavorable.",
+    "dificultad": "media",
+    "prereqs": [
+      "CC-SIS-015"
+    ]
+  },
+  {
+    "id": "CC-SIS-017",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "consecuencias_deseadas_vs_no_deseadas",
+    "pregunta": "¿Cómo se anticipan las consecuencias no deseadas de una medida antes de implementarla?",
+    "respuesta_breve": "Analizando las dimensiones del problema que la medida no aborda directamente y preguntándose cómo el cambio propuesto podría alterar comportamientos, incentivos o condiciones en esas otras dimensiones.",
+    "explicacion": "Anticipar consecuencias no deseadas exige ir más allá del objetivo explícito de una medida y preguntarse cómo esta podría modificar **incentivos, comportamientos o condiciones** en dimensiones distintas a la que se busca intervenir directamente. Esto requiere pensar sistémicamente.",
+    "ejemplo_aplicado": "Antes de implementar un subsidio de transporte para estudiantes universitarios, conviene preguntarse cómo podría afectar la demanda de vivienda cerca de las universidades, ya que si reduce el costo de desplazarse desde zonas alejadas, podría disminuir la presión sobre el mercado de vivienda estudiantil cercano a los campus.",
+    "error_comun": "Se diseñan medidas evaluando exclusivamente si lograrán su objetivo directo, sin dedicar el mismo esfuerzo de análisis a explorar cómo esa misma medida podría alterar incentivos o comportamientos en dimensiones distintas.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-SIS-015",
+      "CC-SIS-016"
+    ]
+  },
+  {
+    "id": "CC-SIS-018",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "consecuencias_deseadas_vs_no_deseadas",
+    "pregunta": "¿Es válido rechazar una medida completa solo porque tiene alguna consecuencia no deseada negativa?",
+    "respuesta_breve": "No necesariamente; conviene comparar el peso relativo de la consecuencia deseada frente al de la consecuencia no deseada negativa, en lugar de descartar la medida por la sola existencia de un efecto secundario indeseado.",
+    "explicacion": "Prácticamente toda medida con algún grado de impacto real genera consecuencias no deseadas de algún tipo. El análisis riguroso no consiste en descartar cualquier medida con efectos secundarios negativos, sino en **comparar la magnitud** de esos efectos frente al beneficio buscado.",
+    "ejemplo_aplicado": "Una política de peajes urbanos para reducir la congestión vehicular en el centro puede generar como consecuencia no deseada un mayor tráfico en las vías periféricas; esto no invalida automáticamente la política, sino que exige evaluar si el beneficio central compensa ese efecto periférico.",
+    "error_comun": "Se rechaza por completo una medida apenas se identifica alguna consecuencia no deseada negativa, sin comparar su magnitud real frente al beneficio buscado ni explorar ajustes que podrían mitigar ese efecto secundario.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-SIS-015",
+      "CC-SIS-017"
+    ]
+  },
+  {
+    "id": "CC-SIS-019",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "dimension_desatendida_en_una_solucion_parcial",
+    "pregunta": "¿Qué significa que una solución sea 'parcial' porque desatiende una dimensión del problema?",
+    "respuesta_breve": "Significa que la solución aborda de manera efectiva una o varias dimensiones del problema, pero ignora otra dimensión relevante que también forma parte del mismo problema, dejando esa parte sin resolver.",
+    "explicacion": "Muchos problemas sociales tienen varias **dimensiones** simultáneamente relevantes, y una solución puede ser genuinamente efectiva en una de ellas sin atender las demás. Cuando esto ocurre, se dice que la solución es **parcial**: resuelve una parte real del problema, pero deja una dimensión desatendida.",
+    "ejemplo_aplicado": "Un programa que otorga capacitación técnica a jóvenes desempleados aborda eficazmente la dimensión de formación de habilidades, pero si en la región no existen suficientes empleos disponibles, la dimensión económica de la falta de oferta laboral queda completamente desatendida.",
+    "error_comun": "Se considera 'resuelto' un problema con solo verificar que la solución tuvo éxito en la dimensión que directamente atendió, sin revisar si otras dimensiones igualmente relevantes siguen sin ninguna intervención.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CC-SIS-020",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "dimension_desatendida_en_una_solucion_parcial",
+    "pregunta": "¿Cómo se identifica cuál dimensión quedó desatendida en una solución que parece exitosa a primera vista?",
+    "respuesta_breve": "Revisando sistemáticamente cada una de las dimensiones relevantes del problema original (política, económica, social, ambiental, cultural) y verificando si la solución propuesta realmente incluye alguna medida específica para cada una.",
+    "explicacion": "Para detectar una dimensión desatendida conviene hacer un ejercicio sistemático: listar todas las dimensiones relevantes del problema y preguntarse si la solución propuesta contiene algún mecanismo concreto que la aborde. Si alguna dimensión no tiene ningún mecanismo correspondiente, esa es la dimensión desatendida.",
+    "ejemplo_aplicado": "Frente a una propuesta para reducir la deserción escolar que solo incluye becas económicas, conviene preguntarse: ¿hay algo que atienda la dimensión social, como el acompañamiento familiar? Si la respuesta es no, esa dimensión queda desatendida, aunque la propuesta económica sea sólida.",
+    "error_comun": "Se evalúa la solidez de una propuesta solo por la calidad del mecanismo que sí incluye, sin verificar sistemáticamente si cada dimensión relevante del problema tiene su propio mecanismo correspondiente dentro de la propuesta.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-SIS-019"
+    ]
+  },
+  {
+    "id": "CC-SIS-021",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "dimension_desatendida_en_una_solucion_parcial",
+    "pregunta": "¿Por qué desatender una dimensión de un problema puede hacer que la solución fracase con el tiempo, aunque funcione bien al principio?",
+    "respuesta_breve": "Porque la dimensión desatendida puede seguir generando presiones o problemas que, con el tiempo, terminan debilitando o revirtiendo los avances logrados en las dimensiones que sí fueron atendidas.",
+    "explicacion": "Las dimensiones de un problema suelen estar interconectadas, por lo que ignorar una de ellas no la elimina del sistema; simplemente la deja sin gestionar. Con el tiempo, esa dimensión desatendida puede generar tensiones que afecten negativamente incluso a las dimensiones que sí fueron atendidas con éxito inicial.",
+    "ejemplo_aplicado": "Un proyecto de reforestación que se limita a plantar árboles (ambiental) sin atender la dimensión económica de las familias que dependían de ese terreno para cultivar, puede fracasar a largo plazo si esas familias, presionadas económicamente, terminan talando los árboles recién plantados.",
+    "error_comun": "Se evalúa el éxito de una solución únicamente en su fase inicial, sin considerar que una dimensión desatendida puede generar presiones acumulativas que, con el paso del tiempo, terminan revirtiendo los logros alcanzados.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-SIS-019",
+      "CC-SIS-020"
+    ]
+  },
+  {
+    "id": "CC-SIS-022",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "dimension_desatendida_en_una_solucion_parcial",
+    "pregunta": "¿Toda solución parcial debe descartarse por dejar una dimensión desatendida?",
+    "respuesta_breve": "No necesariamente; una solución parcial puede ser un paso legítimo y útil si se reconoce explícitamente su alcance limitado y se complementa con otras medidas que atiendan las dimensiones restantes.",
+    "explicacion": "El problema no está en que una solución sea parcial —pocas soluciones pueden abordar todas las dimensiones de un problema complejo simultáneamente—, sino en **presentarla como si fuera integral** cuando no lo es. Una solución parcial bien gestionada reconoce explícitamente qué dimensión queda pendiente.",
+    "ejemplo_aplicado": "Un plan de vivienda de emergencia tras un desastre natural que resuelve rápidamente la dimensión habitacional inmediata, pero que reconoce explícitamente que la dimensión económica de recuperación de los medios de vida requerirá un programa complementario posterior, es una solución parcial honesta.",
+    "error_comun": "Se rechaza automáticamente cualquier solución parcial como si fuera un fracaso completo, sin distinguir entre una que reconoce honestamente sus límites y se complementa con otras medidas, y una que oculta la dimensión desatendida presentándose engañosamente como integral.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-SIS-019",
+      "CC-SIS-021"
+    ]
+  },
+  {
+    "id": "CC-SIS-023",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "tradeoffs_entre_dimensiones",
+    "pregunta": "¿Qué es un tradeoff (o disyuntiva) entre dos dimensiones de un problema?",
+    "respuesta_breve": "Es una situación en la que mejorar el resultado en una dimensión necesariamente implica sacrificar, al menos parcialmente, el resultado en otra dimensión, sin que exista una opción que maximice ambas al mismo tiempo.",
+    "explicacion": "Un **tradeoff** ocurre cuando dos dimensiones no pueden optimizarse simultáneamente al máximo: avanzar más en una exige ceder algo en la otra. Reconocer un tradeoff no significa que no existan soluciones razonables, sino que cualquier solución exigirá un punto de equilibrio entre ambas.",
+    "ejemplo_aplicado": "Aumentar significativamente la velocidad de aprobación de licencias ambientales (beneficio económico, al acelerar la inversión) generalmente implica reducir el tiempo disponible para el análisis técnico detallado (costo ambiental, al aumentar el riesgo de aprobar proyectos con impactos no evaluados a fondo).",
+    "error_comun": "Se buscan soluciones que prometen mejorar al máximo todas las dimensiones simultáneamente sin ningún costo, sin reconocer que en muchos problemas reales existe un tradeoff genuino que exige aceptar un balance.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CC-SIS-024",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "tradeoffs_entre_dimensiones",
+    "pregunta": "¿Un tradeoff entre dos dimensiones significa que ambas deben sacrificarse en la misma proporción?",
+    "respuesta_breve": "No; el punto exacto de equilibrio de un tradeoff puede inclinarse más hacia una dimensión que hacia la otra, dependiendo de las prioridades y del contexto específico, sin que exista una proporción fija obligatoria entre ambas.",
+    "explicacion": "Reconocer que existe un tradeoff no determina automáticamente **cuánto** se debe ceder en cada dimensión. El punto de equilibrio elegido puede favorecer más a una dimensión que a la otra, según las prioridades del contexto o las preferencias sociales expresadas por la comunidad afectada.",
+    "ejemplo_aplicado": "En una decisión sobre horarios escolares extendidos, una comunidad puede optar por sacrificar más tiempo de descanso familiar para maximizar el aprendizaje académico, mientras otra comunidad, con circunstancias distintas, puede optar por un balance inverso, sin que ninguna elección sea automáticamente errónea.",
+    "error_comun": "Se asume que todo tradeoff debe resolverse siempre con un balance equilibrado 50-50 entre ambas dimensiones, sin reconocer que el punto óptimo depende del contexto específico y de las prioridades legítimas de cada situación.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-SIS-023"
+    ]
+  },
+  {
+    "id": "CC-SIS-025",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "tradeoffs_entre_dimensiones",
+    "pregunta": "¿Cómo se diferencia un verdadero tradeoff entre dimensiones de una simple mala gestión que perjudica innecesariamente ambas dimensiones a la vez?",
+    "respuesta_breve": "En un tradeoff real, mejorar una dimensión exige inevitablemente ceder en la otra por razones estructurales del problema; en una mala gestión, ambas dimensiones podrían mejorar simultáneamente si se manejaran mejor los recursos o el proceso.",
+    "explicacion": "No toda situación donde dos dimensiones salen perjudicadas a la vez es un tradeoff genuino. Conviene distinguir cuándo existe una **restricción estructural real** que impide mejorar ambas simultáneamente, de cuándo el perjuicio se debe a una implementación deficiente que, corregida, podría mejorar ambas dimensiones sin sacrificar ninguna.",
+    "ejemplo_aplicado": "Si un proyecto se retrasa y se encarece a la vez por una mala planeación inicial, eso no es un tradeoff genuino entre costo y tiempo, sino una ineficiencia corregible; en cambio, si acelerar la obra exige contratar más personal simultáneamente, lo que aumenta estructuralmente los costos por hora, ahí sí existe un tradeoff real.",
+    "error_comun": "Se etiqueta cualquier situación donde dos dimensiones salen perjudicadas como un 'tradeoff inevitable', cuando puede tratarse de una simple ineficiencia de gestión que, corregida, permitiría mejorar ambas dimensiones a la vez.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-SIS-023",
+      "CC-SIS-024"
+    ]
+  },
+  {
+    "id": "CC-SIS-026",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "tradeoffs_entre_dimensiones",
+    "pregunta": "¿Es posible reducir la magnitud de un tradeoff entre dos dimensiones sin eliminarlo por completo?",
+    "respuesta_breve": "Sí; aunque un tradeoff estructural no se puede eliminar del todo, a veces es posible encontrar innovaciones técnicas o de diseño que reduzcan cuánto se debe sacrificar de una dimensión para obtener un beneficio dado en la otra.",
+    "explicacion": "Un tradeoff genuino no siempre es fijo e inmodificable; en muchos casos, cambios técnicos o de diseño pueden **desplazar la curva del tradeoff**, de modo que se logre un mayor beneficio en una dimensión con un menor sacrificio en la otra, sin eliminar la disyuntiva por completo.",
+    "ejemplo_aplicado": "El tradeoff tradicional entre generación de energía y emisiones contaminantes se ha reducido, aunque no eliminado, gracias a tecnologías de energía renovable que permiten generar electricidad con muchas menos emisiones que las fuentes tradicionales.",
+    "error_comun": "Se asume que un tradeoff identificado es completamente fijo e inmodificable en el tiempo, sin considerar que la innovación técnica o de diseño puede desplazar ese punto de equilibrio, ofreciendo mejores combinaciones posibles.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-SIS-023",
+      "CC-SIS-025"
+    ]
+  },
+  {
+    "id": "CC-SIS-027",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "escala_temporal_de_las_consecuencias",
+    "pregunta": "¿Por qué es importante distinguir las consecuencias de corto plazo de las de largo plazo al evaluar una medida?",
+    "respuesta_breve": "Porque una medida puede tener efectos muy distintos, e incluso opuestos, según el horizonte temporal que se analice, y evaluar solo uno de los dos plazos puede dar una imagen incompleta o engañosa de su verdadero impacto.",
+    "explicacion": "Las consecuencias de una decisión no siempre son estables en el tiempo: algunas aparecen de inmediato y otras solo se manifiestan después de varios años. Distinguir la **escala temporal** de cada consecuencia es clave porque una medida puede parecer exitosa si solo se mira su efecto inmediato, mientras oculta consecuencias de largo plazo apenas manifestándose.",
+    "ejemplo_aplicado": "Un subsidio temporal a los combustibles puede aliviar de inmediato el costo de vida de los hogares (corto plazo positivo), pero, si se mantiene por muchos años, puede desincentivar la inversión en transporte más eficiente y aumentar la dependencia fiscal del subsidio (largo plazo negativo).",
+    "error_comun": "Se evalúa una medida únicamente por su efecto inmediato y visible, sin considerar que las consecuencias de largo plazo pueden tardar años en manifestarse y, en algunos casos, contradecir por completo el beneficio observado en el corto plazo.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CC-SIS-028",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "escala_temporal_de_las_consecuencias",
+    "pregunta": "¿Una consecuencia positiva de corto plazo garantiza que también será positiva en el largo plazo?",
+    "respuesta_breve": "No; una medida puede generar un beneficio genuino e inmediato y, sin embargo, producir efectos negativos que solo se manifiestan después de un tiempo prolongado, porque los mecanismos que explican el efecto de corto plazo pueden ser distintos de los que determinan el resultado de largo plazo.",
+    "explicacion": "Los mecanismos que producen un efecto **inmediato** no siempre son los mismos que determinan el resultado **acumulado** en el tiempo. Una medida puede resolver un problema puntual de manera efectiva y, al mismo tiempo, sentar condiciones que generan un problema distinto años después.",
+    "ejemplo_aplicado": "La explotación intensiva de un acuífero para atender una crisis de abastecimiento puede resolver de inmediato la escasez, pero si la tasa de extracción supera la capacidad de recarga natural, puede provocar su agotamiento progresivo en el largo plazo, una consecuencia que no era evidente en los primeros años.",
+    "error_comun": "Se concluye que una medida es exitosa de forma definitiva solo por observar resultados positivos en sus primeros años, sin verificar si esos resultados dependen de una dinámica que, sostenida en el tiempo, podría agotarse o revertirse.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-SIS-027"
+    ]
+  },
+  {
+    "id": "CC-SIS-029",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "escala_temporal_de_las_consecuencias",
+    "pregunta": "¿Cómo se determina si una consecuencia observada corresponde realmente al corto plazo o si en realidad es apenas el inicio de un efecto de largo plazo?",
+    "respuesta_breve": "Analizando si el efecto observado depende de un mecanismo que se agota rápidamente por sí solo, o si responde a una dinámica acumulativa que continúa evolucionando mientras la medida siga vigente.",
+    "explicacion": "No basta con mirar cuánto tiempo ha pasado desde la implementación para clasificar una consecuencia; hay que analizar el **mecanismo** detrás del efecto. Si es puntual y se agota rápido, la consecuencia probablemente sea de corto plazo completa. Si es acumulativo, lo observado puede ser apenas el comienzo de un efecto de largo plazo todavía en desarrollo.",
+    "ejemplo_aplicado": "El aumento inmediato en las ventas tras una campaña publicitaria puntual suele ser un efecto de corto plazo que se agota al terminar la campaña; un cambio gradual en los hábitos de consumo de una generación, impulsado por una política educativa sostenida, es un efecto acumulativo que apenas comienza a manifestarse.",
+    "error_comun": "Se clasifica una consecuencia como 'de corto plazo ya completada' simplemente porque ha pasado poco tiempo desde la medida, sin analizar si el mecanismo detrás de ese efecto es acumulativo y todavía sigue desarrollándose.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-SIS-027",
+      "CC-SIS-028"
+    ]
+  },
+  {
+    "id": "CC-SIS-030",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "escala_temporal_de_las_consecuencias",
+    "pregunta": "¿Por qué los actores involucrados en un problema pueden priorizar de forma legítima consecuencias de corto plazo sobre las de largo plazo, o viceversa?",
+    "respuesta_breve": "Porque su situación concreta —urgencia de necesidades inmediatas, horizonte de planeación, o responsabilidad institucional— puede hacer razonable que un actor le dé más peso a un plazo que a otro, sin que eso signifique que uno de los dos enfoques sea el único válido.",
+    "explicacion": "Priorizar el corto o el largo plazo no es simplemente una cuestión de 'miopía' frente a 'visión estratégica'; depende de las **circunstancias legítimas** de cada actor. Una familia con una necesidad urgente puede priorizar razonablemente una solución de corto plazo, mientras que una entidad de planeación puede priorizar razonablemente el largo plazo.",
+    "ejemplo_aplicado": "Una familia que vive de la pesca en un río puede priorizar mantener su ingreso inmediato pescando al máximo cada temporada (prioridad de corto plazo, legítima dada su necesidad de subsistencia), mientras una autoridad ambiental puede priorizar cuotas de pesca sostenibles para el largo plazo (igualmente legítima dado su rol de conservación).",
+    "error_comun": "Se juzga automáticamente como 'irresponsable' o 'egoísta' a cualquier actor que priorice el corto plazo, sin reconocer que esa prioridad puede ser una respuesta legítima a necesidades urgentes y reales, y no simplemente falta de visión.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-SIS-027",
+      "CC-SIS-029"
+    ]
+  }
+]

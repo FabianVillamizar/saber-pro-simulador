@@ -1,0 +1,1117 @@
+[
+  {
+    "id": "CC-GRUPO-047",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "medio_ambiente",
+    "situacion": "En una región agrícola, los productores de arroz solicitan que se autorice la desviación de un caudal adicional del río durante la temporada seca para regar sus cultivos. La autoridad ambiental se opone a autorizar esa desviación adicional, argumentando que debe garantizarse un caudal ecológico mínimo aguas abajo para sostener el ecosistema del río.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-060",
+        "competencia": "multiperspectivismo",
+        "bloque": "diferencia_entre_posicion_e_interes",
+        "enunciado": "¿Cuál sería el interés de fondo de los productores de arroz, más allá de su posición explícita de pedir la desviación de agua adicional?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Asegurar la viabilidad económica de su cosecha durante la temporada seca, que es la necesidad de fondo que los lleva a solicitar específicamente esa desviación de agua.",
+          "B": "Impedir que la autoridad ambiental ejerza cualquier tipo de control sobre el uso del agua en la región.",
+          "C": "Obtener un reconocimiento público como los principales proveedores de arroz de la región frente a otras zonas productoras del país.",
+          "D": "Que la autoridad ambiental deje de existir como entidad reguladora del uso de los recursos hídricos en el país."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La **posición** de los productores es la solicitud concreta: desviar más agua del río. Su **interés** de fondo es garantizar que su cosecha sobreviva la temporada seca, lo cual podría, en principio, lograrse también por otras vías distintas a la desviación adicional, como sistemas de riego más eficientes.",
+        "distractores": {
+          "B": {
+            "explicacion": "Esto describe una posición de rechazo genérico a la autoridad, no un interés de fondo; los productores no buscan eliminar el control ambiental en general, sino resolver una necesidad concreta de agua para su cultivo.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "La situación no menciona ningún interés relacionado con reconocimiento o prestigio regional; el interés que se puede inferir razonablemente de la solicitud es la viabilidad económica de la cosecha, no una motivación de estatus.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "D": {
+            "explicacion": "Esta opción exagera la posición de los productores hasta un extremo que la situación no describe; ellos solicitan una desviación adicional puntual, no la eliminación de la entidad reguladora.",
+            "patron_trampa": "generalizacion_invalida"
+          }
+        }
+      },
+      {
+        "id": "CC-ITEM-061",
+        "competencia": "multiperspectivismo",
+        "bloque": "diferencia_entre_posicion_e_interes",
+        "enunciado": "¿Cuál sería el interés de fondo de la autoridad ambiental, más allá de su posición explícita de negar la desviación adicional?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Impedir que los productores de arroz de la región sigan cultivando ese producto en cualquier circunstancia futura.",
+          "B": "Preservar la capacidad del ecosistema del río para sostenerse a largo plazo, garantizando un caudal ecológico mínimo que evite un daño irreversible aguas abajo.",
+          "C": "Demostrar que tiene más poder de decisión que los productores agrícolas de la región dentro del ordenamiento institucional.",
+          "D": "Reducir los ingresos fiscales que el municipio recibe de la actividad agrícola relacionada con el cultivo de arroz en la región."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "La posición de la autoridad ambiental es negar la desviación adicional; su interés de fondo es preservar la salud del ecosistema fluvial a largo plazo, lo cual podría eventualmente compatibilizarse con alguna forma de uso del agua para riego si se garantiza que el caudal ecológico mínimo se mantiene.",
+        "distractores": {
+          "A": {
+            "explicacion": "La autoridad ambiental no busca eliminar el cultivo de arroz en general; su posición se limita a negar una desviación adicional específica en la temporada seca, no a impedir la actividad agrícola de forma permanente.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "C": {
+            "explicacion": "La situación no sugiere ninguna motivación relacionada con demostrar poder institucional; el interés que puede inferirse razonablemente de su posición es la protección del ecosistema, no una disputa de estatus.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "D": {
+            "explicacion": "No hay ningún indicio en la situación de que la autoridad ambiental busque afectar los ingresos fiscales del municipio; su posición se explica más razonablemente por la protección del caudal ecológico, no por un interés fiscal.",
+            "patron_trampa": "interes_mal_atribuido"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-048",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "educacion",
+    "situacion": "En una universidad, los estudiantes de un programa exigen que se elimine un examen final único y se reemplace por evaluaciones continuas a lo largo del semestre. La facultad se niega a eliminar el examen final, argumentando que es necesario mantener un mecanismo de evaluación estandarizado para todos los estudiantes.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-062",
+        "competencia": "multiperspectivismo",
+        "bloque": "diferencia_entre_posicion_e_interes",
+        "enunciado": "¿Cuál podría ser el interés de fondo compartido entre los estudiantes y la facultad, más allá de sus posiciones opuestas sobre el examen final?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Que los estudiantes obtengan las calificaciones más altas posibles, sin importar si realmente reflejan su nivel de aprendizaje.",
+          "B": "Que la facultad mantenga el control total sobre el proceso de evaluación sin ninguna posibilidad de ajuste futuro.",
+          "C": "Que la evaluación refleje de manera justa y precisa el nivel real de aprendizaje de cada estudiante, aunque discrepen sobre cuál es el mejor mecanismo para lograrlo.",
+          "D": "Que ambos actores logren imponer completamente su posición inicial sobre el mecanismo de evaluación, sin ninguna concesión."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Aunque los estudiantes piden eliminar el examen final y la facultad se niega, ambos podrían compartir un interés de fondo: que la evaluación mida de forma justa y precisa el aprendizaje real, sin que ninguna de las dos posiciones sea automáticamente la única forma de lograr ese interés compartido.",
+        "distractores": {
+          "A": {
+            "explicacion": "Este interés atribuido a los estudiantes no es compatible con ningún interés razonable de la facultad, y la situación no sugiere que los estudiantes busquen calificaciones altas sin relación con su aprendizaje real.",
+            "patron_trampa": "interes_mal_atribuido"
+          },
+          "B": {
+            "explicacion": "Esto describe una posición rígida atribuida a la facultad, no un interés de fondo compartido; la facultad defiende el examen final como mecanismo, pero eso no equivale a un interés en el control absoluto sin posibilidad de ajustes.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "Esta opción confunde la posición de cada actor con un interés de fondo compartido; buscar 'imponer la posición propia' no es un interés común, sino la descripción de un conflicto sin ninguna posibilidad de acuerdo.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-049",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "convivencia_y_discriminacion",
+    "situacion": "Un grupo de vecinos de un edificio solicita que se prohíba a un residente con un perro de raza grande tenerlo en su apartamento, alegando molestias. El dueño del perro se niega a deshacerse del animal, argumentando que lleva años cuidándolo responsablemente sin haber generado ningún incidente.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-063",
+        "competencia": "multiperspectivismo",
+        "bloque": "diferencia_entre_posicion_e_interes",
+        "enunciado": "¿Cuál podría ser el interés de fondo de los vecinos que solicitan la prohibición, distinto de su posición explícita de exigir que el perro sea retirado del edificio?",
+        "dificultad": "baja",
+        "opciones": {
+          "A": "Que el dueño del perro sea expulsado del edificio junto con su mascota, sin importar su historial de convivencia.",
+          "B": "Que el edificio prohíba la tenencia de cualquier tipo de mascota, sin importar su tamaño o comportamiento.",
+          "C": "Obtener una compensación económica del dueño del perro por las molestias que alegan haber sufrido durante los últimos años.",
+          "D": "Sentirse seguros y tranquilos en las áreas comunes del edificio, lo cual podría lograrse con medidas distintas a la prohibición total, como acuerdos sobre el uso de correa o restricciones de horario en espacios compartidos."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "La posición de los vecinos es exigir que se prohíba tener el perro; su interés de fondo es sentirse seguros y tranquilos en el edificio, un interés que podría satisfacerse con medidas menos drásticas que la prohibición total, como acuerdos sobre el manejo del animal en zonas comunes.",
+        "distractores": {
+          "A": {
+            "explicacion": "La situación describe una solicitud centrada específicamente en el animal, no en la expulsión del residente; atribuir ese interés amplio no está respaldado por lo que la situación efectivamente describe.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "B": {
+            "explicacion": "La solicitud descrita se refiere específicamente a un perro de raza grande que genera molestias, no a una prohibición general de mascotas de cualquier tipo; esta opción amplía el interés más allá de lo que la situación permite inferir.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "C": {
+            "explicacion": "La situación no menciona ninguna solicitud de compensación económica; el interés que puede inferirse razonablemente de la solicitud de prohibición es la tranquilidad y seguridad en el edificio, no una reparación monetaria.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-050",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "politica_e_instituciones",
+    "situacion": "El director de una entidad de control declara públicamente: 'Estamos absolutamente comprometidos con la transparencia y la rendición de cuentas de esta institución.' Sin embargo, en los últimos dos años, la entidad ha rechazado sistemáticamente todas las solicitudes de acceso a la información presentadas por periodistas y organizaciones de la sociedad civil sobre el uso de su presupuesto.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-064",
+        "competencia": "multiperspectivismo",
+        "bloque": "postura_explicita_vs_implicita",
+        "enunciado": "¿Qué revela la práctica reiterada de rechazar solicitudes de acceso a la información sobre la postura implícita real de la entidad, más allá de su declaración explícita?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Sugiere una postura implícita menos comprometida con la transparencia de lo que la declaración pública afirma, ya que las acciones concretas y sostenidas en el tiempo contradicen el compromiso declarado.",
+          "B": "Ninguna, porque las declaraciones públicas de un director siempre reflejan fielmente la postura real de toda la institución que representa.",
+          "C": "Revela que el director está mintiendo deliberadamente y de mala fe en cada una de sus declaraciones públicas sobre la entidad.",
+          "D": "Revela que los periodistas y organizaciones de la sociedad civil están solicitando información a la que legalmente no tienen ningún derecho de acceso."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La **postura implícita** se revela observando las acciones concretas de un actor, no solo sus declaraciones. Aquí, el patrón sostenido de rechazar solicitudes de información durante dos años sugiere una postura implícita distinta de la comprometida con la transparencia que la entidad declara explícitamente, sin que sea necesario asumir mala fe deliberada para notar esa discrepancia.",
+        "distractores": {
+          "B": {
+            "explicacion": "Esta opción ignora que la postura implícita se revela precisamente a través de las acciones sostenidas de una institución, que aquí contradicen la declaración explícita; asumir que el discurso siempre coincide con la práctica pasa por alto la evidencia presentada.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "C": {
+            "explicacion": "Detectar una postura implícita distinta de la declarada no exige establecer una intención deliberada de mentir; la discrepancia entre discurso y acción también podría explicarse por otros factores internos de la entidad, sin necesidad de asumir mala fe personal del director.",
+            "patron_trampa": "interes_mal_atribuido"
+          },
+          "D": {
+            "explicacion": "La situación no ofrece ningún elemento para cuestionar la legitimidad de las solicitudes presentadas; el patrón descrito señala más bien una discrepancia entre lo declarado y lo actuado por la entidad, no un problema con quienes solicitan la información.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      },
+      {
+        "id": "CC-ITEM-065",
+        "competencia": "multiperspectivismo",
+        "bloque": "postura_explicita_vs_implicita",
+        "enunciado": "¿Sería razonable concluir, únicamente a partir de este patrón de rechazos, que absolutamente todos los miembros de la entidad comparten una postura contraria a la transparencia?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Sí, porque cualquier patrón de comportamiento institucional sostenido durante dos años refleja necesariamente la opinión unánime de cada uno de sus funcionarios.",
+          "B": "No necesariamente, porque la postura implícita observada podría corresponder a una decisión concentrada en ciertos niveles de la entidad, sin que se pueda asumir automáticamente que todos sus miembros comparten esa misma postura.",
+          "C": "Sí, porque las declaraciones públicas del director representan de forma vinculante la opinión personal de todos los funcionarios de la entidad.",
+          "D": "No, porque en realidad ningún funcionario de la entidad ha tenido jamás ninguna postura relacionada con la transparencia institucional."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Una postura institucional observable a través de un patrón de decisiones no garantiza que **todos** los integrantes de la entidad compartan esa misma postura a título individual; podría haber funcionarios dentro de la misma institución con posturas distintas que simplemente no logran modificar la práctica general observada.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta opción generaliza indebidamente un patrón institucional observable a la opinión individual de cada funcionario, sin considerar que puede haber diversidad de posturas internas que no logran cambiar la práctica general de la entidad.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "C": {
+            "explicacion": "Las declaraciones institucionales de un director no equivalen a la opinión personal vinculante de cada funcionario; de hecho, la pregunta busca precisamente cuestionar esa equivalencia entre postura institucional y opinión individual unánime.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "Esta opción afirma algo que la situación no permite verificar en ningún sentido; no hay información suficiente para descartar por completo que algún funcionario tenga una postura genuina sobre transparencia, ya sea a favor o en contra.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-051",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "ciencia_y_sociedad",
+    "situacion": "Una revista científica declara en su código editorial: 'Nos comprometemos a publicar investigaciones basadas exclusivamente en su rigor metodológico, sin ningún tipo de sesgo institucional.' Sin embargo, un análisis independiente encuentra que, en los últimos cinco años, el 90% de los estudios publicados por la revista han sido financiados por las mismas tres empresas del sector, y ninguno de esos estudios ha llegado a conclusiones desfavorables para esas empresas.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-066",
+        "competencia": "multiperspectivismo",
+        "bloque": "postura_explicita_vs_implicita",
+        "enunciado": "¿Qué sugiere este patrón sobre la postura implícita de la revista, más allá de su compromiso editorial explícito?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Ninguna postura implícita distinta; el patrón simplemente refleja que esas tres empresas realizan la investigación científica de mayor calidad metodológica del sector.",
+          "B": "Que los editores de la revista están recibiendo sobornos directos y deliberados de esas tres empresas a cambio de publicar sus estudios.",
+          "C": "Sugiere una postura implícita de mayor receptividad hacia investigaciones financiadas por ciertas empresas, lo cual entra en tensión con el compromiso explícito de imparcialidad basada únicamente en el rigor metodológico.",
+          "D": "Que las conclusiones de los estudios publicados por la revista son necesariamente falsas o inventadas por los investigadores que los realizaron."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Aunque la revista declara comprometerse solo con el rigor metodológico, el patrón observado (concentración de estudios financiados por las mismas empresas, todos con conclusiones favorables a ellas) sugiere una postura implícita distinta, sin que esto implique necesariamente una decisión editorial deliberada y consciente en cada caso individual.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta opción acepta sin cuestionamiento una explicación posible entre varias, sin considerar que la concentración de financiamiento y de conclusiones favorables es, cuando menos, una señal que amerita mayor escrutinio sobre la postura implícita real de la revista.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "B": {
+            "explicacion": "La situación no ofrece evidencia de una transacción deliberada de este tipo; el patrón descrito permite inferir una postura implícita de mayor receptividad hacia cierto financiamiento, sin que sea necesario ni posible concluir la existencia de un soborno directo.",
+            "patron_trampa": "interes_mal_atribuido"
+          },
+          "D": {
+            "explicacion": "El patrón descrito no permite concluir que las conclusiones de los estudios sean falsas; lo que sugiere es una posible falta de imparcialidad en qué tipo de investigaciones logra publicar la revista, no que el contenido de esos estudios sea inventado.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-052",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "salud_publica",
+    "situacion": "Una EPS afirma en su portal web: 'Nuestra prioridad absoluta es el bienestar y la salud de nuestros afiliados por encima de cualquier otra consideración.' Al mismo tiempo, un informe interno filtrado muestra que la entidad ha establecido metas internas de reducción de autorizaciones de procedimientos de alto costo, con incentivos económicos para el personal administrativo que logre esas reducciones.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-067",
+        "competencia": "multiperspectivismo",
+        "bloque": "postura_explicita_vs_implicita",
+        "enunciado": "¿Qué tensión existe entre la declaración pública de la EPS y la práctica descrita en el informe interno filtrado?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Ninguna tensión, porque reducir autorizaciones de procedimientos de alto costo es, en cualquier caso, una forma de proteger el bienestar de los afiliados a largo plazo.",
+          "B": "La tensión es que la EPS está cometiendo un delito al establecer metas internas de reducción de autorizaciones médicas para sus afiliados.",
+          "C": "Ninguna tensión, porque las metas internas de reducción solo aplican al personal administrativo y no afectan directamente las decisiones médicas sobre los afiliados.",
+          "D": "La declaración pública prioriza el bienestar de los afiliados por encima de cualquier consideración, mientras que la práctica interna incentiva económicamente reducir autorizaciones de procedimientos costosos, lo que sugiere que también se pondera activamente el factor económico en las decisiones."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Existe una tensión entre la postura **explícita** (priorizar el bienestar por encima de cualquier consideración) y la postura **implícita** que revela la práctica interna (incentivar económicamente la reducción de autorizaciones costosas), lo cual sugiere que, en la práctica, el factor económico sí pesa de forma significativa en las decisiones, contrario a lo que la declaración pública sugiere.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta opción acepta sin más una justificación posible sin considerar si la reducción responde realmente a criterios médicos o a un incentivo económico explícito para el personal, que es justamente lo que el informe interno describe y que genera la tensión con la declaración pública.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "B": {
+            "explicacion": "La situación no ofrece elementos suficientes para calificar la práctica descrita como un delito; lo que se puede identificar con la información disponible es una tensión entre el discurso público y la práctica interna, no una conclusión jurídica sobre la comisión de un delito.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "C": {
+            "explicacion": "Esta opción minimiza el vínculo entre los incentivos económicos al personal administrativo y las decisiones que finalmente afectan a los afiliados; el informe interno sugiere precisamente que esos incentivos sí podrían influir en las autorizaciones.",
+            "patron_trampa": "solucion_parcial"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-053",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "medio_ambiente",
+    "situacion": "Una comunidad de pescadores artesanales y una empresa de acuicultura industrial coinciden en que los niveles de peces en la bahía han disminuido notablemente en los últimos cinco años. Sin embargo, discrepan profundamente sobre la causa: los pescadores atribuyen la disminución a los desechos de la actividad acuícola industrial, mientras la empresa sostiene que se debe al cambio en los patrones de temperatura del agua asociados al cambio climático.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-068",
+        "competencia": "multiperspectivismo",
+        "bloque": "acuerdos_y_desacuerdos_parciales",
+        "enunciado": "¿En qué nivel exacto se ubica el acuerdo entre ambos actores, y en qué nivel se ubica su desacuerdo?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Existe acuerdo en el diagnóstico general de que los niveles de peces han disminuido, pero un desacuerdo profundo sobre la causa específica de esa disminución.",
+          "B": "No existe ningún acuerdo entre ambos actores, ya que sus posiciones sobre la situación de la bahía son completamente opuestas en todos los aspectos.",
+          "C": "El acuerdo se limita a la causa de la disminución de peces, mientras que el desacuerdo se refiere a si efectivamente ha habido una disminución o no.",
+          "D": "Existe acuerdo total entre ambos actores, ya que ambos reconocen que la actividad humana en general ha afectado negativamente el ecosistema de la bahía."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Es un error asumir que dos actores en conflicto están en desacuerdo sobre todo. Aquí existe un **acuerdo parcial** claro: ambos reconocen el mismo hecho (la disminución de peces), pero su desacuerdo se concentra específicamente en la causa de ese fenómeno, lo cual es un punto de fricción mucho más preciso que un desacuerdo total.",
+        "distractores": {
+          "B": {
+            "explicacion": "Esta opción ignora que ambos actores sí coinciden en un aspecto central: el hecho de que los niveles de peces han disminuido; el desacuerdo real es mucho más específico y se refiere únicamente a la causa de ese fenómeno.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "C": {
+            "explicacion": "Esta opción invierte los niveles de acuerdo y desacuerdo descritos en la situación: el acuerdo es sobre el hecho de la disminución, y el desacuerdo es sobre la causa, no al revés.",
+            "patron_trampa": "causa_efecto_invertida"
+          },
+          "D": {
+            "explicacion": "La situación no describe ningún acuerdo sobre que 'la actividad humana en general' sea la causa; cada actor atribuye la disminución a una causa distinta y específica, lo cual constituye precisamente el desacuerdo central entre ambos.",
+            "patron_trampa": "generalizacion_invalida"
+          }
+        }
+      },
+      {
+        "id": "CC-ITEM-069",
+        "competencia": "multiperspectivismo",
+        "bloque": "acuerdos_y_desacuerdos_parciales",
+        "enunciado": "Si ambos actores decidieran financiar conjuntamente un estudio técnico independiente para determinar la causa real de la disminución, ¿qué tipo de acuerdo estarían alcanzando con esa decisión?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Un acuerdo completo sobre la causa de la disminución de peces, ya que decidir hacer un estudio conjunto implica que ambas partes aceptan de antemano cualquier resultado que arroje.",
+          "B": "Un acuerdo sobre el método para resolver su desacuerdo de fondo, sin que esto implique todavía un acuerdo sobre cuál de las dos causas propuestas es la correcta.",
+          "C": "Ningún tipo de acuerdo relevante, porque financiar un estudio conjunto no resuelve en absoluto la tensión entre los dos actores.",
+          "D": "Un acuerdo sobre que la actividad pesquera artesanal debe suspenderse temporalmente mientras se realiza el estudio técnico independiente."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Aceptar conjuntamente un estudio técnico independiente representa un acuerdo sobre el **procedimiento** para resolver la disputa, distinto del acuerdo sobre el **contenido** de la causa específica, que seguirá pendiente hasta conocer los resultados del estudio. Es un avance real en la negociación, aunque no resuelva todavía el desacuerdo de fondo.",
+        "distractores": {
+          "A": {
+            "explicacion": "Aceptar un método conjunto de investigación no equivale a un acuerdo previo sobre el contenido de la causa; las partes podrían seguir en desacuerdo sobre cómo interpretar los resultados una vez conocidos, aunque hayan aceptado el procedimiento.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "Esta opción subestima el valor de acordar un método común para resolver una disputa; aunque no resuelve el desacuerdo de fondo de inmediato, sí representa un avance real al establecer un procedimiento compartido para determinarlo con evidencia.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "D": {
+            "explicacion": "La situación no menciona ninguna suspensión de actividades como parte de la decisión de financiar el estudio; esta opción introduce un elemento que no se desprende de la decisión conjunta descrita.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-054",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "educacion",
+    "situacion": "Un rector y un grupo de padres de familia coinciden en que la actual jornada escolar es demasiado corta para cubrir todo el contenido curricular exigido. El rector propone extender la jornada dos horas diarias; los padres proponen, en cambio, reducir el número de materias optativas para dedicar más tiempo a las materias básicas dentro del horario actual.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-070",
+        "competencia": "multiperspectivismo",
+        "bloque": "acuerdos_y_desacuerdos_parciales",
+        "enunciado": "¿Cuál es la caracterización más precisa del acuerdo y el desacuerdo entre el rector y los padres de familia?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "No existe ningún punto de acuerdo entre el rector y los padres de familia, ya que sus propuestas son completamente distintas entre sí.",
+          "B": "El acuerdo se refiere a extender la jornada escolar dos horas diarias, mientras el desacuerdo se refiere a si el tiempo actual es o no insuficiente.",
+          "C": "Existe acuerdo en el diagnóstico de que el tiempo disponible es insuficiente para el contenido exigido, pero desacuerdo sobre el tipo de solución: extender la jornada o reorganizar el contenido dentro del horario actual.",
+          "D": "Existe un acuerdo total, ya que tanto el rector como los padres buscan, en el fondo, reducir la carga académica general de los estudiantes del colegio."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Ambos actores coinciden en el **diagnóstico**: el tiempo disponible es insuficiente. Su desacuerdo se ubica en el **tipo de solución**: el rector propone aumentar el tiempo total disponible, mientras los padres proponen reorganizar el uso del tiempo ya existente. Reconocer este acuerdo parcial permite enfocar cualquier negociación en el punto específico de la solución.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta opción ignora que ambos actores coinciden en el diagnóstico compartido sobre la insuficiencia de tiempo; que sus soluciones propuestas sean distintas no significa que no haya ningún acuerdo, sino que el desacuerdo se ubica en el tipo de solución.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "B": {
+            "explicacion": "Esta opción invierte los niveles reales de acuerdo y desacuerdo: ambos coinciden en que el tiempo es insuficiente (diagnóstico), pero discrepan sobre extender la jornada o reorganizar el contenido (solución), no al revés.",
+            "patron_trampa": "causa_efecto_invertida"
+          },
+          "D": {
+            "explicacion": "La situación no describe ningún interés compartido en 'reducir la carga académica'; ambos actores buscan más bien atender mejor el contenido curricular exigido, cada uno con una solución distinta.",
+            "patron_trampa": "interes_mal_atribuido"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-055",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "convivencia_y_discriminacion",
+    "situacion": "Un grupo de comerciantes informales que trabaja en una plaza pública exige que se les permita seguir vendiendo en el mismo lugar donde llevan años instalados. La administración municipal quiere reubicarlos en un centro comercial popular construido para ese fin, alegando que mejorará las condiciones sanitarias y de seguridad tanto para los comerciantes como para los transeúntes.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-071",
+        "competencia": "multiperspectivismo",
+        "bloque": "interseccion_de_intereses",
+        "enunciado": "¿Cuál podría ser una intersección de intereses entre los comerciantes informales y la administración municipal, más allá de sus posiciones opuestas sobre la reubicación?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Ambos comparten el interés de que la plaza pública deje de existir como espacio público disponible para cualquier otro uso futuro.",
+          "B": "Ambos comparten el interés de que la administración municipal pierda autoridad sobre el ordenamiento del espacio público de la ciudad.",
+          "C": "No existe ninguna intersección de intereses posible entre los comerciantes informales y la administración municipal en este caso.",
+          "D": "Ambos comparten el interés de que los comerciantes puedan mantener y, si es posible, aumentar sus ingresos de forma estable en el tiempo, aunque discrepen sobre si eso se logra mejor permaneciendo en la plaza o trasladándose al centro comercial."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Aunque las posiciones son opuestas, es razonable inferir que ambos actores comparten un interés de fondo: que los comerciantes logren ingresos estables y condiciones de trabajo dignas; el desacuerdo se concentra en cuál de las dos ubicaciones satisface mejor ese interés compartido, no en si ese interés existe o no.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta opción atribuye un interés que ninguno de los dos actores expresa en la situación; ni los comerciantes ni la administración plantean eliminar la plaza como espacio público, sino discutir dónde deben ubicarse los comerciantes.",
+            "patron_trampa": "interes_mal_atribuido"
+          },
+          "B": {
+            "explicacion": "Este interés no se desprende de la situación descrita; la administración municipal, como autora de la propuesta de reubicación, difícilmente compartiría un interés en perder su propia autoridad sobre el ordenamiento del espacio público.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "Esta opción descarta prematuramente la posibilidad de un interés compartido, cuando es razonable inferir que ambos actores buscan, de fondo, la estabilidad económica y las buenas condiciones de trabajo de los comerciantes.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          }
+        }
+      },
+      {
+        "id": "CC-ITEM-072",
+        "competencia": "multiperspectivismo",
+        "bloque": "interseccion_de_intereses",
+        "enunciado": "¿El hecho de que exista esta posible intersección de intereses garantiza que el conflicto entre ambos actores se resolverá fácilmente?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "No, porque incluso compartiendo ese interés de fondo, pueden seguir existiendo desacuerdos profundos sobre cuál ubicación satisface mejor ese interés, así como sobre los costos y condiciones específicas de cualquier traslado.",
+          "B": "Sí, porque una vez identificado un interés compartido entre dos actores en conflicto, el desacuerdo sobre los detalles específicos desaparece automáticamente.",
+          "C": "No, porque en realidad los comerciantes informales y la administración municipal no comparten ningún interés real, sino que están completamente enfrentados en todos los aspectos.",
+          "D": "Sí, porque la administración municipal tiene la autoridad legal suficiente para imponer su decisión sin necesidad de considerar los intereses de los comerciantes informales."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Encontrar un interés común no elimina automáticamente el conflicto: los comerciantes y la administración podrían seguir en desacuerdo profundo sobre si el centro comercial realmente ofrece condiciones equivalentes o mejores que la plaza, por lo que la intersección de intereses es solo un punto de partida para la negociación, no una solución automática.",
+        "distractores": {
+          "B": {
+            "explicacion": "Esta opción sobreestima el efecto de identificar un interés común; la intersección de intereses facilita el diálogo, pero no elimina por sí sola los desacuerdos concretos sobre cómo satisfacer mejor ese interés compartido.",
+            "patron_trampa": "causa_efecto_invertida"
+          },
+          "C": {
+            "explicacion": "Esta opción contradice la intersección de intereses ya identificada en la pregunta anterior; el punto central de esta pregunta es que, aun existiendo un interés compartido, el conflicto no se resuelve automáticamente, no que dicho interés compartido no exista.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "Esta opción desvía la pregunta hacia un argumento de autoridad legal, que no es lo que se indaga; la pregunta se refiere específicamente a si la intersección de intereses garantiza una resolución fácil del conflicto, no a quién tiene la potestad final de decidir.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-056",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "politica_e_instituciones",
+    "situacion": "Un partido de oposición critica duramente el manejo de un programa social del Gobierno, alegando ineficiencia en la entrega de subsidios. El Gobierno defiende el programa, argumentando que ha beneficiado a miles de familias vulnerables. A pesar de sus posiciones enfrentadas, ambos actores han expresado públicamente su respaldo a que los recursos del programa lleguen efectivamente a la población más vulnerable.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-073",
+        "competencia": "multiperspectivismo",
+        "bloque": "interseccion_de_intereses",
+        "enunciado": "¿Qué función cumple, en este caso, el respaldo compartido de ambos actores a que los recursos lleguen a la población vulnerable?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Demuestra que, en realidad, ambos actores están completamente de acuerdo sobre la gestión actual del programa social y su disputa pública es solo una estrategia electoral.",
+          "B": "Funciona como una intersección de intereses que podría servir de base para negociar mejoras concretas en la ejecución del programa, sin que esto implique que sus posiciones sobre la eficiencia actual del Gobierno dejen de estar enfrentadas.",
+          "C": "No cumple ninguna función relevante, porque las posiciones políticas de ambos actores son irreconciliables en cualquier aspecto relacionado con el programa social.",
+          "D": "Cumple la función de demostrar que el partido de oposición en realidad apoya secretamente todas las políticas sociales del Gobierno actual."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Aunque el partido de oposición y el Gobierno mantienen posiciones opuestas sobre la eficiencia del programa, el respaldo compartido a que los recursos lleguen a la población vulnerable representa una **intersección de intereses** real, que podría servir como punto de partida para acordar ajustes concretos en la ejecución, sin que eso signifique que su disputa política de fondo desaparezca.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta opción va más allá de lo que la situación permite afirmar: compartir un interés de fondo sobre a quién deben llegar los recursos no equivale a estar de acuerdo sobre si la gestión actual del programa es eficiente o no, que sigue siendo un punto de disputa real.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "C": {
+            "explicacion": "Esta opción ignora el valor de la intersección de intereses identificada; aunque los actores mantengan posiciones enfrentadas sobre la eficiencia del programa, el interés compartido sobre el destino de los recursos sí puede tener una función real como base de diálogo.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "D": {
+            "explicacion": "Esta opción atribuye una intención oculta al partido de oposición que la situación no permite verificar; el respaldo compartido a un objetivo específico no implica un apoyo generalizado y secreto a todas las políticas del Gobierno.",
+            "patron_trampa": "interes_mal_atribuido"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-057",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "ciencia_y_sociedad",
+    "situacion": "Un grupo de científicos climáticos y una asociación de agricultores de una región seca discrepan sobre qué cultivos deberían priorizarse ante la escalada de las sequías: los científicos recomiendan cultivos más resistentes a la sequía, aunque menos rentables en el corto plazo; los agricultores prefieren mantener los cultivos actuales, más rentables pero más vulnerables a la falta de agua.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-074",
+        "competencia": "multiperspectivismo",
+        "bloque": "interseccion_de_intereses",
+        "enunciado": "¿Qué interés de fondo podrían compartir ambos actores, más allá de su desacuerdo sobre qué cultivos priorizar?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Ambos comparten el interés de que se elimine por completo cualquier tipo de agricultura en la región debido a la escasez de agua.",
+          "B": "Ambos comparten el interés de maximizar exclusivamente la rentabilidad económica inmediata de la próxima temporada de cosecha, sin ninguna otra consideración.",
+          "C": "La sostenibilidad de la actividad agrícola de la región en el largo plazo, aunque discrepen sobre si esa sostenibilidad se logra mejor cambiando de cultivos ahora o manteniendo los actuales mientras se buscan otras soluciones.",
+          "D": "No existe ninguna intersección de intereses posible, ya que uno de los dos actores necesariamente antepone sus intereses económicos personales por encima del bienestar de la región."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Aunque discrepan sobre la solución concreta, es razonable inferir que tanto los científicos como los agricultores comparten el interés de que la actividad agrícola de la región siga siendo viable en el largo plazo; el desacuerdo se concentra en cuál estrategia logra mejor ese objetivo compartido, no en si la sostenibilidad importa o no.",
+        "distractores": {
+          "A": {
+            "explicacion": "Ninguno de los dos actores plantea eliminar la agricultura de la región; los científicos proponen cambiar de cultivo y los agricultores prefieren mantener el actual, pero ambas posiciones asumen que la actividad agrícola debe continuar de alguna forma.",
+            "patron_trampa": "interes_mal_atribuido"
+          },
+          "B": {
+            "explicacion": "Este interés atribuido no es compatible con la posición de los científicos, que precisamente recomiendan sacrificar algo de rentabilidad de corto plazo por resiliencia futura; atribuir a ambos un interés exclusivo en la rentabilidad inmediata ignora esa diferencia central.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "Esta opción presenta a uno de los actores como si tuviera una motivación egoísta, cuando la situación describe una discrepancia legítima sobre la mejor estrategia, no una oposición entre un interés válido y uno egoísta.",
+            "patron_trampa": "interes_mal_atribuido"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-058",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "salud_publica",
+    "situacion": "En una comunidad rural, un grupo de familias prefiere que sus hijos sean atendidos primero por un sabedor tradicional de medicina ancestral cuando presentan síntomas leves, y solo acuden al centro de salud más cercano si el sabedor lo recomienda o si los síntomas empeoran considerablemente. El personal del centro de salud considera que esta práctica retrasa peligrosamente la atención médica oportuna.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-075",
+        "competencia": "multiperspectivismo",
+        "bloque": "cosmovision_reflejada_en_comportamiento_o_argumento",
+        "enunciado": "¿Qué revela la práctica de acudir primero al sabedor tradicional sobre la cosmovisión de estas familias, más allá de un simple desconocimiento de la medicina moderna?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Revela que estas familias desconocen por completo la existencia y el funcionamiento del centro de salud más cercano a su comunidad.",
+          "B": "Revela que estas familias rechazan por completo cualquier forma de medicina moderna en cualquier circunstancia, sin excepción alguna.",
+          "C": "Revela que estas familias tienen menos interés genuino en la salud y el bienestar de sus hijos que otras familias que acuden directamente al centro de salud.",
+          "D": "Revela una cosmovisión en la que la salud se entiende de forma integrada con el conocimiento ancestral y comunitario, no como una desconfianza generalizada hacia la medicina moderna en sí misma."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El comportamiento descrito no necesariamente refleja rechazo o ignorancia de la medicina moderna, sino una **cosmovisión** particular donde el conocimiento ancestral tiene un lugar central y legítimo en el cuidado de la salud, que coexiste con el reconocimiento de que, en casos más graves, también se acude al centro de salud.",
+        "distractores": {
+          "A": {
+            "explicacion": "La situación indica expresamente que las familias sí acuden al centro de salud cuando el sabedor lo recomienda o los síntomas empeoran, lo que contradice la idea de que desconocen su existencia o funcionamiento.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "B": {
+            "explicacion": "La situación describe explícitamente que las familias sí acuden al centro de salud en ciertos casos; afirmar un rechazo total y sin excepciones contradice ese elemento central de la situación.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "C": {
+            "explicacion": "No hay ningún elemento en la situación que sugiera menor interés en el bienestar de los hijos; lo que se describe es un orden de prioridades distinto para atender la salud, enraizado en una cosmovisión particular.",
+            "patron_trampa": "interes_mal_atribuido"
+          }
+        }
+      },
+      {
+        "id": "CC-ITEM-076",
+        "competencia": "multiperspectivismo",
+        "bloque": "cosmovision_reflejada_en_comportamiento_o_argumento",
+        "enunciado": "¿Sería correcto inferir, a partir de esta única práctica descrita, que estas familias rechazarían también cualquier campaña de vacunación infantil promovida por el centro de salud?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "No necesariamente, porque esta práctica puntual no permite generalizar automáticamente sobre la actitud de estas familias frente a otras prácticas de salud, como la vacunación, que podrían valorar de forma distinta dentro de su misma cosmovisión.",
+          "B": "Sí, porque cualquier comunidad que priorice el conocimiento ancestral en algún aspecto de la salud necesariamente rechaza también la vacunación infantil promovida por el Estado.",
+          "C": "Sí, porque la cosmovisión de una comunidad rural es siempre uniforme y aplica exactamente de la misma manera a cualquier práctica relacionada con la salud.",
+          "D": "No, porque en realidad estas familias no tienen ninguna cosmovisión particular sobre la salud, sino que actúan de forma aleatoria en cada situación."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Inferir la cosmovisión completa de un grupo a partir de un único comportamiento observado es arriesgado: la preferencia por consultar primero a un sabedor tradicional ante síntomas leves no permite concluir automáticamente cuál sería su actitud frente a una práctica distinta, como la vacunación, que podría ser valorada de otra manera dentro de la misma cosmovisión comunitaria.",
+        "distractores": {
+          "B": {
+            "explicacion": "Esta opción generaliza indebidamente a partir de un único comportamiento observado, sin ninguna evidencia adicional sobre la actitud específica de estas familias frente a la vacunación.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "C": {
+            "explicacion": "Esta opción asume una uniformidad total en la aplicación de una cosmovisión a cualquier práctica de salud, cuando una misma cosmovisión puede traducirse de formas distintas según el tipo específico de práctica que se trate.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "D": {
+            "explicacion": "Esta opción niega la existencia de cualquier cosmovisión coherente detrás del comportamiento descrito, cuando la situación sí sugiere un patrón identificable que refleja una forma particular, no aleatoria, de entender la salud.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-059",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "medio_ambiente",
+    "situacion": "Una comunidad campesina se niega a que se instale una antena de telecomunicaciones en un cerro cercano, argumentando que ese cerro es un lugar de encuentro comunitario donde se realizan actividades colectivas importantes para la vida social del pueblo, más allá de cualquier consideración económica sobre el valor de la tierra.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-077",
+        "competencia": "multiperspectivismo",
+        "bloque": "cosmovision_reflejada_en_comportamiento_o_argumento",
+        "enunciado": "¿Qué revela este argumento sobre la cosmovisión de la comunidad campesina, más allá de un simple rechazo a la infraestructura de telecomunicaciones?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Revela que la comunidad campesina se opone a cualquier forma de tecnología o modernización en su territorio, sin ninguna excepción.",
+          "B": "Revela una cosmovisión donde ciertos espacios físicos tienen un valor comunitario y simbólico que no se reduce a su valor económico o funcional, lo cual explica por qué el argumento no se centra en el precio de la tierra sino en su función social.",
+          "C": "Revela que la comunidad campesina busca obtener una compensación económica mayor a la ofrecida antes de aceptar la instalación de la antena.",
+          "D": "Revela que la comunidad campesina desconoce los beneficios que la conectividad de telecomunicaciones podría traer a la región en el futuro."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El argumento de la comunidad no se basa en el valor económico del cerro, sino en su función como espacio de **encuentro comunitario**, lo que revela una cosmovisión donde ciertos lugares tienen un significado colectivo que trasciende su valor de mercado; esto explica por qué la oposición se sostiene incluso si la antena no representara ninguna pérdida económica directa.",
+        "distractores": {
+          "A": {
+            "explicacion": "La situación no describe un rechazo generalizado a la tecnología, sino una oposición específica a instalar la antena en un lugar con un significado comunitario particular; generalizar a un rechazo total excede lo que el argumento presentado permite inferir.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "C": {
+            "explicacion": "El argumento presentado se centra explícitamente en el valor comunitario del cerro, no en una negociación económica; atribuir un interés puramente monetario contradice el argumento que la propia comunidad expone.",
+            "patron_trampa": "interes_mal_atribuido"
+          },
+          "D": {
+            "explicacion": "La situación no ofrece ningún elemento para afirmar que la comunidad desconoce esos beneficios; su argumento se centra en el valor simbólico del cerro específico, no en un rechazo general a la conectividad por desconocimiento.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-060",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "educacion",
+    "situacion": "En un colegio, un grupo de estudiantes de una comunidad indígena organiza voluntariamente sesiones de estudio grupales antes de cada examen importante, mientras la mayoría de sus compañeros prefiere estudiar de forma individual. Un docente interpreta esto como una simple estrategia académica más eficiente que la individual.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-078",
+        "competencia": "multiperspectivismo",
+        "bloque": "cosmovision_reflejada_en_comportamiento_o_argumento",
+        "enunciado": "¿Qué otra explicación, relacionada con la cosmovisión de este grupo de estudiantes, podría estar detrás de esta práctica, más allá de la interpretación exclusivamente académica del docente?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "La práctica revela que estos estudiantes tienen menor capacidad de concentración individual que sus compañeros, por lo que necesitan el apoyo del grupo.",
+          "B": "La práctica revela que estos estudiantes buscan copiar las respuestas de sus compañeros durante el examen en lugar de estudiar honestamente el contenido.",
+          "C": "La práctica podría reflejar una cosmovisión que valora el aprendizaje colectivo y la reciprocidad comunitaria como parte central de su cultura, y no únicamente una estrategia calculada para obtener mejores resultados académicos individuales.",
+          "D": "La práctica revela que el colegio no está ofreciendo suficiente apoyo académico individual a ningún estudiante, sin importar su origen cultural."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El docente interpreta la práctica únicamente como una estrategia de eficiencia académica, pero también podría reflejar una **cosmovisión** donde el aprendizaje colectivo y la reciprocidad comunitaria son valores centrales, independientemente de si esa forma de estudiar resulta o no más eficiente que la individual en términos de calificaciones.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta opción atribuye una limitación individual a los estudiantes sin ningún respaldo en la situación descrita; el comportamiento grupal puede reflejar más bien una preferencia cultural por el aprendizaje colectivo, no una deficiencia de concentración.",
+            "patron_trampa": "interes_mal_atribuido"
+          },
+          "B": {
+            "explicacion": "La situación describe sesiones de estudio previas al examen, no ninguna conducta relacionada con el examen mismo; esta opción introduce una sospecha de deshonestidad académica que la situación no menciona ni sugiere.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "D": {
+            "explicacion": "Esta opción desvía la explicación hacia una supuesta falla institucional general del colegio, cuando la pregunta indaga específicamente sobre qué revela la práctica sobre la cosmovisión particular de este grupo de estudiantes.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-061",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "politica_e_instituciones",
+    "situacion": "Un juez, antes de asumir su cargo, había publicado varios artículos de opinión defendiendo una interpretación amplia de cierto derecho constitucional. Ya en ejercicio de su función judicial, falla un caso relacionado con ese mismo derecho de una manera más restrictiva de lo que sus artículos previos sugerían, basándose en precedentes judiciales vinculantes que debía aplicar.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-079",
+        "competencia": "multiperspectivismo",
+        "bloque": "rol_institucional_vs_opinion_personal",
+        "enunciado": "¿Cómo se explica, desde la distinción entre rol institucional y opinión personal, que el fallo del juez no coincida exactamente con sus opiniones previas como articulista?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Se explica porque el juez traicionó deliberadamente sus convicciones personales a cambio de algún beneficio no especificado en la situación.",
+          "B": "Se explica porque los artículos de opinión que escribió antes de ser juez no reflejaban en ningún momento sus verdaderas convicciones personales sobre el tema.",
+          "C": "Se explica porque los jueces, a diferencia de cualquier otro funcionario público, nunca pueden tener opiniones personales sobre ningún tema antes de asumir su cargo.",
+          "D": "El rol institucional de juez le exige aplicar los precedentes judiciales vinculantes existentes, lo cual puede llevarlo a fallar de una manera distinta a la que sostenía en sus opiniones personales previas, sin que esto signifique que haya cambiado genuinamente de convicciones."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Cuando una persona pasa de expresarse a título personal a ejercer un **rol institucional**, sus decisiones deben considerar factores que no aplican de la misma manera a la opinión personal, como los precedentes judiciales vinculantes. Esto puede llevar a decisiones distintas de sus opiniones previas, sin que eso implique necesariamente un cambio genuino de convicciones.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta opción atribuye una motivación deshonesta al juez sin ningún respaldo en la situación descrita; la explicación más razonable es que su rol institucional le exige seguir precedentes vinculantes, no una traición a sus convicciones.",
+            "patron_trampa": "interes_mal_atribuido"
+          },
+          "B": {
+            "explicacion": "La situación no ofrece ningún elemento para dudar de la sinceridad de sus artículos previos; la explicación más razonable es que su rol institucional actual le exige aplicar precedentes vinculantes, no que sus opiniones pasadas fueran insinceras.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "C": {
+            "explicacion": "Esta opción hace una afirmación general poco plausible sobre los jueces como categoría, cuando la situación describe un caso específico donde el rol institucional explica la diferencia con la opinión personal previa.",
+            "patron_trampa": "generalizacion_invalida"
+          }
+        }
+      },
+      {
+        "id": "CC-ITEM-080",
+        "competencia": "multiperspectivismo",
+        "bloque": "rol_institucional_vs_opinion_personal",
+        "enunciado": "¿Significa este fallo que el juez ha abandonado por completo, a nivel personal, la interpretación amplia del derecho que defendía en sus artículos previos?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "No necesariamente, porque el fallo refleja lo que su rol institucional le exige en ese caso concreto, lo cual no equivale a conocer con certeza cuál es su convicción personal actual sobre el tema.",
+          "B": "Sí, porque cualquier fallo judicial refleja de manera exacta y completa las convicciones personales actuales de quien lo dicta, sin ninguna diferencia posible entre ambas.",
+          "C": "Sí, porque los jueces están legalmente obligados a modificar sus convicciones personales para que coincidan siempre con cada fallo que dictan.",
+          "D": "No, porque en realidad el juez nunca tuvo ninguna convicción personal genuina sobre este derecho constitucional antes de asumir su cargo."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El fallo judicial responde a las exigencias del **rol institucional** en ese caso concreto, pero no permite concluir con certeza cuál es la convicción personal del juez en la actualidad; podría seguir sosteniendo, a título personal, la misma interpretación amplia que defendía antes, aunque su rol le exija fallar de manera distinta mientras esos precedentes sigan vigentes.",
+        "distractores": {
+          "B": {
+            "explicacion": "Esta opción ignora la distinción central entre rol institucional y opinión personal; un fallo puede estar determinado por exigencias institucionales sin que refleje necesariamente la convicción personal actual del juez.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "No existe tal obligación legal de modificar las convicciones personales; lo que se exige es que el fallo se ajuste a los precedentes y al marco normativo vigente, lo cual es distinto de exigir un cambio en las convicciones personales del juez.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "Esta opción contradice la situación descrita, que menciona explícitamente que el juez había publicado varios artículos de opinión defendiendo una interpretación amplia del derecho, lo cual sugiere una convicción previa genuina.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-062",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "convivencia_y_discriminacion",
+    "situacion": "El director de una entidad pública encargada de vigilar la no discriminación laboral debe pronunciarse sobre una queja presentada contra su propia empresa familiar, de la cual sigue siendo accionista minoritario. En su pronunciamiento institucional, reconoce la existencia de indicios de un trato desigual y ordena abrir una investigación formal.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-081",
+        "competencia": "multiperspectivismo",
+        "bloque": "rol_institucional_vs_opinion_personal",
+        "enunciado": "¿Cómo debe interpretarse este pronunciamiento institucional, dado el vínculo personal del director con la empresa investigada?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Como una prueba definitiva de que el director no tiene ningún conflicto de interés relevante, ya que su decisión perjudicó, en principio, a la empresa de la cual es accionista.",
+          "B": "Como una actuación que prioriza las exigencias de su rol institucional sobre cualquier interés personal derivado de su vínculo con la empresa, lo cual no elimina la conveniencia de que se evalúe si debía haberse apartado del caso desde el principio por ese mismo vínculo.",
+          "C": "Como una decisión inválida en su totalidad, ya que ningún funcionario público puede pronunciarse jamás sobre un caso que involucre, de cualquier forma, a una empresa donde tenga algún vínculo personal.",
+          "D": "Como una decisión que demuestra que el director, en el fondo, siempre ha estado en contra de los intereses de su propia empresa familiar."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El pronunciamiento refleja que el director, en su **rol institucional**, actuó reconociendo los indicios de trato desigual pese a su vínculo personal con la empresa. Sin embargo, esto no resuelve una pregunta distinta e igualmente relevante: si, dado ese vínculo personal, debía haberse apartado del caso desde el principio para evitar cualquier conflicto de interés, independientemente de que su decisión final haya sido razonable.",
+        "distractores": {
+          "A": {
+            "explicacion": "Que la decisión haya sido desfavorable para la empresa no elimina automáticamente la existencia de un conflicto de interés relevante por el solo hecho del vínculo personal; sigue siendo válido preguntarse si debía haberse apartado del caso desde el inicio.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "Esta opción generaliza de forma absoluta una regla sobre conflictos de interés sin considerar los matices del caso concreto; lo relevante aquí es analizar si el vínculo específico exigía apartarse del caso, no descartar de plano cualquier posible actuación institucional.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "D": {
+            "explicacion": "Esta opción extrae una conclusión amplia sobre las convicciones personales del director hacia su empresa familiar, que la situación no permite sostener; lo que se describe es una actuación puntual conforme a su rol institucional en un caso específico.",
+            "patron_trampa": "generalizacion_invalida"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-063",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "ciencia_y_sociedad",
+    "situacion": "Un científico que dirige una agencia estatal de investigación debe presentar públicamente los resultados de un estudio financiado por su propia agencia sobre los efectos de una tecnología emergente, resultados que son menos favorables de lo que el científico había anticipado en entrevistas previas realizadas antes de dirigir la agencia.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-082",
+        "competencia": "multiperspectivismo",
+        "bloque": "rol_institucional_vs_opinion_personal",
+        "enunciado": "¿Qué se espera de este científico en su rol institucional actual, frente a lo que pudo haber sostenido antes a título personal?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Que ajuste los resultados del estudio para que coincidan con lo que había anticipado en sus entrevistas previas, de modo que no parezca inconsistente ante el público.",
+          "B": "Que se abstenga por completo de presentar los resultados del estudio, dado que contradicen lo que sostuvo anteriormente a título personal.",
+          "C": "Que presente los resultados del estudio de forma fiel a la evidencia obtenida, incluso si contradicen sus expectativas personales previas, precisamente porque su rol institucional actual le exige representar la evidencia científica de la agencia, no sus opiniones anteriores.",
+          "D": "Que aclare públicamente que sus entrevistas previas no tenían ningún valor científico y deben ser completamente ignoradas a partir de ahora."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El **rol institucional** de dirigir una agencia de investigación exige comunicar los resultados obtenidos de forma fiel a la evidencia, incluso cuando contradicen expectativas personales previas expresadas a título individual. Esto no implica ocultar sus opiniones pasadas, sino priorizar la representación fiel de la evidencia científica actual.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta opción sugiere manipular los resultados para mantener una apariencia de consistencia, lo cual contradice directamente la exigencia central de su rol institucional: comunicar la evidencia de forma fiel, sin importar si coincide o no con expectativas personales previas.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "B": {
+            "explicacion": "Abstenerse de presentar resultados legítimos de una investigación financiada por la propia agencia no es una opción compatible con su rol institucional, que exige precisamente comunicar los hallazgos obtenidos.",
+            "patron_trampa": "solucion_parcial"
+          },
+          "D": {
+            "explicacion": "Esta opción no es lo que exige su rol institucional actual; lo que se espera es que presente la evidencia del estudio de forma fiel, sin que sea necesario descalificar por completo sus declaraciones personales previas.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-064",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "salud_publica",
+    "situacion": "Un epidemiólogo defendió públicamente, durante los primeros meses de un brote de una enfermedad respiratoria, que el uso de un medicamento específico prevenía eficazmente el contagio, citando estudios preliminares disponibles en ese momento. Meses después, tras conocer los resultados de ensayos clínicos más rigurosos que no encontraron ese efecto preventivo, el epidemiólogo se retracta públicamente de su recomendación inicial.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-083",
+        "competencia": "multiperspectivismo",
+        "bloque": "cambio_de_postura_ante_nueva_evidencia",
+        "enunciado": "¿Cómo debería interpretarse este cambio de postura del epidemiólogo?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Como una señal de que el epidemiólogo nunca tuvo suficiente conocimiento científico para hacer recomendaciones públicas desde el principio del brote.",
+          "B": "Como una prueba de que el epidemiólogo cedió a presiones políticas o económicas para cambiar su recomendación inicial sobre el medicamento.",
+          "C": "Como una contradicción que invalida por completo la credibilidad de cualquier recomendación futura que este epidemiólogo pueda hacer sobre cualquier tema.",
+          "D": "Como una actualización legítima de su postura basada en evidencia más rigurosa y reciente, lo cual refleja rigor científico y no una debilidad argumentativa."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Cambiar de postura frente a evidencia nueva y más rigurosa es, en general, señal de **rigor científico**, no de debilidad. El epidemiólogo actualizó su recomendación al conocer resultados de ensayos clínicos más confiables que los estudios preliminares en los que se había basado inicialmente, lo cual es precisamente lo que se espera de un razonamiento científico honesto.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta opción juzga negativamente la recomendación inicial sin considerar que se basó en la mejor evidencia disponible en ese momento; actualizar la postura ante evidencia posterior más rigurosa no implica que la recomendación inicial careciera de fundamento en su momento.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "B": {
+            "explicacion": "La situación no ofrece ningún elemento que sugiera presiones políticas o económicas detrás del cambio; lo que se describe es la aparición de evidencia científica más rigurosa, que es una explicación suficiente y más directa del cambio de postura.",
+            "patron_trampa": "interes_mal_atribuido"
+          },
+          "C": {
+            "explicacion": "Esta opción generaliza de forma excesiva las consecuencias de un cambio de postura basado en evidencia; actualizar una recomendación específica ante nueva evidencia no invalida automáticamente la credibilidad general del epidemiólogo en otros temas futuros.",
+            "patron_trampa": "generalizacion_invalida"
+          }
+        }
+      },
+      {
+        "id": "CC-ITEM-084",
+        "competencia": "multiperspectivismo",
+        "bloque": "cambio_de_postura_ante_nueva_evidencia",
+        "enunciado": "¿Qué distinguiría a este cambio de postura, basado en evidencia, de un cambio de postura meramente oportunista sobre el mismo tema?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Que el epidemiólogo explica con claridad qué evidencia nueva y específica lo llevó a modificar su recomendación anterior, en lugar de cambiar de postura sin ninguna justificación basada en datos verificables.",
+          "B": "Que el cambio de postura oportunista ocurre más rápido en el tiempo que el cambio genuino basado en evidencia, sin importar ninguna otra diferencia entre ambos.",
+          "C": "Que el cambio de postura genuino siempre debe ser anunciado en una rueda de prensa formal, mientras que el oportunista se comunica de manera informal.",
+          "D": "Que no existe ninguna diferencia real entre un cambio de postura genuino y uno oportunista, ya que ambos tipos de cambio deben tratarse exactamente igual."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Un cambio de postura **genuino** se acompaña de una explicación clara sobre la evidencia nueva que lo justifica, que además puede verificarse de forma independiente. Un cambio **oportunista**, en cambio, carecería de esa justificación basada en evidencia y respondería más bien a un cambio de conveniencia sin relación con datos verificables.",
+        "distractores": {
+          "B": {
+            "explicacion": "La velocidad con la que ocurre un cambio de postura no es el criterio central para distinguir un cambio genuino de uno oportunista; lo relevante es si existe una justificación basada en evidencia verificable detrás del cambio.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "El medio o formato de comunicación utilizado para anunciar un cambio de postura no es el criterio que distingue un cambio genuino de uno oportunista; lo relevante es la existencia de una justificación basada en evidencia verificable.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "Esta opción ignora una distinción relevante y verificable entre ambos tipos de cambio de postura: la presencia o ausencia de una justificación basada en evidencia específica, que sí permite diferenciarlos en la práctica.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-065",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "medio_ambiente",
+    "situacion": "Un alcalde defendió inicialmente la construcción de un relleno sanitario en un terreno específico, basándose en un estudio de suelos que indicaba condiciones adecuadas. Al conocer un nuevo estudio geológico independiente que revela fallas no detectadas anteriormente en ese mismo terreno, el alcalde anuncia que reconsiderará la ubicación del proyecto.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-085",
+        "competencia": "multiperspectivismo",
+        "bloque": "cambio_de_postura_ante_nueva_evidencia",
+        "enunciado": "¿Qué elemento de este caso permite calificar el cambio de postura del alcalde como una actualización legítima, y no como un simple cambio de opinión sin fundamento?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Que el alcalde enfrenta una fuerte oposición ciudadana al proyecto, independientemente de cualquier estudio técnico adicional sobre el terreno.",
+          "B": "Que el cambio se produce después de conocer un estudio geológico independiente con información específica y verificable que no estaba disponible en el momento de la decisión original.",
+          "C": "Que el alcalde tiene información privilegiada e injustificada sobre otro terreno alternativo que beneficiaría económicamente a un allegado suyo.",
+          "D": "Que el estudio de suelos original, en el que se basó la decisión inicial, era completamente inventado y nunca existió realmente."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Lo que distingue un cambio de postura legítimo de uno arbitrario es la existencia de **evidencia nueva y verificable** que justifique la modificación. Aquí, el alcalde reconsidera su decisión tras conocer un estudio geológico independiente con hallazgos específicos, lo cual constituye una razón concreta y verificable para el cambio, no una simple variación de opinión sin fundamento.",
+        "distractores": {
+          "A": {
+            "explicacion": "La oposición ciudadana, por sí sola, no constituye evidencia técnica sobre las condiciones del terreno; el elemento que distingue este cambio como legítimo es específicamente la existencia del nuevo estudio geológico, no la presión social en sí misma.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "C": {
+            "explicacion": "La situación no menciona ningún elemento relacionado con un terreno alternativo ni con un beneficio a un allegado; esta opción introduce una sospecha sin ningún respaldo en los hechos descritos.",
+            "patron_trampa": "interes_mal_atribuido"
+          },
+          "D": {
+            "explicacion": "La situación no cuestiona la existencia ni la seriedad del estudio original, sino que menciona la aparición de un estudio geológico posterior con hallazgos adicionales; no hay ningún elemento que sugiera que el estudio original fue inventado.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-066",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "educacion",
+    "situacion": "Una secretaría de educación sostuvo, durante años, que un modelo de evaluación estandarizada única era la mejor forma de medir la calidad educativa de todos los colegios del país. Tras conocer un estudio comparativo internacional que muestra que ese modelo no refleja adecuadamente el progreso de colegios en contextos socioeconómicos muy distintos, la secretaría anuncia que ajustará el modelo para incluir indicadores adicionales de progreso relativo, sin eliminar por completo la evaluación estandarizada.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-086",
+        "competencia": "multiperspectivismo",
+        "bloque": "cambio_de_postura_ante_nueva_evidencia",
+        "enunciado": "¿Qué tipo de cambio de postura representa este anuncio de la secretaría de educación?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Un cambio total de postura, ya que la secretaría ha decidido abandonar por completo cualquier forma de evaluación estandarizada en el país.",
+          "B": "Ningún cambio de postura real, ya que anunciar ajustes al modelo no constituye una actualización genuina de la posición original de la secretaría.",
+          "C": "Un cambio parcial: la secretaría matiza su postura original reconociendo una limitación específica del modelo, sin abandonar por completo la evaluación estandarizada que seguía considerando útil en otros aspectos.",
+          "D": "Un cambio oportunista, motivado únicamente por la necesidad de la secretaría de mostrar una imagen de modernización ante la opinión pública."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Este es un ejemplo de cambio **parcial** de postura: la secretaría no abandona completamente su posición original sobre la utilidad de la evaluación estandarizada, sino que la matiza reconociendo una limitación específica y ajustando el modelo para atenderla, sin eliminar la evaluación original por completo.",
+        "distractores": {
+          "A": {
+            "explicacion": "La situación indica expresamente que la secretaría no elimina la evaluación estandarizada, sino que la complementa con indicadores adicionales; calificar esto como un abandono total contradice lo que la situación describe.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "B": {
+            "explicacion": "Reconocer una limitación específica del modelo y ajustar sus indicadores sí constituye un cambio de postura, aunque sea parcial; descartar cualquier ajuste como si no representara ninguna actualización ignora la naturaleza matizada de este tipo de cambios.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "Esta opción atribuye una motivación oportunista sin ningún respaldo en la situación, que describe explícitamente la aparición de un estudio comparativo internacional como razón del ajuste; esa es una justificación basada en evidencia, no un cambio sin fundamento.",
+            "patron_trampa": "interes_mal_atribuido"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-067",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "politica_e_instituciones",
+    "situacion": "Un medio de comunicación regional publica una investigación periodística, con fuentes y documentos verificables, sobre presuntas irregularidades en el manejo de contratos por parte de un funcionario público de alto rango. El funcionario sostiene que la publicación afecta gravemente su reputación y exige una rectificación inmediata, alegando que la investigación no incluyó su versión de los hechos antes de publicarse.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-087",
+        "competencia": "multiperspectivismo",
+        "bloque": "tension_entre_derechos_constitucionales_legitimos",
+        "enunciado": "¿Qué caracteriza mejor la tensión entre los dos actores en este caso?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Una disputa donde el medio de comunicación defiende exclusivamente sus intereses comerciales de audiencia, sin ningún interés legítimo relacionado con la información pública.",
+          "B": "Una disputa donde el funcionario público defiende exclusivamente su deseo de evitar cualquier tipo de escrutinio público sobre su gestión, sin ningún derecho legítimo de por medio.",
+          "C": "Una disputa que no involucra ningún derecho constitucional relevante, sino únicamente una diferencia de opinión sobre el estilo periodístico de la investigación.",
+          "D": "Una tensión legítima entre la libertad de expresión e información del medio, ejercida sobre un asunto de interés público, y el derecho del funcionario a su buen nombre, particularmente en cuanto al derecho de réplica antes de la publicación."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Ambos derechos están genuinamente en juego: la **libertad de expresión e información** protege la labor investigativa del medio sobre un asunto de interés público, mientras que el **derecho al buen nombre** del funcionario incluye la posibilidad de que su versión sea considerada antes de una publicación que puede afectar su reputación. Ninguno de los dos derechos es absoluto, y la tensión se resuelve evaluando si la investigación tenía sustento fáctico y si se buscó de forma razonable la versión del funcionario.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta opción reduce la posición del medio a un interés comercial no mencionado en la situación, ignorando que la investigación se basa en fuentes y documentos verificables sobre un asunto de genuino interés público.",
+            "patron_trampa": "interes_mal_atribuido"
+          },
+          "B": {
+            "explicacion": "Esta opción descarta por completo la legitimidad del reclamo del funcionario sobre el derecho de réplica, cuando ese es precisamente un derecho constitucional real que puede estar en juego, más allá de cualquier motivación para evitar el escrutinio.",
+            "patron_trampa": "derecho_incompleto_identificado"
+          },
+          "C": {
+            "explicacion": "Esta opción minimiza la situación como una simple diferencia de estilo, cuando en realidad están en juego dos derechos constitucionales genuinos: la libertad de información del medio y el derecho al buen nombre y de réplica del funcionario.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-068",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "convivencia_y_discriminacion",
+    "situacion": "Un joven miembro de una comunidad étnica decide, ya adulto, adoptar una práctica religiosa distinta a la tradición espiritual colectiva de su comunidad. Las autoridades tradicionales sostienen que esa decisión debilita la cohesión cultural del grupo y le solicitan que participe igualmente en ciertos rituales colectivos considerados esenciales para la identidad de la comunidad. El joven se niega, alegando su derecho a la libertad de conciencia.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-088",
+        "competencia": "multiperspectivismo",
+        "bloque": "tension_entre_derechos_constitucionales_legitimos",
+        "enunciado": "¿Cómo debe entenderse esta tensión entre la autonomía cultural de la comunidad y la libertad de conciencia del joven?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Como una tensión entre dos derechos genuinamente protegidos —la autonomía cultural colectiva y la libertad de conciencia individual— que exige una ponderación cuidadosa, sin que ninguno de los dos se imponga automáticamente sobre el otro.",
+          "B": "Como una tensión donde la autonomía cultural de la comunidad debe prevalecer siempre por completo, ya que se trata de un derecho colectivo de una comunidad étnica.",
+          "C": "Como una tensión donde la libertad de conciencia del joven debe prevalecer siempre por completo, ya que se trata de un derecho fundamental de carácter individual.",
+          "D": "Como un conflicto sin ninguna relevancia constitucional, ya que se trata simplemente de una diferencia personal de opinión dentro de una comunidad."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Ambos derechos son legítimos y están protegidos constitucionalmente: la **autonomía cultural** de la comunidad para preservar sus prácticas colectivas, y la **libertad de conciencia** del joven para no ser obligado a participar en prácticas religiosas con las que ya no está de acuerdo. Ninguno de los dos prevalece automáticamente sobre el otro; se requiere un análisis que considere qué tan esencial es esa participación para la comunidad y qué tan grave sería la afectación a la libertad de conciencia del joven.",
+        "distractores": {
+          "B": {
+            "explicacion": "Esta opción trata la autonomía cultural como un derecho absoluto que siempre prevalece, ignorando que la libertad de conciencia individual también es un derecho protegido que debe ponderarse en cada caso concreto.",
+            "patron_trampa": "derecho_incompleto_identificado"
+          },
+          "C": {
+            "explicacion": "Esta opción trata la libertad de conciencia individual como automáticamente superior a la autonomía cultural colectiva, sin reconocer que esta última también es un derecho constitucionalmente protegido que merece consideración.",
+            "patron_trampa": "derecho_incompleto_identificado"
+          },
+          "D": {
+            "explicacion": "Esta opción minimiza la situación como una simple diferencia de opinión, cuando en realidad involucra dos derechos constitucionales genuinos —autonomía cultural y libertad de conciencia— que están en tensión real.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-069",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "ciencia_y_sociedad",
+    "situacion": "Un grupo de investigadores solicita acceso a los historiales médicos anonimizados de miles de pacientes con una enfermedad poco común, almacenados en un hospital público, para desarrollar un estudio que podría mejorar el tratamiento de esa enfermedad. Un grupo de pacientes se opone, alegando que, aunque los datos estén anonimizados, existe el riesgo de que su información termine siendo identificable si se cruza con otras bases de datos.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-089",
+        "competencia": "multiperspectivismo",
+        "bloque": "tension_entre_derechos_constitucionales_legitimos",
+        "enunciado": "¿Qué caracteriza mejor la tensión entre los investigadores y los pacientes en este caso?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Una tensión donde los investigadores defienden exclusivamente su interés profesional en publicar resultados, sin ningún beneficio real para la salud pública.",
+          "B": "Una tensión legítima entre el interés colectivo en el avance del conocimiento científico y la salud pública, y el derecho individual a la privacidad de la información médica, incluso cuando esta ha sido anonimizada.",
+          "C": "Una tensión donde los pacientes se oponen únicamente por desconfianza infundada hacia la ciencia médica en general, sin ningún fundamento técnico real.",
+          "D": "Una tensión que no involucra ningún derecho relevante, ya que los datos ya están anonimizados y por tanto no existe ningún riesgo real para la privacidad de los pacientes."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Ambos derechos son legítimos: el **interés en el avance científico y la salud pública**, que podría beneficiar a futuros pacientes con la misma enfermedad, y el **derecho a la privacidad** de los pacientes actuales, cuya preocupación sobre la reidentificación de datos anonimizados mediante el cruce con otras bases es una preocupación técnicamente fundada, no una oposición arbitraria a la ciencia.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta opción reduce el interés de los investigadores a una motivación profesional egoísta, ignorando que el estudio propuesto busca mejorar el tratamiento de una enfermedad, lo cual es un interés legítimo de salud pública.",
+            "patron_trampa": "interes_mal_atribuido"
+          },
+          "C": {
+            "explicacion": "Esta opción descalifica la preocupación de los pacientes como simple desconfianza infundada, cuando el riesgo de reidentificación mediante el cruce de bases de datos anonimizadas es una preocupación técnicamente reconocida en la protección de datos.",
+            "patron_trampa": "derecho_incompleto_identificado"
+          },
+          "D": {
+            "explicacion": "Esta opción da por resuelta la tensión asumiendo que la anonimización elimina cualquier riesgo, cuando la situación describe explícitamente la preocupación técnica de que los datos podrían volverse identificables al cruzarse con otras bases.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-070",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "salud_publica",
+    "situacion": "Los padres de un adolescente, por convicciones filosóficas personales relacionadas con la autonomía corporal, se oponen a que su hijo reciba una vacuna incluida en el esquema obligatorio de inmunización escolar, aunque no exista ninguna contraindicación médica específica para él. El colegio y la autoridad de salud sostienen que la vacuna es necesaria para proteger tanto al adolescente como a la comunidad escolar de un riesgo de contagio significativo.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-090",
+        "competencia": "multiperspectivismo",
+        "bloque": "tension_entre_derechos_constitucionales_legitimos",
+        "enunciado": "¿Cómo se caracteriza mejor la tensión presente en este caso?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Una tensión donde los padres defienden exclusivamente un capricho personal sin ningún fundamento legítimo relacionado con la crianza de su hijo.",
+          "B": "Una tensión donde el colegio y la autoridad de salud actúan exclusivamente para cumplir metas administrativas de cobertura de vacunación, sin ningún interés genuino en la salud del adolescente.",
+          "C": "Una tensión entre la libertad de conciencia y las convicciones personales de los padres sobre la crianza de su hijo, y el interés superior del menor junto con el interés colectivo en la salud pública escolar, que puede justificar límites a esa libertad cuando no existe una razón médica que la respalde.",
+          "D": "Una tensión que no involucra ningún derecho relevante de los padres, ya que las decisiones sobre vacunación escolar corresponden exclusivamente a la autoridad de salud sin ninguna consideración por la posición familiar."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Ambos derechos son legítimos: la **libertad de conciencia** de los padres para tomar decisiones sobre la crianza de sus hijos según sus convicciones, y el **interés superior del menor**, junto con el interés colectivo en la salud pública escolar, que puede justificar límites a esa libertad cuando la decisión no se basa en una contraindicación médica específica y pone en riesgo tanto al adolescente como a la comunidad escolar.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta opción descalifica de entrada la posición de los padres como un simple capricho, sin reconocer que la libertad de conciencia sobre la crianza de los hijos es, en principio, un derecho legítimo, aunque en este caso concreto pueda ceder frente a otros intereses.",
+            "patron_trampa": "derecho_incompleto_identificado"
+          },
+          "B": {
+            "explicacion": "Esta opción atribuye una motivación puramente administrativa a las autoridades, ignorando que la exigencia de vacunación responde a un interés genuino y legítimo en proteger tanto al adolescente como a la comunidad escolar de un riesgo de contagio real.",
+            "patron_trampa": "interes_mal_atribuido"
+          },
+          "D": {
+            "explicacion": "Esta opción ignora por completo la legitimidad de la libertad de conciencia de los padres sobre la crianza de sus hijos, que sí es un derecho relevante en la ponderación del caso, aunque pueda ceder ante el interés superior del menor en esta situación concreta.",
+            "patron_trampa": "derecho_incompleto_identificado"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  }
+]

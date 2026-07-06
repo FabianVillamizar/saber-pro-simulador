@@ -95,6 +95,11 @@ export function RepasoConceptos({ moduloId, perfil, onCambiarPerfil, onVolver })
   const tarjeta = cola[0].valor
   const remaining = cola.length
   const progressPct = totalInicial ? Math.min(100, Math.round((revisadasHoy / totalInicial) * 100)) : 0
+  // Dos esquemas de tarjeta de concepto: cloze (antes/despues/respuesta, de
+  // Inglés) y pregunta directa (pregunta/respuesta_breve, de Competencias
+  // Ciudadanas). Se detectan por la presencia de `antes`, no por `tipo`
+  // (que en CC siempre vale "concepto" para las 4 sub-categorías).
+  const esCloze = 'antes' in tarjeta
 
   return (
     <div className="repaso">
@@ -120,59 +125,108 @@ export function RepasoConceptos({ moduloId, perfil, onCambiarPerfil, onVolver })
           onClick={() => setVolteada((v) => !v)}
           alturaPx={340}
           frente={
-            <>
-              <div className="repaso-badges">
-                <span className="repaso-badge-nivel">{tarjeta.nivel_mcer}</span>
-                <span className="repaso-badge-tipo">{ETIQUETAS_TIPO[tarjeta.tipo] ?? tarjeta.tipo}</span>
-              </div>
-              <div className="repaso-cloze">
-                <div className="repaso-cloze-texto">
-                  {tarjeta.antes}{' '}
-                  <span className="repaso-cloze-hueco" />{' '}
-                  {tarjeta.despues}
+            esCloze ? (
+              <>
+                <div className="repaso-badges">
+                  <span className="repaso-badge-nivel">{tarjeta.nivel_mcer}</span>
+                  <span className="repaso-badge-tipo">{ETIQUETAS_TIPO[tarjeta.tipo] ?? tarjeta.tipo}</span>
                 </div>
-              </div>
-              <div className="repaso-hint">
-                <IconoFlechaCircular color="var(--text-faint)" />
-                Toca para ver la explicación
-              </div>
-            </>
-          }
-          reverso={
-            <>
-              <div className="repaso-reverso-cabecera">
-                <span className="repaso-badge-nivel repaso-badge-nivel--chico">{tarjeta.nivel_mcer}</span>
-                <div className="repaso-reverso-oracion">
-                  {tarjeta.antes}{' '}
-                  <span className="repaso-reverso-respuesta">{tarjeta.respuesta}</span>{' '}
-                  {tarjeta.despues}
-                </div>
-              </div>
-
-              <div>
-                <div className="repaso-seccion-label">Regla</div>
-                <div className="repaso-seccion-texto">
-                  <TextoConNegritas texto={tarjeta.regla} />
-                </div>
-              </div>
-
-              <div className="repaso-ejemplo">
-                <div className="repaso-seccion-label repaso-seccion-label--accent">Ejemplo</div>
-                <div className="repaso-ejemplo-texto">
-                  <TextoConNegritas texto={tarjeta.ejemplo} />
-                </div>
-              </div>
-
-              <div className="repaso-error">
-                <span className="repaso-error-icono" />
-                <div>
-                  <div className="repaso-seccion-label repaso-seccion-label--warn">Error común</div>
-                  <div className="repaso-error-texto">
-                    <TextoConNegritas texto={tarjeta.error_comun} />
+                <div className="repaso-cloze">
+                  <div className="repaso-cloze-texto">
+                    {tarjeta.antes}{' '}
+                    <span className="repaso-cloze-hueco" />{' '}
+                    {tarjeta.despues}
                   </div>
                 </div>
-              </div>
-            </>
+                <div className="repaso-hint">
+                  <IconoFlechaCircular color="var(--text-faint)" />
+                  Toca para ver la explicación
+                </div>
+              </>
+            ) : (
+              <>
+                <div className="repaso-badges">
+                  <span className="repaso-badge-nivel">
+                    {modulo.categorias?.[tarjeta.competencia_asociada] ?? tarjeta.competencia_asociada}
+                  </span>
+                </div>
+                <div className="repaso-cloze">
+                  <div className="repaso-cloze-texto">{tarjeta.pregunta}</div>
+                </div>
+                <div className="repaso-hint">
+                  <IconoFlechaCircular color="var(--text-faint)" />
+                  Toca para ver la explicación
+                </div>
+              </>
+            )
+          }
+          reverso={
+            esCloze ? (
+              <>
+                <div className="repaso-reverso-cabecera">
+                  <span className="repaso-badge-nivel repaso-badge-nivel--chico">{tarjeta.nivel_mcer}</span>
+                  <div className="repaso-reverso-oracion">
+                    {tarjeta.antes}{' '}
+                    <span className="repaso-reverso-respuesta">{tarjeta.respuesta}</span>{' '}
+                    {tarjeta.despues}
+                  </div>
+                </div>
+
+                <div>
+                  <div className="repaso-seccion-label">Regla</div>
+                  <div className="repaso-seccion-texto">
+                    <TextoConNegritas texto={tarjeta.regla} />
+                  </div>
+                </div>
+
+                <div className="repaso-ejemplo">
+                  <div className="repaso-seccion-label repaso-seccion-label--accent">Ejemplo</div>
+                  <div className="repaso-ejemplo-texto">
+                    <TextoConNegritas texto={tarjeta.ejemplo} />
+                  </div>
+                </div>
+
+                <div className="repaso-error">
+                  <span className="repaso-error-icono" />
+                  <div>
+                    <div className="repaso-seccion-label repaso-seccion-label--warn">Error común</div>
+                    <div className="repaso-error-texto">
+                      <TextoConNegritas texto={tarjeta.error_comun} />
+                    </div>
+                  </div>
+                </div>
+              </>
+            ) : (
+              <>
+                <div className="repaso-reverso-cabecera">
+                  <div className="repaso-reverso-oracion repaso-reverso-respuesta">{tarjeta.respuesta_breve}</div>
+                </div>
+
+                <div>
+                  <div className="repaso-seccion-label">Explicación</div>
+                  <div className="repaso-seccion-texto">
+                    <TextoConNegritas texto={tarjeta.explicacion} />
+                  </div>
+                </div>
+
+                <div className="repaso-ejemplo">
+                  <div className="repaso-seccion-label repaso-seccion-label--accent">Ejemplo aplicado</div>
+                  <div className="repaso-ejemplo-texto">
+                    <TextoConNegritas texto={tarjeta.ejemplo_aplicado} />
+                  </div>
+                </div>
+
+                <div className="repaso-error">
+                  <span className="repaso-error-icono" />
+                  <div>
+                    <div className="repaso-seccion-label repaso-seccion-label--warn">Error común</div>
+                    <div className="repaso-error-texto">
+                      <TextoConNegritas texto={tarjeta.error_comun} />
+                    </div>
+                  </div>
+                </div>
+              </>
+            )
           }
         />
       </div>

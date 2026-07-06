@@ -8,12 +8,12 @@ const MODOS = [
   {
     id: 'repaso',
     nombre: 'Repaso de conceptos',
-    descripcion: 'Tarjetas de vocabulario, gramática y cultura general con repetición espaciada.',
+    descripcion: 'Tarjetas de conceptos clave del módulo con repetición espaciada.',
   },
   {
     id: 'practica-parte',
-    nombre: 'Práctica por parte',
-    descripcion: 'Elige una parte (1-7) y practica sus ítems en orden aleatorio con feedback inmediato.',
+    nombre: 'Práctica por sub-categoría',
+    descripcion: 'Elige una parte o competencia y practica sus ítems en orden aleatorio con feedback inmediato.',
   },
   {
     id: 'simulacro',
@@ -28,6 +28,8 @@ export function ModuloHub({ moduloId, perfil, onCambiarPerfil, onVolver, onSelec
 
   if (cargando) return <div className="page estado-carga">Cargando módulo…</div>
   if (error) return <div className="page estado-error">No se pudo cargar el módulo: {error.message}</div>
+
+  const modos = MODOS.filter((modo) => modo.id !== 'simulacro' || modulo.soportaSimulacro)
 
   return (
     <div className="page">
@@ -49,7 +51,7 @@ export function ModuloHub({ moduloId, perfil, onCambiarPerfil, onVolver, onSelec
       </header>
 
       <main className="modos">
-        {MODOS.map((modo) => (
+        {modos.map((modo) => (
           <article key={modo.id} className="modo-tarjeta">
             <h2>{modo.nombre}</h2>
             <p>{modo.descripcion}</p>

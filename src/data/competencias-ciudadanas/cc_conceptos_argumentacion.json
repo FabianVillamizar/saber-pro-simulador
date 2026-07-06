@@ -1,0 +1,574 @@
+[
+  {
+    "id": "CC-ARG-001",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "estructura_del_argumento",
+    "pregunta": "¿Qué elementos mínimos debe tener todo argumento y cómo se distinguen entre sí?",
+    "respuesta_breve": "Todo argumento tiene al menos una premisa (una razón que se ofrece como apoyo) y una conclusión (la afirmación que esa razón pretende sostener).",
+    "explicacion": "Un **argumento** no es simplemente una opinión, sino una estructura donde una o más **premisas** ofrecen razones para aceptar una **conclusión**. La premisa responde a la pregunta '¿por qué debería creer esto?', mientras que la conclusión es la afirmación que se está defendiendo. Para identificarlas conviene buscar conectores: palabras como 'porque', 'ya que' o 'dado que' suelen introducir premisas; palabras como 'por lo tanto' o 'en consecuencia' suelen introducir la conclusión.",
+    "ejemplo_aplicado": "En el enunciado 'Como el sistema de transporte público llega tarde con frecuencia, muchos ciudadanos prefieren usar vehículo particular', la premisa es la frecuencia de retrasos, y la conclusión es la preferencia por el vehículo particular.",
+    "error_comun": "Se confunde la premisa con la conclusión cuando el orden de la frase no sigue el orden lógico (la conclusión aparece primero y la razón después); identificar los **conectores lógicos**, y no solo la posición de las frases, es lo que permite distinguir correctamente cuál elemento cumple cada función.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "CC-ARG-002",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "estructura_del_argumento",
+    "pregunta": "Cuando un argumento tiene varias premisas, ¿siempre deben sostener la conclusión en conjunto?",
+    "respuesta_breve": "No necesariamente; algunas premisas pueden sostener la conclusión de forma independiente entre sí, mientras que otras solo funcionan si se combinan con las demás.",
+    "explicacion": "En un argumento de **premisas convergentes**, cada premisa aporta un motivo independiente para aceptar la conclusión, de modo que si una fuera falsa, las otras seguirían dando algún apoyo. En un argumento de **premisas conjuntas** (o dependientes), las premisas solo tienen fuerza cuando se leen juntas, y si se elimina una, el argumento completo se derrumba porque las demás por sí solas no bastan.",
+    "ejemplo_aplicado": "'La mina generará empleo y además pagará regalías al municipio' son premisas convergentes: cada una es un motivo distinto a favor del proyecto. En cambio, 'Si se reduce la jornada laboral y además se mantiene el mismo salario, aumentará el bienestar' son premisas conjuntas: ninguna por sí sola sostiene la conclusión.",
+    "error_comun": "Se trata a todas las premisas de un argumento como si fueran igual de 'quitables', sin notar que refutar una sola premisa **conjunta** hunde todo el argumento, mientras que refutar una sola premisa **convergente** solo lo debilita parcialmente.",
+    "dificultad": "media",
+    "prereqs": [
+      "CC-ARG-001"
+    ]
+  },
+  {
+    "id": "CC-ARG-003",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "estructura_del_argumento",
+    "pregunta": "¿Qué es una conclusión intermedia dentro de una cadena de argumentos?",
+    "respuesta_breve": "Es una afirmación que funciona como conclusión de un primer razonamiento y, al mismo tiempo, como premisa de un segundo razonamiento posterior.",
+    "explicacion": "Los argumentos reales muchas veces forman una **cadena** donde el resultado de un primer argumento se usa como punto de partida del siguiente. A esa afirmación intermedia se le llama **conclusión intermedia** (o subconclusión): cumple dos papeles distintos según desde qué parte del razonamiento se la mire. Reconocer estas cadenas evita evaluar solo la premisa inicial o la conclusión final, ignorando cada eslabón.",
+    "ejemplo_aplicado": "'Como la cobertura educativa aumentó (premisa), más jóvenes terminan el bachillerato (conclusión intermedia); y como más jóvenes terminan el bachillerato, aumenta la mano de obra calificada (conclusión final)'. La afirmación sobre el bachillerato es conclusión del primer paso y premisa del segundo.",
+    "error_comun": "Se evalúa solo si la conclusión final 'suena razonable' sin revisar si cada eslabón intermedio está realmente sostenido por el anterior; un argumento puede fallar en un paso intermedio aunque la conclusión final parezca correcta a simple vista.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-ARG-001",
+      "CC-ARG-002"
+    ]
+  },
+  {
+    "id": "CC-ARG-004",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "premisas_implicitas_o_supuestos_no_explicitos",
+    "pregunta": "¿Qué es una premisa implícita y por qué el examen la evalúa con frecuencia?",
+    "respuesta_breve": "Es un supuesto que el argumento necesita para ser válido, pero que el autor no menciona explícitamente porque lo da por sentado.",
+    "explicacion": "Ningún argumento expresa todas sus premisas; muchas veces se omite una porque el autor asume que el lector la comparte. Esa premisa no dicha pero necesaria para que el razonamiento funcione es la **premisa implícita** o supuesto no explícito. Identificarla exige preguntarse: '¿qué tendría que ser verdad, aunque no se diga, para que esta conclusión se siga de esta premisa?'.",
+    "ejemplo_aplicado": "En 'Como este candidato tiene experiencia en el sector privado, sabrá manejar bien los recursos públicos del municipio', el supuesto implícito es que la experiencia privada se traslada automáticamente a una buena gestión pública, algo que el argumento nunca dice pero que necesita para sostenerse.",
+    "error_comun": "Se busca la premisa implícita como si fuera información adicional 'interesante', cuando debe ser exactamente la afirmación **mínima necesaria** para que la conclusión se siga de la premisa explícita; agregar más de lo estrictamente necesario es un error frecuente.",
+    "dificultad": "media",
+    "prereqs": [
+      "CC-ARG-001"
+    ]
+  },
+  {
+    "id": "CC-ARG-005",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "premisas_implicitas_o_supuestos_no_explicitos",
+    "pregunta": "¿Cómo se diferencia un supuesto implícito de una premisa explícita redactada de forma indirecta?",
+    "respuesta_breve": "La premisa implícita nunca aparece en el texto en ninguna forma; una premisa explícita redactada de forma indirecta sí está en el texto, aunque no use un conector lógico claro.",
+    "explicacion": "Es un error común confundir 'premisa expresada de forma indirecta' con 'premisa implícita'. Una premisa está **explícita** si sus palabras, en cualquier forma, aparecen en el texto, aunque no lleven un conector como 'porque'. Una premisa es **implícita** solo si no hay ninguna palabra del texto que la exprese, y hay que inferirla completamente desde fuera del texto.",
+    "ejemplo_aplicado": "En 'El proyecto minero cuenta con licencia ambiental; por tanto, no daña el ecosistema', la afirmación 'la licencia garantiza que no hay daño' es un supuesto implícito porque el texto nunca la menciona; distinto sería si el texto dijera explícitamente que las licencias garantizan la ausencia de daño.",
+    "error_comun": "Se marca como 'implícita' cualquier premisa que no lleve un conector lógico evidente, sin verificar si sus palabras exactas ya aparecen en alguna parte del texto; solo es implícita la que **no tiene ningún rastro textual**.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-ARG-004"
+    ]
+  },
+  {
+    "id": "CC-ARG-006",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "premisas_implicitas_o_supuestos_no_explicitos",
+    "pregunta": "¿Qué diferencia hay entre un supuesto necesario para el argumento y un dato de contexto que solo lo hace más creíble?",
+    "respuesta_breve": "El supuesto necesario es indispensable: si es falso, la conclusión deja de seguirse de la premisa; el dato de contexto solo aporta refuerzo, y su falsedad no destruye la validez del razonamiento.",
+    "explicacion": "No toda información que 'ayuda' a un argumento es un supuesto que el argumento **necesita**. Un supuesto necesario, si se niega, hace que el argumento pierda sentido lógico. Un dato de contexto adicional puede quitarse sin que el argumento colapse, porque el razonamiento no dependía estrictamente de él.",
+    "ejemplo_aplicado": "En 'Como en esta ciudad ha llovido más que en años anteriores (dato de contexto), y las alcantarillas no dan abasto con el volumen actual (supuesto necesario), se inundarán varias calles', negar el dato sobre lluvias pasadas resta fuerza descriptiva, pero negar la capacidad insuficiente de las alcantarillas hace que la conclusión deje de seguirse por completo.",
+    "error_comun": "Se identifica como 'supuesto del argumento' cualquier dato mencionado en el texto, sin distinguir cuál es realmente indispensable para que la conclusión se sostenga y cuál es solo información adicional prescindible.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-ARG-004",
+      "CC-ARG-005"
+    ]
+  },
+  {
+    "id": "CC-ARG-007",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "condiciones_necesarias_vs_suficientes",
+    "pregunta": "¿Qué diferencia hay entre una condición necesaria y una condición suficiente?",
+    "respuesta_breve": "Una condición necesaria debe cumplirse para que algo ocurra, pero por sí sola puede no bastar; una condición suficiente, si se cumple, garantiza el resultado, aunque puede no ser la única forma de lograrlo.",
+    "explicacion": "Que A sea **condición necesaria** de B significa que sin A, B no puede ocurrir (pero tener A no asegura tener B). Que A sea **condición suficiente** de B significa que con solo tener A ya se garantiza B (pero podría haber otras vías distintas de A para llegar a B también).",
+    "ejemplo_aplicado": "Tener un título profesional es condición **necesaria** para ejercer ciertas profesiones reguladas, pero no es **suficiente** por sí sola para conseguir empleo, porque también se requieren otros factores como la experiencia o las vacantes disponibles.",
+    "error_comun": "Se asume que si algo es necesario para un resultado, entonces también es suficiente para producirlo, cuando en realidad muchas condiciones necesarias son apenas un requisito mínimo entre varios que deben cumplirse conjuntamente.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CC-ARG-008",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "condiciones_necesarias_vs_suficientes",
+    "pregunta": "Si un argumento presenta una condición suficiente como si además fuera necesaria, ¿qué error se comete?",
+    "respuesta_breve": "Se asume que esa es la única vía posible para llegar al resultado, cuando en realidad podrían existir otros caminos igualmente válidos que también conducen a la misma conclusión.",
+    "explicacion": "Un error frecuente en argumentos sobre política pública es tratar una **condición suficiente** (una vía que funciona) como si fuera la **única** manera de lograr un objetivo, ignorando alternativas igualmente eficaces. Esto empobrece el análisis porque descarta soluciones distintas sin haberlas evaluado.",
+    "ejemplo_aplicado": "Afirmar que 'la única forma de reducir los accidentes de tránsito es aumentando las multas' ignora que campañas de educación vial o mejoras en la infraestructura también podrían ser condiciones suficientes alternativas.",
+    "error_comun": "Se confunde 'esta vía funciona' con 'esta es la única vía que funciona'; el argumento salta de mostrar que A produce B a concluir que B solo se produce mediante A, sin descartar realmente las demás alternativas.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-ARG-007"
+    ]
+  },
+  {
+    "id": "CC-ARG-009",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "condiciones_necesarias_vs_suficientes",
+    "pregunta": "¿Qué error se comete al negar una condición necesaria y concluir automáticamente que el resultado tampoco ocurrirá?",
+    "respuesta_breve": "Ninguno, ese razonamiento sí es válido: si A es condición necesaria de B, la ausencia de A garantiza la ausencia de B. El error aparece cuando se hace lo mismo con una condición apenas suficiente, no necesaria.",
+    "explicacion": "Si A es realmente **necesaria** para B, entonces 'no hay A' permite inferir válidamente 'no hay B'. Pero si A es solo **suficiente** (una vía entre varias) y no necesaria, negar A no permite concluir que B no ocurrirá, porque B podría producirse por otro camino distinto.",
+    "ejemplo_aplicado": "Si la vacunación infantil es condición necesaria para cierto nivel de inmunidad colectiva y una región no logra las metas de vacunación, es válido concluir que no alcanzará esa inmunidad por esa vía. Pero si solo se dice que 'aumentar subsidios agrícolas es una vía suficiente para reducir la pobreza rural', no aumentarlos no permite concluir que la pobreza no bajará, porque podría bajar por otras razones.",
+    "error_comun": "Se aplica automáticamente la regla de negar el antecedente para negar el consecuente sin verificar primero si la condición era realmente necesaria o solo suficiente; esa regla de inferencia únicamente es válida para condiciones necesarias.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-ARG-007",
+      "CC-ARG-008"
+    ]
+  },
+  {
+    "id": "CC-ARG-010",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "generalizacion_indebida_muestra_no_representativa",
+    "pregunta": "¿Qué hace que una generalización a partir de una muestra sea indebida?",
+    "respuesta_breve": "Que la muestra usada para generalizar sea demasiado pequeña, sesgada o no represente adecuadamente a la población sobre la que se quiere concluir algo.",
+    "explicacion": "Generalizar es una herramienta legítima del razonamiento, pero se vuelve indebida cuando la **muestra** no es representativa de la población total: puede ser muy pequeña, estar concentrada en un solo grupo con características particulares, o haber sido elegida de forma sesgada.",
+    "ejemplo_aplicado": "Concluir que 'los jóvenes de todo el país prefieren la bicicleta como medio de transporte' a partir de una encuesta hecha solo en un barrio universitario es una generalización indebida, porque esa muestra no representa la diversidad de contextos urbanos y rurales del país.",
+    "error_comun": "Se piensa que basta con tener 'algunos datos' para generalizar válidamente, sin evaluar si esos datos realmente reflejan la diversidad de la población sobre la que se quiere concluir algo.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CC-ARG-011",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "generalizacion_indebida_muestra_no_representativa",
+    "pregunta": "¿Por qué una muestra grande no garantiza automáticamente que una generalización sea válida?",
+    "respuesta_breve": "Porque el tamaño de la muestra no corrige un sesgo en su composición; una muestra grande pero mal seleccionada sigue sin representar a toda la población.",
+    "explicacion": "Existe la creencia de que 'mientras más datos, mejor la generalización', pero el tamaño y la **representatividad** son cosas distintas. Una muestra puede ser numéricamente grande y, aun así, estar sesgada si todos sus integrantes comparten una característica que los distingue de la población general.",
+    "ejemplo_aplicado": "Encuestar a diez mil personas sobre el uso del sistema de salud, pero hacerlo únicamente en clínicas privadas de zonas de altos ingresos, sigue produciendo una generalización indebida sobre 'cómo usan los colombianos el sistema de salud', sin importar lo grande que sea la muestra.",
+    "error_comun": "Se asocia automáticamente 'muchos datos' con 'generalización confiable', sin revisar si esos datos provienen de un segmento homogéneo que no refleja la diversidad real de la población de interés.",
+    "dificultad": "media",
+    "prereqs": [
+      "CC-ARG-010"
+    ]
+  },
+  {
+    "id": "CC-ARG-012",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "generalizacion_indebida_muestra_no_representativa",
+    "pregunta": "¿Qué diferencia hay entre generalizar indebidamente por una muestra sesgada y generalizar indebidamente por ignorar excepciones conocidas?",
+    "respuesta_breve": "En el primer caso el problema está en cómo se recogió la información; en el segundo, el argumento ya cuenta con datos que contradicen la generalización y aun así la sostiene sin ajustarla.",
+    "explicacion": "Cuando el problema es de **muestra sesgada**, el error ocurre al recolectar los datos: se toma un grupo que no representa al total. Cuando el problema es **ignorar excepciones conocidas**, el argumento ya tiene información sobre casos que no encajan en la conclusión general, pero decide generalizar de todas formas sin matizar la afirmación.",
+    "ejemplo_aplicado": "Concluir que 'todos los municipios mineros de la región tienen baja cobertura educativa' basándose en solo tres municipios visitados es un problema de muestra sesgada; mantener esa misma conclusión a pesar de que el propio informe reconoce que dos municipios mineros sí tienen alta cobertura es ignorar excepciones conocidas.",
+    "error_comun": "Se trata todo error de generalización como un problema único de 'poca información', sin distinguir si el fallo está en cómo se recolectaron los datos o en cómo se procesó la información que ya se tenía disponible, incluyendo casos contrarios.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-ARG-010",
+      "CC-ARG-011"
+    ]
+  },
+  {
+    "id": "CC-ARG-013",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "informacion_insuficiente_para_sostener_una_conclusion",
+    "pregunta": "¿Cuándo se dice que un argumento tiene información insuficiente para sostener su conclusión?",
+    "respuesta_breve": "Cuando los datos o premisas disponibles no alcanzan a justificar la fuerza o el alcance de la conclusión que se plantea, aunque las premisas mismas sean verdaderas.",
+    "explicacion": "Un argumento con **información insuficiente** puede tener premisas completamente ciertas, pero esas premisas simplemente no dicen lo suficiente para llegar a la conclusión propuesta. El problema no es la veracidad de los datos, sino su **alcance**: no cubren todos los aspectos necesarios para sostener lo que se afirma.",
+    "ejemplo_aplicado": "Afirmar que 'la construcción de la nueva vía reducirá la pobreza en la región' basándose únicamente en que generará empleos temporales durante la construcción no tiene suficiente información: falta saber qué pasará después de la obra y si esos empleos son sostenibles.",
+    "error_comun": "Se acepta una conclusión solo porque la premisa que la acompaña es verdadera, sin verificar si esa premisa realmente alcanza a cubrir todo lo que la conclusión afirma; una premisa cierta no es garantía de que sea **suficiente**.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CC-ARG-014",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "informacion_insuficiente_para_sostener_una_conclusion",
+    "pregunta": "¿Qué señal textual ayuda a reconocer que un argumento se queda corto de información, incluso si suena convincente?",
+    "respuesta_breve": "Que la conclusión use un alcance mucho más amplio (todos, siempre, nunca, garantiza) del que las premisas concretas permiten sostener.",
+    "explicacion": "Una forma práctica de detectar información insuficiente es comparar el **alcance** de las premisas con el de la conclusión. Si las premisas hablan de un caso, lugar o momento específico, pero la conclusión generaliza con palabras absolutas como 'siempre', 'todos' o 'garantiza', es señal de que la información no alcanza para sostener esa afirmación tan amplia.",
+    "ejemplo_aplicado": "Si un estudio muestra que un programa de capacitación laboral mejoró el empleo en un barrio específico durante un año, concluir que 'este tipo de programas garantiza la reducción del desempleo' excede por mucho lo que ese dato puntual permite afirmar.",
+    "error_comun": "Se acepta la conclusión porque el dato mencionado 'suena riguroso', sin fijarse en que el alcance de las palabras usadas en la conclusión (siempre, todos, nunca) excede por mucho lo que ese dato puntual permite afirmar.",
+    "dificultad": "media",
+    "prereqs": [
+      "CC-ARG-013"
+    ]
+  },
+  {
+    "id": "CC-ARG-015",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "informacion_insuficiente_para_sostener_una_conclusion",
+    "pregunta": "¿Es lo mismo decir que un argumento tiene información insuficiente que decir que sus premisas son falsas?",
+    "respuesta_breve": "No. La información insuficiente es un problema de que las premisas, aunque verdaderas, no alcanzan a sostener la conclusión; la falsedad de premisas es un problema distinto, sobre el contenido mismo de lo que se afirma.",
+    "explicacion": "Preguntarse '¿son verdaderas las premisas?' es una cosa; preguntarse '¿aunque sean verdaderas, alcanzan para sostener la conclusión?' es otra completamente diferente. Un argumento puede fallar por cualquiera de las dos razones, o por ambas a la vez.",
+    "ejemplo_aplicado": "Si alguien afirma que 'como el municipio construyó dos parques nuevos, ha resuelto el problema de espacio público para toda la ciudadanía', el dato de los parques puede ser completamente cierto, pero sigue siendo información insuficiente porque dos parques no resuelven el déficit de toda una ciudad.",
+    "error_comun": "Se responde 'la premisa es falsa' cuando en realidad la premisa es verdadera pero simplemente no basta para sostener una conclusión tan amplia; confundir estos dos tipos de problema lleva a evaluar mal dónde está la debilidad del argumento.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-ARG-013",
+      "CC-ARG-014"
+    ]
+  },
+  {
+    "id": "CC-ARG-016",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "credibilidad_y_pertinencia_de_fuentes",
+    "pregunta": "¿Qué diferencia hay entre que una fuente sea creíble y que sea pertinente para un argumento?",
+    "respuesta_breve": "La credibilidad se refiere a qué tan confiable es la fuente en general; la pertinencia se refiere a si esa fuente, aunque confiable, tiene relación directa con el tema específico que se está discutiendo.",
+    "explicacion": "Una fuente **creíble** tiene reconocimiento, rigor metodológico o experiencia reconocida en su campo. Una fuente **pertinente** es aquella cuya área de conocimiento coincide con el tema puntual del argumento. Una fuente puede ser muy creíble en su campo y, al mismo tiempo, no ser pertinente si se le usa para opinar sobre un asunto completamente distinto al suyo.",
+    "ejemplo_aplicado": "Un reconocido cardiólogo es una fuente creíble en salud cardiovascular, pero no es pertinente si se cita su opinión para respaldar una conclusión sobre política tributaria, un tema ajeno a su especialidad.",
+    "error_comun": "Se acepta automáticamente cualquier afirmación de una persona 'reconocida' o 'con títulos', sin verificar si ese reconocimiento corresponde específicamente al tema sobre el que está opinando en ese argumento particular.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CC-ARG-017",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "credibilidad_y_pertinencia_de_fuentes",
+    "pregunta": "¿Qué otros factores, además del prestigio de una fuente, afectan su credibilidad en un argumento?",
+    "respuesta_breve": "La posible existencia de un interés personal o económico en el resultado del debate, y si la información que ofrece puede verificarse de manera independiente.",
+    "explicacion": "La credibilidad no depende solo de los títulos o la reputación general de quien habla, sino también de si existe un **conflicto de interés** que podría sesgar su postura, y de si sus afirmaciones pueden ser **verificadas de forma independiente** por otras fuentes.",
+    "ejemplo_aplicado": "La opinión de una empresa minera sobre el bajo impacto ambiental de su propio proyecto es una fuente con un interés directo en el resultado, por lo que conviene contrastarla con estudios independientes antes de aceptarla sin más.",
+    "error_comun": "Se descarta automáticamente cualquier fuente que tenga algún interés en el tema, como si eso la volviera inmediatamente falsa, cuando el conflicto de interés es una razón para **contrastar** la información, no para rechazarla sin analizarla.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-ARG-016"
+    ]
+  },
+  {
+    "id": "CC-ARG-018",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "credibilidad_y_pertinencia_de_fuentes",
+    "pregunta": "¿Por qué citar muchas fuentes distintas no garantiza automáticamente que un argumento sea sólido?",
+    "respuesta_breve": "Porque si todas esas fuentes comparten el mismo sesgo, el mismo interés o se basan en los mismos datos originales, la cantidad de citas no aporta independencia real al argumento.",
+    "explicacion": "Lo que realmente aporta fuerza a un argumento es la **independencia** entre las fuentes citadas: que lleguen a conclusiones similares partiendo de datos, métodos o intereses distintos. Si varias fuentes en realidad repiten la misma información original, citarlas varias veces no multiplica la evidencia real.",
+    "ejemplo_aplicado": "Citar tres artículos de opinión que simplemente repiten, sin verificación adicional, el mismo comunicado de una empresa sobre los beneficios de un proyecto no equivale a tener tres fuentes independientes que respalden la conclusión.",
+    "error_comun": "Se cuenta el número de fuentes citadas como si fuera sinónimo de rigor, sin revisar si esas fuentes realmente ofrecen evidencia independiente o si todas provienen, en el fondo, del mismo origen o del mismo interés.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-ARG-016",
+      "CC-ARG-017"
+    ]
+  },
+  {
+    "id": "CC-ARG-019",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "coherencia_e_incoherencia_entre_enunciados",
+    "pregunta": "¿Qué significa que dos enunciados sean incoherentes entre sí?",
+    "respuesta_breve": "Que no pueden ser ambos verdaderos al mismo tiempo, porque afirmar uno implica negar, directa o indirectamente, lo que sostiene el otro.",
+    "explicacion": "La **incoherencia** ocurre cuando dos afirmaciones, tomadas juntas, generan una contradicción lógica: aceptar una obliga a rechazar la otra. Detectarla exige leer con cuidado el conjunto de un discurso, no solo cada frase por separado, porque la contradicción a veces aparece entre partes distantes de un mismo texto.",
+    "ejemplo_aplicado": "Un funcionario que primero afirma que 'el presupuesto para vivienda no alcanza para más proyectos este año' y más adelante asegura que 'se construirán el doble de viviendas que el año pasado sin aumentar el presupuesto' incurre en una incoherencia entre ambas afirmaciones.",
+    "error_comun": "Se evalúa cada frase de un discurso de forma aislada sin compararlas entre sí, dejando pasar contradicciones que solo se detectan al confrontar afirmaciones que aparecen en momentos distintos del mismo texto.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CC-ARG-020",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "coherencia_e_incoherencia_entre_enunciados",
+    "pregunta": "¿Dos enunciados que simplemente hablan de temas distintos son incoherentes entre sí?",
+    "respuesta_breve": "No. La incoherencia exige una relación lógica de contradicción entre los enunciados; dos afirmaciones sobre temas distintos, sin conexión lógica entre ellas, simplemente no son comparables, ni coherentes ni incoherentes.",
+    "explicacion": "Es un error común buscar incoherencia en cualquier par de frases que 'suenan distintas', sin verificar si en realidad existe una relación lógica entre ellas. La incoherencia requiere que ambos enunciados se refieran, directa o indirectamente, al mismo asunto y que sostenerlos juntos sea imposible.",
+    "ejemplo_aplicado": "Que un vocero diga 'el desempleo bajó este trimestre' y en otra parte mencione 'la ciudad necesita más parques' no constituye una incoherencia, porque ambas afirmaciones no están lógicamente conectadas entre sí.",
+    "error_comun": "Se marca como 'incoherente' cualquier combinación de frases que parezca desordenada o poco relacionada temáticamente, en lugar de verificar si existe una verdadera contradicción lógica entre lo que cada una afirma.",
+    "dificultad": "media",
+    "prereqs": [
+      "CC-ARG-019"
+    ]
+  },
+  {
+    "id": "CC-ARG-021",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "coherencia_e_incoherencia_entre_enunciados",
+    "pregunta": "¿Qué es la coherencia entre enunciados, más allá de la simple ausencia de contradicción?",
+    "respuesta_breve": "Es la relación de apoyo o compatibilidad mutua entre distintas afirmaciones, de modo que aceptarlas juntas resulta razonable y consistente dentro de una misma postura o argumento.",
+    "explicacion": "La **coherencia** no es solo 'no contradecirse'; también implica que las distintas partes de un argumento o discurso encajen entre sí de forma que se refuercen mutuamente, apuntando hacia una misma línea de razonamiento. Un discurso puede no tener contradicciones explícitas y, aun así, ser poco coherente si sus partes no se conectan de manera clara.",
+    "ejemplo_aplicado": "Un discurso que primero defiende una política pública por su bajo costo, y luego, sin explicar el cambio de criterio, la defiende exclusivamente por sus beneficios ambientales, no es contradictorio en sentido estricto, pero sí resulta poco coherente.",
+    "error_comun": "Se confunde 'coherente' con simplemente 'no contradictorio', sin notar que un discurso puede evitar contradicciones directas y aun así carecer de coherencia interna si sus partes no se conectan bajo un mismo hilo argumentativo.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-ARG-019",
+      "CC-ARG-020"
+    ]
+  },
+  {
+    "id": "CC-ARG-022",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "tipos_de_falacias_comunes",
+    "pregunta": "¿En qué consiste la falacia ad hominem?",
+    "respuesta_breve": "Consiste en atacar las características, la conducta o la persona de quien defiende un argumento, en lugar de refutar el contenido de lo que esa persona está afirmando.",
+    "explicacion": "La falacia **ad hominem** (del latín 'contra la persona') desvía la discusión del contenido del argumento hacia cuestionar a quien lo pronuncia. Aunque a veces es legítimo señalar un conflicto de interés real, la falacia ocurre cuando ese señalamiento reemplaza por completo el análisis de si el argumento en sí mismo es sólido.",
+    "ejemplo_aplicado": "Responder a una propuesta de reforma educativa diciendo 'no hay que hacerle caso, si ni siquiera él terminó su carrera universitaria' ataca a la persona en vez de evaluar si la propuesta tiene fundamentos razonables.",
+    "error_comun": "Se confunde señalar un conflicto de interés relevante (que sí puede ser un punto legítimo) con descalificar por completo a la persona sin haber analizado ni una sola razón del argumento que presentó.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "CC-ARG-023",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "tipos_de_falacias_comunes",
+    "pregunta": "¿En qué consiste la falacia de falsa dicotomía?",
+    "respuesta_breve": "Consiste en presentar solo dos opciones como si fueran las únicas posibles, cuando en realidad existen otras alternativas intermedias o distintas que el argumento ignora.",
+    "explicacion": "La **falsa dicotomía** reduce un problema complejo a 'o esto, o lo otro', eliminando del análisis cualquier tercera vía, matiz o combinación posible. Suele usarse para forzar al oyente a elegir entre dos opciones extremas, presentando una de ellas como obviamente inaceptable.",
+    "ejemplo_aplicado": "Afirmar que 'o se permite la minería sin ninguna restricción, o la región se queda sin ningún desarrollo económico' ignora alternativas intermedias como una minería con controles ambientales estrictos combinada con inversión en otros sectores.",
+    "error_comun": "Se acepta el marco de 'solo dos opciones' propuesto por el argumento sin cuestionar si realmente agota todas las posibilidades, cuando casi siempre existen alternativas intermedias que el argumento decide no mencionar.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CC-ARG-024",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "tipos_de_falacias_comunes",
+    "pregunta": "¿En qué consiste la falacia de generalización apresurada y en qué se distingue de una simple muestra no representativa?",
+    "respuesta_breve": "Consiste en sacar una conclusión general a partir de muy pocos casos anecdóticos, sin siquiera intentar reunir una muestra sistemática; se diferencia de la muestra no representativa en que aquí ni siquiera hay un intento de recolección de datos, solo una o dos anécdotas.",
+    "explicacion": "La **generalización apresurada** ocurre cuando alguien concluye algo sobre un grupo completo basándose en una o dos experiencias personales, sin ningún esfuerzo por reunir datos representativos. Se diferencia del problema técnico de 'muestra no representativa' (donde sí hubo un intento de recolectar datos, pero mal hecho) en que aquí el punto de partida es solamente una anécdota informal.",
+    "ejemplo_aplicado": "Concluir que 'el nuevo sistema de citas médicas en línea no sirve para nada' solo porque a una persona se le cayó la página una vez es una generalización apresurada basada en una única anécdota, sin ningún dato adicional.",
+    "error_comun": "Se trata como equivalente a un problema de muestreo estadístico, cuando la generalización apresurada, como falacia coloquial, típicamente parte de una sola anécdota informal y no de un intento fallido de recolección sistemática de datos.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CC-ARG-025",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "tipos_de_falacias_comunes",
+    "pregunta": "¿En qué consiste la falacia de apelación a la autoridad?",
+    "respuesta_breve": "Consiste en aceptar una afirmación como verdadera únicamente porque la dice alguien con prestigio o poder, sin evaluar si esa persona tiene competencia real en el tema específico ni si presenta razones sólidas.",
+    "explicacion": "La **apelación a la autoridad** ocurre cuando el peso de un argumento descansa exclusivamente en quién lo dice y no en las razones que ofrece. No toda mención de un experto es falaz: citar a un especialista competente en su propio campo, junto con sus razones, es legítimo. La falacia aparece cuando se invoca a una autoridad fuera de su campo de competencia.",
+    "ejemplo_aplicado": "Justificar una decisión de política económica exclusivamente porque 'lo dijo un ganador de un premio en física' apela a una autoridad que no tiene competencia específica en economía.",
+    "error_comun": "Se piensa que citar a cualquier persona con prestigio automáticamente fortalece un argumento, sin distinguir si esa persona tiene competencia específica en el tema puntual y sin exigir que además ofrezca razones verificables.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CC-ARG-026",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "tipos_de_falacias_comunes",
+    "pregunta": "¿En qué consiste la falacia de apelación a la emoción?",
+    "respuesta_breve": "Consiste en tratar de persuadir generando miedo, lástima, indignación u otra emoción intensa en el receptor, en lugar de ofrecer razones que sostengan racionalmente la conclusión.",
+    "explicacion": "La **apelación a la emoción** busca que el receptor acepte una conclusión por el impacto emocional del mensaje, no porque existan razones sólidas detrás. No es falaz mencionar el sufrimiento humano real relacionado con un problema; la falacia aparece cuando esa apelación **reemplaza por completo** cualquier razón concreta.",
+    "ejemplo_aplicado": "Presentar imágenes conmovedoras de familias afectadas para exigir la aprobación inmediata de un proyecto de vivienda, sin ofrecer ningún dato sobre su viabilidad técnica o financiera, apela a la emoción para sustituir el análisis racional.",
+    "error_comun": "Se rechaza cualquier argumento que mencione el sufrimiento humano como si automáticamente fuera falaz, cuando la falacia no está en mencionar la emoción, sino en usarla como **sustituto completo** de las razones.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CC-ARG-027",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "tipos_de_falacias_comunes",
+    "pregunta": "¿En qué consiste la falacia de la pendiente resbaladiza?",
+    "respuesta_breve": "Consiste en afirmar que una acción inicial, aparentemente moderada, desencadenará inevitablemente una cadena de consecuencias cada vez más graves, sin ofrecer evidencia real de que cada paso de esa cadena efectivamente vaya a ocurrir.",
+    "explicacion": "La **pendiente resbaladiza** presenta una sucesión de pasos hipotéticos, cada uno más extremo, como si fueran una consecuencia automática del primer paso, sin demostrar por qué cada eslabón de la cadena realmente se seguiría del anterior. No toda advertencia sobre consecuencias futuras es falaz; lo es cuando la cadena se presenta como inevitable sin ningún mecanismo causal verificable.",
+    "ejemplo_aplicado": "Argumentar que 'si se aprueba esta pequeña excepción a la norma de tránsito, pronto nadie respetará ninguna norma y el sistema vial colapsará por completo' da por hecha una cadena extrema sin mostrar por qué una excepción puntual llevaría al colapso total.",
+    "error_comun": "Se confunde señalar un riesgo real y demostrado de que una medida se extienda con exagerar sin evidencia una cadena de consecuencias cada vez más graves; el criterio para distinguirlos es si cada paso tiene un mecanismo causal verificable o es solo una suposición alarmista.",
+    "dificultad": "alta",
+    "prereqs": []
+  },
+  {
+    "id": "CC-ARG-028",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "tipos_de_falacias_comunes",
+    "pregunta": "¿En qué consiste la falacia de circularidad (o petición de principio)?",
+    "respuesta_breve": "Consiste en usar la propia conclusión, formulada con otras palabras, como si fuera una premisa que la sostiene, de modo que el argumento en realidad no avanza ninguna razón nueva.",
+    "explicacion": "Un argumento **circular** parece tener una premisa y una conclusión, pero en el fondo la premisa es simplemente una repetición disfrazada de la conclusión, sin aportar ninguna razón independiente. Detectar esta falacia exige preguntarse si, al quitarle las palabras distintas, la premisa dice exactamente lo mismo que se quiere demostrar.",
+    "ejemplo_aplicado": "Afirmar que 'esta política es justa porque trata a todos los ciudadanos de manera equitativa' es circular si 'justa' y 'equitativa' se usan aquí como sinónimos, de modo que la premisa simplemente repite la conclusión con otra palabra.",
+    "error_comun": "Se acepta el argumento porque suena estructurado (tiene una premisa y una conclusión conectadas por 'porque'), sin notar que la premisa no aporta ninguna información nueva respecto a lo que la conclusión ya afirmaba.",
+    "dificultad": "alta",
+    "prereqs": []
+  },
+  {
+    "id": "CC-ARG-029",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "tipos_de_falacias_comunes",
+    "pregunta": "¿En qué consiste la falacia del hombre de paja?",
+    "respuesta_breve": "Consiste en distorsionar o simplificar exageradamente la postura de un oponente para volverla más fácil de refutar, y luego atacar esa versión distorsionada como si fuera la posición original.",
+    "explicacion": "La falacia del **hombre de paja** construye una versión debilitada o caricaturizada del argumento contrario, mucho más fácil de derribar que la postura real, y presenta esa refutación como si hubiera respondido al argumento original. El resultado es que la posición auténtica del oponente nunca fue realmente cuestionada.",
+    "ejemplo_aplicado": "Si alguien propone regular ciertas emisiones industriales de forma gradual, y un opositor responde 'quieren cerrar todas las fábricas del país y dejar a miles sin empleo', está atacando una versión exagerada de la propuesta original.",
+    "error_comun": "Se confunde con una crítica legítima a una postura real, cuando en realidad el argumento nunca refutó la propuesta tal como fue formulada, sino una versión mucho más extrema que el opositor inventó para que fuera más fácil de derribar.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CC-ARG-030",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "tipos_de_falacias_comunes",
+    "pregunta": "¿Cómo se diferencian la falacia ad hominem y la apelación a la autoridad, si ambas giran en torno a la persona que habla y no al contenido de lo que dice?",
+    "respuesta_breve": "El ad hominem descalifica una afirmación atacando negativamente a quien la dice; la apelación a la autoridad respalda una afirmación apoyándose positivamente en el prestigio de quien la dice; ambas comparten el error de mirar a la persona en vez del argumento, pero en direcciones opuestas.",
+    "explicacion": "Estas dos falacias comparten la misma raíz lógica: **evaluar quién habla en vez de evaluar qué se dice**. La diferencia está en el sentido de esa evaluación. El ad hominem usa un rasgo negativo de la persona para **rechazar** su afirmación. La apelación a la autoridad usa un rasgo positivo (prestigio, cargo, títulos) para **aceptar** su afirmación sin más análisis.",
+    "ejemplo_aplicado": "Rechazar una propuesta de salud pública diciendo 'no le crean, tiene antecedentes por corrupción' es ad hominem; aceptar esa misma propuesta solo porque 'la avaló un funcionario muy respetado' es apelación a la autoridad; ninguna analiza si la propuesta en sí misma tiene fundamentos sólidos.",
+    "error_comun": "Se piensa que solo una de las dos direcciones (atacar o alabar a la persona) constituye una falacia, cuando ambas comparten el mismo defecto de fondo: sustituir el análisis del argumento por un juicio sobre quién lo pronuncia.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-ARG-022",
+      "CC-ARG-025"
+    ]
+  },
+  {
+    "id": "CC-ARG-031",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "tipos_de_falacias_comunes",
+    "pregunta": "¿Qué tienen en común la falsa dicotomía y el hombre de paja, y en qué se diferencian?",
+    "respuesta_breve": "Ambas distorsionan el terreno de discusión para favorecer una postura; la falsa dicotomía elimina opciones intermedias entre dos extremos, mientras que el hombre de paja no elimina opciones, sino que deforma la posición específica del oponente.",
+    "explicacion": "Estas dos falacias suelen aparecer juntas en debates polarizados porque ambas simplifican indebidamente el panorama disponible. La **falsa dicotomía** actúa sobre las **opciones de solución** a un problema, reduciéndolas artificialmente a solo dos. El **hombre de paja** actúa sobre la **postura del oponente**, exagerándola o deformándola.",
+    "ejemplo_aplicado": "Decir que 'hay que elegir entre minería sin ninguna regulación o pobreza total en la región' es una falsa dicotomía sobre las opciones de política; decir que 'quienes piden regulación ambiental en realidad quieren prohibir toda actividad económica' es un hombre de paja sobre esa postura.",
+    "error_comun": "Se identifican como la misma falacia porque ambas 'simplifican' el debate, sin notar que una reduce las **alternativas de solución** disponibles y la otra distorsiona la **posición** de un interlocutor específico.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-ARG-023",
+      "CC-ARG-029"
+    ]
+  },
+  {
+    "id": "CC-ARG-032",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "refutar_vs_sustentar_un_argumento",
+    "pregunta": "¿Qué diferencia hay entre sustentar un argumento y refutarlo?",
+    "respuesta_breve": "Sustentar consiste en ofrecer razones adicionales que refuerzan una conclusión ya planteada; refutar consiste en presentar razones que muestran que esa conclusión, o alguna de sus premisas, es incorrecta o insuficiente.",
+    "explicacion": "**Sustentar** un argumento significa sumar apoyo adicional a una conclusión, ya sea con nuevas premisas, ejemplos o datos que la refuercen. **Refutar** un argumento significa lo contrario: mostrar que alguna premisa es falsa, que la conclusión no se sigue lógicamente de las premisas, o que existe un contraejemplo que la contradice. Un mismo dato nuevo puede funcionar como sustento o como refutación según si apoya o contradice la conclusión original.",
+    "ejemplo_aplicado": "Si el argumento original es que 'el nuevo horario escolar mejora el rendimiento académico', un dato que muestre resultados más altos después del cambio lo **sustenta**; un dato que muestre que el rendimiento se mantuvo igual o bajó lo **refuta**.",
+    "error_comun": "Se asume que cualquier información adicional relacionada con el tema automáticamente sustenta el argumento original, sin verificar si esa información en realidad apunta en la dirección contraria y funciona como refutación.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "CC-ARG-033",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "refutar_vs_sustentar_un_argumento",
+    "pregunta": "¿Es necesario refutar todas las premisas de un argumento para refutar su conclusión?",
+    "respuesta_breve": "No siempre; basta con refutar una sola premisa que sea indispensable (necesaria) para que la conclusión se sostenga, aunque las demás premisas sigan siendo verdaderas.",
+    "explicacion": "Si el argumento depende de **premisas conjuntas** (donde todas deben ser verdaderas a la vez), basta con mostrar que una sola es falsa o dudosa para debilitar toda la conclusión. En cambio, si el argumento tiene **premisas convergentes** (cada una apoya la conclusión de forma independiente), refutar solo una de ellas no elimina el apoyo que ofrecen las demás.",
+    "ejemplo_aplicado": "Si el argumento sostiene que un proyecto es viable porque cuenta con financiación asegurada y con licencias ambientales aprobadas (premisas convergentes), refutar solo la financiación no elimina el apoyo que sigue ofreciendo la licencia ambiental; habría que refutar ambas para invalidar completamente la conclusión.",
+    "error_comun": "Se asume que refutar cualquier premisa del argumento automáticamente invalida toda la conclusión, sin distinguir si esa premisa era indispensable (conjunta) o solo un apoyo adicional entre varios (convergente).",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-ARG-032",
+      "CC-ARG-002"
+    ]
+  },
+  {
+    "id": "CC-ARG-034",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "refutar_vs_sustentar_un_argumento",
+    "pregunta": "¿Refutar la conclusión de un argumento es lo mismo que demostrar que la conclusión es falsa?",
+    "respuesta_breve": "No necesariamente; refutar un argumento demuestra que ese argumento en particular no logra sostener su conclusión, pero la conclusión podría seguir siendo verdadera por otras razones distintas.",
+    "explicacion": "Refutar un argumento ataca la **relación lógica** entre sus premisas y su conclusión, o la veracidad de sus premisas; esto no equivale automáticamente a probar que la conclusión misma sea falsa. Es posible que una conclusión verdadera esté sostenida por un argumento débil; refutar ese argumento específico solo muestra que esa vía particular de justificación no funciona.",
+    "ejemplo_aplicado": "Si alguien argumenta que 'se debe invertir más en salud pública porque así lo hizo un país vecino con éxito' y se refuta esa comparación por diferencias estructurales entre ambos países, la conclusión sobre invertir más en salud pública podría seguir siendo acertada por razones completamente distintas.",
+    "error_comun": "Se asume que refutar un argumento equivale a demostrar que su conclusión es falsa, cuando en realidad solo demuestra que **ese razonamiento específico** no logra sostenerla; la conclusión podría defenderse válidamente con otro argumento distinto.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-ARG-032",
+      "CC-ARG-033"
+    ]
+  },
+  {
+    "id": "CC-ARG-035",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "funcion_de_los_contraejemplos",
+    "pregunta": "¿Qué es un contraejemplo y qué función cumple frente a una generalización?",
+    "respuesta_breve": "Es un caso concreto que cumple con las condiciones descritas por una generalización, pero que no cumple con lo que esa generalización afirma, mostrando así que la afirmación general no es universalmente cierta.",
+    "explicacion": "Un **contraejemplo** es la herramienta más directa para refutar una afirmación general del tipo 'todos los X son Y' o 'siempre que ocurre X, ocurre Y': basta con encontrar un solo caso real de X que no sea Y para mostrar que la generalización, tal como está formulada, es falsa. No hace falta refutar cada caso; con uno solo que contradiga la regla, la afirmación absoluta queda invalidada.",
+    "ejemplo_aplicado": "Frente a la afirmación 'todo aumento del salario mínimo reduce el empleo formal', un solo caso histórico documentado donde el empleo formal se mantuvo o aumentó tras un incremento salarial funciona como contraejemplo que invalida la generalización absoluta.",
+    "error_comun": "Se cree que un contraejemplo debe representar la mayoría de los casos para tener valor, cuando su fuerza lógica frente a una afirmación absoluta ('todos', 'siempre') no depende de cuántos casos represente, sino de que sea un caso real que contradiga la regla tal como fue formulada.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CC-ARG-036",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "funcion_de_los_contraejemplos",
+    "pregunta": "¿Un contraejemplo puede refutar una afirmación que ya reconoce excepciones (por ejemplo, 'la mayoría de los X son Y')?",
+    "respuesta_breve": "No de la misma forma directa; frente a afirmaciones que ya admiten excepciones (mayoría, generalmente, en la mayoría de los casos), un solo contraejemplo no basta, porque esas afirmaciones no niegan que existan casos distintos.",
+    "explicacion": "La fuerza de un contraejemplo depende del **alcance** de la afirmación que se quiere refutar. Frente a afirmaciones absolutas ('todos', 'siempre', 'ningún'), un solo contraejemplo real basta para invalidarlas. Frente a afirmaciones que ya reconocen excepciones ('la mayoría', 'generalmente'), un contraejemplo aislado no refuta nada, porque la afirmación ya contemplaba que existieran casos distintos.",
+    "ejemplo_aplicado": "Frente a 'en la mayoría de los municipios rurales, la cobertura de internet es baja', encontrar un solo municipio rural con buena cobertura no refuta la afirmación, porque esta ya reconocía que podían existir excepciones; habría que mostrar que esas excepciones son más comunes de lo que la afirmación sugiere.",
+    "error_comun": "Se usa un solo contraejemplo para intentar refutar afirmaciones que ya incluyen matices de cantidad (mayoría, generalmente), sin notar que ese tipo de afirmaciones no se comprometen con que **todos** los casos sean iguales.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-ARG-035"
+    ]
+  },
+  {
+    "id": "CC-ARG-037",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "funcion_de_los_contraejemplos",
+    "pregunta": "¿Qué diferencia hay entre un contraejemplo real y un caso hipotético inventado para cuestionar un argumento?",
+    "respuesta_breve": "El contraejemplo real debe corresponder a un caso que efectivamente ocurrió o que es plenamente posible dentro del contexto discutido; un caso puramente hipotético e inverosímil no tiene la misma fuerza para refutar una generalización sobre el mundo real.",
+    "explicacion": "Para refutar una generalización sobre situaciones reales (sociales, económicas, de política pública), el contraejemplo debe ser **plausible y verificable** dentro de ese mismo contexto, no una situación extrema o inventada que no podría darse realmente. Un caso hipotético puede servir para explorar los límites conceptuales de un argumento, pero tiene un peso distinto al de un contraejemplo documentado.",
+    "ejemplo_aplicado": "Frente a 'todo programa de subsidios de vivienda reduce el déficit habitacional', citar un programa real y documentado que no logró reducirlo es un contraejemplo sólido; inventar un escenario extremo sobre un país imaginario tiene mucho menos peso para refutar una afirmación sobre política pública real.",
+    "error_comun": "Se acepta cualquier escenario imaginado como si tuviera el mismo peso que un caso documentado, sin distinguir que la fuerza de un contraejemplo frente a generalizaciones sobre el mundo real depende de que sea un caso plausible y verificable, no solo lógicamente posible.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-ARG-035",
+      "CC-ARG-036"
+    ]
+  }
+]

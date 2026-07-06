@@ -17,6 +17,21 @@ function etiquetaParte(preguntasDeParte) {
   return tipos.map((t) => t.replaceAll('_', ' ')).join(' / ')
 }
 
+// Sin `categorias` (Inglés): claves numéricas 1-7, orden numérico, "Parte N".
+// Con `categorias` (Competencias Ciudadanas): claves string, orden y
+// etiqueta explícitos en indiceModulos.js.
+function ordenarClaves(claves, categorias) {
+  if (categorias) {
+    const orden = Object.keys(categorias)
+    return [...claves].sort((a, b) => orden.indexOf(a) - orden.indexOf(b))
+  }
+  return claves.map(Number).sort((a, b) => a - b)
+}
+
+function etiquetaCategoria(clave, categorias) {
+  return categorias?.[clave] ?? `Parte ${clave}`
+}
+
 function contarPorGrupo(preguntas) {
   const conteo = {}
   for (const p of preguntas) conteo[p.grupoId] = (conteo[p.grupoId] ?? 0) + 1
@@ -78,13 +93,14 @@ export function PracticaPorParte({ moduloId, perfil, onCambiarPerfil, onVolver }
     setRespondida(false)
   }
 
+  const categorias = modulo.categorias
+  const tituloPractica = categorias ? 'Práctica por sub-categoría' : 'Práctica por parte'
+
   // Pantalla 1: elegir parte
   if (parteSeleccionada === null) {
     const porParte = {}
     for (const p of modulo.preguntas) (porParte[p.parte] ??= []).push(p)
-    const partes = Object.keys(porParte)
-      .map(Number)
-      .sort((a, b) => a - b)
+    const partes = ordenarClaves(Object.keys(porParte), categorias)
 
     return (
       <div className="page">
@@ -96,8 +112,12 @@ export function PracticaPorParte({ moduloId, perfil, onCambiarPerfil, onVolver }
           <SelectorPerfil perfil={perfil} onClick={onCambiarPerfil} />
           <ThemeToggle dark={dark} onToggle={toggle} />
         </div>
-        <h1>Práctica por parte</h1>
-        <p className="practica-subtitulo">Elige una parte para practicar sus ítems en orden aleatorio.</p>
+        <h1>{tituloPractica}</h1>
+        <p className="practica-subtitulo">
+          {categorias
+            ? 'Elige una competencia para practicar sus ítems en orden aleatorio.'
+            : 'Elige una parte para practicar sus ítems en orden aleatorio.'}
+        </p>
         <div className="partes-grid">
           {partes.map((parte) => (
             <button
@@ -106,8 +126,8 @@ export function PracticaPorParte({ moduloId, perfil, onCambiarPerfil, onVolver }
               className="parte-tarjeta"
               onClick={() => elegirParte(parte, porParte[parte])}
             >
-              <span className="parte-numero">Parte {parte}</span>
-              <span className="parte-etiqueta">{etiquetaParte(porParte[parte])}</span>
+              <span className="parte-numero">{etiquetaCategoria(parte, categorias)}</span>
+              {!categorias && <span className="parte-etiqueta">{etiquetaParte(porParte[parte])}</span>}
               <span className="parte-conteo">{porParte[parte].length} preguntas</span>
             </button>
           ))}
@@ -122,14 +142,14 @@ export function PracticaPorParte({ moduloId, perfil, onCambiarPerfil, onVolver }
       <div className="page">
         <div className="barra-superior">
           <button type="button" className="boton-volver" onClick={() => setParteSeleccionada(null)}>
-            ← Elegir otra parte
+            ← Elegir otra {categorias ? 'competencia' : 'parte'}
           </button>
           <div style={{ flex: 1 }} />
           <SelectorPerfil perfil={perfil} onClick={onCambiarPerfil} />
           <ThemeToggle dark={dark} onToggle={toggle} />
         </div>
         <div className="practica-fin">
-          <h2>Completaste la Parte {parteSeleccionada}</h2>
+          <h2>Completaste {categorias ? etiquetaCategoria(parteSeleccionada, categorias) : `la Parte ${parteSeleccionada}`}</h2>
           <p>
             {aciertosPrimerIntento} de {totalInicial} correctas al primer intento.
           </p>
@@ -148,7 +168,7 @@ export function PracticaPorParte({ moduloId, perfil, onCambiarPerfil, onVolver }
     <div className="page">
       <div className="barra-superior">
         <button type="button" className="boton-volver" onClick={() => setParteSeleccionada(null)}>
-          ← Elegir otra parte
+          ← Elegir otra {categorias ? 'competencia' : 'parte'}
         </button>
         <span className="practica-progreso">
           {dominadas}/{totalInicial} dominadas · {cola.length} en cola

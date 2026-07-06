@@ -1,4 +1,5 @@
 import { adaptersIngles } from '../modulos/ingles/adapters.js'
+import { adaptersCompetenciasCiudadanas } from '../modulos/competencias-ciudadanas/adapters.js'
 
 // Índice central de módulos del examen. Agregar un módulo nuevo es:
 //   1. Copiar sus JSON a src/data/<id>/.
@@ -13,6 +14,7 @@ export const indiceModulos = {
     monograma: 'IN',
     descripcion: 'Comprensión lectora y uso del idioma, niveles A1–B2.',
     disponible: true,
+    soportaSimulacro: true,
     adapters: adaptersIngles,
   },
   'razonamiento-cuantitativo': {
@@ -36,8 +38,23 @@ export const indiceModulos = {
     nombre: 'Competencias Ciudadanas',
     monograma: 'CC',
     descripcion: 'Convivencia, participación y pensamiento sistémico.',
-    disponible: false,
-    adapters: {},
+    disponible: true,
+    // Sin distribución de simulacro definida todavía (ver
+    // saber_pro_resultado_scope en memoria): la práctica por sub-categoría
+    // y el repaso de conceptos sí usan datos reales, pero "Simulacro
+    // completo" se queda oculto para este módulo hasta que se diseñe su
+    // propia proporción de preguntas y escala de resultado.
+    soportaSimulacro: false,
+    // Orden y etiqueta de despliegue de cada sub-categoría (`pregunta.parte`
+    // en las preguntas normalizadas). Un módulo sin `categorias` (Inglés)
+    // cae al comportamiento numérico "Parte N" de siempre.
+    categorias: {
+      conocimientos: 'Conocimientos',
+      argumentacion: 'Argumentación',
+      multiperspectivismo: 'Multiperspectivismo',
+      pensamiento_sistemico: 'Pensamiento Sistémico',
+    },
+    adapters: adaptersCompetenciasCiudadanas,
   },
   'comunicacion-escrita': {
     id: 'comunicacion-escrita',

@@ -37,6 +37,7 @@ export function Home({ perfil, onCambiarPerfil, onAbrirModulo, onIrADirecto, onI
   const { dark, toggle } = useTheme()
   const [mounted, setMounted] = useState(false)
   const { modulo: ingles } = useModulo('ingles')
+  const { modulo: competenciasCiudadanas } = useModulo('competencias-ciudadanas')
 
   useEffect(() => {
     const id = requestAnimationFrame(() => requestAnimationFrame(() => setMounted(true)))
@@ -49,18 +50,27 @@ export function Home({ perfil, onCambiarPerfil, onAbrirModulo, onIrADirecto, onI
   const daysToExam = diferenciaDias(new Date(), FECHA_EXAMEN)
 
   const estadosSRS = leerJSON(claveSRS(perfil.id, 'ingles'), {})
-  const dominioIngles = ingles ? calcularDominio(ingles.tarjetasConcepto, estadosSRS) : null
   const pendientesIngles = ingles
     ? ingles.tarjetasConcepto.filter((t) => estaLista(estadosSRS[t.id])).length
     : 0
   const ultimaRevision = etiquetaRelativa(ultimaRevisionDe(estadosSRS))
 
+  // Dominio real por módulo cargado (solo Inglés y Competencias Ciudadanas
+  // tienen datos hoy); los módulos aún sin datos se quedan en `disponible:
+  // false` y no aparecen aquí.
+  const modulosCargados = { ingles, 'competencias-ciudadanas': competenciasCiudadanas }
+  const dominioPorModulo = {}
+  for (const [id, mod] of Object.entries(modulosCargados)) {
+    if (!mod) continue
+    const estados = id === 'ingles' ? estadosSRS : leerJSON(claveSRS(perfil.id, id), {})
+    dominioPorModulo[id] = calcularDominio(mod.tarjetasConcepto, estados)
+  }
+
   const modulos = listarModulos()
   const disponibles = modulos.filter((m) => m.disponible)
   const overallAvg = disponibles.length
     ? Math.round(
-        disponibles.reduce((suma, m) => suma + (m.id === 'ingles' ? (dominioIngles?.pct ?? 0) : 0), 0) /
-          disponibles.length
+        disponibles.reduce((suma, m) => suma + (dominioPorModulo[m.id]?.pct ?? 0), 0) / disponibles.length
       )
     : 0
 
@@ -139,8 +149,8 @@ export function Home({ perfil, onCambiarPerfil, onAbrirModulo, onIrADirecto, onI
 
         <div className="dashboard-modulos-grid">
           {modulos.map((m) => {
-            const esIngles = m.id === 'ingles'
-            const pct = esIngles ? (dominioIngles?.pct ?? 0) : 0
+            const dominio = dominioPorModulo[m.id]
+            const pct = dominio?.pct ?? 0
             return (
               <article
                 key={m.id}
@@ -152,7 +162,7 @@ export function Home({ perfil, onCambiarPerfil, onAbrirModulo, onIrADirecto, onI
                   <div className="modulo-tarjeta-nombre">{m.nombre}</div>
                   <div className="modulo-tarjeta-meta">
                     {m.disponible
-                      ? `${dominioIngles?.hechas ?? 0}/${dominioIngles?.total ?? 0} tarjetas${ultimaRevision ? ` · ${ultimaRevision}` : ''}`
+                      ? `${dominio?.hechas ?? 0}/${dominio?.total ?? 0} tarjetas${m.id === 'ingles' && ultimaRevision ? ` · ${ultimaRevision}` : ''}`
                       : 'Próximamente'}
                   </div>
                 </div>

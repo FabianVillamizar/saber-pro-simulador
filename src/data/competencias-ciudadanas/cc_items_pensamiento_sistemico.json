@@ -1,0 +1,849 @@
+[
+  {
+    "id": "CC-GRUPO-071",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "medio_ambiente",
+    "situacion": "Un municipio costero enfrenta la erosión acelerada de su playa principal, que sostiene tanto la pesca artesanal como el turismo local. El concejo debate construir un rompeolas de concreto que detendría la erosión de inmediato, pero que, según un estudio técnico, alteraría las corrientes marinas de forma que reduciría la disponibilidad de ciertas especies de peces en la zona donde pescan los artesanos, sin afectar de ninguna manera el flujo de visitantes turísticos que llegan principalmente por la playa y no por la actividad pesquera.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-091",
+        "competencia": "pensamiento_sistemico",
+        "bloque": "dimensiones_de_un_problema_con_ejemplos_que_las_distingan",
+        "enunciado": "En esta situación, ¿cuáles aspectos están en conflicto?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "La protección física de la playa mediante el rompeolas y la disponibilidad de peces para la pesca artesanal.",
+          "B": "La actividad turística de la zona y la actividad pesquera artesanal, ya que ambas dependen exactamente de los mismos recursos naturales de la playa.",
+          "C": "El presupuesto del concejo municipal para la obra y el presupuesto destinado a programas culturales de la comunidad costera.",
+          "D": "El turismo local y la construcción del rompeolas, ya que un rompeolas de concreto necesariamente reduce el atractivo estético de cualquier playa para los visitantes."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El conflicto central, según lo descrito, es entre detener la erosión con el rompeolas y el efecto colateral sobre las corrientes marinas que reduce la pesca artesanal; estas son las dos dimensiones que la situación presenta en tensión directa.",
+        "distractores": {
+          "B": {
+            "explicacion": "La situación aclara expresamente que el turismo depende de la playa, no de la actividad pesquera, y que el flujo de turistas no se vería afectado por el cambio en las corrientes; presentar estas dos actividades como si estuvieran en conflicto directo no corresponde a lo que describe el caso.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "La situación no menciona en ningún momento programas culturales ni una disputa presupuestal entre distintos rubros; esta opción introduce una tensión que el caso no describe en absoluto.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "D": {
+            "explicacion": "El caso no menciona ningún efecto del rompeolas sobre el atractivo turístico; de hecho, describe que la obra detendría la erosión sin afectar el flujo de visitantes, por lo que suponer una tensión entre el rompeolas y el turismo no está respaldado por la información dada.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-072",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "politica_e_instituciones",
+    "situacion": "Un municipio decide digitalizar completamente el proceso de solicitud de subsidios de vivienda, eliminando el trámite presencial. La medida reduce significativamente el tiempo de respuesta administrativo y los costos de operación de la oficina encargada, pero excluye de facto a un grupo de adultos mayores del municipio que no tienen acceso ni manejo de herramientas digitales, sin que la nueva plataforma incluya ningún canal alternativo para ellos.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-092",
+        "competencia": "pensamiento_sistemico",
+        "bloque": "dimensiones_de_un_problema_con_ejemplos_que_las_distingan",
+        "enunciado": "¿Cuáles aspectos están en conflicto en esta situación?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "La eficiencia administrativa y la seguridad de la información personal de los solicitantes, ya que toda plataforma digital pone en riesgo automáticamente los datos personales.",
+          "B": "La eficiencia administrativa lograda con la digitalización y el acceso efectivo al trámite para los adultos mayores sin herramientas digitales.",
+          "C": "El acceso de los adultos mayores al trámite y el acceso de los jóvenes al mismo trámite, ya que ambos grupos compiten por los mismos recursos limitados del programa de subsidios.",
+          "D": "El costo de operación de la oficina municipal y el costo de mantenimiento técnico de la nueva plataforma digital, que resultan ser exactamente iguales según el caso."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El conflicto central es entre la ganancia en eficiencia y reducción de costos que trae la digitalización, y la exclusión efectiva de un grupo social específico (adultos mayores sin acceso digital) que la plataforma no contempla; estas son las dos dimensiones en tensión directa según la situación.",
+        "distractores": {
+          "A": {
+            "explicacion": "La situación no menciona ningún problema de seguridad de datos ni una filtración de información; introducir esta tensión no corresponde a lo que el caso efectivamente describe, que se centra en la exclusión de adultos mayores.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "C": {
+            "explicacion": "La situación no describe ninguna competencia entre distintos grupos etarios por recursos limitados del programa; el conflicto identificado es entre la eficiencia de la plataforma y la exclusión de un grupo específico, no entre dos grupos de solicitantes.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "La situación no ofrece ninguna comparación de costos entre la oficina presencial y el mantenimiento de la plataforma; esta opción introduce una comparación de costos que el caso no describe ni permite verificar.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-073",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "educacion",
+    "situacion": "Un colegio decide extender el calendario escolar dos semanas adicionales al final del año para compensar clases perdidas durante un paro de transporte. La medida garantiza que se complete el contenido curricular exigido, pero coincide con la temporada de cosecha en la región agrícola donde se ubica el colegio, época en la que muchas familias necesitan que sus hijos ayuden en las labores del campo.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-093",
+        "competencia": "pensamiento_sistemico",
+        "bloque": "dimensiones_de_un_problema_con_ejemplos_que_las_distingan",
+        "enunciado": "¿Cuáles aspectos están en conflicto en esta situación?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "La calidad de la infraestructura del colegio y el número de docentes disponibles para dictar las clases adicionales, que el caso describe como insuficientes.",
+          "B": "El paro de transporte que originó la pérdida de clases y las políticas nacionales de transporte público, que son responsabilidad exclusiva del Gobierno central.",
+          "C": "El cumplimiento del contenido curricular exigido mediante la extensión del calendario y la necesidad económica de las familias agrícolas de contar con la ayuda de sus hijos durante la cosecha.",
+          "D": "El contenido curricular exigido en matemáticas y el contenido curricular exigido en ciencias sociales, que compiten por las mismas horas de clase adicionales."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El conflicto identificado en el caso es entre garantizar el contenido educativo completo extendiendo el calendario, y la necesidad económica de las familias de la región durante la temporada de cosecha, que coincide justamente con esas dos semanas adicionales.",
+        "distractores": {
+          "A": {
+            "explicacion": "La situación no menciona ningún problema de infraestructura ni de disponibilidad de docentes; el conflicto que describe es entre el calendario extendido y la necesidad de mano de obra familiar durante la cosecha, no un problema de recursos escolares.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "B": {
+            "explicacion": "El caso ya superó el paro de transporte como hecho pasado que originó el problema; la tensión actual que describe la situación es entre el calendario extendido y la temporada de cosecha, no una disputa sobre políticas de transporte.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "La situación no describe ninguna competencia entre distintas materias por el tiempo de clases adicionales; el conflicto identificado es entre el calendario extendido en su conjunto y las necesidades económicas de las familias durante la cosecha.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-074",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "medio_ambiente",
+    "situacion": "Una autoridad ambiental aprueba la construcción de una pequeña central hidroeléctrica en un río de montaña, calculando que generará suficiente energía para varias veredas cercanas actualmente sin electricidad. Un año después de su construcción, los caudales del río durante la temporada seca han disminuido más de lo previsto, afectando a los agricultores que dependían de ese caudal para el riego de sus cultivos, quienes ahora enfrentan menores cosechas y, en consecuencia, menores ingresos.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-094",
+        "competencia": "pensamiento_sistemico",
+        "bloque": "relaciones_entre_dimensiones",
+        "enunciado": "¿Qué relación existe entre la dimensión ambiental (el caudal del río) y la dimensión económica (los ingresos agrícolas) en este caso?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Ninguna relación directa; la disminución del caudal y la caída de los ingresos agrícolas son dos fenómenos independientes que ocurrieron al mismo tiempo por pura coincidencia.",
+          "B": "Una relación donde la caída de los ingresos agrícolas fue la causa que llevó a la disminución del caudal del río durante la temporada seca.",
+          "C": "Una relación de doble vía, en la que la caída de los ingresos agrícolas también provocó, a su vez, una reducción adicional del caudal del río.",
+          "D": "Una relación de causa a efecto: la reducción del caudal disponible para riego, generada por la operación de la central, afectó directamente la producción agrícola y, con ello, los ingresos de los agricultores."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "La situación describe una cadena causal clara: la operación de la central redujo el caudal disponible en temporada seca, lo cual afectó el riego de los cultivos y, en consecuencia, las cosechas e ingresos de los agricultores. Es una relación de una sola dirección claramente descrita en el caso.",
+        "distractores": {
+          "A": {
+            "explicacion": "La situación describe explícitamente un mecanismo causal (la reducción del caudal usado por la central afecta el riego disponible para los cultivos), por lo que tratar ambos fenómenos como una simple coincidencia temporal ignora la relación causal que el propio caso describe.",
+            "patron_trampa": "causa_efecto_invertida"
+          },
+          "B": {
+            "explicacion": "Esta opción invierte el orden causal real descrito en la situación: primero se construyó la central y disminuyó el caudal disponible, y como consecuencia de eso cayeron los ingresos agrícolas, no al revés.",
+            "patron_trampa": "causa_efecto_invertida"
+          },
+          "C": {
+            "explicacion": "La situación no describe ningún mecanismo por el cual la caída de ingresos agrícolas afecte de vuelta el caudal del río; se trata de una relación de una sola dirección, no de un ciclo de retroalimentación.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      },
+      {
+        "id": "CC-ITEM-095",
+        "competencia": "pensamiento_sistemico",
+        "bloque": "relaciones_entre_dimensiones",
+        "enunciado": "Un año después, ¿qué otra dimensión adicional podría verse afectada como consecuencia de la caída en los ingresos agrícolas, formando una nueva cadena de efectos?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "La dimensión social de la región, si la caída de ingresos lleva a los agricultores a migrar hacia otras zonas en busca de mejores oportunidades económicas, alterando la composición y las redes comunitarias de las veredas.",
+          "B": "La dimensión política nacional, ya que una caída de ingresos agrícolas en unas pocas veredas modificaría automáticamente la política energética de todo el país.",
+          "C": "La dimensión ambiental nuevamente, ya que la caída de ingresos agrícolas necesariamente aumentaría de nuevo el caudal del río a su nivel original.",
+          "D": "Ninguna dimensión adicional se vería afectada, ya que los efectos de la construcción de la central se agotan completamente en la dimensión económica de los agricultores."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Siguiendo la cadena de relaciones entre dimensiones, una caída sostenida en los ingresos agrícolas podría desencadenar un efecto adicional en la dimensión social de la región, por ejemplo, si los agricultores afectados deciden migrar en busca de mejores oportunidades, lo cual alteraría las redes comunitarias y la composición poblacional de las veredas.",
+        "distractores": {
+          "B": {
+            "explicacion": "Esta opción exagera el alcance del efecto descrito, atribuyendo una consecuencia a nivel de política nacional a partir de un problema económico localizado en unas pocas veredas, sin ningún mecanismo que la situación describa para ese salto de escala.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "C": {
+            "explicacion": "No existe ningún mecanismo descrito por el cual una caída en los ingresos agrícolas revierta la reducción del caudal del río; esta opción inventa una relación de retorno que la situación no sustenta.",
+            "patron_trampa": "causa_efecto_invertida"
+          },
+          "D": {
+            "explicacion": "Esta opción cierra prematuramente la cadena de efectos posibles; en un análisis sistémico, una afectación económica sostenida puede desencadenar efectos adicionales en otras dimensiones, como la social, que esta opción descarta sin justificación.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-075",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "ciencia_y_sociedad",
+    "situacion": "Un país invierte fuertemente en la formación de nuevos investigadores científicos mediante becas de posgrado en el exterior. Años después, un alto porcentaje de esos investigadores decide no regresar al país al finalizar sus estudios, atraídos por mejores condiciones salariales y de infraestructura de investigación en otros países.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-096",
+        "competencia": "pensamiento_sistemico",
+        "bloque": "relaciones_entre_dimensiones",
+        "enunciado": "¿Qué relación entre dimensiones explica mejor por qué la inversión en formación científica no se tradujo en el fortalecimiento esperado de la capacidad científica nacional?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Ninguna relación entre dimensiones; los investigadores simplemente decidieron no regresar por preferencias personales que no tienen ninguna conexión con las condiciones económicas de investigación del país.",
+          "B": "La dimensión educativa depende, para traducirse en capacidad científica nacional, de que la dimensión económica e institucional ofrezca condiciones competitivas que retengan a los investigadores formados.",
+          "C": "La dimensión política es la única relevante, ya que el fenómeno se explica exclusivamente por decisiones de política migratoria de otros países que atraen a los investigadores.",
+          "D": "La formación educativa recibida en el exterior fue de mala calidad, lo cual explica por qué esos investigadores prefieren quedarse trabajando fuera del país."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El caso muestra que invertir en la dimensión educativa no garantiza por sí solo el fortalecimiento de la capacidad científica del país, porque ese resultado depende también de otra dimensión relacionada: las condiciones económicas e institucionales que determinan si esos investigadores deciden regresar. Ambas dimensiones están conectadas: sin condiciones competitivas, la inversión educativa no logra el efecto esperado.",
+        "distractores": {
+          "A": {
+            "explicacion": "La situación menciona explícitamente que la decisión de no regresar está relacionada con mejores condiciones salariales y de infraestructura de investigación en otros países, lo cual sí conecta la decisión con una dimensión económica e institucional concreta.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "C": {
+            "explicacion": "Aunque la política migratoria de otros países puede influir, la situación atribuye la decisión principalmente a las condiciones salariales y de infraestructura, que son dimensiones económicas e institucionales, no exclusivamente políticas migratorias externas.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "La situación no sugiere en ningún momento que la formación haya sido de mala calidad; al contrario, la decisión de no regresar se explica por mejores condiciones en el exterior, lo cual presupone que la formación sí fue adecuada y valorada en otros contextos.",
+            "patron_trampa": "causa_efecto_invertida"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-076",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "salud_publica",
+    "situacion": "Un programa de telemedicina para zonas rurales, que permitió reducir significativamente los tiempos de espera para consultas médicas en una región con buena cobertura de internet y electricidad estable, se replica exactamente igual en otra región rural donde el servicio eléctrico es intermitente y la señal de internet es débil en la mayoría de los caseríos.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-097",
+        "competencia": "pensamiento_sistemico",
+        "bloque": "transferibilidad_de_una_solucion_a_otro_contexto",
+        "enunciado": "¿Qué debería haberse evaluado antes de replicar este programa en la nueva región, dado lo que ocurrió en el primer caso?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Si los médicos que participarían en el programa de telemedicina en la nueva región tenían la misma especialidad que los médicos de la primera región.",
+          "B": "Si los habitantes de la nueva región estaban de acuerdo, en una consulta previa, con la implementación del programa de telemedicina.",
+          "C": "Si las condiciones de infraestructura que explicaron el éxito del programa en la primera región también estaban presentes en la nueva región antes de replicarlo exactamente igual.",
+          "D": "Nada adicional; un programa que funcionó bien en una región debe funcionar exactamente igual en cualquier otra región del país sin necesidad de ningún ajuste."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "La transferibilidad de una solución exitosa depende de que las condiciones que explicaron ese éxito se repitan en el nuevo contexto. Aquí, el programa dependía de una infraestructura específica (electricidad estable, buena señal de internet) que la nueva región no tiene, por lo que replicarlo sin ajustes ignora una condición esencial para su funcionamiento.",
+        "distractores": {
+          "A": {
+            "explicacion": "La especialidad médica de los profesionales participantes no es la condición que explica el éxito o fracaso de la transferencia del programa en este caso; el elemento crítico es la infraestructura tecnológica disponible en cada región.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "B": {
+            "explicacion": "Aunque la consulta ciudadana puede ser relevante en general, no es el elemento que la situación señala como determinante para el éxito técnico del programa; el problema central es la falta de infraestructura eléctrica y de conectividad necesaria.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "D": {
+            "explicacion": "Esta opción ignora que la transferibilidad de una solución exitosa depende de que se repitan las condiciones que explicaron ese éxito; asumir que funcionará igual sin verificar esas condiciones es precisamente el error que el caso ilustra.",
+            "patron_trampa": "generalizacion_invalida"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-077",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "educacion",
+    "situacion": "Un modelo de aulas invertidas, donde los estudiantes ven el material teórico en video en casa y usan el tiempo de clase para resolver ejercicios con apoyo del docente, mostró excelentes resultados en un colegio privado donde la mayoría de los estudiantes cuenta con computador y conexión a internet en casa. El modelo se implementa sin ningún ajuste en un colegio público donde una parte importante de los estudiantes no tiene acceso a un dispositivo propio ni a internet fuera del colegio.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-098",
+        "competencia": "pensamiento_sistemico",
+        "bloque": "transferibilidad_de_una_solucion_a_otro_contexto",
+        "enunciado": "¿Qué elemento resulta crítico evaluar antes de dar por sentado que el modelo de aulas invertidas tendrá el mismo éxito en el colegio público?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Si los docentes del colegio público tienen la misma cantidad de años de experiencia que los docentes del colegio privado donde se implementó originalmente el modelo.",
+          "B": "Si el colegio público cuenta con la misma cantidad de estudiantes por salón que el colegio privado donde el modelo tuvo éxito.",
+          "C": "Nada crítico; el modelo de aulas invertidas depende únicamente de la calidad pedagógica del docente, sin importar el acceso tecnológico de los estudiantes fuera del colegio.",
+          "D": "Si los estudiantes del colegio público tienen, o no, acceso equivalente a dispositivos e internet fuera del horario escolar, ya que ese acceso es una condición que explica el éxito del modelo en el colegio privado."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El modelo de aulas invertidas depende de que los estudiantes puedan ver el material teórico en casa, lo cual requiere acceso a dispositivos e internet fuera del colegio. Esta condición, presente en el colegio privado, no está garantizada en el colegio público, lo que hace crítico evaluarla antes de asumir que el modelo funcionará igual sin ningún ajuste.",
+        "distractores": {
+          "A": {
+            "explicacion": "La experiencia docente no es la condición que la situación señala como determinante para el funcionamiento del modelo; el elemento crítico es el acceso de los estudiantes a dispositivos e internet fuera del colegio.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "B": {
+            "explicacion": "El tamaño de los grupos no es el factor que la situación identifica como relevante para el éxito del modelo; el problema central señalado es la falta de acceso a dispositivos e internet fuera del horario escolar.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "Esta opción ignora que el modelo depende estructuralmente de que los estudiantes puedan ver el material en casa, lo cual requiere acceso tecnológico fuera del colegio; descartar esa condición como irrelevante contradice el diseño mismo del modelo descrito.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-078",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "convivencia_y_discriminacion",
+    "situacion": "Un programa de mediación comunitaria para resolver conflictos vecinales, que funcionó bien en un barrio con una fuerte tradición de organización comunitaria y líderes reconocidos por todos los residentes, se replica sin ningún ajuste en otro barrio de la misma ciudad donde la población es mucho más nueva, con alta rotación de residentes y sin ninguna estructura comunitaria consolidada.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-099",
+        "competencia": "pensamiento_sistemico",
+        "bloque": "transferibilidad_de_una_solucion_a_otro_contexto",
+        "enunciado": "¿Qué condición del primer barrio, ausente en el segundo, resulta crítica para explicar por qué el programa de mediación podría no funcionar igual en el nuevo contexto?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "La existencia de líderes comunitarios reconocidos y de una estructura organizativa consolidada, condiciones que hacían posible la mediación efectiva en el primer barrio y que no están presentes en el segundo.",
+          "B": "El tamaño físico del segundo barrio, que según la situación es mucho más grande que el primero en términos de extensión territorial.",
+          "C": "El número de conflictos vecinales reportados en cada barrio, que la situación describe como significativamente mayor en el segundo barrio que en el primero.",
+          "D": "Ninguna condición particular; un programa de mediación comunitaria exitoso debe funcionar exactamente igual en cualquier barrio de la misma ciudad, sin importar sus características sociales."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El éxito del programa de mediación comunitaria dependía de una condición estructural específica del primer barrio: la existencia de líderes reconocidos y una organización comunitaria consolidada que facilitaba la confianza necesaria para la mediación. El segundo barrio, con alta rotación de residentes y sin esa estructura, carece de la condición que explicaba el éxito original.",
+        "distractores": {
+          "B": {
+            "explicacion": "La situación no menciona ninguna diferencia relevante en el tamaño físico de los barrios; la condición crítica que describe es la ausencia de estructura comunitaria y liderazgo reconocido, no una diferencia de extensión territorial.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "C": {
+            "explicacion": "La situación no ofrece ninguna comparación sobre el número de conflictos reportados en cada barrio; el elemento crítico que sí describe es la diferencia en la estructura comunitaria y el liderazgo reconocido entre ambos contextos.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "D": {
+            "explicacion": "Esta opción ignora que la transferibilidad de una solución depende de que se repitan las condiciones que explicaron su éxito original; asumir que el programa funcionará igual sin considerar la estructura comunitaria es precisamente el error que este caso ilustra.",
+            "patron_trampa": "generalizacion_invalida"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-079",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "politica_e_instituciones",
+    "situacion": "Un Gobierno municipal implementa una política de peajes urbanos en el centro de la ciudad para reducir la congestión vehicular durante las horas pico. Tras seis meses, la congestión en el centro efectivamente disminuyó un 30%, pero el tráfico en las vías periféricas que rodean la zona de peaje aumentó considerablemente, generando nuevas congestiones en sectores que antes no las tenían.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-100",
+        "competencia": "pensamiento_sistemico",
+        "bloque": "consecuencias_deseadas_vs_no_deseadas",
+        "enunciado": "¿Cuál es la consecuencia deseada de esta política, y cuál su consecuencia no deseada?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "La consecuencia deseada es el aumento del tráfico periférico, ya que esto demuestra que más personas están usando rutas alternativas de forma voluntaria.",
+          "B": "La consecuencia deseada es la reducción del 30% en la congestión del centro; la consecuencia no deseada es el aumento del tráfico y la congestión en las vías periféricas que antes no tenían ese problema.",
+          "C": "Ambos efectos, la reducción en el centro y el aumento en la periferia, fueron consecuencias igualmente deseadas y planeadas desde el diseño original de la política.",
+          "D": "No existe ninguna consecuencia no deseada en este caso, ya que cualquier efecto posterior a una política pública debe considerarse parte de su diseño original."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "La política fue diseñada específicamente para reducir la congestión en el centro (consecuencia deseada, lograda en un 30%), pero generó un efecto adicional no buscado: el desplazamiento del tráfico hacia las vías periféricas, que ahora enfrentan una congestión que antes no tenían (consecuencia no deseada).",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta opción invierte el propósito original de la política: el objetivo declarado era reducir la congestión, no aumentar el tráfico en ninguna zona; el aumento periférico es, precisamente, un efecto no buscado.",
+            "patron_trampa": "causa_efecto_invertida"
+          },
+          "C": {
+            "explicacion": "La situación no indica que el aumento del tráfico periférico haya sido parte del diseño original de la política; se presenta como un efecto adicional que surgió después de la implementación, es decir, una consecuencia no deseada.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "D": {
+            "explicacion": "Esta opción asume que todos los efectos posteriores a una política formaban parte de su diseño, lo cual contradice la definición misma de consecuencia no deseada: un efecto que ocurre sin haber sido parte del objetivo original de la medida.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      },
+      {
+        "id": "CC-ITEM-101",
+        "competencia": "pensamiento_sistemico",
+        "bloque": "consecuencias_deseadas_vs_no_deseadas",
+        "enunciado": "¿Es correcto afirmar que esta consecuencia no deseada invalida por completo la política de peajes urbanos?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Sí, porque cualquier consecuencia no deseada de una política pública, sin importar su magnitud, es motivo suficiente para eliminarla de inmediato.",
+          "B": "No, porque en realidad no existe ninguna relación entre la política de peajes y el aumento de tráfico en las vías periféricas, que se debe a factores completamente distintos.",
+          "C": "No necesariamente, porque el análisis debe comparar la magnitud del beneficio logrado frente al costo del efecto no deseado, y explorar si existen ajustes que mitiguen ese efecto sin eliminar la política.",
+          "D": "Sí, porque una política pública solo puede considerarse exitosa si logra mejorar todas las dimensiones relacionadas con el problema sin generar ningún efecto adicional en ninguna zona."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Prácticamente toda medida con un impacto real genera algún tipo de consecuencia no deseada; el análisis riguroso no consiste en descartar la política automáticamente, sino en comparar la magnitud de los efectos y considerar ajustes complementarios antes de decidir si la política debe mantenerse, ajustarse o eliminarse.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta opción exige un estándar imposible de cumplir para cualquier política pública, ya que casi todas generan algún efecto no buscado; el análisis correcto exige comparar la magnitud de los efectos, no descartar automáticamente cualquier medida.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "B": {
+            "explicacion": "Esta opción contradice la relación causal ya establecida en la situación entre la implementación del peaje y el aumento del tráfico periférico; negar esa relación no es la razón correcta para descartar que la política deba eliminarse.",
+            "patron_trampa": "causa_efecto_invertida"
+          },
+          "D": {
+            "explicacion": "Este estándar es poco realista para evaluar políticas públicas complejas; exigir que una medida mejore todas las dimensiones sin ningún efecto adicional ignora que los tradeoffs y efectos secundarios son frecuentes y deben analizarse en su justa magnitud.",
+            "patron_trampa": "generalizacion_invalida"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-080",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "medio_ambiente",
+    "situacion": "Una autoridad ambiental prohíbe la pesca de una especie de pez en peligro de extinción durante todo el año en un lago. Un año después, la población de esa especie efectivamente se recupera, pero los pescadores artesanales que dependían de esa especie para su sustento han comenzado a intensificar la pesca de otra especie que antes capturaban en menor cantidad, generando ahora una presión excesiva sobre esta segunda especie.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-102",
+        "competencia": "pensamiento_sistemico",
+        "bloque": "consecuencias_deseadas_vs_no_deseadas",
+        "enunciado": "¿Cuál es la consecuencia no deseada de la prohibición de pesca implementada?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "La recuperación de la población de la especie protegida, ya que ese resultado nunca fue parte del objetivo original de la prohibición de pesca.",
+          "B": "La reducción en los ingresos de los pescadores artesanales durante el primer mes de la prohibición, antes de que comenzaran a pescar la segunda especie.",
+          "C": "Ninguna consecuencia no deseada; todos los efectos descritos en la situación fueron anticipados y planificados desde el diseño original de la prohibición de pesca.",
+          "D": "El aumento de la presión pesquera sobre la segunda especie, que antes no enfrentaba ese nivel de explotación, como resultado indirecto de la prohibición sobre la primera especie."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "La prohibición logró su objetivo directo: la recuperación de la especie en peligro. Sin embargo, generó un efecto adicional no buscado: los pescadores desplazaron su actividad hacia otra especie, generando una nueva presión pesquera sobre ella, que es la consecuencia no deseada de la medida.",
+        "distractores": {
+          "A": {
+            "explicacion": "La recuperación de la especie protegida es precisamente el objetivo declarado y deseado de la prohibición, no una consecuencia no deseada; esta opción invierte la naturaleza de ese resultado.",
+            "patron_trampa": "causa_efecto_invertida"
+          },
+          "B": {
+            "explicacion": "Aunque esta reducción inicial de ingresos pudo ocurrir, la situación se centra en describir el efecto posterior de desplazamiento hacia la segunda especie como la consecuencia no deseada relevante, no en una reducción de ingresos del primer mes que la situación no detalla.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "C": {
+            "explicacion": "La situación no indica que el desplazamiento hacia la segunda especie haya sido anticipado en el diseño de la prohibición; se presenta como un efecto que surgió después, lo cual es la definición misma de una consecuencia no deseada.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-081",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "salud_publica",
+    "situacion": "Un hospital implementa un sistema de citas médicas completamente en línea para reducir las filas presenciales y agilizar la asignación de turnos. Tras su implementación, el tiempo promedio de espera para conseguir una cita efectivamente se redujo, pero un grupo significativo de pacientes de edad avanzada, que no maneja bien las plataformas digitales, ha dejado de asistir a controles médicos periódicos que antes programaba de forma presencial.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-103",
+        "competencia": "pensamiento_sistemico",
+        "bloque": "consecuencias_deseadas_vs_no_deseadas",
+        "enunciado": "¿Cuál es la consecuencia no deseada de este nuevo sistema de citas médicas en línea?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "La disminución en la asistencia a controles médicos periódicos por parte de los pacientes de edad avanzada que no manejan bien las plataformas digitales.",
+          "B": "La reducción en el tiempo promedio de espera para conseguir una cita médica, ya que ese resultado nunca formó parte del objetivo original del nuevo sistema.",
+          "C": "Ninguna consecuencia no deseada relevante, ya que los pacientes de edad avanzada pueden simplemente pedirle a un familiar que les ayude a agendar la cita en línea.",
+          "D": "La consecuencia no deseada es que el hospital tuvo que contratar personal adicional para mantener la plataforma digital funcionando correctamente."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El sistema logró su objetivo declarado: reducir el tiempo promedio de espera. Sin embargo, generó un efecto adicional no buscado: la exclusión de facto de los pacientes de edad avanzada que no manejan las plataformas digitales, quienes han dejado de asistir a sus controles periódicos.",
+        "distractores": {
+          "B": {
+            "explicacion": "La reducción en el tiempo de espera es precisamente el objetivo declarado y deseado del sistema, no una consecuencia no deseada; esta opción invierte la naturaleza de ese resultado.",
+            "patron_trampa": "causa_efecto_invertida"
+          },
+          "C": {
+            "explicacion": "Esta opción minimiza el efecto real descrito en la situación asumiendo una solución que el caso no confirma que esté disponible o funcionando para todos los pacientes afectados; la situación indica que ese grupo, en la práctica, ha dejado de asistir a sus controles.",
+            "patron_trampa": "solucion_parcial"
+          },
+          "D": {
+            "explicacion": "La situación no menciona ningún problema relacionado con la contratación de personal técnico para la plataforma; el efecto no deseado que sí describe es la disminución de asistencia a controles por parte de los pacientes de edad avanzada.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-082",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "ciencia_y_sociedad",
+    "situacion": "Para reducir la deserción de estudiantes en programas de ciencias e ingeniería, una universidad implementa un programa de tutorías académicas gratuitas centrado exclusivamente en reforzar el contenido técnico de las materias más difíciles. Un año después, la deserción sigue siendo alta, y una encuesta revela que la mayoría de los estudiantes que abandonan sus estudios lo hacen principalmente por dificultades económicas para sostener sus gastos de manutención, no por dificultades académicas.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-104",
+        "competencia": "pensamiento_sistemico",
+        "bloque": "dimension_desatendida_en_una_solucion_parcial",
+        "enunciado": "¿Qué dimensión del problema de la deserción quedó desatendida por el programa de tutorías académicas?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "La dimensión académica, ya que el programa de tutorías nunca llegó a cubrir de forma completa todas las materias técnicas del programa de ciencias e ingeniería.",
+          "B": "La dimensión económica, relacionada con las dificultades de los estudiantes para sostener sus gastos de manutención, que resultó ser la causa principal de la deserción según la encuesta.",
+          "C": "La dimensión ambiental, relacionada con la falta de espacios adecuados de estudio dentro del campus universitario para los estudiantes de ciencias e ingeniería.",
+          "D": "Ninguna dimensión quedó desatendida, ya que el programa de tutorías abordó de manera integral todos los aspectos relevantes de la deserción estudiantil."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El programa de tutorías atendió exclusivamente la dimensión académica del problema, pero la encuesta reveló que la causa principal de la deserción era de naturaleza económica, una dimensión que el programa nunca contempló ni intentó resolver.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta opción señala la misma dimensión que el programa sí atendía, cuando el punto central es que la causa principal de la deserción, según la encuesta, era una dimensión distinta (la económica) que el programa nunca abordó.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "La situación no menciona ningún problema relacionado con espacios físicos de estudio; la dimensión que la encuesta identifica como determinante para la deserción es la económica, no una dimensión ambiental relacionada con infraestructura del campus.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "D": {
+            "explicacion": "Esta opción contradice directamente lo que revela la encuesta mencionada en la situación: la causa principal de la deserción era económica, una dimensión que el programa de tutorías, centrado solo en el contenido técnico, nunca atendió.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-083",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "educacion",
+    "situacion": "Para mejorar la convivencia escolar y reducir los conflictos entre estudiantes, un colegio implementa un estricto reglamento disciplinario con sanciones más severas para las peleas y el acoso escolar. Seis meses después, el número de incidentes reportados formalmente disminuyó, pero los orientadores escolares observan que los conflictos entre estudiantes siguen ocurriendo con la misma frecuencia, solo que ahora de forma más oculta y menos visible para los docentes.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-105",
+        "competencia": "pensamiento_sistemico",
+        "bloque": "dimension_desatendida_en_una_solucion_parcial",
+        "enunciado": "¿Qué dimensión del problema de convivencia escolar quedó desatendida por el nuevo reglamento disciplinario?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "La dimensión disciplinaria, ya que el nuevo reglamento no estableció sanciones lo suficientemente severas para desincentivar por completo los conflictos entre estudiantes.",
+          "B": "La dimensión económica del colegio, relacionada con el presupuesto insuficiente para contratar más personal de vigilancia durante los descansos.",
+          "C": "La dimensión social y relacional de fondo que genera los conflictos entre estudiantes, ya que el reglamento se enfocó en sancionar las conductas visibles sin atender las causas que originan las tensiones entre ellos.",
+          "D": "Ninguna dimensión quedó desatendida, ya que la disminución en el número de incidentes reportados formalmente demuestra que el problema de convivencia fue resuelto de manera integral."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El reglamento disciplinario atendió únicamente la dimensión de control y sanción de conductas visibles, pero dejó desatendida la dimensión social y relacional de fondo que explica por qué surgen los conflictos entre estudiantes; por eso los conflictos continúan, aunque ahora ocurran de forma menos visible para evitar la sanción.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta opción sugiere reforzar la misma dimensión que el reglamento ya atendía, cuando el problema central es que esa dimensión, por sí sola, no resuelve las causas de fondo que explican los conflictos.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "B": {
+            "explicacion": "La situación no menciona ningún problema relacionado con el presupuesto de vigilancia; lo que describe es que los conflictos persisten de forma menos visible, lo cual apunta a una dimensión social desatendida, no a un problema presupuestal.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "D": {
+            "explicacion": "Esta opción acepta la reducción de reportes formales como evidencia suficiente, ignorando la observación de los orientadores de que los conflictos continúan de forma oculta, lo cual sugiere que la dimensión de fondo no fue realmente resuelta.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-084",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "convivencia_y_discriminacion",
+    "situacion": "Para atender las quejas de acoso laboral por razón de género en una empresa, el área de recursos humanos organiza una capacitación obligatoria de un día sobre respeto y buen trato entre compañeros de trabajo. Meses después, las denuncias de acoso continúan en niveles similares, y una revisión posterior encuentra que ninguno de los jefes directos señalados en denuncias previas ha enfrentado ninguna consecuencia disciplinaria concreta hasta la fecha.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-106",
+        "competencia": "pensamiento_sistemico",
+        "bloque": "dimension_desatendida_en_una_solucion_parcial",
+        "enunciado": "¿Qué dimensión del problema de acoso laboral quedó desatendida por la capacitación implementada?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "La dimensión de sensibilización, ya que la capacitación debió durar más de un día para lograr un cambio de comportamiento real entre los empleados.",
+          "B": "La dimensión económica de la empresa, relacionada con el presupuesto insuficiente destinado a la organización de la capacitación sobre respeto laboral.",
+          "C": "Ninguna dimensión quedó desatendida, ya que ofrecer una capacitación sobre respeto y buen trato es, en cualquier caso, una medida suficiente para resolver el acoso laboral por razón de género.",
+          "D": "La dimensión institucional relacionada con la aplicación efectiva de consecuencias disciplinarias a quienes son señalados en denuncias, sin la cual una capacitación general resulta insuficiente para cambiar el comportamiento de quienes ya han incurrido en acoso."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "La capacitación atendió únicamente la dimensión de sensibilización general sobre el respeto en el trabajo, pero dejó desatendida la dimensión institucional de aplicar consecuencias disciplinarias reales a quienes ya habían sido señalados en denuncias previas; sin esa aplicación efectiva, la sola capacitación no logra cambiar el comportamiento de quienes incurren en acoso.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta opción sugiere reforzar la misma dimensión que la capacitación ya atendía, cuando el problema central señalado es la falta de consecuencias disciplinarias reales para quienes ya fueron denunciados, una dimensión distinta y desatendida.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "B": {
+            "explicacion": "La situación no menciona ningún problema de presupuesto relacionado con la capacitación; el problema central que describe es la falta de consecuencias disciplinarias aplicadas a los jefes señalados, no una limitación de recursos para la capacitación misma.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "C": {
+            "explicacion": "Esta opción ignora la evidencia presentada en la situación: las denuncias continúan en niveles similares y ningún jefe señalado ha enfrentado consecuencias, lo cual muestra que la capacitación, por sí sola, no fue suficiente.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-085",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "politica_e_instituciones",
+    "situacion": "Un Congreso debate reducir de cuatro a dos el número de debates legislativos obligatorios para aprobar leyes urgentes relacionadas con emergencias, con el fin de agilizar la respuesta institucional ante crisis. Los defensores de la medida argumentan que permitirá actuar con mayor rapidez; los opositores señalan que reducir los debates disminuye necesariamente el escrutinio y análisis técnico que cada proyecto recibe antes de convertirse en ley.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-107",
+        "competencia": "pensamiento_sistemico",
+        "bloque": "tradeoffs_entre_dimensiones",
+        "enunciado": "¿Qué tradeoff describe esta situación?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Un tradeoff entre la velocidad de respuesta institucional ante emergencias y el nivel de escrutinio técnico y político que recibe cada proyecto de ley antes de su aprobación.",
+          "B": "No existe ningún tradeoff real en esta situación, ya que es posible reducir el número de debates y, al mismo tiempo, mantener exactamente el mismo nivel de escrutinio técnico de cada proyecto.",
+          "C": "Un tradeoff entre el número de congresistas que participan en los debates y el presupuesto asignado al funcionamiento del Congreso durante el año legislativo.",
+          "D": "Un tradeoff entre la opinión pública favorable hacia el Congreso y la cantidad de leyes urgentes que se aprueban cada año, que son inversamente proporcionales según el caso."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Este es un ejemplo claro de tradeoff: aumentar la velocidad de respuesta (reduciendo los debates obligatorios) implica, de forma estructural, reducir el tiempo y las instancias de escrutinio técnico y político que cada proyecto recibe, sin que exista una opción que maximice ambas dimensiones al mismo tiempo con este mecanismo específico.",
+        "distractores": {
+          "B": {
+            "explicacion": "Esta opción niega la existencia de un tradeoff que la propia situación describe explícitamente: los opositores señalan que reducir los debates disminuye necesariamente el escrutinio, lo cual es precisamente la relación de tensión estructural entre ambas dimensiones.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "C": {
+            "explicacion": "La situación no menciona ninguna relación entre el número de congresistas participantes y el presupuesto del Congreso; el tradeoff que sí describe es entre la velocidad de respuesta legislativa y el nivel de escrutinio técnico de los proyectos.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "La situación no ofrece ninguna relación entre la opinión pública sobre el Congreso y la cantidad de leyes urgentes aprobadas; el tradeoff que describe es específicamente entre velocidad de aprobación y escrutinio técnico de cada proyecto.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-086",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "medio_ambiente",
+    "situacion": "Una empresa de transporte público decide aumentar la frecuencia de sus buses durante las horas pico para reducir el tiempo de espera de los usuarios. Un estudio posterior muestra que, aunque el tiempo de espera efectivamente se redujo en un 40%, el consumo total de combustible de la flota aumentó de forma proporcional, incrementando también las emisiones contaminantes generadas por el sistema de transporte durante esas horas.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-108",
+        "competencia": "pensamiento_sistemico",
+        "bloque": "tradeoffs_entre_dimensiones",
+        "enunciado": "¿Qué tradeoff queda documentado en el estudio posterior a la medida?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "No existe ningún tradeoff, ya que la reducción del tiempo de espera y el aumento de emisiones contaminantes son fenómenos completamente independientes entre sí según el estudio.",
+          "B": "Un tradeoff entre la reducción del tiempo de espera de los usuarios y el aumento medible en el consumo de combustible y las emisiones contaminantes del sistema de transporte.",
+          "C": "Un tradeoff entre el número de buses en la flota y el número de conductores contratados por la empresa de transporte, que el estudio describe como inversamente proporcionales.",
+          "D": "Un tradeoff entre las tarifas que pagan los usuarios por el servicio de transporte y las ganancias que obtiene la empresa, que resultan ser inversamente proporcionales en este caso."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El estudio documenta un tradeoff claro y medible: la mejora en la dimensión de servicio al usuario (menor tiempo de espera, reducido en un 40%) se logró a costa de un aumento proporcional en el consumo de combustible y las emisiones contaminantes, es decir, un deterioro medible en la dimensión ambiental.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta opción ignora que el propio estudio describe una relación proporcional entre el aumento de frecuencia de buses y el incremento en consumo de combustible y emisiones, lo cual es precisamente la relación que define a un tradeoff.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "El estudio mencionado en la situación no describe ninguna relación entre el número de buses y el número de conductores contratados; el tradeoff que sí documenta es entre el tiempo de espera de los usuarios y las emisiones contaminantes.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "D": {
+            "explicacion": "La situación no menciona ninguna relación entre las tarifas del servicio y las ganancias de la empresa; el tradeoff que el estudio documenta específicamente es entre el tiempo de espera reducido y el aumento en consumo de combustible y emisiones.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-087",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "salud_publica",
+    "situacion": "Un hospital decide reducir el tiempo promedio de estancia hospitalaria de sus pacientes, dando de alta más rápidamente a quienes muestran una mejoría inicial, con el fin de atender a un mayor número de pacientes con los mismos recursos disponibles. Un estudio de seguimiento encuentra que, aunque el hospital efectivamente logró atender a más pacientes por mes, la tasa de reingresos hospitalarios por complicaciones posteriores al alta aumentó de forma proporcional al acortamiento de la estancia.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-109",
+        "competencia": "pensamiento_sistemico",
+        "bloque": "tradeoffs_entre_dimensiones",
+        "enunciado": "¿Qué tradeoff queda documentado en este caso?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "No existe ningún tradeoff real, ya que el aumento en la tasa de reingresos se debe únicamente a que los pacientes no siguieron adecuadamente las recomendaciones médicas después de su alta.",
+          "B": "Un tradeoff entre el número de médicos contratados por el hospital y el número de camas disponibles en las instalaciones, que el estudio describe como inversamente relacionados.",
+          "C": "Un tradeoff entre la capacidad del hospital para atender a un mayor número de pacientes reduciendo la estancia hospitalaria, y el aumento medible en la tasa de reingresos por complicaciones posteriores al alta.",
+          "D": "Un tradeoff entre el costo total del tratamiento hospitalario y la satisfacción general de los pacientes con la atención recibida, que resultan inversamente proporcionales según el caso."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El caso documenta un tradeoff claro: acortar la estancia hospitalaria permitió atender a más pacientes con los mismos recursos, pero generó un aumento proporcional en los reingresos por complicaciones, un deterioro medible en la dimensión de calidad y seguridad del tratamiento, sin que el hospital haya logrado mejorar ambas dimensiones simultáneamente con esta medida.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta opción atribuye el aumento de reingresos exclusivamente al comportamiento de los pacientes, ignorando que el propio estudio lo relaciona proporcionalmente con el acortamiento de la estancia hospitalaria decidido por el hospital.",
+            "patron_trampa": "interes_mal_atribuido"
+          },
+          "B": {
+            "explicacion": "El estudio mencionado no describe ninguna relación entre el número de médicos contratados y el número de camas disponibles; el tradeoff que sí documenta es entre la cantidad de pacientes atendidos y la tasa de reingresos por complicaciones.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "D": {
+            "explicacion": "La situación no menciona ninguna medición de la satisfacción general de los pacientes ni del costo total del tratamiento; el tradeoff que sí documenta el estudio es entre el número de pacientes atendidos y la tasa de reingresos por complicaciones.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-088",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "politica_e_instituciones",
+    "situacion": "Un Gobierno departamental decide otorgar un subsidio temporal a las tarifas de energía eléctrica para aliviar el costo de vida de los hogares durante una crisis económica puntual. La medida reduce de inmediato el gasto mensual de miles de familias. Tres años después, el subsidio sigue vigente sin ningún criterio de finalización definido, y el departamento enfrenta un déficit fiscal creciente que ha comenzado a afectar la inversión en otros programas sociales.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-110",
+        "competencia": "pensamiento_sistemico",
+        "bloque": "escala_temporal_de_las_consecuencias",
+        "enunciado": "¿Qué distingue la consecuencia de corto plazo de la consecuencia de largo plazo de este subsidio?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Ambas consecuencias son iguales, ya que el alivio del costo de vida de las familias y el déficit fiscal ocurren exactamente al mismo tiempo y con la misma intensidad.",
+          "B": "La consecuencia de corto plazo es el déficit fiscal, mientras que la consecuencia de largo plazo es el alivio inmediato del costo de vida de las familias.",
+          "C": "No existe ninguna diferencia relevante entre el corto y el largo plazo en este caso, ya que cualquier subsidio genera siempre los mismos efectos sin importar cuánto tiempo se mantenga vigente.",
+          "D": "En el corto plazo, la consecuencia es un alivio inmediato y positivo del costo de vida de las familias; en el largo plazo, la consecuencia es un déficit fiscal creciente que termina afectando otros programas sociales del departamento."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El subsidio generó un efecto inmediato y claramente positivo en el corto plazo, pero al mantenerse sin ningún criterio de finalización, generó una consecuencia distinta y negativa en el largo plazo: un déficit fiscal creciente que ahora compromete otros programas sociales, lo cual muestra que el efecto de corto plazo no garantiza que el resultado siga siendo positivo con el paso del tiempo.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta opción ignora la diferencia temporal explícita descrita en la situación: el alivio del costo de vida ocurrió de inmediato, mientras que el déficit fiscal creciente se manifestó progresivamente a lo largo de tres años, no de forma simultánea ni con la misma intensidad desde el inicio.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "B": {
+            "explicacion": "Esta opción invierte el orden temporal real descrito en la situación: el alivio del costo de vida fue el efecto inmediato, y el déficit fiscal fue el efecto que se acumuló progresivamente después de varios años.",
+            "patron_trampa": "causa_efecto_invertida"
+          },
+          "C": {
+            "explicacion": "Esta opción generaliza de forma incorrecta que la duración de una medida no afecta sus consecuencias, cuando el caso ilustra precisamente lo contrario: mantener el subsidio sin criterio de finalización generó, con el tiempo, un efecto fiscal negativo que no era evidente en el corto plazo.",
+            "patron_trampa": "generalizacion_invalida"
+          }
+        }
+      },
+      {
+        "id": "CC-ITEM-111",
+        "competencia": "pensamiento_sistemico",
+        "bloque": "escala_temporal_de_las_consecuencias",
+        "enunciado": "¿Qué evidencia en este caso indica que la consecuencia fiscal negativa observada no fue un efecto de corto plazo ya agotado, sino una dinámica acumulativa que seguía desarrollándose?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Que el déficit fiscal se describe como 'creciente' tres años después, lo que indica que el mecanismo detrás del efecto sigue operando y acumulándose en el tiempo, en lugar de haberse agotado.",
+          "B": "Que el subsidio benefició inicialmente a miles de familias, lo cual por sí solo demuestra que su efecto fiscal ya se agotó por completo tres años después.",
+          "C": "Que el Gobierno departamental anunció públicamente su intención de mantener el subsidio de forma indefinida, lo cual por sí solo agota cualquier posibilidad de análisis adicional sobre el tema.",
+          "D": "Que otros departamentos del país han implementado subsidios similares sin ningún problema fiscal reportado hasta la fecha, lo que demuestra que este caso es una excepción aislada."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El hecho de que el déficit fiscal se describa como 'creciente' después de tres años, y no como un costo puntual ya estabilizado, indica que se trata de una dinámica acumulativa: mientras el subsidio siga vigente sin ningún criterio de finalización, el mecanismo que genera el déficit continuará operando y agravándose, en lugar de haberse agotado en un solo momento.",
+        "distractores": {
+          "B": {
+            "explicacion": "El beneficio inicial a las familias no tiene relación con si el efecto fiscal del subsidio se agotó o no; lo que indica que el efecto sigue siendo acumulativo es específicamente que el déficit se describe como creciente tres años después.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "La situación no menciona ningún anuncio público sobre mantener el subsidio de forma indefinida; el elemento relevante que sí describe es que el déficit fiscal es 'creciente', lo que indica una dinámica acumulativa aún en desarrollo.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "D": {
+            "explicacion": "La situación no ofrece ninguna comparación con otros departamentos; el análisis debe centrarse en la evidencia específica de este caso, que describe explícitamente un déficit fiscal creciente en el tiempo.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-089",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "ciencia_y_sociedad",
+    "situacion": "Un país decide invertir masivamente en la construcción de nueva infraestructura de investigación científica, esperando ver resultados de innovación tecnológica en el corto plazo. Dos años después, algunos sectores critican la inversión por no haber producido todavía patentes ni productos comerciales significativos, mientras los científicos involucrados argumentan que ese tipo de resultados suele tardar entre ocho y diez años en materializarse desde que se fortalece la infraestructura básica de investigación.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-112",
+        "competencia": "pensamiento_sistemico",
+        "bloque": "escala_temporal_de_las_consecuencias",
+        "enunciado": "¿Qué error de escala temporal estarían cometiendo los sectores que critican la inversión por no ver resultados en solo dos años?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Estarían cometiendo el error de suponer que la inversión en infraestructura científica nunca generará ningún resultado de innovación tecnológica en el futuro, sin importar cuánto tiempo pase.",
+          "B": "Estarían evaluando una consecuencia que, según los propios científicos, opera en una escala temporal de largo plazo, utilizando un criterio de corto plazo que no corresponde al tiempo real que ese tipo de resultados requiere para materializarse.",
+          "C": "Estarían cometiendo el error de comparar la inversión en infraestructura científica de su país con la de otros países que invierten menos recursos en investigación.",
+          "D": "Estarían cometiendo el error de exigir que la infraestructura de investigación beneficie exclusivamente a los mismos científicos que participaron en su construcción inicial."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El error consiste en evaluar los resultados de una inversión en infraestructura científica con una escala temporal de corto plazo (dos años), cuando los propios expertos del área indican que ese tipo de consecuencias tienen una escala temporal de largo plazo (ocho a diez años); juzgar el éxito o fracaso de la medida antes de que se cumpla esa escala temporal esperada lleva a una conclusión prematura.",
+        "distractores": {
+          "A": {
+            "explicacion": "La situación no describe que los críticos nieguen cualquier resultado futuro; lo que se describe es que critican la falta de resultados en el corto plazo, no que descarten cualquier resultado futuro en un plazo mayor.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "C": {
+            "explicacion": "La situación no menciona ninguna comparación con la inversión de otros países; el error identificado se refiere específicamente a evaluar los resultados con una escala temporal de corto plazo que no corresponde al tiempo real que ese tipo de consecuencias requiere.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "La situación no menciona ninguna disputa sobre quién debe beneficiarse directamente de la infraestructura; el error señalado es de escala temporal en la evaluación de resultados, no una disputa sobre beneficiarios directos.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-090",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "convivencia_y_discriminacion",
+    "situacion": "Una empresa implementa un programa de mentoría para promover el ascenso de mujeres a cargos directivos, tras identificar una baja representación femenina en esos cargos. Dos años después de iniciado el programa, la proporción de mujeres en cargos directivos apenas ha aumentado ligeramente, lo que lleva a algunos directivos a considerar que el programa ha fracasado y debe cancelarse.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-113",
+        "competencia": "pensamiento_sistemico",
+        "bloque": "escala_temporal_de_las_consecuencias",
+        "enunciado": "¿Qué consideración sobre la escala temporal de las consecuencias debería tenerse en cuenta antes de concluir que el programa ha fracasado?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Que la proporción de mujeres en cargos directivos jamás podrá aumentar en esta empresa, sin importar cuántos años más se mantenga el programa de mentoría.",
+          "B": "Que el programa de mentoría debería compararse con programas similares implementados en empresas de otros países para determinar si dos años es un plazo adecuado.",
+          "C": "Que los cambios en la composición de cargos directivos suelen depender de ciclos de promoción interna que toman varios años en completarse, por lo que dos años podría ser un plazo insuficiente para evaluar el efecto completo del programa de mentoría.",
+          "D": "Que el fracaso del programa se debe exclusivamente a que las mujeres participantes no se esforzaron lo suficiente por alcanzar los cargos directivos disponibles."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Los procesos de promoción a cargos directivos suelen depender de ciclos internos que pueden tomar más de dos años en completarse; concluir que el programa fracasó basándose únicamente en ese plazo corto podría ser una evaluación prematura, si el mecanismo de cambio esperado opera en una escala temporal mayor.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta opción hace una afirmación absoluta y pesimista que la situación no permite sostener; el punto central es que dos años podría ser un plazo insuficiente para evaluar el efecto completo del programa, no que el cambio sea imposible en cualquier plazo.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "B": {
+            "explicacion": "Aunque una comparación internacional podría ser útil en general, la situación no ofrece esa información ni es el punto central que se busca evaluar; lo relevante aquí es si el plazo de dos años es suficiente dado el tipo de proceso interno que se busca cambiar.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "D": {
+            "explicacion": "Esta opción atribuye el resultado a una supuesta falta de esfuerzo de las participantes, sin ningún respaldo en la situación descrita; el análisis relevante es sobre la escala temporal necesaria para que este tipo de cambios estructurales se materialicen.",
+            "patron_trampa": "interes_mal_atribuido"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  }
+]
