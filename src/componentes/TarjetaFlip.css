@@ -8,7 +8,7 @@
   position: relative;
   width: 100%;
   transform-style: preserve-3d;
-  transition: transform var(--dur-flip) cubic-bezier(0.4, 0.15, 0.2, 1);
+  transition: transform var(--dur-flip) cubic-bezier(0.4, 0.15, 0.2, 1), height 0.25s ease;
 }
 
 .tarjeta-flip-cara {
@@ -22,6 +22,7 @@
   display: flex;
   flex-direction: column;
   padding: 36px;
+  overflow-y: auto;
 }
 
 .tarjeta-flip-cara--reverso {

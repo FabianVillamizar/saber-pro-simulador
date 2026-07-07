@@ -1,26 +1,57 @@
-import { useEffect, useRef } from 'react'
+import { useLayoutEffect, useRef, useState } from 'react'
 import './TarjetaFlip.css'
+
+const ALTURA_MINIMA = 300
+// Tope de seguridad, no un límite de diseño: con esto la tarjeta crece con
+// su contenido y es la página la que hace scroll normal, en vez de atrapar
+// el contenido en una caja pequeña con su propio scroll interno.
+const ALTURA_MAXIMA = 1600
 
 // Flip 3D genérico (perspective + preserve-3d + backface-visibility)
 // usado por la Tarjeta de Repaso. La cara oculta recibe pointer-events:none
 // para que los clics no se cuelen a través de la tarjeta volteada.
-export function TarjetaFlip({ volteada, onClick, frente, reverso, alturaPx = 340 }) {
+//
+// La altura se mide del contenido real (scrollHeight) de ambas caras en
+// vez de usar un valor fijo: con tarjetas de Pensamiento Científico (visual
+// + 4 secciones en el reverso) una altura fija recortaba el contenido y
+// obligaba a hacer scroll dentro de una caja pequeña. Se usa el máximo de
+// las dos caras para que voltear no cambie la altura de la tarjeta, con un
+// tope (ALTURA_MAXIMA) y scroll de respaldo solo para el caso extremo de
+// una tarjeta excepcionalmente larga.
+export function TarjetaFlip({ volteada, onClick, frente, reverso }) {
+  const frenteRef = useRef(null)
   const reversoRef = useRef(null)
+  const [altura, setAltura] = useState(ALTURA_MINIMA)
 
-  // El reverso puede tener scroll propio (tarjetas largas, como las de
-  // Competencias Ciudadanas): al volver al frente hay que reiniciarlo, o la
-  // siguiente tarjeta aparecería con el scroll heredado de la anterior.
-  useEffect(() => {
-    if (!volteada && reversoRef.current) reversoRef.current.scrollTop = 0
+  useLayoutEffect(() => {
+    if (!volteada) {
+      if (reversoRef.current) reversoRef.current.scrollTop = 0
+      if (frenteRef.current) frenteRef.current.scrollTop = 0
+    }
   }, [volteada])
+
+  useLayoutEffect(() => {
+    function medir() {
+      const alturaFrente = frenteRef.current?.scrollHeight ?? 0
+      const alturaReverso = reversoRef.current?.scrollHeight ?? 0
+      const necesaria = Math.max(ALTURA_MINIMA, alturaFrente, alturaReverso)
+      setAltura(Math.min(necesaria, ALTURA_MAXIMA))
+    }
+
+    medir()
+    const observer = new ResizeObserver(medir)
+    if (frenteRef.current) observer.observe(frenteRef.current)
+    if (reversoRef.current) observer.observe(reversoRef.current)
+    return () => observer.disconnect()
+  }, [frente, reverso])
 
   return (
     <div className="tarjeta-flip-escenario" onClick={onClick}>
       <div
         className="tarjeta-flip-interior"
-        style={{ height: alturaPx, transform: volteada ? 'rotateY(180deg)' : 'rotateY(0deg)' }}
+        style={{ height: altura, transform: volteada ? 'rotateY(180deg)' : 'rotateY(0deg)' }}
       >
-        <div className="tarjeta-flip-cara" style={{ pointerEvents: volteada ? 'none' : 'auto' }}>
+        <div ref={frenteRef} className="tarjeta-flip-cara" style={{ pointerEvents: volteada ? 'none' : 'auto' }}>
           {frente}
         </div>
         <div
