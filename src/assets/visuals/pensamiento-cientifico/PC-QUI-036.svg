@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220">
+  <defs>
+    <marker id="flecha" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--text)" />
+    </marker>
+  </defs>
+
+  <circle cx="110" cy="110" r="14" fill="none" stroke="var(--text)" stroke-width="2" /><text x="110" y="114" fill="var(--text)" font-size="12" font-weight="700" text-anchor="middle"></text><line x1="110" y1="110" x2="58.316905856775044" y2="91.18889211708822" stroke="var(--text)" stroke-width="2" stroke-linecap="round" /><circle cx="58.316905856775044" cy="91.18889211708822" r="11" fill="none" stroke="var(--text-sub)" stroke-width="2" /><text x="58.316905856775044" y="95.18889211708822" fill="var(--text)" font-size="12" font-weight="700" text-anchor="middle">H</text><line x1="110" y1="110" x2="161.68309414322496" y2="91.18889211708822" stroke="var(--text)" stroke-width="2" stroke-linecap="round" /><circle cx="161.68309414322496" cy="91.18889211708822" r="11" fill="none" stroke="var(--text-sub)" stroke-width="2" /><text x="161.68309414322496" y="95.18889211708822" fill="var(--text)" font-size="12" font-weight="700" text-anchor="middle">H</text><circle cx="105" cy="88" r="2.2" fill="var(--warning)" /><circle cx="115" cy="88" r="2.2" fill="var(--warning)" /><circle cx="90.85867258689613" cy="93.14702225138248" r="2.2" fill="var(--warning)" /><circle cx="100.85867258689613" cy="93.14702225138248" r="2.2" fill="var(--warning)" />
+  <text x="110" y="25" fill="var(--text)" font-size="12" font-weight="700" text-anchor="middle">Dominios de electrones</text>
+  <text x="110" y="195" fill="var(--text-sub)" font-size="10" font-weight="500" text-anchor="middle">tetraédrica (4 dominios: 2 enlaces + 2 pares libres)</text>
+
+  <circle cx="300" cy="110" r="14" fill="none" stroke="var(--text)" stroke-width="2" /><text x="300" y="114" fill="var(--text)" font-size="12" font-weight="700" text-anchor="middle"></text><line x1="300" y1="110" x2="248.31690585677504" y2="91.18889211708822" stroke="var(--text)" stroke-width="2" stroke-linecap="round" /><circle cx="248.31690585677504" cy="91.18889211708822" r="11" fill="none" stroke="var(--text-sub)" stroke-width="2" /><text x="248.31690585677504" y="95.18889211708822" fill="var(--text)" font-size="12" font-weight="700" text-anchor="middle">H</text><line x1="300" y1="110" x2="351.68309414322493" y2="91.18889211708822" stroke="var(--text)" stroke-width="2" stroke-linecap="round" /><circle cx="351.68309414322493" cy="91.18889211708822" r="11" fill="none" stroke="var(--text-sub)" stroke-width="2" /><text x="351.68309414322493" y="95.18889211708822" fill="var(--text)" font-size="12" font-weight="700" text-anchor="middle">H</text>
+  <text x="300" y="25" fill="var(--text)" font-size="12" font-weight="700" text-anchor="middle">Geometría molecular</text>
+  <text x="300" y="195" fill="var(--accent)" font-size="10" font-weight="500" text-anchor="middle">angular (solo se nombran los átomos, no los pares libres)</text>
+
+</svg>

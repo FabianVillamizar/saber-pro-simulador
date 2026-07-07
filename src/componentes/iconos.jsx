@@ -66,6 +66,18 @@ export function IconoAdvertencia({ size = 18, color }) {
   )
 }
 
+export function IconoBombilla({ size = 17, color }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 18 18" style={{ flexShrink: 0 }}>
+      <circle cx="9" cy="9" r="8" fill={color} />
+      <circle cx="9" cy="7.6" r="3.4" fill="none" stroke="white" strokeWidth="1.3" />
+      <line x1="7.6" y1="11.6" x2="10.4" y2="11.6" stroke="white" strokeWidth="1.2" />
+      <line x1="7.9" y1="13.2" x2="10.1" y2="13.2" stroke="white" strokeWidth="1.1" />
+      <line x1="9" y1="4.2" x2="9" y2="3.2" stroke="white" strokeWidth="1.1" />
+    </svg>
+  )
+}
+
 export function IconoCalendario({ size = 14, color = 'currentColor' }) {
   return (
     <svg width={size} height={size} viewBox="0 0 14 14" style={{ flexShrink: 0 }}>
@@ -130,6 +142,16 @@ export function IconoX({ size = 14, color = 'currentColor' }) {
     <svg width={size} height={size} viewBox="0 0 14 14">
       <line x1="3" y1="3" x2="11" y2="11" stroke={color} strokeWidth="1.8" strokeLinecap="round" />
       <line x1="11" y1="3" x2="3" y2="11" stroke={color} strokeWidth="1.8" strokeLinecap="round" />
+    </svg>
+  )
+}
+
+export function IconoImagen({ size = 20, color = 'currentColor' }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 20 20">
+      <rect x="1.5" y="3" width="17" height="14" rx="2.5" fill="none" stroke={color} strokeWidth="1.4" />
+      <circle cx="6.5" cy="8" r="1.6" fill="none" stroke={color} strokeWidth="1.3" />
+      <path d="M2.5 14.5 L7.5 10 L11 12.8 L14 9.5 L17.5 13.5" fill="none" stroke={color} strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   )
 }

@@ -42,6 +42,7 @@ export function PracticaPorParte({ moduloId, perfil, onCambiarPerfil, onVolver }
   const { modulo, cargando, error } = useModulo(moduloId)
   const { dark, toggle } = useTheme()
   const [parteSeleccionada, setParteSeleccionada] = useState(null)
+  const [nucleoSeleccionado, setNucleoSeleccionado] = useState(null)
   const [cola, setCola] = useState(null)
   const [gruposConteo, setGruposConteo] = useState({})
   const [seleccion, setSeleccion] = useState(null)
@@ -94,12 +95,21 @@ export function PracticaPorParte({ moduloId, perfil, onCambiarPerfil, onVolver }
   }
 
   const categorias = modulo.categorias
+  const nucleos = modulo.nucleos
   const tituloPractica = categorias ? 'Práctica por sub-categoría' : 'Práctica por parte'
 
   // Pantalla 1: elegir parte
   if (parteSeleccionada === null) {
+    // Núcleo (comun / especifico_quimica en Pensamiento Científico) es un
+    // eje ortogonal a la afirmación/parte: en el examen real son bloques
+    // separados (30 preguntas núcleo común + 20 específico), así que se
+    // filtra primero por núcleo y luego se agrupa por parte, en vez de
+    // mezclar ambos ejes en una sola clave.
+    const preguntasDeNucleo = nucleoSeleccionado
+      ? modulo.preguntas.filter((p) => p.nucleo === nucleoSeleccionado)
+      : modulo.preguntas
     const porParte = {}
-    for (const p of modulo.preguntas) (porParte[p.parte] ??= []).push(p)
+    for (const p of preguntasDeNucleo) (porParte[p.parte] ??= []).push(p)
     const partes = ordenarClaves(Object.keys(porParte), categorias)
 
     return (
@@ -113,6 +123,27 @@ export function PracticaPorParte({ moduloId, perfil, onCambiarPerfil, onVolver }
           <ThemeToggle dark={dark} onToggle={toggle} />
         </div>
         <h1>{tituloPractica}</h1>
+        {nucleos && (
+          <div className="nucleo-filtro" role="group" aria-label="Filtrar por núcleo">
+            <button
+              type="button"
+              className={`nucleo-boton${nucleoSeleccionado === null ? ' nucleo-boton--activo' : ''}`}
+              onClick={() => setNucleoSeleccionado(null)}
+            >
+              Todos
+            </button>
+            {Object.entries(nucleos).map(([clave, etiqueta]) => (
+              <button
+                key={clave}
+                type="button"
+                className={`nucleo-boton${nucleoSeleccionado === clave ? ' nucleo-boton--activo' : ''}`}
+                onClick={() => setNucleoSeleccionado(clave)}
+              >
+                {etiqueta}
+              </button>
+            ))}
+          </div>
+        )}
         <p className="practica-subtitulo">
           {categorias
             ? 'Elige una competencia para practicar sus ítems en orden aleatorio.'

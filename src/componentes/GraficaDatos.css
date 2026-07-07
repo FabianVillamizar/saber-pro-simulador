@@ -1,0 +1,12 @@
+.grafica-datos {
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radio-md);
+  padding: 16px;
+  height: 220px;
+}
+
+.grafica-datos canvas {
+  width: 100% !important;
+  height: 100% !important;
+}

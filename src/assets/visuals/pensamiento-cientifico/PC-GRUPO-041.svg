@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <defs>
+    <marker id="flecha" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--text)" />
+    </marker>
+  </defs>
+
+  <circle cx="81" cy="86" r="1" fill="var(--text-faint)" />
+  <circle cx="221" cy="90" r="1" fill="var(--text-faint)" />
+  <circle cx="275" cy="159" r="1" fill="var(--text-faint)" />
+  <circle cx="5" cy="33" r="1" fill="var(--text-faint)" />
+  <circle cx="298" cy="145" r="1" fill="var(--text-faint)" />
+  <circle cx="122" cy="156" r="1" fill="var(--text-faint)" />
+  <circle cx="16" cy="62" r="1" fill="var(--text-faint)" />
+  <circle cx="95" cy="47" r="1" fill="var(--text-faint)" />
+  <circle cx="104" cy="18" r="1" fill="var(--text-faint)" />
+  <circle cx="50" cy="51" r="1" fill="var(--text-faint)" />
+  <circle cx="237" cy="25" r="1" fill="var(--text-faint)" />
+  <circle cx="280" cy="27" r="1" fill="var(--text-faint)" />
+  <circle cx="108" cy="32" r="1" fill="var(--text-faint)" />
+  <circle cx="59" cy="81" r="1" fill="var(--text-faint)" />
+  <circle cx="352" cy="97" r="1" fill="var(--text-faint)" />
+  <circle cx="371" cy="77" r="1" fill="var(--text-faint)" />
+  <circle cx="345" cy="137" r="1" fill="var(--text-faint)" />
+  <circle cx="396" cy="142" r="1" fill="var(--text-faint)" />
+  <path d="M150,100 L230,90 L260,100 L230,110 Z" fill="none" stroke="var(--text)" stroke-width="2" />
+  <circle cx="160" cy="100" r="6" fill="none" stroke="var(--text)" stroke-width="2" />
+  <text x="200" y="70" fill="var(--text-sub)" font-size="11" font-weight="500" text-anchor="middle">motores apagados</text>
+  <line x1="265" y1="100" x2="340" y2="100" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" marker-end="url(#flecha)" />
+  <text x="300" y="130" fill="var(--accent)" font-size="11" font-weight="500" text-anchor="middle">v = 20.000 km/h constante</text>
+  <text x="200" y="175" fill="var(--text-sub)" font-size="10" font-weight="500" text-anchor="middle">sin fuerza neta (vacío, sin fricción) → ninguna otra flecha de fuerza</text>
+
+</svg>

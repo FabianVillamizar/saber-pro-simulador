@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260">
+  <defs>
+    <marker id="flecha" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--text)" />
+    </marker>
+  </defs>
+
+  <rect x="80" y="10" width="240" height="34" rx="10" fill="none" stroke="var(--text)" stroke-width="2" /><text x="200" y="32" fill="var(--text)" font-size="12" font-weight="500" text-anchor="middle">Mezcla en disolvente orgánico</text>
+  <line x1="200" y1="44" x2="200" y2="60" stroke="var(--text)" stroke-width="2" stroke-linecap="round" marker-end="url(#flecha)" />
+  <rect x="80" y="62" width="240" height="34" rx="10" fill="none" stroke="var(--text)" stroke-width="2" /><text x="200" y="84" fill="var(--text)" font-size="12" font-weight="500" text-anchor="middle">+ NaOH, se agita (ácido → sal soluble en agua)</text>
+  <line x1="200" y1="96" x2="200" y2="112" stroke="var(--text)" stroke-width="2" stroke-linecap="round" marker-end="url(#flecha)" />
+  <rect x="80" y="114" width="240" height="34" rx="10" fill="none" stroke="var(--text)" stroke-width="2" /><text x="200" y="136" fill="var(--text)" font-size="12" font-weight="500" text-anchor="middle">Se separan las fases orgánica / acuosa</text>
+  <line x1="200" y1="148" x2="200" y2="164" stroke="var(--text)" stroke-width="2" stroke-linecap="round" marker-end="url(#flecha)" />
+  <rect x="80" y="166" width="240" height="34" rx="10" fill="none" stroke="var(--text)" stroke-width="2" /><text x="200" y="188" fill="var(--text)" font-size="12" font-weight="500" text-anchor="middle">Fase acuosa + HCl (se acidifica)</text>
+  <line x1="200" y1="200" x2="200" y2="216" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" marker-end="url(#flecha)" />
+  <rect x="80" y="218" width="240" height="34" rx="10" fill="none" stroke="var(--exito)" stroke-width="2" />
+  <text x="200" y="240" fill="var(--exito)" font-size="12" font-weight="700" text-anchor="middle">Precipita el ácido benzoico purificado</text>
+
+</svg>

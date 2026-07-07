@@ -1,0 +1,14 @@
+.visual-svg {
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radio-md);
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.visual-svg svg {
+  width: 100%;
+  height: auto;
+  max-width: 420px;
+}

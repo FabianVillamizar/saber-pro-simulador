@@ -3,6 +3,40 @@
   font-size: 14px;
 }
 
+.nucleo-filtro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0 4px;
+}
+
+.nucleo-boton {
+  padding: 7px 14px;
+  border-radius: var(--radio-pill);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-sub);
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: border-color var(--dur-hover) ease, color var(--dur-hover) ease, background var(--dur-hover) ease;
+}
+
+.nucleo-boton:hover {
+  border-color: var(--accent);
+}
+
+.nucleo-boton--activo {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: color-mix(in oklch, var(--accent) 10%, var(--surface));
+}
+
+:root[data-theme='dark'] .nucleo-boton--activo {
+  background: color-mix(in oklch, var(--accent) 20%, var(--surface));
+}
+
 .partes-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));

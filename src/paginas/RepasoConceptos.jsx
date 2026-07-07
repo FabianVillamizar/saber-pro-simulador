@@ -12,13 +12,21 @@ import { ThemeToggle } from '../componentes/ThemeToggle.jsx'
 import { SelectorPerfil } from '../componentes/SelectorPerfil.jsx'
 import { TarjetaFlip } from '../componentes/TarjetaFlip.jsx'
 import { TextoConNegritas } from '../componentes/TextoConNegritas.jsx'
-import { IconoChevronIzquierdo, IconoFlechaCircular } from '../componentes/iconos.jsx'
+import { Formula } from '../componentes/Formula.jsx'
+import { VisualCientifico } from '../componentes/VisualCientifico.jsx'
+import { IconoChevronIzquierdo, IconoFlechaCircular, IconoBombilla } from '../componentes/iconos.jsx'
 import './RepasoConceptos.css'
 
 const ETIQUETAS_TIPO = {
   vocabulario: 'Vocabulario',
   gramatica: 'Gramática',
   cultura_general: 'Cultura general',
+}
+
+const ETIQUETAS_DIFICULTAD = {
+  baja: 'Baja',
+  media: 'Media',
+  alta: 'Alta',
 }
 
 const BOTONES_EVAL = [
@@ -95,11 +103,15 @@ export function RepasoConceptos({ moduloId, perfil, onCambiarPerfil, onVolver })
   const tarjeta = cola[0].valor
   const remaining = cola.length
   const progressPct = totalInicial ? Math.min(100, Math.round((revisadasHoy / totalInicial) * 100)) : 0
-  // Dos esquemas de tarjeta de concepto: cloze (antes/despues/respuesta, de
-  // Inglés) y pregunta directa (pregunta/respuesta_breve, de Competencias
-  // Ciudadanas). Se detectan por la presencia de `antes`, no por `tipo`
-  // (que en CC siempre vale "concepto" para las 4 sub-categorías).
-  const esCloze = 'antes' in tarjeta
+  // Tres esquemas de tarjeta de concepto: cloze (antes/despues/respuesta,
+  // de Inglés), pregunta directa (pregunta/respuesta_breve, de
+  // Competencias Ciudadanas) y científica (Pensamiento Científico, que
+  // unifica ambos frentes bajo un solo campo `modo` por tarjeta — no por
+  // módulo completo, porque los mismos archivos mezclan tarjetas cloze y
+  // de pregunta). Se detectan por presencia de campos, no por `tipo` (que
+  // en CC y PC siempre vale "concepto").
+  const esCientifica = 'modo' in tarjeta
+  const esCloze = esCientifica ? tarjeta.modo === 'cloze' : 'antes' in tarjeta
 
   return (
     <div className="repaso">
@@ -123,9 +135,57 @@ export function RepasoConceptos({ moduloId, perfil, onCambiarPerfil, onVolver })
         <TarjetaFlip
           volteada={volteada}
           onClick={() => setVolteada((v) => !v)}
-          alturaPx={340}
           frente={
-            esCloze ? (
+            esCientifica ? (
+              <>
+                <div className="repaso-badges">
+                  <span className={`repaso-badge-dificultad repaso-badge-dificultad--${tarjeta.dificultad}`}>
+                    {ETIQUETAS_DIFICULTAD[tarjeta.dificultad] ?? tarjeta.dificultad}
+                  </span>
+                  <span className="repaso-badge-tipo">
+                    {modulo.categorias?.[tarjeta.afirmacion_asociada] ?? tarjeta.afirmacion_asociada}
+                  </span>
+                </div>
+
+                {tarjeta.visual_posicion === 'frente' && (
+                  <div className="repaso-visual">
+                    <VisualCientifico
+                      tipo={tarjeta.tipo_visual}
+                      descripcion={tarjeta.visual_descripcion}
+                      graficaDatos={tarjeta.grafica_datos_estructurados}
+                      tablaDatos={tarjeta.tabla_filas}
+                      imagen={tarjeta.imagen}
+                    />
+                  </div>
+                )}
+
+                <div className="repaso-cloze">
+                  <div>
+                    <div className="repaso-cloze-texto">
+                      {esCloze ? (
+                        <>
+                          {tarjeta.antes}{' '}
+                          <span className="repaso-cloze-hueco" />{' '}
+                          {tarjeta.despues}
+                        </>
+                      ) : (
+                        tarjeta.pregunta
+                      )}
+                    </div>
+                    {tarjeta.formula_latex && (
+                      <div className="repaso-formula">
+                        <Formula tex={tarjeta.formula_latex} bloque />
+                      </div>
+                    )}
+                  </div>
+                </div>
+
+                <div className="repaso-hint">
+                  <IconoFlechaCircular color="var(--text-faint)" />
+                  Toca para ver la explicación
+                </div>
+              </>
+            ) : esCloze ? (
               <>
                 <div className="repaso-badges">
                   <span className="repaso-badge-nivel">{tarjeta.nivel_mcer}</span>
@@ -161,7 +221,74 @@ export function RepasoConceptos({ moduloId, perfil, onCambiarPerfil, onVolver })
             )
           }
           reverso={
-            esCloze ? (
+            esCientifica ? (
+              <>
+                <div className="repaso-reverso-cabecera">
+                  <span
+                    className={`repaso-badge-dificultad repaso-badge-dificultad--chico repaso-badge-dificultad--${tarjeta.dificultad}`}
+                  >
+                    {ETIQUETAS_DIFICULTAD[tarjeta.dificultad] ?? tarjeta.dificultad}
+                  </span>
+                  <div className="repaso-reverso-oracion">
+                    {esCloze ? (
+                      <>
+                        {tarjeta.antes}{' '}
+                        <span className="repaso-reverso-respuesta">{tarjeta.respuesta}</span>{' '}
+                        {tarjeta.despues}
+                      </>
+                    ) : (
+                      <span className="repaso-reverso-respuesta">{tarjeta.respuesta}</span>
+                    )}
+                  </div>
+                </div>
+
+                {tarjeta.visual_posicion === 'reverso' && (
+                  <div className="repaso-visual">
+                    <VisualCientifico
+                      tipo={tarjeta.tipo_visual}
+                      descripcion={tarjeta.visual_descripcion}
+                      graficaDatos={tarjeta.grafica_datos_estructurados}
+                      tablaDatos={tarjeta.tabla_filas}
+                      imagen={tarjeta.imagen}
+                    />
+                  </div>
+                )}
+
+                <div>
+                  <div className="repaso-seccion-label">Regla</div>
+                  <div className="repaso-seccion-texto">
+                    <TextoConNegritas texto={tarjeta.regla} />
+                  </div>
+                </div>
+
+                <div className="repaso-ejemplo">
+                  <div className="repaso-seccion-label repaso-seccion-label--accent">Ejemplo</div>
+                  <div className="repaso-ejemplo-texto">
+                    <TextoConNegritas texto={tarjeta.ejemplo} />
+                  </div>
+                </div>
+
+                <div className="repaso-error">
+                  <span className="repaso-error-icono" />
+                  <div>
+                    <div className="repaso-seccion-label repaso-seccion-label--warn">Error común</div>
+                    <div className="repaso-error-texto">
+                      <TextoConNegritas texto={tarjeta.error_comun} />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="repaso-cotidiana">
+                  <IconoBombilla color="var(--exito)" />
+                  <div>
+                    <div className="repaso-seccion-label repaso-seccion-label--exito">Conexión con la vida diaria</div>
+                    <div className="repaso-cotidiana-texto">
+                      <TextoConNegritas texto={tarjeta.conexion_cotidiana} />
+                    </div>
+                  </div>
+                </div>
+              </>
+            ) : esCloze ? (
               <>
                 <div className="repaso-reverso-cabecera">
                   <span className="repaso-badge-nivel repaso-badge-nivel--chico">{tarjeta.nivel_mcer}</span>

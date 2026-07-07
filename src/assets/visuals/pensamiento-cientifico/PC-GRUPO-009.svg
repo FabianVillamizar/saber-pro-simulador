@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 180">
+  <defs>
+    <marker id="flecha" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--text)" />
+    </marker>
+  </defs>
+
+  <line x1="30" y1="140" x2="370" y2="140" stroke="var(--border)" stroke-width="3" stroke-linecap="round" />
+  <rect x="160" y="95" width="80" height="45" rx="6" fill="none" stroke="var(--text)" stroke-width="2" />
+  <line x1="245" y1="117" x2="305" y2="117" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" marker-end="url(#flecha)" />
+  <text x="275" y="105" fill="var(--accent)" font-size="11" font-weight="500" text-anchor="middle">F aplicada</text>
+  <line x1="155" y1="117" x2="95" y2="117" stroke="var(--warning)" stroke-width="3" stroke-linecap="round" marker-end="url(#flecha)" />
+  <text x="125" y="105" fill="var(--warning)" font-size="11" font-weight="500" text-anchor="middle">Fricción</text>
+  <line x1="200" y1="40" x2="260" y2="40" stroke="var(--text-sub)" stroke-width="2" stroke-linecap="round" marker-end="url(#flecha)" />
+  <text x="230" y="28" fill="var(--text-sub)" font-size="11" font-weight="500" text-anchor="middle">v constante →</text>
+  <text x="200" y="165" fill="var(--text-sub)" font-size="11" font-weight="500" text-anchor="middle">flechas de igual magnitud → fuerza neta = 0</text>
+
+</svg>

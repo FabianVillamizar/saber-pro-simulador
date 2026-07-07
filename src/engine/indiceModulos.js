@@ -1,5 +1,6 @@
 import { adaptersIngles } from '../modulos/ingles/adapters.js'
 import { adaptersCompetenciasCiudadanas } from '../modulos/competencias-ciudadanas/adapters.js'
+import { adaptersPensamientoCientifico } from '../modulos/pensamiento-cientifico/adapters.js'
 
 // Índice central de módulos del examen. Agregar un módulo nuevo es:
 //   1. Copiar sus JSON a src/data/<id>/.
@@ -69,7 +70,31 @@ export const indiceModulos = {
     nombre: 'Pensamiento Científico',
     monograma: 'PC',
     descripcion: 'Indagación y razonamiento científico.',
-    disponible: false,
-    adapters: {},
+    disponible: true,
+    // Igual que Competencias Ciudadanas: todavía no hay distribución de
+    // simulacro ni escala de resultado diseñadas para este módulo (dos
+    // núcleos con proporción real 30/20 en el examen real, sin definir
+    // acá) — ver saber_pro_resultado_scope en memoria.
+    soportaSimulacro: false,
+    // Las 5 "afirmaciones" son la taxonomía propia de los datos (adquirir
+    // e interpretar información, analizar y concluir, etc.), no las 3
+    // competencias oficiales del ICFES — se muestran tal cual como
+    // sub-categoría de práctica y como segunda insignia en la tarjeta de
+    // repaso.
+    categorias: {
+      adquirir_interpretar: 'Adquirir e interpretar',
+      analizar_concluir: 'Analizar y concluir',
+      comprender_modelos: 'Comprender modelos',
+      establecer_estrategias: 'Establecer estrategias',
+      plantear_preguntas: 'Plantear preguntas',
+    },
+    // Eje ortogonal a `categorias`: cada afirmación tiene ítems de ambos
+    // núcleos en proporción pareja. `PracticaPorParte.jsx` solo muestra el
+    // selector cuando este mapa está presente (Inglés/CC no lo tienen).
+    nucleos: {
+      comun: 'Núcleo común',
+      especifico_quimica: 'Específico — Química',
+    },
+    adapters: adaptersPensamientoCientifico,
   },
 }

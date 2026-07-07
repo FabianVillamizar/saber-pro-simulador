@@ -1,0 +1,678 @@
+[
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-057",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Un colegio quiere evaluar si un nuevo método de enseñanza de matemáticas mejora el aprendizaje de los estudiantes. Para probarlo, asigna el nuevo método a un profesor que lo aplica en su salón de clase, mientras otro profesor distinto sigue enseñando con el método tradicional en su propio salón. Al final del semestre, comparan los resultados de los exámenes de ambos salones.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-057",
+        "afirmacion": "establecer_estrategias",
+        "evidencia": "4.1",
+        "enunciado": "¿Qué variable adicional sería importante controlar para que esta comparación permita atribuir con más confianza cualquier diferencia de resultados específicamente al método de enseñanza, y no a otros factores?",
+        "opciones": {
+          "A": "La identidad del profesor que enseña en cada salón, ya que actualmente cada método es aplicado por una persona distinta, lo que impide separar el efecto del método de enseñanza del efecto del estilo o habilidad particular de cada profesor.",
+          "B": "El color de las paredes de cada salón de clase, ya que estudios han demostrado que los colores llamativos pueden distraer a los estudiantes durante las lecciones de matemáticas.",
+          "C": "La marca de los cuadernos que usan los estudiantes para tomar apuntes en cada salón, ya que distintas marcas de papel podrían afectar la calidad de sus notas de clase.",
+          "D": "El clima registrado en la ciudad durante el semestre, ya que las condiciones climáticas generales podrían influir de alguna manera en el rendimiento académico de ambos salones por igual."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Actualmente, el método de enseñanza está completamente confundido con la identidad del profesor: cada profesor aplica un método distinto, por lo que cualquier diferencia observada podría deberse al método, al profesor específico, o a ambos combinados; para aislar el efecto del método, sería ideal que el mismo profesor aplicara ambos métodos, o que se asignaran profesores aleatoriamente a cada uno.",
+        "distractores": {
+          "B": {
+            "explicacion": "Propone controlar una variable sin ninguna relación demostrada ni relevante con este estudio específico, distrayendo de la variable de confusión real y mucho más plausible.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "C": {
+            "explicacion": "Propone controlar una variable trivial y sin relación plausible con el rendimiento en exámenes de matemáticas, ignorando la variable de confusión central (el profesor distinto en cada salón).",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Propone controlar una variable que afectaría por igual a ambos salones (misma ciudad, mismo semestre), por lo que no distingue específicamente los resultados de un salón frente al otro.",
+            "patron_trampa": "diseño_no_controlado"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-058",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Un estudiante de biología quiere probar si un nuevo fertilizante orgánico mejora el crecimiento de las plantas de tomate. Planta 10 semillas de tomate en macetas idénticas, con la misma cantidad de tierra, luz solar y agua, y aplica el fertilizante nuevo a todas las macetas por igual. Después de 6 semanas, mide la altura promedio de las plantas y concluye que el fertilizante fue efectivo porque las plantas crecieron bastante.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-058",
+        "afirmacion": "establecer_estrategias",
+        "evidencia": "4.1",
+        "enunciado": "¿Qué le falta a este diseño experimental para poder concluir con confianza que el fertilizante fue realmente responsable del crecimiento observado?",
+        "opciones": {
+          "A": "Falta medir la altura de las plantas todos los días en lugar de solo al final de las 6 semanas, ya que sin mediciones diarias no se puede calcular ningún promedio de altura.",
+          "B": "Falta un grupo control de plantas de tomate cultivadas en las mismas condiciones (misma tierra, luz y agua) pero SIN el fertilizante nuevo, para poder comparar si esas plantas crecen menos, igual, o incluso más que las que sí lo recibieron.",
+          "C": "Falta plantar un número mucho mayor de semillas, ya que 10 macetas nunca son suficientes para obtener ningún resultado interpretable en un experimento de este tipo.",
+          "D": "Falta usar semillas de una variedad de tomate completamente distinta, ya que la variedad actual podría no ser compatible en absoluto con ningún tipo de fertilizante."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Sin un grupo control (plantas en las mismas condiciones pero sin el fertilizante), no hay forma de saber si el crecimiento observado se debe realmente al fertilizante o si las plantas habrían crecido de forma similar de todos modos; el grupo control proporciona la línea base necesaria para atribuir el crecimiento específicamente al fertilizante.",
+        "distractores": {
+          "A": {
+            "explicacion": "Propone una mejora relacionada con la frecuencia de medición, útil para otros fines, pero no aborda el problema central del diseño: la ausencia de un grupo de comparación sin fertilizante.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "C": {
+            "explicacion": "Se enfoca en el tamaño de la muestra como si fuera el problema principal, cuando el problema central es la falta de un grupo control adecuado para poder atribuir el crecimiento al fertilizante.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Propone un cambio que no soluciona el problema real del diseño; cambiar la variedad de semillas no proporciona la comparación necesaria (con y sin fertilizante) para evaluar su efecto.",
+            "patron_trampa": "diseño_no_controlado"
+          }
+        },
+        "dificultad": "baja"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-059",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Un laboratorio farmacéutico prueba un nuevo medicamento para el dolor de cabeza. Todos los 100 participantes reciben el medicamento nuevo (en forma de pastilla), y un médico les pregunta después de 30 minutos si sienten menos dolor. El médico sabe qué medicamento está probando y anima verbalmente a los pacientes durante la entrevista, diciendo cosas como '¿ya te sientes mejor, verdad?'.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-059",
+        "afirmacion": "establecer_estrategias",
+        "evidencia": "4.2",
+        "enunciado": "Además de la falta evidente de un grupo control con placebo, ¿qué otro elemento del diseño sería importante añadir para reducir el riesgo de que los resultados estén sesgados?",
+        "opciones": {
+          "A": "Sería importante aumentar la dosis del medicamento administrado a todos los participantes, para asegurar que el efecto sea lo suficientemente fuerte como para notarse claramente.",
+          "B": "Sería importante realizar el estudio en un hospital de mayor prestigio, ya que la reputación del lugar donde se realiza un estudio influye directamente en la validez científica de sus resultados.",
+          "C": "Sería importante que el estudio fuera 'ciego' (o idealmente doble ciego): que ni el paciente ni la persona que evalúa su dolor sepan si recibió el medicamento real o un placebo, para evitar que las expectativas o el comportamiento del médico influyan en las respuestas de los pacientes.",
+          "D": "Sería importante cambiar la forma farmacéutica del medicamento de pastilla a inyección, ya que las inyecciones siempre producen resultados más confiables que las pastillas en cualquier estudio clínico."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Cuando el médico sabe qué tratamiento se está probando e influye verbalmente en las respuestas de los pacientes, se introduce un sesgo de expectativa que puede inflar artificialmente los resultados; un diseño 'ciego' o 'doble ciego' ayuda a prevenir que esas expectativas influyan en los resultados.",
+        "distractores": {
+          "A": {
+            "explicacion": "Propone un cambio que no aborda el problema real señalado en el escenario, que es el sesgo introducido por el conocimiento y comportamiento del médico durante la evaluación.",
+            "patron_trampa": "diseño_no_controlado"
+          },
+          "B": {
+            "explicacion": "Propone un factor sin ninguna relación demostrada con la validez científica de un estudio, y que no aborda el problema real de sesgo por expectativas identificado en el escenario.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Propone un cambio en la forma farmacéutica sin ninguna justificación relacionada con el problema de sesgo descrito, ni evidencia de que sea intrínsecamente más confiable para este propósito.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-060",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Un investigador quiere saber si el uso de pantallas antes de dormir afecta la calidad del sueño. Recluta a 20 voluntarios: 10 de ellos reportan usar el celular más de 2 horas antes de dormir, y los otros 10 reportan no usar ningún dispositivo electrónico antes de dormir. El investigador compara la calidad de sueño reportada por ambos grupos, sin haber asignado él mismo quién usa o no el celular.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-060",
+        "afirmacion": "establecer_estrategias",
+        "evidencia": "4.3",
+        "enunciado": "¿Qué estrategia de diseño mejoraría la capacidad de este estudio para atribuir cualquier diferencia en la calidad del sueño específicamente al uso de pantallas, y no a otras diferencias entre las personas que ya tenían cada hábito?",
+        "opciones": {
+          "A": "Aumentar el número de participantes a 200 personas, manteniendo exactamente el mismo diseño de comparación entre quienes ya usan o no usan pantallas por su propia cuenta.",
+          "B": "Pedir a los participantes que reporten su calidad de sueño usando una escala numérica más detallada, en lugar de una descripción general de cómo durmieron.",
+          "C": "Realizar el estudio durante un periodo de tiempo más largo, manteniendo el mismo diseño de comparación entre dos grupos de personas que ya tenían hábitos de uso de pantallas distintos desde antes.",
+          "D": "Asignar aleatoriamente a los mismos participantes a usar o no usar pantallas antes de dormir en noches distintas (un diseño donde cada persona actúa como su propio control), en lugar de comparar grupos de personas que ya diferían en este hábito desde el principio."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Actualmente, el estudio compara personas que ya diferían en sus hábitos y otros factores desde antes de participar; asignar aleatoriamente al mismo grupo de personas a ambas condiciones en noches distintas permite que cada persona actúe como su propio control, reduciendo el efecto de diferencias individuales preexistentes.",
+        "distractores": {
+          "A": {
+            "explicacion": "Aumenta el tamaño de la muestra sin cambiar el diseño fundamental, por lo que no resuelve que los dos grupos ya diferían en otros aspectos antes de comenzar.",
+            "patron_trampa": "diseño_no_controlado"
+          },
+          "B": {
+            "explicacion": "Mejora la precisión de la medición del resultado, pero no aborda el problema central: la falta de asignación controlada de la variable de interés.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "C": {
+            "explicacion": "Extiende la duración del estudio sin cambiar el diseño fundamental de comparación entre grupos preexistentes, por lo que no resuelve el problema de fondo.",
+            "patron_trampa": "diseño_no_controlado"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-061",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Una empresa afirma que su nuevo filtro de agua elimina el 99 % de las bacterias presentes. Para probarlo, toman una muestra de agua de un río, la pasan por el filtro, y luego analizan la muestra filtrada, encontrando muy pocas bacterias presentes.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-061",
+        "afirmacion": "establecer_estrategias",
+        "evidencia": "4.1",
+        "enunciado": "¿Qué le falta a este procedimiento para poder calcular con confianza el porcentaje real de bacterias eliminadas por el filtro?",
+        "opciones": {
+          "A": "Falta analizar también una muestra del agua original del río ANTES de pasar por el filtro, bajo las mismas condiciones de análisis, para poder comparar la cantidad de bacterias antes y después y así calcular el porcentaje de reducción real.",
+          "B": "Falta repetir el análisis de la muestra filtrada exactamente 100 veces, ya que ese número específico de repeticiones es el estándar obligatorio para cualquier prueba de calidad del agua.",
+          "C": "Falta esperar exactamente una semana después de filtrar el agua antes de realizar cualquier análisis, ya que las bacterias necesitan ese tiempo específico para desarrollarse en cualquier muestra de agua.",
+          "D": "Falta usar un río completamente distinto para la prueba, ya que el río actual podría no tener suficientes bacterias como para que la prueba sea representativa de otras fuentes de agua."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Para calcular un porcentaje de reducción, es imprescindible conocer tanto la cantidad de bacterias antes del filtrado como después; sin la muestra de referencia (el agua sin filtrar, analizada bajo las mismas condiciones), no hay manera de calcular qué porcentaje de la cantidad original fue realmente eliminado.",
+        "distractores": {
+          "B": {
+            "explicacion": "Propone un número específico de repeticiones sin ninguna justificación real, y no aborda el problema central: la ausencia de una muestra de referencia antes del filtrado.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "C": {
+            "explicacion": "Introduce un tiempo de espera arbitrario sin ninguna justificación relacionada con el problema real, que es la falta de una muestra de comparación antes del filtrado.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Propone cambiar la fuente de agua sin resolver el problema central; el problema no es qué río se usa, sino la falta de una muestra sin filtrar del mismo río.",
+            "patron_trampa": "diseño_no_controlado"
+          }
+        },
+        "dificultad": "baja"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-062",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Un investigador quiere evaluar si un programa de ejercicio de 4 semanas mejora el estado de ánimo de los participantes. Al final de las 4 semanas, aplica una encuesta de estado de ánimo a los 30 participantes y encuentra que reportan, en promedio, un buen nivel de bienestar emocional. El investigador concluye que el programa de ejercicio mejoró su estado de ánimo.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-062",
+        "afirmacion": "establecer_estrategias",
+        "evidencia": "4.1",
+        "enunciado": "¿Qué le falta a este diseño para poder afirmar que el programa de ejercicio efectivamente mejoró el estado de ánimo de los participantes (y no que simplemente ya tenían un buen estado de ánimo desde el principio)?",
+        "opciones": {
+          "A": "Falta aumentar la duración del programa de ejercicio a más de 4 semanas, ya que ese periodo es demasiado corto para que cualquier tipo de ejercicio físico tenga algún efecto psicológico medible.",
+          "B": "Falta medir el estado de ánimo de los mismos participantes ANTES de comenzar el programa de ejercicio, para poder comparar los valores de antes y después y así determinar si realmente hubo un cambio atribuible al programa.",
+          "C": "Falta aplicar la encuesta de estado de ánimo a un número mucho mayor de participantes, ya que 30 personas nunca son suficientes para sacar ninguna conclusión sobre un programa de ejercicio.",
+          "D": "Falta cambiar el tipo de ejercicio del programa por uno completamente distinto, ya que el tipo actual de ejercicio podría no tener ninguna relación con el estado de ánimo de las personas."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Sin una medición del estado de ánimo antes de comenzar el programa (una línea base), no hay forma de saber si el buen estado de ánimo reportado al final refleja una mejora real causada por el ejercicio, o si los participantes ya tenían ese nivel de bienestar desde el principio.",
+        "distractores": {
+          "A": {
+            "explicacion": "Propone extender la duración del programa sin abordar el problema central: la falta de una medición inicial necesaria para determinar si hubo algún cambio.",
+            "patron_trampa": "diseño_no_controlado"
+          },
+          "C": {
+            "explicacion": "Se enfoca en el tamaño de la muestra como si fuera el problema principal, cuando el problema central es la ausencia de una medición de referencia antes de iniciar el programa.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Propone cambiar el tipo de ejercicio sin resolver el problema real; ese cambio no proporciona la comparación de antes/después necesaria para evaluar una mejora real.",
+            "patron_trampa": "diseño_no_controlado"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-063",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Un fabricante de pastillas de freno para carros quiere comparar el rendimiento de su nuevo producto (Pastilla X) contra un producto competidor (Pastilla Y). Prueba la Pastilla X en un carro deportivo nuevo, en una pista seca, a 80 km/h, y prueba la Pastilla Y en un carro familiar más viejo, en una pista mojada, a 60 km/h. Después, compara la distancia de frenado de cada prueba y anuncia que la Pastilla X es superior.",
+    "tipo_visual": "tabla",
+    "tabla_filas": {
+      "columnas": [
+        "Condición de prueba",
+        "Pastilla X",
+        "Pastilla Y"
+      ],
+      "filas": [
+        [
+          "Tipo de carro",
+          "Deportivo nuevo",
+          "Familiar viejo"
+        ],
+        [
+          "Estado de la pista",
+          "Seca",
+          "Mojada"
+        ],
+        [
+          "Velocidad de prueba",
+          "80 km/h",
+          "60 km/h"
+        ]
+      ]
+    },
+    "preguntas": [
+      {
+        "id": "PC-ITEM-063",
+        "afirmacion": "establecer_estrategias",
+        "evidencia": "4.3",
+        "enunciado": "¿Qué estrategia sería necesaria para que esta comparación permita concluir con confianza que la diferencia observada se debe específicamente al tipo de pastilla de freno, y no a otras condiciones de la prueba?",
+        "opciones": {
+          "A": "Usar un tercer tipo de pastilla de freno adicional en las pruebas, para tener más opciones de comparación disponibles al final del estudio.",
+          "B": "Aumentar la velocidad de ambas pruebas a 120 km/h, ya que las pastillas de freno solo pueden compararse de forma confiable a velocidades muy altas.",
+          "C": "Probar ambas pastillas de freno en el mismo tipo de carro, en la misma pista, en las mismas condiciones climáticas y a la misma velocidad, cambiando únicamente el tipo de pastilla entre una prueba y otra.",
+          "D": "Realizar las pruebas en dos países distintos, ya que las condiciones de las carreteras de diferentes países ofrecen una validación más robusta de cualquier producto automotriz."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Actualmente se cambiaron múltiples variables a la vez (tipo de carro, condición de la pista, velocidad), por lo que cualquier diferencia en la distancia de frenado no puede atribuirse específicamente al tipo de pastilla; para aislar su efecto, es necesario mantener todas las demás condiciones idénticas, cambiando únicamente el tipo de pastilla.",
+        "distractores": {
+          "A": {
+            "explicacion": "Añade una variable adicional sin resolver el problema real del diseño actual, que es la falta de condiciones idénticas entre las dos pruebas que ya se están comparando.",
+            "patron_trampa": "diseño_no_controlado"
+          },
+          "B": {
+            "explicacion": "Propone un cambio de velocidad sin ninguna justificación relacionada con el problema real (las múltiples condiciones distintas entre pruebas).",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Introduce aún más variables no controladas en lugar de resolver el problema real, que es mantener constantes todas las condiciones excepto el tipo de pastilla.",
+            "patron_trampa": "diseño_no_controlado"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-064",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Una empresa quiere saber si poner música de fondo en la oficina mejora la productividad de los empleados. Durante la primera semana del mes, un grupo de empleados del departamento de ventas trabaja sin música. Durante la última semana del mes, un grupo distinto de empleados del departamento de atención al cliente trabaja con música de fondo. La empresa compara la cantidad de tareas completadas por cada grupo esa semana.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-064",
+        "afirmacion": "establecer_estrategias",
+        "evidencia": "4.3",
+        "enunciado": "¿Qué cambio en el diseño permitiría aislar mejor el efecto específico de la música sobre la productividad, evitando que otras diferencias afecten la comparación?",
+        "opciones": {
+          "A": "Aumentar el volumen de la música durante la segunda semana, para asegurar que el efecto de la música, si existe, sea lo suficientemente notable como para medirse con claridad.",
+          "B": "Realizar la comparación durante un periodo de tiempo mucho más largo, manteniendo el mismo diseño de comparar dos departamentos distintos en semanas distintas del mes.",
+          "C": "Pedir a los empleados que califiquen subjetivamente qué tan productivos se sintieron cada semana, en lugar de contar objetivamente el número de tareas completadas.",
+          "D": "Comparar al mismo grupo de empleados, realizando el mismo tipo de tareas, trabajando con y sin música durante distintos días de una misma semana, en lugar de comparar departamentos distintos en semanas distintas, para que el tipo de trabajo y las personas sean los mismos en ambas condiciones."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Actualmente se comparan dos departamentos distintos (con tareas y personas diferentes) en semanas distintas, lo que introduce múltiples variables de confusión no controladas; mantener el mismo grupo realizando el mismo tipo de tareas, variando solo la presencia de música, permite aislar mejor su efecto específico.",
+        "distractores": {
+          "A": {
+            "explicacion": "Propone un cambio en la intensidad de la música sin abordar el problema real del diseño, que es la comparación entre grupos y tareas completamente distintos.",
+            "patron_trampa": "diseño_no_controlado"
+          },
+          "B": {
+            "explicacion": "Extiende la duración de la comparación sin cambiar el diseño fundamental, que sigue comparando departamentos y semanas distintas.",
+            "patron_trampa": "diseño_no_controlado"
+          },
+          "C": {
+            "explicacion": "Cambia el tipo de medición del resultado, lo cual no resuelve el problema central del diseño: la comparación entre grupos de personas y tareas distintas.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-065",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Un estudiante quiere probar si un catalizador específico aumenta la velocidad de una reacción de descomposición del peróxido de hidrógeno (H₂O₂). Añade el catalizador a una muestra de H₂O₂ y mide el tiempo que tarda en descomponerse por completo, obteniendo un tiempo de 45 segundos. Concluye que el catalizador es efectivo porque la reacción ocurrió rápidamente.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-065",
+        "afirmacion": "establecer_estrategias",
+        "evidencia": "4.1",
+        "enunciado": "¿Qué le falta a este diseño experimental para poder afirmar con confianza que el catalizador fue el responsable de la velocidad observada?",
+        "opciones": {
+          "A": "Falta un ensayo de referencia (control) con la misma muestra de H₂O₂, en las mismas condiciones de temperatura y concentración, pero SIN el catalizador, para poder comparar el tiempo de descomposición con y sin el catalizador.",
+          "B": "Falta repetir el experimento usando una concentración de H₂O₂ mucho más alta, ya que 45 segundos es un tiempo demasiado corto para ser considerado válido en cualquier análisis cinético.",
+          "C": "Falta usar un catalizador de un color distinto, ya que el color de un catalizador determina directamente su efectividad para acelerar una reacción química.",
+          "D": "Falta realizar el experimento en un recipiente de un material completamente distinto, ya que el material del recipiente es siempre la variable más determinante en cualquier reacción de descomposición."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Sin un ensayo de control (la misma reacción, en las mismas condiciones, pero sin el catalizador), no hay forma de saber si los 45 segundos observados son realmente rápidos en comparación con lo que tardaría la reacción sin el catalizador; el control proporciona la línea base necesaria.",
+        "distractores": {
+          "B": {
+            "explicacion": "Propone cambiar la concentración sin abordar el problema central: la ausencia de un ensayo sin catalizador para poder comparar y determinar si realmente aceleró la reacción.",
+            "patron_trampa": "diseño_no_controlado"
+          },
+          "C": {
+            "explicacion": "Propone una variable sin ninguna relación química real con la efectividad catalítica, sin abordar el problema central de la falta de un ensayo de comparación sin catalizador.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Propone cambiar el material del recipiente sin evidencia de que sea la variable relevante en este caso, y sin resolver el problema real de la falta de control.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "baja"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-066",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Una empresa de productos de limpieza prueba un nuevo quitamanchas aplicándolo sobre una mancha de café en una tela blanca. Después de lavar la tela, observan que la mancha desapareció casi por completo, y anuncian que el producto 'elimina eficazmente las manchas de café'.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-066",
+        "afirmacion": "establecer_estrategias",
+        "evidencia": "4.1",
+        "enunciado": "¿Qué le falta a esta prueba para poder afirmar con confianza que fue específicamente el quitamanchas el responsable de la eliminación de la mancha, y no otro factor del proceso de lavado?",
+        "opciones": {
+          "A": "Falta usar un tipo de mancha completamente distinto, como de vino o de grasa, ya que las manchas de café nunca son representativas de ningún otro tipo de mancha que los consumidores puedan tener.",
+          "B": "Falta lavar, en las mismas condiciones (misma agua, mismo detergente, mismo ciclo de lavado), otra tela con una mancha de café similar pero SIN aplicar el quitamanchas, para comparar si la mancha se elimina de forma similar solo con el lavado normal.",
+          "C": "Falta repetir la prueba usando una marca de tela completamente distinta, ya que el tipo de tela es la única variable que podría afectar el resultado de esta prueba de limpieza.",
+          "D": "Falta aplicar el quitamanchas durante un tiempo mucho más largo antes de lavar la tela, ya que ese es el único factor que podría explicar por qué la mancha desapareció."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Sin una prueba de control (una tela con una mancha similar, lavada en las mismas condiciones pero sin el quitamanchas), no se puede saber si la mancha habría desaparecido de todos modos solo con el detergente y el ciclo de lavado normal.",
+        "distractores": {
+          "A": {
+            "explicacion": "Propone cambiar el tipo de mancha usado, lo cual no resuelve el problema central: la falta de una tela de control lavada sin el quitamanchas.",
+            "patron_trampa": "diseño_no_controlado"
+          },
+          "C": {
+            "explicacion": "Propone cambiar el tipo de tela sin evidencia de que sea la variable relevante, sin abordar el problema real: la ausencia de una prueba de comparación sin el quitamanchas.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Asume, sin evidencia, que el tiempo de aplicación es la única variable relevante, ignorando el problema central: la falta de un control adecuado.",
+            "patron_trampa": "diseño_no_controlado"
+          }
+        },
+        "dificultad": "baja"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-067",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Una empresa de alimentos prueba un nuevo conservante añadiéndolo a un lote de pan y almacenándolo a temperatura ambiente. Después de 10 días, observan que el pan no muestra signos visibles de moho, y concluyen que el conservante extiende efectivamente la vida útil del producto.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-067",
+        "afirmacion": "establecer_estrategias",
+        "evidencia": "4.1",
+        "enunciado": "¿Qué le falta a este procedimiento para poder afirmar con confianza que el conservante fue el responsable de la ausencia de moho después de 10 días?",
+        "opciones": {
+          "A": "Falta medir la temperatura exacta del ambiente de almacenamiento cada hora durante los 10 días, ya que sin ese registro detallado ningún resultado sobre la aparición de moho puede considerarse válido.",
+          "B": "Falta repetir la prueba usando una marca de harina completamente distinta para hacer el pan, ya que el tipo de harina es la única variable capaz de influir en la aparición de moho en cualquier producto horneado.",
+          "C": "Falta almacenar, en las mismas condiciones de temperatura y humedad, un lote de pan idéntico pero SIN el conservante añadido, para comparar si ese lote desarrolla moho antes, y así determinar si el conservante realmente hizo una diferencia.",
+          "D": "Falta aumentar la cantidad de conservante añadida al pan, ya que una mayor cantidad del producto garantizaría de forma automática una vida útil todavía más larga."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Sin un lote de control (pan idéntico, almacenado en las mismas condiciones, pero sin el conservante), no se puede saber si la ausencia de moho se debe realmente al conservante o si el pan se habría mantenido igual de bien sin él.",
+        "distractores": {
+          "A": {
+            "explicacion": "Propone un nivel de detalle en el registro de temperatura que no aborda el problema central: la ausencia de un lote de comparación sin el conservante.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "B": {
+            "explicacion": "Propone cambiar el tipo de harina sin evidencia de que sea la variable relevante, sin abordar el problema real: la falta de un lote de control sin conservante.",
+            "patron_trampa": "diseño_no_controlado"
+          },
+          "D": {
+            "explicacion": "Asume sin evidencia que una mayor cantidad de conservante garantiza automáticamente mejores resultados, sin resolver el problema central del diseño actual.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-068",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Un fabricante desarrolla un nuevo recubrimiento anticorrosivo para tuberías de metal. Aplica el recubrimiento a una tubería y la expone a agua salada durante 30 días. Al final del periodo, observa que la tubería muestra muy poca corrosión visible, y concluye que el recubrimiento es efectivo para prevenir la corrosión.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-068",
+        "afirmacion": "establecer_estrategias",
+        "evidencia": "4.1",
+        "enunciado": "¿Qué estrategia adicional sería necesaria para confirmar con confianza que el recubrimiento fue el responsable de la baja corrosión observada?",
+        "opciones": {
+          "A": "Aumentar la concentración de sal en el agua utilizada durante la prueba, ya que una mayor concentración de sal siempre produce resultados de corrosión más fáciles de interpretar.",
+          "B": "Repetir la prueba usando un tipo de metal completamente distinto para la tubería, ya que el tipo de metal es la única variable capaz de influir en el grado de corrosión observado.",
+          "C": "Extender la duración de la prueba a 60 días en lugar de 30, ya que ese es el único cambio que permitiría obtener resultados más confiables sobre la efectividad del recubrimiento.",
+          "D": "Exponer, en las mismas condiciones de agua salada y durante el mismo periodo de tiempo, una tubería del mismo metal pero SIN el recubrimiento, para comparar el grado de corrosión y así determinar si el recubrimiento realmente marcó una diferencia."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Sin una tubería de control (del mismo metal, expuesta a las mismas condiciones y tiempo, pero sin el recubrimiento), no se puede saber si la baja corrosión se debe realmente al recubrimiento o si ese metal se corroe poco de todos modos bajo esas condiciones.",
+        "distractores": {
+          "A": {
+            "explicacion": "Propone cambiar la concentración de sal sin abordar el problema central: la ausencia de una tubería de comparación sin el recubrimiento.",
+            "patron_trampa": "diseño_no_controlado"
+          },
+          "B": {
+            "explicacion": "Propone cambiar el tipo de metal sin evidencia de que sea la variable relevante, sin resolver el problema real: la falta de un control sin recubrimiento.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "C": {
+            "explicacion": "Propone extender la duración de la prueba sin cambiar el diseño fundamental, que sigue careciendo de una tubería de control sin recubrimiento.",
+            "patron_trampa": "diseño_no_controlado"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-069",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Un estudiante de química desarrolla un nuevo disolvente para extraer un compuesto de interés de una muestra vegetal. Realiza la extracción con el nuevo disolvente y obtiene 2,5 gramos del compuesto extraído a partir de 100 gramos de muestra vegetal. Concluye que el nuevo disolvente es 'muy eficiente' para esta extracción.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-069",
+        "afirmacion": "establecer_estrategias",
+        "evidencia": "4.1",
+        "enunciado": "¿Qué le falta a este procedimiento para poder respaldar la afirmación de que el nuevo disolvente es más eficiente para esta extracción?",
+        "opciones": {
+          "A": "Falta realizar la misma extracción, con la misma cantidad de muestra vegetal y bajo las mismas condiciones de tiempo y temperatura, pero usando un disolvente estándar ya conocido y usado comúnmente para este tipo de extracciones, con el fin de comparar la cantidad de compuesto obtenida con cada disolvente.",
+          "B": "Falta repetir la extracción usando una cantidad de muestra vegetal mucho menor, ya que 100 gramos es una cantidad demasiado grande para que cualquier extracción sea considerada representativa.",
+          "C": "Falta cambiar la especie de planta usada como muestra vegetal, ya que la especie actual podría no ser compatible con ningún tipo de disolvente conocido en la literatura científica.",
+          "D": "Falta triplicar la cantidad de disolvente nuevo utilizado en la extracción, ya que una mayor cantidad de disolvente garantiza de forma automática una mayor cantidad de compuesto extraído."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Sin una extracción de comparación usando un disolvente estándar ya conocido (bajo las mismas condiciones), no hay forma de saber si los 2,5 gramos obtenidos representan una cantidad alta, baja, o similar a la que se obtendría con un método ya establecido.",
+        "distractores": {
+          "B": {
+            "explicacion": "Propone reducir la cantidad de muestra vegetal sin abordar el problema central: la ausencia de una extracción de comparación con un disolvente estándar conocido.",
+            "patron_trampa": "diseño_no_controlado"
+          },
+          "C": {
+            "explicacion": "Propone cambiar la especie de planta sin evidencia de que sea la variable relevante, sin resolver el problema real: la falta de una comparación con un disolvente estándar.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Asume, sin evidencia, que aumentar la cantidad de disolvente garantiza automáticamente una mayor eficiencia de extracción, sin resolver el problema central del diseño.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-070",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Un estudiante sintetiza un nuevo indicador de pH natural, extraído de un pigmento vegetal, y quiere determinar en qué rango de pH cambia de color. Prepara una sola solución de pH desconocido, añade el indicador, y observa el color resultante.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-070",
+        "afirmacion": "establecer_estrategias",
+        "evidencia": "4.2",
+        "enunciado": "¿Qué estrategia sería necesaria para determinar de forma confiable el rango de pH en el que este nuevo indicador cambia de color?",
+        "opciones": {
+          "A": "Repetir la prueba usando una cantidad mucho mayor del pigmento vegetal extraído, ya que una mayor concentración del indicador garantiza automáticamente una determinación más precisa de su rango de cambio de color.",
+          "B": "Probar el indicador en una serie de soluciones reguladoras (buffers) de pH conocido y certificado, cubriendo un rango amplio de valores (por ejemplo, de pH 1 a pH 14), y registrar en qué valores específicos de pH ocurre el cambio de color observado.",
+          "C": "Comparar el color obtenido con el de otro indicador de pH ya conocido, sin necesidad de usar ninguna solución de pH certificado, ya que dos indicadores siempre cambian de color exactamente en los mismos valores de pH.",
+          "D": "Realizar la prueba en un ambiente completamente oscuro, ya que la luz ambiental es la única variable capaz de alterar el color observado de cualquier indicador de pH."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Para determinar el rango de pH en el que un indicador cambia de color, es necesario probarlo en soluciones de pH conocido y certificado (buffers estándar) que cubran un rango amplio de valores, registrando en qué puntos específicos ocurre el cambio; sin esta comparación no hay manera de determinar a qué pH corresponde el cambio observado.",
+        "distractores": {
+          "A": {
+            "explicacion": "Asume, sin evidencia, que una mayor concentración del indicador mejora la determinación del rango de cambio de color, sin abordar el problema real: la falta de soluciones de pH conocido para calibrar.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "C": {
+            "explicacion": "Asume, sin ninguna base química, que dos indicadores distintos deben cambiar de color exactamente en los mismos valores, cuando cada uno tiene su propio rango de viraje que debe determinarse con soluciones de pH conocido.",
+            "patron_trampa": "sobregeneralizacion_de_un_metodo"
+          },
+          "D": {
+            "explicacion": "Propone controlar una variable sin evidencia de que sea relevante para este problema específico, sin abordar la ausencia real de soluciones de pH certificado.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-071",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Un estudiante quiere probar cómo la concentración de una enzima afecta la velocidad de una reacción bioquímica. Realiza tres ensayos, cambiando simultáneamente en cada uno la concentración de la enzima Y la concentración del sustrato, y mide la velocidad de reacción en cada caso.",
+    "tipo_visual": "tabla",
+    "tabla_filas": {
+      "columnas": [
+        "Ensayo",
+        "Concentración de enzima (mM)",
+        "Concentración de sustrato (mM)",
+        "Velocidad de reacción (mol/min)"
+      ],
+      "filas": [
+        [
+          "1",
+          "1",
+          "10",
+          "2.1"
+        ],
+        [
+          "2",
+          "2",
+          "20",
+          "4.3"
+        ],
+        [
+          "3",
+          "3",
+          "30",
+          "6.5"
+        ]
+      ]
+    },
+    "preguntas": [
+      {
+        "id": "PC-ITEM-071",
+        "afirmacion": "establecer_estrategias",
+        "evidencia": "4.3",
+        "enunciado": "¿Qué cambio en el diseño experimental permitiría aislar específicamente el efecto de la concentración de la enzima sobre la velocidad de reacción?",
+        "opciones": {
+          "A": "Aumentar el número de ensayos a diez, manteniendo el mismo diseño de cambiar simultáneamente tanto la concentración de la enzima como la del sustrato en cada ensayo.",
+          "B": "Medir la velocidad de reacción con instrumentos más precisos, sin cambiar la forma en que se diseñan los ensayos ni qué variables se modifican en cada uno.",
+          "C": "Mantener constante la concentración del sustrato en todos los ensayos, variando únicamente la concentración de la enzima entre un ensayo y otro, para poder atribuir cualquier cambio en la velocidad de reacción específicamente a la concentración de enzima.",
+          "D": "Realizar los ensayos a una temperatura mucho más alta que la habitual, ya que las enzimas siempre funcionan de forma más medible a temperaturas elevadas."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Actualmente se cambian dos variables a la vez en cada ensayo, por lo que cualquier cambio en la velocidad no puede atribuirse específicamente a una de las dos; manteniendo constante la concentración del sustrato y variando únicamente la de la enzima, es posible aislar su efecto específico.",
+        "distractores": {
+          "A": {
+            "explicacion": "Aumenta el número de ensayos sin cambiar el diseño fundamental, por lo que no resuelve el problema de no poder aislar el efecto específico de la enzima.",
+            "patron_trampa": "diseño_no_controlado"
+          },
+          "B": {
+            "explicacion": "Mejora la precisión del instrumento de medición, pero no aborda el problema central: cambiar dos variables simultáneamente impide aislar el efecto de cada una.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Propone un cambio de temperatura sin evidencia de que sea necesario, y sin resolver el problema real: mantener constante el sustrato mientras se varía solo la enzima.",
+            "patron_trampa": "diseño_no_controlado"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-072",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Una empresa prueba un nuevo detergente para ropa aplicándolo sobre telas manchadas con grasa de cocina, lavándolas en agua tibia durante un ciclo estándar de lavadora. Después del lavado, observan que la mayoría de las manchas de grasa desaparecieron, y anuncian que el detergente 'elimina eficazmente la grasa'.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-072",
+        "afirmacion": "establecer_estrategias",
+        "evidencia": "4.1",
+        "enunciado": "¿Qué estrategia adicional permitiría evaluar si este nuevo detergente elimina la grasa de forma más efectiva que un detergente convencional ya existente en el mercado?",
+        "opciones": {
+          "A": "Aumentar la temperatura del agua a un nivel mucho más alto que el habitual, ya que el agua muy caliente siempre elimina cualquier tipo de mancha de grasa sin necesidad de ningún detergente.",
+          "B": "Aumentar la cantidad de detergente nuevo utilizado en cada lavado, ya que una mayor cantidad del producto garantiza de forma automática una eliminación más completa de cualquier mancha.",
+          "C": "Repetir la prueba usando un tipo de grasa completamente distinto al de cocina, ya que ese es el único factor capaz de influir en la efectividad de cualquier detergente.",
+          "D": "Lavar, en las mismas condiciones de temperatura del agua, tipo de tela, cantidad de grasa y ciclo de lavado, otro lote de telas manchadas con grasa usando un detergente convencional ya existente en el mercado, para comparar el grado de eliminación de grasa logrado por cada producto."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Sin una comparación directa con un detergente convencional ya existente, lavado bajo exactamente las mismas condiciones, no hay forma de saber si el nuevo detergente elimina la grasa mejor, igual, o peor que las opciones ya disponibles.",
+        "distractores": {
+          "A": {
+            "explicacion": "Propone un cambio de temperatura que introduciría una variable adicional no controlada, sin abordar el problema central: la falta de una comparación directa con un detergente convencional.",
+            "patron_trampa": "diseño_no_controlado"
+          },
+          "B": {
+            "explicacion": "Asume, sin ninguna evidencia, que una mayor cantidad de detergente garantiza automáticamente mejores resultados, sin resolver el problema central del diseño.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "C": {
+            "explicacion": "Propone cambiar el tipo de grasa sin evidencia de que sea la variable relevante, sin resolver el problema real: la ausencia de una comparación con un detergente ya existente.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "baja"
+      }
+    ]
+  }
+]

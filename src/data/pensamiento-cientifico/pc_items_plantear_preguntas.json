@@ -1,0 +1,621 @@
+[
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-073",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Un estudio registra, durante 6 meses, el número de horas que distintos empleados de una empresa trabajan de forma remota cada semana, y por separado mide su nivel de satisfacción laboral reportado en una encuesta mensual. Los investigadores buscan entender si existe alguna relación entre estas dos variables.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-073",
+        "afirmacion": "plantear_preguntas",
+        "evidencia": "5.1",
+        "enunciado": "¿Cuál de las siguientes es la pregunta de investigación que este estudio, tal como está diseñado, puede responder de forma más directa?",
+        "opciones": {
+          "A": "¿Existe una asociación entre el número de horas de trabajo remoto y el nivel de satisfacción laboral reportado por los empleados?",
+          "B": "¿El trabajo remoto es la causa principal de todos los problemas de salud mental que puedan experimentar los empleados de esta empresa?",
+          "C": "¿Debería esta empresa eliminar por completo la opción de trabajo remoto para todos sus empleados en el futuro?",
+          "D": "¿Qué opinan los empleados de otras empresas de la misma industria sobre el trabajo remoto en general?"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El diseño descrito está orientado específicamente a explorar una asociación estadística entre esas dos variables; ese es el tipo de pregunta que este diseño puede abordar directamente, a diferencia de preguntas sobre causalidad definitiva, decisiones de política empresarial, o poblaciones no incluidas en el estudio.",
+        "distractores": {
+          "B": {
+            "explicacion": "Propone una pregunta sobre causalidad definitiva y sobre un resultado (problemas de salud mental) que no fue medido en este estudio, el cual solo registra satisfacción laboral.",
+            "patron_trampa": "sobregeneralizacion_de_un_metodo"
+          },
+          "C": {
+            "explicacion": "Propone una pregunta de decisión de política empresarial, que va más allá de lo que un estudio observacional sobre asociación entre dos variables puede responder por sí solo.",
+            "patron_trampa": "sobregeneralizacion_de_un_metodo"
+          },
+          "D": {
+            "explicacion": "Propone una pregunta sobre una población completamente distinta (empleados de otras empresas) que no fue incluida en el estudio descrito.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-074",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "En un experimento de biología, un investigador cultiva la misma especie de planta en dos invernaderos idénticos en temperatura, luz y riego, usando semillas del mismo lote. Sorprendentemente, las plantas del Invernadero 2 crecen, en promedio, un 20 % más altas que las del Invernadero 1, sin que el investigador haya identificado ninguna diferencia evidente entre ambos invernaderos.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-074",
+        "afirmacion": "plantear_preguntas",
+        "evidencia": "5.2",
+        "enunciado": "¿Cuál de las siguientes es una hipótesis plausible e investigable para explicar esta diferencia inesperada, que el investigador podría poner a prueba en un siguiente experimento?",
+        "opciones": {
+          "A": "Las plantas del Invernadero 2 'querían' crecer más que las del Invernadero 1, por una preferencia natural de las plantas hacia ese invernadero en particular.",
+          "B": "Podría existir una diferencia no detectada en la composición del suelo o el sustrato usado en cada invernadero (por ejemplo, en el contenido de algún nutriente), que valdría la pena analizar químicamente para comparar ambos suelos.",
+          "C": "El experimento debe descartarse por completo, ya que cualquier diferencia inesperada entre dos grupos que deberían ser idénticos significa que el estudio no tiene ningún valor científico.",
+          "D": "Las plantas del Invernadero 2 son de una especie completamente distinta a las del Invernadero 1, aunque el investigador haya confirmado que usó semillas del mismo lote para ambos grupos."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Una hipótesis investigable debe proponer un mecanismo posible y verificable; la composición del suelo es una variable que pudo no haberse controlado explícitamente y que es conocida por afectar el crecimiento vegetal, por lo que analizar y comparar el suelo de ambos invernaderos es un siguiente paso razonable e investigable.",
+        "distractores": {
+          "A": {
+            "explicacion": "Propone una explicación que atribuye intencionalidad o preferencia consciente a las plantas, un mecanismo no investigable ni consistente con el conocimiento sobre fisiología vegetal.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "C": {
+            "explicacion": "Concluye que todo el experimento carece de valor simplemente por encontrar un resultado inesperado, en lugar de reconocer que esas diferencias son precisamente lo que motiva nuevas preguntas.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Propone una explicación que contradice directamente un dato ya establecido en el escenario (semillas del mismo lote), por lo que no es consistente con la información disponible.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-075",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Una tabla muestra el número de casos reportados de una enfermedad respiratoria en una ciudad durante los meses de enero, febrero, marzo y julio de un mismo año, pero no incluye ningún dato de los meses de abril, mayo y junio. Los datos muestran una disminución de casos entre marzo y julio.",
+    "tipo_visual": "tabla",
+    "tabla_filas": {
+      "columnas": [
+        "Mes",
+        "Casos reportados"
+      ],
+      "filas": [
+        [
+          "Enero",
+          120
+        ],
+        [
+          "Febrero",
+          150
+        ],
+        [
+          "Marzo",
+          180
+        ],
+        [
+          "Julio",
+          60
+        ]
+      ]
+    },
+    "preguntas": [
+      {
+        "id": "PC-ITEM-075",
+        "afirmacion": "plantear_preguntas",
+        "evidencia": "5.3",
+        "enunciado": "Dada esta tabla de datos, ¿cuál sería la pregunta de seguimiento más importante para poder interpretar correctamente la tendencia observada entre marzo y julio?",
+        "opciones": {
+          "A": "¿Cuál fue el color predominante de la ropa que usaron los pacientes diagnosticados durante los meses reportados en la tabla?",
+          "B": "¿Cuántos habitantes tiene la ciudad en total, sin importar si estuvieron o no en riesgo de contraer la enfermedad respiratoria durante el año?",
+          "C": "¿Cuántos casos se reportaron durante los meses de abril, mayo y junio, que no aparecen en la tabla, ya que sin esos datos no se puede saber si la disminución fue gradual y constante, o si hubo fluctuaciones (como un posible aumento intermedio) durante esos meses no registrados?",
+          "D": "¿Qué marca de mascarillas fue la más utilizada por la población de la ciudad durante los meses en que sí se reportaron casos?"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "La tabla tiene un vacío evidente de información en los meses de abril, mayo y junio; sin esos datos, no se puede saber con certeza cómo evolucionó realmente la enfermedad durante ese periodo; identificar y preguntar específicamente por esos datos faltantes es el paso de seguimiento más relevante para interpretar correctamente la tendencia completa.",
+        "distractores": {
+          "A": {
+            "explicacion": "Propone una pregunta de seguimiento sin ninguna relación plausible con la propagación de una enfermedad respiratoria, ignorando el vacío de información realmente relevante (los meses faltantes) como el seguimiento obvio.",
+            "patron_trampa": "brecha_de_datos_ignorada"
+          },
+          "B": {
+            "explicacion": "Propone una pregunta sobre el tamaño total de la población que no aborda el vacío de información más urgente en este caso: los meses sin datos reportados, que es la pregunta de seguimiento evidente.",
+            "patron_trampa": "brecha_de_datos_ignorada"
+          },
+          "D": {
+            "explicacion": "Propone una pregunta de seguimiento sin relación directa con la interpretación de la tendencia, ignorando el vacío de información realmente relevante (los tres meses sin datos) como el seguimiento obvio.",
+            "patron_trampa": "brecha_de_datos_ignorada"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-076",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Un estudiante de biología quiere investigar sobre el comportamiento de las aves migratorias en su región.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-076",
+        "afirmacion": "plantear_preguntas",
+        "evidencia": "5.1",
+        "enunciado": "¿Cuál de las siguientes preguntas está formulada de una manera que permite diseñar un estudio científico concreto para responderla, a diferencia de las demás, que son demasiado amplias o vagas para abordarse directamente?",
+        "opciones": {
+          "A": "¿Por qué las aves migran en general, considerando todos los factores posibles que podrían influir en cualquier especie de ave en cualquier parte del mundo?",
+          "B": "¿Es la migración de las aves algo bueno o malo para la naturaleza en un sentido moral o ético?",
+          "C": "¿Qué sienten las aves migratorias durante su viaje, en términos de experiencias subjetivas internas comparables a las emociones humanas?",
+          "D": "¿Existe una diferencia en la fecha promedio de inicio de la migración de una especie de ave local entre los años con inviernos más cálidos y los años con inviernos más fríos en esta región específica?"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Esta pregunta especifica una especie concreta, una región específica, una variable medible (fecha de inicio de la migración) y una comparación clara, lo cual permite diseñar un estudio con datos concretos; las demás son demasiado amplias, subjetivas, o hacen referencia a experiencias internas no medibles.",
+        "distractores": {
+          "A": {
+            "explicacion": "Es una pregunta demasiado amplia y general (todas las especies, todos los factores, cualquier parte del mundo) para abordarse con un solo estudio concreto y bien delimitado.",
+            "patron_trampa": "sobregeneralizacion_de_un_metodo"
+          },
+          "B": {
+            "explicacion": "Plantea un juicio de valor moral o ético, que no es un tipo de pregunta que pueda responderse mediante observación, medición o experimentación científica.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "C": {
+            "explicacion": "Hace referencia a experiencias subjetivas internas de las aves que no pueden medirse u observarse directamente con los métodos científicos disponibles.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-077",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Un estudio observacional encuentra que las personas que consumen café con regularidad tienen, en promedio, un menor riesgo de desarrollar cierta enfermedad hepática, comparadas con quienes no consumen café. Un investigador quiere proponer explicaciones alternativas antes de asumir que el café por sí mismo reduce ese riesgo.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-077",
+        "afirmacion": "plantear_preguntas",
+        "evidencia": "5.2",
+        "enunciado": "¿Cuál de las siguientes es una pregunta o conjetura alternativa razonable que el investigador debería considerar antes de concluir que el café reduce directamente el riesgo de esta enfermedad?",
+        "opciones": {
+          "A": "¿Podría ser que las personas que consumen café con regularidad también tengan, en promedio, otros hábitos de vida distintos (como menor consumo de alcohol) que sean los verdaderos responsables del menor riesgo observado?",
+          "B": "¿Es posible que el café tenga un sabor agradable para la mayoría de las personas que participaron en el estudio, sin importar su estado de salud?",
+          "C": "¿Cuál es el país productor de café más grande del mundo, y qué relación tiene esa información con el diseño de este estudio observacional?",
+          "D": "¿Prefieren las personas que consumen café tomarlo caliente o frío, y podría esa preferencia estar relacionada de alguna forma con su color de ojos?"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Antes de concluir que el café en sí mismo causa la reducción del riesgo observado, es razonable investigar si existen otras variables de confusión asociadas con el hábito de tomar café que podrían ser las verdaderas responsables de la asociación, un paso esencial antes de inferir causalidad.",
+        "distractores": {
+          "B": {
+            "explicacion": "Propone una pregunta sobre una característica sensorial del café sin ninguna relación plausible con el riesgo de la enfermedad hepática investigada.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "C": {
+            "explicacion": "Propone una pregunta sobre un dato geográfico y económico que no tiene ninguna relación relevante con el riesgo de enfermedad hepática de los participantes.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Propone una conjetura sin ningún fundamento biológico o lógico plausible que la conecte con el riesgo de enfermedad hepática estudiado.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-078",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Un ecólogo observa que, en un bosque, el número de una especie de ardillas ha disminuido notablemente en los últimos 5 años. Propone dos hipótesis posibles: (1) la disminución se debe a un aumento en el número de depredadores naturales de las ardillas, o (2) la disminución se debe a una reducción en la disponibilidad de alimento (semillas y frutos) en el bosque durante ese periodo.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-078",
+        "afirmacion": "plantear_preguntas",
+        "evidencia": "5.2",
+        "enunciado": "¿Qué pregunta de investigación permitiría distinguir de forma más directa entre estas dos hipótesis alternativas?",
+        "opciones": {
+          "A": "¿Cuántos años en total lleva existiendo el bosque desde su formación geológica original, y podría eso explicar de alguna manera la disminución de ardillas?",
+          "B": "¿Han cambiado, en los últimos 5 años, tanto la población de depredadores naturales de las ardillas como la disponibilidad de semillas y frutos en el bosque, y en qué medida cada uno de esos cambios se correlaciona más estrechamente con la disminución observada en la población de ardillas?",
+          "C": "¿Qué opinan los visitantes ocasionales del bosque sobre la cantidad de ardillas que creen haber visto durante sus paseos en los últimos años?",
+          "D": "¿Cuál de las dos hipótesis es más popular entre los ecólogos que han estudiado bosques en general, sin importar las condiciones específicas de este bosque en particular?"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Para distinguir entre las dos hipótesis, es necesario recolectar datos específicos sobre ambas variables candidatas durante el mismo periodo, y evaluar cuál muestra una relación más estrecha con la disminución observada; esta pregunta orienta directamente hacia el tipo de datos necesarios para diferenciar entre ambas explicaciones.",
+        "distractores": {
+          "A": {
+            "explicacion": "Propone una pregunta sobre la antigüedad geológica del bosque, sin relación plausible con un cambio poblacional ocurrido en los últimos 5 años, y que no ayuda a distinguir entre las hipótesis.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "C": {
+            "explicacion": "Propone recolectar opiniones subjetivas de visitantes ocasionales, en lugar de datos sistemáticos sobre las variables específicas que permitirían distinguir entre las hipótesis.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Propone resolver la pregunta basándose en la popularidad de una hipótesis entre otros investigadores, en lugar de recolectar datos específicos de este bosque particular.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-079",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Un estudio encuentra que los estudiantes que duermen más de 8 horas por noche obtienen, en promedio, mejores calificaciones que los que duermen menos de 6 horas. Sin embargo, el estudio no incluye ningún dato sobre cuántas horas a la semana dedican los estudiantes a estudiar o hacer tareas.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-079",
+        "afirmacion": "plantear_preguntas",
+        "evidencia": "5.3",
+        "enunciado": "¿Qué pregunta adicional sería más útil plantear para poder interpretar con más claridad esta asociación entre horas de sueño y calificaciones?",
+        "opciones": {
+          "A": "¿Cuál es el color de las paredes de las habitaciones donde duermen los estudiantes que participaron en el estudio?",
+          "B": "¿Qué marca de colchón usan los estudiantes que reportan dormir más de 8 horas por noche, comparada con la de quienes duermen menos de 6 horas?",
+          "C": "¿Existe alguna relación entre las horas de sueño reportadas y el tiempo que los estudiantes dedican a estudiar, de manera que los estudiantes que duermen más también podrían estar organizando mejor su tiempo en general (incluyendo tanto el sueño como el estudio)?",
+          "D": "¿Cuántas mascotas tienen, en promedio, los estudiantes que participaron en este estudio sobre horas de sueño y calificaciones académicas?"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El estudio no incluye información sobre el tiempo de estudio, una variable plausible que podría explicar parte de la asociación observada; preguntar específicamente por esta variable ausente ayuda a interpretar con más claridad si el sueño por sí solo explica la asociación, o si está relacionado con otro factor no medido.",
+        "distractores": {
+          "A": {
+            "explicacion": "Propone una pregunta de seguimiento sin ninguna relación plausible con el rendimiento académico ni con la interpretación de la asociación entre sueño y calificaciones.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "B": {
+            "explicacion": "Propone una pregunta sobre una característica del colchón sin relación plausible con el rendimiento académico.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Propone una pregunta sobre la tenencia de mascotas sin ninguna relación demostrada ni plausible con las horas de sueño o el rendimiento académico.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-080",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Un estudiante realiza una reacción de precipitación mezclando dos soluciones incoloras, esperando obtener un precipitado blanco según lo indicado en su protocolo de laboratorio. Sin embargo, observa que se forma un precipitado de color azul claro, algo no mencionado en el protocolo original.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-080",
+        "afirmacion": "plantear_preguntas",
+        "evidencia": "5.2",
+        "enunciado": "¿Cuál de las siguientes es una hipótesis investigable y razonable para explicar este color inesperado, que el estudiante podría poner a prueba con análisis adicionales?",
+        "opciones": {
+          "A": "El color azul apareció porque el laboratorio estaba iluminado con luz artificial ese día, y ese tipo de luz siempre hace que cualquier precipitado blanco se vea de color azul a simple vista.",
+          "B": "El experimento debe descartarse por completo, ya que cualquier resultado que no coincida exactamente con lo esperado en el protocolo indica que el estudiante realizó todo el procedimiento de forma incorrecta.",
+          "C": "El precipitado azul apareció por casualidad, sin ninguna causa química identificable, y no vale la pena investigar más al respecto.",
+          "D": "Es posible que una de las soluciones utilizadas estuviera contaminada con trazas de un ion metálico (como cobre), conocido por formar compuestos de color azul, lo cual podría confirmarse realizando una prueba analítica específica para detectar la presencia de ese ion en las soluciones originales."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Una hipótesis científicamente investigable debe proponer un mecanismo plausible y verificable; la posible contaminación con un ion metálico conocido por formar compuestos coloreados (como el cobre) es una explicación química plausible que se puede confirmar o descartar con un análisis adicional específico de las soluciones originales.",
+        "distractores": {
+          "A": {
+            "explicacion": "Propone una explicación que no es químicamente plausible, ya que el tipo de iluminación ambiental no transforma el color intrínseco de un precipitado de esta manera.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "B": {
+            "explicacion": "Descarta todo el experimento sin investigar la causa del resultado inesperado, cuando un resultado no anticipado debería motivar una pregunta de seguimiento, no un descarte automático.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "C": {
+            "explicacion": "Atribuye el resultado al azar sin justificación, cuando en química la aparición de un color inesperado casi siempre tiene una causa identificable que vale la pena investigar.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-081",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Una tabla registra la concentración de un reactivo en una reacción química a los minutos 0, 5, 10 y 30, mostrando una disminución notable entre los minutos 10 y 30, pero sin ningún dato registrado entre los minutos 10 y 30 (por ejemplo, en el minuto 15 o 20).",
+    "tipo_visual": "tabla",
+    "tabla_filas": {
+      "columnas": [
+        "Tiempo (min)",
+        "Concentración del reactivo (mol/L)"
+      ],
+      "filas": [
+        [
+          0,
+          1
+        ],
+        [
+          5,
+          0.85
+        ],
+        [
+          10,
+          0.7
+        ],
+        [
+          30,
+          0.2
+        ]
+      ]
+    },
+    "preguntas": [
+      {
+        "id": "PC-ITEM-081",
+        "afirmacion": "plantear_preguntas",
+        "evidencia": "5.3",
+        "enunciado": "Dada esta tabla de datos, ¿cuál sería la pregunta de seguimiento más relevante antes de describir con precisión cómo cambió la velocidad de la reacción entre los minutos 10 y 30?",
+        "opciones": {
+          "A": "¿Cómo cambió la concentración del reactivo entre los minutos 10 y 30 (por ejemplo, en el minuto 15 o 20), ya que sin esos datos intermedios no se sabe si la disminución fue gradual o si ocurrió principalmente en una parte específica de ese intervalo?",
+          "B": "¿Cuál es el nombre comercial exacto del reactivo utilizado en este experimento específico de laboratorio de la universidad?",
+          "C": "¿Qué color exacto tenía el recipiente de vidrio utilizado para llevar a cabo esta reacción química durante todo el experimento?",
+          "D": "¿Cuántos estudiantes en total han realizado esta misma reacción en el laboratorio de la universidad a lo largo de los años anteriores a este semestre?"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La tabla tiene un vacío evidente de información entre los minutos 10 y 30 (20 minutos sin ningún dato registrado); sin mediciones intermedias, no se puede saber si la disminución fue gradual y constante, o si ocurrió principalmente al inicio o al final; preguntar específicamente por esos datos faltantes es el paso de seguimiento más relevante.",
+        "distractores": {
+          "B": {
+            "explicacion": "Propone una pregunta sobre el nombre comercial del reactivo, sin relación con la cinética observada, ignorando el vacío de información realmente relevante (los minutos sin datos intermedios) como el seguimiento obvio.",
+            "patron_trampa": "brecha_de_datos_ignorada"
+          },
+          "C": {
+            "explicacion": "Propone una pregunta sobre una característica del recipiente sin relación plausible con la velocidad de reacción, ignorando el vacío de datos intermedios que sí es relevante como seguimiento obvio.",
+            "patron_trampa": "brecha_de_datos_ignorada"
+          },
+          "D": {
+            "explicacion": "Propone una pregunta sobre el historial de otros estudiantes, sin relación con la interpretación de los datos cinéticos específicos y su vacío de información como seguimiento obvio.",
+            "patron_trampa": "brecha_de_datos_ignorada"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-082",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Un estudiante de química quiere investigar sobre la solubilidad de las sustancias en distintos disolventes.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-082",
+        "afirmacion": "plantear_preguntas",
+        "evidencia": "5.1",
+        "enunciado": "¿Cuál de las siguientes preguntas está formulada de una manera que permite diseñar un experimento de laboratorio concreto para responderla, a diferencia de las demás, que son demasiado amplias o no medibles directamente?",
+        "opciones": {
+          "A": "¿Por qué existe la solubilidad como fenómeno general en el universo, considerando todos los tipos posibles de sustancias y disolventes conocidos y por conocer?",
+          "B": "¿Cuál es la solubilidad (en gramos por 100 mL) del cloruro de potasio (KCl) en agua a tres temperaturas específicas (0 °C, 25 °C y 50 °C), medida experimentalmente en el laboratorio?",
+          "C": "¿Es la solubilidad de una sustancia algo estéticamente agradable de observar en un experimento de laboratorio de química general?",
+          "D": "¿Qué sienten las moléculas de un soluto al disolverse en un disolvente, en términos de una experiencia subjetiva comparable a la de un ser humano?"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Esta pregunta especifica una sustancia concreta, un disolvente específico, y condiciones medibles y controlables (tres temperaturas específicas), lo cual permite diseñar un experimento de laboratorio concreto; las demás opciones son demasiado amplias, subjetivas, o hacen referencia a experiencias no medibles.",
+        "distractores": {
+          "A": {
+            "explicacion": "Es una pregunta demasiado amplia y filosófica para abordarse con un experimento de laboratorio concreto y bien delimitado.",
+            "patron_trampa": "sobregeneralizacion_de_un_metodo"
+          },
+          "C": {
+            "explicacion": "Plantea un juicio estético o de gusto personal, que no es un tipo de pregunta que pueda responderse mediante medición o experimentación química objetiva.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Hace referencia a una supuesta experiencia subjetiva de las moléculas, un concepto sin sentido científico y no medible con ningún método experimental disponible.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "baja"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-083",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Un estudiante realiza la misma síntesis orgánica tres veces, siguiendo exactamente el mismo protocolo cada vez, y obtiene rendimientos de 85 %, 87 % y 45 % respectivamente. El tercer ensayo (45 %) fue realizado usando un frasco de un reactivo que había sido abierto varias semanas antes, mientras que los otros dos ensayos usaron un frasco recién abierto del mismo reactivo.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-083",
+        "afirmacion": "plantear_preguntas",
+        "evidencia": "5.2",
+        "enunciado": "¿Cuál de las siguientes es una hipótesis razonable e investigable para explicar el rendimiento notablemente más bajo del tercer ensayo?",
+        "opciones": {
+          "A": "El estudiante simplemente tuvo mala suerte en el tercer ensayo, sin que exista ninguna causa química identificable que pueda investigarse más a fondo.",
+          "B": "El tercer ensayo debe descartarse sin ninguna otra consideración, ya que cualquier rendimiento por debajo del 50 % siempre indica un error irreversible del estudiante durante el procedimiento experimental.",
+          "C": "El reactivo del frasco abierto varias semanas antes podría haberse degradado parcialmente (por ejemplo, por exposición a humedad o aire) desde su apertura, reduciendo su concentración efectiva o pureza; esto podría confirmarse comparando el rendimiento obtenido con un frasco nuevo del mismo reactivo bajo las mismas condiciones.",
+          "D": "El color de la etiqueta del frasco del reactivo usado en el tercer ensayo fue diferente al de los otros dos frascos, y ese cambio de color en la etiqueta explica directamente la diferencia en el rendimiento obtenido."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El dato relevante señalado en el escenario (el frasco abierto varias semanas antes) sugiere una hipótesis química plausible: la posible degradación o pérdida de pureza del reactivo con el tiempo; esta hipótesis es investigable comparando directamente el rendimiento con un frasco nuevo bajo las mismas condiciones.",
+        "distractores": {
+          "A": {
+            "explicacion": "Atribuye el resultado al azar sin considerar la pista relevante ya presente en el escenario (la diferencia en el tiempo de apertura del frasco), que sugiere una causa química investigable.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "B": {
+            "explicacion": "Descarta el resultado atribuyéndolo automáticamente a un error del estudiante, sin considerar la pista relevante disponible (la diferencia en el reactivo usado).",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Propone una relación entre una característica irrelevante (el color de una etiqueta) y el rendimiento químico, sin ningún mecanismo químico plausible que conecte ambas variables.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-084",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "En una reacción orgánica, un estudiante observa que el producto se forma con una determinada configuración estereoquímica, y propone dos posibles mecanismos de reacción: (1) un mecanismo que procede a través de un intermediario plano (como un carbocatión), que predeciría una mezcla de ambas configuraciones posibles del producto, o (2) un mecanismo concertado de un solo paso, que predeciría la formación de una sola configuración específica del producto.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-084",
+        "afirmacion": "plantear_preguntas",
+        "evidencia": "5.2",
+        "enunciado": "¿Qué pregunta experimental permitiría distinguir de forma más directa entre estos dos mecanismos propuestos?",
+        "opciones": {
+          "A": "¿Cuál es el nombre sistemático (IUPAC) completo del producto final obtenido en esta reacción orgánica?",
+          "B": "¿Qué color tiene el producto final obtenido, y podría ese color ayudar a distinguir entre los dos mecanismos propuestos por el estudiante?",
+          "C": "¿Cuántos gramos en total del producto se obtuvieron al final de la reacción, sin importar su configuración estereoquímica específica?",
+          "D": "Al analizar el producto obtenido (por ejemplo, con técnicas que distinguen configuraciones espaciales), ¿se observa una mezcla de ambas configuraciones posibles del producto, o se obtiene predominantemente una sola configuración específica?"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Dado que los dos mecanismos propuestos predicen resultados distintos específicamente en términos de la configuración estereoquímica del producto, la pregunta que evalúa directamente qué configuración(es) se observan realmente en el producto es la que permite distinguir entre ambos mecanismos de forma más directa.",
+        "distractores": {
+          "A": {
+            "explicacion": "Propone una pregunta sobre el nombre sistemático del producto, un dato que no distingue entre los dos mecanismos, ya que ambos podrían producir el mismo compuesto identificado con el mismo nombre.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "B": {
+            "explicacion": "Propone una pregunta sobre el color del producto, una propiedad sin relación directa con la configuración estereoquímica que es la clave para distinguir entre los dos mecanismos.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "C": {
+            "explicacion": "Propone una pregunta sobre la cantidad total de producto obtenido, que no distingue entre los dos mecanismos, ya que ambos podrían producir una cantidad similar sin importar la configuración.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-085",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Un estudiante mide la velocidad de una reacción química a tres temperaturas: 20 °C, 30 °C y 40 °C, encontrando que la velocidad aumenta considerablemente con cada incremento de 10 °C. No se realizó ninguna medición por encima de 40 °C ni por debajo de 20 °C.",
+    "tipo_visual": "grafica_datos",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Temperatura (°C)",
+      "ejeY": "Velocidad de reacción (mol/L·s)",
+      "series": [
+        {
+          "nombre": "Velocidad de reacción",
+          "datos": [
+            {
+              "x": "20",
+              "y": 0.5
+            },
+            {
+              "x": "30",
+              "y": 1
+            },
+            {
+              "x": "40",
+              "y": 2
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Gráfica de líneas que muestra el aumento de la velocidad de reacción de 0.5 a 2.0 mol/L·s conforme la temperatura sube de 20 °C a 40 °C, sin datos medidos fuera de ese rango."
+    },
+    "preguntas": [
+      {
+        "id": "PC-ITEM-085",
+        "afirmacion": "plantear_preguntas",
+        "evidencia": "5.3",
+        "enunciado": "¿Cuál sería la pregunta de seguimiento más relevante antes de asumir que esta misma tendencia de aumento de velocidad se mantiene en cualquier rango de temperatura?",
+        "opciones": {
+          "A": "¿Qué sucede con la velocidad de esta reacción por encima de 40 °C o por debajo de 20 °C, un rango no medido, donde la tendencia podría no mantenerse (por descomposición del reactivo o por un frenado casi total de la reacción)?",
+          "B": "¿Cuál es el nombre completo del fabricante del termómetro utilizado para medir las tres temperaturas en este experimento específico de laboratorio?",
+          "C": "¿Qué opinión tienen otros estudiantes del mismo curso sobre la importancia general de estudiar la cinética química en su formación?",
+          "D": "¿Cuántas veces exactamente a la semana se limpia el laboratorio completo donde se realizó este experimento de cinética química?"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El experimento solo cubre un rango limitado de temperaturas (20 °C a 40 °C); sin datos fuera de ese rango, no se puede saber con certeza si la misma tendencia se mantiene a temperaturas mucho más altas o más bajas; preguntar específicamente por ese rango no explorado es el paso de seguimiento más relevante antes de generalizar la tendencia observada.",
+        "distractores": {
+          "B": {
+            "explicacion": "Propone una pregunta sobre el fabricante del instrumento, sin relación con el vacío real de información relevante en este caso: el rango de temperaturas no explorado como seguimiento obvio.",
+            "patron_trampa": "brecha_de_datos_ignorada"
+          },
+          "C": {
+            "explicacion": "Propone recolectar opiniones subjetivas sobre la importancia general de la cinética química, sin relación con el vacío específico de datos (el rango de temperatura no explorado) como seguimiento obvio.",
+            "patron_trampa": "brecha_de_datos_ignorada"
+          },
+          "D": {
+            "explicacion": "Propone una pregunta sobre la limpieza del laboratorio, sin relación plausible con la tendencia observada ni con el vacío de datos relevante como seguimiento obvio en este experimento.",
+            "patron_trampa": "brecha_de_datos_ignorada"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-086",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Un estudiante mezcla dos soluciones siguiendo un protocolo estándar y espera obtener un precipitado inmediato, según lo indicado en las instrucciones del laboratorio. Sin embargo, observa que el precipitado tarda casi 10 minutos en aparecer, mucho más tiempo del esperado según el protocolo.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-086",
+        "afirmacion": "plantear_preguntas",
+        "evidencia": "5.2",
+        "enunciado": "¿Cuál de las siguientes es una hipótesis razonable e investigable para explicar este retraso inesperado en la formación del precipitado?",
+        "opciones": {
+          "A": "El precipitado decidió esperar antes de formarse, ya que las reacciones químicas a veces tardan más tiempo simplemente porque así lo determina el azar puro, sin ninguna causa física identificable.",
+          "B": "Es posible que la temperatura de las soluciones mezcladas estuviera más baja de lo indicado en el protocolo (por ejemplo, si las soluciones se guardaron en un refrigerador antes de usarlas), lo cual podría haber ralentizado la velocidad de la reacción; esto podría confirmarse repitiendo el experimento con las soluciones a la temperatura ambiente especificada en el protocolo.",
+          "C": "El experimento debe considerarse un fracaso total, ya que cualquier desviación del tiempo esperado en un protocolo de laboratorio significa que el estudiante realizó todo el procedimiento de forma incorrecta desde el principio.",
+          "D": "El retraso se debió a que el estudiante pensó demasiado en el resultado esperado antes de realizar la mezcla, y ese tipo de anticipación mental puede alterar directamente la velocidad de las reacciones químicas."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Una hipótesis investigable y químicamente plausible debe proponer un mecanismo verificable; la temperatura es un factor bien conocido que afecta directamente la velocidad de las reacciones químicas, por lo que verificar si las soluciones estaban más frías de lo esperado, y repetir el experimento controlando esa variable, es un paso de investigación razonable y directamente verificable.",
+        "distractores": {
+          "A": {
+            "explicacion": "Atribuye el retraso al azar puro sin ninguna causa física, cuando en química un retraso en la aparición de un precipitado casi siempre tiene una explicación física o química identificable.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "C": {
+            "explicacion": "Descarta todo el experimento como un fracaso total sin investigar la causa específica del retraso, cuando una desviación del tiempo esperado es una oportunidad para plantear una pregunta de seguimiento.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Propone un mecanismo que no tiene ningún fundamento físico o químico real, ya que los procesos de pensamiento de un observador no pueden alterar directamente la cinética de una reacción química.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "baja"
+      }
+    ]
+  }
+]

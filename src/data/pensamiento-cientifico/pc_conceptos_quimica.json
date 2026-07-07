@@ -1,0 +1,2346 @@
+[
+  {
+    "id": "PC-QUI-001",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "establecer_estrategias",
+    "bloque": "estequiometria_y_balance_de_ecuaciones",
+    "modo": "cloze",
+    "antes": "En la combustión completa del propano, C₃H₈ + 5O₂ → 3CO₂ + ",
+    "despues": "H₂O, el coeficiente del agua se obtiene igualando los 8 átomos de hidrógeno del propano, ya que cada agua aporta 2.",
+    "respuesta": "4",
+    "regla": "El **balanceo de ecuaciones químicas** consiste en ajustar los coeficientes estequiométricos para que el número de átomos de cada elemento sea igual en reactivos y productos; conviene balancear primero los elementos que aparecen en un solo compuesto de cada lado (aquí, C y H) y dejar el oxígeno para el final.",
+    "ejemplo": "En la combustión completa del etano (C₂H₆), la ecuación balanceada es 2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O, donde el coeficiente 7 del oxígeno suele necesitar fracciones intermedias (7/2) que se eliminan multiplicando toda la ecuación por 2.",
+    "error_comun": "Se intenta balancear el oxígeno primero, cuando aparece en dos compuestos distintos del lado de los productos (CO₂ y H₂O); es más eficiente dejarlo al final, después de fijar los coeficientes de C e H a partir de los compuestos donde cada elemento aparece una sola vez.",
+    "conexion_cotidiana": "La combustión balanceada del gas propano es exactamente la reacción que ocurre en una estufa o parrilla de gas doméstica; una llama azul y limpia indica combustión completa, mientras que una llama amarilla y con hollín indica combustión incompleta.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "PC-QUI-002",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "estequiometria_y_balance_de_ecuaciones",
+    "modo": "pregunta",
+    "pregunta": "En una reacción de precipitación, se hacen reaccionar 2,0 mol de AgNO₃ con 1,5 mol de Na₂S, según la ecuación 2AgNO₃ + Na₂S → Ag₂S + 2NaNO₃. ¿Cuál reactivo es el limitante y cuántos mol de Ag₂S se forman como máximo?",
+    "respuesta": "El AgNO₃ es el reactivo limitante: la ecuación exige 2 mol de AgNO₃ por cada 1 mol de Na₂S, de modo que los 2,0 mol de AgNO₃ disponibles solo necesitarían 1,0 mol de Na₂S para reaccionar por completo, y hay 1,5 mol de Na₂S disponibles (0,5 mol quedan en exceso); por lo tanto, el AgNO₃ se agota primero y limita la reacción, produciendo como máximo 1,0 mol de Ag₂S.",
+    "regla": "El **reactivo limitante** es el que se agota primero en una reacción y determina la cantidad máxima de producto que se puede formar; para identificarlo, se compara la relación molar real entre los reactivos disponibles con la relación molar que exige la ecuación balanceada, no simplemente cuál reactivo tiene menos moles en términos absolutos.",
+    "ejemplo": "Al hacer reaccionar 3 mol de H₂ con 1 mol de N₂ según N₂ + 3H₂ → 2NH₃, la relación exigida coincide exactamente con lo disponible, por lo que ningún reactivo está en exceso y ambos se agotan al mismo tiempo.",
+    "error_comun": "Se asume que el reactivo con menor número de moles en términos absolutos (aquí, el Na₂S con 1,5 mol frente a 2,0 mol de AgNO₃) es automáticamente el limitante, sin comparar esas cantidades contra la proporción estequiométrica 2:1 que exige la ecuación balanceada.",
+    "conexion_cotidiana": "Al preparar una receta que exige 2 huevos por cada taza de harina, si tienes 6 huevos pero solo 2 tazas de harina, la harina es el ingrediente limitante aunque tengas más unidades de huevos disponibles; importa la proporción exigida, no la cantidad absoluta de cada ingrediente.",
+    "tipo_visual": "tabla",
+    "visual_posicion": "frente",
+    "tabla_filas": {
+      "columnas": [
+        "Reactivo",
+        "Cantidad disponible (mol)",
+        "Coeficiente estequiométrico",
+        "Cantidad necesaria para agotar el AgNO₃"
+      ],
+      "filas": [
+        [
+          "AgNO₃",
+          "2,0",
+          "2",
+          "2,0 (se consume por completo)"
+        ],
+        [
+          "Na₂S",
+          "1,5",
+          "1",
+          "1,0 necesario (0,5 mol quedan en exceso)"
+        ]
+      ]
+    },
+    "dificultad": "media",
+    "prereqs": [
+      "PC-QUI-001"
+    ]
+  },
+  {
+    "id": "PC-QUI-003",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "estequiometria_y_balance_de_ecuaciones",
+    "modo": "pregunta",
+    "pregunta": "En un experimento se añade solución de BaCl₂ gota a gota sobre un volumen fijo de solución de Na₂SO₄, midiendo la masa del precipitado de BaSO₄ formado. La gráfica muestra que la masa aumenta linealmente hasta los 20 mL de BaCl₂ añadidos, y luego permanece constante aunque se siga añadiendo más BaCl₂. ¿Qué indica el punto donde la curva se vuelve constante?",
+    "respuesta": "Ese punto indica que todo el Na₂SO₄ disponible ya reaccionó por completo (se convirtió en el reactivo limitante) a los 20 mL de BaCl₂ añadidos; después de ese punto, el BaCl₂ adicional queda en exceso sin formar más precipitado, porque ya no queda sulfato disponible para reaccionar.",
+    "regla": "En una gráfica de masa de producto (o precipitado) vs. volumen o cantidad de reactivo añadido, el punto donde la curva deja de aumentar y se vuelve constante (el \"quiebre\" o meseta) señala el momento en que el **reactivo limitante** original se agotó por completo.",
+    "ejemplo": "En una valoración ácido-base donde se mide el pH mientras se añade una base a un ácido, el punto de equivalencia se identifica como el salto brusco en la curva, análogo al quiebre que marca el agotamiento de un reactivo en una gráfica de masa de precipitado.",
+    "error_comun": "Se interpreta la meseta de la gráfica como si la reacción se hubiera \"detenido\" por falta de reactividad, sin reconocer que en realidad ya no queda reactivo limitante disponible para seguir formando producto.",
+    "conexion_cotidiana": "Al preparar limonada añadiendo azúcar a un volumen fijo de agua, el azúcar se sigue disolviendo hasta un punto en que el agua ya no puede disolver más (saturación); añadir más azúcar después de ese punto no aumenta la dulzura de la parte líquida.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Volumen de BaCl₂ añadido (mL)",
+      "ejeY": "Masa de precipitado BaSO₄ (g)",
+      "series": [
+        {
+          "nombre": "Masa de BaSO₄ formado",
+          "datos": [
+            {
+              "x": "0",
+              "y": 0
+            },
+            {
+              "x": "5",
+              "y": 0.75
+            },
+            {
+              "x": "10",
+              "y": 1.5
+            },
+            {
+              "x": "15",
+              "y": 2.25
+            },
+            {
+              "x": "20",
+              "y": 3
+            },
+            {
+              "x": "25",
+              "y": 3
+            },
+            {
+              "x": "30",
+              "y": 3
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "La masa de precipitado aumenta linealmente hasta los 20 mL de BaCl₂ añadidos y luego se mantiene constante en una meseta."
+    },
+    "dificultad": "media",
+    "prereqs": [
+      "PC-QUI-002"
+    ]
+  },
+  {
+    "id": "PC-QUI-004",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "establecer_estrategias",
+    "bloque": "estequiometria_y_balance_de_ecuaciones",
+    "modo": "pregunta",
+    "pregunta": "En una síntesis de aspirina, el cálculo estequiométrico predice que se deberían obtener 5,50 g de producto (rendimiento teórico), pero al final del experimento el estudiante solo logra recuperar 4,40 g de aspirina purificada. ¿Cuál es el rendimiento porcentual, y qué factores explican que sea menor al 100 %?",
+    "respuesta": "El rendimiento porcentual es (4,40 g / 5,50 g) × 100 % = 80 %; un rendimiento menor al 100 % es normal y se explica por pérdidas durante el proceso (producto adherido al material de vidrio, pérdidas en la filtración o recristalización, reacciones secundarias no deseadas), no porque el cálculo estequiométrico esté mal.",
+    "regla": "El **rendimiento porcentual** de una reacción es la razón entre la cantidad de producto realmente obtenida y la cantidad máxima que predice la estequiometría (rendimiento teórico), expresada como porcentaje; un valor menor al 100 % es esperado en la práctica y refleja pérdidas experimentales, no necesariamente un error de cálculo.",
+    "ejemplo": "Si el rendimiento teórico de una síntesis de un colorante orgánico es 10,0 g y se recuperan 7,8 g después de la recristalización, el rendimiento porcentual es del 78 %, un valor típico para una síntesis de varios pasos con una purificación final.",
+    "error_comun": "Se interpreta un rendimiento del 80 % como evidencia de que el experimento \"falló\" o que hubo un error de cálculo, sin considerar que las pérdidas físicas durante la manipulación son inevitables y esperadas incluso en un procedimiento bien ejecutado.",
+    "conexion_cotidiana": "Al exprimir naranjas para hacer jugo, la cantidad de jugo que realmente obtienes siempre es menor a la que teóricamente contienen las naranjas, porque parte queda atrapada en la pulpa y la cáscara.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "media",
+    "prereqs": [
+      "PC-QUI-001"
+    ]
+  },
+  {
+    "id": "PC-QUI-005",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "gases_ideales_leyes_de_boyle_y_gay_lussac",
+    "modo": "pregunta",
+    "pregunta": "Una gráfica muestra la presión de un gas en el eje Y y el volumen en el eje X, a temperatura constante, con forma de curva hiperbólica descendente. ¿Qué ley describe esta gráfica y qué producto permanece constante en cualquier punto de la curva?",
+    "respuesta": "La gráfica corresponde a la ley de Boyle (relación inversa entre presión y volumen a temperatura constante); en cualquier punto de la curva, el producto P × V permanece constante e igual al valor de la constante k de esa muestra de gas a esa temperatura.",
+    "regla": "La **ley de Boyle** describe que, a temperatura constante, la presión y el volumen de una cantidad fija de gas son inversamente proporcionales (P·V = k); su gráfica característica es una curva hiperbólica descendente, reconocible de un vistazo por no ser una línea recta.",
+    "ejemplo": "Al comprimir el aire dentro de una jeringa cerrada con el dedo tapando la punta, reducir el volumen a la mitad duplica aproximadamente la presión interna percibida, siguiendo la curva característica de la ley de Boyle.",
+    "error_comun": "Se confunde la curva de Boyle con una línea recta descendente (relación lineal, no inversa); reconocer la forma hiperbólica específica es clave para identificar la ley correctamente en una gráfica de examen.",
+    "conexion_cotidiana": "Al bucear, la presión del agua aumenta con la profundidad y comprime el volumen de aire en los pulmones, siguiendo aproximadamente la ley de Boyle, razón por la cual los buzos deben ascender lentamente.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Volumen (L)",
+      "ejeY": "Presión (atm)",
+      "series": [
+        {
+          "nombre": "P vs V a temperatura constante",
+          "datos": [
+            {
+              "x": "1",
+              "y": 12
+            },
+            {
+              "x": "2",
+              "y": 6
+            },
+            {
+              "x": "3",
+              "y": 4
+            },
+            {
+              "x": "4",
+              "y": 3
+            },
+            {
+              "x": "6",
+              "y": 2
+            },
+            {
+              "x": "12",
+              "y": 1
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Curva hiperbólica descendente que muestra la relación inversa entre presión y volumen a temperatura constante (ley de Boyle)."
+    },
+    "formula_latex": "P_1V_1 = P_2V_2",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "PC-QUI-006",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "gases_ideales_leyes_de_boyle_y_gay_lussac",
+    "modo": "pregunta",
+    "pregunta": "Una gráfica muestra la presión de un gas en el eje Y y la temperatura en grados Celsius en el eje X, a volumen constante, formando una línea recta que, al extrapolarse, cruza el eje X en −273 °C. ¿Qué ley describe esta gráfica y qué error cometería un estudiante si usara directamente los valores en Celsius para calcular una razón de presión y temperatura?",
+    "respuesta": "La gráfica corresponde a la ley de Gay-Lussac (presión directamente proporcional a la temperatura absoluta, a volumen constante); usar grados Celsius directamente en la razón P/T es un error grave, porque la proporcionalidad directa solo es válida usando temperatura absoluta en kelvin (K = °C + 273).",
+    "regla": "La **ley de Gay-Lussac** establece que, a volumen constante, la presión de un gas es directamente proporcional a su temperatura absoluta (P/T = k); la recta cruza el cero absoluto (−273,15 °C = 0 K), lo que confirma por qué siempre debe usarse la escala Kelvin en los cálculos.",
+    "ejemplo": "Una lata de aerosol almacenada cerca de una fuente de calor aumenta su presión interna de forma directamente proporcional a la temperatura absoluta del gas propelente dentro de ella.",
+    "error_comun": "Es uno de los errores más frecuentes en los cálculos de gases: usar la temperatura en grados Celsius en lugar de kelvin al aplicar cualquier ley de proporcionalidad directa con la temperatura.",
+    "conexion_cotidiana": "La presión de las llantas de un carro aumenta ligeramente después de conducir por un rato, porque la fricción calienta el aire dentro de ellas y la presión sube de forma proporcional a la temperatura absoluta del aire interno.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Temperatura (°C)",
+      "ejeY": "Presión (atm)",
+      "series": [
+        {
+          "nombre": "P vs T a volumen constante",
+          "datos": [
+            {
+              "x": "-273",
+              "y": 0
+            },
+            {
+              "x": "-173",
+              "y": 1
+            },
+            {
+              "x": "-73",
+              "y": 2
+            },
+            {
+              "x": "27",
+              "y": 3
+            },
+            {
+              "x": "127",
+              "y": 4
+            },
+            {
+              "x": "227",
+              "y": 5
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Recta creciente de presión vs temperatura en °C que, al extrapolarse, cruza el eje X en −273 °C (cero absoluto), evidenciando la ley de Gay-Lussac."
+    },
+    "formula_latex": "P_1/T_1 = P_2/T_2",
+    "dificultad": "media",
+    "prereqs": [
+      "PC-QUI-005"
+    ]
+  },
+  {
+    "id": "PC-QUI-007",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "establecer_estrategias",
+    "bloque": "gases_ideales_leyes_de_boyle_y_gay_lussac",
+    "modo": "pregunta",
+    "pregunta": "Un gas ocupa 2,0 L a 1,0 atm y 300 K. Se comprime hasta 1,0 L y se calienta hasta 600 K. ¿Cuál es la presión final del gas, aplicando la ley combinada de los gases (P₁V₁/T₁ = P₂V₂/T₂)?",
+    "respuesta": "Aplicando P₁V₁/T₁ = P₂V₂/T₂: (1,0 × 2,0)/300 = (P₂ × 1,0)/600, entonces P₂ = (1,0 × 2,0 × 600)/(300 × 1,0) = 4,0 atm; la presión se cuadruplica porque el volumen se redujo a la mitad y la temperatura absoluta se duplicó.",
+    "regla": "La **ley combinada de los gases** integra las leyes de Boyle, Gay-Lussac y Charles en una sola relación (P₁V₁/T₁ = P₂V₂/T₂); para aplicarla correctamente conviene organizar los datos en una tabla de \"antes/después\" antes de reemplazar valores.",
+    "ejemplo": "Un globo con 3,0 L de helio a 1,0 atm y 290 K se lleva a una montaña donde la presión externa baja a 0,8 atm y la temperatura baja a 270 K; su nuevo volumen se calcula reorganizando la misma ecuación combinada.",
+    "error_comun": "Se aplican las leyes de los gases por separado sin darse cuenta de que, cuando presión, volumen y temperatura cambian al mismo tiempo, es necesario usar la ley combinada en un solo paso.",
+    "conexion_cotidiana": "El aire dentro de una llanta de bicicleta cambia de presión tanto por el cambio de temperatura ambiental como por pequeñas variaciones de volumen al rodar.",
+    "tipo_visual": "tabla",
+    "visual_posicion": "frente",
+    "tabla_filas": {
+      "columnas": [
+        "Variable",
+        "Estado inicial",
+        "Estado final"
+      ],
+      "filas": [
+        [
+          "Presión (atm)",
+          "1,0",
+          "4,0 (calculada)"
+        ],
+        [
+          "Volumen (L)",
+          "2,0",
+          "1,0"
+        ],
+        [
+          "Temperatura (K)",
+          "300",
+          "600"
+        ]
+      ]
+    },
+    "formula_latex": "P_1V_1/T_1 = P_2V_2/T_2",
+    "dificultad": "media",
+    "prereqs": [
+      "PC-QUI-005",
+      "PC-QUI-006"
+    ]
+  },
+  {
+    "id": "PC-QUI-008",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "gases_ideales_leyes_de_boyle_y_gay_lussac",
+    "modo": "pregunta",
+    "pregunta": "En un ítem de examen aparecen tres gráficas: (1) P vs V con una curva descendente, (2) P vs T con una recta creciente que pasa por el origen en kelvin, y (3) V vs T con una recta creciente que pasa por el origen en kelvin. ¿Qué variable se mantiene constante en cada caso, y qué ley representa cada gráfica?",
+    "respuesta": "La gráfica (1) mantiene la temperatura constante y representa la ley de Boyle; la (2) mantiene el volumen constante y representa la ley de Gay-Lussac; la (3) mantiene la presión constante y representa la ley de Charles. Reconocer cuál variable falta en cada gráfica es la forma más rápida de identificar la ley correcta.",
+    "regla": "Para identificar rápidamente qué ley de los gases describe una gráfica, conviene preguntarse cuál de las tres variables NO aparece en ninguno de los dos ejes, porque esa es la que se mantiene constante: si falta T, es Boyle; si falta V, es Gay-Lussac; si falta P, es **ley de Charles**.",
+    "ejemplo": "Una gráfica de V (eje Y) vs T en kelvin (eje X), con una línea recta que pasa por el origen, describe un globo que se expande al calentarse a presión atmosférica constante, un caso clásico de la ley de Charles.",
+    "error_comun": "Se intenta memorizar cada ley por separado sin desarrollar el atajo de identificar la variable ausente en los ejes, lo que hace más lenta la identificación bajo presión de tiempo en el examen.",
+    "conexion_cotidiana": "Un globo de cumpleaños inflado en una habitación fría se expande visiblemente al llevarlo cerca de una fuente de calor, un ejemplo directo de la ley de Charles.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Escala relativa de la variable independiente",
+      "ejeY": "Escala relativa de la variable dependiente",
+      "series": [
+        {
+          "nombre": "P vs V, a T constante (ley de Boyle)",
+          "datos": [
+            {
+              "x": "1",
+              "y": 5
+            },
+            {
+              "x": "2",
+              "y": 2.5
+            },
+            {
+              "x": "3",
+              "y": 1.67
+            },
+            {
+              "x": "4",
+              "y": 1.25
+            },
+            {
+              "x": "5",
+              "y": 1
+            }
+          ]
+        },
+        {
+          "nombre": "P vs T, a V constante (ley de Gay-Lussac)",
+          "datos": [
+            {
+              "x": "1",
+              "y": 1
+            },
+            {
+              "x": "2",
+              "y": 2
+            },
+            {
+              "x": "3",
+              "y": 3
+            },
+            {
+              "x": "4",
+              "y": 4
+            },
+            {
+              "x": "5",
+              "y": 5
+            }
+          ]
+        },
+        {
+          "nombre": "V vs T, a P constante (ley de Charles)",
+          "datos": [
+            {
+              "x": "1",
+              "y": 1
+            },
+            {
+              "x": "2",
+              "y": 2
+            },
+            {
+              "x": "3",
+              "y": 3
+            },
+            {
+              "x": "4",
+              "y": 4
+            },
+            {
+              "x": "5",
+              "y": 5
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Tres tendencias comparadas en escala relativa: P vs V es una curva descendente (Boyle), P vs T es una recta creciente (Gay-Lussac), y V vs T es una recta creciente (Charles)."
+    },
+    "dificultad": "media",
+    "prereqs": [
+      "PC-QUI-005",
+      "PC-QUI-006"
+    ]
+  },
+  {
+    "id": "PC-QUI-009",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "equilibrio_quimico_le_chatelier",
+    "modo": "pregunta",
+    "pregunta": "Una gráfica muestra la concentración de un reactivo (línea descendente) y de un producto (línea ascendente) en función del tiempo, ambas curvas volviéndose horizontales después de cierto tiempo. ¿Qué momento marca el punto donde las curvas se vuelven horizontales, y qué NO significa ese punto?",
+    "respuesta": "Ese punto marca el momento en que el sistema alcanza el equilibrio químico, donde las concentraciones dejan de cambiar de forma neta; NO significa que la reacción se haya detenido a nivel molecular, sino que las velocidades directa e inversa se igualaron, por lo que ambas siguen ocurriendo sin cambio observable.",
+    "regla": "En una gráfica de concentración vs. tiempo, el **equilibrio químico** se reconoce visualmente por el punto donde las curvas de reactivos y productos dejan de tener pendiente; antes de ese punto las concentraciones cambian porque la reacción neta avanza en una dirección predominante.",
+    "ejemplo": "En la disociación de N₂O₄ en NO₂ dentro de un recipiente cerrado, la concentración de NO₂ aumenta rápidamente al inicio y luego se estabiliza en una línea horizontal, mostrando que ambas especies coexisten en el equilibrio.",
+    "error_comun": "Se interpreta la parte horizontal de la gráfica como el fin de la reacción; un error relacionado es esperar que la concentración de reactivo llegue a cero en el equilibrio, cuando casi siempre queda una cantidad sin convertir.",
+    "conexion_cotidiana": "Al abrir una botella de bebida gaseosa, el CO₂ disuelto escapa rápidamente al principio y luego la efervescencia se hace mucho más lenta y estable.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Tiempo (s)",
+      "ejeY": "Concentración (mol/L)",
+      "series": [
+        {
+          "nombre": "Reactivo",
+          "datos": [
+            {
+              "x": "0",
+              "y": 1
+            },
+            {
+              "x": "10",
+              "y": 0.6
+            },
+            {
+              "x": "20",
+              "y": 0.35
+            },
+            {
+              "x": "30",
+              "y": 0.2
+            },
+            {
+              "x": "40",
+              "y": 0.15
+            },
+            {
+              "x": "50",
+              "y": 0.15
+            },
+            {
+              "x": "60",
+              "y": 0.15
+            }
+          ]
+        },
+        {
+          "nombre": "Producto",
+          "datos": [
+            {
+              "x": "0",
+              "y": 0
+            },
+            {
+              "x": "10",
+              "y": 0.4
+            },
+            {
+              "x": "20",
+              "y": 0.65
+            },
+            {
+              "x": "30",
+              "y": 0.8
+            },
+            {
+              "x": "40",
+              "y": 0.85
+            },
+            {
+              "x": "50",
+              "y": 0.85
+            },
+            {
+              "x": "60",
+              "y": 0.85
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Concentración de reactivo descendente y de producto ascendente que se vuelven horizontales tras alcanzar el equilibrio químico."
+    },
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "PC-QUI-010",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "equilibrio_quimico_le_chatelier",
+    "modo": "pregunta",
+    "pregunta": "En el sistema en equilibrio CO(g) + H₂O(g) ⇌ CO₂(g) + H₂(g), se añade más CO(g) al recipiente sin cambiar el volumen ni la temperatura. ¿Hacia qué lado se desplaza el equilibrio, y qué le sucede a la concentración de H₂ en el nuevo equilibrio?",
+    "respuesta": "El equilibrio se desplaza hacia la derecha (productos), porque el sistema responde al aumento de CO consumiendo parte de ese exceso, según Le Chatelier; la concentración de H₂ en el nuevo equilibrio será mayor que en el original, aunque menor que si todo el CO añadido se hubiera convertido completamente.",
+    "regla": "El **principio de Le Chatelier** establece que, si se perturba un sistema en equilibrio, este se desplaza en la dirección que contrarresta parcialmente esa perturbación, hasta alcanzar un nuevo estado de equilibrio.",
+    "ejemplo": "En el equilibrio de esterificación entre un ácido carboxílico y un alcohol, añadir más alcohol desplaza el equilibrio hacia la formación de más éster, una estrategia real usada en química orgánica para mejorar el rendimiento.",
+    "error_comun": "Se asume que añadir más reactivo hace que 'todo' ese reactivo adicional se convierta en producto, cuando en realidad el sistema solo se desplaza parcialmente hacia el nuevo equilibrio.",
+    "conexion_cotidiana": "En el cuerpo humano, la hemoglobina se une al oxígeno de forma reversible; en los pulmones, la alta concentración de oxígeno desplaza el equilibrio hacia la oxihemoglobina, mientras que en los tejidos el equilibrio se desplaza en sentido contrario.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "media",
+    "prereqs": [
+      "PC-QUI-009"
+    ]
+  },
+  {
+    "id": "PC-QUI-011",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "equilibrio_quimico_le_chatelier",
+    "modo": "pregunta",
+    "pregunta": "En el equilibrio N₂(g) + 3H₂(g) ⇌ 2NH₃(g), se reduce el volumen del recipiente a la mitad, aumentando la presión total, a temperatura constante. ¿Hacia qué lado se desplaza el equilibrio, y por qué?",
+    "respuesta": "El equilibrio se desplaza hacia la derecha, hacia el NH₃, porque el lado de los productos tiene menos moles totales de gas (2 mol) que el de los reactivos (4 mol); al aumentar la presión, el sistema se desplaza hacia el lado con menor número de moles gaseosos.",
+    "regla": "Cuando una reacción en equilibrio involucra gases con diferente número total de moles, un aumento de presión desplaza el equilibrio hacia el lado con **menor número de moles gaseosos**; si ambos lados tienen el mismo número de moles, los cambios de presión no afectan la posición del equilibrio.",
+    "ejemplo": "En el equilibrio 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), usado industrialmente para ácido sulfúrico, aumentar la presión favorece la formación de SO₃ porque el lado de los productos tiene menos moles de gas.",
+    "error_comun": "Se aplica la regla de presión-volumen sin antes contar cuidadosamente el número total de moles de gas en cada lado de la ecuación balanceada.",
+    "conexion_cotidiana": "Una olla de presión aumenta la presión interna al reducir el escape de vapor, el mismo principio que usa la industria para maximizar la producción de amoníaco en el proceso Haber-Bosch.",
+    "tipo_visual": "diagrama_esquematico",
+    "visual_posicion": "frente",
+    "visual_descripcion": "Diagrama de un recipiente con émbolo comprimido reduciendo el volumen a la mitad, mostrando el conteo de moléculas de gas en cada lado (4 vs 2) y una flecha hacia los productos.",
+    "formula_latex": "N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)",
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-QUI-010"
+    ],
+    "imagen": "PC-QUI-011.svg"
+  },
+  {
+    "id": "PC-QUI-012",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "equilibrio_quimico_le_chatelier",
+    "modo": "pregunta",
+    "pregunta": "La descomposición de N₂O₄ en NO₂ es endotérmica. Un estudiante debe predecir qué le sucede al equilibrio al aumentar la temperatura, y además evaluar si añadir un catalizador cambiaría la posición final del equilibrio. ¿Cuáles son las respuestas correctas a ambas preguntas?",
+    "respuesta": "Al aumentar la temperatura, el equilibrio se desplaza hacia la derecha (más NO₂), porque el calor actúa como un 'reactivo' adicional; añadir un catalizador NO desplaza la posición del equilibrio, porque acelera por igual ambas direcciones, permitiendo alcanzar el equilibrio más rápido, pero sin cambiar las concentraciones finales.",
+    "regla": "En Le Chatelier, el calor se trata como reactivo (endotérmica) o producto (exotérmica); un **catalizador** nunca desplaza la posición de un equilibrio, porque acelera igualmente ambas direcciones, afectando solo la rapidez, no la posición final.",
+    "ejemplo": "En la síntesis industrial de amoníaco, bajar la temperatura favorece más NH₃ en el equilibrio, pero como la reacción se vuelve lenta, se usa un catalizador de hierro para acelerar sin modificar la posición de equilibrio.",
+    "error_comun": "Se asume que un catalizador, al 'ayudar' a que la reacción avance, debe favorecer la formación de más producto en el equilibrio, uno de los errores conceptuales más comunes del tema.",
+    "conexion_cotidiana": "Una carretera nueva y más rápida entre dos ciudades hace que la gente llegue antes, pero no cambia dónde vive la gente al final; de forma similar, un catalizador acelera el camino sin cambiar las concentraciones finales.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-QUI-010",
+      "PC-QUI-011"
+    ]
+  },
+  {
+    "id": "PC-QUI-013",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "cinetica_de_reaccion_y_efecto_catalitico",
+    "modo": "pregunta",
+    "pregunta": "En la reacción entre KMnO₄ y ácido oxálico, se mide la concentración de KMnO₄ en función del tiempo y se obtiene una curva que decae lentamente al principio, pero luego decae mucho más rápido a la mitad del experimento, para finalmente aplanarse cerca del final. Este comportamiento es característico de una reacción autocatalítica, donde el Mn²⁺ producido acelera la propia reducción del KMnO₄. ¿Por qué esta curva no tiene la forma típica de una reacción de primer orden simple?",
+    "respuesta": "Porque al comienzo casi no hay Mn²⁺ presente (el catalizador aún no se ha formado), por lo que la velocidad inicial es lenta; a medida que se produce Mn²⁺, este acelera la reacción, generando el tramo de caída rápida; al final, la reacción se frena de nuevo porque el KMnO₄ se agota. Esta forma de aceleración progresiva seguida de desaceleración es la firma de una reacción autocatalítica.",
+    "regla": "Una reacción **autocatalítica** es aquella en la que uno de los productos formados actúa como catalizador de la misma reacción; su gráfica característica de concentración vs. tiempo muestra una curva sigmoidal, con fase inicial lenta, intermedia rápida, y final de nuevo lenta.",
+    "ejemplo": "La fermentación de la glucosa por levaduras muestra un patrón similar: al inicio hay pocas células activas, luego se acelera al multiplicarse la población, y finalmente se frena al agotarse el sustrato.",
+    "error_comun": "Se asume que toda curva de concentración vs. tiempo debe decaer siguiendo la misma forma exponencial suave de una reacción de primer orden simple, sin reconocer que un cambio marcado de pendiente es evidencia de un mecanismo autocatalítico.",
+    "conexion_cotidiana": "El fenómeno de que 'una manzana podrida daña a las demás' ocurre porque el etileno liberado acelera la maduración de las manzanas vecinas, un ejemplo cotidiano de un proceso que se acelera por su propio producto.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Tiempo (min)",
+      "ejeY": "Concentración de KMnO₄ (mol/L)",
+      "series": [
+        {
+          "nombre": "KMnO₄ (reacción autocatalítica)",
+          "datos": [
+            {
+              "x": "0",
+              "y": 1
+            },
+            {
+              "x": "2",
+              "y": 0.95
+            },
+            {
+              "x": "4",
+              "y": 0.85
+            },
+            {
+              "x": "6",
+              "y": 0.6
+            },
+            {
+              "x": "8",
+              "y": 0.3
+            },
+            {
+              "x": "10",
+              "y": 0.12
+            },
+            {
+              "x": "12",
+              "y": 0.05
+            },
+            {
+              "x": "14",
+              "y": 0.02
+            }
+          ]
+        },
+        {
+          "nombre": "Decaimiento de primer orden simple (referencia)",
+          "datos": [
+            {
+              "x": "0",
+              "y": 1
+            },
+            {
+              "x": "2",
+              "y": 0.82
+            },
+            {
+              "x": "4",
+              "y": 0.67
+            },
+            {
+              "x": "6",
+              "y": 0.55
+            },
+            {
+              "x": "8",
+              "y": 0.45
+            },
+            {
+              "x": "10",
+              "y": 0.37
+            },
+            {
+              "x": "12",
+              "y": 0.3
+            },
+            {
+              "x": "14",
+              "y": 0.25
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Curva sigmoidal invertida (lenta, luego rápida, luego lenta) de la reacción autocatalítica, contrastada con el decaimiento exponencial suave de una reacción de primer orden simple."
+    },
+    "dificultad": "alta",
+    "prereqs": []
+  },
+  {
+    "id": "PC-QUI-014",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "cinetica_de_reaccion_y_efecto_catalitico",
+    "modo": "pregunta",
+    "pregunta": "Un diagrama de energía de una reacción exotérmica muestra dos curvas superpuestas: una con un pico más alto (sin catalizador) y otra con un pico más bajo (con catalizador), pero ambas comienzan y terminan en los mismos niveles de energía. ¿Qué cambia y qué NO cambia entre las dos curvas?",
+    "respuesta": "Cambia la energía de activación (Ea), menor con catalizador, porque este ofrece un camino alternativo con menor barrera; NO cambia la diferencia de energía entre reactivos y productos (ΔH), que es la misma, porque el catalizador no altera la estabilidad relativa de reactivos y productos.",
+    "regla": "En un **diagrama de energía de reacción**, un catalizador se reconoce por reducir la altura del pico (Ea) sin cambiar los niveles de energía inicial y final (ΔH permanece igual); confundir estos dos efectos es un error conceptual frecuente.",
+    "ejemplo": "Las enzimas biológicas reducen drásticamente la energía de activación de reacciones metabólicas, sin cambiar la cantidad de energía que la reacción libera o absorbe en total.",
+    "error_comun": "Se interpreta erróneamente que un catalizador hace que la reacción libere más energía, cuando en realidad solo facilita el camino hacia el mismo resultado energético final.",
+    "conexion_cotidiana": "Un túnel a través de una montaña permite llegar al mismo destino que subir y bajar por la cima, en menos tiempo, pero la altitud final de llegada es la misma en ambos caminos.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Coordenada de reacción",
+      "ejeY": "Energía (kJ/mol)",
+      "series": [
+        {
+          "nombre": "Sin catalizador",
+          "datos": [
+            {
+              "x": "Reactivos",
+              "y": 100
+            },
+            {
+              "x": "Estado intermedio 1",
+              "y": 150
+            },
+            {
+              "x": "Estado de transición",
+              "y": 180
+            },
+            {
+              "x": "Estado intermedio 2",
+              "y": 110
+            },
+            {
+              "x": "Productos",
+              "y": 60
+            }
+          ]
+        },
+        {
+          "nombre": "Con catalizador",
+          "datos": [
+            {
+              "x": "Reactivos",
+              "y": 100
+            },
+            {
+              "x": "Estado intermedio 1",
+              "y": 115
+            },
+            {
+              "x": "Estado de transición",
+              "y": 130
+            },
+            {
+              "x": "Estado intermedio 2",
+              "y": 95
+            },
+            {
+              "x": "Productos",
+              "y": 60
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Dos curvas de energía superpuestas con los mismos niveles inicial y final, pero la curva con catalizador tiene un pico de energía de activación mucho más bajo."
+    },
+    "dificultad": "media",
+    "prereqs": [
+      "PC-QUI-013"
+    ]
+  },
+  {
+    "id": "PC-QUI-015",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "cinetica_de_reaccion_y_efecto_catalitico",
+    "modo": "pregunta",
+    "pregunta": "En dos experimentos se grafica la concentración de un reactivo vs. tiempo: en A, la gráfica es una línea recta descendente; en B, es una curva que decae exponencialmente, cada vez más lentamente. Sin hacer cálculos, ¿qué orden de reacción sugiere cada forma?",
+    "respuesta": "El experimento A sugiere orden cero (velocidad constante, independiente de la concentración); el experimento B sugiere primer orden (la velocidad de disminución se hace más lenta a medida que baja la concentración).",
+    "regla": "En una gráfica de concentración vs. tiempo, una **línea recta** descendente indica orden cero, mientras que una curva exponencial decreciente indica primer orden; reconocer esta forma general ahorra tiempo antes de recurrir a las ecuaciones integradas.",
+    "ejemplo": "La descomposición catalítica de un gas sobre la superficie saturada de un catalizador sólido suele mostrar cinética de orden cero, mientras que la descomposición radiactiva de un isótopo siempre sigue cinética de primer orden.",
+    "error_comun": "Se asume que toda disminución de concentración con el tiempo debe ser una línea recta, sin distinguir que solo las reacciones de orden cero producen esa forma.",
+    "conexion_cotidiana": "El metabolismo del alcohol etílico sigue cinética de orden cero a concentraciones típicas (el hígado lo procesa a una tasa casi constante), razón por la cual la eliminación del alcohol en sangre ocurre a un ritmo bastante predecible por hora.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Tiempo",
+      "ejeY": "Concentración",
+      "series": [
+        {
+          "nombre": "Experimento A (orden cero)",
+          "datos": [
+            {
+              "x": "0",
+              "y": 1
+            },
+            {
+              "x": "1",
+              "y": 0.8
+            },
+            {
+              "x": "2",
+              "y": 0.6
+            },
+            {
+              "x": "3",
+              "y": 0.4
+            },
+            {
+              "x": "4",
+              "y": 0.2
+            },
+            {
+              "x": "5",
+              "y": 0
+            }
+          ]
+        },
+        {
+          "nombre": "Experimento B (primer orden)",
+          "datos": [
+            {
+              "x": "0",
+              "y": 1
+            },
+            {
+              "x": "1",
+              "y": 0.7
+            },
+            {
+              "x": "2",
+              "y": 0.5
+            },
+            {
+              "x": "3",
+              "y": 0.35
+            },
+            {
+              "x": "4",
+              "y": 0.25
+            },
+            {
+              "x": "5",
+              "y": 0.18
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "El experimento A forma una línea recta descendente (orden cero) y el experimento B una curva exponencial decreciente (primer orden)."
+    },
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "PC-QUI-016",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "cinetica_de_reaccion_y_efecto_catalitico",
+    "modo": "pregunta",
+    "pregunta": "Muchos estudiantes recuerdan que la velocidad de una reacción se duplica aproximadamente por cada 10 °C que aumenta la temperatura. ¿Por qué esta regla es solo una aproximación cualitativa y no una ley exacta?",
+    "respuesta": "Porque la relación real entre temperatura y velocidad sigue la ecuación de Arrhenius, donde el efecto exacto depende de la energía de activación específica de cada reacción; la regla del 'se duplica cada 10 °C' es solo una generalización orientativa, no aplica igual a todas las reacciones.",
+    "regla": "La velocidad de una reacción aumenta con la temperatura porque una mayor fracción de moléculas alcanza la **energía de activación**; aunque existe la heurística de 'se duplica cada 10 °C', el efecto real depende de la Ea específica de cada reacción, según Arrhenius.",
+    "ejemplo": "Freír un alimento a mayor temperatura acelera las reacciones de pardeamiento (reacción de Maillard) mucho más rápido que hornearlo a baja temperatura.",
+    "error_comun": "Se aplica la regla de 'se duplica cada 10 °C' como ley universal exacta para cualquier reacción, sin considerar que reacciones con energías de activación muy distintas responden de forma muy diferente.",
+    "conexion_cotidiana": "La refrigeración de alimentos retrasa su descomposición porque las reacciones químicas y enzimáticas responsables del deterioro ocurren mucho más lento a bajas temperaturas.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "media",
+    "prereqs": [
+      "PC-QUI-014"
+    ]
+  },
+  {
+    "id": "PC-QUI-017",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "establecer_estrategias",
+    "bloque": "termoquimica_y_calorimetria",
+    "modo": "cloze",
+    "antes": "Para calcular el calor absorbido por 50 g de agua (c = 4,18 J/g·°C) al aumentar su temperatura de 20 °C a 45 °C, se aplica q = m·c·ΔT = 50 × 4,18 × 25 = ",
+    "despues": " J, aproximadamente 5,2 kJ.",
+    "respuesta": "5225",
+    "regla": "La ecuación **q = m·c·ΔT** permite calcular el calor absorbido o liberado por una sustancia al cambiar de temperatura, donde m es la masa, c el calor específico y ΔT el cambio de temperatura; solo aplica mientras no haya cambio de estado durante el proceso.",
+    "ejemplo": "Calentar 100 g de agua de 25 °C a 35 °C requiere q = 100 × 4,18 × 10 = 4180 J, una cantidad comparable a la que libera aproximadamente un gramo de grasa metabolizada en el cuerpo.",
+    "error_comun": "Se olvida que la fórmula no aplica durante un cambio de estado (como cuando el agua hierve o se congela), porque en esos procesos toda la energía se invierte en romper o formar enlaces intermoleculares y la temperatura permanece constante.",
+    "conexion_cotidiana": "El agua tiene un calor específico inusualmente alto comparado con otros líquidos, razón por la cual las zonas costeras tienen climas más templados: el mar absorbe y libera grandes cantidades de calor con cambios de temperatura relativamente pequeños.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "PC-QUI-018",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "termoquimica_y_calorimetria",
+    "modo": "pregunta",
+    "pregunta": "Un diagrama de energía muestra que el nivel de energía de los productos está por debajo del nivel de energía de los reactivos. ¿Es esta reacción exotérmica o endotérmica, y qué signo debería tener el ΔH reportado?",
+    "respuesta": "Es una reacción exotérmica, porque los productos tienen menor energía que los reactivos, indicando que el sistema liberó energía; por convención, el ΔH para una reacción exotérmica es negativo.",
+    "regla": "En un diagrama de energía, si el nivel de los **productos** queda por debajo del de los **reactivos**, la reacción es exotérmica (ΔH negativo); si los productos quedan por encima, es endotérmica (ΔH positivo).",
+    "ejemplo": "La combustión de la gasolina en un motor es fuertemente exotérmica (ΔH muy negativo), mientras que la fotosíntesis, que almacena energía solar en enlaces químicos de la glucosa, es endotérmica.",
+    "error_comun": "Se confunde la dirección del cambio con el signo del ΔH, olvidando que 'liberar energía' (exotérmica) corresponde a un ΔH negativo y no positivo.",
+    "conexion_cotidiana": "Una compresa fría instantánea usada en lesiones deportivas funciona mediante una reacción endotérmica (disolución de nitrato de amonio en agua), que absorbe calor del entorno.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Coordenada de reacción",
+      "ejeY": "Energía (kJ/mol)",
+      "series": [
+        {
+          "nombre": "Reacción exotérmica",
+          "datos": [
+            {
+              "x": "Reactivos",
+              "y": 150
+            },
+            {
+              "x": "Estado de transición",
+              "y": 190
+            },
+            {
+              "x": "Productos",
+              "y": 80
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Diagrama de energía donde los productos quedan por debajo de los reactivos, indicando una reacción exotérmica con ΔH negativo."
+    },
+    "formula_latex": "\\Delta H < 0 \\text{ (exotérmica)}",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "PC-QUI-019",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "establecer_estrategias",
+    "bloque": "termoquimica_y_calorimetria",
+    "modo": "pregunta",
+    "pregunta": "Se conocen las entalpías de dos reacciones: (1) C(s) + O₂(g) → CO₂(g), ΔH₁ = −393,5 kJ; (2) CO(g) + ½O₂(g) → CO₂(g), ΔH₂ = −283,0 kJ. Usando la ley de Hess, ¿cuál es la entalpía de C(s) + ½O₂(g) → CO(g)?",
+    "respuesta": "Se resta la reacción (2) de la (1): ΔH = ΔH₁ − ΔH₂ = −393,5 − (−283,0) = −110,5 kJ; al invertir la reacción (2) y sumarla a la (1), el CO₂ se cancela, dejando exactamente C(s) + ½O₂(g) → CO(g) con ΔH = −110,5 kJ.",
+    "regla": "La **ley de Hess** establece que el cambio de entalpía de una reacción es el mismo sin importar si ocurre en un solo paso o en varios pasos intermedios, siempre que los estados inicial y final sean los mismos; esto permite sumar o restar reacciones conocidas hasta cancelar las especies intermedias.",
+    "ejemplo": "La entalpía de formación del CO₂ se puede verificar sumando la entalpía de combustión del carbono a CO, más la de combustión del CO a CO₂, y el resultado coincide con la entalpía de combustión directa del carbono a CO₂.",
+    "error_comun": "Se suman o restan las reacciones sin invertir correctamente el signo del ΔH al invertir una reacción, o sin multiplicar el ΔH por el mismo factor con el que se multiplican los coeficientes.",
+    "conexion_cotidiana": "Calcular la energía neta ganada o perdida en un viaje de ida y vuelta en bicicleta subiendo y bajando una montaña es análogo a la ley de Hess: el cambio neto de altura entre inicio y llegada es el mismo sin importar la ruta.",
+    "tipo_visual": "tabla",
+    "visual_posicion": "frente",
+    "tabla_filas": {
+      "columnas": [
+        "Paso",
+        "Reacción",
+        "ΔH (kJ)"
+      ],
+      "filas": [
+        [
+          "Reacción (1)",
+          "C(s) + O₂(g) → CO₂(g)",
+          "−393,5"
+        ],
+        [
+          "Reacción (2) invertida",
+          "CO₂(g) → CO(g) + ½O₂(g)",
+          "+283,0"
+        ],
+        [
+          "Suma neta",
+          "C(s) + ½O₂(g) → CO(g)",
+          "−110,5"
+        ]
+      ]
+    },
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-QUI-018"
+    ]
+  },
+  {
+    "id": "PC-QUI-020",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "termoquimica_y_calorimetria",
+    "modo": "pregunta",
+    "pregunta": "En un experimento de calorimetría, se mezclan un ácido y una base dentro de un calorímetro y se registra la temperatura cada 30 segundos. La gráfica muestra un aumento rápido de temperatura seguido de un descenso lento y gradual después del pico máximo. ¿Qué explica ese descenso, y cómo afecta el cálculo del calor de reacción?",
+    "respuesta": "El descenso se debe a que el calorímetro no es un sistema perfectamente aislado: parte del calor se pierde hacia el ambiente con el tiempo; para calcular el calor de reacción con mayor exactitud, se extrapola la temperatura máxima que se habría alcanzado en el instante exacto de la mezcla, en lugar de usar directamente el pico observado.",
+    "regla": "En un experimento de **calorimetría**, la pérdida gradual de calor hacia el entorno después del pico de temperatura es un error sistemático esperado; los calorímetros más precisos corrigen este efecto extrapolando la curva de enfriamiento hacia el momento exacto de la mezcla.",
+    "ejemplo": "Al medir la temperatura del agua en una taza de café recién servido, la temperatura sube momentaneamente y luego desciende gradualmente por la pérdida de calor hacia el aire, similar al patrón de un calorímetro no aislado.",
+    "error_comun": "Se usa directamente la temperatura máxima observada como si fuera la teórica sin pérdidas, sin considerar que si el pico se registró segundos después de la mezcla, ya se perdió algo de calor, subestimando el calor real.",
+    "conexion_cotidiana": "Una olla de agua hirviendo tapada mantiene el calor mucho mejor que una destapada; un calorímetro bien aislado minimiza ese mismo tipo de pérdida.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Tiempo (s)",
+      "ejeY": "Temperatura (°C)",
+      "series": [
+        {
+          "nombre": "Temperatura medida",
+          "datos": [
+            {
+              "x": "0",
+              "y": 20
+            },
+            {
+              "x": "5",
+              "y": 28
+            },
+            {
+              "x": "10",
+              "y": 34
+            },
+            {
+              "x": "15",
+              "y": 38
+            },
+            {
+              "x": "20",
+              "y": 38.5
+            },
+            {
+              "x": "30",
+              "y": 38
+            },
+            {
+              "x": "40",
+              "y": 37.5
+            },
+            {
+              "x": "50",
+              "y": 37
+            },
+            {
+              "x": "60",
+              "y": 36.5
+            }
+          ]
+        },
+        {
+          "nombre": "Extrapolación al instante de la mezcla",
+          "datos": [
+            {
+              "x": "10",
+              "y": 39.8
+            },
+            {
+              "x": "20",
+              "y": 38.5
+            },
+            {
+              "x": "30",
+              "y": 38
+            },
+            {
+              "x": "40",
+              "y": 37.5
+            },
+            {
+              "x": "50",
+              "y": 37
+            },
+            {
+              "x": "60",
+              "y": 36.5
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "La temperatura sube rápidamente hasta un pico y luego desciende gradualmente por pérdida de calor; la línea de extrapolación corrige el pico hacia el instante exacto de la mezcla."
+    },
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-QUI-017"
+    ]
+  },
+  {
+    "id": "PC-QUI-021",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "establecer_estrategias",
+    "bloque": "redox_y_balanceo_de_ecuaciones",
+    "modo": "cloze",
+    "antes": "En la reacción redox Zn(s) + Ag⁺(aq) → Zn²⁺(aq) + Ag(s), el Zn cede 2 electrones (Zn → Zn²⁺ + 2e⁻) mientras cada Ag⁺ acepta 1 electrón (Ag⁺ + e⁻ → Ag); para igualar los electrones transferidos, el coeficiente correcto de Ag⁺ y Ag es ",
+    "despues": ", ya que se necesitan dos iones Ag⁺ para aceptar los 2 electrones que cede cada átomo de Zn.",
+    "respuesta": "2",
+    "regla": "En el **balanceo de ecuaciones redox** por transferencia de electrones, el número total de electrones perdidos en la oxidación debe ser igual al número total de electrones ganados en la reducción; para lograrlo, se multiplican las semirreacciones por los coeficientes necesarios antes de sumarlas.",
+    "ejemplo": "En Mg + 2HCl → MgCl₂ + H₂, el Mg cede 2 electrones al pasar de Mg⁰ a Mg²⁺, mientras que cada H⁺ solo acepta 1 electrón, por lo que se necesitan 2 iones H⁺.",
+    "error_comun": "Se balancean solo los átomos visibles, sin verificar que el número de electrones cedidos y ganados sea igual; una ecuación puede parecer balanceada en átomos y aun así estar mal balanceada en la transferencia de electrones.",
+    "conexion_cotidiana": "El proceso de galvanizado, donde el zinc protege al hierro de la corrosión, se basa en esta misma reacción: el zinc se oxida preferentemente antes que el hierro, protegiéndolo.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "PC-QUI-022",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "redox_y_balanceo_de_ecuaciones",
+    "modo": "pregunta",
+    "pregunta": "En 2Al(s) + 3Cu²⁺(aq) → 2Al³⁺(aq) + 3Cu(s), identifica rápidamente cuál especie es el agente oxidante y cuál es el agente reductor, a partir del cambio en los números de oxidación.",
+    "respuesta": "El Al es el agente reductor, porque se oxida (0 a +3, cediendo electrones); el Cu²⁺ es el agente oxidante, porque se reduce (+2 a 0, ganando electrones). El agente oxidante es el que se reduce, y el agente reductor es el que se oxida.",
+    "regla": "El **agente oxidante** es la sustancia que provoca la oxidación de otra especie porque ella misma se reduce; el **agente reductor** provoca la reducción de otra porque ella misma se oxida. Es un punto de confusión frecuente porque el nombre describe lo que le hace al otro, no lo que le pasa a sí mismo.",
+    "ejemplo": "En la reacción de la lejía para blanquear telas, el hipoclorito actúa como agente oxidante, reduciéndose él mismo mientras oxida los compuestos coloreados de la mancha.",
+    "error_comun": "Se confunde el nombre del agente con lo que le sucede a esa misma especie: se piensa erróneamente que el 'agente oxidante' es el que se oxida, cuando es exactamente lo contrario.",
+    "conexion_cotidiana": "El oxígeno del aire actúa como agente oxidante en la oxidación (corrosión) del hierro para formar óxido de hierro; el oxígeno se reduce mientras el hierro se oxida.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "media",
+    "prereqs": [
+      "PC-QUI-021"
+    ]
+  },
+  {
+    "id": "PC-QUI-023",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "redox_y_balanceo_de_ecuaciones",
+    "modo": "pregunta",
+    "pregunta": "Se presentan dos semirreacciones: (1) Fe²⁺ → Fe³⁺ + e⁻; (2) MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O. ¿Cuál semirreacción representa la oxidación y cuál la reducción, y cuál es la forma más rápida de identificarlo?",
+    "respuesta": "La (1) es la oxidación, porque el hierro pierde un electrón (aparece del lado de los productos); la (2) es la reducción, porque el manganeso gana electrones (aparecen del lado de los reactivos). La forma más rápida: si los electrones están del lado de los productos, es oxidación; si están del lado de los reactivos, es reducción.",
+    "regla": "En una **semirreacción** redox, los electrones que aparecen del lado de los productos indican que la especie los perdió (oxidación), mientras que los que aparecen del lado de los reactivos indican que los ganó (reducción); es la forma más rápida de clasificarla sin calcular números de oxidación completos.",
+    "ejemplo": "En Cl₂ + 2e⁻ → 2Cl⁻, los electrones aparecen del lado de los reactivos, indicando que el cloro gana electrones y se reduce, un paso clave en la desinfección del agua potable con cloro.",
+    "error_comun": "Se intenta recordar de memoria qué elemento se oxida o se reduce en cada reacción particular, en lugar de aplicar la regla general y rápida de fijarse en qué lado aparecen los electrones.",
+    "conexion_cotidiana": "En una batería recargable, durante la carga y la descarga ocurren semirreacciones de oxidación y reducción en direcciones opuestas en cada electrodo.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "media",
+    "prereqs": [
+      "PC-QUI-022"
+    ]
+  },
+  {
+    "id": "PC-QUI-024",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "redox_y_balanceo_de_ecuaciones",
+    "modo": "pregunta",
+    "pregunta": "En una titulación redox, se gastan 22,4 mL de KMnO₄ 0,0200 M para reaccionar completamente con 25,0 mL de una solución de Fe²⁺, según 5Fe²⁺ + MnO₄⁻ + 8H⁺ → 5Fe³⁺ + Mn²⁺ + 4H₂O. ¿Cuál es la concentración de Fe²⁺?",
+    "respuesta": "Mol de KMnO₄: 0,0224 L × 0,0200 M = 4,48×10⁻⁴ mol; según la relación 5:1, mol de Fe²⁺ = 5 × 4,48×10⁻⁴ = 2,24×10⁻³ mol; concentración = 2,24×10⁻³ / 0,0250 L = 0,0896 M.",
+    "regla": "En una **titulación redox** (como la del permanganato, que sirve como su propio indicador por su color violeta), el cálculo de concentración sigue el mismo esquema de cualquier titulación: mol del valorante convertidos a mol del analito usando la relación estequiométrica correcta, divididos entre el volumen del analito.",
+    "ejemplo": "En una titulación ácido-base, 20,0 mL de NaOH 0,100 M neutralizan exactamente 25,0 mL de HCl de concentración desconocida; el cálculo sigue la misma lógica ajustando por la relación estequiométrica 1:1.",
+    "error_comun": "Se usa una relación 1:1 entre valorante y analito por costumbre, sin revisar la relación estequiométrica específica de la ecuación balanceada (aquí, 5:1), lo que subestima la concentración real por un factor de 5.",
+    "conexion_cotidiana": "El color violeta intenso del permanganato, que desaparece bruscamente al llegar al punto final, es la razón por la que se usa como su propio indicador en laboratorios de análisis de agua.",
+    "tipo_visual": "tabla",
+    "visual_posicion": "frente",
+    "tabla_filas": {
+      "columnas": [
+        "Magnitud",
+        "Valor"
+      ],
+      "filas": [
+        [
+          "Volumen de KMnO₄ gastado",
+          "22,4 mL"
+        ],
+        [
+          "Concentración de KMnO₄",
+          "0,0200 M"
+        ],
+        [
+          "Volumen de Fe²⁺",
+          "25,0 mL"
+        ],
+        [
+          "Relación estequiométrica Fe²⁺ : MnO₄⁻",
+          "5 : 1"
+        ],
+        [
+          "Concentración de Fe²⁺ (resultado)",
+          "0,0896 M"
+        ]
+      ]
+    },
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-QUI-023"
+    ]
+  },
+  {
+    "id": "PC-QUI-025",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "estados_de_oxidacion_e_interpretacion_de_datos_relativos",
+    "modo": "pregunta",
+    "pregunta": "Un laboratorio usa una técnica que mide la proporción relativa de Cu⁺ y Cu²⁺ en la superficie de una muestra de cobre oxidado, sin poder determinar la fase cristalina específica formada. Al analizar la muestra, se encuentra que el Cu⁺ es mayoritario, y un investigador concluye que el compuesto predominante es óxido cuproso (Cu₂O). ¿Es adecuada esta conclusión?",
+    "respuesta": "No es completamente adecuada; aunque el Cu⁺ mayoritario es consistente con la presencia de Cu₂O, la técnica solo mide la proporción de estados de oxidación, no confirma la fase cristalina exacta; podrían existir otras fases con Cu⁺, y confirmarlo requeriría una técnica adicional como difracción de rayos X.",
+    "regla": "Una técnica que mide la proporción relativa de **estados de oxidación** de un elemento da información sobre qué tan oxidado o reducido está ese elemento, pero no identifica por sí sola el compuesto químico específico ni su estructura cristalina.",
+    "ejemplo": "Una técnica que mide la proporción de Mn²⁺ y Mn⁴⁺ en un mineral de manganeso meteorizado no permite, por sí sola, distinguir entre diferentes óxidos de manganeso con esos mismos estados de oxidación.",
+    "error_comun": "Se asume que conocer la proporción de estados de oxidación es equivalente a conocer la identidad exacta del compuesto, sin considerar que varios compuestos distintos pueden compartir el mismo estado de oxidación.",
+    "conexion_cotidiana": "Saber que una persona tiene 'temperatura elevada' no te dice si tiene gripe, una infección bacteriana o una insolación; se necesita información adicional para un diagnóstico concreto.",
+    "tipo_visual": "tabla",
+    "visual_posicion": "reverso",
+    "tabla_filas": {
+      "columnas": [
+        "Lo que la técnica mide",
+        "Lo que NO puede determinar"
+      ],
+      "filas": [
+        [
+          "Proporción relativa de Cu⁺ y Cu²⁺ en la superficie",
+          "La fase cristalina específica formada (p. ej., Cu₂O u otra fase con Cu⁺)"
+        ],
+        [
+          "Que el Cu⁺ es mayoritario en la muestra",
+          "Si el compuesto exacto presente es óxido cuproso u otro compuesto distinto con Cu⁺"
+        ]
+      ]
+    },
+    "dificultad": "alta",
+    "prereqs": []
+  },
+  {
+    "id": "PC-QUI-026",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "estados_de_oxidacion_e_interpretacion_de_datos_relativos",
+    "modo": "pregunta",
+    "pregunta": "Una gráfica de barras muestra la proporción relativa de Mn²⁺ y Mn⁴⁺ en muestras de un mineral a distintas profundidades de un suelo expuesto a meteorización. A mayor profundidad, la proporción de Mn²⁺ aumenta. ¿Qué tendencia general sobre las condiciones del suelo sugiere esta gráfica, sin identificar compuestos específicos?",
+    "respuesta": "Sugiere que las capas más profundas tienen condiciones más reductoras (menor exposición al oxígeno atmosférico), favoreciendo el estado de oxidación más bajo del manganeso, mientras que las capas superficiales, más expuestas al oxígeno, favorecen el estado más oxidado.",
+    "regla": "Al leer una gráfica de barras que muestra la proporción de dos **estados de oxidación** de un elemento, es posible identificar tendencias generales (más o menos oxidante) sin necesidad de conocer los compuestos exactos formados.",
+    "ejemplo": "En sedimentos de un lago, las capas más profundas suelen mostrar mayor proporción de Fe²⁺ frente a Fe³⁺, reflejando condiciones más anóxicas en el fondo del cuerpo de agua.",
+    "error_comun": "Se pasa por alto la tendencia general que sí es segura de concluir por enfocarse en intentar identificar el compuesto exacto presente en cada profundidad, una conclusión que la técnica no respalda.",
+    "conexion_cotidiana": "El óxido verde-azulado (pátina) que se forma en estatuas de cobre expuestas a la intemperie refleja un proceso de oxidación superficial progresivo con el tiempo de exposición al aire y la humedad.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "barras",
+      "ejeX": "Profundidad del suelo (cm)",
+      "ejeY": "Proporción relativa (%)",
+      "series": [
+        {
+          "nombre": "Mn²⁺",
+          "datos": [
+            {
+              "x": "0",
+              "y": 20
+            },
+            {
+              "x": "10",
+              "y": 35
+            },
+            {
+              "x": "20",
+              "y": 55
+            },
+            {
+              "x": "30",
+              "y": 70
+            },
+            {
+              "x": "40",
+              "y": 85
+            }
+          ]
+        },
+        {
+          "nombre": "Mn⁴⁺",
+          "datos": [
+            {
+              "x": "0",
+              "y": 80
+            },
+            {
+              "x": "10",
+              "y": 65
+            },
+            {
+              "x": "20",
+              "y": 45
+            },
+            {
+              "x": "30",
+              "y": 30
+            },
+            {
+              "x": "40",
+              "y": 15
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Gráfica de barras apiladas donde la proporción de Mn²⁺ aumenta y la de Mn⁴⁺ disminuye a medida que aumenta la profundidad del suelo."
+    },
+    "dificultad": "media",
+    "prereqs": [
+      "PC-QUI-025"
+    ]
+  },
+  {
+    "id": "PC-QUI-027",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "estados_de_oxidacion_e_interpretacion_de_datos_relativos",
+    "modo": "pregunta",
+    "pregunta": "Un instrumento reporta que, en una muestra, el 70 % del hierro está en estado Fe³⁺ y el 30 % en estado Fe²⁺. Un estudiante concluye que la muestra contiene 'una gran cantidad' de Fe³⁺ en términos absolutos. ¿Es válida esta conclusión únicamente a partir de este dato?",
+    "respuesta": "No es válida sin información adicional; el 70 % es una proporción relativa entre los dos estados, no una medida de la cantidad absoluta de hierro. Una muestra con muy poco hierro total podría tener la misma proporción que una con mucho hierro total, sin implicar una 'gran cantidad' absoluta.",
+    "regla": "Un dato de **proporción relativa** indica cómo se reparte una cantidad entre categorías, pero no dice nada sobre la cantidad absoluta total presente; confundir proporción relativa con cantidad absoluta es un error frecuente al interpretar datos de composición.",
+    "ejemplo": "Que el 90 % de los estudiantes de un salón de solo 5 personas hayan aprobado no es comparable en términos absolutos con que el 90 % de un salón de 100 estudiantes haya aprobado, aunque el porcentaje sea el mismo.",
+    "error_comun": "Se interpreta un porcentaje alto como si implicara automáticamente una cantidad absoluta grande, sin verificar si se conoce la magnitud total de la que ese porcentaje es una fracción.",
+    "conexion_cotidiana": "Que una noticia diga que 'el 80 % de los encuestados prefiere el producto A' no dice nada útil si no se sabe cuántas personas fueron encuestadas en total.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "media",
+    "prereqs": [
+      "PC-QUI-026"
+    ]
+  },
+  {
+    "id": "PC-QUI-028",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "estados_de_oxidacion_e_interpretacion_de_datos_relativos",
+    "modo": "pregunta",
+    "pregunta": "En el CO₂, el carbono tiene número de oxidación +4 y cada oxígeno −2. Sin embargo, el CO₂ es una molécula covalente, sin iones reales C⁴⁺ ni O²⁻ separados. ¿Cómo se concilia esta aparente contradicción?",
+    "respuesta": "Se concilia entendiendo que el número de oxidación es un formalismo contable, no una medida directa de la carga real; se calcula asignando hipotéticamente todos los electrones de cada enlace covalente al átomo más electronegativo, aunque en la realidad los electrones se comparten de forma covalente.",
+    "regla": "El **número de oxidación** es una herramienta contable útil para seguir la transferencia de electrones en reacciones redox, pero no representa necesariamente la carga eléctrica real de un átomo dentro de una molécula covalente.",
+    "ejemplo": "En el metano (CH₄), el carbono tiene número de oxidación −4 (se le asignan hipotéticamente los electrones de los cuatro enlaces C–H), aunque en la realidad no tiene una carga real de −4.",
+    "error_comun": "Se interpreta el número de oxidación como si fuera literalmente la carga eléctrica real de cada átomo, lo cual solo es razonablemente cierto en compuestos iónicos simples.",
+    "conexion_cotidiana": "Asignar 'puntos' de responsabilidad completa a una sola persona en un proyecto grupal, aunque el trabajo se haya compartido, es una convención contable similar a cómo el número de oxidación asigna electrones compartidos a un solo átomo por convención.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-QUI-025"
+    ]
+  },
+  {
+    "id": "PC-QUI-029",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "reactividad_alcanos_alquinos_alquenos_frente_a_oxidantes",
+    "modo": "pregunta",
+    "pregunta": "Un estudiante hace reaccionar volúmenes iguales de etano, propeno y propino con una solución de KMnO₄, y observa que solo el propeno y el propino decoloran la solución violeta, mientras que el etano no produce ningún cambio visible. ¿Qué patrón estructural explica esta diferencia de reactividad?",
+    "respuesta": "El patrón es la presencia de enlaces múltiples carbono-carbono (dobles en el propeno, triples en el propino), atacados por el KMnO₄; el etano, con solo enlaces sencillos (alcano), es mucho menos reactivo frente a este oxidante en condiciones típicas.",
+    "regla": "Los **alquenos** y **alquinos** son mucho más reactivos frente a agentes oxidantes como el KMnO₄ que los **alcanos**, porque los electrones π de los enlaces múltiples son más accesibles para la oxidación; esta diferencia es la base de una prueba cualitativa rápida.",
+    "ejemplo": "El etileno (usado para acelerar la maduración de frutas) decolora rápidamente una solución de KMnO₄ debido a su doble enlace, mientras que el hexano no produce ningún cambio de color.",
+    "error_comun": "Se asume que todos los hidrocarburos deberían reaccionar de forma similar frente a un oxidante por ser 'de la misma familia química', sin considerar que la presencia de enlaces múltiples es la variable determinante.",
+    "conexion_cotidiana": "La prueba de decoloración del KMnO₄ se usa en control de calidad para verificar rápidamente el grado de insaturación de aceites y grasas.",
+    "tipo_visual": "tabla",
+    "visual_posicion": "frente",
+    "tabla_filas": {
+      "columnas": [
+        "Hidrocarburo",
+        "Tipo de enlace C–C",
+        "Resultado con KMnO₄"
+      ],
+      "filas": [
+        [
+          "Etano",
+          "Sencillo (alcano)",
+          "− (no decolora)"
+        ],
+        [
+          "Propeno",
+          "Doble (alqueno)",
+          "+ (decolora)"
+        ],
+        [
+          "Propino",
+          "Triple (alquino)",
+          "+ (decolora)"
+        ]
+      ]
+    },
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "PC-QUI-030",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "reactividad_alcanos_alquinos_alquenos_frente_a_oxidantes",
+    "modo": "pregunta",
+    "pregunta": "A partir del resultado anterior (el etano no decolora el KMnO₄), un estudiante concluye que 'todos los alcanos son completamente inertes frente a cualquier oxidante bajo cualquier condición'. ¿Es esta conclusión adecuada según la evidencia disponible?",
+    "respuesta": "No es adecuada; el experimento solo muestra que el etano no reacciona con KMnO₄ en condiciones específicas suaves, pero eso no permite generalizar a ningún oxidante bajo ninguna condición; los alcanos sí pueden oxidarse (combustión con O₂, u oxidantes fuertes bajo condiciones más severas).",
+    "regla": "Al sacar conclusiones de un experimento de reactividad, es importante no **sobregeneralizar** más allá de las condiciones específicas probadas; un resultado negativo bajo condiciones suaves no prueba una inercia absoluta.",
+    "ejemplo": "Que el oro no reaccione con la mayoría de los ácidos comunes no significa que sea 'completamente inerte'; el agua regia sí puede disolverlo, mostrando que la inercia depende de las condiciones probadas.",
+    "error_comun": "Se convierte un resultado experimental limitado en una afirmación universal, sin reconocer que el alcance de cualquier conclusión experimental está limitado a las condiciones bajo las cuales se obtuvo la evidencia.",
+    "conexion_cotidiana": "Que un producto de limpieza no elimine cierta mancha con agua fría no significa que la mancha sea 'imposible de quitar'; podría requerir agua caliente o un producto distinto.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-QUI-029"
+    ]
+  },
+  {
+    "id": "PC-QUI-031",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "reactividad_alcanos_alquinos_alquenos_frente_a_oxidantes",
+    "modo": "pregunta",
+    "pregunta": "Al agregar unas gotas de agua de bromo a dos tubos de ensayo, uno con ciclohexano y otro con ciclohexeno, el tubo con ciclohexeno pierde rápidamente el color, mientras que el de ciclohexano lo conserva. ¿Qué reacción explica esta diferencia?",
+    "respuesta": "Una reacción de adición electrofílica: el bromo se adiciona al doble enlace del ciclohexeno, formando un producto dibromado incoloro; el ciclohexano, sin enlaces múltiples, no puede reaccionar así, por lo que el color se mantiene.",
+    "regla": "La prueba del **agua de bromo** es una prueba cualitativa rápida para detectar enlaces dobles o triples carbono-carbono: si el color café-anaranjado desaparece rápidamente, indica una reacción de adición en un enlace múltiple; si persiste, sugiere ausencia de esos enlaces.",
+    "ejemplo": "Los aceites vegetales insaturados decoloran el agua de bromo más rápidamente que las grasas saturadas, reflejando su mayor proporción de enlaces dobles carbono-carbono.",
+    "error_comun": "Se confunde esta prueba con la del KMnO₄, asumiendo que ambas indican exactamente el mismo tipo de reacción, cuando una es una adición electrofílica y la otra una oxidación.",
+    "conexion_cotidiana": "La etiqueta nutricional de un aceite que indica su contenido de 'grasas insaturadas' se relaciona con este mismo concepto de enlaces dobles, detectables con pruebas como la del agua de bromo.",
+    "tipo_visual": "estructura_quimica",
+    "visual_posicion": "frente",
+    "visual_descripcion": "Estructuras del ciclohexano y el ciclohexeno lado a lado, con una flecha mostrando la adición de Br₂ al doble enlace del ciclohexeno.",
+    "dificultad": "media",
+    "prereqs": [
+      "PC-QUI-029"
+    ],
+    "imagen": "PC-QUI-031.svg"
+  },
+  {
+    "id": "PC-QUI-032",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "reactividad_alcanos_alquinos_alquenos_frente_a_oxidantes",
+    "modo": "pregunta",
+    "pregunta": "Al quemar cantidades similares de hexano y de tolueno en un mechero, la llama del tolueno produce mucho más hollín que la del hexano. ¿Qué relación estructural explica esta diferencia?",
+    "respuesta": "Se relaciona con la proporción carbono:hidrógeno de cada molécula: los hidrocarburos aromáticos e insaturados tienen mayor proporción de carbono respecto al hidrógeno, dificultando la combustión completa y favoreciendo el hollín; los alcanos, con más hidrógeno proporcional, arden con llamas más limpias.",
+    "regla": "El grado de **hollín** producido en la combustión de un hidrocarburo está relacionado con su relación carbono:hidrógeno: cuanto mayor es esta proporción, más difícil es la combustión completa, y más hollín se libera como humo negro.",
+    "ejemplo": "Las velas de parafina (alcanos de cadena larga) arden generalmente con menos hollín que una vela con más anillos aromáticos, ilustrando cómo la composición afecta el patrón de la llama.",
+    "error_comun": "Se asume que todos los hidrocarburos deberían arder de forma idéntica por pertenecer a la misma categoría general, sin considerar que la estructura molecular específica determina qué tan completa es la combustión.",
+    "conexion_cotidiana": "Una vela o estufa de gas mal ajustada que produce una llama amarilla y con hollín indica combustión incompleta, mientras que una llama azul indica combustión más completa y eficiente.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "media",
+    "prereqs": [
+      "PC-QUI-029"
+    ]
+  },
+  {
+    "id": "PC-QUI-033",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "geometria_molecular_y_angulos_de_enlace",
+    "modo": "pregunta",
+    "pregunta": "El CH₄, el NH₃ y el H₂O tienen todos un átomo central con cuatro dominios de electrones, pero sus ángulos de enlace son distintos: 109,5°, ~107° y ~104,5° respectivamente. ¿Por qué disminuye el ángulo a medida que aumenta el número de pares solitarios?",
+    "respuesta": "Porque los pares de electrones no enlazantes ocupan más espacio que los pares enlazantes, generando mayor repulsión sobre los pares enlazantes vecinos y comprimiendo el ángulo. El CH₄ no tiene pares solitarios (109,5°), el NH₃ tiene uno (~107°), y el H₂O tiene dos (~104,5°).",
+    "regla": "Según la teoría **VSEPR**, los pares de electrones no enlazantes generan más repulsión que los pares enlazantes, comprimiendo los ángulos de enlace observados a medida que aumenta el número de pares solitarios alrededor de un mismo número total de dominios electrónicos.",
+    "ejemplo": "El PF₃ (con un par solitario en el fósforo, similar al NH₃) tiene un ángulo F-P-F menor a 109,5°, siguiendo el mismo patrón de compresión angular.",
+    "error_comun": "Se asume que todas las moléculas con cuatro dominios de electrones deben tener exactamente el ángulo tetraédrico ideal de 109,5°, sin considerar que los pares solitarios modifican ese ángulo.",
+    "conexion_cotidiana": "La forma angular de la molécula de agua, resultado de sus dos pares solitarios, es la razón de su naturaleza polar, lo cual explica por qué el agua disuelve tan bien sustancias iónicas y polares.",
+    "tipo_visual": "estructura_quimica",
+    "visual_posicion": "frente",
+    "visual_descripcion": "Tres estructuras moleculares (CH₄ tetraédrica, NH₃ piramidal trigonal, H₂O angular) con sus ángulos de enlace etiquetados y los pares solitarios resaltados.",
+    "dificultad": "media",
+    "prereqs": [],
+    "imagen": "PC-QUI-033.svg"
+  },
+  {
+    "id": "PC-QUI-034",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "geometria_molecular_y_angulos_de_enlace",
+    "modo": "pregunta",
+    "pregunta": "Un átomo de carbono puede tener hibridación sp³, sp² o sp. ¿Qué ángulo de enlace ideal corresponde a cada tipo, y cómo se reconoce rápidamente cada una a partir de una estructura de Lewis?",
+    "respuesta": "sp³ corresponde a 109,5° (tetraédrica, 4 enlaces sencillos); sp² corresponde a 120° (trigonal plana, con un doble enlace); sp corresponde a 180° (lineal, con un triple enlace). Se reconoce contando cuántos átomos están unidos directamente al carbono: 4 → sp³; 3 → sp²; 2 → sp.",
+    "regla": "El tipo de **hibridación** de un carbono determina su geometría y ángulo ideal, y se identifica rápidamente contando el número de átomos unidos directamente a ese carbono: 4 → sp³ (109,5°), 3 → sp² (120°), 2 → sp (180°).",
+    "ejemplo": "En el propino (CH₃–C≡CH), el carbono del grupo metilo tiene hibridación sp³ (109,5°), mientras que los dos carbonos del triple enlace tienen hibridación sp (180°).",
+    "error_comun": "Se intenta determinar la hibridación contando electrones de valencia totales, en lugar de contar simplemente cuántos átomos están unidos directamente, el método más rápido de reconocimiento visual.",
+    "conexion_cotidiana": "El grafito (carbonos sp², 120°, en capas planas) y el diamante (carbonos sp³, 109,5°, en red tridimensional) son formas del mismo elemento cuyas propiedades tan distintas se explican por esta diferencia de hibridación.",
+    "tipo_visual": "estructura_quimica",
+    "visual_posicion": "frente",
+    "visual_descripcion": "Tres estructuras de carbono con hibridación sp³ (109,5°), sp² (120°) y sp (180°), junto a un ejemplo de molécula típica de cada una.",
+    "dificultad": "media",
+    "prereqs": [
+      "PC-QUI-033"
+    ],
+    "imagen": "PC-QUI-034.svg"
+  },
+  {
+    "id": "PC-QUI-035",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "geometria_molecular_y_angulos_de_enlace",
+    "modo": "pregunta",
+    "pregunta": "Tanto el BF₃ como el NF₃ tienen un átomo central unido a tres átomos de flúor, pero el BF₃ es trigonal plana (120°) mientras que el NF₃ es piramidal trigonal (ángulos menores a 109,5°). ¿Qué diferencia en la estructura de Lewis explica esta diferencia de geometría?",
+    "respuesta": "El boro en el BF₃ no tiene pares de electrones solitarios (octeto incompleto), dando geometría trigonal plana; el nitrógeno en el NF₃ sí tiene un par solitario además de los 3 enlazantes, generando un cuarto dominio de electrones y una geometría piramidal trigonal.",
+    "regla": "Para determinar la geometría molecular a partir de una estructura de Lewis, es necesario contar tanto los pares **enlazantes** como los **no enlazantes** alrededor del átomo central: dos moléculas con el mismo número de átomos unidos pueden tener geometrías distintas si difieren en pares solitarios.",
+    "ejemplo": "El CO₂ (sin pares solitarios en el carbono) es lineal (180°), mientras que el SO₂ (con un par solitario adicional en el azufre) es angular, mostrando el mismo principio con solo 2 átomos unidos al centro.",
+    "error_comun": "Se determina la geometría contando solo los átomos visiblemente unidos al átomo central, sin verificar si existen pares solitarios adicionales en la estructura de Lewis completa.",
+    "conexion_cotidiana": "El trifluoruro de boro se usa como catalizador en varias reacciones orgánicas industriales precisamente porque su geometría plana y su octeto incompleto lo hacen un buen aceptor de pares de electrones.",
+    "tipo_visual": "estructura_quimica",
+    "visual_posicion": "frente",
+    "visual_descripcion": "Estructuras de Lewis del BF₃ (trigonal plana, sin par solitario en B) y del NF₃ (piramidal trigonal, con un par solitario en N), con ángulos etiquetados.",
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-QUI-033"
+    ],
+    "imagen": "PC-QUI-035.svg"
+  },
+  {
+    "id": "PC-QUI-036",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "geometria_molecular_y_angulos_de_enlace",
+    "modo": "pregunta",
+    "pregunta": "Para el agua, la geometría de dominios de electrones es tetraédrica, pero la geometría molecular se describe como angular. ¿Por qué se usan dos nombres distintos para describir la misma molécula?",
+    "respuesta": "Describen dos aspectos distintos: la geometría de dominios de electrones incluye todos los pares (enlazantes y solitarios), que en el agua es tetraédrica; la geometría molecular describe solo la posición de los átomos, que en el agua es angular, porque solo se consideran el oxígeno y los dos hidrógenos.",
+    "regla": "La **geometría de dominios de electrones** considera todos los pares alrededor del átomo central, mientras que la **geometría molecular** describe solo la disposición espacial de los átomos, ignorando los pares solitarios; ambas coinciden solo cuando no hay pares solitarios.",
+    "ejemplo": "En el NH₃, la geometría de dominios de electrones es tetraédrica (4 dominios), pero la geometría molecular es piramidal trigonal, considerando solo las posiciones de los 3 hidrógenos y el nitrógeno.",
+    "error_comun": "Se usan ambos términos como si fueran intercambiables, sin notar que solo coinciden cuando el átomo central no tiene pares solitarios; en presencia de pares solitarios, ambas geometrías son distintas.",
+    "conexion_cotidiana": "Describir la disposición de los muebles visibles en una habitación es distinto de describir la disposición de todo el espacio ocupado incluyendo zonas reservadas no visibles, una analogía útil para recordar por qué ambas descripciones pueden diferir.",
+    "tipo_visual": "estructura_quimica",
+    "visual_posicion": "frente",
+    "visual_descripcion": "Estructura del agua mostrando la geometría de dominios de electrones tetraédrica (con los 2 pares solitarios) junto a la geometría molecular angular, para contraste directo.",
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-QUI-033",
+      "PC-QUI-035"
+    ],
+    "imagen": "PC-QUI-036.svg"
+  },
+  {
+    "id": "PC-QUI-037",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "establecer_estrategias",
+    "bloque": "acido_base_y_procedimientos_de_laboratorio",
+    "modo": "pregunta",
+    "pregunta": "Para purificar una muestra de ácido benzoico contaminada con una impureza neutra insoluble en agua, se disuelve la mezcla en un disolvente orgánico, se agita con NaOH, se separan las fases, y a la fase acuosa se le añade HCl hasta acidificarla. ¿Qué papel cumple cada paso?",
+    "respuesta": "El NaOH convierte el ácido benzoico en benzoato de sodio (soluble en agua), separándolo de la impureza neutra que permanece en la fase orgánica; el HCl reprotona el benzoato de sodio, regenerando el ácido benzoico insoluble, que precipita purificado.",
+    "regla": "La **extracción ácido-base** aprovecha que un ácido o base orgánicos cambian su solubilidad al convertirse en su forma iónica (sal): un ácido insoluble en agua se vuelve soluble al reaccionar con una base fuerte, y regresa a su forma insoluble al reprotonarse con un ácido fuerte.",
+    "ejemplo": "Para purificar la cafeína (base débil) de impurezas neutras, se disuelve en disolvente orgánico, se agita con HCl diluido (protonando la cafeína), se separa la fase acuosa, y luego se añade una base para regenerar la cafeína libre.",
+    "error_comun": "Se intenta recordar el procedimiento como pasos memorizados sin entender el principio subyacente (el cambio de solubilidad al cambiar la forma iónica/neutra), dificultando adaptarlo a un compuesto distinto en un examen.",
+    "conexion_cotidiana": "La forma en que el estómago absorbe mejor ciertos medicamentos ácidos en su forma neutra, mientras que en el intestino con otro pH predomina la forma ionizada, es un ejemplo médico real del mismo principio.",
+    "tipo_visual": "diagrama_esquematico",
+    "visual_posicion": "frente",
+    "visual_descripcion": "Diagrama de flujo: mezcla en disolvente orgánico → agitación con NaOH → separación de fases → acidificación con HCl → precipitación del ácido benzoico purificado.",
+    "dificultad": "media",
+    "prereqs": [],
+    "imagen": "PC-QUI-037.svg"
+  },
+  {
+    "id": "PC-QUI-038",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "acido_base_y_procedimientos_de_laboratorio",
+    "modo": "cloze",
+    "antes": "Una solución tiene [H⁺] = 1,0 × 10⁻³ M. Aplicando pH = −log[H⁺], el pH de esta solución es ",
+    "despues": ", lo que indica una solución claramente ácida (pH menor a 7).",
+    "respuesta": "3",
+    "regla": "El **pH** de una solución se calcula como el logaritmo negativo en base 10 de [H⁺]; una forma rápida de estimarlo cuando [H⁺] es una potencia exacta de 10 es simplemente tomar el exponente cambiado de signo, sin calculadora.",
+    "ejemplo": "Una solución con [H⁺] = 1,0 × 10⁻⁵ M tiene pH 5, mientras que una con [H⁺] = 1,0 × 10⁻¹⁰ M tiene pH 10, mostrando que a menor [H⁺], mayor es el pH.",
+    "error_comun": "Se confunde la relación inversa entre [H⁺] y pH: se asume que mayor [H⁺] da mayor pH, cuando la relación logarítmica hace que a mayor [H⁺], menor sea el pH.",
+    "conexion_cotidiana": "El jugo gástrico del estómago tiene un pH de aproximadamente 1,5 a 3,5, mientras que la sangre humana se mantiene en un rango estrecho de pH 7,35 a 7,45, un equilibrio que el cuerpo regula estrictamente.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "PC-QUI-039",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "acido_base_y_procedimientos_de_laboratorio",
+    "modo": "pregunta",
+    "pregunta": "En una curva de titulación de un ácido débil con una base fuerte, se observa un salto brusco de pH cerca de los 25,0 mL de base (punto de equivalencia), y una zona plana cerca de los 12,5 mL. ¿Qué representa cada punto?",
+    "respuesta": "El punto cerca de 25,0 mL es el punto de equivalencia, donde la base neutralizó exactamente todo el ácido; el punto cerca de 12,5 mL (media equivalencia) es donde el pH es numéricamente igual al pKa del ácido débil, porque allí las concentraciones de ácido y su base conjugada son iguales.",
+    "regla": "En una curva de titulación de un ácido débil, el **punto de equivalencia** se reconoce por el salto brusco de pH, y el punto de media equivalencia (la mitad del volumen de equivalencia) se reconoce por ser la zona más plana, coincidiendo numéricamente con el pKa del ácido.",
+    "ejemplo": "En la titulación del ácido acético (pKa ≈ 4,74) con NaOH, el pH en el punto de media equivalencia será aproximadamente 4,74, permitiendo estimar rápidamente el pKa solo con leer la curva.",
+    "error_comun": "Se confunde el punto de equivalencia con el de media equivalencia, o se olvida que el pH en el punto de equivalencia de un ácido débil con base fuerte NO es 7, sino mayor a 7.",
+    "conexion_cotidiana": "Las soluciones reguladoras usadas para mantener estable el pH de la sangre funcionan mejor cerca del punto de media equivalencia de su ácido componente, donde la capacidad de resistir cambios de pH es máxima.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Volumen de base añadido (mL)",
+      "ejeY": "pH",
+      "series": [
+        {
+          "nombre": "Curva de titulación",
+          "datos": [
+            {
+              "x": "0",
+              "y": 3
+            },
+            {
+              "x": "5",
+              "y": 4
+            },
+            {
+              "x": "10",
+              "y": 4.5
+            },
+            {
+              "x": "12.5",
+              "y": 4.74
+            },
+            {
+              "x": "15",
+              "y": 5
+            },
+            {
+              "x": "20",
+              "y": 5.6
+            },
+            {
+              "x": "23",
+              "y": 6.3
+            },
+            {
+              "x": "24.5",
+              "y": 7.8
+            },
+            {
+              "x": "25",
+              "y": 8.9
+            },
+            {
+              "x": "25.5",
+              "y": 10.5
+            },
+            {
+              "x": "26",
+              "y": 11.2
+            },
+            {
+              "x": "28",
+              "y": 11.8
+            },
+            {
+              "x": "30",
+              "y": 12
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Curva de titulación con un salto brusco de pH cerca de 25,0 mL (punto de equivalencia) y una zona plana cerca de 12,5 mL donde el pH iguala al pKa del ácido débil."
+    },
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-QUI-038"
+    ]
+  },
+  {
+    "id": "PC-QUI-040",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "acido_base_y_procedimientos_de_laboratorio",
+    "modo": "pregunta",
+    "pregunta": "Dos soluciones reguladoras tienen el mismo pH (5,0), pero una tiene concentraciones 0,1 M de ácido y base conjugada, y la otra 1,0 M. ¿Tienen ambas la misma capacidad reguladora, a pesar del mismo pH?",
+    "respuesta": "No; aunque ambas tienen el mismo pH (porque la razón entre concentraciones, no sus valores absolutos, determina el pH), la solución 1,0 M tiene mayor capacidad reguladora, porque puede neutralizar una mayor cantidad de ácido o base antes de que el pH cambie significativamente.",
+    "regla": "El **pH** de una solución reguladora depende de la razón entre concentraciones de ácido y base conjugada (y del pKa), mientras que la **capacidad reguladora** depende de las concentraciones absolutas; dos soluciones pueden tener el mismo pH y muy distinta capacidad de resistir cambios.",
+    "ejemplo": "Un buffer de fosfato usado en biología molecular se prepara a una concentración específica no solo para lograr el pH deseado, sino para asegurar suficiente capacidad reguladora frente a los ácidos producidos durante los experimentos.",
+    "error_comun": "Se asume que dos soluciones con el mismo pH son automáticamente equivalentes en todos los aspectos, sin distinguir entre el valor del pH y la capacidad reguladora.",
+    "conexion_cotidiana": "La sangre humana usa un sistema regulador de bicarbonato en concentraciones relativamente altas, lo que le da una gran capacidad para resistir cambios bruscos de pH ante la producción de ácidos metabólicos.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-QUI-039"
+    ]
+  },
+  {
+    "id": "PC-QUI-041",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "establecer_estrategias",
+    "bloque": "solubilidad_y_recristalizacion",
+    "modo": "pregunta",
+    "pregunta": "Un estudiante necesita recristalizar un compuesto orgánico no polar. Tiene disponibles agua (muy polar) y hexano (no polar). ¿Cuál sería la elección más razonable de disolvente?",
+    "respuesta": "El hexano, porque el principio de 'lo semejante disuelve lo semejante' indica que los disolventes disuelven mejor a los solutos con polaridad similar; un compuesto no polar se disolverá mejor en un disolvente no polar que en uno muy polar como el agua.",
+    "regla": "El principio de **\"lo semejante disuelve lo semejante\"** establece que las sustancias con polaridad similar tienden a ser mutuamente solubles, debido a que las interacciones intermoleculares son más favorables entre moléculas de naturaleza similar.",
+    "ejemplo": "El aceite (no polar) no se disuelve en agua, pero sí se disuelve fácilmente en disolventes no polares como el hexano o el diclorometano.",
+    "error_comun": "Se elige un disolvente basado únicamente en su disponibilidad, sin evaluar la polaridad relativa del soluto y del disolvente, lo que puede llevar a una recristalización ineficiente.",
+    "conexion_cotidiana": "Los quitaesmaltes de uñas contienen disolventes como la acetona, eficaces para disolver el esmalte (relativamente no polar), mientras que el agua sola no logra removerlo.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "PC-QUI-042",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "solubilidad_y_recristalizacion",
+    "modo": "pregunta",
+    "pregunta": "Una gráfica muestra que el KNO₃ se vuelve mucho más soluble al aumentar la temperatura, mientras que el Ce₂(SO₄)₃ se vuelve menos soluble al aumentar la temperatura. ¿Por qué no se puede asumir que la solubilidad de cualquier sólido siempre aumenta con la temperatura?",
+    "respuesta": "Porque el efecto depende de si el proceso de disolución es endotérmico o exotérmico para esa sustancia específica; para la mayoría de los sólidos disolverse es endotérmico (mayor solubilidad al calentar), pero para algunas sustancias es exotérmico, por lo que la solubilidad disminuye al calentar.",
+    "regla": "La relación entre solubilidad y temperatura no sigue una regla universal: para la mayoría de los sólidos aumenta con la temperatura, pero existen excepciones reales donde la solubilidad **disminuye** con la temperatura; siempre conviene leer la gráfica específica en lugar de asumir la tendencia común.",
+    "ejemplo": "El hidróxido de calcio (Ca(OH)₂), usado en la lechada de cal, también disminuye su solubilidad en agua a medida que aumenta la temperatura, un comportamiento poco intuitivo pero bien documentado.",
+    "error_comun": "Se generaliza la tendencia más común (mayor temperatura, mayor solubilidad) a todas las sustancias sin excepción, cuando esta relación depende del signo del cambio de entalpía de disolución de cada sustancia.",
+    "conexion_cotidiana": "El gas de las bebidas carbonatadas se escapa más rápido de una bebida caliente que de una fría, porque la solubilidad de los gases (a diferencia de la mayoría de los sólidos) siempre disminuye al aumentar la temperatura.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Temperatura (°C)",
+      "ejeY": "Solubilidad (g / 100 mL de agua)",
+      "series": [
+        {
+          "nombre": "KNO₃",
+          "datos": [
+            {
+              "x": "0",
+              "y": 13
+            },
+            {
+              "x": "20",
+              "y": 32
+            },
+            {
+              "x": "40",
+              "y": 64
+            },
+            {
+              "x": "60",
+              "y": 110
+            },
+            {
+              "x": "80",
+              "y": 169
+            },
+            {
+              "x": "100",
+              "y": 246
+            }
+          ]
+        },
+        {
+          "nombre": "Ce₂(SO₄)₃",
+          "datos": [
+            {
+              "x": "0",
+              "y": 20
+            },
+            {
+              "x": "20",
+              "y": 10
+            },
+            {
+              "x": "40",
+              "y": 7
+            },
+            {
+              "x": "60",
+              "y": 5
+            },
+            {
+              "x": "80",
+              "y": 3.8
+            },
+            {
+              "x": "100",
+              "y": 2.5
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "La solubilidad del KNO₃ aumenta marcadamente con la temperatura, mientras que la del Ce₂(SO₄)₃ disminuye al aumentar la temperatura."
+    },
+    "dificultad": "media",
+    "prereqs": [
+      "PC-QUI-041"
+    ]
+  },
+  {
+    "id": "PC-QUI-043",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "establecer_estrategias",
+    "bloque": "solubilidad_y_recristalizacion",
+    "modo": "pregunta",
+    "pregunta": "Para recristalizar un compuesto, la curva de solubilidad del disolvente debe mostrar solubilidad alta en caliente y baja en frío. Si un disolvente muestra una curva casi plana, ¿por qué no sería adecuado, aunque el compuesto sea soluble en él?",
+    "respuesta": "Porque la recristalización depende de que el compuesto se disuelva en caliente y precipite al enfriar; si la solubilidad casi no cambia con la temperatura, muy poco del compuesto volverá a precipitar al enfriar, resultando en un rendimiento muy bajo.",
+    "regla": "Un buen disolvente para **recristalización** debe mostrar una curva de solubilidad con pendiente pronunciada, permitiendo disolver el compuesto en caliente y recuperar la mayor parte como cristales al enfriar; una curva plana no permite esta recuperación eficiente.",
+    "ejemplo": "El etanol es un disolvente común de recristalización para muchos compuestos orgánicos precisamente porque su curva de solubilidad suele tener una pendiente pronunciada.",
+    "error_comun": "Se elige un disolvente basado únicamente en que el compuesto 'se disuelve bien' a temperatura ambiente, sin verificar cómo cambia esa solubilidad con la temperatura, el factor realmente determinante.",
+    "conexion_cotidiana": "La formación de cristales de azúcar cande al enfriar lentamente un jarabe sobresaturado depende de este mismo principio: se disuelve mucha más azúcar en agua caliente que en agua fría.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Temperatura (°C)",
+      "ejeY": "Solubilidad (g / 100 mL)",
+      "series": [
+        {
+          "nombre": "Disolvente A (pendiente pronunciada, buen disolvente)",
+          "datos": [
+            {
+              "x": "0",
+              "y": 5
+            },
+            {
+              "x": "20",
+              "y": 15
+            },
+            {
+              "x": "40",
+              "y": 35
+            },
+            {
+              "x": "60",
+              "y": 65
+            },
+            {
+              "x": "80",
+              "y": 100
+            }
+          ]
+        },
+        {
+          "nombre": "Disolvente B (curva casi plana, mal disolvente)",
+          "datos": [
+            {
+              "x": "0",
+              "y": 40
+            },
+            {
+              "x": "20",
+              "y": 42
+            },
+            {
+              "x": "40",
+              "y": 44
+            },
+            {
+              "x": "60",
+              "y": 46
+            },
+            {
+              "x": "80",
+              "y": 48
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "El disolvente A tiene una pendiente de solubilidad pronunciada (buen candidato para recristalizar), mientras que el disolvente B es casi plano (mal candidato)."
+    },
+    "dificultad": "media",
+    "prereqs": [
+      "PC-QUI-042"
+    ]
+  },
+  {
+    "id": "PC-QUI-044",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "solubilidad_y_recristalizacion",
+    "modo": "pregunta",
+    "pregunta": "Un estudiante afirma que, cuando el azúcar se disuelve en agua, 'reacciona' con el agua para formar una nueva sustancia. ¿Es correcta esta descripción del proceso?",
+    "respuesta": "No es correcta; disolver azúcar en agua es un proceso físico (dispersión de moléculas mediante interacciones intermoleculares), no una reacción química; el azúcar disuelto sigue siendo químicamente azúcar, y si se evapora el agua se recupera el azúcar original sin cambios.",
+    "regla": "La **disolución** de un soluto en un disolvente es, en la mayoría de los casos, un proceso físico de equilibrio, no una reacción química que forme nuevas sustancias; una forma rápida de distinguirlo es preguntarse si al evaporar el disolvente se recupera exactamente la sustancia original.",
+    "ejemplo": "La sal de mesa se disuelve en agua separándose en iones Na⁺ y Cl⁻, pero si se evapora toda el agua, se recuperan cristales de NaCl sólido idénticos a los originales.",
+    "error_comun": "Se confunde el proceso de disolución con una reacción química solo porque involucra cambios de estado o liberación/absorción de calor, efectos que también ocurren en procesos físicos.",
+    "conexion_cotidiana": "El café instantáneo se disuelve completamente en agua caliente y, si se dejara evaporar toda el agua, se recuperarían los mismos sólidos de café en polvo, mostrando que la disolución no lo altera químicamente.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "baja",
+    "prereqs": [
+      "PC-QUI-041"
+    ]
+  },
+  {
+    "id": "PC-QUI-045",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "espectroscopia_e_intensidad_de_senal_basica",
+    "modo": "pregunta",
+    "pregunta": "Un espectro de absorción UV-Vis de una solución coloreada muestra un pico de absorbancia máxima alrededor de 450 nm. ¿Qué representa este pico, y qué relación tiene con el color observado de la solución?",
+    "respuesta": "Representa la longitud de onda de máxima absorción (λmáx); el color observado corresponde aproximadamente al color complementario de la luz absorbida. Si absorbe fuertemente alrededor de 450 nm (azul-violeta), la solución se percibirá amarilla-anaranjada, el color complementario.",
+    "regla": "En un espectro UV-Vis, el pico más alto indica la longitud de onda de **máxima absorción** (λmáx); el color observado de una solución coloreada corresponde al color complementario de la luz que absorbe con mayor intensidad, no al color de esa luz absorbida directamente.",
+    "ejemplo": "Una solución de sulfato de cobre (II) absorbe fuertemente en la región del rojo-naranja, por lo que la solución se observa de color azul, el complementario de la luz absorbida.",
+    "error_comun": "Se asume que el color observado coincide directamente con la longitud de onda absorbida con mayor intensidad, en lugar de reconocer que el color percibido es el complementario de la luz absorbida.",
+    "conexion_cotidiana": "Las hojas de las plantas se ven verdes porque la clorofila absorbe fuertemente la luz roja y azul (para la fotosíntesis) y refleja/transmite la luz verde.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Longitud de onda (nm)",
+      "ejeY": "Absorbancia",
+      "series": [
+        {
+          "nombre": "Espectro de absorción",
+          "datos": [
+            {
+              "x": "350",
+              "y": 0.05
+            },
+            {
+              "x": "380",
+              "y": 0.1
+            },
+            {
+              "x": "410",
+              "y": 0.25
+            },
+            {
+              "x": "430",
+              "y": 0.45
+            },
+            {
+              "x": "450",
+              "y": 0.65
+            },
+            {
+              "x": "470",
+              "y": 0.5
+            },
+            {
+              "x": "490",
+              "y": 0.3
+            },
+            {
+              "x": "510",
+              "y": 0.15
+            },
+            {
+              "x": "540",
+              "y": 0.05
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Espectro de absorción UV-Vis con un pico máximo de absorbancia alrededor de 450 nm."
+    },
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "PC-QUI-046",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "espectroscopia_e_intensidad_de_senal_basica",
+    "modo": "pregunta",
+    "pregunta": "Se construye una curva de calibración de absorbancia vs concentración de un colorante, obteniendo una línea recta que pasa por el origen. Al medir una muestra desconocida se obtiene absorbancia 0,42, correspondiente a 0,021 M. ¿Qué principio permite esta lectura directa?",
+    "respuesta": "La ley de Beer-Lambert, que establece que la absorbancia es directamente proporcional a la concentración (A = ε·b·c); esto permite construir una curva de calibración lineal y leer directamente la concentración de una muestra desconocida, siempre que esté dentro del rango de la curva.",
+    "regla": "La **ley de Beer-Lambert** (A = ε·b·c) permite usar una curva de calibración lineal para determinar rápidamente la concentración de una muestra desconocida a partir de su absorbancia; esta lectura solo es confiable dentro del rango de la curva de calibración.",
+    "ejemplo": "En un laboratorio clínico, la concentración de hemoglobina se determina frecuentemente midiendo la absorbancia y comparándola con una curva de calibración de estándares conocidos.",
+    "error_comun": "Se usa la curva de calibración para leer concentraciones fuera del rango de las concentraciones usadas para construirla, sin considerar que a concentraciones muy altas la relación deja de ser lineal.",
+    "conexion_cotidiana": "Los medidores de calidad del agua que reportan concentración de cloro a partir de un cambio de color funcionan con este mismo principio de comparación con una curva de calibración.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Concentración (mol/L)",
+      "ejeY": "Absorbancia",
+      "series": [
+        {
+          "nombre": "Curva de calibración",
+          "datos": [
+            {
+              "x": "0",
+              "y": 0
+            },
+            {
+              "x": "0.01",
+              "y": 0.2
+            },
+            {
+              "x": "0.02",
+              "y": 0.4
+            },
+            {
+              "x": "0.03",
+              "y": 0.6
+            },
+            {
+              "x": "0.04",
+              "y": 0.8
+            }
+          ]
+        },
+        {
+          "nombre": "Muestra desconocida",
+          "datos": [
+            {
+              "x": "0.021",
+              "y": 0.42
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Curva de calibración lineal que pasa por el origen; la muestra desconocida con absorbancia 0,42 corresponde a una concentración de 0,021 M."
+    },
+    "formula_latex": "A = \\varepsilon b c",
+    "dificultad": "media",
+    "prereqs": [
+      "PC-QUI-045"
+    ]
+  },
+  {
+    "id": "PC-QUI-047",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "espectroscopia_e_intensidad_de_senal_basica",
+    "modo": "pregunta",
+    "pregunta": "En un espectro IR, el pico del grupo carbonilo (C=O) de una muestra tiene una intensidad mucho mayor que el pico del grupo hidroxilo (O-H) de otra muestra distinta, y un estudiante concluye que la primera tiene 'más cantidad' de esa sustancia. ¿Es válida esta comparación?",
+    "respuesta": "No es válida sin más información; comparar intensidades de picos entre sustancias o grupos funcionales distintos no permite concluir sobre cantidad relativa, porque diferentes enlaces tienen diferentes coeficientes de absorción independientemente de su concentración.",
+    "regla": "La **intensidad de una señal espectroscópica** no es directamente comparable entre sustancias o grupos funcionales distintos sin una calibración específica, porque cada tipo de enlace tiene su propio coeficiente de absorción.",
+    "ejemplo": "El enlace C=O en general absorbe la radiación infrarroja mucho más intensamente que muchos enlaces C-H, no porque haya más grupos carbonilo, sino porque su cambio de momento dipolar durante la vibración es mayor.",
+    "error_comun": "Se compara la altura de picos de sustancias o grupos funcionales distintos como si fueran directamente proporcionales a la cantidad de sustancia presente, sin considerar la sensibilidad espectroscópica propia de cada enlace.",
+    "conexion_cotidiana": "Que una alarma de humo sea más sensible a cierto tipo de humo que otra alarma no significa que haya 'más fuego' en un caso que en otro; cada sensor tiene su propia sensibilidad específica.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-QUI-046"
+    ]
+  },
+  {
+    "id": "PC-QUI-048",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "espectroscopia_e_intensidad_de_senal_basica",
+    "modo": "pregunta",
+    "pregunta": "Un instrumento reporta que la señal de un pico en un cromatograma de la muestra A es el doble de alta que la de la muestra B, para el mismo compuesto químico, mismo instrumento y mismas condiciones. ¿Es razonable concluir que A tiene aproximadamente el doble de concentración del compuesto que B?",
+    "respuesta": "Sí, en este caso específico es razonable, porque se trata del mismo compuesto, en el mismo instrumento y bajo las mismas condiciones; en esas condiciones controladas, la respuesta del detector suele ser proporcional a la concentración, siempre que se esté dentro del rango lineal.",
+    "regla": "Comparar la intensidad de una señal instrumental entre dos muestras es una comparación válida de concentración relativa cuando se cumplen **condiciones controladas** (mismo compuesto, mismo instrumento, mismo método y dentro del rango lineal); la comparación deja de ser válida si cambia cualquiera de esas condiciones.",
+    "ejemplo": "En control de calidad de alimentos, comparar la altura de un pico cromatográfico de un mismo conservante en dos lotes de un mismo producto, con el mismo método, es una forma válida y común de estimar diferencias de concentración.",
+    "error_comun": "Se aplica una regla general de 'nunca comparar intensidades de señal directamente' sin reconocer que esa cautela aplica principalmente al comparar sustancias, condiciones o instrumentos distintos, no cuando todo se mantiene constante excepto la concentración.",
+    "conexion_cotidiana": "Comparar el volumen de dos vasos de agua idénticos llenados con la misma llave y medidos con la misma regla es una comparación válida; el cuidado adicional solo es necesario al comparar recipientes o mediciones hechas de forma distinta.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-QUI-047"
+    ]
+  },
+  {
+    "id": "PC-QUI-049",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "nanomateriales_y_confinamiento_cuantico",
+    "modo": "pregunta",
+    "pregunta": "Una gráfica muestra que el gap energético de nanopartículas de un semiconductor aumenta considerablemente a medida que su radio disminuye, especialmente en la escala nanométrica. ¿Qué modelo físico explica esta tendencia?",
+    "respuesta": "El modelo de confinamiento cuántico (partícula en una caja): al reducirse el tamaño de la nanopartícula, los electrones quedan confinados en un espacio más pequeño, aumentando su energía cinética mínima posible e incrementando el gap energético respecto al material macroscópico.",
+    "regla": "El **confinamiento cuántico** ocurre cuando las dimensiones de un material semiconductor se reducen a la escala nanométrica; esto aumenta la separación entre los niveles de energía permitidos, de forma inversamente relacionada con el tamaño de la partícula.",
+    "ejemplo": "Las nanopartículas de selenuro de cadmio (CdSe) de distintos tamaños muestran gaps energéticos notablemente diferentes entre sí y respecto al material macroscópico, un fenómeno aprovechado en la fabricación de puntos cuánticos comerciales.",
+    "error_comun": "Se asume que las propiedades electrónicas de un material son siempre constantes e independientes del tamaño de la muestra, una suposición válida a escala macroscópica pero que deja de cumplirse en la escala nanométrica.",
+    "conexion_cotidiana": "Las pantallas de televisores QLED usan puntos cuánticos de distintos tamaños para emitir colores específicos: los más pequeños emiten luz de mayor energía (más azulada) y los más grandes de menor energía (más rojiza).",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Radio de la nanopartícula (nm)",
+      "ejeY": "Gap energético (eV)",
+      "series": [
+        {
+          "nombre": "Gap energético",
+          "datos": [
+            {
+              "x": "1",
+              "y": 3.5
+            },
+            {
+              "x": "2",
+              "y": 2.2
+            },
+            {
+              "x": "3",
+              "y": 1.7
+            },
+            {
+              "x": "5",
+              "y": 1.5
+            },
+            {
+              "x": "8",
+              "y": 1.42
+            },
+            {
+              "x": "12",
+              "y": 1.4
+            },
+            {
+              "x": "20",
+              "y": 1.4
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "El gap energético disminuye de forma pronunciada al aumentar el radio a escala nanométrica, y se aplana hacia el valor macroscópico a radios grandes."
+    },
+    "formula_latex": "E_{nanoparticula} = E_{material} + \\frac{\\hbar^2 \\pi^2}{2\\mu r^2}",
+    "dificultad": "alta",
+    "prereqs": []
+  },
+  {
+    "id": "PC-QUI-050",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "nanomateriales_y_confinamiento_cuantico",
+    "modo": "pregunta",
+    "pregunta": "En una pantalla QLED, los puntos cuánticos más pequeños emiten luz azul (mayor energía) y los más grandes luz roja (menor energía), aunque estén hechos del mismo material. ¿Cómo se explica esta diferencia únicamente a partir del tamaño de la partícula?",
+    "respuesta": "Según el confinamiento cuántico, el gap energético depende inversamente del tamaño: los puntos más pequeños tienen mayor gap y emiten fotones de mayor energía (hacia el azul); los más grandes tienen menor gap y emiten fotones de menor energía (hacia el rojo), sin cambiar la composición química.",
+    "regla": "En los **puntos cuánticos**, el color de la luz emitida está determinado principalmente por su tamaño, no solo por su composición química: partículas más pequeñas emiten luz de mayor energía, y más grandes emiten luz de menor energía, la base de la tecnología de pantallas QLED.",
+    "ejemplo": "En la fabricación de puntos cuánticos de CdSe para investigación, es posible ajustar el color de emisión deseado controlando cuidadosamente el tiempo de crecimiento de las nanopartículas durante la síntesis.",
+    "error_comun": "Se asume que el color de emisión de un material solo depende de su composición química, sin considerar que en la escala nanométrica el tamaño de la partícula es una variable adicional muy influyente.",
+    "conexion_cotidiana": "Comprar una pantalla QLED de alta gama implica, sin que el comprador lo note, un control muy preciso del tamaño de millones de nanopartículas semiconductoras, determinando la pureza y consistencia del color mostrado.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "media",
+    "prereqs": [
+      "PC-QUI-049"
+    ]
+  },
+  {
+    "id": "PC-QUI-051",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "nanomateriales_y_confinamiento_cuantico",
+    "modo": "pregunta",
+    "pregunta": "Un estudiante calcula el punto de fusión esperado de una nanopartícula de oro usando el valor macroscópico tabulado (1064 °C). Sin embargo, experimentalmente las nanopartículas de oro de pocos nanómetros funden a temperaturas considerablemente más bajas. ¿Por qué el valor macroscópico no es una buena estimación aquí?",
+    "respuesta": "Porque los valores tabulados son válidos para el material a gran escala, donde la proporción de átomos superficiales es pequeña; en las nanopartículas, una fracción mucho mayor de átomos está en la superficie con menos átomos vecinos que los estabilicen, reduciendo significativamente el punto de fusión.",
+    "regla": "Muchas propiedades físicas tabuladas (punto de fusión, color, conductividad) son válidas para el material a **escala macroscópica**; al reducir el tamaño a la escala nanométrica, la proporción de átomos superficiales aumenta y varias propiedades cambian significativamente.",
+    "ejemplo": "El color del oro macroscópico es dorado brillante, pero las nanopartículas de oro de ciertos tamaños se ven rojas o púrpuras en solución, debido a efectos de resonancia de plasmón superficial que dependen del tamaño.",
+    "error_comun": "Se asume que las propiedades físicas de un material son intrínsecas e independientes de su tamaño, cuando muchas propiedades relacionadas con la superficie o con efectos cuánticos dependen fuertemente de la escala.",
+    "conexion_cotidiana": "Las nanopartículas de plata se usan en algunos textiles y vendajes por sus propiedades antimicrobianas mejoradas respecto a la plata macroscópica, un cambio de comportamiento debido a los efectos de tamaño reducido.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-QUI-049"
+    ]
+  },
+  {
+    "id": "PC-QUI-052",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "nanomateriales_y_confinamiento_cuantico",
+    "modo": "pregunta",
+    "pregunta": "Al graficar el gap energético de nanopartículas en el eje Y contra el inverso del radio al cuadrado (1/r²) en el eje X, los datos se ajustan a una línea recta. ¿Qué modelo predice específicamente esta relación, y cómo ayuda esta forma de graficar a verificar el modelo?",
+    "respuesta": "El modelo de la partícula en una caja predice que el gap adicional por confinamiento cuántico es proporcional a 1/r²; graficar el gap contra 1/r² transforma la relación cuadrática inversa en una línea recta, permitiendo verificar rápidamente si el modelo describe adecuadamente los datos experimentales.",
+    "regla": "Cuando un modelo predice una relación no lineal entre dos variables, graficarlas en la combinación adecuada (aquí, gap energético vs 1/r²) transforma la relación en una **línea recta**, facilitando verificar visualmente si los datos concuerdan con el modelo teórico.",
+    "ejemplo": "En cinética química, graficar el logaritmo de la concentración vs tiempo transforma la curva exponencial de una reacción de primer orden en una línea recta, una técnica de linealización con el mismo propósito.",
+    "error_comun": "Se intenta verificar un modelo graficando las variables originales sin transformar (gap vs radio directamente), obteniendo una curva que dificulta juzgar visualmente el ajuste al modelo.",
+    "conexion_cotidiana": "Los ingenieros usan con frecuencia gráficas 'linealizadas' para verificar rápidamente si un fenómeno sigue una ley de potencia o exponencial, la misma estrategia de transformar los ejes.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "dispersion",
+      "ejeX": "1/r² (nm⁻²)",
+      "ejeY": "Gap energético (eV)",
+      "series": [
+        {
+          "nombre": "Datos experimentales",
+          "datos": [
+            {
+              "x": 1,
+              "y": 3.5
+            },
+            {
+              "x": 0.25,
+              "y": 2.2
+            },
+            {
+              "x": 0.111,
+              "y": 1.7
+            },
+            {
+              "x": 0.04,
+              "y": 1.5
+            },
+            {
+              "x": 0.0156,
+              "y": 1.42
+            },
+            {
+              "x": 0.00694,
+              "y": 1.4
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Gráfica de dispersión del gap energético contra 1/r², con puntos experimentales que se ajustan a una línea recta cercana al valor macroscópico en el intercepto."
+    },
+    "formula_latex": "E_{nanoparticula} - E_{material} \\propto 1/r^2",
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-QUI-049",
+      "PC-QUI-051"
+    ]
+  },
+  {
+    "id": "PC-QUI-053",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "soluciones_y_propiedades_coligativas",
+    "modo": "pregunta",
+    "pregunta": "Se preparan dos soluciones acuosas con la misma concentración molal (1,0 m): una de glucosa (no electrolito) y otra de NaCl (electrolito fuerte). ¿Cuál tendrá mayor descenso del punto de congelación, y por qué?",
+    "respuesta": "La de NaCl tendrá un descenso aproximadamente el doble, porque las propiedades coligativas dependen del número total de partículas disueltas; cada unidad de NaCl se disocia en 2 partículas (Na⁺ y Cl⁻), mientras que cada molécula de glucosa permanece como una sola partícula.",
+    "regla": "Las **propiedades coligativas** de una solución dependen del número total de partículas de soluto disueltas (factor de van't Hoff, i); los electrolitos que se disocian en varios iones producen un efecto proporcionalmente mayor que los no electrolitos a la misma concentración molal.",
+    "ejemplo": "El cloruro de calcio (CaCl₂), que se disocia en 3 partículas (i ≈ 3), produce un descenso del punto de congelación aún mayor que el NaCl a la misma concentración molal, razón por la cual se usa como alternativa para derretir hielo a bajas temperaturas.",
+    "error_comun": "Se calcula el efecto coligativo esperado usando directamente la concentración molal del compuesto, sin considerar el factor de van't Hoff correspondiente a si ese compuesto se disocia, subestimando el efecto real.",
+    "conexion_cotidiana": "La sal es más efectiva que el azúcar para derretir el hielo en las carreteras en la misma cantidad, precisamente porque cada unidad de sal produce el doble de partículas disueltas.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "formula_latex": "\\Delta T_f = i \\cdot K_f \\cdot m",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "PC-QUI-054",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "soluciones_y_propiedades_coligativas",
+    "modo": "pregunta",
+    "pregunta": "En invierno se esparce sal (NaCl) sobre carreteras heladas. ¿Qué principio explica por qué la sal reduce la temperatura de congelación del agua, y por qué este método deja de ser efectivo a temperaturas extremadamente bajas?",
+    "respuesta": "El descenso crioscópico: las partículas de soluto interfieren con la formación de la red cristalina del hielo, reduciendo la temperatura de congelación; deja de ser efectivo a temperaturas muy bajas porque existe un límite práctico determinado por la cantidad de sal que realmente puede disolverse.",
+    "regla": "El **descenso crioscópico** (ΔTf = i·Kf·m) es proporcional a la concentración molal del soluto, pero tiene un límite práctico: no se puede reducir el punto de congelación indefinidamente solo añadiendo más sal, porque eventualmente se alcanza el límite de solubilidad de la sal en el agua.",
+    "ejemplo": "En regiones con inviernos extremadamente fríos, se usan a veces sales alternativas como el CaCl₂ en lugar de NaCl, porque produce mayor número de partículas por unidad de masa disuelta y es efectivo a temperaturas más bajas.",
+    "error_comun": "Se asume que añadir sal siempre evitará la formación de hielo sin importar cuán baja sea la temperatura, sin considerar el límite práctico determinado por la solubilidad máxima de la sal.",
+    "conexion_cotidiana": "Al preparar helado casero con hielo y sal alrededor de un recipiente con la mezcla líquida, la sal reduce la temperatura de congelación del hielo circundante por debajo de 0 °C, permitiendo que la mezcla se congele.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "media",
+    "prereqs": [
+      "PC-QUI-053"
+    ]
+  },
+  {
+    "id": "PC-QUI-055",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "soluciones_y_propiedades_coligativas",
+    "modo": "pregunta",
+    "pregunta": "Al añadir sal al agua de cocción de la pasta, muchas personas creen que el agua hierve a una temperatura notablemente más alta, acelerando la cocción. ¿Es significativo este efecto en la práctica culinaria?",
+    "respuesta": "El efecto es real, pero muy pequeño: la cantidad típica de sal en el agua de cocción corresponde a una concentración molal muy baja, por lo que el aumento real del punto de ebullición es de solo décimas de grado, insuficiente para acelerar significativamente la cocción; la sal se añade principalmente para sazonar la pasta.",
+    "regla": "El **aumento del punto de ebullición** (ΔTb = i·Kb·m) es un efecto coligativo real, pero su magnitud depende de la concentración molal; a las concentraciones típicas de sal en la cocina, el efecto es real pero muy pequeño.",
+    "ejemplo": "Los anticongelantes de los radiadores de los carros usan etilenglicol en concentraciones mucho más altas que la sal en el agua de cocción, logrando aumentos del punto de ebullición mucho más significativos.",
+    "error_comun": "Se asume que cualquier efecto coligativo cualitativamente real debe ser también cuantitativamente significativo en cualquier contexto práctico, sin considerar que la magnitud depende fuertemente de la concentración molal real involucrada.",
+    "conexion_cotidiana": "El líquido anticongelante de un radiador de carro tiene un punto de ebullición mucho más alto y un punto de congelación mucho más bajo que el agua pura, protegiendo el motor en climas extremos.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "formula_latex": "\\Delta T_b = i \\cdot K_b \\cdot m",
+    "dificultad": "media",
+    "prereqs": [
+      "PC-QUI-053"
+    ]
+  },
+  {
+    "id": "PC-QUI-056",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "especifico_quimica",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "soluciones_y_propiedades_coligativas",
+    "modo": "pregunta",
+    "pregunta": "Una gráfica muestra la presión de vapor de una solución en función de la concentración molal de un soluto no volátil, mostrando una línea descendente. ¿Qué principio explica esta tendencia, y cuál sería el error de leer la gráfica en la dirección opuesta?",
+    "respuesta": "La ley de Raoult: al añadir un soluto no volátil, sus moléculas ocupan parte de la superficie del líquido, reduciendo la fracción de disolvente disponible para evaporarse, lo que disminuye la presión de vapor. El error opuesto sería asumir que añadir más soluto aumenta la presión de vapor.",
+    "regla": "La **ley de Raoult** predice que la presión de vapor de una solución disminuye a medida que aumenta la concentración de un soluto no volátil disuelto; leer correctamente la dirección inversa de esta relación es clave para no invertir la interpretación de la gráfica.",
+    "ejemplo": "El agua de mar, con una alta concentración de sales disueltas, tiene una presión de vapor menor que el agua dulce a la misma temperatura, contribuyendo a que se evapore más lentamente.",
+    "error_comun": "Se confunde la dirección de la relación entre concentración de soluto y presión de vapor, asumiendo que 'más soluto disuelto' debería significar 'más presión', cuando el efecto es exactamente el opuesto.",
+    "conexion_cotidiana": "Las mermeladas con alto contenido de azúcar se conservan mejor en parte porque la alta concentración de azúcar disuelto reduce significativamente la presión de vapor disponible, dificultando el crecimiento de microorganismos.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Concentración molal del soluto (mol/kg)",
+      "ejeY": "Presión de vapor (mmHg)",
+      "series": [
+        {
+          "nombre": "Presión de vapor de la solución",
+          "datos": [
+            {
+              "x": "0",
+              "y": 23.8
+            },
+            {
+              "x": "0.5",
+              "y": 23
+            },
+            {
+              "x": "1.0",
+              "y": 22.2
+            },
+            {
+              "x": "1.5",
+              "y": 21.4
+            },
+            {
+              "x": "2.0",
+              "y": 20.6
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "La presión de vapor de la solución disminuye linealmente a medida que aumenta la concentración molal de un soluto no volátil (ley de Raoult)."
+    },
+    "formula_latex": "P_{solucion} = X_{disolvente} \\cdot P^{0}_{disolvente}",
+    "dificultad": "media",
+    "prereqs": [
+      "PC-QUI-053"
+    ]
+  }
+]

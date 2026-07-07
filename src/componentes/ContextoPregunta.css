@@ -46,6 +46,17 @@
   height: auto;
 }
 
+.contexto-formula-inline {
+  margin-top: 14px;
+  font-size: 16px;
+  color: var(--text);
+  overflow-x: auto;
+}
+
+.contexto-visual {
+  margin-top: 14px;
+}
+
 .contexto--formula {
   background: var(--surface-alt);
   border: 1px solid var(--border);

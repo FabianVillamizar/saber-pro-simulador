@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <defs>
+    <marker id="flecha" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--text)" />
+    </marker>
+  </defs>
+
+  <polygon points="90,55 128.97114317029974,77.5 128.97114317029974,122.5 90,145 51.02885682970027,122.50000000000001 51.028856829700246,77.50000000000003" fill="none" stroke="var(--text)" stroke-width="2" />
+  <text x="90" y="165" fill="var(--text)" font-size="11" font-weight="500" text-anchor="middle">ciclohexano (sin C=C)</text>
+
+  <polygon points="260,55 298.97114317029974,77.5 298.97114317029974,122.5 260,145 221.02885682970026,122.50000000000001 221.02885682970026,77.50000000000003" fill="none" stroke="var(--text)" stroke-width="2" /><line x1="256.492597114673" y1="61.075" x2="295.46374028497274" y2="83.575" stroke="var(--accent)" stroke-width="2" />
+  <text x="260" y="165" fill="var(--text)" font-size="11" font-weight="500" text-anchor="middle">ciclohexeno (1 doble enlace)</text>
+  <line x1="180" y1="60" x2="220" y2="60" stroke="var(--warning)" stroke-width="2" stroke-linecap="round" marker-end="url(#flecha)" />
+  <text x="200" y="48" fill="var(--warning)" font-size="11" font-weight="500" text-anchor="middle">+ Br₂</text>
+  <text x="200" y="185" fill="var(--warning)" font-size="10" font-weight="500" text-anchor="middle">el Br₂ se adiciona solo al doble enlace → decolora rápido</text>
+
+</svg>

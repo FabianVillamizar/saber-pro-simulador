@@ -1,0 +1,1114 @@
+[
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-021",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Un análisis de 200 incendios en una ciudad encuentra que, en promedio, los incendios atendidos por más bomberos presentan mayor daño material a la propiedad que los atendidos por pocos bomberos. Un reportero concluye que 'enviar más bomberos a un incendio causa más daño material, probablemente por el agua usada para combatirlo'.",
+    "tipo_visual": "tabla",
+    "tabla_filas": {
+      "columnas": [
+        "Bomberos enviados (rango)",
+        "Número de incendios",
+        "Daño material promedio (millones de pesos)"
+      ],
+      "filas": [
+        [
+          "1-3",
+          "45",
+          "8.2"
+        ],
+        [
+          "4-6",
+          "60",
+          "15.5"
+        ],
+        [
+          "7-9",
+          "50",
+          "24.8"
+        ],
+        [
+          "10-12",
+          "30",
+          "35.1"
+        ],
+        [
+          "13-15",
+          "15",
+          "48.6"
+        ]
+      ]
+    },
+    "preguntas": [
+      {
+        "id": "PC-ITEM-021",
+        "afirmacion": "analizar_concluir",
+        "evidencia": "2.4",
+        "enunciado": "¿Es esta una conclusión adecuada a partir de estos datos?",
+        "opciones": {
+          "A": "No, porque es más probable que el tamaño del incendio sea una variable de confusión: los incendios más grandes requieren más bomberos Y producen más daño de forma independiente, sin que el número de bomberos sea la causa del daño.",
+          "B": "Sí, porque los datos muestran una asociación clara entre el número de bomberos y el daño, y cualquier asociación estadística clara implica necesariamente una relación de causa y efecto.",
+          "C": "No, porque en realidad no existe ninguna asociación entre el número de bomberos enviados y el daño material observado en los incendios.",
+          "D": "Sí, porque el agua usada para combatir incendios es conocida por causar daños adicionales a las estructuras, así que esta explicación causal debe ser correcta sin necesidad de más análisis."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El tamaño o la gravedad inicial del incendio es una variable de confusión plausible: los incendios más grandes o graves, por su propia naturaleza, requieren desplegar más bomberos Y causan más daño material, independientemente de cuántos bomberos se envíen; esta variable de confusión puede explicar la asociación observada sin que exista una relación causal directa.",
+        "distractores": {
+          "B": {
+            "explicacion": "Trata cualquier asociación estadística observada como si demostrara automáticamente una relación causal, ignorando la posibilidad de que un tercer factor explique la asociación sin causalidad directa entre las dos variables originales.",
+            "patron_trampa": "correlacion_causalidad"
+          },
+          "C": {
+            "explicacion": "Niega la existencia de la asociación descrita explícitamente en el enunciado, contradiciendo directamente los datos presentados en el estudio.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Aunque el agua de las mangueras puede causar cierto daño, aceptar esta explicación causal específica sin descartar otras explicaciones plausibles (como el tamaño del incendio) es una conclusión apresurada que no está completamente respaldada solo por esta asociación estadística.",
+            "patron_trampa": "correlacion_causalidad"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-022",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Una cadena de gimnasios compara la pérdida de peso después de 3 meses entre los miembros del Gimnasio A (pérdida promedio de 4 kg) y los miembros del Gimnasio B (pérdida promedio de 2 kg), y concluye que 'el programa de entrenamiento del Gimnasio A es más efectivo para bajar de peso'. Un análisis adicional revela que los miembros del Gimnasio A son, en promedio, más jóvenes y tenían un peso inicial más alto que los del Gimnasio B.",
+    "tipo_visual": "tabla",
+    "tabla_filas": {
+      "columnas": [
+        "Gimnasio",
+        "Edad promedio (años)",
+        "Peso inicial promedio (kg)",
+        "Pérdida de peso promedio en 3 meses (kg)"
+      ],
+      "filas": [
+        [
+          "Gimnasio A",
+          "27",
+          "92",
+          "4"
+        ],
+        [
+          "Gimnasio B",
+          "41",
+          "78",
+          "2"
+        ]
+      ]
+    },
+    "preguntas": [
+      {
+        "id": "PC-ITEM-022",
+        "afirmacion": "analizar_concluir",
+        "evidencia": "2.2",
+        "enunciado": "¿Qué problema metodológico afecta esta comparación?",
+        "opciones": {
+          "A": "Ninguno; comparar el promedio final de pérdida de peso entre dos grupos de personas completamente distintas siempre permite concluir con total certeza cuál de los dos programas de entrenamiento es realmente más efectivo.",
+          "B": "El estudio compara grupos de personas distintas con diferencias preexistentes de edad y peso inicial, en lugar de controlar esas diferencias; esto introduce variables de confusión no controladas que pueden explicar el resultado.",
+          "C": "El problema es que el gimnasio A probablemente manipuló o alteró deliberadamente sus datos de seguimiento para que sus resultados finales se vieran mejor que los obtenidos por el gimnasio B en el mismo periodo.",
+          "D": "El problema es que un periodo de apenas 3 meses es demasiado corto para medir de forma confiable cualquier tipo de pérdida de peso sostenida en un programa de entrenamiento físico prolongado."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Comparar grupos de personas distintas que ya diferían en variables relevantes (edad, peso inicial) antes de comenzar el programa, sin controlar esas diferencias, introduce variables de confusión no controladas: la mayor pérdida de peso en el Gimnasio A podría deberse en parte a que sus miembros eran más jóvenes y partían de un peso inicial más alto, factores que favorecen una pérdida de peso más rápida independientemente del programa específico.",
+        "distractores": {
+          "A": {
+            "explicacion": "Ignora que, al comparar grupos de personas distintas con características preexistentes diferentes, cualquier diferencia observada en el resultado final podría deberse a esas diferencias iniciales y no al tratamiento que se quiere evaluar.",
+            "patron_trampa": "variable_de_confusion_no_controlada"
+          },
+          "C": {
+            "explicacion": "Propone una explicación (manipulación deliberada de datos) sin ninguna evidencia que la respalde, cuando existe una explicación metodológica mucho más simple y probable (variables de confusión no controladas) para la diferencia observada.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Introduce una crítica sobre la duración del estudio que no es el problema metodológico central señalado en el escenario; el problema principal es la falta de comparabilidad inicial entre los grupos, no la duración de la medición.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-023",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Una empresa cambia al mismo tiempo el diseño del empaque de un producto Y reduce su precio en un 15 %, y observa un aumento del 30 % en las ventas al mes siguiente. El equipo de mercadeo concluye que 'el nuevo diseño del empaque fue el responsable del aumento en las ventas'.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-023",
+        "afirmacion": "analizar_concluir",
+        "evidencia": "2.3",
+        "enunciado": "¿Es adecuada esta conclusión a partir de los datos disponibles?",
+        "opciones": {
+          "A": "Sí, porque un aumento del 30 % en las ventas es una cifra lo suficientemente grande como para atribuirse con confianza a cualquiera de los dos cambios realizados.",
+          "B": "Sí, porque los consumidores generalmente responden más al diseño visual de un producto que a cambios en su precio, así que el diseño debió ser la causa principal.",
+          "C": "No, porque se cambiaron dos variables al mismo tiempo (el diseño del empaque y el precio); con este diseño no es posible determinar si el aumento en ventas se debió al nuevo empaque, a la reducción de precio, o a ambos factores combinados.",
+          "D": "No, porque un aumento del 30 % en las ventas en un solo mes es una cifra que probablemente representa un error en el registro de los datos de ventas."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Cuando se modifican dos variables al mismo tiempo (el diseño del empaque y el precio), cualquier cambio observado en el resultado no puede atribuirse con confianza a una sola de esas variables; para aislar el efecto del empaque, sería necesario un diseño que cambiara solo esa variable, manteniendo el precio constante, o que probara ambos cambios por separado.",
+        "distractores": {
+          "A": {
+            "explicacion": "Asume que la magnitud del cambio observado es suficiente para atribuir causalidad a una variable específica, sin considerar que, al cambiar dos variables simultáneamente, no hay forma de aislar cuál de ellas produjo ese resultado.",
+            "patron_trampa": "diseño_no_controlado"
+          },
+          "B": {
+            "explicacion": "Introduce una suposición general sobre el comportamiento de los consumidores para justificar la causa, en lugar de reconocer que el diseño experimental (cambiar dos variables a la vez) no permite aislar cuál de los dos cambios fue responsable.",
+            "patron_trampa": "diseño_no_controlado"
+          },
+          "D": {
+            "explicacion": "Sugiere sin fundamento que los datos de ventas son incorrectos, cuando el problema real no es la validez del dato observado, sino la imposibilidad de atribuir ese resultado a una causa específica debido al diseño no controlado.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-024",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Una empresa de suplementos prueba una nueva pastilla para la memoria en 5 voluntarios, sin grupo control, y encuentra que los 5 mejoran su puntaje en una prueba de memoria después de tomarla durante 2 semanas. La empresa anuncia que el producto está 'clínicamente comprobado para mejorar la memoria'.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-024",
+        "afirmacion": "analizar_concluir",
+        "evidencia": "2.1",
+        "enunciado": "¿Está esta afirmación respaldada adecuadamente por el estudio descrito?",
+        "opciones": {
+          "A": "Sí, porque los 5 voluntarios mejoraron su puntaje, y una mejora observada en el 100 % de los participantes es evidencia suficiente para cualquier afirmación sobre el producto.",
+          "B": "Sí, porque cualquier estudio, sin importar su tamaño de muestra o diseño, es suficiente para respaldar afirmaciones publicitarias sobre un producto de consumo.",
+          "C": "No, porque 2 semanas es un periodo demasiado corto para que cualquier suplemento pueda tener algún efecto biológico medible en el cuerpo humano.",
+          "D": "No, porque el estudio tiene una muestra muy pequeña (5 personas) y no incluye un grupo control; la mejora observada podría deberse al efecto placebo, a la práctica repetida de la prueba de memoria, o simplemente al azar, no necesariamente al suplemento."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Un estudio con una muestra muy pequeña y sin grupo control no permite descartar explicaciones alternativas para la mejora observada, como el efecto placebo, el efecto de práctica o la variabilidad natural; la frase 'clínicamente comprobado' sugiere un nivel de evidencia que este diseño experimental específico no proporciona.",
+        "distractores": {
+          "A": {
+            "explicacion": "Sobrevalora el hecho de que el 100 % de una muestra muy pequeña mejoró, sin considerar que ese resultado es compatible con explicaciones alternativas que no involucran ningún efecto real del suplemento.",
+            "patron_trampa": "sobregeneralizacion_de_un_metodo"
+          },
+          "B": {
+            "explicacion": "Generaliza que cualquier estudio, sin importar su rigor metodológico, es suficiente para respaldar afirmaciones publicitarias, ignorando estándares básicos de evidencia científica.",
+            "patron_trampa": "sobregeneralizacion_de_un_metodo"
+          },
+          "C": {
+            "explicacion": "Introduce una afirmación general sobre la velocidad de los efectos biológicos de los suplementos que no está relacionada con el problema metodológico real del estudio (la falta de grupo control y el tamaño de muestra pequeño).",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-025",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Una persona argumenta: 'mi abuela fumó toda su vida y vivió hasta los 95 años, así que fumar no debe ser tan dañino como dicen los estudios'. Los estudios epidemiológicos a gran escala muestran consistentemente que fumar está asociado con una menor esperanza de vida promedio y un mayor riesgo de varias enfermedades.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-025",
+        "afirmacion": "analizar_concluir",
+        "evidencia": "2.1",
+        "enunciado": "¿Qué problema tiene el razonamiento de esta persona?",
+        "opciones": {
+          "A": "Usa un solo caso individual (anecdótico) como si refutara una tendencia estadística observada en poblaciones grandes; un caso individual no invalida una relación de riesgo que se expresa en términos de probabilidades promedio, no de certezas para cada persona.",
+          "B": "Ninguno; si una persona específica vivió muchos años a pesar de fumar, esto demuestra que los estudios epidemiológicos sobre el tabaquismo están equivocados.",
+          "C": "El problema es que la esperanza de vida de 95 años de la abuela probablemente fue un error de registro, ya que nadie que fume puede vivir tantos años.",
+          "D": "El problema es que los estudios epidemiológicos sobre el tabaquismo no consideran ningún caso individual, por lo que no son aplicables a ninguna persona en particular."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Las relaciones de riesgo epidemiológico se expresan en términos de probabilidades y promedios poblacionales, no como certezas absolutas para cada individuo; que exista un caso excepcional es estadísticamente esperable dentro de una población grande, y no contradice ni invalida la tendencia general observada en los estudios.",
+        "distractores": {
+          "B": {
+            "explicacion": "Trata un solo caso anecdótico como si tuviera el mismo peso evidencial que estudios epidemiológicos a gran escala, invirtiendo la relación adecuada entre evidencia individual y evidencia estadística poblacional.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "C": {
+            "explicacion": "Asume, sin ninguna base, que el caso descrito debe ser falso simplemente porque contradice la tendencia general, en lugar de reconocer que los casos excepcionales son estadísticamente esperables.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Malinterpreta lo que significa una relación de riesgo poblacional, sugiriendo que no aplica a ningún individuo, cuando en realidad sí es relevante para estimar el riesgo relativo de cualquier persona.",
+            "patron_trampa": "sobregeneralizacion_de_un_metodo"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-026",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "En una prueba de sabor a ciegas, 7 de 10 catadores prefirieron el sabor del Producto A sobre el Producto B. La empresa fabricante del Producto A anuncia que 'el Producto A es la opción superior en todos los aspectos'.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-026",
+        "afirmacion": "analizar_concluir",
+        "evidencia": "2.1",
+        "enunciado": "¿Está esta afirmación respaldada adecuadamente por los resultados de la prueba?",
+        "opciones": {
+          "A": "Sí, porque una preferencia de 7 sobre 10 catadores es una mayoría clara y suficiente para respaldar cualquier afirmación general sobre la superioridad de un producto.",
+          "B": "No, porque la prueba solo evaluó la preferencia de sabor de un grupo pequeño de catadores; esto no proporciona ninguna evidencia sobre otros aspectos del producto, como su valor nutricional, su precio, o su preferencia entre la población general de consumidores.",
+          "C": "No, porque una prueba de sabor a ciegas nunca puede producir resultados confiables, sin importar cuántos catadores participen.",
+          "D": "Sí, porque las pruebas de sabor a ciegas son el estándar de oro para evaluar absolutamente todos los aspectos de calidad de un producto alimenticio."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El resultado de la prueba solo respalda, en el mejor de los casos, una conclusión limitada sobre la preferencia de sabor de ese grupo específico; extender esa conclusión a 'superior en todos los aspectos' va mucho más allá de lo que este único tipo de prueba puede demostrar.",
+        "distractores": {
+          "A": {
+            "explicacion": "Trata una mayoría simple en un grupo pequeño como si fuera evidencia suficiente para respaldar una afirmación mucho más amplia sobre la superioridad general del producto en todos los aspectos, no solo en sabor.",
+            "patron_trampa": "sobregeneralizacion_de_un_metodo"
+          },
+          "C": {
+            "explicacion": "Rechaza categóricamente la validez de cualquier prueba de sabor a ciegas sin ninguna justificación, cuando el problema real no es la validez del método, sino la sobregeneralización de esa conclusión limitada a 'todos los aspectos'.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Generaliza que un método diseñado específicamente para medir preferencia de sabor es también el estándar para evaluar cualquier otro aspecto de calidad del producto, sin relación con lo que esa prueba puede medir.",
+            "patron_trampa": "sobregeneralizacion_de_un_metodo"
+          }
+        },
+        "dificultad": "baja"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-027",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Un estudio observa que las ciudades con más bibliotecas públicas por habitante tienden a tener tasas de criminalidad más bajas. Un concejal propone que 'construir más bibliotecas en la ciudad reducirá directamente la criminalidad', basándose en esta asociación.",
+    "tipo_visual": "grafica_datos",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "dispersion",
+      "ejeX": "Bibliotecas públicas por cada 100.000 habitantes",
+      "ejeY": "Tasa de criminalidad por cada 100.000 habitantes",
+      "series": [
+        {
+          "nombre": "Ciudades analizadas",
+          "datos": [
+            {
+              "x": 1,
+              "y": 950
+            },
+            {
+              "x": 2,
+              "y": 820
+            },
+            {
+              "x": 3,
+              "y": 700
+            },
+            {
+              "x": 4,
+              "y": 650
+            },
+            {
+              "x": 5,
+              "y": 580
+            },
+            {
+              "x": 6,
+              "y": 510
+            },
+            {
+              "x": 7,
+              "y": 460
+            },
+            {
+              "x": 8,
+              "y": 400
+            },
+            {
+              "x": 9,
+              "y": 350
+            },
+            {
+              "x": 10,
+              "y": 300
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Diagrama de dispersión con tendencia descendente: a mayor número de bibliotecas públicas por cada 100.000 habitantes, menor tasa de criminalidad por cada 100.000 habitantes."
+    },
+    "preguntas": [
+      {
+        "id": "PC-ITEM-027",
+        "afirmacion": "analizar_concluir",
+        "evidencia": "2.4",
+        "enunciado": "¿Es esta una conclusión adecuada a partir de los datos descritos?",
+        "opciones": {
+          "A": "Sí, porque cualquier asociación estadística observada entre dos variables demuestra automáticamente que una causa a la otra.",
+          "B": "Sí, porque las bibliotecas ofrecen actividades educativas que mantienen a los jóvenes ocupados, así que esta explicación causal debe ser correcta sin necesidad de más evidencia.",
+          "C": "No, porque es probable que un tercer factor, como el nivel socioeconómico o educativo general de la ciudad, esté asociado tanto con la cantidad de bibliotecas construidas como con tasas de criminalidad más bajas, sin que las bibliotecas sean necesariamente la causa directa.",
+          "D": "No, porque en realidad no puede existir ninguna relación entre la infraestructura cultural de una ciudad y sus tasas de criminalidad."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El nivel socioeconómico y educativo general de una ciudad es una variable de confusión plausible: las ciudades con mayores recursos tienden a invertir más en infraestructura cultural Y presentar tasas de criminalidad más bajas por razones independientes; esta variable de confusión puede explicar la asociación observada sin que las bibliotecas sean la causa directa.",
+        "distractores": {
+          "A": {
+            "explicacion": "Trata cualquier asociación estadística como si demostrara automáticamente una relación causal, ignorando la posibilidad de que un tercer factor explique la asociación observada sin causalidad directa.",
+            "patron_trampa": "correlacion_causalidad"
+          },
+          "B": {
+            "explicacion": "Acepta una explicación causal específica y plausible sin descartar otras explicaciones alternativas, una conclusión apresurada que no está completamente respaldada solo por la asociación estadística observada.",
+            "patron_trampa": "correlacion_causalidad"
+          },
+          "D": {
+            "explicacion": "Niega categóricamente cualquier relación entre las dos variables, contradiciendo directamente la asociación observada y descrita en el estudio.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-028",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Un estudio encuentra que los estudiantes que desayunan regularmente antes de ir a clase obtienen, en promedio, puntajes más altos en pruebas estandarizadas que los estudiantes que no desayunan. Un investigador quiere identificar una posible variable de confusión que explique esta asociación sin que el desayuno sea necesariamente la causa directa de mejores puntajes.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-028",
+        "afirmacion": "analizar_concluir",
+        "evidencia": "2.2",
+        "enunciado": "¿Cuál de las siguientes es la variable de confusión más plausible?",
+        "opciones": {
+          "A": "El puntaje que cada estudiante obtuvo en la prueba estandarizada, porque es precisamente la variable que se mide como resultado principal en este estudio educativo.",
+          "B": "El hecho de que ambos grupos de estudiantes asistieron exactamente a la misma prueba el mismo día del año, porque eso constituiría una variable de confusión evidente y determinante.",
+          "C": "El tipo específico de alimento consumido en el desayuno de cada estudiante, porque diferentes desayunos podrían tener efectos nutricionales distintos sobre su rendimiento académico general.",
+          "D": "El nivel socioeconómico de la familia del estudiante, porque las familias con más recursos podrían facilitar un desayuno regular y, de forma independiente, brindar más apoyo educativo o un ambiente más propicio para aprender."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El nivel socioeconómico familiar es una variable de confusión plausible porque puede estar relacionada tanto con la probabilidad de que un estudiante desayune regularmente como con el rendimiento académico, sin que el desayuno en sí sea necesariamente la causa directa de los mejores puntajes.",
+        "distractores": {
+          "A": {
+            "explicacion": "Confunde la variable dependiente (el resultado medido) con una variable de confusión, que por definición debe ser un factor externo relacionado con ambas variables del estudio, no el resultado mismo.",
+            "patron_trampa": "variable_confundida"
+          },
+          "B": {
+            "explicacion": "Propone un factor que no tiene ninguna relación plausible con la variable de interés y que, además, sería común a todos los estudiantes del estudio, por lo que no explicaría por qué unos desayunan y otros no.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "C": {
+            "explicacion": "No identifica una variable de confusión externa que explique la asociación observada entre desayunar en general y el puntaje, sino que introduce una variable adicional dentro del grupo que sí desayuna, sin abordar la pregunta de fondo.",
+            "patron_trampa": "variable_confundida"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-029",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Un agricultor, al mismo tiempo, aumenta la cantidad de riego Y cambia el tipo de fertilizante usado en un campo de cultivo, comparándolo con otro campo donde mantuvo el riego y el fertilizante habituales. Al final de la temporada, el campo con los cambios produjo un 25 % más de cosecha, y el agricultor concluye que 'el nuevo fertilizante fue el responsable del aumento en la producción'.",
+    "tipo_visual": "tabla",
+    "tabla_filas": {
+      "columnas": [
+        "Campo",
+        "Riego",
+        "Fertilizante",
+        "Producción de cosecha (toneladas)"
+      ],
+      "filas": [
+        [
+          "Campo 1",
+          "Habitual",
+          "Habitual",
+          "40"
+        ],
+        [
+          "Campo 2",
+          "Aumentado",
+          "Nuevo",
+          "50"
+        ]
+      ]
+    },
+    "preguntas": [
+      {
+        "id": "PC-ITEM-029",
+        "afirmacion": "analizar_concluir",
+        "evidencia": "2.3",
+        "enunciado": "¿Es adecuada esta conclusión?",
+        "opciones": {
+          "A": "No, porque se cambiaron dos variables al mismo tiempo (la cantidad de riego y el tipo de fertilizante); no es posible determinar con este diseño si el aumento en la producción se debió al nuevo fertilizante, al mayor riego, o a la combinación de ambos factores.",
+          "B": "Sí, porque los fertilizantes nuevos generalmente producen mejores resultados que los fertilizantes antiguos, así que esta debe ser la explicación correcta.",
+          "C": "No, porque un aumento del 25 % en la producción de un cultivo es una cifra demasiado alta para ser real, y probablemente refleja un error en la medición de la cosecha.",
+          "D": "Sí, porque comparar dos campos distintos bajo condiciones diferentes siempre permite aislar con precisión el efecto de cada variable involucrada."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Al modificar dos variables simultáneamente, cualquier diferencia observada en la producción no puede atribuirse con confianza a una sola de esas variables; para aislar el efecto específico del fertilizante, sería necesario mantener el riego constante entre los campos comparados y cambiar solamente el fertilizante.",
+        "distractores": {
+          "B": {
+            "explicacion": "Acepta una explicación causal específica basándose en una generalización sobre fertilizantes nuevos, sin reconocer que el diseño experimental (cambiar dos variables a la vez) no permite aislar cuál de los dos cambios fue responsable.",
+            "patron_trampa": "diseño_no_controlado"
+          },
+          "C": {
+            "explicacion": "Cuestiona la validez del dato de producción observado sin ninguna justificación, cuando el problema metodológico real no es la magnitud del resultado, sino la imposibilidad de atribuir ese resultado a una causa específica.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Afirma incorrectamente que comparar dos campos con múltiples condiciones distintas permite aislar el efecto de cada variable, cuando en realidad ocurre justo lo contrario.",
+            "patron_trampa": "diseño_no_controlado"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-030",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Un encuestador entrevista a 15 personas en un centro comercial de una sola ciudad sobre su intención de voto, y basándose en esas respuestas, predice el resultado de una elección presidencial a nivel nacional.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-030",
+        "afirmacion": "analizar_concluir",
+        "evidencia": "2.1",
+        "enunciado": "¿Está esta predicción adecuadamente respaldada por los datos recolectados?",
+        "opciones": {
+          "A": "Sí, porque cualquier muestra de personas, sin importar su tamaño o representatividad geográfica, es suficiente para predecir el comportamiento electoral de todo un país.",
+          "B": "No, porque una muestra de solo 15 personas, tomada en un único lugar de una sola ciudad, es demasiado pequeña y poco representativa de la diversidad geográfica, social y económica de todo el electorado nacional.",
+          "C": "No, porque las encuestas de intención de voto nunca son útiles para predecir resultados electorales, sin importar cómo se realicen.",
+          "D": "Sí, porque entrevistar personas cara a cara en un centro comercial es un método más confiable que cualquier otro tipo de encuesta electoral."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Una muestra de 15 personas, concentrada en un único lugar de una sola ciudad, no representa adecuadamente la diversidad geográfica, socioeconómica y política de todo un electorado nacional; se necesitaría una muestra mucho más grande y distribuida representativamente entre distintas regiones y grupos demográficos del país.",
+        "distractores": {
+          "A": {
+            "explicacion": "Generaliza que cualquier tamaño y ubicación de muestra es igualmente válido para predecir un fenómeno tan amplio y diverso como una elección nacional, ignorando la importancia del tamaño de muestra y la representatividad.",
+            "patron_trampa": "sobregeneralizacion_de_un_metodo"
+          },
+          "C": {
+            "explicacion": "Rechaza categóricamente la utilidad de cualquier encuesta electoral, cuando el problema real no es que las encuestas nunca sean útiles, sino que esta encuesta específica tiene un tamaño de muestra y una representatividad claramente insuficientes.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Afirma sin fundamento que el método de entrevista cara a cara en un solo lugar es más confiable que otros métodos, sin abordar el problema real de esta encuesta específica.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "baja"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-031",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "En un laboratorio, se observa que las reacciones agitadas a mayor velocidad (realizadas por diferentes asistentes de laboratorio, cada uno usando su propio baño de agua) tienden a mostrar un mayor rendimiento. El supervisor concluye que 'aumentar la velocidad de agitación causa un mayor rendimiento de la reacción'. Se descubre que los asistentes que agitaban más rápido también tendían a mantener la temperatura del baño de agua ligeramente más alta y constante que los demás.",
+    "tipo_visual": "tabla",
+    "tabla_filas": {
+      "columnas": [
+        "Asistente",
+        "Velocidad de agitación (rpm)",
+        "Temperatura del baño (°C)",
+        "Rendimiento de la reacción (%)"
+      ],
+      "filas": [
+        [
+          "Asistente 1",
+          "200",
+          "25",
+          "68"
+        ],
+        [
+          "Asistente 2",
+          "350",
+          "28",
+          "74"
+        ],
+        [
+          "Asistente 3",
+          "500",
+          "31",
+          "80"
+        ],
+        [
+          "Asistente 4",
+          "650",
+          "34",
+          "86"
+        ],
+        [
+          "Asistente 5",
+          "800",
+          "37",
+          "92"
+        ]
+      ]
+    },
+    "preguntas": [
+      {
+        "id": "PC-ITEM-031",
+        "afirmacion": "analizar_concluir",
+        "evidencia": "2.4",
+        "enunciado": "¿Es adecuada la conclusión del supervisor?",
+        "opciones": {
+          "A": "Sí, porque la velocidad de agitación es un factor conocido en química que siempre mejora el rendimiento de cualquier reacción, sin excepción.",
+          "B": "Sí, porque la asociación observada entre velocidad de agitación y rendimiento es estadísticamente clara, y toda asociación estadística clara implica una relación causal directa.",
+          "C": "No necesariamente, porque la temperatura del baño (que varió de forma no controlada entre los distintos asistentes) podría ser la verdadera variable responsable del mayor rendimiento, y no la velocidad de agitación en sí misma.",
+          "D": "No, porque en un laboratorio real es imposible que la velocidad de agitación tenga ningún efecto medible sobre el rendimiento de una reacción química."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "La temperatura del baño, que varió de forma no controlada entre los distintos asistentes, es una variable de confusión plausible: la temperatura es un factor bien conocido que puede afectar el rendimiento de una reacción, por lo que el efecto observado podría deberse, total o parcialmente, a esa diferencia de temperatura, y no a la velocidad de agitación en sí misma.",
+        "distractores": {
+          "A": {
+            "explicacion": "Generaliza que la velocidad de agitación siempre mejora el rendimiento de cualquier reacción, sin considerar que el efecto observado podría deberse a otra variable no controlada (la temperatura).",
+            "patron_trampa": "sobregeneralizacion_de_un_metodo"
+          },
+          "B": {
+            "explicacion": "Trata la asociación estadística observada como si demostrara automáticamente una relación causal, sin considerar que la temperatura, una variable no controlada, podría explicar la asociación observada.",
+            "patron_trampa": "correlacion_causalidad"
+          },
+          "D": {
+            "explicacion": "Hace una afirmación extrema y no respaldada de que la agitación no puede tener ningún efecto, cuando el problema real aquí es que no se puede aislar su efecto del de la temperatura no controlada.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-032",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Un profesor compara la pureza de un compuesto recristalizado en dos lotes distintos: el Lote 1, preparado por el Estudiante X un lunes, y el Lote 2, preparado por el Estudiante Y un viernes, usando muestras de materia prima de proveedores distintos en cada caso. El Lote 2 muestra un rango de punto de fusión más estrecho (mayor pureza aparente), y el profesor concluye que 'la técnica de recristalización del Estudiante Y es mejor que la del Estudiante X'.",
+    "tipo_visual": "tabla",
+    "tabla_filas": {
+      "columnas": [
+        "Lote",
+        "Estudiante",
+        "Día de preparación",
+        "Proveedor de materia prima",
+        "Rango de punto de fusión (°C)"
+      ],
+      "filas": [
+        [
+          "Lote 1",
+          "Estudiante X",
+          "Lunes",
+          "Proveedor A",
+          "118-124"
+        ],
+        [
+          "Lote 2",
+          "Estudiante Y",
+          "Viernes",
+          "Proveedor B",
+          "121-123"
+        ]
+      ]
+    },
+    "preguntas": [
+      {
+        "id": "PC-ITEM-032",
+        "afirmacion": "analizar_concluir",
+        "evidencia": "2.2",
+        "enunciado": "¿Qué problema metodológico afecta esta comparación?",
+        "opciones": {
+          "A": "Ninguno; comparar la pureza final de dos lotes preparados por personas completamente distintas siempre permite concluir con total certeza cuál técnica de recristalización es realmente mejor.",
+          "B": "El problema es que el punto de fusión no es en absoluto una medida confiable de la pureza de un compuesto en ningún contexto experimental de laboratorio.",
+          "C": "El problema es que el Estudiante Y probablemente reportó datos falsos o alterados para que su resultado final se viera mejor que el obtenido por el Estudiante X.",
+          "D": "El estudio compara lotes preparados en condiciones distintas (día, proveedor de materia prima, estudiante) en lugar de controlar esas diferencias; esto introduce variables de confusión no controladas."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Comparar lotes preparados en condiciones que difieren en múltiples aspectos simultáneamente sin controlar esas diferencias introduce variables de confusión no controladas: la diferencia de pureza observada podría deberse a la calidad de la materia prima de cada proveedor, y no necesariamente a la técnica de recristalización de cada estudiante.",
+        "distractores": {
+          "A": {
+            "explicacion": "Ignora que, al comparar lotes preparados en condiciones distintas, cualquier diferencia observada en el resultado final podría deberse a esas diferencias de condiciones y no específicamente a la técnica que se quiere evaluar.",
+            "patron_trampa": "variable_de_confusion_no_controlada"
+          },
+          "B": {
+            "explicacion": "Hace una afirmación general y exagerada sobre la utilidad del punto de fusión como indicador de pureza, cuando en realidad es una técnica ampliamente aceptada, y el problema real de este caso es el diseño de la comparación, no la técnica de medición.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "C": {
+            "explicacion": "Propone una explicación sin ninguna evidencia que la respalde, cuando existe una explicación metodológica mucho más simple y probable (variables de confusión no controladas por el uso de materia prima de proveedores distintos).",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-033",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "En un solo ensayo, un estudiante aumenta simultáneamente la temperatura de una reacción Y añade un nuevo catalizador, comparando el resultado con un ensayo previo (sin ninguno de esos cambios) que sirvió como referencia. El nuevo ensayo muestra un rendimiento más alto, y el estudiante concluye que 'el nuevo catalizador fue el responsable de la mejora en el rendimiento'.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-033",
+        "afirmacion": "analizar_concluir",
+        "evidencia": "2.3",
+        "enunciado": "¿Es adecuada esta conclusión?",
+        "opciones": {
+          "A": "No, porque se cambiaron dos variables al mismo tiempo (la temperatura y la presencia del catalizador); no es posible determinar con este diseño si la mejora en el rendimiento se debió al catalizador, al aumento de temperatura, o a la combinación de ambos factores.",
+          "B": "Sí, porque los catalizadores, por definición, siempre son los responsables de cualquier mejora observada en el rendimiento de una reacción química.",
+          "C": "No, porque un solo ensayo nunca puede usarse para calcular ningún tipo de rendimiento de una reacción química, sin importar cuántas variables se hayan cambiado.",
+          "D": "Sí, porque comparar un ensayo con varios cambios frente a un ensayo de referencia sin cambios siempre permite aislar con precisión el efecto de cada variable modificada por separado."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Al modificar dos variables simultáneamente en un solo ensayo comparado contra una referencia sin cambios, no es posible atribuir la mejora observada a una sola de esas variables; para aislar el efecto específico del catalizador, sería necesario un ensayo adicional que solo añadiera el catalizador, manteniendo la temperatura igual a la del ensayo de referencia.",
+        "distractores": {
+          "B": {
+            "explicacion": "Asume, por definición, que cualquier catalizador debe ser la causa de cualquier mejora observada, sin considerar que en este caso también se cambió la temperatura, y el diseño no permite aislar cuál de los dos factores fue responsable.",
+            "patron_trampa": "diseño_no_controlado"
+          },
+          "C": {
+            "explicacion": "Introduce una crítica sobre el número de ensayos realizados que no es el problema metodológico central señalado en el escenario; el problema principal es haber cambiado dos variables a la vez.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Afirma incorrectamente que comparar un ensayo con múltiples cambios frente a una referencia sin cambios permite aislar el efecto de cada variable individual, cuando ocurre justo lo contrario.",
+            "patron_trampa": "diseño_no_controlado"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-034",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Un estudiante realiza una síntesis orgánica una sola vez y obtiene un rendimiento del 95 %. En su informe de laboratorio, escribe que 'este método siempre da un rendimiento del 95 %'.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-034",
+        "afirmacion": "analizar_concluir",
+        "evidencia": "2.1",
+        "enunciado": "¿Está esta afirmación respaldada adecuadamente por los datos obtenidos?",
+        "opciones": {
+          "A": "Sí, porque un rendimiento del 95 % es un valor muy alto y cercano al máximo teórico posible, lo cual demuestra que el método es consistente en cualquier laboratorio.",
+          "B": "No, porque un único ensayo no permite establecer que un método siempre produce el mismo resultado; el rendimiento puede variar por múltiples factores no controlados entre repeticiones.",
+          "C": "No, porque obtener un rendimiento del 95 % es matemática y químicamente imposible de alcanzar en la práctica en cualquier síntesis orgánica real de laboratorio.",
+          "D": "Sí, porque cualquier resultado individual obtenido en un laboratorio universitario debe considerarse representativo del comportamiento general de ese método químico."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Un único ensayo solo proporciona un dato puntual, no información sobre la consistencia o repetibilidad de un método; el rendimiento de una síntesis puede variar de un ensayo a otro por diversos factores, por lo que afirmar que un método 'siempre' produce el mismo rendimiento requeriría múltiples repeticiones, no un solo resultado.",
+        "distractores": {
+          "A": {
+            "explicacion": "Confunde un valor alto de rendimiento en un solo ensayo con evidencia de consistencia del método a través de múltiples repeticiones; un resultado alto en una sola ocasión no dice nada sobre su reproducibilidad futura.",
+            "patron_trampa": "sobregeneralizacion_de_un_metodo"
+          },
+          "C": {
+            "explicacion": "Hace una afirmación incorrecta sobre la imposibilidad del resultado obtenido; un rendimiento del 95 % es alto pero perfectamente posible en muchas síntesis orgánicas bien optimizadas.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Generaliza que cualquier resultado individual debe considerarse representativo del comportamiento general de un método, sin reconocer que se necesitan múltiples repeticiones para establecer qué tan representativo es ese resultado.",
+            "patron_trampa": "sobregeneralizacion_de_un_metodo"
+          }
+        },
+        "dificultad": "baja"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-035",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Una persona deja un objeto de cobre a la intemperie durante una semana y observa que se forma una capa verdosa en su superficie (pátina). A partir de esta única observación, concluye que 'todos los metales se corroen a la misma velocidad que el cobre bajo las mismas condiciones'.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-035",
+        "afirmacion": "analizar_concluir",
+        "evidencia": "2.1",
+        "enunciado": "¿Es adecuada esta conclusión?",
+        "opciones": {
+          "A": "Sí, porque si un metal muestra signos visibles de corrosión en una semana, todos los demás metales deben corroerse exactamente a la misma velocidad bajo condiciones similares.",
+          "B": "Sí, porque la corrosión es un fenómeno químico universal que ocurre de forma exactamente igual en todos los metales conocidos, sin ninguna variación entre ellos.",
+          "C": "No, porque generaliza el comportamiento de un solo metal a todos los demás, sin considerar que la velocidad de corrosión depende de la reactividad específica de cada metal (el oro resiste más que el cobre, el hierro se oxida más rápido).",
+          "D": "No, porque el cobre en realidad no puede formar ningún tipo de capa superficial visible al exponerse al aire libre durante ningún periodo de tiempo."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "La velocidad de corrosión de un metal depende de su reactividad química específica, que varía considerablemente entre distintos metales; generalizar el comportamiento observado en un solo metal a 'todos los metales' ignora estas diferencias bien conocidas de reactividad química.",
+        "distractores": {
+          "A": {
+            "explicacion": "Generaliza el comportamiento de corrosión observado en un solo metal específico a todos los metales, sin considerar que cada metal tiene una reactividad química distinta.",
+            "patron_trampa": "sobregeneralizacion_de_un_metodo"
+          },
+          "B": {
+            "explicacion": "Trata la corrosión como si fuera un fenómeno idéntico en velocidad e intensidad para todos los metales, ignorando las diferencias bien documentadas de reactividad química entre distintos elementos metálicos.",
+            "patron_trampa": "sobregeneralizacion_de_un_metodo"
+          },
+          "D": {
+            "explicacion": "Contradice directamente la observación descrita en el enunciado, que establece explícitamente que se formó una capa verdosa visible sobre el objeto de cobre.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-036",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Una prueba de mancha (spot test) colorimétrica para detectar la presencia de un ion específico da un resultado positivo (cambio de color) en una muestra desconocida. Un analista concluye que 'esto confirma definitivamente la presencia de ese ion en la muestra'. Este tipo de prueba es conocida como una prueba presuntiva, ya que algunos iones estructuralmente similares pueden producir el mismo cambio de color (falsos positivos).",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-036",
+        "afirmacion": "analizar_concluir",
+        "evidencia": "2.1",
+        "enunciado": "¿Es adecuada la conclusión del analista?",
+        "opciones": {
+          "A": "Sí, porque cualquier prueba colorimétrica que produzca un cambio de color visible debe considerarse una confirmación definitiva e inequívoca de la presencia de la sustancia buscada.",
+          "B": "Sí, porque una vez que se obtiene un resultado positivo en cualquier prueba de laboratorio, ya no es necesario realizar ninguna prueba adicional de confirmación.",
+          "C": "No, porque las pruebas de mancha colorimétricas nunca son útiles para ningún propósito de análisis químico, y deberían evitarse por completo.",
+          "D": "No, porque una prueba presuntiva, por su propia naturaleza, solo indica que la presencia del ion es posible o probable, no confirmada; dado que iones estructurales similares pueden dar el mismo resultado positivo, se necesitaría una prueba confirmatoria adicional (más específica) antes de concluir con certeza la presencia del ion."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Una prueba presuntiva está diseñada para dar una indicación rápida y preliminar de la posible presencia de una sustancia, pero no para confirmarla con certeza, precisamente porque puede producir falsos positivos; el método permite concluir que la presencia del ion es plausible, pero afirmar una 'confirmación definitiva' va más allá de lo que este tipo de prueba puede demostrar por sí sola.",
+        "distractores": {
+          "A": {
+            "explicacion": "Trata cualquier resultado positivo de una prueba colorimétrica como una confirmación absoluta, sin considerar que las pruebas presuntivas, por diseño, tienen limitaciones conocidas (falsos positivos) que impiden una conclusión definitiva.",
+            "patron_trampa": "sobregeneralizacion_de_un_metodo"
+          },
+          "B": {
+            "explicacion": "Generaliza que ningún resultado positivo requiere confirmación adicional, ignorando la distinción bien establecida en química analítica entre pruebas presuntivas y pruebas confirmatorias.",
+            "patron_trampa": "sobregeneralizacion_de_un_metodo"
+          },
+          "C": {
+            "explicacion": "Rechaza por completo la utilidad de las pruebas de mancha colorimétricas, cuando estas sí son útiles como una primera indicación rápida, siempre que se reconozcan sus limitaciones y se complementen con pruebas confirmatorias.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-037",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "En varias reacciones distintas monitoreadas a lo largo del tiempo, se observa que, en los momentos donde el cambio de color es más intenso, también se registra una mayor velocidad de reacción medida en ese instante. Un estudiante concluye que 'la intensidad del cambio de color es lo que causa que la reacción se acelere'.",
+    "tipo_visual": "grafica_datos",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Tiempo (minutos)",
+      "ejeY": "Intensidad relativa (u.a., escala 0-100)",
+      "series": [
+        {
+          "nombre": "Intensidad de color",
+          "datos": [
+            {
+              "x": 0,
+              "y": 10
+            },
+            {
+              "x": 5,
+              "y": 35
+            },
+            {
+              "x": 10,
+              "y": 70
+            },
+            {
+              "x": 15,
+              "y": 90
+            },
+            {
+              "x": 20,
+              "y": 60
+            },
+            {
+              "x": 25,
+              "y": 30
+            },
+            {
+              "x": 30,
+              "y": 12
+            }
+          ]
+        },
+        {
+          "nombre": "Velocidad de reacción",
+          "datos": [
+            {
+              "x": 0,
+              "y": 8
+            },
+            {
+              "x": 5,
+              "y": 30
+            },
+            {
+              "x": 10,
+              "y": 65
+            },
+            {
+              "x": 15,
+              "y": 88
+            },
+            {
+              "x": 20,
+              "y": 58
+            },
+            {
+              "x": 25,
+              "y": 28
+            },
+            {
+              "x": 30,
+              "y": 10
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Gráfica de líneas con dos curvas (intensidad de color y velocidad de reacción) que suben y bajan de forma sincronizada a lo largo del tiempo."
+    },
+    "preguntas": [
+      {
+        "id": "PC-ITEM-037",
+        "afirmacion": "analizar_concluir",
+        "evidencia": "2.4",
+        "enunciado": "¿Es adecuada esta conclusión?",
+        "opciones": {
+          "A": "No necesariamente, porque tanto la intensidad del color como la velocidad medida podrían ser efectos de una causa común (por ejemplo, la concentración de un intermediario coloreado formado durante la reacción), sin que el color en sí mismo sea la causa de que la reacción se acelere.",
+          "B": "Sí, porque cualquier asociación observada entre dos variables medidas en el mismo experimento demuestra necesariamente que una es la causa directa de la otra.",
+          "C": "No, porque el color de una reacción química nunca tiene ninguna relación con la velocidad a la que ocurre esa reacción.",
+          "D": "Sí, porque el color es una propiedad física directamente observable, y las propiedades físicas directamente observables siempre son la causa de los cambios químicos que ocurren en un sistema."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La intensidad del color y la velocidad de reacción medida podrían estar ambas relacionadas con una tercera variable común, como la concentración de un intermediario o producto coloreado que se forma a medida que avanza la reacción; en ese caso, ambas observaciones serían consecuencias del progreso de la reacción, no una la causa de la otra.",
+        "distractores": {
+          "B": {
+            "explicacion": "Trata cualquier asociación estadística observada entre dos variables medidas en el mismo experimento como si demostrara automáticamente causalidad directa, ignorando la posibilidad de que ambas sean efectos de una causa común.",
+            "patron_trampa": "correlacion_causalidad"
+          },
+          "C": {
+            "explicacion": "Niega categóricamente cualquier relación entre el color y la velocidad de reacción, contradiciendo la asociación observada descrita explícitamente en el enunciado.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Generaliza que cualquier propiedad física observable debe ser la causa de los cambios químicos asociados, sin distinguir entre una variable que es causa de un fenómeno y una que es simplemente una consecuencia observable de él.",
+            "patron_trampa": "correlacion_causalidad"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-038",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Un estudio relaciona la cantidad de catalizador añadida con el rendimiento obtenido en varios ensayos de una reacción. Al revisar los registros del laboratorio, se descubre que la temperatura de cada ensayo también varió de forma no controlada entre los distintos ensayos.",
+    "tipo_visual": "tabla",
+    "tabla_filas": {
+      "columnas": [
+        "Ensayo",
+        "Cantidad de catalizador (g)",
+        "Temperatura (°C)",
+        "Rendimiento (%)"
+      ],
+      "filas": [
+        [
+          "Ensayo 1",
+          "0.5",
+          "40",
+          "55"
+        ],
+        [
+          "Ensayo 2",
+          "1.0",
+          "48",
+          "65"
+        ],
+        [
+          "Ensayo 3",
+          "1.5",
+          "55",
+          "74"
+        ],
+        [
+          "Ensayo 4",
+          "2.0",
+          "63",
+          "82"
+        ],
+        [
+          "Ensayo 5",
+          "2.5",
+          "70",
+          "90"
+        ]
+      ]
+    },
+    "preguntas": [
+      {
+        "id": "PC-ITEM-038",
+        "afirmacion": "analizar_concluir",
+        "evidencia": "2.2",
+        "enunciado": "Un investigador quiere identificar la variable de confusión más plausible que podría explicar la relación observada entre cantidad de catalizador y rendimiento, sin que el catalizador sea necesariamente la única causa. ¿Cuál es esa variable?",
+        "opciones": {
+          "A": "El rendimiento obtenido en cada ensayo, porque es la variable que se mide como resultado en este estudio y por lo tanto no puede ser una variable de confusión.",
+          "B": "La temperatura de cada ensayo, porque al haber variado de forma no controlada junto con la cantidad de catalizador, podría ser ella (y no el catalizador) la responsable, total o parcialmente, del cambio observado en el rendimiento.",
+          "C": "El tipo de recipiente de vidrio usado en cada ensayo, porque cualquier diferencia en el material de laboratorio siempre afecta significativamente el rendimiento de una reacción química.",
+          "D": "El color del catalizador utilizado, porque las propiedades visuales de un catalizador son las que determinan su efecto sobre el rendimiento de una reacción."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "La temperatura es la variable de confusión más plausible en este caso, porque se sabe que varió de forma no controlada junto con la cantidad de catalizador, y la temperatura es un factor bien conocido que puede afectar significativamente el rendimiento de una reacción.",
+        "distractores": {
+          "A": {
+            "explicacion": "Confunde la variable dependiente (el resultado medido) con una variable de confusión, que por definición debe ser un factor externo relacionado con ambas variables del estudio, no el resultado mismo.",
+            "patron_trampa": "variable_confundida"
+          },
+          "C": {
+            "explicacion": "Propone un factor sin ninguna evidencia de que haya variado entre los ensayos ni de que tenga un efecto significativo conocido, a diferencia de la temperatura, que sí se sabe que varió de forma no controlada.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Propone una relación sin fundamento científico entre una propiedad visual irrelevante del catalizador y su efecto químico sobre el rendimiento, ignorando la variable de confusión real y bien identificada en el escenario.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-039",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Un estudiante compara la solubilidad del Compuesto X en agua a 20 °C con la solubilidad del Compuesto Y en etanol a 40 °C, encontrando que el Compuesto Y muestra un valor de solubilidad más alto en esas condiciones. A partir de esta comparación, concluye que 'el Compuesto Y es, en general, más soluble que el Compuesto X'.",
+    "tipo_visual": "tabla",
+    "tabla_filas": {
+      "columnas": [
+        "Compuesto",
+        "Disolvente",
+        "Temperatura (°C)",
+        "Solubilidad (g/100 mL)"
+      ],
+      "filas": [
+        [
+          "Compuesto X",
+          "Agua",
+          "20",
+          "12"
+        ],
+        [
+          "Compuesto Y",
+          "Etanol",
+          "40",
+          "28"
+        ]
+      ]
+    },
+    "preguntas": [
+      {
+        "id": "PC-ITEM-039",
+        "afirmacion": "analizar_concluir",
+        "evidencia": "2.3",
+        "enunciado": "¿Es adecuada esta conclusión?",
+        "opciones": {
+          "A": "Sí, porque la solubilidad de cualquier compuesto es una propiedad fija que no depende del disolvente ni de la temperatura usados para medirla.",
+          "B": "Sí, porque un valor numérico de solubilidad más alto siempre indica una mayor solubilidad general del compuesto, sin importar en qué condiciones se haya medido cada uno.",
+          "C": "No, porque se compararon los dos compuestos en condiciones completamente distintas (diferente disolvente y diferente temperatura); no es posible determinar cuál compuesto es 'generalmente' más soluble sin medir ambos en las mismas condiciones.",
+          "D": "No, porque el etanol nunca puede disolver ninguna cantidad medible de un compuesto químico, sin importar las condiciones del experimento."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "La solubilidad de un compuesto depende fuertemente del disolvente específico y de la temperatura; al comparar los dos compuestos en condiciones completamente distintas, no es posible aislar si la diferencia observada se debe a las propiedades intrínsecas de cada compuesto o simplemente a las condiciones distintas bajo las cuales se midió cada uno.",
+        "distractores": {
+          "A": {
+            "explicacion": "Afirma incorrectamente que la solubilidad es una propiedad fija e independiente del disolvente y la temperatura, cuando en realidad varía considerablemente según esas dos condiciones.",
+            "patron_trampa": "diseño_no_controlado"
+          },
+          "B": {
+            "explicacion": "Compara directamente valores numéricos obtenidos bajo condiciones experimentales completamente distintas como si fueran comparables, sin reconocer que la falta de control de las condiciones invalida esa comparación directa.",
+            "patron_trampa": "diseño_no_controlado"
+          },
+          "D": {
+            "explicacion": "Hace una afirmación extrema y falsa sobre la capacidad del etanol para disolver sustancias, cuando el etanol es de hecho un disolvente común capaz de disolver muchos compuestos orgánicos.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "media"
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-040",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Un investigador prueba una reacción usando un lote específico de un reactivo comprado a un proveedor, repitiendo el experimento 5 veces con ese mismo lote y obteniendo resultados consistentes entre sí. A partir de esto, concluye que 'este reactivo, de este proveedor, siempre se comporta de esta manera, en cualquier lote que se compre'.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-040",
+        "afirmacion": "analizar_concluir",
+        "evidencia": "2.1",
+        "enunciado": "¿Está esta conclusión respaldada adecuadamente por el experimento descrito?",
+        "opciones": {
+          "A": "Sí, porque repetir un experimento 5 veces con resultados consistentes es evidencia suficiente para generalizar el comportamiento a cualquier lote del mismo reactivo, sin importar el proveedor o el proceso de fabricación.",
+          "B": "Sí, porque todos los lotes de un mismo reactivo, producidos por el mismo proveedor, son químicamente idénticos entre sí en el 100 % de los casos, sin ninguna excepción.",
+          "C": "No, porque repetir un experimento varias veces con el mismo lote nunca proporciona ninguna información útil sobre la consistencia de un reactivo.",
+          "D": "No, porque las 5 repeticiones solo demuestran la consistencia dentro de ese lote específico, pero no dicen nada sobre la variabilidad entre distintos lotes del mismo reactivo (diferencias de pureza o de impurezas trazas entre lotes de fabricación), que podría afectar el comportamiento observado en lotes futuros."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Las repeticiones dentro de un mismo lote solo demuestran que el comportamiento es consistente para ese lote específico, pero no proporcionan ninguna información sobre la variabilidad que puede existir entre distintos lotes de fabricación; generalizar el comportamiento a 'cualquier lote' requeriría probar varios lotes distintos, no solo repetir el experimento con el mismo lote.",
+        "distractores": {
+          "A": {
+            "explicacion": "Confunde la consistencia observada dentro de un mismo lote (repetibilidad) con la consistencia entre distintos lotes de fabricación (reproducibilidad entre lotes), que es una pregunta diferente que este experimento no responde.",
+            "patron_trampa": "sobregeneralizacion_de_un_metodo"
+          },
+          "B": {
+            "explicacion": "Asume, sin ninguna evidencia, que todos los lotes de fabricación de un reactivo son químicamente idénticos, cuando en la práctica pueden existir variaciones de pureza o impurezas trazas entre distintos lotes.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "C": {
+            "explicacion": "Va al extremo opuesto, negando cualquier utilidad a la repetición del experimento, cuando en realidad sí son útiles para establecer la consistencia dentro de un lote específico, solo que no informan sobre la variabilidad entre lotes.",
+            "patron_trampa": "sobregeneralizacion_de_un_metodo"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ]
+  }
+]

@@ -38,6 +38,7 @@ export function Home({ perfil, onCambiarPerfil, onAbrirModulo, onIrADirecto, onI
   const [mounted, setMounted] = useState(false)
   const { modulo: ingles } = useModulo('ingles')
   const { modulo: competenciasCiudadanas } = useModulo('competencias-ciudadanas')
+  const { modulo: pensamientoCientifico } = useModulo('pensamiento-cientifico')
 
   useEffect(() => {
     const id = requestAnimationFrame(() => requestAnimationFrame(() => setMounted(true)))
@@ -55,10 +56,14 @@ export function Home({ perfil, onCambiarPerfil, onAbrirModulo, onIrADirecto, onI
     : 0
   const ultimaRevision = etiquetaRelativa(ultimaRevisionDe(estadosSRS))
 
-  // Dominio real por módulo cargado (solo Inglés y Competencias Ciudadanas
-  // tienen datos hoy); los módulos aún sin datos se quedan en `disponible:
-  // false` y no aparecen aquí.
-  const modulosCargados = { ingles, 'competencias-ciudadanas': competenciasCiudadanas }
+  // Dominio real por módulo cargado (solo los módulos con `disponible:
+  // true` en indiceModulos.js); los que aún no tienen datos se quedan en
+  // `disponible: false` y no aparecen aquí.
+  const modulosCargados = {
+    ingles,
+    'competencias-ciudadanas': competenciasCiudadanas,
+    'pensamiento-cientifico': pensamientoCientifico,
+  }
   const dominioPorModulo = {}
   for (const [id, mod] of Object.entries(modulosCargados)) {
     if (!mod) continue

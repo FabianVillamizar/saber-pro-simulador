@@ -1,0 +1,782 @@
+[
+  {
+    "id": "PC-EST-001",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "medidas_tendencia_central_y_dispersion",
+    "modo": "pregunta",
+    "pregunta": "Los salarios mensuales de 5 empleados de una pequeña empresa son: 1.200.000, 1.300.000, 1.250.000, 1.280.000 y 8.500.000 (este último es el dueño). ¿Qué medida de tendencia central representa mejor el salario 'típico' de esta empresa: la media o la mediana? ¿Por qué?",
+    "respuesta": "La mediana representa mejor el salario típico; con estos datos ordenados (1.200.000, 1.250.000, 1.280.000, 1.300.000, 8.500.000), la mediana es 1.280.000, un valor cercano a la mayoría de los salarios. La media es (1.200.000+1.300.000+1.250.000+1.280.000+8.500.000)/5 = 2.706.000, un valor muy alejado de lo que gana la mayoría, porque el salario del dueño (un valor atípico) la infla artificialmente.",
+    "regla": "La **media** es sensible a valores atípicos (outliers): un solo valor extremo puede desplazarla lejos de donde se concentra la mayoría de los datos; la **mediana**, al ser el valor central cuando los datos se ordenan, es mucho más robusta frente a esos valores extremos y suele representar mejor un dato 'típico' cuando la distribución es asimétrica.",
+    "ejemplo": "El precio 'típico' de las viviendas en una ciudad suele reportarse con la mediana en lugar de la media, porque unas pocas mansiones de precio muy alto inflarían artificialmente la media, dando una impresión equivocada del precio que paga la mayoría de los compradores.",
+    "error_comun": "Se usa la media por defecto como la medida de tendencia central 'correcta' en cualquier situación, sin evaluar primero si la distribución de los datos tiene valores atípicos que puedan distorsionarla; en esos casos, la mediana es más representativa.",
+    "conexion_cotidiana": "Cuando se habla del 'ingreso promedio' de un país, distintos medios pueden reportar cifras muy distintas dependiendo de si usan la media (afectada por los ingresos muy altos de una minoría) o la mediana (que refleja mejor la experiencia de la persona típica).",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "PC-EST-002",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "medidas_tendencia_central_y_dispersion",
+    "modo": "pregunta",
+    "pregunta": "Dos grupos de estudiantes presentan un examen. El grupo A tiene notas de 6,8; 7,0; 7,1; 6,9 y 7,2 (promedio 7,0). El grupo B tiene notas de 3,0; 5,0; 9,0; 8,0 y 10,0 (promedio también 7,0). Aunque ambos grupos tienen la misma media, ¿qué medida estadística permite distinguir estas dos distribuciones tan diferentes, y qué indica sobre cada grupo?",
+    "respuesta": "La desviación estándar (o el rango) permite distinguirlas: el grupo A tiene una desviación estándar baja (notas muy agrupadas cerca de 7,0, desempeño homogéneo), mientras que el grupo B tiene una desviación estándar alta (notas muy dispersas, desde 3,0 hasta 10,0, desempeño muy heterogéneo); reportar solo la media oculta esta diferencia importante.",
+    "regla": "La **desviación estándar** mide qué tan dispersos están los datos respecto a la media: un valor bajo indica datos agrupados cerca de la media (poca variabilidad), mientras que un valor alto indica datos muy dispersos (alta variabilidad); dos conjuntos de datos pueden tener la misma media y una dispersión completamente distinta.",
+    "ejemplo": "Dos ciudades pueden tener la misma temperatura promedio anual, pero una con muy poca variación estacional (clima estable todo el año) y otra con veranos muy calurosos e inviernos muy fríos (alta desviación estándar), una diferencia que el promedio por sí solo no revela.",
+    "error_comun": "Se reporta o interpreta únicamente la media de un conjunto de datos, asumiendo que resume toda la información relevante, sin considerar que la dispersión puede revelar diferencias importantes entre conjuntos de datos con medias idénticas.",
+    "conexion_cotidiana": "Un fabricante de componentes electrónicos que promete un voltaje 'promedio' de 5V no es suficientemente informativo para un ingeniero: necesita saber también qué tan dispersos están los voltajes reales entre las unidades fabricadas, porque una alta variabilidad podría dañar equipos sensibles.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "histograma",
+      "ejeX": "Nota (rango)",
+      "ejeY": "Frecuencia (número de estudiantes)",
+      "series": [
+        {
+          "nombre": "Grupo A (baja dispersión)",
+          "datos": [
+            {
+              "x": "6-7",
+              "y": 2
+            },
+            {
+              "x": "7-8",
+              "y": 3
+            }
+          ]
+        },
+        {
+          "nombre": "Grupo B (alta dispersión)",
+          "datos": [
+            {
+              "x": "3-4",
+              "y": 1
+            },
+            {
+              "x": "5-6",
+              "y": 1
+            },
+            {
+              "x": "8-9",
+              "y": 1
+            },
+            {
+              "x": "9-10",
+              "y": 1
+            },
+            {
+              "x": "10-11",
+              "y": 1
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Comparación de dos distribuciones de notas con la misma media (7,0): el grupo A concentrado en un rango estrecho (6 a 8) y el grupo B disperso en un rango amplio (3 a 11)."
+    },
+    "dificultad": "media",
+    "prereqs": [
+      "PC-EST-001"
+    ]
+  },
+  {
+    "id": "PC-EST-003",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "medidas_tendencia_central_y_dispersion",
+    "modo": "pregunta",
+    "pregunta": "Un diagrama de caja y bigotes (box plot) de las calificaciones de un curso muestra una caja que va desde 6,0 hasta 8,0, con una línea interna en 7,0, y bigotes que se extienden hasta 4,5 y 9,5, además de un punto aislado marcado en 2,0. Leyendo rápidamente esta gráfica, ¿qué representa cada elemento, y qué podría indicar el punto en 2,0?",
+    "respuesta": "La caja representa el rango intercuartílico (el 50 % central de los datos), desde 6,0 hasta 8,0; la línea interna en 7,0 es la mediana; los bigotes muestran el rango de los datos no atípicos; el punto aislado en 2,0, por estar fuera del bigote inferior, representa un valor atípico (outlier), posiblemente la nota de un estudiante con un desempeño muy distinto al resto del curso.",
+    "regla": "En un **diagrama de caja y bigotes**, la caja muestra el rango intercuartílico con la mediana marcada dentro, los bigotes muestran el rango de valores no atípicos, y los puntos aislados fuera de los bigotes representan valores atípicos (outliers); esta lectura rápida permite evaluar la dispersión y detectar valores extremos de un vistazo.",
+    "ejemplo": "En un estudio médico, un box plot de la presión arterial de un grupo de pacientes puede revelar rápidamente si la mayoría de los valores están en un rango saludable (caja compacta) o si hay pacientes con valores muy fuera de lo común que merecen atención individual.",
+    "error_comun": "Se interpreta la longitud total del box plot (de bigote a bigote) como si representara la mayoría de los datos, cuando en realidad es la caja central la que concentra el 50 % de los datos; los bigotes y los puntos aislados representan valores más extremos y menos frecuentes.",
+    "conexion_cotidiana": "Los reportes de rendimiento deportivo de un equipo a lo largo de una temporada suelen usar box plots para mostrar de un vistazo si el desempeño fue consistente (caja compacta) o muy variable, y para señalar partidos con resultados atípicamente buenos o malos.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "barras",
+      "ejeX": "Estadístico del diagrama de caja",
+      "ejeY": "Calificación",
+      "series": [
+        {
+          "nombre": "Valores clave del box plot",
+          "datos": [
+            {
+              "x": "Atípico",
+              "y": 2
+            },
+            {
+              "x": "Bigote inferior",
+              "y": 4.5
+            },
+            {
+              "x": "Q1 (borde inferior de la caja)",
+              "y": 6
+            },
+            {
+              "x": "Mediana",
+              "y": 7
+            },
+            {
+              "x": "Q3 (borde superior de la caja)",
+              "y": 8
+            },
+            {
+              "x": "Bigote superior",
+              "y": 9.5
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Valores clave del diagrama de caja: caja entre 6,0 y 8,0 con mediana en 7,0, bigotes hasta 4,5 y 9,5, y un punto atípico en 2,0."
+    },
+    "dificultad": "media",
+    "prereqs": [
+      "PC-EST-002"
+    ]
+  },
+  {
+    "id": "PC-EST-004",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "correlacion_entre_variables_e_interpretacion",
+    "modo": "pregunta",
+    "pregunta": "Un diagrama de dispersión muestra horas de estudio semanal (eje X) contra calificación obtenida en un examen (eje Y), con los puntos formando una nube que sube claramente de izquierda a derecha y que está muy pegada a una línea recta imaginaria. ¿Qué tipo de correlación sugiere esta gráfica, en dirección y en fuerza?",
+    "respuesta": "Sugiere una correlación positiva (a más horas de estudio, mayor calificación, ya que la nube sube de izquierda a derecha) y fuerte (porque los puntos están muy cerca de una línea recta imaginaria, con poca dispersión alrededor de ella); si los puntos estuvieran muy dispersos alrededor de esa línea, la correlación seguiría siendo positiva pero débil.",
+    "regla": "En un **diagrama de dispersión**, la dirección de la correlación se lee por la tendencia general de los puntos (ascendente = positiva, descendente = negativa), y la fuerza se lee por qué tan cerca están los puntos de formar una línea recta clara (puntos muy pegados a una línea = correlación fuerte; puntos muy dispersos = correlación débil).",
+    "ejemplo": "Un diagrama de dispersión entre la temperatura ambiente (eje X) y las ventas de helado (eje Y) típicamente muestra una correlación positiva fuerte, con los puntos formando una nube ascendente muy compacta.",
+    "error_comun": "Se evalúa la dirección de la correlación (si sube o baja) sin evaluar también su fuerza (qué tan dispersos están los puntos alrededor de la tendencia), tratando cualquier tendencia visible como si fuera igual de confiable, sin distinguir entre una correlación fuerte y una débil.",
+    "conexion_cotidiana": "Las aplicaciones de seguimiento de actividad física a menudo muestran un diagrama de dispersión entre horas de sueño y nivel de energía reportado al día siguiente, permitiendo notar visualmente si existe una relación clara y consistente entre ambas variables.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "dispersion",
+      "ejeX": "Horas de estudio semanal",
+      "ejeY": "Calificación obtenida (0-10)",
+      "series": [
+        {
+          "nombre": "Estudiantes",
+          "datos": [
+            {
+              "x": 1,
+              "y": 3.2
+            },
+            {
+              "x": 2,
+              "y": 4
+            },
+            {
+              "x": 3,
+              "y": 4.9
+            },
+            {
+              "x": 4,
+              "y": 5.8
+            },
+            {
+              "x": 5,
+              "y": 6.7
+            },
+            {
+              "x": 6,
+              "y": 7.5
+            },
+            {
+              "x": 7,
+              "y": 8.3
+            },
+            {
+              "x": 8,
+              "y": 9.1
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Nube de puntos ascendente y muy compacta, mostrando una correlación positiva fuerte entre horas de estudio y calificación."
+    },
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "PC-EST-005",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "correlacion_entre_variables_e_interpretacion",
+    "modo": "pregunta",
+    "pregunta": "Un estudio reporta un coeficiente de correlación r = 0,85 entre horas de exposición solar semanal y nivel de vitamina D en sangre, y otro reporta r = 0,15 entre consumo de café y nivel de estrés autoreportado. Sin conocer más detalles, ¿qué te dice cada valor de r sobre la fuerza de la relación?",
+    "respuesta": "Un r = 0,85 indica una correlación positiva fuerte entre exposición solar y vitamina D (los puntos estarían muy cerca de una línea recta ascendente); un r = 0,15 indica una correlación positiva muy débil entre café y estrés (los puntos estarían muy dispersos, con poca relación lineal clara), aunque el signo positivo sugiere una tendencia leve en la misma dirección.",
+    "regla": "El **coeficiente de correlación** (r) toma valores entre −1 y 1: valores cercanos a 1 o −1 indican una relación lineal fuerte, mientras que valores cercanos a 0 indican una relación lineal débil o inexistente; el signo indica la dirección, y la magnitud (sin importar el signo) indica la fuerza.",
+    "ejemplo": "Un coeficiente r = −0,90 entre la altitud de una ciudad y su temperatura promedio anual indicaría una relación negativa muy fuerte (a mayor altitud, menor temperatura, con muy poca dispersión respecto a esa tendencia).",
+    "error_comun": "Se interpreta el signo del coeficiente de correlación como si indicara la fuerza de la relación (asumiendo que un r positivo es automáticamente 'mejor' o 'más fuerte' que uno negativo), cuando la fuerza depende del valor absoluto de r, sin importar su signo.",
+    "conexion_cotidiana": "Los estudios epidemiológicos que relacionan hábitos de vida con riesgos de salud suelen reportar coeficientes de correlación para cuantificar qué tan fuerte es una asociación observada, ayudando a priorizar qué factores merecen más atención en salud pública.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "media",
+    "prereqs": [
+      "PC-EST-004"
+    ]
+  },
+  {
+    "id": "PC-EST-006",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "correlacion_entre_variables_e_interpretacion",
+    "modo": "pregunta",
+    "pregunta": "Un conjunto de datos muestra una relación clara entre la dosis de un medicamento (eje X) y el efecto terapéutico (eje Y), pero con forma de curva (el efecto aumenta rápido al principio y luego se aplana). Al calcular el coeficiente de correlación de Pearson (r), se obtiene un valor sorprendentemente bajo, r = 0,20. ¿Significa esto que no existe una relación fuerte entre dosis y efecto?",
+    "respuesta": "No significa que no exista una relación fuerte; el coeficiente de Pearson (r) mide específicamente la fuerza de una relación LINEAL, y una relación curva (no lineal), aunque sea clara y fuerte, puede dar un r bajo porque los puntos no se ajustan bien a una línea recta. Aquí la relación es fuerte pero no lineal, por lo que r no es la medida adecuada para capturarla.",
+    "regla": "El **coeficiente de correlación de Pearson** (r) solo mide la fuerza de relaciones lineales; una relación no lineal (curva de saturación, parábola, exponencial) puede ser muy fuerte y clara visualmente, y aun así producir un r bajo o cercano a cero, porque r no está diseñado para capturar ese tipo de asociación.",
+    "ejemplo": "La relación entre la edad de una persona y su estatura sigue una curva (crecimiento rápido en la niñez, luego una meseta en la adultez), no una línea recta; calcular r sobre el rango completo de edades daría un valor mucho más bajo del que sugeriría la fuerte relación visual entre ambas variables.",
+    "error_comun": "Se concluye que un r bajo significa automáticamente que no existe ninguna relación importante entre dos variables, sin considerar la posibilidad de que la relación real sea fuerte pero de forma no lineal, en cuyo caso el coeficiente de Pearson no es la herramienta adecuada.",
+    "conexion_cotidiana": "La relación entre la cantidad de fertilizante aplicado a un cultivo y su rendimiento suele seguir una curva de rendimientos decrecientes, una relación agronómica real y fuerte que un coeficiente de correlación lineal podría subestimar si no se analiza correctamente.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "dispersion",
+      "ejeX": "Dosis del medicamento",
+      "ejeY": "Efecto terapéutico",
+      "series": [
+        {
+          "nombre": "Datos observados",
+          "datos": [
+            {
+              "x": 1,
+              "y": 3.9
+            },
+            {
+              "x": 2,
+              "y": 6.3
+            },
+            {
+              "x": 3,
+              "y": 7.8
+            },
+            {
+              "x": 4,
+              "y": 8.6
+            },
+            {
+              "x": 5,
+              "y": 9.2
+            },
+            {
+              "x": 6,
+              "y": 9.5
+            },
+            {
+              "x": 7,
+              "y": 9.7
+            },
+            {
+              "x": 8,
+              "y": 9.8
+            },
+            {
+              "x": 9,
+              "y": 9.9
+            },
+            {
+              "x": 10,
+              "y": 9.9
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Relación en forma de curva de saturación entre dosis y efecto terapéutico: aumento rápido al inicio seguido de una meseta, mal capturada por una línea recta."
+    },
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-EST-005"
+    ]
+  },
+  {
+    "id": "PC-EST-007",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "diseño_de_experimento_controlado",
+    "modo": "pregunta",
+    "pregunta": "Un investigador quiere saber si un nuevo fertilizante mejora el crecimiento de las plantas. Diseña dos grupos de plantas, idénticas en especie, edad, suelo, luz y agua; al grupo A le aplica el fertilizante nuevo, y al grupo B (control) le aplica un tratamiento sin el fertilizante, manteniendo todo lo demás igual. ¿Por qué es importante este diseño para poder concluir que el fertilizante fue la causa de cualquier diferencia observada?",
+    "respuesta": "Es importante porque, al mantener idénticas todas las demás condiciones y variar únicamente la presencia del fertilizante, cualquier diferencia en el crecimiento puede atribuirse con confianza a esa única variable manipulada, y no a otras variables que podrían haber diferido entre los grupos; el grupo control sirve como punto de comparación para saber qué habría pasado sin el tratamiento.",
+    "regla": "Un **experimento controlado** manipula deliberadamente una sola variable (la variable independiente) mientras mantiene todas las demás condiciones constantes entre los grupos comparados, e incluye un grupo control como punto de referencia; este diseño permite atribuir cualquier diferencia observada a la variable manipulada con mayor confianza.",
+    "ejemplo": "En un ensayo clínico para probar un nuevo medicamento, un grupo recibe el medicamento y otro grupo (control) recibe un placebo idéntico en apariencia, mientras se mantienen iguales todas las demás condiciones, permitiendo atribuir cualquier mejora observada específicamente al medicamento.",
+    "error_comun": "Se diseña un experimento cambiando varias variables a la vez entre los grupos comparados (por ejemplo, distinto suelo Y distinto fertilizante), lo que hace imposible saber cuál de esas variables fue la responsable de cualquier diferencia observada.",
+    "conexion_cotidiana": "Cuando alguien prueba si un cambio en su rutina de ejercicio mejora su energía diaria, cambiar simultáneamente la rutina, la dieta y las horas de sueño hace imposible saber cuál de esos cambios fue realmente responsable de cualquier mejora sentida.",
+    "tipo_visual": "diagrama_esquematico",
+    "visual_posicion": "frente",
+    "visual_descripcion": "Diagrama con dos grupos de plantas idénticos en todas las condiciones excepto la presencia del fertilizante (grupo A) o su ausencia (grupo B, control), con una flecha señalando la única variable que difiere.",
+    "dificultad": "baja",
+    "prereqs": [],
+    "imagen": "PC-EST-007.svg"
+  },
+  {
+    "id": "PC-EST-008",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "diseño_de_experimento_controlado",
+    "modo": "pregunta",
+    "pregunta": "En un experimento donde se mide el tiempo que tarda una pelota en rodar por una rampa a distintos ángulos de inclinación, ¿cuál es la variable independiente (la que el investigador manipula deliberadamente) y cuál es la variable dependiente (la que se mide como resultado)?",
+    "respuesta": "La variable independiente es el ángulo de inclinación de la rampa, porque es la que el investigador decide y cambia deliberadamente; la variable dependiente es el tiempo que tarda la pelota en rodar, porque es la que se mide como resultado de ese cambio.",
+    "regla": "La **variable independiente** es la que el investigador manipula o controla deliberadamente en un experimento, mientras que la **variable dependiente** es la que se mide como resultado, y cuyo valor se espera que cambie en respuesta a la variable independiente; identificar correctamente cuál es cuál es el primer paso para interpretar cualquier diseño experimental.",
+    "ejemplo": "En un experimento que mide cómo cambia la velocidad de germinación de semillas a distintas temperaturas, la temperatura es la variable independiente y la velocidad de germinación es la variable dependiente.",
+    "error_comun": "Se confunde cuál variable es la manipulada y cuál es la medida, especialmente cuando el orden de las palabras en el enunciado no coincide con el orden lógico de causa y efecto; conviene preguntarse explícitamente '¿qué decidió cambiar el investigador?' y '¿qué se midió como resultado?'.",
+    "conexion_cotidiana": "Al probar si cambiar la cantidad de horas de sueño afecta el rendimiento en una prueba física, las horas de sueño son la variable independiente y el rendimiento en la prueba es la variable dependiente.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "baja",
+    "prereqs": [
+      "PC-EST-007"
+    ]
+  },
+  {
+    "id": "PC-EST-009",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "establecer_estrategias",
+    "bloque": "diseño_de_experimento_controlado",
+    "modo": "pregunta",
+    "pregunta": "En un estudio sobre si escuchar música mientras se estudia mejora la memorización, un grupo estudia con música (experimental) y otro en silencio (control), bajo las mismas condiciones de tiempo, material y ambiente. Si ambos grupos obtienen resultados similares, ¿qué conclusión permite sacar el grupo control en este caso?",
+    "respuesta": "El grupo control permite concluir que, en estas condiciones, escuchar música no parece tener un efecto significativo sobre la memorización, ya que el resultado del grupo experimental no fue distinto de la línea base; sin el grupo control, no habría manera de saber si el desempeño con música fue 'bueno', 'malo' o 'igual' a lo que habría ocurrido de todas formas sin ella.",
+    "regla": "El **grupo control** sirve como punto de referencia o línea base para poder comparar los resultados del grupo experimental; sin un grupo control adecuado, es imposible saber si un resultado observado se debe realmente al tratamiento aplicado, o si habría ocurrido de todas formas sin él.",
+    "ejemplo": "En un experimento para evaluar si una nueva app de idiomas mejora el vocabulario, comparar solo el progreso del grupo que usó la app (sin un grupo control) no permite saber cuánto de esa mejora se debe realmente a la app y cuánto habría ocurrido de todas formas por la exposición normal al idioma.",
+    "error_comun": "Se diseña o interpreta un estudio sin un grupo control adecuado, atribuyendo cualquier mejora observada directamente al tratamiento, sin considerar que esa misma mejora podría haber ocurrido de todas formas por otros factores (tiempo, práctica general, placebo).",
+    "conexion_cotidiana": "Cuando una persona prueba una crema para reducir arrugas y nota mejoras después de un mes, sin un grupo de comparación que no haya usado la crema es difícil saber cuánto de esa mejora se debe realmente al producto y cuánto a los cuidados normales de la piel.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "media",
+    "prereqs": [
+      "PC-EST-007"
+    ]
+  },
+  {
+    "id": "PC-EST-010",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "variable_de_confusion_y_como_controlarla",
+    "modo": "pregunta",
+    "pregunta": "Un estudio observa que las personas que toman más café tienden a tener mayor riesgo cardiovascular, y concluye que el café causa problemas cardiovasculares. Un análisis más cuidadoso revela que quienes toman más café también fuman más. ¿Qué papel podría estar jugando el tabaquismo en esta relación, y por qué complica la conclusión inicial?",
+    "respuesta": "El tabaquismo podría ser una variable de confusión: si quienes toman más café también fuman más, y el tabaquismo es un factor de riesgo cardiovascular conocido, entonces parte (o toda) la asociación observada podría deberse al tabaquismo, no al café; sin controlar estadísticamente el tabaquismo, no se puede concluir con confianza que el café sea la causa.",
+    "regla": "Una **variable de confusión** es un factor externo relacionado tanto con la variable de interés como con el resultado medido, y que puede generar una asociación aparente entre ambas sin que exista una relación causal directa; identificar y controlar estas variables es esencial antes de sacar conclusiones causales de un estudio observacional.",
+    "ejemplo": "Un estudio que observa que los niños con pies más grandes tienden a leer mejor no implica que el tamaño del pie cause mejor lectura: la edad es la variable de confusión real, ya que los niños mayores tienen tanto pies más grandes como mejores habilidades de lectura.",
+    "error_comun": "Se concluye una relación causal directa entre dos variables asociadas en un estudio observacional, sin investigar si existe un tercer factor (variable de confusión) que podría explicar esa asociación sin conexión causal directa entre las dos variables originales.",
+    "conexion_cotidiana": "La observación de que las ciudades con más heladerías tienen más ahogamientos no significa que las heladerías causen ahogamientos: el calor del verano es la variable de confusión que aumenta tanto el consumo de helado como las actividades acuáticas.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "PC-EST-011",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "establecer_estrategias",
+    "bloque": "variable_de_confusion_y_como_controlarla",
+    "modo": "pregunta",
+    "pregunta": "Para probar si un nuevo método de estudio mejora el rendimiento académico, un investigador podría comparar dos grupos distintos de estudiantes, o medir el rendimiento de un mismo grupo ANTES y DESPUÉS de aplicar el método. ¿Qué ventaja tiene el diseño 'antes y después con los mismos sujetos' para controlar la variable de confusión de las diferencias individuales entre estudiantes?",
+    "respuesta": "Este diseño controla la variable de confusión de las diferencias individuales (capacidad previa, hábitos, motivación) porque cada estudiante se compara consigo mismo, eliminando la posibilidad de que las diferencias observadas se deban a que un grupo era, desde el principio, distinto del otro; al usar los mismos sujetos, cualquier cambio es más atribuible al método de estudio.",
+    "regla": "Un **diseño antes/después con el mismo sujeto** controla la variable de confusión de las diferencias individuales entre sujetos, porque cada persona actúa como su propio control: se compara su propio desempeño antes y después de una intervención, eliminando la variabilidad que existiría al comparar grupos de personas distintas.",
+    "ejemplo": "Para evaluar si un nuevo programa de entrenamiento mejora la resistencia cardiovascular, medir el tiempo de carrera de cada persona antes y después del programa (en lugar de comparar contra un grupo distinto) controla mejor las diferencias individuales de condición física inicial.",
+    "error_comun": "Se compara el desempeño de dos grupos distintos de personas sin verificar que ambos grupos eran similares desde el principio en las variables relevantes, atribuyendo cualquier diferencia final al tratamiento cuando podría deberse a diferencias preexistentes entre los grupos.",
+    "conexion_cotidiana": "Cuando alguien quiere saber si cambiar de marca de champú mejora la salud de su cabello, comparar su propio cabello antes y después (en lugar de comparar con el cabello de otra persona) controla mejor las diferencias individuales de tipo de cabello.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "media",
+    "prereqs": [
+      "PC-EST-010"
+    ]
+  },
+  {
+    "id": "PC-EST-012",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "validez_interna_vs_externa",
+    "modo": "pregunta",
+    "pregunta": "Un experimento de psicología se realiza en un laboratorio altamente controlado, donde todas las condiciones ambientales son idénticas para todos los participantes, minimizando variables de confusión (alta validez interna). Sin embargo, algunos críticos señalan que las condiciones tan artificiales podrían no representar bien la vida cotidiana. ¿A qué tipo de validez se refiere esta segunda preocupación, y cómo se relaciona con la primera?",
+    "respuesta": "Se refiere a la validez externa: qué tanto los resultados obtenidos pueden generalizarse a situaciones reales fuera del laboratorio. Existe con frecuencia una tensión entre ambos tipos de validez: un diseño muy controlado (que maximiza la validez interna) puede alejarse de las condiciones naturales, reduciendo la validez externa; encontrar un balance adecuado es un reto central del diseño experimental.",
+    "regla": "La **validez interna** de un experimento se refiere a qué tan bien el diseño permite concluir que la variable manipulada causó el resultado observado (minimizando variables de confusión); la **validez externa** se refiere a qué tanto esos resultados pueden generalizarse a otras personas, lugares o situaciones fuera de las condiciones específicas del experimento.",
+    "ejemplo": "Un estudio sobre la efectividad de un medicamento realizado con un grupo muy homogéneo de participantes puede tener alta validez interna, pero su validez externa hacia la población general (con edades y condiciones de salud diversas) podría ser limitada.",
+    "error_comun": "Se asume que un experimento con alta validez interna garantiza automáticamente conclusiones aplicables a cualquier contexto real, sin considerar que las condiciones artificiales necesarias para ese control pueden limitar qué tanto los resultados se generalizan fuera del laboratorio.",
+    "conexion_cotidiana": "Los resultados de pruebas de manejo de un carro nuevo realizadas en una pista de pruebas cerrada y con condiciones ideales no siempre predicen exactamente cómo se comportará ese carro en el tráfico real de una ciudad con lluvia y otros conductores.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "alta",
+    "prereqs": []
+  },
+  {
+    "id": "PC-EST-013",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "validez_interna_vs_externa",
+    "modo": "pregunta",
+    "pregunta": "Un investigador debe elegir entre dos diseños para estudiar si un aula con más luz natural mejora la concentración: (A) un laboratorio simulado con condiciones perfectamente controladas, o (B) aulas reales de varios colegios, con más variabilidad pero condiciones cotidianas genuinas. ¿Qué tipo de validez tiende a priorizar cada opción, y qué se sacrifica en cada caso?",
+    "respuesta": "La opción A prioriza la validez interna, al controlar mejor las variables de confusión, pero sacrifica algo de validez externa. La opción B prioriza la validez externa, al capturar condiciones cotidianas genuinas, pero sacrifica algo de validez interna, porque hay más variables no controladas (distintos profesores, estudiantes, horarios) que podrían confundir el efecto de la luz natural.",
+    "regla": "Existe frecuentemente un **compromiso (trade-off)** entre validez interna y validez externa al diseñar un experimento: maximizar el control de variables suele alejar las condiciones de la situación real, y viceversa; la elección del diseño depende de qué pregunta de investigación se quiere responder con mayor prioridad.",
+    "ejemplo": "Los ensayos clínicos de medicamentos a menudo combinan ambos enfoques: primero pruebas muy controladas (alta validez interna) para establecer eficacia básica, y después estudios más amplios en la población general (mayor validez externa) para confirmar el efecto en condiciones reales.",
+    "error_comun": "Se asume que un solo diseño experimental puede maximizar simultáneamente ambos tipos de validez sin ningún compromiso, ignorando que las decisiones de diseño suelen implicar ganar en un tipo de validez a costa del otro.",
+    "conexion_cotidiana": "Probar la resistencia al agua de una chaqueta rociándola con agua bajo condiciones controladas de laboratorio es distinto a probarla usándola realmente durante una tormenta genuina al aire libre, con más variables no controladas como el viento.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-EST-012"
+    ]
+  },
+  {
+    "id": "PC-EST-014",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "sesgos_de_muestreo_comunes",
+    "modo": "pregunta",
+    "pregunta": "Un investigador quiere conocer la opinión de 'los estudiantes universitarios' sobre un tema, y encuesta únicamente a los estudiantes que encuentra en la cafetería de la facultad de ingeniería durante la hora del almuerzo. ¿Qué tipo de sesgo de muestreo afecta este estudio, y por qué limita generalizar los resultados?",
+    "respuesta": "Presenta un sesgo de muestreo por conveniencia: al encuestar únicamente a estudiantes de una facultad, lugar y horario específicos, la muestra no representa adecuadamente a 'los estudiantes universitarios' en general, que incluye personas de otras facultades, con horarios y hábitos distintos; los resultados podrían reflejar particularidades de ese grupo específico, no de la población que se pretendía estudiar.",
+    "regla": "El **sesgo de muestreo por conveniencia** ocurre cuando una muestra se selecciona porque es fácil o rápida de conseguir, en lugar de seleccionarse de forma que represente adecuadamente a toda la población de interés; esto limita la capacidad de generalizar los resultados obtenidos a esa población más amplia.",
+    "ejemplo": "Una encuesta sobre hábitos de consumo realizada únicamente a personas que visitan un centro comercial de lujo un sábado por la tarde no representaría adecuadamente los hábitos de consumo de toda la población de una ciudad.",
+    "error_comun": "Se generalizan los resultados de una muestra conveniente a toda una población más amplia, sin considerar que las características particulares del grupo muestreado (lugar, horario, tipo de personas accesibles) podrían no representar adecuadamente a esa población completa.",
+    "conexion_cotidiana": "Las reseñas de un restaurante en una aplicación solo reflejan la opinión de las personas que decidieron dejar una reseña (generalmente quienes tuvieron experiencias muy buenas o muy malas), no necesariamente la opinión representativa de todos los clientes.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "PC-EST-015",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "sesgos_de_muestreo_comunes",
+    "modo": "pregunta",
+    "pregunta": "Una revista publica una encuesta en línea preguntando '¿Está satisfecho con el transporte público de su ciudad?', abierta para que cualquier lector la responda voluntariamente. Los resultados muestran una insatisfacción mucho mayor que otros estudios más rigurosos. ¿Qué tipo de sesgo podría explicar esta discrepancia?",
+    "respuesta": "Podría explicarse por un sesgo de respuesta voluntaria: las personas con opiniones muy fuertes (generalmente las más insatisfechas) tienden a sentirse más motivadas a responder una encuesta voluntaria que las personas moderadamente satisfechas o indiferentes, inflando artificialmente la proporción de respuestas negativas.",
+    "regla": "El **sesgo de respuesta voluntaria** ocurre cuando una encuesta depende de que los propios participantes decidan inscribirse o responder por iniciativa propia, lo que tiende a atraer desproporcionadamente a personas con opiniones o experiencias más extremas, en lugar de una muestra representativa de toda la población.",
+    "ejemplo": "Las calificaciones de productos en tiendas en línea suelen mostrar una distribución bimodal (muchas calificaciones de 5 estrellas y muchas de 1 estrella, pocas intermedias), reflejando que quienes se toman el tiempo de calificar suelen tener experiencias particularmente buenas o malas.",
+    "error_comun": "Se toma el resultado de una encuesta voluntaria como representativo de la opinión general de toda una población, sin considerar que solo una fracción autoseleccionada y no representativa decidió participar.",
+    "conexion_cotidiana": "Los comentarios más visibles en redes sociales sobre un tema controvertido suelen venir de las personas con las opiniones más extremas en cualquier dirección, dando una impresión distorsionada de lo que piensa la mayoría silenciosa, que rara vez comenta.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "media",
+    "prereqs": [
+      "PC-EST-014"
+    ]
+  },
+  {
+    "id": "PC-EST-016",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "sesgos_de_muestreo_comunes",
+    "modo": "pregunta",
+    "pregunta": "Un estudio sobre negocios exitosos entrevista únicamente a emprendedores cuyas empresas siguen operando después de 10 años, buscando 'claves del éxito'. Aunque encuentra patrones comunes (como 'trabajar muchas horas'), ¿qué limitación importante tiene esta metodología?",
+    "respuesta": "La limitación es el sesgo de supervivencia: el estudio solo analiza a las empresas que 'sobrevivieron', sin considerar a las que fracasaron a pesar de tener características similares; es posible que muchos negocios fracasados también compartieran esas prácticas, por lo que esos patrones podrían no ser 'claves del éxito', sino simplemente comunes entre emprendedores en general, exitosos o no.",
+    "regla": "El **sesgo de supervivencia** ocurre cuando un análisis se basa únicamente en los casos que 'sobrevivieron' o tuvieron éxito en algún proceso de selección, ignorando los casos que no lo lograron; esto puede llevar a atribuir el éxito a características que en realidad son igualmente comunes entre los casos que fracasaron.",
+    "ejemplo": "Durante la Segunda Guerra Mundial, un análisis inicial de aviones que regresaban dañados sugería reforzar las zonas con más impactos visibles; un análisis más cuidadoso reconoció que esos aviones habían sobrevivido pese a esos impactos, mientras que los derribados probablemente fueron alcanzados en otras zonas más críticas no observadas.",
+    "error_comun": "Se estudian únicamente los casos exitosos para identificar las causas del éxito, sin incluir en el análisis a los casos que fracasaron, lo que impide saber si las características observadas realmente diferencian a los exitosos o son igualmente comunes entre los que no lo lograron.",
+    "conexion_cotidiana": "Los libros y charlas motivacionales que solo entrevistan a personas extremadamente exitosas para extraer 'hábitos ganadores' rara vez consideran cuántas personas con esos mismos hábitos no alcanzaron el mismo éxito.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-EST-014"
+    ]
+  },
+  {
+    "id": "PC-EST-017",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "replica_experimental_que_significa_realmente",
+    "modo": "pregunta",
+    "pregunta": "Un estudiante afirma que 'replicó' un experimento de un compañero porque usó los mismos reactivos y llegó a una conclusión similar, aunque cambió el orden en que agregó dos sustancias y realizó el experimento a una temperatura distinta (sin registrarla). ¿Es esto una verdadera réplica experimental?",
+    "respuesta": "No es una verdadera réplica; replicar un experimento significa repetir el mismo procedimiento, bajo las mismas condiciones, siguiendo el mismo orden de pasos, no solo usar los mismos materiales o llegar a una conclusión parecida. Cambiar el orden de adición y no controlar la temperatura introduce variables no controladas que podrían haber afectado el resultado.",
+    "regla": "Una verdadera **réplica experimental** requiere seguir el mismo procedimiento, en las mismas condiciones, y en el mismo orden de pasos que el experimento original; incluso cambios aparentemente menores (el orden de adición, condiciones ambientales no controladas) pueden introducir variables que comprometen la validez de la réplica.",
+    "ejemplo": "En un protocolo donde se debe agregar un ácido lentamente a una base para evitar una reacción violenta, invertir el orden no es una simple variación estilística: puede cambiar la velocidad de reacción, la temperatura alcanzada, o la seguridad del procedimiento.",
+    "error_comun": "Se considera que un experimento fue 'replicado' simplemente porque se usaron materiales similares o se llegó a una conclusión parecida, sin verificar que el procedimiento completo (incluyendo el orden de los pasos) fue efectivamente el mismo.",
+    "conexion_cotidiana": "Al intentar 'replicar' la receta de un plato de un chef famoso, cambiar el orden en que se incorporan los ingredientes puede cambiar significativamente el resultado final, aunque se hayan usado exactamente los mismos ingredientes.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "PC-EST-018",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "replica_experimental_que_significa_realmente",
+    "modo": "pregunta",
+    "pregunta": "Dos estudiantes preparan la misma disolución mezclando la sustancia A y B en las mismas cantidades, pero el estudiante 1 agrega A sobre B, mientras que el estudiante 2 agrega B sobre A. Ambos obtienen resultados visiblemente distintos. ¿Es válido decir que ambos 'hicieron el mismo experimento' porque usaron las mismas sustancias y cantidades?",
+    "respuesta": "No es válido; aunque las sustancias y cantidades finales sean idénticas, el orden en que se combinan puede cambiar completamente la dinámica del proceso (concentración local instantánea, velocidad de mezcla, generación de calor en cada punto), produciendo resultados observables muy distintos. Dos procedimientos que difieren en el orden de los pasos no son el mismo experimento.",
+    "regla": "El **orden de los pasos** en un procedimiento puede ser una variable crítica que determina el resultado de un experimento, incluso cuando las sustancias, cantidades y condiciones finales parecen idénticas; dos procedimientos que solo difieren en el orden de ejecución deben considerarse experimentos distintos, no réplicas del mismo procedimiento.",
+    "ejemplo": "En la preparación de una solución diluyendo un ácido concentrado en agua, el orden correcto (agregar el ácido lentamente al agua) es crítico por razones de seguridad y de resultado, ya que invertir el orden puede generar una liberación de calor mucho más concentrada y peligrosa.",
+    "error_comun": "Se asume que un procedimiento es equivalente a otro mientras se usen los mismos materiales y cantidades finales, sin considerar que la secuencia temporal de los pasos puede alterar sustancialmente la dinámica del proceso y, por lo tanto, el resultado observado.",
+    "conexion_cotidiana": "Al hacer una vinagreta casera, agregar el aceite lentamente sobre el vinagre mientras se bate (para formar una emulsión estable) da un resultado muy distinto a verter ambos líquidos juntos de una vez, aunque se usen exactamente los mismos ingredientes.",
+    "tipo_visual": "diagrama_esquematico",
+    "visual_posicion": "frente",
+    "visual_descripcion": "Diagrama de dos procedimientos con las mismas sustancias A y B pero orden de adición invertido, mostrando resultados distintos (reacción gradual vs vigorosa) para cada secuencia.",
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-EST-017"
+    ],
+    "imagen": "PC-EST-018.svg"
+  },
+  {
+    "id": "PC-EST-019",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "plantear_preguntas",
+    "bloque": "objetivo_de_un_protocolo_experimental",
+    "modo": "pregunta",
+    "pregunta": "Un protocolo de laboratorio describe un procedimiento donde se mide el tiempo que tarda una reacción en producir un cambio de color visible, bajo distintas concentraciones de un reactivo. Un estudiante afirma que el objetivo del protocolo es 'determinar la cantidad de producto final que se forma en la reacción'. ¿Es correcta esta identificación del objetivo?",
+    "respuesta": "No es correcta; el protocolo mide el TIEMPO que tarda en aparecer un cambio de color a distintas concentraciones, lo cual apunta a un objetivo relacionado con la VELOCIDAD de la reacción (cinética), no con la cantidad final de producto formado (un objetivo distinto, relacionado con rendimiento o estequiometría). Confundir estos dos objetivos lleva a interpretar mal para qué sirve realmente el protocolo.",
+    "regla": "El **objetivo de un protocolo experimental** debe identificarse a partir de qué variable se mide realmente y cómo, no a partir de una suposición general sobre 'qué tipo de experimento parece ser'; protocolos superficialmente similares pueden tener objetivos completamente distintos según qué variable específica registran.",
+    "ejemplo": "Un protocolo que mide el volumen de gas producido en una reacción a lo largo del tiempo tiene el objetivo de estudiar la velocidad de la reacción, mientras que uno que mide el volumen total al final, tras completarse la reacción, tiene el objetivo de determinar el rendimiento, aunque ambos midan 'volumen de gas'.",
+    "error_comun": "Se identifica el objetivo de un experimento basándose en el tipo general de procedimiento en lugar de analizar cuidadosamente qué variable específica se registra y cómo cambia, lo que puede llevar a confundir objetivos relacionados pero distintos.",
+    "conexion_cotidiana": "Un médico que mide cuánto tiempo tarda el corazón en volver a su ritmo normal después de hacer ejercicio está evaluando la capacidad de recuperación cardiovascular, un objetivo distinto al de medir la frecuencia cardíaca máxima alcanzada durante el ejercicio.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "alta",
+    "prereqs": []
+  },
+  {
+    "id": "PC-EST-020",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "plantear_preguntas",
+    "bloque": "objetivo_de_un_protocolo_experimental",
+    "modo": "pregunta",
+    "pregunta": "Un protocolo describe que se toma una muestra de una sustancia sólida, se disuelve completamente en un disolvente, y se mide su punto de fusión comparándolo con el valor reportado en la literatura para esa sustancia pura. Un estudiante interpreta que el objetivo es 'determinar la concentración de la sustancia en la muestra'. ¿Es correcta esta interpretación?",
+    "respuesta": "No es correcta; medir el punto de fusión y compararlo con el valor de referencia de la sustancia pura es un procedimiento típico para evaluar la PUREZA de la muestra (una muestra impura funde a menor temperatura y en un rango más amplio), no para determinar su concentración en una solución (que requeriría otra técnica, como una curva de calibración de absorbancia).",
+    "regla": "Antes de asumir el objetivo de un protocolo experimental, conviene identificar exactamente qué se está comparando o midiendo y contra qué **referencia de comparación**, en lugar de asumir el objetivo más común para ese tipo general de procedimiento; conceptos relacionados (pureza, concentración, identidad) pueden confundirse si no se analiza la lógica específica del método.",
+    "ejemplo": "Medir el índice de refracción de un aceite y compararlo con el valor de un aceite puro de referencia es un método típico para evaluar su pureza (detectar adulteración), un objetivo distinto al de medir su densidad para determinar su concentración en una mezcla.",
+    "error_comun": "Se asocia cualquier medición de una propiedad física de una sustancia automáticamente con 'determinar concentración', sin reconocer que muchas de esas mediciones, especialmente al comparar contra un valor de referencia de la sustancia pura, tienen como objetivo real evaluar la pureza o identidad de la sustancia.",
+    "conexion_cotidiana": "Comparar el sabor de un jugo de naranja con el sabor esperado de un jugo 100 % natural es una forma de evaluar su pureza (si tiene aditivos o está diluido), un objetivo distinto al de medir cuántos gramos de azúcar contiene por cada 100 mL.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-EST-019"
+    ]
+  },
+  {
+    "id": "PC-EST-021",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "tamaño_de_muestra_y_reduccion_de_incertidumbre",
+    "modo": "pregunta",
+    "pregunta": "Un estudiante mide la masa de una misma moneda 3 veces con una balanza y obtiene 5,02 g, 5,08 g y 5,04 g (promedio 5,05 g). Otro estudiante mide la misma moneda 30 veces con la misma balanza y obtiene un promedio de 5,04 g. ¿Cuál de los dos promedios es probablemente una estimación más confiable del verdadero valor de la masa, y por qué?",
+    "respuesta": "El promedio de 30 mediciones es probablemente más confiable, porque al aumentar el número de mediciones, los errores aleatorios de cada medición individual tienden a compensarse entre sí, reduciendo la incertidumbre del promedio; con solo 3 mediciones, es más probable que el promedio esté más influenciado por el azar de esas pocas lecturas particulares.",
+    "regla": "Aumentar el **tamaño de la muestra** (o el número de mediciones repetidas) reduce la incertidumbre asociada al error aleatorio, porque las variaciones al azar de mediciones individuales tienden a compensarse entre sí en el promedio; sin embargo, esta reducción tiene rendimientos decrecientes.",
+    "ejemplo": "Un sondeo de opinión con 1.000 personas encuestadas da una estimación con menor margen de error que uno con solo 50 personas, porque las opiniones atípicas de unos pocos encuestados tienen menos peso relativo cuando la muestra es más grande.",
+    "error_comun": "Se asume que una sola medición (o una muestra muy pequeña) es tan confiable como un conjunto más grande de mediciones repetidas, sin considerar que los errores aleatorios individuales se compensan mejor entre sí cuantas más mediciones se promedien.",
+    "conexion_cotidiana": "Un chef que prueba una salsa varias veces durante su preparación tiene una impresión más confiable de su sabor promedio, porque una sola probada podría coincidir por azar con una cucharada con más o menos de algún ingrediente que el resto de la olla.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "PC-EST-022",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "tamaño_de_muestra_y_reduccion_de_incertidumbre",
+    "modo": "pregunta",
+    "pregunta": "Una gráfica muestra el error estándar de una medición repetida en función del número de mediciones (n), bajando rápidamente al principio (de n=1 a n=10) pero aplanándose notablemente después (de n=100 a n=200 apenas cambia). ¿Qué explica esta forma, y qué implica para decidir cuántas repeticiones vale la pena hacer?",
+    "respuesta": "Se explica porque el error estándar de un promedio disminuye proporcionalmente a 1/√n, una relación que decrece muy rápido al principio pero cada vez más lentamente; esto implica que aumentar las repeticiones de 10 a 20 reduce mucho más la incertidumbre (en términos relativos) que aumentar de 100 a 200, por lo que existe un punto donde seguir aumentando el n ya no compensa el costo adicional.",
+    "regla": "El **error estándar** de un promedio disminuye proporcionalmente a 1/√n, donde n es el número de mediciones; esta relación implica **rendimientos decrecientes**: los primeros aumentos en el tamaño de muestra reducen mucho la incertidumbre, pero aumentarla más allá de cierto punto produce mejoras cada vez más pequeñas.",
+    "ejemplo": "En una encuesta de opinión, aumentar la muestra de 100 a 400 personas (cuadruplicarla) solo reduce el margen de error a la mitad (porque √4 = 2), no a la cuarta parte, ilustrando la relación de rendimientos decrecientes.",
+    "error_comun": "Se asume que la reducción de incertidumbre es proporcional al número de mediciones (que duplicar las mediciones reduce el error a la mitad), sin considerar que la relación real es con la raíz cuadrada del tamaño de muestra.",
+    "conexion_cotidiana": "Probar una receta nueva 3 veces en lugar de 1 mejora mucho la confianza en el resultado promedio, pero probarla 30 veces en lugar de 20 apenas aporta información adicional relevante, el mismo principio de rendimientos decrecientes.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Número de mediciones (n)",
+      "ejeY": "Error estándar (unidades arbitrarias)",
+      "series": [
+        {
+          "nombre": "Error estándar",
+          "datos": [
+            {
+              "x": "1",
+              "y": 1
+            },
+            {
+              "x": "2",
+              "y": 0.71
+            },
+            {
+              "x": "5",
+              "y": 0.45
+            },
+            {
+              "x": "10",
+              "y": 0.32
+            },
+            {
+              "x": "20",
+              "y": 0.22
+            },
+            {
+              "x": "50",
+              "y": 0.14
+            },
+            {
+              "x": "100",
+              "y": 0.1
+            },
+            {
+              "x": "200",
+              "y": 0.07
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Curva de error estándar que decae rápidamente entre n=1 y n=10, y se aplana notablemente a partir de n=100."
+    },
+    "formula_latex": "\\sigma_{\\bar{x}} = \\frac{\\sigma}{\\sqrt{n}}",
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-EST-021"
+    ]
+  },
+  {
+    "id": "PC-EST-023",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "tamaño_de_muestra_y_reduccion_de_incertidumbre",
+    "modo": "pregunta",
+    "pregunta": "Una balanza de laboratorio está mal calibrada y siempre agrega 0,5 g de más a cualquier medición real. Un estudiante decide medir la misma muestra 100 veces con esa balanza, pensando que promediar tantas mediciones eliminará el problema. ¿Es correcta esta estrategia para corregir el error de la balanza?",
+    "respuesta": "No es correcta; aumentar el número de mediciones reduce el error aleatorio, pero no corrige un error sistemático como el de esta balanza, que agrega consistentemente 0,5 g de más en cada medición; promediar 100 mediciones seguirá dando un promedio con ese mismo sesgo. La única forma de corregir esto es recalibrar la balanza.",
+    "regla": "Aumentar el tamaño de la muestra reduce el **error aleatorio** (la dispersión de las mediciones alrededor del valor verdadero), pero NO corrige el **error sistemático** (un sesgo constante y direccional, como el de un instrumento mal calibrado); corregir un error sistemático requiere identificar su causa y calibrar el instrumento, no simplemente repetir más mediciones.",
+    "ejemplo": "Un reloj que siempre se adelanta 5 minutos dará una hora incorrecta sin importar cuántas veces lo consultes; el problema no se soluciona mirándolo más veces, sino ajustando el reloj a la hora correcta.",
+    "error_comun": "Se asume que cualquier tipo de error o incertidumbre se puede reducir simplemente aumentando el número de repeticiones, sin distinguir entre error aleatorio (que sí se reduce al promediar más) y error sistemático (que persiste sin importar cuántas veces se repita la medición).",
+    "conexion_cotidiana": "Si una cinta métrica está mal fabricada y marca los centímetros ligeramente más cortos de lo real, medir un objeto muchas veces con esa misma cinta seguirá dando una longitud consistentemente equivocada; el problema se resuelve usando una cinta métrica correctamente calibrada.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-EST-021",
+      "PC-EST-022"
+    ]
+  },
+  {
+    "id": "PC-EST-024",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "exactitud_vs_precision_en_instrumentos_de_medicion",
+    "modo": "pregunta",
+    "pregunta": "Una balanza de laboratorio se usa para medir 5 veces un objeto cuya masa real y certificada es 10,00 g, obteniendo: 12,01 g, 12,03 g, 12,02 g, 12,00 g y 12,02 g. Los valores están muy cerca entre sí, pero todos sistemáticamente alejados del valor real. ¿Es esta balanza exacta, precisa, ambas cosas, o ninguna?",
+    "respuesta": "Es precisa pero no exacta: los valores están muy cerca entre sí (baja dispersión, alta repetibilidad), pero todos sistemáticamente alejados del valor real certificado (10,00 g), indicando un error sistemático (probablemente de calibración) que hace que las mediciones no sean exactas, aunque sean consistentes entre sí.",
+    "regla": "La **exactitud** de un instrumento se refiere a qué tan cerca están sus mediciones del valor real, mientras que la **precisión** se refiere a qué tan cerca están las mediciones repetidas entre sí; un instrumento puede ser preciso pero no exacto, exacto pero no preciso, ambas cosas, o ninguna.",
+    "ejemplo": "Un reloj digital que siempre marca exactamente 3 minutos de más, de forma consistente, es preciso (siempre da el mismo error) pero no exacto; en cambio, un reloj analógico que a veces se atrasa y a veces se adelanta un poco al azar, pero en promedio marca la hora correcta, sería exacto en promedio pero no preciso.",
+    "error_comun": "Se asume que si las mediciones repetidas de un instrumento son muy consistentes entre sí, el instrumento debe ser confiable y dar el valor correcto, sin verificar esa consistencia contra un valor de referencia certificado; la precisión por sí sola no garantiza exactitud.",
+    "conexion_cotidiana": "Un termómetro de cocina que siempre marca 5 grados más de lo real (pero de forma consistente) puede arruinar una receta de manera predecible, precisamente porque su error sistemático es fácil de pasar por alto si solo se observa que 'siempre marca lo mismo'.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "dispersion",
+      "ejeX": "Desviación horizontal respecto al centro (valor real)",
+      "ejeY": "Desviación vertical respecto al centro (valor real)",
+      "series": [
+        {
+          "nombre": "Mediciones (disparos)",
+          "datos": [
+            {
+              "x": 3.1,
+              "y": 3
+            },
+            {
+              "x": 3.3,
+              "y": 2.8
+            },
+            {
+              "x": 3,
+              "y": 3.2
+            },
+            {
+              "x": 3.2,
+              "y": 3.1
+            },
+            {
+              "x": 2.9,
+              "y": 2.9
+            }
+          ]
+        },
+        {
+          "nombre": "Centro (valor real)",
+          "datos": [
+            {
+              "x": 0,
+              "y": 0
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Diagrama tipo diana: los 5 disparos están agrupados muy cerca entre sí (alta precisión) pero alejados del centro que representa el valor real (baja exactitud)."
+    },
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "PC-EST-025",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "exactitud_vs_precision_en_instrumentos_de_medicion",
+    "modo": "pregunta",
+    "pregunta": "Al repetir una medición varias veces con un mismo instrumento, un estudiante observa dos posibles patrones: (1) los valores se dispersan aleatoriamente por encima y por debajo del valor real, pero en promedio se acercan a él; o (2) los valores se agrupan de forma consistente, pero siempre por encima (o siempre por debajo) del valor real. ¿Cómo se llama cada tipo de error, y qué estrategia distinta se necesita para abordar cada uno?",
+    "respuesta": "El patrón (1) es error aleatorio, que se reduce promediando más mediciones (las desviaciones al azar se compensan); el patrón (2) es error sistemático, que no se reduce al promediar más mediciones, sino que requiere identificar la fuente del sesgo (por ejemplo, mala calibración) y corregirla directamente, recalibrando el instrumento o ajustando el procedimiento.",
+    "regla": "El **error aleatorio** se identifica por una dispersión de valores sin una dirección consistente y se reduce aumentando el número de mediciones repetidas; el **error sistemático** se identifica por un sesgo consistente en una sola dirección y requiere corregir la fuente del sesgo, ya que no se soluciona con más repeticiones.",
+    "ejemplo": "Al pesar una misma sustancia varias veces en una balanza analítica bien calibrada, pequeñas fluctuaciones del aire pueden causar error aleatorio; pero si la balanza no está bien calibrada, todas las mediciones podrían estar sesgadas consistentemente en una dirección, un error sistemático que persistiría sin importar cuántas veces se repita.",
+    "error_comun": "Se aplica la misma estrategia (simplemente repetir más veces la medición) para intentar corregir cualquier tipo de error observado, sin distinguir primero si el patrón sugiere un error aleatorio (que sí mejora al promediar) o un error sistemático (que requiere corregir la fuente del sesgo).",
+    "conexion_cotidiana": "Si una báscula de baño da lecturas ligeramente distintas cada vez que te pesas en el mismo momento, eso sugiere error aleatorio; pero si consistentemente marca 2 kg más que tu peso real conocido, eso sugiere un error sistemático que requeriría recalibrar la báscula, no pesarte más veces con la misma báscula descalibrada.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-EST-024",
+      "PC-EST-023"
+    ]
+  }
+]

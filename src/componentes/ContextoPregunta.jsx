@@ -1,4 +1,5 @@
 import { Formula } from './Formula.jsx'
+import { VisualCientifico } from './VisualCientifico.jsx'
 import './ContextoPregunta.css'
 
 function TextoConMarcadores({ texto, huecoActual }) {
@@ -47,9 +48,36 @@ export function ContextoPregunta({ contexto, numEnGrupo }) {
     )
   }
 
-  // Razonamiento Cuantitativo / Pensamiento Científico (sin datos reales
-  // todavía): tablas/gráficas ya renderizadas a SVG por separado, o
-  // notación matemática renderizada del lado del cliente con KaTeX.
+  // Pensamiento Científico: contexto de texto + fórmula opcional (ya
+  // renderizada con KaTeX) + visual opcional (gráfica/tabla/diagrama/
+  // estructura, ver VisualCientifico.jsx para qué renderer elige cada uno).
+  if (contexto.tipo === 'contexto_cientifico') {
+    return (
+      <div className="contexto contexto--pasaje">
+        <p className="contexto-texto">{contexto.texto}</p>
+        {contexto.formulaLatex && (
+          <div className="contexto-formula-inline">
+            <Formula tex={contexto.formulaLatex} bloque />
+          </div>
+        )}
+        {contexto.tipoVisual && contexto.tipoVisual !== 'ninguno' && (
+          <div className="contexto-visual">
+            <VisualCientifico
+              tipo={contexto.tipoVisual}
+              descripcion={contexto.visualDescripcion}
+              graficaDatos={contexto.graficaDatosEstructurados}
+              tablaDatos={contexto.tablaFilas}
+              imagen={contexto.imagen}
+            />
+          </div>
+        )}
+      </div>
+    )
+  }
+
+  // Razonamiento Cuantitativo (sin datos reales todavía): tablas/gráficas
+  // ya renderizadas a SVG por separado, o notación matemática renderizada
+  // del lado del cliente con KaTeX.
   if (contexto.tipo === 'imagen') {
     return (
       <div className="contexto contexto--imagen">

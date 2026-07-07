@@ -1,0 +1,1188 @@
+[
+  {
+    "id": "PC-RAZ-001",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "confusion_exactitud_precision",
+    "modo": "pregunta",
+    "pregunta": "Un estudiante mide el punto de fusión de una muestra de ácido benzoico puro (valor de referencia: 122 °C) tres veces con un termómetro y obtiene 118 °C, 119 °C y 118,5 °C. ¿Qué se puede concluir sobre el instrumento?",
+    "respuesta": "El termómetro es preciso (las tres mediciones son consistentes entre sí, con una variación menor a 1 °C) pero no exacto (todas se desvían sistemáticamente del valor de referencia en más de 3 °C), lo que sugiere un error sistemático de calibración más que un problema de dispersión aleatoria.",
+    "regla": "La **exactitud** es qué tan cerca está una medición del valor verdadero o de referencia; la **precisión** es qué tan cerca están entre sí varias mediciones repetidas, sin importar si son correctas. Un instrumento puede ser preciso pero inexacto (mediciones consistentes pero alejadas del valor real) o exacto pero impreciso (el promedio coincide con el valor real, pero las mediciones individuales varían mucho).",
+    "ejemplo": "Un reloj de pulsera barato que marca siempre 3 minutos de más de forma consistente día tras día es preciso pero no exacto; un cronómetro digital que marca tiempos distintos cada vez que mide el mismo intervalo real es impreciso, aunque su promedio coincida con el valor real.",
+    "error_comun": "La confusión ocurre porque en el lenguaje cotidiano \"exacto\" y \"preciso\" se usan como sinónimos, pero en la ciencia son criterios independientes: uno evalúa la cercanía al valor real (requiere un patrón de referencia externo) y el otro evalúa la reproducibilidad interna del propio conjunto de datos (no requiere saber cuál es el valor real).",
+    "conexion_cotidiana": "Una báscula de baño que siempre marca 2 kg de más cada vez que te pesas es precisa pero no exacta; para saber si es exacta habría que compararla con un patrón de referencia certificado, no basta con pesarte varias veces en ella misma.",
+    "tipo_visual": "tabla",
+    "visual_posicion": "frente",
+    "tabla_filas": {
+      "columnas": [
+        "Medición",
+        "Temperatura registrada (°C)",
+        "Valor de referencia certificado (°C)"
+      ],
+      "filas": [
+        [
+          "Medición 1",
+          "118,0",
+          "122,0"
+        ],
+        [
+          "Medición 2",
+          "119,0",
+          "122,0"
+        ],
+        [
+          "Medición 3",
+          "118,5",
+          "122,0"
+        ]
+      ]
+    },
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "PC-RAZ-002",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "confusion_exactitud_precision",
+    "modo": "pregunta",
+    "pregunta": "Un grupo de estudiantes cuenta el ritmo cardíaco en reposo de un mismo compañero usando cuatro relojes distintos y obtiene 72, 73, 72 y 74 pulsaciones por minuto. Un especialista, usando un electrocardiograma certificado, mide 85 pulsaciones por minuto en la misma persona y momento. ¿Qué describe mejor los resultados de los estudiantes?",
+    "respuesta": "Los resultados son precisos, porque las cuatro mediciones son cercanas entre sí (variación de solo 2 pulsaciones), pero no son exactos, porque se alejan de manera consistente del valor de referencia obtenido con el instrumento certificado, lo que indica un sesgo sistemático en el método de conteo manual y no falta de reproducibilidad.",
+    "regla": "La **exactitud** indica qué tan cerca está un dato del valor verdadero, mientras que la **precisión** indica qué tan reproducibles son mediciones repetidas entre sí, sin que esto garantice que sean correctas. Ambos criterios se evalúan de forma independiente, y un conjunto de datos puede cumplir uno sin cumplir el otro.",
+    "ejemplo": "En arquería, un arquero cuyas flechas caen todas agrupadas en la esquina superior izquierda de la diana, lejos del centro, es preciso (agrupación consistente) pero no exacto (no da en el blanco real); otro arquero cuyas flechas se dispersan por toda la diana pero cuyo punto promedio coincide con el centro sería exacto en promedio, pero impreciso en cada disparo individual.",
+    "error_comun": "Se tiende a interpretar \"todos los datos coinciden entre sí\" como sinónimo de \"los datos son correctos\", olvidando que la reproducibilidad solo demuestra ausencia de variación aleatoria, no ausencia de error sistemático; para verificar exactitud siempre se necesita un patrón de referencia externo.",
+    "conexion_cotidiana": "Un test casero de embarazo que da el mismo resultado en varias pruebas seguidas es preciso, pero solo un examen de sangre en laboratorio permite saber si ese resultado repetido es además exacto.",
+    "tipo_visual": "diagrama_esquematico",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Cuatro dianas de tiro al arco en cuadrícula 2x2: (1) precisa y exacta - flechas agrupadas en el centro, (2) precisa pero no exacta - flechas agrupadas fuera del centro, (3) exacta en promedio pero no precisa - flechas dispersas alrededor del centro, (4) ni exacta ni precisa - flechas dispersas y lejos del centro.",
+    "dificultad": "media",
+    "prereqs": [
+      "PC-RAZ-001"
+    ],
+    "imagen": "PC-RAZ-002.svg"
+  },
+  {
+    "id": "PC-RAZ-003",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "correlacion_causalidad",
+    "modo": "pregunta",
+    "pregunta": "En un estudio se encuentra que los municipios con mayor número de consultorios odontológicos registran también una mayor tasa de caries dental reportada por sus habitantes. Un funcionario concluye que tener más consultorios odontológicos causa más caries. ¿Es válida esta conclusión?",
+    "respuesta": "No es válida, porque los datos muestran una correlación, no una relación causal comprobada; es más plausible que ambas variables estén relacionadas por una tercera variable no controlada, como el tamaño de la población (municipios más grandes tienen más consultorios y, al tener más habitantes, también más casos reportados de caries), o que exista causalidad inversa (más caries reportadas atrae más consultorios, no al revés).",
+    "regla": "La **correlación** es una asociación estadística entre dos variables (cuando una cambia, la otra tiende a cambiar de forma predecible), pero no implica por sí sola que una sea la **causa** de la otra; para establecer causalidad se necesita descartar explicaciones alternativas, generalmente mediante experimentos controlados donde se manipula una variable y se mide el efecto sobre la otra.",
+    "ejemplo": "Se observa que las regiones con mayor número de torres de telefonía celular también presentan mayor incidencia de alergias estacionales; esto no significa que las antenas causen alergias, sino que ambas son más frecuentes en zonas urbanas densamente pobladas, la verdadera variable de fondo.",
+    "error_comun": "Ocurre porque el cerebro humano tiende a buscar explicaciones causales simples ante cualquier patrón numérico que coincide en el tiempo o el espacio; además, cuando una de las dos variables parece \"hacer sentido\" como causa de la otra, se acepta la explicación sin verificar si existe una tercera variable compartida que explique ambas.",
+    "conexion_cotidiana": "Los meses en que más se venden protectores solares también son los meses con más golpes de calor reportados; nadie concluye que el protector solar cause golpes de calor, porque es evidente que el verano (la variable de fondo) explica ambos fenómenos.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "dispersion",
+      "ejeX": "Número de consultorios odontológicos por municipio",
+      "ejeY": "Tasa de caries reportada (%)",
+      "series": [
+        {
+          "nombre": "Municipios",
+          "datos": [
+            {
+              "x": 2,
+              "y": 18
+            },
+            {
+              "x": 4,
+              "y": 25
+            },
+            {
+              "x": 6,
+              "y": 30
+            },
+            {
+              "x": 8,
+              "y": 38
+            },
+            {
+              "x": 10,
+              "y": 42
+            },
+            {
+              "x": 13,
+              "y": 50
+            },
+            {
+              "x": 15,
+              "y": 55
+            },
+            {
+              "x": 18,
+              "y": 60
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Diagrama de dispersión con tendencia positiva entre el número de consultorios odontológicos y la tasa de caries reportada por municipio; la población total del municipio es una variable de confusión no graficada."
+    },
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "PC-RAZ-004",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "correlacion_causalidad",
+    "modo": "pregunta",
+    "pregunta": "Un analista inmobiliario encuentra que las casas con mayor número de baños tienden a venderse a precios más altos, y concluye que agregar baños a una casa causa un aumento directo en su precio de venta. ¿Qué variable no controlada debilita esta conclusión?",
+    "respuesta": "El tamaño total de la casa (área construida) es una variable de confusión no controlada: las casas más grandes tienden a tener más baños y, de forma independiente, también se venden a precios más altos por su tamaño; sin comparar casas del mismo tamaño con distinto número de baños, no puede aislarse el efecto específico de los baños sobre el precio.",
+    "regla": "La correlación entre dos variables no basta para inferir **causalidad** directa entre ellas; cuando ambas variables aumentan o disminuyen juntas, existen al menos tres explicaciones posibles: que una cause la otra, que la causalidad sea inversa, o que una tercera variable no medida influya sobre ambas.",
+    "ejemplo": "Se observa que las personas que usan más protector solar tienen tasas más bajas de quemaduras solares; aquí sí hay una relación causal directa y plausible (el protector bloquea la radiación UV), pero incluso así, para confirmarlo con rigor se necesitaría un experimento controlado que compare grupos similares con y sin protector, bajo la misma exposición solar.",
+    "error_comun": "Se asume causalidad cuando la explicación \"suena lógica\" (más baños parece añadir valor), sin preguntarse si ambas variables podrían depender de un factor común más grande, como el tamaño o la ubicación de la propiedad.",
+    "conexion_cotidiana": "Las ciudades con más semáforos suelen tener más accidentes de tránsito reportados, no porque los semáforos causen accidentes, sino porque ambas cosas dependen del volumen de tráfico y la densidad urbana de la ciudad.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "media",
+    "prereqs": [
+      "PC-RAZ-003"
+    ]
+  },
+  {
+    "id": "PC-RAZ-005",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "establecer_estrategias",
+    "bloque": "variable_de_confusion_no_controlada",
+    "modo": "pregunta",
+    "pregunta": "Para evaluar si un nuevo fertilizante orgánico mejora el rendimiento del maíz, un agrónomo compara el rendimiento de un grupo de parcelas que ya usaban el fertilizante con otro grupo de parcelas distintas que nunca lo habían usado, ubicadas en otra zona del valle. ¿Qué cambio metodológico reduciría mejor la incertidumbre sobre el efecto real del fertilizante?",
+    "respuesta": "Sería más apropiado medir el rendimiento de las mismas parcelas antes y después de aplicar el fertilizante (o dividir aleatoriamente parcelas similares del mismo terreno en grupo tratado y grupo control), en lugar de comparar parcelas distintas en zonas distintas, porque diferencias de suelo, riego o clima entre zonas del valle podrían explicar por sí solas la diferencia de rendimiento, independientemente del fertilizante.",
+    "regla": "Una **variable de confusión no controlada** aparece cuando, al comparar dos grupos, estos difieren en más aspectos además del que se quiere estudiar; si se comparan individuos distintos entre sí (en vez de medir las mismas unidades antes y después de una intervención), las diferencias observadas podrían deberse a esas otras diferencias preexistentes y no al tratamiento de interés.",
+    "ejemplo": "En un estudio de nutrición no sería adecuado concluir que un suplemento mejora la masa muscular comparando a un grupo de fisicoculturistas que ya lo consumen con un grupo de personas sedentarias que no lo consumen; habría que medir a las mismas personas antes y después de tomar el suplemento, o asignar aleatoriamente el suplemento dentro de un grupo con hábitos similares.",
+    "error_comun": "Se confunde \"encontrar una diferencia entre dos grupos\" con \"haber demostrado el efecto de una intervención\", sin notar que los grupos comparados pueden diferir en edad, genética, ubicación, hábitos previos u otras variables que ya existían antes del tratamiento y que también explican la diferencia observada.",
+    "conexion_cotidiana": "No sería válido concluir que un champú causa cabello más brillante comparando a un grupo de modelos profesionales que ya lo usan con un grupo de personas cualquiera que no lo usan; habría que comparar el cabello de las mismas personas antes y después de usarlo.",
+    "tipo_visual": "diagrama_esquematico",
+    "visual_posicion": "frente",
+    "visual_descripcion": "Dos diseños comparados lado a lado: (incorrecto) Grupo A de parcelas en zona 1 con fertilizante vs Grupo B de parcelas en zona 2 sin fertilizante; (correcto) las mismas parcelas medidas en el tiempo 1 (sin fertilizante) y tiempo 2 (con fertilizante).",
+    "dificultad": "alta",
+    "prereqs": [],
+    "imagen": "PC-RAZ-005.svg"
+  },
+  {
+    "id": "PC-RAZ-006",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "establecer_estrategias",
+    "bloque": "variable_de_confusion_no_controlada",
+    "modo": "pregunta",
+    "pregunta": "Para saber si un nuevo analgésico reduce el dolor crónico, un laboratorio compara el nivel de dolor reportado por pacientes que ya tomaban el medicamento (reclutados en una clínica privada) contra el de pacientes que nunca lo habían tomado (reclutados en un hospital público de otra ciudad). ¿Por qué esta comparación no permite aislar el efecto real del medicamento?",
+    "respuesta": "Porque los dos grupos de pacientes probablemente difieren en muchos otros factores relevantes (acceso a otros tratamientos, nivel socioeconómico, tipo de dolencia, edad promedio) además del uso del medicamento; sin medir el dolor de los mismos pacientes antes y después de tomarlo, o sin asignar el medicamento al azar entre pacientes similares, no se puede saber si la diferencia observada se debe al fármaco o a esas otras diferencias entre las poblaciones comparadas.",
+    "regla": "Cuando dos grupos comparados difieren en variables además de la que se investiga, cualquier diferencia en el resultado puede atribuirse erróneamente al tratamiento; por eso los estudios rigurosos prefieren comparar las **mismas unidades de análisis** en distintos momentos, o asignar el tratamiento al azar entre unidades similares.",
+    "ejemplo": "En educación, no sería válido concluir que un método de enseñanza mejora las notas comparando a estudiantes de un colegio privado que ya lo usan con estudiantes de un colegio público que no lo usan, porque ambos grupos difieren en muchos otros factores relacionados con el rendimiento académico.",
+    "error_comun": "Se cae en este error porque comparar dos grupos ya existentes es más rápido y barato que hacer un seguimiento en el tiempo o una asignación aleatoria, pero esa comodidad metodológica introduce diferencias sistemáticas entre los grupos que contaminan la comparación.",
+    "conexion_cotidiana": "Comparar cuánto duran las pilas de una marca que usa tu vecino con las de otra marca que usas tú no dice mucho sobre cuál dura más, si tus dispositivos y hábitos de uso son distintos a los suyos; sería mejor probar ambas marcas en el mismo dispositivo y bajo las mismas condiciones.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-RAZ-005"
+    ]
+  },
+  {
+    "id": "PC-RAZ-007",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "establecer_estrategias",
+    "bloque": "variable_confundida",
+    "modo": "pregunta",
+    "pregunta": "Un estudiante quiere averiguar cómo afecta la longitud de un péndulo simple a su periodo de oscilación. Para esto, varía la longitud del hilo en cinco ensayos, mide el tiempo que tarda en completar diez oscilaciones en cada uno, y mantiene constantes la masa de la bola y el ángulo inicial de soltura. ¿Cuáles son las variables independiente, dependiente y controladas en este experimento?",
+    "respuesta": "La variable independiente es la longitud del péndulo (la que el estudiante decide cambiar); la variable dependiente es el periodo de oscilación, medido a partir del tiempo de las diez oscilaciones (lo que se espera que cambie como consecuencia); y las variables controladas son la masa de la bola y el ángulo inicial de soltura, que se mantienen fijas para que no sean ellas las que expliquen los cambios en el periodo.",
+    "regla": "En un experimento, la **variable independiente** es la que el investigador manipula deliberadamente, la **variable dependiente** es la que se mide como resultado (se espera que cambie en respuesta a la independiente), y las **variables controladas** son todas las demás condiciones que se mantienen constantes para asegurar que cualquier cambio observado se deba solo a la variable independiente.",
+    "ejemplo": "En un experimento de germinación de semillas, si un estudiante varía la cantidad de agua suministrada, mide el número de semillas germinadas, y mantiene constantes la temperatura y el tipo de semilla, entonces el agua es la variable independiente, la germinación es la dependiente, y la temperatura y el tipo de semilla son las controladas.",
+    "error_comun": "Se confunde la variable dependiente con la independiente cuando no queda claro cuál es la que el investigador decide y cuál es la que simplemente se observa como consecuencia; también se olvida mencionar las variables controladas, dando por hecho que \"se mantuvieron iguales\" sin identificarlas explícitamente, lo cual debilita la validez del diseño experimental.",
+    "conexion_cotidiana": "Al probar si el tiempo de cocción afecta la textura de un huevo hervido, el tiempo de cocción es la variable independiente, la textura del huevo es la dependiente, y el tamaño del huevo y la temperatura del agua deben mantenerse controlados para que la comparación sea justa.",
+    "tipo_visual": "diagrama_esquematico",
+    "visual_posicion": "frente",
+    "visual_descripcion": "Diagrama de flujo del experimento del péndulo: caja 'Variable independiente: longitud del hilo' con flecha hacia caja 'Variable dependiente: periodo de oscilación', y a un lado un recuadro 'Variables controladas: masa de la bola, ángulo inicial'.",
+    "formula_latex": "T = 2\\pi\\sqrt{l/g}",
+    "dificultad": "media",
+    "prereqs": [],
+    "imagen": "PC-RAZ-007.svg"
+  },
+  {
+    "id": "PC-RAZ-008",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "establecer_estrategias",
+    "bloque": "variable_confundida",
+    "modo": "pregunta",
+    "pregunta": "Un estudiante de química quiere saber cómo afecta la concentración de ácido clorhídrico a la velocidad de reacción con carbonato de calcio. Prepara cinco soluciones de ácido a distintas concentraciones, mide el tiempo que tarda en desaparecer una masa fija de carbonato de calcio en cada una, y mantiene constantes la temperatura del laboratorio y el tamaño de los trozos de carbonato. ¿Cuál es la variable dependiente en este experimento?",
+    "respuesta": "La variable dependiente es el tiempo que tarda en desaparecer el carbonato de calcio (o, de forma equivalente, la velocidad de reacción calculada a partir de ese tiempo), porque es la magnitud que se mide como resultado de haber cambiado la concentración del ácido, que es la variable independiente; la temperatura y el tamaño de los trozos son las variables controladas.",
+    "regla": "Distinguir con precisión cuál variable se manipula (**independiente**), cuál se mide como resultado (**dependiente**) y cuáles se mantienen fijas (**controladas**) es indispensable para que un experimento permita concluir algo específico sobre la relación entre solo dos variables a la vez.",
+    "ejemplo": "En un experimento sobre fotosíntesis, si se varía la intensidad de la luz y se mide la cantidad de oxígeno liberado por una planta acuática, manteniendo constante la temperatura del agua, la intensidad de luz es la independiente y el oxígeno liberado es la dependiente.",
+    "error_comun": "Suele confundirse la variable dependiente con la que \"parece más importante\" en el contexto, en lugar de identificar cuál es consecuencia medida de la manipulación; en este caso, algunos estudiantes creen erróneamente que la concentración del ácido es la dependiente por ser la sustancia \"reactiva\" del experimento.",
+    "conexion_cotidiana": "Al comparar cuánto tarda una pastilla efervescente en disolverse en agua fría, tibia y caliente, la temperatura del agua es la variable independiente y el tiempo de disolución es la dependiente; el volumen de agua usado debe controlarse para que la comparación sea válida.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "media",
+    "prereqs": [
+      "PC-RAZ-007"
+    ]
+  },
+  {
+    "id": "PC-RAZ-009",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "establecer_estrategias",
+    "bloque": "diseño_no_controlado",
+    "modo": "pregunta",
+    "pregunta": "Un estudiante quiere comparar el crecimiento de dos grupos de plantas de fríjol. Al grupo A le da más luz solar y más agua que al grupo B. Después de tres semanas, el grupo A creció más. ¿Qué impide concluir cuál de las dos variables (luz o agua) fue responsable del mayor crecimiento?",
+    "respuesta": "El diseño no está controlado porque se cambiaron dos variables independientes al mismo tiempo (luz y agua); si el grupo A recibió más de ambas cosas, el mayor crecimiento podría deberse solo a la luz, solo al agua, a ambas combinadas, o incluso a una interacción entre ellas, y el experimento tal como está planteado no permite distinguir entre estas posibilidades.",
+    "regla": "Un **diseño experimental no controlado** ocurre cuando se modifican dos o más variables al mismo tiempo entre las condiciones que se comparan; en ese caso, si se observa una diferencia en el resultado, es imposible saber cuál de las variables cambiadas fue la responsable, porque el efecto de ambas queda mezclado (confundido).",
+    "ejemplo": "En un experimento de horneado, si se compara un pan hecho con más levadura y a mayor temperatura de horno contra uno con menos levadura y menor temperatura, y el primero queda más esponjoso, no se puede saber si el efecto se debe a la levadura, a la temperatura, o a ambas.",
+    "error_comun": "Ocurre porque cambiar varias condiciones \"para asegurar una diferencia visible\" parece intuitivamente una buena estrategia experimental, pero en realidad destruye la posibilidad de atribuir el resultado a una causa específica; el diseño correcto requiere cambiar una sola variable a la vez, manteniendo todas las demás constantes entre los grupos comparados.",
+    "conexion_cotidiana": "Si cambias de detergente y de programa de lavado al mismo tiempo y la ropa sale más limpia, no podrás saber si fue el detergente nuevo o el nuevo programa de lavado el que hizo la diferencia.",
+    "tipo_visual": "tabla",
+    "visual_posicion": "frente",
+    "tabla_filas": {
+      "columnas": [
+        "Grupo",
+        "Luz solar",
+        "Agua",
+        "Crecimiento tras 3 semanas (cm)"
+      ],
+      "filas": [
+        [
+          "Grupo A",
+          "Alta (8 h/día)",
+          "Abundante (500 mL/día)",
+          "24,0"
+        ],
+        [
+          "Grupo B",
+          "Baja (4 h/día)",
+          "Escasa (200 mL/día)",
+          "14,5"
+        ]
+      ]
+    },
+    "dificultad": "media",
+    "prereqs": [
+      "PC-RAZ-007"
+    ]
+  },
+  {
+    "id": "PC-RAZ-010",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "establecer_estrategias",
+    "bloque": "diseño_no_controlado",
+    "modo": "pregunta",
+    "pregunta": "Un estudiante quiere probar si un catalizador aumenta la velocidad de descomposición del peróxido de hidrógeno. En el primer ensayo, usa peróxido a temperatura ambiente sin catalizador; en el segundo, usa peróxido calentado a 40 °C con catalizador. La reacción con catalizador fue mucho más rápida. ¿Puede concluirse que el catalizador fue el responsable del aumento en la velocidad?",
+    "respuesta": "No, porque también se cambió la temperatura entre los dos ensayos; el aumento de velocidad pudo deberse al catalizador, al aumento de temperatura, o a ambos efectos combinados. Para aislar el efecto del catalizador, ambos ensayos deberían realizarse a la misma temperatura, cambiando únicamente la presencia o ausencia del catalizador.",
+    "regla": "Para que un experimento permita atribuir un resultado a una causa específica, solo debe cambiarse **una variable independiente** entre las condiciones comparadas; cambiar varias a la vez genera un diseño confundido en el que ninguna conclusión causal individual puede sostenerse con certeza.",
+    "ejemplo": "En un huerto, si se le agrega fertilizante nuevo a unas plantas y además se les cambia de ubicación a un lugar con más sol, un mayor crecimiento no podría atribuirse únicamente al fertilizante.",
+    "error_comun": "Se asume que basta con observar una diferencia notoria en el resultado para validar la hipótesis inicial, sin revisar si el diseño realmente aisló la variable de interés; cuantas más condiciones cambien a la vez, más plausibles se vuelven explicaciones alternativas al efecto que se quiere probar.",
+    "conexion_cotidiana": "Al intentar saber si una nueva sartén antiadherente reduce el uso de aceite al cocinar, no deberías cambiar también el tipo de estufa o el alimento preparado, porque no sabrías si la diferencia se debe a la sartén o a esos otros cambios.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-RAZ-009"
+    ]
+  },
+  {
+    "id": "PC-RAZ-011",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "modelo_fuera_de_dominio",
+    "modo": "pregunta",
+    "pregunta": "La ecuación de los gases ideales (PV = nRT) supone que las partículas de gas no ocupan volumen propio y que no interactúan entre sí. Si se usa esta ecuación para predecir el volumen de un gas sometido a presiones extremadamente altas, ¿qué tipo de error es más probable que aparezca en la predicción?",
+    "respuesta": "El modelo probablemente subestimará el volumen real del gas, porque a presiones muy altas las moléculas están tan cerca entre sí que su volumen propio y las fuerzas de atracción intermoleculares (ambas ignoradas por el modelo ideal) se vuelven significativas; el resultado es que el gas real ocupa más volumen del que predice la ecuación ideal, evidenciando que la presión extrema está fuera del dominio de validez del modelo.",
+    "regla": "Todo **modelo científico** tiene un dominio de validez: un rango de condiciones dentro del cual sus predicciones son confiables; fuera de ese rango, el modelo puede arrojar resultados incoherentes, no porque la realidad se comporte así, sino porque las simplificaciones del modelo dejan de ser razonables en esas condiciones extremas.",
+    "ejemplo": "El modelo de caída libre con aceleración constante g = 9,8 m/s² deja de ser válido para objetos que caen a velocidades cercanas a la de un paracaidista en descenso prolongado, donde la resistencia del aire ya no puede despreciarse y el modelo simple predice velocidades irreales que crecen indefinidamente.",
+    "error_comun": "Se asume que una fórmula matemática es universalmente válida solo porque tiene un buen desempeño en el rango de condiciones donde fue probada originalmente; se olvida que todo modelo se construyó a partir de simplificaciones que solo son razonables dentro de ciertos límites.",
+    "conexion_cotidiana": "Las básculas de baño están calibradas para pesar personas; si intentas pesar un carro con ella, el resultado no tiene sentido, no porque la báscula esté dañada, sino porque el rango de peso del carro está muy fuera del dominio para el que fue diseñado el instrumento.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Presión (atm)",
+      "ejeY": "Volumen (L)",
+      "series": [
+        {
+          "nombre": "Gas ideal (PV = nRT)",
+          "datos": [
+            {
+              "x": 1,
+              "y": 22.4
+            },
+            {
+              "x": 10,
+              "y": 2.24
+            },
+            {
+              "x": 50,
+              "y": 0.448
+            },
+            {
+              "x": 100,
+              "y": 0.224
+            },
+            {
+              "x": 300,
+              "y": 0.0747
+            },
+            {
+              "x": 500,
+              "y": 0.0448
+            }
+          ]
+        },
+        {
+          "nombre": "Gas real",
+          "datos": [
+            {
+              "x": 1,
+              "y": 22.4
+            },
+            {
+              "x": 10,
+              "y": 2.3
+            },
+            {
+              "x": 50,
+              "y": 0.52
+            },
+            {
+              "x": 100,
+              "y": 0.3
+            },
+            {
+              "x": 300,
+              "y": 0.15
+            },
+            {
+              "x": 500,
+              "y": 0.12
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Comparación del volumen de un gas real y un gas ideal al aumentar la presión: ambas curvas coinciden a presiones bajas y se separan a presiones muy altas, donde el gas real ocupa más volumen del predicho por el modelo ideal."
+    },
+    "formula_latex": "PV = nRT",
+    "dificultad": "alta",
+    "prereqs": []
+  },
+  {
+    "id": "PC-RAZ-012",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "modelo_fuera_de_dominio",
+    "modo": "pregunta",
+    "pregunta": "Un modelo de escalamiento alométrico indica que, en mamíferos, el metabolismo basal es proporcional a la masa corporal elevada a la potencia 3/4, ajustado con datos de animales entre 1 kg y 1000 kg. Un investigador usa este modelo para predecir el metabolismo de una bacteria de una milmillonésima de gramo. ¿Es apropiado este uso del modelo?",
+    "respuesta": "No es apropiado, porque el modelo fue construido y validado con datos de mamíferos dentro de un rango de masa muy distinto (1 kg a 1000 kg); extrapolarlo a organismos unicelulares extremadamente pequeños excede por completo su dominio de validez, y no hay garantía de que la misma relación matemática aplique a una escala biológica y de masa tan diferente.",
+    "regla": "Un modelo científico se ajusta bien a los datos dentro de un rango observado, pero **extrapolarlo** mucho más allá de ese rango (fuera de su dominio) puede producir predicciones que ya no corresponden con la realidad, porque las relaciones que describe pueden cambiar de naturaleza en los extremos.",
+    "ejemplo": "Un modelo de crecimiento poblacional ajustado con datos de una ciudad de tamaño mediano no debería usarse sin ajustes para predecir el crecimiento de una megaciudad de 30 millones de habitantes, porque las dinámicas de migración, infraestructura y recursos cambian a esa escala.",
+    "error_comun": "Se asume que si una ecuación se ajusta bien matemáticamente a un conjunto de datos, puede aplicarse sin restricciones a cualquier situación relacionada, sin verificar si la nueva situación está dentro del rango de condiciones donde el modelo fue calibrado y validado.",
+    "conexion_cotidiana": "Las tablas de dosificación de medicamentos pediátricos según el peso del niño no pueden extrapolarse sin ajuste a un adulto de peso muy superior, porque la relación entre peso y dosis segura no necesariamente se mantiene lineal fuera del rango para el que fue diseñada la tabla.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Masa corporal en kg (escala logarítmica)",
+      "ejeY": "Metabolismo basal en kcal/día (escala logarítmica)",
+      "series": [
+        {
+          "nombre": "Rango validado en mamíferos (1-1000 kg)",
+          "datos": [
+            {
+              "x": 1,
+              "y": 70
+            },
+            {
+              "x": 10,
+              "y": 393.6
+            },
+            {
+              "x": 100,
+              "y": 2213.8
+            },
+            {
+              "x": 1000,
+              "y": 12446
+            }
+          ]
+        },
+        {
+          "nombre": "Extrapolación fuera de dominio (hacia una bacteria)",
+          "datos": [
+            {
+              "x": 1e-9,
+              "y": 0.0000124
+            },
+            {
+              "x": 0.000001,
+              "y": 0.0022
+            },
+            {
+              "x": 0.001,
+              "y": 0.394
+            },
+            {
+              "x": 1,
+              "y": 70
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Gráfica log-log del metabolismo basal frente a la masa corporal, con el rango validado en mamíferos entre 1 y 1000 kg y una línea de extrapolación hacia masas mucho menores, fuera del dominio del modelo, como la de una bacteria."
+    },
+    "formula_latex": "M \\propto m^{3/4}",
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-RAZ-011"
+    ]
+  },
+  {
+    "id": "PC-RAZ-013",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "establecer_estrategias",
+    "bloque": "incertidumbre_mal_atribuida",
+    "modo": "pregunta",
+    "pregunta": "Un geólogo mide la concentración de un mineral en una sola muestra de roca usando un espectrómetro de alta resolución certificado, y obtiene un valor con un margen de error muy amplio en comparación con estudios similares. Al revisar el diseño del muestreo, se da cuenta de que solo se tomó una muestra de todo el afloramiento rocoso. ¿Qué tipo de incertidumbre es más probable que esté afectando el resultado, y qué acción la reduciría?",
+    "respuesta": "La incertidumbre probablemente proviene de la falta de muestreo (una sola muestra no representa la variabilidad natural del afloramiento completo), no de una limitación del instrumento, que ya es de alta resolución; la acción adecuada sería tomar múltiples muestras en distintos puntos del afloramiento y promediar los resultados, en lugar de buscar un instrumento aún más preciso, lo cual no resolvería el problema real.",
+    "regla": "La **incertidumbre** en una medición puede tener distintos orígenes: puede deberse a la falta de repeticiones o de muestras (incertidumbre por muestreo), o a la resolución limitada del instrumento usado (incertidumbre instrumental); confundir una fuente con la otra lleva a proponer la solución equivocada para reducir el margen de error.",
+    "ejemplo": "Si se quiere saber la altura promedio de los estudiantes de una universidad y solo se mide a una persona con una cinta métrica de alta precisión, el resultado tendrá alta incertidumbre no por el instrumento, sino porque una sola persona no representa a toda la población.",
+    "error_comun": "Se asume automáticamente que un resultado con mucha incertidumbre requiere \"un instrumento más preciso\", sin distinguir si el problema real es la falta de repeticiones o de muestras representativas, lo cual no se soluciona cambiando el instrumento sino ampliando el muestreo.",
+    "conexion_cotidiana": "Preguntarle su opinión política a una sola persona en la calle y presentarla como representativa de toda la ciudad tiene alta incertidumbre por falta de muestreo, no porque la pregunta esté mal formulada o el encuestador sea impreciso.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "alta",
+    "prereqs": []
+  },
+  {
+    "id": "PC-RAZ-014",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "establecer_estrategias",
+    "bloque": "incertidumbre_mal_atribuida",
+    "modo": "pregunta",
+    "pregunta": "Un estudiante realiza una sola titulación para determinar la concentración de una solución de ácido acético y usa una bureta digital de alta resolución (incertidumbre de ±0,01 mL). Al comparar su resultado con el de sus compañeros, encuentra una diferencia considerable respecto al valor esperado. Sospecha que el problema es la resolución de la bureta. ¿Es razonable esta sospecha?",
+    "respuesta": "No es la explicación más razonable, porque la bureta ya tiene una resolución alta (±0,01 mL); es más probable que la diferencia se deba a que solo se hizo una titulación, sin repetirla varias veces para promediar errores aleatorios de manipulación (como el punto final visual de la titulación); repetir la titulación al menos tres veces reduciría mejor la incertidumbre que cambiar de instrumento.",
+    "regla": "Antes de intentar reducir la **incertidumbre** de una medición, es necesario identificar si su origen es la variabilidad natural de la muestra (que se reduce aumentando el número de repeticiones) o la limitación del instrumento (que se reduce usando un instrumento de mayor resolución); aplicar la solución equivocada no mejora el resultado.",
+    "ejemplo": "Si un cronómetro digital de alta precisión (0,01 segundos) se usa para medir el tiempo de reacción de una sola persona ante un estímulo, la variabilidad entre intentos se debe más a la variabilidad humana que a la resolución del cronómetro; repetir la medición varias veces reduce mejor esa incertidumbre.",
+    "error_comun": "Se tiende a culpar al instrumento cuando un resultado individual no coincide con lo esperado, sin considerar que la mayoría de las mediciones experimentales tienen variabilidad inherente al procedimiento (manipulación, condiciones ambientales) que solo se reduce repitiendo la medición, no cambiando de equipo.",
+    "conexion_cotidiana": "Si al pesarte una sola vez en una báscula digital de alta precisión el número no coincide con lo esperado, repetir la medición varias veces suele ser más útil que comprar una báscula todavía más precisa.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-RAZ-013"
+    ]
+  },
+  {
+    "id": "PC-RAZ-015",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "evidencia_insuficiente_o_irrelevante",
+    "modo": "pregunta",
+    "pregunta": "Para probar la hipótesis de que un nuevo antiinflamatorio reduce el tiempo de recuperación de un esguince de tobillo, un investigador reporta que el 80 % de los pacientes que lo tomaron dijeron sentirse \"satisfechos\" con el tratamiento. ¿Esta evidencia respalda la hipótesis sobre el tiempo de recuperación?",
+    "respuesta": "No, porque la satisfacción reportada por los pacientes no mide directamente el tiempo de recuperación física del esguince; sentirse satisfecho puede deberse a la reducción del dolor, a la atención recibida o a otros factores, sin que eso implique necesariamente una recuperación más rápida. La evidencia relevante sería, por ejemplo, el tiempo real hasta recuperar el rango de movilidad normal del tobillo, comparado entre un grupo con el medicamento y un grupo control.",
+    "regla": "Una evidencia es **insuficiente o irrelevante** para una hipótesis cuando, aunque parece relacionada, en realidad no permite confirmarla ni refutarla; distinguir la evidencia que realmente pone a prueba una hipótesis de la que solo la acompaña sin aportar información decisiva es clave para evaluar conclusiones científicas.",
+    "ejemplo": "Para probar si un fertilizante aumenta el rendimiento de un cultivo de papa, reportar que \"las hojas se veían más verdes\" no es evidencia suficiente, porque el color de la hoja no mide directamente el rendimiento en kilogramos de papa cosechada, que es lo que la hipótesis busca explicar.",
+    "error_comun": "Se acepta como evidencia cualquier dato que esté temáticamente relacionado con la hipótesis, sin verificar si ese dato realmente permite distinguir entre la hipótesis siendo verdadera o falsa; una evidencia relevante debe cambiar la probabilidad de que la hipótesis sea correcta.",
+    "conexion_cotidiana": "Que un cargador de celular se sienta \"más rápido\" no es evidencia suficiente de que realmente carga más rápido; la evidencia relevante sería medir el tiempo real hasta llegar al 100 % de batería y compararlo con el cargador anterior.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "PC-RAZ-016",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "evidencia_insuficiente_o_irrelevante",
+    "modo": "pregunta",
+    "pregunta": "Para probar la hipótesis de que un nuevo diseño de ala de avión reduce la resistencia del aire (arrastre aerodinámico), un ingeniero presenta como evidencia que los aviones con esta ala \"se ven más aerodinámicos\" a simple vista. ¿Es esta una evidencia adecuada para la hipótesis?",
+    "respuesta": "No, porque la apariencia visual de \"verse aerodinámico\" es subjetiva y no es una medición del arrastre real; la evidencia relevante sería medir directamente la fuerza de resistencia del aire sobre el ala en un túnel de viento, comparando el nuevo diseño con el anterior bajo las mismas condiciones de velocidad y ángulo de ataque.",
+    "regla": "No toda observación relacionada temáticamente con una hipótesis constituye evidencia útil para evaluarla; la evidencia **relevante** debe estar lógicamente conectada con lo que la hipótesis predice específicamente, de modo que confirme o refute esa predicción concreta.",
+    "ejemplo": "Para evaluar si una técnica nueva de encriptación es más segura, no basta con que \"parezca más complicada\"; la evidencia relevante sería someterla a intentos reales de descifrado y medir cuánto tiempo o recursos se necesitan para vulnerarla.",
+    "error_comun": "Se confunde una impresión intuitiva o estética con una medición cuantitativa de la variable que realmente importa para la hipótesis, especialmente cuando la impresión coincide con lo que ya se espera confirmar.",
+    "conexion_cotidiana": "Que un cuchillo \"se vea afilado\" no es evidencia suficiente de que corte bien; la prueba relevante es cortar realmente un material y medir la fuerza o el número de pasadas necesarias.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "media",
+    "prereqs": [
+      "PC-RAZ-015"
+    ]
+  },
+  {
+    "id": "PC-RAZ-017",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "sobregeneralizacion_de_un_metodo",
+    "modo": "pregunta",
+    "pregunta": "Un laboratorio usa una técnica que permite conocer la proporción relativa de Fe²⁺ y Fe³⁺ en la superficie de una muestra de mineral, sin poder determinar en qué compuesto específico está presente cada uno. Tras un tratamiento térmico, se observa que el Fe³⁺ es mayoritario, y un investigador concluye que el compuesto predominante en la superficie es hematita (Fe₂O₃). ¿Es adecuada esta conclusión?",
+    "respuesta": "No es adecuada, porque el método solo permite conocer la proporción de los estados de oxidación del hierro presentes, no la identidad química exacta del compuesto formado; el Fe³⁺ mayoritario es compatible con varios compuestos posibles, y afirmar cuál de ellos predomina requeriría una técnica adicional capaz de identificar la estructura del compuesto, como difracción de rayos X.",
+    "regla": "La **sobregeneralización de un método** ocurre cuando se concluye algo que va más allá de lo que la técnica utilizada realmente puede determinar; cada método experimental tiene un alcance específico, y una conclusión válida solo puede afirmar lo que ese método efectivamente mide, ni más ni menos.",
+    "ejemplo": "Un test rápido que detecta la presencia de anticuerpos en sangre no permite, por sí solo, determinar hace cuánto tiempo ocurrió la infección; concluir el momento exacto del contagio a partir de ese test sería una sobregeneralización de lo que la técnica realmente mide.",
+    "error_comun": "Se asume que, porque un método da información parcialmente relacionada con la pregunta de interés, también puede responder toda la pregunta; esto ocurre cuando no se distingue entre lo que la técnica mide directamente y lo que se infiere adicionalmente sin evidencia directa.",
+    "conexion_cotidiana": "Un medidor de glucosa casero mide la concentración de glucosa en sangre en el momento de la prueba, pero no puede, por sí solo, diagnosticar diabetes ni determinar su causa; eso requeriría pruebas adicionales.",
+    "tipo_visual": "tabla",
+    "visual_posicion": "reverso",
+    "tabla_filas": {
+      "columnas": [
+        "Lo que el método mide",
+        "Lo que NO puede determinar"
+      ],
+      "filas": [
+        [
+          "Proporción relativa de Fe²⁺ y Fe³⁺ en la superficie",
+          "Identidad química exacta del compuesto (p. ej., si es hematita Fe₂O₃)"
+        ],
+        [
+          "Cambio en el estado de oxidación tras el tratamiento térmico",
+          "Estructura cristalina o fase mineral específica"
+        ]
+      ]
+    },
+    "dificultad": "alta",
+    "prereqs": []
+  },
+  {
+    "id": "PC-RAZ-018",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "sobregeneralizacion_de_un_metodo",
+    "modo": "pregunta",
+    "pregunta": "Una prueba genética detecta la presencia de una variante asociada con mayor riesgo de una enfermedad cardiovascular, pero no mide si esa variante realmente se está expresando ni el estado de salud actual del corazón. Un médico concluye, a partir de un resultado positivo en la prueba, que el paciente ya tiene la enfermedad. ¿Es correcta esta conclusión?",
+    "respuesta": "No es correcta, porque la prueba solo detecta la presencia de la variante genética asociada con mayor riesgo, no confirma que la enfermedad se haya desarrollado ni su gravedad actual; muchas variantes de riesgo no se expresan en todos los portadores (penetrancia incompleta), por lo que se necesitarían pruebas clínicas adicionales para confirmar el estado real del corazón.",
+    "regla": "Concluir más de lo que un **método experimental** puede realmente respaldar es un error frecuente; antes de aceptar una conclusión, conviene preguntarse explícitamente qué es lo que la técnica utilizada mide de forma directa, y qué queda fuera de su alcance.",
+    "ejemplo": "Un análisis de suelo que detecta la presencia de nitrógeno disponible no permite, por sí solo, concluir que un cultivo específico crecerá bien en ese suelo, porque el crecimiento depende también de otros nutrientes, el pH y factores climáticos que la prueba no mide.",
+    "error_comun": "Se interpreta la detección de un factor de riesgo o de una condición asociada como si fuera la confirmación directa del resultado final, saltándose los pasos intermedios que el método no cubre.",
+    "conexion_cotidiana": "Que una prueba de aire detecte partículas contaminantes por encima del límite no significa automáticamente que una persona expuesta desarrollará una enfermedad respiratoria; eso depende de factores adicionales que esa prueba no mide.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-RAZ-017"
+    ]
+  },
+  {
+    "id": "PC-RAZ-019",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "equilibrio_confundido_con_reposo",
+    "modo": "pregunta",
+    "pregunta": "Un carro viaja por una carretera recta a 100 km/h constantes. Un estudiante afirma que, como el carro se mueve, debe haber una fuerza neta distinta de cero actuando sobre él. ¿Es correcta esta afirmación?",
+    "respuesta": "No es correcta; si la velocidad es constante (ni aumenta ni disminuye, y la dirección no cambia), la aceleración es cero, lo que significa que la fuerza neta sobre el carro también es cero (la fuerza del motor se equilibra exactamente con la fricción y la resistencia del aire). El equilibrio de fuerzas no implica que el objeto esté detenido, sino que su velocidad no cambia, sin importar si esa velocidad es cero o no.",
+    "regla": "Que las fuerzas sobre un objeto estén en **equilibrio** (la fuerza neta sea igual a cero) implica que su aceleración es cero, es decir, que su velocidad no cambia; esto no significa que el objeto esté en reposo, ya que puede estar moviéndose con velocidad constante, incluida una velocidad distinta de cero.",
+    "ejemplo": "Un paracaidista que ha alcanzado su velocidad terminal desciende a velocidad constante porque su peso está exactamente equilibrado por la fuerza de fricción del aire; sigue moviéndose hacia abajo, pero su aceleración en ese tramo es cero.",
+    "error_comun": "Se asocia intuitivamente \"fuerza neta cero\" con \"objeto quieto\", porque en la experiencia cotidiana los objetos en reposo suelen tener fuerzas equilibradas; pero la primera ley de Newton establece que un objeto con fuerza neta cero mantiene su velocidad constante, sea esa velocidad cero o no.",
+    "conexion_cotidiana": "Un ascensor que se mueve hacia arriba a velocidad constante entre dos pisos tiene las fuerzas (tensión del cable y peso) equilibradas, igual que cuando está detenido; la sensación de peso que sientes es la misma en ambos casos, aunque uno esté en movimiento y el otro no.",
+    "tipo_visual": "diagrama_esquematico",
+    "visual_posicion": "frente",
+    "visual_descripcion": "Diagrama de cuerpo libre de un carro en movimiento a velocidad constante, mostrando la fuerza del motor hacia adelante y la fricción más resistencia del aire hacia atrás, de igual magnitud, con una flecha de velocidad constante hacia adelante.",
+    "formula_latex": "\\Sigma F = 0 \\Rightarrow a = 0",
+    "dificultad": "media",
+    "prereqs": [],
+    "imagen": "PC-RAZ-019.svg"
+  },
+  {
+    "id": "PC-RAZ-020",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "equilibrio_confundido_con_reposo",
+    "modo": "pregunta",
+    "pregunta": "En un recipiente cerrado, la reacción reversible N₂(g) + 3H₂(g) ⇌ 2NH₃(g) ha alcanzado el equilibrio, y las concentraciones de N₂, H₂ y NH₃ ya no cambian con el tiempo. Un estudiante concluye que la reacción se detuvo por completo. ¿Es correcta esta interpretación?",
+    "respuesta": "No es correcta; en el equilibrio químico la reacción directa (formación de NH₃) y la reacción inversa (descomposición de NH₃) siguen ocurriendo continuamente, pero a la misma velocidad, por lo que no hay cambio neto observable en las concentraciones. Que las concentraciones permanezcan constantes es evidencia de equilibrio dinámico, no de que las moléculas hayan dejado de reaccionar.",
+    "regla": "En química, el **equilibrio dinámico** de una reacción reversible no significa que la reacción se haya detenido, sino que las velocidades de la reacción directa e inversa se igualan, de modo que las concentraciones de reactivos y productos permanecen constantes a nivel macroscópico, aunque a nivel molecular la reacción sigue ocurriendo en ambos sentidos.",
+    "ejemplo": "En un lago, el nivel del agua puede permanecer constante aunque el agua siga entrando por un río y saliendo por evaporación al mismo ritmo; el nivel constante no significa que el flujo de agua se haya detenido.",
+    "error_comun": "Se interpreta \"sin cambio observable\" como sinónimo de \"sin actividad\", cuando en realidad muchos sistemas en equilibrio dinámico mantienen procesos activos y opuestos que se compensan exactamente entre sí a nivel macroscópico.",
+    "conexion_cotidiana": "El punto de fusión de un cubo de hielo en agua a 0 °C es un equilibrio dinámico entre el hielo que se derrite y el agua que se congela a la misma velocidad; el tamaño del cubo puede parecer estable por un momento, sin que eso signifique que el proceso se detuvo.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "formula_latex": "N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)",
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-RAZ-019"
+    ]
+  },
+  {
+    "id": "PC-RAZ-021",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "plantear_preguntas",
+    "bloque": "brecha_de_datos_ignorada",
+    "modo": "pregunta",
+    "pregunta": "En un estudio sobre la relación entre la profundidad de perforación y la temperatura del subsuelo, se tomaron mediciones a 100 m, 200 m, 800 m y 900 m de profundidad, encontrando un aumento aproximadamente lineal de la temperatura. No se tomaron mediciones entre 300 m y 700 m. ¿Cuál sería la pregunta de investigación más pertinente para continuar este estudio?",
+    "respuesta": "La pregunta más pertinente sería si la relación lineal entre profundidad y temperatura se mantiene en el rango no muestreado, entre 300 m y 700 m, ya que no hay garantía de que el comportamiento observado en los extremos se mantenga igual en ese intervalo (podría haber, por ejemplo, una capa geológica distinta que altere la tendencia); no debería asumirse la linealidad en la brecha sin medirla directamente.",
+    "regla": "Una **brecha de datos** es un rango de condiciones que no fue muestreado ni medido directamente en un estudio; identificar esa brecha y reconocerla como la pregunta de investigación pendiente más obvia es una habilidad clave, en lugar de generalizar conclusiones a ese rango sin haberlo medido.",
+    "ejemplo": "Si se mide la velocidad de un vehículo a los 10 y a los 60 segundos de un experimento de aceleración, y se observa que se duplicó, no puede asumirse que el aumento fue perfectamente constante en todo el intervalo intermedio sin medir puntos entre esos dos tiempos.",
+    "error_comun": "Se asume que la tendencia observada en los puntos medidos se extiende automáticamente al rango no muestreado, sin considerar que ese vacío de información es precisamente la siguiente pregunta que un estudio riguroso debería plantearse, en lugar de darla por resuelta.",
+    "conexion_cotidiana": "Si una báscula inteligente registra tu peso el lunes y el viernes, y notas una diferencia, no sabrás si el cambio fue gradual o si ocurrió todo de golpe un solo día, porque no mediste los días intermedios.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "dispersion",
+      "ejeX": "Profundidad de perforación (m)",
+      "ejeY": "Temperatura del subsuelo (°C)",
+      "series": [
+        {
+          "nombre": "Mediciones registradas",
+          "datos": [
+            {
+              "x": 100,
+              "y": 25
+            },
+            {
+              "x": 200,
+              "y": 32
+            },
+            {
+              "x": 800,
+              "y": 68
+            },
+            {
+              "x": 900,
+              "y": 75
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Diagrama de dispersión con cuatro mediciones de temperatura del subsuelo a 100, 200, 800 y 900 metros de profundidad, dejando sin muestrear el rango entre 300 y 700 metros."
+    },
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "PC-RAZ-022",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "plantear_preguntas",
+    "bloque": "brecha_de_datos_ignorada",
+    "modo": "pregunta",
+    "pregunta": "Un estudio evalúa el efecto de un conservante alimentario sobre el crecimiento bacteriano a concentraciones de 0 %, 1 % y 5 %, encontrando una reducción progresiva del crecimiento. No se probaron concentraciones entre 1 % y 5 %. ¿Qué pregunta de investigación surge naturalmente de esta brecha en los datos?",
+    "respuesta": "Surge la pregunta de cómo se comporta la inhibición del crecimiento bacteriano en el rango de concentraciones entre 1 % y 5 %, ya que la reducción podría ser gradual y lineal, o podría existir un umbral de concentración a partir del cual el efecto se vuelve mucho más fuerte (o se estabiliza); sin medir ese intervalo, no puede asumirse cuál de estos comportamientos ocurre realmente.",
+    "regla": "Cuando un estudio deja un intervalo de valores sin medir entre dos puntos de datos, no se puede saber con certeza cómo se comporta la variable en ese intervalo; reconocer esa **brecha de datos** como la siguiente pregunta a investigar es más riguroso que asumir que la tendencia observada se mantiene sin cambios.",
+    "ejemplo": "Si un estudio de dosis de cafeína mide el estado de alerta con 0 mg y 200 mg y encuentra una mejora notable, no puede asumirse que el aumento sea proporcional en todo el rango intermedio, porque muchos efectos biológicos tienen umbrales o mesetas.",
+    "error_comun": "Se interpola de forma automática entre dos puntos de datos alejados asumiendo un comportamiento simple (usualmente lineal), sin considerar que el rango no medido podría esconder umbrales, saturaciones u otros comportamientos distintos.",
+    "conexion_cotidiana": "Si notas que un analgésico no hace efecto con media pastilla pero sí con una pastilla completa, no sabes en qué punto intermedio exacto comenzó a funcionar, a menos que pruebes dosis intermedias.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "dispersion",
+      "ejeX": "Concentración de conservante (%)",
+      "ejeY": "Crecimiento bacteriano relativo (UFC/mL)",
+      "series": [
+        {
+          "nombre": "Mediciones registradas",
+          "datos": [
+            {
+              "x": 0,
+              "y": 100
+            },
+            {
+              "x": 1,
+              "y": 62
+            },
+            {
+              "x": 5,
+              "y": 15
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Gráfico de dispersión que muestra una reducción progresiva del crecimiento bacteriano al aumentar la concentración de conservante, con una brecha de datos sin medir entre 1% y 5%."
+    },
+    "dificultad": "media",
+    "prereqs": [
+      "PC-RAZ-021"
+    ]
+  },
+  {
+    "id": "PC-RAZ-023",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "proporcionalidad_directa_vs_inversa",
+    "modo": "cloze",
+    "antes": "Según la ley de Boyle, a temperatura constante, la presión (P) y el volumen (V) de un gas cumplen P·V = k (constante), una relación de proporcionalidad ",
+    "despues": ", lo que significa que si el volumen se reduce a la mitad, la presión se duplica.",
+    "respuesta": "inversa",
+    "regla": "Dos variables tienen una relación de **proporcionalidad directa** cuando al aumentar una, la otra aumenta en la misma proporción (su cociente es constante: y = k·x); tienen una relación de **proporcionalidad inversa** cuando al aumentar una, la otra disminuye de forma que su producto permanece constante (y = k/x).",
+    "ejemplo": "En una jeringa cerrada sin aire que escape, si empujas el émbolo reduciendo el volumen interno a un tercio, la presión del aire atrapado se triplica, mientras la temperatura se mantenga constante.",
+    "error_comun": "Se confunde con proporcionalidad directa porque intuitivamente se espera que \"más de una cosa\" signifique \"más de la otra\"; sin embargo, en la proporcionalidad inversa el producto de las dos variables es el que permanece constante, no su cociente, por lo que una aumenta exactamente en la medida en que la otra disminuye.",
+    "conexion_cotidiana": "Al inflar una llanta de bicicleta con una bomba manual, entre más comprimes el aire dentro del cilindro de la bomba (menor volumen), más presión sientes que debes ejercer, un ejemplo directo de la relación inversa entre presión y volumen.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Volumen (L)",
+      "ejeY": "Presión (atm)",
+      "series": [
+        {
+          "nombre": "Gas ideal a temperatura constante (P·V = 24)",
+          "datos": [
+            {
+              "x": 1,
+              "y": 24
+            },
+            {
+              "x": 2,
+              "y": 12
+            },
+            {
+              "x": 3,
+              "y": 8
+            },
+            {
+              "x": 4,
+              "y": 6
+            },
+            {
+              "x": 6,
+              "y": 4
+            },
+            {
+              "x": 8,
+              "y": 3
+            },
+            {
+              "x": 12,
+              "y": 2
+            },
+            {
+              "x": 24,
+              "y": 1
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Curva hiperbólica descendente que muestra la relación de proporcionalidad inversa entre presión y volumen de un gas ideal a temperatura constante."
+    },
+    "formula_latex": "P \\cdot V = k",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "PC-RAZ-024",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "proporcionalidad_directa_vs_inversa",
+    "modo": "pregunta",
+    "pregunta": "En una reacción química de primer orden, la velocidad de reacción es directamente proporcional a la concentración del reactivo: v = k·[A]. Si la concentración del reactivo se reduce a la tercera parte, ¿qué le sucede a la velocidad de la reacción, y por qué esta relación se clasifica como proporcionalidad directa y no inversa?",
+    "respuesta": "La velocidad de reacción también se reduce a la tercera parte, porque en una proporcionalidad directa (v = k·[A]) el cociente v/[A] permanece constante (igual a k); a diferencia de la proporcionalidad inversa, aquí ambas variables cambian en el mismo sentido y en la misma proporción, no en sentidos opuestos.",
+    "regla": "No toda relación entre dos variables científicas es inversamente proporcional ni directamente proporcional por defecto; identificar cuál de las dos aplica requiere analizar cómo cambia una variable cuando la otra se modifica, y verificar si su **cociente** o su **producto** es el que se mantiene constante.",
+    "ejemplo": "La distancia recorrida por un carro a velocidad constante es directamente proporcional al tiempo transcurrido (d = v·t): si el tiempo se duplica, la distancia recorrida también se duplica, porque el cociente distancia/tiempo (la velocidad) permanece constante.",
+    "error_comun": "Se confunde con proporcionalidad inversa cuando ambas variables cambian juntas pero se espera automáticamente una relación de \"compensación\" entre ellas; el criterio correcto es verificar si el cociente (directa) o el producto (inversa) entre las dos variables es el que se mantiene constante.",
+    "conexion_cotidiana": "El costo total de la gasolina que compras es directamente proporcional a la cantidad de litros que cargas: si cargas el doble de litros, pagas el doble, porque el precio por litro (el cociente costo/litros) se mantiene constante.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Concentración de reactivo [A] (mol/L)",
+      "ejeY": "Velocidad de reacción (mol/L·s)",
+      "series": [
+        {
+          "nombre": "v = k[A], k = 0,5 s⁻¹",
+          "datos": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0.5
+            },
+            {
+              "x": 2,
+              "y": 1
+            },
+            {
+              "x": 3,
+              "y": 1.5
+            },
+            {
+              "x": 4,
+              "y": 2
+            },
+            {
+              "x": 6,
+              "y": 3
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Línea recta que pasa por el origen, mostrando la proporcionalidad directa entre la concentración del reactivo y la velocidad de reacción."
+    },
+    "formula_latex": "v = k[A]",
+    "dificultad": "media",
+    "prereqs": [
+      "PC-RAZ-023"
+    ]
+  },
+  {
+    "id": "PC-RAZ-025",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "lectura_invertida_grafica",
+    "modo": "pregunta",
+    "pregunta": "En una gráfica de una titulación ácido-base, el eje horizontal representa el volumen de base añadida y el eje vertical representa el pH de la solución. Un estudiante afirma: \"la gráfica muestra cómo cambia el volumen de base añadida a medida que aumenta el pH\". ¿Es correcta esta lectura de la gráfica?",
+    "respuesta": "No es correcta; la gráfica muestra lo contrario de lo que el estudiante describe: cómo cambia el pH (variable dependiente, en el eje vertical) a medida que se añade volumen de base (variable independiente, en el eje horizontal), no al revés. Invertir la descripción de los ejes lleva a una interpretación causal equivocada de qué variable depende de cuál.",
+    "regla": "La **lectura invertida de una gráfica** ocurre cuando se intercambian los ejes al interpretar los datos, por ejemplo leyendo el eje horizontal como si fuera el vertical o viceversa, lo que lleva a describir una relación opuesta a la que realmente muestran los datos.",
+    "ejemplo": "En una gráfica de crecimiento poblacional donde el eje horizontal es el tiempo y el eje vertical es el número de individuos, describirla como \"el tiempo transcurrido en función del número de individuos\" invierte la relación real: el tiempo es la variable independiente y la población es la que depende de él, no al contrario.",
+    "error_comun": "Ocurre porque, al leer rápidamente una gráfica, se confunde cuál eje representa la variable que se controla o avanza de forma independiente (usualmente el horizontal) y cuál representa la variable medida como resultado (usualmente el vertical), especialmente cuando ambas variables cambian de forma monótona.",
+    "conexion_cotidiana": "En una gráfica del velocímetro de un carro que muestra la velocidad en el eje vertical y el tiempo en el eje horizontal, sería incorrecto describirla como \"el tiempo en función de la velocidad\", porque lo que se mide con el paso del tiempo es la velocidad, y no lo opuesto.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Volumen de base añadida (mL)",
+      "ejeY": "pH",
+      "series": [
+        {
+          "nombre": "Curva de titulación",
+          "datos": [
+            {
+              "x": 0,
+              "y": 2.5
+            },
+            {
+              "x": 5,
+              "y": 3.2
+            },
+            {
+              "x": 10,
+              "y": 3.8
+            },
+            {
+              "x": 15,
+              "y": 4.5
+            },
+            {
+              "x": 18,
+              "y": 5.5
+            },
+            {
+              "x": 20,
+              "y": 7
+            },
+            {
+              "x": 22,
+              "y": 9.5
+            },
+            {
+              "x": 25,
+              "y": 10.8
+            },
+            {
+              "x": 30,
+              "y": 11.3
+            },
+            {
+              "x": 35,
+              "y": 11.6
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Curva de titulación ácido-base que muestra el aumento del pH al añadir volumen de base, con un salto pronunciado cerca del punto de equivalencia en 20 mL."
+    },
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "PC-RAZ-026",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "adquirir_interpretar",
+    "bloque": "lectura_invertida_grafica",
+    "modo": "pregunta",
+    "pregunta": "En una gráfica que muestra el número de bacterias (eje vertical) en función del tiempo transcurrido en horas (eje horizontal) durante un cultivo, un estudiante concluye: \"el tiempo depende del número de bacterias presentes\". ¿Es válida esta conclusión a partir de la gráfica?",
+    "respuesta": "No es válida; la gráfica muestra cómo cambia el número de bacterias (variable dependiente) a medida que transcurre el tiempo (variable independiente), que es justamente la relación opuesta a la que describe el estudiante. El tiempo avanza de forma independiente del experimento, y es el número de bacterias el que se mide como consecuencia de ese paso del tiempo.",
+    "regla": "Al interpretar una gráfica científica, es indispensable identificar correctamente cuál variable está en el eje horizontal (generalmente la independiente) y cuál está en el eje vertical (generalmente la dependiente); invertir esta lectura lleva a describir una relación de **dependencia opuesta** a la real.",
+    "ejemplo": "En una gráfica que muestra la distancia de frenado de un carro en función de su velocidad inicial, sería incorrecto decir que \"la velocidad inicial depende de la distancia de frenado\", porque es la velocidad la que se fija y la distancia de frenado la que se mide como resultado.",
+    "error_comun": "Se invierte la lectura de la gráfica cuando no se presta atención a cuál variable fue fijada o controlada por quien diseñó el experimento (usualmente en el eje horizontal) y cuál fue medida como resultado (usualmente en el eje vertical), asumiendo erróneamente que cualquiera de las dos podría depender de la otra.",
+    "conexion_cotidiana": "En una gráfica que muestra el nivel de batería de un celular en función de las horas de uso, no tendría sentido decir que \"las horas de uso dependen del nivel de batería\", porque el tiempo transcurre de forma independiente y es el nivel de batería el que disminuye como consecuencia de ese uso.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Tiempo (horas)",
+      "ejeY": "Número de bacterias (UFC/mL)",
+      "series": [
+        {
+          "nombre": "Crecimiento bacteriano",
+          "datos": [
+            {
+              "x": 0,
+              "y": 100
+            },
+            {
+              "x": 2,
+              "y": 150
+            },
+            {
+              "x": 4,
+              "y": 400
+            },
+            {
+              "x": 6,
+              "y": 1200
+            },
+            {
+              "x": 8,
+              "y": 3500
+            },
+            {
+              "x": 10,
+              "y": 7000
+            },
+            {
+              "x": 12,
+              "y": 9000
+            },
+            {
+              "x": 14,
+              "y": 9500
+            },
+            {
+              "x": 16,
+              "y": 9700
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Curva sigmoide de crecimiento bacteriano en función del tiempo, con fase inicial lenta, crecimiento acelerado y estabilización posterior."
+    },
+    "dificultad": "media",
+    "prereqs": [
+      "PC-RAZ-025"
+    ]
+  },
+  {
+    "id": "PC-RAZ-027",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "que_es_un_modelo_cientifico",
+    "modo": "pregunta",
+    "pregunta": "El modelo atómico de Bohr representa al átomo como un núcleo rodeado de electrones que giran en órbitas circulares definidas, similar a planetas alrededor del sol. Este modelo no describe con exactitud la posición de los electrones, pero permite predecir con buena aproximación los espectros de emisión del hidrógeno. ¿Por qué se considera válido usar este modelo a pesar de que no representa fielmente la estructura real del átomo?",
+    "respuesta": "Se considera válido porque un modelo científico no necesita ser una copia exacta de la realidad para ser útil; su valor está en que simplifica el sistema real de una manera que permite explicar y predecir correctamente ciertos fenómenos observables, como las líneas espectrales del hidrógeno, dentro de un dominio específico de aplicación, aunque deje fuera aspectos más complejos como la dualidad onda-partícula.",
+    "regla": "Un **modelo científico** es una representación simplificada de un fenómeno o sistema real, construida para explicar observaciones existentes y predecir comportamientos futuros; un modelo no pretende capturar toda la complejidad de la realidad, sino resaltar los aspectos más relevantes para el problema que se quiere entender.",
+    "ejemplo": "Un mapa de una ciudad es un modelo: no representa cada árbol o bache de la calle, pero sí captura la información relevante (calles, direcciones, distancias relativas) para que alguien pueda orientarse y llegar a su destino.",
+    "error_comun": "Se rechaza un modelo por ser \"una simplificación de la realidad\", sin reconocer que esa simplificación es precisamente lo que hace útil y manejable al modelo; ningún modelo científico intenta replicar toda la complejidad de un sistema, sino capturar lo esencial para el propósito que se busca.",
+    "conexion_cotidiana": "Una receta de cocina es un modelo simplificado del proceso químico real que ocurre al hornear un pastel: no detalla cada reacción molecular, pero captura lo esencial (ingredientes, tiempos, temperaturas) para lograr el resultado esperado de forma confiable.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "PC-RAZ-028",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "que_es_un_modelo_cientifico",
+    "modo": "pregunta",
+    "pregunta": "El modelo de crecimiento exponencial de poblaciones (N(t) = N₀·e^(rt)) supone recursos ilimitados y ausencia de depredadores o enfermedades. Un biólogo lo usa para estimar el crecimiento de una población de bacterias durante las primeras horas de cultivo en un medio rico en nutrientes. ¿Por qué puede considerarse razonable el uso de este modelo simplificado en ese contexto específico?",
+    "respuesta": "Es razonable porque, durante las primeras horas de un cultivo con recursos abundantes, las condiciones reales se aproximan bastante a los supuestos del modelo (recursos prácticamente ilimitados en ese lapso corto, sin competencia significativa aún); el modelo simplificado captura bien el comportamiento del sistema dentro de ese dominio temporal específico, aunque se sabe que dejará de ser válido cuando los nutrientes empiecen a agotarse.",
+    "regla": "Todo modelo científico simplifica deliberadamente un sistema real, seleccionando las variables que se consideran más relevantes para el fenómeno de interés y omitiendo otras que se juzgan secundarias; esta selección depende del **propósito específico** para el cual se construyó el modelo.",
+    "ejemplo": "Un plano eléctrico de una casa es un modelo que representa los cables como líneas simples, sin mostrar su grosor real ni el material exacto, porque para el propósito de entender las conexiones eléctricas esos detalles no son relevantes.",
+    "error_comun": "Se juzga la calidad de un modelo únicamente por cuántos detalles incluye, cuando en realidad su calidad depende de si captura correctamente los aspectos relevantes para el problema específico que se quiere resolver, dentro del dominio en que se aplicará.",
+    "conexion_cotidiana": "Una aplicación de clima que muestra solo \"soleado, nublado o lluvioso\" es un modelo simplificado de la atmósfera real; no necesita simular cada molécula de aire para ser útil a la hora de decidir si llevar un paraguas.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "baja",
+    "prereqs": [
+      "PC-RAZ-027"
+    ]
+  },
+  {
+    "id": "PC-RAZ-029",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "ventajas_y_limitaciones_de_un_modelo",
+    "modo": "pregunta",
+    "pregunta": "El modelo de enlace de Lewis representa los electrones de valencia como puntos alrededor del símbolo de cada átomo, permitiendo predecir de forma sencilla la fórmula y geometría aproximada de muchas moléculas. Sin embargo, no explica bien el comportamiento de moléculas con electrones deslocalizados, como el benceno. ¿Qué ventaja y qué limitación ilustra mejor este caso?",
+    "respuesta": "La ventaja es que el modelo de Lewis permite predecir de forma rápida y sencilla la estructura de enlace de la mayoría de las moléculas simples, sin necesidad de cálculos cuánticos complejos; la limitación es que, al representar los electrones como pares localizados entre átomos específicos, no captura fenómenos como la deslocalización electrónica del benceno, por lo que se necesitan modelos más sofisticados (como la teoría de orbitales moleculares) para explicar esos casos.",
+    "regla": "Todo modelo científico implica un balance entre **ventajas** (simplicidad, capacidad de predicción, facilidad de cálculo) y **limitaciones** (pérdida de detalle, validez restringida a ciertas condiciones); evaluar un modelo requiere reconocer ambos aspectos, en lugar de juzgarlo solo como \"bueno\" o \"malo\" de forma absoluta.",
+    "ejemplo": "El modelo de las capas de la Tierra (núcleo, manto, corteza) tiene la ventaja de ser fácil de enseñar y visualizar, pero como limitación no captura la complejidad real de las transiciones graduales de composición y estado entre esas capas.",
+    "error_comun": "Se espera que un modelo útil deba ser válido en todas las circunstancias sin excepción, sin reconocer que la mayoría de los modelos científicos son herramientas con un rango de aplicación específico, y que sus limitaciones no invalidan su utilidad dentro de ese rango.",
+    "conexion_cotidiana": "Un mapa de rutas del metro tiene la ventaja de ser simple y fácil de seguir, pero como limitación no respeta las distancias reales entre estaciones, por lo que no sirve para calcular distancias exactas caminando.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "media",
+    "prereqs": [
+      "PC-RAZ-027"
+    ]
+  },
+  {
+    "id": "PC-RAZ-030",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "ventajas_y_limitaciones_de_un_modelo",
+    "modo": "pregunta",
+    "pregunta": "El modelo de tectónica de placas explica de forma efectiva fenómenos como los terremotos, la formación de cordilleras y la actividad volcánica en los límites de placas, a partir del movimiento de grandes bloques rígidos de la litosfera. Sin embargo, este modelo no predice con precisión el momento exacto en que ocurrirá un terremoto específico. ¿Es esto una falla que invalida el modelo?",
+    "respuesta": "No invalida el modelo; simplemente refleja una limitación conocida de su alcance: el modelo de tectónica de placas explica bien los mecanismos generales y la ubicación de las zonas de mayor riesgo sísmico, pero la predicción del momento exacto de un evento depende de procesos de acumulación y liberación de energía en fallas específicas que aún no pueden anticiparse con precisión; esta limitación coexiste con la gran ventaja explicativa del modelo a escala global.",
+    "regla": "Reconocer tanto las **ventajas** como las **limitaciones** de un modelo permite usarlo apropiadamente: aprovechando su capacidad explicativa o predictiva dentro de su dominio, sin exigirle que resuelva preguntas para las que no fue diseñado.",
+    "ejemplo": "El modelo del sistema solar con órbitas elípticas explica y predice con gran precisión las posiciones de los planetas, pero no explica por sí solo fenómenos como las perturbaciones gravitacionales menores entre planetas, que requieren modelos más detallados.",
+    "error_comun": "Se descarta un modelo completo al encontrar una pregunta específica que no puede responder, sin reconocer que ningún modelo científico está diseñado para responder absolutamente todas las preguntas relacionadas con un fenómeno.",
+    "conexion_cotidiana": "Un pronóstico del clima puede predecir con buena confianza la probabilidad de lluvia en una ciudad para mañana, pero no puede decir con precisión en qué calle exacta y a qué minuto exacto empezará a llover; eso no invalida el modelo meteorológico, solo señala el límite de su resolución.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "media",
+    "prereqs": [
+      "PC-RAZ-029"
+    ]
+  },
+  {
+    "id": "PC-RAZ-031",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "plantear_preguntas",
+    "bloque": "formulacion_de_hipotesis_falsable",
+    "modo": "pregunta",
+    "pregunta": "Un investigador propone la hipótesis: \"Existe una fuerza vital indetectable que permite a las plantas crecer hacia la luz, y esta fuerza actúa de forma que ningún experimento físico o químico podría jamás detectarla ni medirla.\" ¿Por qué esta hipótesis no es adecuada para una investigación científica, independientemente de si es verdadera o falsa?",
+    "respuesta": "No es adecuada porque no es falsable: al afirmar que ninguna medición posible podría detectarla, la hipótesis se protege de cualquier resultado experimental que pudiera contradecirla; una hipótesis científica útil, en cambio, debe predecir algo específico que pueda observarse o medirse, de tal manera que un resultado distinto al esperado permita descartarla.",
+    "regla": "Una **hipótesis falsable** es aquella que puede, en principio, ser refutada por alguna observación o resultado experimental posible; si no existe ninguna observación imaginable que pudiera contradecirla, la hipótesis no es científicamente útil, sin importar qué tan razonable suene, porque no permite diseñar un experimento que la ponga a prueba.",
+    "ejemplo": "La afirmación \"hay un dragón invisible e intangible en mi garaje\" no es falsable, porque cualquier intento de detectarlo se puede descartar diciendo que el dragón también es indetectable de esa forma; en cambio, \"en mi garaje hay un objeto de más de 50 kg\" sí es falsable, porque una báscula podría contradecirla.",
+    "error_comun": "Se confunde una hipótesis \"razonable\" o \"plausible\" con una hipótesis \"científica\", sin verificar si existe alguna observación posible que pudiera refutarla; una hipótesis puede sonar convincente y aun así ser inútil para la ciencia si está formulada de manera que ningún resultado la pueda contradecir.",
+    "conexion_cotidiana": "Decir que \"esta pulsera de la suerte mejora tu energía, pero de una forma que ningún instrumento puede medir\" no es una afirmación falsable; en cambio, decir que \"esta pulsera aumenta tu ritmo cardíaco en reposo\" sí lo es, porque se puede medir con un monitor cardíaco y confirmar o refutar.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "PC-RAZ-032",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "plantear_preguntas",
+    "bloque": "formulacion_de_hipotesis_falsable",
+    "modo": "pregunta",
+    "pregunta": "Se comparan dos hipótesis sobre el comportamiento de un péndulo: (1) \"el periodo del péndulo depende únicamente de su longitud, según T = 2π√(l/g)\"; (2) \"el periodo del péndulo está influenciado por energías cósmicas sutiles que se ajustan para que cualquier medición parezca consistente con la fórmula clásica, sin importar el resultado obtenido\". ¿Cuál de las dos es una hipótesis científicamente útil y por qué?",
+    "respuesta": "La hipótesis (1) es la científicamente útil, porque hace una predicción específica y falsable: si se mide el periodo de péndulos con distintas longitudes y los resultados no coinciden con la fórmula T = 2π√(l/g), la hipótesis quedaría refutada. La hipótesis (2), en cambio, no es falsable, porque está formulada de manera que se ajusta automáticamente a cualquier resultado posible, sin ofrecer ninguna predicción que pudiera contradecirla.",
+    "regla": "Para que una hipótesis sea científicamente útil, debe implicar una predicción concreta que pueda contrastarse con evidencia observable; si una hipótesis se puede reformular ante cualquier resultado para seguir siendo \"verdadera\", entonces no es **falsable** y queda fuera del alcance del método científico.",
+    "ejemplo": "Afirmar que \"un medicamento cura el resfriado en 7 días\" es falsable, y de hecho ilustra por qué esa afirmación específica necesita compararse cuidadosamente contra un grupo control sin tratamiento, ya que un resfriado común también tiende a resolverse solo en ese lapso.",
+    "error_comun": "Se acepta una hipótesis como científica solo por estar expresada con terminología técnica o compleja, sin evaluar si en realidad permite o no un resultado que la contradiga; añadir explicaciones adicionales cada vez que aparece evidencia contraria es una señal de que la hipótesis ha dejado de ser falsable.",
+    "conexion_cotidiana": "Decir que \"esta app de meditación mejora tu bienestar general, de una manera que no se refleja en ninguna medida física, emocional o de comportamiento\" no es falsable; decir que \"reduce tu frecuencia cardíaca en reposo en 5 latidos por minuto tras 4 semanas de uso\" sí lo es, porque puede medirse y contrastarse.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "formula_latex": "T = 2\\pi\\sqrt{l/g}",
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-RAZ-031"
+    ]
+  },
+  {
+    "id": "PC-RAZ-033",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "prediccion_vs_explicacion",
+    "modo": "pregunta",
+    "pregunta": "Antes de que se comprendiera la estructura atómica, la tabla periódica de Mendeleiev permitía predecir con notable exactitud las propiedades de elementos aún no descubiertos, a partir de patrones observados en los elementos conocidos. Sin embargo, en esa época no existía una explicación del porqué esas propiedades se repetían periódicamente. ¿Qué distingue este caso como un ejemplo de predicción sin explicación completa?",
+    "respuesta": "La tabla periódica permitía predecir con precisión propiedades de elementos no descubiertos aún (como el galio y el germanio), basándose en el patrón observado de periodicidad, pero en ese momento no se contaba con una explicación del mecanismo subyacente (la configuración electrónica de los átomos), que solo se desarrolló décadas después con la mecánica cuántica; esto ilustra que un modelo puede predecir correctamente sin explicar por qué ocurre lo que predice.",
+    "regla": "**Predecir** es anticipar un resultado o valor futuro a partir de un modelo, sin necesariamente dar cuenta del mecanismo que lo produce; **explicar** es dar cuenta del mecanismo o la razón subyacente por la cual ocurre un fenómeno. Un modelo puede tener alta capacidad predictiva sin ofrecer una explicación completa del \"por qué\", y viceversa.",
+    "ejemplo": "Los antiguos astrónomos podían predecir con buena precisión los eclipses solares y lunares usando ciclos observados en el movimiento celeste, sin tener una explicación correcta del mecanismo (el movimiento orbital real de la Tierra y la Luna alrededor del Sol).",
+    "error_comun": "Se asume que si un modelo predice bien un fenómeno, automáticamente también lo explica, sin distinguir entre \"saber qué va a pasar\" y \"saber por qué pasa\"; muchos modelos empíricos logran buena capacidad predictiva antes de que exista una teoría que explique el mecanismo subyacente.",
+    "conexion_cotidiana": "Un termómetro de mercurio predice con precisión que el mercurio subirá cuando la temperatura aumente, sin que eso, por sí solo, explique a alguien sin conocimientos de física por qué el mercurio se dilata al calentarse.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "alta",
+    "prereqs": []
+  },
+  {
+    "id": "PC-RAZ-034",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "comprender_modelos",
+    "bloque": "prediccion_vs_explicacion",
+    "modo": "pregunta",
+    "pregunta": "Un modelo estadístico basado en datos climáticos históricos predice con buena exactitud la floración de cierta especie de árbol cada año, a partir únicamente de la temperatura promedio de las últimas cuatro semanas, sin describir ningún proceso fisiológico interno del árbol. ¿Este modelo explica por qué ocurre la floración, o solo la predice?",
+    "respuesta": "Este modelo solo predice la floración, porque se basa en una correlación estadística entre temperatura y floración sin describir el mecanismo fisiológico interno (por ejemplo, las señales hormonales o los genes que responden a la temperatura acumulada) que realmente produce la floración; para explicar el fenómeno se necesitaría un modelo biológico que detalle ese mecanismo interno, más allá de solo predecir cuándo ocurrirá.",
+    "regla": "Un modelo predictivo permite anticipar el resultado de un fenómeno con base en patrones o correlaciones observadas, mientras que un modelo explicativo, además, identifica el **mecanismo causal** que produce ese resultado; distinguir ambos aspectos evita sobreestimar cuánto entendimiento real aporta un modelo que solo predice bien.",
+    "ejemplo": "Un modelo económico puede predecir con cierta exactitud cuándo subirán los precios de un producto según patrones históricos de temporada, sin explicar necesariamente los mecanismos exactos de oferta y demanda que causan ese aumento en cada caso particular.",
+    "error_comun": "Se confunde la capacidad de anticipar correctamente un resultado con la comprensión de por qué ocurre ese resultado; un modelo puramente estadístico o correlacional puede ser muy útil para predecir sin que eso implique que se conoce el mecanismo causal subyacente.",
+    "conexion_cotidiana": "Una aplicación puede predecir con buena exactitud cuándo tu batería llegará al 20 % según tu patrón de uso histórico, sin explicarte qué procesos electroquímicos específicos dentro de la batería causan esa disminución de carga.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-RAZ-033"
+    ]
+  },
+  {
+    "id": "PC-RAZ-035",
+    "modulo": "pensamiento_cientifico",
+    "tipo": "concepto",
+    "nucleo": "comun",
+    "afirmacion_asociada": "analizar_concluir",
+    "bloque": "integracion_patrones_transversales",
+    "modo": "pregunta",
+    "pregunta": "Ante un ítem de opción múltiple sobre un experimento con datos y gráficas, un estudiante identifica rápidamente que la opción A confunde correlación con causalidad y la marca como correcta por descarte, sin revisar si las otras tres opciones tienen problemas independientes que también las invalidan. ¿Por qué esta estrategia de lectura es riesgosa incluso si la opción A efectivamente contiene ese error?",
+    "respuesta": "Es riesgosa porque encontrar un problema en una opción no confirma automáticamente que las demás sean correctas ni que la opción \"sin ese error específico\" sea la respuesta válida; el diseño de estos ítems suele incluir varios distractores con fallas distintas (una que ignora una variable de confusión, otra que sobregeneraliza un método, otra con lectura invertida de la gráfica), por lo que la estrategia más segura es evaluar las cuatro opciones contra los mismos criterios de rigor antes de elegir, en lugar de detenerse en el primer error identificado.",
+    "regla": "En el examen Saber Pro, un mismo ítem del módulo de Pensamiento Científico frecuentemente combina más de un **patrón de razonamiento** a la vez; reconocer que los distractores rara vez fallan por una sola razón obliga a leer cada opción evaluando varios criterios de rigor científico simultáneamente, no solo buscando el primer error evidente.",
+    "ejemplo": "En un ítem sobre un estudio de fertilizantes, la opción A puede ignorar una variable de confusión, la opción B puede proponer una conclusión que el diseño experimental no permite, y solo la opción C puede reconocer explícitamente tanto la variable de confusión como el alcance real de los datos disponibles; descartar A no basta para elegir entre B y C sin evaluarlas también.",
+    "error_comun": "La prisa por terminar el examen lleva a aplicar solo el primer patrón de error reconocido y detener ahí el análisis, cuando el diseño anti-adivinanza del examen (opciones de longitud y complejidad comparable) está pensado justamente para que el descarte por un solo criterio no sea suficiente.",
+    "conexion_cotidiana": "Al comparar reseñas de un producto antes de comprarlo, descartar la primera reseña por parecer exagerada no significa que la segunda opción disponible sea automáticamente la mejor decisión; conviene revisar todas las opciones bajo los mismos criterios antes de decidir.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
+    "dificultad": "alta",
+    "prereqs": [
+      "PC-RAZ-003",
+      "PC-RAZ-005",
+      "PC-RAZ-017",
+      "PC-RAZ-025"
+    ]
+  }
+]

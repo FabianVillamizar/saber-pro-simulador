@@ -12,6 +12,7 @@
 
   --accent: #2563eb;
   --warning: oklch(60% 0.16 55);
+  --exito: oklch(48% 0.15 150);
 
   --mix-base: white;
 
@@ -41,6 +42,7 @@
   --text-faint: oklch(56% 0.012 258);
 
   --warning: oklch(72% 0.14 65);
+  --exito: oklch(75% 0.13 150);
 
   --mix-base: black;
 
@@ -60,6 +62,7 @@
     --text-sub: oklch(76% 0.01 258);
     --text-faint: oklch(56% 0.012 258);
     --warning: oklch(72% 0.14 65);
+    --exito: oklch(75% 0.13 150);
     --mix-base: black;
     --sombra-suave: 0 12px 30px rgba(0, 0, 0, 0.35);
     --sombra-hover: rgba(0, 0, 0, 0.35);

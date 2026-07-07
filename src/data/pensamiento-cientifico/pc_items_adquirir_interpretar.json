@@ -1,0 +1,1816 @@
+[
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-001",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Un microbiólogo cultiva una colonia bacteriana en un medio con nutrientes limitados y registra el número de bacterias (en miles) cada hora durante 10 horas. La gráfica resultante muestra una curva con una fase inicial casi plana (horas 0 a 2), seguida de un ascenso muy pronunciado (horas 2 a 6), y finalmente otra fase plana hacia el final (horas 6 a 10), donde el número de bacterias se estabiliza alrededor de 500 mil.",
+    "tipo_visual": "grafica_datos",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-001",
+        "afirmacion": "adquirir_interpretar",
+        "evidencia": "1.2",
+        "enunciado": "Según la gráfica, ¿en qué intervalo de tiempo fue mayor la tasa de crecimiento (bacterias por hora) de la colonia?",
+        "opciones": {
+          "A": "Entre las horas 2 y 6, porque en ese intervalo la curva tiene la pendiente más pronunciada, lo que indica el mayor cambio en el número de bacterias por cada hora transcurrida.",
+          "B": "Entre las horas 0 y 2, porque es el inicio del cultivo, cuando hay más nutrientes disponibles para las bacterias.",
+          "C": "Entre las horas 6 y 10, porque es cuando se registra el mayor número total de bacterias en el cultivo.",
+          "D": "Es la misma en todo el experimento, porque el número de bacterias aumenta de forma constante a lo largo de las 10 horas."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La tasa de crecimiento (cambio de población por unidad de tiempo) se lee en una gráfica como la pendiente de la curva; el intervalo entre las horas 2 y 6 es donde la curva sube más pronunciadamente, es decir, donde ocurre el mayor cambio de número de bacterias por cada hora, independientemente de que el número total más alto se alcance después.",
+        "distractores": {
+          "B": {
+            "explicacion": "Confunde el inicio del experimento con el momento de mayor tasa de cambio; en esta fase inicial ('lag'), la curva es casi plana, indicando que el número de bacterias casi no cambia con el tiempo, aunque haya nutrientes disponibles.",
+            "patron_trampa": "lectura_invertida_grafica"
+          },
+          "C": {
+            "explicacion": "Confunde el valor más alto acumulado (el número total de bacterias) con la tasa de cambio; en esa fase final la curva es plana, lo que indica que la población casi no cambia por hora, aunque sea el momento con más bacterias en total.",
+            "patron_trampa": "lectura_invertida_grafica"
+          },
+          "D": {
+            "explicacion": "Asume que la tasa de crecimiento es constante solo porque el número de bacterias nunca disminuye, confundiendo un aumento sostenido (monotonía) con una relación de proporcionalidad directa entre tiempo y número de bacterias.",
+            "patron_trampa": "proporcionalidad_directa_vs_inversa"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Tiempo (horas)",
+      "ejeY": "Número de bacterias (miles)",
+      "series": [
+        {
+          "nombre": "Colonia bacteriana",
+          "datos": [
+            {
+              "x": 0,
+              "y": 20
+            },
+            {
+              "x": 1,
+              "y": 25
+            },
+            {
+              "x": 2,
+              "y": 30
+            },
+            {
+              "x": 3,
+              "y": 90
+            },
+            {
+              "x": 4,
+              "y": 220
+            },
+            {
+              "x": 5,
+              "y": 380
+            },
+            {
+              "x": 6,
+              "y": 480
+            },
+            {
+              "x": 7,
+              "y": 495
+            },
+            {
+              "x": 8,
+              "y": 500
+            },
+            {
+              "x": 9,
+              "y": 500
+            },
+            {
+              "x": 10,
+              "y": 500
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Curva de crecimiento bacteriano con fase inicial plana (horas 0-2), ascenso pronunciado entre las horas 2 y 6, y estabilización cerca de 500 mil bacterias desde la hora 6 hasta la 10."
+    }
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-002",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Un estudiante mide el periodo de oscilación (tiempo de un vaivén completo) de un péndulo simple para distintas longitudes de cuerda, y grafica el periodo (eje Y) contra la longitud (eje X). La gráfica resultante no es una línea recta: sube rápido al principio y luego el ascenso se hace cada vez más lento a medida que la longitud aumenta.",
+    "tipo_visual": "grafica_datos",
+    "formula_latex": "T = 2\\pi\\sqrt{L/g}",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-002",
+        "afirmacion": "adquirir_interpretar",
+        "evidencia": "1.2",
+        "enunciado": "Un compañero afirma que la forma de esta gráfica significa que 'a mayor longitud, siempre mayor periodo, en una proporción directa exacta (si se duplica la longitud, se duplica el periodo)'. ¿Es correcta esta interpretación de la gráfica?",
+        "opciones": {
+          "A": "Sí, porque la gráfica muestra que el periodo siempre aumenta cuando la longitud aumenta, lo cual confirma una proporcionalidad directa entre ambas variables.",
+          "B": "No, porque aunque el periodo aumenta con la longitud, la forma curva (no una línea recta) indica que la relación no es de proporcionalidad directa simple; duplicar la longitud no duplica el periodo.",
+          "C": "No, porque el periodo en realidad disminuye a longitudes muy grandes, aunque la gráfica no alcance a mostrar ese descenso.",
+          "D": "Sí, porque cualquier gráfica que sea creciente de izquierda a derecha representa necesariamente una relación de proporcionalidad directa entre las dos variables."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "La forma curva de la gráfica (un ascenso que se vuelve cada vez menos pronunciado) es la señal visual de que la relación entre el periodo y la longitud no es de proporcionalidad directa (que se vería como una línea recta que pasa por el origen); en una relación de proporcionalidad directa, duplicar una variable siempre duplica la otra, pero aquí duplicar la longitud produce un aumento del periodo menor al doble, característico de una relación de raíz cuadrada.",
+        "distractores": {
+          "A": {
+            "explicacion": "Confunde 'la variable siempre aumenta' (monotonía) con 'aumenta en una proporción directa y constante'; una relación puede ser creciente sin ser directamente proporcional, como lo muestra precisamente la forma curva de esta gráfica.",
+            "patron_trampa": "proporcionalidad_directa_vs_inversa"
+          },
+          "C": {
+            "explicacion": "Introduce una afirmación sobre el comportamiento de la variable fuera del rango de datos mostrado en la gráfica, sin ninguna evidencia que la respalde.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Generaliza incorrectamente que toda gráfica ascendente representa una relación de proporcionalidad directa, sin considerar que esta requiere específicamente una línea recta que pase por el origen, no cualquier tendencia creciente.",
+            "patron_trampa": "proporcionalidad_directa_vs_inversa"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Longitud de la cuerda L (m)",
+      "ejeY": "Periodo de oscilación T (s)",
+      "series": [
+        {
+          "nombre": "Periodo de oscilación",
+          "datos": [
+            {
+              "x": 0.1,
+              "y": 0.63
+            },
+            {
+              "x": 0.2,
+              "y": 0.9
+            },
+            {
+              "x": 0.3,
+              "y": 1.1
+            },
+            {
+              "x": 0.5,
+              "y": 1.42
+            },
+            {
+              "x": 0.7,
+              "y": 1.68
+            },
+            {
+              "x": 1,
+              "y": 2.01
+            },
+            {
+              "x": 1.5,
+              "y": 2.46
+            },
+            {
+              "x": 2,
+              "y": 2.84
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Curva creciente y cóncava hacia abajo del periodo de oscilación en función de la longitud de la cuerda, consistente con T proporcional a la raíz cuadrada de L."
+    }
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-003",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Una tabla registra la población de una especie de ave en la Isla A durante los años 2000 (120 individuos), 2005 (340), 2010 (780) y 2020 (2.500), sin ningún registro para el año 2015 ni para ningún otro año intermedio.",
+    "tipo_visual": "tabla",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-003",
+        "afirmacion": "adquirir_interpretar",
+        "evidencia": "1.4",
+        "enunciado": "¿Qué se puede afirmar con certeza a partir de estos datos?",
+        "opciones": {
+          "A": "Que la población creció de forma perfectamente constante entre 2010 y 2020, incluyendo el año 2015.",
+          "B": "Que la población disminuyó en algún momento entre 2010 y 2020, aunque el dato final sea más alto.",
+          "C": "Que la población fue mayor en 2020 que en 2010, aunque no se sabe con precisión cómo cambió durante los años intermedios no registrados.",
+          "D": "Que la población alcanzó su punto máximo exactamente en el año 2015, aunque ese año no fue registrado en la tabla."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Los datos disponibles solo permiten comparar los valores en los años efectivamente medidos; se puede afirmar con certeza que la población en 2020 (2.500) fue mayor que en 2010 (780), pero no se puede saber qué ocurrió específicamente durante los años no muestreados entre esas dos fechas, ya que podría haber habido fluctuaciones que los datos disponibles no capturan.",
+        "distractores": {
+          "A": {
+            "explicacion": "Asume que el crecimiento fue perfectamente uniforme durante todo el intervalo no muestreado (2010-2020), sin ningún dato que respalde esa suposición específica sobre el comportamiento año a año.",
+            "patron_trampa": "brecha_de_datos_ignorada"
+          },
+          "B": {
+            "explicacion": "Afirma un descenso específico que no está respaldado por ningún dato disponible; los datos muestran un aumento entre los puntos medidos, sin evidencia de disminución en el periodo no muestreado.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Inventa un dato específico para un año que no fue registrado en la tabla, tratando la ausencia de datos como si fuera evidencia de un evento puntual, en lugar de reconocerla como información faltante.",
+            "patron_trampa": "brecha_de_datos_ignorada"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tabla_filas": {
+      "columnas": [
+        "Año",
+        "Población de aves (Isla A)"
+      ],
+      "filas": [
+        [
+          2000,
+          120
+        ],
+        [
+          2005,
+          340
+        ],
+        [
+          2010,
+          780
+        ],
+        [
+          2020,
+          2500
+        ]
+      ]
+    }
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-004",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Una gráfica muestra la distancia recorrida (eje Y) en función del tiempo (eje X) para dos corredores en una carrera: el Corredor 1 comienza en la posición 200 m (una ventaja inicial) y avanza con una pendiente moderada; el Corredor 2 comienza en la posición 0 m y avanza con una pendiente mucho más pronunciada, alcanzando y superando al Corredor 1 alrededor del minuto 4. En el minuto 2, la línea del Corredor 1 todavía está por encima de la del Corredor 2.",
+    "tipo_visual": "grafica_datos",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-004",
+        "afirmacion": "adquirir_interpretar",
+        "evidencia": "1.2",
+        "enunciado": "¿Qué corredor tiene mayor velocidad (no necesariamente mayor distancia recorrida) en el minuto 2?",
+        "opciones": {
+          "A": "El Corredor 1, porque en el minuto 2 su línea está por encima de la del Corredor 2, es decir, va más adelantado en la carrera.",
+          "B": "Ambos corredores tienen la misma velocidad en el minuto 2, porque todavía no se han cruzado las dos líneas.",
+          "C": "No se puede determinar la velocidad de ningún corredor a partir de esta gráfica, solo la distancia recorrida.",
+          "D": "El Corredor 2, porque su línea tiene una pendiente más pronunciada, lo que indica que recorre más distancia por unidad de tiempo, sin importar que todavía no haya superado al Corredor 1 en posición."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "La velocidad en una gráfica de distancia vs tiempo se lee como la pendiente de la línea, no como la posición vertical en ese instante; aunque el Corredor 1 esté 'adelante' (más alto) en el minuto 2 por su ventaja inicial, el Corredor 2 tiene una pendiente más pronunciada en ese tramo, lo que indica que se mueve más rápido en ese momento, y por eso eventualmente lo alcanza y supera.",
+        "distractores": {
+          "A": {
+            "explicacion": "Confunde estar 'adelante' en la carrera (mayor posición en la gráfica) con tener mayor velocidad (pendiente de la línea); un corredor puede ir adelantado en posición mientras el otro se mueve más rápido en ese instante.",
+            "patron_trampa": "lectura_invertida_grafica"
+          },
+          "B": {
+            "explicacion": "Asume que la velocidad de ambos corredores debe ser igual mientras las líneas no se hayan cruzado, sin comparar las pendientes reales de cada línea en el tramo específico que se pregunta.",
+            "patron_trampa": "lectura_invertida_grafica"
+          },
+          "C": {
+            "explicacion": "Ignora que una gráfica de distancia vs tiempo sí permite determinar la velocidad en cualquier instante, ya que esta corresponde precisamente a la pendiente de la curva en ese punto.",
+            "patron_trampa": "lectura_invertida_grafica"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Tiempo (minutos)",
+      "ejeY": "Distancia (metros)",
+      "series": [
+        {
+          "nombre": "Corredor 1",
+          "datos": [
+            {
+              "x": 0,
+              "y": 200
+            },
+            {
+              "x": 1,
+              "y": 250
+            },
+            {
+              "x": 2,
+              "y": 300
+            },
+            {
+              "x": 3,
+              "y": 350
+            },
+            {
+              "x": 4,
+              "y": 400
+            },
+            {
+              "x": 5,
+              "y": 450
+            },
+            {
+              "x": 6,
+              "y": 500
+            }
+          ]
+        },
+        {
+          "nombre": "Corredor 2",
+          "datos": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 100
+            },
+            {
+              "x": 2,
+              "y": 200
+            },
+            {
+              "x": 3,
+              "y": 300
+            },
+            {
+              "x": 4,
+              "y": 400
+            },
+            {
+              "x": 5,
+              "y": 500
+            },
+            {
+              "x": 6,
+              "y": 600
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Dos líneas de distancia vs tiempo: el Corredor 1 inicia con una ventaja de 200 m y avanza con pendiente moderada; el Corredor 2 inicia en 0 m con pendiente más pronunciada y alcanza al Corredor 1 alrededor del minuto 4."
+    }
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-005",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Veinte estudiantes de un curso miden, cada uno por separado, la longitud de la misma mesa usando el mismo tipo de cinta métrica, y todos obtienen valores muy cercanos entre sí (entre 152,0 y 152,3 cm). Sin embargo, un especialista mide la mesa con un instrumento certificado y obtiene 148,5 cm.",
+    "tipo_visual": "tabla",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-005",
+        "afirmacion": "adquirir_interpretar",
+        "evidencia": "1.3",
+        "enunciado": "¿Qué explica mejor esta discrepancia?",
+        "opciones": {
+          "A": "Es probable que las cintas métricas usadas por los estudiantes tengan un error sistemático de fabricación (por ejemplo, una escala mal calibrada), ya que la alta coincidencia entre las 20 mediciones no garantiza que el valor obtenido sea el correcto.",
+          "B": "Los 20 estudiantes probablemente cometieron el mismo error aleatorio de lectura, y por pura coincidencia estadística todos leyeron un valor similar, distinto al real.",
+          "C": "El valor de 148,5 cm del especialista es menos confiable, porque una sola medición nunca puede ser más precisa que el promedio de 20 mediciones independientes.",
+          "D": "La mesa probablemente cambió de tamaño entre el momento en que los estudiantes la midieron y el momento en que el especialista la midió."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Que las 20 mediciones de los estudiantes sean muy parecidas entre sí (alta precisión, poca dispersión) no garantiza que sean cercanas al valor real (exactitud); si todas usan el mismo tipo de instrumento con un error sistemático, es esperable que las mediciones sean consistentes entre sí pero consistentemente alejadas del valor certificado, tal como ocurre aquí.",
+        "distractores": {
+          "B": {
+            "explicacion": "Un error verdaderamente aleatorio no produciría, por pura coincidencia, que 20 mediciones independientes coincidan tan cercanamente entre sí; esa consistencia es más compatible con un error sistemático compartido que con 20 coincidencias aleatorias independientes.",
+            "patron_trampa": "incertidumbre_mal_atribuida"
+          },
+          "C": {
+            "explicacion": "Asume que promediar más mediciones siempre produce un resultado más confiable, sin considerar que si todas comparten el mismo error sistemático, promediarlas no corrige ese sesgo; el número de mediciones reduce el error aleatorio, no el sistemático.",
+            "patron_trampa": "confusion_exactitud_precision"
+          },
+          "D": {
+            "explicacion": "Propone una explicación sin respaldo ni plausibilidad física para un objeto sólido como una mesa en un periodo tan corto, ignorando la explicación mucho más simple de un instrumento mal calibrado.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tabla_filas": {
+      "columnas": [
+        "Medición",
+        "Longitud de la mesa (cm)"
+      ],
+      "filas": [
+        [
+          "Estudiante 1",
+          152
+        ],
+        [
+          "Estudiante 2",
+          152.1
+        ],
+        [
+          "Estudiante 3",
+          152.2
+        ],
+        [
+          "Estudiante 4",
+          152.3
+        ],
+        [
+          "Estudiante 5",
+          152.1
+        ],
+        [
+          "Estudiante 6",
+          152
+        ],
+        [
+          "Estudiante 7",
+          152.2
+        ],
+        [
+          "Estudiante 8",
+          152.1
+        ],
+        [
+          "Estudiante 9",
+          152.3
+        ],
+        [
+          "Estudiante 10",
+          152
+        ],
+        [
+          "Estudiante 11",
+          152
+        ],
+        [
+          "Estudiante 12",
+          152.1
+        ],
+        [
+          "Estudiante 13",
+          152.2
+        ],
+        [
+          "Estudiante 14",
+          152.3
+        ],
+        [
+          "Estudiante 15",
+          152.1
+        ],
+        [
+          "Estudiante 16",
+          152
+        ],
+        [
+          "Estudiante 17",
+          152.2
+        ],
+        [
+          "Estudiante 18",
+          152.1
+        ],
+        [
+          "Estudiante 19",
+          152.3
+        ],
+        [
+          "Estudiante 20",
+          152
+        ],
+        [
+          "Especialista (instrumento certificado)",
+          148.5
+        ]
+      ]
+    }
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-006",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Un estudio mide las horas de sueño la noche anterior y el tiempo de reacción (en milisegundos) de 30 participantes en una prueba, y encuentra que, en general, a más horas de sueño, menor es el tiempo de reacción. Sin embargo, un participante que durmió 9 horas tuvo un tiempo de reacción inusualmente alto (lento), muy por fuera de la tendencia general.",
+    "tipo_visual": "grafica_datos",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-006",
+        "afirmacion": "adquirir_interpretar",
+        "evidencia": "1.4",
+        "enunciado": "¿Este único dato atípico es evidencia suficiente para rechazar la tendencia general observada en los otros 29 participantes?",
+        "opciones": {
+          "A": "Sí, porque un solo dato que contradice la tendencia es suficiente para invalidar cualquier conclusión general sobre la relación entre sueño y tiempo de reacción.",
+          "B": "No necesariamente, porque un solo caso atípico (que podría deberse a otros factores no controlados, como el estado de salud de ese participante ese día) no es evidencia suficiente para descartar una tendencia clara observada en el resto de los datos.",
+          "C": "Sí, porque si el sueño realmente causara el tiempo de reacción de forma determinante, no deberían existir excepciones; este caso atípico demuestra que la relación observada es solo una coincidencia estadística sin ninguna causa real.",
+          "D": "No, porque los datos atípicos nunca deben tenerse en cuenta al interpretar una tendencia, sin importar cuántos participantes sigan el patrón general."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Un solo dato atípico, especialmente cuando existen posibles explicaciones alternativas no controladas, no constituye evidencia suficiente para rechazar una tendencia clara observada en un número mucho mayor de casos (29 de 30); interpretar correctamente los datos requiere evaluar el peso relativo de la evidencia, no descartar una tendencia general por un solo caso excepcional sin investigar primero si tiene una explicación distinta.",
+        "distractores": {
+          "A": {
+            "explicacion": "Sobrevalora el peso de un único dato atípico frente a una tendencia clara observada en la gran mayoría de los casos, sin considerar que ese dato podría explicarse por un factor no controlado específico de ese participante.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "C": {
+            "explicacion": "Asume que una relación causal real debe ser perfectamente determinista y sin ninguna excepción, y que la existencia de un caso atípico prueba automáticamente la ausencia de causalidad, ignorando que las relaciones biológicas suelen tener variabilidad individual incluso cuando el efecto causal es real.",
+            "patron_trampa": "correlacion_causalidad"
+          },
+          "D": {
+            "explicacion": "Va al extremo opuesto, sugiriendo que los datos atípicos nunca deben considerarse, cuando en realidad sí pueden ser relevantes para investigar más a fondo, aunque no sean suficientes por sí solos para invalidar una tendencia general.",
+            "patron_trampa": "sobregeneralizacion_de_un_metodo"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "dispersion",
+      "ejeX": "Horas de sueño",
+      "ejeY": "Tiempo de reacción (ms)",
+      "series": [
+        {
+          "nombre": "30 participantes",
+          "datos": [
+            {
+              "x": 4,
+              "y": 450
+            },
+            {
+              "x": 4.2,
+              "y": 457
+            },
+            {
+              "x": 4.4,
+              "y": 430
+            },
+            {
+              "x": 4.6,
+              "y": 412
+            },
+            {
+              "x": 4.8,
+              "y": 425
+            },
+            {
+              "x": 4.9,
+              "y": 426
+            },
+            {
+              "x": 5.1,
+              "y": 396
+            },
+            {
+              "x": 5.3,
+              "y": 389
+            },
+            {
+              "x": 5.5,
+              "y": 403
+            },
+            {
+              "x": 5.7,
+              "y": 388
+            },
+            {
+              "x": 5.9,
+              "y": 360
+            },
+            {
+              "x": 6.1,
+              "y": 364
+            },
+            {
+              "x": 6.3,
+              "y": 373
+            },
+            {
+              "x": 6.5,
+              "y": 348
+            },
+            {
+              "x": 6.7,
+              "y": 327
+            },
+            {
+              "x": 6.8,
+              "y": 343
+            },
+            {
+              "x": 7,
+              "y": 343
+            },
+            {
+              "x": 7.2,
+              "y": 313
+            },
+            {
+              "x": 7.4,
+              "y": 303
+            },
+            {
+              "x": 7.6,
+              "y": 318
+            },
+            {
+              "x": 7.8,
+              "y": 306
+            },
+            {
+              "x": 8,
+              "y": 276
+            },
+            {
+              "x": 8.2,
+              "y": 278
+            },
+            {
+              "x": 8.4,
+              "y": 289
+            },
+            {
+              "x": 8.6,
+              "y": 267
+            },
+            {
+              "x": 8.7,
+              "y": 247
+            },
+            {
+              "x": 8.9,
+              "y": 480
+            },
+            {
+              "x": 9.1,
+              "y": 260
+            },
+            {
+              "x": 9.3,
+              "y": 231
+            },
+            {
+              "x": 9.5,
+              "y": 218
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Diagrama de dispersión de 30 participantes mostrando una tendencia descendente clara entre horas de sueño y tiempo de reacción, con un punto atípico en 9 horas de sueño con un tiempo de reacción inusualmente alto."
+    }
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-007",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Una tabla muestra la precipitación anual total de una ciudad en los años 1990 (800 mm), 2000 (950 mm) y 2010 (1.100 mm), con datos únicamente de esos tres años. Un artículo de prensa afirma que 'estos datos prueban que la precipitación en esta ciudad ha aumentado de manera constante y progresiva cada año durante las últimas dos décadas'.",
+    "tipo_visual": "tabla",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-007",
+        "afirmacion": "adquirir_interpretar",
+        "evidencia": "1.4",
+        "enunciado": "¿Es esta una conclusión adecuada a partir de los datos disponibles?",
+        "opciones": {
+          "A": "Sí, porque los tres valores muestran un aumento claro entre 1990 y 2010, lo cual demuestra un aumento constante año a año.",
+          "B": "Sí, porque estos datos demuestran directamente que el cambio climático global es la causa específica del aumento de precipitación observado en esta ciudad en particular.",
+          "C": "No, porque con solo tres puntos de datos espaciados una década entre sí, no se puede saber si el aumento fue realmente constante año a año, o si hubo fluctuaciones durante los años no registrados entre esas mediciones.",
+          "D": "Sí, porque cualquier tendencia observada entre solo dos o tres puntos de datos es suficiente para generalizar el comportamiento de todos los años intermedios."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Con solo tres mediciones espaciadas una década entre sí, los datos disponibles solo permiten afirmar que la precipitación fue mayor en 2010 que en 1990, pero no dicen nada sobre el comportamiento año a año durante ese periodo; afirmar un aumento 'constante y progresivo cada año' va más allá de lo que estos datos permiten concluir.",
+        "distractores": {
+          "A": {
+            "explicacion": "Confunde el hecho de que el valor final es mayor que el inicial con la afirmación mucho más fuerte de que el aumento fue constante y progresivo en cada año intermedio, algo que los datos disponibles no pueden respaldar.",
+            "patron_trampa": "brecha_de_datos_ignorada"
+          },
+          "B": {
+            "explicacion": "Atribuye una causa específica (el cambio climático global) a un patrón local observado en solo tres puntos de datos, sin ninguna evidencia que descarte otras explicaciones ni que confirme el mecanismo causal propuesto.",
+            "patron_trampa": "correlacion_causalidad"
+          },
+          "D": {
+            "explicacion": "Generaliza que cualquier tendencia observada entre pocos puntos de datos es automáticamente válida para todo el periodo intermedio, ignorando que los años no muestreados podrían mostrar un comportamiento muy distinto.",
+            "patron_trampa": "brecha_de_datos_ignorada"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tabla_filas": {
+      "columnas": [
+        "Año",
+        "Precipitación anual (mm)"
+      ],
+      "filas": [
+        [
+          1990,
+          800
+        ],
+        [
+          2000,
+          950
+        ],
+        [
+          2010,
+          1100
+        ]
+      ]
+    }
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-008",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Un estudiante mide la fuerza necesaria para estirar un resorte a distintas longitudes de estiramiento, entre 0 y 8 cm, y encuentra que los datos se ajustan muy bien a una línea recta (ley de Hooke, F = kx), con k = 50 N/m. Usando esta misma ecuación, el estudiante calcula que a 50 cm de estiramiento la fuerza necesaria sería de 25 N, y presenta este valor como una predicción confiable.",
+    "tipo_visual": "grafica_datos",
+    "formula_latex": "F = kx",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-008",
+        "afirmacion": "adquirir_interpretar",
+        "evidencia": "1.3",
+        "enunciado": "¿Es razonable confiar en esta predicción?",
+        "opciones": {
+          "A": "Sí, porque la ley de Hooke es una ley física universal que se cumple exactamente para cualquier resorte, sin importar cuánto se estire.",
+          "B": "Sí, porque si el ajuste lineal fue muy bueno entre 0 y 8 cm, matemáticamente debe seguir siendo válido para cualquier valor de estiramiento, sin límite.",
+          "C": "No, porque la constante k = 50 N/m fue calculada incorrectamente a partir de datos que solo llegan hasta 8 cm.",
+          "D": "No necesariamente, porque los datos experimentales solo confirman el comportamiento lineal del resorte dentro del rango medido; a 50 cm el resorte probablemente superó su límite elástico, un régimen donde la ley de Hooke ya no aplica."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "La ley de Hooke describe el comportamiento elástico de un resorte solo dentro de su rango elástico; los datos disponibles solo confirman ese comportamiento lineal hasta 8 cm, y extrapolar la misma relación a 50 cm (más de 6 veces el rango medido) ignora que el resorte probablemente ya se deformó permanentemente mucho antes de llegar a esa longitud, saliendo del dominio de validez del modelo.",
+        "distractores": {
+          "A": {
+            "explicacion": "Trata la ley de Hooke como si fuera una ley física sin ningún límite de aplicación, cuando en realidad es un modelo válido únicamente dentro del rango elástico de cada resorte específico.",
+            "patron_trampa": "modelo_fuera_de_dominio"
+          },
+          "B": {
+            "explicacion": "Asume que un buen ajuste matemático dentro de un rango de datos garantiza que la misma relación se mantenga válida indefinidamente fuera de ese rango, sin considerar los límites de validez físicos del sistema.",
+            "patron_trampa": "modelo_fuera_de_dominio"
+          },
+          "C": {
+            "explicacion": "Cuestiona el cálculo de la constante k dentro del rango de datos válido, cuando el verdadero problema no es ese cálculo, sino la extrapolación indebida del modelo a un rango donde no fue probado.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Estiramiento x (cm)",
+      "ejeY": "Fuerza F (N)",
+      "series": [
+        {
+          "nombre": "Datos medidos (0-8 cm)",
+          "datos": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 0.5
+            },
+            {
+              "x": 2,
+              "y": 1
+            },
+            {
+              "x": 3,
+              "y": 1.5
+            },
+            {
+              "x": 4,
+              "y": 2
+            },
+            {
+              "x": 5,
+              "y": 2.5
+            },
+            {
+              "x": 6,
+              "y": 3
+            },
+            {
+              "x": 7,
+              "y": 3.5
+            },
+            {
+              "x": 8,
+              "y": 4
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Línea recta de fuerza vs estiramiento entre 0 y 8 cm, con pendiente k = 50 N/m (0,5 N/cm), consistente con la ley de Hooke dentro del rango medido; no incluye datos más allá de 8 cm."
+    }
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-009",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Un bloque se desliza sobre un piso con fricción, empujado por una fuerza horizontal constante. Un sensor de fuerza confirma que, en un tramo del movimiento, la fuerza aplicada es exactamente igual en magnitud a la fuerza de fricción que se opone al movimiento (las fuerzas están balanceadas, es decir, la fuerza neta es cero).",
+    "tipo_visual": "diagrama_esquematico",
+    "visual_descripcion": "Diagrama de un bloque sobre un piso con dos flechas de igual longitud en direcciones opuestas representando la fuerza aplicada y la fuerza de fricción, con una nota indicando que el bloque se mueve a velocidad constante hacia la derecha.",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-009",
+        "afirmacion": "adquirir_interpretar",
+        "evidencia": "1.1",
+        "enunciado": "Un estudiante concluye que, en ese tramo, el bloque debe estar en reposo (sin moverse). ¿Es correcta esta conclusión?",
+        "opciones": {
+          "A": "No, porque que las fuerzas estén balanceadas (fuerza neta cero) implica que la aceleración es cero, es decir, que la velocidad no cambia; el bloque puede seguir moviéndose a velocidad constante, no necesariamente estar en reposo.",
+          "B": "Sí, porque si dos fuerzas se cancelan exactamente, el objeto sobre el que actúan no puede tener ningún tipo de movimiento en ese instante.",
+          "C": "No, porque en realidad las fuerzas nunca pueden estar perfectamente balanceadas en una situación real con fricción.",
+          "D": "Sí, porque la fuerza neta cero es matemáticamente equivalente a velocidad cero según las leyes del movimiento de Newton."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Según la primera ley de Newton, una fuerza neta igual a cero implica que la aceleración es cero (la velocidad no cambia), pero esto es compatible tanto con un objeto en reposo como con uno que se mueve a velocidad constante distinta de cero; el error es asumir que 'fuerzas balanceadas' significa automáticamente 'sin movimiento', cuando en realidad significa 'sin cambio en el movimiento'.",
+        "distractores": {
+          "B": {
+            "explicacion": "Confunde 'fuerza neta cero' (que implica aceleración cero) con 'ausencia total de movimiento'; un objeto puede tener fuerzas balanceadas y seguir moviéndose a una velocidad constante distinta de cero.",
+            "patron_trampa": "equilibrio_confundido_con_reposo"
+          },
+          "C": {
+            "explicacion": "Hace una afirmación sin fundamento sobre la imposibilidad física de que las fuerzas se balanceen exactamente, cuando el escenario establece explícitamente que esa igualdad sí se cumple en ese tramo del movimiento.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Confunde el concepto de aceleración (cambio de velocidad) con el de velocidad misma, tratando 'fuerza neta cero' como equivalente a 'velocidad cero' en lugar de 'aceleración cero'.",
+            "patron_trampa": "equilibrio_confundido_con_reposo"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "imagen": "PC-GRUPO-009.svg"
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-010",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Cinco estaciones meteorológicas distribuidas en distintos puntos de una misma ciudad registran, al mismo tiempo, la temperatura ambiente: 22,1 °C, 22,4 °C, 21,9 °C, 22,6 °C y 22,2 °C. Cada estación usa un termómetro certificado y bien calibrado.",
+    "tipo_visual": "tabla",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-010",
+        "afirmacion": "adquirir_interpretar",
+        "evidencia": "1.3",
+        "enunciado": "Un estudiante concluye que estas diferencias se deben a que 'los termómetros de las estaciones son imprecisos y no miden bien la temperatura'. ¿Es esta la explicación más adecuada para las diferencias observadas?",
+        "opciones": {
+          "A": "Sí, porque cualquier diferencia entre mediciones de temperatura hechas en el mismo momento solo puede explicarse por errores del instrumento.",
+          "B": "No necesariamente, porque las diferencias pueden reflejar variabilidad real del ambiente (microclimas dentro de la ciudad), no necesariamente imprecisión de los termómetros certificados.",
+          "C": "Sí, porque si los termómetros estuvieran bien calibrados, todas las estaciones deberían registrar exactamente el mismo valor de temperatura en todo momento.",
+          "D": "No, porque la temperatura ambiente de una ciudad siempre es exactamente uniforme en todos sus puntos en un instante dado."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Las pequeñas diferencias entre estaciones bien calibradas probablemente reflejan una variabilidad real del ambiente (diferentes microclimas dentro de la misma ciudad), y no necesariamente un problema de imprecisión de los instrumentos; atribuir automáticamente cualquier diferencia entre mediciones a un fallo del instrumento, sin considerar la variabilidad real del fenómeno medido, es una interpretación apresurada.",
+        "distractores": {
+          "A": {
+            "explicacion": "Atribuye automáticamente cualquier diferencia entre mediciones a un fallo del instrumento, sin considerar que el fenómeno medido puede variar legítimamente de un punto a otro por razones geográficas o urbanas reales.",
+            "patron_trampa": "incertidumbre_mal_atribuida"
+          },
+          "C": {
+            "explicacion": "Asume que un buen calibrado debe producir exactamente el mismo valor en todas las estaciones, sin considerar que estaciones bien calibradas miden fielmente la temperatura de su ubicación específica, que puede diferir legítimamente de otras.",
+            "patron_trampa": "incertidumbre_mal_atribuida"
+          },
+          "D": {
+            "explicacion": "Hace una afirmación extrema sobre la uniformidad perfecta de la temperatura en toda una ciudad, ignorando fenómenos bien documentados como las islas de calor urbanas y los microclimas locales.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tabla_filas": {
+      "columnas": [
+        "Estación meteorológica",
+        "Temperatura (°C)"
+      ],
+      "filas": [
+        [
+          "Estación 1",
+          22.1
+        ],
+        [
+          "Estación 2",
+          22.4
+        ],
+        [
+          "Estación 3",
+          21.9
+        ],
+        [
+          "Estación 4",
+          22.6
+        ],
+        [
+          "Estación 5",
+          22.2
+        ]
+      ]
+    }
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-011",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "La gráfica muestra la curva de valoración de una muestra de ácido fórmico (un ácido débil) con NaOH, con el volumen de NaOH añadido en el eje X y el pH en el eje Y. Se marcan cuatro puntos sobre la curva: P (cerca del inicio, pH bajo, en una zona de ascenso muy suave), Q (en una zona intermedia donde el pH cambia muy poco al añadir más NaOH), R (en una zona donde el pH sube muy abruptamente en un pequeño intervalo de volumen), y S (después de esa subida, en una zona donde el pH vuelve a cambiar poco).",
+    "tipo_visual": "grafica_datos",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-011",
+        "afirmacion": "adquirir_interpretar",
+        "evidencia": "1.2",
+        "enunciado": "¿Cuál de estos puntos corresponde al punto de equivalencia de la valoración?",
+        "opciones": {
+          "A": "El punto P, porque es donde comienza la valoración y el ácido está en su forma más concentrada.",
+          "B": "El punto Q, porque es la zona donde el pH cambia menos, lo que indica que la reacción ha llegado a su estado más estable.",
+          "C": "El punto R, porque el punto de equivalencia se identifica por el cambio brusco y pronunciado de pH en un intervalo pequeño de volumen añadido.",
+          "D": "El punto S, porque es donde se alcanza el valor de pH más alto registrado en toda la curva."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El punto de equivalencia en una curva de valoración se identifica visualmente por el tramo donde el pH cambia de forma más abrupta y pronunciada con un pequeño incremento de volumen añadido; el punto R corresponde a esa característica, mientras que P, Q y S corresponden a zonas de cambio de pH mucho más gradual.",
+        "distractores": {
+          "A": {
+            "explicacion": "Confunde el inicio de la valoración con el punto de equivalencia, que ocurre específicamente cuando la cantidad de base añadida iguala estequiométricamente la cantidad de ácido presente.",
+            "patron_trampa": "lectura_invertida_grafica"
+          },
+          "B": {
+            "explicacion": "Confunde una zona de cambio lento de pH (característica de la región reguladora o 'buffer') con el punto de equivalencia, que se caracteriza precisamente por un cambio muy rápido y pronunciado del pH.",
+            "patron_trampa": "lectura_invertida_grafica"
+          },
+          "D": {
+            "explicacion": "Confunde el punto de equivalencia con el punto donde se alcanza el pH más alto de toda la curva; el punto de equivalencia depende de la relación estequiométrica entre ácido y base, no del valor máximo absoluto de pH.",
+            "patron_trampa": "lectura_invertida_grafica"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Volumen de NaOH añadido (mL)",
+      "ejeY": "pH",
+      "series": [
+        {
+          "nombre": "Curva de valoración",
+          "datos": [
+            {
+              "x": 0,
+              "y": 1.9
+            },
+            {
+              "x": 3,
+              "y": 2.4
+            },
+            {
+              "x": 6,
+              "y": 2.8
+            },
+            {
+              "x": 8,
+              "y": 3
+            },
+            {
+              "x": 12,
+              "y": 3.6
+            },
+            {
+              "x": 16,
+              "y": 4
+            },
+            {
+              "x": 18,
+              "y": 4.2
+            },
+            {
+              "x": 20,
+              "y": 4.5
+            },
+            {
+              "x": 22,
+              "y": 4.9
+            },
+            {
+              "x": 23.5,
+              "y": 5.4
+            },
+            {
+              "x": 24.5,
+              "y": 6.8
+            },
+            {
+              "x": 25,
+              "y": 8.8
+            },
+            {
+              "x": 25.5,
+              "y": 10.6
+            },
+            {
+              "x": 27,
+              "y": 11.2
+            },
+            {
+              "x": 30,
+              "y": 11.6
+            },
+            {
+              "x": 35,
+              "y": 11.8
+            },
+            {
+              "x": 40,
+              "y": 11.9
+            },
+            {
+              "x": 45,
+              "y": 12
+            },
+            {
+              "x": 50,
+              "y": 12.05
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Curva de valoración de pH vs volumen de NaOH para un ácido débil: ascenso suave inicial (punto P cerca de 6 mL), zona reguladora de cambio lento (punto Q cerca de 16-18 mL), salto abrupto de pH cerca del punto de equivalencia (punto R cerca de 25 mL) y meseta final a pH alto (punto S cerca de 30-35 mL)."
+    }
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-012",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Una gráfica de solubilidad muestra los gramos de KCl que se disuelven en 100 mL de agua a distintas temperaturas medidas experimentalmente: 0 °C, 20 °C, 40 °C, 60 °C y 80 °C, mostrando una tendencia creciente y aproximadamente lineal en ese rango. Un estudiante extiende la misma línea de tendencia para predecir la solubilidad del KCl a 150 °C, usando la ecuación de la recta ajustada a los datos entre 0 y 80 °C.",
+    "tipo_visual": "grafica_datos",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-012",
+        "afirmacion": "adquirir_interpretar",
+        "evidencia": "1.3",
+        "enunciado": "¿Es razonable confiar en esa predicción?",
+        "opciones": {
+          "A": "Sí, porque una tendencia lineal observada en un rango de datos siempre se puede extender matemáticamente a cualquier temperatura, sin ninguna limitación física.",
+          "B": "Sí, porque la solubilidad de cualquier sal en agua es un fenómeno que se comporta de forma idéntica sin importar la temperatura o el estado físico del agua.",
+          "C": "No, porque los datos experimentales entre 0 y 80 °C contienen errores de medición que invalidan cualquier extrapolación posterior.",
+          "D": "No necesariamente, porque a 150 °C, bajo presión atmosférica normal, el agua ya no existe como líquido (hierve a 100 °C), por lo que el experimento de solubilidad en agua líquida no se puede realizar en esas condiciones."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Los datos de solubilidad fueron medidos únicamente entre 0 y 80 °C, un rango donde el agua permanece líquida a presión atmosférica normal; a 150 °C, bajo esas mismas condiciones de presión, el agua ya se encuentra en estado gaseoso, por lo que el concepto mismo de 'solubilidad en agua líquida' pierde sentido en esas condiciones, y la extrapolación de la tendencia lineal más allá del rango medido no es válida.",
+        "distractores": {
+          "A": {
+            "explicacion": "Trata una tendencia matemática ajustada a un rango limitado de datos como si fuera válida indefinidamente, sin considerar que fenómenos físicos como la solubilidad suelen tener límites de validez determinados por cambios de estado.",
+            "patron_trampa": "modelo_fuera_de_dominio"
+          },
+          "B": {
+            "explicacion": "Asume que la solubilidad se comporta de forma idéntica sin importar el estado físico del disolvente, ignorando que el concepto de solubilidad en agua líquida deja de aplicar cuando el agua cambia de estado a temperaturas más altas.",
+            "patron_trampa": "modelo_fuera_de_dominio"
+          },
+          "C": {
+            "explicacion": "Cuestiona la validez de los datos originales dentro del rango en que sí fueron medidos correctamente, cuando el verdadero problema es la extrapolación indebida del modelo a condiciones fuera del rango físicamente válido.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Temperatura (°C)",
+      "ejeY": "Solubilidad de KCl (g / 100 mL de agua)",
+      "series": [
+        {
+          "nombre": "Solubilidad medida",
+          "datos": [
+            {
+              "x": 0,
+              "y": 28
+            },
+            {
+              "x": 20,
+              "y": 34
+            },
+            {
+              "x": 40,
+              "y": 40
+            },
+            {
+              "x": 60,
+              "y": 46
+            },
+            {
+              "x": 80,
+              "y": 51
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Solubilidad del KCl en agua aumentando de forma aproximadamente lineal entre 0 °C (28 g/100 mL) y 80 °C (51 g/100 mL), sin datos medidos por encima de 80 °C."
+    }
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-013",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "El espectro de absorción UV-Vis de una solución de un complejo de cobalto muestra un pico de absorción máxima alrededor de 510 nm (en la región verde-amarilla del espectro visible), con muy baja absorción en el resto del espectro visible.",
+    "tipo_visual": "grafica_datos",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-013",
+        "afirmacion": "adquirir_interpretar",
+        "evidencia": "1.2",
+        "enunciado": "¿De qué color se observaría esta solución?",
+        "opciones": {
+          "A": "De un color entre rojo y rosado, porque la solución absorbe fuertemente la luz verde-amarilla y transmite principalmente las longitudes de onda complementarias, en la región roja del espectro visible.",
+          "B": "De color verde-amarillo, porque ese es directamente el color de la luz que absorbe con mayor intensidad.",
+          "C": "Incolora (transparente), porque cualquier absorción por debajo del 100 % en el espectro visible no es suficiente para producir un color visible perceptible.",
+          "D": "De color azul, porque las soluciones que contienen complejos de metales de transición como el cobalto siempre presentan una coloración azul característica, sin importar la longitud de onda de absorción máxima."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El color que percibimos de una solución corresponde al color complementario de la luz que absorbe con mayor intensidad, no al color de esa luz absorbida directamente; una absorción máxima alrededor de 510 nm deja pasar predominantemente las longitudes de onda del extremo rojo del espectro visible, por lo que la solución se observaría de un color entre rojo y rosado.",
+        "distractores": {
+          "B": {
+            "explicacion": "Confunde el color de la luz absorbida con el color observado de la solución; el color percibido corresponde al color complementario de la luz absorbida, no al de la banda de absorción máxima.",
+            "patron_trampa": "lectura_invertida_grafica"
+          },
+          "C": {
+            "explicacion": "Asume, sin ninguna base física, que una absorción parcial no puede producir un color visible perceptible, cuando la mayoría de las soluciones coloreadas cotidianas presentan absorciones parciales y aun así muestran colores claramente visibles.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Generaliza que todos los complejos de un metal de transición específico deben tener el mismo color, sin considerar que el color depende del ligando específico y la longitud de onda exacta de absorción máxima de cada compuesto particular.",
+            "patron_trampa": "sobregeneralizacion_de_un_metodo"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Longitud de onda (nm)",
+      "ejeY": "Absorbancia",
+      "series": [
+        {
+          "nombre": "Espectro de absorción",
+          "datos": [
+            {
+              "x": 400,
+              "y": 0.05
+            },
+            {
+              "x": 430,
+              "y": 0.08
+            },
+            {
+              "x": 460,
+              "y": 0.15
+            },
+            {
+              "x": 480,
+              "y": 0.3
+            },
+            {
+              "x": 500,
+              "y": 0.6
+            },
+            {
+              "x": 510,
+              "y": 0.85
+            },
+            {
+              "x": 520,
+              "y": 0.65
+            },
+            {
+              "x": 540,
+              "y": 0.35
+            },
+            {
+              "x": 560,
+              "y": 0.18
+            },
+            {
+              "x": 580,
+              "y": 0.1
+            },
+            {
+              "x": 600,
+              "y": 0.06
+            },
+            {
+              "x": 650,
+              "y": 0.04
+            },
+            {
+              "x": 700,
+              "y": 0.03
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Espectro de absorción UV-Vis con un pico marcado alrededor de 510 nm (región verde-amarilla) y baja absorción en el resto del espectro visible."
+    }
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-014",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "En un experimento cinético, se mide la velocidad inicial de una reacción química para tres concentraciones distintas de un reactivo A, manteniendo constantes la temperatura y la concentración de los demás reactivos: Ensayo 1 ([A] = 0,10 M, velocidad = 0,020 M/s), Ensayo 2 ([A] = 0,20 M, velocidad = 0,080 M/s), Ensayo 3 ([A] = 0,30 M, velocidad = 0,180 M/s).",
+    "tipo_visual": "tabla",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-014",
+        "afirmacion": "adquirir_interpretar",
+        "evidencia": "1.1",
+        "enunciado": "En este experimento, ¿cuál es la variable independiente y cuál es la variable dependiente?",
+        "opciones": {
+          "A": "La variable independiente es la velocidad inicial de la reacción, y la variable dependiente es la concentración de A, porque la velocidad determina cuánta cantidad de A se debe usar.",
+          "B": "La variable independiente es la concentración de A, porque es la que el investigador decidió cambiar deliberadamente entre los tres ensayos; la variable dependiente es la velocidad inicial, porque es la que se midió como resultado de ese cambio.",
+          "C": "Tanto la concentración de A como la velocidad inicial son variables independientes, porque ambas cambian de un ensayo a otro.",
+          "D": "No se puede determinar cuál variable es independiente y cuál es dependiente sin conocer la ecuación de velocidad completa de la reacción."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "La variable independiente es la que el investigador manipula deliberadamente (aquí, la concentración de A, fijada en tres valores distintos), mientras que la variable dependiente es la que se mide como resultado de esa manipulación (aquí, la velocidad inicial, que cambió en respuesta a los distintos valores de concentración establecidos).",
+        "distractores": {
+          "A": {
+            "explicacion": "Invierte los roles de las variables: trata el resultado medido (la velocidad) como si fuera la variable manipulada, y la variable que el investigador realmente controló (la concentración) como si fuera el resultado.",
+            "patron_trampa": "variable_confundida"
+          },
+          "C": {
+            "explicacion": "Confunde 'cambiar de un ensayo a otro' con 'ser una variable independiente'; la velocidad cambia precisamente porque es la variable dependiente, que responde a los cambios deliberados en la concentración.",
+            "patron_trampa": "variable_confundida"
+          },
+          "D": {
+            "explicacion": "Introduce un requisito irrelevante para una pregunta que solo requiere identificar qué variable fue manipulada deliberadamente y cuál fue medida como resultado, sin depender de conocer la forma matemática exacta de la ley de velocidad.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "baja"
+      }
+    ],
+    "tabla_filas": {
+      "columnas": [
+        "Ensayo",
+        "Concentración de A (M)",
+        "Velocidad inicial (M/s)"
+      ],
+      "filas": [
+        [
+          1,
+          0.1,
+          0.02
+        ],
+        [
+          2,
+          0.2,
+          0.08
+        ],
+        [
+          3,
+          0.3,
+          0.18
+        ]
+      ]
+    }
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-015",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "En la esterificación entre un ácido carboxílico y un alcohol, se mide la concentración del éster formado cada 5 minutos. La gráfica muestra que la concentración de éster aumenta rápidamente entre los minutos 0 y 30, y luego la curva se vuelve prácticamente horizontal desde el minuto 40 en adelante, manteniéndose constante en un valor de 0,45 M.",
+    "tipo_visual": "grafica_datos",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-015",
+        "afirmacion": "adquirir_interpretar",
+        "evidencia": "1.2",
+        "enunciado": "Según esta gráfica, ¿aproximadamente en qué momento se puede considerar que el sistema alcanzó el equilibrio químico?",
+        "opciones": {
+          "A": "Alrededor del minuto 0, porque es cuando comienza la reacción y las concentraciones iniciales de los reactivos son más altas.",
+          "B": "Alrededor del minuto 15, porque es el punto medio aproximado del intervalo de mayor cambio de concentración observado en la gráfica.",
+          "C": "Alrededor del minuto 40, porque es donde la curva de concentración del éster deja de cambiar y se vuelve horizontal, indicando que las concentraciones ya no varían de forma neta.",
+          "D": "No se puede determinar el momento exacto del equilibrio, porque cualquier medición hecha cada 5 minutos tiene un error instrumental demasiado grande como para identificar cuándo se estabiliza realmente la concentración."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El equilibrio químico se reconoce en una gráfica de concentración vs. tiempo por el punto donde la curva deja de tener pendiente (se vuelve horizontal), ya que a partir de ese momento las concentraciones no cambian de forma neta; según la descripción, eso ocurre alrededor del minuto 40, cuando la concentración de éster se estabiliza en 0,45 M.",
+        "distractores": {
+          "A": {
+            "explicacion": "Confunde el inicio de la reacción con el momento del equilibrio, que se caracteriza precisamente por lo contrario: el punto donde las concentraciones DEJAN de cambiar, no donde comienzan a hacerlo.",
+            "patron_trampa": "lectura_invertida_grafica"
+          },
+          "B": {
+            "explicacion": "Confunde el tramo de mayor cambio de concentración con el momento en que efectivamente se alcanza el equilibrio, que ocurre después de ese tramo, cuando la curva finalmente se estabiliza.",
+            "patron_trampa": "lectura_invertida_grafica"
+          },
+          "D": {
+            "explicacion": "Sobrestima el impacto del intervalo de muestreo (cada 5 minutos) como si fuera un error instrumental que impide leer una tendencia clara, cuando el patrón de estabilización ya es evidente en los datos disponibles sin necesidad de mediciones más frecuentes.",
+            "patron_trampa": "incertidumbre_mal_atribuida"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Tiempo (minutos)",
+      "ejeY": "Concentración de éster (M)",
+      "series": [
+        {
+          "nombre": "Concentración de éster",
+          "datos": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 5,
+              "y": 0.05
+            },
+            {
+              "x": 10,
+              "y": 0.12
+            },
+            {
+              "x": 15,
+              "y": 0.2
+            },
+            {
+              "x": 20,
+              "y": 0.28
+            },
+            {
+              "x": 25,
+              "y": 0.36
+            },
+            {
+              "x": 30,
+              "y": 0.42
+            },
+            {
+              "x": 35,
+              "y": 0.44
+            },
+            {
+              "x": 40,
+              "y": 0.45
+            },
+            {
+              "x": 45,
+              "y": 0.45
+            },
+            {
+              "x": 50,
+              "y": 0.45
+            },
+            {
+              "x": 55,
+              "y": 0.45
+            },
+            {
+              "x": 60,
+              "y": 0.45
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Concentración de éster que aumenta rápidamente entre los minutos 0 y 30, y luego se estabiliza en una meseta constante de 0,45 M desde el minuto 40 en adelante."
+    }
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-016",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Una gráfica muestra el radio atómico (en picómetros) de los elementos del periodo 3 de la tabla periódica (desde el sodio, Na, hasta el argón, Ar) en función de su número atómico. La gráfica muestra una tendencia claramente descendente: a mayor número atómico dentro de este periodo, menor es el radio atómico.",
+    "tipo_visual": "grafica_datos",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-016",
+        "afirmacion": "adquirir_interpretar",
+        "evidencia": "1.2",
+        "enunciado": "Un estudiante afirma que esta gráfica 'debe estar mal', porque 'a mayor número atómico, hay más protones y electrones, por lo que el átomo debería ser más grande, no más pequeño'. ¿Es correcto el razonamiento del estudiante?",
+        "opciones": {
+          "A": "Sí, porque más electrones siempre ocupan más espacio alrededor del núcleo, sin importar otros factores del átomo.",
+          "B": "Sí, porque la gráfica probablemente confundió el eje X con el eje Y, y en realidad el radio atómico debería aumentar con el número atómico.",
+          "C": "No, porque el radio atómico de los elementos no tiene ninguna relación con el número atómico dentro de un mismo periodo.",
+          "D": "No, porque dentro de un mismo periodo, aunque aumenten los protones y electrones, la carga nuclear efectiva también aumenta y atrae los electrones de valencia con más fuerza hacia el núcleo, haciendo que el átomo se contraiga en lugar de expandirse."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Dentro de un mismo periodo, aunque el número de protones y electrones aumenta de izquierda a derecha, todos los electrones de valencia se ubican aproximadamente en el mismo nivel de energía principal; el aumento simultáneo de la carga nuclear incrementa la atracción efectiva del núcleo sobre esos electrones, superando el efecto de tener más electrones, lo que provoca una contracción neta del radio atómico a lo largo del periodo, tal como muestra correctamente la gráfica.",
+        "distractores": {
+          "A": {
+            "explicacion": "Asume que más electrones necesariamente implican un átomo más grande, ignorando que dentro de un mismo periodo el aumento simultáneo de la carga nuclear atrae esos electrones con más fuerza, un efecto que domina sobre el simple conteo de electrones adicionales.",
+            "patron_trampa": "proporcionalidad_directa_vs_inversa"
+          },
+          "B": {
+            "explicacion": "Asume, sin ninguna evidencia, que la gráfica debe contener un error de construcción simplemente porque contradice una intuición inicial incorrecta, en lugar de considerar que la tendencia descendente es el comportamiento químico real y bien documentado.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "C": {
+            "explicacion": "Niega por completo la existencia de una relación entre el número atómico y el radio atómico dentro de un periodo, contradiciendo directamente la tendencia clara y sistemática que se observa en la gráfica.",
+            "patron_trampa": "lectura_invertida_grafica"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Número atómico (Z)",
+      "ejeY": "Radio atómico (pm)",
+      "series": [
+        {
+          "nombre": "Radio atómico (Periodo 3: Na a Ar)",
+          "datos": [
+            {
+              "x": 11,
+              "y": 186
+            },
+            {
+              "x": 12,
+              "y": 160
+            },
+            {
+              "x": 13,
+              "y": 143
+            },
+            {
+              "x": 14,
+              "y": 117
+            },
+            {
+              "x": 15,
+              "y": 110
+            },
+            {
+              "x": 16,
+              "y": 104
+            },
+            {
+              "x": 17,
+              "y": 99
+            },
+            {
+              "x": 18,
+              "y": 71
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Radio atómico en picómetros de los elementos del periodo 3 (Na a Ar) en función del número atómico, mostrando una tendencia descendente clara de izquierda a derecha."
+    }
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-017",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Se comparan los espectros infrarrojos (IR) de dos compuestos desconocidos. El compuesto 1 muestra una banda de absorción intensa y estrecha alrededor de 1715 cm⁻¹, mientras que el compuesto 2 muestra una banda ancha e intensa alrededor de 3300 cm⁻¹. El grupo carbonilo (C=O) absorbe típicamente entre 1650 y 1750 cm⁻¹, y el grupo hidroxilo (O-H) absorbe típicamente como una banda ancha entre 3200 y 3550 cm⁻¹.",
+    "tipo_visual": "grafica_datos",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-017",
+        "afirmacion": "adquirir_interpretar",
+        "evidencia": "1.2",
+        "enunciado": "¿Qué se puede inferir sobre la presencia de estos grupos funcionales en cada compuesto?",
+        "opciones": {
+          "A": "El compuesto 1 probablemente contiene un grupo carbonilo (C=O), porque su banda de absorción cae dentro del rango típico de esa vibración; el compuesto 2 probablemente contiene un grupo hidroxilo (O-H), porque su banda ancha cae dentro del rango típico de esa vibración.",
+          "B": "El compuesto 1 probablemente contiene un grupo hidroxilo (O-H), y el compuesto 2 probablemente contiene un grupo carbonilo (C=O), ya que ambos rangos de absorción mencionados se pueden intercambiar sin problema entre los dos grupos funcionales.",
+          "C": "No se puede inferir la presencia de ningún grupo funcional a partir de la posición de una banda de absorción, solo a partir de su intensidad relativa.",
+          "D": "El compuesto que tenga la banda más intensa (más alta) contiene mayor cantidad de esa sustancia, independientemente de en qué posición del espectro se encuentre la banda."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La posición de una banda de absorción en un espectro IR (en número de onda) es característica del tipo de enlace o grupo funcional presente, independientemente de la sustancia específica; dado que la banda del compuesto 1 (1715 cm⁻¹) cae dentro del rango típico del carbonilo, y la del compuesto 2 (3300 cm⁻¹, banda ancha) cae dentro del rango típico del hidroxilo, es razonable inferir la presencia de esos grupos funcionales respectivamente.",
+        "distractores": {
+          "B": {
+            "explicacion": "Intercambia por completo la asociación entre las posiciones de las bandas y los grupos funcionales, contradiciendo directamente los rangos de referencia dados en el enunciado para cada tipo de vibración.",
+            "patron_trampa": "lectura_invertida_grafica"
+          },
+          "C": {
+            "explicacion": "Ignora que la posición de una banda de absorción en IR es precisamente la característica diagnóstica principal para identificar el tipo de grupo funcional presente, una relación bien establecida que no depende de comparar intensidades.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Confunde la posición de una banda (que identifica qué grupo funcional está presente) con su intensidad relativa (que no es directamente comparable entre compuestos distintos sin una calibración específica).",
+            "patron_trampa": "confusion_exactitud_precision"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Número de onda (cm⁻¹)",
+      "ejeY": "Absorbancia",
+      "series": [
+        {
+          "nombre": "Compuesto 1",
+          "datos": [
+            {
+              "x": 500,
+              "y": 0.05
+            },
+            {
+              "x": 1000,
+              "y": 0.08
+            },
+            {
+              "x": 1400,
+              "y": 0.1
+            },
+            {
+              "x": 1650,
+              "y": 0.2
+            },
+            {
+              "x": 1700,
+              "y": 0.55
+            },
+            {
+              "x": 1715,
+              "y": 0.9
+            },
+            {
+              "x": 1730,
+              "y": 0.55
+            },
+            {
+              "x": 1800,
+              "y": 0.15
+            },
+            {
+              "x": 2000,
+              "y": 0.08
+            },
+            {
+              "x": 2500,
+              "y": 0.05
+            },
+            {
+              "x": 3000,
+              "y": 0.06
+            },
+            {
+              "x": 3500,
+              "y": 0.05
+            },
+            {
+              "x": 4000,
+              "y": 0.04
+            }
+          ]
+        },
+        {
+          "nombre": "Compuesto 2",
+          "datos": [
+            {
+              "x": 500,
+              "y": 0.05
+            },
+            {
+              "x": 1000,
+              "y": 0.07
+            },
+            {
+              "x": 1500,
+              "y": 0.08
+            },
+            {
+              "x": 2000,
+              "y": 0.09
+            },
+            {
+              "x": 2500,
+              "y": 0.12
+            },
+            {
+              "x": 2900,
+              "y": 0.25
+            },
+            {
+              "x": 3100,
+              "y": 0.55
+            },
+            {
+              "x": 3300,
+              "y": 0.8
+            },
+            {
+              "x": 3500,
+              "y": 0.6
+            },
+            {
+              "x": 3700,
+              "y": 0.3
+            },
+            {
+              "x": 3900,
+              "y": 0.12
+            },
+            {
+              "x": 4000,
+              "y": 0.08
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Comparación de dos espectros IR: el compuesto 1 muestra una banda estrecha e intensa cerca de 1715 cm⁻¹ (típica del grupo C=O), y el compuesto 2 muestra una banda ancha e intensa cerca de 3300 cm⁻¹ (típica del grupo O-H)."
+    }
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-018",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "El diagrama de fases del CO₂ muestra que su punto triple ocurre a una presión de 5,11 atm y una temperatura de −56,6 °C; por debajo de esa presión (como a 1 atm, la presión atmosférica normal), el CO₂ sólido pasa directamente a gas al calentarse, sin pasar por un estado líquido intermedio (sublimación), un fenómeno conocido en el 'hielo seco'.",
+    "tipo_visual": "diagrama_esquematico",
+    "visual_descripcion": "Diagrama de fases de presión (eje Y) vs temperatura (eje X) para el CO₂, mostrando las regiones de sólido, líquido y gas, el punto triple marcado en 5,11 atm y −56,6 °C, y una línea horizontal en 1 atm que solo cruza las regiones de sólido y gas.",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-018",
+        "afirmacion": "adquirir_interpretar",
+        "evidencia": "1.3",
+        "enunciado": "Si se calienta CO₂ sólido a 1 atm de presión constante, ¿qué cambio de estado se observará?",
+        "opciones": {
+          "A": "El CO₂ sólido se derretirá primero a un líquido, y luego ese líquido se evaporará a gas, igual que ocurre con el agua a presión atmosférica.",
+          "B": "El CO₂ sólido pasará directamente a gas (sublimación), sin formar una fase líquida visible, porque 1 atm está por debajo de la presión del punto triple (5,11 atm).",
+          "C": "El CO₂ permanecerá siempre en estado sólido a 1 atm, sin importar cuánto se caliente, porque el punto triple establece un límite absoluto para cualquier cambio de estado.",
+          "D": "El comportamiento del CO₂ a 1 atm es imposible de predecir sin conocer la temperatura exacta de ebullición del CO₂ líquido a esa presión."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El punto triple de una sustancia marca la presión mínima a la cual pueden coexistir sus tres estados; a presiones por debajo de la presión del punto triple, como 1 atm para el CO₂, la fase líquida no es estable, y el sólido pasa directamente a gas al calentarse (sublimación), tal como se observa con el hielo seco a presión atmosférica normal.",
+        "distractores": {
+          "A": {
+            "explicacion": "Asume que todas las sustancias se comportan igual que el agua al calentarse a presión atmosférica, sin considerar que el diagrama de fases de cada sustancia es distinto, y en el caso del CO₂ la presión atmosférica está por debajo de su punto triple.",
+            "patron_trampa": "sobregeneralizacion_de_un_metodo"
+          },
+          "C": {
+            "explicacion": "Interpreta el punto triple como un límite que impide cualquier cambio de estado por debajo de esa presión, cuando en realidad simplemente indica en qué condiciones coexisten las tres fases; por debajo de esa presión sí ocurren cambios de estado, solo que sin pasar por la fase líquida.",
+            "patron_trampa": "modelo_fuera_de_dominio"
+          },
+          "D": {
+            "explicacion": "Afirma que no se puede predecir el comportamiento sin un dato irrelevante para esta pregunta, ya que a 1 atm el CO₂ no forma una fase líquida estable, por lo que ese punto de ebullición específico ni siquiera existe en esas condiciones.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "imagen": "PC-GRUPO-018.svg"
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-019",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Se construye una curva de calibración midiendo la absorbancia de soluciones estándar de un colorante con concentraciones conocidas entre 0,00 M y 0,05 M, obteniendo una línea recta. Al medir una muestra desconocida, se obtiene una absorbancia que, al proyectarla sobre la misma recta, correspondería a una concentración de 0,08 M (un valor por fuera del rango de las concentraciones estándar usadas para construir la curva).",
+    "tipo_visual": "grafica_datos",
+    "formula_latex": "A = \\varepsilon b c",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-019",
+        "afirmacion": "adquirir_interpretar",
+        "evidencia": "1.3",
+        "enunciado": "¿Es confiable usar directamente la curva de calibración para reportar esta concentración de 0,08 M?",
+        "opciones": {
+          "A": "Sí, porque una curva de calibración lineal siempre se puede extender matemáticamente a cualquier concentración, sin ninguna limitación.",
+          "B": "Sí, porque la ley de Beer-Lambert garantiza que la absorbancia es proporcional a la concentración para cualquier valor, sin excepciones.",
+          "C": "No necesariamente, porque la curva de calibración solo fue construida y verificada dentro del rango de 0,00 a 0,05 M; a concentraciones más altas, la relación entre absorbancia y concentración podría dejar de ser lineal.",
+          "D": "No, porque cualquier valor de absorbancia que no corresponda exactamente a uno de los estándares medidos debe considerarse un error de medición y debe descartarse."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Una curva de calibración es válida y confiable únicamente dentro del rango de concentraciones para el cual fue construida y verificada; extrapolar la misma relación lineal a una concentración fuera de ese rango no está garantizado, porque a concentraciones más altas pueden aparecer desviaciones de la linealidad; lo apropiado sería confirmar ese valor preparando un estándar adicional dentro de ese rango más alto.",
+        "distractores": {
+          "A": {
+            "explicacion": "Trata la curva de calibración como si fuera válida indefinidamente fuera del rango de concentraciones donde realmente se construyó, sin considerar que las relaciones lineales experimentales suelen tener límites de validez.",
+            "patron_trampa": "modelo_fuera_de_dominio"
+          },
+          "B": {
+            "explicacion": "Trata la ley de Beer-Lambert como una ley sin ningún límite práctico de aplicación, cuando en realidad es una buena aproximación solo dentro de ciertos rangos de concentración y puede desviarse de la linealidad a concentraciones más altas.",
+            "patron_trampa": "modelo_fuera_de_dominio"
+          },
+          "D": {
+            "explicacion": "Descarta automáticamente cualquier medición que no coincida con un estándar exacto previamente medido, sin considerar que el propósito de una curva de calibración es predecir concentraciones intermedias, y que el problema aquí es la extrapolación más allá del rango, no la medición en sí.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Concentración (M)",
+      "ejeY": "Absorbancia",
+      "series": [
+        {
+          "nombre": "Curva de calibración (estándares)",
+          "datos": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 0.01,
+              "y": 0.2
+            },
+            {
+              "x": 0.02,
+              "y": 0.4
+            },
+            {
+              "x": 0.03,
+              "y": 0.6
+            },
+            {
+              "x": 0.04,
+              "y": 0.8
+            },
+            {
+              "x": 0.05,
+              "y": 1
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Curva de calibración lineal de absorbancia vs concentración, construida con estándares entre 0,00 M y 0,05 M; no incluye mediciones por encima de ese rango."
+    }
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-020",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Se registran los siguientes datos de presión y volumen de un gas a temperatura constante: Ensayo 1 (V = 2,0 L, P = 4,0 atm), Ensayo 2 (V = 4,0 L, P = 2,0 atm), Ensayo 3 (V = 8,0 L, P = 1,0 atm).",
+    "tipo_visual": "tabla",
+    "formula_latex": "PV = k",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-020",
+        "afirmacion": "adquirir_interpretar",
+        "evidencia": "1.2",
+        "enunciado": "Un estudiante afirma que 'como el volumen aumenta y la presión también cambia, ambas variables deben ser directamente proporcionales'. ¿Es correcta esta afirmación, según los datos de la tabla?",
+        "opciones": {
+          "A": "Sí, porque cualquier par de variables que cambien juntas en un experimento debe ser, por definición, directamente proporcional entre sí.",
+          "B": "Sí, porque los tres ensayos muestran que a mayor volumen, se registran distintos valores de presión, lo que confirma la proporcionalidad directa.",
+          "C": "No se puede determinar el tipo de relación entre presión y volumen sin conocer la temperatura exacta del gas en cada ensayo.",
+          "D": "No, porque los datos muestran que a mayor volumen, la presión disminuye (y el producto P × V se mantiene aproximadamente constante en los tres ensayos: 8,0 en todos los casos), lo cual es característico de una relación inversamente proporcional, no directa."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Al calcular el producto P × V en cada ensayo (4,0×2,0=8,0; 2,0×4,0=8,0; 1,0×8,0=8,0), se observa que este producto permanece aproximadamente constante, lo cual es la firma característica de una relación de proporcionalidad inversa (P·V = k), no directa; en una relación directamente proporcional, ambas variables aumentarían o disminuirían juntas, lo contrario de lo que muestran estos datos.",
+        "distractores": {
+          "A": {
+            "explicacion": "Asume que cualquier par de variables relacionadas en un experimento debe ser directamente proporcional, sin verificar si realmente aumentan o disminuyen juntas o si una aumenta mientras la otra disminuye manteniendo su producto constante.",
+            "patron_trampa": "proporcionalidad_directa_vs_inversa"
+          },
+          "B": {
+            "explicacion": "Observa correctamente que ambas variables cambian de un ensayo a otro, pero no verifica la dirección de ese cambio, que es precisamente lo que distingue una relación directamente proporcional de una inversamente proporcional.",
+            "patron_trampa": "proporcionalidad_directa_vs_inversa"
+          },
+          "C": {
+            "explicacion": "Introduce un requisito irrelevante para esta pregunta; el enunciado ya establece que la temperatura se mantuvo constante durante los tres ensayos, por lo que no es necesario conocer su valor exacto para determinar el tipo de relación.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tabla_filas": {
+      "columnas": [
+        "Ensayo",
+        "Volumen (L)",
+        "Presión (atm)",
+        "P × V"
+      ],
+      "filas": [
+        [
+          1,
+          2,
+          4,
+          8
+        ],
+        [
+          2,
+          4,
+          2,
+          8
+        ],
+        [
+          3,
+          8,
+          1,
+          8
+        ]
+      ]
+    }
+  }
+]
