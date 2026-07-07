@@ -6,6 +6,14 @@ const ALTURA_MINIMA = 300
 // su contenido y es la página la que hace scroll normal, en vez de atrapar
 // el contenido en una caja pequeña con su propio scroll interno.
 const ALTURA_MAXIMA = 1600
+// `.tarjeta-flip-cara` tiene `border: 1px solid` (arriba + abajo = 2px) y
+// box-sizing: border-box, pero `scrollHeight` excluye el borde. Si se
+// aplica esa medida tal cual como la nueva altura del contenedor, cada
+// vuelta del ResizeObserver mide 2px menos que la anterior y la tarjeta se
+// va achicando sin parar (esto es lo que se veía como "vibración" al
+// pasar de una tarjeta grande a una pequeña). Hay que sumar de vuelta el
+// borde para que la medición converja en vez de decaer.
+const COMPENSACION_BORDE = 2
 
 // Flip 3D genérico (perspective + preserve-3d + backface-visibility)
 // usado por la Tarjeta de Repaso. La cara oculta recibe pointer-events:none
@@ -32,10 +40,13 @@ export function TarjetaFlip({ volteada, onClick, frente, reverso }) {
 
   useLayoutEffect(() => {
     function medir() {
-      const alturaFrente = frenteRef.current?.scrollHeight ?? 0
-      const alturaReverso = reversoRef.current?.scrollHeight ?? 0
-      const necesaria = Math.max(ALTURA_MINIMA, alturaFrente, alturaReverso)
-      setAltura(Math.min(necesaria, ALTURA_MAXIMA))
+      const alturaFrente = (frenteRef.current?.scrollHeight ?? 0) + COMPENSACION_BORDE
+      const alturaReverso = (reversoRef.current?.scrollHeight ?? 0) + COMPENSACION_BORDE
+      const necesaria = Math.min(Math.max(ALTURA_MINIMA, alturaFrente, alturaReverso), ALTURA_MAXIMA)
+      // Evita un setState (y por tanto un nuevo render) cuando la altura
+      // medida no cambió realmente: sin este guard, cualquier redondeo de
+      // subpíxel dispararía el ResizeObserver otra vez de forma innecesaria.
+      setAltura((actual) => (Math.abs(actual - necesaria) < 1 ? actual : necesaria))
     }
 
     medir()
