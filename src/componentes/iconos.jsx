@@ -156,6 +156,16 @@ export function IconoImagen({ size = 20, color = 'currentColor' }) {
   )
 }
 
+export function IconoCandado({ size = 15, color = 'currentColor' }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 15 15" style={{ flexShrink: 0 }}>
+      <rect x="3" y="6.5" width="9" height="6.5" rx="1.4" fill="none" stroke={color} strokeWidth="1.3" />
+      <path d="M5 6.5 V4.3 A2.5 2.5 0 0 1 10 4.3 V6.5" fill="none" stroke={color} strokeWidth="1.3" />
+      <circle cx="7.5" cy="9.6" r="1" fill={color} />
+    </svg>
+  )
+}
+
 export function IconoSonidoMudo({ size = 17, color = 'currentColor' }) {
   return (
     <svg width={size} height={size} viewBox="0 0 18 18">

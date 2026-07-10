@@ -17,6 +17,22 @@
   letter-spacing: 0.04em;
 }
 
+.contexto-pills {
+  margin-top: 12px;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.contexto-pill {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--accent);
+  background: color-mix(in oklch, var(--accent) 12%, var(--surface));
+  border-radius: var(--radio-pill);
+  padding: 3px 9px;
+}
+
 .contexto-titulo {
   font-size: 15px;
   font-weight: 700;

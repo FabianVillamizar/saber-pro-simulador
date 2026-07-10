@@ -1,6 +1,7 @@
 import { adaptersIngles } from '../modulos/ingles/adapters.js'
 import { adaptersCompetenciasCiudadanas } from '../modulos/competencias-ciudadanas/adapters.js'
 import { adaptersPensamientoCientifico } from '../modulos/pensamiento-cientifico/adapters.js'
+import { adaptersDiosgenina } from '../modulos/diosgenina/adapters.js'
 
 // Índice central de módulos del examen. Agregar un módulo nuevo es:
 //   1. Copiar sus JSON a src/data/<id>/.
@@ -96,5 +97,26 @@ export const indiceModulos = {
       especifico_quimica: 'Específico — Química',
     },
     adapters: adaptersPensamientoCientifico,
+  },
+  diosgenina: {
+    id: 'diosgenina',
+    nombre: 'Pharmactive · Diosgenina Fase 1',
+    monograma: 'DG',
+    descripcion: 'Perfilaje fitoquímico de ñame — Semillero Pharmactive, Fase 1.',
+    disponible: true,
+    // Sin distribución de simulacro definida (igual que CC y PC) — solo
+    // repaso de conceptos y práctica por sub-categoría por ahora.
+    soportaSimulacro: false,
+    // Mismo vocabulario de afirmaciones que Pensamiento Científico: las
+    // preguntas de diosgenina evalúan las mismas 5 competencias científicas
+    // genéricas, no una taxonomía propia.
+    categorias: {
+      adquirir_interpretar: 'Adquirir e interpretar',
+      analizar_concluir: 'Analizar y concluir',
+      comprender_modelos: 'Comprender modelos',
+      establecer_estrategias: 'Establecer estrategias',
+      plantear_preguntas: 'Plantear preguntas',
+    },
+    adapters: adaptersDiosgenina,
   },
 }

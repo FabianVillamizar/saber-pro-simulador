@@ -25,7 +25,9 @@ export const PERFIL_INVITADO = { id: ID_INVITADO, nombre: 'Invitado', color: nul
 // Hash simple (no criptográfico) solo para no guardar el PIN en texto
 // plano en localStorage. No protege contra alguien que abra DevTools:
 // el objetivo es disuadir a quien mire por encima del hombro, no cifrar.
-function hashPin(pin) {
+// Exportado porque accesoModulo.js lo reusa para el código de diosgenina
+// (mismo nivel de "no es seguridad real", mismo algoritmo).
+export function hashPin(pin) {
   let hash = 0
   for (let i = 0; i < pin.length; i++) {
     hash = (hash * 31 + pin.charCodeAt(i)) | 0

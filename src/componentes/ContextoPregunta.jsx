@@ -44,6 +44,15 @@ export function ContextoPregunta({ contexto, numEnGrupo }) {
     return (
       <div className="contexto contexto--pasaje">
         <p className="contexto-texto">{contexto.texto}</p>
+        {contexto.pills?.length > 0 && (
+          <div className="contexto-pills">
+            {contexto.pills.map((pill) => (
+              <span key={pill} className="contexto-pill">
+                {pill}
+              </span>
+            ))}
+          </div>
+        )}
       </div>
     )
   }

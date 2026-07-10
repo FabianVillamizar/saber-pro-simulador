@@ -1,0 +1,887 @@
+[
+  {
+    "id": "DIO-IT-001",
+    "modulo": "diosgenina",
+    "tipo": "item",
+    "afirmacion": "adquirir_interpretar",
+    "contexto": "Le et al. (2018) evaluaron el efecto de diez solventes comunes de extracción sobre el blanco de reactivo de un ensayo colorimétrico para saponinas (vainillina-H2SO4 a 560 nm, un cromógeno distinto al anisaldehído-H2SO4 de Baccou, que trabaja a 430 nm). Encontraron que el acetato de etilo generó una interferencia moderada en el blanco (absorbancia significativamente mayor que el agua), mientras que el etanol fue el único de los diez sin efecto significativo frente al agua. En 'Hacia la derivatización' del protocolo v2, Fabián cita este hallazgo al evaluar candidatos de solvente para reemplazar el acetato de etilo (no disponible hoy) en la futura derivatización con el reactivo de Baccou.",
+    "preguntas": [
+      {
+        "enunciado": "Según lo que reportan Le et al. (2018), ¿qué mostró exactamente el experimento sobre el acetato de etilo frente al etanol?",
+        "opciones": {
+          "A": "El acetato de etilo produjo una absorbancia de fondo significativamente mayor que el etanol en el blanco de reactivo.",
+          "B": "El acetato de etilo reaccionó con la vainillina para formar directamente una molécula de diosgenina detectable.",
+          "C": "El etanol resultó incapaz de disolver ningún tipo de saponina durante el experimento.",
+          "D": "Ambos solventes dieron una absorbancia idéntica a la del reactivo de Baccou en las mismas condiciones."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Ese es exactamente el resultado reportado: al comparar los blancos de reactivo (sin saponinas) preparados con cada solvente, el de acetato de etilo mostró una absorbancia notablemente más alta que el de agua, mientras que el de etanol no se diferenció significativamente del agua.",
+        "distractores": {
+          "B": {"explicacion": "El experimento midió absorbancia de un blanco de reactivo (vainillina + H2SO4 + solvente), no una reacción de síntesis; ningún solvente 'produce' diosgenina, un compuesto natural que se extrae, no se sintetiza en un tubo de ensayo.", "patron_trampa": "confunde una reacción colorimétrica de revelado (formación de un cromóforo) con una síntesis química que generaría la molécula de interés"},
+          "C": {"explicacion": "El estudio mide interferencia en la absorbancia del blanco, no la capacidad de disolución de saponinas; esa propiedad ni siquiera se evaluó en este experimento específico.", "patron_trampa": "invierte el resultado real y confunde 'ausencia de interferencia colorimétrica' con 'incapacidad de disolver el analito'"},
+          "D": {"explicacion": "Le et al. (2018) usaron el ensayo de vainillina-H2SO4 a 560 nm; nunca compararon sus resultados directamente contra el reactivo de Baccou (anisaldehído-H2SO4, 430 nm), que es un sistema químico distinto.", "patron_trampa": "asume una comparación entre dos estudios que nunca se hizo experimentalmente"}
+        }
+      },
+      {
+        "enunciado": "¿Cuál de las siguientes afirmaciones NO se puede extraer directamente de este hallazgo, aunque sea tentador asumirla al pensar en la derivatización pendiente de Fabián?",
+        "opciones": {
+          "A": "Que el acetato de etilo mostró más interferencia que el etanol en el ensayo de vainillina-H2SO4 específico que se probó.",
+          "B": "Que el mismo patrón de interferencia se replicaría igual en el reactivo de anisaldehído-H2SO4 de Baccou, sin haberlo probado directamente.",
+          "C": "Que el estudio evaluó blancos de reactivo (sin saponinas presentes), no muestras reales con saponinas.",
+          "D": "Que el etanol fue, entre los diez solventes probados, uno de los que generó menos interferencia documentada."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Le et al. (2018) trabajaron con un cromógeno distinto (vainillina, no anisaldehído) a una longitud de onda distinta (560 nm, no 430 nm). Extender su hallazgo al reactivo específico de Baccou es una hipótesis razonable, probablemente la mejor disponible hoy, pero sigue siendo una extrapolación no probada directamente, tal como reconoce el propio protocolo v2 al recomendar probar el reactivo de anisaldehído en etanol antes de comprometer las cuatro muestras completas.",
+        "distractores": {
+          "A": {"explicacion": "Esto sí es exactamente lo que el estudio reportó de forma directa y medida: es una lectura literal del resultado, no una extrapolación.", "patron_trampa": "duda de un hallazgo explícitamente reportado por exceso de cautela, sin notar que es precisamente el dato medido"},
+          "C": {"explicacion": "Esto también es una descripción literal y correcta del diseño experimental del estudio (comparar blancos, no muestras con analito), tomada directamente de su metodología.", "patron_trampa": "confunde una descripción fiel del diseño experimental con una inferencia arriesgada"},
+          "D": {"explicacion": "Esto es también un resultado directamente reportado (el etanol fue el único sin efecto significativo de los diez), no una conclusión extendida más allá de los datos.", "patron_trampa": "no distingue entre un resultado cuantitativo directamente medido y una generalización hacia un sistema químico distinto"}
+        }
+      },
+      {
+        "enunciado": "Un compañero del semillero afirma: 'Como el DCM también aparece en el estudio de Le et al. (2018) con interferencia relativamente baja, es un buen candidato para reemplazar el acetato de etilo en la reacción de Baccou.' ¿Qué matiz de la propia tabla de resultados debería corregir esta afirmación?",
+        "opciones": {
+          "A": "Que el DCM, de hecho, no fue evaluado en absoluto dentro del estudio original de Le et al. (2018), a diferencia de lo que asume el compañero.",
+          "B": "Que el DCM mostró la interferencia más alta de los diez solventes probados, incluso peor que la del propio acetato de etilo mencionado.",
+          "C": "Que el DCM tuvo interferencia menor que el acetato de etilo, pero no tan limpia como la del etanol: quedó en un grupo intermedio-bajo junto con éter dietílico y cloroformo, no en el grupo sin efecto significativo.",
+          "D": "Que el DCM es, en este contexto experimental específico, exactamente equivalente al etanol en su desempeño frente al blanco de reactivo evaluado."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El DCM sí fue uno de los diez solventes evaluados, y efectivamente mostró menos interferencia que la acetona, el butanol, el metanol, el acetato de etilo o el hexano, pero el único solvente sin efecto significativo frente al agua fue el etanol. El DCM queda en una categoría intermedia: mejor que los peores, pero no tan limpio como el mejor.",
+        "distractores": {
+          "A": {"explicacion": "El DCM sí forma parte de los diez solventes explícitamente probados por Le et al. (2018), junto con acetona, metanol, etanol, acetato de etilo, n-butanol, éter dietílico, cloroformo, hexano y acetonitrilo.", "patron_trampa": "asume que un solvente no mencionado en el resumen citado no fue parte del estudio completo"},
+          "B": {"explicacion": "Los solventes con mayor interferencia reportada fueron acetona, n-butanol y metanol; el DCM quedó en un grupo de interferencia menor, junto con éter dietílico y cloroformo, no fue el peor del conjunto.", "patron_trampa": "invierte la posición relativa del DCM en el ranking de interferencia, confundiéndolo con uno de los tres peores"},
+          "D": {"explicacion": "El DCM y el etanol están en grupos distintos de interferencia: el etanol no mostró efecto significativo, mientras que el DCM sí mostró algo de interferencia, menor que los peores, pero no nula.", "patron_trampa": "colapsa dos niveles distintos de interferencia (menor pero presente vs. ausente) en uno solo, tratando 'mejor que lo peor' como sinónimo de 'igual al mejor'"}
+        }
+      }
+    ],
+    "bloques_relacionados": ["FQ", "QA"],
+    "dificultad": "media"
+  },
+  {
+    "id": "DIO-IT-002",
+    "modulo": "diosgenina",
+    "tipo": "item",
+    "afirmacion": "adquirir_interpretar",
+    "contexto": "Durante la Etapa 5 (Evaporación y almacenamiento) del protocolo v2, al evaporar el DCM de una de las cuatro muestras, Fabián nota una pequeña gota separada de aspecto acuoso en el fondo del vial, junto al residuo seco. No hay desecante anhidro disponible hoy (solo Na2SO4 hidratado), así que el lavado de la fase orgánica en la Etapa 4 se hizo por decantación cuidadosa, sin secado químico adicional. El DCM tiene un punto de ebullición de ≈39.6°C, mucho menor que el del agua (100°C).",
+    "preguntas": [
+      {
+        "enunciado": "¿Qué indica directamente la aparición de esa gota acuosa separada sobre el proceso de secado, dado que no había desecante anhidro disponible?",
+        "opciones": {
+          "A": "Que la diosgenina se descompuso químicamente durante la evaporación.",
+          "B": "Que el DCM usado en la extracción estaba contaminado desde el inicio del protocolo.",
+          "C": "Que la muestra debe descartarse por completo, ya que el resultado quedó invalidado.",
+          "D": "Que quedó algo de agua residual en la fase orgánica tras el lavado, ahora visible porque el DCM se evaporó primero por su mayor volatilidad."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Es exactamente el escenario que anticipa la Etapa 4 del protocolo v2: sin desecante anhidro, es esperable que quede alguna traza de agua tras la decantación. Como el DCM se evapora mucho antes que el agua a las temperaturas de trabajo, esa agua residual se manifiesta como una gota separada visible, no como vapor mezclado indetectable.",
+        "distractores": {
+          "A": {"explicacion": "Una gota de aspecto acuoso es evidencia de agua residual, un fenómeno físico de partición de fases; no hay ninguna indicación química de descomposición de diosgenina en esta observación.", "patron_trampa": "atribuye una causa química (degradación) a una observación puramente física (una fase líquida distinta visible)"},
+          "B": {"explicacion": "El DCM en sí es anhidro cuando se usa puro; el agua proviene del lavado con agua destilada en la Etapa 4, no de una contaminación previa del solvente de extracción.", "patron_trampa": "confunde el origen del agua residual (el propio paso de lavado acuoso del protocolo) con una contaminación externa del reactivo"},
+          "C": {"explicacion": "El protocolo v2 anticipa exactamente este escenario y da una solución simple (decantar o absorber la gota con papel filtro antes de tapar), sin sugerir en ningún momento descartar la muestra por esto.", "patron_trampa": "sobre-reacciona ante una observación esperada y manejable, tratándola como una falla catastrófica en vez de un paso normal del procedimiento"}
+        }
+      },
+      {
+        "enunciado": "¿Cuál de las siguientes conclusiones NO se puede extraer directamente de esta observación, aunque el protocolo mencione la humedad como riesgo asociado al almacenamiento del polvo?",
+        "opciones": {
+          "A": "Que el polvo de partida absorbió humedad ambiental mientras estaba en el congelador, siendo esa la fuente específica de esta gota.",
+          "B": "Que hay agua residual presente en el vial tras la evaporación del DCM.",
+          "C": "Que el DCM se evaporó antes de que el agua tuviera tiempo de evaporarse de forma apreciable a esa temperatura.",
+          "D": "Que la ausencia de desecante anhidro es un factor relevante para explicar esta observación."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La gota acuosa observada en la Etapa 5 proviene, según el propio protocolo, del lavado acuoso de la Etapa 4 (agua residual no completamente decantada), no necesariamente de humedad absorbida por el polvo original durante el almacenamiento; esa es una fuente de agua distinta, y no hay forma de distinguir, solo con esta observación, cuál de las dos fuentes contribuyó realmente.",
+        "distractores": {
+          "B": {"explicacion": "Esto es precisamente lo que la gota observada muestra de forma directa: presencia de agua residual visible.", "patron_trampa": "duda de la lectura más literal y directa de la propia observación descrita"},
+          "C": {"explicacion": "Esto es una consecuencia directa de la diferencia de puntos de ebullición explicada en el protocolo, aplicada correctamente a lo que se observó.", "patron_trampa": "rechaza una inferencia física válida y bien fundamentada por excesiva cautela"},
+          "D": {"explicacion": "El protocolo mismo señala la ausencia de desecante anhidro como la razón esperada de que pueda quedar agua residual tras el lavado, un factor causal explícitamente reconocido.", "patron_trampa": "descarta un factor causal que el propio texto del protocolo identifica como relevante"}
+        }
+      },
+      {
+        "enunciado": "¿Por qué la gota aparece como una fase separada y visible, en vez de quedar mezclada de forma indetectable dentro del residuo seco?",
+        "opciones": {
+          "A": "Porque el agua y la diosgenina son ambas polares y por eso se mezclan completamente, formando una sola fase homogénea que solo parece 'separada' a simple vista.",
+          "B": "Porque el agua, al no evaporarse a la misma velocidad que el DCM a esa temperatura, queda como una fase líquida distinta, inmiscible con el residuo apolar de diosgenina que sí terminó de secarse.",
+          "C": "Porque el agua reacciona químicamente con la diosgenina formando un compuesto nuevo que se separa por densidad.",
+          "D": "Porque el vial estaba mal tapado, permitiendo que entrara humedad adicional del ambiente durante la evaporación."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El agua residual y la diosgenina tienen polaridades muy distintas y son esencialmente inmiscibles entre sí; al evaporarse el DCM, lo que queda es una fase acuosa separada junto a un residuo apolar seco. La inmiscibilidad, no una reacción química ni un fallo de tapado, es la razón física de que se vea como una gota distinta.",
+        "distractores": {
+          "A": {"explicacion": "La diosgenina, tras perder sus azúcares en la hidrólisis, es precisamente poco polar; no se mezcla completamente con agua, por eso aparece como fase separada.", "patron_trampa": "invierte la polaridad real de la diosgenina libre, asumiendo que sigue comportándose como su precursor polar (dioscina)"},
+          "C": {"explicacion": "No hay ninguna reacción química descrita ni esperada entre agua y diosgenina en estas condiciones; la separación de fases es un fenómeno físico de miscibilidad, no una transformación química.", "patron_trampa": "inventa una reacción química para explicar un fenómeno que tiene una explicación física mucho más simple y ya establecida en el protocolo"},
+          "D": {"explicacion": "El protocolo atribuye el origen del agua al lavado de la Etapa 4 (agua residual no decantada), no a una entrada de humedad ambiental durante la evaporación misma de la Etapa 5.", "patron_trampa": "introduce una causa alternativa (mal tapado) no mencionada ni sugerida por el escenario descrito"}
+        }
+      }
+    ],
+    "bloques_relacionados": ["FQ"],
+    "dificultad": "media"
+  },
+  {
+    "id": "DIO-IT-003",
+    "modulo": "diosgenina",
+    "tipo": "item",
+    "afirmacion": "adquirir_interpretar",
+    "contexto": "Chen et al. (2012) midieron la solubilidad de diosgenina en distintos solventes entre 293.15 y 330.15 K, reportando el siguiente orden: acetato de etilo > acetato de propilo > (acetona, isopropanol y etanol al 95%, con solubilidad similar entre sí) > metanol. Fabián, sin acceso a etanol ni acetato de etilo hoy, considera usar isopropanol (ya disponible, usado en la hidrólisis) como solvente de reconstitución para la futura derivatización.",
+    "preguntas": [
+      {
+        "enunciado": "Según esta tabla, ¿cómo se compara la solubilidad de diosgenina en isopropanol frente a la de etanol?",
+        "opciones": {
+          "A": "El isopropanol disuelve diosgenina considerablemente peor que el metanol.",
+          "B": "El isopropanol es, de los seis solventes probados, el que mejor disuelve diosgenina.",
+          "C": "El isopropanol tiene una solubilidad similar a la del etanol, ambos en el grupo intermedio del orden reportado.",
+          "D": "El isopropanol no fue uno de los solventes evaluados en este estudio."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El propio orden reportado agrupa explícitamente a la acetona, el isopropanol y el etanol al 95% como teniendo solubilidad similar entre sí, ubicados en un nivel intermedio: por debajo del acetato de etilo y el acetato de propilo, pero por encima del metanol.",
+        "distractores": {
+          "A": {"explicacion": "El orden reportado ubica al metanol como el de menor solubilidad de los seis, y al isopropanol en el grupo intermedio, por encima del metanol, no por debajo.", "patron_trampa": "invierte la posición relativa del isopropanol frente al metanol en el orden reportado"},
+          "B": {"explicacion": "El acetato de etilo es el de mayor solubilidad según el estudio, seguido del acetato de propilo; el isopropanol queda en el grupo intermedio, no en el primer lugar.", "patron_trampa": "confunde 'similar al etanol' (grupo intermedio) con 'el mejor de todos' (primer lugar del ranking)"},
+          "D": {"explicacion": "El isopropanol es uno de los seis solventes explícitamente evaluados por Chen et al. (2012), junto con metanol, etanol, acetona, acetato de etilo y acetato de propilo.", "patron_trampa": "asume que un solvente mencionado en una síntesis abreviada no formó parte del estudio original completo"}
+        }
+      },
+      {
+        "enunciado": "¿Cuál de las siguientes afirmaciones NO se puede concluir directamente de esta tabla de solubilidad, aunque sea una consideración razonable para decidir sobre isopropanol?",
+        "opciones": {
+          "A": "Que la diosgenina se disuelve mejor en acetato de etilo que en cualquiera de los otros cinco solventes evaluados.",
+          "B": "Que el metanol es, de los solventes evaluados, el que peor disuelve diosgenina.",
+          "C": "Que el isopropanol y el etanol tienen una solubilidad reportada como similar entre sí en este estudio.",
+          "D": "Que el isopropanol producirá, en la reacción colorimétrica de Baccou, el mismo nivel de interferencia de fondo que el etanol."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "La tabla de Chen et al. (2012) mide únicamente solubilidad física de la diosgenina en cada solvente, no dice nada sobre cómo se comporta cada solvente en la reacción química colorimétrica de Baccou. Que ambos disuelvan diosgenina de forma similar no implica que se comporten igual frente al reactivo de anisaldehído y ácido sulfúrico; esa es una propiedad química distinta que requiere su propio experimento.",
+        "distractores": {
+          "A": {"explicacion": "Esto es exactamente lo que reporta el orden de solubilidad citado, en su punto más alto de la escala.", "patron_trampa": "duda de una lectura directa y literal del primer elemento del orden reportado"},
+          "B": {"explicacion": "El metanol aparece al final del orden de solubilidad reportado, consistente con ser el de menor solubilidad de los seis.", "patron_trampa": "rechaza la lectura correcta del último elemento del orden reportado por exceso de cautela"},
+          "C": {"explicacion": "Esto es una lectura literal del agrupamiento explícito que hace el propio estudio, describiéndolos con solubilidad similar entre sí.", "patron_trampa": "no reconoce una afirmación tomada casi textualmente del resultado reportado"}
+        }
+      },
+      {
+        "enunciado": "Un compañero sugiere: 'Ya que el acetato de etilo es el solvente con mayor solubilidad de diosgenina según Chen et al. (2012), deberíamos conseguirlo a cualquier costo en vez de considerar alternativas.' ¿Qué limitación de esta tabla de solubilidad no está considerando ese argumento?",
+        "opciones": {
+          "A": "Que la tabla mide solo solubilidad física, no el comportamiento del acetato de etilo en la reacción colorimétrica de Baccou, donde de hecho genera más interferencia que otros candidatos (Le et al., 2018).",
+          "B": "Que el acetato de etilo, según la propia tabla citada, en realidad tiene la menor solubilidad de diosgenina de los seis solventes evaluados por Chen et al. (2012).",
+          "C": "Que Chen et al. (2012) nunca incluyeron al acetato de etilo entre los solventes de su estudio de solubilidad de diosgenina.",
+          "D": "Que la tabla de solubilidad de Chen et al. (2012) solo aplica a temperaturas superiores a 100°C, fuera del rango real de trabajo del protocolo."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La tabla de Chen et al. (2012) mide solubilidad física, relevante para disolver el residuo, pero independiente de cómo se comporta ese mismo solvente en la reacción colorimétrica de Baccou. Le et al. (2018) muestran que el acetato de etilo genera más interferencia de fondo que el etanol en un ensayo relacionado; el argumento del compañero trata 'mejor solubilidad' como sinónimo de 'mejor solvente global' para todo el proceso.",
+        "distractores": {
+          "B": {"explicacion": "El acetato de etilo aparece en el primer lugar (mayor solubilidad) del orden reportado por Chen et al. (2012), no en el último.", "patron_trampa": "invierte la posición del acetato de etilo en el orden de solubilidad reportado"},
+          "C": {"explicacion": "El acetato de etilo es precisamente uno de los seis solventes explícitamente evaluados por Chen et al. (2012), y de hecho el de mayor solubilidad reportada.", "patron_trampa": "asume que un solvente central en la discusión no fue parte del estudio, cuando en realidad es el resultado más destacado del propio estudio"},
+          "D": {"explicacion": "El estudio de Chen et al. (2012) evaluó solubilidad entre 293.15 y 330.15 K (aproximadamente 20 a 57°C), un rango relevante para condiciones de laboratorio normales, no exclusivamente por encima de 100°C.", "patron_trampa": "inventa una restricción de rango de temperatura que no corresponde a las condiciones reales del estudio citado"}
+        }
+      }
+    ],
+    "bloques_relacionados": ["FQ"],
+    "dificultad": "media"
+  },
+  {
+    "id": "DIO-IT-004",
+    "modulo": "diosgenina",
+    "tipo": "item",
+    "afirmacion": "analizar_concluir",
+    "contexto": "Lebot et al. (2019) usaron HPTLC calibrado contra cuatro glicósidos nombrados (dioscina, gracilina, protodioscina, protogracilina) y no los detectaron en D. alata. Hata et al. (2003), trabajando con material colombiano de la costa Atlántica, hidrolizaron primero las saponinas totales de sus muestras y luego buscaron sapogeninas libres, detectando diosgenina en el 8.7% de sus 23 muestras de D. alata.",
+    "preguntas": [
+      {
+        "enunciado": "¿Cuál es la interpretación más defendible de estos dos hallazgos, considerando la metodología de cada estudio?",
+        "opciones": {
+          "A": "Son contradictorios: uno de los dos estudios necesariamente cometió un error metodológico grave que invalida su hallazgo sobre D. alata.",
+          "B": "No son necesariamente contradictorios: cada estudio midió un objetivo analítico distinto (glicósidos nombrados vs. sapogenina libre tras hidrólisis total), así que ambos resultados pueden ser correctos a la vez.",
+          "C": "Son contradictorios, y solo el hallazgo de Hata et al. (2003) debería considerarse válido, por ser el estudio más reciente en trabajar con material colombiano.",
+          "D": "No son comparables en absoluto, porque fueron publicados en revistas científicas distintas y por autores de países distintos."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "La clave está en que 'ausente' en Lebot et al. (2019) significa ausente de los cuatro glicósidos específicos que su HPTLC estaba calibrado para detectar, mientras que Hata et al. (2003) buscaron sapogenina libre total tras hidrólisis, sin importar de qué glicósido provino. Ambos métodos pueden dar resultados distintos sobre la misma muestra sin que ninguno esté equivocado: simplemente responden preguntas analíticas diferentes.",
+        "distractores": {
+          "A": {"explicacion": "No hay evidencia de un error metodológico en ninguno de los dos estudios; ambos métodos están bien descritos y son internamente consistentes con lo que se proponían medir.", "patron_trampa": "asume que toda discrepancia aparente implica necesariamente un error, en vez de considerar que ambos métodos pueden ser válidos si miden cosas distintas"},
+          "C": {"explicacion": "La validez de un hallazgo no depende de qué tan reciente sea el estudio ni de la nacionalidad del material analizado, sino de si el método usado responde correctamente a la pregunta planteada.", "patron_trampa": "usa un criterio irrelevante (fecha de publicación, origen geográfico) para decidir entre dos métodos que en realidad son complementarios, no competidores"},
+          "D": {"explicacion": "La comparabilidad entre estudios depende de si miden el mismo tipo de variable con métodos compatibles, no de en qué revista se publicaron ni la nacionalidad de los autores.", "patron_trampa": "usa un criterio de forma (revista, nacionalidad) para descartar una comparación de fondo que sí es legítima y relevante"}
+        }
+      },
+      {
+        "enunciado": "¿Qué evidencia experimental adicional confirmaría con más fuerza que ambos hallazgos son compatibles y no realmente contradictorios?",
+        "opciones": {
+          "A": "Repetir el estudio de Lebot et al. (2019) exactamente igual, con las mismas 1151 accesiones originales, solo para verificar si el resultado se replica igual.",
+          "B": "Buscar un tercer estudio distinto que simplemente mencione ambos papers dentro de su propia lista de referencias bibliográficas.",
+          "C": "Aplicar la hidrólisis total de Hata et al. (2003) sobre las mismas accesiones de D. alata de Lebot et al. (2019), y por separado HPTLC dirigido sobre las positivas de Hata, viendo si la diosgenina viene de un glicósido distinto a los patrones de Lebot.",
+          "D": "Consultar la opinión de otros investigadores del género Dioscorea sobre cuál de los dos estudios les resulta metodológicamente más confiable."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "La forma más directa de confirmar la hipótesis de métodos que miden cosas distintas es aplicar ambos sobre el mismo material, controlando la variable de origen de la muestra. Si el patrón se mantiene, eso confirmaría que la diosgenina de D. alata proviene de un glicósido distinto a los cuatro calibrados por HPTLC, sin necesidad de asumir que un estudio esté equivocado.",
+        "distractores": {
+          "A": {"explicacion": "Repetir el mismo método solo confirmaría la reproducibilidad de ese método específico; no aportaría información sobre si el método de Hata detecta algo que HPTLC de Lebot no ve.", "patron_trampa": "confunde reproducibilidad de un método con la pregunta de fondo (si dos métodos distintos miden targets distintos)"},
+          "B": {"explicacion": "Que un tercer estudio cite ambos papers no aporta evidencia experimental nueva sobre la compatibilidad de los hallazgos; es solo un indicio bibliométrico, no un experimento.", "patron_trampa": "confunde evidencia de cocitación bibliográfica con evidencia experimental directa"},
+          "D": {"explicacion": "La opinión de otros investigadores, sin nueva evidencia experimental de por medio, no resuelve la pregunta empírica sobre qué detecta cada método; es un argumento de autoridad, no una prueba.", "patron_trampa": "sustituye evidencia experimental por consenso de opinión, un argumento de autoridad en vez de una prueba directa"}
+        }
+      },
+      {
+        "enunciado": "Un compañero argumenta: 'Como el porcentaje de Hata et al. (8.7%) es mucho menor que el porcentaje típico en D. rotundata (83.3%), eso demuestra que el resultado de Hata para D. alata en realidad es un error experimental.' ¿Qué error de razonamiento contiene este argumento?",
+        "opciones": {
+          "A": "Ninguno; es una conclusión estadísticamente válida, basada simplemente en la gran magnitud de la diferencia entre ambos porcentajes reportados.",
+          "B": "El argumento ignora, sin fundamento real, que ambos porcentajes citados provienen de estudios completamente distintos y por tanto no serían comparables entre sí.",
+          "C": "El argumento asume, incorrectamente, que Hata et al. (2003) no reportó ningún dato sobre D. rotundata, cuando en realidad trabajaron con varias especies a la vez.",
+          "D": "El argumento confunde menor prevalencia dentro de una especie con evidencia de error experimental: un porcentaje bajo sigue siendo válido si la metodología fue correcta, y es coherente con la distribución desigual entre especies."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Una prevalencia baja no es, por sí misma, evidencia de error metodológico: Hata et al. (2003) reportan ambos porcentajes dentro del mismo estudio, con la misma metodología aplicada a ambas especies; la diferencia refleja variación biológica real entre especies, coherente con la distribución desigual de sapogeninas en el género.",
+        "distractores": {
+          "A": {"explicacion": "La magnitud de una diferencia entre dos porcentajes de especies distintas no es, por sí sola, evidencia de error; se necesitaría evidencia metodológica específica para sostener esa acusación.", "patron_trampa": "acepta un argumento que no tiene respaldo metodológico real, solo basado en que un número es sorprendentemente distinto de otro"},
+          "B": {"explicacion": "Ambos porcentajes (83.3% y 8.7%) provienen del mismo estudio de Hata et al. (2003), no de estudios distintos.", "patron_trampa": "asume incorrectamente que los dos porcentajes vienen de fuentes distintas, cuando en realidad ambos son del mismo estudio y la misma metodología"},
+          "C": {"explicacion": "Hata et al. (2003) sí trabajaron con D. rotundata además de D. alata (y D. bulbifera y D. trifida) dentro del mismo estudio de 50 muestras.", "patron_trampa": "asume incorrectamente que el estudio se limitó a una sola especie, ignorando que analizó varias especies en la misma investigación"}
+        }
+      }
+    ],
+    "bloques_relacionados": ["BQ"],
+    "dificultad": "alta"
+  },
+  {
+    "id": "DIO-IT-005",
+    "modulo": "diosgenina",
+    "tipo": "item",
+    "afirmacion": "analizar_concluir",
+    "contexto": "Un reporte de síntesis generado por una herramienta de IA afirma: 'Según Pérez et al. (2015), la hidrólisis de dioscina con H2SO4 al 3M durante 6 horas produce un rendimiento de diosgenina del 94.2%, muy superior al método estándar.' Al buscar este paper específico para verificarlo contra el protocolo v2 de Fabián, no aparece ningún artículo con ese nombre de autor y año en ninguna base de datos científica consultada, ni en la bibliografía de los papers ya revisados del proyecto.",
+    "preguntas": [
+      {
+        "enunciado": "¿Qué patrón en esta cita debería generar sospecha de fabricación antes incluso de intentar verificarla en una base de datos?",
+        "opciones": {
+          "A": "La combinación de una cifra extremadamente específica y precisa (94.2%) con una afirmación comparativa fuerte, sin ningún detalle adicional de journal, volumen o DOI que permita ubicar la fuente.",
+          "B": "Que la cita mencione una hidrólisis con ácido sulfúrico, un reactivo que no aparece en ningún otro paper de este proyecto.",
+          "C": "Que la cita use el apellido 'Pérez', un apellido demasiado común para pertenecer a un autor científico real.",
+          "D": "Que la cita mencione un porcentaje de rendimiento en vez de una concentración en mg/100g."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Una cifra con precisión decimal aparente combinada con una afirmación de superioridad y cero detalles bibliográficos rastreables es exactamente el patrón que las señales de alerta de fabricación señalan: precisión aparente sin trazabilidad verificable es más sospechosa, no menos, que una afirmación vaga.",
+        "distractores": {
+          "B": {"explicacion": "El H2SO4 sí es el reactivo usado en el sistema del protocolo v2 y en varios papers reales del proyecto (Taylor et al., 2000; Hata et al., 2003); mencionarlo no es en sí mismo una señal de alerta.", "patron_trampa": "confunde un reactivo genuinamente común y esperado en este campo con una señal de fabricación"},
+          "C": {"explicacion": "La frecuencia o comunidad de un apellido no tiene ninguna relación con la validez de una cita científica; hay muchísimos autores reales con apellidos comunes.", "patron_trampa": "usa un criterio irrelevante (percepción subjetiva sobre un apellido) como si fuera evidencia de fabricación"},
+          "D": {"explicacion": "Expresar rendimiento como porcentaje es una práctica perfectamente normal y común en química analítica; no es, por sí mismo, señal de alerta alguna.", "patron_trampa": "trata una convención de unidades perfectamente estándar como si fuera indicio de un problema"}
+        }
+      },
+      {
+        "enunciado": "Después de no encontrar el paper en ninguna base de datos, ¿cuál es la conclusión metodológicamente correcta que Fabián debería sacar?",
+        "opciones": {
+          "A": "Que el hallazgo probablemente es real pero está en una revista muy poco indexada, así que puede incorporarlo al protocolo citando 'Pérez et al., 2015' sin más verificación.",
+          "B": "Que, sin poder verificar la existencia del artículo citado, la afirmación no debe incorporarse al protocolo hasta encontrar, o confirmar la inexistencia de, la fuente primaria.",
+          "C": "Que debe reformular la cifra a un rango más conservador (80-90%, por ejemplo) y usarla de todas formas, asumiendo que el ajuste la vuelve más creíble y aceptable.",
+          "D": "Que debe asumir que el paper existe pero con el nombre del autor mal transcrito, y buscar variantes ortográficas similares antes de descartar la cita."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "La regla básica de verificación es: sin fuente primaria confirmada, no hay afirmación verificable, sin importar qué tan plausible suene la cifra. Intentar rescatar la cita ajustándola o incorporándola de todas formas mantendría información no verificada en un documento que debe basarse en fuentes confirmadas.",
+        "distractores": {
+          "A": {"explicacion": "Una revista poco indexada seguiría siendo encontrable con una búsqueda suficientemente amplia; la ausencia total en cualquier base de datos, junto con la falta de detalles bibliográficos, es más consistente con una cita fabricada que con un artículo real pero oscuro.", "patron_trampa": "racionaliza la ausencia de evidencia inventando una excusa (revista oscura) en vez de considerar la explicación más simple"},
+          "C": {"explicacion": "Ajustar una cifra no verificada a un número que suene más creíble no la hace verificada; sigue siendo una cifra sin fuente real, solo que ahora además está alterada.", "patron_trampa": "confunde hacer una cifra más plausible con hacerla verificada, sin resolver el problema de fondo"},
+          "D": {"explicacion": "Buscar variantes ortográficas es razonable como primer paso, pero si tras un esfuerzo razonable de búsqueda no aparece ninguna coincidencia, la conclusión correcta es no usar la cita.", "patron_trampa": "prolonga indefinidamente el beneficio de la duda hacia una fuente no verificable, en vez de aceptar que la ausencia de evidencia es suficiente para descartar su uso"}
+        }
+      },
+      {
+        "enunciado": "¿Por qué la ausencia de journal, volumen y DOI es una señal de alerta especialmente relevante para el tipo de afirmación citada (una cifra numérica específica de rendimiento experimental)?",
+        "opciones": {
+          "A": "Porque toda afirmación científica publicada, sin ninguna excepción posible, requiere obligatoriamente citar journal, volumen y DOI exactos para ser considerada verdadera.",
+          "B": "Porque las cifras numéricas específicas nunca aparecen en artículos científicos reales serios, solo en resúmenes informales de divulgación popular.",
+          "C": "Porque una cifra experimental específica suele provenir de una tabla de resultados con metodología detallada, y ese tipo de dato normalmente viene acompañado de referencia bibliográfica completa en una síntesis seria; su ausencia es más notoria aquí que en una generalización cualitativa vaga.",
+          "D": "Porque los artículos de química analítica publicados nunca reportan datos de rendimiento expresados como porcentaje, solo como concentraciones absolutas."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Cuanto más específica y cuantitativa es una afirmación, más se espera que una síntesis seria incluya sus datos bibliográficos completos, porque presumiblemente el autor de la síntesis sí tuvo acceso a esos datos al leerlos en el artículo original. La ausencia de esos datos es proporcionalmente más sospechosa cuanto más precisa es la afirmación citada.",
+        "distractores": {
+          "A": {"explicacion": "No toda afirmación requiere necesariamente esos tres datos exactos para ser cierta, pero su ausencia total sí es una señal de alerta a investigar, no una regla absoluta de invalidez automática.", "patron_trampa": "convierte una señal de alerta razonable en una regla absoluta y universal, sobre-generalizando el criterio"},
+          "B": {"explicacion": "Las cifras numéricas de rendimiento, concentración y otros resultados cuantitativos son extremadamente comunes en artículos científicos originales, incluyendo todos los papers reales de este proyecto.", "patron_trampa": "hace una afirmación falsa y extrema sobre la literatura científica que contradice directamente lo observado en el propio corpus de este proyecto"},
+          "D": {"explicacion": "Varios papers reales del proyecto sí reportan rendimientos porcentuales (por ejemplo, Le Bot et al., 2022, reportan porcentaje de recuperación); esta afirmación es simplemente falsa.", "patron_trampa": "hace una generalización falsa sobre un campo entero para justificar sospecha, en vez de señalar la razón real (falta de trazabilidad específica)"}
+        }
+      }
+    ],
+    "bloques_relacionados": ["QA"],
+    "dificultad": "media"
+  },
+  {
+    "id": "DIO-IT-006",
+    "modulo": "diosgenina",
+    "tipo": "item",
+    "afirmacion": "analizar_concluir",
+    "contexto": "Taylor et al. (2000) validaron 2h como tiempo óptimo de hidrólisis usando H2SO4 1M en isopropanol 70% a 100°C, pero trabajando sobre un residuo alcohólico ya pre-extraído (semilla de fenugreco extraída primero con alcohol a 80°C por 3h, evaporada, y solo entonces hidrolizado el residuo). El protocolo v2 de Fabián hidroliza polvo crudo de ñame directamente, en un solo paso, sin pre-extracción alcohólica previa.",
+    "preguntas": [
+      {
+        "enunciado": "A partir de esta diferencia metodológica, ¿cuál es la conclusión más defendible (una hipótesis razonable, no una certeza) sobre el tiempo óptimo esperado para el protocolo de Fabián?",
+        "opciones": {
+          "A": "El tiempo óptimo será exactamente el mismo, 2h, porque el sistema de solvente ácido usado es idéntico en ambos casos comparados.",
+          "B": "El tiempo óptimo será necesariamente menor a 2h, porque el polvo crudo se hidroliza mucho más rápido que un residuo ya purificado.",
+          "C": "No se puede formular ninguna hipótesis razonable sin repetir exactamente el experimento original de Taylor et al. (2000).",
+          "D": "El tiempo óptimo probablemente sea mayor a 2h: el ácido necesita difundir primero a través de la matriz cruda antes de hidrolizar las saponinas, un paso que el residuo pre-extraído de Taylor et al. (2000) no necesitaba atravesar."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Con matriz cruda de por medio, es razonable esperar que el tiempo óptimo para un abordaje de un solo paso sea más largo que para un residuo ya limpio, porque se suma un paso de difusión física que no existía en el sistema de Taylor et al. (2000). Es una hipótesis razonable basada en el mecanismo, no una certeza medida directamente.",
+        "distractores": {
+          "A": {"explicacion": "El sistema de solvente ácido siendo similar no garantiza que el tiempo óptimo sea idéntico, porque la diferencia clave está en la estructura física de la matriz de partida, no en la química del ácido.", "patron_trampa": "asume que igualdad en un factor (el sistema de solvente) implica igualdad en el resultado final, ignorando la diferencia de matriz física"},
+          "B": {"explicacion": "El razonamiento correcto va en la dirección contraria: una matriz cruda añade una barrera de difusión que el residuo pre-extraído no tenía, por lo que se esperaría un tiempo óptimo mayor, no menor.", "patron_trampa": "invierte la dirección del efecto de matriz, prediciendo más rapidez cuando el razonamiento mecanístico sugiere lo contrario"},
+          "C": {"explicacion": "Formular una hipótesis razonable basada en el mecanismo conocido no requiere repetir el experimento original; esa hipótesis es precisamente la base científica para diseñar el experimento comparativo 2h vs. 4h del protocolo v2.", "patron_trampa": "confunde formular una hipótesis razonable con tener una certeza confirmada, tratando la ausencia de un dato exacto como ausencia total de razonamiento posible"}
+        }
+      },
+      {
+        "enunciado": "¿Qué tipo de evidencia adicional confirmaría (o refutaría) esta hipótesis sobre el tiempo óptimo mayor para polvo crudo?",
+        "opciones": {
+          "A": "Medir directamente el rendimiento de diosgenina a varios tiempos de hidrólisis usando polvo crudo de ñame como matriz, y observar en qué tiempo se alcanza el máximo antes de que empiece a degradarse.",
+          "B": "Consultar si algún otro estudiante del semillero está de acuerdo con que 4h suena razonable.",
+          "C": "Repetir exactamente el experimento de Taylor et al. (2000) con residuo pre-extraído de fenugreco, para confirmar nuevamente que 2h es óptimo en ese sistema.",
+          "D": "Leer más papers sobre diosgenina en general, sin necesariamente medir nada directamente sobre polvo crudo de ñame."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La única forma de confirmar o refutar una hipótesis sobre el comportamiento cinético de un sistema específico es medirlo directamente en ese sistema, exactamente lo que el piloto 2h vs. 4h del protocolo v2 busca generar como primer dato comparativo real.",
+        "distractores": {
+          "B": {"explicacion": "La opinión de otros estudiantes, sin datos experimentales de por medio, no confirma ni refuta una hipótesis cinética; es un argumento de consenso, no de evidencia.", "patron_trampa": "sustituye evidencia experimental por consenso de opinión entre pares, sin ningún dato medido de por medio"},
+          "C": {"explicacion": "Repetir el experimento de Taylor et al. (2000) en su propio sistema no dice nada sobre el comportamiento del polvo crudo de ñame; confirmaría su resultado original, pero no la hipótesis específica que se quiere probar aquí.", "patron_trampa": "confunde confirmar un resultado en un sistema distinto con confirmar la hipótesis sobre el sistema de interés real"},
+          "D": {"explicacion": "Leer más literatura general es útil como contexto, pero sin datos medidos directamente sobre polvo crudo de ñame, no aporta evidencia que confirme o refute específicamente esta hipótesis cinética.", "patron_trampa": "confunde acumular más lectura general con generar evidencia experimental específica sobre el sistema en cuestión"}
+        }
+      },
+      {
+        "enunciado": "El propio protocolo v2 menciona que la literatura sobre hidrólisis de polvo crudo disponible viene de D. zingiberensis y D. nipponica (4-5h reportadas), especies industriales chinas. ¿Cómo debería usarse ese dato en relación con la hipótesis sobre el tiempo óptimo de Fabián?",
+        "opciones": {
+          "A": "Como confirmación definitiva de que 4-5h es también el tiempo óptimo exacto para D. rotundata/alata, ya que ambas pertenecen al mismo género botánico.",
+          "B": "Como evidencia indirecta que apoya, sin confirmar con certeza, que un tiempo mayor a 2h es razonable para polvo crudo en general, aunque el valor exacto no sea transferible por tratarse de una especie distinta con posible contenido muy diferente.",
+          "C": "Como un dato completamente irrelevante, ya que D. zingiberensis y D. nipponica no tienen ninguna relación con D. rotundata o D. alata.",
+          "D": "Como evidencia suficiente de que el protocolo debería usar exactamente 4h y descartar por completo la comparación con 2h, dado que la literatura ya resolvió esa pregunta."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El dato de D. zingiberensis/D. nipponica es útil como apoyo direccional sin ser una cifra directamente transferible, porque esas especies se cultivan industrialmente por su altísimo contenido de diosgenina, muy distinto al de las especies americanas/colombianas.",
+        "distractores": {
+          "A": {"explicacion": "Pertenecer al mismo género no garantiza que el tiempo óptimo numérico sea transferible entre especies con contenidos de sapogenina muy distintos, tal como advierte explícitamente el propio protocolo v2.", "patron_trampa": "asume que la pertenencia taxonómica compartida implica automáticamente comportamiento cinético idéntico entre especies distintas"},
+          "C": {"explicacion": "El dato sí es relevante como evidencia indirecta sobre el orden de magnitud esperado para hidrólisis de polvo crudo en general, aunque no sea directamente transferible en su valor numérico exacto.", "patron_trampa": "sobre-corrige descartando por completo un dato parcialmente útil, en vez de usarlo con el matiz apropiado"},
+          "D": {"explicacion": "El protocolo v2 explícitamente decide no fijar 4h de antemano precisamente porque la literatura de D. zingiberensis/nipponica no es directamente transferible; por eso diseña la comparación 2h vs. 4h como piloto exploratorio.", "patron_trampa": "trata un dato de apoyo indirecto como si fuera una respuesta definitiva ya resuelta, precisamente lo contrario de lo que el protocolo decide hacer"}
+        }
+      }
+    ],
+    "bloques_relacionados": ["FQ", "QA"],
+    "dificultad": "alta"
+  },
+  {
+    "id": "DIO-IT-007",
+    "modulo": "diosgenina",
+    "tipo": "item",
+    "afirmacion": "comprender_modelos",
+    "contexto": "La hidrólisis ácida de dioscina puede modelarse como una reacción consecutiva de dos pasos: dioscina (sustrato) → diosgenina (producto deseado) → 25-espirosta-3,5-dieno (producto de degradación, por deshidratación del -OH en C-3 bajo el ácido caliente). Taylor et al. (2000) documentaron que, en su sistema, el rendimiento de diosgenina fue óptimo a las 2h, y el dieno de degradación aumentó gradualmente con el tiempo, siendo particularmente alto a las 12h.",
+    "preguntas": [
+      {
+        "enunciado": "¿Por qué este modelo de reacción consecutiva predice que el rendimiento de diosgenina necesariamente pase por un máximo en algún punto del tiempo, en vez de seguir subiendo indefinidamente?",
+        "opciones": {
+          "A": "Porque el ácido sulfúrico usado en el reflujo se consume por completo tras cierto tiempo, dejando de estar disponible para seguir reaccionando con el sustrato.",
+          "B": "Porque la temperatura del baño de reflujo disminuye naturalmente con el paso del tiempo, ralentizando ambas reacciones químicas por igual.",
+          "C": "Porque mientras hay dioscina sin convertir, la diosgenina se acumula más rápido de lo que se degrada; pero al convertirse la mayoría, la diosgenina misma empieza a degradarse hacia el dieno más rápido de lo que se genera, y su concentración neta baja.",
+          "D": "Porque la diosgenina, al ser un producto natural de origen vegetal, tiene una vida media química fija, predeterminada e independiente de las condiciones de reacción usadas."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "En una reacción consecutiva A→B→C, la concentración del intermedio B sube mientras su tasa de formación supera su tasa de consumo; en algún punto ambas tasas se igualan (el máximo), y después la tasa de consumo supera a la de formación, haciendo que B decline. Es una consecuencia matemática necesaria del modelo.",
+        "distractores": {
+          "A": {"explicacion": "El ácido se usa en exceso relativo respecto al sustrato en estos protocolos; el mecanismo real del máximo es cinético (competencia entre formación y degradación), no de agotamiento de reactivo.", "patron_trampa": "propone una explicación de agotamiento de reactivo sin evidencia, en vez del mecanismo cinético real de reacción consecutiva"},
+          "B": {"explicacion": "El protocolo especifica mantener el baño a temperatura constante durante todo el reflujo; no hay enfriamiento gradual esperado que explique el patrón observado.", "patron_trampa": "inventa un cambio de condiciones experimentales que no está descrito ni es consistente con el diseño de reflujo a temperatura constante"},
+          "D": {"explicacion": "La velocidad de degradación de la diosgenina depende de las condiciones de reacción, no de una vida media fija independiente del contexto experimental.", "patron_trampa": "atribuye una propiedad intrínseca fija a una molécula, cuando su velocidad de degradación depende de las condiciones de reacción específicas"}
+        }
+      },
+      {
+        "enunciado": "¿Qué implicación práctica tiene este modelo para elegir el tiempo de reflujo en un protocolo de hidrólisis?",
+        "opciones": {
+          "A": "Que siempre conviene usar el tiempo más largo posible, ya que eso garantiza la conversión más completa del sustrato.",
+          "B": "Que el tiempo de reflujo no tiene ningún efecto real sobre el rendimiento final, ya que el equilibrio químico se alcanza independientemente del tiempo.",
+          "C": "Que conviene usar el tiempo más corto técnicamente posible, ya que cualquier exposición al ácido genera degradación inmediata.",
+          "D": "Que existe un tiempo óptimo intermedio que hay que determinar empíricamente para el sistema específico en cuestión, ni tan corto que deje sustrato sin convertir, ni tan largo que degrade el producto ya formado."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El modelo implica directamente que ni el extremo de muy poco tiempo ni el de demasiado tiempo maximizan el rendimiento; hay un punto intermedio, el óptimo cinético, que depende de las velocidades relativas de formación y degradación y debe determinarse experimentalmente.",
+        "distractores": {
+          "A": {"explicacion": "Un tiempo más largo garantiza más conversión de sustrato solo hasta cierto punto; después de ese punto, el tiempo adicional degrada producto ya formado en vez de generar más.", "patron_trampa": "asume que más tiempo siempre mejora el resultado, ignorando la segunda mitad del modelo de reacción consecutiva"},
+          "B": {"explicacion": "El propio dato de Taylor et al. (2000) muestra que el tiempo sí afecta fuertemente el rendimiento; el modelo depende explícitamente del tiempo, no es independiente de él.", "patron_trampa": "confunde un proceso cinético claramente dependiente del tiempo con un equilibrio termodinámico independiente de él"},
+          "C": {"explicacion": "Un tiempo demasiado corto deja sustrato sin hidrolizar, desperdiciando diosgenina potencial que sigue atrapada como glicósido; el extremo opuesto también es un error.", "patron_trampa": "sobre-corrige hacia el extremo opuesto, ignorando que la conversión incompleta también reduce el rendimiento"}
+        }
+      },
+      {
+        "enunciado": "Si Fabián observara que su muestra de 4h tiene menos residuo 'efectivo' de diosgenina que la de 2h (una vez que tenga forma de cuantificarlo), ¿sería esto consistente con el modelo de reacción consecutiva?",
+        "opciones": {
+          "A": "Sí, sería consistente: indicaría que, para su matriz específica, el punto óptimo cinético podría estar más cerca de las 2h que de las 4h, con degradación hacia el dieno ya ocurriendo de forma apreciable a las 4h.",
+          "B": "No, sería inconsistente: el modelo predice que más tiempo de hidrólisis siempre da más diosgenina, así que esa observación indicaría un error experimental.",
+          "C": "No, sería inconsistente: el modelo solo aplica a fenugreco (Taylor et al., 2000), no puede replicarse conceptualmente en ñame bajo ninguna circunstancia.",
+          "D": "Sí, pero solo porque el ácido usado en el protocolo de Fabián es de menor concentración que el de Taylor et al. (2000), no por el modelo de reacción consecutiva en sí."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El modelo predice exactamente que existe un máximo en el tiempo, y ese máximo puede estar en un punto distinto para cada sistema específico; observar menos producto a 4h que a 2h sería perfectamente consistente con que el óptimo de Fabián esté más cerca de las 2h, sin implicar ningún error experimental.",
+        "distractores": {
+          "B": {"explicacion": "Esa sería la predicción de un modelo incorrecto de conversión simple sin degradación; el modelo de reacción consecutiva predice explícitamente lo contrario: un máximo, no un aumento monótono indefinido.", "patron_trampa": "aplica el modelo simplificado incorrecto en vez del modelo de reacción consecutiva que sí incluye la etapa de degradación"},
+          "C": {"explicacion": "El modelo de reacción consecutiva es un principio general de cinética química, no una observación exclusiva y no transferible del sistema específico de fenugreco.", "patron_trampa": "confunde un principio cinético general con un hallazgo empírico específico no transferible a otro sistema"},
+          "D": {"explicacion": "La concentración del ácido puede desplazar en qué tiempo ocurre el máximo, pero no es la razón de que exista un máximo en primer lugar, eso es consecuencia del modelo de reacción consecutiva en sí.", "patron_trampa": "atribuye el fenómeno del máximo a un parámetro específico en vez de al mecanismo cinético general que lo produce"}
+        }
+      }
+    ],
+    "bloques_relacionados": ["FQ"],
+    "dificultad": "alta"
+  },
+  {
+    "id": "DIO-IT-008",
+    "modulo": "diosgenina",
+    "tipo": "item",
+    "afirmacion": "comprender_modelos",
+    "contexto": "Baccou et al. (1977) reportan un coeficiente de absorción molar de ε≈49000 L·mol⁻¹·cm⁻¹ a 430 nm para el cromóforo común de las sapogeninas espirostánicas, frente a un valor de 45 reportado para un método espectrofotométrico anterior usado como comparación.",
+    "preguntas": [
+      {
+        "enunciado": "¿Qué significa, en términos prácticos, que el ε del método de Baccou sea varias veces mayor que el de un método anterior?",
+        "opciones": {
+          "A": "Que el método de Baccou es más específico, ya que reacciona con más tipos distintos de compuestos que el método anterior.",
+          "B": "Que el método de Baccou es más sensible: se necesita menos concentración de sapogenina para producir una absorbancia claramente medible, permitiendo detectar cantidades más pequeñas.",
+          "C": "Que el método de Baccou tarda más tiempo en desarrollar color que el método anterior, debido a su mayor coeficiente.",
+          "D": "Que el método de Baccou solo funciona a concentraciones mucho más altas que el método anterior."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Según la ley de Beer-Lambert, a igual concentración y paso óptico, un ε mayor produce una absorbancia mayor; esto significa que se necesita menos concentración para alcanzar una absorbancia detectable, la definición práctica de mayor sensibilidad. Baccou et al. (1977) reportan detección hasta 0.5 μg/mL, consistente con esta mayor sensibilidad.",
+        "distractores": {
+          "A": {"explicacion": "El coeficiente de absorción molar habla de qué tan fuerte es la señal por unidad de concentración (sensibilidad), no de con cuántos compuestos distintos reacciona el método (especificidad, una propiedad independiente).", "patron_trampa": "confunde sensibilidad con especificidad, dos ejes distintos de calidad analítica"},
+          "C": {"explicacion": "El tiempo de desarrollo de color es una variable experimental separada del valor de ε; Baccou et al. (1977) señalan que su tiempo de reacción es más corto que el de otras técnicas, no más largo.", "patron_trampa": "inventa una relación causal entre ε y tiempo de reacción que no existe conceptualmente ni está respaldada por los datos reales"},
+          "D": {"explicacion": "Es exactamente lo contrario: un ε mayor permite trabajar a concentraciones más bajas, no más altas.", "patron_trampa": "invierte la relación matemática entre ε y la concentración mínima necesaria para una señal detectable"}
+        }
+      },
+      {
+        "enunciado": "¿Qué NO implica necesariamente un ε alto sobre la calidad general de un método analítico?",
+        "opciones": {
+          "A": "Que se puedan usar cantidades más pequeñas de muestra para obtener una lectura medible.",
+          "B": "Que el método sea especialmente útil cuando la cantidad de analito disponible es limitada.",
+          "C": "Que el método sea específico para el compuesto de interés, sin reaccionar con otros compuestos parecidos presentes en la muestra.",
+          "D": "Que, comparado con un método de ε mucho menor, se necesite menos concentración para alcanzar la misma absorbancia."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Un ε alto es evidencia de sensibilidad, no de especificidad; un método podría tener un ε altísimo y aun así reaccionar con otros compuestos parecidos. La especificidad del método de Baccou se demuestra con un experimento distinto (el pico único a 430 nm y la falta de reacción con esteroles, corticosteroides, etc.), no por el valor de ε en sí.",
+        "distractores": {
+          "A": {"explicacion": "Esto sí es una implicación directa y correcta de un ε alto: menos analito necesario para una señal medible es precisamente la definición de mayor sensibilidad.", "patron_trampa": "duda de una implicación directa y matemáticamente correcta de un ε alto"},
+          "B": {"explicacion": "Esto también es una consecuencia práctica válida y correcta de la mayor sensibilidad asociada a un ε alto.", "patron_trampa": "rechaza una consecuencia práctica legítima de la sensibilidad, cuando se sigue directamente de ella"},
+          "D": {"explicacion": "Esta es, literalmente, la definición matemática de lo que significa un ε mayor según la ley de Beer-Lambert.", "patron_trampa": "duda de la relación matemática directa entre ε y concentración necesaria, exactamente la ecuación de Beer-Lambert"}
+        }
+      },
+      {
+        "enunciado": "Baccou et al. (1977) también reportan que su método detecta sapogenina hasta una concentración de 0.5 μg/mL. ¿Cómo se relaciona este dato con el valor de ε≈49000?",
+        "opciones": {
+          "A": "No tiene ninguna relación; el límite de detección depende exclusivamente del instrumento usado, no del valor de ε del cromóforo.",
+          "B": "Se relacionan de forma inversa: cuanto mayor el ε, peor el límite de detección, porque se satura más rápido el detector.",
+          "C": "Se relacionan solo por coincidencia estadística, sin ningún vínculo matemático o conceptual entre ambos valores.",
+          "D": "Están directamente relacionados: un ε alto es precisamente lo que permite alcanzar un límite de detección bajo, ya que se necesita menos concentración para generar una señal distinguible del ruido de fondo."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El límite de detección bajo es una consecuencia directa y esperada de tener un ε alto: ambos conceptos describen la misma propiedad subyacente del método (su sensibilidad), vista desde dos ángulos distintos.",
+        "distractores": {
+          "A": {"explicacion": "Aunque el instrumento también influye en el límite de detección práctico, el valor de ε del cromóforo es un factor determinante central: a mayor ε, menor concentración se necesita para generar una señal por encima del ruido.", "patron_trampa": "ignora el factor químico (ε) y atribuye el límite de detección únicamente a un factor instrumental, cuando ambos contribuyen"},
+          "B": {"explicacion": "Es exactamente lo contrario: un ε más alto mejora (reduce) el límite de detección, no lo empeora; la saturación del detector es un fenómeno distinto que ocurre a concentraciones altas.", "patron_trampa": "invierte la relación entre ε y límite de detección, y confunde un fenómeno de saturación a concentraciones altas con el comportamiento a concentraciones bajas"},
+          "C": {"explicacion": "Existe una relación matemática directa y bien establecida entre el coeficiente de absorción molar y la sensibilidad/límite de detección, derivada de la ley de Beer-Lambert.", "patron_trampa": "descarta una relación causal matemáticamente fundamentada tratándola como una simple coincidencia sin explicación"}
+        }
+      }
+    ],
+    "bloques_relacionados": ["FQ", "QA"],
+    "dificultad": "media"
+  },
+  {
+    "id": "DIO-IT-009",
+    "modulo": "diosgenina",
+    "tipo": "item",
+    "afirmacion": "comprender_modelos",
+    "contexto": "En una curva de calibración de absorbancia vs. concentración, el intercepto es el valor de absorbancia predicho cuando la concentración es cero. Las curvas de Lebot et al. (2019) por HPTLC tienen interceptos no exactamente iguales a cero (por ejemplo, gracilina: -316.28; protodioscina: -4580.7), pero con R² superiores a 0.99 en todos los casos.",
+    "preguntas": [
+      {
+        "enunciado": "¿Por qué un intercepto de calibración cercano a cero es considerado evidencia de ausencia de error sistemático aditivo?",
+        "opciones": {
+          "A": "Porque si en concentración cero (sin analito) la señal predicha también fuera cero, eso indicaría que no hay una señal de fondo constante contaminando todas las lecturas de forma pareja, independiente de la concentración real.",
+          "B": "Porque un intercepto de cero garantiza automáticamente que el método tiene una especificidad perfecta frente a cualquier interferente posible.",
+          "C": "Porque un intercepto de cero es un requisito legal obligatorio para publicar cualquier método analítico en una revista científica.",
+          "D": "Porque un intercepto de cero elimina por completo la necesidad de calcular un R² para validar la calibración."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Un intercepto alejado de cero sugeriría que, incluso sin analito presente, el sistema produce una señal, lo cual apunta a una fuente de error sistemático aditivo que se suma por igual a todas las lecturas, sin importar la concentración real.",
+        "distractores": {
+          "B": {"explicacion": "El intercepto habla de la presencia o ausencia de señal de fondo aditiva, no de si el método reacciona específicamente solo con el analito de interés, que es especificidad, evaluada con un experimento distinto.", "patron_trampa": "confunde una propiedad de calibración (intercepto) con una propiedad de especificidad frente a interferentes, conceptos independientes"},
+          "C": {"explicacion": "No existe tal requisito legal; el intercepto es un parámetro estadístico de la calibración evaluado por criterios científicos, no por regulación editorial.", "patron_trampa": "inventa un requisito regulatorio inexistente para explicar un concepto que en realidad es puramente estadístico"},
+          "D": {"explicacion": "El intercepto y el R² son dos parámetros distintos e independientes de la misma calibración; evaluar uno no elimina la necesidad de evaluar el otro.", "patron_trampa": "asume que un buen valor en un parámetro hace innecesario evaluar otro parámetro distinto, cuando en realidad son complementarios"}
+        }
+      },
+      {
+        "enunciado": "Un intercepto cercano a cero, por sí solo, ¿qué problema NO permite descartar?",
+        "opciones": {
+          "A": "Un sesgo aditivo constante que afecte todas las lecturas por igual, independientemente de la concentración.",
+          "B": "Una interferencia que reaccione de forma proporcional a la concentración del analito, alterando específicamente la pendiente de la curva en vez del intercepto.",
+          "C": "Una señal de fondo constante presente incluso sin analito, que se sumaría de igual manera a cualquier lectura.",
+          "D": "Un desplazamiento aditivo fijo del cero de la escala de absorbancia del instrumento."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El intercepto es sensible específicamente a errores aditivos; una interferencia que reaccione en proporción a la concentración del analito afectaría la pendiente de la calibración, no el intercepto. Un intercepto cercano a cero no dice nada sobre ese tipo específico de interferencia proporcional; para descartarla se necesita el experimento de interferentes, no la calibración por sí sola.",
+        "distractores": {
+          "A": {"explicacion": "Este es exactamente el tipo de problema que un intercepto cercano a cero sí ayuda a descartar de forma razonable, es su función principal.", "patron_trampa": "confunde el tipo de error que el intercepto sí evalúa (aditivo) con uno que no evalúa (proporcional)"},
+          "C": {"explicacion": "Una señal de fondo constante sin analito es, por definición, un error aditivo, precisamente lo que el intercepto está diseñado para detectar cuando es cercano a cero.", "patron_trampa": "no reconoce que esta descripción es sinónimo directo de error aditivo, el tipo de problema que el intercepto sí evalúa"},
+          "D": {"explicacion": "Un desplazamiento fijo del cero del instrumento es, otra vez, un error de tipo aditivo, exactamente lo que el intercepto evalúa.", "patron_trampa": "no reconoce que un desplazamiento fijo del cero es matemáticamente equivalente a un error aditivo"}
+        }
+      },
+      {
+        "enunciado": "Fabián construye su propia curva de calibración con un futuro estándar de diosgenina y obtiene un intercepto pequeño pero distinto de cero. ¿Cuál sería la interpretación metodológicamente más apropiada?",
+        "opciones": {
+          "A": "Debe descartar automáticamente toda la calibración, ya que cualquier intercepto distinto de cero invalida el método por completo.",
+          "B": "Debe ignorar completamente el intercepto, ya que solo el valor de la pendiente importa para cuantificar muestras desconocidas.",
+          "C": "Debe evaluar si ese intercepto es pequeño en relación con el rango de absorbancias que espera medir en sus muestras reales; si lo es, y el R² es alto, puede proceder con la calibración con confianza razonable.",
+          "D": "Debe cambiar el reactivo colorimétrico por uno completamente distinto, ya que ningún intercepto distinto de cero es aceptable en química analítica."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "La práctica estándar, consistente con ejemplos reales como los de Lebot et al. (2019), es evaluar el tamaño relativo del intercepto frente a la escala de señales de trabajo, no rechazar automáticamente cualquier desviación de cero.",
+        "distractores": {
+          "A": {"explicacion": "Rechazar automáticamente cualquier intercepto no exactamente igual a cero sería una regla excesivamente rígida que ni siquiera cumplen las calibraciones publicadas y aceptadas de la literatura revisada en este proyecto.", "patron_trampa": "aplica una regla absoluta e irreal que ni la literatura publicada cumple en la práctica"},
+          "B": {"explicacion": "El intercepto sigue siendo relevante para detectar posible sesgo aditivo; ignorarlo por completo elimina información útil sobre la calidad de la calibración.", "patron_trampa": "descarta por completo un parámetro relevante en vez de evaluarlo apropiadamente junto con los demás"},
+          "D": {"explicacion": "Cambiar de reactivo completo es una respuesta desproporcionada frente a un intercepto pequeño y razonable; no hay ninguna regla que exija un intercepto matemáticamente exacto de cero.", "patron_trampa": "propone una solución desproporcionada para un problema que, evaluado apropiadamente, podría no ser un problema real"}
+        }
+      }
+    ],
+    "bloques_relacionados": ["QA"],
+    "dificultad": "alta"
+  },
+  {
+    "id": "DIO-IT-010",
+    "modulo": "diosgenina",
+    "tipo": "item",
+    "afirmacion": "establecer_estrategias",
+    "contexto": "Al pesar los cuatro residuos secos de la Etapa 5, Fabián nota que la combinación 'con antipardeamiento, 4h' pesa notablemente más que las otras tres combinaciones.",
+    "preguntas": [
+      {
+        "enunciado": "¿Cuál sería el primer paso metodológicamente más razonable para distinguir si ese mayor peso refleja más diosgenina real o un artefacto de manejo (como agua residual o pérdida diferencial de muestra en las otras combinaciones)?",
+        "opciones": {
+          "A": "Asumir directamente que hay más diosgenina en esa combinación específica, y reportarlo así de una vez en el cuaderno de laboratorio.",
+          "B": "Repetir de inmediato las cuatro hidrólisis completas desde cero, sin revisar primero ningún dato ya registrado de la sesión de hoy.",
+          "C": "Descartar directamente la muestra más pesada, por considerarla de entrada un valor atípico poco confiable para el análisis.",
+          "D": "Revisar primero los datos de trazabilidad ya registrados (aspecto del residuo, emulsión durante la extracción, tiempo de evaporación) para descartar explicaciones no relacionadas con el contenido de diosgenina."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Antes de interpretar una diferencia de peso como una diferencia real de contenido, lo más razonable es revisar la información de trazabilidad ya disponible, exactamente lo que la tabla de registro de datos del protocolo v2 fue diseñada para capturar. Solo después de descartar explicaciones alternativas tiene sentido considerar la diferencia como potencialmente relacionada con el tratamiento.",
+        "distractores": {
+          "A": {"explicacion": "Sin descartar primero explicaciones alternativas, asumir directamente que la diferencia refleja más diosgenina sería una conclusión prematura no respaldada por evidencia suficiente.", "patron_trampa": "salta a una conclusión causal específica sin haber descartado primero explicaciones alternativas más simples"},
+          "B": {"explicacion": "Repetir todo el experimento sin revisar primero los datos ya disponibles desperdicia información valiosa ya registrada.", "patron_trampa": "propone repetir todo el trabajo experimental sin aprovechar primero la información de bajo costo ya disponible en los registros existentes"},
+          "C": {"explicacion": "Descartar una observación real sin investigar su causa pierde información potencialmente valiosa; el peso atípico podría ser el resultado más interesante del piloto, o un artefacto, ambas posibilidades merecen investigarse.", "patron_trampa": "descarta un dato real sin investigar su causa, tratando diferente de lo esperado como sinónimo de no confiable"}
+        }
+      },
+      {
+        "enunciado": "Si al revisar la trazabilidad, Fabián encuentra que en la Etapa 4 (lavado de la fase orgánica) de esa combinación específica quedó una gota de aspecto acuoso más notoria que en las otras tres, ¿qué relevancia tiene ese hallazgo para interpretar el peso extra?",
+        "opciones": {
+          "A": "Es directamente relevante: sugiere que parte del peso adicional podría deberse a agua residual no completamente decantada, un artefacto de manejo, no necesariamente a más diosgenina.",
+          "B": "No tiene ninguna relevancia, ya que el agua se evapora completamente junto con el DCM en la Etapa 5 sin dejar rastro de peso adicional.",
+          "C": "Es relevante solo si esa misma gota también aparece en las otras tres combinaciones, de lo contrario debe ignorarse por completo.",
+          "D": "Confirma definitivamente que el peso extra es 100% agua, sin ninguna contribución real de diosgenina en esa combinación."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El agua tiene un punto de ebullición mucho más alto que el DCM, así que a las temperaturas suaves de evaporación del protocolo, cualquier agua residual no se evapora junto con el DCM; se queda como gota separada, contribuyendo directamente al peso final medido.",
+        "distractores": {
+          "B": {"explicacion": "Es precisamente lo contrario: el agua no se evapora a esas temperaturas suaves, por lo que sí queda contribuyendo al peso del residuo si no se elimina por decantación antes de pesar.", "patron_trampa": "invierte la relación de volatilidad entre agua y DCM, asumiendo que ambos se evaporan igual de fácil"},
+          "C": {"explicacion": "Que un artefacto aparezca en una sola combinación y no en las otras no lo hace irrelevante; de hecho, es precisamente esa asimetría la que podría explicar por qué solo esa muestra pesa más.", "patron_trampa": "exige una condición innecesaria para considerarlo relevante, cuando en realidad su relevancia está justamente en explicar una diferencia específica"},
+          "D": {"explicacion": "Observar una gota de agua no permite concluir qué proporción exacta del peso total corresponde a agua vs. a diosgenina real; sin cuantificación, no se puede afirmar que sea el 100%.", "patron_trampa": "sobre-extiende una observación cualitativa hacia una conclusión cuantitativa exacta sin la medición que la respaldaría"}
+        }
+      },
+      {
+        "enunciado": "Suponiendo que se descartan explicaciones de artefacto de manejo, ¿qué estrategia de bajo costo permitiría empezar a distinguir 'más diosgenina real' de 'más material co-extraído inespecífico' en esa muestra, sin necesitar aún el espectrofotómetro?",
+        "opciones": {
+          "A": "Ninguna estrategia de bajo costo es realmente posible sin el espectrofotómetro; hay que esperar hasta conseguirlo antes de investigar cualquier cosa más.",
+          "B": "Aplicar el índice espumante sobre una fracción de la muestra: si la actividad tensoactiva escala junto con el peso extra, apoya más contenido real; si no escala proporcionalmente, sugiere otro compuesto co-extraído.",
+          "C": "Repetir la Etapa 3 de extracción líquido-líquido con mucho más volumen de DCM del que indica el protocolo original, para intentar 'purificar' mejor la muestra.",
+          "D": "Comparar el color del residuo a simple vista contra las otras tres muestras obtenidas, ya que el color por sí solo confirma con certeza la composición química exacta."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El índice espumante, aunque no distingue tipos específicos de saponina, es una herramienta de bajo costo disponible hoy que puede dar una primera pista sobre si el peso extra corresponde o no a compuestos tensoactivos tipo saponina/sapogenina.",
+        "distractores": {
+          "A": {"explicacion": "Existen estrategias de bajo costo disponibles hoy, como el índice espumante o el gravimétrico comparativo, que aportan información preliminar sin necesitar el instrumento.", "patron_trampa": "asume que la única forma válida de investigar es con el instrumento más sofisticado, ignorando alternativas de menor costo ya disponibles"},
+          "C": {"explicacion": "Usar más DCM del indicado no 'purifica' la muestra; según la ley de reparto de Nernst, lo que determina cuánto se extrae es el número de extracciones sucesivas y el K_D, no simplemente usar más volumen de una sola vez.", "patron_trampa": "propone repetir un paso del protocolo con una variación que no aborda la pregunta real"},
+          "D": {"explicacion": "El color a simple vista es, en el mejor de los casos, una pista cualitativa muy burda; no confirma con certeza ninguna composición química específica sin un método de medición real.", "patron_trampa": "sobre-confía en una observación visual subjetiva como si fuera una prueba analítica confirmatoria"}
+        }
+      }
+    ],
+    "bloques_relacionados": ["FQ", "QA"],
+    "dificultad": "media"
+  },
+  {
+    "id": "DIO-IT-011",
+    "modulo": "diosgenina",
+    "tipo": "item",
+    "afirmacion": "establecer_estrategias",
+    "contexto": "Fabián no consigue ni etanol ni acetato de etilo para la derivatización pendiente con el reactivo de Baccou. Solo tiene isopropanol disponible, cuya solubilidad de diosgenina es similar a la del etanol según Chen et al. (2012), pero cuyo comportamiento específico en la reacción colorimétrica de Baccou no ha sido probado ni reportado en ningún paper revisado.",
+    "preguntas": [
+      {
+        "enunciado": "¿Qué experimento mínimo debería diseñar Fabián antes de comprometer las cuatro muestras reales completas a usar isopropanol como solvente de reconstitución?",
+        "opciones": {
+          "A": "Ninguno; como la solubilidad es similar a la del etanol, puede proceder directamente con las cuatro muestras sin verificación adicional.",
+          "B": "Repetir todo el protocolo desde la Etapa 1 con una quinta muestra adicional de polvo de ñame, usando isopropanol desde el inicio.",
+          "C": "Probar el reactivo de anisaldehído-H2SO4 en isopropanol contra un blanco (sin analito) y, si es posible, contra una pequeña cantidad de un patrón de sapogenina conocido, en una escala pequeña separada de las cuatro muestras reales.",
+          "D": "Consultar con otros semilleros de universidades distintas sobre qué solvente prefieren ellos, y adoptar esa recomendación sin pruebas propias."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "La estrategia de bajo riesgo es probar el reactivo en una escala pequeña, separada de las muestras reales valiosas, antes de comprometerlas, dado que el comportamiento específico del isopropanol en esta reacción no ha sido reportado en la literatura revisada.",
+        "distractores": {
+          "A": {"explicacion": "Similitud en solubilidad no implica similitud en comportamiento durante la reacción colorimétrica; proceder sin verificación arriesga las cuatro muestras reales sin necesidad.", "patron_trampa": "extrapola una propiedad física (solubilidad) a una propiedad química distinta sin verificación directa"},
+          "B": {"explicacion": "Repetir todo el protocolo desde el inicio es un esfuerzo desproporcionado para responder una pregunta acotada que se puede investigar con un experimento mucho más pequeño y dirigido.", "patron_trampa": "propone una solución de alto costo para una pregunta que puede responderse con un experimento mucho más pequeño y específico"},
+          "D": {"explicacion": "La recomendación de otros grupos, sin evidencia experimental propia sobre este sistema específico, es un argumento de autoridad que no reemplaza una prueba directa.", "patron_trampa": "sustituye evidencia experimental directa por recomendación externa no verificada, un argumento de autoridad"}
+        }
+      },
+      {
+        "enunciado": "Si esa prueba pequeña muestra que el isopropanol genera una absorbancia de blanco notablemente alta (similar o peor que la reportada para acetona en Le et al., 2018), ¿qué debería concluir Fabián?",
+        "opciones": {
+          "A": "Que debe usar isopropanol de todas formas, ya que ya lo tiene disponible y cambiar de plan generaría demoras.",
+          "B": "Que el resultado de la prueba pequeña no es representativo y debe repetirla varias veces hasta obtener un resultado distinto.",
+          "C": "Que la interferencia observada invalida por completo cualquier posibilidad de derivatizar sus muestras en el futuro.",
+          "D": "Que el isopropanol probablemente no es un buen candidato para esta reacción específica, y debería seguir buscando activamente conseguir etanol antes de proceder con las cuatro muestras reales."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Si la prueba piloto muestra una interferencia alta, la conclusión correcta es que ese solvente específico no es adecuado para esta reacción, y que vale la pena seguir buscando el candidato con mejor respaldo (etanol) antes de comprometer las muestras reales.",
+        "distractores": {
+          "A": {"explicacion": "Usar un solvente que la propia prueba piloto mostró como problemático, solo por conveniencia, arriesgaría invalidar la derivatización de las cuatro muestras reales.", "patron_trampa": "prioriza la conveniencia y velocidad sobre la validez del resultado, ignorando la evidencia que la propia prueba piloto generó"},
+          "B": {"explicacion": "Repetir una prueba hasta obtener el resultado que uno prefiere, en vez de aceptar el resultado obtenido, introduce sesgo de confirmación, no una validación legítima.", "patron_trampa": "introduce sesgo de confirmación al repetir un experimento hasta obtener el resultado deseado en vez de aceptar la evidencia real obtenida"},
+          "C": {"explicacion": "Que un solvente específico no funcione bien no invalida la posibilidad de derivatizar con otro solvente distinto; la conclusión correcta es específica al isopropanol, no una condena general del proyecto.", "patron_trampa": "sobre-generaliza el fracaso de un solvente específico a una imposibilidad total del objetivo del proyecto"}
+        }
+      },
+      {
+        "enunciado": "¿Por qué probar primero en 'escala pequeña separada de las muestras reales' es una estrategia de menor riesgo que probar directamente sobre una de las cuatro muestras ya obtenidas?",
+        "opciones": {
+          "A": "Porque las cuatro muestras reales son un recurso limitado y valioso; si el experimento piloto revela un problema, se pierde solo material de prueba barato, no una de las muestras irremplazables de la sesión de hoy.",
+          "B": "Porque las muestras reales tienen una composición química completamente distinta a cualquier material de prueba, haciendo que cualquier prueba piloto sea irrelevante de todas formas.",
+          "C": "Porque el protocolo v2 prohíbe explícitamente experimentar con cualquier solvente que no sea acetato de etilo, sin excepciones.",
+          "D": "Porque las pruebas en escala pequeña siempre dan resultados opuestos a los que se obtendrían en las muestras reales, por lo que sirven como control negativo."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El principio de menor riesgo es proteger el recurso más valioso y de mayor costo de reemplazo, usando en su lugar un material de prueba de bajo costo para responder la pregunta específica antes de arriesgar el recurso valioso.",
+        "distractores": {
+          "B": {"explicacion": "Una prueba piloto bien diseñada, por ejemplo con un patrón de sapogenina conocido, sí es relevante para evaluar el comportamiento químico del solvente en la reacción, incluso si no es exactamente la misma matriz compleja.", "patron_trampa": "descarta la utilidad de un experimento piloto controlado, exigiendo una réplica exacta de la matriz compleja cuando no es necesaria"},
+          "C": {"explicacion": "El protocolo v2 no prohíbe explorar alternativas al acetato de etilo; de hecho, dedica una sección completa a evaluar precisamente esas alternativas.", "patron_trampa": "inventa una restricción del protocolo que no existe en el texto real"},
+          "D": {"explicacion": "No hay ninguna razón química o metodológica para esperar que una prueba piloto dé sistemáticamente el resultado opuesto al de la muestra real.", "patron_trampa": "inventa una relación inversa sin fundamento entre los resultados de una prueba piloto y los de la muestra real"}
+        }
+      }
+    ],
+    "bloques_relacionados": ["QA", "FQ"],
+    "dificultad": "media"
+  },
+  {
+    "id": "DIO-IT-012",
+    "modulo": "diosgenina",
+    "tipo": "item",
+    "afirmacion": "establecer_estrategias",
+    "contexto": "Ni Hata et al. (2003) ni Ramos Duarte et al. (2015), los dos papers colombianos revisados, vinculan el nombre vernáculo 'ñame espino' con una especie confirmada de Dioscorea mediante voucher botánico. El protocolo v2 trata la especie de trabajo como una hipótesis razonable (D. rotundata-símil), no como un hecho.",
+    "preguntas": [
+      {
+        "enunciado": "¿Cuál sería una estrategia de bajo costo (en tiempo y recursos) para reducir esta incertidumbre taxonómica antes de generalizar cualquier resultado del piloto a la especie completa?",
+        "opciones": {
+          "A": "Cambiar el nombre del proyecto de 'ñame espino' a 'Dioscorea rotundata' directamente en la tesis, sin ninguna verificación adicional, ya que es la hipótesis más razonable.",
+          "B": "Esperar a tener acceso a un laboratorio de secuenciación genética completo antes de continuar con cualquier otro aspecto del proyecto.",
+          "C": "Ignorar el problema, ya que la mayoría de los estudios sobre ñame tampoco especifican la especie con voucher botánico.",
+          "D": "Llevar una muestra representativa del material vegetal a un agrónomo o comparar contra material de referencia disponible en AGROSAVIA o el herbario de la UIS, para obtener una identificación morfológica preliminar sin necesidad de análisis genético costoso."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Es exactamente la estrategia sugerida en la nota sobre identidad taxonómica del protocolo v2: una comparación morfológica contra material de referencia ya disponible institucionalmente es de bajo costo y puede reducir sustancialmente la incertidumbre.",
+        "distractores": {
+          "A": {"explicacion": "Cambiar el nombre sin verificación adicional convertiría una hipótesis de trabajo razonable en una afirmación presentada como hecho confirmado, precisamente el error que el protocolo v2 advierte evitar.", "patron_trampa": "confunde la hipótesis más razonable disponible con un hecho verificado, saltándose el paso de verificación necesario"},
+          "B": {"explicacion": "Un análisis genético completo es una solución de alto costo y tiempo; existe una alternativa de mucho menor costo que puede reducir la incertidumbre de forma más inmediata sin bloquear el resto del proyecto.", "patron_trampa": "propone la solución de mayor costo disponible cuando existe una alternativa de menor costo que puede ser suficiente como primer paso"},
+          "C": {"explicacion": "Que otros estudios tengan la misma limitación no la vuelve irrelevante para el proyecto propio; reconocerla y buscar reducirla mejora la calidad del propio trabajo.", "patron_trampa": "usa la prevalencia de una limitación en el campo como excusa para no intentar reducirla en el propio proyecto"}
+        }
+      },
+      {
+        "enunciado": "¿Por qué esta estrategia (comparación morfológica) reduce la incertidumbre en vez de eliminarla completamente?",
+        "opciones": {
+          "A": "Porque la identificación morfológica, aunque útil y barata, sigue siendo menos definitiva que un voucher botánico formal en herbario, verificado por un especialista taxónomo con respaldo genético.",
+          "B": "Porque los agrónomos no tienen ninguna formación relevante para identificar especies de Dioscorea, lo que hace su opinión completamente inútil para este propósito.",
+          "C": "Porque ni AGROSAVIA ni el herbario de la UIS contienen ningún material de referencia del género Dioscorea con el cual comparar la muestra.",
+          "D": "Porque la identificación morfológica de plantas siempre da resultados esencialmente aleatorios, sin ninguna relación real con la especie verdadera de la planta."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Una comparación morfológica preliminar es un paso razonable de bajo costo, pero no alcanza el nivel de rigor de un voucher botánico formal; reduce la incertidumbre de forma práctica y accesible, sin eliminarla al nivel de certeza que exigiría una publicación científica formal.",
+        "distractores": {
+          "B": {"explicacion": "Los agrónomos tienen formación relevante en identificación de cultivos y variedades, incluyendo características morfológicas de género y especie; su opinión sí aporta información útil.", "patron_trampa": "descalifica sin fundamento la utilidad de una fuente de conocimiento razonable que sí aporta valor"},
+          "C": {"explicacion": "AGROSAVIA y los herbarios universitarios como el de la UIS mantienen colecciones de referencia de cultivos relevantes para Colombia, incluyendo potencialmente Dioscorea.", "patron_trampa": "asume sin fundamento que instituciones especializadas colombianas no tendrían material de referencia de un cultivo relevante regionalmente"},
+          "D": {"explicacion": "La identificación morfológica se basa en características observables consistentes, tal como describe la metodología de Ramos Duarte et al. (2015), no en resultados aleatorios.", "patron_trampa": "descarta sin fundamento un método de identificación basado en características observables sistemáticas, tratándolo como aleatorio"}
+        }
+      },
+      {
+        "enunciado": "Si la comparación morfológica sugiere que 'ñame espino' es efectivamente similar a D. rotundata, pero sin confirmación genética, ¿cómo debería Fabián presentar la identidad de la especie en su tesis?",
+        "opciones": {
+          "A": "Como 'Dioscorea rotundata', presentándolo como un hecho taxonómico ya confirmado, sin necesidad de ninguna salvedad metodológica adicional.",
+          "B": "Como 'Dioscorea sp. cf. rotundata', dejando explícito que es una identificación preliminar por semejanza morfológica, no una confirmación definitiva, tal como ya aparece en la portada del propio protocolo v2.",
+          "C": "Sin mencionar ninguna especie en absoluto, ya que cualquier mención sin secuenciación genética completa sería científicamente inaceptable de entrada.",
+          "D": "Como una especie completamente distinta y sin relación real, únicamente para evitar cualquier responsabilidad sobre una identificación incorrecta."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "La notación 'cf.' es la convención estándar en botánica para señalar una identificación preliminar por semejanza morfológica sin confirmación definitiva, y es la notación que ya usa la portada del protocolo v2, reflejando honestamente el nivel de certeza real alcanzado.",
+        "distractores": {
+          "A": {"explicacion": "Presentar la identificación preliminar como un hecho confirmado sin salvedad alguna sobrestima el nivel de certeza real alcanzado.", "patron_trampa": "convierte una hipótesis razonable en una afirmación de hecho, perdiendo la honestidad metodológica necesaria"},
+          "C": {"explicacion": "Omitir por completo cualquier mención de especie desperdicia información útil disponible; la convención 'cf.' existe precisamente para estas situaciones intermedias.", "patron_trampa": "sobre-corrige hacia el silencio total, ignorando que existe una convención estándar diseñada exactamente para este nivel intermedio de certeza"},
+          "D": {"explicacion": "Inventar o asignar una especie sin ninguna relación con la evidencia morfológica disponible sería científicamente incorrecto y no tiene justificación metodológica.", "patron_trampa": "propone una alternativa sin fundamento metodológico, motivada por evitar responsabilidad en vez de reflejar honestamente la evidencia disponible"}
+        }
+      }
+    ],
+    "bloques_relacionados": ["BQ"],
+    "dificultad": "media"
+  },
+  {
+    "id": "DIO-IT-013",
+    "modulo": "diosgenina",
+    "tipo": "item",
+    "afirmacion": "plantear_preguntas",
+    "contexto": "El protocolo v2 reconoce que 'ñame espino' es un identificador local sin voucher botánico asociado en ningún paper colombiano revisado, y trata la especie de trabajo como una hipótesis razonable (D. rotundata-símil), no como un hecho confirmado.",
+    "preguntas": [
+      {
+        "enunciado": "Antes de generalizar cualquier resultado de este piloto a toda la especie 'ñame espino' como si fuera equivalente a D. rotundata, ¿cuál es la pregunta de seguimiento más importante que Fabián debería hacerse?",
+        "opciones": {
+          "A": "¿Qué evidencia adicional, más allá de la semejanza morfológica superficial, respaldaría la hipótesis de que 'ñame espino' es D. rotundata, antes de comparar mis resultados contra Hata et al. (2003)?",
+          "B": "¿Cuánto tiempo tomará conseguir el estándar de diosgenina y el espectrofotómetro que faltan para completar la derivatización pendiente del protocolo?",
+          "C": "¿Qué otro tratamiento antipardeamiento, además del ácido ascórbico ya usado, podría probarse en una futura sesión de extracción?",
+          "D": "¿Cuál de las cuatro combinaciones de tratamiento dio el residuo seco de mayor peso en la sesión de hoy del piloto?"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La pregunta más urgente frente a la limitación taxonómica reconocida es cuestionar la solidez de la identificación de especie, ya que cualquier comparación cuantitativa contra literatura de D. rotundata depende completamente de que esa identificación sea correcta.",
+        "distractores": {
+          "B": {"explicacion": "Aunque relevante para el proyecto en general, esta pregunta no aborda directamente la limitación específica de identidad taxonómica que está en juego en este escenario.", "patron_trampa": "cambia de tema hacia una pregunta logística relevante pero no conectada con la limitación taxonómica específica planteada"},
+          "C": {"explicacion": "Esta pregunta es relevante para el pretratamiento antipardeamiento, un aspecto distinto del proyecto, no para la cuestión de identidad de especie planteada en el escenario.", "patron_trampa": "responde a una preocupación metodológica real pero distinta en vez de la pregunta de identidad taxonómica planteada"},
+          "D": {"explicacion": "Esta es una pregunta descriptiva sobre los resultados de hoy, no una que aborde la limitación de fondo sobre la identidad de la especie antes de generalizar esos resultados.", "patron_trampa": "confunde una pregunta descriptiva sobre los datos ya obtenidos con la pregunta crítica de validez que debe resolverse antes de interpretarlos"}
+        }
+      },
+      {
+        "enunciado": "Si Fabián decide, de forma razonable, seguir usando la notación 'D. rotundata-símil' mientras gestiona una identificación más formal, ¿qué pregunta adicional debería hacerse sobre cómo reportar sus resultados mientras tanto?",
+        "opciones": {
+          "A": "¿Debería eliminar por completo cualquier comparación con Hata et al. (2003), dado que la identidad de la especie de trabajo aún no está confirmada?",
+          "B": "¿Cómo comparar mis resultados con los de Hata et al. (2003) de forma útil, dejando explícita la salvedad de que asume, sin confirmar, que 'ñame espino' es D. rotundata?",
+          "C": "¿Qué nombre en inglés convendría usar para 'ñame espino' al momento de redactar la tesis completa en español?",
+          "D": "¿Cuántas páginas específicas debería dedicar en la tesis a explicar la metodología de identificación morfológica usada?"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "La pregunta más productiva no es eliminar la comparación por completo, perdiendo su valor de referencia, sino encontrar la forma de seguir usándola mientras se comunica honestamente el nivel de incertidumbre asociado.",
+        "distractores": {
+          "A": {"explicacion": "Eliminar la comparación por completo desperdicia información de referencia útil; la solución más productiva es mantenerla con la salvedad explícita adecuada.", "patron_trampa": "sobre-corrige hacia eliminar toda referencia útil en vez de matizarla apropiadamente con la salvedad correspondiente"},
+          "C": {"explicacion": "Esta es una pregunta de traducción/terminología, irrelevante para la limitación metodológica de fondo sobre cómo reportar resultados con incertidumbre taxonómica.", "patron_trampa": "distrae hacia una cuestión de forma lingüística en vez de la cuestión metodológica de fondo"},
+          "D": {"explicacion": "Esta es una pregunta sobre extensión/formato de escritura, no sobre la estrategia de comunicación honesta de la incertidumbre metodológica.", "patron_trampa": "convierte una pregunta metodológica sustantiva en una pregunta de formato o extensión del documento"}
+        }
+      },
+      {
+        "enunciado": "Más allá de la comparación con Hata et al. (2003), ¿qué otra pregunta de seguimiento se desprende de la ambigüedad taxonómica en relación con el diseño experimental general del piloto?",
+        "opciones": {
+          "A": "¿Debería Fabián cambiar el nombre completo del semillero de investigación por uno que no mencione directamente la palabra 'diosgenina'?",
+          "B": "¿Es necesario repetir por completo la Etapa 1 de hidrólisis con una concentración de ácido distinta antes de continuar el proyecto?",
+          "C": "Si se confirma que 'ñame espino' es una especie distinta a D. rotundata, ¿qué tan diferentes serían las expectativas de rendimiento, y valdría la pena rediseñar el piloto?",
+          "D": "¿Cuántos semilleros de investigación distintos en Colombia trabajan actualmente de forma activa con el género Dioscorea?"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Esta pregunta conecta directamente la incertidumbre taxonómica con una consecuencia práctica real para el diseño experimental: si la especie resultara ser de baja producción de sapogeninas, las expectativas de rendimiento podrían necesitar ajustarse.",
+        "distractores": {
+          "A": {"explicacion": "Esta pregunta no tiene ninguna relación lógica con la limitación de identidad taxonómica planteada en el escenario.", "patron_trampa": "introduce una pregunta completamente ajena al tema metodológico en cuestión"},
+          "B": {"explicacion": "La concentración de ácido usada en la Etapa 1 no tiene relación directa con la pregunta de identidad taxonómica de la especie.", "patron_trampa": "conecta dos aspectos del protocolo que no están relacionados entre sí"},
+          "D": {"explicacion": "Aunque podría ser una pregunta de contexto general interesante, no se desprende directamente de la limitación taxonómica específica ni tiene conexión clara con el diseño experimental del piloto.", "patron_trampa": "propone una pregunta de contexto general sin conexión directa con la consecuencia práctica de la ambigüedad taxonómica"}
+        }
+      }
+    ],
+    "bloques_relacionados": ["BQ"],
+    "dificultad": "media"
+  },
+  {
+    "id": "DIO-IT-014",
+    "modulo": "diosgenina",
+    "tipo": "item",
+    "afirmacion": "plantear_preguntas",
+    "contexto": "En el piloto de hoy (n=1 por combinación), Fabián observa que la combinación de 4h de hidrólisis da un residuo seco de mayor masa que la de 2h (para el mismo pretratamiento). El residuo seco, en esta etapa, no ha sido sometido a ningún método de cuantificación específico: es solo la masa total del extracto de DCM evaporado.",
+    "preguntas": [
+      {
+        "enunciado": "¿Qué pregunta debe responderse antes de asumir que ese mayor peso a las 4h significa necesariamente más diosgenina real?",
+        "opciones": {
+          "A": "¿Cuánto cuesta conseguir el estándar de diosgenina que se necesita para calibrar el espectrofotómetro pendiente?",
+          "B": "¿De qué color exacto era el hidrolizado de la combinación de 4h durante el reflujo de la Etapa 1?",
+          "C": "¿Cuántas extracciones sucesivas de DCM se realizaron en la Etapa 3 para esa combinación específica de tratamiento?",
+          "D": "¿Ese residuo extra a las 4h corresponde a diosgenina real, o incluye otros compuestos co-extraídos de forma inespecífica, quizás generados por una hidrólisis más prolongada?"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El residuo seco, sin haber pasado por ningún método específico de cuantificación, es solo una medida de masa total co-extraída con DCM, que podría incluir diosgenina pero también otros compuestos apolares sin relación directa con su contenido real. Esta es la pregunta que distingue una observación descriptiva de una conclusión sobre contenido real.",
+        "distractores": {
+          "A": {"explicacion": "Esta es una pregunta logística relevante para el proyecto en general, pero no aborda la pregunta específica de interpretación de este resultado particular.", "patron_trampa": "desvía hacia una pregunta logística sin conexión directa con la interpretación del dato observado"},
+          "B": {"explicacion": "El color del hidrolizado es un dato de trazabilidad útil, pero por sí solo no responde la pregunta central de si el peso extra corresponde específicamente a diosgenina o a otros compuestos.", "patron_trampa": "propone revisar un dato de trazabilidad relevante pero insuficiente por sí solo para responder la pregunta central"},
+          "C": {"explicacion": "El número de extracciones sucesivas de DCM es un parámetro fijo del protocolo (tres extracciones para todas las combinaciones), sin relación con la diferencia de peso observada.", "patron_trampa": "pregunta sobre un parámetro del protocolo que se mantiene constante entre combinaciones, sin relación con la diferencia observada"}
+        }
+      },
+      {
+        "enunciado": "Si Fabián aplicara el índice colorimétrico de Baccou (una vez disponible) sobre ambas combinaciones y encontrara que la señal específica de sapogeninas no aumenta proporcionalmente al peso extra observado en la de 4h, ¿qué pregunta de seguimiento sería la más productiva?",
+        "opciones": {
+          "A": "¿Qué otros compuestos del tubérculo, como productos de degradación de almidón bajo hidrólisis prolongada, podrían explicar el peso no cubierto por la señal colorimétrica?",
+          "B": "¿Debería Fabián simplemente ignorar el resultado colorimétrico obtenido, y confiar en cambio en el peso total como la medida más confiable de diosgenina real?",
+          "C": "¿Es necesario repetir por completo la Etapa 2 de filtración y neutralización con un pH objetivo distinto para resolver esta discrepancia observada?",
+          "D": "¿Cuál de los tres índices disponibles es 'el correcto' de verdad, y cuáles dos deberían descartarse por completo del análisis?"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Si la señal específica no explica todo el peso extra, la pregunta productiva es investigar qué otros compuestos podrían estar contribuyendo a esa masa adicional, exactamente el tipo de razonamiento que sustenta usar varios índices en paralelo.",
+        "distractores": {
+          "B": {"explicacion": "Ignorar la evidencia más específica en favor de la medida menos específica invertiría la lógica de por qué se usan varios índices en paralelo; la gravimetría es precisamente la más propensa a sobreestimación por co-extracción.", "patron_trampa": "prefiere la medida menos específica sobre la más específica, invirtiendo la lógica de confiabilidad relativa entre los tres índices"},
+          "C": {"explicacion": "El pH de neutralización en la Etapa 2 es un parámetro fijo del protocolo sin relación directa con la pregunta de qué compuestos explican el peso extra observado en la Etapa 5.", "patron_trampa": "propone modificar un parámetro del protocolo no relacionado con la pregunta de interpretación planteada"},
+          "D": {"explicacion": "Los tres índices no son mutuamente excluyentes ni existe uno que sea el correcto de forma absoluta; cada uno mide algo distinto, y la estrategia correcta es interpretarlos en conjunto.", "patron_trampa": "trata los tres métodos complementarios como si fueran competidores mutuamente excluyentes"}
+        }
+      },
+      {
+        "enunciado": "¿Por qué esta pregunta (distinguir peso real de diosgenina vs. co-extracción inespecífica) es especialmente relevante dado que el piloto de hoy tiene n=1 por combinación?",
+        "opciones": {
+          "A": "No es especialmente relevante; el tamaño de muestra no tiene ninguna relación real con la necesidad de distinguir el origen del peso ya observado.",
+          "B": "Es aún más relevante: con n=1, no hay forma de saber si la diferencia refleja un patrón consistente o solo variabilidad de una preparación, así que resolver primero de qué está hecho ese peso evita conclusiones sobre una base doblemente incierta.",
+          "C": "Es relevante solo si el peso extra observado es mayor al doble del peso de las otras tres combinaciones, de lo contrario puede ignorarse.",
+          "D": "Es relevante únicamente para la combinación con antipardeamiento, no para la combinación sin antipardeamiento, ya que solo una usó ácido ascórbico."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Con n=1, cualquier diferencia observada ya es, por sí misma, no generalizable estadísticamente; si además no se sabe con certeza qué compuesto específico explica esa diferencia de peso, se estarían apilando dos niveles de incertidumbre sobre una misma observación puntual.",
+        "distractores": {
+          "A": {"explicacion": "El tamaño de muestra sí es relevante: con n=1, la incertidumbre sobre si una observación es un patrón real o variabilidad puntual ya es alta, y añadir incertidumbre sobre la identidad del compuesto multiplica el riesgo de sobre-interpretar el dato.", "patron_trampa": "desconecta dos fuentes de incertidumbre que en realidad se combinan y refuerzan mutuamente en este escenario"},
+          "C": {"explicacion": "No existe un umbral arbitrario de magnitud que determine si vale la pena investigar el origen de una diferencia observada; la pregunta es relevante independientemente de cuán grande sea la diferencia específica.", "patron_trampa": "inventa un criterio arbitrario de magnitud para decidir cuándo investigar, cuando la pregunta de fondo es relevante sin importar el tamaño exacto de la diferencia"},
+          "D": {"explicacion": "La pregunta de distinguir el origen del peso es igualmente relevante para cualquiera de las cuatro combinaciones, no solo la que recibió antipardeamiento.", "patron_trampa": "limita sin justificación la relevancia de la pregunta a solo una de las variables experimentales cuando aplica por igual a todas las combinaciones"}
+        }
+      }
+    ],
+    "bloques_relacionados": ["FQ", "QA"],
+    "dificultad": "alta"
+  },
+  {
+    "id": "DIO-IT-015",
+    "modulo": "diosgenina",
+    "tipo": "item",
+    "afirmacion": "plantear_preguntas",
+    "contexto": "La mayoría de la literatura disponible sobre hidrólisis de polvo crudo de Dioscorea (tiempos de 4-5h reportados) proviene de D. zingiberensis y D. nipponica, especies cultivadas industrialmente en China específicamente por su altísimo contenido de diosgenina, mucho más alto que el esperado para D. rotundata/D. alata colombianas.",
+    "preguntas": [
+      {
+        "enunciado": "Antes de adoptar directamente esos tiempos reportados (4-5h) para su propio protocolo, ¿qué pregunta debería hacerse Fabián sobre la transferibilidad de esa cifra?",
+        "opciones": {
+          "A": "¿Cuál es el nombre científico completo de D. zingiberensis y D. nipponica en latín, con su autor taxonómico correspondiente?",
+          "B": "¿Cuántos artículos científicos existen en total sobre D. zingiberensis publicados hasta la fecha en revistas indexadas?",
+          "C": "¿El tiempo óptimo depende de la matriz física, compartida con mi especie, o también del contenido inicial de sapogeninas, que podría diferir entre especies industriales chinas y colombianas?",
+          "D": "¿Debería Fabián evitar por completo cualquier referencia a papers sobre D. zingiberensis en su tesis, dado que no es la misma especie de trabajo?"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "La pregunta clave es distinguir qué parte del fenómeno depende de un factor compartido entre especies (la matriz física cruda) versus qué parte podría depender de un factor no compartido (contenido inicial y composición química específica de cada especie).",
+        "distractores": {
+          "A": {"explicacion": "El nombre científico en latín no tiene ninguna relación con la pregunta de transferibilidad metodológica de un tiempo de hidrólisis entre especies distintas.", "patron_trampa": "introduce una pregunta de nomenclatura sin conexión con la cuestión metodológica real"},
+          "B": {"explicacion": "El número total de publicaciones sobre una especie no informa nada sobre si un dato cinético específico es transferible a otra especie distinta.", "patron_trampa": "confunde volumen de literatura disponible con la pregunta específica de transferibilidad de un dato cinético concreto"},
+          "D": {"explicacion": "Evitar por completo la literatura de D. zingiberensis desperdiciaría información parcialmente útil como apoyo direccional; la estrategia correcta es usarla con el matiz apropiado, no evitarla del todo.", "patron_trampa": "propone el extremo de evitar completamente una fuente parcialmente útil, en vez de usarla con las salvedades apropiadas"}
+        }
+      },
+      {
+        "enunciado": "Si la respuesta a la pregunta anterior fuera 'ambos factores importan, pero no se puede saber en qué proporción sin datos propios', ¿qué implicación tiene esto para el diseño del piloto de hoy?",
+        "opciones": {
+          "A": "Que el piloto de hoy es innecesario, ya que los tiempos de D. zingiberensis (4-5h) deberían simplemente adoptarse sin más comparación.",
+          "B": "Que debería descartarse por completo cualquier tiempo mayor a 2h, ya que la especie de Fabián es distinta a las especies industriales chinas.",
+          "C": "Que el piloto debería repetirse indefinidamente hasta encontrar exactamente el mismo tiempo óptimo reportado para D. zingiberensis.",
+          "D": "Que justifica exactamente la decisión de diseñar una comparación propia (2h vs. 4h) en vez de simplemente adoptar o descartar la cifra ajena: sin datos propios sobre el sistema específico de Fabián, ni asumir 4-5h ni descartarlos por completo sería una decisión bien fundamentada."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Reconocer que no se puede saber la proporción exacta de cada factor sin datos propios es precisamente la justificación de por qué el protocolo v2 diseña un experimento comparativo propio en vez de simplemente heredar o rechazar la cifra de la literatura industrial china.",
+        "distractores": {
+          "A": {"explicacion": "Adoptar directamente una cifra de una especie con contenido de diosgenina muy distinto, sin verificación propia, sería precisamente el error de transferibilidad que la pregunta anterior identificó como un riesgo real.", "patron_trampa": "ignora la incertidumbre reconocida y adopta la cifra ajena de todas formas, sin generar evidencia propia"},
+          "B": {"explicacion": "Descartar por completo un tiempo mayor a 2h también sería una decisión sin fundamento, ya que el argumento de matriz física sí sugiere que un tiempo mayor podría ser razonable, aunque la cifra exacta no sea directamente transferible.", "patron_trampa": "sobre-corrige hacia el extremo opuesto, descartando por completo información parcialmente útil sobre el efecto de matriz física"},
+          "C": {"explicacion": "No hay ninguna razón para esperar que el tiempo óptimo de Fabián deba coincidir exactamente con el de una especie con un contenido de diosgenina y composición muy distintos.", "patron_trampa": "asume, sin fundamento, que el objetivo correcto es reproducir exactamente una cifra de un sistema biológico distinto"}
+        }
+      },
+      {
+        "enunciado": "Este mismo patrón de razonamiento (distinguir qué es transferible entre sistemas distintos y qué no) ¿en qué otro punto del proyecto de Fabián se aplica de forma análoga?",
+        "opciones": {
+          "A": "En si el tiempo de 2h de Taylor et al. (2000), validado en un residuo pre-extraído, es transferible a un protocolo de un solo paso con polvo crudo: separar factor compartido (ácido) de factor no compartido (matriz física).",
+          "B": "En la elección de qué color específico de tinta conviene usar para el registro de datos dentro del cuaderno de laboratorio.",
+          "C": "En la decisión de qué marca comercial de matraz de fondo redondo conviene usar durante la Etapa 1 de hoy.",
+          "D": "En la pregunta de cuántas fotografías conviene tomar durante cada una de las etapas del protocolo v2."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Es exactamente el mismo patrón de razonamiento aplicado en otro punto crítico del protocolo v2: separar qué aspecto de un hallazgo de la literatura es transferible de qué aspecto no lo es necesariamente, la misma disciplina de pensamiento crítico aplicada de forma consistente a lo largo de todo el protocolo.",
+        "distractores": {
+          "B": {"explicacion": "La elección de color de tinta es una decisión puramente logística sin ninguna relación con la pregunta de transferibilidad de datos científicos entre sistemas distintos.", "patron_trampa": "propone una decisión trivial y no científica como analogía de un razonamiento metodológico sustantivo"},
+          "C": {"explicacion": "La marca comercial de un matraz es un detalle de equipamiento sin relación con la pregunta de si un dato cinético o metodológico es transferible entre sistemas biológicos distintos.", "patron_trampa": "confunde un detalle de equipamiento sin relevancia científica con la pregunta de fondo sobre transferibilidad de resultados"},
+          "D": {"explicacion": "El número de fotografías es una decisión de documentación práctica, no una pregunta sobre si un hallazgo de un sistema es transferible a otro sistema distinto.", "patron_trampa": "propone una decisión de documentación práctica como si fuera análoga a una pregunta de razonamiento científico sobre transferibilidad"}
+        }
+      }
+    ],
+    "bloques_relacionados": ["BQ", "FQ"],
+    "dificultad": "media"
+  }
+]

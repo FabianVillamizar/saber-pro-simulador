@@ -143,7 +143,7 @@ export function RepasoConceptos({ moduloId, perfil, onCambiarPerfil, onVolver })
                     {ETIQUETAS_DIFICULTAD[tarjeta.dificultad] ?? tarjeta.dificultad}
                   </span>
                   <span className="repaso-badge-tipo">
-                    {modulo.categorias?.[tarjeta.afirmacion_asociada] ?? tarjeta.afirmacion_asociada}
+                    {modulo.categorias?.[tarjeta.afirmacion_asociada] ?? tarjeta.afirmacion_asociada ?? tarjeta.bloque}
                   </span>
                 </div>
 
@@ -278,15 +278,17 @@ export function RepasoConceptos({ moduloId, perfil, onCambiarPerfil, onVolver })
                   </div>
                 </div>
 
-                <div className="repaso-cotidiana">
-                  <IconoBombilla color="var(--exito)" />
-                  <div>
-                    <div className="repaso-seccion-label repaso-seccion-label--exito">Conexión con la vida diaria</div>
-                    <div className="repaso-cotidiana-texto">
-                      <TextoConNegritas texto={tarjeta.conexion_cotidiana} />
+                {tarjeta.conexion_cotidiana && (
+                  <div className="repaso-cotidiana">
+                    <IconoBombilla color="var(--exito)" />
+                    <div>
+                      <div className="repaso-seccion-label repaso-seccion-label--exito">Conexión con la vida diaria</div>
+                      <div className="repaso-cotidiana-texto">
+                        <TextoConNegritas texto={tarjeta.conexion_cotidiana} />
+                      </div>
                     </div>
                   </div>
-                </div>
+                )}
               </>
             ) : esCloze ? (
               <>

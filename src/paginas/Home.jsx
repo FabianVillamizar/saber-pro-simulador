@@ -8,13 +8,15 @@ import { diferenciaDias, fechaDesdeClave, FECHA_EXAMEN } from '../engine/fecha.j
 import { claveSRS } from '../engine/clavesPerfil.js'
 import { estaLista } from '../engine/srs.js'
 import { calcularDominio } from '../engine/dominio.js'
+import { esVisibleParaPerfil, moduloDesbloqueado } from '../engine/accesoModulo.js'
 import { ThemeToggle } from '../componentes/ThemeToggle.jsx'
 import { SelectorPerfil } from '../componentes/SelectorPerfil.jsx'
 import { PanelProgreso } from '../componentes/PanelProgreso.jsx'
 import { Marca } from '../componentes/Marca.jsx'
 import { Heatmap } from '../componentes/Heatmap.jsx'
 import { AnilloProgreso } from '../componentes/AnilloProgreso.jsx'
-import { IconoCalendario, IconoFlechaDerecha, IconoEngranaje } from '../componentes/iconos.jsx'
+import { GateAcceso } from '../componentes/GateAcceso.jsx'
+import { IconoCalendario, IconoFlechaDerecha, IconoEngranaje, IconoCandado } from '../componentes/iconos.jsx'
 import './Home.css'
 
 function etiquetaRelativa(clave) {
@@ -39,6 +41,8 @@ export function Home({ perfil, onCambiarPerfil, onAbrirModulo, onIrADirecto, onI
   const { modulo: ingles } = useModulo('ingles')
   const { modulo: competenciasCiudadanas } = useModulo('competencias-ciudadanas')
   const { modulo: pensamientoCientifico } = useModulo('pensamiento-cientifico')
+  const { modulo: diosgenina } = useModulo('diosgenina')
+  const [mostrandoGate, setMostrandoGate] = useState(null)
 
   useEffect(() => {
     const id = requestAnimationFrame(() => requestAnimationFrame(() => setMounted(true)))
@@ -63,6 +67,7 @@ export function Home({ perfil, onCambiarPerfil, onAbrirModulo, onIrADirecto, onI
     ingles,
     'competencias-ciudadanas': competenciasCiudadanas,
     'pensamiento-cientifico': pensamientoCientifico,
+    diosgenina,
   }
   const dominioPorModulo = {}
   for (const [id, mod] of Object.entries(modulosCargados)) {
@@ -71,7 +76,10 @@ export function Home({ perfil, onCambiarPerfil, onAbrirModulo, onIrADirecto, onI
     dominioPorModulo[id] = calcularDominio(mod.tarjetasConcepto, estados)
   }
 
-  const modulos = listarModulos()
+  // Módulos restringidos (hoy solo diosgenina) ni siquiera entran a este
+  // array para otros perfiles/invitado — no aparecen en el grid ni cuentan
+  // para el promedio general, en vez de mostrarse bloqueados.
+  const modulos = listarModulos().filter((m) => esVisibleParaPerfil(m.id, perfil))
   const disponibles = modulos.filter((m) => m.disponible)
   const overallAvg = disponibles.length
     ? Math.round(
@@ -156,22 +164,29 @@ export function Home({ perfil, onCambiarPerfil, onAbrirModulo, onIrADirecto, onI
           {modulos.map((m) => {
             const dominio = dominioPorModulo[m.id]
             const pct = dominio?.pct ?? 0
+            const bloqueado = m.disponible && !moduloDesbloqueado(perfil.id, m.id)
             return (
               <article
                 key={m.id}
                 className={`modulo-tarjeta${m.disponible ? '' : ' modulo-tarjeta--bloqueada'}`}
-                onClick={() => m.disponible && onAbrirModulo(m.id)}
+                onClick={() => {
+                  if (!m.disponible) return
+                  if (bloqueado) setMostrandoGate(m.id)
+                  else onAbrirModulo(m.id)
+                }}
               >
                 <div className="modulo-tarjeta-monograma">{m.monograma}</div>
                 <div className="modulo-tarjeta-info">
                   <div className="modulo-tarjeta-nombre">{m.nombre}</div>
                   <div className="modulo-tarjeta-meta">
-                    {m.disponible
-                      ? `${dominio?.hechas ?? 0}/${dominio?.total ?? 0} tarjetas${m.id === 'ingles' && ultimaRevision ? ` · ${ultimaRevision}` : ''}`
-                      : 'Próximamente'}
+                    {!m.disponible
+                      ? 'Próximamente'
+                      : bloqueado
+                        ? 'Toca para desbloquear'
+                        : `${dominio?.hechas ?? 0}/${dominio?.total ?? 0} tarjetas${m.id === 'ingles' && ultimaRevision ? ` · ${ultimaRevision}` : ''}`}
                   </div>
                 </div>
-                {m.disponible && <AnilloProgreso porcentaje={pct} />}
+                {m.disponible && (bloqueado ? <IconoCandado color="var(--text-faint)" /> : <AnilloProgreso porcentaje={pct} />)}
               </article>
             )
           })}
@@ -179,6 +194,20 @@ export function Home({ perfil, onCambiarPerfil, onAbrirModulo, onIrADirecto, onI
 
         <PanelProgreso />
       </div>
+
+      {mostrandoGate && (
+        <GateAcceso
+          perfil={perfil}
+          moduloId={mostrandoGate}
+          nombreModulo={modulos.find((m) => m.id === mostrandoGate)?.nombre ?? ''}
+          onExito={() => {
+            const id = mostrandoGate
+            setMostrandoGate(null)
+            onAbrirModulo(id)
+          }}
+          onCancelar={() => setMostrandoGate(null)}
+        />
+      )}
     </div>
   )
 }
