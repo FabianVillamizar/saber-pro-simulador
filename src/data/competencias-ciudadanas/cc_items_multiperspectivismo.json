@@ -9,6 +9,11 @@
         "id": "CC-ITEM-060",
         "competencia": "multiperspectivismo",
         "bloque": "diferencia_entre_posicion_e_interes",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-001",
+          "CC-MUL-002",
+          "CC-MUL-003"
+        ],
         "enunciado": "¿Cuál sería el interés de fondo de los productores de arroz, más allá de su posición explícita de pedir la desviación de agua adicional?",
         "dificultad": "media",
         "opciones": {
@@ -38,6 +43,11 @@
         "id": "CC-ITEM-061",
         "competencia": "multiperspectivismo",
         "bloque": "diferencia_entre_posicion_e_interes",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-001",
+          "CC-MUL-002",
+          "CC-MUL-003"
+        ],
         "enunciado": "¿Cuál sería el interés de fondo de la autoridad ambiental, más allá de su posición explícita de negar la desviación adicional?",
         "dificultad": "media",
         "opciones": {
@@ -76,6 +86,11 @@
         "id": "CC-ITEM-062",
         "competencia": "multiperspectivismo",
         "bloque": "diferencia_entre_posicion_e_interes",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-001",
+          "CC-MUL-002",
+          "CC-MUL-003"
+        ],
         "enunciado": "¿Cuál podría ser el interés de fondo compartido entre los estudiantes y la facultad, más allá de sus posiciones opuestas sobre el examen final?",
         "dificultad": "media",
         "opciones": {
@@ -114,13 +129,18 @@
         "id": "CC-ITEM-063",
         "competencia": "multiperspectivismo",
         "bloque": "diferencia_entre_posicion_e_interes",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-001",
+          "CC-MUL-002",
+          "CC-MUL-003"
+        ],
         "enunciado": "¿Cuál podría ser el interés de fondo de los vecinos que solicitan la prohibición, distinto de su posición explícita de exigir que el perro sea retirado del edificio?",
         "dificultad": "baja",
         "opciones": {
-          "A": "Que el dueño del perro sea expulsado del edificio junto con su mascota, sin importar su historial de convivencia.",
+          "A": "Que el dueño del perro sea expulsado del edificio junto con su mascota, sin importar su buen historial previo de convivencia con los vecinos.",
           "B": "Que el edificio prohíba la tenencia de cualquier tipo de mascota, sin importar su tamaño o comportamiento.",
-          "C": "Obtener una compensación económica del dueño del perro por las molestias que alegan haber sufrido durante los últimos años.",
-          "D": "Sentirse seguros y tranquilos en las áreas comunes del edificio, lo cual podría lograrse con medidas distintas a la prohibición total, como acuerdos sobre el uso de correa o restricciones de horario en espacios compartidos."
+          "C": "Obtener una compensación económica del dueño del perro por las molestias que alegan haber sufrido durante los últimos dos años.",
+          "D": "Sentirse seguros y tranquilos en las áreas comunes, algo que podría lograrse con medidas distintas a la prohibición total, como el uso de correa o restricciones de horario."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "La posición de los vecinos es exigir que se prohíba tener el perro; su interés de fondo es sentirse seguros y tranquilos en el edificio, un interés que podría satisfacerse con medidas menos drásticas que la prohibición total, como acuerdos sobre el manejo del animal en zonas comunes.",
@@ -152,6 +172,11 @@
         "id": "CC-ITEM-064",
         "competencia": "multiperspectivismo",
         "bloque": "postura_explicita_vs_implicita",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-004",
+          "CC-MUL-005",
+          "CC-MUL-006"
+        ],
         "enunciado": "¿Qué revela la práctica reiterada de rechazar solicitudes de acceso a la información sobre la postura implícita real de la entidad, más allá de su declaración explícita?",
         "dificultad": "alta",
         "opciones": {
@@ -181,13 +206,18 @@
         "id": "CC-ITEM-065",
         "competencia": "multiperspectivismo",
         "bloque": "postura_explicita_vs_implicita",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-004",
+          "CC-MUL-005",
+          "CC-MUL-006"
+        ],
         "enunciado": "¿Sería razonable concluir, únicamente a partir de este patrón de rechazos, que absolutamente todos los miembros de la entidad comparten una postura contraria a la transparencia?",
         "dificultad": "alta",
         "opciones": {
           "A": "Sí, porque cualquier patrón de comportamiento institucional sostenido durante dos años refleja necesariamente la opinión unánime de cada uno de sus funcionarios.",
-          "B": "No necesariamente, porque la postura implícita observada podría corresponder a una decisión concentrada en ciertos niveles de la entidad, sin que se pueda asumir automáticamente que todos sus miembros comparten esa misma postura.",
-          "C": "Sí, porque las declaraciones públicas del director representan de forma vinculante la opinión personal de todos los funcionarios de la entidad.",
-          "D": "No, porque en realidad ningún funcionario de la entidad ha tenido jamás ninguna postura relacionada con la transparencia institucional."
+          "B": "No necesariamente, porque la postura implícita observada podría venir de una decisión concentrada en ciertos niveles, sin que todos los miembros compartan necesariamente esa postura.",
+          "C": "Sí, porque las declaraciones públicas del director representan, de forma vinculante, la opinión personal de cada uno de los funcionarios.",
+          "D": "No, porque en realidad ningún funcionario de la entidad ha tenido jamás postura alguna sobre la transparencia institucional."
         },
         "respuesta_correcta": "B",
         "explicacion_correcta": "Una postura institucional observable a través de un patrón de decisiones no garantiza que **todos** los integrantes de la entidad compartan esa misma postura a título individual; podría haber funcionarios dentro de la misma institución con posturas distintas que simplemente no logran modificar la práctica general observada.",
@@ -219,6 +249,11 @@
         "id": "CC-ITEM-066",
         "competencia": "multiperspectivismo",
         "bloque": "postura_explicita_vs_implicita",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-004",
+          "CC-MUL-005",
+          "CC-MUL-006"
+        ],
         "enunciado": "¿Qué sugiere este patrón sobre la postura implícita de la revista, más allá de su compromiso editorial explícito?",
         "dificultad": "alta",
         "opciones": {
@@ -257,13 +292,18 @@
         "id": "CC-ITEM-067",
         "competencia": "multiperspectivismo",
         "bloque": "postura_explicita_vs_implicita",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-004",
+          "CC-MUL-005",
+          "CC-MUL-006"
+        ],
         "enunciado": "¿Qué tensión existe entre la declaración pública de la EPS y la práctica descrita en el informe interno filtrado?",
         "dificultad": "alta",
         "opciones": {
           "A": "Ninguna tensión, porque reducir autorizaciones de procedimientos de alto costo es, en cualquier caso, una forma de proteger el bienestar de los afiliados a largo plazo.",
-          "B": "La tensión es que la EPS está cometiendo un delito al establecer metas internas de reducción de autorizaciones médicas para sus afiliados.",
+          "B": "La tensión es que la EPS estaría cometiendo un delito específico al fijar metas internas de reducción de autorizaciones médicas para sus afiliados.",
           "C": "Ninguna tensión, porque las metas internas de reducción solo aplican al personal administrativo y no afectan directamente las decisiones médicas sobre los afiliados.",
-          "D": "La declaración pública prioriza el bienestar de los afiliados por encima de cualquier consideración, mientras que la práctica interna incentiva económicamente reducir autorizaciones de procedimientos costosos, lo que sugiere que también se pondera activamente el factor económico en las decisiones."
+          "D": "La declaración pública prioriza el bienestar de los afiliados, mientras la práctica interna incentiva económicamente reducir autorizaciones costosas, lo que sugiere que el factor económico también pesa en las decisiones."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Existe una tensión entre la postura **explícita** (priorizar el bienestar por encima de cualquier consideración) y la postura **implícita** que revela la práctica interna (incentivar económicamente la reducción de autorizaciones costosas), lo cual sugiere que, en la práctica, el factor económico sí pesa de forma significativa en las decisiones, contrario a lo que la declaración pública sugiere.",
@@ -295,6 +335,12 @@
         "id": "CC-ITEM-068",
         "competencia": "multiperspectivismo",
         "bloque": "acuerdos_y_desacuerdos_parciales",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-007",
+          "CC-MUL-008",
+          "CC-MUL-009",
+          "CC-MUL-010"
+        ],
         "enunciado": "¿En qué nivel exacto se ubica el acuerdo entre ambos actores, y en qué nivel se ubica su desacuerdo?",
         "dificultad": "media",
         "opciones": {
@@ -324,6 +370,12 @@
         "id": "CC-ITEM-069",
         "competencia": "multiperspectivismo",
         "bloque": "acuerdos_y_desacuerdos_parciales",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-007",
+          "CC-MUL-008",
+          "CC-MUL-009",
+          "CC-MUL-010"
+        ],
         "enunciado": "Si ambos actores decidieran financiar conjuntamente un estudio técnico independiente para determinar la causa real de la disminución, ¿qué tipo de acuerdo estarían alcanzando con esa decisión?",
         "dificultad": "alta",
         "opciones": {
@@ -362,12 +414,18 @@
         "id": "CC-ITEM-070",
         "competencia": "multiperspectivismo",
         "bloque": "acuerdos_y_desacuerdos_parciales",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-007",
+          "CC-MUL-008",
+          "CC-MUL-009",
+          "CC-MUL-010"
+        ],
         "enunciado": "¿Cuál es la caracterización más precisa del acuerdo y el desacuerdo entre el rector y los padres de familia?",
         "dificultad": "media",
         "opciones": {
           "A": "No existe ningún punto de acuerdo entre el rector y los padres de familia, ya que sus propuestas son completamente distintas entre sí.",
           "B": "El acuerdo se refiere a extender la jornada escolar dos horas diarias, mientras el desacuerdo se refiere a si el tiempo actual es o no insuficiente.",
-          "C": "Existe acuerdo en el diagnóstico de que el tiempo disponible es insuficiente para el contenido exigido, pero desacuerdo sobre el tipo de solución: extender la jornada o reorganizar el contenido dentro del horario actual.",
+          "C": "Existe acuerdo en que el tiempo disponible es insuficiente, pero desacuerdo sobre la solución: extender la jornada o reorganizar el contenido dentro del horario actual.",
           "D": "Existe un acuerdo total, ya que tanto el rector como los padres buscan, en el fondo, reducir la carga académica general de los estudiantes del colegio."
         },
         "respuesta_correcta": "C",
@@ -400,13 +458,19 @@
         "id": "CC-ITEM-071",
         "competencia": "multiperspectivismo",
         "bloque": "interseccion_de_intereses",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-011",
+          "CC-MUL-012",
+          "CC-MUL-013",
+          "CC-MUL-014"
+        ],
         "enunciado": "¿Cuál podría ser una intersección de intereses entre los comerciantes informales y la administración municipal, más allá de sus posiciones opuestas sobre la reubicación?",
         "dificultad": "media",
         "opciones": {
           "A": "Ambos comparten el interés de que la plaza pública deje de existir como espacio público disponible para cualquier otro uso futuro.",
-          "B": "Ambos comparten el interés de que la administración municipal pierda autoridad sobre el ordenamiento del espacio público de la ciudad.",
+          "B": "Ambos comparten el interés de que la administración municipal pierda por completo su autoridad sobre el ordenamiento del espacio público urbano.",
           "C": "No existe ninguna intersección de intereses posible entre los comerciantes informales y la administración municipal en este caso.",
-          "D": "Ambos comparten el interés de que los comerciantes puedan mantener y, si es posible, aumentar sus ingresos de forma estable en el tiempo, aunque discrepen sobre si eso se logra mejor permaneciendo en la plaza o trasladándose al centro comercial."
+          "D": "Ambos comparten el interés de que los comerciantes mantengan ingresos estables en el tiempo, aunque discrepen sobre si eso se logra mejor en la plaza o en el centro comercial."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Aunque las posiciones son opuestas, es razonable inferir que ambos actores comparten un interés de fondo: que los comerciantes logren ingresos estables y condiciones de trabajo dignas; el desacuerdo se concentra en cuál de las dos ubicaciones satisface mejor ese interés compartido, no en si ese interés existe o no.",
@@ -429,6 +493,12 @@
         "id": "CC-ITEM-072",
         "competencia": "multiperspectivismo",
         "bloque": "interseccion_de_intereses",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-011",
+          "CC-MUL-012",
+          "CC-MUL-013",
+          "CC-MUL-014"
+        ],
         "enunciado": "¿El hecho de que exista esta posible intersección de intereses garantiza que el conflicto entre ambos actores se resolverá fácilmente?",
         "dificultad": "alta",
         "opciones": {
@@ -467,13 +537,19 @@
         "id": "CC-ITEM-073",
         "competencia": "multiperspectivismo",
         "bloque": "interseccion_de_intereses",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-011",
+          "CC-MUL-012",
+          "CC-MUL-013",
+          "CC-MUL-014"
+        ],
         "enunciado": "¿Qué función cumple, en este caso, el respaldo compartido de ambos actores a que los recursos lleguen a la población vulnerable?",
         "dificultad": "media",
         "opciones": {
           "A": "Demuestra que, en realidad, ambos actores están completamente de acuerdo sobre la gestión actual del programa social y su disputa pública es solo una estrategia electoral.",
-          "B": "Funciona como una intersección de intereses que podría servir de base para negociar mejoras concretas en la ejecución del programa, sin que esto implique que sus posiciones sobre la eficiencia actual del Gobierno dejen de estar enfrentadas.",
+          "B": "Funciona como una intersección de intereses que podría servir de base para negociar mejoras en la ejecución del programa, aunque sus posiciones sobre la eficiencia del Gobierno sigan enfrentadas.",
           "C": "No cumple ninguna función relevante, porque las posiciones políticas de ambos actores son irreconciliables en cualquier aspecto relacionado con el programa social.",
-          "D": "Cumple la función de demostrar que el partido de oposición en realidad apoya secretamente todas las políticas sociales del Gobierno actual."
+          "D": "Cumple la función de demostrar que el partido de oposición, en el fondo, apoya en secreto todas las políticas sociales del Gobierno actual."
         },
         "respuesta_correcta": "B",
         "explicacion_correcta": "Aunque el partido de oposición y el Gobierno mantienen posiciones opuestas sobre la eficiencia del programa, el respaldo compartido a que los recursos lleguen a la población vulnerable representa una **intersección de intereses** real, que podría servir como punto de partida para acordar ajustes concretos en la ejecución, sin que eso signifique que su disputa política de fondo desaparezca.",
@@ -505,6 +581,12 @@
         "id": "CC-ITEM-074",
         "competencia": "multiperspectivismo",
         "bloque": "interseccion_de_intereses",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-011",
+          "CC-MUL-012",
+          "CC-MUL-013",
+          "CC-MUL-014"
+        ],
         "enunciado": "¿Qué interés de fondo podrían compartir ambos actores, más allá de su desacuerdo sobre qué cultivos priorizar?",
         "dificultad": "alta",
         "opciones": {
@@ -543,6 +625,12 @@
         "id": "CC-ITEM-075",
         "competencia": "multiperspectivismo",
         "bloque": "cosmovision_reflejada_en_comportamiento_o_argumento",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-015",
+          "CC-MUL-016",
+          "CC-MUL-017",
+          "CC-MUL-018"
+        ],
         "enunciado": "¿Qué revela la práctica de acudir primero al sabedor tradicional sobre la cosmovisión de estas familias, más allá de un simple desconocimiento de la medicina moderna?",
         "dificultad": "alta",
         "opciones": {
@@ -572,6 +660,12 @@
         "id": "CC-ITEM-076",
         "competencia": "multiperspectivismo",
         "bloque": "cosmovision_reflejada_en_comportamiento_o_argumento",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-015",
+          "CC-MUL-016",
+          "CC-MUL-017",
+          "CC-MUL-018"
+        ],
         "enunciado": "¿Sería correcto inferir, a partir de esta única práctica descrita, que estas familias rechazarían también cualquier campaña de vacunación infantil promovida por el centro de salud?",
         "dificultad": "alta",
         "opciones": {
@@ -610,11 +704,17 @@
         "id": "CC-ITEM-077",
         "competencia": "multiperspectivismo",
         "bloque": "cosmovision_reflejada_en_comportamiento_o_argumento",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-015",
+          "CC-MUL-016",
+          "CC-MUL-017",
+          "CC-MUL-018"
+        ],
         "enunciado": "¿Qué revela este argumento sobre la cosmovisión de la comunidad campesina, más allá de un simple rechazo a la infraestructura de telecomunicaciones?",
         "dificultad": "media",
         "opciones": {
-          "A": "Revela que la comunidad campesina se opone a cualquier forma de tecnología o modernización en su territorio, sin ninguna excepción.",
-          "B": "Revela una cosmovisión donde ciertos espacios físicos tienen un valor comunitario y simbólico que no se reduce a su valor económico o funcional, lo cual explica por qué el argumento no se centra en el precio de la tierra sino en su función social.",
+          "A": "Revela que la comunidad campesina se opone, sin ninguna excepción, a cualquier forma de tecnología o modernización dentro de su territorio.",
+          "B": "Revela una cosmovisión donde ciertos espacios tienen un valor comunitario y simbólico que no se reduce a lo económico, lo que explica el argumento centrado en su función social.",
           "C": "Revela que la comunidad campesina busca obtener una compensación económica mayor a la ofrecida antes de aceptar la instalación de la antena.",
           "D": "Revela que la comunidad campesina desconoce los beneficios que la conectividad de telecomunicaciones podría traer a la región en el futuro."
         },
@@ -648,12 +748,18 @@
         "id": "CC-ITEM-078",
         "competencia": "multiperspectivismo",
         "bloque": "cosmovision_reflejada_en_comportamiento_o_argumento",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-015",
+          "CC-MUL-016",
+          "CC-MUL-017",
+          "CC-MUL-018"
+        ],
         "enunciado": "¿Qué otra explicación, relacionada con la cosmovisión de este grupo de estudiantes, podría estar detrás de esta práctica, más allá de la interpretación exclusivamente académica del docente?",
         "dificultad": "media",
         "opciones": {
           "A": "La práctica revela que estos estudiantes tienen menor capacidad de concentración individual que sus compañeros, por lo que necesitan el apoyo del grupo.",
           "B": "La práctica revela que estos estudiantes buscan copiar las respuestas de sus compañeros durante el examen en lugar de estudiar honestamente el contenido.",
-          "C": "La práctica podría reflejar una cosmovisión que valora el aprendizaje colectivo y la reciprocidad comunitaria como parte central de su cultura, y no únicamente una estrategia calculada para obtener mejores resultados académicos individuales.",
+          "C": "La práctica podría reflejar una cosmovisión que valora el aprendizaje colectivo y la reciprocidad comunitaria, y no solo una estrategia para mejorar resultados individuales.",
           "D": "La práctica revela que el colegio no está ofreciendo suficiente apoyo académico individual a ningún estudiante, sin importar su origen cultural."
         },
         "respuesta_correcta": "C",
@@ -686,13 +792,18 @@
         "id": "CC-ITEM-079",
         "competencia": "multiperspectivismo",
         "bloque": "rol_institucional_vs_opinion_personal",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-019",
+          "CC-MUL-020",
+          "CC-MUL-021"
+        ],
         "enunciado": "¿Cómo se explica, desde la distinción entre rol institucional y opinión personal, que el fallo del juez no coincida exactamente con sus opiniones previas como articulista?",
         "dificultad": "alta",
         "opciones": {
-          "A": "Se explica porque el juez traicionó deliberadamente sus convicciones personales a cambio de algún beneficio no especificado en la situación.",
+          "A": "Se explica porque el juez traicionó deliberadamente sus convicciones personales a cambio de algún beneficio que la situación no especifica.",
           "B": "Se explica porque los artículos de opinión que escribió antes de ser juez no reflejaban en ningún momento sus verdaderas convicciones personales sobre el tema.",
           "C": "Se explica porque los jueces, a diferencia de cualquier otro funcionario público, nunca pueden tener opiniones personales sobre ningún tema antes de asumir su cargo.",
-          "D": "El rol institucional de juez le exige aplicar los precedentes judiciales vinculantes existentes, lo cual puede llevarlo a fallar de una manera distinta a la que sostenía en sus opiniones personales previas, sin que esto signifique que haya cambiado genuinamente de convicciones."
+          "D": "El rol institucional de juez le exige aplicar los precedentes judiciales vinculantes, lo que puede llevarlo a fallar distinto de lo que sostenía antes, sin que eso signifique un cambio genuino de convicciones."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Cuando una persona pasa de expresarse a título personal a ejercer un **rol institucional**, sus decisiones deben considerar factores que no aplican de la misma manera a la opinión personal, como los precedentes judiciales vinculantes. Esto puede llevar a decisiones distintas de sus opiniones previas, sin que eso implique necesariamente un cambio genuino de convicciones.",
@@ -715,6 +826,11 @@
         "id": "CC-ITEM-080",
         "competencia": "multiperspectivismo",
         "bloque": "rol_institucional_vs_opinion_personal",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-019",
+          "CC-MUL-020",
+          "CC-MUL-021"
+        ],
         "enunciado": "¿Significa este fallo que el juez ha abandonado por completo, a nivel personal, la interpretación amplia del derecho que defendía en sus artículos previos?",
         "dificultad": "alta",
         "opciones": {
@@ -753,6 +869,11 @@
         "id": "CC-ITEM-081",
         "competencia": "multiperspectivismo",
         "bloque": "rol_institucional_vs_opinion_personal",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-019",
+          "CC-MUL-020",
+          "CC-MUL-021"
+        ],
         "enunciado": "¿Cómo debe interpretarse este pronunciamiento institucional, dado el vínculo personal del director con la empresa investigada?",
         "dificultad": "alta",
         "opciones": {
@@ -791,13 +912,18 @@
         "id": "CC-ITEM-082",
         "competencia": "multiperspectivismo",
         "bloque": "rol_institucional_vs_opinion_personal",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-019",
+          "CC-MUL-020",
+          "CC-MUL-021"
+        ],
         "enunciado": "¿Qué se espera de este científico en su rol institucional actual, frente a lo que pudo haber sostenido antes a título personal?",
         "dificultad": "media",
         "opciones": {
           "A": "Que ajuste los resultados del estudio para que coincidan con lo que había anticipado en sus entrevistas previas, de modo que no parezca inconsistente ante el público.",
           "B": "Que se abstenga por completo de presentar los resultados del estudio, dado que contradicen lo que sostuvo anteriormente a título personal.",
-          "C": "Que presente los resultados del estudio de forma fiel a la evidencia obtenida, incluso si contradicen sus expectativas personales previas, precisamente porque su rol institucional actual le exige representar la evidencia científica de la agencia, no sus opiniones anteriores.",
-          "D": "Que aclare públicamente que sus entrevistas previas no tenían ningún valor científico y deben ser completamente ignoradas a partir de ahora."
+          "C": "Que presente los resultados de forma fiel a la evidencia, aunque contradigan sus expectativas previas, porque su rol institucional le exige representar la evidencia de la agencia, no sus opiniones anteriores.",
+          "D": "Que aclare públicamente que sus entrevistas previas no tenían ningún valor científico y deben ignorarse por completo de ahora en adelante."
         },
         "respuesta_correcta": "C",
         "explicacion_correcta": "El **rol institucional** de dirigir una agencia de investigación exige comunicar los resultados obtenidos de forma fiel a la evidencia, incluso cuando contradicen expectativas personales previas expresadas a título individual. Esto no implica ocultar sus opiniones pasadas, sino priorizar la representación fiel de la evidencia científica actual.",
@@ -829,6 +955,11 @@
         "id": "CC-ITEM-083",
         "competencia": "multiperspectivismo",
         "bloque": "cambio_de_postura_ante_nueva_evidencia",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-022",
+          "CC-MUL-023",
+          "CC-MUL-024"
+        ],
         "enunciado": "¿Cómo debería interpretarse este cambio de postura del epidemiólogo?",
         "dificultad": "media",
         "opciones": {
@@ -858,6 +989,11 @@
         "id": "CC-ITEM-084",
         "competencia": "multiperspectivismo",
         "bloque": "cambio_de_postura_ante_nueva_evidencia",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-022",
+          "CC-MUL-023",
+          "CC-MUL-024"
+        ],
         "enunciado": "¿Qué distinguiría a este cambio de postura, basado en evidencia, de un cambio de postura meramente oportunista sobre el mismo tema?",
         "dificultad": "alta",
         "opciones": {
@@ -896,6 +1032,11 @@
         "id": "CC-ITEM-085",
         "competencia": "multiperspectivismo",
         "bloque": "cambio_de_postura_ante_nueva_evidencia",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-022",
+          "CC-MUL-023",
+          "CC-MUL-024"
+        ],
         "enunciado": "¿Qué elemento de este caso permite calificar el cambio de postura del alcalde como una actualización legítima, y no como un simple cambio de opinión sin fundamento?",
         "dificultad": "media",
         "opciones": {
@@ -934,12 +1075,17 @@
         "id": "CC-ITEM-086",
         "competencia": "multiperspectivismo",
         "bloque": "cambio_de_postura_ante_nueva_evidencia",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-022",
+          "CC-MUL-023",
+          "CC-MUL-024"
+        ],
         "enunciado": "¿Qué tipo de cambio de postura representa este anuncio de la secretaría de educación?",
         "dificultad": "media",
         "opciones": {
           "A": "Un cambio total de postura, ya que la secretaría ha decidido abandonar por completo cualquier forma de evaluación estandarizada en el país.",
           "B": "Ningún cambio de postura real, ya que anunciar ajustes al modelo no constituye una actualización genuina de la posición original de la secretaría.",
-          "C": "Un cambio parcial: la secretaría matiza su postura original reconociendo una limitación específica del modelo, sin abandonar por completo la evaluación estandarizada que seguía considerando útil en otros aspectos.",
+          "C": "Un cambio parcial: la secretaría matiza su postura reconociendo una limitación específica del modelo, sin abandonar la evaluación estandarizada que seguía considerando útil.",
           "D": "Un cambio oportunista, motivado únicamente por la necesidad de la secretaría de mostrar una imagen de modernización ante la opinión pública."
         },
         "respuesta_correcta": "C",
@@ -972,6 +1118,17 @@
         "id": "CC-ITEM-087",
         "competencia": "multiperspectivismo",
         "bloque": "tension_entre_derechos_constitucionales_legitimos",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-025",
+          "CC-MUL-026",
+          "CC-MUL-027",
+          "CC-MUL-028",
+          "CC-MUL-029",
+          "CC-MUL-030",
+          "CC-MUL-031",
+          "CC-MUL-032",
+          "CC-MUL-033"
+        ],
         "enunciado": "¿Qué caracteriza mejor la tensión entre los dos actores en este caso?",
         "dificultad": "alta",
         "opciones": {
@@ -1010,10 +1167,21 @@
         "id": "CC-ITEM-088",
         "competencia": "multiperspectivismo",
         "bloque": "tension_entre_derechos_constitucionales_legitimos",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-025",
+          "CC-MUL-026",
+          "CC-MUL-027",
+          "CC-MUL-028",
+          "CC-MUL-029",
+          "CC-MUL-030",
+          "CC-MUL-031",
+          "CC-MUL-032",
+          "CC-MUL-033"
+        ],
         "enunciado": "¿Cómo debe entenderse esta tensión entre la autonomía cultural de la comunidad y la libertad de conciencia del joven?",
         "dificultad": "alta",
         "opciones": {
-          "A": "Como una tensión entre dos derechos genuinamente protegidos —la autonomía cultural colectiva y la libertad de conciencia individual— que exige una ponderación cuidadosa, sin que ninguno de los dos se imponga automáticamente sobre el otro.",
+          "A": "Como una tensión entre dos derechos genuinamente protegidos —autonomía cultural colectiva y libertad de conciencia individual— que exige ponderación, sin que ninguno se imponga automáticamente.",
           "B": "Como una tensión donde la autonomía cultural de la comunidad debe prevalecer siempre por completo, ya que se trata de un derecho colectivo de una comunidad étnica.",
           "C": "Como una tensión donde la libertad de conciencia del joven debe prevalecer siempre por completo, ya que se trata de un derecho fundamental de carácter individual.",
           "D": "Como un conflicto sin ninguna relevancia constitucional, ya que se trata simplemente de una diferencia personal de opinión dentro de una comunidad."
@@ -1048,6 +1216,17 @@
         "id": "CC-ITEM-089",
         "competencia": "multiperspectivismo",
         "bloque": "tension_entre_derechos_constitucionales_legitimos",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-025",
+          "CC-MUL-026",
+          "CC-MUL-027",
+          "CC-MUL-028",
+          "CC-MUL-029",
+          "CC-MUL-030",
+          "CC-MUL-031",
+          "CC-MUL-032",
+          "CC-MUL-033"
+        ],
         "enunciado": "¿Qué caracteriza mejor la tensión entre los investigadores y los pacientes en este caso?",
         "dificultad": "alta",
         "opciones": {
@@ -1086,6 +1265,17 @@
         "id": "CC-ITEM-090",
         "competencia": "multiperspectivismo",
         "bloque": "tension_entre_derechos_constitucionales_legitimos",
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-025",
+          "CC-MUL-026",
+          "CC-MUL-027",
+          "CC-MUL-028",
+          "CC-MUL-029",
+          "CC-MUL-030",
+          "CC-MUL-031",
+          "CC-MUL-032",
+          "CC-MUL-033"
+        ],
         "enunciado": "¿Cómo se caracteriza mejor la tensión presente en este caso?",
         "dificultad": "alta",
         "opciones": {

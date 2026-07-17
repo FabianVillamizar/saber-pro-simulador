@@ -19,6 +19,7 @@ export function adaptSituacion(item) {
     explicacionCorrecta: pregunta.explicacion_correcta,
     distractores: pregunta.distractores,
     bloque: pregunta.bloque,
+    tarjetasTeoriaRelacionada: pregunta.tarjetas_teoria_relacionada ?? [],
     numEnGrupo: indice + 1,
   }))
 }

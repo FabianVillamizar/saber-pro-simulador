@@ -9,6 +9,12 @@
         "id": "CC-ITEM-001",
         "competencia": "conocimientos",
         "bloque": "estados_de_excepcion",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-010",
+          "CC-CON-011",
+          "CC-CON-012",
+          "CC-CON-055"
+        ],
         "enunciado": "Si el Gobierno nacional decide declarar un estado de excepción para habilitar recursos extraordinarios sin que exista un conflicto de orden público de por medio, ¿cuál sería el instrumento constitucionalmente adecuado?",
         "dificultad": "alta",
         "opciones": {
@@ -38,6 +44,9 @@
         "id": "CC-ITEM-002",
         "competencia": "conocimientos",
         "bloque": "deber_de_solidaridad_social_en_escenarios_de_omision",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-030"
+        ],
         "enunciado": "Teniendo en cuenta lo planteado en la Constitución sobre los deberes ciudadanos, la escasa respuesta de la ciudadanía de otras regiones al llamado de ayuda refleja principalmente",
         "dificultad": "media",
         "opciones": {
@@ -76,12 +85,15 @@
         "id": "CC-ITEM-003",
         "competencia": "conocimientos",
         "bloque": "estado_laico_como_principio_jurisprudencial",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-043"
+        ],
         "enunciado": "¿En qué principio constitucional debería fundamentarse la decisión del colegio frente a esta solicitud, teniendo en cuenta que la Constitución no declara expresamente que Colombia sea un Estado laico?",
         "dificultad": "alta",
         "opciones": {
           "A": "En la prohibición constitucional expresa de cualquier práctica religiosa dentro de instituciones educativas oficiales.",
           "B": "En el derecho de la mayoría de los estudiantes a decidir, por votación interna, qué prácticas religiosas se permiten en el colegio.",
-          "C": "En el principio de laicidad estatal, que se deriva jurisprudencialmente de la libertad de cultos y de conciencia consagrada en el artículo 19, y que exige no privilegiar ni obstaculizar ninguna práctica religiosa.",
+          "C": "En el principio de laicidad estatal, derivado jurisprudencialmente de la libertad de cultos del artículo 19, que exige no privilegiar ni obstaculizar ninguna práctica religiosa.",
           "D": "En la autonomía escolar, que le permite a cada rectoría decidir libremente sin ningún límite constitucional qué actividades religiosas autoriza."
         },
         "respuesta_correcta": "C",
@@ -114,13 +126,17 @@
         "id": "CC-ITEM-004",
         "competencia": "conocimientos",
         "bloque": "ministerio_publico_vs_organos_control",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-007",
+          "CC-CON-008"
+        ],
         "enunciado": "¿Por qué es correcto que tanto la Contraloría como la personería actúen simultáneamente frente a los mismos hechos denunciados, sin que esto implique una duplicidad indebida de funciones?",
         "dificultad": "alta",
         "opciones": {
           "A": "Porque la Constitución permite que cualquier entidad de control investigue cualquier hecho de corrupción, sin que existan competencias diferenciadas entre ellas.",
           "B": "Porque la personería actúa como una instancia de apelación de las decisiones que tome la Contraloría departamental sobre el mismo caso.",
           "C": "Porque solo una de las dos entidades tiene realmente competencia legal para investigar el caso, y la otra actúa por exceso de celo institucional.",
-          "D": "Porque investigan aspectos distintos: la personería, como parte del Ministerio Público, indaga la conducta disciplinaria del funcionario, mientras la Contraloría ejerce control fiscal sobre el manejo de los recursos públicos del proyecto."
+          "D": "Porque investigan aspectos distintos: la personería indaga la conducta disciplinaria del funcionario, y la Contraloría ejerce control fiscal sobre los recursos públicos del proyecto."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "La **personería**, como parte del **Ministerio Público** a nivel local, vigila el cumplimiento de las normas y el comportamiento disciplinario de los servidores públicos. La **Contraloría** ejerce **control fiscal**: audita si el dinero público se gastó de forma eficiente y conforme a la ley. Un mismo hecho —como el sobrecosto de un contrato favorecido irregularmente— puede generar, a la vez, una falta disciplinaria y una responsabilidad fiscal, por lo que ambas entidades pueden actuar sin invadir la función de la otra.",
@@ -143,6 +159,9 @@
         "id": "CC-ITEM-005",
         "competencia": "conocimientos",
         "bloque": "equilibrio_de_poderes",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-009"
+        ],
         "enunciado": "¿Qué principio constitucional general explica que existan varios organismos de control autónomos entre sí, en lugar de una sola entidad encargada de vigilar toda la actuación de los servidores públicos?",
         "dificultad": "media",
         "opciones": {
@@ -181,6 +200,9 @@
         "id": "CC-ITEM-006",
         "competencia": "conocimientos",
         "bloque": "vulneracion_de_multiples_derechos_simultanea",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-028"
+        ],
         "enunciado": "¿Cuál es la caracterización más completa de los derechos que podrían estar en riesgo con la construcción de esta vía, según lo descrito?",
         "dificultad": "alta",
         "opciones": {
@@ -210,6 +232,11 @@
         "id": "CC-ITEM-007",
         "competencia": "conocimientos",
         "bloque": "mecanismos_de_proteccion_de_derechos",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-025",
+          "CC-CON-026",
+          "CC-CON-057"
+        ],
         "enunciado": "Si la comunidad quiere que un juez revise si la licencia ambiental otorgada protegió adecuadamente el interés colectivo en el ambiente sano de toda la región, no solo su interés particular, ¿qué mecanismo constitucional resulta más pertinente?",
         "dificultad": "media",
         "opciones": {
@@ -248,13 +275,16 @@
         "id": "CC-ITEM-008",
         "competencia": "conocimientos",
         "bloque": "vulneracion_directa_vs_disfrazada",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-027"
+        ],
         "enunciado": "¿Por qué el requisito de 'haber egresado hace máximo cinco años' puede considerarse una vulneración disfrazada del derecho a la igualdad, y no una simple exigencia técnica neutral?",
         "dificultad": "alta",
         "opciones": {
           "A": "No hay ninguna vulneración, porque la empresa tiene libertad plena para definir cualquier requisito de selección que considere conveniente para su proceso.",
           "B": "Sí hay una vulneración, pero es directa y no disfrazada, porque el aviso debía mencionar explícitamente un límite de edad para que exista discriminación.",
           "C": "No hay vulneración, porque el aspirante descartado podría haber cumplido el requisito si hubiera realizado estudios adicionales recientes antes de aplicar.",
-          "D": "Porque, aunque no menciona la edad directamente, ese requisito excluye sistemáticamente a personas mayores sin que exista una relación real entre el tiempo de egreso y las exigencias técnicas del cargo, logrando el mismo efecto discriminatorio que una restricción de edad explícita."
+          "D": "Porque, sin mencionar la edad, el requisito excluye sistemáticamente a personas mayores sin relación real con el cargo, logrando el mismo efecto que una restricción de edad explícita."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Una vulneración **disfrazada** ocurre cuando una condición formalmente neutral produce, en la práctica, el mismo efecto que una discriminación directa. Exigir un egreso reciente sin relación demostrable con las funciones del cargo excluye, de hecho, a personas mayores con la experiencia necesaria, logrando indirectamente lo que una restricción explícita de edad lograría directamente, y por tanto vulnera igualmente el derecho a la igualdad.",
@@ -286,6 +316,9 @@
         "id": "CC-ITEM-009",
         "competencia": "conocimientos",
         "bloque": "revocatoria_del_mandato_alcance",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-036"
+        ],
         "enunciado": "Si los ciudadanos inconformes decidieran, en cambio, dirigir un proceso de revocatoria de mandato contra los concejales que aprobaron el plan de desarrollo del que hacía parte esa promesa incumplida, ¿sería jurídicamente viable?",
         "dificultad": "media",
         "opciones": {
@@ -315,12 +348,16 @@
         "id": "CC-ITEM-010",
         "competencia": "conocimientos",
         "bloque": "requisitos_y_periodos_cargos_eleccion",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-019",
+          "CC-CON-020"
+        ],
         "enunciado": "Si un ciudadano de 26 años, colombiano por nacimiento, quisiera presentarse como candidato a la alcaldía en las próximas elecciones de este mismo municipio, ¿qué puede afirmarse sobre los requisitos de edad aplicables, comparándolos con los de otros cargos de elección popular?",
         "dificultad": "media",
         "opciones": {
           "A": "No podría ser candidato, porque la Constitución exige exactamente los mismos treinta años mínimos que rigen para el Senado y la Presidencia en cualquier cargo de elección popular.",
-          "B": "La Constitución no fija una edad mínima única para todos los cargos de elección popular territorial; mientras que para ser senador o presidente se exige más de 30 años, las calidades específicas de alcaldes y gobernadores están reguladas por la ley, no directamente por el mismo artículo que regula al Congreso o la Presidencia.",
-          "C": "Sí podría ser candidato sin ninguna restricción, porque la Constitución no establece ningún requisito de edad para ningún cargo de elección popular en Colombia.",
+          "B": "La Constitución no fija una edad mínima única para todos los cargos territoriales: para senador o presidente exige más de 30 años, pero las calidades de alcaldes y gobernadores las regula la ley, no el mismo artículo.",
+          "C": "Sí podría ser candidato sin ninguna restricción de edad, porque la Constitución no establece ningún requisito etario para ningún cargo de elección popular en Colombia.",
           "D": "No podría ser candidato, porque para cualquier cargo ejecutivo territorial la Constitución exige la misma edad mínima que para ser representante a la Cámara."
         },
         "respuesta_correcta": "B",
@@ -353,6 +390,9 @@
         "id": "CC-ITEM-011",
         "competencia": "conocimientos",
         "bloque": "consulta_popular_nacional_vs_territorial",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-034"
+        ],
         "enunciado": "¿Qué requisito adicional exige la Constitución para que el Presidente de la República pueda convocar válidamente esta consulta popular de carácter nacional?",
         "dificultad": "alta",
         "opciones": {
@@ -391,13 +431,16 @@
         "id": "CC-ITEM-012",
         "competencia": "conocimientos",
         "bloque": "jerarquia_de_leyes",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-039"
+        ],
         "enunciado": "¿Cuál de los dos grupos tiene la razón en cuanto al tipo de ley que debería usarse, y por qué?",
         "dificultad": "alta",
         "opciones": {
           "A": "El primer grupo, porque cualquier proyecto de ley relacionado con la seguridad social debe tramitarse siempre como ley estatutaria.",
           "B": "El segundo grupo, porque ninguna reforma al régimen pensional puede tramitarse jamás como ley estatutaria, sin importar su contenido.",
           "C": "Ninguno de los dos, porque toda reforma al régimen pensional debe tramitarse obligatoriamente como acto legislativo, al tratarse de una modificación constitucional.",
-          "D": "Depende del contenido específico del proyecto: solo si regula directamente el mecanismo de protección del derecho o su núcleo esencial exigiría trámite estatutario; los simples ajustes técnicos de montos y requisitos pueden tramitarse como ley ordinaria."
+          "D": "Depende del contenido del proyecto: solo si regula el mecanismo de protección del derecho o su núcleo esencial exige trámite estatutario; los ajustes técnicos de montos pueden ser ley ordinaria."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Las **leyes estatutarias** están reservadas para materias específicas, como los mecanismos de protección de los derechos fundamentales o su regulación esencial, y requieren mayoría absoluta y revisión previa de la Corte Constitucional. Un ajuste técnico de montos o requisitos de un régimen pensional, que no modifica el núcleo del derecho ni su mecanismo de protección, puede tramitarse válidamente como **ley ordinaria**; solo si el proyecto tocara aspectos esenciales del derecho mismo se justificaría el trámite estatutario.",
@@ -429,6 +472,11 @@
         "id": "CC-ITEM-013",
         "competencia": "conocimientos",
         "bloque": "rama_judicial_estructura",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-005",
+          "CC-CON-006",
+          "CC-CON-050"
+        ],
         "enunciado": "De acuerdo con lo que establece la Constitución sobre la jurisdicción especial indígena, ¿qué elemento resulta determinante para resolver este conflicto de competencias?",
         "dificultad": "alta",
         "opciones": {
@@ -458,6 +506,10 @@
         "id": "CC-ITEM-014",
         "competencia": "conocimientos",
         "bloque": "derechos_fundamentales_con_ejemplos",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-021",
+          "CC-CON-054"
+        ],
         "enunciado": "Si, durante el juzgamiento del caso por parte de las autoridades del resguardo, a uno de los involucrados no se le permitiera en ningún momento presentar su versión de los hechos antes de una decisión final, ¿qué derecho fundamental se vería comprometido, independientemente de qué jurisdicción conozca el caso?",
         "dificultad": "media",
         "opciones": {
@@ -496,6 +548,9 @@
         "id": "CC-ITEM-015",
         "competencia": "conocimientos",
         "bloque": "eleccion_procurador_general",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-013"
+        ],
         "enunciado": "¿Qué corporación tiene la competencia constitucional para elegir al nuevo Procurador General de la Nación entre los tres candidatos presentados?",
         "dificultad": "alta",
         "opciones": {
@@ -525,6 +580,11 @@
         "id": "CC-ITEM-016",
         "competencia": "conocimientos",
         "bloque": "comparacion_cruzada_elecciones",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-017",
+          "CC-CON-018",
+          "CC-CON-051"
+        ],
         "enunciado": "A diferencia del proceso de elección del Procurador General descrito, ¿qué característica distintiva tiene el proceso de elección del Contralor General de la República que se menciona en la situación?",
         "dificultad": "alta",
         "opciones": {
@@ -563,10 +623,13 @@
         "id": "CC-ITEM-017",
         "competencia": "conocimientos",
         "bloque": "derechos_fundamentales_por_conexidad",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-024"
+        ],
         "enunciado": "¿Por qué un juez de tutela podría ordenar la realización de esta cirugía, a pesar de que la salud no siempre se protege por la vía de la tutela como los derechos fundamentales de aplicación inmediata?",
         "dificultad": "media",
         "opciones": {
-          "A": "Porque, al poner en riesgo inminente la movilidad y el bienestar básico del paciente de forma irreversible, el derecho a la salud se conecta directamente con derechos fundamentales como la vida y la dignidad humana, activando la protección por conexidad.",
+          "A": "Porque, al poner en riesgo inminente e irreversible la movilidad y el bienestar del paciente, la salud se conecta con derechos fundamentales como la vida y la dignidad, activando la conexidad.",
           "B": "Porque cualquier negativa de un servicio de salud por parte de una EPS constituye, sin excepción, una vulneración de un derecho fundamental exigible por tutela.",
           "C": "Porque el plan de beneficios en salud no tiene ningún valor jurídico vinculante y las EPS pueden ser obligadas a cubrir cualquier procedimiento que un médico solicite.",
           "D": "Porque la existencia de tratamientos alternativos de menor costo obliga automáticamente a la EPS a autorizar el procedimiento de mayor costo que el paciente solicita."
@@ -601,6 +664,9 @@
         "id": "CC-ITEM-018",
         "competencia": "conocimientos",
         "bloque": "iniciativa_popular_legislativa",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-037"
+        ],
         "enunciado": "¿Qué garantiza jurídicamente a los estudiantes el haber reunido el número de firmas requerido y presentado el proyecto mediante iniciativa popular legislativa?",
         "dificultad": "media",
         "opciones": {
@@ -630,6 +696,9 @@
         "id": "CC-ITEM-019",
         "competencia": "conocimientos",
         "bloque": "control_de_constitucionalidad_vs_tramite_legislativo",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-041"
+        ],
         "enunciado": "Si, durante el trámite de este proyecto, la comisión respectiva del Congreso omitiera uno de los debates exigidos por el reglamento antes de pasar el proyecto a votación en plenaria, ¿qué tipo de problema constitucional se generaría, independientemente de que el contenido del proyecto sea razonable?",
         "dificultad": "alta",
         "opciones": {
@@ -668,6 +737,11 @@
         "id": "CC-ITEM-020",
         "competencia": "conocimientos",
         "bloque": "mecanismos_de_proteccion_de_derechos",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-025",
+          "CC-CON-026",
+          "CC-CON-057"
+        ],
         "enunciado": "¿Qué mecanismo constitucional respalda específicamente la solicitud de esta persona para conocer, y eventualmente solicitar la eliminación de, su información genética almacenada?",
         "dificultad": "media",
         "opciones": {
@@ -706,6 +780,9 @@
         "id": "CC-ITEM-021",
         "competencia": "conocimientos",
         "bloque": "jerarquia_de_leyes",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-039"
+        ],
         "enunciado": "¿Qué elemento del proyecto, y no simplemente su relación general con la salud pública, determinaría si en efecto requiere tramitarse como ley estatutaria?",
         "dificultad": "alta",
         "opciones": {
@@ -744,13 +821,16 @@
         "id": "CC-ITEM-022",
         "competencia": "conocimientos",
         "bloque": "por_que_la_constitucion_1991_reemplazo_a_la_de_1886",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-049"
+        ],
         "enunciado": "¿Cuál de las siguientes es una razón estructural, y no simplemente anecdótica, por la que se optó por una nueva Constitución en 1991?",
         "dificultad": "media",
         "opciones": {
           "A": "La Constitución de 1886 nunca fue modificada desde su promulgación, por lo que hacia 1991 resultaba jurídicamente imposible reformarla mediante un acto legislativo del Congreso.",
-          "B": "La Constitución de 1886 tenía un fuerte carácter confesional y concentraba amplio poder en el Ejecutivo, mientras que la nueva Constitución buscó un giro hacia la laicidad del Estado y la creación de mecanismos más efectivos de protección de derechos, como la acción de tutela.",
+          "B": "La Constitución de 1886 tenía carácter confesional y concentraba amplio poder en el Ejecutivo; la nueva buscó un giro hacia la laicidad y creó mecanismos más efectivos de protección, como la tutela.",
           "C": "La comunidad internacional exigió formalmente a Colombia adoptar una nueva Constitución como condición para mantener relaciones diplomáticas con otros países.",
-          "D": "El cambio se debió únicamente a que la Constitución de 1886 tenía una extensión mucho menor en número de artículos que la Constitución actualmente vigente."
+          "D": "El cambio se debió únicamente a que la Constitución de 1886 tenía muchos menos artículos que la Constitución vigente actualmente."
         },
         "respuesta_correcta": "B",
         "explicacion_correcta": "El cambio de 1991 respondió a razones **estructurales**: la Constitución de 1886 reconocía un fuerte vínculo entre el Estado y una religión específica y concentraba gran poder en el Ejecutivo; la nueva Constitución giró hacia la **laicidad**, amplió el catálogo de derechos y creó la **Corte Constitucional** junto con la **acción de tutela**, transformando la manera en que las personas podían exigir la protección de sus derechos frente al Estado.",
@@ -782,6 +862,9 @@
         "id": "CC-ITEM-023",
         "competencia": "conocimientos",
         "bloque": "asambleas_departamentales_y_concejos_municipales",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-048"
+        ],
         "enunciado": "¿Qué tipo de acto normativo estaría aprobando el concejo municipal si decide destinar directamente esos recursos al programa de reciclaje, sin necesidad de una consulta previa adicional?",
         "dificultad": "baja",
         "opciones": {
@@ -811,6 +894,10 @@
         "id": "CC-ITEM-024",
         "competencia": "conocimientos",
         "bloque": "democracia_representativa_y_participativa_coexisten",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-046",
+          "CC-CON-061"
+        ],
         "enunciado": "¿Cómo se explica, desde el modelo constitucional colombiano, que sea igualmente legítimo que el concejo decida directamente el asunto sin consulta previa, como que la comunidad exija ejercer un mecanismo de participación directa sobre el mismo tema?",
         "dificultad": "media",
         "opciones": {
@@ -849,6 +936,10 @@
         "id": "CC-ITEM-025",
         "competencia": "conocimientos",
         "bloque": "funciones_del_congreso_mas_alla_de_legislar",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-047",
+          "CC-CON-059"
+        ],
         "enunciado": "Si la moción de censura contra el ministro llegara a aprobarse, ¿qué consecuencia jurídica inmediata tendría, y qué relación guardaría con una eventual responsabilidad penal o disciplinaria del ministro por los mismos hechos?",
         "dificultad": "alta",
         "opciones": {
@@ -887,6 +978,11 @@
         "id": "CC-ITEM-026",
         "competencia": "conocimientos",
         "bloque": "mecanismos_de_proteccion_de_derechos",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-025",
+          "CC-CON-026",
+          "CC-CON-057"
+        ],
         "enunciado": "¿Qué mecanismo constitucional resulta más pertinente para que los habitantes del barrio exijan directamente que se ejecute la obra ya ordenada por la ley vigente, sin necesidad de esperar un nuevo proceso de asignación presupuestal?",
         "dificultad": "media",
         "opciones": {
@@ -916,12 +1012,16 @@
         "id": "CC-ITEM-027",
         "competencia": "conocimientos",
         "bloque": "derechos_sociales_economicos_culturales_con_ejemplos",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-022",
+          "CC-CON-062"
+        ],
         "enunciado": "Más allá del mecanismo judicial específico para exigir la obra, ¿qué principio constitucional aplicable a los derechos sociales explica por qué el municipio no puede simplemente alegar falta de presupuesto de forma indefinida para justificar el incumplimiento de una obligación ya priorizada por la ley?",
         "dificultad": "alta",
         "opciones": {
           "A": "El principio de reserva de ley, que exige que cualquier obra pública relacionada con la salud sea aprobada nuevamente por el Congreso antes de su ejecución en cada municipio.",
           "B": "El principio de igualdad, que obliga al municipio a construir simultáneamente la misma obra de alcantarillado en todos sus barrios, sin ninguna prioridad entre ellos.",
-          "C": "El principio de progresividad y la prohibición de regresividad, que exigen que, una vez priorizada una obligación relacionada con derechos sociales como la salud, el Estado avance de manera razonable hacia su cumplimiento y no la postergue indefinidamente sin justificación.",
+          "C": "El principio de progresividad y la prohibición de regresividad: una vez priorizada una obligación de derechos sociales como la salud, el Estado debe avanzar razonablemente y no postergarla indefinidamente.",
           "D": "El principio de solidaridad social, que obliga a los propios habitantes del barrio a asumir directamente, mediante contribuciones económicas, el costo de la obra que reclaman."
         },
         "respuesta_correcta": "C",
@@ -954,13 +1054,16 @@
         "id": "CC-ITEM-028",
         "competencia": "conocimientos",
         "bloque": "vulneracion_directa_vs_disfrazada",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-027"
+        ],
         "enunciado": "¿Por qué esta práctica constituye una vulneración disfrazada del derecho colectivo al ambiente sano, y no una simple estrategia legítima de gestión operativa de la empresa?",
         "dificultad": "alta",
         "opciones": {
           "A": "No hay ninguna vulneración, porque la empresa efectivamente cumple con la norma de emisión en todos los momentos en que existe medición oficial activa.",
           "B": "Sí hay una vulneración, pero es directa y no disfrazada, porque la empresa conoce exactamente los horarios de medición y actúa de forma deliberada e informada.",
           "C": "No hay vulneración ambiental, sino únicamente una falla de la autoridad ambiental por no medir las emisiones durante las veinticuatro horas del día en toda la zona.",
-          "D": "Porque, aunque formalmente la empresa cumple con la norma de emisión durante los momentos medidos, en la práctica programa sus descargas más contaminantes precisamente para evadir el control, vaciando de contenido real la protección ambiental que la norma buscaba garantizar."
+          "D": "Porque, aunque formalmente cumple la norma en los momentos medidos, la empresa programa sus descargas más contaminantes para evadir el control, vaciando de contenido real la protección ambiental."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Una vulneración **disfrazada** ocurre cuando una conducta formalmente ajustada a la norma logra, en la práctica, el mismo resultado que su incumplimiento abierto. Aquí, la empresa cumple la norma únicamente en los momentos en que sabe que será medida, pero programa sus descargas más contaminantes fuera de esos momentos, lo cual vacía de contenido real la protección ambiental que la norma de emisión buscaba garantizar, sin que se haya violado la letra de la norma en ningún momento medido.",
@@ -992,10 +1095,13 @@
         "id": "CC-ITEM-029",
         "competencia": "conocimientos",
         "bloque": "vulneracion_de_multiples_derechos_simultanea",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-028"
+        ],
         "enunciado": "¿Cuál es la caracterización más completa de los derechos que podrían estar comprometidos en esta situación?",
         "dificultad": "alta",
         "opciones": {
-          "A": "Se afectarían simultáneamente el derecho a la igualdad y no discriminación por razón de sexo o embarazo, y la protección reforzada a la estabilidad laboral asociada a la maternidad, dos dimensiones distintas que las razones presupuestales alegadas no logran explicar por separado.",
+          "A": "Se afectarían a la vez la igualdad y no discriminación por embarazo, y la estabilidad laboral reforzada asociada a la maternidad: dos dimensiones que las razones presupuestales no explican por separado.",
           "B": "Únicamente el derecho a la estabilidad laboral, ya que las razones presupuestales alegadas por la rectoría son, en principio, una causa legítima para no renovar cualquier contrato.",
           "C": "Únicamente el derecho a la igualdad y no discriminación, ya que el contrato de la profesora nunca tuvo, en ningún caso, una expectativa real de renovación automática.",
           "D": "El derecho al buen nombre de la profesora, que se vería afectado ante la comunidad educativa al conocerse públicamente que su contrato no fue renovado."
@@ -1030,11 +1136,14 @@
         "id": "CC-ITEM-030",
         "competencia": "conocimientos",
         "bloque": "vulneracion_directa_vs_disfrazada",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-027"
+        ],
         "enunciado": "¿Por qué el argumento de 'tratar a todos por igual' puede encubrir, en este caso, una vulneración disfrazada, en lugar de ser una aplicación legítima del principio de igualdad?",
         "dificultad": "alta",
         "opciones": {
           "A": "No hay ninguna vulneración disfrazada, porque el principio de igualdad exige siempre que el Estado trate a todos los ciudadanos de forma exactamente idéntica, sin excepciones.",
-          "B": "Porque eliminar un programa específico dirigido a compensar barreras históricas de un grupo vulnerable, en nombre de un trato general igualitario, puede profundizar la desigualdad real que ese programa buscaba corregir, en lugar de garantizar una igualdad genuina.",
+          "B": "Porque eliminar un programa dirigido a compensar barreras históricas de un grupo vulnerable, en nombre de un trato igualitario general, puede profundizar la desigualdad que ese programa buscaba corregir.",
           "C": "Sí hay una vulneración, pero es directa y no disfrazada, porque el comunicado menciona expresamente y sin ambigüedad que el programa dirigido a esa comunidad étnica queda eliminado.",
           "D": "No hay vulneración de ningún tipo, porque la entidad sigue destinando los mismos recursos a un programa general abierto a toda la población, sin reducir el presupuesto total."
         },
@@ -1068,6 +1177,10 @@
         "id": "CC-ITEM-031",
         "competencia": "conocimientos",
         "bloque": "jerarquia_normativa_aplicada",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-038",
+          "CC-CON-058"
+        ],
         "enunciado": "Si la demanda de la organización ambiental resulta cierta, ¿qué problema jurídico específico tendría el decreto expedido por el Ministerio?",
         "dificultad": "alta",
         "opciones": {
@@ -1097,6 +1210,9 @@
         "id": "CC-ITEM-032",
         "competencia": "conocimientos",
         "bloque": "bloque_de_constitucionalidad",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-040"
+        ],
         "enunciado": "Si, además de la ley nacional, existiera un tratado internacional de derechos humanos ratificado por Colombia que reconozca el derecho al agua como condición para una vida digna, ¿qué relevancia tendría ese tratado para el análisis de constitucionalidad de la norma nacional que regula el acceso al recurso hídrico?",
         "dificultad": "alta",
         "opciones": {
@@ -1135,6 +1251,9 @@
         "id": "CC-ITEM-033",
         "competencia": "conocimientos",
         "bloque": "cabildo_abierto_quien_lo_solicita",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-035"
+        ],
         "enunciado": "¿Qué mecanismo de participación ciudadana corresponde a lo que los residentes están solicitando, y quién debe activarlo?",
         "dificultad": "media",
         "opciones": {
@@ -1173,11 +1292,14 @@
         "id": "CC-ITEM-034",
         "competencia": "conocimientos",
         "bloque": "neutralidad_estatal_frente_a_religiones",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-044"
+        ],
         "enunciado": "¿Cómo debería resolverse esta solicitud a la luz del principio de neutralidad estatal frente a las religiones?",
         "dificultad": "alta",
         "opciones": {
           "A": "El colegio debe negar la solicitud sin excepción, porque cualquier ajuste al manual de convivencia por motivos religiosos comprometería automáticamente la neutralidad del Estado.",
-          "B": "El colegio, como institución pública, debe evaluar si es posible ajustar razonablemente el manual de convivencia para permitir la prenda religiosa, ya que negarla sin ningún análisis particular podría imponer, de hecho, una uniformidad que privilegia implícitamente las prácticas de la mayoría no religiosa o de otra confesión.",
+          "B": "El colegio debe evaluar si puede ajustar razonablemente el manual de convivencia para permitir la prenda religiosa, ya que negarla sin ningún análisis podría privilegiar, de hecho, las prácticas de la mayoría.",
           "C": "El colegio debe aceptar la solicitud sin ningún análisis adicional, porque la libertad religiosa de un estudiante siempre prevalece automáticamente sobre cualquier norma interna de la institución.",
           "D": "La decisión corresponde exclusivamente a una votación de los padres de familia de todo el colegio, ya que es un asunto que afecta directamente el manual de convivencia institucional."
         },
@@ -1211,6 +1333,11 @@
         "id": "CC-ITEM-035",
         "competencia": "conocimientos",
         "bloque": "rama_ejecutiva_funciones",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-001",
+          "CC-CON-002",
+          "CC-CON-056"
+        ],
         "enunciado": "¿Quién tiene la competencia constitucional para disponer del uso de las Fuerzas Militares en una situación como esta?",
         "dificultad": "media",
         "opciones": {
@@ -1233,6 +1360,594 @@
           "D": {
             "explicacion": "El despliegue ordinario de tropas para atender el orden público no requiere una autorización previa del Congreso mediante ley; esa facultad de dirección de la fuerza pública corresponde directamente al Presidente en su función como Comandante Supremo de las Fuerzas Armadas.",
             "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-091",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "congreso",
+    "situacion": "Durante un noticiero, un presentador explica que el Congreso de la República está compuesto por dos cámaras, y que en las próximas semanas el Senado deberá elegir a los nuevos magistrados de la Corte Constitucional, mientras la Cámara de Representantes avanza en el trámite de un proyecto de ley ordinaria sobre transporte público.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-114",
+        "competencia": "conocimientos",
+        "bloque": "rama_legislativa_funciones",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-003"
+        ],
+        "enunciado": "Según la Constitución, ¿qué función cumple el Senado que no le corresponde a la Cámara de Representantes?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Elegir a los magistrados de la Corte Constitucional y juzgar las acusaciones que la Cámara formule contra altos funcionarios",
+          "B": "Aprobar en primer debate el presupuesto general de la Nación antes de que lo revise la Cámara",
+          "C": "Iniciar en exclusiva, sin excepción alguna, cualquier proyecto de ley que involucre gasto público del nivel nacional",
+          "D": "Representar de forma exclusiva a las minorías étnicas y religiosas de todo el país"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El artículo 173 le asigna al Senado funciones electorales y de juzgamiento, entre ellas elegir a los magistrados de la Corte Constitucional y actuar como juez de las acusaciones que la Cámara formule contra el Presidente u otros altos funcionarios.",
+        "distractores": {
+          "B": {
+            "explicacion": "Ambas cámaras participan en el trámite presupuestal; no es una función exclusiva del Senado.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "Cualquier cámara puede iniciar un proyecto de ley; no es una atribución exclusiva del Senado, y los proyectos de gasto público tienen su propio trámite conjunto.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "La representación de las minorías étnicas se canaliza mediante circunscripciones especiales en ambas cámaras, no es una función exclusiva del Senado.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      },
+      {
+        "id": "CC-ITEM-115",
+        "competencia": "conocimientos",
+        "bloque": "rama_legislativa_funciones",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-004"
+        ],
+        "enunciado": "¿Por qué se afirma que el Senado representa a la Nación y la Cámara de Representantes representa a los territorios?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Porque el Senado tiene más curules que la Cámara en total",
+          "B": "Porque el Senado se elige por circunscripción nacional única, mientras la Cámara se elige por circunscripciones departamentales",
+          "C": "Porque solo los senadores pueden ser reelegidos indefinidamente, a diferencia de los representantes",
+          "D": "Porque el Senado legisla sobre asuntos internacionales y la Cámara solo sobre asuntos locales"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Los senadores se eligen en una única circunscripción nacional, mientras que los representantes a la Cámara se eligen por circunscripciones departamentales, lo que explica esa diferencia en el tipo de representación.",
+        "distractores": {
+          "A": {
+            "explicacion": "La Cámara tiene más curules que el Senado en total; y de cualquier forma, el número de escaños no explica la diferencia entre representación nacional y territorial.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "La Constitución no establece una regla de reelección distinta entre senadores y representantes; ambos están sujetos a las mismas reglas generales de elección periódica.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "D": {
+            "explicacion": "Ambas cámaras legislan sobre asuntos nacionales; la diferencia entre ellas es el tipo de circunscripción electoral, no el ámbito temático de las leyes que tramitan.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-092",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "organos_control",
+    "situacion": "Se acerca el fin del período del actual Contralor General de la República. Los medios explican que, a diferencia de otros altos cargos de control, este proceso inició con una convocatoria pública abierta a cientos de aspirantes, de la cual salió una lista final de elegibles.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-116",
+        "competencia": "conocimientos",
+        "bloque": "eleccion_contralor_general",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-014"
+        ],
+        "enunciado": "¿Qué corporación elige finalmente al Contralor General de la República, y con base en qué proceso?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "La Corte Suprema de Justicia, a partir de una terna que envía el Presidente de la República",
+          "B": "El Senado exclusivamente, a partir de una terna conformada por las altas cortes",
+          "C": "El Congreso en pleno, por mayoría absoluta, a partir de una lista de elegibles surgida de una convocatoria pública",
+          "D": "El pueblo, mediante voto popular directo en las elecciones legislativas"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Desde el Acto Legislativo 02 de 2015, el Contralor General se elige por el Congreso en pleno (Senado y Cámara juntos), por mayoría absoluta, a partir de una lista de elegibles que surge de una convocatoria pública con pruebas de conocimiento, no de una terna.",
+        "distractores": {
+          "A": {
+            "explicacion": "Ese es el procedimiento de elección del Fiscal General de la Nación, no del Contralor; cada cargo de control tiene un mecanismo de elección distinto.",
+            "patron_trampa": "organo_elector_confundido"
+          },
+          "B": {
+            "explicacion": "No es el Senado exclusivamente sino el Congreso en pleno; y desde 2015 el proceso ya no depende de una terna de las altas cortes, sino de una convocatoria pública.",
+            "patron_trampa": "organo_elector_confundido"
+          },
+          "D": {
+            "explicacion": "El Contralor no se elige por voto popular directo; su elección está a cargo del Congreso en pleno con base en la lista de elegibles de la convocatoria pública.",
+            "patron_trampa": "organo_elector_confundido"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-093",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "organos_control",
+    "situacion": "El Presidente de la República presenta ante el Congreso una terna de tres abogados con trayectoria en derechos humanos para ocupar la Defensoría del Pueblo, cuyo período está por finalizar.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-117",
+        "competencia": "conocimientos",
+        "bloque": "eleccion_defensor_del_pueblo",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-015"
+        ],
+        "enunciado": "¿Qué corporación tiene la competencia para elegir al Defensor del Pueblo a partir de esa terna?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "El Senado de la República",
+          "B": "La Corte Constitucional en pleno",
+          "C": "El Congreso en pleno, reunido en sesión conjunta",
+          "D": "La Cámara de Representantes"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El artículo 281 establece que el Defensor del Pueblo es elegido por la Cámara de Representantes, a partir de una terna elaborada únicamente por el Presidente de la República, para un período de cuatro años.",
+        "distractores": {
+          "A": {
+            "explicacion": "Es la Cámara de Representantes, no el Senado, la corporación competente para elegir al Defensor del Pueblo.",
+            "patron_trampa": "organo_elector_confundido"
+          },
+          "B": {
+            "explicacion": "La Corte Constitucional no interviene en la elección del Defensor del Pueblo; su elección corresponde exclusivamente al Congreso a través de la Cámara.",
+            "patron_trampa": "organo_elector_confundido"
+          },
+          "C": {
+            "explicacion": "No es una sesión conjunta del Congreso en pleno: la elección del Defensor del Pueblo es una competencia exclusiva de la Cámara de Representantes.",
+            "patron_trampa": "organo_elector_confundido"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-094",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "organos_control",
+    "situacion": "Finaliza el período del actual Fiscal General de la Nación. El Presidente de la República envía una terna de tres candidatos con trayectoria judicial para que se elija a su sucesor.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-118",
+        "competencia": "conocimientos",
+        "bloque": "eleccion_fiscal_general",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-016"
+        ],
+        "enunciado": "¿Qué corporación elige al nuevo Fiscal General a partir de esa terna, y a qué rama del poder público pertenece la Fiscalía?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "La Corte Suprema de Justicia; la Fiscalía pertenece a la Rama Judicial",
+          "B": "El Congreso en pleno; la Fiscalía pertenece al Ministerio Público",
+          "C": "El Consejo de Estado; la Fiscalía es un órgano autónomo de control fiscal",
+          "D": "La Corte Constitucional; la Fiscalía pertenece a la Rama Ejecutiva"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El artículo 249 establece que el Fiscal General se elige por la Corte Suprema de Justicia a partir de una terna del Presidente. La Fiscalía General no pertenece al Ministerio Público ni al control fiscal, sino a la Rama Judicial, porque investiga delitos y acusa ante los jueces penales.",
+        "distractores": {
+          "B": {
+            "explicacion": "No es el Congreso quien elige al Fiscal, sino la Corte Suprema de Justicia; además, la Fiscalía no forma parte del Ministerio Público, sino de la Rama Judicial.",
+            "patron_trampa": "organo_elector_confundido"
+          },
+          "C": {
+            "explicacion": "El Consejo de Estado no interviene en esta elección, y la Fiscalía no ejerce control fiscal: esa función corresponde a la Contraloría, un organismo distinto.",
+            "patron_trampa": "organo_elector_confundido"
+          },
+          "D": {
+            "explicacion": "La Fiscalía no pertenece a la Rama Ejecutiva ni la elige la Corte Constitucional; es un componente de la Rama Judicial elegido por la Corte Suprema de Justicia.",
+            "patron_trampa": "organo_elector_confundido"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-095",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "medio_ambiente",
+    "situacion": "Una empresa maderera tiene un permiso de explotación forestal en un terreno de su propiedad que incluye un bosque nativo protegido, cuya tala afectaría la fuente de agua de la que se abastece un corregimiento cercano. Un grupo de habitantes del corregimiento, sin ser dueños del terreno, interpone una acción judicial para detener la tala.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-119",
+        "competencia": "conocimientos",
+        "bloque": "derechos_colectivos_y_ambientales_con_ejemplos",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-023"
+        ],
+        "enunciado": "¿Qué mecanismo judicial es el adecuado para que los habitantes del corregimiento protejan el derecho colectivo al ambiente sano, sin ser propietarios del terreno?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "La acción de tutela, porque protege de forma inmediata cualquier derecho fundamental de cada habitante individualmente",
+          "B": "La acción popular, porque protege un derecho colectivo que pertenece a la comunidad afectada, sin necesidad de probar un perjuicio individual",
+          "C": "Una demanda de propiedad, porque solo el dueño del terreno puede reclamar judicialmente su uso",
+          "D": "Un derecho de petición, porque basta con solicitar información a la autoridad ambiental para detener la tala"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Los derechos colectivos, como el ambiente sano, no son de titularidad individual sino de toda la comunidad afectada, y su mecanismo natural de protección es la acción popular, que puede interponer cualquier persona en representación del interés colectivo.",
+        "distractores": {
+          "A": {
+            "explicacion": "La tutela protege derechos fundamentales de una persona frente a una vulneración concreta; el ambiente sano de toda una comunidad se protege mejor mediante la acción popular.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "No es necesario ser propietario del terreno para proteger un derecho colectivo; la acción popular puede interponerla cualquier persona afectada por el daño colectivo.",
+            "patron_trampa": "alcance_incorrecto_derecho"
+          },
+          "D": {
+            "explicacion": "Un derecho de petición solo obliga a responder una solicitud de información; no tiene la fuerza vinculante necesaria para detener una actividad que vulnera un derecho colectivo.",
+            "patron_trampa": "solucion_parcial"
+          }
+        }
+      },
+      {
+        "id": "CC-ITEM-120",
+        "competencia": "conocimientos",
+        "bloque": "derechos_colectivos_y_ambientales_con_ejemplos",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-053"
+        ],
+        "enunciado": "La empresa alega que, al ser propietaria del terreno, tiene derecho absoluto a talar el bosque. ¿Es correcta esa afirmación?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Sí, porque la propiedad privada es un derecho absoluto que no puede limitarse por consideraciones ambientales",
+          "B": "No, porque el derecho colectivo al ambiente sano siempre prevalece automáticamente sobre cualquier derecho de propiedad",
+          "C": "No, porque la propiedad tiene una función social y ecológica que limita su ejercicio, aunque la restricción debe ser proporcional y justificada en el caso concreto",
+          "D": "Sí, porque solo el Congreso puede limitar el uso de un terreno mediante una ley específica para cada propietario"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "La Constitución (art. 58) reconoce que la propiedad privada tiene una función social que implica obligaciones y una función ecológica inherente; esto no la anula, pero sí exige ponderar su ejercicio frente a un daño colectivo real y proporcionado al caso concreto.",
+        "distractores": {
+          "A": {
+            "explicacion": "La propiedad privada no es un derecho absoluto en la Constitución colombiana: su función social y ecológica limita legítimamente su ejercicio.",
+            "patron_trampa": "alcance_incorrecto_derecho"
+          },
+          "B": {
+            "explicacion": "Ningún derecho prevalece automáticamente sobre otro; el sistema constitucional exige ponderar el caso concreto, no aplicar una regla absoluta en ningún sentido.",
+            "patron_trampa": "alcance_incorrecto_derecho"
+          },
+          "D": {
+            "explicacion": "La limitación a la propiedad por su función ecológica no depende de una ley específica para cada propietario, sino de la ponderación judicial del caso concreto frente al daño colectivo.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-096",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "deberes_civicos",
+    "situacion": "Un joven de 25 años comenta que nunca ha votado, que no se informa sobre los asuntos de su municipio y que considera que, como no es funcionario público, no tiene ninguna responsabilidad frente al Estado más allá de pagar sus impuestos.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-121",
+        "competencia": "conocimientos",
+        "bloque": "deberes_ciudadanos_articulo_95",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-029"
+        ],
+        "enunciado": "Según el artículo 95 de la Constitución, ¿qué deberes ciudadanos, además de pagar impuestos, está desconociendo este joven?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Ninguno adicional; pagar impuestos es el único deber constitucional exigible a los ciudadanos",
+          "B": "El deber de afiliarse obligatoriamente a un partido político para ejercer una ciudadanía activa",
+          "C": "El deber de aceptar cualquier cargo público al que sea convocado por el Estado",
+          "D": "Deberes como participar en la vida política, cívica y comunitaria, y obrar conforme al principio de solidaridad social"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El artículo 95 impone, entre otros, los deberes de participar en la vida política, cívica y comunitaria, obrar con solidaridad social y defender los derechos humanos; contribuir al financiamiento del Estado es solo uno de varios deberes, no el único.",
+        "distractores": {
+          "A": {
+            "explicacion": "El artículo 95 enumera varios deberes ciudadanos además del financiamiento del Estado, como la participación cívica y la solidaridad social.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "B": {
+            "explicacion": "La Constitución no impone la afiliación obligatoria a un partido político; la participación política puede ejercerse de muchas formas sin pertenecer a un partido.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "C": {
+            "explicacion": "No existe un deber constitucional de aceptar cualquier cargo público; la participación en la vida política y comunitaria admite muchas otras formas de ejercicio.",
+            "patron_trampa": "generalizacion_invalida"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-097",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "participacion_ciudadana",
+    "situacion": "En una conversación familiar, alguien afirma que en Colombia no votar en las elecciones debería ser sancionado con una multa, 'como en otros países donde el voto es obligatorio'.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-122",
+        "competencia": "conocimientos",
+        "bloque": "voto_como_mecanismo_base",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-031"
+        ],
+        "enunciado": "¿Es correcta la afirmación de que en Colombia no votar genera una sanción legal?",
+        "dificultad": "baja",
+        "opciones": {
+          "A": "No, porque aunque el voto se describe como un derecho y un deber, en Colombia no existe sanción legal por abstenerse de votar",
+          "B": "Sí, porque el voto es un deber ciudadano establecido en el artículo 95, y todo deber constitucional es sancionable",
+          "C": "No, porque en Colombia el voto ni siquiera se considera un deber, solo un derecho individual",
+          "D": "Sí, pero solo para las elecciones presidenciales, no para las demás elecciones populares"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El voto en Colombia es a la vez un derecho fundamental de participación política y un deber cívico, pero su ejercicio es libre: no existe ninguna sanción legal por no votar, a diferencia de países donde el voto es obligatorio con multa.",
+        "distractores": {
+          "B": {
+            "explicacion": "No todo deber constitucional lleva aparejada una sanción legal; el deber cívico de votar es exigible moralmente, pero no jurídicamente coercible.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "C": {
+            "explicacion": "La Constitución sí describe el voto como un deber ciudadano además de un derecho; negar esa doble naturaleza contradice el texto constitucional.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "D": {
+            "explicacion": "La ausencia de sanción por no votar aplica a todas las elecciones populares en Colombia, no solo a la elección presidencial.",
+            "patron_trampa": "generalizacion_invalida"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-098",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "participacion_ciudadana",
+    "situacion": "El Presidente de la República anuncia que convocará un plebiscito para que la ciudadanía apoye o rechace un acuerdo internacional negociado por su Gobierno. Un congresista de oposición argumenta que ese plebiscito debería usarse también para ampliar el período presidencial vigente.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-123",
+        "competencia": "conocimientos",
+        "bloque": "plebiscito_quien_convoca_y_su_limite",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-032"
+        ],
+        "enunciado": "¿Es constitucionalmente viable usar ese mismo plebiscito para decidir también sobre la duración del período presidencial?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Sí, porque el plebiscito, al ser convocado por el Presidente, puede versar sobre cualquier tema que el Ejecutivo considere relevante",
+          "B": "No, porque el plebiscito no puede modificar la Constitución ni versar sobre la duración del período presidencial, sin importar quién lo convoque",
+          "C": "Sí, siempre que el Congreso apruebe previamente incluir ese segundo tema en la misma convocatoria",
+          "D": "No, porque los plebiscitos solo pueden convocarse para decisiones de política internacional, nunca para asuntos internos"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El plebiscito sirve para que el pueblo apoye o rechace una decisión política del Ejecutivo, pero tiene límites expresos: no puede modificar la Constitución ni versar sobre la duración del período presidencial, independientemente del respaldo político que tenga.",
+        "distractores": {
+          "A": {
+            "explicacion": "El plebiscito no puede versar sobre cualquier tema: tiene límites expresos, entre ellos no poder modificar la Constitución ni la duración del período presidencial.",
+            "patron_trampa": "alcance_incorrecto_derecho"
+          },
+          "C": {
+            "explicacion": "La aprobación previa del Congreso no habilita al plebiscito a superar sus límites constitucionales expresos; esos límites no dependen del respaldo legislativo.",
+            "patron_trampa": "jerarquia_normativa_incorrecta"
+          },
+          "D": {
+            "explicacion": "El plebiscito puede convocarse sobre decisiones políticas del Ejecutivo de distinta naturaleza, no solo internacionales; su límite no es temático de política exterior, sino los dos expresos que fija la ley.",
+            "patron_trampa": "alcance_incorrecto_derecho"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-099",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "participacion_ciudadana",
+    "situacion": "Un grupo de ciudadanos recolecta firmas para someter a votación popular la derogatoria de un impuesto municipal que ya está vigente desde hace dos años.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-124",
+        "competencia": "conocimientos",
+        "bloque": "referendo_tipos_y_convocatoria",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-033"
+        ],
+        "enunciado": "¿Qué tipo de mecanismo de participación están impulsando estos ciudadanos, y puede tener origen popular?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Un plebiscito de origen popular, ya que buscan dejar sin efecto una decisión política del Ejecutivo",
+          "B": "Una consulta popular, que en este caso solo puede convocarla el alcalde municipal",
+          "C": "Un referendo derogatorio, que sí puede tener origen popular mediante la recolección de firmas ciudadanas",
+          "D": "Un referendo aprobatorio, porque buscan que el pueblo apruebe una norma que todavía no existe"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Buscan que el pueblo decida si deja sin efecto una norma ya vigente (el impuesto), lo cual corresponde a un referendo derogatorio; a diferencia del plebiscito, el referendo sí puede tener origen popular mediante la recolección de firmas.",
+        "distractores": {
+          "A": {
+            "explicacion": "El plebiscito es de origen exclusivo en autoridad pública (el Presidente); nunca puede tener origen popular, así que esta iniciativa no corresponde a esa figura.",
+            "patron_trampa": "organo_elector_confundido"
+          },
+          "B": {
+            "explicacion": "La consulta popular puede tener origen popular o de autoridad pública, no exclusivamente del alcalde; además, lo que describe la situación es un mecanismo distinto, sobre una norma ya vigente.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "El referendo aprobatorio busca que el pueblo apruebe una norma que aún no existe; aquí la norma (el impuesto) ya está vigente y se busca derogarla, no aprobarla.",
+            "patron_trampa": "causa_efecto_invertida"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-100",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "participacion_ciudadana",
+    "situacion": "Durante un debate televisado, un panelista afirma que 'el plebiscito sobre el acuerdo de paz de 2016 demostró que el plebiscito es una vía legítima para reformar la Constitución cuando el pueblo lo respalda mayoritariamente'.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-125",
+        "competencia": "conocimientos",
+        "bloque": "mecanismos_de_reforma_constitucional",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-042"
+        ],
+        "enunciado": "¿Es correcta la afirmación del panelista sobre el plebiscito como mecanismo de reforma constitucional?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Sí, porque cualquier mecanismo de participación respaldado mayoritariamente por el pueblo adquiere automáticamente fuerza para reformar la Constitución",
+          "B": "Sí, porque ese plebiscito específico fue autorizado previamente por la Corte Constitucional para tener efectos de reforma",
+          "C": "No, porque en Colombia ningún mecanismo distinto al Congreso puede reformar la Constitución bajo ninguna circunstancia",
+          "D": "No, porque el artículo 374 solo reconoce tres mecanismos de reforma constitucional —Congreso, Asamblea Constituyente y referendo—, y el plebiscito no es uno de ellos"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El artículo 374 establece taxativamente solo tres vías de reforma constitucional: el Congreso, una Asamblea Constituyente y el referendo. El plebiscito queda excluido: solo sirve para que el pueblo apoye o rechace una decisión política del Ejecutivo, sin poder modificar el texto constitucional.",
+        "distractores": {
+          "A": {
+            "explicacion": "El respaldo popular mayoritario no le otorga automáticamente a un mecanismo la fuerza de reformar la Constitución; solo los tres mecanismos taxativos del artículo 374 tienen esa facultad.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "B": {
+            "explicacion": "La Corte Constitucional no puede autorizar que un plebiscito adquiera efectos de reforma constitucional; ese límite lo fija directamente la Constitución, no una autorización judicial puntual.",
+            "patron_trampa": "jerarquia_normativa_incorrecta"
+          },
+          "C": {
+            "explicacion": "El Congreso no es el único mecanismo de reforma: la Asamblea Constituyente y el referendo también pueden reformar la Constitución, aunque el plebiscito efectivamente no pueda hacerlo.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-101",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "derechos_sociales",
+    "situacion": "Un pensionado de 78 años, cuya única fuente de ingresos es su mesada pensional, lleva tres meses sin recibir el pago por un error administrativo de la entidad pagadora. Interpone una acción de tutela solicitando el pago inmediato.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-126",
+        "competencia": "conocimientos",
+        "bloque": "estado_social_de_derecho_vs_estado_de_derecho",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-045"
+        ],
+        "enunciado": "¿Qué principio constitucional explica que el Estado deba garantizar activamente el pago oportuno de esta mesada, y no solo abstenerse de interferir en ella?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "El principio de Estado social de derecho, que exige que el Estado intervenga activamente para garantizar condiciones materiales mínimas de vida digna",
+          "B": "El principio de Estado de derecho clásico, que solo exige que las autoridades actúen conforme a la ley",
+          "C": "El principio de separación de poderes, que obliga a cada rama del poder público a resolver sus propios errores administrativos",
+          "D": "El principio de reserva de ley, que exige que cualquier pago pensional sea aprobado individualmente por el Congreso"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Un Estado social de derecho, a diferencia de un Estado de derecho clásico limitado a la legalidad formal, asume un papel activo en garantizar condiciones materiales mínimas de dignidad, especialmente para los sectores más vulnerables, como los pensionados que dependen exclusivamente de su mesada.",
+        "distractores": {
+          "B": {
+            "explicacion": "El Estado de derecho clásico se limita a la legalidad formal de las actuaciones; no exige por sí solo una intervención activa del Estado para garantizar condiciones materiales de vida.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "La separación de poderes organiza las funciones entre ramas del poder público, pero no es el principio que explica la obligación estatal de garantizar condiciones materiales mínimas de subsistencia.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "No existe un requisito de aprobación individual del Congreso para cada pago pensional; esa no es la razón por la que el Estado debe garantizar el pago oportuno de la mesada.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          }
+        }
+      },
+      {
+        "id": "CC-ITEM-127",
+        "competencia": "conocimientos",
+        "bloque": "estado_social_de_derecho_vs_estado_de_derecho",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-060"
+        ],
+        "enunciado": "¿Con qué concepto jurisprudencial se relaciona más directamente la protección urgente que pide este pensionado?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "El bloque de constitucionalidad, porque los tratados internacionales de derechos humanos regulan directamente el pago de mesadas pensionales",
+          "B": "El mínimo vital, un concepto derivado de la dignidad humana y el Estado social de derecho para proteger la subsistencia de quien depende exclusivamente de ese ingreso",
+          "C": "La reserva de ley estatutaria, porque cualquier afectación a una pensión requiere el trámite legislativo más exigente antes de resolverse",
+          "D": "La consulta previa, porque toda decisión que afecte los ingresos de una persona debe consultarse con las comunidades étnicas del país"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El mínimo vital es una construcción jurisprudencial derivada de la dignidad humana y el Estado social de derecho, que protege las condiciones materiales mínimas de subsistencia; la Corte lo ha usado precisamente para ordenar el pago oportuno de mesadas pensionales cuando su retraso pone en riesgo la subsistencia del beneficiario.",
+        "distractores": {
+          "A": {
+            "explicacion": "El bloque de constitucionalidad es un concepto distinto sobre qué normas tienen rango constitucional; no es el concepto jurisprudencial que protege directamente el mínimo vital de un pensionado.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "La reserva de ley estatutaria regula qué materias requieren cierto tipo de ley; no es un mecanismo de protección urgente ante el no pago de una mesada pensional individual.",
+            "patron_trampa": "jerarquia_normativa_incorrecta"
+          },
+          "D": {
+            "explicacion": "La consulta previa protege específicamente a comunidades étnicas frente a decisiones que afecten su territorio o identidad; no aplica de forma general a cualquier afectación económica individual.",
+            "patron_trampa": "alcance_incorrecto_derecho"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-102",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "participacion_ciudadana",
+    "situacion": "Un estudiante prepara un cuadro comparativo de los mecanismos de participación ciudadana de la Ley 1757 de 2015 y quiere identificar cuál de ellos nunca puede ser propuesto directamente por la ciudadanía mediante recolección de firmas.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-128",
+        "competencia": "conocimientos",
+        "bloque": "comparacion_mecanismos_participacion_origen",
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-052"
+        ],
+        "enunciado": "Según esa ley, ¿cuál de los siguientes mecanismos es de origen exclusivo en autoridad pública y nunca puede iniciarse por iniciativa ciudadana?",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "La revocatoria del mandato",
+          "B": "El cabildo abierto",
+          "C": "El plebiscito",
+          "D": "La iniciativa popular legislativa"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El plebiscito es de origen exclusivo en autoridad pública: solo el Presidente de la República puede convocarlo. La iniciativa popular legislativa, el cabildo abierto y la revocatoria del mandato, en cambio, nacen siempre de una iniciativa ciudadana respaldada por firmas.",
+        "distractores": {
+          "A": {
+            "explicacion": "La revocatoria del mandato es precisamente uno de los mecanismos de origen exclusivamente popular: nace de una iniciativa ciudadana respaldada por firmas.",
+            "patron_trampa": "organo_elector_confundido"
+          },
+          "B": {
+            "explicacion": "El cabildo abierto es de origen popular: lo solicita un número mínimo de ciudadanos ante la respectiva corporación, no una autoridad pública.",
+            "patron_trampa": "organo_elector_confundido"
+          },
+          "D": {
+            "explicacion": "La iniciativa popular legislativa nace, por definición, de la ciudadanía organizada mediante firmas; no es un mecanismo de origen en autoridad pública.",
+            "patron_trampa": "organo_elector_confundido"
           }
         }
       }
