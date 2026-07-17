@@ -4,10 +4,10 @@ import './PanelExplicacion.css'
 
 // El "puente" entre el simulacro y el repaso de teoría (ver
 // saber_pro_lectura_critica en memoria): `pregunta.tarjetasTeoriaRelacionada`
-// trae ids de `modulo.tarjetasConcepto`. Hoy solo lo llena Lectura Crítica;
-// en cualquier otro módulo el array llega vacío y esta sección no se
-// renderiza — no es un campo específico de un módulo, así que no hace falta
-// gatear por moduloId.
+// trae ids de `modulo.tarjetasConcepto`. Hoy lo llenan Lectura Crítica y
+// Competencias Ciudadanas; en cualquier módulo que aún no lo tenga el array
+// llega vacío y esta sección no se renderiza — no es un campo específico de
+// un módulo, así que no hace falta gatear por moduloId.
 export function PanelExplicacion({ pregunta, seleccion, esCorrecta, tarjetasConcepto = [] }) {
   const distractorElegido = !esCorrecta ? pregunta.distractores?.[seleccion] : null
   const otrosDistractores = pregunta.distractores
@@ -29,7 +29,9 @@ export function PanelExplicacion({ pregunta, seleccion, esCorrecta, tarjetasConc
         {pregunta.explicacionCorrecta && (
           <>
             <p className="panel-explicacion-label">Por qué es correcta</p>
-            <p className="panel-explicacion-cuerpo">{pregunta.explicacionCorrecta}</p>
+            <p className="panel-explicacion-cuerpo">
+              <TextoConNegritas texto={pregunta.explicacionCorrecta} />
+            </p>
           </>
         )}
       </div>
@@ -46,7 +48,9 @@ export function PanelExplicacion({ pregunta, seleccion, esCorrecta, tarjetasConc
                 </span>
               )}
             </div>
-            <p className="panel-confusion-texto">{distractorElegido.explicacion}</p>
+            <p className="panel-confusion-texto">
+              <TextoConNegritas texto={distractorElegido.explicacion} />
+            </p>
           </div>
         </div>
       )}
@@ -59,7 +63,9 @@ export function PanelExplicacion({ pregunta, seleccion, esCorrecta, tarjetasConc
               <div key={letra} className="panel-otras-item">
                 <span className="panel-otras-letra">{letra}</span>
                 <div>
-                  <p className="panel-otras-texto">{d.explicacion}</p>
+                  <p className="panel-otras-texto">
+                    <TextoConNegritas texto={d.explicacion} />
+                  </p>
                   {d.patron_trampa && (
                     <span className="panel-otras-badge">Trampa: {ETIQUETAS_PATRON[d.patron_trampa] ?? d.patron_trampa}</span>
                   )}
