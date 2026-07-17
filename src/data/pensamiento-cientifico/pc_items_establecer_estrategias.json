@@ -34,7 +34,12 @@
             "patron_trampa": "diseño_no_controlado"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-009",
+          "PC-RAZ-010",
+          "PC-EST-007"
+        ]
       }
     ]
   },
@@ -73,7 +78,12 @@
             "patron_trampa": "diseño_no_controlado"
           }
         },
-        "dificultad": "baja"
+        "dificultad": "baja",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-009",
+          "PC-RAZ-010",
+          "PC-EST-009"
+        ]
       }
     ]
   },
@@ -93,8 +103,8 @@
         "opciones": {
           "A": "Sería importante aumentar la dosis del medicamento administrado a todos los participantes, para asegurar que el efecto sea lo suficientemente fuerte como para notarse claramente.",
           "B": "Sería importante realizar el estudio en un hospital de mayor prestigio, ya que la reputación del lugar donde se realiza un estudio influye directamente en la validez científica de sus resultados.",
-          "C": "Sería importante que el estudio fuera 'ciego' (o idealmente doble ciego): que ni el paciente ni la persona que evalúa su dolor sepan si recibió el medicamento real o un placebo, para evitar que las expectativas o el comportamiento del médico influyan en las respuestas de los pacientes.",
-          "D": "Sería importante cambiar la forma farmacéutica del medicamento de pastilla a inyección, ya que las inyecciones siempre producen resultados más confiables que las pastillas en cualquier estudio clínico."
+          "C": "Sería importante que el estudio fuera 'ciego' (o doble ciego): que ni el paciente ni quien evalúa su dolor sepan si recibió el medicamento real o un placebo, para evitar sesgos de expectativa.",
+          "D": "Sería importante cambiar la forma del medicamento de pastilla a inyección, ya que las inyecciones siempre producen resultados más confiables en cualquier estudio clínico."
         },
         "respuesta_correcta": "C",
         "explicacion_correcta": "Cuando el médico sabe qué tratamiento se está probando e influye verbalmente en las respuestas de los pacientes, se introduce un sesgo de expectativa que puede inflar artificialmente los resultados; un diseño 'ciego' o 'doble ciego' ayuda a prevenir que esas expectativas influyan en los resultados.",
@@ -112,7 +122,12 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-009",
+          "PC-RAZ-010",
+          "PC-EST-009"
+        ]
       }
     ]
   },
@@ -151,7 +166,12 @@
             "patron_trampa": "diseño_no_controlado"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-009",
+          "PC-RAZ-010",
+          "PC-EST-011"
+        ]
       }
     ]
   },
@@ -190,7 +210,12 @@
             "patron_trampa": "diseño_no_controlado"
           }
         },
-        "dificultad": "baja"
+        "dificultad": "baja",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-009",
+          "PC-RAZ-010",
+          "PC-EST-007"
+        ]
       }
     ]
   },
@@ -229,7 +254,12 @@
             "patron_trampa": "diseño_no_controlado"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-009",
+          "PC-RAZ-010",
+          "PC-EST-011"
+        ]
       }
     ]
   },
@@ -292,7 +322,12 @@
             "patron_trampa": "diseño_no_controlado"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-009",
+          "PC-RAZ-010",
+          "PC-EST-007"
+        ]
       }
     ]
   },
@@ -312,8 +347,8 @@
         "opciones": {
           "A": "Aumentar el volumen de la música durante la segunda semana, para asegurar que el efecto de la música, si existe, sea lo suficientemente notable como para medirse con claridad.",
           "B": "Realizar la comparación durante un periodo de tiempo mucho más largo, manteniendo el mismo diseño de comparar dos departamentos distintos en semanas distintas del mes.",
-          "C": "Pedir a los empleados que califiquen subjetivamente qué tan productivos se sintieron cada semana, en lugar de contar objetivamente el número de tareas completadas.",
-          "D": "Comparar al mismo grupo de empleados, realizando el mismo tipo de tareas, trabajando con y sin música durante distintos días de una misma semana, en lugar de comparar departamentos distintos en semanas distintas, para que el tipo de trabajo y las personas sean los mismos en ambas condiciones."
+          "C": "Pedir a los empleados que califiquen subjetivamente qué tan productivos se sintieron cada semana, en vez de contar el número real de tareas completadas.",
+          "D": "Comparar al mismo grupo de empleados, con las mismas tareas, trabajando con y sin música en distintos días de una misma semana, en vez de comparar departamentos y semanas distintas."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Actualmente se comparan dos departamentos distintos (con tareas y personas diferentes) en semanas distintas, lo que introduce múltiples variables de confusión no controladas; mantener el mismo grupo realizando el mismo tipo de tareas, variando solo la presencia de música, permite aislar mejor su efecto específico.",
@@ -331,7 +366,12 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-009",
+          "PC-RAZ-010",
+          "PC-EST-011"
+        ]
       }
     ]
   },
@@ -370,7 +410,12 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "baja"
+        "dificultad": "baja",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-009",
+          "PC-RAZ-010",
+          "PC-EST-007"
+        ]
       }
     ]
   },
@@ -409,7 +454,12 @@
             "patron_trampa": "diseño_no_controlado"
           }
         },
-        "dificultad": "baja"
+        "dificultad": "baja",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-009",
+          "PC-RAZ-010",
+          "PC-EST-007"
+        ]
       }
     ]
   },
@@ -448,7 +498,12 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-009",
+          "PC-RAZ-010",
+          "PC-EST-007"
+        ]
       }
     ]
   },
@@ -487,7 +542,12 @@
             "patron_trampa": "diseño_no_controlado"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-009",
+          "PC-RAZ-010",
+          "PC-EST-007"
+        ]
       }
     ]
   },
@@ -505,9 +565,9 @@
         "evidencia": "4.1",
         "enunciado": "¿Qué le falta a este procedimiento para poder respaldar la afirmación de que el nuevo disolvente es más eficiente para esta extracción?",
         "opciones": {
-          "A": "Falta realizar la misma extracción, con la misma cantidad de muestra vegetal y bajo las mismas condiciones de tiempo y temperatura, pero usando un disolvente estándar ya conocido y usado comúnmente para este tipo de extracciones, con el fin de comparar la cantidad de compuesto obtenida con cada disolvente.",
+          "A": "Falta repetir la extracción con la misma muestra y las mismas condiciones de tiempo y temperatura, pero usando un disolvente estándar ya conocido, para comparar la cantidad de compuesto obtenida con cada uno.",
           "B": "Falta repetir la extracción usando una cantidad de muestra vegetal mucho menor, ya que 100 gramos es una cantidad demasiado grande para que cualquier extracción sea considerada representativa.",
-          "C": "Falta cambiar la especie de planta usada como muestra vegetal, ya que la especie actual podría no ser compatible con ningún tipo de disolvente conocido en la literatura científica.",
+          "C": "Falta cambiar la especie de planta usada como muestra vegetal, ya que la especie actual podría no ser compatible con ningún disolvente conocido en la literatura.",
           "D": "Falta triplicar la cantidad de disolvente nuevo utilizado en la extracción, ya que una mayor cantidad de disolvente garantiza de forma automática una mayor cantidad de compuesto extraído."
         },
         "respuesta_correcta": "A",
@@ -526,7 +586,12 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-009",
+          "PC-RAZ-010",
+          "PC-EST-017"
+        ]
       }
     ]
   },
@@ -565,7 +630,12 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-015",
+          "PC-RAZ-016",
+          "PC-RAZ-017"
+        ]
       }
     ]
   },
@@ -612,9 +682,9 @@
         "enunciado": "¿Qué cambio en el diseño experimental permitiría aislar específicamente el efecto de la concentración de la enzima sobre la velocidad de reacción?",
         "opciones": {
           "A": "Aumentar el número de ensayos a diez, manteniendo el mismo diseño de cambiar simultáneamente tanto la concentración de la enzima como la del sustrato en cada ensayo.",
-          "B": "Medir la velocidad de reacción con instrumentos más precisos, sin cambiar la forma en que se diseñan los ensayos ni qué variables se modifican en cada uno.",
-          "C": "Mantener constante la concentración del sustrato en todos los ensayos, variando únicamente la concentración de la enzima entre un ensayo y otro, para poder atribuir cualquier cambio en la velocidad de reacción específicamente a la concentración de enzima.",
-          "D": "Realizar los ensayos a una temperatura mucho más alta que la habitual, ya que las enzimas siempre funcionan de forma más medible a temperaturas elevadas."
+          "B": "Medir la velocidad de reacción con instrumentos mucho más precisos, sin cambiar la forma en que se diseñan los ensayos ni qué variables se modifican.",
+          "C": "Mantener constante la concentración del sustrato en todos los ensayos, variando solo la concentración de la enzima, para poder atribuir cualquier cambio en la velocidad específicamente a la enzima.",
+          "D": "Realizar los ensayos a una temperatura mucho más alta de lo habitual, ya que las enzimas siempre funcionan de forma más medible a temperaturas elevadas."
         },
         "respuesta_correcta": "C",
         "explicacion_correcta": "Actualmente se cambian dos variables a la vez en cada ensayo, por lo que cualquier cambio en la velocidad no puede atribuirse específicamente a una de las dos; manteniendo constante la concentración del sustrato y variando únicamente la de la enzima, es posible aislar su efecto específico.",
@@ -632,7 +702,12 @@
             "patron_trampa": "diseño_no_controlado"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-009",
+          "PC-RAZ-010",
+          "PC-EST-007"
+        ]
       }
     ]
   },
@@ -651,9 +726,9 @@
         "enunciado": "¿Qué estrategia adicional permitiría evaluar si este nuevo detergente elimina la grasa de forma más efectiva que un detergente convencional ya existente en el mercado?",
         "opciones": {
           "A": "Aumentar la temperatura del agua a un nivel mucho más alto que el habitual, ya que el agua muy caliente siempre elimina cualquier tipo de mancha de grasa sin necesidad de ningún detergente.",
-          "B": "Aumentar la cantidad de detergente nuevo utilizado en cada lavado, ya que una mayor cantidad del producto garantiza de forma automática una eliminación más completa de cualquier mancha.",
+          "B": "Aumentar la cantidad de detergente nuevo en cada lavado, ya que una mayor cantidad del producto garantiza siempre una eliminación más completa de cualquier mancha.",
           "C": "Repetir la prueba usando un tipo de grasa completamente distinto al de cocina, ya que ese es el único factor capaz de influir en la efectividad de cualquier detergente.",
-          "D": "Lavar, en las mismas condiciones de temperatura del agua, tipo de tela, cantidad de grasa y ciclo de lavado, otro lote de telas manchadas con grasa usando un detergente convencional ya existente en el mercado, para comparar el grado de eliminación de grasa logrado por cada producto."
+          "D": "Lavar, con la misma temperatura, tela, cantidad de grasa y ciclo, otro lote de telas usando un detergente convencional ya existente, para comparar el grado de eliminación logrado por cada producto."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Sin una comparación directa con un detergente convencional ya existente, lavado bajo exactamente las mismas condiciones, no hay forma de saber si el nuevo detergente elimina la grasa mejor, igual, o peor que las opciones ya disponibles.",
@@ -671,7 +746,12 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "baja"
+        "dificultad": "baja",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-009",
+          "PC-RAZ-010",
+          "PC-EST-007"
+        ]
       }
     ]
   }

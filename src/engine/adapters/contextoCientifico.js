@@ -32,6 +32,7 @@ export function adaptContextoCientifico(item) {
     distractores: pregunta.distractores,
     dificultad: pregunta.dificultad,
     evidencia: pregunta.evidencia,
+    tarjetasTeoriaRelacionada: pregunta.tarjetas_teoria_relacionada ?? [],
     numEnGrupo: indice + 1,
   }))
 }

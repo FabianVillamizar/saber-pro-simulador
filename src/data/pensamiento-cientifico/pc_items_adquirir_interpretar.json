@@ -13,9 +13,9 @@
         "evidencia": "1.2",
         "enunciado": "Según la gráfica, ¿en qué intervalo de tiempo fue mayor la tasa de crecimiento (bacterias por hora) de la colonia?",
         "opciones": {
-          "A": "Entre las horas 2 y 6, porque en ese intervalo la curva tiene la pendiente más pronunciada, lo que indica el mayor cambio en el número de bacterias por cada hora transcurrida.",
-          "B": "Entre las horas 0 y 2, porque es el inicio del cultivo, cuando hay más nutrientes disponibles para las bacterias.",
-          "C": "Entre las horas 6 y 10, porque es cuando se registra el mayor número total de bacterias en el cultivo.",
+          "A": "Entre las horas 2 y 6, porque en ese tramo la curva tiene la pendiente más pronunciada, es decir, el mayor cambio de bacterias por hora.",
+          "B": "Entre las horas 0 y 2, porque es el inicio del cultivo, cuando hay más nutrientes disponibles para que las bacterias se reproduzcan.",
+          "C": "Entre las horas 6 y 10, porque es cuando se registra el mayor número total acumulado de bacterias en todo el cultivo.",
           "D": "Es la misma en todo el experimento, porque el número de bacterias aumenta de forma constante a lo largo de las 10 horas."
         },
         "respuesta_correcta": "A",
@@ -34,7 +34,12 @@
             "patron_trampa": "proporcionalidad_directa_vs_inversa"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-025",
+          "PC-RAZ-026",
+          "PC-RAZ-023"
+        ]
       }
     ],
     "grafica_datos_estructurados": {
@@ -131,7 +136,11 @@
             "patron_trampa": "proporcionalidad_directa_vs_inversa"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-023",
+          "PC-RAZ-024"
+        ]
       }
     ],
     "grafica_datos_estructurados": {
@@ -215,7 +224,11 @@
             "patron_trampa": "brecha_de_datos_ignorada"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-021",
+          "PC-RAZ-022"
+        ]
       }
     ],
     "tabla_filas": {
@@ -258,9 +271,9 @@
         "enunciado": "¿Qué corredor tiene mayor velocidad (no necesariamente mayor distancia recorrida) en el minuto 2?",
         "opciones": {
           "A": "El Corredor 1, porque en el minuto 2 su línea está por encima de la del Corredor 2, es decir, va más adelantado en la carrera.",
-          "B": "Ambos corredores tienen la misma velocidad en el minuto 2, porque todavía no se han cruzado las dos líneas.",
-          "C": "No se puede determinar la velocidad de ningún corredor a partir de esta gráfica, solo la distancia recorrida.",
-          "D": "El Corredor 2, porque su línea tiene una pendiente más pronunciada, lo que indica que recorre más distancia por unidad de tiempo, sin importar que todavía no haya superado al Corredor 1 en posición."
+          "B": "Ambos corredores tienen exactamente la misma velocidad en el minuto 2, porque sus dos líneas todavía no se han cruzado.",
+          "C": "No se puede determinar la velocidad de ningún corredor a partir de esta gráfica, solo se puede leer la distancia recorrida.",
+          "D": "El Corredor 2, porque su línea tiene una pendiente más pronunciada, es decir, recorre más distancia por unidad de tiempo en ese tramo."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "La velocidad en una gráfica de distancia vs tiempo se lee como la pendiente de la línea, no como la posición vertical en ese instante; aunque el Corredor 1 esté 'adelante' (más alto) en el minuto 2 por su ventaja inicial, el Corredor 2 tiene una pendiente más pronunciada en ese tramo, lo que indica que se mueve más rápido en ese momento, y por eso eventualmente lo alcanza y supera.",
@@ -278,7 +291,11 @@
             "patron_trampa": "lectura_invertida_grafica"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-025",
+          "PC-RAZ-026"
+        ]
       }
     ],
     "grafica_datos_estructurados": {
@@ -370,10 +387,10 @@
         "evidencia": "1.3",
         "enunciado": "¿Qué explica mejor esta discrepancia?",
         "opciones": {
-          "A": "Es probable que las cintas métricas usadas por los estudiantes tengan un error sistemático de fabricación (por ejemplo, una escala mal calibrada), ya que la alta coincidencia entre las 20 mediciones no garantiza que el valor obtenido sea el correcto.",
+          "A": "Es probable que las cintas métricas tengan un error sistemático de fabricación (una escala mal calibrada), ya que la alta coincidencia entre las 20 mediciones no garantiza que el valor sea correcto.",
           "B": "Los 20 estudiantes probablemente cometieron el mismo error aleatorio de lectura, y por pura coincidencia estadística todos leyeron un valor similar, distinto al real.",
           "C": "El valor de 148,5 cm del especialista es menos confiable, porque una sola medición nunca puede ser más precisa que el promedio de 20 mediciones independientes.",
-          "D": "La mesa probablemente cambió de tamaño entre el momento en que los estudiantes la midieron y el momento en que el especialista la midió."
+          "D": "La mesa probablemente cambió de tamaño físico entre el momento en que los estudiantes la midieron y el momento en que el especialista la midió después."
         },
         "respuesta_correcta": "A",
         "explicacion_correcta": "Que las 20 mediciones de los estudiantes sean muy parecidas entre sí (alta precisión, poca dispersión) no garantiza que sean cercanas al valor real (exactitud); si todas usan el mismo tipo de instrumento con un error sistemático, es esperable que las mediciones sean consistentes entre sí pero consistentemente alejadas del valor certificado, tal como ocurre aquí.",
@@ -391,7 +408,12 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-001",
+          "PC-RAZ-002",
+          "PC-EST-024"
+        ]
       }
     ],
     "tabla_filas": {
@@ -522,7 +544,11 @@
             "patron_trampa": "sobregeneralizacion_de_un_metodo"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-003",
+          "PC-RAZ-017"
+        ]
       }
     ],
     "grafica_datos_estructurados": {
@@ -694,7 +720,12 @@
             "patron_trampa": "brecha_de_datos_ignorada"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-021",
+          "PC-RAZ-022",
+          "PC-RAZ-003"
+        ]
       }
     ],
     "tabla_filas": {
@@ -735,8 +766,8 @@
         "opciones": {
           "A": "Sí, porque la ley de Hooke es una ley física universal que se cumple exactamente para cualquier resorte, sin importar cuánto se estire.",
           "B": "Sí, porque si el ajuste lineal fue muy bueno entre 0 y 8 cm, matemáticamente debe seguir siendo válido para cualquier valor de estiramiento, sin límite.",
-          "C": "No, porque la constante k = 50 N/m fue calculada incorrectamente a partir de datos que solo llegan hasta 8 cm.",
-          "D": "No necesariamente, porque los datos experimentales solo confirman el comportamiento lineal del resorte dentro del rango medido; a 50 cm el resorte probablemente superó su límite elástico, un régimen donde la ley de Hooke ya no aplica."
+          "C": "No, porque la constante k = 50 N/m fue calculada de forma incorrecta a partir de los datos que solo llegan hasta los 8 cm de estiramiento.",
+          "D": "No necesariamente, porque los datos solo confirman el comportamiento lineal dentro del rango medido; a 50 cm el resorte probablemente superó su límite elástico."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "La ley de Hooke describe el comportamiento elástico de un resorte solo dentro de su rango elástico; los datos disponibles solo confirman ese comportamiento lineal hasta 8 cm, y extrapolar la misma relación a 50 cm (más de 6 veces el rango medido) ignora que el resorte probablemente ya se deformó permanentemente mucho antes de llegar a esa longitud, saliendo del dominio de validez del modelo.",
@@ -754,7 +785,11 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-011",
+          "PC-RAZ-012"
+        ]
       }
     ],
     "grafica_datos_estructurados": {
@@ -822,10 +857,10 @@
         "evidencia": "1.1",
         "enunciado": "Un estudiante concluye que, en ese tramo, el bloque debe estar en reposo (sin moverse). ¿Es correcta esta conclusión?",
         "opciones": {
-          "A": "No, porque que las fuerzas estén balanceadas (fuerza neta cero) implica que la aceleración es cero, es decir, que la velocidad no cambia; el bloque puede seguir moviéndose a velocidad constante, no necesariamente estar en reposo.",
+          "A": "No, porque fuerzas balanceadas (fuerza neta cero) implican aceleración cero, es decir, velocidad constante; el bloque puede seguir moviéndose, no necesariamente estar en reposo.",
           "B": "Sí, porque si dos fuerzas se cancelan exactamente, el objeto sobre el que actúan no puede tener ningún tipo de movimiento en ese instante.",
-          "C": "No, porque en realidad las fuerzas nunca pueden estar perfectamente balanceadas en una situación real con fricción.",
-          "D": "Sí, porque la fuerza neta cero es matemáticamente equivalente a velocidad cero según las leyes del movimiento de Newton."
+          "C": "No, porque en la práctica las fuerzas de fricción nunca pueden estar perfectamente balanceadas en ninguna situación real de movimiento.",
+          "D": "Sí, porque la fuerza neta cero es matemáticamente equivalente a una velocidad de cero según las leyes de Newton."
         },
         "respuesta_correcta": "A",
         "explicacion_correcta": "Según la primera ley de Newton, una fuerza neta igual a cero implica que la aceleración es cero (la velocidad no cambia), pero esto es compatible tanto con un objeto en reposo como con uno que se mueve a velocidad constante distinta de cero; el error es asumir que 'fuerzas balanceadas' significa automáticamente 'sin movimiento', cuando en realidad significa 'sin cambio en el movimiento'.",
@@ -843,7 +878,11 @@
             "patron_trampa": "equilibrio_confundido_con_reposo"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-019",
+          "PC-RAZ-020"
+        ]
       }
     ],
     "imagen": "PC-GRUPO-009.svg"
@@ -883,7 +922,11 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-013",
+          "PC-RAZ-014"
+        ]
       }
     ],
     "tabla_filas": {
@@ -950,7 +993,12 @@
             "patron_trampa": "lectura_invertida_grafica"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-025",
+          "PC-RAZ-026",
+          "PC-QUI-039"
+        ]
       }
     ],
     "grafica_datos_estructurados": {
@@ -1078,7 +1126,12 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-011",
+          "PC-RAZ-012",
+          "PC-QUI-042"
+        ]
       }
     ],
     "grafica_datos_estructurados": {
@@ -1150,7 +1203,11 @@
             "patron_trampa": "sobregeneralizacion_de_un_metodo"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-QUI-045",
+          "PC-RAZ-025"
+        ]
       }
     ],
     "grafica_datos_estructurados": {
@@ -1254,7 +1311,11 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "baja"
+        "dificultad": "baja",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-007",
+          "PC-RAZ-008"
+        ]
       }
     ],
     "tabla_filas": {
@@ -1317,7 +1378,12 @@
             "patron_trampa": "incertidumbre_mal_atribuida"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-QUI-009",
+          "PC-RAZ-025",
+          "PC-RAZ-026"
+        ]
       }
     ],
     "grafica_datos_estructurados": {
@@ -1401,9 +1467,9 @@
         "enunciado": "Un estudiante afirma que esta gráfica 'debe estar mal', porque 'a mayor número atómico, hay más protones y electrones, por lo que el átomo debería ser más grande, no más pequeño'. ¿Es correcto el razonamiento del estudiante?",
         "opciones": {
           "A": "Sí, porque más electrones siempre ocupan más espacio alrededor del núcleo, sin importar otros factores del átomo.",
-          "B": "Sí, porque la gráfica probablemente confundió el eje X con el eje Y, y en realidad el radio atómico debería aumentar con el número atómico.",
-          "C": "No, porque el radio atómico de los elementos no tiene ninguna relación con el número atómico dentro de un mismo periodo.",
-          "D": "No, porque dentro de un mismo periodo, aunque aumenten los protones y electrones, la carga nuclear efectiva también aumenta y atrae los electrones de valencia con más fuerza hacia el núcleo, haciendo que el átomo se contraiga en lugar de expandirse."
+          "B": "Sí, porque la gráfica probablemente invirtió los ejes X e Y, y en realidad el radio atómico debería aumentar con el número atómico.",
+          "C": "No, porque el radio atómico de los elementos no guarda ninguna relación con el número atómico dentro de un mismo periodo.",
+          "D": "No, porque dentro de un mismo periodo la carga nuclear efectiva también aumenta y atrae con más fuerza los electrones de valencia, contrayendo el átomo en vez de expandirlo."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Dentro de un mismo periodo, aunque el número de protones y electrones aumenta de izquierda a derecha, todos los electrones de valencia se ubican aproximadamente en el mismo nivel de energía principal; el aumento simultáneo de la carga nuclear incrementa la atracción efectiva del núcleo sobre esos electrones, superando el efecto de tener más electrones, lo que provoca una contracción neta del radio atómico a lo largo del periodo, tal como muestra correctamente la gráfica.",
@@ -1421,7 +1487,11 @@
             "patron_trampa": "lectura_invertida_grafica"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-023",
+          "PC-RAZ-025"
+        ]
       }
     ],
     "grafica_datos_estructurados": {
@@ -1505,7 +1575,12 @@
             "patron_trampa": "confusion_exactitud_precision"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-QUI-047",
+          "PC-RAZ-025",
+          "PC-RAZ-001"
+        ]
       }
     ],
     "grafica_datos_estructurados": {
@@ -1663,7 +1738,11 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-017",
+          "PC-RAZ-011"
+        ]
       }
     ],
     "imagen": "PC-GRUPO-018.svg"
@@ -1704,7 +1783,12 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-QUI-046",
+          "PC-RAZ-011",
+          "PC-RAZ-012"
+        ]
       }
     ],
     "grafica_datos_estructurados": {
@@ -1762,8 +1846,8 @@
         "opciones": {
           "A": "Sí, porque cualquier par de variables que cambien juntas en un experimento debe ser, por definición, directamente proporcional entre sí.",
           "B": "Sí, porque los tres ensayos muestran que a mayor volumen, se registran distintos valores de presión, lo que confirma la proporcionalidad directa.",
-          "C": "No se puede determinar el tipo de relación entre presión y volumen sin conocer la temperatura exacta del gas en cada ensayo.",
-          "D": "No, porque los datos muestran que a mayor volumen, la presión disminuye (y el producto P × V se mantiene aproximadamente constante en los tres ensayos: 8,0 en todos los casos), lo cual es característico de una relación inversamente proporcional, no directa."
+          "C": "No se puede determinar el tipo de relación entre presión y volumen sin conocer con exactitud la temperatura del gas en cada ensayo realizado.",
+          "D": "No, porque a mayor volumen la presión disminuye, y el producto P×V se mantiene aproximadamente constante (8,0) en los tres ensayos, lo característico de una relación inversa, no directa."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Al calcular el producto P × V en cada ensayo (4,0×2,0=8,0; 2,0×4,0=8,0; 1,0×8,0=8,0), se observa que este producto permanece aproximadamente constante, lo cual es la firma característica de una relación de proporcionalidad inversa (P·V = k), no directa; en una relación directamente proporcional, ambas variables aumentarían o disminuirían juntas, lo contrario de lo que muestran estos datos.",
@@ -1781,7 +1865,12 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-QUI-005",
+          "PC-RAZ-023",
+          "PC-RAZ-024"
+        ]
       }
     ],
     "tabla_filas": {

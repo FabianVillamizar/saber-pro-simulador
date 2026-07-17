@@ -35,7 +35,12 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-019",
+          "PC-RAZ-020",
+          "PC-RAZ-027"
+        ]
       }
     ],
     "imagen": "PC-GRUPO-041.svg"
@@ -146,7 +151,11 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-011",
+          "PC-RAZ-012"
+        ]
       }
     ]
   },
@@ -319,10 +328,10 @@
         "evidencia": "3.3",
         "enunciado": "Una población de bacterias crece en un frasco cerrado con una cantidad fija de nutrientes. Inicialmente, la población crece de forma muy rápida, pero después de varias horas, el crecimiento se hace cada vez más lento, hasta estabilizarse en un valor máximo que ya no aumenta más. ¿Cuál de los dos modelos describe mejor este comportamiento observado, y por qué?",
         "opciones": {
-          "A": "El modelo exponencial, porque describe cualquier tipo de crecimiento poblacional que comience de forma rápida, sin importar qué ocurra después.",
+          "A": "El modelo exponencial, porque describe cualquier tipo de crecimiento poblacional que comience de forma rápida, sin importar lo que ocurra después.",
           "B": "Ambos modelos son igualmente válidos para describir esta situación, porque las diferencias entre ellos son solo matemáticas y no reflejan diferencias reales en el fenómeno biológico.",
-          "C": "El modelo logístico, porque incorpora explícitamente una capacidad de carga (los nutrientes limitados del frasco), lo cual explica por qué el crecimiento se desacelera y finalmente se estabiliza, un comportamiento que el modelo exponencial no puede predecir.",
-          "D": "El modelo exponencial, porque una vez que la población dejó de crecer, eso demuestra que ya no había necesidad de ningún modelo matemático para describirla."
+          "C": "El modelo logístico, porque incorpora una capacidad de carga (los nutrientes limitados del frasco), que explica por qué el crecimiento se desacelera y se estabiliza, algo que el exponencial no predice.",
+          "D": "El modelo exponencial, porque una vez que la población dejó de crecer, ya no hace falta ningún modelo matemático para describirla."
         },
         "respuesta_correcta": "C",
         "explicacion_correcta": "El modelo logístico incorpora una capacidad de carga (relacionada aquí con los nutrientes fijos del frasco), lo que le permite predecir una desaceleración del crecimiento y una estabilización final; el modelo exponencial asume recursos ilimitados y predice un crecimiento indefinido, por lo que no describe adecuadamente lo que ocurre cuando los recursos se agotan.",
@@ -340,7 +349,12 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-011",
+          "PC-RAZ-012",
+          "PC-RAZ-028"
+        ]
       }
     ]
   },
@@ -361,8 +375,8 @@
         "opciones": {
           "A": "El modelo de Bohr predecirá el espectro de estos átomos con exactamente la misma precisión que para el hidrógeno, porque todos los átomos comparten la misma estructura básica de núcleo y electrones orbitando.",
           "B": "El modelo de Bohr no puede aplicarse en absoluto a ningún átomo distinto del hidrógeno, ya que fue diseñado exclusivamente para ese elemento específico y ningún otro.",
-          "C": "El modelo de Bohr predecirá estos espectros con mayor precisión que para el hidrógeno, porque los átomos con más electrones tienen espectros más simples de calcular.",
-          "D": "El modelo de Bohr, en su forma original, no predice con precisión los espectros de átomos con más de un electrón, porque no incluye las interacciones (repulsiones) entre múltiples electrones, un fenómeno relevante que solo se modela adecuadamente con tratamientos mecánico-cuánticos más completos."
+          "C": "El modelo de Bohr predecirá estos espectros con mayor precisión que para el hidrógeno, porque los átomos con más electrones tienen espectros más simples de calcular en la práctica.",
+          "D": "No predice con precisión los espectros de átomos con más de un electrón, porque el modelo original no incluye las repulsiones entre múltiples electrones, algo que sí modelan tratamientos mecánico-cuánticos más completos."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "El modelo de Bohr fue desarrollado considerando un solo electrón orbitando un núcleo, y no incluye las interacciones de repulsión electrón-electrón que se vuelven relevantes en átomos con más de un electrón; por eso, aunque funciona notablemente bien para el hidrógeno, sus predicciones para átomos multielectrónicos requieren tratamientos más completos.",
@@ -380,7 +394,12 @@
             "patron_trampa": "modelo_fuera_de_dominio"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-027",
+          "PC-RAZ-011",
+          "PC-RAZ-012"
+        ]
       }
     ],
     "imagen": "PC-GRUPO-044.svg"
@@ -498,9 +517,9 @@
         "evidencia": "3.2",
         "enunciado": "Un estudiante mide el periodo de un péndulo para ángulos de oscilación pequeños (5°) y confirma que coincide con la predicción del modelo. Luego repite la medición con un ángulo mucho mayor (80°) y encuentra que el periodo medido es notablemente más largo que el predicho por la misma fórmula. ¿Qué explica esta discrepancia a ángulos grandes?",
         "opciones": {
-          "A": "La fórmula T = 2π√(L/g) es una aproximación válida solo para ángulos pequeños; a ángulos grandes como 80°, esa aproximación deja de ser precisa, y el periodo real depende también de la amplitud del movimiento, algo que la fórmula simplificada no considera.",
+          "A": "La fórmula T=2π√(L/g) es una aproximación válida solo para ángulos pequeños; a 80° deja de ser precisa, y el periodo real también depende de la amplitud del movimiento.",
           "B": "El estudiante debió cometer un error de medición, porque el periodo de cualquier péndulo simple es exactamente el mismo sin importar el ángulo de oscilación usado.",
-          "C": "La discrepancia se debe a que a 80° el péndulo deja de comportarse como un péndulo simple y se convierte en un tipo de objeto completamente distinto.",
+          "C": "La discrepancia se debe a que a 80° el péndulo deja de comportarse como un péndulo simple y se convierte en un objeto físico completamente distinto.",
           "D": "La fórmula es incorrecta en general y debería reemplazarse por una ecuación completamente distinta para describir cualquier péndulo, sin importar el ángulo de oscilación."
         },
         "respuesta_correcta": "A",
@@ -519,7 +538,11 @@
             "patron_trampa": "sobregeneralizacion_de_un_metodo"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-011",
+          "PC-RAZ-017"
+        ]
       }
     ]
   },
@@ -540,9 +563,9 @@
         "enunciado": "Al iluminar una placa metálica con luz de cierta frecuencia, se observa que se emiten electrones desde la superficie del metal, pero solo si la frecuencia de la luz supera un valor mínimo específico, sin importar qué tan intensa sea la luz por debajo de esa frecuencia. ¿Cuál de los dos modelos de la luz explica mejor esta observación?",
         "opciones": {
           "A": "El modelo ondulatorio, porque las ondas de luz de mayor intensidad siempre transportan más energía, sin importar su frecuencia, lo cual explicaría la emisión de electrones.",
-          "B": "El modelo corpuscular (de fotones), porque explica que cada fotón individual transporta una energía proporcional a su frecuencia, y solo los fotones con frecuencia (y energía) suficiente pueden liberar un electrón, sin importar cuántos fotones de baja energía incidan sobre el metal.",
-          "C": "Ambos modelos explican esta observación con exactamente el mismo nivel de detalle y precisión, sin ninguna ventaja de uno sobre el otro para este fenómeno específico.",
-          "D": "Ninguno de los dos modelos puede explicar este fenómeno, ya que el efecto fotoeléctrico no tiene relación alguna con las propiedades de la luz."
+          "B": "El modelo corpuscular (de fotones), porque cada fotón transporta una energía proporcional a su frecuencia, y solo los fotones con energía suficiente liberan un electrón, sin importar cuántos de baja energía incidan.",
+          "C": "Ambos modelos explican esta observación con exactamente el mismo nivel de detalle, sin ninguna ventaja de uno sobre el otro para este fenómeno.",
+          "D": "Ninguno de los dos modelos puede explicar este fenómeno, ya que el efecto fotoeléctrico no guarda ninguna relación con las propiedades de la luz."
         },
         "respuesta_correcta": "B",
         "explicacion_correcta": "El modelo corpuscular explica que la energía de la luz llega en paquetes discretos (fotones), cada uno con energía proporcional a su frecuencia (E=hf); solo un fotón con frecuencia suficiente puede liberar un electrón, sin importar cuántos fotones de baja frecuencia incidan, lo cual explica la existencia de una frecuencia mínima umbral.",
@@ -560,7 +583,11 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-011",
+          "PC-RAZ-012"
+        ]
       }
     ],
     "imagen": "PC-GRUPO-046.svg"
@@ -643,8 +670,8 @@
         "opciones": {
           "A": "Ninguna, porque un modelo de regresión lineal ajustado con datos reales siempre sigue siendo válido para predecir cualquier periodo futuro, sin importar cuánto tiempo haya pasado.",
           "B": "El modelo es inválido incluso para los primeros 5 años, porque ningún proceso económico real puede seguir una tendencia lineal durante ningún periodo de tiempo.",
-          "C": "El modelo fue ajustado y validado solo con datos de los primeros 5 años; extender esa tendencia lineal 15 años más allá del rango observado ignora que factores como la saturación del mercado o cambios económicos podrían alterar completamente la tendencia futura.",
-          "D": "La predicción sería más confiable si se usara un modelo de regresión lineal con muchos más años de datos futuros, que todavía no existen."
+          "C": "El modelo fue ajustado y validado solo con datos de los primeros 5 años; extender la tendencia 15 años más allá ignora que factores como la saturación del mercado podrían alterar la tendencia futura.",
+          "D": "La predicción sería más confiable si se usara un modelo de regresión lineal ajustado con muchos más años de datos futuros, que todavía no existen hoy."
         },
         "respuesta_correcta": "C",
         "explicacion_correcta": "Un modelo de regresión lineal ajustado con datos de un periodo específico solo está validado dentro de ese rango; extrapolar la misma tendencia mucho más allá ignora que las condiciones que generaron esa tendencia inicial podrían no mantenerse indefinidamente, debido a factores que el modelo simple no incorpora.",
@@ -662,7 +689,11 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-011",
+          "PC-RAZ-012"
+        ]
       }
     ]
   },
@@ -702,7 +733,11 @@
             "patron_trampa": "sobregeneralizacion_de_un_metodo"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-011",
+          "PC-RAZ-012"
+        ]
       }
     ],
     "imagen": "PC-GRUPO-048.svg"
@@ -743,7 +778,11 @@
             "patron_trampa": "sobregeneralizacion_de_un_metodo"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-011",
+          "PC-RAZ-017"
+        ]
       }
     ],
     "imagen": "PC-GRUPO-049.svg"
@@ -764,8 +803,8 @@
         "enunciado": "Un estudiante intenta aplicar el modelo VSEPR, tal como se usa para moléculas de los elementos representativos (como el CH₄ o el NH₃), para predecir la geometría de un complejo de coordinación de un metal de transición, como el [Co(NH₃)₆]³⁺, contando simplemente los pares de electrones alrededor del cobalto central. ¿Es apropiado este uso directo del modelo VSEPR para este tipo de compuesto?",
         "opciones": {
           "A": "Sí, porque el modelo VSEPR fue diseñado específicamente para predecir con precisión la geometría de cualquier tipo de compuesto químico, incluyendo los complejos de coordinación de metales de transición.",
-          "B": "No completamente, porque los complejos de coordinación de metales de transición involucran orbitales d que participan en el enlace de una manera que el modelo VSEPR simple no considera adecuadamente; para estos compuestos se usan modelos más específicos, como la teoría del campo cristalino.",
-          "C": "No, porque los complejos de coordinación de metales de transición no tienen ninguna geometría molecular definida, por lo que ningún modelo puede predecirla.",
+          "B": "No completamente, porque los complejos de metales de transición involucran orbitales d en el enlace, algo que el VSEPR simple no considera; para estos compuestos se usan modelos más específicos, como el campo cristalino.",
+          "C": "No, porque los complejos de coordinación de metales de transición no tienen ninguna geometría molecular definida, así que ningún modelo puede predecirla.",
           "D": "Sí, porque los metales de transición nunca forman enlaces con más de cuatro átomos o grupos a su alrededor, por lo que el conteo simple de pares de electrones es directamente aplicable."
         },
         "respuesta_correcta": "B",
@@ -784,7 +823,12 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-QUI-033",
+          "PC-RAZ-011",
+          "PC-RAZ-012"
+        ]
       }
     ],
     "imagen": "PC-GRUPO-050.svg"
@@ -918,10 +962,10 @@
         "evidencia": "3.2",
         "enunciado": "Ciertas reacciones químicas se han observado experimentalmente ocurriendo a velocidades medibles incluso a temperaturas extremadamente bajas (cercanas al cero absoluto), donde el modelo de Arrhenius predeciría una velocidad prácticamente nula. Los químicos explican esto mediante el 'efecto túnel cuántico', donde las partículas atraviesan una barrera energética sin necesitar la energía de activación clásica. ¿Qué indica esta observación sobre el modelo de Arrhenius?",
         "opciones": {
-          "A": "Indica que el modelo de Arrhenius es completamente incorrecto y debe descartarse por completo para describir cualquier reacción química, sin importar la temperatura.",
+          "A": "Indica que el modelo de Arrhenius es completamente incorrecto y debe descartarse por completo para describir cualquier reacción, sin importar la temperatura.",
           "B": "Indica que las mediciones experimentales a temperaturas tan bajas deben contener errores, ya que ninguna reacción química puede ocurrir cerca del cero absoluto bajo ninguna circunstancia.",
-          "C": "Indica que el modelo de Arrhenius, basado en supuestos de la cinética clásica, tiene un dominio de validez limitado; a temperaturas extremadamente bajas, fenómenos cuánticos como el efecto túnel pueden permitir que la reacción ocurra a una velocidad mayor de la que el modelo predeciría.",
-          "D": "Indica que la energía de activación de estas reacciones específicas debe ser negativa, un valor que el modelo de Arrhenius no puede representar bajo ninguna circunstancia."
+          "C": "Indica que el modelo de Arrhenius, basado en la cinética clásica, tiene un dominio de validez limitado; a temperaturas muy bajas, el efecto túnel cuántico puede acelerar la reacción más de lo previsto.",
+          "D": "Indica que la energía de activación de estas reacciones específicas debe ser negativa, un valor que el modelo de Arrhenius no puede representar en ningún caso."
         },
         "respuesta_correcta": "C",
         "explicacion_correcta": "El modelo de Arrhenius se basa en supuestos de la cinética clásica y no incorpora efectos cuánticos como el túnel, que permiten a las partículas atravesar la barrera energética con probabilidad no nula incluso sin la energía clásica necesaria; a temperaturas muy bajas, estos efectos pueden volverse relevantes, revelando un límite del modelo clásico.",
@@ -939,7 +983,12 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-QUI-016",
+          "PC-RAZ-017",
+          "PC-RAZ-018"
+        ]
       }
     ]
   },
@@ -957,10 +1006,10 @@
         "evidencia": "3.1",
         "enunciado": "Una reacción tiene un valor de K muy grande (K = 10¹²), lo que indica que, en el equilibrio, la reacción favorece fuertemente la formación de productos. Un estudiante concluye que 'esta reacción debe ocurrir muy rápidamente, ya que K es un valor tan alto'. ¿Es correcta esta interpretación del modelo de la constante de equilibrio?",
         "opciones": {
-          "A": "Sí, porque un valor de K muy alto siempre indica que la reacción alcanza el equilibrio de forma casi instantánea, sin importar otros factores.",
-          "B": "No, porque en realidad un valor de K tan alto es matemáticamente imposible para cualquier reacción química real.",
-          "C": "Sí, porque la constante de equilibrio y la velocidad de reacción son matemáticamente la misma cantidad, expresada de dos formas distintas.",
-          "D": "No, porque la constante de equilibrio (K) describe únicamente la posición del equilibrio, no la velocidad a la que se llega a él; una reacción puede tener un K muy grande y aun así ser extremadamente lenta, si la energía de activación para llegar al equilibrio es alta."
+          "A": "Sí, porque un valor de K muy alto siempre indica que la reacción alcanza el equilibrio de forma casi instantánea, sin importar otros factores presentes.",
+          "B": "No, porque en realidad un valor de K tan alto como 10¹² es matemáticamente imposible para cualquier reacción química real conocida.",
+          "C": "Sí, porque la constante de equilibrio y la velocidad de reacción son, en el fondo, matemáticamente la misma cantidad expresada de dos formas.",
+          "D": "No, porque K describe solo la posición del equilibrio, no la velocidad para llegar a él; una reacción puede tener un K muy grande y aun así ser muy lenta si su energía de activación es alta."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "El modelo de la constante de equilibrio es un concepto termodinámico que describe la posición del equilibrio, completamente independiente de la velocidad (un concepto cinético) a la que el sistema llega a esa posición; una reacción puede ser termodinámicamente muy favorable pero cinéticamente muy lenta, como ocurre con la oxidación del diamante a CO₂.",
@@ -978,7 +1027,11 @@
             "patron_trampa": "modelo_fuera_de_dominio"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-011",
+          "PC-RAZ-012"
+        ]
       }
     ]
   },
@@ -1071,7 +1124,12 @@
             "patron_trampa": "modelo_fuera_de_dominio"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-QUI-053",
+          "PC-RAZ-011",
+          "PC-RAZ-012"
+        ]
       }
     ]
   },
@@ -1111,7 +1169,11 @@
             "patron_trampa": "sobregeneralizacion_de_un_metodo"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-011",
+          "PC-RAZ-017"
+        ]
       }
     ],
     "imagen": "PC-GRUPO-054.svg"
@@ -1151,7 +1213,12 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-QUI-015",
+          "PC-RAZ-011",
+          "PC-RAZ-017"
+        ]
       }
     ]
   },
@@ -1231,10 +1298,10 @@
         "evidencia": "3.2",
         "enunciado": "Un estudiante intenta usar la ecuación de Henderson-Hasselbalch para calcular el pH de una solución justo en el punto de equivalencia de una titulación ácido-base, donde prácticamente todo el ácido original ya se ha convertido en su base conjugada. ¿Es apropiado usar esta ecuación en ese punto específico?",
         "opciones": {
-          "A": "Sí, porque la ecuación de Henderson-Hasselbalch es válida y precisa en cualquier punto de una titulación ácido-base, sin ninguna limitación de concentración relativa.",
+          "A": "Sí, porque la ecuación de Henderson-Hasselbalch es válida y precisa en cualquier punto de una titulación ácido-base, sin ninguna limitación de concentración.",
           "B": "Sí, porque el punto de equivalencia es precisamente la condición ideal para la que fue diseñada la ecuación de Henderson-Hasselbalch, más que para cualquier otro punto de la titulación.",
-          "C": "No, porque la ecuación de Henderson-Hasselbalch nunca es válida en ningún punto de ninguna titulación ácido-base, y debería evitarse por completo en química analítica.",
-          "D": "No es apropiado, porque cuando la concentración de ácido remanente es casi cero, el cociente [base conjugada]/[ácido] tiende a un valor extremadamente grande, haciendo que la ecuación prediga un pH sin sentido físico; cerca del punto de equivalencia, el pH real está dominado por la hidrólisis de la base conjugada, un efecto que esta ecuación simplificada no considera."
+          "C": "No, porque la ecuación de Henderson-Hasselbalch nunca es válida en ningún punto de ninguna titulación ácido-base, sea cual sea el caso.",
+          "D": "No, porque cuando el ácido remanente es casi cero, el cociente base/ácido se dispara, y la ecuación predice un pH sin sentido; cerca del punto de equivalencia, el pH real depende de la hidrólisis de la base conjugada."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "La ecuación de Henderson-Hasselbalch es una aproximación derivada para la región reguladora, donde las concentraciones de ácido y base conjugada son comparables; cerca del punto de equivalencia, el cociente se vuelve extremadamente grande y la ecuación deja de dar una predicción con sentido físico, porque allí el pH está determinado por la hidrólisis de la base conjugada, no incorporada en esta ecuación.",
@@ -1252,7 +1319,12 @@
             "patron_trampa": "sobregeneralizacion_de_un_metodo"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-QUI-039",
+          "PC-RAZ-011",
+          "PC-RAZ-012"
+        ]
       }
     ]
   }

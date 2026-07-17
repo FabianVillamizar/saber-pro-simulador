@@ -68,7 +68,12 @@
             "patron_trampa": "correlacion_causalidad"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-003",
+          "PC-RAZ-004",
+          "PC-EST-010"
+        ]
       }
     ]
   },
@@ -129,7 +134,12 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-005",
+          "PC-RAZ-006",
+          "PC-EST-011"
+        ]
       }
     ]
   },
@@ -149,8 +159,8 @@
         "opciones": {
           "A": "Sí, porque un aumento del 30 % en las ventas es una cifra lo suficientemente grande como para atribuirse con confianza a cualquiera de los dos cambios realizados.",
           "B": "Sí, porque los consumidores generalmente responden más al diseño visual de un producto que a cambios en su precio, así que el diseño debió ser la causa principal.",
-          "C": "No, porque se cambiaron dos variables al mismo tiempo (el diseño del empaque y el precio); con este diseño no es posible determinar si el aumento en ventas se debió al nuevo empaque, a la reducción de precio, o a ambos factores combinados.",
-          "D": "No, porque un aumento del 30 % en las ventas en un solo mes es una cifra que probablemente representa un error en el registro de los datos de ventas."
+          "C": "No, porque se cambiaron dos variables a la vez (empaque y precio); no es posible saber si el aumento en ventas se debió al empaque, al precio, o a ambos.",
+          "D": "No, porque un aumento del 30 % en las ventas de un solo mes probablemente representa un error grave en el registro de los datos."
         },
         "respuesta_correcta": "C",
         "explicacion_correcta": "Cuando se modifican dos variables al mismo tiempo (el diseño del empaque y el precio), cualquier cambio observado en el resultado no puede atribuirse con confianza a una sola de esas variables; para aislar el efecto del empaque, sería necesario un diseño que cambiara solo esa variable, manteniendo el precio constante, o que probara ambos cambios por separado.",
@@ -168,7 +178,11 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-009",
+          "PC-RAZ-010"
+        ]
       }
     ]
   },
@@ -187,9 +201,9 @@
         "enunciado": "¿Está esta afirmación respaldada adecuadamente por el estudio descrito?",
         "opciones": {
           "A": "Sí, porque los 5 voluntarios mejoraron su puntaje, y una mejora observada en el 100 % de los participantes es evidencia suficiente para cualquier afirmación sobre el producto.",
-          "B": "Sí, porque cualquier estudio, sin importar su tamaño de muestra o diseño, es suficiente para respaldar afirmaciones publicitarias sobre un producto de consumo.",
-          "C": "No, porque 2 semanas es un periodo demasiado corto para que cualquier suplemento pueda tener algún efecto biológico medible en el cuerpo humano.",
-          "D": "No, porque el estudio tiene una muestra muy pequeña (5 personas) y no incluye un grupo control; la mejora observada podría deberse al efecto placebo, a la práctica repetida de la prueba de memoria, o simplemente al azar, no necesariamente al suplemento."
+          "B": "Sí, porque cualquier estudio, sin importar su tamaño de muestra o su diseño metodológico, respalda afirmaciones publicitarias sobre un producto.",
+          "C": "No, porque 2 semanas es un periodo demasiado corto para que cualquier suplemento tenga algún efecto biológico medible en el cuerpo.",
+          "D": "No, porque la muestra es muy pequeña (5 personas) y no hay grupo control; la mejora podría deberse al placebo, a la práctica repetida, o al azar, no necesariamente al suplemento."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Un estudio con una muestra muy pequeña y sin grupo control no permite descartar explicaciones alternativas para la mejora observada, como el efecto placebo, el efecto de práctica o la variabilidad natural; la frase 'clínicamente comprobado' sugiere un nivel de evidencia que este diseño experimental específico no proporciona.",
@@ -207,7 +221,12 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-017",
+          "PC-RAZ-018",
+          "PC-EST-009"
+        ]
       }
     ]
   },
@@ -225,9 +244,9 @@
         "evidencia": "2.1",
         "enunciado": "¿Qué problema tiene el razonamiento de esta persona?",
         "opciones": {
-          "A": "Usa un solo caso individual (anecdótico) como si refutara una tendencia estadística observada en poblaciones grandes; un caso individual no invalida una relación de riesgo que se expresa en términos de probabilidades promedio, no de certezas para cada persona.",
+          "A": "Usa un caso individual (anecdótico) como si refutara una tendencia estadística poblacional; un caso no invalida una relación de riesgo expresada en probabilidades, no en certezas para cada persona.",
           "B": "Ninguno; si una persona específica vivió muchos años a pesar de fumar, esto demuestra que los estudios epidemiológicos sobre el tabaquismo están equivocados.",
-          "C": "El problema es que la esperanza de vida de 95 años de la abuela probablemente fue un error de registro, ya que nadie que fume puede vivir tantos años.",
+          "C": "El problema es que la edad de 95 años de la abuela probablemente fue un error de registro, ya que nadie que fume puede vivir tantos años.",
           "D": "El problema es que los estudios epidemiológicos sobre el tabaquismo no consideran ningún caso individual, por lo que no son aplicables a ninguna persona en particular."
         },
         "respuesta_correcta": "A",
@@ -246,7 +265,12 @@
             "patron_trampa": "sobregeneralizacion_de_un_metodo"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-015",
+          "PC-RAZ-016",
+          "PC-RAZ-017"
+        ]
       }
     ]
   },
@@ -265,9 +289,9 @@
         "enunciado": "¿Está esta afirmación respaldada adecuadamente por los resultados de la prueba?",
         "opciones": {
           "A": "Sí, porque una preferencia de 7 sobre 10 catadores es una mayoría clara y suficiente para respaldar cualquier afirmación general sobre la superioridad de un producto.",
-          "B": "No, porque la prueba solo evaluó la preferencia de sabor de un grupo pequeño de catadores; esto no proporciona ninguna evidencia sobre otros aspectos del producto, como su valor nutricional, su precio, o su preferencia entre la población general de consumidores.",
-          "C": "No, porque una prueba de sabor a ciegas nunca puede producir resultados confiables, sin importar cuántos catadores participen.",
-          "D": "Sí, porque las pruebas de sabor a ciegas son el estándar de oro para evaluar absolutamente todos los aspectos de calidad de un producto alimenticio."
+          "B": "No, porque la prueba solo evaluó preferencia de sabor en un grupo pequeño; eso no dice nada sobre otros aspectos, como valor nutricional, precio, o preferencia de la población general.",
+          "C": "No, porque una prueba de sabor a ciegas nunca puede producir resultados confiables, sin importar cuántos catadores participen en ella.",
+          "D": "Sí, porque las pruebas de sabor a ciegas son el estándar de oro para evaluar todos los aspectos de calidad de un producto alimenticio."
         },
         "respuesta_correcta": "B",
         "explicacion_correcta": "El resultado de la prueba solo respalda, en el mejor de los casos, una conclusión limitada sobre la preferencia de sabor de ese grupo específico; extender esa conclusión a 'superior en todos los aspectos' va mucho más allá de lo que este único tipo de prueba puede demostrar.",
@@ -285,7 +309,12 @@
             "patron_trampa": "sobregeneralizacion_de_un_metodo"
           }
         },
-        "dificultad": "baja"
+        "dificultad": "baja",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-017",
+          "PC-RAZ-018",
+          "PC-EST-014"
+        ]
       }
     ]
   },
@@ -356,10 +385,10 @@
         "evidencia": "2.4",
         "enunciado": "¿Es esta una conclusión adecuada a partir de los datos descritos?",
         "opciones": {
-          "A": "Sí, porque cualquier asociación estadística observada entre dos variables demuestra automáticamente que una causa a la otra.",
+          "A": "Sí, porque cualquier asociación estadística observada entre dos variables demuestra, por sí sola, que una es la causa directa de la otra.",
           "B": "Sí, porque las bibliotecas ofrecen actividades educativas que mantienen a los jóvenes ocupados, así que esta explicación causal debe ser correcta sin necesidad de más evidencia.",
-          "C": "No, porque es probable que un tercer factor, como el nivel socioeconómico o educativo general de la ciudad, esté asociado tanto con la cantidad de bibliotecas construidas como con tasas de criminalidad más bajas, sin que las bibliotecas sean necesariamente la causa directa.",
-          "D": "No, porque en realidad no puede existir ninguna relación entre la infraestructura cultural de una ciudad y sus tasas de criminalidad."
+          "C": "No, porque un tercer factor, como el nivel socioeconómico de la ciudad, probablemente esté asociado tanto con la cantidad de bibliotecas como con la criminalidad, sin que las bibliotecas sean la causa directa.",
+          "D": "No, porque en realidad no puede existir ninguna relación estadística entre la infraestructura cultural de una ciudad y sus tasas de criminalidad."
         },
         "respuesta_correcta": "C",
         "explicacion_correcta": "El nivel socioeconómico y educativo general de una ciudad es una variable de confusión plausible: las ciudades con mayores recursos tienden a invertir más en infraestructura cultural Y presentar tasas de criminalidad más bajas por razones independientes; esta variable de confusión puede explicar la asociación observada sin que las bibliotecas sean la causa directa.",
@@ -377,7 +406,11 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-003",
+          "PC-RAZ-004"
+        ]
       }
     ]
   },
@@ -416,7 +449,12 @@
             "patron_trampa": "variable_confundida"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-007",
+          "PC-RAZ-008",
+          "PC-EST-010"
+        ]
       }
     ]
   },
@@ -456,10 +494,10 @@
         "evidencia": "2.3",
         "enunciado": "¿Es adecuada esta conclusión?",
         "opciones": {
-          "A": "No, porque se cambiaron dos variables al mismo tiempo (la cantidad de riego y el tipo de fertilizante); no es posible determinar con este diseño si el aumento en la producción se debió al nuevo fertilizante, al mayor riego, o a la combinación de ambos factores.",
+          "A": "No, porque se cambiaron dos variables a la vez (riego y fertilizante); no es posible saber si el aumento se debió al fertilizante, al riego, o a la combinación de ambos.",
           "B": "Sí, porque los fertilizantes nuevos generalmente producen mejores resultados que los fertilizantes antiguos, así que esta debe ser la explicación correcta.",
-          "C": "No, porque un aumento del 25 % en la producción de un cultivo es una cifra demasiado alta para ser real, y probablemente refleja un error en la medición de la cosecha.",
-          "D": "Sí, porque comparar dos campos distintos bajo condiciones diferentes siempre permite aislar con precisión el efecto de cada variable involucrada."
+          "C": "No, porque un aumento del 25 % en la producción es una cifra demasiado alta para ser real, y probablemente refleja un error al medir la cosecha.",
+          "D": "Sí, porque comparar dos campos distintos bajo condiciones diferentes siempre permite aislar con total precisión el efecto de cada variable."
         },
         "respuesta_correcta": "A",
         "explicacion_correcta": "Al modificar dos variables simultáneamente, cualquier diferencia observada en la producción no puede atribuirse con confianza a una sola de esas variables; para aislar el efecto específico del fertilizante, sería necesario mantener el riego constante entre los campos comparados y cambiar solamente el fertilizante.",
@@ -477,7 +515,11 @@
             "patron_trampa": "diseño_no_controlado"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-009",
+          "PC-RAZ-010"
+        ]
       }
     ]
   },
@@ -516,7 +558,12 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "baja"
+        "dificultad": "baja",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-015",
+          "PC-RAZ-016",
+          "PC-EST-014"
+        ]
       }
     ]
   },
@@ -595,7 +642,12 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-017",
+          "PC-RAZ-003",
+          "PC-EST-010"
+        ]
       }
     ]
   },
@@ -659,7 +711,11 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-005",
+          "PC-RAZ-006"
+        ]
       }
     ]
   },
@@ -677,9 +733,9 @@
         "evidencia": "2.3",
         "enunciado": "¿Es adecuada esta conclusión?",
         "opciones": {
-          "A": "No, porque se cambiaron dos variables al mismo tiempo (la temperatura y la presencia del catalizador); no es posible determinar con este diseño si la mejora en el rendimiento se debió al catalizador, al aumento de temperatura, o a la combinación de ambos factores.",
-          "B": "Sí, porque los catalizadores, por definición, siempre son los responsables de cualquier mejora observada en el rendimiento de una reacción química.",
-          "C": "No, porque un solo ensayo nunca puede usarse para calcular ningún tipo de rendimiento de una reacción química, sin importar cuántas variables se hayan cambiado.",
+          "A": "No, porque se cambiaron dos variables a la vez (temperatura y catalizador); no es posible saber si la mejora se debió al catalizador, a la temperatura, o a ambos factores.",
+          "B": "Sí, porque los catalizadores, por definición propia, siempre son los únicos responsables de cualquier mejora en el rendimiento de una reacción.",
+          "C": "No, porque un solo ensayo nunca puede usarse para calcular ningún tipo de rendimiento confiable de una reacción química realizada.",
           "D": "Sí, porque comparar un ensayo con varios cambios frente a un ensayo de referencia sin cambios siempre permite aislar con precisión el efecto de cada variable modificada por separado."
         },
         "respuesta_correcta": "A",
@@ -698,7 +754,11 @@
             "patron_trampa": "diseño_no_controlado"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-009",
+          "PC-RAZ-010"
+        ]
       }
     ]
   },
@@ -737,7 +797,12 @@
             "patron_trampa": "sobregeneralizacion_de_un_metodo"
           }
         },
-        "dificultad": "baja"
+        "dificultad": "baja",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-017",
+          "PC-RAZ-018",
+          "PC-EST-017"
+        ]
       }
     ]
   },
@@ -776,7 +841,11 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-017",
+          "PC-RAZ-018"
+        ]
       }
     ]
   },
@@ -796,8 +865,8 @@
         "opciones": {
           "A": "Sí, porque cualquier prueba colorimétrica que produzca un cambio de color visible debe considerarse una confirmación definitiva e inequívoca de la presencia de la sustancia buscada.",
           "B": "Sí, porque una vez que se obtiene un resultado positivo en cualquier prueba de laboratorio, ya no es necesario realizar ninguna prueba adicional de confirmación.",
-          "C": "No, porque las pruebas de mancha colorimétricas nunca son útiles para ningún propósito de análisis químico, y deberían evitarse por completo.",
-          "D": "No, porque una prueba presuntiva, por su propia naturaleza, solo indica que la presencia del ion es posible o probable, no confirmada; dado que iones estructurales similares pueden dar el mismo resultado positivo, se necesitaría una prueba confirmatoria adicional (más específica) antes de concluir con certeza la presencia del ion."
+          "C": "No, porque las pruebas de mancha colorimétricas nunca son útiles para ningún propósito serio de análisis químico, y deberían evitarse siempre.",
+          "D": "No, porque una prueba presuntiva solo indica que la presencia del ion es probable, no confirmada; iones similares pueden dar el mismo positivo, así que se necesita una prueba confirmatoria adicional."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Una prueba presuntiva está diseñada para dar una indicación rápida y preliminar de la posible presencia de una sustancia, pero no para confirmarla con certeza, precisamente porque puede producir falsos positivos; el método permite concluir que la presencia del ion es plausible, pero afirmar una 'confirmación definitiva' va más allá de lo que este tipo de prueba puede demostrar por sí sola.",
@@ -815,7 +884,11 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-017",
+          "PC-RAZ-018"
+        ]
       }
     ]
   },
@@ -907,9 +980,9 @@
         "evidencia": "2.4",
         "enunciado": "¿Es adecuada esta conclusión?",
         "opciones": {
-          "A": "No necesariamente, porque tanto la intensidad del color como la velocidad medida podrían ser efectos de una causa común (por ejemplo, la concentración de un intermediario coloreado formado durante la reacción), sin que el color en sí mismo sea la causa de que la reacción se acelere.",
-          "B": "Sí, porque cualquier asociación observada entre dos variables medidas en el mismo experimento demuestra necesariamente que una es la causa directa de la otra.",
-          "C": "No, porque el color de una reacción química nunca tiene ninguna relación con la velocidad a la que ocurre esa reacción.",
+          "A": "No necesariamente, porque el color y la velocidad podrían ser efectos de una causa común (la concentración de un intermediario coloreado formado durante la reacción), sin que el color cause la aceleración.",
+          "B": "Sí, porque cualquier asociación observada entre dos variables medidas en el mismo experimento demuestra que una es la causa directa de la otra.",
+          "C": "No, porque el color de una reacción química nunca guarda ninguna relación real con la velocidad a la que ocurre esa reacción.",
           "D": "Sí, porque el color es una propiedad física directamente observable, y las propiedades físicas directamente observables siempre son la causa de los cambios químicos que ocurren en un sistema."
         },
         "respuesta_correcta": "A",
@@ -928,7 +1001,11 @@
             "patron_trampa": "correlacion_causalidad"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-003",
+          "PC-RAZ-004"
+        ]
       }
     ]
   },
@@ -1007,7 +1084,12 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-007",
+          "PC-RAZ-008",
+          "PC-EST-010"
+        ]
       }
     ]
   },
@@ -1047,10 +1129,10 @@
         "evidencia": "2.3",
         "enunciado": "¿Es adecuada esta conclusión?",
         "opciones": {
-          "A": "Sí, porque la solubilidad de cualquier compuesto es una propiedad fija que no depende del disolvente ni de la temperatura usados para medirla.",
+          "A": "Sí, porque la solubilidad de cualquier compuesto es una propiedad fija que no depende del disolvente ni de la temperatura de medición.",
           "B": "Sí, porque un valor numérico de solubilidad más alto siempre indica una mayor solubilidad general del compuesto, sin importar en qué condiciones se haya medido cada uno.",
-          "C": "No, porque se compararon los dos compuestos en condiciones completamente distintas (diferente disolvente y diferente temperatura); no es posible determinar cuál compuesto es 'generalmente' más soluble sin medir ambos en las mismas condiciones.",
-          "D": "No, porque el etanol nunca puede disolver ninguna cantidad medible de un compuesto químico, sin importar las condiciones del experimento."
+          "C": "No, porque se compararon los dos compuestos en condiciones distintas (disolvente y temperatura); no se puede saber cuál es 'generalmente' más soluble sin medir ambos en las mismas condiciones.",
+          "D": "No, porque el etanol nunca puede disolver ninguna cantidad medible de ningún compuesto químico, sin importar las condiciones del experimento."
         },
         "respuesta_correcta": "C",
         "explicacion_correcta": "La solubilidad de un compuesto depende fuertemente del disolvente específico y de la temperatura; al comparar los dos compuestos en condiciones completamente distintas, no es posible aislar si la diferencia observada se debe a las propiedades intrínsecas de cada compuesto o simplemente a las condiciones distintas bajo las cuales se midió cada uno.",
@@ -1068,7 +1150,11 @@
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-009",
+          "PC-RAZ-010"
+        ]
       }
     ]
   },
@@ -1088,8 +1174,8 @@
         "opciones": {
           "A": "Sí, porque repetir un experimento 5 veces con resultados consistentes es evidencia suficiente para generalizar el comportamiento a cualquier lote del mismo reactivo, sin importar el proveedor o el proceso de fabricación.",
           "B": "Sí, porque todos los lotes de un mismo reactivo, producidos por el mismo proveedor, son químicamente idénticos entre sí en el 100 % de los casos, sin ninguna excepción.",
-          "C": "No, porque repetir un experimento varias veces con el mismo lote nunca proporciona ninguna información útil sobre la consistencia de un reactivo.",
-          "D": "No, porque las 5 repeticiones solo demuestran la consistencia dentro de ese lote específico, pero no dicen nada sobre la variabilidad entre distintos lotes del mismo reactivo (diferencias de pureza o de impurezas trazas entre lotes de fabricación), que podría afectar el comportamiento observado en lotes futuros."
+          "C": "No, porque repetir un experimento varias veces con el mismo lote nunca proporciona ninguna información útil sobre su consistencia interna.",
+          "D": "No, porque las 5 repeticiones solo demuestran consistencia dentro de ese lote; no dicen nada sobre la variabilidad entre distintos lotes (diferencias de pureza) que podría afectar lotes futuros."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Las repeticiones dentro de un mismo lote solo demuestran que el comportamiento es consistente para ese lote específico, pero no proporcionan ninguna información sobre la variabilidad que puede existir entre distintos lotes de fabricación; generalizar el comportamiento a 'cualquier lote' requeriría probar varios lotes distintos, no solo repetir el experimento con el mismo lote.",
@@ -1107,7 +1193,12 @@
             "patron_trampa": "sobregeneralizacion_de_un_metodo"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-RAZ-017",
+          "PC-RAZ-018",
+          "PC-EST-017"
+        ]
       }
     ]
   }

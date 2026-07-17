@@ -77,6 +77,21 @@ export const DESCRIPCIONES_PATRON = {
   organo_elector_confundido: 'Confundes qué órgano o autoridad tiene realmente la competencia para elegir, nombrar o controlar un cargo específico.',
   solucion_parcial: 'Aceptas una solución que atiende solo una parte del problema como si resolviera el problema completo.',
   vulneracion_disfrazada: 'No reconoces cuando una conducta formalmente correcta produce, en la práctica, el mismo efecto que una vulneración directa y abierta.',
+
+  // Pensamiento Científico (ver src/data/pensamiento-cientifico/*.json).
+  brecha_de_datos_ignorada: 'Asumes que sabes qué pasó en un tramo de datos que nunca fue medido, en vez de reconocer el vacío y preguntarte qué información falta.',
+  confusion_exactitud_precision: 'Confundes que unas mediciones sean consistentes entre sí (precisión) con que sean correctas respecto al valor real (exactitud).',
+  correlacion_causalidad: 'Interpretas una asociación estadística entre dos variables como si una causara directamente a la otra, sin descartar otras explicaciones.',
+  diseño_no_controlado: 'Pasas por alto que se cambió más de una variable a la vez, lo que impide saber cuál de ellas causó el resultado observado.',
+  equilibrio_confundido_con_reposo: 'Confundes que las fuerzas o concentraciones estén en equilibrio (sin cambio neto) con que el sistema esté detenido o sin actividad.',
+  evidencia_insuficiente_o_irrelevante: 'Aceptas como respaldo un dato que no mide directamente lo que la pregunta o hipótesis realmente necesita comprobar.',
+  incertidumbre_mal_atribuida: 'Le atribuyes la incertidumbre de una medición a la causa equivocada (por ejemplo, al instrumento) en vez de a la verdadera fuente (como el tamaño de muestra).',
+  lectura_invertida_grafica: 'Confundes qué variable depende de cuál en una gráfica, o lees un eje por el otro.',
+  modelo_fuera_de_dominio: 'Aplicas un modelo o fórmula fuera del rango de condiciones donde fue validado, asumiendo que sigue siendo preciso.',
+  proporcionalidad_directa_vs_inversa: 'Confundes una relación de proporcionalidad directa con una inversa, o asumes proporcionalidad donde la relación en realidad es curva.',
+  sobregeneralizacion_de_un_metodo: 'Extiendes el resultado de un solo ensayo, muestra pequeña o técnica limitada como si aplicara siempre y en cualquier condición.',
+  variable_confundida: 'Confundes cuál variable es la independiente (la que se manipula) y cuál es la dependiente (la que se mide como resultado).',
+  variable_de_confusion_no_controlada: 'Pasas por alto una tercera variable no controlada que podría explicar, por sí sola, la diferencia observada entre los grupos comparados.',
 }
 
 // Etiqueta corta por patrón, para la insignia "Trampa: …" en el panel de
@@ -125,4 +140,19 @@ export const ETIQUETAS_PATRON = {
   organo_elector_confundido: 'Órgano elector confundido',
   solucion_parcial: 'Solución parcial',
   vulneracion_disfrazada: 'Vulneración disfrazada',
+
+  // Pensamiento Científico (ver src/data/pensamiento-cientifico/*.json).
+  brecha_de_datos_ignorada: 'Brecha de datos ignorada',
+  confusion_exactitud_precision: 'Confusión exactitud/precisión',
+  correlacion_causalidad: 'Correlación confundida con causalidad',
+  diseño_no_controlado: 'Diseño no controlado',
+  equilibrio_confundido_con_reposo: 'Equilibrio confundido con reposo',
+  evidencia_insuficiente_o_irrelevante: 'Evidencia insuficiente o irrelevante',
+  incertidumbre_mal_atribuida: 'Incertidumbre mal atribuida',
+  lectura_invertida_grafica: 'Lectura invertida de la gráfica',
+  modelo_fuera_de_dominio: 'Modelo fuera de dominio',
+  proporcionalidad_directa_vs_inversa: 'Proporcionalidad directa/inversa',
+  sobregeneralizacion_de_un_metodo: 'Sobregeneralización de un método',
+  variable_confundida: 'Variable confundida',
+  variable_de_confusion_no_controlada: 'Variable de confusión no controlada',
 }
