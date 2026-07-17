@@ -84,6 +84,43 @@ export function ContextoPregunta({ contexto, numEnGrupo }) {
     )
   }
 
+  // Lectura Crítica — texto continuo literario: extracto real de dominio
+  // público. La fuente se muestra siempre visible debajo del texto (no se
+  // oculta como si fuera contenido genérico del banco de estudio); si el
+  // material trae una nota de fuente (derechos de autor, aclaración de
+  // atribución), se muestra debajo en un tono más discreto.
+  if (contexto.tipo === 'texto_base_literario') {
+    return (
+      <div className="contexto contexto--pasaje">
+        {contexto.generoTexto && (
+          <div className="contexto-pills">
+            <span className="contexto-pill">{contexto.generoTexto}</span>
+          </div>
+        )}
+        <p className="contexto-texto">{contexto.texto}</p>
+        {contexto.fuente && <p className="contexto-fuente">— {contexto.fuente}</p>}
+        {contexto.fuenteNota && <p className="contexto-fuente-nota">{contexto.fuenteNota}</p>}
+      </div>
+    )
+  }
+
+  // Lectura Crítica — texto discontinuo: infografía/tabla/gráfico/cómic/
+  // anuncio descrito en texto (no hay arte real todavía) y construido con
+  // datos ficticios a propósito. La etiqueta de "datos ficticios" es
+  // obligatoria y siempre visible para que nunca se confunda con una
+  // estadística real.
+  if (contexto.tipo === 'discontinuo_lc') {
+    return (
+      <div className="contexto contexto--pasaje contexto--discontinuo">
+        <div className="contexto-pills">
+          {contexto.generoTexto && <span className="contexto-pill">{contexto.generoTexto}</span>}
+          <span className="contexto-badge-ficticio">Ejercicio de práctica — datos ficticios</span>
+        </div>
+        <p className="contexto-texto contexto-texto--discontinuo">{contexto.texto}</p>
+      </div>
+    )
+  }
+
   // Razonamiento Cuantitativo (sin datos reales todavía): tablas/gráficas
   // ya renderizadas a SVG por separado, o notación matemática renderizada
   // del lado del cliente con KaTeX.

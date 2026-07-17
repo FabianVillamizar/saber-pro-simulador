@@ -1,0 +1,288 @@
+[
+  {
+    "id": "LC-FUN-001",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "que_es_la_idea_principal_de_un_parrafo",
+    "pregunta": "¿Qué es la idea principal de un párrafo y en qué se diferencia de una idea secundaria?",
+    "respuesta_breve": "Es la afirmación central que organiza todo el párrafo; las ideas secundarias solo la explican, ejemplifican o sustentan.",
+    "explicacion": "La **idea principal** es la oración (explícita o resumible) sin la cual el párrafo pierde su sentido. Primero, lee el párrafo completo sin subrayar nada. Luego pregúntate: 'si solo pudiera conservar una oración, ¿cuál mantiene el sentido del párrafo?'. Por último, verifica: las demás oraciones deben poder describirse como ejemplos, causas, datos o consecuencias de esa oración — nunca al revés.",
+    "ejemplo_aplicado": "'El café representa una fuente importante de ingresos para miles de familias en Colombia. Se cultiva en más de 20 departamentos y genera empleo rural. Además, su exportación aporta divisas al país.' La primera oración es la idea principal; las otras dos son datos que la sostienen.",
+    "error_comun": "Se suele confundir la idea principal con la oración más llamativa o la que tiene una cifra impactante, cuando en realidad esa oración puede ser solo un dato de apoyo.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FUN-002",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "que_es_la_idea_principal_de_un_parrafo",
+    "pregunta": "¿Puede una cifra o dato específico ser la idea principal de un párrafo?",
+    "respuesta_breve": "Casi nunca: un dato aislado suele funcionar como evidencia que sostiene la idea principal, no como la idea en sí.",
+    "explicacion": "Un **dato de apoyo** (cifra, ejemplo, estadística) existe para reforzar una afirmación más general, no para reemplazarla. Para comprobarlo, quita mentalmente la cifra del párrafo: si la afirmación general sigue teniendo sentido sin ella, la cifra era apoyo. Si al quitarla el párrafo pierde su argumento central, esa era la idea principal.",
+    "ejemplo_aplicado": "'Dormir menos de seis horas afecta la memoria. Un estudio con 200 personas encontró que el 68% olvidaba tareas simples tras dormir poco.' El 68% es un dato de apoyo, no la idea principal: sin la primera oración, el dato pierde sentido.",
+    "error_comun": "Se toma la cifra como idea principal porque es lo más fácil de recordar, pero recordable no es lo mismo que central: la cifra depende de la afirmación que la antecede.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-FUN-001"
+    ]
+  },
+  {
+    "id": "LC-FUN-003",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "donde_suele_aparecer_la_tesis",
+    "pregunta": "¿En qué parte de un texto argumentativo suele ubicarse la tesis?",
+    "respuesta_breve": "Con más frecuencia en la primera oración del texto o al cierre del primer párrafo, aunque a veces se deja implícita.",
+    "explicacion": "La **tesis** es la postura central que el autor defiende a lo largo de todo el texto. Primero, lee el primer párrafo completo y busca una oración que exprese una posición clara (no solo un tema). Si no aparece ahí, revisa el cierre del texto: algunos autores reservan la tesis para la conclusión. Si tampoco la encuentras escrita, probablemente es implícita.",
+    "ejemplo_aplicado": "'Las bibliotecas públicas deberían ampliar su horario nocturno. Esto se debe a que muchos estudiantes solo tienen tiempo libre después de las 8 p.m.' La tesis aparece en la primera oración; la segunda la sustenta.",
+    "error_comun": "Se asume que la tesis siempre está en la primera oración, lo que lleva a pasar por alto textos que la construyen poco a poco y solo la enuncian al final.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FUN-004",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "donde_suele_aparecer_la_tesis",
+    "pregunta": "¿Cómo se identifica una tesis que el autor nunca escribe explícitamente (tesis implícita)?",
+    "respuesta_breve": "Se infiere identificando hacia qué conclusión apuntan en conjunto todos los argumentos o datos del texto.",
+    "explicacion": "Cuando ninguna oración expresa la **tesis implícita** de forma directa, primero lista mentalmente cada argumento o dato que presenta el texto. Luego pregúntate qué posición común están sustentando todos ellos. Finalmente, redacta tú mismo esa posición en una sola oración, usando tus propias palabras.",
+    "ejemplo_aplicado": "'La ciudad instaló más cámaras de seguridad. Los robos bajaron un 15%. Los vecinos ahora salen más tarde en la noche.' Ninguna oración dice directamente 'las cámaras mejoran la seguridad', pero es la conclusión hacia la que apuntan las tres.",
+    "error_comun": "Se concluye que el texto 'no tiene tesis' porque no hay una oración para subrayar, cuando en realidad solo está implícita y debe reconstruirse.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-FUN-003"
+    ]
+  },
+  {
+    "id": "LC-FUN-005",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "diferencia_entre_hecho_y_opinion",
+    "pregunta": "¿Cómo se diferencia un hecho de una opinión dentro de un texto?",
+    "respuesta_breve": "Un hecho se puede verificar con evidencia externa; una opinión expresa una valoración que puede cambiar según quién la emita.",
+    "explicacion": "Un **hecho** es verdadero o falso sin importar quién lo diga, porque puede comprobarse con datos, mediciones o documentos. Una **opinión** es un juicio de valor. Para distinguirlos, pregúntate: '¿podría alguien comprobar esto con evidencia?'; si sí, es hecho. Luego busca palabras como 'mejor', 'lamentablemente' o 'debería', que casi siempre señalan opinión.",
+    "ejemplo_aplicado": "'El río Magdalena mide más de 1500 km. Lamentablemente, su contaminación es alarmante.' La primera oración es un hecho verificable; 'lamentablemente' y 'alarmante' señalan una opinión.",
+    "error_comun": "Se confunde el tono seguro o afirmativo de una oración con que sea un hecho, cuando la certeza en la redacción no determina si el contenido es verificable.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FUN-006",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "diferencia_entre_hecho_y_opinion",
+    "pregunta": "¿Por qué algunas opiniones parecen hechos a primera vista?",
+    "respuesta_breve": "Porque se apoyan en datos reales, aunque la conclusión que se saca de esos datos siga siendo una interpretación del autor.",
+    "explicacion": "Una **opinión disfrazada de hecho** combina un dato verificable con un juicio de valor en la misma oración. Para separarlos, identifica primero qué parte de la oración es el dato comprobable. Luego identifica qué palabra o frase agrega una valoración ('demuestra que...', 'es alarmante') sobre ese dato: esa segunda parte es la opinión, aunque el dato que la acompaña sea real.",
+    "ejemplo_aplicado": "'El 40% de los estudiantes reprobó el examen, lo cual demuestra que el sistema educativo está fallando gravemente.' El 40% es real, pero 'demuestra que el sistema está fallando gravemente' es una interpretación, no un hecho.",
+    "error_comun": "Se acepta toda la oración como hecho solo porque contiene una cifra real, sin notar que la interpretación añadida sobre esa cifra sí es opinable.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-FUN-005"
+    ]
+  },
+  {
+    "id": "LC-FUN-007",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "como_resumir_un_parrafo_en_una_sola_frase",
+    "pregunta": "¿Cómo se resume un párrafo en una sola frase?",
+    "respuesta_breve": "Se identifica la idea principal y se reformula con palabras propias, eliminando ejemplos, cifras y datos secundarios.",
+    "explicacion": "Para **resumir** un párrafo, primero identifica su idea principal. Luego redáctala con tus propias palabras, sin copiar literalmente la oración del texto. Después elimina adjetivos, ejemplos y cifras que no sean indispensables. Por último, revisa: tu frase debe entenderse incluso para alguien que no leyó el párrafo original.",
+    "ejemplo_aplicado": "'El bambú crece hasta un metro por día bajo condiciones óptimas. Sus raíces se extienden varios metros bajo tierra y algunas especies florecen solo cada 60 años.' Resumen: 'El bambú tiene un crecimiento y un ciclo de vida inusuales.'",
+    "error_comun": "Se copia la oración más citable del párrafo tal cual, en vez de sintetizar; a veces esa oración corresponde a un dato secundario y no a la idea central.",
+    "dificultad": "baja",
+    "prereqs": [
+      "LC-FUN-001"
+    ]
+  },
+  {
+    "id": "LC-FUN-008",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "como_resumir_un_parrafo_en_una_sola_frase",
+    "pregunta": "Al resumir un párrafo, ¿se pueden agregar valoraciones propias del lector?",
+    "respuesta_breve": "No: un buen resumen es neutral y se limita a lo que el texto realmente dice, sin juicios añadidos por quien resume.",
+    "explicacion": "Un resumen debe reportar, no evaluar. Después de escribir tu resumen, revísalo buscando palabras de valoración ('sorprendentemente', 'lamentablemente', 'asombroso'). Si aparecen, verifica si esas palabras estaban en el texto original. Si las agregaste tú, elimínalas: no forman parte del contenido que se te pidió resumir.",
+    "ejemplo_aplicado": "Resumen con opinión colada (incorrecto): 'El bambú, sorprendentemente, tiene un crecimiento asombroso.' Versión correcta: 'El bambú tiene un crecimiento rápido y un ciclo de floración poco común.'",
+    "error_comun": "Se mezcla sin darse cuenta 'lo que el texto dice' con 'lo que a mí me parece', especialmente al usar adjetivos que suenan neutrales pero en realidad valoran.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-FUN-007"
+    ]
+  },
+  {
+    "id": "LC-FUN-009",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "lectura_activa_hacerse_preguntas",
+    "pregunta": "¿Qué preguntas conviene hacerse mientras se lee un texto por primera vez?",
+    "respuesta_breve": "Sobre todo: ¿quién dice esto?, ¿para qué lo dice?, ¿qué prueba o evidencia da?",
+    "explicacion": "La **lectura activa** consiste en interrogar el texto constantemente en vez de solo pasar la vista sobre las palabras. Al terminar cada párrafo, detente y hazte esas tres preguntas. Si no puedes responder alguna con lo que acabas de leer, ese es exactamente el punto donde debes releer.",
+    "ejemplo_aplicado": "'Según la Alcaldía, el nuevo puente reducirá el tráfico en un 30%.' Preguntas útiles: ¿quién lo dice? (la Alcaldía) ¿para qué? (justificar la obra) ¿qué prueba da? (ninguna cifra de respaldo, solo la afirmación).",
+    "error_comun": "Se lee de corrido buscando solo 'terminar' el texto, y al llegar a las preguntas del examen no se puede responder nada porque nunca se generaron preguntas propias durante la lectura.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FUN-010",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "lectura_activa_hacerse_preguntas",
+    "pregunta": "¿Para qué sirve predecir lo que va a decir un párrafo antes de leerlo por completo?",
+    "respuesta_breve": "Porque confirmar o corregir una predicción obliga a procesar el contenido de forma activa, en vez de solo pasar los ojos por las palabras.",
+    "explicacion": "Antes de leer un párrafo, observa el título o la primera oración y anticipa mentalmente de qué tratará. Luego lee para confirmar o corregir esa predicción. Si te equivocaste, pregúntate por qué: eso revela exactamente qué habías entendido mal o qué información nueva aportó el autor.",
+    "ejemplo_aplicado": "Título: 'Los efectos del insomnio en el rendimiento laboral'. Antes de leer, predices que hablará de cansancio y errores en el trabajo. Al leer, confirmas o corriges esa predicción con el contenido real.",
+    "error_comun": "Se evita predecir por considerarlo una 'pérdida de tiempo', cuando en realidad toma segundos y permite detectar malentendidos de inmediato en vez de solo al final del texto.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-FUN-009"
+    ]
+  },
+  {
+    "id": "LC-FUN-011",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "que_hacer_cuando_no_se_entiende_una_frase",
+    "pregunta": "¿Qué hacer cuando una frase de un texto no se entiende en la primera lectura?",
+    "respuesta_breve": "Relee aislando la palabra o parte confusa; si sigue sin entenderse, continúa leyendo y vuelve después con más contexto.",
+    "explicacion": "Primero, relee solo esa frase e identifica qué palabra o conector puntual genera la confusión — casi siempre el problema está en una sola palabra, no en toda la frase. Si el problema persiste, sigue leyendo el resto del párrafo: el contexto posterior frecuentemente aclara el significado. Por último, vuelve a la frase original con esa información nueva.",
+    "ejemplo_aplicado": "'La medida resultó contraproducente para el sector.' Si 'contraproducente' no se entiende, sigues leyendo: 'las ventas cayeron justo después de aplicarla'. El contexto revela que significa 'con efecto contrario al esperado'.",
+    "error_comun": "Se relee la misma frase una y otra vez sin avanzar, en vez de seguir leyendo para reunir el contexto que finalmente la aclara.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FUN-012",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "que_hacer_cuando_no_se_entiende_una_frase",
+    "pregunta": "¿Cómo se infiere el significado de una palabra desconocida sin usar el diccionario?",
+    "respuesta_breve": "Observando las palabras y oraciones cercanas para deducir su función y sentido aproximado dentro del contexto.",
+    "explicacion": "Primero identifica qué tipo de palabra es según su posición (¿nombra una acción, una cosa, una cualidad?). Luego busca pistas cercanas: sinónimos, ejemplos o explicaciones que el autor haya dado antes o después. Por último, reemplaza la palabra por tu hipótesis de significado y comprueba si la oración sigue teniendo sentido lógico.",
+    "ejemplo_aplicado": "'El perro, famélico tras días sin comer, devoró el alimento en segundos.' 'Famélico' está junto a 'sin comer' y 'devoró el alimento', así que se infiere que significa 'muy hambriento'.",
+    "error_comun": "Se detiene la lectura para buscar cada palabra desconocida en el diccionario, lo cual rompe la comprensión global del argumento y no siempre es posible durante el examen.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-FUN-011"
+    ]
+  },
+  {
+    "id": "LC-FUN-013",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "como_identificar_quien_habla_en_el_texto",
+    "pregunta": "¿Cómo se distingue la voz del autor de una voz que el autor solo cita o representa?",
+    "respuesta_breve": "Buscando marcas explícitas como comillas, verbos de habla ('afirma', 'según', 'sostiene') o cambios que introducen a otra persona.",
+    "explicacion": "Primero busca comillas, cursivas o verbos de habla que anuncien que lo siguiente pertenece a una voz distinta del autor. Luego pregúntate: si quitaras esa cita, ¿el argumento central del texto seguiría siendo el mismo? Si la cita solo funciona como ejemplo o como posición que el autor va a refutar, no representa la opinión del autor.",
+    "ejemplo_aplicado": "'Según el ministro, la reforma beneficiará a todos. Sin embargo, cifras del Banco Mundial muestran lo contrario.' La primera oración es la voz del ministro (citada); la segunda revela la posición real del autor, que la contradice.",
+    "error_comun": "Se le atribuye al autor una opinión que en realidad solo está citando para luego contradecirla, confundiendo la voz citada con la voz propia del texto.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FUN-014",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "como_identificar_quien_habla_en_el_texto",
+    "pregunta": "¿Cómo se identifica a quién le habla el autor (el interlocutor) dentro de un texto?",
+    "respuesta_breve": "Revisando el tono, el vocabulario usado y las referencias directas que el autor asume que el lector ya comparte.",
+    "explicacion": "Primero observa el nivel de vocabulario: términos técnicos sin explicar sugieren un público experto; explicaciones básicas sugieren público general. Luego busca menciones directas ('ustedes', 'estudiantes', 'ciudadanos') que señalen a quién se dirige. Por último, fíjate en qué se da por sentado sin explicar: eso revela qué conocimiento previo espera el autor de su lector.",
+    "ejemplo_aplicado": "'Como sabrán, estudiantes de último semestre, el trámite de grado inicia en la oficina de admisiones.' Esa frase revela que el interlocutor es ese grupo específico, no el público general.",
+    "error_comun": "Se confunde el tema del texto con su destinatario: un texto puede hablar sobre científicos sin estar escrito para científicos.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FUN-015",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "diferencia_entre_resumir_y_opinar_sobre_un_texto",
+    "pregunta": "¿Cuál es la diferencia entre resumir un texto y opinar sobre él?",
+    "respuesta_breve": "Resumir reproduce fielmente lo que el autor dijo; opinar añade una valoración propia del lector sobre ese contenido.",
+    "explicacion": "Al **resumir**, cada frase debe poder rastrearse hasta algo que el texto realmente afirma. Al **opinar**, la frase típica parte de una postura personal ('me parece que...', 'no estoy de acuerdo con...'). Para practicar, separa ambas actividades en momentos distintos: primero resume sin opinar, y solo después, aparte, anota tu opinión.",
+    "ejemplo_aplicado": "Resumen: 'El texto explica que la deforestación redujo la fauna local.' Opinión: 'Me parece alarmante que se permita tanta deforestación.' La primera frase reporta; la segunda valora.",
+    "error_comun": "Se mezclan ambas actividades sin notarlo al parafrasear, agregando adjetivos valorativos que el texto original no tenía.",
+    "dificultad": "baja",
+    "prereqs": [
+      "LC-FUN-008"
+    ]
+  },
+  {
+    "id": "LC-FUN-016",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "diferencia_entre_resumir_y_opinar_sobre_un_texto",
+    "pregunta": "¿Por qué es importante distinguir resumir de opinar al responder preguntas de Lectura Crítica?",
+    "respuesta_breve": "Porque una opción que refleja la opinión del lector en vez del contenido del texto suele ser un distractor diseñado para parecer razonable.",
+    "explicacion": "Antes de elegir una respuesta, verifica si la opción describe lo que el texto afirma o si introduce un juicio que el texto no contiene. Descarta las opciones que 'suenan razonables en general' pero que no están respaldadas por el texto específico. Recuerda: la pregunta debe poder responderse solo con lo que el texto dice, sin usar conocimiento externo sobre el tema.",
+    "ejemplo_aplicado": "Pregunta: '¿Qué afirma el autor sobre la deforestación?' Una opción como 'Es un problema gravísimo que debería prohibirse ya' suena razonable, pero si el texto no usa ese tono, es un distractor basado en opinión, no en lo que el texto dice.",
+    "error_comun": "Se elige la opción que uno mismo cree correcta sobre el tema en general, en vez de la que el texto específicamente sostiene.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-FUN-015"
+    ]
+  },
+  {
+    "id": "LC-FUN-017",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "como_detectar_el_proposito_del_texto",
+    "pregunta": "¿Cómo se detecta el propósito de un texto (informar, persuadir, narrar o entretener)?",
+    "respuesta_breve": "Observando la estructura y el lenguaje: si da datos neutros informa, si defiende una postura persuade, si cuenta eventos narra, si busca divertir entretiene.",
+    "explicacion": "El **propósito comunicativo** es la intención con la que el autor escribió el texto. Pregúntate: ¿hay datos y un tono neutral sin adjetivos valorativos? probablemente informa. ¿Defiende una postura con argumentos e intenta cambiar tu opinión? persuade. ¿Presenta personajes, tiempo y una secuencia de eventos? narra. ¿Juega con el humor o el suspenso sin buscar convencer estrictamente? entretiene.",
+    "ejemplo_aplicado": "'El agua hierve a 100°C al nivel del mar.' Sin adjetivos ni postura, solo un dato verificable: el propósito es informar.",
+    "error_comun": "Se confunde persuadir con informar cuando un texto persuasivo incluye muchos datos reales: los datos pueden ser reales y, aun así, estar seleccionados para defender una postura.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FUN-018",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "como_detectar_el_proposito_del_texto",
+    "pregunta": "¿Un texto puede tener más de un propósito comunicativo a la vez?",
+    "respuesta_breve": "Sí, pero suele haber un propósito dominante que organiza a los demás, y ese es el que hay que identificar en el examen.",
+    "explicacion": "Primero identifica todos los propósitos presentes en el texto (por ejemplo, una narración dentro de un texto persuasivo). Luego pregúntate cuál es el objetivo final del texto completo, no solo de un fragmento aislado. Por último, recuerda que los propósitos secundarios suelen estar al servicio del dominante: una anécdota que narra puede existir solo para persuadir.",
+    "ejemplo_aplicado": "Un artículo de opinión sobre reciclaje abre contando una anécdota personal sobre un río contaminado. La anécdota narra, pero está al servicio de persuadir al lector de apoyar el reciclaje: el propósito dominante es persuadir.",
+    "error_comun": "Se identifica el propósito del fragmento que más se recuerda (por ejemplo, una anécdota emotiva) en vez del propósito que organiza el texto como un todo.",
+    "dificultad": "alta",
+    "prereqs": [
+      "LC-FUN-017"
+    ]
+  },
+  {
+    "id": "LC-FUN-019",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "como_distinguir_dos_conceptos_relacionados",
+    "pregunta": "¿Cómo se distingue con precisión entre dos conceptos que un texto presenta como relacionados pero distintos (por ejemplo, 'archivo' y 'monumento', o 'contacto' y 'compañía')?",
+    "respuesta_breve": "Buscando en el texto la función o el propósito que cada concepto cumple, en vez de solo su definición aislada, y comparando esas dos funciones directamente entre sí.",
+    "explicacion": "Cuando un texto contrasta dos conceptos parecidos, casi nunca basta con memorizar una definición de cada uno por separado. Conviene preguntarse: '¿para qué sirve o qué busca cada uno, según el propio texto?' La diferencia real casi siempre está en el propósito o la consecuencia de cada concepto, no en una diferencia de vocabulario superficial.",
+    "ejemplo_aplicado": "Un texto puede distinguir 'archivo' de 'monumento' diciendo que el primero busca conservar información sobre el pasado, mientras el segundo implica decidir activamente qué se sigue honrando en el presente: la diferencia no es solo de nombre, sino de la función que cada uno cumple.",
+    "error_comun": "Se responde con la definición de diccionario de cada palabra en vez de con la distinción funcional que el texto realmente establece; el examen suele premiar la comparación específica que hace el autor, no el conocimiento general de los términos.",
+    "dificultad": "media",
+    "prereqs": []
+  }
+]

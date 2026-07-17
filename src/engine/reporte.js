@@ -45,6 +45,16 @@ export const DESCRIPCIONES_PATRON = {
   registro_inadecuado: 'Usas un registro (formal/informal) que no corresponde a la situación planteada.',
   significado_cercano: 'Confundes palabras de significado cercano pero no intercambiable en el contexto dado.',
   tiempo_verbal_incorrecto: 'Confundes tiempos verbales: usas uno distinto al que exige el contexto de la oración.',
+
+  // Lectura Crítica (ver src/data/lectura-critica/*.json).
+  informacion_no_presente: 'Marcas como correcta información que el texto nunca menciona, en vez de basarte solo en lo que realmente dice.',
+  sobreinterpretacion: 'Vas más allá de lo que el texto permite concluir, leyendo matices o intenciones que no están respaldados por el contenido.',
+  generalizacion_indebida: 'Conviertes una afirmación puntual o parcial del texto en una conclusión absoluta que el texto no sostiene.',
+  confusion_tesis_antitesis: 'Confundes la postura que el autor defiende con la posición contraria que está refutando o matizando.',
+  inversion_causal: 'Inviertes una relación de causa-efecto, o afirmas lo contrario de lo que el texto realmente concluye.',
+  enfoque_parcial: 'Te quedas con un detalle aislado del texto en vez de considerar su función dentro del sentido global.',
+  fuera_de_alcance_pregunta: 'Traes a la respuesta una idea externa, cierta o no, que el texto no aborda ni la pregunta pide evaluar.',
+  confusion_figura_retorica: 'Confundes un recurso retórico o discursivo con otro parecido, sin verificar el criterio exacto que los distingue.',
 }
 
 // Etiqueta corta por patrón, para la insignia "Trampa: …" en el panel de
@@ -61,4 +71,14 @@ export const ETIQUETAS_PATRON = {
   registro_inadecuado: 'Registro inadecuado',
   significado_cercano: 'Significado cercano',
   tiempo_verbal_incorrecto: 'Tiempo verbal incorrecto',
+
+  // Lectura Crítica (ver src/data/lectura-critica/*.json).
+  informacion_no_presente: 'Información no presente',
+  sobreinterpretacion: 'Sobreinterpretación',
+  generalizacion_indebida: 'Generalización indebida',
+  confusion_tesis_antitesis: 'Confusión tesis/antítesis',
+  inversion_causal: 'Inversión causal',
+  enfoque_parcial: 'Enfoque parcial',
+  fuera_de_alcance_pregunta: 'Fuera de alcance',
+  confusion_figura_retorica: 'Confusión de figura retórica',
 }

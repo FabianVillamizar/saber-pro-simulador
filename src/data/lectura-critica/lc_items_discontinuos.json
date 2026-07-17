@@ -1,0 +1,807 @@
+[
+  {
+    "id": "LC-GRUPO-036",
+    "modulo": "lectura_critica",
+    "tipo_texto": "discontinuo",
+    "genero_texto": "infografia",
+    "fuente": "Infografía original generada para este banco de estudio",
+    "fuente_nota": "El dato estadístico incluido es ilustrativo y ficticio, creado con fines exclusivamente pedagógicos; no representa una cifra oficial verificada.",
+    "visual_descripcion": "Título superior en letras grandes: '5 PASOS PARA REDUCIR EL DESPERDICIO DE ALIMENTOS EN CASA'. Debajo, un recuadro destacado con un ícono de alerta y el texto: 'Un hogar promedio desperdicia cerca del 15% de los alimentos que compra cada mes (dato ilustrativo).' A continuación, cinco pasos numerados en fila o columna, cada uno con un ícono y un texto corto: (1) ícono de lista de compras — 'Planifica el menú semanal antes de ir al mercado'; (2) ícono de nevera — 'Guarda primero adelante los alimentos que vencen antes (regla PEPS: primero en entrar, primero en salir)'; (3) ícono de termómetro — 'Mantén la nevera entre 1°C y 4°C para conservar mejor los alimentos'; (4) ícono de olla — 'Aprovecha las sobras en nuevas preparaciones (sopas, tortillas, caldos)'; (5) ícono de hoja/compost — 'Composta lo que ya no se pueda consumir en vez de botarlo a la caneca común'. Pie de página en letra pequeña: 'Aplicar estos pasos puede reducir el desperdicio de alimentos de un hogar hasta en un 30%, según estimaciones ilustrativas.'",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-101",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar un dato específico dentro de una infografía",
+        "enunciado": "Según la infografía, ¿qué temperatura se recomienda mantener en la nevera para conservar mejor los alimentos?",
+        "opciones": {
+          "A": "Entre 1°C y 4°C",
+          "B": "Entre 10°C y 15°C",
+          "C": "La infografía no menciona ninguna temperatura específica",
+          "D": "Entre -5°C y 0°C"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El paso 3 de la infografía lo indica textualmente junto al ícono del termómetro.",
+        "distractores": {
+          "B": {
+            "explicacion": "Es un rango distinto al indicado explícitamente en la infografía.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "La infografía sí incluye un rango de temperatura específico y preciso.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "Ese rango correspondería a congelación, no al de refrigeración indicado en el texto.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-102",
+        "competencia": "comprension_global",
+        "habilidad": "identificar el principio general detrás de una recomendación específica",
+        "tarjetas_teoria_relacionada": [
+          "LC-FUN-001"
+        ],
+        "enunciado": "¿Cuál es el principio general que organiza el paso 2 de la infografía (guardar primero los alimentos que vencen antes)?",
+        "opciones": {
+          "A": "El principio PEPS (primero en entrar, primero en salir): consumir primero lo que vence antes",
+          "B": "El principio de refrigerar únicamente los alimentos que sean frutas o verduras frescas",
+          "C": "El principio de dar prioridad a los alimentos con certificación orgánica al comprar",
+          "D": "El principio de comprar en grandes cantidades para ahorrar dinero a largo plazo"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La infografía nombra explícitamente el principio 'PEPS' junto a la recomendación del paso 2.",
+        "distractores": {
+          "B": {
+            "explicacion": "El paso 2 no distingue entre tipos de alimentos según su naturaleza.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "La infografía no menciona ningún criterio sobre alimentos orgánicos.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "La infografía no aborda estrategias de compra en volumen; se centra en el orden de consumo.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tipo": "discontinuo"
+  },
+  {
+    "id": "LC-GRUPO-037",
+    "modulo": "lectura_critica",
+    "tipo_texto": "discontinuo",
+    "genero_texto": "tabla",
+    "fuente": "Tabla original generada para este banco de estudio",
+    "fuente_nota": "Todos los datos numéricos de esta tabla son ficticios e ilustrativos, creados con fines exclusivamente pedagógicos; no representan mediciones reales de ninguna ciudad específica.",
+    "visual_descripcion": "Tabla titulada 'Comparación de medios de transporte urbano (datos ilustrativos)', con 4 columnas: 'Medio de transporte', 'Costo promedio por viaje (COP)', 'Tiempo promedio para 8 km (min)', 'Emisiones de CO2 (g por km por pasajero)'. Filas: Bus urbano — 2.700 — 35 — 68. Bicicleta — 0 — 28 — 0. Carro particular (1 pasajero) — 9.500 — 22 — 192. Metro/tren urbano — 3.200 — 18 — 41.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-103",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar el valor mínimo de una variable dentro de una tabla comparativa",
+        "enunciado": "Según la tabla, ¿cuál es el medio de transporte con el menor tiempo promedio para recorrer 8 km?",
+        "opciones": {
+          "A": "El carro particular, con 22 minutos",
+          "B": "El metro/tren urbano, con 18 minutos",
+          "C": "El bus urbano, con 35 minutos",
+          "D": "La bicicleta, con 28 minutos"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "18 minutos es el valor más bajo de la columna 'Tiempo promedio para 8 km', correspondiente al metro/tren urbano.",
+        "distractores": {
+          "A": {
+            "explicacion": "22 minutos es mayor que 18 minutos; no corresponde al valor mínimo.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "35 minutos es el valor más alto de la tabla, no el más bajo.",
+            "patron_trampa": "inversion_causal"
+          },
+          "D": {
+            "explicacion": "28 minutos es mayor que el valor del metro/tren; no es el mínimo de la tabla.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-104",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "evaluar una generalización indebida a partir de datos parciales",
+        "tarjetas_teoria_relacionada": [
+          "LC-REF-006",
+          "LC-REF-026"
+        ],
+        "enunciado": "Alguien concluye, a partir de la tabla, que 'el carro particular siempre es la opción menos conveniente para moverse en la ciudad'. ¿Qué limita esa conclusión?",
+        "opciones": {
+          "A": "La tabla incluye muy poca información sobre el carro particular, apenas una cifra aislada",
+          "B": "La tabla mide solo tres variables (costo, tiempo, emisiones) y no considera otros factores relevantes, como la comodidad del viaje",
+          "C": "La tabla prueba que el carro particular es, en general, la opción más rápida para moverse en la ciudad",
+          "D": "La tabla demuestra que el carro particular resulta, en todos los casos, más barato que la bicicleta"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "La tabla mide solo tres variables específicas; generalizar 'conveniencia' a partir de ellas ignora otros factores relevantes no incluidos en los datos.",
+        "distractores": {
+          "A": {
+            "explicacion": "La tabla sí incluye una fila completa de datos sobre el carro particular.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El carro tiene el segundo tiempo más bajo (22 min), pero el metro es más rápido (18 min); no es el más rápido 'en cualquier circunstancia'.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "D": {
+            "explicacion": "Es lo contrario: el carro particular tiene el costo más alto de la tabla (9.500 COP frente a 0 de la bicicleta).",
+            "patron_trampa": "inversion_causal"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "discontinuo"
+  },
+  {
+    "id": "LC-GRUPO-038",
+    "modulo": "lectura_critica",
+    "tipo_texto": "discontinuo",
+    "genero_texto": "grafico",
+    "fuente": "Gráfico original generado para este banco de estudio",
+    "fuente_nota": "Los datos de este gráfico son ficticios e ilustrativos, creados con fines exclusivamente pedagógicos; no representan mediciones reales de ningún sistema de bicicletas compartidas.",
+    "visual_descripcion": "Gráfico de líneas titulado 'Viajes mensuales promedio en el sistema de bicicletas compartidas (miles), 2019-2024'. Eje X: años 2019, 2020, 2021, 2022, 2023, 2024. Eje Y: número de viajes mensuales promedio, en miles. Valores de la línea: 2019 = 45; 2020 = 22; 2021 = 38; 2022 = 65; 2023 = 89; 2024 = 112. La línea desciende marcadamente entre 2019 y 2020, y luego asciende de forma sostenida hasta 2024.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-105",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar el valor mínimo dentro de una serie temporal representada en un gráfico de líneas",
+        "enunciado": "Según el gráfico, ¿en qué año se registró la menor cantidad de viajes mensuales promedio?",
+        "opciones": {
+          "A": "2022",
+          "B": "2024",
+          "C": "2020",
+          "D": "2019"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El valor de 22 (miles) en 2020 es el punto más bajo de toda la serie representada.",
+        "distractores": {
+          "A": {
+            "explicacion": "2022 tiene un valor de 65, uno de los más altos de la serie.",
+            "patron_trampa": "inversion_causal"
+          },
+          "B": {
+            "explicacion": "2024 tiene el valor más alto de toda la serie (112), no el más bajo.",
+            "patron_trampa": "inversion_causal"
+          },
+          "D": {
+            "explicacion": "2019 tiene un valor de 45, mayor al de 2020.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-106",
+        "competencia": "comprension_global",
+        "habilidad": "identificar la tendencia general representada en un gráfico de líneas",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-015"
+        ],
+        "enunciado": "¿Qué tendencia general muestra el gráfico entre 2020 y 2024?",
+        "opciones": {
+          "A": "Un crecimiento sostenido en los viajes mensuales, tras la caída registrada en 2020",
+          "B": "Un número de viajes muy similar todos los años a partir de 2021, con variaciones mínimas",
+          "C": "Una disminución constante en el número de viajes durante todo el periodo",
+          "D": "Una caída sostenida después de un pico registrado en 2020"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Los valores aumentan de forma constante cada año desde 2020 (22) hasta 2024 (112).",
+        "distractores": {
+          "B": {
+            "explicacion": "Los valores cambian cada año (38, 65, 89, 112); no permanecen iguales.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "Es lo contrario de la tendencia que muestra el gráfico en ese periodo.",
+            "patron_trampa": "inversion_causal"
+          },
+          "D": {
+            "explicacion": "2020 es el punto más bajo, no un pico; la tendencia posterior es de crecimiento, no de caída.",
+            "patron_trampa": "inversion_causal"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tipo": "discontinuo"
+  },
+  {
+    "id": "LC-GRUPO-039",
+    "modulo": "lectura_critica",
+    "tipo_texto": "discontinuo",
+    "genero_texto": "grafico",
+    "fuente": "Gráfico original generado para este banco de estudio",
+    "fuente_nota": "Los porcentajes de este gráfico son ficticios e ilustrativos, creados con fines exclusivamente pedagógicos; no representan un hogar real.",
+    "visual_descripcion": "Gráfico circular (de torta) titulado 'Distribución del presupuesto mensual de un hogar promedio (datos ilustrativos)', con seis categorías y sus porcentajes: Vivienda (arriendo/servicios) = 35%; Alimentación = 28%; Transporte = 12%; Educación = 10%; Salud = 8%; Ocio y otros = 7%. Cada categoría se representa como una porción del círculo proporcional a su porcentaje, con una leyenda de colores al lado.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-107",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar un valor porcentual específico dentro de un gráfico circular",
+        "enunciado": "Según el gráfico, ¿qué porcentaje del presupuesto mensual se destina a alimentación?",
+        "opciones": {
+          "A": "8%",
+          "B": "35%",
+          "C": "28%",
+          "D": "12%"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El gráfico asigna explícitamente 28% a la categoría 'Alimentación'.",
+        "distractores": {
+          "A": {
+            "explicacion": "8% corresponde a 'Salud'.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "35% corresponde a la categoría 'Vivienda', no a 'Alimentación'.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "12% corresponde a 'Transporte'.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-108",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "distinguir entre proporción relativa y valor absoluto en un gráfico de porcentajes",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-035"
+        ],
+        "enunciado": "Si el ingreso mensual del hogar aumentara un 20%, pero los porcentajes de la gráfica se mantuvieran exactamente iguales, ¿qué se puede concluir sobre el gasto en salud?",
+        "opciones": {
+          "A": "El gasto en salud aumentaría en pesos, aunque su proporción del presupuesto seguiría siendo 8%",
+          "B": "El porcentaje destinado a salud aumentaría automáticamente por encima del 8% actual",
+          "C": "El gasto en salud seguiría siendo la misma cantidad de pesos que se gastaba antes",
+          "D": "El gráfico no ofrece información suficiente para calcular un cambio relacionado con el ingreso"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Si el ingreso total sube y el porcentaje se mantiene igual, la cantidad de dinero asignada a esa categoría también sube proporcionalmente, aunque el porcentaje no cambie.",
+        "distractores": {
+          "B": {
+            "explicacion": "El enunciado especifica que los porcentajes se mantienen exactamente iguales, por lo que el 8% no cambiaría.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "Si el ingreso total aumenta y el porcentaje se mantiene, el valor absoluto en pesos también debe aumentar.",
+            "patron_trampa": "inversion_causal"
+          },
+          "D": {
+            "explicacion": "El gráfico sí permite este cálculo si se conoce el ingreso total, aplicando el porcentaje correspondiente.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "discontinuo"
+  },
+  {
+    "id": "LC-GRUPO-040",
+    "modulo": "lectura_critica",
+    "tipo_texto": "discontinuo",
+    "genero_texto": "anuncio",
+    "fuente": "Anuncio publicitario original generado para este banco de estudio",
+    "fuente_nota": "Producto y marca ficticios, creados exclusivamente para este ejercicio; cualquier parecido con una marca real es coincidencia.",
+    "visual_descripcion": "Anuncio publicitario de una bebida llamada 'NutriFrut'. Imagen central: frutas (naranja, mango, fresa) salpicando dentro de un vaso, con la botella del producto en primer plano. Eslogan en letras grandes y negrita: '100% DE FRUTA. 100% DE VIDA.' Debajo, en letra mediana: 'Sin azúcar añadida. Hecho con frutas seleccionadas de nuestros cultivos aliados.' En una esquina inferior, un sello circular con el texto: 'Una porción de fruta en cada vaso.'",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-109",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar una característica del producto explícitamente mencionada en el anuncio",
+        "enunciado": "Según el anuncio, ¿qué característica del producto se destaca explícitamente en el texto?",
+        "opciones": {
+          "A": "Que es el jugo más barato del mercado",
+          "B": "Que no tiene azúcar añadida y que está hecho con frutas seleccionadas",
+          "C": "Que se puede conseguir en cualquier país del mundo",
+          "D": "Que contiene vitaminas añadidas artificialmente"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto bajo el eslogan lo afirma directamente: 'Sin azúcar añadida. Hecho con frutas seleccionadas de nuestros cultivos aliados.'",
+        "distractores": {
+          "A": {
+            "explicacion": "El anuncio no menciona ningún precio ni comparación de costos.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "No hay ninguna mención a la disponibilidad geográfica del producto.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "El anuncio no menciona vitaminas añadidas artificialmente; solo habla de frutas seleccionadas.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-110",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "identificar una inferencia errónea que un anuncio puede inducir en el lector",
+        "tarjetas_teoria_relacionada": [
+          "LC-REF-013",
+          "LC-REF-015"
+        ],
+        "enunciado": "El eslogan '100% DE FRUTA. 100% DE VIDA.' puede inducir al lector a pensar erróneamente que...",
+        "opciones": {
+          "A": "el producto no contiene azúcares naturales de ningún tipo, ni siquiera los propios de la fruta",
+          "B": "el producto está hecho en su totalidad de fruta, cuando en realidad es una frase publicitaria sin porcentaje verificable",
+          "C": "el producto contiene, en secreto, conservantes artificiales que no se mencionan en el empaque",
+          "D": "el producto es recomendado activamente por nutricionistas certificados a nivel nacional"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El eslogan usa un lenguaje publicitario ('100% de vida') que no es una cifra verificable, y puede generar la impresión de una composición exacta que el texto no demuestra con datos.",
+        "distractores": {
+          "A": {
+            "explicacion": "El anuncio aclara 'sin azúcar añadida', lo cual no niega la presencia de azúcares naturales propios de la fruta; el error de interpretación estaría en confundir ambos conceptos, no en el sentido descrito en esta opción.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          },
+          "C": {
+            "explicacion": "El anuncio no sugiere en ningún momento la presencia de conservantes; es lo opuesto a la imagen que construye.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "El anuncio no menciona ninguna recomendación profesional o certificación nutricional.",
+            "patron_trampa": "sobreinterpretacion"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "discontinuo"
+  },
+  {
+    "id": "LC-GRUPO-041",
+    "modulo": "lectura_critica",
+    "tipo_texto": "discontinuo",
+    "genero_texto": "comic",
+    "fuente": "Tira cómica original generada para este banco de estudio",
+    "fuente_nota": "Personajes e historieta completamente originales, creados para este ejercicio; no reproduce ninguna tira cómica existente.",
+    "visual_descripcion": "Tira cómica de tres viñetas con un niño llamado Tobías y su mamá. Viñeta 1: Tobías muestra un pez dorado en una pecera redonda y dice: 'Mamá, le puse de nombre Internet a mi pez.' Viñeta 2: La mamá, con cara de extrañeza, pregunta: '¿Por qué Internet?'; Tobías, mirando al pez dar vueltas en la pecera, responde: 'Porque da muchas vueltas, pero nunca sale del mismo lugar.' Viñeta 3: El pez, dibujado con cara de fastidio dando otra vuelta en la pecera, piensa en un globo de pensamiento: 'Preferiría que me hubiera llamado Playa.'",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-111",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar la razón explícita que da un personaje para una decisión dentro de una tira cómica",
+        "enunciado": "Según la tira cómica, ¿por qué Tobías le puso 'Internet' de nombre a su pez?",
+        "opciones": {
+          "A": "Porque el pez da muchas vueltas, pero nunca sale del mismo lugar",
+          "B": "Porque el pez fue comprado por internet",
+          "C": "Porque el pez tiene el mismo color que el logo de una aplicación",
+          "D": "Porque su mamá se lo sugirió"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Tobías lo explica textualmente en la viñeta 2.",
+        "distractores": {
+          "B": {
+            "explicacion": "La tira no menciona cómo fue adquirido el pez.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "No se menciona ningún logo ni color específico del pez en relación con una aplicación.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "Es la mamá quien pregunta por el nombre, no quien lo sugiere; la idea es de Tobías.",
+            "patron_trampa": "inversion_causal"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-112",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "interpretar la crítica implícita en una comparación humorística",
+        "tarjetas_teoria_relacionada": [
+          "LC-FIG-001"
+        ],
+        "enunciado": "¿Qué idea busca destacar el autor al comparar el comportamiento del pez con el nombre 'Internet'?",
+        "opciones": {
+          "A": "Una defensa entusiasta del uso de las redes sociales en la vida diaria",
+          "B": "Una recomendación técnica detallada sobre cómo cuidar peces domésticos en casa",
+          "C": "Una crítica directa hacia el alto precio de las conexiones a internet en el país",
+          "D": "Una crítica irónica hacia la sensación de estar siempre 'navegando' sin llegar a ningún lugar concreto"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "La comparación entre 'dar vueltas sin salir del mismo lugar' y el nombre 'Internet' construye una ironía sobre la experiencia de navegar sin rumbo ni propósito claro.",
+        "distractores": {
+          "A": {
+            "explicacion": "El tono de la tira es crítico e irónico, no una defensa sin reservas del uso de redes.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          },
+          "B": {
+            "explicacion": "La tira no ofrece ninguna recomendación técnica sobre el cuidado de peces; es un recurso humorístico, no informativo.",
+            "patron_trampa": "fuera_de_alcance_pregunta"
+          },
+          "C": {
+            "explicacion": "No hay ninguna mención al costo de las conexiones a internet.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "discontinuo"
+  },
+  {
+    "id": "LC-GRUPO-042",
+    "modulo": "lectura_critica",
+    "tipo_texto": "discontinuo",
+    "genero_texto": "tabla",
+    "fuente": "Tabla original generada para este banco de estudio",
+    "fuente_nota": "Los programas y datos de esta tabla son ficticios e ilustrativos, creados con fines exclusivamente pedagógicos; no representan ofertas académicas reales.",
+    "visual_descripcion": "Tabla titulada 'Comparación de tres programas de posgrado en el extranjero (datos ilustrativos)', con columnas: 'Programa', 'Duración', 'Costo aproximado (USD/año)', 'Requisito de idioma', 'Financiación disponible'. Filas: Programa A — 2 años — 18.000 — Inglés (nivel B2) — Becas parciales (hasta 40%). Programa B — 1 año — 25.000 — Inglés (nivel C1) — Sin financiación propia. Programa C — 3 años — 9.000 — Portugués (nivel B1) — Becas completas para investigación.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-113",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar un requisito específico asociado a una fila de una tabla",
+        "enunciado": "Según la tabla, ¿qué programa exige un nivel de portugués B1?",
+        "opciones": {
+          "A": "Ninguno de los programas exige portugués",
+          "B": "Programa A",
+          "C": "Programa B",
+          "D": "Programa C"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "La fila del Programa C indica explícitamente 'Portugués (nivel B1)' en la columna de requisito de idioma.",
+        "distractores": {
+          "A": {
+            "explicacion": "El Programa C sí exige explícitamente portugués B1.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "El Programa A exige inglés B2, no portugués.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El Programa B exige inglés C1, no portugués.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-114",
+        "competencia": "comprension_global",
+        "habilidad": "integrar dos criterios distintos de una tabla para identificar la mejor opción",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-015"
+        ],
+        "enunciado": "Para alguien que busca la opción con menor costo de matrícula y con posibilidad de financiación completa, ¿cuál sería, según la tabla, la opción más conveniente?",
+        "opciones": {
+          "A": "Ninguno de los tres programas ofrece algún tipo de financiación disponible",
+          "B": "Programa C, por su menor costo (9.000 USD/año) y sus becas completas para investigación",
+          "C": "Programa A, porque ofrece becas parciales de hasta el 40% del costo total",
+          "D": "Programa B, porque es el único que no exige ningún nivel de idioma extranjero"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El Programa C combina el menor costo de los tres (9.000 USD/año) con la única financiación completa disponible en la tabla.",
+        "distractores": {
+          "A": {
+            "explicacion": "Dos de los tres programas sí ofrecen algún tipo de financiación, según la tabla.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El Programa A tiene solo financiación parcial (hasta 40%), no completa, y un costo mayor que el Programa C.",
+            "patron_trampa": "enfoque_parcial"
+          },
+          "D": {
+            "explicacion": "El Programa B sí requiere un nivel de idioma (inglés C1) y además no ofrece financiación propia.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tipo": "discontinuo"
+  },
+  {
+    "id": "LC-GRUPO-043",
+    "modulo": "lectura_critica",
+    "tipo_texto": "discontinuo",
+    "genero_texto": "grafico",
+    "fuente": "Gráfico original generado para este banco de estudio",
+    "fuente_nota": "Los porcentajes de este gráfico son ficticios e ilustrativos, creados con fines exclusivamente pedagógicos; no representan una encuesta real.",
+    "visual_descripcion": "Gráfico de barras verticales titulado 'Porcentaje de personas que leen al menos un libro al mes, por grupo de edad (encuesta ilustrativa)'. Eje X: grupos de edad '12-17', '18-25', '26-40', '41-60', '60+'. Eje Y: porcentaje que afirma leer al menos un libro al mes. Valores de las barras: 12-17 = 42%; 18-25 = 35%; 26-40 = 48%; 41-60 = 55%; 60+ = 61%.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-115",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar el valor máximo dentro de un gráfico de barras",
+        "enunciado": "Según el gráfico, ¿qué grupo de edad presenta el porcentaje más alto de lectura mensual?",
+        "opciones": {
+          "A": "El grupo de 18 a 25 años, con 35%",
+          "B": "El grupo de 12 a 17 años, con 42%",
+          "C": "El grupo de 60 años o más, con 61%",
+          "D": "El grupo de 26 a 40 años, con 48%"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "61% es el valor más alto entre todas las barras del gráfico.",
+        "distractores": {
+          "A": {
+            "explicacion": "35% es, de hecho, el valor más bajo del gráfico, no el más alto.",
+            "patron_trampa": "inversion_causal"
+          },
+          "B": {
+            "explicacion": "42% no es el valor más alto; hay tres grupos con porcentajes mayores.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "48% es menor que el 55% y el 61% de los grupos de mayor edad.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-116",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "evaluar una inferencia causal no sustentada por los datos de un gráfico",
+        "tarjetas_teoria_relacionada": [
+          "LC-REF-012"
+        ],
+        "enunciado": "Alguien concluye, a partir del gráfico, que 'las personas de 18 a 25 años no leen por falta de interés en los libros'. ¿Qué problema tiene esa conclusión?",
+        "opciones": {
+          "A": "El gráfico respalda esa conclusión con datos directos sobre las motivaciones reales de los lectores",
+          "B": "El gráfico muestra, en realidad, que ese grupo tiene el porcentaje de lectura más alto, no el más bajo",
+          "C": "El gráfico solo muestra el porcentaje que reporta leer al menos un libro al mes, sin indicar las razones detrás de esa cifra",
+          "D": "El gráfico no incluye ninguna barra ni dato específico sobre el grupo de 18 a 25 años"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El gráfico mide un porcentaje de lectura reportada, no las razones detrás de ese dato; atribuir la cifra a 'falta de interés' es una inferencia causal que los datos no permiten sostener por sí solos.",
+        "distractores": {
+          "A": {
+            "explicacion": "El gráfico no incluye ninguna variable sobre motivaciones o razones; solo mide el porcentaje de lectura reportada.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "Es correcto que ese grupo tiene el porcentaje más bajo, pero esto no es la razón por la que la conclusión sobre 'falta de interés' es problemática; el problema real es la inferencia causal no sustentada.",
+            "patron_trampa": "enfoque_parcial"
+          },
+          "D": {
+            "explicacion": "El gráfico sí incluye una barra específica con el valor de ese grupo (35%).",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "discontinuo"
+  },
+  {
+    "id": "LC-GRUPO-044",
+    "modulo": "lectura_critica",
+    "tipo_texto": "discontinuo",
+    "genero_texto": "infografia",
+    "fuente": "Infografía original generada para este banco de estudio",
+    "fuente_nota": "El dato de tiempo de proceso es ilustrativo y ficticio, creado con fines exclusivamente pedagógicos.",
+    "visual_descripcion": "Infografía titulada 'EL VIAJE DE UNA BOTELLA DE PLÁSTICO RECICLADA', organizada como una línea de tiempo con seis etapas, cada una con un ícono y un texto breve: (1) ícono de caneca de reciclaje — 'Se deposita la botella limpia y vacía en el punto de reciclaje'; (2) ícono de camión — 'Un camión recolector la transporta junto con otros materiales reciclables a una planta de clasificación'; (3) ícono de cinta transportadora — 'En la planta, máquinas y personas separan el plástico según su tipo (PET, HDPE, etc.)'; (4) ícono de triturador — 'El plástico separado se tritura en pequeños fragmentos y se lava'; (5) ícono de fábrica — 'Los fragmentos limpios se funden y se convierten en gránulos, la materia prima para nuevos productos'; (6) ícono de camiseta/textil — 'Con esos gránulos se fabrican productos nuevos, como fibra textil, envases o piezas plásticas'. Pie de página: 'Una botella puede tardar entre 6 y 8 semanas en completar todo este proceso, desde que se deposita hasta que se convierte en un nuevo producto (dato ilustrativo).'",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-117",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar el orden explícito de un proceso representado en una infografía",
+        "enunciado": "Según la infografía, ¿qué ocurre inmediatamente después de que la botella es transportada a la planta de clasificación?",
+        "opciones": {
+          "A": "El plástico se convierte directamente en un producto nuevo",
+          "B": "La botella se deposita en el punto de reciclaje",
+          "C": "El plástico se derrite sin haber sido separado antes",
+          "D": "Máquinas y personas separan el plástico según su tipo"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "La etapa 3 de la infografía describe exactamente esta acción, inmediatamente después del transporte descrito en la etapa 2.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esa es la etapa final del proceso (etapa 6), no la que sigue inmediatamente al transporte.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "Ese es el primer paso del proceso, anterior al transporte, no posterior a él.",
+            "patron_trampa": "inversion_causal"
+          },
+          "C": {
+            "explicacion": "La infografía indica que el plástico se separa antes de triturarse y fundirse, no que se derrita sin clasificación previa.",
+            "patron_trampa": "inversion_causal"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-118",
+        "competencia": "comprension_global",
+        "habilidad": "identificar la idea general que organiza una infografía de proceso",
+        "tarjetas_teoria_relacionada": [
+          "LC-FUN-001"
+        ],
+        "enunciado": "¿Qué idea general organiza toda la infografía?",
+        "opciones": {
+          "A": "Que solo un tipo de plástico específico puede reciclarse en todo el mundo actualmente",
+          "B": "Que el reciclaje de una botella es un proceso de varias etapas, desde su depósito hasta volverse materia prima nueva",
+          "C": "Que el proceso de reciclaje ocurre casi de forma instantánea, sin pasos intermedios reales",
+          "D": "Que la mayoría de las botellas plásticas terminan, de todas formas, en un relleno sanitario"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "La estructura completa de la infografía, organizada como línea de tiempo de seis etapas, desarrolla exactamente esta idea general.",
+        "distractores": {
+          "A": {
+            "explicacion": "La infografía menciona más de un tipo de plástico (PET, HDPE), sin afirmar que sea el único reciclable en general.",
+            "patron_trampa": "sobreinterpretacion"
+          },
+          "C": {
+            "explicacion": "La infografía describe explícitamente seis etapas secuenciales, no un proceso instantáneo.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "Es lo contrario de lo que describe la infografía, que muestra un proceso de reciclaje exitoso.",
+            "patron_trampa": "inversion_causal"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tipo": "discontinuo"
+  },
+  {
+    "id": "LC-GRUPO-045",
+    "modulo": "lectura_critica",
+    "tipo_texto": "discontinuo",
+    "genero_texto": "grafico",
+    "fuente": "Gráfico original generado para este banco de estudio",
+    "fuente_nota": "Los valores de emisiones son ilustrativos y aproximados, creados con fines exclusivamente pedagógicos; no deben tomarse como cifras oficiales definitivas.",
+    "visual_descripcion": "Gráfico de barras horizontales titulado 'Emisiones estimadas de CO2 equivalente por fuente de energía (gramos por kWh generado) — datos ilustrativos'. Fuentes de energía y valores: Carbón = 820; Gas natural = 490; Solar fotovoltaica = 45; Hidroeléctrica = 24; Nuclear = 12; Eólica = 11.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-119",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar el valor mínimo dentro de un gráfico de barras comparativo",
+        "enunciado": "Según el gráfico, ¿cuál es la fuente de energía con menor emisión estimada de CO2 por kWh generado?",
+        "opciones": {
+          "A": "La energía nuclear, con 12 gramos por kWh",
+          "B": "La energía eólica, con 11 gramos por kWh",
+          "C": "La energía solar fotovoltaica, con 45 gramos por kWh",
+          "D": "La energía hidroeléctrica, con 24 gramos por kWh"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "11 gramos por kWh es el valor más bajo de todas las barras del gráfico, correspondiente a la energía eólica.",
+        "distractores": {
+          "A": {
+            "explicacion": "12 gramos es un valor cercano pero ligeramente superior al de la energía eólica (11 gramos).",
+            "patron_trampa": "enfoque_parcial"
+          },
+          "C": {
+            "explicacion": "45 gramos es un valor considerablemente más alto que el de la energía eólica.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "24 gramos es mayor que el valor de la energía eólica y también que el de la nuclear.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-120",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "evaluar la limitación de un gráfico de una sola variable para sostener una conclusión general",
+        "tarjetas_teoria_relacionada": [
+          "LC-REF-026"
+        ],
+        "enunciado": "El gráfico muestra que la energía nuclear tiene una emisión de CO2 por kWh similar a la eólica y menor que la solar. ¿Qué limita usar solo este gráfico para concluir que la energía nuclear es la mejor alternativa energética en términos generales?",
+        "opciones": {
+          "A": "El gráfico demuestra que la energía nuclear casi no emite CO2 en ningún escenario posible",
+          "B": "El gráfico no incluye ninguna barra ni cifra específica sobre la energía nuclear",
+          "C": "El gráfico solo mide un aspecto (emisiones por kWh) y no incluye otras variables relevantes, como el costo o la gestión de residuos",
+          "D": "El gráfico sugiere que todas las fuentes de energía terminan siendo, en la práctica, muy parecidas"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El gráfico mide una sola variable (emisiones por kWh); concluir que una fuente es 'la mejor en general' a partir de un solo criterio ignora otros factores relevantes no representados en los datos.",
+        "distractores": {
+          "A": {
+            "explicacion": "El gráfico muestra un valor de 12 gramos, no de cero, para la energía nuclear.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "El gráfico sí incluye una barra específica para la energía nuclear.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "Los valores del gráfico son claramente distintos entre las fuentes de energía representadas.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "discontinuo"
+  },
+  {
+    "id": "LC-GRUPO-046",
+    "modulo": "lectura_critica",
+    "tipo_texto": "discontinuo",
+    "genero_texto": "comic",
+    "fuente": "Tira cómica original generada para este banco de estudio",
+    "fuente_nota": "Personajes e historieta completamente originales, creados para este ejercicio; no reproduce ninguna tira cómica existente.",
+    "visual_descripcion": "Tira cómica de tres viñetas con un personaje llamado Marcela frente a su computador. Viñeta 1: Marcela, sentada frente a la pantalla, dice: 'Voy a trabajar concentrada las próximas dos horas, sin distracciones.' Viñeta 2: Su teléfono suena con una notificación; Marcela lo mira y dice: 'Solo reviso esto un segundo.' Viñeta 3: Un reloj de pared en el fondo muestra que han pasado dos horas; Marcela sigue mirando el teléfono, rodeada ahora de varias tazas de café vacías sobre el escritorio, y dice: '¿Cómo que ya pasaron dos horas?'",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-121",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar la acción de un personaje inmediatamente posterior a una decisión declarada",
+        "enunciado": "Según la tira cómica, ¿qué hace Marcela justo después de anunciar que trabajará concentrada sin distracciones?",
+        "opciones": {
+          "A": "Se va a dormir la siesta de inmediato, sin empezar a trabajar",
+          "B": "Apaga por completo su teléfono y lo guarda en un cajón",
+          "C": "Revisa su teléfono al sonar una notificación, diciendo que solo lo hará 'un segundo'",
+          "D": "Termina todo su trabajo mucho antes de lo previsto originalmente"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "La viñeta 2 muestra exactamente esta acción inmediatamente después del anuncio de la viñeta 1.",
+        "distractores": {
+          "A": {
+            "explicacion": "La tira no menciona en ningún momento que Marcela se vaya a dormir.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "Es lo contrario: Marcela revisa el teléfono en vez de apagarlo.",
+            "patron_trampa": "inversion_causal"
+          },
+          "D": {
+            "explicacion": "La viñeta final sugiere lo contrario: sorpresa por el tiempo transcurrido sin haber avanzado como esperaba.",
+            "patron_trampa": "inversion_causal"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-122",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "interpretar la crítica implícita en el contraste entre la intención de un personaje y el desenlace de una escena",
+        "tarjetas_teoria_relacionada": [
+          "LC-FIG-013"
+        ],
+        "enunciado": "¿Qué crítica o idea general transmite la tira cómica mediante el contraste entre la intención inicial de Marcela y la escena final?",
+        "opciones": {
+          "A": "Sugiere que trabajar frente a un computador suele ser, casi siempre, improductivo",
+          "B": "Ironiza sobre lo fácil que una pequeña distracción puede consumir mucho más tiempo del que uno planea",
+          "C": "Recomienda técnicamente cómo configurar y silenciar las notificaciones de un teléfono",
+          "D": "Celebra abiertamente la productividad que Marcela logró durante esas dos horas"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El contraste entre la intención declarada ('trabajar concentrada') y la escena final (dos horas perdidas, sorpresa de Marcela) construye la ironía central de la tira.",
+        "distractores": {
+          "A": {
+            "explicacion": "La crítica se dirige a la distracción puntual, no a una afirmación general sobre el trabajo frente a un computador.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "C": {
+            "explicacion": "La tira no ofrece ninguna instrucción técnica sobre configuración de notificaciones.",
+            "patron_trampa": "fuera_de_alcance_pregunta"
+          },
+          "D": {
+            "explicacion": "Es lo contrario: la escena final muestra pérdida de tiempo, no productividad lograda.",
+            "patron_trampa": "inversion_causal"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "discontinuo"
+  }
+]

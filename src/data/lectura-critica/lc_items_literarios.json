@@ -1,0 +1,1295 @@
+[
+  {
+    "id": "LC-GRUPO-001",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_literario",
+    "genero_texto": "poesia",
+    "fuente": "Gustavo Adolfo Bécquer, Rimas, Rima LIII, publicación póstuma, 1871",
+    "fuente_nota": "",
+    "texto_base": "Volverán las oscuras golondrinas\nen tu balcón sus nidos a colgar,\ny otra vez con el ala a sus cristales\njugando llamarán.\n\nPero aquellas que el vuelo refrenaban\ntu hermosura y mi dicha a contemplar,\naquellas que aprendieron nuestros nombres....\nésas... ¡no volverán!\n\nVolverán las tupidas madreselvas\nde tu jardín las tapias a escalar\ny otra vez a la tarde aún más hermosas\nsus flores se abrirán.\n\nPero aquellas cuajadas de rocío\ncuyas gotas mirábamos temblar\ny caer como lágrimas del día....\nésas... ¡no volverán!\n\nVolverán del amor en tus oídos\nlas palabras ardientes a sonar,\ntu corazón de su profundo sueño\ntal vez despertará.\n\nPero mudo y absorto y de rodillas\ncomo se adora a Dios ante su altar,\ncomo yo te he querido..., desengáñate,\nasí... ¡no te querrán!",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-001",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar información explícita dentro de una estrofa",
+        "enunciado": "Según la primera estrofa, ¿qué habían aprendido aquellas golondrinas específicas que 'no volverán'?",
+        "opciones": {
+          "A": "A construir nidos más resistentes",
+          "B": "Nuestros nombres",
+          "C": "El camino de regreso al balcón",
+          "D": "A cantar como el hablante"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto dice explícitamente 'aquellas que aprendieron nuestros nombres', distinguiendo a esas golondrinas particulares de las golondrinas en general, que sí volverán.",
+        "distractores": {
+          "A": {
+            "explicacion": "No hay ninguna mención a la resistencia de los nidos; es un dato inventado.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El poema no habla de ningún camino de regreso; se confunde con el hecho de que otras golondrinas sí volverán a colgar nidos.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "El canto aparece en la tercera estrofa referido a 'palabras de amor', no a que las golondrinas cantaran como el hablante.",
+            "patron_trampa": "fuera_de_alcance_pregunta"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-002",
+        "competencia": "comprension_global",
+        "habilidad": "reconocer la estructura que organiza el poema completo",
+        "tarjetas_teoria_relacionada": [
+          "LC-FIG-026"
+        ],
+        "enunciado": "¿Cuál es la estructura que organiza las tres estrofas dobles del poema?",
+        "opciones": {
+          "A": "Cada par de estrofas describe una estación del año distinta en la que floreció el amor",
+          "B": "Cada par de estrofas contrapone un fenómeno natural que volverá cíclicamente con un aspecto irrepetible del amor pasado",
+          "C": "Cada par de estrofas narra un evento cronológico distinto dentro de la relación de la pareja",
+          "D": "Cada par de estrofas presenta una queja distinta contra la persona amada"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "En los tres casos (golondrinas, madreselvas, palabras de amor) se afirma que el fenómeno natural 'volverá', para luego contrastarlo con algo específico de esa relación que 'no volverá'.",
+        "distractores": {
+          "A": {
+            "explicacion": "El poema no organiza sus estrofas por estaciones; usa fenómenos naturales como metáfora de la repetición, no como marcadores temporales.",
+            "patron_trampa": "sobreinterpretacion"
+          },
+          "C": {
+            "explicacion": "No hay una narración cronológica de eventos de la relación; el poema es reflexivo, no narrativo.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "D": {
+            "explicacion": "El poema no reprocha a la persona amada; expresa pérdida y una afirmación sobre la exclusividad de ese amor.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-003",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "detectar el supuesto no explícito detrás de una afirmación categórica",
+        "tarjetas_teoria_relacionada": [
+          "LC-REF-001",
+          "LC-REF-002"
+        ],
+        "enunciado": "El hablante concluye que nadie volverá a amar 'así' a la persona a quien se dirige. ¿Qué supuesto no explícito sostiene esa afirmación?",
+        "opciones": {
+          "A": "Que la persona amada, después de esta despedida, ya no volverá a sentir amor por nadie más",
+          "B": "Que el paso del tiempo, tarde o temprano, terminará por curar la pérdida que siente el hablante",
+          "C": "Que las golondrinas que regresan cada año simbolizan, en el fondo, la infidelidad de la persona amada",
+          "D": "Que su forma silenciosa y casi religiosa de amar es única e irrepetible en cualquier otro amante futuro"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "La afirmación final ('así... ¡no te querrán!') es una predicción sobre el futuro que el hablante no puede comprobar; depende del supuesto de que su forma de amar es única, no de una evidencia dada en el texto.",
+        "distractores": {
+          "A": {
+            "explicacion": "El poema no afirma nada sobre la capacidad de amar de la persona destinataria, solo sobre cómo será amada.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "El tono del poema es de dolor persistente, no de resolución o cura del sufrimiento.",
+            "patron_trampa": "inversion_causal"
+          },
+          "C": {
+            "explicacion": "Las golondrinas funcionan como símbolo de lo que se repite en la naturaleza, no de infidelidad; es una lectura que el texto no sustenta.",
+            "patron_trampa": "sobreinterpretacion"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_literario"
+  },
+  {
+    "id": "LC-GRUPO-002",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_literario",
+    "genero_texto": "poesia",
+    "fuente": "José Asunción Silva, Nocturno III ('Una noche'), publicación póstuma, 1908",
+    "fuente_nota": "",
+    "texto_base": "Una noche\nUna noche toda llena de perfumes, de murmullos y de música de alas,\nUna noche\nEn que ardían en la sombra nupcial y húmeda las luciérnagas fantásticas,\nA mi lado, lentamente, contra mí ceñida toda,\nMuda y pálida\nComo si un presentimiento de amarguras infinitas\nHasta el más secreto fondo de tus fibras se agitara,\nPor la senda que atraviesa la llanura florecida\nCaminabas,\nY la luna llena\nPor los cielos azulosos, infinitos y profundos esparcía su luz blanca.\nY tu sombra\nFina y lánguida,\nY mi sombra\nPor los rayos de la luna proyectadas\nSobre las arenas tristes\nDe la senda se juntaban\nY eran una\nY eran una\nY eran una sola sombra larga!\nY eran una sola sombra larga!\nY eran una sola sombra larga!\nEsta noche\nSolo, el alma\nLlena de las infinitas amarguras y agonías de tu muerte,\nSeparado de ti misma por la sombra, por el tiempo y la distancia,\nPor el infinito negro\nDonde nuestra voz no alcanza,\nSolo y mudo\nPor la senda caminaba.\nY se oían los ladridos de los perros a la luna,\nA la luna pálida,\nY el chillido\nDe las ranas\nSentí frío. Era el frío que tenían en tu alcoba\nTus mejillas y tus sienes y tus manos adoradas\nEntre las blancuras níveas\nDe las mortuorias sábanas.\nEra el frío del sepulcro, era el frío de la muerte,\nEra el frío de la nada.\nY mi sombra\nPor los rayos de la luna proyectada\nIba sola\nIba sola\nIba sola por la estepa solitaria.\nY tu sombra esbelta y ágil;\nFina y lánguida\nComo en esa noche tibia de la muerta primavera,\nComo en esa noche llena de perfumes, de murmullos y de música de alas,\nSe acercó y marchó con ella,\nSe acercó y marchó con ella,\nSe acercó y marchó con ella... ¡Oh las sombras enlazadas!\n¡Oh las sombras que se juntan y se buscan en las noches de negruras y de lágrimas!...",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-004",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar un hecho descrito literalmente en el texto",
+        "enunciado": "En la primera parte del poema, ¿qué ocurre con las dos sombras (la del hablante y la de su acompañante) durante el paseo nocturno?",
+        "opciones": {
+          "A": "Se separaban cada vez que la luna se ocultaba",
+          "B": "Se juntaban y se convertían en una sola sombra larga",
+          "C": "Competían por proyectarse más grande que la otra",
+          "D": "Desaparecían por completo bajo los árboles"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto repite tres veces 'y eran una sola sombra larga', describiendo literalmente la fusión de ambas sombras proyectadas por la luna.",
+        "distractores": {
+          "A": {
+            "explicacion": "No se menciona que la luna se ocultara ni que las sombras se separaran en esa parte del poema.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "No hay ninguna idea de competencia entre las sombras; se fusionan, no compiten.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "El texto no habla de árboles ni de que las sombras desaparecieran.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-005",
+        "competencia": "comprension_global",
+        "habilidad": "comprender el contraste estructural entre las dos partes del poema",
+        "tarjetas_teoria_relacionada": [
+          "LC-FIG-026"
+        ],
+        "enunciado": "¿Qué cambio central se presenta entre la primera parte del poema ('Una noche') y la segunda ('Esta noche')?",
+        "opciones": {
+          "A": "En la primera parte el hablante camina acompañado y feliz; en la segunda camina solo, de luto, y la sombra de la persona amada, ya muerta, vuelve a unirse a la suya",
+          "B": "En la primera parte el hablante camina bajo la luz fría de la luna llena; en la segunda camina bajo un calor húmedo que anuncia la primavera",
+          "C": "En la primera parte el hablante todavía duda del amor que siente por la mujer; en la segunda lo reconoce por completo y decide declararse",
+          "D": "En la primera parte el hablante camina por la llanura junto a un río; en la segunda se ha mudado definitivamente a vivir a la ciudad"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El poema contrasta una noche de amor compartido con otra noche de soledad y duelo ('las agonías de tu muerte'), en la que la sombra de la amada reaparece.",
+        "distractores": {
+          "B": {
+            "explicacion": "Es al revés de lo que el poema sugiere ambientalmente, y de todas formas la temperatura no es el eje del contraste.",
+            "patron_trampa": "inversion_causal"
+          },
+          "C": {
+            "explicacion": "El poema no sugiere en ningún momento ausencia de amor; al contrario, el amor y el duelo son el eje central de ambas partes.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "El poema no distingue entre ciudad y campo; ambas escenas ocurren en un paisaje similar (la senda, la llanura).",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-006",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "interpretar un símbolo poético central",
+        "tarjetas_teoria_relacionada": [
+          "LC-FIG-036"
+        ],
+        "enunciado": "¿Cómo se puede interpretar el reencuentro de las sombras al final del poema?",
+        "opciones": {
+          "A": "Como una alegoría sobre las diferencias sociales y de clase que existían entre los dos amantes",
+          "B": "Como una fusión espiritual entre el hablante y el recuerdo de la persona fallecida, ya que solo las sombras se reencuentran, no las personas",
+          "C": "Como un efecto óptico casual, propio de la luz de la luna, sin relación real con el duelo del hablante",
+          "D": "Como la prueba de que, en el fondo, la mujer no llegó a morir y el hablante se reencuentra con ella en persona"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El poema insiste en el frío, el sepulcro y las 'agonías de tu muerte'; el reencuentro de sombras es simbólico, no literal, y expresa cómo el duelo hace presente lo perdido.",
+        "distractores": {
+          "A": {
+            "explicacion": "No hay ningún elemento textual sobre clase social; es una lectura completamente ajena al poema.",
+            "patron_trampa": "fuera_de_alcance_pregunta"
+          },
+          "C": {
+            "explicacion": "El poema entero está construido sobre la experiencia emocional del duelo; separar el símbolo de esa experiencia ignora el sentido global.",
+            "patron_trampa": "enfoque_parcial"
+          },
+          "D": {
+            "explicacion": "El poema afirma explícitamente 'el frío de la muerte' y 'el frío de la nada', contradiciendo esta opción.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_literario"
+  },
+  {
+    "id": "LC-GRUPO-003",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_literario",
+    "genero_texto": "poesia",
+    "fuente": "Rubén Darío, Cantos de vida y esperanza, 'A Roosevelt', 1905",
+    "fuente_nota": "",
+    "texto_base": "¡Es con voz de la Biblia, o verso de Walt Whitman,\nque habría que llegar hasta ti, Cazador!\nPrimitivo y moderno, sencillo y complicado,\ncon un algo de Washington y cuatro de Nemrod.\nEres los Estados Unidos,\neres el futuro invasor\nde la América ingenua que tiene sangre indígena,\nque aún reza a Jesucristo y aún habla en español.\nEres soberbio y fuerte ejemplar de tu raza;\neres culto, eres hábil; te opones a Tolstoy.\nY domando caballos, o asesinando tigres,\neres un Alejandro-Nabucodonosor.\n(Eres un profesor de energía,\ncomo dicen los locos de hoy.)\nCrees que la vida es incendio,\nque el progreso es erupción;\nen donde pones la bala\nel porvenir pones.\n                                      No.\nLos Estados Unidos son potentes y grandes.\nCuando ellos se estremecen hay un hondo temblor\nque pasa por las vértebras enormes de los Andes.\nSi clamáis, se oye como el rugir del león.\nYa Hugo a Grant le dijo: «Las estrellas son vuestras».\n(Apenas brilla, alzándose, el argentino sol\ny la estrella chilena se levanta...) Sois ricos.\nJuntáis al culto de Hércules el culto de Mammón;\ny alumbrando el camino de la fácil conquista,\nla Libertad levanta su antorcha en Nueva York.\nMas la América nuestra, que tenía poetas\ndesde los viejos tiempos de Netzahualcoyotl,\nque ha guardado las huellas de los pies del gran Baco,\nque el alfabeto pánico en un tiempo aprendió;\nque consultó los astros, que conoció la Atlántida,\ncuyo nombre nos llega resonando en Platón,\nque desde los remotos momentos de su vida\nvive de luz, de fuego, de perfume, de amor,\nla América del gran Moctezuma, del Inca,\nla América fragante de Cristóbal Colón,\nla América católica, la América española,\nla América en que dijo el noble Guatemoc:\n«Yo no estoy en un lecho de rosas»; esa América\nque tiembla de huracanes y que vive de Amor,\nhombres de ojos sajones y alma bárbara, vive.\nY sueña. Y ama, y vibra; y es la hija del Sol.\nTened cuidado. ¡Vive la América española!\nHay mil cachorros sueltos del León Español.\nSe necesitaría, Roosevelt, ser Dios mismo,\nel Riflero terrible y el fuerte Cazador,\npara poder tenernos en vuestras férreas garras.\nY, pues contáis con todo, falta una cosa: ¡Dios!",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-007",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar información explícita sobre una comparación textual",
+        "enunciado": "Según los primeros versos, el hablante describe a Roosevelt como una mezcla de dos figuras. ¿Cuáles son?",
+        "opciones": {
+          "A": "Bolívar y Napoleón",
+          "B": "Hércules y Cristo",
+          "C": "Netzahualcóyotl y Moctezuma",
+          "D": "Washington y Nemrod"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El texto dice literalmente: 'con un algo de Washington y cuatro de Nemrod', combinando un rasgo de Washington con una proporción mayor del cazador bíblico Nemrod.",
+        "distractores": {
+          "A": {
+            "explicacion": "Bolívar y Napoleón no aparecen mencionados en el poema.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "Hércules sí aparece luego en el poema, pero asociado a Estados Unidos en general, no como parte de esta comparación inicial específica sobre Roosevelt.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          },
+          "C": {
+            "explicacion": "Estas figuras se mencionan más adelante como parte de la identidad de América Latina, no como comparación para Roosevelt.",
+            "patron_trampa": "enfoque_parcial"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-008",
+        "competencia": "comprension_global",
+        "habilidad": "identificar la tesis central de un texto argumentativo en verso",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-001"
+        ],
+        "enunciado": "¿Cuál es la tesis central que defiende el hablante frente a la figura de Roosevelt y de Estados Unidos?",
+        "opciones": {
+          "A": "Que el hablante admira sin reservas a Roosevelt y apoya abiertamente la expansión territorial que describe",
+          "B": "Que América Latina debería adoptar por completo el modelo político y cultural de Estados Unidos",
+          "C": "Que Estados Unidos y América Latina comparten, en el fondo, el mismo origen cultural y la misma historia",
+          "D": "Que, frente al poder expansionista de Estados Unidos, América Latina posee una identidad cultural e histórica propia que la sostiene y la protege"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El poema reconoce el poder de Estados Unidos ('son potentes y grandes') pero contrapone una larga enumeración de raíces culturales propias de América Latina, cerrando con una advertencia ('tened cuidado').",
+        "distractores": {
+          "A": {
+            "explicacion": "El tono de advertencia final ('tened cuidado') contradice cualquier apoyo incondicional a esa expansión.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          },
+          "B": {
+            "explicacion": "El poema hace justamente lo contrario: reivindica una identidad latinoamericana distinta y no subordinada.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          },
+          "C": {
+            "explicacion": "El poema marca diferencias culturales explícitas entre ambas Américas, no una identidad compartida.",
+            "patron_trampa": "generalizacion_indebida"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-009",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "identificar la función de una estrategia discursiva dentro del argumento",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-018"
+        ],
+        "enunciado": "¿Qué estrategia discursiva usa el hablante al enumerar figuras culturales como Netzahualcóyotl, el Inca, Cristóbal Colón y Guatemoc?",
+        "opciones": {
+          "A": "Ejemplificación de por qué América Latina necesita modernizarse siguiendo el modelo estadounidense",
+          "B": "Cita de autoridad histórica y cultural que legitima la identidad y antigüedad de América Latina",
+          "C": "Comparación irónica que en el fondo busca ridiculizar la grandeza de esas figuras históricas",
+          "D": "Apelación a la emoción del lector, con poco respaldo histórico real detrás de esos nombres"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Al listar figuras y momentos históricos reales y reconocibles, el hablante construye un argumento de peso e identidad propia, no solo un llamado emocional vacío.",
+        "distractores": {
+          "A": {
+            "explicacion": "Es la lectura opuesta a la que sostiene el poema, que reivindica la identidad propia frente a la influencia externa.",
+            "patron_trampa": "inversion_causal"
+          },
+          "C": {
+            "explicacion": "El tono hacia esas figuras es de reivindicación y orgullo, no de burla; el poema las presenta como fuente de dignidad.",
+            "patron_trampa": "confusion_figura_retorica"
+          },
+          "D": {
+            "explicacion": "Las figuras mencionadas son históricas y verificables, no una apelación emocional vacía de contenido.",
+            "patron_trampa": "enfoque_parcial"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_literario"
+  },
+  {
+    "id": "LC-GRUPO-004",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_literario",
+    "genero_texto": "poesia",
+    "fuente": "Pablo Neruda, Odas elementales, 'Oda a la alcachofa', 1954",
+    "fuente_nota": "⚠️ Texto con derechos de autor vigentes (Neruda murió en 1973; sus obras no son de dominio público). Nota: en el material de origen este poema aparecía etiquetado por error bajo Rubén Darío; el autor real es Pablo Neruda.",
+    "texto_base": "La alcachofa\nde tierno corazón\nse vistió de guerrero,\nerecta, construyó\nuna pequeña cúpula,\nse mantuvo\nimpermeable\nbajo\nsus escamas,\na su lado\nlos vegetales locos\nse encresparon,\nse hicieron\nzarcillos, espadañas,\nbulbos conmovedores,\nen el subsuelo\ndurmió la zanahoria\nde bigotes rojos,\nla viña\nresecó los sarmientos\npor donde sube el vino,\nla col\nse dedicó\na probarse faldas,\nel orégano\na perfumar el mundo,\ny la dulce\nalcachofa\nallí en el huerto,\nvestida de guerrero,\nbruñida\ncomo una granada,\norgullosa,\ny un día\nuna con otra\nen grandes cestos\nde mimbre, caminó\npor el mercado\na realizar su sueño:\nla milicia.\n\nEn hileras\nnunca fue tan marcial\ncomo en la feria,\nlos hombres\nentre las legumbres\ncon sus camisas blancas\neran\nmariscales\nde las alcachofas,\nlas filas apretadas,\nlas voces de comando,\ny la detonación\nde una caja que cae,\npero\nentonces\nviene\nMaría\ncon su cesto,\nescoge\nuna alcachofa,\nno le teme,\nla examina, la observa\ncontra la luz como si fuera un huevo,\nla compra,\nla confunde\nen su bolsa\ncon un par de zapatos,\ncon un repollo y una\nbotella\nde vinagre\nhasta\nque entrando a la cocina\nla sumerge en la olla.\n\nAsí termina\nen paz\nesta carrera\ndel vegetal armado\nque se llama alcachofa,\nluego\nescama por escama\ndesvestimos\nla delicia\ny comemos\nla pacífica pasta\nde su corazón verde.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-010",
+        "competencia": "comprension_global",
+        "habilidad": "reconocer el recurso estructural central de un texto poético",
+        "tarjetas_teoria_relacionada": [
+          "LC-FIG-016",
+          "LC-FIG-037"
+        ],
+        "enunciado": "¿Qué recurso central estructura el poema de principio a fin?",
+        "opciones": {
+          "A": "Un diálogo directo entre la alcachofa y las demás verduras que conviven con ella en el huerto",
+          "B": "Una comparación sostenida entre el crecimiento de la alcachofa y una orquesta de instrumentos musicales",
+          "C": "Una alegoría militar: la alcachofa es un guerrero armado que termina 'derrotado' al ser cocinada",
+          "D": "Una descripción botánica y realista de la alcachofa, sin metáforas ni elementos figurados"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El poema presenta a la alcachofa vestida 'de guerrero', en 'filas' marciales entre 'mariscales', hasta que termina 'desvestida' y convertida en 'pasta' de su corazón verde.",
+        "distractores": {
+          "A": {
+            "explicacion": "Las demás verduras se describen, pero no hay diálogo directo entre ellas y la alcachofa.",
+            "patron_trampa": "sobreinterpretacion"
+          },
+          "B": {
+            "explicacion": "No hay comparación con instrumentos musicales; el campo semántico dominante es militar.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "El poema está construido casi enteramente sobre una personificación bélica, no sobre una descripción botánica neutral.",
+            "patron_trampa": "enfoque_parcial"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-011",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "evaluar el efecto de un contraste tonal en un texto poético",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-032"
+        ],
+        "enunciado": "¿Qué efecto produce el contraste entre el lenguaje bélico usado para describir a la alcachofa y el final cotidiano y doméstico del poema (María comprándola y cocinándola)?",
+        "opciones": {
+          "A": "Genera confusión en el lector, porque el poema no logra conectar el tono bélico con el final doméstico",
+          "B": "Genera una crítica directa y explícita contra las prácticas de la agricultura industrial moderna",
+          "C": "Genera un tono trágico, centrado en denunciar una escena de violencia doméstica dentro del hogar",
+          "D": "Genera un tono humorístico e irónico que dignifica un objeto cotidiano, elevándolo casi a un tema épico"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El contraste entre la grandilocuencia militar y el desenlace doméstico (comprar, cocinar, comer) es precisamente lo que genera el efecto lúdico característico de las Odas elementales de Neruda.",
+        "distractores": {
+          "A": {
+            "explicacion": "El poema tiene una estructura deliberada y coherente; el contraste es un recurso, no un defecto de conexión.",
+            "patron_trampa": "enfoque_parcial"
+          },
+          "B": {
+            "explicacion": "El poema no hace ninguna crítica a la agricultura industrial; es una lectura ajena al texto.",
+            "patron_trampa": "fuera_de_alcance_pregunta"
+          },
+          "C": {
+            "explicacion": "No hay ningún elemento de violencia doméstica en el poema; la escena de María es cotidiana y neutral.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_literario"
+  },
+  {
+    "id": "LC-GRUPO-005",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_literario",
+    "genero_texto": "fabula",
+    "fuente": "Félix María de Samaniego, Fábulas morales, 'El cuervo y el zorro', 1781-1784",
+    "fuente_nota": "",
+    "texto_base": "En la rama de un árbol,\nbien ufano y contento,\ncon un queso en el pico,\nestaba el señor Cuervo.\nDel olor atraído\nun Zorro muy maestro,\nle dijo estas palabras,\na poco más o menos:\n«Tenga usted buenos días,\nseñor Cuervo, mi dueño;\nvaya que estáis donoso,\nmono, lindo en extremo;\nyo no gasto lisonjas,\ny digo lo que siento;\nque si a tu bella traza\ncorresponde el gorjeo,\njuro a la diosa Ceres,\nsiendo testigo el cielo,\nque tú serás el fénix\nde sus vastos imperios».\nAl oír un discurso\ntan dulce y halagüeño,\nde vanidad llevado,\nquiso cantar el Cuervo.\nAbrió su negro pico,\ndejó caer el queso;\nel muy astuto Zorro,\ndespués de haberle preso,\nle dijo: «Señor bobo,\npues sin otro alimento,\nquedáis con alabanzas\ntan hinchado y repleto,\ndigerid las lisonjas\nmientras yo como el queso».\n\nQuien oye aduladores,\nnunca espere otro premio.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-012",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar la consecuencia explícita de una acción en el relato",
+        "enunciado": "¿Qué hace el Cuervo al escuchar los halagos del Zorro, y qué consecuencia inmediata tiene esa acción?",
+        "opciones": {
+          "A": "Se da cuenta del engaño y no responde a los halagos",
+          "B": "Vuela lejos de la rama para proteger el queso del Zorro",
+          "C": "Le ofrece voluntariamente la mitad del queso al Zorro",
+          "D": "Abre el pico para cantar, y al hacerlo deja caer el queso"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El texto dice literalmente: 'quiso cantar el Cuervo. Abrió su negro pico, dejó caer el queso.'",
+        "distractores": {
+          "A": {
+            "explicacion": "Es lo opuesto a lo que ocurre: el Cuervo cae en el halago sin sospechar el engaño.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          },
+          "B": {
+            "explicacion": "El Cuervo no vuela; permanece en la rama y pierde el queso al abrir el pico.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El Cuervo no ofrece nada voluntariamente; pierde el queso por su propia vanidad, sin darse cuenta.",
+            "patron_trampa": "inversion_causal"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-013",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "identificar y evaluar una técnica de persuasión dentro del relato",
+        "tarjetas_teoria_relacionada": [
+          "LC-REF-013",
+          "LC-REF-015"
+        ],
+        "enunciado": "¿Qué técnica de persuasión usa el Zorro para conseguir el queso, y qué la hace efectiva?",
+        "opciones": {
+          "A": "Apelación halagadora a la vanidad del Cuervo, que explota su inseguridad sobre su propio canto",
+          "B": "Una amenaza directa y violenta de hacerle daño físico al Cuervo si no suelta el queso",
+          "C": "Un argumento razonado sobre los beneficios nutricionales y el sabor superior del queso",
+          "D": "Una cita de autoridad basada en la opinión de otros animales respetados del bosque"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El Zorro no amenaza ni argumenta con datos: usa adulación calculada ('vaya que estáis donoso... serás el fénix de sus vastos imperios') para que el Cuervo intente demostrar algo que el halago sugiere.",
+        "distractores": {
+          "B": {
+            "explicacion": "No hay ninguna amenaza en el discurso del Zorro; todo su lenguaje es de elogio.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El Zorro no menciona ningún beneficio nutricional; su discurso es puramente halagador hacia el Cuervo, no sobre el queso.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "El Zorro invoca a la diosa Ceres como parte del halago, no como argumento de autoridad sobre el queso o el canto.",
+            "patron_trampa": "confusion_figura_retorica"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tipo": "continuo_literario"
+  },
+  {
+    "id": "LC-GRUPO-006",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_literario",
+    "genero_texto": "fabula",
+    "fuente": "Augusto Monterroso, La oveja negra y demás fábulas, 'La oveja negra', 1969",
+    "fuente_nota": "⚠️ Texto con derechos de autor vigentes (Monterroso murió en 2003).",
+    "texto_base": "En un lejano país existió hace muchos años una Oveja negra. Fue fusilada. Un siglo después, el rebaño arrepentido le levantó una estatua ecuestre que quedó muy bien en el parque. Así, en lo sucesivo, cada vez que aparecían ovejas negras eran rápidamente pasadas por las armas para que las futuras generaciones de ovejas comunes y corrientes pudieran ejercitarse también en la escultura.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-014",
+        "competencia": "comprension_global",
+        "habilidad": "identificar la ironía central de un relato brevísimo",
+        "tarjetas_teoria_relacionada": [
+          "LC-FIG-013",
+          "LC-FIG-014"
+        ],
+        "enunciado": "¿Cuál es la ironía central de esta minifábula?",
+        "opciones": {
+          "A": "Que quienes fusilaron a la Oveja negra por diferente la honran después con una estatua, y usan esa diferencia para seguir persiguiendo a otras",
+          "B": "Que la Oveja negra, a pesar de su nombre, no llegó a ser tan distinta de las demás ovejas del rebaño",
+          "C": "Que la escultura despertó en el rebaño un interés artístico que antes casi no existía entre las ovejas",
+          "D": "Que el rebaño, arrepentido de verdad por lo ocurrido, decide no volver a fusilar a ninguna otra oveja"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El relato invierte la expectativa: el homenaje tardío no corrige el comportamiento del rebaño, sino que se convierte en la excusa para repetir la misma persecución con nuevas ovejas negras.",
+        "distractores": {
+          "B": {
+            "explicacion": "El relato confirma que sí era diferente ('oveja negra'); lo irónico es lo que el rebaño hace con esa diferencia.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El detalle de la estatua es solo un vehículo de la ironía, no el punto central del relato.",
+            "patron_trampa": "enfoque_parcial"
+          },
+          "D": {
+            "explicacion": "Es lo opuesto al final real: el rebaño sigue fusilando ovejas negras después del homenaje.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-015",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "evaluar la crítica social implícita en un relato satírico",
+        "tarjetas_teoria_relacionada": [
+          "LC-REF-020"
+        ],
+        "enunciado": "¿Qué crítica social plantea Monterroso al mostrar que las futuras ovejas negras siguen siendo fusiladas para que las generaciones futuras 'pudieran ejercitarse también en la escultura'?",
+        "opciones": {
+          "A": "Que las estatuas ecuestres son, sin discusión, la forma de arte más noble y elevada que existe",
+          "B": "Que hace falta una mayor inversión pública en programas de educación artística para el rebaño",
+          "C": "Que las ovejas negras deberían esforzarse más por comportarse como el resto y ser obedientes",
+          "D": "Que las sociedades a veces rinden homenaje tardío a quienes antes persiguieron, sin cambiar su trato hacia los diferentes de hoy"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El cierre del relato revela que el homenaje no impide la represión futura; al contrario, la vuelve funcional, lo cual es la crítica satírica central del texto.",
+        "distractores": {
+          "A": {
+            "explicacion": "El relato no evalúa el mérito artístico de las estatuas; las usa como símbolo de un homenaje vacío.",
+            "patron_trampa": "fuera_de_alcance_pregunta"
+          },
+          "B": {
+            "explicacion": "El relato no habla de política educativa; la mención a la escultura es irónica, no una propuesta seria.",
+            "patron_trampa": "sobreinterpretacion"
+          },
+          "C": {
+            "explicacion": "Esta lectura invierte la crítica del relato, que está del lado de la oveja perseguida, no del rebaño que exige obediencia.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_literario"
+  },
+  {
+    "id": "LC-GRUPO-007",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_literario",
+    "genero_texto": "cuento",
+    "fuente": "Ricardo Palma, Tradiciones peruanas, 'La camisa de Margarita', c. 1872-1875 (hechos ambientados hacia 1765)",
+    "fuente_nota": "",
+    "texto_base": "Probable es que algunos de mis lectores hayan oído decir a las viejas de Lima, cuando quieren ponderar lo subido de precio de un artículo: -¡Qué! Si esto es más caro que la camisa de Margarita Pareja. Habriame quedado con la curiosidad de saber quién fue esa Margarita, cuya camisa anda en lenguas, si en La América, de Madrid, no hubiera tropezado con un artículo firmado por D. Ildefonso Antonio Bermejo (autor de un notable libro sobre el Paraguay) quien, aunque muy a la ligera habla de la niña y de su camisa, me puso en vía de desenredar el ovillo, alcanzando a sacar en limpio la historia que van ustedes a leer.\n\nMargarita Pareja era (por los años de 1765) la hija más mimada de D. Raimundo Pareja, caballero de Santiago y colector general del Callao.\n\nLa muchacha era una de esas limeñitas que por su belleza cautivan al mismo diablo y lo hacen persignarse y tirar piedras. Lucía un par de ojos negros que eran como dos torpedos cargados con dinamita y que hacían explosión sobre las entretelas del alma de los galanes limeños.\n\nLlegó por entonces de España un arrogante mancebo, hijo de la coronada villa del oso y del madroño, llamado D. Luis Alcázar. Tenía éste en Lima un tío solterón y acaudalado, aragonés rancio y linajudo, y que gastaba más orgullo que los hijos del rey Fruela.\n\nPor supuesto que, mientras le llegaba la ocasión de heredar al tío, vivía nuestro D. Luis tan pelado como una rata y pasando la pena negra. Con decir que hasta sus trapicheos eran al fiado y para pagar cuando mejorase de fortuna, creo que digo lo preciso.\n\nEn la procesión de Santa Rosa conoció Alcázar a la linda Margarita. La muchacha le llenó el ojo y le flechó el corazón. La echó flores, y aunque ella no le contestó ni sí ni no, dio a entender con sonrisitas y demás armas del arsenal femenino que el galán era plato muy de su gusto. La verdad, como si me estuviera confesando, es que se enamoraron hasta la raíz del pelo.\n\nComo los amantes olvidan que existe la aritmética, creyó D. Luis que para el logro de sus amores no sería obstáculo su presente pobreza, y fue al padre de Margarita y sin muchos perfiles le pidió la mano de su hija.\n\nA D. Raimundo no le cayó en gracia la petición, y cortésmente despidió al postulante, diciéndole que Margarita era aún muy niña para tomar marido; pues a pesar de sus diez y ocho años, todavía jugaba a las muñecas.\n\nPero no era ésta la verdadera madre del ternero. La negativa nacía de que D. Raimundo no quería ser suegro de un pobretón; y así hubo de decirlo en confianza a sus amigos, uno de los que fue con el chisme a don Honorato, que así se llamaba el tío aragonés.\n\nÉste, que era más altivo que el Cid, trinó de rabia y dijo: -¡Cómo se entiende! ¡Desairar a mi sobrino! Muchos se darían con un canto en el pecho por emparentar con el muchacho, que no lo hay más gallardo en todo Lima. ¡Habrase visto insolencia de la laya! Pero ¿adónde ha de ir conmigo ese colectorcillo de mala muerte?\n\nMargarita, que se anticipaba a su siglo, pues era nerviosa como una damisela de hoy, gimoteó, y se arrancó el pelo, y tuvo pataleta, y si no amenazó con envenenarse fue porque todavía no se habían inventado los fósforos.\n\nMargarita perdía colores y carnes, se desmejoraba a vista de ojos, hablaba de meterse monja, y no hacía nada en concierto. «¡O de Luis o de Dios!» gritaba cada vez que los nervios se le sublevaban, lo que acontecía una hora sí y otra también. Alarmose el caballero santiagués, llamó físicos y curanderas, y todos declararon que la niña tiraba a tísica, y que la única medicina salvadora no se vendía en la botica.\n\nO casarla con el varón de su gusto, o encerrarla en el cajón con palma y corona. Tal fue el ultimátum médico.\n\nD. Raimundo (¡al fin padre!), olvidándose de coger capa y bastón, se encaminó como loco a casa de D. Honorato, y le dijo: -Vengo a que consienta usted en que mañana mismo se case su sobrino con Margarita, porque si no la muchacha se nos va por la posta.\n\n-No puede ser -contestó con desabrimiento el tío.- Mi sobrino es un pobretón, y lo que usted debe buscar para su hija es un hombre que varee la plata.\n\nEl diálogo fue borrascoso. Mientras más rogaba D. Raimundo, más se subía el aragonés a la parra, y ya aquél iba a retirarse desahuciado cuando D. Luis, terciando en la cuestión, dijo: -Pero, tío, no es de cristianos que matemos a quien no tiene la culpa.\n\n-¿Tú te das por satisfecho?\n\n-De todo corazón, tío y señor.\n\n-Pues bien: muchacho, consiento en darte gusto; pero con una condición, y es esta: D. Raimundo me ha de jurar ante la Hostia consagrada que no regalará un ochavo a su hija ni la dejará un real en la herencia.\n\nAquí se entabló nuevo y más agitado litigio.\n\n-Pero, hombre -arguyó D. Raimundo,- mi hija tiene veinte mil duros de dote.\n\n-Renunciamos a la dote. La niña vendrá a casa de su marido nada más que con lo encapillado.\n\n-Concédame usted entonces obsequiarla los muebles y el ajuar de novia.\n\n-Ni un alfiler. Si no acomoda, dejarlo y que se muera la chica.\n\n-Sea usted razonable, D. Honorato. Mi hija necesita llevar siquiera una camisa para reemplazar la puesta.\n\n-Bien: paso por esa funda para que no me acuse de obstinado. Consiento en que le regale la camisa de novia, y san se acabó.\n\nAl día siguiente D. Raimundo y D. Honorato se dirigieron muy de mañana a San Francisco, arrodillándose para oír misa y, según lo pactado, en el momento en que el sacerdote elevaba la Hostia divina, dijo el padre de Margarita: -Juro no dar a mi hija más que la camisa de novia. Así Dios me condene si perjurare.\n\nY D. Raimundo Pareja cumplió ad pedem litterae su juramento; porque ni en vida ni en muerte dio después a su hija cosa que valiera un maravedí.\n\nLos encajes de Flandes que adornaban la camisa de la novia costaron dos mil setecientos duros. El cordoncillo que ajustaba al cuello era una cadeneta de brillantes, valorizada en treinta mil monedas de plata.\n\nLos recién casados hicieron creer al tío aragonés que la camisa a lo más valdría una onza; porque D. Honorato era tan testarudo que, a saberlo cierto, habría forzado al sobrino a divorciarse.\n\nConvengamos en que fue muy merecida la fama que alcanzó la camisa nupcial de Margarita Pareja.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-016",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar una condición explícita pactada entre personajes",
+        "enunciado": "¿Cuál fue la condición que puso don Honorato para consentir el matrimonio de su sobrino con Margarita?",
+        "opciones": {
+          "A": "Que la boda se celebrara en España, en la tierra natal de don Luis, en vez de en Lima",
+          "B": "Que Margarita aprendiera primero a hablar francés antes de poder casarse con don Luis",
+          "C": "Que don Raimundo jurara ante la Hostia no darle a su hija dote ni herencia, aunque sí la camisa de novia",
+          "D": "Que don Luis Alcázar renunciara públicamente a su apellido y a su linaje familiar"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto lo dice explícitamente: don Honorato exige el juramento de no dar dote ni herencia, y solo cede en permitir la camisa de novia.",
+        "distractores": {
+          "A": {
+            "explicacion": "La boda se celebra en Lima, en la iglesia de San Francisco; no se menciona ningún viaje a España.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "No hay ninguna mención al idioma francés en el relato.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "No se exige ningún cambio de apellido; la condición es exclusivamente económica.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-017",
+        "competencia": "comprension_global",
+        "habilidad": "relacionar el desenlace del relato con el dicho popular citado al inicio",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-023"
+        ],
+        "enunciado": "¿Qué función cumple la anécdota completa en relación con el dicho popular citado al inicio del relato ('más caro que la camisa de Margarita Pareja')?",
+        "opciones": {
+          "A": "Explica el origen del dicho: pese al juramento de no dar dote, la camisa terminó siendo carísima por sus encajes y joyas",
+          "B": "Explica por qué, en general, las camisas de novia eran la prenda más económica de esa época colonial",
+          "C": "Sugiere que el dicho es una invención tardía y que Margarita Pareja no llegó a existir en realidad",
+          "D": "Funciona como una simple introducción, apenas relacionada con el resto de la anécdota que sigue"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Toda la 'tradición' está construida para explicar, con humor, por qué una simple camisa terminó siendo el objeto más caro de la historia, dando origen al dicho popular.",
+        "distractores": {
+          "B": {
+            "explicacion": "Es lo opuesto a lo que muestra el relato: esta camisa en particular fue extraordinariamente cara.",
+            "patron_trampa": "inversion_causal"
+          },
+          "C": {
+            "explicacion": "El relato no cuestiona la existencia de Margarita; al contrario, narra su historia como base del dicho.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "El dicho inicial es precisamente el hilo conductor que el narrador dice que va a 'desenredar' a lo largo de todo el relato.",
+            "patron_trampa": "enfoque_parcial"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-018",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "evaluar si un personaje cumple la letra o el espíritu de un juramento",
+        "tarjetas_teoria_relacionada": [
+          "LC-FIG-013"
+        ],
+        "enunciado": "¿Qué revela el desenlace sobre el verdadero cumplimiento del juramento de don Raimundo?",
+        "opciones": {
+          "A": "Que don Honorato descubrió el engaño casi de inmediato y por eso decidió anular la boda",
+          "B": "Que don Raimundo rompió su juramento abiertamente y toda Lima se enteró y lo castigó por ello",
+          "C": "Que Margarita finalmente rechazó la camisa por considerarla una compensación insuficiente",
+          "D": "Que cumplió la letra del juramento, sin dote ni herencia, pero burló su espíritu con una camisa que equivalía a una fortuna"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El relato subraya que don Raimundo cumplió el juramento 'ad pedem litterae' (al pie de la letra), pero el valor de la camisa (encajes de Flandes, cadeneta de brillantes) desmiente el espíritu de austeridad que don Honorato buscaba imponer.",
+        "distractores": {
+          "A": {
+            "explicacion": "El relato indica lo contrario: el engaño sobre el valor de la camisa funcionó y la boda se mantuvo.",
+            "patron_trampa": "inversion_causal"
+          },
+          "B": {
+            "explicacion": "El texto dice justamente que hicieron creer al tío aragonés que la camisa valía poco; no hubo descubrimiento ni castigo.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          },
+          "C": {
+            "explicacion": "No hay ninguna mención de que Margarita rechazara la camisa; al contrario, la boda se concreta con ella.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_literario"
+  },
+  {
+    "id": "LC-GRUPO-008",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_literario",
+    "genero_texto": "cuento",
+    "fuente": "Horacio Quiroga, Cuentos de amor de locura y de muerte, 'El almohadón de plumas', 1917",
+    "fuente_nota": "",
+    "texto_base": "Su luna de miel fue un largo escalofrío. Rubia, angelical y tímida, el carácter duro de su marido heló sus soñadas niñerías de novia. Ella lo quería mucho, sin embargo, a veces con un ligero estremecimiento cuando volviendo de noche juntos por la calle, echaba una furtiva mirada a la alta estatura de Jordán, mudo desde hacía una hora. Él, por su parte, la amaba profundamente, sin darlo a conocer.\n\nDurante tres meses -se habían casado en abril- vivieron una dicha especial.\n\nSin duda hubiera ella deseado menos severidad en ese rígido cielo de amor, más expansiva e incauta ternura; pero el impasible semblante de su marido la contenía siempre.\n\nLa casa en que vivían influía un poco en sus estremecimientos. La blancura del patio silencioso -frisos, columnas y estatuas de mármol- producía una otoñal impresión de palacio encantado. Dentro, el brillo glacial del estuco, sin el más leve rasguño en las altas paredes, afirmaba aquella sensación de desapacible frío. Al cruzar de una pieza a otra, los pasos hallaban eco en toda la casa, como si un largo abandono hubiera sensibilizado su resonancia.\n\nEn ese extraño nido de amor, Alicia pasó todo el otoño. No obstante, había concluido por echar un velo sobre sus antiguos sueños, y aún vivía dormida en la casa hostil, sin querer pensar en nada hasta que llegaba su marido.\n\nNo es raro que adelgazara. Tuvo un ligero ataque de influenza que se arrastró insidiosamente días y días; Alicia no se reponía nunca. Al fin una tarde pudo salir al jardín apoyada en el brazo de él. Miraba indiferente a uno y otro lado. De pronto Jordán, con honda ternura, le pasó la mano por la cabeza, y Alicia rompió en seguida en sollozos, echándole los brazos al cuello. Lloró largamente todo su espanto callado, redoblando el llanto a la menor tentativa de caricia. Luego los sollozos fueron retardándose, y aún quedó largo rato escondida en su cuello, sin moverse ni decir una palabra.\n\nFue ese el último día que Alicia estuvo levantada. Al día siguiente amaneció desvanecida. El médico de Jordán la examinó con suma atención, ordenándole calma y descanso absolutos.\n\n-No sé -le dijo a Jordán en la puerta de calle, con la voz todavía baja-. Tiene una gran debilidad que no me explico, y sin vómitos, nada... Si mañana se despierta como hoy, llámeme enseguida.\n\nAl otro día Alicia seguía peor. Hubo consulta. Constatóse una anemia de marcha agudísima, completamente inexplicable. Alicia no tuvo más desmayos, pero se iba visiblemente a la muerte. Todo el día el dormitorio estaba con las luces prendidas y en pleno silencio. Pasábanse horas sin oír el menor ruido. Alicia dormitaba. Jordán vivía casi en la sala, también con toda la luz encendida. Paseábase sin cesar de un extremo a otro, con incansable obstinación. La alfombra ahogaba sus pasos. A ratos entraba en el dormitorio y proseguía su mudo vaivén a lo largo de la cama, mirando a su mujer cada vez que caminaba en su dirección.\n\nPronto Alicia comenzó a tener alucinaciones, confusas y flotantes al principio, y que descendieron luego a ras del suelo. La joven, con los ojos desmesuradamente abiertos, no hacía sino mirar la alfombra a uno y otro lado del respaldo de la cama. Una noche se quedó de repente mirando fijamente. Al rato abrió la boca para gritar, y sus narices y labios se perlaron de sudor.\n\n-¡Jordán! ¡Jordán! -clamó, rígida de espanto, sin dejar de mirar la alfombra.\n\nJordán corrió al dormitorio, y al verlo aparecer Alicia dio un alarido de horror.\n\n-¡Soy yo, Alicia, soy yo!\n\nAlicia lo miró con extravió, miró la alfombra, volvió a mirarlo, y después de largo rato de estupefacta confrontación, se serenó. Sonrió y tomó entre las suyas la mano de su marido, acariciándola temblando.\n\nEntre sus alucinaciones más porfiadas, hubo un antropoide, apoyado en la alfombra sobre los dedos, que tenía fijos en ella los ojos.\n\nLos médicos volvieron inútilmente. Había allí delante de ellos una vida que se acababa, desangrándose día a día, hora a hora, sin saber absolutamente cómo. En la última consulta Alicia yacía en estupor mientras ellos la pulsaban, pasándose de uno a otro la muñeca inerte. La observaron largo rato en silencio y siguieron al comedor.\n\n-Pst... -se encogió de hombros desalentado su médico-. Es un caso serio... poco hay que hacer...\n\n-¡Sólo eso me faltaba! -resopló Jordán. Y tamborileó bruscamente sobre la mesa.\n\nAlicia fue extinguiéndose en su delirio de anemia, agravado de tarde, pero que remitía siempre en las primeras horas. Durante el día no avanzaba su enfermedad, pero cada mañana amanecía lívida, en síncope casi. Parecía que únicamente de noche se le fuera la vida en nuevas alas de sangre. Tenía siempre al despertar la sensación de estar desplomada en la cama con un millón de kilos encima. Desde el tercer día este hundimiento no la abandonó más. Apenas podía mover la cabeza. No quiso que le tocaran la cama, ni aún que le arreglaran el almohadón. Sus terrores crepusculares avanzaron en forma de monstruos que se arrastraban hasta la cama y trepaban dificultosamente por la colcha.\n\nPerdió luego el conocimiento. Los dos días finales deliró sin cesar a media voz. Las luces continuaban fúnebremente encendidas en el dormitorio y la sala. En el silencio agónico de la casa, no se oía más que el delirio monótono que salía de la cama, y el rumor ahogado de los eternos pasos de Jordán.\n\nAlicia murió, por fin. La sirvienta, que entró después a deshacer la cama, sola ya, miró un rato extrañada el almohadón.\n\n-¡Señor! -llamó a Jordán en voz baja-. En el almohadón hay manchas que parecen de sangre.\n\nJordán se acercó rápidamente y se dobló a su vez. Efectivamente, sobre la funda, a ambos lados del hueco que había dejado la cabeza de Alicia, se veían manchitas oscuras.\n\n-Parecen picaduras -murmuró la sirvienta después de un rato de inmóvil observación.\n\n-Levántelo a la luz -le dijo Jordán.\n\nLa sirvienta lo levantó, pero enseguida lo dejó caer, y se quedó mirando a aquél, lívida y temblando. Sin saber por qué, Jordán sintió que los cabellos se le erizaban.\n\n-¿Qué hay? -murmuró con la voz ronca.\n\n-Pesa mucho -articuló la sirvienta, sin dejar de temblar.\n\nJordán lo levantó; pesaba extraordinariamente. Salieron con él, y sobre la mesa del comedor Jordán cortó funda y envoltura de un tajo. Las plumas superiores volaron, y la sirvienta dio un grito de horror con toda la boca abierta, llevándose las manos crispadas a los bandós. Sobre el fondo, entre las plumas, moviendo lentamente las patas velludas, había un animal monstruoso, una bola viviente y viscosa. Estaba tan hinchado que apenas se le pronunciaba la boca.\n\nNoche a noche, desde que Alicia había caído en cama, había aplicado sigilosamente su boca -su trompa, mejor dicho- a las sienes de aquélla, chupándole la sangre. La picadura era casi imperceptible. La remoción diaria del almohadón había impedido sin duda su desarrollo, pero desde que la joven no pudo moverse, la succión fue vertiginosa. En cinco días, en cinco noches, había vaciado a Alicia.\n\nEstos parásitos de las aves, diminutos en el medio habitual, llegan a adquirir en ciertas condiciones proporciones enormes. La sangre humana parece serles particularmente favorable, y no es raro hallarlos en los almohadones de pluma.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-019",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar un detalle explícito sobre el comportamiento de un personaje",
+        "enunciado": "Según el texto, ¿qué sensación tenía Alicia al despertar cada mañana durante los últimos días de su enfermedad, y qué no permitía que le hicieran?",
+        "opciones": {
+          "A": "Sentía picazón en las manos, y no permitía que la tocara la sirvienta",
+          "B": "Sentía un frío intenso, y no permitía que apagaran las luces del cuarto",
+          "C": "Sentía hambre constante, y no permitía que le retiraran la bandeja de comida",
+          "D": "Sentía un gran peso al despertar, y no permitía que le tocaran la cama ni que le arreglaran el almohadón"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El texto dice literalmente: 'Tenía siempre al despertar la sensación de estar desplomada en la cama con un millón de kilos encima... No quiso que le tocaran la cama, ni aún que le arreglaran el almohadón.'",
+        "distractores": {
+          "A": {
+            "explicacion": "No hay ninguna mención a picazón en las manos; el síntoma central es el peso y la debilidad extrema.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "Las luces sí permanecían encendidas, pero no por una prohibición explícita de Alicia relacionada con el frío.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El texto no menciona hambre ni comida en ningún momento de la enfermedad.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-020",
+        "competencia": "comprension_global",
+        "habilidad": "relacionar la atmósfera descrita al inicio con el desenlace del relato",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-022"
+        ],
+        "enunciado": "¿Cómo se relaciona la frialdad emocional de la casa y del matrimonio, descrita al inicio del cuento, con el desenlace?",
+        "opciones": {
+          "A": "Sirven principalmente para alargar la introducción del relato, sin aportar demasiado al desenlace",
+          "B": "Demuestran que Jordán fue quien envenenó deliberadamente a su esposa desde el principio",
+          "C": "Tienen poca relación entre sí: son dos elementos bastante independientes dentro de la estructura del cuento",
+          "D": "La atmósfera fría y hostil de la casa anticipa el hallazgo final: un parásito escondido en el almohadón que drenaba la vida de Alicia"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "La descripción inicial de la casa (mármol, eco, brillo glacial) y del matrimonio distante construye un ambiente opresivo coherente con el terror final, que revela una amenaza literalmente oculta bajo esa aparente normalidad.",
+        "distractores": {
+          "A": {
+            "explicacion": "La atmósfera cumple una función narrativa clara de anticipación del horror, no es un simple relleno.",
+            "patron_trampa": "enfoque_parcial"
+          },
+          "B": {
+            "explicacion": "El texto no sugiere en ningún momento que Jordán envenenara a Alicia; el causante es el parásito del almohadón, algo que ninguno de los dos conocía.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El cuento está cuidadosamente construido para que la atmósfera inicial prepare el tono de horror del final.",
+            "patron_trampa": "enfoque_parcial"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-021",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "evaluar el efecto narrativo de retrasar una revelación clave",
+        "tarjetas_teoria_relacionada": [
+          "LC-REF-014"
+        ],
+        "enunciado": "¿Qué efecto logra Quiroga al revelar la causa real de la enfermedad de Alicia solo hasta las últimas líneas del cuento?",
+        "opciones": {
+          "A": "Convierte el cuento, hacia el final, en una comedia de equivocaciones entre los personajes",
+          "B": "Reduce bastante la tensión narrativa, porque el lector ya sospechaba la causa desde el principio del relato",
+          "C": "Apenas modifica la interpretación general que el lector ya se había formado del relato hasta ese punto",
+          "D": "Genera un final de horror que resignifica los síntomas descritos antes (alucinaciones, palidez, debilidad) como pistas de una causa física concreta"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Al ocultar la causa real hasta el final, el cuento invita a releer los síntomas de Alicia (el peso, las alucinaciones del 'antropoide', la negativa a que tocaran el almohadón) como señales que apuntaban, sin que nadie lo supiera, a una explicación física y no solo psicológica.",
+        "distractores": {
+          "A": {
+            "explicacion": "El tono del cuento es de horror gótico, no de comedia; nada en el desenlace es cómico.",
+            "patron_trampa": "confusion_figura_retorica"
+          },
+          "B": {
+            "explicacion": "Es lo opuesto: la revelación tardía es precisamente lo que genera la tensión y el efecto de horror del cuento.",
+            "patron_trampa": "inversion_causal"
+          },
+          "C": {
+            "explicacion": "El retraso de la revelación es un recurso narrativo central, no un detalle sin efecto.",
+            "patron_trampa": "enfoque_parcial"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_literario"
+  },
+  {
+    "id": "LC-GRUPO-009",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_literario",
+    "genero_texto": "cuento",
+    "fuente": "Gabriel García Márquez, Los funerales de la Mamá Grande, 'Un día de estos', 1962",
+    "fuente_nota": "⚠️ Texto con derechos de autor vigentes (García Márquez murió en 2014).",
+    "texto_base": "El lunes amaneció tibio y sin lluvia. Don Aurelio Escovar, dentista sin título y buen madrugador, abrió su gabinete a las seis. Sacó de la vidriera una dentadura postiza montada aún en el molde de yeso y puso sobre la mesa un puñado de instrumentos que ordenó de mayor a menor, como en una exposición. Llevaba una camisa a rayas, sin cuello, cerrada arriba con un botón dorado, y los pantalones sostenidos con cargadores elásticos. Era rígido, enjuto, con una mirada que raras veces correspondía a la situación, como la mirada de los sordos.\n\nCuando tuvo las cosas dispuestas sobre la mesa rodó la fresa hacia el sillón de resortes y se sentó a pulir la dentadura postiza. Parecía no pensar en lo que hacía, pero trabajaba con obstinación, pedaleando en la fresa incluso cuando no se servía de ella.\n\nDespués de la ocho hizo una pausa para mirar el cielo por la ventana y vio dos gallinazos pensativos que se secaban al sol en el caballete de la casa vecina. Siguió trabajando con la idea de que antes del almuerzo volvería a llover. La voz destemplada de su hijo de once años lo sacó de su abstracción.\n\n—Papá.\n\n—Qué\n\n—Dice el alcalde que si le sacas una muela.\n\n—Dile que no estoy aquí.\n\nEstaba puliendo un diente de oro. Lo retiró a la distancia del brazo y lo examinó con los ojos a medio cerrar. En la salita de espera volvió a gritar su hijo.\n\n—Dice que sí estás porque te está oyendo.\n\nEl dentista siguió examinando el diente. Sólo cuando lo puso en la mesa con los trabajos terminados, dijo:\n\n—Mejor.\n\nVolvió a operar la fresa. De una cajita de cartón donde guardaba las cosas por hacer, sacó un puente de varias piezas y empezó a pulir el oro.\n\n—Papá.\n\n—Qué.\n\nAún no había cambiado de expresión.\n\n—Dice que si no le sacas la muela te pega un tiro.\n\nSin apresurarse, con un movimiento extremadamente tranquilo, dejó de pedalear en la fresa, la retiró del sillón y abrió por completo la gaveta inferior de la mesa. Allí estaba el revólver.\n\n—Bueno —dijo—. Dile que venga a pegármelo.\n\nHizo girar el sillón hasta quedar de frente a la puerta, la mano apoyada en el borde de la gaveta. El alcalde apareció en el umbral. Se había afeitado la mejilla izquierda, pero en la otra, hinchada y dolorida, tenía una barba de cinco días. El dentista vio en sus ojos marchitos muchas noches de desesperación. Cerró la gaveta con la punta de los dedos y dijo suavemente:\n\n—Siéntese.\n\n—Buenos días —dijo el alcalde.\n\n—Buenos —dijo el dentista.\n\nMientras hervían los instrumentos, el alcalde apoyó el cráneo en el cabezal de la silla y se sintió mejor. Respiraba un olor glacial. Era un gabinete pobre: una vieja silla de madera, la fresa de pedal, y una vidriera con pomos de loza. Frente a la silla, una ventana con un cancel de tela hasta la altura de un hombre. Cuando sintió que el dentista se acercaba, el alcalde afirmó los talones y abrió la boca.\n\nDon Aurelio Escovar le movió la cabeza hacia la luz. Después de observar la muela dañada, ajustó la mandíbula con una presión cautelosa de los dedos.\n\n—Tiene que ser sin anestesia —dijo.\n\n—¿Por qué?\n\n—Porque tiene un absceso.\n\nEl alcalde lo miró en los ojos.\n\n—Esta bien —dijo, y trató de sonreír. El dentista no le correspondió. Llevó a la mesa de trabajo la cacerola con los instrumentos hervidos y los sacó del agua con unas pinzas frías, todavía sin apresurarse. Después rodó la escupidera con la punta del zapato y fue a lavarse las manos en el aguamanil. Hizo todo sin mirar al alcalde. Pero el alcalde no lo perdió de vista.\n\nEra una cordal inferior. El dentista abrió las piernas y apretó la muela con el gatillo caliente. El alcalde se aferró a las barras de la silla, descargó toda su fuerza en los pies y sintió un vacío helado en los riñones, pero no soltó un suspiro. El dentista sólo movió la muñeca. Sin rencor, mas bien con una amarga ternura, dijo:\n\n—Aquí nos paga veinte muertos, teniente.\n\nEl alcalde sintió un crujido de huesos en la mandíbula y sus ojos se llenaron de lágrimas. Pero no suspiró hasta que no sintió salir la muela. Entonces la vio a través de las lágrimas. Le pareció tan extraña a su dolor, que no pudo entender la tortura de sus cinco noches anteriores. Inclinado sobre la escupidera, sudoroso, jadeante, se desabotonó la guerrera y buscó a tientas el pañuelo en el bolsillo del pantalón. El dentista le dio un trapo limpio.\n\n—Séquese las lágrimas —dijo.\n\nEl alcalde lo hizo. Estaba temblando. Mientras el dentista se lavaba las manos, vio el cielorraso desfondado y una telaraña polvorienta con huevos de araña e insectos muertos. El dentista regresó secándose. \"Acuéstese —dijo— y haga buches de agua de sal.\" El alcalde se puso de pie, se despidió con un displicente saludo militar, y se dirigió a la puerta estirando las piernas, sin abotonarse la guerrera.\n\n—Me pasa la cuenta —dijo.\n\n—¿A usted o al municipio?\n\nEl alcalde no lo miró. Cerró la puerta, y dijo, a través de la red metálica:\n\n—Es la misma vaina.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-022",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar la razón explícita que da un personaje para una decisión médica",
+        "enunciado": "¿Qué razón da el dentista, don Aurelio Escovar, para no aplicar anestesia al alcalde?",
+        "opciones": {
+          "A": "Porque se le acabó la anestesia esa misma mañana",
+          "B": "Porque el alcalde se niega explícitamente a pagarla",
+          "C": "Porque el dentista declara abiertamente que quiere hacerlo sufrir por venganza",
+          "D": "Porque el alcalde tiene un absceso"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El dentista responde con esa única razón clínica cuando el alcalde pregunta por qué debe ser sin anestesia.",
+        "distractores": {
+          "A": {
+            "explicacion": "No se menciona ningún desabastecimiento de anestesia en el relato.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "El pago se discute al final, no como condición para la anestesia.",
+            "patron_trampa": "inversion_causal"
+          },
+          "C": {
+            "explicacion": "El dentista nunca declara abiertamente una motivación de venganza; su hostilidad se sugiere de forma indirecta, no explícita.",
+            "patron_trampa": "sobreinterpretacion"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-023",
+        "competencia": "comprension_global",
+        "habilidad": "interpretar el sentido de una frase clave dentro de la relación entre dos personajes",
+        "tarjetas_teoria_relacionada": [
+          "LC-REF-016",
+          "LC-REF-017"
+        ],
+        "enunciado": "¿Qué revela la frase del dentista, dicha mientras extrae la muela, sobre la relación entre los dos personajes?",
+        "opciones": {
+          "A": "Revela una tensión política no resuelta entre ambos, en la que el dentista usa el dolor físico como ajuste de cuentas silencioso",
+          "B": "Revela que el alcalde le debe una suma importante de dinero al dentista por tratamientos anteriores",
+          "C": "Revela que ambos son enemigos desde la infancia por un viejo asunto de honor familiar",
+          "D": "Revela que el dentista solo está bromeando con el alcalde y no habla en serio en momento alguno"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La frase conecta el sufrimiento físico del alcalde con un reclamo más amplio y no resuelto, sugiriendo un trasfondo de violencia política que el cuento no explica del todo, dejándolo como tensión implícita.",
+        "distractores": {
+          "B": {
+            "explicacion": "La cuenta se menciona al final como algo pendiente, no como una deuda de tratamientos anteriores.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El cuento no ofrece ningún trasfondo familiar entre los personajes.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "El tono general del cuento y la seriedad de la escena contradicen una lectura de broma.",
+            "patron_trampa": "confusion_figura_retorica"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-024",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "evaluar cómo un relato invierte una relación de poder mediante una acción física",
+        "tarjetas_teoria_relacionada": [
+          "LC-FIG-036"
+        ],
+        "enunciado": "¿Cómo se puede interpretar la calma y precisión con que el dentista realiza la extracción, en contraste con la amenaza de muerte que había recibido del alcalde?",
+        "opciones": {
+          "A": "Muestra que el dentista se mantiene indiferente frente al trasfondo político que rodea al alcalde",
+          "B": "Muestra que el dentista no le tenía ningún miedo porque sabía que la amenaza del alcalde era falsa",
+          "C": "Muestra que el procedimiento dental es un trámite médico corriente, sin mayor carga simbólica",
+          "D": "La calma del dentista funciona como un poder silencioso que invierte, por un momento, la relación de poder entre ambos"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "La serenidad casi fría del dentista durante un procedimiento doloroso, después de haber sacado un revólver ante la amenaza, sugiere que el consultorio se vuelve el único espacio donde él ejerce control sobre alguien con más poder político que él.",
+        "distractores": {
+          "A": {
+            "explicacion": "Contradice la frase que pronuncia durante la extracción, que sí conecta con un conflicto de fondo.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          },
+          "B": {
+            "explicacion": "El dentista sí reacciona a la amenaza (revisa el revólver en la gaveta), por lo que no es indiferente a ella.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El procedimiento dental es precisamente el vehículo simbólico central del relato para la tensión entre los personajes.",
+            "patron_trampa": "enfoque_parcial"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_literario"
+  },
+  {
+    "id": "LC-GRUPO-010",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_literario",
+    "genero_texto": "cuento",
+    "fuente": "Julio Cortázar, Final del juego, 'Continuidad de los parques', 1964",
+    "fuente_nota": "⚠️ Texto con derechos de autor vigentes (Cortázar murió en 1984).",
+    "texto_base": "Había empezado a leer la novela unos días antes. La abandonó por negocios urgentes, volvió a abrirla cuando regresaba en tren a la finca; se dejaba interesar lentamente por la trama, por el dibujo de los personajes. Esa tarde, después de escribir una carta a su apoderado y discutir con el mayordomo una cuestión de aparcerías, volvió al libro en la tranquilidad del estudio que miraba hacia el parque de los robles. Arrellanado en su sillón favorito, de espaldas a la puerta que lo hubiera molestado como una irritante posibilidad de intrusiones, dejó que su mano izquierda acariciara una y otra vez el terciopelo verde y se puso a leer los últimos capítulos. Su memoria retenía sin esfuerzo los nombres y las imágenes de los protagonistas; la ilusión novelesca lo ganó casi en seguida. Gozaba del placer casi perverso de irse desgajando línea a línea de lo que lo rodeaba, y sentir a la vez que su cabeza descansaba cómodamente en el terciopelo del alto respaldo, que los cigarrillos seguían al alcance de la mano, que más allá de los ventanales danzaba el aire del atardecer bajo los robles. Palabra a palabra, absorbido por la sórdida disyuntiva de los héroes, dejándose ir hacia las imágenes que se concertaban y adquirían color y movimiento, fue testigo del último encuentro en la cabaña del monte. Primero entraba la mujer, recelosa; ahora llegaba el amante, lastimada la cara por el chicotazo de una rama. Admirablemente restañaba ella la sangre con sus besos, pero él rechazaba las caricias, no había venido para repetir las ceremonias de una pasión secreta, protegida por un mundo de hojas secas y senderos furtivos. El puñal se entibiaba contra su pecho, y debajo latía la libertad agazapada. Un diálogo anhelante corría por las páginas como un arroyo de serpientes, y se sentía que todo estaba decidido desde siempre. Hasta esas caricias que enredaban el cuerpo del amante como queriendo retenerlo y disuadirlo, dibujaban abominablemente la figura de otro cuerpo que era necesario destruir. Nada había sido olvidado: coartadas, azares, posibles errores. A partir de esa hora cada instante tenía su empleo minuciosamente atribuido. El doble repaso despiadado se interrumpía apenas para que una mano acariciara una mejilla. Empezaba a anochecer. Sin mirarse ya, atados rígidamente a la tarea que los esperaba, se separaron en la puerta de la cabaña. Ella debía seguir por la senda que iba al norte. Desde la senda opuesta él se volvió un instante para verla correr con el pelo suelto. Corrió a su vez, parapetándose en los árboles y los setos, hasta distinguir en la bruma malva del crepúsculo la alameda que llevaba a la casa. Los perros no debían ladrar, y no ladraron. El mayordomo no estaría a esa hora, y no estaba. Subió los tres peldaños del porche y entró. Desde la sangre galopando en sus oídos le llegaban las palabras de la mujer: primero una sala azul, después una galería, una escalera alfombrada. En lo alto, dos puertas. Nadie en la primera habitación, nadie en la segunda. La puerta del salón, y entonces el puñal en la mano, la luz de los ventanales, el alto respaldo de un sillón de terciopelo verde, la cabeza del hombre en el sillón leyendo una novela.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-025",
+        "competencia": "comprension_global",
+        "habilidad": "reconocer el recurso metaficcional que estructura el relato",
+        "tarjetas_teoria_relacionada": [
+          "LC-FIG-048"
+        ],
+        "enunciado": "¿Qué recurso estructural central define este cuento?",
+        "opciones": {
+          "A": "Una narración cronológica y lineal, con muy pocos cambios de plano narrativo a lo largo del relato",
+          "B": "Un diálogo extenso entre dos personajes que tarda mucho en resolverse dentro de la trama",
+          "C": "Un desenlace feliz y previsible, que el lector puede anticipar ya desde las primeras líneas",
+          "D": "La metaficción: el lector del cuento termina siendo, sin saberlo, la víctima de la novela que está leyendo, fusionando ficción y realidad"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El cuento hace que los detalles de la escena final de la novela (el sillón de terciopelo verde, la ventana, los robles) coincidan exactamente con los del lector real dentro del cuento, revelando que ambos planos son el mismo.",
+        "distractores": {
+          "A": {
+            "explicacion": "El relato alterna entre el plano del lector y el plano de la novela que lee, rompiendo la linealidad simple.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "El diálogo entre los amantes de la novela sí se resuelve narrativamente (se decide el plan), aunque el foco del cuento es otro.",
+            "patron_trampa": "enfoque_parcial"
+          },
+          "C": {
+            "explicacion": "El final es de horror y sorpresa, no feliz ni previsible.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-026",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "evaluar el efecto de una revelación sugerida en vez de explícita",
+        "tarjetas_teoria_relacionada": [
+          "LC-REF-016",
+          "LC-REF-017"
+        ],
+        "enunciado": "¿Qué efecto logra Cortázar al no revelar explícitamente, sino solo sugerir mediante detalles repetidos (el sillón verde, la ventana, los robles), que el lector asesinado es el mismo hombre que estaba leyendo la novela?",
+        "opciones": {
+          "A": "Simplifica bastante la lectura, al dejar la revelación explícita ya desde el principio del relato",
+          "B": "No cambia demasiado la experiencia de lectura del cuento respecto a una narración más convencional",
+          "C": "Obliga al lector a reconstruir la conexión entre ambos planos narrativos a partir de detalles repetidos, sin ninguna declaración directa",
+          "D": "Elimina casi toda ambigüedad sobre la identidad del asesino dentro de la trama interna"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El cierre del cuento no dice 'el lector era la víctima'; lo hace evidente solo mediante la coincidencia de los detalles espaciales, exigiendo una lectura activa por parte del lector real.",
+        "distractores": {
+          "A": {
+            "explicacion": "Es lo contrario: la revelación se mantiene implícita y solo se completa al final, mediante inferencia.",
+            "patron_trampa": "inversion_causal"
+          },
+          "B": {
+            "explicacion": "El recurso de la revelación sugerida es central para el efecto de sorpresa que caracteriza al cuento.",
+            "patron_trampa": "enfoque_parcial"
+          },
+          "D": {
+            "explicacion": "El cuento nunca aclara explícitamente la identidad del asesino de la trama interna; ese dato permanece fuera de foco.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_literario"
+  },
+  {
+    "id": "LC-GRUPO-011",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_literario",
+    "genero_texto": "novela",
+    "fuente": "Miguel de Cervantes, Don Quijote de la Mancha, Primera Parte, Capítulo VIII, 1605",
+    "fuente_nota": "",
+    "texto_base": "En esto, descubrieron treinta o cuarenta molinos de viento que hay en aquel campo, y así como don Quijote los vio, dijo a su escudero:\n\n-La ventura va guiando nuestras cosas mejor de lo que acertáramos a desear; porque ves allí, amigo Sancho Panza, donde se descubren treinta o pocos más desaforados gigantes, con quien pienso hacer batalla y quitarles a todos las vidas, con cuyos despojos comenzaremos a enriquecer, que esta es buena guerra, y es gran servicio de Dios quitar tan mala simiente de sobre la faz de la tierra.\n\n-¿Qué gigantes? -dijo Sancho Panza.\n\n-Aquellos que allí ves -respondió su amo-, de los brazos largos, que los suelen tener algunos de casi dos leguas.\n\n-Mire vuestra merced -respondió Sancho- que aquellos que allí se parecen no son gigantes, sino molinos de viento, y lo que en ellos parecen brazos son las aspas, que, volteadas del viento, hacen andar la piedra del molino.\n\n-Bien parece -respondió don Quijote- que no estás cursado en esto de las aventuras: ellos son gigantes; y si tienes miedo quítate de ahí, y ponte en oración en el espacio que yo voy a entrar con ellos en fiera y desigual batalla.\n\nY, diciendo esto, dio de espuelas a su caballo Rocinante, sin atender a las voces que su escudero Sancho le daba, advirtiéndole que sin duda alguna eran molinos de viento, y no gigantes, aquellos que iba a acometer. Pero él iba tan puesto en que eran gigantes, que ni oía las voces de su escudero Sancho, ni echaba de ver, aunque estaba ya bien cerca, lo que eran, antes iba diciendo en voces altas:\n\n-Non fuyades, cobardes y viles criaturas, que un solo caballero es el que os acomete.\n\nLevantóse en esto un poco de viento, y las grandes aspas comenzaron a moverse, lo cual visto por don Quijote, dijo:\n\n-Pues aunque mováis más brazos que los del gigante Briareo, me lo habéis de pagar.\n\nY en diciendo esto, y encomendándose de todo corazón a su señora Dulcinea, pidiéndole que en tal trance le socorriese, bien cubierto de su rodela, con la lanza en el ristre, arremetió a todo el galope de Rocinante y embistió con el primero molino que estaba delante; y dándole una lanzada en el aspa, la volvió el viento con tanta furia, que hizo la lanza pedazos, llevándose tras sí al caballo y al caballero, que fue rodando muy maltrecho por el campo. Acudió Sancho Panza a socorrerle, a todo el correr de su asno, y cuando llegó halló que no se podía menear: tal fue el golpe que dio con él Rocinante.\n\n-¡Válame Dios! -dijo Sancho-. ¿No le dije yo a vuestra merced que mirase bien lo que hacía, que no eran sino molinos de viento, y no lo podía ignorar sino quien llevase otros tales en la cabeza?\n\n-Calla, amigo Sancho -respondió don Quijote-, que las cosas de la guerra más que otras están sujetas a continua mudanza; cuanto más, que yo pienso, y es así verdad, que aquel sabio Frestón que me robó el aposento y los libros ha vuelto estos gigantes en molinos, por quitarme la gloria de su vencimiento: tal es la enemistad que me tiene; mas al cabo al cabo han de poder poco sus malas artes contra la bondad de mi espada.\n\n-Dios lo haga como puede -respondió Sancho Panza.\n\nY, ayudándole a levantar, tornó a subir sobre Rocinante, que medio despaldado estaba. Y, hablando en la pasada aventura, siguieron el camino del Puerto Lápice, porque allí decía don Quijote que no era posible dejar de hallarse muchas y diversas aventuras, por ser lugar muy pasajero; sino que iba muy pesaroso, por haberle faltado la lanza; y diciéndoselo a su escudero, le dijo:\n\n-Yo me acuerdo haber leído que un caballero español llamado Diego Pérez de Vargas, habiéndosele en una batalla roto la espada, desgajó de una encina un pesado ramo o tronco, y con él hizo tales cosas aquel día y machacó tantos moros, que le quedó por sobrenombre «Machuca», y así él como sus descendientes se llamaron desde aquel día en adelante «Vargas y Machuca». Hete dicho esto porque de la primera encina o roble que se me depare pienso desgajar otro tronco, tal y tan bueno como aquel que me imagino; y pienso hacer con él tales hazañas, que tú te tengas por bien afortunado de haber merecido venir a vellas y a ser testigo de cosas que apenas podrán ser creídas.\n\n-A la mano de Dios -dijo Sancho-. Yo lo creo todo así como vuestra merced lo dice; pero enderécese un poco, que parece que va de medio lado, y debe de ser del molimiento de la caída.\n\n-Así es la verdad -respondió don Quijote-, y si no me quejo del dolor, es porque no es dado a los caballeros andantes quejarse de herida alguna, aunque se le salgan las tripas por ella.\n\n-Si eso es así, no tengo yo que replicar -respondió Sancho-; pero sabe Dios si yo me holgara que vuestra merced se quejara cuando alguna cosa le doliera. De mí sé decir que me he de quejar del más pequeño dolor que tenga, si ya no se entiende también con los escuderos de los caballeros andantes eso del no quejarse.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-027",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar la advertencia explícita de un personaje",
+        "enunciado": "Según el texto, ¿qué le responde Sancho a don Quijote cuando este señala 'gigantes' en el campo?",
+        "opciones": {
+          "A": "Que efectivamente son gigantes enormes y que ambos deben huir de inmediato del lugar",
+          "B": "Que, por más que mira hacia el campo, no logra ver absolutamente nada allí",
+          "C": "Que lo que se ve allí no son gigantes sino molinos de viento, y los brazos son las aspas que mueve el viento",
+          "D": "Que son gigantes, en efecto, pero que ya están muertos y no representan ningún peligro"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Sancho responde literalmente: 'aquellos que allí se parecen no son gigantes, sino molinos de viento, y lo que en ellos parecen brazos son las aspas, que, volteadas del viento, hacen andar la piedra del molino.'",
+        "distractores": {
+          "A": {
+            "explicacion": "Sancho nunca confirma que sean gigantes; al contrario, corrige a don Quijote.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          },
+          "B": {
+            "explicacion": "Sancho sí describe con precisión lo que ve (molinos, aspas); no dice que no vea nada.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "No hay ninguna mención a que estén muertos; Sancho niega directamente que sean gigantes.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-028",
+        "competencia": "comprension_global",
+        "habilidad": "reconocer cómo un personaje reinterpreta un hecho para sostener su creencia inicial",
+        "tarjetas_teoria_relacionada": [
+          "LC-REF-030"
+        ],
+        "enunciado": "Después de la caída, ¿cómo explica don Quijote lo sucedido con los molinos?",
+        "opciones": {
+          "A": "Decide abandonar, desanimado, la aventura de la caballería andante para siempre",
+          "B": "Afirma que el encantador Frestón, su enemigo, convirtió a los gigantes en molinos para quitarle la gloria de vencerlos",
+          "C": "Culpa directamente a Sancho por no haberle advertido a tiempo sobre el peligro real",
+          "D": "Admite abiertamente que se equivocó y que aquello, desde un principio, eran molinos de viento"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Don Quijote sostiene su versión inicial inventando una explicación mágica (el encantador Frestón) en vez de aceptar el error, mostrando cómo reinterpreta la realidad para no contradecir su creencia.",
+        "distractores": {
+          "A": {
+            "explicacion": "Don Quijote continúa la aventura inmediatamente después, sin ninguna intención de abandonarla.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "Don Quijote no culpa a Sancho en este pasaje; de hecho, le pide que 'calle'.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "Es exactamente lo opuesto: don Quijote nunca admite el error, sino que lo justifica con la intervención de un encantador.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-029",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "relacionar un episodio literario con una expresión cultural derivada de él",
+        "tarjetas_teoria_relacionada": [
+          "LC-CUL-041"
+        ],
+        "enunciado": "¿Qué relación existe entre este episodio y el sentido que hoy tiene la expresión 'luchar contra molinos de viento'?",
+        "opciones": {
+          "A": "La expresión describe, según cuenta la tradición popular, una estrategia militar que resultó realmente efectiva para don Quijote",
+          "B": "El episodio muestra que Sancho, en el fondo, también llegó a creer firmemente que aquello eran gigantes",
+          "C": "El episodio muestra a alguien que convierte algo ordinario (molinos) en una amenaza imaginaria (gigantes) por sus propias fantasías",
+          "D": "La expresión se refiere, en realidad, a la energía eólica moderna y no guarda relación con este episodio literario"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El origen de la expresión está precisamente en la confusión voluntaria de don Quijote entre una realidad ordinaria y una amenaza imaginaria, motivada por su obsesión con las novelas de caballería.",
+        "distractores": {
+          "A": {
+            "explicacion": "La 'estrategia' de don Quijote termina en un fracaso físico evidente (la caída), no en una victoria.",
+            "patron_trampa": "inversion_causal"
+          },
+          "B": {
+            "explicacion": "El texto muestra justamente lo contrario: Sancho identifica correctamente los molinos desde el principio.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "La expresión es una alusión cultural directa a este episodio, no una referencia técnica a la energía eólica.",
+            "patron_trampa": "fuera_de_alcance_pregunta"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_literario"
+  },
+  {
+    "id": "LC-GRUPO-012",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_literario",
+    "genero_texto": "novela",
+    "fuente": "Jorge Isaacs, María, Capítulo I, 1867",
+    "fuente_nota": "",
+    "texto_base": "Era yo niño aún cuando me alejaron de la casa paterna para que diera principio a mis estudios en el colegio del doctor Lorenzo María Lleras, establecido en Bogotá hacía pocos años, y famoso en toda la República por aquel tiempo.\n\nEn la noche víspera de mi viaje, después de la velada, entró a mi cuarto una de mis hermanas, y sin decirme una sola palabra cariñosa, porque los sollozos le embargaban la voz, cortó de mi cabeza unos cabellos: cuando salió, habían rodado por mi cuello algunas lágrimas suyas.\n\nMe dormí llorando y experimenté como un vago presentimiento de muchos pesares que debía sufrir después. Esos cabellos quitados a una cabeza infantil; aquella precaución del amor contra la muerte delante de tanta vida, hicieron que durante el sueño vagase mi alma por todos los sitios donde había pasado, sin comprenderlo, las horas más felices de mi existencia.\n\nA la mañana siguiente mi padre desató de mi cabeza, humedecida por tantas lágrimas, los brazos de mi madre. Mis hermanas al decirme sus adioses las enjugaron con besos. María esperó humildemente su turno, y balbuciendo su despedida, juntó su mejilla sonrosada a la mía, helada por la primera sensación de dolor.\n\nPocos momentos después seguí a mi padre, que ocultaba el rostro a mis miradas. Las pisadas de nuestros caballos en el sendero guijarroso ahogaban mis últimos sollozos. El rumor del Sabaletas, cuyas vegas quedaban a nuestra derecha, se aminoraba por instantes. Dábamos ya la vuelta a una de las colinas de la vereda en las que solían divisarse desde la casa viajeros deseados; volví la vista hacia ella buscando uno de tantos seres queridos: María estaba bajo las enredaderas que adornaban las ventanas del aposento de mi madre.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-030",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar una acción explícita de un personaje secundario",
+        "enunciado": "Según el fragmento, ¿qué hizo la hermana del narrador la noche antes de su viaje?",
+        "opciones": {
+          "A": "Le escribió una larga carta de despedida para que la leyera en el camino",
+          "B": "Le preparó personalmente el equipaje para el viaje",
+          "C": "Le cantó una canción de cuna como cuando era niño",
+          "D": "Entró a su cuarto sin decir palabra, ahogada por los sollozos, y le cortó unos cabellos"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El texto lo describe directamente: 'entró a mi cuarto una de mis hermanas, y sin decirme una sola palabra cariñosa... cortó de mi cabeza unos cabellos.'",
+        "distractores": {
+          "A": {
+            "explicacion": "No se menciona ninguna carta en el fragmento.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "El fragmento no habla del equipaje ni de quién lo preparó.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "No hay ninguna mención a canciones; la escena se centra en el silencio y el corte de cabello.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-031",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "interpretar la función narrativa de un presentimiento dentro de la novela",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-022"
+        ],
+        "enunciado": "El narrador dice que sintió 'un vago presentimiento de muchos pesares' la noche antes del viaje. ¿Qué función cumple este presentimiento en el conjunto de la novela, considerando que el lector aún no conoce el resto de la historia?",
+        "opciones": {
+          "A": "Funciona como un anticipo narrativo que genera la expectativa de un sufrimiento futuro, sin revelar todavía de qué tipo",
+          "B": "Confirma de inmediato, en este mismo capítulo, que María va a morir poco después del viaje",
+          "C": "Indica de forma específica que el narrador se arrepentirá para siempre de haber estudiado en Bogotá",
+          "D": "Funciona apenas como un detalle decorativo del relato, sin relación clara con lo que vendrá después"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El presentimiento se plantea de forma deliberadamente vaga ('vago presentimiento de muchos pesares'), funcionando como una anticipación narrativa que genera expectativa sin adelantar los hechos concretos.",
+        "distractores": {
+          "B": {
+            "explicacion": "El capítulo I no revela nada sobre la muerte de María; esa información no está en este fragmento.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El presentimiento no se refiere a los estudios en sí, sino a una sensación general de pesar futuro.",
+            "patron_trampa": "sobreinterpretacion"
+          },
+          "D": {
+            "explicacion": "El presentimiento cumple una función estructural clara: prepara emocionalmente al lector para lo que vendrá en la novela.",
+            "patron_trampa": "enfoque_parcial"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_literario"
+  },
+  {
+    "id": "LC-GRUPO-013",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_literario",
+    "genero_texto": "novela",
+    "fuente": "José Eustasio Rivera, La Vorágine, c. 1924 (fragmento del monólogo del protagonista a la selva)",
+    "fuente_nota": "",
+    "texto_base": "¡Oh, selva, esposa del silencio, madre de la soledad y la neblina! ¿Qué hado maligno me dejó prisionero en tu cárcel verde? Los pabellones de tus ramajes, como inmensa bóveda, siempre están sobre mi cabeza, entre mi aspiración y el cielo claro, que sólo entreveo cuando tus copas estremecidas mueven tu oleaje, a la hora de tus crepúsculos angustiosos. (...) ¡Tú me robaste el ensueño del horizonte y sólo tienes para mis ojos la monotonía de tu cenit, por donde pasa el plácido albor, que jamás alumbra las hojarascas de tus senos húmedos!\n\nTú eres la catedral de la pesadumbre, donde dioses desconocidos hablan a media voz, en el idioma de los murmullos, prometiendo longevidad a los árboles imponentes, contemporáneos del paraíso, que ya eran decanos cuando las primeras tribus aparecieron y esperan impasibles el hundimiento de los siglos venturos. (...) Tú tienes la adustez de la fuerza cósmica y encarnas un misterio de la creación. No obstante, mi espíritu se aviene sólo con lo inestable, desde que soporta el peso de tu perpetuidad, y, más que a la encina de fornido gajo, aprendió a amar a la orquídea lánguida, porque es efímera como el hombre y marchitable como su ilusión.\n\n¡Déjame huir, oh, selva, de tus enfermizas penumbras, formadas con el hálito de los seres que agonizaron en el abandono de tu majestad! ¡Tú misma pareces un cementerio enorme donde te pudres y resucitas! ¡Quiero volver a las regiones donde el secreto no aterra a nadie, donde es imposible la esclavitud, donde la vista no tiene obstáculo y se encumbra el espíritu en la luz libre! (...) ¡Déjame tomar a la tierra de donde vine para desandar esa ruta de lágrimas y sangre que recorrí en nefando día, cuando tras la huella de una mujer me arrastré por montes y desiertos, en busca de la Venganza, diosa implacable que sólo sonríe tras las tumbas!",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-032",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar el sentimiento explícito del hablante hacia su entorno",
+        "enunciado": "Según el fragmento, ¿cuál es el sentimiento predominante del protagonista hacia la selva?",
+        "opciones": {
+          "A": "Una admiración profunda y casi sin reservas hacia la grandeza de la selva",
+          "B": "Una nostalgia profunda por haber crecido en la selva desde su más tierna infancia",
+          "C": "Una indiferencia casi total hacia el entorno natural que lo rodea día tras día",
+          "D": "Un sentimiento de opresión y cautiverio: la siente como una cárcel que le roba el horizonte"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El texto lo dice de forma explícita: '¿Qué hado maligno me dejó prisionero en tu cárcel verde?... Tú me robaste el ensueño del horizonte.'",
+        "distractores": {
+          "A": {
+            "explicacion": "Aunque reconoce su grandeza ('catedral de la pesadumbre'), el tono dominante es de angustia y deseo de huir, no de admiración pura.",
+            "patron_trampa": "enfoque_parcial"
+          },
+          "B": {
+            "explicacion": "El fragmento no menciona ninguna infancia del protagonista en la selva; al contrario, expresa deseo de 'volver' a otro lugar.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El lenguaje intenso y las exclamaciones muestran todo lo contrario a la indiferencia.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-033",
+        "competencia": "comprension_global",
+        "habilidad": "identificar las comparaciones centrales que estructuran una descripción",
+        "tarjetas_teoria_relacionada": [
+          "LC-FIG-001"
+        ],
+        "enunciado": "¿Con qué compara el protagonista a la selva a lo largo del fragmento?",
+        "opciones": {
+          "A": "La compara con una ciudad moderna, ruidosa y llena de movimiento constante",
+          "B": "La compara con una catedral de la pesadumbre y con un cementerio donde ella misma se pudre y resucita",
+          "C": "La compara con un océano en calma, sereno y sin ningún peligro aparente",
+          "D": "La compara con un jardín cuidado, ordenado y perfectamente controlado por el hombre"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto usa literalmente ambas imágenes: 'Tú eres la catedral de la pesadumbre' y '¡Tú misma pareces un cementerio enorme donde te pudres y resucitas!'.",
+        "distractores": {
+          "A": {
+            "explicacion": "No hay ninguna comparación con una ciudad en el fragmento.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "No se menciona ningún océano; la comparación central es con espacios sagrados y funerarios (catedral, cementerio).",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "El fragmento describe la selva como algo abrumador y descontrolado, no como un jardín ordenado.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-034",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "relacionar una preferencia simbólica con la visión de mundo del hablante",
+        "tarjetas_teoria_relacionada": [
+          "LC-FIG-036"
+        ],
+        "enunciado": "El protagonista afirma que aprendió a amar 'la orquídea lánguida' más que 'la encina de fornido gajo' porque la primera 'es efímera como el hombre'. ¿Qué visión sobre su propia existencia revela esta preferencia?",
+        "opciones": {
+          "A": "Revela que el protagonista, al salir de la selva, planea dedicarse por completo a la botánica",
+          "B": "Revela que prefiere las flores sobre todo por motivos estéticos, sin mayor relación con su propia situación vital",
+          "C": "Revela que se identifica más con lo temporal y frágil que con lo perpetuo e imponente, quizás porque su propia vida se siente breve frente a la selva",
+          "D": "Revela que el protagonista, tras este monólogo, ya no le teme en absoluto a la muerte"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "La comparación explícita ('efímera como el hombre... marchitable como su ilusión') conecta la preferencia por lo pasajero con la propia condición mortal y vulnerable del hablante, en contraste con la 'perpetuidad' agobiante de la selva.",
+        "distractores": {
+          "A": {
+            "explicacion": "No hay ninguna mención a planes futuros relacionados con botánica; es una inferencia sin respaldo textual.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "El propio texto conecta la preferencia con la condición humana ('como el hombre'), no con un gusto estético aislado.",
+            "patron_trampa": "enfoque_parcial"
+          },
+          "D": {
+            "explicacion": "El tono angustiado del fragmento ('cárcel verde', 'cementerio') contradice la idea de que ya no teme a la muerte.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_literario"
+  },
+  {
+    "id": "LC-GRUPO-014",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_literario",
+    "genero_texto": "novela",
+    "fuente": "Pilar Quintana, La perra, 2017 (Premio Alfaguara de Novela 2018)",
+    "fuente_nota": "⚠️ Texto con derechos de autor vigentes (autora contemporánea, viva).",
+    "texto_base": "—Esta mañana la encontré ahí, patas arriba —dijo doña Elodia señalando un lugar en la playa donde se juntaba la basura que el mar traía o desenterraba: troncos, bolsas plásticas, botellas.\n\n—¿Envenenada?\n\n—Yo creo.\n\n—¿Qué hicieron con ella? ¿La enterraron?\n\nDoña Elodia dijo que sí con la cabeza:\n\n—Mis nietos.\n\n—¿Arriba en el cementerio?\n\n—No, aquí nomás en la playa.\n\nMuchos perros del pueblo morían envenenados. Alguna gente decía que los mataban aposta, pero Damaris no podía creer que hubiera personas capaces de hacer algo así y pensaba que los perros se comían por error las carnadas con veneno que dejaban para las ratas o a las ratas que estando envenenadas eran fáciles de cazar.\n\n—Lo siento —dijo Damaris.\n\nDoña Elodia solo asintió. Había tenido esa perra mucho tiempo, una perra negra que se la pasaba echada junto al estadero y andaba detrás de ella para todos lados: la iglesia, la casa de la nuera, la tienda, el muelle... Debía estar muy triste, pero no lo mostraba. Dejó al cachorro que acababa de alimentar con una jeringa que llenaba con la leche de una taza y agarró otro. Había diez y eran tan pequeños que no habían abierto los ojos.\n\n—Tienen seis días de nacidos —dijo doña Elodia—, no van a sobrevivir.\n\nElla había sido vieja desde que Damaris tenía memoria, usaba unas gafas de vidrios gruesos que le agrandaban los ojos y era gorda de la cintura para abajo, una persona de pocas palabras que se movía con lentitud y se mantenía tranquila hasta en los días más ocupados del estadero, cuando había borrachos y niños que corrían por entre las mesas. En cambio, ahora se le notaba el agobio.\n\n—¿Por qué no los reparte? —dijo Damaris.\n\n—Ya se llevaron uno, pero nadie quiere a los perros tan chiquitos.\n\nComo era temporada baja, en el estadero no había mesas ni música ni turistas ni nada, solo el espacio vacío que ahora se veía enorme con doña Elodia sentada en un banco y los diez cachorros dentro de una caja de cartón. Damaris los miró con atención hasta que se decidió por uno.\n\n—¿Me puedo llevar ese? —dijo.\n\nDoña Elodia puso en la caja al que acababa de alimentar, sacó el que Damaris había señalado, uno de pelo gris y orejas caídas, y lo miró por detrás.\n\n—Es una hembra —dijo.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-035",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar la motivación explícita de un personaje en una escena inicial",
+        "enunciado": "En la escena inicial de la novela, ¿por qué decide Damaris llevarse a la cachorra?",
+        "opciones": {
+          "A": "Porque la cachorra, sola y perdida, la siguió por la playa hasta la puerta de su casa",
+          "B": "Porque Rogelio, su pareja, se la pidió expresamente como regalo de cumpleaños",
+          "C": "Porque la ganó por sorpresa en una rifa que se organizó esa semana en el pueblo",
+          "D": "La vio entre una camada de cachorros que doña Elodia no lograba repartir, tras la muerte envenenada de la madre"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "La escena muestra a Damaris deteniéndose por curiosidad en el estadero de doña Elodia, donde ve la camada de cachorros huérfanos y elige uno.",
+        "distractores": {
+          "A": {
+            "explicacion": "La cachorra no sigue a Damaris; es ella quien la elige de entre la camada.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "Rogelio no aparece en esa escena inicial ni tiene ninguna intervención en la elección de la cachorra.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "No hay ninguna rifa en la escena; la adopción ocurre de forma directa e informal.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-036",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "relacionar el inicio de una novela con su desenlace para identificar un patrón temático",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-022"
+        ],
+        "enunciado": "Considerando el desenlace de la novela, ¿qué relación se puede establecer con la escena inicial de adopción de la cachorra?",
+        "opciones": {
+          "A": "El inicio y el final de toda la novela ocurren, de manera sorprendente, en un mismo y único día narrativo de la historia",
+          "B": "La escena inicial, con la muerte de la perra madre, anticipa un ciclo de apego y pérdida que se repite hasta el desenlace trágico de Damaris",
+          "C": "Existe muy poca relación temática real entre el inicio y el final de toda la novela",
+          "D": "El final revela que la escena inicial de la adopción fue apenas un sueño lejano de Damaris"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "La novela construye un paralelismo entre el origen de la perra (una muerte, una camada difícil, un apego que nace de la carencia) y el desenlace, en el que Damaris repite, en otra escala, ese mismo ciclo de vida y muerte.",
+        "distractores": {
+          "A": {
+            "explicacion": "Entre el inicio y el final de la novela transcurre un tiempo narrativo considerable, no un solo día.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "La novela está construida precisamente sobre ese paralelismo temático entre principio y final.",
+            "patron_trampa": "enfoque_parcial"
+          },
+          "D": {
+            "explicacion": "No hay ningún elemento en la novela que sugiera que la escena inicial sea un sueño; es un hecho narrativo real dentro de la historia.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_literario"
+  }
+]

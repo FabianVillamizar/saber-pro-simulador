@@ -1,0 +1,544 @@
+[
+  {
+    "id": "LC-GLO-001",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "tesis_y_argumentos_de_soporte",
+    "pregunta": "¿Cómo se distingue la tesis de un texto de los argumentos que la sostienen?",
+    "respuesta_breve": "La tesis es la afirmación central que el autor defiende; los argumentos son las razones, datos o ejemplos que buscan convencer al lector de que esa tesis es válida.",
+    "explicacion": "Para separar la **tesis** de sus **argumentos de soporte**, primero identifica la postura general del texto. Luego, por cada razón que encuentres, pregúntate: '¿esto es lo que el autor defiende, o es una prueba que usa para defenderlo?'. Los argumentos suelen introducirse con conectores como 'porque', 'ya que', 'esto se debe a', o con datos y ejemplos concretos.",
+    "ejemplo_aplicado": "'El teletrabajo debería mantenerse como opción permanente. Reduce el tiempo de transporte de los empleados y disminuye los costos de oficina de las empresas.' La primera oración es la tesis; las otras dos son argumentos de soporte.",
+    "error_comun": "Se confunde un argumento fuerte y llamativo con la tesis misma, cuando en realidad ese argumento solo existe para sostener una afirmación más general que aparece en otra parte del texto.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "LC-GLO-002",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "tesis_y_argumentos_de_soporte",
+    "pregunta": "¿Cómo se jerarquizan los argumentos de un texto cuando hay varios apoyando la misma tesis?",
+    "respuesta_breve": "Identificando cuál argumento es más general y cuáles son ejemplos o datos específicos que lo desarrollan a él, no directamente a la tesis.",
+    "explicacion": "En textos con varios párrafos de desarrollo, no todos los argumentos se conectan directamente con la tesis: algunos apoyan a otro argumento intermedio. Para jerarquizarlos, agrupa las oraciones de cada párrafo bajo una idea-argumento central, y luego revisa cómo esa idea-argumento se conecta con la tesis general del texto completo.",
+    "ejemplo_aplicado": "Tesis: 'La ciudad necesita más ciclovías.' Argumento: 'Reduce la contaminación.' Dato que apoya al argumento: 'Un estudio local midió una baja del 12% en emisiones donde se implementaron.' El dato apoya al argumento, y el argumento apoya a la tesis.",
+    "error_comun": "Se trata a todos los datos y ejemplos como si apoyaran directamente la tesis, sin notar que muchos en realidad apoyan a un argumento intermedio, que es el que conecta con la tesis.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-GLO-001"
+    ]
+  },
+  {
+    "id": "LC-GLO-003",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "tesis_y_argumentos_de_soporte",
+    "pregunta": "¿Qué diferencia hay entre un argumento y un simple ejemplo dentro de un texto argumentativo?",
+    "respuesta_breve": "El argumento es una razón general que justifica la tesis; el ejemplo es un caso concreto que ilustra esa razón, sin ser la razón en sí misma.",
+    "explicacion": "Para distinguirlos, pregúntate si la afirmación es una regla general ('X produce Y', 'X es preferible porque Z') o un caso puntual que sirve para hacer tangible esa regla. Si puedes reemplazar la afirmación por 'por ejemplo...' sin perder el argumento general, es un ejemplo, no el argumento mismo.",
+    "ejemplo_aplicado": "Argumento: 'Los programas de reciclaje reducen los residuos en vertederos.' Ejemplo: 'En una ciudad, el programa de reciclaje redujo los residuos enviados al relleno sanitario.' El caso concreto ilustra el argumento general, no lo reemplaza.",
+    "error_comun": "Se confunde el ejemplo particular con el argumento general que representa; si el examen pregunta por el argumento y se responde con el ejemplo, la respuesta es demasiado específica y probablemente incorrecta.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-GLO-001"
+    ]
+  },
+  {
+    "id": "LC-GLO-004",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "tesis_y_su_antitesis_a_nivel_textual",
+    "pregunta": "¿Cómo se identifica la antítesis de la tesis principal de un texto argumentativo completo?",
+    "respuesta_breve": "Se formula la idea exactamente opuesta a la tesis, invirtiendo su sentido central, no solo negando una palabra suelta.",
+    "explicacion": "Este tipo de pregunta pide la idea contraria a lo que defiende todo el texto, no una frase cualquiera que 'suene distinta'. Primero, formula la tesis en una sola oración clara. Luego, invierte su sentido central: si la tesis dice 'X no debería prohibirse', la antítesis exacta es 'X debería prohibirse' — no una idea relacionada pero distinta.",
+    "ejemplo_aplicado": "Tesis de un texto: 'Los exámenes estandarizados deberían mantenerse porque permiten comparar objetivamente el desempeño educativo.' Antítesis: 'Los exámenes estandarizados deberían eliminarse.'",
+    "error_comun": "Se elige como antítesis una idea que el texto menciona de forma secundaria (una idea que el autor reconoce parcialmente), en vez de la inversión exacta de la tesis principal; el examen suele incluir varios distractores que son ideas secundarias del texto, no la verdadera antítesis.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-FUN-003"
+    ]
+  },
+  {
+    "id": "LC-GLO-005",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "tesis_y_su_antitesis_a_nivel_textual",
+    "pregunta": "¿Por qué la antítesis de un texto rara vez está escrita literalmente en él?",
+    "respuesta_breve": "Porque el autor dedica el texto a defender su propia tesis, así que la idea opuesta normalmente solo se menciona para refutarla, no para exponerla completa.",
+    "explicacion": "Cuando busques la antítesis, no esperes encontrarla en una oración lista para copiar: identifica los argumentos que el autor refuta o contra los que argumenta a lo largo del texto (marcados con 'sin embargo', 'aunque algunos dicen', 'se podría objetar que'), y reconstruye a partir de ellos la postura contraria completa que el autor está rechazando.",
+    "ejemplo_aplicado": "'Algunos sostienen que subir los impuestos frenaría la economía. Sin embargo, la evidencia muestra que financiaría servicios que la impulsan.' La antítesis (frenar la economía subiendo impuestos) aparece solo mencionada para ser refutada, no desarrollada.",
+    "error_comun": "Se busca la antítesis como si fuera una oración completa y explícita en el texto, cuando frecuentemente solo aparece mencionada de forma breve, en el momento en que el autor la refuta.",
+    "dificultad": "alta",
+    "prereqs": [
+      "LC-GLO-004"
+    ]
+  },
+  {
+    "id": "LC-GLO-006",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "tipos_de_audiencia_de_un_texto",
+    "pregunta": "¿Cómo se identifica el tipo de audiencia (público) al que está dirigido un texto?",
+    "respuesta_breve": "Analizando el nivel de vocabulario, qué conocimientos previos asume el autor, y si hay menciones directas al lector.",
+    "explicacion": "Para identificar la **audiencia** de un texto, revisa tres señales: (1) el nivel del vocabulario (técnico o general), (2) qué información se explica y cuál se da por sentada sin explicar, y (3) si hay referencias directas al lector ('usted', 'como sabrán', 'estimados colegas'). La combinación de estas señales revela si el texto se dirige a especialistas, al público general, a un grupo etario específico, etc.",
+    "ejemplo_aplicado": "'El paciente debe suspender la ingesta 8 horas antes del procedimiento.' El vocabulario técnico sin explicaciones adicionales sugiere una audiencia con formación médica o al menos familiarizada con el entorno clínico.",
+    "error_comun": "Se confunde el tema del texto con su audiencia: un texto puede hablar de un tema complejo y estar escrito para principiantes, si el lenguaje y las explicaciones son accesibles.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "LC-GLO-007",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "tipos_de_audiencia_de_un_texto",
+    "pregunta": "¿Por qué es importante identificar la audiencia de un texto para responder preguntas de Lectura Crítica?",
+    "respuesta_breve": "Porque muchas veces el examen pregunta directamente para quién fue escrito el texto, o pide inferir qué reacción esperaría generar en ese público específico.",
+    "explicacion": "Al identificar la audiencia, no te quedes solo en 'es para el público general': especifica qué la caracteriza (¿son estudiantes?, ¿son consumidores de un producto?, ¿son ciudadanos de una comunidad específica?). Esa audiencia también determina qué reacción o efecto busca el texto en sus lectores, lo cual suele conectarse con el propósito comunicativo.",
+    "ejemplo_aplicado": "Un anuncio que dice 'Protege el futuro de tu familia con nuestro seguro' se dirige a adultos con responsabilidades familiares, no a un público general indiferenciado; esto explica por qué apela a la protección de otros y no solo a beneficios personales.",
+    "error_comun": "Se responde de forma demasiado genérica ('está dirigido a todo el mundo') cuando el texto en realidad tiene marcas claras que apuntan a un grupo más específico.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-GLO-006"
+    ]
+  },
+  {
+    "id": "LC-GLO-008",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "voces_e_interlocutores_en_el_texto",
+    "pregunta": "¿Cuántas voces distintas puede haber dentro de un mismo texto y cómo se identifican?",
+    "respuesta_breve": "Puede haber la voz del autor/narrador y una o más voces citadas o representadas (expertos, personajes, opositores); se identifican por comillas, verbos de habla y cambios de perspectiva.",
+    "explicacion": "Un texto puede combinar varias **voces**: la del autor (o narrador) y las de otras personas que cita, parafrasea o representa. Para mapearlas, marca cada vez que aparece un verbo de habla ('dice', 'sostiene', 'según') o un cambio evidente de perspectiva, y anota a quién pertenece cada segmento del texto.",
+    "ejemplo_aplicado": "'El alcalde afirmó que la obra estará lista en diciembre. Sin embargo, los vecinos denuncian retrasos constantes.' Hay dos voces citadas (el alcalde y los vecinos), organizadas por la voz del autor que las presenta.",
+    "error_comun": "Se trata todo el texto como si tuviera una sola voz uniforme, sin notar que el autor está presentando y a veces contrastando varias perspectivas distintas dentro del mismo párrafo.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-FIG-013"
+    ]
+  },
+  {
+    "id": "LC-GLO-009",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "voces_e_interlocutores_en_el_texto",
+    "pregunta": "¿Cómo se distingue la voz del narrador de la voz de un personaje en un texto narrativo?",
+    "respuesta_breve": "El narrador describe la escena y las acciones desde fuera (o dentro) de la historia; el personaje habla en diálogos marcados, generalmente con guiones o comillas.",
+    "explicacion": "En textos narrativos, primero separa las partes descriptivas (voz del narrador) de las partes dialogadas (voz de los personajes), guiándote por los guiones de diálogo o las comillas. Luego, si hay varios personajes hablando, identifica a cuál pertenece cada línea usando las acotaciones ('dijo Juan', 'respondió ella') que el narrador inserta entre los diálogos.",
+    "ejemplo_aplicado": "El narrador describe: 'La habitación estaba en silencio.' Luego un personaje habla: '—No puedo creer que hayas hecho esto —dijo Marta, sin mirarlo.' La primera oración es narración; la segunda, diálogo de Marta.",
+    "error_comun": "Se atribuye al narrador una opinión que en realidad pertenece a un personaje dentro del diálogo, especialmente cuando el diálogo se integra en el párrafo sin comillas explícitas.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-GLO-008"
+    ]
+  },
+  {
+    "id": "LC-GLO-010",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "voces_e_interlocutores_en_el_texto",
+    "pregunta": "¿Cómo se identifica el interlocutor de un texto cuando no hay menciones directas como 'ustedes' o 'ciudadanos'?",
+    "respuesta_breve": "Infiriendo, a partir del contenido y el tono, quién tendría motivos o necesidad de leer ese texto específico.",
+    "explicacion": "Cuando no hay marcas explícitas, pregúntate: '¿quién necesitaría o buscaría esta información?' y '¿qué reacción parece esperar el autor de su lector (actuar, reflexionar, comprar, sentirse identificado)?'. El tipo de contenido y el llamado a la acción (si lo hay) suelen revelar indirectamente a quién se dirige el texto.",
+    "ejemplo_aplicado": "Un texto que explica paso a paso cómo declarar impuestos, sin mencionar directamente a un lector, está implícitamente dirigido a contribuyentes que deben hacer esa declaración.",
+    "error_comun": "Se concluye que un texto 'no tiene interlocutor específico' solo porque no usa pronombres directos, sin inferir la audiencia a partir del contenido y la utilidad práctica del texto.",
+    "dificultad": "alta",
+    "prereqs": [
+      "LC-GLO-006",
+      "LC-GLO-008"
+    ]
+  },
+  {
+    "id": "LC-GLO-011",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "tipologia_textual",
+    "pregunta": "¿Cómo se distinguen los textos argumentativo, expositivo, narrativo y descriptivo?",
+    "respuesta_breve": "El argumentativo defiende una postura con razones; el expositivo explica un tema de forma neutral; el narrativo cuenta hechos en una secuencia temporal; el descriptivo detalla las características de algo.",
+    "explicacion": "Para identificar la **tipología textual**, pregúntate: ¿el texto defiende una opinión con argumentos? (argumentativo). ¿Explica un tema sin tomar postura? (expositivo). ¿Cuenta una serie de eventos con personajes, tiempo y lugar? (narrativo). ¿Se detiene a detallar cómo es algo o alguien, sin que pase el tiempo? (descriptivo). Un mismo texto puede combinar tipos, pero suele haber uno dominante.",
+    "ejemplo_aplicado": "'El aula tenía paredes blancas, tres ventanas grandes y veinte pupitres de madera.' Es descriptivo: detalla características sin narrar acciones ni defender una postura.",
+    "error_comun": "Se confunde un texto expositivo con uno argumentativo cuando incluye datos o cifras; la clave no es la presencia de información, sino si el autor toma o no una postura que defiende activamente.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "LC-GLO-012",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "tipologia_textual",
+    "pregunta": "¿Puede un texto combinar más de una tipología textual, y cómo se identifica cuál es la dominante?",
+    "respuesta_breve": "Sí; se identifica la dominante viendo cuál tipología organiza el propósito general del texto, mientras las otras cumplen una función secundaria dentro de ella.",
+    "explicacion": "Muchos textos combinan tipologías (una narración dentro de un ensayo argumentativo, por ejemplo). Para encontrar la dominante, pregúntate cuál es el objetivo final del texto completo: si al final defiende una postura, es argumentativo aunque tenga pasajes narrativos o descriptivos que solo sirven de apoyo a ese objetivo mayor.",
+    "ejemplo_aplicado": "Un ensayo que cuenta una breve anécdota personal (narrativo) para luego argumentar a favor de una política pública es, en conjunto, un texto argumentativo: la anécdota está al servicio de la tesis.",
+    "error_comun": "Se clasifica el texto según el tipo del primer párrafo, sin considerar que ese fragmento inicial puede ser solo una introducción narrativa o descriptiva al servicio de un propósito mayor.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-GLO-011"
+    ]
+  },
+  {
+    "id": "LC-GLO-013",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "tipologia_textual",
+    "pregunta": "¿Qué marcas lingüísticas ayudan a reconocer rápidamente un texto expositivo frente a uno argumentativo?",
+    "respuesta_breve": "El expositivo usa un tono neutral, verbos como 'consiste en' o 'se define como', y ausencia de valoraciones; el argumentativo incluye conectores de causa y contraste ('por lo tanto', 'sin embargo') y expresiones de postura ('considero que', 'es evidente que').",
+    "explicacion": "Revisa el vocabulario: si predominan definiciones, clasificaciones y datos sin juicios de valor, es **expositivo**. Si aparecen conectores lógicos que conectan razones con conclusiones ('por lo tanto', 'en consecuencia') y expresiones que muestran la postura del autor, es **argumentativo**.",
+    "ejemplo_aplicado": "Expositivo: 'La fotosíntesis es el proceso mediante el cual las plantas transforman luz solar en energía química.' Argumentativo: 'Por lo tanto, proteger los bosques es indispensable para mantener este proceso vital.'",
+    "error_comun": "Se identifica como argumentativo cualquier texto con datos técnicos, sin notar que un texto puramente expositivo también puede incluir cifras y términos especializados sin defender una postura.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-GLO-011"
+    ]
+  },
+  {
+    "id": "LC-GLO-014",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "textos_continuos_y_discontinuos",
+    "pregunta": "¿Qué diferencia hay entre un texto continuo y un texto discontinuo en el examen de Lectura Crítica?",
+    "respuesta_breve": "El texto continuo se organiza en oraciones y párrafos seguidos (ensayos, cuentos, artículos); el texto discontinuo organiza la información en formatos no lineales como infografías, tablas, gráficas o cómics.",
+    "explicacion": "Un **texto continuo** se lee de principio a fin siguiendo la estructura habitual de oraciones y párrafos. Un **texto discontinuo** organiza su información espacialmente (columnas, viñetas, casillas, ejes de una gráfica), por lo que su lectura no siempre sigue un orden estrictamente lineal: hay que identificar primero cómo está organizada la información antes de interpretarla.",
+    "ejemplo_aplicado": "Un artículo de opinión sobre el clima es un texto continuo. Una infografía con iconos y cifras sobre el mismo tema, organizada en secciones separadas, es un texto discontinuo.",
+    "error_comun": "Se intenta leer un texto discontinuo de la misma forma lineal que un texto continuo, sin notar que primero hay que entender su estructura visual (ejes, columnas, viñetas) para interpretarlo correctamente.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "LC-GLO-015",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "textos_continuos_y_discontinuos",
+    "pregunta": "¿Qué estrategia conviene usar para leer un texto discontinuo como una historieta, una tabla o una infografía?",
+    "respuesta_breve": "Primero identificar las unidades o secciones separadas (viñetas, filas, columnas), y luego entender la relación entre ellas antes de interpretar el mensaje completo.",
+    "explicacion": "Ante un texto discontinuo, primero recorre visualmente sus partes para identificar cómo está segmentada la información (por ejemplo, viñetas numeradas en una historieta, o filas y columnas en una tabla). Luego, pregúntate qué relación existe entre esas partes (secuencia temporal, comparación, causa-efecto) antes de sacar una conclusión sobre el conjunto.",
+    "ejemplo_aplicado": "En una historieta de tres viñetas donde un personaje planta una semilla, luego la riega, y finalmente ve crecer una planta, la relación entre las viñetas es de secuencia temporal y causa-efecto.",
+    "error_comun": "Se interpreta cada viñeta o casilla de forma aislada, sin conectar la relación que existe entre ellas, perdiendo el sentido global que solo aparece al considerar el conjunto.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-GLO-014"
+    ]
+  },
+  {
+    "id": "LC-GLO-016",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "estrategias_discursivas_comparacion_ejemplificacion_refutacion_concesion",
+    "pregunta": "¿Qué son las estrategias discursivas de comparación y ejemplificación, y cómo se reconocen?",
+    "respuesta_breve": "La comparación relaciona dos elementos para resaltar semejanzas o diferencias; la ejemplificación ilustra una idea general con un caso concreto y específico.",
+    "explicacion": "La **comparación** aparece con expresiones como 'a diferencia de', 'de la misma manera', 'mientras que'. La **ejemplificación** aparece con expresiones como 'por ejemplo', 'como el caso de', 'tal como sucedió con'. Ambas son estrategias discursivas: recursos que el autor usa deliberadamente para que su argumento sea más claro o convincente.",
+    "ejemplo_aplicado": "Comparación: 'A diferencia de otras ciudades, esta invierte poco en transporte público.' Ejemplificación: 'Esto se ve, por ejemplo, en la falta de rutas nocturnas de buses.'",
+    "error_comun": "Se confunde la ejemplificación con un argumento independiente, cuando en realidad el ejemplo solo sirve para hacer más concreta una idea que ya fue planteada de forma general antes.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "LC-GLO-017",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "estrategias_discursivas_comparacion_ejemplificacion_refutacion_concesion",
+    "pregunta": "¿Qué son las estrategias discursivas de refutación y concesión, y en qué se diferencian?",
+    "respuesta_breve": "La refutación rechaza directamente un argumento contrario; la concesión acepta parcialmente algo del argumento contrario antes de matizarlo o rebatirlo.",
+    "explicacion": "La **refutación** presenta una idea opuesta solo para desmentirla ('esto no es cierto porque...'). La **concesión** reconoce parte de razón en la postura contraria antes de continuar defendiendo la propia tesis ('es cierto que..., sin embargo...'). La concesión suele hacer que el argumento del autor parezca más equilibrado y honesto.",
+    "ejemplo_aplicado": "Refutación: 'Algunos dicen que la medida es costosa, pero esa cifra ignora el ahorro a largo plazo.' Concesión: 'Es cierto que la medida tiene un costo inicial alto; sin embargo, el ahorro a largo plazo lo compensa.'",
+    "error_comun": "Se confunde la concesión con que el autor esté cambiando de postura; en realidad, la concesión refuerza la propia tesis, reconociendo un punto menor del argumento contrario sin abandonar la posición central.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-GLO-016"
+    ]
+  },
+  {
+    "id": "LC-GLO-018",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "estrategias_discursivas_comparacion_ejemplificacion_refutacion_concesion",
+    "pregunta": "¿Qué es la estrategia discursiva de cita de autoridad?",
+    "respuesta_breve": "Es apoyar un argumento citando o mencionando a una persona, institución o fuente reconocida en el tema, para darle más credibilidad a la afirmación.",
+    "explicacion": "La **cita de autoridad** funciona citando directa o indirectamente a alguien con conocimiento o prestigio reconocido en el tema del texto. Para identificarla, busca nombres propios, títulos profesionales o instituciones mencionadas junto a una afirmación ('según el Dr. ...', 'como señala la Organización Mundial de la Salud'). Su función es fortalecer el argumento apelando a una fuente confiable, no necesariamente probarlo con datos propios.",
+    "ejemplo_aplicado": "'Según la Academia Nacional de Medicina, dormir menos de seis horas aumenta el riesgo cardiovascular.' El autor apoya su afirmación en el prestigio de la institución citada.",
+    "error_comun": "Se acepta automáticamente como más verdadera cualquier afirmación que use cita de autoridad, sin notar que esta estrategia da credibilidad pero no reemplaza la necesidad de evaluar si la fuente es pertinente.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "LC-GLO-019",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "estrategias_discursivas_comparacion_ejemplificacion_refutacion_concesion",
+    "pregunta": "¿Cómo se identifica cuál estrategia discursiva predomina en un párrafo que combina varias?",
+    "respuesta_breve": "Viendo cuál estrategia organiza la estructura general del párrafo, mientras las otras aparecen de forma puntual dentro de ella.",
+    "explicacion": "Un párrafo puede usar varias estrategias a la vez (una comparación que incluye un ejemplo, por ejemplo). Para encontrar la dominante, identifica la oración que organiza el propósito general del párrafo y pregúntate qué estrategia usa esa oración específicamente; las demás estrategias presentes suelen estar al servicio de esa idea organizadora.",
+    "ejemplo_aplicado": "'A diferencia del modelo anterior, el nuevo sistema es más eficiente. Por ejemplo, reduce el tiempo de espera en un 40%.' La comparación organiza el párrafo; el dato es solo un ejemplo que la respalda.",
+    "error_comun": "Se responde con la primera estrategia detectada en el párrafo, sin verificar si esa estrategia es realmente la que organiza el sentido del párrafo completo o si es secundaria respecto a otra.",
+    "dificultad": "alta",
+    "prereqs": [
+      "LC-GLO-016",
+      "LC-GLO-017",
+      "LC-GLO-018"
+    ]
+  },
+  {
+    "id": "LC-GLO-020",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "estrategias_discursivas_comparacion_ejemplificacion_refutacion_concesion",
+    "pregunta": "¿Para qué le sirve al lector identificar las estrategias discursivas de un texto, más allá de nombrarlas?",
+    "respuesta_breve": "Para entender por qué el autor organizó el argumento de esa manera específica, y así evaluar mejor qué tan convincente o completo es el razonamiento.",
+    "explicacion": "No basta con nombrar la estrategia ('esto es una concesión'); el siguiente paso es preguntarse qué función cumple ahí: ¿hace el argumento más creíble?, ¿anticipa una objeción?, ¿aclara una idea abstracta con un caso concreto? Entender esa función es lo que realmente pide el nivel de comprensión global del examen, más que solo memorizar el nombre de la estrategia.",
+    "ejemplo_aplicado": "Identificar que un párrafo usa 'concesión' es el primer paso; el segundo es notar que esa concesión existe para que el lector confíe más en el autor antes de presentar el argumento central.",
+    "error_comun": "Se detiene el análisis en nombrar correctamente la estrategia, sin conectar ese nombre con la función que cumple dentro del argumento completo, que es lo que suelen pedir las preguntas de comprensión global.",
+    "dificultad": "alta",
+    "prereqs": [
+      "LC-GLO-019"
+    ]
+  },
+  {
+    "id": "LC-GLO-021",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "funcion_del_titulo_y_los_parrafos_en_el_sentido_global",
+    "pregunta": "¿Qué función cumple el título dentro del sentido global de un texto?",
+    "respuesta_breve": "Anticipa el tema, delimita la perspectiva desde la que se abordará, y a veces adelanta la postura o el tono del autor.",
+    "explicacion": "El **título** no es solo una etiqueta: suele anunciar el enfoque específico que tomará el texto sobre su tema. Para usarlo a tu favor, antes de leer el texto completo, pregúntate qué expectativa genera el título, y verifica si esa expectativa se cumple, se matiza o se contradice a lo largo del texto.",
+    "ejemplo_aplicado": "El título 'El costo oculto de la comida rápida' ya anticipa que el texto no hablará solo del precio visible, sino de consecuencias adicionales (salud, ambiente) que el lector debe descubrir.",
+    "error_comun": "Se ignora el título al analizar el sentido global del texto, cuando en realidad puede contener pistas clave sobre el enfoque, el tono o incluso la postura del autor.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "LC-GLO-022",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "funcion_del_titulo_y_los_parrafos_en_el_sentido_global",
+    "pregunta": "¿Cómo se identifica la función de un párrafo específico dentro de la estructura completa de un texto?",
+    "respuesta_breve": "Preguntándose qué papel cumple ese párrafo en relación con los demás: ¿introduce, desarrolla, ejemplifica, contrasta o concluye?",
+    "explicacion": "Cada párrafo cumple una función dentro de la arquitectura del texto completo. Para identificarla, ubica el párrafo dentro de la secuencia general (¿está al inicio, en medio o al final?) y pregúntate cómo se relaciona con el párrafo anterior y el siguiente: ¿retoma una idea para desarrollarla?, ¿introduce una objeción?, ¿cierra resumiendo lo dicho?",
+    "ejemplo_aplicado": "En un ensayo de cuatro párrafos, el primero presenta la tesis, el segundo y el tercero desarrollan argumentos distintos, y el cuarto cierra retomando la tesis a la luz de lo argumentado.",
+    "error_comun": "Se analiza cada párrafo de forma aislada, sin relacionarlo con la función que cumple dentro de la estructura completa del texto, perdiendo de vista cómo contribuye al sentido global.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-GLO-021"
+    ]
+  },
+  {
+    "id": "LC-GLO-023",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "funcion_del_titulo_y_los_parrafos_en_el_sentido_global",
+    "pregunta": "¿Qué señales indican que un párrafo cumple una función de cierre o conclusión dentro del texto?",
+    "respuesta_breve": "Retoma la tesis inicial con nuevas palabras, sintetiza los argumentos presentados, y a menudo usa conectores como 'en conclusión', 'en definitiva' o 'finalmente'.",
+    "explicacion": "Un párrafo de cierre normalmente no introduce argumentos completamente nuevos; en cambio, recoge lo ya argumentado y lo conecta de nuevo con la tesis inicial, a veces ampliándola con una implicación final o una llamada a la acción.",
+    "ejemplo_aplicado": "'En definitiva, invertir en educación temprana no solo mejora el desempeño académico, sino que fortalece toda la sociedad a largo plazo.' Retoma la tesis y la conecta con una implicación más amplia.",
+    "error_comun": "Se busca información nueva en el párrafo de cierre para responder preguntas del examen, cuando en realidad su función es sintetizar y conectar, no aportar datos adicionales.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-GLO-022"
+    ]
+  },
+  {
+    "id": "LC-GLO-024",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "relacion_causa_efecto_en_un_texto",
+    "pregunta": "¿Cómo se identifica una relación de causa-efecto dentro de un texto?",
+    "respuesta_breve": "Buscando un conector que indique consecuencia ('por eso', 'debido a', 'como resultado') y verificando que un hecho realmente provoque al otro, no solo que ocurran juntos.",
+    "explicacion": "Para confirmar una relación causa-efecto, primero localiza los conectores que suelen señalarla ('por eso', 'debido a', 'esto provocó', 'como consecuencia'). Luego, verifica que exista una relación real de producción entre los dos hechos: uno debe generar al otro, no solo coincidir en el tiempo o el espacio.",
+    "ejemplo_aplicado": "'La sequía prolongada afectó los cultivos. Por eso, los precios de los alimentos subieron ese año.' La sequía (causa) provoca directamente la subida de precios (efecto).",
+    "error_comun": "Se confunde una simple secuencia temporal (una cosa pasó después de otra) con una relación de causa-efecto real; que dos hechos ocurran uno después del otro no significa que uno haya causado al otro.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "LC-GLO-025",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "relacion_causa_efecto_en_un_texto",
+    "pregunta": "¿Cómo se distingue la causa principal de un efecto de las causas secundarias que solo la refuerzan?",
+    "respuesta_breve": "La causa principal es indispensable para que ocurra el efecto; las causas secundarias solo intensifican o modifican un efecto que ya tendría lugar de todas formas.",
+    "explicacion": "Cuando un texto menciona varias causas para un mismo efecto, pregúntate: 'si eliminara esta causa, ¿el efecto seguiría ocurriendo de todas formas, aunque fuera de forma más leve?'. Si la respuesta es sí, es una causa secundaria. Si el efecto no ocurriría en absoluto sin ella, es la causa principal.",
+    "ejemplo_aplicado": "'La mala planificación urbana causó las inundaciones. Las lluvias intensas de ese mes agravaron el problema.' La planificación deficiente es la causa principal; las lluvias intensas son una causa secundaria que agravó el efecto.",
+    "error_comun": "Se trata a todas las causas mencionadas como igualmente importantes, sin distinguir cuál es realmente indispensable para el efecto y cuál solo lo intensifica.",
+    "dificultad": "alta",
+    "prereqs": [
+      "LC-GLO-024"
+    ]
+  },
+  {
+    "id": "LC-GLO-026",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "como_extraer_conclusiones_no_explicitas",
+    "pregunta": "¿Qué significa extraer una conclusión no explícita de un texto?",
+    "respuesta_breve": "Es formular una idea que se desprende lógicamente de lo que el texto dice, aunque el autor nunca la haya escrito con esas palabras exactas.",
+    "explicacion": "Una conclusión no explícita no está copiada del texto: se construye combinando la información que sí aparece. Para formularla, junta dos o más afirmaciones del texto que, tomadas juntas, permiten deducir algo que ninguna de ellas dice por separado.",
+    "ejemplo_aplicado": "El texto dice: 'Los estudiantes que desayunan rinden mejor en las pruebas de la mañana. En este colegio, el 80% de los estudiantes no desayuna antes de las pruebas.' Conclusión no explícita: probablemente una parte importante del colegio no está rindiendo a su máximo potencial en esas pruebas.",
+    "error_comun": "Se copia literalmente una oración del texto como si fuera la 'conclusión', cuando en realidad la pregunta busca una idea nueva que se deduce combinando información, no una oración ya escrita.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "LC-GLO-027",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "como_extraer_conclusiones_no_explicitas",
+    "pregunta": "¿Cómo se verifica que una conclusión propuesta realmente se desprende del texto y no es una suposición externa?",
+    "respuesta_breve": "Rastreando cada parte de la conclusión hasta una afirmación específica del texto; si alguna parte no tiene respaldo textual, es una suposición externa, no una conclusión válida.",
+    "explicacion": "Antes de aceptar una conclusión como correcta, divide la oración propuesta en sus partes y busca, para cada una, la afirmación del texto que la sostiene. Si toda la conclusión puede rastrearse hasta el texto, es válida. Si una parte depende de conocimiento externo o de una suposición no mencionada, no es una conclusión legítima.",
+    "ejemplo_aplicado": "Texto: 'La empresa redujo su plantilla en un 20% tras automatizar la producción.' Conclusión válida: 'La automatización afectó los niveles de empleo en la empresa.' Conclusión inválida: 'La empresa aumentará sus ganancias' (no hay información en el texto sobre ganancias).",
+    "error_comun": "Se acepta una conclusión que 'suena lógica en general' pero que en realidad se apoya en conocimiento del mundo real ajeno al texto, en vez de estar respaldada por lo que el texto afirma.",
+    "dificultad": "alta",
+    "prereqs": [
+      "LC-GLO-026"
+    ]
+  },
+  {
+    "id": "LC-GLO-028",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "como_extraer_conclusiones_no_explicitas",
+    "pregunta": "¿Qué diferencia hay entre una conclusión que 'se puede deducir' y una que 'es compatible' con el texto?",
+    "respuesta_breve": "La conclusión deducible se desprende necesariamente de la información dada; la compatible simplemente no la contradice, pero podría no estar realmente respaldada por ella.",
+    "explicacion": "Una conclusión deducible debe seguirse casi obligatoriamente de las afirmaciones del texto. Una idea meramente compatible no choca con lo que dice el texto, pero tampoco tiene evidencia directa que la sostenga: podría ser cierta o no, según información que el texto no ofrece. En preguntas de examen, la respuesta correcta suele ser la deducible, no solo la compatible.",
+    "ejemplo_aplicado": "Texto: 'El puente fue cerrado por daños estructurales tras el terremoto.' Deducible: 'El terremoto afectó la infraestructura de la zona.' Solo compatible: 'Las autoridades tardarán un año en repararlo' (no hay información sobre el tiempo de reparación).",
+    "error_comun": "Se elige una opción solo porque 'no contradice' el texto, sin verificar si realmente se desprende de la información dada; muchas opciones compatibles pero no deducibles funcionan como distractores.",
+    "dificultad": "alta",
+    "prereqs": [
+      "LC-GLO-026",
+      "LC-GLO-027"
+    ]
+  },
+  {
+    "id": "LC-GLO-029",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "conectores_y_su_funcion_en_el_sentido_global",
+    "pregunta": "Más allá del significado local de una oración, ¿qué función cumplen los conectores en la organización global de un argumento?",
+    "respuesta_breve": "Señalan cómo se relacionan las grandes secciones del texto entre sí: si una idea se opone a la anterior, la desarrolla, la matiza o cierra el razonamiento completo.",
+    "explicacion": "A nivel global, los conectores no solo unen dos oraciones cercanas: marcan la arquitectura completa del argumento. Identifica los conectores que aparecen al inicio de párrafos (no solo dentro de oraciones) y pregúntate qué movimiento argumentativo señalan a gran escala: ¿un giro completo de perspectiva?, ¿el inicio de la conclusión general?",
+    "ejemplo_aplicado": "Un ensayo que dedica dos párrafos a explicar un problema y luego empieza el tercero con 'Sin embargo, existe una alternativa poco explorada' usa ese conector para señalar el giro hacia la propuesta central del texto completo.",
+    "error_comun": "Se analiza cada conector solo en relación con la oración inmediata, sin notar que algunos marcan giros importantes en la organización de todo el texto, especialmente al inicio de un párrafo nuevo.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "LC-GLO-030",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "conectores_y_su_funcion_en_el_sentido_global",
+    "pregunta": "¿Qué tipos de relación lógica señalan con más frecuencia los conectores en textos argumentativos, más allá de 'oposición'?",
+    "respuesta_breve": "Además de oposición ('sin embargo'), señalan causa ('por lo tanto'), adición ('además'), concesión ('aunque'), aclaración ('es decir') y conclusión ('en síntesis').",
+    "explicacion": "Para responder con precisión qué función cumple un conector, no te quedes en 'contraste' de forma genérica: distingue entre oposición total (contradice lo anterior), concesión (matiza sin contradecir del todo), causa/consecuencia (una idea produce la otra), aclaración (reformula lo mismo con otras palabras) y conclusión (cierra el razonamiento).",
+    "ejemplo_aplicado": "'El proyecto es costoso; aunque, a largo plazo, genera ahorros significativos.' 'Aunque' señala concesión (matiza sin negar por completo la idea del costo), no una oposición total.",
+    "error_comun": "Se responde 'oposición' para cualquier conector que introduzca una idea distinta, sin distinguir si es una oposición completa, una concesión parcial o simplemente una aclaración del mismo punto.",
+    "dificultad": "alta",
+    "prereqs": [
+      "LC-GLO-029"
+    ]
+  },
+  {
+    "id": "LC-GLO-031",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "conectores_y_su_funcion_en_el_sentido_global",
+    "pregunta": "¿Cómo afecta la eliminación mental de un conector a la comprensión del sentido global de un párrafo?",
+    "respuesta_breve": "Sin el conector, las ideas quedan yuxtapuestas sin que se entienda cómo se relacionan entre sí, lo que puede generar ambigüedad sobre si se refuerzan, se oponen o una causa a la otra.",
+    "explicacion": "Una forma de comprobar la importancia de un conector es quitarlo mentalmente del párrafo y leer las dos ideas por separado. Si al hacerlo la relación entre ambas se vuelve ambigua o se pierde información sobre cómo se conectan, confirmas que el conector cumplía una función clave para el sentido global, no solo decorativa.",
+    "ejemplo_aplicado": "Con conector: 'El plan fracasó; por lo tanto, se buscó una nueva estrategia.' Sin conector: 'El plan fracasó. Se buscó una nueva estrategia.' Sin 'por lo tanto', ya no queda explícito que la segunda acción fue consecuencia directa de la primera.",
+    "error_comun": "Se subestima la importancia de los conectores por considerarlos 'palabras de relleno', cuando en realidad frecuentemente son los que sostienen la lógica completa del argumento.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-GLO-029"
+    ]
+  },
+  {
+    "id": "LC-GLO-032",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "funcion_poetica_del_lenguaje",
+    "pregunta": "¿Qué es la función poética del lenguaje y cómo se reconoce en un texto?",
+    "respuesta_breve": "Es cuando el lenguaje llama la atención sobre su propia forma (sonido, ritmo, estructura, elección de palabras), no solo sobre el contenido que transmite.",
+    "explicacion": "La función poética ocurre cuando la manera en que algo se dice se vuelve tan importante como lo que se dice: el autor elige palabras, ritmos o estructuras que producen un efecto estético, más allá de la información literal. Para reconocerla, pregúntate si el texto podría decir exactamente lo mismo con palabras más simples sin perder nada importante; si la respuesta es no, esa forma específica cumple una función poética.",
+    "ejemplo_aplicado": "'El silencio caminaba descalzo por los pasillos vacíos del hospital.' La elección de palabras y la imagen construida generan un efecto estético que una versión simple ('el hospital estaba muy silencioso') no lograría.",
+    "error_comun": "Se confunde la función poética con la presencia de figuras retóricas aisladas; en realidad es un uso más general del lenguaje centrado en su forma, que puede o no incluir figuras retóricas específicas.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "LC-GLO-033",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "comprension_global",
+    "subtema": "funcion_poetica_del_lenguaje",
+    "pregunta": "¿Por qué un texto informativo casi nunca tiene función poética del lenguaje?",
+    "respuesta_breve": "Porque su prioridad es la claridad y la precisión de la información, no el efecto estético de las palabras elegidas.",
+    "explicacion": "Compara el propósito del texto con la forma en que está escrito: si el objetivo es transmitir datos de la forma más directa y clara posible, la forma queda subordinada al contenido, y no hay función poética relevante. Esta función aparece principalmente en textos literarios, publicitarios o discursos donde el efecto en el lector importa tanto como la información.",
+    "ejemplo_aplicado": "'La reunión se realizará el martes a las 10 a.m. en la sala 3.' No hay función poética: la forma es completamente neutral y funcional. 'El martes, a las diez, nos reuniremos bajo el peso de las decisiones pendientes' sí la tiene, aunque comunique lo mismo.",
+    "error_comun": "Se busca función poética en cualquier texto con vocabulario elaborado, sin distinguir entre un vocabulario simplemente formal o técnico y uno que efectivamente busca un efecto estético.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-GLO-032"
+    ]
+  },
+  {
+    "id": "LC-GLO-034",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "reflexion_evaluacion",
+    "subtema": "anticipacion_narrativa_o_foreshadowing",
+    "pregunta": "¿Qué es la anticipación narrativa (o foreshadowing) y qué función cumple dentro de un relato?",
+    "respuesta_breve": "Es un detalle, ambiente o comentario colocado antes en la narración que, sin revelarlo del todo, prepara al lector para algo que ocurrirá más adelante en la historia.",
+    "explicacion": "La **anticipación narrativa** siembra pistas tempranas —una atmósfera, un objeto, un comentario aparentemente secundario— que cobran sentido pleno solo al final del relato. Su función no es informar directamente, sino generar una coherencia retrospectiva: al llegar al desenlace, el lector puede volver atrás y reconocer que esos detalles ya apuntaban hacia lo que iba a pasar.",
+    "ejemplo_aplicado": "En 'El almohadón de plumas' de Quiroga, la descripción inicial de la casa fría, silenciosa y de mármol anticipa el ambiente de horror del final, aunque en ese momento el lector no sepa todavía que hay un parásito escondido en el almohadón.",
+    "error_comun": "Se confunde con un simple detalle decorativo o de ambientación sin propósito narrativo; la clave para identificar la anticipación es que, releído después del desenlace, ese detalle adquiere un significado que no tenía (o no era evidente) en una primera lectura.",
+    "dificultad": "alta",
+    "prereqs": [
+      "LC-GLO-022"
+    ]
+  },
+  {
+    "id": "LC-GLO-035",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "reflexion_evaluacion",
+    "subtema": "proporcion_relativa_vs_valor_absoluto",
+    "pregunta": "¿Cómo se distingue un cambio en la proporción relativa (porcentaje) de un cambio en el valor absoluto dentro de un gráfico o una tabla?",
+    "respuesta_breve": "El porcentaje muestra qué parte representa algo dentro de un total, mientras que el valor absoluto es la cantidad real; ambos pueden cambiar de forma independiente si el total también cambia.",
+    "explicacion": "Un **porcentaje que se mantiene igual** no significa que la cantidad real detrás de él se mantenga igual: si el total crece o decrece, la cantidad absoluta asociada a ese porcentaje cambia en la misma proporción, aunque el número del porcentaje no se mueva. Para evaluar correctamente una afirmación sobre datos, hay que preguntarse primero si habla de proporción (parte de un total) o de cantidad real (una cifra concreta).",
+    "ejemplo_aplicado": "Si el gasto en salud de un hogar es el 8 % de su presupuesto y el ingreso del hogar sube un 20 %, el gasto en salud en pesos también sube, aunque el porcentaje siga siendo 8 %: la proporción no cambió, pero el valor absoluto sí.",
+    "error_comun": "Se asume que un porcentaje constante implica automáticamente una cantidad constante, ignorando que ambos dependen del tamaño del total sobre el que se calcula el porcentaje.",
+    "dificultad": "alta",
+    "prereqs": [
+      "LC-GLO-014"
+    ]
+  }
+]

@@ -223,7 +223,14 @@ export function PracticaPorParte({ moduloId, perfil, onCambiarPerfil, onVolver }
         mostrarCorreccion={respondida}
       />
 
-      {respondida && <PanelExplicacion pregunta={pregunta} seleccion={seleccion} esCorrecta={esCorrecta} />}
+      {respondida && (
+        <PanelExplicacion
+          pregunta={pregunta}
+          seleccion={seleccion}
+          esCorrecta={esCorrecta}
+          tarjetasConcepto={modulo.tarjetasConcepto}
+        />
+      )}
 
       {respondida && (
         <button type="button" className="boton-primario practica-siguiente" onClick={siguiente}>

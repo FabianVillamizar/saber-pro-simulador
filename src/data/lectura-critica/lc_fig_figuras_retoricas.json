@@ -1,0 +1,737 @@
+[
+  {
+    "id": "LC-FIG-001",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "metafora",
+    "pregunta": "¿Qué es una metáfora?",
+    "respuesta_breve": "Es una figura que llama a algo con el nombre de otra cosa, basándose en una semejanza real o imaginada entre ambas, sin usar palabras comparativas.",
+    "explicacion": "La **metáfora** identifica dos elementos (el término real y el término imaginario) fusionándolos en una sola expresión, sin usar conectores comparativos como 'como' o 'parece'. Se basa en una semejanza percibida entre ambos elementos.",
+    "ejemplo_aplicado": "'Sus ojos eran dos luceros que iluminaban el salón.' Los ojos se identifican directamente con luceros, sin usar 'como'.",
+    "error_comun": "Se confunde con el símil cuando la oración sí contiene la palabra 'como' u otro conector comparativo explícito; si aparece esa palabra, ya no es metáfora sino símil.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FIG-002",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "metafora",
+    "pregunta": "¿Cómo se identifica cuál es el 'término real' y cuál el 'término imaginario' dentro de una metáfora?",
+    "respuesta_breve": "El término real es aquello de lo que efectivamente se habla; el término imaginario es la imagen prestada que se usa para describirlo.",
+    "explicacion": "Para desarmar una **metáfora**, pregúntate primero '¿de qué está hablando realmente el texto?' (ese es el término real). Luego identifica la imagen que se usa para nombrarlo (el término imaginario). Por último, pregúntate qué característica comparten ambos: esa es la base de la metáfora.",
+    "ejemplo_aplicado": "'La vida es un viaje sin mapa.' Término real: la vida. Término imaginario: un viaje sin mapa. Característica compartida: la incertidumbre del rumbo.",
+    "error_comun": "Se toma la metáfora de forma literal (pensar que el texto habla realmente de un viaje), en vez de reconocer que el 'viaje' es solo la imagen usada para describir otra cosa.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-FIG-001"
+    ]
+  },
+  {
+    "id": "LC-FIG-003",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "simil_o_comparacion",
+    "pregunta": "¿Qué es un símil (o comparación)?",
+    "respuesta_breve": "Es una figura que relaciona dos elementos distintos por su semejanza, usando explícitamente una palabra comparativa como 'como', 'cual' o 'semejante a'.",
+    "explicacion": "El **símil** funciona igual que la metáfora (relaciona dos elementos por una semejanza), pero a diferencia de ella mantiene visible el conector comparativo. Esa palabra es la marca que confirma que es símil y no metáfora.",
+    "ejemplo_aplicado": "'Corría como el viento por la calle vacía.' El conector 'como' hace explícita la comparación entre la velocidad de correr y el viento.",
+    "error_comun": "Se confunde con la metáfora cuando el conector comparativo se sustituye por un verbo ('parecer', 'semejar') sin que se reconozca como una marca de comparación igualmente válida.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FIG-004",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "simil_o_comparacion",
+    "pregunta": "Si una oración usa 'parece' en vez de 'como', ¿sigue siendo símil?",
+    "respuesta_breve": "Sí: cualquier palabra que haga explícita la comparación ('parece', 'cual', 'semejante a', 'tal como') mantiene la figura dentro del símil, no de la metáfora.",
+    "explicacion": "Para confirmar un **símil**, no basta con buscar la palabra 'como' literalmente: identifica cualquier expresión que cumpla la misma función comparativa. Pregúntate: '¿el texto dice que A es B, o que A se parece a B?' Si es lo segundo, es símil aunque la palabra exacta cambie.",
+    "ejemplo_aplicado": "'Su mirada parecía un espejo roto.' Aunque no dice 'como', 'parecía' cumple la misma función comparativa: sigue siendo símil.",
+    "error_comun": "Se busca únicamente la palabra 'como' y se clasifica erróneamente como metáfora cualquier comparación que use otra palabra equivalente.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-FIG-003"
+    ]
+  },
+  {
+    "id": "LC-FIG-005",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "metafora_vs_simil",
+    "pregunta": "¿Cuál es la diferencia exacta entre metáfora y símil?",
+    "respuesta_breve": "Ambas comparan dos elementos por semejanza, pero el símil hace explícito el conector comparativo y la metáfora lo omite, fusionando directamente los dos términos.",
+    "explicacion": "Para distinguir **metáfora** de **símil**, busca primero un conector comparativo explícito ('como', 'cual', 'parece'). Si existe, es símil. Si el texto identifica los dos elementos como si fueran uno solo, sin ese conector, es metáfora.",
+    "ejemplo_aplicado": "Símil: 'Sus palabras eran como cuchillos.' Metáfora: 'Sus palabras eran cuchillos.' La única diferencia estructural es la presencia de 'como', pero cambia el nombre técnico de la figura.",
+    "error_comun": "Se asume que toda comparación con imágenes fuertes es automáticamente metáfora, sin revisar si hay o no un conector comparativo explícito en la oración.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-FIG-001",
+      "LC-FIG-003"
+    ]
+  },
+  {
+    "id": "LC-FIG-006",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "metonimia",
+    "pregunta": "¿Qué es la metonimia?",
+    "respuesta_breve": "Es nombrar algo usando una palabra relacionada con ese algo por cercanía o asociación real, no por parecido.",
+    "explicacion": "La **metonimia** sustituye un término por otro con el que tiene una relación de contigüidad (causa por efecto, contenedor por contenido, autor por obra, lugar por institución), y no una relación de semejanza como la metáfora.",
+    "ejemplo_aplicado": "'La Casa Blanca no ha respondido al comunicado.' Se usa el edificio para referirse al gobierno que funciona ahí, no porque se parezcan, sino porque están relacionados.",
+    "error_comun": "Se confunde con la metáfora porque ambas 'reemplazan' una palabra por otra, pero la metonimia se basa en una relación real de cercanía, mientras que la metáfora se basa en una semejanza imaginada.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FIG-007",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "metonimia",
+    "pregunta": "¿Qué tipos de relación de contigüidad son más comunes en la metonimia?",
+    "respuesta_breve": "Causa por efecto, contenedor por contenido, autor por obra, lugar por institución, y símbolo por lo simbolizado.",
+    "explicacion": "Para reconocer una **metonimia**, identifica qué tipo de relación real conecta las dos palabras: ¿una contiene a la otra?, ¿una produce a la otra?, ¿una representa institucionalmente a la otra? Cualquiera de esas relaciones (y no una semejanza) confirma la metonimia.",
+    "ejemplo_aplicado": "'Se tomó toda la copa de un trago' (contenedor por contenido). 'Leyó todo Cervantes en un verano' (autor por obra).",
+    "error_comun": "Se intenta buscar una semejanza entre los dos términos como si fuera metáfora, cuando la clave de la metonimia es precisamente que no hay semejanza, sino cercanía o asociación real.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-FIG-006"
+    ]
+  },
+  {
+    "id": "LC-FIG-008",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "sinecdoque",
+    "pregunta": "¿Qué es la sinécdoque?",
+    "respuesta_breve": "Es nombrar el todo usando una de sus partes, o nombrar una parte usando el nombre del todo.",
+    "explicacion": "La **sinécdoque** es un tipo particular de relación de contigüidad —parte por el todo o todo por la parte— más específico que la metonimia general. Se reconoce cuando el elemento mencionado es literalmente una porción o un componente del elemento al que en realidad se refiere.",
+    "ejemplo_aplicado": "'La ciudad tiene quinientas almas.' Se usa 'almas' (una parte de la persona) para referirse a personas completas (el todo).",
+    "error_comun": "Se confunde con la metonimia general porque ambas sustituyen un término por otro relacionado; la sinécdoque exige específicamente una relación de parte-todo.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FIG-009",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "sinecdoque",
+    "pregunta": "¿'Necesito manos extra para la cosecha' es un ejemplo de sinécdoque o de metonimia general?",
+    "respuesta_breve": "Es sinécdoque: 'manos' es literalmente una parte del cuerpo de las personas que se necesitan (el todo).",
+    "explicacion": "Para confirmar una **sinécdoque**, verifica que el término usado sea literalmente una parte física o numérica del elemento real al que se refiere. Si la relación es de otro tipo (lugar-institución, autor-obra), es metonimia general, no sinécdoque.",
+    "ejemplo_aplicado": "'Llegaron treinta cabezas de ganado.' 'Cabezas' es una parte del animal completo usada para contar el todo: sinécdoque.",
+    "error_comun": "Se etiqueta cualquier sustitución cercana como sinécdoque sin verificar si realmente hay una relación de parte-todo; muchas de esas sustituciones son metonimias de otro tipo.",
+    "dificultad": "alta",
+    "prereqs": [
+      "LC-FIG-006",
+      "LC-FIG-008"
+    ]
+  },
+  {
+    "id": "LC-FIG-010",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "metonimia_vs_sinecdoque",
+    "pregunta": "¿En qué se diferencian exactamente la metonimia y la sinécdoque?",
+    "respuesta_breve": "La sinécdoque es un caso específico de metonimia: solo cuenta cuando la relación es estrictamente de parte-todo; la metonimia general abarca también otras relaciones de contigüidad.",
+    "explicacion": "Primero confirma que hay una relación de cercanía real (no de semejanza): eso ya descarta la metáfora. Luego pregúntate si esa relación es específicamente 'parte del todo' o 'todo compuesto por partes'. Si sí, es **sinécdoque**. Si la relación es otra (contenedor-contenido, causa-efecto, lugar-institución), es **metonimia** en sentido general.",
+    "ejemplo_aplicado": "Sinécdoque: 'el barco tiene veinte velas' (velas = parte del barco). Metonimia: 'todo el estadio celebró' (el estadio = las personas que lo ocupan, no una parte física de ellas).",
+    "error_comun": "Se usan 'metonimia' y 'sinécdoque' como si fueran intercambiables; el examen puede exigir el término más específico y no basta con la categoría general.",
+    "dificultad": "alta",
+    "prereqs": [
+      "LC-FIG-006",
+      "LC-FIG-008",
+      "LC-FIG-009"
+    ]
+  },
+  {
+    "id": "LC-FIG-011",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "hiperbole",
+    "pregunta": "¿Qué es la hipérbole?",
+    "respuesta_breve": "Es una exageración deliberada de una cualidad, cantidad o acción, usada para dar énfasis, sin intención de ser tomada literalmente.",
+    "explicacion": "La **hipérbole** aumenta o reduce la realidad de forma consciente y evidente, buscando producir un efecto expresivo o emocional. El lector reconoce que la exageración no debe interpretarse de forma literal.",
+    "ejemplo_aplicado": "'Te lo he repetido un millón de veces.' Nadie espera que se haya repetido literalmente un millón de veces; es una exageración para enfatizar la frecuencia.",
+    "error_comun": "Se confunde con una afirmación falsa o un error del autor, cuando en realidad la exageración es intencional y su función es dar énfasis, no informar una cifra exacta.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FIG-012",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "hiperbole",
+    "pregunta": "¿Cómo se distingue una hipérbole de un dato exagerado por error o desinformación?",
+    "respuesta_breve": "La hipérbole es evidente e imposible de tomar literalmente; un dato erróneo se presenta como si fuera una cifra real y verificable.",
+    "explicacion": "Para confirmar una **hipérbole**, pregúntate si la exageración es tan extrema que ningún lector razonable la tomaría como un hecho literal. Si la cifra exagerada podría confundirse con un dato real (aunque esté mal), no es hipérbole sino un posible error o una opinión disfrazada de hecho.",
+    "ejemplo_aplicado": "'Hace un frío que congela hasta los pensamientos' es hipérbole evidente. 'El 200% de los votantes participó' sería un error de dato, no una figura retórica.",
+    "error_comun": "Se etiqueta como hipérbole cualquier cifra alta o llamativa, sin distinguir entre una exageración evidente con función expresiva y un dato simplemente incorrecto o mal citado.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-FIG-011"
+    ]
+  },
+  {
+    "id": "LC-FIG-013",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "ironia",
+    "pregunta": "¿Qué es la ironía?",
+    "respuesta_breve": "Es decir lo contrario de lo que se quiere dar a entender, confiando en que el contexto revele el verdadero sentido.",
+    "explicacion": "La **ironía** crea una distancia entre lo que se dice literalmente y lo que se quiere comunicar realmente; el lector debe usar el contexto (tono, situación, información previa) para descubrir el sentido verdadero, opuesto al literal.",
+    "ejemplo_aplicado": "Ante un plan que fracasó por completo, alguien comenta: 'Sí, claro, salió exactamente como lo planeamos.' El contexto revela que quiere decir lo contrario.",
+    "error_comun": "Se confunde con la mentira, porque ambas dicen algo distinto de la realidad; la diferencia es que en la ironía el autor espera que el lector note la discrepancia, mientras que la mentira busca ser creída literalmente.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FIG-014",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "ironia",
+    "pregunta": "¿Qué pistas del texto ayudan a identificar que una afirmación es irónica y no literal?",
+    "respuesta_breve": "El contraste entre lo que se afirma y los hechos descritos en el mismo texto, o marcas de tono como exageración evidente o contexto previo negativo.",
+    "explicacion": "Para detectar la **ironía**, primero identifica qué se afirma literalmente. Luego compáralo con la información de contexto que el texto mismo ofrece (resultados, hechos, consecuencias descritas). Si hay una contradicción evidente entre ambos, la afirmación debe leerse en sentido opuesto.",
+    "ejemplo_aplicado": "'¡Qué buena idea llegar sin paraguas justo el día que llovió!' El texto mismo (llovió, no llevaba paraguas) contradice la valoración positiva, revelando la ironía.",
+    "error_comun": "Se toma la afirmación irónica de forma literal porque no siempre hay marcas explícitas de tono; hay que apoyarse en el contexto y los hechos narrados, no solo en las palabras sueltas.",
+    "dificultad": "alta",
+    "prereqs": [
+      "LC-FIG-013"
+    ]
+  },
+  {
+    "id": "LC-FIG-015",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "ironia_vs_sarcasmo",
+    "pregunta": "¿En qué se diferencian la ironía y el sarcasmo?",
+    "respuesta_breve": "Ambos dicen lo contrario de lo que se piensa, pero el sarcasmo añade una intención hiriente o burlona explícita hacia alguien, mientras que la ironía puede ser neutral o incluso humorística sin herir.",
+    "explicacion": "Primero confirma que hay una discrepancia entre lo dicho y lo que se quiere comunicar (eso ya indica **ironía**). Luego pregúntate si esa discrepancia busca además herir, humillar o burlarse directamente de una persona: si es así, es **sarcasmo**, un tipo de ironía con intención agresiva.",
+    "ejemplo_aplicado": "Ironía neutral: 'Vaya clima soleado' dicho bajo la lluvia. Sarcasmo: 'Felicidades por tu 'brillante' idea', dicho para humillar a alguien tras un error.",
+    "error_comun": "Se usan 'ironía' y 'sarcasmo' como sinónimos exactos; la diferencia clave es la intención hiriente hacia una persona específica, presente solo en el sarcasmo.",
+    "dificultad": "alta",
+    "prereqs": [
+      "LC-FIG-013",
+      "LC-FIG-014"
+    ]
+  },
+  {
+    "id": "LC-FIG-016",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "personificacion_o_prosopopeya",
+    "pregunta": "¿Qué es la personificación (o prosopopeya)?",
+    "respuesta_breve": "Es atribuir cualidades, acciones o sentimientos humanos a algo que no es humano: un animal, un objeto o una idea abstracta.",
+    "explicacion": "La **personificación** (también llamada **prosopopeya**) le da a algo no humano la capacidad de sentir, pensar o actuar como una persona, sin dejar de referirse a esa cosa o idea.",
+    "ejemplo_aplicado": "'El viento silbaba enojado entre los árboles.' El viento no puede sentir enojo realmente; se le atribuye una emoción humana.",
+    "error_comun": "Se confunde con la metáfora en general; la personificación específicamente le da rasgos humanos (sentir, pensar, hablar) a algo no humano.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FIG-017",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "personificacion_o_prosopopeya",
+    "pregunta": "¿'La ciudad nunca duerme' es un ejemplo de personificación?",
+    "respuesta_breve": "Sí: dormir es una acción de seres vivos, y se le atribuye a la ciudad, que es un lugar.",
+    "explicacion": "Para confirmar una **personificación**, busca un verbo o cualidad que normalmente solo aplica a personas (sentir, pensar, hablar, decidir, dormir) y verifica que se le atribuya a algo no humano. Si el verbo podría aplicarse igual a un objeto sin implicar vida o conciencia, probablemente no es personificación.",
+    "ejemplo_aplicado": "'La ciudad nunca duerme' (personificación). 'La ciudad tiene diez kilómetros de largo' (no lo es: 'tener largo' no es exclusivo de lo humano).",
+    "error_comun": "Se etiqueta como personificación cualquier descripción de un objeto o lugar, sin verificar si la cualidad atribuida es realmente exclusiva de seres humanos o vivos.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-FIG-016"
+    ]
+  },
+  {
+    "id": "LC-FIG-018",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "apostrofe_retorico",
+    "pregunta": "¿Qué es el apóstrofe retórico?",
+    "respuesta_breve": "Es dirigirse directamente, en segunda persona, a alguien ausente, a algo no humano o a una idea abstracta, como si pudiera escuchar y responder.",
+    "explicacion": "El **apóstrofe retórico** interrumpe el discurso para invocar o interpelar directamente a un destinatario que no puede responder realmente: una persona ausente o muerta, un objeto, la naturaleza o un concepto abstracto. Se reconoce por el uso de la segunda persona ('tú', 'oh, río...') dirigida a ese destinatario.",
+    "ejemplo_aplicado": "'¡Oh, mar inmenso, cuántos secretos guardas!' El hablante se dirige directamente al mar como si pudiera escucharlo.",
+    "error_comun": "Se confunde con la personificación porque ambas tratan lo no humano como si tuviera rasgos humanos; el apóstrofe exige además que el hablante se dirija directamente a ese destinatario en segunda persona.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FIG-019",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "apostrofe_retorico",
+    "pregunta": "¿Cómo se reconoce un apóstrofe retórico dentro de un poema o discurso?",
+    "respuesta_breve": "Buscando un cambio hacia la segunda persona ('tú', 'vosotros') dirigido a alguien o algo que no puede responder en la realidad del texto.",
+    "explicacion": "Identifica el momento en que el texto deja de describir en tercera persona y empieza a 'hablarle' directamente a alguien o algo. Verifica que ese destinatario sea ausente, no humano o abstracto: solo así se confirma la figura, y no un simple diálogo entre personajes presentes.",
+    "ejemplo_aplicado": "'Patria, te prometo que no descansaré hasta verte libre.' El hablante se dirige a 'patria' (un concepto abstracto) como si pudiera escucharlo.",
+    "error_comun": "Se confunde con un diálogo normal entre dos personajes del texto; el apóstrofe retórico exige que el destinatario sea alguien o algo que, en la realidad, no puede efectivamente escuchar ni responder.",
+    "dificultad": "alta",
+    "prereqs": [
+      "LC-FIG-018"
+    ]
+  },
+  {
+    "id": "LC-FIG-020",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "personificacion_vs_apostrofe_retorico",
+    "pregunta": "¿En qué se diferencian la personificación y el apóstrofe retórico?",
+    "respuesta_breve": "La personificación le da cualidades humanas a algo no humano; el apóstrofe retórico va más allá y le habla directamente a ese algo, en segunda persona, como si pudiera responder.",
+    "explicacion": "La clave para diferenciarlas es la persona gramatical: si el texto describe al elemento no humano en tercera persona con rasgos humanos, es **personificación**. Si el texto se dirige a él directamente ('tú', 'oh...'), es **apóstrofe retórico**. Muchos apóstrofes incluyen personificación al mismo tiempo.",
+    "ejemplo_aplicado": "Personificación: 'El río corría furioso.' Apóstrofe retórico: 'Río, ¿por qué corres tan furioso?' — aquí además se personifica y se le habla directamente.",
+    "error_comun": "Se elige 'personificación' como respuesta general sin notar que, si el texto usa la segunda persona para dirigirse al elemento, la respuesta más precisa es 'apóstrofe retórico'.",
+    "dificultad": "alta",
+    "prereqs": [
+      "LC-FIG-016",
+      "LC-FIG-018"
+    ]
+  },
+  {
+    "id": "LC-FIG-021",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "paradoja",
+    "pregunta": "¿Qué es una paradoja?",
+    "respuesta_breve": "Es una afirmación que parece contradictoria o imposible a primera vista, pero que al analizarla revela una verdad o un sentido coherente.",
+    "explicacion": "La **paradoja** presenta ideas que en apariencia se oponen entre sí dentro de una misma afirmación más extensa, pero que, pensadas con cuidado, no son realmente incompatibles: revelan una verdad más compleja de lo que parece a simple vista.",
+    "ejemplo_aplicado": "'Cuanto más aprendo, más me doy cuenta de lo poco que sé.' Parece contradictorio, pero expresa una verdad real sobre el conocimiento.",
+    "error_comun": "Se confunde con un simple error lógico o una contradicción sin sentido; la paradoja, a diferencia de una contradicción real, admite una explicación coherente si se piensa con más profundidad.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FIG-022",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "paradoja",
+    "pregunta": "¿Cómo se comprueba que una afirmación aparentemente contradictoria es realmente una paradoja y no un simple error del texto?",
+    "respuesta_breve": "Buscando si existe una interpretación razonable que resuelva la contradicción aparente sin que el texto se autoanule.",
+    "explicacion": "Frente a una posible **paradoja**, primero identifica las dos ideas que parecen oponerse. Luego intenta encontrar un sentido en el que ambas puedan ser ciertas al mismo tiempo. Si logras esa reconciliación, confirmas la paradoja; si no hay forma de que ambas ideas coexistan, probablemente es un error del texto.",
+    "ejemplo_aplicado": "'Solo eres libre cuando aceptas tus límites.' Parece contradecir la idea de libertad, pero se resuelve entendiendo que aceptar límites conscientemente es, en sí, una forma de libertad interior.",
+    "error_comun": "Se descarta cualquier afirmación contradictoria como un error, sin buscar la interpretación que la hace coherente y que es precisamente el punto que quiere comunicar el autor.",
+    "dificultad": "alta",
+    "prereqs": [
+      "LC-FIG-021"
+    ]
+  },
+  {
+    "id": "LC-FIG-023",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "oximoron",
+    "pregunta": "¿Qué es un oxímoron?",
+    "respuesta_breve": "Es la combinación de dos palabras de significado opuesto en una misma expresión corta, generalmente un sustantivo y un adjetivo.",
+    "explicacion": "El **oxímoron** une dos términos contradictorios en una sola frase breve (a menudo de dos o tres palabras), creando una imagen intensa precisamente por esa tensión entre opuestos.",
+    "ejemplo_aplicado": "'Un silencio ensordecedor invadió la sala.' 'Silencio' y 'ensordecedor' son opuestos combinados en una sola expresión.",
+    "error_comun": "Se confunde con la paradoja porque ambas combinan ideas opuestas; el oxímoron ocurre en una frase muy corta y concentrada, mientras que la paradoja se desarrolla en una afirmación más extensa que requiere explicación.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FIG-024",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "oximoron",
+    "pregunta": "¿Cómo se reconoce rápidamente un oxímoron dentro de una oración larga?",
+    "respuesta_breve": "Buscando un par de palabras muy cercanas entre sí (normalmente un sustantivo y su adjetivo) cuyos significados se contradicen directamente.",
+    "explicacion": "Revisa las combinaciones de sustantivo-adjetivo o adjetivo-adjetivo en el texto y pregúntate si dos palabras juntas se contradicen literalmente en su significado. Si la contradicción está concentrada en esas dos palabras (no en toda la oración), es **oxímoron**.",
+    "ejemplo_aplicado": "'Su fría calidez me sorprendió' contiene el oxímoron 'fría calidez'; el resto de la oración no participa de la figura.",
+    "error_comun": "Se identifica una oración completa contradictoria como oxímoron, cuando en realidad debe estar concentrado en dos palabras muy próximas; una contradicción distribuida en toda la oración es más bien una paradoja.",
+    "dificultad": "alta",
+    "prereqs": [
+      "LC-FIG-023"
+    ]
+  },
+  {
+    "id": "LC-FIG-025",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "oximoron_vs_paradoja",
+    "pregunta": "¿En qué se diferencian el oxímoron y la paradoja?",
+    "respuesta_breve": "El oxímoron combina dos palabras opuestas en una frase muy corta; la paradoja desarrolla una idea contradictoria a lo largo de una afirmación más extensa que necesita explicarse.",
+    "explicacion": "Mide la extensión de la contradicción: si ocurre en dos palabras contiguas (normalmente sustantivo-adjetivo), es **oxímoron**. Si la contradicción aparente involucra una oración o idea completa que requiere razonarse para entenderse como coherente, es **paradoja**. Un oxímoron puede aparecer dentro de una paradoja más amplia.",
+    "ejemplo_aplicado": "Oxímoron: 'un dulce dolor'. Paradoja: 'el dolor de perderlo fue, extrañamente, el momento en que más lo sentí cerca.'",
+    "error_comun": "Se usan los dos términos indistintamente; el examen puede pedir específicamente cuál de los dos nombres es el más preciso según la extensión de la expresión.",
+    "dificultad": "alta",
+    "prereqs": [
+      "LC-FIG-021",
+      "LC-FIG-023"
+    ]
+  },
+  {
+    "id": "LC-FIG-026",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "antitesis",
+    "pregunta": "¿Qué es la antítesis?",
+    "respuesta_breve": "Es contraponer dos ideas o expresiones de significado opuesto dentro de la misma oración o párrafo, para resaltar el contraste entre ambas.",
+    "explicacion": "La **antítesis** coloca dos ideas contrarias una junto a la otra, sin fusionarlas ni resolver la contradicción como hace la paradoja: su función es simplemente resaltar el contraste, no revelar una verdad oculta.",
+    "ejemplo_aplicado": "'Cuando unos ríen, otros lloran.' Se contraponen directamente 'reír' y 'llorar' para resaltar la diferencia de situaciones.",
+    "error_comun": "Se confunde con la paradoja porque ambas presentan ideas opuestas; la antítesis solo contrasta dos ideas sin que resulten contradictorias entre sí a nivel lógico.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FIG-027",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "antitesis",
+    "pregunta": "¿Cómo se distingue una antítesis de una simple lista de diferencias?",
+    "respuesta_breve": "La antítesis exige que las dos ideas contrastadas sean opuestas entre sí (no solo distintas) y que estén colocadas deliberadamente una frente a otra para producir un efecto retórico.",
+    "explicacion": "Identifica las dos ideas en juego y pregúntate si son verdaderos opuestos (frío/calor, guerra/paz) y no solo elementos diferentes sin relación de oposición (manzana/silla). Verifica también que estén puestas juntas a propósito para generar contraste.",
+    "ejemplo_aplicado": "Antítesis: 'Fue el mejor de los tiempos, fue el peor de los tiempos.' No es antítesis: 'Compró manzanas y también un cuaderno' (son elementos distintos, no opuestos).",
+    "error_comun": "Se etiqueta como antítesis cualquier enumeración de cosas diferentes, sin verificar que exista una verdadera relación de oposición entre ellas.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-FIG-026"
+    ]
+  },
+  {
+    "id": "LC-FIG-028",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "anafora",
+    "pregunta": "¿Qué es la anáfora?",
+    "respuesta_breve": "Es la repetición de una misma palabra o frase al inicio de dos o más versos, oraciones o cláusulas seguidas.",
+    "explicacion": "La **anáfora** repite deliberadamente el mismo elemento al comienzo de unidades sucesivas (oraciones, versos o cláusulas), generando ritmo y énfasis acumulativo sobre esa idea repetida.",
+    "ejemplo_aplicado": "'Nunca dejaré de intentarlo. Nunca dejaré de creer. Nunca dejaré de luchar.' La frase 'Nunca dejaré de' se repite al inicio de cada oración.",
+    "error_comun": "Se confunde con cualquier repetición dentro del texto; la anáfora exige que la repetición ocurra al inicio de unidades sucesivas, no en cualquier posición dispersa del párrafo.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FIG-029",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "anafora",
+    "pregunta": "¿Qué efecto busca típicamente un autor al usar anáfora en un texto persuasivo?",
+    "respuesta_breve": "Generar un ritmo acumulativo que refuerce emocionalmente una idea, aumentando su fuerza persuasiva cada vez que se repite.",
+    "explicacion": "Identifica qué idea se repite al inicio de cada unidad. Luego pregúntate qué emoción o énfasis busca construir esa repetición acumulada: la anáfora suele usarse en discursos y textos argumentativos para intensificar una idea central mediante la insistencia.",
+    "ejemplo_aplicado": "'¿Cuántas veces se ignoró la denuncia? ¿Cuántas veces se archivó el caso? ¿Cuántas veces miramos hacia otro lado?' La repetición acumula indignación en el lector.",
+    "error_comun": "Se identifica correctamente la repetición pero no se conecta con su función persuasiva o rítmica, respondiendo solo 'hay repetición' sin explicar qué efecto produce.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-FIG-028"
+    ]
+  },
+  {
+    "id": "LC-FIG-030",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "aliteracion",
+    "pregunta": "¿Qué es la aliteración?",
+    "respuesta_breve": "Es la repetición notoria de un mismo sonido (generalmente una consonante) en palabras cercanas dentro de una misma oración o verso.",
+    "explicacion": "La **aliteración** se centra en el sonido, no en el significado de las palabras: varias palabras próximas comparten un sonido inicial o predominante, generando un efecto musical o expresivo al leerse en voz alta.",
+    "ejemplo_aplicado": "'El viento veloz volaba entre los valles.' La repetición del sonido 've/vo/va' en varias palabras cercanas es la aliteración.",
+    "error_comun": "Se confunde con la anáfora porque ambas repiten algo; la aliteración repite un sonido dentro de palabras distintas, mientras que la anáfora repite exactamente la misma palabra o frase al inicio de unidades sucesivas.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FIG-031",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "aliteracion",
+    "pregunta": "¿Por qué la aliteración es más común en poesía que en textos argumentativos?",
+    "respuesta_breve": "Porque su efecto es principalmente sonoro y estético, y ese recurso se aprovecha mejor cuando el texto está pensado para leerse en voz alta o disfrutarse por su musicalidad.",
+    "explicacion": "Lee la oración en voz alta y presta atención al efecto sonoro que produce. En textos informativos o argumentativos, la repetición de sonidos suele ser casual y no cumple una función retórica; en poesía y textos literarios, suele ser intencional.",
+    "ejemplo_aplicado": "'El susurro suave del silencio sereno' usa repetidamente el sonido 's' para imitar sonoramente la idea de suavidad y calma que describe.",
+    "error_comun": "Se señala como aliteración cualquier coincidencia casual de sonidos similares en un texto informativo, sin verificar si esa repetición realmente cumple una función expresiva intencional.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-FIG-030"
+    ]
+  },
+  {
+    "id": "LC-FIG-032",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "eufemismo",
+    "pregunta": "¿Qué es el eufemismo?",
+    "respuesta_breve": "Es sustituir una expresión considerada dura, incómoda o de mal gusto por otra más suave o indirecta, sin cambiar el significado de fondo.",
+    "explicacion": "El **eufemismo** suaviza la forma de decir algo (una muerte, una enfermedad, un despido) manteniendo el mismo referente real, pero con un impacto emocional menor para quien lee o escucha.",
+    "ejemplo_aplicado": "'Falleció después de una larga enfermedad' en vez de 'murió de cáncer tras años de sufrimiento'. El hecho es el mismo, pero la forma de decirlo es más suave.",
+    "error_comun": "Se confunde con simplemente 'decir algo de forma elegante'; la clave del eufemismo es que existe una expresión más directa y más dura que el autor decide evitar deliberadamente.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FIG-033",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "eufemismo",
+    "pregunta": "¿Qué función cumple el eufemismo en textos institucionales o políticos?",
+    "respuesta_breve": "Suele usarse para reducir el impacto negativo de una noticia o decisión, presentándola de forma menos directa ante el público.",
+    "explicacion": "Identifica la expresión suavizada. Luego pregúntate cuál sería la forma más directa y dura de decir lo mismo. Por último, reflexiona sobre por qué el autor eligió la versión suave: casi siempre busca disminuir la reacción negativa del lector ante una noticia difícil.",
+    "ejemplo_aplicado": "'La empresa optimizará su planta de personal' en vez de 'la empresa despedirá trabajadores'. La versión suavizada oculta parcialmente el impacto real de la decisión.",
+    "error_comun": "Se pasa por alto el eufemismo por parecer un lenguaje 'normal' o técnico, sin notar que detrás de esa formalidad se está evitando decir algo más duro o directo.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-FIG-032"
+    ]
+  },
+  {
+    "id": "LC-FIG-034",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "hiperbaton",
+    "pregunta": "¿Qué es el hipérbaton?",
+    "respuesta_breve": "Es alterar el orden natural de las palabras en una oración (sujeto-verbo-complemento) por razones de énfasis, ritmo o estilo.",
+    "explicacion": "El **hipérbaton** cambia el orden esperado de los elementos de una oración en español (normalmente sujeto + verbo + complemento) sin cambiar su significado, generalmente para dar énfasis a una palabra o crear un efecto poético.",
+    "ejemplo_aplicado": "'Del monte en la ladera, por mi mano plantado tengo un huerto.' El orden natural sería 'tengo un huerto plantado por mi mano en la ladera del monte', pero se altera para dar énfasis poético.",
+    "error_comun": "Se confunde una oración simplemente compleja o larga con hipérbaton; la clave es identificar que el orden gramatical esperado fue específicamente alterado, no solo que la oración sea difícil de leer.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FIG-035",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "hiperbaton",
+    "pregunta": "¿Cómo se reordena mentalmente una oración para comprobar si tiene hipérbaton?",
+    "respuesta_breve": "Reescribiendo la oración en el orden natural (sujeto + verbo + complemento) y comparando si cambia solo el orden, no el significado.",
+    "explicacion": "Intenta reordenar los elementos en la secuencia habitual del español: sujeto, verbo, complementos. Si al reordenarla obtienes exactamente la misma información pero en un orden más simple, confirmas que había **hipérbaton**; si el reordenamiento cambia el sentido, el problema era otro.",
+    "ejemplo_aplicado": "Original: 'Verde que te quiero verde, ramas del árbol mece el viento.' Orden natural: 'El viento mece las ramas del árbol.' El significado es el mismo, solo cambia el orden.",
+    "error_comun": "Se confunde la dificultad de lectura causada por el hipérbaton con una falta de comprensión del contenido, cuando basta con reordenar mentalmente la oración para entenderla.",
+    "dificultad": "alta",
+    "prereqs": [
+      "LC-FIG-034"
+    ]
+  },
+  {
+    "id": "LC-FIG-036",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "simbolo_y_alegoria",
+    "pregunta": "¿Qué es un símbolo dentro de un texto literario?",
+    "respuesta_breve": "Es un elemento concreto (un objeto, un color, un animal) que representa una idea abstracta o un concepto más amplio, de forma reconocible dentro de una cultura o del propio texto.",
+    "explicacion": "Un **símbolo** funciona como una imagen puntual que, en un contexto dado, evoca sistemáticamente una idea distinta de sí misma (la paloma como símbolo de paz, el negro como símbolo de luto). A diferencia de la metáfora, el símbolo puede repetirse a lo largo del texto cargando siempre el mismo significado.",
+    "ejemplo_aplicado": "En un cuento, un reloj detenido que aparece varias veces puede funcionar como símbolo del tiempo congelado en la vida de un personaje que no logra superar una pérdida.",
+    "error_comun": "Se confunde con una metáfora aislada; el símbolo se distingue porque su significado se sostiene y se repite de forma consistente a lo largo de todo el texto, no en una sola comparación puntual.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FIG-037",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "simbolo_y_alegoria",
+    "pregunta": "¿Qué es una alegoría y en qué se diferencia de un símbolo aislado?",
+    "respuesta_breve": "La alegoría es una narración completa en la que cada elemento (personajes, lugares, acciones) representa sistemáticamente una idea abstracta, formando un segundo nivel de sentido coherente en toda la historia.",
+    "explicacion": "Mientras que un símbolo es un elemento puntual con un significado añadido, la **alegoría** extiende esa lógica a todo un relato: cada personaje, lugar y evento corresponde a un elemento de un sistema de ideas más amplio.",
+    "ejemplo_aplicado": "Una fábula donde un rebaño de ovejas obedece ciegamente a un lobo disfrazado de pastor puede leerse como alegoría de una sociedad que sigue a un líder engañoso sin cuestionarlo.",
+    "error_comun": "Se confunde con un símbolo aislado; la alegoría exige que prácticamente todos los elementos de la narración —no solo uno— tengan una correspondencia sistemática con el segundo nivel de sentido.",
+    "dificultad": "alta",
+    "prereqs": [
+      "LC-FIG-036"
+    ]
+  },
+  {
+    "id": "LC-FIG-038",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "simbolo_vs_alegoria",
+    "pregunta": "¿Cómo se distingue si un texto usa un símbolo puntual o una alegoría completa?",
+    "respuesta_breve": "Contando cuántos elementos del texto tienen una correspondencia sistemática con un segundo significado: uno o pocos elementos sugieren símbolo; casi todos los elementos sugieren alegoría.",
+    "explicacion": "Revisa cuántos elementos de la narración (personajes, objetos, lugares, acciones) tienen un significado añadido coherente entre sí. Si es solo un elemento recurrente, es un **símbolo** dentro de un texto que puede no ser alegórico en su totalidad. Si prácticamente toda la estructura del relato corresponde a un sistema de ideas paralelo, es una **alegoría**.",
+    "ejemplo_aplicado": "Un cuento con una sola vela que se apaga al final (símbolo del fin de una esperanza) no es lo mismo que un cuento entero donde cada personaje representa un pecado distinto (alegoría de los pecados capitales).",
+    "error_comun": "Se llama 'alegoría' a cualquier texto con un símbolo, sin verificar si esa correspondencia se extiende de manera sistemática a toda la narración o se limita a un solo elemento.",
+    "dificultad": "alta",
+    "prereqs": [
+      "LC-FIG-036",
+      "LC-FIG-037"
+    ]
+  },
+  {
+    "id": "LC-FIG-039",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "pregunta_retorica",
+    "pregunta": "¿Qué es una pregunta retórica?",
+    "respuesta_breve": "Es una pregunta que no busca realmente una respuesta del lector, sino que afirma o refuerza una idea de forma indirecta.",
+    "explicacion": "La **pregunta retórica** tiene forma de interrogación, pero su función real es afirmativa: el autor ya conoce (o da por sentada) la respuesta y la usa para involucrar al lector o reforzar un argumento, sin esperar que se le responda literalmente.",
+    "ejemplo_aplicado": "'¿Acaso alguien puede vivir completamente feliz sin nunca haber sufrido?' El autor no espera una respuesta: usa la pregunta para sugerir que el sufrimiento es necesario para la felicidad.",
+    "error_comun": "Se confunde con una pregunta genuina de investigación; si va seguida inmediatamente por la posición del autor sin esperar respuesta del lector, es señal de que es retórica.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FIG-040",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "pregunta_retorica",
+    "pregunta": "¿Qué función argumentativa cumple una pregunta retórica dentro de un texto persuasivo?",
+    "respuesta_breve": "Invita al lector a llegar por sí mismo a la conclusión que el autor ya defiende, haciendo que el argumento parezca más una reflexión compartida que una imposición.",
+    "explicacion": "Identifica la afirmación implícita detrás de la pregunta (reformúlala como si fuera una oración afirmativa). Luego pregúntate qué efecto busca el autor al presentarla como pregunta en vez de como afirmación directa: normalmente busca que el lector sienta que llegó solo a esa conclusión.",
+    "ejemplo_aplicado": "'¿Cómo podríamos exigir puntualidad a otros si nosotros mismos llegamos tarde?' Reformulada: 'No podemos exigir puntualidad a otros si nosotros llegamos tarde.'",
+    "error_comun": "Se responde la pregunta retórica como si realmente buscara información nueva, sin identificar la afirmación implícita que el autor ya está defendiendo con ella.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-FIG-039"
+    ]
+  },
+  {
+    "id": "LC-FIG-041",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "epiteto",
+    "pregunta": "¿Qué es un epíteto?",
+    "respuesta_breve": "Es un adjetivo que resalta una cualidad que el sustantivo ya tiene por naturaleza, sin añadir información nueva ni distinguirlo de otros de su tipo.",
+    "explicacion": "El **epíteto** describe una característica esencial o esperada del sustantivo al que acompaña (no una cualidad que lo diferencie de otros), y su función es más estética o expresiva que informativa.",
+    "ejemplo_aplicado": "'La blanca nieve cubría el paisaje.' La nieve es blanca por naturaleza; el adjetivo no distingue esta nieve de otra, solo resalta esa cualidad ya conocida.",
+    "error_comun": "Se confunde con un adjetivo calificativo normal que sí aporta información distintiva; la clave del epíteto es que la cualidad mencionada ya es inherente y esperable en ese sustantivo.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FIG-042",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "epiteto",
+    "pregunta": "¿'El feroz león atacó a su presa' contiene un epíteto?",
+    "respuesta_breve": "Sí: la ferocidad es una cualidad que ya se espera de un león por naturaleza, así que el adjetivo no distingue a este león de otros, solo resalta un rasgo típico.",
+    "explicacion": "Pregúntate si el adjetivo describe algo que ya asumirías sobre ese sustantivo sin necesidad de que te lo dijeran. Si el adjetivo, en cambio, distingue a ese sustantivo específico de otros de su misma clase (por ejemplo, 'el león manso', que sí sorprende), no es epíteto sino un adjetivo calificativo informativo.",
+    "ejemplo_aplicado": "Epíteto: 'el manso cordero' (mansedumbre esperada en un cordero). No epíteto: 'el cordero rebelde' (esta cualidad sí distingue a este cordero de lo esperado).",
+    "error_comun": "Se etiqueta como epíteto cualquier adjetivo colocado antes del sustantivo, sin verificar si realmente describe una cualidad ya inherente o si aporta información nueva y distintiva.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-FIG-041"
+    ]
+  },
+  {
+    "id": "LC-FIG-043",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "epiteto_vs_metafora",
+    "pregunta": "¿En qué se diferencian el epíteto y la metáfora?",
+    "respuesta_breve": "El epíteto describe con un adjetivo literal una cualidad ya propia del sustantivo; la metáfora identifica el sustantivo con otra cosa distinta, de forma figurada, no literal.",
+    "explicacion": "Pregúntate si la descripción es literal o figurada. El **epíteto** usa un adjetivo que describe realmente (aunque de forma redundante) una cualidad del sustantivo ('la blanca nieve': la nieve sí es blanca). La **metáfora** identifica el sustantivo con algo que no es literalmente cierto, basándose en una semejanza imaginada ('la nieve, manto de la montaña': la nieve no es literalmente un manto).",
+    "ejemplo_aplicado": "Epíteto: 'el verde césped' (el césped sí es verde). Metáfora: 'el césped, alfombra del jardín' (el césped no es literalmente una alfombra).",
+    "error_comun": "Se confunde cualquier adjetivo poético con metáfora; si la cualidad descrita es literalmente cierta sobre el sustantivo, es epíteto, no metáfora, aunque ambos aparezcan en contextos poéticos similares.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-FIG-001",
+      "LC-FIG-041"
+    ]
+  },
+  {
+    "id": "LC-FIG-044",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "onomatopeya",
+    "pregunta": "¿Qué es la onomatopeya?",
+    "respuesta_breve": "Es una palabra cuyo sonido imita el sonido real de aquello que nombra.",
+    "explicacion": "La **onomatopeya** reproduce, con las letras y sonidos del lenguaje, un ruido o sonido de la realidad (un golpe, un animal, un objeto), de modo que al leerla en voz alta se percibe una imitación de ese sonido.",
+    "ejemplo_aplicado": "'Se escuchó un fuerte ¡crash! al caer los platos.' 'Crash' imita el sonido real de los platos al romperse.",
+    "error_comun": "Se confunde con cualquier palabra expresiva o exclamación; la onomatopeya específicamente busca imitar un sonido real mediante la fonética de la palabra, no solo expresar una emoción o énfasis.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FIG-045",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "onomatopeya",
+    "pregunta": "¿En qué tipos de texto es más frecuente encontrar onomatopeyas?",
+    "respuesta_breve": "En textos narrativos con escenas de acción, en poesía, y en textos discontinuos como cómics o historietas, donde los sonidos suelen representarse gráficamente.",
+    "explicacion": "Busca palabras cortas, a veces fuera de la sintaxis normal de la oración, que imiten un sonido (golpes, animales, motores, pasos). En textos discontinuos como cómics, estas palabras suelen aparecer destacadas visualmente junto a la acción que representan.",
+    "ejemplo_aplicado": "En una historieta, la viñeta donde el personaje toca la puerta puede incluir la palabra '¡toc, toc!' junto al dibujo, imitando el sonido de los golpes.",
+    "error_comun": "Se pasa por alto la onomatopeya en textos discontinuos (cómics, historietas) por no ser 'palabras normales' dentro de una oración, cuando ahí es precisamente donde aparece con más frecuencia.",
+    "dificultad": "media",
+    "prereqs": [
+      "LC-FIG-044"
+    ]
+  },
+  {
+    "id": "LC-FIG-046",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "gradacion_o_climax",
+    "pregunta": "¿Qué es la gradación (o clímax)?",
+    "respuesta_breve": "Es presentar una serie de palabras o ideas en un orden de intensidad creciente (o decreciente), de menor a mayor o de mayor a menor.",
+    "explicacion": "La **gradación** (también llamada **clímax** cuando es ascendente) organiza una lista de elementos siguiendo un orden progresivo de intensidad, tamaño o importancia, de modo que cada elemento supera al anterior, generando un efecto de acumulación.",
+    "ejemplo_aplicado": "'Al principio dudó, luego se preocupó, después se angustió, y finalmente entró en pánico.' Cada palabra intensifica la emoción anterior.",
+    "error_comun": "Se confunde con una simple enumeración; la gradación exige específicamente que los elementos estén ordenados de forma creciente o decreciente en intensidad, no solo listados sin ese orden progresivo.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "LC-FIG-047",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "gradacion_o_climax",
+    "pregunta": "¿Cómo se comprueba que una enumeración es realmente una gradación y no una lista simple?",
+    "respuesta_breve": "Verificando si al reordenar los elementos de forma aleatoria se pierde el efecto de intensidad creciente; si es así, el orden original era intencional y confirma la gradación.",
+    "explicacion": "Intenta reordenar mentalmente los elementos de la lista sin seguir la secuencia del texto. Si el efecto de intensidad se rompe o pierde fuerza con el nuevo orden, eso confirma que el orden original era deliberado y progresivo. Si el orden podía ser cualquiera sin cambiar el efecto, es solo una enumeración común.",
+    "ejemplo_aplicado": "'Vendieron la casa, el auto, y hasta los recuerdos de familia.' El orden va de lo material a lo emocional, intensificando la pérdida; reordenarlo rompe ese efecto creciente.",
+    "error_comun": "Se identifica cualquier lista de tres o más elementos como gradación, sin comprobar si existe un verdadero orden de intensidad creciente o decreciente entre ellos.",
+    "dificultad": "alta",
+    "prereqs": [
+      "LC-FIG-046"
+    ]
+  },
+  {
+    "id": "LC-FIG-048",
+    "modulo": "lectura_critica",
+    "tipo": "concepto",
+    "competencia_asociada": "identificacion_local",
+    "subtema": "metaficcion",
+    "pregunta": "¿Qué es la metaficción?",
+    "respuesta_breve": "Es un recurso narrativo en el que el propio relato hace evidente que es una obra de ficción, por ejemplo cuando un personaje lee, escribe o interactúa con la historia que lo contiene.",
+    "explicacion": "La **metaficción** rompe la ilusión de que la historia es un mundo autónomo y separado del acto de narrar o de leer, mezclando el nivel de la ficción con el nivel de quien la produce o la consume. Un caso frecuente es el del 'relato dentro del relato', donde un personaje lee una novela cuyos hechos terminan coincidiendo con su propia realidad dentro del cuento.",
+    "ejemplo_aplicado": "En 'Continuidad de los parques' de Cortázar, un hombre lee una novela sobre un asesinato, y el final revela que la víctima de esa novela es él mismo: el nivel de la ficción leída se funde con el nivel del lector dentro del cuento.",
+    "error_comun": "Se confunde con un simple giro sorpresivo en la trama; la metaficción exige específicamente que el relato haga consciente al lector de los límites entre la ficción y la realidad narrativa, no solo que haya un final inesperado.",
+    "dificultad": "alta",
+    "prereqs": []
+  }
+]

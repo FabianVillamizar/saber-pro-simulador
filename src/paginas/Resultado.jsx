@@ -198,7 +198,12 @@ export function Resultado({ resultado, modulo, perfil, onCambiarPerfil, onVolver
                   mostrarCorreccion
                 />
                 {elegida ? (
-                  <PanelExplicacion pregunta={pregunta} seleccion={elegida} esCorrecta={esCorrecta} />
+                  <PanelExplicacion
+                    pregunta={pregunta}
+                    seleccion={elegida}
+                    esCorrecta={esCorrecta}
+                    tarjetasConcepto={modulo.tarjetasConcepto}
+                  />
                 ) : (
                   <p className="resultado-no-respondida">No respondida.</p>
                 )}

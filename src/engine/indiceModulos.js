@@ -2,6 +2,7 @@ import { adaptersIngles } from '../modulos/ingles/adapters.js'
 import { adaptersCompetenciasCiudadanas } from '../modulos/competencias-ciudadanas/adapters.js'
 import { adaptersPensamientoCientifico } from '../modulos/pensamiento-cientifico/adapters.js'
 import { adaptersDiosgenina } from '../modulos/diosgenina/adapters.js'
+import { adaptersLecturaCritica } from '../modulos/lectura-critica/adapters.js'
 
 // Índice central de módulos del examen. Agregar un módulo nuevo es:
 //   1. Copiar sus JSON a src/data/<id>/.
@@ -32,8 +33,30 @@ export const indiceModulos = {
     nombre: 'Lectura Crítica',
     monograma: 'LC',
     descripcion: 'Análisis e interpretación de textos.',
-    disponible: false,
-    adapters: {},
+    disponible: true,
+    // Igual que CC/PC/diosgenina: todavía no hay distribución de simulacro
+    // ni escala de resultado diseñadas para este módulo (ver
+    // saber_pro_resultado_scope en memoria) — solo repaso de conceptos y
+    // práctica por sub-categoría por ahora.
+    soportaSimulacro: false,
+    // Las 3 competencias oficiales del núcleo de Lectura Crítica del ICFES.
+    categorias: {
+      identificacion_local: 'Identificación local',
+      comprension_global: 'Comprensión global',
+      reflexion_evaluacion: 'Reflexión y evaluación',
+    },
+    // Eje ortogonal a `categorias`, reutilizando el mismo mecanismo que
+    // Pensamiento Científico usa para núcleo común/específico (ver
+    // `nucleo` en engine/adapters/lecturaCritica.js): aquí no separa
+    // núcleos temáticos del examen, separa las tres experiencias de
+    // lectura del módulo (texto literario, texto informativo, elemento
+    // discontinuo), pero el filtro y el conteo por parte funcionan igual.
+    nucleos: {
+      continuo_literario: 'Textos literarios',
+      continuo_informativo: 'Textos informativos',
+      discontinuo: 'Elementos discontinuos',
+    },
+    adapters: adaptersLecturaCritica,
   },
   'competencias-ciudadanas': {
     id: 'competencias-ciudadanas',

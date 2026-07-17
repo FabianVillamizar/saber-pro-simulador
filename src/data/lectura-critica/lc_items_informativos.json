@@ -1,0 +1,2226 @@
+[
+  {
+    "id": "LC-GRUPO-016",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_informativo",
+    "genero_texto": "columna_opinion",
+    "fuente": "Texto original generado para este banco de estudio",
+    "fuente_nota": "Texto de opinión original escrito para ilustrar una postura; ver también LC-GRUPO-017, con la postura contraria sobre el mismo tema.",
+    "texto_base": "LA SEMANA DE CUATRO DÍAS YA NO ES UNA UTOPÍA\n\nDurante más de un siglo hemos dado por sentado que la semana laboral debe tener cinco días. Sin embargo, esa cifra no responde a ninguna ley natural del trabajo: fue una conquista sindical de comienzos del siglo XX, pensada para las fábricas de la era industrial. Hoy, cuando buena parte del trabajo se mide por resultados y no por horas de presencia, insistir en cinco días fijos empieza a parecer un anacronismo.\n\nVarias empresas que han probado la semana de cuatro días, manteniendo el salario completo, reportan algo contraintuitivo: la productividad no cae, y en varios casos incluso mejora. La explicación no es misteriosa. Un empleado que dispone de un día adicional para descansar, resolver trámites personales o simplemente dormir mejor, llega el lunes con más capacidad de concentración que uno agotado por cinco jornadas seguidas. El tiempo de trabajo efectivo, medido en tareas completadas, no depende linealmente de las horas que alguien pasa frente a un computador.\n\nLos críticos suelen argumentar que reducir un día laboral equivale a reducir la producción en la misma proporción. Ese razonamiento asume que el trabajo humano funciona como una máquina que produce a un ritmo constante mientras esté encendida, cuando en realidad el rendimiento cae drásticamente después de cierto número de horas continuas de esfuerzo mental.\n\nPor supuesto, no todos los sectores pueden adoptar este modelo con la misma facilidad. Un hospital o una fábrica con turnos de producción continua enfrenta restricciones distintas a las de una oficina. Pero descartar la idea por completo, en vez de explorar cómo adaptarla sector por sector, es desperdiciar una oportunidad real de mejorar la calidad de vida sin sacrificar lo que de verdad importa: los resultados.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-037",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar un argumento explícito de la postura contraria dentro del texto",
+        "enunciado": "Según el texto, ¿qué argumento dan los críticos de la semana de cuatro días?",
+        "opciones": {
+          "A": "Que solo los hospitales pueden funcionar con esta jornada",
+          "B": "Que reducir un día laboral equivale a reducir la producción en la misma proporción",
+          "C": "Que las empresas no pueden pagar el salario completo con menos días trabajados",
+          "D": "Que los empleados no quieren trabajar menos días"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto lo dice explícitamente: 'Los críticos suelen argumentar que reducir un día laboral equivale a reducir la producción en la misma proporción.'",
+        "distractores": {
+          "A": {
+            "explicacion": "Los hospitales se mencionan como ejemplo de sector con restricciones, no como el único que puede funcionar con esta jornada.",
+            "patron_trampa": "enfoque_parcial"
+          },
+          "C": {
+            "explicacion": "El texto no menciona objeciones sobre la capacidad de pago del salario.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "El texto no habla de la voluntad de los empleados; se centra en el argumento sobre producción.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-038",
+        "competencia": "comprension_global",
+        "habilidad": "identificar la tesis central de un texto argumentativo",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-001",
+          "LC-FUN-003"
+        ],
+        "enunciado": "¿Cuál es la tesis principal que defiende el autor?",
+        "opciones": {
+          "A": "Que todas las empresas del mundo deben adoptar de inmediato la semana de cuatro días sin excepción",
+          "B": "Que la semana laboral de cuatro días, con el mismo salario, es viable y mejora la productividad en muchos sectores, aunque no en todos",
+          "C": "Que la productividad depende exclusivamente de las horas trabajadas frente a un escritorio",
+          "D": "Que el trabajo humano funciona igual que una máquina que produce siempre al mismo ritmo constante"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto defiende la viabilidad del modelo apoyándose en casos reales, pero cierra reconociendo que no todos los sectores pueden adoptarlo con la misma facilidad.",
+        "distractores": {
+          "A": {
+            "explicacion": "El cierre del texto contradice esta generalización absoluta, al reconocer diferencias entre sectores.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "C": {
+            "explicacion": "Es lo contrario de lo que argumenta el autor sobre el rendimiento mental.",
+            "patron_trampa": "inversion_causal"
+          },
+          "D": {
+            "explicacion": "Esa es precisamente la idea que el autor refuta, no la que defiende.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-039",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "evaluar la estrategia usada para refutar un argumento contrario",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-017"
+        ],
+        "enunciado": "¿Qué estrategia usa el autor para refutar el argumento de que menos días implican menos producción?",
+        "opciones": {
+          "A": "Cita estudios científicos concretos con datos estadísticos precisos sobre productividad laboral",
+          "B": "Ataca directamente a quienes sostienen esa posición, cuestionando su credibilidad",
+          "C": "Cuestiona el supuesto de que el rendimiento humano es constante por hora, y que decae con el esfuerzo",
+          "D": "Ofrece una anécdota personal detallada sobre su propia experiencia laboral pasada"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El autor desmonta el supuesto detrás del argumento contrario (que el trabajo humano rinde de forma constante), en vez de solo negar la conclusión.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no cita estudios ni cifras estadísticas específicas; explica el argumento de forma conceptual.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "No hay ningún ataque personal hacia los críticos; el autor discute el argumento, no a las personas.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "El texto no incluye ninguna anécdota personal del autor.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "alta"
+      },
+      {
+        "id": "LC-ITEM-040",
+        "competencia": "comprension_global",
+        "habilidad": "identificar un tipo adicional de argumento usado en el texto",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-016"
+        ],
+        "enunciado": "Más allá del argumento sobre productividad, ¿qué otro tipo de razón usa el autor para defender su tesis?",
+        "opciones": {
+          "A": "Una razón histórica: la semana de cinco días no responde a una ley natural, sino a una conquista sindical industrial",
+          "B": "Una razón legal, citando normas específicas y vigentes sobre horarios máximos de trabajo",
+          "C": "Una razón basada en comparaciones internacionales entre distintos países desarrollados",
+          "D": "Una razón basada exclusivamente en encuestas recientes de satisfacción laboral"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El primer párrafo introduce un argumento histórico: la semana de cinco días es una convención de origen sindical e industrial, no una necesidad universal.",
+        "distractores": {
+          "B": {
+            "explicacion": "No se citan normas legales específicas en el texto.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "No hay comparaciones entre países en el texto.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "El texto no menciona ninguna encuesta de satisfacción.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tipo": "continuo_informativo"
+  },
+  {
+    "id": "LC-GRUPO-017",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_informativo",
+    "genero_texto": "columna_opinion",
+    "fuente": "Texto original generado para este banco de estudio",
+    "fuente_nota": "Texto de opinión original que presenta la postura contraria a LC-GRUPO-016, sobre el mismo tema.",
+    "texto_base": "POR QUÉ LA SEMANA DE CUATRO DÍAS NO ES LA SOLUCIÓN QUE PARECE\n\nLa promesa de trabajar menos y ganar lo mismo resulta, con razón, muy atractiva. Pero antes de celebrar la semana de cuatro días como la gran solución del futuro laboral, vale la pena mirar con cuidado quién puede realmente costearla.\n\nLos casos de éxito que suelen citarse provienen, en su mayoría, de empresas de tecnología, consultoría o servicios profesionales, donde el trabajo se organiza por proyectos y objetivos flexibles. En esos entornos, comprimir el trabajo en cuatro días es, sobre todo, una reorganización de tareas. La historia es distinta en sectores donde la producción depende de procesos físicos continuos: una planta de manufactura, un centro de atención al cliente con horario extendido o un negocio de comercio que necesita estar abierto seis días a la semana no pueden simplemente 'comprimir' su actividad sin contratar más personal, lo cual implica un costo real que alguien debe asumir.\n\nAdemás, reducir la jornada no elimina automáticamente la carga de trabajo; en muchos casos solo la concentra. Empleados de empresas que probaron este modelo han reportado que, aunque valoran el día libre adicional, sienten más presión durante los cuatro días que trabajan, pues las mismas metas siguen ahí.\n\nEsto no significa que la idea carezca de mérito. Probablemente funcione bien en ciertos sectores y bajo ciertas condiciones específicas. Pero presentarla como una solución universal, aplicable de la misma manera a cualquier tipo de trabajo, ignora diferencias estructurales entre sectores que no desaparecen solo porque el modelo suene atractivo en la teoría.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-041",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar información explícita sobre el origen de los casos de éxito citados",
+        "enunciado": "Según el texto, ¿de qué tipo de empresas provienen la mayoría de los casos de éxito citados a favor de la semana de cuatro días?",
+        "opciones": {
+          "A": "De negocios de comercio local con horario extendido durante toda la semana",
+          "B": "De fábricas que dependen de procesos de manufactura continua las 24 horas",
+          "C": "De hospitales y centros de salud con atención de urgencias",
+          "D": "De empresas de tecnología o servicios, donde el trabajo se organiza por proyectos"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El texto lo indica directamente al inicio del segundo párrafo.",
+        "distractores": {
+          "A": {
+            "explicacion": "Es lo opuesto: el comercio con horario extendido se menciona como un sector con dificultades para aplicar el modelo.",
+            "patron_trampa": "inversion_causal"
+          },
+          "B": {
+            "explicacion": "El texto dice justamente que en la manufactura continua es más difícil aplicar el modelo, no que de ahí provengan los casos de éxito.",
+            "patron_trampa": "inversion_causal"
+          },
+          "C": {
+            "explicacion": "Los hospitales no se mencionan en este texto en particular.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-042",
+        "competencia": "comprension_global",
+        "habilidad": "identificar la tesis central de un texto argumentativo",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-001"
+        ],
+        "enunciado": "¿Cuál es la tesis central que defiende el autor en este texto?",
+        "opciones": {
+          "A": "Que la semana de cuatro días es completamente inviable en cualquier sector de la economía",
+          "B": "Que la reducción de la jornada elimina por completo la carga de trabajo de los empleados",
+          "C": "Que la semana de cuatro días funciona bien en ciertos sectores, pero generalizarla ignora diferencias reales entre sectores",
+          "D": "Que todos los empleados, sin excepción, prefieren trabajar cinco días completos"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El cierre del texto es explícito: la idea 'no carece de mérito', pero presentarla como solución universal ignora diferencias sectoriales.",
+        "distractores": {
+          "A": {
+            "explicacion": "Contradice la concesión final del autor, quien reconoce que puede funcionar en ciertos sectores.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "B": {
+            "explicacion": "El texto dice justamente lo contrario: la carga de trabajo se concentra, no se elimina.",
+            "patron_trampa": "inversion_causal"
+          },
+          "D": {
+            "explicacion": "El texto no hace ninguna afirmación sobre las preferencias generales de los empleados.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-043",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "evaluar la limitación señalada a una generalización",
+        "tarjetas_teoria_relacionada": [
+          "LC-REF-006"
+        ],
+        "enunciado": "¿Qué limitación señala el autor sobre generalizar la semana de cuatro días a cualquier sector?",
+        "opciones": {
+          "A": "Que los empleados, en su mayoría, prefieren trabajar cinco días en vez de cuatro",
+          "B": "Que reduce completamente la carga total de trabajo de los empleados",
+          "C": "Que ignora diferencias estructurales entre sectores (procesos continuos frente a trabajo por proyectos)",
+          "D": "Que ningún sector se ha beneficiado nunca de este modelo laboral en ningún país"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El cierre del texto formula exactamente esta idea como conclusión de todo el argumento.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no afirma esto; de hecho, menciona que los empleados valoran el día libre adicional.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "El texto dice que la carga se concentra, no que se elimina.",
+            "patron_trampa": "inversion_causal"
+          },
+          "D": {
+            "explicacion": "El autor reconoce explícitamente que la idea 'no carece de mérito' y puede funcionar en ciertos sectores.",
+            "patron_trampa": "generalizacion_indebida"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_informativo"
+  },
+  {
+    "id": "LC-GRUPO-018",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_informativo",
+    "genero_texto": "ensayo",
+    "fuente": "Texto original generado para este banco de estudio",
+    "fuente_nota": "",
+    "texto_base": "LA PARADOJA DE ESTAR SIEMPRE ACOMPAÑADOS\n\nNunca en la historia habíamos tenido tantas formas de estar en contacto con otras personas, y sin embargo las encuestas sobre soledad en la vida adulta muestran cifras que preocupan a quienes las estudian. La paradoja merece una pausa: ¿cómo es posible sentirse solo rodeado de cientos de contactos, notificaciones y conversaciones que nunca terminan de cerrarse del todo?\n\nUna posible respuesta está en la diferencia entre contacto y compañía. Revisar la actualización de un conocido, reaccionar con un ícono a su publicación o intercambiar mensajes breves durante el día produce la sensación de estar conectado, pero no necesariamente satisface la necesidad humana de ser visto y escuchado con atención sostenida. Es posible pasar horas interactuando en una pantalla sin que ninguna de esas interacciones profundice realmente en cómo a uno le está yendo la vida.\n\nEsto no equivale a decir que las redes sociales sean, en sí mismas, dañinas. Han permitido sostener vínculos que la distancia geográfica habría cortado, y han dado voz a personas que antes no tenían ningún espacio para expresarse. El problema surge cuando ese tipo de contacto liviano reemplaza, en vez de complementar, los encuentros donde alguien realmente se detiene a escuchar sin la urgencia de responder al siguiente mensaje.\n\nTal vez la pregunta más útil no sea si las redes sociales generan soledad, sino qué lugar les damos dentro de una vida que también necesita momentos sin pantallas de por medio: una conversación larga sin el teléfono sobre la mesa, un silencio compartido con alguien sin necesidad de llenarlo. La tecnología puede ampliar el círculo de personas con quienes nos relacionamos, pero no puede, por sí sola, garantizar la calidad de esa relación.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-044",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar una distinción explícita entre dos conceptos",
+        "enunciado": "Según el texto, ¿qué distinción propone el autor entre 'contacto' y 'compañía'?",
+        "opciones": {
+          "A": "Que el contacto (interacciones breves en redes) no siempre da la atención sostenida que sí ofrece la compañía",
+          "B": "Que el contacto por redes es siempre mejor que la compañía presencial y física",
+          "C": "Que la compañía solo puede darse en persona y nunca a través de mensajes escritos",
+          "D": "Que ambas palabras significan, en el fondo, exactamente lo mismo para el autor"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El segundo párrafo desarrolla exactamente esta distinción como respuesta a la paradoja planteada.",
+        "distractores": {
+          "B": {
+            "explicacion": "Es lo contrario de lo que sugiere el ensayo, que valora más la atención sostenida.",
+            "patron_trampa": "inversion_causal"
+          },
+          "C": {
+            "explicacion": "El texto no afirma una exclusión tan tajante; matiza sin llegar a ese extremo.",
+            "patron_trampa": "sobreinterpretacion"
+          },
+          "D": {
+            "explicacion": "El texto distingue explícitamente ambos términos; no los trata como sinónimos.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-045",
+        "competencia": "comprension_global",
+        "habilidad": "identificar la postura general del autor sobre un fenómeno social",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-017"
+        ],
+        "enunciado": "¿Cuál es la postura general del autor sobre las redes sociales?",
+        "opciones": {
+          "A": "Que no son dañinas en sí mismas, pero pueden generar soledad si reemplazan la atención sostenida",
+          "B": "Que la soledad es un problema exclusivamente moderno que no existía antes",
+          "C": "Que las redes sociales deberían prohibirse por completo para reducir la soledad",
+          "D": "Que las redes sociales son la causa principal y única de la soledad moderna"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El tercer párrafo lo afirma explícitamente: 'esto no equivale a decir que las redes sociales sean, en sí mismas, dañinas.'",
+        "distractores": {
+          "B": {
+            "explicacion": "El ensayo no hace ninguna afirmación histórica sobre si la soledad existía antes o no.",
+            "patron_trampa": "fuera_de_alcance_pregunta"
+          },
+          "C": {
+            "explicacion": "El autor nunca propone prohibirlas; al contrario, reconoce sus beneficios.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "El texto no las presenta como la única causa; matiza con reconocimientos a su valor.",
+            "patron_trampa": "generalizacion_indebida"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-046",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "evaluar el efecto retórico de cerrar un texto con una pregunta",
+        "tarjetas_teoria_relacionada": [
+          "LC-FIG-039",
+          "LC-FIG-040"
+        ],
+        "enunciado": "¿Qué efecto logra el autor al plantear una pregunta final ('qué lugar les damos') en vez de dar una conclusión categórica?",
+        "opciones": {
+          "A": "Es un recurso puramente decorativo sin relación con el propósito del ensayo",
+          "B": "Demuestra que el autor no tiene ninguna opinión formada ni clara sobre el tema",
+          "C": "Anula por completo todo lo argumentado anteriormente a lo largo del ensayo",
+          "D": "Invita al lector a reflexionar sobre su propio uso de la tecnología, sin imponer una condena cerrada"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El cierre reflexivo es coherente con el tono equilibrado de todo el ensayo, que evita conclusiones tajantes en ambos sentidos.",
+        "distractores": {
+          "A": {
+            "explicacion": "La pregunta cumple una función argumentativa clara: cerrar el ensayo sin caer en un extremo.",
+            "patron_trampa": "enfoque_parcial"
+          },
+          "B": {
+            "explicacion": "El autor sí desarrolla una postura clara a lo largo del texto; la pregunta final no es indecisión sino invitación a la reflexión personal.",
+            "patron_trampa": "sobreinterpretacion"
+          },
+          "C": {
+            "explicacion": "La pregunta final es coherente con, y se apoya en, todo lo argumentado antes.",
+            "patron_trampa": "inversion_causal"
+          }
+        },
+        "dificultad": "alta"
+      },
+      {
+        "id": "LC-ITEM-047",
+        "competencia": "comprension_global",
+        "habilidad": "identificar una concesión dentro de un texto reflexivo",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-017"
+        ],
+        "enunciado": "¿Qué concesión hace el autor a favor de las redes sociales dentro del ensayo?",
+        "opciones": {
+          "A": "Reconoce que las redes sociales curan por completo, y sin ayuda de nadie más, cualquier forma de soledad",
+          "B": "Reconoce que deberían eliminarse por completo de la vida cotidiana de las personas",
+          "C": "Reconoce que no tiene ninguna opinión formada ni clara sobre el tema tratado",
+          "D": "Reconoce que han permitido sostener vínculos que la distancia habría cortado, y dar voz a quienes no tenían espacio"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El tercer párrafo enumera exactamente estos dos beneficios como concesión antes de matizar el argumento.",
+        "distractores": {
+          "A": {
+            "explicacion": "Es lo contrario: el ensayo sugiere que pueden contribuir a la soledad si reemplazan la atención sostenida.",
+            "patron_trampa": "inversion_causal"
+          },
+          "B": {
+            "explicacion": "El autor nunca propone eliminarlas; reconoce beneficios reales.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El ensayo desarrolla una postura clara y matizada a lo largo del texto.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tipo": "continuo_informativo"
+  },
+  {
+    "id": "LC-GRUPO-019",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_informativo",
+    "genero_texto": "cronica",
+    "fuente": "Texto original generado para este banco de estudio",
+    "fuente_nota": "",
+    "texto_base": "LAS SEIS DE LA MAÑANA EN LA PLAZA\n\nCuando todavía no ha salido el sol, la plaza de mercado ya suena como si fuera mediodía. Los camiones descargan bultos de papa, cebolla y plátano sobre el andén húmedo, y los cargueros -hombres de espalda ancha y camisa sudada- se turnan para llevar la mercancía hasta los puestos, casi sin mirar el peso que llevan encima.\n\nDoña Rosalba lleva veintitrés años vendiendo hierbas y especias en el mismo rincón de la nave central. Dice que reconoce a sus clientes por el olor que quieren llevarse a la casa antes de que digan una palabra: al que pide cilantro fresco todos los sábados, al que solo compra comino cuando va a hacer sancocho para toda la familia. 'Uno aprende a leer a la gente por lo que cocina', dice, mientras acomoda un manojo de albahaca sobre una bandeja de icopor.\n\nA esa hora, el ruido no es solo de voces: es de baldes de agua contra el piso de cemento, de cuchillos afilándose contra una piedra, de radios distintos compitiendo entre los pasillos sin ponerse de acuerdo en una sola emisora. Un niño de unos ocho años ayuda a su padre a acomodar limones en una pirámide perfecta, y cuando termina, se sienta sobre un costal a hacer tareas del colegio con un lápiz corto que ya casi no tiene con qué escribir.\n\nNadie en la plaza parece tener prisa por explicar lo que hace; simplemente lo hace, con la misma rutina de hace veinte años, aunque el precio de la libra de tomate haya cambiado más de una vez en lo que va del mes. Cuando el sol termina de salir, la plaza ya lleva horas despierta, y buena parte de la ciudad todavía no ha puesto un pie en la calle.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-048",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar un detalle explícito sobre un personaje de la crónica",
+        "enunciado": "Según el texto, ¿cómo dice doña Rosalba que reconoce a sus clientes?",
+        "opciones": {
+          "A": "Por el nombre completo que le dicen sus clientes al llegar al puesto",
+          "B": "Por el olor de lo que quieren llevarse a la casa, incluso antes de que digan una palabra",
+          "C": "Por el estilo de ropa y los colores que usan cada día en el mercado",
+          "D": "Por la hora exacta del día en que suelen llegar a la plaza"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "La crónica lo cita directamente: 'reconoce a sus clientes por el olor que quieren llevarse a la casa... uno aprende a leer a la gente por lo que cocina.'",
+        "distractores": {
+          "A": {
+            "explicacion": "No se menciona ningún reconocimiento por nombre.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "No hay ninguna mención a la vestimenta de los clientes.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "No se menciona ningún reconocimiento basado en horarios de llegada.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-049",
+        "competencia": "comprension_global",
+        "habilidad": "identificar la idea general que transmite una crónica descriptiva",
+        "tarjetas_teoria_relacionada": [
+          "LC-FUN-001"
+        ],
+        "enunciado": "¿Qué idea general transmite la crónica sobre la vida en la plaza de mercado?",
+        "opciones": {
+          "A": "Que la plaza va a ser reemplazada muy pronto por un supermercado moderno y grande",
+          "B": "Que el gobierno local ha abandonado por completo el mantenimiento de la plaza",
+          "C": "Que la plaza mantiene una rutina cotidiana donde la vida laboral y familiar se entrelazan sin dramatizarla",
+          "D": "Que los vendedores de la plaza están a punto de declararse en huelga general"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El cierre del texto resume esta idea: 'nadie en la plaza parece tener prisa por explicar lo que hace; simplemente lo hace.'",
+        "distractores": {
+          "A": {
+            "explicacion": "No se menciona ningún plan de reemplazo de la plaza.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "No hay ninguna mención al estado de mantenimiento ni a la gestión gubernamental.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "No hay ninguna mención a conflictos laborales o huelgas.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-050",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "evaluar el efecto narrativo de un detalle específico dentro de una crónica",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-034"
+        ],
+        "enunciado": "¿Qué efecto logra la crónica al describir a un niño haciendo tareas escolares sentado sobre un costal en medio de la plaza?",
+        "opciones": {
+          "A": "Humaniza la escena mostrando cómo la vida laboral se mezcla con la familiar, sin idealizar ni denunciar",
+          "B": "Es un detalle sin ninguna función narrativa real dentro de la crónica completa",
+          "C": "Sugiere que el niño no tiene acceso a ningún tipo de educación formal",
+          "D": "Denuncia de forma directa el trabajo infantil ilegal que ocurre en el país"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El detalle se presenta de forma neutral, como parte del retrato cotidiano de la plaza, sin adjetivos que denuncien o dramaticen la escena.",
+        "distractores": {
+          "B": {
+            "explicacion": "El detalle contribuye directamente al retrato general de la vida cotidiana de la plaza.",
+            "patron_trampa": "enfoque_parcial"
+          },
+          "C": {
+            "explicacion": "Es lo contrario: el niño está haciendo tareas del colegio, lo que indica que sí asiste a la escuela.",
+            "patron_trampa": "inversion_causal"
+          },
+          "D": {
+            "explicacion": "El texto no hace ninguna denuncia explícita sobre trabajo infantil; el niño hace tareas escolares, no trabaja.",
+            "patron_trampa": "sobreinterpretacion"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_informativo"
+  },
+  {
+    "id": "LC-GRUPO-020",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_informativo",
+    "genero_texto": "noticia",
+    "fuente": "Texto original generado para este banco de estudio",
+    "fuente_nota": "",
+    "texto_base": "HALLAN RESTOS DE UN ASENTAMIENTO PREHISPÁNICO EN EXCAVACIÓN VIAL\n\nUn equipo de arqueólogos encontró la semana pasada vestigios de un asentamiento prehispánico durante las obras de ampliación de una vía secundaria en la región andina. Según el informe preliminar entregado por el Instituto de Patrimonio, se trata de al menos doce estructuras circulares de piedra, junto con fragmentos de cerámica y herramientas de uso doméstico, que podrían datar de hace unos ochocientos años.\n\nLas obras fueron suspendidas de inmediato en el sector donde apareció el hallazgo, tal como exige el protocolo cuando se detectan restos arqueológicos durante una construcción. La empresa contratista informó que retomará los trabajos en un tramo alterno mientras se completa el estudio del sitio, un proceso que, según el Instituto, podría tomar entre cuatro y seis meses.\n\nLa directora del equipo de investigación explicó que la disposición de las estructuras sugiere que el asentamiento tuvo una función habitacional prolongada, y no un campamento temporal, como se pensó en un primer momento. 'La cantidad y variedad de los objetos encontrados indica actividad continua durante generaciones, no un uso esporádico del terreno', señaló.\n\nLas autoridades locales anunciaron que, una vez concluida la investigación, evaluarán la posibilidad de habilitar el sitio como un espacio de divulgación abierto a la comunidad, en coordinación con las universidades de la región. Por ahora, el acceso al área permanece restringido y bajo vigilancia permanente, mientras avanza el trabajo de catalogación de las piezas recuperadas.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-051",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar una decisión explícita mencionada en una noticia",
+        "enunciado": "Según la noticia, ¿qué decisión tomó la empresa contratista tras el hallazgo?",
+        "opciones": {
+          "A": "Canceló por completo todo el proyecto de ampliación vial de la región",
+          "B": "Continuó las obras en el sector sin ninguna interrupción ni pausa",
+          "C": "Vendió el terreno completo al Instituto de Patrimonio nacional",
+          "D": "Suspendió las obras en el sector y anunció que las retomará en un tramo alterno"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El segundo párrafo lo indica directamente.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto dice que se retomarán los trabajos en un tramo alterno, no que se cancele todo el proyecto.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "B": {
+            "explicacion": "Es lo contrario a lo que dice la noticia: las obras se suspendieron en ese sector.",
+            "patron_trampa": "inversion_causal"
+          },
+          "C": {
+            "explicacion": "No hay ninguna mención a una venta del terreno.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-052",
+        "competencia": "comprension_global",
+        "habilidad": "identificar la idea principal aportada por una fuente citada en la noticia",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-008"
+        ],
+        "enunciado": "¿Cuál es la idea principal que aporta la directora del equipo de investigación en la noticia?",
+        "opciones": {
+          "A": "Que el asentamiento perteneció a una civilización previamente desconocida en la región",
+          "B": "Que las obras viales deben cancelarse permanentemente en toda la región",
+          "C": "Que la disposición y variedad de los objetos sugiere un uso habitacional prolongado, no un campamento temporal",
+          "D": "Que el hallazgo no tiene ningún valor científico ni histórico relevante"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Es la declaración textual atribuida a la directora en el tercer párrafo.",
+        "distractores": {
+          "A": {
+            "explicacion": "La noticia no menciona ninguna civilización desconocida.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "La noticia no plantea ninguna cancelación permanente de obras en la región.",
+            "patron_trampa": "sobreinterpretacion"
+          },
+          "D": {
+            "explicacion": "Es lo contrario de lo que sugiere todo el tono de la noticia sobre el hallazgo.",
+            "patron_trampa": "inversion_causal"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-053",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "evaluar la función de un detalle procedimental dentro de una noticia",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-022"
+        ],
+        "enunciado": "¿Por qué es relevante que la noticia mencione que las obras se suspendieron 'de inmediato... tal como exige el protocolo'?",
+        "opciones": {
+          "A": "Porque indica que las obras nunca más se van a reanudar en todo el sector afectado",
+          "B": "Porque demuestra que la empresa contratista actuó claramente de forma ilegal",
+          "C": "Porque prueba que el hallazgo no tiene ningún valor científico real",
+          "D": "Porque muestra que proteger el patrimonio sigue un procedimiento institucional establecido"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "La mención al 'protocolo' señala que la suspensión responde a una norma establecida, no a una decisión arbitraria.",
+        "distractores": {
+          "A": {
+            "explicacion": "La noticia indica que las obras se retomarán en un tramo alterno, no que se detienen para siempre.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "Es lo contrario: seguir el protocolo indica una actuación correcta, no ilegal.",
+            "patron_trampa": "inversion_causal"
+          },
+          "C": {
+            "explicacion": "El procedimiento no dice nada sobre el valor científico del hallazgo; son dos aspectos distintos.",
+            "patron_trampa": "fuera_de_alcance_pregunta"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_informativo"
+  },
+  {
+    "id": "LC-GRUPO-021",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_informativo",
+    "genero_texto": "columna_opinion",
+    "fuente": "Texto original generado para este banco de estudio",
+    "fuente_nota": "Texto de opinión original escrito para ilustrar una postura; ver también LC-GRUPO-022, con la postura contraria sobre el mismo tema.",
+    "texto_base": "LA ENERGÍA QUE NO QUEREMOS NOMBRAR\n\nPocas palabras generan tanto rechazo instintivo como 'energía nuclear'. Basta mencionarla para que la conversación se llene de imágenes de accidentes catastróficos ocurridos hace décadas, como si la tecnología no hubiera cambiado desde entonces. Sin embargo, si el objetivo real es reducir las emisiones que están calentando el planeta, ignorar esta fuente de energía por prejuicio resulta, cuando menos, contradictorio.\n\nLos reactores modernos operan con estándares de seguridad muy superiores a los de generaciones anteriores, y las plantas nucleares producen electricidad de manera constante, sin depender de que haya sol o viento en un momento dado, algo que sí limita a otras energías renovables. Un país que combina energía solar, eólica y nuclear tiene una red eléctrica mucho más estable que uno que depende exclusivamente de fuentes intermitentes.\n\nEs cierto que persisten problemas reales: la gestión de los residuos radiactivos exige soluciones a muy largo plazo, y la construcción de una planta nuclear implica costos iniciales considerables. Nadie debería minimizar esas dificultades. Pero comparar esos riesgos, gestionables con la tecnología actual, contra el riesgo ya comprobado del cambio climático acelerado, sugiere que estamos evaluando con una vara distinta según la fuente de energía de la que hablemos: se exige a la energía nuclear un estándar de seguridad casi perfecto, mientras se toleran con más facilidad los efectos, mucho más extendidos y ya visibles, de seguir dependiendo de los combustibles fósiles.\n\nNo se trata de reemplazar todas las demás fuentes de energía por reactores nucleares, sino de dejar de descartar una opción viable solo por el peso emocional de su nombre, mientras el planeta sigue calentándose con opciones que sí hemos normalizado.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-054",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar una ventaja explícita atribuida a una fuente de energía",
+        "enunciado": "Según el texto, ¿qué ventaja tiene la energía nuclear frente a otras energías renovables como la solar o la eólica?",
+        "opciones": {
+          "A": "No genera ningún tipo de residuo peligroso durante su funcionamiento",
+          "B": "Ha sido adoptada por todos los países del mundo sin excepción",
+          "C": "Produce electricidad constante, sin depender de que haya sol o viento",
+          "D": "Es más barata de construir que cualquier otra fuente de energía"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El segundo párrafo lo afirma directamente como ventaja frente a las fuentes intermitentes.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto reconoce explícitamente el problema de los residuos radiactivos.",
+            "patron_trampa": "inversion_causal"
+          },
+          "B": {
+            "explicacion": "No hay ninguna afirmación sobre adopción global unánime.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "El texto dice que implica costos iniciales considerables, no que sea la más barata.",
+            "patron_trampa": "inversion_causal"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-055",
+        "competencia": "comprension_global",
+        "habilidad": "identificar la tesis central de un texto argumentativo",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-001"
+        ],
+        "enunciado": "¿Cuál es la tesis central del autor?",
+        "opciones": {
+          "A": "Que todas las demás fuentes de energía deberían eliminarse de inmediato por completo",
+          "B": "Que descartar la energía nuclear por prejuicio emocional es contradictorio si el objetivo es reducir emisiones",
+          "C": "Que el cambio climático es un problema exagerado por los medios",
+          "D": "Que la energía nuclear no tiene ningún riesgo asociado"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto concluye exactamente esta idea, tras reconocer riesgos reales y compararlos con los del cambio climático.",
+        "distractores": {
+          "A": {
+            "explicacion": "El cierre del texto aclara explícitamente que no propone eliminar las demás fuentes.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "C": {
+            "explicacion": "El texto no cuestiona la gravedad del cambio climático; al contrario, la usa como argumento a favor de su tesis.",
+            "patron_trampa": "fuera_de_alcance_pregunta"
+          },
+          "D": {
+            "explicacion": "El autor reconoce riesgos reales (residuos, costos); no los niega.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-056",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "evaluar la estrategia argumentativa de señalar una inconsistencia",
+        "tarjetas_teoria_relacionada": [
+          "LC-REF-001"
+        ],
+        "enunciado": "¿Qué estrategia argumentativa usa el autor al comparar el estándar de seguridad exigido a la energía nuclear con la tolerancia hacia los combustibles fósiles?",
+        "opciones": {
+          "A": "Ataca personalmente a quienes se oponen abiertamente a la energía nuclear",
+          "B": "Apela directamente al miedo del lector hacia los combustibles fósiles tradicionales",
+          "C": "Cita cifras oficiales de varios organismos internacionales de energía",
+          "D": "Señala una inconsistencia en cómo se evalúan los riesgos según la fuente de energía"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El tercer párrafo desarrolla explícitamente esta comparación como argumento central de la columna.",
+        "distractores": {
+          "A": {
+            "explicacion": "No hay ataques personales; el argumento se centra en el razonamiento, no en las personas.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "El argumento es sobre inconsistencia lógica, no una apelación emocional al miedo.",
+            "patron_trampa": "confusion_figura_retorica"
+          },
+          "C": {
+            "explicacion": "El texto no cita cifras ni fuentes oficiales concretas.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "alta"
+      },
+      {
+        "id": "LC-ITEM-057",
+        "competencia": "comprension_global",
+        "habilidad": "identificar una concesión dentro de un texto argumentativo",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-017"
+        ],
+        "enunciado": "¿Qué concesión hace el autor sobre los problemas reales de la energía nuclear?",
+        "opciones": {
+          "A": "Reconoce que el cambio climático no es, en realidad, un problema real",
+          "B": "Reconoce que gestionar los residuos exige soluciones a largo plazo y que construir una planta cuesta mucho",
+          "C": "Reconoce que prefiere eliminar por completo esta fuente de energía",
+          "D": "Reconoce que la energía nuclear no ha causado nunca ningún tipo de accidente grave conocido"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El tercer párrafo lo dice explícitamente: 'es cierto que persisten problemas reales... nadie debería minimizar esas dificultades.'",
+        "distractores": {
+          "A": {
+            "explicacion": "El autor usa el cambio climático como argumento a favor de su tesis, no lo niega.",
+            "patron_trampa": "fuera_de_alcance_pregunta"
+          },
+          "C": {
+            "explicacion": "Es lo contrario de la tesis que defiende el autor.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          },
+          "D": {
+            "explicacion": "El texto reconoce implícitamente riesgos históricos al mencionar 'accidentes catastróficos ocurridos hace décadas'.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tipo": "continuo_informativo"
+  },
+  {
+    "id": "LC-GRUPO-022",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_informativo",
+    "genero_texto": "columna_opinion",
+    "fuente": "Texto original generado para este banco de estudio",
+    "fuente_nota": "Texto de opinión original que presenta la postura contraria a LC-GRUPO-021, sobre el mismo tema.",
+    "texto_base": "LO QUE LA ENERGÍA NUCLEAR NO RESUELVE POR SÍ SOLA\n\nCada vez que sube el precio de la energía o se habla de la urgencia climática, alguien propone la energía nuclear como si fuera la respuesta que estábamos esperando. Vale la pena mirar con más calma qué tan realista es esa promesa.\n\nConstruir una planta nuclear no toma meses, sino años, a veces más de una década entre la planeación, los permisos y la construcción misma. Si la urgencia es reducir emisiones en el corto plazo, invertir en una tecnología cuyos beneficios tardarán tanto en materializarse compite directamente por recursos y tiempo político con soluciones que sí se pueden desplegar con rapidez, como la energía solar y eólica, cuyos costos además han bajado de forma sostenida en la última década.\n\nAdemás, aunque los defensores de la energía nuclear insisten en que la tecnología actual es mucho más segura, el problema de los residuos radiactivos no ha desaparecido: siguen requiriendo almacenamiento controlado durante miles de años, un compromiso que las generaciones futuras heredan sin haber participado en la decisión. No es un argumento para descartarla por completo, pero sí para no presentarla como una solución sin costos ni compromisos a largo plazo.\n\nNinguna fuente de energía es perfecta, y es razonable que la energía nuclear tenga un lugar en la discusión sobre el futuro energético. Pero convertirla en la respuesta principal, cuando existen alternativas más rápidas de implementar y con menos incertidumbre a largo plazo, parece más una preferencia ideológica que una decisión basada exclusivamente en la urgencia climática que se invoca para defenderla.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-058",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar información explícita sobre una consecuencia intergeneracional",
+        "enunciado": "Según el texto, ¿qué compromiso heredan las generaciones futuras según el autor?",
+        "opciones": {
+          "A": "La responsabilidad de cerrar las plantas nucleares en veinte años",
+          "B": "La prohibición de usar cualquier otra fuente de energía",
+          "C": "El pago de la deuda pública contraída para construir las plantas",
+          "D": "El almacenamiento controlado de los residuos radiactivos durante miles de años"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El tercer párrafo lo señala directamente.",
+        "distractores": {
+          "A": {
+            "explicacion": "No se menciona ningún plazo de cierre de veinte años.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "No hay ninguna mención a una prohibición de otras fuentes.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El texto no menciona ninguna deuda pública específica.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-059",
+        "competencia": "comprension_global",
+        "habilidad": "identificar la tesis central de un texto argumentativo",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-001"
+        ],
+        "enunciado": "¿Cuál es la tesis central que defiende el autor?",
+        "opciones": {
+          "A": "Que la energía nuclear tiene un lugar razonable en el debate, pero presentarla como solución principal responde a ideología, no a urgencia climática",
+          "B": "Que la energía nuclear no debería existir bajo ninguna circunstancia, sin importar los avances tecnológicos recientes",
+          "C": "Que la energía solar y eólica no tienen ningún costo económico asociado a su instalación y mantenimiento",
+          "D": "Que el cambio climático no es, en el fondo, un problema urgente que amerite grandes cambios"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Es la conclusión explícita del último párrafo del texto.",
+        "distractores": {
+          "B": {
+            "explicacion": "El autor reconoce que puede tener un lugar razonable; no propone eliminarla por completo.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          },
+          "C": {
+            "explicacion": "El texto no afirma que no tengan ningún costo, solo que han bajado de forma sostenida.",
+            "patron_trampa": "sobreinterpretacion"
+          },
+          "D": {
+            "explicacion": "El texto no cuestiona la urgencia climática; la asume como punto de partida del debate.",
+            "patron_trampa": "fuera_de_alcance_pregunta"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-060",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "evaluar la relación entre un dato temporal y un argumento central",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-002"
+        ],
+        "enunciado": "¿Qué relación establece el autor entre el tiempo de construcción de una planta nuclear y la urgencia climática?",
+        "opciones": {
+          "A": "Concluye, a partir de los datos, que la energía solar y eólica no tienen ningún costo asociado",
+          "B": "Afirma que la energía nuclear no tiene absolutamente ninguna relación con el cambio climático",
+          "C": "Señala una tensión: una tecnología que tarda años en implementarse compite por recursos con soluciones más rápidas",
+          "D": "Sostiene que construir una planta nuclear toma menos tiempo que instalar paneles solares"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El segundo párrafo desarrolla exactamente esta tensión como argumento central.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto dice que sus costos 'han bajado', no que sean nulos.",
+            "patron_trampa": "sobreinterpretacion"
+          },
+          "B": {
+            "explicacion": "El texto sí relaciona ambos temas directamente; es el eje de su argumento.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "Es lo contrario de lo que afirma el texto.",
+            "patron_trampa": "inversion_causal"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_informativo"
+  },
+  {
+    "id": "LC-GRUPO-023",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_informativo",
+    "genero_texto": "ensayo",
+    "fuente": "Texto original generado para este banco de estudio",
+    "fuente_nota": "",
+    "texto_base": "ELOGIO DEL RATO SIN NADA QUE HACER\n\nHay una incomodidad muy particular que casi nadie experimenta ya de forma completa: el aburrimiento sin salida inmediata. Antes, una fila larga, una sala de espera o un viaje sin compañía obligaban a la mente a quedarse a solas consigo misma, sin ninguna pantalla a la mano para llenar ese vacío. Hoy, ese vacío se cierra en segundos con un teléfono.\n\nNo se trata de romantizar la incomodidad por sí misma, ni de sugerir que aburrirse sea agradable. Se trata de algo más específico: el aburrimiento parece cumplir una función que la distracción constante no reemplaza. Cuando la mente no tiene un estímulo externo inmediato que atender, suele empezar a divagar hacia asuntos que veníamos postergando: una conversación pendiente, una decisión que hemos evitado tomar, una idea que no habíamos terminado de pensar. Ese proceso, incómodo mientras ocurre, con frecuencia produce algo parecido a la claridad.\n\nAl llenar cada rato libre con contenido nuevo, no eliminamos esos pensamientos pendientes; simplemente los aplazamos indefinidamente. La sensación de estar siempre ocupados con algo, aunque sea trivial, puede convertirse en una forma sofisticada de evitar precisamente aquello que más necesita ser pensado con calma.\n\nEsto no implica que debamos eliminar por completo el entretenimiento fácil de nuestras vidas; sería un ideal poco realista y, probablemente, innecesario. Pero vale la pena preguntarse si, al huir sistemáticamente de cualquier rato sin estímulo, no estamos también huyendo de una herramienta mental que, incómoda como es, cumplía una función que ningún contenido nuevo, por entretenido que sea, logra reemplazar del todo.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-061",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar una consecuencia explícita descrita en el texto",
+        "enunciado": "Según el autor, ¿qué suele ocurrir cuando la mente no tiene un estímulo externo inmediato que atender?",
+        "opciones": {
+          "A": "Deja de funcionar por completo hasta recibir un nuevo estímulo",
+          "B": "Olvida por completo cualquier pensamiento pendiente que tuviera antes",
+          "C": "Entra automáticamente en un estado de ansiedad incontrolable",
+          "D": "Suele divagar hacia asuntos postergados, como conversaciones pendientes o decisiones evitadas"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El segundo párrafo lo describe directamente.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto describe actividad mental (divagar), no una detención del funcionamiento.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "Es lo contrario: la mente se dirige precisamente hacia esos pensamientos pendientes.",
+            "patron_trampa": "inversion_causal"
+          },
+          "C": {
+            "explicacion": "El texto no menciona ansiedad; describe divagación hacia asuntos pendientes.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-062",
+        "competencia": "comprension_global",
+        "habilidad": "identificar la idea central de un ensayo reflexivo",
+        "tarjetas_teoria_relacionada": [
+          "LC-FUN-001"
+        ],
+        "enunciado": "¿Cuál es la idea central que defiende el ensayo?",
+        "opciones": {
+          "A": "Que el entretenimiento digital debe eliminarse por completo de la vida cotidiana",
+          "B": "Que el aburrimiento, aunque incómodo, cumple una función mental que la distracción constante tiende a reemplazar",
+          "C": "Que aburrirse es siempre, sin excepción, una experiencia agradable y placentera",
+          "D": "Que las personas de generaciones anteriores eran más inteligentes por aburrirse más"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Es la tesis desarrollada a lo largo de todo el ensayo y reafirmada en el cierre.",
+        "distractores": {
+          "A": {
+            "explicacion": "El cuarto párrafo rechaza explícitamente esta idea como poco realista e innecesaria.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "C": {
+            "explicacion": "El autor aclara explícitamente que no busca romantizar la incomodidad.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          },
+          "D": {
+            "explicacion": "El ensayo no hace ninguna comparación de inteligencia entre generaciones.",
+            "patron_trampa": "fuera_de_alcance_pregunta"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-063",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "evaluar una matización dentro de un argumento",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-017"
+        ],
+        "enunciado": "¿Qué matización hace el autor para evitar que su argumento se lea como un rechazo absoluto del entretenimiento?",
+        "opciones": {
+          "A": "Afirma que el entretenimiento digital es completamente inofensivo para cualquier persona",
+          "B": "Aclara que no propone eliminar por completo el entretenimiento fácil, por ser una idea poco realista",
+          "C": "Se retracta por completo de su idea principal justo al final del texto",
+          "D": "Cita varios estudios científicos que contradicen su propio argumento central"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El cuarto párrafo formula exactamente esta matización.",
+        "distractores": {
+          "A": {
+            "explicacion": "El autor no afirma que sea inofensivo; señala un costo específico (aplazar pensamientos pendientes).",
+            "patron_trampa": "sobreinterpretacion"
+          },
+          "C": {
+            "explicacion": "El autor matiza, pero mantiene su tesis central hasta el final.",
+            "patron_trampa": "inversion_causal"
+          },
+          "D": {
+            "explicacion": "El texto no cita ningún estudio científico.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "alta"
+      },
+      {
+        "id": "LC-ITEM-064",
+        "competencia": "comprension_global",
+        "habilidad": "distinguir una postura matizada de una posición extrema dentro de un mismo párrafo",
+        "tarjetas_teoria_relacionada": [
+          "LC-REF-005"
+        ],
+        "enunciado": "¿Qué distingue el autor entre 'romantizar la incomodidad' y el argumento que realmente defiende?",
+        "opciones": {
+          "A": "Sostiene que el aburrimiento y la distracción son exactamente lo mismo",
+          "B": "Concluye que el entretenimiento digital debe prohibirse por completo en la vida diaria",
+          "C": "Afirma que aburrirse es siempre, sin excepción, una experiencia placentera",
+          "D": "Aclara que no dice que aburrirse sea agradable, sino que cumple una función que la distracción no reemplaza"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El segundo párrafo hace esta distinción explícitamente al inicio.",
+        "distractores": {
+          "A": {
+            "explicacion": "El ensayo los distingue precisamente como fenómenos con efectos distintos.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          },
+          "B": {
+            "explicacion": "El autor rechaza explícitamente eliminar el entretenimiento por completo.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "C": {
+            "explicacion": "El autor niega explícitamente esta idea.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tipo": "continuo_informativo"
+  },
+  {
+    "id": "LC-GRUPO-024",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_informativo",
+    "genero_texto": "cronica",
+    "fuente": "Texto original generado para este banco de estudio",
+    "fuente_nota": "",
+    "texto_base": "EL HOMBRE QUE TODAVÍA ARREGLA RELOJES DE CUERDA\n\nEl taller de don Alirio mide poco más de dos metros de ancho, apretado entre una papelería y una tienda de celulares que vende, entre otras cosas, relojes inteligentes por una fracción de lo que él cobra por reparar uno mecánico. Sobre el mostrador hay una lupa sujeta con un resorte a la cabeza, decenas de piezas diminutas ordenadas en frascos de vidrio reciclados, y un silencio interrumpido solo por el tictac disparejo de media docena de relojes esperando turno.\n\nLleva cuarenta y un años en el oficio. Aprendió con su tío, quien a su vez había aprendido con un relojero español que llegó al país después de la guerra. 'Antes había uno de estos en cada cuadra del centro', dice sin nostalgia aparente, como quien constata un hecho más que lamenta una pérdida. Hoy, en toda la ciudad, quedan menos de diez talleres como el suyo, y la mayoría de sus clientes son personas que heredaron un reloj de algún familiar y no se atreven a tirarlo, aunque tampoco sepan muy bien por qué lo guardan con tanto cuidado.\n\nDon Alirio no tiene aprendiz. Sus dos hijos estudiaron ingeniería y administración, y él mismo los animó a hacerlo. 'Yo no le veo futuro a esto, pero tampoco me arrepiento de haberlo hecho toda mi vida', dice mientras ajusta con unas pinzas diminutas un engranaje más pequeño que un grano de arroz. Cuando se le pregunta qué pasará con el taller cuando él ya no pueda sostener el pulso necesario para este trabajo, se encoge de hombros y responde que todavía le quedan, calcula, unos buenos quince años de vista firme por delante.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-065",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar un dato explícito sobre la formación de un personaje",
+        "enunciado": "Según la crónica, ¿quién le enseñó el oficio a don Alirio?",
+        "opciones": {
+          "A": "Un curso técnico que tomó en la universidad",
+          "B": "Su tío, quien a su vez había aprendido con un relojero español llegado al país después de la guerra",
+          "C": "Un manual de relojería que encontró en una biblioteca pública",
+          "D": "Sus propios hijos, quienes luego decidieron dedicarse a otras profesiones"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El segundo párrafo lo indica directamente.",
+        "distractores": {
+          "A": {
+            "explicacion": "No se menciona ningún curso universitario en el texto.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "No hay ninguna mención a un manual de relojería.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "Es al revés: don Alirio no les enseñó el oficio a sus hijos; ellos estudiaron otras carreras.",
+            "patron_trampa": "inversion_causal"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-066",
+        "competencia": "comprension_global",
+        "habilidad": "identificar la idea general que transmite una crónica sobre un oficio",
+        "tarjetas_teoria_relacionada": [
+          "LC-FUN-001"
+        ],
+        "enunciado": "¿Qué idea general transmite la crónica sobre el oficio de don Alirio?",
+        "opciones": {
+          "A": "Que se trata de un oficio en vías de desaparecer, sostenido más por apego personal que por demanda del mercado",
+          "B": "Que el taller de don Alirio es, sin duda, el más grande y moderno de toda la ciudad",
+          "C": "Que don Alirio piensa que sus hijos cometieron un grave error al no seguir su oficio",
+          "D": "Que el oficio de relojero está en pleno crecimiento gracias a la tecnología moderna actual"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La crónica describe la disminución del número de talleres y la falta de aprendices, junto con la actitud serena de don Alirio hacia ese declive.",
+        "distractores": {
+          "B": {
+            "explicacion": "Se describe como un taller diminuto, de poco más de dos metros de ancho.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El texto dice que él mismo los animó a estudiar otras carreras, sin señal de arrepentimiento por su parte.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "Es lo contrario: el texto describe una disminución del número de talleres.",
+            "patron_trampa": "inversion_causal"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-067",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "interpretar la actitud de un personaje frente a la incertidumbre",
+        "tarjetas_teoria_relacionada": [
+          "LC-REF-020"
+        ],
+        "enunciado": "¿Qué revela la actitud de don Alirio frente al futuro incierto de su oficio ('yo no le veo futuro a esto, pero tampoco me arrepiento')?",
+        "opciones": {
+          "A": "Una intención firme y decidida de convencer a sus hijos de retomar el oficio familiar",
+          "B": "Una aceptación serena de que el oficio puede desaparecer con su generación, sin que eso le reste valor a su vida",
+          "C": "Un arrepentimiento profundo y constante por haber elegido ese oficio de joven",
+          "D": "Una crítica directa y dura hacia la tecnología moderna y quienes la usan"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "La cita textual y el tono descrito ('sin nostalgia aparente') sostienen esta lectura de aceptación serena.",
+        "distractores": {
+          "A": {
+            "explicacion": "No hay ninguna mención a intentos de convencer a sus hijos; al contrario, él mismo los animó a estudiar otras carreras.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El texto dice explícitamente lo contrario: 'tampoco me arrepiento'.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          },
+          "D": {
+            "explicacion": "El tono descrito es de constatación neutral, no de crítica hacia la tecnología o sus usuarios.",
+            "patron_trampa": "sobreinterpretacion"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_informativo"
+  },
+  {
+    "id": "LC-GRUPO-025",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_informativo",
+    "genero_texto": "noticia",
+    "fuente": "Texto original generado para este banco de estudio",
+    "fuente_nota": "",
+    "texto_base": "ESTUDIO RELACIONA LA IRREGULARIDAD DEL SUEÑO CON MAYOR RIESGO CARDIOVASCULAR\n\nUn estudio publicado esta semana por un grupo de investigadores en medicina del sueño encontró que las personas cuyos horarios de dormir varían considerablemente de un día a otro presentan un riesgo cardiovascular más alto que aquellas con horarios regulares, incluso cuando ambos grupos duermen, en promedio, la misma cantidad total de horas.\n\nLa investigación siguió durante cinco años a más de dos mil participantes adultos, a quienes se les monitoreó el sueño mediante dispositivos portátiles, no solo mediante encuestas de autorreporte. Los investigadores encontraron que las variaciones de más de una hora entre los horarios de sueño de días distintos se asociaban con un incremento medible en marcadores de inflamación y presión arterial, comparado con quienes mantenían horarios de sueño consistentes.\n\nLa autora principal del estudio explicó que el hallazgo sugiere que la regularidad del sueño podría ser, por sí misma, un factor de salud independiente de la cantidad total de horas dormidas. 'No basta con preguntar cuántas horas duerme alguien; también importa qué tan constante es ese patrón a lo largo de la semana', señaló en la presentación de los resultados.\n\nEl equipo aclaró que el estudio muestra una asociación estadística y no prueba, por sí solo, una relación de causa y efecto directa. Investigaciones futuras, dijeron, deberán confirmar si intervenir directamente sobre la regularidad del sueño reduce efectivamente el riesgo cardiovascular observado en la población estudiada.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-068",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar el método de recolección de datos descrito en una noticia científica",
+        "enunciado": "Según la noticia, ¿cómo se monitoreó el sueño de los participantes del estudio?",
+        "opciones": {
+          "A": "Mediante cámaras instaladas en los hogares de los participantes",
+          "B": "Mediante dispositivos portátiles, no solo mediante encuestas de autorreporte",
+          "C": "A través de análisis de sangre semanales",
+          "D": "Únicamente mediante entrevistas telefónicas mensuales"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El segundo párrafo lo especifica directamente.",
+        "distractores": {
+          "A": {
+            "explicacion": "No se menciona ningún monitoreo por cámaras.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "No hay ninguna mención a análisis de sangre.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "No se menciona ninguna entrevista telefónica en el estudio.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-069",
+        "competencia": "comprension_global",
+        "habilidad": "identificar la idea principal de una noticia científica junto con su matización",
+        "tarjetas_teoria_relacionada": [
+          "LC-REF-012"
+        ],
+        "enunciado": "¿Cuál es la idea principal que organiza la noticia?",
+        "opciones": {
+          "A": "El estudio se basó exclusivamente en encuestas de autorreporte, sin usar ningún otro método de medición",
+          "B": "El estudio concluye que el sueño no tiene ninguna relación con la salud cardiovascular",
+          "C": "Un estudio encontró que dormir en horarios irregulares se asocia con mayor riesgo cardiovascular, aunque es solo una asociación estadística",
+          "D": "El estudio demuestra que dormir menos de seis horas causa directamente varias enfermedades cardiovasculares graves"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Esta síntesis integra el hallazgo principal y la aclaración metodológica final, ambos presentes en la noticia.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto dice explícitamente que se usaron dispositivos portátiles, no solo encuestas.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "Es lo contrario del hallazgo central de la noticia.",
+            "patron_trampa": "inversion_causal"
+          },
+          "D": {
+            "explicacion": "El estudio trata sobre la regularidad del sueño, no sobre la cantidad de horas dormidas.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-070",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "evaluar la función de una aclaración metodológica dentro de una noticia científica",
+        "tarjetas_teoria_relacionada": [
+          "LC-REF-012",
+          "LC-REF-026"
+        ],
+        "enunciado": "¿Por qué es importante la aclaración final del equipo de investigación sobre la diferencia entre asociación y causalidad?",
+        "opciones": {
+          "A": "Porque evita que el lector confunda los resultados preliminares con una aprobación definitiva del tratamiento",
+          "B": "Porque demuestra que el estudio, en general, no tiene ningún valor científico real",
+          "C": "Porque es solamente un requisito legal, sin ninguna relevancia científica real",
+          "D": "Porque contradice por completo los resultados presentados antes en la noticia científica"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La aclaración cumple una función epistemológica: delimita qué se puede concluir legítimamente del hallazgo.",
+        "distractores": {
+          "B": {
+            "explicacion": "El hallazgo sigue siendo relevante; la aclaración solo delimita su alcance, no lo invalida.",
+            "patron_trampa": "sobreinterpretacion"
+          },
+          "C": {
+            "explicacion": "Es una precisión científica sobre el alcance del hallazgo, no un trámite legal.",
+            "patron_trampa": "fuera_de_alcance_pregunta"
+          },
+          "D": {
+            "explicacion": "La aclaración matiza el hallazgo, no lo contradice.",
+            "patron_trampa": "inversion_causal"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_informativo"
+  },
+  {
+    "id": "LC-GRUPO-026",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_informativo",
+    "genero_texto": "columna_opinion",
+    "fuente": "Texto original generado para este banco de estudio",
+    "fuente_nota": "Texto de opinión original escrito para ilustrar una postura; ver también LC-GRUPO-027, con la postura contraria sobre el mismo tema.",
+    "texto_base": "LA INTELIGENCIA ARTIFICIAL NO VA A REEMPLAZAR A LOS PROFESORES, PERO SÍ VA A CAMBIARLOS\n\nCada vez que aparece una nueva tecnología educativa, resurge el mismo temor: que termine reemplazando al profesor. Con la inteligencia artificial generativa el temor se ha repetido con más fuerza, pero conviene distinguir entre lo que esta tecnología puede hacer y lo que efectivamente hace un buen maestro en un salón de clase.\n\nUna herramienta de inteligencia artificial puede explicar un concepto de mil maneras distintas hasta encontrar la que un estudiante particular entiende mejor, corregir ejercicios de manera instantánea y generar material de práctica adaptado al nivel exacto de cada persona. Eso es, sin duda, valioso, sobre todo para estudiantes que necesitan repetir un tema varias veces antes de dominarlo, sin la incomodidad de sentir que atrasan a sus compañeros.\n\nLo que ninguna herramienta puede hacer todavía es notar que un estudiante llegó cabizbajo ese día y necesita, antes que cualquier explicación de matemáticas, que alguien le pregunte cómo está. Tampoco puede negociar el conflicto entre dos adolescentes que se pelearon en el descanso, ni transmitir con el ejemplo propio el valor de perseverar en algo difícil. Esa dimensión humana de la enseñanza, que tiene tanto de acompañamiento como de instrucción, sigue dependiendo enteramente de una persona presente en el aula.\n\nEl error, entonces, no está en incorporar estas herramientas al aula, sino en imaginar que su llegada implica prescindir del profesor. Lo más probable es que el papel del docente cambie: menos tiempo dedicado a explicar lo mismo de la misma manera a treinta estudiantes distintos, y más tiempo disponible para justamente aquello que ninguna máquina puede ofrecer todavía.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-071",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar capacidades explícitas atribuidas a una herramienta tecnológica",
+        "enunciado": "Según el texto, ¿qué puede hacer una herramienta de inteligencia artificial en el aula?",
+        "opciones": {
+          "A": "Notar el estado emocional de un estudiante y ofrecerle apoyo personal",
+          "B": "Resolver conflictos entre estudiantes de forma completamente automática y sin supervisión",
+          "C": "Reemplazar completamente la función del profesor dentro del salón de clase",
+          "D": "Explicar un concepto de varias maneras, corregir ejercicios al instante y generar material adaptado a cada estudiante"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El segundo párrafo lo enumera directamente.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto dice explícitamente que esto es algo que la IA todavía no puede hacer.",
+            "patron_trampa": "inversion_causal"
+          },
+          "B": {
+            "explicacion": "El texto menciona explícitamente que esto está fuera del alcance actual de la tecnología.",
+            "patron_trampa": "inversion_causal"
+          },
+          "C": {
+            "explicacion": "Contradice la tesis central del texto, que niega esta posibilidad.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-072",
+        "competencia": "comprension_global",
+        "habilidad": "identificar la tesis central de un texto argumentativo",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-001"
+        ],
+        "enunciado": "¿Cuál es la tesis central que defiende el autor?",
+        "opciones": {
+          "A": "Que los estudiantes aprenden mejor sin ningún tipo de tecnología presente en el aula",
+          "B": "Que la inteligencia artificial no tiene ninguna utilidad real dentro del sistema educativo",
+          "C": "Que los profesores deberían ser reemplazados gradualmente por sistemas de inteligencia artificial",
+          "D": "Que la inteligencia artificial no reemplazará al profesor, pero sí cambiará su rol, liberando tiempo para lo humano"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Es la idea que titula y resume todo el argumento del texto.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no argumenta en contra de la tecnología en general, solo matiza su rol.",
+            "patron_trampa": "fuera_de_alcance_pregunta"
+          },
+          "B": {
+            "explicacion": "El texto reconoce ventajas claras de la herramienta.",
+            "patron_trampa": "inversion_causal"
+          },
+          "C": {
+            "explicacion": "Es lo contrario de la tesis defendida.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-073",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "evaluar la función de una enumeración de ejemplos dentro de un argumento",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-016"
+        ],
+        "enunciado": "¿Qué función cumple la enumeración de ejemplos (un estudiante cabizbajo, un conflicto entre adolescentes, el ejemplo de la perseverancia) en el argumento del autor?",
+        "opciones": {
+          "A": "Es una digresión sin relación clara con el argumento central del texto completo",
+          "B": "Demuestra que la inteligencia artificial ya puede resolver todos esos casos por sí sola",
+          "C": "Ilustra la dimensión humana de la enseñanza que ninguna herramienta de IA puede reemplazar, dando fuerza a la tesis central",
+          "D": "Contradice la tesis principal del texto al mostrar limitaciones insalvables de los profesores"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Los ejemplos concretan la idea abstracta de 'dimensión humana', reforzando el argumento central del texto.",
+        "distractores": {
+          "A": {
+            "explicacion": "Los ejemplos son centrales para el argumento, no una digresión.",
+            "patron_trampa": "enfoque_parcial"
+          },
+          "B": {
+            "explicacion": "Es lo contrario de lo que dice el texto sobre esos ejemplos.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          },
+          "D": {
+            "explicacion": "Los ejemplos refuerzan la tesis, no la contradicen; muestran fortalezas del profesor, no limitaciones.",
+            "patron_trampa": "inversion_causal"
+          }
+        },
+        "dificultad": "alta"
+      },
+      {
+        "id": "LC-ITEM-074",
+        "competencia": "comprension_global",
+        "habilidad": "identificar cómo el autor describe un cambio de rol más allá de la pregunta inicial",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-026"
+        ],
+        "enunciado": "¿Cómo describe el autor el cambio esperado en el rol del profesor, más allá de la simple pregunta de si será 'reemplazado'?",
+        "opciones": {
+          "A": "Anticipa que el número de profesores necesarios se mantendrá exactamente igual en cada institución",
+          "B": "Anticipa que los profesores dejarán de tener contacto directo con los estudiantes",
+          "C": "Anticipa que el docente dedicará menos tiempo a repetir lo mismo a un grupo grande, y más a la dimensión humana de acompañamiento",
+          "D": "Anticipa que los profesores se dedicarán exclusivamente a calificar exámenes todo el día"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El último párrafo lo describe explícitamente como la consecuencia más probable del cambio tecnológico.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no hace ninguna afirmación cuantitativa sobre el número de profesores.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "Es lo contrario: el texto enfatiza que el contacto humano del profesor se vuelve más central, no menos.",
+            "patron_trampa": "inversion_causal"
+          },
+          "D": {
+            "explicacion": "No hay ninguna mención a que la función se reduzca a calificar exámenes.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tipo": "continuo_informativo"
+  },
+  {
+    "id": "LC-GRUPO-027",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_informativo",
+    "genero_texto": "columna_opinion",
+    "fuente": "Texto original generado para este banco de estudio",
+    "fuente_nota": "Texto de opinión original que presenta la postura contraria a LC-GRUPO-026, sobre el mismo tema.",
+    "texto_base": "LO QUE PERDEMOS CUANDO LA RESPUESTA SIEMPRE ESTÁ A UN CLIC\n\nCuando un estudiante se atasca en un problema, hay un momento incómodo, pero valioso, en el que debe quedarse pensando sin ayuda inmediata: revisar sus propios pasos, dudar, equivocarse, volver a intentar. Ese proceso, lento y a veces frustrante, es donde ocurre buena parte del aprendizaje real. La preocupación con la inteligencia artificial en el aula no es que sea inútil, sino que puede eliminar precisamente ese momento incómodo antes de que cumpla su función.\n\nSi cualquier duda se resuelve al instante con una explicación perfectamente adaptada, el estudiante nunca desarrolla la tolerancia a la frustración ni la capacidad de sostener un problema sin resolver durante un rato, habilidades que resultan indispensables mucho más allá del aula. Existe además el riesgo de que la facilidad para obtener una respuesta completa desplace el ejercicio de construir esa respuesta por cuenta propia, incluso cuando el estudiante técnicamente 'entendió' la explicación que recibió.\n\nNada de esto implica que la tecnología deba excluirse del salón de clase. El problema no es la herramienta en sí, sino el diseño pedagógico que la rodea: usarla para generar ejercicios de práctica es distinto a usarla para resolver la tarea completa en segundos.\n\nLa pregunta que las instituciones educativas todavía no han resuelto con claridad es cómo aprovechar las ventajas reales de estas herramientas sin eliminar, de paso, el tipo de esfuerzo mental incómodo que, paradójicamente, es indispensable para que el aprendizaje ocurra de verdad.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-075",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar habilidades explícitamente asociadas a un proceso descrito",
+        "enunciado": "Según el texto, ¿qué habilidades se desarrollan en el momento en que un estudiante se queda pensando sin ayuda inmediata?",
+        "opciones": {
+          "A": "La tolerancia a la frustración y sostener un problema sin resolver durante un rato",
+          "B": "La habilidad técnica de usar herramientas digitales con soltura y destreza",
+          "C": "La memorización rápida y precisa de fórmulas matemáticas complejas",
+          "D": "La capacidad de trabajar en equipo de forma coordinada con otros estudiantes"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El segundo párrafo lo indica directamente.",
+        "distractores": {
+          "B": {
+            "explicacion": "El texto no relaciona este momento con destrezas digitales.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El texto no menciona memorización de fórmulas.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "El texto describe un proceso individual, no de trabajo en equipo.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-076",
+        "competencia": "comprension_global",
+        "habilidad": "identificar la tesis central de un texto argumentativo",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-001"
+        ],
+        "enunciado": "¿Cuál es la tesis central que defiende el autor?",
+        "opciones": {
+          "A": "Que los estudiantes actuales aprenden más rápido gracias a la inteligencia artificial",
+          "B": "Que ningún estudiante necesita esforzarse jamás para aprender algo nuevo",
+          "C": "Que el problema no es la herramienta en sí, sino eliminar el esfuerzo mental que el aprendizaje real necesita",
+          "D": "Que la inteligencia artificial debe prohibirse por completo en cualquier institución educativa"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El tercer párrafo lo formula explícitamente como la distinción central del argumento.",
+        "distractores": {
+          "A": {
+            "explicacion": "No es la tesis del texto; el autor plantea una preocupación, no una afirmación positiva sobre velocidad de aprendizaje.",
+            "patron_trampa": "inversion_causal"
+          },
+          "B": {
+            "explicacion": "Es lo contrario de la tesis, que defiende la necesidad del esfuerzo mental.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          },
+          "D": {
+            "explicacion": "El autor aclara que no propone excluir la tecnología del aula.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-077",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "evaluar la distinción que evita una lectura extremista de un argumento",
+        "tarjetas_teoria_relacionada": [
+          "LC-REF-005"
+        ],
+        "enunciado": "¿Qué distinción hace el autor para evitar que su argumento se lea como un rechazo total de la tecnología en el aula?",
+        "opciones": {
+          "A": "Sostiene que la inteligencia artificial no tiene ninguna aplicación educativa útil en absoluto",
+          "B": "Concluye que los estudiantes actuales aprenden mucho menos que los de generaciones pasadas",
+          "C": "Afirma que ninguna tecnología debería usarse jamás dentro del salón de clase",
+          "D": "Distingue entre usar la IA para practicar y usarla para resolver la tarea completa, ubicando el problema en el diseño pedagógico"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El tercer párrafo formula exactamente esta distinción como matización clave del argumento.",
+        "distractores": {
+          "A": {
+            "explicacion": "El autor reconoce ventajas reales, solo condicionadas al diseño pedagógico.",
+            "patron_trampa": "inversion_causal"
+          },
+          "B": {
+            "explicacion": "El texto no hace ninguna comparación entre generaciones de estudiantes.",
+            "patron_trampa": "fuera_de_alcance_pregunta"
+          },
+          "C": {
+            "explicacion": "El texto rechaza explícitamente esta lectura extrema.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_informativo"
+  },
+  {
+    "id": "LC-GRUPO-028",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_informativo",
+    "genero_texto": "ensayo",
+    "fuente": "Texto original generado para este banco de estudio",
+    "fuente_nota": "",
+    "texto_base": "LO QUE UNA ESTATUA NO PUEDE DECIDIR POR SÍ SOLA\n\nUn monumento público no es, en realidad, un objeto neutral que simplemente 'recuerda' un hecho histórico; es una decisión, tomada en un momento y por unas personas concretas, sobre qué merece ocupar un espacio central y permanente en la vida cotidiana de una ciudad. Esa decisión, como cualquier otra, puede revisarse con el tiempo sin que ello equivalga a borrar la historia que representa.\n\nCuando una comunidad decide retirar o resignificar un monumento, no está fingiendo que el pasado que representa nunca ocurrió. Los libros, los archivos y los museos siguen documentando esos hechos con el detalle que corresponda. Lo que cambia es la respuesta a una pregunta distinta: si ese hecho, o esa figura histórica, merece seguir ocupando un lugar de honor en el espacio público del presente, con el mensaje implícito de aprobación que suele acompañar a ese tipo de reconocimiento.\n\nQuienes se oponen a cualquier modificación de un monumento suelen argumentar que hacerlo abre la puerta a reescribir la historia según la conveniencia del momento. El riesgo es real y merece tomarse en serio: no toda revisión está motivada por un análisis cuidadoso, y algunas responden más a la coyuntura política que a una reflexión sostenida. Pero ese riesgo no elimina la pregunta legítima de fondo: ningún monumento fue erigido en un vacío de valores neutrales, y quienes lo decidieron en su momento no tienen por qué tener la última palabra permanente sobre lo que las generaciones futuras deben honrar.\n\nLa memoria colectiva, a diferencia de un archivo histórico, no busca solo conservar información: busca decidir, activamente, qué seguimos celebrando. Y esa es, precisamente, una decisión que cada generación tiene derecho a revisar.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-078",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar información explícita sobre qué preserva la documentación histórica",
+        "enunciado": "Según el texto, ¿qué sigue ocurriendo con la información histórica cuando se retira un monumento, según el autor?",
+        "opciones": {
+          "A": "Los libros, archivos y museos siguen documentando esos hechos con el detalle que corresponda",
+          "B": "Se transfiere automáticamente a un monumento nuevo",
+          "C": "La información histórica desaparece por completo de cualquier registro",
+          "D": "Se prohíbe legalmente hablar del hecho histórico representado"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El segundo párrafo lo afirma directamente.",
+        "distractores": {
+          "B": {
+            "explicacion": "No se menciona ninguna transferencia automática a otro monumento.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "Es lo contrario de lo que el autor sostiene explícitamente.",
+            "patron_trampa": "inversion_causal"
+          },
+          "D": {
+            "explicacion": "No hay ninguna mención a prohibiciones legales.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-079",
+        "competencia": "comprension_global",
+        "habilidad": "identificar una distinción conceptual central del ensayo",
+        "tarjetas_teoria_relacionada": [
+          "LC-FUN-019"
+        ],
+        "enunciado": "¿Cuál es la distinción central que el autor establece entre un archivo histórico y un monumento público?",
+        "opciones": {
+          "A": "Que los monumentos son objetos completamente neutrales sin ninguna carga de significado",
+          "B": "Que el archivo busca conservar información sobre el pasado, mientras el monumento implica decidir qué se sigue honrando hoy",
+          "C": "Que los archivos históricos son, en general, menos confiables que los monumentos públicos",
+          "D": "Que ambos cumplen, en la práctica, exactamente la misma función social y simbólica"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El último párrafo formula exactamente esta distinción como conclusión del ensayo.",
+        "distractores": {
+          "A": {
+            "explicacion": "Contradice la tesis explícita del primer párrafo, que niega la neutralidad de los monumentos.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          },
+          "C": {
+            "explicacion": "El texto no hace ninguna comparación sobre confiabilidad.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "El texto los distingue explícitamente como funciones distintas.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-080",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "evaluar cómo un autor maneja una objeción a su propio argumento",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-017"
+        ],
+        "enunciado": "¿Cómo maneja el autor la objeción de que modificar monumentos abre la puerta a 'reescribir la historia'?",
+        "opciones": {
+          "A": "Reconoce que el riesgo es real y merece tomarse en serio, pero no elimina la pregunta legítima de fondo",
+          "B": "Ignora completamente la objeción y no la menciona en ningún momento del texto",
+          "C": "Rechaza por completo la objeción calificándola de absurda sin ningún argumento adicional",
+          "D": "Acepta la objeción por completo y abandona su tesis inicial"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El tercer párrafo desarrolla exactamente esta concesión matizada como estrategia argumentativa.",
+        "distractores": {
+          "B": {
+            "explicacion": "El tercer párrafo la menciona y discute explícitamente.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El autor sí reconoce que el riesgo 'es real y merece tomarse en serio', no lo rechaza sin argumento.",
+            "patron_trampa": "inversion_causal"
+          },
+          "D": {
+            "explicacion": "El autor matiza, pero mantiene su tesis central hasta el cierre del ensayo.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          }
+        },
+        "dificultad": "alta"
+      },
+      {
+        "id": "LC-ITEM-081",
+        "competencia": "comprension_global",
+        "habilidad": "identificar cómo se desarrolla la conclusión de un ensayo argumentativo",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-023"
+        ],
+        "enunciado": "¿Qué plantea el autor sobre la relación entre memoria colectiva y archivo histórico, más allá de la distinción inicial?",
+        "opciones": {
+          "A": "Sostiene que los archivos históricos deberían reemplazar completamente a los monumentos públicos",
+          "B": "Sostiene que los monumentos y los archivos cumplen exactamente la misma función",
+          "C": "Sostiene que ninguna generación tiene derecho a modificar lo decidido por generaciones anteriores",
+          "D": "Sostiene que la memoria colectiva, a diferencia del archivo, implica decidir activamente qué se sigue celebrando"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Es la conclusión textual del último párrafo del ensayo.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no propone reemplazar los monumentos por archivos; distingue sus funciones.",
+            "patron_trampa": "sobreinterpretacion"
+          },
+          "B": {
+            "explicacion": "El texto los distingue explícitamente como funciones diferentes.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          },
+          "C": {
+            "explicacion": "Es lo contrario de la conclusión explícita del ensayo.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tipo": "continuo_informativo"
+  },
+  {
+    "id": "LC-GRUPO-029",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_informativo",
+    "genero_texto": "cronica",
+    "fuente": "Texto original generado para este banco de estudio",
+    "fuente_nota": "",
+    "texto_base": "LA CUADRA QUE YA NO RECONOCE A SUS VECINOS DE SIEMPRE\n\nDoña Marina lleva treinta y ocho años viviendo en la misma casa de dos pisos, pintada de un azul que ya se ha desteñido con los años. Desde su ventana ha visto, en los últimos cinco, cómo cuatro de las seis casas vecinas cambiaron de dueño, se remodelaron por completo y hoy funcionan como cafés de especialidad, un estudio de yoga y un local que vende plantas en macetas de cerámica importada.\n\n'A mí no me molesta que llegue gente nueva', dice, sentada en el mismo andén donde ha visto crecer a sus hijos y, después, a sus nietos. 'Lo que me preocupa es que cada vez hay menos gente como yo'. El impuesto predial de su casa se ha triplicado en ese mismo periodo, un aumento que atribuye directamente a la valorización que trajeron los nuevos negocios, aunque su ingreso como pensionada no haya cambiado en la misma proporción.\n\nA pocas cuadras, Camilo, dueño de uno de los cafés nuevos, cuenta una historia distinta sobre el mismo barrio. Llegó hace dos años atraído por el precio, todavía más bajo que en otras zonas de la ciudad, y por lo que describe como 'el carácter auténtico' de las calles. Reconoce, sin embargo, que su presencia y la de otros negocios similares probablemente están acelerando el mismo proceso que terminará por encarecer el barrio que lo atrajo en primer lugar.\n\nEntre la nostalgia de doña Marina y el entusiasmo de Camilo no hay, en realidad, una contradicción tan grande como parece: ambos describen el mismo cambio desde el lugar donde les tocó pararse frente a él, un proceso que ninguno de los dos, por separado, tiene el poder de detener ni de acelerar por su cuenta.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-082",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar la preocupación explícita de un personaje, distinguiéndola de otra similar",
+        "enunciado": "Según la crónica, ¿qué le preocupa a doña Marina sobre los cambios en su barrio, según ella misma explica?",
+        "opciones": {
+          "A": "Que su casa antigua perdió bastante valor comercial con todos los cambios",
+          "B": "Que los nuevos negocios generan demasiado ruido en las noches",
+          "C": "Que cada vez hay menos gente como ella en el barrio, no la llegada de gente nueva",
+          "D": "Que sus propios hijos y nietos ya casi nunca quieren visitarla en el barrio"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "La cita textual lo aclara: 'a mí no me molesta que llegue gente nueva... lo que me preocupa es que cada vez hay menos gente como yo.'",
+        "distractores": {
+          "A": {
+            "explicacion": "Es lo contrario: el texto dice que el impuesto predial subió por la valorización, lo que indica un aumento de valor, no una pérdida.",
+            "patron_trampa": "inversion_causal"
+          },
+          "B": {
+            "explicacion": "No se menciona ninguna queja sobre ruido.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "No hay ninguna mención a la relación de doña Marina con sus hijos o nietos en el presente.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-083",
+        "competencia": "comprension_global",
+        "habilidad": "identificar la idea general que transmite una crónica sobre un fenómeno social",
+        "tarjetas_teoria_relacionada": [
+          "LC-FUN-001"
+        ],
+        "enunciado": "¿Qué idea general transmite la crónica sobre el proceso de cambio en el barrio?",
+        "opciones": {
+          "A": "Que Camilo y doña Marina son, en el fondo, enemigos declarados desde hace años",
+          "B": "Que los nuevos negocios llegaron al barrio de manera completamente ilegal",
+          "C": "Que la gentrificación afecta distinto a residentes antiguos y negocios nuevos, sin que ninguno la controle del todo",
+          "D": "Que doña Marina está pensando en mudarse muy pronto a otro barrio completamente distinto"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El cierre de la crónica resume exactamente esta idea sobre el alcance limitado del control individual sobre el proceso.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no describe ningún conflicto directo entre ambos; presenta perspectivas distintas, no un enfrentamiento.",
+            "patron_trampa": "sobreinterpretacion"
+          },
+          "B": {
+            "explicacion": "No hay ninguna mención a ilegalidad en la llegada de los negocios.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "No se menciona ningún plan de mudanza de doña Marina.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-084",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "evaluar el efecto de un cierre que matiza una aparente contradicción",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-023",
+          "LC-GLO-008"
+        ],
+        "enunciado": "¿Qué logra el cierre de la crónica al señalar que 'no hay una contradicción tan grande' entre las perspectivas de doña Marina y Camilo?",
+        "opciones": {
+          "A": "Sugiere que ambos personajes, en realidad, se conocen bien y son amigos cercanos",
+          "B": "Demuestra, con datos concretos, que doña Marina está equivocada en su percepción del barrio",
+          "C": "Invita a entender la gentrificación como un proceso estructural que ninguno de los dos controla, sin reducirlo a 'buenos' y 'malos'",
+          "D": "Concluye que Camilo es el único responsable directo y exclusivo del aumento del impuesto predial"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El cierre explícitamente evita culpabilizar a un solo actor, situando el fenómeno como estructural.",
+        "distractores": {
+          "A": {
+            "explicacion": "No hay ninguna mención a una relación personal entre ambos.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "El texto no invalida la percepción de ninguno de los dos personajes.",
+            "patron_trampa": "inversion_causal"
+          },
+          "D": {
+            "explicacion": "El texto atribuye el proceso a una dinámica más amplia, no a la responsabilidad individual de Camilo.",
+            "patron_trampa": "sobreinterpretacion"
+          }
+        },
+        "dificultad": "alta"
+      },
+      {
+        "id": "LC-ITEM-085",
+        "competencia": "comprension_global",
+        "habilidad": "identificar el recurso narrativo de contraponer perspectivas dentro de una crónica",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-008"
+        ],
+        "enunciado": "¿Qué recurso usa la crónica al presentar tanto la perspectiva de doña Marina como la de Camilo sobre el mismo fenómeno?",
+        "opciones": {
+          "A": "Presenta solo la opinión de doña Marina, ignorando cualquier otra perspectiva",
+          "B": "Contrapone dos perspectivas legítimas y parcialmente contradictorias, sin reducirlas a una sola voz",
+          "C": "Usa un lenguaje técnico y especializado, propio de la economía urbana académica",
+          "D": "Demuestra, con cifras oficiales, que una de las dos perspectivas es objetivamente falsa"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "La estructura completa de la crónica se organiza alrededor de este contraste de voces.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto dedica un párrafo completo a la perspectiva de Camilo.",
+            "patron_trampa": "enfoque_parcial"
+          },
+          "C": {
+            "explicacion": "El lenguaje de la crónica es narrativo y accesible, no técnico.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "Ambas perspectivas se presentan como válidas dentro de sus propios términos.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tipo": "continuo_informativo"
+  },
+  {
+    "id": "LC-GRUPO-030",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_informativo",
+    "genero_texto": "noticia",
+    "fuente": "Texto original generado para este banco de estudio",
+    "fuente_nota": "",
+    "texto_base": "CENSO REGIONAL CONFIRMA CAÍDA EN LA POBLACIÓN DE UNA ESPECIE DE RANA ENDÉMICA\n\nEl más reciente censo de fauna realizado por una red de investigadores en zonas de bosque nublado confirmó una reducción del 60 % en la población de una especie de rana endémica de la región, en comparación con el conteo realizado hace ocho años. La especie, que solo habita en un rango altitudinal muy específico, había sido clasificada previamente en categoría de riesgo moderado.\n\nSegún el informe, el principal factor asociado a la disminución es un hongo que afecta la piel de los anfibios y altera su capacidad de regular agua y sales, aunque los investigadores no descartan que el avance de la frontera agrícola hacia zonas más altas también esté reduciendo el hábitat disponible para la especie.\n\nEl equipo instaló estaciones de monitoreo acústico en quince puntos del área de estudio, que permiten detectar el canto característico de la especie sin necesidad de capturar a los individuos, un método que, según explicaron, reduce el estrés sobre las poblaciones ya debilitadas.\n\nLas autoridades ambientales de la región anunciaron que evaluarán actualizar la categoría de riesgo de la especie con base en estos nuevos datos, un proceso que definiría el nivel de protección legal aplicable a su hábitat. Mientras tanto, los investigadores solicitaron restringir el ingreso de nuevos proyectos agrícolas o de infraestructura en los sectores donde aún persisten poblaciones estables de la rana.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-086",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar un método de investigación descrito explícitamente en una noticia",
+        "enunciado": "Según la noticia, ¿qué método usó el equipo para monitorear a la especie sin capturarla?",
+        "opciones": {
+          "A": "Análisis genético de muestras de agua de los ríos cercanos",
+          "B": "Estaciones de monitoreo acústico que detectan el canto característico de la especie",
+          "C": "Cámaras trampa instaladas en los árboles cercanos a los humedales",
+          "D": "Drones equipados con sensores térmicos para detectar movimiento"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El tercer párrafo lo describe directamente.",
+        "distractores": {
+          "A": {
+            "explicacion": "No se menciona ningún análisis genético de agua.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "No se mencionan cámaras trampa en la noticia.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "No se menciona el uso de drones.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-087",
+        "competencia": "comprension_global",
+        "habilidad": "identificar la idea principal que organiza una noticia científica",
+        "tarjetas_teoria_relacionada": [
+          "LC-FUN-001"
+        ],
+        "enunciado": "¿Cuál es la idea principal que organiza la noticia?",
+        "opciones": {
+          "A": "La especie de rana ya fue declarada oficialmente extinta en toda la región",
+          "B": "Un censo reciente confirmó una fuerte disminución de una rana endémica, atribuida a un hongo y a la posible pérdida de hábitat",
+          "C": "El hongo que afecta a los anfibios fue erradicado por completo gracias al monitoreo",
+          "D": "El monitoreo acústico reemplazará por completo cualquier otro método de estudio de fauna en el futuro"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Esta síntesis integra el hallazgo central y sus implicaciones, presentes en distintos párrafos de la noticia.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto habla de una reducción del 60 %, no de una extinción declarada.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "C": {
+            "explicacion": "No hay ninguna mención a la erradicación del hongo.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "El texto no hace ninguna afirmación sobre reemplazar todos los demás métodos de estudio.",
+            "patron_trampa": "sobreinterpretacion"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-088",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "evaluar la función de una aclaración sobre causas múltiples en una noticia científica",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-025"
+        ],
+        "enunciado": "¿Por qué es relevante que la noticia mencione que 'los investigadores no descartan' la pérdida de hábitat como factor adicional, además del hongo?",
+        "opciones": {
+          "A": "Porque es un dato irrelevante que, en realidad, no aporta nada nuevo a la noticia",
+          "B": "Porque evita presentar una causa única del declive poblacional, reconociendo que puede tener más de un factor",
+          "C": "Porque demuestra que el hongo no tiene ninguna relación real con el declive de la especie",
+          "D": "Porque prueba que la pérdida de hábitat es la única causa comprobada del declive"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "La expresión 'no descartan' señala una causa posible pero no confirmada, evitando una simplificación causal.",
+        "distractores": {
+          "A": {
+            "explicacion": "El dato es relevante porque matiza la explicación causal del fenómeno.",
+            "patron_trampa": "enfoque_parcial"
+          },
+          "C": {
+            "explicacion": "El hongo se presenta como el 'principal factor asociado', no se descarta su relevancia.",
+            "patron_trampa": "inversion_causal"
+          },
+          "D": {
+            "explicacion": "El texto presenta esta causa como posible, no como comprobada ni única.",
+            "patron_trampa": "sobreinterpretacion"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_informativo"
+  },
+  {
+    "id": "LC-GRUPO-031",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_informativo",
+    "genero_texto": "columna_opinion",
+    "fuente": "Texto original generado para este banco de estudio",
+    "fuente_nota": "",
+    "texto_base": "LA OFICINA NO ES EL PROBLEMA NI LA SOLUCIÓN\n\nPocas discusiones laborales generan bandos tan cerrados como la del trabajo remoto. Para unos, es la prueba de que se puede trabajar igual o mejor sin oficina; para otros, una fuente inevitable de desconexión y bajo rendimiento. Ambos bandos suelen hablar de 'el trabajo remoto' como si fuera una sola cosa, cuando en realidad agrupa situaciones muy distintas bajo la misma etiqueta.\n\nNo es lo mismo el trabajo remoto de alguien con un cuarto propio dedicado exclusivamente a esa función, que el de alguien que comparte una mesa de comedor con otros tres miembros de su familia también trabajando o estudiando desde casa. Tampoco es comparable la experiencia de un empleado con diez años de trayectoria en la empresa, que ya conoce a sus colegas y sus procesos, con la de alguien recién contratado que nunca ha compartido un café con su equipo en persona.\n\nCuando los estudios sobre productividad remota arrojan resultados contradictorios entre sí, buena parte de la explicación probablemente esté en esta heterogeneidad que las cifras generales no logran capturar. Preguntar '¿el trabajo remoto funciona?' es, en cierto sentido, una pregunta mal formulada, similar a preguntar si 'la comida' es buena para la salud sin especificar de qué comida se habla.\n\nLas empresas que han logrado resultados más consistentes no son necesariamente las que eligieron un modelo puro -todo presencial o todo remoto-, sino las que definieron con claridad qué tipo de tareas se benefician de cada modalidad, en vez de aplicar la misma política a toda su plantilla por igual.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-089",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar una diferencia explícita entre casos comparados en el texto",
+        "enunciado": "Según el texto, ¿qué diferencia señala el autor entre distintos casos de trabajo remoto?",
+        "opciones": {
+          "A": "La diferencia entre trabajar durante el día o hacerlo durante la noche",
+          "B": "La diferencia de nacionalidad entre los empleados remotos",
+          "C": "La diferencia salarial entre empleados remotos y presenciales",
+          "D": "La diferencia entre tener un espacio dedicado solo al trabajo y compartirlo con la familia"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El segundo párrafo lo describe directamente como ejemplo de heterogeneidad.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no menciona horarios de día o de noche.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "No hay ninguna mención a la nacionalidad de los empleados.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "No se menciona ninguna diferencia salarial en el texto.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-090",
+        "competencia": "comprension_global",
+        "habilidad": "identificar la tesis central de un texto argumentativo",
+        "tarjetas_teoria_relacionada": [
+          "LC-REF-006",
+          "LC-GLO-001"
+        ],
+        "enunciado": "¿Cuál es la tesis central que defiende el autor?",
+        "opciones": {
+          "A": "Que el trabajo remoto siempre es, sin ninguna excepción posible, superior al trabajo presencial",
+          "B": "Que el trabajo presencial siempre es, sin ninguna excepción posible, superior al trabajo remoto",
+          "C": "Que ninguna empresa en el mundo ha logrado implementar jamás el trabajo remoto con éxito",
+          "D": "Que preguntar si 'el trabajo remoto funciona' está mal formulado, pues agrupa situaciones muy distintas bajo una etiqueta"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Es la conclusión explícita del último párrafo, apoyada en el argumento de la heterogeneidad desarrollado antes.",
+        "distractores": {
+          "A": {
+            "explicacion": "El autor no defiende ninguno de los dos modelos como superior en general.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "B": {
+            "explicacion": "Es igualmente una generalización que el texto evita explícitamente.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "C": {
+            "explicacion": "El texto menciona empresas con 'resultados más consistentes', reconociendo casos de éxito.",
+            "patron_trampa": "inversion_causal"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-091",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "identificar un error de razonamiento señalado por el autor en un debate público",
+        "tarjetas_teoria_relacionada": [
+          "LC-REF-006"
+        ],
+        "enunciado": "¿Qué error de razonamiento señala el autor en la manera en que suele plantearse el debate sobre el trabajo remoto?",
+        "opciones": {
+          "A": "Señala que no existe ninguna diferencia real entre las distintas modalidades de trabajo",
+          "B": "Señala que el trabajo presencial es, en cualquier caso y sin excepción, siempre superior",
+          "C": "Señala una generalización indebida: tratar 'el trabajo remoto' como una sola categoría, cuando agrupa situaciones distintas",
+          "D": "Señala que quienes debaten el tema siempre mienten deliberadamente sobre los datos"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El primer y tercer párrafo desarrollan explícitamente esta crítica a la generalización del debate.",
+        "distractores": {
+          "A": {
+            "explicacion": "Es lo contrario: el autor insiste precisamente en que sí existen diferencias relevantes entre los casos.",
+            "patron_trampa": "inversion_causal"
+          },
+          "B": {
+            "explicacion": "No es la conclusión del texto, que evita tomar partido por un modelo puro.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          },
+          "D": {
+            "explicacion": "El autor no acusa de mentira a nadie; señala un problema de formulación de la pregunta, no de honestidad.",
+            "patron_trampa": "sobreinterpretacion"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_informativo"
+  },
+  {
+    "id": "LC-GRUPO-032",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_informativo",
+    "genero_texto": "ensayo",
+    "fuente": "Texto original generado para este banco de estudio",
+    "fuente_nota": "",
+    "texto_base": "EL SILENCIO QUE YA HAY QUE BUSCAR A PROPÓSITO\n\nHace no muchas generaciones, el silencio no era algo que hubiera que planear ni agendar: simplemente ocurría, entre una actividad y otra, sin que nadie tuviera que esforzarse por conseguirlo. Hoy, en cambio, hay aplicaciones diseñadas específicamente para ayudarnos a encontrar unos minutos de silencio guiado, lo cual dice bastante sobre lo que ha pasado con ese recurso que antes nadie consideraba escaso.\n\nBuena parte de los espacios cotidianos -el transporte público, la sala de espera, incluso la caminata hasta el trabajo- venían acompañados antes de un silencio ambiental que hoy suele llenarse con audífonos, música de fondo o alguna forma de contenido constante. No se trata de juzgar esa elección: llenar esos momentos con algo entretenido es, muchas veces, una forma legítima de aprovechar mejor el tiempo o de hacer más llevadero un trayecto tedioso.\n\nEl asunto es que, al desaparecer esos silencios involuntarios que antes se colaban entre las actividades del día, el silencio dejó de ser un estado por defecto y pasó a convertirse en un objetivo que hay que perseguir de forma deliberada, casi con la misma disciplina que se aplica a otros hábitos saludables. Meditar, por ejemplo, se ha vuelto una práctica que hay que aprender y sostener con esfuerzo, cuando en el fondo consiste, en buena medida, en recuperar algo que antes ocurría de manera espontánea.\n\nNo hace falta idealizar el pasado ni asumir que el silencio era, por sí mismo, garantía de bienestar. Pero vale la pena notar que cuando un recurso deja de estar disponible por defecto, y hay que reservar tiempo específico para conseguirlo, probablemente algo relevante ha cambiado en la forma en que vivimos el tiempo.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-092",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar información explícita sobre un cambio en un espacio cotidiano",
+        "enunciado": "Según el ensayo, ¿qué solían llenar los espacios cotidianos como el transporte público antes, según el autor?",
+        "opciones": {
+          "A": "Un silencio ambiental que hoy suele llenarse con audífonos, música de fondo o contenido constante",
+          "B": "Actividades físicas programadas de forma regular durante la semana laboral",
+          "C": "Anuncios publicitarios constantes que interrumpen cualquier actividad",
+          "D": "Conversaciones obligatorias y forzadas entre personas completamente desconocidas"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El segundo párrafo lo describe directamente.",
+        "distractores": {
+          "B": {
+            "explicacion": "No se mencionan actividades físicas en el texto.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "No hay ninguna mención a anuncios publicitarios.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "No se menciona ninguna conversación obligatoria entre desconocidos.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-093",
+        "competencia": "comprension_global",
+        "habilidad": "identificar la idea central de un ensayo reflexivo",
+        "tarjetas_teoria_relacionada": [
+          "LC-FUN-001"
+        ],
+        "enunciado": "¿Cuál es la idea central que defiende el ensayo?",
+        "opciones": {
+          "A": "Que las aplicaciones de meditación son completamente inútiles y no cumplen ninguna función real",
+          "B": "Que el silencio, que antes ocurría de forma espontánea, se ha vuelto un recurso escaso que hoy hay que buscar a propósito",
+          "C": "Que llenar los momentos cotidianos con contenido es siempre, sin excepción, una mala decisión",
+          "D": "Que el silencio siempre ha sido, por sí mismo y sin condiciones, garantía absoluta de bienestar"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Es la conclusión desarrollada a lo largo de todo el ensayo y reafirmada en el cierre.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no hace ninguna valoración negativa sobre las aplicaciones de meditación.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El autor dice explícitamente que no se trata de juzgar esa elección.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          },
+          "D": {
+            "explicacion": "El autor lo aclara explícitamente: 'no hace falta... asumir que el silencio era, por sí mismo, garantía de bienestar'.",
+            "patron_trampa": "sobreinterpretacion"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-094",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "interpretar una relación conceptual entre una práctica actual y un fenómeno pasado",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-026"
+        ],
+        "enunciado": "¿Qué relación establece el autor entre la meditación actual y el silencio de antes?",
+        "opciones": {
+          "A": "Concluye que nadie practicaba ningún tipo de meditación antes de la era digital",
+          "B": "Sugiere que la meditación busca recuperar deliberadamente el silencio que antes ocurría de forma espontánea",
+          "C": "Afirma que la meditación es una práctica inútil y sin ningún beneficio real comprobado",
+          "D": "Sostiene que el silencio de antes era siempre, sin excepción, garantía de bienestar"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El tercer párrafo desarrolla exactamente esta idea como ejemplo central del argumento.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no hace ninguna afirmación histórica sobre cuándo empezó a practicarse la meditación.",
+            "patron_trampa": "fuera_de_alcance_pregunta"
+          },
+          "C": {
+            "explicacion": "El autor no hace ninguna valoración negativa de la meditación; la presenta como ejemplo de esfuerzo deliberado.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "El autor aclara explícitamente que no idealiza el pasado en ese sentido.",
+            "patron_trampa": "sobreinterpretacion"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_informativo"
+  },
+  {
+    "id": "LC-GRUPO-033",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_informativo",
+    "genero_texto": "noticia",
+    "fuente": "Texto original generado para este banco de estudio",
+    "fuente_nota": "",
+    "texto_base": "ENSAYO CLÍNICO DE FASE DOS MUESTRA RESULTADOS PROMETEDORES CONTRA UNA CEPA RESISTENTE\n\nUn ensayo clínico de fase dos, realizado en varios centros de salud de la región, reportó resultados preliminares favorables para un nuevo tratamiento dirigido contra una cepa bacteriana que había mostrado resistencia a los antibióticos de uso común en los últimos años. Según el comunicado del equipo investigador, el 78 % de los pacientes tratados mostró una reducción significativa de la infección en un plazo de diez días, frente al 45 % del grupo que recibió el tratamiento estándar disponible actualmente.\n\nEl estudio incluyó a 340 pacientes divididos en dos grupos de manera aleatoria, sin que ni los pacientes ni el personal médico que evaluaba los resultados supieran a qué grupo pertenecía cada persona, un diseño que busca reducir el sesgo en la interpretación de los resultados.\n\nLos investigadores fueron cuidadosos en aclarar que se trata de resultados de una fase intermedia del proceso de aprobación, y que aún falta completar un ensayo de fase tres, con un número mucho mayor de participantes, antes de que el tratamiento pueda solicitarse para uso clínico general. 'Es un resultado alentador, pero todavía preliminar', señaló el investigador principal en la presentación del informe.\n\nLa aparición de cepas resistentes a los antibióticos existentes es considerada por organismos de salud pública como uno de los desafíos más urgentes de las próximas décadas, lo que explica el interés generado por estos resultados iniciales, aún antes de que el tratamiento complete todas las fases necesarias para su aprobación.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-095",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar cifras exactas presentadas en una noticia científica",
+        "enunciado": "Según la noticia, ¿qué porcentaje de pacientes mostró reducción significativa de la infección con el nuevo tratamiento, frente al tratamiento estándar?",
+        "opciones": {
+          "A": "78 % con el nuevo tratamiento, frente a 45 % con el tratamiento estándar",
+          "B": "100 % de los pacientes con ambos tratamientos",
+          "C": "45 % con el nuevo tratamiento, frente a 78 % con el estándar",
+          "D": "El texto no menciona ningún porcentaje específico"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El primer párrafo lo indica con precisión.",
+        "distractores": {
+          "B": {
+            "explicacion": "El texto no menciona una eficacia del 100 % en ningún grupo.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "Es la inversión exacta de las cifras reales presentadas en el texto.",
+            "patron_trampa": "inversion_causal"
+          },
+          "D": {
+            "explicacion": "Es lo contrario: el texto sí menciona cifras específicas y precisas.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-096",
+        "competencia": "comprension_global",
+        "habilidad": "identificar la idea principal de una noticia científica junto con su matización",
+        "tarjetas_teoria_relacionada": [
+          "LC-REF-026"
+        ],
+        "enunciado": "¿Cuál es la idea principal que organiza la noticia?",
+        "opciones": {
+          "A": "El estudio demostró que los antibióticos actuales ya no tienen ninguna utilidad",
+          "B": "El tratamiento ya fue aprobado para uso clínico general en todos los países",
+          "C": "El ensayo no incluyó ningún grupo de comparación ni control científico válido en ningún momento",
+          "D": "Un ensayo de fase dos mostró resultados preliminares favorables contra una bacteria resistente, aunque falta la fase tres"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Esta síntesis integra el hallazgo principal y la aclaración sobre las fases pendientes, ambos presentes en la noticia.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no hace esa afirmación tan absoluta; solo describe una cepa resistente específica.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "B": {
+            "explicacion": "El texto aclara explícitamente que aún falta completar la fase tres antes de la aprobación.",
+            "patron_trampa": "inversion_causal"
+          },
+          "C": {
+            "explicacion": "El texto describe explícitamente un grupo con tratamiento estándar como comparación.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-097",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "evaluar la función de una aclaración sobre la fase de un proceso científico",
+        "tarjetas_teoria_relacionada": [
+          "LC-REF-026"
+        ],
+        "enunciado": "¿Por qué es relevante que la noticia aclare que el estudio aún está en 'fase dos' y falta completar la 'fase tres'?",
+        "opciones": {
+          "A": "Porque evita que el lector confunda los resultados preliminares con una aprobación definitiva del tratamiento",
+          "B": "Porque demuestra que el tratamiento fracasó por completo en esta fase",
+          "C": "Porque es un dato irrelevante que no afecta la interpretación del hallazgo",
+          "D": "Porque contradice por completo los resultados presentados antes en la noticia científica"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La aclaración delimita el alcance real del hallazgo, evitando una interpretación prematura.",
+        "distractores": {
+          "B": {
+            "explicacion": "Los resultados reportados fueron favorables, no un fracaso.",
+            "patron_trampa": "inversion_causal"
+          },
+          "C": {
+            "explicacion": "Es una aclaración clave sobre la suficiencia de la evidencia disponible.",
+            "patron_trampa": "enfoque_parcial"
+          },
+          "D": {
+            "explicacion": "Es exactamente lo contrario de lo que aclara el texto.",
+            "patron_trampa": "inversion_causal"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_informativo"
+  },
+  {
+    "id": "LC-GRUPO-034",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_informativo",
+    "genero_texto": "cronica",
+    "fuente": "Texto original generado para este banco de estudio",
+    "fuente_nota": "",
+    "texto_base": "TRES DÍAS AL AÑO EN QUE EL PUEBLO SE LLENA\n\nTodo el año, la plaza principal del pueblo apenas reúne a un puñado de personas sentadas en las bancas de siempre. Durante los tres días de la fiesta patronal, en cambio, la misma plaza recibe a más gente de la que vive habitualmente en el municipio, entre visitantes que regresan cada año desde la capital y turistas que llegan por primera vez atraídos por las orquestas y los fuegos artificiales anunciados en redes sociales.\n\nDoña Custodia vende arepas de choclo en la esquina de la iglesia desde hace quince años, pero solo durante esos tres días logra reunir lo que ella calcula como una cuarta parte de su ingreso de todo el año. 'Uno vive esperando esta fecha', dice, mientras voltea una arepa sobre el fogón improvisado en la calle. No es la única: decenas de familias del pueblo organizan su economía alrededor de esos tres días, alquilando cuartos, vendiendo comida o cobrando por parqueadero improvisado en el patio de su casa.\n\nEl alcalde encargado de la organización reconoce que la fiesta enfrenta una tensión difícil de resolver: entre más crece en fama y en visitantes, más presión hay para modernizar la infraestructura -baños públicos, vías de acceso, seguridad- y menos se parece, año tras año, a la celebración íntima que los más viejos del pueblo recuerdan de su infancia, cuando la banda tocaba en la plaza sin ningún patrocinador comercial de por medio.\n\nCuando termina el último fuego artificial de la tercera noche, el pueblo vuelve, casi de inmediato, a su ritmo habitual. Las mismas bancas de la plaza quedan vacías otra vez, y doña Custodia guarda su fogón hasta el año siguiente, cuando toda esta escena se repetirá casi punto por punto.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-098",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar una cifra o proporción explícita mencionada por un personaje",
+        "enunciado": "Según la crónica, ¿qué proporción de su ingreso anual calcula doña Custodia que obtiene durante los tres días de la fiesta?",
+        "opciones": {
+          "A": "La mitad de su ingreso anual",
+          "B": "Una cuarta parte de su ingreso de todo el año",
+          "C": "Ningún ingreso adicional relevante",
+          "D": "La totalidad de su ingreso anual"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El segundo párrafo lo indica directamente.",
+        "distractores": {
+          "A": {
+            "explicacion": "Es una cifra distinta a la mencionada explícitamente en el texto.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "Es lo contrario: el texto describe un ingreso significativo durante esos días.",
+            "patron_trampa": "inversion_causal"
+          },
+          "D": {
+            "explicacion": "El texto especifica una cuarta parte, no la totalidad.",
+            "patron_trampa": "generalizacion_indebida"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-099",
+        "competencia": "comprension_global",
+        "habilidad": "identificar la idea general que transmite una crónica sobre un evento cultural",
+        "tarjetas_teoria_relacionada": [
+          "LC-FUN-001"
+        ],
+        "enunciado": "¿Qué idea general transmite la crónica sobre la fiesta patronal del pueblo?",
+        "opciones": {
+          "A": "Que la fiesta es fuente clave de ingresos para varias familias, y también hay tensión entre su crecimiento y perder su carácter íntimo",
+          "B": "Que el gobierno municipal se opone abiertamente, y desde hace años, a que se siga celebrando la fiesta",
+          "C": "Que doña Custodia decidió dejar de vender arepas en la fiesta este año en particular",
+          "D": "Que la fiesta ha perdido por completo su popularidad en los últimos años"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La crónica desarrolla ambos aspectos (el económico y la tensión del crecimiento) a lo largo del texto.",
+        "distractores": {
+          "B": {
+            "explicacion": "El alcalde reconoce tensiones de crecimiento, no una oposición a la fiesta misma.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El texto describe a doña Custodia vendiendo activamente durante la fiesta actual.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "Es lo contrario: el texto describe que la fiesta atrae cada vez más visitantes.",
+            "patron_trampa": "inversion_causal"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-100",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "interpretar una tensión descrita por una fuente citada en una crónica",
+        "tarjetas_teoria_relacionada": [
+          "LC-GLO-008"
+        ],
+        "enunciado": "¿Qué tensión describe el alcalde sobre el crecimiento de la fiesta patronal?",
+        "opciones": {
+          "A": "Que entre más crece la fama y los visitantes, más presión hay para modernizar, y menos se parece a la fiesta íntima de antes",
+          "B": "Que la fiesta ya no genera absolutamente ningún beneficio económico para la comunidad entera",
+          "C": "Que los visitantes externos ya casi no asisten nunca más a la fiesta tradicional del pueblo",
+          "D": "Que el gobierno nacional prohibirá por completo la fiesta dentro de los próximos años"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El tercer párrafo desarrolla exactamente esta tensión, atribuida directamente al alcalde.",
+        "distractores": {
+          "B": {
+            "explicacion": "Es lo contrario de lo que describe el resto de la crónica sobre el impacto económico.",
+            "patron_trampa": "inversion_causal"
+          },
+          "C": {
+            "explicacion": "El texto describe justamente lo contrario: cada vez llegan más visitantes externos.",
+            "patron_trampa": "inversion_causal"
+          },
+          "D": {
+            "explicacion": "No hay ninguna mención a una prohibición futura de la fiesta.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_informativo"
+  }
+]

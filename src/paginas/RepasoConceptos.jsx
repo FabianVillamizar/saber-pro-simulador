@@ -23,6 +23,18 @@ const ETIQUETAS_TIPO = {
   cultura_general: 'Cultura general',
 }
 
+// Lectura Crítica — LC-CUL (cultura general): única tarjeta del sistema sin
+// `competencia_asociada` ni `error_comun` (ver esCultura más abajo). La
+// categoría reemplaza a la competencia como badge del frente.
+const ETIQUETAS_CATEGORIA_CUL = {
+  mitologia_grecolatina: 'Mitología grecolatina',
+  referencias_biblicas: 'Referencias bíblicas',
+  filosofia: 'Filosofía',
+  literatura_universal: 'Literatura universal',
+  literatura_colombiana_latinoamericana: 'Literatura colombiana y latinoamericana',
+  expresiones_de_origen_literario: 'Expresiones de origen literario',
+}
+
 const ETIQUETAS_DIFICULTAD = {
   baja: 'Baja',
   media: 'Media',
@@ -112,6 +124,10 @@ export function RepasoConceptos({ moduloId, perfil, onCambiarPerfil, onVolver })
   // en CC y PC siempre vale "concepto").
   const esCientifica = 'modo' in tarjeta
   const esCloze = esCientifica ? tarjeta.modo === 'cloze' : 'antes' in tarjeta
+  // LC-CUL (cultura general) es la única variante sin `competencia_asociada`
+  // ni `error_comun`: categoria/pregunta/respuesta_breve/explicacion/
+  // ejemplo_aplicado únicamente — reverso de 2 secciones en vez de 3.
+  const esCultura = !esCientifica && !esCloze && 'categoria' in tarjeta
 
   return (
     <div className="repaso">
@@ -197,6 +213,21 @@ export function RepasoConceptos({ moduloId, perfil, onCambiarPerfil, onVolver })
                     <span className="repaso-cloze-hueco" />{' '}
                     {tarjeta.despues}
                   </div>
+                </div>
+                <div className="repaso-hint">
+                  <IconoFlechaCircular color="var(--text-faint)" />
+                  Toca para ver la explicación
+                </div>
+              </>
+            ) : esCultura ? (
+              <>
+                <div className="repaso-badges">
+                  <span className="repaso-badge-nivel">
+                    {ETIQUETAS_CATEGORIA_CUL[tarjeta.categoria] ?? tarjeta.categoria}
+                  </span>
+                </div>
+                <div className="repaso-cloze">
+                  <div className="repaso-cloze-texto">{tarjeta.pregunta}</div>
                 </div>
                 <div className="repaso-hint">
                   <IconoFlechaCircular color="var(--text-faint)" />
@@ -322,6 +353,26 @@ export function RepasoConceptos({ moduloId, perfil, onCambiarPerfil, onVolver })
                     <div className="repaso-error-texto">
                       <TextoConNegritas texto={tarjeta.error_comun} />
                     </div>
+                  </div>
+                </div>
+              </>
+            ) : esCultura ? (
+              <>
+                <div className="repaso-reverso-cabecera">
+                  <div className="repaso-reverso-oracion repaso-reverso-respuesta">{tarjeta.respuesta_breve}</div>
+                </div>
+
+                <div>
+                  <div className="repaso-seccion-label">Explicación</div>
+                  <div className="repaso-seccion-texto">
+                    <TextoConNegritas texto={tarjeta.explicacion} />
+                  </div>
+                </div>
+
+                <div className="repaso-ejemplo">
+                  <div className="repaso-seccion-label repaso-seccion-label--accent">Ejemplo aplicado</div>
+                  <div className="repaso-ejemplo-texto">
+                    <TextoConNegritas texto={tarjeta.ejemplo_aplicado} />
                   </div>
                 </div>
               </>

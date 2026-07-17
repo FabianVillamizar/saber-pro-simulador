@@ -195,3 +195,41 @@
   font-weight: 700;
   color: var(--text-faint);
 }
+
+.panel-teoria summary {
+  color: var(--exito);
+}
+
+.panel-teoria-item {
+  padding: 12px 14px;
+  background: var(--surface-alt);
+  border-radius: 10px;
+  border-left: 3px solid var(--exito);
+}
+
+.panel-teoria-pregunta {
+  font-weight: 700;
+  color: var(--text);
+  font-size: 13.5px;
+  margin-bottom: 4px;
+}
+
+.panel-teoria-respuesta {
+  font-size: 13px;
+  color: var(--text-sub);
+  margin-bottom: 8px;
+}
+
+.panel-teoria-seccion-label {
+  font-size: 10.5px;
+  font-weight: 800;
+  color: var(--text-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-top: 8px;
+  margin-bottom: 2px;
+}
+
+.panel-teoria-seccion-label--accent {
+  color: var(--accent);
+}
