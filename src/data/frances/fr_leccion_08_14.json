@@ -1,0 +1,387 @@
+[
+  {
+    "id": "FR-L08-01",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 8,
+    "tokens": [
+      { "isWord": true, "w": "Non," }, { "isWord": true, "w": "monsieur" }, { "isWord": true, "w": ";" },
+      { "isWord": true, "w": "il" }, { "isWord": true, "w": "est" }, { "isBlank": true },
+      { "isWord": true, "w": "bureau" }, { "isWord": true, "w": "aujourd'hui." }
+    ],
+    "antes": "Non, monsieur ; il est ", "respuesta": "au", "despues": " bureau aujourd'hui.",
+    "fonetica": "[non, muh-syuh; eel ay oh bew-roh oh-zhoor-dwee]",
+    "traduccion_natural": "\"No, señor; está en la oficina hoy.\"",
+    "traduccion_literal": "(literalmente: él es al-oficina)",
+    "nota_numero": 1, "nota_headword": "au / à la",
+    "nota_texto": "à la se usa con sustantivos femeninos (à la maison) y au (contracción de à + le) con masculinos (au bureau) — todos los sustantivos franceses tienen género, así que hay que aprenderlo con cada palabra nueva."
+  },
+  {
+    "id": "FR-L08-02",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 8,
+    "tokens": [
+      { "isWord": true, "w": "Attendez" }, { "isWord": true, "w": "un" }, { "isWord": true, "w": "moment," },
+      { "isWord": true, "w": "je" }, { "isBlank": true }, { "isWord": true, "w": "mon" },
+      { "isWord": true, "w": "carnet" }, { "isWord": true, "w": "d'adresses." }
+    ],
+    "antes": "Attendez un moment, je ", "respuesta": "cherche", "despues": " mon carnet d'adresses.",
+    "fonetica": "[a-tahn-day uhn moh-mahn, zhuh shairsh mohn kar-nay da-dress]",
+    "traduccion_natural": "\"Espere un momento, busco mi libreta de direcciones.\"",
+    "traduccion_literal": "(literalmente: yo busco mi carnet de-direcciones)",
+    "nota_numero": 2, "nota_headword": "un carnet",
+    "nota_texto": "cuaderno o libreta — el mismo carnet del metro parisino (un carnet de tickets, un bloc de boletos más barato que comprarlos sueltos). Un carnet d'adresses es una libreta de direcciones."
+  },
+  {
+    "id": "FR-L08-03",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 8,
+    "tokens": [
+      { "isWord": true, "w": "Merci" }, { "isBlank": true }, { "isWord": true, "w": "mademoiselle." },
+      { "isWord": true, "w": "Au" }, { "isWord": true, "w": "revoir." }
+    ],
+    "antes": "Merci ", "respuesta": "beaucoup,", "despues": " mademoiselle. Au revoir.",
+    "fonetica": "[mair-see boh-koo, mad-mwa-zel. oh ruh-vwar]",
+    "traduccion_natural": "\"Muchas gracias, señorita. Adiós.\"",
+    "traduccion_literal": "(literalmente: gracias mucho)",
+    "nota_numero": 3, "nota_headword": "beaucoup",
+    "nota_texto": "adverbio de cantidad — mucho/muchos, sin distinguir contables de incontables: beaucoup de temps (mucho tiempo), beaucoup de croissants (muchos croissants)."
+  },
+  {
+    "id": "FR-L08-04",
+    "idioma": "frances",
+    "tipo": "cultura",
+    "leccion": 8,
+    "pregunta": "¿Qué significa vivir \"dans le huitième\" en París?",
+    "cultura_texto": "Las tres grandes ciudades de Francia (París, Lyon, Marsella) se dividen en distritos llamados arrondissements. París tiene 20, numerados del primero (le premier) al vigésimo (le vingtième); en la conversación cotidiana se suele omitir la palabra arrondissement después del número: elle habite dans le septième. En Bélgica un arrondissement es una subdivisión de provincia, y en Suiza se refiere a un área administrativa del cantón de Berna."
+  },
+  {
+    "id": "FR-L09-01",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 9,
+    "tokens": [
+      { "isWord": true, "w": "Ce" }, { "isWord": true, "w": "monsieur" }, { "isWord": true, "w": "s'appelle" },
+      { "isWord": true, "w": "Jérôme" }, { "isWord": true, "w": "Lafarge" }, { "isWord": true, "w": "et" },
+      { "isBlank": true }, { "isWord": true, "w": "dame" }, { "isWord": true, "w": "est" },
+      { "isWord": true, "w": "sa" }, { "isWord": true, "w": "femme." }
+    ],
+    "antes": "Ce monsieur s'appelle Jérôme Lafarge et ", "respuesta": "cette", "despues": " dame est sa femme.",
+    "fonetica": "[suh muh-syuh sa-pel zhay-rohm la-farzh ay set dam ay sa fam]",
+    "traduccion_natural": "\"Este señor se llama Jérôme Lafarge y esta señora es su esposa.\"",
+    "traduccion_literal": "(literalmente: este señor se-llama... y esta dama es su mujer)",
+    "nota_numero": 1, "nota_headword": "ce / cette",
+    "nota_texto": "\"este/esta\" — ce para sustantivo masculino, cette para femenino (cet delante de masculino que empieza en vocal o h muda: cet ami, cet homme — se pronuncian igual que cette)."
+  },
+  {
+    "id": "FR-L09-02",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 9,
+    "tokens": [
+      { "isWord": true, "w": "Il" }, { "isWord": true, "w": "a" }, { "isWord": true, "w": "huit" },
+      { "isBlank": true }, { "isWord": true, "w": "monsieur." }
+    ],
+    "antes": "Il a huit ", "respuesta": "ans,", "despues": " monsieur.",
+    "fonetica": "[eel a weet ahn, muh-syuh]",
+    "traduccion_natural": "\"Tiene ocho años, señor.\"",
+    "traduccion_literal": "(literalmente: él tiene ocho años)",
+    "nota_numero": 2, "nota_headword": "avoir + ans",
+    "nota_texto": "en francés se \"tiene\" la edad (il a huit ans) en vez de \"ser\" como en español — y siempre se añade ans después del número, incluso cuando en español se omitiría."
+  },
+  {
+    "id": "FR-L09-03",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 9,
+    "tokens": [
+      { "isWord": true, "w": "Et" }, { "isWord": true, "w": "il" }, { "isWord": true, "w": "habite" },
+      { "isBlank": true }, { "isWord": true, "w": "vous" }, { "isWord": true, "w": "?" }
+    ],
+    "antes": "Et il habite ", "respuesta": "chez", "despues": " vous ?",
+    "fonetica": "[ay eel a-beet shay voo]",
+    "traduccion_natural": "\"¿Y vive con usted (en su casa)?\"",
+    "traduccion_literal": "(literalmente: y él vive en-casa-de usted)",
+    "nota_numero": 3, "nota_headword": "chez",
+    "nota_texto": "\"en casa de\" — chez moi (mi casa), chez le boulanger (en la panadería, literalmente \"en casa del panadero\"). Viene del latín casa."
+  },
+  {
+    "id": "FR-L09-04",
+    "idioma": "frances",
+    "tipo": "cultura",
+    "leccion": 9,
+    "pregunta": "¿Qué trámites se hacen en \"la mairie\" francesa?",
+    "cultura_texto": "La mairie (de un maire, alcalde) es el ayuntamiento — en las grandes ciudades, cada arrondissement tiene su propia mairie, y el centro administrativo principal se llama l'hôtel de ville. Ahí se registran nacimientos, matrimonios y defunciones, y se renueva la carte nationale d'identité, que hay que presentar para votar, en controles de identidad o incluso para recoger una carta certificada."
+  },
+  {
+    "id": "FR-L10-01",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 10,
+    "tokens": [
+      { "isWord": true, "w": "Oui" }, { "isWord": true, "w": "monsieur," }, { "isWord": true, "w": "nous" },
+      { "isBlank": true }
+    ],
+    "antes": "Oui monsieur, nous ", "respuesta": "l'avons.", "despues": "",
+    "fonetica": "[wee muh-syuh, noo la-vohn]",
+    "traduccion_natural": "\"Sí señor, lo tenemos.\"",
+    "traduccion_literal": "(literalmente: nosotros lo tenemos)",
+    "nota_numero": 1, "nota_headword": "l'avons",
+    "nota_texto": "\"lo tenemos\" — l' es el pronombre de objeto directo (lo/la) colocado antes del verbo, igual que en español."
+  },
+  {
+    "id": "FR-L10-02",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 10,
+    "tokens": [
+      { "isWord": true, "w": "Bien" }, { "isWord": true, "w": "sûr." }, { "isWord": true, "w": "Nous" },
+      { "isWord": true, "w": "avons" }, { "isBlank": true }, { "isWord": true, "w": "sa" }, { "isWord": true, "w": "photo." }
+    ],
+    "antes": "Bien sûr. Nous avons ", "respuesta": "même", "despues": " sa photo.",
+    "fonetica": "[byan sewr. noo za-vohn mem sa foh-toh]",
+    "traduccion_natural": "\"Por supuesto. Incluso tenemos su foto.\"",
+    "traduccion_literal": "(literalmente: nosotros tenemos mismo su foto)",
+    "nota_numero": 2, "nota_headword": "même",
+    "nota_texto": "aquí significa \"incluso\"; seguido de que significa \"lo mismo que\". Es una palabra con varios usos que iremos viendo más adelante."
+  },
+  {
+    "id": "FR-L10-03",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 10,
+    "tokens": [
+      { "isWord": true, "w": "Zut" }, { "isWord": true, "w": "!" }, { "isWord": true, "w": "Je" },
+      { "isWord": true, "w": "ne" }, { "isBlank": true }, { "isWord": true, "w": "pas" },
+      { "isWord": true, "w": "mon" }, { "isWord": true, "w": "portefeuille" }, { "isWord": true, "w": "!" }
+    ],
+    "antes": "Zut ! Je ne ", "respuesta": "trouve", "despues": " pas mon portefeuille !",
+    "fonetica": "[zewt! zhuh nuh troov pa mohn port-fuh-yuh]",
+    "traduccion_natural": "\"¡Rayos! ¡No encuentro mi billetera!\"",
+    "traduccion_literal": "(literalmente: yo no encuentro no mi cartera)",
+    "nota_numero": 3, "nota_headword": "zut !",
+    "nota_texto": "muletilla suave para expresar fastidio, parecida a \"¡rayos!\" o \"¡vaya!\" — nada grosera."
+  },
+  {
+    "id": "FR-L11-01",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 11,
+    "tokens": [
+      { "isWord": true, "w": "Nous" }, { "isWord": true, "w": "avons" }, { "isBlank": true },
+      { "isWord": true, "w": "de" }, { "isWord": true, "w": "tout" }, { "isWord": true, "w": ":" },
+      { "isWord": true, "w": "de" }, { "isWord": true, "w": "fruits" }, { "isWord": true, "w": "et" },
+      { "isWord": true, "w": "de" }, { "isWord": true, "w": "légumes." }
+    ],
+    "antes": "Nous avons ", "respuesta": "besoin", "despues": " de tout : de fruits et de légumes.",
+    "fonetica": "[noo za-vohn buh-zwan duh too: duh frwee ay duh lay-gewm]",
+    "traduccion_natural": "\"Necesitamos de todo: fruta y verdura.\"",
+    "traduccion_literal": "(literalmente: nosotros tenemos necesidad de todo)",
+    "nota_numero": 1, "nota_headword": "avoir besoin de",
+    "nota_texto": "\"necesitar\" se construye literalmente como \"tener necesidad de\" — igual que en el inglés formal \"to have need of\"."
+  },
+  {
+    "id": "FR-L11-02",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 11,
+    "tokens": [
+      { "isWord": true, "w": "Parce" }, { "isWord": true, "w": "que" }, { "isBlank": true },
+      { "isWord": true, "w": "les" }, { "isWord": true, "w": "placards" }, { "isWord": true, "w": "sont" },
+      { "isWord": true, "w": "vides" }, { "isWord": true, "w": "!" }
+    ],
+    "antes": "Parce que ", "respuesta": "tous", "despues": " les placards sont vides !",
+    "fonetica": "[pars-kuh too lay pla-kar sohn veed]",
+    "traduccion_natural": "\"¡Porque todas las alacenas están vacías!\"",
+    "traduccion_literal": "(literalmente: porque todos los armarios son vacíos)",
+    "nota_numero": 2, "nota_headword": "tout / tous / toute / toutes",
+    "nota_texto": "\"todo\" concuerda en género y número con el sustantivo: tout le fromage (masc. sing.), toute la journée (fem. sing.), tous les fruits (masc. pl.), toutes les pommes (fem. pl.)."
+  },
+  {
+    "id": "FR-L11-03",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 11,
+    "tokens": [
+      { "isWord": true, "w": "Je" }, { "isWord": true, "w": "vais" }, { "isWord": true, "w": "acheter" },
+      { "isWord": true, "w": "une" }, { "isBlank": true }, { "isWord": true, "w": "de" }, { "isWord": true, "w": "cerises," },
+      { "isWord": true, "w": "un" }, { "isWord": true, "w": "kilo" }, { "isWord": true, "w": "de" }, { "isWord": true, "w": "pommes." }
+    ],
+    "antes": "Je vais acheter une ", "respuesta": "livre", "despues": " de cerises, un kilo de pommes.",
+    "fonetica": "[zhuh vay ash-tay ewn leevr duh suh-reez, uhn kee-loh duh pom]",
+    "traduccion_natural": "\"Voy a comprar media libra de cerezas, un kilo de manzanas.\"",
+    "traduccion_literal": "(literalmente: yo voy comprar una libra de cerezas)",
+    "nota_numero": 3, "nota_headword": "une livre",
+    "nota_texto": "medio kilo (500g, casi una libra) — también se puede pedir por kilos o directamente en gramos: huit cents grammes (800 gramos). Une livre también significa una libra esterlina."
+  },
+  {
+    "id": "FR-L12-01",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 12,
+    "tokens": [
+      { "isBlank": true }, { "isWord": true, "w": "N'hésitez" }, { "isWord": true, "w": "pas" },
+      { "isWord": true, "w": "!" }, { "isWord": true, "w": "Toutes" }, { "isWord": true, "w": "mes" },
+      { "isWord": true, "w": "fraises" }, { "isWord": true, "w": "sont" }, { "isWord": true, "w": "bio." }
+    ],
+    "antes": "", "respuesta": "Allez-y.", "despues": " N'hésitez pas ! Toutes mes fraises sont bio.",
+    "fonetica": "[a-lay-zee. nay-zee-tay pa! toot may frez sohn bee-oh]",
+    "traduccion_natural": "\"Adelante. No dude. Todas mis fresas son orgánicas.\"",
+    "traduccion_literal": "(literalmente: id-ahí. no dude)",
+    "nota_numero": 1, "nota_headword": "allez-y",
+    "nota_texto": "\"adelante\"/\"vaya\" — se usa para invitar a alguien a probar algo o seguir adelante; en primera persona del plural es allons-y (\"vamos\")."
+  },
+  {
+    "id": "FR-L12-02",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 12,
+    "tokens": [
+      { "isWord": true, "w": "Elles" }, { "isWord": true, "w": "sont" }, { "isWord": true, "w": "à" },
+      { "isBlank": true }, { "isWord": true, "w": "?" }
+    ],
+    "antes": "Elles sont à ", "respuesta": "combien", "despues": " ?",
+    "fonetica": "[el sohn ta kohm-byan]",
+    "traduccion_natural": "\"¿A cuánto están?\"",
+    "traduccion_literal": "(literalmente: ellas son a cuánto)",
+    "nota_numero": 2, "nota_headword": "combien",
+    "nota_texto": "\"¿cuánto/cuántos?\" — combien de kilos ?, ¿cuántos kilos? La construcción ils/elles sont à combien ? es la forma idiomática de preguntar el precio de algo."
+  },
+  {
+    "id": "FR-L12-03",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 12,
+    "tokens": [
+      { "isWord": true, "w": "Le" }, { "isWord": true, "w": "prix" }, { "isWord": true, "w": "?" },
+      { "isWord": true, "w": "Elles" }, { "isWord": true, "w": "ne" }, { "isWord": true, "w": "sont" },
+      { "isWord": true, "w": "pas" }, { "isBlank": true }, { "isWord": true, "w": "Seulement" },
+      { "isWord": true, "w": "quinze" }, { "isWord": true, "w": "euros" }, { "isWord": true, "w": "le" }, { "isWord": true, "w": "kilo." }
+    ],
+    "antes": "Le prix ? Elles ne sont pas ", "respuesta": "chères.", "despues": " Seulement quinze euros le kilo.",
+    "fonetica": "[luh pree? el nuh sohn pa shair. suhl-mahn kanz uh-roh luh kee-loh]",
+    "traduccion_natural": "\"¿El precio? No son caras. Solo quince euros el kilo.\"",
+    "traduccion_literal": "(literalmente: el precio? ellas no son no caras)",
+    "nota_numero": 3, "nota_headword": "cher / chère",
+    "nota_texto": "los adjetivos masculinos terminados en -er cambian a femenino con acento grave y una -e final: cher → chère. Como adverbio (\"muy caro\"), cher siempre queda en masculino: c'est très cher."
+  },
+  {
+    "id": "FR-L13-01",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 13,
+    "tokens": [
+      { "isWord": true, "w": "C'est" }, { "isWord": true, "w": "un" }, { "isBlank": true }, { "isWord": true, "w": "téléphone." }
+    ],
+    "antes": "C'est un ", "respuesta": "nouveau", "despues": " téléphone.",
+    "fonetica": "[say uhn noo-voh tay-lay-fon]",
+    "traduccion_natural": "\"Es un teléfono nuevo.\"",
+    "traduccion_literal": "(literalmente: eso-es un nuevo teléfono)",
+    "nota_numero": 1, "nota_headword": "nouveau / nouvelle",
+    "nota_texto": "la mayoría de los adjetivos van después del sustantivo, pero nouveau (femenino: nouvelle) es una excepción y se coloca antes — igual que otros adjetivos de belleza, edad, bondad y tamaño que veremos más adelante."
+  },
+  {
+    "id": "FR-L13-02",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 13,
+    "tokens": [
+      { "isWord": true, "w": "Il" }, { "isWord": true, "w": "ne" }, { "isBlank": true },
+      { "isWord": true, "w": "pas" }, { "isWord": true, "w": "?" }
+    ],
+    "antes": "Il ne ", "respuesta": "marche", "despues": " pas ?",
+    "fonetica": "[eel nuh marsh pa]",
+    "traduccion_natural": "\"¿No funciona?\"",
+    "traduccion_literal": "(literalmente: él no camina no)",
+    "nota_numero": 2, "nota_headword": "marcher",
+    "nota_texto": "literalmente \"caminar\" (de ahí nuestra palabra \"marchar\"), pero coloquialmente significa \"funcionar\". Ça marche ! se usa para decir que alguien está de acuerdo o entendió."
+  },
+  {
+    "id": "FR-L13-03",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 13,
+    "tokens": [
+      { "isWord": true, "w": "Je" }, { "isWord": true, "w": "ne" }, { "isBlank": true },
+      { "isWord": true, "w": "pas" }, { "isWord": true, "w": "le" }, { "isWord": true, "w": "code" }, { "isWord": true, "w": "secret." }
+    ],
+    "antes": "Je ne ", "respuesta": "connais", "despues": " pas le code secret.",
+    "fonetica": "[zhuh nuh koh-nay pa luh kod suh-kray]",
+    "traduccion_natural": "\"No conozco el código secreto.\"",
+    "traduccion_literal": "(literalmente: yo no conozco no el código secreto)",
+    "nota_numero": 3, "nota_headword": "savoir vs. connaître",
+    "nota_texto": "el francés distingue dos verbos para \"saber/conocer\": savoir para un hecho o algo abstracto, connaître para una persona o un lugar. Je connais sa mère (conozco a su madre); il sait beaucoup de choses (él sabe muchas cosas)."
+  },
+  {
+    "id": "FR-L14-01",
+    "idioma": "frances",
+    "tipo": "gramatica",
+    "leccion": 14,
+    "concepto": "MON / SON — el posesivo concuerda con lo poseído",
+    "tokens": [
+      { "isWord": true, "w": "Est-ce" }, { "isWord": true, "w": "que" }, { "isWord": true, "w": "vous" },
+      { "isWord": true, "w": "avez" }, { "isWord": true, "w": "besoin" }, { "isWord": true, "w": "de" },
+      { "isBlank": true }, { "isWord": true, "w": "adresse" }, { "isWord": true, "w": "?" }
+    ],
+    "antes": "Est-ce que vous avez besoin de ", "respuesta": "son", "despues": " adresse ?",
+    "regla": "El adjetivo posesivo concuerda con el género del objeto poseído, no con el género de quien posee — al revés que en inglés. **Son bureau** puede ser \"su oficina\" (de él o de ella) porque *le bureau* es masculino; **sa photo** puede ser \"su foto\" (de él o de ella) porque *une photo* es femenino. Excepción: si el sustantivo empieza en vocal, se usa la forma masculina aunque sea femenino, para facilitar la pronunciación: son_amie, mon_amie.",
+    "ejemplo": "son adresse (su dirección, de él o de ella) — adresse es femenino pero empieza en vocal, por eso son y no sa."
+  },
+  {
+    "id": "FR-L14-02",
+    "idioma": "frances",
+    "tipo": "gramatica",
+    "leccion": 14,
+    "concepto": "VERBOS EN -ER — el patrón más común",
+    "tokens": [
+      { "isWord": true, "w": "Nous" }, { "isBlank": true }, { "isWord": true, "w": "la" }, { "isWord": true, "w": "musique." }
+    ],
+    "antes": "Nous ", "respuesta": "aimons", "despues": " la musique.",
+    "regla": "Los verbos terminados en -er son, por lejos, el grupo más grande del francés (miles de verbos). Se conjugan quitando -er y añadiendo: **-e, -es, -e, -ons, -ez, -ent** (la -ent final es muda). Ejemplo con *aimer* (gustar/amar): j'aime, il/elle aime, nous aimons, vous aimez, ils/elles aiment.",
+    "ejemplo": "acheter, commander, demander, écouter, envoyer, essayer, habiter, marcher, parler, payer, regarder, rentrer, téléphoner — todos siguen este mismo patrón."
+  },
+  {
+    "id": "FR-L14-03",
+    "idioma": "frances",
+    "tipo": "gramatica",
+    "leccion": 14,
+    "concepto": "FAIRE y POUVOIR — dos verbos irregulares clave",
+    "tokens": [
+      { "isWord": true, "w": "Bonjour." }, { "isWord": true, "w": "Qu'est-ce" }, { "isWord": true, "w": "que" },
+      { "isWord": true, "w": "je" }, { "isBlank": true }, { "isWord": true, "w": "faire" }, { "isWord": true, "w": "pour" },
+      { "isWord": true, "w": "vous" }, { "isWord": true, "w": "?" }
+    ],
+    "antes": "Bonjour. Qu'est-ce que je ", "respuesta": "peux", "despues": " faire pour vous ?",
+    "regla": "*faire* (hacer) se conjuga: je fais, il/elle fait, nous faisons, vous faites, ils/elles font. *pouvoir* (poder) se conjuga: je peux, il/elle peut, nous pouvons, vous pouvez, ils/elles peuvent. Ambos son irregulares y hay que memorizarlos aparte.",
+    "ejemplo": "Qu'est-ce que je peux faire pour vous ? (¿Qué puedo hacer por usted?) combina los dos verbos en una sola pregunta muy común en atención al cliente."
+  },
+  {
+    "id": "FR-L14-04",
+    "idioma": "frances",
+    "tipo": "gramatica",
+    "leccion": 14,
+    "concepto": "C'EST vs. IL/ELLE EST",
+    "tokens": [
+      { "isWord": true, "w": "Non," }, { "isBlank": true }, { "isWord": true, "w": "au" }, { "isWord": true, "w": "bureau" },
+      { "isWord": true, "w": "toute" }, { "isWord": true, "w": "la" }, { "isWord": true, "w": "journée." }
+    ],
+    "antes": "Non, ", "respuesta": "il est", "despues": " au bureau toute la journée.",
+    "regla": "**c'est** se usa para explicar qué es algo o quién es alguien (Qu'est-ce que c'est ? - C'est un téléphone), para decir \"soy yo/eres tú\" (c'est moi, c'est vous), o cuando el sustantivo lleva un adjetivo (c'est un bon ami). **il/elle est** se usa para referirse a algo ya mencionado (Où est le beurre ? - Il est sur la table), para el clima (il pleut, il fait beau) y para la hora (il est huit heures).",
+    "ejemplo": "il est au bureau (él está en la oficina) — se usa il est porque \"él\" (votre père) ya fue mencionado antes en la conversación."
+  },
+  {
+    "id": "FR-L14-05",
+    "idioma": "frances",
+    "tipo": "gramatica",
+    "leccion": 14,
+    "concepto": "ADJETIVOS — femenino y el orden BAGS",
+    "tokens": [
+      { "isWord": true, "w": "Elles" }, { "isWord": true, "w": "sont" }, { "isWord": true, "w": "vraiment" }, { "isBlank": true }
+    ],
+    "antes": "Elles sont vraiment ", "respuesta": "délicieuses.", "despues": "",
+    "regla": "El femenino de un adjetivo se forma casi siempre añadiendo una -e: petit→petite, blond→blonde. Si ya termina en -e no cambia (vide→vide). Si termina en -é, sí se añade la -e (occupé→occupée). Los terminados en -er cambian a -ère (dernier→dernière) y los terminados en -eux cambian a -euse (délicieux→délicieuse). Además, la mayoría de los adjetivos van después del sustantivo, salvo los que describen **B**elleza, **A**ntigüedad, **G**oodness/bondad o ta**S**maño (regla BAGS: beau, joli / vieux, jeune, nouveau / bon, mauvais, gentil / grand, petit, gros), que van antes.",
+    "ejemplo": "délicieux → délicieuses (concuerda en género femenino y número plural con fraises)."
+  }
+]
