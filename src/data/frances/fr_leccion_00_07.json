@@ -45,6 +45,121 @@
     "ejemplo": "France se pronuncia [frahns] sin necesitar cedilla, pero français necesita la ç → [frahn-say] — sin ella, 'ca' sonaría [ka]."
   },
   {
+    "id": "FR-L00-06",
+    "idioma": "frances",
+    "tipo": "pronunciacion",
+    "leccion": 0,
+    "pregunta": "¿Cómo se pronuncia la 'u' francesa, y por qué no hay que confundirla con 'ou'?",
+    "regla": "El sonido de la u francesa no existe en español: se produce diciendo [u] mientras se mueven los labios como para decir [i]. Aquí se representa como [ew]. Es clave no confundirlo con **ou**, que sí suena como la u española — hay pares de palabras que se confunden fácilmente si no se distingue bien el sonido.",
+    "ejemplo": "vu (visto) se pronuncia [vew], mientras que vous (usted/ustedes) se pronuncia [voo] — un par clásico que se presta a confusión."
+  },
+  {
+    "id": "FR-L00-07",
+    "idioma": "frances",
+    "tipo": "pronunciacion",
+    "leccion": 0,
+    "pregunta": "¿Quién decide si la 'e' final de una palabra francesa suena o se queda muda?",
+    "regla": "Una e final sin tilde casi siempre es muda: pile (pila) suena [peel]. Pero cuando esa e se añade al final de un adjetivo masculino para formar el femenino, la consonante que queda justo antes SÍ se pronuncia.",
+    "ejemplo": "grand (grande, masculino) se pronuncia [grahn], con la d muda; grande (femenino) se pronuncia [grahnd], con la d sonora — la e final activa la consonante anterior."
+  },
+  {
+    "id": "FR-L00-08",
+    "idioma": "frances",
+    "tipo": "pronunciacion",
+    "leccion": 0,
+    "pregunta": "¿Qué diferencia de sonido hay entre 'é' (acento agudo) y 'è' (acento grave)?",
+    "regla": "El acento agudo (´) sobre la e produce un sonido cerrado, parecido al de \"café\" en español. El acento grave (`) produce un sonido abierto, como la e de \"perro\". Sin ningún acento, la e suele ser muda al final de palabra o débil en medio — por eso el acento importa tanto para la pronunciación como para el significado.",
+    "ejemplo": "occupé (ocupado) suena [okewpay], con é cerrada; père (padre) suena [pair], con è abierta."
+  },
+  {
+    "id": "FR-L00-09",
+    "idioma": "frances",
+    "tipo": "pronunciacion",
+    "leccion": 0,
+    "pregunta": "¿Para qué sirven los dos puntitos sobre una vocal (la tréma), y en qué se diferencia del circunflejo?",
+    "regla": "La tréma (¨) se coloca sobre la segunda de dos vocales seguidas para indicar que se pronuncian por separado, no como una sola. Es distinta del circunflejo, que casi siempre marca una letra perdida del latín en vez de una separación de sonidos.",
+    "ejemplo": "Noël (Navidad) se pronuncia [no-el], separando las dos vocales; sin la tréma, mais (pero) se pronuncia [may], todo junto."
+  },
+  {
+    "id": "FR-L00-10",
+    "idioma": "frances",
+    "tipo": "pronunciacion",
+    "leccion": 0,
+    "pregunta": "¿Qué consonantes finales SÍ se pronuncian en francés, cuando la mayoría se quedan mudas?",
+    "regla": "La mayoría de las consonantes finales son mudas, sobre todo la -s y la -x del plural. Las excepciones son C, R, F y L — un truco fácil para recordarlas es el acrónimo inglés **CaReFuL**.",
+    "ejemplo": "sac (bolsa) suena [sak], tarif (tarifa) suena [tareef], appel (llamada) suena [ahpel], hiver (invierno) suena [eevair] — las cuatro consonantes finales SÍ se oyen."
+  },
+  {
+    "id": "FR-L00-11",
+    "idioma": "frances",
+    "tipo": "pronunciacion",
+    "leccion": 0,
+    "pregunta": "¿Cómo suenan las combinaciones 'll', 'gn', 'ch' y 'th' en francés?",
+    "regla": "-ll- generalmente suena como una simple [l], pero si va después de una i y otra vocal suena [y]. -gn- suena [ñ]. -ch- suena como la \"sh\" inglesa. -th- suena simplemente como una [t] — el francés no tiene el sonido inglés de \"th\".",
+    "ejemplo": "fille (hija) suena [feey] con el sonido [y]; Bretagne suena [bruh-tanyuh]; chercher (buscar) suena [shair-shay]; théâtre suena [tay-ahtr]."
+  },
+  {
+    "id": "FR-L00-12",
+    "idioma": "frances",
+    "tipo": "pronunciacion",
+    "leccion": 0,
+    "pregunta": "¿Por qué la 'r' francesa es tan difícil para un hispanohablante?",
+    "regla": "La r francesa no tiene equivalente exacto en español: se pronuncia en el fondo de la garganta, con la punta de la lengua apoyada contra los dientes inferiores — muy distinta de la r suave o fuerte del español. Para aproximarla, imagina que estás a punto de aclararte la garganta antes de hablar.",
+    "ejemplo": "En palabras como Paris o rouge, la r no se enrolla ni se vibra como en español — se produce más atrás, casi como una fricción suave en la garganta."
+  },
+  {
+    "id": "FR-L00-13",
+    "idioma": "frances",
+    "tipo": "pronunciacion",
+    "leccion": 0,
+    "pregunta": "¿En qué casos NO se hace liaison, aunque la palabra siguiente empiece en vocal?",
+    "regla": "No se hace liaison: con la conjunción **et** (y); entre un sustantivo singular y la palabra que sigue; con una \"h aspirada\" (ver la siguiente tarjeta); ni con nombres propios.",
+    "ejemplo": "un café et un thé se pronuncia [ahn kafay ay ahn tay] — sin enlazar et con thé. Robert est sympa tampoco enlaza Robert con est."
+  },
+  {
+    "id": "FR-L00-14",
+    "idioma": "frances",
+    "tipo": "pronunciacion",
+    "leccion": 0,
+    "pregunta": "El francés no pronuncia nunca la 'h' — entonces, ¿por qué a veces sí se hace liaison con una palabra que empieza en 'h' y a veces no?",
+    "regla": "Existen dos tipos de h muda: la h muet (la mayoría de los casos) permite la elisión y la liaison como si la palabra empezara en vocal; la h aspiré (una minoría, de origen germánico) las bloquea, aunque tampoco se pronuncia — solo actúa como una barrera silenciosa.",
+    "ejemplo": "l'hôpital se pronuncia [lo-pee-tal], con elisión normal (h muda). Pero le Havre se pronuncia [luh / ahvr], con una pequeña pausa en vez de enlazar — h aspirada."
+  },
+  {
+    "id": "FR-L00-15",
+    "idioma": "frances",
+    "tipo": "pronunciacion",
+    "leccion": 0,
+    "pregunta": "¿Por qué el francés \"suena todo seguido\" al oído de alguien acostumbrado al ritmo del inglés?",
+    "regla": "El francés es una lengua de ritmo silábico: todas las sílabas de una palabra o frase reciben más o menos la misma duración e importancia, sin reducir ni debilitar vocales átonas — a diferencia del inglés, que acentúa unas sílabas y \"se come\" otras. Como regla general, la última sílaba de una palabra francesa se acentúa un poco más que las demás, pero mucho menos marcado que en inglés.",
+    "ejemplo": "confortable en francés marca sus cuatro sílabas por igual [kohn-for-tah-bl], mientras que el inglés \"comfortable\" reduce a tres sonidos con vocales borrosas."
+  },
+  {
+    "id": "FR-L00-16",
+    "idioma": "frances",
+    "tipo": "pronunciacion",
+    "leccion": 0,
+    "pregunta": "¿Qué diferencia de puntuación hay que cuidar al escribir en francés, que en español no existe?",
+    "regla": "El francés deja un espacio antes de los signos de puntuación \"fuertes\": el signo de interrogación, el de exclamación, los dos puntos y el punto y coma. También usa comillas angulares (« ») en vez de comillas rectas, y la coma —no el punto— como separador decimal en los números.",
+    "ejemplo": "Quel est votre nom ? lleva un espacio antes del signo de interrogación. 3,8 % se lee \"tres coma ocho por ciento\", no \"tres punto ocho\"."
+  },
+  {
+    "id": "FR-L00-17",
+    "idioma": "frances",
+    "tipo": "cultura",
+    "leccion": 0,
+    "pregunta": "¿Por qué las primeras 49 lecciones de este libro se llaman la \"fase receptiva\"?",
+    "cultura_texto": "El método Assimil divide el aprendizaje en dos fases. En la fase receptiva (lecciones 1 a 49) solo se trata de escuchar, leer y absorber el idioma de forma natural, repitiendo cada frase en voz alta junto con el audio, sin presión por producir francés propio todavía. La fase productiva empieza en la lección 50: ahí se retoma el libro desde el principio, mismo camino ya recorrido, pero esta vez traduciendo al francés de memoria antes de mirar la respuesta. La clave de todo el método es la constancia diaria, aunque sea poco cada día, más que maratones esporádicos — así se activa la memoria muscular del idioma."
+  },
+  {
+    "id": "FR-L00-18",
+    "idioma": "frances",
+    "tipo": "cultura",
+    "leccion": 0,
+    "pregunta": "¿Por qué el francés \"pesa más\" en el mundo de lo que su número de hablantes nativos sugeriría?",
+    "cultura_texto": "El francés lo hablan unos 300 millones de personas en los cinco continentes y es idioma oficial o de trabajo de más de 25 países, desde Canadá hasta Camboya — y también de organismos como la ONU, la UNESCO, la Unión Europea, la OTAN y la Cruz Roja Internacional. La Organización Internacional de la Francofonía reúne a cerca de 90 estados y gobiernos para promover el idioma y las culturas francófonas. Algunas proyecciones sugieren que el francés podría convertirse en la primera o segunda lengua más hablada del mundo hacia mediados del siglo XXI."
+  },
+  {
     "id": "FR-L01-01",
     "idioma": "frances",
     "tipo": "dialogo",
