@@ -37,6 +37,18 @@ const ETIQUETAS_TIPO_FRANCES = {
   pronunciacion: 'Pronunciación',
 }
 
+// Pestañas de categoría del mockup original (Downloads/SIMULADOR/FRANCES/
+// Francés - Tarjeta de Repaso.dc.html) — practicar un solo tipo a la vez en
+// vez de la mezcla completa. Etiqueta corta, distinta de
+// ETIQUETAS_TIPO_FRANCES ("Cultura" vs "Cultura e historia" del badge).
+const ETIQUETAS_TAB_FRANCES = {
+  dialogo: 'Diálogo',
+  gramatica: 'Gramática',
+  cultura: 'Cultura',
+  pronunciacion: 'Pronunciación',
+}
+const ORDEN_TIPOS_FRANCES = ['dialogo', 'gramatica', 'cultura', 'pronunciacion']
+
 // Lectura Crítica — LC-CUL (cultura general): única tarjeta del sistema sin
 // `competencia_asociada` ni `error_comun` (ver esCultura más abajo). La
 // categoría reemplaza a la competencia como badge del frente.
@@ -72,27 +84,67 @@ export function RepasoConceptos({ moduloId, leccion, perfil, onCambiarPerfil, on
   const [totalInicial, setTotalInicial] = useState(0)
   const [volteada, setVolteada] = useState(false)
   const [revisadasHoy, setRevisadasHoy] = useState(0)
+  const [tipoFiltro, setTipoFiltro] = useState(null)
 
-  // Solo se recalcula cuando cambia el módulo cargado (o la lección
-  // elegida): la cola de la sesión no debe reordenarse cada vez que
-  // cambian los estados SRS mientras se está respondiendo.
+  // Solo se recalcula cuando cambia el módulo cargado, la lección elegida
+  // o la pestaña de tipo: la cola de la sesión no debe reordenarse cada
+  // vez que cambian los estados SRS mientras se está respondiendo.
   // Con `leccion` (viene del Mapa del curso, ver MapaDelCurso.jsx): se
   // repasan TODAS las tarjetas de esa lección, sin importar si el SRS
   // las marca como vencidas — el usuario eligió esa lección a propósito,
-  // no está pidiendo el repaso general del día.
+  // no está pidiendo el repaso general del día. `tipoFiltro` (pestañas
+  // Diálogo/Gramática/Cultura/Pronunciación, solo francés) se combina con
+  // lo anterior: sin lección elegida sigue respetando el vencimiento SRS
+  // (no rompe la garantía tipo Anki), con lección elegida ignora
+  // vencimiento igual que el resto de esa lección.
   useEffect(() => {
     if (!modulo) return
-    const pendientes =
-      leccion != null
-        ? modulo.tarjetasConcepto.filter((t) => t.leccion === leccion)
-        : modulo.tarjetasConcepto.filter((t) => estaLista(estadosSRS[t.id]))
+    const pendientes = modulo.tarjetasConcepto.filter((t) => {
+      if (leccion != null && t.leccion !== leccion) return false
+      if (tipoFiltro && t.tipo !== tipoFiltro) return false
+      if (leccion == null && !estaLista(estadosSRS[t.id])) return false
+      return true
+    })
     const colaInicial = crearCola(pendientes)
     setCola(colaInicial)
     setTotalInicial(colaInicial.length)
-  }, [modulo, leccion])
+    setRevisadasHoy(0)
+  }, [modulo, leccion, tipoFiltro])
 
   if (cargando || cola === null) return <div className="page estado-carga">Cargando…</div>
   if (error) return <div className="page estado-error">No se pudo cargar el módulo: {error.message}</div>
+
+  // Pestañas de categoría (solo francés, ver ETIQUETAS_TAB_FRANCES): solo
+  // se listan los tipos que de verdad existen en el alcance actual (todo
+  // el módulo, o la lección elegida) — una lección de sola gramática no
+  // debería ofrecer una pestaña "Cultura" que siempre estaría vacía.
+  const tiposDisponibles = esModuloFrances
+    ? ORDEN_TIPOS_FRANCES.filter((tipo) =>
+        modulo.tarjetasConcepto.some((t) => t.tipo === tipo && (leccion == null || t.leccion === leccion))
+      )
+    : []
+
+  const tabsTipo = tiposDisponibles.length > 1 && (
+    <div className="repaso-tipo-tabs">
+      <button
+        type="button"
+        className={`repaso-tipo-tab${tipoFiltro == null ? ' repaso-tipo-tab--activo' : ''}`}
+        onClick={() => setTipoFiltro(null)}
+      >
+        Todos
+      </button>
+      {tiposDisponibles.map((tipo) => (
+        <button
+          key={tipo}
+          type="button"
+          className={`repaso-tipo-tab${tipoFiltro === tipo ? ' repaso-tipo-tab--activo' : ''}`}
+          onClick={() => setTipoFiltro(tipo)}
+        >
+          {ETIQUETAS_TAB_FRANCES[tipo]}
+        </button>
+      ))}
+    </div>
+  )
 
   function calificar(calificacion) {
     const entrada = cola[0]
@@ -127,6 +179,7 @@ export function RepasoConceptos({ moduloId, leccion, perfil, onCambiarPerfil, on
           <div style={{ flex: 1 }} />
           <SelectorPerfil perfil={perfil} onClick={onCambiarPerfil} />
         </div>
+        {tabsTipo}
         <div className="repaso-fin">
           <h2>Por hoy no quedan tarjetas pendientes</h2>
           <p>Revisaste {revisadasHoy} tarjetas en esta sesión.</p>
@@ -190,6 +243,8 @@ export function RepasoConceptos({ moduloId, leccion, perfil, onCambiarPerfil, on
         <SelectorPerfil perfil={perfil} onClick={onCambiarPerfil} />
         <ThemeToggle dark={dark} onToggle={toggle} />
       </div>
+
+      {tabsTipo}
 
       <div className="repaso-escenario">
         <TarjetaFlip

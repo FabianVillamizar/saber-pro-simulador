@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { useModulo } from '../hooks/useModulo.js'
 import { useTheme } from '../hooks/useTheme.js'
 import { leerJSON } from '../engine/storage.js'
@@ -21,7 +20,6 @@ const REVISIONES = new Set([7, 14, 21, 28, 35, 42, 49])
 export function MapaDelCurso({ perfil, onCambiarPerfil, onVolver, onIrARepaso, onVerModos }) {
   const { modulo, cargando } = useModulo('frances')
   const { dark, toggle } = useTheme()
-  const [seleccionada, setSeleccionada] = useState(null)
 
   if (cargando || !modulo) return <div className="page estado-carga">Cargando…</div>
 
@@ -33,21 +31,28 @@ export function MapaDelCurso({ perfil, onCambiarPerfil, onVolver, onIrARepaso, o
 
   const leccionActual = Math.max(1, ...Object.keys(porLeccion).map(Number).filter((n) => n > 0))
 
-  // Igual que una tarjeta suelta, una lección "dominada" se debilita con
-  // el tiempo si no se repasa: si ya llegó al 100% pero alguna de sus
-  // tarjetas volvió a estar lista para repasar (estaLista), el nodo pasa
-  // de "completada" a "necesita-repaso" — sin tocar el progreso guardado,
-  // solo reflejando que el SRS ya la marcó como vencida de nuevo.
+  // Aprendizaje progresivo: una lección con datos solo se desbloquea si la
+  // anterior ya llegó al 100% de dominio — igual que Duolingo/Anki por
+  // curso. `cadenaAbierta` se cierra apenas una lección no está dominada
+  // (o no tiene datos todavía) y ya no vuelve a abrirse para las
+  // siguientes. Aparte de eso, igual que una tarjeta suelta, una lección
+  // "dominada" se debilita con el tiempo si no se repasa: si ya llegó al
+  // 100% pero alguna de sus tarjetas volvió a estar lista para repasar
+  // (estaLista), el nodo pasa de "completada" a "necesita-repaso" — sin
+  // tocar el progreso guardado ni volver a bloquear lo que sigue.
   const nodos = []
+  let cadenaAbierta = true
   for (let n = 1; n <= DETALLE_HASTA; n++) {
     const tarjetas = porLeccion[n]
     let estado
-    if (!tarjetas) {
+    let dominioCompleto = false
+    if (!tarjetas || !cadenaAbierta) {
       estado = 'bloqueada'
     } else {
       const dominio = calcularDominio(tarjetas, estadosSRS)
+      dominioCompleto = dominio.pct === 100
       const vencidas = tarjetas.filter((t) => estadosSRS[t.id] && estaLista(estadosSRS[t.id])).length
-      if (dominio.pct === 100) estado = vencidas > 0 ? 'necesita-repaso' : 'completada'
+      if (dominioCompleto) estado = vencidas > 0 ? 'necesita-repaso' : 'completada'
       else if (dominio.hechas > 0) estado = 'progreso'
       else estado = 'disponible'
     }
@@ -57,6 +62,7 @@ export function MapaDelCurso({ perfil, onCambiarPerfil, onVolver, onIrARepaso, o
       estado,
       revision: REVISIONES.has(n),
     })
+    cadenaAbierta = dominioCompleto
   }
 
   const pendientesHoy = modulo.tarjetasConcepto.filter((t) => estaLista(estadosSRS[t.id])).length
@@ -69,14 +75,6 @@ export function MapaDelCurso({ perfil, onCambiarPerfil, onVolver, onIrARepaso, o
 
   const totalConDatos = Object.keys(porLeccion).filter((n) => Number(n) > 0).length
   const overallPct = Math.round((totalConDatos / 49) * 100)
-
-  const ETIQUETAS_ESTADO = {
-    completada: 'Completada',
-    'necesita-repaso': 'Necesita repaso',
-    progreso: 'En progreso',
-    disponible: 'Disponible',
-    bloqueada: 'Bloqueada',
-  }
 
   return (
     <div className="mapa-curso">
@@ -149,7 +147,7 @@ export function MapaDelCurso({ perfil, onCambiarPerfil, onVolver, onIrARepaso, o
                 <div
                   className={`mapa-curso-nodo-envoltorio${clickable ? ' mapa-curso-nodo-envoltorio--clic' : ''}`}
                   style={{ transform: `translateX(${offset}px)` }}
-                  onClick={() => clickable && setSeleccionada(n.numero === seleccionada ? null : n.numero)}
+                  onClick={() => clickable && onIrARepaso(n.numero)}
                 >
                   {n.revision ? (
                     <div className={`mapa-curso-rombo mapa-curso-nodo--${n.estado}`}>
@@ -184,25 +182,6 @@ export function MapaDelCurso({ perfil, onCambiarPerfil, onVolver, onIrARepaso, o
           </div>
         ))}
       </div>
-
-      {seleccionada != null && (
-        <div className="mapa-curso-panel">
-          <div className="mapa-curso-panel-card">
-            <div className="mapa-curso-panel-cabecera">
-              <div className="mapa-curso-panel-num">{seleccionada}</div>
-              <div>
-                <div className="mapa-curso-panel-titulo">{nodos[seleccionada - 1].tituloFr}</div>
-                <div className="mapa-curso-panel-estado">{ETIQUETAS_ESTADO[nodos[seleccionada - 1].estado]}</div>
-              </div>
-            </div>
-            <div className="mapa-curso-panel-acciones">
-              <button type="button" className="mapa-curso-boton-primario" onClick={() => onIrARepaso(seleccionada)}>
-                Repasar tarjetas
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   )
 }
