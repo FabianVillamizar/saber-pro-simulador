@@ -12,22 +12,29 @@
 import { hashPin } from './perfiles.js'
 import { leerJSON, escribirJSON } from './storage.js'
 
-// TODO: confirmar que este es el nombre exacto (con tilde/mayúscula) del
-// perfil real, tal como quedó guardado al crearlo — si no coincide
-// carácter por carácter, la tarjeta del módulo no aparecerá para nadie.
+// Nombre del perfil real, sin tilde ("Fabian", no "Fabián") — el perfil se
+// creó sin acento y la comparación ignora acentos de todos modos (ver
+// normalizarNombre) para no depender de si alguien lo vuelve a escribir con
+// tilde en el futuro.
 const PERFIL_REQUERIDO_POR_MODULO = {
-  diosgenina: 'Fabián',
-  frances: 'Fabián',
+  diosgenina: 'Fabian',
+  frances: 'Fabian',
 }
 
 const CODIGOS_ACCESO = {
   diosgenina: hashPin('2724'),
 }
 
+// Quita acentos/diacríticos (á→a, é→e, etc.) pero conserva mayúsculas y
+// minúsculas — la comparación de perfil es insensible a tildes, no a caja.
+function normalizarNombre(nombre) {
+  return nombre?.normalize('NFD').replace(/[\u0300-\u036f]/g, '') ?? ''
+}
+
 export function esVisibleParaPerfil(moduloId, perfil) {
   const nombreRequerido = PERFIL_REQUERIDO_POR_MODULO[moduloId]
   if (!nombreRequerido) return true
-  return perfil?.nombre === nombreRequerido
+  return normalizarNombre(perfil?.nombre) === normalizarNombre(nombreRequerido)
 }
 
 function claveAcceso(perfilId, moduloId) {
