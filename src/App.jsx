@@ -103,6 +103,8 @@ function App() {
         perfil={perfil}
         onCambiarPerfil={onCambiarPerfil}
         onVolver={volverAModulo}
+        onIrACompletaFrase={() => setPantalla({ tipo: 'completa-frase', moduloId: 'frances' })}
+        onIrATraduce={() => setPantalla({ tipo: 'traduce', moduloId: 'frances' })}
       />
     )
   }

@@ -75,7 +75,7 @@ const BOTONES_EVAL = [
   { calificacion: 'facil', etiqueta: 'Fácil', intervalo: '6 días', clase: 'facil' },
 ]
 
-export function RepasoConceptos({ moduloId, leccion, perfil, onCambiarPerfil, onVolver }) {
+export function RepasoConceptos({ moduloId, leccion, perfil, onCambiarPerfil, onVolver, onIrACompletaFrase, onIrATraduce }) {
   const { modulo, cargando, error } = useModulo(moduloId)
   const { dark, toggle } = useTheme()
   const esModuloFrances = moduloId === 'frances'
@@ -197,6 +197,19 @@ export function RepasoConceptos({ moduloId, leccion, perfil, onCambiarPerfil, on
         <div className="repaso-fin">
           <h2>Por hoy no quedan tarjetas pendientes</h2>
           <p>Revisaste {revisadasHoy} tarjetas en esta sesión.</p>
+          {esModuloFrances && (
+            <div className="repaso-fin-siguiente">
+              <div className="repaso-fin-siguiente-etiqueta">Seguir practicando</div>
+              <div className="repaso-fin-siguiente-botones">
+                <button type="button" className="repaso-fin-boton" onClick={onIrACompletaFrase}>
+                  Completa la frase
+                </button>
+                <button type="button" className="repaso-fin-boton" onClick={onIrATraduce}>
+                  Traduce
+                </button>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     )

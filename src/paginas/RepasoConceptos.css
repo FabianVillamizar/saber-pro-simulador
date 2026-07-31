@@ -591,3 +591,35 @@
 .repaso-fin h2 {
   margin-bottom: 0.5rem;
 }
+
+.repaso-fin-siguiente {
+  margin-top: 2.5rem;
+}
+
+.repaso-fin-siguiente-etiqueta {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--text-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 10px;
+}
+
+.repaso-fin-siguiente-botones {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.repaso-fin-boton {
+  padding: 11px 20px;
+  border-radius: var(--radio-pill);
+  border: 1.5px solid var(--fr-accent);
+  background: var(--surface);
+  color: var(--fr-accent);
+  font-weight: 700;
+  font-size: 13.5px;
+  cursor: pointer;
+  font-family: inherit;
+}
