@@ -14,13 +14,27 @@ import { TarjetaFlip } from '../componentes/TarjetaFlip.jsx'
 import { TextoConNegritas } from '../componentes/TextoConNegritas.jsx'
 import { Formula } from '../componentes/Formula.jsx'
 import { VisualCientifico } from '../componentes/VisualCientifico.jsx'
+import { FraseConTokens } from '../componentes/FraseConTokens.jsx'
+import { LeyendaFrances, useLeyendaFrances } from '../componentes/LeyendaFrances.jsx'
+import { numeroFrances } from '../engine/numerosFrances.js'
 import { IconoChevronIzquierdo, IconoFlechaCircular, IconoBombilla } from '../componentes/iconos.jsx'
+import '../estilos/frances.css'
 import './RepasoConceptos.css'
 
 const ETIQUETAS_TIPO = {
   vocabulario: 'Vocabulario',
   gramatica: 'Gramática',
   cultura_general: 'Cultura general',
+}
+
+// Francés (Assimil) — badge secundario del frente: tipo de tarjeta dentro
+// del módulo (no confundir con ETIQUETAS_TIPO, que es del esquema cloze
+// de Inglés). Ver esFrances más abajo.
+const ETIQUETAS_TIPO_FRANCES = {
+  dialogo: 'Diálogo',
+  gramatica: 'Gramática',
+  cultura: 'Cultura e historia',
+  pronunciacion: 'Pronunciación',
 }
 
 // Lectura Crítica — LC-CUL (cultura general): única tarjeta del sistema sin
@@ -51,6 +65,8 @@ const BOTONES_EVAL = [
 export function RepasoConceptos({ moduloId, perfil, onCambiarPerfil, onVolver }) {
   const { modulo, cargando, error } = useModulo(moduloId)
   const { dark, toggle } = useTheme()
+  const esModuloFrances = moduloId === 'frances'
+  const leyenda = useLeyendaFrances(esModuloFrances)
   const [estadosSRS, setEstadosSRS] = useState(() => leerJSON(claveSRS(perfil.id, moduloId), {}))
   const [cola, setCola] = useState(null)
   const [totalInicial, setTotalInicial] = useState(0)
@@ -115,19 +131,24 @@ export function RepasoConceptos({ moduloId, perfil, onCambiarPerfil, onVolver })
   const tarjeta = cola[0].valor
   const remaining = cola.length
   const progressPct = totalInicial ? Math.min(100, Math.round((revisadasHoy / totalInicial) * 100)) : 0
-  // Tres esquemas de tarjeta de concepto: cloze (antes/despues/respuesta,
+  // Cuatro esquemas de tarjeta de concepto: cloze (antes/despues/respuesta,
   // de Inglés), pregunta directa (pregunta/respuesta_breve, de
-  // Competencias Ciudadanas) y científica (Pensamiento Científico, que
+  // Competencias Ciudadanas), científica (Pensamiento Científico, que
   // unifica ambos frentes bajo un solo campo `modo` por tarjeta — no por
   // módulo completo, porque los mismos archivos mezclan tarjetas cloze y
-  // de pregunta). Se detectan por presencia de campos, no por `tipo` (que
-  // en CC y PC siempre vale "concepto").
-  const esCientifica = 'modo' in tarjeta
+  // de pregunta) y francés (Assimil, esquema propio con tokens/liaison,
+  // ver ETIQUETAS_TIPO_FRANCES y FraseConTokens.jsx). Se detectan por presencia de
+  // campos, no por `tipo` (que en CC y PC siempre vale "concepto"; en
+  // francés sí se usa como discriminador interno de sub-layout, pero solo
+  // después de confirmar `idioma === 'frances'`, así que no puede chocar
+  // con el `tipo` fijo de otros módulos).
+  const esFrances = tarjeta.idioma === 'frances'
+  const esCientifica = !esFrances && 'modo' in tarjeta
   const esCloze = esCientifica ? tarjeta.modo === 'cloze' : 'antes' in tarjeta
   // LC-CUL (cultura general) es la única variante sin `competencia_asociada`
   // ni `error_comun`: categoria/pregunta/respuesta_breve/explicacion/
   // ejemplo_aplicado únicamente — reverso de 2 secciones en vez de 3.
-  const esCultura = !esCientifica && !esCloze && 'categoria' in tarjeta
+  const esCultura = !esFrances && !esCientifica && !esCloze && 'categoria' in tarjeta
 
   return (
     <div className="repaso">
@@ -142,7 +163,21 @@ export function RepasoConceptos({ moduloId, perfil, onCambiarPerfil, onVolver })
         <div className="repaso-barra">
           <div className="repaso-barra-relleno" style={{ width: `${progressPct}%` }} />
         </div>
-        <div className="repaso-restantes">{remaining} restantes</div>
+        {esModuloFrances ? (
+          <div className="repaso-restantes-fr">
+            <div className="repaso-restantes-fr-num">{remaining}</div>
+            <div className="repaso-restantes-fr-palabra">
+              {numeroFrances(remaining).palabra} {numeroFrances(remaining).fonetica}
+            </div>
+          </div>
+        ) : (
+          <div className="repaso-restantes">{remaining} restantes</div>
+        )}
+        {esModuloFrances && (
+          <button type="button" className="boton-icono repaso-boton-ayuda-fr" onClick={leyenda.abrir}>
+            ?
+          </button>
+        )}
         <SelectorPerfil perfil={perfil} onClick={onCambiarPerfil} />
         <ThemeToggle dark={dark} onToggle={toggle} />
       </div>
@@ -152,7 +187,25 @@ export function RepasoConceptos({ moduloId, perfil, onCambiarPerfil, onVolver })
           volteada={volteada}
           onClick={() => setVolteada((v) => !v)}
           frente={
-            esCientifica ? (
+            esFrances ? (
+              <>
+                <div className="repaso-badges">
+                  <span className="repaso-num-leccion">{tarjeta.leccion}</span>
+                  <span className="repaso-badge-tipo">{ETIQUETAS_TIPO_FRANCES[tarjeta.tipo] ?? tarjeta.tipo}</span>
+                </div>
+                <div className="repaso-cloze">
+                  {tarjeta.tokens ? (
+                    <FraseConTokens tokens={tarjeta.tokens} />
+                  ) : (
+                    <div className="repaso-cloze-texto">{tarjeta.pregunta}</div>
+                  )}
+                </div>
+                <div className="repaso-hint">
+                  <IconoFlechaCircular color="var(--text-faint)" />
+                  Toca para ver la explicación
+                </div>
+              </>
+            ) : esCientifica ? (
               <>
                 <div className="repaso-badges">
                   <span className={`repaso-badge-dificultad repaso-badge-dificultad--${tarjeta.dificultad}`}>
@@ -252,7 +305,82 @@ export function RepasoConceptos({ moduloId, perfil, onCambiarPerfil, onVolver })
             )
           }
           reverso={
-            esCientifica ? (
+            esFrances ? (
+              <>
+                <div className="repaso-reverso-cabecera">
+                  <span className="repaso-num-leccion repaso-num-leccion--chico">{tarjeta.leccion}</span>
+                  {tarjeta.tokens ? (
+                    <div className="repaso-reverso-oracion">
+                      {tarjeta.antes}
+                      <span className="repaso-reverso-respuesta-fr">{tarjeta.respuesta}</span>
+                      {tarjeta.despues}
+                    </div>
+                  ) : (
+                    <div className="repaso-fr-tipo-label">{ETIQUETAS_TIPO_FRANCES[tarjeta.tipo] ?? tarjeta.tipo}</div>
+                  )}
+                </div>
+
+                {tarjeta.tipo === 'dialogo' && (
+                  <>
+                    <div className="repaso-fr-fonetica">{tarjeta.fonetica}</div>
+                    <div>
+                      <div className="repaso-seccion-label">Traducción</div>
+                      <div className="repaso-seccion-texto">
+                        {tarjeta.traduccion_natural} <span className="repaso-fr-literal">{tarjeta.traduccion_literal}</span>
+                      </div>
+                    </div>
+                    <div className="repaso-fr-nota">
+                      <span className="repaso-fr-nota-num">{tarjeta.nota_numero}</span>
+                      <div className="repaso-fr-nota-texto">
+                        <b>{tarjeta.nota_headword}</b> — {tarjeta.nota_texto}
+                      </div>
+                    </div>
+                  </>
+                )}
+
+                {tarjeta.tipo === 'gramatica' && (
+                  <>
+                    <div className="repaso-fr-concepto">{tarjeta.concepto}</div>
+                    <div>
+                      <div className="repaso-seccion-label">Regla</div>
+                      <div className="repaso-seccion-texto">
+                        <TextoConNegritas texto={tarjeta.regla} />
+                      </div>
+                    </div>
+                    <div className="repaso-ejemplo repaso-ejemplo--fr">
+                      <div className="repaso-seccion-label repaso-seccion-label--accent-fr">Ejemplo</div>
+                      <div className="repaso-ejemplo-texto">
+                        <TextoConNegritas texto={tarjeta.ejemplo} />
+                      </div>
+                    </div>
+                  </>
+                )}
+
+                {tarjeta.tipo === 'pronunciacion' && (
+                  <>
+                    <div>
+                      <div className="repaso-seccion-label">Regla</div>
+                      <div className="repaso-seccion-texto">
+                        <TextoConNegritas texto={tarjeta.regla} />
+                      </div>
+                    </div>
+                    <div className="repaso-ejemplo repaso-ejemplo--fr">
+                      <div className="repaso-seccion-label repaso-seccion-label--accent-fr">Ejemplo</div>
+                      <div className="repaso-ejemplo-texto">
+                        <TextoConNegritas texto={tarjeta.ejemplo} />
+                      </div>
+                    </div>
+                  </>
+                )}
+
+                {tarjeta.tipo === 'cultura' && (
+                  <>
+                    <div className="repaso-seccion-label">Cultura e historia</div>
+                    <div className="repaso-fr-cultura-texto">{tarjeta.cultura_texto}</div>
+                  </>
+                )}
+              </>
+            ) : esCientifica ? (
               <>
                 <div className="repaso-reverso-cabecera">
                   <span
@@ -416,7 +544,7 @@ export function RepasoConceptos({ moduloId, perfil, onCambiarPerfil, onVolver })
           <button
             key={b.calificacion}
             type="button"
-            className={`repaso-eval-boton repaso-eval-boton--${b.clase}`}
+            className={`repaso-eval-boton repaso-eval-boton--${b.clase}${esModuloFrances && b.clase === 'bien' ? ' repaso-eval-boton--bien-fr' : ''}`}
             onClick={() => calificar(b.calificacion)}
           >
             <span className="repaso-eval-etiqueta">{b.etiqueta}</span>
@@ -424,6 +552,8 @@ export function RepasoConceptos({ moduloId, perfil, onCambiarPerfil, onVolver })
           </button>
         ))}
       </div>
+
+      {esModuloFrances && <LeyendaFrances abierta={leyenda.abierta} onCerrar={leyenda.cerrar} />}
     </div>
   )
 }

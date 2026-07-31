@@ -1,0 +1,443 @@
+[
+  {
+    "id": "FR-L00-01",
+    "idioma": "frances",
+    "tipo": "pronunciacion",
+    "leccion": 0,
+    "pregunta": "¿Qué le pasó a la 's' que desapareció en hôpital?",
+    "regla": "El acento circunflejo (^) casi siempre señala que la palabra viene del latín y que una letra —casi siempre una **s**— desapareció con el tiempo. Esa s suele seguir presente en la palabra en español o inglés. Solo en â, ê y ô el circunflejo cambia realmente la pronunciación (un poco); en î y û es puramente visual.",
+    "ejemplo": "hôpital viene de la misma raíz que hospital — la s se perdió en francés pero sobrevivió en español. Lo mismo pasa con forêt/floresta, île/isla, château/castillo."
+  },
+  {
+    "id": "FR-L00-02",
+    "idioma": "frances",
+    "tipo": "pronunciacion",
+    "leccion": 0,
+    "pregunta": "¿Por qué bonjour no suena como se lee letra por letra?",
+    "regla": "El francés tiene vocales nasales: se pronuncian dejando escapar aire por la nariz además de la boca. Ocurre cuando una vocal (o combinación como ei/ai) va seguida de n o m, que entonces dejan de sonar como consonantes normales.",
+    "ejemplo": "bonjour suena aproximadamente [bon-zhoor] — la 'n' de 'bon' no suena como consonante, solo nasaliza la vocal anterior. Prueba taparte una fosa nasal con el dedo mientras lo dices: notarás la diferencia."
+  },
+  {
+    "id": "FR-L00-03",
+    "idioma": "frances",
+    "tipo": "pronunciacion",
+    "leccion": 0,
+    "pregunta": "¿Qué es la liaison en francés?",
+    "regla": "Muchas consonantes finales en francés son mudas, pero se pronuncian —se \"enlazan\"— cuando la palabra siguiente empieza con vocal o h muda. Es una de las razones por las que el francés hablado suena tan fluido y, al principio, difícil de separar en palabras. No se hace liaison antes de una 'h aspirada' ni con la conjunción et.",
+    "ejemplo": "vous avez se pronuncia [voo-zavay]: la 's' muda de 'vous' se convierte en un sonido [z] antes de la vocal de 'avez'. Igual pasa con un ami → [un-namee]."
+  },
+  {
+    "id": "FR-L00-04",
+    "idioma": "frances",
+    "tipo": "pronunciacion",
+    "leccion": 0,
+    "pregunta": "¿Cuándo suena fuerte la 'g' francesa y cuándo suave?",
+    "regla": "Antes de e, i o y, la 'g' suena suave (el sonido [zh], como el de 'vision' en inglés). Antes de a, o, u y de cualquier consonante, suena fuerte como la 'g' de 'gato'. Para forzar el sonido fuerte antes de e/i se intercala una u muda.",
+    "ejemplo": "plage (playa) se pronuncia [plazh] con g suave, pero gâteau (pastel) se pronuncia [gah-toh] con g fuerte. guerre → [gair] (u muda que fuerza la g dura)."
+  },
+  {
+    "id": "FR-L00-05",
+    "idioma": "frances",
+    "tipo": "pronunciacion",
+    "leccion": 0,
+    "pregunta": "¿Para qué sirve la cedilla (ç)?",
+    "regla": "La letra 'c' suena [s] antes de e/i de forma natural, pero suena [k] antes de a/o/u. Cuando una palabra necesita el sonido [s] antes de a, o, u, se le añade una cedilla a la c.",
+    "ejemplo": "France se pronuncia [frahns] sin necesitar cedilla, pero français necesita la ç → [frahn-say] — sin ella, 'ca' sonaría [ka]."
+  },
+  {
+    "id": "FR-L01-01",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 1,
+    "tokens": [
+      { "isWord": true, "w": "Bonjour" }, { "isWord": true, "w": "!" }, { "isWord": true, "w": "Jeanne," },
+      { "isWord": true, "w": "comment" }, { "isBlank": true }, { "isWord": true, "w": "?" }
+    ],
+    "antes": "Bonjour ! Jeanne, comment ", "respuesta": "allez-vous", "despues": " ?",
+    "fonetica": "[bon-zhoor jan, ko-mahn-talay-voo]",
+    "traduccion_natural": "\"¡Hola! Jeanne, ¿cómo está usted?\"",
+    "traduccion_literal": "(literalmente: cómo va-usted)",
+    "nota_numero": 1, "nota_headword": "allez-vous",
+    "nota_texto": "forma invertida y formal de preguntar cómo está alguien, usando el verbo aller (ir) — no être."
+  },
+  {
+    "id": "FR-L01-02",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 1,
+    "tokens": [
+      { "isWord": true, "w": "Ça" }, { "isWord": true, "w": "va" }, { "isWord": true, "w": "très" },
+      { "isBlank": true }, { "isWord": true, "w": "merci." }
+    ],
+    "antes": "Ça va très ", "respuesta": "bien", "despues": ", merci.",
+    "fonetica": "[sa va tray byan, mair-see]",
+    "traduccion_natural": "\"Muy bien, gracias.\"",
+    "traduccion_literal": "(literalmente: eso va muy bien)",
+    "nota_numero": 2, "nota_headword": "Ça va",
+    "nota_texto": "respuesta más común y natural a \"¿cómo estás?\", mucho más frecuente en el habla real que una respuesta larga."
+  },
+  {
+    "id": "FR-L01-03",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 1,
+    "tokens": [
+      { "isWord": true, "w": "Je" }, { "isWord": true, "w": "vous" }, { "isBlank": true },
+      { "isWord": true, "w": "ma" }, { "isWord": true, "w": "fille," }, { "isWord": true, "w": "Chloé." }
+    ],
+    "antes": "Je vous ", "respuesta": "présente", "despues": " ma fille, Chloé.",
+    "fonetica": "[zhuh voo pray-zahnt ma feey, kloh-ay]",
+    "traduccion_natural": "\"Le presento a mi hija, Chloé.\"",
+    "traduccion_literal": "(literalmente: yo a-usted presento mi hija)",
+    "nota_numero": 3, "nota_headword": "présenter",
+    "nota_texto": "significa presentar en el sentido de introducir a alguien. Je vous présente equivale a \"permítame presentarle\"."
+  },
+  {
+    "id": "FR-L01-04",
+    "idioma": "frances",
+    "tipo": "cultura",
+    "leccion": 1,
+    "pregunta": "¿Por qué el francés tiene dos formas distintas para decir \"tú\"?",
+    "cultura_texto": "vous es la forma formal/de respeto (y también el plural de \"tú\"); tu es la forma familiar, reservada en Francia a familiares y amigos cercanos. En otros países francófonos, como Canadá, el tu se usa con mucha más soltura que en Francia. Esa frontera entre las dos formas es una de las primeras decisiones sociales que hay que tomar cada vez que se habla con alguien nuevo — y equivocarse de forma puede sonar frío o, al revés, demasiado confianzudo."
+  },
+  {
+    "id": "FR-L02-01",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 2,
+    "tokens": [
+      { "isWord": true, "w": "Monsieur," }, { "isWord": true, "w": "madame," }, { "isWord": true, "w": "vous" },
+      { "isBlank": true }, { "isWord": true, "w": "?" }
+    ],
+    "antes": "Monsieur, madame, vous ", "respuesta": "désirez", "despues": " ?",
+    "fonetica": "[muh-syuh ma-dam, voo day-zee-ray]",
+    "traduccion_natural": "\"Caballero, señora, ¿qué desean?\"",
+    "traduccion_literal": "(literalmente: usted desea)",
+    "nota_numero": 1, "nota_headword": "vous désirez",
+    "nota_texto": "así de simple se pregunta en un café o restaurante: la forma afirmativa con entonación ascendente, sin invertir el orden de las palabras."
+  },
+  {
+    "id": "FR-L02-02",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 2,
+    "tokens": [
+      { "isWord": true, "w": "Deux" }, { "isWord": true, "w": "cafés" }, { "isWord": true, "w": "et" },
+      { "isWord": true, "w": "deux" }, { "isWord": true, "w": "croissants," }, { "isWord": true, "w": "s'il" },
+      { "isWord": true, "w": "vous" }, { "isBlank": true }, { "isWord": true, "w": "?" }
+    ],
+    "antes": "Deux cafés et deux croissants, s'il vous ", "respuesta": "plaît", "despues": " ?",
+    "fonetica": "[duh ka-fay ay duh krwa-sahn, seel voo play]",
+    "traduccion_natural": "\"Dos cafés y dos croissants, por favor.\"",
+    "traduccion_literal": "(literalmente: si a usted place)",
+    "nota_numero": 2, "nota_headword": "s'il vous plaît",
+    "nota_texto": "\"por favor\" — a pesar de su traducción literal tan formal (\"si a usted le place\"), es una expresión de lo más cotidiana."
+  },
+  {
+    "id": "FR-L02-03",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 2,
+    "tokens": [
+      { "isWord": true, "w": "Non," }, { "isWord": true, "w": "je" }, { "isBlank": true },
+      { "isWord": true, "w": "une" }, { "isWord": true, "w": "tartine" }, { "isWord": true, "w": "beurrée" },
+      { "isWord": true, "w": "pour" }, { "isWord": true, "w": "le" }, { "isWord": true, "w": "petit-déjeuner." }
+    ],
+    "antes": "Non, je ", "respuesta": "préfère", "despues": " une tartine beurrée pour le petit-déjeuner.",
+    "fonetica": "[non, zhuh pray-fair ewn tar-teen buh-ray poor luh puh-tee day-zhuh-nay]",
+    "traduccion_natural": "\"No, prefiero una tostada con mantequilla para el desayuno.\"",
+    "traduccion_literal": "(literalmente: pequeño-almuerzo)",
+    "nota_numero": 3, "nota_headword": "petit-déjeuner",
+    "nota_texto": "literalmente \"pequeño almuerzo\" — le déjeuner solo es el almuerzo."
+  },
+  {
+    "id": "FR-L02-04",
+    "idioma": "frances",
+    "tipo": "cultura",
+    "leccion": 2,
+    "pregunta": "Si pides \"un café\" en Francia, ¿qué te van a servir exactamente?",
+    "cultura_texto": "un café es a la vez la bebida (un espresso solo, sin leche) y el establecimiento donde se sirve. Si pides \"un café\" en Francia, te llegará un espresso — para algo con leche hay que pedir específicamente un café au lait o un crème. También se puede pedir como un expresso o un express, tomado de pie en la barra, que suele costar menos que sentado en mesa."
+  },
+  {
+    "id": "FR-L03-01",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 3,
+    "tokens": [
+      { "isWord": true, "w": "Je" }, { "isWord": true, "w": "me" }, { "isWord": true, "w": "présente" },
+      { "isWord": true, "w": ":" }, { "isWord": true, "w": "je" }, { "isBlank": true },
+      { "isWord": true, "w": "Sophie" }, { "isWord": true, "w": "Mercier." }
+    ],
+    "antes": "Je me présente : je ", "respuesta": "m'appelle", "despues": " Sophie Mercier.",
+    "fonetica": "[zhuh muh pray-zahnt: zhuh ma-pel so-fee mair-syay]",
+    "traduccion_natural": "\"Me presento: me llamo Sophie Mercier.\"",
+    "traduccion_literal": "(literalmente: yo me llamo Sophie Mercier)",
+    "nota_numero": 1, "nota_headword": "je m'appelle",
+    "nota_texto": "literalmente \"yo me llamo a mí mismo\", pero equivale simplemente a \"me llamo\"."
+  },
+  {
+    "id": "FR-L03-02",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 3,
+    "tokens": [
+      { "isWord": true, "w": "Et" }, { "isWord": true, "w": "vous," }, { "isBlank": true },
+      { "isWord": true, "w": "breton" }, { "isWord": true, "w": "aussi" }, { "isWord": true, "w": "?" }
+    ],
+    "antes": "Et vous, ", "respuesta": "êtes-vous", "despues": " breton aussi ?",
+    "fonetica": "[ay voo, et-voo bruh-tohn oh-see]",
+    "traduccion_natural": "\"¿Y usted, es bretón también?\"",
+    "traduccion_literal": "(literalmente: sois-usted bretón)",
+    "nota_numero": 2, "nota_headword": "êtes-vous",
+    "nota_texto": "forma invertida y formal de preguntar (êtes-vous en vez de vous êtes) — más formal que solo subir la entonación al final."
+  },
+  {
+    "id": "FR-L03-03",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 3,
+    "tokens": [
+      { "isWord": true, "w": "Pas" }, { "isWord": true, "w": "du" }, { "isBlank": true },
+      { "isWord": true, "w": "je" }, { "isWord": true, "w": "suis" }, { "isWord": true, "w": "de" }, { "isWord": true, "w": "Nîmes." }
+    ],
+    "antes": "Pas du ", "respuesta": "tout,", "despues": " je suis de Nîmes.",
+    "fonetica": "[pa dew too, zhuh swee duh neem]",
+    "traduccion_natural": "\"Para nada, soy de Nîmes.\"",
+    "traduccion_literal": "(literalmente: no del todo)",
+    "nota_numero": 3, "nota_headword": "pas du tout",
+    "nota_texto": "negación enfática — \"para nada\"/\"en absoluto\", mucho más fuerte que un simple non."
+  },
+  {
+    "id": "FR-L03-04",
+    "idioma": "frances",
+    "tipo": "cultura",
+    "leccion": 3,
+    "pregunta": "¿Qué son \"la Bretagne\" y \"le Midi\"?",
+    "cultura_texto": "la Bretagne (Bretaña) es la región del oeste de Francia, de fuerte identidad céltica, con sus propios acantilados de granito. le Midi es un término coloquial para el sur de Francia, la región de los olivares — la misma raíz que da nombre a \"Midi\" en la estación de tren de Bruselas, así llamada porque está en el sur de la ciudad."
+  },
+  {
+    "id": "FR-L04-01",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 4,
+    "tokens": [
+      { "isWord": true, "w": "Pardon," }, { "isWord": true, "w": "est-ce" }, { "isWord": true, "w": "que" },
+      { "isLiaison": true, "w1": "vous", "w2": "avez" }, { "isBlank": true }, { "isWord": true, "w": "?" }
+    ],
+    "antes": "Pardon, est-ce que vous‿avez ", "respuesta": "l'heure", "despues": " ?",
+    "fonetica": "[par-dohn, es-kuh voo-zavay luhr]",
+    "traduccion_natural": "\"Disculpe, ¿tiene usted la hora?\"",
+    "traduccion_literal": "(literalmente: usted tiene la hora)",
+    "nota_numero": 1, "nota_headword": "est-ce que",
+    "nota_texto": "la forma más común de convertir cualquier frase afirmativa en pregunta, sin invertir nada — solo se antepone al sujeto y el verbo."
+  },
+  {
+    "id": "FR-L04-02",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 4,
+    "tokens": [
+      { "isWord": true, "w": "Je" }, { "isWord": true, "w": "n'ai" }, { "isWord": true, "w": "pas" },
+      { "isWord": true, "w": "de" }, { "isWord": true, "w": "montre" }, { "isWord": true, "w": "mais" },
+      { "isWord": true, "w": "je" }, { "isWord": true, "w": "pense" }, { "isWord": true, "w": "qu'il" },
+      { "isWord": true, "w": "est" }, { "isBlank": true }, { "isWord": true, "w": "dix." }
+    ],
+    "antes": "Je n'ai pas de montre mais je pense qu'il est ", "respuesta": "midi", "despues": " dix.",
+    "fonetica": "[zhuh nay pa duh mohntr may zhuh pohns keel ay mee-dee dees]",
+    "traduccion_natural": "\"No tengo reloj pero creo que son las doce y diez.\"",
+    "traduccion_literal": "(literalmente: yo pienso que él es mediodía diez)",
+    "nota_numero": 2, "nota_headword": "midi",
+    "nota_texto": "significa tanto \"mediodía\" como, coloquialmente, \"el sur de Francia\" (le Midi, ver la nota cultural de la lección 3)."
+  },
+  {
+    "id": "FR-L04-03",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 4,
+    "tokens": [
+      { "isWord": true, "w": "Mais" }, { "isWord": true, "w": "comment" }, { "isBlank": true },
+      { "isWord": true, "w": "savez-vous" }, { "isWord": true, "w": "?" }
+    ],
+    "antes": "Mais comment ", "respuesta": "le", "despues": " savez-vous ?",
+    "fonetica": "[may ko-mahn luh sa-vay-voo]",
+    "traduccion_natural": "\"Pero ¿cómo lo sabe usted?\"",
+    "traduccion_literal": "(literalmente: cómo lo usted-sabe)",
+    "nota_numero": 3, "nota_headword": "le",
+    "nota_texto": "pronombre neutro (\"lo\"), colocado antes del verbo — igual que en español, donde también va antes del verbo conjugado."
+  },
+  {
+    "id": "FR-L05-01",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 5,
+    "tokens": [
+      { "isWord": true, "w": "Excusez-moi," }, { "isWord": true, "w": "je" }, { "isBlank": true },
+      { "isWord": true, "w": "le" }, { "isWord": true, "w": "métro" }, { "isWord": true, "w": "Saint-Michel." }
+    ],
+    "antes": "Excusez-moi, je ", "respuesta": "cherche", "despues": " le métro Saint-Michel.",
+    "fonetica": "[ex-kew-zay-mwah, zhuh shairsh luh may-troh sahn-mee-shel]",
+    "traduccion_natural": "\"Disculpe, busco la estación de metro Saint-Michel.\"",
+    "traduccion_literal": "(literalmente: yo busco el metro)",
+    "nota_numero": 1, "nota_headword": "chercher",
+    "nota_texto": "buscar — no necesita preposición como el \"to look for\" inglés: je cherche le métro, sin \"por\" ni nada intermedio."
+  },
+  {
+    "id": "FR-L05-02",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 5,
+    "tokens": [
+      { "isWord": true, "w": "Désolée," }, { "isWord": true, "w": "madame," }, { "isWord": true, "w": "je" },
+      { "isWord": true, "w": "ne" }, { "isWord": true, "w": "suis" }, { "isWord": true, "w": "pas" }, { "isBlank": true }
+    ],
+    "antes": "Désolée, madame, je ne suis pas ", "respuesta": "d'ici.", "despues": "",
+    "fonetica": "[day-zoh-lay, ma-dam, zhuh nuh swee pa dee-see]",
+    "traduccion_natural": "\"Lo siento, señora, no soy de aquí.\"",
+    "traduccion_literal": "(literalmente: yo no soy de-aquí)",
+    "nota_numero": 2, "nota_headword": "désolée",
+    "nota_texto": "palabra cotidiana y nada formal para \"lo siento\" — la 'e' final concuerda con que quien habla es mujer."
+  },
+  {
+    "id": "FR-L05-03",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 5,
+    "tokens": [
+      { "isBlank": true }, { "isWord": true, "w": ":" }, { "isWord": true, "w": "traversez" },
+      { "isWord": true, "w": "le" }, { "isWord": true, "w": "boulevard" }, { "isWord": true, "w": "et" },
+      { "isWord": true, "w": "tournez" }, { "isWord": true, "w": "à" }, { "isWord": true, "w": "gauche" },
+      { "isWord": true, "w": "à" }, { "isWord": true, "w": "la" }, { "isWord": true, "w": "fontaine." }
+    ],
+    "antes": "", "respuesta": "Voilà", "despues": " : traversez le boulevard et tournez à gauche à la fontaine.",
+    "fonetica": "[vwa-la: tra-vair-say luh boo-luh-var ay toor-nay a gohsh a la fohn-ten]",
+    "traduccion_natural": "\"Aquí tiene: cruce el bulevar y gire a la izquierda en la fuente.\"",
+    "traduccion_literal": "(literalmente: he-aquí)",
+    "nota_numero": 3, "nota_headword": "voilà",
+    "nota_texto": "en principio se usa voici para algo cercano y voilà para algo más lejano, aunque en la práctica los franceses usan voilà para casi todo."
+  },
+  {
+    "id": "FR-L05-04",
+    "idioma": "frances",
+    "tipo": "cultura",
+    "leccion": 5,
+    "pregunta": "¿Qué es el \"Quartier Latin\" de París y por qué se llama así?",
+    "cultura_texto": "El barrio de Saint-Michel en París es sinónimo del Quartier Latin (Barrio Latino), llamado así porque ahí está la Sorbona, donde antiguamente se enseñaba en latín. La Place Saint-Michel, dominada por una fuente monumental del siglo XIX, es un punto de encuentro clásico; el Boulevard Saint-Michel que sale de ella es famoso por sus librerías y cafés."
+  },
+  {
+    "id": "FR-L06-01",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 6,
+    "tokens": [
+      { "isWord": true, "w": "Bienvenue" }, { "isWord": true, "w": "à" }, { "isBlank": true }, { "isWord": true, "w": "Molière." }
+    ],
+    "antes": "Bienvenue à ", "respuesta": "l'Hôtel", "despues": " Molière.",
+    "fonetica": "[byen-vuh-new a loh-tel moh-lyair]",
+    "traduccion_natural": "\"Bienvenido al Hotel Molière.\"",
+    "traduccion_literal": "(literalmente: bienvenida a el-hotel)",
+    "nota_numero": 1, "nota_headword": "l'",
+    "nota_texto": "reemplaza a le/la delante de una palabra que empieza en vocal o h muda — por eso l'hôtel y no le hôtel, aunque hôtel es masculino."
+  },
+  {
+    "id": "FR-L06-02",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 6,
+    "tokens": [
+      { "isWord": true, "w": "Une" }, { "isBlank": true }, { "isWord": true, "w": "chambre" },
+      { "isLiaison": true, "w1": "avec", "w2": "un" }, { "isWord": true, "w": "grand" }, { "isWord": true, "w": "lit" },
+      { "isWord": true, "w": "et" }, { "isWord": true, "w": "une" }, { "isWord": true, "w": "salle" },
+      { "isWord": true, "w": "de" }, { "isWord": true, "w": "bains." }
+    ],
+    "antes": "Une ", "respuesta": "grande", "despues": " chambre avec‿un grand lit et une salle de bains.",
+    "fonetica": "[ewn grahnd shahm-br a-vek an grahn lee ay ewn sal duh ban]",
+    "traduccion_natural": "\"Una habitación grande con una cama grande y un baño.\"",
+    "traduccion_literal": "(literalmente: grande habitación con un grande cama)",
+    "nota_numero": 2, "nota_headword": "grand / grande",
+    "nota_texto": "ejemplo clásico de concordancia: grand lit (masculino) pero grande chambre (femenino) — la 'e' hace que la 'd' final, muda en grand, se pronuncie en grande."
+  },
+  {
+    "id": "FR-L06-03",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 6,
+    "tokens": [
+      { "isLiaison": true, "w1": "Quel", "w2": "est" }, { "isBlank": true }, { "isWord": true, "w": "nom," },
+      { "isWord": true, "w": "s'il" }, { "isWord": true, "w": "vous" }, { "isWord": true, "w": "plaît" }, { "isWord": true, "w": "?" }
+    ],
+    "antes": "Quel‿est ", "respuesta": "votre", "despues": " nom, s'il vous plaît ?",
+    "fonetica": "[kel ay voh-truh nohn, seel voo play]",
+    "traduccion_natural": "\"¿Cuál es su apellido, por favor?\"",
+    "traduccion_literal": "(literalmente: cuál es su nombre)",
+    "nota_numero": 3, "nota_headword": "le nom",
+    "nota_texto": "generalmente se refiere al apellido; el nombre de pila es le prénom (literalmente \"pre-nombre\")."
+  },
+  {
+    "id": "FR-L06-04",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 6,
+    "tokens": [
+      { "isWord": true, "w": "Où" }, { "isWord": true, "w": "sont" }, { "isBlank": true }, { "isWord": true, "w": "bagages" }, { "isWord": true, "w": "?" }
+    ],
+    "antes": "Où sont ", "respuesta": "vos", "despues": " bagages ?",
+    "fonetica": "[oo son voh ba-gazh]",
+    "traduccion_natural": "\"¿Dónde están sus maletas?\"",
+    "traduccion_literal": "(literalmente: dónde son sus maletas)",
+    "nota_numero": 4, "nota_headword": "vos",
+    "nota_texto": "plural de votre — los posesivos franceses concuerdan en número con el sustantivo que acompañan, no con el dueño."
+  },
+  {
+    "id": "FR-L07-01",
+    "idioma": "frances",
+    "tipo": "gramatica",
+    "leccion": 7,
+    "concepto": "LE / LA — el género gramatical",
+    "tokens": [
+      { "isBlank": true }, { "isWord": true, "w": "café" }, { "isWord": true, "w": "est" }, { "isWord": true, "w": "très" }, { "isWord": true, "w": "bon." }
+    ],
+    "antes": "", "respuesta": "Le", "despues": " café est très bon.",
+    "regla": "Todo sustantivo francés es masculino o femenino — no existe el neutro. Es probablemente la mayor dificultad para un hispanohablante: aunque el español también tiene género, muchas palabras no coinciden entre los dos idiomas. No hay reglas fiables: hay que aprender cada sustantivo junto con su artículo desde el primer día.",
+    "ejemplo": "un/le café, un/le hôtel, un/le croissant son masculinos. une/la chambre, une/la tartine, une/la fontaine son femeninos."
+  },
+  {
+    "id": "FR-L07-02",
+    "idioma": "frances",
+    "tipo": "gramatica",
+    "leccion": 7,
+    "concepto": "ÊTRE vs. ALLER",
+    "tokens": [
+      { "isWord": true, "w": "Comment" }, { "isBlank": true }, { "isWord": true, "w": "-vous" }, { "isWord": true, "w": "?" }
+    ],
+    "antes": "Comment ", "respuesta": "allez", "despues": "-vous ?",
+    "regla": "être (ser/estar): je suis, il/elle est, vous êtes, nous sommes. aller (ir, y también \"estar de salud\"): je vais, il/elle va, nous allons, vous allez, ils/elles vont. A diferencia del español, el francés no tiene una forma continua del verbo: je cherche significa tanto \"busco\" como \"estoy buscando\".",
+    "ejemplo": "Comment allez-vous ? no pregunta a dónde vas — literalmente es \"¿cómo va usted?\" y se usa para preguntar cómo estás."
+  },
+  {
+    "id": "FR-L07-03",
+    "idioma": "frances",
+    "tipo": "gramatica",
+    "leccion": 7,
+    "concepto": "NE ... PAS — la negación",
+    "tokens": [
+      { "isWord": true, "w": "Je" }, { "isBlank": true }, { "isWord": true, "w": "ai" }, { "isWord": true, "w": "pas" }, { "isWord": true, "w": "l'heure." }
+    ],
+    "antes": "Je ", "respuesta": "n'", "despues": " ai pas l'heure.",
+    "regla": "Para negar un verbo en francés se coloca ne (o n' antes de vocal) justo antes del verbo y pas justo después — se necesitan dos palabras, una a cada lado.",
+    "ejemplo": "Je n'ai pas l'heure (No tengo la hora). Il n'est pas breton (Él no es bretón)."
+  },
+  {
+    "id": "FR-L07-04",
+    "idioma": "frances",
+    "tipo": "gramatica",
+    "leccion": 7,
+    "concepto": "FAUX AMIS — falsos amigos",
+    "tokens": [
+      { "isWord": true, "w": "Elle" }, { "isWord": true, "w": "a" }, { "isWord": true, "w": "dix" },
+      { "isWord": true, "w": "minutes" }, { "isWord": true, "w": "de" }, { "isBlank": true }
+    ],
+    "antes": "Elle a dix minutes de ", "respuesta": "retard.", "despues": "",
+    "regla": "El francés y el español comparten muchas raíces latinas, así que muchas palabras se reconocen a simple vista — pero hay que estar alerta a los falsos amigos: palabras que se ven casi iguales pero cambiaron de significado con el tiempo. El propio Assimil recomienda subrayar o anotar aparte cualquier palabra que se vea parecida a una que ya conoces.",
+    "ejemplo": "retard significa \"tardanza/retraso\" en francés — comparte la misma raíz latina que la palabra española \"retardado\", aunque su significado cotidiano es muy distinto."
+  }
+]

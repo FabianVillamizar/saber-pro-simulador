@@ -203,6 +203,142 @@
   color: var(--accent);
 }
 
+/* Francés (Assimil): acento propio (--fr-accent, carmesí), separado del
+   --accent azul general del resto de la app — ver tokens.css. */
+.repaso-restantes-fr {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.repaso-restantes-fr-num {
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--text);
+  line-height: 1;
+}
+
+.repaso-restantes-fr-palabra {
+  font-size: 9.5px;
+  color: var(--text-faint);
+  margin-top: 2px;
+  white-space: nowrap;
+}
+
+.repaso-num-leccion {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--fr-accent);
+  color: white;
+  font-size: 11px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.repaso-num-leccion--chico {
+  width: 24px;
+  height: 24px;
+  font-size: 10px;
+}
+
+.repaso-reverso-respuesta-fr {
+  color: var(--fr-accent);
+}
+
+.repaso-fr-tipo-label {
+  font-size: 13px;
+  color: var(--text-faint);
+}
+
+.repaso-fr-fonetica {
+  font-size: 13px;
+  font-style: italic;
+  color: var(--text-faint);
+}
+
+.repaso-fr-literal {
+  font-style: italic;
+  color: var(--text-sub);
+}
+
+.repaso-fr-nota {
+  border-left: 3px solid var(--fr-accent);
+  background: color-mix(in oklch, var(--fr-accent) 6%, var(--surface));
+  border-radius: 0 12px 12px 0;
+  padding: 11px 15px;
+  display: flex;
+  gap: 10px;
+}
+
+:root[data-theme='dark'] .repaso-fr-nota {
+  background: color-mix(in oklch, var(--fr-accent) 12%, var(--surface));
+}
+
+.repaso-fr-nota-num {
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  background: var(--fr-accent);
+  color: white;
+  font-size: 10.5px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.repaso-fr-nota-texto {
+  font-size: 14px;
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.repaso-fr-concepto {
+  font-size: 12.5px;
+  font-weight: 800;
+  color: var(--fr-accent);
+  letter-spacing: 0.03em;
+}
+
+.repaso-fr-cultura-texto {
+  font-size: 15px;
+  font-style: italic;
+  color: var(--fr-cultura);
+  line-height: 1.65;
+}
+
+/* Compuestas con la clase base (no solo el modificador) a propósito: así
+   ganan la cascada sin importar en qué orden queden respecto a
+   .repaso-ejemplo/.repaso-eval-boton--bien más abajo en este archivo. */
+.repaso-ejemplo.repaso-ejemplo--fr {
+  border-left-color: var(--fr-accent);
+  background: color-mix(in oklch, var(--fr-accent) 6%, var(--surface));
+}
+
+:root[data-theme='dark'] .repaso-ejemplo.repaso-ejemplo--fr {
+  background: color-mix(in oklch, var(--fr-accent) 12%, var(--surface));
+}
+
+.repaso-seccion-label--accent-fr {
+  color: var(--fr-accent);
+  margin-bottom: 4px;
+}
+
+.repaso-eval-boton--bien.repaso-eval-boton--bien-fr {
+  color: var(--fr-accent);
+  background: color-mix(in oklch, var(--fr-accent) 10%, var(--surface));
+  border-color: color-mix(in oklch, var(--fr-accent) 30%, var(--border));
+}
+
+:root[data-theme='dark'] .repaso-eval-boton--bien.repaso-eval-boton--bien-fr {
+  background: color-mix(in oklch, var(--fr-accent) 20%, var(--surface));
+}
+
 .repaso-seccion-label {
   font-size: 11px;
   font-weight: 800;

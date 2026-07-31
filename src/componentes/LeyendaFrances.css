@@ -1,0 +1,168 @@
+.leyenda-fr-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 12, 18, 0.6);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.leyenda-fr-modal {
+  width: min(92vw, 460px);
+  max-height: 85vh;
+  overflow-y: auto;
+  background: var(--surface);
+  border-radius: 22px;
+  padding: 28px 30px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+}
+
+.leyenda-fr-titulo {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+
+.leyenda-fr-sub {
+  font-size: 13px;
+  color: var(--text-faint);
+  margin-top: 4px;
+  margin-bottom: 20px;
+}
+
+.leyenda-fr-filas {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.leyenda-fr-fila {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.leyenda-fr-icono {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: var(--surface-alt);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.leyenda-fr-liaison-demo {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text);
+  position: relative;
+}
+
+.leyenda-fr-liaison-arco {
+  position: absolute;
+  left: 2px;
+  bottom: -7px;
+}
+
+.leyenda-fr-num-demo {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--fr-accent);
+  color: white;
+  font-size: 11px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leyenda-fr-negrita-demo {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.leyenda-fr-cursiva-demo {
+  font-size: 15px;
+  font-style: italic;
+  color: var(--fr-cultura);
+}
+
+.leyenda-fr-cursiva-demo-inline {
+  color: var(--fr-cultura);
+  font-style: italic;
+}
+
+.leyenda-fr-iconos-seccion {
+  display: flex;
+  gap: 5px;
+  flex-shrink: 0;
+}
+
+.leyenda-fr-circulo-seccion {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--fr-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leyenda-fr-cuadro-fin {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leyenda-fr-cuadro-fin::before {
+  content: '';
+  width: 11px;
+  height: 11px;
+  border: 1.6px solid var(--text-faint);
+}
+
+.leyenda-fr-texto {
+  font-size: 13.5px;
+  color: var(--text-sub);
+  line-height: 1.5;
+}
+
+.leyenda-fr-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 22px;
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--text-sub);
+}
+
+.leyenda-fr-checkbox input {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--fr-accent);
+}
+
+.leyenda-fr-boton {
+  margin-top: 18px;
+  width: 100%;
+  padding: 13px;
+  border-radius: 13px;
+  border: none;
+  background: var(--fr-accent);
+  color: white;
+  font-weight: 700;
+  font-size: 14.5px;
+  cursor: pointer;
+  font-family: inherit;
+}

@@ -8,6 +8,10 @@ import { RepasoConceptos } from './paginas/RepasoConceptos.jsx'
 import { PracticaPorParte } from './paginas/PracticaPorParte.jsx'
 import { Simulacro } from './paginas/Simulacro.jsx'
 import { Ajustes } from './paginas/Ajustes.jsx'
+import { LeccionCompleta } from './paginas/LeccionCompleta.jsx'
+import { CompletaLaFrase } from './paginas/CompletaLaFrase.jsx'
+import { Traduce } from './paginas/Traduce.jsx'
+import { MapaDelCurso } from './paginas/MapaDelCurso.jsx'
 
 function App() {
   const { perfil, cambiarPerfil } = usePerfilActivo()
@@ -95,6 +99,24 @@ function App() {
         onIrARepaso={() => setPantalla({ tipo: 'repaso', moduloId: pantalla.moduloId })}
       />
     )
+  }
+
+  // Modos propios de Français · Assimil (ver ModuloHub.jsx / MODOS_FRANCES)
+  // — no dependen de moduloId porque hoy solo existen para ese módulo.
+  if (pantalla.tipo === 'leccion-completa') {
+    return <LeccionCompleta perfil={perfil} onCambiarPerfil={onCambiarPerfil} onVolver={volverAModulo} />
+  }
+
+  if (pantalla.tipo === 'completa-frase') {
+    return <CompletaLaFrase perfil={perfil} onCambiarPerfil={onCambiarPerfil} onVolver={volverAModulo} />
+  }
+
+  if (pantalla.tipo === 'traduce') {
+    return <Traduce perfil={perfil} onCambiarPerfil={onCambiarPerfil} onVolver={volverAModulo} />
+  }
+
+  if (pantalla.tipo === 'mapa-curso') {
+    return <MapaDelCurso perfil={perfil} onCambiarPerfil={onCambiarPerfil} onVolver={volverAModulo} />
   }
 
   return null

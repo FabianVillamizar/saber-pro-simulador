@@ -72,3 +72,11 @@
 .modo-tarjeta button {
   align-self: flex-start;
 }
+
+/* Français · Assimil: "Empezar" usa el acento propio del módulo (carmesí),
+   no el --accent azul general — ver tokens.css. Compuesta con la clase
+   base para ganar la cascada sin depender de dónde caiga este archivo
+   respecto a App.css. */
+.boton-primario.boton-primario--fr {
+  background: var(--fr-accent);
+}

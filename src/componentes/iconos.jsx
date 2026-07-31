@@ -166,6 +166,45 @@ export function IconoCandado({ size = 15, color = 'currentColor' }) {
   )
 }
 
+// Francés (Assimil) — iconografía de sección del método: ▶ marca el
+// inicio/reproducción de un diálogo, la burbuja encabeza "Pronunciación",
+// la hoja con líneas encabeza "Notas". Trazos tomados literalmente de los
+// mockups .dc.html para fidelidad pixel-perfect.
+export function IconoPlay({ size = 9, color = 'currentColor' }) {
+  return (
+    <svg width={size} height={size * 1.1} viewBox="0 0 9 10">
+      <path d="M0 0 L9 5 L0 10 Z" fill={color} />
+    </svg>
+  )
+}
+
+export function IconoPausa({ size = 10, color = 'currentColor' }) {
+  return (
+    <svg width={size} height={size * 1.1} viewBox="0 0 10 11">
+      <rect x="0" y="0" width="3" height="11" fill={color} />
+      <rect x="6" y="0" width="3" height="11" fill={color} />
+    </svg>
+  )
+}
+
+export function IconoBurbuja({ size = 13, color = 'currentColor' }) {
+  return (
+    <svg width={size} height={size * 0.92} viewBox="0 0 13 12">
+      <path d="M1 1 H12 V8 H5 L2 11 V8 H1 Z" fill={color} />
+    </svg>
+  )
+}
+
+export function IconoDocumento({ size = 11, color = 'currentColor', relleno = 'none' }) {
+  return (
+    <svg width={size} height={size * 1.18} viewBox="0 0 11 13">
+      <path d="M1 1 H8 L10 3 V12 H1 Z" fill={relleno} stroke={color} strokeWidth="1.2" />
+      <line x1="3" y1="6" x2="8" y2="6" stroke={color} strokeWidth="1" />
+      <line x1="3" y1="8.5" x2="8" y2="8.5" stroke={color} strokeWidth="1" />
+    </svg>
+  )
+}
+
 export function IconoSonidoMudo({ size = 17, color = 'currentColor' }) {
   return (
     <svg width={size} height={size} viewBox="0 0 18 18">

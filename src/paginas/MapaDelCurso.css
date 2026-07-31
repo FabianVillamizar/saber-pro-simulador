@@ -1,0 +1,319 @@
+@keyframes mapa-curso-pulso {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 color-mix(in oklch, var(--fr-accent) 25%, transparent);
+  }
+  50% {
+    box-shadow: 0 0 0 8px color-mix(in oklch, var(--fr-accent) 0%, transparent);
+  }
+}
+
+.mapa-curso {
+  background: var(--bg);
+  min-height: 100vh;
+}
+
+.mapa-curso-topbar {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 20px 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.mapa-curso-titulo {
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+
+.mapa-curso-sub {
+  font-size: 12px;
+  color: var(--text-faint);
+  margin-top: 1px;
+}
+
+.mapa-curso-progreso {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.mapa-curso-barra {
+  flex: 1;
+  height: 6px;
+  border-radius: var(--radio-pill);
+  background: var(--border);
+  overflow: hidden;
+}
+
+.mapa-curso-barra-relleno {
+  height: 100%;
+  background: var(--fr-accent);
+  border-radius: var(--radio-pill);
+  transition: width 0.3s ease;
+}
+
+.mapa-curso-contador {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--text-sub);
+  white-space: nowrap;
+}
+
+.mapa-curso-leyenda {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 14px 20px 0;
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.mapa-curso-leyenda-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11.5px;
+  color: var(--text-faint);
+}
+
+.mapa-curso-punto {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.mapa-curso-punto--completada {
+  background: var(--fr-accent);
+}
+
+.mapa-curso-punto--progreso {
+  border: 2px solid var(--fr-accent);
+}
+
+.mapa-curso-punto--disponible {
+  border: 1.5px solid var(--text-sub);
+}
+
+.mapa-curso-punto--bloqueada {
+  background: var(--border);
+}
+
+.mapa-curso-camino {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 28px 20px 0;
+  position: relative;
+}
+
+.mapa-curso-linea {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  bottom: 10px;
+  width: 2px;
+  background: var(--border);
+  transform: translateX(-50%);
+}
+
+.mapa-curso-nodos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.mapa-curso-fila-nodo {
+  display: flex;
+  justify-content: center;
+}
+
+.mapa-curso-nodo-envoltorio {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  z-index: 1;
+  cursor: default;
+}
+
+.mapa-curso-nodo-envoltorio--clic {
+  cursor: pointer;
+}
+
+.mapa-curso-circulo {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.mapa-curso-rombo {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  transform: rotate(45deg);
+  border-width: 2px;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mapa-curso-rombo-num {
+  transform: rotate(-45deg);
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.mapa-curso-nodo--completada {
+  background: var(--fr-accent);
+  border-color: var(--fr-accent);
+  color: white;
+  box-shadow: 0 4px 12px color-mix(in oklch, var(--fr-accent) 35%, transparent);
+}
+
+.mapa-curso-nodo--progreso {
+  background: color-mix(in oklch, var(--fr-accent) 10%, var(--surface));
+  border-color: var(--fr-accent);
+  color: var(--fr-accent);
+  animation: mapa-curso-pulso 1.8s ease-in-out infinite;
+}
+
+:root[data-theme='dark'] .mapa-curso-nodo--progreso {
+  background: color-mix(in oklch, var(--fr-accent) 20%, var(--surface));
+}
+
+.mapa-curso-nodo--disponible {
+  background: var(--surface);
+  border-color: var(--text-sub);
+  color: var(--text);
+}
+
+.mapa-curso-nodo--bloqueada {
+  background: var(--surface-alt);
+  border-color: var(--border);
+  color: var(--text-faint);
+}
+
+.mapa-curso-etiqueta {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--text-sub);
+  text-align: center;
+  max-width: 110px;
+  line-height: 1.3;
+}
+
+.mapa-curso-etiqueta--tenue {
+  color: var(--text-faint);
+}
+
+.mapa-curso-grupos {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mapa-curso-grupo {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px 18px;
+  opacity: 0.7;
+}
+
+.mapa-curso-grupo-label {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--text-sub);
+}
+
+.mapa-curso-grupo-rango {
+  font-size: 11.5px;
+  color: var(--text-faint);
+  margin-top: 1px;
+}
+
+.mapa-curso-panel {
+  max-width: 600px;
+  margin: 24px auto 0;
+  padding: 0 20px 60px;
+}
+
+.mapa-curso-panel-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 22px 24px;
+}
+
+.mapa-curso-panel-cabecera {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.mapa-curso-panel-num {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: var(--fr-accent);
+  color: white;
+  font-weight: 800;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.mapa-curso-panel-titulo {
+  font-size: 15.5px;
+  font-weight: 800;
+  color: var(--text);
+}
+
+.mapa-curso-panel-estado {
+  font-size: 12px;
+  color: var(--text-faint);
+  margin-top: 1px;
+}
+
+.mapa-curso-panel-acciones {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.mapa-curso-boton-primario {
+  padding: 11px 18px;
+  border-radius: 11px;
+  border: none;
+  background: var(--fr-accent);
+  color: white;
+  font-weight: 700;
+  font-size: 13.5px;
+  cursor: pointer;
+  font-family: inherit;
+}

@@ -1,0 +1,8 @@
+/* Compartido entre las pantallas del módulo Français · Assimil
+   (RepasoConceptos, LeccionCompleta, CompletaLaFrase, Traduce,
+   MapaDelCurso) — evita repetir la misma regla de 3 líneas en cada .css. */
+.repaso-boton-ayuda-fr {
+  color: var(--text-sub);
+  font-weight: 800;
+  font-size: 14px;
+}

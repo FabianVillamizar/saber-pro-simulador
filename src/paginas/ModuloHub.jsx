@@ -34,6 +34,34 @@ const MODOS = [
   },
 ]
 
+// Français · Assimil no es un módulo de examen: es un curso lineal, así
+// que su hub reemplaza práctica/simulacro por sus propios modos (ver
+// README de diseño en Downloads/SIMULADOR/FRANCES). Se agregan después de
+// "repaso" en vez de vivir en MODOS para no ensuciar el resto de módulos
+// con ids que no significan nada para ellos.
+const MODOS_FRANCES = [
+  {
+    id: 'leccion-completa',
+    nombre: 'Lección completa',
+    descripcion: 'Diálogo línea por línea, pronunciación y notas de una lección — modo lectura, no tarjetas sueltas.',
+  },
+  {
+    id: 'completa-frase',
+    nombre: 'Completa la frase',
+    descripcion: 'El Exercice 2 del propio libro: rellena el hueco letra por letra y corrige.',
+  },
+  {
+    id: 'traduce',
+    nombre: 'Traduce',
+    descripcion: 'Traduce del español al francés y autoevalúate con feedback inmediato.',
+  },
+  {
+    id: 'mapa-curso',
+    nombre: 'Mapa del curso',
+    descripcion: 'Las 49 lecciones como un camino de progreso, con tu estado real en cada una.',
+  },
+]
+
 export function ModuloHub({ moduloId, perfil, onCambiarPerfil, onVolver, onSeleccionarModo }) {
   const { modulo, cargando, error } = useModulo(moduloId)
   const { dark, toggle } = useTheme()
@@ -41,7 +69,16 @@ export function ModuloHub({ moduloId, perfil, onCambiarPerfil, onVolver, onSelec
   if (cargando) return <div className="page estado-carga">Cargando módulo…</div>
   if (error) return <div className="page estado-error">No se pudo cargar el módulo: {error.message}</div>
 
-  const modos = MODOS.filter((modo) => modo.id !== 'simulacro' || modulo.soportaSimulacro)
+  const esFrances = moduloId === 'frances'
+
+  // "Práctica por sub-categoría" solo tiene sentido si el módulo tiene
+  // preguntas — francés, por ejemplo, es solo repaso de conceptos porque
+  // Assimil no produce naturalmente un formato de opción múltiple.
+  const modos = esFrances
+    ? [MODOS[0], ...MODOS_FRANCES]
+    : MODOS.filter((modo) => modo.id !== 'simulacro' || modulo.soportaSimulacro).filter(
+        (modo) => modo.id !== 'practica-parte' || modulo.preguntas.length > 0
+      )
 
   const esDiosgenina = moduloId === 'diosgenina'
   const conteoPorBloque = esDiosgenina
@@ -99,7 +136,11 @@ export function ModuloHub({ moduloId, perfil, onCambiarPerfil, onVolver, onSelec
           <article key={modo.id} className="modo-tarjeta">
             <h2>{modo.nombre}</h2>
             <p>{modo.descripcion}</p>
-            <button type="button" className="boton-primario" onClick={() => onSeleccionarModo(modo.id)}>
+            <button
+              type="button"
+              className={`boton-primario${esFrances ? ' boton-primario--fr' : ''}`}
+              onClick={() => onSeleccionarModo(modo.id)}
+            >
               Empezar
             </button>
           </article>

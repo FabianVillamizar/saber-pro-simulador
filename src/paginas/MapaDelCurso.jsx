@@ -1,0 +1,176 @@
+import { useState } from 'react'
+import { useModulo } from '../hooks/useModulo.js'
+import { useTheme } from '../hooks/useTheme.js'
+import { leerJSON } from '../engine/storage.js'
+import { claveSRS } from '../engine/clavesPerfil.js'
+import { calcularDominio } from '../engine/dominio.js'
+import { ThemeToggle } from '../componentes/ThemeToggle.jsx'
+import { SelectorPerfil } from '../componentes/SelectorPerfil.jsx'
+import { IconoChevronIzquierdo, IconoCheck, IconoCandado } from '../componentes/iconos.jsx'
+import '../estilos/frances.css'
+import './MapaDelCurso.css'
+
+// Lecciones con detalle individual en el mapa (1-14): más allá de esto se
+// resume en tarjetas de grupo colapsadas — 35 nodos sin contenido real
+// todavía no aportarían nada. Cuando el módulo crezca más allá de la
+// lección 14, este número puede subir junto con los datos reales.
+const DETALLE_HASTA = 14
+const REVISIONES = new Set([7, 14, 21, 28, 35, 42, 49])
+
+export function MapaDelCurso({ perfil, onCambiarPerfil, onVolver }) {
+  const { modulo, cargando } = useModulo('frances')
+  const { dark, toggle } = useTheme()
+  const [seleccionada, setSeleccionada] = useState(null)
+
+  if (cargando || !modulo) return <div className="page estado-carga">Cargando…</div>
+
+  const estadosSRS = leerJSON(claveSRS(perfil.id, 'frances'), {})
+  const porLeccion = {}
+  for (const t of modulo.tarjetasConcepto) {
+    ;(porLeccion[t.leccion] ??= []).push(t)
+  }
+
+  const leccionActual = Math.max(1, ...Object.keys(porLeccion).map(Number).filter((n) => n > 0))
+
+  const nodos = []
+  for (let n = 1; n <= DETALLE_HASTA; n++) {
+    const tarjetas = porLeccion[n]
+    let estado
+    if (!tarjetas) {
+      estado = 'bloqueada'
+    } else {
+      const dominio = calcularDominio(tarjetas, estadosSRS)
+      if (dominio.pct === 100) estado = 'completada'
+      else if (dominio.hechas > 0) estado = 'progreso'
+      else estado = 'disponible'
+    }
+    nodos.push({
+      numero: n,
+      tituloFr: modulo.categorias?.[String(n)] ?? `Lección ${n}`,
+      estado,
+      revision: REVISIONES.has(n),
+    })
+  }
+
+  const grupos = []
+  for (let inicio = DETALLE_HASTA + 1; inicio <= 49; inicio += 7) {
+    const fin = Math.min(inicio + 6, 49)
+    grupos.push({ label: `Lecciones ${inicio}–${fin}`, rango: `${inicio}–${fin}` })
+  }
+
+  const totalConDatos = Object.keys(porLeccion).filter((n) => Number(n) > 0).length
+  const overallPct = Math.round((totalConDatos / 49) * 100)
+
+  const ETIQUETAS_ESTADO = {
+    completada: 'Completada',
+    progreso: 'En progreso',
+    disponible: 'Disponible',
+    bloqueada: 'Bloqueada',
+  }
+
+  return (
+    <div className="mapa-curso">
+      <div className="mapa-curso-topbar">
+        <button type="button" className="boton-icono" onClick={onVolver}>
+          <IconoChevronIzquierdo color="var(--text-sub)" />
+        </button>
+        <div>
+          <div className="mapa-curso-titulo">Mapa del curso</div>
+          <div className="mapa-curso-sub">Français · Assimil · Fase receptiva</div>
+        </div>
+        <div style={{ flex: 1 }} />
+        <SelectorPerfil perfil={perfil} onClick={onCambiarPerfil} />
+        <ThemeToggle dark={dark} onToggle={toggle} />
+      </div>
+
+      <div className="mapa-curso-progreso">
+        <div className="mapa-curso-barra">
+          <div className="mapa-curso-barra-relleno" style={{ width: `${overallPct}%` }} />
+        </div>
+        <div className="mapa-curso-contador">
+          Lección {leccionActual} de 49
+        </div>
+      </div>
+
+      <div className="mapa-curso-leyenda">
+        <span className="mapa-curso-leyenda-item">
+          <span className="mapa-curso-punto mapa-curso-punto--completada" /> Completada
+        </span>
+        <span className="mapa-curso-leyenda-item">
+          <span className="mapa-curso-punto mapa-curso-punto--progreso" /> En progreso
+        </span>
+        <span className="mapa-curso-leyenda-item">
+          <span className="mapa-curso-punto mapa-curso-punto--disponible" /> Disponible
+        </span>
+        <span className="mapa-curso-leyenda-item">
+          <span className="mapa-curso-punto mapa-curso-punto--bloqueada" /> Bloqueada
+        </span>
+      </div>
+
+      <div className="mapa-curso-camino">
+        <div className="mapa-curso-linea" />
+        <div className="mapa-curso-nodos">
+          {nodos.map((n, i) => {
+            const clickable = n.estado !== 'bloqueada'
+            const offset = i % 2 === 0 ? -46 : 46
+            return (
+              <div key={n.numero} className="mapa-curso-fila-nodo">
+                <div
+                  className={`mapa-curso-nodo-envoltorio${clickable ? ' mapa-curso-nodo-envoltorio--clic' : ''}`}
+                  style={{ transform: `translateX(${offset}px)` }}
+                  onClick={() => clickable && setSeleccionada(n.numero === seleccionada ? null : n.numero)}
+                >
+                  {n.revision ? (
+                    <div className={`mapa-curso-rombo mapa-curso-nodo--${n.estado}`}>
+                      <span className="mapa-curso-rombo-num">{n.numero}</span>
+                    </div>
+                  ) : (
+                    <div className={`mapa-curso-circulo mapa-curso-nodo--${n.estado}`}>
+                      {n.estado === 'completada' && <IconoCheck size={16} color="white" />}
+                      {n.estado === 'bloqueada' && <IconoCandado size={13} color="var(--text-faint)" />}
+                      {(n.estado === 'progreso' || n.estado === 'disponible') && <span>{n.numero}</span>}
+                    </div>
+                  )}
+                  <div className={`mapa-curso-etiqueta${n.estado === 'bloqueada' ? ' mapa-curso-etiqueta--tenue' : ''}`}>
+                    {n.tituloFr}
+                  </div>
+                </div>
+              </div>
+            )
+          })}
+        </div>
+      </div>
+
+      <div className="mapa-curso-grupos">
+        {grupos.map((g) => (
+          <div key={g.rango} className="mapa-curso-grupo">
+            <IconoCandado size={15} color="var(--text-faint)" />
+            <div>
+              <div className="mapa-curso-grupo-label">{g.label}</div>
+              <div className="mapa-curso-grupo-rango">Bloqueado</div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {seleccionada != null && (
+        <div className="mapa-curso-panel">
+          <div className="mapa-curso-panel-card">
+            <div className="mapa-curso-panel-cabecera">
+              <div className="mapa-curso-panel-num">{seleccionada}</div>
+              <div>
+                <div className="mapa-curso-panel-titulo">{nodos[seleccionada - 1].tituloFr}</div>
+                <div className="mapa-curso-panel-estado">{ETIQUETAS_ESTADO[nodos[seleccionada - 1].estado]}</div>
+              </div>
+            </div>
+            <div className="mapa-curso-panel-acciones">
+              <button type="button" className="mapa-curso-boton-primario" onClick={onVolver}>
+                Repasar tarjetas
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  )
+}

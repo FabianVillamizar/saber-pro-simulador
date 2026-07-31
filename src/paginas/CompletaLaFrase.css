@@ -1,0 +1,230 @@
+.completa-frase {
+  background: var(--bg);
+  min-height: 100vh;
+}
+
+.completa-frase-topbar {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.completa-frase-titulo {
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+
+.completa-frase-sub {
+  font-size: 12px;
+  color: var(--text-faint);
+  margin-top: 1px;
+}
+
+.completa-frase-cuerpo {
+  max-width: 660px;
+  margin: 0 auto;
+  padding: 20px 20px 70px;
+}
+
+.completa-frase-instrucciones {
+  font-size: 13px;
+  color: var(--text-faint);
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+
+.completa-frase-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.completa-frase-ejercicio {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 18px 20px;
+}
+
+.completa-frase-enunciado {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 15.5px;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.completa-frase-num {
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--fr-accent);
+  flex-shrink: 0;
+}
+
+.completa-frase-puntos {
+  display: inline-flex;
+  gap: 3px;
+  align-items: center;
+}
+
+.completa-frase-punto {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--text-faint);
+  display: inline-block;
+}
+
+.completa-frase-pista {
+  font-size: 12.5px;
+  font-style: italic;
+  color: var(--text-faint);
+}
+
+.completa-frase-input {
+  margin-top: 12px;
+  width: 100%;
+  padding: 11px 14px;
+  border-radius: 11px;
+  border: 1.5px solid var(--border);
+  background: var(--surface-alt);
+  color: var(--text);
+  font-size: 14.5px;
+  font-family: inherit;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color var(--dur-hover) ease;
+}
+
+.completa-frase-input--ok {
+  border-color: oklch(46% 0.14 150);
+}
+
+:root[data-theme='dark'] .completa-frase-input--ok {
+  border-color: oklch(74% 0.13 150);
+}
+
+.completa-frase-input--mal {
+  border-color: oklch(48% 0.15 20);
+}
+
+:root[data-theme='dark'] .completa-frase-input--mal {
+  border-color: oklch(75% 0.13 20);
+}
+
+.completa-frase-resultado {
+  margin-top: 12px;
+  padding: 12px 14px;
+  border-radius: 11px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.completa-frase-resultado--ok {
+  background: color-mix(in oklch, oklch(46% 0.14 150) 9%, var(--surface));
+}
+
+:root[data-theme='dark'] .completa-frase-resultado--ok {
+  background: color-mix(in oklch, oklch(74% 0.13 150) 16%, var(--surface));
+}
+
+.completa-frase-resultado--mal {
+  background: color-mix(in oklch, oklch(48% 0.15 20) 9%, var(--surface));
+}
+
+:root[data-theme='dark'] .completa-frase-resultado--mal {
+  background: color-mix(in oklch, oklch(75% 0.13 20) 16%, var(--surface));
+}
+
+.completa-frase-diff {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.completa-frase-diff-ok {
+  color: oklch(46% 0.14 150);
+}
+
+:root[data-theme='dark'] .completa-frase-diff-ok {
+  color: oklch(74% 0.13 150);
+}
+
+.completa-frase-diff-mal {
+  color: oklch(48% 0.15 20);
+  text-decoration: line-through;
+}
+
+:root[data-theme='dark'] .completa-frase-diff-mal {
+  color: oklch(75% 0.13 20);
+}
+
+.completa-frase-respuesta-correcta {
+  font-size: 13px;
+  color: var(--text-sub);
+}
+
+.completa-frase-respuesta-correcta b {
+  color: var(--fr-accent);
+}
+
+.completa-frase-acciones {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 22px;
+  flex-wrap: wrap;
+}
+
+.completa-frase-boton-primario {
+  padding: 13px 24px;
+  border-radius: 13px;
+  border: none;
+  background: var(--fr-accent);
+  color: white;
+  font-weight: 700;
+  font-size: 14.5px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: transform var(--dur-hover) ease;
+}
+
+.completa-frase-boton-primario:hover {
+  transform: translateY(-2px);
+}
+
+.completa-frase-boton-secundario {
+  padding: 13px 20px;
+  border-radius: 13px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-sub);
+  font-weight: 700;
+  font-size: 14.5px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: border-color var(--dur-hover) ease, color var(--dur-hover) ease;
+}
+
+.completa-frase-boton-secundario:hover {
+  border-color: var(--fr-accent);
+  color: var(--fr-accent);
+}
+
+.completa-frase-puntaje {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--text-sub);
+  margin-left: 4px;
+}

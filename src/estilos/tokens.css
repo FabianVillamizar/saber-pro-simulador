@@ -14,6 +14,14 @@
   --warning: oklch(60% 0.16 55);
   --exito: oklch(48% 0.15 150);
 
+  /* Módulo Français · Assimil: acento propio (carmesí cálido), separado
+     del --accent azul general — es "el rincón de francés" (ver README de
+     Claude Design en Downloads/SIMULADOR/FRANCES). Mismo valor en claro y
+     oscuro (curado así en el mockup); --fr-cultura sí cambia por tema —
+     es el tono de las notas de cultura e historia en cursiva completa. */
+  --fr-accent: #b91c1c;
+  --fr-cultura: oklch(42% 0.11 35);
+
   --mix-base: white;
 
   --radio-lg: 20px;
@@ -44,6 +52,8 @@
   --warning: oklch(72% 0.14 65);
   --exito: oklch(75% 0.13 150);
 
+  --fr-cultura: oklch(72% 0.1 40);
+
   --mix-base: black;
 
   --sombra-suave: 0 12px 30px rgba(0, 0, 0, 0.35);
@@ -63,6 +73,7 @@
     --text-faint: oklch(56% 0.012 258);
     --warning: oklch(72% 0.14 65);
     --exito: oklch(75% 0.13 150);
+    --fr-cultura: oklch(72% 0.1 40);
     --mix-base: black;
     --sombra-suave: 0 12px 30px rgba(0, 0, 0, 0.35);
     --sombra-hover: rgba(0, 0, 0, 0.35);

@@ -1,0 +1,53 @@
+.frase-tokens {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+  gap: 6px;
+  row-gap: 16px;
+}
+
+.frase-tokens-palabra {
+  font-weight: 700;
+  color: var(--text);
+}
+
+.frase-tokens-liaison {
+  position: relative;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.frase-tokens-arco {
+  position: absolute;
+  left: 50%;
+  bottom: -9px;
+  transform: translateX(-50%);
+}
+
+.frase-tokens-hueco {
+  display: inline-block;
+  min-width: 64px;
+  border-bottom: 2.5px dashed var(--text-faint);
+  height: 22px;
+}
+
+.frase-tokens-nota {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.frase-tokens-nota-num {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--fr-accent);
+  color: white;
+  font-size: 9px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
