@@ -160,6 +160,69 @@
     "cultura_texto": "El francés lo hablan unos 300 millones de personas en los cinco continentes y es idioma oficial o de trabajo de más de 25 países, desde Canadá hasta Camboya — y también de organismos como la ONU, la UNESCO, la Unión Europea, la OTAN y la Cruz Roja Internacional. La Organización Internacional de la Francofonía reúne a cerca de 90 estados y gobiernos para promover el idioma y las culturas francófonas. Algunas proyecciones sugieren que el francés podría convertirse en la primera o segunda lengua más hablada del mundo hacia mediados del siglo XXI."
   },
   {
+    "id": "FR-L00-19",
+    "idioma": "frances",
+    "tipo": "pronunciacion",
+    "leccion": 0,
+    "pregunta": "En la fonética de este curso vas a ver ah\", oeh\" y oh\" una y otra vez — ¿qué significan exactamente?",
+    "regla": "Son las tres convenciones que usa este método para representar las vocales nasales: **ah\"** suena como la 'a' de \"cat\" en inglés; **oeh\"** como la 'a' larga de \"car\"; **oh\"** como la 'o' larga de \"oh!\". En los tres casos se pronuncian dejando escapar aire por la nariz, con la boca en la posición de esa vocal.",
+    "ejemplo": "pain (pan) se transcribe [pah\"]; croissant se transcribe [krwahssoeh\"]; bonjour se transcribe [boh\"zhoor] — reconocer estos tres símbolos ayuda a leer la fonética de cualquier tarjeta del curso."
+  },
+  {
+    "id": "FR-L00-20",
+    "idioma": "frances",
+    "tipo": "pronunciacion",
+    "leccion": 0,
+    "pregunta": "¿Todos los acentos franceses cambian cómo suena la palabra?",
+    "regla": "No — algunos acentos solo distinguen dos palabras que se escribirían igual sin él (un homógrafo), sin cambiar la pronunciación. Es una pista puramente visual/gramatical, no fonética.",
+    "ejemplo": "a (tiene, del verbo avoir) y à (a/en) suenan exactamente igual. ou (o) y où (dónde) también se pronuncian igual — el acento solo evita la ambigüedad al leer."
+  },
+  {
+    "id": "FR-L00-21",
+    "idioma": "frances",
+    "tipo": "pronunciacion",
+    "leccion": 0,
+    "pregunta": "Además de marcar una letra perdida del latín, ¿para qué más sirve el circunflejo?",
+    "regla": "El circunflejo también ayuda a distinguir homófonos — palabras que se pronuncian exactamente igual pero significan algo distinto.",
+    "ejemplo": "sur (sobre) y sûr (seguro) se pronuncian igual; du (de + el) y dû (participio de devoir, deber) también — el circunflejo es la única pista escrita para diferenciarlos."
+  },
+  {
+    "id": "FR-L00-22",
+    "idioma": "frances",
+    "tipo": "pronunciacion",
+    "leccion": 0,
+    "pregunta": "El francés tiene dos formas de \"pegar\" el final de una palabra con el inicio de la siguiente — ¿en qué se diferencian?",
+    "regla": "El **enchaînement** (enlace) ocurre cuando una consonante final que YA se pronuncia normalmente se corre hacia la vocal siguiente, sin cambiar de sonido. La **liaison** es distinta: hace sonar una consonante final que normalmente sería muda. Las dos buscan que la frase fluya sin cortes, pero no son el mismo fenómeno.",
+    "ejemplo": "elle arrive (enchaînement: la \"l\" final de elle ya suena, solo se corre hacia arrive) frente a vous‿avez (liaison: la \"s\" de vous normalmente es muda, pero aquí suena [z])."
+  },
+  {
+    "id": "FR-L00-23",
+    "idioma": "frances",
+    "tipo": "pronunciacion",
+    "leccion": 0,
+    "pregunta": "Cuando la liaison activa una consonante final muda, ¿esa consonante siempre suena igual a como se escribe?",
+    "regla": "No — cada consonante final toma un sonido específico en la liaison: la **n** del artículo un se pronuncia normal; una **s** final (de ils/elles, nous, vous, o de un adjetivo plural) suena como [z]; una **t** o **d** final suena [t]; una **x** final también suena [z].",
+    "ejemplo": "un_ami [ahnamee]; elles_achètent [elzashett]; les grands_enfants [groeh\"dzoeh\"foeh\"]; petit_ami [puhteetamee]; beaux_arts [bohzahr]."
+  },
+  {
+    "id": "FR-L00-24",
+    "idioma": "frances",
+    "tipo": "pronunciacion",
+    "leccion": 0,
+    "pregunta": "¿Las vocales francesas se pronuncian tan cortas o tan largas como en inglés?",
+    "regla": "El inglés distingue con claridad entre sonidos vocálicos largos y cortos (rich muy corto, reach más largo). El francés cae en un punto intermedio: ni tan corto como el inglés corto ni tan largo como el inglés largo — una duración más pareja y constante, coherente con su ritmo silábico.",
+    "ejemplo": "riche (rico) no suena tan corto como el inglés rich ni tan largo como reach — queda en un punto intermedio."
+  },
+  {
+    "id": "FR-L00-25",
+    "idioma": "frances",
+    "tipo": "pronunciacion",
+    "leccion": 0,
+    "pregunta": "Si una palabra francesa se escribe exactamente igual que su equivalente en inglés, ¿ya sabes cómo se pronuncia?",
+    "regla": "No necesariamente — muchas palabras francesas se escriben igual o casi igual que en inglés (y a veces en español) pero suenan muy distinto. No hay que confiar en la ortografía compartida para adivinar el sonido: cada palabra nueva hay que aprenderla con su propia pronunciación.",
+    "ejemplo": "pardon se escribe exactamente igual en francés y en inglés, pero suena muy distinto: [pahr-doh\"] en francés, nada parecido al inglés [pahr-dn]."
+  },
+  {
     "id": "FR-L01-01",
     "idioma": "frances",
     "tipo": "dialogo",
