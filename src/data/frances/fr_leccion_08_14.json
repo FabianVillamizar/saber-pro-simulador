@@ -217,6 +217,42 @@
     "nota_texto": "medio kilo (500g, casi una libra) — también se puede pedir por kilos o directamente en gramos: huit cents grammes (800 gramos). Une livre también significa una libra esterlina."
   },
   {
+    "id": "FR-L11-04",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 11,
+    "tokens": [
+      { "isBlank": true }, { "isWord": true, "w": "bananes," }, { "isWord": true, "w": "deux" },
+      { "isWord": true, "w": "kilos" }, { "isWord": true, "w": "de" }, { "isWord": true, "w": "pommes" },
+      { "isWord": true, "w": "de" }, { "isWord": true, "w": "terre" }, { "isWord": true, "w": "et" },
+      { "isWord": true, "w": "un" }, { "isWord": true, "w": "peu" }, { "isWord": true, "w": "de" },
+      { "isWord": true, "w": "lait" }, { "isWord": true, "w": "frais." }
+    ],
+    "antes": "", "respuesta": "Quelques", "despues": " bananes, deux kilos de pommes de terre et un peu de lait frais.",
+    "fonetica": "[kel-kuh bah-nahn, duh kee-loh duh pom duh tair ay uhn puh duh lay fray]",
+    "traduccion_natural": "\"Unas bananas, dos kilos de papas y un poco de leche fresca.\"",
+    "traduccion_literal": "(literalmente: algunas bananas, dos kilos de manzanas de tierra...)",
+    "nota_numero": 4, "nota_headword": "quelques",
+    "nota_texto": "\"algunos/algunas\" — toma una -s en plural. De la misma raíz: quelqu'un (alguien), quelque chose (algo), quelque part (en algún lugar)."
+  },
+  {
+    "id": "FR-L12-04",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 12,
+    "tokens": [
+      { "isWord": true, "w": "Et" }, { "isWord": true, "w": "avec" }, { "isWord": true, "w": "ceci" },
+      { "isWord": true, "w": "?" }, { "isWord": true, "w": "Vous" }, { "isWord": true, "w": "voulez" },
+      { "isBlank": true }, { "isWord": true, "w": "fraises," }, { "isWord": true, "w": "peut-être" }, { "isWord": true, "w": "?" }
+    ],
+    "antes": "Et avec ceci ? Vous voulez ", "respuesta": "des", "despues": " fraises, peut-être ?",
+    "fonetica": "[ay avek suh-see? voo voo-lay day frez, puh-tetr]",
+    "traduccion_natural": "\"¿Y con esto? ¿Quiere fresas, quizás?\"",
+    "traduccion_literal": "(literalmente: y con esto, usted quiere de-las fresas)",
+    "nota_numero": 4, "nota_headword": "des",
+    "nota_texto": "artículo indefinido plural — junto con un y une completa los tres artículos indefinidos del francés. En español muchas veces se omite al traducir: je veux des fraises también puede ser simplemente \"quiero fresas\"."
+  },
+  {
     "id": "FR-L12-01",
     "idioma": "frances",
     "tipo": "dialogo",
@@ -266,6 +302,21 @@
     "traduccion_literal": "(literalmente: el precio? ellas no son no caras)",
     "nota_numero": 3, "nota_headword": "cher / chère",
     "nota_texto": "los adjetivos masculinos terminados en -er cambian a femenino con acento grave y una -e final: cher → chère. Como adverbio (\"muy caro\"), cher siempre queda en masculino: c'est très cher."
+  },
+  {
+    "id": "FR-L13-04",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 13,
+    "tokens": [
+      { "isBlank": true }, { "isWord": true, "w": "c'est" }, { "isWord": true, "w": "?" }
+    ],
+    "antes": "", "respuesta": "Qu'est-ce que", "despues": " c'est ?",
+    "fonetica": "[kes-kuh-say]",
+    "traduccion_natural": "\"¿Qué es eso?\"",
+    "traduccion_literal": "(literalmente: qué-es-eso que eso-es)",
+    "nota_numero": 4, "nota_headword": "qu'est-ce que c'est",
+    "nota_texto": "la forma más común de preguntar \"¿qué es esto/eso?\" en el habla cotidiana — aunque qu'est-ce por sí solo ya significa lo mismo, casi siempre se dice completo así."
   },
   {
     "id": "FR-L13-01",

@@ -271,6 +271,22 @@
     "nota_texto": "significa presentar en el sentido de introducir a alguien. Je vous présente equivale a \"permítame presentarle\"."
   },
   {
+    "id": "FR-L01-05",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 1,
+    "tokens": [
+      { "isWord": true, "w": "Bonjour," }, { "isWord": true, "w": "Chloé." }, { "isWord": true, "w": "Comment" },
+      { "isBlank": true }, { "isWord": true, "w": "?" }
+    ],
+    "antes": "Bonjour, Chloé. Comment ", "respuesta": "ça va", "despues": " ?",
+    "fonetica": "[bon-zhoor kloh-ay. ko-mahn sa-va]",
+    "traduccion_natural": "\"Hola, Chloé. ¿Cómo estás?\"",
+    "traduccion_literal": "(literalmente: cómo eso-va)",
+    "nota_numero": 4, "nota_headword": "comment ça va",
+    "nota_texto": "variante más informal de comment allez-vous — aquí Jeanne se la dice a la hija de su amiga, una relación menos formal que la que tiene con la propia Jeanne."
+  },
+  {
     "id": "FR-L01-04",
     "idioma": "frances",
     "tipo": "cultura",
@@ -394,6 +410,22 @@
     "cultura_texto": "la Bretagne (Bretaña) es la región del oeste de Francia, de fuerte identidad céltica, con sus propios acantilados de granito. le Midi es un término coloquial para el sur de Francia, la región de los olivares — la misma raíz que da nombre a \"Midi\" en la estación de tren de Bruselas, así llamada porque está en el sur de la ciudad."
   },
   {
+    "id": "FR-L03-05",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 3,
+    "tokens": [
+      { "isWord": true, "w": "Mais" }, { "isWord": true, "w": "maintenant" }, { "isWord": true, "w": "nous" },
+      { "isBlank": true }, { "isWord": true, "w": "parisiens." }
+    ],
+    "antes": "Mais maintenant nous ", "respuesta": "sommes", "despues": " parisiens.",
+    "fonetica": "[may mahn-tuh-nahn noo som pa-ree-zyahn]",
+    "traduccion_natural": "\"Pero ahora somos parisinos.\"",
+    "traduccion_literal": "(literalmente: pero ahora nosotros somos parisinos)",
+    "nota_numero": 4, "nota_headword": "être",
+    "nota_texto": "ya conoces las formas principales de être (ser/estar): je suis, il/elle est, vous êtes, nous sommes — memorízalas, son de las más usadas de todo el idioma."
+  },
+  {
     "id": "FR-L04-01",
     "idioma": "frances",
     "tipo": "dialogo",
@@ -442,6 +474,23 @@
     "traduccion_literal": "(literalmente: cómo lo usted-sabe)",
     "nota_numero": 3, "nota_headword": "le",
     "nota_texto": "pronombre neutro (\"lo\"), colocado antes del verbo — igual que en español, donde también va antes del verbo conjugado."
+  },
+  {
+    "id": "FR-L04-04",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 4,
+    "tokens": [
+      { "isWord": true, "w": "Parce" }, { "isWord": true, "w": "que" }, { "isWord": true, "w": "j'ai" },
+      { "isBlank": true }, { "isWord": true, "w": "avec" }, { "isWord": true, "w": "ma" },
+      { "isWord": true, "w": "femme" }, { "isWord": true, "w": "à" }, { "isWord": true, "w": "midi..." }
+    ],
+    "antes": "Parce que j'ai ", "respuesta": "rendez-vous", "despues": " avec ma femme à midi...",
+    "fonetica": "[pars-kuh zhay rahn-day-voo avek ma fam a mee-dee]",
+    "traduccion_natural": "\"Porque tengo una cita con mi esposa al mediodía...\"",
+    "traduccion_literal": "(literalmente: porque yo tengo cita con mi mujer a mediodía)",
+    "nota_numero": 4, "nota_headword": "rendez-vous",
+    "nota_texto": "no es solo una \"cita romántica\" como a veces en español — en francés se usa para cualquier cita o reunión programada, de trabajo o personal."
   },
   {
     "id": "FR-L05-01",
@@ -500,6 +549,23 @@
     "leccion": 5,
     "pregunta": "¿Qué es el \"Quartier Latin\" de París y por qué se llama así?",
     "cultura_texto": "El barrio de Saint-Michel en París es sinónimo del Quartier Latin (Barrio Latino), llamado así porque ahí está la Sorbona, donde antiguamente se enseñaba en latín. La Place Saint-Michel, dominada por una fuente monumental del siglo XIX, es un punto de encuentro clásico; el Boulevard Saint-Michel que sale de ella es famoso por sus librerías y cafés."
+  },
+  {
+    "id": "FR-L05-05",
+    "idioma": "frances",
+    "tipo": "dialogo",
+    "leccion": 5,
+    "tokens": [
+      { "isWord": true, "w": "Mais" }, { "isWord": true, "w": "attendez" }, { "isWord": true, "w": "une" },
+      { "isWord": true, "w": "minute," }, { "isWord": true, "w": "j'ai" }, { "isWord": true, "w": "un" },
+      { "isWord": true, "w": "plan" }, { "isWord": true, "w": "de" }, { "isWord": true, "w": "la" }, { "isBlank": true }
+    ],
+    "antes": "Mais attendez une minute, j'ai un plan de la ", "respuesta": "ville.", "despues": "",
+    "fonetica": "[may a-tahn-day ewn mee-newt, zhay ahn plahn duh la veel]",
+    "traduccion_natural": "\"Pero espere un minuto, tengo un mapa de la ciudad.\"",
+    "traduccion_literal": "(literalmente: pero espere un minuto, yo tengo un plano de la ciudad)",
+    "nota_numero": 4, "nota_headword": "une ville",
+    "nota_texto": "el francés no distingue entre \"ciudad\" y \"pueblo\" como el español — une ville sirve para los dos."
   },
   {
     "id": "FR-L06-01",
@@ -617,5 +683,19 @@
     "antes": "Elle a dix minutes de ", "respuesta": "retard.", "despues": "",
     "regla": "El francés y el español comparten muchas raíces latinas, así que muchas palabras se reconocen a simple vista — pero hay que estar alerta a los falsos amigos: palabras que se ven casi iguales pero cambiaron de significado con el tiempo. El propio Assimil recomienda subrayar o anotar aparte cualquier palabra que se vea parecida a una que ya conoces.",
     "ejemplo": "retard significa \"tardanza/retraso\" en francés — comparte la misma raíz latina que la palabra española \"retardado\", aunque su significado cotidiano es muy distinto."
+  },
+  {
+    "id": "FR-L07-05",
+    "idioma": "frances",
+    "tipo": "gramatica",
+    "leccion": 7,
+    "concepto": "EL ALFABETO — cómo deletrear en voz alta",
+    "tokens": [
+      { "isWord": true, "w": "Je" }, { "isWord": true, "w": "m'appelle" }, { "isWord": true, "w": "Bailly" },
+      { "isWord": true, "w": ":" }, { "isWord": true, "w": "B-A-I" }, { "isBlank": true }, { "isWord": true, "w": "L-Y." }
+    ],
+    "antes": "Je m'appelle Bailly : B-A-I ", "respuesta": "deux", "despues": " L-Y.",
+    "regla": "Cada letra del alfabeto francés tiene su propio nombre para deletrear en voz alta, a menudo distinto de su sonido normal: a [ah], b [bay], c [say], e [uh], h [ash], i [ee], j [zhee], y [ee grek] (\"i griega\", igual que en español) y w [doobluh-vay] (\"doble ve\", no \"doble u\" — la w casi no se usa en francés). Para una letra repetida, se puede repetir el nombre o decir **deux** + la letra (\"doble ele\").",
+    "ejemplo": "B-A-I deux L-Y se deletrea: bay – ah – ee – duhz-el – ee grek — así se deletrea \"Bailly\" en voz alta, letra por letra."
   }
 ]
