@@ -2,19 +2,19 @@ import { useModulo } from '../hooks/useModulo.js'
 import { useTheme } from '../hooks/useTheme.js'
 import { leerJSON } from '../engine/storage.js'
 import { claveSRS } from '../engine/clavesPerfil.js'
-import { calcularDominio } from '../engine/dominio.js'
 import { estaLista } from '../engine/srs.js'
+import { calcularEstadoLecciones, leccionesDesbloqueadas, DETALLE_HASTA_FRANCES } from '../engine/progresoFrances.js'
 import { ThemeToggle } from '../componentes/ThemeToggle.jsx'
 import { SelectorPerfil } from '../componentes/SelectorPerfil.jsx'
 import { IconoChevronIzquierdo, IconoCheck, IconoCandado, IconoReloj, IconoFlechaDerecha } from '../componentes/iconos.jsx'
 import '../estilos/frances.css'
 import './MapaDelCurso.css'
 
-// Lecciones con detalle individual en el mapa (1-14): más allá de esto se
-// resume en tarjetas de grupo colapsadas — 35 nodos sin contenido real
-// todavía no aportarían nada. Cuando el módulo crezca más allá de la
-// lección 14, este número puede subir junto con los datos reales.
-const DETALLE_HASTA = 14
+// Lecciones con detalle individual en el mapa: más allá de esto se resume
+// en tarjetas de grupo colapsadas — nodos sin contenido real todavía no
+// aportarían nada. Cuando el módulo crezca, este número puede subir junto
+// con los datos reales (ver también progresoFrances.js).
+const DETALLE_HASTA = DETALLE_HASTA_FRANCES
 const REVISIONES = new Set([7, 14, 21, 28, 35, 42, 49])
 
 export function MapaDelCurso({ perfil, onCambiarPerfil, onVolver, onIrARepaso, onVerModos }) {
@@ -31,41 +31,32 @@ export function MapaDelCurso({ perfil, onCambiarPerfil, onVolver, onIrARepaso, o
 
   const leccionActual = Math.max(1, ...Object.keys(porLeccion).map(Number).filter((n) => n > 0))
 
-  // Aprendizaje progresivo: una lección con datos solo se desbloquea si la
-  // anterior ya llegó al 100% de dominio — igual que Duolingo/Anki por
-  // curso. `cadenaAbierta` se cierra apenas una lección no está dominada
-  // (o no tiene datos todavía) y ya no vuelve a abrirse para las
-  // siguientes. Aparte de eso, igual que una tarjeta suelta, una lección
+  // Aprendizaje progresivo (ver progresoFrances.js): una lección con datos
+  // solo se desbloquea cuando la anterior ya se repasó completa al menos
+  // una vez. Aparte de eso, igual que una tarjeta suelta, una lección
   // "dominada" se debilita con el tiempo si no se repasa: si ya llegó al
-  // 100% pero alguna de sus tarjetas volvió a estar lista para repasar
-  // (estaLista), el nodo pasa de "completada" a "necesita-repaso" — sin
-  // tocar el progreso guardado ni volver a bloquear lo que sigue.
+  // 100% pero alguna de sus tarjetas volvió a estar lista para repasar,
+  // el nodo pasa de "completada" a "necesita-repaso" — sin tocar el
+  // progreso guardado ni volver a bloquear lo que sigue.
+  const estadosLecciones = calcularEstadoLecciones(modulo.tarjetasConcepto, estadosSRS, DETALLE_HASTA)
   const nodos = []
-  let cadenaAbierta = true
   for (let n = 1; n <= DETALLE_HASTA; n++) {
-    const tarjetas = porLeccion[n]
-    let estado
-    let dominioCompleto = false
-    if (!tarjetas || !cadenaAbierta) {
-      estado = 'bloqueada'
-    } else {
-      const dominio = calcularDominio(tarjetas, estadosSRS)
-      dominioCompleto = dominio.pct === 100
-      const vencidas = tarjetas.filter((t) => estadosSRS[t.id] && estaLista(estadosSRS[t.id])).length
-      if (dominioCompleto) estado = vencidas > 0 ? 'necesita-repaso' : 'completada'
-      else if (dominio.hechas > 0) estado = 'progreso'
-      else estado = 'disponible'
-    }
     nodos.push({
       numero: n,
       tituloFr: modulo.categorias?.[String(n)] ?? `Lección ${n}`,
-      estado,
+      estado: estadosLecciones[n],
       revision: REVISIONES.has(n),
     })
-    cadenaAbierta = dominioCompleto
   }
 
-  const pendientesHoy = modulo.tarjetasConcepto.filter((t) => estaLista(estadosSRS[t.id])).length
+  // El conteo del banner debe coincidir con lo que el repaso general
+  // realmente muestra (RepasoConceptos aplica el mismo desbloqueo) — de
+  // lo contrario "Repasar ahora" prometería tarjetas de lecciones que en
+  // realidad siguen bloqueadas.
+  const abiertas = leccionesDesbloqueadas(modulo.tarjetasConcepto, estadosSRS, DETALLE_HASTA)
+  const pendientesHoy = modulo.tarjetasConcepto.filter(
+    (t) => abiertas.has(t.leccion) && estaLista(estadosSRS[t.id])
+  ).length
 
   const grupos = []
   for (let inicio = DETALLE_HASTA + 1; inicio <= 49; inicio += 7) {

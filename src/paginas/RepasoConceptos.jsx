@@ -5,6 +5,7 @@ import { leerJSON, escribirJSON } from '../engine/storage.js'
 import { claveSRS } from '../engine/clavesPerfil.js'
 import { ID_INVITADO } from '../engine/perfiles.js'
 import { estadoInicial, siguienteEstado, estaLista } from '../engine/srs.js'
+import { leccionesDesbloqueadas } from '../engine/progresoFrances.js'
 import { crearCola, reencolarTrasFallo, retirarTrasAcierto } from '../engine/colaRefuerzo.js'
 import { registrarRepaso } from '../engine/progreso.js'
 import { reproducirSonido } from '../engine/sonido.js'
@@ -96,13 +97,21 @@ export function RepasoConceptos({ moduloId, leccion, perfil, onCambiarPerfil, on
   // Diálogo/Gramática/Cultura/Pronunciación, solo francés) se combina con
   // lo anterior: sin lección elegida sigue respetando el vencimiento SRS
   // (no rompe la garantía tipo Anki), con lección elegida ignora
-  // vencimiento igual que el resto de esa lección.
+  // vencimiento igual que el resto de esa lección. Sin lección elegida Y
+  // en francés, además se excluyen las lecciones que el Mapa del curso
+  // todavía marca como bloqueadas (mismo cálculo, ver progresoFrances.js)
+  // — si no, "Repasar ahora" mostraría tarjetas de lecciones que el propio
+  // Mapa dice que no se pueden abrir todavía.
   useEffect(() => {
     if (!modulo) return
+    const abiertas = esModuloFrances ? leccionesDesbloqueadas(modulo.tarjetasConcepto, estadosSRS) : null
     const pendientes = modulo.tarjetasConcepto.filter((t) => {
       if (leccion != null && t.leccion !== leccion) return false
       if (tipoFiltro && t.tipo !== tipoFiltro) return false
-      if (leccion == null && !estaLista(estadosSRS[t.id])) return false
+      if (leccion == null) {
+        if (!estaLista(estadosSRS[t.id])) return false
+        if (abiertas && !abiertas.has(t.leccion)) return false
+      }
       return true
     })
     const colaInicial = crearCola(pendientes)
@@ -115,12 +124,17 @@ export function RepasoConceptos({ moduloId, leccion, perfil, onCambiarPerfil, on
   if (error) return <div className="page estado-error">No se pudo cargar el módulo: {error.message}</div>
 
   // Pestañas de categoría (solo francés, ver ETIQUETAS_TAB_FRANCES): solo
-  // se listan los tipos que de verdad existen en el alcance actual (todo
-  // el módulo, o la lección elegida) — una lección de sola gramática no
-  // debería ofrecer una pestaña "Cultura" que siempre estaría vacía.
+  // se listan los tipos que de verdad existen en el alcance actual (la
+  // lección elegida, o las lecciones ya desbloqueadas del módulo) — una
+  // lección de sola gramática no debería ofrecer una pestaña "Cultura" que
+  // siempre estaría vacía, ni tampoco una pestaña que solo tenga tarjetas
+  // en lecciones que el Mapa todavía marca como bloqueadas.
+  const abiertasParaTabs = esModuloFrances ? leccionesDesbloqueadas(modulo.tarjetasConcepto, estadosSRS) : null
   const tiposDisponibles = esModuloFrances
     ? ORDEN_TIPOS_FRANCES.filter((tipo) =>
-        modulo.tarjetasConcepto.some((t) => t.tipo === tipo && (leccion == null || t.leccion === leccion))
+        modulo.tarjetasConcepto.some(
+          (t) => t.tipo === tipo && (leccion != null ? t.leccion === leccion : abiertasParaTabs.has(t.leccion))
+        )
       )
     : []
 
