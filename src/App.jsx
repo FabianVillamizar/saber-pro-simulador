@@ -67,7 +67,7 @@ function App() {
           perfil={perfil}
           onCambiarPerfil={onCambiarPerfil}
           onVolver={irAHome}
-          onIrARepaso={() => setPantalla({ tipo: 'repaso', moduloId: 'frances' })}
+          onIrARepaso={(leccion) => setPantalla({ tipo: 'repaso', moduloId: 'frances', leccion })}
           onVerModos={() => setPantalla({ tipo: 'modulo-modos', moduloId: 'frances' })}
         />
       )
@@ -99,6 +99,7 @@ function App() {
     return (
       <RepasoConceptos
         moduloId={pantalla.moduloId}
+        leccion={pantalla.leccion}
         perfil={perfil}
         onCambiarPerfil={onCambiarPerfil}
         onVolver={volverAModulo}

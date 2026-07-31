@@ -62,7 +62,7 @@ const BOTONES_EVAL = [
   { calificacion: 'facil', etiqueta: 'Fácil', intervalo: '6 días', clase: 'facil' },
 ]
 
-export function RepasoConceptos({ moduloId, perfil, onCambiarPerfil, onVolver }) {
+export function RepasoConceptos({ moduloId, leccion, perfil, onCambiarPerfil, onVolver }) {
   const { modulo, cargando, error } = useModulo(moduloId)
   const { dark, toggle } = useTheme()
   const esModuloFrances = moduloId === 'frances'
@@ -73,16 +73,23 @@ export function RepasoConceptos({ moduloId, perfil, onCambiarPerfil, onVolver })
   const [volteada, setVolteada] = useState(false)
   const [revisadasHoy, setRevisadasHoy] = useState(0)
 
-  // Solo se recalcula cuando cambia el módulo cargado: la cola de la
-  // sesión no debe reordenarse cada vez que cambian los estados SRS
-  // mientras se está respondiendo.
+  // Solo se recalcula cuando cambia el módulo cargado (o la lección
+  // elegida): la cola de la sesión no debe reordenarse cada vez que
+  // cambian los estados SRS mientras se está respondiendo.
+  // Con `leccion` (viene del Mapa del curso, ver MapaDelCurso.jsx): se
+  // repasan TODAS las tarjetas de esa lección, sin importar si el SRS
+  // las marca como vencidas — el usuario eligió esa lección a propósito,
+  // no está pidiendo el repaso general del día.
   useEffect(() => {
     if (!modulo) return
-    const pendientes = modulo.tarjetasConcepto.filter((t) => estaLista(estadosSRS[t.id]))
+    const pendientes =
+      leccion != null
+        ? modulo.tarjetasConcepto.filter((t) => t.leccion === leccion)
+        : modulo.tarjetasConcepto.filter((t) => estaLista(estadosSRS[t.id]))
     const colaInicial = crearCola(pendientes)
     setCola(colaInicial)
     setTotalInicial(colaInicial.length)
-  }, [modulo])
+  }, [modulo, leccion])
 
   if (cargando || cola === null) return <div className="page estado-carga">Cargando…</div>
   if (error) return <div className="page estado-error">No se pudo cargar el módulo: {error.message}</div>
@@ -158,7 +165,9 @@ export function RepasoConceptos({ moduloId, perfil, onCambiarPerfil, onVolver })
         </button>
         <div className="repaso-titulo">
           <div className="repaso-titulo-modulo">{modulo.nombre}</div>
-          <div className="repaso-titulo-sub">Repaso de tarjetas</div>
+          <div className="repaso-titulo-sub">
+            {leccion != null ? `Lección ${leccion} · ${modulo.categorias?.[String(leccion)] ?? ''}` : 'Repaso de tarjetas'}
+          </div>
         </div>
         <div className="repaso-barra">
           <div className="repaso-barra-relleno" style={{ width: `${progressPct}%` }} />

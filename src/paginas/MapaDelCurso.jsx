@@ -104,7 +104,7 @@ export function MapaDelCurso({ perfil, onCambiarPerfil, onVolver, onIrARepaso, o
               Tienes {pendientesHoy} tarjeta{pendientesHoy === 1 ? '' : 's'} lista{pendientesHoy === 1 ? '' : 's'} para repasar hoy
             </div>
           </div>
-          <button type="button" className="mapa-curso-cta-boton" onClick={onIrARepaso}>
+          <button type="button" className="mapa-curso-cta-boton" onClick={() => onIrARepaso()}>
             Repasar ahora
             <IconoFlechaDerecha size={14} color="#fff" />
           </button>
@@ -196,7 +196,7 @@ export function MapaDelCurso({ perfil, onCambiarPerfil, onVolver, onIrARepaso, o
               </div>
             </div>
             <div className="mapa-curso-panel-acciones">
-              <button type="button" className="mapa-curso-boton-primario" onClick={onIrARepaso}>
+              <button type="button" className="mapa-curso-boton-primario" onClick={() => onIrARepaso(seleccionada)}>
                 Repasar tarjetas
               </button>
             </div>
