@@ -56,12 +56,40 @@ function App() {
   const volverAModulo = () => setPantalla({ tipo: 'modulo', moduloId: pantalla.moduloId })
 
   if (pantalla.tipo === 'modulo') {
+    // Français · Assimil no aterriza en la grilla de modos: el Mapa del
+    // curso es la entrada (ver MapaDelCurso.jsx) porque, a diferencia de
+    // los módulos de examen, aquí "dónde voy" (qué lección sigue) importa
+    // tanto como "qué quiero practicar". Los otros 4 modos quedan detrás
+    // de "Ver todos los modos" (pantalla 'modulo-modos').
+    if (pantalla.moduloId === 'frances') {
+      return (
+        <MapaDelCurso
+          perfil={perfil}
+          onCambiarPerfil={onCambiarPerfil}
+          onVolver={irAHome}
+          onIrARepaso={() => setPantalla({ tipo: 'repaso', moduloId: 'frances' })}
+          onVerModos={() => setPantalla({ tipo: 'modulo-modos', moduloId: 'frances' })}
+        />
+      )
+    }
     return (
       <ModuloHub
         moduloId={pantalla.moduloId}
         perfil={perfil}
         onCambiarPerfil={onCambiarPerfil}
         onVolver={irAHome}
+        onSeleccionarModo={(modo) => setPantalla({ tipo: modo, moduloId: pantalla.moduloId })}
+      />
+    )
+  }
+
+  if (pantalla.tipo === 'modulo-modos') {
+    return (
+      <ModuloHub
+        moduloId={pantalla.moduloId}
+        perfil={perfil}
+        onCambiarPerfil={onCambiarPerfil}
+        onVolver={volverAModulo}
         onSeleccionarModo={(modo) => setPantalla({ tipo: modo, moduloId: pantalla.moduloId })}
       />
     )
@@ -113,10 +141,6 @@ function App() {
 
   if (pantalla.tipo === 'traduce') {
     return <Traduce perfil={perfil} onCambiarPerfil={onCambiarPerfil} onVolver={volverAModulo} />
-  }
-
-  if (pantalla.tipo === 'mapa-curso') {
-    return <MapaDelCurso perfil={perfil} onCambiarPerfil={onCambiarPerfil} onVolver={volverAModulo} />
   }
 
   return null

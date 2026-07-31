@@ -55,11 +55,6 @@ const MODOS_FRANCES = [
     nombre: 'Traduce',
     descripcion: 'Traduce del español al francés y autoevalúate con feedback inmediato.',
   },
-  {
-    id: 'mapa-curso',
-    nombre: 'Mapa del curso',
-    descripcion: 'Las 49 lecciones como un camino de progreso, con tu estado real en cada una.',
-  },
 ]
 
 export function ModuloHub({ moduloId, perfil, onCambiarPerfil, onVolver, onSeleccionarModo }) {

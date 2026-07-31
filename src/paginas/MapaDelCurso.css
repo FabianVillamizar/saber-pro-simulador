@@ -36,6 +36,68 @@
   margin-top: 1px;
 }
 
+.mapa-curso-ver-modos {
+  padding: 8px 14px;
+  border-radius: var(--radio-pill);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-sub);
+  font-size: 12.5px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: inherit;
+  white-space: nowrap;
+}
+
+.mapa-curso-cta {
+  max-width: 600px;
+  margin: 18px auto 0;
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  background: color-mix(in oklch, var(--fr-accent) 7%, var(--surface));
+  border: 1px solid color-mix(in oklch, var(--fr-accent) 28%, var(--border));
+  border-radius: var(--radio-lg);
+}
+
+:root[data-theme='dark'] .mapa-curso-cta {
+  background: color-mix(in oklch, var(--fr-accent) 16%, var(--surface));
+}
+
+.mapa-curso-cta-eyebrow {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--fr-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.mapa-curso-cta-meta {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+  margin-top: 4px;
+}
+
+.mapa-curso-cta-boton {
+  padding: 12px 20px;
+  border-radius: var(--radio-sm);
+  border: none;
+  background: var(--fr-accent);
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+  font-family: inherit;
+}
+
 .mapa-curso-progreso {
   max-width: 600px;
   margin: 0 auto;
@@ -93,6 +155,12 @@
 
 .mapa-curso-punto--completada {
   background: var(--fr-accent);
+}
+
+.mapa-curso-punto--necesita-repaso {
+  background: var(--surface);
+  border: 2px solid var(--fr-accent);
+  box-shadow: inset 0 0 0 2px color-mix(in oklch, var(--fr-accent) 20%, transparent);
 }
 
 .mapa-curso-punto--progreso {
@@ -184,6 +252,13 @@
   border-color: var(--fr-accent);
   color: white;
   box-shadow: 0 4px 12px color-mix(in oklch, var(--fr-accent) 35%, transparent);
+}
+
+.mapa-curso-nodo--necesita-repaso {
+  background: var(--surface);
+  border-color: var(--fr-accent);
+  border-width: 2.5px;
+  color: var(--fr-accent);
 }
 
 .mapa-curso-nodo--progreso {

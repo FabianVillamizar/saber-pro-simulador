@@ -4,9 +4,10 @@ import { useTheme } from '../hooks/useTheme.js'
 import { leerJSON } from '../engine/storage.js'
 import { claveSRS } from '../engine/clavesPerfil.js'
 import { calcularDominio } from '../engine/dominio.js'
+import { estaLista } from '../engine/srs.js'
 import { ThemeToggle } from '../componentes/ThemeToggle.jsx'
 import { SelectorPerfil } from '../componentes/SelectorPerfil.jsx'
-import { IconoChevronIzquierdo, IconoCheck, IconoCandado } from '../componentes/iconos.jsx'
+import { IconoChevronIzquierdo, IconoCheck, IconoCandado, IconoReloj, IconoFlechaDerecha } from '../componentes/iconos.jsx'
 import '../estilos/frances.css'
 import './MapaDelCurso.css'
 
@@ -17,7 +18,7 @@ import './MapaDelCurso.css'
 const DETALLE_HASTA = 14
 const REVISIONES = new Set([7, 14, 21, 28, 35, 42, 49])
 
-export function MapaDelCurso({ perfil, onCambiarPerfil, onVolver }) {
+export function MapaDelCurso({ perfil, onCambiarPerfil, onVolver, onIrARepaso, onVerModos }) {
   const { modulo, cargando } = useModulo('frances')
   const { dark, toggle } = useTheme()
   const [seleccionada, setSeleccionada] = useState(null)
@@ -32,6 +33,11 @@ export function MapaDelCurso({ perfil, onCambiarPerfil, onVolver }) {
 
   const leccionActual = Math.max(1, ...Object.keys(porLeccion).map(Number).filter((n) => n > 0))
 
+  // Igual que una tarjeta suelta, una lección "dominada" se debilita con
+  // el tiempo si no se repasa: si ya llegó al 100% pero alguna de sus
+  // tarjetas volvió a estar lista para repasar (estaLista), el nodo pasa
+  // de "completada" a "necesita-repaso" — sin tocar el progreso guardado,
+  // solo reflejando que el SRS ya la marcó como vencida de nuevo.
   const nodos = []
   for (let n = 1; n <= DETALLE_HASTA; n++) {
     const tarjetas = porLeccion[n]
@@ -40,7 +46,8 @@ export function MapaDelCurso({ perfil, onCambiarPerfil, onVolver }) {
       estado = 'bloqueada'
     } else {
       const dominio = calcularDominio(tarjetas, estadosSRS)
-      if (dominio.pct === 100) estado = 'completada'
+      const vencidas = tarjetas.filter((t) => estadosSRS[t.id] && estaLista(estadosSRS[t.id])).length
+      if (dominio.pct === 100) estado = vencidas > 0 ? 'necesita-repaso' : 'completada'
       else if (dominio.hechas > 0) estado = 'progreso'
       else estado = 'disponible'
     }
@@ -51,6 +58,8 @@ export function MapaDelCurso({ perfil, onCambiarPerfil, onVolver }) {
       revision: REVISIONES.has(n),
     })
   }
+
+  const pendientesHoy = modulo.tarjetasConcepto.filter((t) => estaLista(estadosSRS[t.id])).length
 
   const grupos = []
   for (let inicio = DETALLE_HASTA + 1; inicio <= 49; inicio += 7) {
@@ -63,6 +72,7 @@ export function MapaDelCurso({ perfil, onCambiarPerfil, onVolver }) {
 
   const ETIQUETAS_ESTADO = {
     completada: 'Completada',
+    'necesita-repaso': 'Necesita repaso',
     progreso: 'En progreso',
     disponible: 'Disponible',
     bloqueada: 'Bloqueada',
@@ -79,9 +89,27 @@ export function MapaDelCurso({ perfil, onCambiarPerfil, onVolver }) {
           <div className="mapa-curso-sub">Français · Assimil · Fase receptiva</div>
         </div>
         <div style={{ flex: 1 }} />
+        <button type="button" className="mapa-curso-ver-modos" onClick={onVerModos}>
+          Ver todos los modos
+        </button>
         <SelectorPerfil perfil={perfil} onClick={onCambiarPerfil} />
         <ThemeToggle dark={dark} onToggle={toggle} />
       </div>
+
+      {pendientesHoy > 0 && (
+        <div className="mapa-curso-cta">
+          <div>
+            <div className="mapa-curso-cta-eyebrow">Repaso pendiente</div>
+            <div className="mapa-curso-cta-meta">
+              Tienes {pendientesHoy} tarjeta{pendientesHoy === 1 ? '' : 's'} lista{pendientesHoy === 1 ? '' : 's'} para repasar hoy
+            </div>
+          </div>
+          <button type="button" className="mapa-curso-cta-boton" onClick={onIrARepaso}>
+            Repasar ahora
+            <IconoFlechaDerecha size={14} color="#fff" />
+          </button>
+        </div>
+      )}
 
       <div className="mapa-curso-progreso">
         <div className="mapa-curso-barra">
@@ -95,6 +123,9 @@ export function MapaDelCurso({ perfil, onCambiarPerfil, onVolver }) {
       <div className="mapa-curso-leyenda">
         <span className="mapa-curso-leyenda-item">
           <span className="mapa-curso-punto mapa-curso-punto--completada" /> Completada
+        </span>
+        <span className="mapa-curso-leyenda-item">
+          <span className="mapa-curso-punto mapa-curso-punto--necesita-repaso" /> Necesita repaso
         </span>
         <span className="mapa-curso-leyenda-item">
           <span className="mapa-curso-punto mapa-curso-punto--progreso" /> En progreso
@@ -127,6 +158,7 @@ export function MapaDelCurso({ perfil, onCambiarPerfil, onVolver }) {
                   ) : (
                     <div className={`mapa-curso-circulo mapa-curso-nodo--${n.estado}`}>
                       {n.estado === 'completada' && <IconoCheck size={16} color="white" />}
+                      {n.estado === 'necesita-repaso' && <IconoReloj size={16} color="var(--fr-accent)" />}
                       {n.estado === 'bloqueada' && <IconoCandado size={13} color="var(--text-faint)" />}
                       {(n.estado === 'progreso' || n.estado === 'disponible') && <span>{n.numero}</span>}
                     </div>
@@ -164,7 +196,7 @@ export function MapaDelCurso({ perfil, onCambiarPerfil, onVolver }) {
               </div>
             </div>
             <div className="mapa-curso-panel-acciones">
-              <button type="button" className="mapa-curso-boton-primario" onClick={onVolver}>
+              <button type="button" className="mapa-curso-boton-primario" onClick={onIrARepaso}>
                 Repasar tarjetas
               </button>
             </div>
