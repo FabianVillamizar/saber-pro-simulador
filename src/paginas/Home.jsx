@@ -44,6 +44,7 @@ export function Home({ perfil, onCambiarPerfil, onAbrirModulo, onIrADirecto, onI
   const { modulo: diosgenina } = useModulo('diosgenina')
   const { modulo: lecturaCritica } = useModulo('lectura-critica')
   const { modulo: razonamientoCuantitativo } = useModulo('razonamiento-cuantitativo')
+  const { modulo: comunicacionEscrita } = useModulo('comunicacion-escrita')
   const { modulo: frances } = useModulo('frances')
   const [mostrandoGate, setMostrandoGate] = useState(null)
 
@@ -73,6 +74,7 @@ export function Home({ perfil, onCambiarPerfil, onAbrirModulo, onIrADirecto, onI
     diosgenina,
     'lectura-critica': lecturaCritica,
     'razonamiento-cuantitativo': razonamientoCuantitativo,
+    'comunicacion-escrita': comunicacionEscrita,
     frances,
   }
   const dominioPorModulo = {}

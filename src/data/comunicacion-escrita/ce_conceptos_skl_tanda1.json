@@ -1,0 +1,416 @@
+[
+  {
+    "id": "CE-SKL-001",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "planteamiento_directo_desde_la_introduccion",
+    "pregunta": "¿Dónde debe aparecer tu postura en un ensayo de Comunicación Escrita?",
+    "respuesta_breve": "Desde la primera o segunda frase de la introducción, no al final del texto.",
+    "explicacion": "El ICFES evalúa el **planteamiento definido**: no basta con manejar el tema, hay que sostener una tesis clara sobre la pregunta exacta desde el arranque. Si el lector tiene que llegar a la conclusión para saber qué piensas, ya perdiste puntos en ese eje aunque el resto del ensayo esté bien escrito.",
+    "ejemplo_aplicado": "\"No estoy de acuerdo con que se permita a los menores de 14 años someterse a procedimientos estéticos.\" — postura explícita en la primera frase.",
+    "error_comun": "Empezar con contexto general (\"hoy en día el tema de la belleza es muy discutido...\") y dejar la postura implícita hasta el cierre; el evaluador no debe tener que inferirla.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "CE-SKL-002",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "planteamiento_directo_desde_la_introduccion",
+    "pregunta": "¿Con mencionar el tema en la introducción ya alcanza?",
+    "respuesta_breve": "No: mencionar el tema sin fijar postura no cumple con el planteamiento definido.",
+    "explicacion": "Una introducción que solo presenta el tema (\"la eutanasia es un asunto controvertido en Colombia\") sin decir qué piensas todavía no responde la pregunta. La **introducción completa** es tema + postura explícita, aunque el desarrollo venga después.",
+    "ejemplo_aplicado": "Insuficiente: \"el uso recreativo del cannabis genera debate.\" Completo: \"el uso recreativo del cannabis debería legalizarse por completo en Colombia.\"",
+    "error_comun": "Confundir presentar el tema con responder la pregunta — son dos cosas distintas y solo la segunda cuenta como planteamiento.",
+    "dificultad": "baja",
+    "prereqs": [
+      "CE-SKL-001"
+    ]
+  },
+  {
+    "id": "CE-SKL-003",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "posiciones_validas",
+    "pregunta": "¿Sacar nivel 4 depende de qué postura tomes?",
+    "respuesta_breve": "No. A favor, en contra y término medio son igual de válidas si están bien justificadas.",
+    "explicacion": "El ICFES es explícito: no evalúa si tu tesis es correcta, sino qué tan bien la **justificas**. Elegir la postura que puedes sostener con argumentos reales es mejor estrategia que adivinar cuál 'prefiere' el examen.",
+    "ejemplo_aplicado": "Ante '¿debería ser obligatorio el voto en Colombia?', tanto defender el sí, el no, como una posición intermedia bien argumentada pueden llegar a nivel 4.",
+    "error_comun": "Elegir una postura por sospechar que es la 'esperada' en vez de la que puedes sostener con argumentos sólidos.",
+    "dificultad": "baja",
+    "prereqs": [
+      "CE-SKL-001"
+    ]
+  },
+  {
+    "id": "CE-SKL-004",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "posiciones_validas",
+    "pregunta": "¿Cómo se construye un término medio que sí cuente como planteamiento definido y no como evasión?",
+    "respuesta_breve": "Con una tesis específica y condicional, no con un 'depende' vago.",
+    "explicacion": "Un término medio válido dice EN QUÉ CONDICIÓN pasa cada cosa: \"debería permitirse X, pero solo bajo la condición Y\". Eso sigue siendo una postura clara y verificable. Un término medio inválido lista pros y contras sin comprometerse con nada — eso es **evasión**, no matiz.",
+    "ejemplo_aplicado": "Válido: \"la IA generativa debería permitirse en tareas formativas, pero prohibirse en evaluaciones sumativas que definan la nota final.\" Evasivo: \"la IA generativa tiene cosas buenas y cosas malas.\"",
+    "error_comun": "Creer que 'ver los dos lados' sin tomar partido es más sofisticado — en realidad es la forma más común de caer en impertinencia por evasión.",
+    "dificultad": "media",
+    "prereqs": [
+      "CE-SKL-003"
+    ]
+  },
+  {
+    "id": "CE-SKL-005",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "que_cuenta_como_impertinencia",
+    "pregunta": "¿Cuáles son las 3 formas oficiales de que un texto sea impertinente?",
+    "respuesta_breve": "No ser un texto argumentativo, no tratar el tema, o desviarse sin responder lo preguntado.",
+    "explicacion": "La **impertinencia** da nota mínima automática y detiene ahí la evaluación — ni siquiera se revisan los otros ejes. Es el filtro que se aplica primero, antes de mirar ortografía o estructura, así que evitarla es la prioridad número uno.",
+    "ejemplo_aplicado": "Escribir un cuento sobre un adolescente que se opera la nariz, en vez de un ensayo argumentativo con postura, es impertinente por la primera vía: no es un texto argumentativo.",
+    "error_comun": "Pensar que impertinencia es solo 'no tratar el tema' — también aplica si el texto sí es sobre el tema general pero nunca responde la pregunta específica.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CE-SKL-006",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "que_cuenta_como_impertinencia",
+    "pregunta": "¿Por qué un texto puede tratar el tema general y aun así ser impertinente?",
+    "respuesta_breve": "Porque la pregunta pide una postura sobre un aspecto específico, no un manejo general del tema.",
+    "explicacion": "El ICFES lo aclara con su propio ejemplo: ante la pregunta sobre procedimientos estéticos en menores de 14 años, un texto que solo cuestiona la cirugía estética en general, sin comprometerse con el caso de los menores, es impertinente aunque hable del tema todo el rato. Se evalúa la **tesis específica sobre la pregunta**, no el dominio del tema.",
+    "ejemplo_aplicado": "Impertinente: un ensayo sobre por qué la industria de la belleza es dañina, sin mencionar nunca si los menores de 14 deberían o no tener acceso a esos procedimientos.",
+    "error_comun": "Escribir mucho sobre un tema que dominas en vez de responder puntualmente lo que se pregunta — es la trampa de impertinencia más frecuente.",
+    "dificultad": "media",
+    "prereqs": [
+      "CE-SKL-005"
+    ]
+  },
+  {
+    "id": "CE-SKL-007",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "que_cuenta_como_impertinencia",
+    "pregunta": "¿Cómo se evalúa un texto que se desvía a mitad de camino hacia otro asunto?",
+    "respuesta_breve": "Como impertinente, aunque haya empezado respondiendo bien la pregunta.",
+    "explicacion": "La impertinencia no es todo-o-nada por párrafo: si el desarrollo se va hacia un tema no relacionado y nunca vuelve a conectar con la pregunta original, el texto completo pierde pertinencia porque **no sostiene una respuesta** de principio a fin.",
+    "ejemplo_aplicado": "Empezar bien con la postura sobre menores y cirugías, y en el segundo párrafo pasar a hablar de títulos médicos falsos sin volver a la pregunta, es una digresión que compromete la pertinencia.",
+    "error_comun": "Pensar que una buena introducción 'salva' un desarrollo que se desvía — la pertinencia se evalúa sobre el texto completo.",
+    "dificultad": "media",
+    "prereqs": [
+      "CE-SKL-005"
+    ]
+  },
+  {
+    "id": "CE-SKL-008",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "como_evitar_impertinencia",
+    "pregunta": "¿Cuál es el primer paso antes de escribir una sola palabra del ensayo?",
+    "respuesta_breve": "Releer la pregunta exacta e identificar qué te está pidiendo específicamente.",
+    "explicacion": "La causa más común de impertinencia no es no saber del tema, es responder una pregunta distinta a la que realmente te hicieron. Antes de planear argumentos, identifica el **objeto exacto de la pregunta**: no es \"¿qué piensas de las cirugías estéticas?\", es \"¿deberían permitirse en menores de 14 años?\".",
+    "ejemplo_aplicado": "Frente a \"¿debería restringirse aún más el porte de armas para civiles?\", el objeto exacto es la restricción ADICIONAL, no la legalidad del porte de armas en general.",
+    "error_comun": "Leer la pregunta una vez, quedarse con el tema general, y empezar a escribir sobre lo que ya sabes del tema en vez de sobre lo que preguntan puntualmente.",
+    "dificultad": "baja",
+    "prereqs": [
+      "CE-SKL-005"
+    ]
+  },
+  {
+    "id": "CE-SKL-009",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "como_evitar_impertinencia",
+    "pregunta": "Terminaste tu borrador — ¿cómo revisas rápido si sigue siendo pertinente?",
+    "respuesta_breve": "Relee solo tu postura y pregúntate si responde exactamente la pregunta, palabra por palabra.",
+    "explicacion": "Un chequeo rápido: tapa el resto del ensayo y lee solo la frase donde fijas tu postura. Si esa frase sola, sin contexto, ya contesta la pregunta tal como fue formulada, pasas el filtro de pertinencia. Si necesitas el resto del texto para 'explicar' que sí responde, probablemente te desviaste.",
+    "ejemplo_aplicado": "Prueba: ¿mi postura, leída sola, responde sí/no/depende de X a la pregunta exacta? Si la respuesta es no, hay que reescribir el planteamiento.",
+    "error_comun": "Revisar ortografía y conectores al terminar, pero nunca volver a comparar la postura final contra la pregunta original.",
+    "dificultad": "media",
+    "prereqs": [
+      "CE-SKL-008"
+    ]
+  },
+  {
+    "id": "CE-SKL-010",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "argumentativo_vs_expositivo",
+    "pregunta": "¿Cuál es la diferencia entre argumentar y exponer o explicar un tema?",
+    "respuesta_breve": "Argumentar justifica una postura con razones; exponer solo describe información sin tomar partido.",
+    "explicacion": "Un párrafo puede estar muy bien escrito, con datos correctos y buena redacción, y aun así no ser un **argumento**: si solo describe qué es la cirugía estética o cómo funciona un procedimiento, sin usar esa información para defender una postura, es exposición, no argumentación.",
+    "ejemplo_aplicado": "Exposición: \"la cirugía plástica corrige anormalidades físicas o mejora la apariencia por decisión personal.\" Argumento: \"debería permitirse porque cada persona, incluso a los 14 años, es capaz de decidir sobre cambios en su propio cuerpo.\"",
+    "error_comun": "Rellenar el desarrollo con información enciclopédica sobre el tema, pensando que eso cuenta como argumentar.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CE-SKL-011",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "argumentativo_vs_expositivo",
+    "pregunta": "¿Cómo conviertes una frase expositiva en un argumento real?",
+    "respuesta_breve": "Agregándole la razón que conecta el dato con tu postura.",
+    "explicacion": "El truco es preguntarte '¿y por eso qué?' después de cada dato o descripción. Un dato solo no argumenta nada hasta que explicitas por qué apoya tu tesis. Esa conexión explícita es lo que separa **describir** de **justificar**.",
+    "ejemplo_aplicado": "Dato suelto: \"el salario mínimo se negocia cada año entre gobierno, empresarios y sindicatos.\" Convertido en argumento: \"...y por eso depende de coyunturas políticas anuales que no reflejan necesariamente la inflación real, lo que perjudica al trabajador cuando la negociación se estanca.\"",
+    "error_comun": "Dar el dato y asumir que su relevancia para la postura es 'obvia' — casi nunca lo es para quien lee sin el contexto que tú tienes en la cabeza.",
+    "dificultad": "media",
+    "prereqs": [
+      "CE-SKL-010"
+    ]
+  },
+  {
+    "id": "CE-SKL-012",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "desarrollo_de_un_argumento",
+    "pregunta": "¿Cuáles son las 3 partes de un argumento bien desarrollado?",
+    "respuesta_breve": "Premisa (la razón), desarrollo de esa razón, y ejemplo o caso concreto que la sostenga.",
+    "explicacion": "Enunciar una razón no basta — hay que **desarrollarla**. Premisa + razón sin ejemplo se queda en afirmación; premisa + ejemplo sin explicar la razón se queda en anécdota. Los tres juntos son lo que distingue nivel 3 de nivel 2.",
+    "ejemplo_aplicado": "Premisa: la madurez emocional no está completa a los 14 años + razón: por eso una decisión motivada por presión social puede no reflejar un deseo estable + ejemplo: como ocurre con otras decisiones que la ley ya restringe a esa edad, como firmar contratos.",
+    "error_comun": "Enunciar tres premisas distintas en un párrafo sin desarrollar ninguna a fondo — se ve como una lista de ideas, no como un argumento sólido.",
+    "dificultad": "media",
+    "prereqs": [
+      "CE-SKL-010"
+    ]
+  },
+  {
+    "id": "CE-SKL-013",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "desarrollo_de_un_argumento",
+    "pregunta": "¿Un párrafo con muchas ideas relacionadas es mejor que uno con una sola bien desarrollada?",
+    "respuesta_breve": "No — la cantidad de ideas no compensa la falta de profundidad en cada una.",
+    "explicacion": "El ICFES premia **profundidad**, no cobertura. Un párrafo que desarrolla un solo argumento con premisa+razón+ejemplo vale más que uno que menciona cuatro razones sin desarrollar ninguna, porque eso se lee como opinión sin justificar.",
+    "ejemplo_aplicado": "Mejor una sola razón bien desarrollada sobre el impacto de las fotomultas en el debido proceso, que cuatro razones sueltas sin desarrollar ninguna.",
+    "error_comun": "Pensar que escribir mucho sobre varios ángulos del tema demuestra dominio — el ICFES ya advierte que desviarse para escribir mucho sobre lo que dominas no mejora el desempeño.",
+    "dificultad": "media",
+    "prereqs": [
+      "CE-SKL-012"
+    ]
+  },
+  {
+    "id": "CE-SKL-014",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "desarrollo_de_un_argumento",
+    "pregunta": "¿De dónde puede salir el ejemplo de un argumento si no tienes datos duros a la mano?",
+    "respuesta_breve": "De un caso hipotético plausible, una analogía, o una consecuencia lógica concreta — no necesitas una cifra real.",
+    "explicacion": "El ejemplo no tiene que ser un dato estadístico verificable; el ICFES evalúa la calidad argumentativa, no el rigor factual. Un caso hipotético bien construido o una analogía con una situación ya aceptada socialmente cumplen la misma función: hacer tangible la razón abstracta.",
+    "ejemplo_aplicado": "Sin dato duro: \"así como no dejamos que un menor firme un contrato de arrendamiento sin un adulto responsable, tampoco debería decidir solo sobre una cirugía irreversible.\"",
+    "error_comun": "Quedarse sin desarrollar el argumento por creer que hace falta una estadística real que no se tiene memorizada el día del examen.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CE-SKL-012"
+    ]
+  },
+  {
+    "id": "CE-SKL-015",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "complejizar_el_planteamiento",
+    "pregunta": "¿Qué distingue exactamente un ensayo nivel 4 de uno nivel 3?",
+    "respuesta_breve": "Reconocer una perspectiva contraria genuina y responderla, no solo defender tu postura de forma aislada.",
+    "explicacion": "Nivel 3 ya tiene estructura clara y argumentos desarrollados — lo que falta para nivel 4 es mostrar que entendiste la objeción más fuerte del otro lado y que tu postura sobrevive a ella. Eso es **complejizar el planteamiento**: no ignorar la tensión, resolverla.",
+    "ejemplo_aplicado": "\"Quienes defienden esta práctica argumentan que restringirla vulnera el libre desarrollo de la personalidad. Sin embargo, ese principio presupone una capacidad de autodeterminación que la psicología del desarrollo sitúa, en la mayoría de los casos, más allá de los 14 años.\"",
+    "error_comun": "Mencionar 'algunos podrían decir que no' sin especificar cuál es esa objeción ni responderla — eso es un gesto vacío, no reconocimiento real.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CE-SKL-012"
+    ]
+  },
+  {
+    "id": "CE-SKL-016",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "complejizar_el_planteamiento",
+    "pregunta": "¿Cuál es el error más común al intentar reconocer una perspectiva contraria?",
+    "respuesta_breve": "Elegir una objeción débil o de paja en vez de la más fuerte que existe.",
+    "explicacion": "Si reconoces una objeción que nadie tomaría en serio, tu réplica no demuestra nada — es fácil ganarle a un argumento débil. Nivel 4 exige enfrentar la objeción **más fuerte y razonable** del otro lado; vencer esa es lo que muestra dominio real del tema.",
+    "ejemplo_aplicado": "Débil (evitar): 'algunos dirán que a los adolescentes les gusta verse bien' — no es la objeción de fondo. Fuerte (usar): la objeción basada en el libre desarrollo de la personalidad como derecho fundamental.",
+    "error_comun": "Elegir la objeción más fácil de refutar en vez de la más representativa del debate real, lo que se nota como una estrategia evasiva.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CE-SKL-015"
+    ]
+  },
+  {
+    "id": "CE-SKL-017",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "complejizar_el_planteamiento",
+    "pregunta": "¿Dónde conviene ubicar el reconocimiento de la perspectiva contraria dentro del ensayo?",
+    "respuesta_breve": "En el desarrollo, después de haber planteado ya tu argumento principal.",
+    "explicacion": "Colocarlo demasiado pronto diluye el planteamiento inicial; colocarlo al final sin conectarlo lo vuelve un anexo desconectado. El punto óptimo es un párrafo del desarrollo que primero **cede terreno** genuinamente y luego lo recupera con tu respuesta.",
+    "ejemplo_aplicado": "Estructura sugerida: párrafo 1 = postura + primer argumento; párrafo 2 = segundo argumento; párrafo 3 = objeción reconocida y respondida; conclusión = cierre.",
+    "error_comun": "Meter la objeción contraria en la conclusión como si fuera una idea de último momento, sin espacio real para responderla con desarrollo.",
+    "dificultad": "media",
+    "prereqs": [
+      "CE-SKL-015"
+    ]
+  },
+  {
+    "id": "CE-SKL-018",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "recursos_estilisticos_argumentativos",
+    "pregunta": "Además de reconocer una objeción, ¿qué otro rasgo pide nivel 4 y a menudo se olvida?",
+    "respuesta_breve": "Recursos estilísticos y pragmáticos que refuercen el planteamiento, no solo el contraargumento.",
+    "explicacion": "El ICFES nombra los **recursos estilísticos** como criterio de nivel 4 separado de complejizar el planteamiento. Son herramientas retóricas — preguntas retóricas, estructuras de contraste, énfasis — que hacen que el argumento se sienta trabajado y no solo correcto.",
+    "ejemplo_aplicado": "\"...no niega un derecho: simplemente traslada la decisión al momento en que la persona puede sostenerla con criterio propio.\" — estructura de contraste que reencuadra la idea.",
+    "error_comun": "Enfocar toda la energía en el contraargumento y dejar el resto del texto en prosa plana, sin ningún recurso que le dé textura.",
+    "dificultad": "media",
+    "prereqs": [
+      "CE-SKL-015"
+    ]
+  },
+  {
+    "id": "CE-SKL-019",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "recursos_estilisticos_argumentativos",
+    "pregunta": "¿Qué es la estructura de contraste 'no X, sino Y' y qué se gana usándola?",
+    "respuesta_breve": "Niega primero la lectura contraria y luego da la propia, con más fuerza que una afirmación directa.",
+    "explicacion": "En vez de afirmar algo plano, el recurso niega explícitamente la objeción implícita antes de dar tu versión, lo que obliga al lector a procesar y descartar esa objeción antes de quedarse con tu idea — genera más **fuerza persuasiva** que una afirmación simple.",
+    "ejemplo_aplicado": "\"No se trata de restarle autonomía al adolescente, sino de reconocer que esa autonomía se construye con el tiempo.\"",
+    "error_comun": "Usarlo tan seguido que pierde efecto — funciona como acento puntual, no como muletilla en cada párrafo.",
+    "dificultad": "media",
+    "prereqs": [
+      "CE-SKL-018"
+    ]
+  },
+  {
+    "id": "CE-SKL-020",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "recursos_estilisticos_argumentativos",
+    "pregunta": "¿Conviene usar una pregunta retórica en un ensayo argumentativo?",
+    "respuesta_breve": "Sí, con moderación — funciona bien para abrir un párrafo o marcar la tensión antes de resolverla.",
+    "explicacion": "Una **pregunta retórica** bien ubicada obliga al lector a anticipar la respuesta, lo que hace que la premisa siguiente se sienta más convincente. Pero si se abusa, el texto pierde el tono directo que exige el planteamiento definido.",
+    "ejemplo_aplicado": "\"¿Puede alguien de 14 años sopesar de verdad una decisión que no se puede revertir? La evidencia sobre desarrollo emocional sugiere que no.\"",
+    "error_comun": "Usar la pregunta retórica como sustituto de tomar postura ('¿será que sí, será que no?') — ahí deja de ser un recurso y se vuelve evasión.",
+    "dificultad": "media",
+    "prereqs": [
+      "CE-SKL-018"
+    ]
+  },
+  {
+    "id": "CE-SKL-021",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "estructura_introduccion",
+    "pregunta": "¿Qué dos elementos, como mínimo, tiene que tener la introducción?",
+    "respuesta_breve": "El tema (breve contexto) y la postura explícita — no uno sin el otro.",
+    "explicacion": "Una introducción completa sitúa al lector en el problema Y responde de una vez la pregunta. Si falta el contexto, no se entiende de qué caso se trata; si falta la postura, no cumple el planteamiento definido. Ambos caben en 2-3 frases.",
+    "ejemplo_aplicado": "\"Hoy en día está permitido que adolescentes de 14 años accedan a procedimientos estéticos. No estoy de acuerdo con que esto continúe así.\"",
+    "error_comun": "Escribir una introducción larga solo de contexto y dejar la postura para el final del primer párrafo o para el segundo.",
+    "dificultad": "baja",
+    "prereqs": [
+      "CE-SKL-001"
+    ]
+  },
+  {
+    "id": "CE-SKL-022",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "estructura_introduccion",
+    "pregunta": "¿La introducción debe adelantar los argumentos completos que vas a usar?",
+    "respuesta_breve": "No es obligatorio ni conviene — basta con anunciar la postura; los argumentos se desarrollan después.",
+    "explicacion": "Meter los argumentos completos en la introducción suele producir un párrafo apretado y confuso. La introducción cumple su función con tema + postura; el desarrollo es el espacio para las razones.",
+    "ejemplo_aplicado": "Suficiente: \"...no estoy de acuerdo con que se permita, principalmente por razones de madurez emocional.\" — anticipa el eje sin desarrollarlo aún.",
+    "error_comun": "Tratar de resumir los tres argumentos del desarrollo dentro de la introducción, lo que la vuelve densa y redundante.",
+    "dificultad": "baja",
+    "prereqs": [
+      "CE-SKL-021"
+    ]
+  },
+  {
+    "id": "CE-SKL-023",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "estructura_desarrollo",
+    "pregunta": "¿Cuántos argumentos por párrafo es lo recomendable en el desarrollo?",
+    "respuesta_breve": "Uno por párrafo, bien desarrollado.",
+    "explicacion": "Mezclar dos o tres razones distintas en un mismo párrafo obliga a saltar de idea en idea sin desarrollar ninguna a fondo, lo que rompe la **unidad** de ese párrafo. Un argumento por párrafo facilita que cada uno tenga premisa+razón+ejemplo completos.",
+    "ejemplo_aplicado": "Párrafo 1: argumento sobre madurez emocional. Párrafo 2: argumento sobre reversibilidad del procedimiento. Cada uno cerrado en sí mismo.",
+    "error_comun": "Meter todos los argumentos en un solo párrafo largo por evitar 'cortar' el texto — en realidad dificulta seguir el hilo de cada razón.",
+    "dificultad": "baja",
+    "prereqs": [
+      "CE-SKL-012"
+    ]
+  },
+  {
+    "id": "CE-SKL-024",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "estructura_desarrollo",
+    "pregunta": "¿En qué orden conviene presentar los argumentos del desarrollo?",
+    "respuesta_breve": "De más fuerte a más matizado, terminando con el que reconoce la objeción contraria si aplica.",
+    "explicacion": "Abrir con tu argumento más sólido establece la postura con contundencia desde temprano. Guardar el reconocimiento de la objeción contraria para el último párrafo permite que se sienta como una resolución, no como una interrupción.",
+    "ejemplo_aplicado": "Orden sugerido: argumento principal → argumento secundario → objeción reconocida y respondida → conclusión.",
+    "error_comun": "Empezar con el argumento más débil 'para ir de menos a más' — en un ensayo de 30 minutos, el lector no siempre llega con la misma atención al final.",
+    "dificultad": "media",
+    "prereqs": [
+      "CE-SKL-023"
+    ]
+  },
+  {
+    "id": "CE-SKL-025",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "estructura_conclusion",
+    "pregunta": "¿Qué diferencia hay entre cerrar el ensayo y simplemente repetir la introducción?",
+    "respuesta_breve": "Cerrar retoma la idea central con otras palabras y la redondea; repetir copia la misma frase casi literal.",
+    "explicacion": "Una conclusión que reformula la introducción palabra por palabra no aporta nada nuevo y se lee como relleno. Una buena conclusión **redondea**: retoma el eje de la postura y puede dejar abierta una implicación para reflexión posterior.",
+    "ejemplo_aplicado": "Repetitivo: 'por eso no estoy de acuerdo con que los menores de 14 años se hagan procedimientos estéticos' (idéntico a la intro). Mejor: 'proteger a los menores de decisiones irreversibles no es negarles autonomía, sino reconocer que esta se construye con el tiempo.'",
+    "error_comun": "Copiar casi literalmente la frase de la introducción como conclusión, pensando que eso demuestra coherencia.",
+    "dificultad": "media",
+    "prereqs": [
+      "CE-SKL-021"
+    ]
+  },
+  {
+    "id": "CE-SKL-026",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "estructura_conclusion",
+    "pregunta": "¿Es válido dejar la conclusión abierta, sin cerrar completamente el problema?",
+    "respuesta_breve": "Sí — el ICFES acepta explícitamente dejar abierta la posibilidad de seguir analizando el problema.",
+    "explicacion": "Una conclusión no tiene que sonar definitiva; puede reconocer que el problema sigue teniendo aristas mientras mantiene tu postura firme sobre la pregunta concreta. Lo obligatorio es que **no evada** la postura ya tomada.",
+    "ejemplo_aplicado": "\"Aunque el debate sobre autonomía juvenil seguirá abierto, la evidencia actual sobre desarrollo emocional respalda mantener esta restricción por ahora.\"",
+    "error_comun": "Confundir 'dejar abierto el problema' con 'no tomar postura al final' — la postura debe quedar firme aunque el tema en general siga abierto.",
+    "dificultad": "baja",
+    "prereqs": [
+      "CE-SKL-025"
+    ]
+  },
+  {
+    "id": "CE-SKL-027",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "unidad_tematica_sin_digresiones",
+    "pregunta": "¿Qué es el 'eje temático' que menciona el ICFES y por qué perderlo te baja de nivel?",
+    "respuesta_breve": "Es el hilo único que conecta todas las ideas del ensayo con tu postura; perderlo mete digresiones que rompen la unidad.",
+    "explicacion": "El ICFES marca la unidad temática como rasgo distintivo de nivel 3: todo el texto se desarrolla en un mismo eje. Introducir un tema conectado solo superficialmente, aunque esté bien escrito, rompe ese eje y hace que el ensayo se lea como reflexiones sueltas en vez de un argumento sostenido.",
+    "ejemplo_aplicado": "El ICFES ilustra esto con un texto que pasa de hablar de la capacidad de decidir, a los medios de comunicación, a las noticias falsas, a títulos médicos falsificados — cada salto introduce un tema nuevo sin necesidad real para la tesis.",
+    "error_comun": "Meter datos o reflexiones 'interesantes' sobre el tema general solo porque los conoces, aunque no aporten a la razón concreta que estás desarrollando.",
+    "dificultad": "media",
+    "prereqs": [
+      "CE-SKL-023"
+    ]
+  },
+  {
+    "id": "CE-SKL-028",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "unidad_tematica_sin_digresiones",
+    "pregunta": "Antes de agregar una idea al desarrollo, ¿qué pregunta rápida evita las digresiones?",
+    "respuesta_breve": "¿Esta idea es necesaria para sostener la postura que ya planteé, o solo es información relacionada con el tema?",
+    "explicacion": "Mucha información sobre un tema es verdadera y relevante en general, pero no todo lo verdadero ayuda a **justificar tu tesis específica**. Si una idea no cambia ni refuerza directamente tu argumento, no aporta unidad — aporta ruido, aunque esté bien redactada.",
+    "ejemplo_aplicado": "Dato real pero innecesario: mencionar cifras generales de la industria de la belleza si tu argumento es específicamente sobre madurez emocional a los 14 años.",
+    "error_comun": "Incluir información 'porque suena bien' o porque demuestra que investigaste el tema, sin verificar que conecta directamente con la razón que estás dando.",
+    "dificultad": "media",
+    "prereqs": [
+      "CE-SKL-027"
+    ]
+  }
+]

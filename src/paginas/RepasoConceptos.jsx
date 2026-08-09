@@ -386,7 +386,9 @@ export function RepasoConceptos({ moduloId, leccion, perfil, onCambiarPerfil, on
               <>
                 <div className="repaso-badges">
                   <span className="repaso-badge-nivel">
-                    {modulo.categorias?.[tarjeta.competencia_asociada] ?? tarjeta.competencia_asociada}
+                    {modulo.categorias?.[tarjeta.competencia_asociada] ??
+                      tarjeta.competencia_asociada ??
+                      tarjeta.bloque}
                   </span>
                 </div>
                 <div className="repaso-cloze">

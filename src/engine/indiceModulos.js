@@ -110,8 +110,30 @@ export const indiceModulos = {
     nombre: 'Comunicación Escrita',
     monograma: 'CE',
     descripcion: 'Producción de textos argumentativos.',
-    disponible: false,
+    disponible: true,
+    // Único módulo sin ítems de opción múltiple: el ICFES evalúa un
+    // ensayo argumentativo completo, no hay "banco de preguntas" que
+    // adaptar. `preguntas` queda siempre vacío (sin adapters), así que
+    // ModuloHub.jsx ya oculta "Práctica por sub-categoría" y "Simulacro
+    // completo" con las mismas condiciones que usa para cualquier otro
+    // módulo — no hace falta un flag nuevo para eso. Lo que sí es propio
+    // de este módulo son sus dos pantallas de ensayo (Ensayos Modelo /
+    // Practicar Ensayo), gateadas directamente por `moduloId ===
+    // 'comunicacion-escrita'` en ModuloHub.jsx, igual que Français hace
+    // con sus propios modos.
+    soportaSimulacro: false,
     adapters: {},
+    // Los 6 dominios temáticos de los 22 temas de ensayo (`modulo.temasEnsayo`,
+    // ver loadModulos.js) — no son una taxonomía ICFES oficial, son solo la
+    // agrupación editorial de los temas de práctica.
+    dominios: {
+      salud_y_bioetica: 'Salud y bioética',
+      tecnologia_y_sociedad: 'Tecnología y sociedad',
+      medio_ambiente: 'Medio ambiente',
+      educacion: 'Educación',
+      economia_y_trabajo: 'Economía y trabajo',
+      convivencia_y_ciudadania: 'Convivencia y ciudadanía',
+    },
   },
   'pensamiento-cientifico': {
     id: 'pensamiento-cientifico',

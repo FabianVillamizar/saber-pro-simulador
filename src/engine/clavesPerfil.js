@@ -8,3 +8,7 @@ export function claveProgreso(perfilId) {
 export function claveSRS(perfilId, moduloId) {
   return `${perfilId}:srs:${moduloId}`
 }
+
+export function claveEnsayos(perfilId) {
+  return `${perfilId}:comunicacion-escrita:ensayos`
+}

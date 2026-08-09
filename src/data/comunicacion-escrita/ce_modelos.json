@@ -1,0 +1,252 @@
+[
+  {
+    "id": "CE-MODELO-001",
+    "modulo": "comunicacion_escrita",
+    "tema_id": "ce-03",
+    "postura": "en_contra",
+    "nivel": 4,
+    "texto": "No debería permitirse que un menor de 14 años se someta a un procedimiento estético. No es una objeción moral ni religiosa: es que a esa edad todavía no existe la madurez emocional necesaria para sopesar una decisión que, en la mayoría de los casos, no tiene vuelta atrás.\n\nLa adolescencia temprana es, precisamente, la etapa en la que más varía la autopercepción del cuerpo. El rechazo hacia la propia nariz, la propia piel o el propio peso a los 14 años puede desaparecer casi por completo a los 18, simplemente porque el cerebro y la identidad todavía se están terminando de formar. Operar sobre ese malestar transitorio, tratándolo como si fuera una convicción estable y madura, equivale a arriesgar una decisión permanente sobre una etapa que, por definición, está destinada a cambiar. La presión de las redes sociales, además, agrava ese malestar sin que el adolescente tenga todavía las herramientas para distinguir una inseguridad pasajera de una necesidad real.\n\nQuienes defienden esta práctica apelan al libre desarrollo de la personalidad: si el cuerpo es mío, la decisión también debería serlo, sin importar la edad que se tenga. El argumento tiene fuerza real y no puede descartarse de plano. Sin embargo, pasa por alto que ese mismo principio ya tiene límites reconocidos en otras decisiones igual de irreversibles: a un menor de 14 años tampoco se le permite firmar un contrato de arrendamiento, adquirir una deuda ni casarse sin autorización de un adulto, precisamente porque la ley entiende que la autonomía plena no aparece de un día para otro, sino que se construye con la edad. Aplicar un criterio distinto solo para la cirugía estética, la más irreversible de estas decisiones, es en el fondo una inconsistencia.\n\nRestringir el acceso a estos procedimientos antes de los 18 años deja intacta la promesa de autonomía: solo la traslada al momento en que el adolescente pueda ejercerla con un criterio propio ya asentado, sin la presión de una autoimagen que a esa edad todavía está en construcción.",
+    "anotaciones": [
+      {
+        "fragmento": "No debería permitirse que un menor de 14 años se someta a un procedimiento estético.",
+        "categoria": "estructura",
+        "nota": "Marca el inicio de la introducción: postura explícita desde la primera frase, sin rodeos de contexto previo."
+      },
+      {
+        "fragmento": "autopercepción del cuerpo",
+        "categoria": "vocabulario_clave",
+        "nota": "Término preciso del desarrollo adolescente que sostiene el argumento sin recurrir a vaguedades como 'lo que sienten los jóvenes'."
+      },
+      {
+        "fragmento": "malestar transitorio",
+        "categoria": "vocabulario_clave",
+        "nota": "Nombra con precisión el tipo de malestar que el argumento busca distinguir de una decisión estable."
+      },
+      {
+        "fragmento": "además,",
+        "categoria": "conector",
+        "nota": "Conector de adición que suma un segundo factor (presión social) sin romper el hilo del argumento sobre madurez emocional."
+      },
+      {
+        "fragmento": "Quienes defienden esta práctica apelan al libre desarrollo de la personalidad: si el cuerpo es mío, la decisión también debería serlo, sin importar la edad que se tenga. El argumento tiene fuerza real y no puede descartarse de plano. Sin embargo, pasa por alto que ese mismo principio ya tiene límites reconocidos en otras decisiones igual de irreversibles",
+        "categoria": "contraargumento_reconocido",
+        "nota": "Reconoce la objeción más fuerte del lado contrario —el libre desarrollo de la personalidad— antes de responderla, la marca distintiva de nivel 4."
+      },
+      {
+        "fragmento": "autonomía plena",
+        "categoria": "vocabulario_clave",
+        "nota": "Retoma el concepto clave de la objeción contraria para poder matizarlo en la misma frase."
+      },
+      {
+        "fragmento": "no aparece de un día para otro, sino que se construye con la edad",
+        "categoria": "recurso_estilistico",
+        "nota": "Estructura de contraste que reencuadra la restricción como aplazamiento en vez de negación."
+      },
+      {
+        "fragmento": "Restringir el acceso a estos procedimientos antes de los 18 años deja intacta la promesa de autonomía",
+        "categoria": "estructura",
+        "nota": "Marca el inicio de la conclusión, retomando la idea de autonomía sin repetir literalmente la frase de la introducción."
+      }
+    ]
+  },
+  {
+    "id": "CE-MODELO-002",
+    "modulo": "comunicacion_escrita",
+    "tema_id": "ce-06",
+    "postura": "termino_medio",
+    "nivel": 4,
+    "texto": "En cualquier salón de clase de hoy es tan normal ver un chatbot de inteligencia artificial abierto junto al cuaderno como ver una calculadora. Prohibir por completo el uso de inteligencia artificial generativa en las tareas escolares sería desconocer esa realidad; permitirlo sin ningún límite, en cambio, terminaría por vaciar de sentido la evaluación misma. La solución no está en los extremos: la IA generativa debería permitirse en el trabajo formativo, pero prohibirse en las evaluaciones que definen la nota final del estudiante.\n\nEsta distinción no es un capricho. Una tarea formativa —resolver ejercicios en casa, practicar un tema antes del examen— existe para que el estudiante identifique qué no entiende todavía; usar una herramienta que resuelve el ejercicio por él no le hace daño a nadie más que a sí mismo, y de hecho puede servirle para revisar su propio razonamiento contra el de la IA. Una evaluación, en cambio, existe para certificar ante terceros que ese aprendizaje ya ocurrió. Si la IA responde por el estudiante en ese momento específico, el certificado deja de significar lo que dice significar.\n\nHay quienes sostienen que la única forma de proteger la integridad académica es prohibir el uso de estas herramientas en todo momento, dentro y fuera del aula. El temor no es infundado: una prohibición parcial exige más control por parte del docente. Pero una prohibición total es, en la práctica, inaplicable —no hay forma de verificar qué pasó en la casa de cada estudiante mientras hacía una tarea— y termina empujando el uso de la IA hacia la clandestinidad, donde nadie enseña a usarla con criterio. Regular el momento evaluativo, que sí puede vigilarse, es más realista que intentar regular cada minuto del proceso de aprendizaje.\n\nLa pregunta relevante no es si la inteligencia artificial debe entrar o no al salón de clase; ya entró. La pregunta es en qué momento su presencia deja de ayudar a aprender y empieza a sustituir la prueba de que se aprendió, y ese momento es, con claridad, el de la evaluación.",
+    "anotaciones": [
+      {
+        "fragmento": "La solución no está en los extremos:",
+        "categoria": "estructura",
+        "nota": "Señala el punto exacto donde arranca el planteamiento condicional, después del contexto inicial."
+      },
+      {
+        "fragmento": "trabajo formativo",
+        "categoria": "vocabulario_clave",
+        "nota": "Precisa a qué tipo de tarea aplica el permiso, evitando que el término medio suene evasivo."
+      },
+      {
+        "fragmento": "en cambio,",
+        "categoria": "conector",
+        "nota": "Conector de contraste que separa dos escenarios (formativo/evaluativo) sin necesitar una oración nueva."
+      },
+      {
+        "fragmento": "clandestinidad",
+        "categoria": "vocabulario_clave",
+        "nota": "Nombra el riesgo que evita la prohibición total al empujar el uso fuera de la vista del docente."
+      },
+      {
+        "fragmento": "Hay quienes sostienen que la única forma de proteger la integridad académica es prohibir el uso de estas herramientas en todo momento, dentro y fuera del aula. El temor no es infundado: una prohibición parcial exige más control por parte del docente. Pero una prohibición total es, en la práctica, inaplicable",
+        "categoria": "contraargumento_reconocido",
+        "nota": "Reconoce la objeción de integridad académica y la valida antes de mostrar por qué la prohibición total no la resuelve."
+      },
+      {
+        "fragmento": "certificar ante terceros",
+        "categoria": "vocabulario_clave",
+        "nota": "Precisa la función social de una evaluación, distinta de la de una tarea formativa."
+      },
+      {
+        "fragmento": "La pregunta relevante no es si la inteligencia artificial debe entrar o no al salón de clase; ya entró.",
+        "categoria": "recurso_estilistico",
+        "nota": "Plantea y resuelve una pregunta retórica en la misma frase, dándole ritmo a la conclusión."
+      },
+      {
+        "fragmento": "La pregunta es en qué momento su presencia deja de ayudar a aprender y empieza a sustituir la prueba de que se aprendió",
+        "categoria": "estructura",
+        "nota": "Marca el cierre del argumento central, retomando la distinción formativo/evaluativo sin repetirla literalmente."
+      }
+    ]
+  },
+  {
+    "id": "CE-MODELO-003",
+    "modulo": "comunicacion_escrita",
+    "tema_id": "ce-10",
+    "postura": "a_favor",
+    "nivel": 4,
+    "texto": "Una bolsa plástica se usa, en promedio, durante minutos y tarda siglos en descomponerse. Con esa desproporción de por medio, Colombia debería prohibir la venta de plástico de un solo uso en todo el territorio nacional, no solo en los municipios que ya lo han hecho por su cuenta.\n\nEl argumento ambiental no es abstracto ni hipotético: varios municipios colombianos ya prohibieron bolsas y empaques de un solo uso, y la experiencia muestra que el comercio se adapta sin desaparecer. Lo que sí desaparece, cuando la prohibición se aplica de verdad, es el plástico que termina en ríos y quebradas, donde no se degrada sino que se fragmenta en partículas cada vez más pequeñas que ya se han encontrado hasta en el agua potable. En consecuencia, dejar esa decisión al criterio de cada alcaldía, en lugar de fijarla como política nacional, prolonga innecesariamente un daño que ya se sabe cómo evitar.\n\nLa objeción más seria viene del comercio pequeño: para una tienda de barrio, el plástico es la opción más barata para empacar cualquier cosa, y una prohibición abrupta podría golpear justo a quien menos margen tiene para asumir un empaque más costoso. Esa preocupación es legítima y no debería ignorarse. Escalonar la prohibición —dar un plazo de transición de uno o dos años, con subsidios o créditos blandos para los comercios más pequeños— evita que el tendero tenga que elegir entre pagar el arriendo este mes y cumplir con la nueva norma, tal como ya ocurrió en otros países de la región sin que el comercio local colapsara.\n\nUna prohibición bien diseñada, con tiempo suficiente para adaptarse, no sacrifica la economía local por el medio ambiente: evita que ambos sigan pagando el costo de un material que ya demostró ser más caro a largo plazo de lo que parece en la caja registradora.",
+    "anotaciones": [
+      {
+        "fragmento": "Con esa desproporción de por medio, Colombia debería prohibir la venta de plástico de un solo uso en todo el territorio nacional",
+        "categoria": "estructura",
+        "nota": "Marca el final de la introducción con la postura explícita, tras la imagen inicial de contexto."
+      },
+      {
+        "fragmento": "se fragmenta en partículas",
+        "categoria": "vocabulario_clave",
+        "nota": "Término técnico que explica por qué el plástico sigue siendo un problema incluso después de 'desaparecer' de la vista."
+      },
+      {
+        "fragmento": "En consecuencia,",
+        "categoria": "conector",
+        "nota": "Conector de causa-efecto que enlaza el dato ambiental con la crítica a dejar la decisión en manos de cada municipio."
+      },
+      {
+        "fragmento": "La objeción más seria viene del comercio pequeño: para una tienda de barrio, el plástico es la opción más barata para empacar cualquier cosa, y una prohibición abrupta podría golpear justo a quien menos margen tiene para asumir un empaque más costoso. Esa preocupación es legítima y no debería ignorarse.",
+        "categoria": "contraargumento_reconocido",
+        "nota": "Reconoce el argumento económico del comercio pequeño y lo valida antes de proponer una alternativa."
+      },
+      {
+        "fragmento": "evita que el tendero tenga que elegir entre pagar el arriendo este mes y cumplir con la nueva norma",
+        "categoria": "recurso_estilistico",
+        "nota": "Imagen concreta que traduce el impacto económico abstracto en una decisión cotidiana reconocible."
+      },
+      {
+        "fragmento": "créditos blandos",
+        "categoria": "vocabulario_clave",
+        "nota": "Nombra la herramienta de política pública que suaviza el argumento económico en contra."
+      },
+      {
+        "fragmento": "plazo de transición",
+        "categoria": "vocabulario_clave",
+        "nota": "Precisa el mecanismo de transición que responde directamente a la objeción reconocida."
+      },
+      {
+        "fragmento": "Una prohibición bien diseñada, con tiempo suficiente para adaptarse, no sacrifica la economía local por el medio ambiente",
+        "categoria": "estructura",
+        "nota": "Marca el inicio de la conclusión, retomando el equilibrio entre economía y medio ambiente sin repetir la introducción."
+      }
+    ]
+  },
+  {
+    "id": "CE-MODELO-004",
+    "modulo": "comunicacion_escrita",
+    "tema_id": "ce-13",
+    "postura": "en_contra",
+    "nivel": 4,
+    "texto": "El puntaje del Icfes decide, en la práctica, a qué universidad puede aspirar un bachiller colombiano: cada institución fija su propio corte, y quedarse unos pocos puntos por debajo cierra la puerta sin importar el resto de la trayectoria del estudiante. Ese peso desproporcionado es un error. El Icfes no debería seguir siendo el criterio principal de admisión a la educación superior.\n\nUn examen de un solo día está sujeto a variables que no tienen nada que ver con la capacidad real del estudiante: una mala noche de sueño, un episodio de ansiedad o un problema familiar esa semana pueden bajar un puntaje de forma permanente, sin que eso refleje el rendimiento sostenido de tres años de bachillerato. Reducir toda una trayectoria académica a un número obtenido en una sola mañana castiga especialmente a quien no tiene los recursos para prepararse con cursos intensivos ni para repetir el examen si le va mal.\n\nQuienes defienden el peso actual del Icfes argumentan que, sin un criterio estandarizado, la admisión quedaría en manos de procesos subjetivos y fáciles de manipular. Es una preocupación válida: ya existen casos, en otros países, de admisiones arbitrarias basadas en ensayos o entrevistas mal diseñadas. Sin embargo, ese temor confunde dos cosas distintas: tener una referencia común para todos los aspirantes, y depender de una sola cifra para decidirlo todo. Algunas universidades públicas, de hecho, ya complementan la prueba estandarizada con un examen propio, y eso no ha vuelto su proceso de admisión menos riguroso ni más manipulable: lo ha hecho más completo.\n\nMantener el Icfes como una referencia dentro de un conjunto más amplio de criterios —promedio del bachillerato, algún componente de la carrera específica, incluso una entrevista breve— conservaría lo que el examen sí mide bien, sin dejar que un mal día decida el futuro académico de alguien.",
+    "anotaciones": [
+      {
+        "fragmento": "El Icfes no debería seguir siendo el criterio principal de admisión a la educación superior.",
+        "categoria": "estructura",
+        "nota": "Marca el planteamiento explícito, después de dos frases de contexto sobre cómo funciona el puntaje."
+      },
+      {
+        "fragmento": "rendimiento sostenido",
+        "categoria": "vocabulario_clave",
+        "nota": "Contrasta un solo día de examen con un desempeño de años, el núcleo del primer argumento."
+      },
+      {
+        "fragmento": "Quienes defienden el peso actual del Icfes argumentan que, sin un criterio estandarizado, la admisión quedaría en manos de procesos subjetivos y fáciles de manipular. Es una preocupación válida: ya existen casos, en otros países, de admisiones arbitrarias basadas en ensayos o entrevistas mal diseñadas.",
+        "categoria": "contraargumento_reconocido",
+        "nota": "Reconoce que sin estandarización la admisión podría volverse arbitraria, antes de matizar esa preocupación."
+      },
+      {
+        "fragmento": "Sin embargo,",
+        "categoria": "conector",
+        "nota": "Conector de contraste que introduce el matiz a la objeción reconocida."
+      },
+      {
+        "fragmento": "ese temor confunde dos cosas distintas: tener una referencia común para todos los aspirantes, y depender de una sola cifra para decidirlo todo.",
+        "categoria": "recurso_estilistico",
+        "nota": "Distingue dos ideas que la objeción contraria confunde, en vez de simplemente negarla."
+      },
+      {
+        "fragmento": "prueba estandarizada",
+        "categoria": "vocabulario_clave",
+        "nota": "Nombra con precisión lo que se complementa, no se reemplaza, evitando que suene a eliminar el examen."
+      },
+      {
+        "fragmento": "Mantener el Icfes como una referencia dentro de un conjunto más amplio de criterios",
+        "categoria": "estructura",
+        "nota": "Marca el inicio de la conclusión con la propuesta concreta de un criterio ampliado."
+      },
+      {
+        "fragmento": "sin dejar que un mal día decida el futuro académico de alguien",
+        "categoria": "recurso_estilistico",
+        "nota": "Cierra con una imagen concreta (un mal día) que hace tangible el riesgo abstracto del argumento."
+      }
+    ]
+  },
+  {
+    "id": "CE-MODELO-005",
+    "modulo": "comunicacion_escrita",
+    "tema_id": "ce-18",
+    "postura": "a_favor",
+    "nivel": 4,
+    "texto": "Un repartidor pedaleando bajo la lluvia para completar un pedido antes de que se enfríe no es, en ningún sentido relevante, un socio autónomo de la plataforma que le asigna la ruta. Los repartidores de aplicaciones deberían tener los mismos derechos laborales que un empleado formal, con seguridad social y prestaciones incluidas, aunque conserven cierta flexibilidad de horario.\n\nLa etiqueta de 'trabajador independiente' describe mal lo que ocurre en la práctica. Según estimaciones de investigadores que han estudiado el sector, cerca de doscientas mil personas dependen en Colombia de este tipo de plataformas para transportar pasajeros o repartir comida, y para la gran mayoría es su única fuente de ingreso, no un trabajo ocasional. Un informe internacional que evaluó plataformas colombianas encontró que solo una fracción pequeña de ellas pagaba a sus trabajadores un ingreso equivalente al salario mínimo. La autonomía que supuestamente justifica dejarlos fuera del sistema de protección laboral no se refleja en sus ingresos.\n\nEl argumento en contra más sólido es económico: formalizar esta relación laboral encarecería el servicio y podría llevar a que las plataformas reduzcan operaciones o se retiren de ciudades menos rentables, dejando sin ingreso a quienes hoy dependen de ellas. No es un riesgo menor. Pero la experiencia reciente sugiere que el escenario no tiene que ser tan extremo: una reforma que reconoció una relación laboral especial para este sector, sin igualarlo del todo a un contrato tradicional, mostró que es posible regular de forma gradual sin que las plataformas grandes abandonaran el mercado colombiano.\n\nReconocerles derechos laborales a los repartidores corrige una asimetría real: hoy, el riesgo del mal clima, el accidente o la enfermedad recae por completo sobre la persona que menos puede permitírselo, mientras la plataforma que se beneficia de su trabajo queda protegida de esos costos por completo.",
+    "anotaciones": [
+      {
+        "fragmento": "Un repartidor pedaleando bajo la lluvia para completar un pedido antes de que se enfríe no es, en ningún sentido relevante, un socio autónomo de la plataforma que le asigna la ruta.",
+        "categoria": "recurso_estilistico",
+        "nota": "Imagen concreta que abre el ensayo negando, sin decirlo de forma abstracta, la idea de autonomía plena del repartidor."
+      },
+      {
+        "fragmento": "Los repartidores de aplicaciones deberían tener los mismos derechos laborales que un empleado formal",
+        "categoria": "estructura",
+        "nota": "Marca el planteamiento explícito justo después de la imagen inicial."
+      },
+      {
+        "fragmento": "trabajador independiente",
+        "categoria": "vocabulario_clave",
+        "nota": "Retoma entre comillas el término que las plataformas usan para evitar la categoría de empleado."
+      },
+      {
+        "fragmento": "El argumento en contra más sólido es económico: formalizar esta relación laboral encarecería el servicio y podría llevar a que las plataformas reduzcan operaciones o se retiren de ciudades menos rentables, dejando sin ingreso a quienes hoy dependen de ellas. No es un riesgo menor.",
+        "categoria": "contraargumento_reconocido",
+        "nota": "Reconoce el argumento económico más fuerte en contra —el riesgo de que las plataformas se retiren— antes de matizarlo."
+      },
+      {
+        "fragmento": "Pero la experiencia reciente sugiere que",
+        "categoria": "conector",
+        "nota": "Conector de contraste que introduce la respuesta al argumento económico reconocido."
+      },
+      {
+        "fragmento": "relación laboral especial",
+        "categoria": "vocabulario_clave",
+        "nota": "Nombra la figura regulatoria intermedia que sostiene la respuesta al contraargumento."
+      },
+      {
+        "fragmento": "Reconocerles derechos laborales a los repartidores corrige una asimetría real",
+        "categoria": "estructura",
+        "nota": "Marca el inicio de la conclusión, retomando la idea de asimetría planteada implícitamente desde el principio."
+      },
+      {
+        "fragmento": "el riesgo del mal clima, el accidente o la enfermedad recae por completo sobre la persona que menos puede permitírselo, mientras la plataforma que se beneficia de su trabajo queda protegida de esos costos por completo",
+        "categoria": "recurso_estilistico",
+        "nota": "Estructura paralela (recae sobre X / mientras Y queda protegida) que hace tangible la asimetría sin usar la fórmula 'no es... sino'."
+      }
+    ]
+  }
+]

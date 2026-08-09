@@ -1,0 +1,389 @@
+[
+  {
+    "id": "CE-SKL-029",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "cohesion_por_referencia",
+    "pregunta": "¿Qué es la cohesión por referencia y por qué el ICFES la pide en nivel 4?",
+    "respuesta_breve": "Evitar repetir siempre el mismo sustantivo, usando pronombres, sinónimos o expresiones que refieran a lo ya dicho.",
+    "explicacion": "Nivel 4 menciona \"referencias gramaticales\" como mecanismo cohesivo aparte de los conectores. Repetir la misma palabra en cada frase se lee mecánico; alternar con pronombres o expresiones equivalentes mantiene la **fluidez** sin perder claridad sobre a quién te refieres.",
+    "ejemplo_aplicado": "\"Los adolescentes de 14 años aún no completan su desarrollo emocional. Esta población, además, suele decidir influida por la presión social.\" — 'esta población' evita repetir 'los adolescentes'.",
+    "error_comun": "Repetir el mismo sustantivo en cada oración por miedo a la ambigüedad, cuando un pronombre o sinónimo claro habría sido más fluido.",
+    "dificultad": "media",
+    "prereqs": [
+      "CE-SKL-023"
+    ]
+  },
+  {
+    "id": "CE-SKL-030",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "cohesion_por_referencia",
+    "pregunta": "¿Cuándo un pronombre o referencia genera ambigüedad en vez de cohesión?",
+    "respuesta_breve": "Cuando no queda claro a cuál de dos posibles sustantivos anteriores se refiere.",
+    "explicacion": "Si mencionas dos entidades distintas y luego usas 'este' o 'ella' sin que sea obvio a cuál te refieres, la referencia falla su propósito: en vez de dar fluidez, crea **ambigüedad**, justo lo que 'forma de expresión' penaliza.",
+    "ejemplo_aplicado": "Confuso: \"los cirujanos hablaron con los padres y luego él tomó la decisión final.\" ¿Quién es 'él'? Claro: \"...y luego el padre tomó la decisión final.\"",
+    "error_comun": "Usar 'este/esta/él/ella' automáticamente para no repetir un sustantivo, sin verificar que el referente quede inequívoco para el lector.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CE-SKL-029"
+    ]
+  },
+  {
+    "id": "CE-SKL-031",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "conectores_de_adicion",
+    "pregunta": "¿Para qué sirven los conectores de adición y cuáles son los más naturales en un ensayo?",
+    "respuesta_breve": "Suman una idea más a la ya expuesta, sin contraste ni consecuencia: 'además', 'asimismo', 'de igual manera'.",
+    "explicacion": "Se usan cuando el siguiente argumento refuerza el anterior en la misma dirección, no cuando lo contradice ni cuando es consecuencia de él — confundir esto con un conector de **contraste** o **causal** desorienta al lector sobre la relación lógica entre ideas.",
+    "ejemplo_aplicado": "\"Los adolescentes aún no completan su desarrollo emocional. Además, la evidencia clínica muestra que gran parte del malestar corporal en esa edad es transitorio.\"",
+    "error_comun": "Usar 'además' cuando la segunda idea en realidad contradice o matiza la primera — ahí correspondería 'sin embargo' o 'no obstante'.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "CE-SKL-032",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "conectores_de_adicion",
+    "pregunta": "¿'Asimismo' y 'de igual manera' significan exactamente lo mismo que 'además'?",
+    "respuesta_breve": "Función similar, pero 'asimismo' suena más formal y 'de igual manera' sugiere semejanza de forma, no solo suma.",
+    "explicacion": "Variar entre estos evita repetir siempre 'además', pero hay que usarlos donde encajan: 'de igual manera' funciona mejor cuando el segundo argumento sigue un **patrón parecido** al primero, no para cualquier idea adicional.",
+    "ejemplo_aplicado": "\"El teletrabajo reduce tiempos de desplazamiento. Asimismo, permite conciliar mejor la vida familiar.\"",
+    "error_comun": "Repetir 'además' en cada párrafo del ensayo cuando hay sinónimos disponibles que varían el registro sin cambiar el sentido.",
+    "dificultad": "baja",
+    "prereqs": [
+      "CE-SKL-031"
+    ]
+  },
+  {
+    "id": "CE-SKL-033",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "conectores_de_contraste",
+    "pregunta": "¿Qué diferencia hay entre 'sin embargo', 'no obstante' y 'en cambio'?",
+    "respuesta_breve": "Los tres marcan contraste, pero 'en cambio' compara dos opciones distintas mientras los otros dos matizan o contradicen la idea anterior.",
+    "explicacion": "'Sin embargo' y 'no obstante' introducen una objeción o matiz a lo que se acaba de decir. 'En cambio' funciona mejor comparando dos elementos (X hace una cosa, Y en cambio hace otra), no tanto para contradecir tu propio argumento.",
+    "ejemplo_aplicado": "\"Quienes defienden esta práctica argumentan que restringirla vulnera el libre desarrollo. Sin embargo, ese principio presupone una capacidad de autodeterminación...\" — matiza el propio argumento.",
+    "error_comun": "Usar 'en cambio' para introducir una objeción a tu propia idea, cuando su función natural es comparar dos cosas distintas entre sí.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CE-SKL-034",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "conectores_de_contraste",
+    "pregunta": "¿Por qué 'aunque' es distinto de 'sin embargo' aunque ambos marquen contraste?",
+    "respuesta_breve": "'Aunque' concede algo dentro de la misma oración; 'sin embargo' abre una oración nueva después de la idea concedida.",
+    "explicacion": "'Aunque' subordina la concesión a la oración principal en una sola frase fluida; 'sin embargo' necesita que la idea concedida ya se haya cerrado como oración independiente. Elegir mal genera oraciones mal puntuadas o cortadas de forma abrupta.",
+    "ejemplo_aplicado": "Con 'aunque': \"Aunque el libre desarrollo de la personalidad es un derecho real, no aplica sin límites a decisiones irreversibles.\" Con 'sin embargo': la misma idea en dos oraciones separadas.",
+    "error_comun": "Escribir 'aunque... sin embargo...' en la misma oración, duplicando la marca de contraste cuando solo hace falta una.",
+    "dificultad": "media",
+    "prereqs": [
+      "CE-SKL-033"
+    ]
+  },
+  {
+    "id": "CE-SKL-035",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "conectores_de_contraste",
+    "pregunta": "¿Los conectores de contraste son solo para el contraargumento reconocido (nivel 4)?",
+    "respuesta_breve": "No — también sirven dentro de un mismo argumento para matizar o limitar tu propia afirmación.",
+    "explicacion": "Además de introducir la objeción contraria, el contraste sirve para que tú mismo delimites el **alcance** de tu argumento, lo que da precisión y evita que suene absoluto o simplista.",
+    "ejemplo_aplicado": "\"La semana laboral de cuatro días mejora el bienestar. No obstante, su viabilidad depende del sector: no aplica igual a manufactura que a servicios.\"",
+    "error_comun": "Reservar el contraste únicamente para el párrafo de contraargumento y dejar el resto del ensayo con afirmaciones absolutas sin matices.",
+    "dificultad": "media",
+    "prereqs": [
+      "CE-SKL-033"
+    ]
+  },
+  {
+    "id": "CE-SKL-036",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "conectores_de_causa_efecto",
+    "pregunta": "¿Qué distingue 'por lo tanto' de 'debido a que'?",
+    "respuesta_breve": "'Por lo tanto' introduce la consecuencia después de la causa; 'debido a que' introduce la causa antes o después del efecto en la misma oración.",
+    "explicacion": "El orden de la oración cambia según cuál uses: 'por lo tanto' va después de la razón ya dada como oración cerrada; 'debido a que' presenta la razón como subordinada, dentro de la misma oración que la consecuencia.",
+    "ejemplo_aplicado": "Con 'por lo tanto': \"La evidencia clínica muestra que el malestar corporal es transitorio. Por lo tanto, condicionar el acceso a la mayoría de edad no niega un derecho.\" Con 'debido a que': \"No niega un derecho, debido a que el malestar corporal suele ser transitorio.\"",
+    "error_comun": "Usar 'por lo tanto' para introducir una causa en vez de una consecuencia, invirtiendo la lógica de la oración.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "CE-SKL-037",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "conectores_de_causa_efecto",
+    "pregunta": "¿Cuándo conviene usar 'en consecuencia' en vez de 'por lo tanto'?",
+    "respuesta_breve": "Cuando la consecuencia es más formal o de mayor peso argumentativo, típicamente cerrando un párrafo.",
+    "explicacion": "Son intercambiables en la mayoría de los casos, pero 'en consecuencia' suena ligeramente más formal y funciona bien para **cerrar la idea de un párrafo entero**, mientras 'por lo tanto' es más versátil dentro de la oración.",
+    "ejemplo_aplicado": "\"...la restricción actual del ICFES como único criterio limita a estudiantes con otras fortalezas. En consecuencia, admitir criterios complementarios ampliaría el acceso real a la educación superior.\"",
+    "error_comun": "Repetir 'por lo tanto' en cada párrafo causal del ensayo sin variar con 'en consecuencia' o 'debido a que'.",
+    "dificultad": "baja",
+    "prereqs": [
+      "CE-SKL-036"
+    ]
+  },
+  {
+    "id": "CE-SKL-038",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "conectores_de_conclusion",
+    "pregunta": "¿Qué función cumple un conector de conclusión como 'en síntesis' o 'en definitiva'?",
+    "respuesta_breve": "Señalan al lector que empieza el cierre, ayudando a reconocer la estructura del texto de un vistazo.",
+    "explicacion": "Estos conectores son también una marca de **estructura**: le avisan al evaluador que ahí arranca la conclusión, lo que facilita identificar las tres partes del ensayo sin ambigüedad.",
+    "ejemplo_aplicado": "\"En síntesis, proteger a los menores de decisiones irreversibles no es negarles autonomía, sino reconocer que esta se construye con el tiempo.\"",
+    "error_comun": "Omitir cualquier marca de cierre y pasar directo de un argumento a la conclusión sin señal, lo que dificulta ver dónde termina el desarrollo.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "CE-SKL-039",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "conectores_de_conclusion",
+    "pregunta": "¿'Por todo lo anterior' es intercambiable con 'en síntesis'?",
+    "respuesta_breve": "Casi, pero 'por todo lo anterior' enfatiza que la conclusión se deriva de los argumentos dados, y 'en síntesis' enfatiza el resumen.",
+    "explicacion": "La diferencia es sutil: 'por todo lo anterior' funciona mejor cuando quieres remarcar que tu postura es **consecuencia lógica** de lo argumentado; 'en síntesis' funciona mejor cuando vas a condensar la idea central en una frase nueva.",
+    "ejemplo_aplicado": "\"Por todo lo anterior, no estoy de acuerdo con que los menores de 14 años puedan practicarse cirugías plásticas.\"",
+    "error_comun": "Usar siempre la misma fórmula de cierre en todos los ensayos que practiques — variar el conector de conclusión demuestra manejo del registro.",
+    "dificultad": "baja",
+    "prereqs": [
+      "CE-SKL-038"
+    ]
+  },
+  {
+    "id": "CE-SKL-040",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "registro_formal_vs_coloquial",
+    "pregunta": "¿Por qué 'o sea' o 'digamos que' bajan el nivel de un ensayo aunque la idea sea correcta?",
+    "respuesta_breve": "Porque son marcadores de oralidad coloquial que el ICFES evalúa como parte de la forma de expresión, no del contenido.",
+    "explicacion": "El ensayo se evalúa como texto escrito **formal**; los marcadores típicos del habla oral espontánea rompen ese registro y se leen como falta de control del lenguaje escrito, incluso si la idea detrás es válida.",
+    "ejemplo_aplicado": "Coloquial: \"o sea, yo creo que no deberían permitirlo.\" Formal: \"considero que no debería permitirse.\"",
+    "error_comun": "Trasladar muletillas del habla cotidiana al ensayo sin notarlo, especialmente bajo presión de tiempo.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "CE-SKL-041",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "registro_formal_vs_coloquial",
+    "pregunta": "¿Qué expresiones formales pueden reemplazar 'yo pienso que' para no repetirla todo el ensayo?",
+    "respuesta_breve": "'Considero que', 'es evidente que', 'cabe destacar que', 'resulta claro que', entre otras.",
+    "explicacion": "Repetir 'yo pienso que' en cada párrafo se lee monótono y poco variado. Alternar estas fórmulas mantiene el registro formal y le da distinto peso a la afirmación que sigue, según cuál elijas.",
+    "ejemplo_aplicado": "\"Es evidente que la madurez emocional a los 14 años aún está en desarrollo.\" / \"Cabe destacar que la reversibilidad del procedimiento es un factor central.\"",
+    "error_comun": "Usar 'yo pienso que' como única fórmula en los tres párrafos del desarrollo, lo que se lee repetitivo.",
+    "dificultad": "baja",
+    "prereqs": [
+      "CE-SKL-040"
+    ]
+  },
+  {
+    "id": "CE-SKL-042",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "registro_formal_vs_coloquial",
+    "pregunta": "¿Usar primera persona ('yo creo', 'en mi opinión') está prohibido en el ensayo?",
+    "respuesta_breve": "No está prohibido, pero conviene dosificarlo — el peso debe estar en el argumento, no en quién opina.",
+    "explicacion": "El ensayo es tu postura, así que la primera persona es válida, pero repetir constantemente 'yo pienso' sobrecarga el foco en el sujeto que opina en vez del argumento mismo. Fórmulas impersonales distribuyen mejor el **peso retórico**.",
+    "ejemplo_aplicado": "En vez de \"yo pienso que esto es injusto porque yo creo que...\", mejor: \"esto resulta injusto porque...\"",
+    "error_comun": "Evitar la primera persona por completo pensando que es obligatorio — no lo es, solo conviene no abusar de ella.",
+    "dificultad": "media",
+    "prereqs": [
+      "CE-SKL-040"
+    ]
+  },
+  {
+    "id": "CE-SKL-043",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "errores_ortograficos_frecuentes",
+    "pregunta": "¿Cuál es la diferencia entre 'porqué', 'por qué', 'porque' y 'por que'?",
+    "respuesta_breve": "'Por qué' pregunta (con tilde, dos palabras); 'porque' explica (una palabra, sin tilde); 'porqué' es un sustantivo (el motivo); 'por que' aparece con preposición + relativo.",
+    "explicacion": "Son homófonos que se confunden todo el tiempo porque suenan igual. En un ensayo argumentativo el más frecuente y crítico es 'porque', ya que introduce las razones de tus argumentos — un error aquí afecta directamente la claridad de tu **justificación**, no solo la ortografía superficial.",
+    "ejemplo_aplicado": "\"No estoy de acuerdo, porque la madurez emocional no está completa.\" (explica) / \"¿Por qué se permite esto?\" (pregunta) / \"Ese es el porqué de mi postura.\" (sustantivo).",
+    "error_comun": "Escribir 'por qué' con tilde en un lugar donde corresponde 'porque' sin tilde, cambiando sin querer el sentido de la oración.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "CE-SKL-044",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "errores_ortograficos_frecuentes",
+    "pregunta": "¿Cómo se distinguen 'a ver' de 'haber', y 'hay' de 'ahí' y 'ay'?",
+    "respuesta_breve": "'Haber' es el verbo (hay que, va a haber); 'a ver' es preposición + infinitivo 'ver'. 'Hay' es del verbo haber (existencia); 'ahí' es lugar; 'ay' es exclamación.",
+    "explicacion": "Son de los errores más comunes al escribir rápido, como en un examen cronometrado. Aunque suenan igual, cada uno cumple una función gramatical distinta, y confundirlos es justo el tipo de error que el ICFES señala como algo que puede impedir comprender sin ambigüedad si genera una lectura distinta a la intencionada.",
+    "ejemplo_aplicado": "\"Vamos a ver qué opciones hay.\" (correcto) vs. \"vamos haber qué opciones ahí\" (incorrecto, cambia la función gramatical de cada palabra).",
+    "error_comun": "Escribir 'haber' cuando corresponde 'a ver', error frecuente por escribir rápido sin releer.",
+    "dificultad": "baja",
+    "prereqs": [
+      "CE-SKL-043"
+    ]
+  },
+  {
+    "id": "CE-SKL-045",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "errores_ortograficos_frecuentes",
+    "pregunta": "El PDF oficial usa un ejemplo real de cómo un error ortográfico cambia el sentido completo de una frase — ¿cuál es?",
+    "respuesta_breve": "\"Como medico, echo cosas buenas\" puede leerse de dos formas opuestas según si 'médico' y 'hecho' están bien o mal escritas.",
+    "explicacion": "Sin tildes ni la 'h', la frase se lee como conjugaciones de 'medicar' y 'echar' ('arrojo cosas buenas'); con tilde en 'médico' y con 'he hecho' bien escritos, se lee 'como médico, he hecho cosas buenas'. El ICFES usa este ejemplo para mostrar que la **forma de expresión** no es un detalle cosmético: una tilde o una letra faltante puede cambiar el significado completo de la idea que querías comunicar.",
+    "ejemplo_aplicado": "El ICFES aclara explícitamente que evalúa lo que efectivamente escribiste, no lo que probablemente querías decir — por eso revisar tildes y letras mudas antes de entregar no es opcional.",
+    "error_comun": "Asumir que el evaluador 'entenderá lo que quisiste decir' pese al error de tilde o letra faltante.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CE-SKL-043"
+    ]
+  },
+  {
+    "id": "CE-SKL-046",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "puntuacion_que_afecta_sentido",
+    "pregunta": "¿Por qué la coma antes de 'pero' o 'sin embargo' no es opcional?",
+    "respuesta_breve": "Porque marca dónde termina la idea afirmada y empieza el matiz — sin ella, las dos ideas pueden leerse como una sola cosa.",
+    "explicacion": "Una coma antes de un conector de contraste señala una pausa lógica real: divide la afirmación de su matiz. Omitirla puede hacer que la oración se lea de corrido y pierda la fuerza del contraste, obligando al lector a releer para entender la estructura.",
+    "ejemplo_aplicado": "\"El derecho es real, pero no aplica sin límites.\" Sin coma se lee más confuso y pierde la pausa que separa afirmación y matiz.",
+    "error_comun": "Omitir sistemáticamente las comas antes de conectores de contraste, lo que el ICFES puede leer como error que afecta la fluidez.",
+    "dificultad": "media",
+    "prereqs": [
+      "CE-SKL-033"
+    ]
+  },
+  {
+    "id": "CE-SKL-047",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "puntuacion_que_afecta_sentido",
+    "pregunta": "¿Cómo una coma mal puesta (o ausente) puede cambiar el sentido de una frase, no solo su fluidez?",
+    "respuesta_breve": "Cambiando a qué palabra modifica una cláusula, generando una lectura distinta a la intencionada.",
+    "explicacion": "La falta de coma en una cláusula explicativa puede convertirla en una cláusula especificativa (o viceversa), cambiando el significado. Es el mismo tipo de ambigüedad que el ICFES ilustra con su ejemplo de tildes: un signo de puntuación no es decoración, es **información gramatical**.",
+    "ejemplo_aplicado": "\"Los estudiantes, que llegaron tarde, no pudieron entrar\" (todos llegaron tarde) vs. \"los estudiantes que llegaron tarde no pudieron entrar\" (solo los que llegaron tarde).",
+    "error_comun": "Tratar las comas como pausas para respirar en vez de como marcas gramaticales que cambian qué modifica qué.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CE-SKL-046"
+    ]
+  },
+  {
+    "id": "CE-SKL-048",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "puntuacion_que_afecta_sentido",
+    "pregunta": "¿Qué revisar de puntuación en los últimos minutos antes de entregar?",
+    "respuesta_breve": "Que cada conector de contraste y causa-efecto tenga su coma, y que ninguna oración larga se lea ambigua en una lectura rápida.",
+    "explicacion": "Con el tiempo limitado no da para revisar todo, así que prioriza: conectores clave (sin embargo, no obstante, por lo tanto suelen llevar coma), y una lectura rápida de las oraciones más largas del ensayo, donde es más probable que se cuele una ambigüedad.",
+    "ejemplo_aplicado": "Checklist rápido: ¿'sin embargo' y 'no obstante' llevan coma antes o después según su posición? ¿alguna oración larga se puede leer de dos formas distintas?",
+    "error_comun": "Gastar los últimos minutos corrigiendo ortografía de palabras sueltas y no la puntuación de las oraciones más largas, donde más se esconde la ambigüedad.",
+    "dificultad": "media",
+    "prereqs": [
+      "CE-SKL-046"
+    ]
+  },
+  {
+    "id": "CE-SKL-049",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "gestion_del_tiempo",
+    "pregunta": "¿Cómo repartir realmente los 10 minutos de planificación?",
+    "respuesta_breve": "~2 min fijar postura, ~5 min esbozar 2-3 argumentos con su ejemplo, ~2 min pensar la objeción contraria, ~1 min revisar que todo responda la pregunta exacta.",
+    "explicacion": "10 minutos parecen poco, pero sin ellos es fácil quedarte a mitad del ensayo sin saber hacia dónde va el siguiente párrafo. Planificar la **objeción contraria** en este momento, no mientras escribes, es lo que te permite llegar a nivel 4 sin quedarte sin tiempo.",
+    "ejemplo_aplicado": "Anota en una línea: postura + arg1 + arg2 + objeción a responder — eso ya es tu mapa para los 30 minutos siguientes.",
+    "error_comun": "Usar los 10 minutos para escribir la introducción completa en vez de solo planificar — así llegas a la fase de escritura con menos tiempo real del que crees.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "CE-SKL-050",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "gestion_del_tiempo",
+    "pregunta": "Si sientes que te vas a quedar sin tiempo a mitad del desarrollo, ¿qué priorizas?",
+    "respuesta_breve": "Cerrar bien el argumento que ya empezaste y dejar espacio para una conclusión corta, antes que arrancar un tercer argumento nuevo.",
+    "explicacion": "Un ensayo con dos argumentos bien desarrollados y una conclusión, aunque corta, organiza mejor que uno con tres argumentos a medio desarrollar y sin cierre. La **organización** es un eje evaluado aparte, y un ensayo sin conclusión visible pierde ahí sin importar qué tan buenos sean los argumentos.",
+    "ejemplo_aplicado": "Si notas que llevas 25 minutos y solo un argumento desarrollado, mejor cierra ese argumento y escribe una conclusión de 2-3 líneas que arrancar uno nuevo que quedará sin terminar.",
+    "error_comun": "Intentar meter todos los argumentos planificados aunque el tiempo no alcance, sacrificando la conclusión.",
+    "dificultad": "media",
+    "prereqs": [
+      "CE-SKL-049"
+    ]
+  },
+  {
+    "id": "CE-SKL-051",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "extension_apropiada",
+    "pregunta": "¿Escribir más páginas garantiza mejor nivel?",
+    "respuesta_breve": "No — el ICFES evalúa calidad argumentativa, no cantidad de texto, y el tope es de ~2 páginas.",
+    "explicacion": "Rellenar con información innecesaria para 'escribir mucho' es justamente algo que el ICFES señala como riesgo: desviarte del tema con ese fin no mejora tu desempeño, y de hecho puede introducir digresiones que rompen la **unidad temática**.",
+    "ejemplo_aplicado": "Dos argumentos bien desarrollados con objeción reconocida en 350 palabras superan a cinco argumentos superficiales en 600 palabras.",
+    "error_comun": "Medir el progreso por cantidad de líneas escritas en vez de por qué tan desarrollado está cada argumento.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "CE-SKL-052",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "extension_apropiada",
+    "pregunta": "¿Un ensayo corto pero completo puede sacar nivel 4?",
+    "respuesta_breve": "Sí, si cumple los tres ejes (forma, planteamiento, organización) y complejiza el planteamiento — la extensión no es un criterio oficial.",
+    "explicacion": "Ninguno de los niveles de desempeño menciona un mínimo de palabras. Lo que distingue nivel 4 es la calidad del reconocimiento de la objeción contraria y los recursos estilísticos, no el conteo de palabras — por eso un ensayo ajustado pero bien construido puede superar a uno largo y disperso.",
+    "ejemplo_aplicado": "300 palabras con introducción clara, dos argumentos desarrollados y una objeción bien respondida cumplen los criterios de nivel 4 igual que un ensayo de 450 palabras.",
+    "error_comun": "Angustiarte por no 'llenar' las dos páginas cuando ya cumpliste los tres ejes de evaluación con menos texto.",
+    "dificultad": "baja",
+    "prereqs": [
+      "CE-SKL-051"
+    ]
+  },
+  {
+    "id": "CE-SKL-053",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "auto_revision_antes_de_entregar",
+    "pregunta": "¿Cuáles son las 3 preguntas del checklist final antes de entregar?",
+    "respuesta_breve": "¿Respondo exactamente la pregunta? ¿Tengo introducción-desarrollo-conclusión reconocibles? ¿Mi postura queda clara desde el inicio?",
+    "explicacion": "Estas tres preguntas cubren, en orden, los tres ejes oficiales: pertinencia/planteamiento, organización, y planteamiento definido desde el ángulo de dónde aparece. Revisarlas en los últimos 2-3 minutos es más eficiente que releer todo el texto de corrido.",
+    "ejemplo_aplicado": "Antes de entregar, lee solo tu primera y última frase: si ambas responden la pregunta con coherencia entre sí, ya pasaste el filtro más importante.",
+    "error_comun": "Gastar los últimos minutos corrigiendo detalles menores de redacción sin verificar primero que la estructura completa esté ahí.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "CE-SKL-054",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "auto_revision_antes_de_entregar",
+    "pregunta": "Además de las 3 preguntas básicas, ¿qué chequeo extra distingue a alguien que apunta a nivel 4?",
+    "respuesta_breve": "Verificar que la objeción contraria esté explícita y respondida, no solo insinuada.",
+    "explicacion": "Es fácil, bajo presión de tiempo, dejar el contraargumento como una frase suelta sin desarrollarlo. En la revisión final vale la pena confirmar específicamente que ese párrafo tiene la objeción nombrada con claridad **y** tu respuesta a ella, no solo una de las dos partes.",
+    "ejemplo_aplicado": "Pregúntate: ¿un lector que no comparte mi postura reconocería su propio argumento en mi texto, y vería que lo respondí?",
+    "error_comun": "Revisar solo ortografía y conectores al final, sin volver a verificar que el contraargumento quedó completo.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CE-SKL-053"
+    ]
+  },
+  {
+    "id": "CE-SKL-055",
+    "modulo": "comunicacion_escrita",
+    "tipo": "concepto",
+    "bloque": "auto_revision_antes_de_entregar",
+    "pregunta": "Si te quedan menos de 2 minutos, ¿en qué orden de prioridad revisas?",
+    "respuesta_breve": "1) Que la postura sea clara e inequívoca, 2) que no haya una impertinencia evidente, 3) tildes en palabras clave que puedan cambiar sentido.",
+    "explicacion": "Con poco tiempo, prioriza lo que más pesa en la calificación: pertinencia y planteamiento primero, porque un fallo ahí compromete todo el eje aunque el resto esté impecable; los detalles ortográficos puntuales pesan menos que la estructura y la claridad de la tesis.",
+    "ejemplo_aplicado": "En 90 segundos: relee tu primera frase (postura clara), confirma que no te desviaste del tema en ningún párrafo, y revisa tildes solo en palabras que cambiarían de sentido sin ellas.",
+    "error_comun": "Usar el poco tiempo que queda corrigiendo comas sueltas mientras la postura sigue siendo ambigua.",
+    "dificultad": "media",
+    "prereqs": [
+      "CE-SKL-053"
+    ]
+  }
+]

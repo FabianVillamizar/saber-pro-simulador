@@ -57,6 +57,22 @@ const MODOS_FRANCES = [
   },
 ]
 
+// Comunicación Escrita tampoco es un módulo de opción múltiple: el ICFES
+// evalúa un ensayo argumentativo completo, así que sus modos propios
+// reemplazan práctica/simulacro igual que Français (ver MODOS_FRANCES).
+const MODOS_COMUNICACION_ESCRITA = [
+  {
+    id: 'ensayos-modelo',
+    nombre: 'Ensayos modelo',
+    descripcion: 'Lee ensayos de nivel 4 con anotaciones: qué frase cumple qué función y por qué.',
+  },
+  {
+    id: 'practicar-ensayo',
+    nombre: 'Practicar ensayo',
+    descripcion: 'Sesión cronometrada (10 min planificación + 30 min escritura) con evaluación asistida por Claude.',
+  },
+]
+
 export function ModuloHub({ moduloId, perfil, onCambiarPerfil, onVolver, onSeleccionarModo }) {
   const { modulo, cargando, error } = useModulo(moduloId)
   const { dark, toggle } = useTheme()
@@ -65,15 +81,22 @@ export function ModuloHub({ moduloId, perfil, onCambiarPerfil, onVolver, onSelec
   if (error) return <div className="page estado-error">No se pudo cargar el módulo: {error.message}</div>
 
   const esFrances = moduloId === 'frances'
+  const esComunicacionEscrita = moduloId === 'comunicacion-escrita'
 
   // "Práctica por sub-categoría" solo tiene sentido si el módulo tiene
   // preguntas — francés, por ejemplo, es solo repaso de conceptos porque
   // Assimil no produce naturalmente un formato de opción múltiple.
+  // Comunicación Escrita tampoco tiene preguntas (el ICFES evalúa un
+  // ensayo completo, no un banco de opción múltiple) así que ese filtro ya
+  // la excluye solo; sus dos modos propios (Ensayos Modelo / Practicar
+  // Ensayo) se agregan aparte, igual que MODOS_FRANCES.
   const modos = esFrances
     ? [MODOS[0], ...MODOS_FRANCES]
-    : MODOS.filter((modo) => modo.id !== 'simulacro' || modulo.soportaSimulacro).filter(
-        (modo) => modo.id !== 'practica-parte' || modulo.preguntas.length > 0
-      )
+    : esComunicacionEscrita
+      ? [MODOS[0], ...MODOS_COMUNICACION_ESCRITA]
+      : MODOS.filter((modo) => modo.id !== 'simulacro' || modulo.soportaSimulacro).filter(
+          (modo) => modo.id !== 'practica-parte' || modulo.preguntas.length > 0
+        )
 
   const esDiosgenina = moduloId === 'diosgenina'
   const conteoPorBloque = esDiosgenina

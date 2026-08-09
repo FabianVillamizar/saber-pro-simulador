@@ -24,15 +24,24 @@ export async function cargarModulo(moduloId) {
 
   const tarjetasConcepto = []
   const itemsCrudos = []
+  const ensayosModelo = []
+  const temasEnsayo = []
 
-  // Mismo discriminador estructural que antes: las tarjetas de concepto
-  // nunca tienen `parte` ni `preguntas`; los ítems/grupos de examen siempre
-  // tienen una u otra (número de parte en Inglés, array de preguntas en
-  // Competencias Ciudadanas).
+  // Mismo discriminador estructural que antes, ampliado para Comunicación
+  // Escrita (que no tiene ítems de opción múltiple, solo tarjetas de
+  // concepto + dos entidades propias de sus pantallas de ensayo): las
+  // tarjetas de concepto nunca tienen `parte`, `preguntas`, `anotaciones`
+  // ni `dominio`; los ítems/grupos de examen siempre tienen `parte` o
+  // `preguntas`; un ensayo modelo siempre tiene `anotaciones`; un tema de
+  // ensayo siempre tiene `dominio` (y nunca `anotaciones`, para no chocar
+  // con lo anterior). Para cualquier otro módulo estas dos listas quedan
+  // vacías y no las consume nadie.
   for (const modulo of archivosCargados) {
     const entradas = modulo.default ?? modulo
     for (const entrada of entradas) {
       if ('parte' in entrada || 'preguntas' in entrada) itemsCrudos.push(entrada)
+      else if ('anotaciones' in entrada) ensayosModelo.push(entrada)
+      else if ('dominio' in entrada) temasEnsayo.push(entrada)
       else tarjetasConcepto.push(entrada)
     }
   }
@@ -41,5 +50,7 @@ export async function cargarModulo(moduloId) {
     ...registro,
     tarjetasConcepto,
     preguntas: normalizeBank(itemsCrudos, registro.adapters),
+    ensayosModelo,
+    temasEnsayo,
   }
 }

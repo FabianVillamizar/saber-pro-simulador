@@ -12,6 +12,8 @@ import { LeccionCompleta } from './paginas/LeccionCompleta.jsx'
 import { CompletaLaFrase } from './paginas/CompletaLaFrase.jsx'
 import { Traduce } from './paginas/Traduce.jsx'
 import { MapaDelCurso } from './paginas/MapaDelCurso.jsx'
+import { EnsayosModelo } from './paginas/EnsayosModelo.jsx'
+import { PracticarEnsayo } from './paginas/PracticarEnsayo.jsx'
 
 function App() {
   const { perfil, cambiarPerfil } = usePerfilActivo()
@@ -144,6 +146,32 @@ function App() {
 
   if (pantalla.tipo === 'traduce') {
     return <Traduce perfil={perfil} onCambiarPerfil={onCambiarPerfil} onVolver={volverAModulo} />
+  }
+
+  // Modos propios de Comunicación Escrita (ver ModuloHub.jsx /
+  // MODOS_COMUNICACION_ESCRITA) — igual que arriba, solo existen para ese
+  // módulo hoy, así que sí toman moduloId de pantalla (siempre será
+  // 'comunicacion-escrita') en vez de asumirlo fijo.
+  if (pantalla.tipo === 'ensayos-modelo') {
+    return (
+      <EnsayosModelo
+        moduloId={pantalla.moduloId}
+        perfil={perfil}
+        onCambiarPerfil={onCambiarPerfil}
+        onVolver={volverAModulo}
+      />
+    )
+  }
+
+  if (pantalla.tipo === 'practicar-ensayo') {
+    return (
+      <PracticarEnsayo
+        moduloId={pantalla.moduloId}
+        perfil={perfil}
+        onCambiarPerfil={onCambiarPerfil}
+        onVolver={volverAModulo}
+      />
+    )
   }
 
   return null
