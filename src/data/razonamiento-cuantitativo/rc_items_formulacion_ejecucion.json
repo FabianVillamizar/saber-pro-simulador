@@ -1,0 +1,1297 @@
+[
+  {
+    "id": "RC-GRUPO-023",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Antes de fallecer, don Rafael dejó en su testamento una finca cafetera valorada en $280.000.000. Don Rafael tuvo 5 hijos: Marina, Josefina, Eduardo, Rodrigo y Alberto. Alberto falleció antes que su padre, dejando 4 hijos (nietos de don Rafael) como sus únicos herederos. El testamento indica que la finca se reparte en partes iguales entre los 5 hijos originales, y que la parte de un hijo ya fallecido se reparte, en partes iguales, entre sus propios hijos.",
+    "tipo_visual": "ninguno",
+    "visual_descripcion": "",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-034",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "algebra_calculo",
+        "tipo_contexto": "familiar_personal",
+        "enunciado": "¿Cuánto recibe cada uno de los 4 hijos vivos de don Rafael (Marina, Josefina, Eduardo y Rodrigo)?",
+        "opciones": {
+          "A": "$56.000.000",
+          "B": "$70.000.000",
+          "C": "$46.666.667",
+          "D": "$14.000.000"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La finca se reparte en 5 partes iguales (los 5 hijos originales, incluyendo a Alberto aunque ya no esté vivo): 280.000.000÷5=$56.000.000. Cada uno de los 4 hijos vivos recibe esta cantidad.",
+        "distractores": {
+          "B": {
+            "explicacion": "Divide entre 4 en lugar de entre 5, sin contar a Alberto como parte del reparto original solo porque ya falleció.",
+            "patron_trampa": "reparto_proporcional_mal_aplicado"
+          },
+          "C": {
+            "explicacion": "Divide entre 6 personas, tratando a los 4 nietos como beneficiarios adicionales del primer nivel, en lugar de repartir primero entre los 5 hijos originales.",
+            "patron_trampa": "reparto_proporcional_mal_aplicado"
+          },
+          "D": {
+            "explicacion": "Corresponde a la parte de un nieto (heredero de Alberto), no a la de un hijo vivo.",
+            "patron_trampa": "confusion_variable"
+          }
+        },
+        "dificultad": "media",
+        "tarjetas_relacionadas": [
+          "RC-ALG-026",
+          "RC-ALG-027"
+        ]
+      },
+      {
+        "id": "RC-ITEM-035",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "algebra_calculo",
+        "tipo_contexto": "familiar_personal",
+        "enunciado": "¿Cuánto recibe cada uno de los 4 hijos de Alberto (nietos de don Rafael)?",
+        "opciones": {
+          "A": "$56.000.000",
+          "B": "$14.000.000",
+          "C": "$70.000.000",
+          "D": "$46.666.667"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "La parte de Alberto es 280.000.000÷5=$56.000.000. Esa parte se divide en partes iguales entre sus 4 hijos: 56.000.000÷4=$14.000.000 para cada uno.",
+        "distractores": {
+          "A": {
+            "explicacion": "Reporta la parte completa de Alberto sin dividirla entre sus 4 hijos.",
+            "patron_trampa": "reparto_proporcional_mal_aplicado"
+          },
+          "C": {
+            "explicacion": "Reparte la finca entre 4 hijos vivos en lugar de 5 hijos originales, y aplica ese resultado erróneo a la parte de Alberto.",
+            "patron_trampa": "reparto_proporcional_mal_aplicado"
+          },
+          "D": {
+            "explicacion": "Corresponde al resultado de un reparto entre 6 personas (el error de la pregunta anterior), no a la parte real de cada nieto.",
+            "patron_trampa": "confusion_variable"
+          }
+        },
+        "dificultad": "alta",
+        "tarjetas_relacionadas": [
+          "RC-ALG-027",
+          "RC-ALG-028",
+          "RC-ALG-029"
+        ]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-024",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "En un laboratorio de química, un estudiante diseña un experimento probando todas las combinaciones posibles de 3 concentraciones de un reactivo (0,1M; 0,5M; 1,0M), 4 tiempos de reacción (10, 20, 30 y 40 minutos) y 2 temperaturas (25°C y 40°C).",
+    "tipo_visual": "ninguno",
+    "visual_descripcion": "",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-036",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "estadistica",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "¿Cuántos ensayos distintos debe realizar el estudiante para probar todas las combinaciones posibles?",
+        "opciones": {
+          "A": "9",
+          "B": "12",
+          "C": "24",
+          "D": "48"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Por el principio de la multiplicación, el total de combinaciones es 3×4×2=24, ya que cada ensayo combina una concentración, un tiempo y una temperatura.",
+        "distractores": {
+          "A": {
+            "explicacion": "Suma las opciones de cada variable (3+4+2=9) en lugar de multiplicarlas.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "B": {
+            "explicacion": "Multiplica solo concentración por tiempo (3×4=12), olvidando incluir la variable temperatura.",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          },
+          "D": {
+            "explicacion": "Cuenta la temperatura dos veces en la multiplicación por error de conteo.",
+            "patron_trampa": "operacion_incorrecta"
+          }
+        },
+        "dificultad": "baja",
+        "tarjetas_relacionadas": [
+          "RC-EST-011",
+          "RC-EST-013"
+        ]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-025",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "En un sistema de control de inventario, se define el 'índice de cobertura' de un producto como C = (unidades disponibles en bodega) ÷ (promedio de unidades vendidas por semana), redondeado al entero más cercano. Este índice indica aproximadamente cuántas semanas de inventario quedan disponibles al ritmo de venta actual. Un producto tiene 390 unidades disponibles, y su promedio de ventas es de 55 unidades por semana.",
+    "tipo_visual": "ninguno",
+    "visual_descripcion": "",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-037",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "algebra_calculo",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "Según la definición dada, ¿cuál es el índice de cobertura de este producto (redondeado al entero más cercano)?",
+        "opciones": {
+          "A": "6",
+          "B": "21.450",
+          "C": "0,14",
+          "D": "7"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Aplicando exactamente la fórmula: 390÷55≈7,09, que redondeado al entero más cercano es 7.",
+        "distractores": {
+          "A": {
+            "explicacion": "Redondea hacia abajo en lugar de al entero más cercano (7,09 se redondea a 7, no a 6).",
+            "patron_trampa": "redondeo_erroneo"
+          },
+          "B": {
+            "explicacion": "Multiplica en lugar de dividir (390×55=21.450), invirtiendo la operación que define el índice.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "C": {
+            "explicacion": "Invierte la razón, calculando 55÷390 en lugar de 390÷55.",
+            "patron_trampa": "lectura_invertida_datos"
+          }
+        },
+        "dificultad": "media",
+        "tarjetas_relacionadas": [
+          "RC-CTX-023",
+          "RC-CTX-026"
+        ]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-026",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "En una feria comunitaria, un juego consiste en lanzar un dado de 6 caras y girar una ruleta con 4 secciones iguales numeradas del 1 al 4. Para ganar un premio, el jugador debe obtener un número PAR en el dado Y el número 3 en la ruleta, en un mismo intento.",
+    "tipo_visual": "ninguno",
+    "visual_descripcion": "",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-038",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "estadistica",
+        "tipo_contexto": "comunitario_social",
+        "enunciado": "¿Cuál es la probabilidad de ganar el premio en un solo intento?",
+        "opciones": {
+          "A": "1/8",
+          "B": "3/4",
+          "C": "1/2",
+          "D": "1/24"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "P(par en el dado)=3/6=1/2. P(3 en la ruleta)=1/4. Como son eventos independientes, P(ambos)=1/2×1/4=1/8.",
+        "distractores": {
+          "B": {
+            "explicacion": "Suma las probabilidades individuales (1/2+1/4=3/4) en lugar de multiplicarlas, que es la regla correcta para 'ambos eventos ocurren juntos'.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "C": {
+            "explicacion": "Reporta solo la probabilidad del dado, ignorando por completo la condición de la ruleta.",
+            "patron_trampa": "dato_no_disponible_o_supuesto"
+          },
+          "D": {
+            "explicacion": "Cuenta solo 1 caso favorable del dado (en vez de los 3 números pares posibles) sobre el total de 24 combinaciones, subestimando los casos favorables.",
+            "patron_trampa": "operacion_incorrecta"
+          }
+        },
+        "dificultad": "alta",
+        "tarjetas_relacionadas": [
+          "RC-EST-016",
+          "RC-EST-018"
+        ]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-027",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Una cooperativa agrícola reparte sus utilidades anuales de $150.000.000 entre 5 socios fundadores, según su participación:\n\nSocio | Participación\nSocio 1 | 30%\nSocio 2 | 25%\nSocio 3 | 20%\nSocio 4 | 15%\nSocio 5 | 10%\n\nEl Socio 3 falleció este año, dejando 2 hijos como únicos herederos de su participación. La muerte del Socio 3 no cambia el porcentaje de participación de los demás socios.",
+    "tipo_visual": "tabla",
+    "visual_descripcion": "Tabla con 5 filas (Socio 1 a Socio 5) mostrando el porcentaje de participación de cada uno en las utilidades de la cooperativa.",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-039",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "algebra_calculo",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "¿Cuánto le corresponde a cada uno de los 2 hijos del Socio 3 fallecido?",
+        "opciones": {
+          "A": "$30.000.000",
+          "B": "$15.000.000",
+          "C": "$37.500.000",
+          "D": "$7.500.000"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "La participación del Socio 3 es 150.000.000×0,20=$30.000.000. Esa parte se divide en partes iguales entre sus 2 hijos: 30.000.000÷2=$15.000.000 para cada uno.",
+        "distractores": {
+          "A": {
+            "explicacion": "Reporta la parte completa del Socio 3 sin dividirla entre sus 2 hijos herederos.",
+            "patron_trampa": "reparto_proporcional_mal_aplicado"
+          },
+          "C": {
+            "explicacion": "Divide la utilidad total entre los 4 socios vivos y asigna esa cifra a cada hijo, en lugar de calcular primero la parte específica del Socio 3 fallecido.",
+            "patron_trampa": "reparto_proporcional_mal_aplicado"
+          },
+          "D": {
+            "explicacion": "Divide la parte del Socio 3 entre 4 (el número de socios vivos) en lugar de entre 2 (el número real de hijos herederos).",
+            "patron_trampa": "confusion_variable"
+          }
+        },
+        "dificultad": "alta",
+        "tarjetas_relacionadas": [
+          "RC-ALG-027",
+          "RC-ALG-028",
+          "RC-ALG-029"
+        ]
+      },
+      {
+        "id": "RC-ITEM-040",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "algebra_calculo",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "¿Cuánto recibe el Socio 1 (30% de participación) este año?",
+        "opciones": {
+          "A": "$56.250.000",
+          "B": "$37.500.000",
+          "C": "$45.000.000",
+          "D": "$30.000.000"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "La muerte del Socio 3 no altera el porcentaje de los demás socios: el Socio 1 sigue recibiendo su 30%: 150.000.000×0,30=$45.000.000.",
+        "distractores": {
+          "A": {
+            "explicacion": "Redistribuye erróneamente el porcentaje del Socio 3 fallecido entre los demás socios, aumentando la participación de todos, cuando el testamento/acuerdo no indica eso.",
+            "patron_trampa": "reparto_proporcional_mal_aplicado"
+          },
+          "B": {
+            "explicacion": "Corresponde a la participación del Socio 2 (25%), no a la del Socio 1 (30%).",
+            "patron_trampa": "confusion_variable"
+          },
+          "D": {
+            "explicacion": "Corresponde a la participación del Socio 3 (20%), no a la del Socio 1 (30%).",
+            "patron_trampa": "confusion_variable"
+          }
+        },
+        "dificultad": "media",
+        "tarjetas_relacionadas": [
+          "RC-ALG-030"
+        ]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-028",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Un viajero colombiano tiene 850 dólares estadounidenses (USD) y quiere saber a cuántos pesos colombianos (COP) equivalen, sabiendo que 1 USD equivale a 4.100 COP. Se proponen los siguientes procedimientos:\nI. Multiplicar 850 por 4.100.\nII. Dividir 850 entre 4.100.\nIII. Multiplicar 4.100 por 850 y luego dividir el resultado entre el número de dólares (850).",
+    "tipo_visual": "ninguno",
+    "visual_descripcion": "",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-041",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "algebra_calculo",
+        "tipo_contexto": "familiar_personal",
+        "enunciado": "¿Cuál o cuáles de los procedimientos anteriores es o son correctos para hallar el valor en pesos colombianos?",
+        "opciones": {
+          "A": "II solamente.",
+          "B": "I y III solamente.",
+          "C": "III solamente.",
+          "D": "I solamente."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Para convertir dólares a pesos, se multiplica la cantidad en dólares por la tasa de cambio (pesos por dólar): 850×4.100=$3.485.000. El procedimiento I es el único correcto.",
+        "distractores": {
+          "A": {
+            "explicacion": "Divide en lugar de multiplicar, lo que invierte la operación y da un resultado muy pequeño sin sentido (850÷4.100≈0,21) en vez del valor en pesos.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "B": {
+            "explicacion": "El procedimiento III parece un 'doble chequeo', pero en realidad multiplica y luego divide entre la misma cantidad de dólares, lo que simplemente devuelve la tasa de cambio original (4.100) y no la cantidad total en pesos; no es válido para este cálculo.",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          },
+          "C": {
+            "explicacion": "El procedimiento III no calcula la cantidad total en pesos, sino que revierte el cálculo a la tasa de cambio original; usarlo solo no resuelve lo que pide la pregunta.",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          }
+        },
+        "dificultad": "alta",
+        "tarjetas_relacionadas": [
+          "RC-ALG-036",
+          "RC-ALG-038"
+        ]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-029",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "En un club deportivo con 200 miembros, 90 practican fútbol, 70 practican baloncesto, y 25 practican ambos deportes.",
+    "tipo_visual": "diagrama_esquematico",
+    "visual_descripcion": "Diagrama de Venn con dos círculos (fútbol y baloncesto) dentro del total de 200 miembros del club, con la zona de traslape correspondiente a quienes practican ambos deportes.",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-042",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "estadistica",
+        "tipo_contexto": "comunitario_social",
+        "enunciado": "¿Cuántos miembros del club practican AL MENOS uno de los dos deportes (fútbol o baloncesto)?",
+        "opciones": {
+          "A": "135",
+          "B": "160",
+          "C": "185",
+          "D": "45"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Por el principio de inclusión-exclusión: |Fútbol∪Baloncesto|=90+70−25=135.",
+        "distractores": {
+          "B": {
+            "explicacion": "Suma 90+70=160 sin restar los 25 que practican ambos deportes, contándolos dos veces.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "C": {
+            "explicacion": "Suma los tres números de la tabla (90+70+25=185) en lugar de restar la intersección.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "Realiza un cálculo parcial incompleto (por ejemplo, 70−25=45), sin completar el procedimiento de inclusión-exclusión.",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          }
+        },
+        "dificultad": "media",
+        "tarjetas_relacionadas": [
+          "RC-EST-009",
+          "RC-EST-010"
+        ]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-030",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Una operadora de telefonía celular ofrece 4 planes mensuales:\n\nPlan | Datos | Minutos | Precio\nBásico | 2 GB | 100 min | $35.000\nPlus | 5 GB | 200 min | $55.000\nPremium | 10 GB | 300 min | $85.000\nIlimitado | 20 GB | 500 min | $150.000",
+    "tipo_visual": "tabla",
+    "visual_descripcion": "Tabla con 4 planes (Básico, Plus, Premium, Ilimitado) y sus columnas de datos, minutos y precio mensual.",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-043",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "algebra_calculo",
+        "tipo_contexto": "familiar_personal",
+        "enunciado": "¿Cuál plan tiene el menor costo por gigabyte (GB) de datos?",
+        "opciones": {
+          "A": "Plan Premium, con $8.500 por GB.",
+          "B": "Plan Ilimitado, con $7.500 por GB.",
+          "C": "Plan Básico, porque tiene el menor precio total.",
+          "D": "Todos los planes tienen aproximadamente el mismo costo por GB."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Costo por GB: Básico=35.000÷2=$17.500; Plus=55.000÷5=$11.000; Premium=85.000÷10=$8.500; Ilimitado=150.000÷20=$7.500. El Plan Ilimitado tiene el menor costo por GB.",
+        "distractores": {
+          "A": {
+            "explicacion": "Es la segunda mejor opción ($8.500/GB), pero no la de menor costo por GB; refleja no haber comparado las cuatro opciones antes de decidir.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "C": {
+            "explicacion": "Confunde 'menor costo TOTAL' (el Plan Básico es el más barato en pesos) con 'menor costo POR GB', que son preguntas distintas.",
+            "patron_trampa": "confusion_variable"
+          },
+          "D": {
+            "explicacion": "Asume que el precio escala de forma proporcional a los datos, sin verificar los cuatro costos por GB reales, que varían entre $7.500 y $17.500.",
+            "patron_trampa": "generalizacion_indebida"
+          }
+        },
+        "dificultad": "media",
+        "tarjetas_relacionadas": [
+          "RC-ALG-031",
+          "RC-ALG-032"
+        ]
+      },
+      {
+        "id": "RC-ITEM-044",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "algebra_calculo",
+        "tipo_contexto": "familiar_personal",
+        "enunciado": "¿Cuál es el costo por minuto del Plan Plus, y cómo se compara con el costo por minuto del Plan Básico?",
+        "opciones": {
+          "A": "Plan Plus cuesta $350 por minuto, igual que el Plan Básico.",
+          "B": "Plan Plus cuesta $110 por minuto.",
+          "C": "Plan Plus cuesta $275 por minuto, más barato que el Plan Básico ($350 por minuto).",
+          "D": "Plan Plus cuesta $275 por minuto, pero es más caro que el Plan Básico porque su precio total es mayor."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Plan Plus: 55.000÷200=$275/min. Plan Básico: 35.000÷100=$350/min. El Plan Plus tiene un costo por minuto menor.",
+        "distractores": {
+          "A": {
+            "explicacion": "Reporta el mismo costo por minuto para ambos planes, sin calcular realmente cada uno por separado.",
+            "patron_trampa": "confusion_variable"
+          },
+          "B": {
+            "explicacion": "Divide 55.000 entre 500 (los minutos del Plan Ilimitado) en lugar de entre los 200 minutos del Plan Plus.",
+            "patron_trampa": "confusion_variable"
+          },
+          "D": {
+            "explicacion": "Confunde 'costo por minuto' (una razón por unidad) con 'costo total' (el precio total del plan); el Plan Plus sí es más barato por minuto aunque su precio total sea mayor que el del Plan Básico.",
+            "patron_trampa": "confusion_variable"
+          }
+        },
+        "dificultad": "media",
+        "tarjetas_relacionadas": [
+          "RC-ALG-031",
+          "RC-ALG-033"
+        ]
+      },
+      {
+        "id": "RC-ITEM-045",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "algebra_calculo",
+        "tipo_contexto": "familiar_personal",
+        "enunciado": "Un usuario necesita AL MENOS 8 GB de datos al mes. Considerando solo los planes que cumplen ese requisito, ¿cuál es la opción más económica?",
+        "opciones": {
+          "A": "Plan Ilimitado, por $150.000.",
+          "B": "Plan Plus, por $55.000.",
+          "C": "Plan Básico, por $35.000.",
+          "D": "Plan Premium, por $85.000."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Solo Premium (10 GB) e Ilimitado (20 GB) cumplen el requisito de al menos 8 GB. Entre esas dos opciones, Premium ($85.000) es más económico que Ilimitado ($150.000).",
+        "distractores": {
+          "A": {
+            "explicacion": "Elige el plan con más datos en lugar del más económico que cumple el requisito mínimo de 8 GB.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "B": {
+            "explicacion": "El Plan Plus solo ofrece 5 GB, por lo que NO cumple el requisito de al menos 8 GB; ignora esta restricción del problema.",
+            "patron_trampa": "dato_no_disponible_o_supuesto"
+          },
+          "C": {
+            "explicacion": "El Plan Básico solo ofrece 2 GB, por lo que tampoco cumple el requisito de al menos 8 GB.",
+            "patron_trampa": "dato_no_disponible_o_supuesto"
+          }
+        },
+        "dificultad": "alta",
+        "tarjetas_relacionadas": [
+          "RC-ALG-031",
+          "RC-ALG-034"
+        ]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-031",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Un estudiante de química mide el pH de una misma disolución 6 veces con el mismo instrumento, obteniendo los siguientes valores: 6,8 - 6,9 - 6,7 - 7,0 - 6,8 - 6,9.",
+    "tipo_visual": "tabla",
+    "visual_descripcion": "Tabla con las 6 mediciones de pH registradas para la misma disolución.",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-046",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "estadistica",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "¿Cuáles son el promedio y el rango de estas 6 mediciones?",
+        "opciones": {
+          "A": "Promedio 6,85 y rango 0,3.",
+          "B": "Promedio 6,85 y rango 6,85.",
+          "C": "Promedio 6,9 y rango 0,3.",
+          "D": "Promedio 6,85 y rango 7,0."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Suma=6,8+6,9+6,7+7,0+6,8+6,9=41,1. Promedio=41,1÷6=6,85. Rango=7,0−6,7=0,3.",
+        "distractores": {
+          "B": {
+            "explicacion": "Confunde el rango con el promedio, reportando el mismo valor para ambas medidas.",
+            "patron_trampa": "confusion_variable"
+          },
+          "C": {
+            "explicacion": "Redondea mal el promedio real (6,85) a 6,9.",
+            "patron_trampa": "redondeo_erroneo"
+          },
+          "D": {
+            "explicacion": "Reporta el valor máximo (7,0) como si fuera el rango, en lugar de calcular la diferencia entre el máximo y el mínimo.",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          }
+        },
+        "dificultad": "media",
+        "tarjetas_relacionadas": [
+          "RC-EST-021",
+          "RC-EST-022"
+        ]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-032",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Una empresa otorga un bono a los vendedores cuyas ventas mensuales SUPEREN $8.000.000. Ventas del mes: Vendedor 1: $7.500.000; Vendedor 2: $8.200.000; Vendedor 3: $8.000.000; Vendedor 4: $9.100.000.",
+    "tipo_visual": "tabla",
+    "visual_descripcion": "Tabla con 4 vendedores y sus ventas mensuales, para compararlas contra el umbral de $8.000.000.",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-047",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "algebra_calculo",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "¿A cuáles vendedores se les debe otorgar el bono, considerando que el umbral es 'ventas que SUPEREN $8.000.000'?",
+        "opciones": {
+          "A": "Vendedor 2, Vendedor 3 y Vendedor 4.",
+          "B": "Vendedor 2 y Vendedor 4 solamente.",
+          "C": "Todos los vendedores.",
+          "D": "Vendedor 4 solamente."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Solo el Vendedor 2 ($8.200.000) y el Vendedor 4 ($9.100.000) tienen ventas que SUPERAN (son mayores que) $8.000.000. El Vendedor 3 tiene exactamente $8.000.000, que no es 'más' de $8.000.000, sino igual.",
+        "distractores": {
+          "A": {
+            "explicacion": "Incluye al Vendedor 3, cuyas ventas son exactamente $8.000.000; 'superar' significa ser estrictamente mayor, y un valor igual al umbral no lo cumple.",
+            "patron_trampa": "confusion_variable"
+          },
+          "C": {
+            "explicacion": "Ignora por completo el umbral establecido, otorgando el bono sin verificar las ventas de cada vendedor.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "D": {
+            "explicacion": "Omite al Vendedor 2, que también supera el umbral, posiblemente por un error de lectura de la tabla.",
+            "patron_trampa": "lectura_invertida_datos"
+          }
+        },
+        "dificultad": "alta",
+        "tarjetas_relacionadas": [
+          "RC-ALG-003"
+        ]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-033",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "En un juego de mesa de estrategia, el tablero se organiza en una cuadrícula, y cada casilla se identifica con una notación propia: primero el número de fila (de 1 a 8) y luego la letra de la columna (de A a H), escritos juntos (por ejemplo, '3D' es la casilla en la fila 3, columna D). Una unidad militar ubicada en la casilla '2C' puede moverse hasta 3 filas hacia adelante (aumentando el número de fila) y hasta 2 columnas hacia la derecha (avanzando en el alfabeto), pero no en diagonal en un solo movimiento de este tipo. Además, el puntaje de cada jugador se calcula como: (número de territorios controlados × 3) + (número de unidades militares × 2) − (número de turnos consumidos).",
+    "tipo_visual": "diagrama_esquematico",
+    "visual_descripcion": "Tablero de 8×8 con filas numeradas 1-8 y columnas etiquetadas A-H, mostrando la posición inicial de la unidad militar en '2C' y su desplazamiento permitido.",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-048",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "geometria",
+        "tipo_contexto": "familiar_personal",
+        "enunciado": "Si la unidad militar ubicada en '2C' se mueve el máximo permitido de filas hacia adelante y, en un segundo movimiento, el máximo permitido de columnas hacia la derecha, ¿en qué casilla queda finalmente?",
+        "opciones": {
+          "A": "3E",
+          "B": "8H",
+          "C": "5E",
+          "D": "5C"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "La fila avanza 3: 2+3=5. La columna avanza 2 letras: de C a E (C→D→E). La casilla final es '5E'.",
+        "distractores": {
+          "A": {
+            "explicacion": "Suma solo 1 a la fila en lugar de 3, sin usar el máximo de avance permitido.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "B": {
+            "explicacion": "Confunde el resultado con las coordenadas máximas del tablero (fila 8, columna H) en lugar de sumar el movimiento a la posición inicial de la unidad.",
+            "patron_trampa": "confusion_variable"
+          },
+          "D": {
+            "explicacion": "Olvida aplicar el segundo movimiento (el avance de columnas), dejando la columna sin cambios.",
+            "patron_trampa": "dato_no_disponible_o_supuesto"
+          }
+        },
+        "dificultad": "media",
+        "tarjetas_relacionadas": [
+          "RC-GEO-022",
+          "RC-CTX-023"
+        ]
+      },
+      {
+        "id": "RC-ITEM-049",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "estadistica",
+        "tipo_contexto": "familiar_personal",
+        "enunciado": "Un jugador controla 5 territorios, tiene 8 unidades militares, y ha consumido 12 turnos. Según la fórmula definida, ¿cuál es su puntaje actual?",
+        "opciones": {
+          "A": "31",
+          "B": "9",
+          "C": "22",
+          "D": "19"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Aplicando la fórmula: (5×3)+(8×2)−12 = 15+16−12 = 19.",
+        "distractores": {
+          "A": {
+            "explicacion": "Olvida restar los turnos consumidos, reportando solo 15+16=31.",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          },
+          "B": {
+            "explicacion": "Olvida multiplicar los territorios por 3, tratándolos como si el coeficiente fuera 1: 5+16−12=9.",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          },
+          "C": {
+            "explicacion": "Intercambia los coeficientes de territorios y unidades (usa ×2 para territorios y ×3 para unidades): 5×2+8×3−12=22.",
+            "patron_trampa": "confusion_variable"
+          }
+        },
+        "dificultad": "media",
+        "tarjetas_relacionadas": [
+          "RC-CTX-023",
+          "RC-CTX-024"
+        ]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-034",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Un estudiante registra el número de horas que dedica a estudiar cada día durante una semana (7 días), obteniendo un total de 21 horas. Se proponen los siguientes procedimientos para estimar el promedio de horas de estudio POR DÍA:\nI. Dividir 21 entre 7.\nII. Dividir 7 entre 21.\nIII. Multiplicar 21 por 7.",
+    "tipo_visual": "ninguno",
+    "visual_descripcion": "",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-050",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "estadistica",
+        "tipo_contexto": "familiar_personal",
+        "enunciado": "¿Cuál procedimiento permite estimar correctamente el promedio de horas de estudio por día?",
+        "opciones": {
+          "A": "I solamente.",
+          "B": "II solamente.",
+          "C": "III solamente.",
+          "D": "I y III, porque ambos dan información válida sobre el promedio."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El promedio se calcula dividiendo el total entre el número de días: 21÷7=3 horas por día. Solo el procedimiento I hace esto correctamente.",
+        "distractores": {
+          "B": {
+            "explicacion": "Invierte la división (7÷21≈0,33), lo que no representa horas por día sino una fracción sin sentido para esta pregunta.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "C": {
+            "explicacion": "Multiplica en lugar de dividir (21×7=147), lo que no corresponde a ningún promedio razonable de horas por día.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "Incluye incorrectamente el procedimiento III como si también diera información válida sobre el promedio, cuando en realidad no tiene relación con el cálculo pedido.",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          }
+        },
+        "dificultad": "media",
+        "tarjetas_relacionadas": [
+          "RC-EST-021"
+        ]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-035",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Dos sucursales de una cadena de tiendas realizaron una encuesta de satisfacción a sus clientes: la Sucursal Norte encuestó a 30 clientes, con una calificación promedio de 4,2 (sobre 5,0); la Sucursal Sur encuestó a 120 clientes, con una calificación promedio de 3,6 (sobre 5,0).",
+    "tipo_visual": "tabla",
+    "visual_descripcion": "Tabla con 2 filas (Sucursal Norte, Sucursal Sur) mostrando el número de clientes encuestados y la calificación promedio de cada una.",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-051",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "estadistica",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "¿Cuál es la calificación promedio combinada de los clientes de ambas sucursales?",
+        "opciones": {
+          "A": "3,9",
+          "B": "3,72",
+          "C": "3,6",
+          "D": "7,8"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Promedio ponderado: (30×4,2+120×3,6)÷(30+120)=(126+432)÷150=558÷150=3,72.",
+        "distractores": {
+          "A": {
+            "explicacion": "Calcula el promedio simple de los dos promedios de sucursal ((4,2+3,6)÷2=3,9), sin ponderar por el número de clientes encuestados en cada una.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "C": {
+            "explicacion": "Asume que el promedio combinado es igual al de la sucursal más grande, sin calcular realmente el promedio ponderado.",
+            "patron_trampa": "redondeo_erroneo"
+          },
+          "D": {
+            "explicacion": "Suma los dos promedios sin dividir entre nada (4,2+3,6=7,8).",
+            "patron_trampa": "operacion_incorrecta"
+          }
+        },
+        "dificultad": "alta",
+        "tarjetas_relacionadas": [
+          "RC-CTX-009",
+          "RC-CTX-010"
+        ]
+      },
+      {
+        "id": "RC-ITEM-052",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "estadistica",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "¿Cuántos clientes en total fueron encuestados entre las dos sucursales, y qué porcentaje de ese total corresponde a la Sucursal Norte?",
+        "opciones": {
+          "A": "150 clientes en total; 25% corresponde a la Sucursal Norte.",
+          "B": "90 clientes en total; 33% corresponde a la Sucursal Norte.",
+          "C": "150 clientes en total; 20% corresponde a la Sucursal Norte.",
+          "D": "150 clientes en total; 80% corresponde a la Sucursal Norte."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Total=30+120=150 clientes. Porcentaje de la Sucursal Norte: 30÷150=20%.",
+        "distractores": {
+          "A": {
+            "explicacion": "Calcula mal la proporción 30÷150, obteniendo 25% en lugar de 20%.",
+            "patron_trampa": "redondeo_erroneo"
+          },
+          "B": {
+            "explicacion": "Resta en lugar de sumar los clientes de ambas sucursales (120−30=90).",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "Invierte a qué sucursal corresponde el porcentaje, asignando el 80% (que sería el de la Sucursal Sur) a la Sucursal Norte.",
+            "patron_trampa": "lectura_invertida_datos"
+          }
+        },
+        "dificultad": "baja",
+        "tarjetas_relacionadas": [
+          "RC-CTX-009"
+        ]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-036",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Un emprendedor fabrica velas artesanales. Sus costos fijos mensuales (arriendo del taller, servicios) son de $1.200.000. Cada vela le cuesta $8.000 en materiales, y la vende a $20.000.",
+    "tipo_visual": "ninguno",
+    "visual_descripcion": "",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-053",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "algebra_calculo",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "¿Cuántas velas debe vender el emprendedor en el mes para cubrir exactamente sus costos totales (punto de equilibrio)?",
+        "opciones": {
+          "A": "150",
+          "B": "60",
+          "C": "200",
+          "D": "100"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "La ganancia por vela es 20.000−8.000=$12.000. Punto de equilibrio: 1.200.000÷12.000=100 velas.",
+        "distractores": {
+          "A": {
+            "explicacion": "Divide los costos fijos entre el costo de material por vela ($8.000) en lugar de entre la ganancia neta por unidad ($12.000).",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          },
+          "B": {
+            "explicacion": "Divide los costos fijos entre el precio de venta ($20.000), ignorando que también debe cubrir el costo de material de cada vela.",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          },
+          "C": {
+            "explicacion": "Usa una ganancia por unidad de $6.000 en lugar de $12.000, un error al restar el costo de material del precio de venta.",
+            "patron_trampa": "operacion_incorrecta"
+          }
+        },
+        "dificultad": "alta",
+        "tarjetas_relacionadas": [
+          "RC-ALG-014"
+        ]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-037",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "En un vivero de plántulas de cacao, se aplicó un tratamiento experimental a un lote de 240 plántulas. Después de 6 semanas, se observó que 204 plántulas sobrevivieron y mostraron un crecimiento saludable.",
+    "tipo_visual": "ninguno",
+    "visual_descripcion": "",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-054",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "estadistica",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "¿Qué proporción (en porcentaje) de las plántulas tratadas sobrevivió y mostró un crecimiento saludable?",
+        "opciones": {
+          "A": "85%",
+          "B": "15%",
+          "C": "117,6%",
+          "D": "204%"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "204 de 240 plántulas sobrevivieron: 204÷240=0,85=85%.",
+        "distractores": {
+          "B": {
+            "explicacion": "Calcula el porcentaje de plántulas que NO sobrevivieron (36 de 240=15%), respondiendo la pregunta complementaria en lugar de la que se pidió.",
+            "patron_trampa": "confusion_variable"
+          },
+          "C": {
+            "explicacion": "Invierte la división, calculando 240÷204×100 en lugar de 204÷240×100.",
+            "patron_trampa": "lectura_invertida_datos"
+          },
+          "D": {
+            "explicacion": "Reporta 204 directamente como si ya fuera un porcentaje, sin dividir entre el total de 240 plántulas.",
+            "patron_trampa": "operacion_incorrecta"
+          }
+        },
+        "dificultad": "baja",
+        "tarjetas_relacionadas": [
+          "RC-ALG-003"
+        ]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-038",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Una pequeña fábrica de muebles registró su producción semanal (en número de sillas) durante 5 semanas consecutivas: Semana 1: 80; Semana 2: 88; Semana 3: 95; Semana 4: 102; Semana 5: 110.",
+    "tipo_visual": "tabla",
+    "visual_descripcion": "Tabla con la producción semanal de sillas durante 5 semanas consecutivas, mostrando un aumento constante de aproximadamente 7 a 8 sillas por semana.",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-055",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "estadistica",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "¿Cuál es el promedio de producción semanal durante estas 5 semanas?",
+        "opciones": {
+          "A": "110",
+          "B": "95",
+          "C": "79,2",
+          "D": "100"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Suma=80+88+95+102+110=475. Promedio=475÷5=95.",
+        "distractores": {
+          "A": {
+            "explicacion": "Reporta el valor de la última semana (el máximo) en lugar de calcular el promedio de las 5 semanas.",
+            "patron_trampa": "confusion_variable"
+          },
+          "C": {
+            "explicacion": "Divide la suma entre 6 en lugar de entre 5, un error al contar el número de semanas.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "Redondea o aproxima el promedio hacia un valor central de la serie sin calcularlo realmente.",
+            "patron_trampa": "redondeo_erroneo"
+          }
+        },
+        "dificultad": "baja",
+        "tarjetas_relacionadas": []
+      },
+      {
+        "id": "RC-ITEM-056",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "estadistica",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "Si la fábrica quisiera estimar la producción esperada para la Semana 6, manteniendo el patrón de crecimiento observado (aumento de aproximadamente 7 a 8 sillas por semana), ¿cuál sería una estimación razonable?",
+        "opciones": {
+          "A": "Exactamente 118 sillas, calculado con precisión a partir de la tendencia.",
+          "B": "No se puede estimar nada, porque no hay ningún dato de la Semana 6.",
+          "C": "Aproximadamente entre 115 y 120 sillas, reconociendo que es una estimación con cierto margen de incertidumbre, no un valor exacto.",
+          "D": "Exactamente 95 sillas, el promedio de las 5 semanas anteriores."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "La tendencia observada (+7 a +8 sillas por semana) permite proyectar un RANGO razonable para la Semana 6, pero no un valor exacto garantizado, ya que una tendencia de corto plazo no asegura una cifra precisa.",
+        "distractores": {
+          "A": {
+            "explicacion": "Trata la tendencia observada como si garantizara un valor futuro exacto, una extrapolación indebida a partir de una tendencia de corto plazo.",
+            "patron_trampa": "extrapolacion_estadistica_indebida"
+          },
+          "B": {
+            "explicacion": "Ignora que sí se puede hacer una estimación razonable (aunque no exacta) a partir del patrón observado en las 5 semanas anteriores.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "D": {
+            "explicacion": "Ignora por completo la tendencia CRECIENTE observada, usando el promedio general en lugar de proyectar la continuación del patrón.",
+            "patron_trampa": "generalizacion_indebida"
+          }
+        },
+        "dificultad": "alta",
+        "tarjetas_relacionadas": [
+          "RC-EST-037",
+          "RC-EST-038"
+        ]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-039",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Un banco ofrece un préstamo de $6.000.000 a interés simple del 1,5% mensual, para pagar en 12 cuotas mensuales iguales. El interés simple total se calcula sobre el monto original del préstamo durante todo el plazo, y se suma al capital antes de dividir en cuotas.",
+    "tipo_visual": "ninguno",
+    "visual_descripcion": "",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-057",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "algebra_calculo",
+        "tipo_contexto": "familiar_personal",
+        "enunciado": "¿Cuál es el valor de cada cuota mensual?",
+        "opciones": {
+          "A": "$500.000",
+          "B": "$507.500",
+          "C": "$600.000",
+          "D": "$590.000"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Interés total: 6.000.000×0,015×12=$1.080.000. Total a pagar: 6.000.000+1.080.000=$7.080.000. Cuota: 7.080.000÷12=$590.000.",
+        "distractores": {
+          "A": {
+            "explicacion": "Olvida sumar el interés, dividiendo solo el capital original entre las 12 cuotas.",
+            "patron_trampa": "dato_no_disponible_o_supuesto"
+          },
+          "B": {
+            "explicacion": "Aplica la tasa mensual una sola vez sobre todo el préstamo, en lugar de multiplicarla por los 12 meses del plazo.",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          },
+          "C": {
+            "explicacion": "Redondea el capital original hacia arriba antes de calcular el interés, introduciendo un error de redondeo prematuro.",
+            "patron_trampa": "redondeo_erroneo"
+          }
+        },
+        "dificultad": "alta",
+        "tarjetas_relacionadas": [
+          "RC-ALG-022",
+          "RC-CTX-005"
+        ]
+      },
+      {
+        "id": "RC-ITEM-058",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "algebra_calculo",
+        "tipo_contexto": "familiar_personal",
+        "enunciado": "¿Cuánto dinero en TOTAL habrá pagado la persona al final de las 12 cuotas, y cuánto de eso corresponde a intereses?",
+        "opciones": {
+          "A": "$7.080.000 en total, de los cuales $1.080.000 son intereses.",
+          "B": "$6.000.000 en total, sin intereses adicionales.",
+          "C": "$7.080.000 en total, de los cuales $6.000.000 son intereses.",
+          "D": "$7.800.000 en total, de los cuales $1.800.000 son intereses."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El total pagado es capital+interés = 6.000.000+1.080.000=$7.080.000, de los cuales $1.080.000 corresponden a intereses.",
+        "distractores": {
+          "B": {
+            "explicacion": "Ignora por completo el interés pactado en el préstamo.",
+            "patron_trampa": "dato_no_disponible_o_supuesto"
+          },
+          "C": {
+            "explicacion": "Confunde cuál parte del total corresponde al capital y cuál a los intereses.",
+            "patron_trampa": "confusion_variable"
+          },
+          "D": {
+            "explicacion": "Comete un error de cálculo al multiplicar la tasa o el tiempo, obteniendo cifras que no corresponden a los datos del préstamo.",
+            "patron_trampa": "operacion_incorrecta"
+          }
+        },
+        "dificultad": "media",
+        "tarjetas_relacionadas": [
+          "RC-ALG-022"
+        ]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-040",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Una empresa de domicilios registró los tiempos de entrega (en minutos) de 8 pedidos recientes: 22, 35, 28, 45, 30, 25, 40, 33. La empresa promete entregar en 35 minutos o menos.",
+    "tipo_visual": "tabla",
+    "visual_descripcion": "Tabla con los tiempos de entrega (en minutos) de los 8 pedidos recientes registrados.",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-059",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "estadistica",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "¿Cuál es el tiempo promedio de entrega de estos 8 pedidos?",
+        "opciones": {
+          "A": "33",
+          "B": "32,25",
+          "C": "36,875",
+          "D": "45"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Suma=22+35+28+45+30+25+40+33=258. Promedio=258÷8=32,25 minutos.",
+        "distractores": {
+          "A": {
+            "explicacion": "Redondea el promedio real (32,25) sin calcularlo con precisión.",
+            "patron_trampa": "redondeo_erroneo"
+          },
+          "C": {
+            "explicacion": "Divide la suma entre 7 en lugar de entre 8, omitiendo un pedido del conteo.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "Reporta el valor máximo (45 minutos) en lugar de calcular el promedio de los 8 pedidos.",
+            "patron_trampa": "confusion_variable"
+          }
+        },
+        "dificultad": "baja",
+        "tarjetas_relacionadas": []
+      },
+      {
+        "id": "RC-ITEM-060",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "estadistica",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "¿Qué proporción de estos 8 pedidos cumplió la promesa de entrega en 35 minutos o menos?",
+        "opciones": {
+          "A": "5 de 8 (62,5%).",
+          "B": "7 de 8 (87,5%).",
+          "C": "6 de 8 (75%).",
+          "D": "2 de 8 (25%)."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Cumplen (≤35 min): 22, 35, 28, 30, 25, 33, es decir 6 de los 8 pedidos (75%). Solo 45 y 40 exceden los 35 minutos.",
+        "distractores": {
+          "A": {
+            "explicacion": "Excluye por error el pedido de exactamente 35 minutos, tratando '35 minutos o menos' como si fuera estrictamente menor a 35.",
+            "patron_trampa": "confusion_variable"
+          },
+          "B": {
+            "explicacion": "Incluye por error uno de los pedidos que sí excede los 35 minutos, posiblemente confundiendo el valor 40 con uno menor.",
+            "patron_trampa": "lectura_invertida_datos"
+          },
+          "D": {
+            "explicacion": "Cuenta los pedidos que NO cumplieron la promesa (2 de 8) en lugar de los que SÍ la cumplieron.",
+            "patron_trampa": "confusion_variable"
+          }
+        },
+        "dificultad": "media",
+        "tarjetas_relacionadas": [
+          "RC-EST-021"
+        ]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-041",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "En una línea de producción, se revisa una muestra representativa de 500 unidades fabricadas, encontrando 15 unidades defectuosas. La fábrica produce 20.000 unidades al mes.",
+    "tipo_visual": "ninguno",
+    "visual_descripcion": "",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-061",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "algebra_calculo",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "Si la muestra es representativa de toda la producción, ¿cuántas unidades defectuosas se esperaría encontrar en un mes completo?",
+        "opciones": {
+          "A": "300",
+          "B": "15",
+          "C": "1.500",
+          "D": "600"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Tasa de defectos en la muestra: 15÷500=0,03 (3%). Aplicada a la producción mensual: 20.000×0,03=600 unidades defectuosas esperadas.",
+        "distractores": {
+          "A": {
+            "explicacion": "Calcula mal la tasa de la muestra, usando 1,5% en lugar de 3%.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "B": {
+            "explicacion": "Asume que el número de defectos no cambia con la escala de producción, ignorando que la muestra representa solo una fracción del total mensual.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "C": {
+            "explicacion": "Comete un error de escala de un orden de magnitud al aplicar la proporción a la producción mensual.",
+            "patron_trampa": "operacion_incorrecta"
+          }
+        },
+        "dificultad": "media",
+        "tarjetas_relacionadas": [
+          "RC-CTX-027",
+          "RC-ALG-003"
+        ]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-042",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Una región tiene una población de 3,6 × 10⁶ habitantes y una superficie de 4,5 × 10⁴ km².",
+    "tipo_visual": "ninguno",
+    "visual_descripcion": "",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-062",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "algebra_calculo",
+        "tipo_contexto": "comunitario_social",
+        "enunciado": "¿Cuál es la densidad poblacional aproximada de esta región, en habitantes por km²?",
+        "opciones": {
+          "A": "80",
+          "B": "8",
+          "C": "800",
+          "D": "0,8"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "3,6×10⁶ ÷ 4,5×10⁴ = (3,6÷4,5)×10^(6−4) = 0,8×10² = 80 habitantes por km².",
+        "distractores": {
+          "B": {
+            "explicacion": "Calcula correctamente el cociente de los coeficientes (0,8) pero no aplica correctamente la potencia de 10 resultante.",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          },
+          "C": {
+            "explicacion": "Comete un error de un orden de magnitud al manejar los exponentes de la notación científica.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "Olvida multiplicar por la potencia de 10 resultante (10²), dejando solo el coeficiente 0,8.",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          }
+        },
+        "dificultad": "media",
+        "tarjetas_relacionadas": [
+          "RC-ALG-010",
+          "RC-ALG-011"
+        ]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-043",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Un estudiante universitario cursó 3 asignaturas en un semestre: Química (4 créditos, calificación 4,5), Cálculo (3 créditos, calificación 3,8), e Inglés (2 créditos, calificación 4,2). El promedio ponderado semestral se calcula multiplicando cada calificación por sus créditos, sumando esos productos, y dividiendo entre el total de créditos.",
+    "tipo_visual": "tabla",
+    "visual_descripcion": "Tabla con 3 filas (Química, Cálculo, Inglés) mostrando los créditos y la calificación de cada asignatura.",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-063",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "estadistica",
+        "tipo_contexto": "familiar_personal",
+        "enunciado": "¿Cuál es el promedio ponderado semestral de este estudiante?",
+        "opciones": {
+          "A": "4,17",
+          "B": "4,2",
+          "C": "37,8",
+          "D": "4,5"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "(4×4,5+3×3,8+2×4,2)÷(4+3+2) = (18+11,4+8,4)÷9 = 37,8÷9 = 4,2.",
+        "distractores": {
+          "A": {
+            "explicacion": "Calcula el promedio simple de las tres calificaciones sin ponderar por créditos: (4,5+3,8+4,2)÷3=4,17.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "C": {
+            "explicacion": "Olvida dividir entre el total de créditos, reportando solo la suma ponderada (37,8).",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          },
+          "D": {
+            "explicacion": "Reporta la calificación más alta (Química, 4,5) en lugar de calcular el promedio ponderado real.",
+            "patron_trampa": "confusion_variable"
+          }
+        },
+        "dificultad": "media",
+        "tarjetas_relacionadas": [
+          "RC-CTX-009",
+          "RC-CTX-010"
+        ]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-044",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Una empresa compra un terreno rectangular de 40 metros de largo por 25 metros de ancho para construir una bodega. En una esquina del terreno se instalará un tanque cilíndrico de almacenamiento de agua, con un radio de 2 metros y una altura de 3 metros.",
+    "tipo_visual": "diagrama_esquematico",
+    "visual_descripcion": "Plano del terreno rectangular (40m × 25m) con el tanque cilíndrico (radio 2m, altura 3m) ubicado en una esquina.",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-064",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "geometria",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "¿Cuál es el área total del terreno donde se construirá la bodega?",
+        "opciones": {
+          "A": "65 m²",
+          "B": "100 m²",
+          "C": "1.000 m²",
+          "D": "500 m²"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Área = largo × ancho = 40m × 25m = 1.000 m².",
+        "distractores": {
+          "A": {
+            "explicacion": "Suma las dimensiones (40+25=65) en lugar de multiplicarlas.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "B": {
+            "explicacion": "Comete un error de escala al calcular el producto de las dimensiones.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "Calcula la mitad del área correcta, como si fuera el área de un triángulo en lugar de un rectángulo.",
+            "patron_trampa": "confusion_variable"
+          }
+        },
+        "dificultad": "baja",
+        "tarjetas_relacionadas": [
+          "RC-GEO-003"
+        ]
+      },
+      {
+        "id": "RC-ITEM-065",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "geometria",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "¿Cuál es la capacidad aproximada (en litros) del tanque cilíndrico de almacenamiento? (recuerda que 1 m³ equivale a 1.000 litros)",
+        "opciones": {
+          "A": "Aproximadamente 12.000 litros.",
+          "B": "Aproximadamente 3.770 litros.",
+          "C": "Aproximadamente 150.800 litros.",
+          "D": "Aproximadamente 37.700 litros."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Volumen = πr²h = π×2²×3 = π×12 ≈ 37,7 m³. Convertido a litros: 37,7×1.000 ≈ 37.700 litros.",
+        "distractores": {
+          "A": {
+            "explicacion": "Olvida multiplicar por π, calculando solo r²×h=12 y convirtiendo directamente a litros.",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          },
+          "B": {
+            "explicacion": "No convierte correctamente de m³ a litros, usando un factor de conversión 10 veces menor al real.",
+            "patron_trampa": "unidades_no_convertidas"
+          },
+          "C": {
+            "explicacion": "Usa 4 (el doble del radio) en lugar de 2 al elevarlo al cuadrado en la fórmula πr²h, multiplicando el resultado real por 4.",
+            "patron_trampa": "denominador_o_escala_incorrecta"
+          }
+        },
+        "dificultad": "alta",
+        "tarjetas_relacionadas": [
+          "RC-GEO-007",
+          "RC-GEO-010"
+        ]
+      }
+    ],
+    "tipo": "contexto_rc"
+  }
+]

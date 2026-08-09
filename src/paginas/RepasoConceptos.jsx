@@ -303,7 +303,11 @@ export function RepasoConceptos({ moduloId, leccion, perfil, onCambiarPerfil, on
                     {ETIQUETAS_DIFICULTAD[tarjeta.dificultad] ?? tarjeta.dificultad}
                   </span>
                   <span className="repaso-badge-tipo">
-                    {modulo.categorias?.[tarjeta.afirmacion_asociada] ?? tarjeta.afirmacion_asociada ?? tarjeta.bloque}
+                    {modulo.categorias?.[tarjeta.afirmacion_asociada] ??
+                      modulo.nucleos?.[tarjeta.contenido] ??
+                      tarjeta.afirmacion_asociada ??
+                      tarjeta.contenido ??
+                      tarjeta.bloque}
                   </span>
                 </div>
 

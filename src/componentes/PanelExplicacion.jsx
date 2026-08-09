@@ -82,24 +82,37 @@ export function PanelExplicacion({ pregunta, seleccion, esCorrecta, tarjetasConc
             {tarjetasTeoria.length === 1 ? 'Repasar la tarjeta de teoría relacionada' : 'Repasar las tarjetas de teoría relacionadas'}
           </summary>
           <div className="panel-otras-lista">
-            {tarjetasTeoria.map((tarjeta) => (
-              <div key={tarjeta.id} className="panel-teoria-item">
-                <p className="panel-teoria-pregunta">{tarjeta.pregunta}</p>
-                <p className="panel-teoria-respuesta">{tarjeta.respuesta_breve}</p>
-                <div className="panel-teoria-seccion-label">Explicación</div>
-                <p className="panel-otras-texto">
-                  <TextoConNegritas texto={tarjeta.explicacion} />
-                </p>
-                {tarjeta.ejemplo_aplicado && (
-                  <>
-                    <div className="panel-teoria-seccion-label panel-teoria-seccion-label--accent">Ejemplo</div>
-                    <p className="panel-otras-texto">
-                      <TextoConNegritas texto={tarjeta.ejemplo_aplicado} />
-                    </p>
-                  </>
-                )}
-              </div>
-            ))}
+            {tarjetasTeoria.map((tarjeta) => {
+              // Mismo detect-and-branch que RepasoConceptos.jsx: el esquema
+              // "científica" (Pensamiento Científico y Razonamiento
+              // Cuantitativo, detectado por `modo`) usa pregunta/respuesta
+              // (o antes/despues en cloze) + regla/ejemplo, no
+              // respuesta_breve/explicacion/ejemplo_aplicado (CC/LC).
+              const esCientifica = 'modo' in tarjeta
+              const esCloze = esCientifica ? tarjeta.modo === 'cloze' : 'antes' in tarjeta
+              const enunciado = esCloze ? `${tarjeta.antes}___${tarjeta.despues}` : tarjeta.pregunta
+              const respuesta = esCientifica ? tarjeta.respuesta : tarjeta.respuesta_breve
+              const explicacion = esCientifica ? tarjeta.regla : tarjeta.explicacion
+              const ejemplo = esCientifica ? tarjeta.ejemplo : tarjeta.ejemplo_aplicado
+              return (
+                <div key={tarjeta.id} className="panel-teoria-item">
+                  <p className="panel-teoria-pregunta">{enunciado}</p>
+                  <p className="panel-teoria-respuesta">{respuesta}</p>
+                  <div className="panel-teoria-seccion-label">Explicación</div>
+                  <p className="panel-otras-texto">
+                    <TextoConNegritas texto={explicacion} />
+                  </p>
+                  {ejemplo && (
+                    <>
+                      <div className="panel-teoria-seccion-label panel-teoria-seccion-label--accent">Ejemplo</div>
+                      <p className="panel-otras-texto">
+                        <TextoConNegritas texto={ejemplo} />
+                      </p>
+                    </>
+                  )}
+                </div>
+              )
+            })}
           </div>
         </details>
       )}

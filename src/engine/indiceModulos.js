@@ -3,6 +3,7 @@ import { adaptersCompetenciasCiudadanas } from '../modulos/competencias-ciudadan
 import { adaptersPensamientoCientifico } from '../modulos/pensamiento-cientifico/adapters.js'
 import { adaptersDiosgenina } from '../modulos/diosgenina/adapters.js'
 import { adaptersLecturaCritica } from '../modulos/lectura-critica/adapters.js'
+import { adaptersRazonamientoCuantitativo } from '../modulos/razonamiento-cuantitativo/adapters.js'
 
 // Índice central de módulos del examen. Agregar un módulo nuevo es:
 //   1. Copiar sus JSON a src/data/<id>/.
@@ -25,8 +26,31 @@ export const indiceModulos = {
     nombre: 'Razonamiento Cuantitativo',
     monograma: 'RC',
     descripcion: 'Interpretación de datos, proporcionalidad y modelación.',
-    disponible: false,
-    adapters: {},
+    disponible: true,
+    // Igual que CC/LC/PC: todavía no hay distribución de simulacro ni
+    // escala de resultado diseñadas para este módulo (ver
+    // saber_pro_resultado_scope en memoria) — solo repaso de conceptos y
+    // práctica por sub-categoría por ahora.
+    soportaSimulacro: false,
+    // Las 3 competencias oficiales ICFES de RC (viven en `pregunta.parte`,
+    // ver adapters/contextoRC.js).
+    categorias: {
+      interpretacion_representacion: 'Interpretación y representación',
+      formulacion_ejecucion: 'Formulación y ejecución',
+      argumentacion: 'Argumentación',
+    },
+    // Eje ortogonal a `categorias`, mismo mecanismo que Pensamiento
+    // Científico usa para núcleo común/específico: el área de contenido
+    // matemático (`contenido` en los datos fuente, tanto en tarjetas de
+    // concepto como en preguntas). `PracticaPorParte.jsx` solo muestra el
+    // selector cuando este mapa está presente.
+    nucleos: {
+      algebra_calculo: 'Álgebra y cálculo',
+      contexto_aplicado: 'Contexto aplicado',
+      estadistica: 'Estadística',
+      geometria: 'Geometría',
+    },
+    adapters: adaptersRazonamientoCuantitativo,
   },
   'lectura-critica': {
     id: 'lectura-critica',
