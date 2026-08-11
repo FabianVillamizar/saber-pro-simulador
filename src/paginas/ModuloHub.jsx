@@ -57,6 +57,19 @@ const MODOS_FRANCES = [
   },
 ]
 
+// Inglés es el único módulo con tarjetas de concepto en esquema cloze
+// (antes/despues/respuesta) sobre las que además tiene sentido escribir la
+// respuesta en vez de solo reconocerla entre 3-4 opciones — LC/CC/PC usan
+// pregunta/respuesta_breve, que no es texto libre corto para comparar. Se
+// agrega después de los 3 modos estándar en vez de reemplazarlos (a
+// diferencia de MODOS_FRANCES/MODOS_COMUNICACION_ESCRITA): Inglés sigue
+// siendo un módulo de examen normal, esto es un modo de estudio extra.
+const MODO_ESCRIBIR_INGLES = {
+  id: 'escribe-respuesta',
+  nombre: 'Escribe la respuesta',
+  descripcion: 'Las mismas tarjetas de Repaso, pero escribes la respuesta antes de verla.',
+}
+
 // Comunicación Escrita tampoco es un módulo de opción múltiple: el ICFES
 // evalúa un ensayo argumentativo completo, así que sus modos propios
 // reemplazan práctica/simulacro igual que Français (ver MODOS_FRANCES).
@@ -87,6 +100,7 @@ export function ModuloHub({ moduloId, perfil, onCambiarPerfil, onVolver, onSelec
 
   const esFrances = moduloId === 'frances'
   const esComunicacionEscrita = moduloId === 'comunicacion-escrita'
+  const esIngles = moduloId === 'ingles'
 
   // "Práctica por sub-categoría" solo tiene sentido si el módulo tiene
   // preguntas — francés, por ejemplo, es solo repaso de conceptos porque
@@ -99,9 +113,12 @@ export function ModuloHub({ moduloId, perfil, onCambiarPerfil, onVolver, onSelec
     ? [MODOS[0], ...MODOS_FRANCES]
     : esComunicacionEscrita
       ? [MODOS[0], ...MODOS_COMUNICACION_ESCRITA]
-      : MODOS.filter((modo) => modo.id !== 'simulacro' || modulo.soportaSimulacro).filter(
-          (modo) => modo.id !== 'practica-parte' || modulo.preguntas.length > 0
-        )
+      : [
+          ...MODOS.filter((modo) => modo.id !== 'simulacro' || modulo.soportaSimulacro).filter(
+            (modo) => modo.id !== 'practica-parte' || modulo.preguntas.length > 0
+          ),
+          ...(esIngles ? [MODO_ESCRIBIR_INGLES] : []),
+        ]
 
   const esDiosgenina = moduloId === 'diosgenina'
   const conteoPorBloque = esDiosgenina

@@ -15,6 +15,7 @@ import { MapaDelCurso } from './paginas/MapaDelCurso.jsx'
 import { EnsayosModelo } from './paginas/EnsayosModelo.jsx'
 import { PracticarEnsayo } from './paginas/PracticarEnsayo.jsx'
 import { EjerciciosRapidos } from './paginas/EjerciciosRapidos.jsx'
+import { EscribeLaRespuesta } from './paginas/EscribeLaRespuesta.jsx'
 
 function App() {
   const { perfil, cambiarPerfil } = usePerfilActivo()
@@ -167,6 +168,21 @@ function App() {
   if (pantalla.tipo === 'practicar-ensayo') {
     return (
       <PracticarEnsayo
+        moduloId={pantalla.moduloId}
+        perfil={perfil}
+        onCambiarPerfil={onCambiarPerfil}
+        onVolver={volverAModulo}
+      />
+    )
+  }
+
+  // Modo propio de Inglés (ver ModuloHub.jsx / MODO_ESCRIBIR_INGLES): a
+  // diferencia de los modos de Français/Comunicación Escrita de arriba,
+  // este convive con los 3 modos estándar en vez de reemplazarlos, así que
+  // sí toma moduloId de pantalla igual que 'repaso'/'practica-parte'.
+  if (pantalla.tipo === 'escribe-respuesta') {
+    return (
+      <EscribeLaRespuesta
         moduloId={pantalla.moduloId}
         perfil={perfil}
         onCambiarPerfil={onCambiarPerfil}

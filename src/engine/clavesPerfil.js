@@ -16,3 +16,7 @@ export function claveEnsayos(perfilId) {
 export function claveEjercicios(perfilId) {
   return `${perfilId}:comunicacion-escrita:ejercicios`
 }
+
+export function claveEscritura(perfilId, moduloId) {
+  return `${perfilId}:escritura:${moduloId}`
+}
