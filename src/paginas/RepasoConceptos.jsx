@@ -80,7 +80,17 @@ const BOTONES_EVAL = [
   { calificacion: 'facil', etiqueta: 'Fácil', intervalo: '6 días', clase: 'facil' },
 ]
 
-export function RepasoConceptos({ moduloId, leccion, perfil, onCambiarPerfil, onVolver, onIrACompletaFrase, onIrATraduce }) {
+export function RepasoConceptos({
+  moduloId,
+  leccion,
+  categoriaFiltro,
+  bloquesFiltro,
+  perfil,
+  onCambiarPerfil,
+  onVolver,
+  onIrACompletaFrase,
+  onIrATraduce,
+}) {
   const { modulo, cargando, error } = useModulo(moduloId)
   const { dark, toggle } = useTheme()
   const esModuloFrances = moduloId === 'frances'
@@ -97,32 +107,37 @@ export function RepasoConceptos({ moduloId, leccion, perfil, onCambiarPerfil, on
   // Solo se recalcula cuando cambia el módulo cargado, la lección elegida
   // o la pestaña de tipo: la cola de la sesión no debe reordenarse cada
   // vez que cambian los estados SRS mientras se está respondiendo.
-  // Con `leccion` (viene del Mapa del curso, ver MapaDelCurso.jsx): se
-  // repasan TODAS las tarjetas de esa lección, sin importar si el SRS
-  // las marca como vencidas — el usuario eligió esa lección a propósito,
-  // no está pidiendo el repaso general del día. `tipoFiltro` (pestañas
-  // Diálogo/Gramática/Cultura/Pronunciación, solo francés) y `nivelFiltro`
-  // (pestañas A1-B2, solo inglés) se combinan con lo anterior: sin lección
-  // elegida sigue respetando el vencimiento SRS (no rompe la garantía tipo
-  // Anki) y los prerrequisitos (`prerequisitosCumplidos`, ver srs.js — una
-  // tarjeta con `prereqs` no aparece hasta acertar al menos una vez cada
-  // prerrequisito; sin prereqs es un no-op), con lección elegida ignora
-  // ambos igual que el vencimiento, porque el usuario ya eligió esa lección
-  // a propósito. Sin lección elegida Y en francés, además se excluyen las
-  // lecciones que el Mapa del curso todavía marca como bloqueadas (mismo
-  // cálculo, ver progresoFrances.js) — si no, "Repasar ahora" mostraría
-  // tarjetas de lecciones que el propio Mapa dice que no se pueden abrir
-  // todavía.
+  // Con `leccion` (viene del Mapa del curso, ver MapaDelCurso.jsx) o con
+  // `categoriaFiltro`/`bloquesFiltro` (vienen de ExploracionCompetencias.jsx,
+  // ver competencias-ciudadanas/exploracion.js): se repasan TODAS las
+  // tarjetas de esa selección, sin importar si el SRS las marca como
+  // vencidas — el usuario la eligió a propósito, no está pidiendo el
+  // repaso general del día. `tipoFiltro` (pestañas Diálogo/Gramática/
+  // Cultura/Pronunciación, solo francés) y `nivelFiltro` (pestañas A1-B2,
+  // solo inglés) son distintos: siguen respetando el vencimiento SRS, son
+  // una vista más angosta del repaso diario, no una selección explícita.
+  // Los prerrequisitos (`prerequisitosCumplidos`, ver srs.js — una tarjeta
+  // con `prereqs` no aparece hasta acertar al menos una vez cada
+  // prerrequisito; sin prereqs es un no-op) sí aplican siempre, incluso
+  // con selección explícita — elegir una competencia a propósito no debería
+  // saltarse sus propios fundamentos. Sin selección explícita Y en
+  // francés, además se excluyen las lecciones que el Mapa del curso
+  // todavía marca como bloqueadas (mismo cálculo, ver progresoFrances.js)
+  // — si no, "Repasar ahora" mostraría tarjetas de lecciones que el propio
+  // Mapa dice que no se pueden abrir todavía.
   useEffect(() => {
     if (!modulo) return
     const abiertas = esModuloFrances ? leccionesDesbloqueadas(modulo.tarjetasConcepto, estadosSRS) : null
+    const eligioExplicito = leccion != null || categoriaFiltro != null || bloquesFiltro != null
     const pendientes = modulo.tarjetasConcepto.filter((t) => {
       if (leccion != null && t.leccion !== leccion) return false
       if (tipoFiltro && t.tipo !== tipoFiltro) return false
       if (nivelFiltro && t.nivel_mcer !== nivelFiltro) return false
-      if (leccion == null) {
+      if (categoriaFiltro && t.competencia_asociada !== categoriaFiltro) return false
+      if (bloquesFiltro && !bloquesFiltro.includes(t.bloque)) return false
+      if (!prerequisitosCumplidos(t, estadosSRS)) return false
+      if (!eligioExplicito) {
         if (!estaLista(estadosSRS[t.id])) return false
-        if (!prerequisitosCumplidos(t, estadosSRS)) return false
         if (abiertas && !abiertas.has(t.leccion)) return false
       }
       return true
@@ -131,7 +146,7 @@ export function RepasoConceptos({ moduloId, leccion, perfil, onCambiarPerfil, on
     setCola(colaInicial)
     setTotalInicial(colaInicial.length)
     setRevisadasHoy(0)
-  }, [modulo, leccion, tipoFiltro, nivelFiltro])
+  }, [modulo, leccion, tipoFiltro, nivelFiltro, categoriaFiltro, bloquesFiltro])
 
   if (cargando || cola === null) return <div className="page estado-carga">Cargando…</div>
   if (error) return <div className="page estado-error">No se pudo cargar el módulo: {error.message}</div>

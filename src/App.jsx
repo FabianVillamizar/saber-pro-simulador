@@ -16,6 +16,7 @@ import { EnsayosModelo } from './paginas/EnsayosModelo.jsx'
 import { PracticarEnsayo } from './paginas/PracticarEnsayo.jsx'
 import { EjerciciosRapidos } from './paginas/EjerciciosRapidos.jsx'
 import { EscribeLaRespuesta } from './paginas/EscribeLaRespuesta.jsx'
+import { ExploracionCompetencias } from './paginas/ExploracionCompetencias.jsx'
 
 function App() {
   const { perfil, cambiarPerfil } = usePerfilActivo()
@@ -59,6 +60,21 @@ function App() {
 
   const volverAModulo = () => setPantalla({ tipo: 'modulo', moduloId: pantalla.moduloId })
 
+  // "Repaso de conceptos" de Competencias Ciudadanas aterriza primero en
+  // ExploracionCompetencias.jsx (pilares por competencia + drill-down de
+  // bloques/capas) en vez de directo en la cola de tarjetas — ver
+  // ModuloHub.jsx, que no necesitó cambios porque la tarjeta "Repaso de
+  // conceptos" sigue siendo la misma para todos los módulos; el desvío
+  // ocurre acá, en el único lugar donde se traduce "modo elegido" a
+  // pantalla real.
+  const irAModo = (modo, moduloId) => {
+    if (modo === 'repaso' && moduloId === 'competencias-ciudadanas') {
+      setPantalla({ tipo: 'explorar-competencias', moduloId })
+    } else {
+      setPantalla({ tipo: modo, moduloId })
+    }
+  }
+
   if (pantalla.tipo === 'modulo') {
     // Français · Assimil no aterriza en la grilla de modos: el Mapa del
     // curso es la entrada (ver MapaDelCurso.jsx) porque, a diferencia de
@@ -82,7 +98,7 @@ function App() {
         perfil={perfil}
         onCambiarPerfil={onCambiarPerfil}
         onVolver={irAHome}
-        onSeleccionarModo={(modo) => setPantalla({ tipo: modo, moduloId: pantalla.moduloId })}
+        onSeleccionarModo={(modo) => irAModo(modo, pantalla.moduloId)}
       />
     )
   }
@@ -94,7 +110,21 @@ function App() {
         perfil={perfil}
         onCambiarPerfil={onCambiarPerfil}
         onVolver={volverAModulo}
-        onSeleccionarModo={(modo) => setPantalla({ tipo: modo, moduloId: pantalla.moduloId })}
+        onSeleccionarModo={(modo) => irAModo(modo, pantalla.moduloId)}
+      />
+    )
+  }
+
+  if (pantalla.tipo === 'explorar-competencias') {
+    return (
+      <ExploracionCompetencias
+        moduloId={pantalla.moduloId}
+        perfil={perfil}
+        onCambiarPerfil={onCambiarPerfil}
+        onVolver={volverAModulo}
+        onRepasar={(categoriaFiltro, bloquesFiltro) =>
+          setPantalla({ tipo: 'repaso', moduloId: pantalla.moduloId, categoriaFiltro, bloquesFiltro })
+        }
       />
     )
   }
@@ -104,6 +134,8 @@ function App() {
       <RepasoConceptos
         moduloId={pantalla.moduloId}
         leccion={pantalla.leccion}
+        categoriaFiltro={pantalla.categoriaFiltro}
+        bloquesFiltro={pantalla.bloquesFiltro}
         perfil={perfil}
         onCambiarPerfil={onCambiarPerfil}
         onVolver={volverAModulo}
