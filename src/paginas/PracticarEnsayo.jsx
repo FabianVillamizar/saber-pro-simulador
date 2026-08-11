@@ -53,6 +53,64 @@ function contarPalabras(texto) {
   return limpio.length ? limpio.split(/\s+/).length : 0
 }
 
+const NIVELES = [1, 2, 3, 4]
+const EJES = ['forma', 'planteamiento', 'organizacion']
+const EJES_LABELS = {
+  forma: 'Forma de expresión',
+  planteamiento: 'Planteamiento definido',
+  organizacion: 'Organización',
+}
+const OPCIONES_EJE = [
+  { valor: 'bien', label: 'Bien' },
+  { valor: 'regular', label: 'Regular' },
+  { valor: 'mal', label: 'Mal' },
+]
+// Sugerencia estática de qué bloques de Repaso de conceptos tocan cada eje
+// — más simple y menos frágil que derivarlo del mapa `categorias` de
+// indiceModulos.js (que puede reordenarse sin que este texto necesite
+// cambiar). No es un enlace funcional a un repaso filtrado (RepasoConceptos
+// no soporta filtrar por eje todavía), solo la pista de qué repasar.
+const SUGERENCIA_EJE = {
+  forma: 'conectores, ortografía, puntuación y registro formal',
+  planteamiento: 'planteamiento directo desde la introducción y posturas válidas',
+  organizacion: 'estructura de introducción/desarrollo/conclusión y unidad temática sin digresiones',
+}
+
+// Agrega el historial estructurado (ejes bien/regular/mal + ¿complejizó?)
+// para la señal de "tu eje más débil" en la pantalla de selección — mismo
+// espíritu que el SRS del resto de la app, pero derivado de auto-reporte
+// en vez de aciertos/fallos automáticos, porque la evaluación ocurre fuera
+// de la app (ver PLANTILLA_EVALUACION).
+function calcularProgreso(historial) {
+  const conteo = Object.fromEntries(EJES.map((e) => [e, { bien: 0, regular: 0, mal: 0 }]))
+  let totalConDatos = 0
+  let conObjecionRegistrada = 0
+  let conObjecionLograda = 0
+
+  for (const h of historial) {
+    const tieneEjes = EJES.some((e) => h.ejes?.[e])
+    if (!tieneEjes && h.complejizo == null) continue
+    totalConDatos++
+    for (const e of EJES) {
+      const v = h.ejes?.[e]
+      if (v) conteo[e][v]++
+    }
+    if (h.complejizo != null) {
+      conObjecionRegistrada++
+      if (h.complejizo) conObjecionLograda++
+    }
+  }
+
+  if (totalConDatos === 0) return null
+
+  const ranking = EJES.map((e) => ({ eje: e, puntaje: conteo[e].mal * 2 + conteo[e].regular })).sort(
+    (a, b) => b.puntaje - a.puntaje
+  )
+  const ejeMasDebil = ranking[0].puntaje > 0 ? ranking[0].eje : null
+
+  return { totalConDatos, conteo, ejeMasDebil, conObjecionRegistrada, conObjecionLograda }
+}
+
 function construirPrompt(pregunta, ensayo) {
   return PLANTILLA_EVALUACION.replace('{PEGA_AQUI_LA_PREGUNTA_DEL_TEMA}', pregunta).replace(
     '{PEGA_AQUI_TU_ENSAYO}',
@@ -119,15 +177,17 @@ export function PracticarEnsayo({ moduloId, perfil, onCambiarPerfil, onVolver })
       temaId: tema.id,
       pregunta: tema.pregunta,
       ensayo,
-      nivel: '',
+      nivel: null,
+      ejes: { forma: null, planteamiento: null, organizacion: null },
+      complejizo: null,
     }
     const nuevoHistorial = [entrada, ...historial]
     setHistorial(nuevoHistorial)
     escribirJSON(claveEnsayos(perfil.id), nuevoHistorial)
   }
 
-  function actualizarNivel(id, nivel) {
-    const nuevoHistorial = historial.map((h) => (h.id === id ? { ...h, nivel } : h))
+  function actualizarResultado(id, cambios) {
+    const nuevoHistorial = historial.map((h) => (h.id === id ? { ...h, ...cambios } : h))
     setHistorial(nuevoHistorial)
     escribirJSON(claveEnsayos(perfil.id), nuevoHistorial)
   }
@@ -150,6 +210,7 @@ export function PracticarEnsayo({ moduloId, perfil, onCambiarPerfil, onVolver })
   const esAdvertencia = segundosRestantes < UMBRAL_ADVERTENCIA_SEGUNDOS && (fase === 'planning' || fase === 'writing')
   const tiempoAgotado = fase === 'writing' && segundosRestantes <= 0
   const palabras = contarPalabras(ensayo)
+  const progreso = calcularProgreso(historial)
 
   return (
     <div className="page practicar-ensayo">
@@ -182,21 +243,53 @@ export function PracticarEnsayo({ moduloId, perfil, onCambiarPerfil, onVolver })
           <p className="practicar-ensayo-info">
             Elige un tema para iniciar una sesión cronometrada: 10 min de planificación + 30 min de escritura.
           </p>
+
+          {progreso && (
+            <div className="practicar-ensayo-progreso">
+              <div className="practicar-ensayo-progreso-titulo">Tu progreso</div>
+              <div className="practicar-ensayo-progreso-texto">
+                Basado en {progreso.totalConDatos} {progreso.totalConDatos === 1 ? 'ensayo' : 'ensayos'} con
+                resultado registrado.
+              </div>
+              {progreso.ejeMasDebil && (
+                <div className="practicar-ensayo-progreso-texto">
+                  Tu eje más débil: <strong>{EJES_LABELS[progreso.ejeMasDebil]}</strong> (
+                  {progreso.conteo[progreso.ejeMasDebil].mal} "mal" · {progreso.conteo[progreso.ejeMasDebil].regular}{' '}
+                  "regular"). Repasa las tarjetas sobre {SUGERENCIA_EJE[progreso.ejeMasDebil]}.
+                </div>
+              )}
+              {progreso.conObjecionRegistrada > 0 && (
+                <div className="practicar-ensayo-progreso-texto">
+                  Reconociste y respondiste la objeción contraria en {progreso.conObjecionLograda} de{' '}
+                  {progreso.conObjecionRegistrada} ensayos donde registraste ese dato.
+                </div>
+              )}
+            </div>
+          )}
+
           <div className="practicar-ensayo-grupos">
             {grupos.map((grupo) => (
               <div key={grupo.dominio}>
                 <div className="practicar-ensayo-grupo-label">{grupo.etiqueta}</div>
                 <div className="practicar-ensayo-grupo-lista">
-                  {grupo.temas.map((t) => (
-                    <button
-                      key={t.id}
-                      type="button"
-                      className="practicar-ensayo-tema"
-                      onClick={() => elegirTema(t.id)}
-                    >
-                      {t.pregunta}
-                    </button>
-                  ))}
+                  {grupo.temas.map((t) => {
+                    const vecesPracticado = historial.filter((h) => h.temaId === t.id).length
+                    return (
+                      <button
+                        key={t.id}
+                        type="button"
+                        className="practicar-ensayo-tema"
+                        onClick={() => elegirTema(t.id)}
+                      >
+                        {t.pregunta}
+                        {vecesPracticado > 0 && (
+                          <div className="practicar-ensayo-tema-practicado">
+                            Practicado {vecesPracticado} {vecesPracticado === 1 ? 'vez' : 'veces'}
+                          </div>
+                        )}
+                      </button>
+                    )
+                  })}
                 </div>
               </div>
             ))}
@@ -292,12 +385,73 @@ export function PracticarEnsayo({ moduloId, perfil, onCambiarPerfil, onVolver })
                       <div className="practicar-ensayo-historial-pregunta">
                         {h.pregunta.length > 70 ? `${h.pregunta.slice(0, 70)}…` : h.pregunta}
                       </div>
-                      <input
-                        className="practicar-ensayo-historial-nivel"
-                        value={h.nivel}
-                        onChange={(e) => actualizarNivel(h.id, e.target.value)}
-                        placeholder="Nivel reportado por Claude (opcional)"
-                      />
+                      <div className="practicar-ensayo-resultado">
+                        <div className="practicar-ensayo-resultado-fila">
+                          <span className="practicar-ensayo-resultado-label">Nivel</span>
+                          <div className="practicar-ensayo-pills">
+                            {NIVELES.map((n) => (
+                              <button
+                                key={n}
+                                type="button"
+                                className={`practicar-ensayo-pill${h.nivel === n ? ' practicar-ensayo-pill--activo' : ''}`}
+                                onClick={() => actualizarResultado(h.id, { nivel: h.nivel === n ? null : n })}
+                              >
+                                {n}
+                              </button>
+                            ))}
+                          </div>
+                        </div>
+
+                        {EJES.map((eje) => (
+                          <div key={eje} className="practicar-ensayo-resultado-fila">
+                            <span className="practicar-ensayo-resultado-label">{EJES_LABELS[eje]}</span>
+                            <div className="practicar-ensayo-pills">
+                              {OPCIONES_EJE.map((op) => (
+                                <button
+                                  key={op.valor}
+                                  type="button"
+                                  className={`practicar-ensayo-pill practicar-ensayo-pill--${op.valor}${
+                                    h.ejes?.[eje] === op.valor ? ' practicar-ensayo-pill--activo' : ''
+                                  }`}
+                                  onClick={() =>
+                                    actualizarResultado(h.id, {
+                                      ejes: { ...h.ejes, [eje]: h.ejes?.[eje] === op.valor ? null : op.valor },
+                                    })
+                                  }
+                                >
+                                  {op.label}
+                                </button>
+                              ))}
+                            </div>
+                          </div>
+                        ))}
+
+                        <div className="practicar-ensayo-resultado-fila">
+                          <span className="practicar-ensayo-resultado-label">¿Complejizó (objeción respondida)?</span>
+                          <div className="practicar-ensayo-pills">
+                            <button
+                              type="button"
+                              className={`practicar-ensayo-pill practicar-ensayo-pill--bien${
+                                h.complejizo === true ? ' practicar-ensayo-pill--activo' : ''
+                              }`}
+                              onClick={() => actualizarResultado(h.id, { complejizo: h.complejizo === true ? null : true })}
+                            >
+                              Sí
+                            </button>
+                            <button
+                              type="button"
+                              className={`practicar-ensayo-pill practicar-ensayo-pill--mal${
+                                h.complejizo === false ? ' practicar-ensayo-pill--activo' : ''
+                              }`}
+                              onClick={() =>
+                                actualizarResultado(h.id, { complejizo: h.complejizo === false ? null : false })
+                              }
+                            >
+                              No
+                            </button>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   ))}
                 </div>

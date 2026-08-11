@@ -67,6 +67,11 @@ const MODOS_COMUNICACION_ESCRITA = [
     descripcion: 'Lee ensayos de nivel 4 con anotaciones: qué frase cumple qué función y por qué.',
   },
   {
+    id: 'ejercicios-rapidos',
+    nombre: 'Ejercicios rápidos',
+    descripcion: 'Conectores y ortografía con corrección inmediata, o una introducción exprés de 3 minutos.',
+  },
+  {
     id: 'practicar-ensayo',
     nombre: 'Practicar ensayo',
     descripcion: 'Sesión cronometrada (10 min planificación + 30 min escritura) con evaluación asistida por Claude.',

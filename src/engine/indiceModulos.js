@@ -134,6 +134,43 @@ export const indiceModulos = {
       economia_y_trabajo: 'Economía y trabajo',
       convivencia_y_ciudadania: 'Convivencia y ciudadanía',
     },
+    // A diferencia de PC/RC (donde `categorias` mapea una `competencia_asociada`
+    // que sí trae cada tarjeta), las 55 tarjetas de concepto de este módulo no
+    // tienen `competencia_asociada` — solo el `bloque` granular (23 valores
+    // distintos, ver ce_conceptos_skl_tanda{1,2}.json). RepasoConceptos.jsx
+    // busca `modulo.categorias?.[tarjeta.bloque]` como segundo intento antes
+    // de mostrar el bloque crudo, así que este mapa agrupa los 23 bloques en
+    // los ejes reales de la rúbrica ICFES (pertinencia / planteamiento
+    // definido / organización / forma de expresión / complejizar el
+    // planteamiento) más un eje no oficial de estrategia de examen — mejor
+    // señal de progreso que 23 micro-categorías sueltas, y mismo agrupamiento
+    // que usa el panel de progreso de Practicar Ensayo para sugerir qué
+    // repasar (ver PracticarEnsayo.jsx).
+    categorias: {
+      que_cuenta_como_impertinencia: 'Pertinencia',
+      como_evitar_impertinencia: 'Pertinencia',
+      planteamiento_directo_desde_la_introduccion: 'Planteamiento definido',
+      posiciones_validas: 'Planteamiento definido',
+      estructura_introduccion: 'Planteamiento definido',
+      argumentativo_vs_expositivo: 'Organización',
+      desarrollo_de_un_argumento: 'Organización',
+      estructura_desarrollo: 'Organización',
+      estructura_conclusion: 'Organización',
+      unidad_tematica_sin_digresiones: 'Organización',
+      complejizar_el_planteamiento: 'Complejizar el planteamiento',
+      recursos_estilisticos_argumentativos: 'Complejizar el planteamiento',
+      cohesion_por_referencia: 'Forma de expresión',
+      conectores_de_adicion: 'Forma de expresión',
+      conectores_de_contraste: 'Forma de expresión',
+      conectores_de_causa_efecto: 'Forma de expresión',
+      conectores_de_conclusion: 'Forma de expresión',
+      registro_formal_vs_coloquial: 'Forma de expresión',
+      errores_ortograficos_frecuentes: 'Forma de expresión',
+      puntuacion_que_afecta_sentido: 'Forma de expresión',
+      gestion_del_tiempo: 'Estrategia de examen',
+      extension_apropiada: 'Estrategia de examen',
+      auto_revision_antes_de_entregar: 'Estrategia de examen',
+    },
   },
   'pensamiento-cientifico': {
     id: 'pensamiento-cientifico',

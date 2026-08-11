@@ -385,9 +385,15 @@ export function RepasoConceptos({ moduloId, leccion, perfil, onCambiarPerfil, on
             ) : (
               <>
                 <div className="repaso-badges">
+                  {tarjeta.dificultad && (
+                    <span className={`repaso-badge-dificultad repaso-badge-dificultad--${tarjeta.dificultad}`}>
+                      {ETIQUETAS_DIFICULTAD[tarjeta.dificultad] ?? tarjeta.dificultad}
+                    </span>
+                  )}
                   <span className="repaso-badge-nivel">
                     {modulo.categorias?.[tarjeta.competencia_asociada] ??
                       tarjeta.competencia_asociada ??
+                      modulo.categorias?.[tarjeta.bloque] ??
                       tarjeta.bloque}
                   </span>
                 </div>
@@ -604,6 +610,13 @@ export function RepasoConceptos({ moduloId, leccion, perfil, onCambiarPerfil, on
             ) : (
               <>
                 <div className="repaso-reverso-cabecera">
+                  {tarjeta.dificultad && (
+                    <span
+                      className={`repaso-badge-dificultad repaso-badge-dificultad--chico repaso-badge-dificultad--${tarjeta.dificultad}`}
+                    >
+                      {ETIQUETAS_DIFICULTAD[tarjeta.dificultad] ?? tarjeta.dificultad}
+                    </span>
+                  )}
                   <div className="repaso-reverso-oracion repaso-reverso-respuesta">{tarjeta.respuesta_breve}</div>
                 </div>
 

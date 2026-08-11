@@ -26,15 +26,19 @@ export async function cargarModulo(moduloId) {
   const itemsCrudos = []
   const ensayosModelo = []
   const temasEnsayo = []
+  const ejercicios = []
 
   // Mismo discriminador estructural que antes, ampliado para Comunicación
   // Escrita (que no tiene ítems de opción múltiple, solo tarjetas de
-  // concepto + dos entidades propias de sus pantallas de ensayo): las
-  // tarjetas de concepto nunca tienen `parte`, `preguntas`, `anotaciones`
-  // ni `dominio`; los ítems/grupos de examen siempre tienen `parte` o
-  // `preguntas`; un ensayo modelo siempre tiene `anotaciones`; un tema de
-  // ensayo siempre tiene `dominio` (y nunca `anotaciones`, para no chocar
-  // con lo anterior). Para cualquier otro módulo estas dos listas quedan
+  // concepto + entidades propias de sus pantallas de ensayo/ejercicios):
+  // las tarjetas de concepto nunca tienen `parte`, `preguntas`,
+  // `anotaciones`, `dominio` ni `ejercicio`; los ítems/grupos de examen
+  // siempre tienen `parte` o `preguntas`; un ensayo modelo siempre tiene
+  // `anotaciones`; un tema de ensayo siempre tiene `dominio`; un
+  // micro-ejercicio (Ejercicios rápidos) siempre tiene `ejercicio` (su
+  // propio discriminador de forma: `'cloze'`/`'eleccion'`). Cada chequeo es
+  // mutuamente excluyente con los anteriores, así que el orden no importa
+  // salvo por legibilidad. Para cualquier otro módulo estas listas quedan
   // vacías y no las consume nadie.
   for (const modulo of archivosCargados) {
     const entradas = modulo.default ?? modulo
@@ -42,6 +46,7 @@ export async function cargarModulo(moduloId) {
       if ('parte' in entrada || 'preguntas' in entrada) itemsCrudos.push(entrada)
       else if ('anotaciones' in entrada) ensayosModelo.push(entrada)
       else if ('dominio' in entrada) temasEnsayo.push(entrada)
+      else if ('ejercicio' in entrada) ejercicios.push(entrada)
       else tarjetasConcepto.push(entrada)
     }
   }
@@ -52,5 +57,6 @@ export async function cargarModulo(moduloId) {
     preguntas: normalizeBank(itemsCrudos, registro.adapters),
     ensayosModelo,
     temasEnsayo,
+    ejercicios,
   }
 }

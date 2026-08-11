@@ -1,0 +1,330 @@
+.ejercicios-rapidos {
+  max-width: 780px;
+}
+
+.ejercicios-rapidos-titulo-modulo {
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--text);
+}
+
+.ejercicios-rapidos-titulo-sub {
+  font-size: 12px;
+  color: var(--text-faint);
+  margin-top: 1px;
+}
+
+.ejercicios-rapidos-timer {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 14px;
+  border-radius: var(--radio-pill);
+  font-variant-numeric: tabular-nums;
+  background: color-mix(in oklch, var(--accent) 9%, var(--surface));
+  border: 1px solid color-mix(in oklch, var(--accent) 30%, var(--border));
+  margin-right: 10px;
+}
+
+:root[data-theme='dark'] .ejercicios-rapidos-timer {
+  background: color-mix(in oklch, var(--accent) 18%, var(--surface));
+}
+
+.ejercicios-rapidos-timer span {
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.ejercicios-rapidos-info {
+  font-size: 13.5px;
+  color: var(--text-faint);
+  margin-bottom: 18px;
+}
+
+/* Hub */
+.ejercicios-rapidos-modos {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.ejercicios-rapidos-modo {
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radio-md);
+  padding: 20px 22px;
+}
+
+.ejercicios-rapidos-modo-titulo {
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+
+.ejercicios-rapidos-modo-desc {
+  font-size: 13px;
+  color: var(--text-sub);
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.ejercicios-rapidos-modo-stats {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--exito);
+  margin-bottom: 12px;
+}
+
+/* Drill */
+.ejercicios-rapidos-progreso {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-faint);
+  margin-bottom: 16px;
+}
+
+.ejercicios-rapidos-cloze,
+.ejercicios-rapidos-pregunta {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.6;
+  margin-bottom: 22px;
+}
+
+.ejercicios-rapidos-hueco {
+  display: inline-block;
+  padding: 1px 8px;
+  border-radius: 6px;
+  background: color-mix(in oklch, var(--accent) 12%, var(--surface));
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.ejercicios-rapidos-opciones {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.ejercicios-rapidos-opcion {
+  text-align: left;
+  padding: 12px 16px;
+  border-radius: 12px;
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 14px;
+  color: var(--text);
+  transition: border-color var(--dur-hover) ease;
+}
+
+.ejercicios-rapidos-opcion:hover {
+  border-color: var(--accent);
+}
+
+.ejercicios-rapidos-opcion--correcta {
+  color: var(--exito);
+  background: color-mix(in oklch, var(--exito) 12%, var(--surface));
+  border-color: color-mix(in oklch, var(--exito) 40%, var(--border));
+}
+
+.ejercicios-rapidos-opcion--incorrecta {
+  color: oklch(48% 0.15 20);
+  background: color-mix(in oklch, oklch(60% 0.16 20) 12%, var(--surface));
+  border-color: color-mix(in oklch, oklch(60% 0.16 20) 40%, var(--border));
+}
+
+:root[data-theme='dark'] .ejercicios-rapidos-opcion--incorrecta {
+  color: oklch(75% 0.13 20);
+}
+
+.ejercicios-rapidos-explicacion {
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radio-md);
+  padding: 16px 18px;
+  margin-bottom: 16px;
+}
+
+.ejercicios-rapidos-explicacion-titulo {
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+
+.ejercicios-rapidos-explicacion-texto {
+  font-size: 13px;
+  color: var(--text-sub);
+  line-height: 1.55;
+}
+
+/* Fin de sesión (compartido drill / intro) */
+.ejercicios-rapidos-fin {
+  max-width: 480px;
+  margin: 3rem auto 0;
+  text-align: center;
+}
+
+.ejercicios-rapidos-fin h2 {
+  font-size: 32px;
+  margin-bottom: 4px;
+}
+
+.ejercicios-rapidos-fin-botones {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 18px;
+}
+
+/* Selección de tema (introducción exprés) */
+.ejercicios-rapidos-grupos {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.ejercicios-rapidos-grupo-label {
+  font-size: 11px;
+  font-weight: 800;
+  color: var(--text-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-bottom: 8px;
+}
+
+.ejercicios-rapidos-grupo-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ejercicios-rapidos-tema {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 13px 15px;
+  border-radius: 12px;
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 14px;
+  color: var(--text);
+  line-height: 1.4;
+  transition: border-color var(--dur-hover) ease;
+}
+
+.ejercicios-rapidos-tema:hover {
+  border-color: var(--accent);
+}
+
+/* Escritura de introducción */
+.ejercicios-rapidos-contexto {
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radio-md);
+  padding: 18px 20px;
+  margin-bottom: 16px;
+}
+
+.ejercicios-rapidos-contexto-texto {
+  font-size: 13px;
+  color: var(--text-sub);
+  line-height: 1.55;
+  margin: 0 0 10px;
+}
+
+.ejercicios-rapidos-contexto-pregunta {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.45;
+  margin: 0;
+}
+
+.ejercicios-rapidos-textarea {
+  width: 100%;
+  min-height: 140px;
+  resize: vertical;
+  border: 1.5px solid var(--border);
+  border-radius: 13px;
+  padding: 14px 16px;
+  font-size: 15px;
+  font-family: inherit;
+  color: var(--text);
+  background: var(--surface);
+  outline: none;
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
+.ejercicios-rapidos-textarea:focus {
+  border-color: var(--accent);
+}
+
+/* Revisión */
+.ejercicios-rapidos-revision-label {
+  font-size: 11px;
+  font-weight: 800;
+  color: var(--text-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-bottom: 8px;
+}
+
+.ejercicios-rapidos-revision-texto {
+  font-size: 14.5px;
+  color: var(--text);
+  line-height: 1.65;
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radio-md);
+  padding: 16px 18px;
+  margin-bottom: 20px;
+  white-space: pre-wrap;
+}
+
+.ejercicios-rapidos-checklist {
+  margin-bottom: 20px;
+}
+
+.ejercicios-rapidos-checklist-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  padding: 7px 0;
+  font-size: 13.5px;
+  color: var(--text-sub);
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.ejercicios-rapidos-checklist-item input {
+  margin-top: 2px;
+  accent-color: var(--accent);
+}
+
+.ejercicios-rapidos-modelo {
+  background: color-mix(in oklch, var(--accent) 6%, var(--surface));
+  border: 1px solid color-mix(in oklch, var(--accent) 25%, var(--border));
+  border-radius: var(--radio-md);
+  padding: 16px 18px;
+  margin-bottom: 20px;
+}
+
+:root[data-theme='dark'] .ejercicios-rapidos-modelo {
+  background: color-mix(in oklch, var(--accent) 14%, var(--surface));
+}
+
+.ejercicios-rapidos-modelo-texto {
+  font-size: 13.5px;
+  color: var(--text-sub);
+  line-height: 1.6;
+}

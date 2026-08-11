@@ -103,6 +103,45 @@
   border-color: var(--accent);
 }
 
+.practicar-ensayo-tema-practicado {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--exito);
+  margin-top: 5px;
+}
+
+/* Panel "Tu progreso" */
+.practicar-ensayo-progreso {
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radio-md);
+  padding: 16px 20px;
+  margin-bottom: 18px;
+}
+
+.practicar-ensayo-progreso-titulo {
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--text-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-bottom: 8px;
+}
+
+.practicar-ensayo-progreso-texto {
+  font-size: 13px;
+  color: var(--text-sub);
+  line-height: 1.55;
+}
+
+.practicar-ensayo-progreso-texto + .practicar-ensayo-progreso-texto {
+  margin-top: 6px;
+}
+
+.practicar-ensayo-progreso-texto strong {
+  color: var(--text);
+}
+
 /* Fase: planificación */
 .practicar-ensayo-eyebrow {
   font-size: 12px;
@@ -342,19 +381,76 @@
   line-height: 1.4;
 }
 
-.practicar-ensayo-historial-nivel {
-  margin-top: 8px;
-  width: 100%;
-  padding: 8px 11px;
-  border-radius: 9px;
-  border: 1px solid var(--border);
-  background: var(--surface);
-  color: var(--text);
-  font-size: 12.5px;
-  font-family: inherit;
-  outline: none;
+.practicar-ensayo-resultado {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
 }
 
-.practicar-ensayo-historial-nivel:focus {
+.practicar-ensayo-resultado-fila {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.practicar-ensayo-resultado-label {
+  font-size: 11.5px;
+  color: var(--text-faint);
+  flex: 0 0 auto;
+  min-width: 150px;
+}
+
+.practicar-ensayo-pills {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.practicar-ensayo-pill {
+  padding: 4px 10px;
+  border-radius: var(--radio-pill);
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  color: var(--text-faint);
+  font-family: inherit;
+  font-size: 11.5px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: border-color var(--dur-hover) ease;
+}
+
+.practicar-ensayo-pill:hover {
   border-color: var(--accent);
+}
+
+.practicar-ensayo-pill--activo {
+  color: var(--accent);
+  background: color-mix(in oklch, var(--accent) 10%, var(--surface));
+  border-color: color-mix(in oklch, var(--accent) 30%, var(--border));
+}
+
+.practicar-ensayo-pill--bien.practicar-ensayo-pill--activo {
+  color: var(--exito);
+  background: color-mix(in oklch, var(--exito) 12%, var(--surface));
+  border-color: color-mix(in oklch, var(--exito) 35%, var(--border));
+}
+
+.practicar-ensayo-pill--regular.practicar-ensayo-pill--activo {
+  color: var(--warning);
+  background: color-mix(in oklch, var(--warning) 12%, var(--surface));
+  border-color: color-mix(in oklch, var(--warning) 35%, var(--border));
+}
+
+.practicar-ensayo-pill--mal.practicar-ensayo-pill--activo {
+  color: oklch(48% 0.15 20);
+  background: color-mix(in oklch, oklch(60% 0.16 20) 12%, var(--surface));
+  border-color: color-mix(in oklch, oklch(60% 0.16 20) 35%, var(--border));
+}
+
+:root[data-theme='dark'] .practicar-ensayo-pill--mal.practicar-ensayo-pill--activo {
+  color: oklch(75% 0.13 20);
 }

@@ -1,0 +1,239 @@
+[
+  {
+    "id": "CE-EJ-CON-001",
+    "modulo": "comunicacion_escrita",
+    "ejercicio": "cloze",
+    "grupo": "conector",
+    "categoria": "adicion",
+    "antes": "Los adolescentes aún no completan su desarrollo emocional.",
+    "respuesta": "Además,",
+    "despues": "la evidencia clínica muestra que gran parte del malestar corporal en esa edad es transitorio.",
+    "opciones": ["Además,", "Sin embargo,", "Por lo tanto,", "En síntesis,"],
+    "explicacion": "\"Además\" suma una idea que refuerza la anterior en la misma dirección, sin contraste ni consecuencia.",
+    "fuente": "CE-SKL-031"
+  },
+  {
+    "id": "CE-EJ-CON-002",
+    "modulo": "comunicacion_escrita",
+    "ejercicio": "cloze",
+    "grupo": "conector",
+    "categoria": "adicion",
+    "antes": "El teletrabajo reduce tiempos de desplazamiento.",
+    "respuesta": "Asimismo,",
+    "despues": "permite conciliar mejor la vida familiar.",
+    "opciones": ["Asimismo,", "No obstante,", "En consecuencia,", "Por todo lo anterior,"],
+    "explicacion": "\"Asimismo\" funciona como \"además\", pero encaja mejor cuando el segundo argumento sigue un patrón parecido al primero.",
+    "fuente": "CE-SKL-032"
+  },
+  {
+    "id": "CE-EJ-CON-003",
+    "modulo": "comunicacion_escrita",
+    "ejercicio": "cloze",
+    "grupo": "conector",
+    "categoria": "contraste",
+    "antes": "Quienes defienden esta práctica argumentan que restringirla vulnera el libre desarrollo de la personalidad.",
+    "respuesta": "Sin embargo,",
+    "despues": "ese principio presupone una capacidad de autodeterminación que la psicología del desarrollo sitúa, en la mayoría de los casos, más allá de los 14 años.",
+    "opciones": ["Sin embargo,", "Asimismo,", "Por lo tanto,", "En síntesis,"],
+    "explicacion": "\"Sin embargo\" matiza o contradice la idea recién dada — aquí introduce la respuesta a la objeción reconocida.",
+    "fuente": "CE-SKL-033"
+  },
+  {
+    "id": "CE-EJ-CON-004",
+    "modulo": "comunicacion_escrita",
+    "ejercicio": "cloze",
+    "grupo": "conector",
+    "categoria": "contraste",
+    "antes": "La semana laboral de cuatro días mejora el bienestar.",
+    "respuesta": "No obstante,",
+    "despues": "su viabilidad depende del sector: no aplica igual a manufactura que a servicios.",
+    "opciones": ["No obstante,", "Además,", "En consecuencia,", "Por todo lo anterior,"],
+    "explicacion": "El contraste no es solo para el contraargumento reconocido: también sirve para que delimites el alcance de tu propia afirmación.",
+    "fuente": "CE-SKL-035"
+  },
+  {
+    "id": "CE-EJ-CON-005",
+    "modulo": "comunicacion_escrita",
+    "ejercicio": "cloze",
+    "grupo": "conector",
+    "categoria": "causa_efecto",
+    "antes": "La evidencia clínica muestra que el malestar corporal es transitorio.",
+    "respuesta": "Por lo tanto,",
+    "despues": "condicionar el acceso a la mayoría de edad no niega un derecho.",
+    "opciones": ["Por lo tanto,", "Sin embargo,", "Asimismo,", "En síntesis,"],
+    "explicacion": "\"Por lo tanto\" introduce la consecuencia después de la razón ya dada, como oración cerrada.",
+    "fuente": "CE-SKL-036"
+  },
+  {
+    "id": "CE-EJ-CON-006",
+    "modulo": "comunicacion_escrita",
+    "ejercicio": "cloze",
+    "grupo": "conector",
+    "categoria": "causa_efecto",
+    "antes": "La restricción actual del ICFES como único criterio limita a estudiantes con otras fortalezas.",
+    "respuesta": "En consecuencia,",
+    "despues": "admitir criterios complementarios ampliaría el acceso real a la educación superior.",
+    "opciones": ["En consecuencia,", "No obstante,", "Además,", "Por todo lo anterior,"],
+    "explicacion": "\"En consecuencia\" suena algo más formal que \"por lo tanto\" y funciona bien para cerrar la idea de un párrafo entero.",
+    "fuente": "CE-SKL-037"
+  },
+  {
+    "id": "CE-EJ-CON-007",
+    "modulo": "comunicacion_escrita",
+    "ejercicio": "cloze",
+    "grupo": "conector",
+    "categoria": "conclusion",
+    "antes": "",
+    "respuesta": "En síntesis,",
+    "despues": "proteger a los menores de decisiones irreversibles no es negarles autonomía, sino reconocer que esta se construye con el tiempo.",
+    "opciones": ["En síntesis,", "Sin embargo,", "Debido a que", "Además,"],
+    "explicacion": "Los conectores de conclusión avisan al lector que empieza el cierre — facilitan reconocer la estructura del ensayo de un vistazo.",
+    "fuente": "CE-SKL-038"
+  },
+  {
+    "id": "CE-EJ-CON-008",
+    "modulo": "comunicacion_escrita",
+    "ejercicio": "cloze",
+    "grupo": "conector",
+    "categoria": "conclusion",
+    "antes": "",
+    "respuesta": "Por todo lo anterior,",
+    "despues": "no estoy de acuerdo con que los menores de 14 años puedan practicarse cirugías plásticas.",
+    "opciones": ["Por todo lo anterior,", "En cambio,", "Puesto que", "Asimismo,"],
+    "explicacion": "\"Por todo lo anterior\" remarca que la conclusión es consecuencia lógica de lo ya argumentado — mejor que repetir siempre \"en síntesis\".",
+    "fuente": "CE-SKL-039"
+  },
+  {
+    "id": "CE-EJ-ORT-001",
+    "modulo": "comunicacion_escrita",
+    "ejercicio": "cloze",
+    "grupo": "ortografia",
+    "antes": "No estoy de acuerdo,",
+    "respuesta": "porque",
+    "despues": "la madurez emocional no está completa.",
+    "opciones": ["porque", "por qué", "porqué", "por que"],
+    "explicacion": "\"Porque\" (una palabra, sin tilde) introduce la razón — es el más frecuente y crítico de los cuatro en un ensayo argumentativo.",
+    "fuente": "CE-SKL-043"
+  },
+  {
+    "id": "CE-EJ-ORT-002",
+    "modulo": "comunicacion_escrita",
+    "ejercicio": "cloze",
+    "grupo": "ortografia",
+    "antes": "",
+    "respuesta": "¿Por qué",
+    "despues": "se permite esto?",
+    "opciones": ["¿Por qué", "¿Porque", "¿Porqué", "¿Por que"],
+    "explicacion": "\"Por qué\" (con tilde, dos palabras) pregunta — se usa al inicio de una pregunta directa.",
+    "fuente": "CE-SKL-043"
+  },
+  {
+    "id": "CE-EJ-ORT-003",
+    "modulo": "comunicacion_escrita",
+    "ejercicio": "cloze",
+    "grupo": "ortografia",
+    "antes": "Vamos a ver qué opciones",
+    "respuesta": "hay",
+    "despues": ".",
+    "opciones": ["hay", "ahí", "ay", "haber"],
+    "explicacion": "\"Hay\" es del verbo haber (existencia): \"qué opciones hay\" pregunta qué existe disponible.",
+    "fuente": "CE-SKL-044"
+  },
+  {
+    "id": "CE-EJ-ORT-004",
+    "modulo": "comunicacion_escrita",
+    "ejercicio": "cloze",
+    "grupo": "ortografia",
+    "antes": "Vamos",
+    "respuesta": "a ver",
+    "despues": "qué opciones hay.",
+    "opciones": ["a ver", "haber", "haver", "aver"],
+    "explicacion": "\"A ver\" es preposición + el infinitivo \"ver\" (\"vamos a comprobar algo\"), distinto del verbo \"haber\".",
+    "fuente": "CE-SKL-044"
+  },
+  {
+    "id": "CE-EJ-ORT-005",
+    "modulo": "comunicacion_escrita",
+    "ejercicio": "cloze",
+    "grupo": "ortografia",
+    "antes": "Como",
+    "respuesta": "médico,",
+    "despues": "he hecho cosas buenas.",
+    "opciones": ["médico,", "medico,", "médico", "Médico,"],
+    "explicacion": "Sin tilde, \"medico\" se lee como una forma del verbo \"medicar\" — la tilde en \"médico\" (sustantivo) cambia el sentido completo de la frase.",
+    "fuente": "CE-SKL-045"
+  },
+  {
+    "id": "CE-EJ-ORT-006",
+    "modulo": "comunicacion_escrita",
+    "ejercicio": "cloze",
+    "grupo": "ortografia",
+    "antes": "Como médico,",
+    "respuesta": "he hecho",
+    "despues": "cosas buenas.",
+    "opciones": ["he hecho", "echo", "hecho", "eh hecho"],
+    "explicacion": "\"He hecho\" (verbo haber + participio de hacer) es lo correcto; \"echo\" (sin h, del verbo echar) cambiaría el sentido a \"arrojo cosas buenas\".",
+    "fuente": "CE-SKL-045"
+  },
+  {
+    "id": "CE-EJ-PUN-001",
+    "modulo": "comunicacion_escrita",
+    "ejercicio": "eleccion",
+    "grupo": "puntuacion",
+    "pregunta": "¿Cuál versión marca correctamente la pausa entre la afirmación y su matiz?",
+    "opciones": [
+      { "texto": "El derecho es real pero no aplica sin límites.", "correcta": false },
+      { "texto": "El derecho es real, pero no aplica sin límites.", "correcta": true }
+    ],
+    "explicacion": "La coma antes de \"pero\" señala la pausa lógica real: divide la afirmación de su matiz.",
+    "fuente": "CE-SKL-046"
+  },
+  {
+    "id": "CE-EJ-PUN-002",
+    "modulo": "comunicacion_escrita",
+    "ejercicio": "eleccion",
+    "grupo": "puntuacion",
+    "pregunta": "¿Cuál oración dice que TODOS los estudiantes llegaron tarde?",
+    "opciones": [
+      { "texto": "Los estudiantes, que llegaron tarde, no pudieron entrar.", "correcta": true },
+      { "texto": "Los estudiantes que llegaron tarde no pudieron entrar.", "correcta": false }
+    ],
+    "explicacion": "Con comas (cláusula explicativa) se entiende que todos llegaron tarde; sin comas (cláusula especificativa) solo los que llegaron tarde.",
+    "fuente": "CE-SKL-047"
+  },
+  {
+    "id": "CE-EJ-PUN-003",
+    "modulo": "comunicacion_escrita",
+    "ejercicio": "eleccion",
+    "grupo": "puntuacion",
+    "pregunta": "¿Cuál oración no duplica la marca de contraste?",
+    "opciones": [
+      {
+        "texto": "Aunque el libre desarrollo de la personalidad es un derecho real, sin embargo no aplica sin límites a decisiones irreversibles.",
+        "correcta": false
+      },
+      {
+        "texto": "Aunque el libre desarrollo de la personalidad es un derecho real, no aplica sin límites a decisiones irreversibles.",
+        "correcta": true
+      }
+    ],
+    "explicacion": "\"Aunque\" ya marca la concesión dentro de la misma oración — agregar \"sin embargo\" después duplica la marca de contraste.",
+    "fuente": "CE-SKL-034"
+  },
+  {
+    "id": "CE-EJ-PUN-004",
+    "modulo": "comunicacion_escrita",
+    "ejercicio": "eleccion",
+    "grupo": "puntuacion",
+    "pregunta": "¿Cuál oración usa \"en cambio\" correctamente?",
+    "opciones": [
+      { "texto": "El derecho es real, en cambio no aplica sin límites.", "correcta": false },
+      {
+        "texto": "La manufactura exige presencia física; los servicios profesionales, en cambio, se adaptan mejor al trabajo remoto.",
+        "correcta": true
+      }
+    ],
+    "explicacion": "\"En cambio\" compara dos elementos distintos entre sí; no funciona bien para introducir una objeción a tu propia idea (ahí corresponde \"sin embargo\").",
+    "fuente": "CE-SKL-033"
+  }
+]

@@ -14,6 +14,7 @@ import { Traduce } from './paginas/Traduce.jsx'
 import { MapaDelCurso } from './paginas/MapaDelCurso.jsx'
 import { EnsayosModelo } from './paginas/EnsayosModelo.jsx'
 import { PracticarEnsayo } from './paginas/PracticarEnsayo.jsx'
+import { EjerciciosRapidos } from './paginas/EjerciciosRapidos.jsx'
 
 function App() {
   const { perfil, cambiarPerfil } = usePerfilActivo()
@@ -166,6 +167,17 @@ function App() {
   if (pantalla.tipo === 'practicar-ensayo') {
     return (
       <PracticarEnsayo
+        moduloId={pantalla.moduloId}
+        perfil={perfil}
+        onCambiarPerfil={onCambiarPerfil}
+        onVolver={volverAModulo}
+      />
+    )
+  }
+
+  if (pantalla.tipo === 'ejercicios-rapidos') {
+    return (
+      <EjerciciosRapidos
         moduloId={pantalla.moduloId}
         perfil={perfil}
         onCambiarPerfil={onCambiarPerfil}

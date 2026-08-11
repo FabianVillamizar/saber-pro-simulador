@@ -12,3 +12,7 @@ export function claveSRS(perfilId, moduloId) {
 export function claveEnsayos(perfilId) {
   return `${perfilId}:comunicacion-escrita:ensayos`
 }
+
+export function claveEjercicios(perfilId) {
+  return `${perfilId}:comunicacion-escrita:ejercicios`
+}
