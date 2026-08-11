@@ -5,6 +5,7 @@ import { leerJSON, escribirJSON } from '../engine/storage.js'
 import { claveEjercicios } from '../engine/clavesPerfil.js'
 import { ThemeToggle } from '../componentes/ThemeToggle.jsx'
 import { SelectorPerfil } from '../componentes/SelectorPerfil.jsx'
+import { TextoConNegritas } from '../componentes/TextoConNegritas.jsx'
 import { IconoChevronIzquierdo, IconoReloj } from '../componentes/iconos.jsx'
 import './EjerciciosRapidos.css'
 
@@ -16,6 +17,18 @@ const CHECKLIST_INTRODUCCION = [
   { id: 'sin_evasion', texto: 'No es un "depende" vago — si tomé un término medio, digo bajo qué condición.' },
   { id: 'formal', texto: 'Usé un registro formal, sin muletillas orales ("o sea", "digamos que").' },
 ]
+
+// Las 6 categorías fijas de error de ce_contraejemplos.json (ver
+// comunicacion-escrita-prompts-generacion-v2.txt, Sección 3) — mismo
+// vocabulario que el resto del módulo usa para nombrar estos fallos.
+const TIPOS_ERROR = {
+  impertinencia: 'Impertinencia',
+  sin_estructura: 'Sin estructura',
+  sin_argumento: 'Sin argumento',
+  registro_coloquial: 'Registro coloquial',
+  planteamiento_evasivo: 'Planteamiento evasivo',
+  conclusion_repetitiva: 'Conclusión repetitiva',
+}
 
 function barajar(items) {
   const copia = [...items]
@@ -49,6 +62,7 @@ export function EjerciciosRapidos({ moduloId, perfil, onCambiarPerfil, onVolver 
   const { dark, toggle } = useTheme()
 
   // hub | drill | drill-fin | intro-elegir | intro-escribiendo | intro-revision
+  // | error-elegir | error-revision
   const [fase, setFase] = useState('hub')
 
   const [estadisticas, setEstadisticas] = useState(() => leerJSON(claveEjercicios(perfil.id), {}))
@@ -61,6 +75,9 @@ export function EjerciciosRapidos({ moduloId, perfil, onCambiarPerfil, onVolver 
   const [textoIntro, setTextoIntro] = useState('')
   const [segundosIntro, setSegundosIntro] = useState(INTRODUCCION_SEGUNDOS)
   const [checklistMarcado, setChecklistMarcado] = useState({})
+
+  const [contraejemploId, setContraejemploId] = useState(null)
+  const [errorElegido, setErrorElegido] = useState(null)
 
   // setTimeout encadenado, mismo patrón que PracticarEnsayo.jsx/Simulacro.jsx
   // para no acumular drift ni quedar con un closure desactualizado.
@@ -128,11 +145,21 @@ export function EjerciciosRapidos({ moduloId, perfil, onCambiarPerfil, onVolver 
     setFase('intro-escribiendo')
   }
 
+  function elegirContraejemplo(id) {
+    setContraejemploId(id)
+    setErrorElegido(null)
+    setFase('error-revision')
+  }
+
   const item = fase === 'drill' ? cola[indice] : null
   const opciones = item ? opcionesDe(item) : []
   const temaIntro = modulo.temasEnsayo.find((t) => t.id === temaIntroId) ?? null
   const modeloIntro = modulo.ensayosModelo.find((m) => m.tema_id === temaIntroId) ?? null
   const parrafoModelo = modeloIntro ? modeloIntro.texto.split('\n\n')[0] : null
+  const contraejemplo = modulo.contraejemplos.find((c) => c.id === contraejemploId) ?? null
+  const temaContraejemplo = contraejemplo
+    ? modulo.temasEnsayo.find((t) => t.id === contraejemplo.tema_id)
+    : null
 
   return (
     <div className="page ejercicios-rapidos">
@@ -188,6 +215,17 @@ export function EjerciciosRapidos({ moduloId, perfil, onCambiarPerfil, onVolver 
                 ensayo modelo real.
               </div>
               <button type="button" className="boton-primario" onClick={() => setFase('intro-elegir')}>
+                Empezar
+              </button>
+            </div>
+
+            <div className="ejercicios-rapidos-modo">
+              <div className="ejercicios-rapidos-modo-titulo">Corrige el error</div>
+              <div className="ejercicios-rapidos-modo-desc">
+                Lee un ensayo defectuoso real, diagnostica qué falla antes de ver la explicación y compara con el
+                fragmento corregido.
+              </div>
+              <button type="button" className="boton-primario" onClick={() => setFase('error-elegir')}>
                 Empezar
               </button>
             </div>
@@ -342,6 +380,95 @@ export function EjerciciosRapidos({ moduloId, perfil, onCambiarPerfil, onVolver 
               Volver
             </button>
           </div>
+        </div>
+      )}
+
+      {fase === 'error-elegir' && (
+        <div className="ejercicios-rapidos-select">
+          <p className="ejercicios-rapidos-info">
+            Elige un ensayo — está construido para fallar en un aspecto específico. Encuéntralo antes de que te lo
+            digamos.
+          </p>
+          <div className="ejercicios-rapidos-grupo-lista">
+            {modulo.contraejemplos.map((c) => {
+              const tema = modulo.temasEnsayo.find((t) => t.id === c.tema_id)
+              return (
+                <button
+                  key={c.id}
+                  type="button"
+                  className="ejercicios-rapidos-tema"
+                  onClick={() => elegirContraejemplo(c.id)}
+                >
+                  {tema?.pregunta ?? c.tema_id}
+                </button>
+              )
+            })}
+          </div>
+        </div>
+      )}
+
+      {fase === 'error-revision' && contraejemplo && (
+        <div className="ejercicios-rapidos-revision">
+          {temaContraejemplo && (
+            <div className="ejercicios-rapidos-revision-label">{temaContraejemplo.pregunta}</div>
+          )}
+          <div className="ejercicios-rapidos-revision-texto">
+            <TextoConNegritas texto={contraejemplo.texto_completo} />
+          </div>
+
+          <div className="ejercicios-rapidos-pregunta">¿Qué error identificas?</div>
+          <div className="ejercicios-rapidos-opciones">
+            {Object.entries(TIPOS_ERROR).map(([clave, label]) => {
+              const esCorrecta = clave === contraejemplo.error_demostrado
+              const esElegida = errorElegido === clave
+              let clase = 'ejercicios-rapidos-opcion'
+              if (errorElegido) {
+                if (esCorrecta) clase += ' ejercicios-rapidos-opcion--correcta'
+                else if (esElegida) clase += ' ejercicios-rapidos-opcion--incorrecta'
+              }
+              return (
+                <button
+                  key={clave}
+                  type="button"
+                  className={clase}
+                  onClick={() => !errorElegido && setErrorElegido(clave)}
+                >
+                  {label}
+                </button>
+              )
+            })}
+          </div>
+
+          {errorElegido && (
+            <>
+              <div className="ejercicios-rapidos-explicacion">
+                <div className="ejercicios-rapidos-explicacion-titulo">
+                  {errorElegido === contraejemplo.error_demostrado
+                    ? '✓ Correcto'
+                    : '✗ El error correcto está resaltado arriba'}
+                </div>
+                <div className="ejercicios-rapidos-explicacion-texto">
+                  <TextoConNegritas texto={contraejemplo.explicacion_del_error} />
+                </div>
+              </div>
+
+              <div className="ejercicios-rapidos-modelo">
+                <div className="ejercicios-rapidos-revision-label">Así se vería corregido</div>
+                <div className="ejercicios-rapidos-modelo-texto">
+                  <TextoConNegritas texto={contraejemplo.fragmento_corregido} />
+                </div>
+              </div>
+
+              <div className="ejercicios-rapidos-fin-botones">
+                <button type="button" className="boton-primario" onClick={() => setFase('error-elegir')}>
+                  Otro contraejemplo
+                </button>
+                <button type="button" className="boton-secundario" onClick={() => setFase('hub')}>
+                  Volver
+                </button>
+              </div>
+            </>
+          )}
         </div>
       )}
     </div>

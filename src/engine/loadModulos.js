@@ -27,19 +27,22 @@ export async function cargarModulo(moduloId) {
   const ensayosModelo = []
   const temasEnsayo = []
   const ejercicios = []
+  const contraejemplos = []
 
   // Mismo discriminador estructural que antes, ampliado para Comunicación
   // Escrita (que no tiene ítems de opción múltiple, solo tarjetas de
   // concepto + entidades propias de sus pantallas de ensayo/ejercicios):
   // las tarjetas de concepto nunca tienen `parte`, `preguntas`,
-  // `anotaciones`, `dominio` ni `ejercicio`; los ítems/grupos de examen
-  // siempre tienen `parte` o `preguntas`; un ensayo modelo siempre tiene
-  // `anotaciones`; un tema de ensayo siempre tiene `dominio`; un
-  // micro-ejercicio (Ejercicios rápidos) siempre tiene `ejercicio` (su
-  // propio discriminador de forma: `'cloze'`/`'eleccion'`). Cada chequeo es
-  // mutuamente excluyente con los anteriores, así que el orden no importa
-  // salvo por legibilidad. Para cualquier otro módulo estas listas quedan
-  // vacías y no las consume nadie.
+  // `anotaciones`, `dominio`, `ejercicio` ni `error_demostrado`; los
+  // ítems/grupos de examen siempre tienen `parte` o `preguntas`; un ensayo
+  // modelo siempre tiene `anotaciones`; un tema de ensayo siempre tiene
+  // `dominio`; un micro-ejercicio (Ejercicios rápidos) siempre tiene
+  // `ejercicio`; un contraejemplo (ensayo defectuoso demostrado, mismo
+  // origen de datos que los ensayos modelo pero para el modo "Corrige el
+  // error") siempre tiene `error_demostrado`. Cada chequeo es mutuamente
+  // excluyente con los anteriores, así que el orden no importa salvo por
+  // legibilidad. Para cualquier otro módulo estas listas quedan vacías y
+  // no las consume nadie.
   for (const modulo of archivosCargados) {
     const entradas = modulo.default ?? modulo
     for (const entrada of entradas) {
@@ -47,6 +50,7 @@ export async function cargarModulo(moduloId) {
       else if ('anotaciones' in entrada) ensayosModelo.push(entrada)
       else if ('dominio' in entrada) temasEnsayo.push(entrada)
       else if ('ejercicio' in entrada) ejercicios.push(entrada)
+      else if ('error_demostrado' in entrada) contraejemplos.push(entrada)
       else tarjetasConcepto.push(entrada)
     }
   }
@@ -58,5 +62,6 @@ export async function cargarModulo(moduloId) {
     ensayosModelo,
     temasEnsayo,
     ejercicios,
+    contraejemplos,
   }
 }
