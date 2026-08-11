@@ -85,22 +85,66 @@
   margin-bottom: 16px;
 }
 
-.ejercicios-rapidos-cloze,
-.ejercicios-rapidos-pregunta {
-  font-size: 17px;
-  font-weight: 600;
-  color: var(--text);
-  line-height: 1.6;
-  margin-bottom: 22px;
+.ejercicios-rapidos-progreso-fuente {
+  font-weight: 500;
+  color: var(--text-faint);
 }
 
-.ejercicios-rapidos-hueco {
-  display: inline-block;
-  padding: 1px 8px;
-  border-radius: 6px;
-  background: color-mix(in oklch, var(--accent) 12%, var(--surface));
-  color: var(--accent);
-  font-weight: 800;
+.ejercicios-rapidos-pregunta {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.5;
+  margin-bottom: 14px;
+}
+
+.ejercicios-rapidos-parrafo {
+  font-size: 15.5px;
+  color: var(--text);
+  line-height: 1.75;
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radio-md);
+  padding: 18px 20px;
+  margin-bottom: 18px;
+}
+
+.ejercicios-rapidos-parrafo p + p {
+  margin-top: 14px;
+}
+
+.ejercicios-rapidos-candidato {
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 0 2px;
+  border-bottom: 2px dotted var(--text-faint);
+  transition: background var(--dur-hover) ease, border-color var(--dur-hover) ease;
+}
+
+.ejercicios-rapidos-candidato:hover {
+  background: color-mix(in oklch, var(--accent) 10%, transparent);
+  border-bottom-color: var(--accent);
+}
+
+.ejercicios-rapidos-candidato--correcta {
+  cursor: default;
+  border-bottom-style: solid;
+  border-bottom-color: color-mix(in oklch, var(--exito) 55%, transparent);
+  background: color-mix(in oklch, var(--exito) 12%, transparent);
+  color: var(--exito);
+}
+
+.ejercicios-rapidos-candidato--incorrecta {
+  cursor: default;
+  border-bottom-style: solid;
+  border-bottom-color: color-mix(in oklch, oklch(60% 0.16 20) 55%, transparent);
+  background: color-mix(in oklch, oklch(60% 0.16 20) 14%, transparent);
+  color: oklch(48% 0.15 20);
+  font-weight: 700;
+}
+
+:root[data-theme='dark'] .ejercicios-rapidos-candidato--incorrecta {
+  color: oklch(75% 0.13 20);
 }
 
 .ejercicios-rapidos-opciones {

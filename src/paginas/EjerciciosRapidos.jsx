@@ -6,6 +6,7 @@ import { claveEjercicios } from '../engine/clavesPerfil.js'
 import { ThemeToggle } from '../componentes/ThemeToggle.jsx'
 import { SelectorPerfil } from '../componentes/SelectorPerfil.jsx'
 import { TextoConNegritas } from '../componentes/TextoConNegritas.jsx'
+import { tokenizarParrafos } from '../engine/categoriasEnsayo.js'
 import { IconoChevronIzquierdo, IconoReloj } from '../componentes/iconos.jsx'
 import './EjerciciosRapidos.css'
 
@@ -45,18 +46,6 @@ function formatoTiempo(segundosTotales) {
   return `${m}:${String(s).padStart(2, '0')}`
 }
 
-// Normaliza los dos tipos de ejercicio a la misma forma de opciones para el
-// render y el manejo de clic: cloze trae un array de strings + `respuesta`
-// suelta, elección ya trae objetos `{texto, correcta}` — ambos terminan en
-// `{texto, correcta}[]` para que el resto del componente no necesite saber
-// cuál de los dos está mostrando.
-function opcionesDe(item) {
-  if (item.ejercicio === 'cloze') {
-    return item.opciones.map((texto) => ({ texto, correcta: texto === item.respuesta }))
-  }
-  return item.opciones
-}
-
 export function EjerciciosRapidos({ moduloId, perfil, onCambiarPerfil, onVolver }) {
   const { modulo, cargando, error } = useModulo(moduloId)
   const { dark, toggle } = useTheme()
@@ -68,7 +57,7 @@ export function EjerciciosRapidos({ moduloId, perfil, onCambiarPerfil, onVolver 
   const [estadisticas, setEstadisticas] = useState(() => leerJSON(claveEjercicios(perfil.id), {}))
   const [cola, setCola] = useState([])
   const [indice, setIndice] = useState(0)
-  const [seleccion, setSeleccion] = useState(null)
+  const [candidatoElegido, setCandidatoElegido] = useState(null)
   const [aciertosSesion, setAciertosSesion] = useState(0)
 
   const [temaIntroId, setTemaIntroId] = useState(null)
@@ -109,23 +98,27 @@ export function EjerciciosRapidos({ moduloId, perfil, onCambiarPerfil, onVolver 
   function iniciarDrill() {
     setCola(barajar(modulo.ejercicios))
     setIndice(0)
-    setSeleccion(null)
+    setCandidatoElegido(null)
     setAciertosSesion(0)
     setFase('drill')
   }
 
-  function responder(opcion) {
-    if (seleccion) return
-    setSeleccion(opcion)
+  // Acertar = señalar el candidato que de verdad está mal (esElError:
+  // true) entre los 2-4 marcados en el párrafo — los demás son usos
+  // correctos puestos ahí a propósito como distractores.
+  function responderParrafo(candidato) {
+    if (candidatoElegido) return
+    setCandidatoElegido(candidato)
     const item = cola[indice]
+    const acierto = candidato.esElError === true
     const prev = estadisticas[item.id] ?? { intentos: 0, aciertos: 0 }
     const nuevas = {
       ...estadisticas,
-      [item.id]: { intentos: prev.intentos + 1, aciertos: prev.aciertos + (opcion.correcta ? 1 : 0) },
+      [item.id]: { intentos: prev.intentos + 1, aciertos: prev.aciertos + (acierto ? 1 : 0) },
     }
     setEstadisticas(nuevas)
     escribirJSON(claveEjercicios(perfil.id), nuevas)
-    if (opcion.correcta) setAciertosSesion((a) => a + 1)
+    if (acierto) setAciertosSesion((a) => a + 1)
   }
 
   function siguienteDrill() {
@@ -134,7 +127,7 @@ export function EjerciciosRapidos({ moduloId, perfil, onCambiarPerfil, onVolver 
       return
     }
     setIndice((i) => i + 1)
-    setSeleccion(null)
+    setCandidatoElegido(null)
   }
 
   function elegirTemaIntro(id) {
@@ -152,7 +145,9 @@ export function EjerciciosRapidos({ moduloId, perfil, onCambiarPerfil, onVolver 
   }
 
   const item = fase === 'drill' ? cola[indice] : null
-  const opciones = item ? opcionesDe(item) : []
+  const parrafosItem = item ? tokenizarParrafos(item.parrafo, item.candidatos) : []
+  const temaItem = item?.tema_id ? modulo.temasEnsayo.find((t) => t.id === item.tema_id) : null
+  const errorReal = item?.candidatos.find((c) => c.esElError) ?? null
   const temaIntro = modulo.temasEnsayo.find((t) => t.id === temaIntroId) ?? null
   const modeloIntro = modulo.ensayosModelo.find((m) => m.tema_id === temaIntroId) ?? null
   const parrafoModelo = modeloIntro ? modeloIntro.texto.split('\n\n')[0] : null
@@ -195,7 +190,8 @@ export function EjerciciosRapidos({ moduloId, perfil, onCambiarPerfil, onVolver 
             <div className="ejercicios-rapidos-modo">
               <div className="ejercicios-rapidos-modo-titulo">Conectores y ortografía</div>
               <div className="ejercicios-rapidos-modo-desc">
-                {modulo.ejercicios.length} ejercicios de opción múltiple con corrección inmediata.
+                {modulo.ejercicios.length} párrafos reales (varios sacados de tus propios ensayos modelo): encuentra
+                cuál de los fragmentos marcados está mal usado.
               </div>
               {totalesGlobales.intentos > 0 && (
                 <div className="ejercicios-rapidos-modo-stats">
@@ -237,43 +233,39 @@ export function EjerciciosRapidos({ moduloId, perfil, onCambiarPerfil, onVolver 
         <div className="ejercicios-rapidos-drill">
           <div className="ejercicios-rapidos-progreso">
             {indice + 1} / {cola.length} · Aciertos: {aciertosSesion}
+            {temaItem && <span className="ejercicios-rapidos-progreso-fuente"> · de un ensayo modelo real</span>}
           </div>
 
-          {item.ejercicio === 'cloze' ? (
-            <div className="ejercicios-rapidos-cloze">
-              {item.antes && <span>{item.antes} </span>}
-              <span className="ejercicios-rapidos-hueco">
-                {seleccion ? seleccion.texto : '＿＿＿＿＿'}
-              </span>
-              {item.despues && <span> {item.despues}</span>}
-            </div>
-          ) : (
-            <div className="ejercicios-rapidos-pregunta">{item.pregunta}</div>
-          )}
+          <p className="ejercicios-rapidos-pregunta">Uno de los fragmentos resaltados está mal usado. ¿Cuál?</p>
 
-          <div className="ejercicios-rapidos-opciones">
-            {opciones.map((op) => {
-              const esElegida = seleccion?.texto === op.texto
-              let clase = 'ejercicios-rapidos-opcion'
-              if (seleccion) {
-                if (op.correcta) clase += ' ejercicios-rapidos-opcion--correcta'
-                else if (esElegida) clase += ' ejercicios-rapidos-opcion--incorrecta'
-              }
-              return (
-                <button key={op.texto} type="button" className={clase} onClick={() => responder(op)}>
-                  {op.texto}
-                </button>
-              )
-            })}
+          <div className="ejercicios-rapidos-parrafo">
+            {parrafosItem.map((tokens, pi) => (
+              <p key={pi}>
+                {tokens.map((tok, ti) => {
+                  if (tok.id === null) return <span key={ti}>{tok.texto}</span>
+                  let clase = 'ejercicios-rapidos-candidato'
+                  if (candidatoElegido) {
+                    clase += tok.esElError
+                      ? ' ejercicios-rapidos-candidato--incorrecta'
+                      : ' ejercicios-rapidos-candidato--correcta'
+                  }
+                  return (
+                    <span key={ti} className={clase} onClick={() => responderParrafo(tok)}>
+                      {tok.texto}
+                    </span>
+                  )
+                })}
+              </p>
+            ))}
           </div>
 
-          {seleccion && (
+          {candidatoElegido && (
             <>
               <div className="ejercicios-rapidos-explicacion">
                 <div className="ejercicios-rapidos-explicacion-titulo">
-                  {seleccion.correcta ? '✓ Correcto' : '✗ La respuesta correcta está resaltada arriba'}
+                  {candidatoElegido.esElError ? '✓ Correcto' : '✗ El error real está resaltado arriba'}
                 </div>
-                <div className="ejercicios-rapidos-explicacion-texto">{item.explicacion}</div>
+                <div className="ejercicios-rapidos-explicacion-texto">{errorReal?.nota}</div>
               </div>
               <button type="button" className="boton-primario" onClick={siguienteDrill}>
                 {indice + 1 >= cola.length ? 'Ver resultado →' : 'Siguiente →'}

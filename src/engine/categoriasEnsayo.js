@@ -28,7 +28,11 @@ export function colorPorHue(hue, dark) {
 // `anotacion.fragmento` dentro del párrafo por coincidencia literal de
 // texto — igual que el prototipo original. Devuelve datos puros (sin
 // handlers de React) para que el componente decida cómo pintar/interactuar
-// con cada token.
+// con cada token. El token final propaga TODOS los campos de la anotación
+// original (vía `...m`), no solo `categoria`/`nota` — Ensayos Modelo solo
+// usa esos dos, pero Ejercicios rápidos ("encuentra el error", ver
+// EjerciciosRapidos.jsx) reutiliza esta misma función con candidatos que
+// además traen `esElError`, y necesita que sobreviva hasta el render.
 export function tokenizarParrafos(texto, anotaciones) {
   let globalId = 0
   return texto.split('\n\n').map((paraText) => {
@@ -43,7 +47,7 @@ export function tokenizarParrafos(texto, anotaciones) {
     let cursor = 0
     matches.forEach((m) => {
       if (m.idx > cursor) tokens.push({ id: null, texto: paraText.slice(cursor, m.idx) })
-      tokens.push({ id: globalId++, texto: m.fragmento, categoria: m.categoria, nota: m.nota })
+      tokens.push({ ...m, id: globalId++, texto: m.fragmento })
       cursor = m.idx + m.fragmento.length
     })
     if (cursor < paraText.length) tokens.push({ id: null, texto: paraText.slice(cursor) })

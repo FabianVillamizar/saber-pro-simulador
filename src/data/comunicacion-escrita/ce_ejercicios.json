@@ -1,239 +1,175 @@
 [
   {
-    "id": "CE-EJ-CON-001",
+    "id": "CE-EJ-P-001",
     "modulo": "comunicacion_escrita",
-    "ejercicio": "cloze",
+    "ejercicio": "parrafo",
     "grupo": "conector",
-    "categoria": "adicion",
-    "antes": "Los adolescentes aún no completan su desarrollo emocional.",
-    "respuesta": "Además,",
-    "despues": "la evidencia clínica muestra que gran parte del malestar corporal en esa edad es transitorio.",
-    "opciones": ["Además,", "Sin embargo,", "Por lo tanto,", "En síntesis,"],
-    "explicacion": "\"Además\" suma una idea que refuerza la anterior en la misma dirección, sin contraste ni consecuencia.",
-    "fuente": "CE-SKL-031"
+    "tema_id": "ce-03",
+    "parrafo": "La adolescencia temprana es, precisamente, la etapa en la que más varía la autopercepción del cuerpo. El rechazo hacia la propia nariz, la propia piel o el propio peso a los 14 años puede desaparecer casi por completo a los 18, simplemente porque el cerebro y la identidad todavía se están terminando de formar. Operar sobre ese malestar transitorio, tratándolo como si fuera una convicción estable y madura, equivale a arriesgar una decisión permanente sobre una etapa que, por definición, está destinada a cambiar. La presión de las redes sociales, sin embargo, agrava ese malestar sin que el adolescente tenga todavía las herramientas para distinguir una inseguridad pasajera de una necesidad real.\n\nQuienes defienden esta práctica apelan al libre desarrollo de la personalidad: si el cuerpo es mío, la decisión también debería serlo, sin importar la edad que se tenga. El argumento tiene fuerza real y no puede descartarse de plano. Sin embargo, pasa por alto que ese mismo principio ya tiene límites reconocidos en otras decisiones igual de irreversibles: a un menor de 14 años tampoco se le permite firmar un contrato de arrendamiento, adquirir una deuda ni casarse sin autorización de un adulto, precisamente porque la ley entiende que la autonomía plena no aparece de un día para otro, sino que se construye con la edad.",
+    "candidatos": [
+      { "fragmento": "simplemente porque", "esElError": false, "nota": "Correcto: introduce la razón por la que el rechazo corporal puede desaparecer — causal, no hay ambigüedad." },
+      { "fragmento": "sin embargo, agrava", "esElError": true, "nota": "Aquí no se está contrastando nada de la frase anterior: la presión de redes sociales suma un segundo factor que empeora el mismo malestar. El conector correcto es 'además,' — 'sin embargo' promete una objeción que nunca llega." },
+      { "fragmento": "Sin embargo, pasa por alto", "esElError": false, "nota": "Correcto: aquí sí hay una objeción real que se está matizando (el argumento del libre desarrollo de la personalidad), uso genuino de contraste." },
+      { "fragmento": "porque la ley entiende", "esElError": false, "nota": "Correcto: introduce la razón detrás de por qué existen esos límites de edad — causal, sin tilde, como corresponde." }
+    ]
   },
   {
-    "id": "CE-EJ-CON-002",
+    "id": "CE-EJ-P-002",
     "modulo": "comunicacion_escrita",
-    "ejercicio": "cloze",
+    "ejercicio": "parrafo",
     "grupo": "conector",
-    "categoria": "adicion",
-    "antes": "El teletrabajo reduce tiempos de desplazamiento.",
-    "respuesta": "Asimismo,",
-    "despues": "permite conciliar mejor la vida familiar.",
-    "opciones": ["Asimismo,", "No obstante,", "En consecuencia,", "Por todo lo anterior,"],
-    "explicacion": "\"Asimismo\" funciona como \"además\", pero encaja mejor cuando el segundo argumento sigue un patrón parecido al primero.",
-    "fuente": "CE-SKL-032"
+    "tema_id": "ce-13",
+    "parrafo": "Quienes defienden el peso actual del Icfes argumentan que, sin un criterio estandarizado, la admisión quedaría en manos de procesos subjetivos y fáciles de manipular. Es una preocupación válida: ya existen casos, en otros países, de admisiones arbitrarias basadas en ensayos o entrevistas mal diseñadas. Por lo tanto, ese temor confunde dos cosas distintas: tener una referencia común para todos los aspirantes, y depender de una sola cifra para decidirlo todo. Algunas universidades públicas, de hecho, ya complementan la prueba estandarizada con un examen propio, y eso no ha vuelto su proceso de admisión menos riguroso ni más manipulable: lo ha hecho más completo.",
+    "candidatos": [
+      { "fragmento": "Por lo tanto, ese temor confunde", "esElError": true, "nota": "Lo que sigue no es una consecuencia del temor mencionado antes: es una objeción que lo matiza y lo distingue en dos partes. El conector correcto es 'Sin embargo,' — 'por lo tanto' implica que el temor mismo es la causa de la confusión, y no es eso lo que se argumenta." },
+      { "fragmento": "de hecho, ya complementan", "esElError": false, "nota": "Correcto: refuerza con un ejemplo concreto la idea recién dada, sin cambiar de dirección argumentativa." }
+    ]
   },
   {
-    "id": "CE-EJ-CON-003",
+    "id": "CE-EJ-P-003",
     "modulo": "comunicacion_escrita",
-    "ejercicio": "cloze",
+    "ejercicio": "parrafo",
     "grupo": "conector",
-    "categoria": "contraste",
-    "antes": "Quienes defienden esta práctica argumentan que restringirla vulnera el libre desarrollo de la personalidad.",
-    "respuesta": "Sin embargo,",
-    "despues": "ese principio presupone una capacidad de autodeterminación que la psicología del desarrollo sitúa, en la mayoría de los casos, más allá de los 14 años.",
-    "opciones": ["Sin embargo,", "Asimismo,", "Por lo tanto,", "En síntesis,"],
-    "explicacion": "\"Sin embargo\" matiza o contradice la idea recién dada — aquí introduce la respuesta a la objeción reconocida.",
-    "fuente": "CE-SKL-033"
+    "tema_id": "ce-01",
+    "parrafo": "El vacío no es hipotético. Instituciones prestadoras de salud han reconocido públicamente, en procesos judiciales, que no cuentan con los instrumentos técnicos para determinar cuándo un sufrimiento psíquico califica como 'intenso' bajo los términos de la sentencia, lo que en la práctica termina negando el derecho a quienes técnicamente ya lo tienen. Sin embargo, un derecho que depende de la buena voluntad de cada comité médico, sin protocolo estandarizado, no es un derecho garantizado: es una lotería según en qué IPS le toque a cada paciente.\n\nAmpliar el criterio de sufrimiento psíquico crónico sin protocolo es un riesgo real; dejarlo en la ambigüedad actual, donde el derecho existe en la sentencia pero casi nunca en la práctica, es un riesgo mayor y ya comprobado.",
+    "candidatos": [
+      { "fragmento": "Sin embargo, un derecho", "esElError": true, "nota": "No hay ninguna objeción que matizar aquí: esta frase suma un segundo problema (la dependencia de la buena voluntad médica) al ya mencionado (falta de instrumentos técnicos). El conector correcto es 'Además,'." },
+      { "fragmento": "pero casi nunca en la práctica", "esElError": false, "nota": "Correcto: contrasta genuinamente 'existe en la sentencia' con 'no existe en la práctica' — el uso informal de 'pero' es válido aquí." }
+    ]
   },
   {
-    "id": "CE-EJ-CON-004",
+    "id": "CE-EJ-P-004",
     "modulo": "comunicacion_escrita",
-    "ejercicio": "cloze",
-    "grupo": "conector",
-    "categoria": "contraste",
-    "antes": "La semana laboral de cuatro días mejora el bienestar.",
-    "respuesta": "No obstante,",
-    "despues": "su viabilidad depende del sector: no aplica igual a manufactura que a servicios.",
-    "opciones": ["No obstante,", "Además,", "En consecuencia,", "Por todo lo anterior,"],
-    "explicacion": "El contraste no es solo para el contraargumento reconocido: también sirve para que delimites el alcance de tu propia afirmación.",
-    "fuente": "CE-SKL-035"
-  },
-  {
-    "id": "CE-EJ-CON-005",
-    "modulo": "comunicacion_escrita",
-    "ejercicio": "cloze",
-    "grupo": "conector",
-    "categoria": "causa_efecto",
-    "antes": "La evidencia clínica muestra que el malestar corporal es transitorio.",
-    "respuesta": "Por lo tanto,",
-    "despues": "condicionar el acceso a la mayoría de edad no niega un derecho.",
-    "opciones": ["Por lo tanto,", "Sin embargo,", "Asimismo,", "En síntesis,"],
-    "explicacion": "\"Por lo tanto\" introduce la consecuencia después de la razón ya dada, como oración cerrada.",
-    "fuente": "CE-SKL-036"
-  },
-  {
-    "id": "CE-EJ-CON-006",
-    "modulo": "comunicacion_escrita",
-    "ejercicio": "cloze",
-    "grupo": "conector",
-    "categoria": "causa_efecto",
-    "antes": "La restricción actual del ICFES como único criterio limita a estudiantes con otras fortalezas.",
-    "respuesta": "En consecuencia,",
-    "despues": "admitir criterios complementarios ampliaría el acceso real a la educación superior.",
-    "opciones": ["En consecuencia,", "No obstante,", "Además,", "Por todo lo anterior,"],
-    "explicacion": "\"En consecuencia\" suena algo más formal que \"por lo tanto\" y funciona bien para cerrar la idea de un párrafo entero.",
-    "fuente": "CE-SKL-037"
-  },
-  {
-    "id": "CE-EJ-CON-007",
-    "modulo": "comunicacion_escrita",
-    "ejercicio": "cloze",
-    "grupo": "conector",
-    "categoria": "conclusion",
-    "antes": "",
-    "respuesta": "En síntesis,",
-    "despues": "proteger a los menores de decisiones irreversibles no es negarles autonomía, sino reconocer que esta se construye con el tiempo.",
-    "opciones": ["En síntesis,", "Sin embargo,", "Debido a que", "Además,"],
-    "explicacion": "Los conectores de conclusión avisan al lector que empieza el cierre — facilitan reconocer la estructura del ensayo de un vistazo.",
-    "fuente": "CE-SKL-038"
-  },
-  {
-    "id": "CE-EJ-CON-008",
-    "modulo": "comunicacion_escrita",
-    "ejercicio": "cloze",
-    "grupo": "conector",
-    "categoria": "conclusion",
-    "antes": "",
-    "respuesta": "Por todo lo anterior,",
-    "despues": "no estoy de acuerdo con que los menores de 14 años puedan practicarse cirugías plásticas.",
-    "opciones": ["Por todo lo anterior,", "En cambio,", "Puesto que", "Asimismo,"],
-    "explicacion": "\"Por todo lo anterior\" remarca que la conclusión es consecuencia lógica de lo ya argumentado — mejor que repetir siempre \"en síntesis\".",
-    "fuente": "CE-SKL-039"
-  },
-  {
-    "id": "CE-EJ-ORT-001",
-    "modulo": "comunicacion_escrita",
-    "ejercicio": "cloze",
+    "ejercicio": "parrafo",
     "grupo": "ortografia",
-    "antes": "No estoy de acuerdo,",
-    "respuesta": "porque",
-    "despues": "la madurez emocional no está completa.",
-    "opciones": ["porque", "por qué", "porqué", "por que"],
-    "explicacion": "\"Porque\" (una palabra, sin tilde) introduce la razón — es el más frecuente y crítico de los cuatro en un ensayo argumentativo.",
-    "fuente": "CE-SKL-043"
+    "tema_id": "ce-05",
+    "parrafo": "El problema no es de voluntad política, sino de diseño: un estudio independiente que probó el sistema creando decenas de cuentas de prueba declarando una edad límite encontró que casi ninguna plataforma pedía alguna prueba real de esa edad. Exigir verificación estricta suena contundente en el papel, pero si las plataformas pueden cumplir la letra de la norma sin verificar nada de fondo, el resultado es una sensación de seguridad sin la seguridad misma.\n\nQuienes piden verificación estricta tienen una preocupación legítima: sin algún control de edad, un menor de 13 años puede acceder sin ninguna barrera a contenido diseñado para adultos. La alternativa a una verificación débil no tiene que ser una verificación más invasiva en el mismo sentido —pedir cédula o rostro escaneado—, por qué ese tipo de control trae su propio riesgo: exige que las plataformas almacenen datos de identidad de millones de menores, un objetivo atractivo para cualquier filtración.",
+    "candidatos": [
+      { "fragmento": "pero si las plataformas", "esElError": false, "nota": "Correcto: contraste válido entre lo que la ley exige en el papel y lo que ocurre si no se verifica de fondo." },
+      { "fragmento": "por qué ese tipo de control", "esElError": true, "nota": "Aquí se está dando la razón de por qué la alternativa invasiva no es buena — es causal, no una pregunta. Debe ser 'porque' (una palabra, sin tilde), no 'por qué'." }
+    ]
   },
   {
-    "id": "CE-EJ-ORT-002",
+    "id": "CE-EJ-P-005",
     "modulo": "comunicacion_escrita",
-    "ejercicio": "cloze",
+    "ejercicio": "parrafo",
     "grupo": "ortografia",
-    "antes": "",
-    "respuesta": "¿Por qué",
-    "despues": "se permite esto?",
-    "opciones": ["¿Por qué", "¿Porque", "¿Porqué", "¿Por que"],
-    "explicacion": "\"Por qué\" (con tilde, dos palabras) pregunta — se usa al inicio de una pregunta directa.",
-    "fuente": "CE-SKL-043"
+    "tema_id": "ce-09",
+    "parrafo": "Vale la pena mirar de cerca qué tipo de 'desarrollo' compite realmente con el bosque en las zonas más deforestadas del país. Buena parte de esa pérdida no responde a industria formal ni a agricultura planificada, sino a ganadería extensiva de baja productividad y a la ocupación de tierra con fines de acumulación, más que de producción real. Priorizar la conservación en esos casos tiene un costo económico mucho menor del que parece a primera vista, por qué lo que se desplaza casi nunca es la actividad que sostiene económicamente a una región.\n\nPriorizar la conservación funciona solo si va acompañada de una alternativa económica real para quien vive del bosque; sin eso, es una política que suena bien en el papel y le traslada el costo, otra vez, a quien menos puede pagarlo. Con esa condición, sin embargo, es la única decisión que no compromete un recurso que, una vez perdido, no vuelve a estar disponible para nadie.",
+    "candidatos": [
+      { "fragmento": "por qué lo que se desplaza", "esElError": true, "nota": "Está dando la razón por la que priorizar la conservación cuesta menos de lo que parece — es causal, no una pregunta. Debe ser 'porque' (sin tilde, una sola palabra)." },
+      { "fragmento": "Con esa condición, sin embargo", "esElError": false, "nota": "Correcto: matiza la frase anterior (la política 'suena bien pero traslada el costo') con la condición que la salva — contraste genuino." }
+    ]
   },
   {
-    "id": "CE-EJ-ORT-003",
+    "id": "CE-EJ-P-006",
     "modulo": "comunicacion_escrita",
-    "ejercicio": "cloze",
+    "ejercicio": "parrafo",
     "grupo": "ortografia",
-    "antes": "Vamos a ver qué opciones",
-    "respuesta": "hay",
-    "despues": ".",
-    "opciones": ["hay", "ahí", "ay", "haber"],
-    "explicacion": "\"Hay\" es del verbo haber (existencia): \"qué opciones hay\" pregunta qué existe disponible.",
-    "fuente": "CE-SKL-044"
+    "tema_id": "ce-17",
+    "parrafo": "La razón no es defender un ritual que funciona mal, sino lo que ese ritual, aunque fracase como negociación, obliga a poner sobre la mesa. La ley exige que la decisión sobre el salario mínimo considere la inflación, sí, pero también la productividad, el crecimiento económico y el costo de vida de los hogares —variables que un ajuste puramente automático dejaría fuera por diseño—. De hecho, el decreto más reciente que fijó el aumento de forma unilateral está siendo revisado en este momento por la justicia, precisamente por qué existen dudas sobre si el Gobierno sopesó correctamente esos criterios y no solo la inflación.",
+    "candidatos": [
+      { "fragmento": "aunque fracase", "esElError": false, "nota": "Correcto: concede algo (que la negociación fracasa) dentro de la misma oración, sin necesitar una frase aparte — uso válido de 'aunque'." },
+      { "fragmento": "pero también la productividad", "esElError": false, "nota": "Correcto: suma variables adicionales que la ley exige, sin contradecir lo dicho antes." },
+      { "fragmento": "De hecho, el decreto", "esElError": false, "nota": "Correcto: refuerza la idea anterior con un dato concreto y verificable (la revisión judicial en curso)." },
+      { "fragmento": "precisamente por qué existen dudas", "esElError": true, "nota": "Está explicando la razón por la que el decreto está siendo revisado — es causal, no una pregunta. Debe ser 'porque' (sin tilde, una sola palabra), no 'por qué'." }
+    ]
   },
   {
-    "id": "CE-EJ-ORT-004",
+    "id": "CE-EJ-P-007",
     "modulo": "comunicacion_escrita",
-    "ejercicio": "cloze",
+    "ejercicio": "parrafo",
+    "grupo": "conector",
+    "tema_id": "ce-14",
+    "parrafo": "La objeción más razonable es que endurecer los requisitos específicos para la modalidad virtual podría encarecer los programas y reducir justo lo que históricamente ha sido su mayor ventaja: ampliar el acceso a la educación superior para quien no puede trasladarse a un campus físico. Es una tensión real entre calidad y cobertura, no un simple prejuicio contra lo virtual. Pero exigir criterios propios para lo virtual no es lo mismo que exigir más recursos: es exigir los recursos correctos —una plataforma estable y acompañamiento docente estructurado cuestan menos que sostener un campus físico—, en síntesis, un sistema de acreditación bien diseñado para lo virtual puede mantener el acceso amplio sin sacrificar la verificación de calidad.",
+    "candidatos": [
+      { "fragmento": "Pero exigir criterios propios", "esElError": false, "nota": "Correcto: matiza la objeción reconocida (que endurecer requisitos encarece los programas) antes de responderla — contraste válido, aunque informal." },
+      { "fragmento": "en síntesis, un sistema", "esElError": true, "nota": "'En síntesis' cierra o resume una idea completa; aquí, en cambio, se está presentando la consecuencia lógica de lo que se acaba de argumentar (recursos correctos, no más recursos), a mitad del párrafo. El conector correcto es 'así que' o 'por lo tanto,'." }
+    ]
+  },
+  {
+    "id": "CE-EJ-P-008",
+    "modulo": "comunicacion_escrita",
+    "ejercicio": "parrafo",
+    "grupo": "conector",
+    "tema_id": null,
+    "parrafo": "El Estado colombiano lleva más de una década discutiendo cómo destinar mejor los recursos de regalías mineras hacia proyectos de impacto real en las regiones productoras. Los estudios disponibles muestran que buena parte de esos recursos termina en obras menores, de bajo impacto, mientras la infraestructura vial y educativa sigue rezagada. Además, los mecanismos de veeduría ciudadana existen en el papel, pero rara vez se aplican con rigor en la práctica. Asimismo, no basta con aprobar más presupuesto: hace falta un sistema de seguimiento independiente que audite en qué se gasta cada peso.",
+    "candidatos": [
+      { "fragmento": "Además, los mecanismos", "esElError": false, "nota": "Correcto: suma un segundo problema (la veeduría inaplicada) al ya mencionado (obras de bajo impacto) — misma dirección argumentativa." },
+      { "fragmento": "Asimismo, no basta", "esElError": true, "nota": "Lo que sigue no es un problema adicional del mismo tipo: es la conclusión que se desprende de los dos problemas ya expuestos. El conector correcto es 'En consecuencia,' — 'asimismo' presenta la frase como si fuera un tercer punto paralelo, no como el cierre lógico." }
+    ]
+  },
+  {
+    "id": "CE-EJ-P-009",
+    "modulo": "comunicacion_escrita",
+    "ejercicio": "parrafo",
+    "grupo": "conector",
+    "tema_id": null,
+    "parrafo": "La ampliación del transporte público eléctrico en las ciudades intermedias del país avanza más lento de lo previsto, principalmente por el costo inicial de la infraestructura de carga. En cambio, varios municipios ya han logrado resultados concretos con flotas piloto financiadas mediante alianzas público-privadas. El reto ahora es replicar ese modelo sin depender exclusivamente de recursos nacionales, que compiten con otras prioridades urgentes del presupuesto. No obstante, el mayor obstáculo sigue siendo político, no técnico: pocos alcaldes están dispuestos a asumir el costo de un cambio que solo mostrará resultados después de que termine su periodo.",
+    "candidatos": [
+      { "fragmento": "En cambio, varios municipios", "esElError": true, "nota": "'En cambio' compara dos elementos distintos entre sí (X hace una cosa, Y otra); aquí, en realidad, se está matizando la afirmación anterior con un contraejemplo concreto, no comparando dos cosas paralelas. El conector correcto es 'Sin embargo,' o 'No obstante,'." },
+      { "fragmento": "No obstante, el mayor obstáculo", "esElError": false, "nota": "Correcto: matiza genuinamente lo dicho antes (que el reto es técnico/de financiación) señalando que el verdadero obstáculo es de otro tipo — contraste real." }
+    ]
+  },
+  {
+    "id": "CE-EJ-P-010",
+    "modulo": "comunicacion_escrita",
+    "ejercicio": "parrafo",
     "grupo": "ortografia",
-    "antes": "Vamos",
-    "respuesta": "a ver",
-    "despues": "qué opciones hay.",
-    "opciones": ["a ver", "haber", "haver", "aver"],
-    "explicacion": "\"A ver\" es preposición + el infinitivo \"ver\" (\"vamos a comprobar algo\"), distinto del verbo \"haber\".",
-    "fuente": "CE-SKL-044"
+    "tema_id": null,
+    "parrafo": "Muchos ciudadanos todavía no entienden porque el país mantiene un servicio militar obligatorio cuando ya existen alternativas comunitarias. El Ministerio de Defensa nunca ha explicado con claridad el porqué de esa decisión, más allá de argumentos generales sobre seguridad nacional. Si el Estado quiere sostener la obligatoriedad, debería empezar por responder esa pregunta con datos concretos, no con generalidades.",
+    "candidatos": [
+      { "fragmento": "no entienden porque el país", "esElError": true, "nota": "'Entender por qué X' es una pregunta indirecta (equivale a 'entender por qué [es que] el país mantiene...'), así que necesita tilde y dos palabras: 'por qué'. 'Porque' (sin tilde) solo sirve para dar una razón, no para introducir una pregunta encubierta." },
+      { "fragmento": "el porqué de esa decisión", "esElError": false, "nota": "Correcto: aquí 'porqué' funciona como sustantivo (equivale a 'el motivo'), por eso se escribe junto y con tilde." }
+    ]
   },
   {
-    "id": "CE-EJ-ORT-005",
+    "id": "CE-EJ-P-011",
     "modulo": "comunicacion_escrita",
-    "ejercicio": "cloze",
+    "ejercicio": "parrafo",
     "grupo": "ortografia",
-    "antes": "Como",
-    "respuesta": "médico,",
-    "despues": "he hecho cosas buenas.",
-    "opciones": ["médico,", "medico,", "médico", "Médico,"],
-    "explicacion": "Sin tilde, \"medico\" se lee como una forma del verbo \"medicar\" — la tilde en \"médico\" (sustantivo) cambia el sentido completo de la frase.",
-    "fuente": "CE-SKL-045"
+    "tema_id": null,
+    "parrafo": "El debate sobre la eutanasia para pacientes no terminales sigue abierto en Colombia, y ahí es donde falta claridad normativa. Hay quienes creen que ampliar el criterio resolvería años de ambigüedad legal, mientras otros temen que se abra la puerta a decisiones apresuradas. Cualquier reforma seria tendría que empezar por reconocer que ay una diferencia real entre sufrimiento físico y psíquico, y que esa diferencia exige protocolos distintos.",
+    "candidatos": [
+      { "fragmento": "ahí es donde falta", "esElError": false, "nota": "Correcto: 'ahí' indica lugar (en este caso, figurado: el punto exacto del debate), sin relación con el verbo haber." },
+      { "fragmento": "Hay quienes creen", "esElError": false, "nota": "Correcto: 'hay' es la forma del verbo haber que indica existencia — 'existen personas que creen'." },
+      { "fragmento": "reconocer que ay una diferencia", "esElError": true, "nota": "'Ay' es una exclamación de dolor o sorpresa; aquí se necesita el verbo haber indicando existencia — debe ser 'hay una diferencia', igual que en la primera frase del párrafo." }
+    ]
   },
   {
-    "id": "CE-EJ-ORT-006",
+    "id": "CE-EJ-P-012",
     "modulo": "comunicacion_escrita",
-    "ejercicio": "cloze",
+    "ejercicio": "parrafo",
     "grupo": "ortografia",
-    "antes": "Como médico,",
-    "respuesta": "he hecho",
-    "despues": "cosas buenas.",
-    "opciones": ["he hecho", "echo", "hecho", "eh hecho"],
-    "explicacion": "\"He hecho\" (verbo haber + participio de hacer) es lo correcto; \"echo\" (sin h, del verbo echar) cambiaría el sentido a \"arrojo cosas buenas\".",
-    "fuente": "CE-SKL-045"
+    "tema_id": null,
+    "parrafo": "Antes de proponer una reforma al sistema de salud, conviene revisar qué tan bien funcionan los cambios ya implementados en otros países. Hay evidencia suficiente para sostener que un modelo mixto, con participación pública y privada, tiende a reducir los tiempos de espera sin disparar el gasto total. Vamos haber, entonces, qué elementos de ese modelo podrían adaptarse al sistema colombiano sin repetir sus mismos errores.",
+    "candidatos": [
+      { "fragmento": "Hay evidencia suficiente", "esElError": false, "nota": "Correcto: 'hay' es la forma del verbo haber que indica existencia — 'existe evidencia suficiente'." },
+      { "fragmento": "Vamos haber, entonces", "esElError": true, "nota": "Aquí el sentido es 'vamos a comprobar/observar', no el verbo haber — debe ser 'vamos a ver', preposición 'a' más el infinitivo 'ver'." }
+    ]
   },
   {
-    "id": "CE-EJ-PUN-001",
+    "id": "CE-EJ-P-013",
     "modulo": "comunicacion_escrita",
-    "ejercicio": "eleccion",
+    "ejercicio": "parrafo",
     "grupo": "puntuacion",
-    "pregunta": "¿Cuál versión marca correctamente la pausa entre la afirmación y su matiz?",
-    "opciones": [
-      { "texto": "El derecho es real pero no aplica sin límites.", "correcta": false },
-      { "texto": "El derecho es real, pero no aplica sin límites.", "correcta": true }
-    ],
-    "explicacion": "La coma antes de \"pero\" señala la pausa lógica real: divide la afirmación de su matiz.",
-    "fuente": "CE-SKL-046"
+    "tema_id": null,
+    "parrafo": "Regular el uso de reconocimiento facial en el espacio público es urgente pero no debería hacerse sin antes definir márgenes de error aceptables. La tecnología ya existe y las ciudades la están adoptando cada vez más rápido. Ignorar esa realidad no resuelve nada; sin embargo, avanzar sin reglas claras multiplica el riesgo de detenciones injustas.",
+    "candidatos": [
+      { "fragmento": "urgente pero no debería", "esElError": true, "nota": "Falta la coma antes de 'pero': la afirmación ('es urgente') y su matiz ('no debería hacerse sin...') necesitan esa pausa para leerse como dos ideas distintas — debería ser 'urgente, pero no debería'." },
+      { "fragmento": "nada; sin embargo, avanzar", "esElError": false, "nota": "Correcto: el punto y coma separa las dos oraciones independientes, y la coma después de 'sin embargo' marca la pausa del conector — puntuación completa." }
+    ]
   },
   {
-    "id": "CE-EJ-PUN-002",
+    "id": "CE-EJ-P-014",
     "modulo": "comunicacion_escrita",
-    "ejercicio": "eleccion",
+    "ejercicio": "parrafo",
     "grupo": "puntuacion",
-    "pregunta": "¿Cuál oración dice que TODOS los estudiantes llegaron tarde?",
-    "opciones": [
-      { "texto": "Los estudiantes, que llegaron tarde, no pudieron entrar.", "correcta": true },
-      { "texto": "Los estudiantes que llegaron tarde no pudieron entrar.", "correcta": false }
-    ],
-    "explicacion": "Con comas (cláusula explicativa) se entiende que todos llegaron tarde; sin comas (cláusula especificativa) solo los que llegaron tarde.",
-    "fuente": "CE-SKL-047"
-  },
-  {
-    "id": "CE-EJ-PUN-003",
-    "modulo": "comunicacion_escrita",
-    "ejercicio": "eleccion",
-    "grupo": "puntuacion",
-    "pregunta": "¿Cuál oración no duplica la marca de contraste?",
-    "opciones": [
-      {
-        "texto": "Aunque el libre desarrollo de la personalidad es un derecho real, sin embargo no aplica sin límites a decisiones irreversibles.",
-        "correcta": false
-      },
-      {
-        "texto": "Aunque el libre desarrollo de la personalidad es un derecho real, no aplica sin límites a decisiones irreversibles.",
-        "correcta": true
-      }
-    ],
-    "explicacion": "\"Aunque\" ya marca la concesión dentro de la misma oración — agregar \"sin embargo\" después duplica la marca de contraste.",
-    "fuente": "CE-SKL-034"
-  },
-  {
-    "id": "CE-EJ-PUN-004",
-    "modulo": "comunicacion_escrita",
-    "ejercicio": "eleccion",
-    "grupo": "puntuacion",
-    "pregunta": "¿Cuál oración usa \"en cambio\" correctamente?",
-    "opciones": [
-      { "texto": "El derecho es real, en cambio no aplica sin límites.", "correcta": false },
-      {
-        "texto": "La manufactura exige presencia física; los servicios profesionales, en cambio, se adaptan mejor al trabajo remoto.",
-        "correcta": true
-      }
-    ],
-    "explicacion": "\"En cambio\" compara dos elementos distintos entre sí; no funciona bien para introducir una objeción a tu propia idea (ahí corresponde \"sin embargo\").",
-    "fuente": "CE-SKL-033"
+    "tema_id": null,
+    "parrafo": "De los cuarenta estudiantes citados a la prueba de admisión, solo seis llegaron después de las ocho de la mañana. Los estudiantes, que llegaron tarde, no pudieron presentar el examen y tuvieron que reprogramar su cita para la semana siguiente. Los profesores que estuvieron presentes ese día confirmaron el reporte ante la rectoría.",
+    "candidatos": [
+      { "fragmento": "Los estudiantes, que llegaron tarde, no pudieron", "esElError": true, "nota": "Con comas, esta cláusula se lee como explicativa: da a entender que TODOS los estudiantes llegaron tarde. Pero la primera frase del párrafo ya dijo que solo 6 de 40 llegaron tarde — hay una contradicción. Sin comas ('Los estudiantes que llegaron tarde no pudieron...'), la cláusula sería especificativa y señalaría correctamente solo a ese subgrupo." },
+      { "fragmento": "Los profesores que estuvieron presentes ese día confirmaron", "esElError": false, "nota": "Correcto: sin comas, esta cláusula es especificativa — identifica solo a los profesores que estuvieron presentes ese día, no implica que todos los profesores lo estuvieran." }
+    ]
   }
 ]
