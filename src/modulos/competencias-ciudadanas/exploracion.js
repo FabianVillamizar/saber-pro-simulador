@@ -1,4 +1,4 @@
-import { prerequisitosCumplidos } from '../../engine/srs.js'
+import { grupoRequerido } from '../../engine/srs.js'
 
 // Nombres legibles de cada `bloque` — el dato fuente solo trae la clave
 // snake_case (ver bitácora del 2026-08-11, "Auditoría de progresión de
@@ -201,41 +201,9 @@ export const TRAMPA_POR_COMPETENCIA = {
   },
 }
 
-function repeticiones(estadosSRS, id) {
-  return estadosSRS[id]?.repeticiones ?? 0
-}
-
-export function porcentajeDominio(tarjetas, estadosSRS) {
-  if (tarjetas.length === 0) return 0
-  const dominadas = tarjetas.filter((t) => repeticiones(estadosSRS, t.id) >= 1).length
-  return Math.round((dominadas / tarjetas.length) * 100)
-}
-
-// Estado agregado de un grupo de tarjetas (un bloque, o una capa entera):
-// "bloqueado" si ninguna tarjeta del grupo tiene sus prerrequisitos
-// cumplidos todavía; "dominado" si todas las disponibles ya se acertaron
-// al menos una vez; "activo" si algunas sí y otras no; "nuevo" si hay
-// disponibles pero ninguna se ha intentado.
-export function estadoDeGrupo(tarjetas, estadosSRS) {
-  const disponibles = tarjetas.filter((t) => prerequisitosCumplidos(t, estadosSRS))
-  if (disponibles.length === 0) return 'bloqueado'
-  const vistas = disponibles.filter((t) => repeticiones(estadosSRS, t.id) >= 1)
-  if (vistas.length === disponibles.length) return 'dominado'
-  if (vistas.length > 0) return 'activo'
-  return 'nuevo'
-}
-
 // Para un bloque bloqueado, qué otro bloque hay que resolver primero —
-// mira los prerrequisitos sin cumplir de sus tarjetas y prioriza un bloque
-// distinto al propio (más informativo que "te falta una tarjeta tuya").
+// wrapper de `grupoRequerido` (engine/srs.js) fijando `bloque` como la
+// clave de agrupación de este módulo.
 export function bloqueRequerido(tarjetas, estadosSRS, tarjetasPorId, bloquePropio) {
-  for (const t of tarjetas) {
-    if (prerequisitosCumplidos(t, estadosSRS)) continue
-    for (const id of t.prereqs ?? []) {
-      if (repeticiones(estadosSRS, id) >= 1) continue
-      const previa = tarjetasPorId.get(id)
-      if (previa && previa.bloque !== bloquePropio) return previa.bloque
-    }
-  }
-  return null
+  return grupoRequerido(tarjetas, estadosSRS, tarjetasPorId, bloquePropio, (t) => t.bloque)
 }

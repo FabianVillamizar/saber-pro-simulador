@@ -17,6 +17,7 @@ import { PracticarEnsayo } from './paginas/PracticarEnsayo.jsx'
 import { EjerciciosRapidos } from './paginas/EjerciciosRapidos.jsx'
 import { EscribeLaRespuesta } from './paginas/EscribeLaRespuesta.jsx'
 import { ExploracionCompetencias } from './paginas/ExploracionCompetencias.jsx'
+import { ExploracionLecturaCritica } from './paginas/ExploracionLecturaCritica.jsx'
 
 function App() {
   const { perfil, cambiarPerfil } = usePerfilActivo()
@@ -60,16 +61,23 @@ function App() {
 
   const volverAModulo = () => setPantalla({ tipo: 'modulo', moduloId: pantalla.moduloId })
 
-  // "Repaso de conceptos" de Competencias Ciudadanas aterriza primero en
-  // ExploracionCompetencias.jsx (pilares por competencia + drill-down de
-  // bloques/capas) en vez de directo en la cola de tarjetas — ver
-  // ModuloHub.jsx, que no necesitó cambios porque la tarjeta "Repaso de
-  // conceptos" sigue siendo la misma para todos los módulos; el desvío
-  // ocurre acá, en el único lugar donde se traduce "modo elegido" a
-  // pantalla real.
+  // "Repaso de conceptos" de los módulos con vista de exploración propia
+  // (pilares por competencia + drill-down, en vez de ir directo a la cola
+  // de tarjetas) aterriza primero ahí — ver ModuloHub.jsx, que no
+  // necesitó cambios porque la tarjeta "Repaso de conceptos" sigue siendo
+  // la misma para todos los módulos; el desvío ocurre acá, en el único
+  // lugar donde se traduce "modo elegido" a pantalla real. Un solo mapa
+  // moduloId -> componente en vez de una pantalla nueva por módulo, para
+  // que agregar el próximo (Pensamiento Científico, Razonamiento
+  // Cuantitativo...) no vuelva a tocar el switch de pantallas de abajo.
+  const COMPONENTES_EXPLORACION = {
+    'competencias-ciudadanas': ExploracionCompetencias,
+    'lectura-critica': ExploracionLecturaCritica,
+  }
+
   const irAModo = (modo, moduloId) => {
-    if (modo === 'repaso' && moduloId === 'competencias-ciudadanas') {
-      setPantalla({ tipo: 'explorar-competencias', moduloId })
+    if (modo === 'repaso' && COMPONENTES_EXPLORACION[moduloId]) {
+      setPantalla({ tipo: 'explorar', moduloId })
     } else {
       setPantalla({ tipo: modo, moduloId })
     }
@@ -115,9 +123,10 @@ function App() {
     )
   }
 
-  if (pantalla.tipo === 'explorar-competencias') {
+  if (pantalla.tipo === 'explorar') {
+    const ComponenteExploracion = COMPONENTES_EXPLORACION[pantalla.moduloId]
     return (
-      <ExploracionCompetencias
+      <ComponenteExploracion
         moduloId={pantalla.moduloId}
         perfil={perfil}
         onCambiarPerfil={onCambiarPerfil}

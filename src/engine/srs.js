@@ -74,3 +74,50 @@ export function prerequisitosCumplidos(tarjeta, estadosSRS) {
   if (!tarjeta.prereqs?.length) return true
   return tarjeta.prereqs.every((id) => (estadosSRS[id]?.repeticiones ?? 0) >= 1)
 }
+
+function repeticiones(estadosSRS, id) {
+  return estadosSRS[id]?.repeticiones ?? 0
+}
+
+// Helpers genéricos para vistas de exploración por categoría (ver
+// modulos/competencias-ciudadanas/exploracion.js y
+// modulos/lectura-critica/exploracion.js): ninguno sabe qué campo agrupa
+// las tarjetas de un módulo (`bloque`, `subtema`, `categoria`...) — reciben
+// ya el grupo armado, o una función para leer la clave de agrupación.
+export function porcentajeDominio(tarjetas, estadosSRS) {
+  if (tarjetas.length === 0) return 0
+  const dominadas = tarjetas.filter((t) => repeticiones(estadosSRS, t.id) >= 1).length
+  return Math.round((dominadas / tarjetas.length) * 100)
+}
+
+// Estado agregado de un grupo de tarjetas (un bloque, una capa, un
+// subtema...): "bloqueado" si ninguna tarjeta del grupo tiene sus
+// prerrequisitos cumplidos todavía; "dominado" si todas las disponibles ya
+// se acertaron al menos una vez; "activo" si algunas sí y otras no;
+// "nuevo" si hay disponibles pero ninguna se ha intentado.
+export function estadoDeGrupo(tarjetas, estadosSRS) {
+  const disponibles = tarjetas.filter((t) => prerequisitosCumplidos(t, estadosSRS))
+  if (disponibles.length === 0) return 'bloqueado'
+  const vistas = disponibles.filter((t) => repeticiones(estadosSRS, t.id) >= 1)
+  if (vistas.length === disponibles.length) return 'dominado'
+  if (vistas.length > 0) return 'activo'
+  return 'nuevo'
+}
+
+// Para un grupo bloqueado, qué otro grupo hay que resolver primero — mira
+// los prerrequisitos sin cumplir de sus tarjetas y prioriza uno distinto al
+// propio (más informativo que "te falta una tarjeta tuya").
+// `obtenerClave(tarjeta)` es la función que decide qué campo agrupa (ej.
+// `t => t.bloque` en Competencias Ciudadanas, `t => t.subtema` en Lectura
+// Crítica) — así este helper no necesita conocer el esquema del módulo.
+export function grupoRequerido(tarjetas, estadosSRS, tarjetasPorId, clavePropia, obtenerClave) {
+  for (const t of tarjetas) {
+    if (prerequisitosCumplidos(t, estadosSRS)) continue
+    for (const id of t.prereqs ?? []) {
+      if (repeticiones(estadosSRS, id) >= 1) continue
+      const previa = tarjetasPorId.get(id)
+      if (previa && obtenerClave(previa) !== clavePropia) return obtenerClave(previa)
+    }
+  }
+  return null
+}

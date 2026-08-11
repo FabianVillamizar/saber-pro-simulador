@@ -3,13 +3,12 @@ import { useModulo } from '../hooks/useModulo.js'
 import { useTheme } from '../hooks/useTheme.js'
 import { leerJSON } from '../engine/storage.js'
 import { claveSRS } from '../engine/clavesPerfil.js'
+import { estadoDeGrupo, porcentajeDominio } from '../engine/srs.js'
 import {
   NOMBRES_BLOQUE,
   DESCRIPCION_COMPETENCIA,
   CAPAS_CONOCIMIENTOS,
   TRAMPA_POR_COMPETENCIA,
-  porcentajeDominio,
-  estadoDeGrupo,
   bloqueRequerido,
 } from '../modulos/competencias-ciudadanas/exploracion.js'
 import { ThemeToggle } from '../componentes/ThemeToggle.jsx'

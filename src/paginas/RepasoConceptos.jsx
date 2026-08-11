@@ -108,12 +108,17 @@ export function RepasoConceptos({
   // o la pestaña de tipo: la cola de la sesión no debe reordenarse cada
   // vez que cambian los estados SRS mientras se está respondiendo.
   // Con `leccion` (viene del Mapa del curso, ver MapaDelCurso.jsx) o con
-  // `categoriaFiltro`/`bloquesFiltro` (vienen de ExploracionCompetencias.jsx,
-  // ver competencias-ciudadanas/exploracion.js): se repasan TODAS las
+  // `categoriaFiltro`/`bloquesFiltro` (vienen de las vistas de exploración
+  // por módulo — ExploracionCompetencias.jsx, ExploracionLecturaCritica.jsx
+  // — ver <modulo>/exploracion.js de cada una): se repasan TODAS las
   // tarjetas de esa selección, sin importar si el SRS las marca como
   // vencidas — el usuario la eligió a propósito, no está pidiendo el
-  // repaso general del día. `tipoFiltro` (pestañas Diálogo/Gramática/
-  // Cultura/Pronunciación, solo francés) y `nivelFiltro` (pestañas A1-B2,
+  // repaso general del día. `bloquesFiltro` compara contra `t.bloque ??
+  // t.subtema ?? t.categoria` porque cada módulo nombra distinto el campo
+  // que agrupa sus tarjetas (bloque en CC/Inglés, subtema en Lectura
+  // Crítica, categoria en LC-CUL) — una tarjeta nunca tiene más de uno de
+  // los tres, así que el fallback no puede chocar. `tipoFiltro` (pestañas
+  // Diálogo/Gramática/Cultura/Pronunciación, solo francés) y `nivelFiltro` (pestañas A1-B2,
   // solo inglés) son distintos: siguen respetando el vencimiento SRS, son
   // una vista más angosta del repaso diario, no una selección explícita.
   // Los prerrequisitos (`prerequisitosCumplidos`, ver srs.js — una tarjeta
@@ -134,7 +139,7 @@ export function RepasoConceptos({
       if (tipoFiltro && t.tipo !== tipoFiltro) return false
       if (nivelFiltro && t.nivel_mcer !== nivelFiltro) return false
       if (categoriaFiltro && t.competencia_asociada !== categoriaFiltro) return false
-      if (bloquesFiltro && !bloquesFiltro.includes(t.bloque)) return false
+      if (bloquesFiltro && !bloquesFiltro.includes(t.bloque ?? t.subtema ?? t.categoria)) return false
       if (!prerequisitosCumplidos(t, estadosSRS)) return false
       if (!eligioExplicito) {
         if (!estaLista(estadosSRS[t.id])) return false
