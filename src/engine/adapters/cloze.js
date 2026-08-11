@@ -1,5 +1,10 @@
 // Parte 4 (cloze_gramatical) y Parte 7 (cloze_lexico): un texto con huecos
 // numerados; cada hueco es su propia pregunta con opciones independientes.
+// `tarjetas_teoria_relacionada` (curado a mano en el hueco fuente, igual
+// que LC/CC/PC) llega vacío salvo donde alguien lo agregó explícitamente —
+// Parte 4 lo recibe después, por regla automática, en
+// modulos/ingles/adapters.js (enlazarTeoriaIngles), así que este campo del
+// dato fuente es lo único que usa Parte 7 hoy.
 export function adaptCloze(item, { categoriaKey }) {
   return item.huecos.map((hueco) => ({
     id: `${item.id}-${hueco.num}`,
@@ -19,5 +24,6 @@ export function adaptCloze(item, { categoriaKey }) {
     distractores: hueco.distractores,
     categoria: hueco[categoriaKey],
     numEnGrupo: hueco.num,
+    tarjetasTeoriaRelacionada: hueco.tarjetas_teoria_relacionada ?? [],
   }))
 }
