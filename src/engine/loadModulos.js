@@ -55,10 +55,12 @@ export async function cargarModulo(moduloId) {
     }
   }
 
+  const preguntas = normalizeBank(itemsCrudos, registro.adapters)
+
   return {
     ...registro,
     tarjetasConcepto,
-    preguntas: normalizeBank(itemsCrudos, registro.adapters),
+    preguntas: registro.enlazarTeoria ? registro.enlazarTeoria(preguntas, tarjetasConcepto) : preguntas,
     ensayosModelo,
     temasEnsayo,
     ejercicios,

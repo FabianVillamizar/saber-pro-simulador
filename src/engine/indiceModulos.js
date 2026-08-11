@@ -1,4 +1,4 @@
-import { adaptersIngles } from '../modulos/ingles/adapters.js'
+import { adaptersIngles, enlazarTeoriaIngles } from '../modulos/ingles/adapters.js'
 import { adaptersCompetenciasCiudadanas } from '../modulos/competencias-ciudadanas/adapters.js'
 import { adaptersPensamientoCientifico } from '../modulos/pensamiento-cientifico/adapters.js'
 import { adaptersDiosgenina } from '../modulos/diosgenina/adapters.js'
@@ -20,6 +20,11 @@ export const indiceModulos = {
     disponible: true,
     soportaSimulacro: true,
     adapters: adaptersIngles,
+    // Puente pregunta -> teoría de Parte 4 (ver enlazarTeoriaIngles en
+    // modulos/ingles/adapters.js): opcional, como `categorias`/`nucleos` —
+    // loadModulos.js lo llama después de armar `preguntas` y
+    // `tarjetasConcepto` solo si el módulo lo define.
+    enlazarTeoria: enlazarTeoriaIngles,
   },
   'razonamiento-cuantitativo': {
     id: 'razonamiento-cuantitativo',
