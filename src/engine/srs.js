@@ -59,3 +59,18 @@ export function estaLista(estadoTarjeta, ahora = new Date()) {
   if (!estadoTarjeta || !estadoTarjeta.proximaRevision) return true
   return estadoTarjeta.proximaRevision <= formatoFecha(ahora)
 }
+
+// `prereqs` (ids de otras tarjetas) existe en varios módulos (Inglés,
+// Competencias Ciudadanas, Pensamiento Científico, Lectura Crítica,
+// Razonamiento Cuantitativo, Comunicación Escrita, Diosgenina — no
+// Français) pero hasta ahora ningún módulo del motor lo leía: quedaba en
+// el dato fuente sin efecto. Repetición >= 1 en el estado SRS de un
+// prerrequisito significa que ya se acertó esa tarjeta al menos una vez
+// (calificación distinta de "otra_vez", que resetea repeticiones a 0) —
+// no hace falta que esté "dominada" ni "fácil", solo vista y aprobada una
+// vez. Sin prereqs (la mayoría de tarjetas, y el 100% de Français) esto es
+// un no-op.
+export function prerequisitosCumplidos(tarjeta, estadosSRS) {
+  if (!tarjeta.prereqs?.length) return true
+  return tarjeta.prereqs.every((id) => (estadosSRS[id]?.repeticiones ?? 0) >= 1)
+}

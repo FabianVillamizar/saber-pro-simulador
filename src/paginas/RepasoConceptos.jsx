@@ -4,7 +4,7 @@ import { useTheme } from '../hooks/useTheme.js'
 import { leerJSON, escribirJSON } from '../engine/storage.js'
 import { claveSRS } from '../engine/clavesPerfil.js'
 import { ID_INVITADO } from '../engine/perfiles.js'
-import { estadoInicial, siguienteEstado, estaLista } from '../engine/srs.js'
+import { estadoInicial, siguienteEstado, estaLista, prerequisitosCumplidos } from '../engine/srs.js'
 import { leccionesDesbloqueadas } from '../engine/progresoFrances.js'
 import { crearCola, reencolarTrasFallo, retirarTrasAcierto } from '../engine/colaRefuerzo.js'
 import { registrarRepaso } from '../engine/progreso.js'
@@ -50,6 +50,11 @@ const ETIQUETAS_TAB_FRANCES = {
 }
 const ORDEN_TIPOS_FRANCES = ['dialogo', 'gramatica', 'cultura', 'pronunciacion']
 
+// Inglés — pestañas de nivel MCER (A1-B2) del repaso general, análogas a
+// ORDEN_TIPOS_FRANCES pero sobre `nivel_mcer` en vez de `tipo`: ningún otro
+// módulo tiene este campo, así que la pestaña solo aplica acá.
+const ORDEN_NIVELES_INGLES = ['A1', 'A2', 'B1', 'B2']
+
 // Lectura Crítica — LC-CUL (cultura general): única tarjeta del sistema sin
 // `competencia_asociada` ni `error_comun` (ver esCultura más abajo). La
 // categoría reemplaza a la competencia como badge del frente.
@@ -79,6 +84,7 @@ export function RepasoConceptos({ moduloId, leccion, perfil, onCambiarPerfil, on
   const { modulo, cargando, error } = useModulo(moduloId)
   const { dark, toggle } = useTheme()
   const esModuloFrances = moduloId === 'frances'
+  const esModuloIngles = moduloId === 'ingles'
   const leyenda = useLeyendaFrances(esModuloFrances)
   const [estadosSRS, setEstadosSRS] = useState(() => leerJSON(claveSRS(perfil.id, moduloId), {}))
   const [cola, setCola] = useState(null)
@@ -86,6 +92,7 @@ export function RepasoConceptos({ moduloId, leccion, perfil, onCambiarPerfil, on
   const [volteada, setVolteada] = useState(false)
   const [revisadasHoy, setRevisadasHoy] = useState(0)
   const [tipoFiltro, setTipoFiltro] = useState(null)
+  const [nivelFiltro, setNivelFiltro] = useState(null)
 
   // Solo se recalcula cuando cambia el módulo cargado, la lección elegida
   // o la pestaña de tipo: la cola de la sesión no debe reordenarse cada
@@ -94,22 +101,28 @@ export function RepasoConceptos({ moduloId, leccion, perfil, onCambiarPerfil, on
   // repasan TODAS las tarjetas de esa lección, sin importar si el SRS
   // las marca como vencidas — el usuario eligió esa lección a propósito,
   // no está pidiendo el repaso general del día. `tipoFiltro` (pestañas
-  // Diálogo/Gramática/Cultura/Pronunciación, solo francés) se combina con
-  // lo anterior: sin lección elegida sigue respetando el vencimiento SRS
-  // (no rompe la garantía tipo Anki), con lección elegida ignora
-  // vencimiento igual que el resto de esa lección. Sin lección elegida Y
-  // en francés, además se excluyen las lecciones que el Mapa del curso
-  // todavía marca como bloqueadas (mismo cálculo, ver progresoFrances.js)
-  // — si no, "Repasar ahora" mostraría tarjetas de lecciones que el propio
-  // Mapa dice que no se pueden abrir todavía.
+  // Diálogo/Gramática/Cultura/Pronunciación, solo francés) y `nivelFiltro`
+  // (pestañas A1-B2, solo inglés) se combinan con lo anterior: sin lección
+  // elegida sigue respetando el vencimiento SRS (no rompe la garantía tipo
+  // Anki) y los prerrequisitos (`prerequisitosCumplidos`, ver srs.js — una
+  // tarjeta con `prereqs` no aparece hasta acertar al menos una vez cada
+  // prerrequisito; sin prereqs es un no-op), con lección elegida ignora
+  // ambos igual que el vencimiento, porque el usuario ya eligió esa lección
+  // a propósito. Sin lección elegida Y en francés, además se excluyen las
+  // lecciones que el Mapa del curso todavía marca como bloqueadas (mismo
+  // cálculo, ver progresoFrances.js) — si no, "Repasar ahora" mostraría
+  // tarjetas de lecciones que el propio Mapa dice que no se pueden abrir
+  // todavía.
   useEffect(() => {
     if (!modulo) return
     const abiertas = esModuloFrances ? leccionesDesbloqueadas(modulo.tarjetasConcepto, estadosSRS) : null
     const pendientes = modulo.tarjetasConcepto.filter((t) => {
       if (leccion != null && t.leccion !== leccion) return false
       if (tipoFiltro && t.tipo !== tipoFiltro) return false
+      if (nivelFiltro && t.nivel_mcer !== nivelFiltro) return false
       if (leccion == null) {
         if (!estaLista(estadosSRS[t.id])) return false
+        if (!prerequisitosCumplidos(t, estadosSRS)) return false
         if (abiertas && !abiertas.has(t.leccion)) return false
       }
       return true
@@ -118,7 +131,7 @@ export function RepasoConceptos({ moduloId, leccion, perfil, onCambiarPerfil, on
     setCola(colaInicial)
     setTotalInicial(colaInicial.length)
     setRevisadasHoy(0)
-  }, [modulo, leccion, tipoFiltro])
+  }, [modulo, leccion, tipoFiltro, nivelFiltro])
 
   if (cargando || cola === null) return <div className="page estado-carga">Cargando…</div>
   if (error) return <div className="page estado-error">No se pudo cargar el módulo: {error.message}</div>
@@ -160,6 +173,36 @@ export function RepasoConceptos({ moduloId, leccion, perfil, onCambiarPerfil, on
     </div>
   )
 
+  // Solo se listan los niveles que de verdad hay tarjetas vencidas o no en
+  // el módulo (no depende de `estaLista`, a propósito: si no, un nivel
+  // sin tarjetas vencidas hoy desaparecería de las pestañas en vez de
+  // simplemente mostrar la cola vacía al elegirlo).
+  const nivelesDisponibles = esModuloIngles
+    ? ORDEN_NIVELES_INGLES.filter((nivel) => modulo.tarjetasConcepto.some((t) => t.nivel_mcer === nivel))
+    : []
+
+  const tabsNivel = nivelesDisponibles.length > 1 && (
+    <div className="repaso-nivel-tabs">
+      <button
+        type="button"
+        className={`repaso-nivel-tab${nivelFiltro == null ? ' repaso-nivel-tab--activo' : ''}`}
+        onClick={() => setNivelFiltro(null)}
+      >
+        Todos
+      </button>
+      {nivelesDisponibles.map((nivel) => (
+        <button
+          key={nivel}
+          type="button"
+          className={`repaso-nivel-tab${nivelFiltro === nivel ? ' repaso-nivel-tab--activo' : ''}`}
+          onClick={() => setNivelFiltro(nivel)}
+        >
+          {nivel}
+        </button>
+      ))}
+    </div>
+  )
+
   function calificar(calificacion) {
     const entrada = cola[0]
     const tarjeta = entrada.valor
@@ -194,6 +237,7 @@ export function RepasoConceptos({ moduloId, leccion, perfil, onCambiarPerfil, on
           <SelectorPerfil perfil={perfil} onClick={onCambiarPerfil} />
         </div>
         {tabsTipo}
+        {tabsNivel}
         <div className="repaso-fin">
           <h2>Por hoy no quedan tarjetas pendientes</h2>
           <p>Revisaste {revisadasHoy} tarjetas en esta sesión.</p>
@@ -272,6 +316,7 @@ export function RepasoConceptos({ moduloId, leccion, perfil, onCambiarPerfil, on
       </div>
 
       {tabsTipo}
+      {tabsNivel}
 
       <div className="repaso-escenario">
         <TarjetaFlip

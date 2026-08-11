@@ -2,8 +2,9 @@ import { useState } from 'react'
 import { useModulo } from '../hooks/useModulo.js'
 import { useTheme } from '../hooks/useTheme.js'
 import { leerJSON, escribirJSON } from '../engine/storage.js'
-import { claveEscritura } from '../engine/clavesPerfil.js'
+import { claveEscritura, claveSRS } from '../engine/clavesPerfil.js'
 import { ID_INVITADO } from '../engine/perfiles.js'
+import { prerequisitosCumplidos } from '../engine/srs.js'
 import { crearCola, reencolarTrasFallo, retirarTrasAcierto } from '../engine/colaRefuerzo.js'
 import { registrarPracticaParte } from '../engine/progreso.js'
 import { reproducirSonido } from '../engine/sonido.js'
@@ -20,6 +21,7 @@ const ETIQUETAS_TIPO = {
 }
 
 const ORDEN_TIPOS = ['vocabulario', 'gramatica', 'cultura_general']
+const ORDEN_NIVELES = ['A1', 'A2', 'B1', 'B2']
 
 // Recuperación activa en vez de reconocimiento: las mismas tarjetas de
 // concepto de RepasoConceptos.jsx (comparten el esquema antes/despues/
@@ -40,7 +42,13 @@ export function EscribeLaRespuesta({ moduloId, perfil, onCambiarPerfil, onVolver
   const { dark, toggle } = useTheme()
 
   const [estadisticas, setEstadisticas] = useState(() => leerJSON(claveEscritura(perfil.id, moduloId), {}))
+  // Solo lectura: el estado SRS lo escribe RepasoConceptos.jsx. Se reusa
+  // acá únicamente para saber qué prerrequisitos ya se aprobaron (ver
+  // prerequisitosCumplidos en srs.js) — Escribe la respuesta no tiene su
+  // propio SRS de dominio de concepto, solo la precisión de escritura.
+  const [estadosSRS] = useState(() => leerJSON(claveSRS(perfil.id, moduloId), {}))
   const [tipoSeleccionado, setTipoSeleccionado] = useState(null)
+  const [nivelFiltro, setNivelFiltro] = useState(null)
   const [cola, setCola] = useState(null)
   const [totalInicial, setTotalInicial] = useState(0)
   const [aciertosPrimerIntento, setAciertosPrimerIntento] = useState(0)
@@ -50,9 +58,17 @@ export function EscribeLaRespuesta({ moduloId, perfil, onCambiarPerfil, onVolver
   if (cargando) return <div className="page estado-carga">Cargando…</div>
   if (error) return <div className="page estado-error">No se pudo cargar el módulo: {error.message}</div>
 
+  // Tarjetas con esquema cloze, sin importar nivel/prereqs — usado para las
+  // pestañas de nivel (nivelesDisponibles) y como universo base antes de
+  // aplicar `nivelFiltro`.
+  const tarjetasCloze = modulo.tarjetasConcepto.filter((t) => 'antes' in t && 'respuesta' in t)
+  const nivelesDisponibles = ORDEN_NIVELES.filter((nivel) => tarjetasCloze.some((t) => t.nivel_mcer === nivel))
+
   const tarjetasPorTipo = {}
-  for (const t of modulo.tarjetasConcepto) {
-    if ('antes' in t && 'respuesta' in t) (tarjetasPorTipo[t.tipo] ??= []).push(t)
+  for (const t of tarjetasCloze) {
+    if (nivelFiltro && t.nivel_mcer !== nivelFiltro) continue
+    if (!prerequisitosCumplidos(t, estadosSRS)) continue
+    ;(tarjetasPorTipo[t.tipo] ??= []).push(t)
   }
   const tiposDisponibles = ORDEN_TIPOS.filter((tipo) => tarjetasPorTipo[tipo]?.length > 0)
 
@@ -114,6 +130,27 @@ export function EscribeLaRespuesta({ moduloId, perfil, onCambiarPerfil, onVolver
           Igual que Repaso de conceptos, pero escribes la respuesta antes de verla — recordarla activamente deja más
           huella que solo reconocerla entre opciones.
         </p>
+        {nivelesDisponibles.length > 1 && (
+          <div className="escribe-nivel-tabs">
+            <button
+              type="button"
+              className={`escribe-nivel-tab${nivelFiltro == null ? ' escribe-nivel-tab--activo' : ''}`}
+              onClick={() => setNivelFiltro(null)}
+            >
+              Todos
+            </button>
+            {nivelesDisponibles.map((nivel) => (
+              <button
+                key={nivel}
+                type="button"
+                className={`escribe-nivel-tab${nivelFiltro === nivel ? ' escribe-nivel-tab--activo' : ''}`}
+                onClick={() => setNivelFiltro(nivel)}
+              >
+                {nivel}
+              </button>
+            ))}
+          </div>
+        )}
         <div className="escribe-tipos-grid">
           {tiposDisponibles.map((tipo) => {
             const tarjetas = tarjetasPorTipo[tipo]

@@ -82,6 +82,35 @@
   color: white;
 }
 
+/* Inglés — pestañas de nivel MCER, mismo layout que repaso-tipo-tab pero
+   con el acento general de la app (no el morado de Français). */
+.repaso-nivel-tabs {
+  max-width: 720px;
+  margin: 14px auto 0;
+  padding: 0 24px;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.repaso-nivel-tab {
+  padding: 8px 14px;
+  border-radius: var(--radio-pill);
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  color: var(--text-sub);
+  font-size: 12.5px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.repaso-nivel-tab--activo {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: white;
+}
+
 .repaso-escenario {
   max-width: 600px;
   margin: 0 auto;

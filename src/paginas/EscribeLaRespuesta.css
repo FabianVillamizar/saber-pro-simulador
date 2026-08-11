@@ -16,6 +16,33 @@
   color: var(--text-faint);
 }
 
+/* Pantalla 1: elegir nivel MCER, mismo patrón visual que
+   RepasoConceptos.css .repaso-nivel-tab */
+.escribe-nivel-tabs {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+
+.escribe-nivel-tab {
+  padding: 8px 14px;
+  border-radius: var(--radio-pill);
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  color: var(--text-sub);
+  font-size: 12.5px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.escribe-nivel-tab--activo {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: white;
+}
+
 /* Pantalla 1: elegir tipo */
 .escribe-tipos-grid {
   display: grid;
