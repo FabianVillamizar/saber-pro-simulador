@@ -4,7 +4,6 @@
     "modulo": "razonamiento_cuantitativo",
     "contexto_compartido": "Los siguientes datos corresponden a la panadería de barrio 'El Buen Pan', que registra sus ventas mensuales (en número de paquetes) por categoría de producto:\n\nMes | Pan tajado | Pan francés | Pastelería | Total\nEnero | 180 | 320 | 100 | 600\nFebrero | 190 | 310 | 110 | 610\nMarzo | 200 | 340 | 120 | 660\nAbril | 210 | 300 | 90 | 600\nMayo | 220 | 330 | 130 | 680\nJunio | 210 | 350 | 140 | 700",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla con 6 filas (Enero a Junio) y 4 columnas (Pan tajado, Pan francés, Pastelería, Total), mostrando el número de paquetes vendidos de cada categoría en cada mes.",
     "preguntas": [
       {
         "id": "RC-ITEM-001",
@@ -140,7 +139,60 @@
         ]
       }
     ],
-    "tipo": "contexto_rc"
+    "tipo": "contexto_rc",
+    "tabla_filas": {
+      "columnas": [
+        "Mes",
+        "Pan tajado",
+        "Pan francés",
+        "Pastelería",
+        "Total"
+      ],
+      "filas": [
+        [
+          "Enero",
+          180,
+          320,
+          100,
+          600
+        ],
+        [
+          "Febrero",
+          190,
+          310,
+          110,
+          610
+        ],
+        [
+          "Marzo",
+          200,
+          340,
+          120,
+          660
+        ],
+        [
+          "Abril",
+          210,
+          300,
+          90,
+          600
+        ],
+        [
+          "Mayo",
+          220,
+          330,
+          130,
+          680
+        ],
+        [
+          "Junio",
+          210,
+          350,
+          140,
+          700
+        ]
+      ]
+    }
   },
   {
     "id": "RC-GRUPO-002",
@@ -184,7 +236,8 @@
         ]
       }
     ],
-    "tipo": "contexto_rc"
+    "tipo": "contexto_rc",
+    "imagen": "RC-GRUPO-002.svg"
   },
   {
     "id": "RC-GRUPO-003",
@@ -234,7 +287,6 @@
     "modulo": "razonamiento_cuantitativo",
     "contexto_compartido": "La siguiente gráfica circular muestra la distribución del presupuesto mensual de una familia con un ingreso total de $4.000.000: Vivienda 35%, Alimentación 25%, Transporte 15%, Educación 15%, Ahorro 10%.",
     "tipo_visual": "grafica_datos",
-    "visual_descripcion": "Gráfica circular (de torta) con 5 sectores etiquetados: Vivienda (35%), Alimentación (25%), Transporte (15%), Educación (15%) y Ahorro (10%).",
     "preguntas": [
       {
         "id": "RC-ITEM-007",
@@ -301,14 +353,44 @@
         ]
       }
     ],
-    "tipo": "contexto_rc"
+    "tipo": "contexto_rc",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "circular",
+      "series": [
+        {
+          "nombre": "Distribución del presupuesto",
+          "datos": [
+            {
+              "x": "Vivienda",
+              "y": 35
+            },
+            {
+              "x": "Alimentación",
+              "y": 25
+            },
+            {
+              "x": "Transporte",
+              "y": 15
+            },
+            {
+              "x": "Educación",
+              "y": 15
+            },
+            {
+              "x": "Ahorro",
+              "y": 10
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Gráfica circular con la distribución porcentual del presupuesto familiar: Vivienda 35%, Alimentación 25%, Transporte 15%, Educación 15%, Ahorro 10%."
+    }
   },
   {
     "id": "RC-GRUPO-005",
     "modulo": "razonamiento_cuantitativo",
     "contexto_compartido": "Una empresa de acueducto cobra el consumo de agua potable según estos rangos mensuales: de 0 a 15 m³, $1.200 por m³ (aplicado a todo el consumo dentro de este rango); de 16 a 30 m³, $1.800 por m³ (aplicado SOLO al consumo que excede los 15 m³); más de 30 m³, $2.500 por m³ (aplicado solo al excedente sobre 30 m³). Una familia consumió 22 m³ este mes.",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla con tres filas que muestran los rangos de consumo (0-15 m³, 16-30 m³, más de 30 m³) y la tarifa por m³ aplicable a cada rango.",
     "preguntas": [
       {
         "id": "RC-ITEM-009",
@@ -345,14 +427,33 @@
         ]
       }
     ],
-    "tipo": "contexto_rc"
+    "tipo": "contexto_rc",
+    "tabla_filas": {
+      "columnas": [
+        "Rango de consumo (m³)",
+        "Tarifa por m³"
+      ],
+      "filas": [
+        [
+          "0 a 15",
+          "$1.200"
+        ],
+        [
+          "16 a 30",
+          "$1.800"
+        ],
+        [
+          "Más de 30",
+          "$2.500"
+        ]
+      ]
+    }
   },
   {
     "id": "RC-GRUPO-006",
     "modulo": "razonamiento_cuantitativo",
     "contexto_compartido": "Una encuesta a 400 habitantes de un barrio preguntó cuál es su medio de transporte principal para ir al trabajo o estudio. Resultados: Bus urbano: 160 personas; Bicicleta: 80 personas; A pie: 60 personas; Vehículo particular: 60 personas; Moto: 40 personas.",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla con 5 filas (Bus urbano, Bicicleta, A pie, Vehículo particular, Moto) mostrando el número de personas que usa cada medio de transporte, sobre un total de 400 encuestados.",
     "preguntas": [
       {
         "id": "RC-ITEM-010",
@@ -422,7 +523,35 @@
         ]
       }
     ],
-    "tipo": "contexto_rc"
+    "tipo": "contexto_rc",
+    "tabla_filas": {
+      "columnas": [
+        "Medio de transporte",
+        "Personas"
+      ],
+      "filas": [
+        [
+          "Bus urbano",
+          160
+        ],
+        [
+          "Bicicleta",
+          80
+        ],
+        [
+          "A pie",
+          60
+        ],
+        [
+          "Vehículo particular",
+          60
+        ],
+        [
+          "Moto",
+          40
+        ]
+      ]
+    }
   },
   {
     "id": "RC-GRUPO-007",
@@ -466,7 +595,8 @@
         ]
       }
     ],
-    "tipo": "contexto_rc"
+    "tipo": "contexto_rc",
+    "imagen": "RC-GRUPO-007.svg"
   },
   {
     "id": "RC-GRUPO-008",
@@ -516,7 +646,6 @@
     "modulo": "razonamiento_cuantitativo",
     "contexto_compartido": "La siguiente gráfica de líneas muestra la temperatura promedio mensual (en °C) registrada en una ciudad durante un año: Enero 18°C, Febrero 19°C, Marzo 20°C, Abril 21°C, Mayo 20°C, Junio 18°C, Julio 16°C, Agosto 17°C, Septiembre 19°C, Octubre 21°C, Noviembre 22°C, Diciembre 20°C.",
     "tipo_visual": "grafica_datos",
-    "visual_descripcion": "Gráfica de línea con 12 puntos (uno por mes) mostrando la temperatura promedio mensual a lo largo del año, con un mínimo en julio y un máximo en noviembre.",
     "preguntas": [
       {
         "id": "RC-ITEM-014",
@@ -617,7 +746,68 @@
         ]
       }
     ],
-    "tipo": "contexto_rc"
+    "tipo": "contexto_rc",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Mes",
+      "ejeY": "Temperatura (°C)",
+      "series": [
+        {
+          "nombre": "Temperatura promedio",
+          "datos": [
+            {
+              "x": "Ene",
+              "y": 18
+            },
+            {
+              "x": "Feb",
+              "y": 19
+            },
+            {
+              "x": "Mar",
+              "y": 20
+            },
+            {
+              "x": "Abr",
+              "y": 21
+            },
+            {
+              "x": "May",
+              "y": 20
+            },
+            {
+              "x": "Jun",
+              "y": 18
+            },
+            {
+              "x": "Jul",
+              "y": 16
+            },
+            {
+              "x": "Ago",
+              "y": 17
+            },
+            {
+              "x": "Sep",
+              "y": 19
+            },
+            {
+              "x": "Oct",
+              "y": 21
+            },
+            {
+              "x": "Nov",
+              "y": 22
+            },
+            {
+              "x": "Dic",
+              "y": 20
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Gráfica de línea con la temperatura promedio mensual durante un año, mínimo en julio (16°C) y máximo en noviembre (22°C)."
+    }
   },
   {
     "id": "RC-GRUPO-010",
@@ -667,7 +857,6 @@
     "modulo": "razonamiento_cuantitativo",
     "contexto_compartido": "Una tienda vende arroz en tres presentaciones: bolsa de 1 kg a $4.200; bolsa de 3 kg a $11.700; bolsa de 5 kg a $18.500.",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla con tres filas (bolsa de 1 kg, 3 kg y 5 kg) mostrando el precio total de cada presentación.",
     "preguntas": [
       {
         "id": "RC-ITEM-018",
@@ -739,7 +928,27 @@
         ]
       }
     ],
-    "tipo": "contexto_rc"
+    "tipo": "contexto_rc",
+    "tabla_filas": {
+      "columnas": [
+        "Presentación",
+        "Precio"
+      ],
+      "filas": [
+        [
+          "Bolsa de 1 kg",
+          "$4.200"
+        ],
+        [
+          "Bolsa de 3 kg",
+          "$11.700"
+        ],
+        [
+          "Bolsa de 5 kg",
+          "$18.500"
+        ]
+      ]
+    }
   },
   {
     "id": "RC-GRUPO-012",
@@ -784,14 +993,14 @@
         ]
       }
     ],
-    "tipo": "contexto_rc"
+    "tipo": "contexto_rc",
+    "imagen": "RC-GRUPO-012.svg"
   },
   {
     "id": "RC-GRUPO-013",
     "modulo": "razonamiento_cuantitativo",
     "contexto_compartido": "En un torneo barrial de microfútbol, la tabla de posiciones tras la primera vuelta es la siguiente (sistema de puntos: 3 por partido ganado, 1 por empate, 0 por partido perdido):\n\nEquipo | Partidos jugados | Ganados | Empatados | Perdidos | Puntos\nLos Halcones | 6 | 4 | 1 | 1 | 13\nReal Barrio | 6 | 3 | 2 | 1 | 11\nUnidos FC | 6 | 3 | 1 | 2 | 10\nEstrella Azul | 6 | 2 | 2 | 2 | 8\nLos Tigres | 6 | 1 | 1 | 4 | 4",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla de posiciones con 5 equipos y las columnas: partidos jugados, ganados, empatados, perdidos y puntos.",
     "preguntas": [
       {
         "id": "RC-ITEM-021",
@@ -890,14 +1099,65 @@
         "tarjetas_relacionadas": []
       }
     ],
-    "tipo": "contexto_rc"
+    "tipo": "contexto_rc",
+    "tabla_filas": {
+      "columnas": [
+        "Equipo",
+        "PJ",
+        "G",
+        "E",
+        "P",
+        "Puntos"
+      ],
+      "filas": [
+        [
+          "Los Halcones",
+          6,
+          4,
+          1,
+          1,
+          13
+        ],
+        [
+          "Real Barrio",
+          6,
+          3,
+          2,
+          1,
+          11
+        ],
+        [
+          "Unidos FC",
+          6,
+          3,
+          1,
+          2,
+          10
+        ],
+        [
+          "Estrella Azul",
+          6,
+          2,
+          2,
+          2,
+          8
+        ],
+        [
+          "Los Tigres",
+          6,
+          1,
+          1,
+          4,
+          4
+        ]
+      ]
+    }
   },
   {
     "id": "RC-GRUPO-014",
     "modulo": "razonamiento_cuantitativo",
     "contexto_compartido": "Una cooperativa de ahorro ofrece rendimiento a interés SIMPLE anual, según el monto invertido: hasta $2.000.000, tasa 4% anual (sobre el monto total); entre $2.000.001 y $5.000.000, tasa 5% anual (sobre el monto TOTAL invertido, no solo el excedente); más de $5.000.000, tasa 6% anual (sobre el monto total). Camilo invierte $3.500.000 durante 1 año.",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla con tres filas mostrando los rangos de monto invertido y la tasa anual aplicable a cada rango.",
     "preguntas": [
       {
         "id": "RC-ITEM-024",
@@ -934,14 +1194,33 @@
         ]
       }
     ],
-    "tipo": "contexto_rc"
+    "tipo": "contexto_rc",
+    "tabla_filas": {
+      "columnas": [
+        "Monto invertido",
+        "Tasa anual"
+      ],
+      "filas": [
+        [
+          "Hasta $2.000.000",
+          "4%"
+        ],
+        [
+          "Entre $2.000.001 y $5.000.000",
+          "5%"
+        ],
+        [
+          "Más de $5.000.000",
+          "6%"
+        ]
+      ]
+    }
   },
   {
     "id": "RC-GRUPO-015",
     "modulo": "razonamiento_cuantitativo",
     "contexto_compartido": "Un mayorista de frutas ofrece descuentos según la cantidad comprada: de 1 a 9 cajas, sin descuento (precio $20.000 por caja); de 10 a 19 cajas, 10% de descuento sobre el precio de TODAS las cajas; 20 cajas o más, 20% de descuento sobre el precio de todas las cajas.",
     "tipo_visual": "grafica_datos",
-    "visual_descripcion": "Gráfica de barras mostrando el precio final por caja según tres rangos de cantidad comprada (1-9, 10-19, 20 o más).",
     "preguntas": [
       {
         "id": "RC-ITEM-025",
@@ -978,14 +1257,38 @@
         ]
       }
     ],
-    "tipo": "contexto_rc"
+    "tipo": "contexto_rc",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "barras",
+      "ejeX": "Cantidad comprada (cajas)",
+      "ejeY": "Precio final por caja ($)",
+      "series": [
+        {
+          "nombre": "Precio por caja",
+          "datos": [
+            {
+              "x": "1-9",
+              "y": 20000
+            },
+            {
+              "x": "10-19",
+              "y": 18000
+            },
+            {
+              "x": "20 o más",
+              "y": 16000
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Gráfica de barras con el precio final por caja según el rango de cantidad comprada: $20.000 sin descuento, $18.000 con 10% de descuento, $16.000 con 20% de descuento."
+    }
   },
   {
     "id": "RC-GRUPO-016",
     "modulo": "razonamiento_cuantitativo",
     "contexto_compartido": "Una empresa con 800 empleados realizó una encuesta de satisfacción laboral a una MUESTRA aleatoria de 100 empleados. Resultados: Muy satisfecho: 35 empleados; Satisfecho: 40 empleados; Insatisfecho: 20 empleados; Muy insatisfecho: 5 empleados.",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla con 4 filas mostrando el número de empleados encuestados en cada categoría de satisfacción, sobre una muestra de 100 de los 800 empleados totales.",
     "preguntas": [
       {
         "id": "RC-ITEM-026",
@@ -1057,7 +1360,31 @@
         ]
       }
     ],
-    "tipo": "contexto_rc"
+    "tipo": "contexto_rc",
+    "tabla_filas": {
+      "columnas": [
+        "Categoría",
+        "Empleados"
+      ],
+      "filas": [
+        [
+          "Muy satisfecho",
+          35
+        ],
+        [
+          "Satisfecho",
+          40
+        ],
+        [
+          "Insatisfecho",
+          20
+        ],
+        [
+          "Muy insatisfecho",
+          5
+        ]
+      ]
+    }
   },
   {
     "id": "RC-GRUPO-017",
@@ -1100,14 +1427,14 @@
         ]
       }
     ],
-    "tipo": "contexto_rc"
+    "tipo": "contexto_rc",
+    "imagen": "RC-GRUPO-017.svg"
   },
   {
     "id": "RC-GRUPO-018",
     "modulo": "razonamiento_cuantitativo",
     "contexto_compartido": "La siguiente gráfica muestra el saldo acumulado (en pesos) de un plan de ahorro programado, mes a mes: Mes 0 (depósito inicial): $200.000. Mes 1: $350.000. Mes 2: $500.000. Mes 3: $650.000. Mes 4: $800.000.",
     "tipo_visual": "grafica_datos",
-    "visual_descripcion": "Gráfica de línea recta con el saldo acumulado en los meses 0 a 4, mostrando un aumento constante de $150.000 por mes a partir de un depósito inicial de $200.000.",
     "preguntas": [
       {
         "id": "RC-ITEM-029",
@@ -1144,7 +1471,40 @@
         ]
       }
     ],
-    "tipo": "contexto_rc"
+    "tipo": "contexto_rc",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Mes",
+      "ejeY": "Saldo acumulado ($)",
+      "series": [
+        {
+          "nombre": "Saldo acumulado",
+          "datos": [
+            {
+              "x": "0",
+              "y": 200000
+            },
+            {
+              "x": "1",
+              "y": 350000
+            },
+            {
+              "x": "2",
+              "y": 500000
+            },
+            {
+              "x": "3",
+              "y": 650000
+            },
+            {
+              "x": "4",
+              "y": 800000
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Gráfica de línea recta con el saldo acumulado de un plan de ahorro programado, de $200.000 en el mes 0 a $800.000 en el mes 4, aumentando $150.000 por mes."
+    }
   },
   {
     "id": "RC-GRUPO-019",

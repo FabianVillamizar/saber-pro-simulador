@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-44 0 508 260">
+  <defs>
+    <marker id="flecha" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--text)" />
+    </marker>
+  </defs>
+
+  <text x="150" y="20" fill="var(--text)" font-size="13" font-weight="800" text-anchor="middle">Eje desde 0</text>
+  <line x1="60" y1="20" x2="60" y2="200" stroke="var(--text)" stroke-width="2" stroke-linecap="round" />
+  <line x1="60" y1="200" x2="200" y2="200" stroke="var(--text)" stroke-width="2" stroke-linecap="round" />
+  <text x="50" y="24" fill="var(--text-sub)" font-size="10" font-weight="500" text-anchor="end">100</text>
+  <text x="50" y="204" fill="var(--text-sub)" font-size="10" font-weight="500" text-anchor="end">0</text>
+  <rect x="90" y="54.2" width="30" height="145.8" rx="2" fill="var(--text-sub)" stroke="var(--text-sub)" stroke-width="1" />
+  <text x="105" y="46" fill="var(--text)" font-size="11" font-weight="700" text-anchor="middle">81</text>
+  <rect x="140" y="48.8" width="30" height="151.2" rx="2" fill="var(--accent)" stroke="var(--accent)" stroke-width="1" />
+  <text x="155" y="40" fill="var(--accent)" font-size="11" font-weight="700" text-anchor="middle">84</text>
+  <text x="150" y="222" fill="var(--exito)" font-size="11" font-weight="500" text-anchor="middle">diferencia moderada</text>
+
+  <text x="340" y="20" fill="var(--text)" font-size="13" font-weight="800" text-anchor="middle">Eje truncado desde 80</text>
+  <line x1="260" y1="20" x2="260" y2="200" stroke="var(--text)" stroke-width="2" stroke-linecap="round" />
+  <line x1="260" y1="200" x2="400" y2="200" stroke="var(--text)" stroke-width="2" stroke-linecap="round" />
+  <text x="250" y="24" fill="var(--text-sub)" font-size="10" font-weight="500" text-anchor="end">90</text>
+  <text x="250" y="204" fill="var(--text-sub)" font-size="10" font-weight="500" text-anchor="end">80</text>
+  <rect x="290" y="182" width="30" height="18" rx="2" fill="var(--text-sub)" stroke="var(--text-sub)" stroke-width="1" />
+  <text x="305" y="176" fill="var(--text)" font-size="11" font-weight="700" text-anchor="middle">81</text>
+  <rect x="340" y="128" width="30" height="72" rx="2" fill="var(--accent)" stroke="var(--accent)" stroke-width="1" />
+  <text x="355" y="122" fill="var(--accent)" font-size="11" font-weight="700" text-anchor="middle">84</text>
+  <text x="340" y="222" fill="var(--warning)" font-size="11" font-weight="500" text-anchor="middle">diferencia exagerada</text>
+
+  <text x="210" y="245" fill="var(--text-faint)" font-size="10" font-weight="500" text-anchor="middle">mismos datos (81 y 84) — el eje truncado hace que la barra parezca hasta el triple de alta</text>
+
+</svg>

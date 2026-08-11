@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220">
+
+  <text x="200" y="20" fill="var(--text)" font-size="12" font-weight="700" text-anchor="middle">A = tiene perro (28) · B = tiene gato (19)</text>
+  <circle cx="160" cy="120" r="70" fill="none" stroke="var(--text)" stroke-width="2" />
+  <circle cx="240" cy="120" r="70" fill="none" stroke="var(--text)" stroke-width="2" />
+  <text x="120" y="120" fill="var(--text)" font-size="18" font-weight="800" text-anchor="middle">22</text>
+  <text x="200" y="120" fill="var(--accent)" font-size="18" font-weight="800" text-anchor="middle">6</text>
+  <text x="280" y="120" fill="var(--text)" font-size="18" font-weight="800" text-anchor="middle">13</text>
+  <text x="120" y="145" fill="var(--text-sub)" font-size="9" font-weight="500" text-anchor="middle">solo perro</text>
+  <text x="200" y="145" fill="var(--accent)" font-size="9" font-weight="500" text-anchor="middle">ambas</text>
+  <text x="280" y="145" fill="var(--text-sub)" font-size="9" font-weight="500" text-anchor="middle">solo gato</text>
+  <text x="200" y="205" fill="var(--text-faint)" font-size="10" font-weight="500" text-anchor="middle">28 con perro = 22 solo perro + 6 con ambas (no 28 solo perro)</text>
+
+</svg>

@@ -215,7 +215,34 @@
     "modulo": "razonamiento_cuantitativo",
     "contexto_compartido": "Una cooperativa agrícola reparte sus utilidades anuales de $150.000.000 entre 5 socios fundadores, según su participación:\n\nSocio | Participación\nSocio 1 | 30%\nSocio 2 | 25%\nSocio 3 | 20%\nSocio 4 | 15%\nSocio 5 | 10%\n\nEl Socio 3 falleció este año, dejando 2 hijos como únicos herederos de su participación. La muerte del Socio 3 no cambia el porcentaje de participación de los demás socios.",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla con 5 filas (Socio 1 a Socio 5) mostrando el porcentaje de participación de cada uno en las utilidades de la cooperativa.",
+    "tabla_filas": {
+      "columnas": [
+        "Socio",
+        "Participación"
+      ],
+      "filas": [
+        [
+          "Socio 1",
+          "30%"
+        ],
+        [
+          "Socio 2",
+          "25%"
+        ],
+        [
+          "Socio 3",
+          "20%"
+        ],
+        [
+          "Socio 4",
+          "15%"
+        ],
+        [
+          "Socio 5",
+          "10%"
+        ]
+      ]
+    },
     "preguntas": [
       {
         "id": "RC-ITEM-039",
@@ -374,14 +401,48 @@
         ]
       }
     ],
-    "tipo": "contexto_rc"
+    "tipo": "contexto_rc",
+    "imagen": "RC-GRUPO-029.svg"
   },
   {
     "id": "RC-GRUPO-030",
     "modulo": "razonamiento_cuantitativo",
     "contexto_compartido": "Una operadora de telefonía celular ofrece 4 planes mensuales:\n\nPlan | Datos | Minutos | Precio\nBásico | 2 GB | 100 min | $35.000\nPlus | 5 GB | 200 min | $55.000\nPremium | 10 GB | 300 min | $85.000\nIlimitado | 20 GB | 500 min | $150.000",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla con 4 planes (Básico, Plus, Premium, Ilimitado) y sus columnas de datos, minutos y precio mensual.",
+    "tabla_filas": {
+      "columnas": [
+        "Plan",
+        "Datos",
+        "Minutos",
+        "Precio"
+      ],
+      "filas": [
+        [
+          "Básico",
+          "2 GB",
+          "100 min",
+          "$35.000"
+        ],
+        [
+          "Plus",
+          "5 GB",
+          "200 min",
+          "$55.000"
+        ],
+        [
+          "Premium",
+          "10 GB",
+          "300 min",
+          "$85.000"
+        ],
+        [
+          "Ilimitado",
+          "20 GB",
+          "500 min",
+          "$150.000"
+        ]
+      ]
+    },
     "preguntas": [
       {
         "id": "RC-ITEM-043",
@@ -493,7 +554,38 @@
     "modulo": "razonamiento_cuantitativo",
     "contexto_compartido": "Un estudiante de química mide el pH de una misma disolución 6 veces con el mismo instrumento, obteniendo los siguientes valores: 6,8 - 6,9 - 6,7 - 7,0 - 6,8 - 6,9.",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla con las 6 mediciones de pH registradas para la misma disolución.",
+    "tabla_filas": {
+      "columnas": [
+        "Medición",
+        "Valor de pH"
+      ],
+      "filas": [
+        [
+          "1",
+          "6,8"
+        ],
+        [
+          "2",
+          "6,9"
+        ],
+        [
+          "3",
+          "6,7"
+        ],
+        [
+          "4",
+          "7,0"
+        ],
+        [
+          "5",
+          "6,8"
+        ],
+        [
+          "6",
+          "6,9"
+        ]
+      ]
+    },
     "preguntas": [
       {
         "id": "RC-ITEM-046",
@@ -537,7 +629,30 @@
     "modulo": "razonamiento_cuantitativo",
     "contexto_compartido": "Una empresa otorga un bono a los vendedores cuyas ventas mensuales SUPEREN $8.000.000. Ventas del mes: Vendedor 1: $7.500.000; Vendedor 2: $8.200.000; Vendedor 3: $8.000.000; Vendedor 4: $9.100.000.",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla con 4 vendedores y sus ventas mensuales, para compararlas contra el umbral de $8.000.000.",
+    "tabla_filas": {
+      "columnas": [
+        "Vendedor",
+        "Ventas mensuales"
+      ],
+      "filas": [
+        [
+          "Vendedor 1",
+          "$7.500.000"
+        ],
+        [
+          "Vendedor 2",
+          "$8.200.000"
+        ],
+        [
+          "Vendedor 3",
+          "$8.000.000"
+        ],
+        [
+          "Vendedor 4",
+          "$9.100.000"
+        ]
+      ]
+    },
     "preguntas": [
       {
         "id": "RC-ITEM-047",
@@ -651,7 +766,8 @@
         ]
       }
     ],
-    "tipo": "contexto_rc"
+    "tipo": "contexto_rc",
+    "imagen": "RC-GRUPO-033.svg"
   },
   {
     "id": "RC-GRUPO-034",
@@ -701,7 +817,25 @@
     "modulo": "razonamiento_cuantitativo",
     "contexto_compartido": "Dos sucursales de una cadena de tiendas realizaron una encuesta de satisfacción a sus clientes: la Sucursal Norte encuestó a 30 clientes, con una calificación promedio de 4,2 (sobre 5,0); la Sucursal Sur encuestó a 120 clientes, con una calificación promedio de 3,6 (sobre 5,0).",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla con 2 filas (Sucursal Norte, Sucursal Sur) mostrando el número de clientes encuestados y la calificación promedio de cada una.",
+    "tabla_filas": {
+      "columnas": [
+        "Sucursal",
+        "Clientes encuestados",
+        "Calificación promedio"
+      ],
+      "filas": [
+        [
+          "Norte",
+          "30",
+          "4,2"
+        ],
+        [
+          "Sur",
+          "120",
+          "3,6"
+        ]
+      ]
+    },
     "preguntas": [
       {
         "id": "RC-ITEM-051",
@@ -864,7 +998,34 @@
     "modulo": "razonamiento_cuantitativo",
     "contexto_compartido": "Una pequeña fábrica de muebles registró su producción semanal (en número de sillas) durante 5 semanas consecutivas: Semana 1: 80; Semana 2: 88; Semana 3: 95; Semana 4: 102; Semana 5: 110.",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla con la producción semanal de sillas durante 5 semanas consecutivas, mostrando un aumento constante de aproximadamente 7 a 8 sillas por semana.",
+    "tabla_filas": {
+      "columnas": [
+        "Semana",
+        "Producción (sillas)"
+      ],
+      "filas": [
+        [
+          "1",
+          "80"
+        ],
+        [
+          "2",
+          "88"
+        ],
+        [
+          "3",
+          "95"
+        ],
+        [
+          "4",
+          "102"
+        ],
+        [
+          "5",
+          "110"
+        ]
+      ]
+    },
     "preguntas": [
       {
         "id": "RC-ITEM-055",
@@ -1016,7 +1177,46 @@
     "modulo": "razonamiento_cuantitativo",
     "contexto_compartido": "Una empresa de domicilios registró los tiempos de entrega (en minutos) de 8 pedidos recientes: 22, 35, 28, 45, 30, 25, 40, 33. La empresa promete entregar en 35 minutos o menos.",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla con los tiempos de entrega (en minutos) de los 8 pedidos recientes registrados.",
+    "tabla_filas": {
+      "columnas": [
+        "Pedido",
+        "Tiempo de entrega (min)"
+      ],
+      "filas": [
+        [
+          "1",
+          "22"
+        ],
+        [
+          "2",
+          "35"
+        ],
+        [
+          "3",
+          "28"
+        ],
+        [
+          "4",
+          "45"
+        ],
+        [
+          "5",
+          "30"
+        ],
+        [
+          "6",
+          "25"
+        ],
+        [
+          "7",
+          "40"
+        ],
+        [
+          "8",
+          "33"
+        ]
+      ]
+    },
     "preguntas": [
       {
         "id": "RC-ITEM-059",
@@ -1178,7 +1378,30 @@
     "modulo": "razonamiento_cuantitativo",
     "contexto_compartido": "Un estudiante universitario cursó 3 asignaturas en un semestre: Química (4 créditos, calificación 4,5), Cálculo (3 créditos, calificación 3,8), e Inglés (2 créditos, calificación 4,2). El promedio ponderado semestral se calcula multiplicando cada calificación por sus créditos, sumando esos productos, y dividiendo entre el total de créditos.",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla con 3 filas (Química, Cálculo, Inglés) mostrando los créditos y la calificación de cada asignatura.",
+    "tabla_filas": {
+      "columnas": [
+        "Asignatura",
+        "Créditos",
+        "Calificación"
+      ],
+      "filas": [
+        [
+          "Química",
+          "4",
+          "4,5"
+        ],
+        [
+          "Cálculo",
+          "3",
+          "3,8"
+        ],
+        [
+          "Inglés",
+          "2",
+          "4,2"
+        ]
+      ]
+    },
     "preguntas": [
       {
         "id": "RC-ITEM-063",
@@ -1292,6 +1515,7 @@
         ]
       }
     ],
-    "tipo": "contexto_rc"
+    "tipo": "contexto_rc",
+    "imagen": "RC-GRUPO-044.svg"
   }
 ]

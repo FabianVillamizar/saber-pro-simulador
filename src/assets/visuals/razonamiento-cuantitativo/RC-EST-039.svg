@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-16 0 432 220">
+
+  <line x1="50" y1="190" x2="50" y2="20" stroke="var(--border)" stroke-width="2" stroke-linecap="round" />
+  <line x1="50" y1="190" x2="370" y2="190" stroke="var(--border)" stroke-width="2" stroke-linecap="round" />
+  <line x1="50" y1="60" x2="370" y2="60" stroke="var(--warning)" stroke-width="2" stroke-linecap="round" stroke-dasharray="5,5" />
+  <text x="360" y="52" fill="var(--warning)" font-size="9" font-weight="500" text-anchor="end">población total</text>
+  <polyline points="70,185 140,175 210,145" fill="none" stroke="var(--text)" stroke-width="2" />
+  <circle cx="70" cy="185" r="3" fill="var(--text)" /><circle cx="140" cy="175" r="3" fill="var(--text)" /><circle cx="210" cy="145" r="3" fill="var(--text)" />
+  <text x="70" y="200" fill="var(--text-sub)" font-size="10" font-weight="500" text-anchor="middle">100</text><text x="140" y="200" fill="var(--text-sub)" font-size="10" font-weight="500" text-anchor="middle">300</text><text x="210" y="200" fill="var(--text-sub)" font-size="10" font-weight="500" text-anchor="middle">900</text>
+  <polyline points="210,145 260,90 300,40 330,10" fill="none" stroke="var(--warning)" stroke-width="2.5" stroke-dasharray="5,5" />
+  <text x="330" y="22" fill="var(--warning)" font-size="11" font-weight="500" text-anchor="end">¿5 millones?</text>
+  <text x="200" y="15" fill="var(--warning)" font-size="10" font-weight="500" text-anchor="middle">la extrapolación cruza el límite real de población — no puede continuar igual</text>
+
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-42 0 484 220">
+
+  <line x1="40" y1="180" x2="40" y2="20" stroke="var(--text-sub)" stroke-width="2" stroke-linecap="round" />
+  <line x1="40" y1="180" x2="370" y2="180" stroke="var(--text-sub)" stroke-width="2" stroke-linecap="round" />
+  <path d="M40,150 L100,140 L160,120 L220,105 L280,90" fill="none" stroke="var(--text)" stroke-width="2.5" />
+  <path d="M280,90 L330,70 L280,120 Z" fill="var(--accent)" fill-opacity="0.25" stroke="none" />
+  <path d="M280,90 L330,70" fill="none" stroke="var(--accent)" stroke-width="2" stroke-dasharray="4,4" />
+  <path d="M280,90 L330,110" fill="none" stroke="var(--accent)" stroke-width="2" stroke-dasharray="4,4" />
+  <text x="330" y="60" fill="var(--accent)" font-size="10" font-weight="500" text-anchor="start">rango de</text>
+  <text x="330" y="74" fill="var(--accent)" font-size="10" font-weight="500" text-anchor="start">predicción</text>
+  <text x="160" y="205" fill="var(--text-faint)" font-size="10" font-weight="500" text-anchor="middle">línea sólida = datos reales · zona sombreada = valores probables futuros</text>
+
+</svg>

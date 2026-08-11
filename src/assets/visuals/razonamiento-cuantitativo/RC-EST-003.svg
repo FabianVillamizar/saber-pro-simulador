@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 220">
+
+  <text x="110" y="20" fill="var(--text)" font-size="12" font-weight="700" text-anchor="middle">Gráfica de barras</text>
+  <line x1="40" y1="170" x2="40" y2="40" stroke="var(--text-sub)" stroke-width="2" stroke-linecap="round" />
+  <line x1="40" y1="170" x2="200" y2="170" stroke="var(--text-sub)" stroke-width="2" stroke-linecap="round" />
+  <rect x="60" y="90" width="30" height="80" rx="6" fill="var(--accent)" stroke="var(--accent)" stroke-width="2" />
+  <rect x="105" y="60" width="30" height="110" rx="6" fill="var(--accent)" stroke="var(--accent)" stroke-width="2" />
+  <rect x="150" y="110" width="30" height="60" rx="6" fill="var(--accent)" stroke="var(--accent)" stroke-width="2" />
+  <text x="75" y="185" fill="var(--text-sub)" font-size="9" font-weight="500" text-anchor="middle">Transp.</text>
+  <text x="120" y="185" fill="var(--text-sub)" font-size="9" font-weight="500" text-anchor="middle">Comida</text>
+  <text x="165" y="185" fill="var(--text-sub)" font-size="9" font-weight="500" text-anchor="middle">Viv.</text>
+
+  <text x="320" y="20" fill="var(--text)" font-size="12" font-weight="700" text-anchor="middle">↔ misma info como tabla</text>
+  <rect x="260" y="40" width="130" height="130" rx="6" fill="none" stroke="var(--border)" stroke-width="2" />
+  <line x1="260" y1="70" x2="390" y2="70" stroke="var(--border)" stroke-width="2" stroke-linecap="round" />
+  <line x1="325" y1="40" x2="325" y2="170" stroke="var(--border)" stroke-width="2" stroke-linecap="round" />
+  <text x="292" y="58" fill="var(--text-sub)" font-size="9" font-weight="500" text-anchor="middle">Categoría</text>
+  <text x="358" y="58" fill="var(--text-sub)" font-size="9" font-weight="500" text-anchor="middle">%</text>
+  <text x="292" y="90" fill="var(--text)" font-size="9" font-weight="500" text-anchor="middle">Transporte</text><text x="358" y="90" fill="var(--text)" font-size="9" font-weight="500" text-anchor="middle">40%</text>
+  <text x="292" y="115" fill="var(--text)" font-size="9" font-weight="500" text-anchor="middle">Comida</text><text x="358" y="115" fill="var(--text)" font-size="9" font-weight="500" text-anchor="middle">35%</text>
+  <text x="292" y="140" fill="var(--text)" font-size="9" font-weight="500" text-anchor="middle">Vivienda</text><text x="358" y="140" fill="var(--text)" font-size="9" font-weight="500" text-anchor="middle">25%</text>
+
+  <text x="210" y="205" fill="var(--text-faint)" font-size="10" font-weight="500" text-anchor="middle">cada barra → una fila de la tabla</text>
+
+</svg>

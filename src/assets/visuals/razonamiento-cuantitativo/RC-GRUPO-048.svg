@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-16 0 432 220">
+  <defs>
+    <marker id="flecha" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--text)" />
+    </marker>
+  </defs>
+
+  <polygon points="70,150 330,150 270,50 130,50" fill="none" stroke="var(--text)" stroke-width="2" />
+  <line x1="130" y1="50" x2="270" y2="50" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" />
+  <text x="200" y="35" fill="var(--accent)" font-size="13" font-weight="700" text-anchor="middle">18 m</text>
+  <line x1="70" y1="150" x2="330" y2="150" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" />
+  <text x="200" y="175" fill="var(--accent)" font-size="13" font-weight="700" text-anchor="middle">12 m</text>
+
+  <line x1="200" y1="55" x2="200" y2="145" stroke="var(--warning)" stroke-width="2" stroke-linecap="round" stroke-dasharray="5,5" />
+  <circle cx="200" cy="100" r="16" fill="none" stroke="var(--warning)" stroke-width="2" stroke-dasharray="3,3" />
+  <text x="240" y="104" fill="var(--warning)" font-size="11" font-weight="500" text-anchor="start">¿altura?</text>
+  <text x="200" y="200" fill="var(--warning)" font-size="10" font-weight="500" text-anchor="middle">no hay ninguna medida de la distancia perpendicular entre los lados paralelos</text>
+
+</svg>

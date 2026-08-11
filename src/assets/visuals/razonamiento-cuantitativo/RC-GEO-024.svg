@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 260">
+
+  <circle cx="150" cy="130" r="90" fill="none" stroke="var(--border)" stroke-width="2" />
+  <text x="150" y="30" fill="var(--text-sub)" font-size="11" font-weight="500" text-anchor="middle">N (0°)</text>
+  <text x="250" y="135" fill="var(--text-sub)" font-size="11" font-weight="500" text-anchor="middle">E (90°)</text>
+  <text x="150" y="235" fill="var(--text-sub)" font-size="11" font-weight="500" text-anchor="middle">S (180°)</text>
+  <text x="50" y="135" fill="var(--text-sub)" font-size="11" font-weight="500" text-anchor="middle">O (270°)</text>
+  <line x1="150" y1="130" x2="119.21818710068982" y2="214.57233587073176" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round" /><circle cx="119.21818710068982" cy="214.57233587073176" r="4" fill="var(--accent)" /><text x="109.21818710068982" y="232.57233587073176" fill="var(--accent)" font-size="10" font-weight="500" text-anchor="end">200°</text>
+  <text x="150" y="250" fill="var(--text-faint)" font-size="9" font-weight="500" text-anchor="middle">entre S (180°) y O (270°), más cerca de S</text>
+
+</svg>

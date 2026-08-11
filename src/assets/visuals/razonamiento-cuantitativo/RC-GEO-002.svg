@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+
+  <polygon points="40,160 220,160 130,40" fill="none" stroke="var(--text)" stroke-width="2" />
+  <line x1="130" y1="160" x2="130" y2="40" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-dasharray="5,5" />
+  <rect x="122" y="152" width="16" height="16" rx="0" fill="none" stroke="var(--accent)" stroke-width="2" />
+  <text x="130" y="180" fill="var(--text)" font-size="11" font-weight="500" text-anchor="middle">base = 8 cm</text>
+  <text x="150" y="100" fill="var(--accent)" font-size="11" font-weight="500" text-anchor="start">altura = 5 cm</text>
+  <text x="150" y="195" fill="var(--text-faint)" font-size="10" font-weight="500" text-anchor="middle">altura es perpendicular (90°) a la base</text>
+
+</svg>

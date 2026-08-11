@@ -4,9 +4,11 @@ import {
   BarController,
   LineController,
   ScatterController,
+  PieController,
   BarElement,
   LineElement,
   PointElement,
+  ArcElement,
   LinearScale,
   LogarithmicScale,
   CategoryScale,
@@ -19,9 +21,11 @@ Chart.register(
   BarController,
   LineController,
   ScatterController,
+  PieController,
   BarElement,
   LineElement,
   PointElement,
+  ArcElement,
   LinearScale,
   LogarithmicScale,
   CategoryScale,
@@ -30,6 +34,7 @@ Chart.register(
 )
 
 const PALETA_SERIE = ['--accent', '--exito', '--warning', '--text-sub']
+const PALETA_SECTORES = ['--accent', '--exito', '--warning', '--text-sub', '--border']
 
 function coloresTema() {
   const estilo = getComputedStyle(document.documentElement)
@@ -38,12 +43,15 @@ function coloresTema() {
     textoSub: estilo.getPropertyValue('--text-sub').trim(),
     borde: estilo.getPropertyValue('--border').trim(),
     serie: PALETA_SERIE.map((v) => estilo.getPropertyValue(v).trim()),
+    sectores: PALETA_SECTORES.map((v) => estilo.getPropertyValue(v).trim()),
   }
 }
 
 // tipoGrafico "histograma" se dibuja como barras (Chart.js no tiene un tipo
 // histograma nativo; los datos ya vienen agrupados en bins desde el origen).
-const TIPO_CHARTJS = { barras: 'bar', lineas: 'line', dispersion: 'scatter', histograma: 'bar' }
+// "circular" (torta) no usa ejes x/y como los demás — se arma aparte en
+// construirCircular().
+const TIPO_CHARTJS = { barras: 'bar', lineas: 'line', dispersion: 'scatter', histograma: 'bar', circular: 'pie' }
 
 // Para gráficas por categoría (todo menos "dispersion"), Chart.js usa un
 // único array de `labels` compartido por todos los datasets, alineado por
@@ -100,7 +108,40 @@ export function GraficaDatos({ datos }) {
     if (!datos || !canvasRef.current) return
 
     function construir() {
-      const { textoSub, borde, serie } = coloresTema()
+      const { textoSub, borde, serie, sectores } = coloresTema()
+
+      // Circular (torta) no tiene ejes ni varias series superpuestas — un
+      // único set de sectores a partir de series[0].datos, un color por
+      // sector en vez de un color por serie.
+      if (datos.tipoGrafico === 'circular') {
+        const puntos = datos.series[0]?.datos ?? []
+        chartRef.current?.destroy()
+        chartRef.current = new Chart(canvasRef.current, {
+          type: 'pie',
+          data: {
+            labels: puntos.map((p) => p.x),
+            datasets: [
+              {
+                data: puntos.map((p) => p.y),
+                backgroundColor: puntos.map((_, i) => sectores[i % sectores.length]),
+                borderColor: getComputedStyle(document.documentElement).getPropertyValue('--surface').trim(),
+                borderWidth: 2,
+              },
+            ],
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            animation: false,
+            plugins: {
+              legend: { display: true, position: 'bottom', labels: { color: textoSub, font: { size: 12 } } },
+              tooltip: { enabled: true },
+            },
+          },
+        })
+        return
+      }
+
       const esCategorias = datos.tipoGrafico !== 'dispersion'
       const labels = esCategorias ? unirCategorias(datos.series) : undefined
       const escalaLogY = datos.tipoGrafico !== 'barras' && datos.tipoGrafico !== 'histograma' && necesitaEscalaLog(datos.series)

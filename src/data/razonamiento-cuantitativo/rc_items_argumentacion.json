@@ -197,7 +197,8 @@
         ]
       }
     ],
-    "tipo": "contexto_rc"
+    "tipo": "contexto_rc",
+    "imagen": "RC-GRUPO-047.svg"
   },
   {
     "id": "RC-GRUPO-048",
@@ -241,14 +242,14 @@
         ]
       }
     ],
-    "tipo": "contexto_rc"
+    "tipo": "contexto_rc",
+    "imagen": "RC-GRUPO-048.svg"
   },
   {
     "id": "RC-GRUPO-049",
     "modulo": "razonamiento_cuantitativo",
     "contexto_compartido": "La siguiente tabla muestra el número de clientes atendidos y el tiempo total de atención (en minutos) en una peluquería durante 5 días:\n\nDía | Clientes atendidos | Tiempo total (min)\nLunes | 8 | 240\nMartes | 10 | 300\nMiércoles | 12 | 360\nJueves | 6 | 180\nViernes | 14 | 420",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla con 5 días (lunes a viernes) mostrando el número de clientes atendidos y el tiempo total de atención en minutos de cada día.",
     "preguntas": [
       {
         "id": "RC-ITEM-072",
@@ -319,7 +320,41 @@
         ]
       }
     ],
-    "tipo": "contexto_rc"
+    "tipo": "contexto_rc",
+    "tabla_filas": {
+      "columnas": [
+        "Día",
+        "Clientes atendidos",
+        "Tiempo total (min)"
+      ],
+      "filas": [
+        [
+          "Lunes",
+          "8",
+          "240"
+        ],
+        [
+          "Martes",
+          "10",
+          "300"
+        ],
+        [
+          "Miércoles",
+          "12",
+          "360"
+        ],
+        [
+          "Jueves",
+          "6",
+          "180"
+        ],
+        [
+          "Viernes",
+          "14",
+          "420"
+        ]
+      ]
+    }
   },
   {
     "id": "RC-GRUPO-050",
@@ -448,7 +483,6 @@
     "modulo": "razonamiento_cuantitativo",
     "contexto_compartido": "En una empresa, el área de Ventas tiene 8 empleados con un salario promedio de $2.200.000, y el área de Logística tiene 32 empleados con un salario promedio de $1.900.000. Un gerente afirma: 'el salario promedio de TODOS los empleados de ambas áreas combinadas es de $2.050.000, ya que es el promedio simple entre $2.200.000 y $1.900.000'.",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla con 2 filas (Ventas, Logística) mostrando el número de empleados y el salario promedio de cada área.",
     "preguntas": [
       {
         "id": "RC-ITEM-077",
@@ -485,7 +519,26 @@
         ]
       }
     ],
-    "tipo": "contexto_rc"
+    "tipo": "contexto_rc",
+    "tabla_filas": {
+      "columnas": [
+        "Área",
+        "Empleados",
+        "Salario promedio"
+      ],
+      "filas": [
+        [
+          "Ventas",
+          "8",
+          "$2.200.000"
+        ],
+        [
+          "Logística",
+          "32",
+          "$1.900.000"
+        ]
+      ]
+    }
   },
   {
     "id": "RC-GRUPO-053",
@@ -573,7 +626,8 @@
         ]
       }
     ],
-    "tipo": "contexto_rc"
+    "tipo": "contexto_rc",
+    "imagen": "RC-GRUPO-054.svg"
   },
   {
     "id": "RC-GRUPO-055",
@@ -745,7 +799,6 @@
     "modulo": "razonamiento_cuantitativo",
     "contexto_compartido": "Una tienda de ropa registró estas ventas mensuales (en millones de pesos) durante los últimos 4 meses: Marzo: 12; Abril: 14; Mayo: 16; Junio: 18. El dueño afirma: 'a este ritmo, en diciembre (6 meses después de junio) tendremos ventas de exactamente 30 millones de pesos'.",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla con las ventas mensuales de marzo a junio, mostrando un aumento constante de 2 millones de pesos por mes.",
     "preguntas": [
       {
         "id": "RC-ITEM-084",
@@ -816,7 +869,31 @@
         ]
       }
     ],
-    "tipo": "contexto_rc"
+    "tipo": "contexto_rc",
+    "tabla_filas": {
+      "columnas": [
+        "Mes",
+        "Ventas (millones de $)"
+      ],
+      "filas": [
+        [
+          "Marzo",
+          "12"
+        ],
+        [
+          "Abril",
+          "14"
+        ],
+        [
+          "Mayo",
+          "16"
+        ],
+        [
+          "Junio",
+          "18"
+        ]
+      ]
+    }
   },
   {
     "id": "RC-GRUPO-059",
@@ -1031,7 +1108,6 @@
     "modulo": "razonamiento_cuantitativo",
     "contexto_compartido": "Un colegio tiene dos jornadas: la jornada mañana tiene 300 estudiantes con un promedio de asistencia del 95%, y la jornada tarde tiene 100 estudiantes con un promedio de asistencia del 85%. La rectora afirma: 'el promedio de asistencia de todo el colegio es del 90%, calculado como el promedio simple entre 95% y 85%'.",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla con 2 filas (jornada mañana, jornada tarde) mostrando el número de estudiantes y el promedio de asistencia de cada jornada.",
     "preguntas": [
       {
         "id": "RC-ITEM-091",
@@ -1068,14 +1144,32 @@
         ]
       }
     ],
-    "tipo": "contexto_rc"
+    "tipo": "contexto_rc",
+    "tabla_filas": {
+      "columnas": [
+        "Jornada",
+        "Estudiantes",
+        "Asistencia promedio"
+      ],
+      "filas": [
+        [
+          "Mañana",
+          "300",
+          "95%"
+        ],
+        [
+          "Tarde",
+          "100",
+          "85%"
+        ]
+      ]
+    }
   },
   {
     "id": "RC-GRUPO-064",
     "modulo": "razonamiento_cuantitativo",
     "contexto_compartido": "Una tabla muestra el número de accidentes de tránsito registrados en una ciudad durante 4 años: 2021: 340; 2022: 310; 2023: 365; 2024: 298.",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla con 4 años (2021 a 2024) mostrando el número de accidentes de tránsito registrados en la ciudad cada año.",
     "preguntas": [
       {
         "id": "RC-ITEM-092",
@@ -1145,7 +1239,31 @@
         ]
       }
     ],
-    "tipo": "contexto_rc"
+    "tipo": "contexto_rc",
+    "tabla_filas": {
+      "columnas": [
+        "Año",
+        "Accidentes de tránsito"
+      ],
+      "filas": [
+        [
+          "2021",
+          "340"
+        ],
+        [
+          "2022",
+          "310"
+        ],
+        [
+          "2023",
+          "365"
+        ],
+        [
+          "2024",
+          "298"
+        ]
+      ]
+    }
   },
   {
     "id": "RC-GRUPO-065",

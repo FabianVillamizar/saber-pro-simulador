@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+
+  <line x1="40" y1="150" x2="260" y2="150" stroke="var(--text)" stroke-width="2" stroke-linecap="round" />
+  <line x1="90" y1="150" x2="90" y2="60" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" />
+  <rect x="82" y="142" width="16" height="16" rx="0" fill="none" stroke="var(--accent)" stroke-width="2" />
+  <line x1="190" y1="150" x2="190" y2="60" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" />
+  <rect x="182" y="142" width="16" height="16" rx="0" fill="none" stroke="var(--accent)" stroke-width="2" />
+  <text x="150" y="180" fill="var(--text-faint)" font-size="10" font-weight="500" text-anchor="middle">ambos forman 90° con la recta horizontal</text>
+
+</svg>

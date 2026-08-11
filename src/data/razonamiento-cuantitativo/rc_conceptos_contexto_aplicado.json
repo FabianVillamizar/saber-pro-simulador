@@ -101,7 +101,17 @@
     "ejemplo": "Con $1.000.000 al 10% anual durante 3 años: interés simple da 1.000.000×(1+0,10×3)=$1.300.000; interés compuesto da 1.000.000×(1,10)³=$1.331.000, un poco más, porque el segundo y tercer año también generan interés sobre los intereses ya ganados.",
     "error_comun": "Se aplica la fórmula de interés simple (multiplicar la tasa por el tiempo) a una situación de interés compuesto, o viceversa, sin identificar primero cuál de los dos modelos describe realmente la situación del problema.",
     "tipo_visual": "grafica_datos",
-    "visual_descripcion": "Gráfica con dos curvas: una línea recta (interés simple) y una curva exponencial (interés compuesto), mostrando cómo se separan cada vez más con el tiempo.",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Años",
+      "ejeY": "Capital ($)",
+      "series": [
+        { "nombre": "Interés simple", "datos": [{ "x": "0", "y": 1000000 }, { "x": "1", "y": 1100000 }, { "x": "2", "y": 1200000 }, { "x": "3", "y": 1300000 }, { "x": "4", "y": 1400000 }, { "x": "5", "y": 1500000 }] },
+        { "nombre": "Interés compuesto", "datos": [{ "x": "0", "y": 1000000 }, { "x": "1", "y": 1100000 }, { "x": "2", "y": 1210000 }, { "x": "3", "y": 1331000 }, { "x": "4", "y": 1464100 }, { "x": "5", "y": 1610510 }] }
+      ],
+      "descripcionAccesible": "Dos curvas de crecimiento de un capital de $1.000.000 al 10% anual: interés simple crece en línea recta hasta $1.500.000 en 5 años, interés compuesto crece de forma exponencial hasta $1.610.510, separándose cada vez más de la recta."
+    },
+    "visual_posicion": "frente",
     "formula_latex": "\\text{Simple: } C(1+rt) \\qquad \\text{Compuesto: } C(1+r)^t",
     "dificultad": "media",
     "prereqs": [
@@ -209,7 +219,15 @@
     "ejemplo": "Si un grupo de 100 personas tiene promedio 8 y otro de 10 personas tiene promedio 2, el promedio combinado real es (100×8+10×2)/110 ≈ 7,45, mucho más cercano al promedio del grupo grande que al promedio simple (que sería 5).",
     "error_comun": "Se calcula el promedio simple de los dos promedios de grupo (ignorando su tamaño), asumiendo que cada grupo 'pesa lo mismo' en el resultado combinado, cuando en realidad el grupo con más elementos debería tener mucho más peso en el cálculo.",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla con las dos sedes, su número de estudiantes, su promedio, y el cálculo del promedio ponderado combinado.",
+    "tabla_filas": {
+      "columnas": ["Sede", "Estudiantes", "Promedio", "Puntos totales"],
+      "filas": [
+        ["A", "20", "4,0", "80"],
+        ["B", "180", "3,0", "540"],
+        ["Combinado", "200", "3,1 (ponderado)", "620"]
+      ]
+    },
+    "visual_posicion": "reverso",
     "formula_latex": "\\bar{x}_{combinado} = \\dfrac{n_1\\bar{x}_1 + n_2\\bar{x}_2}{n_1+n_2}",
     "dificultad": "alta",
     "prereqs": [
@@ -340,8 +358,10 @@
     "regla": "Un **eje truncado** (que no empieza en cero) es una de las formas más comunes de manipular visualmente una gráfica: al 'recortar' la parte baja del eje, diferencias pequeñas en los datos reales se ven como diferencias enormes en la gráfica, aunque los números en sí sean correctos. Siempre conviene revisar en qué valor empieza el eje antes de interpretar qué tan grande es una diferencia visual.",
     "ejemplo": "Dos barras con valores 81 y 84 se verían casi iguales en una gráfica que empieza en 0, pero si el eje empieza en 80, esa misma diferencia de 3 unidades puede hacer que una barra se vea el triple de alta que la otra.",
     "error_comun": "Se interpreta la diferencia de altura entre dos barras como proporcional a la diferencia real entre los valores, sin revisar primero en qué número empieza el eje vertical de la gráfica.",
-    "tipo_visual": "grafica_datos",
+    "tipo_visual": "diagrama_esquematico",
     "visual_descripcion": "Dos versiones de la misma gráfica de barras con los mismos datos: una con eje desde 0 (diferencias moderadas) y otra con eje truncado desde 80 (diferencias exageradas).",
+    "imagen": "RC-CTX-016.svg",
+    "visual_posicion": "reverso",
     "formula_latex": "",
     "dificultad": "media",
     "prereqs": []
@@ -360,8 +380,10 @@
     "regla": "Los mismos datos numéricos pueden producir impresiones visuales completamente distintas dependiendo de la **escala del eje** que se elija; antes de sacar una conclusión de 'qué tan grande' es un cambio o diferencia a partir de una gráfica, conviene fijarse en los valores numéricos exactos del eje, no solo en el tamaño relativo de las barras.",
     "ejemplo": "Una gráfica que quiere mostrar un 'crecimiento espectacular' puede usar un eje truncado para que un aumento real del 2% se vea como una barra mucho más alta que la anterior.",
     "error_comun": "Se juzga la magnitud de un cambio solo por la impresión visual de la gráfica (qué tan alta se ve una barra comparada con otra), sin revisar los números reales del eje, lo que hace a la persona vulnerable a gráficas diseñadas para exagerar o minimizar diferencias.",
-    "tipo_visual": "grafica_datos",
+    "tipo_visual": "diagrama_esquematico",
     "visual_descripcion": "Dos gráficas de barras lado a lado con los mismos cuatro valores de ventas, una con eje desde 0 y otra con eje truncado, mostrando impresiones visuales muy distintas.",
+    "imagen": "RC-CTX-017.svg",
+    "visual_posicion": "reverso",
     "formula_latex": "",
     "dificultad": "alta",
     "prereqs": [
@@ -404,8 +426,10 @@
     "regla": "Las **gráficas de doble eje** (dos variables distintas, cada una con su propia escala vertical) pueden crear una impresión visual de relación o sincronía entre dos variables que en realidad no está tan fuertemente relacionada, simplemente porque quien hizo la gráfica ajustó cada escala para que las líneas coincidieran visualmente; siempre conviene mirar los valores numéricos reales de ambas variables, no solo la forma visual de las curvas superpuestas.",
     "ejemplo": "Superponer la evolución del precio de una acción y de una variable completamente ajena (como el número de goles de un equipo de fútbol) en un gráfico de doble eje, ajustando las escalas, puede hacer que ambas líneas 'se muevan parecido' sin que exista ninguna relación real entre ellas.",
     "error_comun": "Se concluye que dos variables están fuertemente relacionadas solo porque sus líneas se ven parecidas en un gráfico de doble eje, sin considerar que las escalas de cada eje se pudieron ajustar independientemente para lograr esa apariencia visual.",
-    "tipo_visual": "grafica_datos",
+    "tipo_visual": "diagrama_esquematico",
     "visual_descripcion": "Gráfica con dos líneas superpuestas usando ejes verticales distintos (uno a la izquierda, otro a la derecha), mostrando cómo pueden parecer sincronizadas.",
+    "imagen": "RC-CTX-019.svg",
+    "visual_posicion": "reverso",
     "formula_latex": "",
     "dificultad": "alta",
     "prereqs": [

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-52 0 404 220">
+
+  <polygon points="60,160 180,160 180,260 60,260" fill="none" stroke="var(--text)" stroke-width="2" /><polygon points="60,160 90,130 210,130 180,160" fill="none" stroke="var(--text)" stroke-width="2" /><polygon points="180,160 210,130 210,230 180,260" fill="none" stroke="var(--text)" stroke-width="2" />
+  <text x="120" y="190" fill="var(--text)" font-size="10" font-weight="500" text-anchor="middle">① frente</text>
+  <text x="120" y="90" fill="var(--text)" font-size="10" font-weight="500" text-anchor="middle">② arriba</text>
+  <text x="200" y="130" fill="var(--text)" font-size="10" font-weight="500" text-anchor="middle">③ lado</text>
+  <text x="150" y="205" fill="var(--text-faint)" font-size="10" font-weight="500" text-anchor="middle">6 caras rectangulares (frente/atrás, arriba/abajo, 2 lados) → área total</text>
+
+</svg>

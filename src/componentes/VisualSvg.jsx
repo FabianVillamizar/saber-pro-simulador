@@ -1,12 +1,15 @@
 import './VisualSvg.css'
 
-// SVGs generados a mano en src/assets/visuals/pensamiento-cientifico/, uno
-// por ítem (diagrama_esquematico / estructura_quimica). Se inyectan como
+// SVGs generados a mano en src/assets/visuals/<modulo>/, uno por ítem
+// (diagrama_esquematico / estructura_quimica), en una subcarpeta por módulo
+// (pensamiento-cientifico, razonamiento-cuantitativo, ...). Se inyectan como
 // markup en el DOM (no <img src>) para que sus `fill`/`stroke` en
 // var(--text)/var(--accent)/etc. resuelvan contra el tema activo de la
 // página — un SVG cargado vía <img> es un documento aparte y no heredaría
-// esas custom properties.
-const svgsCrudos = import.meta.glob('../assets/visuals/pensamiento-cientifico/*.svg', {
+// esas custom properties. Los IDs de ítem son únicos entre módulos (prefijo
+// distinto, ej. PC- vs RC-), así que indexar solo por nombre de archivo
+// (sin la carpeta) no genera colisiones.
+const svgsCrudos = import.meta.glob('../assets/visuals/*/*.svg', {
   query: '?raw',
   import: 'default',
   eager: true,

@@ -14,10 +14,35 @@
     "ejemplo": "Si una tienda vendió 40 camisas azules, 25 verdes y 15 rojas en una semana, una gráfica de barras mostraría tres barras de alturas 40, 25 y 15.",
     "error_comun": "Se confunde la gráfica de barras con el histograma porque ambas usan rectángulos: el histograma agrupa datos numéricos continuos en intervalos (por eso las barras van pegadas, sin espacio), mientras que la gráfica de barras compara categorías separadas (por eso lleva espacio entre barras).",
     "tipo_visual": "grafica_datos",
-    "visual_descripcion": "Gráfica de barras verticales con tres categorías (camisas azul, verde, rojo) y alturas proporcionales a 40, 25 y 15.",
     "formula_latex": "",
     "dificultad": "baja",
-    "prereqs": []
+    "prereqs": [],
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "barras",
+      "ejeX": "Color de camisa",
+      "ejeY": "Cantidad vendida",
+      "series": [
+        {
+          "nombre": "Camisas vendidas",
+          "datos": [
+            {
+              "x": "Azul",
+              "y": 40
+            },
+            {
+              "x": "Verde",
+              "y": 25
+            },
+            {
+              "x": "Rojo",
+              "y": 15
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Tres barras verticales de alturas 40, 25 y 15 para camisas azules, verdes y rojas."
+    },
+    "visual_posicion": "reverso"
   },
   {
     "id": "RC-EST-002",
@@ -34,12 +59,61 @@
     "ejemplo": "En una tabla de ventas por mes y por producto, la proporción de laptops vendidas en marzo se calcula como (laptops vendidas en marzo) ÷ (total de productos vendidos en marzo), no ÷ (total de laptops vendidas en el año).",
     "error_comun": "El error más común es dividir entre el 'total general' de la tabla (todos los años, todas las categorías) en lugar del total específico de la fila o columna que pide la pregunta, lo que da una proporción mucho más pequeña de lo real.",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla con años en columnas y tipos de accidente (leve, grave, fatal, total) en filas.",
     "formula_latex": "",
     "dificultad": "media",
     "prereqs": [
       "RC-EST-001"
-    ]
+    ],
+    "tabla_filas": {
+      "columnas": [
+        "Tipo",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020"
+      ],
+      "filas": [
+        [
+          "Leve",
+          "120",
+          "130",
+          "125",
+          "140",
+          "135",
+          "90"
+        ],
+        [
+          "Grave",
+          "40",
+          "35",
+          "38",
+          "42",
+          "37",
+          "25"
+        ],
+        [
+          "Fatal",
+          "10",
+          "12",
+          "9",
+          "11",
+          "8",
+          "6"
+        ],
+        [
+          "Total",
+          "170",
+          "177",
+          "172",
+          "193",
+          "180",
+          "121"
+        ]
+      ]
+    },
+    "visual_posicion": "frente"
   },
   {
     "id": "RC-EST-003",
@@ -61,7 +135,9 @@
     "dificultad": "baja",
     "prereqs": [
       "RC-EST-001"
-    ]
+    ],
+    "imagen": "RC-EST-003.svg",
+    "visual_posicion": "reverso"
   },
   {
     "id": "RC-EST-004",
@@ -78,12 +154,41 @@
     "ejemplo": "Un sector de 180° representa el 50% del total (la mitad del círculo); uno de 36° representa el 10%.",
     "error_comun": "Se confunde el ángulo del sector con su porcentaje directamente (pensar que 90° = 90%), olvidando que hay que dividir entre los 360° totales del círculo antes de interpretar el valor como parte del 100%.",
     "tipo_visual": "grafica_datos",
-    "visual_descripcion": "Gráfica circular con cuatro sectores de presupuesto familiar, uno de ellos marcado con 90°.",
     "formula_latex": "\\%\\ sector = \\dfrac{\\text{ángulo del sector}}{360°} \\times 100",
     "dificultad": "media",
     "prereqs": [
       "RC-EST-001"
-    ]
+    ],
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "circular",
+      "ejeX": null,
+      "ejeY": null,
+      "series": [
+        {
+          "nombre": "Presupuesto familiar",
+          "datos": [
+            {
+              "x": "Alimentación (90°)",
+              "y": 25
+            },
+            {
+              "x": "Vivienda",
+              "y": 35
+            },
+            {
+              "x": "Transporte",
+              "y": 20
+            },
+            {
+              "x": "Ahorro",
+              "y": 20
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Gráfica circular con cuatro sectores de presupuesto familiar; el sector de alimentación está marcado con 90°."
+    },
+    "visual_posicion": "frente"
   },
   {
     "id": "RC-EST-005",
@@ -99,13 +204,15 @@
     "regla": "En una **gráfica de barras apiladas**, cada barra vertical se divide en segmentos que suman su altura total; para hallar el valor de una sub-categoría específica (no la primera desde la base) hay que **restar** los límites del segmento, no leer solo su posición final en el eje.",
     "ejemplo": "Si una barra apilada llega hasta 80 y el segmento inferior (categoría A) termina en 50, el segmento superior (categoría B) mide 80 − 50 = 30, no 80.",
     "error_comun": "Se lee el valor superior del segmento como si fuera el valor de esa sub-categoría (leer 'B = 80' en el ejemplo anterior), sin restar el punto donde empieza el segmento en el eje vertical.",
-    "tipo_visual": "grafica_datos",
+    "tipo_visual": "diagrama_esquematico",
     "visual_descripcion": "Gráfica de barras apiladas con dos categorías por barra (A en la base, B encima) y el eje vertical marcado.",
     "formula_latex": "",
     "dificultad": "media",
     "prereqs": [
       "RC-EST-001"
-    ]
+    ],
+    "imagen": "RC-EST-005.svg",
+    "visual_posicion": "reverso"
   },
   {
     "id": "RC-EST-006",
@@ -125,7 +232,9 @@
     "visual_descripcion": "Diagrama de Venn con dos círculos (A y B) sombreados por completo para representar la unión.",
     "formula_latex": "A \\cup B",
     "dificultad": "baja",
-    "prereqs": []
+    "prereqs": [],
+    "imagen": "RC-EST-006.svg",
+    "visual_posicion": "reverso"
   },
   {
     "id": "RC-EST-007",
@@ -147,7 +256,9 @@
     "dificultad": "baja",
     "prereqs": [
       "RC-EST-006"
-    ]
+    ],
+    "imagen": "RC-EST-007.svg",
+    "visual_posicion": "reverso"
   },
   {
     "id": "RC-EST-008",
@@ -170,7 +281,9 @@
     "prereqs": [
       "RC-EST-006",
       "RC-EST-007"
-    ]
+    ],
+    "imagen": "RC-EST-008.svg",
+    "visual_posicion": "frente"
   },
   {
     "id": "RC-EST-009",
@@ -193,7 +306,9 @@
     "prereqs": [
       "RC-EST-006",
       "RC-EST-007"
-    ]
+    ],
+    "imagen": "RC-EST-009.svg",
+    "visual_posicion": "reverso"
   },
   {
     "id": "RC-EST-010",
@@ -216,7 +331,9 @@
     "prereqs": [
       "RC-EST-007",
       "RC-EST-009"
-    ]
+    ],
+    "imagen": "RC-EST-010.svg",
+    "visual_posicion": "reverso"
   },
   {
     "id": "RC-EST-011",
@@ -236,7 +353,9 @@
     "visual_descripcion": "Diagrama de árbol mostrando 4 ramas de entrada, cada una dividida en 3 ramas de plato fuerte.",
     "formula_latex": "\\text{total} = m \\times n",
     "dificultad": "baja",
-    "prereqs": []
+    "prereqs": [],
+    "imagen": "RC-EST-011.svg",
+    "visual_posicion": "reverso"
   },
   {
     "id": "RC-EST-012",
@@ -493,12 +612,44 @@
     "ejemplo": "El promedio de las edades {8, 9, 10, 45} es 18, un número que no representa ni a los niños (8-10 años) ni al adulto (45 años) del grupo.",
     "error_comun": "Se asume que el promedio siempre representa 'lo normal' o 'lo más común' de un conjunto de datos, sin revisar primero si hay valores extremos que puedan estar distorsionando ese resultado.",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla con los 5 salarios y el promedio calculado al final.",
     "formula_latex": "",
     "dificultad": "media",
     "prereqs": [
       "RC-EST-021"
-    ]
+    ],
+    "tabla_filas": {
+      "columnas": [
+        "Empleado",
+        "Salario mensual"
+      ],
+      "filas": [
+        [
+          "Empleado 1",
+          "$1.200.000"
+        ],
+        [
+          "Empleado 2",
+          "$1.300.000"
+        ],
+        [
+          "Empleado 3",
+          "$1.250.000"
+        ],
+        [
+          "Empleado 4",
+          "$1.280.000"
+        ],
+        [
+          "Dueño",
+          "$9.500.000"
+        ],
+        [
+          "Promedio",
+          "$2.906.000"
+        ]
+      ]
+    },
+    "visual_posicion": "frente"
   },
   {
     "id": "RC-EST-024",
@@ -515,12 +666,46 @@
     "ejemplo": "Si el promedio es 50 y los datos son 48 y 55, el más cercano es 48 (distancia 2) aunque 55 sea mayor que 48 en valor absoluto.",
     "error_comun": "Se confunde 'más cercano al promedio' con 'el valor más pequeño' y 'más lejano' con 'el valor más grande', sin calcular realmente la distancia (resta) entre cada dato y el promedio; esto falla especialmente cuando hay datos tanto por encima como por debajo del promedio.",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla con las 5 semanas, sus ventas y la distancia de cada una al promedio de 340.",
     "formula_latex": "",
     "dificultad": "alta",
     "prereqs": [
       "RC-EST-021"
-    ]
+    ],
+    "tabla_filas": {
+      "columnas": [
+        "Semana",
+        "Ventas",
+        "Distancia al promedio (340)"
+      ],
+      "filas": [
+        [
+          "1",
+          "320",
+          "20"
+        ],
+        [
+          "2",
+          "290",
+          "50"
+        ],
+        [
+          "3",
+          "410",
+          "70"
+        ],
+        [
+          "4",
+          "300",
+          "40"
+        ],
+        [
+          "5",
+          "380",
+          "40"
+        ]
+      ]
+    },
+    "visual_posicion": "reverso"
   },
   {
     "id": "RC-EST-025",
@@ -537,13 +722,55 @@
     "ejemplo": "El conjunto {48, 50, 52} y el conjunto {10, 50, 90} tienen el mismo promedio (50), pero el primero tiene rango 4 (datos muy parecidos) y el segundo rango 80 (datos muy dispersos).",
     "error_comun": "Se asume que 'promedio igual' implica 'datos parecidos', sin revisar el rango u otra medida de dispersión, lo que puede llevar a conclusiones erróneas sobre qué tan consistentes o variables son en realidad los datos comparados.",
     "tipo_visual": "grafica_datos",
-    "visual_descripcion": "Dos conjuntos de puntos en una recta numérica, ambos centrados en 50 pero con dispersión muy distinta.",
     "formula_latex": "",
     "dificultad": "media",
     "prereqs": [
       "RC-EST-021",
       "RC-EST-022"
-    ]
+    ],
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "dispersion",
+      "ejeX": "Valor",
+      "ejeY": "Grupo",
+      "series": [
+        {
+          "nombre": "Conjunto {48, 50, 52} (poco disperso)",
+          "datos": [
+            {
+              "x": 48,
+              "y": 1
+            },
+            {
+              "x": 50,
+              "y": 1
+            },
+            {
+              "x": 52,
+              "y": 1
+            }
+          ]
+        },
+        {
+          "nombre": "Conjunto {10, 50, 90} (muy disperso)",
+          "datos": [
+            {
+              "x": 10,
+              "y": 2
+            },
+            {
+              "x": 50,
+              "y": 2
+            },
+            {
+              "x": 90,
+              "y": 2
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Dos conjuntos de puntos en una recta numérica, ambos centrados en 50, pero el segundo mucho más disperso que el primero."
+    },
+    "visual_posicion": "reverso"
   },
   {
     "id": "RC-EST-026",
@@ -563,7 +790,9 @@
     "visual_descripcion": "Diagrama con un círculo grande (población) y un círculo pequeño dentro (muestra).",
     "formula_latex": "",
     "dificultad": "baja",
-    "prereqs": []
+    "prereqs": [],
+    "imagen": "RC-EST-026.svg",
+    "visual_posicion": "reverso"
   },
   {
     "id": "RC-EST-027",
@@ -671,10 +900,42 @@
     "ejemplo": "Ante la afirmación 'todos los meses tuvieron ventas superiores a $1.000.000', basta encontrar un solo mes con ventas menores en la tabla para descartarla, sin necesidad de revisar los demás meses.",
     "error_comun": "Se revisan las afirmaciones en el orden en que aparecen, gastando tiempo en verificar cálculos largos antes de notar que otra afirmación (más fácil de refutar) ya contiene el error que se busca.",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla genérica de datos mensuales con varias afirmaciones listadas al lado para evaluar verdadero/falso.",
     "formula_latex": "",
     "dificultad": "media",
-    "prereqs": []
+    "prereqs": [],
+    "tabla_filas": {
+      "columnas": [
+        "Mes",
+        "Ventas"
+      ],
+      "filas": [
+        [
+          "Enero",
+          "$980.000"
+        ],
+        [
+          "Febrero",
+          "$1.050.000"
+        ],
+        [
+          "Marzo",
+          "$1.120.000"
+        ],
+        [
+          "Abril",
+          "$990.000"
+        ],
+        [
+          "Mayo",
+          "$1.200.000"
+        ],
+        [
+          "Junio",
+          "$1.080.000"
+        ]
+      ]
+    },
+    "visual_posicion": "frente"
   },
   {
     "id": "RC-EST-032",
@@ -691,10 +952,46 @@
     "ejemplo": "En una tabla de ventas por producto y por trimestre, la celda 'total del trimestre 2' no es lo mismo que la celda 'total del producto A en todo el año'; usarlas de forma intercambiada da resultados incorrectos.",
     "error_comun": "Se usa una fila o columna de 'total' pensando que representa el total general de toda la tabla, cuando en realidad es el total de solo una fila o columna específica (por ejemplo, el total de un solo año dentro de una tabla que cubre varios años).",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla con filas de categorías, columnas de periodos y una fila/columna adicional marcada como 'total'.",
     "formula_latex": "",
     "dificultad": "media",
-    "prereqs": []
+    "prereqs": [],
+    "tabla_filas": {
+      "columnas": [
+        "Producto",
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "Total"
+      ],
+      "filas": [
+        [
+          "A",
+          "20",
+          "25",
+          "22",
+          "28",
+          "95"
+        ],
+        [
+          "B",
+          "15",
+          "18",
+          "17",
+          "20",
+          "70"
+        ],
+        [
+          "Total",
+          "35",
+          "43",
+          "39",
+          "48",
+          "165"
+        ]
+      ]
+    },
+    "visual_posicion": "reverso"
   },
   {
     "id": "RC-EST-033",
@@ -711,10 +1008,38 @@
     "ejemplo": "Para saber si las ventas de zapatos subieron de enero a marzo, se lee la fila de 'zapatos' en las columnas de enero y marzo; para saber qué producto vendió más en marzo, se lee la columna de 'marzo' comparando todas las filas.",
     "error_comun": "Se comparan valores de una fila con valores de una columna sin darse cuenta (por ejemplo, comparar las ventas de zapatos en enero con las ventas totales de marzo), produciendo una comparación que no responde la pregunta planteada.",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla de doble entrada con productos en filas y meses en columnas, con una fila y una columna resaltadas.",
     "formula_latex": "",
     "dificultad": "media",
-    "prereqs": []
+    "prereqs": [],
+    "tabla_filas": {
+      "columnas": [
+        "Producto",
+        "Enero",
+        "Febrero",
+        "Marzo"
+      ],
+      "filas": [
+        [
+          "Zapatos",
+          "80",
+          "85",
+          "95"
+        ],
+        [
+          "Camisas",
+          "120",
+          "110",
+          "130"
+        ],
+        [
+          "Pantalones",
+          "60",
+          "65",
+          "58"
+        ]
+      ]
+    },
+    "visual_posicion": "frente"
   },
   {
     "id": "RC-EST-034",
@@ -731,10 +1056,34 @@
     "ejemplo": "Si una columna muestra 'ingresos (en millones de pesos)' y otra muestra 'gastos (en miles de pesos)', comparar directamente los números sin convertir la escala llevaría a pensar, por error, que los gastos son mil veces menores de lo que realmente son.",
     "error_comun": "Se comparan los números de la tabla tal como aparecen, sin leer las notas al pie o el encabezado que indican la unidad o escala, asumiendo que todos los valores ya están en la misma unidad cuando la tabla en realidad los presenta en escalas distintas.",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla con dos columnas en escalas distintas indicadas en el encabezado ('millones' vs 'miles').",
     "formula_latex": "",
     "dificultad": "media",
-    "prereqs": []
+    "prereqs": [],
+    "tabla_filas": {
+      "columnas": [
+        "Concepto",
+        "Ingresos (millones $)",
+        "Gastos (miles $)"
+      ],
+      "filas": [
+        [
+          "Enero",
+          "12",
+          "850"
+        ],
+        [
+          "Febrero",
+          "14",
+          "920"
+        ],
+        [
+          "Marzo",
+          "13",
+          "870"
+        ]
+      ]
+    },
+    "visual_posicion": "reverso"
   },
   {
     "id": "RC-EST-035",
@@ -751,12 +1100,28 @@
     "ejemplo": "Ver la tabla '2020: 40 casos, 2021: 25 casos' y afirmar que 'los casos aumentaron de 2020 a 2021' es un error de lectura invertida, porque en realidad disminuyeron.",
     "error_comun": "Se lee bien el dato numérico de cada celda pero se equivoca la dirección de la comparación (decir 'A es mayor que B' cuando en realidad B es mayor que A), un descuido fácil de cometer cuando se lee rápido bajo presión de tiempo.",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla simple con ventas por región (Norte, Sur) para el año 2023.",
     "formula_latex": "",
     "dificultad": "media",
     "prereqs": [
       "RC-EST-033"
-    ]
+    ],
+    "tabla_filas": {
+      "columnas": [
+        "Región",
+        "Ventas 2023"
+      ],
+      "filas": [
+        [
+          "Norte",
+          "1.200"
+        ],
+        [
+          "Sur",
+          "1.500"
+        ]
+      ]
+    },
+    "visual_posicion": "frente"
   },
   {
     "id": "RC-EST-036",
@@ -773,12 +1138,45 @@
     "ejemplo": "Si las ventas anuales de una tienda fueron 100, 115, 130, 145 y 160 (en miles), se observa una tendencia creciente y aproximadamente constante de +15 cada año.",
     "error_comun": "Se concluye una tendencia comparando solo el primer y el último dato de la serie, ignorando que los valores intermedios podrían mostrar subidas y bajadas que contradicen esa conclusión simplificada.",
     "tipo_visual": "grafica_datos",
-    "visual_descripcion": "Gráfica de línea con 5 puntos anuales mostrando una tendencia creciente aproximadamente constante.",
     "formula_latex": "",
     "dificultad": "baja",
     "prereqs": [
       "RC-EST-001"
-    ]
+    ],
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Año",
+      "ejeY": "Ventas (miles $)",
+      "series": [
+        {
+          "nombre": "Ventas anuales",
+          "datos": [
+            {
+              "x": 1,
+              "y": 100
+            },
+            {
+              "x": 2,
+              "y": 115
+            },
+            {
+              "x": 3,
+              "y": 130
+            },
+            {
+              "x": 4,
+              "y": 145
+            },
+            {
+              "x": 5,
+              "y": 160
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Línea con 5 puntos anuales mostrando una tendencia creciente aproximadamente constante (+15 cada año)."
+    },
+    "visual_posicion": "reverso"
   },
   {
     "id": "RC-EST-037",
@@ -795,12 +1193,73 @@
     "ejemplo": "Saber que la temperatura ha subido cada década no permite afirmar 'el próximo julio hará exactamente 34,7 °C'; solo permite anticipar que probablemente seguirá siendo alta o algo mayor que antes.",
     "error_comun": "Se trata una tendencia (un patrón general) como si fuera una fórmula exacta que garantiza un resultado numérico preciso en el futuro, sin reconocer que factores no reflejados en los datos históricos pueden alterar el resultado real.",
     "tipo_visual": "grafica_datos",
-    "visual_descripcion": "Gráfica de línea de ventas mensuales con diciembre resaltado, y un punto de interrogación en el diciembre futuro.",
     "formula_latex": "",
     "dificultad": "alta",
     "prereqs": [
       "RC-EST-036"
-    ]
+    ],
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "barras",
+      "ejeX": "Mes",
+      "ejeY": "Ventas (unidades)",
+      "series": [
+        {
+          "nombre": "Ventas mensuales",
+          "datos": [
+            {
+              "x": "Ene",
+              "y": 150
+            },
+            {
+              "x": "Feb",
+              "y": 140
+            },
+            {
+              "x": "Mar",
+              "y": 155
+            },
+            {
+              "x": "Abr",
+              "y": 148
+            },
+            {
+              "x": "May",
+              "y": 160
+            },
+            {
+              "x": "Jun",
+              "y": 158
+            },
+            {
+              "x": "Jul",
+              "y": 165
+            },
+            {
+              "x": "Ago",
+              "y": 170
+            },
+            {
+              "x": "Sep",
+              "y": 175
+            },
+            {
+              "x": "Oct",
+              "y": 190
+            },
+            {
+              "x": "Nov",
+              "y": 210
+            },
+            {
+              "x": "Dic",
+              "y": 245
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Ventas mensuales históricas con diciembre siempre como el mes más alto."
+    },
+    "visual_posicion": "frente"
   },
   {
     "id": "RC-EST-038",
@@ -816,14 +1275,16 @@
     "regla": "Predecir un rango o intervalo razonable (por ejemplo, 'probablemente entre 140 y 160 unidades') es una conclusión más cuidadosa y defendible que predecir un valor único exacto, porque reconoce la incertidumbre natural de cualquier fenómeno que depende de más factores que los reflejados en los datos históricos.",
     "ejemplo": "En lugar de predecir 'el próximo mes se venderán exactamente 152 unidades', es más razonable decir 'se espera que las ventas estén entre 140 y 160 unidades, según la tendencia reciente'.",
     "error_comun": "Se prefiere dar un número único porque suena más 'seguro' o 'preciso', sin notar que un intervalo de valores probables representa mejor lo que realmente se puede afirmar a partir de una tendencia histórica.",
-    "tipo_visual": "grafica_datos",
+    "tipo_visual": "diagrama_esquematico",
     "visual_descripcion": "Gráfica de línea con una banda sombreada al final representando el rango de predicción futura.",
     "formula_latex": "",
     "dificultad": "media",
     "prereqs": [
       "RC-EST-036",
       "RC-EST-037"
-    ]
+    ],
+    "imagen": "RC-EST-038.svg",
+    "visual_posicion": "reverso"
   },
   {
     "id": "RC-EST-039",
@@ -839,14 +1300,16 @@
     "regla": "Las tendencias, especialmente las de crecimiento muy rápido, casi nunca se mantienen indefinidamente: suelen encontrar límites naturales (recursos, población, capacidad) que las hacen frenarse o estabilizarse. Extender una tendencia mucho más allá del período observado, sin considerar esos límites, es una extrapolación indebida.",
     "ejemplo": "Una planta que duplica su altura cada semana durante el primer mes no seguirá duplicándose para siempre; eventualmente su crecimiento se estabiliza por límites biológicos, aunque los datos iniciales muestren un patrón de duplicación constante.",
     "error_comun": "Se proyecta una tasa de crecimiento observada en un período corto hacia un período mucho más largo, sin considerar que factores externos (saturación, límites físicos, cambios de contexto) probablemente alterarán ese patrón antes de llegar tan lejos.",
-    "tipo_visual": "grafica_datos",
-    "visual_descripcion": "Gráfica de línea mostrando un crecimiento exponencial en los primeros 3 años, con una línea punteada especulativa hacia el año 10 que se dispara sin límite.",
+    "tipo_visual": "diagrama_esquematico",
     "formula_latex": "",
     "dificultad": "alta",
     "prereqs": [
       "RC-EST-036",
       "RC-EST-037"
-    ]
+    ],
+    "imagen": "RC-EST-039.svg",
+    "visual_posicion": "frente",
+    "visual_descripcion": "Gráfica de línea mostrando un crecimiento exponencial en los primeros 3 años, con una línea punteada especulativa hacia el año 10 que se dispara sin límite."
   },
   {
     "id": "RC-EST-040",
@@ -862,13 +1325,15 @@
     "regla": "Extrapolar (extender una tendencia más allá de los datos observados) es más confiable cuando se predice un período cercano y se espera que las condiciones sigan siendo similares a las del pasado reciente; entre más lejano sea el período que se quiere predecir, o entre más variable haya sido la tendencia histórica, menos confiable se vuelve la extrapolación.",
     "ejemplo": "Predecir las ventas del próximo mes a partir de los últimos 6 meses (todos similares) es razonable; predecir las ventas de dentro de 15 años a partir de esos mismos 6 meses no lo es, porque muchas condiciones pueden cambiar en 15 años.",
     "error_comun": "Se trata la extrapolación a corto plazo y a largo plazo con el mismo nivel de confianza, sin reconocer que entre más lejano es el horizonte de la predicción, mayor es la incertidumbre y menor la confiabilidad de extender la misma tendencia.",
-    "tipo_visual": "grafica_datos",
-    "visual_descripcion": "Gráfica de línea con datos históricos sólidos y dos posibles extensiones futuras: una línea punteada cercana (más confiable) y otra lejana (más incierta, con una zona sombreada de incertidumbre creciente).",
+    "tipo_visual": "diagrama_esquematico",
     "formula_latex": "",
     "dificultad": "media",
     "prereqs": [
       "RC-EST-036",
       "RC-EST-038"
-    ]
+    ],
+    "imagen": "RC-EST-040.svg",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Gráfica de línea con datos históricos sólidos y dos posibles extensiones futuras: una línea punteada cercana (más confiable) y otra lejana (más incierta, con una zona sombreada de incertidumbre creciente)."
   }
 ]

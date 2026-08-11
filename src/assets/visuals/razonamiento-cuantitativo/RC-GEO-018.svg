@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-46 0 392 220">
+
+  <line x1="40" y1="30" x2="40" y2="190" stroke="var(--text-faint)" stroke-width="2" stroke-linecap="round" />
+  <line x1="30" y1="180" x2="270" y2="180" stroke="var(--text-faint)" stroke-width="2" stroke-linecap="round" />
+  <line x1="40" y1="180" x2="120" y2="140" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round" />
+  <line x1="40" y1="180" x2="120" y2="180" stroke="var(--text-sub)" stroke-width="2" stroke-linecap="round" stroke-dasharray="5,5" />
+  <line x1="120" y1="180" x2="120" y2="140" stroke="var(--text-sub)" stroke-width="2" stroke-linecap="round" stroke-dasharray="5,5" />
+  <text x="80" y="195" fill="var(--text-sub)" font-size="9" font-weight="500" text-anchor="middle">avanza 4</text>
+  <line x1="70" y1="60" x2="150" y2="20" stroke="var(--exito)" stroke-width="2.5" stroke-linecap="round" />
+  <line x1="70" y1="60" x2="150" y2="60" stroke="var(--text-sub)" stroke-width="2" stroke-linecap="round" stroke-dasharray="5,5" />
+  <line x1="150" y1="60" x2="150" y2="20" stroke="var(--text-sub)" stroke-width="2" stroke-linecap="round" stroke-dasharray="5,5" />
+  <text x="200" y="130" fill="var(--text-faint)" font-size="10" font-weight="500" text-anchor="middle">ambos suben 2 mientras avanzan 4 → misma inclinación</text>
+
+</svg>

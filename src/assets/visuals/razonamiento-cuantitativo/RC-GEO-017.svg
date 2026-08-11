@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 0 312 220">
+
+  <line x1="40" y1="30" x2="40" y2="190" stroke="var(--text-faint)" stroke-width="2" stroke-linecap="round" />
+  <line x1="30" y1="180" x2="270" y2="180" stroke="var(--text-faint)" stroke-width="2" stroke-linecap="round" />
+  <circle cx="70" cy="150" r="5" fill="var(--text)" />
+  <text x="70" y="168" fill="var(--text)" font-size="10" font-weight="500" text-anchor="middle">(1,1)</text>
+  <circle cx="190" cy="60" r="5" fill="var(--text)" />
+  <text x="190" y="48" fill="var(--text)" font-size="10" font-weight="500" text-anchor="middle">(4,5)</text>
+  <line x1="70" y1="150" x2="190" y2="60" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round" />
+  <line x1="70" y1="150" x2="190" y2="150" stroke="var(--exito)" stroke-width="2" stroke-linecap="round" stroke-dasharray="5,5" />
+  <line x1="190" y1="150" x2="190" y2="60" stroke="var(--exito)" stroke-width="2" stroke-linecap="round" stroke-dasharray="5,5" />
+  <text x="130" y="165" fill="var(--exito)" font-size="9" font-weight="500" text-anchor="middle">diferencia en x</text>
+  <text x="210" y="105" fill="var(--exito)" font-size="9" font-weight="500" text-anchor="start">diferencia en y</text>
+  <text x="150" y="200" fill="var(--text-faint)" font-size="10" font-weight="500" text-anchor="middle">distancia = hipotenusa del triángulo rectángulo formado</text>
+
+</svg>

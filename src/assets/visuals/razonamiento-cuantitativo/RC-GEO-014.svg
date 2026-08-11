@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-20 0 340 180">
+
+  <line x1="40" y1="130" x2="180" y2="130" stroke="var(--text)" stroke-width="2" stroke-linecap="round" />
+  <line x1="180" y1="130" x2="260" y2="130" stroke="var(--text)" stroke-width="2" stroke-linecap="round" stroke-dasharray="5,5" />
+  <line x1="40" y1="130" x2="260" y2="130" stroke="var(--text-faint)" stroke-width="2" stroke-linecap="round" />
+  <text x="110" y="148" fill="var(--text)" font-size="11" font-weight="500" text-anchor="middle">3</text>
+  <text x="220" y="148" fill="var(--text)" font-size="11" font-weight="500" text-anchor="middle">4</text>
+  <text x="150" y="110" fill="var(--warning)" font-size="10" font-weight="500" text-anchor="middle">5 (el tercer lado, en línea recta)</text>
+  <text x="150" y="165" fill="var(--text-faint)" font-size="9" font-weight="500" text-anchor="middle">caso límite: 3+4=7 apenas mayor que 5 — si fuera igual, no cerraría</text>
+
+</svg>

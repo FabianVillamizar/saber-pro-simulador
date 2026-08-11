@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220">
+
+  <line x1="40" y1="190" x2="40" y2="30" stroke="var(--border)" stroke-width="2" stroke-linecap="round" />
+  <line x1="40" y1="190" x2="370" y2="190" stroke="var(--border)" stroke-width="2" stroke-linecap="round" />
+  <polyline points="60,160 100,145 140,130 180,118" fill="none" stroke="var(--text)" stroke-width="2" />
+  <polyline points="180,118 215,108" fill="none" stroke="var(--exito)" stroke-width="2.5" stroke-dasharray="4,4" />
+  <text x="215" y="98" fill="var(--exito)" font-size="10" font-weight="500" text-anchor="start">corto plazo — más confiable</text>
+  <polygon points="215,60 340,20 340,150 215,140" fill="var(--warning)" opacity="0.18" />
+  <polyline points="180,118 340,85" fill="none" stroke="var(--warning)" stroke-width="2.5" stroke-dasharray="4,4" />
+  <text x="340" y="75" fill="var(--warning)" font-size="10" font-weight="500" text-anchor="end">largo plazo — más incierto</text>
+
+</svg>

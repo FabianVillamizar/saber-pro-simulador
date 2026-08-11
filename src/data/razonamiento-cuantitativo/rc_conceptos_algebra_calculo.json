@@ -34,10 +34,44 @@
     "ejemplo": "La fracción 3/4 equivale al decimal 0,75, que equivale al 75%.",
     "error_comun": "Se multiplica por 100 antes de hacer la división (por ejemplo, calcular 3/(4×100) en vez de (3÷4)×100), invirtiendo el orden de las operaciones y obteniendo un resultado sin sentido.",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla de equivalencias con tres columnas: fracción, decimal, porcentaje, para varios valores comunes (1/4, 1/2, 3/4, 1/5, etc.).",
     "formula_latex": "",
     "dificultad": "baja",
-    "prereqs": []
+    "prereqs": [],
+    "visual_posicion": "frente",
+    "tabla_filas": {
+      "columnas": [
+        "Fracción",
+        "Decimal",
+        "Porcentaje"
+      ],
+      "filas": [
+        [
+          "1/4",
+          "0,25",
+          "25%"
+        ],
+        [
+          "1/2",
+          "0,5",
+          "50%"
+        ],
+        [
+          "3/4",
+          "0,75",
+          "75%"
+        ],
+        [
+          "1/5",
+          "0,2",
+          "20%"
+        ],
+        [
+          "2/5",
+          "0,4",
+          "40%"
+        ]
+      ]
+    }
   },
   {
     "id": "RC-ALG-003",
@@ -293,10 +327,47 @@
     "ejemplo": "En el costo de un plan de telefonía y = 5.000 + 200x (siendo x los minutos usados), b=5.000 es el costo fijo mensual y m=200 es el costo por cada minuto adicional.",
     "error_comun": "Se confunde el valor de b con la pendiente o viceversa, especialmente cuando el problema no usa la notación y=mx+b directamente sino que describe la situación en palabras (costo fijo + costo variable), sin identificar cuál número corresponde a cada papel.",
     "tipo_visual": "grafica_datos",
-    "visual_descripcion": "Gráfica de línea recta con el intercepto b marcado en el eje y (x=0) y un triángulo mostrando la pendiente m como 'cuánto sube por cada unidad que avanza'.",
     "formula_latex": "y = mx + b",
     "dificultad": "baja",
-    "prereqs": []
+    "prereqs": [],
+    "visual_posicion": "reverso",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Minutos usados (x)",
+      "ejeY": "Costo ($)",
+      "series": [
+        {
+          "nombre": "y = 5.000 + 200x",
+          "datos": [
+            {
+              "x": 0,
+              "y": 5000
+            },
+            {
+              "x": 1,
+              "y": 5200
+            },
+            {
+              "x": 2,
+              "y": 5400
+            },
+            {
+              "x": 3,
+              "y": 5600
+            },
+            {
+              "x": 4,
+              "y": 5800
+            },
+            {
+              "x": 5,
+              "y": 6000
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Recta que corta el eje y en 5.000 (el intercepto b, en x=0) y sube 200 por cada minuto adicional (la pendiente m)."
+    }
   },
   {
     "id": "RC-ALG-015",
@@ -313,12 +384,49 @@
     "ejemplo": "Si el costo de comprar naranjas es y = 2.000x (sin costo fijo), comprar el doble de naranjas cuesta exactamente el doble; pero si hay un costo de envío fijo (y=2.000x+5.000), duplicar x no duplica y.",
     "error_comun": "Se trata cualquier relación lineal como si fuera proporcional directa (asumiendo que duplicar x siempre duplica y), sin verificar primero si existe un término independiente (b) que rompa esa proporcionalidad.",
     "tipo_visual": "grafica_datos",
-    "visual_descripcion": "Gráfica de línea recta que pasa exactamente por el origen (0,0), mostrando proporcionalidad directa.",
     "formula_latex": "y = mx",
     "dificultad": "media",
     "prereqs": [
       "RC-ALG-014"
-    ]
+    ],
+    "visual_posicion": "reverso",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Cantidad de naranjas (x)",
+      "ejeY": "Costo ($)",
+      "series": [
+        {
+          "nombre": "y = 2.000x",
+          "datos": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 1,
+              "y": 2000
+            },
+            {
+              "x": 2,
+              "y": 4000
+            },
+            {
+              "x": 3,
+              "y": 6000
+            },
+            {
+              "x": 4,
+              "y": 8000
+            },
+            {
+              "x": 5,
+              "y": 10000
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Recta que pasa exactamente por el origen (0,0): no hay costo fijo, todo es proporcional a la cantidad."
+    }
   },
   {
     "id": "RC-ALG-016",
@@ -335,12 +443,78 @@
     "ejemplo": "Si 4 obreros terminan una obra en 12 días, 8 obreros (el doble) la terminarían en 6 días (la mitad de tiempo), asumiendo que todos trabajan al mismo ritmo: es una relación inversa entre número de obreros y días.",
     "error_comun": "Se aplica la lógica de la proporcionalidad directa ('si algo se duplica, lo otro también') a una situación que en realidad es inversa, sin verificar primero si aumentar una cantidad hace que la otra aumente (directa) o disminuya (inversa).",
     "tipo_visual": "grafica_datos",
-    "visual_descripcion": "Gráfica curva (hipérbola) mostrando cómo el tiempo disminuye a medida que la velocidad aumenta, contrastada con una línea recta de proporcionalidad directa.",
     "formula_latex": "y = \\dfrac{k}{x}",
     "dificultad": "alta",
     "prereqs": [
       "RC-ALG-015"
-    ]
+    ],
+    "visual_posicion": "frente",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Velocidad (v)",
+      "ejeY": "Tiempo (t)",
+      "series": [
+        {
+          "nombre": "Proporcionalidad inversa: t = 300/v",
+          "datos": [
+            {
+              "x": 10,
+              "y": 30
+            },
+            {
+              "x": 20,
+              "y": 15
+            },
+            {
+              "x": 30,
+              "y": 10
+            },
+            {
+              "x": 50,
+              "y": 6
+            },
+            {
+              "x": 75,
+              "y": 4
+            },
+            {
+              "x": 100,
+              "y": 3
+            }
+          ]
+        },
+        {
+          "nombre": "Proporcionalidad directa (referencia)",
+          "datos": [
+            {
+              "x": 10,
+              "y": 3
+            },
+            {
+              "x": 20,
+              "y": 6
+            },
+            {
+              "x": 30,
+              "y": 9
+            },
+            {
+              "x": 50,
+              "y": 15
+            },
+            {
+              "x": 75,
+              "y": 22.5
+            },
+            {
+              "x": 100,
+              "y": 30
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Curva descendente (hipérbola) del tiempo contra la velocidad, contrastada con una recta creciente de proporcionalidad directa como referencia visual — formas opuestas."
+    }
   },
   {
     "id": "RC-ALG-017",
@@ -357,12 +531,41 @@
     "ejemplo": "En la tabla (0,10), (1,10), (2,10), (3,10), la diferencia entre valores consecutivos de y es siempre 0, lo que indica una relación lineal con pendiente 0 (una recta horizontal).",
     "error_comun": "Se concluye que una relación es lineal solo observando dos puntos de la tabla (el primero y el último), sin verificar que todas las diferencias consecutivas sean iguales, lo que puede llevar a pasar por alto un patrón que en realidad no es lineal en algún tramo.",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla con las columnas x, y, y una tercera columna mostrando la diferencia entre cada y consecutivo.",
     "formula_latex": "",
     "dificultad": "media",
     "prereqs": [
       "RC-ALG-014"
-    ]
+    ],
+    "visual_posicion": "reverso",
+    "tabla_filas": {
+      "columnas": [
+        "x",
+        "y",
+        "Diferencia"
+      ],
+      "filas": [
+        [
+          "0",
+          "5",
+          "—"
+        ],
+        [
+          "1",
+          "8",
+          "3"
+        ],
+        [
+          "2",
+          "11",
+          "3"
+        ],
+        [
+          "3",
+          "14",
+          "3"
+        ]
+      ]
+    }
   },
   {
     "id": "RC-ALG-018",
@@ -576,12 +779,14 @@
     "ejemplo": "Si un fondo se reparte en partes iguales entre 4 socios y uno de ellos ya falleció dejando 2 hijos, la parte de ese socio (1/4 del fondo) se divide entre sus 2 hijos (1/8 del fondo para cada uno), mientras los otros 3 socios reciben cada uno su 1/4 normal, sin cambios.",
     "error_comun": "Se reparte la parte del beneficiario faltante entre todos los beneficiarios sobrevivientes (incluyendo a los del primer nivel), en lugar de dirigirla específicamente a los descendientes de esa persona, lo que da a cada quien una porción distinta a la que realmente le corresponde.",
     "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Esquema de árbol con 4 beneficiarios de primer nivel, uno marcado como fallecido con 2 descendientes debajo, mostrando hacia dónde fluye su parte del reparto.",
     "formula_latex": "",
     "dificultad": "media",
     "prereqs": [
       "RC-ALG-026"
-    ]
+    ],
+    "visual_posicion": "reverso",
+    "imagen": "RC-ALG-027.svg",
+    "visual_descripcion": "Esquema de árbol con 4 beneficiarios de primer nivel, uno marcado como fallecido con 2 descendientes debajo, mostrando hacia dónde fluye su parte del reparto."
   },
   {
     "id": "RC-ALG-028",
@@ -598,12 +803,14 @@
     "ejemplo": "Con un total de $400.000.000 entre 4 herederos, y uno de ellos fallecido con 4 hijos, cada hijo recibe (400.000.000÷4)÷4 = $25.000.000, mientras los otros 3 herederos reciben $100.000.000 cada uno.",
     "error_comun": "Se calcula primero cuánto reciben en total los 3 hijos sumando fracciones incorrectas del total completo (en vez de partir primero la porción exacta del beneficiario fallecido), lo que genera un error acumulado en el reparto final.",
     "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Esquema con 5 socios, uno marcado como fallecido con 3 hijos debajo, y los montos en pesos escritos junto a cada persona.",
     "formula_latex": "",
     "dificultad": "alta",
     "prereqs": [
       "RC-ALG-027"
-    ]
+    ],
+    "visual_posicion": "reverso",
+    "imagen": "RC-ALG-028.svg",
+    "visual_descripcion": "Esquema con 5 socios, uno marcado como fallecido con 3 hijos debajo, y los montos en pesos escritos junto a cada persona."
   },
   {
     "id": "RC-ALG-029",
@@ -688,12 +895,40 @@
     "ejemplo": "Entre un paquete de 3 jabones por $9.000 (3.000/jabón) y uno de 5 jabones por $14.000 (2.800/jabón), el segundo tiene mejor precio por unidad aunque su costo total sea mayor.",
     "error_comun": "Se elige el plan de menor costo total (240.000, el más barato en este ejemplo) asumiendo que es la mejor opción, sin calcular el costo por clase de cada plan para comparar de forma justa.",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla con los tres planes de gimnasio, su costo total, su número de clases y el costo por clase calculado para cada uno.",
     "formula_latex": "",
     "dificultad": "media",
     "prereqs": [
       "RC-ALG-031"
-    ]
+    ],
+    "visual_posicion": "reverso",
+    "tabla_filas": {
+      "columnas": [
+        "Plan",
+        "Costo total",
+        "Clases",
+        "Costo por clase"
+      ],
+      "filas": [
+        [
+          "8 clases",
+          "$240.000",
+          "8",
+          "$30.000"
+        ],
+        [
+          "12 clases",
+          "$324.000",
+          "12",
+          "$27.000"
+        ],
+        [
+          "16 clases",
+          "$400.000",
+          "16",
+          "$25.000"
+        ]
+      ]
+    }
   },
   {
     "id": "RC-ALG-033",
@@ -755,12 +990,34 @@
     "ejemplo": "Una bombilla que consume 60 kWh en 500 horas (0,12 kWh/hora) es más eficiente que una que consume 45 kWh en 300 horas (0,15 kWh/hora), porque la primera gasta menos energía por hora de uso.",
     "error_comun": "Se compara directamente la cantidad total recorrida (480 km contra 350 km) sin dividir entre el consumo de cada carro, concluyendo por error que el primer carro es 'mejor' solo porque recorrió más distancia en total, sin tener en cuenta cuánta gasolina usó para lograrlo.",
     "tipo_visual": "tabla",
-    "visual_descripcion": "Tabla comparando los dos carros: distancia recorrida, litros consumidos y rendimiento calculado (km/L) para cada uno.",
     "formula_latex": "\\text{rendimiento} = \\dfrac{\\text{distancia}}{\\text{combustible usado}}",
     "dificultad": "media",
     "prereqs": [
       "RC-ALG-031"
-    ]
+    ],
+    "visual_posicion": "reverso",
+    "tabla_filas": {
+      "columnas": [
+        "Carro",
+        "Distancia",
+        "Litros",
+        "Rendimiento"
+      ],
+      "filas": [
+        [
+          "Carro 1",
+          "480 km",
+          "40 L",
+          "12 km/L"
+        ],
+        [
+          "Carro 2",
+          "350 km",
+          "25 L",
+          "14 km/L"
+        ]
+      ]
+    }
   },
   {
     "id": "RC-ALG-036",
@@ -931,12 +1188,37 @@
     "ejemplo": "Con un precio inicial de $50: sube 10% → $55; baja 10% de $55 → 55−5,5=$49,50, un poco menos que el original de $50.",
     "error_comun": "Se asume que subir y bajar el mismo porcentaje 'se cancela' y regresa al valor original, sin notar que el porcentaje de bajada se aplica sobre una base distinta (más grande) que el porcentaje de subida.",
     "tipo_visual": "grafica_datos",
-    "visual_descripcion": "Gráfica de línea mostrando el precio subiendo 20% y luego bajando 20%, terminando por debajo del valor inicial.",
     "formula_latex": "",
     "dificultad": "alta",
     "prereqs": [
       "RC-ALG-003"
-    ]
+    ],
+    "visual_posicion": "reverso",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Momento",
+      "ejeY": "Precio ($)",
+      "series": [
+        {
+          "nombre": "Precio",
+          "datos": [
+            {
+              "x": "Inicial",
+              "y": 100
+            },
+            {
+              "x": "+20%",
+              "y": 120
+            },
+            {
+              "x": "-20% (sobre 120)",
+              "y": 96
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "El precio sube de 100 a 120 (+20%) y luego baja de 120 a 96 (-20% de 120, no de 100), terminando por debajo del valor inicial."
+    }
   },
   {
     "id": "RC-ALG-044",

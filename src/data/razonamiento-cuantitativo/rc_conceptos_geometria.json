@@ -14,10 +14,12 @@
     "ejemplo": "El perímetro de un rectángulo de lados 5 cm y 3 cm es 5+3+5+3 = 16 cm.",
     "error_comun": "Se confunde perímetro con área porque ambos 'miden el tamaño' de una figura; recordar que el perímetro se mide en unidades simples (cm, m) y el área en unidades al cuadrado (cm², m²) ayuda a no mezclarlos.",
     "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Rectángulo con sus 4 lados marcados y una flecha recorriendo el borde completo.",
     "formula_latex": "",
     "dificultad": "baja",
-    "prereqs": []
+    "prereqs": [],
+    "visual_posicion": "reverso",
+    "imagen": "RC-GEO-001.svg",
+    "visual_descripcion": "Rectángulo con sus 4 lados marcados y una flecha recorriendo el borde completo."
   },
   {
     "id": "RC-GEO-002",
@@ -34,12 +36,14 @@
     "ejemplo": "Un triángulo con base 8 cm y altura 5 cm (medida perpendicular a la base) tiene área = (8×5)÷2 = 20 cm².",
     "error_comun": "Se usa un lado inclinado del triángulo como si fuera la altura, cuando en realidad la altura es siempre la distancia perpendicular a la base, que casi nunca coincide con la longitud de un lado no perpendicular.",
     "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Triángulo con la base marcada y una línea punteada perpendicular desde la base hasta el vértice opuesto, etiquetada como altura.",
     "formula_latex": "A = \\dfrac{b \\times h}{2}",
     "dificultad": "baja",
     "prereqs": [
       "RC-GEO-001"
-    ]
+    ],
+    "visual_posicion": "frente",
+    "imagen": "RC-GEO-002.svg",
+    "visual_descripcion": "Triángulo con la base marcada y una línea punteada perpendicular desde la base hasta el vértice opuesto, etiquetada como altura."
   },
   {
     "id": "RC-GEO-003",
@@ -56,12 +60,14 @@
     "ejemplo": "Un paralelogramo con base 6 cm y altura 4 cm tiene área = 6×4 = 24 cm² (el doble que un triángulo con la misma base y altura, que tendría 12 cm²).",
     "error_comun": "Se aplica por costumbre el ÷2 del triángulo al calcular el área de un paralelogramo o rectángulo, mezclando las dos fórmulas y obteniendo la mitad del área real.",
     "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Paralelogramo dividido por una diagonal en dos triángulos idénticos, mostrando que su área es el doble de uno de ellos.",
     "formula_latex": "A = b \\times h",
     "dificultad": "baja",
     "prereqs": [
       "RC-GEO-002"
-    ]
+    ],
+    "visual_posicion": "frente",
+    "imagen": "RC-GEO-003.svg",
+    "visual_descripcion": "Paralelogramo dividido por una diagonal en dos triángulos idénticos, mostrando que su área es el doble de uno de ellos."
   },
   {
     "id": "RC-GEO-004",
@@ -78,12 +84,14 @@
     "ejemplo": "Un círculo de radio 3 cm tiene circunferencia = 2×π×3 ≈ 18,85 cm, y área = π×3² ≈ 28,27 cm²; son números distintos con unidades distintas.",
     "error_comun": "Se memorizan ambas fórmulas (2πr y πr²) sin conectar cada una con su significado físico (contorno vs superficie), lo que lleva a usarlas indistintamente sin verificar si el resultado tiene sentido en las unidades pedidas.",
     "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Círculo con el radio marcado, una flecha curva alrededor del borde (circunferencia) y el interior sombreado (área).",
     "formula_latex": "\\text{Circunferencia} = 2\\pi r \\qquad \\text{Área} = \\pi r^2",
     "dificultad": "media",
     "prereqs": [
       "RC-GEO-001"
-    ]
+    ],
+    "visual_posicion": "frente",
+    "imagen": "RC-GEO-004.svg",
+    "visual_descripcion": "Círculo con el radio marcado, una flecha curva alrededor del borde (circunferencia) y el interior sombreado (área)."
   },
   {
     "id": "RC-GEO-005",
@@ -100,13 +108,15 @@
     "ejemplo": "El área de una figura en forma de cruz se puede hallar sumando el área de un rectángulo vertical y un rectángulo horizontal, y restando la zona central que se contó dos veces.",
     "error_comun": "Se intenta encontrar una fórmula única para la figura completa, cuando la estrategia correcta es descomponerla en partes simples y sumar o restar; buscar una fórmula 'de la figura completa' que no existe suele llevar a bloqueos o resultados inventados.",
     "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Figura en forma de L formada por un rectángulo grande al que se le resta un rectángulo pequeño en una esquina, con ambas áreas marcadas.",
     "formula_latex": "",
     "dificultad": "media",
     "prereqs": [
       "RC-GEO-002",
       "RC-GEO-003"
-    ]
+    ],
+    "visual_posicion": "frente",
+    "imagen": "RC-GEO-005.svg",
+    "visual_descripcion": "Figura en forma de L formada por un rectángulo grande al que se le resta un rectángulo pequeño en una esquina, con ambas áreas marcadas."
   },
   {
     "id": "RC-GEO-006",
@@ -123,10 +133,12 @@
     "ejemplo": "Una caja de 20 cm de largo, 10 cm de ancho y 5 cm de alto tiene un volumen de 20×10×5 = 1.000 cm³.",
     "error_comun": "Se multiplican solo dos de las tres dimensiones (área de una cara) y se reporta ese resultado como si fuera el volumen, confundiendo el área de una superficie (cm²) con el volumen del cuerpo completo (cm³).",
     "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Caja rectangular en 3D con sus tres dimensiones (largo, ancho, alto) etiquetadas.",
     "formula_latex": "V = l \\times a \\times h",
     "dificultad": "baja",
-    "prereqs": []
+    "prereqs": [],
+    "visual_posicion": "reverso",
+    "imagen": "RC-GEO-006.svg",
+    "visual_descripcion": "Caja rectangular en 3D con sus tres dimensiones (largo, ancho, alto) etiquetadas."
   },
   {
     "id": "RC-GEO-007",
@@ -143,13 +155,15 @@
     "ejemplo": "Una probeta de laboratorio cilíndrica con radio interno de 2 cm y altura de 20 cm tiene una capacidad aproximada de π×2²×20 ≈ 251,3 cm³ (aproximadamente 251 mililitros, recordando que 1 cm³ = 1 mL).",
     "error_comun": "Se usa el diámetro en lugar del radio dentro de la fórmula πr², dando un resultado 4 veces mayor al real (porque el error queda elevado al cuadrado); siempre hay que verificar si el dato de la figura es el radio o el diámetro antes de reemplazar en la fórmula.",
     "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Cilindro con el radio de la base y la altura marcados, junto a la equivalencia 1 cm³ = 1 mL.",
     "formula_latex": "V = \\pi r^2 h",
     "dificultad": "media",
     "prereqs": [
       "RC-GEO-004",
       "RC-GEO-006"
-    ]
+    ],
+    "visual_posicion": "reverso",
+    "imagen": "RC-GEO-007.svg",
+    "visual_descripcion": "Cilindro con el radio de la base y la altura marcados, junto a la equivalencia 1 cm³ = 1 mL."
   },
   {
     "id": "RC-GEO-008",
@@ -166,13 +180,15 @@
     "ejemplo": "Un balón de destilación esférico de laboratorio con radio interno de 3 cm tiene un volumen aproximado de (4/3)×π×3³ ≈ 113,1 cm³ (aproximadamente 113 mL).",
     "error_comun": "Se usa r² (como en el área del círculo) en lugar de r³ dentro de la fórmula del volumen de la esfera, un error fácil de cometer porque ambas fórmulas comparten el mismo símbolo π y la misma letra r.",
     "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Esfera junto al cilindro más pequeño que la contiene exactamente, mostrando la relación 2/3 entre sus volúmenes.",
     "formula_latex": "V = \\dfrac{4}{3}\\pi r^3",
     "dificultad": "media",
     "prereqs": [
       "RC-GEO-004",
       "RC-GEO-007"
-    ]
+    ],
+    "visual_posicion": "frente",
+    "imagen": "RC-GEO-008.svg",
+    "visual_descripcion": "Esfera junto al cilindro más pequeño que la contiene exactamente, mostrando la relación 2/3 entre sus volúmenes."
   },
   {
     "id": "RC-GEO-009",
@@ -189,12 +205,14 @@
     "ejemplo": "Una caja de zapatos tiene un volumen que indica cuántos zapatos le caben adentro, y un área de superficie que indica cuánto cartón se necesitó para construirla; son cantidades relacionadas pero distintas.",
     "error_comun": "Se suman las dimensiones de la figura como si eso diera directamente el área o el volumen, sin aplicar ninguna fórmula de multiplicación, lo que ocurre cuando no se tiene claro que área y volumen involucran multiplicar (no sumar) las medidas.",
     "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Caja rectangular 3D con sus 6 caras identificadas para el cálculo del área total de superficie.",
     "formula_latex": "",
     "dificultad": "alta",
     "prereqs": [
       "RC-GEO-006"
-    ]
+    ],
+    "visual_posicion": "frente",
+    "imagen": "RC-GEO-009.svg",
+    "visual_descripcion": "Caja rectangular 3D con sus 6 caras identificadas para el cálculo del área total de superficie."
   },
   {
     "id": "RC-GEO-010",
@@ -211,13 +229,15 @@
     "ejemplo": "Si se duplica el lado de un cubo, su área de superficie se multiplica por 2²=4 y su volumen se multiplica por 2³=8, aunque el lado solo se haya multiplicado por 2.",
     "error_comun": "Se asume que si una dimensión se duplica, el área y el volumen también se duplican en la misma proporción, ignorando que área y volumen crecen de forma mucho más rápida (cuadrática y cúbica) que la longitud misma.",
     "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Dos esferas, una con el doble de radio que la otra, con sus volúmenes calculados para mostrar la relación ×8.",
     "formula_latex": "V(kr) = k^3 \\cdot V(r)",
     "dificultad": "alta",
     "prereqs": [
       "RC-GEO-008",
       "RC-GEO-009"
-    ]
+    ],
+    "visual_posicion": "reverso",
+    "imagen": "RC-GEO-010.svg",
+    "visual_descripcion": "Dos esferas, una con el doble de radio que la otra, con sus volúmenes calculados para mostrar la relación ×8."
   },
   {
     "id": "RC-GEO-011",
@@ -234,10 +254,12 @@
     "ejemplo": "Los rieles de una vía de tren son un ejemplo de rectas paralelas; las líneas de un tablero de ajedrez (horizontales y verticales) son ejemplos de rectas perpendiculares entre sí.",
     "error_comun": "Se confunde 'paralelo' con 'que no se tocan por ahora' sin garantizar que mantengan la misma dirección para siempre; dos segmentos pueden no cruzarse dentro de una figura pequeña y aun así no ser paralelos si se prolongaran, lo que lleva a conclusiones erróneas sobre la figura.",
     "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Dos rectas paralelas horizontales y dos rectas perpendiculares formando una cruz, con el ángulo de 90° marcado.",
     "formula_latex": "",
     "dificultad": "baja",
-    "prereqs": []
+    "prereqs": [],
+    "visual_posicion": "reverso",
+    "imagen": "RC-GEO-011.svg",
+    "visual_descripcion": "Dos rectas paralelas horizontales y dos rectas perpendiculares formando una cruz, con el ángulo de 90° marcado."
   },
   {
     "id": "RC-GEO-012",
@@ -254,12 +276,14 @@
     "ejemplo": "Si un ángulo alterno interno mide 55°, el ángulo alterno interno del otro lado de la transversal también mide 55°, aunque estén en cruces distintos.",
     "error_comun": "Se asume que todos los ángulos formados por la transversal son iguales entre sí, sin distinguir cuáles parejas específicas (correspondientes, alternos internos) son iguales y cuáles en realidad son suplementarias (suman 180°) en lugar de iguales.",
     "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Dos rectas paralelas horizontales cortadas por una transversal diagonal, con los ángulos correspondientes marcados en ambos cruces.",
     "formula_latex": "",
     "dificultad": "media",
     "prereqs": [
       "RC-GEO-011"
-    ]
+    ],
+    "visual_posicion": "frente",
+    "imagen": "RC-GEO-012.svg",
+    "visual_descripcion": "Dos rectas paralelas horizontales cortadas por una transversal diagonal, con los ángulos correspondientes marcados en ambos cruces."
   },
   {
     "id": "RC-GEO-013",
@@ -276,13 +300,15 @@
     "ejemplo": "En un edificio, todas las paredes verticales son perpendiculares al piso horizontal; por esta razón, todas esas paredes son paralelas entre sí.",
     "error_comun": "Se intenta medir o estimar visualmente si dos segmentos son paralelos en lugar de usar relaciones lógicas ya establecidas en la figura (como la perpendicularidad compartida con una tercera recta), lo que es más lento y propenso a error en una figura dibujada a mano o sin escala exacta.",
     "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Dos segmentos verticales, ambos perpendiculares a una misma recta horizontal, mostrando que son paralelos entre sí.",
     "formula_latex": "",
     "dificultad": "media",
     "prereqs": [
       "RC-GEO-011",
       "RC-GEO-012"
-    ]
+    ],
+    "visual_posicion": "reverso",
+    "imagen": "RC-GEO-013.svg",
+    "visual_descripcion": "Dos segmentos verticales, ambos perpendiculares a una misma recta horizontal, mostrando que son paralelos entre sí."
   },
   {
     "id": "RC-GEO-014",
@@ -299,10 +325,12 @@
     "ejemplo": "Con longitudes 3, 4 y 5, se cumple: 3+4>5, 3+5>4 y 4+5>3, así que sí forman un triángulo.",
     "error_comun": "Se verifica la desigualdad solo para una combinación de lados y se concluye que el triángulo es válido, sin revisar las tres combinaciones posibles; basta que una sola combinación falle para que el triángulo sea imposible.",
     "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Tres segmentos que casi se conectan para formar un triángulo, ilustrando el caso límite donde la suma de dos lados es igual al tercero (no llega a cerrar).",
     "formula_latex": "a + b > c",
     "dificultad": "media",
-    "prereqs": []
+    "prereqs": [],
+    "visual_posicion": "frente",
+    "imagen": "RC-GEO-014.svg",
+    "visual_descripcion": "Tres segmentos que casi se conectan para formar un triángulo, ilustrando el caso límite donde la suma de dos lados es igual al tercero (no llega a cerrar)."
   },
   {
     "id": "RC-GEO-015",
@@ -341,10 +369,12 @@
     "ejemplo": "El punto (3, −2) está en el cuarto cuadrante, porque su x es positiva y su y es negativa.",
     "error_comun": "Se numeran los cuadrantes en el orden en que 'se ven' de izquierda a derecha, en lugar de seguir la convención matemática (sentido contrario a las manecillas del reloj, comenzando en el superior derecho), lo que lleva a identificar el cuadrante equivocado.",
     "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Plano cartesiano con los ejes x, y marcados, los cuatro cuadrantes numerados y el punto (3,-2) ubicado en el cuarto cuadrante.",
     "formula_latex": "",
     "dificultad": "baja",
-    "prereqs": []
+    "prereqs": [],
+    "visual_posicion": "reverso",
+    "imagen": "RC-GEO-016.svg",
+    "visual_descripcion": "Plano cartesiano con los ejes x, y marcados, los cuatro cuadrantes numerados y el punto (3,-2) ubicado en el cuarto cuadrante."
   },
   {
     "id": "RC-GEO-017",
@@ -361,12 +391,14 @@
     "ejemplo": "La distancia entre (1,1) y (4,5) es √[(4−1)² + (5−1)²] = √(9+16) = √25 = 5.",
     "error_comun": "Se suman las diferencias en x y en y directamente ((4−1)+(5−1)=7) en lugar de elevarlas al cuadrado, sumarlas y luego sacar raíz cuadrada, olvidando que la distancia en línea recta no es una simple suma de las diferencias horizontales y verticales.",
     "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Dos puntos en el plano cartesiano conectados por una línea diagonal (la distancia), con un triángulo rectángulo auxiliar mostrando los catetos horizontal y vertical.",
     "formula_latex": "d = \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}",
     "dificultad": "media",
     "prereqs": [
       "RC-GEO-016"
-    ]
+    ],
+    "visual_posicion": "frente",
+    "imagen": "RC-GEO-017.svg",
+    "visual_descripcion": "Dos puntos en el plano cartesiano conectados por una línea diagonal (la distancia), con un triángulo rectángulo auxiliar mostrando los catetos horizontal y vertical."
   },
   {
     "id": "RC-GEO-018",
@@ -383,13 +415,15 @@
     "ejemplo": "Un segmento de (0,0) a (2,6) tiene pendiente 6/2=3; un segmento de (1,1) a (3,7) tiene pendiente (7−1)/(3−1)=6/2=3; al ser iguales, son paralelos.",
     "error_comun": "Se comparan solo las coordenadas x o solo las coordenadas y de los segmentos, en lugar de calcular la relación entre el cambio vertical y el cambio horizontal (la pendiente) de cada uno, que es lo que realmente determina si dos segmentos apuntan en la misma dirección.",
     "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Plano cartesiano con dos segmentos paralelos dibujados, mostrando el 'cuánto sube' y 'cuánto avanza' de cada uno.",
     "formula_latex": "",
     "dificultad": "alta",
     "prereqs": [
       "RC-GEO-016",
       "RC-GEO-011"
-    ]
+    ],
+    "visual_posicion": "reverso",
+    "imagen": "RC-GEO-018.svg",
+    "visual_descripcion": "Plano cartesiano con dos segmentos paralelos dibujados, mostrando el 'cuánto sube' y 'cuánto avanza' de cada uno."
   },
   {
     "id": "RC-GEO-019",
@@ -426,13 +460,15 @@
     "ejemplo": "Medir solo la altura de un edificio de un solo piso no es suficiente para saber el volumen total de un edificio de varios pisos con plantas de distinto tamaño; hace falta el área de cada planta y su altura individual.",
     "error_comun": "Se asume que, como las partes del sistema están conectadas o relacionadas, medir una de ellas ya describe a todas las demás, sin considerar que cada parte puede tener dimensiones distintas que también deben medirse por separado.",
     "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Dos tanques cilíndricos conectados por un tubo vertical, con solo el tanque inferior mostrando sus medidas (radio y altura) marcadas.",
     "formula_latex": "",
     "dificultad": "alta",
     "prereqs": [
       "RC-GEO-019",
       "RC-GEO-007"
-    ]
+    ],
+    "visual_posicion": "frente",
+    "imagen": "RC-GEO-020.svg",
+    "visual_descripcion": "Dos tanques cilíndricos conectados por un tubo vertical, con solo el tanque inferior mostrando sus medidas (radio y altura) marcadas."
   },
   {
     "id": "RC-GEO-021",
@@ -449,12 +485,14 @@
     "ejemplo": "Conocer el lado de un cuadrado (por ejemplo, 5 cm) ya permite calcular su perímetro (20 cm) y su área (25 cm²); en cambio, un rectángulo necesita conocer tanto su largo como su ancho, porque uno no determina al otro.",
     "error_comun": "Se asume que una sola medida siempre es insuficiente sin considerar las propiedades especiales de la figura (como que sea un cuadrado, un círculo o un triángulo equilátero), donde justamente esa única medida sí alcanza para describir toda la figura.",
     "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Un cuadrado con un solo lado marcado, junto a un rectángulo donde se necesitan marcar dos lados distintos.",
     "formula_latex": "",
     "dificultad": "media",
     "prereqs": [
       "RC-GEO-019"
-    ]
+    ],
+    "visual_posicion": "frente",
+    "imagen": "RC-GEO-021.svg",
+    "visual_descripcion": "Un cuadrado con un solo lado marcado, junto a un rectángulo donde se necesitan marcar dos lados distintos."
   },
   {
     "id": "RC-GEO-022",
@@ -471,10 +509,12 @@
     "ejemplo": "Si una dirección es 50°, su dirección opuesta es 50+180=230°. Si una dirección es 300°, su opuesta es 300−180=120° (sumar daría 480°, que no existe en la escala de 0° a 360°).",
     "error_comun": "Se suma siempre 180° sin verificar si el resultado se pasa de 360°, lo que da un número sin sentido dentro de la escala angular (por ejemplo, 300+180=480°, que hay que corregir restando 360° para obtener el 120° real).",
     "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Círculo de 360° con el norte marcado en 0°, una dirección señalada en 50° y su opuesta en 230°, unidas por una línea recta que pasa por el centro.",
     "formula_latex": "",
     "dificultad": "media",
-    "prereqs": []
+    "prereqs": [],
+    "visual_posicion": "reverso",
+    "imagen": "RC-GEO-022.svg",
+    "visual_descripcion": "Círculo de 360° con el norte marcado en 0°, una dirección señalada en 50° y su opuesta en 230°, unidas por una línea recta que pasa por el centro."
   },
   {
     "id": "RC-GEO-023",
@@ -491,12 +531,14 @@
     "ejemplo": "Si alguien va en dirección 20° y gira 50° a la izquierda, su nueva dirección es 20−50=−30°, que se ajusta sumando 360° para dar 330°.",
     "error_comun": "Se resta el ángulo de giro cuando se gira a la derecha (o se suma cuando se gira a la izquierda), invirtiendo la regla; conviene fijar un criterio claro (derecha = sumar, izquierda = restar) y verificarlo con un ejemplo sencillo antes de aplicarlo en el problema.",
     "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Círculo de orientación con una dirección inicial en 80°, una flecha curva hacia la derecha de 45°, y la nueva dirección resultante en 125°.",
     "formula_latex": "",
     "dificultad": "alta",
     "prereqs": [
       "RC-GEO-022"
-    ]
+    ],
+    "visual_posicion": "reverso",
+    "imagen": "RC-GEO-023.svg",
+    "visual_descripcion": "Círculo de orientación con una dirección inicial en 80°, una flecha curva hacia la derecha de 45°, y la nueva dirección resultante en 125°."
   },
   {
     "id": "RC-GEO-024",
@@ -513,11 +555,13 @@
     "ejemplo": "Una dirección de 315° está exactamente entre 270° (oeste) y 360° (norte), por lo que apunta al noroeste.",
     "error_comun": "Se asocia un ángulo con el punto cardinal más cercano en número (por ejemplo, redondear 200° a 180°=sur) sin reconocer que los ángulos intermedios representan direcciones combinadas (como suroeste), perdiendo precisión en la ubicación real.",
     "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Rosa de los vientos (círculo de 360°) con los cuatro puntos cardinales marcados y la dirección de 200° señalada en la región suroeste.",
     "formula_latex": "",
     "dificultad": "media",
     "prereqs": [
       "RC-GEO-022"
-    ]
+    ],
+    "visual_posicion": "reverso",
+    "imagen": "RC-GEO-024.svg",
+    "visual_descripcion": "Rosa de los vientos (círculo de 360°) con los cuatro puntos cardinales marcados y la dirección de 200° señalada en la región suroeste."
   }
 ]

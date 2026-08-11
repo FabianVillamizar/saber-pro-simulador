@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-36 0 372 300">
+  <defs>
+    <marker id="flecha" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--accent)" />
+    </marker>
+  </defs>
+
+  <circle cx="150" cy="150" r="100" fill="none" stroke="var(--border)" stroke-width="2" />
+  <line x1="150" y1="150" x2="150" y2="50" stroke="var(--text-sub)" stroke-width="2" stroke-linecap="round" stroke-dasharray="5,5" /><text x="150" y="35" fill="var(--text-sub)" font-size="11" font-weight="500" text-anchor="middle">Norte de cancha (0°)</text>
+  <line x1="150" y1="150" x2="248.4807753012208" y2="167.36481776669302" stroke="var(--accent)" stroke-width="3" stroke-linecap="round" marker-end="url(#flecha)" /><text x="266.4807753012208" y="157.36481776669302" fill="var(--accent)" font-size="11" font-weight="500" text-anchor="start">100°</text><text x="266.4807753012208" y="173.36481776669302" fill="var(--accent)" font-size="11" font-weight="500" text-anchor="start">1er intento</text>
+  <line x1="150" y1="150" x2="214.27876096865396" y2="226.6044443118978" stroke="var(--exito)" stroke-width="3" stroke-linecap="round" marker-end="url(#flecha)" /><text x="232.27876096865396" y="242.6044443118978" fill="var(--exito)" font-size="11" font-weight="500" text-anchor="start">140°</text><text x="232.27876096865396" y="258.6044443118978" fill="var(--exito)" font-size="11" font-weight="500" text-anchor="start">2do intento</text>
+  <path d="M189.39231012048833,156.9459271066772 A40,40 0 0 1 175.71150438746156,180.64177772475912" fill="none" stroke="var(--warning)" stroke-width="2.5" marker-end="url(#flecha)" />
+  <text x="150" y="280" fill="var(--warning)" font-size="11" font-weight="500" text-anchor="middle">+40° hacia la derecha (sentido horario)</text>
+
+</svg>

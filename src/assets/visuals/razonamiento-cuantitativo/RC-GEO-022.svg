@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-24 0 348 260">
+
+  <circle cx="150" cy="130" r="90" fill="none" stroke="var(--border)" stroke-width="2" />
+  <text x="150" y="30" fill="var(--text-sub)" font-size="10" font-weight="500" text-anchor="middle">0° (N)</text>
+  <text x="250" y="130" fill="var(--text-sub)" font-size="10" font-weight="500" text-anchor="middle">90° (E)</text>
+  <text x="150" y="235" fill="var(--text-sub)" font-size="10" font-weight="500" text-anchor="middle">180° (S)</text>
+  <text x="50" y="130" fill="var(--text-sub)" font-size="10" font-weight="500" text-anchor="middle">270° (O)</text>
+  <line x1="218.94399988070802" y1="72.14911512821146" x2="81.056000119292" y2="187.85088487178854" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round" /><circle cx="218.94399988070802" cy="72.14911512821146" r="4" fill="var(--accent)" /><circle cx="81.056000119292" cy="187.85088487178854" r="4" fill="var(--accent)" /><text x="233.94399988070802" y="67.14911512821146" fill="var(--accent)" font-size="10" font-weight="500" text-anchor="start">50°</text><text x="66.056000119292" y="202.85088487178854" fill="var(--accent)" font-size="10" font-weight="500" text-anchor="end">?</text>
+  <text x="150" y="15" fill="var(--text-faint)" font-size="9" font-weight="500" text-anchor="middle">una recta que pasa por el centro conecta una dirección con su opuesta</text>
+
+</svg>
