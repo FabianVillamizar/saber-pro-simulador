@@ -341,6 +341,32 @@ items['RC-GEO-024'] = svg('0 0 300 260', `
   ${texto(150, 250, 'entre S (180°) y O (270°), más cerca de S', { tam: 9, color: C.faint })}
 `)
 
+// ---------- RC-GEO-025: espiral de Teodoro (√2 a √7 encadenados) ----------
+// Puntos calculados geométricamente (no a ojo): cada Pk se obtiene rotando
+// 90° un segmento de longitud 1 en el extremo de O-P(k-1), así que
+// dist(O,Pk) = √(k+1) por Pitágoras — verificado numéricamente antes de
+// dibujar (√1..√7 = 1, 1.414, 1.732, 2, 2.236, 2.449, 2.646).
+items['RC-GEO-025'] = svg('0 0 320 240', `
+  ${linea(160, 175, 202, 175, { color: C.sub })}
+  ${linea(160, 175, 202, 133, { color: C.sub })}
+  ${linea(160, 175, 172.3, 103.3, { color: C.sub })}
+  ${linea(160, 175, 130.9, 96.2, { color: C.sub })}
+  ${linea(160, 175, 91.5, 110.7, { color: C.sub })}
+  ${linea(160, 175, 62.8, 141.4, { color: C.sub })}
+  ${linea(160, 175, 49, 181.1, { color: C.sub })}
+  <polyline points="202,175 202,133 172.3,103.3 130.9,96.2 91.5,110.7 62.8,141.4 49,181.1" fill="none" stroke="${C.accent}" stroke-width="2.5" stroke-linejoin="round" />
+  <circle cx="160" cy="175" r="3" fill="${C.texto}" />
+  ${texto(160, 192, 'O', { tam: 11, peso: 700 })}
+  ${texto(210, 178, '1', { tam: 10, color: C.sub, anchor: 'start' })}
+  ${texto(212, 133, '√2', { tam: 10, color: C.sub, anchor: 'start' })}
+  ${texto(184, 96, '√3', { tam: 10, color: C.sub })}
+  ${texto(130.9, 82, '√4 = 2', { tam: 10, color: C.sub })}
+  ${texto(80, 100, '√5', { tam: 10, color: C.sub, anchor: 'end' })}
+  ${texto(50, 138, '√6', { tam: 10, color: C.sub, anchor: 'end' })}
+  ${texto(30, 184, '√7', { tam: 11, color: C.accent, peso: 700, anchor: 'end' })}
+  ${texto(160, 225, 'cada triángulo usa la hipotenusa anterior como cateto + un cateto de 1', { tam: 10, color: C.faint })}
+`)
+
 let ok = 0
 for (const [id, contenido] of Object.entries(items)) {
   writeFileSync(path.join(DIR_SALIDA, `${id}.svg`), contenido, 'utf8')

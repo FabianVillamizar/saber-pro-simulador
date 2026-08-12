@@ -1286,5 +1286,137 @@
     "prereqs": [
       "RC-ALG-045"
     ]
+  },
+  {
+    "id": "RC-ALG-047",
+    "modulo": "razonamiento_cuantitativo",
+    "tipo": "concepto",
+    "contenido": "algebra_calculo",
+    "bloque": "SUCESIONES-SERIES",
+    "modo": "cloze",
+    "antes": "En una progresión aritmética, cada término se obtiene sumando al anterior una cantidad fija llamada diferencia común (d). En vez de sumar término por término, el término n se calcula directamente con aₙ = a₁ + (n−1)×",
+    "despues": ", donde a₁ es el primer término.",
+    "pregunta": "",
+    "respuesta": "d",
+    "regla": "Una **progresión aritmética** es una secuencia donde cada término se obtiene sumando siempre la misma cantidad (la **diferencia común**, d) al término anterior. Como esa diferencia es constante, no hace falta construir la secuencia paso a paso para conocer un término lejano: la fórmula aₙ = a₁ + (n−1)d lo da directamente, restando el trabajo de sumar n−1 veces a una sola multiplicación.",
+    "ejemplo": "En la secuencia 5, 8, 11, 14, 17... (a₁=5, d=3), el término 20 no requiere sumar 19 veces: a₂₀ = 5 + (20−1)×3 = 5 + 57 = 62.",
+    "error_comun": "Se usa n en vez de (n−1) en la fórmula (por ejemplo, calcular a₁ = a₁ + 1×d en vez de a₁ = a₁ + 0×d) — el primer término no suma ninguna diferencia todavía, la suma empieza a partir del segundo término.",
+    "tipo_visual": "ninguno",
+    "visual_descripcion": "",
+    "formula_latex": "a_n = a_1 + (n-1)d",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "RC-ALG-048",
+    "modulo": "razonamiento_cuantitativo",
+    "tipo": "concepto",
+    "contenido": "algebra_calculo",
+    "bloque": "SUCESIONES-SERIES",
+    "modo": "pregunta",
+    "antes": "",
+    "despues": "",
+    "pregunta": "Sin sumar los 100 números uno por uno, ¿cómo se puede calcular rápidamente la suma 1+2+3+...+100?",
+    "respuesta": "Emparejando el primero con el último (1+100=101), el segundo con el penúltimo (2+99=101), y así sucesivamente: hay 50 parejas que suman 101 cada una, así que el total es 50×101 = 5.050. En general, para sumar los primeros n términos de una progresión aritmética se usa Sₙ = n/2 × (a₁+aₙ), sin sumar ningún término individualmente.",
+    "regla": "La **suma de los primeros n términos de una progresión aritmética** (Sₙ = n/2 × (a₁+aₙ)) funciona porque emparejar el primer término con el último, el segundo con el penúltimo, etc., siempre da la misma suma por pareja — el 'truco de Gauss'. Para usarla solo hace falta conocer cuántos términos hay (n), el primero (a₁) y el último (aₙ), sin necesidad de conocer ni sumar ninguno de los términos intermedios.",
+    "ejemplo": "Sumar los múltiplos de 5 del 5 al 100 (5, 10, 15, ..., 100): son n=20 términos, a₁=5, a₂₀=100, así que la suma es 20/2 × (5+100) = 10 × 105 = 1.050.",
+    "error_comun": "Se olvida dividir entre 2 (dejando el resultado del doble de lo correcto, porque cada pareja se contó pensando en la suma total en vez de en el promedio por pareja), o se usa un valor de n equivocado por no contar bien cuántos términos hay realmente en el rango pedido.",
+    "tipo_visual": "ninguno",
+    "visual_descripcion": "",
+    "formula_latex": "S_n = \\frac{n}{2}(a_1+a_n)",
+    "dificultad": "media",
+    "prereqs": [
+      "RC-ALG-047"
+    ]
+  },
+  {
+    "id": "RC-ALG-049",
+    "modulo": "razonamiento_cuantitativo",
+    "tipo": "concepto",
+    "contenido": "algebra_calculo",
+    "bloque": "SUCESIONES-SERIES",
+    "modo": "cloze",
+    "antes": "En una progresión geométrica, cada término se obtiene multiplicando al anterior por una cantidad fija llamada razón común (r). El término n se calcula directamente con aₙ = a₁ × r elevado a la potencia (n−",
+    "despues": ").",
+    "pregunta": "",
+    "respuesta": "1",
+    "regla": "Una **progresión geométrica** es una secuencia donde cada término se obtiene multiplicando siempre por la misma cantidad (la **razón común**, r) al término anterior — a diferencia de la progresión aritmética, que suma una cantidad fija, esta multiplica. La fórmula aₙ = a₁ × r^(n−1) evita multiplicar n−1 veces seguidas para llegar a un término lejano.",
+    "ejemplo": "En la secuencia 3, 6, 12, 24, 48... (a₁=3, r=2), el término 10 es a₁₀ = 3 × 2⁹ = 3 × 512 = 1.536, sin necesidad de duplicar 9 veces seguidas a mano.",
+    "error_comun": "Se confunde la razón (r, que se multiplica) con la diferencia (d, que se suma) de una progresión aritmética, aplicando por error la fórmula de suma (a₁+(n−1)d) a una secuencia que en realidad crece multiplicando.",
+    "tipo_visual": "ninguno",
+    "visual_descripcion": "",
+    "formula_latex": "a_n = a_1 \\cdot r^{n-1}",
+    "dificultad": "baja",
+    "prereqs": [
+      "RC-ALG-047"
+    ]
+  },
+  {
+    "id": "RC-ALG-050",
+    "modulo": "razonamiento_cuantitativo",
+    "tipo": "concepto",
+    "contenido": "algebra_calculo",
+    "bloque": "SUCESIONES-SERIES",
+    "modo": "pregunta",
+    "antes": "",
+    "despues": "",
+    "pregunta": "Un capital invertido a interés compuesto genera, año tras año, los valores C, C(1+i), C(1+i)², C(1+i)³... ¿Qué tipo de progresión forman estos valores, cuál es su razón común, y cómo se puede sumar el total acumulado en n años sin sumar cada valor por separado?",
+    "respuesta": "Forman una progresión geométrica con razón común (1+i) — cada valor es el anterior multiplicado por (1+i). El total acumulado en n años se obtiene con la fórmula de suma de una progresión geométrica finita: Sₙ = a₁ × (rⁿ−1)/(r−1), sin sumar cada año por separado.",
+    "regla": "Esta es la misma idea de interés compuesto vista antes (bloque INTERES-SIMPLE-COMPUESTO), pero ahora con su nombre formal: el interés compuesto **es** una progresión geométrica de razón (1+tasa). La **suma de los primeros n términos de una progresión geométrica** finita es Sₙ = a₁ × (rⁿ−1)/(r−1) (con r≠1) — útil, por ejemplo, para sumar varios pagos o depósitos que crecen multiplicativamente, no solo para hallar un término aislado.",
+    "ejemplo": "Sumar los primeros 4 términos de 3, 6, 12, 24 (a₁=3, r=2): S₄ = 3×(2⁴−1)/(2−1) = 3×15/1 = 45, que coincide con sumar 3+6+12+24=45 a mano — la fórmula solo ahorra el trabajo cuando hay muchos más términos.",
+    "error_comun": "Se aplica la fórmula de suma de progresión aritmética (Sₙ = n/2×(a₁+aₙ)) a una secuencia que en realidad es geométrica, dando un resultado equivocado porque esa fórmula asume que los términos crecen sumando una cantidad fija, no multiplicando.",
+    "tipo_visual": "ninguno",
+    "visual_descripcion": "",
+    "formula_latex": "S_n = a_1 \\cdot \\frac{r^n-1}{r-1}",
+    "dificultad": "alta",
+    "prereqs": [
+      "RC-ALG-048",
+      "RC-ALG-049"
+    ]
+  },
+  {
+    "id": "RC-ALG-051",
+    "modulo": "razonamiento_cuantitativo",
+    "tipo": "concepto",
+    "contenido": "algebra_calculo",
+    "bloque": "SUCESIONES-SERIES",
+    "modo": "pregunta",
+    "antes": "",
+    "despues": "",
+    "pregunta": "Sin conocer de antemano el contexto ni ninguna fórmula, ¿cómo se puede saber en segundos si una secuencia de números — por ejemplo 3, 6, 12, 24... — es aritmética o geométrica, para saber cuál fórmula usar?",
+    "respuesta": "Restando dos términos consecutivos: si la resta da siempre el mismo número, es aritmética (esa resta es d). Si la resta no da un número constante, se prueba dividiendo dos términos consecutivos: si el cociente da siempre el mismo número, es geométrica (ese cociente es r). En 3, 6, 12, 24: 6−3=3 pero 12−6=6 (no es constante, no es aritmética); 6÷3=2 y 12÷6=2 y 24÷12=2 (sí es constante) → es geométrica con r=2.",
+    "regla": "Antes de aplicar cualquier fórmula de progresión hay que identificar cuál de las dos aplica — perder tiempo memorizando o probando ambas fórmulas es evitable con esta verificación rápida: **resta consecutiva constante → aritmética; división consecutiva constante → geométrica**. Con solo 3 términos ya alcanza para confirmar el patrón (dos restas o dos divisiones que coincidan).",
+    "ejemplo": "En 2, 5, 8, 11: 5−2=3, 8−5=3, 11−8=3 (resta constante) → aritmética, d=3. En 2, 6, 18, 54: 6÷2=3, 18÷6=3, 54÷18=3 (división constante) → geométrica, r=3.",
+    "error_comun": "Se asume que una secuencia es aritmética solo porque 'va creciendo de forma pareja a simple vista', sin verificar realmente si la diferencia entre términos consecutivos es constante — una secuencia geométrica con razón cercana a 1 también puede parecer que crece 'poco a poco' sin serlo.",
+    "tipo_visual": "ninguno",
+    "visual_descripcion": "",
+    "formula_latex": "",
+    "dificultad": "media",
+    "prereqs": [
+      "RC-ALG-047",
+      "RC-ALG-049"
+    ]
+  },
+  {
+    "id": "RC-ALG-052",
+    "modulo": "razonamiento_cuantitativo",
+    "tipo": "concepto",
+    "contenido": "algebra_calculo",
+    "bloque": "SUCESIONES-SERIES",
+    "modo": "pregunta",
+    "antes": "",
+    "despues": "",
+    "pregunta": "La ciudad A crece siempre en 5.000 habitantes por año (progresión aritmética). La ciudad B crece siempre un 5% por año (progresión geométrica). Si ambas empiezan con 100.000 habitantes, ¿cuál será más poblada a largo plazo, y por qué se puede saber esto sin calcular año por año?",
+    "respuesta": "A largo plazo, la ciudad B (crecimiento geométrico/exponencial) siempre termina superando a la ciudad A (crecimiento aritmético/lineal), sin importar qué tan pequeño sea el porcentaje de B comparado con la cantidad fija de A. Esto se sabe sin calcular año por año porque un crecimiento que se multiplica sobre una base cada vez más grande termina acelerando más que uno que siempre suma la misma cantidad fija — es una propiedad general de aritmética vs. geométrica, no algo que dependa de los números específicos de este caso.",
+    "regla": "Un crecimiento **aritmético/lineal** suma siempre la misma cantidad absoluta (nunca acelera). Un crecimiento **geométrico/exponencial** multiplica sobre una base que crece (por eso acelera con el tiempo). Aunque al principio el crecimiento lineal puede ir adelante (5.000 personas es más que el 5% de 100.000 = 5.000 el primer año, empatados; pero el 5% de una ciudad más grande ya es más de 5.000), el geométrico siempre termina superando al lineal — reconocer cuál tipo de crecimiento describe una situación evita tener que simular año por año para predecir el ganador a largo plazo.",
+    "ejemplo": "Año 10: ciudad A tiene 100.000+10×5.000=150.000; ciudad B tiene 100.000×1,05¹⁰≈162.889 — ya la superó, y la brecha solo va a seguir creciendo cada año siguiente.",
+    "error_comun": "Se asume que un porcentaje 'pequeño' (como 5%) siempre crece más lento que una cantidad fija 'grande' (como 5.000), sin considerar que el porcentaje se aplica sobre una base que también está creciendo — la comparación correcta no es entre los números iniciales, sino entre los dos tipos de modelo (lineal vs. exponencial).",
+    "tipo_visual": "ninguno",
+    "visual_descripcion": "",
+    "formula_latex": "",
+    "dificultad": "alta",
+    "prereqs": [
+      "RC-ALG-051"
+    ]
   }
 ]

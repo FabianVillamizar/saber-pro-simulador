@@ -563,5 +563,93 @@
     "visual_posicion": "reverso",
     "imagen": "RC-GEO-024.svg",
     "visual_descripcion": "Rosa de los vientos (círculo de 360°) con los cuatro puntos cardinales marcados y la dirección de 200° señalada en la región suroeste."
+  },
+  {
+    "id": "RC-GEO-025",
+    "modulo": "razonamiento_cuantitativo",
+    "tipo": "concepto",
+    "contenido": "geometria",
+    "bloque": "ESPIRAL-RAICES",
+    "modo": "pregunta",
+    "antes": "",
+    "despues": "",
+    "pregunta": "¿Cómo se puede construir, usando solo triángulos rectángulos y el teorema de Pitágoras, un segmento de longitud exactamente √7 sin calculadora ni tabla de raíces?",
+    "respuesta": "Encadenando triángulos rectángulos: el primero tiene ambos catetos de longitud 1, así que su hipotenusa mide √2 (por Pitágoras: 1²+1²=2). El segundo triángulo usa esa hipotenusa (√2) como un cateto y otro cateto de longitud 1, dando una nueva hipotenusa de √3 (porque (√2)²+1²=3). Repitiendo el proceso se obtienen √4, √5, √6 y, en el sexto triángulo, √7 — cada raíz aparece como la hipotenusa de un triángulo más en la cadena, sin calcular ninguna raíz directamente.",
+    "regla": "Esta construcción se llama **espiral de Teodoro** (o 'caracol de Pitágoras'): cada triángulo rectángulo nuevo usa como un cateto la **hipotenusa del triángulo anterior** y como el otro cateto siempre **1**. Por el teorema de Pitágoras, si un triángulo tiene hipotenusa √n, el siguiente triángulo tiene hipotenusa √(n+1) — porque (√n)²+1² = n+1. Encadenando triángulos alrededor de un punto se genera una espiral donde cada 'peldaño' es la raíz cuadrada de un número entero consecutivo, sin que ninguna raíz se calcule directamente: cada una sale de la anterior con solo una suma de cuadrados.",
+    "ejemplo": "Triángulo 1: catetos 1 y 1 → hipotenusa √2. Triángulo 2: catetos √2 y 1 → hipotenusa √3. Triángulo 3: catetos √3 y 1 → hipotenusa √4 = 2 (un valor exacto, verificable a mano: 2²=4). Triángulo 4: catetos 2 y 1 → hipotenusa √5.",
+    "error_comun": "Se piensa que la construcción calcula raíces cuadradas 'mágicamente' o por aproximación, cuando en realidad es una aplicación directa y exacta del teorema de Pitágoras aplicado una y otra vez — cada paso es tan exacto como el anterior, no se acumula error.",
+    "tipo_visual": "diagrama_esquematico",
+    "visual_descripcion": "Espiral formada por 6 triángulos rectángulos encadenados alrededor de un punto central, cada uno compartiendo un cateto de longitud 1 y usando la hipotenusa del anterior como su otro cateto, con las hipotenusas sucesivas marcadas √2, √3, √4, √5, √6, √7.",
+    "formula_latex": "\\sqrt{n+1} = \\sqrt{(\\sqrt{n})^2 + 1^2}",
+    "dificultad": "media",
+    "prereqs": [],
+    "visual_posicion": "frente",
+    "imagen": "RC-GEO-025.svg"
+  },
+  {
+    "id": "RC-GEO-026",
+    "modulo": "razonamiento_cuantitativo",
+    "tipo": "concepto",
+    "contenido": "geometria",
+    "bloque": "ESPIRAL-RAICES",
+    "modo": "cloze",
+    "antes": "En la espiral de Teodoro, el triángulo número n de la cadena (contando el primero, de catetos 1 y 1, como el triángulo 1) tiene como hipotenusa el valor √(n+1). Por eso, para obtener un segmento de longitud exactamente √10 hay que construir el triángulo número ",
+    "despues": " de la espiral, no el triángulo número 10.",
+    "pregunta": "",
+    "respuesta": "9",
+    "regla": "El desfase de 1 entre el número de triángulo y el valor bajo la raíz es la parte más fácil de olvidar de esta construcción: el **triángulo 1** ya da √2 (no √1), porque su hipotenusa sale de 1²+1²=2. En general, el triángulo número n da √(n+1) — así que para llegar a √10 hace falta el triángulo 9 (porque 9+1=10), no el triángulo 10.",
+    "ejemplo": "Para verificar con un caso pequeño: el triángulo 3 da √4=2 (porque 3+1=4), no √3 — el triángulo que da √3 es el número 2.",
+    "error_comun": "Se asume que el triángulo número n da directamente √n (ignorando el desfase de +1), lo que lleva a construir un triángulo de más o de menos en la cadena y obtener una raíz distinta a la que se buscaba.",
+    "tipo_visual": "ninguno",
+    "visual_descripcion": "",
+    "formula_latex": "",
+    "dificultad": "alta",
+    "prereqs": [
+      "RC-GEO-025"
+    ]
+  },
+  {
+    "id": "RC-GEO-027",
+    "modulo": "razonamiento_cuantitativo",
+    "tipo": "concepto",
+    "contenido": "geometria",
+    "bloque": "ROTACION-ORIENTACION",
+    "modo": "cloze",
+    "antes": "Las pistas de aterrizaje se numeran dividiendo su rumbo magnético entre 10 y redondeando (una pista orientada a 240° se llama pista 24). Como una pista se puede usar desde cualquiera de sus dos extremos, la pista opuesta se obtiene sumando o restando ",
+    "despues": " al número de la pista (porque los dos extremos están a 180° de diferencia, y 180°÷10=18).",
+    "pregunta": "",
+    "respuesta": "18",
+    "regla": "El número de una pista es su **rumbo magnético dividido entre 10**, así que trabajar con números de pista es una forma abreviada de trabajar con ángulos de un círculo de 360°. Los dos extremos de una misma pista siempre están a 180° de diferencia (lados opuestos), lo que en números de pista equivale a una diferencia de 180÷10=**18**. Si al sumar o restar 18 el resultado se sale del rango 1-36, hay que ajustarlo sumando o restando 36 (una vuelta completa), igual que con cualquier ángulo de un círculo.",
+    "ejemplo": "La pista opuesta a la pista 24 es 24−18=06. La pista opuesta a la pista 05 es 05+18=23 (sumar, porque restar daría un número negativo).",
+    "error_comun": "Se suma o resta 180 al número de la pista en vez de 18, olvidando que el número de pista ya viene dividido entre 10 (180 sería el ajuste correcto si se trabajara con el rumbo completo en grados, no con el número de pista).",
+    "tipo_visual": "ninguno",
+    "visual_descripcion": "",
+    "formula_latex": "",
+    "dificultad": "media",
+    "prereqs": [
+      "RC-GEO-022"
+    ]
+  },
+  {
+    "id": "RC-GEO-028",
+    "modulo": "razonamiento_cuantitativo",
+    "tipo": "concepto",
+    "contenido": "geometria",
+    "bloque": "ROTACION-ORIENTACION",
+    "modo": "pregunta",
+    "antes": "",
+    "despues": "",
+    "pregunta": "Un piloto alineado con la pista 24 debe girar 30° a la derecha para usar otra pista libre. ¿Con qué número de pista queda alineado después de girar?",
+    "respuesta": "Pista 27. Se convierte primero el número de pista a rumbo completo (24×10=240°), se suma el giro a la derecha (240°+30°=270°), y se vuelve a dividir entre 10 (270°÷10=27).",
+    "regla": "Para rotar un rumbo expresado como número de pista, no se puede sumar o restar los grados girados directamente al número de pista (eso mezclaría una escala ×10 con otra ×1). El procedimiento correcto tiene tres pasos: **1)** convertir el número de pista a rumbo completo (×10), **2)** sumar el giro si es a la derecha o restarlo si es a la izquierda, ajustando con ±360° si el resultado se sale de 0°-360°, **3)** volver a dividir entre 10 para obtener el nuevo número de pista.",
+    "ejemplo": "Un piloto en la pista 06 (rumbo 60°) gira 90° a la izquierda: 60°−90°=−30°, que se ajusta sumando 360° → 330°, así que queda en la pista 33 (330÷10).",
+    "error_comun": "Se suman los grados girados directamente al número de pista (por ejemplo, 24+30=54, un número de pista que ni siquiera existe porque el rango válido es 1-36) en vez de convertir primero a rumbo completo.",
+    "tipo_visual": "ninguno",
+    "visual_descripcion": "",
+    "formula_latex": "",
+    "dificultad": "alta",
+    "prereqs": [
+      "RC-GEO-027"
+    ]
   }
 ]
