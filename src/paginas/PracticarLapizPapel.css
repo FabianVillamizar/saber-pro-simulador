@@ -1,0 +1,691 @@
+@keyframes lp-rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.practicar-lp {
+  max-width: 780px;
+  --lp-error: oklch(48% 0.15 20);
+}
+
+:root[data-theme='dark'] .practicar-lp {
+  --lp-error: oklch(75% 0.13 20);
+}
+
+.practicar-lp-titulo-modulo {
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--text);
+}
+
+.practicar-lp-titulo-sub {
+  font-size: 12px;
+  color: var(--text-faint);
+  margin-top: 1px;
+}
+
+.practicar-lp-contador {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-sub);
+  white-space: nowrap;
+  margin-right: 10px;
+}
+
+.practicar-lp-cuerpo {
+  padding-top: 4px;
+}
+
+/* Nota de encuadre */
+.practicar-lp-nota {
+  display: flex;
+  gap: 11px;
+  align-items: flex-start;
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: 13px;
+  padding: 12px 16px;
+  margin-bottom: 18px;
+  font-size: 12.5px;
+  color: var(--text-sub);
+  line-height: 1.5;
+}
+
+.practicar-lp-nota-icono {
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.practicar-lp-nota b {
+  color: var(--text);
+}
+
+/* Riel de fases */
+.practicar-lp-fases {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.practicar-lp-fase-item {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  flex-shrink: 0;
+}
+
+.practicar-lp-fase-num {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--surface);
+  border: 2px solid var(--border);
+  color: var(--text-sub);
+  font-size: 11px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.practicar-lp-fase-num--activa {
+  border-color: var(--accent);
+  background: color-mix(in oklch, var(--accent) 10%, var(--surface));
+  color: var(--text);
+}
+
+:root[data-theme='dark'] .practicar-lp-fase-num--activa {
+  background: color-mix(in oklch, var(--accent) 20%, var(--surface));
+}
+
+.practicar-lp-fase-num--hecha {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: white;
+}
+
+.practicar-lp-fase-nombre {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.practicar-lp-fase-nombre--tenue {
+  color: var(--text-sub);
+}
+
+.practicar-lp-fase-rail {
+  flex: 1;
+  height: 2px;
+  background: var(--border);
+  margin: 0 12px;
+  min-width: 20px;
+}
+
+.practicar-lp-fase-rail--activa {
+  background: var(--accent);
+}
+
+/* Tarjeta del ejercicio */
+.practicar-lp-tarjeta {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 18px;
+  padding: 24px 26px;
+}
+
+.practicar-lp-tarjeta--trampa {
+  border-left-color: var(--warning);
+}
+
+.practicar-lp-badges {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
+.practicar-lp-badge-tipo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 11px;
+  border-radius: var(--radio-pill);
+  font-size: 11.5px;
+  font-weight: 800;
+}
+
+.practicar-lp-badge-tipo--formula {
+  background: color-mix(in oklch, var(--accent) 12%, var(--surface));
+  color: var(--accent);
+}
+
+:root[data-theme='dark'] .practicar-lp-badge-tipo--formula {
+  background: color-mix(in oklch, var(--accent) 22%, var(--surface));
+}
+
+.practicar-lp-badge-tipo--trampa {
+  background: color-mix(in oklch, var(--warning) 14%, var(--surface));
+  color: var(--warning);
+}
+
+:root[data-theme='dark'] .practicar-lp-badge-tipo--trampa {
+  background: color-mix(in oklch, var(--warning) 24%, var(--surface));
+}
+
+.practicar-lp-badge-sub {
+  padding: 5px 11px;
+  border-radius: var(--radio-pill);
+  background: var(--surface-alt);
+  color: var(--text-sub);
+  font-size: 11.5px;
+  font-weight: 700;
+}
+
+.practicar-lp-enunciado {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.practicar-lp-eyebrow {
+  font-size: 11px;
+  font-weight: 800;
+  color: var(--text-sub);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-bottom: 10px;
+}
+
+/* Fase 1 — opciones */
+.practicar-lp-fase1 {
+  margin-top: 20px;
+}
+
+.practicar-lp-opciones {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.practicar-lp-opcion {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 14px 16px;
+  border-radius: 13px;
+  border: 1.5px solid var(--border);
+  background: var(--surface);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.practicar-lp-opcion:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.practicar-lp-opcion--elegida {
+  border-color: var(--accent);
+  background: color-mix(in oklch, var(--accent) 8%, var(--surface));
+}
+
+:root[data-theme='dark'] .practicar-lp-opcion--elegida {
+  background: color-mix(in oklch, var(--accent) 16%, var(--surface));
+}
+
+.practicar-lp-opcion--correcta {
+  border-color: var(--exito);
+  background: color-mix(in oklch, var(--exito) 8%, var(--surface));
+  cursor: default;
+}
+
+:root[data-theme='dark'] .practicar-lp-opcion--correcta {
+  background: color-mix(in oklch, var(--exito) 15%, var(--surface));
+}
+
+.practicar-lp-opcion--incorrecta {
+  border-color: var(--lp-error);
+  background: color-mix(in oklch, var(--lp-error) 8%, var(--surface));
+  cursor: default;
+}
+
+:root[data-theme='dark'] .practicar-lp-opcion--incorrecta {
+  background: color-mix(in oklch, var(--lp-error) 15%, var(--surface));
+}
+
+.practicar-lp-opcion-letra {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--surface-alt);
+  color: var(--text-sub);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11.5px;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+.practicar-lp-opcion--elegida .practicar-lp-opcion-letra {
+  background: var(--accent);
+  color: white;
+}
+
+.practicar-lp-opcion--correcta .practicar-lp-opcion-letra {
+  background: var(--exito);
+  color: white;
+}
+
+.practicar-lp-opcion--incorrecta .practicar-lp-opcion-letra {
+  background: var(--lp-error);
+  color: white;
+}
+
+.practicar-lp-opcion-texto {
+  flex: 1;
+  min-width: 0;
+  font-size: 14.5px;
+  color: var(--text);
+  line-height: 1.45;
+}
+
+/* Revelado de fase 1 */
+.practicar-lp-revelado {
+  margin-top: 16px;
+  border-left: 3px solid var(--accent);
+  background: color-mix(in oklch, var(--accent) 6%, var(--surface));
+  border-radius: 0 12px 12px 0;
+  padding: 14px 18px;
+  animation: lp-rise 0.25s ease;
+}
+
+:root[data-theme='dark'] .practicar-lp-revelado--formula {
+  background: color-mix(in oklch, var(--accent) 12%, var(--surface));
+}
+
+.practicar-lp-revelado--trampa {
+  border-left-color: var(--warning);
+  background: color-mix(in oklch, var(--warning) 6%, var(--surface));
+}
+
+:root[data-theme='dark'] .practicar-lp-revelado--trampa {
+  background: color-mix(in oklch, var(--warning) 12%, var(--surface));
+}
+
+.practicar-lp-revelado-titulo {
+  font-size: 11px;
+  font-weight: 800;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-bottom: 6px;
+}
+
+.practicar-lp-revelado--trampa .practicar-lp-revelado-titulo {
+  color: var(--warning);
+}
+
+.practicar-lp-revelado-formula {
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.practicar-lp-revelado-texto {
+  font-size: 14px;
+  color: var(--text-sub);
+  line-height: 1.55;
+}
+
+.practicar-lp-cta {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  width: fit-content;
+}
+
+/* Fase 2 */
+.practicar-lp-fase2 {
+  margin-top: 18px;
+  animation: lp-rise 0.25s ease;
+}
+
+.practicar-lp-enfoque {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 11px 15px;
+  border-radius: 12px;
+  background: color-mix(in oklch, var(--accent) 6%, var(--surface));
+  border: 1px solid color-mix(in oklch, var(--accent) 30%, var(--border));
+}
+
+:root[data-theme='dark'] .practicar-lp-enfoque {
+  background: color-mix(in oklch, var(--accent) 12%, var(--surface));
+}
+
+.practicar-lp-enfoque--trampa {
+  background: color-mix(in oklch, var(--warning) 6%, var(--surface));
+  border-color: color-mix(in oklch, var(--warning) 30%, var(--border));
+}
+
+:root[data-theme='dark'] .practicar-lp-enfoque--trampa {
+  background: color-mix(in oklch, var(--warning) 12%, var(--surface));
+}
+
+.practicar-lp-enfoque-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.practicar-lp-enfoque-eyebrow {
+  font-size: 10.5px;
+  font-weight: 800;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.practicar-lp-enfoque--trampa .practicar-lp-enfoque-eyebrow {
+  color: var(--warning);
+}
+
+.practicar-lp-enfoque-nombre {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--text);
+  margin-top: 2px;
+}
+
+.practicar-lp-enfoque-formula {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+  flex-shrink: 0;
+}
+
+.practicar-lp-separador {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.practicar-lp-separador-linea {
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+.practicar-lp-separador-texto {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--text-sub);
+  white-space: nowrap;
+}
+
+.practicar-lp-input-bloque {
+  margin-top: 16px;
+}
+
+.practicar-lp-input {
+  width: 100%;
+  padding: 13px 16px;
+  border-radius: 12px;
+  border: 1.5px solid var(--border);
+  background: var(--surface-alt);
+  color: var(--text);
+  font-size: 15px;
+  font-family: inherit;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.practicar-lp-input:focus {
+  border-color: var(--accent);
+}
+
+.practicar-lp-boton-secundario {
+  margin-top: 16px;
+  padding: 13px 22px;
+  border-radius: 13px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-sub);
+  font-weight: 700;
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color var(--dur-hover) ease, color var(--dur-hover) ease;
+}
+
+.practicar-lp-boton-secundario:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Solución */
+.practicar-lp-solucion {
+  margin-top: 16px;
+  animation: lp-rise 0.25s ease;
+}
+
+.practicar-lp-solucion-caja {
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px 18px;
+}
+
+.practicar-lp-solucion-respuesta {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--text);
+}
+
+.practicar-lp-solucion-desarrollo {
+  font-size: 13.5px;
+  color: var(--text-sub);
+  line-height: 1.55;
+  margin-top: 10px;
+}
+
+/* Atajo vs. a pulso */
+.practicar-lp-atajo {
+  margin-top: 14px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.practicar-lp-atajo-fila {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 16px;
+}
+
+.practicar-lp-atajo-fila--formula {
+  background: color-mix(in oklch, var(--accent) 6%, var(--surface));
+  border-bottom: 1px solid var(--border);
+}
+
+:root[data-theme='dark'] .practicar-lp-atajo-fila--formula {
+  background: color-mix(in oklch, var(--accent) 12%, var(--surface));
+}
+
+.practicar-lp-atajo-fila--trampa {
+  background: color-mix(in oklch, var(--warning) 6%, var(--surface));
+  border-bottom: 1px solid var(--border);
+}
+
+:root[data-theme='dark'] .practicar-lp-atajo-fila--trampa {
+  background: color-mix(in oklch, var(--warning) 12%, var(--surface));
+}
+
+.practicar-lp-atajo-etiqueta {
+  width: 60px;
+  flex-shrink: 0;
+  font-size: 10.5px;
+  font-weight: 800;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.practicar-lp-tarjeta--trampa .practicar-lp-atajo-etiqueta {
+  color: var(--warning);
+}
+
+.practicar-lp-atajo-etiqueta--tenue {
+  color: var(--text-sub);
+}
+
+.practicar-lp-atajo-barra {
+  flex: 1;
+  height: 9px;
+  border-radius: var(--radio-pill);
+  background: var(--border);
+  overflow: hidden;
+}
+
+.practicar-lp-atajo-relleno {
+  height: 100%;
+  background: var(--accent);
+  border-radius: var(--radio-pill);
+}
+
+.practicar-lp-tarjeta--trampa .practicar-lp-atajo-relleno {
+  background: var(--warning);
+}
+
+.practicar-lp-atajo-relleno--tenue {
+  background: var(--text-faint);
+}
+
+.practicar-lp-atajo-costo {
+  width: 130px;
+  flex-shrink: 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text);
+  text-align: right;
+}
+
+.practicar-lp-atajo-costo--tenue {
+  color: var(--text-sub);
+}
+
+.practicar-lp-nota-atajo {
+  font-size: 12.5px;
+  color: var(--text-sub);
+  line-height: 1.55;
+  margin: 10px 0 0;
+}
+
+/* Autoevaluación */
+.practicar-lp-autoeval {
+  margin-top: 20px;
+}
+
+.practicar-lp-autoeval-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 9px;
+}
+
+.practicar-lp-autoeval-boton {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  border-radius: 13px;
+  padding: 13px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: filter var(--dur-hover) ease;
+}
+
+.practicar-lp-autoeval-boton:hover {
+  filter: brightness(0.97);
+}
+
+.practicar-lp-autoeval-label {
+  font-size: 13.5px;
+  font-weight: 800;
+  color: var(--text);
+}
+
+.practicar-lp-autoeval-sub {
+  font-size: 10.5px;
+  font-weight: 600;
+  color: var(--text-sub);
+  text-align: center;
+  line-height: 1.3;
+}
+
+.practicar-lp-autoeval-boton--ni_idea {
+  border-color: color-mix(in oklch, var(--lp-error) 28%, var(--border));
+  background: color-mix(in oklch, var(--lp-error) 9%, var(--surface));
+}
+
+.practicar-lp-autoeval-boton--ni_idea .practicar-lp-autoeval-label {
+  color: var(--lp-error);
+}
+
+.practicar-lp-autoeval-boton--con_esfuerzo {
+  border-color: color-mix(in oklch, var(--warning) 28%, var(--border));
+  background: color-mix(in oklch, var(--warning) 9%, var(--surface));
+}
+
+.practicar-lp-autoeval-boton--con_esfuerzo .practicar-lp-autoeval-label {
+  color: var(--warning);
+}
+
+.practicar-lp-autoeval-boton--lo_reconoci {
+  border-color: color-mix(in oklch, var(--accent) 28%, var(--border));
+  background: color-mix(in oklch, var(--accent) 9%, var(--surface));
+}
+
+.practicar-lp-autoeval-boton--lo_reconoci .practicar-lp-autoeval-label {
+  color: var(--accent);
+}
+
+.practicar-lp-autoeval-boton--inmediato {
+  border-color: color-mix(in oklch, var(--exito) 28%, var(--border));
+  background: color-mix(in oklch, var(--exito) 9%, var(--surface));
+}
+
+.practicar-lp-autoeval-boton--inmediato .practicar-lp-autoeval-label {
+  color: var(--exito);
+}
+
+/* Pie */
+.practicar-lp-pie {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.practicar-lp-pie .practicar-lp-boton-secundario {
+  margin-top: 0;
+}

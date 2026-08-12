@@ -28,6 +28,7 @@ export async function cargarModulo(moduloId) {
   const temasEnsayo = []
   const ejercicios = []
   const contraejemplos = []
+  const lapizPapel = []
 
   // Mismo discriminador estructural que antes, ampliado para Comunicación
   // Escrita (que no tiene ítems de opción múltiple, solo tarjetas de
@@ -39,10 +40,13 @@ export async function cargarModulo(moduloId) {
   // `dominio`; un micro-ejercicio (Ejercicios rápidos) siempre tiene
   // `ejercicio`; un contraejemplo (ensayo defectuoso demostrado, mismo
   // origen de datos que los ensayos modelo pero para el modo "Corrige el
-  // error") siempre tiene `error_demostrado`. Cada chequeo es mutuamente
-  // excluyente con los anteriores, así que el orden no importa salvo por
-  // legibilidad. Para cualquier otro módulo estas listas quedan vacías y
-  // no las consume nadie.
+  // error") siempre tiene `error_demostrado`. Un ejercicio de "Lápiz y
+  // papel" (Razonamiento Cuantitativo, ver PracticarLapizPapel.jsx) siempre
+  // tiene `promptFase1` — el enunciado de su fase 1 (reconocer el enfoque
+  // antes de calcular), campo que ninguna otra entidad usa. Cada chequeo es
+  // mutuamente excluyente con los anteriores, así que el orden no importa
+  // salvo por legibilidad. Para cualquier otro módulo estas listas quedan
+  // vacías y no las consume nadie.
   for (const modulo of archivosCargados) {
     const entradas = modulo.default ?? modulo
     for (const entrada of entradas) {
@@ -51,6 +55,7 @@ export async function cargarModulo(moduloId) {
       else if ('dominio' in entrada) temasEnsayo.push(entrada)
       else if ('ejercicio' in entrada) ejercicios.push(entrada)
       else if ('error_demostrado' in entrada) contraejemplos.push(entrada)
+      else if ('promptFase1' in entrada) lapizPapel.push(entrada)
       else tarjetasConcepto.push(entrada)
     }
   }
@@ -65,5 +70,6 @@ export async function cargarModulo(moduloId) {
     temasEnsayo,
     ejercicios,
     contraejemplos,
+    lapizPapel,
   }
 }

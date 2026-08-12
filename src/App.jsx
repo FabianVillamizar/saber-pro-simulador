@@ -16,8 +16,10 @@ import { EnsayosModelo } from './paginas/EnsayosModelo.jsx'
 import { PracticarEnsayo } from './paginas/PracticarEnsayo.jsx'
 import { EjerciciosRapidos } from './paginas/EjerciciosRapidos.jsx'
 import { EscribeLaRespuesta } from './paginas/EscribeLaRespuesta.jsx'
+import { PracticarLapizPapel } from './paginas/PracticarLapizPapel.jsx'
 import { ExploracionCompetencias } from './paginas/ExploracionCompetencias.jsx'
 import { ExploracionLecturaCritica } from './paginas/ExploracionLecturaCritica.jsx'
+import { ExploracionRazonamientoCuantitativo } from './paginas/ExploracionRazonamientoCuantitativo.jsx'
 
 function App() {
   const { perfil, cambiarPerfil } = usePerfilActivo()
@@ -73,6 +75,7 @@ function App() {
   const COMPONENTES_EXPLORACION = {
     'competencias-ciudadanas': ExploracionCompetencias,
     'lectura-critica': ExploracionLecturaCritica,
+    'razonamiento-cuantitativo': ExploracionRazonamientoCuantitativo,
   }
 
   const irAModo = (modo, moduloId) => {
@@ -235,6 +238,20 @@ function App() {
   if (pantalla.tipo === 'ejercicios-rapidos') {
     return (
       <EjerciciosRapidos
+        moduloId={pantalla.moduloId}
+        perfil={perfil}
+        onCambiarPerfil={onCambiarPerfil}
+        onVolver={volverAModulo}
+      />
+    )
+  }
+
+  // Modo propio de Razonamiento Cuantitativo (ver ModuloHub.jsx /
+  // MODO_LAPIZ_PAPEL_RC) — mismo patrón que 'escribe-respuesta': convive
+  // con los 3 modos estándar, así que toma moduloId de pantalla.
+  if (pantalla.tipo === 'lapiz-papel') {
+    return (
+      <PracticarLapizPapel
         moduloId={pantalla.moduloId}
         perfil={perfil}
         onCambiarPerfil={onCambiarPerfil}

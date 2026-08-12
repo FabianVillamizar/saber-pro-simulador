@@ -70,6 +70,18 @@ const MODO_ESCRIBIR_INGLES = {
   descripcion: 'Las mismas tarjetas de Repaso, pero escribes la respuesta antes de verla.',
 }
 
+// Razonamiento Cuantitativo es el único módulo cuyo cuadernillo oficial
+// ICFES advierte explícitamente "no se le pide usar calculadora... no se
+// pedirá que elabore operaciones extenuantes" — el objeto de evaluación es
+// reconocer el enfoque, no la velocidad de cálculo. Igual que
+// MODO_ESCRIBIR_INGLES, convive con los 3 modos estándar en vez de
+// reemplazarlos (RC sí es un módulo de examen normal con ítems reales).
+const MODO_LAPIZ_PAPEL_RC = {
+  id: 'lapiz-papel',
+  nombre: 'Lápiz y papel',
+  descripcion: 'Reconoce el enfoque antes de calcular, resuelve a mano y compárate contra el atajo.',
+}
+
 // Comunicación Escrita tampoco es un módulo de opción múltiple: el ICFES
 // evalúa un ensayo argumentativo completo, así que sus modos propios
 // reemplazan práctica/simulacro igual que Français (ver MODOS_FRANCES).
@@ -101,6 +113,7 @@ export function ModuloHub({ moduloId, perfil, onCambiarPerfil, onVolver, onSelec
   const esFrances = moduloId === 'frances'
   const esComunicacionEscrita = moduloId === 'comunicacion-escrita'
   const esIngles = moduloId === 'ingles'
+  const esRazonamientoCuantitativo = moduloId === 'razonamiento-cuantitativo'
 
   // "Práctica por sub-categoría" solo tiene sentido si el módulo tiene
   // preguntas — francés, por ejemplo, es solo repaso de conceptos porque
@@ -118,6 +131,7 @@ export function ModuloHub({ moduloId, perfil, onCambiarPerfil, onVolver, onSelec
             (modo) => modo.id !== 'practica-parte' || modulo.preguntas.length > 0
           ),
           ...(esIngles ? [MODO_ESCRIBIR_INGLES] : []),
+          ...(esRazonamientoCuantitativo ? [MODO_LAPIZ_PAPEL_RC] : []),
         ]
 
   const esDiosgenina = moduloId === 'diosgenina'
