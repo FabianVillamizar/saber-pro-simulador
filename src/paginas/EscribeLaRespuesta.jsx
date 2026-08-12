@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useModulo } from '../hooks/useModulo.js'
 import { useTheme } from '../hooks/useTheme.js'
 import { leerJSON, escribirJSON } from '../engine/storage.js'
@@ -54,6 +54,23 @@ export function EscribeLaRespuesta({ moduloId, perfil, onCambiarPerfil, onVolver
   const [aciertosPrimerIntento, setAciertosPrimerIntento] = useState(0)
   const [valor, setValor] = useState('')
   const [estado, setEstado] = useState(null) // null | 'correcto' | 'incorrecto'
+
+  // Una vez revelada la respuesta, el input desaparece (se reemplaza por el
+  // span revelado) y con él el foco — sin este listener global, Enter deja
+  // de hacer nada tras verificar y hay que usar el mouse para "Siguiente",
+  // rompiendo el flujo de teclado que sí funciona para el primer paso
+  // (verificar corre por el onSubmit del form).
+  useEffect(() => {
+    if (!estado) return
+    function alPresionarTecla(ev) {
+      if (ev.key === 'Enter') {
+        ev.preventDefault()
+        siguiente()
+      }
+    }
+    window.addEventListener('keydown', alPresionarTecla)
+    return () => window.removeEventListener('keydown', alPresionarTecla)
+  }, [estado, cola])
 
   if (cargando) return <div className="page estado-carga">Cargando…</div>
   if (error) return <div className="page estado-error">No se pudo cargar el módulo: {error.message}</div>
@@ -263,7 +280,7 @@ export function EscribeLaRespuesta({ moduloId, perfil, onCambiarPerfil, onVolver
         </div>
         {!estado && (
           <button type="submit" className="boton-primario escribe-boton-verificar" disabled={!valor.trim()}>
-            Verificar
+            Verificar <span className="escribe-hint-enter">(Enter)</span>
           </button>
         )}
       </form>
@@ -304,7 +321,7 @@ export function EscribeLaRespuesta({ moduloId, perfil, onCambiarPerfil, onVolver
           </div>
 
           <button type="button" className="boton-primario escribe-boton-siguiente" onClick={siguiente}>
-            Siguiente
+            Siguiente <span className="escribe-hint-enter">(Enter)</span>
           </button>
         </>
       )}

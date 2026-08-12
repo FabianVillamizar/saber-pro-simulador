@@ -1653,5 +1653,292 @@
     "prereqs": [
       "ING-GRA-095"
     ]
+  },
+  {
+    "id": "ING-GRA-101",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A1",
+    "bloque": "auxiliares_do_does_did",
+    "antes": "",
+    "despues": "you like pizza?",
+    "respuesta": "Do",
+    "regla": "Las preguntas de sí/no en **presente simple** con sujetos I/you/we/they se forman con **Do** al inicio + sujeto + verbo en forma base (sin -s ni -ing). El verbo principal nunca cambia de forma en la pregunta.",
+    "ejemplo": "Do they live near the city center?",
+    "error_comun": "Un error común entre hispanohablantes es omitir 'do' y usar solo el orden de una afirmación con entonación de pregunta, diciendo **'You like pizza?'** en vez de 'Do you like pizza?', porque en español las preguntas de sí/no a menudo se forman solo con entonación, sin un auxiliar añadido.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-102",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A1",
+    "bloque": "auxiliares_do_does_did",
+    "antes": "She",
+    "despues": "coffee in the morning; she prefers tea.",
+    "respuesta": "doesn't drink",
+    "regla": "Las negaciones en presente simple usan **don't** (I/you/we/they) o **doesn't** (he/she/it) + verbo en forma base. Con 'doesn't', el verbo principal **pierde la -s** de tercera persona, porque el auxiliar ya carga esa marca.",
+    "ejemplo": "He doesn't eat meat, but he eats fish.",
+    "error_comun": "Un error muy común es mantener la -s en el verbo principal después de 'doesn't', diciendo **'she doesn't drinks coffee'** — la marca de tercera persona solo puede aparecer una vez, y con 'doesn't' ya está en el auxiliar, no en el verbo.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-103",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "auxiliares_do_does_did",
+    "antes": "",
+    "despues": "you go to the party last night?",
+    "respuesta": "Did",
+    "regla": "Las preguntas de sí/no en **pasado simple** se forman con **Did** al inicio + sujeto + verbo en forma **base** (nunca en pasado). Toda la marca de tiempo pasado recae en 'did'; el verbo principal se queda sin conjugar.",
+    "ejemplo": "Did she call you back yesterday?",
+    "error_comun": "El error más frecuente de todo el pasado simple: conjugar el verbo dos veces, diciendo **'Did you went to the party?'** en vez de 'Did you go...?'. Como en español el pasado se marca en el verbo ('¿fuiste?'), es natural querer marcarlo también en inglés — pero 'did' ya es esa marca, y repetirla en el verbo ('went') es incorrecto: solo una de las dos piezas, auxiliar o verbo, lleva la marca de pasado, nunca ambas a la vez.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-007"
+    ]
+  },
+  {
+    "id": "ING-GRA-104",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "auxiliares_do_does_did",
+    "antes": "I",
+    "despues": "him at the meeting yesterday.",
+    "respuesta": "didn't see",
+    "regla": "Las negaciones en pasado simple se forman con **didn't** + verbo en forma base (nunca en pasado). Igual que con 'did' en preguntas, la marca de pasado vive en el auxiliar, no en el verbo principal.",
+    "ejemplo": "They didn't finish the project on time.",
+    "error_comun": "El mismo error de doble marcación aparece en negativo: decir **'I didn't saw him'** en vez de 'I didn't see him', conjugando el verbo en pasado cuando 'didn't' ya indica que la acción es pasada y negada.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-103"
+    ]
+  },
+  {
+    "id": "ING-GRA-105",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "auxiliares_do_does_did",
+    "antes": "",
+    "despues": "she work on weekends?",
+    "respuesta": "Does",
+    "regla": "Con sujetos de tercera persona singular (he/she/it), las preguntas de sí/no en presente simple usan **Does** + sujeto + verbo base — nunca 'do' ni el verbo con -s, porque la -s de tercera persona ya está representada en 'does'.",
+    "ejemplo": "Does your brother speak French?",
+    "error_comun": "Un error común es duplicar la marca de tercera persona, diciendo **'Does she works on weekends?'**, agregando -s al verbo cuando 'does' ya cumple esa función — el mismo principio de 'una sola marca' que aplica con 'did' en pasado.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-101"
+    ]
+  },
+  {
+    "id": "ING-GRA-106",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "auxiliares_do_does_did",
+    "antes": "I know I forgot your birthday last year, but I",
+    "despues": "remember it this year!",
+    "respuesta": "did remember",
+    "regla": "**Do/does/did** también se usan de forma enfática antes de un verbo en forma base (sin necesidad de pregunta o negación) para **dar énfasis o contradecir** algo que se asumía falso — en el habla, 'did' recibe un golpe de voz fuerte.",
+    "ejemplo": "She says I never listen, but I do listen — I just don't always agree.",
+    "error_comun": "Muchos hispanohablantes no reconocen esta estructura porque no existe un equivalente directo en español (donde el énfasis se logra con la entonación o palabras como 'sí que'), y en su lugar repiten el verbo conjugado normalmente, perdiendo el matiz de corrección/contraste que 'did remember' comunica frente a un simple 'remembered'.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-103"
+    ]
+  },
+  {
+    "id": "ING-GRA-107",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "tiempos_pasado",
+    "antes": "I",
+    "despues": "play the piano every day, but I don't have time anymore.",
+    "respuesta": "used to",
+    "regla": "**Used to** + verbo base describe un hábito o estado que era cierto en el pasado pero **ya no lo es**. Se usa tanto para acciones repetidas como para estados (vivir en un lugar, tener cierto pelo, etc.).",
+    "ejemplo": "She used to live in Bogotá before she moved to Cali.",
+    "error_comun": "Un error de ortografía muy común es escribir **'use to'** en vez de 'used to' en afirmativo, olvidando la -d — la confusión viene de que en preguntas y negaciones sí se usa 'use to' sin -d ('did you use to...?', 'I didn't use to...'), lo que genera inseguridad sobre cuándo lleva la -d.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-007"
+    ]
+  },
+  {
+    "id": "ING-GRA-108",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "tiempos_pasado",
+    "antes": "Every summer, my grandfather",
+    "despues": "take us fishing at the lake.",
+    "respuesta": "would",
+    "regla": "**Would** también describe hábitos pasados repetidos, como 'used to', pero **solo funciona con acciones**, nunca con estados (like/have/be/live/know). Para estados solo se puede usar 'used to', nunca 'would'.",
+    "ejemplo": "We would spend hours playing in the yard when we were kids.",
+    "error_comun": "Un error común es usar 'would' con verbos de estado, diciendo **'I would have a bicycle when I was young'** en vez de 'I used to have a bicycle' — 'would' solo funciona con acciones repetibles (ir, jugar, visitar), no con estados que no describen un evento puntual repetido.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-107"
+    ]
+  },
+  {
+    "id": "ING-GRA-109",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "modales_consejo_posibilidad",
+    "antes": "He",
+    "despues": "finished the report already — he only started an hour ago.",
+    "respuesta": "can't have",
+    "regla": "**Can't have + participio pasado** expresa que algo es **casi imposible** que haya ocurrido, según la evidencia disponible: es el opuesto lógico de 'must have' (deducción positiva muy probable).",
+    "ejemplo": "She can't have left yet; her car is still in the driveway.",
+    "error_comun": "Un error común es usar 'mustn't have', que no existe con este significado en inglés estándar, o negar 'must' de forma regular — la negación de una deducción fuerte siempre usa **can't have**, no una forma negativa de 'must'.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-056"
+    ]
+  },
+  {
+    "id": "ING-GRA-110",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "modales_consejo_posibilidad",
+    "antes": "You",
+    "despues": "brought an umbrella — it didn't rain at all.",
+    "respuesta": "needn't have",
+    "regla": "**Needn't have + participio pasado** se usa cuando alguien hizo algo que **al final resultó innecesario** — a diferencia de 'didn't need to', que simplemente dice que algo no era necesario, sin indicar si se hizo o no.",
+    "ejemplo": "I needn't have rushed; the meeting was cancelled anyway.",
+    "error_comun": "Un error común es confundir 'needn't have' con 'didn't need to', usándolos como sinónimos perfectos: 'didn't need to' no revela si la acción se realizó, mientras que 'needn't have' siempre implica que **sí se hizo**, y en retrospectiva no hacía falta.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-052"
+    ]
+  },
+  {
+    "id": "ING-GRA-111",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "modales_consejo_posibilidad",
+    "antes": "I'm really tired tonight — I",
+    "despues": "stay home than go to the party.",
+    "respuesta": "would rather",
+    "regla": "**Would rather** + verbo base expresa una **preferencia** entre dos opciones. Al comparar dos acciones se usa 'would rather... than...', similar en función a 'prefer... to...' pero con estructura gramatical distinta.",
+    "ejemplo": "She would rather walk than take the bus.",
+    "error_comun": "Un error común es agregar 'to' después de 'would rather', diciendo **'I would rather to stay home'**, por analogía con 'prefer to' — pero 'would rather' funciona como un modal y va directo con el verbo base, sin 'to'.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-029"
+    ]
+  },
+  {
+    "id": "ING-GRA-112",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "condicionales",
+    "antes": "",
+    "despues": "you hurry, you'll miss the train.",
+    "respuesta": "Unless",
+    "regla": "**Unless** significa **'a menos que' / 'si no'** e introduce una condición negativa: 'unless X, Y' equivale a 'if not X, Y'. La cláusula con 'unless' sigue la misma regla del first conditional (presente simple, nunca 'will').",
+    "ejemplo": "Unless you apologize, she won't forgive you.",
+    "error_comun": "Un error común es combinar 'unless' con una negación adicional, diciendo **'Unless you don't hurry'**, lo cual duplica la negación de forma incorrecta — 'unless' ya significa 'si no', así que la cláusula que lo sigue debe ir en afirmativo.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-028"
+    ]
+  },
+  {
+    "id": "ING-GRA-113",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "condicionales",
+    "antes": "I wish I",
+    "despues": "more free time these days — I'm always so busy.",
+    "respuesta": "had",
+    "regla": "**Wish** + **past simple** expresa un deseo sobre una situación **presente** que no es cierta — el pasado simple aquí no habla del pasado, sino que marca que la situación es hipotética o contraria a la realidad actual (igual que en el second conditional).",
+    "ejemplo": "I wish I spoke Japanese fluently.",
+    "error_comun": "Un error común es usar presente simple después de 'wish', diciendo **'I wish I have more free time'**, calcando la estructura del español ('ojalá tenga'), cuando en inglés siempre se necesita una forma pasada para marcar que el deseo es sobre algo que no es verdad ahora.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-029"
+    ]
+  },
+  {
+    "id": "ING-GRA-114",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "condicionales",
+    "antes": "I wish I",
+    "despues": "harder for that exam — I really regret not doing it.",
+    "respuesta": "had studied",
+    "regla": "**Wish** + **past perfect** (had + participio) expresa arrepentimiento sobre algo del **pasado** que ya no se puede cambiar — el equivalente de 'wish' para hechos ya ocurridos, similar en lógica al third conditional.",
+    "ejemplo": "He wishes he had accepted that job offer.",
+    "error_comun": "Un error común es usar past simple en vez de past perfect cuando el arrepentimiento es sobre el pasado, diciendo **'I wish I studied harder'**, sin distinguir que se refiere a un evento que ya terminó (necesita had + participio) y no a una situación presente hipotética.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-113",
+      "ING-GRA-030"
+    ]
+  },
+  {
+    "id": "ING-GRA-115",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "voz_pasiva",
+    "antes": "This report",
+    "despues": "by Friday, or the client will be upset.",
+    "respuesta": "must be finished",
+    "regla": "La voz pasiva con verbos modales se forma con **modal + be + participio pasado** (must be finished, should be checked, can be improved). El modal siempre va seguido de 'be', nunca del verbo conjugado directamente.",
+    "ejemplo": "This medicine should be taken twice a day.",
+    "error_comun": "Un error común es olvidar 'be' después del modal, diciendo **'This report must finished by Friday'**, o usar la forma conjugada del verbo en vez del participio, diciendo **'must be finish'** — la estructura siempre necesita las dos piezas juntas: 'be' + participio.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-034",
+      "ING-GRA-048"
+    ]
+  },
+  {
+    "id": "ING-GRA-116",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "voz_pasiva",
+    "antes": "The documents",
+    "despues": "already, so you can pick them up whenever you want.",
+    "respuesta": "have been signed",
+    "regla": "El present perfect pasivo se forma con **have/has been + participio pasado**, y se usa para hablar de una acción pasiva completada que tiene relevancia en el presente (igual que el present perfect activo, pero enfocado en el receptor de la acción).",
+    "ejemplo": "The invitations have already been sent to all the guests.",
+    "error_comun": "Un error común es omitir 'been', diciendo **'The documents have signed already'**, que suena como voz activa incompleta (le falta el objeto) en vez de pasiva — 'been' es la pieza que marca que se trata de voz pasiva dentro del present perfect.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-035"
+    ]
+  },
+  {
+    "id": "ING-GRA-117",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "voz_pasiva",
+    "antes": "I",
+    "despues": "at the shop yesterday because the engine was making a strange noise.",
+    "respuesta": "had my car repaired",
+    "regla": "La estructura causativa **have + objeto + participio pasado** se usa cuando alguien **paga o pide a otra persona** que haga algo por uno, en vez de hacerlo uno mismo. 'I had my car repaired' significa que otra persona (un mecánico) reparó el carro, no yo.",
+    "ejemplo": "She had her hair cut before the wedding.",
+    "error_comun": "Un error común es decir **'I repaired my car'** cuando en realidad alguien más lo hizo, perdiendo la distinción que sí existe en inglés entre hacer algo uno mismo y pagar/pedir que alguien más lo haga.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-033"
+    ]
   }
 ]
