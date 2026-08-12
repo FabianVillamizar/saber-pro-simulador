@@ -1430,5 +1430,299 @@
         }
       }
     ]
+  },
+  {
+    "id": "ING-P4-TEXTO-009",
+    "modulo": "ingles",
+    "parte": 4,
+    "tipo": "cloze_gramatical",
+    "nivel_mcer": "B2",
+    "titulo": "The Interview That Changed Everything",
+    "texto_con_huecos": "Last month, I applied for a marketing job at a well-known company. Before the interview, my friend Carla, who works there, asked me if I [1] the department before. I told her I hadn't, but I had done a lot of research online. On the day of the interview, I arrived early and waited nervously in the lobby. The interviewer, a calm woman named Mrs. Reyes, greeted me and asked whether I [2] comfortable starting right away. I said yes, so we began immediately. She wanted to know why [3] this particular company, and I explained that I admired their recent projects. Halfway through, she smiled and said, 'You're used to public speaking, [4]?' I laughed and admitted that I still got nervous sometimes. Then she asked me a tricky question: could I tell her [5] I would handle a difficult client. I paused, thought carefully, and gave an honest answer. Near the end, she asked, 'You [6] send us your portfolio before, right?' I confirmed that I had. As I left, I wondered [7] I had said the right things. A week later, Carla called to say I'd gotten the job — she couldn't believe it, [8]?",
+    "huecos": [
+      {
+        "num": 1,
+        "categoria_gramatical": "preguntas_indirectas",
+        "opciones": { "A": "had visited", "B": "have I visited", "C": "did I visited" },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Dentro de una pregunta incrustada ('asked me if...'), el orden vuelve a ser sujeto + verbo, sin inversión, y el tiempo se retrocede a past perfect porque la visita (si ocurrió) fue anterior a la entrevista.",
+        "distractores": {
+          "B": {
+            "explicacion": "Mantiene la inversión de la pregunta directa ('have I visited') dentro de la incrustada, cuando ahí el orden debe volver a sujeto + verbo.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "Combina el auxiliar 'did' con el verbo ya conjugado en pasado ('visited'), marcando el tiempo pasado dos veces — el mismo error de doble marcación que 'did you went'.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "categoria_gramatical": "preguntas_indirectas",
+        "opciones": { "A": "was", "B": "am I", "C": "were" },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La pregunta incrustada con 'whether' mantiene el orden sujeto + verbo, y el tiempo se retrocede a pasado ('was') porque se reporta lo que preguntó la entrevistadora.",
+        "distractores": {
+          "B": {
+            "explicacion": "Mantiene la inversión ('am I') propia de la pregunta directa, que no corresponde dentro de una cláusula incrustada.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "El sujeto 'I' concuerda con 'was', no con 'were' (que sería propio de un contexto subjuntivo distinto, como 'if I were you').",
+            "patron_trampa": "concordancia_incorrecta"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "categoria_gramatical": "preguntas_indirectas",
+        "opciones": { "A": "I had chosen", "B": "did I choose", "C": "I have chosen" },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Después del wh-word ('why') en una pregunta incrustada, el orden es sujeto + verbo, y el past perfect ('had chosen') marca que la elección de la empresa fue anterior a la entrevista misma.",
+        "distractores": {
+          "B": {
+            "explicacion": "Reintroduce el auxiliar y la inversión de la pregunta directa ('did I choose') dentro de la cláusula incrustada, donde no corresponde.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "El present perfect ('have chosen') no encaja en una narración completamente ubicada en el pasado; se necesita el past perfect para marcar que la elección fue anterior a la entrevista.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "categoria_gramatical": "question_tags",
+        "opciones": { "A": "aren't you", "B": "are you", "C": "don't you" },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La oración principal es afirmativa ('You're used to...'), así que la coletilla debe ser negativa, usando el mismo auxiliar 'be': 'aren't you'.",
+        "distractores": {
+          "B": {
+            "explicacion": "Repite la misma polaridad afirmativa de la oración principal, cuando la coletilla debe invertirla.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "Usa el auxiliar 'do' en vez de 'be', pero la oración principal usa 'be' ('you're'), así que la coletilla también debe usar 'be'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "categoria_gramatical": "preguntas_indirectas",
+        "opciones": { "A": "how", "B": "how would", "C": "that" },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El wh-word 'how' introduce la pregunta incrustada, y el resto de la cláusula ('I would handle...') ya mantiene el orden sujeto + verbo sin repetir el auxiliar.",
+        "distractores": {
+          "B": {
+            "explicacion": "Repite el auxiliar 'would' justo después del wh-word, duplicando la marca modal que ya aparece más adelante en 'I would handle'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'That' introduce cláusulas de afirmación, no preguntas incrustadas con wh-word; aquí se necesita 'how' para preguntar por la manera.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 6,
+        "categoria_gramatical": "auxiliares_do_does_did",
+        "opciones": { "A": "did", "B": "have", "C": "do" },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Did' + verbo base ('did send') se usa aquí de forma enfática, para confirmar algo que ya ocurrió — muy natural en una pregunta de confirmación como esta.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Have' como auxiliar perfecto necesita el participio 'sent', no la forma base 'send' — 'have send' es una combinación inválida.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Do' es presente, pero la pregunta se refiere claramente a algo ya ocurrido ('before'), así que el tiempo correcto es pasado.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          }
+        }
+      },
+      {
+        "num": 7,
+        "categoria_gramatical": "preguntas_indirectas",
+        "opciones": { "A": "if", "B": "that", "C": "what" },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Wonder' + pregunta de sí/no incrustada necesita el conector 'if' (o 'whether'), ya que no hay palabra interrogativa específica que reemplazar.",
+        "distractores": {
+          "B": {
+            "explicacion": "'That' introduce una afirmación, no una pregunta de sí/no incrustada, que es lo que exige el sentido de la oración.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'What' dejaría la oración sin sentido junto con 'the right things' ya presente después, porque 'said' no puede tener dos objetos a la vez.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 8,
+        "categoria_gramatical": "question_tags",
+        "opciones": { "A": "could she", "B": "couldn't she", "C": "did she" },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La oración principal es negativa ('couldn't believe'), así que la coletilla debe ser afirmativa, usando el mismo modal: 'could she'.",
+        "distractores": {
+          "B": {
+            "explicacion": "Repite la misma polaridad negativa de la oración principal, cuando la coletilla debe invertirla a afirmativa.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "Usa 'do' en vez del modal 'could', que ya está presente en la oración principal y debe repetirse en la coletilla.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P4-TEXTO-010",
+    "modulo": "ingles",
+    "parte": 4,
+    "tipo": "cloze_gramatical",
+    "nivel_mcer": "B2",
+    "titulo": "A Surprising Family Reunion",
+    "texto_con_huecos": "Last weekend, my cousin Daniel organized a family reunion that none of us will forget. When I arrived, my aunt looked at me and asked, '[1] you bring your kids with you this time?' I explained that they were staying with their grandparents. During lunch, my uncle leaned over and whispered, 'Could you tell me [2] Daniel found the money to rent this huge place?' I had no idea, so I just shrugged. Later, Daniel admitted he [3] for over a year to make the reunion special — he wanted everyone to have a good time. At one point, my grandmother, who rarely travels, [4] arrive earlier than expected, which surprised everyone. She's usually late, [5]? But this time she wanted to see the new baby before anyone else did. Toward the evening, someone asked whether the caterers [6] enough food for eighty guests, and thankfully they had planned generously. By the end of the night, everyone agreed the reunion [7] worth every bit of effort — even the cousins who [8] to each other in years finally reconnected.",
+    "huecos": [
+      {
+        "num": 1,
+        "categoria_gramatical": "auxiliares_do_does_did",
+        "opciones": { "A": "Did", "B": "Have", "C": "Do" },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La pregunta se refiere a una acción puntual ya realizada (o no) al momento de llegar, así que se necesita 'Did' + verbo base ('bring').",
+        "distractores": {
+          "B": {
+            "explicacion": "'Have' como auxiliar perfecto necesitaría el participio 'brought', no la forma base 'bring' — 'Have you bring' es inválido.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Do' sería presente habitual, pero la pregunta busca saber sobre esta ocasión específica ('this time'), un uso puntual que pide pasado.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "categoria_gramatical": "preguntas_indirectas",
+        "opciones": { "A": "how", "B": "how did", "C": "that" },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El wh-word 'how' introduce la pregunta incrustada sobre el método, y el resto de la cláusula ('Daniel found the money') ya mantiene el orden sujeto + verbo.",
+        "distractores": {
+          "B": {
+            "explicacion": "Reintroduce el auxiliar 'did' después del wh-word, cuando la cláusula incrustada no necesita (ni permite) ese auxiliar adicional.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'That' no puede introducir una pregunta incrustada con wh-word; aquí se pregunta por el método, así que se necesita 'how'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "categoria_gramatical": "tiempos_pasado",
+        "opciones": { "A": "had been saving", "B": "was save", "C": "has saved" },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El past perfect continuous ('had been saving') resalta la duración de un ahorro que venía ocurriendo antes de la reunión, la referencia temporal de toda la historia.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Was' (auxiliar continuo) necesita un verbo en -ing, no la forma base 'save' — 'was save' es una combinación inválida.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "El present perfect ('has saved') no encaja en una historia narrada completamente en pasado; se necesita una forma pasada para mantener la coherencia temporal.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "categoria_gramatical": "auxiliares_do_does_did",
+        "opciones": { "A": "did", "B": "has", "C": "was" },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Did' + verbo base ('did arrive') se usa aquí de forma enfática, para resaltar que ella sí llegó antes de lo esperado, algo sorprendente dado el contexto ('who rarely travels').",
+        "distractores": {
+          "B": {
+            "explicacion": "'Has' como auxiliar perfecto necesitaría el participio 'arrived', no la forma base 'arrive' — 'has arrive' es inválido.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Was' necesitaría una forma en -ing o un participio, no la forma base 'arrive' directamente — 'was arrive' es inválido.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "categoria_gramatical": "question_tags",
+        "opciones": { "A": "isn't she", "B": "is she", "C": "doesn't she" },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La oración principal es afirmativa ('She's usually late'), así que la coletilla debe ser negativa, con el mismo auxiliar 'be': 'isn't she'.",
+        "distractores": {
+          "B": {
+            "explicacion": "Repite la misma polaridad afirmativa de la oración principal, cuando la coletilla debe invertirla.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "Usa 'does' en vez de 'be', pero la oración principal usa 'be' ('she's'), así que la coletilla también debe usar 'be'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 6,
+        "categoria_gramatical": "preguntas_indirectas",
+        "opciones": { "A": "had prepared", "B": "have prepared", "C": "prepare" },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La pregunta incrustada con 'whether' mantiene el orden sujeto + verbo, y el past perfect ('had prepared') marca que la preparación fue anterior al momento en que se hizo la pregunta, dentro de una historia narrada en pasado.",
+        "distractores": {
+          "B": {
+            "explicacion": "El present perfect ('have prepared') no encaja en una narración completamente ubicada en el pasado.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          },
+          "C": {
+            "explicacion": "La forma base 'prepare' (presente) no marca ningún tiempo pasado, cuando toda la historia ocurre claramente en el pasado.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          }
+        }
+      },
+      {
+        "num": 7,
+        "categoria_gramatical": "tiempos_pasado",
+        "opciones": { "A": "was", "B": "is", "C": "had been" },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La reunión ya ocurrió y toda la historia está narrada en pasado, así que el juicio de 'everyone agreed' usa el pasado simple 'was', simultáneo al momento de la reunión.",
+        "distractores": {
+          "B": {
+            "explicacion": "El presente ('is') no encaja en una historia narrada completamente en pasado.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          },
+          "C": {
+            "explicacion": "El past perfect ('had been') marcaría un momento anterior a otro punto del pasado, pero aquí no hay ningún punto posterior de referencia que lo requiera.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          }
+        }
+      },
+      {
+        "num": 8,
+        "categoria_gramatical": "tiempos_pasado",
+        "opciones": { "A": "hadn't talked", "B": "haven't talked", "C": "didn't talk" },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El past perfect ('hadn't talked') marca que la falta de contacto entre los primos venía de antes, hasta el momento en que finalmente 'reconnected' — un pasado anterior a otro pasado.",
+        "distractores": {
+          "B": {
+            "explicacion": "El present perfect ('haven't talked') no encaja en una historia narrada completamente en pasado.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          },
+          "C": {
+            "explicacion": "El pasado simple ('didn't talk') no transmite la idea de un periodo extendido sin contacto hasta el reencuentro, que es justo lo que aporta el aspecto perfecto.",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          }
+        }
+      }
+    ]
   }
 ]
