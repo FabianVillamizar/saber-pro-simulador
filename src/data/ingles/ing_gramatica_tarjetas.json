@@ -1940,5 +1940,248 @@
     "prereqs": [
       "ING-GRA-033"
     ]
+  },
+  {
+    "id": "ING-GRA-118",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A1",
+    "bloque": "preposiciones",
+    "antes": "I'll meet you",
+    "despues": "5 o'clock in front of the cinema.",
+    "respuesta": "at",
+    "regla": "**At** se usa con **horas exactas** (at 5 o'clock, at noon, at midnight) — es la preposición de tiempo más específica, para un punto preciso en el reloj.",
+    "ejemplo": "The train leaves at 9:15 sharp.",
+    "error_comun": "Un error común es usar 'in' con horas exactas por influencia del español ('a las 5' se traduce mentalmente con 'in'), diciendo **'in 5 o'clock'**, cuando el inglés reserva 'at' específicamente para horas puntuales.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-119",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "preposiciones",
+    "antes": "The city gets very quiet",
+    "despues": "night.",
+    "respuesta": "at",
+    "regla": "**At night** es una excepción fija: aunque las otras partes del día usan 'in' (in the morning, in the afternoon, in the evening), 'night' siempre va con **at**, sin artículo.",
+    "ejemplo": "I can't sleep well at night when it's too hot.",
+    "error_comun": "Un error común es aplicar la regla general de 'in the' a 'night' por analogía con las otras partes del día, diciendo **'in the night'** — que existe pero es mucho menos común y suena más literario; en el habla cotidiana lo natural es siempre 'at night'.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-118"
+    ]
+  },
+  {
+    "id": "ING-GRA-120",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A1",
+    "bloque": "preposiciones",
+    "antes": "She was born",
+    "despues": "1998.",
+    "respuesta": "in",
+    "regla": "**In** se usa con **meses, años y estaciones** (in March, in 1998, in summer) — periodos de tiempo más amplios que un día específico.",
+    "ejemplo": "The festival takes place in July every year.",
+    "error_comun": "Un error común es usar 'on' con el año o el mes solo (sin día), diciendo **'on 1998'**, confundiendo la regla de 'on' (para días y fechas específicas) con la de 'in' (para periodos más amplios como meses y años).",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-121",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "preposiciones",
+    "antes": "I usually study",
+    "despues": "the evening, but never at night.",
+    "respuesta": "in",
+    "regla": "Las partes del día (morning, afternoon, evening) usan **in the** — 'in the morning', 'in the afternoon', 'in the evening' — mientras que 'night' es la única excepción y usa 'at' (ver la tarjeta de 'at night').",
+    "ejemplo": "She goes for a run in the morning before work.",
+    "error_comun": "Un error común es usar 'at' con todas las partes del día por generalizar la excepción de 'night', diciendo **'at the morning'**, cuando solo 'night' rompe el patrón regular de 'in the'.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-119",
+      "ING-GRA-120"
+    ]
+  },
+  {
+    "id": "ING-GRA-122",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A1",
+    "bloque": "preposiciones",
+    "antes": "The meeting is",
+    "despues": "Monday morning.",
+    "respuesta": "on",
+    "regla": "**On** se usa con **días de la semana y fechas** (on Monday, on my birthday, on Christmas Day) — más específico que 'in' (mes/año) pero más amplio que 'at' (hora exacta).",
+    "ejemplo": "We're having a party on Saturday.",
+    "error_comun": "Un error común es usar 'in' con días de la semana, diciendo **'in Monday'**, aplicando la regla de meses/años a un nivel de especificidad distinto (el día), que en inglés requiere 'on'.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-123",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "preposiciones",
+    "antes": "My birthday is",
+    "despues": "March 15th, but my sister's is just in April — I don't remember the exact day.",
+    "respuesta": "on",
+    "regla": "La regla de tiempo funciona en capas de especificidad: **in** para el mes solo (in March), pero en cuanto se agrega el **día exacto**, la preposición cambia a **on** (on March 15th) — el nivel de detalle determina cuál usar.",
+    "ejemplo": "The store opens on July 1st this year.",
+    "error_comun": "Un error muy común es mantener 'in' incluso al agregar el día, diciendo **'in March 15th'**, sin notar que agregar el día específico cambia la preposición correcta de 'in' a 'on'.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-120",
+      "ING-GRA-122"
+    ]
+  },
+  {
+    "id": "ING-GRA-124",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "preposiciones",
+    "antes": "Turn left",
+    "despues": "the traffic light and the bank is right there.",
+    "respuesta": "at",
+    "regla": "**At** se usa para un **punto específico** en el espacio (at the traffic light, at the door, at the bus stop) — el equivalente en lugar del 'at' de hora exacta en tiempo: un punto preciso, no un espacio amplio.",
+    "ejemplo": "I'll wait for you at the entrance.",
+    "error_comun": "Un error común es usar 'in' para un punto específico, diciendo **'in the traffic light'**, confundiendo un punto de referencia puntual con un espacio delimitado (que sí usa 'in').",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-125",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A1",
+    "bloque": "preposiciones",
+    "antes": "She lives",
+    "despues": "Bogotá, in a small apartment downtown.",
+    "respuesta": "in",
+    "regla": "**In** se usa para espacios delimitados o contenidos: ciudades, países, habitaciones, cajas (in Bogotá, in the room, in the box) — algo que te rodea o te contiene.",
+    "ejemplo": "The keys are in my bag.",
+    "error_comun": "Un error común es usar 'at' para referirse a una ciudad o país como si fuera un punto exacto, diciendo **'at Bogotá'** en vez de 'in Bogotá' — 'at' se reserva para direcciones o puntos muy específicos, no para espacios amplios como ciudades.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-126",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "preposiciones",
+    "antes": "Our office is",
+    "despues": "the third floor of that building.",
+    "respuesta": "on",
+    "regla": "**On** se usa con **pisos/niveles de un edificio** (on the third floor, on the ground floor) — se piensa como una superficie horizontal sobre la que se está, no un espacio que te contiene.",
+    "ejemplo": "The meeting room is on the second floor.",
+    "error_comun": "Un error común es usar 'in' con pisos, diciendo **'in the third floor'**, aplicando la lógica de 'estar dentro de un edificio' en vez de la de 'estar sobre un nivel/superficie', que es la que aplica aquí.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-125"
+    ]
+  },
+  {
+    "id": "ING-GRA-127",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "preposiciones",
+    "antes": "The bakery is",
+    "despues": "Main Street, right next to the pharmacy.",
+    "respuesta": "on",
+    "regla": "**On** se usa con **nombres de calles** (on Main Street, on Fifth Avenue) — se piensa la calle como una superficie/línea sobre la que se ubican los edificios, igual que con los pisos.",
+    "ejemplo": "There's a great coffee shop on Elm Street.",
+    "error_comun": "Un error común es usar 'in' con el nombre de la calle, diciendo **'in Main Street'**, calcando la preposición que sí se usa para ciudades y países ('in Bogotá') pero que no aplica al nombre específico de una calle.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-126"
+    ]
+  },
+  {
+    "id": "ING-GRA-128",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "preposiciones",
+    "antes": "We arrived at the airport",
+    "despues": "a taxi because it was raining.",
+    "respuesta": "in",
+    "regla": "Con vehículos **pequeños donde vas sentado y no puedes caminar dentro** (car, taxi), se usa **in** — 'in a car', 'in a taxi'. Por eso se dice 'get in/out of the car', no 'get on/off'.",
+    "ejemplo": "She got in the car and drove away.",
+    "error_comun": "Un error común es usar 'on' con carros y taxis por generalizar la regla del transporte público, diciendo **'on a taxi'**, cuando la regla de vehículos distingue entre los pequeños (in) y los grandes/públicos (on).",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-129",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "preposiciones",
+    "antes": "I read a whole book",
+    "despues": "the train during the trip.",
+    "respuesta": "on",
+    "regla": "Con vehículos **grandes o de transporte público donde puedes caminar o moverte** (bus, train, plane, ship, y también bike/motorcycle donde vas montado encima), se usa **on** — 'on the bus', 'on a plane', 'on a bike'. Por eso se dice 'get on/off', no 'get in/out'.",
+    "ejemplo": "He fell asleep on the plane during the long flight.",
+    "error_comun": "Un error común es usar 'in' con estos vehículos por defecto (como con carro/taxi), diciendo **'in the train'**, sin distinguir que la regla cambia entre vehículos pequeños (in) y vehículos grandes/públicos o de montar (on).",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-128"
+    ]
+  },
+  {
+    "id": "ING-GRA-130",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "preposiciones",
+    "antes": "I met her",
+    "despues": "a party last year, and we've been friends ever since.",
+    "respuesta": "at",
+    "regla": "**At** también se usa para **eventos** (at a party, at a concert, at a meeting, at a wedding) — se trata el evento como un punto de encuentro, no como un espacio físico delimitado.",
+    "ejemplo": "We saw each other at the conference last month.",
+    "error_comun": "Un error común es usar 'in' con eventos, diciendo **'in a party'**, tratando el evento como un espacio contenedor en vez de un punto de encuentro puntual, que es la lógica que sigue 'at'.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-124"
+    ]
+  },
+  {
+    "id": "ING-GRA-131",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "preposiciones",
+    "antes": "The flight arrived",
+    "despues": "time, not even a minute late — I was impressed.",
+    "respuesta": "on time",
+    "regla": "**On time** significa exactamente a la hora programada, puntual, sin retraso. **In time** (sin 'on') significa con suficiente margen antes de un límite, no necesariamente exacto — 'llegar a tiempo' con algo de holgura.",
+    "ejemplo": "We got to the station just in time to catch the last train.",
+    "error_comun": "Un error común es usar 'in time' cuando se quiere decir 'puntual/exacto', diciendo **'the flight arrived in time'** para decir que llegó exactamente a su hora, cuando en realidad 'in time' sugiere que llegó justo antes de un límite, no con precisión exacta — el matiz es distinto aunque ambas frases se traduzcan como 'a tiempo'.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-118"
+    ]
+  },
+  {
+    "id": "ING-GRA-132",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "preposiciones",
+    "antes": "",
+    "despues": ", after three years of hard work, she graduated from university.",
+    "respuesta": "At last",
+    "regla": "**At last** es una expresión fija que significa 'finalmente / por fin', usada para expresar alivio después de una larga espera — no se puede reemplazar 'at' por otra preposición aquí, es una frase memorizada como bloque.",
+    "ejemplo": "At last, the rain stopped and the sun came out.",
+    "error_comun": "Un error común es intentar traducir 'por fin' con 'finally' únicamente sin conocer esta alternativa igual de común, o cambiar la preposición fija diciendo **'in last'** o **'on last'**, cuando 'at last' es una expresión fija que no varía.",
+    "dificultad": "media",
+    "prereqs": []
   }
 ]
