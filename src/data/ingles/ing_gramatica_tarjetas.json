@@ -2183,5 +2183,258 @@
     "error_comun": "Un error común es intentar traducir 'por fin' con 'finally' únicamente sin conocer esta alternativa igual de común, o cambiar la preposición fija diciendo **'in last'** o **'on last'**, cuando 'at last' es una expresión fija que no varía.",
     "dificultad": "media",
     "prereqs": []
+  },
+  {
+    "id": "ING-GRA-133",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "question_tags",
+    "antes": "She's your sister,",
+    "despues": "?",
+    "respuesta": "isn't she",
+    "regla": "Las **question tags** (coletillas interrogativas) confirman o piden acuerdo sobre algo que se acaba de decir. Regla base: si la oración principal es **afirmativa**, la coletilla es **negativa**, usando el mismo verbo auxiliar (o 'be') y el pronombre del sujeto.",
+    "ejemplo": "He's from Peru, isn't he?",
+    "error_comun": "Un error común es repetir el mismo verbo sin negarlo, diciendo **'She's your sister, is she?'** — eso cambia el significado a duda genuina en vez de confirmación; la coletilla de una afirmación casi siempre es negativa.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-134",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "question_tags",
+    "antes": "You don't like coffee,",
+    "despues": "?",
+    "respuesta": "do you",
+    "regla": "Si la oración principal es **negativa**, la coletilla es **afirmativa** — la regla espejo de la anterior: negativo + positivo, o positivo + negativo, nunca los dos iguales.",
+    "ejemplo": "They haven't finished yet, have they?",
+    "error_comun": "Un error común es usar otra coletilla negativa, diciendo **'You don't like coffee, don't you?'**, sin invertir la polaridad — la coletilla siempre debe tener la polaridad opuesta a la oración principal.",
+    "dificultad": "baja",
+    "prereqs": [
+      "ING-GRA-133"
+    ]
+  },
+  {
+    "id": "ING-GRA-135",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "question_tags",
+    "antes": "They can't swim,",
+    "despues": "?",
+    "respuesta": "can they",
+    "regla": "Con verbos modales (can, will, should, must...), la coletilla usa el **mismo modal**, no 'do/does/did' — el modal ya funciona como auxiliar por sí mismo.",
+    "ejemplo": "You should call her, shouldn't you?",
+    "error_comun": "Un error común es agregar 'do' además del modal, diciendo **'They can't swim, don't they?'**, tratando el modal como si necesitara un auxiliar adicional, cuando el modal mismo ya cumple esa función en la coletilla.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-133"
+    ]
+  },
+  {
+    "id": "ING-GRA-136",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "question_tags",
+    "antes": "I'm right,",
+    "despues": "?",
+    "respuesta": "aren't I",
+    "regla": "**'I am'** es una excepción irregular: la coletilla negativa no es 'amn't I' (que no existe en inglés estándar), sino **'aren't I'** — el único caso donde el auxiliar de la coletilla no coincide exactamente con la forma verbal de la oración.",
+    "ejemplo": "I'm invited too, aren't I?",
+    "error_comun": "Un error común es intentar construir 'amn't I' aplicando la regla regular de negar 'am', cuando el inglés estándar simplemente usa la forma irregular 'aren't I' para este caso específico.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-133"
+    ]
+  },
+  {
+    "id": "ING-GRA-137",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "question_tags",
+    "antes": "Close the door,",
+    "despues": "?",
+    "respuesta": "will you",
+    "regla": "Las órdenes o peticiones (imperativos) usan **'will you?'** como coletilla, para suavizar la orden y volverla más una petición cortés.",
+    "ejemplo": "Pass me the salt, will you?",
+    "error_comun": "Un error común es intentar aplicar la regla de afirmativo/negativo de las oraciones normales a un imperativo, cuando los imperativos no tienen sujeto ni auxiliar visible del cual copiar la coletilla — siempre usan 'will you' por defecto.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-133"
+    ]
+  },
+  {
+    "id": "ING-GRA-138",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "question_tags",
+    "antes": "There isn't any milk left,",
+    "despues": "?",
+    "respuesta": "is there",
+    "regla": "Cuando la oración empieza con **'there is/are'**, la coletilla también usa 'there' como si fuera el sujeto, no un pronombre personal.",
+    "ejemplo": "There are enough chairs for everyone, aren't there?",
+    "error_comun": "Un error común es usar un pronombre en la coletilla, diciendo **'There isn't any milk left, is it?'**, tratando 'there' como si se refiriera a una cosa ('it') en vez de mantenerlo como el sujeto formal de la coletilla.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-134"
+    ]
+  },
+  {
+    "id": "ING-GRA-139",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "preguntas_indirectas",
+    "antes": "Do you know what time",
+    "despues": "?",
+    "respuesta": "it is",
+    "regla": "Dentro de una **pregunta incrustada** (después de 'Do you know...', 'Could you tell me...', etc.), el orden vuelve a ser el de una afirmación normal (sujeto + verbo) — **sin la inversión** que sí lleva una pregunta directa.",
+    "ejemplo": "Do you know where she lives?",
+    "error_comun": "El error más común de este tema: mantener el orden invertido de la pregunta directa dentro de la incrustada, diciendo **'Do you know what time is it?'** en vez de 'Do you know what time it is?' — el mismo tipo de error de 'doble marcación/orden equivocado' que ocurre con 'did you went'.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-103"
+    ]
+  },
+  {
+    "id": "ING-GRA-140",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "preguntas_indirectas",
+    "antes": "Could you tell me",
+    "despues": "she is coming to the party?",
+    "respuesta": "if",
+    "regla": "Para incrustar una pregunta de sí/no (que en forma directa no tiene palabra interrogativa), se usa **'if'** o **'whether'** para introducirla — nunca se incrusta directamente sin conector.",
+    "ejemplo": "I'm not sure whether he's still working here.",
+    "error_comun": "Un error común es omitir el conector 'if/whether', diciendo **'Could you tell me she is coming?'**, sin la palabra que marca que se trata de una pregunta de sí/no incrustada, no una afirmación.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-139"
+    ]
+  },
+  {
+    "id": "ING-GRA-141",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "preguntas_indirectas",
+    "antes": "Could you tell me where the station",
+    "despues": "? I'm completely lost.",
+    "respuesta": "is",
+    "regla": "Igual que con 'what time it is', las preguntas incrustadas con 'where/when/why/how' mantienen el orden **sujeto + verbo** — el verbo 'is' va después del sujeto 'the station', no antes.",
+    "ejemplo": "Do you know how this machine works?",
+    "error_comun": "Un error muy común, incluso en hablantes avanzados: preguntar **'where is the station'** dentro de la oración incrustada, en vez de 'where the station is' — el hábito de la pregunta directa es difícil de soltar incluso cuando ya se domina el resto de la gramática.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-139"
+    ]
+  },
+  {
+    "id": "ING-GRA-142",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "preguntas_indirectas",
+    "antes": "I wonder what she",
+    "despues": ". She's been acting strange all day.",
+    "respuesta": "wants",
+    "regla": "Cuando una pregunta con **do/does/did** se incrusta, el auxiliar 'do' desaparece por completo, y el verbo principal recupera su conjugación normal (con -s en tercera persona si aplica) — no solo se reordena, se pierde el auxiliar entero.",
+    "ejemplo": "I wonder why he left so early.",
+    "error_comun": "Un error común es mantener el auxiliar 'does' dentro de la pregunta incrustada, diciendo **'I wonder what does she want'**, cuando en realidad tanto el auxiliar como la inversión desaparecen — el verbo principal se conjuga directamente.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-141",
+      "ING-GRA-105"
+    ]
+  },
+  {
+    "id": "ING-GRA-143",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "preguntas_indirectas",
+    "antes": "",
+    "despues": "you could help me with this bag? It's really heavy.",
+    "respuesta": "I was wondering if",
+    "regla": "Las preguntas incrustadas también se usan para sonar **más corteses o formales** que una pregunta directa — 'Could you help me?' es directo, pero 'I was wondering if you could help me?' suena más suave, típico al pedir un favor a un desconocido o en inglés formal.",
+    "ejemplo": "I was wondering if you could send me the report by Friday.",
+    "error_comun": "Un error común es no reconocer esta función social de las preguntas incrustadas, usando siempre la forma directa incluso en contextos formales donde un hablante nativo preferiría suavizar la petición con esta estructura.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-140"
+    ]
+  },
+  {
+    "id": "ING-GRA-144",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "preguntas_indirectas",
+    "antes": "She seemed unsure about",
+    "despues": "she should accept the job offer.",
+    "respuesta": "whether",
+    "regla": "**Whether** (no 'if') es obligatorio después de una **preposición** (about whether, of whether, in whether) — 'if' nunca puede ir directamente después de una preposición.",
+    "ejemplo": "I'm thinking about whether to change careers.",
+    "error_comun": "Un error común es usar 'if' después de una preposición, diciendo **'unsure about if she should accept'**, cuando 'if' simplemente no puede ir justo después de una preposición — ahí 'whether' es la única opción correcta.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-140"
+    ]
+  },
+  {
+    "id": "ING-GRA-145",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "A2",
+    "bloque": "cuantificadores",
+    "antes": "I don't have",
+    "despues": "to say about that.",
+    "respuesta": "anything",
+    "regla": "En inglés estándar, una oración **no lleva dos negaciones**: si el verbo ya está negado (don't, isn't, can't), lo que sigue debe ser una palabra positiva de la familia 'any' (anything, anyone, anywhere), no una palabra negativa como 'nothing'.",
+    "ejemplo": "She didn't tell anyone about the surprise.",
+    "error_comun": "Un error muy común por transferencia directa del español (donde 'no tengo nada' sí usa doble negación) es decir **'I don't have nothing to say'** — en inglés estándar eso sería una doble negación no permitida; hay que elegir un solo negativo: 'don't' + 'anything', o 'have' + 'nothing', nunca ambos.",
+    "dificultad": "media",
+    "prereqs": []
+  },
+  {
+    "id": "ING-GRA-146",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "cuantificadores",
+    "antes": "She",
+    "despues": "about the accident — she was asleep at the time.",
+    "respuesta": "knows nothing",
+    "regla": "La otra forma correcta de negar es usar el verbo en **afirmativo** junto con una palabra ya negativa (nothing, nobody, nowhere, never) — alternativa a 'don't' + 'anything', con el mismo significado pero un registro ligeramente más formal o enfático.",
+    "ejemplo": "He goes nowhere without his phone.",
+    "error_comun": "Un error común es combinar las dos estrategias, diciendo **'She doesn't know nothing'**, cuando hay que elegir una: verbo negado + any-word, o verbo afirmativo + no-word — nunca las dos negaciones juntas.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-145"
+    ]
+  },
+  {
+    "id": "ING-GRA-147",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "tiempos_presente_perfecto",
+    "antes": "I have lived in this city",
+    "despues": "eight years, and my sister has lived here since 2015.",
+    "respuesta": "for",
+    "regla": "**For** se usa con la **duración** de un periodo (for eight years, for a while) y **since** con el **punto de partida** en el tiempo (since 2015, since Monday) — ambos acompañan al present perfect para hablar de algo que empezó en el pasado y continúa, pero responden preguntas distintas: 'for' responde '¿cuánto tiempo?', 'since' responde '¿desde cuándo?'.",
+    "ejemplo": "They've been married for ten years — since 2016.",
+    "error_comun": "Un error muy común es intercambiarlos, diciendo **'since eight years'** o **'for 2015'** — una forma rápida de no confundirlos: si la respuesta es un número de unidades de tiempo (días, meses, años), va con 'for'; si es un punto específico en el calendario, va con 'since'.",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-015",
+      "ING-GRA-017"
+    ]
   }
 ]
