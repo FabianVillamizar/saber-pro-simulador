@@ -84,13 +84,13 @@ function barraTrimestre(x, yTop, alto, etiqueta, valor, color) {
   return `${rect(x, yTop, 34, alto, { rx: 2, relleno: color, color, ancho: 1 })}${texto(x + 17, yTop - 8, valor, { tam: 10, peso: 700 })}${texto(x + 17, 222, etiqueta, { tam: 10, color: C.sub })}`
 }
 items['RC-CTX-017'] = svg('-30 0 480 260', `
-  ${texto(150, 20, 'Eje desde 0 (0 a 120)', { peso: 800, tam: 12 })}
-  ${linea(50, 30, 50, 200)}
+  ${texto(150, 14, 'Eje desde 0 (0 a 120)', { peso: 800, tam: 12 })}
+  ${linea(50, 40, 50, 200)}
   ${linea(50, 200, 210, 200)}
-  ${barraTrimestre(60, 47, 153, 'Q1', '102', C.sub)}
-  ${barraTrimestre(100, 42.5, 157.5, 'Q2', '105', C.sub)}
-  ${barraTrimestre(140, 38, 162, 'Q3', '108', C.accent)}
-  ${barraTrimestre(180, 32, 168, 'Q4', '112', C.accent)}
+  ${barraTrimestre(60, 57, 143, 'Q1', '102', C.sub)}
+  ${barraTrimestre(100, 52.5, 147.5, 'Q2', '105', C.sub)}
+  ${barraTrimestre(140, 48, 152, 'Q3', '108', C.accent)}
+  ${barraTrimestre(180, 42, 158, 'Q4', '112', C.accent)}
   ${texto(130, 238, 'las cuatro barras se ven casi iguales', { tam: 10, color: C.exito })}
 
   ${texto(320, 20, 'Eje truncado (90 a 120)', { peso: 800, tam: 12 })}

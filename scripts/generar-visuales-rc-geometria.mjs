@@ -58,7 +58,10 @@ const items = {}
 // ---------- RC-GEO-001: perímetro de un rectángulo ----------
 items['RC-GEO-001'] = svg('0 0 300 200', `
   ${rect(70, 50, 160, 100, { color: C.texto })}
-  ${arco(150, 100, 130, -50, 300, { color: C.accent, ancho: 3 })}
+  ${linea(70, 50, 230, 50, { color: C.accent, ancho: 3 })}
+  ${linea(230, 50, 230, 150, { color: C.accent, ancho: 3 })}
+  ${linea(230, 150, 70, 150, { color: C.accent, ancho: 3 })}
+  ${linea(70, 150, 70, 50, { color: C.accent, ancho: 3 })}
   ${texto(150, 30, '5 cm', { tam: 11 })}
   ${texto(255, 100, '3 cm', { tam: 11 })}
   ${texto(150, 170, '5 cm', { tam: 11 })}
