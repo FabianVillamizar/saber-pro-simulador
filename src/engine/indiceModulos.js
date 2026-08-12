@@ -32,11 +32,13 @@ export const indiceModulos = {
     monograma: 'RC',
     descripcion: 'Interpretación de datos, proporcionalidad y modelación.',
     disponible: true,
-    // Igual que CC/LC/PC: todavía no hay distribución de simulacro ni
-    // escala de resultado diseñadas para este módulo (ver
-    // saber_pro_resultado_scope en memoria) — solo repaso de conceptos y
-    // práctica por sub-categoría por ahora.
-    soportaSimulacro: false,
+    // Primer módulo (además de Inglés) con Simulacro completo real: 30
+    // preguntas en la proporción real por competencia (ver
+    // engine/simulacro.js `DISTRIBUCION_RC`) — el Resultado no usa una
+    // escala de niveles oficial (RC no tiene un marco externo publicado
+    // como el CEFR de Inglés), solo el puntaje /300 aproximado más un
+    // descriptor de desempeño no-oficial (ver Resultado.jsx).
+    soportaSimulacro: true,
     // Las 3 competencias oficiales ICFES de RC (viven en `pregunta.parte`,
     // ver adapters/contextoRC.js).
     categorias: {

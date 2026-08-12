@@ -26,6 +26,40 @@ const PARTE_NOMBRE = {
   7: 'Cloze léxico',
 }
 
+// Sin `categorias` (Inglés): cae al mapa numérico de arriba. Con
+// `categorias` (RC y cualquier módulo futuro con simulacro): la etiqueta
+// real de la competencia — mismo fallback que ya usan
+// PracticaPorParte.jsx/Simulacro.jsx.
+function etiquetaParte(parte, categorias) {
+  return categorias?.[parte] ?? PARTE_NOMBRE[parte] ?? `Parte ${parte}`
+}
+
+// Para filas donde antes se mostraba "Parte N · Nombre" (Inglés): sin
+// `categorias`, conserva ese formato exacto; con `categorias` (RC), el
+// nombre de la competencia ya es autoexplicativo, sin numerarla.
+function tituloParte(parte, categorias) {
+  const etiqueta = etiquetaParte(parte, categorias)
+  return categorias ? etiqueta : `Parte ${parte} · ${etiqueta}`
+}
+
+// Umbrales de un descriptor de desempeño NO oficial — a diferencia de
+// TABLA_NIVELES (el CEFR real de Inglés), ningún módulo de competencias
+// genéricas del Saber Pro tiene un marco de niveles publicado por el
+// ICFES, así que este texto se muestra siempre como autoevaluación, nunca
+// como "clasificación oficial" (ver saber_pro_resultado_scope en memoria:
+// no fabricar bandas oficiales que no existen).
+const DESEMPENO_APROXIMADO = [
+  { max: 50, texto: 'Necesita repasar' },
+  { max: 70, texto: 'Vas en camino' },
+  { max: 85, texto: 'Buen desempeño' },
+  { max: 101, texto: 'Dominas el módulo' },
+]
+
+function descriptorDesempeno(puntaje) {
+  const pct = (puntaje / 300) * 100
+  return DESEMPENO_APROXIMADO.find((d) => pct < d.max)?.texto ?? DESEMPENO_APROXIMADO.at(-1).texto
+}
+
 function useConteoAscendente(objetivo) {
   const [valor, setValor] = useState(0)
   const rafRef = useRef(null)
@@ -50,14 +84,19 @@ export function Resultado({ resultado, modulo, perfil, onCambiarPerfil, onVolver
   const { dark, toggle } = useTheme()
   const [mostrarDetalle, setMostrarDetalle] = useState(false)
 
+  // TABLA_NIVELES es el CEFR real de Inglés (A1-B2), un marco externo
+  // publicado que ningún otro módulo de competencias genéricas tiene —
+  // así que el bloque de "nivel" solo se muestra para Inglés; los demás
+  // módulos con simulacro (RC, y los que vengan después) usan el
+  // descriptor de desempeño no-oficial de abajo.
+  const esIngles = modulo.id === 'ingles'
   const puntaje = calcularPuntajeSimulado(resultado.correctas, resultado.total)
   const displayScore = useConteoAscendente(puntaje)
-  const nivel = clasificarNivel(puntaje)
+  const nivel = esIngles ? clasificarNivel(puntaje) : null
   const nivelTier = nivel ? TABLA_NIVELES.findIndex((n) => n.nivel === nivel.nivel) + 1 : null
 
   const porParte = aciertosPorParte(resultado.detalle)
   const filasDesglose = Object.keys(porParte)
-    .map(Number)
     .map((parte) => ({
       parte,
       pct: Math.round((porParte[parte].correctas / porParte[parte].total) * 100),
@@ -79,7 +118,7 @@ export function Resultado({ resultado, modulo, perfil, onCambiarPerfil, onVolver
         ...new Set(
           resultado.detalle
             .filter((d) => !d.esCorrecta && d.pregunta.distractores?.[d.elegida]?.patron_trampa === patronTop.patron)
-            .map((d) => `Parte ${d.pregunta.parte}`)
+            .map((d) => etiquetaParte(d.pregunta.parte, modulo.categorias))
         ),
       ]
     : []
@@ -106,10 +145,21 @@ export function Resultado({ resultado, modulo, perfil, onCambiarPerfil, onVolver
             {displayScore}
             <span className="resultado-hero-total">/300</span>
           </div>
-          {nivel && <div className="resultado-hero-nivel">Nivel {nivel.nivel}</div>}
-          <div className="resultado-hero-sub">
-            Clasificación oficial ICFES · Inglés{nivelTier ? ` · Nivel ${nivelTier} de 4` : ''}
-          </div>
+          {esIngles ? (
+            <>
+              {nivel && <div className="resultado-hero-nivel">Nivel {nivel.nivel}</div>}
+              <div className="resultado-hero-sub">
+                Clasificación oficial ICFES · Inglés{nivelTier ? ` · Nivel ${nivelTier} de 4` : ''}
+              </div>
+            </>
+          ) : (
+            <>
+              <div className="resultado-hero-nivel">{descriptorDesempeno(puntaje)}</div>
+              <div className="resultado-hero-sub">
+                Estimación propia · {modulo.nombre} · no es una escala oficial del ICFES
+              </div>
+            </>
+          )}
         </div>
 
         <div className="resultado-tarjeta">
@@ -118,9 +168,7 @@ export function Resultado({ resultado, modulo, perfil, onCambiarPerfil, onVolver
             {filasDesglose.map(({ parte, pct }) => (
               <div key={parte}>
                 <div className="resultado-desglose-fila">
-                  <span className="resultado-desglose-nombre">
-                    Parte {parte} · {PARTE_NOMBRE[parte]}
-                  </span>
+                  <span className="resultado-desglose-nombre">{tituloParte(parte, modulo.categorias)}</span>
                   <span className="resultado-desglose-pct">{pct}%</span>
                 </div>
                 <div className="resultado-desglose-barra">
@@ -144,7 +192,7 @@ export function Resultado({ resultado, modulo, perfil, onCambiarPerfil, onVolver
               {partesConPatronEnEsteIntento.length > 0
                 ? `; en este intento apareció en ${partesConPatronEnEsteIntento.join(' y ')}`
                 : ''}
-              . No incluye las partes 1 y 2 (emparejamiento), que no tienen distractor clasificado.
+              {esIngles ? '. No incluye las partes 1 y 2 (emparejamiento), que no tienen distractor clasificado.' : '.'}
             </div>
           </div>
         )}
@@ -157,9 +205,9 @@ export function Resultado({ resultado, modulo, perfil, onCambiarPerfil, onVolver
                 <div key={r.parte} className="resultado-recomendacion">
                   <div className="resultado-recomendacion-badge">{i + 1}</div>
                   <div className="resultado-recomendacion-info">
-                    <div className="resultado-recomendacion-titulo">{PARTE_NOMBRE[r.parte]}</div>
+                    <div className="resultado-recomendacion-titulo">{etiquetaParte(r.parte, modulo.categorias)}</div>
                     <div className="resultado-recomendacion-meta">
-                      {modulo.nombre} · Parte {r.parte} · {r.pct}% de aciertos
+                      {modulo.nombre} · {r.pct}% de aciertos
                     </div>
                   </div>
                   <button type="button" className="resultado-recomendacion-boton" onClick={onIrARepaso}>
@@ -188,7 +236,7 @@ export function Resultado({ resultado, modulo, perfil, onCambiarPerfil, onVolver
             {resultado.detalle.map(({ pregunta, elegida, esCorrecta }, i) => (
               <div key={pregunta.id} className="resultado-detalle-item">
                 <p className="resultado-detalle-numero">
-                  Pregunta {i + 1} · Parte {pregunta.parte}
+                  Pregunta {i + 1} · {tituloParte(pregunta.parte, modulo.categorias)}
                 </p>
                 <PreguntaMultipleChoice
                   pregunta={pregunta}

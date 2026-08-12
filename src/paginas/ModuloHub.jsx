@@ -30,7 +30,7 @@ const MODOS = [
   {
     id: 'simulacro',
     nombre: 'Simulacro completo',
-    descripcion: '45 preguntas respetando la proporción real por parte, cronometrado.',
+    descripcion: 'Preguntas respetando la proporción real por parte, cronometrado.',
   },
 ]
 

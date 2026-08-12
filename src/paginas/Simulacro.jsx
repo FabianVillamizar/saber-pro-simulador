@@ -1,7 +1,14 @@
 import { useEffect, useState } from 'react'
 import { useModulo } from '../hooks/useModulo.js'
 import { useTheme } from '../hooks/useTheme.js'
-import { armarSimulacro, calificarSimulacro, DURACION_DEFECTO_MINUTOS } from '../engine/simulacro.js'
+import {
+  armarSimulacro,
+  calificarSimulacro,
+  DISTRIBUCION_DEFECTO,
+  DURACION_DEFECTO_MINUTOS,
+  DISTRIBUCION_RC,
+  DURACION_RC_MINUTOS,
+} from '../engine/simulacro.js'
 import { registrarSimulacro } from '../engine/progreso.js'
 import { registrarFalloTrampa } from '../engine/patronesPerfil.js'
 import { reproducirSonido } from '../engine/sonido.js'
@@ -19,15 +26,33 @@ function formatoTiempo(segundosTotales) {
   return `${m}:${String(s).padStart(2, '0')}`
 }
 
-function etiquetaParteActual(pregunta) {
+// Sin `categorias` (Inglés): "Parte N · tipoOriginal" (el tipo original sí
+// es información útil ahí, ej. "cloze_lexico"). Con `categorias` (RC y
+// cualquier módulo futuro con simulacro): la etiqueta real de la
+// competencia sola — `tipoOriginal` ahí es solo el discriminador interno
+// del adapter (siempre "contexto_rc"), no aporta nada al usuario.
+function etiquetaParteActual(pregunta, categorias) {
+  if (categorias) return categorias[pregunta.parte] ?? `Parte ${pregunta.parte}`
   return `Parte ${pregunta.parte} · ${pregunta.tipoOriginal.replaceAll('_', ' ')}`
+}
+
+// Distribución/duración por defecto son propias de cada módulo (ver
+// engine/simulacro.js) — ninguna es un valor oficial publicado por el
+// ICFES, ambas lo dicen explícitamente en el texto de la pantalla de
+// configuración de abajo.
+function configSimulacro(moduloId) {
+  if (moduloId === 'razonamiento-cuantitativo') {
+    return { distribucion: DISTRIBUCION_RC, duracion: DURACION_RC_MINUTOS }
+  }
+  return { distribucion: DISTRIBUCION_DEFECTO, duracion: DURACION_DEFECTO_MINUTOS }
 }
 
 export function Simulacro({ moduloId, perfil, onCambiarPerfil, onVolver, onIrARepaso }) {
   const { modulo, cargando, error } = useModulo(moduloId)
   const { dark, toggle } = useTheme()
+  const { distribucion, duracion } = configSimulacro(moduloId)
   const [fase, setFase] = useState('config') // config | examen | resultados
-  const [duracionMinutos, setDuracionMinutos] = useState(DURACION_DEFECTO_MINUTOS)
+  const [duracionMinutos, setDuracionMinutos] = useState(duracion)
   const [examen, setExamen] = useState([])
   const [advertencias, setAdvertencias] = useState([])
   const [indice, setIndice] = useState(0)
@@ -63,7 +88,7 @@ export function Simulacro({ moduloId, perfil, onCambiarPerfil, onVolver, onIrARe
   if (error) return <div className="page estado-error">No se pudo cargar el módulo: {error.message}</div>
 
   function comenzar() {
-    const { preguntas: seleccionadas, advertencias: adv } = armarSimulacro(modulo.preguntas)
+    const { preguntas: seleccionadas, advertencias: adv } = armarSimulacro(modulo.preguntas, distribucion)
     setExamen(seleccionadas)
     setAdvertencias(adv)
     setRespuestas({})
@@ -101,6 +126,17 @@ export function Simulacro({ moduloId, perfil, onCambiarPerfil, onVolver, onIrARe
   }
 
   if (fase === 'config') {
+    const total = Object.values(distribucion).reduce((a, b) => a + b, 0)
+    // Inglés conserva su texto original ("5/5/5/8/7/5/10 por parte 1-7");
+    // cualquier módulo con `categorias` (RC, y el próximo que active
+    // soportaSimulacro) arma el desglose con las etiquetas reales de sus
+    // competencias en vez de "parte N".
+    const desglose = modulo.categorias
+      ? Object.entries(distribucion)
+          .map(([clave, n]) => `${n} de ${modulo.categorias[clave]}`)
+          .join(' · ')
+      : `${Object.values(distribucion).join('/')} por parte 1-${Object.keys(distribucion).length}`
+
     return (
       <div className="page">
         <div className="barra-superior">
@@ -114,9 +150,9 @@ export function Simulacro({ moduloId, perfil, onCambiarPerfil, onVolver, onIrARe
         <div className="simulacro-config">
           <h1>Simulacro completo</h1>
           <p className="simulacro-info">
-            45 preguntas (5/5/5/8/7/5/10 por parte 1-7), cronometrado. El ICFES no publica un tiempo
-            oficial para Inglés por separado — solo el total combinado de los 5 módulos genéricos — así
-            que esto es un estimado inicial configurable, no un valor oficial.
+            {total} preguntas ({desglose}), cronometrado. El ICFES no publica un tiempo oficial para
+            este módulo por separado — solo el total combinado de los 5 módulos genéricos — así que
+            esto es un estimado inicial configurable, no un valor oficial.
           </p>
           <label className="simulacro-duracion">
             Duración (minutos)
@@ -171,7 +207,7 @@ export function Simulacro({ moduloId, perfil, onCambiarPerfil, onVolver, onIrARe
         </div>
 
         <div className="simulacro-cuerpo">
-          <div className="simulacro-eyebrow">{etiquetaParteActual(pregunta)}</div>
+          <div className="simulacro-eyebrow">{etiquetaParteActual(pregunta, modulo.categorias)}</div>
 
           {grupoTotal > 1 && (
             <p className="simulacro-grupo-nota">

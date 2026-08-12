@@ -5,6 +5,21 @@
 export const DISTRIBUCION_DEFECTO = { 1: 5, 2: 5, 3: 5, 4: 8, 5: 7, 6: 5, 7: 10 }
 export const DURACION_DEFECTO_MINUTOS = 50
 
+// Razonamiento Cuantitativo: las 3 competencias oficiales ICFES (`parte` =
+// `pregunta.competencia`, ver adapters/contextoRC.js) están casi parejas
+// en el banco real (30/32/33 de 95 preguntas) — la distribución de abajo
+// escala esa misma proporción a un simulacro de 30 preguntas (9/10/11),
+// dejando el resto del banco de 95 disponible para variar entre intentos.
+// El ICFES tampoco publica un tamaño ni tiempo oficial por módulo genérico
+// por separado, así que 30 preguntas / 35 min es un estimado propio, igual
+// de explícito que el de Inglés arriba — no un valor oficial.
+export const DISTRIBUCION_RC = {
+  interpretacion_representacion: 11,
+  formulacion_ejecucion: 10,
+  argumentacion: 9,
+}
+export const DURACION_RC_MINUTOS = 35
+
 function barajar(items) {
   const copia = [...items]
   for (let i = copia.length - 1; i > 0; i--) {
@@ -55,7 +70,12 @@ export function armarSimulacro(preguntas, distribucion = DISTRIBUCION_DEFECTO) {
   const seleccionadas = []
   const advertencias = []
 
-  for (const parte of Object.keys(distribucion).map(Number).sort((a, b) => a - b)) {
+  // `Object.keys()` ya entrega las claves numéricas de Inglés (1-7) en
+  // orden ascendente por especificación de JS, y las claves de texto de
+  // RC (competencias ICFES) en el orden de inserción del objeto — no hace
+  // falta forzar `Number()` (que rompía las claves no numéricas, dejando
+  // `porParte[NaN]` sin preguntas).
+  for (const parte of Object.keys(distribucion)) {
     const cantidad = distribucion[parte]
     const disponibles = porParte[parte] ?? []
     if (disponibles.length < cantidad) {

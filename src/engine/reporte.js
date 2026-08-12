@@ -49,7 +49,7 @@ export const DESCRIPCIONES_PATRON = {
   // Lectura Crítica (ver src/data/lectura-critica/*.json).
   informacion_no_presente: 'Marcas como correcta información que el texto nunca menciona, en vez de basarte solo en lo que realmente dice.',
   sobreinterpretacion: 'Vas más allá de lo que el texto permite concluir, leyendo matices o intenciones que no están respaldados por el contenido.',
-  generalizacion_indebida: 'Conviertes una afirmación puntual o parcial del texto en una conclusión absoluta que el texto no sostiene.',
+  generalizacion_indebida: 'Conviertes una afirmación puntual o parcial en una conclusión absoluta que el resto de la información no respalda.',
   confusion_tesis_antitesis: 'Confundes la postura que el autor defiende con la posición contraria que está refutando o matizando.',
   inversion_causal: 'Inviertes una relación de causa-efecto, o afirmas lo contrario de lo que el texto realmente concluye.',
   enfoque_parcial: 'Te quedas con un detalle aislado del texto en vez de considerar su función dentro del sentido global.',
@@ -92,6 +92,20 @@ export const DESCRIPCIONES_PATRON = {
   sobregeneralizacion_de_un_metodo: 'Extiendes el resultado de un solo ensayo, muestra pequeña o técnica limitada como si aplicara siempre y en cualquier condición.',
   variable_confundida: 'Confundes cuál variable es la independiente (la que se manipula) y cuál es la dependiente (la que se mide como resultado).',
   variable_de_confusion_no_controlada: 'Pasas por alto una tercera variable no controlada que podría explicar, por sí sola, la diferencia observada entre los grupos comparados.',
+
+  // Razonamiento Cuantitativo (ver src/data/razonamiento-cuantitativo/rc_items_*.json).
+  reparto_proporcional_mal_aplicado: 'Repartes una cantidad en partes iguales cuando el problema pide un reparto proporcional a otra variable, o al revés.',
+  dato_no_disponible_o_supuesto: 'Supones un dato que el problema no da, en vez de reconocer que falta información para resolverlo con certeza.',
+  operacion_incorrecta: 'Aplicas una operación (suma, resta, multiplicación, división) que no corresponde a la relación real entre las cantidades del problema.',
+  confusion_variable: 'Confundes cuál cantidad es la que se pregunta y cuál es solo un dato de apoyo, o mezclas dos variables distintas del mismo problema.',
+  suficiencia_de_datos_geometricos: 'En geometría, asumes que los datos dados alcanzan para resolver el problema sin verificar si realmente determinan la figura pedida.',
+  lectura_invertida_datos: 'Lees una tabla o gráfica al revés: confundes qué cantidad corresponde a cuál categoría, fila o columna.',
+  extrapolacion_estadistica_indebida: 'Extiendes una tendencia observada más allá del rango de datos reales, asumiendo que se mantiene igual fuera de lo medido.',
+  procedimiento_con_paso_erroneo: 'Sigues el procedimiento correcto en general, pero cometes un error en uno de sus pasos intermedios que invalida el resultado final.',
+  causalidad_invalida: 'Interpretas una relación entre dos variables como causal cuando los datos solo muestran que están asociadas.',
+  redondeo_erroneo: 'Redondeas en el momento o la dirección equivocada, cambiando el resultado final de forma significativa.',
+  unidades_no_convertidas: 'Operas con cantidades en unidades distintas sin convertirlas primero a una unidad común.',
+  denominador_o_escala_incorrecta: 'Usas un denominador, total o escala que no corresponde exactamente a lo que la pregunta pide comparar.',
 }
 
 // Etiqueta corta por patrón, para la insignia "Trampa: …" en el panel de
@@ -155,4 +169,18 @@ export const ETIQUETAS_PATRON = {
   sobregeneralizacion_de_un_metodo: 'Sobregeneralización de un método',
   variable_confundida: 'Variable confundida',
   variable_de_confusion_no_controlada: 'Variable de confusión no controlada',
+
+  // Razonamiento Cuantitativo (ver src/data/razonamiento-cuantitativo/rc_items_*.json).
+  reparto_proporcional_mal_aplicado: 'Reparto proporcional mal aplicado',
+  dato_no_disponible_o_supuesto: 'Dato no disponible o supuesto',
+  operacion_incorrecta: 'Operación incorrecta',
+  confusion_variable: 'Confusión de variable',
+  suficiencia_de_datos_geometricos: 'Suficiencia de datos geométricos',
+  lectura_invertida_datos: 'Lectura invertida de datos',
+  extrapolacion_estadistica_indebida: 'Extrapolación estadística indebida',
+  procedimiento_con_paso_erroneo: 'Procedimiento con paso erróneo',
+  causalidad_invalida: 'Causalidad inválida',
+  redondeo_erroneo: 'Redondeo erróneo',
+  unidades_no_convertidas: 'Unidades no convertidas',
+  denominador_o_escala_incorrecta: 'Denominador o escala incorrecta',
 }
