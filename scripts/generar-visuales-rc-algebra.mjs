@@ -52,38 +52,42 @@ function persona(cx, cy, etiqueta, { color = C.texto, muerto = false } = {}) {
 const items = {}
 
 // ---------- RC-ALG-027: reparto en cascada, esquema genérico ----------
-items['RC-ALG-027'] = svg('0 0 400 240', `
+// El label propio de persona() ya ocupa cy+30; cualquier texto extra debajo
+// (estado, monto) necesita al menos ~14px más para no solaparse con él.
+items['RC-ALG-027'] = svg('-36 0 472 250', `
   ${texto(200, 20, 'Reparto en cascada · primer nivel', { peso: 700, tam: 13 })}
   ${persona(80, 70, 'Beneficiario 1')}
   ${persona(160, 70, 'Beneficiario 2')}
   ${persona(240, 70, 'Beneficiario 3')}
   ${persona(320, 70, 'Beneficiario 4', { color: C.warning, muerto: true })}
-  ${texto(320, 105, '(falleció)', { tam: 10, color: C.warning })}
+  ${texto(320, 116, '(falleció)', { tam: 10, color: C.warning })}
 
-  ${linea(320, 118, 280, 160, { color: C.accent })}
-  ${linea(320, 118, 360, 160, { color: C.accent })}
+  ${linea(320, 128, 280, 160, { color: C.accent })}
+  ${linea(320, 128, 360, 160, { color: C.accent })}
   ${persona(280, 190, 'Hijo A', { color: C.accent })}
   ${persona(360, 190, 'Hijo B', { color: C.accent })}
 
-  ${texto(200, 225, 'la parte del Beneficiario 4 fluye solo hacia sus descendientes, no hacia los otros 3', { tam: 10, color: C.faint })}
+  ${texto(200, 240, 'la parte del Beneficiario 4 fluye solo hacia sus descendientes, no hacia los otros 3', { tam: 10, color: C.faint })}
 `)
 
 // ---------- RC-ALG-028: 5 socios, uno fallecido con 3 hijos, montos ----------
-items['RC-ALG-028'] = svg('0 0 600 260', `
+// Mismo cuidado que RC-ALG-027: el monto bajo cada persona() va a cy+42
+// (label propio en cy+30 + ~12px de aire), no a la misma altura del label.
+items['RC-ALG-028'] = svg('0 0 600 270', `
   ${texto(270, 20, 'Total: \$600.000.000 entre 5 socios', { peso: 700, tam: 13 })}
-  ${persona(70, 70, 'Socio 1')}${texto(70, 100, '\$120.000.000', { tam: 10, color: C.sub })}
-  ${persona(170, 70, 'Socio 2')}${texto(170, 100, '\$120.000.000', { tam: 10, color: C.sub })}
-  ${persona(270, 70, 'Socio 3')}${texto(270, 100, '\$120.000.000', { tam: 10, color: C.sub })}
-  ${persona(370, 70, 'Socio 4')}${texto(370, 100, '\$120.000.000', { tam: 10, color: C.sub })}
-  ${persona(470, 70, 'Don Ernesto', { color: C.warning, muerto: true })}${texto(470, 100, '(falleció)', { tam: 10, color: C.warning })}
+  ${persona(70, 70, 'Socio 1')}${texto(70, 112, '\$120.000.000', { tam: 10, color: C.sub })}
+  ${persona(170, 70, 'Socio 2')}${texto(170, 112, '\$120.000.000', { tam: 10, color: C.sub })}
+  ${persona(270, 70, 'Socio 3')}${texto(270, 112, '\$120.000.000', { tam: 10, color: C.sub })}
+  ${persona(370, 70, 'Socio 4')}${texto(370, 112, '\$120.000.000', { tam: 10, color: C.sub })}
+  ${persona(470, 70, 'Don Ernesto', { color: C.warning, muerto: true })}${texto(470, 112, '(falleció)', { tam: 10, color: C.warning })}
 
-  ${texto(470, 120, '\$120.000.000', { tam: 10, color: C.warning })}
-  ${linea(470, 128, 410, 165, { color: C.accent })}
-  ${linea(470, 128, 470, 165, { color: C.accent })}
-  ${linea(470, 128, 530, 165, { color: C.accent })}
-  ${persona(400, 195, 'Hijo 1', { color: C.accent })}${texto(400, 225, '\$40.000.000', { tam: 10, color: C.accent })}
-  ${persona(470, 195, 'Hijo 2', { color: C.accent })}${texto(470, 225, '\$40.000.000', { tam: 10, color: C.accent })}
-  ${persona(540, 195, 'Hijo 3', { color: C.accent })}${texto(540, 225, '\$40.000.000', { tam: 10, color: C.accent })}
+  ${texto(470, 132, '\$120.000.000', { tam: 10, color: C.warning })}
+  ${linea(470, 140, 410, 175, { color: C.accent })}
+  ${linea(470, 140, 470, 175, { color: C.accent })}
+  ${linea(470, 140, 530, 175, { color: C.accent })}
+  ${persona(400, 205, 'Hijo 1', { color: C.accent })}${texto(400, 247, '\$40.000.000', { tam: 10, color: C.accent })}
+  ${persona(470, 205, 'Hijo 2', { color: C.accent })}${texto(470, 247, '\$40.000.000', { tam: 10, color: C.accent })}
+  ${persona(540, 205, 'Hijo 3', { color: C.accent })}${texto(540, 247, '\$40.000.000', { tam: 10, color: C.accent })}
 `)
 
 let ok = 0

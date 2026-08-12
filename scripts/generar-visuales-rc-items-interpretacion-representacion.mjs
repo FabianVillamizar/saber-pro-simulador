@@ -103,7 +103,7 @@ function arcoAngular(cx, cy, r, desde, hasta, color) {
   const largo = hasta - desde > 180 ? 1 : 0
   return `<path d="M${x1},${y1} A${r},${r} 0 ${largo} 1 ${x2},${y2}" fill="none" stroke="${color}" stroke-width="2.5" marker-end="url(#flecha)" />`
 }
-items['RC-GRUPO-012'] = svg('0 0 300 300', `
+items['RC-GRUPO-012'] = svg('-36 0 372 300', `
   ${circulo(150, 150, 100, { color: C.borde })}
   ${(() => {
     const [nx, ny] = puntoEnCirculo(150, 150, 100, 0)

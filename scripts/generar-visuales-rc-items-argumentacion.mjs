@@ -63,7 +63,7 @@ function cilindro(cx, topY, w, h, { color = C.texto } = {}) {
   <path d="M${cx - rx},${topY + h} A${rx},8 0 0 0 ${cx + rx},${topY + h}" fill="none" stroke="${color}" stroke-width="2" />
   `
 }
-items['RC-GRUPO-047'] = svg('0 0 400 260', `
+items['RC-GRUPO-047'] = svg('0 0 400 280', `
   ${texto(120, 20, 'Tanque superior (elevado)', { tam: 11, peso: 700 })}
   ${cilindro(120, 40, 110, 70, { color: C.accent })}
 
@@ -77,11 +77,11 @@ items['RC-GRUPO-047'] = svg('0 0 400 260', `
 
   ${linea(30, 245, 370, 245, { color: C.faint })}
   ${texto(200, 240, 'nivel del suelo', { tam: 10, color: C.faint })}
-  ${texto(200, 15, 'capacidad total = capacidad tanque superior + capacidad tanque inferior', { tam: 10, color: C.faint })}
+  ${texto(200, 265, 'capacidad total = capacidad tanque superior + capacidad tanque inferior', { tam: 10, color: C.faint })}
 `)
 
 // ---------- RC-GRUPO-048: trapecio, dos lados paralelos, sin altura ----------
-items['RC-GRUPO-048'] = svg('0 0 400 220', `
+items['RC-GRUPO-048'] = svg('-16 0 432 220', `
   <polygon points="70,150 330,150 270,50 130,50" fill="none" stroke="${C.texto}" stroke-width="2" />
   ${linea(130, 50, 270, 50, { color: C.accent, ancho: 3 })}
   ${texto(200, 35, '18 m', { tam: 13, peso: 700, color: C.accent })}

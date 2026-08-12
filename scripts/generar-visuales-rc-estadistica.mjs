@@ -79,7 +79,7 @@ function barraApilada(cx, baseY, altoA, altoB, etiqueta) {
   s += texto(cx, baseY + 16, etiqueta, { tam: 10, color: C.sub })
   return s
 }
-items['RC-EST-005'] = svg('0 0 400 220', `
+items['RC-EST-005'] = svg('-58 0 516 220', `
   ${linea(40, 180, 40, 20, { color: C.sub })}
   ${linea(40, 180, 370, 180, { color: C.sub })}
   ${barraApilada(110, 180, 50, 30, 'Categoría 1')}
@@ -174,7 +174,7 @@ items['RC-EST-026'] = svg('0 0 400 220', `
 `)
 
 // ---------- RC-EST-038: línea + banda sombreada de predicción ----------
-items['RC-EST-038'] = svg('0 0 400 220', `
+items['RC-EST-038'] = svg('-42 0 484 220', `
   ${linea(40, 180, 40, 20, { color: C.sub })}
   ${linea(40, 180, 370, 180, { color: C.sub })}
   <path d="M40,150 L100,140 L160,120 L220,105 L280,90" fill="none" stroke="${C.texto}" stroke-width="2.5" />
@@ -187,7 +187,7 @@ items['RC-EST-038'] = svg('0 0 400 220', `
 `)
 
 // ---------- RC-EST-039: crecimiento observado vs proyección ingenua sin límite ----------
-items['RC-EST-039'] = svg('0 0 400 220', `
+items['RC-EST-039'] = svg('-16 0 432 220', `
   ${linea(50, 190, 50, 20, { color: C.borde })}
   ${linea(50, 190, 370, 190, { color: C.borde })}
   ${linea(50, 60, 370, 60, { color: C.warning, punteada: true })}
@@ -197,7 +197,7 @@ items['RC-EST-039'] = svg('0 0 400 220', `
   ${texto(70, 200, '100', { tam: 10, color: C.sub })}${texto(140, 200, '300', { tam: 10, color: C.sub })}${texto(210, 200, '900', { tam: 10, color: C.sub })}
   <polyline points="210,145 260,90 300,40 330,10" fill="none" stroke="${C.warning}" stroke-width="2.5" stroke-dasharray="5,5" />
   ${texto(330, 22, '¿5 millones?', { tam: 11, color: C.warning, anchor: 'end' })}
-  ${texto(200, 15, 'la extrapolación cruza el límite real de población — no puede continuar igual', { tam: 10, color: C.warning })}
+  ${texto(200, 213, 'la extrapolación cruza el límite real de población — no puede continuar igual', { tam: 10, color: C.warning })}
 `)
 
 // ---------- RC-EST-040: extensión cercana confiable vs lejana incierta (banda) ----------

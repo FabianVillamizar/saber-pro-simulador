@@ -116,7 +116,7 @@ items['RC-GRUPO-033'] = svg('0 0 400 300', (() => {
 })())
 
 // ---------- RC-GRUPO-044: terreno rectangular + tanque cilíndrico ----------
-items['RC-GRUPO-044'] = svg('0 0 400 260', `
+items['RC-GRUPO-044'] = svg('-12 0 424 260', `
   ${texto(200, 20, 'Planta del terreno · 40 m × 25 m', { peso: 700, tam: 13 })}
   ${rect(40, 40, 320, 160, { rx: 4, color: C.texto })}
   ${linea(40, 210, 360, 210, { color: C.sub })}

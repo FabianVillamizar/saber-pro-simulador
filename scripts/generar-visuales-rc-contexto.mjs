@@ -53,7 +53,7 @@ function rect(x, y, w, h, { rx = 8, relleno = 'none', color = C.texto, ancho = 2
 const items = {}
 
 // ---------- RC-CTX-016: eje truncado (misma pareja de barras 81 y 84) ----------
-items['RC-CTX-016'] = svg('0 0 420 260', `
+items['RC-CTX-016'] = svg('-44 0 508 260', `
   ${texto(150, 20, 'Eje desde 0', { peso: 800, tam: 13 })}
   ${linea(60, 20, 60, 200)}
   ${linea(60, 200, 200, 200)}
@@ -83,7 +83,7 @@ items['RC-CTX-016'] = svg('0 0 420 260', `
 function barraTrimestre(x, yTop, alto, etiqueta, valor, color) {
   return `${rect(x, yTop, 34, alto, { rx: 2, relleno: color, color, ancho: 1 })}${texto(x + 17, yTop - 8, valor, { tam: 10, peso: 700 })}${texto(x + 17, 222, etiqueta, { tam: 10, color: C.sub })}`
 }
-items['RC-CTX-017'] = svg('0 0 420 260', `
+items['RC-CTX-017'] = svg('-30 0 480 260', `
   ${texto(150, 20, 'Eje desde 0 (0 a 120)', { peso: 800, tam: 12 })}
   ${linea(50, 30, 50, 200)}
   ${linea(50, 200, 210, 200)}
@@ -113,7 +113,7 @@ function puntoLinea(pts, color) {
   const puntos = pts.map(([x, y]) => `<circle cx="${x}" cy="${y}" r="3.5" fill="${color}" />`).join('\n  ')
   return `<path d="${path}" fill="none" stroke="${color}" stroke-width="2.5" />\n  ${puntos}`
 }
-items['RC-CTX-019'] = svg('0 0 420 240', `
+items['RC-CTX-019'] = svg('-44 0 508 240', `
   ${linea(70, 20, 70, 200)}
   ${texto(30, 30, 'Ventas', { tam: 11, color: C.accent, anchor: 'start' })}
   ${texto(30, 44, '(millones $)', { tam: 9, color: C.accent, anchor: 'start' })}

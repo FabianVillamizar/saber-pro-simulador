@@ -77,7 +77,7 @@ items['RC-GEO-002'] = svg('0 0 300 200', `
 `)
 
 // ---------- RC-GEO-003: paralelogramo dividido en 2 triángulos ----------
-items['RC-GEO-003'] = svg('0 0 300 200', `
+items['RC-GEO-003'] = svg('-20 0 340 200', `
   ${poligono([[60,160],[220,160],[260,50],[100,50]], { color: C.texto })}
   ${linea(60, 160, 260, 50, { color: C.accent })}
   ${texto(140, 175, 'base = 6 cm', { tam: 11 })}
@@ -87,7 +87,7 @@ items['RC-GEO-003'] = svg('0 0 300 200', `
 `)
 
 // ---------- RC-GEO-004: círculo, circunferencia vs área ----------
-items['RC-GEO-004'] = svg('0 0 300 220', `
+items['RC-GEO-004'] = svg('-28 0 356 220', `
   ${circulo(150, 100, 70, { relleno: C.accent, color: C.accent, opacidad: 0.15 })}
   ${linea(150, 100, 220, 100, { color: C.texto })}
   ${texto(185, 90, 'r = 7 cm', { tam: 11 })}
@@ -135,7 +135,7 @@ items['RC-GEO-007'] = svg('0 0 300 220', `
 `)
 
 // ---------- RC-GEO-008: esfera dentro del cilindro que la contiene ----------
-items['RC-GEO-008'] = svg('0 0 300 220', `
+items['RC-GEO-008'] = svg('-8 0 316 220', `
   <ellipse cx="120" cy="50" rx="45" ry="14" fill="none" stroke="${C.texto}" stroke-width="2" />
   ${linea(75, 50, 75, 150, { color: C.texto })}
   ${linea(165, 50, 165, 150, { color: C.texto })}
@@ -147,7 +147,7 @@ items['RC-GEO-008'] = svg('0 0 300 220', `
 `)
 
 // ---------- RC-GEO-009: caja 3D, 6 caras identificadas ----------
-items['RC-GEO-009'] = svg('0 0 300 220', `
+items['RC-GEO-009'] = svg('-52 0 404 220', `
   ${caja3d(60, 160, 120, 100)}
   ${texto(120, 190, '① frente', { tam: 10 })}
   ${texto(120, 90, '② arriba', { tam: 10 })}
@@ -178,7 +178,7 @@ items['RC-GEO-011'] = svg('0 0 320 200', `
 `)
 
 // ---------- RC-GEO-012: transversal corta 2 paralelas, ángulos correspondientes ----------
-items['RC-GEO-012'] = svg('0 0 320 220', `
+items['RC-GEO-012'] = svg('-18 0 356 220', `
   ${linea(30, 70, 290, 70, { color: C.texto })}
   ${linea(30, 160, 290, 160, { color: C.texto })}
   ${linea(90, 30, 230, 200, { color: C.accent })}
@@ -200,7 +200,7 @@ items['RC-GEO-013'] = svg('0 0 300 200', `
 `)
 
 // ---------- RC-GEO-014: desigualdad triangular, caso límite ----------
-items['RC-GEO-014'] = svg('0 0 300 180', `
+items['RC-GEO-014'] = svg('-20 0 340 180', `
   ${linea(40, 130, 180, 130, { color: C.texto })}
   ${linea(180, 130, 260, 130, { color: C.texto, punteada: true })}
   ${linea(40, 130, 260, 130, { color: C.faint })}
@@ -223,7 +223,7 @@ items['RC-GEO-016'] = svg('0 0 300 220', `
 `)
 
 // ---------- RC-GEO-017: distancia entre 2 puntos, triángulo rectángulo auxiliar ----------
-items['RC-GEO-017'] = svg('0 0 300 220', `
+items['RC-GEO-017'] = svg('-6 0 312 220', `
   ${linea(40, 30, 40, 190, { color: C.faint })}
   ${linea(30, 180, 270, 180, { color: C.faint })}
   <circle cx="70" cy="150" r="5" fill="${C.texto}" />
@@ -239,7 +239,7 @@ items['RC-GEO-017'] = svg('0 0 300 220', `
 `)
 
 // ---------- RC-GEO-018: dos segmentos, sube/avanza ----------
-items['RC-GEO-018'] = svg('0 0 300 220', `
+items['RC-GEO-018'] = svg('-46 0 392 220', `
   ${linea(40, 30, 40, 190, { color: C.faint })}
   ${linea(30, 180, 270, 180, { color: C.faint })}
   ${linea(40, 180, 120, 140, { color: C.accent, ancho: 2.5 })}
@@ -261,7 +261,7 @@ function cilindroPeq(ox, oy, rx, alto, opts = {}) {
   s += `<path d="M${ox - rx},${oy + alto} A${rx},${rx * 0.3} 0 0 0 ${ox + rx},${oy + alto}" fill="none" stroke="${color}" stroke-width="2" ${dash ? 'stroke-dasharray="4,4"' : ''} />`
   return s
 }
-items['RC-GEO-020'] = svg('0 0 300 240', `
+items['RC-GEO-020'] = svg('-10 0 320 240', `
   ${cilindroPeq(150, 30, 35, 50, { color: C.warning, dash: true })}
   ${texto(220, 55, '¿medidas?', { tam: 10, color: C.warning, anchor: 'start' })}
   ${linea(150, 80, 150, 110, { color: C.texto })}
@@ -274,7 +274,7 @@ items['RC-GEO-020'] = svg('0 0 300 240', `
 `)
 
 // ---------- RC-GEO-021: cuadrado (1 lado) vs rectángulo (2 lados) ----------
-items['RC-GEO-021'] = svg('0 0 300 200', `
+items['RC-GEO-021'] = svg('-18 0 336 200', `
   ${rect(40, 60, 90, 90, { color: C.texto })}
   ${texto(85, 50, 'lado = 5 cm', { tam: 10 })}
   ${texto(85, 175, 'cuadrado: 1 sola medida', { tam: 10, color: C.sub })}
@@ -286,7 +286,7 @@ items['RC-GEO-021'] = svg('0 0 300 200', `
 `)
 
 // ---------- RC-GEO-022: círculo 360°, dirección y su opuesta ----------
-items['RC-GEO-022'] = svg('0 0 300 260', `
+items['RC-GEO-022'] = svg('-24 0 348 260', `
   ${circulo(150, 130, 90, { color: C.borde })}
   ${texto(150, 30, '0° (N)', { tam: 10, color: C.sub })}
   ${texto(250, 130, '90° (E)', { tam: 10, color: C.sub })}
@@ -306,7 +306,7 @@ items['RC-GEO-022'] = svg('0 0 300 260', `
 `)
 
 // ---------- RC-GEO-023: giro 45° a la derecha desde 80° ----------
-items['RC-GEO-023'] = svg('0 0 300 260', `
+items['RC-GEO-023'] = svg('-18 0 336 260', `
   ${circulo(150, 130, 90, { color: C.borde })}
   ${texto(150, 30, '0° (N)', { tam: 10, color: C.sub })}
   ${texto(250, 130, '90° (E)', { tam: 10, color: C.sub })}
