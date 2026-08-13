@@ -1,0 +1,487 @@
+.explorar-pc {
+  max-width: 980px;
+}
+
+.explorar-pc-titulo-modulo {
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--text);
+}
+
+.explorar-pc-titulo-sub {
+  font-size: 12px;
+  color: var(--text-faint);
+  margin-top: 1px;
+}
+
+.explorar-pc-cuerpo {
+  padding-top: 4px;
+}
+
+.explorar-pc-intro {
+  font-size: 12.5px;
+  color: var(--text-sub);
+  line-height: 1.5;
+  max-width: 700px;
+  margin: 0 0 14px;
+}
+
+.explorar-pc-nota {
+  margin-top: 14px;
+  font-size: 11.5px;
+  color: var(--text-faint);
+  line-height: 1.5;
+  max-width: 700px;
+}
+
+.explorar-pc-cta {
+  margin-top: 20px;
+}
+
+.explorar-pc-cta-todo {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+/* ===== El mesón ===== */
+.pc-meson {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pc-meson-superficie {
+  flex: 1;
+  min-width: 260px;
+  padding: 20px 24px;
+  cursor: pointer;
+  background: var(--surface);
+  border: none;
+  border-bottom: 3px solid transparent;
+  text-align: left;
+  font-family: inherit;
+  transition: background var(--dur-hover) ease, border-color var(--dur-hover) ease;
+}
+
+.pc-meson-superficie:first-child {
+  border-right: 1px solid var(--border);
+}
+
+.pc-meson-superficie:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -3px;
+}
+
+.pc-meson-superficie--activa {
+  background: color-mix(in oklch, var(--accent) 6%, var(--surface));
+  border-bottom-color: var(--accent);
+  color: var(--accent);
+}
+
+:root[data-theme='dark'] .pc-meson-superficie--activa {
+  background: color-mix(in oklch, var(--accent) 13%, var(--surface));
+}
+
+.pc-meson-cabecera {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.pc-meson-superficie svg {
+  flex-shrink: 0;
+  color: var(--text-sub);
+}
+
+.pc-meson-superficie--activa svg {
+  color: var(--accent);
+}
+
+.pc-meson-nombre {
+  font-size: 14.5px;
+  font-weight: 800;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+
+.pc-meson-n {
+  margin-left: auto;
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--text-sub);
+}
+
+.pc-meson-desc {
+  font-size: 12.5px;
+  color: var(--text-sub);
+  line-height: 1.5;
+  margin: 7px 0 0;
+}
+
+.pc-meson-barra {
+  position: relative;
+  margin-top: 16px;
+  height: 5px;
+  border-radius: var(--radio-pill);
+  background: var(--border);
+  overflow: visible;
+}
+
+.pc-meson-barra-relleno {
+  height: 100%;
+  border-radius: var(--radio-pill);
+  background: var(--accent);
+}
+
+.pc-meson-barra-pct {
+  position: absolute;
+  right: 0;
+  top: 8px;
+  font-size: 10.5px;
+  font-weight: 700;
+  color: var(--text-sub);
+}
+
+.pc-meson-pie {
+  width: 100%;
+  padding: 11px 24px;
+  background: var(--surface-alt);
+  border-top: 1px solid var(--border);
+  font-size: 12px;
+  color: var(--text-sub);
+  line-height: 1.5;
+}
+
+.pc-meson-pie b {
+  color: var(--text);
+}
+
+.pc-seccion {
+  margin-top: 18px;
+}
+
+/* ===== Caja de herramientas ===== */
+.pc-herramientas {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.pc-herramienta {
+  border: 1.5px solid var(--border);
+  border-radius: 16px;
+  background: var(--surface-alt);
+  overflow: hidden;
+  transition: background var(--dur-hover) ease, border-color var(--dur-hover) ease;
+}
+
+.pc-herramienta--abierta {
+  background: var(--surface);
+  border-color: color-mix(in oklch, var(--accent) 32%, var(--border));
+}
+
+.pc-herramienta-cabecera {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 15px 18px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-family: inherit;
+  text-align: left;
+}
+
+.pc-herramienta-cabecera:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+
+.pc-herramienta-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.pc-herramienta-nombre {
+  font-size: 14.5px;
+  font-weight: 800;
+  color: var(--text);
+  letter-spacing: -0.005em;
+}
+
+.pc-herramienta-paraque {
+  font-size: 12px;
+  color: var(--text-sub);
+  line-height: 1.45;
+  margin-top: 3px;
+}
+
+.pc-herramienta-marcas {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 140px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.pc-herramienta-marca {
+  width: 3px;
+  border-radius: 1px;
+  background: var(--border);
+}
+
+.pc-herramienta-marca--activa {
+  background: var(--accent);
+}
+
+.pc-herramienta-n {
+  width: 30px;
+  flex-shrink: 0;
+  text-align: right;
+  font-size: 11.5px;
+  font-weight: 800;
+  color: var(--text-sub);
+}
+
+.pc-herramienta-chevron {
+  flex-shrink: 0;
+  transition: transform 0.18s ease;
+}
+
+.pc-herramienta-grados {
+  padding: 0 18px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.pc-grado-bloque {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.pc-grado-fila {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 11px 14px;
+  border-radius: 11px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.pc-grado-fila--bloqueado {
+  background: var(--surface-alt);
+}
+
+.pc-grado-fila--dominado {
+  border-color: color-mix(in oklch, var(--exito) 26%, var(--border));
+}
+
+.pc-grado-fila--activo,
+.pc-grado-fila--nuevo {
+  border-color: color-mix(in oklch, var(--accent) 28%, var(--border));
+}
+
+.pc-grado-etiqueta {
+  padding: 2px 8px;
+  border-radius: var(--radio-pill);
+  font-size: 10px;
+  font-weight: 800;
+  flex-shrink: 0;
+}
+
+.pc-grado-etiqueta--1 {
+  color: var(--text-sub);
+  background: var(--surface-alt);
+}
+
+.pc-grado-etiqueta--2 {
+  color: var(--accent);
+  background: color-mix(in oklch, var(--accent) 11%, var(--surface));
+}
+
+:root[data-theme='dark'] .pc-grado-etiqueta--2 {
+  background: color-mix(in oklch, var(--accent) 20%, var(--surface));
+}
+
+.pc-grado-etiqueta--3 {
+  color: var(--warning);
+  background: color-mix(in oklch, var(--warning) 11%, var(--surface));
+}
+
+:root[data-theme='dark'] .pc-grado-etiqueta--3 {
+  background: color-mix(in oklch, var(--warning) 20%, var(--surface));
+}
+
+.pc-grado-nombre {
+  flex: 1;
+  min-width: 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.35;
+}
+
+.pc-grado-n {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-sub);
+  flex-shrink: 0;
+  width: 14px;
+  text-align: right;
+}
+
+/* ===== Bandeja de química ===== */
+.pc-casillas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(178px, 1fr));
+  gap: 10px;
+}
+
+.pc-casilla {
+  border: 1.5px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface);
+  padding: 13px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pc-casilla--bloqueado {
+  background: var(--surface-alt);
+}
+
+.pc-casilla--dominado {
+  border-color: color-mix(in oklch, var(--exito) 30%, var(--border));
+}
+
+.pc-casilla--activo,
+.pc-casilla--nuevo {
+  border-color: color-mix(in oklch, var(--accent) 30%, var(--border));
+}
+
+.pc-casilla-cabecera {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.pc-casilla-nombre {
+  flex: 1;
+  min-width: 0;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.3;
+}
+
+.pc-casilla-celdas {
+  display: flex;
+  gap: 4px;
+}
+
+.pc-casilla-celda {
+  flex: 1;
+  height: 22px;
+  border-radius: 4px;
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+}
+
+.pc-casilla-celda--hecha {
+  background: color-mix(in oklch, var(--exito) 30%, var(--surface));
+  border-color: var(--exito);
+}
+
+.pc-casilla-pie {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-sub);
+}
+
+/* Bloques de método aplicado a química */
+.pc-metodo {
+  margin-top: 16px;
+  border: 1.5px dashed var(--border);
+  border-radius: 14px;
+  padding: 16px 18px;
+  background: var(--surface-alt);
+}
+
+.pc-metodo-etiqueta {
+  font-size: 10.5px;
+  font-weight: 800;
+  color: var(--text-sub);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 4px;
+}
+
+.pc-metodo-titulo {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 11px;
+}
+
+.pc-metodo-chips {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.pc-metodo-chip {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 10px 13px;
+  border-radius: 11px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+.pc-metodo-chip--activo,
+.pc-metodo-chip--nuevo {
+  border-color: color-mix(in oklch, var(--accent) 28%, var(--border));
+}
+
+.pc-metodo-punto {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--text-faint);
+  flex-shrink: 0;
+}
+
+.pc-metodo-chip--activo .pc-metodo-punto,
+.pc-metodo-chip--nuevo .pc-metodo-punto {
+  background: var(--accent);
+}
+
+.pc-metodo-nombre {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.pc-metodo-n {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-sub);
+}
+
+.pc-metodo-nota {
+  font-size: 11.5px;
+  color: var(--text-sub);
+  line-height: 1.45;
+  margin: 11px 0 0;
+}

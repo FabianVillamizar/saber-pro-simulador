@@ -20,6 +20,8 @@ import { PracticarLapizPapel } from './paginas/PracticarLapizPapel.jsx'
 import { ExploracionCompetencias } from './paginas/ExploracionCompetencias.jsx'
 import { ExploracionLecturaCritica } from './paginas/ExploracionLecturaCritica.jsx'
 import { ExploracionRazonamientoCuantitativo } from './paginas/ExploracionRazonamientoCuantitativo.jsx'
+import { ExploracionPensamientoCientifico } from './paginas/ExploracionPensamientoCientifico.jsx'
+import { MapaConocimientoQuimica } from './paginas/MapaConocimientoQuimica.jsx'
 
 function App() {
   const { perfil, cambiarPerfil } = usePerfilActivo()
@@ -53,12 +55,21 @@ function App() {
         onAbrirModulo={(moduloId) => setPantalla({ tipo: 'modulo', moduloId })}
         onIrADirecto={(modo, moduloId) => setPantalla({ tipo: modo, moduloId })}
         onIrAAjustes={() => setPantalla({ tipo: 'ajustes' })}
+        onIrAMapaQuimica={() => setPantalla({ tipo: 'mapa-quimica' })}
       />
     )
   }
 
   if (pantalla.tipo === 'ajustes') {
     return <Ajustes perfil={perfil} onCambiarPerfil={onCambiarPerfil} onVolver={irAHome} />
+  }
+
+  // Química · Red completa: proyecto aparte del Saber Pro, sin tarjetas
+  // todavía (ver src/modulos/quimica-completa/mapa.js) — por eso no pasa
+  // por ModuloHub ni por indiceModulos.js como los demás módulos, solo
+  // necesita perfil (para el selector) y volver a Home.
+  if (pantalla.tipo === 'mapa-quimica') {
+    return <MapaConocimientoQuimica perfil={perfil} onCambiarPerfil={onCambiarPerfil} onVolver={irAHome} />
   }
 
   const volverAModulo = () => setPantalla({ tipo: 'modulo', moduloId: pantalla.moduloId })
@@ -76,6 +87,7 @@ function App() {
     'competencias-ciudadanas': ExploracionCompetencias,
     'lectura-critica': ExploracionLecturaCritica,
     'razonamiento-cuantitativo': ExploracionRazonamientoCuantitativo,
+    'pensamiento-cientifico': ExploracionPensamientoCientifico,
   }
 
   const irAModo = (modo, moduloId) => {

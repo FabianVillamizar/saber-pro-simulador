@@ -35,7 +35,7 @@ function ultimaRevisionDe(estadosSRS) {
   return fechas.at(-1) ?? null
 }
 
-export function Home({ perfil, onCambiarPerfil, onAbrirModulo, onIrADirecto, onIrAAjustes }) {
+export function Home({ perfil, onCambiarPerfil, onAbrirModulo, onIrADirecto, onIrAAjustes, onIrAMapaQuimica }) {
   const { dark, toggle } = useTheme()
   const [mounted, setMounted] = useState(false)
   const { modulo: ingles } = useModulo('ingles')
@@ -199,6 +199,20 @@ export function Home({ perfil, onCambiarPerfil, onAbrirModulo, onIrADirecto, onI
             )
           })}
         </div>
+
+        {esVisibleParaPerfil('quimica-completa', perfil) && (
+          <button type="button" className="tarjeta-mapa-quimica" onClick={onIrAMapaQuimica}>
+            <div className="tarjeta-mapa-quimica-info">
+              <div className="tarjeta-mapa-quimica-etiqueta">Fuera del Saber Pro · sin tarjetas todavía</div>
+              <div className="tarjeta-mapa-quimica-titulo">Tesis</div>
+              <div className="tarjeta-mapa-quimica-desc">
+                El mapa curricular de las 8 ramas de química organizado por qué explica qué — la hoja de ruta antes
+                de construir el contenido.
+              </div>
+            </div>
+            <IconoFlechaDerecha size={15} color="var(--text-sub)" />
+          </button>
+        )}
 
         <PanelProgreso />
       </div>

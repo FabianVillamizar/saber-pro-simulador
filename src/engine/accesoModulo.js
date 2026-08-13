@@ -19,6 +19,7 @@ import { leerJSON, escribirJSON } from './storage.js'
 const PERFIL_REQUERIDO_POR_MODULO = {
   diosgenina: 'Fabian',
   frances: 'Fabian',
+  'quimica-completa': 'Fabian',
 }
 
 const CODIGOS_ACCESO = {
