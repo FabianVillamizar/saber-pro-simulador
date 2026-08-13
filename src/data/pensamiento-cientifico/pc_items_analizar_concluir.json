@@ -44,7 +44,7 @@
       {
         "id": "PC-ITEM-021",
         "afirmacion": "analizar_concluir",
-        "evidencia": "2.4",
+        "evidencia": "2.1",
         "enunciado": "¿Es esta una conclusión adecuada a partir de estos datos?",
         "opciones": {
           "A": "No, porque es más probable que el tamaño del incendio sea una variable de confusión: los incendios más grandes requieren más bomberos Y producen más daño de forma independiente, sin que el número de bomberos sea la causa del daño.",
@@ -154,7 +154,7 @@
       {
         "id": "PC-ITEM-023",
         "afirmacion": "analizar_concluir",
-        "evidencia": "2.3",
+        "evidencia": "2.1",
         "enunciado": "¿Es adecuada esta conclusión a partir de los datos disponibles?",
         "opciones": {
           "A": "Sí, porque un aumento del 30 % en las ventas es una cifra lo suficientemente grande como para atribuirse con confianza a cualquiera de los dos cambios realizados.",
@@ -382,7 +382,7 @@
       {
         "id": "PC-ITEM-027",
         "afirmacion": "analizar_concluir",
-        "evidencia": "2.4",
+        "evidencia": "2.1",
         "enunciado": "¿Es esta una conclusión adecuada a partir de los datos descritos?",
         "opciones": {
           "A": "Sí, porque cualquier asociación estadística observada entre dos variables demuestra, por sí sola, que una es la causa directa de la otra.",
@@ -491,7 +491,7 @@
       {
         "id": "PC-ITEM-029",
         "afirmacion": "analizar_concluir",
-        "evidencia": "2.3",
+        "evidencia": "2.1",
         "enunciado": "¿Es adecuada esta conclusión?",
         "opciones": {
           "A": "No, porque se cambiaron dos variables a la vez (riego y fertilizante); no es posible saber si el aumento se debió al fertilizante, al riego, o a la combinación de ambos.",
@@ -618,7 +618,7 @@
       {
         "id": "PC-ITEM-031",
         "afirmacion": "analizar_concluir",
-        "evidencia": "2.4",
+        "evidencia": "2.1",
         "enunciado": "¿Es adecuada la conclusión del supervisor?",
         "opciones": {
           "A": "Sí, porque la velocidad de agitación es un factor conocido en química que siempre mejora el rendimiento de cualquier reacción, sin excepción.",
@@ -730,7 +730,7 @@
       {
         "id": "PC-ITEM-033",
         "afirmacion": "analizar_concluir",
-        "evidencia": "2.3",
+        "evidencia": "2.1",
         "enunciado": "¿Es adecuada esta conclusión?",
         "opciones": {
           "A": "No, porque se cambiaron dos variables a la vez (temperatura y catalizador); no es posible saber si la mejora se debió al catalizador, a la temperatura, o a ambos factores.",
@@ -977,7 +977,7 @@
       {
         "id": "PC-ITEM-037",
         "afirmacion": "analizar_concluir",
-        "evidencia": "2.4",
+        "evidencia": "2.1",
         "enunciado": "¿Es adecuada esta conclusión?",
         "opciones": {
           "A": "No necesariamente, porque el color y la velocidad podrían ser efectos de una causa común (la concentración de un intermediario coloreado formado durante la reacción), sin que el color cause la aceleración.",
@@ -1126,7 +1126,7 @@
       {
         "id": "PC-ITEM-039",
         "afirmacion": "analizar_concluir",
-        "evidencia": "2.3",
+        "evidencia": "2.1",
         "enunciado": "¿Es adecuada esta conclusión?",
         "opciones": {
           "A": "Sí, porque la solubilidad de cualquier compuesto es una propiedad fija que no depende del disolvente ni de la temperatura de medición.",
