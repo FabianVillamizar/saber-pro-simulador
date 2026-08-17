@@ -1,0 +1,982 @@
+[
+  {
+    "id": "LC-GRUPO-047",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_informativo",
+    "genero_texto": "ensayo",
+    "fuente": "Descartes, René. (1637). Discurso del método para conducir bien la razón y buscar la verdad en las ciencias. Leiden: Jan Maire.",
+    "fuente_nota": "Tomado de un simulacro de entrenamiento UIS (banco Saber Pro).",
+    "texto_base": "“Desde mi niñez había recibido muchas opiniones falsas por verdaderas, y lo que después he fundado sobre principios tan mal asegurados no podía ser sino muy dudoso e incierto; por lo cual era necesario intentar seriamente, una vez en mi vida, deshacerme de todas las opiniones que había recibido hasta entonces y comenzar de nuevo desde los fundamentos, si quería establecer algo firme y constante en las ciencias.”\n\n“Consideré que debía rechazar como absolutamente falso todo aquello en que pudiera imaginar la menor duda, para ver si después de esto no quedaría algo en mi creencia que fuese enteramente indudable.”",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-123",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar el referente de una expresión explícita dentro del texto",
+        "enunciado": "En el texto, la expresión “opiniones falsas por verdaderas” se refiere a:",
+        "opciones": {
+          "A": "Creencias que se aceptaron como ciertas sin haber sido examinadas",
+          "B": "Percepciones verdaderas obtenidas mediante la experiencia directa",
+          "C": "Opiniones de autoridades que siempre garantizan la verdad",
+          "D": "Creencias que fueron enseñadas correctamente desde la infancia"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Descartes dice que \"había recibido\" esas opiniones \"desde mi niñez\" sin haberlas examinado, y que por eso resultaron \"mal aseguradas\": son creencias tomadas por verdaderas sin haber sido puestas a prueba, no percepciones ni verdades comprobadas.",
+        "distractores": {
+          "B": {
+            "explicacion": "El texto no habla de percepción directa ni de experiencia; al contrario, se trata de opiniones recibidas de otros, sin verificación propia.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El fragmento no menciona autoridades ni garantías de verdad; la expresión describe justamente lo opuesto, creencias sin fundamento firme.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "\"Falsas por verdaderas\" implica que esas opiniones NO fueron enseñadas correctamente, sino aceptadas erróneamente como ciertas.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-124",
+        "competencia": "identificacion_local",
+        "habilidad": "reconocer la función lógica de un conector dentro de una frase",
+        "enunciado": "En el texto, la expresión “por lo cual” se usa para:",
+        "opciones": {
+          "A": "Introducir una idea que contradice lo afirmado anteriormente",
+          "B": "Presentar un ejemplo de las opiniones recibidas en la infancia",
+          "C": "Señalar una condición necesaria para adquirir nuevos conocimientos",
+          "D": "Introducir la consecuencia de reconocer que sus creencias eran dudosas"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "\"Por lo cual\" enlaza la constatación de que sus principios eran \"dudosos e inciertos\" con la decisión que tomó a raíz de eso (\"era necesario... deshacerme de todas las opiniones\"): introduce la consecuencia de haber reconocido esa duda, no una condición previa ni un ejemplo.",
+        "distractores": {
+          "A": {
+            "explicacion": "No hay contradicción: la segunda idea se deriva de la primera, no se opone a ella.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          },
+          "B": {
+            "explicacion": "Lo que sigue a \"por lo cual\" no es un ejemplo, es una decisión (empezar de nuevo desde los fundamentos).",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El conector no plantea un requisito previo para el conocimiento futuro, sino el efecto inmediato de la duda ya reconocida.",
+            "patron_trampa": "inversion_causal"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tipo": "continuo_informativo"
+  },
+  {
+    "id": "LC-GRUPO-048",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_literario",
+    "genero_texto": "cuento",
+    "fuente": "Vignette narrativa de práctica de comprensión lectora, tomada de un simulacro de entrenamiento UIS (banco Saber Pro)",
+    "fuente_nota": "El original no cita autor ni obra; por su estructura (diálogo entre madrastra e hijastro, intervención del padre) se parece a los casos ilustrativos usados en textos de terapia familiar, pero no se pudo verificar su origen exacto en esta sesión.",
+    "texto_base": "Recientemente, Isabel se convirtió en madrastra de Felipe. Ella acaba de estrellar accidentalmente la bicicleta de Felipe porque él la dejó a la entrada del garaje. Felipe entra en la cocina con la llanta trasera de su bicicleta doblada.\n\nFelipe: Te anotaste un punto. ¡Gracias por dejarme sin bicicleta!\nIsabel: ¿Y cómo querías que la viera?\nFelipe: ¡Pues usando el espejo retrovisor, así se hace!\nIsabel: Perdón, pero escuché a tu padre decirte que dejaras tu bicicleta lejos.\nFelipe: Ah.\nSe desploma en una silla y se sienta con la cabeza inclinada.\nIsabel: Bueno, y ¿cómo te fue en el colegio hoy?\nElla le pasa una gaseosa.\nFelipe hace ruido de desprecio.\nIsabel: ¿Hiciste educación física hoy?\nFelipe: No.\nIsabel: Entonces, apuesto a que tuviste matemáticas.\nFelipe: Sí. ¿Y qué?\nIsabel: ¿Y qué hiciste…?\nEn este momento entra el padre de Felipe.\nFelipe: (Sosteniendo su llanta doblada en las manos). ¡Mira lo que ella hizo!\nPadre: En primer lugar, por favor, no le digas a Isabel “ella”. Eso es muy grosero. En segundo lugar, te he dicho que no dejes tu bicicleta a la entrada del garaje. No me sorprende que eso haya pasado.\nFelipe: ¿Por qué siempre me echan la culpa? ¿Por qué no le dices a ella que tenga más cuidado? ¡Ella… Isabel me tiene que comprar una nueva!\nPadre: ¡Por nada del mundo! Puedes empezar a ahorrar para comprar una y a lo mejor la cuidarás más cuando la compres con tu propio dinero.\nFelipe: Te advierto, me voy a ir de la casa apenas tenga la edad para hacerlo. ¡Eres la persona más tacaña que haya conocido!\nSe va dando un portazo.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-125",
+        "competencia": "identificacion_local",
+        "habilidad": "resolver el referente de un pronombre a partir del contexto explícito",
+        "enunciado": "En el texto, el pronombre “ella” se refiere a",
+        "opciones": {
+          "A": "la madre de Felipe",
+          "B": "La bicicleta",
+          "C": "Isabel",
+          "D": "La casa"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El padre corrige a Felipe explícitamente: \"no le digas a Isabel 'ella'\", justo después de que Felipe dijera \"¡Mira lo que ella hizo!\" — confirma que \"ella\" designa a Isabel.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto identifica a Isabel como madrastra, no como madre, y es a ella a quien el padre corrige.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "\"Ella hizo\" algo (dañó la bicicleta), pero la bicicleta es el objeto dañado, no quien realiza la acción del pronombre.",
+            "patron_trampa": "confusion_figura_retorica"
+          },
+          "D": {
+            "explicacion": "La casa no aparece como agente de ninguna acción en el diálogo.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-126",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "inferir la función psicológica de un incidente dentro de la dinámica entre personajes",
+        "enunciado": "La bicicleta averiada le da a Felipe una oportunidad de",
+        "opciones": {
+          "A": "Insultar a su padre.",
+          "B": "Buscar el apoyo de su padre.",
+          "C": "Mostrar su resentimiento contra Isabel",
+          "D": "Demostrarle a Isabel que él es casi un adulto"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Desde que entra a la cocina, Felipe usa el incidente para reprochar a Isabel (\"gracias por dejarme sin bicicleta\", \"¡Mira lo que ella hizo!\", \"Isabel me tiene que comprar una nueva\"): el accidente se convierte en el pretexto explícito para expresar su resentimiento hacia ella, no hacia su padre ni como muestra de madurez.",
+        "distractores": {
+          "A": {
+            "explicacion": "Felipe sí termina insultando a su padre (\"la persona más tacaña\"), pero eso ocurre después de que el padre se niega a comprarle una bicicleta nueva, no por causa directa de la bicicleta averiada; el hilo conductor de todo el diálogo es su reproche a Isabel.",
+            "patron_trampa": "enfoque_parcial"
+          },
+          "B": {
+            "explicacion": "Felipe no busca apoyo del padre; el padre termina reprendiéndolo y negándole el dinero, y Felipe reacciona con más resentimiento, no con búsqueda de respaldo.",
+            "patron_trampa": "inversion_causal"
+          },
+          "D": {
+            "explicacion": "Su reacción (sentarse con la cabeza inclinada, dar un portazo, amenazar con irse) es infantil, no una demostración de madurez ante Isabel.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tipo": "continuo_literario"
+  },
+  {
+    "id": "LC-GRUPO-049",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_literario",
+    "genero_texto": "cuento",
+    "fuente": "Fragmento de cuento hispanoamericano con epígrafe de Jorge Luis Borges (\"El otro duelo\") y dedicatoria \"A Hugo Rodríguez-Alcalá\"; tomado de un simulacro de entrenamiento UIS (banco Saber Pro)",
+    "fuente_nota": "No fue posible verificar con certeza el título y autor exactos del cuento de origen en esta sesión; se usa el fragmento tal como aparece en el examen fuente, sin completar la trama que corta de forma abrupta.",
+    "texto_base": "«Como el de otras pasiones, el origen del odio es siempre oscuro...».\nJorge Luis Borges, El otro duelo\n\nA Hugo Rodríguez-Alcalá\nLa historia que voy a relatar ocurrió hace mucho tiempo, en un lugar del campo que hoy se encuentra bastante más poblado. Muchos recuerdan aún el episodio que tuvo por protagonistas a dos hacendados lugareños; otros, los más jóvenes, solamente conocen el caso de haberlo oído contar alguna vez a sus mayores.\n\nCon el correr del tiempo, las versiones fueron teniendo variantes y cada uno repite el cuento como mejor le parece. Lo único que nadie podrá cambiar es el desenlace de aquel drama que ahora me permito narrar:\n\nLa estancia «La Inmaculada», de don Teófilo Flores, era la más próxima a «La Santísima», de don Eustaquio Núñez. Por lo tanto, era lógico que ambos estancieros fueran amigos. Esa amistad se había estrechado aún más cuando los convirtió en compadres el bautizo de uno de los hijos de don Eustaquio.\n\nEn los remates de hacienda se los solía ver juntos; fornido y majestuoso don Teófilo, delgado y desgarbado don Eustaquio. Jamás pujaban por el mismo animal. A tanto había llegado la amistad de ambos, que don Teófilo consintió en prestarle a su vecino un toro semental, campeón de su raza, prueba irrefutable de estima entre hombres de campo.\n\nLa gente de los alrededores sabía que casi todas las noches de fin de semana el uno estaba en la casa del otro, alternando el papel de invitado o anfitrión, jugando interminables partidas de ajedrez.\n\nDon Teófilo fue quien enseñó a jugar a don Eustaquio. Al comienzo era él siempre el vencedor, porque el discípulo, a veces imprudente, se dejaba tentar por una pieza aparentemente indefensa. En muchas ocasiones, un caballo que venía del flanco cobraba caro la osadía del atacante.\n\n-El ajedrez es un juego de paciencia, compadre -decía don Teófilo. Pero tan buen maestro fue, como perseverante y obstinado, don Eustaquio, que al poco tiempo éste, con frecuencia, ganaba la partida.\n\n-Jaque, compadre.\nY don Teófilo intentaba algunos movimientos más, hasta que su adversario virtualmente lo acorralaba y con verdadera fruición paladeaba la última palabra:\n\n-¡Mate!",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-127",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar el resultado de un proceso descrito explícitamente en el texto",
+        "enunciado": "De acuerdo con el texto, ¿cuál de los siguientes eventos ocurrió como resultado del proceso de aprendizaje del ajedrez por parte de don Eustaquio?",
+        "opciones": {
+          "A": "dejó de jugar ajedrez para dedicarse exclusivamente a la ganadería",
+          "B": "comenzó a ganar las partidas que antes perdía frente a don Teófilo",
+          "C": "enseñó ajedrez a los peones de la estancia vecina",
+          "D": "evitó enfrentarse nuevamente a don Teófilo en el tablero"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El texto dice explícitamente que \"al comienzo era él [don Teófilo] siempre el vencedor\" pero que, tras aprender, \"al poco tiempo éste [don Eustaquio], con frecuencia, ganaba la partida\".",
+        "distractores": {
+          "A": {
+            "explicacion": "El fragmento no dice que don Eustaquio abandonara el ajedrez; al contrario, sigue jugando partidas frecuentes con don Teófilo.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El texto no menciona que don Eustaquio enseñara a nadie; fue él quien aprendió de don Teófilo.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "Contradice el texto: siguen jugando \"interminables partidas de ajedrez\" con regularidad después de que Eustaquio empezó a ganar.",
+            "patron_trampa": "inversion_causal"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-128",
+        "competencia": "comprension_global",
+        "habilidad": "conectar una acción mencionada al inicio del texto con su efecto descrito más adelante",
+        "enunciado": "Según el texto, ¿qué acción concreta realizó don Teófilo que contribuyó directamente al cambio en los resultados de las partidas de ajedrez?",
+        "opciones": {
+          "A": "instruyó a don Eustaquio en el juego del ajedrez",
+          "B": "abandonó el juego después de varias derrotas",
+          "C": "evitó competir contra su vecino en el tablero",
+          "D": "modificó las reglas del juego en su beneficio"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El texto afirma \"Don Teófilo fue quien enseñó a jugar a don Eustaquio\"; esa enseñanza es la causa explícita de que, con el tiempo, el discípulo llegara a ganarle con frecuencia a su maestro.",
+        "distractores": {
+          "B": {
+            "explicacion": "Don Teófilo sigue jugando incluso cuando pierde (\"intentaba algunos movimientos más\"), no abandona el juego.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El texto describe justo lo contrario: se enfrentaban con regularidad, \"casi todas las noches de fin de semana\".",
+            "patron_trampa": "inversion_causal"
+          },
+          "D": {
+            "explicacion": "No hay ninguna mención a que don Teófilo alterara las reglas del juego.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tipo": "continuo_literario"
+  },
+  {
+    "id": "LC-GRUPO-050",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_informativo",
+    "genero_texto": "informe",
+    "fuente": "CEPAL / ONU-Hábitat (2012c). Tomado de: https://repositorio.cepal.org/server/api/core/bitstreams/9f6b53b1-974b-41cc-bbaaff06dd319cc0/content",
+    "fuente_nota": "Tomado de un simulacro de entrenamiento UIS (banco Saber Pro).",
+    "texto_base": "Las ciudades y su dinámica. América Latina y el Caribe es una región eminentemente urbana. De sus 550 millones de habitantes, el 77% vive en ciudades de más de 2.000 habitantes, porcentaje que se eleva a casi el 90% en el Cono Sur, y se estima que en 2030 la proporción habrá aumentado al 85%. Si solo se consideran las ciudades con más de 20.000 habitantes, en ellas residen dos tercios de la población de la región, la tasa más alta del mundo (CEPAL, 2012c). El sistema de ciudades de América Latina se caracteriza por una gran diversidad de tamaños y formas de articulación, si bien se destaca en general la existencia de varias megalópolis, la marcada tendencia a la metropolización y la creciente relevancia de las ciudades medias.\n\nEl desafío de la sostenibilidad ambiental en América Latina y el Caribe. Actualmente, las ciudades son los motores de las economías de los países de la región y la fuente de numerosos bienes públicos que resultan decisivos para el bienestar y la cohesión social de la población. Se calcula que entre el 60% y el 70% del PIB de América Latina y el Caribe se origina en áreas urbanas donde, en general, se concentran las industrias y los servicios (ONU-Hábitat, 2012). Esta producción está, además, concentrada en unas pocas ciudades. En las 40 principales ciudades de América Latina y el Caribe se genera más de un tercio del PIB regional. De esa proporción, prácticamente la mitad procede de cuatro megaciudades: São Paulo, Ciudad de México, Buenos Aires y Río de Janeiro. Las ciudades grandes presentan, por lo general, una atomización de municipios y gobiernos locales que dificulta el proceso de gestión y planificación urbana (CEPAL, 2012c). Esto se debe, entre otras causas, a que en la región se adoptó durante décadas un modelo de gestión económica muy centralizado, que propició la concentración de la actividad económica en torno a los centros de poder político (ONU-Hábitat, 2012).",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-129",
+        "competencia": "comprension_global",
+        "habilidad": "reconocer la función que cumple un párrafo dentro de la estructura global del texto",
+        "enunciado": "El segundo párrafo del texto cumple principalmente la función de",
+        "opciones": {
+          "A": "describir el crecimiento histórico de la población urbana en la región.",
+          "B": "explicar la importancia económica de las ciudades y las causas de la concentración de la actividad económica.",
+          "C": "presentar una definición geográfica de las ciudades latinoamericanas.",
+          "D": "proponer soluciones a los problemas de planificación urbana."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El segundo párrafo desarrolla el peso económico de las ciudades (60-70% del PIB, concentración en 40 ciudades y 4 megaciudades) y explica una causa de esa concentración (el modelo de gestión centralizado que ligó la actividad económica a los centros de poder político).",
+        "distractores": {
+          "A": {
+            "explicacion": "El crecimiento histórico de la población urbana (77%, proyección a 85% en 2030) se describe en el primer párrafo, no en el segundo.",
+            "patron_trampa": "enfoque_parcial"
+          },
+          "C": {
+            "explicacion": "El párrafo no define geográficamente qué es una ciudad; se enfoca en su peso económico y en la gestión urbana.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "El párrafo describe un problema (atomización de gobiernos locales) y su causa, pero no propone ninguna solución.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-130",
+        "competencia": "identificacion_local",
+        "habilidad": "reconocer la función lógica de un conector dentro de una frase",
+        "enunciado": "En el enunciado: “Esta producción está, además, concentrada en unas pocas ciudades.” el conector “además” se usa para",
+        "opciones": {
+          "A": "Agregar información que complementa la idea anterior.",
+          "B": "Introducir una consecuencia del fenómeno descrito.",
+          "C": "Establecer una oposición frente a la idea anterior.",
+          "D": "Señalar la causa principal del fenómeno descrito"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El texto ya había dicho que la producción se concentra en \"áreas urbanas\" en general; \"además\" agrega un dato complementario más específico: esa producción urbana está, adicionalmente, concentrada en solo unas pocas ciudades.",
+        "distractores": {
+          "B": {
+            "explicacion": "\"Además\" no marca una relación de causa-efecto; solo suma una idea adicional al mismo tema.",
+            "patron_trampa": "inversion_causal"
+          },
+          "C": {
+            "explicacion": "No hay oposición entre las dos ideas: ambas describen la misma concentración de la producción, a distinta escala.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          },
+          "D": {
+            "explicacion": "El conector no explica una causa; la causa de la concentración se explica después, con el modelo de gestión centralizado.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      }
+    ],
+    "tipo": "continuo_informativo"
+  },
+  {
+    "id": "LC-GRUPO-051",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_informativo",
+    "genero_texto": "ensayo",
+    "fuente": "Kant, Immanuel. (1784). Respuesta a la pregunta: ¿Qué es la Ilustración? Berlínische Monatsschrift, diciembre de 1784.",
+    "fuente_nota": "Tomado de un simulacro de entrenamiento UIS (banco Saber Pro).",
+    "texto_base": "La Ilustración es la salida del ser humano de su minoría de edad, de la cual él mismo es culpable. La minoría de edad es la incapacidad de servirse de su propio entendimiento sin la dirección de otro. Esta incapacidad no se debe a la falta de entendimiento, sino a la falta de decisión y valor para usarlo sin la guía de otro.\n\nPor ello, el lema de la Ilustración es: ¡Sapere aude!, es decir, ten el valor de servirte de tu propio entendimiento.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-131",
+        "competencia": "comprension_global",
+        "habilidad": "reconocer la función que cumple un párrafo dentro de la estructura global del texto",
+        "enunciado": "El primer párrafo del texto cumple principalmente la función de:",
+        "opciones": {
+          "A": "proponer una política educativa",
+          "B": "describir un evento histórico específico",
+          "C": "definir el concepto de Ilustración y explicar su causa",
+          "D": "presentar una crítica a la ciencia moderna"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El párrafo define la Ilustración (\"la salida del ser humano de su minoría de edad\") y explica de qué depende esa minoría de edad: no de una falta de entendimiento, sino de la falta de valor para usarlo.",
+        "distractores": {
+          "A": {
+            "explicacion": "El párrafo no propone ninguna política ni medida educativa concreta.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "No se describe ningún evento histórico puntual; el texto es conceptual, no narrativo.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "El texto no menciona ni critica la ciencia moderna en absoluto.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-132",
+        "competencia": "identificacion_local",
+        "habilidad": "reconocer la función lógica de un conector dentro de una frase",
+        "enunciado": "En el enunciado: “Por ello, el lema de la Ilustración es: ¡Sapere aude!” el conector “Por ello” cumple la función de",
+        "opciones": {
+          "A": "presentar un ejemplo histórico específico",
+          "B": "una conclusión derivada de la explicación anterior",
+          "C": "introducir una idea contraria a la anterior",
+          "D": "agregar una información secundaria"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El párrafo anterior diagnosticó que la minoría de edad se debe a la falta de valor, no de entendimiento; \"por ello\" conecta ese diagnóstico con su conclusión práctica: el lema que exige justamente el valor de pensar por cuenta propia.",
+        "distractores": {
+          "A": {
+            "explicacion": "El lema no es un ejemplo histórico, es la conclusión normativa que Kant deriva de su propia definición.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El lema no contradice la idea anterior, la continúa y la resume en una consigna.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          },
+          "D": {
+            "explicacion": "Lejos de ser secundario, el lema es el punto culminante del argumento, no un dato adicional menor.",
+            "patron_trampa": "enfoque_parcial"
+          }
+        },
+        "dificultad": "baja"
+      }
+    ],
+    "tipo": "continuo_informativo"
+  },
+  {
+    "id": "LC-GRUPO-052",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_informativo",
+    "genero_texto": "ensayo",
+    "fuente": "Platón. (2003). Apología de Sócrates (J. M. Muñoz, Trad.). Madrid, España: Editorial Gredos.",
+    "fuente_nota": "Tomado de un simulacro de entrenamiento UIS (banco Saber Pro).",
+    "texto_base": "“Atenienses, ignoro el efecto que mis acusadores han producido en vosotros; en cuanto a mí, confieso que casi me han hecho olvidar quién soy, tan persuasivamente hablaban. Y, sin embargo, no han dicho casi nada verdadero. Entre las muchas falsedades que han dicho, una me ha sorprendido especialmente: aquella en que os prevenían que debíais tener cuidado de no dejaros engañar por mí, porque, según ellos, soy hábil en el hablar.\n\nMe ha parecido que lo más vergonzoso de su conducta es que no han temido ser desmentidos por los hechos, cuando se vea claramente que no soy en modo alguno un hábil orador, a menos que llamen hábil orador a quien dice la verdad. Si esto es lo que quieren decir, podría admitir que soy orador, pero no en el sentido en que ellos lo entienden.\n\nEllos han dicho poco o nada verdadero; de mí, en cambio, oiréis toda la verdad. No esperéis, sin embargo, atenienses, un discurso adornado con bellas palabras y expresiones cuidadosamente preparadas, como los de mis acusadores. Lo que oiréis será dicho con las palabras que acudan a mi mente, porque confío en que lo que digo es justo. Ninguno de vosotros debe esperar otra cosa de mí.\n\nOs ruego, por tanto, atenienses, que, si me oís defenderme con las mismas palabras que acostumbro emplear en el ágora, en las mesas de los cambistas o en cualquier otro lugar donde muchos de vosotros me habéis escuchado, no os sorprendáis ni os irritéis por ello. Esta es la primera vez, en efecto, que comparezco ante un tribunal, a pesar de mis setenta años; soy, pues, completamente extraño al modo de hablar propio de este lugar.”",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-133",
+        "competencia": "identificacion_local",
+        "habilidad": "identificar la voz a la que corresponde una afirmación citada dentro del texto",
+        "enunciado": "En el fragmento, la afirmación de que Sócrates es “hábil en el hablar” corresponde a:",
+        "opciones": {
+          "A": "la voz de los acusadores, citada por Sócrates",
+          "B": "la opinión personal de Sócrates sobre sí mismo",
+          "C": "el veredicto oficial del tribunal ateniense",
+          "D": "la opinión general de los ciudadanos atenienses"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Sócrates lo atribuye explícitamente a sus acusadores: \"os prevenían... porque, según ellos, soy hábil en el hablar\"; él mismo la niega de inmediato (\"no soy en modo alguno un hábil orador\").",
+        "distractores": {
+          "B": {
+            "explicacion": "Sócrates rechaza esa caracterización sobre sí mismo; no es su propia opinión, es la de sus acusadores.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          },
+          "C": {
+            "explicacion": "El fragmento es el inicio de su defensa; el tribunal aún no ha emitido ningún veredicto.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "El texto atribuye la afirmación específicamente a los acusadores, no a los ciudadanos atenienses en general.",
+            "patron_trampa": "generalizacion_indebida"
+          }
+        },
+        "dificultad": "baja"
+      },
+      {
+        "id": "LC-ITEM-134",
+        "competencia": "comprension_global",
+        "habilidad": "inferir la identidad de los destinatarios de un discurso a partir de la situación comunicativa completa",
+        "enunciado": "“Os ruego, por tanto, atenienses, que, si me oís defenderme con las mismas palabras que acostumbro emplear en el ágora, en las mesas de los cambistas o en cualquier otro lugar donde muchos de vosotros me habéis escuchado, no os sorprendáis ni os irritéis por ello.” En el fragmento, el uso de la expresión “atenienses” permite identificar que el discurso de Sócrates está dirigido a:",
+        "opciones": {
+          "A": "un grupo de filósofos reunidos en el ágora",
+          "B": "sus discípulos en un espacio de enseñanza filosófica",
+          "C": "los gobernantes de otras ciudades griegas",
+          "D": "los ciudadanos que participan como jueces en el tribunal"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El propio fragmento sitúa el discurso como una defensa ante un tribunal (\"Esta es la primera vez... que comparezco ante un tribunal\"); en el sistema judicial ateniense los jurados eran ciudadanos comunes, y \"atenienses\" designa aquí a ese jurado que lo escucha y juzgará su caso, distinto del ágora donde suele hablar.",
+        "distractores": {
+          "A": {
+            "explicacion": "El ágora se menciona como el lugar donde habla habitualmente, en contraste explícito con el tribunal donde está ahora, no como la audiencia actual.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          },
+          "B": {
+            "explicacion": "El texto no menciona discípulos ni un espacio de enseñanza; se trata de un proceso judicial.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "No hay ninguna mención a gobernantes extranjeros; los destinatarios son ciudadanos de Atenas actuando como jurado.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tipo": "continuo_informativo"
+  },
+  {
+    "id": "LC-GRUPO-053",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_informativo",
+    "genero_texto": "cronica",
+    "fuente": "Samper, D. y Tafur M. (1997). 100 años de vallenato. Bogotá: ETM Ediciones.",
+    "fuente_nota": "Tomado de un simulacro de entrenamiento UIS (banco Saber Pro).",
+    "texto_base": "Uno de los escenarios donde empezó a codearse el vallenato con la música que escuchaba y bailaba la burguesía –valses, mazurcas, canciones napolitanas– fue el de las colitas. Era este el nombre que recibían las ‘colas’ o finales de fiesta de la clase adinerada: bodas, bautizos, cumpleaños, festejos religiosos… Durante el sarao, mientras los señores se divertían con la música europea que interpretaba una precaria orquesta provinciana, los trabajadores pasaban la fiesta en la cocina y los galpones a punta de acordeón, guacharaca y caja. Despachada la orquesta, los de atrás eran invitados a pasar adelante, y patrones y vaqueros se sentaban a tomar y cantar juntos. Se ha discutido acerca del papel que cumplieron las colitas en esta historia. Algunos dicen que este remate de fiesta fueron el pabellón de maternidad del vallenato, pues combinaron ritmos europeos y nativos: entre ambos dieron a luz los aires vallenatos. “Las colitas son el ancestro directo del vallenato moderno”, afirma López Michelsen.\n\nPero parece más acertado pensar que las colitas no ayudaron a formar el género, sino a divulgarlo. Para empezar, esta clase de fiestas improvisadas no se conocieron en toda la región, sino tan sólo en la zona del Valle de Upar. En El Paso no hubo colitas. En muchos lugares del río tampoco. Y, por otra parte, los historiadores indican que las colitas surgieron a comienzos del siglo XX, cuando ya el vallenato había empezado a coger ritmo con el trío del instrumental clásico. En cambio, las piquerías y retos sí constituyeron desde el principio uno de los más efectivos moldes de creación, propagación y desarrollo del vallenato. La leyenda de Francisco el Hombre habla de su desafío con el diablo, a quien únicamente logra derrotar cuando le canta el Credo al revés. Los grandes acordeoneros viajaban durante días para acudir a piquerías, concertadas de antemano o a través de re-cados, como lo atestigua ‘La gota fría’: “Acordate Moralitos de aquel día / que estuviste en Urumita/y no quisiste hacer parada”.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-135",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "identificar el propósito retórico de citar una tesis que después se refuta",
+        "enunciado": "En el texto, el autor menciona la afirmación de López Michelsen: “Las colitas son el ancestro directo del vallenato moderno”, con el propósito de:",
+        "opciones": {
+          "A": "presentar una postura que el autor posteriormente cuestiona mediante otros argumentos históricos.",
+          "B": "confirmar definitivamente que las colitas fueron el origen del vallenato moderno.",
+          "C": "demostrar que todos los historiadores coinciden en el origen del vallenato.",
+          "D": "introducir el tema principal del texto sobre las piquerías vallenatas."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Justo después de citar a López Michelsen, el autor escribe \"Pero parece más acertado pensar que las colitas no ayudaron a formar el género, sino a divulgarlo\" y da evidencia histórica y geográfica en contra: cita la tesis para luego refutarla.",
+        "distractores": {
+          "B": {
+            "explicacion": "El segundo párrafo hace justamente lo contrario: cuestiona esa afirmación con evidencia histórica y geográfica.",
+            "patron_trampa": "inversion_causal"
+          },
+          "C": {
+            "explicacion": "El propio texto dice \"se ha discutido\" el papel de las colitas, lo que indica desacuerdo entre historiadores, no consenso.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "D": {
+            "explicacion": "Las piquerías se presentan después como el verdadero motor de desarrollo del vallenato, pero la cita de López Michelsen no cumple la función de introducir ese tema, sino de plantear la postura que se refutará.",
+            "patron_trampa": "fuera_de_alcance_pregunta"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-136",
+        "competencia": "comprension_global",
+        "habilidad": "reconocer la función de una cita textual como evidencia dentro de un argumento",
+        "enunciado": "El autor cita el verso de La gota fría después de afirmar que los acordeoneros viajaban a distintas piquerías. Esta relación permite",
+        "opciones": {
+          "A": "describir el origen geográfico exclusivo del vallenato.",
+          "B": "demostrar que las colitas fueron el principal origen del vallenato.",
+          "C": "ilustrar mediante un ejemplo concreto la práctica de desplazamiento de los acordeoneros.",
+          "D": "introducir una opinión contraria a la tesis principal del texto."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto dice explícitamente \"como lo atestigua 'La gota fría'\": la canción se usa como evidencia concreta de un hecho ya afirmado (que los acordeoneros viajaban lejos a las piquerías), no como un dato nuevo ni contrario.",
+        "distractores": {
+          "A": {
+            "explicacion": "El verso ilustra el desplazamiento de los músicos, no delimita un origen geográfico exclusivo del género.",
+            "patron_trampa": "sobreinterpretacion"
+          },
+          "B": {
+            "explicacion": "La cita respalda el argumento sobre las piquerías, que el autor defiende como el verdadero motor del vallenato, no sobre las colitas.",
+            "patron_trampa": "confusion_tesis_antitesis"
+          },
+          "D": {
+            "explicacion": "El verso apoya la tesis del autor sobre las piquerías, no la contradice.",
+            "patron_trampa": "inversion_causal"
+          }
+        },
+        "dificultad": "baja"
+      }
+    ],
+    "tipo": "continuo_informativo"
+  },
+  {
+    "id": "LC-GRUPO-054",
+    "modulo": "lectura_critica",
+    "tipo_texto": "discontinuo",
+    "genero_texto": "anuncio",
+    "fuente": "Anuncio publicitario real de Tetra Pak. Tomado de: http://www.marketingnews.es/gran-consumo/noticia/1039285028005/tetra-pak-anuncia-primera-vez-propios-envases.1.html",
+    "fuente_nota": "Anuncio comercial real reproducido con fines exclusivamente pedagógicos de análisis crítico de estrategias publicitarias, tomado de un simulacro de entrenamiento UIS (banco Saber Pro). Se describe la imagen en vez de reproducirla.",
+    "visual_descripcion": "Anuncio impreso en blanco y negro. En un supermercado, un hombre empuja un carrito de compras dentro del cual va montada una vaca real (blanco y negro, de tamaño natural), como si fuera un producto más entre los estantes de lácteos que se ven al fondo. En la esquina inferior izquierda hay dos envases de cartón tipo Tetra Pak junto a frutas y verduras ilustradas. El texto principal, en letras grandes, dice: “Con los envases de Tetra Pak te llevas a casa lo más natural.” Debajo, en letra más pequeña: “Los envases de Tetra Pak están fabricados con una materia prima natural renovable y reciclable -papel- y no dejan pasar NI LA LUZ NI EL AIRE. Por eso los alimentos se conservan en óptimas condiciones y mantienen todo su sabor, vitaminas y propiedades intactas hasta el momento de su consumo.”",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-137",
+        "competencia": "comprension_global",
+        "habilidad": "reconocer cómo un enunciado persuasivo reformula una explicación técnica previa",
+        "enunciado": "El texto explica que el envase “no deja pasar ni la luz ni el aire” y concluye que “te llevas a casa lo más natural”. La relación entre estos enunciados consiste en que el segundo",
+        "opciones": {
+          "A": "reformula en términos persuasivos el beneficio técnico descrito previamente",
+          "B": "introduce una idea diferente sin relación con la explicación anterior",
+          "C": "contradice la afirmación sobre la función del envase",
+          "D": "describe una propiedad distinta a la conservación de los alimentos"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El dato técnico (bloquear luz y aire conserva mejor el alimento) es la base real del eslogan; \"lo más natural\" traduce ese beneficio técnico de conservación a un lenguaje persuasivo y emocional, sin cambiar el contenido.",
+        "distractores": {
+          "B": {
+            "explicacion": "El eslogan sí se conecta directamente con la explicación técnica; no introduce un tema aparte.",
+            "patron_trampa": "fuera_de_alcance_pregunta"
+          },
+          "C": {
+            "explicacion": "No hay contradicción: ambos enunciados apuntan al mismo beneficio (conservación de propiedades del alimento).",
+            "patron_trampa": "confusion_tesis_antitesis"
+          },
+          "D": {
+            "explicacion": "El eslogan sigue hablando de la misma propiedad (conservación/naturalidad del producto), no de una distinta.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-138",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "evaluar la función persuasiva de un elemento visual dentro de un anuncio",
+        "enunciado": "En el anuncio de Tetra Pak, la imagen de la vaca aparece junto a la afirmación de que el envase está hecho con materia prima natural y al eslogan “te llevas a casa lo más natural”. Considerando la articulación entre estos elementos, la función principal de la imagen consiste en",
+        "opciones": {
+          "A": "Introducir un elemento decorativo que capte la atención sin aportar significado al mensaje principal.",
+          "B": "Proporcionar evidencia científica sobre la composición orgánica del material del envase",
+          "C": "Ilustrar el proceso industrial mediante el cual se obtiene la materia prima utilizada en el envase",
+          "D": "Reforzar la credibilidad del argumento técnico mediante una asociación simbólica entre el envase y el origen natural del producto alimenticio"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "La vaca no aporta evidencia ni muestra un proceso industrial: funciona como símbolo de lo \"natural\" (el origen animal directo de un producto lácteo), reforzando de manera simbólica, no factual, la idea de naturalidad que promete el eslogan.",
+        "distractores": {
+          "A": {
+            "explicacion": "La imagen no es un simple adorno: está deliberadamente conectada con el texto sobre materia prima natural, aportando significado al mensaje.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "Una vaca dentro de un carrito de supermercado no es evidencia científica de ningún tipo; es un recurso visual simbólico, no un dato verificable.",
+            "patron_trampa": "sobreinterpretacion"
+          },
+          "C": {
+            "explicacion": "La imagen no muestra ninguna etapa de fabricación del envase (extracción de papel, ensamblaje, etc.), solo evoca el origen natural del producto.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "discontinuo"
+  },
+  {
+    "id": "LC-GRUPO-055",
+    "modulo": "lectura_critica",
+    "tipo_texto": "discontinuo",
+    "genero_texto": "comic",
+    "fuente": "Quino (Joaquín Salvador Lavado), tira cómica de Mafalda.",
+    "fuente_nota": "Tira real de Mafalda descrita estructuralmente con fines pedagógicos de análisis crítico; no se reproduce el guion completo por derechos de autor del creador. Tomado de un simulacro de entrenamiento UIS (banco Saber Pro).",
+    "visual_descripcion": "Tira cómica de 6 viñetas. Viñeta 1: Susana le contó a una amiga (la narradora, que llega a la escena) que Mafalda tiene una tortuga y viene a conocerla; pregunta qué nombre le puso. Mafalda responde: “Burocracia”. Viñeta 2: la amiga, sorprendida, pregunta varias veces por qué le puso ese nombre a la tortuga. Viñeta 3: Mafalda, ya resignada, dice que bueno, ¿y qué?, la tortuga ya está “encerrada” (guardada), y que tal vez si hubiera venido antes la habría conocido. Viñeta 4: la amiga protesta, dice que vino especialmente y que es una barbaridad que hoy ya no se pueda ver a la tortuga; Mafalda le dice que tendrá que ser mañana, que hoy es imposible. Viñeta 5: la amiga pregunta por un horario para el día siguiente; Mafalda responde que ni ella misma sabría informarle con precisión; la amiga, resignada, dice que volverá mañana. Viñeta 6: la amiga se aleja pensativa, concluyendo en un globo de pensamiento que al final nunca se enteró por qué la tortuga se llama así.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-139",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "interpretar una relación metafórica entre un rasgo del objeto representado y el concepto nombrado",
+        "enunciado": "En la caricatura, Mafalda nombra a la tortuga “Burocracia”. Considerando la relación entre las características del animal y el concepto al que alude, esta denominación permite interpretar que la caricatura establece una relación metafórica mediante la cual la burocracia se caracteriza por",
+        "opciones": {
+          "A": "Su habilidad para adaptarse progresivamente a los cambios del entorno social.",
+          "B": "Su capacidad de protección frente a las decisiones externas que afectan su funcionamiento.",
+          "C": "Su tendencia a actuar de manera silenciosa para evitar el cuestionamiento público.",
+          "D": "Su lentitud estructural, que retrasa el cumplimiento oportuno de los procesos que debería facilitar."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Toda la tira gira en torno a la demora: la tortuga está \"encerrada\", hay que volver \"mañana\", no hay horario claro para verla. El chiste usa el rasgo más conocido de una tortuga —su lentitud— como metáfora de la lentitud de los trámites burocráticos.",
+        "distractores": {
+          "A": {
+            "explicacion": "La tira no muestra ninguna capacidad de adaptación de la tortuga; al contrario, insiste en la demora repetida de un mismo trámite simple.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "El caparazón como \"protección\" no es el rasgo que la tira explota; el chiste se centra en la demora para acceder a la tortuga, no en su defensa frente a decisiones externas.",
+            "patron_trampa": "sobreinterpretacion"
+          },
+          "C": {
+            "explicacion": "La tira no trata sobre evitar el cuestionamiento público; la amiga sí cuestiona (\"¿por qué Burocracia?\") y nunca obtiene respuesta, pero por falta de información, no por silencio deliberado para evadir crítica.",
+            "patron_trampa": "confusion_figura_retorica"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-140",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "inferir el propósito crítico de una analogía entre un elemento visual concreto y un concepto abstracto",
+        "enunciado": "En la caricatura, el hecho de que Mafalda asigne a la tortuga el nombre “Burocracia” establece una relación entre un elemento visual concreto y un concepto abstracto. Esta relación permite inferir que la caricatura busca",
+        "opciones": {
+          "A": "Ilustrar la importancia de los animales en la formación de conceptos políticos dentro del pensamiento infantil",
+          "B": "Presentar una descripción objetiva de las características biológicas de la tortuga para compararlas con estructuras organizativas reales",
+          "C": "Construir una analogía crítica en la que un rasgo observable del animal se utiliza para representar simbólicamente el funcionamiento ineficiente de un sistema administrativo",
+          "D": "Destacar el valor positivo de la lentitud como mecanismo necesario para garantizar la precisión de los procesos institucionales"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "La tira usa el rasgo observable (lentitud de la tortuga) como analogía crítica de la lentitud e ineficiencia de los trámites burocráticos, reforzada por la situación misma que vive la amiga al intentar simplemente conocer a la tortuga.",
+        "distractores": {
+          "A": {
+            "explicacion": "No hay ninguna reflexión sobre cómo los niños forman conceptos políticos; es una crítica social dirigida al lector adulto, no un estudio del pensamiento infantil.",
+            "patron_trampa": "sobreinterpretacion"
+          },
+          "B": {
+            "explicacion": "La tira no ofrece una descripción biológica objetiva de la tortuga; usa un solo rasgo (lentitud) con fines simbólicos y humorísticos, no científicos.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "La tira presenta la lentitud como un obstáculo frustrante (la amiga se va sin respuesta y tiene que volver al día siguiente), no como una virtud que garantice precisión.",
+            "patron_trampa": "inversion_causal"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "discontinuo"
+  },
+  {
+    "id": "LC-GRUPO-056",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_informativo",
+    "genero_texto": "ensayo",
+    "fuente": "René Descartes, Discurso del método (fragmento)",
+    "fuente_nota": "Tomado de un simulacro de entrenamiento UIS (banco Saber Pro).",
+    "texto_base": "“No recibir jamás ninguna cosa como verdadera que yo no la conociese evidentemente como tal; es decir, evitar cuidadosamente la precipitación y la prevención, y no comprender en mis juicios nada más que lo que se presentara tan clara y distintamente a mi espíritu que no tuviese ninguna ocasión de ponerlo en duda.\n\nPues, considerando que nuestros sentidos nos engañan algunas veces, quise suponer que no había cosa alguna que fuese tal como ellos nos la hacen imaginar. Y puesto que hay hombres que se equivocan al razonar, aun en las más simples materias, rechacé como falsas todas las razones que antes había tenido por demostrativas.\n\nPero inmediatamente advertí que, mientras quería pensar que todo era falso, era necesario que yo, que lo pensaba, fuese alguna cosa. Y observando que esta verdad: ‘pienso, luego existo’, era tan firme y segura que ninguna de las más extravagantes suposiciones de los escépticos era capaz de destruirla, juzgué que podía admitirla como el primer principio de la filosofía.”",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-141",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "evaluar la estructura lógica que sostiene la certeza de un argumento filosófico",
+        "enunciado": "El argumento de Descartes según el cual “pienso, luego existo” se considera evidente porque:",
+        "opciones": {
+          "A": "Se fundamenta en la confianza en los sentidos como fuente principal del conocimiento verdadero.",
+          "B": "Establece una conclusión que se deriva necesariamente del hecho mismo de dudar o pensar, lo que impide negarla sin contradecirse",
+          "C": "Demuestra que el acto de dudar confirma indirectamente la existencia de otras realidades externas independientes del pensamiento",
+          "D": "Supone que la duda universal permite negar la existencia del propio sujeto sin afectar la validez del razonamiento que duda"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Descartes advierte que \"mientras quería pensar que todo era falso, era necesario que yo, que lo pensaba, fuese alguna cosa\": negar que existe implicaría seguir pensando (y por tanto existiendo) para poder negarlo, lo que hace la afirmación autorreferencialmente indudable.",
+        "distractores": {
+          "A": {
+            "explicacion": "El argumento parte precisamente de desconfiar de los sentidos (\"nuestros sentidos nos engañan algunas veces\"), no de apoyarse en ellos.",
+            "patron_trampa": "inversion_causal"
+          },
+          "C": {
+            "explicacion": "El texto solo establece la existencia del sujeto que piensa, no la de realidades externas; esas quedaron puestas en duda, no confirmadas.",
+            "patron_trampa": "sobreinterpretacion"
+          },
+          "D": {
+            "explicacion": "Es justo lo contrario: la duda universal NO puede negar la existencia del sujeto que duda, porque dudar ya presupone que ese sujeto piensa y por tanto existe.",
+            "patron_trampa": "inversion_causal"
+          }
+        },
+        "dificultad": "alta"
+      },
+      {
+        "id": "LC-ITEM-142",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "identificar una posible debilidad no explícita en un argumento filosófico",
+        "enunciado": "En el fragmento, Descartes concluye que la proposición “pienso, luego existo” es indudable porque incluso el acto de dudar confirma la existencia del sujeto que piensa. Sin embargo, una posible debilidad de este argumento radicaría en que",
+        "opciones": {
+          "A": "Supone que el acto de pensar implica necesariamente la existencia de un sujeto estable, sin examinar si el pensamiento podría ocurrir sin una identidad permanente",
+          "B": "Depende exclusivamente de la validez de los sentidos, los cuales previamente habían sido aceptados como fundamento del conocimiento",
+          "C": "Afirma que la duda carece de valor filosófico, aunque la utiliza como punto de partida del razonamiento",
+          "D": "Concluye que toda forma de conocimiento es imposible, a partir de la incertidumbre inicial sobre algunas creencias"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Descartes salta de \"hay pensamiento\" a \"por tanto YO (un sujeto estable) existo\", sin justificar por qué el pensamiento requiere necesariamente un sujeto permanente y no, por ejemplo, un proceso sin una identidad fija — una objeción filosófica real al argumento.",
+        "distractores": {
+          "B": {
+            "explicacion": "El argumento no depende de los sentidos; al contrario, se construye precisamente después de haberlos puesto en duda.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "Descartes no afirma que la duda carezca de valor: la usa deliberadamente como herramienta metódica válida, no como algo sin valor filosófico.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "El texto concluye lo opuesto: que sí hay al menos una certeza indudable (\"pienso, luego existo\"), no que todo conocimiento sea imposible.",
+            "patron_trampa": "inversion_causal"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_informativo"
+  },
+  {
+    "id": "LC-GRUPO-057",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_informativo",
+    "genero_texto": "ensayo",
+    "fuente": "Ludwig Wittgenstein, Tractatus Logico-Philosophicus (1921), proposición 7 (aforismo final), dos traducciones distintas al español.",
+    "fuente_nota": "Tomado de un simulacro de entrenamiento UIS (banco Saber Pro).",
+    "texto_base": "El aforismo final del Tractatus Logico-Philosophicus ha sido traducido de distintas maneras. Mientras una versión afirma: “De lo que no se puede hablar, hay que callar”, otra propone: “De lo que no se puede hablar, es mejor guardar silencio.”\n\nVersión 1: “De lo que no se puede hablar, hay que callar.”\nVersión 2: “De lo que no se puede hablar, es mejor guardar silencio.”",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-143",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "evaluar cómo una variación en la traducción modifica el alcance filosófico de un enunciado",
+        "enunciado": "Considerando el sentido filosófico del texto, la diferencia entre las expresiones “hay que callar” y “es mejor guardar silencio” modifica el alcance filosófico del aforismo porque la primera",
+        "opciones": {
+          "A": "sugiere que el lenguaje es incapaz de representar hechos empíricos, mientras la segunda limita su función a la comunicación cotidiana.",
+          "B": "afirma que el lenguaje debe evitar ciertos temas por razones morales, mientras la segunda describe una preferencia individual del hablante",
+          "C": "propone que el silencio es una forma alternativa de conocimiento, mientras la segunda niega toda posibilidad de conocimiento",
+          "D": "establece una necesidad lógica que delimita el alcance del lenguaje, mientras la segunda introduce una recomendación que debilita el carácter argumentativo del enunciado"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "\"Hay que\" expresa una necesidad lógica ineludible (dado el límite del lenguaje, callar es obligatorio); \"es mejor\" convierte esa necesidad en una simple recomendación o preferencia, debilitando la fuerza argumentativa original del aforismo sobre los límites del lenguaje.",
+        "distractores": {
+          "A": {
+            "explicacion": "Ninguna de las dos versiones habla específicamente de \"hechos empíricos\" ni restringe el lenguaje a la \"comunicación cotidiana\"; ese matiz no está en el contraste real entre las dos traducciones.",
+            "patron_trampa": "sobreinterpretacion"
+          },
+          "B": {
+            "explicacion": "El aforismo no trata sobre razones morales para evitar temas, sino sobre los límites lógicos de lo que el lenguaje puede expresar con sentido.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "Ninguna de las dos versiones presenta el silencio como una forma de conocimiento ni niega toda posibilidad de conocer; el aforismo distingue lo que puede decirse de lo que no, no niega el conocimiento en general.",
+            "patron_trampa": "sobreinterpretacion"
+          }
+        },
+        "dificultad": "alta"
+      },
+      {
+        "id": "LC-ITEM-144",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "reconocer por qué una expresión normativa introduce un contenido valorativo",
+        "enunciado": "En el aforismo, la expresión “hay que callar” introduce un contenido valorativo porque",
+        "opciones": {
+          "A": "describe el límite funcional del lenguaje como si se tratara de una propiedad empírica observable en todos los actos de comunicación.",
+          "B": "establece una norma que delimita lo que el sujeto debe hacer cuando el lenguaje no puede expresar algo con sentido",
+          "C": "explica el proceso mediante el cual el conocimiento humano alcanza su validez a partir de la experiencia sensible y verificable",
+          "D": "afirma que el silencio constituye una consecuencia natural del agotamiento progresivo de los recursos expresivos del lenguaje"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "\"Hay que\" es una expresión deóntica: no describe un hecho, sino que prescribe una obligación (\"lo que el sujeto debe hacer\") ante el límite del lenguaje, y toda prescripción de este tipo introduce, por definición, un contenido normativo/valorativo.",
+        "distractores": {
+          "A": {
+            "explicacion": "El aforismo no describe el límite del lenguaje como un hecho empírico observable, sino que prescribe una conducta ante ese límite.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El fragmento no trata sobre el proceso de validación del conocimiento a partir de la experiencia sensible; ese tema es ajeno al aforismo.",
+            "patron_trampa": "fuera_de_alcance_pregunta"
+          },
+          "D": {
+            "explicacion": "El aforismo no describe el silencio como consecuencia de un \"agotamiento\" progresivo del lenguaje; es una norma sobre el límite lógico de lo expresable, no un proceso gradual.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_informativo"
+  },
+  {
+    "id": "LC-GRUPO-058",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_informativo",
+    "genero_texto": "ensayo",
+    "fuente": "Hobbes, T. (1999). Tratado sobre el ciudadano. Trad. Joaquín Rodríguez Feo, Madrid, Trotta.",
+    "fuente_nota": "Tomado de un simulacro de entrenamiento UIS (banco Saber Pro).",
+    "texto_base": "“Aunque las comodidades de esta vida pueden aumentarse con la ayuda mutua, sin embargo, como eso se puede conseguir dominando a los demás mejor que asociándose con ellos, nadie debe dudar de que los hombres por su naturaleza, si no existiera el miedo, se verían inclinados más al dominio que a la sociedad.\n\nPor lo tanto, hay que afirmar que el origen de las sociedades grandes y duraderas no se ha debido a la mutua benevolencia de los hombres sino al miedo mutuo”.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-145",
+        "competencia": "comprension_global",
+        "habilidad": "reconstruir la conclusión de un argumento a partir de sus dos premisas explícitas",
+        "enunciado": "De acuerdo con el texto, si los hombres por su naturaleza están más inclinados al dominio que a la sociedad, ¿por qué aparecieron sociedades grandes y duraderas?",
+        "opciones": {
+          "A": "Los beneficios se pueden conseguir mejor cuando los hombres se asocian para formar sociedades.",
+          "B": "La benevolencia mutua de los hombres llegó a ser superior a su tendencia natural a dominar a los otros.",
+          "C": "Los temores que los hombres pueden sentir hacia otros los incita más a asociarse que ejercer domino sobre los demás.",
+          "D": "Las sociedades grandes y duraderas son resultado del contrato que suscriben hombres que no temen a sus semejantes"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto concluye explícitamente que el origen de las sociedades \"no se ha debido a la mutua benevolencia... sino al miedo mutuo\": es el temor a los demás, no la buena voluntad, lo que lleva a los hombres a asociarse pese a su inclinación natural al dominio.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no dice que los hombres reconozcan racionalmente el beneficio de asociarse; afirma que se asocian por miedo, pese a preferir el dominio.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "El texto niega esto de forma explícita: \"no se ha debido a la mutua benevolencia de los hombres\".",
+            "patron_trampa": "inversion_causal"
+          },
+          "D": {
+            "explicacion": "Contradice el texto: la sociedad surge precisamente porque los hombres SÍ temen a sus semejantes, no porque estén libres de ese temor.",
+            "patron_trampa": "inversion_causal"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tipo": "continuo_informativo"
+  },
+  {
+    "id": "LC-GRUPO-059",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_literario",
+    "genero_texto": "ensayo",
+    "fuente": "Fernando Pessoa (bajo el heterónimo Bernardo Soares), Libro del desasosiego, fragmento.",
+    "fuente_nota": "Tomado de un simulacro de entrenamiento UIS (banco Saber Pro).",
+    "texto_base": "No tengo ningún sentimiento político o social. Tengo, no obstante, en un cierto sentido, un alto sentimiento patriótico. Mi patria es la lengua portuguesa. Nada me importaría que invadieran o tomaran Portugal, siempre que no me molestaran personalmente. Pero odio, con verdadero odio, con el único odio que siento, no a quien escribe en un mal portugués, no a quien ignora la sintaxis, no a quien escribe con la ortografía simplificada, sino la página mal escrita, como un agravio personal, la sintaxis equivocada, como alguien a quien se golpeara, la ortografía sin i griega, como el esputo directo que me enoja independientemente de quien lo escupa.\n\nSí, porque la ortografía es también un ser humano. La palabra es completa cuando vista y oída. Y la gala de la transliteración grecorromana me la viste con su auténtico manto regio que la proclaman como reina y señora.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-146",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "identificar recursos retóricos usados para intensificar una postura",
+        "enunciado": "En el fragmento, el autor emplea diversas estrategias discursivas para intensificar su postura frente a la lengua portuguesa. ¿Cuál de las siguientes opciones identifica adecuadamente una de esas estrategias?",
+        "opciones": {
+          "A": "El uso de la metáfora y la personificación para atribuir cualidades humanas a la ortografía y reforzar el carácter afectivo de su defensa del lenguaje.",
+          "B": "La exposición objetiva de argumentos históricos destinados a demostrar la superioridad política de Portugal frente a otros países.",
+          "C": "La presentación de datos lingüísticos verificables con el fin de justificar científicamente la importancia de la ortografía tradicional.",
+          "D": "La enumeración neutral de errores gramaticales con el propósito de ofrecer una guía normativa para escritores principiantes."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El texto personifica la ortografía explícitamente (\"la ortografía es también un ser humano\", \"la sintaxis equivocada, como alguien a quien se golpeara\") y la viste con metáforas de realeza (\"manto regio\", \"reina y señora\"), intensificando afectivamente su defensa del idioma.",
+        "distractores": {
+          "B": {
+            "explicacion": "El autor renuncia explícitamente al sentimiento político (\"no tengo ningún sentimiento político\") y a la superioridad territorial (le da igual que invadan Portugal); no hay argumentos históricos de superioridad política.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "C": {
+            "explicacion": "El fragmento es profundamente emocional y subjetivo (\"odio, con verdadero odio\"), no presenta datos lingüísticos verificables ni un tono científico.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "El tono no es neutral ni pedagógico: es apasionado y valorativo (\"odio\", \"agravio personal\"), no una guía normativa para principiantes.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-147",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "interpretar el sentido figurado de una declaración identitaria dentro de su contexto literario",
+        "enunciado": "En el contexto del fragmento, cuando el autor afirma que “Mi patria es la lengua portuguesa” y declara que no le importaría una invasión territorial siempre que no lo afectara personalmente, esta afirmación debe entenderse como",
+        "opciones": {
+          "A": "una postura nacionalista radical que privilegia la lengua como instrumento de dominación cultural frente a otras naciones.",
+          "B": "una manifestación literal de indiferencia frente a los conflictos bélicos que afectaban a Portugal en el momento histórico de la escritura.",
+          "C": "una redefinición simbólica del concepto de patria propia del modernismo literario, en la que la identidad cultural se sitúa por encima de la pertenencia política.",
+          "D": "una declaración autobiográfica en la que el autor describe su situación jurídica frente al Estado portugués."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El autor rechaza explícitamente tener \"sentimiento político o social\" y desplaza su patriotismo hacia la lengua, no hacia el territorio: es una redefinición simbólica de \"patria\" (identidad cultural/lingüística por encima de la pertenencia política), característica del tono introspectivo y antinacionalista del modernismo literario de Pessoa, no una postura política literal.",
+        "distractores": {
+          "A": {
+            "explicacion": "El autor no busca dominar culturalmente a otras naciones; de hecho, renuncia explícitamente a cualquier \"sentimiento político o social\", lo opuesto de un proyecto de dominación.",
+            "patron_trampa": "sobreinterpretacion"
+          },
+          "B": {
+            "explicacion": "Leer la frase de forma literal como indiferencia real ante una guerra ignora su función retórica: es una hipérbole para expresar que su identidad no depende del territorio, no un posicionamiento político literal frente a conflictos bélicos reales.",
+            "patron_trampa": "sobreinterpretacion"
+          },
+          "D": {
+            "explicacion": "El fragmento no describe ninguna situación jurídica ni trámite legal frente al Estado; es una reflexión simbólica sobre la identidad, no un dato biográfico-legal.",
+            "patron_trampa": "informacion_no_presente"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_literario"
+  },
+  {
+    "id": "LC-GRUPO-060",
+    "modulo": "lectura_critica",
+    "tipo_texto": "continuo_literario",
+    "genero_texto": "novela",
+    "fuente": "Dostoievski, F. (2004). El idiota. Traducción de Rafael Cansinos Assens. Madrid: Alianza Editorial, Parte I, cap. V.",
+    "fuente_nota": "Tomado de un simulacro de entrenamiento UIS (banco Saber Pro).",
+    "texto_base": "El referido individuo había sido conducido, juntamente con otros, al cadalso y le habían leído la sentencia condenándolo a muerte fusilado por delito político (…)\n\nLlegó el momento en que solo le quedaban 5 minutos de vida nada más. Contaba él que esos cinco minutos le habían parecido un espacio de tiempo infinito, una riqueza enorme; pareciále que en aquellos cinco minutos había gastado tanta cantidad de vida, que ni siquiera pensaba en su último momento, y seguía adoptando distintas determinaciones; descontaba el tiempo necesario para despedirse de sus camaradas, destinando a ese efecto dos minutos, y otros dos minutos para pensar por vez postrera en sí mismo, y lo restante del tiempo para esparcir la vista en torno suyo… iba a morir a los 27 años, sano y fuerte; al despedirse de los compañeros, recordaba haberle hecho a uno de ellos una pregunta de todo punto insignificante, y que aguardó con mucho interés la respuesta.\n\nDespués de haberse despedido de sus camaradas, encontróse dueño de aquellos dos minutos que había destinado a pensar en sus cosas; sabía de antemano en qué había de pensar; toda su ansia era imaginarse con la mayor rapidez y claridad posibles, cómo abría de ser aquello: que él, en aquel instante, existiese y viviese y, al cabo de tres minutos, hubiese de ser ya otra cosa, alguien o algo distinto… ¿el qué? ¿y dónde? (…) ¿Y si no tuviese que morir? ¿y si volviese a la vida? ¡Qué eternidad! ¡y todo eso sería mío! Cada minuto lo convertiría en un siglo, no perdería nada, a cada minuto le pediría cuenta, no gastaría ni uno solo en vano.",
+    "preguntas": [
+      {
+        "id": "LC-ITEM-148",
+        "competencia": "comprension_global",
+        "habilidad": "reconocer la función narrativa global de una técnica de construcción del relato",
+        "enunciado": "En el fragmento, el narrador detalla cómo el condenado distribuye mentalmente sus últimos cinco minutos y describe con intensidad sus pensamientos sobre el tiempo y la vida. Esta construcción discursiva cumple principalmente la función de",
+        "opciones": {
+          "A": "presentar un testimonio documental orientado a validar históricamente un hecho político mediante una secuencia objetiva de acontecimientos verificables.",
+          "B": "reconstruir con precisión analítica el procedimiento penal aplicado al reo, con el fin de ofrecer una descripción estructurada del sistema judicial y su lógica sancionatoria.",
+          "C": "desarrollar una reflexión ética implícita que busca problematizar la legitimidad de la pena capital a partir de una argumentación moral explícita del personaje.",
+          "D": "intensificar el dramatismo de la escena mediante la dilatación subjetiva del tiempo y la exploración minuciosa de la conciencia del condenado."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El fragmento se enfoca en la experiencia subjetiva e interior del condenado (\"le habían parecido un espacio de tiempo infinito\", el reparto minuto a minuto de su atención), una técnica literaria de dilatación del tiempo narrado que intensifica el dramatismo, no en datos objetivos ni en argumentación moral explícita.",
+        "distractores": {
+          "A": {
+            "explicacion": "El relato es una reconstrucción subjetiva de la conciencia del personaje, no un testimonio documental con pretensión de objetividad verificable.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "B": {
+            "explicacion": "El fragmento no describe el procedimiento penal ni su lógica institucional; se centra en la experiencia interior del condenado, no en el sistema judicial.",
+            "patron_trampa": "fuera_de_alcance_pregunta"
+          },
+          "C": {
+            "explicacion": "El personaje no argumenta explícitamente contra la pena de muerte en ningún momento del fragmento; su reflexión es sobre el valor del tiempo y la vida, expresada de forma subjetiva, no como una argumentación moral explícita sobre la legitimidad de la pena capital.",
+            "patron_trampa": "sobreinterpretacion"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-149",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "inferir la relación entre la inminencia de la muerte y la intensificación de la esperanza en un personaje",
+        "enunciado": "En el fragmento, el condenado experimenta los últimos cinco minutos como “una riqueza enorme” y, al imaginar la posibilidad de no morir, exclama: “¡Qué eternidad! ¡y todo eso sería mío!”. A partir de estas expresiones, puede afirmarse que en la escena se establece una relación entre el tiempo y la esperanza porque",
+        "opciones": {
+          "A": "la conciencia de la inminencia de la muerte intensifica la percepción del tiempo y transforma cada minuto en una posibilidad futura cargada de sentido.",
+          "B": "la distribución racional de los minutos demuestra que el personaje controla objetivamente la duración del tiempo que le resta.",
+          "C": "la descripción detallada de los hechos permite medir con exactitud la cantidad de tiempo transcurrido antes de la ejecución.",
+          "D": "la resignación ante el destino inevitable elimina cualquier expectativa sobre el valor de los instantes finales."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La inminencia de la muerte hace que cinco minutos se sientan como \"una riqueza enorme\", y al imaginar seguir vivo el personaje proyecta esa intensidad hacia el futuro (\"¡y todo eso sería mío!\"): la cercanía de la muerte es lo que dispara tanto la intensificación del presente como la esperanza sobre un futuro posible.",
+        "distractores": {
+          "B": {
+            "explicacion": "La distribución de minutos es una construcción mental angustiada, no un control objetivo real sobre el tiempo que le queda de vida.",
+            "patron_trampa": "sobreinterpretacion"
+          },
+          "C": {
+            "explicacion": "La narración no busca precisión cronométrica; describe una experiencia subjetiva del tiempo, no una medición exacta.",
+            "patron_trampa": "informacion_no_presente"
+          },
+          "D": {
+            "explicacion": "Contradice el texto: el personaje no está resignado sin expectativa, al contrario, desea intensamente que cada instante cuente y sueña con la posibilidad de seguir viviendo.",
+            "patron_trampa": "inversion_causal"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "LC-ITEM-150",
+        "competencia": "reflexion_evaluacion",
+        "habilidad": "formular una reflexión crítica coherente con el sentido global de un texto literario",
+        "enunciado": "En el fragmento, el condenado afirma que, si recuperara la vida, “cada minuto lo convertiría en un siglo” y no desperdiciaría ninguno. A partir de esta idea, ¿cuál de las siguientes reflexiones asume una postura crítica coherente con el sentido del texto respecto al uso que las personas hacen de su tiempo?",
+        "opciones": {
+          "A": "La intensidad con que se experimenta el tiempo es un fenómeno inevitable que no puede modificarse mediante decisiones personales.",
+          "B": "El valor del tiempo depende exclusivamente de las circunstancias extremas, ya que solo ante la muerte se adquiere verdadera conciencia de su importancia.",
+          "C": "La administración eficiente del tiempo consiste en distribuir racionalmente las actividades diarias para evitar cualquier forma de ocio improductivo.",
+          "D": "La experiencia límite revela que el tiempo suele subestimarse en la vida cotidiana, por lo que es necesario asumir una actitud consciente y responsable frente a cada instante vivido."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El fragmento muestra que solo ante la inminencia de la muerte el personaje valora plenamente cada minuto; una lectura crítica coherente no restringe esa lección a situaciones extremas, sino que la generaliza como advertencia: el tiempo cotidiano suele subestimarse y merece una actitud consciente, no solo cuando la muerte es inminente.",
+        "distractores": {
+          "A": {
+            "explicacion": "Contradice el sentido del texto: la reflexión del condenado sugiere justamente que una actitud consciente (una decisión) puede cambiar cómo se valora el tiempo, no que sea un fenómeno fijo e inmodificable.",
+            "patron_trampa": "inversion_causal"
+          },
+          "B": {
+            "explicacion": "Generaliza indebidamente la experiencia límite como la ÚNICA vía posible de conciencia sobre el tiempo (\"exclusivamente\", \"solo\"), cuando la lectura crítica que pide la pregunta es aprender la lección sin necesitar circunstancias extremas.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "C": {
+            "explicacion": "Reduce la reflexión existencial del personaje a un consejo de productividad y gestión de tareas, perdiendo el tono de valoración vital e intensidad emocional del fragmento.",
+            "patron_trampa": "enfoque_parcial"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "continuo_literario"
+  }
+]

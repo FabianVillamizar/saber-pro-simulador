@@ -1,0 +1,1133 @@
+[
+  {
+    "id": "CC-GRUPO-103",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "participacion_ciudadana",
+    "situacion": "En Bucaramanga cada vez más se presentan comportamientos censurables jurídicamente y en materia de cultura ciudadana, relacionados con el actuar de peatones y de conductores de diferentes vehículos, principalmente de motociclistas, pues incumplen diversos tipos de normas de movilidad, poniendo en riesgo o vulnerando diversos derechos. Las autoridades de tránsito municipal y de Policía se ven colapsadas para atender dicho proceder. Frente a lo anterior, diversos sectores han propuesto que el Concejo municipal proceda a convocar una sesión pública para buscar salidas a dicha problemática, precisando una solución.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-129",
+        "competencia": "conocimientos",
+        "bloque": "cabildo_abierto_quien_lo_solicita",
+        "enunciado": "Por tanto, el mecanismo que permitiría la participación ciudadana directa en esa sesión pública convocada por el Concejo municipal sería:",
+        "dificultad": "baja",
+        "opciones": {
+          "A": "El cabildo abierto.",
+          "B": "El referendo.",
+          "C": "El plebiscito.",
+          "D": "La consulta popular."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El **cabildo abierto** es exactamente el mecanismo descrito: una sesión pública del Concejo municipal (o Asamblea/Junta según el nivel) en la que los ciudadanos participan directamente para discutir un asunto de interés de la comunidad, sin que se requiera someter una pregunta a votación previa.",
+        "distractores": {
+          "B": {
+            "explicacion": "El referendo somete a votación popular la aprobación o derogatoria de una norma jurídica ya existente o un proyecto de norma; aquí no hay ninguna norma en juego, sino la búsqueda deliberativa de una solución en una sesión pública.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "El plebiscito es un mecanismo de convocatoria presidencial para pronunciarse sobre decisiones del Ejecutivo nacional; no aplica a un problema de movilidad de competencia municipal ni a una sesión deliberativa del Concejo.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "La consulta popular somete una pregunta de trascendencia a votación directa de los ciudadanos; el escenario descrito no es una votación sino una sesión pública deliberativa convocada por el Concejo, que es justamente la definición del cabildo abierto.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-104",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "seguridad_social_pensiones",
+    "situacion": "La reforma pensional de 2024 en Colombia, oficializada por la Ley 2381, establece un nuevo modelo de pensiones basado en cuatro pilares. La ley se promulgó el 16 de julio de 2024 y los cambios entrarán en vigencia el 1 de julio de 2025. Esta reforma fue demandada al considerarse inconstitucional, siendo uno de los cargos el hecho de violar el procedimiento para aprobarla, pues no fue discutida en la Cámara de Representantes, es decir la aprobaron sin ningún debate, lo que popularmente se conoce como aprobación por 'pupitrazo'.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-130",
+        "competencia": "conocimientos",
+        "bloque": null,
+        "enunciado": "Teniendo en cuenta lo anterior, dicho cargo de inconstitucionalidad atenta contra:",
+        "dificultad": "media",
+        "opciones": {
+          "A": "La democracia participativa.",
+          "B": "La democracia directa.",
+          "C": "La democracia deliberativa.",
+          "D": "La democracia pluralista."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "La **democracia deliberativa** exige que las decisiones legislativas se adopten tras una discusión pública y argumentativa real entre los representantes, no solo mediante el cumplimiento formal de un trámite; aprobar una ley sin ningún debate en una de las cámaras ('pupitrazo') vacía precisamente esa exigencia de deliberación, independientemente de que el procedimiento formal se haya surtido.",
+        "distractores": {
+          "A": {
+            "explicacion": "La democracia participativa se refiere a los mecanismos que permiten a los ciudadanos intervenir directamente en las decisiones (voto, consulta, referendo, etc.), no a la calidad del debate interno entre los congresistas al tramitar una ley.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "B": {
+            "explicacion": "La democracia directa implica que el pueblo decide sin intermediarios; el vicio descrito ocurre dentro del propio Congreso (entre representantes), no en una decisión que debiera haber tomado el pueblo directamente.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "La democracia pluralista se refiere a la representación de la diversidad de ideologías y sectores en las instituciones; el problema aquí no es la falta de pluralismo en la composición del Congreso, sino la ausencia de discusión sobre un proyecto ya presentado.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-105",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "seguridad_social_pensiones",
+    "situacion": "La reforma pensional de 2024 en Colombia, oficializada por la Ley 2381, establece un nuevo modelo de pensiones basado en cuatro pilares. Entre sus principales aspectos: se establece un Sistema de Protección Social Integral para la Vejez, la Invalidez y la Muerte; se crea un Fondo de Ahorro para financiar las pensiones del nuevo esquema; se asigna una renta de $225 mil pesos para más de 2 millones de personas mayores que no lograron obtener su pensión; y se permite pensionarse al cumplir la edad de jubilación con al menos 1.000 semanas cotizadas.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-131",
+        "competencia": "conocimientos",
+        "bloque": null,
+        "enunciado": "Teniendo en cuenta lo anterior, precise uno de los valores y/o principios constitucionales más significativos que la renta para personas mayores sin pensión pretende materializar o fortalecer. Se trata de la:",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Solidaridad.",
+          "B": "Primacía del interés general sobre el particular.",
+          "C": "Equidad.",
+          "D": "Justicia."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El artículo 48 de la Constitución establece expresamente que la seguridad social se presta bajo los principios de **eficiencia, universalidad y solidaridad**. Una renta financiada colectivamente para quienes, pese a cotizar, no alcanzaron a pensionarse es la aplicación directa de ese principio: quienes sí logran acceder al sistema sostienen, mediante el Fondo de Ahorro común, a quienes quedaron por fuera.",
+        "distractores": {
+          "B": {
+            "explicacion": "La primacía del interés general (art. 1) es un principio orientador general del Estado, pero no es el principio nombrado específicamente por la Constitución para la seguridad social; atribuírselo a esta medida en particular desdibuja el fundamento jurídico más preciso, que es la solidaridad del art. 48.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "La equidad describe un resultado deseable (que el sistema trate justamente a quienes están en desventaja), pero no es el principio constitucional expresamente nombrado por el art. 48 para el sistema de seguridad social, que es la solidaridad.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "La justicia es un valor constitucional muy general del preámbulo; usarla aquí como respuesta pasa por alto que existe un principio constitucional mucho más específico y directamente aplicable al caso concreto de la seguridad social.",
+            "patron_trampa": "generalizacion_invalida"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-106",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "politica_e_instituciones",
+    "situacion": "La convivencia, el trabajo, la justicia, la igualdad, el conocimiento, la libertad y la paz plasmados en el preámbulo de la Constitución Política de Colombia, a pesar de tener un carácter programático, su formulación no debe ser entendida como un agregado simbólico, o como la manifestación de un deseo sin incidencia normativa, sino como un conjunto de propósitos a través de los cuales se deben mirar las relaciones entre los gobernantes y los gobernados, para que, dentro de las limitaciones propias de una sociedad en proceso de consolidación, irradien todo el tramado institucional. Así, le corresponde al legislador, de manera prioritaria, la tarea de establecer el alcance general de los mismos.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-132",
+        "competencia": "conocimientos",
+        "bloque": null,
+        "enunciado": "Teniendo en cuenta lo anterior, el texto hace referencia a:",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Valores constitucionales.",
+          "B": "Categorías constitucionales.",
+          "C": "Normas constitucionales.",
+          "D": "Principios constitucionales."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Los **valores constitucionales** son los contenidos del preámbulo y de normas como el art. 2 (fines del Estado): propósitos generales, de textura abierta y **carácter programático**, que orientan la interpretación y el desarrollo institucional pero no se aplican de forma directa como una regla — justamente la descripción que da el texto ('carácter programático', 'irradian todo el tramado institucional', corresponde al legislador desarrollar su alcance).",
+        "distractores": {
+          "B": {
+            "explicacion": "'Categorías constitucionales' no es una clasificación doctrinal reconocida en la teoría constitucional colombiana (que distingue clásicamente entre valores, principios y reglas/normas); es un término inventado para esta opción.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "Las normas o reglas constitucionales son las disposiciones de aplicación directa e inmediata (por ejemplo, un artículo que fija un procedimiento concreto); el texto describe justamente lo contrario, un contenido programático que requiere desarrollo legislativo posterior para precisar su alcance.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "Los principios constitucionales (como el Estado social de derecho) son más concretos que los valores y sí tienen aplicación normativa directa; el texto enfatiza justamente el carácter programático y no directamente aplicable de estos enunciados, lo que corresponde a los valores, no a los principios.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-107",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "politica_e_instituciones",
+    "situacion": "En enero del presente año, en Nicaragua, se realizó una reforma constitucional que establece cambios estructurales en la organización y gobierno de ese Estado; por ejemplo, el nuevo art. 132 de la Carta Política expresa: 'La presidencia de la República dirige al Gobierno y como jefatura del Estado coordina a los órganos legislativo, judicial, electoral, de control y fiscalización, regionales y municipales, en cumplimiento de los intereses supremos del pueblo nicaragüense y de lo establecido en la presente Constitución'.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-133",
+        "competencia": "conocimientos",
+        "bloque": "equilibrio_de_poderes",
+        "enunciado": "Teniendo en cuenta lo anterior, dicho artículo debilita uno de los principios que erige todo Estado democrático. Estamos aludiendo a:",
+        "dificultad": "baja",
+        "opciones": {
+          "A": "Los valores fundantes: dignidad, libertad, igualdad y solidaridad.",
+          "B": "La descentralización política y administrativa.",
+          "C": "La tri-división de las funciones públicas.",
+          "D": "La primacía del interés general sobre el particular."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Que la Presidencia 'coordine' a los órganos legislativo, judicial, electoral y de control anula la **separación de poderes** (tri-división de las funciones públicas): el diseño democrático clásico exige que estas ramas actúen con independencia y se controlen mutuamente (pesos y contrapesos), no que una de ellas subordine a las demás.",
+        "distractores": {
+          "A": {
+            "explicacion": "El artículo citado no toca directamente la dignidad, libertad, igualdad o solidaridad como valores; su efecto inmediato es concentrar la coordinación de todas las ramas del poder en la Presidencia, lo que es un problema de separación de poderes, no de vulneración de esos valores fundantes.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "B": {
+            "explicacion": "Aunque el artículo menciona 'regionales y municipales', el núcleo del problema es que la Presidencia coordina también a los órganos legislativo, judicial, electoral y de control, es decir, ramas del poder nacional distintas al Ejecutivo, no una cuestión de reparto territorial de competencias.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "La primacía del interés general no es el principio en juego aquí; el problema estructural es que se elimina la independencia entre ramas del poder público, sin importar si la medida se justifica invocando 'los intereses supremos del pueblo'.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-108",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "convivencia_y_discriminacion",
+    "situacion": "Marcela publicó en su cuenta de Facebook un mensaje en el que, según Carlos, la mujer vulneró sus derechos fundamentales a la imagen, intimidad, buen nombre y honra. Ella dice que su intención era negar que salía con él. Esta fue la publicación: 'Te aclaro y le aclaro a los que no me conocen que nunca tendré el gusto tan ARRASTRAO para dar un paso contigo siquiera a cruzar una esquina. No sé cuál es tu deseo frustrao de andar diciendo que alguna vez saliste conmigo;…jajaja pobre ILUSO eso sólo lo verás en sueño…'. El hombre presentó una tutela señalando que la publicación, 'además de vulnerar sus derechos fundamentales, destruyen y le causan un grave daño en su honor, decoro, fama y reconocimiento como un buen abogado litigante'. Tanto un juzgado en primera instancia como un tribunal en segunda le dieron la razón a Carlos. Sin embargo, cuando el caso llegó a la Corte Constitucional, el alto tribunal señaló que las publicaciones son discursos protegidos por el derecho a la opinión y la libertad de expresión, a menos que hagan apología al odio, incitación al genocidio, pornografía infantil, o sean propaganda de guerra.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-134",
+        "competencia": "multiperspectivismo",
+        "bloque": "tension_entre_derechos_constitucionales_legitimos",
+        "enunciado": "La Corte Constitucional tomó su decisión luego de analizar el conflicto existente entre los siguientes derechos fundamentales:",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Derecho al trabajo y libertad de conciencia.",
+          "B": "Derecho a la honra y libertad de expresión.",
+          "C": "Libertad de cultos y libertad de conciencia.",
+          "D": "Libertad de conciencia y libertad de expresión."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El caso enfrenta el **derecho a la honra y al buen nombre** de Carlos (que alega daño a su reputación y reconocimiento profesional) con la **libertad de expresión** de Marcela (que publicó una opinión personal en redes sociales); la Corte falló a favor de la libertad de expresión, salvo que se configuren las excepciones tasadas que mencionó (apología al odio, etc.).",
+        "distractores": {
+          "A": {
+            "explicacion": "Ni el derecho al trabajo ni la libertad de conciencia están en juego en el relato: Carlos alega daño a su honor y reputación (no a su empleo), y Marcela no invoca una convicción moral o religiosa, sino su derecho a opinar públicamente.",
+            "patron_trampa": "interes_mal_atribuido"
+          },
+          "C": {
+            "explicacion": "El caso no involucra ninguna cuestión religiosa (libertad de cultos) ni de convicciones íntimas protegidas por la libertad de conciencia; se trata de una publicación en redes sociales sobre una relación personal, no de una creencia religiosa o moral.",
+            "patron_trampa": "interes_mal_atribuido"
+          },
+          "D": {
+            "explicacion": "Aunque la libertad de expresión sí es uno de los derechos en tensión, el otro derecho realmente alegado por Carlos es la honra y el buen nombre (afectación a su reputación y reconocimiento profesional), no la libertad de conciencia, que se refiere a convicciones íntimas y no a la reputación de una persona.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-109",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "politica_e_instituciones",
+    "situacion": "Al Estado colombiano le está constitucionalmente prohibido, no solo establecer una religión o iglesia oficial, sino también identificarse formal y explícitamente con una de ellas, y por lo tanto realizar actos oficiales de adhesión, así sean simbólicos. Estas acciones del Estado violarían el principio de separación entre las iglesias y el Estado, desconocerían el principio de igualdad en materia religiosa y vulnerarían el pluralismo religioso. La historia de Colombia muestra los hechos de los que fueron víctimas las minorías religiosas, cuyos derechos tan sólo se reconocieron de manera expresa en la Carta Constitucional del 91, lo que significó un gran avance en su protección, eliminando la confesionalidad, y dejando en pie de igualdad a las diversas iglesias y confesiones religiosas.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-135",
+        "competencia": "conocimientos",
+        "bloque": "neutralidad_estatal_frente_a_religiones",
+        "enunciado": "De acuerdo con la información suministrada, en Colombia se garantiza la separación entre iglesia y Estado por la siguiente razón:",
+        "dificultad": "baja",
+        "opciones": {
+          "A": "El sector religioso es fundamental en la construcción y reconstrucción del tejido social.",
+          "B": "Todas las confesiones religiosas e iglesias son iguales ante la ley, ninguna creencia se puede imponer sobre las demás.",
+          "C": "En Colombia nos ha faltado fomentar una cultura de respeto, paz y tolerancia hacia la diversidad de credos.",
+          "D": "Las iglesias trabajan en el apoyo y respaldo a las personas y comunidades a través de sus redes de atención."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El propio texto lo dice explícitamente: la separación garantiza el **principio de igualdad en materia religiosa**, 'dejando en pie de igualdad a las diversas iglesias y confesiones religiosas', de modo que ninguna creencia se imponga institucionalmente sobre las demás.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no argumenta la separación a partir de la importancia social del sector religioso; al contrario, la separación busca precisamente que el Estado no dependa ni se identifique con ninguna confesión.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "El texto describe la separación religiosa como un avance ya logrado desde 1991 ('un gran avance en su protección'), no como una carencia pendiente de la sociedad colombiana; esta opción invierte el sentido positivo del texto.",
+            "patron_trampa": "causa_efecto_invertida"
+          },
+          "D": {
+            "explicacion": "La labor social de las iglesias no es la razón constitucional de la separación Estado-iglesia; el texto fundamenta la separación en la neutralidad estatal y la igualdad entre confesiones, no en las obras de asistencia social de las iglesias.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-110",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "participacion_ciudadana",
+    "situacion": "'Ya perdí la cuenta, no puedo recordar a cuántas marchas he asistido para defender el Páramo de Santurbán. Pero lo que sucedió la semana pasada superó todas las expectativas. Aunque había dos puntos de salida formales, la puerta del Sol y la Universidad Industrial de Santander, en varios momentos del trayecto se sumaron más y más personas. El río de gente ocupó al menos 20 cuadras cuando todos nos unimos y paralizamos el centro de Bucaramanga. Pero no todo puede ser color de rosa. Como esta marcha coincidió con la campaña local, uno de los retos que teníamos era evitar a toda costa que se convirtiera en la plataforma política de algún sector. Candidatos y precandidatos de todas las vertientes políticas salieron a marchar y varios lo hicieron con comitivas. La concurrida asistencia muestra que la defensa del páramo será clave en las elecciones para captar el voto de opinión. De hecho, varios partidos han empezado a contactarme para que sea candidato a la Asamblea Departamental.'",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-136",
+        "competencia": "argumentacion",
+        "bloque": "refutar_vs_sustentar_un_argumento",
+        "enunciado": "De acuerdo con la información suministrada, debería aceptar el aval de un partido político para lanzarme como diputado porque:",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Así podrá fortalecer el sistema de partidos a partir de una alianza auténtica con los ciudadanos, modificando las prácticas tradicionales.",
+          "B": "El apartidismo permite partir sin un posicionamiento preestablecido para alcanzar puntos en común sobre lo que será propuesto y ejecutado.",
+          "C": "Los partidos se equivocan al no aceptar que los jóvenes desconfían de la política convencional y son decididos defensores de fórmulas alternativas de participación.",
+          "D": "Uno de los retos que el grupo de activistas ha tenido en las manifestaciones es evitar a toda costa que estas se conviertan en plataformas políticas."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "De las cuatro opciones, solo la A ofrece una razón que efectivamente **sustenta** aceptar un aval partidista: plantea que la candidatura podría usarse para transformar las prácticas tradicionales desde dentro, mediante una alianza auténtica con la ciudadanía que ya respaldó la causa del páramo, en vez de limitarse a reproducir la política convencional.",
+        "distractores": {
+          "B": {
+            "explicacion": "Esta opción defiende el apartidismo (no tener un partido) como ventaja, lo cual es en realidad un argumento en contra de aceptar un aval partidista, no a favor.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "Esta es una crítica a los partidos políticos en general por desconocer la desconfianza juvenil, no una razón personal para que el narrador acepte un aval partidista específico.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "Este enunciado solo repite un hecho ya mencionado en el texto (el reto de evitar que la marcha se politizara); usado como 'razón para aceptar el aval' invierte su sentido, porque ese reto es precisamente un argumento de cautela frente a la captura partidista, no una justificación para aceptarla.",
+            "patron_trampa": "causa_efecto_invertida"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-111",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "participacion_ciudadana",
+    "situacion": "La Séptima Papeleta fue una propuesta que surgió a partir de un movimiento estudiantil ante las elecciones del 11 de marzo de 1990 en Colombia. Se elegían Senado, Cámara de Representantes, Asamblea Departamental, Alcaldes, Concejo Municipal y Juntas Administradoras Locales. El movimiento estudiantil propuso incluir un séptimo voto promovido por estudiantes de diferentes universidades, dando origen a varias reuniones para efectuar un nuevo pacto social. Estos jóvenes líderes, preocupados por la situación de su país, buscaban alternativas de solución a la crisis de violencia en Colombia por el accionar de los participantes en el conflicto armado y narcoterroristas auspiciados principalmente por Pablo Escobar y el Cartel de Medellín. Este texto muestra que un movimiento ciudadano estuvo en capacidad de promover una consulta popular para la convocatoria a una Asamblea Constituyente.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-137",
+        "competencia": "argumentacion",
+        "bloque": null,
+        "enunciado": "Por lo tanto, a partir de este episodio histórico puede afirmarse que los ciudadanos:",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Por medio de la movilización pacífica están en capacidad de promover grandes cambios sociales.",
+          "B": "Desconocen que una reforma constitucional supone la modificación de la Constitución de un Estado.",
+          "C": "Se ven afectados por el accionar de los actores armados y narcoterroristas.",
+          "D": "Pedían una revisión parcial de la Constitución y la sustitución de una o varias de sus normas."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El episodio de la Séptima Papeleta es el ejemplo histórico paradigmático de que la **movilización ciudadana pacífica** (un movimiento estudiantil sin poder formal) puede desencadenar un cambio institucional mayúsculo: la convocatoria de la Asamblea Nacional Constituyente que dio origen a la Constitución de 1991.",
+        "distractores": {
+          "B": {
+            "explicacion": "El relato no muestra ningún desconocimiento por parte de los estudiantes; al contrario, promovieron deliberadamente una consulta para convocar una Asamblea Constituyente, lo que supone que comprendían perfectamente el mecanismo de reforma que estaban impulsando.",
+            "patron_trampa": "causa_efecto_invertida"
+          },
+          "C": {
+            "explicacion": "Aunque el texto menciona el conflicto armado y el narcoterrorismo como parte del contexto que motivó la iniciativa, la conclusión que se pide no es sobre las causas del movimiento sino sobre lo que el episodio demuestra respecto a la capacidad de acción ciudadana.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "Esta opción describe en términos genéricos lo que hace cualquier reforma constitucional, pero no es la conclusión que se deriva específicamente de este episodio, que es la capacidad de la movilización ciudadana para impulsar cambios de fondo, no el contenido técnico de la reforma en sí.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-112",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "politica_e_instituciones",
+    "situacion": "Uno de los mayores logros y efectos de la modernidad fue la separación del poder político de las religiones, mediante la configuración de una organización jurídico-política que administre legítimamente el poder político de la sociedad bajo esta premisa, es decir, como Estado laico. Por ello podemos afirmar que 'El Estado y la Iglesia deben estar separados'.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-138",
+        "competencia": "argumentacion",
+        "bloque": "coherencia_e_incoherencia_entre_enunciados",
+        "enunciado": "Teniendo en cuenta el enunciado anterior, identifique la proposición que NO es coherente con dicha afirmación:",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Las iglesias y el Estado son instituciones que cumplen funciones y objetivos diferentes.",
+          "B": "Las iglesias establecen mandatos o normas que comprometen a los ciudadanos del Estado.",
+          "C": "El Estado regula la vida de los individuos en sociedad independientemente de sus credos.",
+          "D": "El Estado establece mandatos o normas que comprometen a todos los ciudadanos."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Si Estado e Iglesia están separados, las normas o mandatos religiosos solo obligan a quienes libremente pertenecen a esa confesión, nunca al conjunto de los ciudadanos del Estado; afirmar que las iglesias 'establecen mandatos que comprometen a los ciudadanos del Estado' le da a una institución religiosa un poder normativo general que, precisamente, la separación Estado-Iglesia prohíbe.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta afirmación sí es coherente con la separación: que Iglesia y Estado tengan funciones distintas es justamente lo que la separación implica, por lo que elegirla como 'la que no es coherente' invierte la lectura correcta del enunciado.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "Que el Estado regule la vida social sin importar el credo de cada persona es la definición misma de laicidad estatal; es plenamente coherente con la separación, no la excepción.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "Que sea el Estado (y no la Iglesia) quien establece normas vinculantes para todos los ciudadanos es exactamente lo que corresponde a un Estado laico; es coherente con la separación, no la proposición que la contradice.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-113",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "razonamiento_estrategico",
+    "situacion": "Imagínese que usted y su cómplice son capturados por la policía y acusados de un delito grave. El fiscal los interroga separadamente y les propone el siguiente acuerdo: 1) Si los dos permanecen en silencio, no habrá pruebas suficientes para condenarlos del delito más grave, y cada uno sería condenado a un año de prisión. 2) Si ambos se incriminan, se les juzgaría por el crimen más grave, pero con penas reducidas de cinco años por proporcionar información. 3) Si uno incrimina al otro mientras el compañero permanece en silencio, el que incrimina queda en libertad por cooperar, y el silencioso es condenado a veinte años.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-139",
+        "competencia": "argumentacion",
+        "bloque": null,
+        "enunciado": "¿Qué debería hacer para pasar la menor cantidad de años posibles en la cárcel? Analice la información suministrada y evalúe las siguientes posibilidades:",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Si su compañero se mantiene en silencio, entonces usted debería mantener el silencio, puesto que así quedaría en libertad.",
+          "B": "Si su compañero lo incrimina, usted también deberá hacerlo para evitar el peor resultado posible.",
+          "C": "Haga lo que haga la otra persona, lo mejor para usted es mantener el silencio, puesto que es lo éticamente correcto.",
+          "D": "Su aliado medita y llega a la conclusión de que no se debe romper la ley en ningún caso."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Con la matriz de pagos dada, incriminar es la **estrategia dominante**: si el compañero calla, incriminarlo a él le da a usted la libertad (mejor que 1 año callando); si el compañero lo incrimina a usted, incriminarlo también le da 5 años (mejor que 20 años callando). La opción B identifica correctamente que, ante la incriminación del otro, la respuesta racional para minimizar su propia condena es también incriminar.",
+          "distractores": {
+          "A": {
+            "explicacion": "El razonamiento está invertido: si el compañero se mantiene en silencio y usted también calla, la condena es de un año, no la libertad; quien queda en libertad en ese escenario es quien incrimina al otro, no quien también calla.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "Confunde el criterio pedido (minimizar los años de condena propios) con un criterio ético distinto; guardar silencio no es la opción que minimiza los años en ningún escenario de la matriz, así sea la más loable moralmente.",
+            "patron_trampa": "falacia_apelacion_emocion"
+          },
+          "D": {
+            "explicacion": "Esta opción no responde la pregunta estratégica planteada (qué conviene hacer para minimizar la propia condena); es una conclusión moral genérica de un tercero que no analiza la matriz de incentivos del dilema.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-114",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "politica_e_instituciones",
+    "situacion": "En 2018, Juan Manuel Santos sancionó el Estatuto de la Oposición, que pretende brindar garantías a las organizaciones políticas que se declaren en oposición al gobierno (nacional, departamental, municipal o distrital). En particular, el candidato que le siga en votos a quien quede elegido en ciertos cargos de elección popular podrá ocupar una curul en la respectiva corporación: el candidato a presidente y vicepresidente, gobernador de departamento, alcalde distrital y alcalde municipal podrá ocupar un cargo en el Senado, Cámara de Representantes, Asamblea departamental, Concejo Distrital y Concejo municipal, respectivamente.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-140",
+        "competencia": "conocimientos",
+        "bloque": null,
+        "enunciado": "Teniendo en cuenta las implicaciones de este Estatuto, ¿considera que es una medida que mejora la democracia en Colombia?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "No, porque fortalece el partido político del presidente electo por votación popular.",
+          "B": "Sí, porque los partidos políticos garantizan la representación de diferentes ideologías.",
+          "C": "No, porque favorece la aprobación de los planes de gobierno del presidente.",
+          "D": "Sí, porque los partidos políticos deben respetar las decisiones del presidente electo."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El Estatuto de la Oposición está diseñado precisamente para garantizar voz institucional a quien perdió la elección (típicamente de un partido distinto al ganador), asegurando que las corporaciones públicas reflejen una **mayor pluralidad de ideologías**, en vez de quedar compuestas únicamente por el sector vencedor.",
+        "distractores": {
+          "A": {
+            "explicacion": "El Estatuto hace justamente lo contrario a fortalecer al partido ganador: le otorga una curul al candidato que perdió, introduciendo un contrapeso institucional al partido del elegido, no reforzándolo.",
+            "patron_trampa": "causa_efecto_invertida"
+          },
+          "C": {
+            "explicacion": "Dar representación al candidato perdedor (con frecuencia de oposición) tiende a introducir un contrapeso frente al gobierno electo, no a facilitar la aprobación automática de sus planes.",
+            "patron_trampa": "causa_efecto_invertida"
+          },
+          "D": {
+            "explicacion": "El sentido de un estatuto de oposición es proteger el derecho de los partidos a disentir y fiscalizar al gobierno, no obligarlos a respetar o secundar las decisiones del presidente electo.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-115",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "medio_ambiente",
+    "situacion": "A mediados de la década de los 90, dentro de las políticas de generación de energía eléctrica, empezó la construcción de una represa, creando gran expectativa para las comunidades de la región. El discurso oficial invitaba a las comunidades al desarrollo integral, construyendo infraestructura escolar, de salud, carreteras y electrificación. Al hacer las consultas respectivas con la comunidad, ellos se oponían a la construcción de la represa. Sin embargo, después de un largo proceso de conciliación, se acordó llevar a cabo el megaproyecto y que los habitantes de la región se asentaran en otro territorio.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-141",
+        "competencia": "pensamiento_sistemico",
+        "bloque": "tradeoffs_entre_dimensiones",
+        "enunciado": "En este contexto y de acuerdo con la Constitución Política de Colombia, el gobierno:",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Debió hacer una consulta popular para resolver este problema de una vez.",
+          "B": "Actuó en contra de los derechos de las comunidades locales.",
+          "C": "Mostró respeto por la comunidad y actuó pensando en el bien común.",
+          "D": "Favoreció a la comunidad en contra del interés general."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El relato describe un **proceso real de consulta y conciliación** con la comunidad (no una imposición unilateral) que terminó en un acuerdo sobre reasentamiento, junto con compromisos de infraestructura y desarrollo integral; eso refleja un intento de equilibrar el interés general del proyecto energético con el respeto a la comunidad afectada, más allá de que la comunidad inicialmente se opusiera.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no establece que una consulta popular fuera el mecanismo constitucionalmente exigido para este caso concreto; ya hubo un proceso de consulta y conciliación con la comunidad, que es lo que efectivamente ocurrió y resolvió la controversia.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "B": {
+            "explicacion": "Esta opción ignora que el texto describe explícitamente un 'largo proceso de conciliación' que culminó en un acuerdo, no una imposición arbitraria sobre la comunidad sin negociación.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "D": {
+            "explicacion": "Invierte lo ocurrido: el proyecto de interés general (la represa) sí se llevó a cabo tras el acuerdo, y la comunidad fue compensada con reasentamiento e infraestructura, no al revés.",
+            "patron_trampa": "causa_efecto_invertida"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-116",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "derechos_sociales",
+    "situacion": "La tutela es un instrumento constitucional para amparar derechos, siendo un mecanismo judicial inmediato y eficaz para la protección efectiva de los derechos fundamentales. La acción procede cuando se viola de manera directa un derecho fundamental, como mecanismo transitorio para evitar un perjuicio irremediable, o cuando no hay ningún mecanismo idóneo para proteger el derecho. Conociendo sus derechos, Lina interpone una tutela para hacer efectivas sus vacaciones, pues labora hace más de 20 años en una gran empresa y le han impedido disfrutarlas, aunque tiene derecho a ellas luego de transcurrido el año correspondiente. El empleador argumenta la inexistencia de personal y está dispuesto a reconocer una paga extra al salario devengado.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-142",
+        "competencia": "conocimientos",
+        "bloque": "derechos_fundamentales_por_conexidad",
+        "enunciado": "Teniendo en cuenta el caso anterior, el juez constitucional al conocer el caso:",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Rechazaría la demanda, teniendo en cuenta la existencia de otros medios judiciales idóneos para asegurar el derecho quebrantado.",
+          "B": "Tutelaría el derecho a disfrutar de las vacaciones, habida cuenta de la protección constitucional que goza el derecho laboral.",
+          "C": "Tutelaría el derecho a disfrutar de las vacaciones, teniendo en cuenta que se relaciona con el derecho a la salud.",
+          "D": "Rechazaría la demanda, habida cuenta que no se demostró la posibilidad inminente y próxima de un perjuicio irremediable."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Las vacaciones son, en principio, un derecho laboral ordinario y no directamente fundamental; sin embargo, cuando su negación se prolonga por años (aquí, más de dos décadas), la jurisprudencia constitucional las protege por **conexidad con el derecho al descanso y a la salud** (física y mental), que sí es fundamental — la vía doctrinal correcta no es la protección genérica del derecho laboral, sino esta conexidad específica.",
+        "distractores": {
+          "A": {
+            "explicacion": "Aunque en principio existen otros medios ordinarios para reclamar prestaciones laborales, veinte años de vacaciones negadas de forma sistemática sugieren que esos medios no han sido eficaces en la práctica, lo que es justamente lo que abre la puerta a la tutela.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "B": {
+            "explicacion": "No todo derecho laboral es tutelable solo por 'gozar de protección constitucional' en abstracto; el derecho laboral ordinario requiere, para ser protegido por tutela, una vía específica (como la conexidad con un derecho fundamental), que esta opción no identifica.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "D": {
+            "explicacion": "Aplica el criterio del 'perjuicio irremediable inminente', que corresponde a la tutela como mecanismo transitorio, cuando el caso encaja mejor en la vía de la conexidad con un derecho fundamental (salud/descanso) tras una privación prolongada, no en la urgencia de un daño inminente.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-117",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "medio_ambiente",
+    "situacion": "Para solucionar los problemas de basuras de la capital del departamento, se decidió construir un relleno sanitario en un lote de otro municipio cercano, al cual se le compensaría económicamente por prestar este servicio a la capital. Según el Gobierno departamental, la escogencia del lote se hizo en conjunto con las autoridades ambientales y la alcaldía del municipio. El proyecto cuenta con todas las licencias ambientales requeridas y su construcción es necesaria para la salubridad de la capital. En una consulta popular, los habitantes del municipio cercano votaron 96% en contra de la construcción del relleno, porque consideran que este es una amenaza para la salud de la población y del ecosistema, y además disminuiría el valor de la tierra circundante.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-143",
+        "competencia": "multiperspectivismo",
+        "bloque": "tension_entre_derechos_constitucionales_legitimos",
+        "enunciado": "En esta situación, ¿cuáles de los siguientes aspectos están en conflicto?",
+        "dificultad": "baja",
+        "opciones": {
+          "A": "El medio ambiente en la capital y la voluntad del Gobierno departamental.",
+          "B": "Las políticas económicas de la alcaldía del municipio y la salubridad de la capital.",
+          "C": "La economía del municipio y las políticas medioambientales de la capital.",
+          "D": "La salubridad de la capital y la voluntad de los habitantes del municipio."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El conflicto real descrito es entre la necesidad de **salubridad de la capital** (que requiere el relleno sanitario) y la **voluntad expresada democráticamente por los habitantes del municipio** (96% en contra en consulta popular), que temen por su propia salud, su ecosistema y el valor de su tierra.",
+        "distractores": {
+          "A": {
+            "explicacion": "El Gobierno departamental no es una parte del conflicto en sí, sino la autoridad que impulsa y aprueba el proyecto junto con la alcaldía; el verdadero contrapeso a la salubridad de la capital es la voluntad ciudadana del municipio expresada en la consulta, no 'la voluntad del Gobierno'.",
+            "patron_trampa": "interes_mal_atribuido"
+          },
+          "B": {
+            "explicacion": "El relato no describe un conflicto de políticas económicas de la alcaldía; describe una oposición ciudadana basada en riesgos de salud y ambientales, no en decisiones de política económica municipal.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "Igual que la anterior, encuadra el conflicto como uno económico-ambiental entre instituciones, cuando en realidad es entre una necesidad de salubridad de la capital y la voluntad popular del municipio vecino.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-118",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "ciencia_y_sociedad",
+    "situacion": "Un grupo de activistas que defiende los derechos de los animales busca evitar que un centro de investigación siga utilizando cerdos para sus experimentos, pues los tratamientos incluyen procedimientos que se consideran maltrato y que en algunos casos terminan en la muerte de los animales. Por su parte, los investigadores defienden su uso, pues consideran que estos animales son la mejor opción para desarrollar sus medicinas sin poner en riesgo vidas humanas. Además, mencionan que el laboratorio no viola ninguna de las normas existentes sobre investigación con animales y que su labor permite proteger la vida de las personas.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-144",
+        "competencia": "multiperspectivismo",
+        "bloque": "diferencia_entre_posicion_e_interes",
+        "enunciado": "Las divergencias de intereses entre científicos y activistas radican en que:",
+        "dificultad": "baja",
+        "opciones": {
+          "A": "Los activistas quieren cuestionar la efectividad de la ciencia, mientras que los científicos quieren evadir el control a su trabajo.",
+          "B": "Los científicos quieren priorizar la vida humana, mientras que los activistas quieren proteger lo que consideran el derecho de los animales a una vida sin sufrimiento.",
+          "C": "Los científicos quieren utilizar a los animales como instrumentos de investigación, mientras que los activistas quieren que todos desarrollen sentimientos de apego hacia los animales.",
+          "D": "Los activistas quieren oponerse al desarrollo económico, mientras que los científicos quieren mejorar la vida de todos."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Esta es la descripción más fiel de las posiciones que el propio texto atribuye a cada parte: los científicos priorizan explícitamente 'proteger la vida de las personas' sin poner en riesgo vidas humanas, y los activistas defienden lo que consideran el bienestar/derecho de los animales frente al maltrato.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no dice que los activistas cuestionen la efectividad de la ciencia, ni que los científicos busquen evadir controles; de hecho, aclaran explícitamente que no violan ninguna norma vigente, lo opuesto a 'evadir el control'.",
+            "patron_trampa": "interes_mal_atribuido"
+          },
+          "C": {
+            "explicacion": "Reduce la postura de los activistas a una caricatura ('que todos desarrollen sentimientos de apego') que el texto no sostiene; su posición real, según el relato, es evitar el maltrato y la muerte de los animales en los experimentos, no fomentar el apego emocional generalizado.",
+            "patron_trampa": "falacia_hombre_de_paja"
+          },
+          "D": {
+            "explicacion": "El texto no menciona ninguna postura de los activistas sobre el desarrollo económico; su interés declarado es específicamente evitar el maltrato animal en la experimentación, no oponerse al desarrollo económico en general.",
+            "patron_trampa": "interes_mal_atribuido"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-119",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "educacion",
+    "situacion": "La democracia es una forma de organización social que atribuye la titularidad del poder al conjunto de la ciudadanía. Propone una organización del Estado en la cual las decisiones colectivas son adoptadas por el pueblo mediante mecanismos de participación que confieren legitimidad a sus representantes. En este contexto, se puede afirmar que los jóvenes están llamados a liderar los cambios que necesita la sociedad. ¿Pero en realidad los jóvenes están listos para asumir el reto? La formación para la ciudadanía y la democracia debe prepararlos para ser protagonistas en la política, y no simples espectadores. Pero no será una tarea sencilla, dado que la evolución de la sociedad y el cambio tecnológico requiere de una ciudadanía activa y participativa. Pero lo que normalmente se observa en los jóvenes es una apatía y falta de compromiso respecto al desarrollo de procesos propios de la democracia.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-145",
+        "competencia": "conocimientos",
+        "bloque": null,
+        "enunciado": "De acuerdo con el texto, los jóvenes requieren de formación para la ciudadanía porque deben:",
+        "dificultad": "baja",
+        "opciones": {
+          "A": "Entender que la democracia es una forma de organización social.",
+          "B": "Superar la apatía y falta de compromiso que los caracteriza.",
+          "C": "Prepararse para ser protagonistas en la política, y no simples espectadores.",
+          "D": "Incidir en las decisiones colectivas mediante mecanismos de participación."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto lo afirma casi textualmente como el propósito específico de la formación ciudadana: 'La formación para la ciudadanía y la democracia debe prepararlos para ser protagonistas en la política, y no simples espectadores'.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esa es la definición general de democracia que abre el texto, no la razón específica por la que se dice que los jóvenes necesitan formación ciudadana.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "B": {
+            "explicacion": "La apatía se presenta en el texto como el diagnóstico del problema actual de los jóvenes, no como el propósito explícito que el texto atribuye a la formación ciudadana (que es, textualmente, prepararlos para ser protagonistas).",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "Esta es una característica general de cómo funciona la democracia participativa (mecanismos de incidencia), no la razón puntual que el texto da para justificar la formación ciudadana de los jóvenes.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-120",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "educacion",
+    "situacion": "Esta es la historia de Ernesto, un 'pilo' que fue expulsado de su universidad, a pesar de tener una mente brillante. Todo empezó cuando le notificaron que era uno de los 9.359 estudiantes de bajos recursos en tener, por primera vez, la opción de elegir una carrera en cualquier universidad acreditada del país sin ningún costo. Si bien era uno de los más inteligentes de su clase, también había sido el más indisciplinado: pasó por seis colegios públicos, porque de todos lo expulsaban, y durante esa época fue miembro de una barra brava. Con cierto tono de resignación cuenta que le gustaba la vida loca y todo se le salió de las manos. Hoy no sabe cómo va a pagar los $36 millones que adeuda. Con 22 años, sin título universitario y sin trabajo, sabe que le será difícil pagar.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-146",
+        "competencia": "argumentacion",
+        "bloque": "estructura_del_argumento",
+        "enunciado": "De acuerdo con la información suministrada, Ernesto debe cumplir a cabalidad el contrato y pagar completamente la deuda porque:",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Incumplió con una cláusula del contrato y fue negligente al tener ese comportamiento desordenado.",
+          "B": "Esta entidad tiene más interés de enriquecerse que de garantizar los derechos fundamentales.",
+          "C": "Es un caso muy concreto de violencia y desplazamiento al ser un joven proveniente de una familia pobre y sin estudios.",
+          "D": "Es una injusticia lo que está padeciendo, pues pensó que esa oportunidad era utópica y no traería consecuencias."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "De las cuatro, solo la A ofrece efectivamente una razón que **sustenta** la conclusión pedida (que debe pagar): el programa exige mantener un comportamiento académico y disciplinario adecuado como condición del beneficio, y el propio relato muestra que Ernesto incumplió esa condición por su conducta indisciplinada.",
+        "distractores": {
+          "B": {
+            "explicacion": "Esta opción cuestiona la motivación de la entidad prestamista, pero no responde por qué Ernesto SÍ debería pagar; de hecho, argumenta en sentido contrario, contra la exigencia de pago.",
+            "patron_trampa": "interes_mal_atribuido"
+          },
+          "C": {
+            "explicacion": "El relato no describe a Ernesto como víctima de violencia o desplazamiento forzado; describe una historia de indisciplina académica y expulsiones escolares, una circunstancia distinta que esta opción inventa.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "D": {
+            "explicacion": "Esta opción es una apelación compasiva a la situación de Ernesto, pero no constituye una razón que sustente que deba pagar la deuda; de hecho, funciona como argumento de simpatía en sentido contrario al pago exigido.",
+            "patron_trampa": "falacia_apelacion_emocion"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-121",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "seguridad_y_transito",
+    "situacion": "Muchos colombianos generalizan cuando afirman que los policías de tránsito son corruptos porque todos exigen dinero a cambio de la no interposición de un comparendo o de que el vehículo automotor no sea inmovilizado. Incluso, algunas personas critican a los policías y los culpan de grandes congestiones de vehículos en las ciudades, porque observan que cuando hay una gran congestión es frecuente que haya un policía guiando el tránsito.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-147",
+        "competencia": "argumentacion",
+        "bloque": null,
+        "enunciado": "¿Cuál de los siguientes es un argumento válido para contradecir la postura expuesta?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Los policías no deben ser cuestionados, ya que representan a una institución que está hecha para ayudar.",
+          "B": "Los policías hacen adecuadamente su labor, pero no son suficientes para evitar todas las congestiones de vehículos que se presentan.",
+          "C": "El hecho de que haya grandes congestiones vehiculares significa que los policías están capacitados adecuadamente.",
+          "D": "El hecho de que los policías estén donde hay grandes congestiones de vehículos no quiere decir que ellos sean quienes los originan."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "El error lógico de la postura original es confundir **correlación con causalidad**: observar a un policía presente donde hay congestión no prueba que él la cause; puede estar allí precisamente porque fue enviado a gestionar una congestión ya existente por otras causas (volumen vehicular, semáforos, accidentes). La opción D señala exactamente esa falacia.",
+        "distractores": {
+          "A": {
+            "explicacion": "No refuta el razonamiento defectuoso (la falsa relación causa-efecto); simplemente apela a la autoridad de la institución para evitar el cuestionamiento, sin abordar el argumento lógico en cuestión.",
+            "patron_trampa": "falacia_apelacion_autoridad"
+          },
+          "B": {
+            "explicacion": "Concede un punto relacionado (que la policía es insuficiente) pero no contradice directamente la acusación de que los policías originan la congestión; responde a un aspecto distinto del que se pide refutar.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "Comete el mismo tipo de error lógico que la postura original, pero en sentido inverso: interpreta la presencia policial en zonas congestionadas como evidencia de buena capacitación, una inferencia igual de infundada que la que se busca refutar.",
+            "patron_trampa": "causa_efecto_invertida"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-122",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "convivencia_y_discriminacion",
+    "situacion": "Un Gobierno ofreció reducir impuestos a las empresas privadas que generen nuevos empleos. El gerente de una reconocida empresa que anualmente paga importantes sumas de dinero en impuestos dijo: 'Para acogerse al beneficio, mi empresa puede abrir 100 nuevas plazas para operarios, siempre y cuando quienes se postulen hayan nacido en municipios de tierra fría, porque los habitantes de tierra caliente no trabajan igual. Estoy seguro de que la junta directiva de la empresa estará de acuerdo conmigo'.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-148",
+        "competencia": "pensamiento_sistemico",
+        "bloque": "consecuencias_deseadas_vs_no_deseadas",
+        "enunciado": "¿Cuál de los siguientes enunciados es una consecuencia razonable de lo dicho por el gerente?",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Los empresarios del país respaldarían el pronunciamiento porque significaría un aumento de empleo en los municipios de tierra fría.",
+          "B": "Los miembros de la junta directiva de la empresa respaldarían el pronunciamiento porque implica seleccionar a los mejores trabajadores.",
+          "C": "Representantes de los trabajadores se opondrían porque se basa en un prejuicio personal en contra de los empleados de tierra caliente.",
+          "D": "Representantes del Gobierno se opondrían a la pretensión de la empresa de aprovechar la política para reducir sus impuestos."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El propio gerente da la razón explícita de su criterio de contratación: 'los habitantes de tierra caliente no trabajan igual', un juicio basado en el origen regional y no en el mérito. Que representantes de los trabajadores rechacen ese criterio por tratarse de un **prejuicio regional** es la consecuencia más directamente derivada del propio enunciado del gerente.",
+        "distractores": {
+          "A": {
+            "explicacion": "Trata como algo neutral y deseable una política que en realidad excluye por origen regional a los trabajadores de tierra caliente; ignora el carácter discriminatorio explícito de la propuesta.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "B": {
+            "explicacion": "Escoger candidatos únicamente por su lugar de nacimiento no equivale a 'seleccionar a los mejores trabajadores'; esta opción invierte el criterio discriminatorio del gerente presentándolo como una política meritocrática que el texto no sustenta.",
+            "patron_trampa": "causa_efecto_invertida"
+          },
+          "D": {
+            "explicacion": "El texto no sugiere que la motivación del gerente sea manipular la reducción de impuestos; su justificación explícita es un prejuicio regional sobre el desempeño laboral, no una estrategia fiscal fraudulenta.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-123",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "patrimonio_cultural",
+    "situacion": "La Constitución de Colombia establece que el patrimonio cultural de todos los colombianos está bajo la protección del Estado, incluyendo los bienes arqueológicos y otros bienes que se consideran inalienables, inembargables e imprescriptibles.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-149",
+        "competencia": "conocimientos",
+        "bloque": null,
+        "enunciado": "La anterior afirmación y mandato constitucional busca:",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Preservar bienes muy valorados de nuestra patria.",
+          "B": "Proteger los bienes que precisan nuestra identidad nacional.",
+          "C": "Conservar las manifestaciones materiales e inmateriales de nuestro país.",
+          "D": "Defender los referentes que identifican a Colombia."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El art. 72 de la Constitución vincula expresamente el patrimonio arqueológico y los demás bienes culturales que integran el patrimonio cultural de la Nación con la **identidad nacional**; es la opción que más se ajusta al lenguaje y al fundamento real del propio texto constitucional.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Bienes muy valorados' es una formulación vaga que no recoge el fundamento constitucional preciso (la identidad nacional) que da sentido jurídico a declarar esos bienes inalienables, inembargables e imprescriptibles.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "C": {
+            "explicacion": "Aunque la protección del patrimonio cultural sí abarca manifestaciones materiales e inmateriales en general, esta opción no expresa la razón constitucional específica de fondo (la identidad nacional) que el art. 72 asocia directamente a estos bienes.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "Es una paráfrasis cercana a la respuesta correcta, pero más imprecisa: 'referentes que identifican a Colombia' es una formulación laxa que no corresponde al término constitucional técnico ('identidad nacional') que usa el artículo 72 para justificar la protección especial de estos bienes.",
+            "patron_trampa": "generalizacion_invalida"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-124",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "convivencia_y_discriminacion",
+    "situacion": "Brayan es un joven que, cumplidos los 18 años, decidió exponer públicamente el sentirse e identificarse como un 'therian', es decir, persona que dice sentirse identificada con un animal, en este caso un canino. Por ello acude a la Universidad utilizando una máscara y una cola de perro. Al entrar a clase es objeto de burlas y manifestaciones de desprecio. La situación se complica cuando Brayan, en lugar de hablar y manifestar su condición o pedir respeto, emite ladridos, lo que exacerba las posiciones en su contra. El profesor interviene y le solicita a todos mantener la calma y permitir este tipo de manifestaciones, empezando con Brayan, a quien le pide comunicarse en español para iniciar la actividad académica con normalidad, a lo cual él acepta.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-150",
+        "competencia": "argumentacion",
+        "bloque": "coherencia_e_incoherencia_entre_enunciados",
+        "enunciado": "De acuerdo con la situación descrita, identifique la proposición que NO corresponde ni sustenta la decisión del profesor de permitir la participación de Brayan y proseguir con la clase:",
+        "dificultad": "media",
+        "opciones": {
+          "A": "El Derecho Constitucional no es ajeno a las transformaciones sociales, sino que constituye el marco normativo dentro del cual se regula la convivencia entre sujetos diversos, portadores de identidades, convicciones y formas de existencia distintas.",
+          "B": "La identificación personal constituye un derecho fundamental, el cual debe respetarse dentro de parámetros de respeto y convivencia.",
+          "C": "El permitir el ingreso a clase es un acto potestativo del profesor, independientemente de las circunstancias, factores o situaciones que se presenten.",
+          "D": "El orden constitucional debe garantizar que estas personas puedan ejercer plenamente derechos fundamentales como el libre desarrollo de la personalidad, la dignidad humana, la igualdad y la prohibición de discriminación."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Esta opción describe la decisión del profesor como un acto puramente **discrecional o arbitrario ('independientemente de las circunstancias')**, lo que contradice el fundamento real de su decisión: el profesor actuó reconociendo derechos fundamentales concretos de Brayan (identidad, dignidad, libre desarrollo de la personalidad), no ejerciendo un poder discrecional desligado de esas circunstancias.",
+        "distractores": {
+          "A": {
+            "explicacion": "Esta afirmación sí sustenta la decisión del profesor: reconoce que el Derecho Constitucional debe regular la convivencia entre personas con identidades distintas, justamente lo que hizo al permitir la participación de Brayan.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "B": {
+            "explicacion": "Esta afirmación también sustenta la decisión: reconoce la identificación personal como derecho fundamental, que es precisamente la base para permitir que Brayan participe en clase con su identidad manifestada.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "Esta afirmación igualmente sustenta la decisión: describe los derechos fundamentales concretos (libre desarrollo de la personalidad, dignidad, igualdad, no discriminación) que la decisión del profesor efectivamente protege.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-125",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "convivencia_y_discriminacion",
+    "situacion": "Brayan es un joven que, cumplidos los 18 años, decidió exponer públicamente el sentirse e identificarse como un 'therian', es decir, persona que dice sentirse identificada con un animal, en este caso un canino. Por ello acude a la Universidad utilizando una máscara y una cola de perro. Al entrar a clase es objeto de burlas y manifestaciones de desprecio. La situación se complica cuando Brayan, en lugar de hablar y manifestar su condición o pedir respeto, emite ladridos, lo que exacerba las posiciones en su contra. El profesor interviene y le solicita a todos mantener la calma y permitir este tipo de manifestaciones, empezando con Brayan, a quien le pide comunicarse en español para iniciar la actividad académica con normalidad, a lo cual él se niega, pues continúa emitiendo ladridos.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-151",
+        "competencia": "multiperspectivismo",
+        "bloque": "tension_entre_derechos_constitucionales_legitimos",
+        "enunciado": "De acuerdo con la situación descrita, determine cuál de las siguientes alternativas debe seguir el profesor frente a la participación de Brayan en clase:",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Solicitarle que abandone el aula, pues se trata de una actividad académica en la cual se requiere interactuar dialógicamente conforme al idioma usual.",
+          "B": "Permitir la permanencia, siempre y cuando no impida el desarrollo de la actividad académica, teniendo en cuenta el derecho fundamental al libre desarrollo de la personalidad.",
+          "C": "Solicitarle que abandone el aula, habida cuenta de que sus ladridos alteran el libre desarrollo de la actividad académica.",
+          "D": "Permitir la permanencia, pues el derecho constitucional colombiano protege la convivencia entre sujetos diversos, portadores de identidades, convicciones y formas de existencia distintas."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Ningún derecho fundamental es absoluto: el libre desarrollo de la personalidad de Brayan tiene como límite legítimo que su ejercicio no impida el desarrollo de una actividad colectiva legítima. A diferencia del primer episodio (donde aceptó comunicarse en español y la clase pudo continuar), aquí los ladridos persistentes SÍ interrumpen efectivamente la actividad académica, lo que activa ese límite y justifica pedirle que se retire — aplicando el principio al hecho concreto, no una regla de idioma abstracta.",
+        "distractores": {
+          "A": {
+            "explicacion": "Llega a la misma conclusión práctica (retirarlo) pero por un motivo equivocado: exige el idioma 'usual' como requisito formal absoluto, en vez de fundamentarse en que la conducta efectivamente interrumpe la actividad, que es el criterio constitucional correcto para limitar un derecho fundamental.",
+            "patron_trampa": "alcance_incorrecto_derecho"
+          },
+          "B": {
+            "explicacion": "Enuncia correctamente el principio general (permitir la permanencia mientras no se impida la actividad), pero ignora que en este segundo episodio la condición ya se incumplió: los ladridos persistentes sí están impidiendo el desarrollo normal de la clase, por lo que aplicar la misma solución del primer caso desconoce ese hecho.",
+            "patron_trampa": "informacion_insuficiente_ignorada"
+          },
+          "D": {
+            "explicacion": "Trata el derecho a la identidad y a la convivencia diversa como si no tuviera límite alguno frente a la disrupción real y sostenida de la actividad académica, cuando ese es precisamente el escenario en que el derecho puede limitarse legítimamente.",
+            "patron_trampa": "alcance_incorrecto_derecho"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-126",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "derechos_sociales",
+    "situacion": "En Colombia la Constitución Política establece el derecho a la vivienda digna, y la jurisprudencia constitucional ha sido reiterativa en señalar que, para hacer efectiva la asequibilidad en materia de vivienda, debe darse prioridad a los programas que promuevan beneficios a aquellos que se encuentren en situación de vulnerabilidad. La Corte Constitucional ha señalado que 'para el seguro cumplimiento y goce efectivo del derecho fundamental a la vivienda digna, es necesario un amplio desarrollo legal y la implementación de políticas públicas encaminadas a la obtención de los recursos necesarios para su materialización, y que, por tanto, debe desarrollarse de una manera programática y progresiva'.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-152",
+        "competencia": "conocimientos",
+        "bloque": "derechos_sociales_economicos_culturales_con_ejemplos",
+        "enunciado": "Teniendo en cuenta lo anterior, precise el argumento para otorgar un trato especial, preferente y prioritario a favor de las víctimas del desplazamiento forzado:",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Teniendo en cuenta que la situación de desplazado de manera violenta constituye un acto injusto e inequitativo, el Estado debe buscar la manera de proteger a las personas que son objeto de esa condición.",
+          "B": "Debido a que el delito del desplazamiento supone el despojo y el abandono forzado del lugar de residencia que habitaban las víctimas, lo que atenta contra los derechos humanos y el derecho internacional humanitario.",
+          "C": "Debido a que el desplazamiento en Colombia es una de las grandes problemáticas sociales, el Estado debe priorizar la atención a las personas en dicha situación; por ello existen programas e instituciones que benefician a dicha población.",
+          "D": "Teniendo en cuenta que los desplazados involucran no solo a personas individualmente consideradas sino a núcleos familiares, los cuales merecen prioridad en materia de atención, en este caso el derecho a la vivienda digna."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "La jurisprudencia constitucional colombiana (desde la sentencia T-025 de 2004 en adelante) funda la prioridad a las víctimas de desplazamiento forzado precisamente en que este fenómeno constituye una **violación masiva y sistemática de derechos humanos y del derecho internacional humanitario** (despojo y abandono forzado del lugar de residencia), no solo en consideraciones generales de justicia o de política social.",
+        "distractores": {
+          "A": {
+            "explicacion": "Es una formulación moral genérica ('acto injusto e inequitativo') que no aporta el fundamento jurídico específico —violación de derechos humanos y del DIH— que realmente sostiene la doctrina constitucional sobre desplazamiento forzado.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "C": {
+            "explicacion": "Es circular: afirma que se prioriza porque es un problema grande y porque ya existen programas que benefician a esa población, sin explicar la razón jurídica de fondo por la que se otorga ese trato preferente.",
+            "patron_trampa": "falacia_circularidad"
+          },
+          "D": {
+            "explicacion": "Se enfoca únicamente en el tamaño del núcleo familiar afectado como justificación, dejando fuera la razón estructural más amplia (la violación de derechos humanos y del DIH que implica el desplazamiento forzado en sí mismo).",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      },
+      {
+        "id": "CC-ITEM-153",
+        "competencia": "conocimientos",
+        "bloque": "derechos_sociales_economicos_culturales_con_ejemplos",
+        "enunciado": "Teniendo en cuenta lo anterior, precise la población que cumple la condición descrita para ser priorizada con este derecho:",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Personas en condición de discapacidad, de la tercera edad, los niños, los enfermos terminales, las víctimas de los desastres naturales, inmigrantes y las víctimas del desplazamiento forzado por la violencia.",
+          "B": "Individuos en condición de discapacidad, de la tercera edad, los niños, repatriados, las víctimas de los desastres naturales, quienes viven en zonas de alto riesgo y las víctimas del desplazamiento forzado por la violencia.",
+          "C": "Personas en condición de discapacidad, de la tercera edad, los niños, los enfermos terminales, las víctimas de los desastres naturales, quienes viven en zonas de alto riesgo y las víctimas del desplazamiento forzado por la violencia.",
+          "D": "Individuos en condición de discapacidad, de la tercera edad, los niños, minorías marginadas, las víctimas de los desastres naturales, quienes viven en zonas de alto riesgo y las víctimas del desplazamiento forzado por la violencia."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Las categorías reiteradas en la jurisprudencia constitucional sobre grupos prioritarios en política de vivienda de interés social combinan condiciones de vulnerabilidad física/etaria (discapacidad, tercera edad, niñez), de salud, de riesgo territorial (zonas de alto riesgo no mitigable) y de victimización (desastres naturales, desplazamiento forzado) — el listado de la opción C es el que reúne de forma más consistente esas categorías reconocidas, frente a las variantes de las otras tres opciones que sustituyen alguna de ellas por una categoría atípica en esta doctrina específica (inmigrantes, repatriados o minorías marginadas).",
+        "distractores": {
+          "A": {
+            "explicacion": "Sustituye 'quienes viven en zonas de alto riesgo' —categoría constante en la jurisprudencia de vivienda prioritaria— por 'inmigrantes', un criterio que no es el que esta línea jurisprudencial específica utiliza para priorización habitacional.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "B": {
+            "explicacion": "Sustituye 'enfermos terminales' por 'repatriados', una categoría poco frecuente en esta doctrina específica sobre priorización de vivienda digna frente a los grupos de vulnerabilidad que reiteradamente cita la Corte.",
+            "patron_trampa": "generalizacion_invalida"
+          },
+          "D": {
+            "explicacion": "Sustituye 'enfermos terminales' por 'minorías marginadas', una categoría demasiado amplia e imprecisa comparada con las categorías puntuales (discapacidad, tercera edad, zonas de alto riesgo, etc.) que efectivamente usa esta línea jurisprudencial.",
+            "patron_trampa": "generalizacion_invalida"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-127",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "sistema_penitenciario",
+    "situacion": "En una acción de tutela los demandantes manifestaron que el ecónomo de la cárcel los ha sometido a una dieta 'bárbara e inmisericorde de hambre y miseria' consistente en papas, arroz y agua de panela, suministrados 'semicrudos y llenos de mugre'. Respecto a los internos, la Corte Constitucional ha reiterado que el ingreso de una persona a la cárcel, en condición de detenido o condenado, significa el nacimiento a la vida jurídica de una relación de especial sujeción entre la administración y el interno, en cuya virtud esta queda enteramente cobijada por la organización administrativa carcelaria. En esta relación, la administración adquiere una serie de poderes excepcionales que le permiten modular y restringir el ejercicio de algunos de los derechos fundamentales de los internos. Sin embargo, las limitaciones a los derechos deben orientarse, en todos los casos, al cumplimiento de la finalidad específica de esa relación de especial sujeción: la resocialización del delincuente y el mantenimiento del orden y la seguridad en la prisión.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-154",
+        "competencia": "argumentacion",
+        "bloque": "coherencia_e_incoherencia_entre_enunciados",
+        "enunciado": "Teniendo en cuenta lo anterior, identifique la proposición que NO podemos inferir de lo dicho por la Corte Constitucional:",
+        "dificultad": "alta",
+        "opciones": {
+          "A": "Que la persona recluida sigue siendo titular de otros derechos cuya garantía no puede procurarse por sí misma, justamente por su estado de reclusión, y que por ello surge en cabeza de la administración el deber de satisfacer o proteger tales derechos.",
+          "B": "Que en el caso descrito los internos tienen derechos fundamentales que no pueden ser limitados ni suspendidos por las autoridades administrativas, como el derecho a la vida y a la integridad personal, el derecho a la salud, al debido proceso, etc.",
+          "C": "Que en la situación de indefensión y privación de la libertad en la que se encuentran los reclusos, la administración penitenciaria no solo debe abstenerse de violar estos derechos mediante acciones positivas, sino que está en la obligación de adoptar las medidas necesarias para garantizarlos.",
+          "D": "Que en el caso descrito debe tutelarse el derecho a la alimentación, pues los demandantes aducen que se están muriendo de hambre y que la administración de la cárcel no toma acciones positivas para mejorar la situación."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El propio texto citado dice lo contrario: en la relación de especial sujeción, la administración **sí adquiere poderes excepcionales que le permiten modular y restringir el ejercicio de algunos derechos fundamentales** de los internos (dentro de límites orientados a la resocialización y el orden); afirmar que ningún derecho fundamental puede limitarse ni suspenderse contradice explícitamente esa premisa.",
+        "distractores": {
+          "A": {
+            "explicacion": "Sí es una inferencia válida: se deriva directamente de que la administración asume el deber de garantizar los derechos del recluso que este no puede procurarse por sí mismo debido a su reclusión.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "Sí es una inferencia válida: la obligación de 'adoptar medidas necesarias para garantizar' los derechos (obligación positiva, no solo de abstención) se deriva razonablemente del deber de protección que surge de la relación de especial sujeción.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "Sí es una inferencia válida aplicada al caso concreto: si la alimentación es 'bárbara' y la administración no ha tomado medidas positivas para corregirlo, se sigue directamente del deber de garantía descrito que el derecho a la alimentación digna debería tutelarse.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-128",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "educacion",
+    "situacion": "En 2026, el departamento de Córdoba padeció una ola invernal sin precedentes, lo cual interrumpió el normal trasegar de las poblaciones en todos los aspectos, sufriendo con mayor intensidad las zonas campestres. Un ejemplo son las escuelas rurales, pues se interrumpieron las clases y los gobiernos municipales tuvieron que tomar medidas para preservar el derecho a la educación.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-155",
+        "competencia": "pensamiento_sistemico",
+        "bloque": "dimension_desatendida_en_una_solucion_parcial",
+        "enunciado": "Frente a la situación descrita, identifique la solución que afectaría el derecho a la educación de los niños:",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Reubicar y transportar estudiantes a escuelas no afectadas por las inundaciones para cumplir las agendas académicas.",
+          "B": "Modificar el calendario escolar para incluir los sábados como día escolar y así compensar las clases.",
+          "C": "Combinar modalidades de clases con tutores a domicilio para reducir los días en los que los niños deban asistir presencialmente a la escuela.",
+          "D": "Trasladar a los niños a instituciones no inundadas dos veces por semana y reducir la jornada escolar."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Esta es la única opción que **reduce simultáneamente dos dimensiones** de la oferta educativa: la frecuencia de asistencia (solo dos veces por semana) y la duración de la jornada escolar; a diferencia de las otras tres, que son medidas adaptativas orientadas a preservar o compensar la continuidad académica, esta disminuye de forma neta el tiempo real de instrucción que reciben los niños.",
+        "distractores": {
+          "A": {
+            "explicacion": "Es una medida que busca preservar la continuidad de las clases reubicando temporalmente a los estudiantes, no una que reduzca el derecho a la educación.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "B": {
+            "explicacion": "Es una medida compensatoria (agregar días de clase) diseñada para no perder contenido académico, exactamente lo contrario de afectar el derecho a la educación.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "C": {
+            "explicacion": "Combina modalidades para mantener la continuidad pedagógica pese a la emergencia, una adaptación razonable frente a la crisis, no una medida que recorte el derecho.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-129",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "medio_ambiente",
+    "situacion": "En un Área Metropolitana de Colombia ha habido problemas frente al destino final de las basuras; para ello se propuso ampliar un relleno sanitario ubicado cerca de un municipio, el cual se vería afectado por la cercanía y por ello se propuso compensarlo económicamente. Según el Gobierno departamental, esta propuesta se hizo en conjunto con las autoridades ambientales y con la alcaldía del municipio. El proyecto cuenta con todas las licencias ambientales requeridas y su construcción es necesaria para la salubridad de los municipios que conforman el Área. En una consulta popular, los habitantes del municipio cercano votaron 81% en contra de la construcción del relleno, porque consideran que este es una amenaza para la salud de la población y del ecosistema, y además disminuiría el valor de la tierra circundante.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-156",
+        "competencia": "multiperspectivismo",
+        "bloque": "tension_entre_derechos_constitucionales_legitimos",
+        "enunciado": "Teniendo en cuenta lo anterior, identifique los aspectos o posiciones en conflicto:",
+        "dificultad": "baja",
+        "opciones": {
+          "A": "El medio ambiente en el Área Metropolitana y la voluntad del Gobierno departamental.",
+          "B": "La economía del municipio y las políticas medioambientales del Área Metropolitana.",
+          "C": "La salubridad en el Área Metropolitana y la voluntad de los habitantes del municipio.",
+          "D": "Las políticas económicas de la alcaldía del municipio y la salubridad del Área Metropolitana."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El conflicto real es entre la **necesidad de salubridad del Área Metropolitana** (que justifica ampliar el relleno) y la **voluntad expresada democráticamente por los habitantes del municipio vecino** (81% en contra en consulta popular), que temen por su salud, su ecosistema y el valor de su tierra.",
+        "distractores": {
+          "A": {
+            "explicacion": "El Gobierno departamental no es la parte contrapuesta al conflicto; es la autoridad que impulsa el proyecto junto con la alcaldía. El verdadero contrapeso a la salubridad del Área es la voluntad ciudadana expresada en la consulta, no la voluntad gubernamental.",
+            "patron_trampa": "interes_mal_atribuido"
+          },
+          "B": {
+            "explicacion": "El relato no describe un conflicto de políticas económicas municipales; describe una oposición ciudadana basada en riesgos de salud y ambientales expresada por votación popular.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "D": {
+            "explicacion": "Encuadra el conflicto como uno entre políticas económicas de la alcaldía y salubridad del Área, cuando en realidad es entre la necesidad de salubridad y la voluntad popular del municipio vecino expresada en la consulta.",
+            "patron_trampa": "confusion_dimension"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-130",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "ciencia_y_sociedad",
+    "situacion": "Pretheriens, grupo defensor de animales, inicia una campaña denominada 'prosimios' para salvaguardar sus derechos, en específico evitar que un centro de investigación universitaria siga utilizando primates para experimentos, pues las actividades desarrolladas incluyen procedimientos que involucran maltrato y que en algunos casos producen la muerte de aquellos. Por su parte, los científicos defienden su uso, al considerar que estos animales son la mejor opción para desarrollar medicinas sin poner en riesgo a humanos. Además, mencionan que la universidad no viola ninguna de las normas existentes sobre investigación con animales y que esta labor permite proteger la vida de las personas, al desarrollar nuevos fármacos para combatir enfermedades.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-157",
+        "competencia": "multiperspectivismo",
+        "bloque": "diferencia_entre_posicion_e_interes",
+        "enunciado": "Teniendo en cuenta la tensión descrita, identifique las divergencias de intereses entre científicos y activistas:",
+        "dificultad": "baja",
+        "opciones": {
+          "A": "Los Pretheriens quieren oponerse al desarrollo económico, mientras que los científicos quieren mejorar la vida de todos.",
+          "B": "Los Pretheriens quieren cuestionar la efectividad de la ciencia, mientras que los científicos quieren evadir el control a su trabajo.",
+          "C": "Los científicos quieren utilizar a los animales como instrumentos de investigación, mientras que los activistas quieren que todos desarrollen sentimientos de apego hacia los animales.",
+          "D": "Los científicos quieren priorizar la vida humana, mientras que los activistas quieren proteger lo que consideran el derecho de los primates a una vida sin sufrimiento."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Es la descripción más fiel de las posiciones que el propio texto atribuye a cada parte: los científicos priorizan explícitamente proteger la vida humana sin ponerla en riesgo, y los Pretheriens defienden lo que consideran el derecho de los primates a no sufrir maltrato.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto no menciona ninguna postura de los Pretheriens sobre el desarrollo económico; su interés declarado es específicamente evitar el maltrato a los primates en la experimentación.",
+            "patron_trampa": "interes_mal_atribuido"
+          },
+          "B": {
+            "explicacion": "El texto no dice que los Pretheriens cuestionen la efectividad de la ciencia, ni que los científicos busquen evadir controles; de hecho, aclaran explícitamente que no violan ninguna norma vigente sobre investigación con animales.",
+            "patron_trampa": "interes_mal_atribuido"
+          },
+          "C": {
+            "explicacion": "Reduce la postura de los activistas a una caricatura ('que todos desarrollen sentimientos de apego') que el texto no sostiene; su posición real es evitar el maltrato y la muerte de los primates en los experimentos.",
+            "patron_trampa": "falacia_hombre_de_paja"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  },
+  {
+    "id": "CC-GRUPO-131",
+    "modulo": "competencias_ciudadanas",
+    "dominio_situacion": "orden_publico_y_protesta",
+    "situacion": "Los disturbios en las universidades públicas llevan a considerar la necesidad de una regulación de la protesta social, delimitando el papel que juega el Escuadrón Móvil Antidisturbios (ESMAD). En este sentido, prevalecen las medidas represivas frente a la necesidad de regular la intervención de la fuerza pública, que se enfrenta a los estudiantes con armas, gases lacrimógenos y otros artilugios, mientras que los alumnos asumen su defensa con barricadas y elementos improvisados. No podemos ser ajenos al hecho de que muchas protestas están infiltradas por el vandalismo: algunos de los infiltrados no son estudiantes, y otros sí cursan su formación profesional, pero en aras de experimentar la adrenalina, se desdoblan.",
+    "preguntas": [
+      {
+        "id": "CC-ITEM-158",
+        "competencia": "pensamiento_sistemico",
+        "bloque": "tradeoffs_entre_dimensiones",
+        "enunciado": "En una democracia, la movilización y la participación pueden discurrir por vías poco formales, como las protestas y manifestaciones. Con lo expuesto anteriormente, se puede afirmar que estas terminan en actos violentos cuando:",
+        "dificultad": "media",
+        "opciones": {
+          "A": "Se entiende que el derecho a la reunión y la libre expresión no puede estar por encima de otros derechos consagrados en la Constitución.",
+          "B": "La Policía y demás autoridades velan por el orden público en las manifestaciones, y solo usan la fuerza en casos extremos.",
+          "C": "Los actos de la Policía y los manifestantes no son razonables, terminando en acciones desproporcionadas que atentan contra la dignidad humana.",
+          "D": "Se respeta el derecho constitucional de los ciudadanos a manifestarse pacíficamente y a participar de actos públicos."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto describe una escalada bilateral: fuerza pública que privilegia medidas represivas (armas, gases lacrimógenos) frente a estudiantes que se defienden con barricadas, agravada por infiltrados que buscan el vandalismo. La condición que efectivamente produce violencia es que **las acciones de ambas partes dejen de ser razonables y proporcionadas**, no una sola causa aislada.",
+        "distractores": {
+          "A": {
+            "explicacion": "Es un principio normativo general (que ningún derecho es absoluto), pero no describe la condición concreta bajo la cual, según el texto, una protesta específicamente termina en violencia.",
+            "patron_trampa": "confusion_dimension"
+          },
+          "B": {
+            "explicacion": "Describe un escenario de actuación policial adecuada y proporcionada; es precisamente lo contrario de la condición que, según el texto, lleva a la violencia (medidas represivas que prevalecen sobre la regulación razonable).",
+            "patron_trampa": "causa_efecto_invertida"
+          },
+          "D": {
+            "explicacion": "Describe el escenario ideal de respeto pleno al derecho a la protesta pacífica; es la situación contraria a la que efectivamente produce actos violentos según lo relatado en el texto.",
+            "patron_trampa": "causa_efecto_invertida"
+          }
+        }
+      }
+    ],
+    "tipo": "situacion_multiple"
+  }
+]

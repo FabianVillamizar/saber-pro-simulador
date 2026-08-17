@@ -27,6 +27,7 @@ const ETIQUETAS_GENERO = {
   grafico: 'Gráfico',
   comic: 'Cómic',
   anuncio: 'Anuncio',
+  informe: 'Informe',
 }
 
 function etiquetaGenero(generoTexto) {
