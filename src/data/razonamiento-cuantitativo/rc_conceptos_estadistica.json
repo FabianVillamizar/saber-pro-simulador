@@ -1335,5 +1335,93 @@
     "imagen": "RC-EST-040.svg",
     "visual_posicion": "reverso",
     "visual_descripcion": "Gráfica de línea con datos históricos sólidos y dos posibles extensiones futuras: una línea punteada cercana (más confiable) y otra lejana (más incierta, con una zona sombreada de incertidumbre creciente)."
+  },
+  {
+    "id": "RC-EST-041",
+    "modulo": "razonamiento_cuantitativo",
+    "tipo": "concepto",
+    "contenido": "estadistica",
+    "bloque": "PROBABILIDAD",
+    "modo": "cloze",
+    "antes": "La probabilidad condicional P(A|B) mide la probabilidad de que ocurra el evento A, sabiendo que ya ",
+    "despues": " el evento B. Se calcula como P(A|B) = P(A∩B) / P(B).",
+    "pregunta": "",
+    "respuesta": "ocurrió",
+    "regla": "La **probabilidad condicional** P(A|B) se lee \"probabilidad de A dado B\" y mide cómo cambia la probabilidad de A cuando ya se sabe que B ocurrió. Se calcula dividiendo la probabilidad de que ambos ocurran entre la probabilidad del evento que ya se sabe que pasó: P(A|B) = P(A∩B)/P(B).",
+    "ejemplo": "En un grupo de 100 personas, 60 son mujeres y 40 hombres. De las mujeres, 24 practican deporte; de los hombres, 12 practican deporte. La probabilidad de que una persona practique deporte dado que es mujer es P(deporte|mujer) = 24/60 = 0,4.",
+    "error_comun": "Se calcula P(A|B) dividiendo entre el total general (100) en vez del total del grupo condicionante B (60 mujeres), lo que da 24/100=0,24 en vez del valor correcto, 24/60=0,4.",
+    "tipo_visual": "ninguno",
+    "visual_descripcion": "",
+    "formula_latex": "P(A|B) = dfrac{P(A cap B)}{P(B)}",
+    "dificultad": "alta",
+    "prereqs": [
+      "RC-EST-016"
+    ]
+  },
+  {
+    "id": "RC-EST-042",
+    "modulo": "razonamiento_cuantitativo",
+    "tipo": "concepto",
+    "contenido": "estadistica",
+    "bloque": "PROBABILIDAD",
+    "modo": "cloze",
+    "antes": "Aunque P(deporte|mujer) = 0,4 en el grupo de 100 personas, la probabilidad inversa P(mujer|deporte) no tiene por qué dar el mismo ",
+    "despues": ", porque cada una divide entre un total distinto.",
+    "pregunta": "",
+    "respuesta": "valor",
+    "regla": "P(A|B) y P(B|A) casi nunca son iguales: dividen entre denominadores distintos (el total del evento condicionante en cada caso). Confundirlas — asumir que \"probabilidad de A dado B\" es lo mismo que \"probabilidad de B dado A\" — es un error real y frecuente al leer probabilidades condicionales.",
+    "ejemplo": "Con los mismos 100 datos (60 mujeres, 24 practican deporte; 40 hombres, 12 practican deporte; 36 practican deporte en total): P(deporte|mujer)=24/60=0,4, pero P(mujer|deporte)=24/36≈0,67 — números distintos, aunque ambos involucran a las mismas 24 personas.",
+    "error_comun": "Se asume que P(A|B) = P(B|A) simplemente porque ambas involucran los mismos dos eventos, ignorando que representan preguntas distintas con denominadores distintos (60 en un caso, 36 en el otro).",
+    "tipo_visual": "ninguno",
+    "visual_descripcion": "",
+    "formula_latex": "P(\text{deporte}|\text{mujer}) \neq P(\text{mujer}|\text{deporte})",
+    "dificultad": "alta",
+    "prereqs": [
+      "RC-EST-041"
+    ]
+  },
+  {
+    "id": "RC-EST-043",
+    "modulo": "razonamiento_cuantitativo",
+    "tipo": "concepto",
+    "contenido": "estadistica",
+    "bloque": "PROBABILIDAD",
+    "modo": "cloze",
+    "antes": "El valor esperado E(X) de una variable aleatoria es el promedio ponderado de sus posibles resultados, usando como peso la ",
+    "despues": " de cada uno: E(X) = Σ x·P(x).",
+    "pregunta": "",
+    "respuesta": "probabilidad",
+    "regla": "El **valor esperado** (esperanza matemática) resume en un solo número el resultado promedio que se obtendría si un experimento aleatorio se repitiera muchísimas veces. Se calcula multiplicando cada resultado posible por su probabilidad y sumando esos productos: E(X) = Σ x·P(x).",
+    "ejemplo": "Al lanzar un dado normal, cada cara (1 a 6) tiene probabilidad 1/6. E(X) = (1+2+3+4+5+6)×(1/6) = 21/6 = 3,5 — el valor esperado no tiene que ser un resultado posible del experimento (nunca cae \"3,5\" en un dado real).",
+    "error_comun": "Se cree que el valor esperado debe ser igual al resultado más probable o a un resultado que realmente puede ocurrir, cuando en realidad es un promedio ponderado que puede caer entre dos valores posibles y nunca observarse directamente.",
+    "tipo_visual": "ninguno",
+    "visual_descripcion": "",
+    "formula_latex": "E(X) = sum x cdot P(x)",
+    "dificultad": "media",
+    "prereqs": [
+      "RC-EST-016"
+    ]
+  },
+  {
+    "id": "RC-EST-044",
+    "modulo": "razonamiento_cuantitativo",
+    "tipo": "concepto",
+    "contenido": "estadistica",
+    "bloque": "PROBABILIDAD",
+    "modo": "cloze",
+    "antes": "Un juego de feria cuesta $2.000 jugar. Con probabilidad 1/10 se gana un premio de $15.000 (ganancia neta de $13.000); con probabilidad 9/10 no se gana nada (pérdida de los $2.000 pagados). El valor esperado de jugar una vez es −$500, lo que significa que en promedio el jugador ",
+    "despues": " dinero cada vez que juega, aunque en una partida individual pueda ganar.",
+    "pregunta": "",
+    "respuesta": "pierde",
+    "regla": "Cuando el valor esperado de un juego es negativo para el jugador, significa que, repitiendo el juego muchas veces, en promedio se pierde dinero — así funcionan las loterías y los casinos: cada partida individual es incierta, pero el promedio a largo plazo favorece a quien organiza el juego.",
+    "ejemplo": "E(X) = (1/10)(13.000) + (9/10)(−2.000) = 1.300 − 1.800 = −500. Si una persona juega 100 veces, se espera que en promedio pierda alrededor de 100×$500 = $50.000 en total, aunque el resultado exacto de cada partida sea impredecible.",
+    "error_comun": "Se concluye que el juego es \"justo\" o incluso favorable porque el premio ($15.000) es mucho mayor que el costo ($2.000), sin tener en cuenta que la probabilidad de ganar (1/10) es baja y que el valor esperado combina ambos factores.",
+    "tipo_visual": "ninguno",
+    "visual_descripcion": "",
+    "formula_latex": "E(X) = \tfrac{1}{10}(13.000) + \tfrac{9}{10}(-2.000) = -500",
+    "dificultad": "alta",
+    "prereqs": [
+      "RC-EST-043"
+    ]
   }
 ]

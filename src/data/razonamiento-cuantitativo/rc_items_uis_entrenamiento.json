@@ -63,7 +63,11 @@
             "patron_trampa": "lectura_invertida_datos"
           }
         },
-        "dificultad": "baja"
+        "dificultad": "baja",
+        "tarjetas_relacionadas": [
+          "RC-EST-004",
+          "RC-ALG-003"
+        ]
       }
     ],
     "tipo": "contexto_rc"
@@ -142,7 +146,11 @@
             "patron_trampa": "causalidad_invalida"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_relacionadas": [
+          "RC-CTX-012",
+          "RC-EST-031"
+        ]
       }
     ],
     "tipo": "contexto_rc"
@@ -209,7 +217,11 @@
             "patron_trampa": "operacion_incorrecta"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_relacionadas": [
+          "RC-EST-002",
+          "RC-ALG-003"
+        ]
       },
       {
         "id": "RC-ITEM-099",
@@ -239,7 +251,11 @@
             "patron_trampa": "confusion_variable"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_relacionadas": [
+          "RC-EST-031",
+          "RC-EST-002"
+        ]
       }
     ],
     "tipo": "contexto_rc"
@@ -284,7 +300,11 @@
           "B": "rc-uis-q5-b.png",
           "C": "rc-uis-q5-c.png",
           "D": "rc-uis-q5-d.png"
-        }
+        },
+        "tarjetas_relacionadas": [
+          "RC-EST-003",
+          "RC-EST-001"
+        ]
       }
     ],
     "tipo": "contexto_rc"
@@ -363,7 +383,11 @@
           "B": "rc-uis-q6-b.png",
           "C": "rc-uis-q6-c.png",
           "D": "rc-uis-q6-d.png"
-        }
+        },
+        "tarjetas_relacionadas": [
+          "RC-ALG-014",
+          "RC-ALG-017"
+        ]
       }
     ],
     "tipo": "contexto_rc"
@@ -442,7 +466,11 @@
           "B": "rc-uis-q7-b.png",
           "C": "rc-uis-q7-c.png",
           "D": "rc-uis-q7-d.png"
-        }
+        },
+        "tarjetas_relacionadas": [
+          "RC-EST-001",
+          "RC-EST-003"
+        ]
       }
     ],
     "tipo": "contexto_rc"
@@ -516,7 +544,11 @@
           "B": "rc-uis-q8-b.png",
           "C": "rc-uis-q8-c.png",
           "D": "rc-uis-q8-d.png"
-        }
+        },
+        "tarjetas_relacionadas": [
+          "RC-ALG-017",
+          "RC-ALG-014"
+        ]
       }
     ],
     "tipo": "contexto_rc"
@@ -561,7 +593,11 @@
           "B": "rc-uis-q9-b.png",
           "C": "rc-uis-q9-c.png",
           "D": "rc-uis-q9-d.png"
-        }
+        },
+        "tarjetas_relacionadas": [
+          "RC-ALG-003",
+          "RC-EST-033"
+        ]
       }
     ],
     "tipo": "contexto_rc"
@@ -636,7 +672,11 @@
           "B": "rc-uis-q10-b.png",
           "C": "rc-uis-q10-c.png",
           "D": "rc-uis-q10-d.png"
-        }
+        },
+        "tarjetas_relacionadas": [
+          "RC-ALG-003",
+          "RC-EST-033"
+        ]
       }
     ],
     "tipo": "contexto_rc"
@@ -676,7 +716,11 @@
             "patron_trampa": "confusion_variable"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_relacionadas": [
+          "RC-ALG-041",
+          "RC-ALG-036"
+        ]
       }
     ],
     "tipo": "contexto_rc"
@@ -716,7 +760,11 @@
             "patron_trampa": "confusion_variable"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_relacionadas": [
+          "RC-ALG-025",
+          "RC-ALG-036"
+        ]
       }
     ],
     "tipo": "contexto_rc",
@@ -757,7 +805,11 @@
             "patron_trampa": "procedimiento_con_paso_erroneo"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_relacionadas": [
+          "RC-ALG-003",
+          "RC-ALG-004"
+        ]
       }
     ],
     "tipo": "contexto_rc"
@@ -816,7 +868,11 @@
             "patron_trampa": "confusion_variable"
           }
         },
-        "dificultad": "baja"
+        "dificultad": "baja",
+        "tarjetas_relacionadas": [
+          "RC-ALG-026",
+          "RC-ALG-030"
+        ]
       }
     ],
     "tipo": "contexto_rc"
@@ -879,7 +935,10 @@
             "patron_trampa": "operacion_incorrecta"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_relacionadas": [
+          "RC-ALG-004"
+        ]
       }
     ],
     "tipo": "contexto_rc"
@@ -918,7 +977,10 @@
             "patron_trampa": "extrapolacion_estadistica_indebida"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_relacionadas": [
+          "RC-CTX-020"
+        ]
       }
     ],
     "tipo": "contexto_rc"
@@ -991,7 +1053,10 @@
             "patron_trampa": "operacion_incorrecta"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_relacionadas": [
+          "RC-ALG-003"
+        ]
       },
       {
         "id": "RC-ITEM-113",
@@ -1021,7 +1086,10 @@
             "patron_trampa": "reparto_proporcional_mal_aplicado"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_relacionadas": [
+          "RC-ALG-020"
+        ]
       },
       {
         "id": "RC-ITEM-114",
@@ -1051,7 +1119,10 @@
             "patron_trampa": "operacion_incorrecta"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_relacionadas": [
+          "RC-ALG-020"
+        ]
       }
     ],
     "tipo": "contexto_rc"
@@ -1150,7 +1221,11 @@
             "patron_trampa": "generalizacion_indebida"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_relacionadas": [
+          "RC-ALG-001",
+          "RC-ALG-005"
+        ]
       }
     ],
     "tipo": "contexto_rc"
@@ -1229,7 +1304,11 @@
             "patron_trampa": "confusion_variable"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_relacionadas": [
+          "RC-ALG-003",
+          "RC-EST-001"
+        ]
       }
     ],
     "tipo": "contexto_rc"
@@ -1268,7 +1347,10 @@
             "patron_trampa": "dato_no_disponible_o_supuesto"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_relacionadas": [
+          "RC-ALG-004"
+        ]
       }
     ],
     "tipo": "contexto_rc"
@@ -1341,7 +1423,10 @@
             "patron_trampa": "procedimiento_con_paso_erroneo"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_relacionadas": [
+          "RC-EST-021"
+        ]
       }
     ],
     "tipo": "contexto_rc"
@@ -1416,7 +1501,11 @@
             "patron_trampa": "operacion_incorrecta"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_relacionadas": [
+          "RC-EST-031",
+          "RC-EST-032"
+        ]
       }
     ],
     "tipo": "contexto_rc"
@@ -1487,7 +1576,10 @@
             "patron_trampa": "lectura_invertida_datos"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_relacionadas": [
+          "RC-EST-031"
+        ]
       }
     ],
     "tipo": "contexto_rc"
@@ -1526,7 +1618,11 @@
             "patron_trampa": "generalizacion_indebida"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_relacionadas": [
+          "RC-EST-029",
+          "RC-EST-027"
+        ]
       }
     ],
     "tipo": "contexto_rc",
@@ -1568,7 +1664,10 @@
             "patron_trampa": "unidades_no_convertidas"
           }
         },
-        "dificultad": "alta"
+        "dificultad": "alta",
+        "tarjetas_relacionadas": [
+          "RC-GEO-004"
+        ]
       }
     ],
     "tipo": "contexto_rc",
@@ -1633,7 +1732,11 @@
             "patron_trampa": "operacion_incorrecta"
           }
         },
-        "dificultad": "media"
+        "dificultad": "media",
+        "tarjetas_relacionadas": [
+          "RC-ALG-003",
+          "RC-ALG-004"
+        ]
       }
     ],
     "tipo": "contexto_rc"

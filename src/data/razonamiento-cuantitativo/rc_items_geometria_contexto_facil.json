@@ -1,0 +1,402 @@
+[
+  {
+    "id": "RC-GRUPO-100",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Un salón rectangular mide 8 metros de largo y 5 metros de ancho.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-133",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "geometria",
+        "tipo_contexto": "comunitario_social",
+        "enunciado": "¿Cuál es el área del salón?",
+        "opciones": {
+          "A": "40 m²",
+          "B": "26 m²",
+          "C": "13 m²",
+          "D": "3 m²"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El área de un rectángulo es largo×ancho: 8×5=40 m².",
+        "distractores": {
+          "B": {
+            "explicacion": "Corresponde al perímetro (2×(8+5)=26 m), no al área.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "C": {
+            "explicacion": "Corresponde a sumar el largo y el ancho (8+5=13) en vez de multiplicarlos.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "Corresponde a restar el ancho del largo (8−5=3) en vez de multiplicarlos.",
+            "patron_trampa": "operacion_incorrecta"
+          }
+        },
+        "dificultad": "baja",
+        "tarjetas_relacionadas": ["RC-GEO-001"]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-101",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Un jardín cuadrado tiene lados de 6 metros cada uno.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-134",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "geometria",
+        "tipo_contexto": "familiar_personal",
+        "enunciado": "¿Cuál es el perímetro del jardín?",
+        "opciones": {
+          "A": "24 m",
+          "B": "36 m",
+          "C": "12 m",
+          "D": "18 m"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El perímetro es la suma de los 4 lados: 4×6=24 m.",
+        "distractores": {
+          "B": {
+            "explicacion": "Corresponde al área del cuadrado (6²=36 m²), no al perímetro.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "C": {
+            "explicacion": "Corresponde a 2×6=12, como si el cuadrado solo tuviera 2 lados en vez de 4.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "Corresponde a 3×6=18, como si el cuadrado solo tuviera 3 lados en vez de 4.",
+            "patron_trampa": "operacion_incorrecta"
+          }
+        },
+        "dificultad": "baja",
+        "tarjetas_relacionadas": ["RC-GEO-001"]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-102",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Un triángulo tiene una base de 10 cm y una altura de 4 cm (la altura es perpendicular a la base).",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-135",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "geometria",
+        "tipo_contexto": "comunitario_social",
+        "enunciado": "¿Cuál es el área del triángulo?",
+        "opciones": {
+          "A": "20 cm²",
+          "B": "40 cm²",
+          "C": "14 cm²",
+          "D": "24 cm²"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El área de un triángulo es (base×altura)/2: (10×4)/2=40/2=20 cm².",
+        "distractores": {
+          "B": {
+            "explicacion": "Corresponde a base×altura=40, sin dividir entre 2 como exige la fórmula del área de un triángulo.",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          },
+          "C": {
+            "explicacion": "Corresponde a sumar base y altura (10+4=14) en vez de multiplicarlas y dividir entre 2.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "Corresponde a un cálculo con un valor de base incorrecto (6×4=24) en vez del valor real dado (10 cm).",
+            "patron_trampa": "operacion_incorrecta"
+          }
+        },
+        "dificultad": "baja",
+        "tarjetas_relacionadas": ["RC-GEO-003"]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-103",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Un cubo tiene aristas (lados) de 3 cm de longitud cada una.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-136",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "geometria",
+        "tipo_contexto": "comunitario_social",
+        "enunciado": "¿Cuál es el volumen del cubo?",
+        "opciones": {
+          "A": "27 cm³",
+          "B": "9 cm³",
+          "C": "18 cm³",
+          "D": "12 cm³"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El volumen de un cubo es lado³ (lado×lado×lado): 3×3×3=27 cm³.",
+        "distractores": {
+          "B": {
+            "explicacion": "Corresponde al área de una sola cara del cubo (3²=9 cm²), no al volumen del cubo completo.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "C": {
+            "explicacion": "Corresponde a 6×3=18, confundiendo el cálculo con el número de caras del cubo (6) multiplicado por el lado, en vez de lado al cubo.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "Corresponde a 4×3=12, sin relación con la fórmula real del volumen de un cubo.",
+            "patron_trampa": "operacion_incorrecta"
+          }
+        },
+        "dificultad": "baja",
+        "tarjetas_relacionadas": ["RC-GEO-008"]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-104",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Un terreno rectangular mide 12 metros de largo y 7 metros de ancho.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-137",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "geometria",
+        "tipo_contexto": "comunitario_social",
+        "enunciado": "Si se quiere cercar todo el borde del terreno, ¿cuántos metros de cerca se necesitan (el perímetro)?",
+        "opciones": {
+          "A": "38 m",
+          "B": "84 m",
+          "C": "19 m",
+          "D": "31 m"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El perímetro de un rectángulo es 2×(largo+ancho): 2×(12+7)=2×19=38 m.",
+        "distractores": {
+          "B": {
+            "explicacion": "Corresponde al área del terreno (12×7=84 m²), no al perímetro que se necesita para la cerca.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "C": {
+            "explicacion": "Corresponde a largo+ancho=19, olvidando multiplicar por 2 (el rectángulo tiene 2 lados de cada medida, no solo uno).",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          },
+          "D": {
+            "explicacion": "Corresponde a 2×12+7=31, multiplicando por 2 solo el largo y olvidando hacerlo también con el ancho.",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          }
+        },
+        "dificultad": "baja",
+        "tarjetas_relacionadas": ["RC-GEO-001"]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-105",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Un artículo cuesta $50.000 y tiene un descuento del 20% por temporada.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-138",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "contexto_aplicado",
+        "tipo_contexto": "familiar_personal",
+        "enunciado": "¿Cuánto dinero, en pesos, se descuenta del precio original?",
+        "opciones": {
+          "A": "$10.000",
+          "B": "$40.000",
+          "C": "$5.000",
+          "D": "$25.000"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El 20% de $50.000 es 50.000×0,20=$10.000, que es lo que se descuenta.",
+        "distractores": {
+          "B": {
+            "explicacion": "Es el PRECIO FINAL después del descuento ($50.000−$10.000), no el monto descontado que pide la pregunta.",
+            "patron_trampa": "confusion_variable"
+          },
+          "C": {
+            "explicacion": "Corresponde al 10% de $50.000, no al 20% que indica el enunciado.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "Corresponde al 50% de $50.000 (la mitad del precio), no al 20% real del descuento.",
+            "patron_trampa": "operacion_incorrecta"
+          }
+        },
+        "dificultad": "baja",
+        "tarjetas_relacionadas": ["RC-CTX-020"]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-106",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Una receta para 4 personas necesita 300 gramos de arroz.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-139",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "contexto_aplicado",
+        "tipo_contexto": "familiar_personal",
+        "enunciado": "Si se quiere preparar la misma receta para 8 personas (el doble), ¿cuántos gramos de arroz se necesitan, manteniendo la misma proporción?",
+        "opciones": {
+          "A": "600 g",
+          "B": "300 g",
+          "C": "150 g",
+          "D": "900 g"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La cantidad de arroz es directamente proporcional al número de personas: si las personas se duplican (4→8), el arroz también se duplica: 300×2=600 g.",
+        "distractores": {
+          "B": {
+            "explicacion": "Es la cantidad original para 4 personas, sin ajustar la proporción para las 8 personas que pide la pregunta.",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          },
+          "C": {
+            "explicacion": "Corresponde a dividir entre 2 (300/2=150) en vez de multiplicar por 2, invirtiendo la dirección de la proporcionalidad directa.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "Corresponde a triplicar la cantidad (300×3=900), como si las personas hubieran pasado de 4 a 12 en vez de a 8.",
+            "patron_trampa": "operacion_incorrecta"
+          }
+        },
+        "dificultad": "baja",
+        "tarjetas_relacionadas": ["RC-CTX-020"]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-107",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Un carro recorre 60 km usando 5 litros de gasolina, con un consumo constante (directamente proporcional a la distancia).",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-140",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "contexto_aplicado",
+        "tipo_contexto": "familiar_personal",
+        "enunciado": "¿Cuántos litros de gasolina se necesitan para recorrer 180 km (el triple de la distancia)?",
+        "opciones": {
+          "A": "15 litros",
+          "B": "5 litros",
+          "C": "10 litros",
+          "D": "20 litros"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Como la distancia se triplicó (60 km→180 km), el consumo de gasolina también se triplica: 5×3=15 litros.",
+        "distractores": {
+          "B": {
+            "explicacion": "Es la cantidad original para 60 km, sin ajustarla a los 180 km que pide la pregunta.",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          },
+          "C": {
+            "explicacion": "Corresponde a duplicar (5×2=10) en vez de triplicar, como si la distancia hubiera pasado de 60 a 120 km en vez de a 180 km.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "Corresponde a cuadruplicar (5×4=20), como si la distancia hubiera pasado de 60 a 240 km en vez de a 180 km.",
+            "patron_trampa": "operacion_incorrecta"
+          }
+        },
+        "dificultad": "baja",
+        "tarjetas_relacionadas": ["RC-CTX-020"]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-108",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "En una tienda, 3 camisetas cuestan $90.000 en total, todas al mismo precio unitario.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-141",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "contexto_aplicado",
+        "tipo_contexto": "familiar_personal",
+        "enunciado": "¿Cuánto cuestan 5 camisetas, al mismo precio unitario?",
+        "opciones": {
+          "A": "$150.000",
+          "B": "$90.000",
+          "C": "$120.000",
+          "D": "$180.000"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El precio unitario es $90.000÷3=$30.000 por camiseta. Para 5 camisetas: 5×$30.000=$150.000.",
+        "distractores": {
+          "B": {
+            "explicacion": "Es el total original para 3 camisetas, sin ajustarlo a las 5 camisetas que pide la pregunta.",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          },
+          "C": {
+            "explicacion": "Corresponde a sumar el total original más el precio unitario ($90.000+$30.000), en vez de multiplicar el precio unitario por las 5 camisetas.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "Corresponde a duplicar el total original (2×$90.000=$180.000), como si se pidiera el precio de 6 camisetas en vez de 5.",
+            "patron_trampa": "operacion_incorrecta"
+          }
+        },
+        "dificultad": "baja",
+        "tarjetas_relacionadas": ["RC-CTX-020"]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-109",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Un ahorro de $1.000.000 genera un interés simple del 5% anual.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-142",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "contexto_aplicado",
+        "tipo_contexto": "familiar_personal",
+        "enunciado": "¿Cuánto dinero de interés se gana al cabo de 1 año?",
+        "opciones": {
+          "A": "$50.000",
+          "B": "$1.050.000",
+          "C": "$500.000",
+          "D": "$5.000"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El interés simple de un año es capital×tasa: $1.000.000×0,05=$50.000.",
+        "distractores": {
+          "B": {
+            "explicacion": "Es el MONTO TOTAL después de un año (capital+interés=$1.000.000+$50.000), no el interés ganado que pide la pregunta.",
+            "patron_trampa": "confusion_variable"
+          },
+          "C": {
+            "explicacion": "Corresponde a usar 50% en vez de 5% de tasa de interés.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "Corresponde a usar 0,5% en vez de 5% de tasa de interés.",
+            "patron_trampa": "operacion_incorrecta"
+          }
+        },
+        "dificultad": "baja",
+        "tarjetas_relacionadas": ["RC-CTX-007"]
+      }
+    ],
+    "tipo": "contexto_rc"
+  }
+]

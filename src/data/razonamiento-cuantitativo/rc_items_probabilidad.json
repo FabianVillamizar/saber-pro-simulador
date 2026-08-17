@@ -1,0 +1,353 @@
+[
+  {
+    "id": "RC-GRUPO-092",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Una caja contiene 8 bolas rojas, 5 azules y 7 verdes. Se van a extraer bolas al azar, una a la vez, sin devolverlas a la caja.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-124",
+        "competencia": "interpretacion_representacion",
+        "contenido": "estadistica",
+        "tipo_contexto": "comunitario_social",
+        "enunciado": "¿Cuál es la probabilidad de que la primera bola extraída sea azul?",
+        "opciones": {
+          "A": "25%",
+          "B": "35%",
+          "C": "33,3%",
+          "D": "40%"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Hay 5 bolas azules de un total de 8+5+7=20 bolas: P(azul)=5/20=0,25=25%.",
+        "distractores": {
+          "B": {
+            "explicacion": "Corresponde a 7/20=35%, usando el número de bolas verdes en lugar de las azules.",
+            "patron_trampa": "confusion_variable"
+          },
+          "C": {
+            "explicacion": "Corresponde a 5/15≈33,3%, usando como denominador solo rojas+azules (15) e ignorando las 7 verdes que también están en la caja.",
+            "patron_trampa": "denominador_o_escala_incorrecta"
+          },
+          "D": {
+            "explicacion": "Corresponde a 8/20=40%, usando el número de bolas rojas en lugar de las azules.",
+            "patron_trampa": "confusion_variable"
+          }
+        },
+        "dificultad": "baja",
+        "tarjetas_relacionadas": ["RC-EST-016"]
+      },
+      {
+        "id": "RC-ITEM-125",
+        "competencia": "argumentacion",
+        "contenido": "estadistica",
+        "tipo_contexto": "comunitario_social",
+        "enunciado": "Si la primera bola extraída fue roja (y no se devolvió a la caja), ¿cuál es la probabilidad de que la segunda bola extraída sea azul?",
+        "opciones": {
+          "A": "25%",
+          "B": "26,3%",
+          "C": "21%",
+          "D": "36,8%"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Como no hay reposición, después de sacar una roja quedan 19 bolas en total (7 rojas, 5 azules, 7 verdes). P(azul)=5/19≈26,3%.",
+        "distractores": {
+          "A": {
+            "explicacion": "Corresponde a 5/20=25%, el cálculo de ANTES de la primera extracción — no ajusta el total a 19 bolas tras sacar la roja sin reponerla.",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          },
+          "C": {
+            "explicacion": "Corresponde a 4/19≈21%, restando por error una bola azul cuando en realidad se sacó una roja (las azules siguen siendo 5).",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "Corresponde a 7/19≈36,8%, usando el número de bolas verdes en lugar de las azules.",
+            "patron_trampa": "confusion_variable"
+          }
+        },
+        "dificultad": "media",
+        "tarjetas_relacionadas": ["RC-EST-019"]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-093",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Una empresa debe conformar un comité de 3 personas para representarla en una feria, elegido entre 7 empleados que se postularon. El comité no distingue roles: los 3 elegidos tienen las mismas funciones.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-126",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "estadistica",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "¿Cuántos comités distintos de 3 personas se pueden formar entre los 7 postulados?",
+        "opciones": {
+          "A": "35",
+          "B": "210",
+          "C": "21",
+          "D": "42"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Como el comité no distingue roles (el orden no importa), se usa combinación: C(7,3) = (7×6×5)/(3×2×1) = 210/6 = 35.",
+        "distractores": {
+          "B": {
+            "explicacion": "Corresponde a la permutación 7×6×5=210, que sí distingue el orden de selección — pero aquí los 3 elegidos no tienen roles distintos, así que hay que dividir entre las 3×2×1=6 formas de ordenar cada grupo de 3.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "C": {
+            "explicacion": "Corresponde a 7×3=21, una multiplicación directa que no representa ni la combinación ni la permutación reales del problema.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "No corresponde a ningún cálculo válido de conteo para este problema; es un valor cercano a la respuesta correcta pero sin sustento en la fórmula de combinaciones.",
+            "patron_trampa": "operacion_incorrecta"
+          }
+        },
+        "dificultad": "media",
+        "tarjetas_relacionadas": ["RC-EST-015"]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-094",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Un filtro de spam identifica correctamente el 95% de los correos que sí son spam, y clasifica correctamente como \"no spam\" al 90% de los correos legítimos (es decir, marca por error como spam al 10% de los correos legítimos). En la bandeja de entrada de un usuario, el 5% de todos los correos que llegan son spam.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-127",
+        "competencia": "argumentacion",
+        "contenido": "estadistica",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "Si un correo fue marcado como spam por el filtro, ¿cuál es la probabilidad aproximada de que realmente sea spam?",
+        "opciones": {
+          "A": "95%",
+          "B": "33,3%",
+          "C": "90%",
+          "D": "14,25%"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "De cada 1.000 correos: 50 son spam de verdad (5%) y 950 son legítimos (95%). De los 50 spam, el filtro marca correctamente 47,5 (95%). De los 950 legítimos, marca por error como spam a 95 (10%). Total marcados como spam: 47,5+95=142,5. De esos, solo 47,5 son spam real: 47,5/142,5≈33,3%.",
+        "distractores": {
+          "A": {
+            "explicacion": "Es la probabilidad de que el filtro marque un correo COMO spam DADO que sí es spam (P(marcado|spam)=95%) — la pregunta pide la condicional inversa, P(spam|marcado), que es distinta porque hay muchos más correos legítimos que spam en total.",
+            "patron_trampa": "confusion_variable"
+          },
+          "C": {
+            "explicacion": "Es la tasa de acierto del filtro sobre correos legítimos (90%), no la probabilidad de que un correo marcado como spam sea realmente spam.",
+            "patron_trampa": "confusion_variable"
+          },
+          "D": {
+            "explicacion": "Corresponde a 142,5/1.000=14,25%, la proporción de TODOS los correos que el filtro marca como spam (verdaderos y falsos positivos juntos) — no la proporción de los marcados que de verdad son spam.",
+            "patron_trampa": "confusion_variable"
+          }
+        },
+        "dificultad": "alta",
+        "tarjetas_relacionadas": ["RC-EST-041", "RC-EST-042"]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-095",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Una aseguradora cobra una póliza de $300.000 al año por asegurado. Estima que el 2% de los asegurados presentará un reclamo, con un pago promedio de $12.000.000 por reclamo, y que el 98% restante no presentará ningún reclamo en el año.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-128",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "estadistica",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "¿Cuál es la ganancia esperada (valor esperado) de la aseguradora por cada póliza vendida?",
+        "opciones": {
+          "A": "$60.000",
+          "B": "$288.000",
+          "C": "−$11.700.000",
+          "D": "$300.000"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El costo esperado en reclamos por póliza es 0,02×$12.000.000=$240.000. La ganancia esperada es el ingreso por la póliza menos ese costo esperado: $300.000−$240.000=$60.000.",
+        "distractores": {
+          "B": {
+            "explicacion": "Corresponde a 0,98×$300.000=$288.000, aplicando la probabilidad de \"no reclamo\" al ingreso de la póliza en vez de aplicar la probabilidad de reclamo (2%) al costo esperado del pago.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "C": {
+            "explicacion": "Resta el reclamo completo ($12.000.000) del ingreso de la póliza sin ponderarlo por la probabilidad de que ocurra (solo 2% de los asegurados reclama).",
+            "patron_trampa": "dato_no_disponible_o_supuesto"
+          },
+          "D": {
+            "explicacion": "Ignora por completo el costo esperado de los reclamos y reporta solo el ingreso de la póliza como si fuera ganancia neta.",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          }
+        },
+        "dificultad": "alta",
+        "tarjetas_relacionadas": ["RC-EST-043", "RC-EST-044"]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-096",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "En un concurso, se van a otorgar 3 premios distintos (primer lugar, segundo lugar y tercer lugar) entre 6 finalistas. Cada finalista puede recibir como máximo un premio.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-129",
+        "competencia": "interpretacion_representacion",
+        "contenido": "estadistica",
+        "tipo_contexto": "comunitario_social",
+        "enunciado": "¿De cuántas formas distintas se pueden otorgar los 3 premios entre los 6 finalistas?",
+        "opciones": {
+          "A": "120",
+          "B": "20",
+          "C": "18",
+          "D": "216"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Como los premios son distintos (primer, segundo y tercer lugar), el orden importa: es una permutación. 6×5×4=120 formas distintas.",
+        "distractores": {
+          "B": {
+            "explicacion": "Corresponde a la combinación C(6,3)=20, que no distingue el orden — pero aquí sí importa, porque \"primer lugar\" es un premio distinto a \"tercer lugar\".",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "C": {
+            "explicacion": "Corresponde a 6×3=18, una multiplicación directa que no representa el conteo real de formas de asignar 3 premios distintos.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "Corresponde a 6³=216, que asume que un mismo finalista podría recibir más de un premio (repetición), cuando el enunciado dice que cada finalista recibe como máximo un premio.",
+            "patron_trampa": "dato_no_disponible_o_supuesto"
+          }
+        },
+        "dificultad": "media",
+        "tarjetas_relacionadas": ["RC-EST-015"]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-097",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "El pronóstico del tiempo indica que la probabilidad de que llueva mañana es del 30%. De forma independiente del clima, la probabilidad de que el equipo local gane su partido de mañana es del 60%.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-130",
+        "competencia": "argumentacion",
+        "contenido": "estadistica",
+        "tipo_contexto": "comunitario_social",
+        "enunciado": "¿Cuál es la probabilidad de que mañana llueva Y el equipo local gane?",
+        "opciones": {
+          "A": "18%",
+          "B": "90%",
+          "C": "30%",
+          "D": "72%"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Como los eventos son independientes, la probabilidad de que ambos ocurran es el producto de sus probabilidades: 0,3×0,6=0,18=18%.",
+        "distractores": {
+          "B": {
+            "explicacion": "Corresponde a sumar las probabilidades (30%+60%=90%) en lugar de multiplicarlas, un error válido solo para eventos mutuamente excluyentes, no para la intersección de eventos independientes.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "C": {
+            "explicacion": "Reporta solo la probabilidad de lluvia (30%), ignorando por completo la condición de que el equipo también debe ganar.",
+            "patron_trampa": "confusion_variable"
+          },
+          "D": {
+            "explicacion": "Corresponde a la probabilidad de que llueva O gane el equipo (unión: 0,3+0,6−0,18=0,72), no a que ocurran ambos eventos a la vez (intersección), que es lo que pide la pregunta.",
+            "patron_trampa": "confusion_variable"
+          }
+        },
+        "dificultad": "media",
+        "tarjetas_relacionadas": ["RC-EST-018"]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-098",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Una caja tiene 10 componentes electrónicos, de los cuales 2 están defectuosos. Se seleccionan 2 componentes al azar, uno después del otro, sin devolver el primero a la caja.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-131",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "estadistica",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "¿Cuál es la probabilidad de que AL MENOS UNO de los 2 componentes seleccionados esté defectuoso?",
+        "opciones": {
+          "A": "37,8%",
+          "B": "20%",
+          "C": "62,2%",
+          "D": "40%"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Es más fácil calcular el complemento (que NINGUNO esté defectuoso) y restar de 1: P(ninguno defectuoso)=(8/10)×(7/9)=56/90≈62,2%. Entonces P(al menos uno defectuoso)=1−0,622=0,378≈37,8%.",
+        "distractores": {
+          "B": {
+            "explicacion": "Corresponde a 2/10=20%, la probabilidad de que UN componente cualquiera esté defectuoso, no la de que \"al menos uno\" lo esté entre los 2 seleccionados.",
+            "patron_trampa": "confusion_variable"
+          },
+          "C": {
+            "explicacion": "Es la probabilidad de que NINGÚN componente esté defectuoso (el complemento), reportada directamente sin restarla de 1 para obtener \"al menos uno\".",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "Corresponde a sumar 2/10+2/10=40%, tratando ambas extracciones como si tuvieran la misma probabilidad y fueran independientes, sin ajustar por la extracción sin reposición.",
+            "patron_trampa": "operacion_incorrecta"
+          }
+        },
+        "dificultad": "alta",
+        "tarjetas_relacionadas": ["RC-EST-017", "RC-EST-019"]
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-099",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Se lanzan dos dados normales de 6 caras al mismo tiempo, y se suman los dos resultados.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-132",
+        "competencia": "interpretacion_representacion",
+        "contenido": "estadistica",
+        "tipo_contexto": "familiar_personal",
+        "enunciado": "¿Cuál es la probabilidad de que la suma de los dos dados sea igual a 7?",
+        "opciones": {
+          "A": "16,7%",
+          "B": "8,3%",
+          "C": "2,8%",
+          "D": "19,4%"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Hay 36 resultados posibles igualmente probables (6×6). De ellos, 6 suman 7: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1). P=6/36≈16,7%.",
+        "distractores": {
+          "B": {
+            "explicacion": "Corresponde a 3/36≈8,3%, contando solo la mitad de las combinaciones — olvida que al lanzar 2 dados, (1,6) y (6,1) son resultados distintos y ambos cuentan.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "C": {
+            "explicacion": "Corresponde a 1/36≈2,8%, contando un solo caso favorable en vez de los 6 pares que suman 7.",
+            "patron_trampa": "confusion_variable"
+          },
+          "D": {
+            "explicacion": "Corresponde a 7/36≈19,4%, confundiendo el valor de la suma buscada (7) con el número de casos favorables.",
+            "patron_trampa": "confusion_variable"
+          }
+        },
+        "dificultad": "media",
+        "tarjetas_relacionadas": ["RC-EST-011", "RC-EST-016"]
+      }
+    ],
+    "tipo": "contexto_rc"
+  }
+]
