@@ -20,6 +20,21 @@ export const DISTRIBUCION_RC = {
 }
 export const DURACION_RC_MINUTOS = 35
 
+// Lectura Crítica: las 3 competencias oficiales ICFES (`parte` =
+// `pregunta.competencia`, ver engine/adapters/lecturaCritica.js) están casi
+// parejas en el banco real (48/49/53 de 150 preguntas, incluido el lote UIS
+// del 2026-08-17) — la distribución de abajo escala esa misma proporción a
+// un simulacro de 30 preguntas, igual que RC. Mismo criterio de estimado
+// propio explícito: el ICFES no publica tamaño ni tiempo oficial por módulo
+// genérico por separado; 40 min (vs. 35 de RC) porque leer textos completos
+// toma más tiempo que resolver ítems numéricos.
+export const DISTRIBUCION_LC = {
+  identificacion_local: 10,
+  comprension_global: 10,
+  reflexion_evaluacion: 10,
+}
+export const DURACION_LC_MINUTOS = 40
+
 function barajar(items) {
   const copia = [...items]
   for (let i = copia.length - 1; i > 0; i--) {

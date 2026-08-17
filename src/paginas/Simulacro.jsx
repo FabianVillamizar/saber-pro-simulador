@@ -8,6 +8,8 @@ import {
   DURACION_DEFECTO_MINUTOS,
   DISTRIBUCION_RC,
   DURACION_RC_MINUTOS,
+  DISTRIBUCION_LC,
+  DURACION_LC_MINUTOS,
 } from '../engine/simulacro.js'
 import { registrarSimulacro } from '../engine/progreso.js'
 import { registrarFalloTrampa } from '../engine/patronesPerfil.js'
@@ -43,6 +45,9 @@ function etiquetaParteActual(pregunta, categorias) {
 function configSimulacro(moduloId) {
   if (moduloId === 'razonamiento-cuantitativo') {
     return { distribucion: DISTRIBUCION_RC, duracion: DURACION_RC_MINUTOS }
+  }
+  if (moduloId === 'lectura-critica') {
+    return { distribucion: DISTRIBUCION_LC, duracion: DURACION_LC_MINUTOS }
   }
   return { distribucion: DISTRIBUCION_DEFECTO, duracion: DURACION_DEFECTO_MINUTOS }
 }

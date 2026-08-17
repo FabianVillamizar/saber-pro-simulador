@@ -65,11 +65,14 @@ export const indiceModulos = {
     monograma: 'LC',
     descripcion: 'Análisis e interpretación de textos.',
     disponible: true,
-    // Igual que CC/PC/diosgenina: todavía no hay distribución de simulacro
-    // ni escala de resultado diseñadas para este módulo (ver
-    // saber_pro_resultado_scope en memoria) — solo repaso de conceptos y
-    // práctica por sub-categoría por ahora.
-    soportaSimulacro: false,
+    // Tercer módulo (después de Inglés y RC) con Simulacro completo real:
+    // 30 preguntas en la proporción real por competencia (ver
+    // engine/simulacro.js `DISTRIBUCION_LC`) — mismo patrón que RC: el
+    // Resultado no usa una escala de niveles oficial (no existe un marco
+    // externo publicado por el ICFES para Lectura Crítica genérica, a
+    // diferencia del CEFR de Inglés), solo el puntaje /300 aproximado más
+    // un descriptor de desempeño no-oficial (ver Resultado.jsx).
+    soportaSimulacro: true,
     // Las 3 competencias oficiales del núcleo de Lectura Crítica del ICFES.
     categorias: {
       identificacion_local: 'Identificación local',
