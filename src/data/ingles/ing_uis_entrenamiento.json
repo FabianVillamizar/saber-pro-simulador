@@ -1,0 +1,931 @@
+[
+  {
+    "id": "ING-P3-ITEM-051",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Whose bag is that?",
+    "opciones": {
+      "A": "It's not me.",
+      "B": "Sally's, I think.",
+      "C": "Yes, it is."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "La pregunta 'Whose bag...?' pide identificar al dueño; 'Sally's, I think' nombra directamente a la posible dueña, que es la única respuesta que contesta lo que realmente se pregunta.",
+    "distractores": {
+      "A": {
+        "explicacion": "No responde de quién es la mochila, y además la forma correcta para negar posesión propia sería 'It's not mine', no 'It's not me'.",
+        "patron_trampa": "logica_conversacional_rota"
+      },
+      "C": {
+        "explicacion": "Trata 'Whose bag is that?' como si fuera una pregunta de sí/no, pero es una pregunta abierta con 'whose' que exige nombrar al dueño.",
+        "patron_trampa": "logica_conversacional_rota"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-052",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Let's call Samantha to see what she's doing.",
+    "opciones": {
+      "A": "I hope so.",
+      "B": "Not bad.",
+      "C": "Good idea."
+    },
+    "respuesta_correcta": "C",
+    "explicacion_correcta": "'Let's...' es una sugerencia; 'Good idea' es la forma natural de aceptar una sugerencia en inglés.",
+    "distractores": {
+      "A": {
+        "explicacion": "'I hope so' responde a una expresión de esperanza o incertidumbre sobre algo futuro, no a una sugerencia de acción conjunta.",
+        "patron_trampa": "fuera_de_contexto"
+      },
+      "B": {
+        "explicacion": "'Not bad' es la respuesta típica a '¿Cómo estás?' o '¿Cómo te fue?', no a una sugerencia de llamar a alguien.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-053",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "How are you feeling?",
+    "opciones": {
+      "A": "I don't think so.",
+      "B": "Much better, thank you.",
+      "C": "I don't feel like it."
+    },
+    "respuesta_correcta": "B",
+    "explicacion_correcta": "'How are you feeling?' pregunta por el estado de salud o ánimo; 'Much better, thank you' es la respuesta directa esperada.",
+    "distractores": {
+      "A": {
+        "explicacion": "Responde como si la pregunta fuera de sí/no, pero 'How are you feeling?' es una pregunta abierta sobre un estado.",
+        "patron_trampa": "logica_conversacional_rota"
+      },
+      "C": {
+        "explicacion": "Confunde 'feel' en el sentido de estado de salud/ánimo con la expresión 'feel like (doing something)', que significa 'tener ganas de'; responde como si le hubieran preguntado si quiere hacer algo.",
+        "patron_trampa": "significado_cercano"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-054",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "I have to go and do my homework now.",
+    "opciones": {
+      "A": "I'll see you later.",
+      "B": "Have you finished?",
+      "C": "Do you like it?"
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "Es una despedida natural: si alguien anuncia que se tiene que ir a hacer algo, la respuesta lógica es despedirse.",
+    "distractores": {
+      "B": {
+        "explicacion": "Es ilógico: la persona acaba de decir que TIENE que ir a hacer la tarea ahora, es decir, todavía no la ha hecho, así que preguntar '¿ya terminaste?' contradice lo que se acaba de anunciar.",
+        "patron_trampa": "logica_conversacional_rota"
+      },
+      "C": {
+        "explicacion": "No tiene relación con el anuncio de que la persona se va a hacer la tarea; no hay ningún 'it' claro al que 'like' pueda referirse.",
+        "patron_trampa": "fuera_de_contexto"
+      }
+    }
+  },
+  {
+    "id": "ING-P3-ITEM-055",
+    "modulo": "ingles",
+    "parte": 3,
+    "tipo": "conversacion",
+    "nivel_mcer": "A2",
+    "enunciado": "Why didn't you come to my party?",
+    "opciones": {
+      "A": "I wasn't feeling well.",
+      "B": "I had a great time.",
+      "C": "I didn't like it."
+    },
+    "respuesta_correcta": "A",
+    "explicacion_correcta": "La pregunta pide una razón para la ausencia; 'I wasn't feeling well' da un motivo válido para no haber asistido.",
+    "distractores": {
+      "B": {
+        "explicacion": "Implica que la persona SÍ asistió a la fiesta ('I had a great time'), lo cual contradice la premisa de la pregunta, que asume que no fue.",
+        "patron_trampa": "logica_conversacional_rota"
+      },
+      "C": {
+        "explicacion": "No explica la ausencia; suena como un comentario sobre algo que sí experimentó, lo cual otra vez contradice la premisa de que no fue a la fiesta.",
+        "patron_trampa": "logica_conversacional_rota"
+      }
+    }
+  },
+  {
+    "id": "ING-P5-TEXTO-009",
+    "modulo": "ingles",
+    "parte": 5,
+    "tipo": "comprension_basica",
+    "nivel_mcer": "B1",
+    "texto_base": "Thirteen-year-old Kara Finch writes about The Great Trail – a footpath that goes across Canada.\n\nThe Great Trail goes from one side of Canada to the other. At 24,000 km, it is the longest trail in the world. The Great Trail project began in 1992 and took 25 years to complete. It opened in 2017, exactly 150 years after Canada became one country.\n\nThe Great Trail is actually lots of paths joined together. You can cycle, walk or horse-ride on most of it, but there are parts where the only way you can travel is by boat. And there are others where the trail is part of the highway, which doesn't sound very safe to me.\n\nMy father and I spent a day walking along part of the Great Trail that was surprisingly busy. We were told you don't usually see bears when there are lots of people, but we did. It was moving through the trees, quite close to us, and I felt a little afraid. 'I don't think it's hungry!' laughed my dad.\n\nAt lunchtime, we talked to an old man on the trail. Dad asked him if he thought the path was going to help Canadians learn more about their countryside. 'Not really,' he said. 'We've always loved to be outdoors. But it will bring us tourists from around the world, which is important.'\n\nIn the future, the path will probably change, and new parts may open. We saw nothing to tell us we were on the Great Trail, which is a shame. I know there's information on the website, but it's good to know when you're walking on a special path. They need to add more signs, I think.",
+    "preguntas": [
+      {
+        "num": 1,
+        "habilidad": "idea_principal_parrafo",
+        "enunciado": "What is Kara doing in the first paragraph?",
+        "opciones": {
+          "A": "giving walkers advice about walking in Canada",
+          "B": "explaining the history of the Great Trail",
+          "C": "telling tourists how long it takes to walk the Great Trail"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El primer párrafo da datos históricos del sendero: cuándo empezó el proyecto, cuánto tardó y cuándo se inauguró, es decir, cuenta su historia.",
+        "distractores": {
+          "A": {
+            "explicacion": "El párrafo no da ningún consejo a los caminantes, solo datos históricos.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "C": {
+            "explicacion": "El texto da la LONGITUD del sendero (24.000 km), no el tiempo que toma recorrerlo a pie.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "habilidad": "informacion_explicita",
+        "enunciado": "What does Kara think is dangerous",
+        "opciones": {
+          "A": "Some parts of the path are on roads.",
+          "B": "Bikes and horses share the same path.",
+          "C": "You need a boat for parts of the path."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Kara dice explícitamente que hay partes donde el sendero es parte de la carretera, y que eso 'no le suena muy seguro' ('doesn't sound very safe to me').",
+        "distractores": {
+          "B": {
+            "explicacion": "El texto menciona que se puede ir en bicicleta, a pie o a caballo en la mayoría del sendero, pero lo presenta como un dato neutral, no como algo peligroso.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "C": {
+            "explicacion": "Que algunas partes solo se puedan recorrer en bote es un dato neutral en el texto, no algo que Kara describa como peligroso.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "habilidad": "informacion_explicita",
+        "enunciado": "What does Kara say about the bear she saw?",
+        "opciones": {
+          "A": "It walked near her.",
+          "B": "It was on the path.",
+          "C": "It looked hungry."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Kara dice que el oso se movía entre los árboles 'quite close to us' (bastante cerca de ellos), lo que corresponde a que caminaba cerca de ella.",
+        "distractores": {
+          "B": {
+            "explicacion": "El texto dice que el oso se movía 'through the trees' (entre los árboles), no que estuviera sobre el sendero mismo.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "Es lo opuesto a lo que dice el papá de Kara: 'I don't think it's hungry!' (creo que no tiene hambre).",
+            "patron_trampa": "referencia_incorrecta"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "habilidad": "informacion_explicita",
+        "enunciado": "What did the old man say about the trail?",
+        "opciones": {
+          "A": "People will go into the countryside more because of it.",
+          "B": "People from Canada will use it to see other parts of their country.",
+          "C": "People from other countries will come to see it."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El anciano dice 'it will bring us tourists from around the world, which is important' (traerá turistas de todo el mundo).",
+        "distractores": {
+          "A": {
+            "explicacion": "Esa era la PREGUNTA que le hizo el papá de Kara (si ayudaría a los canadienses a aprender de su propio territorio), no la respuesta del anciano, que fue 'Not really' (no realmente).",
+            "patron_trampa": "referencia_incorrecta"
+          },
+          "B": {
+            "explicacion": "El anciano habla de turistas de todo el mundo, no específicamente de canadienses viajando dentro de su propio país.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "habilidad": "informacion_explicita",
+        "enunciado": "What does Kara say should happen next?",
+        "opciones": {
+          "A": "There should be a website about the trail.",
+          "B": "Some parts of the trail should close.",
+          "C": "There should be more signs along the trail."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Kara dice 'They need to add more signs, I think' (creo que necesitan agregar más señales).",
+        "distractores": {
+          "A": {
+            "explicacion": "El sitio web YA existe según el texto ('I know there's information on the website'); no es algo que Kara pida para el futuro.",
+            "patron_trampa": "referencia_incorrecta"
+          },
+          "B": {
+            "explicacion": "El texto no menciona en ningún momento que Kara piense que se deban cerrar partes del sendero.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 6,
+        "habilidad": "informacion_explicita",
+        "enunciado": "What surprised Kara during her walk?",
+        "opciones": {
+          "A": "That she saw a bear even though many people were there.",
+          "B": "That there were signs showing the way.",
+          "C": "That the path was very quiet."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El texto dice que les habían contado que normalmente no se ven osos cuando hay mucha gente, 'but we did' (pero sí vieron uno) — eso es lo que resulta sorprendente.",
+        "distractores": {
+          "B": {
+            "explicacion": "Es lo contrario a lo que dice el texto: 'We saw nothing to tell us we were on the Great Trail' (no vieron ninguna señal).",
+            "patron_trampa": "referencia_incorrecta"
+          },
+          "C": {
+            "explicacion": "Es lo contrario a lo que dice el texto: el sendero estaba 'surprisingly busy' (sorprendentemente concurrido), no tranquilo.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 7,
+        "habilidad": "informacion_explicita",
+        "enunciado": "What does Kara think about the future of the trail?",
+        "opciones": {
+          "A": "It will stay exactly the same.",
+          "B": "It may change and get bigger.",
+          "C": "It will probably close."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Kara dice 'the path will probably change, and new parts may open' (probablemente cambiará y podrían abrirse partes nuevas), es decir, que crecerá.",
+        "distractores": {
+          "A": {
+            "explicacion": "Contradice directamente al texto, que dice que el sendero probablemente cambiará, no que se quedará exactamente igual.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "El texto habla de que se abrirán partes nuevas (expansión), no de que vaya a cerrar.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P6-TEXTO-009",
+    "modulo": "ingles",
+    "parte": 6,
+    "tipo": "comprension_compleja",
+    "nivel_mcer": "B2",
+    "texto_base": "I'm Gina D'Costa and I run a flower shop in the UK. We don't just sell flowers to people buying them for friends or for their homes; all kinds of customers want flowers. Hotels and offices often have flowers in Reception, and sometimes we take part in photo sessions for businesses by providing flowers for their advertising pictures. Once I even decorated a castle with flowers for a wedding. It took a huge amount of work, but I was really proud of the job we'd done.\n\nMy day starts at 4 a.m. when I go to the market to buy fresh flowers. Most people are still asleep then and my friends think I must be crazy, but it's never bothered me — I'm excited about what I do. It's often colder than I'd like, and it's usually dark, but you can't expect anything else at that time in the morning, so I don't let it worry me.\n\nThe flower market's wonderful, with flowers from all over the world. The sights and smells make it hard to make a decision. If I was choosing for myself, I'd probably only get pink ones — it's my favourite colour. But I mustn't forget that what I love and what other people want aren't necessarily the same thing. It isn't always possible to find customers' choices — not all flowers are available all year. I'm not so keen on having to argue about prices with the flower-sellers, but it's a necessary part of the job. Flowers aren't cheap, so I have to try to get the best price possible.\n\nBack at the shop we look at customer orders and set up vases with the flowers I've bought. Then we get on with creating bunches of flowers and working out how much orders will cost. Customers are often surprised by how expensive they are, and I sometimes have to ask them to think again about what they'd like. Some people might think this sounds like too much trouble, but I like thinking about how I can put together the nicest possible flowers for the amount of money someone wants to spend. That's what you have to do when you're selling things — I wouldn't want any other job!",
+    "preguntas": [
+      {
+        "num": 1,
+        "habilidad": "informacion_explicita",
+        "enunciado": "In the first paragraph, what does Gina say about her work?",
+        "opciones": {
+          "A": "She only sells flowers to individual customers for their homes.",
+          "B": "She finds it stressful to work with different types of customers.",
+          "C": "She was especially pleased with one project she was involved in.",
+          "D": "She mainly provides flowers for weddings."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Gina cuenta que decoró un castillo para una boda, que fue mucho trabajo, y dice explícitamente 'I was really proud of the job we'd done' (estaba muy orgullosa del trabajo), es decir, ese proyecto en particular la dejó especialmente satisfecha.",
+        "distractores": {
+          "A": {
+            "explicacion": "Contradice el texto: 'We don't just sell flowers to people buying them for friends or for their homes; all kinds of customers want flowers' — también vende a hoteles, oficinas y empresas.",
+            "patron_trampa": "referencia_incorrecta"
+          },
+          "B": {
+            "explicacion": "El párrafo no menciona ningún estrés por la variedad de clientes; solo describe con naturalidad los distintos tipos de clientes que tiene.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "D": {
+            "explicacion": "La boda del castillo se menciona como un caso puntual ('once'), no como su actividad principal; el resto del párrafo describe clientes muy variados (hoteles, oficinas, publicidad).",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "habilidad": "inferencia",
+        "enunciado": "What does Gina say about getting up so early?",
+        "opciones": {
+          "A": "Her friends don't realise how hard it is for her.",
+          "B": "She admits she needs more sleep.",
+          "C": "She doesn't notice what the weather's like.",
+          "D": "It's worth doing because she loves her job."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Gina dice 'it's never bothered me — I'm excited about what I do', mostrando que madrugar vale la pena porque disfruta su trabajo.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto dice que sus amigos piensan que está loca por madrugar tanto, no que no se den cuenta de lo difícil que es — de hecho, sí lo notan, solo que ella no le da importancia.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "Gina nunca dice que necesite dormir más; al contrario, afirma que madrugar nunca le ha molestado.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "C": {
+            "explicacion": "Gina sí nota que hace frío y está oscuro ('It's often colder than I'd like, and it's usually dark'), simplemente no deja que eso le preocupe — es distinto a no notarlo.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "habilidad": "informacion_explicita",
+        "enunciado": "What does Gina find difficult when she is at the flower market?",
+        "opciones": {
+          "A": "Finding flowers in a variety of colours.",
+          "B": "Having such a limited range of flowers to choose from.",
+          "C": "Remembering what customers have asked for.",
+          "D": "Asking to pay less for flowers."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Gina dice 'I'm not so keen on having to argue about prices with the flower-sellers' (no me entusiasma tener que discutir precios), es decir, negociar para pagar menos.",
+        "distractores": {
+          "A": {
+            "explicacion": "El texto describe el mercado como lleno de variedad ('flowers from all over the world'), no como un problema de encontrar colores.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "B": {
+            "explicacion": "Es lo opuesto a lo que dice el texto: el mercado tiene flores de todo el mundo, una oferta amplia, no limitada.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "Revisar los pedidos de los clientes ocurre de vuelta en la tienda, según el párrafo siguiente, no en el mercado.",
+            "patron_trampa": "referencia_incorrecta"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "habilidad": "inferencia",
+        "enunciado": "When working in her shop, Gina feels",
+        "opciones": {
+          "A": "Pleased she is able to sell so many flowers.",
+          "B": "Guilty about the high prices she has to charge.",
+          "C": "Positive about the challenges she has to deal with.",
+          "D": "Upset when people change their mind."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Gina dice que le gusta pensar cómo armar el mejor ramo posible para el presupuesto de cada cliente, y que no querría ningún otro trabajo — una actitud positiva ante el reto de ajustar calidad y precio.",
+        "distractores": {
+          "A": {
+            "explicacion": "El párrafo no se enfoca en el volumen de ventas, sino en cómo ajustar los arreglos al presupuesto de cada cliente.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "B": {
+            "explicacion": "El texto no menciona culpa; Gina simplemente explica que intenta conseguir el mejor precio posible, sin señal de sentirse mal por ello.",
+            "patron_trampa": "fuera_de_contexto"
+          },
+          "D": {
+            "explicacion": "El texto no describe esta situación como algo que la moleste; lo presenta como parte normal de ayudar al cliente a ajustar su pedido.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "habilidad": "inferencia",
+        "enunciado": "Which would be a good notice for the window of Gina's flower shop?",
+        "opciones": {
+          "A": "We can find any kind of flower that you'd like.",
+          "B": "All our flowers are locally grown!",
+          "C": "We can provide flowers for any occasion - large or small!",
+          "D": "Design your own flower display here!"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El texto muestra que Gina atiende desde pedidos pequeños hasta eventos grandes (bodas, hoteles, publicidad), lo que encaja con 'para cualquier ocasión, grande o pequeña'.",
+        "distractores": {
+          "A": {
+            "explicacion": "Contradice el texto directamente: 'It isn't always possible to find customers' choices — not all flowers are available all year.'",
+            "patron_trampa": "referencia_incorrecta"
+          },
+          "B": {
+            "explicacion": "Contradice el texto: las flores vienen de mercados con flores 'from all over the world' (de todo el mundo), no son de cultivo local.",
+            "patron_trampa": "referencia_incorrecta"
+          },
+          "D": {
+            "explicacion": "El texto no menciona que los clientes diseñen sus propios arreglos; es Gina y su equipo quienes arman los ramos.",
+            "patron_trampa": "fuera_de_contexto"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P1-GRUPO-013",
+    "modulo": "ingles",
+    "parte": 1,
+    "tipo": "emparejamiento_definiciones",
+    "tema": "personas y relaciones",
+    "nivel_mcer": "A1",
+    "banco_opciones": {
+      "A": "neighbour",
+      "B": "married",
+      "C": "single",
+      "D": "guess",
+      "E": "friend",
+      "F": "guest",
+      "G": "child",
+      "H": "cousin"
+    },
+    "descripciones": [
+      {
+        "num": 1,
+        "texto": "This person is your uncle's child.",
+        "respuesta_correcta": "H"
+      },
+      {
+        "num": 2,
+        "texto": "This person is someone you know well and that you like.",
+        "respuesta_correcta": "E"
+      },
+      {
+        "num": 3,
+        "texto": "This person is invited to visit you in your home.",
+        "respuesta_correcta": "F"
+      },
+      {
+        "num": 4,
+        "texto": "This is the person who lives next door to you.",
+        "respuesta_correcta": "A"
+      },
+      {
+        "num": 5,
+        "texto": "If you have a husband or wife you are this.",
+        "respuesta_correcta": "B"
+      }
+    ]
+  },
+  {
+    "id": "ING-P7-TEXTO-007",
+    "modulo": "ingles",
+    "parte": 7,
+    "tipo": "cloze_lexico",
+    "nivel_mcer": "B1",
+    "titulo": "The Pink Amazon River Dolphin",
+    "texto_con_huecos": "A special (0) type of dolphin can be found in the waters of the Amazon River in Brazil. These dolphins are [1] from other species because they are pink. Scientists are not certain about the [2] for their skin colour, but some experts believe it could be a result of the red-coloured sand in the river. However, other scientists think that the dolphins [3] pinker as they become older.\n\nAnother special [4] about these dolphins is that they can [5] their heads from side to side, while most species of dolphin cannot. In addition, they have hairs on their noses that help them [6] for food at the [7] of the river. These animals are an amazing sight, and are popular [8] visitors and tourists travelling on the Amazon River by boat.",
+    "huecos": [
+      {
+        "num": 1,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "different",
+          "B": "unusual",
+          "C": "opposite"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Different from' es la colocación fija para comparar algo con otras especies; el texto describe un rasgo distinto (el color), no un rasgo inusual en sí ni algo opuesto.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Unusual' no se combina naturalmente con 'from'; la colocación fija que compara con otras especies es 'different from'.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Opposite' significa 'contrario/opuesto', no simplemente 'distinto'; no encaja con lo que el texto describe (un color distinto, no opuesto).",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "aim",
+          "B": "answer",
+          "C": "reason"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Reason for' es la colocación correcta para explicar la causa de algo, en este caso el color de la piel de los delfines.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Aim' significa el objetivo de algo, no la causa de un rasgo físico; no encaja con 'for their skin colour'.",
+            "patron_trampa": "significado_cercano"
+          },
+          "B": {
+            "explicacion": "'Answer for' significa responder por algo (asumir responsabilidad), no explica una causa; la colocación correcta para causas es 'reason for'.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "grow",
+          "B": "develop",
+          "C": "increase"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Grow' seguido de un adjetivo (grow pinker) es la estructura correcta para describir un cambio gradual, igual que 'grow old' o 'grow tired'.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Develop' no se combina directamente con un adjetivo como 'pinker'; se usa con sustantivos (develop a habit), no para describir un cambio gradual de color.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Increase' se usa para cantidades que suben (increase in size/number), no para describir que algo se vuelve más de un color.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "reality",
+          "B": "fact",
+          "C": "information"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "'Another special fact about X' es la colocación natural para introducir un dato curioso adicional sobre algo.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Reality' es un sustantivo abstracto que no se usa con 'another special' seguido de 'about'; la colocación natural en este contexto es 'fact'.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Information' es incontable y no se usa con el artículo 'another' de esta manera; 'another special fact' es la colocación correcta.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "turn",
+          "B": "switch",
+          "C": "change"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Turn their heads' es la colocación fija para describir el movimiento físico de la cabeza de un lado a otro.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Switch' se usa para cambiar entre opciones o encender/apagar algo (switch the light), no para el movimiento físico de la cabeza.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Change' no es la colocación natural con 'heads' en este sentido físico; el verbo fijo para este movimiento es 'turn'.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 6,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "find",
+          "B": "catch",
+          "C": "search"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "'Search for' es la colocación correcta para describir la acción de buscar algo; 'search' se combina con la preposición 'for'.",
+        "distractores": {
+          "A": {
+            "explicacion": "'Find' no se usa con la preposición 'for'; 'find' ya implica el resultado exitoso de buscar, mientras que el texto describe la acción de buscar.",
+            "patron_trampa": "preposicion_incorrecta"
+          },
+          "B": {
+            "explicacion": "'Catch for food' no es una expresión correcta en inglés; 'catch' no se combina con 'for' de esta manera.",
+            "patron_trampa": "preposicion_incorrecta"
+          }
+        }
+      },
+      {
+        "num": 7,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "end",
+          "B": "bottom",
+          "C": "surface"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Los delfines usan los pelos de su hocico para sentir y buscar comida en el fondo del río, es decir, en el 'bottom' del río.",
+        "distractores": {
+          "A": {
+            "explicacion": "'End of the river' se refiere a dónde termina el río geográficamente (su desembocadura), no a la profundidad donde buscan comida.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "Es lo opuesto a lo que describe el texto: buscan comida usando pelos sensoriales en el hocico, lo cual sugiere que exploran el fondo del río, no la superficie.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 8,
+        "categoria": "coocurrencia",
+        "opciones": {
+          "A": "with",
+          "B": "between",
+          "C": "for"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Popular with' es la colocación fija para decir que algo o alguien le agrada a un grupo de personas (popular with tourists).",
+        "distractores": {
+          "B": {
+            "explicacion": "'Popular between' no es una colocación correcta en inglés; 'between' se usa para relaciones entre dos elementos específicos, no para popularidad general.",
+            "patron_trampa": "preposicion_incorrecta"
+          },
+          "C": {
+            "explicacion": "'Popular for' cambiaría el significado a 'conocido por' una razón específica, no a que le agraden a los visitantes; la colocación correcta aquí es 'popular with'.",
+            "patron_trampa": "preposicion_incorrecta"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ING-P4-TEXTO-011",
+    "modulo": "ingles",
+    "parte": 4,
+    "tipo": "cloze_gramatical",
+    "nivel_mcer": "B2",
+    "titulo": "Chimpanzee Beds",
+    "texto_con_huecos": "One morning, Koichiro Zamma, a zoologist at Japan's Kyoto University, awoke from a (0) deep sleep in the treetops of an African forest. For years, he had been [1] for the perfect night's sleep. His [2] sleep that night had not involved special mattresses or pillows. It had been on a construction of leaves, [3] together by twigs, and built by chimpanzees.\n\nZamma noticed that chimpanzees' beds are built to [4] the exact shape of their bodies. They're built high up in trees, and sway gently with the movement of the branches, which [5] sleep. He realized they could serve as a useful [6] for the perfect human bed.\n\nZamma [7] now designed a bed based on the principles of the chimpanzee bed. The mattress [8] a depression in the centre to imitate the natural dip in the chimpanzee bed. This is supported by a frame which [9] the bed to gently move. Some enthusiasts [10] the bed has transformed their sleeping habits.",
+    "huecos": [
+      {
+        "num": 1,
+        "categoria_gramatical": "coocurrencia",
+        "opciones": {
+          "A": "searching",
+          "B": "wanting",
+          "C": "inquiring",
+          "D": "attempting"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Search for' es la colocación correcta para expresar que alguien busca algo, en este caso el sueño perfecto.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Wanting for' no es la estructura correcta; 'want' se usa con objeto directo (want something), no con la preposición 'for' en este sentido.",
+            "patron_trampa": "preposicion_incorrecta"
+          },
+          "C": {
+            "explicacion": "'Inquire' se combina con 'about' (preguntar sobre algo), no con 'for' cuando significa 'buscar'.",
+            "patron_trampa": "preposicion_incorrecta"
+          },
+          "D": {
+            "explicacion": "'Attempt' no se combina con la preposición 'for'; se usa como verbo transitivo directo (attempt something) o con infinitivo (attempt to do something).",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 2,
+        "categoria_gramatical": "coocurrencia",
+        "opciones": {
+          "A": "refreshing",
+          "B": "restoring",
+          "C": "relieving",
+          "D": "renewing"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'A refreshing sleep' es la colocación natural en inglés para describir un sueño que deja a la persona descansada.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Restoring' no se usa como adjetivo antes de 'sleep' en inglés natural; la forma adjetival esperada sería 'restorative', no 'restoring'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Relieving sleep' no es una colocación natural en inglés; 'relieving' se usa típicamente con dolor o estrés (relieving pain), no con 'sleep'.",
+            "patron_trampa": "significado_cercano"
+          },
+          "D": {
+            "explicacion": "'Renewing sleep' no es la colocación natural; 'renewing' se usa más con membresías, contratos o energía, no específicamente con 'sleep' como adjetivo.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 3,
+        "categoria_gramatical": "coocurrencia",
+        "opciones": {
+          "A": "held",
+          "B": "gripped",
+          "C": "grasped",
+          "D": "pushed"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Held together by' es la expresión fija para describir cómo varios elementos se mantienen unidos por algo, en este caso ramitas.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Gripped together' no es la colocación fija en inglés para describir una estructura sostenida por otros elementos; la expresión correcta es 'held together'.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Grasped' implica sujetar algo con la mano de forma activa, no describe cómo una estructura se mantiene unida pasivamente; la colocación correcta es 'held together'.",
+            "patron_trampa": "significado_cercano"
+          },
+          "D": {
+            "explicacion": "'Pushed together' sugiere empujar elementos entre sí, no la idea de mantenerlos unidos estructuralmente; la expresión fija correcta es 'held together'.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 4,
+        "categoria_gramatical": "estructura_fija",
+        "opciones": {
+          "A": "fit",
+          "B": "coincide",
+          "C": "follow",
+          "D": "correspond"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Fit' es un verbo transitivo directo ('fit the shape') que no necesita preposición, coherente con la estructura de la oración ('built to ___ the exact shape').",
+        "distractores": {
+          "B": {
+            "explicacion": "'Coincide' es intransitivo y necesita la preposición 'with' (coincide with), pero la oración no trae 'with' después del espacio.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Follow the shape' no es la colocación natural para describir que algo encaja físicamente con una forma; el verbo correcto es 'fit'.",
+            "patron_trampa": "significado_cercano"
+          },
+          "D": {
+            "explicacion": "'Correspond' necesita la preposición 'to' (correspond to), pero la oración no la trae después del espacio.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 5,
+        "categoria_gramatical": "coocurrencia",
+        "opciones": {
+          "A": "aids",
+          "B": "helps",
+          "C": "supports",
+          "D": "reinforces"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Aids sleep' es la colocación formal directa (sin preposición ni objeto adicional) para decir que algo facilita el sueño, como 'aids digestion'.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Helps sleep' sin un objeto o 'to' suena incompleto en inglés formal; la forma transitiva directa y natural en este registro es 'aids sleep'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Supports sleep' no es la colocación más natural aquí; se usa más con estructuras físicas o argumentos, no con la idea de facilitar el sueño.",
+            "patron_trampa": "significado_cercano"
+          },
+          "D": {
+            "explicacion": "'Reinforces sleep' no es una colocación natural en inglés; 'reinforce' se usa con estructuras, ideas o comportamientos, no con el acto de dormir.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      },
+      {
+        "num": 6,
+        "categoria_gramatical": "coocurrencia",
+        "opciones": {
+          "A": "model",
+          "B": "standard",
+          "C": "imitation",
+          "D": "example"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'A model for' es la colocación fija para referirse a un patrón o plantilla en la que basarse para diseñar algo nuevo.",
+        "distractores": {
+          "B": {
+            "explicacion": "'A standard for' se refiere a un criterio de calidad o medida, no a un patrón o plantilla de diseño como el que describe el texto.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Imitation' necesita la preposición 'of', no 'for' (an imitation of something); la oración usa 'for', así que no encaja gramaticalmente.",
+            "patron_trampa": "preposicion_incorrecta"
+          },
+          "D": {
+            "explicacion": "'Example' normalmente se combina con 'of' (an example of), no con 'for' en este sentido.",
+            "patron_trampa": "preposicion_incorrecta"
+          }
+        }
+      },
+      {
+        "num": 7,
+        "categoria_gramatical": "tiempos_presente_perfecto",
+        "opciones": {
+          "A": "has",
+          "B": "had",
+          "C": "have",
+          "D": "having"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Se necesita presente perfecto ('has designed') porque el resultado (el diseño de la cama) sigue vigente hoy; 'Zamma' es tercera persona del singular, por lo que el auxiliar correcto es 'has'.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Had' formaría el pasado perfecto (had designed), que implicaría una acción anterior a otra acción pasada — pero el contexto describe un resultado que sigue vigente hoy, así que corresponde el presente perfecto ('has designed').",
+            "patron_trampa": "tiempo_verbal_incorrecto"
+          },
+          "C": {
+            "explicacion": "'Have' es la forma de presente perfecto para sujetos plurales o 'I/you/we/they', pero 'Zamma' es tercera persona del singular y exige 'has'.",
+            "patron_trampa": "concordancia_incorrecta"
+          },
+          "D": {
+            "explicacion": "'Having' es un gerundio y no puede formar por sí solo el tiempo presente perfecto sin un auxiliar; falta la estructura completa 'has/have + participio'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 8,
+        "categoria_gramatical": "coocurrencia",
+        "opciones": {
+          "A": "features",
+          "B": "promotes",
+          "C": "demonstrates",
+          "D": "consists"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Features' significa 'tiene como característica', el verbo correcto para describir que el colchón incluye una depresión en el centro.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Promotes a depression' no tiene sentido aquí: 'promote' significa impulsar o fomentar algo, no describir una característica física del colchón.",
+            "patron_trampa": "significado_cercano"
+          },
+          "C": {
+            "explicacion": "'Demonstrates' significa mostrar o probar algo mediante evidencia, no describir que el colchón tiene una característica física incorporada.",
+            "patron_trampa": "significado_cercano"
+          },
+          "D": {
+            "explicacion": "'Consists' necesita la preposición 'of' (consists of), pero la oración no la trae después del espacio, así que no encaja gramaticalmente.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 9,
+        "categoria_gramatical": "estructura_fija",
+        "opciones": {
+          "A": "allows",
+          "B": "admits",
+          "C": "encourages",
+          "D": "provides"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Allows + objeto + to + infinitivo' es la estructura correcta para decir que algo permite que otra cosa ocurra, en este caso que la cama se mueva.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Admits' no se combina con la estructura 'objeto + to + infinitivo' en este sentido; 'admit' se usa para reconocer algo o dejar entrar a alguien, no para permitir un movimiento físico.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Encourages' implica una promoción activa de una acción, pero un marco (frame) no anima activamente al colchón a moverse, simplemente lo permite físicamente; la palabra correcta es 'allows'.",
+            "patron_trampa": "significado_cercano"
+          },
+          "D": {
+            "explicacion": "'Provides' no se combina naturalmente con 'objeto + to + infinitivo' de esta manera; se usaría 'provides for the bed to move' o una estructura distinta.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          }
+        }
+      },
+      {
+        "num": 10,
+        "categoria_gramatical": "estructura_fija",
+        "opciones": {
+          "A": "claim",
+          "B": "respond",
+          "C": "promote",
+          "D": "recommend"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "'Claim that + cláusula' es la estructura correcta para reportar una afirmación hecha por alguien, en este caso que la cama transformó sus hábitos de sueño.",
+        "distractores": {
+          "B": {
+            "explicacion": "'Respond' se usa para contestar o reaccionar a algo específico (respond to a question), no para introducir una afirmación con 'that'.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "C": {
+            "explicacion": "'Promote' se usa con un objeto directo (promote the bed), no con una cláusula 'that' para reportar una afirmación.",
+            "patron_trampa": "estructura_gramatical_invalida"
+          },
+          "D": {
+            "explicacion": "'Recommend that' sugiere una acción deseable (recomendar hacer algo), pero aquí se está reportando una afirmación ya hecha por los entusiastas, no una recomendación.",
+            "patron_trampa": "significado_cercano"
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,1641 @@
+[
+  {
+    "id": "RC-GRUPO-067",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "El siguiente diagrama circular representa las ventas del último mes de diferentes modelos de smartphones en una tienda de tecnología: Modelo A = 25%, Modelo B = 25%, Modelo C = 20%, Modelo D = 20%, Modelo E = 10%.",
+    "tipo_visual": "grafica_datos",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "circular",
+      "series": [
+        {
+          "nombre": "Ventas por modelo",
+          "datos": [
+            {
+              "x": "Modelo A",
+              "y": 25
+            },
+            {
+              "x": "Modelo B",
+              "y": 25
+            },
+            {
+              "x": "Modelo C",
+              "y": 20
+            },
+            {
+              "x": "Modelo D",
+              "y": 20
+            },
+            {
+              "x": "Modelo E",
+              "y": 10
+            }
+          ]
+        }
+      ]
+    },
+    "preguntas": [
+      {
+        "id": "RC-ITEM-096",
+        "competencia": "interpretacion_representacion",
+        "contenido": "estadistica",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "Si la tienda vendió un total de 1.000 smartphones, ¿cuál de las siguientes afirmaciones se podría considerar como correcta?",
+        "opciones": {
+          "A": "Durante el último mes la tienda vendió la misma cantidad de smartphones modelo B y modelo C.",
+          "B": "Las unidades vendidas del modelo D son el doble de las unidades vendidas del modelo E.",
+          "C": "La suma de las unidades vendidas del modelo A y el modelo B son 50 smartphones.",
+          "D": "Durante el mes se vendieron más unidades del modelo D que del modelo C."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Sobre 1.000 unidades: Modelo D = 20%×1.000 = 200, Modelo E = 10%×1.000 = 100. En efecto 200 es el doble de 100.",
+        "distractores": {
+          "A": {
+            "explicacion": "B = 25%×1.000 = 250 y C = 20%×1.000 = 200; son cantidades distintas, no iguales.",
+            "patron_trampa": "lectura_invertida_datos"
+          },
+          "C": {
+            "explicacion": "A + B = 250 + 250 = 500 smartphones, no 50 — confunde el porcentaje (25%) con el resultado final en unidades.",
+            "patron_trampa": "confusion_variable"
+          },
+          "D": {
+            "explicacion": "D = 200 y C = 200: se vendieron las mismas unidades, no más de D que de C.",
+            "patron_trampa": "lectura_invertida_datos"
+          }
+        },
+        "dificultad": "baja"
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-068",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "La siguiente tabla muestra la población de cinco ciudades de una misma región metropolitana en dos años diferentes, así como su área en kilómetros cuadrados. El gobierno regional está analizando los cambios demográficos para planificar futuras inversiones en infraestructura y servicios públicos.",
+    "tipo_visual": "tabla",
+    "tabla_filas": {
+      "columnas": [
+        "Ciudad",
+        "Población 2010",
+        "Población 2020",
+        "Área (km²)"
+      ],
+      "filas": [
+        [
+          "A",
+          "500.000",
+          "530.000",
+          "100"
+        ],
+        [
+          "B",
+          "750.000",
+          "800.000",
+          "150"
+        ],
+        [
+          "C",
+          "300.000",
+          "280.000",
+          "80"
+        ],
+        [
+          "D",
+          "1.000.000",
+          "1.200.000",
+          "200"
+        ],
+        [
+          "E",
+          "600.000",
+          "620.000",
+          "120"
+        ]
+      ]
+    },
+    "preguntas": [
+      {
+        "id": "RC-ITEM-097",
+        "competencia": "interpretacion_representacion",
+        "contenido": "estadistica",
+        "tipo_contexto": "comunitario_social",
+        "enunciado": "A partir de la información suministrada, el gobierno puede afirmar que:",
+        "opciones": {
+          "A": "La ciudad que obtuvo un mayor crecimiento poblacional entre 2010 y 2020 es la misma que tiene mayor área.",
+          "B": "La ciudad E es la única ciudad que tuvo un decrecimiento poblacional en ese periodo de tiempo.",
+          "C": "Todas las ciudades del área metropolitana están creciendo al mismo ritmo.",
+          "D": "El crecimiento poblacional de las ciudades es directamente proporcional a las áreas de cada una."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La ciudad D creció 200.000 habitantes (1.000.000→1.200.000), el mayor crecimiento absoluto de las 5, y también tiene la mayor área (200 km²): ambos datos coinciden en la misma ciudad.",
+        "distractores": {
+          "B": {
+            "explicacion": "La única ciudad que decreció es C (de 300.000 a 280.000); la ciudad E en realidad creció (600.000→620.000).",
+            "patron_trampa": "lectura_invertida_datos"
+          },
+          "C": {
+            "explicacion": "Los crecimientos son distintos: A creció 30.000, B 50.000, C decreció 20.000, D 200.000 y E 20.000 — no hay un mismo ritmo.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "D": {
+            "explicacion": "Si fuera proporcional, crecimiento/área debería ser constante; sin embargo A da 300, B da 333, C da −250, D da 1.000 y E da 167 — no es constante.",
+            "patron_trampa": "causalidad_invalida"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-069",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Una empresa hizo un estudio para determinar qué tan conocido es el producto que ofrece. Dividió a los encuestados en tres grupos; los resultados fueron:",
+    "tipo_visual": "tabla",
+    "tabla_filas": {
+      "columnas": [
+        "Grupo",
+        "Total encuestadas",
+        "Conocen que existe el producto",
+        "Conocen y usan el producto"
+      ],
+      "filas": [
+        [
+          "I",
+          "200",
+          "110",
+          "70"
+        ],
+        [
+          "II",
+          "500",
+          "250",
+          "220"
+        ],
+        [
+          "III",
+          "150",
+          "120",
+          "20"
+        ]
+      ]
+    },
+    "preguntas": [
+      {
+        "id": "RC-ITEM-098",
+        "competencia": "interpretacion_representacion",
+        "contenido": "estadistica",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "Una persona que lee esta información asegura que el producto es de aceptación del público, porque aproximadamente:",
+        "opciones": {
+          "A": "El 42% de las personas encuestadas usa el producto.",
+          "B": "El 60% de las personas encuestadas conoce que existe el producto.",
+          "C": "El 65% de las personas que conoce el producto lo usa.",
+          "D": "El 37% de las personas encuestadas no conoce el producto."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Sumando los tres grupos: 480 personas conocen el producto (110+250+120) y, de ellas, 310 lo usan (70+220+20). 310÷480 ≈ 0,646, es decir, cerca del 65%.",
+        "distractores": {
+          "A": {
+            "explicacion": "310 personas usan el producto de un total de 850 encuestadas: 310÷850 ≈ 36,5%, no 42%.",
+            "patron_trampa": "denominador_o_escala_incorrecta"
+          },
+          "B": {
+            "explicacion": "480 de 850 encuestados conocen el producto: 480÷850 ≈ 56,5%, no 60%.",
+            "patron_trampa": "redondeo_erroneo"
+          },
+          "D": {
+            "explicacion": "850−480 = 370 personas no conocen el producto: 370÷850 ≈ 43,5%, no 37%.",
+            "patron_trampa": "operacion_incorrecta"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "RC-ITEM-099",
+        "competencia": "argumentacion",
+        "contenido": "estadistica",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "Una persona asegura que en el grupo III se conoce mejor el producto que en el grupo I (contando tanto a quienes lo conocen sin usarlo como a quienes lo conocen y lo usan). ¿Estaría usted de acuerdo con esto?",
+        "opciones": {
+          "A": "Sí, porque la cantidad de personas que conocen que existe el producto, pero no lo usan, es mayor en el grupo III que en el grupo I.",
+          "B": "No, porque la cantidad de personas que conocen que existe el producto en el grupo I corresponde al 21%, mientras que en el grupo III corresponde al 16%, del total de personas que conoce que existe el producto.",
+          "C": "Sí, porque la cantidad de personas que conocen el producto en el grupo III corresponde aproximadamente al 93%, mientras que en el grupo I corresponde al 90% de las personas encuestadas de cada grupo.",
+          "D": "No, porque la relación entre la cantidad de personas que conocen que existe el producto y las que usan el producto es mayor en el grupo I que en el III."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Sumando en cada grupo quienes conocen-sin-usar y quienes conocen-y-usan: grupo I = (110+70)/200 = 90%; grupo III = (120+20)/150 ≈ 93,3%. El grupo III sí tiene una proporción de conocimiento total (90% vs. 93%) apenas mayor que el grupo I.",
+        "distractores": {
+          "A": {
+            "explicacion": "Es un dato cierto (100 en el grupo III frente a 40 en el grupo I), pero compara cantidades absolutas, no proporciones — no es la razón por la que el grupo III 'conoce mejor' el producto proporcionalmente.",
+            "patron_trampa": "denominador_o_escala_incorrecta"
+          },
+          "B": {
+            "explicacion": "Esos porcentajes (21% y 16%) no corresponden a ninguna proporción real de la tabla: 110/480≈23% y 120/480=25%, ambos distintos de los valores citados.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "Esa relación (usan/conocen) sí es mayor en el grupo I (70/110≈64%) que en el III (20/120≈17%), pero mide qué tan bien se convierte el conocimiento en uso, no qué tan bien se conoce el producto.",
+            "patron_trampa": "confusion_variable"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-070",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Al hacer una encuesta en un curso, se determinó que la mayoría de los estudiantes tiene 15 años de edad. Se presentan 4 gráficas candidatas de barras (número de estudiantes por edad, de 13 a 17 años):\nGráfica A: alturas 2, 4, 8, 3, 4 (edades 13,14,15,16,17).\nGráfica B: alturas 6, 1, 9, 1, 3.\nGráfica C: alturas 10, 8, 7, 5, 4.\nGráfica D: alturas 1, 2, 10, 2, 1.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-100",
+        "competencia": "interpretacion_representacion",
+        "contenido": "estadistica",
+        "tipo_contexto": "comunitario_social",
+        "enunciado": "¿Cuál de las siguientes gráficas NO puede corresponder a la distribución de edades de los estudiantes del curso?",
+        "opciones": {
+          "A": "Gráfica A (alturas 2, 4, 8, 3, 4 para 13, 14, 15, 16, 17 años).",
+          "B": "Gráfica B (alturas 6, 1, 9, 1, 3 para 13, 14, 15, 16, 17 años).",
+          "C": "Gráfica C (alturas 10, 8, 7, 5, 4 para 13, 14, 15, 16, 17 años).",
+          "D": "Gráfica D (alturas 1, 2, 10, 2, 1 para 13, 14, 15, 16, 17 años)."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "En la gráfica C, la edad con más estudiantes es 13 años (10 estudiantes), no 15 años (que solo tiene 7) — es la única de las cuatro donde 15 años NO es la edad más frecuente, así que no puede representar 'la mayoría tiene 15 años'.",
+        "distractores": {
+          "A": {
+            "explicacion": "15 años es la edad más frecuente (8 de 21 estudiantes), consistente con el enunciado.",
+            "patron_trampa": "lectura_invertida_datos"
+          },
+          "B": {
+            "explicacion": "15 años es la edad más frecuente (9 de 20 estudiantes), consistente con el enunciado.",
+            "patron_trampa": "lectura_invertida_datos"
+          },
+          "D": {
+            "explicacion": "15 años concentra una mayoría clara (10 de 16 estudiantes, 62,5%), totalmente consistente con el enunciado.",
+            "patron_trampa": "lectura_invertida_datos"
+          }
+        },
+        "dificultad": "media",
+        "opciones_imagen": {
+          "A": "rc-uis-q5-a.png",
+          "B": "rc-uis-q5-b.png",
+          "C": "rc-uis-q5-c.png",
+          "D": "rc-uis-q5-d.png"
+        }
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-071",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Un equipo de científicos necesita convertir entre las escalas de temperatura Celsius y Fahrenheit. La siguiente tabla muestra mediciones tomadas en cinco ciudades diferentes. Se presentan además 4 gráficas candidatas de la relación entre °C (eje x) y °F (eje y):\nGráfica A: recta creciente que pasa exactamente por (0,32), (10,50), (20,68), (30,86), (40,104).\nGráfica B: recta decreciente con los mismos 5 valores pero invertidos en el eje (de (0,104) a (40,32)).\nGráfica C: recta y = x, pasa por (0,0), (10,10) ... (40,40), ignorando los datos de la tabla.\nGráfica D: recta decreciente de (0,40) a (40,0).",
+    "tipo_visual": "tabla",
+    "tabla_filas": {
+      "columnas": [
+        "Ciudad",
+        "Celsius (°C)",
+        "Fahrenheit (°F)"
+      ],
+      "filas": [
+        [
+          "Reykjavik",
+          "0",
+          "32"
+        ],
+        [
+          "Londres",
+          "20",
+          "68"
+        ],
+        [
+          "Roma",
+          "40",
+          "104"
+        ],
+        [
+          "Madrid",
+          "10",
+          "50"
+        ],
+        [
+          "Sao Pablo",
+          "30",
+          "86"
+        ]
+      ]
+    },
+    "preguntas": [
+      {
+        "id": "RC-ITEM-101",
+        "competencia": "interpretacion_representacion",
+        "contenido": "algebra_calculo",
+        "tipo_contexto": "comunitario_social",
+        "enunciado": "¿Cuál de las siguientes gráficas representa mejor la ecuación que relaciona la temperatura en grados Celsius (°C) y grados Fahrenheit (°F)?",
+        "opciones": {
+          "A": "Gráfica A: recta creciente que pasa por (0,32), (10,50), (20,68), (30,86) y (40,104).",
+          "B": "Gráfica B: recta decreciente con los mismos valores invertidos.",
+          "C": "Gráfica C: recta y = x, sin usar los datos de la tabla.",
+          "D": "Gráfica D: recta decreciente de (0,40) a (40,0)."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La relación real es F = 1,8×C + 32: para C=0,10,20,30,40 da exactamente F=32,50,68,86,104, los 5 puntos de la tabla. Solo la gráfica A pasa por los 5 puntos reales, con pendiente positiva (a mayor °C, mayor °F).",
+        "distractores": {
+          "B": {
+            "explicacion": "Usa los valores correctos pero en orden invertido (decreciente); la relación real es creciente, no decreciente.",
+            "patron_trampa": "lectura_invertida_datos"
+          },
+          "C": {
+            "explicacion": "Ignora por completo los datos de la tabla y asume F=C, lo cual ni siquiera es cierto en el primer punto (0°C no equivale a 0°F, sino a 32°F).",
+            "patron_trampa": "dato_no_disponible_o_supuesto"
+          },
+          "D": {
+            "explicacion": "Tiene pendiente negativa; la tabla muestra que F aumenta cuando C aumenta, no lo contrario.",
+            "patron_trampa": "lectura_invertida_datos"
+          }
+        },
+        "dificultad": "media",
+        "opciones_imagen": {
+          "A": "rc-uis-q6-a.png",
+          "B": "rc-uis-q6-b.png",
+          "C": "rc-uis-q6-c.png",
+          "D": "rc-uis-q6-d.png"
+        }
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-072",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "En la tabla se presentan las ciudades de origen, el destino y la frecuencia semanal de algunos vuelos ofrecidos por una aerolínea. Se presentan 4 gráficas candidatas:\nGráfica A: barras horizontales con los valores correctos (Bucaramanga–Bogotá=12, Medellín–Barranquilla=14, San Andrés–Barranquilla=7, Pereira–Cartagena=3, Bogotá–Cali=27).\nGráfica B: gráfica de líneas con los mismos 5 valores pero reasignados a rutas distintas (aprox. Bucaramanga–Bogotá=27, Medellín–Barranquilla=3, San Andrés–Barranquilla=7, Pereira–Cartagena=14, Bogotá–Cali=12).\nGráfica C: gráfica circular que etiqueta 12%, 14%, 7%, 3% y 27% directamente, sin recalcular el porcentaje real de cada ruta sobre el total de 63 vuelos semanales.\nGráfica D: barras verticales con los mismos valores reasignados incorrectamente de la gráfica B.",
+    "tipo_visual": "tabla",
+    "tabla_filas": {
+      "columnas": [
+        "Origen",
+        "Destino",
+        "Frecuencia (por semana)"
+      ],
+      "filas": [
+        [
+          "Bucaramanga",
+          "Bogotá",
+          "12"
+        ],
+        [
+          "Medellín",
+          "Barranquilla",
+          "14"
+        ],
+        [
+          "San Andrés",
+          "Barranquilla",
+          "7"
+        ],
+        [
+          "Pereira",
+          "Cartagena",
+          "3"
+        ],
+        [
+          "Bogotá",
+          "Cali",
+          "27"
+        ]
+      ]
+    },
+    "preguntas": [
+      {
+        "id": "RC-ITEM-102",
+        "competencia": "interpretacion_representacion",
+        "contenido": "estadistica",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "La gráfica que mejor representa la información registrada en la tabla es:",
+        "opciones": {
+          "A": "Gráfica A: barras horizontales con los 5 valores correctos, cada uno frente a su ruta real.",
+          "B": "Gráfica B: gráfica de líneas con los mismos valores reasignados a rutas distintas.",
+          "C": "Gráfica C: gráfica circular que usa 12, 14, 7, 3 y 27 directamente como porcentajes.",
+          "D": "Gráfica D: barras verticales con los valores reasignados igual que en la gráfica B."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La gráfica A es la única que asigna cada frecuencia real (12, 14, 7, 3, 27) a su ruta correcta.",
+        "distractores": {
+          "B": {
+            "explicacion": "Los 5 valores están mal emparejados con las rutas (por ejemplo, le asigna 27 a Bucaramanga–Bogotá, que en realidad es 12) y usa una línea, sugiriendo una tendencia continua entre rutas que no tienen relación de orden.",
+            "patron_trampa": "lectura_invertida_datos"
+          },
+          "C": {
+            "explicacion": "Trata las frecuencias (12,14,7,3,27, que suman 63 vuelos) como si ya fueran porcentajes de un total de 100, sin dividir cada una entre 63 para obtener el porcentaje real.",
+            "patron_trampa": "denominador_o_escala_incorrecta"
+          },
+          "D": {
+            "explicacion": "Tiene el mismo error de emparejamiento ruta–valor que la gráfica B, solo que representado con barras verticales.",
+            "patron_trampa": "lectura_invertida_datos"
+          }
+        },
+        "dificultad": "media",
+        "opciones_imagen": {
+          "A": "rc-uis-q7-a.png",
+          "B": "rc-uis-q7-b.png",
+          "C": "rc-uis-q7-c.png",
+          "D": "rc-uis-q7-d.png"
+        }
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-073",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "En la pastelería ABC se vendieron 4 tortas elaboradas con un porcentaje de azúcar más un porcentaje de leche, que juntos suman 100%. Se presentan 4 gráficas candidatas del valor de la torta en función del porcentaje de leche:\nGráfica A: curva cóncava decreciente, de $60.000 en 0% de leche a cerca de $15.000 en 100% (no coincide exactamente con los 4 puntos reales).\nGráfica B: recta decreciente que va exactamente de $60.000 (0% leche) a $20.000 (100% leche), pasando por (30%,$48.000) y (70%,$32.000).\nGráfica C: curva creciente, de $20.000 a $60.000 (dirección invertida).\nGráfica D: recta creciente, de $20.000 a $60.000 (dirección invertida).",
+    "tipo_visual": "tabla",
+    "tabla_filas": {
+      "columnas": [
+        "Porcentaje de azúcar",
+        "Porcentaje de leche",
+        "Valor de la torta"
+      ],
+      "filas": [
+        [
+          "30%",
+          "70%",
+          "$32.000"
+        ],
+        [
+          "100%",
+          "0%",
+          "$60.000"
+        ],
+        [
+          "0%",
+          "100%",
+          "$20.000"
+        ],
+        [
+          "70%",
+          "30%",
+          "$48.000"
+        ]
+      ]
+    },
+    "preguntas": [
+      {
+        "id": "RC-ITEM-103",
+        "competencia": "interpretacion_representacion",
+        "contenido": "algebra_calculo",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "La gráfica que muestra la relación entre el porcentaje de leche de la torta y su respectivo valor es:",
+        "opciones": {
+          "A": "Gráfica A: curva cóncava decreciente de $60.000 a $15.000.",
+          "B": "Gráfica B: recta decreciente de $60.000 (0% leche) a $20.000 (100% leche).",
+          "C": "Gráfica C: curva creciente de $20.000 a $60.000.",
+          "D": "Gráfica D: recta creciente de $20.000 a $60.000."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Con leche% en el eje x, valor = 60.000 − 400×(%leche) es exactamente lineal: en 0%→$60.000, en 30%→60.000−12.000=$48.000, en 70%→60.000−28.000=$32.000, en 100%→60.000−40.000=$20.000. Los 4 puntos reales caen exactamente sobre una recta, no sobre una curva.",
+        "distractores": {
+          "A": {
+            "explicacion": "Aunque decrece en la dirección correcta, es una curva y no pasa exactamente por los 4 puntos reales (por ejemplo, en 30% debería dar exactamente $48.000, un valor sobre una recta, no sobre una curva cóncava).",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          },
+          "C": {
+            "explicacion": "Muestra el valor aumentando con el porcentaje de leche, pero los datos reales muestran justo lo contrario: a mayor % de leche, menor valor de la torta (100% leche es la más barata, $20.000).",
+            "patron_trampa": "lectura_invertida_datos"
+          },
+          "D": {
+            "explicacion": "Mismo error de dirección que la gráfica C: el valor sube con el % de leche cuando en realidad baja.",
+            "patron_trampa": "lectura_invertida_datos"
+          }
+        },
+        "dificultad": "alta",
+        "opciones_imagen": {
+          "A": "rc-uis-q8-a.png",
+          "B": "rc-uis-q8-b.png",
+          "C": "rc-uis-q8-c.png",
+          "D": "rc-uis-q8-d.png"
+        }
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-074",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Una finca ganadera está realizando un censo de sus 100 caballos para determinar la distribución por género y color. El administrador solo cuenta con esta información: total de caballos = 100; 40% de los caballos son hembras; 20% de las hembras son marrones; 50% de los machos son negros. Se presentan 4 tablas candidatas (filas = Hembra/Macho, columnas = Marrón/Negro):\nTabla A: Hembra 8/32, Macho 30/30.\nTabla B: Hembra 20/20, Macho 30/30.\nTabla C: Hembra 15/15, Macho 10/50.\nTabla D: Hembra 10/30, Macho 30/30.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-104",
+        "competencia": "interpretacion_representacion",
+        "contenido": "estadistica",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "¿Cuál de las siguientes tablas representa correctamente la información obtenida de esta finca?",
+        "opciones": {
+          "A": "Tabla A: Hembra Marrón=8, Hembra Negro=32; Macho Marrón=30, Macho Negro=30.",
+          "B": "Tabla B: Hembra Marrón=20, Hembra Negro=20; Macho Marrón=30, Macho Negro=30.",
+          "C": "Tabla C: Hembra Marrón=15, Hembra Negro=15; Macho Marrón=10, Macho Negro=50.",
+          "D": "Tabla D: Hembra Marrón=10, Hembra Negro=30; Macho Marrón=30, Macho Negro=30."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Hembras = 40% de 100 = 40; marrones entre ellas = 20% de 40 = 8, así que negras = 40−8 = 32. Machos = 60; negros entre ellos = 50% de 60 = 30, así que marrones = 60−30 = 30. Total: 8+32+30+30=100. ✓",
+        "distractores": {
+          "B": {
+            "explicacion": "Reparte las 40 hembras en partes iguales (20/20), ignorando por completo el dato de que solo el 20% de las hembras son marrones.",
+            "patron_trampa": "reparto_proporcional_mal_aplicado"
+          },
+          "C": {
+            "explicacion": "Las hembras suman solo 30 (15+15) en vez de 40, y los machos suman 60 (10+50) — el total de hembras no corresponde al 40% de 100 caballos.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "El total de hembras (40) y de machos negros (30) sí son correctos, pero calcula 10 hembras marrones en vez de 8 (usa un porcentaje distinto al 20% dado).",
+            "patron_trampa": "redondeo_erroneo"
+          }
+        },
+        "dificultad": "alta",
+        "opciones_imagen": {
+          "A": "rc-uis-q9-a.png",
+          "B": "rc-uis-q9-b.png",
+          "C": "rc-uis-q9-c.png",
+          "D": "rc-uis-q9-d.png"
+        }
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-075",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Un restaurante de la ciudad distribuye su consumo de energía eléctrica así: Iluminación = 30%, Aire acondicionado = 30%, Refrigeradores = 20%, Cocina = 10%, Cámaras de vigilancia = 10%. Si durante un día de trabajo consumen 1.000 MWh en total, se presentan 4 tablas candidatas del consumo de cada factor en MWh:\nTabla A: Cocina=10, Iluminación=30, Refrigeradores=20, Aire Acondicionado=30, Cámaras=10 (usa los porcentajes directamente como MWh).\nTabla B: Cocina=100, Iluminación=300, Refrigeradores=200, Aire Acondicionado=300, Cámaras=100.\nTabla C: las 5 categorías reparten 20 MWh cada una.\nTabla D: valores arbitrarios crecientes 10, 20, 30, 40, 50 MWh.",
+    "tipo_visual": "grafica_datos",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "circular",
+      "series": [
+        {
+          "nombre": "Consumo eléctrico por factor",
+          "datos": [
+            {
+              "x": "Iluminación",
+              "y": 30
+            },
+            {
+              "x": "Aire Acondicionado",
+              "y": 30
+            },
+            {
+              "x": "Refrigeradores",
+              "y": 20
+            },
+            {
+              "x": "Cocina",
+              "y": 10
+            },
+            {
+              "x": "Cámaras de vigilancia",
+              "y": 10
+            }
+          ]
+        }
+      ]
+    },
+    "preguntas": [
+      {
+        "id": "RC-ITEM-105",
+        "competencia": "interpretacion_representacion",
+        "contenido": "estadistica",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "Si durante un día de trabajo consumen 1.000 MWh, la tabla que mejor representa el consumo de energía es:",
+        "opciones": {
+          "A": "Tabla A: Cocina=10, Iluminación=30, Refrigeradores=20, Aire Acondicionado=30, Cámaras=10 MWh.",
+          "B": "Tabla B: Cocina=100, Iluminación=300, Refrigeradores=200, Aire Acondicionado=300, Cámaras=100 MWh.",
+          "C": "Tabla C: cada una de las 5 categorías consume 20 MWh.",
+          "D": "Tabla D: 10, 20, 30, 40 y 50 MWh respectivamente."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Cada porcentaje se multiplica por el total de 1.000 MWh: Cocina 10%→100, Iluminación 30%→300, Refrigeradores 20%→200, Aire Acondicionado 30%→300, Cámaras 10%→100. Suman 1.000 MWh en total.",
+        "distractores": {
+          "A": {
+            "explicacion": "Usa el porcentaje (10, 30, 20, 30, 10) directamente como si fueran los MWh, sin multiplicarlo por el total de 1.000 MWh.",
+            "patron_trampa": "unidades_no_convertidas"
+          },
+          "C": {
+            "explicacion": "Reparte el consumo en partes iguales entre las 5 categorías, ignorando los porcentajes reales de la gráfica.",
+            "patron_trampa": "reparto_proporcional_mal_aplicado"
+          },
+          "D": {
+            "explicacion": "Los valores (10,20,30,40,50, que suman apenas 150) no corresponden a ningún porcentaje de la gráfica ni al total de 1.000 MWh.",
+            "patron_trampa": "dato_no_disponible_o_supuesto"
+          }
+        },
+        "dificultad": "media",
+        "opciones_imagen": {
+          "A": "rc-uis-q10-a.png",
+          "B": "rc-uis-q10-b.png",
+          "C": "rc-uis-q10-c.png",
+          "D": "rc-uis-q10-d.png"
+        }
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-076",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Las distancias en el espacio se miden en años luz: un año luz equivale a lo que la luz recorre en un año, aproximadamente 9,46×10^12 km. Un estudiante sabe que el diámetro de la Vía Láctea mide aproximadamente 10^21 metros y, para hallar a cuántos años luz equivale, hace la siguiente operación (mezclando metros con kilómetros sin convertir):",
+    "tipo_visual": "ninguno",
+    "formula_latex": "\\dfrac{10^{21}}{9.46\\times10^{12}} = \\dfrac{10^{9}}{9.46} = 106\\ \\text{millones}",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-106",
+        "competencia": "argumentacion",
+        "contenido": "algebra_calculo",
+        "tipo_contexto": "comunitario_social",
+        "enunciado": "El estudiante concluye que el diámetro es 106 millones de años luz. El anterior procedimiento es incorrecto, porque:",
+        "opciones": {
+          "A": "El denominador de la fracción debe expresarse en potencias de diez.",
+          "B": "No se tiene en cuenta la equivalencia de unidades entre las magnitudes involucradas.",
+          "C": "Para obtener el diámetro se debe determinar el producto entre ambas medidas relacionadas.",
+          "D": "El resultado no se expresa en potencias de diez como los otros datos."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El numerador (10^21) está en METROS y el denominador (9,46×10^12) está en KILÓMETROS por año luz: son unidades distintas que deben igualarse antes de dividir (10^21 m = 10^18 km). Sin esa conversión, el resultado queda 1.000 veces más grande de lo real (el valor correcto es de unos 105.700 años luz, no 106 millones).",
+        "distractores": {
+          "A": {
+            "explicacion": "El denominador (9,46×10^12) ya está expresado en notación de potencias de diez; ese no es el problema del procedimiento.",
+            "patron_trampa": "confusion_variable"
+          },
+          "C": {
+            "explicacion": "Dividir (no multiplicar) es la operación correcta para convertir una distancia total en 'número de años luz que caben en ella'; el error no está en la operación sino en las unidades usadas.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "El resultado (106 millones) sí puede expresarse en potencia de diez si se quiere (1,06×10^8); no expresarlo así no es la causa del error numérico.",
+            "patron_trampa": "confusion_variable"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-077",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "El capitán de una embarcación debe dirigir su barco desde el puerto O hasta el puerto Q, pasando por el puerto P. En el trayecto de O a P mantuvo una velocidad constante de 27 nudos; al zarpar de P hacia Q, su velocímetro se averió y usó un repuesto que marcó 50 km/h durante todo el trayecto. Llamando X1 a la distancia de O a P y X2 a la distancia de P a Q, el capitán calculó el tiempo total de navegación así (factorizando la velocidad de ambos tramos como si fuera la misma):",
+    "tipo_visual": "diagrama_esquematico",
+    "formula_latex": "X_1 = 27\\ \\text{nudos}\\times t_1, \\quad X_2 = 50\\,\\tfrac{km}{h}\\times t_2 \\quad\\Rightarrow\\quad X_1+X_2 = 27\\ \\text{nudos}\\times (t_1+t_2)",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-107",
+        "competencia": "argumentacion",
+        "contenido": "algebra_calculo",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "¿Cuál de las siguientes opciones justifica el paso de 'factorización de velocidad' realizado por el capitán?",
+        "opciones": {
+          "A": "Que se pueda transformar nudos a km/h.",
+          "B": "Que se conozcan los tiempos de viaje 1 y 2.",
+          "C": "Que el tiempo de viaje 1 sea igual al tiempo de viaje 2.",
+          "D": "Que la velocidad en el trayecto O a P sea igual que la de P a Q."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Para poder sacar '27 nudos' como factor común de X1+X2 = 27·t1 + 50·t2, se necesitaría que el coeficiente de t2 también fuera 27 nudos — es decir, que la velocidad de ambos tramos fuera la misma. Como el tramo P–Q en realidad va a 50 km/h (una velocidad y una unidad distintas), esa factorización no es válida tal como está planteada.",
+        "distractores": {
+          "A": {
+            "explicacion": "Convertir nudos a km/h sería necesario para poder sumar X1 y X2 correctamente, pero no es lo que 'justifica' sacar 27 nudos como factor común de ambos términos.",
+            "patron_trampa": "confusion_variable"
+          },
+          "B": {
+            "explicacion": "Conocer los tiempos permitiría calcular X1 y X2 por separado, pero no es la condición que habilita factorizar una misma velocidad de los dos términos.",
+            "patron_trampa": "dato_no_disponible_o_supuesto"
+          },
+          "C": {
+            "explicacion": "Que los tiempos sean iguales no tiene relación con poder factorizar la velocidad; lo que se necesita igual es la velocidad, no el tiempo.",
+            "patron_trampa": "confusion_variable"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "contexto_rc",
+    "imagen": "rc-uis-q12-diagrama.png",
+    "visual_descripcion": "Diagrama esquemático de la ruta del barco: puerto O, luego puerto P, luego puerto Q, con el tramo O-P recorrido a 27 nudos y el tramo P-Q a 50 km/h."
+  },
+  {
+    "id": "RC-GRUPO-078",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Una tienda de ropa ofrece un descuento del 30% en todas sus prendas durante una semana. Adicionalmente, si el cliente paga con la tarjeta de crédito del almacén, se resta un 10% adicional sobre el valor de la prenda ya con el primer descuento aplicado. Un cliente compra una chaqueta que originalmente costaba $200.000 y paga con la tarjeta de crédito del almacén.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-108",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "contexto_aplicado",
+        "tipo_contexto": "familiar_personal",
+        "enunciado": "¿Qué procedimiento debe realizar el cliente para conocer el valor final de la compra, si paga con la tarjeta de crédito del almacén?",
+        "opciones": {
+          "A": "Valor final = 140.000 − {[200.000 − (200.000 × 0,3)] × 0,1}",
+          "B": "Valor final = [200.000 − (200.000 × 0,3 × 0,1)]",
+          "C": "Valor final = (200.000 × 0,3 × 0,1)",
+          "D": "Valor final = 140.000 − {[200.000 − (200.000 × 0,1)] × 0,3}"
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Primero se aplica el 30%: 200.000 − (200.000×0,3) = 140.000. Sobre ese valor ya descontado se aplica el 10% adicional: 140.000×0,1 = 14.000, que se resta: 140.000 − 14.000 = $126.000. La opción A calcula exactamente ese procedimiento en dos pasos secuenciales.",
+        "distractores": {
+          "B": {
+            "explicacion": "Multiplica 0,3×0,1=0,03 y resta solo un 3% de 200.000 (=194.000), tratando los dos descuentos como si se combinaran en uno solo del 3%, en vez de aplicarlos en cascada.",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          },
+          "C": {
+            "explicacion": "Solo calcula 200.000×0,3×0,1 = 6.000, que no es el valor final de la compra sino apenas un producto intermedio sin sentido en el contexto.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "Aplica primero el 10% (200.000−20.000=180.000) y luego el 30% sobre ese resultado (180.000×0,3=54.000; 140.000−54.000=86.000): invierte el orden de los descuentos que exige el enunciado (primero 30%, luego 10% adicional).",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-079",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Una empresa de transporte debe enviar 180 cajas desde su bodega principal a tres sucursales, de forma proporcional al número de empleados de cada una.",
+    "tipo_visual": "tabla",
+    "tabla_filas": {
+      "columnas": [
+        "Sucursal",
+        "Número de empleados"
+      ],
+      "filas": [
+        [
+          "A",
+          "20"
+        ],
+        [
+          "B",
+          "30"
+        ],
+        [
+          "C",
+          "40"
+        ]
+      ]
+    },
+    "preguntas": [
+      {
+        "id": "RC-ITEM-109",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "contexto_aplicado",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "El gerente de logística sumó el total de empleados de las 3 sucursales, dividió las 180 cajas entre ese total y multiplicó el resultado por el número de empleados de la sucursal B. El total de cajas que deben ser enviadas a la sucursal B son:",
+        "opciones": {
+          "A": "30 cajas",
+          "B": "90 cajas",
+          "C": "60 cajas",
+          "D": "120 cajas"
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Total de empleados = 20+30+40 = 90. Cajas por empleado = 180÷90 = 2. Cajas para B = 2×30 = 60.",
+        "distractores": {
+          "A": {
+            "explicacion": "Es el número de empleados de la sucursal B, no la cantidad de cajas que le corresponden.",
+            "patron_trampa": "confusion_variable"
+          },
+          "B": {
+            "explicacion": "Corresponde a repartir 180 cajas usando 20 (el total de A) como divisor en vez de 90 (el total de las 3 sucursales): 180÷20=9, 9×30 no da 90 tampoco — es un valor que no se sostiene con el procedimiento correcto.",
+            "patron_trampa": "denominador_o_escala_incorrecta"
+          },
+          "D": {
+            "explicacion": "Corresponde a multiplicar por el número de empleados de la sucursal C (40) en vez de B (30): 2×... un cálculo que mezcla los datos de sucursales distintas.",
+            "patron_trampa": "confusion_variable"
+          }
+        },
+        "dificultad": "baja"
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-080",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Una aerolínea ofrece tarifas según el trayecto. Ofrece un descuento de $10.000 en el trayecto I y de $30.000 en el trayecto III, a una empresa de Bogotá que enviará empleados a capacitaciones. La empresa dispone de $5.500.000 y considera 3 opciones: Opción 1: 15 empleados a Manizales y 10 a Cartagena. Opción 2: 10 empleados a Manizales y 14 a Cartagena. Opción 3: 5 empleados a Manizales y 16 a Cartagena.",
+    "tipo_visual": "tabla",
+    "tabla_filas": {
+      "columnas": [
+        "Número",
+        "Trayecto",
+        "Precio (pesos)"
+      ],
+      "filas": [
+        [
+          "I",
+          "Bogotá – Manizales",
+          "210.000"
+        ],
+        [
+          "II",
+          "Cartagena – Medellín",
+          "234.000"
+        ],
+        [
+          "III",
+          "Bogotá – Cartagena",
+          "280.000"
+        ]
+      ]
+    },
+    "preguntas": [
+      {
+        "id": "RC-ITEM-110",
+        "competencia": "argumentacion",
+        "contenido": "contexto_aplicado",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "La(s) opción(es) que le permite(n) a la empresa hacer uso de la totalidad del presupuesto de $5.500.000 es (son):",
+        "opciones": {
+          "A": "Opción 1 solamente.",
+          "B": "Opciones 1 y 2 solamente.",
+          "C": "Opción 2 solamente.",
+          "D": "Opciones 2 y 3 solamente."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Con descuento, Manizales cuesta $200.000 y Cartagena $250.000 por persona. Opción 1: 15×200.000 + 10×250.000 = 3.000.000+2.500.000 = $5.500.000. Opción 2: 10×200.000 + 14×250.000 = 2.000.000+3.500.000 = $5.500.000. Opción 3: 5×200.000 + 16×250.000 = 1.000.000+4.000.000 = $5.000.000 (no agota el presupuesto). Solo las opciones 1 y 2 usan exactamente $5.500.000.",
+        "distractores": {
+          "A": {
+            "explicacion": "La opción 2 también usa exactamente $5.500.000, así que no es la única.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "C": {
+            "explicacion": "La opción 1 también usa exactamente $5.500.000, así que la opción 2 no es la única que agota el presupuesto.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "D": {
+            "explicacion": "La opción 3 solo suma $5.000.000, no agota el presupuesto; en cambio la opción 1 sí lo hace y quedó excluida por error.",
+            "patron_trampa": "operacion_incorrecta"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-081",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "En una ciudad se producen en promedio 600 toneladas diarias de residuos domésticos, de las cuales el 25% corresponde a papel y cartón. Por cada tonelada de papel y cartón reciclada se evita la tala de 17 árboles adultos y se ahorran 140 litros de petróleo y 50.000 litros de agua. Una campaña de reciclaje en una unidad residencial recogió 2 toneladas diarias de papel y cartón durante 3 días (evitando la tala de 2×3×17=102 árboles).",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-111",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "contexto_aplicado",
+        "tipo_contexto": "comunitario_social",
+        "enunciado": "Si esta misma campaña (2 toneladas diarias de papel y cartón) se efectuara durante 20 días en la misma unidad residencial, se podrían ahorrar:",
+        "opciones": {
+          "A": "680 litros de agua.",
+          "B": "5.600 litros de agua.",
+          "C": "300.000 litros de agua.",
+          "D": "2.000.000 litros de agua."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "En 20 días, a 2 toneladas diarias, se recolectan 2×20=40 toneladas de papel y cartón. Cada tonelada ahorra 50.000 litros de agua: 40×50.000 = 2.000.000 litros.",
+        "distractores": {
+          "A": {
+            "explicacion": "No corresponde a ningún cálculo consistente con los datos del problema (ni con 3 ni con 20 días de campaña).",
+            "patron_trampa": "dato_no_disponible_o_supuesto"
+          },
+          "B": {
+            "explicacion": "Confunde el ahorro de agua con el de petróleo a otra escala; no corresponde a 40 toneladas × 50.000 litros/tonelada.",
+            "patron_trampa": "unidades_no_convertidas"
+          },
+          "C": {
+            "explicacion": "Corresponde al ahorro de agua de la campaña ORIGINAL de 3 días (6 toneladas × 50.000 = 300.000), sin escalar la cantidad de días a 20.",
+            "patron_trampa": "extrapolacion_estadistica_indebida"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-082",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Para capacitar en informática básica a los trabajadores de una empresa, se contrata un plan educativo de 4 módulos. Cada curso se dicta a grupos de mínimo 20 y máximo 30 personas de la misma dependencia; el costo de un curso es su intensidad horaria multiplicada por el valor por hora (un curso cubre a todo el grupo, sin importar cuántas personas exactas tenga dentro del rango 20-30).",
+    "tipo_visual": "tabla",
+    "tabla_filas": {
+      "columnas": [
+        "Módulo",
+        "Nombre del módulo",
+        "Intensidad horaria",
+        "Valor por hora"
+      ],
+      "filas": [
+        [
+          "I",
+          "Fundamentación",
+          "40h",
+          "$35.000"
+        ],
+        [
+          "II",
+          "Procesador de texto",
+          "30h",
+          "$30.000"
+        ],
+        [
+          "III",
+          "Hoja de cálculo",
+          "40h",
+          "$40.000"
+        ],
+        [
+          "IV",
+          "Presentación con diapositivas",
+          "10h",
+          "$45.000"
+        ]
+      ]
+    },
+    "preguntas": [
+      {
+        "id": "RC-ITEM-112",
+        "competencia": "argumentacion",
+        "contenido": "contexto_aplicado",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "La empresa pagará $4.200.000 por capacitar a los trabajadores de la dependencia 'Insumos' en el módulo I; esto quiere decir que la dependencia tiene entre:",
+        "opciones": {
+          "A": "20 y 30 trabajadores.",
+          "B": "40 y 60 trabajadores.",
+          "C": "60 y 90 trabajadores.",
+          "D": "80 y 120 trabajadores."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "El módulo I cuesta 40h×$35.000 = $1.400.000 por curso (grupo de 20-30 personas). $4.200.000÷$1.400.000 = 3 cursos. Con 3 cursos de 20 a 30 personas cada uno, la dependencia tiene entre 60 y 90 trabajadores.",
+        "distractores": {
+          "A": {
+            "explicacion": "Ese es el rango de UN solo curso, pero $4.200.000 alcanza para 3 cursos, no para 1.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "B": {
+            "explicacion": "Correspondería a 2 cursos (2×1.400.000=2.800.000), pero el pago real ($4.200.000) alcanza para 3 cursos, no 2.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "Correspondería a 4 cursos (4×1.400.000=5.600.000), un valor mayor al pagado realmente ($4.200.000).",
+            "patron_trampa": "operacion_incorrecta"
+          }
+        },
+        "dificultad": "media"
+      },
+      {
+        "id": "RC-ITEM-113",
+        "competencia": "formulacion_ejecucion",
+        "contenido": "contexto_aplicado",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "Si se les cobrara a los 50 trabajadores de la dependencia 'Recursos Humanos' la capacitación del módulo II, y todos pagaran el mismo valor, ¿cuánto debería pagar cada uno?",
+        "opciones": {
+          "A": "$18.000",
+          "B": "$36.000",
+          "C": "$450.000",
+          "D": "$900.000"
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El módulo II cuesta 30h×$30.000=$900.000 por curso. Con máximo 30 personas por curso, 50 trabajadores necesitan mínimo 2 cursos (por ejemplo, 25+25). Costo total=2×$900.000=$1.800.000, repartido entre 50 personas: $1.800.000÷50=$36.000 cada uno.",
+        "distractores": {
+          "A": {
+            "explicacion": "Corresponde a dividir el costo de UN solo curso ($900.000) entre 50 personas, sin tener en cuenta que 50 personas exigen 2 cursos, no 1.",
+            "patron_trampa": "dato_no_disponible_o_supuesto"
+          },
+          "C": {
+            "explicacion": "Es la mitad del costo de un curso ($900.000÷2), no el valor por persona.",
+            "patron_trampa": "confusion_variable"
+          },
+          "D": {
+            "explicacion": "Es el costo de UN solo curso completo, no el valor que le corresponde pagar a cada trabajador.",
+            "patron_trampa": "reparto_proporcional_mal_aplicado"
+          }
+        },
+        "dificultad": "alta"
+      },
+      {
+        "id": "RC-ITEM-114",
+        "competencia": "argumentacion",
+        "contenido": "contexto_aplicado",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "La empresa paga $900.000 por la capacitación de los 40 funcionarios de la dependencia 'Importaciones'. De acuerdo con el valor pagado, la capacitación corresponde al módulo:",
+        "opciones": {
+          "A": "I",
+          "B": "II",
+          "C": "III",
+          "D": "IV"
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Con 40 personas y máximo 30 por curso, se necesitan al menos 2 cursos. $900.000÷2 = $450.000 por curso. El módulo IV cuesta 10h×$45.000=$450.000 por curso, que es justo el valor que hace que 2 cursos sumen $900.000.",
+        "distractores": {
+          "A": {
+            "explicacion": "El módulo I cuesta $1.400.000 por curso; ni con 1 ni con 2 cursos se llega a $900.000 en total.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "B": {
+            "explicacion": "El módulo II cuesta $900.000 por curso, pero con 40 personas se necesitan 2 cursos (2×900.000=1.800.000), no un pago total de $900.000.",
+            "patron_trampa": "dato_no_disponible_o_supuesto"
+          },
+          "C": {
+            "explicacion": "El módulo III cuesta $1.600.000 por curso; ningún múltiplo entero razonable de cursos da $900.000 en total.",
+            "patron_trampa": "operacion_incorrecta"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-083",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Un científico estudia el comportamiento de tres aves a lo largo de varias sesiones, midiendo el tiempo (minutos) que cada una dedica a 7 actividades:",
+    "tipo_visual": "tabla",
+    "tabla_filas": {
+      "columnas": [
+        "#",
+        "Actividad",
+        "Ave 1 (min)",
+        "Ave 2 (min)",
+        "Ave 3 (min)"
+      ],
+      "filas": [
+        [
+          "1",
+          "Alimentación",
+          "30",
+          "15",
+          "45"
+        ],
+        [
+          "2",
+          "Acicalamiento",
+          "18",
+          "25",
+          "12"
+        ],
+        [
+          "3",
+          "Descanso",
+          "21",
+          "20",
+          "14"
+        ],
+        [
+          "4",
+          "Desplazamiento",
+          "24",
+          "25",
+          "16"
+        ],
+        [
+          "5",
+          "Orientación",
+          "6",
+          "4",
+          "4"
+        ],
+        [
+          "6",
+          "Defecación",
+          "12",
+          "5",
+          "8"
+        ],
+        [
+          "7",
+          "Comunicación",
+          "15",
+          "26",
+          "10"
+        ]
+      ]
+    },
+    "preguntas": [
+      {
+        "id": "RC-ITEM-115",
+        "competencia": "argumentacion",
+        "contenido": "algebra_calculo",
+        "tipo_contexto": "comunitario_social",
+        "enunciado": "El científico afirma que la relación entre cada tiempo de las actividades del ave 1 y del ave 3 es 3:2. La afirmación del científico es:",
+        "opciones": {
+          "A": "correcta, porque el tiempo invertido en las actividades 1 y 3 por el ave 1 es igual al tiempo invertido en las actividades 4 y 5 por el ave 3.",
+          "B": "incorrecta, porque el tiempo invertido en las actividades 2 y 6 por el ave 1 es igual al tiempo invertido en las actividades 1 y 4 por el ave 3.",
+          "C": "correcta, porque para la actividad Comunicación la relación entre los tiempos está dada por (15/10) = (3/2).",
+          "D": "incorrecta, porque para la actividad Alimentación la relación entre los tiempos está dada por (30/45) = (2/3)."
+        },
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "Revisando todas las actividades: acicalamiento 18/12=3/2, descanso 21/14=3/2, desplazamiento 24/16=3/2, orientación 6/4=3/2, defecación 12/8=3/2, comunicación 15/10=3/2 — todas cumplen 3:2, EXCEPTO alimentación, donde 30/45=2/3, no 3/2. Como no se cumple en las 7 actividades sin excepción, la afirmación general es incorrecta.",
+        "distractores": {
+          "A": {
+            "explicacion": "Ave1(act1+act3)=30+21=51 y Ave3(act4+act5)=16+4=20; no son iguales, así que esta comparación no sustenta que la afirmación sea correcta.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "B": {
+            "explicacion": "Ave1(act2+act6)=18+12=30 y Ave3(act1+act4)=45+16=61; tampoco son iguales, así que no es la razón real por la que la afirmación es incorrecta.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "C": {
+            "explicacion": "Es cierto que en Comunicación la razón es 3:2, pero verificar solo un caso favorable e ignorar que Alimentación rompe el patrón es una generalización apresurada a partir de un único ejemplo confirmante.",
+            "patron_trampa": "generalizacion_indebida"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-084",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "En una ciudad, el 30% de la electricidad se obtiene de fuentes renovables. La siguiente gráfica muestra el consumo diario de electricidad durante la primera semana de octubre (en MWh): Lunes=200, Martes=500, Miércoles=300, Jueves=600, Viernes=200, Sábado=400, Domingo=300.",
+    "tipo_visual": "grafica_datos",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "barras",
+      "ejeX": "Día",
+      "ejeY": "Consumo de energía (MWh)",
+      "series": [
+        {
+          "nombre": "Consumo diario",
+          "datos": [
+            {
+              "x": "Lunes",
+              "y": 200
+            },
+            {
+              "x": "Martes",
+              "y": 500
+            },
+            {
+              "x": "Miércoles",
+              "y": 300
+            },
+            {
+              "x": "Jueves",
+              "y": 600
+            },
+            {
+              "x": "Viernes",
+              "y": 200
+            },
+            {
+              "x": "Sábado",
+              "y": 400
+            },
+            {
+              "x": "Domingo",
+              "y": 300
+            }
+          ]
+        }
+      ]
+    },
+    "preguntas": [
+      {
+        "id": "RC-ITEM-116",
+        "competencia": "argumentacion",
+        "contenido": "estadistica",
+        "tipo_contexto": "comunitario_social",
+        "enunciado": "Un trabajador de la electrificadora afirma que 'durante el miércoles el 30% de la energía consumida se obtiene de fuentes renovables, lo cual equivale a 80 MWh'. Su afirmación es:",
+        "opciones": {
+          "A": "Correcta, porque se calcula el porcentaje de consumo diario.",
+          "B": "Incorrecta, porque este valor no corresponde con el 30%.",
+          "C": "Correcta, porque toma en cuenta el porcentaje de energía renovable.",
+          "D": "Incorrecta, porque el consumo de electricidad no es el mismo durante todos los días."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El miércoles se consumieron 300 MWh; el 30% de 300 es 90 MWh, no 80 MWh. El trabajador calculó mal el 30% del consumo real de ese día.",
+        "distractores": {
+          "A": {
+            "explicacion": "El cálculo del 30% de 300 MWh da 90, no 80 — el resultado citado por el trabajador es numéricamente incorrecto.",
+            "patron_trampa": "redondeo_erroneo"
+          },
+          "C": {
+            "explicacion": "Considerar el porcentaje correcto (30%) no salva la afirmación si el resultado numérico (80 MWh) no corresponde a esa operación sobre el dato real del miércoles.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "Es verdad que el consumo varía día a día, pero esa no es la razón del error: el problema es que ni siquiera el 30% del consumo específico del miércoles (300 MWh) da 80 MWh.",
+            "patron_trampa": "confusion_variable"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-085",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Una empresa cotiza el almuerzo de su evento de aniversario en dos restaurantes. Restaurante 1: $20.000 por almuerzo, con 20% de descuento por plato si se piden más de 100 almuerzos. Restaurante 2: $18.000 por almuerzo, con 10% de descuento por plato si se piden más de 100 almuerzos. El evento tendrá 120 personas. El administrador afirma: 'La opción más económica es el restaurante 2, pues el valor de cada almuerzo es menor que en el restaurante 1'.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-117",
+        "competencia": "argumentacion",
+        "contenido": "contexto_aplicado",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "Su afirmación es:",
+        "opciones": {
+          "A": "Correcta, pues en el restaurante 1 cada almuerzo cuesta $18.000 y en el restaurante 2 cuestan $2.000 más.",
+          "B": "Incorrecta, porque no está teniendo en cuenta el descuento aplicado si encargan más de 100 almuerzos.",
+          "C": "Correcta, porque al calcular el 10% de $18.000 se obtiene un valor menor que $20.000.",
+          "D": "Incorrecta, porque el restaurante 1 es el que ofrece la opción más económica."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Como se piden 120 almuerzos (más de 100), aplican los descuentos: restaurante 1 = 20.000×0,8=$16.000/almuerzo; restaurante 2 = 18.000×0,9=$16.200/almuerzo. El restaurante 1 resulta más barato una vez aplicado el descuento — el administrador comparó los precios SIN descuento (20.000 vs. 18.000), ignorando que el descuento del 20% del restaurante 1 es mayor y cambia cuál es la opción más económica.",
+        "distractores": {
+          "A": {
+            "explicacion": "Invierte los precios base: el restaurante 1 cuesta $20.000 por almuerzo (no $18.000) y el restaurante 2 cuesta $18.000 (no al revés).",
+            "patron_trampa": "lectura_invertida_datos"
+          },
+          "C": {
+            "explicacion": "El 10% de $18.000 es $1.800 (el descuento en pesos), no el precio final; y aun aplicando el descuento correcto (18.000×0,9=$16.200), ese valor termina siendo MAYOR que el precio final con descuento del restaurante 1 ($16.000), no menor.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "Es la conclusión numérica correcta (restaurante 1 es más barato con descuento, $16.000 vs $16.200), pero no explica POR QUÉ la afirmación original es incorrecta — no identifica el error de no considerar el descuento diferenciado.",
+            "patron_trampa": "dato_no_disponible_o_supuesto"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-086",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Un estudiante de ingeniería mecánica obtuvo estas calificaciones en la asignatura Diseño de Máquinas. La nota mínima para aprobar es 3,5.",
+    "tipo_visual": "tabla",
+    "tabla_filas": {
+      "columnas": [
+        "Evaluación",
+        "Ponderación",
+        "Calificación"
+      ],
+      "filas": [
+        [
+          "1ª",
+          "20%",
+          "2,5"
+        ],
+        [
+          "2ª",
+          "10%",
+          "3,0"
+        ],
+        [
+          "3ª",
+          "30%",
+          "3,0"
+        ],
+        [
+          "4ª",
+          "40%",
+          "?"
+        ],
+        [
+          "Definitiva (mínimo para aprobar)",
+          "100%",
+          "3,5"
+        ]
+      ]
+    },
+    "preguntas": [
+      {
+        "id": "RC-ITEM-118",
+        "competencia": "argumentacion",
+        "contenido": "estadistica",
+        "tipo_contexto": "comunitario_social",
+        "enunciado": "El estudiante siguió este procedimiento para hallar la nota 4ª que necesita para aprobar: Paso 1) Calcula el ponderado de cada nota según su %. Paso 2) Suma el ponderado de las notas 1ª, 2ª y 3ª. Paso 3) Calcula la diferencia entre 3,5 y el resultado del paso 2. Paso 4) Multiplica el resultado del paso 3 por 100. Paso 5) Divide el resultado del paso 4 entre 50. ¿En qué paso cometió un error el estudiante?",
+        "opciones": {
+          "A": "En el paso 3, pues se debe hallar la diferencia entre 3 y el resultado del paso 2.",
+          "B": "En el paso 5, pues en realidad debe dividir entre 40 el resultado del paso 4.",
+          "C": "En el paso 3, ya que se debe multiplicar por 40 el resultado del paso 3.",
+          "D": "En el paso 2, pues se debe sumar también el ponderado de la nota final."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Ponderados: 1ª=20%×2,5=0,5; 2ª=10%×3,0=0,3; 3ª=30%×3,0=0,9. Suma=1,7 (paso 2, correcto). Paso 3: 3,5−1,7=1,8 (correcto: es el ponderado que debe aportar la 4ª nota). Como la 4ª nota pesa 40%, para hallarla hay que dividir 1,8 entre 0,40 (equivalente a multiplicar por 100 y dividir entre 40): 180÷40=4,5. El estudiante dividió entre 50 en vez de 40 en el paso 5, obteniendo 3,6 en lugar de 4,5.",
+        "distractores": {
+          "A": {
+            "explicacion": "El objetivo es llegar a 3,5 (la nota mínima para aprobar, dato explícito del problema), no a 3; el paso 3 usa el número correcto.",
+            "patron_trampa": "dato_no_disponible_o_supuesto"
+          },
+          "C": {
+            "explicacion": "El paso 3 es una resta (diferencia), no una multiplicación; describe una operación que el paso 3 no realiza.",
+            "patron_trampa": "confusion_variable"
+          },
+          "D": {
+            "explicacion": "La nota 'Definitiva' (100%) es el resultado final que se busca, no un componente adicional que deba sumarse dentro del paso 2 junto con las notas 1ª, 2ª y 3ª — sumarla sería circular.",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-087",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Un canal de televisión cobra a las empresas que desean pautar según la duración del anuncio y la franja horaria. Una empresa de gaseosas desea pautar con un anuncio de 50 segundos en dos franjas: la de alta audiencia (franja B) y en otra que le genere el menor precio. El procedimiento presentado fue: Valor pauta = $2.500.000 + $1.500.000 = $4.000.000.",
+    "tipo_visual": "tabla",
+    "tabla_filas": {
+      "columnas": [
+        "Franja horaria",
+        "Horario",
+        "20 seg",
+        "50 seg",
+        "40 seg",
+        "60 seg"
+      ],
+      "filas": [
+        [
+          "A",
+          "7am–9am",
+          "$600.000",
+          "$1.500.000",
+          "$1.200.000",
+          "$1.800.000"
+        ],
+        [
+          "B (alta audiencia)",
+          "11am–1pm",
+          "$1.000.000",
+          "$2.500.000",
+          "$2.000.000",
+          "$3.000.000"
+        ],
+        [
+          "C",
+          "3pm–5pm",
+          "$300.000",
+          "$750.000",
+          "$600.000",
+          "$900.000"
+        ]
+      ]
+    },
+    "preguntas": [
+      {
+        "id": "RC-ITEM-119",
+        "competencia": "argumentacion",
+        "contenido": "contexto_aplicado",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "Este procedimiento presenta una inconsistencia ya que:",
+        "opciones": {
+          "A": "El valor al momento de pautar en la franja horaria más económica es de $300.000.",
+          "B": "En realidad el costo por pautar en la franja horaria de mayor audiencia es de $1.000.000.",
+          "C": "El costo de pautar en la franja horaria más económica para un video de 50 segundos es de $750.000.",
+          "D": "El valor total de la pauta es de $3.000.000."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Para un anuncio de 50 segundos, la franja más económica es la C ($750.000), no la A ($1.500.000) que usó el procedimiento. El valor correcto de la pauta es $2.500.000 (franja B, alta audiencia) + $750.000 (franja C, la más económica para 50 seg) = $3.250.000, no $4.000.000.",
+        "distractores": {
+          "A": {
+            "explicacion": "$300.000 es el precio de la franja C para un anuncio de 20 segundos, no de 50 segundos como pide la empresa.",
+            "patron_trampa": "confusion_variable"
+          },
+          "B": {
+            "explicacion": "$1.000.000 es el precio de la franja B (alta audiencia) para un anuncio de 20 segundos; para 50 segundos, que es lo que pide la empresa, la franja B cuesta $2.500.000.",
+            "patron_trampa": "confusion_variable"
+          },
+          "D": {
+            "explicacion": "El valor total correcto de la pauta es $3.250.000 ($2.500.000+$750.000), no $3.000.000.",
+            "patron_trampa": "operacion_incorrecta"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-088",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Una empresa cotiza con un parque acuático 3 opciones de entrada para un día de integración con sus empleados. La empresa desea la opción más económica con transporte incluido que le permita llevar a sus 120 empleados, y decidió la opción 2.",
+    "tipo_visual": "tabla",
+    "tabla_filas": {
+      "columnas": [
+        "Opción",
+        "Fecha",
+        "Personas mínimas",
+        "Valor entrada",
+        "Transporte"
+      ],
+      "filas": [
+        [
+          "1",
+          "Sábado 4 de enero",
+          "120",
+          "$35.000",
+          "No incluido"
+        ],
+        [
+          "2",
+          "Domingo 5 de enero",
+          "150",
+          "$40.000",
+          "Incluido"
+        ],
+        [
+          "3",
+          "Lunes 6 de enero (festivo)",
+          "120",
+          "$45.000",
+          "Incluido"
+        ]
+      ]
+    },
+    "preguntas": [
+      {
+        "id": "RC-ITEM-120",
+        "competencia": "argumentacion",
+        "contenido": "contexto_aplicado",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "¿Esta opción (la opción 2) es la que le brinda mayor economía a la empresa al momento de realizar la actividad?",
+        "opciones": {
+          "A": "Sí, pues es la que ofrece menor valor de entrada por persona al parque acuático.",
+          "B": "No, pues la opción 2 no puede ser considerada ya que exige un mínimo de 150 personas y la empresa desea llevar solo 120 empleados.",
+          "C": "Sí, pues es la única que ofrece transporte incluido.",
+          "D": "No, pues la fecha disponible en esa opción es un lunes y los empleados no están disponibles ese día."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "La opción 2 exige un mínimo de 150 personas, pero la empresa solo llevará 120 empleados — no cumple el requisito mínimo, así que ni siquiera es una opción disponible para la empresa, independientemente de su precio. La opción correcta con transporte incluido y mínimo compatible con 120 personas es la opción 3 ($45.000).",
+        "distractores": {
+          "A": {
+            "explicacion": "Aunque $40.000 es menor que $45.000 (opción 3), el precio por persona no es relevante si la opción ni siquiera puede contratarse con 120 personas (por debajo del mínimo de 150).",
+            "patron_trampa": "dato_no_disponible_o_supuesto"
+          },
+          "C": {
+            "explicacion": "La opción 3 también incluye transporte, así que la opción 2 no es la única con esa característica.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "D": {
+            "explicacion": "El lunes festivo corresponde a la opción 3, no a la opción 2 (que es domingo); esta opción describe mal la fecha de la opción 2.",
+            "patron_trampa": "lectura_invertida_datos"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tipo": "contexto_rc"
+  },
+  {
+    "id": "RC-GRUPO-089",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Estudiantes de enfermería deben estimar la estatura promedio de todos los estudiantes del campus universitario. Forman 3 grupos, cada uno propone un método distinto: Grupo 1: visitar todas las facultades de la universidad y tomar la altura de al menos 5 estudiantes en cada una, hasta llegar a un total de 100 personas. Grupo 2: tomar las alturas de por lo menos 20 personas presentes en la facultad de Enfermería y luego promediar. Grupo 3: escoger al azar 3 estudiantes presentes en la cafetería de la universidad y tomar sus alturas para promediarlas.",
+    "tipo_visual": "diagrama_esquematico",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-121",
+        "competencia": "argumentacion",
+        "contenido": "estadistica",
+        "tipo_contexto": "comunitario_social",
+        "enunciado": "¿Cuál de los tres grupos propone un método que proporcione una estimación más representativa?",
+        "opciones": {
+          "A": "El grupo 3, pues al utilizar estudiantes al azar el resultado describirá mejor la población de toda la universidad.",
+          "B": "El grupo 1, pues al tomar medidas de 100 personas repartidas entre todas las facultades, la muestra es grande y cubre a toda la población del campus.",
+          "C": "El grupo 2, pues las personas presentes en el edificio de enfermería describen toda la población del campus.",
+          "D": "El grupo 3, pues son necesarias las alturas de solo 3 estudiantes para conocer la altura promedio de todos."
+        },
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "El grupo 1 combina una muestra grande (100 personas) con cobertura de TODAS las facultades del campus, evitando el sesgo de muestrear solo en un lugar. Es el único método que busca representar la diversidad real de toda la población estudiantil, no solo una parte de ella.",
+        "distractores": {
+          "A": {
+            "explicacion": "El grupo 3 escoge al azar, pero solo dentro de la cafetería (un único lugar) y con apenas 3 personas — ni el tamaño ni la cobertura son suficientes para representar a todo el campus, aunque la selección sea aleatoria.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "C": {
+            "explicacion": "Los estudiantes presentes en la facultad de Enfermería no representan a estudiantes de otras carreras, que pueden tener composiciones demográficas distintas (por ejemplo, distinta proporción de hombres y mujeres).",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "D": {
+            "explicacion": "Una muestra de solo 3 personas de un único lugar es demasiado pequeña y poco diversa para estimar con confianza el promedio de toda la población universitaria.",
+            "patron_trampa": "generalizacion_indebida"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tipo": "contexto_rc",
+    "imagen": "rc-uis-q28-grupos.png",
+    "visual_descripcion": "Tres tarjetas con la metodología propuesta por cada grupo de estudiantes: Grupo 1 visita todas las facultades (mínimo 5 estudiantes cada una, hasta 100 en total); Grupo 2 mide a 20 personas solo en la facultad de enfermería; Grupo 3 escoge al azar a 3 estudiantes en la cafetería."
+  },
+  {
+    "id": "RC-GRUPO-090",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Se desea instalar una pista de hielo con forma de óvalo (un rectángulo central con un semicírculo en cada extremo) en un centro comercial. El tramo recto central mide 60 m de largo y el ancho de la pista (que coincide con el diámetro de cada semicírculo en los extremos) es de 40 m. El administrador propuso esta solución para el área de la pista, que presenta una inconsistencia:",
+    "tipo_visual": "diagrama_esquematico",
+    "formula_latex": "\\text{Área pista} = 60 \\times 40 + 40^{2}\\times \\pi",
+    "preguntas": [
+      {
+        "id": "RC-ITEM-122",
+        "competencia": "argumentacion",
+        "contenido": "geometria",
+        "tipo_contexto": "comunitario_social",
+        "enunciado": "La solución planteada presenta una inconsistencia porque:",
+        "opciones": {
+          "A": "Hace falta dividir el área calculada entre dos, pues la pista tiene la mitad de un círculo.",
+          "B": "El largo total de la pista de hielo es de 100 m, por lo que se debe calcular el área con esta dimensión.",
+          "C": "Al momento de calcular el área del círculo se usó el diámetro y no el radio.",
+          "D": "Se deben pasar las dimensiones a centímetros para poder calcular el área."
+        },
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Los dos semicírculos de los extremos, juntos, forman un círculo completo de radio 20 m (la mitad del ancho de 40 m), con área π×20²=400π m². La solución usó 40²×π, es decir, tomó 40 (el diámetro) como si fuera el radio, obteniendo un área de círculo 4 veces mayor que la real (1.600π en vez de 400π).",
+        "distractores": {
+          "A": {
+            "explicacion": "No hace falta dividir entre dos: los DOS semicírculos de los extremos ya forman, juntos, exactamente UN círculo completo — el error no está en el factor 2, sino en usar el diámetro como si fuera el radio.",
+            "patron_trampa": "suficiencia_de_datos_geometricos"
+          },
+          "B": {
+            "explicacion": "El tramo recto mide 60 m; sumarle el ancho (40 m) para obtener '100 m de largo total' confunde el largo del rectángulo central con el largo total de la pista, que ya se usa correctamente como 60 m en el término rectangular.",
+            "patron_trampa": "confusion_variable"
+          },
+          "D": {
+            "explicacion": "No es un problema de unidades: todas las medidas ya están en metros de forma consistente; convertir a centímetros no cambia el error del cálculo.",
+            "patron_trampa": "unidades_no_convertidas"
+          }
+        },
+        "dificultad": "alta"
+      }
+    ],
+    "tipo": "contexto_rc",
+    "imagen": "rc-uis-q29-diagrama.png",
+    "visual_descripcion": "Pista con forma de óvalo: un rectángulo central de 60 m de largo con un semicírculo en cada extremo; el ancho de la pista (40 m) coincide con el diámetro de cada semicírculo."
+  },
+  {
+    "id": "RC-GRUPO-091",
+    "modulo": "razonamiento_cuantitativo",
+    "contexto_compartido": "Un empresario fabricó 50 pares de zapatos a un costo de producción de $60.000 cada uno y desea obtener una ganancia del 50% al venderlos a un almacén de cadena. Luego de cotizar con 4 almacenes, recibió estas ofertas de compra por los 50 pares:",
+    "tipo_visual": "tabla",
+    "tabla_filas": {
+      "columnas": [
+        "Almacén",
+        "Valor compra 50 pares"
+      ],
+      "filas": [
+        [
+          "A",
+          "$4.800.000"
+        ],
+        [
+          "B",
+          "$4.600.000"
+        ],
+        [
+          "C",
+          "$4.400.000"
+        ],
+        [
+          "D",
+          "$4.500.000"
+        ]
+      ]
+    },
+    "preguntas": [
+      {
+        "id": "RC-ITEM-123",
+        "competencia": "argumentacion",
+        "contenido": "contexto_aplicado",
+        "tipo_contexto": "laboral_ocupacional",
+        "enunciado": "El comerciante decide venderle los 50 pares de zapatos al almacén D. La decisión tomada es:",
+        "opciones": {
+          "A": "Correcta, pues al hallar el costo total de los 50 pares en el punto de fábrica y sumarle el 50% se obtiene un valor de $4.500.000.",
+          "B": "Incorrecta, porque el 50% de cada par es $30.000 y al multiplicarlo por los 50 pares se obtiene un total de $1.500.000.",
+          "C": "Correcta, porque es el almacén de cadena más grande de la ciudad.",
+          "D": "Incorrecta, porque al sumarle el 50% al costo total de los zapatos en punto de fábrica se obtiene un total de $5.000.000."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Costo total de producción: 50×$60.000=$3.000.000. Con 50% de ganancia: $3.000.000×1,5=$4.500.000. El almacén D ofrece exactamente ese valor ($4.500.000), así que la decisión de venderle a D es correcta.",
+        "distractores": {
+          "B": {
+            "explicacion": "$1.500.000 es el monto de la GANANCIA (el 50% del costo), no el precio total de venta que debe cobrarse ($3.000.000 de costo + $1.500.000 de ganancia = $4.500.000).",
+            "patron_trampa": "confusion_variable"
+          },
+          "C": {
+            "explicacion": "El tamaño del almacén no es un dato dado en el problema ni el criterio relevante para decidir; la decisión debe basarse en si el precio ofrecido cubre el costo más la ganancia deseada.",
+            "patron_trampa": "dato_no_disponible_o_supuesto"
+          },
+          "D": {
+            "explicacion": "$3.000.000×1,5 = $4.500.000, no $5.000.000; ese resultado no corresponde a la operación correcta.",
+            "patron_trampa": "operacion_incorrecta"
+          }
+        },
+        "dificultad": "media"
+      }
+    ],
+    "tipo": "contexto_rc"
+  }
+]

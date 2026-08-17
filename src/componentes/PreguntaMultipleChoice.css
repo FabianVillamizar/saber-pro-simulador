@@ -93,3 +93,28 @@
   background: oklch(48% 0.15 20);
   color: #fff;
 }
+
+/* Opciones cuya respuesta es una imagen (gráfica/tabla), no solo texto:
+   pasan de fila (letra + texto en línea) a columna (letra arriba, imagen
+   al medio, descripción de apoyo abajo). */
+.opcion--con-imagen {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.opcion--con-imagen .opcion-letra {
+  align-self: flex-start;
+}
+
+.opcion--con-imagen .visual-raster {
+  padding: 6px;
+}
+
+.opcion--con-imagen .visual-raster img {
+  max-width: 100%;
+}
+
+.opcion--con-imagen .opcion-texto {
+  color: var(--text-sub);
+  font-size: 12.5px;
+}

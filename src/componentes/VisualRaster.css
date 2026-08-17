@@ -1,0 +1,15 @@
+.visual-raster {
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radio-md);
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.visual-raster img {
+  width: 100%;
+  height: auto;
+  max-width: 480px;
+  border-radius: calc(var(--radio-md) - 4px);
+}

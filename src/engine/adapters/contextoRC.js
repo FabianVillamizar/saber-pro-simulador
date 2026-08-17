@@ -37,6 +37,12 @@ export function adaptContextoRC(item) {
     },
     enunciado: pregunta.enunciado,
     opciones: pregunta.opciones,
+    // Opcional: cuando las 4 opciones de respuesta son en sí mismas
+    // imágenes (gráficas/tablas distintas por opción, no texto), cada
+    // letra puede traer el nombre de archivo real en src/assets/raster/.
+    // `opciones` sigue llevando una descripción textual fiel de cada una
+    // (para accesibilidad y para las explicaciones de los distractores).
+    opcionesImagen: pregunta.opciones_imagen ?? null,
     respuestaCorrecta: pregunta.respuesta_correcta,
     explicacionCorrecta: pregunta.explicacion_correcta,
     distractores: pregunta.distractores,

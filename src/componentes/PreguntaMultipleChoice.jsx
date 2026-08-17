@@ -1,4 +1,5 @@
 import { ContextoPregunta } from './ContextoPregunta.jsx'
+import { VisualRaster } from './VisualRaster.jsx'
 import { IconoCheck, IconoX } from './iconos.jsx'
 import './PreguntaMultipleChoice.css'
 
@@ -25,17 +26,20 @@ export function PreguntaMultipleChoice({
           const mostrarCheck = mostrarCorreccion && esCorrecta
           const mostrarX = mostrarCorreccion && esSeleccionada && !esCorrecta
 
+          const archivoImagen = pregunta.opcionesImagen?.[letra]
+
           return (
             <button
               key={letra}
               type="button"
-              className={clase}
+              className={clase + (archivoImagen ? ' opcion--con-imagen' : '')}
               disabled={deshabilitado}
               onClick={() => onSeleccionar(letra)}
             >
               <span className="opcion-letra">
                 {mostrarCheck ? <IconoCheck color="#fff" /> : mostrarX ? <IconoX color="#fff" /> : letra}
               </span>
+              {archivoImagen && <VisualRaster archivo={archivoImagen} descripcion={texto} />}
               <span className="opcion-texto">{texto}</span>
             </button>
           )
