@@ -86,10 +86,12 @@ function calcularProgreso(historial) {
   let totalConDatos = 0
   let conObjecionRegistrada = 0
   let conObjecionLograda = 0
+  let conPertinenciaRegistrada = 0
+  let conPertinenciaLograda = 0
 
   for (const h of historial) {
     const tieneEjes = EJES.some((e) => h.ejes?.[e])
-    if (!tieneEjes && h.complejizo == null) continue
+    if (!tieneEjes && h.complejizo == null && h.pertinencia == null) continue
     totalConDatos++
     for (const e of EJES) {
       const v = h.ejes?.[e]
@@ -98,6 +100,10 @@ function calcularProgreso(historial) {
     if (h.complejizo != null) {
       conObjecionRegistrada++
       if (h.complejizo) conObjecionLograda++
+    }
+    if (h.pertinencia != null) {
+      conPertinenciaRegistrada++
+      if (h.pertinencia) conPertinenciaLograda++
     }
   }
 
@@ -108,7 +114,15 @@ function calcularProgreso(historial) {
   )
   const ejeMasDebil = ranking[0].puntaje > 0 ? ranking[0].eje : null
 
-  return { totalConDatos, conteo, ejeMasDebil, conObjecionRegistrada, conObjecionLograda }
+  return {
+    totalConDatos,
+    conteo,
+    ejeMasDebil,
+    conObjecionRegistrada,
+    conObjecionLograda,
+    conPertinenciaRegistrada,
+    conPertinenciaLograda,
+  }
 }
 
 function construirPrompt(pregunta, ensayo) {
@@ -180,6 +194,7 @@ export function PracticarEnsayo({ moduloId, perfil, onCambiarPerfil, onVolver })
       nivel: null,
       ejes: { forma: null, planteamiento: null, organizacion: null },
       complejizo: null,
+      pertinencia: null,
     }
     const nuevoHistorial = [entrada, ...historial]
     setHistorial(nuevoHistorial)
@@ -262,6 +277,12 @@ export function PracticarEnsayo({ moduloId, perfil, onCambiarPerfil, onVolver })
                 <div className="practicar-ensayo-progreso-texto">
                   Reconociste y respondiste la objeción contraria en {progreso.conObjecionLograda} de{' '}
                   {progreso.conObjecionRegistrada} ensayos donde registraste ese dato.
+                </div>
+              )}
+              {progreso.conPertinenciaRegistrada > 0 && (
+                <div className="practicar-ensayo-progreso-texto">
+                  Filtro de pertinencia: {progreso.conPertinenciaLograda} de {progreso.conPertinenciaRegistrada}{' '}
+                  ensayos lo pasaron.
                 </div>
               )}
             </div>
@@ -399,6 +420,34 @@ export function PracticarEnsayo({ moduloId, perfil, onCambiarPerfil, onVolver })
                                 {n}
                               </button>
                             ))}
+                          </div>
+                        </div>
+
+                        <div className="practicar-ensayo-resultado-fila">
+                          <span className="practicar-ensayo-resultado-label">Filtro de pertinencia</span>
+                          <div className="practicar-ensayo-pills">
+                            <button
+                              type="button"
+                              className={`practicar-ensayo-pill practicar-ensayo-pill--bien${
+                                h.pertinencia === true ? ' practicar-ensayo-pill--activo' : ''
+                              }`}
+                              onClick={() =>
+                                actualizarResultado(h.id, { pertinencia: h.pertinencia === true ? null : true })
+                              }
+                            >
+                              Pasa
+                            </button>
+                            <button
+                              type="button"
+                              className={`practicar-ensayo-pill practicar-ensayo-pill--mal${
+                                h.pertinencia === false ? ' practicar-ensayo-pill--activo' : ''
+                              }`}
+                              onClick={() =>
+                                actualizarResultado(h.id, { pertinencia: h.pertinencia === false ? null : false })
+                              }
+                            >
+                              No pasa
+                            </button>
                           </div>
                         </div>
 

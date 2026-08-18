@@ -472,5 +472,21 @@
       "CC-SIS-027",
       "CC-SIS-029"
     ]
+  },
+  {
+    "id": "CC-SIS-031",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "pensamiento_sistemico",
+    "bloque": "razonamiento_estrategico_en_dilemas_de_cooperacion",
+    "pregunta": "¿Qué es una estrategia dominante en un dilema de decisiones interdependientes, como el dilema del prisionero?",
+    "respuesta_breve": "Es la opción que conviene más a un actor sin importar lo que decida el otro, incluso si el resultado colectivo de que todos la elijan es peor que si hubieran cooperado.",
+    "explicacion": "Cuando las consecuencias de un actor dependen de las decisiones de otro, no basta con evaluar el propio problema en aislamiento: hay que anticipar cómo reacciona el otro ante cada escenario. Si una opción da el mejor resultado individual sin importar la elección ajena, es la estrategia dominante, aunque el resultado conjunto de seguirla ambos sea peor que si hubieran cooperado.",
+    "ejemplo_aplicado": "En el dilema del prisionero clásico, incriminar al cómplice es la estrategia dominante para cada acusado por separado, aunque el resultado sea peor para ambos que si los dos hubieran guardado silencio.",
+    "error_comun": "Se evalúa la mejor decisión ignorando cómo reaccionará el otro actor, o se confunde la opción moralmente preferible (cooperar) con la que minimiza el riesgo individual dado que no se controla la decisión ajena.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-SIS-007"
+    ]
   }
 ]

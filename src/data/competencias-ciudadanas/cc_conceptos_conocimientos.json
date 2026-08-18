@@ -930,5 +930,113 @@
     "prereqs": [
       "CC-CON-022"
     ]
+  },
+  {
+    "id": "CC-CON-063",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "conocimientos",
+    "bloque": "democracia_deliberativa_como_categoria_distinta",
+    "pregunta": "¿Qué distingue a la democracia deliberativa de la democracia representativa o participativa?",
+    "respuesta_breve": "Exige que las decisiones se adopten tras una discusión pública y argumentativa real, no solo mediante el cumplimiento formal de un procedimiento de votación o representación.",
+    "explicacion": "La representativa se centra en quién decide (elegidos por voto) y la participativa en qué mecanismos permiten intervenir directamente (referendo, consulta). La **democracia deliberativa** pone el foco en la calidad del proceso: exige debate público y argumentado antes de decidir, sin importar si la decisión final la toman representantes o el pueblo directamente.",
+    "ejemplo_aplicado": "Un proyecto de ley aprobado sin ningún debate en una de las cámaras ('pupitrazo') cumple formalmente el trámite representativo, pero vulnera la exigencia deliberativa porque nunca hubo discusión argumentativa real.",
+    "error_comun": "Se asume que cumplir el trámite legislativo formal (votación, mayorías) ya satisface la democracia deliberativa, cuando esta exige además un debate sustantivo previo, no solo el conteo de votos.",
+    "dificultad": "alta",
+    "prereqs": [
+      "CC-CON-046"
+    ]
+  },
+  {
+    "id": "CC-CON-064",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "conocimientos",
+    "bloque": "principio_de_solidaridad_en_seguridad_social",
+    "pregunta": "¿Qué papel cumple el principio de solidaridad dentro del sistema de seguridad social colombiano?",
+    "respuesta_breve": "El artículo 48 establece que la seguridad social se presta bajo los principios de eficiencia, universalidad y solidaridad: quienes cotizan sostienen colectivamente a quienes no logran acceder al sistema por sí solos.",
+    "explicacion": "A diferencia del deber de solidaridad del art. 95 (ayudar ante calamidades puntuales), este es un **principio estructural**: organiza todo el sistema de pensiones y salud para que la protección no dependa exclusivamente del ahorro individual de cada persona, sino de un fondo común administrado colectivamente.",
+    "ejemplo_aplicado": "Una renta financiada con el Fondo de Ahorro común para adultos mayores que cotizaron pero no alcanzaron a pensionarse aplica directamente este principio: el sistema sostiene a quienes quedaron por fuera.",
+    "error_comun": "Se confunde con el deber de solidaridad ciudadana ante desastres (art. 95); este principio es un pilar de diseño institucional permanente del sistema de seguridad social, no una respuesta voluntaria a una emergencia.",
+    "dificultad": "media",
+    "prereqs": [
+      "CC-CON-029"
+    ]
+  },
+  {
+    "id": "CC-CON-065",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "conocimientos",
+    "bloque": "valores_principios_y_normas_constitucionales",
+    "pregunta": "¿Qué diferencia hay entre un valor, un principio y una norma (regla) dentro de la teoría constitucional?",
+    "respuesta_breve": "El valor es un fin genérico y programático (justicia, paz); el principio es un mandato de optimización más concreto (Estado social de derecho); la norma o regla es de aplicación directa e inmediata, de tipo todo-o-nada.",
+    "explicacion": "Los tres tienen distinto grado de concreción. Los **valores** (como los del preámbulo) no se aplican directamente, sino que orientan al legislador. Los **principios** ya tienen fuerza normativa y se ponderan frente a otros en un caso concreto. Las **reglas** se aplican de forma directa: si se cumplen sus condiciones, se sigue su consecuencia.",
+    "ejemplo_aplicado": "'La convivencia y la paz' del preámbulo es un valor; el Estado social de derecho (art. 1) es un principio; que el Presidente deba tener más de 30 años (art. 191) es una regla de aplicación directa.",
+    "error_comun": "Se trata a los tres como sinónimos intercambiables de 'norma constitucional', sin notar que su grado de concreción y su forma de aplicarse judicialmente son completamente distintos.",
+    "dificultad": "alta",
+    "prereqs": []
+  },
+  {
+    "id": "CC-CON-066",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "conocimientos",
+    "bloque": "septima_papeleta_antecedente_de_la_constituyente",
+    "pregunta": "¿Qué fue la Séptima Papeleta y qué papel jugó en el origen de la Constitución de 1991?",
+    "respuesta_breve": "Fue una movilización estudiantil de 1990 que promovió votar informalmente, junto a las papeletas oficiales, una séptima papeleta pidiendo convocar una Asamblea Nacional Constituyente.",
+    "explicacion": "En medio de una fuerte crisis de violencia y narcoterrorismo, estudiantes de varias universidades impulsaron esta iniciativa sin respaldo institucional formal; su masiva acogida presionó políticamente a la Registraduría y al Gobierno, que terminaron habilitando la convocatoria oficial de la Asamblea que redactó la nueva Constitución.",
+    "ejemplo_aplicado": "El episodio demuestra que la movilización pacífica ciudadana, sin ningún poder formal, puede desencadenar un cambio institucional mayúsculo: la sustitución completa de la Constitución de 1886.",
+    "error_comun": "Se piensa que fue un mecanismo jurídico formal de participación (como un referendo); en realidad fue una acción ciudadana informal y espontánea que generó la presión política suficiente para el cambio constitucional.",
+    "dificultad": "media",
+    "prereqs": [
+      "CC-CON-049"
+    ]
+  },
+  {
+    "id": "CC-CON-067",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "conocimientos",
+    "bloque": "estatuto_de_la_oposicion_pluralismo_politico",
+    "pregunta": "¿Qué busca garantizar el Estatuto de la Oposición (Ley 1909 de 2018)?",
+    "respuesta_breve": "Otorga garantías a los partidos y movimientos que se declaran en oposición o independientes del gobierno de turno, incluyendo una curul para el segundo más votado en ciertas elecciones.",
+    "explicacion": "La ley reconoce derechos concretos a quienes no ganaron la elección: acceso a medios, financiación y participación en debates de control político; en elecciones uninominales (Presidencia, gobernaciones, alcaldías), otorga además una curul en la corporación correspondiente al candidato que quedó de segundo, buscando que las instituciones reflejen pluralidad ideológica.",
+    "ejemplo_aplicado": "El candidato presidencial que queda segundo en votos obtiene, gracias a esta ley, una curul en el Senado, garantizando voz institucional a una fuerza política distinta a la del Gobierno electo.",
+    "error_comun": "Se cree que el Estatuto fortalece al partido de gobierno; en realidad hace lo contrario: introduce un contrapeso institucional al otorgar representación garantizada a quien perdió la elección.",
+    "dificultad": "media",
+    "prereqs": [
+      "CC-CON-061"
+    ]
+  },
+  {
+    "id": "CC-CON-068",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "conocimientos",
+    "bloque": "participacion_politica_juvenil",
+    "pregunta": "¿Qué mecanismo institucional garantiza en Colombia el protagonismo político de los jóvenes antes de la mayoría de edad electoral plena?",
+    "respuesta_breve": "Los Consejos de Juventud, creados por la Ley Estatutaria 1885 de 2018 (Estatuto de Ciudadanía Juvenil), son cuerpos colegiados de elección popular que representan los intereses de las personas jóvenes ante el Estado.",
+    "explicacion": "Esta ley modificó la Ley 1622 de 2013 para crear Consejos de Juventud municipales, distritales y departamentales, elegidos directamente por los jóvenes entre 14 y 28 años, con función consultiva y de interlocución ante las autoridades sobre las políticas públicas que los afectan.",
+    "ejemplo_aplicado": "Un joven de 17 años puede votar por sus representantes al Consejo Municipal de Juventud, un espacio de participación política diseñado específicamente para su rango de edad, distinto de las elecciones ordinarias a alcaldías o concejos.",
+    "error_comun": "Se asume que la única vía de participación política de los jóvenes es esperar a cumplir 18 años y votar en elecciones ordinarias; los Consejos de Juventud son un mecanismo formal adicional, anterior a esa edad.",
+    "dificultad": "media",
+    "prereqs": [
+      "CC-CON-031"
+    ]
+  },
+  {
+    "id": "CC-CON-069",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "conocimientos",
+    "bloque": "patrimonio_cultural_e_identidad_nacional",
+    "pregunta": "¿Qué protege el artículo 72 de la Constitución y con qué fundamento?",
+    "respuesta_breve": "Protege el patrimonio cultural de la Nación, incluidos los bienes arqueológicos, declarándolo inalienable, inembargable e imprescriptible, por su vínculo directo con la identidad nacional.",
+    "explicacion": "El artículo 72 pone estos bienes bajo protección especial del Estado precisamente porque expresan quiénes somos como Nación: no son solo objetos valiosos, sino referentes que sostienen la identidad colectiva del país; por eso la ley regula un régimen de propiedad especial y el interés cultural prevalece sobre el comercial.",
+    "ejemplo_aplicado": "Un hallazgo arqueológico prehispánico no puede venderse libremente ni embargarse por deudas de quien lo posee, porque su valor constitucional protegido es su aporte a la identidad nacional, no su precio de mercado.",
+    "error_comun": "Se justifica la protección solo apelando a que son 'bienes muy valorados'; el fundamento constitucional preciso del artículo 72 es su vínculo con la identidad nacional, no simplemente su valor económico o histórico genérico.",
+    "dificultad": "media",
+    "prereqs": []
   }
 ]

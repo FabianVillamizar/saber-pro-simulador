@@ -1201,5 +1201,223 @@
         ]
       }
     ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-090",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Un análisis espectroscópico de una muestra de agua subterránea contaminada reporta que el 85 % del hierro disuelto está en estado Fe²⁺ y el 15 % en estado Fe³⁺, sin identificar ningún compuesto específico. Un ambientalista, a partir únicamente de este dato, afirma: 'esta agua contiene una gran cantidad de hierro tóxico en su forma reducida, y se trata principalmente de siderita (FeCO₃) disuelta'.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-090",
+        "afirmacion": "analizar_concluir",
+        "evidencia": "2.1",
+        "enunciado": "¿Es válida esta afirmación a partir únicamente del dato de proporción relativa reportado por la técnica?",
+        "opciones": {
+          "A": "No es válida en ninguna de sus dos partes: el 85 % es una proporción relativa entre las dos formas de hierro, no una medida de la cantidad absoluta disuelta (una muestra con muy poca concentración total de hierro podría mostrar la misma proporción); además, la técnica no identifica el compuesto específico presente, por lo que afirmar que es siderita no está respaldado por este dato.",
+          "B": "Sí es válida, porque un 85 % es una cifra suficientemente alta como para concluir directamente que hay una gran cantidad de hierro tóxico disuelto en la muestra.",
+          "C": "Sí es válida, porque una proporción de Fe²⁺ del 85 % permite identificar directamente que el compuesto presente es siderita (FeCO₃), la principal fuente de hierro reducido en aguas subterráneas.",
+          "D": "No es válida, porque las técnicas que miden proporciones de estados de oxidación no son confiables y deben descartarse por completo en estudios ambientales serios."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Un dato de proporción relativa (85 % Fe²⁺ / 15 % Fe³⁺) solo indica cómo se reparte el hierro entre esos dos estados, sin decir nada sobre la cantidad absoluta total presente en la muestra; además, la técnica mide estados de oxidación, no identifica compuestos específicos, ya que distintos compuestos pueden compartir el mismo estado de oxidación. Ninguna de las dos partes de la afirmación del ambientalista está respaldada por el dato reportado.",
+        "distractores": {
+          "B": {
+            "explicacion": "Confunde una proporción relativa alta con una cantidad absoluta grande, sin conocer la concentración total de hierro en la muestra; una proporción del 85 % es compatible tanto con una contaminación severa como con trazas mínimas de hierro.",
+            "patron_trampa": "confunde_proporcion_relativa_con_cantidad_absoluta"
+          },
+          "C": {
+            "explicacion": "Confunde el estado de oxidación medido con la identidad química específica del compuesto presente, cuando varios compuestos distintos (no solo la siderita) pueden compartir el mismo estado de oxidación Fe²⁺.",
+            "patron_trampa": "confunde_estado_de_oxidacion_con_identidad_de_compuesto"
+          },
+          "D": {
+            "explicacion": "Rechaza injustificadamente la validez general de la técnica, en lugar de señalar su limitación real y específica: que sus resultados no informan la cantidad absoluta ni la identidad exacta del compuesto, aunque sí son útiles para otras conclusiones.",
+            "patron_trampa": "sobregeneralizacion_invalida_la_tecnica"
+          }
+        },
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-QUI-025",
+          "PC-QUI-026",
+          "PC-QUI-027"
+        ]
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-091",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Una estudiante tiene tres muestras líquidas sin etiquetar, sabiendo que corresponden a hexano, 1-hexeno y 1-hexino, aunque no sabe cuál es cuál. Realiza dos pruebas cualitativas a cada una: agua de bromo y solución de KMnO₄. Resultado: la Muestra 1 no decolora ninguno de los dos reactivos; la Muestra 2 decolora ambos reactivos con rapidez; la Muestra 3 decolora ambos reactivos aún más rápido que la Muestra 2.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-091",
+        "afirmacion": "analizar_concluir",
+        "evidencia": "2.1",
+        "enunciado": "Con estos resultados, ¿qué puede concluir con confianza sobre las tres muestras, y qué NO puede concluir sobre la diferencia entre las muestras 2 y 3?",
+        "opciones": {
+          "A": "Puede concluir con confianza que la Muestra 1 es el hexano, el único de los tres compuestos sin enlaces múltiples carbono-carbono, ya que no reaccionó con ninguno de los dos reactivos; sin embargo, estos resultados NO permiten determinar con certeza cuál de las muestras 2 o 3 es el alqueno y cuál el alquino, porque tanto el agua de bromo como el KMnO₄ reaccionan con enlaces dobles y triples de forma similar.",
+          "B": "Puede concluir que la Muestra 3, al decolorar el Br₂ más rápido, es definitivamente el 1-hexino, porque los enlaces triples siempre reaccionan más rápido que los dobles frente al agua de bromo en cualquier condición experimental.",
+          "C": "Puede concluir que la Muestra 1 es completamente inerte frente a cualquier agente oxidante bajo cualquier condición, ya que no reaccionó ni con el Br₂ ni con el KMnO₄.",
+          "D": "Las pruebas de agua de bromo y de KMnO₄ son redundantes, porque ambas detectan exactamente el mismo tipo de reacción química, así que hubiera bastado con realizar solo una de las dos."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La ausencia de reacción de la Muestra 1 frente a ambos reactivos es consistente solo con el hexano, un alcano sin enlaces múltiples; en cambio, tanto los alquenos como los alquinos reaccionan con el Br₂ (adición electrofílica) y con el KMnO₄ (oxidación), por lo que una diferencia cualitativa de velocidad entre las muestras 2 y 3 no es prueba suficiente para determinar con certeza cuál es el alqueno y cuál el alquino.",
+        "distractores": {
+          "B": {
+            "explicacion": "Sobregeneraliza una diferencia cualitativa de velocidad observada en un único ensayo, sin condiciones controladas ni cuantificadas, como si fuera una prueba definitiva y universal de identidad química.",
+            "patron_trampa": "sobregeneralizacion_de_velocidad_cualitativa"
+          },
+          "C": {
+            "explicacion": "Extiende un resultado negativo obtenido bajo condiciones específicas y suaves (dos reactivos particulares) a una afirmación de inercia absoluta frente a 'cualquier' agente oxidante, sin considerar que otras condiciones distintas sí podrían hacerla reaccionar.",
+            "patron_trampa": "sobregeneralizacion_mas_alla_de_condiciones_probadas"
+          },
+          "D": {
+            "explicacion": "Confunde dos mecanismos de reacción distintos: el agua de bromo actúa por adición electrofílica al enlace múltiple, mientras que el KMnO₄ actúa por oxidación; aunque ambos reaccionan con enlaces múltiples, no son el mismo fenómeno químico.",
+            "patron_trampa": "confunde_mecanismos_de_adicion_y_oxidacion"
+          }
+        },
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-QUI-029",
+          "PC-QUI-030",
+          "PC-QUI-031"
+        ]
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-095",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Un artículo de divulgación científica describe dos estudios sobre la relación entre leer antes de dormir y la calidad del sueño. El Estudio 1 encuestó a 500 personas sobre sus hábitos de lectura nocturna y su calidad de sueño autoreportada, sin intervenir en absoluto en sus hábitos. El Estudio 2 asignó al azar a 60 voluntarios a leer un libro físico o usar el celular antes de dormir durante 2 semanas cada uno, y midió su calidad de sueño con un dispositivo.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-095",
+        "afirmacion": "analizar_concluir",
+        "evidencia": "2.1",
+        "enunciado": "¿Cómo se clasifica cada estudio, y cuál de los dos permite una conclusión causal más fuerte sobre el efecto de leer antes de dormir en la calidad del sueño?",
+        "opciones": {
+          "A": "El Estudio 1 es observacional, porque registra hábitos y resultados tal como ocurren naturalmente, sin manipular nada; el Estudio 2 es experimental, porque asigna activamente y al azar la variable de interés (el hábito antes de dormir). El Estudio 2 permite una conclusión causal más fuerte, porque la asignación aleatoria reduce el riesgo de que otras diferencias entre las personas (y no el hábito de lectura) expliquen la diferencia observada.",
+          "B": "Ambos estudios son experimentales, porque ambos involucran una medición controlada de la calidad del sueño con instrumentos o encuestas estandarizadas.",
+          "C": "El Estudio 1 permite una conclusión causal más fuerte, porque su muestra de 500 personas es mucho mayor que la de 60 voluntarios del Estudio 2.",
+          "D": "Ninguno de los dos estudios permite ninguna conclusión útil, porque ambos tienen limitaciones metodológicas que los invalidan por completo."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El Estudio 1 es observacional porque solo registra hábitos y resultados existentes, sin manipular ninguna variable; el Estudio 2 es experimental porque asigna aleatoriamente el hábito de lectura a cada participante. Solo un estudio experimental bien diseñado, con asignación al azar, permite conclusiones causales fuertes, porque reduce el riesgo de que variables de confusión (como diferencias individuales preexistentes) expliquen el resultado observado.",
+        "distractores": {
+          "B": {
+            "explicacion": "Confunde la precisión o estandarización de la medición del resultado (encuesta o dispositivo) con la manipulación experimental de la variable de interés, que solo ocurre en el Estudio 2, donde se asigna activamente el hábito de lectura.",
+            "patron_trampa": "confunde_medicion_estandarizada_con_manipulacion_experimental"
+          },
+          "C": {
+            "explicacion": "Asume que un tamaño de muestra mayor compensa la falta de asignación aleatoria, cuando en realidad es el tipo de diseño (observacional vs. experimental) el que determina la fuerza de la inferencia causal, no el tamaño de la muestra.",
+            "patron_trampa": "confunde_tamaño_de_muestra_con_fuerza_causal_del_diseño"
+          },
+          "D": {
+            "explicacion": "Descarta injustificadamente ambos estudios en lugar de reconocer que sí existe una diferencia real y relevante en la fuerza de la evidencia causal que cada tipo de diseño puede ofrecer.",
+            "patron_trampa": "descarta_injustificadamente_evidencia_valida"
+          }
+        },
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-EST-025",
+          "PC-EST-010"
+        ]
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-098",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Un laboratorio mide la concentración de un contaminante en una muestra de agua usando un sensor. Con n = 25 mediciones repetidas de la misma muestra, el error estándar del promedio es 0,40 mg/L. El equipo decide aumentar las mediciones a n = 100, usando exactamente el mismo sensor, sin recalibrarlo ni hacerle ningún ajuste.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-098",
+        "afirmacion": "analizar_concluir",
+        "evidencia": "2.2",
+        "enunciado": "Si el sensor no tiene ningún error sistemático de calibración, ¿cuál sería el nuevo error estándar esperado con n = 100 mediciones, y qué relación matemática lo explica?",
+        "opciones": {
+          "A": "El nuevo error estándar esperado sería 0,20 mg/L. El error estándar es proporcional a 1/√n; al cuadruplicar el número de mediciones (de 25 a 100), √n se duplica (de 5 a 10), por lo que el error estándar se reduce a la mitad (de 0,40 a 0,20 mg/L).",
+          "B": "El nuevo error estándar esperado sería 0,10 mg/L, porque al cuadruplicar el número de mediciones, el error estándar se reduce en la misma proporción, a la cuarta parte.",
+          "C": "El error estándar seguiría siendo 0,40 mg/L, porque aumentar el número de repeticiones nunca reduce ningún tipo de incertidumbre sin antes recalibrar el instrumento.",
+          "D": "El nuevo error estándar esperado sería 0,80 mg/L, porque al aumentar las mediciones de 25 a 100, √n también aumenta, y multiplicar por ese factor incrementa el error estándar en la misma proporción."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El error estándar es proporcional a 1/√n. Con n=25, si el error estándar es 0,40 mg/L, entonces la desviación estándar de las mediciones individuales es σ = 0,40 × √25 = 2,0 mg/L. Con n=100, el nuevo error estándar es σ/√100 = 2,0/10 = 0,20 mg/L: al cuadruplicar n, √n se duplica, y el error estándar se reduce exactamente a la mitad.",
+        "distractores": {
+          "B": {
+            "explicacion": "Asume una reducción lineal del error estándar en proporción directa a n (si n se cuadruplica, el error se reduce a la cuarta parte), en lugar de la relación real, en la que el error estándar es proporcional a 1/√n.",
+            "patron_trampa": "asume_reduccion_lineal_con_n_en_vez_de_raiz_cuadrada"
+          },
+          "C": {
+            "explicacion": "Aplica incorrectamente la lección sobre el error sistemático (que en efecto no se corrige con más repeticiones) a esta situación, en la que el escenario indica explícitamente que no hay error sistemático, solo error aleatorio, que sí se reduce al aumentar n.",
+            "patron_trampa": "aplica_leccion_de_error_sistematico_a_caso_de_error_aleatorio"
+          },
+          "D": {
+            "explicacion": "Invierte la relación entre n y el error estándar: aumentar el número de mediciones reduce el error estándar (se divide entre √n), no lo aumenta.",
+            "patron_trampa": "invierte_la_relacion_entre_n_y_error_estandar"
+          }
+        },
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-EST-021",
+          "PC-EST-022",
+          "PC-EST-023"
+        ]
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-099",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Un equipo de nutrición evalúa si una dieta reduce el colesterol. La Opción A consiste en internar a 20 voluntarios en una unidad metabólica durante 4 semanas, donde el equipo controla exactamente cada alimento que consumen. La Opción B consiste en dar instrucciones dietéticas a 300 familias, que siguen la dieta en su vida cotidiana normal, sin ninguna supervisión directa de cada comida.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-099",
+        "afirmacion": "analizar_concluir",
+        "evidencia": "2.2",
+        "enunciado": "¿Qué tipo de validez tiende a priorizar cada opción, y qué se sacrifica en cada caso?",
+        "opciones": {
+          "A": "La Opción A prioriza la validez interna: el control estricto de cada alimento minimiza variables de confusión, pero el ambiente artificial de la unidad metabólica limita cuánto se pueden generalizar los resultados a la vida cotidiana (menor validez externa). La Opción B prioriza la validez externa: refleja mejor las condiciones reales de alimentación, pero la falta de supervisión directa introduce más variables no controladas, reduciendo la validez interna.",
+          "B": "La Opción A tiene tanto mayor validez interna como mayor validez externa que la Opción B, porque su tamaño de muestra más pequeño (20 personas) permite un seguimiento mucho más detallado de cada participante.",
+          "C": "La Opción B tiene automáticamente mayor validez interna que la Opción A, porque su tamaño de muestra (300 familias) es mucho mayor.",
+          "D": "Ninguna de las dos opciones tiene ninguna ventaja particular sobre la otra, porque ambas tienen limitaciones que las invalidan igualmente como diseños de investigación."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Existe un compromiso característico entre validez interna y externa: la Opción A, al controlar estrictamente cada alimento, maximiza la validez interna (confianza en que la dieta causó el resultado) pero a costa de la validez externa (el entorno artificial limita la generalización); la Opción B, al ocurrir en condiciones de vida real con una muestra más grande, prioriza la validez externa pero sacrifica el control sobre variables de confusión propio de la validez interna.",
+        "distractores": {
+          "B": {
+            "explicacion": "Asume que un diseño puede maximizar ambos tipos de validez sin ningún compromiso, cuando en realidad existe una tensión real entre ellos: el mayor control de la Opción A es justamente lo que limita su capacidad de generalización.",
+            "patron_trampa": "asume_que_un_diseño_maximiza_ambas_validez_sin_compromiso"
+          },
+          "C": {
+            "explicacion": "Confunde el tamaño de la muestra con el tipo de validez del diseño; un tamaño de muestra grande no compensa la falta de control sobre las variables de confusión que caracteriza a la Opción B.",
+            "patron_trampa": "confunde_tamaño_de_muestra_con_validez_interna"
+          },
+          "D": {
+            "explicacion": "Descarta injustificadamente ambos diseños, ignorando que cada uno ofrece un tipo de validez distinto y complementario, una distinción central para elegir o combinar diseños de investigación.",
+            "patron_trampa": "descarta_injustificadamente_ambos_disenos"
+          }
+        },
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-EST-012",
+          "PC-EST-013"
+        ]
+      }
+    ]
   }
 ]

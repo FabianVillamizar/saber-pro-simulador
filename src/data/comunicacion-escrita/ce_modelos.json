@@ -1098,5 +1098,55 @@
         "nota": "Cierra con la misma idea de la introducción —el cambio de nombre sin cambio de fondo— formulada de otra manera."
       }
     ]
+  },
+  {
+    "id": "CE-MODELO-023",
+    "modulo": "comunicacion_escrita",
+    "tema_id": "ce-22",
+    "postura": "a_favor",
+    "nivel": 3,
+    "texto": "Las fotomultas son una herramienta justa y necesaria para sancionar infracciones de tránsito, incluso cuando no hay un testigo presente en el momento de los hechos. En un país donde no hay suficientes agentes de tránsito para vigilar cada cruce y cada semáforo, la fotografía es una prueba clara y objetiva de que el vehículo cometió la infracción, y eso debería ser suficiente para justificar la sanción.\n\nLas cámaras de fotomultas permiten que la ley se aplique de manera más pareja, porque no dependen de que un agente esté físicamente presente para ver la infracción. Antes de que existieran, muchas infracciones simplemente no se sancionaban porque nadie las veía, y algunos conductores sabían que podían saltarse una señal en luz roja o exceder la velocidad si no había un policía cerca en ese momento. Con las cámaras, el riesgo de recibir una sanción ya no depende de la suerte de que haya o no un agente en ese cruce en ese momento exacto, sino de si efectivamente se cometió o no la infracción, lo cual es más justo para los conductores que sí respetan las normas todos los días.\n\nEs cierto que algunas personas señalan que el carro puede haber sido manejado por otra persona y no por el dueño, y que sancionar al propietario en esos casos no sería justo. Sin embargo, el propietario siempre tiene la opción de reclamar la multa si no fue él quien conducía en ese momento, así que el sistema igual permite corregir esos casos particulares sin necesidad de eliminar las fotomultas.\n\nPor todo esto, las fotomultas basadas en evidencia fotográfica son una forma justa y eficiente de hacer cumplir las normas de tránsito, y eliminarlas o limitarlas solo porque no hay un testigo presente dejaría sin castigo muchas infracciones que hoy sí se pueden sancionar gracias a esta tecnología.",
+    "anotaciones": [
+      {
+        "fragmento": "Las fotomultas son una herramienta justa y necesaria para sancionar infracciones de tránsito, incluso cuando no hay un testigo presente en el momento de los hechos.",
+        "categoria": "estructura",
+        "nota": "Marca el planteamiento explícito desde la primera frase: postura clara sin rodeos de contexto previo, igual que en un ensayo nivel 4."
+      },
+      {
+        "fragmento": "prueba clara y objetiva",
+        "categoria": "vocabulario_clave",
+        "nota": "Nombra la naturaleza de la evidencia fotográfica, aunque con un vocabulario más genérico que el técnico-jurídico de un ensayo nivel 4 — compárese con 'la carga se invierte' en CE-MODELO-020, que nombra el mecanismo legal preciso en vez de solo describir la prueba."
+      },
+      {
+        "fragmento": "de manera más pareja",
+        "categoria": "vocabulario_clave",
+        "nota": "Usa una expresión coloquial ('pareja' por 'equitativa' o 'uniforme') en vez de un término más preciso: una muestra del vocabulario correcto pero menos preciso que es típico de un ensayo nivel 3, no incorrecto pero tampoco tan cuidado como el de nivel 4."
+      },
+      {
+        "fragmento": "Antes de que existieran,",
+        "categoria": "conector",
+        "nota": "Conector temporal que contrasta el escenario sin cámaras con el actual, para justificar el argumento central del párrafo."
+      },
+      {
+        "fragmento": "el riesgo de recibir una sanción ya no depende de la suerte de que haya o no un agente en ese cruce en ese momento exacto, sino de si efectivamente se cometió o no la infracción",
+        "categoria": "recurso_estilistico",
+        "nota": "Estructura de contraste (ya no depende de X, sino de Y) que traduce el argumento en una imagen concreta."
+      },
+      {
+        "fragmento": "Es cierto que algunas personas señalan que el carro puede haber sido manejado por otra persona y no por el dueño, y que sancionar al propietario en esos casos no sería justo. Sin embargo, el propietario siempre tiene la opción de reclamar la multa si no fue él quien conducía en ese momento, así que el sistema igual permite corregir esos casos particulares sin necesidad de eliminar las fotomultas.",
+        "categoria": "contraargumento_reconocido",
+        "nota": "Reconoce la objeción más fuerte contra las fotomultas —que sancionan al dueño y no necesariamente a quien conducía—, pero la responde solo diciendo que el propietario 'siempre tiene la opción de reclamar', sin explicar ningún mecanismo concreto: no dice ante quién se reclama, con qué prueba, ni qué pasa si el reclamo no procede. Esta es justo la diferencia con un contraargumento nivel 4: compárese con CE-MODELO-020, que responde la misma objeción proponiendo una 'declaración simple' como mecanismo específico. Reconocer la objeción sin resolverla con esa misma profundidad es lo que mantiene este ensayo en nivel 3 y no en nivel 4."
+      },
+      {
+        "fragmento": "Por todo esto, las fotomultas basadas en evidencia fotográfica son una forma justa y eficiente de hacer cumplir las normas de tránsito",
+        "categoria": "estructura",
+        "nota": "Marca el inicio de la conclusión, retomando la idea de justicia y eficiencia planteada desde la introducción."
+      },
+      {
+        "fragmento": "dejaría sin castigo muchas infracciones que hoy sí se pueden sancionar gracias a esta tecnología",
+        "categoria": "recurso_estilistico",
+        "nota": "Cierra retomando la idea inicial sin repetir la misma frase, aunque de forma más directa y menos elaborada que el cierre de un ensayo nivel 4."
+      }
+    ]
   }
 ]

@@ -754,5 +754,264 @@
         ]
       }
     ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-087",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Un equipo de análisis ambiental quiere precipitar todo el plomo disuelto en una muestra de agua industrial usando yoduro de potasio, según la reacción balanceada Pb(NO₃)₂(aq) + 2KI(aq) → PbI₂(s) + 2KNO₃(aq). Para ello, mezclan 0,040 mol de Pb(NO₃)₂ con 0,060 mol de KI en un mismo recipiente.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-087",
+        "afirmacion": "establecer_estrategias",
+        "evidencia": "4.1",
+        "enunciado": "¿Cuál reactivo es el limitante, y cuántos mol de PbI₂ se forman como máximo?",
+        "opciones": {
+          "A": "El KI es el reactivo limitante, porque se necesitan 0,080 mol de KI para consumir por completo los 0,040 mol de Pb(NO₃)₂ disponibles (según la relación 1:2), pero solo hay 0,060 mol de KI; se forman como máximo 0,030 mol de PbI₂.",
+          "B": "El Pb(NO₃)₂ es el reactivo limitante, porque su cantidad disponible (0,040 mol) es menor que la de KI (0,060 mol); se forman como máximo 0,040 mol de PbI₂.",
+          "C": "El KI es el reactivo limitante; se forman como máximo 0,060 mol de PbI₂, considerando que cada mol de KI reacciona con un mol de Pb(NO₃)₂ para producir un mol de PbI₂.",
+          "D": "Ambos reactivos se consumen por completo de forma simultánea, formando 0,050 mol de PbI₂, el promedio de las cantidades molares disponibles de cada reactivo."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El KI es el reactivo limitante: la relación estequiométrica exige 2 mol de KI por cada mol de Pb(NO₃)₂, así que los 0,040 mol de Pb(NO₃)₂ requerirían 0,080 mol de KI, pero solo hay 0,060 mol disponibles; según la relación 2:1 entre KI y PbI₂, se forman 0,060/2 = 0,030 mol de PbI₂ como máximo.",
+        "distractores": {
+          "B": {
+            "explicacion": "Compara las cantidades molares absolutas de cada reactivo (0,040 frente a 0,060) sin tener en cuenta que la ecuación balanceada exige una relación 1:2 entre Pb(NO₃)₂ y KI; el reactivo con menos moles no es automáticamente el limitante.",
+            "patron_trampa": "compara_moles_absolutos_sin_relacion_estequiometrica"
+          },
+          "C": {
+            "explicacion": "Identifica correctamente al KI como limitante, pero ignora el coeficiente 2 de la ecuación balanceada al calcular el PbI₂ formado, tratando la relación KI:PbI₂ como 1:1 en lugar de 2:1.",
+            "patron_trampa": "ignora_coeficiente_estequiometrico"
+          },
+          "D": {
+            "explicacion": "Combina arbitrariamente las cantidades disponibles de ambos reactivos (promediándolas) sin aplicar ninguna relación estequiométrica real derivada de la ecuación balanceada.",
+            "patron_trampa": "combinacion_arbitraria_sin_relacion_estequiometrica"
+          }
+        },
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-QUI-001",
+          "PC-QUI-002"
+        ]
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-088",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "En un estudio de termoquímica se conocen las entalpías de dos reacciones relacionadas con la formación de óxidos de azufre: (1) S(s) + O₂(g) → SO₂(g), ΔH₁ = −296,8 kJ; (2) SO₂(g) + ½O₂(g) → SO₃(g), ΔH₂ = −98,9 kJ.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-088",
+        "afirmacion": "establecer_estrategias",
+        "evidencia": "4.1",
+        "enunciado": "Usando la ley de Hess, ¿cuál es la entalpía de la reacción S(s) + 3/2 O₂(g) → SO₃(g)?",
+        "opciones": {
+          "A": "−395,7 kJ, sumando directamente ΔH₁ + ΔH₂, porque al sumar las dos reacciones tal como están escritas, el SO₂ intermedio se cancela y el resultado neto es exactamente S(s) + 3/2 O₂(g) → SO₃(g).",
+          "B": "−197,9 kJ, restando ΔH₁ − ΔH₂, porque para aplicar la ley de Hess siempre es necesario invertir el signo de una de las dos reacciones antes de combinarlas.",
+          "C": "−98,9 kJ, usando solamente ΔH₂, porque es el paso que forma directamente el SO₃, y el paso previo de formación del SO₂ no forma parte del resultado final.",
+          "D": "+395,7 kJ, sumando los valores absolutos de ΔH₁ y ΔH₂, porque combinar dos reacciones exotérmicas siempre produce un proceso global endotérmico."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Sumando directamente las dos reacciones tal como están escritas, el SO₂ formado en la reacción (1) se cancela con el SO₂ consumido en la reacción (2), dejando exactamente S(s) + 3/2 O₂(g) → SO₃(g); por la ley de Hess, ΔH = ΔH₁ + ΔH₂ = −296,8 + (−98,9) = −395,7 kJ.",
+        "distractores": {
+          "B": {
+            "explicacion": "Asume incorrectamente que siempre hay que invertir el signo de una de las reacciones antes de combinarlas; en este caso las dos reacciones ya están escritas en el sentido correcto para sumarse directamente, sin necesidad de invertir ninguna.",
+            "patron_trampa": "invierte_reaccion_sin_necesidad"
+          },
+          "C": {
+            "explicacion": "Ignora que la ley de Hess exige sumar todos los pasos de la ruta que llevan del reactivo inicial al producto final, no solo el último paso; el paso de formación del SO₂ es indispensable para completar la ruta desde S(s).",
+            "patron_trampa": "ignora_pasos_intermedios_de_la_ruta"
+          },
+          "D": {
+            "explicacion": "Comete un error de signo: combinar dos procesos exotérmicos (ambos con ΔH negativo) produce un proceso global aún más exotérmico, no endotérmico; el signo negativo debe conservarse al sumar.",
+            "patron_trampa": "error_de_signo_al_combinar_entalpias"
+          }
+        },
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-QUI-019",
+          "PC-QUI-018"
+        ]
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-089",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Se desea balancear por el método de semirreacciones la reacción redox en medio ácido entre el ion dicromato y el ion hierro (II): Cr₂O₇²⁻(aq) + Fe²⁺(aq) + H⁺(aq) → Cr³⁺(aq) + Fe³⁺(aq) + H₂O(l). La semirreacción de reducción, ya balanceada, es: Cr₂O₇²⁻ + 14H⁺ + 6e⁻ → 2Cr³⁺ + 7H₂O.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-089",
+        "afirmacion": "establecer_estrategias",
+        "evidencia": "4.1",
+        "enunciado": "Si cada Fe²⁺ cede exactamente un electrón al oxidarse a Fe³⁺, ¿cuál es el coeficiente correcto de Fe²⁺ en la ecuación balanceada, y cuántos electrones se transfieren en total?",
+        "opciones": {
+          "A": "El coeficiente de Fe²⁺ es 6, y se transfieren 6 electrones en total: la semirreacción de reducción muestra que se necesitan 6 electrones (porque hay 2 átomos de Cr, y cada uno gana 3 electrones), y como cada Fe²⁺ solo cede 1 electrón, se necesitan 6 iones Fe²⁺ para aportarlos.",
+          "B": "El coeficiente de Fe²⁺ es 3, porque el ion dicromato completo solo necesita 3 electrones para reducirse, según lo que indica la semirreacción.",
+          "C": "El coeficiente de Fe²⁺ es 3, porque cada Fe²⁺ cede 2 electrones al oxidarse a Fe³⁺, y 6 electrones necesarios ÷ 2 electrones por Fe²⁺ = 3.",
+          "D": "El coeficiente de Fe²⁺ es 1, ya que basta con balancear los átomos de Cr, O e H visibles en la ecuación para que quede correctamente balanceada."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La semirreacción de reducción ya indica que se necesitan 6 electrones (6e⁻ en el lado de los reactivos); como cada Fe²⁺ cede exactamente 1 electrón al oxidarse a Fe³⁺, se necesitan 6 iones Fe²⁺ para aportar esos 6 electrones, así que el coeficiente de Fe²⁺ es 6 y se transfieren 6 electrones en total.",
+        "distractores": {
+          "B": {
+            "explicacion": "Ignora que la semirreacción ya muestra explícitamente 6 electrones (no 3), porque hay dos átomos de Cr reduciéndose (cada uno gana 3 electrones: +6 a +3), no uno solo.",
+            "patron_trampa": "ignora_atomos_multiples_en_semirreaccion"
+          },
+          "C": {
+            "explicacion": "Asigna incorrectamente el número de electrones que cede el Fe²⁺: al pasar de Fe²⁺ a Fe³⁺ solo se pierde 1 electrón (un cambio de una unidad de carga), no 2.",
+            "patron_trampa": "asigna_incorrectamente_electrones_transferidos"
+          },
+          "D": {
+            "explicacion": "Balancea solo los átomos visibles (Cr, O, H) sin verificar que el número de electrones cedidos en la oxidación sea igual al número de electrones ganados en la reducción, un error frecuente al balancear ecuaciones redox.",
+            "patron_trampa": "balancea_atomos_sin_verificar_electrones"
+          }
+        },
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-QUI-021",
+          "PC-QUI-022",
+          "PC-QUI-023"
+        ]
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-092",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "especifico_quimica",
+    "contexto_cientifico": "Un material nanocristalino tiene una energía de gap macroscópica (a escala 'bulk', sin efectos de confinamiento) de 1,20 eV. Según el modelo de confinamiento cuántico (partícula en una caja), el gap adicional generado por el confinamiento es proporcional a 1/r², donde r es el radio de la nanopartícula. Para una nanopartícula de radio 2 nm, el gap adicional medido experimentalmente es 0,80 eV.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-092",
+        "afirmacion": "establecer_estrategias",
+        "evidencia": "4.2",
+        "enunciado": "Si se sintetiza una nueva nanopartícula del mismo material con radio 1 nm (la mitad del anterior), ¿cuál sería el gap adicional esperado según el modelo, y cuál el gap energético total?",
+        "opciones": {
+          "A": "El gap adicional esperado sería 3,20 eV, y el gap total 4,40 eV. Como el gap adicional es proporcional a 1/r², al reducir el radio a la mitad, 1/r² se multiplica por 4 (porque (1/1²) / (1/2²) = 4); así, 0,80 eV × 4 = 3,20 eV de gap adicional, que sumado al gap macroscópico de 1,20 eV da un gap total de 4,40 eV.",
+          "B": "El gap adicional esperado sería 1,60 eV, y el gap total 2,80 eV, porque al reducir el radio a la mitad, el gap adicional simplemente se duplica en la misma proporción.",
+          "C": "El gap total esperado sería 3,20 eV, calculado multiplicando directamente 0,80 eV por 4.",
+          "D": "El gap adicional esperado sería 0,20 eV, y el gap total 1,40 eV, porque al reducir el radio a la mitad, el gap adicional se reduce a la cuarta parte."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El modelo predice que el gap adicional es proporcional a 1/r². Al reducir el radio de 2 nm a 1 nm, el factor 1/r² pasa de 1/4 a 1/1, es decir, se multiplica por 4; el gap adicional pasa de 0,80 eV a 0,80 × 4 = 3,20 eV. El gap total es la suma del gap macroscópico más el gap adicional: 1,20 + 3,20 = 4,40 eV.",
+        "distractores": {
+          "B": {
+            "explicacion": "Asume una relación lineal (proporcional a 1/r) entre el gap adicional y el radio, en lugar de la relación cuadrática inversa (proporcional a 1/r²) que realmente predice el modelo de confinamiento cuántico.",
+            "patron_trampa": "asume_relacion_lineal_en_vez_de_inversa_al_cuadrado"
+          },
+          "C": {
+            "explicacion": "Calcula correctamente el nuevo gap adicional (3,20 eV) pero olvida sumarle la contribución del gap energético macroscópico (1,20 eV) para obtener el gap total real de la nanopartícula.",
+            "patron_trampa": "omite_termino_de_energia_macroscopica"
+          },
+          "D": {
+            "explicacion": "Invierte la dirección de la relación de proporcionalidad: el modelo predice que reducir el radio AUMENTA el gap adicional (por un confinamiento más fuerte), no que lo disminuye.",
+            "patron_trampa": "invierte_la_relacion_de_proporcionalidad"
+          }
+        },
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-QUI-049",
+          "PC-QUI-052"
+        ]
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-093",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Una empresa de tecnología quiere evaluar si un nuevo programa de capacitación en liderazgo mejora el desempeño de sus empleados. Publica una convocatoria interna y deja que cada empleado decida voluntariamente si participa en el programa (grupo A) o continúa con sus labores normales sin capacitación (grupo B). Tres meses después, compara las evaluaciones de desempeño de ambos grupos y encuentra que el grupo A obtiene evaluaciones más altas.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-093",
+        "afirmacion": "establecer_estrategias",
+        "evidencia": "4.1",
+        "enunciado": "¿Qué estrategia de diseño permitiría atribuir con más confianza la diferencia de desempeño específicamente al programa de capacitación, y no a características previas de quienes decidieron inscribirse voluntariamente?",
+        "opciones": {
+          "A": "Asignar aleatoriamente a los empleados al grupo A o al grupo B (por ejemplo, por sorteo), en vez de dejar que cada uno elija participar o no; la aleatorización reparte de forma equilibrada, en promedio, tanto las diferencias conocidas como las desconocidas entre empleados (como su motivación o desempeño previo).",
+          "B": "Aumentar el número de empleados encuestados a 500, manteniendo el mismo diseño en el que cada empleado decide voluntariamente si participa o no.",
+          "C": "Usar una escala de evaluación de desempeño mucho más detallada y precisa, en lugar de la escala actual.",
+          "D": "Extender la duración del programa de capacitación a 6 meses en lugar de 3, manteniendo el mismo diseño de inscripción voluntaria."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Actualmente, los empleados más motivados o con mejor desempeño previo probablemente se autoseleccionan hacia el grupo A, contaminando la comparación; asignar aleatoriamente a los empleados a cada grupo reparte de forma equilibrada las variables de confusión (conocidas y desconocidas) entre ambos grupos, permitiendo atribuir la diferencia observada específicamente al programa.",
+        "distractores": {
+          "B": {
+            "explicacion": "Aumenta el tamaño de la muestra sin cambiar el diseño fundamental, por lo que no resuelve que los empleados más motivados probablemente se autoseleccionan hacia el grupo A.",
+            "patron_trampa": "diseño_no_controlado"
+          },
+          "C": {
+            "explicacion": "Mejora la precisión de la medición del resultado, pero no aborda el problema central: la falta de asignación aleatoria de quién participa en la capacitación.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Extiende la duración del programa sin cambiar el diseño fundamental, que sigue permitiendo que los empleados se autoseleccionen hacia cada grupo.",
+            "patron_trampa": "diseño_no_controlado"
+          }
+        },
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-EST-026",
+          "PC-EST-009"
+        ]
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-094",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Una empresa de cosméticos prueba una nueva crema antiarrugas. A 40 participantes se les entrega la crema (sin grupo placebo) y saben que están usando 'la fórmula nueva de la empresa'. Después de 8 semanas, una dermatóloga que sabe qué participantes recibieron la crema evalúa visualmente la reducción de arrugas de cada uno, y reporta una mejora notable en la mayoría.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-094",
+        "afirmacion": "establecer_estrategias",
+        "evidencia": "4.2",
+        "enunciado": "Más allá de la falta evidente de un grupo control con una crema placebo, ¿qué otro elemento del diseño sería importante añadir para reducir el riesgo de que los resultados estén sesgados?",
+        "opciones": {
+          "A": "Sería importante que el estudio fuera doble ciego: que ni los participantes ni la dermatóloga que evalúa las arrugas sepan quién recibió la crema real y quién el placebo, para evitar que la expectativa de ambos influya en la evaluación.",
+          "B": "Sería importante aumentar la cantidad de crema aplicada por cada participante, para asegurar que el efecto, si existe, sea lo suficientemente notable como para medirse con claridad.",
+          "C": "Sería importante realizar el estudio en una clínica de mayor prestigio, ya que la reputación del lugar donde se realiza un estudio influye directamente en la validez de sus resultados.",
+          "D": "Sería importante que la dermatóloga fuera la misma persona que fabricó la crema, para garantizar mayor consistencia en la evaluación de cada participante."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Cuando tanto los participantes como la evaluadora saben qué tratamiento se está probando, se introduce un sesgo de expectativa que puede inflar artificialmente los resultados reportados; un diseño doble ciego, donde ninguno de los dos sabe quién recibió el tratamiento real, ayuda a prevenir que esas expectativas contaminen la evaluación.",
+        "distractores": {
+          "B": {
+            "explicacion": "Propone un cambio en la dosis que no aborda el problema real señalado en el escenario: el sesgo introducido porque tanto los participantes como la evaluadora conocen el tratamiento.",
+            "patron_trampa": "diseño_no_controlado"
+          },
+          "C": {
+            "explicacion": "Propone un factor sin ninguna relación demostrada con la validez del estudio, y que no aborda el problema real de sesgo por expectativa identificado en el escenario.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "D": {
+            "explicacion": "Propone justamente lo contrario de lo necesario: que la misma persona involucrada en el desarrollo del producto lo evalúe aumentaría, no reduciría, el riesgo de sesgo de expectativa.",
+            "patron_trampa": "diseño_no_controlado"
+          }
+        },
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-EST-024",
+          "PC-EST-009"
+        ]
+      }
+    ]
   }
 ]

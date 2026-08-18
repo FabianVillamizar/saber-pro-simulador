@@ -1900,5 +1900,91 @@
         ]
       ]
     }
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-096",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Una aplicación de domicilios registra los tiempos de entrega (en minutos) de 5 pedidos consecutivos en una misma zona: 18, 19, 20, 21 y 95. Este último tiempo, notablemente alto, corresponde a un pedido retrasado por un accidente de tránsito en la ruta.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-096",
+        "afirmacion": "adquirir_interpretar",
+        "evidencia": "1.1",
+        "enunciado": "¿Qué medida representa mejor el tiempo 'típico' de entrega en esta zona: la media o la mediana? Calcule ambas.",
+        "opciones": {
+          "A": "La mediana (20 minutos) representa mejor el tiempo típico de entrega. La media es 173/5 = 34,6 minutos, un valor inflado por el tiempo atípico de 95 minutos causado por el accidente; la mediana, al ser el valor central de los datos ordenados (18, 19, 20, 21, 95), no se ve afectada de la misma forma por ese valor extremo.",
+          "B": "La media (34,6 minutos) siempre representa mejor el desempeño típico de un conjunto de datos, porque a diferencia de la mediana, usa el valor exacto de cada observación en su cálculo.",
+          "C": "La mediana es 19,5 minutos, calculada promediando los dos valores centrales del conjunto (19 y 20); esta cifra representa mejor el tiempo típico que la media de 34,6 minutos.",
+          "D": "Ninguna de las dos medidas es confiable en este caso: la diferencia tan grande entre la media (34,6) y la mediana (20) indica que los datos fueron mal recolectados y deben descartarse por completo."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La media es (18+19+20+21+95)/5 = 173/5 = 34,6 minutos, un valor inflado por el pedido atípico de 95 minutos; la mediana, con los datos ya ordenados (18, 19, 20, 21, 95), es el valor central único, 20 minutos, que representa mucho mejor el tiempo típico de entrega en esta zona.",
+        "distractores": {
+          "B": {
+            "explicacion": "Usa la media por defecto como la medida preferida, sin evaluar si un valor atípico (el pedido de 95 minutos causado por un accidente) está distorsionando su valor.",
+            "patron_trampa": "usa_media_por_defecto_sin_evaluar_atipicos"
+          },
+          "C": {
+            "explicacion": "Aplica incorrectamente la fórmula de la mediana para un conjunto con número par de datos a este conjunto de 5 datos (impar), donde la mediana es simplemente el valor central único (20), no un promedio de dos valores.",
+            "patron_trampa": "aplica_formula_de_mediana_par_a_conjunto_impar"
+          },
+          "D": {
+            "explicacion": "Descarta injustificadamente los datos válidos; la discrepancia entre media y mediana es precisamente la señal esperada de la presencia de un valor atípico, no evidencia de un error de recolección.",
+            "patron_trampa": "descarta_datos_validos_por_discrepancia_esperada"
+          }
+        },
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-EST-001",
+          "PC-EST-002"
+        ]
+      }
+    ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-097",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Un equipo de epidemiología debe preparar dos productos distintos con los datos de una campaña de vacunación: (1) un reporte técnico que otras instituciones deben citar, con las cifras exactas de dosis aplicadas en cada uno de 8 municipios; y (2) una infografía para redes sociales que muestre cómo fue evolucionando el ritmo semanal de vacunación durante los últimos 3 meses.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-097",
+        "afirmacion": "adquirir_interpretar",
+        "evidencia": "1.2",
+        "enunciado": "¿Qué forma de representación (tabla o gráfica, y de qué tipo) conviene para cada producto, y por qué?",
+        "opciones": {
+          "A": "Para el reporte con cifras exactas por municipio que otras instituciones deben citar, conviene una tabla, porque permite leer valores exactos sin ambigüedad. Para la infografía que muestra la evolución semanal durante 3 meses, conviene una gráfica de líneas, porque comunica mejor una tendencia numérica en el tiempo para un público general, aunque sacrifique algo de precisión.",
+          "B": "Para ambos productos conviene usar gráficas, porque las gráficas siempre comunican la información de forma más clara y visual que las tablas, sin importar el propósito de cada producto.",
+          "C": "Para ambos productos conviene usar tablas, porque las tablas son inherentemente más rigurosas y científicas que cualquier tipo de gráfica.",
+          "D": "Para la infografía de evolución semanal conviene un histograma, ya que un histograma es la forma estándar de representar cualquier tipo de dato numérico."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La elección entre tabla y gráfica depende del propósito de la comunicación: el reporte técnico exige cifras exactas y citables, algo que solo una tabla ofrece sin ambigüedad; la infografía busca comunicar una tendencia en el tiempo a un público general, un propósito que una gráfica de líneas cumple mucho mejor que una tabla, aunque sacrifique precisión en los valores exactos.",
+        "distractores": {
+          "B": {
+            "explicacion": "Asume que una gráfica siempre es la mejor opción, sin considerar que el reporte técnico exige justamente cifras exactas y citables, algo que una tabla ofrece mejor.",
+            "patron_trampa": "asume_que_grafica_siempre_es_mejor"
+          },
+          "C": {
+            "explicacion": "Asume que la tabla siempre es la opción más apropiada, ignorando que una tendencia a lo largo del tiempo, dirigida a un público general en redes sociales, se comunica mucho mejor con una gráfica de líneas.",
+            "patron_trampa": "asume_que_tabla_siempre_es_mas_rigurosa"
+          },
+          "D": {
+            "explicacion": "Confunde un histograma (que muestra cómo se distribuye un conjunto de datos en un momento dado) con una gráfica de líneas (que muestra cómo cambia una variable numérica a lo largo del tiempo), dos herramientas para propósitos distintos.",
+            "patron_trampa": "confunde_histograma_de_distribucion_con_tendencia_temporal"
+          }
+        },
+        "dificultad": "media",
+        "tarjetas_teoria_relacionada": [
+          "PC-EST-027",
+          "PC-EST-028"
+        ]
+      }
+    ]
   }
 ]

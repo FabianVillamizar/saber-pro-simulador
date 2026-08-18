@@ -570,5 +570,19 @@
       "CC-ARG-035",
       "CC-ARG-036"
     ]
+  },
+  {
+    "id": "CC-ARG-038",
+    "modulo": "competencias_ciudadanas",
+    "tipo": "concepto",
+    "competencia_asociada": "argumentacion",
+    "bloque": "tipos_de_falacias_comunes",
+    "pregunta": "¿En qué consiste la falacia de confundir correlación con causalidad?",
+    "respuesta_breve": "Consiste en concluir que un fenómeno causa otro solo porque ambos aparecen juntos o en secuencia, sin haber descartado otras explicaciones ni mostrado un mecanismo causal real.",
+    "explicacion": "Que dos hechos coincidan en tiempo o lugar no prueba que uno produzca al otro: puede ser coincidencia, puede existir una tercera causa común, o la relación podría ir en sentido inverso al asumido. Afirmar causalidad exige evidencia del mecanismo, no solo observar que ambos ocurren juntos.",
+    "ejemplo_aplicado": "Ver que un policía de tránsito suele estar presente donde hay congestión vehicular no prueba que él la cause; puede estar ahí precisamente porque fue enviado a gestionar una congestión ya generada por otras causas.",
+    "error_comun": "Se acepta la correlación como prueba suficiente de causalidad, ignorando que la dirección de la causa podría ser la contraria o que ambos efectos respondan a una causa común distinta.",
+    "dificultad": "media",
+    "prereqs": []
   }
 ]

@@ -690,5 +690,49 @@
         ]
       }
     ]
+  },
+  {
+    "tipo": "contexto_cientifico",
+    "id": "PC-GRUPO-100",
+    "modulo": "pensamiento_cientifico",
+    "nucleo": "comun",
+    "contexto_cientifico": "Un protocolo de control de calidad en una planta de aceite de oliva mide el tiempo que tarda una muestra en enturbiarse al enfriarla a una temperatura controlada, comparando ese tiempo con el de una muestra de aceite de oliva puro certificado como referencia. Un supervisor interpreta que el objetivo del protocolo es 'determinar el rendimiento del proceso de extracción del aceite'.",
+    "tipo_visual": "ninguno",
+    "preguntas": [
+      {
+        "id": "PC-ITEM-100",
+        "afirmacion": "plantear_preguntas",
+        "evidencia": "5.1",
+        "enunciado": "¿Es correcta esta identificación del objetivo del protocolo?",
+        "opciones": {
+          "A": "No es correcta: comparar el tiempo de enturbiamiento de la muestra contra el de un aceite puro certificado evalúa la pureza del aceite (si fue mezclado o adulterado con otros aceites), no el rendimiento del proceso de extracción, que exigiría medir la cantidad de aceite obtenida en relación con la cantidad de aceitunas procesadas.",
+          "B": "No es correcta: el protocolo en realidad busca determinar la concentración exacta de aceite en la muestra, no su rendimiento de extracción.",
+          "C": "Sí es correcta, porque medir cuánto tarda una muestra en enturbiarse es la forma estándar de determinar el rendimiento de cualquier proceso de extracción de aceite.",
+          "D": "No es correcta: el objetivo real del protocolo es determinar el punto de fusión exacto del aceite de oliva, ya que el enfriamiento controlado es la técnica estándar para medir puntos de fusión."
+        },
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El objetivo de un protocolo se identifica por qué variable se mide realmente y contra qué se compara: aquí se compara el tiempo de enturbiamiento de la muestra con el de un aceite puro certificado, lo que evalúa la pureza (si el aceite fue adulterado), no el rendimiento del proceso de extracción, que requeriría comparar la cantidad de aceite obtenida contra la cantidad de materia prima procesada.",
+        "distractores": {
+          "B": {
+            "explicacion": "Aunque identifica correctamente que 'rendimiento de extracción' no es el objetivo, cae en el mismo error de fondo: asocia cualquier medición de una propiedad física comparada con una referencia con 'determinar concentración', en lugar de reconocer que en este caso evalúa pureza.",
+            "patron_trampa": "confunde_pureza_con_concentracion"
+          },
+          "C": {
+            "explicacion": "Identifica el objetivo por el tipo general de procedimiento (una prueba de laboratorio sobre aceite) en lugar de analizar qué variable específica se está midiendo y contra qué se está comparando.",
+            "patron_trampa": "identifica_objetivo_por_tipo_general_de_procedimiento"
+          },
+          "D": {
+            "explicacion": "Confunde la variable específica que realmente se mide (el tiempo hasta el enturbiamiento, comparado contra una referencia de pureza) con una técnica distinta (determinación de punto de fusión), que no es lo que describe el protocolo.",
+            "patron_trampa": "confunde_variable_medida_con_tecnica_distinta"
+          }
+        },
+        "dificultad": "alta",
+        "tarjetas_teoria_relacionada": [
+          "PC-EST-019",
+          "PC-EST-020",
+          "PC-QUI-060"
+        ]
+      }
+    ]
   }
 ]
