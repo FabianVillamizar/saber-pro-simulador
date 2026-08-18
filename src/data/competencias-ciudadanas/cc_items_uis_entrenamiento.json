@@ -32,7 +32,10 @@
             "explicacion": "La consulta popular somete una pregunta de trascendencia a votación directa de los ciudadanos; el escenario descrito no es una votación sino una sesión pública deliberativa convocada por el Concejo, que es justamente la definición del cabildo abierto.",
             "patron_trampa": "confusion_dimension"
           }
-        }
+        },
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-035"
+        ]
       }
     ],
     "tipo": "situacion_multiple"
@@ -184,7 +187,10 @@
             "explicacion": "La primacía del interés general no es el principio en juego aquí; el problema estructural es que se elimina la independencia entre ramas del poder público, sin importar si la medida se justifica invocando 'los intereses supremos del pueblo'.",
             "patron_trampa": "confusion_dimension"
           }
-        }
+        },
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-009"
+        ]
       }
     ],
     "tipo": "situacion_multiple"
@@ -222,7 +228,18 @@
             "explicacion": "Aunque la libertad de expresión sí es uno de los derechos en tensión, el otro derecho realmente alegado por Carlos es la honra y el buen nombre (afectación a su reputación y reconocimiento profesional), no la libertad de conciencia, que se refiere a convicciones íntimas y no a la reputación de una persona.",
             "patron_trampa": "confusion_dimension"
           }
-        }
+        },
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-025",
+          "CC-MUL-026",
+          "CC-MUL-027",
+          "CC-MUL-028",
+          "CC-MUL-029",
+          "CC-MUL-030",
+          "CC-MUL-031",
+          "CC-MUL-032",
+          "CC-MUL-033"
+        ]
       }
     ],
     "tipo": "situacion_multiple"
@@ -260,7 +277,10 @@
             "explicacion": "La labor social de las iglesias no es la razón constitucional de la separación Estado-iglesia; el texto fundamenta la separación en la neutralidad estatal y la igualdad entre confesiones, no en las obras de asistencia social de las iglesias.",
             "patron_trampa": "confusion_dimension"
           }
-        }
+        },
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-044"
+        ]
       }
     ],
     "tipo": "situacion_multiple"
@@ -298,7 +318,12 @@
             "explicacion": "Este enunciado solo repite un hecho ya mencionado en el texto (el reto de evitar que la marcha se politizara); usado como 'razón para aceptar el aval' invierte su sentido, porque ese reto es precisamente un argumento de cautela frente a la captura partidista, no una justificación para aceptarla.",
             "patron_trampa": "causa_efecto_invertida"
           }
-        }
+        },
+        "tarjetas_teoria_relacionada": [
+          "CC-ARG-032",
+          "CC-ARG-033",
+          "CC-ARG-034"
+        ]
       }
     ],
     "tipo": "situacion_multiple"
@@ -374,7 +399,12 @@
             "explicacion": "Que sea el Estado (y no la Iglesia) quien establece normas vinculantes para todos los ciudadanos es exactamente lo que corresponde a un Estado laico; es coherente con la separación, no la proposición que la contradice.",
             "patron_trampa": "confusion_dimension"
           }
-        }
+        },
+        "tarjetas_teoria_relacionada": [
+          "CC-ARG-019",
+          "CC-ARG-020",
+          "CC-ARG-021"
+        ]
       }
     ],
     "tipo": "situacion_multiple"
@@ -399,7 +429,7 @@
         },
         "respuesta_correcta": "B",
         "explicacion_correcta": "Con la matriz de pagos dada, incriminar es la **estrategia dominante**: si el compañero calla, incriminarlo a él le da a usted la libertad (mejor que 1 año callando); si el compañero lo incrimina a usted, incriminarlo también le da 5 años (mejor que 20 años callando). La opción B identifica correctamente que, ante la incriminación del otro, la respuesta racional para minimizar su propia condena es también incriminar.",
-          "distractores": {
+        "distractores": {
           "A": {
             "explicacion": "El razonamiento está invertido: si el compañero se mantiene en silencio y usted también calla, la condena es de un año, no la libertad; quien queda en libertad en ese escenario es quien incrimina al otro, no quien también calla.",
             "patron_trampa": "confusion_dimension"
@@ -526,7 +556,10 @@
             "explicacion": "Aplica el criterio del 'perjuicio irremediable inminente', que corresponde a la tutela como mecanismo transitorio, cuando el caso encaja mejor en la vía de la conexidad con un derecho fundamental (salud/descanso) tras una privación prolongada, no en la urgencia de un daño inminente.",
             "patron_trampa": "confusion_dimension"
           }
-        }
+        },
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-024"
+        ]
       }
     ],
     "tipo": "situacion_multiple"
@@ -564,7 +597,18 @@
             "explicacion": "Igual que la anterior, encuadra el conflicto como uno económico-ambiental entre instituciones, cuando en realidad es entre una necesidad de salubridad de la capital y la voluntad popular del municipio vecino.",
             "patron_trampa": "confusion_dimension"
           }
-        }
+        },
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-025",
+          "CC-MUL-026",
+          "CC-MUL-027",
+          "CC-MUL-028",
+          "CC-MUL-029",
+          "CC-MUL-030",
+          "CC-MUL-031",
+          "CC-MUL-032",
+          "CC-MUL-033"
+        ]
       }
     ],
     "tipo": "situacion_multiple"
@@ -602,7 +646,12 @@
             "explicacion": "El texto no menciona ninguna postura de los activistas sobre el desarrollo económico; su interés declarado es específicamente evitar el maltrato animal en la experimentación, no oponerse al desarrollo económico en general.",
             "patron_trampa": "interes_mal_atribuido"
           }
-        }
+        },
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-001",
+          "CC-MUL-002",
+          "CC-MUL-003"
+        ]
       }
     ],
     "tipo": "situacion_multiple"
@@ -654,7 +703,7 @@
       {
         "id": "CC-ITEM-146",
         "competencia": "argumentacion",
-        "bloque": "estructura_del_argumento",
+        "bloque": "refutar_vs_sustentar_un_argumento",
         "enunciado": "De acuerdo con la información suministrada, Ernesto debe cumplir a cabalidad el contrato y pagar completamente la deuda porque:",
         "dificultad": "media",
         "opciones": {
@@ -678,7 +727,12 @@
             "explicacion": "Esta opción es una apelación compasiva a la situación de Ernesto, pero no constituye una razón que sustente que deba pagar la deuda; de hecho, funciona como argumento de simpatía en sentido contrario al pago exigido.",
             "patron_trampa": "falacia_apelacion_emocion"
           }
-        }
+        },
+        "tarjetas_teoria_relacionada": [
+          "CC-ARG-032",
+          "CC-ARG-033",
+          "CC-ARG-034"
+        ]
       }
     ],
     "tipo": "situacion_multiple"
@@ -729,8 +783,8 @@
     "preguntas": [
       {
         "id": "CC-ITEM-148",
-        "competencia": "pensamiento_sistemico",
-        "bloque": "consecuencias_deseadas_vs_no_deseadas",
+        "competencia": "argumentacion",
+        "bloque": "generalizacion_indebida_muestra_no_representativa",
         "enunciado": "¿Cuál de los siguientes enunciados es una consecuencia razonable de lo dicho por el gerente?",
         "dificultad": "media",
         "opciones": {
@@ -754,7 +808,12 @@
             "explicacion": "El texto no sugiere que la motivación del gerente sea manipular la reducción de impuestos; su justificación explícita es un prejuicio regional sobre el desempeño laboral, no una estrategia fiscal fraudulenta.",
             "patron_trampa": "confusion_dimension"
           }
-        }
+        },
+        "tarjetas_teoria_relacionada": [
+          "CC-ARG-010",
+          "CC-ARG-011",
+          "CC-ARG-012"
+        ]
       }
     ],
     "tipo": "situacion_multiple"
@@ -830,7 +889,12 @@
             "explicacion": "Esta afirmación igualmente sustenta la decisión: describe los derechos fundamentales concretos (libre desarrollo de la personalidad, dignidad, igualdad, no discriminación) que la decisión del profesor efectivamente protege.",
             "patron_trampa": "confusion_dimension"
           }
-        }
+        },
+        "tarjetas_teoria_relacionada": [
+          "CC-ARG-019",
+          "CC-ARG-020",
+          "CC-ARG-021"
+        ]
       }
     ],
     "tipo": "situacion_multiple"
@@ -868,7 +932,18 @@
             "explicacion": "Trata el derecho a la identidad y a la convivencia diversa como si no tuviera límite alguno frente a la disrupción real y sostenida de la actividad académica, cuando ese es precisamente el escenario en que el derecho puede limitarse legítimamente.",
             "patron_trampa": "alcance_incorrecto_derecho"
           }
-        }
+        },
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-025",
+          "CC-MUL-026",
+          "CC-MUL-027",
+          "CC-MUL-028",
+          "CC-MUL-029",
+          "CC-MUL-030",
+          "CC-MUL-031",
+          "CC-MUL-032",
+          "CC-MUL-033"
+        ]
       }
     ],
     "tipo": "situacion_multiple"
@@ -906,7 +981,11 @@
             "explicacion": "Se enfoca únicamente en el tamaño del núcleo familiar afectado como justificación, dejando fuera la razón estructural más amplia (la violación de derechos humanos y del DIH que implica el desplazamiento forzado en sí mismo).",
             "patron_trampa": "confusion_dimension"
           }
-        }
+        },
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-022",
+          "CC-CON-062"
+        ]
       },
       {
         "id": "CC-ITEM-153",
@@ -935,7 +1014,11 @@
             "explicacion": "Sustituye 'enfermos terminales' por 'minorías marginadas', una categoría demasiado amplia e imprecisa comparada con las categorías puntuales (discapacidad, tercera edad, zonas de alto riesgo, etc.) que efectivamente usa esta línea jurisprudencial.",
             "patron_trampa": "generalizacion_invalida"
           }
-        }
+        },
+        "tarjetas_teoria_relacionada": [
+          "CC-CON-022",
+          "CC-CON-062"
+        ]
       }
     ],
     "tipo": "situacion_multiple"
@@ -973,7 +1056,12 @@
             "explicacion": "Sí es una inferencia válida aplicada al caso concreto: si la alimentación es 'bárbara' y la administración no ha tomado medidas positivas para corregirlo, se sigue directamente del deber de garantía descrito que el derecho a la alimentación digna debería tutelarse.",
             "patron_trampa": "confusion_dimension"
           }
-        }
+        },
+        "tarjetas_teoria_relacionada": [
+          "CC-ARG-019",
+          "CC-ARG-020",
+          "CC-ARG-021"
+        ]
       }
     ],
     "tipo": "situacion_multiple"
@@ -1011,7 +1099,13 @@
             "explicacion": "Combina modalidades para mantener la continuidad pedagógica pese a la emergencia, una adaptación razonable frente a la crisis, no una medida que recorte el derecho.",
             "patron_trampa": "confusion_dimension"
           }
-        }
+        },
+        "tarjetas_teoria_relacionada": [
+          "CC-SIS-019",
+          "CC-SIS-020",
+          "CC-SIS-021",
+          "CC-SIS-022"
+        ]
       }
     ],
     "tipo": "situacion_multiple"
@@ -1049,7 +1143,18 @@
             "explicacion": "Encuadra el conflicto como uno entre políticas económicas de la alcaldía y salubridad del Área, cuando en realidad es entre la necesidad de salubridad y la voluntad popular del municipio vecino expresada en la consulta.",
             "patron_trampa": "confusion_dimension"
           }
-        }
+        },
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-025",
+          "CC-MUL-026",
+          "CC-MUL-027",
+          "CC-MUL-028",
+          "CC-MUL-029",
+          "CC-MUL-030",
+          "CC-MUL-031",
+          "CC-MUL-032",
+          "CC-MUL-033"
+        ]
       }
     ],
     "tipo": "situacion_multiple"
@@ -1087,7 +1192,12 @@
             "explicacion": "Reduce la postura de los activistas a una caricatura ('que todos desarrollen sentimientos de apego') que el texto no sostiene; su posición real es evitar el maltrato y la muerte de los primates en los experimentos.",
             "patron_trampa": "falacia_hombre_de_paja"
           }
-        }
+        },
+        "tarjetas_teoria_relacionada": [
+          "CC-MUL-001",
+          "CC-MUL-002",
+          "CC-MUL-003"
+        ]
       }
     ],
     "tipo": "situacion_multiple"
