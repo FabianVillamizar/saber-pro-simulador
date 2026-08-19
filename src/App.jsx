@@ -6,6 +6,7 @@ import { Home } from './paginas/Home.jsx'
 import { ModuloHub } from './paginas/ModuloHub.jsx'
 import { RepasoConceptos } from './paginas/RepasoConceptos.jsx'
 import { PracticaPorParte } from './paginas/PracticaPorParte.jsx'
+import { QuizRapido } from './paginas/QuizRapido.jsx'
 import { Simulacro } from './paginas/Simulacro.jsx'
 import { Ajustes } from './paginas/Ajustes.jsx'
 import { LeccionCompleta } from './paginas/LeccionCompleta.jsx'
@@ -172,6 +173,17 @@ function App() {
   if (pantalla.tipo === 'practica-parte') {
     return (
       <PracticaPorParte
+        moduloId={pantalla.moduloId}
+        perfil={perfil}
+        onCambiarPerfil={onCambiarPerfil}
+        onVolver={volverAModulo}
+      />
+    )
+  }
+
+  if (pantalla.tipo === 'quiz-rapido') {
+    return (
+      <QuizRapido
         moduloId={pantalla.moduloId}
         perfil={perfil}
         onCambiarPerfil={onCambiarPerfil}

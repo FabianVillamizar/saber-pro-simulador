@@ -28,6 +28,11 @@ const MODOS = [
     descripcion: 'Elige una parte o competencia y practica sus ítems en orden aleatorio con feedback inmediato.',
   },
   {
+    id: 'quiz-rapido',
+    nombre: 'Quiz rápido',
+    descripcion: 'Sesión corta y mezclada de todo el banco, con corrección inmediata y diagnóstico por sub-categoría al final.',
+  },
+  {
     id: 'simulacro',
     nombre: 'Simulacro completo',
     descripcion: 'Preguntas respetando la proporción real por parte, cronometrado.',
@@ -127,9 +132,13 @@ export function ModuloHub({ moduloId, perfil, onCambiarPerfil, onVolver, onSelec
     : esComunicacionEscrita
       ? [MODOS[0], ...MODOS_COMUNICACION_ESCRITA]
       : [
-          ...MODOS.filter((modo) => modo.id !== 'simulacro' || modulo.soportaSimulacro).filter(
-            (modo) => modo.id !== 'practica-parte' || modulo.preguntas.length > 0
-          ),
+          ...MODOS.filter((modo) => modo.id !== 'simulacro' || modulo.soportaSimulacro)
+            .filter((modo) => modo.id !== 'practica-parte' || modulo.preguntas.length > 0)
+            // Quiz rápido cubre el mismo hueco que "Escribe la respuesta" ya
+            // cubre para Inglés (repaso corto y mezclado con corrección
+            // inmediata) — se excluye ahí para no duplicar el modo, ver
+            // MODO_ESCRIBIR_INGLES arriba.
+            .filter((modo) => modo.id !== 'quiz-rapido' || (modulo.preguntas.length > 0 && !esIngles)),
           ...(esIngles ? [MODO_ESCRIBIR_INGLES] : []),
           ...(esRazonamientoCuantitativo ? [MODO_LAPIZ_PAPEL_RC] : []),
         ]
