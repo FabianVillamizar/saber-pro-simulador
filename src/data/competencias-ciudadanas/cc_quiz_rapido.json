@@ -912,5 +912,455 @@
       "el otro actor involucrado"
     ],
     "explicacion": "Cuando el resultado de una persona depende de lo que decida otra, no basta con evaluar la propia situación en aislamiento. Confundir la opción moralmente preferible con la que minimiza el riesgo individual es un error común de este tipo de dilemas."
+  },
+  {
+    "id": "CC-QR-061",
+    "tarjetaId": "CC-CON-022",
+    "categoria": "conocimientos",
+    "formato": "mcq",
+    "enunciado": "Un municipio recorta a la mitad, sin ninguna justificación técnica ni presupuestal, el programa de vivienda de interés social que llevaba diez años funcionando. ¿Qué principio constitucional se vulnera?",
+    "opciones": [
+      "El principio de progresividad, porque el Estado retrocede injustificadamente en un derecho social ya logrado",
+      "El principio de neutralidad estatal, porque el municipio favorece a un grupo religioso sobre otro",
+      "El principio de conexidad, porque el recorte pone en riesgo directo el derecho a la vida de los afectados",
+      "El principio de reserva de ley estatutaria, porque el recorte debía tramitarse como una ley especial"
+    ],
+    "correcta": 0,
+    "explicacion": "Los derechos sociales como la vivienda dependen de las capacidades del Estado, por lo que su cumplimiento avanza de forma progresiva. Retroceder en lo ya logrado sin ninguna justificación real es lo que la Corte considera una regresión inconstitucional."
+  },
+  {
+    "id": "CC-QR-062",
+    "tarjetaId": "CC-CON-022",
+    "categoria": "conocimientos",
+    "formato": "fill",
+    "enunciado": "Completa la idea sobre el principio de progresividad:",
+    "antes": "A diferencia de los derechos fundamentales de aplicación inmediata, los derechos económicos, sociales y culturales dependen de las capacidades del Estado. Por eso su cumplimiento avanza de forma",
+    "despues": "y el Estado no puede retroceder injustificadamente en lo ya logrado.",
+    "respuesta": "progresiva",
+    "alternativas": [
+      "progresiva"
+    ],
+    "explicacion": "Que un derecho social no se pueda exigir de inmediato ante un juez no significa que quede sin protección. Muchos terminan protegidos mediante tutela cuando su vulneración pone en riesgo un derecho fundamental conectado, como la vida."
+  },
+  {
+    "id": "CC-QR-063",
+    "tarjetaId": "CC-CON-027",
+    "categoria": "conocimientos",
+    "formato": "mcq",
+    "enunciado": "Un hospital público anuncia que garantiza las citas de control para pacientes con enfermedades crónicas, pero en la práctica solo asigna una cita cada seis meses aunque el tratamiento exige revisión mensual, dejando a los pacientes sin control real de su enfermedad. ¿Qué tipo de vulneración describe mejor esta situación?",
+    "opciones": [
+      "Una vulneración disfrazada, porque formalmente se ofrece el servicio pero en la práctica lo vacía de contenido real",
+      "Una vulneración directa, porque el hospital niega abiertamente el derecho a la salud de los pacientes",
+      "Una vulneración por conexidad, porque el derecho a la salud se conecta aquí con el derecho a la vivienda",
+      "Ninguna vulneración, porque el hospital sí ofrece formalmente el servicio de citas de control"
+    ],
+    "correcta": 0,
+    "explicacion": "El hospital no niega el servicio abiertamente, pero las condiciones que impone lo hacen prácticamente inútil para el propósito real del tratamiento. Identificar esta diferencia importa fuera de cualquier examen: es lo que distingue a una entidad que de verdad protege un derecho de una que solo cumple con la forma."
+  },
+  {
+    "id": "CC-QR-064",
+    "tarjetaId": "CC-CON-027",
+    "categoria": "conocimientos",
+    "formato": "build",
+    "enunciado": "Arma qué distingue una vulneración disfrazada de una directa:",
+    "fragmentos": [
+      "la autoridad permite formalmente el derecho,",
+      "pero impone condiciones",
+      "que en la práctica lo vacían de contenido real"
+    ],
+    "explicacion": "Una vulneración directa niega el derecho abiertamente. La disfrazada es más sutil: nadie lo negó explícitamente, pero las condiciones impuestas lo vuelven imposible o inútil de ejercer en la práctica."
+  },
+  {
+    "id": "CC-QR-065",
+    "tarjetaId": "CC-CON-003",
+    "categoria": "conocimientos",
+    "formato": "mcq",
+    "enunciado": "La Cámara de Representantes formula una acusación contra el Fiscal General por una presunta falta grave. ¿Qué corporación debe juzgar esa acusación?",
+    "opciones": [
+      "El Senado, porque tiene la función exclusiva de juzgar las acusaciones que la Cámara formule contra altos funcionarios",
+      "La misma Cámara de Representantes, porque quien acusa también resuelve el proceso completo",
+      "La Corte Suprema de Justicia, porque es el tribunal de cierre de la jurisdicción ordinaria penal",
+      "El Consejo de Estado, porque el Fiscal General es un alto funcionario de la rama ejecutiva"
+    ],
+    "correcta": 0,
+    "explicacion": "La Constitución reparte estas funciones a propósito entre las dos cámaras: la Cámara acusa y el Senado juzga. Ninguna de las dos corporaciones concentra ambos poderes sobre un mismo proceso."
+  },
+  {
+    "id": "CC-QR-066",
+    "tarjetaId": "CC-CON-003",
+    "categoria": "conocimientos",
+    "formato": "fill",
+    "enunciado": "Completa la idea sobre las funciones exclusivas del Senado:",
+    "antes": "Aunque ambas cámaras legislan por igual, la Constitución les asigna funciones exclusivas distintas: elegir al Defensor del Pueblo le corresponde a la Cámara de Representantes, mientras que elegir al Procurador General y a los magistrados de la Corte Constitucional le corresponde al",
+    "despues": ".",
+    "respuesta": "Senado",
+    "alternativas": [
+      "Senado"
+    ],
+    "explicacion": "El diseño constitucional reparte deliberadamente estas funciones adicionales para que ninguna de las dos cámaras concentre todo el poder de nombramiento y juzgamiento sobre los altos funcionarios del Estado."
+  },
+  {
+    "id": "CC-QR-067",
+    "tarjetaId": "CC-CON-023",
+    "categoria": "conocimientos",
+    "formato": "mcq",
+    "enunciado": "Una empresa vierte residuos químicos en un río que abastece de agua a varios municipios. Ningún habitante en particular puede probar todavía un perjuicio individual concreto, pero la comunidad entera está en riesgo. ¿Qué mecanismo judicial es el adecuado?",
+    "opciones": [
+      "La acción popular, porque protege un derecho colectivo como el ambiente sano sin exigir un perjuicio individual probado",
+      "La acción de tutela, porque protege derechos fundamentales de una persona frente a una vulneración concreta",
+      "La acción de cumplimiento, porque exige aplicar una norma ambiental vigente que la empresa está incumpliendo",
+      "El habeas corpus, porque protege la libertad personal de quienes habitan cerca del río contaminado"
+    ],
+    "correcta": 0,
+    "explicacion": "Los derechos colectivos pertenecen a la comunidad entera, no a una persona en particular, así que su mecanismo natural de protección es la acción popular, que cualquier habitante puede interponer en representación del interés colectivo."
+  },
+  {
+    "id": "CC-QR-068",
+    "tarjetaId": "CC-CON-023",
+    "categoria": "conocimientos",
+    "formato": "fill",
+    "enunciado": "Completa la idea sobre la diferencia entre tutela y acción popular:",
+    "antes": "Los derechos colectivos, como el ambiente sano o el espacio público, no son de titularidad individual sino de toda la comunidad afectada. Se confunden con la tutela porque ambas son mecanismos judiciales, pero la tutela protege a una persona frente a una vulneración concreta, mientras que la acción popular protege a",
+    "despues": "frente a un daño que afecta a un número indeterminado de personas.",
+    "respuesta": "la colectividad",
+    "alternativas": [
+      "la colectividad"
+    ],
+    "explicacion": "Distinguir estos dos mecanismos evita elegir el camino judicial equivocado: pedir una tutela individual para un daño que en realidad afecta a todo un barrio o municipio no protege el derecho de la misma forma que una acción popular."
+  },
+  {
+    "id": "CC-QR-069",
+    "tarjetaId": "CC-CON-024",
+    "categoria": "conocimientos",
+    "formato": "mcq",
+    "enunciado": "A un niño con una malformación congénita le niegan una cirugía reconstructiva porque su EPS alega que el procedimiento no está en el plan de beneficios. Sin la cirugía, su desarrollo físico quedará permanentemente comprometido. ¿Por qué puede protegerse este caso mediante tutela?",
+    "opciones": [
+      "Porque la negación pone en riesgo directo y verificable otro derecho fundamental, conectando la salud con la integridad del niño",
+      "Porque cualquier negación de un servicio de salud, sin importar su gravedad, siempre puede protegerse mediante tutela",
+      "Porque los niños tienen automáticamente todos sus derechos sociales elevados a la categoría de fundamentales",
+      "Porque la EPS no tiene ninguna obligación legal de justificar sus decisiones sobre el plan de beneficios"
+    ],
+    "correcta": 0,
+    "explicacion": "La Corte exige una relación directa y verificable entre la vulneración y el riesgo real para el derecho fundamental, no basta con mencionar la salud junto a la palabra vida. Aquí el riesgo para la integridad del niño es concreto y demostrable."
+  },
+  {
+    "id": "CC-QR-070",
+    "tarjetaId": "CC-CON-024",
+    "categoria": "conocimientos",
+    "formato": "build",
+    "enunciado": "Arma qué permite proteger un derecho social como la salud mediante tutela:",
+    "fragmentos": [
+      "que negar el servicio",
+      "ponga en riesgo directo",
+      "otro derecho fundamental, como la vida o la integridad"
+    ],
+    "explicacion": "Esta doctrina conectó derechos sociales con derechos fundamentales antes de que la jurisprudencia reconociera algunos de ellos como fundamentales por sí solos, y sigue siendo la vía real para exigir servicios de salud urgentes hoy."
+  },
+  {
+    "id": "CC-QR-071",
+    "tarjetaId": "CC-CON-028",
+    "categoria": "conocimientos",
+    "formato": "mcq",
+    "enunciado": "Despiden a una trabajadora doméstica apenas su empleador se entera de que está embarazada, sin ninguna justificación distinta al embarazo. ¿Cuál de las siguientes opciones describe más completamente los derechos vulnerados?",
+    "opciones": [
+      "Se vulneran a la vez el derecho a la igualdad, por la discriminación de género, y la estabilidad laboral reforzada de la mujer embarazada",
+      "Se vulnera únicamente el derecho al trabajo, porque el despido no menciona explícitamente ningún motivo discriminatorio",
+      "Se vulnera únicamente el derecho a la igualdad, porque el contrato de trabajo doméstico no genera estabilidad laboral",
+      "No se vulnera ningún derecho, porque el empleador tiene libertad total para terminar un contrato laboral"
+    ],
+    "correcta": 0,
+    "explicacion": "Cuando una misma situación afecta más de un derecho a la vez, la respuesta correcta suele ser la que reconoce esa vulneración conjunta, no solo una de las dos caras del problema. Aquí el embarazo activa a la vez una discriminación de género y la protección reforzada del empleo."
+  },
+  {
+    "id": "CC-QR-072",
+    "tarjetaId": "CC-CON-028",
+    "categoria": "conocimientos",
+    "formato": "mcq",
+    "enunciado": "Un colegio público sanciona a un estudiante indígena por asistir a clases con su vestimenta tradicional, exigiéndole usar únicamente el uniforme estándar. ¿Qué combinación de derechos describe mejor el conflicto?",
+    "opciones": [
+      "El derecho a la diversidad étnica y cultural junto con el derecho a la igualdad, porque la sanción impone una identidad ajena a su cultura",
+      "Únicamente el derecho a la educación, porque lo central es que el estudiante siga recibiendo clases con normalidad",
+      "Únicamente el derecho a la libertad de expresión, porque la vestimenta es una forma de comunicar una opinión personal",
+      "Ningún derecho constitucional, porque los colegios tienen autonomía total para fijar el uniforme escolar"
+    ],
+    "correcta": 0,
+    "explicacion": "La sanción no solo impone una norma de uniforme neutral: desconoce la identidad cultural del estudiante y lo trata de forma distinta por pertenecer a un grupo étnico. Ver ambas caras del conflicto, no solo una, es lo que realmente describe lo que está en juego."
+  },
+  {
+    "id": "CC-QR-073",
+    "tarjetaId": "CC-CON-035",
+    "categoria": "conocimientos",
+    "formato": "mcq",
+    "enunciado": "Un grupo de habitantes de un barrio, preocupados por la tala de árboles para ampliar una avenida, reúne las firmas necesarias para exigir que el concejo municipal realice una sesión pública donde puedan exponer directamente sus argumentos antes de aprobar el proyecto. ¿Qué mecanismo están usando?",
+    "opciones": [
+      "Un cabildo abierto, un espacio de discusión directa dentro de una sesión del concejo, sin que se vote una pregunta de sí o no",
+      "Una consulta popular, una votación formal de sí o no convocada por la alcaldía sobre el proyecto de la avenida",
+      "Un referendo, una votación para derogar o aprobar una norma que ya fue expedida por el concejo municipal",
+      "Una revocatoria del mandato, un mecanismo para destituir al alcalde antes de que termine su período"
+    ],
+    "correcta": 0,
+    "explicacion": "El cabildo abierto es de origen popular pero no es una votación: es un espacio de participación deliberativa dentro de una corporación pública ya existente, donde los habitantes intervienen directamente sobre un tema que les interesa."
+  },
+  {
+    "id": "CC-QR-074",
+    "tarjetaId": "CC-CON-035",
+    "categoria": "conocimientos",
+    "formato": "fill",
+    "enunciado": "Completa la diferencia entre cabildo abierto y consulta popular:",
+    "antes": "El cabildo abierto se confunde con la consulta popular porque ambos permiten participación directa sobre un tema concreto, pero la consulta es una votación de sí o no, mientras que el cabildo abierto es un espacio de discusión dentro de una sesión del concejo, sin",
+    "despues": "formal sobre una pregunta.",
+    "respuesta": "voto",
+    "alternativas": [
+      "voto"
+    ],
+    "explicacion": "Un número mínimo de ciudadanos del municipio presenta la solicitud para que el concejo, la asamblea o la junta administradora local celebre esa sesión pública, sin que eso implique una votación."
+  },
+  {
+    "id": "CC-QR-075",
+    "tarjetaId": "CC-CON-039",
+    "categoria": "conocimientos",
+    "formato": "match",
+    "enunciado": "Empareja cada tipo de ley con lo que la caracteriza:",
+    "izq": [
+      "Ley estatutaria",
+      "Ley orgánica",
+      "Ley ordinaria"
+    ],
+    "der": [
+      "Regula derechos fundamentales y exige revisión previa de la Corte Constitucional",
+      "Organiza el funcionamiento del Congreso u otras instituciones",
+      "Regula la generalidad de las materias y se aprueba por mayoría simple"
+    ],
+    "pares": {
+      "0": 0,
+      "1": 1,
+      "2": 2
+    },
+    "explicacion": "Las materias más sensibles exigen mayorías más altas y controles adicionales. La ley estatutaria es la única que pasa por revisión previa y automática de la Corte Constitucional antes de la sanción presidencial, precisamente porque regula derechos y mecanismos de protección."
+  },
+  {
+    "id": "CC-QR-076",
+    "tarjetaId": "CC-CON-039",
+    "categoria": "conocimientos",
+    "formato": "mcq",
+    "enunciado": "El Congreso tramita una ley que regula el procedimiento completo de la acción de tutela. ¿Qué tipo de ley debe ser y qué control adicional exige?",
+    "opciones": [
+      "Una ley estatutaria, que exige mayoría absoluta y revisión previa y automática de la Corte Constitucional",
+      "Una ley orgánica, que exige mayoría absoluta pero ningún control previo de constitucionalidad",
+      "Una ley ordinaria, que se aprueba por mayoría simple sin ningún requisito adicional",
+      "Un decreto legislativo, que el Presidente puede expedir directamente sin pasar por el Congreso"
+    ],
+    "correcta": 0,
+    "explicacion": "La tutela es un mecanismo de protección de derechos fundamentales, así que su regulación entra directamente en las materias reservadas a ley estatutaria: una sola legislatura, mayoría absoluta, y control previo obligatorio de la Corte antes de que el Presidente la sancione."
+  },
+  {
+    "id": "CC-QR-077",
+    "tarjetaId": "CC-CON-044",
+    "categoria": "conocimientos",
+    "formato": "mcq",
+    "enunciado": "Un hospital público programa todas las cirugías electivas los viernes en la tarde, coincidiendo justo con el horario de oración semanal de una minoría religiosa presente en la ciudad, sin ofrecer ninguna alternativa de horario. ¿Qué principio constitucional está en riesgo?",
+    "opciones": [
+      "La neutralidad estatal, porque una decisión administrativa termina dificultando el ejercicio religioso de una minoría sin ninguna razón técnica que lo justifique",
+      "El principio de progresividad, porque el hospital retrocede en el derecho a la salud al ofrecer menos citas disponibles para cirugías electivas que antes",
+      "La reserva de ley estatutaria, porque fijar los horarios de atención hospitalaria exige una ley especial aprobada por mayoría absoluta en el Congreso",
+      "La conexidad, porque el horario elegido para las cirugías pone en riesgo directo la vida de los pacientes que necesitan una intervención médica urgente"
+    ],
+    "correcta": 0,
+    "explicacion": "La neutralidad no exige que el Estado ignore el fenómeno religioso, exige que no favorezca ni perjudique a ninguna confesión. Una decisión administrativa que, sin ninguna justificación técnica, termina golpeando desproporcionadamente a un grupo religioso rompe esa neutralidad."
+  },
+  {
+    "id": "CC-QR-078",
+    "tarjetaId": "CC-CON-044",
+    "categoria": "conocimientos",
+    "formato": "build",
+    "enunciado": "Arma qué exige la neutralidad estatal frente a las religiones:",
+    "fragmentos": [
+      "que ninguna entidad estatal",
+      "favorezca, financie o imponga",
+      "una religión específica sobre las demás"
+    ],
+    "explicacion": "La neutralidad protege tanto a las mayorías como a las minorías religiosas: ningún funcionario puede condicionar un servicio, un empleo público o un trámite al cumplimiento de prácticas de una religión determinada."
+  },
+  {
+    "id": "CC-QR-079",
+    "tarjetaId": "CC-CON-049",
+    "categoria": "conocimientos",
+    "formato": "mcq",
+    "enunciado": "Antes de 1991, una persona a la que le vulneraban un derecho fundamental no tenía un mecanismo judicial rápido para exigir su protección inmediata. ¿Qué cambio estructural de la nueva Constitución cerró ese vacío?",
+    "opciones": [
+      "La creación de la Corte Constitucional junto con la acción de tutela, como mecanismo judicial rápido de protección de derechos",
+      "La ampliación del período presidencial de cuatro a ocho años, para dar más tiempo a resolver los conflictos judiciales",
+      "La eliminación completa de la Corte Suprema de Justicia, reemplazada por completo por la nueva Corte Constitucional",
+      "La reducción del número de senadores, para agilizar la aprobación de leyes que protegen derechos fundamentales"
+    ],
+    "correcta": 0,
+    "explicacion": "La Constitución de 1886 concentraba mucho poder en el Ejecutivo y no ofrecía un mecanismo judicial ágil para proteger derechos. La Asamblea de 1991 respondió a esa carencia creando la tutela y la Corte Constitucional, no solo agregando una lista nueva de derechos en el papel."
+  },
+  {
+    "id": "CC-QR-080",
+    "tarjetaId": "CC-CON-049",
+    "categoria": "conocimientos",
+    "formato": "fill",
+    "enunciado": "Completa la idea sobre los cambios estructurales de la Constitución de 1991:",
+    "antes": "La Constitución de 1886 tenía un fuerte carácter centralista y confesional. La Asamblea Nacional Constituyente de 1991 giró hacia un Estado social de derecho, adoptando la laicidad del Estado y ampliando el catálogo de derechos fundamentales,",
+    "despues": "y sociales.",
+    "respuesta": "colectivos",
+    "alternativas": [
+      "colectivos"
+    ],
+    "explicacion": "Entender este cambio como una respuesta a carencias estructurales reales, no como una lista de datos históricos sueltos, es lo que realmente explica por qué la reforma de 1991 fue tan profunda."
+  },
+  {
+    "id": "CC-QR-081",
+    "tarjetaId": "CC-CON-005",
+    "categoria": "conocimientos",
+    "formato": "match",
+    "enunciado": "Empareja cada alta corte con su competencia:",
+    "izq": [
+      "Corte Constitucional",
+      "Corte Suprema de Justicia",
+      "Consejo de Estado"
+    ],
+    "der": [
+      "Guarda la supremacía de la Constitución y revisa fallos de tutela",
+      "Es el tribunal de cierre de la jurisdicción ordinaria: civil, penal, laboral y familia",
+      "Es el tribunal de cierre de la jurisdicción contencioso-administrativa"
+    ],
+    "pares": {
+      "0": 0,
+      "1": 1,
+      "2": 2
+    },
+    "explicacion": "Colombia tiene jurisdicciones separadas, cada una con su propia cabeza autónoma. Ninguna corte está por encima de las otras en jerarquía general: cada una es suprema dentro de su propia jurisdicción."
+  },
+  {
+    "id": "CC-QR-082",
+    "tarjetaId": "CC-CON-005",
+    "categoria": "conocimientos",
+    "formato": "mcq",
+    "enunciado": "Una persona demanda a un municipio porque un hueco mal señalizado en una vía pública le causó un accidente grave. ¿Qué jurisdicción resuelve este caso y cuál es su tribunal de cierre?",
+    "opciones": [
+      "La jurisdicción contencioso-administrativa, cuyo tribunal de cierre es el Consejo de Estado",
+      "La jurisdicción ordinaria civil, cuyo tribunal de cierre es la Corte Suprema de Justicia",
+      "La jurisdicción constitucional, cuyo tribunal de cierre es la Corte Constitucional",
+      "La jurisdicción penal, cuyo tribunal de cierre es la Fiscalía General de la Nación"
+    ],
+    "correcta": 0,
+    "explicacion": "Demandar al Estado por una falla en un servicio público, como el mal estado de una vía, es un asunto contencioso-administrativo, no un asunto civil entre particulares. Por eso su tribunal de cierre es el Consejo de Estado, no la Corte Suprema."
+  },
+  {
+    "id": "CC-QR-083",
+    "tarjetaId": "CC-CON-010",
+    "categoria": "conocimientos",
+    "formato": "mcq",
+    "enunciado": "Tropas de un país vecino cruzan la frontera colombiana sin previo aviso y ocupan un puesto militar. ¿Puede el Presidente declarar el estado de guerra exterior de inmediato, sin esperar la autorización del Senado?",
+    "opciones": [
+      "Sí, porque la excepción permite declararlo sin autorización previa cuando es necesario repeler una agresión de forma inmediata",
+      "No, en ningún caso puede declararse el estado de guerra exterior sin la autorización previa del Senado",
+      "Sí, pero solo si el Consejo de Estado emite primero un concepto favorable sobre la agresión recibida",
+      "No, porque solo el Congreso en pleno, reunido en sesión conjunta, puede declarar formalmente la guerra"
+    ],
+    "correcta": 0,
+    "explicacion": "La autorización previa del Senado es la regla general, como control político sobre una decisión tan grave. Pero frente a una agresión que exige una respuesta inmediata, el Presidente puede actuar primero y no queda atado a esperar ese permiso."
+  },
+  {
+    "id": "CC-QR-084",
+    "tarjetaId": "CC-CON-010",
+    "categoria": "conocimientos",
+    "formato": "fill",
+    "enunciado": "Completa la diferencia entre guerra exterior y conmoción interior:",
+    "antes": "El estado de guerra exterior se confunde con la conmoción interior porque ambos permiten decretos legislativos, pero el de guerra exterior responde a una amenaza externa mientras que la conmoción interior responde a una perturbación del orden público",
+    "despues": ".",
+    "respuesta": "interno",
+    "alternativas": [
+      "interno"
+    ],
+    "explicacion": "Durante el estado de guerra exterior, el Congreso sigue sesionando con todas sus atribuciones, y el Gobierno puede expedir decretos legislativos que suspenden temporalmente las leyes incompatibles con esa situación."
+  },
+  {
+    "id": "CC-QR-085",
+    "tarjetaId": "CC-CON-042",
+    "categoria": "conocimientos",
+    "formato": "mcq",
+    "enunciado": "Un movimiento político propone que el Presidente convoque un plebiscito para modificar la duración del período presidencial establecido en la Constitución. ¿Es esta propuesta constitucionalmente viable?",
+    "opciones": [
+      "No, porque el plebiscito no es uno de los mecanismos de reforma constitucional y no puede usarse para modificar el texto de la Constitución",
+      "Sí, porque el plebiscito es precisamente el mecanismo diseñado para que el pueblo modifique directamente el texto constitucional",
+      "Sí, siempre que el Congreso apruebe primero la convocatoria mediante una ley orgánica especial",
+      "No, porque solo una Asamblea Constituyente puede modificar cualquier artículo relacionado con la Presidencia"
+    ],
+    "correcta": 0,
+    "explicacion": "El artículo 374 establece taxativamente solo tres vías para reformar la Constitución: el Congreso mediante acto legislativo, una Asamblea Constituyente, o el pueblo mediante referendo. El plebiscito sirve para que el pueblo apoye o rechace una decisión política del Ejecutivo, no para modificar el texto constitucional."
+  },
+  {
+    "id": "CC-QR-086",
+    "tarjetaId": "CC-CON-042",
+    "categoria": "conocimientos",
+    "formato": "build",
+    "enunciado": "Arma los tres mecanismos que sí permiten reformar la Constitución:",
+    "fragmentos": [
+      "el Congreso mediante acto legislativo,",
+      "una Asamblea Constituyente",
+      "o el pueblo mediante referendo"
+    ],
+    "explicacion": "La relevancia pública de un plebiscito histórico sobre un acuerdo de paz lleva a muchos a asumir que el plebiscito también reforma la Constitución. Ese plebiscito buscaba refrendar una decisión política del Ejecutivo, no modificar el texto constitucional."
+  },
+  {
+    "id": "CC-QR-087",
+    "tarjetaId": "CC-CON-017",
+    "categoria": "conocimientos",
+    "formato": "mcq",
+    "enunciado": "De los cuatro altos funcionarios de control y justicia, Procurador, Contralor, Defensor del Pueblo y Fiscal General, ¿en la elección de cuál de ellos el Presidente no tiene ningún papel formal de postulación?",
+    "opciones": [
+      "El Contralor General, que desde 2015 se elige por convocatoria pública ante el Congreso, sin terna previa de ninguna otra rama",
+      "El Procurador General, que el Senado elige sin ningún tipo de terna o postulación previa de otra rama del poder",
+      "El Defensor del Pueblo, cuya elección corresponde directamente al pueblo mediante voto popular en las elecciones legislativas",
+      "El Fiscal General, que se elige mediante convocatoria pública abierta sin intervención de ninguna corte"
+    ],
+    "correcta": 0,
+    "explicacion": "El Procurador, el Defensor del Pueblo y el Fiscal sí involucran una postulación previa donde el Presidente participa mediante una terna. El Contralor rompe ese patrón desde la reforma de 2015: se elige por concurso de méritos, sin que ninguna otra rama presente candidatos."
+  },
+  {
+    "id": "CC-QR-088",
+    "tarjetaId": "CC-CON-017",
+    "categoria": "conocimientos",
+    "formato": "build",
+    "enunciado": "Arma cómo se elige al Contralor General desde la reforma de 2015:",
+    "fragmentos": [
+      "por convocatoria pública",
+      "con pruebas de mérito,",
+      "sin que ninguna otra rama presente candidatos"
+    ],
+    "explicacion": "Como los cuatro cargos suenan igualmente importantes, se tiende a asumir que todos siguen el mismo patrón de terna presidencial. El mecanismo del Contralor es la excepción real desde el Acto Legislativo 02 de 2015."
+  },
+  {
+    "id": "CC-QR-089",
+    "tarjetaId": "CC-CON-068",
+    "categoria": "conocimientos",
+    "formato": "mcq",
+    "enunciado": "Un joven de 17 años quiere participar formalmente en decisiones políticas de su municipio, pero todavía no puede votar en elecciones ordinarias de alcaldía. ¿Qué mecanismo institucional le permite hacerlo?",
+    "opciones": [
+      "El Consejo de Juventud, un cuerpo de elección popular para jóvenes entre 14 y 28 años con función consultiva ante las autoridades",
+      "Ninguno: la Constitución no contempla ningún mecanismo de participación política antes de cumplir la mayoría de edad",
+      "El cabildo abierto, que solo pueden solicitar y votar los ciudadanos mayores de 18 años ya habilitados para votar",
+      "La revocatoria del mandato, un mecanismo que exige haber votado previamente por el funcionario que se busca revocar"
+    ],
+    "correcta": 0,
+    "explicacion": "Esperar a cumplir 18 años para votar en elecciones ordinarias no es la única vía de participación política juvenil. Los Consejos de Juventud son un mecanismo formal adicional, con elección propia, diseñado específicamente para ese rango de edad."
+  },
+  {
+    "id": "CC-QR-090",
+    "tarjetaId": "CC-CON-068",
+    "categoria": "conocimientos",
+    "formato": "fill",
+    "enunciado": "Completa la idea sobre los Consejos de Juventud:",
+    "antes": "Los Consejos de Juventud, creados por la Ley Estatutaria 1885 de 2018, son cuerpos colegiados de elección popular que representan los intereses de las personas jóvenes ante el Estado, con función consultiva y de",
+    "despues": "ante las autoridades sobre las políticas públicas que los afectan.",
+    "respuesta": "interlocución",
+    "alternativas": [
+      "interlocución",
+      "interlocucion"
+    ],
+    "explicacion": "Estos consejos municipales, distritales y departamentales se eligen directamente por jóvenes entre 14 y 28 años, un espacio de participación política distinto de las elecciones ordinarias a alcaldías o concejos."
   }
 ]
