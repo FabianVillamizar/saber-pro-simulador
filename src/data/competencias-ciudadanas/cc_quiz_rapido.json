@@ -203,7 +203,7 @@
       "que ofrece una razón,",
       "y una conclusión que esa razón pretende sostener"
     ],
-    "explicacion": "La premisa responde '¿por qué debería creer esto?'; la conclusión es la afirmación que se defiende. Conectores como 'porque'/'ya que' suelen introducir premisas, y 'por lo tanto'/'en consecuencia' suelen introducir la conclusión."
+    "explicacion": "La premisa responde '¿por qué debería creer esto?'; la conclusión es la afirmación que se defiende. Reconocer estas dos piezas es la base de todo lo demás en Argumentación: sin distinguir premisa de conclusión no puedes evaluar si un argumento es válido, detectar una falacia, ni construir un contraejemplo — es el primer paso, no un dato suelto."
   },
   {
     "id": "CC-QR-014",
@@ -240,13 +240,13 @@
     "tarjetaId": "CC-ARG-007",
     "categoria": "argumentacion",
     "formato": "build",
-    "enunciado": "Arma la definición de condición suficiente:",
+    "enunciado": "Arma qué basta para que un candidato gane la Presidencia sin necesidad de segunda vuelta:",
     "fragmentos": [
-      "si se cumple,",
-      "garantiza el resultado,",
-      "aunque puede no ser la única forma de lograrlo"
+      "obtener más de la mitad de los votos válidos en la primera vuelta",
+      "es condición suficiente",
+      "para ganar la elección directamente"
     ],
-    "explicacion": "Se distingue de la condición necesaria (sin ella el resultado no puede ocurrir, pero tenerla no lo garantiza) — confundir ambas lleva a asumir que todo requisito necesario también es, por sí solo, suficiente."
+    "explicacion": "Obtener esa mayoría garantiza ganar — por eso es una condición suficiente — pero no es la única forma de ganar la Presidencia (también se puede ganar en segunda vuelta sin haber llegado a esa cifra en la primera). Reconocer esta diferencia te sirve para detectar, en un argumento del examen, cuándo alguien asume que cumplir un solo requisito ya garantiza una conclusión, cuando en realidad ese requisito apenas es necesario, no suficiente."
   },
   {
     "id": "CC-QR-017",
