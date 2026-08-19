@@ -5,13 +5,21 @@
     "categoria": "conocimientos",
     "formato": "match",
     "enunciado": "Empareja cada rol del Presidente con la función que corresponde a ese rol:",
-    "izq": ["Jefe de Estado", "Jefe de Gobierno", "Suprema Autoridad Administrativa"],
+    "izq": [
+      "Jefe de Estado",
+      "Jefe de Gobierno",
+      "Suprema Autoridad Administrativa"
+    ],
     "der": [
       "Firma tratados y representa a Colombia ante el mundo",
       "Dirige la política interna y es comandante de las Fuerzas Armadas",
       "Nombra y remueve ministros, ejerce la potestad reglamentaria"
     ],
-    "pares": { "0": 0, "1": 1, "2": 2 },
+    "pares": {
+      "0": 0,
+      "1": 1,
+      "2": 2
+    },
     "explicacion": "El artículo 189 asigna al Presidente estos tres roles distintos, aunque los ejerce la misma persona: como Jefe de Estado mira hacia afuera (relaciones internacionales), como Jefe de Gobierno dirige la política interna, y como Suprema Autoridad Administrativa dirige la función pública."
   },
   {
@@ -20,7 +28,12 @@
     "categoria": "conocimientos",
     "formato": "mcq",
     "enunciado": "Cuando el Presidente nombra a un nuevo ministro de Hacienda, ¿en cuál de sus tres roles constitucionales está actuando?",
-    "opciones": ["Jefe de Estado", "Jefe de Gobierno", "Suprema Autoridad Administrativa", "Ninguno — esa función es del Congreso"],
+    "opciones": [
+      "Jefe de Estado",
+      "Jefe de Gobierno",
+      "Suprema Autoridad Administrativa",
+      "Ninguno — esa función es del Congreso"
+    ],
     "correcta": 2,
     "explicacion": "Nombrar y remover ministros libremente es una función de la Suprema Autoridad Administrativa, distinta de representar a Colombia en el exterior (Jefe de Estado) o dirigir la política interna (Jefe de Gobierno)."
   },
@@ -48,7 +61,10 @@
     "antes": "El modelo colombiano de separación de poderes no es de aislamiento total, sino de colaboración",
     "despues": "entre las ramas, sumada a controles recíprocos.",
     "respuesta": "armónica",
-    "alternativas": ["armónica", "armonica"],
+    "alternativas": [
+      "armónica",
+      "armonica"
+    ],
     "explicacion": "Cada rama conserva funciones propias, pero coopera con las demás para que el Estado funcione — por eso una acción conjunta entre ramas no vulnera el principio, mientras que invadir la función exclusiva de otra rama sí lo hace."
   },
   {
@@ -57,13 +73,21 @@
     "categoria": "conocimientos",
     "formato": "match",
     "enunciado": "Empareja cada mecanismo judicial con lo que protege:",
-    "izq": ["Acción de tutela", "Acción popular", "Acción de cumplimiento"],
+    "izq": [
+      "Acción de tutela",
+      "Acción popular",
+      "Acción de cumplimiento"
+    ],
     "der": [
       "Derechos fundamentales de una persona",
       "Derechos colectivos",
       "Que una autoridad aplique una norma vigente que está incumpliendo"
     ],
-    "pares": { "0": 0, "1": 1, "2": 2 },
+    "pares": {
+      "0": 0,
+      "1": 1,
+      "2": 2
+    },
     "explicacion": "Se confunden porque los tres son judiciales y rápidos, pero protegen cosas distintas: la tutela defiende derechos fundamentales individuales, la acción popular derechos colectivos, y la acción de cumplimiento obliga a ejecutar una norma que ya existe pero no se aplica."
   },
   {
@@ -72,7 +96,12 @@
     "categoria": "conocimientos",
     "formato": "mcq",
     "enunciado": "Una ley ordena instalar rampas de acceso en edificios públicos, pero una alcaldía simplemente no lo hace pese a que la norma ya existe. ¿Cuál es el mecanismo judicial adecuado?",
-    "opciones": ["Acción de tutela", "Acción popular", "Acción de cumplimiento", "Habeas corpus"],
+    "opciones": [
+      "Acción de tutela, por ser el mecanismo más conocido para proteger derechos",
+      "Acción popular, al tratarse en el fondo de un derecho colectivo",
+      "Acción de cumplimiento, porque exige aplicar una norma ya vigente que se incumple",
+      "Habeas corpus, reservado para proteger la libertad personal de alguien detenido"
+    ],
     "correcta": 2,
     "explicacion": "La acción de cumplimiento obliga a una autoridad a ejecutar una norma con fuerza de ley o un acto administrativo que ya existe pero que no está aplicando — exactamente este caso, no uno donde falte protección a un derecho fundamental individual."
   },
@@ -83,10 +112,10 @@
     "formato": "mcq",
     "enunciado": "¿Cuál de las siguientes afirmaciones describe correctamente la naturaleza jurídica del voto en Colombia?",
     "opciones": [
-      "Es obligatorio y su omisión se sanciona con una multa",
+      "Es obligatorio y su omisión se sanciona con una multa, como en otros países de la región",
       "Es un derecho y un deber ciudadano, pero su ejercicio es libre y sin sanción por no votar",
-      "Es solo un derecho, la Constitución no lo menciona como deber",
-      "Es obligatorio únicamente en elecciones presidenciales"
+      "Es solo un derecho: la Constitución no lo menciona en ningún artículo como un deber",
+      "Es obligatorio únicamente en elecciones presidenciales, no en las demás votaciones"
     ],
     "correcta": 1,
     "explicacion": "El artículo 258 lo describe como derecho fundamental de participación política y los artículos 95 y 99 como deber ciudadano, pero en Colombia no existe sanción legal por abstenerse de votar — a diferencia de países donde el voto sí es obligatorio con multa."
@@ -100,7 +129,9 @@
     "antes": "En Colombia el voto es al mismo tiempo un derecho y un",
     "despues": "ciudadano, pero no existe sanción legal por no ejercerlo.",
     "respuesta": "deber",
-    "alternativas": ["deber"],
+    "alternativas": [
+      "deber"
+    ],
     "explicacion": "Es la base de todos los demás mecanismos de participación (referendo, consulta popular también se deciden votando), pero su ejercicio siempre es libre — no hay consecuencia jurídica por la abstención."
   },
   {
@@ -110,10 +141,10 @@
     "formato": "mcq",
     "enunciado": "¿Qué tipo de normas integran principalmente el bloque de constitucionalidad?",
     "opciones": [
-      "Todos los tratados internacionales que Colombia ha firmado, sin excepción",
+      "Todos los tratados internacionales que Colombia ha firmado, sin ninguna excepción de materia",
       "Los tratados de derechos humanos ratificados que no pueden suspenderse en estados de excepción",
-      "Únicamente las leyes estatutarias aprobadas por el Congreso",
-      "Los decretos reglamentarios expedidos por el Presidente"
+      "Únicamente las leyes estatutarias que el Congreso aprueba con mayoría absoluta",
+      "Los decretos reglamentarios que expide el Presidente para desarrollar una ley"
     ],
     "correcta": 1,
     "explicacion": "El artículo 93 da rango constitucional a los tratados de derechos humanos ratificados por Colombia que prohíben su limitación en estados de excepción — no a cualquier tratado firmado, que es el error común más frecuente sobre esta figura."
@@ -123,11 +154,11 @@
     "tarjetaId": "CC-CON-040",
     "categoria": "conocimientos",
     "formato": "build",
-    "enunciado": "Arma la definición correcta de bloque de constitucionalidad:",
+    "enunciado": "Arma qué puede hacer un juez si una ley colombiana contradice un tratado de derechos humanos ratificado por Colombia:",
     "fragmentos": [
-      "normas que, sin estar escritas en el texto de la Constitución,",
-      "tienen rango constitucional",
-      "y sirven como parámetro para juzgar la validez de las demás leyes"
+      "declararla inconstitucional",
+      "invocando el bloque de constitucionalidad,",
+      "aunque el texto exacto no aparezca en la Constitución"
     ],
     "explicacion": "La Corte Constitucional desarrolló esta figura a partir del artículo 93: aunque el texto exacto no aparezca en el articulado, esas normas (principalmente tratados de derechos humanos) tienen la misma jerarquía que la Constitución."
   },
@@ -138,10 +169,10 @@
     "formato": "mcq",
     "enunciado": "¿Qué le añade la palabra 'social' a la fórmula de Colombia como 'Estado social de derecho'?",
     "opciones": [
-      "Una economía completamente estatizada, sin mercado",
+      "Una economía completamente estatizada, sin ningún espacio para el mercado privado",
       "La obligación del Estado de intervenir activamente para garantizar condiciones materiales mínimas de vida digna",
-      "Que las leyes solo se apliquen si benefician a la mayoría social",
-      "Nada distinto de un Estado de derecho clásico"
+      "Que las leyes solo se apliquen, en la práctica, cuando benefician a la mayoría social del país",
+      "Nada distinto de un Estado de derecho clásico: es solo un adjetivo retórico sin efecto jurídico real"
     ],
     "correcta": 1,
     "explicacion": "Un Estado de derecho clásico solo garantiza que las autoridades actúen conforme a la ley; el Estado social de derecho va más allá y asume un papel activo en garantizar condiciones mínimas de dignidad, sin que eso signifique una economía estatizada."
@@ -155,7 +186,10 @@
     "antes": "Que el Estado deba garantizar salud accesible incluso a quienes no pueden pagarla es una manifestación del",
     "despues": "que compromete a Colombia con condiciones materiales de vida digna.",
     "respuesta": "Estado social de derecho",
-    "alternativas": ["Estado social de derecho", "estado social de derecho"],
+    "alternativas": [
+      "Estado social de derecho",
+      "estado social de derecho"
+    ],
     "explicacion": "Se trata del compromiso con la justicia material (mínimo vital, función social de la propiedad), no con un modelo económico estatizado — ese es el error común de confundir 'social' con 'socialista'."
   },
   {
@@ -164,7 +198,11 @@
     "categoria": "argumentacion",
     "formato": "build",
     "enunciado": "Arma la definición mínima de un argumento:",
-    "fragmentos": ["al menos una premisa,", "que ofrece una razón,", "y una conclusión que esa razón pretende sostener"],
+    "fragmentos": [
+      "al menos una premisa,",
+      "que ofrece una razón,",
+      "y una conclusión que esa razón pretende sostener"
+    ],
     "explicacion": "La premisa responde '¿por qué debería creer esto?'; la conclusión es la afirmación que se defiende. Conectores como 'porque'/'ya que' suelen introducir premisas, y 'por lo tanto'/'en consecuencia' suelen introducir la conclusión."
   },
   {
@@ -176,7 +214,10 @@
     "antes": "En 'Como el transporte público llega tarde con frecuencia, muchos prefieren usar vehículo particular', la premisa es la frecuencia de retrasos y la",
     "despues": "es la preferencia por el vehículo particular.",
     "respuesta": "conclusión",
-    "alternativas": ["conclusión", "conclusion"],
+    "alternativas": [
+      "conclusión",
+      "conclusion"
+    ],
     "explicacion": "Se confunde la premisa con la conclusión cuando el orden de la frase no sigue el orden lógico — identificar los conectores lógicos, no la posición, es lo que permite distinguir cuál elemento cumple cada función."
   },
   {
@@ -185,7 +226,12 @@
     "categoria": "argumentacion",
     "formato": "mcq",
     "enunciado": "Tener un título profesional es un requisito para ejercer ciertas profesiones reguladas, pero no basta por sí solo para conseguir empleo. Esto describe una condición:",
-    "opciones": ["Suficiente pero no necesaria", "Necesaria pero no suficiente", "Ni necesaria ni suficiente", "Necesaria y suficiente a la vez"],
+    "opciones": [
+      "Suficiente pero no necesaria",
+      "Necesaria pero no suficiente",
+      "Ni necesaria ni suficiente",
+      "Necesaria y suficiente a la vez"
+    ],
     "correcta": 1,
     "explicacion": "Que A sea condición necesaria de B significa que sin A, B no puede ocurrir, pero tener A no asegura tener B — el título es indispensable para esas profesiones, pero se necesitan además experiencia o vacantes disponibles."
   },
@@ -195,7 +241,11 @@
     "categoria": "argumentacion",
     "formato": "build",
     "enunciado": "Arma la definición de condición suficiente:",
-    "fragmentos": ["si se cumple,", "garantiza el resultado,", "aunque puede no ser la única forma de lograrlo"],
+    "fragmentos": [
+      "si se cumple,",
+      "garantiza el resultado,",
+      "aunque puede no ser la única forma de lograrlo"
+    ],
     "explicacion": "Se distingue de la condición necesaria (sin ella el resultado no puede ocurrir, pero tenerla no lo garantiza) — confundir ambas lleva a asumir que todo requisito necesario también es, por sí solo, suficiente."
   },
   {
@@ -204,14 +254,24 @@
     "categoria": "argumentacion",
     "formato": "match",
     "enunciado": "Empareja cada falacia con su descripción:",
-    "izq": ["Ad hominem", "Falsa dicotomía", "Generalización apresurada", "Hombre de paja"],
+    "izq": [
+      "Ad hominem",
+      "Falsa dicotomía",
+      "Generalización apresurada",
+      "Hombre de paja"
+    ],
     "der": [
       "Atacar a la persona en vez de refutar su argumento",
       "Presentar solo dos opciones cuando hay más alternativas",
       "Concluir a partir de una o dos anécdotas, sin muestra sistemática",
       "Distorsionar la postura del oponente y refutar esa versión"
     ],
-    "pares": { "0": 0, "1": 1, "2": 2, "3": 3 },
+    "pares": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+    },
     "explicacion": "Las cuatro desvían la discusión del argumento real: ad hominem ataca a la persona, la falsa dicotomía oculta opciones intermedias, la generalización apresurada ni siquiera intenta reunir datos, y el hombre de paja refuta una versión distorsionada del argumento original."
   },
   {
@@ -220,7 +280,12 @@
     "categoria": "argumentacion",
     "formato": "mcq",
     "enunciado": "'No hay que hacerle caso a esa propuesta de reforma educativa, si ni siquiera él terminó su carrera universitaria.' ¿Qué falacia comete esta respuesta?",
-    "opciones": ["Falsa dicotomía", "Ad hominem", "Pendiente resbaladiza", "Apelación a la autoridad"],
+    "opciones": [
+      "Falsa dicotomía",
+      "Ad hominem",
+      "Pendiente resbaladiza",
+      "Apelación a la autoridad"
+    ],
     "correcta": 1,
     "explicacion": "Ataca las características de quien propone la reforma en vez de evaluar si la propuesta en sí tiene fundamentos razonables — eso es exactamente un ataque ad hominem, no un análisis del argumento."
   },
@@ -231,10 +296,10 @@
     "formato": "mcq",
     "enunciado": "Frente a la afirmación 'todo aumento del salario mínimo reduce el empleo formal', ¿qué se necesita para refutarla con un contraejemplo?",
     "opciones": [
-      "Encontrar casos que representen la mayoría de los aumentos salariales históricos",
+      "Encontrar varios casos que representen la mayoría de los aumentos salariales históricos",
       "Un solo caso real donde el empleo formal se mantuvo o aumentó tras un incremento salarial",
-      "Demostrar matemáticamente que el salario mínimo no afecta el empleo",
-      "Encontrar una fuente académica prestigiosa que lo niegue"
+      "Demostrar matemáticamente, con un modelo econométrico, que el salario no afecta el empleo",
+      "Encontrar una fuente académica reconocida y prestigiosa que niegue la afirmación"
     ],
     "correcta": 1,
     "explicacion": "Basta un solo caso real que cumpla la condición (aumento salarial) sin cumplir lo que la generalización afirma (reducción de empleo) para invalidar una afirmación absoluta tipo 'todo X reduce Y' — su fuerza no depende de cuántos casos represente."
@@ -248,7 +313,10 @@
     "antes": "Un contraejemplo no necesita representar la mayoría de los casos: le basta con ser un caso real que",
     "despues": "la regla tal como fue formulada.",
     "respuesta": "contradiga",
-    "alternativas": ["contradiga", "contradice"],
+    "alternativas": [
+      "contradiga",
+      "contradice"
+    ],
     "explicacion": "Frente a afirmaciones absolutas ('todos', 'siempre'), un solo caso que las contradiga es suficiente para invalidarlas — su fuerza lógica no depende de cuántos casos represente."
   },
   {
@@ -257,7 +325,11 @@
     "categoria": "multiperspectivismo",
     "formato": "build",
     "enunciado": "Arma la definición de interés (frente a posición) en un conflicto:",
-    "fragmentos": ["la necesidad o motivación de fondo", "que esa posición busca satisfacer,", "y que a veces podría lograrse por otras vías"],
+    "fragmentos": [
+      "la necesidad o motivación de fondo",
+      "que esa posición busca satisfacer,",
+      "y que a veces podría lograrse por otras vías"
+    ],
     "explicacion": "La posición es la solución concreta que un actor exige en público; el interés es la razón de fondo. Dos actores con posiciones opuestas pueden compartir el mismo interés, lo que abre posibilidades de acuerdo invisibles si solo se miran las posiciones."
   },
   {
@@ -269,7 +341,10 @@
     "antes": "Un grupo pide cerrar una calle al tráfico (posición) porque su interés real es reducir el riesgo de accidentes para los",
     "despues": "; otro grupo pide mantenerla abierta porque su interés real es no perder tiempo en sus desplazamientos.",
     "respuesta": "niños",
-    "alternativas": ["niños", "los niños"],
+    "alternativas": [
+      "niños",
+      "los niños"
+    ],
     "explicacion": "Analizar el conflicto solo por las posiciones (cerrar vs. abrir la calle) lo hace ver más irreconciliable de lo que realmente es — mirar los intereses de fondo (seguridad vs. tiempo de traslado) abre posibilidades de acuerdo."
   },
   {
@@ -279,10 +354,10 @@
     "formato": "mcq",
     "enunciado": "Una comunidad organiza su calendario agrícola en torno a ciclos naturales y rituales colectivos, en vez de solo la eficiencia productiva. ¿Qué revela esto?",
     "opciones": [
-      "Nada — el calendario agrícola no tiene relación con la cosmovisión",
+      "Nada — el calendario agrícola de una comunidad no tiene relación con su cosmovisión",
       "Una cosmovisión donde la relación con la naturaleza y la vida comunitaria son centrales",
-      "Que la comunidad rechaza cualquier forma de eficiencia económica",
-      "Un error de planeación que debería corregirse"
+      "Que la comunidad rechaza por completo cualquier forma de eficiencia económica moderna",
+      "Un simple error de planeación agrícola que debería corregirse cuanto antes"
     ],
     "correcta": 1,
     "explicacion": "La cosmovisión de un grupo no es solo lo que declara creer, sino el trasfondo que se puede inferir observando qué prioriza en sus decisiones cotidianas — no hace falta un discurso formal explícito para identificarla."
@@ -296,7 +371,9 @@
     "antes": "La cosmovisión de un grupo se manifiesta de forma más clara en sus decisiones prácticas cotidianas que en sus",
     "despues": "formales o declaraciones explícitas.",
     "respuesta": "discursos",
-    "alternativas": ["discursos"],
+    "alternativas": [
+      "discursos"
+    ],
     "explicacion": "Buscar la cosmovisión únicamente en declaraciones formales, sin observar el comportamiento cotidiano, es el error común al analizarla — se refleja con más consistencia en lo que el grupo hace que en lo que dice."
   },
   {
@@ -306,10 +383,10 @@
     "formato": "mcq",
     "enunciado": "¿Por qué la tensión entre libertad de expresión y derecho al buen nombre no se resuelve dándole prioridad automática a uno de los dos?",
     "opciones": [
-      "Porque uno de los dos derechos no es realmente constitucional",
-      "Porque ambos son derechos legítimos y la solución depende del contexto: interés público, veracidad, si la persona ejerce función pública",
-      "Porque en Colombia la libertad de expresión siempre prevalece por ley",
-      "Porque el buen nombre solo aplica a funcionarios públicos"
+      "Porque uno de los dos derechos, en realidad, nunca tuvo reconocimiento constitucional expreso",
+      "Porque ambos son derechos legítimos y la solución depende del contexto: interés público, veracidad, función pública",
+      "Porque en Colombia la libertad de expresión siempre prevalece por mandato legal expreso",
+      "Porque el buen nombre, como derecho, solo aplica legalmente a los funcionarios públicos del país"
     ],
     "correcta": 1,
     "explicacion": "Ninguno de los dos es absoluto: la Constitución exige ponderar caso por caso, considerando si hay sustento fáctico, si la persona ejerce función pública, y si el tema es de interés general — no una regla fija que siempre favorezca a uno."
@@ -319,9 +396,13 @@
     "tarjetaId": "CC-MUL-025",
     "categoria": "multiperspectivismo",
     "formato": "build",
-    "enunciado": "Arma la idea central sobre este tipo de tensión entre derechos:",
-    "fragmentos": ["dos derechos fundamentales", "que a veces chocan entre sí,", "y ninguno de los dos es absoluto"],
-    "explicacion": "No se trata de un interés económico contra uno social, sino de dos derechos genuinamente legítimos — la Constitución exige ponderar caso por caso en vez de aplicar una prioridad automática."
+    "enunciado": "Arma la idea central sobre la tensión entre libertad de expresión y derecho al buen nombre:",
+    "fragmentos": [
+      "libertad de expresión y buen nombre son",
+      "dos derechos legítimos que a veces chocan,",
+      "y ninguno prevalece de forma automática sobre el otro"
+    ],
+    "explicacion": "No se trata de un interés económico contra uno social, sino de dos derechos genuinamente legítimos — la Constitución exige ponderar caso por caso (interés público, veracidad, si la persona ejerce función pública) en vez de aplicar una prioridad automática a uno de los dos."
   },
   {
     "id": "CC-QR-027",
@@ -329,14 +410,24 @@
     "categoria": "pensamiento_sistemico",
     "formato": "match",
     "enunciado": "Empareja cada dimensión de un problema con lo que analiza:",
-    "izq": ["Dimensión política", "Dimensión económica", "Dimensión ambiental", "Dimensión cultural"],
+    "izq": [
+      "Dimensión política",
+      "Dimensión económica",
+      "Dimensión ambiental",
+      "Dimensión cultural"
+    ],
     "der": [
       "Quién tiene el poder de decidir y con qué legitimidad",
       "Producción, distribución y costos materiales",
       "Efectos sobre ecosistemas y recursos naturales",
       "Valores, creencias e identidades compartidas de un grupo"
     ],
-    "pares": { "0": 0, "1": 1, "2": 2, "3": 3 },
+    "pares": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+    },
     "explicacion": "Se confunden porque suelen aparecer juntas en un mismo problema, pero cada una responde una pregunta distinta: quién decide (política), quién produce/gana (económica), qué le pasa al entorno (ambiental), y qué significa para el grupo (cultural)."
   },
   {
@@ -345,7 +436,12 @@
     "categoria": "pensamiento_sistemico",
     "formato": "mcq",
     "enunciado": "En un conflicto por la construcción de una represa, analizar quién tiene la autoridad legal para aprobar el proyecto y qué tan legítimo es el proceso de consulta previa corresponde a la dimensión:",
-    "opciones": ["Económica", "Política", "Ambiental", "Cultural"],
+    "opciones": [
+      "Económica",
+      "Política",
+      "Ambiental",
+      "Cultural"
+    ],
     "correcta": 1,
     "explicacion": "La dimensión política se enfoca en relaciones de poder y toma de decisiones — quién decide y con qué legitimidad —, distinto de analizar costos de construcción o el valor de la energía generada, que sería la dimensión económica."
   },
@@ -355,7 +451,12 @@
     "categoria": "pensamiento_sistemico",
     "formato": "mcq",
     "enunciado": "Acelerar la aprobación de licencias ambientales beneficia la inversión, pero reduce el tiempo para el análisis técnico detallado. ¿Qué concepto describe esta situación?",
-    "opciones": ["Una intersección de intereses", "Un tradeoff entre dimensiones", "Una falacia de falsa dicotomía", "Un desacuerdo parcial"],
+    "opciones": [
+      "Una intersección de intereses",
+      "Un tradeoff entre dimensiones",
+      "Una falacia de falsa dicotomía",
+      "Un desacuerdo parcial"
+    ],
     "correcta": 1,
     "explicacion": "Un tradeoff ocurre cuando dos dimensiones no pueden optimizarse al máximo simultáneamente: avanzar en una (rapidez económica) exige ceder en la otra (profundidad del análisis ambiental) — reconocerlo no significa que no haya soluciones razonables, sino que exigen un punto de equilibrio."
   },
@@ -368,7 +469,9 @@
     "antes": "Un tradeoff genuino entre dos dimensiones significa que cualquier solución exigirá un punto de",
     "despues": "entre ambas, no una que las maximice a la vez sin ningún costo.",
     "respuesta": "equilibrio",
-    "alternativas": ["equilibrio"],
+    "alternativas": [
+      "equilibrio"
+    ],
     "explicacion": "Buscar soluciones que prometen mejorar al máximo todas las dimensiones sin ningún costo, ignorando que existe un tradeoff genuino, es el error común frente a este tipo de disyuntivas."
   }
 ]
