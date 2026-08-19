@@ -633,7 +633,7 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
             {revelado && (
               <div className="qr-feedback">
                 <p className={`qr-feedback-titulo${acerto ? ' qr-feedback-titulo--ok' : ' qr-feedback-titulo--no'}`}>
-                  {acerto ? '¡Correcto!' : 'Casi — revisa esto:'}
+                  {acerto ? '¡Correcto!' : 'Casi. Revisa esto:'}
                 </p>
                 <div className="qr-feedback-explicacion">
                   <TextoConNegritas texto={item.explicacion} />
