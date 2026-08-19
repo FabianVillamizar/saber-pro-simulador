@@ -473,5 +473,444 @@
       "equilibrio"
     ],
     "explicacion": "Buscar soluciones que prometen mejorar al máximo todas las dimensiones sin ningún costo, ignorando que existe un tradeoff genuino, es el error común frente a este tipo de disyuntivas."
+  },
+  {
+    "id": "CC-QR-031",
+    "tarjetaId": "CC-ARG-025",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Un club de inversión promueve comprar un criptoactivo exclusivamente porque lo recomendó un actor de cine famoso por sus papeles de superhéroe. ¿Qué falacia comete este argumento?",
+    "opciones": [
+      "Apelación a la autoridad, porque respalda la inversión solo en el prestigio de alguien sin competencia financiera",
+      "Ad hominem, porque ataca la reputación del actor en vez de evaluar la inversión propuesta",
+      "Generalización apresurada, porque se basa en el éxito de una sola inversión anterior del actor",
+      "Falsa dicotomía, porque presenta comprar el criptoactivo como la única alternativa razonable"
+    ],
+    "correcta": 0,
+    "explicacion": "El prestigio del actor no tiene relación con su competencia en finanzas o tecnología. Citar a una autoridad legítima exige que tenga conocimiento real en el tema específico, además de ofrecer razones verificables. Aquí ninguna de esas dos condiciones se cumple."
+  },
+  {
+    "id": "CC-QR-032",
+    "tarjetaId": "CC-ARG-025",
+    "categoria": "argumentacion",
+    "formato": "fill",
+    "enunciado": "Completa la idea sobre cuándo citar a un experto no es falaz:",
+    "antes": "Citar a un especialista competente en su propio campo, junto con sus razones, es legítimo. La falacia aparece cuando se invoca a una autoridad fuera de su campo de",
+    "despues": ".",
+    "respuesta": "competencia",
+    "alternativas": [
+      "competencia"
+    ],
+    "explicacion": "No toda mención de un experto fortalece un argumento por sí sola. Lo que lo fortalece es que esa persona tenga conocimiento específico sobre el tema puntual y que además presente razones verificables."
+  },
+  {
+    "id": "CC-QR-033",
+    "tarjetaId": "CC-ARG-026",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Una ONG presenta el testimonio de una familia desplazada junto con cifras oficiales de desplazamiento forzado en la región, para pedir que se apruebe un programa de vivienda. ¿Comete esta ONG una apelación a la emoción?",
+    "opciones": [
+      "No, porque el testimonio acompaña datos verificables y no reemplaza la evidencia sobre el problema",
+      "Sí, porque cualquier mención del sufrimiento humano en un argumento es automáticamente falaz",
+      "Sí, porque las cifras oficiales de desplazamiento no son un dato relevante para el programa",
+      "No, porque los programas de vivienda nunca requieren evidencia técnica para aprobarse"
+    ],
+    "correcta": 0,
+    "explicacion": "La apelación a la emoción ocurre cuando el impacto emocional reemplaza por completo cualquier razón concreta. Mencionar el sufrimiento real de una familia no es el problema. El problema aparece cuando esa emoción sustituye a los datos, y aquí los datos sí están presentes."
+  },
+  {
+    "id": "CC-QR-034",
+    "tarjetaId": "CC-ARG-026",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Un candidato muestra imágenes de niños llorando afuera de un hospital para exigir la aprobación inmediata de un proyecto de infraestructura, sin presentar ningún estudio de viabilidad técnica o financiera. ¿Qué falacia comete?",
+    "opciones": [
+      "Apelación a la emoción, porque el impacto emocional reemplaza cualquier evidencia sobre la viabilidad del proyecto",
+      "Apelación a la autoridad, porque el candidato invoca su cargo político para respaldar el proyecto",
+      "Pendiente resbaladiza, porque anticipa consecuencias cada vez más graves si no se aprueba el proyecto",
+      "Circularidad, porque la conclusión del candidato repite exactamente su propia premisa inicial"
+    ],
+    "correcta": 0,
+    "explicacion": "Aquí la emoción no acompaña ningún dato, lo sustituye por completo. No hay ningún estudio de viabilidad que respalde la conclusión, solo el impacto de las imágenes."
+  },
+  {
+    "id": "CC-QR-035",
+    "tarjetaId": "CC-ARG-027",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Un concejal advierte que aprobar una excepción puntual a una norma de parqueo, sin mostrar ningún mecanismo por el cual esa excepción se replicaría, provocará inevitablemente que nadie respete ninguna norma de tránsito en la ciudad. ¿Qué falacia comete?",
+    "opciones": [
+      "Pendiente resbaladiza, porque presenta una cadena de consecuencias extremas como inevitable sin mostrar el mecanismo causal",
+      "Generalización apresurada, porque concluye a partir de una sola excepción sin revisar más casos similares",
+      "Falsa dicotomía, porque reduce las opciones disponibles a solo aprobar o rechazar la excepción",
+      "Apelación a la emoción, porque el argumento busca generar indignación en los ciudadanos afectados"
+    ],
+    "correcta": 0,
+    "explicacion": "El concejal da por hecha una cadena de pasos cada vez más graves sin explicar por qué cada eslabón realmente se seguiría del anterior. Esa es la marca de la pendiente resbaladiza, no una advertencia razonable sobre un riesgo real."
+  },
+  {
+    "id": "CC-QR-036",
+    "tarjetaId": "CC-ARG-027",
+    "categoria": "argumentacion",
+    "formato": "fill",
+    "enunciado": "Completa el criterio para distinguir un riesgo real de una pendiente resbaladiza:",
+    "antes": "Advertir sobre un riesgo real y demostrado de que una medida se extienda es distinto de exagerar sin evidencia una cadena de consecuencias. El criterio para distinguirlos es si cada paso de la cadena tiene un mecanismo causal verificable o es solo una suposición",
+    "despues": ".",
+    "respuesta": "alarmista",
+    "alternativas": [
+      "alarmista"
+    ],
+    "explicacion": "No toda advertencia sobre el futuro es una pendiente resbaladiza. Lo es cuando la cadena de consecuencias se presenta como inevitable sin ningún mecanismo que explique por qué un paso llevaría al siguiente."
+  },
+  {
+    "id": "CC-QR-037",
+    "tarjetaId": "CC-ARG-028",
+    "categoria": "argumentacion",
+    "formato": "build",
+    "enunciado": "Arma un argumento circular real sobre la imparcialidad de un juez:",
+    "fragmentos": [
+      "Este juez es imparcial",
+      "porque no tiene ningún sesgo,",
+      "y no tiene ningún sesgo porque es imparcial"
+    ],
+    "explicacion": "Al quitarle las palabras distintas, la premisa dice exactamente lo mismo que la conclusión. No hay ninguna razón independiente que sostenga la afirmación, solo una repetición disfrazada."
+  },
+  {
+    "id": "CC-QR-038",
+    "tarjetaId": "CC-ARG-028",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "¿Cuál de las siguientes afirmaciones es un argumento circular?",
+    "opciones": [
+      "Esta política es justa porque trata a todos los ciudadanos de manera equitativa, y es equitativa porque es justa",
+      "Esta política es justa porque fue aprobada por el Congreso siguiendo el procedimiento legal completo",
+      "Esta política es justa porque beneficia a la mayoría de la población sin perjudicar a ningún grupo",
+      "Esta política es justa porque corrige una desigualdad documentada en estudios independientes"
+    ],
+    "correcta": 0,
+    "explicacion": "En la opción correcta, 'justa' y 'equitativa' se usan como sinónimos, así que la premisa no aporta ninguna razón nueva. Las otras tres ofrecen un criterio distinto e independiente de la conclusión, aunque ese criterio pueda debatirse."
+  },
+  {
+    "id": "CC-QR-039",
+    "tarjetaId": "CC-ARG-038",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "En una ciudad, los meses con mayor venta de helado también registran más ahogamientos en piscinas públicas. ¿Cuál es la explicación más plausible de esta correlación?",
+    "opciones": [
+      "Ambos aumentan en los meses de calor, así que una tercera variable explica los dos fenómenos a la vez",
+      "Comer helado antes de nadar afecta directamente la capacidad de flotación de una persona",
+      "Los ahogamientos generan ansiedad en la población, lo que aumenta el consumo de helado como consuelo",
+      "Es pura casualidad estadística y no existe ninguna explicación posible detrás de esta correlación"
+    ],
+    "correcta": 0,
+    "explicacion": "Que dos hechos coincidan en el tiempo no prueba que uno cause al otro. Aquí la temporada de calor explica tanto el aumento del consumo de helado como el aumento de personas nadando, sin que exista ninguna relación causal directa entre ambos."
+  },
+  {
+    "id": "CC-QR-040",
+    "tarjetaId": "CC-ARG-038",
+    "categoria": "argumentacion",
+    "formato": "fill",
+    "enunciado": "Completa la idea sobre las causas posibles de una correlación:",
+    "antes": "Que dos hechos coincidan en tiempo o lugar no prueba que uno produzca al otro: puede ser coincidencia, puede existir una tercera causa común, o la relación podría ir en sentido",
+    "despues": "al que se asumió.",
+    "respuesta": "inverso",
+    "alternativas": [
+      "inverso"
+    ],
+    "explicacion": "Afirmar causalidad exige evidencia sobre el mecanismo, no solo observar que dos hechos ocurren juntos. Ver a un policía de tránsito en un lugar con congestión no prueba que él la cause. Puede estar ahí porque lo enviaron a gestionar una congestión que ya existía por otras causas."
+  },
+  {
+    "id": "CC-QR-041",
+    "tarjetaId": "CC-ARG-030",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Un columnista escribe: 'No le crean nada a este exfuncionario, tiene un historial de corrupción', refiriéndose a una propuesta de transparencia fiscal que el exfuncionario presentó. ¿Qué falacia comete y en qué dirección opera?",
+    "opciones": [
+      "Ad hominem, porque descalifica la propuesta atacando un rasgo negativo de quien la presenta",
+      "Apelación a la autoridad, porque respalda la propuesta apoyándose en el cargo que tuvo el exfuncionario",
+      "Generalización apresurada, porque concluye a partir de un solo caso de corrupción conocido",
+      "Circularidad, porque la conclusión del columnista repite su propia premisa con otras palabras"
+    ],
+    "correcta": 0,
+    "explicacion": "El ad hominem y la apelación a la autoridad comparten la misma raíz: evaluar a la persona en vez del argumento. Se diferencian en la dirección. Aquí se usa un rasgo negativo para rechazar la propuesta, así que es ad hominem, no apelación a la autoridad."
+  },
+  {
+    "id": "CC-QR-042",
+    "tarjetaId": "CC-ARG-030",
+    "categoria": "argumentacion",
+    "formato": "build",
+    "enunciado": "Arma la diferencia entre estas dos falacias que comparten la misma raíz:",
+    "fragmentos": [
+      "el ad hominem rechaza una afirmación",
+      "atacando un rasgo negativo de quien la dice,",
+      "mientras la apelación a la autoridad la acepta apoyándose en un rasgo positivo"
+    ],
+    "explicacion": "Ambas falacias sustituyen el análisis del argumento por un juicio sobre quién lo dice. La diferencia está en el sentido: una descalifica, la otra respalda, pero ninguna evalúa realmente las razones."
+  },
+  {
+    "id": "CC-QR-043",
+    "tarjetaId": "CC-ARG-031",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "En un debate sobre minería, alguien afirma: 'hay que elegir entre minería sin ninguna regulación o pobreza total en la región'. ¿Qué falacia comete y sobre qué actúa?",
+    "opciones": [
+      "Falsa dicotomía, porque reduce artificialmente las opciones de solución disponibles a solo dos extremos",
+      "Hombre de paja, porque distorsiona la postura específica de quienes piden regulación ambiental",
+      "Pendiente resbaladiza, porque anticipa una cadena de consecuencias económicas cada vez más graves",
+      "Apelación a la emoción, porque busca generar temor sobre la pobreza en la región minera"
+    ],
+    "correcta": 0,
+    "explicacion": "La falsa dicotomía actúa sobre las opciones de solución a un problema, no sobre la postura de un interlocutor específico. Aquí se presentan solo dos extremos cuando existen alternativas intermedias, como una minería regulada."
+  },
+  {
+    "id": "CC-QR-044",
+    "tarjetaId": "CC-ARG-031",
+    "categoria": "argumentacion",
+    "formato": "build",
+    "enunciado": "Arma el ejemplo de hombre de paja sobre quienes piden regulación ambiental en la minería:",
+    "fragmentos": [
+      "quienes piden regulación ambiental",
+      "en realidad quieren",
+      "prohibir toda actividad económica en la región"
+    ],
+    "explicacion": "El hombre de paja no elimina opciones de solución como la falsa dicotomía. Deforma la postura específica del oponente hasta volverla más fácil de rechazar, aunque nadie haya defendido esa versión exagerada."
+  },
+  {
+    "id": "CC-QR-045",
+    "tarjetaId": "CC-CON-063",
+    "categoria": "conocimientos",
+    "formato": "mcq",
+    "enunciado": "Un proyecto de ley se aprueba en una de las cámaras del Congreso sin que ningún congresista intervenga en el debate, solo se cuentan los votos. ¿Qué exigencia de la democracia deliberativa se vulnera?",
+    "opciones": [
+      "Que exista una discusión pública y argumentada real antes de decidir, no solo el trámite formal de votación",
+      "Que la decisión final la tome el pueblo directamente y no sus representantes elegidos",
+      "Que el proyecto se someta antes a un referendo o consulta popular sobre su contenido",
+      "Que todos los partidos políticos representados tengan curules proporcionales en el Congreso"
+    ],
+    "correcta": 0,
+    "explicacion": "La democracia representativa se centra en quién decide y la participativa en qué mecanismos permiten intervenir directamente. La deliberativa exige además que haya debate argumentado antes de decidir, sin importar quién tome la decisión final."
+  },
+  {
+    "id": "CC-QR-046",
+    "tarjetaId": "CC-CON-063",
+    "categoria": "conocimientos",
+    "formato": "fill",
+    "enunciado": "Completa la idea sobre qué exige la democracia deliberativa:",
+    "antes": "La democracia deliberativa pone el foco en la calidad del proceso de decisión: exige debate público y argumentado antes de votar, sin importar si la decisión final la toman representantes o el pueblo",
+    "despues": ".",
+    "respuesta": "directamente",
+    "alternativas": [
+      "directamente"
+    ],
+    "explicacion": "Cumplir el trámite legislativo formal, como reunir los votos necesarios, no basta por sí solo. La democracia deliberativa exige además que haya existido una discusión sustantiva real antes de esa votación."
+  },
+  {
+    "id": "CC-QR-047",
+    "tarjetaId": "CC-CON-064",
+    "categoria": "conocimientos",
+    "formato": "mcq",
+    "enunciado": "Un fondo común financiado con las cotizaciones de trabajadores activos otorga una renta a adultos mayores que cotizaron toda su vida pero nunca alcanzaron a pensionarse. ¿Qué principio constitucional aplica directamente este mecanismo?",
+    "opciones": [
+      "El principio de solidaridad del artículo 48, que sostiene con un fondo común a quienes no logran acceder al sistema por sí solos",
+      "El deber de solidaridad ciudadana del artículo 95, que exige ayudar ante calamidades públicas puntuales",
+      "El principio de universalidad, que exige que el sistema de salud cubra a toda la población sin excepción",
+      "El principio de eficiencia, que exige que los recursos del sistema se administren con el menor costo posible"
+    ],
+    "correcta": 0,
+    "explicacion": "El artículo 48 organiza todo el sistema de pensiones y salud para que la protección no dependa solo del ahorro individual, sino de un fondo colectivo. Es un pilar estructural permanente, distinto del deber puntual del artículo 95."
+  },
+  {
+    "id": "CC-QR-048",
+    "tarjetaId": "CC-CON-064",
+    "categoria": "conocimientos",
+    "formato": "fill",
+    "enunciado": "Completa la idea sobre el principio de solidaridad del artículo 48:",
+    "antes": "A diferencia del deber de solidaridad ante calamidades del artículo 95, el principio de solidaridad del artículo 48 es un pilar estructural permanente que organiza todo el sistema de",
+    "despues": "para que la protección no dependa solo del ahorro individual de cada persona.",
+    "respuesta": "seguridad social",
+    "alternativas": [
+      "seguridad social"
+    ],
+    "explicacion": "Uno es una respuesta voluntaria a una emergencia puntual. El otro es el diseño institucional de fondo que sostiene todo el sistema de pensiones y salud de manera permanente."
+  },
+  {
+    "id": "CC-QR-049",
+    "tarjetaId": "CC-CON-065",
+    "categoria": "conocimientos",
+    "formato": "match",
+    "enunciado": "Empareja cada categoría de la teoría constitucional con su ejemplo real:",
+    "izq": [
+      "Valor",
+      "Principio",
+      "Norma o regla"
+    ],
+    "der": [
+      "La convivencia y la paz del preámbulo",
+      "El Estado social de derecho del artículo 1",
+      "Que el Presidente debe tener más de 30 años, artículo 191"
+    ],
+    "pares": {
+      "0": 0,
+      "1": 1,
+      "2": 2
+    },
+    "explicacion": "Los tres tienen distinto grado de concreción. Un valor es un fin genérico que orienta al legislador. Un principio ya tiene fuerza normativa y se pondera frente a otros en un caso concreto. Una regla se aplica de forma directa cuando se cumplen sus condiciones, sin ponderación."
+  },
+  {
+    "id": "CC-QR-050",
+    "tarjetaId": "CC-CON-065",
+    "categoria": "conocimientos",
+    "formato": "mcq",
+    "enunciado": "¿Cuál es la diferencia principal entre un principio constitucional, como el Estado social de derecho, y una norma o regla, como el requisito de edad mínima para ser Presidente?",
+    "opciones": [
+      "El principio se pondera frente a otros principios en un caso concreto; la regla se aplica de forma directa cuando se cumplen sus condiciones",
+      "El principio es de aplicación inmediata y automática; la regla necesita siempre una sentencia judicial previa para aplicarse",
+      "El principio solo aparece en el preámbulo de la Constitución; la regla aparece únicamente en el articulado numerado",
+      "El principio obliga solo al Congreso; la regla obliga por igual a todas las ramas del poder público sin excepción"
+    ],
+    "correcta": 0,
+    "explicacion": "Una regla funciona de manera todo o nada: si se cumple la condición, se aplica la consecuencia directamente. Un principio puede entrar en tensión con otro principio y requiere ponderación caso por caso, no una aplicación mecánica."
+  },
+  {
+    "id": "CC-QR-051",
+    "tarjetaId": "CC-CON-066",
+    "categoria": "conocimientos",
+    "formato": "mcq",
+    "enunciado": "En 1990, estudiantes universitarios promovieron votar una papeleta adicional, sin ningún respaldo institucional formal, pidiendo convocar una Asamblea Constituyente. ¿Qué tipo de mecanismo fue la Séptima Papeleta?",
+    "opciones": [
+      "Una acción ciudadana informal y espontánea, sin respaldo jurídico formal, que generó la presión política para el cambio constitucional",
+      "Un referendo oficial convocado por el Gobierno para consultar directamente a los ciudadanos sobre la nueva Constitución",
+      "Una consulta popular tramitada por el Congreso siguiendo el procedimiento legal vigente en ese momento",
+      "Una iniciativa legislativa presentada formalmente ante la Registraduría por un partido político estudiantil"
+    ],
+    "correcta": 0,
+    "explicacion": "La Séptima Papeleta no tuvo ningún respaldo institucional formal en su origen. Fue su masiva acogida ciudadana la que presionó políticamente a la Registraduría y al Gobierno para habilitar la convocatoria oficial de la Asamblea."
+  },
+  {
+    "id": "CC-QR-052",
+    "tarjetaId": "CC-CON-066",
+    "categoria": "conocimientos",
+    "formato": "fill",
+    "enunciado": "Completa la idea sobre lo que demostró la Séptima Papeleta:",
+    "antes": "La masiva acogida de la Séptima Papeleta demuestra que la movilización pacífica ciudadana, sin ningún poder formal, puede desencadenar un cambio institucional mayúsculo: la sustitución completa de la Constitución de",
+    "despues": ".",
+    "respuesta": "1886",
+    "alternativas": [
+      "1886"
+    ],
+    "explicacion": "El episodio ocurrió en medio de una fuerte crisis de violencia y narcoterrorismo. La presión ciudadana informal logró lo que ningún mecanismo institucional había logrado hasta entonces: una nueva Constitución."
+  },
+  {
+    "id": "CC-QR-053",
+    "tarjetaId": "CC-CON-067",
+    "categoria": "conocimientos",
+    "formato": "mcq",
+    "enunciado": "Tras perder una elección presidencial, el candidato que quedó en segundo lugar obtiene una curul garantizada en el Senado gracias a una ley específica. ¿Qué busca esta ley?",
+    "opciones": [
+      "Introducir un contrapeso institucional, garantizando representación a la fuerza política que no ganó la elección",
+      "Fortalecer al partido de gobierno, asegurando que controle una mayoría más amplia en el Congreso",
+      "Reducir el número de partidos políticos habilitados para participar en las siguientes elecciones legislativas",
+      "Obligar al segundo candidato más votado a integrarse formalmente al gabinete ministerial del Gobierno electo"
+    ],
+    "correcta": 0,
+    "explicacion": "El Estatuto de la Oposición, Ley 1909 de 2018, otorga garantías a quienes se declaran en oposición o independientes del gobierno de turno. En elecciones uninominales, otorga una curul al candidato que quedó de segundo, buscando pluralidad ideológica en las instituciones."
+  },
+  {
+    "id": "CC-QR-054",
+    "tarjetaId": "CC-CON-067",
+    "categoria": "conocimientos",
+    "formato": "build",
+    "enunciado": "Arma qué otorga el Estatuto de la Oposición al candidato presidencial que queda en segundo lugar:",
+    "fragmentos": [
+      "una curul en el Senado",
+      "que garantiza voz institucional",
+      "a una fuerza política distinta a la del Gobierno electo"
+    ],
+    "explicacion": "La ley reconoce derechos concretos a quienes no ganaron: acceso a medios, financiación y participación en debates de control político, además de esta curul garantizada en elecciones uninominales."
+  },
+  {
+    "id": "CC-QR-055",
+    "tarjetaId": "CC-CON-069",
+    "categoria": "conocimientos",
+    "formato": "mcq",
+    "enunciado": "Un hallazgo arqueológico prehispánico no puede venderse ni embargarse por las deudas de quien lo posee. ¿Cuál es el fundamento constitucional preciso de esta protección?",
+    "opciones": [
+      "Su vínculo con la identidad nacional, que el artículo 72 protege por encima de su valor económico o comercial",
+      "Su alto precio en el mercado internacional de arte, que exige un régimen especial de propiedad privada",
+      "Su antigüedad superior a cien años, criterio que activa automáticamente cualquier protección patrimonial",
+      "Su ubicación dentro de un parque nacional natural, que impide cualquier transacción sobre bienes ahí encontrados"
+    ],
+    "correcta": 0,
+    "explicacion": "El artículo 72 protege estos bienes porque expresan quiénes somos como Nación, no solo porque sean valiosos o antiguos. Por eso su régimen de propiedad es especial: el interés cultural prevalece sobre el comercial."
+  },
+  {
+    "id": "CC-QR-056",
+    "tarjetaId": "CC-CON-069",
+    "categoria": "conocimientos",
+    "formato": "fill",
+    "enunciado": "Completa la idea sobre la protección del patrimonio cultural:",
+    "antes": "El artículo 72 declara el patrimonio cultural de la Nación inalienable, inembargable e",
+    "despues": "por su vínculo directo con la identidad nacional, no simplemente por su valor económico.",
+    "respuesta": "imprescriptible",
+    "alternativas": [
+      "imprescriptible"
+    ],
+    "explicacion": "Estos tres atributos impiden que el patrimonio se venda, se embargue o se pierda por el paso del tiempo. La ley regula un régimen de propiedad especial porque estos bienes sostienen la identidad colectiva del país."
+  },
+  {
+    "id": "CC-QR-057",
+    "tarjetaId": "CC-MUL-023",
+    "categoria": "multiperspectivismo",
+    "formato": "mcq",
+    "enunciado": "Un concejal cambia su postura sobre un proyecto de infraestructura justo después de obtener un contrato relacionado con ese mismo proyecto, sin presentar ningún estudio técnico nuevo que explique el cambio. ¿Qué tipo de cambio de postura es este?",
+    "opciones": [
+      "Un cambio oportunista, porque coincide con un beneficio personal sin ninguna evidencia técnica que lo justifique",
+      "Un cambio genuino, porque todo cambio de postura frente a un proyecto de infraestructura merece el mismo respeto",
+      "Un cambio parcial, porque el concejal matiza su postura anterior sin abandonarla del todo en ningún momento",
+      "Un cambio irrelevante, porque los cambios de postura de un concejal no afectan la evaluación pública del proyecto"
+    ],
+    "correcta": 0,
+    "explicacion": "Un cambio genuino se acompaña de una explicación verificable sobre qué información nueva llevó a modificar la conclusión anterior. Aquí no hay ninguna evidencia técnica nueva, solo una coincidencia sospechosa con un beneficio personal."
+  },
+  {
+    "id": "CC-QR-058",
+    "tarjetaId": "CC-MUL-023",
+    "categoria": "multiperspectivismo",
+    "formato": "build",
+    "enunciado": "Arma qué distingue un cambio de postura genuino de uno oportunista:",
+    "fragmentos": [
+      "el cambio genuino explica qué evidencia nueva",
+      "llevó a modificar la conclusión anterior,",
+      "mientras el oportunista carece de esa justificación"
+    ],
+    "explicacion": "No todo cambio de opinión merece la misma evaluación. Exigir que quien cambia de postura ofrezca la evidencia específica que lo justificó permite distinguir una actualización honesta de un cambio de conveniencia."
+  },
+  {
+    "id": "CC-QR-059",
+    "tarjetaId": "CC-SIS-031",
+    "categoria": "pensamiento_sistemico",
+    "formato": "mcq",
+    "enunciado": "En el dilema del prisionero clásico, incriminar al cómplice conviene a cada acusado sin importar lo que decida el otro, aunque ambos terminarían mejor si los dos hubieran guardado silencio. ¿Cómo se llama esta opción que conviene sin importar la decisión ajena?",
+    "opciones": [
+      "Estrategia dominante, la opción que da el mejor resultado individual sin importar lo que elija el otro actor",
+      "Estrategia cooperativa, la opción que maximiza el resultado conjunto de ambos actores por igual",
+      "Estrategia sistémica, la opción que considera todas las dimensiones del problema antes de decidir",
+      "Estrategia de tradeoff, la opción que exige ceder en una dimensión para avanzar en otra distinta"
+    ],
+    "correcta": 0,
+    "explicacion": "Cuando las consecuencias de un actor dependen de las decisiones del otro, no basta con evaluar el propio problema aislado. Si una opción da el mejor resultado individual sin importar la elección ajena, es la estrategia dominante, aunque el resultado conjunto de seguirla ambos sea peor que si hubieran cooperado."
+  },
+  {
+    "id": "CC-QR-060",
+    "tarjetaId": "CC-SIS-031",
+    "categoria": "pensamiento_sistemico",
+    "formato": "build",
+    "enunciado": "Arma el error común al evaluar decisiones interdependientes como el dilema del prisionero:",
+    "fragmentos": [
+      "se evalúa la mejor decisión",
+      "ignorando cómo reaccionará",
+      "el otro actor involucrado"
+    ],
+    "explicacion": "Cuando el resultado de una persona depende de lo que decida otra, no basta con evaluar la propia situación en aislamiento. Confundir la opción moralmente preferible con la que minimiza el riesgo individual es un error común de este tipo de dilemas."
   }
 ]
