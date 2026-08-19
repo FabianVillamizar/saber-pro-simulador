@@ -29,6 +29,7 @@ export async function cargarModulo(moduloId) {
   const ejercicios = []
   const contraejemplos = []
   const lapizPapel = []
+  const quizRapido = []
 
   // Mismo discriminador estructural que antes, ampliado para Comunicación
   // Escrita (que no tiene ítems de opción múltiple, solo tarjetas de
@@ -43,7 +44,12 @@ export async function cargarModulo(moduloId) {
   // error") siempre tiene `error_demostrado`. Un ejercicio de "Lápiz y
   // papel" (Razonamiento Cuantitativo, ver PracticarLapizPapel.jsx) siempre
   // tiene `promptFase1` — el enunciado de su fase 1 (reconocer el enfoque
-  // antes de calcular), campo que ninguna otra entidad usa. Cada chequeo es
+  // antes de calcular), campo que ninguna otra entidad usa. Un ítem de
+  // "Quiz rápido" (ver QuizRapido.jsx) siempre tiene `formato`
+  // (mcq/fill/build/match) — a diferencia de `preguntas`, no viene del
+  // banco de examen ICFES sino que se deriva de una tarjeta de concepto
+  // (`tarjetaId`) para convertirla en algo más corto y jugable; por eso es
+  // una entidad propia y no una variante de `itemsCrudos`. Cada chequeo es
   // mutuamente excluyente con los anteriores, así que el orden no importa
   // salvo por legibilidad. Para cualquier otro módulo estas listas quedan
   // vacías y no las consume nadie.
@@ -56,6 +62,7 @@ export async function cargarModulo(moduloId) {
       else if ('ejercicio' in entrada) ejercicios.push(entrada)
       else if ('error_demostrado' in entrada) contraejemplos.push(entrada)
       else if ('promptFase1' in entrada) lapizPapel.push(entrada)
+      else if ('formato' in entrada) quizRapido.push(entrada)
       else tarjetasConcepto.push(entrada)
     }
   }
@@ -71,5 +78,6 @@ export async function cargarModulo(moduloId) {
     ejercicios,
     contraejemplos,
     lapizPapel,
+    quizRapido,
   }
 }

@@ -134,11 +134,15 @@ export function ModuloHub({ moduloId, perfil, onCambiarPerfil, onVolver, onSelec
       : [
           ...MODOS.filter((modo) => modo.id !== 'simulacro' || modulo.soportaSimulacro)
             .filter((modo) => modo.id !== 'practica-parte' || modulo.preguntas.length > 0)
-            // Quiz rápido cubre el mismo hueco que "Escribe la respuesta" ya
-            // cubre para Inglés (repaso corto y mezclado con corrección
-            // inmediata) — se excluye ahí para no duplicar el modo, ver
+            // Quiz rápido no reusa el banco de examen (`preguntas`): sus
+            // ítems se derivan de las tarjetas de concepto en un formato
+            // más corto y jugable (mcq/fill/build/match, ver
+            // QuizRapido.jsx y `modulo.quizRapido` en loadModulos.js), así
+            // que se gatea por ese banco propio, no por `preguntas`. Cubre
+            // el mismo hueco que "Escribe la respuesta" ya cubre para
+            // Inglés — se excluye ahí para no duplicar el modo, ver
             // MODO_ESCRIBIR_INGLES arriba.
-            .filter((modo) => modo.id !== 'quiz-rapido' || (modulo.preguntas.length > 0 && !esIngles)),
+            .filter((modo) => modo.id !== 'quiz-rapido' || (modulo.quizRapido.length > 0 && !esIngles)),
           ...(esIngles ? [MODO_ESCRIBIR_INGLES] : []),
           ...(esRazonamientoCuantitativo ? [MODO_LAPIZ_PAPEL_RC] : []),
         ]
