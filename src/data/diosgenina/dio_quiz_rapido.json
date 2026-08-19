@@ -6,12 +6,12 @@
     "formato": "mcq",
     "enunciado": "Un químico intenta disolver cloruro de sodio, un sólido iónico, en hexano puro y no observa disolución visible. ¿Cuál es la explicación más precisa según la contabilidad energética de la mezcla?",
     "opciones": [
-      "Las fuertes interacciones iónicas del cloruro de sodio no se compensan con las débiles fuerzas de dispersión del hexano, así que el proceso no es energéticamente favorable",
-      "El hexano tiene un momento dipolar neto tan alto que repele activamente cualquier ion cargado que intente acercarse a su estructura molecular",
-      "El cloruro de sodio es una molécula demasiado grande para caber físicamente entre las moléculas de hexano dispuestas en el líquido",
-      "Las moléculas de hexano reconocen químicamente que el cloruro de sodio no pertenece a su mismo grupo estructural y lo excluyen del sistema"
+      "El cloruro de sodio es una molécula demasiado grande para caber físicamente entre las moléculas de hexano dispuestas en el líquido de forma ordenada",
+      "Las moléculas de hexano reconocen químicamente que el cloruro de sodio no pertenece a su mismo grupo estructural y lo excluyen activamente del sistema",
+      "El hexano tiene un momento dipolar neto tan alto que repele activamente cualquier ion cargado que intente acercarse a su estructura molecular, sin importar qué tan fuerte sea esa carga eléctrica",
+      "Las fuertes interacciones iónicas del cloruro de sodio no se compensan con las débiles fuerzas de dispersión del hexano, así que el proceso no es energéticamente favorable"
     ],
-    "correcta": 0,
+    "correcta": 3,
     "explicacion": "Disolver algo exige primero romper las interacciones del soluto consigo mismo, un costo energético alto para un sólido iónico. El hexano solo ofrece fuerzas de dispersión débiles, que no alcanzan a compensar ese costo, así que el proceso completo resulta desfavorable."
   },
   {
@@ -35,12 +35,12 @@
     "formato": "mcq",
     "enunciado": "El tetracloruro de carbono tiene cuatro enlaces carbono-cloro muy polares, dispuestos en una geometría tetraédrica perfecta. ¿Por qué se comporta como una molécula no polar?",
     "opciones": [
-      "Porque los cuatro vectores de dipolo de enlace apuntan en direcciones que se cancelan exactamente por la simetría tetraédrica, dejando un momento dipolar neto de cero",
       "Porque el cloro, pese a ser más electronegativo que el carbono, no forma en realidad ningún dipolo real dentro de ese enlace específico",
-      "Porque la molécula gira tan rápido en solución que el dipolo neto se promedia matemáticamente a cero en cualquier instante de tiempo",
+      "Porque los cuatro vectores de dipolo de enlace apuntan en direcciones que se cancelan exactamente por la simetría tetraédrica, dejando un momento dipolar neto de cero",
+      "Porque la molécula gira tan rápido en solución que el dipolo neto se promedia matemáticamente a cero en cualquier instante de tiempo que se observe experimentalmente",
       "Porque el carbono central bloquea físicamente que los átomos de cloro ejerzan cualquier efecto electrónico sobre el resto de la molécula"
     ],
-    "correcta": 0,
+    "correcta": 1,
     "explicacion": "La polaridad molecular es la suma vectorial de los dipolos de enlace, no su suma simple. En una geometría perfectamente simétrica, esos cuatro vectores se cancelan entre sí aunque cada enlace individual sea genuinamente polar."
   },
   {
@@ -63,12 +63,12 @@
     "formato": "mcq",
     "enunciado": "Al agitar diclorometano y agua con un extracto que contiene tanto diosgenina libre, de log P alto, como saponinas intactas cargadas de azúcares, de log P bajo, ¿qué predice el coeficiente de partición sobre a dónde va cada una?",
     "opciones": [
+      "Las saponinas intactas migrarán al diclorometano primero, y solo después la diosgenina libre podrá pasar lentamente a esa fase",
+      "El coeficiente de partición determina cuánto soluto hay en total, no en qué fase se concentra cada compuesto realmente disuelto",
       "La diosgenina libre se concentrará preferentemente en la fase de diclorometano, mientras que las saponinas intactas permanecerán mayormente en la fase acuosa",
-      "Ambas se repartirán en proporciones idénticas entre las dos fases, porque el coeficiente de partición no distingue entre compuestos distintos",
-      "Las saponinas intactas migrarán al diclorometano primero, y solo después la diosgenina libre podrá pasar a esa fase",
-      "El coeficiente de partición determina cuánto soluto hay en total, no en qué fase se concentra cada compuesto disuelto"
+      "Ambas se repartirán en proporciones prácticamente idénticas entre las dos fases, porque el coeficiente de partición no distingue realmente entre compuestos químicos distintos"
     ],
-    "correcta": 0,
+    "correcta": 2,
     "explicacion": "Diosgenina, con su esqueleto esteroidal grande y pocos -OH expuestos, tiene log P alto y prefiere fuertemente el diclorometano. Las saponinas intactas, cargadas de azúcares con muchos -OH, tienen log P bajo y se quedan en el agua hasta que la hidrólisis les quita los azúcares."
   },
   {
@@ -94,7 +94,7 @@
     "opciones": [
       "La reacción es reversible en principio; el exceso masivo de agua y medio ácido-alcohólico desplaza el equilibrio casi por completo hacia la hidrólisis, sin volverla irreversible en sí misma",
       "El estudiante tiene razón: cualquier reacción catalizada por un ácido fuerte en medio acuoso es irreversible por la propia naturaleza química del catalizador ácido empleado",
-      "La reacción sería reversible solo si se usara una base en vez de un ácido, ya que las bases favorecen la condensación por defecto en cualquier sistema",
+      "La reacción sería reversible solo si se usara una base en vez de un ácido, ya que las bases favorecen la condensación por defecto en prácticamente cualquier sistema químico conocido en la literatura",
       "La irreversibilidad depende exclusivamente de la temperatura de reflujo alcanzada, no de la proporción de agua presente en el sistema de reacción"
     ],
     "correcta": 0,
@@ -120,12 +120,12 @@
     "formato": "mcq",
     "enunciado": "Un compañero de laboratorio propone que duplicar la temperatura de reflujo debería duplicar exactamente la velocidad de la hidrólisis ácida. ¿Qué corrige esta suposición según la ecuación de Arrhenius?",
     "opciones": [
-      "La constante de velocidad depende exponencialmente de la temperatura, así que un pequeño aumento puede producir un aumento mucho mayor que el doble en la velocidad",
       "La temperatura no afecta realmente la velocidad de una reacción catalizada por ácido, solo afecta reacciones sin catalizador presente",
       "Duplicar la temperatura sí duplica exactamente la velocidad, porque la constante de velocidad es directamente proporcional a la temperatura",
-      "La energía de activación aumenta proporcionalmente con la temperatura, cancelando cualquier efecto que el calor tendría sobre la velocidad"
+      "La energía de activación aumenta proporcionalmente con la temperatura, cancelando cualquier efecto que el calor tendría sobre la velocidad",
+      "La constante de velocidad depende exponencialmente de la temperatura, así que un pequeño aumento puede producir un aumento mucho mayor que el doble en la velocidad"
     ],
-    "correcta": 0,
+    "correcta": 3,
     "explicacion": "La constante de velocidad depende exponencialmente de la temperatura, no linealmente: una fracción exponencialmente mayor de moléculas alcanza la energía de activación necesaria con solo un pequeño aumento térmico, no un aumento proporcional simple."
   },
   {
@@ -149,12 +149,12 @@
     "formato": "mcq",
     "enunciado": "Al final de la hidrólisis ácida completa de una muestra, el ácido sulfúrico sigue presente en el medio en la misma cantidad con la que se agregó al inicio. ¿Cómo se explica esto si el ácido participó activamente en el mecanismo de reacción?",
     "opciones": [
-      "El protón que activa el enlace glucosídico se libera de nuevo al medio en el paso final del mecanismo, quedando disponible para catalizar la siguiente molécula",
       "El ácido sulfúrico en realidad no participa en el mecanismo de hidrólisis, solo mantiene el pH general de la mezcla de reacción",
+      "El protón que activa el enlace glucosídico se libera de nuevo al medio en el paso final del mecanismo, quedando disponible para catalizar la siguiente molécula",
       "El ácido se regenera químicamente a partir del agua liberada durante la hidrólisis, produciendo una cantidad neta idéntica a la original",
       "Solo una fracción minúscula del ácido agregado participa realmente en la reacción, y el resto permanece inactivo desde el inicio"
     ],
-    "correcta": 0,
+    "correcta": 1,
     "explicacion": "Un catalizador cambia el mecanismo hacia uno con menor energía de activación sin cambiar la termodinámica global. El protón termina exactamente donde empezó, disponible para catalizar la siguiente molécula, aunque en la práctica de laboratorio se use en exceso estequiométrico por razones cinéticas."
   },
   {
