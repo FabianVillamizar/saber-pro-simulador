@@ -22,9 +22,7 @@ const PERFIL_REQUERIDO_POR_MODULO = {
   'quimica-completa': 'Fabian',
 }
 
-const CODIGOS_ACCESO = {
-  diosgenina: hashPin('2724'),
-}
+const CODIGOS_ACCESO = {}
 
 // Quita acentos/diacríticos (á→a, é→e, etc.) pero conserva mayúsculas y
 // minúsculas — la comparación de perfil es insensible a tildes, no a caja.

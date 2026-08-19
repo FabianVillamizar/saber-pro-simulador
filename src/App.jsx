@@ -22,6 +22,7 @@ import { ExploracionCompetencias } from './paginas/ExploracionCompetencias.jsx'
 import { ExploracionLecturaCritica } from './paginas/ExploracionLecturaCritica.jsx'
 import { ExploracionRazonamientoCuantitativo } from './paginas/ExploracionRazonamientoCuantitativo.jsx'
 import { ExploracionPensamientoCientifico } from './paginas/ExploracionPensamientoCientifico.jsx'
+import { ExploracionDiosgenina } from './paginas/ExploracionDiosgenina.jsx'
 import { MapaConocimientoQuimica } from './paginas/MapaConocimientoQuimica.jsx'
 
 function App() {
@@ -89,6 +90,7 @@ function App() {
     'lectura-critica': ExploracionLecturaCritica,
     'razonamiento-cuantitativo': ExploracionRazonamientoCuantitativo,
     'pensamiento-cientifico': ExploracionPensamientoCientifico,
+    diosgenina: ExploracionDiosgenina,
   }
 
   const irAModo = (modo, moduloId) => {

@@ -298,15 +298,30 @@ export const indiceModulos = {
     // Sin distribución de simulacro definida (igual que CC y PC) — solo
     // repaso de conceptos y práctica por sub-categoría por ahora.
     soportaSimulacro: false,
-    // Mismo vocabulario de afirmaciones que Pensamiento Científico: las
-    // preguntas de diosgenina evalúan las mismas 5 competencias científicas
-    // genéricas, no una taxonomía propia.
+    // Dos usos distintos del mismo campo `categorias`, igual que ya pasa en
+    // otros módulos (ver saber_pro_module_architecture): las 15 preguntas de
+    // examen (`dio_items`) usan el mismo vocabulario de afirmaciones que
+    // Pensamiento Científico (5 competencias científicas genéricas, no una
+    // taxonomía propia) por su campo `afirmacion`; las 100 tarjetas de
+    // teoría (`dio_fqt`...`dio_est`) agrupan por su campo `bloque` — los 9
+    // bloques del protocolo real del semillero, en el orden en que
+    // aparecen en el pipeline (no alfabético). RepasoConceptos usa esta
+    // misma tabla para el badge de categoría de las tarjetas.
     categorias: {
       adquirir_interpretar: 'Adquirir e interpretar',
       analizar_concluir: 'Analizar y concluir',
       comprender_modelos: 'Comprender modelos',
       establecer_estrategias: 'Establecer estrategias',
       plantear_preguntas: 'Plantear preguntas',
+      FQT: 'Fisicoquímica transversal',
+      HID: 'Hidrólisis ácida',
+      ELL: 'Extracción líquido-líquido',
+      SER: 'Secado, evaporación, redisolución',
+      TLC: 'Cromatografía en capa fina',
+      ESP: 'Colorimetría y espectrofotometría',
+      HPL: 'HPLC',
+      PFT: 'Perfilaje fitoquímico',
+      EST: 'Estadística',
     },
     adapters: adaptersDiosgenina,
   },

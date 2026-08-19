@@ -370,6 +370,7 @@ export function RepasoConceptos({
                   <span className="repaso-badge-tipo">
                     {modulo.categorias?.[tarjeta.afirmacion_asociada] ??
                       modulo.nucleos?.[tarjeta.contenido] ??
+                      modulo.categorias?.[tarjeta.bloque] ??
                       tarjeta.afirmacion_asociada ??
                       tarjeta.contenido ??
                       tarjeta.bloque}
@@ -564,7 +565,9 @@ export function RepasoConceptos({
                         {tarjeta.despues}
                       </>
                     ) : (
-                      <span className="repaso-reverso-respuesta">{tarjeta.respuesta}</span>
+                      <span className="repaso-reverso-respuesta">
+                        <TextoConNegritas texto={tarjeta.respuesta} />
+                      </span>
                     )}
                   </div>
                 </div>
@@ -581,19 +584,23 @@ export function RepasoConceptos({
                   </div>
                 )}
 
-                <div>
-                  <div className="repaso-seccion-label">Regla</div>
-                  <div className="repaso-seccion-texto">
-                    <TextoConNegritas texto={tarjeta.regla} />
+                {tarjeta.regla && (
+                  <div>
+                    <div className="repaso-seccion-label">Regla</div>
+                    <div className="repaso-seccion-texto">
+                      <TextoConNegritas texto={tarjeta.regla} />
+                    </div>
                   </div>
-                </div>
+                )}
 
-                <div className="repaso-ejemplo">
-                  <div className="repaso-seccion-label repaso-seccion-label--accent">Ejemplo</div>
-                  <div className="repaso-ejemplo-texto">
-                    <TextoConNegritas texto={tarjeta.ejemplo} />
+                {tarjeta.ejemplo && (
+                  <div className="repaso-ejemplo">
+                    <div className="repaso-seccion-label repaso-seccion-label--accent">Ejemplo</div>
+                    <div className="repaso-ejemplo-texto">
+                      <TextoConNegritas texto={tarjeta.ejemplo} />
+                    </div>
                   </div>
-                </div>
+                )}
 
                 <div className="repaso-error">
                   <span className="repaso-error-icono" />

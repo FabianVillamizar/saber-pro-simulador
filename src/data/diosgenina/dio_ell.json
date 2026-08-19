@@ -1,0 +1,218 @@
+[
+  {
+    "id": "ELL-01",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "ELL",
+    "modo": "pregunta",
+    "pregunta": "El protocolo dice: 3 extracciones de 25 mL en vez de 1 de 75 mL. ¿Cuánto más eficiente es esto exactamente, y por qué no es 'un poco mejor' sino matemáticamente garantizado?",
+    "respuesta": "**Idea clave: la fracción NO extraída se eleva a la potencia n (número de extracciones) — por eso más extracciones gana, aunque cada una use menos solvente.**\n\nLa fracción de soluto que queda sin extraer después de n extracciones, cada una con volumen V_org, desde un volumen V_ac de fase acuosa y coeficiente de partición K, es:\n\n**q = (V_ac / (V_ac + K·V_org))^n**\n\nEl volumen de solvente por extracción entra linealmente en el denominador, pero el número de extracciones entra como **exponente**. Elevar una fracción menor que 1 a una potencia mayor la hace más pequeña mucho más rápido que aumentar linealmente el denominador — por eso, para el MISMO volumen total de solvente usado, dividirlo en 3 extracciones deja sistemáticamente menos soluto sin extraer que usarlo todo en una sola extracción.",
+    "error_comun": "Pensar que 'más solvente en una sola extracción' escala igual de bien que 'más extracciones con menos solvente cada una' — matemáticamente son muy distintas (lineal vs. exponencial). Olvidar que este beneficio tiene rendimientos decrecientes — pasar de 1 a 3 extracciones ayuda muchísimo, pero de 10 a 12 casi no cambia nada; hay un punto donde ya no vale la pena añadir más. Asumir que la fórmula da el mismo beneficio relativo sin importar K — si K es extremadamente alto, una sola extracción ya recupera casi todo, y el beneficio de múltiples extracciones es marginal; el beneficio es mayor cuando K es moderado, no extremo.",
+    "dificultad": "alta",
+    "prereqs": [
+      "FQT-03"
+    ],
+    "connects_to": [
+      "SER"
+    ],
+    "regla": "la fracción NO extraída se eleva a la potencia n (número de extracciones) — por eso más extracciones gana, aunque cada una use menos solvente.",
+    "conexion_cotidiana": "Esta misma ecuación exponencial (fracción remanente elevada a n etapas) es matemáticamente idéntica a la que describe la eficiencia de la **diálisis renal** o el diseño de **filtros de agua en serie**: pasar el fluido por varias etapas pequeñas de intercambio es sistemáticamente más eficiente que una sola etapa grande con el mismo 'presupuesto' total de medio de intercambio. Un nefrólogo diseñando un protocolo de diálisis y un químico haciendo extracción líquido-líquido resuelven, sin saberlo, la misma ecuación de reparto en n etapas discretas."
+  },
+  {
+    "id": "ELL-02",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "ELL",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué el DCM, una molécula pequeña de solo 3 átomos pesados, es más denso que el agua, cuando la mayoría de solventes orgánicos comunes (hexano, éter, tolueno) flotan?",
+    "respuesta": "**Idea clave: densidad = masa / volumen, y los halógenos añaden masa atómica sin agrandar mucho el volumen molecular.**\n\nEl DCM (CH2Cl2) tiene masa molecular considerable (84.93 g/mol) concentrada en una molécula relativamente pequeña, gracias a los dos átomos de cloro (masa atómica 35.45 cada uno, mucho más pesados que el H o C que reemplazan) — la molécula no ocupa mucho más volumen que, por ejemplo, el propano, pero pesa bastante más por los cloros. Los solventes orgánicos 'típicos' que flotan (hexano, tolueno, éter dietílico) son hidrocarburos con masa molecular relativamente baja para su volumen molecular. De ahí que casi cualquier solvente clorado o bromado pesado (DCM, cloroformo, tetracloruro de carbono) tienda a hundirse, mientras los hidrocarburos simples flotan — no es coincidencia, es masa atómica de halógenos empaquetada en un volumen que no crece proporcionalmente.",
+    "error_comun": "Asumir que 'más denso' significa 'más polar' — no están relacionados directamente; el DCM es solo moderadamente polar, pero denso por razones de masa atómica, no de polaridad. Generalizar 'los solventes orgánicos flotan' como regla universal — cierto para hidrocarburos, falso para halogenados pesados; hay que verificar siempre, no asumir por reflejo. Olvidar verificar la densidad relativa ANTES de decidir cuál fase recoger — un error clásico es recoger la fase equivocada asumiendo 'la orgánica siempre flota', cierto para muchos solventes pero falso para DCM/cloroformo.",
+    "dificultad": "alta",
+    "prereqs": [],
+    "connects_to": [],
+    "regla": "densidad = masa / volumen, y los halógenos añaden masa atómica sin agrandar mucho el volumen molecular.",
+    "conexion_cotidiana": "Esta misma propiedad (halógenos pesados aumentando densidad desproporcionadamente respecto al volumen molecular) es la razón por la que los **gases anestésicos halogenados modernos** (sevoflurano, desflurano, usados en anestesia general) son líquidos densos a temperatura ambiente pese a tener estructuras moleculares pequeñas y simples — la misma química de 'flúor/cloro pesado en poco volumen' que hunde tu DCM en el embudo es la que hace que esos anestésicos requieran vaporizadores especiales calibrados por densidad para dosificarlos con precisión en un quirófano."
+  },
+  {
+    "id": "ELL-03",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "ELL",
+    "modo": "pregunta",
+    "pregunta": "Físicamente, ¿qué ES una emulsión, y por qué las saponinas remanentes la hacen tan difícil de romper?",
+    "respuesta": "**Idea clave: un tensioactivo se acomoda EN la interfase y baja tanto su costo energético que el sistema deja de tener 'prisa' por separarse.**\n\nEn la interfase entre dos líquidos inmiscibles existe una **tensión interfacial**: una energía por unidad de área que el sistema paga por tener esa superficie de contacto (las moléculas ahí tienen menos vecinos favorables que las del interior de cada fase). El sistema, termodinámicamente, prefiere minimizar esa área total — por eso dos líquidos inmiscibles separan en dos capas planas, no en gotas dispersas (que tendrían mucha más área interfacial). Un **tensioactivo** (como una saponina, con su parte polar de azúcares y su parte apolar esteroidal) se acomoda literalmente EN la interfase, parte polar hacia el agua y parte apolar hacia el DCM, reduciendo drásticamente esa energía costosa. Al bajar tanto el costo de tener mucha área interfacial, el sistema puede quedar cinéticamente atrapado como gotas pequeñas estabilizadas (emulsión) en vez de separar limpiamente.",
+    "error_comun": "Pensar que una emulsión es 'solo una mezcla que aún no se ha separado por falta de tiempo' — es un estado cinéticamente estabilizado (a veces horas o días) por el tensioactivo, no simplemente lento. Confundir tensión interfacial (entre dos líquidos) con tensión superficial (entre un líquido y el aire) — conceptos análogos pero técnicamente distintos según qué dos fases estén en contacto. Asumir que cualquier agitación 'ayuda a mezclar mejor' — de hecho, agitar más fuerte una vez que hay tensioactivo presente típicamente EMPEORA la emulsión (ver ELL-04).",
+    "dificultad": "alta",
+    "prereqs": [
+      "FQT-10",
+      "FQT-01"
+    ],
+    "connects_to": [
+      "PFT"
+    ],
+    "regla": "un tensioactivo se acomoda EN la interfase y baja tanto su costo energético que el sistema deja de tener 'prisa' por separarse.",
+    "conexion_cotidiana": "Este mismo principio (un tensioactivo reduciendo tensión interfacial para estabilizar gotas dispersas) es la química de la **mayonesa** (aceite en agua, estabilizada por la lecitina de la yema de huevo) y, en un contexto médico serio, la razón por la que los **pulmones humanos no colapsan** al final de cada exhalación: las células alveolares secretan un tensioactivo pulmonar que reduce la tensión superficial en los sacos alveolares, evitando que colapsen por la misma física que revienta una pompa de jabón sin suficiente tensioactivo. Los bebés prematuros sin tensioactivo pulmonar desarrollado sufren el síndrome de dificultad respiratoria neonatal — la misma física de tu emulsión de DCM, con consecuencias de vida o muerte."
+  },
+  {
+    "id": "ELL-04",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "ELL",
+    "modo": "pregunta",
+    "pregunta": "Si agitar mezcla mejor las dos fases para que el soluto pase de una a otra, ¿por qué el protocolo insiste en agitar 'suave' y no fuerte?",
+    "respuesta": "**Idea clave: agitar gana velocidad de transferencia de soluto a cambio de perder muchísimo tiempo después en la separación de fases.**\n\nAgitar introduce energía mecánica que rompe una fase en gotas cada vez más pequeñas dispersas dentro de la otra, aumentando el área interfacial total — esto en principio ACELERA el reparto del soluto entre fases. El problema es que, con tensioactivo presente (saponinas remanentes), cuanto más pequeñas y numerosas sean las gotas, más área hay que estabilizar — y esas gotas diminutas tienen que **coalescer** (juntarse) para que el sistema regrese a dos fases, proceso que depende de choques frecuentes entre gotas y de romper el filme de tensioactivo entre ellas, y que para gotas muy pequeñas puede ser extremadamente lento (horas). El protocolo busca un punto intermedio: suficiente agitación para reparto razonable, sin dispersión tan fina que la separación posterior se vuelva impráctica.",
+    "error_comun": "Pensar que 'agitar más siempre transfiere más soluto, así que siempre es mejor' — ignora el costo de tiempo/dificultad en la separación posterior, que puede superar por mucho la ganancia marginal en velocidad. Asumir que el reparto requiere gotas microscópicas para ser eficiente — el equilibrio de partición (FQT-03) se alcanza razonablemente rápido incluso con agitación suave, porque el área de una agitación moderada ya es enorme comparada con dos fases completamente quietas. Olvidar que este sistema tiene tensioactivo presente (saponinas) — sin él, agitar fuerte sería menos problemático porque las gotas coalescerían rápido de todas formas.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ELL-03"
+    ],
+    "connects_to": [
+      "PFT"
+    ],
+    "regla": "agitar gana velocidad de transferencia de soluto a cambio de perder muchísimo tiempo después en la separación de fases.",
+    "conexion_cotidiana": "Este balance (más agitación = transferencia más rápida, pero más difícil de 'deshacer' después) es el problema central de ingeniería en el diseño de **columnas de extracción líquido-líquido industriales** (usadas, por ejemplo, en purificación de uranio en la industria nuclear, o extracción de cobre): los ingenieros diseñan deliberadamente el nivel de mezclado (a veces con placas perforadas específicas) para maximizar transferencia de masa sin crear emulsiones imposibles de separar después en el sedimentador de la misma columna — el mismo dilema que resuelves a mano con tu embudo, resuelto a escala industrial con ingeniería de procesos dedicada."
+  },
+  {
+    "id": "ELL-05",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "ELL",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué destapar brevemente el embudo después de agitar es un paso de seguridad real y no solo una costumbre de laboratorio?",
+    "respuesta": "**Idea clave: agitar un solvente volátil en un espacio sellado sube la presión interna por encima de la atmosférica — hay que liberarla antes de abrir la llave.**\n\nEl DCM tiene punto de ebullición bajo (39.6°C) — a temperatura ambiente su presión de vapor ya es considerable (**FQT-08**). Al agitar el embudo cerrado, la agitación mecánica y el ligero calentamiento por fricción/manipulación aumentan la cantidad de DCM que pasa a vapor dentro del espacio sellado. Como el embudo está tapado, ese vapor no tiene a dónde ir, y la presión interna sube por encima de la atmosférica. Si no se libera antes de abrir la llave inferior, el diferencial de presión puede expulsar líquido violentamente ('escupir') — riesgo de pérdida de muestra y de exposición a vapores/salpicaduras. Destapar brevemente (embudo invertido, llave hacia arriba, lejos de cualquier persona) permite equilibrar esa presión de forma controlada.",
+    "error_comun": "Pensar que este paso es solo 'costumbre' sin entender la física de presión de vapor detrás — es un paso de seguridad real con razón termodinámica concreta. Olvidar hacerlo específicamente con solventes de punto de ebullición bajo (DCM, éter, acetona) — con solventes de punto de ebullición alto el riesgo es mucho menor, aunque sigue siendo buena práctica general. Apuntar la llave hacia uno mismo u otra persona al destapar — la liberación de presión puede expulsar líquido/vapor con cierta fuerza.",
+    "dificultad": "alta",
+    "prereqs": [
+      "FQT-08"
+    ],
+    "connects_to": [],
+    "regla": "agitar un solvente volátil en un espacio sellado sube la presión interna por encima de la atmosférica — hay que liberarla antes de abrir la llave.",
+    "conexion_cotidiana": "Este mismo principio de presión de vapor acumulada en un contenedor sellado es, a mayor escala, el mecanismo detrás de por qué las **bebidas carbonatadas o el champán** hacen espuma violenta si se agitan antes de abrir: la agitación libera parte del CO2 disuelto hacia la fase gas dentro del espacio cerrado, subiendo la presión interna, y al abrir de golpe esa presión se libera de forma descontrolada arrastrando líquido consigo. Misma física, resuelta con la misma solución (liberar presión de forma controlada y gradual) tanto en tu embudo de separación como en una botella bien abierta por un sommelier experimentado."
+  },
+  {
+    "id": "ELL-06",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "ELL",
+    "modo": "pregunta",
+    "pregunta": "Ya extrajeron la diosgenina al DCM y la separaron del hidrolizado acuoso principal. ¿Qué es exactamente lo que quitan al 'lavar' esa fase con agua adicional, si se supone que ya está separada?",
+    "respuesta": "**Idea clave: el lavado es una mini-extracción en dirección INVERSA — usa agua fresca para sacar del DCM lo que no querían llevarse, no para sacar diosgenina.**\n\nNinguna separación de fases es perfecta al 100% — siempre queda una pequeña cantidad de fase acuosa arrastrada mecánicamente dentro de la fase orgánica, además de compuestos con solubilidad intermedia (parcialmente polares) que pueden haber pasado en cantidad no despreciable al DCM junto con la diosgenina. El lavado con agua fresca usa agua para extraer FUERA del DCM cualquier traza de compuestos polares co-disueltos (furfurales, productos de degradación de azúcares, ácido residual, sales) que tengan mejor afinidad por el agua que por el DCM. Como la diosgenina tiene un coeficiente de partición muy favorable hacia el DCM (**FQT-03**), el lavado la deja mayormente intacta en la fase orgánica mientras remueve selectivamente lo que sí prefiere el agua.",
+    "error_comun": "Pensar que el lavado es 'redundante' porque ya se hizo la separación principal — cumple una función de purificación adicional, no es un paso repetido sin propósito. Asumir que el lavado remueve toda impureza sin excepción — solo remueve eficientemente lo que tiene mejor afinidad relativa por el agua; compuestos con partición similar a la diosgenina no se separarán bien así. Olvidar que cada lavado, igual que cada extracción, sigue la misma matemática de reparto de ELL-01 — un solo lavado grande es menos eficiente que dos lavados más pequeños con el mismo volumen total.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ELL-01",
+      "FQT-03"
+    ],
+    "connects_to": [
+      "SER"
+    ],
+    "regla": "el lavado es una mini-extracción en dirección INVERSA — usa agua fresca para sacar del DCM lo que no querían llevarse, no para sacar diosgenina.",
+    "conexion_cotidiana": "Esta lógica de 'extraer selectivamente las impurezas polares HACIA AFUERA de un producto orgánico ya obtenido' es exactamente el principio usado en la purificación industrial del **biodiésel**: después de la transesterificación que convierte aceites vegetales en ésteres metílicos, el producto crudo contiene glicerina residual, jabones y metanol sin reaccionar disueltos — todos se remueven con lavados sucesivos de agua, el mismo razonamiento de partición selectiva que usas para limpiar tu extracto de diosgenina, solo que a escala industrial de miles de litros en vez de un embudo de 250 mL."
+  },
+  {
+    "id": "ELL-07",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "ELL",
+    "modo": "pregunta",
+    "pregunta": "Diosgenina no tiene un grupo ácido o básico ionizable relevante en el rango de pH que usan — pero si tuviera uno, ¿cómo se podría usar el pH para separarla selectivamente de otros compuestos?",
+    "respuesta": "**Idea clave: la forma neutra de un compuesto ionizable prefiere el solvente orgánico; su forma cargada prefiere casi siempre el agua — ajustar el pH 'enciende o apaga' esa preferencia.**\n\nMuchos compuestos naturales (alcaloides, ácidos fenólicos, algunos flavonoides) tienen grupos funcionales ionizables con un pKa definido (**FQT-12**). Su forma NEUTRA suele ser mucho menos polar y más soluble en un solvente orgánico; su forma IONIZADA (cargada) es dramáticamente más soluble en agua, casi sin excepción, porque una carga neta formal favorece muchísimo más la solvatación acuosa. Ajustando el pH del medio por encima o por debajo del pKa del compuesto de interés, se puede 'encender' o 'apagar' su preferencia por la fase orgánica a voluntad — un compuesto básico se queda en el DCM si el medio es básico (forma neutra), pero migra al agua si se acidifica (forma protonada, cargada); lo inverso para un ácido. Esta es la base de la técnica clásica de 'extracción ácido-base' para separar mezclas según acidez/basicidad relativa.",
+    "error_comun": "Pensar que esta técnica aplica a la diosgenina en su protocolo actual — no aplica directamente, porque diosgenina no tiene un grupo ionizable relevante en el rango de pH típico de trabajo (solo un -OH neutro sin pKa práctico útil aquí); es un concepto general de química analítica, no una técnica en uso hoy con este compuesto. Confundir 'ajustar el pH para cambiar la extractabilidad' con 'ajustar el pH para neutralizar el hidrolizado' (que sí hacen, con NaHCO3, HID-12) — dos aplicaciones distintas del mismo concepto pH/pKa. Asumir que todo compuesto orgánico tiene un pKa 'útil' para esta manipulación — muchos compuestos neutros sin grupos ácido-base ionizables (como la propia diosgenina) simplemente no responden a este control por pH.",
+    "dificultad": "alta",
+    "prereqs": [
+      "FQT-12"
+    ],
+    "connects_to": [],
+    "regla": "la forma neutra de un compuesto ionizable prefiere el solvente orgánico; su forma cargada prefiere casi siempre el agua — ajustar el pH 'enciende o apaga' esa preferencia.",
+    "conexion_cotidiana": "Esta técnica es exactamente cómo se aíslan comercialmente muchos **alcaloides** de plantas (cafeína, nicotina, morfina) y cómo laboratorios de criminalística separan e identifican alcaloides de muestras biológicas: la mayoría de alcaloides son bases nitrogenadas con pKa bien definido, así que ajustar cuidadosamente el pH del medio acuoso durante la extracción permite aislar selectivamente un alcaloide de interés de una mezcla compleja de otros compuestos con distinto pKa — el mismo principio de FQT-12 aplicado como herramienta deliberada de separación, en vez de solo como una propiedad pasiva a tener en cuenta."
+  },
+  {
+    "id": "ELL-08",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "ELL",
+    "modo": "pregunta",
+    "pregunta": "¿Es DCM el solvente 'más eficiente' posible para extraer diosgenina, o hay un trade-off entre extraer MUCHO y extraer LIMPIO?",
+    "respuesta": "**Idea clave: eficiencia (extraer mucho de lo que te interesa) y selectividad (no arrastrar lo demás) rara vez se maximizan juntas con el mismo solvente.**\n\nUn solvente extractor ideal tendría un coeficiente de partición (**FQT-03**) extremadamente favorable para el compuesto de interés Y, simultáneamente, muy desfavorable para todos los demás compuestos co-presentes. En la práctica, un solvente de polaridad intermedia como el DCM extrae eficientemente diosgenina (log P favorable), pero por esa misma polaridad intermedia también arrastra cierta cantidad de otros compuestos con polaridad parecida (pigmentos, fenoles parcialmente polares, trazas de furfurales) que un solvente más apolar (hexano puro) dejaría atrás casi por completo — a costa de que el hexano también extraería mucha menos diosgenina, porque su afinidad por ella es menor. Elegir DCM es un compromiso deliberado: prioriza rendimiento sobre pureza absoluta del extracto crudo, confiando en que los pasos posteriores (lavado, derivatización, cromatografía) terminen de limpiar lo que el solvente de extracción no pudo dejar atrás.",
+    "error_comun": "Asumir que 'el solvente que más extrae' es automáticamente 'el mejor solvente' — depende de qué tan limpio necesite quedar el extracto para el análisis posterior. Pensar que la selectividad de un solvente es una propiedad fija — depende del compuesto de interés Y de qué otros compuestos estén presentes en la matriz específica. Olvidar que los pasos posteriores (lavado, derivatización, TLC/HPLC) existen precisamente para compensar la selectividad imperfecta del solvente de extracción — no hay que esperar que la extracción sola dé un extracto puro.",
+    "dificultad": "alta",
+    "prereqs": [
+      "FQT-03"
+    ],
+    "connects_to": [
+      "TLC",
+      "HPL"
+    ],
+    "regla": "eficiencia (extraer mucho de lo que te interesa) y selectividad (no arrastrar lo demás) rara vez se maximizan juntas con el mismo solvente.",
+    "conexion_cotidiana": "Este mismo trade-off es la razón central de por qué la industria minera invierte tanto en el diseño de **agentes extractantes específicos** (como las oximas usadas para extraer cobre selectivamente de soluciones que también contienen hierro y níquel) en vez de usar un solvente genérico: un extractante mal diseñado co-extrae metales no deseados, encareciendo enormemente la purificación posterior — el mismo problema de 'cuánto arrastro no deseado tolero a cambio de rendimiento' que resuelves con DCM, resuelto a escala de toneladas de mineral en la industria del cobre chilena o peruana."
+  },
+  {
+    "id": "ELL-09",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "ELL",
+    "modo": "pregunta",
+    "pregunta": "A veces, entre la fase acuosa y la orgánica en el embudo, aparece una tercera capa turbia o con materia sólida flotando en la interfase misma. ¿Qué es eso, y qué hacer?",
+    "respuesta": "**Idea clave: hay material que no tiene afinidad clara por ninguna fase pura, así que queda atrapado justo en el plano de la interfase.**\n\nIdealmente, la interfase es una línea nítida y delgada. En la práctica, con extractos de material vegetal complejo, puede acumularse ahí una capa visible de materia no completamente soluble en NINGUNA de las dos fases: partículas finas de tejido no disuelto, proteínas desnaturalizadas, complejos de tensioactivo con materia insoluble, o precipitados formados entre componentes de ambas fases. Esto se conoce como **'tercera fase'** o *rag layer* — no es agua ni DCM, es material atrapado por tensión superficial y falta de afinidad clara hacia cualquier lado. Al recolectar las fases, hay que decidir deliberadamente qué hacer con esa capa (generalmente descartarla junto con la acuosa, o filtrarla aparte si se sospecha que atrapó compuesto de interés).",
+    "error_comun": "Confundir la tercera fase con una simple emulsión mal separada — la tercera fase suele ser más sólida/particulada que una emulsión líquida típica, aunque ambas pueden coexistir. Ignorar la tercera fase asumiendo que 'no tiene nada de valor' sin verificarlo — en extracciones con rendimiento inesperadamente bajo, vale la pena revisar si el compuesto quedó atrapado mecánicamente ahí. Recoger la fase orgánica dejando pasar deliberadamente parte de la tercera fase 'para no perder tiempo' — contamina el extracto con materia particulada que complicará evaporación y derivatización.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ELL-03"
+    ],
+    "connects_to": [],
+    "regla": "hay material que no tiene afinidad clara por ninguna fase pura, así que queda atrapado justo en el plano de la interfase.",
+    "conexion_cotidiana": "El fenómeno de la 'tercera fase' o rag layer es un problema de ingeniería genuinamente serio (no solo curiosidad de laboratorio de pregrado) en el **reprocesamiento de combustible nuclear usado** mediante el proceso PUREX (extracción líquido-líquido con tributilfosfato para separar uranio y plutonio): la acumulación de rag layer en los grandes tanques de extracción industrial puede concentrar peligrosamente material fisible en una capa delgada e inesperada, un riesgo de criticidad nuclear real, objeto de estudios de seguridad específicos en plantas de reprocesamiento. La misma capa turbia molesta de tu embudo de 250 mL es, a escala industrial nuclear, un problema de seguridad radiológica de primer orden."
+  },
+  {
+    "id": "ELL-10",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "ELL",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué el protocolo insiste en verificar la densidad relativa de las fases cada vez, en vez de simplemente 'saber' cuál queda arriba según el solvente que se está usando?",
+    "respuesta": "**Idea clave: la densidad relativa NO es una constante fija del par de solventes — depende de temperatura, solutos disueltos, y errores humanos siempre son posibles.**\n\nLa temperatura afecta la densidad de ambos líquidos, no necesariamente en la misma proporción, pudiendo en casos extremos alterar cuál es más densa si están muy cerca en densidad. La concentración de solutos disueltos en cada fase también cambia su densidad efectiva (una fase acuosa con mucha sal disuelta tras un salting-out con NaCl saturado es notablemente más densa que agua pura). Y errores de manipulación (agregar el solvente equivocado, confundir frascos) son más comunes de lo que parece con múltiples estudiantes y solventes en uso simultáneo. Verificar activamente (por ejemplo, confirmar visualmente el volumen esperado de cada fase según lo agregado, o probar con una gota de colorante soluble en agua) es control de calidad barato que previene el error costoso de recoger y descartar la fase equivocada.",
+    "error_comun": "Confiar en la 'regla general' (DCM se hunde, hexano flota) sin verificación activa cuando hay solutos disueltos en concentración alta que podrían cambiar la densidad efectiva. Asumir que un error de este tipo 'se notaría inmediatamente' — descartar por error la fase con el producto de interés puede pasar completamente desapercibido hasta buscar resultados que no aparecen, mucho después del error original. Pensar que este es un problema exclusivo de estudiantes principiantes — errores de identificación de fase ocurren también en laboratorios experimentados, especialmente bajo presión de tiempo.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ELL-02"
+    ],
+    "connects_to": [],
+    "regla": "la densidad relativa NO es una constante fija del par de solventes — depende de temperatura, solutos disueltos, y errores humanos siempre son posibles.",
+    "conexion_cotidiana": "Este tipo de error tiene un pariente conceptual instructivo en ciencias de la Tierra: la **estratificación de densidad en lagos meromícticos** (que no se mezclan completamente entre capas de distinta densidad por salinidad o temperatura) puede parecer visualmente uniforme desde la superficie, pero contener capas profundas con química radicalmente distinta (a veces anóxicas, ricas en sulfuro de hidrógeno) — confundir o ignorar esa estratificación al muestrear a distinta profundidad lleva a conclusiones erróneas sobre la química del cuerpo de agua completo, el mismo tipo de error conceptual (asumir homogeneidad o identidad sin verificar) que cometer al no confirmar cuál fase es cuál en tu embudo."
+  },
+  {
+    "id": "ELL-11",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "ELL",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué la industria química global está reduciendo activamente el uso de DCM, y qué se usa en su lugar cuando se busca una alternativa más 'verde'?",
+    "respuesta": "**Idea clave: DCM combina clasificación de riesgo toxicológico con alta volatilidad — la peor combinación para exposición ocupacional acumulada.**\n\nEl diclorometano está clasificado como **carcinógeno sospechoso** (categoría 2 bajo el reglamento CLP/REACH de la Unión Europea) y con toxicidad reproductiva potencial, además de contribuir de forma no despreciable a la exposición ocupacional por inhalación debido a su alta volatilidad (recordando **FQT-08**: su presión de vapor relativamente alta a temperatura ambiente significa que se evapora fácilmente hacia el aire respirable de un espacio mal ventilado). Por esto hay un esfuerzo activo (particularmente en Europa bajo REACH, y en protocolos de 'química verde') por reemplazar el DCM con alternativas de perfil toxicológico más favorable pero propiedades de solvatación similares: **2-metiltetrahidrofurano (2-MeTHF)**, derivado de biomasa agrícola, con polaridad y capacidad extractiva parecida pero menos tóxico y biodegradable; **ciclopentil metil éter (CPME)**, con buen perfil de seguridad; y en algunos contextos, acetato de etilo como sustituto parcial.",
+    "error_comun": "Pensar que 'clasificado como carcinógeno sospechoso' significa que causa cáncer con certeza en cualquier exposición — las clasificaciones reflejan evidencia de riesgo bajo ciertas condiciones de exposición (dosis, duración, vía), no una certeza determinista. Asumir que un solvente 'más verde' es automáticamente un sustituto directo sin ajustar el protocolo — cambiar de DCM a 2-MeTHF o CPME típicamente requiere reoptimizar condiciones porque sus propiedades, aunque similares, no son idénticas. Ignorar la importancia de la ventilación (campana extractora) asumiendo que 'un poco de exposición ocasional no importa' — la exposición acumulada crónica es la preocupación regulatoria principal.",
+    "dificultad": "alta",
+    "prereqs": [
+      "FQT-08"
+    ],
+    "connects_to": [],
+    "regla": "DCM combina clasificación de riesgo toxicológico con alta volatilidad — la peor combinación para exposición ocupacional acumulada.",
+    "conexion_cotidiana": "El 2-metiltetrahidrofurano, una de las alternativas 'verdes' más prometedoras al DCM, se produce industrialmente a partir de **furfural**, derivado de la hemicelulosa de residuos agrícolas como el bagazo de caña de azúcar o la cáscara de arroz — existe la posibilidad real (aunque probablemente fuera del alcance inmediato de tu semillero) de que, a futuro, la extracción de diosgenina de residuos de ñame use un solvente derivado, en última instancia, de OTRO residuo agrícola como la caña de azúcar: una economía circular de subproductos agrícolas resolviendo el problema de solvente de otro subproducto agrícola distinto."
+  },
+  {
+    "id": "ELL-12",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "ELL",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué el protocolo especifica dejar reposar el embudo 3-5 minutos después de agitar, y no simplemente 'hasta que se vea separado' sin un tiempo de referencia?",
+    "respuesta": "**Idea clave: la velocidad de sedimentación de una gota sigue la Ley de Stokes — depende de la diferencia de densidad, el radio de la gota al cuadrado, y la viscosidad del medio.**\n\nDespués de agitar, el sistema queda como gotas dispersas que deben sedimentar y **coalescer** para formar de nuevo dos capas. Para gotas pequeñas en régimen laminar, la velocidad terminal de sedimentación sigue la **Ley de Stokes**: proporcional a la diferencia de densidad entre fases, al **radio de la gota al cuadrado**, e inversamente proporcional a la viscosidad del medio. Esto significa que gotas más grandes sedimentan mucho más rápido que gotas pequeñas (el radio entra al cuadrado), y que sistemas con mayor diferencia de densidad (agua/DCM, con ~0.33 g/mL de diferencia) separan más rápido que sistemas con densidades muy parecidas. Los 3-5 minutos del protocolo son una estimación empírica de cuánto tardan las gotas típicas de este sistema específico en coalescer lo suficiente — no un número universal, por eso el protocolo sube a '10-15 minutos' cuando ya hay emulsión formada (gotas más pequeñas, coalescencia más lenta).",
+    "error_comun": "Pensar que 3-5 minutos es un número mágico universal aplicable a cualquier sistema de dos fases — depende de diferencia de densidad, viscosidad, y cantidad de tensioactivo presente. Asumir que 'se ve separado' visualmente significa separación completa a nivel molecular — puede haber gotas microscópicas aún dispersas, no visibles a simple vista, que sí afectan el rendimiento si se recoge la fase demasiado pronto. No relacionar el tiempo de reposo con la Ley de Stokes al decidir si esperar más ayudaría — si hay mucho tensioactivo (gotas pequeñas y numerosas), esperar más tiempo casi siempre ayuda, porque la coalescencia, aunque lenta, sigue ocurriendo progresivamente.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ELL-03",
+      "ELL-04"
+    ],
+    "connects_to": [],
+    "regla": "la velocidad de sedimentación de una gota sigue la Ley de Stokes — depende de la diferencia de densidad, el radio de la gota al cuadrado, y la viscosidad del medio.",
+    "conexion_cotidiana": "La Ley de Stokes que rige cuánto tardan tus gotas de DCM en sedimentar es la MISMA ecuación (con ajustes) que usó **Robert Millikan** en su famoso experimento de la gota de aceite de 1909 para medir por primera vez la carga eléctrica del electrón: al suspender gotas microscópicas de aceite cargadas eléctricamente en un campo eléctrico opuesto a la gravedad, y medir su velocidad de caída/ascenso, Millikan calculó la carga exacta de cada gota, encontrando que siempre era un múltiplo entero de un valor mínimo — la primera medición directa de la carga elemental del electrón. La misma física de sedimentación de gotas en un medio viscoso, aplicada por Millikan para descubrir una constante fundamental del universo, y aplicada por ti para saber cuánto esperar antes de abrir la llave del embudo."
+  }
+]

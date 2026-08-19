@@ -1,0 +1,157 @@
+[
+  {
+    "id": "PFT-01",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "PFT",
+    "modo": "pregunta",
+    "pregunta": "El semillero habla de 'perfilaje fitoquímico' en vez de 'cuantificación' mientras no tengan el estándar. ¿Cuál es la diferencia conceptual exacta entre ambos términos, y por qué importa distinguirlos con cuidado?",
+    "respuesta": "**Idea clave: cuantificar exige trazabilidad a un patrón de referencia certificado; perfilar es una comparación relativa rigurosa bajo el mismo método — ambos son válidos, pero conllevan afirmaciones de alcance distinto.**\n\n**Cuantificar**, en sentido estricto de metrología, significa expresar una cantidad en unidades trazables a un patrón de referencia reconocido (en química, en última instancia al Sistema Internacional — el mol). Para cuantificar diosgenina de verdad necesitan una curva de calibración con estándar de pureza certificada, permitiendo convertir una señal instrumental en una masa comparable con cualquier laboratorio del mundo. **Perfilar** es un concepto más modesto pero igualmente legítimo: generar un patrón RELATIVO de comparación entre muestras bajo el mismo método exacto, sin poder afirmar la cantidad absoluta de nada — pueden decir 'la muestra A dio 40% más señal que B' sin poder decir 'A tiene X mg/g' hasta tener el estándar. Confundirlos (reportar un perfilaje relativo como si fuera cuantificación absoluta) es un error de rigor científico real, no solo semántico.",
+    "error_comun": "Pensar que 'perfilaje' es solo una versión más floja de 'cuantificación' — es un tipo de información distinto con su propio estándar de rigor (reproducibilidad interna, control de variables), no una versión de segunda categoría. Reportar resultados de perfilaje usando unidades absolutas (mg/g, %) como si fueran cuantificación real — sin estándar trazable, lo correcto es reportar en unidades relativas explícitas, no unidades que impliquen una trazabilidad que no existe todavía. Asumir que el perfilaje 'no sirve para nada real' hasta tener el estándar — comparaciones relativas rigurosas (espino vs. criollo, con/sin antipardeamiento) son información científica genuina y publicable en sí misma.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ESP-05"
+    ],
+    "connects_to": [
+      "EST"
+    ],
+    "regla": "cuantificar exige trazabilidad a un patrón de referencia certificado; perfilar es una comparación relativa rigurosa bajo el mismo método — ambos son válidos, pero conllevan afirmaciones de alcance distinto.",
+    "conexion_cotidiana": "Esta distinción entre 'medida relativa/de índice' y 'medida absoluta trazable' es el eje central de un debate metodológico de décadas en ecología de comunidades: el **índice de diversidad de Shannon** (usado para comparar qué tan diversa es la fauna o flora de un ecosistema) no mide una 'cantidad absoluta de biodiversidad' en ningún sentido trazable a una unidad física fundamental — es un número relativo, útil precisamente para COMPARAR entre sitios o momentos bajo el mismo protocolo de muestreo, exactamente como su índice colorimétrico o de espuma compara relativamente entre muestras de ñame. La ecología lleva décadas usando y refinando exactamente este mismo tipo de razonamiento de 'índice comparativo válido sin necesitar una unidad absoluta trazable' que ustedes están aplicando ahora a fitoquímica."
+  },
+  {
+    "id": "PFT-02",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "PFT",
+    "modo": "pregunta",
+    "pregunta": "El índice de espuma (IS) mide 'cuánta espuma hace' un extracto agitado en agua. Conectando con ELL-03, ¿qué es exactamente lo que esa altura de espuma refleja fisicoquímicamente, y por qué NO es lo mismo que 'cantidad de saponina'?",
+    "respuesta": "**Idea clave: la espuma mide actividad tensioactiva TOTAL del extracto — depende de concentración Y de eficiencia tensioactiva específica de cada compuesto presente, no solo de 'cuánta saponina hay'.**\n\nRecordando **ELL-03**, un tensioactivo reduce la tensión interfacial, permitiendo que se formen y estabilicen burbujas de aire en agua (una espuma es una emulsión de aire en agua, estabilizada por el mismo mecanismo que una emulsión líquido-líquido). La altura y persistencia de espuma dependen de la CONCENTRACIÓN de tensioactivo, pero también de su EFICIENCIA tensioactiva específica (balance hidrófilo-lipófilo, HLB) — dos saponinas distintas, en la misma concentración molar, podrían dar alturas de espuma bastante distintas. Además, la espuma no es exclusiva de saponinas: cualquier otro compuesto tensioactivo del extracto (proteínas parcialmente desnaturalizadas, otros glicósidos con actividad superficial) contribuye a la altura observada, sumándose de forma indistinguible a la señal atribuida 'a saponinas'.",
+    "error_comun": "Pensar que el índice de espuma mide directamente 'cantidad de saponinas' de forma proporcional simple — mide actividad tensioactiva total, que depende de concentración Y de eficiencia tensioactiva específica de cada compuesto presente. Asumir que dos muestras con la misma altura de espuma tienen necesariamente la misma cantidad de saponina — podrían tener cantidades distintas de saponinas con eficiencias tensioactivas distintas, dando la misma señal por razones químicas diferentes. Olvidar que el protocolo exacto de agitación (fuerza, tiempo, volumen) afecta cuánta espuma se genera inicialmente (más energía mecánica = más área interfacial, ELL-04) independientemente de la concentración de tensioactivo.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ELL-03"
+    ],
+    "connects_to": [
+      "EST"
+    ],
+    "regla": "la espuma mide actividad tensioactiva TOTAL del extracto — depende de concentración Y de eficiencia tensioactiva específica de cada compuesto presente, no solo de 'cuánta saponina hay'.",
+    "conexion_cotidiana": "Este mismo concepto de 'medir actividad tensioactiva total como proxy indirecto de una familia de compuestos, sin poder atribuir la señal a un compuesto único' tiene un paralelo instructivo en control de calidad de aguas residuales: la prueba estándar de **'sustancias activas al azul de metileno' (MBAS)**, usada durante décadas para monitorear contaminación por detergentes en cuerpos de agua, mide la actividad tensioactiva total de surfactantes aniónicos presentes (formando un complejo coloreado con azul de metileno, cuantificado por espectrofotometría) sin poder distinguir químicamente cuál detergente específico de los miles de formulaciones comerciales posibles está presente — exactamente el mismo tipo de medida agregada/de grupo funcional, en vez de identificación molecular específica, que su índice de espuma aplica a saponinas de ñame en vez de a detergentes sintéticos en aguas residuales."
+  },
+  {
+    "id": "PFT-03",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "PFT",
+    "modo": "pregunta",
+    "pregunta": "Ya vieron en la investigación anterior que el método gravimétrico sobreestima el contenido de saponinas por 8-40 veces respecto a espectrofotometría. Mecanísticamente, ¿por qué el butanol arrastra tanto material que NO es saponina?",
+    "respuesta": "**Idea clave: el butanol tiene selectividad limitada (ELL-08), y el método simplemente PESA el residuo — no tiene ninguna capacidad de distinguir químicamente qué fracción de esa masa es saponina real.**\n\nEl método particiona el extracto acuoso con n-butanol, recupera la fase de butanol, la evapora y pesa el residuo como 'saponinas totales' — asumiendo implícitamente que TODO lo que se disuelve preferencialmente en butanol es saponina. Pero el butanol, con polaridad intermedia, no es selectivo específicamente para saponinas (**ELL-08**): cualquier otro compuesto de la matriz con polaridad intermedia similar (ciertos flavonoides glicosilados, taninos de peso molecular moderado, otros glicósidos no esteroidales, incluso algunos pigmentos) tiene también buena afinidad relativa por el butanol frente al agua, y se co-extrae junto con las saponinas genuinas. A diferencia del método colorimétrico, que al menos requiere que el compuesto co-extraído REACCIONE químicamente con el anisaldehído para contribuir a la señal (**ESP-07**), el método gravimétrico no tiene esa barrera de especificidad en absoluto — cualquier cosa con la polaridad correcta cuenta, reaccione químicamente o no.",
+    "error_comun": "Pensar que el problema del método gravimétrico es 'menor precisión' en el mismo sentido que otras fuentes de error experimental — es un problema de especificidad fundamental (falta total de discriminación química), no simple imprecisión de medición aleatoria. Asumir que evaporar y pesar es 'el método más simple y por tanto el más confiable' — la simplicidad del principio de medición no garantiza especificidad química; cuanto más genérico el criterio de selección (aquí, solo 'solubilidad en butanol'), menos específico suele ser el resultado. Olvidar que este sesgo de sobreestimación es sistemático y probablemente consistente entre muestras similares — el índice gravimétrico puede seguir siendo útil para comparaciones RELATIVAS entre muestras parecidas (PFT-01), aunque el número absoluto esté sesgado hacia arriba de forma consistente.",
+    "dificultad": "alta",
+    "prereqs": [
+      "ELL-08"
+    ],
+    "connects_to": [
+      "EST"
+    ],
+    "regla": "el butanol tiene selectividad limitada (ELL-08), y el método simplemente PESA el residuo — no tiene ninguna capacidad de distinguir químicamente qué fracción de esa masa es saponina real.",
+    "conexion_cotidiana": "Este mismo problema de 'un criterio de separación físico simple que arrastra más de lo que se pretende medir' tiene un paralelo clásico en el análisis proximal de alimentos: la **'fibra cruda'** (crude fiber), un método analítico de más de 150 años todavía usado en algunas etiquetas nutricionales, mide el residuo insoluble que queda tras hervir una muestra secuencialmente en ácido y base diluidos — pero se sabe desde hace décadas que este método SUBESTIMA (en la dirección opuesta a tu caso) el contenido real de fibra dietética total, porque componentes genuinos de la fibra (hemicelulosa, buena parte de la lignina) se disuelven parcialmente durante ese tratamiento agresivo y se pierden del residuo final pesado — el mismo tipo de sesgo sistemático inherente al PRINCIPIO del método, simplemente en dirección contraria (subestimación en vez de sobreestimación) al de tu índice gravimétrico de saponinas."
+  },
+  {
+    "id": "PFT-04",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "PFT",
+    "modo": "pregunta",
+    "pregunta": "Si cada uno de sus 3 índices tiene su propio sesgo particular (colorimétrico: falsos positivos por reactividad cruzada; espuma: mezcla actividad tensioactiva total; gravimétrico: sobreestima por falta de especificidad), ¿por qué combinarlos da más confianza que confiar en el mejor de los tres individualmente?",
+    "respuesta": "**Idea clave: los tres métodos 'ven' propiedades fisicoquímicas distintas del extracto — es muy improbable que el mismo conjunto de interferentes sesgue a los tres en la misma dirección simultáneamente.**\n\nEl colorimétrico falla por reactividad cruzada específica con el anisaldehído-sulfúrico (**ESP-07**); el de espuma falla por actividad tensioactiva de compuestos no-saponina (**PFT-02**); el gravimétrico falla por solubilidad compartida en butanol (**PFT-03**). Cada método 've' una propiedad distinta (reactividad química específica, actividad superficial, solubilidad en un solvente particular), así que es altamente improbable que exactamente el mismo conjunto de compuestos interferentes sesgue los tres en la misma dirección y magnitud simultáneamente. Si los tres índices, medidos independientemente sobre las mismas muestras, muestran el mismo patrón relativo, esa convergencia es evidencia mucho más robusta de un efecto real subyacente que cualquier índice individual por sí solo — porque las fuentes de error de cada método son, en gran medida, independientes entre sí.",
+    "error_comun": "Pensar que combinar 3 métodos imperfectos automáticamente 'promedia' los errores hacia un valor más correcto en sentido matemático estricto — la lógica de la convergencia es sobre DIRECCIÓN y PATRÓN relativo entre muestras, no un promedio numérico formal que cancele sesgos sistemáticos de magnitud desconocida. Asumir que si los tres índices NO convergen, eso significa que 'el experimento falló' — esa divergencia es en sí misma un dato interesante que sugiere que algún mecanismo específico de interferencia está actuando desproporcionadamente en alguno de los métodos, merece investigación adicional, no descarte del experimento. Olvidar que esta lógica solo es válida si los TRES métodos se ejecutaron de forma rigurosa e independiente — si dos comparten, sin darse cuenta, alguna fuente de sesgo común, la 'independencia' asumida entre ellos podría no ser tan real como se piensa.",
+    "dificultad": "alta",
+    "prereqs": [
+      "PFT-02",
+      "PFT-03",
+      "ESP-07"
+    ],
+    "connects_to": [
+      "EST"
+    ],
+    "regla": "los tres métodos 'ven' propiedades fisicoquímicas distintas del extracto — es muy improbable que el mismo conjunto de interferentes sesgue a los tres en la misma dirección simultáneamente.",
+    "conexion_cotidiana": "Esta estrategia de 'combinar múltiples medidas imperfectas con mecanismos de error independientes entre sí para lograr una conclusión más robusta que cualquiera individualmente' tiene un nombre formal en metodología de investigación: se llama **triangulación de métodos** (methodological triangulation), y es un principio central no solo en química analítica sino en campos tan diversos como la evaluación de políticas públicas (combinar datos cuantitativos de encuestas con entrevistas cualitativas) y la medicina basada en evidencia (donde ningún estudio individual, por bien diseñado que esté, se considera evidencia definitiva por sí solo — se busca convergencia entre múltiples estudios independientes antes de aceptar una conclusión clínica como robusta) — el mismo principio epistemológico de fondo, desde comparar tres índices fitoquímicos de ñame hasta decidir si un nuevo medicamento realmente funciona."
+  },
+  {
+    "id": "PFT-05",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "PFT",
+    "modo": "pregunta",
+    "pregunta": "Si aún no tienen diosgenina pura, pero ya se recomendó usar escina comercial como referencia provisional para el índice colorimétrico, ¿qué gana exactamente el resultado al reportarlo como 'mg equivalentes de escina' en vez de solo la absorbancia cruda?",
+    "respuesta": "**Idea clave: la absorbancia cruda depende de las condiciones de ESA sesión particular — normalizar contra un estándar corrido en la misma sesión cancela buena parte de esa variabilidad compartida.**\n\nReportar absorbancia cruda tiene un problema práctico serio: ese número depende de las condiciones específicas de esa sesión (qué tan concentrado estaba el reactivo cromógeno ese día, la calibración exacta del espectrofotómetro, pequeñas variaciones en el tiempo de reacción real, **ESP-10**) — comparar absorbancias crudas entre sesiones distintas es poco confiable. Al normalizar contra una curva de calibración hecha con un compuesto de referencia (escina) CORRIDA EN LA MISMA SESIÓN que las muestras, convierten esa absorbancia cruda en un número relativo ('equivalente a cuántos mg de escina producirían esta misma señal bajo estas condiciones') mucho más estable frente a la variabilidad día a día — porque tanto la muestra como el estándar pasaron por exactamente las mismas condiciones variables de esa sesión, así que dividir uno entre el otro cancela buena parte de esa variabilidad compartida, de forma conceptualmente muy parecida a cómo el estándar interno de **HPL-13** cancela la variabilidad de volumen de inyección.",
+    "error_comun": "Pensar que 'mg equivalentes de escina' significa que la muestra realmente contiene escina, o que la señal medida ES escina — es puramente una unidad de normalización/referencia, no una afirmación de identidad química. Asumir que normalizar contra escina hace el resultado directamente comparable en valor absoluto con resultados de otros laboratorios que también usaron escina — solo es comparable si además usaron exactamente el mismo protocolo, reactivo, y condiciones de reacción. Olvidar correr la curva de calibración de escina EN LA MISMA sesión (mismo día, mismo lote de reactivo) que las muestras que se están normalizando contra ella — si se corrió días antes con reactivo de otro lote, gran parte del beneficio se pierde.",
+    "dificultad": "alta",
+    "prereqs": [
+      "PFT-01",
+      "HPL-13"
+    ],
+    "connects_to": [
+      "EST"
+    ],
+    "regla": "la absorbancia cruda depende de las condiciones de ESA sesión particular — normalizar contra un estándar corrido en la misma sesión cancela buena parte de esa variabilidad compartida.",
+    "conexion_cotidiana": "Este mismo principio de normalizar una señal cruda contra un compuesto de referencia compartido para hacer los resultados comparables entre sesiones distintas es exactamente la lógica detrás del **índice glucémico** en nutrición: en vez de reportar directamente cuánto sube la glucosa en sangre tras comer un alimento (dependería enormemente de variabilidad individual, hora del día, comidas previas), el índice glucémico se define como la respuesta de glucosa a ese alimento EXPRESADA COMO PORCENTAJE de la respuesta al mismo compuesto de referencia (glucosa pura o pan blanco) medida en la MISMA persona bajo las MISMAS condiciones — el mismo truco metodológico de normalizar contra una referencia interna compartida, ya sea absorbancia colorimétrica de saponinas o respuesta glucémica de carbohidratos."
+  },
+  {
+    "id": "PFT-06",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "PFT",
+    "modo": "pregunta",
+    "pregunta": "Si repiten el mismo índice colorimétrico dos veces sobre la MISMA muestra de extracto y obtienen números ligeramente distintos, ¿cómo saben si eso es 'variabilidad real del ñame' o simplemente 'ruido de su método'?",
+    "respuesta": "**Idea clave: réplicas analíticas (misma muestra, medida varias veces) aíslan el ruido del método; réplicas biológicas (muestras distintas) mezclan ese ruido con la diferencia real — solo comparando ambas se puede separar señal de ruido.**\n\nLa **variabilidad analítica** es la dispersión al medir MÚLTIPLES VECES la MISMA muestra física, bajo el mismo protocolo — refleja únicamente la precisión inherente del método (pipeteo, instrumento, tiempo de reacción, **ESP-10**), sin ninguna contribución biológica real. La **variabilidad biológica** es la dispersión al medir MUESTRAS DISTINTAS — sí refleja diferencias reales de contenido, pero está necesariamente MEZCLADA con la variabilidad analítica del método sobre cada una. La forma rigurosa de estimarlas por separado es hacer réplicas ANALÍTICAS por separado de réplicas BIOLÓGICAS: si la variabilidad entre réplicas analíticas de una misma muestra es pequeña comparada con la variabilidad entre muestras biológicas distintas, pueden confiar en que las diferencias observadas entre regiones/tiempos son mayormente reales y no solo ruido de su método.",
+    "error_comun": "Medir cada muestra biológica UNA sola vez y comparar directamente esos valores únicos entre sí sin ninguna réplica analítica — sin saber cuánto ruido analítico hay de fondo, no se puede saber si una diferencia observada es real o solo variabilidad del método aplicada al azar. Confundir réplicas analíticas (misma muestra física, medida varias veces) con réplicas biológicas (muestras físicamente distintas) — ambas son necesarias mientras responden preguntas distintas, y una no puede sustituir a la otra en el diseño experimental. Asumir que toda la variabilidad observada entre condiciones es automáticamente 'real' sin descontar la contribución analítica — especialmente relevante recordando la discusión de estadística con n pequeño (de Winter 2013, Fay & Proschan 2010), donde diferenciar señal real de ruido con pocas muestras ya era difícil incluso sin este componente adicional.",
+    "dificultad": "alta",
+    "prereqs": [
+      "PFT-01"
+    ],
+    "connects_to": [
+      "EST"
+    ],
+    "regla": "réplicas analíticas (misma muestra, medida varias veces) aíslan el ruido del método; réplicas biológicas (muestras distintas) mezclan ese ruido con la diferencia real — solo comparando ambas se puede separar señal de ruido.",
+    "conexion_cotidiana": "Esta distinción formal entre variabilidad analítica y biológica (a veces llamada 'descomposición de varianza' por fuente) tiene una aplicación directa y sofisticada en ciencia de suelos, probablemente relevante para tu otra tesis: al medir cadmio en muestras de suelo de un campo de cacao, la variabilidad TOTAL entre puntos de muestreo tiene al menos tres componentes anidados: variabilidad ANALÍTICA (repetir la misma submuestra en el laboratorio), variabilidad de MUESTREO dentro del mismo punto geográfico (varias submuestras del mismo metro cuadrado), y variabilidad GEOGRÁFICA real entre distintos puntos del campo — sin descomponer estos tres componentes con un diseño de muestreo jerárquico apropiado, es imposible saber si una 'zona caliente' de cadmio es un patrón geográfico real o simplemente ruido de muestreo/análisis, exactamente el mismo problema conceptual que enfrentas con tus índices de diosgenina."
+  },
+  {
+    "id": "PFT-07",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "PFT",
+    "modo": "pregunta",
+    "pregunta": "El objetivo final es 'diosgenina', pero varios de sus índices (espuma, gravimétrico) en realidad miden 'saponinas totales' de forma más amplia. ¿Qué significa usar un compuesto como 'marcador' de una familia química completa, y qué limitación tiene ese enfoque?",
+    "respuesta": "**Idea clave: diosgenina es un marcador agregado — asume implícitamente que la proporción entre los distintos glicósidos individuales no importa para la pregunta de interés.**\n\nEn fitoquímica es común y metodológicamente aceptado usar un compuesto específico bien caracterizado (el 'marcador') como proxy de una familia química más amplia y heterogénea. Diosgenina cumple ese rol para las saponinas esteroidales de Dioscorea: es la sapogenina común a la que se hidrolizan varias saponinas intactas distintas (dioscina, protodioscina, y otras con distinta cadena de azúcares pero el mismo núcleo esteroidal, **HID-01**), así que cuantificarla TRAS hidrólisis da una medida agregada de 'saponinas esteroidales totales de este tipo' sin cuantificar cada glicósido individual por separado. La limitación real: si dos muestras tienen la misma cantidad total de 'diosgenina liberable' pero compuesta de proporciones muy distintas de dioscina vs. protodioscina vs. otros glicósidos, esa diferencia composicional (con posibles consecuencias biológicas/comerciales reales) queda completamente invisible al medir solo el marcador agregado.",
+    "error_comun": "Pensar que 'diosgenina total tras hidrólisis' es lo mismo que 'contenido de dioscina' o de cualquier glicósido individual específico — es la suma agregada de TODOS los glicósidos que comparten ese núcleo esteroidal tras liberarlos por hidrólisis. Asumir que usar un marcador agregado es 'menos riguroso' que intentar cuantificar cada glicósido individual — es una decisión metodológica legítima y ampliamente aceptada en farmacognosia, con trade-offs claros de simplicidad/costo vs. resolución composicional. Olvidar que la elección de diosgenina como marcador asume hidrólisis completa y sin degradación significativa (recordando HID-06/HID-07) — si la hidrólisis es incompleta o hay degradación diferencial entre glicósidos, la medida podría no reflejar fielmente el contenido total real.",
+    "dificultad": "alta",
+    "prereqs": [
+      "HID-01"
+    ],
+    "connects_to": [
+      "EST"
+    ],
+    "regla": "diosgenina es un marcador agregado — asume implícitamente que la proporción entre los distintos glicósidos individuales no importa para la pregunta de interés.",
+    "conexion_cotidiana": "Este mismo concepto de 'usar un compuesto marcador específico como proxy de una familia química más amplia y difícil de cuantificar completamente' es exactamente la lógica detrás de cómo se estandarizan comercialmente los extractos de **ginseng** en la industria de suplementos: en vez de intentar cuantificar cada uno de los más de 30 ginsenósidos individuales identificados hasta ahora, los extractos comerciales se estandarizan típicamente reportando 'ginsenósidos totales' o un subconjunto marcador específico (como Rg1 y Rb1 combinados), asumiendo, con las mismas limitaciones conceptuales que aplican a tu diosgenina, que ese marcador refleja razonablemente la actividad/calidad del extracto completo — la misma estrategia de simplificación analítica, en la misma familia amplia de compuestos (saponinas), aplicada comercialmente a otra planta medicinal completamente distinta."
+  },
+  {
+    "id": "PFT-08",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "PFT",
+    "modo": "pregunta",
+    "pregunta": "Estos términos suenan casi idénticos en español coloquial — 'repetibilidad' y 'reproducibilidad' — pero en metrología analítica tienen definiciones técnicas formalmente distintas. ¿Cuál es la diferencia exacta, y por qué importa para un proyecto de semillero con varias personas trabajando?",
+    "respuesta": "**Idea clave: repetibilidad = mismas condiciones (mismo operador, mismo día); reproducibilidad = condiciones distintas (otro operador, otro día) — reproducibilidad siempre incluye MÁS fuentes de variabilidad que repetibilidad.**\n\nLa **repetibilidad** es la concordancia entre mediciones sucesivas del MISMO analito, bajo las MISMAS condiciones: mismo operador, mismo instrumento, mismo laboratorio, período corto de tiempo — esencialmente la variabilidad analítica de **PFT-06**, medida bajo condiciones lo más constantes posible. La **reproducibilidad** es la concordancia bajo condiciones DISTINTAS de medición: distinto operador, distinto día, distinto instrumento — por definición, siempre mayor dispersión que la repetibilidad, porque incluye TODAS las fuentes de la repetibilidad MÁS las fuentes adicionales entre condiciones distintas. Para un semillero con varios estudiantes rotando la ejecución a lo largo de un semestre, la reproducibilidad ENTRE PERSONAS es una preocupación real que la repetibilidad (una sola persona, un solo día) no captura en absoluto — si dos compañeros obtienen resultados sistemáticamente distintos ejecutando exactamente el mismo protocolo sobre alícuotas de la misma muestra, eso es evidencia de un problema de reproducibilidad entre operadores.",
+    "error_comun": "Usar 'repetibilidad' y 'reproducibilidad' como sinónimos intercambiables de forma casual — en un informe técnico riguroso, son términos con definiciones formales distintas (ISO 5725 es la norma de referencia internacional), y confundirlos es una imprecisión técnica real. Asumir que la buena repetibilidad (un solo operador, resultados consistentes) garantiza automáticamente buena reproducibilidad (entre distintos operadores) — son propiedades independientes; un método puede ser muy repetible en manos de una persona experta y aun así tener mala reproducibilidad si las instrucciones dejan margen de interpretación. No documentar explícitamente QUIÉN ejecutó cada sesión de medición en el registro de datos — sin ese dato, es imposible diagnosticar retrospectivamente si una discrepancia se debe a variabilidad biológica real, variabilidad analítica normal, o específicamente a un problema de reproducibilidad entre operadores.",
+    "dificultad": "alta",
+    "prereqs": [
+      "PFT-06"
+    ],
+    "connects_to": [
+      "EST"
+    ],
+    "regla": "repetibilidad = mismas condiciones (mismo operador, mismo día); reproducibilidad = condiciones distintas (otro operador, otro día) — reproducibilidad siempre incluye MÁS fuentes de variabilidad que repetibilidad.",
+    "conexion_cotidiana": "Esta distinción, y particularmente la preocupación por la reproducibilidad ENTRE distintos operadores/laboratorios, es el corazón de la llamada **'crisis de reproducibilidad'** que ha sacudido varias disciplinas científicas en la última década (documentada de forma más famosa en psicología y biomedicina, pero también relevante en química y biología molecular): grandes proyectos colaborativos han intentado replicar sistemáticamente cientos de estudios publicados influyentes, encontrando que una fracción sorprendentemente alta no logra reproducir el resultado original al repetir el experimento en un laboratorio distinto — un recordatorio serio de que documentar rigurosamente el protocolo exacto y probar activamente la reproducibilidad entre operadores, como deberían hacer con su equipo de semillero rotando personas, no es un ejercicio burocrático sino una salvaguarda real contra construir conclusiones sobre resultados que en realidad no eran robustos."
+  }
+]

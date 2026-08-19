@@ -1,0 +1,302 @@
+[
+  {
+    "id": "FQT-01",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "FQT",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué 'lo semejante disuelve lo semejante' funciona, y qué es exactamente lo que se está pareciendo?",
+    "respuesta": "Disolver algo cuesta energía primero: hay que separar las moléculas del soluto entre sí y las del solvente entre sí, antes de que puedan mezclarse. Ese costo se paga con las nuevas interacciones soluto-solvente que se forman. El proceso completo se rige por ΔG = ΔH − TΔS de mezcla. Si soluto y solvente tienen fuerzas intermoleculares de tipo y magnitud parecida (dipolo-dipolo con dipolo-dipolo, puente de H con puente de H, dispersión de London con dispersión de London), las nuevas interacciones compensan bien lo que se rompió y el proceso es favorable. Si son muy distintas (agua, con red de puentes de H fuerte, y hexano, solo dispersión débil), el agua 'prefiere' quedarse consigo misma. No es que las moléculas 'se reconozcan' — es pura contabilidad energética de qué interacciones se rompen y cuáles se forman.",
+    "error_comun": "Pensar que polaridad es binaria (polar/no polar) en vez de un espectro continuo. Confundir 'polar' con 'soluble en agua' — hay compuestos polares con solubilidad limitada en agua por el balance con su parte no polar. Olvidar que la temperatura cambia el balance ΔH vs. TΔS, así que la solubilidad no es una propiedad fija sino dependiente de condiciones.",
+    "dificultad": "alta",
+    "prereqs": [],
+    "connects_to": [
+      "ELL",
+      "TLC",
+      "SER"
+    ],
+    "conexion_cotidiana": "La versión cuantitativa de esta regla se llama parámetro de solubilidad de Hildebrand (δ), y su versión refinada, los parámetros de Hansen, descomponen la 'afinidad' de un solvente en tres vectores independientes (dispersión, polaridad, puentes de H). La industria de pinturas y plásticos los usa para elegir solventes sin saber nada de biología — pero la misma matemática (con logP como proxy simplificado) es la que la industria farmacéutica usa para predecir si un fármaco cruza una membrana celular, y la que edafología usa para predecir si un plaguicida se queda pegado a la materia orgánica del suelo o se lava hacia el agua subterránea."
+  },
+  {
+    "id": "FQT-02",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "FQT",
+    "modo": "pregunta",
+    "pregunta": "El CO2 tiene dos enlaces C=O muy polares. ¿Por qué entonces el CO2 es una molécula no polar?",
+    "respuesta": "La polaridad molecular no es la suma de las polaridades de enlace, es su suma VECTORIAL. Cada enlace C=O tiene un dipolo real, apuntando del carbono hacia el oxígeno. Pero la molécula es lineal (O=C=O, 180°), así que los dos vectores apuntan en direcciones exactamente opuestas y se cancelan por completo — momento dipolar neto cero. Es lo mismo que pasa con CCl4 (tetraédrico perfecto) o BF3 (trigonal plano): enlaces polares, molécula apolar, por simetría geométrica. El agua, con enlaces O-H igual de polares pero geometría angular (~104.5°), no cancela sus dipolos y queda con momento neto grande.",
+    "error_comun": "Mirar solo la electronegatividad de los átomos sin considerar la geometría molecular. Asumir que 'tiene enlaces polares' implica automáticamente 'es polar'. Olvidar los pares de electrones libres del átomo central, que también contribuyen al vector neto (por eso NH3 sí es polar pese a su geometría piramidal).",
+    "dificultad": "alta",
+    "prereqs": [
+      "FQT-01"
+    ],
+    "connects_to": [
+      "ELL"
+    ],
+    "conexion_cotidiana": "Esta cancelación geométrica es precisamente la razón por la que el CO2 supercrítico se puede usar como solvente de extracción 'verde' que se comporta como un solvente apolar tipo hexano, pese a estar hecho de enlaces polares — uno de los métodos alternativos de extracción de diosgenina que aparece en la literatura que revisaste funciona exactamente por esta cancelación vectorial, no porque el CO2 sea 'químicamente' no polar en sus enlaces."
+  },
+  {
+    "id": "FQT-03",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "FQT",
+    "modo": "pregunta",
+    "pregunta": "Cuando agitas DCM y agua con diosgenina disuelta, ¿qué determina exactamente cuánto va a cada fase, y por qué ese número es constante?",
+    "respuesta": "En equilibrio, la relación de concentraciones de un soluto entre dos fases inmiscibles es una constante a temperatura fija: K = [soluto]orgánica / [soluto]acuosa (Ley de distribución de Nernst) — condición termodinámica de que el potencial químico del soluto sea igual en ambas fases. El log de esa constante para el sistema de referencia octanol/agua es el log P, el número que resume qué tan 'grasosa' o 'acuosa' es una molécula. Diosgenina, con su esqueleto esteroidal grande y pocos -OH expuestos, tiene log P alto — por eso prefiere fuertemente el DCM. Las saponinas intactas, cargadas de azúcares con muchos -OH, tienen log P bajo — por eso se quedan en el agua hasta que la hidrólisis les quita los azúcares.",
+    "error_comun": "Pensar que el coeficiente de partición depende de cuánto soluto hay — es una constante de equilibrio, no depende de la cantidad (sí de la temperatura). Olvidar que K es específico del par de solventes — el log P en DCM/agua no es numéricamente igual al de referencia octanol/agua, aunque la tendencia cualitativa sea la misma. Asumir que una sola extracción agota el soluto — por eso el protocolo pide tres extracciones de 25 mL en vez de una de 75 mL: matemáticamente se recupera más porque cada extracción nueva reestablece el equilibrio con solvente fresco.",
+    "dificultad": "alta",
+    "prereqs": [
+      "FQT-01"
+    ],
+    "connects_to": [
+      "ELL",
+      "TLC",
+      "HPL"
+    ],
+    "conexion_cotidiana": "El mismo log P que decide cuánta diosgenina va al DCM es, con el par de referencia octanol/agua, uno de los pilares de las Reglas de Lipinski en diseño de fármacos (log P < 5 para buena absorción oral) — y en el extremo opuesto, agencias ambientales usan el mismo número para predecir bioacumulación de contaminantes en tejido graso de peces (log P > 4-5 se considera señal de riesgo). La misma constante de partición, tres disciplinas completamente distintas."
+  },
+  {
+    "id": "FQT-04",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "FQT",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué el mecanismo de hidrólisis ácida necesita un medio con agua o alcohol, y no funcionaría igual en un solvente como el hexano?",
+    "respuesta": "La constante dieléctrica (ε) mide qué tan bien un medio apantalla la atracción electrostática entre cargas opuestas (Ley de Coulomb: fuerza inversamente proporcional a ε). En agua (ε ≈ 80) esa atracción se reduce ~80 veces respecto al vacío; en hexano (ε ≈ 2), casi nada. La hidrólisis ácida de un enlace glucosídico pasa por un intermediario catiónico (oxocarbenio) que necesita un medio de alta ε para estabilizarse — si no, la energía para formarlo sería prohibitiva. El isopropanol (ε ≈ 18-20) es un punto intermedio: estabiliza cargas parcialmente y a la vez solubiliza mejor las partes menos polares del sustrato que el agua pura.",
+    "error_comun": "Pensar que el rol del solvente es solo 'disolver', ignorando que también estabiliza (o desestabiliza) estados de transición e intermediarios cargados. Confundir constante dieléctrica con momento dipolar de una sola molécula de solvente — son conceptos relacionados pero no iguales; ε es una propiedad colectiva del líquido. Asumir que más agua siempre es mejor para hidrólisis ácida — el balance isopropanol/agua existe precisamente porque el 100% agua no disolvería bien el sustrato de partida.",
+    "dificultad": "alta",
+    "prereqs": [
+      "FQT-01"
+    ],
+    "connects_to": [
+      "HID"
+    ],
+    "conexion_cotidiana": "Este mismo principio (bajar la constante dieléctrica efectiva para estabilizar mejor una carga en un entorno específico) es lo que hacen las enzimas en su sitio activo: muchos sitios activos excluyen agua masiva y crean un microambiente de baja polaridad donde una carga parcial del estado de transición se estabiliza de forma mucho más eficiente que en agua libre — parte de por qué las enzimas aceleran reacciones en factores de millones sin necesitar temperaturas ni ácidos fuertes."
+  },
+  {
+    "id": "FQT-05",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "FQT",
+    "modo": "pregunta",
+    "pregunta": "La hidrólisis de un enlace glucosídico es, en principio, reversible. ¿Por qué no se vuelve a formar la saponina, y qué tiene que ver esto con por qué en otras reacciones orgánicas se elimina agua del sistema?",
+    "respuesta": "Cualquier reacción catalizada por ácido en medio acuoso es, en principio, un equilibrio: hidrólisis hacia adelante, condensación (glicosidación) hacia atrás. Trabajar con exceso masivo de agua/medio acuoso-alcohólico respecto al sustrato desplaza el equilibrio fuertemente hacia los productos de hidrólisis (Le Chatelier: si un producto de la reacción inversa está en gran exceso constante, el sistema se aleja de ese lado). Es la misma lógica en dirección contraria de por qué en esterificación de Fischer o formación de acetales se usa un aparato Dean-Stark para retirar continuamente el agua producida — al remover un producto, se fuerza el equilibrio hacia adelante en esa reacción de condensación.",
+    "error_comun": "Tratar 'hidrólisis ácida' como irreversible por definición — es reversible; las condiciones del protocolo (exceso de agua) la empujan casi completamente hacia un lado. Olvidar que un catalizador acelera ambas direcciones por igual — no cambia dónde está el equilibrio, solo qué tan rápido se llega ahí. Confundir desplazamiento de equilibrio con velocidad de reacción — Le Chatelier predice hacia dónde se mueve el sistema, no qué tan rápido.",
+    "dificultad": "alta",
+    "prereqs": [
+      "FQT-04"
+    ],
+    "connects_to": [
+      "HID",
+      "SER"
+    ],
+    "conexion_cotidiana": "El enlace glucosídico que rompen (el que une diosgenina a su cadena de azúcares) es, mecanísticamente, un acetal cíclico — el mismo tipo de enlace que forman los azúcares consigo mismos para ciclarse (por eso la glucosa en solución existe mayormente como anillo, no como cadena abierta de aldehído). La 'química de azúcares' de bioquímica básica y la hidrólisis de saponinas esteroidales de tu semillero son, en el fondo, el mismo mecanismo de acetal — solo que el 'azúcar' en un extremo se reemplaza por un esqueleto esteroidal gigante."
+  },
+  {
+    "id": "FQT-06",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "FQT",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué calentar a reflujo acelera la hidrólisis, y qué tiene que ver esto con la posibilidad de que el microondas haga algo más que 'solo calentar más rápido'?",
+    "respuesta": "k = A·e^(−Ea/RT): la constante de velocidad depende exponencialmente de la temperatura — pequeños aumentos de T producen aumentos grandes de k, porque una fracción exponencialmente mayor de moléculas alcanza la Ea necesaria. Esa es la razón térmica pura del reflujo. La pregunta genuinamente debatida en síntesis asistida por microondas es si existe, además del calentamiento, un 'efecto no térmico' — que la radiación interactúe directamente con dipolos moleculares o el estado de transición polar bajando la Ea efectiva más allá de lo que explica solo la temperatura medida. Estudios cuidadosos han encontrado que en la mayoría de casos el efecto es casi enteramente térmico (calentamiento más rápido, más uniforme, mejor transferencia a la matriz vegetal) — pero el debate no está cerrado al 100% para todos los sistemas.",
+    "error_comun": "Asumir que doblar la temperatura duplica la velocidad — la relación es exponencial, no lineal. Confundir energía de activación con ΔH de la reacción — son independientes; una reacción muy exotérmica puede tener Ea alta y ser lentísima sin catalizador o calor. Asumir que el 'efecto microondas no térmico' está científicamente confirmado como mecanismo general — sigue siendo tema de debate activo, no un hecho establecido.",
+    "dificultad": "alta",
+    "prereqs": [
+      "FQT-04"
+    ],
+    "connects_to": [
+      "HID"
+    ],
+    "conexion_cotidiana": "La ecuación de Arrhenius surge por analogía con la ecuación de van 't Hoff para cómo cambia una constante de equilibrio con la temperatura. Svante Arrhenius —el mismo que propuso la teoría de disociación iónica y que en 1896 calculó por primera vez cuánto calentaría la atmósfera el CO2 de quemar combustibles fósiles, siendo pionero en cuantificar el efecto invernadero— notó el paralelismo matemático y lo aplicó a velocidades de reacción. Dos ideas influyentes de la fisicoquímica moderna, de la misma persona, con la misma forma exponencial."
+  },
+  {
+    "id": "FQT-07",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "FQT",
+    "modo": "pregunta",
+    "pregunta": "El H2SO4 protona el oxígeno del enlace glucosídico, pero al final de la reacción el ácido sigue ahí sin gastarse. ¿Cómo 'participa' sin consumirse?",
+    "respuesta": "Un catalizador cambia el mecanismo hacia uno con Ea más baja, sin cambiar la termodinámica global (ΔG de la reacción es la misma con o sin catalizador). En catálisis ácida específica, el H+ protona el oxígeno del enlace glucosídico, haciendo que ese enlace C-O sea mucho más fácil de romper (el grupo saliente protonado es mucho mejor grupo saliente). Una vez que el enlace se rompe y el agua ataca al catión resultante, el protón se libera de nuevo al medio en el paso final — termina exactamente donde empezó, listo para catalizar la siguiente molécula. Por eso hablamos de concentración catalítica en sentido mecanístico, aunque en la práctica se use exceso estequiométrico grande por razones cinéticas (no porque se consuma 1:1).",
+    "error_comun": "Pensar que el catalizador se consume proporcionalmente al producto formado — no es así en el mecanismo, aunque se use en exceso en la práctica de laboratorio. Creer que un catalizador puede hacer viable una reacción termodinámicamente desfavorable — solo cambia la velocidad, no el equilibrio final. Olvidar que la catálisis ácida es reversible — el mismo H+ que ayuda a romper el enlace también puede ayudar a re-formarlo (ver FQT-05).",
+    "dificultad": "alta",
+    "prereqs": [
+      "FQT-05",
+      "FQT-06"
+    ],
+    "connects_to": [
+      "HID"
+    ],
+    "conexion_cotidiana": "Este mismo mecanismo (protonar un oxígeno para mejorar su capacidad como grupo saliente) es literalmente lo que hace el HCl de tu propio estómago con los enlaces glucosídicos de saponinas dietarias — el pH gástrico (~1.5-2) es suficientemente ácido para hidrolizar parcialmente algunas saponinas de la dieta por el mismo mecanismo exacto del laboratorio, solo que mucho más diluido y a 37°C en vez de 100°C, por lo que in vivo toma horas de tránsito digestivo en vez de horas de reflujo concentrado."
+  },
+  {
+    "id": "FQT-08",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "FQT",
+    "modo": "pregunta",
+    "pregunta": "¿Qué significa físicamente 'punto de ebullición', y por qué un condensador de bolas permite calentar horas sin que el solvente se escape?",
+    "respuesta": "La presión de vapor de un líquido es la presión que ejercen sus moléculas al escapar a fase gas en equilibrio con el líquido, y aumenta con la temperatura. El punto de ebullición es la temperatura a la que la presión de vapor iguala la presión atmosférica externa — ahí pueden formarse burbujas de vapor en todo el volumen, no solo evaporar en superficie. El condensador de reflujo NO impide que el solvente hierva (sigue hirviendo activamente) — enfría el vapor que sube, devolviéndolo a líquido antes de escapar, así el solvente circula en ciclo cerrado sin pérdida neta, permitiendo calentar indefinidamente a la temperatura de ebullición sin que el matraz se seque ni se concentre peligrosamente el ácido.",
+    "error_comun": "Pensar que 'reflujo' significa que la reacción no está hirviendo — sí está hirviendo, activamente, todo el tiempo. Creer que el punto de ebullición es una propiedad fija absoluta — depende fuertemente de la presión externa (el agua hierve a menos de 100°C a la altitud de Bucaramanga que a nivel del mar). Olvidar que una mezcla de solventes no tiene un punto de ebullición único como un compuesto puro — depende de la composición y puede cambiar durante el reflujo si un componente escapa preferencialmente.",
+    "dificultad": "alta",
+    "prereqs": [
+      "FQT-01"
+    ],
+    "connects_to": [
+      "SER",
+      "HID"
+    ],
+    "conexion_cotidiana": "Esta misma física (subir la presión externa para subir el punto de ebullición del agua) es el principio de la olla a presión de cocina, y también el principio del reactor de microondas de vaso sellado tipo Anton Paar: al sellar el vaso, la presión interna sube junto con la temperatura, permitiendo alcanzar 120-150°C con agua o ácido diluido sin que 'hierva libremente' — literalmente la misma física que una olla a presión, aplicada a química analítica en vez de a cocinar frijoles."
+  },
+  {
+    "id": "FQT-09",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "FQT",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué mezclar isopropanol con agua cambia el punto de ebullición del sistema, y qué tiene que ver esto con por qué la sal no ayuda tanto como creen a que el agua de la pasta hierva más rápido?",
+    "respuesta": "La Ley de Raoult dice que la presión de vapor de un componente en una mezcla es proporcional a su fracción molar (P = X·P°). Al agregar un soluto no volátil o mezclar dos volátiles de distinta volatilidad, la presión de vapor total cambia respecto a los componentes puros, y con ella el punto de ebullición (propiedad coligativa: depende del número de partículas disueltas, no de cuáles son). Por eso la Solución A del protocolo no hierve ni a la temperatura del agua pura ni del isopropanol puro, sino a una temperatura intermedia específica de esa mezcla — que además puede ir cambiando levemente si un componente se evapora preferencialmente durante horas de reflujo.",
+    "error_comun": "Pensar que la sal en el agua de cocinar pasta sube el punto de ebullición de forma significativa — con las concentraciones típicas de cocina el efecto real es de fracciones de grado, irrelevante para la velocidad de cocción (el mito exagera muchísimo el efecto). Tratar mezclas de solventes como si tuvieran un único 'punto de ebullición' fijo igual que un compuesto puro. Olvidar que las propiedades coligativas dependen del NÚMERO de partículas disueltas, no de su identidad — NaCl (que se disocia en 2 iones) tiene el doble de efecto coligativo por mol que un soluto que no se disocia.",
+    "dificultad": "alta",
+    "prereqs": [
+      "FQT-08"
+    ],
+    "connects_to": [
+      "SER",
+      "HID"
+    ],
+    "conexion_cotidiana": "La misma Ley de Raoult explica por qué se echa sal a las carreteras en climas fríos (descenso del punto de congelación, la contraparte de la elevación del punto de ebullición) y por qué funciona el anticongelante de un radiador — y es también la razón física de por qué peces árticos y ciertos insectos acumulan 'anticongelantes' naturales (glicoproteínas, polioles) en su sangre: biología evolutiva resolviendo el mismo problema fisicoquímico que resuelve el radiador de un carro."
+  },
+  {
+    "id": "FQT-10",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "FQT",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué la saponina intacta es soluble en agua pero casi insoluble en DCM, si el esqueleto esteroidal de fondo es básicamente el mismo que el de la diosgenina libre?",
+    "respuesta": "El puente de hidrógeno es una interacción dipolo-dipolo especialmente fuerte cuando un H está unido a un átomo muy electronegativo y pequeño (O, N, F) e interactúa con un par de electrones libres de otro átomo electronegativo cercano — más fuerte que la dispersión de London típica, más débil que un enlace covalente. La saponina intacta tiene múltiples -OH de su cadena de azúcares, cada uno formando varios puentes de H con el agua — la suma de esas interacciones la hace soluble pese a su núcleo esteroidal grande. Cuando la hidrólisis quita los azúcares, se pierden esos -OH, y lo que queda (diosgenina) tiene solo un -OH aislado sobre un esqueleto predominantemente hidrocarbonado — insuficiente para compensar el costo de separarse de sus vecinos en DCM, así que ahora prefiere la fase orgánica.",
+    "error_comun": "Tratar el puente de hidrógeno como 'casi un enlace covalente' en fuerza — es mucho más débil (5-30 kJ/mol vs. cientos de kJ/mol), aunque su efecto acumulado en muchas moléculas de agua es enorme. Pensar que solo el agua forma puentes de H — cualquier molécula con H unido a O, N o F puede hacerlo. Olvidar que el NÚMERO de grupos -OH importa tanto como su presencia — por eso quitar azúcares (con múltiples -OH cada uno) cambia tan drásticamente la solubilidad.",
+    "dificultad": "alta",
+    "prereqs": [
+      "FQT-01"
+    ],
+    "connects_to": [
+      "ELL",
+      "PFT"
+    ],
+    "conexion_cotidiana": "Esta misma lógica es la razón bioquímica de por qué la glucosa (cinco -OH) es extremadamente soluble en agua mientras que el ciclohexano (mismo esqueleto de 6 carbonos, sin los -OH) es prácticamente insoluble — y en el extremo opuesto de tamaño molecular, es la razón estructural de por qué el ADN mantiene su doble hélice estable en agua: los puentes de H entre pares de bases son individualmente débiles, pero la suma de millones de ellos la hace termodinámicamente estable. El mismo principio físico, de un azúcar simple al material genético completo."
+  },
+  {
+    "id": "FQT-11",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "FQT",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué agregar NaCl saturado rompe una emulsión de DCM/agua, en vez de empeorarla al añadir más soluto al sistema?",
+    "respuesta": "En una emulsión, hay agua 'atrapada' alrededor de las gotas de fase orgánica, estabilizada en parte por moléculas de agua orientadas alrededor de superficies tensioactivas (saponinas remanentes). Los iones Na+ y Cl- de una sal muy soluble compiten fuertemente por moléculas de agua para su propia capa de hidratación. En alta concentración de sal, hay tanta 'demanda' de agua que queda menos disponible para estabilizar la interfase de la emulsión — las gotas pierden su capa protectora y coalescen, separándose limpiamente de la fase orgánica.",
+    "error_comun": "Pensar que cualquier sal funciona igual de bien — distintos iones tienen distinta capacidad de 'secuestrar' agua (esto es exactamente lo que ordena la serie de Hofmeister). Creer que el salting-out funciona por cambiar el pH o por reacción química con el soluto — es competencia por moléculas de agua, no una reacción. Asumir que más sal siempre es mejor — pasado el punto de saturación no hay más efecto, y un exceso extremo puede complicar pasos posteriores.",
+    "dificultad": "alta",
+    "prereqs": [
+      "FQT-10"
+    ],
+    "connects_to": [
+      "ELL"
+    ],
+    "conexion_cotidiana": "La serie de Hofmeister se descubrió en 1888 estudiando literalmente la precipitación de clara de huevo (albúmina) con distintas sales. Hoy esa misma serie es herramienta central en biotecnología para purificar y cristalizar proteínas terapéuticas a escala industrial (precipitación fraccionada con sulfato de amonio, por ejemplo) — el fenómeno que rompe tu emulsión de DCM en el laboratorio de pregrado es el mismo principio que usa la industria farmacéutica para purificar anticuerpos monoclonales."
+  },
+  {
+    "id": "FQT-12",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "FQT",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué el mismo compuesto (un ácido orgánico débil, o un metal en solución) puede estar en una forma a un pH y en otra completamente distinta a un pH ligeramente diferente?",
+    "respuesta": "Henderson-Hasselbalch: pH = pKa + log([A-]/[HA]). Describe cómo la proporción entre la forma protonada (HA) y desprotonada (A-) de un ácido débil depende del pH relativo a su pKa. Cuando pH = pKa hay 50/50; cada unidad de pH cambia la proporción en un factor de 10. Esto importa prácticamente: a pH 2 (hidrólisis ácida fuerte) casi todo grupo ionizable relevante está protonado; a pH 5 (condiciones enzimáticas suaves) la especiación puede ser completamente distinta, afectando tanto la actividad enzimática (las enzimas tienen pH óptimo estrecho porque su sitio activo depende de que ciertos residuos estén en la forma protonada/desprotonada correcta) como la solubilidad/reactividad del propio sustrato.",
+    "error_comun": "Tratar pH y pKa como el mismo tipo de número intercambiable — pH describe el medio, pKa describe una propiedad intrínseca de cada especie química. Pensar en ácido-base como blanco o negro en vez de como equilibrio continuo de proporciones. Olvidar que una molécula puede tener varios grupos ionizables con distintos pKa (poliprótica) — su especiación completa a un pH dado puede ser una mezcla de varias formas parcialmente protonadas.",
+    "dificultad": "alta",
+    "prereqs": [
+      "FQT-04"
+    ],
+    "connects_to": [
+      "HID",
+      "PFT"
+    ],
+    "conexion_cotidiana": "Esta misma ecuación es la que usan los nefrólogos para entender la regulación del pH sanguíneo (sistema buffer bicarbonato/CO2), y es también, con las mismas matemáticas exactas, la herramienta central que usa la ciencia de suelos para predecir si un metal pesado como el cadmio está biodisponible (catión libre Cd2+, más tóxico y móvil) o inmovilizado (unido a materia orgánica del suelo) según el pH — el mismo marco que usarías para elegir el pH de tu hidrólisis enzimática es, con otro sistema químico, el corazón conceptual de tu otra tesis sobre geopolímero e intercepción de cadmio en suelos de cacao."
+  },
+  {
+    "id": "FQT-13",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "FQT",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué calentar generalmente ayuda a que algo se disuelva mejor, pero hay sales (como el nitrato de amonio de las compresas frías instantáneas) que se disuelven absorbiendo calor del entorno?",
+    "respuesta": "Si disolver algo es espontáneo, ΔG = ΔH − TΔS debe ser negativo. Hay dos formas de lograrlo: ΔH negativo (exotérmico) o ΔS suficientemente positivo (aumenta el desorden) como para compensar incluso un ΔH positivo, siempre que TΔS supere a ΔH. El nitrato de amonio disolviéndose es endotérmico (por eso la compresa se enfría), pero el aumento de entropía al pasar de un cristal ordenado a iones libres dispersos es tan grande que el proceso ocurre espontáneamente de todas formas, 'robando' energía térmica del entorno para pagar el costo entálpico. Esto rompe la intuición de 'las cosas se disuelven porque libera energía' — a veces se disuelven precisamente porque el desorden ganado vale más que la energía que cuesta.",
+    "error_comun": "Asumir que todo proceso espontáneo debe ser exotérmico — el criterio real es ΔG negativo, no ΔH negativo. Pensar que 'calentar siempre ayuda a disolver más' universalmente — hay excepciones donde la solubilidad disminuye con temperatura (algunos gases disueltos, solubilidad retrógrada de algunas sales). Confundir espontaneidad termodinámica (¿ocurre eventualmente?) con velocidad cinética (¿qué tan rápido?) — son preguntas independientes.",
+    "dificultad": "alta",
+    "prereqs": [
+      "FQT-01"
+    ],
+    "connects_to": [
+      "SER",
+      "ELL"
+    ],
+    "conexion_cotidiana": "Este mismo balance entalpía-entropía explica el 'efecto hidrofóbico' del plegamiento de proteínas: las cadenas laterales no polares se agrupan en el interior no porque se 'atraigan' fuertemente entre sí, sino porque agruparlas libera moléculas de agua que estaban forzadas a organizarse rígidamente alrededor de cada superficie hidrofóbica aislada, ganando entropía del sistema total. Sorprendentemente, es el mismo tipo de razonamiento entrópico que explica por qué una compresa fría de nitrato de amonio funciona."
+  },
+  {
+    "id": "FQT-14",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "FQT",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué un compuesto impuro funde en un rango de temperaturas más amplio y más bajo que el compuesto puro, y cómo se usa esto para verificar identidad/pureza?",
+    "respuesta": "El punto de fusión de un sólido puro es, en teoría, una temperatura única donde las fases sólida y líquida coexisten en equilibrio. Una impureza disuelta en el sólido actúa como soluto que perturba ese equilibrio de fase — por el mismo razonamiento coligativo de FQT-09 (Raoult), reduce el punto de fusión y amplía el rango en que ocurre (porque la composición local no es uniforme). Por eso un punto de fusión 'limpio' es evidencia de pureza, y uno deprimido y amplio sugiere impurezas — y por eso el 'punto de fusión mixto' (mezclar tu muestra con una de referencia auténtica) es una prueba clásica de identidad: si son la misma sustancia, no hay depresión adicional.",
+    "error_comun": "Pensar que un punto de fusión correcto por sí solo PRUEBA la identidad — solo es evidencia consistente, no prueba concluyente (dos compuestos distintos pueden coincidir). Olvidar que la velocidad de calentamiento durante la medición afecta el valor observado — calentar muy rápido da lecturas menos precisas. Asumir que todo lo que reduce el punto de fusión es una 'impureza' negativa — en recristalización intencional, esta misma física es la herramienta para purificar.",
+    "dificultad": "alta",
+    "prereqs": [
+      "FQT-09"
+    ],
+    "connects_to": [
+      "SER"
+    ],
+    "conexion_cotidiana": "Este principio es la base de la calorimetría diferencial de barrido (DSC), usada en ciencia de materiales y control de calidad farmacéutico para detectar polimorfismo (la misma molécula cristalizando en distintas formas de empaquetamiento, cada una con su propio punto de fusión) — un problema nada trivial en la industria farmacéutica, porque distintos polimorfos del mismo fármaco pueden tener biodisponibilidad drásticamente distinta pese a ser 'la misma molécula' en fórmula química."
+  },
+  {
+    "id": "FQT-15",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "FQT",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué moler el polvo de ñame más fino acelera tanto la extracción, más allá de 'obviamente ayuda'?",
+    "respuesta": "La primera ley de Fick dice que el flujo de difusión es proporcional al gradiente de concentración y al área disponible (J ∝ −D·(dC/dx)·A). Moler más fino no cambia la difusividad D ni el gradiente de concentración en sí, pero sí aumenta drásticamente el área superficial total por unidad de masa (un cubo cortado en 8 cubos pequeños tiene el doble de área total con el mismo volumen) y acorta la distancia que el soluto recorre por difusión desde el interior de la partícula hasta la superficie. Ambos efectos aceleran dramáticamente qué tan rápido el soluto sale de la matriz vegetal, incluso sin cambiar nada de la química de la extracción en sí.",
+    "error_comun": "Pensar que moler más fino cambia la solubilidad de equilibrio del soluto — no la cambia, solo la velocidad con la que se alcanza ese equilibrio. Asumir que 'más fino siempre es mejor sin límite' — partículas extremadamente finas pueden compactarse y reducir el flujo de solvente, o complicar la filtración posterior. Olvidar que la agitación (convección) actúa junto con la difusión — no es solo difusión pasiva, remover el sistema renueva el solvente en contacto con la partícula.",
+    "dificultad": "alta",
+    "prereqs": [
+      "FQT-01"
+    ],
+    "connects_to": [
+      "HID",
+      "ELL"
+    ],
+    "conexion_cotidiana": "Adolf Fick formuló su ley de difusión en 1855 por analogía matemática directa con la ley de conducción de calor de Fourier (que ya existía) — y esa misma estructura matemática es también la forma de la ley de Ohm para corriente eléctrica. Tres fenómenos aparentemente no relacionados —difusión de materia, flujo de calor, flujo de carga eléctrica— descritos por la misma ecuación diferencial, porque todos comparten la estructura de 'algo fluye para igualar un desequilibrio, proporcionalmente a qué tan grande es ese desequilibrio.'"
+  },
+  {
+    "id": "FQT-16",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "FQT",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué algunos compuestos absorben luz UV o visible y se ven de un color, mientras que otros (como el DCM o el agua) son completamente incoloros y transparentes?",
+    "respuesta": "Para que una molécula absorba un fotón de una energía particular, tiene que haber una transición electrónica disponible con exactamente esa diferencia de energía — típicamente un electrón saltando del HOMO al LUMO. En moléculas con solo enlaces sigma simples y sin electrones π conjugados (agua, DCM), esa brecha HOMO-LUMO es enorme, correspondiente a UV muy alta (por debajo del rango de un espectrofotómetro típico) — por eso son 'transparentes' en UV-Vis usual. En moléculas con dobles enlaces conjugados extensos (el producto coloreado que forma el anisaldehído con diosgenina en la reacción de Baccou, o pigmentos naturales), los electrones π deslocalizados reducen la brecha a energías de luz visible — de ahí el color, y de ahí que la reacción cromógena dependa de crear o extender conjugación donde antes no la había (la diosgenina pura no tiene color visible propio significativo).",
+    "error_comun": "Pensar que 'absorber UV' y 'tener color visible' son lo mismo — un compuesto puede absorber fuerte en UV (invisible al ojo) sin absorber nada en visible. Asumir que toda molécula orgánica tiene absorción UV-Vis útil para cuantificación directa — muchas, como la diosgenina libre, tienen cromóforos débiles y necesitan derivatización (la razón de ser del método Baccou). Confundir la intensidad de absorción (coeficiente de extinción molar ε, probabilidad cuántica de la transición) con la longitud de onda a la que absorbe (tamaño de la brecha de energía) — son dos parámetros independientes.",
+    "dificultad": "alta",
+    "prereqs": [
+      "FQT-02"
+    ],
+    "connects_to": [
+      "ESP",
+      "HPL",
+      "TLC"
+    ],
+    "conexion_cotidiana": "El tamaño exacto de esta brecha HOMO-LUMO es fundamentalmente un cálculo de mecánica cuántica (el modelo simple de partícula en una caja ya predice que cadenas de conjugación más largas bajan la energía de la transición, corriendo el color hacia el rojo). Por qué la clorofila se ve verde, por qué las antocianinas de ciertos tubérculos dan tonos morados/rojizos, y por qué tu reactivo de Baccou vira a un color cuantificable a 425-430 nm son todas manifestaciones visibles y cotidianas del mismo principio cuántico de niveles de energía discretos — la química de color, en el fondo, siempre es física cuántica asomándose a simple vista."
+  }
+]

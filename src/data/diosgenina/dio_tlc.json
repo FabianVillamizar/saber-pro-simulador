@@ -1,0 +1,189 @@
+[
+  {
+    "id": "TLC-01",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "TLC",
+    "modo": "pregunta",
+    "pregunta": "El Rf es 'la distancia que recorre la mancha dividida entre la distancia del frente del solvente' — pero fisicoquímicamente, ¿qué representa ese número?",
+    "respuesta": "**Idea clave: el Rf es un coeficiente de partición (FQT-03) pero en un sistema donde el compuesto se reparte miles de veces mientras el solvente avanza, no una sola vez como en un embudo.**\n\nMientras el solvente sube, cada molécula de analito pasa constantemente por un ciclo microscópico de **adsorción** a la sílice (quedándose momentáneamente 'pegada', inmóvil) y **desorción** hacia la fase móvil (siendo arrastrada hacia arriba con el flujo) — miles de micro-eventos de equilibrio mientras la placa se desarrolla. Un compuesto que pasa proporcionalmente más tiempo 'pegado' a la sílice (mayor afinidad por la fase estacionaria polar) se mueve menos respecto al frente del solvente — **Rf bajo**. Uno que pasa más tiempo en la fase móvil se mueve casi tanto como el frente — **Rf cercano a 1**. El Rf no es una propiedad 'del compuesto' en abstracto — es propiedad del EQUILIBRIO específico entre ese compuesto, esa fase estacionaria, y esa fase móvil; cambiar cualquiera de los tres cambia el Rf.",
+    "error_comun": "Pensar que el Rf es una constante universal de un compuesto, como su punto de fusión — depende completamente de qué fase estacionaria y qué fase móvil se usen; el mismo compuesto puede tener Rf 0.2 en un sistema y 0.8 en otro. Confundir 'Rf alto' con 'compuesto no polar en términos absolutos' — el Rf es relativo al sistema completo, así que un Rf alto solo significa 'relativamente menos afín a la fase estacionaria que a la fase móvil elegida', no una medida absoluta de polaridad. Olvidar reportar SIEMPRE el sistema de solvente y la fase estacionaria exacta junto con cualquier Rf reportado — un Rf sin esa información es prácticamente inútil para que otra persona lo replique o compare.",
+    "dificultad": "alta",
+    "prereqs": [
+      "FQT-03",
+      "FQT-10"
+    ],
+    "connects_to": [
+      "HPL"
+    ],
+    "regla": "el Rf es un coeficiente de partición (FQT-03) pero en un sistema donde el compuesto se reparte miles de veces mientras el solvente avanza, no una sola vez como en un embudo.",
+    "conexion_cotidiana": "El propio nombre 'cromatografía' (del griego *chroma*, color, y *graphein*, escribir) viene literalmente del experimento fundacional: el botánico ruso **Mikhail Tswett**, en 1900-1903, separó los pigmentos vegetales de hojas (clorofilas y carotenoides) haciendo pasar un extracto vegetal disuelto por una columna de carbonato de calcio, observando cómo los distintos pigmentos formaban bandas de colores separados a distintas alturas — literalmente 'escritura en colores' hecha con moléculas de plantas. La técnica que usas para separar sapogeninas de ñame tiene su origen histórico exacto en separar pigmentos de OTRAS plantas, y el nombre completo de la técnica deriva de ese experimento con clorofila, no de que tus manchas necesariamente tengan color por sí solas."
+  },
+  {
+    "id": "TLC-02",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "TLC",
+    "modo": "pregunta",
+    "pregunta": "¿Qué tiene específicamente la sílice (SiO2) en su superficie que la hace tan útil como fase estacionaria polar en TLC?",
+    "respuesta": "**Idea clave: la superficie de sílice está saturada de grupos silanol (Si-OH), que forman puentes de hidrógeno con el analito — su función es química, no un simple 'colador' físico.**\n\nEn la superficie de la sílice, muchos átomos de silicio que en el interior del cristal estarían unidos a 4 oxígenos quedan con un enlace 'colgante' que se satura con un grupo -OH, formando **grupos silanol (Si-OH)** distribuidos densamente por toda la superficie. Estos grupos forman puentes de hidrógeno (**FQT-10**) con cualquier analito que tenga -OH, -NH, carbonilos, u otros grupos capaces de aceptar/donar puente de H — cuanto más grupos de este tipo tenga el analito, más fuertemente interactúa con la sílice, y menor su Rf. La sílice también tiene cierta acidez de Lewis débil en algunos sitios, contribuyendo interacciones adicionales con grupos básicos. Es esta abundancia de sitios de puente de hidrógeno lo que hace de la sílice una fase estacionaria polar tan efectiva y versátil.",
+    "error_comun": "Pensar en la sílice como un sólido 'inerte' que actúa solo por tamaño de poro o superficie física — su función principal es química (grupos silanol formando puentes de H), no un efecto de 'colador molecular' físico. Olvidar que la actividad de la sílice depende de cuánta agua tenga adsorbida — sílice 'desactivada' por exceso de humedad ambiental tiene menos sitios activos disponibles porque el agua ya ocupa esos silanoles, cambiando el comportamiento cromatográfico si las placas no se manejan con cuidado. Asumir que todos los compuestos interactúan igual con la sílice — compuestos completamente apolares apenas interactúan y corren casi con el frente del solvente casi sin importar la fase móvil, dando poca resolución entre ellos.",
+    "dificultad": "alta",
+    "prereqs": [
+      "FQT-10"
+    ],
+    "connects_to": [
+      "HPL"
+    ],
+    "regla": "la superficie de sílice está saturada de grupos silanol (Si-OH), que forman puentes de hidrógeno con el analito — su función es química, no un simple 'colador' físico.",
+    "conexion_cotidiana": "Esta misma química de superficie (grupos silanol capaces de puente de hidrógeno) es la razón por la que el **gel de sílice** es el desecante más común dentro de los sobrecitos 'no comer' que vienen en cajas de zapatos nuevos o de electrónica: los mismos grupos silanol que retienen tu analito en la placa de TLC son los que capturan moléculas de agua del aire dentro del empaque, con la ventaja adicional de que la sílice de esos sobrecitos suele tener un enorme volumen de poro interno (área superficial de cientos de metros cuadrados por gramo) que multiplica muchísimo la cantidad de sitios silanol disponibles comparado con la capa delgada y relativamente lisa de una placa de TLC."
+  },
+  {
+    "id": "TLC-03",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "TLC",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué se llama 'fase normal' a usar sílice polar con solvente apolar, si en química analítica moderna la fase reversa (C18) es en realidad mucho más común?",
+    "respuesta": "**Idea clave: 'normal' es una etiqueta histórica, no un juicio de qué es más común hoy — en HPLC moderno, fase reversa domina ampliamente.**\n\nEl nombre quedó fijado desde los primeros días de la cromatografía moderna, cuando la combinación de fase estacionaria polar (sílice, alúmina) con fase móvil relativamente apolar era efectivamente el único enfoque ampliamente disponible. La **fase reversa** apareció después, invirtiendo literalmente la polaridad relativa: fase estacionaria APOLAR (típicamente sílice con cadenas de hidrocarburo largo unidas químicamente, como C18) combinada con fase móvil relativamente POLAR (agua-metanol, agua-acetonitrilo). En fase reversa el orden de elución se invierte: los compuestos más polares eluyen PRIMERO (menor afinidad por la fase estacionaria apolar), los más apolares eluyen después. Hoy, fase reversa domina ampliamente en HPLC (mejor reproducibilidad, compatibilidad con muestras acuosas biológicas, facilidad con gradientes agua-orgánico), pero el nombre 'normal' quedó congelado por razones puramente históricas.",
+    "error_comun": "Asumir que 'fase normal' significa que es la más usada o más común hoy — es al revés en HPLC moderno; 'normal' es etiqueta histórica, no juicio de frecuencia de uso. Confundir 'fase reversa' con simplemente 'el orden de elución al revés' sin entender que también cambia físicamente cuál de las dos fases es polar y cuál apolar — no es un truco de nomenclatura, es un sistema fisicoquímico genuinamente distinto. Pensar que la TLC de sílice que usan siempre es necesariamente 'fase normal' — existen placas de TLC de fase reversa (con sílice C18) para aplicaciones específicas, menos comunes en un laboratorio de pregrado.",
+    "dificultad": "alta",
+    "prereqs": [
+      "TLC-01"
+    ],
+    "connects_to": [
+      "HPL"
+    ],
+    "regla": "'normal' es una etiqueta histórica, no un juicio de qué es más común hoy — en HPLC moderno, fase reversa domina ampliamente.",
+    "conexion_cotidiana": "Esta terminología histórica confusa tiene un paralelo instructivo en química general: el término **'sal'**, en su sentido más amplio (cualquier compuesto iónico formado por la reacción de un ácido con una base), técnicamente incluye compuestos que nadie en la vida cotidiana llamaría 'sal' (como el sulfato de cobre azul intenso usado en agricultura como fungicida, o el nitrato de potasio de los fertilizantes) — el nombre común 'sal' quedó anclado históricamente al cloruro de sodio de mesa por ser el ejemplo más familiar, exactamente como 'fase normal' quedó anclada a la primera combinación históricamente disponible, no porque sea representativa de 'lo normal' en sentido estadístico actual."
+  },
+  {
+    "id": "TLC-04",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "TLC",
+    "modo": "pregunta",
+    "pregunta": "¿Qué fuerza física hace que el solvente suba activamente contra la gravedad por la placa de sílice, sin ninguna bomba ni presión externa aplicada?",
+    "respuesta": "**Idea clave: cuando la adhesión del líquido hacia la sílice supera la cohesión interna del líquido consigo mismo, el líquido 'prefiere' mojar la superficie y sube.**\n\nLa capilaridad surge del balance entre **cohesión** (moléculas del líquido atrayéndose entre sí, principalmente por puentes de hidrógeno) y **adhesión** (moléculas del líquido atraídas hacia la superficie sólida de sílice, también vía puentes de H con los grupos silanol de **TLC-02**). Cuando la adhesión es más fuerte que la cohesión interna, el líquido se extiende sobre la superficie sólida en vez de mantenerse compacto — esto crea un menisco cóncavo, y la tensión superficial en ese menisco genera una fuerza neta hacia arriba dentro de los poros diminutos entre partículas de sílice (que actúan como una red de capilares microscópicos interconectados). Esa fuerza capilar sigue 'tirando' del líquido mientras haya suficiente adhesión disponible, contrarrestando la gravedad, hasta que ambas se equilibran o se agota el solvente del reservorio.",
+    "error_comun": "Pensar que el solvente 'sube' por alguna fuerza activa de la sílice empujándolo — es un fenómeno pasivo de balance de fuerzas intermoleculares (adhesión vs. cohesión), no una fuerza generada activamente por el sólido. Asumir que cualquier solvente sube igual de rápido y alto — depende de la tensión superficial específica del solvente, su viscosidad, y qué tan bien 'moja' (adhesión) a esa superficie de sílice particular. Olvidar que el tamaño de poro entre partículas de sílice también importa — poros más pequeños generan mayor fuerza capilar, pero también mayor resistencia al flujo por fricción viscosa, así que hay un balance entre velocidad de ascenso y fuerza disponible.",
+    "dificultad": "alta",
+    "prereqs": [
+      "FQT-10",
+      "TLC-02"
+    ],
+    "connects_to": [],
+    "regla": "cuando la adhesión del líquido hacia la sílice supera la cohesión interna del líquido consigo mismo, el líquido 'prefiere' mojar la superficie y sube.",
+    "conexion_cotidiana": "Este mismo principio de capilaridad, con la misma física de balance adhesión-cohesión, es literalmente cómo el agua sube desde las raíces hasta las hojas más altas de un árbol de varias decenas de metros (parte de la teoría de cohesión-tensión del transporte de agua en el xilema, aunque para alturas grandes el mecanismo dominante añade la transpiración foliar generando tensión negativa que 'jala' el agua desde arriba, no solo capilaridad pasiva desde abajo) — el mismo fenómeno básico que sube el solvente por tu placa de unos pocos centímetros es, a escala mucho mayor y con mecanismos adicionales acoplados, parte de cómo un eucalipto de 50 metros hidrata sus hojas más altas sin ningún 'bombeo' celular activo continuo."
+  },
+  {
+    "id": "TLC-05",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "TLC",
+    "modo": "pregunta",
+    "pregunta": "¿Qué pasa exactamente si la placa se sumerge en la cámara con la línea de siembra por DEBAJO del nivel del solvente, en vez de estar claramente por encima?",
+    "respuesta": "**Idea clave: si el punto de siembra queda sumergido, el analito se disuelve directamente en el reservorio líquido en vez de quedar retenido en un punto discreto para empezar su partición controlada.**\n\nSi el punto donde se sembró la muestra queda sumergido directamente en el reservorio de solvente líquido (en vez de estar en la zona donde el solvente solo asciende por capilaridad), el analito simplemente se disuelve en el volumen relativamente grande de ese reservorio, en vez de quedar retenido en un punto definido de la fase estacionaria para empezar el proceso de partición (**TLC-01**) mientras el frente avanza. En la práctica, la muestra se 'pierde' por dilución masiva, o se distribuye de forma completamente descontrolada conforme el solvente empieza a subir — el resultado es una corrida sin información útil, sin manchas definidas que interpretar, porque el punto de partida ya no era un punto discreto de analito concentrado sino una disolución difusa mezclada con el reservorio.",
+    "error_comun": "Pensar que 'un poco sumergida no importa mucho' — el efecto de disolución directa en el reservorio es prácticamente todo-o-nada, no un efecto gradual y tolerable. Olvidar verificar el nivel del solvente en la cámara ANTES de introducir la placa, no después — es mucho más fácil ajustar el volumen de solvente antes de sembrar y desarrollar que corregir a mitad de una corrida ya iniciada. Confundir este error con sembrar demasiado cerca del borde inferior de la placa sin relación al nivel del solvente de la cámara — son dos consideraciones relacionadas pero distintas: geometría de la placa vs. relación entre esa línea y el nivel de líquido en la cámara.",
+    "dificultad": "alta",
+    "prereqs": [
+      "TLC-04"
+    ],
+    "connects_to": [],
+    "regla": "si el punto de siembra queda sumergido, el analito se disuelve directamente en el reservorio líquido en vez de quedar retenido en un punto discreto para empezar su partición controlada.",
+    "conexion_cotidiana": "Este mismo tipo de error conceptual —confundir 'sumergir directamente en un reservorio líquido' con 'iniciar un transporte capilar controlado desde un punto discreto'— tiene un paralelo instructivo en el diseño de **mechas de velas y lámparas de aceite tradicionales**: una mecha necesita estar parcialmente sumergida en el combustible para absorberlo por capilaridad (análogo a que la placa SÍ debe tocar el solvente en su borde inferior), pero si toda la mecha quedara completamente sumergida sin ninguna porción expuesta arriba del nivel del líquido, no habría transporte capilar útil hacia una llama en la punta expuesta — el mismo principio de necesitar un gradiente parcial entre 'zona sumergida que alimenta' y 'zona expuesta donde ocurre el fenómeno de interés' aplica tanto al diseño de una vela artesanal como a por qué tu línea de siembra debe quedar estrictamente por encima del nivel de solvente en la cámara."
+  },
+  {
+    "id": "TLC-06",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "TLC",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué se tapa la cámara de desarrollo y se deja 'equilibrar' unos minutos antes de introducir la placa, en vez de meter la placa apenas se vierte el solvente?",
+    "respuesta": "**Idea clave: si el aire de la cámara no está saturado con vapor de solvente, la placa evapora activamente hacia un aire relativamente 'seco', distorsionando el frente.**\n\nCuando se vierte solvente fresco y se tapa la cámara, el espacio de aire dentro empieza a llenarse progresivamente con vapor de ese solvente (por evaporación desde la superficie líquida, siguiendo su presión de vapor, **FQT-08**) hasta quedar saturado —o cerca de saturado—. Si la placa se introduce ANTES de ese equilibrio, el solvente que asciende por la placa se evapora activamente hacia el aire relativamente seco de la cámara, en vez de estar en equilibrio con una atmósfera ya cargada del mismo vapor — esto genera un gradiente de evaporación desigual a lo largo de la placa (más evaporación cerca del frente de avance), distorsionando el frente del solvente (curvado en vez de recto) y afectando la reproducibilidad del Rf, especialmente con mezclas de solventes de distinta volatilidad donde la composición efectiva de la fase móvil puede cambiar mientras asciende.",
+    "error_comun": "Pensar que 'saturar la cámara' es solo un paso opcional de refinamiento sin impacto real — para sistemas de solvente mixto especialmente, afecta directamente la reproducibilidad del Rf y la forma del frente. Asumir que el tiempo de saturación necesario es siempre el mismo sin importar el solvente — solventes más volátiles (DCM, acetona) saturan la cámara más rápido que solventes menos volátiles. Olvidar reponer papel filtro humedecido tapizando las paredes internas de la cámara (práctica común para acelerar la saturación) si el protocolo lo especifica — solo tapar la cámara sin ese papel puede tardar mucho más en alcanzar el equilibrio deseado.",
+    "dificultad": "alta",
+    "prereqs": [
+      "FQT-08"
+    ],
+    "connects_to": [],
+    "regla": "si el aire de la cámara no está saturado con vapor de solvente, la placa evapora activamente hacia un aire relativamente 'seco', distorsionando el frente.",
+    "conexion_cotidiana": "Este mismo concepto de 'atmósfera pre-saturada con vapor para evitar evaporación descontrolada de la muestra' es exactamente el principio detrás de por qué los contenedores de **cultivo de tejido vegetal in vitro** (relevante para el establecimiento in vitro de Dioscorea silvestre que aparece en Ramos Duarte 2015, que ya leíste) a menudo se sellan parcialmente o se mantienen en cámara húmeda controlada — no para retener agua líquida directamente sobre la muestra, sino para mantener la atmósfera circundante saturada de vapor de agua y evitar que el tejido pierda humedad por evaporación hacia un ambiente más seco: el mismo balance de presión de vapor y saturación atmosférica que gobierna tanto tu cámara de TLC como un frasco de cultivo in vitro."
+  },
+  {
+    "id": "TLC-07",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "TLC",
+    "modo": "pregunta",
+    "pregunta": "Muchos compuestos en la placa de TLC son completamente incoloros al ojo bajo luz normal. ¿Qué hace exactamente el reactivo revelador (como el anisaldehído-sulfúrico) para hacerlos visibles?",
+    "respuesta": "**Idea clave: el revelador no 'tiñe' pasivamente — reacciona químicamente con el analito creando un cromóforo nuevo donde antes no existía uno útil.**\n\nConecta directamente con **FQT-16**: un compuesto es incoloro cuando su brecha HOMO-LUMO corresponde a energía de luz UV (fuera del rango visible), típicamente por falta de conjugación de dobles enlaces extendida. El revelador, al reaccionar químicamente con el analito directamente sobre la placa (una derivatización análoga en principio a la reacción de Baccou que ya usan en solución, pero ahora IN SITU sobre la sílice), genera un nuevo compuesto con un sistema de conjugación extendido o modificado que sí absorbe luz visible — creando artificialmente un cromóforo para poder VER dónde está el compuesto sin que sea intrínsecamente coloreado. El calor aplicado después de rociar (pistola de calor o estufa) acelera esta reacción hasta que el color se desarrolla completamente en minutos, en vez de horas a temperatura ambiente.",
+    "error_comun": "Pensar que el revelador 'tiñe' el compuesto de forma pasiva, como un colorante que simplemente se adhiere — es una reacción química real que MODIFICA la estructura del analito, creando un producto derivado distinto de la molécula original. Olvidar que distintos reveladores tienen distinta especificidad química — algunos (anisaldehído-sulfúrico) reaccionan con una amplia variedad de estructuras (esteroides, terpenos, azúcares), mientras otros (Dragendorff para alcaloides, ninhidrina para aminas/aminoácidos) son mucho más específicos, lo que puede usarse deliberadamente para identificar QUÉ TIPO de compuesto es cada mancha. Asumir que la ausencia de color tras revelar significa 'no hay compuesto en esa mancha' — puede significar simplemente que ese compuesto no reacciona con ese revelador específico (falta de especificidad química), no necesariamente ausencia física del compuesto.",
+    "dificultad": "alta",
+    "prereqs": [
+      "FQT-16",
+      "TLC-01"
+    ],
+    "connects_to": [
+      "ESP"
+    ],
+    "regla": "el revelador no 'tiñe' pasivamente — reacciona químicamente con el analito creando un cromóforo nuevo donde antes no existía uno útil.",
+    "conexion_cotidiana": "Esta técnica de derivatización química IN SITU para hacer visible algo invisible tiene un pariente conceptual fascinante en criminalística forense: el revelado de **huellas dactilares latentes** con vapores de cianoacrilato (el componente activo del 'super glue') o con ninhidrina en aerosol funciona exactamente por el mismo principio — el cianoacrilato polimeriza selectivamente sobre residuos de aminoácidos y ácidos grasos depositados por el contacto de la piel (invisibles a simple vista), y la ninhidrina reacciona específicamente con aminoácidos formando un compuesto coloreado (púrpura de Ruhemann, la misma química de derivatización cromógena), haciendo visible una huella que de otra forma sería indetectable — la misma lógica de derivatización química para revelar lo invisible, aplicada a resolver crímenes en vez de identificar sapogeninas."
+  },
+  {
+    "id": "TLC-08",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "TLC",
+    "modo": "pregunta",
+    "pregunta": "Más allá de la teoría, ¿cuáles son los errores prácticos de manipulación que más arruinan una corrida de TLC, y por qué específicamente esos?",
+    "respuesta": "**Idea clave: tres errores destacan por comprometer la corrida de forma difícil de diagnosticar después.**\n\n1. **Sobrecargar la placa**: sembrar demasiada muestra concentrada en un punto genera una mancha ancha con 'cola' (streaking) que se extiende verticalmente incluso antes de correr — a alta concentración local, el equilibrio de partición (**TLC-01**) deja de comportarse linealmente (el analito satura los sitios de adsorción cercanos), distorsionando la mancha y dificultando medir Rf con precisión.\n\n2. **Tocar la superficie de sílice con los dedos**: la grasa y el sudor de la piel contienen ácidos grasos y otros lípidos que se transfieren a la sílice, contaminando esa zona (frecuentemente visible tras revelar como manchas circulares difusas de huellas dactilares) y potencialmente bloqueando sitios silanol localmente.\n\n3. **No dejar secar completamente el solvente de siembra**: si queda solvente residual (no solo el analito seco) en el punto de siembra, se mezcla de forma descontrolada con la fase móvil justo al inicio del desarrollo, distorsionando el frente localmente cerca del punto de siembra.",
+    "error_comun": "Pensar que 'un poco más de muestra siempre da una señal más fácil de ver' — más allá de cierto punto, sobrecargar la placa EMPEORA la resolución y precisión, no la mejora; hay un óptimo, no 'más es mejor'. Asumir que tocar la placa 'en el borde, lejos de las muestras' no tiene consecuencia — cualquier contacto con la superficie activa de sílice puede introducir contaminación que interfiera con la corrida. Subestimar el tiempo de secado necesario del solvente de siembra 'porque se ve seco a simple vista' — algunos solventes pueden parecer evaporados visualmente mientras aún queda cantidad no despreciable en la microestructura porosa de la sílice.",
+    "dificultad": "alta",
+    "prereqs": [
+      "TLC-01"
+    ],
+    "connects_to": [],
+    "regla": "tres errores destacan por comprometer la corrida de forma difícil de diagnosticar después.",
+    "conexion_cotidiana": "El error de 'sobrecargar' y obtener manchas con cola (streaking) en vez de puntos definidos tiene un análogo instructivo en un contexto completamente distinto: la **electroforesis en gel** (usada para separar ADN, ARN o proteínas por tamaño en un campo eléctrico) sufre exactamente el mismo problema de 'smearing' (manchado difuso en vez de bandas nítidas) cuando se carga demasiada muestra en un solo pozo del gel — el mecanismo físico subyacente es distinto (migración electroforética por carga/tamaño en vez de partición cromatográfica por polaridad), pero el problema conceptual de fondo es idéntico: sobrecargar el sistema de separación más allá de su capacidad lineal de resolución produce el mismo tipo de distorsión visual borrosa, sea en una placa de sílice o en un gel de agarosa."
+  },
+  {
+    "id": "TLC-09",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "TLC",
+    "modo": "pregunta",
+    "pregunta": "Si dos compuestos tienen Rf muy parecido y sus manchas casi se sobreponen o se ven como una sola mancha alargada, ¿qué está pasando fisicoquímicamente, y qué opciones hay para resolverlo mejor?",
+    "respuesta": "**Idea clave: la resolución depende de qué tan distintos son los Rf, pero también de qué tan anchas son las manchas y de la distancia total de desarrollo disponible.**\n\nDos compuestos con Rf muy similar tienen, por definición (**TLC-01**), un comportamiento de partición casi idéntico entre esa fase estacionaria y esa fase móvil — típicamente porque tienen polaridad y capacidad de puente de H muy parecidas (dos esteroides con esqueletos similares y el mismo número de -OH en posiciones parecidas, por ejemplo). La resolución depende no solo de la diferencia de Rf, sino de qué tan anchas sean las manchas (manchas anchas por sobrecarga, **TLC-08**, pueden solaparse incluso con Rf ligeramente distintos) y de la distancia total de desarrollo (una placa más larga generalmente separa mejor compuestos de Rf parecido, porque las pequeñas diferencias de velocidad relativa tienen más distancia para acumularse en una separación visible). Opciones prácticas: cambiar la composición de la fase móvil (a veces un cambio sutil en la proporción de solventes cambia desproporcionadamente el Rf relativo de dos compuestos parecidos — la 'selectividad' del sistema); usar una placa más larga; o cambiar el tipo de fase estacionaria (sílice normal a fase reversa, **TLC-03**).",
+    "error_comun": "Pensar que 'correr la placa más tiempo con el mismo solvente' automáticamente mejora la separación — si el frente ya llegó al borde superior, correr 'más tiempo' no tiene sentido físico; lo que ayuda es una placa MÁS LARGA desde el inicio, no correr más tiempo en la misma placa ya desarrollada al máximo. Asumir que dos compuestos con Rf idéntico son necesariamente el MISMO compuesto — es evidencia consistente pero no concluyente; la práctica rigurosa es correr el mismo par en al menos dos sistemas de solvente de polaridad distinta (co-TLC con estándar auténtico) antes de afirmar identidad. Ignorar que cambiar levemente la proporción de solventes en una fase móvil mixta puede tener efecto no lineal sobre la separación relativa de compuestos específicos — pequeños cambios porcentuales a veces producen mejoras desproporcionadas, y esto generalmente se determina empíricamente.",
+    "dificultad": "alta",
+    "prereqs": [
+      "TLC-01",
+      "TLC-08"
+    ],
+    "connects_to": [
+      "HPL"
+    ],
+    "regla": "la resolución depende de qué tan distintos son los Rf, pero también de qué tan anchas son las manchas y de la distancia total de desarrollo disponible.",
+    "conexion_cotidiana": "Este problema de resolución insuficiente entre compuestos de comportamiento parecido tiene un paralelo directo, aunque con física de separación completamente distinta, en astronomía observacional: dos estrellas muy cercanas entre sí en el cielo (una binaria aparente o real) pueden verse como un solo punto de luz borroso e indistinguible con un telescopio de baja resolución angular, exactamente como dos manchas de Rf parecido se ven como una sola mancha alargada — y la solución conceptual es la misma en ambos casos: aumentar la 'distancia' efectiva de separación disponible (una placa más larga en TLC, o un telescopio de mayor apertura/mejor óptica en astronomía) para que la pequeña diferencia real entre los dos objetos/compuestos se vuelva visualmente resoluble en vez de quedar mezclada en un solo punto/mancha borrosa."
+  },
+  {
+    "id": "TLC-10",
+    "modulo": "diosgenina",
+    "tipo": "concepto",
+    "bloque": "TLC",
+    "modo": "pregunta",
+    "pregunta": "Ver una mancha en la placa les dice 'aquí hay algo' — pero, ¿cómo se pasa de eso a decir 'aquí hay exactamente tanta cantidad de diosgenina', y por qué eso ya casi no es TLC simple sino algo más parecido a HPLC?",
+    "respuesta": "**Idea clave: el ojo humano no es un instrumento cuantitativo — para convertir una mancha visual en un número confiable, hace falta un densitómetro.**\n\nLa TLC cualitativa simple (observar presencia/ausencia de mancha, comparar Rf, comparar intensidad de color de forma subjetiva) da información valiosísima sobre identidad y presencia relativa, pero no una cifra numérica confiable de concentración — el ojo humano es notoriamente malo estimando intensidad de color de forma cuantitativa y reproducible. Para convertir TLC en técnica verdaderamente cuantitativa, se necesita un **densitómetro**: escanea la placa con un haz de luz (UV o visible, según si el compuesto absorbe nativamente o necesita derivatización previa) y mide la cantidad de luz absorbida o reflejada en cada punto a lo largo de la trayectoria de cada mancha, generando un perfil de intensidad numérico (un 'pico' cuantificable, conceptualmente análogo a un pico de HPLC) en vez de solo una imagen visual subjetiva. Es exactamente el equipo (densitómetro **CAMAG**) que usó Lebot et al. 2019 para cuantificar saponinas por HPTLC de forma numérica y reproducible entre 1,151 accesiones — sin ese instrumento, hubiera sido imposible comparar tantas muestras de forma confiable solo por inspección visual.",
+    "error_comun": "Pensar que 'comparar visualmente qué tan oscura se ve una mancha respecto a otra' es una forma válida de cuantificación aproximada confiable — el ojo humano tiene percepción no lineal de intensidad de color y es fácilmente engañado por diferencias de tamaño/forma de mancha, iluminación ambiental, y fatiga visual. Asumir que cualquier TLC 'de alto desempeño' (HPTLC) es automáticamente cuantitativa solo por usar placas de mejor calidad (partícula más fina, mayor eficiencia) — HPTLC mejora la resolución y reproducibilidad de la separación misma, pero la cuantificación numérica real todavía requiere el paso adicional de densitometría instrumental. Confundir densitometría de TLC con HPLC como si fueran la misma técnica con nombre distinto — comparten el principio conceptual de convertir una señal óptica en un número cuantificable, pero son técnicas físicamente distintas (separación planar estática con lectura óptica posterior, vs. separación en columna con detección en tiempo real durante el flujo).",
+    "dificultad": "alta",
+    "prereqs": [
+      "TLC-07",
+      "FQT-16"
+    ],
+    "connects_to": [
+      "HPL"
+    ],
+    "regla": "el ojo humano no es un instrumento cuantitativo — para convertir una mancha visual en un número confiable, hace falta un densitómetro.",
+    "conexion_cotidiana": "La historia de la cromatografía en capa fina cuantitativa tiene una aplicación clínica pionera fascinante: antes de que la espectrometría de masas en tándem se volviera el estándar de oro (años 1990-2000), muchos programas de **tamizaje neonatal** (los exámenes que se le hacen a todo recién nacido para detectar enfermedades metabólicas congénitas tratables, como la fenilcetonuria) se basaban en variantes de cromatografía en papel o capa fina semicuantitativa de aminoácidos en gotas de sangre seca — comparando visualmente la intensidad de manchas reveladas con ninhidrina contra estándares de referencia impresos junto a la muestra. La misma limitación de subjetividad visual que estamos discutiendo aquí para tu placa de diosgenina fue, durante décadas, la tecnología que determinaba si un bebé recién nacido tenía o no una enfermedad metabólica potencialmente devastadora pero tratable si se detecta a tiempo."
+  }
+]
