@@ -286,6 +286,15 @@ export const indiceModulos = {
       '47': 'Un déménagement',
       '48': 'Ça ne me dit rien',
       '49': 'Révision',
+      // Dos claves extra, aparte de las lecciones numeradas del curso
+      // Assimil: agrupan el banco de "Quiz rápido" (fr_quiz_rapido.json)
+      // por tema de clase real (con tutor), no por lección del libro. Solo
+      // se usan como etiqueta de filtro/badge dentro de QuizRapido.jsx —
+      // MapaDelCurso y RepasoConceptos acceden a `categorias` únicamente
+      // por número de lección (String(n)), así que estas dos claves no
+      // interfieren con esa lógica.
+      'clase-loisirs': 'Loisirs, sports y verbos (jouer/faire/aller)',
+      'clase-profesiones': 'Profesiones y restauration rapide',
     },
     adapters: {},
   },

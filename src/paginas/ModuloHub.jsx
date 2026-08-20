@@ -43,7 +43,11 @@ const MODOS = [
 // que su hub reemplaza práctica/simulacro por sus propios modos (ver
 // README de diseño en Downloads/SIMULADOR/FRANCES). Se agregan después de
 // "repaso" en vez de vivir en MODOS para no ensuciar el resto de módulos
-// con ids que no significan nada para ellos.
+// con ids que no significan nada para ellos. "Quiz rápido" (MODOS[2]) sí
+// se reusa tal cual — cubre el contenido de clase real con tutor (fuera
+// del curso Assimil, ver fr_quiz_rapido.json), así que se agrega aparte,
+// gateado por `modulo.quizRapido.length > 0` igual que en el resto de
+// módulos.
 const MODOS_FRANCES = [
   {
     id: 'leccion-completa',
@@ -128,7 +132,7 @@ export function ModuloHub({ moduloId, perfil, onCambiarPerfil, onVolver, onSelec
   // la excluye solo; sus dos modos propios (Ensayos Modelo / Practicar
   // Ensayo) se agregan aparte, igual que MODOS_FRANCES.
   const modos = esFrances
-    ? [MODOS[0], ...MODOS_FRANCES]
+    ? [MODOS[0], ...MODOS_FRANCES, ...(modulo.quizRapido.length > 0 ? [MODOS[2]] : [])]
     : esComunicacionEscrita
       ? [MODOS[0], ...MODOS_COMUNICACION_ESCRITA]
       : [

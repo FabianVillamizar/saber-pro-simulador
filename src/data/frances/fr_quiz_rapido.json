@@ -1,0 +1,1046 @@
+[
+  {
+    "id": "FR-QR-001",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "¿Cómo se dice «jugar al fútbol»?",
+    "opciones": [
+      "jouer le football",
+      "jouer de football",
+      "jouer à football",
+      "jouer au football"
+    ],
+    "correcta": 3,
+    "explicacion": "à + le = **au** → jouer **au** football. «Jouer le football» sería el error más tentador: se olvida contraer à+le en au."
+  },
+  {
+    "id": "FR-QR-002",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "¿Cómo se dice «tocar el piano»?",
+    "opciones": [
+      "jouer le piano",
+      "jouer du piano",
+      "jouer au piano",
+      "jouer de le piano"
+    ],
+    "correcta": 1,
+    "explicacion": "de + le = **du** → jouer **du** piano. «Jouer au piano» sería el error más tentador: se confunde la preposición de instrumento, que es de, con la de deporte, que es à."
+  },
+  {
+    "id": "FR-QR-003",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "«Nous ___ au tennis.» — la forma correcta de jouer.",
+    "opciones": [
+      "joue",
+      "jouez",
+      "jouons",
+      "jouent"
+    ],
+    "correcta": 2,
+    "explicacion": "nous → **jouons**, con la terminación -ons de siempre. «joue» sería el error más tentador: aunque las 4 formas de jouer suenan igual, por escrito nous siempre lleva -ons."
+  },
+  {
+    "id": "FR-QR-004",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "«Elle ___ de la randonnée.» — la forma correcta de faire.",
+    "opciones": [
+      "fait",
+      "fais",
+      "faisons",
+      "font"
+    ],
+    "correcta": 0,
+    "explicacion": "il / elle → **fait**. «fais» sería el error más tentador: fais y fait suenan exactamente igual, solo cambia la escritura según la persona."
+  },
+  {
+    "id": "FR-QR-005",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "«Vous ___ au cinéma ce soir ?» — la forma correcta de aller.",
+    "opciones": [
+      "alles",
+      "vont",
+      "va",
+      "allez"
+    ],
+    "correcta": 3,
+    "explicacion": "vous → **allez**. «vont» sería el error más tentador: se confunde la forma de ils/elles con la de vous, un desliz común porque aller no sigue un patrón único."
+  },
+  {
+    "id": "FR-QR-006",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "«Jouer aux cartes» — ¿por qué se usa aux y no au?",
+    "opciones": [
+      "porque cartes es plural",
+      "porque cartes es masculino",
+      "es una excepción sin regla clara",
+      "porque cartes es femenino"
+    ],
+    "correcta": 0,
+    "explicacion": "à + les = **aux**, y les cartes es plural. «porque cartes es femenino» sería el error más tentador: es cierto que cartes es femenino, pero la contracción aux depende del número, no del género."
+  },
+  {
+    "id": "FR-QR-007",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "¿Qué preposición corresponde a un deporte o juego con jouer?",
+    "opciones": [
+      "de",
+      "en",
+      "à",
+      "par"
+    ],
+    "correcta": 2,
+    "explicacion": "Deportes y juegos usan **jouer à**: la acción va hacia la actividad. «de» sería el error más tentador: es la preposición correcta para instrumentos, pero aquí se pregunta por deportes."
+  },
+  {
+    "id": "FR-QR-008",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "¿Qué preposición corresponde a un instrumento musical con jouer?",
+    "opciones": [
+      "à",
+      "de",
+      "avec",
+      "sur"
+    ],
+    "correcta": 1,
+    "explicacion": "Instrumentos usan **jouer de**, porque el sonido sale de ahí. «à» sería el error más tentador: es la preposición de deportes, la trampa clásica es aplicarla también a instrumentos."
+  },
+  {
+    "id": "FR-QR-009",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "«Faire ___ cuisine» (cocinar) — elige la opción correcta.",
+    "opciones": [
+      "du",
+      "de la",
+      "des",
+      "la"
+    ],
+    "correcta": 3,
+    "explicacion": "Cocinar es una tarea específica, no un deporte, así que va sin partitivo: **faire la cuisine**. «du» sería el error más tentador: aplica el patrón de faire du sport a una tarea específica, donde no va partitivo."
+  },
+  {
+    "id": "FR-QR-010",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "«Faire ___ sport» — elige la opción correcta.",
+    "opciones": [
+      "du",
+      "le",
+      "de",
+      "la"
+    ],
+    "correcta": 0,
+    "explicacion": "Actividad física → partitivo: **faire du sport**. «la» sería el error más tentador: mezcla el patrón de faire la cuisine con este, que sí es una actividad física con partitivo."
+  },
+  {
+    "id": "FR-QR-011",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "¿Cuál oración usa correctamente aimer + infinitivo?",
+    "opciones": [
+      "J'aime de jouer au tennis.",
+      "J'aime jouer au tennis.",
+      "J'aime à jouer au tennis.",
+      "J'aime jouer à tennis."
+    ],
+    "correcta": 1,
+    "explicacion": "Después de aimer/adorer/détester + infinitivo nunca va preposición. «J'aime de jouer au tennis.» sería el error más tentador: es la interferencia directa del español, donde a veces se dice «me gusta de»."
+  },
+  {
+    "id": "FR-QR-012",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "¿Qué significa «un exposé»?",
+    "opciones": [
+      "una exposición de arte",
+      "un examen escrito",
+      "una presentación oral",
+      "una reunión de trabajo"
+    ],
+    "correcta": 2,
+    "explicacion": "exposé = presentación oral que tú das. exposition = exposición que visitas. «una exposición de arte» sería el error más tentador: es la traducción literal que engaña por parecerse a «exposición» en español."
+  },
+  {
+    "id": "FR-QR-013",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "¿Qué significa «cousine»?",
+    "opciones": [
+      "la cocina",
+      "cocinero/a",
+      "una prima",
+      "no existe"
+    ],
+    "correcta": 2,
+    "explicacion": "cousine = prima. cuisine = cocina. «la cocina» sería el error más tentador: es exactamente la confusión cousine/cuisine que da nombre a este falso amigo."
+  },
+  {
+    "id": "FR-QR-014",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "¿Cuál es el verbo correcto para «pintar» un cuadro?",
+    "opciones": [
+      "peindre",
+      "pendre",
+      "prendre",
+      "perdre"
+    ],
+    "correcta": 0,
+    "explicacion": "**peindre** = pintar. pendre es un verbo totalmente distinto: colgar. «pendre» sería el error más tentador por lo parecidas que se ven ambas palabras escritas."
+  },
+  {
+    "id": "FR-QR-015",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "Elige la pregunta correcta para: «J'écoute du reggaeton.»",
+    "opciones": [
+      "Qu'est-ce que tu écoutes de musique ?",
+      "Quelle musique est-ce que tu écoutes ?",
+      "Comment tu écoutes la musique ?",
+      "Quel musique est-ce que tu écoutes ?"
+    ],
+    "correcta": 1,
+    "explicacion": "musique es femenino → **quelle** musique. «Quel musique est-ce que tu écoutes ?» sería el error más tentador: usa la forma masculina quel en un sustantivo femenino."
+  },
+  {
+    "id": "FR-QR-016",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "Elige la pregunta correcta para saber a qué hora se despierta alguien.",
+    "opciones": [
+      "Est-ce que quelle heure tu réveilles ?",
+      "Quelle heure est-ce tu te réveilles ?",
+      "Quand est-ce que tu te réveille ?",
+      "À quelle heure est-ce que tu te réveilles ?"
+    ],
+    "correcta": 3,
+    "explicacion": "**À quelle heure est-ce que...** es la estructura completa y correcta. «Quelle heure est-ce tu te réveilles ?» sería el error más tentador: le falta el que de est-ce que, un olvido común al hablar rápido."
+  },
+  {
+    "id": "FR-QR-017",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "Conjuga se réveiller para «tu»:",
+    "opciones": [
+      "tu te réveilles",
+      "tu réveilles",
+      "tu te réveille",
+      "tu se réveilles"
+    ],
+    "correcta": 0,
+    "explicacion": "tu → **te réveilles**: pronombre reflexivo más el verbo con -s. «tu te réveille» sería el error más tentador: suena exactamente igual que la forma correcta, solo cambia la -s al escribir."
+  },
+  {
+    "id": "FR-QR-018",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "¿Cuál es la diferencia entre promener y se promener?",
+    "opciones": [
+      "No hay ninguna diferencia real entre los dos verbos",
+      "se promener es la forma más formal de decir lo mismo",
+      "promener pasea a otro; se promener, pasea uno mismo",
+      "promener no existe, solo existe se promener"
+    ],
+    "correcta": 2,
+    "explicacion": "«Je promène le chien» es pasear al perro; «Je me promène» es que sales tú a pasear. «No hay ninguna diferencia real entre los dos verbos» sería el error más tentador: parecen el mismo verbo, pero el pronombre reflexivo cambia a quién le pasa la acción."
+  },
+  {
+    "id": "FR-QR-019",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "Niega correctamente: «Je fais du sport.»",
+    "opciones": [
+      "Je ne fais pas du sport.",
+      "Je ne fais pas le sport.",
+      "Je fais pas du sport.",
+      "Je ne fais pas de sport."
+    ],
+    "correcta": 3,
+    "explicacion": "El partitivo du/de la/des colapsa a **de** en negativo. «Je ne fais pas du sport.» sería el error más tentador: es la forma afirmativa sin aplicar el colapso du→de que exige la negación."
+  },
+  {
+    "id": "FR-QR-020",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "Niega correctamente: «Je joue au foot.»",
+    "opciones": [
+      "Je ne joue pas de foot.",
+      "Je ne joue pas au foot.",
+      "Je ne joue pas le foot.",
+      "Je ne joue au pas foot."
+    ],
+    "correcta": 1,
+    "explicacion": "**Au** viene de à+le para deportes y no cambia en negativo, porque no es un partitivo. «Je ne joue pas de foot.» sería el error más tentador: aplica el colapso de la negación del partitivo a au, que no es partitivo y no cambia."
+  },
+  {
+    "id": "FR-QR-021",
+    "categoria": "clase-loisirs",
+    "formato": "fill",
+    "enunciado": "Conjuga aller para il/elle:",
+    "antes": "Il",
+    "despues": "(aller) au cinéma le week-end.",
+    "respuesta": "va",
+    "alternativas": [],
+    "explicacion": "il / elle → **va**."
+  },
+  {
+    "id": "FR-QR-022",
+    "categoria": "clase-loisirs",
+    "formato": "fill",
+    "enunciado": "Conjuga jouer para je:",
+    "antes": "Je",
+    "despues": "(jouer) de la guitare.",
+    "respuesta": "joue",
+    "alternativas": [],
+    "explicacion": "je → **joue**."
+  },
+  {
+    "id": "FR-QR-023",
+    "categoria": "clase-loisirs",
+    "formato": "fill",
+    "enunciado": "Conjuga faire para elles:",
+    "antes": "Elles",
+    "despues": "(faire) de la natation.",
+    "respuesta": "font",
+    "alternativas": [],
+    "explicacion": "ils / elles → **font**."
+  },
+  {
+    "id": "FR-QR-024",
+    "categoria": "clase-loisirs",
+    "formato": "fill",
+    "enunciado": "Completa la contracción à + les:",
+    "antes": "Il joue",
+    "despues": "échecs.",
+    "respuesta": "aux",
+    "alternativas": [],
+    "explicacion": "à + les = **aux**."
+  },
+  {
+    "id": "FR-QR-025",
+    "categoria": "clase-loisirs",
+    "formato": "fill",
+    "enunciado": "Completa la contracción de + le:",
+    "antes": "Elle joue",
+    "despues": "piano.",
+    "respuesta": "du",
+    "alternativas": [],
+    "explicacion": "de + le = **du**."
+  },
+  {
+    "id": "FR-QR-026",
+    "categoria": "clase-loisirs",
+    "formato": "build",
+    "enunciado": "Ordena para formar: «Me gusta jugar tenis.»",
+    "fragmentos": [
+      "J'aime",
+      "jouer",
+      "au",
+      "tennis"
+    ],
+    "explicacion": "J'aime va directo con el infinitivo, sin preposición, y jouer usa **au** por ser un deporte."
+  },
+  {
+    "id": "FR-QR-027",
+    "categoria": "clase-loisirs",
+    "formato": "build",
+    "enunciado": "Ordena para formar: «Ella hace senderismo.»",
+    "fragmentos": [
+      "Elle",
+      "fait",
+      "de la",
+      "randonnée"
+    ],
+    "explicacion": "faire + **de la** + actividad física."
+  },
+  {
+    "id": "FR-QR-028",
+    "categoria": "clase-loisirs",
+    "formato": "build",
+    "enunciado": "Ordena para formar: «¿Te gusta la música?»",
+    "fragmentos": [
+      "Est-ce que",
+      "tu",
+      "aimes",
+      "la",
+      "musique",
+      "?"
+    ],
+    "explicacion": "Est-ce que + sujeto + verbo + complemento + ?"
+  },
+  {
+    "id": "FR-QR-029",
+    "categoria": "clase-loisirs",
+    "formato": "build",
+    "enunciado": "Ordena para formar: «Yo no toco el piano.»",
+    "fragmentos": [
+      "Je",
+      "ne",
+      "joue",
+      "pas",
+      "de",
+      "piano"
+    ],
+    "explicacion": "En negación, el du de jouer de para instrumentos colapsa a **de**, igual que cualquier partitivo."
+  },
+  {
+    "id": "FR-QR-030",
+    "categoria": "clase-profesiones",
+    "formato": "mcq",
+    "enunciado": "¿Qué significa «un menu» en un fast-food francés?",
+    "opciones": [
+      "el combo (comida + bebida)",
+      "la lista completa de platos",
+      "el mesero que te atiende",
+      "la cuenta que pagas al final"
+    ],
+    "correcta": 0,
+    "explicacion": "**un menu** = el combo. La lista completa de platos se llama **la carte**, justo lo contrario de cómo usamos «menú» en español. «la lista completa de platos» sería el error más tentador: es justo lo que significa «menú» en español, la trampa central de este falso amigo."
+  },
+  {
+    "id": "FR-QR-031",
+    "categoria": "clase-profesiones",
+    "formato": "mcq",
+    "enunciado": "¿Cómo se dice «para llevar» en un fast-food?",
+    "opciones": [
+      "sur place",
+      "à emporter",
+      "la caisse",
+      "la livraison"
+    ],
+    "correcta": 1,
+    "explicacion": "**à emporter** = para llevar. **sur place** = para comer aquí. «sur place» sería el error más tentador: es el término contrario, fácil de confundir si no se recuerda cuál es cuál."
+  },
+  {
+    "id": "FR-QR-032",
+    "categoria": "clase-profesiones",
+    "formato": "mcq",
+    "enunciado": "¿Cómo se dice «para comer aquí»?",
+    "opciones": [
+      "à emporter",
+      "la commande",
+      "le comptoir",
+      "sur place"
+    ],
+    "correcta": 3,
+    "explicacion": "**sur place** = para comer aquí, contrario de à emporter. «à emporter» sería el error más tentador: es el término contrario, la misma trampa que en la pregunta anterior."
+  },
+  {
+    "id": "FR-QR-033",
+    "categoria": "clase-profesiones",
+    "formato": "mcq",
+    "enunciado": "¿Qué significa «passer une commande»?",
+    "opciones": [
+      "pagar la cuenta",
+      "limpiar la mesa",
+      "hacer un pedido",
+      "esperar en la fila"
+    ],
+    "correcta": 2,
+    "explicacion": "**passer une commande** = hacer un pedido. «esperar en la fila» sería el error más tentador: ocurre en el mismo contexto de fast-food, pero describe una acción distinta."
+  },
+  {
+    "id": "FR-QR-034",
+    "categoria": "clase-profesiones",
+    "formato": "mcq",
+    "enunciado": "«un caissier» — ¿cuál es su forma femenina?",
+    "opciones": [
+      "une caissière",
+      "une caissier",
+      "une caisseuse",
+      "une caissiere"
+    ],
+    "correcta": 0,
+    "explicacion": "-er/-ier → -ère/-ière: caissier → **caissière**, mismo patrón que boucher/bouchère. «une caissiere» sería el error más tentador: es la forma correcta sin el acento en la è, un descuido común al escribir rápido."
+  },
+  {
+    "id": "FR-QR-035",
+    "categoria": "clase-profesiones",
+    "formato": "mcq",
+    "enunciado": "«un vendeur» — ¿cuál es su forma femenina?",
+    "opciones": [
+      "une vendeure",
+      "une vendeuse",
+      "une venderesse",
+      "une vendrice"
+    ],
+    "correcta": 1,
+    "explicacion": "-eur → -euse: vendeur → **vendeuse**. «une vendeure» sería el error más tentador: aplica mal el patrón -eur→-eure, cuando vendeur en realidad sigue -eur→-euse."
+  },
+  {
+    "id": "FR-QR-036",
+    "categoria": "clase-profesiones",
+    "formato": "mcq",
+    "enunciado": "«un acteur» — ¿cuál es su forma femenina?",
+    "opciones": [
+      "une acteuse",
+      "une actrière",
+      "une acteure",
+      "une actrice"
+    ],
+    "correcta": 3,
+    "explicacion": "-teur → -trice: acteur → **actrice**. «une acteure» sería el error más tentador: aplica el mismo patrón -eur→-eure que sí funciona en otras palabras, pero acteur usa -teur→-trice."
+  },
+  {
+    "id": "FR-QR-037",
+    "categoria": "clase-profesiones",
+    "formato": "mcq",
+    "enunciado": "«un informaticien» — ¿cuál es su forma femenina?",
+    "opciones": [
+      "une informaticiene",
+      "une informaticière",
+      "une informaticienne",
+      "une informaticiere"
+    ],
+    "correcta": 2,
+    "explicacion": "-ien → -ienne: informaticien → **informaticienne**. «une informaticière» sería el error más tentador: trata a informaticien como si terminara en -ier, cuando sigue el patrón -ien→-ienne."
+  },
+  {
+    "id": "FR-QR-038",
+    "categoria": "clase-profesiones",
+    "formato": "mcq",
+    "enunciado": "¿Cuál profesión es invariable (mismo en masculino y femenino, solo cambia el artículo)?",
+    "opciones": [
+      "dentiste",
+      "boulanger",
+      "chanteur",
+      "cuisinier"
+    ],
+    "correcta": 0,
+    "explicacion": "**dentiste** no cambia: un/une dentiste, igual que juge, comptable, journaliste o vétérinaire. «boulanger» sería el error más tentador: es una profesión muy común, pero sí cambia de boulanger a boulangère, no es invariable como dentiste."
+  },
+  {
+    "id": "FR-QR-039",
+    "categoria": "clase-profesiones",
+    "formato": "mcq",
+    "enunciado": "«se servir de» sigue el mismo patrón reflexivo que:",
+    "opciones": [
+      "s'occuper de",
+      "s'habituer à",
+      "se souvenir de",
+      "s'intéresser à"
+    ],
+    "correcta": 3,
+    "explicacion": "**se servir de** funciona igual que **s'intéresser à**, pero con la preposición de, que se contrae con du/de la/des. «s'occuper de» sería el error más tentador: comparte la forma reflexiva con preposición, pero la preposición es de, no à."
+  },
+  {
+    "id": "FR-QR-040",
+    "categoria": "clase-profesiones",
+    "formato": "mcq",
+    "enunciado": "¿Qué significa «pas forcément»?",
+    "opciones": [
+      "casi nunca es así",
+      "no necesariamente",
+      "siempre sin falta",
+      "posiblemente sea así"
+    ],
+    "correcta": 1,
+    "explicacion": "**pas forcément** = no necesariamente. «casi nunca es así» sería el error más tentador: también expresa duda, pero inclina el significado hacia la negación en vez de la posibilidad."
+  },
+  {
+    "id": "FR-QR-041",
+    "categoria": "clase-profesiones",
+    "formato": "mcq",
+    "enunciado": "¿Qué significa «donner un coup de main» (à qqn)?",
+    "opciones": [
+      "darle un golpe a alguien",
+      "dar una mano de pintura",
+      "echarle una mano a alguien",
+      "aplaudir con las manos"
+    ],
+    "correcta": 2,
+    "explicacion": "**donner un coup de main à quelqu'un** = echarle una mano a alguien. «dar una mano de pintura» sería el error más tentador: en español «dar una mano» también es una expresión, pero con un significado distinto."
+  },
+  {
+    "id": "FR-QR-042",
+    "categoria": "clase-profesiones",
+    "formato": "mcq",
+    "enunciado": "¿Qué significa «un plombier»?",
+    "opciones": [
+      "panadero/a",
+      "pintor/a",
+      "peluquero/a",
+      "plomero/a"
+    ],
+    "correcta": 3,
+    "explicacion": "**un plombier / une plombière** = plomero/a. «pintor/a» sería el error más tentador: plombier y peintre son oficios manuales parecidos en contexto, fáciles de mezclar."
+  },
+  {
+    "id": "FR-QR-043",
+    "categoria": "clase-profesiones",
+    "formato": "mcq",
+    "enunciado": "¿Cuál es la pregunta correcta para saber dónde trabaja alguien?",
+    "opciones": [
+      "Où est-ce que tu travailles ?",
+      "Qu'est-ce que tu travailles ?",
+      "Qui est-ce que tu travailles ?",
+      "Comment tu travailles ?"
+    ],
+    "correcta": 0,
+    "explicacion": "**Où est-ce que tu travailles ?** = ¿Dónde trabajas? «Qu'est-ce que tu travailles ?» sería el error más tentador: mezcla qu'est-ce que, que pregunta qué, con la pregunta de lugar, que necesita où."
+  },
+  {
+    "id": "FR-QR-044",
+    "categoria": "clase-profesiones",
+    "formato": "mcq",
+    "enunciado": "«Un pompier porte un uniforme.» ¿Qué significa porter aquí?",
+    "opciones": [
+      "transportar algo",
+      "usar o llevar puesto",
+      "cargar algo pesado",
+      "portar un arma"
+    ],
+    "correcta": 1,
+    "explicacion": "**porter** = usar o llevar puesta la ropa, como porter un uniforme. «transportar algo» sería el error más tentador: es la traducción más literal de porter, pero aquí es llevar puesta la ropa, no cargar algo."
+  },
+  {
+    "id": "FR-QR-045",
+    "categoria": "clase-profesiones",
+    "formato": "mcq",
+    "enunciado": "¿Qué significa «une entreprise»?",
+    "opciones": [
+      "una tienda",
+      "una fábrica",
+      "una empresa",
+      "una oficina"
+    ],
+    "correcta": 2,
+    "explicacion": "**une entreprise** = una empresa. «una fábrica» sería el error más tentador: también es un lugar de trabajo, pero fábrica se dice usine, no entreprise."
+  },
+  {
+    "id": "FR-QR-046",
+    "categoria": "clase-profesiones",
+    "formato": "mcq",
+    "enunciado": "¿Qué significa «faire la queue»?",
+    "opciones": [
+      "reservar mesa",
+      "pedir comida",
+      "hacer fila",
+      "pagar cuenta"
+    ],
+    "correcta": 2,
+    "explicacion": "**faire la queue** = hacer fila. «pedir comida» sería el error más tentador: ocurre justo antes de hacer fila en el mismo contexto de fast-food, pero es una acción distinta."
+  },
+  {
+    "id": "FR-QR-047",
+    "categoria": "clase-profesiones",
+    "formato": "fill",
+    "enunciado": "Conjuga se servir de para je:",
+    "antes": "Je",
+    "despues": "d'un ordinateur pour travailler.",
+    "respuesta": "me sers",
+    "alternativas": [],
+    "explicacion": "je → **me sers** de."
+  },
+  {
+    "id": "FR-QR-048",
+    "categoria": "clase-profesiones",
+    "formato": "fill",
+    "enunciado": "Conjuga se servir de para elle:",
+    "antes": "Elle",
+    "despues": "du four.",
+    "respuesta": "se sert",
+    "alternativas": [],
+    "explicacion": "il/elle → **se sert** de."
+  },
+  {
+    "id": "FR-QR-049",
+    "categoria": "clase-profesiones",
+    "formato": "fill",
+    "enunciado": "Completa el falso amigo del fast-food:",
+    "antes": "En un fast-food, «un",
+    "despues": "» es el combo — no la lista de platos, que se llama «la carte».",
+    "respuesta": "menu",
+    "alternativas": [],
+    "explicacion": "**un menu** = el combo. Trampa clásica para hispanohablantes."
+  },
+  {
+    "id": "FR-QR-050",
+    "categoria": "clase-profesiones",
+    "formato": "fill",
+    "enunciado": "Completa la forma femenina de boulanger:",
+    "antes": "un boulanger → une",
+    "despues": "",
+    "respuesta": "boulangère",
+    "alternativas": [],
+    "explicacion": "-er → -ère: boulanger → **boulangère**."
+  },
+  {
+    "id": "FR-QR-051",
+    "categoria": "clase-profesiones",
+    "formato": "fill",
+    "enunciado": "Completa la forma femenina de serveur:",
+    "antes": "un serveur → une",
+    "despues": "",
+    "respuesta": "serveuse",
+    "alternativas": [],
+    "explicacion": "-eur → -euse: serveur → **serveuse**."
+  },
+  {
+    "id": "FR-QR-052",
+    "categoria": "clase-profesiones",
+    "formato": "build",
+    "enunciado": "Ordena para formar: «¿Tienes contacto directo con clientes?»",
+    "fragmentos": [
+      "Est-ce que",
+      "tu",
+      "es",
+      "en contact direct",
+      "avec des clients",
+      "?"
+    ],
+    "explicacion": "Est-ce que + sujeto + verbo + complemento + ?"
+  },
+  {
+    "id": "FR-QR-053",
+    "categoria": "clase-profesiones",
+    "formato": "build",
+    "enunciado": "Ordena para formar: «Yo me sirvo de una computadora.»",
+    "fragmentos": [
+      "Je",
+      "me sers",
+      "d'",
+      "un ordinateur"
+    ],
+    "explicacion": "se servir de + objeto; de + un se convierte en **d'un** por elisión, igual que j'aime."
+  },
+  {
+    "id": "FR-QR-054",
+    "categoria": "clase-profesiones",
+    "formato": "build",
+    "enunciado": "Ordena para formar: «Quisiera un combo hamburguesa, por favor.»",
+    "fragmentos": [
+      "Je voudrais",
+      "un menu burger,",
+      "s'il vous plaît."
+    ],
+    "explicacion": "Fórmula típica para pedir en un fast-food: Je voudrais + plato, s'il vous plaît."
+  },
+  {
+    "id": "FR-QR-055",
+    "categoria": "clase-profesiones",
+    "formato": "build",
+    "enunciado": "Ordena para formar: «Yo no trabajo los fines de semana.»",
+    "fragmentos": [
+      "Je",
+      "ne",
+      "travaille",
+      "pas",
+      "le week-end"
+    ],
+    "explicacion": "Negación estándar: ne + verbo + pas."
+  },
+  {
+    "id": "FR-QR-056",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "¿Cómo se dice «los videojuegos» en plural?",
+    "opciones": [
+      "les jeux vidéos",
+      "les jeux vidéo",
+      "les jeus vidéo",
+      "le jeu vidéo"
+    ],
+    "correcta": 1,
+    "explicacion": "jeu hace su plural en jeux con la terminación -eu→-eux, pero vidéo se queda invariable sin -s: **les jeux vidéo**. «les jeux vidéos» sería el error más tentador: aplica el plural también a vidéo, cuando en francés se queda fijo."
+  },
+  {
+    "id": "FR-QR-057",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "«Nous ___ le foot au basket.» — la forma correcta de préférer.",
+    "opciones": [
+      "préfèrons",
+      "préférions",
+      "préfèrent",
+      "préférons"
+    ],
+    "correcta": 3,
+    "explicacion": "préférer cambia é→è solo cuando la terminación siguiente es muda, pero nous mantiene la é porque ahí sí se pronuncia: **préférons**. «préfèrons» sería el error más tentador: aplica el cambio è donde no toca."
+  },
+  {
+    "id": "FR-QR-058",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "«Je ___ les jeux vidéo au sport.» — la forma correcta de préférer.",
+    "opciones": [
+      "préfère",
+      "préfères",
+      "préférons",
+      "préfèrent"
+    ],
+    "correcta": 0,
+    "explicacion": "je → **préfère**, con é→è porque la e final es muda. «préfères» sería el error más tentador: es la forma de tu, fácil de confundir con je porque suenan parecido."
+  },
+  {
+    "id": "FR-QR-059",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "«Je ne ___ pas très longtemps.» — la forma correcta de courir.",
+    "opciones": [
+      "coures",
+      "court",
+      "cours",
+      "courir"
+    ],
+    "correcta": 2,
+    "explicacion": "je → **cours**, verbo irregular que no sigue el patrón -er. «court» sería el error más tentador: es la forma de il/elle, la persona equivocada."
+  },
+  {
+    "id": "FR-QR-060",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "«J'___ de nouvelles choses tous les jours.» — la forma correcta de apprendre.",
+    "opciones": [
+      "apprend",
+      "apprends",
+      "apprenons",
+      "apprendre"
+    ],
+    "correcta": 1,
+    "explicacion": "j' + **apprends**, del verbo irregular apprendre, como comprendre o prendre. «apprend» sería el error más tentador: es la forma de il/elle, solo le falta la -s de la primera persona."
+  },
+  {
+    "id": "FR-QR-061",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "«Je m'intéresse ___ l'histoire.» — elige la preposición correcta.",
+    "opciones": [
+      "au",
+      "du",
+      "de",
+      "à"
+    ],
+    "correcta": 3,
+    "explicacion": "s'intéresser se queda en **à** porque l'histoire ya usa el artículo elidido l', no le, así que no hay nada que contraer. «au» sería el error más tentador: aplica la contracción à+le donde no aplica."
+  },
+  {
+    "id": "FR-QR-062",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "¿Qué significa «par contre» en «je fais du sport ; par contre, je n'aime pas courir longtemps» ?",
+    "opciones": [
+      "en cambio",
+      "y también",
+      "por eso",
+      "es decir"
+    ],
+    "correcta": 0,
+    "explicacion": "**par contre** = en cambio, marca un contraste entre dos ideas. «por eso» sería el error más tentador: también conecta dos ideas, pero implica causa, no contraste."
+  },
+  {
+    "id": "FR-QR-063",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "«Est-ce que tu aimes les jeux vidéo ou plutôt le sport ?» ¿qué función cumple «ou plutôt» aquí?",
+    "opciones": [
+      "une las dos opciones en una sola",
+      "pregunta la razón de tu gusto",
+      "ofrece elegir entre dos opciones",
+      "niega la primera opción por completo"
+    ],
+    "correcta": 2,
+    "explicacion": "**ou plutôt** ofrece elegir entre dos opciones dentro de la misma pregunta. «une las dos opciones en una sola» sería el error más tentador: confunde ou, que separa, con et, que suma."
+  },
+  {
+    "id": "FR-QR-064",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "«Le matin, je fais du sport.» ¿Qué significa «le matin» aquí?",
+    "opciones": [
+      "en la tarde",
+      "en la mañana",
+      "al mediodía",
+      "en la noche"
+    ],
+    "correcta": 1,
+    "explicacion": "**le matin** = en la mañana. «en la noche» sería el error más tentador: se confunde con le soir, que aparece en la misma clase."
+  },
+  {
+    "id": "FR-QR-065",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "«Je préfère jouer aux jeux vidéo le soir.» ¿Qué significa «le soir» aquí?",
+    "opciones": [
+      "en la mañana",
+      "al mediodía",
+      "durante el día",
+      "en la noche"
+    ],
+    "correcta": 3,
+    "explicacion": "**le soir** = en la noche, la franja de la tarde-noche. «en la mañana» sería el error más tentador: se confunde con le matin, que también aparece en el mismo texto."
+  },
+  {
+    "id": "FR-QR-066",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "De esta lista, ¿cuál verbo indica el MAYOR entusiasmo?",
+    "opciones": [
+      "aimer",
+      "détester",
+      "adorer",
+      "s'intéresser à"
+    ],
+    "correcta": 2,
+    "explicacion": "**adorer** está en la cima de la escala de gustos, por encima de aimer y muy por encima de s'intéresser à. «détester» sería el error más tentador: también es una reacción fuerte, pero negativa, no positiva."
+  },
+  {
+    "id": "FR-QR-067",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "«Je fais ___ vaisselle après le dîner.» — elige la opción correcta.",
+    "opciones": [
+      "la",
+      "de la",
+      "du",
+      "les"
+    ],
+    "correcta": 0,
+    "explicacion": "faire la vaisselle es una tarea específica, va con artículo definido sin partitivo. «de la» sería el error más tentador: parece partitivo, el mismo patrón que faire du sport, pero aquí no aplica."
+  },
+  {
+    "id": "FR-QR-068",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "«Nous faisons ___ escalade ce week-end.» — elige la opción correcta.",
+    "opciones": [
+      "de la",
+      "de l'",
+      "du",
+      "des"
+    ],
+    "correcta": 1,
+    "explicacion": "escalade empieza con vocal, así que el partitivo de la se elide a **de l'**. «de la» sería el error más tentador: es el patrón normal sin pensar en la vocal siguiente."
+  },
+  {
+    "id": "FR-QR-069",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "¿Qué significa «lire» en «j'aime beaucoup lire» ?",
+    "opciones": [
+      "ver",
+      "oír",
+      "leer",
+      "reír"
+    ],
+    "correcta": 2,
+    "explicacion": "**lire** = leer. «oír» sería el error más tentador: lire suena parecido a otros verbos de percepción, pero es específicamente leer."
+  },
+  {
+    "id": "FR-QR-070",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "¿Qué significa «voyager»?",
+    "opciones": [
+      "viajar",
+      "nadar",
+      "volar",
+      "cambiar"
+    ],
+    "correcta": 0,
+    "explicacion": "**voyager** = viajar. «volar» sería el error más tentador: ambos evocan desplazarse lejos, pero volar es voler, un verbo distinto."
+  },
+  {
+    "id": "FR-QR-071",
+    "categoria": "clase-loisirs",
+    "formato": "mcq",
+    "enunciado": "¿Qué significa «regarder» en «regarder la télévision» ?",
+    "opciones": [
+      "tocar",
+      "jugar",
+      "pintar",
+      "mirar"
+    ],
+    "correcta": 3,
+    "explicacion": "**regarder** = mirar/ver. «tocar» sería el error más tentador: en el vocabulario de ocio aparece cerca de jouer, tocar un instrumento, pero regarder no tiene nada que ver con tocar."
+  },
+  {
+    "id": "FR-QR-072",
+    "categoria": "clase-loisirs",
+    "formato": "fill",
+    "enunciado": "Completa con la preposición correcta, sin contraer:",
+    "antes": "Je m'intéresse aussi",
+    "despues": "l'histoire.",
+    "respuesta": "à",
+    "alternativas": [],
+    "explicacion": "s'intéresser à se mantiene en **à** ante l'histoire porque el artículo ya está elidido, no hace falta contraer."
+  },
+  {
+    "id": "FR-QR-073",
+    "categoria": "clase-loisirs",
+    "formato": "fill",
+    "enunciado": "Conjuga faire para je:",
+    "antes": "Le matin, je",
+    "despues": "du sport.",
+    "respuesta": "fais",
+    "alternativas": [],
+    "explicacion": "je → **fais**, del verbo irregular faire."
+  },
+  {
+    "id": "FR-QR-074",
+    "categoria": "clase-loisirs",
+    "formato": "fill",
+    "enunciado": "Conjuga préférer para je:",
+    "antes": "Je",
+    "despues": "jouer aux jeux vidéo le soir.",
+    "respuesta": "préfère",
+    "alternativas": [],
+    "explicacion": "je → **préfère**, con é→è porque la terminación es muda."
+  },
+  {
+    "id": "FR-QR-075",
+    "categoria": "clase-loisirs",
+    "formato": "fill",
+    "enunciado": "Completa con el infinitivo, sin conjugar:",
+    "antes": "Je n'aime pas",
+    "despues": "très longtemps.",
+    "respuesta": "courir",
+    "alternativas": [],
+    "explicacion": "después de aimer, en negativo o no, va el infinitivo sin conjugar: n'aime pas **courir**, nunca «ne cours pas»."
+  },
+  {
+    "id": "FR-QR-076",
+    "categoria": "clase-loisirs",
+    "formato": "build",
+    "enunciado": "Ordena para formar: «Adoro aprender cosas nuevas.»",
+    "fragmentos": [
+      "J'adore",
+      "apprendre",
+      "de nouvelles choses"
+    ],
+    "explicacion": "adorer + infinitivo va sin preposición, igual que aimer."
+  },
+  {
+    "id": "FR-QR-077",
+    "categoria": "clase-loisirs",
+    "formato": "build",
+    "enunciado": "Ordena para formar: «También me interesa la historia.»",
+    "fragmentos": [
+      "Je m'intéresse",
+      "aussi",
+      "à l'histoire"
+    ],
+    "explicacion": "à l'histoire no se contrae porque el artículo ya está elidido en l'."
+  },
+  {
+    "id": "FR-QR-078",
+    "categoria": "clase-loisirs",
+    "formato": "build",
+    "enunciado": "Ordena para formar: «¿Te gustan los videojuegos o más bien el deporte?»",
+    "fragmentos": [
+      "Est-ce que tu aimes",
+      "les jeux vidéo",
+      "ou plutôt",
+      "le sport",
+      "?"
+    ],
+    "explicacion": "ou plutôt ofrece elegir entre dos opciones dentro de la misma pregunta con est-ce que."
+  }
+]
