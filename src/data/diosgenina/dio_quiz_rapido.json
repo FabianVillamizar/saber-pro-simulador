@@ -169,5 +169,441 @@
       "sin cambiar el equilibrio final de la reacción"
     ],
     "explicacion": "Un catalizador no puede hacer viable una reacción termodinámicamente desfavorable: solo cambia qué tan rápido se llega al mismo equilibrio que existiría sin él."
+  },
+  {
+    "id": "DIO-QR-013",
+    "tarjetaId": "HID-04",
+    "categoria": "HID",
+    "formato": "mcq",
+    "enunciado": "El protocolo especifica H2SO4 para la hidrólisis a reflujo prolongado, aunque el HCl también es un ácido fuerte que se disocia completamente en agua. ¿Cuál es la razón más importante para preferir H2SO4 en una reacción de varias horas a temperatura de reflujo?",
+    "opciones": [
+      "El HCl no logra protonar el oxígeno del enlace glucosídico con suficiente eficiencia bajo las condiciones típicas de reflujo, dando una velocidad mucho más lenta que con H2SO4",
+      "El HCl es volátil y parte de él puede escaparse como gas durante horas de reflujo, cambiando la concentración efectiva de ácido con el tiempo",
+      "El ion sulfato ataca directamente el carbono anomérico antes que el agua, acelerando la hidrólisis por un mecanismo distinto al de la protonación normal del oxígeno glucosídico",
+      "El H2SO4 disuelve mejor el isopropanol del medio de reacción, mientras que el HCl forma una fase separada que reduce notablemente el contacto con el sustrato de partida"
+    ],
+    "correcta": 1,
+    "explicacion": "La volatilidad importa tanto como la fuerza ácida en una reacción de horas: si el ácido se escapa parcialmente como vapor, la concentración efectiva de H+ cambia durante la corrida, algo que el H2SO4 (punto de ebullición ~337°C) evita casi por completo."
+  },
+  {
+    "id": "DIO-QR-014",
+    "tarjetaId": "HID-04",
+    "categoria": "HID",
+    "formato": "fill",
+    "enunciado": "Completa la idea sobre por qué el anión del ácido también importa:",
+    "antes": "El sulfato y el bisulfato son aniones con muy poca capacidad de atacar como nucleófilos, así que no compiten con el agua por el carbono electrofílico del intermediario catiónico; el cloruro, en cambio, es un anión algo más",
+    "despues": ", aunque en la práctica esa diferencia pesa menos que la de volatilidad.",
+    "respuesta": "nucleofílico",
+    "alternativas": [
+      "nucleofílico",
+      "nucleófilo"
+    ],
+    "explicacion": "Un anión muy nucleofílico podría atacar el intermediario catiónico en vez de dejar que lo haga el agua, desviando parte de la reacción por un camino distinto al deseado; el sulfato prácticamente no hace esto."
+  },
+  {
+    "id": "DIO-QR-015",
+    "tarjetaId": "HID-07",
+    "categoria": "HID",
+    "formato": "mcq",
+    "enunciado": "El rendimiento de diosgenina en función del tiempo de hidrólisis sube, alcanza un máximo, y luego baja si se sigue calentando. ¿Qué explica esa caída después del máximo?",
+    "opciones": [
+      "El ácido sulfúrico se consume progresivamente durante la reacción, así que después de cierto tiempo ya no queda suficiente catalizador para mantener la hidrólisis a la velocidad inicial",
+      "La diosgenina liberada se evapora del medio de reacción una vez que alcanza cierta concentración, reduciendo la cantidad medible en el extracto final recolectado al terminar la reacción",
+      "El exceso de agua del medio empieza a diluir la concentración de diosgenina disuelta, haciendo que la señal analítica baje aunque la cantidad total presente no haya cambiado en absoluto",
+      "Una vez liberada, la diosgenina empieza a degradarse por la misma química ácida que la liberó, acumulándose sobre un pool cada vez mayor mientras la hidrólisis del resto se satura"
+    ],
+    "correcta": 3,
+    "explicacion": "Son dos reacciones con relojes distintos: la hidrólisis se satura porque el sustrato se agota, mientras que la degradación de la diosgenina ya liberada sigue acumulándose; el rendimiento neto es la resta de ambas curvas, y por eso tiene un máximo en un punto intermedio, no al final."
+  },
+  {
+    "id": "DIO-QR-016",
+    "tarjetaId": "HID-07",
+    "categoria": "HID",
+    "formato": "build",
+    "enunciado": "Arma qué determina el tiempo óptimo de hidrólisis:",
+    "fragmentos": [
+      "el punto donde la hidrólisis ya se saturó,",
+      "pero la degradación de la diosgenina liberada",
+      "todavía no ha acumulado demasiado daño"
+    ],
+    "explicacion": "El máximo de rendimiento neto ocurre en el cruce entre la curva de hidrólisis, que se satura, y la curva de degradación, que sigue subiendo: ni muy pronto, con poca hidrólisis completada, ni muy tarde, con mucha degradación acumulada."
+  },
+  {
+    "id": "DIO-QR-017",
+    "tarjetaId": "ELL-01",
+    "categoria": "ELL",
+    "formato": "mcq",
+    "enunciado": "Con el mismo volumen TOTAL de solvente disponible, ¿qué predice la ecuación de extracciones múltiples sobre dividir ese volumen en 3 extracciones en vez de usarlo todo en una sola?",
+    "opciones": [
+      "Dividir el volumen en 3 extracciones deja menos soluto sin extraer que usar todo el volumen en una sola, porque la fracción remanente se eleva a una potencia igual al número de extracciones",
+      "El resultado es exactamente el mismo en ambos casos, porque el coeficiente de partición depende solo del volumen total de solvente usado, sin importar cómo se reparta ese volumen entre pasos",
+      "Usar una sola extracción grande recupera más soluto, porque el equilibrio de partición tiene más tiempo para establecerse completamente con un volumen mayor de solvente en contacto directo",
+      "Dividir en varias extracciones solo ayuda cuando el coeficiente de partición es muy bajo, y no aporta ninguna ventaja matemática cuando el coeficiente es alto, como el de la diosgenina"
+    ],
+    "correcta": 0,
+    "explicacion": "La fracción no extraída es (Vac/(Vac+K·Vorg))^n: el número de extracciones n entra como exponente, así que dividir el mismo volumen total en más pasos reduce esa fracción mucho más rápido que aumentar el volumen de una sola extracción."
+  },
+  {
+    "id": "DIO-QR-018",
+    "tarjetaId": "ELL-01",
+    "categoria": "ELL",
+    "formato": "fill",
+    "enunciado": "Completa la idea sobre por qué el número de extracciones importa más que el volumen total:",
+    "antes": "En la fórmula de la fracción no extraída, el volumen de solvente por extracción entra de forma lineal en el denominador, pero el número de extracciones entra como",
+    "despues": ", y elevar una fracción menor que 1 a una potencia mayor la reduce mucho más rápido que aumentar linealmente ese denominador.",
+    "respuesta": "exponente",
+    "alternativas": [
+      "exponente",
+      "potencia"
+    ],
+    "explicacion": "Esa diferencia entre entrar linealmente o como exponente es justamente lo que hace que 3 extracciones de 25 mL ganen frente a 1 de 75 mL, aunque el volumen total de solvente sea idéntico en ambos casos."
+  },
+  {
+    "id": "DIO-QR-019",
+    "tarjetaId": "ELL-03",
+    "categoria": "ELL",
+    "formato": "mcq",
+    "enunciado": "Después de agitar el embudo de separación, las dos fases no se separan limpiamente y quedan como una mezcla turbia y estable durante horas. ¿Qué explica que este estado persista tanto tiempo en vez de separarse rápido?",
+    "opciones": [
+      "El DCM y el agua alcanzaron una temperatura demasiado baja durante la agitación, lo que aumenta artificialmente su miscibilidad mutua de forma temporal e inesperada",
+      "La agitación rompió accidentalmente algunos enlaces químicos de la diosgenina, generando subproductos que resultan solubles simultáneamente en ambas fases del sistema, complicando aún más la separación",
+      "Las saponinas remanentes actúan como tensioactivo, acomodándose en la interfase y reduciendo tanto el costo energético de esa área que el sistema queda cinéticamente atrapado como gotas estabilizadas",
+      "El embudo no se dejó reposar el tiempo suficiente para que la gravedad separe completamente dos líquidos de densidades relativamente parecidas entre sí"
+    ],
+    "correcta": 2,
+    "explicacion": "Una emulsión no es solo 'lento por falta de tiempo': un tensioactivo reduce tanto la tensión interfacial que el sistema puede quedar atrapado en gotas dispersas durante horas, un estado cinéticamente estable, no solo una separación que tarda más de lo normal."
+  },
+  {
+    "id": "DIO-QR-020",
+    "tarjetaId": "ELL-03",
+    "categoria": "ELL",
+    "formato": "build",
+    "enunciado": "Arma qué logra un tensioactivo como la saponina en la interfase:",
+    "fragmentos": [
+      "se acomoda en la interfase entre las dos fases,",
+      "reduciendo tanto el costo energético",
+      "que el sistema deja de tener prisa por separarse"
+    ],
+    "explicacion": "Bajar tanto el costo de tener área interfacial es lo que permite que el sistema quede atrapado como gotas estabilizadas en vez de separarse en dos capas planas."
+  },
+  {
+    "id": "DIO-QR-021",
+    "tarjetaId": "SER-02",
+    "categoria": "SER",
+    "formato": "mcq",
+    "enunciado": "El rotavaporador logra evaporar etanol (punto de ebullición normal ~78°C) usando un baño de solo 30-40°C. ¿Qué efecto del equipo hace posible esto?",
+    "opciones": [
+      "El baño de agua transmite el calor de forma tan eficiente que logra calentar el etanol muy por encima de la temperatura nominal fijada en el propio baño",
+      "La rotación del matraz por sí sola genera suficiente fricción mecánica para elevar la temperatura real del líquido muy por encima de los 30-40°C del baño",
+      "El vacío del sistema reduce la cantidad de moléculas de etanol necesarias para saturar el espacio de vapor por completo, sin cambiar en absoluto la temperatura a la que hierve el líquido en sí mismo",
+      "La bomba de vacío reduce la presión del sistema, y como el punto de ebullición es la temperatura donde la presión de vapor iguala la externa, esto permite que el etanol hierva antes de 78°C"
+    ],
+    "correcta": 3,
+    "explicacion": "El punto de ebullición depende de la presión externa, no es una propiedad fija del líquido: bajar la presión con la bomba de vacío baja también la temperatura a la que el líquido entra en ebullición, el mismo principio por el que el agua hierve a menos de 100°C en La Paz."
+  },
+  {
+    "id": "DIO-QR-022",
+    "tarjetaId": "SER-02",
+    "categoria": "SER",
+    "formato": "fill",
+    "enunciado": "Completa la idea sobre el segundo efecto del rotavaporador, además del vacío:",
+    "antes": "La rotación continua del matraz crea una película delgada de líquido constantemente renovada sobre el vidrio, maximizando el área expuesta al vacío y evitando que el líquido se acumule en un punto sobreexpuesto al calor del baño, lo que causaría",
+    "despues": "y proyección violenta del líquido.",
+    "respuesta": "sobrecalentamiento",
+    "alternativas": [
+      "sobrecalentamiento",
+      "sobrecalentamiento local"
+    ],
+    "explicacion": "Sin la película renovada por rotación, el líquido podría acumularse en un punto y sobrecalentarse localmente, generando el mismo tipo de proyección violenta que las perlas de ebullición previenen en un calentamiento normal."
+  },
+  {
+    "id": "DIO-QR-023",
+    "tarjetaId": "SER-05",
+    "categoria": "SER",
+    "formato": "mcq",
+    "enunciado": "Tras evaporar todo el DCM del extracto, queda un residuo sólido concentrado. ¿Es correcto llamar a ese residuo 'diosgenina pura'?",
+    "opciones": [
+      "Sí, porque evaporar el solvente separa químicamente la diosgenina de cualquier otro compuesto que estuviera disuelto junto con ella en el DCM original",
+      "No, porque evaporar solo remueve el solvente: cualquier otro compuesto disuelto en el DCM junto con la diosgenina queda en el mismo residuo, solo más concentrado",
+      "No, porque la evaporación degrada químicamente una fracción significativa de la diosgenina, convirtiéndola en otros compuestos antes de completarse el secado total",
+      "Sí, siempre que la evaporación se haga a menos de 40°C, porque a esa temperatura solo el DCM tiene presión de vapor suficiente para evaporarse del todo"
+    ],
+    "correcta": 1,
+    "explicacion": "Evaporación es un paso de concentración, no de purificación: separar de verdad la diosgenina de otros compuestos co-extraídos requiere técnicas con selectividad real, como cromatografía o recristalización."
+  },
+  {
+    "id": "DIO-QR-024",
+    "tarjetaId": "SER-05",
+    "categoria": "SER",
+    "formato": "build",
+    "enunciado": "Arma la distinción entre concentrar y purificar:",
+    "fragmentos": [
+      "evaporar el solvente concentra el extracto,",
+      "pero no separa químicamente",
+      "la diosgenina de lo demás disuelto junto con ella"
+    ],
+    "explicacion": "Confundir 'concentrado' con 'puro' es un error común: se puede tener un residuo muy concentrado y aun así impuro, si nunca pasó por un paso con selectividad química real."
+  },
+  {
+    "id": "DIO-QR-025",
+    "tarjetaId": "TLC-01",
+    "categoria": "TLC",
+    "formato": "mcq",
+    "enunciado": "Dos laboratorios distintos corren la misma muestra en TLC, pero cada uno usa una fase móvil distinta sobre el mismo tipo de sílice. ¿Qué esperarían encontrar sobre el Rf del mismo compuesto en ambos casos?",
+    "opciones": [
+      "El Rf puede ser bastante distinto entre los dos sistemas, porque no es una propiedad fija del compuesto sino del equilibrio entre ese compuesto, esa fase estacionaria, y esa fase móvil",
+      "El Rf debería ser idéntico en ambos casos, porque el Rf es una propiedad química intrínseca del compuesto, comparable en cualquier sistema de TLC igual que su punto de fusión",
+      "El Rf solo puede diferir si cambia la fase estacionaria, pero permanece constante ante cualquier cambio en la composición de la fase móvil utilizada durante el desarrollo de la placa",
+      "El Rf depende únicamente de la temperatura ambiente de cada laboratorio, así que la diferencia entre los dos sistemas solo importaría si trabajaron a temperaturas distintas"
+    ],
+    "correcta": 0,
+    "explicacion": "El compuesto pasa por miles de ciclos de adsorción y desorción mientras el solvente sube; cuánto tiempo pasa 'pegado' a la fase estacionaria depende de ambas fases a la vez, así que cambiar cualquiera de las dos cambia el Rf resultante."
+  },
+  {
+    "id": "DIO-QR-026",
+    "tarjetaId": "TLC-01",
+    "categoria": "TLC",
+    "formato": "fill",
+    "enunciado": "Completa la idea sobre qué determina que un compuesto tenga Rf bajo:",
+    "antes": "Un compuesto que pasa proporcionalmente más tiempo adsorbido a la sílice, por tener mayor afinidad con la fase estacionaria polar, se mueve menos respecto al frente del solvente durante el desarrollo de la placa, dando un Rf",
+    "despues": "; uno que pasa más tiempo en la fase móvil se acerca a un Rf cercano a 1.",
+    "respuesta": "bajo",
+    "alternativas": [
+      "bajo",
+      "cercano a 0"
+    ],
+    "explicacion": "El Rf resume, en un solo número entre 0 y 1, qué proporción del tiempo total pasó cada compuesto en la fase móvil en vez de adsorbido a la fase estacionaria."
+  },
+  {
+    "id": "DIO-QR-027",
+    "tarjetaId": "TLC-07",
+    "categoria": "TLC",
+    "formato": "mcq",
+    "enunciado": "La diosgenina en la placa de TLC es invisible bajo luz normal antes de rociar con el reactivo revelador. ¿Qué hace exactamente el revelador para que aparezca una mancha coloreada?",
+    "opciones": [
+      "El revelador es un colorante que se adhiere físicamente a la superficie de la mancha, tiñéndola del mismo modo en que un marcador tiñe una hoja de papel común",
+      "El revelador aumenta la temperatura local de la placa lo suficiente como para que la diosgenina emita luz visible por incandescencia térmica directa",
+      "El revelador reacciona químicamente con la diosgenina, generando un compuesto derivado con conjugación extendida que sí absorbe luz visible, creando un cromóforo donde antes no existía",
+      "El revelador disuelve selectivamente la sílice alrededor de la mancha, dejando expuesta la diosgenina concentrada como un punto visiblemente más denso y oscuro"
+    ],
+    "correcta": 2,
+    "explicacion": "No es una tinción pasiva: es la misma lógica de derivatización de la reacción de Baccou, ahora ocurriendo directamente sobre la placa, y el calor solo acelera esa reacción química hasta que el color se desarrolla en minutos."
+  },
+  {
+    "id": "DIO-QR-028",
+    "tarjetaId": "TLC-07",
+    "categoria": "TLC",
+    "formato": "build",
+    "enunciado": "Arma qué logra la derivatización química del revelador:",
+    "fragmentos": [
+      "crea un cromóforo nuevo,",
+      "con conjugación extendida,",
+      "donde antes no existía ninguno útil"
+    ],
+    "explicacion": "La diosgenina es incolora porque su brecha HOMO-LUMO cae en el UV, fuera del rango visible; el revelador modifica su estructura para bajar esa brecha hasta energías de luz visible."
+  },
+  {
+    "id": "DIO-QR-029",
+    "tarjetaId": "ESP-01",
+    "categoria": "ESP",
+    "formato": "mcq",
+    "enunciado": "La ley de Beer-Lambert dice A = ε·b·c, una relación lineal con la concentración. Pero la luz transmitida a través de la muestra decae de forma exponencial con la concentración, no lineal. ¿Cómo se reconcilian estas dos afirmaciones?",
+    "opciones": [
+      "En realidad no se reconcilian: Beer-Lambert es solo una aproximación empírica que funciona bien únicamente cuando la transmitancia también se comporta de forma aproximadamente lineal en ese rango",
+      "La transmitancia decae linealmente y es la absorbancia la que decae de forma exponencial, así que ambas afirmaciones describen exactamente lo mismo con distinto nombre técnico",
+      "La relación exponencial solo aplica en UV, mientras que en el rango visible la transmitancia sí decae de forma lineal con la concentración por razones ópticas distintas",
+      "La absorbancia se define como el logaritmo de la razón entre intensidad incidente y transmitida; ese logaritmo convierte la atenuación exponencial en una relación lineal con la concentración"
+    ],
+    "correcta": 3,
+    "explicacion": "A = log(I0/I): el paso logarítmico es justamente lo que transforma la exponencial I = I0·e^(-k·c·b) en la relación lineal A = ε·b·c, así que ambas descripciones son consistentes entre sí, no contradictorias."
+  },
+  {
+    "id": "DIO-QR-030",
+    "tarjetaId": "ESP-01",
+    "categoria": "ESP",
+    "formato": "fill",
+    "enunciado": "Completa la idea sobre qué representa cada término de la ley de Beer-Lambert:",
+    "antes": "En A = ε·b·c, el coeficiente ε es la constante específica de cada compuesto a una longitud de onda dada, b es la longitud del camino óptico, y c es la",
+    "despues": "; los tres términos juntos determinan cuánta luz absorbe la muestra a esa longitud de onda.",
+    "respuesta": "concentración molar",
+    "alternativas": [
+      "concentración molar",
+      "concentración"
+    ],
+    "explicacion": "Los tres factores son independientes entre sí: cambiar cualquiera de ellos cambia la absorbancia, pero ninguno determina a los otros dos."
+  },
+  {
+    "id": "DIO-QR-031",
+    "tarjetaId": "ESP-07",
+    "categoria": "ESP",
+    "formato": "mcq",
+    "enunciado": "Si otro compuesto de la matriz vegetal también reacciona con el anisaldehído-sulfúrico y absorbe luz cerca de 425-430 nm, ¿qué le pasa a la lectura reportada como 'diosgenina' de esa muestra?",
+    "opciones": [
+      "No cambia nada, porque el espectrofotómetro puede distinguir automáticamente qué fracción de la absorbancia viene de la diosgenina y cuál viene de otros compuestos presentes",
+      "La absorbancia de ese otro compuesto se suma a la de la diosgenina genuina en la misma lectura, dando un valor de 'diosgenina' que en realidad es una sobreestimación",
+      "La lectura baja, porque dos compuestos compitiendo por reaccionar con el mismo reactivo cromógeno reducen la cantidad de reactivo disponible para cada uno",
+      "El instrumento detecta automáticamente dos picos de absorbancia distintos y reporta cada contribución por separado en la misma lectura final"
+    ],
+    "correcta": 1,
+    "explicacion": "Beer-Lambert, aplicada a una mezcla, predice que las absorbancias de cada compuesto presente se suman: A_total = Σ(εi·b·ci); el instrumento no tiene forma de distinguir de dónde viene cada contribución, así que cualquier compuesto que reaccione de forma similar contribuye a la señal."
+  },
+  {
+    "id": "DIO-QR-032",
+    "tarjetaId": "ESP-07",
+    "categoria": "ESP",
+    "formato": "build",
+    "enunciado": "Arma qué explica la falta de especificidad del método colorimétrico:",
+    "fragmentos": [
+      "el reactivo de Baccou es sensible",
+      "pero no específico:",
+      "reacciona también con otros esteroles y flavonoides relacionados"
+    ],
+    "explicacion": "Sensible significa que detecta cantidades pequeñas; específico significa que solo reacciona con el compuesto de interés. El método de Baccou tiene lo primero, pero no lo segundo."
+  },
+  {
+    "id": "DIO-QR-033",
+    "tarjetaId": "HPL-06",
+    "categoria": "HPL",
+    "formato": "mcq",
+    "enunciado": "Si todas las moléculas de un compuesto entran juntas a la columna de HPLC, en teoría deberían salir todas juntas también. ¿Por qué en la práctica forman un pico con cierto ancho en vez de salir como una línea infinitamente delgada?",
+    "opciones": [
+      "Tres mecanismos distintos ensanchan el pico: caminos ligeramente distintos entre partículas, difusión aleatoria mientras avanzan, y el tiempo finito para equilibrarse entre fases",
+      "El ancho del pico es puramente un artefacto del detector, que no puede medir con precisión infinita el instante exacto en que cada molécula sale de la columna",
+      "Las moléculas reaccionan químicamente entre sí dentro de la columna, generando pequeñas cantidades de productos secundarios que salen en tiempos ligeramente distintos",
+      "El ancho del pico depende exclusivamente de la longitud de la columna, y desaparecería por completo si se usara una columna infinitamente corta en su diseño"
+    ],
+    "correcta": 0,
+    "explicacion": "La ecuación de van Deemter (H = A + B/u + C·u) combina tres términos independientes: dos que empeoran a flujo lento y uno que empeora a flujo rápido, dando una curva de eficiencia con un mínimo en una velocidad intermedia, no en ningún extremo."
+  },
+  {
+    "id": "DIO-QR-034",
+    "tarjetaId": "HPL-06",
+    "categoria": "HPL",
+    "formato": "fill",
+    "enunciado": "Completa la idea sobre por qué el flujo muy lento no siempre es mejor:",
+    "antes": "A flujos muy lentos, las moléculas tienen más tiempo para difundirse aleatoriamente hacia adelante y atrás por movimiento browniano mientras avanzan por la columna, y ese término de difusión longitudinal empieza a",
+    "despues": "el pico en vez de mejorarlo, contradiciendo la intuición de que más tiempo de contacto siempre separa mejor.",
+    "respuesta": "ensanchar",
+    "alternativas": [
+      "ensanchar",
+      "ensanchar el pico"
+    ],
+    "explicacion": "El flujo óptimo no es el más lento posible: es un punto intermedio donde ni la difusión longitudinal, a flujo lento, ni la resistencia a transferencia de masa, a flujo rápido, dominan todavía."
+  },
+  {
+    "id": "DIO-QR-035",
+    "tarjetaId": "HPL-13",
+    "categoria": "HPL",
+    "formato": "mcq",
+    "enunciado": "Un compañero propone comparar el área del pico de diosgenina de la muestra directamente contra una curva hecha con estándares externos puros inyectados por separado. ¿Qué fuente de error introduce este enfoque que un estándar interno evitaría?",
+    "opciones": [
+      "El estándar externo no puede detectar si la columna se degradó entre una inyección y otra, un problema que solo el estándar interno lograría diagnosticar a tiempo",
+      "El estándar externo requiere usar un compuesto químicamente idéntico a la diosgenina, mientras que el estándar interno puede ser cualquier compuesto disponible en el laboratorio",
+      "El estándar externo no permite calcular la concentración en unidades molares, solo en unidades de masa relativa al compuesto de referencia elegido para esa curva",
+      "El estándar externo asume que el volumen exacto inyectado es idéntico entre muestra y estándar; cualquier discrepancia introduce un error proporcional que no se cancela"
+    ],
+    "correcta": 3,
+    "explicacion": "Con estándar interno, añadido en cantidad fija a cada muestra y estándar, cualquier variación de volumen inyectado afecta por igual a ambas áreas, así que la relación entre ellas permanece constante y ese error se cancela."
+  },
+  {
+    "id": "DIO-QR-036",
+    "tarjetaId": "HPL-13",
+    "categoria": "HPL",
+    "formato": "build",
+    "enunciado": "Arma qué compensa el estándar interno al usar la relación de áreas en vez del área absoluta:",
+    "fragmentos": [
+      "si el volumen inyectado varía levemente,",
+      "ambas áreas cambian proporcionalmente,",
+      "así que su relación se mantiene constante"
+    ],
+    "explicacion": "Es el mismo principio que la dilución isotópica en datación radiométrica: un marcador de referencia añadido antes del procesamiento cancela matemáticamente errores que afectarían por igual a la muestra y al marcador."
+  },
+  {
+    "id": "DIO-QR-037",
+    "tarjetaId": "PFT-03",
+    "categoria": "PFT",
+    "formato": "mcq",
+    "enunciado": "El método gravimétrico de saponinas particiona el extracto con n-butanol, evapora esa fase, y pesa el residuo como 'saponinas totales'. ¿Por qué este método tiende a sobreestimar mucho más que el método colorimétrico?",
+    "opciones": [
+      "Porque el butanol reacciona químicamente con las saponinas durante la partición, aumentando notablemente su masa molecular antes de pesarlas en la balanza",
+      "Porque el método gravimétrico solo pesa el residuo sin distinguir químicamente qué fracción de esa masa es saponina real; cualquier compuesto con polaridad similar cuenta igual",
+      "Porque el butanol tiene mayor densidad que la fase acuosa, así que arrastra consigo partículas sólidas de la matriz vegetal que no se disuelven en ninguna fase",
+      "Porque la balanza analítica usada para pesar el residuo tiene un error sistemático conocido que siempre sobreestima masas pequeñas de forma predecible"
+    ],
+    "correcta": 1,
+    "explicacion": "A diferencia del método colorimétrico, que al menos exige que el compuesto co-extraído reaccione con el anisaldehído para contribuir a la señal, el gravimétrico no tiene ninguna barrera de especificidad: cualquier cosa con la polaridad correcta para disolverse en butanol cuenta hacia el peso final."
+  },
+  {
+    "id": "DIO-QR-038",
+    "tarjetaId": "PFT-03",
+    "categoria": "PFT",
+    "formato": "fill",
+    "enunciado": "Completa la idea sobre qué tipo de compuestos se co-extraen con el butanol:",
+    "antes": "El butanol, con polaridad intermedia, no es selectivo específicamente para saponinas; cualquier otro compuesto de la matriz con polaridad intermedia similar, como ciertos flavonoides glicosilados o taninos de peso molecular moderado, tiene también buena",
+    "despues": "por el butanol frente al agua, y se co-extrae junto con las saponinas genuinas.",
+    "respuesta": "afinidad",
+    "alternativas": [
+      "afinidad",
+      "afinidad relativa"
+    ],
+    "explicacion": "El problema no es un error de medición aleatorio: es una falta de especificidad fundamental del principio mismo del método, así que sobreestima de forma sistemática, no ocasional."
+  },
+  {
+    "id": "DIO-QR-039",
+    "tarjetaId": "PFT-06",
+    "categoria": "PFT",
+    "formato": "mcq",
+    "enunciado": "Si repiten el mismo índice colorimétrico dos veces sobre la MISMA muestra de extracto y obtienen valores ligeramente distintos, ¿cómo distinguen si esa diferencia es variabilidad real del ñame o solo ruido del método?",
+    "opciones": [
+      "Comparando la dispersión entre réplicas analíticas de la misma muestra contra la dispersión entre muestras biológicas distintas; si la primera es pequeña, las diferencias son mayormente reales",
+      "Es imposible distinguirlas sin repetir el experimento completo en un laboratorio distinto, porque cualquier variabilidad observada dentro del mismo laboratorio se considera automáticamente parte del ruido de fondo",
+      "Basta con medir cada muestra biológica una sola vez, porque cualquier diferencia observada entre valores únicos ya refleja variabilidad real por definición del método",
+      "La única forma confiable es aumentar la concentración del reactivo cromógeno hasta que la señal sea fuerte y el ruido del método deje de ser relevante en la práctica"
+    ],
+    "correcta": 0,
+    "explicacion": "La variabilidad analítica, en las mismas condiciones sobre la misma muestra, refleja solo la precisión del método; la variabilidad biológica, entre muestras distintas, mezcla eso con diferencias reales. Solo comparando réplicas de ambos tipos se puede separar señal de ruido."
+  },
+  {
+    "id": "DIO-QR-040",
+    "tarjetaId": "PFT-06",
+    "categoria": "PFT",
+    "formato": "build",
+    "enunciado": "Arma qué mide la variabilidad analítica, a diferencia de la biológica:",
+    "fragmentos": [
+      "mide múltiples veces la MISMA muestra,",
+      "bajo el mismo protocolo,",
+      "reflejando solo la precisión del método"
+    ],
+    "explicacion": "La variabilidad biológica, en cambio, mide muestras distintas y por tanto mezcla la variabilidad real del ñame con la variabilidad del propio método aplicado a cada una."
+  },
+  {
+    "id": "DIO-QR-041",
+    "tarjetaId": "EST-02",
+    "categoria": "EST",
+    "formato": "mcq",
+    "enunciado": "Un experimento con muestra muy grande encuentra p < 0.001 para una diferencia de rendimiento de solo 0.02 puntos porcentuales de diosgenina, un cambio prácticamente irrelevante para el protocolo. ¿Qué explica que un efecto tan pequeño dé un p-valor tan bajo?",
+    "opciones": [
+      "Es imposible que eso ocurra: un p-valor tan bajo garantiza matemáticamente que el efecto detectado también es grande en magnitud práctica real",
+      "El p-valor está calculado incorrectamente en ese caso, porque un efecto tan pequeño nunca puede alcanzar significancia estadística bajo ninguna condición de muestreo posible",
+      "Con una muestra suficientemente grande, incluso una diferencia trivialmente pequeña puede dar un p-valor muy bajo, porque la significancia depende del tamaño de muestra tanto como del efecto",
+      "El p-valor bajo solo puede explicarse por un error sistemático de medición que infló artificialmente la diferencia observada entre los dos grupos comparados"
+    ],
+    "correcta": 2,
+    "explicacion": "Tamaño de efecto y significancia estadística responden preguntas distintas: cuán grande es el fenómeno, y cuán confiables son los datos para descartar que sea puro ruido. Un informe riguroso reporta ambas cosas por separado, nunca solo el p-valor."
+  },
+  {
+    "id": "DIO-QR-042",
+    "tarjetaId": "EST-02",
+    "categoria": "EST",
+    "formato": "fill",
+    "enunciado": "Completa la idea sobre qué mide el tamaño de efecto, a diferencia de la significancia:",
+    "antes": "El tamaño de efecto, como la diferencia real entre dos medias o esa diferencia en unidades de desviación estándar, mide cuán grande es el fenómeno observado, independiente del tamaño de",
+    "despues": "usado para detectarlo estadísticamente.",
+    "respuesta": "muestra",
+    "alternativas": [
+      "muestra",
+      "la muestra"
+    ],
+    "explicacion": "Un efecto puede ser genuinamente grande y aun así no alcanzar significancia estadística con una muestra pequeña, simplemente por falta de poder para detectarlo, no porque el efecto no exista."
   }
 ]
