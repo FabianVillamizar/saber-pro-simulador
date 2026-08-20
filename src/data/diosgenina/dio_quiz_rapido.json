@@ -48,13 +48,13 @@
     "tarjetaId": "FQT-02",
     "categoria": "FQT",
     "formato": "build",
-    "enunciado": "Arma por qué el CO2, con dos enlaces C=O muy polares, es una molécula no polar:",
+    "enunciado": "Arma por qué el CO₂, con dos enlaces C=O muy polares, es una molécula no polar:",
     "fragmentos": [
       "los dos enlaces C=O apuntan en direcciones exactamente opuestas",
       "por la geometría lineal de la molécula,",
       "así que sus dipolos se cancelan por completo"
     ],
-    "explicacion": "Es la misma cancelación geométrica que ocurre en el tetracloruro de carbono o en el trifluoruro de boro: enlaces polares, molécula apolar, pura consecuencia de la simetría. Esta cancelación es, además, la razón por la que el CO2 supercrítico funciona como solvente de extracción apolar en varios métodos alternativos de extracción de saponinas."
+    "explicacion": "Es la misma cancelación geométrica que ocurre en el tetracloruro de carbono o en el trifluoruro de boro: enlaces polares, molécula apolar, pura consecuencia de la simetría. Esta cancelación es, además, la razón por la que el CO₂ supercrítico funciona como solvente de extracción apolar en varios métodos alternativos de extracción de saponinas."
   },
   {
     "id": "DIO-QR-005",
@@ -175,15 +175,15 @@
     "tarjetaId": "HID-04",
     "categoria": "HID",
     "formato": "mcq",
-    "enunciado": "El protocolo especifica H2SO4 para la hidrólisis a reflujo prolongado, aunque el HCl también es un ácido fuerte que se disocia completamente en agua. ¿Cuál es la razón más importante para preferir H2SO4 en una reacción de varias horas a temperatura de reflujo?",
+    "enunciado": "El protocolo especifica H₂SO₄ para la hidrólisis a reflujo prolongado, aunque el HCl también es un ácido fuerte que se disocia completamente en agua. ¿Cuál es la razón más importante para preferir H₂SO₄ en una reacción de varias horas a temperatura de reflujo?",
     "opciones": [
-      "El HCl no logra protonar el oxígeno del enlace glucosídico con suficiente eficiencia bajo las condiciones típicas de reflujo, dando una velocidad mucho más lenta que con H2SO4",
+      "El HCl no logra protonar el oxígeno del enlace glucosídico con suficiente eficiencia bajo las condiciones típicas de reflujo, dando una velocidad mucho más lenta que con H₂SO₄",
       "El HCl es volátil y parte de él puede escaparse como gas durante horas de reflujo, cambiando la concentración efectiva de ácido con el tiempo",
       "El ion sulfato ataca directamente el carbono anomérico antes que el agua, acelerando la hidrólisis por un mecanismo distinto al de la protonación normal del oxígeno glucosídico",
-      "El H2SO4 disuelve mejor el isopropanol del medio de reacción, mientras que el HCl forma una fase separada que reduce notablemente el contacto con el sustrato de partida"
+      "El H₂SO₄ disuelve mejor el isopropanol del medio de reacción, mientras que el HCl forma una fase separada que reduce notablemente el contacto con el sustrato de partida"
     ],
     "correcta": 1,
-    "explicacion": "La volatilidad importa tanto como la fuerza ácida en una reacción de horas: si el ácido se escapa parcialmente como vapor, la concentración efectiva de H+ cambia durante la corrida, algo que el H2SO4 (punto de ebullición ~337°C) evita casi por completo."
+    "explicacion": "La volatilidad importa tanto como la fuerza ácida en una reacción de horas: si el ácido se escapa parcialmente como vapor, la concentración efectiva de H⁺ cambia durante la corrida, algo que el H₂SO₄ (punto de ebullición ~337°C) evita casi por completo."
   },
   {
     "id": "DIO-QR-014",
@@ -415,7 +415,7 @@
       "La absorbancia se define como el logaritmo de la razón entre intensidad incidente y transmitida; ese logaritmo convierte la atenuación exponencial en una relación lineal con la concentración"
     ],
     "correcta": 3,
-    "explicacion": "A = log(I0/I): el paso logarítmico es justamente lo que transforma la exponencial I = I0·e^(-k·c·b) en la relación lineal A = ε·b·c, así que ambas descripciones son consistentes entre sí, no contradictorias."
+    "explicacion": "A = log(I₀/I): el paso logarítmico es justamente lo que transforma la exponencial I = I₀·e^(-k·c·b) en la relación lineal A = ε·b·c, así que ambas descripciones son consistentes entre sí, no contradictorias."
   },
   {
     "id": "DIO-QR-030",
@@ -605,5 +605,385 @@
       "la muestra"
     ],
     "explicacion": "Un efecto puede ser genuinamente grande y aun así no alcanzar significancia estadística con una muestra pequeña, simplemente por falta de poder para detectarlo, no porque el efecto no exista."
+  },
+  {
+    "id": "DIO-QR-043",
+    "tarjetaId": "HID-08",
+    "categoria": "HID",
+    "formato": "mcq",
+    "enunciado": "Un compañero sostiene que subir la temperatura de reflujo debería mejorar el rendimiento neto de diosgenina en cualquier caso, porque más calor acelera la reacción. Aplicando Arrhenius a dos reacciones competidoras con distinta energía de activación, ¿qué corrige esta suposición?",
+    "opciones": [
+      "Ambas reacciones, hidrólisis y degradación, se aceleran exactamente en el mismo factor al subir la temperatura, porque comparten el mismo catalizador ácido y el mismo medio de reacción",
+      "Si las dos reacciones tienen distinta energía de activación, la que tiene mayor Ea se acelera desproporcionadamente más, así que subir la temperatura puede cambiar cuál domina",
+      "La temperatura solo afecta la velocidad de una reacción cuando no hay catalizador presente, así que en un sistema catalizado por ácido su efecto es prácticamente irrelevante",
+      "Subir la temperatura siempre favorece la hidrólisis sobre la degradación, porque la hidrólisis es la reacción que el protocolo busca que ocurra en primer lugar"
+    ],
+    "correcta": 1,
+    "explicacion": "La constante de velocidad depende exponencialmente de Ea y T; si la degradación tiene mayor Ea que la hidrólisis, subir la temperatura la acelera más que proporcionalmente, empeorando el rendimiento neto pese a que la reacción global vaya más rápido."
+  },
+  {
+    "id": "DIO-QR-044",
+    "tarjetaId": "HID-08",
+    "categoria": "HID",
+    "formato": "fill",
+    "enunciado": "Completa la idea sobre por qué la temperatura no es solo un dial de velocidad general:",
+    "antes": "Si la hidrólisis y la degradación de la diosgenina tienen distinta energía de activación, subir la temperatura no las acelera por el mismo factor: la reacción con mayor Ea es más sensible al cambio térmico, así que la temperatura actúa también como un dial de",
+    "despues": "entre las dos reacciones competidoras, no solo de velocidad general.",
+    "respuesta": "selectividad",
+    "alternativas": [
+      "selectividad"
+    ],
+    "explicacion": "Confundir 'más rápido en general' con 'mejor selectividad' es el error típico: si la reacción no deseada tiene mayor Ea, calentar más empeora el balance neto aunque todo ocurra más rápido."
+  },
+  {
+    "id": "DIO-QR-045",
+    "tarjetaId": "HID-10",
+    "categoria": "HID",
+    "formato": "mcq",
+    "enunciado": "Un compañero de laboratorio argumenta que la presencia del dieno de degradación en el hidrolizado significa que el experimento salió mal y hay que repetirlo desde cero. ¿Qué corrige mejor esta idea sobre qué es un 'artefacto' analítico?",
+    "opciones": [
+      "Un artefacto siempre indica un error de manipulación del experimentador, así que su sola presencia confirma que algo se hizo incorrectamente durante el procedimiento",
+      "El dieno no es un artefacto real, sino un compuesto que ya estaba presente en el tejido vivo del ñame antes de cualquier manipulación en el laboratorio",
+      "Un artefacto solo aparece cuando se usa una técnica de cuantificación defectuosa, así que cambiar de método analítico eliminaría por completo su formación",
+      "Un artefacto es un compuesto que se forma por el propio método de análisis y no estaba en la muestra original, pero eso no significa que el experimento esté mal hecho"
+    ],
+    "correcta": 3,
+    "explicacion": "El dieno de degradación se forma como consecuencia mecanística esperada de exponer la diosgenina ya liberada a las mismas condiciones ácidas y calientes que la liberaron; su presencia no invalida el experimento, aunque sí complica la cuantificación si no se distingue bien de la diosgenina genuina."
+  },
+  {
+    "id": "DIO-QR-046",
+    "tarjetaId": "HID-10",
+    "categoria": "HID",
+    "formato": "build",
+    "enunciado": "Arma qué es, con precisión, un artefacto analítico como el dieno de degradación:",
+    "fragmentos": [
+      "se forma por el propio método de análisis,",
+      "no porque estuviera presente así",
+      "en la muestra original antes de procesarla"
+    ],
+    "explicacion": "El error común es tratar 'artefacto' como sinónimo de error del experimentador; en realidad es una consecuencia esperada y mecanísticamente entendida de exponer la muestra a las condiciones necesarias para analizarla."
+  },
+  {
+    "id": "DIO-QR-047",
+    "tarjetaId": "HID-12",
+    "categoria": "HID",
+    "formato": "mcq",
+    "enunciado": "El protocolo neutraliza el hidrolizado con bicarbonato de sodio, una base débil, en vez de hidróxido de sodio, mucho más fuerte y rápido. ¿Cuál es la razón principal para preferir la base débil aquí?",
+    "opciones": [
+      "El NaHCO₃ libera CO₂ al reaccionar, autolimitando su propia velocidad y evitando el calor localizado que generaría el NaOH sobre un producto ya sensible térmicamente",
+      "El NaOH no reacciona en absoluto con el H₂SO₄ diluido del hidrolizado, así que solo el NaHCO₃ logra neutralizar de verdad el exceso de ácido presente",
+      "El NaHCO₃ resulta más económico de conseguir en cantidades grandes que el NaOH, así que la elección responde sobre todo a razones de costo del reactivo",
+      "El NaOH reacciona demasiado despacio frente a ácidos fuertes como el H₂SO₄, así que tardaría horas adicionales en alcanzar un pH estable, incluso agregándolo en pequeñas porciones"
+    ],
+    "correcta": 0,
+    "explicacion": "Con NaOH la neutralización sería casi instantánea y muy exotérmica en el punto de adición, generando calor localizado que arriesga degradar aún más la diosgenina ya liberada; el NaHCO₃ consume parte de esa energía formando y liberando CO₂ en vez de solo calentar la solución, dando más control al ajustar el pH en porciones pequeñas."
+  },
+  {
+    "id": "DIO-QR-048",
+    "tarjetaId": "HID-12",
+    "categoria": "HID",
+    "formato": "fill",
+    "enunciado": "Completa la idea sobre qué logra el bicarbonato al neutralizar el hidrolizado:",
+    "antes": "El NaHCO₃ es una base débil que reacciona de forma controlada con el ácido en exceso, liberando CO₂ gaseoso como válvula de escape natural; al consumir parte de su energía en formar y liberar ese gas en vez de solo calentar la solución, permite ajustar el pH en porciones pequeñas con mucho más",
+    "despues": "que si se usara una base fuerte de un solo golpe.",
+    "respuesta": "control",
+    "alternativas": [
+      "control"
+    ],
+    "explicacion": "Neutralizar no es solo llegar a pH 7 lo más rápido posible: con un producto ya sensible térmica y químicamente como la diosgenina liberada, la velocidad y el control del proceso importan tanto como el punto final."
+  },
+  {
+    "id": "DIO-QR-049",
+    "tarjetaId": "ELL-04",
+    "categoria": "ELL",
+    "formato": "mcq",
+    "enunciado": "Si agitar mezcla mejor las dos fases y acelera el paso de soluto entre ellas, ¿por qué el protocolo insiste en agitar 'suave' en vez de fuerte?",
+    "opciones": [
+      "Agitar fuerte rompe químicamente algunos enlaces de la diosgenina, generando subproductos no deseados que complican la separación posterior de las fases",
+      "Agitar fuerte hace que el DCM se evapore casi por completo dentro del embudo cerrado, dejando muy poco solvente disponible para completar la extracción",
+      "Agitar fuerte dispersa las fases en gotas cada vez más pequeñas y numerosas, que con tensioactivo presente tardan mucho más en coalescer de nuevo en dos capas separadas",
+      "Agitar fuerte y agitar suave transfieren exactamente la misma cantidad de soluto entre fases, así que la intensidad de agitación no tiene ningún efecto real sobre el resultado"
+    ],
+    "correcta": 2,
+    "explicacion": "Agitar gana velocidad de transferencia de soluto entre fases a cambio de perder muchísimo tiempo después en la separación: cuanto más pequeñas y numerosas sean las gotas, más tienen que coalescer para volver a dos fases, un proceso lento cuando hay tensioactivo presente."
+  },
+  {
+    "id": "DIO-QR-050",
+    "tarjetaId": "ELL-04",
+    "categoria": "ELL",
+    "formato": "build",
+    "enunciado": "Arma qué balance busca el protocolo al pedir agitación suave en vez de fuerte:",
+    "fragmentos": [
+      "suficiente agitación para un reparto razonable de soluto,",
+      "sin dispersar tanto las fases",
+      "que la separación posterior se vuelva impráctica"
+    ],
+    "explicacion": "Es el mismo trade-off que enfrentan las columnas de extracción líquido-líquido industriales: más mezclado transfiere soluto más rápido, pero también dificulta mucho más la separación que viene después."
+  },
+  {
+    "id": "DIO-QR-051",
+    "tarjetaId": "ELL-08",
+    "categoria": "ELL",
+    "formato": "mcq",
+    "enunciado": "¿El diclorometano es el solvente 'más eficiente' posible para extraer diosgenina, o hay un compromiso entre extraer MUCHO y extraer LIMPIO?",
+    "opciones": [
+      "El DCM es simultáneamente el solvente más eficiente y el más selectivo posible, así que no existe ningún compromiso real entre esas dos propiedades en este caso",
+      "El DCM prioriza deliberadamente rendimiento sobre pureza absoluta: su polaridad intermedia extrae bien la diosgenina, pero por esa misma polaridad también arrastra otros compuestos parecidos",
+      "Un solvente más apolar que el DCM extraería siempre más diosgenina y menos impurezas al mismo tiempo, así que la elección del DCM no responde a ningún compromiso técnico",
+      "La pureza del extracto depende únicamente de los pasos posteriores de purificación, así que la elección del solvente extractor no influye en absoluto sobre qué tan limpio queda"
+    ],
+    "correcta": 1,
+    "explicacion": "Un solvente ideal tendría coeficiente de partición muy favorable para diosgenina y muy desfavorable para todo lo demás; en la práctica, la polaridad intermedia del DCM que lo hace buen extractor también lo hace poco selectivo, arrastrando pigmentos y fenoles que los pasos posteriores deben terminar de limpiar."
+  },
+  {
+    "id": "DIO-QR-052",
+    "tarjetaId": "ELL-08",
+    "categoria": "ELL",
+    "formato": "fill",
+    "enunciado": "Completa la idea sobre qué rara vez se logra con el mismo solvente:",
+    "antes": "Eficiencia, extraer mucho de lo que interesa, y selectividad, no arrastrar lo demás, rara vez se maximizan juntas con el mismo solvente; elegir DCM prioriza deliberadamente la primera, confiando en que los pasos posteriores terminen de resolver la",
+    "despues": "que el solvente no pudo dejar atrás.",
+    "respuesta": "pureza",
+    "alternativas": [
+      "pureza",
+      "limpieza"
+    ],
+    "explicacion": "Asumir que 'el solvente que más extrae' es automáticamente 'el mejor solvente' ignora qué tan limpio necesita quedar el extracto para el análisis posterior; DCM es un compromiso deliberado, no un óptimo universal."
+  },
+  {
+    "id": "DIO-QR-053",
+    "tarjetaId": "ELL-12",
+    "categoria": "ELL",
+    "formato": "mcq",
+    "enunciado": "El protocolo indica dejar reposar el embudo 3-5 minutos después de agitar. ¿Por qué ese número es una estimación empírica para este sistema específico, y no una constante universal aplicable a cualquier extracción?",
+    "opciones": [
+      "Porque la Ley de Stokes solo aplica a sistemas acuosos, así que cualquier extracción con solventes orgánicos requiere un tiempo de reposo determinado por métodos completamente distintos",
+      "Porque el tiempo de reposo depende únicamente del volumen total de líquido en el embudo, sin relación con las propiedades físicas de los solventes involucrados en cada caso",
+      "Porque agitar siempre genera exactamente el mismo tamaño de gota sin importar el sistema, así que el único factor que cambia entre extracciones es la temperatura ambiente",
+      "Porque la velocidad de sedimentación depende de la diferencia de densidad, el radio de la gota y la viscosidad, factores que cambian según el par de solventes y el tensioactivo presente"
+    ],
+    "correcta": 3,
+    "explicacion": "Según la Ley de Stokes, la velocidad terminal de sedimentación es proporcional a la diferencia de densidad y al radio de la gota al cuadrado, e inversamente proporcional a la viscosidad; sistemas con mayor diferencia de densidad o gotas más grandes separan más rápido, por eso el tiempo sube a 10-15 minutos cuando ya hay emulsión formada."
+  },
+  {
+    "id": "DIO-QR-054",
+    "tarjetaId": "ELL-12",
+    "categoria": "ELL",
+    "formato": "build",
+    "enunciado": "Arma qué determina la Ley de Stokes sobre la velocidad de sedimentación de una gota:",
+    "fragmentos": [
+      "proporcional a la diferencia de densidad",
+      "y al radio de la gota al cuadrado,",
+      "e inversamente proporcional a la viscosidad del medio"
+    ],
+    "explicacion": "Es la misma ecuación que usó Robert Millikan en 1909 para medir la carga del electrón suspendiendo gotas de aceite cargadas en un campo eléctrico y midiendo su velocidad de caída."
+  },
+  {
+    "id": "DIO-QR-055",
+    "tarjetaId": "HPL-04",
+    "categoria": "HPL",
+    "formato": "mcq",
+    "enunciado": "Un extracto contiene compuestos de polaridad muy distinta entre sí. ¿Por qué en ese caso conviene más un gradiente de elución que mantener la fase móvil con una sola composición fija (isocrática) durante toda la corrida?",
+    "opciones": [
+      "Con composición fija, un solo porcentaje de solvente orgánico resuelve bien un extremo de polaridad pero hace que el otro extremo eluya casi sin separación o con picos excesivamente anchos",
+      "El gradiente siempre acorta el tiempo total de la corrida sin importar qué tan parecidas sean las polaridades de los compuestos presentes en la muestra analizada",
+      "La elución isocrática es simplemente una versión más antigua y obsoleta del gradiente, sin ninguna ventaja práctica que la haga preferible en algún caso",
+      "El gradiente cambia la temperatura de la columna progresivamente durante la corrida, en vez de cambiar la composición de la fase móvil como ocurre en TLC, una confusión común entre ambas técnicas"
+    ],
+    "correcta": 0,
+    "explicacion": "El gradiente optimiza la fuerza de elución dinámicamente durante la corrida: los compuestos más polares eluyen primero bajo condiciones acuosas donde tienen buena resolución, y conforme sube el porcentaje orgánico, los más apolares eluyen en un tiempo razonable con picos también razonablemente estrechos."
+  },
+  {
+    "id": "DIO-QR-056",
+    "tarjetaId": "HPL-04",
+    "categoria": "HPL",
+    "formato": "fill",
+    "enunciado": "Completa la idea sobre qué función principal cumple el gradiente de elución:",
+    "antes": "La función principal del gradiente no es necesariamente acortar el tiempo total de la corrida, sino resolver un rango amplio de polaridades dentro de un tiempo",
+    "despues": ", cambiando progresivamente la fuerza de elución en vez de dejarla fija.",
+    "respuesta": "razonable",
+    "alternativas": [
+      "razonable"
+    ],
+    "explicacion": "Pensar que el gradiente 'simplemente hace que todo salga más rápido' es el error común: su función principal es lograr buena resolución en ambos extremos del rango de polaridad, no necesariamente acortar el tiempo total."
+  },
+  {
+    "id": "DIO-QR-057",
+    "tarjetaId": "HPL-07",
+    "categoria": "HPL",
+    "formato": "mcq",
+    "enunciado": "La resolución entre dos picos depende de N (platos teóricos), α (selectividad) y k' (factor de capacidad), pero N entra bajo raíz cuadrada en la ecuación. ¿Qué implica esto para cómo conviene mejorar una separación pobre?",
+    "opciones": [
+      "N, α y k' contribuyen exactamente por igual a la resolución final, así que mejorar cualquiera de los tres produce siempre la misma ganancia relativa en Rs",
+      "El factor de capacidad k' es el único término que realmente determina la resolución, mientras que N y α solo afectan la forma de los picos, no su separación",
+      "Como N entra bajo raíz cuadrada, cuadruplicar el número de platos teóricos solo duplica esa parte de la resolución, así que mejorar la selectividad química suele dar ganancias más dramáticas por menor costo",
+      "Aumentar la longitud de la columna es siempre la forma más eficiente de mejorar cualquier separación pobre, sin importar qué tan cerca estén los tR de los dos compuestos"
+    ],
+    "correcta": 2,
+    "explicacion": "Aumentar N requiere columna más larga o partícula más fina, una vía costosa con rendimientos decrecientes por la raíz cuadrada; aumentar α requiere cambiar la química, otra fase móvil u otro pH, y suele dar ganancias mucho más dramáticas para el mismo esfuerzo."
+  },
+  {
+    "id": "DIO-QR-058",
+    "tarjetaId": "HPL-07",
+    "categoria": "HPL",
+    "formato": "build",
+    "enunciado": "Arma por qué mejorar la selectividad química suele ganarle a aumentar la eficiencia de la columna:",
+    "fragmentos": [
+      "N entra bajo raíz cuadrada en la ecuación de resolución,",
+      "así que cuadruplicar los platos teóricos",
+      "solo duplica esa parte de la separación"
+    ],
+    "explicacion": "Mejorar α cambiando la fase móvil o el pH suele dar ganancias más dramáticas que alargar la columna o usar partícula más fina, porque N tiene rendimientos decrecientes fuertes por entrar bajo raíz cuadrada."
+  },
+  {
+    "id": "DIO-QR-059",
+    "tarjetaId": "HPL-09",
+    "categoria": "HPL",
+    "formato": "mcq",
+    "enunciado": "Ya se sabe que la diosgenina tiene ε bajo en UV-Vis. Aplicado a HPLC, ¿qué implica esto más allá de solo 'usar el reactivo de Baccou en una cubeta'?",
+    "opciones": [
+      "El problema de ε bajo desaparece por completo al pasar de un espectrofotómetro simple a un HPLC, porque el detector UV de un HPLC es intrínsecamente más sensible que una cubeta",
+      "La única solución posible es reemplazar por completo el detector UV con un detector de masas, ya que ningún otro tipo de detector puede compensar un ε tan bajo como el de la diosgenina",
+      "El mismo protocolo de Baccou usado en la cubeta se puede conectar directamente a la salida de la columna sin ningún ajuste adicional al método de detección",
+      "Detectar diosgenina con UV convencional a 210-220 nm daría mala sensibilidad, así que se prefiere ELSD o derivatización pre/post-columna para crear un cromóforo en el flujo"
+    ],
+    "correcta": 3,
+    "explicacion": "El mismo problema de ε bajo de la cuantificación directa se traslada a HPLC: hay que crear un cromóforo, ya sea con un detector que no dependa de absorción de luz como ELSD, o con derivatización dentro del flujo cromatográfico, la misma lógica de crear conjugación donde no existía."
+  },
+  {
+    "id": "DIO-QR-060",
+    "tarjetaId": "HPL-09",
+    "categoria": "HPL",
+    "formato": "fill",
+    "enunciado": "Completa la idea sobre por qué no basta con 'conectar' el protocolo de Baccou a un HPLC:",
+    "antes": "Si intentaran detectar diosgenina eluyendo de una columna solo con UV convencional a longitud de onda típica, la sensibilidad sería mala y esa región tiene además mucha interferencia de fondo; por eso la literatura prefiere ELSD o derivatización dentro del",
+    "despues": " cromatográfico, no simplemente reusar el mismo protocolo de cubeta sin ajustes.",
+    "respuesta": "flujo",
+    "alternativas": [
+      "flujo",
+      "flujo cromatográfico"
+    ],
+    "explicacion": "No es trivial simplemente 'conectar' el mismo protocolo de la cubeta a un sistema de flujo continuo: hay que rediseñar dónde exactamente ocurre la derivatización o cambiar de detector."
+  },
+  {
+    "id": "DIO-QR-061",
+    "tarjetaId": "HPL-16",
+    "categoria": "HPL",
+    "formato": "mcq",
+    "enunciado": "Un pico de HPLC muestra una 'cola' larga en su parte posterior; otro pico distinto muestra un 'hombro' pegado a un pico vecino. ¿Qué distingue la causa fisicoquímica de cada defecto?",
+    "opciones": [
+      "Ambos defectos tienen exactamente la misma causa física, interacción con silanoles residuales de la columna, y solo se diferencian por cuál lado del pico afectan visualmente",
+      "El hombro siempre indica un problema del detector, mientras que el tailing siempre indica un problema exclusivo de la bomba que impulsa la fase móvil a través de la columna",
+      "El tailing es un defecto de forma de un solo compuesto por interacción secundaria con la fase estacionaria; el hombro indica típicamente un segundo compuesto con tR muy cercano",
+      "Ninguno de los dos defectos aporta información diagnóstica real sobre el sistema cromatográfico, así que ambos se pueden ignorar sin afectar la cuantificación"
+    ],
+    "correcta": 2,
+    "explicacion": "El tailing típico viene de una pequeña fracción de moléculas quedando atrapada temporalmente por silanoles residuales ionizados, retrasándose desproporcionadamente; el hombro, en cambio, suele señalar resolución insuficiente entre dos compuestos distintos con tR muy cercano, no un defecto de forma del pico principal."
+  },
+  {
+    "id": "DIO-QR-062",
+    "tarjetaId": "HPL-16",
+    "categoria": "HPL",
+    "formato": "build",
+    "enunciado": "Arma qué distingue al hombro del tailing en un cromatograma:",
+    "fragmentos": [
+      "el hombro sugiere la presencia",
+      "de un segundo compuesto no resuelto,",
+      "mientras que el tailing es un defecto de forma de un solo compuesto"
+    ],
+    "explicacion": "Confundir tailing con la presencia de un segundo compuesto es el error típico: el tailing es un defecto de forma de un solo pico, mientras que un hombro específicamente sugiere una segunda especie química distinta."
+  },
+  {
+    "id": "DIO-QR-063",
+    "tarjetaId": "ESP-06",
+    "categoria": "ESP",
+    "formato": "mcq",
+    "enunciado": "Miden dos absorbancias a 430 nm: la del blanco de reactivo, 0.05, y la de la muestra sin corregir, 0.47, con ε = 1.2 × 10⁴ M⁻¹cm⁻¹ y b = 1 cm. ¿Cuál es la concentración correcta de diosgenina derivatizada en la muestra?",
+    "opciones": [
+      "3.5 × 10⁻⁵ M, restando el blanco de la muestra antes de aplicar Beer-Lambert, usando solo la absorbancia atribuible al analito",
+      "3.9 × 10⁻⁵ M, usando directamente la absorbancia de la muestra sin corregir, porque el blanco solo se resta cuando su valor supera 0.1",
+      "4.3 × 10⁻⁵ M, sumando el blanco a la muestra antes de dividir entre ε y b, porque ambas absorbancias vienen del mismo sistema óptico",
+      "3.5 × 10⁻⁴ M, dividiendo la absorbancia corregida entre un ε diez veces menor al reportado para esta longitud de onda"
+    ],
+    "correcta": 0,
+    "explicacion": "Hay que restar el blanco antes de aplicar Beer-Lambert: A corregida = 0.47 - 0.05 = 0.42, y c = A/(ε·b) = 0.42/12000 = 3.5 × 10⁻⁵ M. Usar la absorbancia sin corregir sobreestima la concentración, porque parte de esa señal viene del reactivo mismo, no del analito."
+  },
+  {
+    "id": "DIO-QR-064",
+    "tarjetaId": "ESP-06",
+    "categoria": "ESP",
+    "formato": "fill",
+    "enunciado": "Completa el paso que hay que hacer antes de aplicar Beer-Lambert:",
+    "antes": "Con blanco = 0.03 y muestra sin corregir = 0.28 a la misma longitud de onda, la absorbancia que realmente corresponde al analito es la resta entre ambas: A = 0.28 − 0.03 = ",
+    "despues": ", y solo ese valor corregido se usa para calcular la concentración.",
+    "respuesta": "0.25",
+    "alternativas": [
+      "0.25",
+      "0,25",
+      ".25"
+    ],
+    "explicacion": "El blanco captura señal que no viene del analito, del reactivo mismo o de la matriz; restarlo antes de aplicar Beer-Lambert es lo que aísla la absorbancia genuinamente atribuible al compuesto de interés."
+  },
+  {
+    "id": "DIO-QR-065",
+    "tarjetaId": "ESP-02",
+    "categoria": "ESP",
+    "formato": "mcq",
+    "enunciado": "Diluyeron una muestra 1:5, 1 mL de muestra en un volumen final de 5 mL, porque la absorbancia sin diluir se salía del rango lineal de Beer-Lambert. La concentración medida en esa dilución fue 0.008 M. ¿Cuál es la concentración real en la muestra original, antes de diluir?",
+    "opciones": [
+      "0.008 M, porque diluir solo cambia el volumen que se mide, no la concentración real de la muestra original antes de diluir",
+      "0.04 M, multiplicando la concentración medida en la dilución por el factor de dilución para volver a la concentración original",
+      "0.0016 M, dividiendo la concentración medida entre el factor de dilución para deshacer matemáticamente la dilución",
+      "5.008 M, porque el factor de dilución se suma directamente a la concentración medida en la muestra ya diluida"
+    ],
+    "correcta": 1,
+    "explicacion": "Diluir reduce la concentración medida, así que reconstruir la concentración original exige multiplicar por el factor de dilución, no sumarlo ni dividir entre él: 0.008 M × 5 = 0.04 M. El factor de dilución escala la concentración, no la desplaza de forma aditiva."
+  },
+  {
+    "id": "DIO-QR-066",
+    "tarjetaId": "ESP-02",
+    "categoria": "ESP",
+    "formato": "fill",
+    "enunciado": "Completa el cálculo para deshacer una dilución 1:5:",
+    "antes": "Diluir 2 mL de muestra hasta un volumen final de 10 mL da un factor de dilución de 10/2 = 5. Si la concentración medida en esa dilución es 0.01 M, la concentración en la muestra original es 0.01 × 5 = ",
+    "despues": " M.",
+    "respuesta": "0.05",
+    "alternativas": [
+      "0.05",
+      "0,05",
+      ".05"
+    ],
+    "explicacion": "El factor de dilución multiplica la concentración medida para reconstruir la concentración original; confundir esa multiplicación con una suma o con una división da un resultado equivocado aunque la aritmética parezca simple."
+  },
+  {
+    "id": "DIO-QR-067",
+    "tarjetaId": "ELL-01",
+    "categoria": "ELL",
+    "formato": "mcq",
+    "enunciado": "El hidrolizado contenía 12.0 mg de diosgenina antes de extraer, y el extracto final de DCM, tras las 3 extracciones del protocolo, contiene 10.2 mg. ¿Cuál es el porcentaje de eficiencia de extracción?",
+    "opciones": [
+      "117.6%, dividiendo la masa inicial entre la masa recuperada en el extracto, y multiplicando ese cociente por 100",
+      "0.85%, dividiendo la masa recuperada entre la masa inicial presente antes de extraer, sin multiplicar ese cociente por 100",
+      "85%, dividiendo la masa recuperada en el extracto entre la masa inicial presente antes de extraer, y multiplicando ese cociente por 100",
+      "1.8 mg, porque la eficiencia de extracción se reporta como la masa que quedó sin extraer, no como la masa que sí se recuperó"
+    ],
+    "correcta": 2,
+    "explicacion": "La eficiencia de extracción es la fracción de lo que había originalmente que efectivamente se recuperó, expresada como porcentaje: 10.2/12.0 × 100 = 85%. Invertir la razón, reportar la masa remanente en vez de la recuperada, u olvidar multiplicar por 100 son los tres errores más comunes al calcular este número, aunque la aritmética de fondo sea simple."
+  },
+  {
+    "id": "DIO-QR-068",
+    "tarjetaId": "ELL-01",
+    "categoria": "ELL",
+    "formato": "fill",
+    "enunciado": "Completa el cálculo de eficiencia de extracción:",
+    "antes": "El hidrolizado tenía 20.0 mg de diosgenina antes de extraer, y el extracto de DCM recuperó 18.0 mg. La eficiencia de extracción es 18.0 dividido entre 20.0, multiplicado por 100, es decir ",
+    "despues": "%.",
+    "respuesta": "90",
+    "alternativas": [
+      "90",
+      "90.0",
+      "90,0"
+    ],
+    "explicacion": "El número en sí es una división simple; lo que hay que recordar es multiplicar por 100 para expresarlo como porcentaje y no invertir cuál masa va en el numerador."
   }
 ]
