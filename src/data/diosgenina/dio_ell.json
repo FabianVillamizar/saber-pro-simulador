@@ -25,7 +25,7 @@
     "bloque": "ELL",
     "modo": "pregunta",
     "pregunta": "¿Por qué el DCM, una molécula pequeña de solo 3 átomos pesados, es más denso que el agua, cuando la mayoría de solventes orgánicos comunes (hexano, éter, tolueno) flotan?",
-    "respuesta": "El DCM (CH2Cl2) tiene masa molecular considerable (84.93 g/mol) concentrada en una molécula relativamente pequeña, gracias a los dos átomos de cloro, mucho más pesados que el H o C que reemplazan — la molécula no ocupa mucho más volumen que el propano, pero pesa bastante más. Los solventes orgánicos 'típicos' que flotan (hexano, tolueno, éter) son hidrocarburos con masa molecular relativamente baja para su volumen. De ahí que casi cualquier solvente clorado o bromado pesado tienda a hundirse, mientras los hidrocarburos simples flotan: no es coincidencia, es masa atómica de halógenos empaquetada en un volumen que no crece proporcionalmente.",
+    "respuesta": "El DCM (CH₂Cl₂) tiene masa molecular considerable (84.93 g/mol) concentrada en una molécula relativamente pequeña, gracias a los dos átomos de cloro, mucho más pesados que el H o C que reemplazan — la molécula no ocupa mucho más volumen que el propano, pero pesa bastante más. Los solventes orgánicos 'típicos' que flotan (hexano, tolueno, éter) son hidrocarburos con masa molecular relativamente baja para su volumen. De ahí que casi cualquier solvente clorado o bromado pesado tienda a hundirse, mientras los hidrocarburos simples flotan: no es coincidencia, es masa atómica de halógenos empaquetada en un volumen que no crece proporcionalmente.",
     "error_comun": "Asumir que 'más denso' significa 'más polar' — no están relacionados directamente; el DCM es solo moderadamente polar, pero denso por razones de masa atómica, no de polaridad.",
     "dificultad": "alta",
     "prereqs": [],
@@ -87,7 +87,7 @@
     ],
     "connects_to": [],
     "regla": "agitar un solvente volátil en un espacio sellado sube la presión interna por encima de la atmosférica — hay que liberarla antes de abrir la llave.",
-    "conexion_cotidiana": "Este mismo principio de presión de vapor acumulada en un contenedor sellado es, a mayor escala, el mecanismo detrás de por qué las **bebidas carbonatadas o el champán** hacen espuma violenta si se agitan antes de abrir: la agitación libera CO2 disuelto hacia la fase gas, subiendo la presión interna, y al abrir de golpe se libera de forma descontrolada."
+    "conexion_cotidiana": "Este mismo principio de presión de vapor acumulada en un contenedor sellado es, a mayor escala, el mecanismo detrás de por qué las **bebidas carbonatadas o el champán** hacen espuma violenta si se agitan antes de abrir: la agitación libera CO₂ disuelto hacia la fase gas, subiendo la presión interna, y al abrir de golpe se libera de forma descontrolada."
   },
   {
     "id": "ELL-06",

@@ -6,7 +6,7 @@
     "bloque": "HID",
     "modo": "pregunta",
     "pregunta": "Paso a paso, ¿qué le pasa exactamente a la molécula de dioscina durante la hidrólisis ácida, átomo por átomo?",
-    "respuesta": "1. **Protonación**: el H+ del H2SO4 protona el oxígeno del enlace glucosídico.\n\n2. **Salida del grupo saliente**: ese oxígeno protonado se va como agua neutra, dejando un catión en el carbono anomérico: el **ion oxocarbenio**.\n\n3. **Estabilización por resonancia**: el oxígeno del anillo dona su par libre hacia el carbono catiónico, formando un doble enlace parcial C=O+ (efecto anomérico, ver **HID-03**).\n\n4. **Ataque nucleofílico del agua**: el agua ataca ese carbono electrofílico desde cualquiera de las dos caras, por eso hay pérdida de estereoquímica (mecanismo **SN1**, ver **HID-02**).\n\n5. **Desprotonación**: el oxígeno recién unido pierde un protón, que vuelve al medio regenerando el catalizador.\n\nRepetir esto en cada enlace glucosídico libera, secuencialmente, cada azúcar hasta quedar diosgenina libre.",
+    "respuesta": "1. **Protonación**: el H⁺ del H₂SO₄ protona el oxígeno del enlace glucosídico.\n\n2. **Salida del grupo saliente**: ese oxígeno protonado se va como agua neutra, dejando un catión en el carbono anomérico: el **ion oxocarbenio**.\n\n3. **Estabilización por resonancia**: el oxígeno del anillo dona su par libre hacia el carbono catiónico, formando un doble enlace parcial C=O+ (efecto anomérico, ver **HID-03**).\n\n4. **Ataque nucleofílico del agua**: el agua ataca ese carbono electrofílico desde cualquiera de las dos caras, por eso hay pérdida de estereoquímica (mecanismo **SN1**, ver **HID-02**).\n\n5. **Desprotonación**: el oxígeno recién unido pierde un protón, que vuelve al medio regenerando el catalizador.\n\nRepetir esto en cada enlace glucosídico libera, secuencialmente, cada azúcar hasta quedar diosgenina libre.",
     "error_comun": "Pensar que el mecanismo es SN2 (ataque concertado con salida simultánea) — es SN1-like, con un intermediario catiónico discreto (ver HID-02).",
     "dificultad": "alta",
     "prereqs": [
@@ -59,8 +59,8 @@
     "tipo": "concepto",
     "bloque": "HID",
     "modo": "pregunta",
-    "pregunta": "¿Qué hace que el H2SO4 sea la elección típica para esta hidrólisis, en vez de HCl (también fuerte) o ácido acético?",
-    "respuesta": "**Fuerza**: H2SO4 y HCl se disocian completamente en la primera protonación, a diferencia del ácido acético (débil, pKa ~4.76), que no generaría suficiente H+ libre para catalizar a velocidad útil.\n\n**Volatilidad**: el HCl es un gas disuelto con presión de vapor apreciable — a temperaturas de reflujo, parte puede escaparse, cambiando la concentración efectiva durante horas. El H2SO4 es prácticamente no volátil (punto de ebullición ~337°C), así que su concentración permanece estable.\n\n**Nucleofilicidad del anión**: el sulfato/bisulfato es un nucleófilo muy pobre y no compite con el agua por atacar el intermediario catiónico; el cloruro es ligeramente más nucleofílico.",
+    "pregunta": "¿Qué hace que el H₂SO₄ sea la elección típica para esta hidrólisis, en vez de HCl (también fuerte) o ácido acético?",
+    "respuesta": "**Fuerza**: H₂SO₄ y HCl se disocian completamente en la primera protonación, a diferencia del ácido acético (débil, pKa ~4.76), que no generaría suficiente H⁺ libre para catalizar a velocidad útil.\n\n**Volatilidad**: el HCl es un gas disuelto con presión de vapor apreciable — a temperaturas de reflujo, parte puede escaparse, cambiando la concentración efectiva durante horas. El H₂SO₄ es prácticamente no volátil (punto de ebullición ~337°C), así que su concentración permanece estable.\n\n**Nucleofilicidad del anión**: el sulfato/bisulfato es un nucleófilo muy pobre y no compite con el agua por atacar el intermediario catiónico; el cloruro es ligeramente más nucleofílico.",
     "error_comun": "Pensar que 'ácido fuerte' es el único criterio — la volatilidad y la nucleofilicidad del anión importan tanto como la fuerza ácida en un reflujo prolongado.",
     "dificultad": "alta",
     "prereqs": [
@@ -71,7 +71,7 @@
       "SER"
     ],
     "regla": "no basta con 'ácido fuerte' — también importan la volatilidad y qué tan nucleofílico es el anión.",
-    "conexion_cotidiana": "La razón por la que el H2SO4 no se evapora fácilmente tiene que ver con su enorme capacidad de formar puentes de hidrógeno consigo mismo y con el agua (**FQT-10**) — la misma propiedad que hace que pueda 'carbonizar' azúcares y tejido orgánico simplemente deshidratándolos, sin necesidad de oxidarlos químicamente."
+    "conexion_cotidiana": "La razón por la que el H₂SO₄ no se evapora fácilmente tiene que ver con su enorme capacidad de formar puentes de hidrógeno consigo mismo y con el agua (**FQT-10**) — la misma propiedad que hace que pueda 'carbonizar' azúcares y tejido orgánico simplemente deshidratándolos, sin necesidad de oxidarlos químicamente."
   },
   {
     "id": "HID-05",
@@ -159,15 +159,15 @@
     "tipo": "concepto",
     "bloque": "HID",
     "modo": "pregunta",
-    "pregunta": "¿Realmente importa cuál ácido usan, mientras dé suficiente H+ libre, o hay una diferencia mecanística más fina que eso?",
-    "respuesta": "En **catálisis específica de ácido**, lo único que importa cinéticamente es la concentración de H3O+: cualquier ácido fuerte que se disocie completamente da esencialmente la misma velocidad, sin importar si es H2SO4, HCl o HNO3. En **catálisis general de ácido**, en cambio, cualquier especie capaz de donar un protón contribuye, no solo H3O+. La hidrólisis de acetales/glicósidos en medio fuertemente ácido es, en la mayoría de casos, catálisis específica: lo que importa para la velocidad es [H3O+], no la identidad particular del ácido (aunque, como en **HID-04**, la identidad sí importa por otras razones: volatilidad, nucleofilicidad del anión).",
-    "error_comun": "Confundir catálisis específica de ácido con la elección práctica de qué ácido usar — son preguntas distintas: el mecanismo depende de [H3O+], la elección de reactivo depende de otras propiedades físicas (HID-04).",
+    "pregunta": "¿Realmente importa cuál ácido usan, mientras dé suficiente H⁺ libre, o hay una diferencia mecanística más fina que eso?",
+    "respuesta": "En **catálisis específica de ácido**, lo único que importa cinéticamente es la concentración de H₃O+: cualquier ácido fuerte que se disocie completamente da esencialmente la misma velocidad, sin importar si es H₂SO₄, HCl o HNO₃. En **catálisis general de ácido**, en cambio, cualquier especie capaz de donar un protón contribuye, no solo H₃O+. La hidrólisis de acetales/glicósidos en medio fuertemente ácido es, en la mayoría de casos, catálisis específica: lo que importa para la velocidad es [H₃O+], no la identidad particular del ácido (aunque, como en **HID-04**, la identidad sí importa por otras razones: volatilidad, nucleofilicidad del anión).",
+    "error_comun": "Confundir catálisis específica de ácido con la elección práctica de qué ácido usar — son preguntas distintas: el mecanismo depende de [H₃O+], la elección de reactivo depende de otras propiedades físicas (HID-04).",
     "dificultad": "alta",
     "prereqs": [
       "FQT-07"
     ],
     "connects_to": [],
-    "regla": "la mayoría de estas hidrólisis dependen solo de [H3O+], no de la identidad química del ácido que lo generó — eso es catálisis específica de ácido.",
+    "regla": "la mayoría de estas hidrólisis dependen solo de [H₃O+], no de la identidad química del ácido que lo generó — eso es catálisis específica de ácido.",
     "conexion_cotidiana": "La distinción entre catálisis específica y general de ácido/base fue formalizada por Ronald P. Bell y Louis Hammett a mediados del siglo XX, y la misma pregunta cinética la usan hoy los bioquímicos para determinar si una enzima usa catálisis ácido-base general (un residuo de aminoácido donando/aceptando protones directamente en el sitio activo) en vez de depender solo del pH general del medio."
   },
   {
@@ -218,7 +218,7 @@
     "bloque": "HID",
     "modo": "pregunta",
     "pregunta": "¿Por qué neutralizan el hidrolizado con bicarbonato de sodio (base débil) en vez de, por ejemplo, hidróxido de sodio (mucho más fuerte y rápido)?",
-    "respuesta": "El NaHCO3 es la base conjugada de un ácido débil (H2CO3, pKa1 ~6.3), una base suave que reacciona de forma controlada con el exceso de ácido fuerte, liberando CO2 gaseoso como 'válvula de escape' natural. Con NaOH, la neutralización sería extremadamente exotérmica y casi instantánea en el punto de adición, generando calor localizado que podría degradar aún más la diosgenina ya sensible (**HID-06**). El NaHCO3, al consumir parte de su energía en formar y liberar CO2 en vez de solo calentar la solución, da mucho más margen de control al ajustar el pH en porciones pequeñas.",
+    "respuesta": "El NaHCO₃ es la base conjugada de un ácido débil (H₂CO₃, pKa₁ ~6.3), una base suave que reacciona de forma controlada con el exceso de ácido fuerte, liberando CO₂ gaseoso como 'válvula de escape' natural. Con NaOH, la neutralización sería extremadamente exotérmica y casi instantánea en el punto de adición, generando calor localizado que podría degradar aún más la diosgenina ya sensible (**HID-06**). El NaHCO₃, al consumir parte de su energía en formar y liberar CO₂ en vez de solo calentar la solución, da mucho más margen de control al ajustar el pH en porciones pequeñas.",
     "error_comun": "Pensar que 'neutralizar' es simplemente 'llegar a pH 7 lo más rápido posible' — la velocidad y el control del proceso importan tanto como el punto final, especialmente con un producto sensible térmica y químicamente.",
     "dificultad": "alta",
     "prereqs": [
@@ -229,7 +229,7 @@
       "ELL",
       "SER"
     ],
-    "regla": "NaHCO3 se 'auto-limita' térmicamente liberando CO2 gaseoso, dando control; NaOH neutralizaría de golpe y localmente, arriesgando sobrecalentamiento puntual sobre un producto ya sensible.",
-    "conexion_cotidiana": "Esta misma estrategia (base débil y auto-limitada en vez de un reactivo fuerte e instantáneo) es el principio detrás de los **antiácidos estomacales** de venta libre (bicarbonato de sodio o carbonato de calcio): neutralizan el exceso de HCl gástrico de forma progresiva, con la misma liberación de CO2, de ahí el eructo característico después de tomar un antiácido con bicarbonato."
+    "regla": "NaHCO₃ se 'auto-limita' térmicamente liberando CO₂ gaseoso, dando control; NaOH neutralizaría de golpe y localmente, arriesgando sobrecalentamiento puntual sobre un producto ya sensible.",
+    "conexion_cotidiana": "Esta misma estrategia (base débil y auto-limitada en vez de un reactivo fuerte e instantáneo) es el principio detrás de los **antiácidos estomacales** de venta libre (bicarbonato de sodio o carbonato de calcio): neutralizan el exceso de HCl gástrico de forma progresiva, con la misma liberación de CO₂, de ahí el eructo característico después de tomar un antiácido con bicarbonato."
   }
 ]

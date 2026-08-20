@@ -5,8 +5,8 @@
     "tipo": "concepto",
     "bloque": "SER",
     "modo": "pregunta",
-    "pregunta": "El Na2SO4 anhidro 'seca' la fase orgánica — pero literalmente, ¿qué le pasa a cada molécula de agua cuando entra en contacto con él?",
-    "respuesta": "El sulfato de sodio anhidro es un sólido cristalino cuya red tiene espacios energéticamente favorables para incorporar moléculas de agua, formando un nuevo cristal hidratado (Na2SO4·10H2O) — proceso termodinámicamente favorable (ΔG negativo, **FQT-13**) porque la red hidratada es más estable que el sólido anhidro más agua libre dispersa en el solvente. Tiene estequiometría definida (10 moléculas de agua por fórmula), así que tiene un límite de capacidad: una vez suficiente Na2SO4 se convirtió en la forma decahidratada, ya no puede capturar más agua. Por eso se agrega en exceso visible: ese exceso sin aglomerar en el fondo confirma que aún hay capacidad de secado disponible.",
+    "pregunta": "El Na₂SO₄ anhidro 'seca' la fase orgánica — pero literalmente, ¿qué le pasa a cada molécula de agua cuando entra en contacto con él?",
+    "respuesta": "El sulfato de sodio anhidro es un sólido cristalino cuya red tiene espacios energéticamente favorables para incorporar moléculas de agua, formando un nuevo cristal hidratado (Na₂SO₄·10H₂O) — proceso termodinámicamente favorable (ΔG negativo, **FQT-13**) porque la red hidratada es más estable que el sólido anhidro más agua libre dispersa en el solvente. Tiene estequiometría definida (10 moléculas de agua por fórmula), así que tiene un límite de capacidad: una vez suficiente Na₂SO₄ se convirtió en la forma decahidratada, ya no puede capturar más agua. Por eso se agrega en exceso visible: ese exceso sin aglomerar en el fondo confirma que aún hay capacidad de secado disponible.",
     "error_comun": "Pensar que el desecante 'absorbe' agua como una esponja física genérica — es una reacción química de hidratación con estequiometría definida, no absorción física inespecífica.",
     "dificultad": "alta",
     "prereqs": [
@@ -14,7 +14,7 @@
     ],
     "connects_to": [],
     "regla": "no es absorción física tipo esponja — es una reacción química de hidratación con estequiometría exacta, y por eso tiene un límite de capacidad.",
-    "conexion_cotidiana": "Este mismo fenómeno de cristales hidratados con estequiometría exacta es la razón geológica detrás de la **mirabilita** (Na2SO4·10H2O, el mismo compuesto, pero como mineral natural) que se forma cuando lagos salinos se evaporan en climas áridos, depositándose en las orillas del Gran Lago Salado en Utah."
+    "conexion_cotidiana": "Este mismo fenómeno de cristales hidratados con estequiometría exacta es la razón geológica detrás de la **mirabilita** (Na₂SO₄·10H₂O, el mismo compuesto, pero como mineral natural) que se forma cuando lagos salinos se evaporan en climas áridos, depositándose en las orillas del Gran Lago Salado en Utah."
   },
   {
     "id": "SER-02",
@@ -101,7 +101,7 @@
     "bloque": "SER",
     "modo": "pregunta",
     "pregunta": "Si ya tienen la diosgenina disuelta en DCM antes de evaporar, ¿por qué evaporarla del todo y redisolverla en otro solvente (etanol o EtOAc), en vez de usar directamente el DCM para el siguiente paso?",
-    "respuesta": "El DCM se optimizó para partición eficiente de la diosgenina fuera de la fase acuosa (**FQT-03**, **ELL-08**). El siguiente paso —la reacción cromógena con el reactivo de Baccou (p-anisaldehído + H2SO4)— fue desarrollado y validado para funcionar en un solvente específico (etanol) donde la química de la reacción de color es reproducible y da la absortividad molar esperada: cambiar el solvente podría alterar la cinética, la posición del máximo de absorción, o la estabilidad del color, invalidando la comparación con la curva de calibración. Además, el DCM es volátil (**FQT-08**) y podría evaporarse parcialmente durante los 20 min de reacción a 60°C, cambiando la concentración efectiva. Por eso se evapora el solvente de extracción y se redisuelve en el solvente que la química analítica del siguiente paso requiere.",
+    "respuesta": "El DCM se optimizó para partición eficiente de la diosgenina fuera de la fase acuosa (**FQT-03**, **ELL-08**). El siguiente paso —la reacción cromógena con el reactivo de Baccou (p-anisaldehído + H₂SO₄)— fue desarrollado y validado para funcionar en un solvente específico (etanol) donde la química de la reacción de color es reproducible y da la absortividad molar esperada: cambiar el solvente podría alterar la cinética, la posición del máximo de absorción, o la estabilidad del color, invalidando la comparación con la curva de calibración. Además, el DCM es volátil (**FQT-08**) y podría evaporarse parcialmente durante los 20 min de reacción a 60°C, cambiando la concentración efectiva. Por eso se evapora el solvente de extracción y se redisuelve en el solvente que la química analítica del siguiente paso requiere.",
     "error_comun": "Pensar que 'ya está disuelto, para qué evaporar y volver a disolver' sin considerar que las necesidades del paso de extracción y del paso de cuantificación son químicamente distintas.",
     "dificultad": "alta",
     "prereqs": [
@@ -139,7 +139,7 @@
     "bloque": "SER",
     "modo": "pregunta",
     "pregunta": "¿Por qué el extracto se guarda específicamente en vial ámbar (no transparente) Y a -20°C (no solo refrigerado a 4°C) para 'pendiente derivatización'?",
-    "respuesta": "**Fotodegradación**: ciertos enlaces (dobles enlaces, cualquier estructura con electrones π, **FQT-16**) pueden romperse o isomerizarse al absorber luz UV o visible, iniciando reacciones fotoquímicas que no requieren calor ni ácido; el vidrio ámbar filtra buena parte de esa radiación. **Degradación térmica/cinética**: cualquier reacción residual sigue Arrhenius (**FQT-06**), a menor temperatura, drásticamente menor velocidad. La **regla Q10**, usada en estabilidad de productos farmacéuticos, dice que muchas reacciones de degradación duplican o triplican su velocidad por cada 10°C de aumento: bajar de temperatura ambiente (~25°C) a -20°C representa 45°C de diferencia, lo que podría significar varios órdenes de magnitud menos degradación.",
+    "respuesta": "**Fotodegradación**: ciertos enlaces (dobles enlaces, cualquier estructura con electrones π, **FQT-16**) pueden romperse o isomerizarse al absorber luz UV o visible, iniciando reacciones fotoquímicas que no requieren calor ni ácido; el vidrio ámbar filtra buena parte de esa radiación. **Degradación térmica/cinética**: cualquier reacción residual sigue Arrhenius (**FQT-06**), a menor temperatura, drásticamente menor velocidad. La **regla Q₁₀**, usada en estabilidad de productos farmacéuticos, dice que muchas reacciones de degradación duplican o triplican su velocidad por cada 10°C de aumento: bajar de temperatura ambiente (~25°C) a -20°C representa 45°C de diferencia, lo que podría significar varios órdenes de magnitud menos degradación.",
     "error_comun": "Pensar que refrigerar a 4°C sería 'suficiente' y que -20°C es precaución excesiva — dependiendo de la Ea de la reacción de degradación relevante, la diferencia entre 4°C y -20°C puede representar una reducción adicional sustancial, no un margen trivial.",
     "dificultad": "alta",
     "prereqs": [
@@ -150,7 +150,7 @@
       "EST"
     ],
     "regla": "son dos mecanismos de degradación distintos, y cada elemento de almacenamiento ataca uno.",
-    "conexion_cotidiana": "La regla Q10 es la misma herramienta que usa la industria farmacéutica para diseñar los **estudios de estabilidad acelerada**: en vez de esperar años a temperatura ambiente, se almacena el fármaco a temperaturas elevadas (40-60°C) durante semanas, se mide la degradación, y se EXTRAPOLA con Arrhenius para predecir la vida útil normal — la misma lógica que justifica que -20°C protege tu extracto, en dirección inversa."
+    "conexion_cotidiana": "La regla Q₁₀ es la misma herramienta que usa la industria farmacéutica para diseñar los **estudios de estabilidad acelerada**: en vez de esperar años a temperatura ambiente, se almacena el fármaco a temperaturas elevadas (40-60°C) durante semanas, se mide la degradación, y se EXTRAPOLA con Arrhenius para predecir la vida útil normal — la misma lógica que justifica que -20°C protege tu extracto, en dirección inversa."
   },
   {
     "id": "SER-09",

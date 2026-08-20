@@ -23,7 +23,7 @@
     "tipo": "concepto",
     "bloque": "FQT",
     "modo": "pregunta",
-    "pregunta": "El CO2 tiene dos enlaces C=O muy polares. ¿Por qué entonces el CO2 es una molécula no polar?",
+    "pregunta": "El CO₂ tiene dos enlaces C=O muy polares. ¿Por qué entonces el CO₂ es una molécula no polar?",
     "respuesta": "La polaridad molecular no es la suma de las polaridades de enlace: es su suma vectorial. Cada enlace C=O tiene un dipolo real apuntando del carbono hacia el oxígeno, pero la molécula es lineal (O=C=O, 180°), así que los dos vectores apuntan en direcciones opuestas y se cancelan por completo. El agua, con enlaces O-H igual de polares pero geometría angular (~104.5°), no cancela sus dipolos y queda con momento neto grande.",
     "error_comun": "Mirar solo la electronegatividad de los átomos sin considerar la geometría molecular.",
     "dificultad": "alta",
@@ -33,7 +33,7 @@
     "connects_to": [
       "ELL"
     ],
-    "conexion_cotidiana": "Esta cancelación geométrica es precisamente la razón por la que el CO2 supercrítico se puede usar como solvente de extracción 'verde' que se comporta como un solvente apolar tipo hexano, pese a estar hecho de enlaces polares."
+    "conexion_cotidiana": "Esta cancelación geométrica es precisamente la razón por la que el CO₂ supercrítico se puede usar como solvente de extracción 'verde' que se comporta como un solvente apolar tipo hexano, pese a estar hecho de enlaces polares."
   },
   {
     "id": "FQT-03",
@@ -116,8 +116,8 @@
     "tipo": "concepto",
     "bloque": "FQT",
     "modo": "pregunta",
-    "pregunta": "El H2SO4 protona el oxígeno del enlace glucosídico, pero al final de la reacción el ácido sigue ahí sin gastarse. ¿Cómo 'participa' sin consumirse?",
-    "respuesta": "Un catalizador cambia el mecanismo hacia uno con Ea más baja, sin cambiar la termodinámica global. En catálisis ácida específica, el H+ protona el oxígeno del enlace glucosídico, haciendo que ese enlace C-O sea mucho más fácil de romper. Una vez que el enlace se rompe y el agua ataca al catión resultante, el protón se libera de nuevo al medio en el paso final: termina exactamente donde empezó, listo para catalizar la siguiente molécula.",
+    "pregunta": "El H₂SO₄ protona el oxígeno del enlace glucosídico, pero al final de la reacción el ácido sigue ahí sin gastarse. ¿Cómo 'participa' sin consumirse?",
+    "respuesta": "Un catalizador cambia el mecanismo hacia uno con Ea más baja, sin cambiar la termodinámica global. En catálisis ácida específica, el H⁺ protona el oxígeno del enlace glucosídico, haciendo que ese enlace C-O sea mucho más fácil de romper. Una vez que el enlace se rompe y el agua ataca al catión resultante, el protón se libera de nuevo al medio en el paso final: termina exactamente donde empezó, listo para catalizar la siguiente molécula.",
     "error_comun": "Pensar que el catalizador se consume proporcionalmente al producto formado — no es así en el mecanismo, aunque se use en exceso en la práctica de laboratorio.",
     "dificultad": "alta",
     "prereqs": [
@@ -193,7 +193,7 @@
     "bloque": "FQT",
     "modo": "pregunta",
     "pregunta": "¿Por qué agregar NaCl saturado rompe una emulsión de DCM/agua, en vez de empeorarla al añadir más soluto al sistema?",
-    "respuesta": "En una emulsión, hay agua 'atrapada' alrededor de las gotas de fase orgánica, estabilizada por moléculas de agua orientadas alrededor de superficies tensioactivas (saponinas remanentes). Los iones Na+ y Cl- de una sal muy soluble compiten fuertemente por esas moléculas de agua para su propia capa de hidratación: en alta concentración, queda tan poca agua disponible para la interfase que las gotas pierden su capa protectora y coalescen, separándose limpiamente de la fase orgánica.",
+    "respuesta": "En una emulsión, hay agua 'atrapada' alrededor de las gotas de fase orgánica, estabilizada por moléculas de agua orientadas alrededor de superficies tensioactivas (saponinas remanentes). Los iones Na⁺ y Cl⁻ de una sal muy soluble compiten fuertemente por esas moléculas de agua para su propia capa de hidratación: en alta concentración, queda tan poca agua disponible para la interfase que las gotas pierden su capa protectora y coalescen, separándose limpiamente de la fase orgánica.",
     "error_comun": "Pensar que cualquier sal funciona igual de bien — distintos iones tienen distinta capacidad de 'secuestrar' agua (esto es exactamente lo que ordena la serie de Hofmeister).",
     "dificultad": "alta",
     "prereqs": [
@@ -221,7 +221,7 @@
       "HID",
       "PFT"
     ],
-    "conexion_cotidiana": "Esta misma ecuación es la que usan los nefrólogos para entender el pH sanguíneo (buffer bicarbonato/CO2), y es también la herramienta que usa la ciencia de suelos para predecir si un metal pesado como el cadmio está biodisponible o inmovilizado según el pH — el mismo marco que usas aquí es, con otro sistema químico, el corazón conceptual de tu tesis sobre geopolímero e intercepción de cadmio en suelos de cacao."
+    "conexion_cotidiana": "Esta misma ecuación es la que usan los nefrólogos para entender el pH sanguíneo (buffer bicarbonato/CO₂), y es también la herramienta que usa la ciencia de suelos para predecir si un metal pesado como el cadmio está biodisponible o inmovilizado según el pH — el mismo marco que usas aquí es, con otro sistema químico, el corazón conceptual de tu tesis sobre geopolímero e intercepción de cadmio en suelos de cacao."
   },
   {
     "id": "FQT-13",
