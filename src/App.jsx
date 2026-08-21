@@ -16,7 +16,6 @@ import { MapaDelCurso } from './paginas/MapaDelCurso.jsx'
 import { EnsayosModelo } from './paginas/EnsayosModelo.jsx'
 import { PracticarEnsayo } from './paginas/PracticarEnsayo.jsx'
 import { EjerciciosRapidos } from './paginas/EjerciciosRapidos.jsx'
-import { EscribeLaRespuesta } from './paginas/EscribeLaRespuesta.jsx'
 import { PracticarLapizPapel } from './paginas/PracticarLapizPapel.jsx'
 import { ExploracionCompetencias } from './paginas/ExploracionCompetencias.jsx'
 import { ExploracionLecturaCritica } from './paginas/ExploracionLecturaCritica.jsx'
@@ -246,21 +245,6 @@ function App() {
     )
   }
 
-  // Modo propio de Inglés (ver ModuloHub.jsx / MODO_ESCRIBIR_INGLES): a
-  // diferencia de los modos de Français/Comunicación Escrita de arriba,
-  // este convive con los 3 modos estándar en vez de reemplazarlos, así que
-  // sí toma moduloId de pantalla igual que 'repaso'/'practica-parte'.
-  if (pantalla.tipo === 'escribe-respuesta') {
-    return (
-      <EscribeLaRespuesta
-        moduloId={pantalla.moduloId}
-        perfil={perfil}
-        onCambiarPerfil={onCambiarPerfil}
-        onVolver={volverAModulo}
-      />
-    )
-  }
-
   if (pantalla.tipo === 'ejercicios-rapidos') {
     return (
       <EjerciciosRapidos
@@ -273,8 +257,8 @@ function App() {
   }
 
   // Modo propio de Razonamiento Cuantitativo (ver ModuloHub.jsx /
-  // MODO_LAPIZ_PAPEL_RC) — mismo patrón que 'escribe-respuesta': convive
-  // con los 3 modos estándar, así que toma moduloId de pantalla.
+  // MODO_LAPIZ_PAPEL_RC) — convive con los 3 modos estándar, así que toma
+  // moduloId de pantalla igual que 'repaso'/'practica-parte'.
   if (pantalla.tipo === 'lapiz-papel') {
     return (
       <PracticarLapizPapel

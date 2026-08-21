@@ -19,6 +19,16 @@ export const indiceModulos = {
     descripcion: 'Comprensión lectora y uso del idioma, niveles A1–B2.',
     disponible: true,
     soportaSimulacro: true,
+    // Usada solo por QuizRapido.jsx como filtro/badge (los 362 ítems de
+    // ing_quiz_rapido.json, uno por cada tarjeta cloze, cargan `categoria`
+    // con el mismo valor que `tipo` en las tarjetas de concepto) — Repaso
+    // de conceptos y Escribe la Respuesta ya filtraban por `tipo`/`nivel_mcer`
+    // directamente sobre las tarjetas, sin pasar por este mapa.
+    categorias: {
+      vocabulario: 'Vocabulario',
+      gramatica: 'Gramática',
+      cultura_general: 'Cultura general',
+    },
     adapters: adaptersIngles,
     // Puente pregunta -> teoría de Parte 4 (ver enlazarTeoriaIngles en
     // modulos/ingles/adapters.js): opcional, como `categorias`/`nucleos` —

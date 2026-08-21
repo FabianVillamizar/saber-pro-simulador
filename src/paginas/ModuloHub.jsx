@@ -66,25 +66,12 @@ const MODOS_FRANCES = [
   },
 ]
 
-// Inglés es el único módulo con tarjetas de concepto en esquema cloze
-// (antes/despues/respuesta) sobre las que además tiene sentido escribir la
-// respuesta en vez de solo reconocerla entre 3-4 opciones — LC/CC/PC usan
-// pregunta/respuesta_breve, que no es texto libre corto para comparar. Se
-// agrega después de los 3 modos estándar en vez de reemplazarlos (a
-// diferencia de MODOS_FRANCES/MODOS_COMUNICACION_ESCRITA): Inglés sigue
-// siendo un módulo de examen normal, esto es un modo de estudio extra.
-const MODO_ESCRIBIR_INGLES = {
-  id: 'escribe-respuesta',
-  nombre: 'Escribe la respuesta',
-  descripcion: 'Las mismas tarjetas de Repaso, pero escribes la respuesta antes de verla.',
-}
-
 // Razonamiento Cuantitativo es el único módulo cuyo cuadernillo oficial
 // ICFES advierte explícitamente "no se le pide usar calculadora... no se
 // pedirá que elabore operaciones extenuantes" — el objeto de evaluación es
-// reconocer el enfoque, no la velocidad de cálculo. Igual que
-// MODO_ESCRIBIR_INGLES, convive con los 3 modos estándar en vez de
-// reemplazarlos (RC sí es un módulo de examen normal con ítems reales).
+// reconocer el enfoque, no la velocidad de cálculo. Convive con los 3 modos
+// estándar en vez de reemplazarlos (RC sí es un módulo de examen normal con
+// ítems reales).
 const MODO_LAPIZ_PAPEL_RC = {
   id: 'lapiz-papel',
   nombre: 'Lápiz y papel',
@@ -121,7 +108,6 @@ export function ModuloHub({ moduloId, perfil, onCambiarPerfil, onVolver, onSelec
 
   const esFrances = moduloId === 'frances'
   const esComunicacionEscrita = moduloId === 'comunicacion-escrita'
-  const esIngles = moduloId === 'ingles'
   const esRazonamientoCuantitativo = moduloId === 'razonamiento-cuantitativo'
 
   // "Práctica por sub-categoría" solo tiene sentido si el módulo tiene
@@ -142,12 +128,12 @@ export function ModuloHub({ moduloId, perfil, onCambiarPerfil, onVolver, onSelec
             // ítems se derivan de las tarjetas de concepto en un formato
             // más corto y jugable (mcq/fill/build/match, ver
             // QuizRapido.jsx y `modulo.quizRapido` en loadModulos.js), así
-            // que se gatea por ese banco propio, no por `preguntas`. Cubre
-            // el mismo hueco que "Escribe la respuesta" ya cubre para
-            // Inglés — se excluye ahí para no duplicar el modo, ver
-            // MODO_ESCRIBIR_INGLES arriba.
-            .filter((modo) => modo.id !== 'quiz-rapido' || (modulo.quizRapido.length > 0 && !esIngles)),
-          ...(esIngles ? [MODO_ESCRIBIR_INGLES] : []),
+            // que se gatea por ese banco propio, no por `preguntas`. En
+            // Inglés reemplazó por completo al antiguo modo "Escribe la
+            // respuesta" (ing_quiz_rapido.json deriva un ítem `fill` de
+            // cada una de las 362 tarjetas cloze, mecánicamente, así que
+            // conserva la misma cobertura completa que tenía ese modo).
+            .filter((modo) => modo.id !== 'quiz-rapido' || modulo.quizRapido.length > 0),
           ...(esRazonamientoCuantitativo ? [MODO_LAPIZ_PAPEL_RC] : []),
         ]
 

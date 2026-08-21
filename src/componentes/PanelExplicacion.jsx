@@ -83,17 +83,23 @@ export function PanelExplicacion({ pregunta, seleccion, esCorrecta, tarjetasConc
           </summary>
           <div className="panel-otras-lista">
             {tarjetasTeoria.map((tarjeta) => {
-              // Mismo detect-and-branch que RepasoConceptos.jsx: el esquema
-              // "científica" (Pensamiento Científico y Razonamiento
-              // Cuantitativo, detectado por `modo`) usa pregunta/respuesta
-              // (o antes/despues en cloze) + regla/ejemplo, no
-              // respuesta_breve/explicacion/ejemplo_aplicado (CC/LC).
+              // Mismo detect-and-branch que RepasoConceptos.jsx/QuizRapido.jsx.
+              // `respuesta_breve` es el único campo que distingue de forma
+              // confiable el esquema CC/LC de los otros dos (científica de
+              // PC/RC, o cloze de Inglés) — usarlo directo evita el bug real
+              // que tuvo esta función: Inglés no tiene `modo`, así que "no
+              // científica" caía por error en la rama CC/LC
+              // (`respuesta_breve`/`explicacion`/`ejemplo_aplicado`, ninguno
+              // de los cuales existe en sus tarjetas) y la tarjeta
+              // relacionada se mostraba con respuesta y explicación en
+              // blanco, sin ejemplo, aunque el enlace en sí fuera correcto.
               const esCientifica = 'modo' in tarjeta
               const esCloze = esCientifica ? tarjeta.modo === 'cloze' : 'antes' in tarjeta
               const enunciado = esCloze ? `${tarjeta.antes}___${tarjeta.despues}` : tarjeta.pregunta
-              const respuesta = esCientifica ? tarjeta.respuesta : tarjeta.respuesta_breve
-              const explicacion = esCientifica ? tarjeta.regla : tarjeta.explicacion
-              const ejemplo = esCientifica ? tarjeta.ejemplo : tarjeta.ejemplo_aplicado
+              const tieneRespuestaBreve = 'respuesta_breve' in tarjeta
+              const respuesta = tieneRespuestaBreve ? tarjeta.respuesta_breve : tarjeta.respuesta
+              const explicacion = tieneRespuestaBreve ? tarjeta.explicacion : tarjeta.regla
+              const ejemplo = tieneRespuestaBreve ? tarjeta.ejemplo_aplicado : tarjeta.ejemplo
               return (
                 <div key={tarjeta.id} className="panel-teoria-item">
                   <p className="panel-teoria-pregunta">{enunciado}</p>

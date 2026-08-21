@@ -17,10 +17,6 @@ export function claveEjercicios(perfilId) {
   return `${perfilId}:comunicacion-escrita:ejercicios`
 }
 
-export function claveEscritura(perfilId, moduloId) {
-  return `${perfilId}:escritura:${moduloId}`
-}
-
 export function claveQuizRapido(perfilId, moduloId) {
   return `${perfilId}:quiz-rapido:${moduloId}`
 }

@@ -50,19 +50,26 @@ function etiquetaCategoria(clave, categorias) {
 
 // Misma tarjeta de concepto puede venir en 3 esquemas distintos según el
 // módulo (ver PanelExplicacion.jsx, que resuelve el mismo problema para el
-// puente pregunta->teoría del banco de examen): cloze de Inglés
-// (antes/despues/respuesta), "científica" de PC/RC (modo + regla/ejemplo),
-// o pregunta/respuesta_breve/explicacion/ejemplo_aplicado de CC/LC. Este
-// piloto solo tiene contenido para CC, pero detectar el esquema aquí (en
-// vez de asumir el de CC) deja el componente listo para el resto de
-// módulos sin tener que volver a tocarlo.
+// puente pregunta->teoría del banco de examen): cloze de Inglés/RC
+// (antes/despues/respuesta/regla/ejemplo, con o sin `modo`), "científica"
+// de PC/RC (modo + pregunta o antes/despues + regla/ejemplo), o
+// pregunta/respuesta_breve/explicacion/ejemplo_aplicado de CC/LC. El campo
+// `respuesta_breve` es el único que distingue de forma confiable el
+// esquema CC/LC de los otros dos — usarlo directo en vez de inferirlo de
+// `esCientifica` evita el bug real que tuvo PanelExplicacion.jsx: Inglés no
+// tiene `modo`, así que "no científica" caía por error en la rama CC/LC
+// (`respuesta_breve`/`explicacion`/`ejemplo_aplicado`, ninguno de los
+// cuales existe en sus tarjetas) y la tarjeta relacionada se mostraba con
+// respuesta y explicación en blanco, sin ejemplo, aunque el enlace en sí
+// fuera correcto.
 function TarjetaTeoria({ tarjeta }) {
   const esCientifica = 'modo' in tarjeta
   const esCloze = esCientifica ? tarjeta.modo === 'cloze' : 'antes' in tarjeta
   const enunciado = esCloze ? `${tarjeta.antes}___${tarjeta.despues}` : tarjeta.pregunta
-  const respuesta = esCientifica ? tarjeta.respuesta : tarjeta.respuesta_breve
-  const explicacion = esCientifica ? tarjeta.regla : tarjeta.explicacion
-  const ejemplo = esCientifica ? tarjeta.ejemplo : tarjeta.ejemplo_aplicado
+  const tieneRespuestaBreve = 'respuesta_breve' in tarjeta
+  const respuesta = tieneRespuestaBreve ? tarjeta.respuesta_breve : tarjeta.respuesta
+  const explicacion = tieneRespuestaBreve ? tarjeta.explicacion : tarjeta.regla
+  const ejemplo = tieneRespuestaBreve ? tarjeta.ejemplo_aplicado : tarjeta.ejemplo
 
   return (
     <div className="qr-teoria">
