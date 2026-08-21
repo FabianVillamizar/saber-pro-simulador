@@ -48,6 +48,10 @@ function etiquetaCategoria(clave, categorias) {
   return categorias?.[clave] ?? clave
 }
 
+function tarjetaDeItem(item, tarjetasConcepto) {
+  return item.tarjetaId ? tarjetasConcepto.find((t) => t.id === item.tarjetaId) : undefined
+}
+
 // Misma tarjeta de concepto puede venir en 3 esquemas distintos según el
 // módulo (ver PanelExplicacion.jsx, que resuelve el mismo problema para el
 // puente pregunta->teoría del banco de examen): cloze de Inglés/RC
@@ -121,6 +125,7 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
   const [matchDer, setMatchDer] = useState([])
   const [matchPares, setMatchPares] = useState({})
   const [matchPendiente, setMatchPendiente] = useState(null)
+  const [teoriaAbierta, setTeoriaAbierta] = useState(false)
 
   if (cargando) return <div className="page estado-carga">Cargando…</div>
   if (error) return <div className="page estado-error">No se pudo cargar el módulo: {error.message}</div>
@@ -141,6 +146,7 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
     setAcerto(false)
     setSeleccion(null)
     setFillValue('')
+    setTeoriaAbierta(false)
     if (item.formato === 'build') {
       setBanco(barajar(item.fragmentos.map((texto, idx) => ({ texto, idx }))))
       setArmado([])
@@ -366,7 +372,7 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
                   <div className="qr-fallos">
                     {fallos.map((f, i) => {
                       const abierto = falloAbierto === i
-                      const tarjeta = modulo.tarjetasConcepto.find((t) => t.id === f.item.tarjetaId)
+                      const tarjeta = tarjetaDeItem(f.item, modulo.tarjetasConcepto)
                       return (
                         <div key={f.item.id} className="qr-fallo">
                           <p className="qr-fallo-enunciado">{f.item.enunciado}</p>
@@ -412,6 +418,7 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
 
   // ============ PREGUNTA ============
   const item = sesion[indice]
+  const tarjetaRelacionada = tarjetaDeItem(item, modulo.tarjetasConcepto)
 
   function respuestaMostrada() {
     if (item.formato === 'mcq') return seleccion != null ? item.opciones[seleccion] : '(sin responder)'
@@ -645,6 +652,15 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
                 <div className="qr-feedback-explicacion">
                   <TextoConNegritas texto={item.explicacion} />
                 </div>
+                {tarjetaRelacionada && (
+                  <>
+                    <button type="button" className="qr-fallo-toggle" onClick={() => setTeoriaAbierta((a) => !a)}>
+                      <IconoChevronIzquierdo size={12} color="var(--qr-accent)" />
+                      {teoriaAbierta ? 'Ocultar tarjeta relacionada' : 'Ver tarjeta relacionada'}
+                    </button>
+                    {teoriaAbierta && <TarjetaTeoria tarjeta={tarjetaRelacionada} />}
+                  </>
+                )}
               </div>
             )}
 
