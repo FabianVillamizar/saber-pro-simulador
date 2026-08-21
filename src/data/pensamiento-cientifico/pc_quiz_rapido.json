@@ -1,0 +1,692 @@
+[
+  {
+    "id": "PC-QR-001",
+    "tarjetaId": "PC-EST-012",
+    "categoria": "comprender_modelos",
+    "formato": "mcq",
+    "enunciado": "Un experimento de psicología se hace en un laboratorio muy controlado, con condiciones idénticas para todos los participantes. Un crítico señala que esas condiciones tan artificiales podrían no representar bien la vida real. ¿A qué tipo de validez se refiere esta crítica?",
+    "opciones": [
+      "A la validez externa",
+      "A la validez interna",
+      "A la confiabilidad del instrumento",
+      "Al tamaño de la muestra"
+    ],
+    "correcta": 0,
+    "explicacion": "La validez externa mide qué tanto un resultado se generaliza a situaciones reales fuera del experimento, justo la preocupación del crítico. La validez interna es la otra cara de la moneda: qué tan bien el diseño controlado permite concluir causalidad dentro del propio experimento, y suele haber tensión entre maximizar una y la otra."
+  },
+  {
+    "id": "PC-QR-002",
+    "tarjetaId": "PC-EST-014",
+    "categoria": "analizar_concluir",
+    "formato": "mcq",
+    "enunciado": "Para conocer la opinión de los habitantes de una ciudad sobre el transporte público, un investigador encuesta solo a las personas que pasan por una estación de metro específica un martes en la mañana. ¿Qué tipo de sesgo de muestreo afecta este estudio?",
+    "opciones": [
+      "Sesgo de respuesta voluntaria",
+      "Sesgo de muestreo por conveniencia",
+      "Sesgo de supervivencia",
+      "Sesgo de confirmación"
+    ],
+    "correcta": 1,
+    "explicacion": "Es sesgo de muestreo por conveniencia porque la muestra se eligió por ser fácil de conseguir, una estación y un horario, no porque represente a toda la ciudad. El sesgo de respuesta voluntaria es distinto: ocurre cuando la gente elige participar por su cuenta, como en una encuesta abierta en línea, no cuando el investigador elige un lugar cómodo para encuestar."
+  },
+  {
+    "id": "PC-QR-003",
+    "tarjetaId": "PC-EST-015",
+    "categoria": "analizar_concluir",
+    "formato": "mcq",
+    "enunciado": "Una app de reseñas de restaurantes muestra calificaciones mucho más polarizadas, muchas de 5 estrellas y muchas de 1 estrella, que la satisfacción promedio real reportada en encuestas presenciales a todos los comensales. ¿Qué sesgo explica mejor esta diferencia?",
+    "opciones": [
+      "Sesgo de muestreo por conveniencia",
+      "Sesgo de supervivencia",
+      "Sesgo de respuesta voluntaria",
+      "Variable de confusión no controlada"
+    ],
+    "correcta": 2,
+    "explicacion": "Las personas con opiniones más extremas, muy contentas o muy molestas, son las que más se motivan a dejar una reseña por su cuenta, lo que exagera los extremos frente al promedio real. El sesgo de muestreo por conveniencia sería elegir un grupo fácil de encuestar, no que la gente decida participar voluntariamente."
+  },
+  {
+    "id": "PC-QR-004",
+    "tarjetaId": "PC-EST-016",
+    "categoria": "analizar_concluir",
+    "formato": "mcq",
+    "enunciado": "Una revista entrevista solo a atletas que llevan más de 15 años compitiendo profesionalmente para identificar 'los hábitos que llevan al éxito deportivo'. ¿Qué limitación importante tiene esta metodología?",
+    "opciones": [
+      "Sesgo de respuesta voluntaria",
+      "Sesgo de muestreo por conveniencia",
+      "Correlación confundida con causalidad",
+      "Sesgo de supervivencia"
+    ],
+    "correcta": 3,
+    "explicacion": "Es sesgo de supervivencia porque solo analiza a quienes 'sobrevivieron' 15 años en el deporte, sin considerar que atletas con los mismos hábitos pudieron lesionarse o retirarse antes por razones que la muestra nunca captura. El sesgo de respuesta voluntaria sería relevante solo si los atletas hubieran podido decidir libremente sumarse o no al estudio, no por cómo fueron seleccionados."
+  },
+  {
+    "id": "PC-QR-005",
+    "tarjetaId": "PC-EST-017",
+    "categoria": "comprender_modelos",
+    "formato": "mcq",
+    "enunciado": "Un estudiante dice haber 'replicado' el experimento de un compañero porque usó las mismas sustancias y llegó a una conclusión parecida, aunque cambió el orden en que las mezcló y no registró la temperatura del laboratorio ese día. ¿Es esto una verdadera réplica experimental?",
+    "opciones": [
+      "No, porque no controló todas las variables que pudieron afectar el resultado",
+      "Sí, porque usó exactamente los mismos reactivos",
+      "Sí, porque llegar a una conclusión parecida ya es suficiente",
+      "No, porque una réplica siempre debe hacerla la misma persona"
+    ],
+    "correcta": 0,
+    "explicacion": "Una réplica verdadera exige mantener constante todo lo que pueda afectar el resultado, incluido el orden de los pasos y la temperatura cuando son relevantes, no solo usar los mismos materiales. Llegar a una conclusión parecida no basta, porque el estudiante no puede saber si el parecido se debe al mismo fenómeno o a una coincidencia bajo condiciones distintas."
+  },
+  {
+    "id": "PC-QR-006",
+    "tarjetaId": "PC-EST-024",
+    "categoria": "establecer_estrategias",
+    "formato": "mcq",
+    "enunciado": "En un ensayo clínico ya existe un grupo control que recibe placebo, pero tanto los pacientes como el médico que evalúa el dolor saben quién recibió el medicamento real. ¿Qué debilidad tiene este diseño a pesar de tener grupo control?",
+    "opciones": [
+      "La muestra es demasiado pequeña",
+      "Falta cegamiento, así que la expectativa puede sesgar el resultado",
+      "No hay certeza de que el placebo sea inerte",
+      "Falta un segundo grupo control"
+    ],
+    "correcta": 1,
+    "explicacion": "Tener grupo control no elimina el sesgo si pacientes y evaluadores saben qué tratamiento recibió cada quien, porque esa expectativa puede distorsionar tanto lo que el paciente reporta como lo que el médico observa. El cegamiento, ocultar esa información hasta terminar la recolección de datos, es la corrección específica para ese problema, algo distinto al tamaño de la muestra."
+  },
+  {
+    "id": "PC-QR-007",
+    "tarjetaId": "PC-EST-025",
+    "categoria": "analizar_concluir",
+    "formato": "mcq",
+    "enunciado": "Un estudio nota que las personas que desayunan huevo tienen niveles de energía más altos durante el día, sin haber asignado a nadie a desayunar huevo o no. Otro estudio distinto asigna al azar a un grupo similar de personas a desayunar huevo o no durante 4 semanas. ¿Por qué el segundo permite conclusiones más fuertes sobre causalidad?",
+    "opciones": [
+      "Porque duró más semanas que una observación puntual",
+      "Porque midió a más personas que el primer estudio",
+      "Porque la asignación al azar reparte otras diferencias por igual entre los grupos",
+      "Porque preguntó directamente cómo se sentían los participantes"
+    ],
+    "correcta": 2,
+    "explicacion": "El estudio experimental asigna al azar quién desayuna huevo, así que cualquier diferencia sistemática entre las personas, como hábitos de sueño o ejercicio, se reparte por igual entre los grupos y no puede explicar el resultado. El primer estudio es solo observacional: registra una asociación existente, pero personas que ya eligen desayunar huevo podrían diferir de otras formas relevantes."
+  },
+  {
+    "id": "PC-QR-008",
+    "tarjetaId": "PC-RAZ-001",
+    "categoria": "adquirir_interpretar",
+    "formato": "mcq",
+    "enunciado": "Una balanza certificada indica que un objeto de referencia pesa exactamente 500,0 g. Un estudiante lo pesa cinco veces en una balanza de laboratorio y obtiene 512,0, 512,3, 511,8, 512,1 y 512,2 g. ¿Qué se puede concluir sobre esta balanza?",
+    "opciones": [
+      "Es exacta pero no precisa",
+      "Es precisa y exacta a la vez",
+      "No es precisa ni exacta",
+      "Es precisa pero no exacta"
+    ],
+    "correcta": 3,
+    "explicacion": "La precisión mide qué tan cerca están las mediciones entre sí, y aquí las cinco están muy agrupadas. La exactitud mide qué tan cerca está el valor del real, y las cinco se desvían de forma consistente unos 12 g por encima de 500,0 g, un error sistemático que la cercanía entre mediciones no corrige ni disimula."
+  },
+  {
+    "id": "PC-QR-009",
+    "tarjetaId": "PC-RAZ-003",
+    "categoria": "analizar_concluir",
+    "formato": "mcq",
+    "enunciado": "Un estudio encuentra que los barrios con más heladerías también registran más robos de bicicletas. Un concejal concluye que las heladerías atraen a los ladrones de bicicletas. ¿Es válida esta conclusión?",
+    "opciones": [
+      "No, es correlación, no causalidad confirmada",
+      "Sí, la asociación estadística ya es suficiente",
+      "No, el número de heladerías es poco confiable",
+      "Sí, las heladerías generan aglomeraciones fáciles de robar"
+    ],
+    "correcta": 0,
+    "explicacion": "Que dos variables suban juntas no confirma que una cause la otra: los barrios con más tráfico peatonal y densidad de población suelen tener más heladerías y, de forma independiente, más oportunidades de robo. Aceptar la explicación solo porque \"suena lógica\" es exactamente el error que hay que evitar al leer una correlación."
+  },
+  {
+    "id": "PC-QR-010",
+    "tarjetaId": "PC-RAZ-005",
+    "categoria": "establecer_estrategias",
+    "formato": "mcq",
+    "enunciado": "Para saber si un nuevo pienso mejora el peso de pollos de engorde, un granjero compara pollos que ya comen ese pienso en una granja con pollos de otra granja distinta que nunca lo han comido. ¿Qué cambio metodológico reduciría mejor la incertidumbre sobre el efecto real del pienso?",
+    "opciones": [
+      "Observar a más pollos en cada una de las dos granjas",
+      "Medir a los mismos pollos antes y después, o asignar el pienso al azar",
+      "Pesar a los pollos con una balanza más precisa",
+      "Extender el estudio por más semanas"
+    ],
+    "correcta": 1,
+    "explicacion": "Comparar dos granjas distintas confunde el efecto del pienso con cualquier otra diferencia entre ellas, como el clima, el manejo o la genética de los pollos. Medir a las mismas aves antes y después, o asignar el pienso al azar dentro de una sola granja, aísla el efecto del pienso de esas diferencias preexistentes, algo que ni más pollos ni una balanza mejor pueden lograr por sí solos."
+  },
+  {
+    "id": "PC-QR-011",
+    "tarjetaId": "PC-RAZ-007",
+    "categoria": "establecer_estrategias",
+    "formato": "mcq",
+    "enunciado": "Un estudiante varía la cantidad de sal disuelta en agua y mide cuánto tarda el agua en empezar a hervir, manteniendo fijos el volumen de agua y la potencia de la estufa. ¿Cuál es la variable independiente y cuál la dependiente?",
+    "opciones": [
+      "Independiente: el tiempo hasta hervir; dependiente: la sal",
+      "Independiente: el volumen de agua; controlada: la sal",
+      "Independiente: la sal; dependiente: el tiempo hasta hervir",
+      "Independiente: la potencia de la estufa; controlada: el tiempo"
+    ],
+    "correcta": 2,
+    "explicacion": "La variable independiente es la que el investigador manipula a propósito, aquí la cantidad de sal, y la dependiente es la que se mide como consecuencia, aquí el tiempo. El volumen de agua y la potencia de la estufa son variables controladas, mantenidas fijas justamente para que el cambio observado se deba solo a la sal."
+  },
+  {
+    "id": "PC-QR-012",
+    "tarjetaId": "PC-RAZ-019",
+    "categoria": "comprender_modelos",
+    "formato": "mcq",
+    "enunciado": "Un dron vuela en línea recta a velocidad constante de 20 km/h. Un estudiante afirma que, como se está moviendo, debe haber una fuerza neta distinta de cero actuando sobre él. ¿Es correcta esta afirmación?",
+    "opciones": [
+      "Sí, todo objeto en movimiento necesita una fuerza que lo empuje",
+      "Sí, el aire siempre genera una fuerza neta sobre lo que vuela",
+      "No, los drones no obedecen las leyes de Newton",
+      "No, velocidad constante implica fuerza neta cero"
+    ],
+    "correcta": 3,
+    "explicacion": "Que las fuerzas estén equilibradas, fuerza neta cero, significa que la velocidad no cambia, sea esa velocidad cero o constante, no que el objeto esté detenido. Confundir \"fuerza neta cero\" con \"objeto quieto\" es el error más común aquí; un objeto puede moverse en línea recta a velocidad constante con fuerzas perfectamente equilibradas."
+  },
+  {
+    "id": "PC-QR-013",
+    "tarjetaId": "PC-RAZ-020",
+    "categoria": "comprender_modelos",
+    "formato": "mcq",
+    "enunciado": "En un frasco cerrado, la evaporación de un líquido y su condensación de vuelta ocurren a la misma velocidad, y la cantidad de líquido visible ya no cambia. Un estudiante concluye que la evaporación se detuvo. ¿Es correcta esta interpretación?",
+    "opciones": [
+      "No, ambos procesos siguen ocurriendo a la misma velocidad",
+      "Sí, si el nivel no cambia, ningún proceso sigue ocurriendo",
+      "Sí, el equilibrio solo llega cuando todo se evapora",
+      "No, en realidad la condensación se detuvo"
+    ],
+    "correcta": 0,
+    "explicacion": "Un equilibrio dinámico no significa que los procesos se detuvieron, sino que dos procesos opuestos, aquí evaporación y condensación, se compensan exactamente entre sí. Interpretar \"sin cambio observable\" como \"sin actividad\" es el error clásico que confunde equilibrio con reposo."
+  },
+  {
+    "id": "PC-QR-014",
+    "tarjetaId": "PC-RAZ-023",
+    "categoria": "comprender_modelos",
+    "formato": "mcq",
+    "enunciado": "Según la ley de Boyle, a temperatura constante, P·V permanece constante para una cantidad fija de gas. Si el volumen de un gas se reduce a la cuarta parte, ¿qué le pasa a la presión, y qué tipo de proporcionalidad es esta?",
+    "opciones": [
+      "Se reduce a la cuarta parte; proporcionalidad directa",
+      "Se cuadruplica; proporcionalidad inversa",
+      "Se cuadruplica; proporcionalidad directa",
+      "No cambia si la cantidad de gas es constante"
+    ],
+    "correcta": 1,
+    "explicacion": "Si P·V debe permanecer constante y el volumen se reduce a la cuarta parte, la presión tiene que multiplicarse por cuatro para compensar exactamente esa reducción. Es proporcionalidad inversa precisamente porque es el producto, no el cociente, el que se mantiene fijo; llamarla \"directa\" solo por moverse ambas variables al mismo tiempo es el error más común del tema."
+  },
+  {
+    "id": "PC-QR-015",
+    "tarjetaId": "PC-RAZ-025",
+    "categoria": "adquirir_interpretar",
+    "formato": "mcq",
+    "enunciado": "Una gráfica tiene el volumen de agua añadida a una planta en el eje horizontal y la altura de la planta en el eje vertical. Un estudiante la describe diciendo: 'la gráfica muestra cómo cambia el volumen de agua a medida que la planta crece'. ¿Es correcta esta lectura?",
+    "opciones": [
+      "Sí, el orden de la descripción no importa",
+      "Sí, el eje horizontal siempre depende del vertical",
+      "No, la gráfica muestra cómo cambia la altura según el agua añadida",
+      "No se puede saber sin conocer el tipo de planta"
+    ],
+    "correcta": 2,
+    "explicacion": "Quien diseñó el experimento fijó el volumen de agua a propósito, eso es el eje horizontal, y midió la altura como resultado, eso es el eje vertical. Invertir esa lectura y decir que el volumen de agua \"depende\" de la altura describe una relación de causalidad opuesta a la real, aunque las dos variables efectivamente cambien juntas."
+  },
+  {
+    "id": "PC-QR-016",
+    "tarjetaId": "PC-RAZ-033",
+    "categoria": "comprender_modelos",
+    "formato": "mcq",
+    "enunciado": "Un modelo meteorológico predice con buena exactitud si lloverá mañana usando solo patrones de presión atmosférica de los últimos tres días, sin describir ningún proceso físico de formación de nubes. ¿Este modelo explica la lluvia, o solo la predice?",
+    "opciones": [
+      "La explica, porque predecir bien implica entender la causa",
+      "Ni la predice ni la explica",
+      "La explica solo si acierta más del 90 %",
+      "Solo la predice, sin describir el mecanismo físico"
+    ],
+    "correcta": 3,
+    "explicacion": "Anticipar correctamente un resultado a partir de un patrón no equivale a describir el mecanismo que lo produce; el modelo aquí ignora por completo la física de la formación de nubes. Confundir \"predice bien\" con \"explica por qué\" es el error central de este tema, sin importar qué tan alta sea la tasa de acierto del modelo."
+  },
+  {
+    "id": "PC-QR-017",
+    "tarjetaId": "PC-RAZ-036",
+    "categoria": "establecer_estrategias",
+    "formato": "mcq",
+    "enunciado": "En un experimento de germinación de semillas, un estudiante mantiene fijos el tipo de semilla y la temperatura mientras varía la cantidad de agua suministrada. ¿Qué papel cumplen el tipo de semilla y la temperatura en este diseño?",
+    "opciones": [
+      "Son variables controladas",
+      "Son la variable independiente",
+      "Son la variable dependiente",
+      "No cumplen ningún papel relevante"
+    ],
+    "correcta": 0,
+    "explicacion": "Mantener fijos el tipo de semilla y la temperatura garantiza que, si la germinación cambia, ese cambio se pueda atribuir al agua y no a una diferencia oculta entre semillas o condiciones de temperatura. Si esas dos variables también hubieran variado sin control, no habría forma de saber cuál de las tres causó el efecto observado."
+  },
+  {
+    "id": "PC-QR-018",
+    "tarjetaId": "PC-EST-013",
+    "categoria": "analizar_concluir",
+    "formato": "mcq",
+    "enunciado": "Un investigador quiere saber si dormir con ruido blanco mejora la calidad del sueño y puede elegir entre (A) un laboratorio del sueño con condiciones perfectamente controladas, o (B) los propios hogares de los participantes, con más variabilidad pero condiciones cotidianas reales. ¿Qué se sacrifica en cada opción?",
+    "opciones": [
+      "A tiene menor costo; B mayor costo, sin afectar la validez",
+      "A prioriza validez interna; B prioriza validez externa",
+      "Ambas maximizan validez interna y externa por igual",
+      "B siempre es superior por usar condiciones más realistas"
+    ],
+    "correcta": 1,
+    "explicacion": "El laboratorio controla mejor otras variables y fortalece la validez interna, pero sus condiciones artificiales limitan qué tanto el resultado se generaliza a la vida real. Los hogares reales priorizan lo contrario: mayor validez externa, a costa de perder control sobre factores que podrían confundir el resultado, un compromiso real entre ambos tipos de validez, no una opción claramente superior."
+  },
+  {
+    "id": "PC-QR-019",
+    "tarjetaId": "PC-EST-018",
+    "categoria": "analizar_concluir",
+    "formato": "mcq",
+    "enunciado": "Dos cocineros preparan la misma mezcla combinando harina y agua caliente en las mismas cantidades, pero uno vierte el agua sobre la harina y el otro vierte la harina sobre el agua. Obtienen texturas visiblemente distintas. ¿Es válido decir que ambos hicieron 'el mismo procedimiento' porque usaron los mismos ingredientes y cantidades?",
+    "opciones": [
+      "Sí, mismos ingredientes en las mismas cantidades ya lo garantizan",
+      "Sí, el orden de mezcla nunca afecta el resultado",
+      "No, el orden de combinación puede cambiar el resultado",
+      "No se puede saber sin conocer la marca de la harina"
+    ],
+    "correcta": 2,
+    "explicacion": "El orden en que se combinan dos sustancias puede ser una variable crítica cuando afecta la dinámica del proceso, aquí cómo se hidrata la harina, así que dos procedimientos con los mismos materiales no son automáticamente equivalentes. Asumir que \"mismos ingredientes, mismas cantidades\" implica \"mismo resultado\" ignora justamente esa dinámica."
+  },
+  {
+    "id": "PC-QR-020",
+    "tarjetaId": "PC-RAZ-002",
+    "categoria": "adquirir_interpretar",
+    "formato": "mcq",
+    "enunciado": "Un especialista mide la presión arterial de un paciente cuatro veces seguidas con un tensiómetro casero y obtiene 130, 129, 131 y 130 mmHg. Un tensiómetro de hospital, calibrado, mide 118 mmHg en el mismo paciente y momento. ¿Qué describe mejor las mediciones del tensiómetro casero?",
+    "opciones": [
+      "Son exactas pero no precisas",
+      "Son precisas y exactas a la vez",
+      "No son ni precisas ni exactas",
+      "Son precisas pero no exactas"
+    ],
+    "correcta": 3,
+    "explicacion": "Cuatro mediciones muy parecidas entre sí son precisas, sin importar si son correctas; aquí se alejan todas del valor de referencia por unos 12 mmHg, lo que indica un error sistemático del tensiómetro casero, no falta de reproducibilidad. Que los datos coincidan entre sí no garantiza que sean correctos, exactamente el error que se comete al confundir precisión con exactitud."
+  },
+  {
+    "id": "PC-QR-021",
+    "tarjetaId": "PC-RAZ-004",
+    "categoria": "analizar_concluir",
+    "formato": "mcq",
+    "enunciado": "Un analista encuentra que las tiendas con más cajeros registran mayores ventas totales, y concluye que contratar más cajeros causa el aumento de ventas. ¿Qué variable no controlada debilita esta conclusión?",
+    "opciones": [
+      "El tamaño de la tienda",
+      "El horario de atención",
+      "El precio de los productos",
+      "Ninguna, la conclusión ya es válida"
+    ],
+    "correcta": 0,
+    "explicacion": "Cuando dos variables cambian juntas puede haber una tercera que influya sobre ambas: el tamaño de la tienda explicaría por qué hay más cajeros y, por separado, por qué hay más ventas, sin que unos causen lo otro. Aceptar la explicación solo porque \"suena lógica\" es justamente el error que hay que evitar antes de confirmar causalidad."
+  },
+  {
+    "id": "PC-QR-022",
+    "tarjetaId": "PC-RAZ-006",
+    "categoria": "establecer_estrategias",
+    "formato": "mcq",
+    "enunciado": "Para saber si un programa de tutorías mejora las notas, un colegio compara a estudiantes que ya asisten a tutorías (reclutados de un curso avanzado) con estudiantes que nunca asisten (reclutados de un curso distinto). ¿Por qué esta comparación no permite aislar el efecto real de las tutorías?",
+    "opciones": [
+      "Porque las tutorías nunca mejoran las notas de forma medible",
+      "Porque los grupos ya diferían antes en el nivel académico",
+      "Porque comparar dos cursos distintos siempre es inválido",
+      "Porque no incluyó suficientes estudiantes en cada grupo"
+    ],
+    "correcta": 1,
+    "explicacion": "Si los grupos comparados difieren en algo más que la variable estudiada, aquí el nivel académico previo entre un curso avanzado y otro distinto, la diferencia en notas podría deberse a eso y no a las tutorías. La solución real es medir a los mismos estudiantes antes y después, o asignar las tutorías al azar, no simplemente agregar más estudiantes a la comparación."
+  },
+  {
+    "id": "PC-QR-023",
+    "tarjetaId": "PC-RAZ-008",
+    "categoria": "establecer_estrategias",
+    "formato": "mcq",
+    "enunciado": "Un estudiante varía la temperatura del agua y mide cuánto tarda en disolverse completamente una tableta efervescente, manteniendo fijos el tamaño de la tableta y el volumen de agua. ¿Cuál es la variable dependiente en este experimento?",
+    "opciones": [
+      "La temperatura del agua",
+      "El tamaño de la tableta",
+      "El tiempo que tarda en disolverse la tableta",
+      "El volumen de agua"
+    ],
+    "correcta": 2,
+    "explicacion": "La variable dependiente es la que se mide como consecuencia del cambio, aquí el tiempo de disolución; la temperatura es la independiente porque el estudiante la manipula a propósito. El tamaño de la tableta y el volumen de agua son variables controladas, mantenidas fijas justamente para que el resultado se deba solo a la temperatura."
+  },
+  {
+    "id": "PC-QR-024",
+    "tarjetaId": "PC-RAZ-024",
+    "categoria": "comprender_modelos",
+    "formato": "mcq",
+    "enunciado": "En una relación v = k·[A], si la concentración de A se triplica, ¿qué le pasa a v, y por qué es proporcionalidad directa y no inversa?",
+    "opciones": [
+      "Se reduce a la tercera parte; se compensan entre sí",
+      "Se triplica; el producto v·[A] permanece constante",
+      "No cambia; k es la única constante relevante",
+      "Se triplica; el cociente v/[A] permanece constante"
+    ],
+    "correcta": 3,
+    "explicacion": "En v = k·[A], el cociente v/[A] es siempre igual a k, así que si [A] se triplica, v debe triplicarse también para mantener ese cociente constante. Es proporcionalidad directa porque es el cociente el que permanece fijo, no el producto, que es justo lo que caracteriza a la proporcionalidad inversa."
+  },
+  {
+    "id": "PC-QR-025",
+    "tarjetaId": "PC-RAZ-026",
+    "categoria": "adquirir_interpretar",
+    "formato": "mcq",
+    "enunciado": "Una gráfica tiene el tiempo de cocción en el eje horizontal y la dureza de un huevo hervido en el eje vertical. Un estudiante concluye: 'el tiempo de cocción depende de la dureza del huevo'. ¿Es válida esta conclusión?",
+    "opciones": [
+      "No, la dureza depende del tiempo, no al revés",
+      "Sí, el orden de la frase no cambia el significado",
+      "Sí, quien cocina decide el tiempo según la dureza deseada",
+      "No se puede saber sin conocer el tamaño del huevo"
+    ],
+    "correcta": 0,
+    "explicacion": "Quien diseñó el experimento fijó el tiempo de cocción a propósito y midió la dureza resultante, así que la dureza depende del tiempo, no al revés. Decir que el tiempo \"depende\" de la dureza invierte la relación de causalidad real, aunque en la práctica alguien pueda decidir detener la cocción al ver la dureza que prefiere."
+  },
+  {
+    "id": "PC-QR-026",
+    "tarjetaId": "PC-RAZ-034",
+    "categoria": "comprender_modelos",
+    "formato": "mcq",
+    "enunciado": "Un modelo estadístico predice con buena exactitud cuántos clientes visitarán una tienda cada día usando solo el clima y el día de la semana, sin describir ningún proceso psicológico de decisión de compra. ¿Este modelo explica el comportamiento de los clientes, o solo lo predice?",
+    "opciones": [
+      "Lo explica, porque predecir bien exige entender por qué",
+      "Solo lo predice, sin describir el mecanismo psicológico",
+      "Ni lo predice ni lo explica",
+      "Lo explica, siempre que acierte la mayoría de los días"
+    ],
+    "correcta": 1,
+    "explicacion": "El modelo anticipa un resultado a partir de patrones observados, clima y día de la semana, sin identificar el mecanismo psicológico real detrás de la decisión de cada cliente. Un modelo puede predecir bien y aun así no explicar nada sobre por qué ocurre el fenómeno, la misma distinción que separa predicción de explicación en cualquier campo científico."
+  },
+  {
+    "id": "PC-QR-027",
+    "tarjetaId": "PC-QUI-018",
+    "categoria": "comprender_modelos",
+    "formato": "mcq",
+    "enunciado": "En un diagrama de energía de una reacción, el nivel de energía de los productos está por encima del nivel de energía de los reactivos. ¿Qué tipo de reacción es esta, y qué signo tiene su ΔH?",
+    "opciones": [
+      "Exotérmica, con ΔH positivo",
+      "Endotérmica, con ΔH negativo",
+      "Endotérmica, con ΔH positivo",
+      "Exotérmica, con ΔH negativo"
+    ],
+    "correcta": 2,
+    "explicacion": "Si los productos quedan con más energía que los reactivos, el sistema absorbió energía del entorno, eso es una reacción endotérmica, con ΔH positivo por convención. El error más común es cruzar el signo con la dirección equivocada, asociando \"absorber energía\" con un ΔH negativo, cuando negativo corresponde a liberar energía, no a absorberla."
+  },
+  {
+    "id": "PC-QR-028",
+    "tarjetaId": "PC-QUI-012",
+    "categoria": "analizar_concluir",
+    "formato": "mcq",
+    "enunciado": "A una reacción en equilibrio se le agrega un catalizador, sin cambiar la temperatura, la presión ni las concentraciones iniciales. ¿Qué le sucede a la posición del equilibrio y a la velocidad con la que se alcanza?",
+    "opciones": [
+      "El equilibrio se desplaza hacia los productos",
+      "El equilibrio se desplaza hacia los reactivos",
+      "El valor de ΔH de la reacción cambia",
+      "La posición no cambia, pero se alcanza más rápido"
+    ],
+    "correcta": 3,
+    "explicacion": "Un catalizador acelera por igual la reacción directa y la inversa, así que el sistema llega antes al mismo punto de equilibrio, sin desplazarlo hacia ningún lado. Pensar que un catalizador \"ayuda\" a formar más producto en el equilibrio, o que altera el ΔH de la reacción, confunde velocidad con posición del equilibrio, dos cosas que un catalizador nunca afecta de la misma manera."
+  },
+  {
+    "id": "PC-QR-029",
+    "tarjetaId": "PC-QUI-022",
+    "categoria": "analizar_concluir",
+    "formato": "mcq",
+    "enunciado": "En la reacción Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g), el magnesio pasa de número de oxidación 0 a +2, y el hidrógeno del HCl pasa de +1 a 0. ¿Cuál es el agente oxidante?",
+    "opciones": [
+      "El HCl, porque su hidrógeno se reduce",
+      "El Mg, porque se oxida",
+      "El H₂, porque es el producto gaseoso",
+      "El MgCl₂, porque es la sal formada"
+    ],
+    "correcta": 0,
+    "explicacion": "El agente oxidante es la sustancia que provoca la oxidación de otra porque ella misma se reduce, aquí el HCl, cuyo hidrógeno gana electrones. Es un punto de confusión clásico llamar \"agente oxidante\" al Mg solo porque él es quien se oxida; el nombre del agente describe lo que le hace al otro reactivo, no lo que le pasa a sí mismo."
+  },
+  {
+    "id": "PC-QR-030",
+    "tarjetaId": "PC-QUI-038",
+    "categoria": "adquirir_interpretar",
+    "formato": "mcq",
+    "enunciado": "Dos soluciones tienen [H⁺] = 1,0 × 10⁻² M y 1,0 × 10⁻⁵ M respectivamente. ¿Cuál de las dos tiene el pH más alto?",
+    "opciones": [
+      "La de [H⁺] = 1,0 × 10⁻² M, tiene más iones H⁺",
+      "La de [H⁺] = 1,0 × 10⁻⁵ M",
+      "Ambas tienen el mismo pH",
+      "No se puede saber sin el volumen exacto"
+    ],
+    "correcta": 1,
+    "explicacion": "La primera solución tiene pH 2 y la segunda pH 5, así que la de menor concentración de H⁺ tiene el pH más alto, justo lo opuesto de lo que la intuición sugiere. Asumir que más H⁺ significa mayor pH invierte la relación logarítmica real: a mayor [H⁺], menor pH, no al revés."
+  },
+  {
+    "id": "PC-QR-031",
+    "tarjetaId": "PC-QUI-006",
+    "categoria": "adquirir_interpretar",
+    "formato": "mcq",
+    "enunciado": "Un gas está a 27 °C y 1 atm en un recipiente de volumen fijo. Se calienta hasta 54 °C. Un estudiante concluye que la presión se duplicó porque la temperatura se duplicó. ¿Es correcto este razonamiento?",
+    "opciones": [
+      "Sí, la ley de Gay-Lussac es proporcionalidad directa",
+      "No, a volumen constante la temperatura no afecta la presión",
+      "No, duplicar Celsius no duplica los kelvin",
+      "Sí, cualquier escala de temperatura funciona igual aquí"
+    ],
+    "correcta": 2,
+    "explicacion": "27 °C son 300 K y 54 °C son 327 K, así que la temperatura absoluta solo aumentó por un factor de 327/300, no se duplicó, y la presión aumenta en esa misma proporción, no al doble. Usar grados Celsius directamente en una ley de proporcionalidad con la temperatura es uno de los errores más frecuentes en cálculos de gases, porque la proporcionalidad solo es válida en kelvin."
+  },
+  {
+    "id": "PC-QR-032",
+    "tarjetaId": "PC-QUI-036",
+    "categoria": "comprender_modelos",
+    "formato": "mcq",
+    "enunciado": "Una molécula tiene geometría de dominios de electrones tetraédrica, pero su geometría molecular es piramidal trigonal. ¿Cuántos pares de electrones no enlazantes tiene el átomo central?",
+    "opciones": [
+      "Ninguno",
+      "Dos",
+      "Tres",
+      "Uno"
+    ],
+    "correcta": 3,
+    "explicacion": "La geometría de dominios de electrones cuenta todos los pares, enlazantes y solitarios, mientras que la geometría molecular describe solo la posición de los átomos. Con cuatro dominios totales y geometría molecular piramidal trigonal, tres de esos dominios son enlaces reales y uno es un par solitario, la diferencia exacta entre ambas geometrías cuando no coinciden."
+  },
+  {
+    "id": "PC-QR-033",
+    "tarjetaId": "PC-QUI-056",
+    "categoria": "adquirir_interpretar",
+    "formato": "mcq",
+    "enunciado": "Se disuelve una cantidad creciente de un soluto no volátil en un líquido. ¿Qué le pasa a la presión de vapor del líquido a medida que se disuelve más soluto?",
+    "opciones": [
+      "Disminuye",
+      "Aumenta, por más partículas totales disueltas",
+      "No cambia, porque el soluto no es volátil",
+      "Aumenta, solo si el soluto es iónico"
+    ],
+    "correcta": 0,
+    "explicacion": "Según la ley de Raoult, un soluto no volátil reduce la fracción de moléculas de disolvente disponibles para evaporarse, así que la presión de vapor baja al aumentar la concentración de soluto. El error más común es asumir que \"más soluto disuelto\" significa \"más presión de vapor\", cuando el efecto real va en la dirección opuesta."
+  },
+  {
+    "id": "PC-QR-034",
+    "tarjetaId": "PC-QUI-042",
+    "categoria": "adquirir_interpretar",
+    "formato": "mcq",
+    "enunciado": "Un estudiante afirma que 'la solubilidad de cualquier sólido en agua siempre aumenta al subir la temperatura'. ¿Es correcta esta afirmación general?",
+    "opciones": [
+      "Sí, es una ley universal sin excepciones",
+      "No, es la tendencia común, pero hay excepciones",
+      "No, la solubilidad no depende de la temperatura",
+      "Sí, pero solo en compuestos orgánicos"
+    ],
+    "correcta": 1,
+    "explicacion": "Para la mayoría de los sólidos disolverse es endotérmico y la solubilidad sube con la temperatura, pero para algunas sustancias el proceso es exotérmico y la solubilidad baja al calentar. Generalizar la tendencia más común a todos los sólidos sin excepción ignora que el comportamiento depende del signo del cambio de entalpía de disolución de cada sustancia específica."
+  },
+  {
+    "id": "PC-QR-035",
+    "tarjetaId": "PC-QUI-002",
+    "categoria": "adquirir_interpretar",
+    "formato": "mcq",
+    "enunciado": "Se hacen reaccionar 2,0 mol de N₂ con 3,0 mol de H₂ según N₂ + 3H₂ → 2NH₃. ¿Cuál es el reactivo limitante?",
+    "opciones": [
+      "El N₂, porque hay menos moles en total",
+      "Ninguno, sobra exactamente igual de ambos",
+      "El H₂, porque solo alcanza para 1,0 mol de N₂",
+      "No se puede saber sin la temperatura"
+    ],
+    "correcta": 2,
+    "explicacion": "La relación 1:3 exige 6,0 mol de H₂ por cada 2,0 mol de N₂, pero solo hay 3,0 mol de H₂ disponibles, así que el H₂ se agota primero y es el limitante, dejando N₂ en exceso. Elegir el N₂ solo porque tiene menos moles en números absolutos, 2,0 frente a 3,0, ignora la proporción real que exige la ecuación balanceada, el error más común al identificar el reactivo limitante."
+  },
+  {
+    "id": "PC-QR-036",
+    "tarjetaId": "PC-QUI-004",
+    "categoria": "establecer_estrategias",
+    "formato": "mcq",
+    "enunciado": "Un estudiante calcula un rendimiento teórico de 8,00 g para una síntesis, pero al pesar el producto purificado obtiene 6,40 g. ¿Cuál es el rendimiento porcentual, y qué significa un valor menor al 100 %?",
+    "opciones": [
+      "80 %, indica que el experimento falló",
+      "125 %, porque se obtuvo menos de lo esperado",
+      "20 %, la diferencia entre lo esperado y lo obtenido",
+      "80 %, un valor esperado por pérdidas normales"
+    ],
+    "correcta": 3,
+    "explicacion": "El rendimiento porcentual es (6,40/8,00) × 100 % = 80 %, un valor normal porque siempre hay pérdidas físicas del proceso, como producto que queda adherido al vidrio o se pierde en la filtración, incluso en un procedimiento bien ejecutado. Confundirlo con 20 %, la pérdida, o interpretarlo como una falla del experimento, son los dos errores más comunes al leer este resultado."
+  },
+  {
+    "id": "PC-QR-037",
+    "tarjetaId": "PC-QUI-023",
+    "categoria": "adquirir_interpretar",
+    "formato": "mcq",
+    "enunciado": "En una semirreacción, los electrones aparecen del lado de los reactivos, antes de la flecha. ¿Qué tipo de proceso representa esta semirreacción?",
+    "opciones": [
+      "Reducción, gana esos electrones",
+      "Oxidación, pierde electrones",
+      "Neutralización ácido-base",
+      "Precipitación de una sal insoluble"
+    ],
+    "correcta": 0,
+    "explicacion": "Cuando los electrones aparecen del lado de los reactivos, la especie los está consumiendo, es decir, ganándolos, lo que define una reducción. Si aparecieran del lado de los productos, sería oxidación, porque la especie los perdió; fijarse en qué lado están los electrones es la forma más rápida de clasificar una semirreacción sin memorizar números de oxidación completos."
+  },
+  {
+    "id": "PC-QR-038",
+    "tarjetaId": "PC-QUI-050",
+    "categoria": "comprender_modelos",
+    "formato": "mcq",
+    "enunciado": "Un fabricante de pantallas de puntos cuánticos quiere que un punto emita luz roja, de menor energía, en vez de la luz azul que emiten los puntos más pequeños del mismo material. ¿Debería usar puntos cuánticos más grandes o más pequeños?",
+    "opciones": [
+      "Más pequeños, el confinamiento aumenta la energía",
+      "Más grandes, reducen el gap energético",
+      "El tamaño no influye, solo la composición química",
+      "Más pequeños, siempre emiten menos energía"
+    ],
+    "correcta": 1,
+    "explicacion": "El confinamiento cuántico hace que el gap energético dependa inversamente del tamaño de la partícula, así que un punto más grande tiene un gap menor y emite fotones menos energéticos, hacia el rojo. Asumir que el color de emisión depende solo de la composición química, sin considerar el tamaño, ignora justo la variable adicional que hace posible ajustar el color en la tecnología de pantallas QLED."
+  },
+  {
+    "id": "PC-QR-039",
+    "tarjetaId": "PC-QUI-048",
+    "categoria": "analizar_concluir",
+    "formato": "mcq",
+    "enunciado": "Un cromatograma muestra que la señal de un mismo compuesto es el triple de alta en la muestra 1 que en la muestra 2, usando el mismo instrumento, el mismo método y dentro del rango lineal de detección. ¿Es válido concluir que la muestra 1 tiene el triple de concentración que la muestra 2?",
+    "opciones": [
+      "No, nunca es válido comparar intensidades entre muestras",
+      "Solo si además se conociera el color de las soluciones",
+      "Sí, bajo esas condiciones controladas la señal suele ser proporcional",
+      "No, cada muestra tiene un coeficiente de absorción distinto"
+    ],
+    "correcta": 2,
+    "explicacion": "La comparación es válida aquí porque se cumplen las condiciones controladas: mismo compuesto, mismo instrumento, mismo método y dentro del rango lineal, así que la proporcionalidad entre señal y concentración se mantiene. La cautela de \"nunca comparar intensidades directamente\" aplica cuando se comparan sustancias o instrumentos distintos, no cuando todo se mantiene constante salvo la concentración, como en este caso."
+  },
+  {
+    "id": "PC-QR-040",
+    "tarjetaId": "PC-QUI-051",
+    "categoria": "analizar_concluir",
+    "formato": "mcq",
+    "enunciado": "Un estudiante busca en una tabla el punto de fusión del oro, 1064 °C, y lo usa para predecir a qué temperatura fundirá una nanopartícula de oro de 3 nanómetros. ¿Por qué esta predicción probablemente sea incorrecta?",
+    "opciones": [
+      "Porque las tablas de propiedades físicas nunca son confiables",
+      "Porque el oro no tiene un punto de fusión bien definido",
+      "Porque las nanopartículas siempre funden más alto que el material a gran escala",
+      "Porque en la nanoescala hay más átomos superficiales, y eso baja el punto de fusión"
+    ],
+    "correcta": 3,
+    "explicacion": "Los valores tabulados son válidos para el material a gran escala, donde solo una fracción pequeña de átomos está en la superficie; en una nanopartícula esa fracción crece mucho, y esos átomos superficiales, con menos vecinos que los sostengan, hacen que el sólido funda a temperatura más baja. Suponer que las nanopartículas funden más alto invierte exactamente el efecto real, que va en la dirección contraria."
+  },
+  {
+    "id": "PC-QR-041",
+    "tarjetaId": "PC-QUI-011",
+    "categoria": "analizar_concluir",
+    "formato": "mcq",
+    "enunciado": "En el equilibrio 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), se reduce el volumen del recipiente a la mitad, aumentando la presión total, a temperatura constante. ¿Hacia qué lado se desplaza el equilibrio?",
+    "opciones": [
+      "Hacia el SO₃, tiene menos moles de gas",
+      "Hacia los reactivos, tienen más moles de gas",
+      "No se desplaza, el volumen no afecta el equilibrio",
+      "Hacia el SO₃, porque es el producto de interés"
+    ],
+    "correcta": 0,
+    "explicacion": "Los reactivos suman 3 mol de gas (2 de SO₂ más 1 de O₂) y los productos solo 2 mol (2 de SO₃), así que al aumentar la presión el sistema se desplaza hacia el lado con menos moles gaseosos, los productos. Llegar a la misma conclusión pero solo porque el SO₃ \"es el producto que interesa\" no es una razón química válida; hay que contar los moles de cada lado, no asumir cuál resultado es deseable."
+  },
+  {
+    "id": "PC-QR-042",
+    "tarjetaId": "PC-QUI-019",
+    "categoria": "establecer_estrategias",
+    "formato": "mcq",
+    "enunciado": "Se conoce ΔH = −220 kJ para A → B, y ΔH = −150 kJ para C → B. Usando la ley de Hess, ¿cuál es el ΔH para A → C?",
+    "opciones": [
+      "−370 kJ",
+      "−70 kJ",
+      "+70 kJ",
+      "−220 kJ"
+    ],
+    "correcta": 1,
+    "explicacion": "Para llegar de A a C hay que invertir la segunda reacción, B → C con ΔH = +150 kJ, y sumarla a la primera, A → B con ΔH = −220 kJ, dando −220 + 150 = −70 kJ. El error más común es sumar los dos valores originales sin invertir el signo de la reacción que se invierte, obteniendo −370 kJ en vez del valor correcto."
+  },
+  {
+    "id": "PC-QR-043",
+    "tarjetaId": "PC-QUI-021",
+    "categoria": "establecer_estrategias",
+    "formato": "mcq",
+    "enunciado": "En la reacción redox entre Al(s) y Cu²⁺(aq), el Al cede 3 electrones (Al → Al³⁺ + 3e⁻) y cada Cu²⁺ acepta 2 electrones (Cu²⁺ + 2e⁻ → Cu). Para igualar los electrones transferidos con el mínimo común múltiplo, ¿cuántos átomos de Al y cuántos iones Cu²⁺ se necesitan?",
+    "opciones": [
+      "3 átomos de Al y 2 iones Cu²⁺",
+      "1 átomo de Al y 1 ion Cu²⁺",
+      "2 átomos de Al y 3 iones Cu²⁺",
+      "3 átomos de Al y 3 iones Cu²⁺"
+    ],
+    "correcta": 2,
+    "explicacion": "El mínimo común múltiplo entre 3 y 2 electrones es 6: 2 átomos de Al ceden 2×3=6 electrones, y 3 iones Cu²⁺ aceptan 3×2=6 electrones, igualando la transferencia exacta. Invertir los coeficientes, 3 de Al y 2 de Cu²⁺, es el error más común porque da 9 electrones cedidos contra solo 4 ganados, una ecuación que parece balanceada en átomos pero no en electrones."
+  },
+  {
+    "id": "PC-QR-044",
+    "tarjetaId": "PC-QUI-057",
+    "categoria": "plantear_preguntas",
+    "formato": "mcq",
+    "enunciado": "Un estudiante nota que las plantas de su cultivo crecen más rápido cerca de una ventana y propone dos hipótesis: (A) 'las plantas tienen una tendencia natural hacia la luz que no se puede medir'; (B) 'la mayor intensidad de luz cerca de la ventana aumenta la fotosíntesis, y si se mide con un sensor de luz debería haber una correlación medible entre intensidad y crecimiento'. ¿Cuál es una hipótesis falsable?",
+    "opciones": [
+      "La A, suena más natural y directa",
+      "Ninguna, ambas hablan de plantas y luz",
+      "Ambas por igual, las dos proponen una causa",
+      "La B, predice algo comprobable"
+    ],
+    "correcta": 3,
+    "explicacion": "La hipótesis B propone un mecanismo, la fotosíntesis, y una predicción concreta y medible, la correlación con un sensor de luz, que podría resultar falsa si no se cumple. La A solo nombra una \"tendencia natural\" sin proponer ninguna medición que pudiera refutarla, así que no es falsable aunque suene razonable."
+  },
+  {
+    "id": "PC-QR-045",
+    "tarjetaId": "PC-RAZ-031",
+    "categoria": "plantear_preguntas",
+    "formato": "mcq",
+    "enunciado": "Un investigador afirma: 'existe un campo energético que hace que los cristales de cuarzo mejoren la salud, pero ningún instrumento actual o futuro podría llegar a detectarlo directamente'. ¿Por qué esta afirmación no es una hipótesis científica adecuada?",
+    "opciones": [
+      "Porque no admite ningún resultado que la contradiga",
+      "Porque trata sobre cristales, un tema poco serio",
+      "Porque todavía no se ha comprobado experimentalmente",
+      "Porque no incluye ninguna fórmula matemática"
+    ],
+    "correcta": 0,
+    "explicacion": "Al declarar que ningún instrumento, ni presente ni futuro, podría detectar el campo, la afirmación se vuelve inmune a cualquier resultado experimental posible, la definición misma de no ser falsable. No haberse comprobado todavía es distinto de ser incomprobable en principio, y la falta de fórmulas matemáticas no tiene relación con si una hipótesis es científica o no."
+  },
+  {
+    "id": "PC-QR-046",
+    "tarjetaId": "PC-EST-019",
+    "categoria": "plantear_preguntas",
+    "formato": "mcq",
+    "enunciado": "Un protocolo mide el tiempo que tarda una tableta antiácida en disolverse completamente en agua a distintas temperaturas. Un estudiante interpreta que el objetivo del protocolo es 'determinar la cantidad de antiácido que se disuelve'. ¿Es correcta esta interpretación?",
+    "opciones": [
+      "Sí, medir tiempo y cantidad son formas equivalentes",
+      "No, mide velocidad de disolución, no cantidad",
+      "Sí, a mayor temperatura se disuelve más cantidad",
+      "No, el objetivo real es la pureza del antiácido"
+    ],
+    "correcta": 1,
+    "explicacion": "El protocolo registra tiempo hasta la disolución completa a distintas temperaturas, un diseño típico para estudiar velocidad, no para cuantificar cuánto se disuelve, algo que exigiría medir una masa o concentración final. Asociar cualquier medición sobre una disolución con \"determinar cantidad\" ignora que la variable específica registrada aquí, el tiempo, apunta a la rapidez del proceso."
+  }
+]
