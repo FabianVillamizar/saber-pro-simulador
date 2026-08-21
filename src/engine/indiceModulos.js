@@ -83,11 +83,16 @@ export const indiceModulos = {
     // diferencia del CEFR de Inglés), solo el puntaje /300 aproximado más
     // un descriptor de desempeño no-oficial (ver Resultado.jsx).
     soportaSimulacro: true,
-    // Las 3 competencias oficiales del núcleo de Lectura Crítica del ICFES.
+    // Las 3 competencias oficiales del núcleo de Lectura Crítica del ICFES,
+    // más `cultura_general` (referencias mitológicas/históricas, sin
+    // competencia ICFES propia) usada solo como filtro/badge de
+    // QuizRapido.jsx — el banco de examen (`preguntas`) nunca la usa, así
+    // que no aparece como pestaña en Práctica por sub-categoría.
     categorias: {
       identificacion_local: 'Identificación local',
       comprension_global: 'Comprensión global',
       reflexion_evaluacion: 'Reflexión y evaluación',
+      cultura_general: 'Cultura general',
     },
     // Eje ortogonal a `categorias`, reutilizando el mismo mecanismo que
     // Pensamiento Científico usa para núcleo común/específico (ver

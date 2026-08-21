@@ -1,0 +1,407 @@
+[
+  {
+    "id": "LC-QR-001",
+    "tarjetaId": "LC-FIG-005",
+    "categoria": "identificacion_local",
+    "formato": "mcq",
+    "enunciado": "¿Qué figura retórica es esta frase? 'El profesor era un huracán de energía en el salón de clases.'",
+    "opciones": [
+      "metáfora",
+      "símil",
+      "personificación",
+      "hipérbole"
+    ],
+    "correcta": 0,
+    "explicacion": "Es metáfora porque identifica directamente al profesor con un huracán, sin usar un conector comparativo como 'como' o 'parece'. Si dijera 'el profesor era como un huracán', ahí sí sería símil, porque el conector explícito separa los dos términos en vez de fusionarlos."
+  },
+  {
+    "id": "LC-QR-002",
+    "tarjetaId": "LC-FIG-010",
+    "categoria": "identificacion_local",
+    "formato": "mcq",
+    "enunciado": "¿Qué figura retórica es esta frase? 'El estadio entero enmudeció tras el gol.'",
+    "opciones": [
+      "sinécdoque",
+      "metonimia",
+      "metáfora",
+      "personificación"
+    ],
+    "correcta": 1,
+    "explicacion": "Es metonimia porque 'el estadio' representa a las personas que están dentro de él, una relación de contenedor y contenido, no de parte y todo. Sería sinécdoque solo si una parte física del estadio, como las gradas, representara al estadio completo."
+  },
+  {
+    "id": "LC-QR-003",
+    "tarjetaId": "LC-FIG-015",
+    "categoria": "identificacion_local",
+    "formato": "mcq",
+    "enunciado": "Después de que su compañero llegara tres horas tarde sin avisar, ella le dijo con tono cortante: 'Qué puntual eres, de verdad, un ejemplo a seguir.' ¿Qué figura retórica es esta?",
+    "opciones": [
+      "ironía",
+      "hipérbole",
+      "sarcasmo",
+      "antítesis"
+    ],
+    "correcta": 2,
+    "explicacion": "Es sarcasmo porque, además de decir lo contrario de lo que piensa, la intención es humillar directamente a la persona por su impuntualidad. Sería ironía neutral si la misma frase se dijera sin buscar herir a nadie, solo para señalar la situación con humor."
+  },
+  {
+    "id": "LC-QR-004",
+    "tarjetaId": "LC-FIG-020",
+    "categoria": "identificacion_local",
+    "formato": "mcq",
+    "enunciado": "¿Qué figura retórica es esta frase? 'Oh, viento, ¿por qué te llevas mis palabras antes de que alguien las escuche?'",
+    "opciones": [
+      "personificación",
+      "metáfora",
+      "pregunta retórica",
+      "apóstrofe retórico"
+    ],
+    "correcta": 3,
+    "explicacion": "Es apóstrofe retórico porque el texto se dirige directamente al viento en segunda persona, como si pudiera responder. Sería solo personificación si el viento apareciera descrito en tercera persona con rasgos humanos, sin que nadie le hablara directamente."
+  },
+  {
+    "id": "LC-QR-005",
+    "tarjetaId": "LC-FIG-025",
+    "categoria": "identificacion_local",
+    "formato": "mcq",
+    "enunciado": "¿Qué figura retórica es la expresión 'un silencio ensordecedor'?",
+    "opciones": [
+      "oxímoron",
+      "paradoja",
+      "antítesis",
+      "metáfora"
+    ],
+    "correcta": 0,
+    "explicacion": "Es oxímoron porque combina dos palabras opuestas, silencio y ensordecedor, en una frase muy corta de solo dos términos. Sería paradoja si la contradicción se desarrollara a lo largo de una idea más extensa que necesitara explicarse para entenderse como coherente."
+  },
+  {
+    "id": "LC-QR-006",
+    "tarjetaId": "LC-FIG-038",
+    "categoria": "identificacion_local",
+    "formato": "mcq",
+    "enunciado": "En un cuento, cada uno de los siete pasajeros de un barco representa uno de los pecados capitales, y el naufragio final representa el juicio final. ¿Qué figura retórica es esta?",
+    "opciones": [
+      "símbolo",
+      "alegoría",
+      "metáfora",
+      "personificación"
+    ],
+    "correcta": 1,
+    "explicacion": "Es alegoría porque casi toda la estructura del relato, cada pasajero y el naufragio mismo, corresponde a un sistema de ideas paralelo. Sería solo un símbolo si únicamente un elemento del cuento tuviera ese segundo significado, sin que se extendiera al resto de la narración."
+  },
+  {
+    "id": "LC-QR-007",
+    "tarjetaId": "LC-FIG-043",
+    "categoria": "identificacion_local",
+    "formato": "mcq",
+    "enunciado": "¿Qué figura retórica es la expresión 'la fría nieve cubría las montañas'?",
+    "opciones": [
+      "metáfora",
+      "símil",
+      "epíteto",
+      "hipérbole"
+    ],
+    "correcta": 2,
+    "explicacion": "Es epíteto porque 'fría' describe una cualidad que la nieve realmente tiene, aunque sea redundante mencionarla. Sería metáfora si la nieve se identificara con algo que no es literalmente cierto, como llamarla 'manto de la montaña'."
+  },
+  {
+    "id": "LC-QR-008",
+    "tarjetaId": "LC-REF-004",
+    "categoria": "reflexion_evaluacion",
+    "formato": "mcq",
+    "enunciado": "En un debate sobre una reforma tributaria, un concejal responde: 'No hay que hacerle caso a esa propuesta, si él ni siquiera terminó la universidad.' ¿Qué falacia es esta?",
+    "opciones": [
+      "apelación a la autoridad",
+      "hombre de paja",
+      "falsa dicotomía",
+      "ad hominem"
+    ],
+    "correcta": 3,
+    "explicacion": "Es ad hominem porque ataca los estudios de la persona que propone la reforma en vez de responder al contenido de la propuesta. No es apelación a la autoridad, que sería aceptar un argumento solo porque lo dice alguien con prestigio, justo lo opuesto de lo que pasa aquí."
+  },
+  {
+    "id": "LC-QR-009",
+    "tarjetaId": "LC-REF-005",
+    "categoria": "reflexion_evaluacion",
+    "formato": "mcq",
+    "enunciado": "'O apoyas la construcción de la represa, o quieres que el pueblo se quede sin electricidad para siempre.' ¿Qué falacia es esta?",
+    "opciones": [
+      "falsa dicotomía",
+      "pendiente resbaladiza",
+      "generalización apresurada",
+      "hombre de paja"
+    ],
+    "correcta": 0,
+    "explicacion": "Es falsa dicotomía porque presenta solo dos opciones extremas como si fueran las únicas posibles, ignorando alternativas intermedias como otras fuentes de energía. No es pendiente resbaladiza, que encadenaría una serie de consecuencias graves en vez de presentar solo dos opciones fijas."
+  },
+  {
+    "id": "LC-QR-010",
+    "tarjetaId": "LC-REF-006",
+    "categoria": "reflexion_evaluacion",
+    "formato": "mcq",
+    "enunciado": "'Entrevisté a tres vecinos de mi cuadra y los tres dijeron que preferían el candidato B, así que ese candidato va a ganar en toda la ciudad.' ¿Qué falacia es esta?",
+    "opciones": [
+      "correlación y causalidad",
+      "generalización apresurada",
+      "apelación a la autoridad",
+      "circularidad"
+    ],
+    "correcta": 1,
+    "explicacion": "Es generalización apresurada porque extiende la opinión de tres vecinos de una sola cuadra a toda la ciudad, una muestra demasiado pequeña y poco representativa. No es correlación y causalidad, que confundiría dos eventos relacionados en el tiempo, no una muestra pequeña con el total."
+  },
+  {
+    "id": "LC-QR-011",
+    "tarjetaId": "LC-REF-007",
+    "categoria": "reflexion_evaluacion",
+    "formato": "mcq",
+    "enunciado": "'Este suplemento es efectivo porque lo recomienda un actor famoso en su cuenta de redes sociales.' ¿Qué falacia es esta?",
+    "opciones": [
+      "apelación a la emoción",
+      "generalización apresurada",
+      "apelación a la autoridad",
+      "ad hominem"
+    ],
+    "correcta": 2,
+    "explicacion": "Es apelación a la autoridad porque acepta la eficacia del suplemento solo porque lo dice alguien famoso, sin que esa fama implique experticia real en nutrición o medicina. No es apelación a la emoción, que buscaría generar miedo o lástima en vez de apoyarse en el prestigio de alguien."
+  },
+  {
+    "id": "LC-QR-012",
+    "tarjetaId": "LC-REF-008",
+    "categoria": "reflexion_evaluacion",
+    "formato": "mcq",
+    "enunciado": "Un anuncio muestra a un niño llorando junto a un carro viejo y dañado, sin dar ningún dato técnico, para convencer de comprar el carro nuevo del anunciante. ¿Qué falacia es esta?",
+    "opciones": [
+      "apelación a la autoridad",
+      "falsa dicotomía",
+      "correlación y causalidad",
+      "apelación a la emoción"
+    ],
+    "correcta": 3,
+    "explicacion": "Es apelación a la emoción porque busca generar tristeza con la imagen del niño en vez de presentar datos técnicos sobre el carro nuevo. No es falsa dicotomía, que presentaría solo dos opciones como únicas posibles en vez de apelar a un sentimiento."
+  },
+  {
+    "id": "LC-QR-013",
+    "tarjetaId": "LC-REF-009",
+    "categoria": "reflexion_evaluacion",
+    "formato": "mcq",
+    "enunciado": "'Si dejamos que los estudiantes usen el celular en un examen para revisar la hora, pronto lo usarán para copiar, y terminaremos con estudiantes que no saben nada.' ¿Qué falacia es esta?",
+    "opciones": [
+      "pendiente resbaladiza",
+      "falsa dicotomía",
+      "hombre de paja",
+      "generalización apresurada"
+    ],
+    "correcta": 0,
+    "explicacion": "Es pendiente resbaladiza porque afirma que una acción pequeña e inofensiva desencadenará inevitablemente una cadena de consecuencias cada vez más graves, sin evidencia real de que eso vaya a ocurrir. No es falsa dicotomía, que presentaría solo dos opciones fijas en vez de una cadena de pasos."
+  },
+  {
+    "id": "LC-QR-014",
+    "tarjetaId": "LC-REF-010",
+    "categoria": "reflexion_evaluacion",
+    "formato": "mcq",
+    "enunciado": "'Sabemos que esta ley es justa porque es lo correcto, y sabemos que es lo correcto porque la ley lo dice.' ¿Qué falacia es esta?",
+    "opciones": [
+      "correlación y causalidad",
+      "circularidad",
+      "ad hominem",
+      "apelación a la emoción"
+    ],
+    "correcta": 1,
+    "explicacion": "Es circularidad porque usa la misma conclusión que quiere probar, que la ley es justa, como si fuera una razón que la sustenta, sin aportar ninguna evidencia nueva. No es correlación y causalidad, que confundiría dos eventos distintos en vez de dar vueltas sobre la misma idea."
+  },
+  {
+    "id": "LC-QR-015",
+    "tarjetaId": "LC-REF-011",
+    "categoria": "reflexion_evaluacion",
+    "formato": "mcq",
+    "enunciado": "Alguien propone regular las emisiones de las fábricas, y su oponente responde: 'Así que quieres cerrar todas las fábricas y dejar a la gente sin trabajo.' ¿Qué falacia es esta?",
+    "opciones": [
+      "falsa dicotomía",
+      "ad hominem",
+      "hombre de paja",
+      "pendiente resbaladiza"
+    ],
+    "correcta": 2,
+    "explicacion": "Es hombre de paja porque distorsiona la propuesta original de regular emisiones y la exagera hasta convertirla en cerrar fábricas, una posición mucho más fácil de atacar. No es ad hominem, que atacaría a la persona que propone la regulación en vez de distorsionar su propuesta."
+  },
+  {
+    "id": "LC-QR-016",
+    "tarjetaId": "LC-REF-012",
+    "categoria": "reflexion_evaluacion",
+    "formato": "mcq",
+    "enunciado": "'Las ventas de helado y los ahogamientos en piscina suben juntos cada verano, así que comer helado debe causar ahogamientos.' ¿Qué falacia es esta?",
+    "opciones": [
+      "generalización apresurada",
+      "circularidad",
+      "pendiente resbaladiza",
+      "correlación y causalidad"
+    ],
+    "correcta": 3,
+    "explicacion": "Es correlación y causalidad porque asume que dos eventos que ocurren juntos, comer helado y ahogarse, tienen una relación de causa cuando en realidad ambos suben porque hace más calor y hay más gente nadando. No es generalización apresurada, que partiría de una muestra pequeña en vez de confundir dos eventos relacionados."
+  },
+  {
+    "id": "LC-QR-017",
+    "tarjetaId": "LC-FUN-005",
+    "categoria": "comprension_global",
+    "formato": "mcq",
+    "enunciado": "¿Cuál de las siguientes afirmaciones sobre el nuevo puente es un hecho, no una opinión?",
+    "opciones": [
+      "El nuevo puente se inauguró en marzo de 2024.",
+      "El nuevo puente es la obra más importante de la década.",
+      "El nuevo puente demuestra el compromiso del alcalde con el progreso.",
+      "El nuevo puente finalmente le dio a la ciudad la infraestructura que merecía."
+    ],
+    "correcta": 0,
+    "explicacion": "La fecha de inauguración se puede verificar en un registro público, sin importar quién la mencione. Las otras tres opciones usan la existencia del puente como excusa para una valoración personal, la importancia, el compromiso o el merecimiento, que no se puede comprobar de la misma forma."
+  },
+  {
+    "id": "LC-QR-018",
+    "tarjetaId": "LC-FUN-003",
+    "categoria": "comprension_global",
+    "formato": "mcq",
+    "enunciado": "Un texto nunca escribe una sola oración que resuma su postura, pero todos sus párrafos apuntan en la misma dirección. ¿Qué se puede concluir sobre su tesis?",
+    "opciones": [
+      "El texto no tiene tesis.",
+      "Tiene una tesis implícita que se puede reconstruir a partir de los argumentos.",
+      "El texto es puramente informativo, no argumentativo.",
+      "La tesis debe estar necesariamente en la primera oración."
+    ],
+    "correcta": 1,
+    "explicacion": "Cuando todos los argumentos de un texto apuntan hacia la misma conclusión, esa conclusión es la tesis, aunque nunca se escriba como una sola oración para subrayar. Decir que el texto no tiene tesis confunde 'no está escrita explícitamente' con 'no existe'."
+  },
+  {
+    "id": "LC-QR-019",
+    "tarjetaId": "LC-FUN-015",
+    "categoria": "comprension_global",
+    "formato": "mcq",
+    "enunciado": "Texto original: 'La empresa despidió a 200 empleados tras la fusión y anunció un plan de recolocación laboral para la mitad de ellos.' ¿Cuál de estos es un resumen neutral del texto, y no una opinión disfrazada de resumen?",
+    "opciones": [
+      "La empresa hizo un despido masivo injustificado y luego intentó lavar su imagen con un plan insuficiente.",
+      "La empresa demostró responsabilidad social al recolocar a sus empleados despedidos.",
+      "La empresa despidió a 200 personas tras la fusión y ofreció recolocación a la mitad de ellas.",
+      "La empresa se deshizo cruelmente de 200 trabajadores sin ofrecerles nada a cambio."
+    ],
+    "correcta": 2,
+    "explicacion": "El resumen correcto repite exactamente lo que el texto dice, sin agregar valoraciones. Las otras tres opciones añaden juicios que el texto original nunca hizo, injustificado, responsabilidad social o cruelmente, y una de ellas incluso contradice el texto al decir que no se ofreció nada a cambio."
+  },
+  {
+    "id": "LC-QR-020",
+    "tarjetaId": "LC-FUN-001",
+    "categoria": "comprension_global",
+    "formato": "mcq",
+    "enunciado": "'Colombia tiene más de 1.900 especies de aves, más que cualquier otro país del mundo. Esta cifra convierte al país en un destino privilegiado para el aviturismo, una industria que ya genera empleo en varias regiones rurales.' ¿Cuál es la idea principal de este párrafo?",
+    "opciones": [
+      "Colombia tiene más de 1.900 especies de aves.",
+      "El aviturismo genera empleo en zonas rurales.",
+      "Colombia tiene más aves que cualquier otro país.",
+      "Colombia es un destino privilegiado para el aviturismo gracias a su diversidad de aves."
+    ],
+    "correcta": 3,
+    "explicacion": "La idea principal es la que organiza todo el párrafo y explica por qué se mencionan los otros datos. La cifra de especies y el empleo generado son datos de apoyo que sostienen esa idea, no la idea en sí misma, aunque sean los números más fáciles de recordar."
+  },
+  {
+    "id": "LC-QR-021",
+    "tarjetaId": "LC-FUN-017",
+    "categoria": "comprension_global",
+    "formato": "mcq",
+    "enunciado": "Un artículo cita cifras reales de reducción de emisiones de una empresa, pero selecciona solo esas cifras y omite otras que mostrarían un aumento en otro contaminante, todo para convencer al lector de que la empresa es sostenible. ¿Cuál es el propósito dominante de este texto?",
+    "opciones": [
+      "Persuadir, porque selecciona y organiza datos reales para defender una postura.",
+      "Informar, porque todas las cifras que presenta son reales.",
+      "Narrar los eventos de la empresa en orden cronológico.",
+      "Entretener al lector con la historia de la empresa."
+    ],
+    "correcta": 0,
+    "explicacion": "Que los datos sean reales no significa que el propósito sea informar: aquí se seleccionan y organizan para defender una postura específica, ocultando información que la contradiría, y eso es persuasión. Confundir esto con informar es justamente el error más común al evaluar textos que mezclan datos reales con una intención argumentativa."
+  },
+  {
+    "id": "LC-QR-022",
+    "tarjetaId": "LC-CUL-005",
+    "categoria": "cultura_general",
+    "formato": "mcq",
+    "enunciado": "'A pesar de ser el mejor negociador del equipo, su incapacidad para escuchar críticas termina saboteando cada acuerdo que logra cerrar.' ¿Qué referencia cultural describe mejor esta situación?",
+    "opciones": [
+      "una espada de Damocles",
+      "el talón de Aquiles",
+      "una caja de Pandora",
+      "un caballo de Troya"
+    ],
+    "correcta": 1,
+    "explicacion": "El talón de Aquiles describe el único punto débil de alguien que, por lo demás, parece fuerte, justo la incapacidad de escuchar críticas en un negociador por lo demás excelente. Una espada de Damocles sería una amenaza constante e inminente, no un rasgo propio de la persona."
+  },
+  {
+    "id": "LC-QR-023",
+    "tarjetaId": "LC-CUL-006",
+    "categoria": "cultura_general",
+    "formato": "mcq",
+    "enunciado": "'Desde que firmó el contrato con la cláusula de rescisión automática, sabe que en cualquier momento, sin previo aviso, puede perderlo todo.' ¿Qué referencia cultural describe mejor esta situación?",
+    "opciones": [
+      "el talón de Aquiles",
+      "el trabajo de Sísifo",
+      "una espada de Damocles",
+      "el canto de las sirenas"
+    ],
+    "correcta": 2,
+    "explicacion": "Una espada de Damocles representa una amenaza constante e inminente que pende sobre alguien, aunque todo parezca estar en orden, justo la cláusula que puede activarse en cualquier momento. El trabajo de Sísifo describiría un esfuerzo repetitivo que nunca termina, no una amenaza latente."
+  },
+  {
+    "id": "LC-QR-024",
+    "tarjetaId": "LC-CUL-013",
+    "categoria": "cultura_general",
+    "formato": "mcq",
+    "enunciado": "'La aplicación gratuita prometía optimizar la batería del teléfono, pero en realidad instalaba un programa que robaba las contraseñas guardadas.' ¿Qué referencia cultural describe mejor esta situación?",
+    "opciones": [
+      "una caja de Pandora",
+      "una espada de Damocles",
+      "el canto de las sirenas",
+      "un caballo de Troya"
+    ],
+    "correcta": 3,
+    "explicacion": "Un caballo de Troya es algo que se presenta como un beneficio inofensivo pero esconde una amenaza en su interior, justo una aplicación que promete algo útil mientras roba datos por dentro. Una caja de Pandora sería desatar problemas sin querer, no esconder un daño a propósito dentro de un regalo aparente."
+  },
+  {
+    "id": "LC-QR-025",
+    "tarjetaId": "LC-CUL-004",
+    "categoria": "cultura_general",
+    "formato": "mcq",
+    "enunciado": "'Al aprobar esa ley que parecía un simple ajuste administrativo, el gobierno desató sin querer una ola de demandas y conflictos legales que nadie había anticipado.' ¿Qué referencia cultural describe mejor esta situación?",
+    "opciones": [
+      "abrir una caja de Pandora",
+      "un caballo de Troya",
+      "el trabajo de Sísifo",
+      "el talón de Aquiles"
+    ],
+    "correcta": 0,
+    "explicacion": "Abrir una caja de Pandora describe desencadenar sin querer una serie de problemas incontrolables al tomar una decisión que parecía inofensiva, justo lo que pasa con ese ajuste administrativo. Un caballo de Troya implicaría que el daño estaba escondido a propósito desde el principio, no que fuera una consecuencia no anticipada."
+  },
+  {
+    "id": "LC-QR-026",
+    "tarjetaId": "LC-CUL-002",
+    "categoria": "cultura_general",
+    "formato": "mcq",
+    "enunciado": "'Cada vez que limpia la bodega, para el día siguiente vuelve a estar exactamente igual de desordenada, sin importar cuánto se esfuerce.' ¿Qué referencia cultural describe mejor esta situación?",
+    "opciones": [
+      "una caja de Pandora",
+      "el trabajo de Sísifo",
+      "una espada de Damocles",
+      "el canto de las sirenas"
+    ],
+    "correcta": 1,
+    "explicacion": "El trabajo de Sísifo describe un esfuerzo repetitivo y agotador que nunca llega a completarse de forma definitiva, justo la bodega que vuelve a desordenarse cada vez. Una caja de Pandora implicaría liberar problemas nuevos, no repetir el mismo esfuerzo sin avanzar."
+  },
+  {
+    "id": "LC-QR-027",
+    "tarjetaId": "LC-CUL-003",
+    "categoria": "cultura_general",
+    "formato": "mcq",
+    "enunciado": "'La oferta de dinero fácil e inmediato lo sedujo, aunque en el fondo sabía que terminaría arruinado si caía en ella.' ¿Qué referencia cultural describe mejor esta situación?",
+    "opciones": [
+      "un caballo de Troya",
+      "una caja de Pandora",
+      "el canto de las sirenas",
+      "el talón de Aquiles"
+    ],
+    "correcta": 2,
+    "explicacion": "El canto de las sirenas representa una tentación seductora y peligrosa que atrae con promesas atractivas pero conduce a la ruina, justo la oferta de dinero fácil. Un caballo de Troya escondería el daño dentro de algo que parece un regalo, mientras que aquí la persona sabe desde el inicio que la tentación es riesgosa."
+  }
+]
