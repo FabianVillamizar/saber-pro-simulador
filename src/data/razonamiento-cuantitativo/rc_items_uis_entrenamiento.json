@@ -395,7 +395,7 @@
   {
     "id": "RC-GRUPO-072",
     "modulo": "razonamiento_cuantitativo",
-    "contexto_compartido": "En la tabla se presentan las ciudades de origen, el destino y la frecuencia semanal de algunos vuelos ofrecidos por una aerolínea. Se presentan 4 gráficas candidatas:\nGráfica A: barras horizontales con los valores correctos (Bucaramanga–Bogotá=12, Medellín–Barranquilla=14, San Andrés–Barranquilla=7, Pereira–Cartagena=3, Bogotá–Cali=27).\nGráfica B: gráfica de líneas con los mismos 5 valores pero reasignados a rutas distintas (aprox. Bucaramanga–Bogotá=27, Medellín–Barranquilla=3, San Andrés–Barranquilla=7, Pereira–Cartagena=14, Bogotá–Cali=12).\nGráfica C: gráfica circular que etiqueta 12%, 14%, 7%, 3% y 27% directamente, sin recalcular el porcentaje real de cada ruta sobre el total de 63 vuelos semanales.\nGráfica D: barras verticales con los mismos valores reasignados incorrectamente de la gráfica B.",
+    "contexto_compartido": "En la tabla se presentan las ciudades de origen, el destino y la frecuencia semanal de algunos vuelos ofrecidos por una aerolínea. Se presentan 4 gráficas candidatas:\nGráfica A: barras horizontales con Bucaramanga–Bogotá=12, Medellín–Barranquilla=14, San Andrés–Barranquilla=7, Pereira–Cartagena=3 y Bogotá–Cali=27.\nGráfica B: gráfica de líneas con los mismos 5 valores, pero asignados así: Bucaramanga–Bogotá=27, Medellín–Barranquilla=3, San Andrés–Barranquilla=7, Pereira–Cartagena=14 y Bogotá–Cali=12.\nGráfica C: gráfica circular que etiqueta 12%, 14%, 7%, 3% y 27% directamente como porcentajes del total.\nGráfica D: barras verticales con los mismos valores de la gráfica B, asignados de la misma forma.",
     "tipo_visual": "tabla",
     "tabla_filas": {
       "columnas": [
