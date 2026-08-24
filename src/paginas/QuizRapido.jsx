@@ -142,6 +142,15 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
     return () => window.removeEventListener('keydown', onKeyDown)
   }, [])
 
+  // Avanzar con Enter no mueve el foco del teclado por sí solo — sin esto,
+  // tras cargar una pregunta `fill` nueva el input queda sin foco y hay que
+  // hacer clic con el mouse antes de poder escribir.
+  const fillInputRef = useRef(null)
+  const itemActual = cola && cola.length > 0 ? cola[0].item : null
+  useEffect(() => {
+    if (itemActual?.formato === 'fill' && !revelado) fillInputRef.current?.focus()
+  }, [itemActual, revelado])
+
   if (cargando) return <div className="page estado-carga">Cargando…</div>
   if (error) return <div className="page estado-error">No se pudo cargar el módulo: {error.message}</div>
 
@@ -594,6 +603,7 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
                 </p>
                 {!revelado && (
                   <input
+                    ref={fillInputRef}
                     className="qr-fill-input"
                     value={fillValue}
                     onChange={(e) => setFillValue(e.target.value)}
