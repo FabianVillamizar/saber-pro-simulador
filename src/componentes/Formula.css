@@ -2,3 +2,12 @@
 .formula-latex .katex {
   color: inherit;
 }
+
+/* $$...$$ dentro de TextoConFormulas: la ecuación entera queda en su
+   propia línea, con aire arriba/abajo, en vez de correr pegada al
+   texto vecino como hace un $...$ inline. */
+.formula-latex-bloque {
+  display: block;
+  margin: 0.5em 0;
+  text-align: center;
+}
