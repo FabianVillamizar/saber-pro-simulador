@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useModulo } from '../hooks/useModulo.js'
 import { useTheme } from '../hooks/useTheme.js'
 import { leerJSON, escribirJSON } from '../engine/storage.js'
@@ -111,7 +111,8 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
   const [filtros, setFiltros] = useState([])
 
   const [sesion, setSesion] = useState(null)
-  const [indice, setIndice] = useState(0)
+  const [cola, setCola] = useState(null)
+  const [dominadas, setDominadas] = useState(() => new Set())
   const [aciertos, setAciertos] = useState(0)
   const [fallos, setFallos] = useState([])
   const [falloAbierto, setFalloAbierto] = useState(null)
@@ -126,6 +127,20 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
   const [matchPares, setMatchPares] = useState({})
   const [matchPendiente, setMatchPendiente] = useState(null)
   const [teoriaAbierta, setTeoriaAbierta] = useState(false)
+
+  // Enter avanza a la siguiente pregunta una vez revelada la corrección.
+  // Se lee vía ref (no deps) para que el listener global no se reinstale en
+  // cada tecla ni quede con un closure viejo de `siguiente`.
+  const enterHandlerRef = useRef(() => {})
+  useEffect(() => {
+    function onKeyDown(e) {
+      if (e.key !== 'Enter') return
+      e.preventDefault()
+      enterHandlerRef.current()
+    }
+    window.addEventListener('keydown', onKeyDown)
+    return () => window.removeEventListener('keydown', onKeyDown)
+  }, [])
 
   if (cargando) return <div className="page estado-carga">Cargando…</div>
   if (error) return <div className="page estado-error">No se pudo cargar el módulo: {error.message}</div>
@@ -169,15 +184,22 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
     const cantidad = DURACIONES.find((d) => d.id === duracion).cantidad
     const preguntas = barajar(preguntasFiltradas).slice(0, Math.min(cantidad, preguntasFiltradas.length))
     setSesion(preguntas)
-    setIndice(0)
+    setCola(preguntas.map((item) => ({ item, repeticion: false })))
+    setDominadas(new Set())
     setAciertos(0)
     setFallos([])
     setFalloAbierto(null)
     cargarPregunta(preguntas[0])
   }
 
+  function reiniciar() {
+    setSesion(null)
+    setCola(null)
+  }
+
   // ============ CONFIG ============
   if (!sesion) {
+    enterHandlerRef.current = () => {}
     return (
       <div className="page quiz-rapido">
         <div className="barra-superior">
@@ -281,7 +303,8 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
   }
 
   // ============ FINAL ============
-  if (indice >= sesion.length) {
+  if (cola.length === 0) {
+    enterHandlerRef.current = () => {}
     const pct = Math.round((aciertos / sesion.length) * 100)
     let titulo, mensaje
     if (pct >= 90) {
@@ -402,7 +425,7 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
               )}
 
               <div className="qr-final-acciones">
-                <button type="button" className="qr-boton-primario" onClick={() => setSesion(null)}>
+                <button type="button" className="qr-boton-primario" onClick={reiniciar}>
                   Otro Quiz rápido
                 </button>
                 <button type="button" className="qr-boton-secundario" onClick={onVolver}>
@@ -417,7 +440,8 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
   }
 
   // ============ PREGUNTA ============
-  const item = sesion[indice]
+  const entradaActual = cola[0]
+  const item = entradaActual.item
   const tarjetaRelacionada = tarjetaDeItem(item, modulo.tarjetasConcepto)
 
   function respuestaMostrada() {
@@ -454,20 +478,31 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
       ok = item.izq.every((_, i) => matchPares[i] === item.pares[i])
     }
     registrarPracticaParte(perfil.id)
-    if (ok) setAciertos((a) => a + 1)
-    else setFallos((f) => [...f, { item, tuRespuesta: respuestaMostrada(), correcta: respuestaCorrectaTexto() }])
+    if (ok) {
+      setDominadas((d) => new Set(d).add(item.id))
+      if (!entradaActual.repeticion) setAciertos((a) => a + 1)
+    } else if (!entradaActual.repeticion) {
+      setFallos((f) => [...f, { item, tuRespuesta: respuestaMostrada(), correcta: respuestaCorrectaTexto() }])
+    }
     setRevelado(true)
     setAcerto(ok)
   }
 
+  // Si la pregunta actual se falló, vuelve a entrar en la cola ~2 preguntas
+  // después (no de inmediato) para que se repita hasta responderse bien, en
+  // vez de aparecer una sola vez por sesión. El puntaje final (`aciertos`)
+  // y la lista de fallos solo cuentan el primer intento — las repeticiones
+  // son práctica, no vuelven a sumar ni a fallar el resultado.
   function siguiente() {
-    const esUltima = indice + 1 >= sesion.length
-    if (esUltima && perfil.id !== ID_INVITADO) {
+    const restante = cola.slice(1)
+    const nuevaCola = acerto
+      ? restante
+      : [...restante.slice(0, Math.min(2, restante.length)), { item, repeticion: true }, ...restante.slice(Math.min(2, restante.length))]
+    if (nuevaCola.length === 0 && perfil.id !== ID_INVITADO) {
       escribirJSON(claveQuizRapido(perfil.id, moduloId), { fecha: formatoFecha(new Date()), aciertos, total: sesion.length })
     }
-    const siguienteIndice = indice + 1
-    if (siguienteIndice < sesion.length) cargarPregunta(sesion[siguienteIndice])
-    setIndice(siguienteIndice)
+    if (nuevaCola.length > 0) cargarPregunta(nuevaCola[0].item)
+    setCola(nuevaCola)
   }
 
   let listo = false
@@ -476,12 +511,23 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
   else if (item.formato === 'build') listo = armado.length === item.fragmentos.length
   else listo = Object.keys(matchPares).length === item.izq.length
 
-  const progressPct = Math.round((indice / sesion.length) * 100)
+  const progressPct = Math.round((dominadas.size / sesion.length) * 100)
+
+  // Una sola llamada por tecla: si ya se reveló, avanza; si no, envía la
+  // respuesta actual. No deben ser dos handlers separados (uno local en el
+  // input de `fill`, otro global) — React aplica el `setRevelado(true)` de
+  // `comprobar()` de forma síncrona antes de que el evento nativo llegue a
+  // este listener en `window`, así que un solo Enter alcanzaba a revelar
+  // *y* avanzar a la vez, saltándose la pantalla de corrección.
+  enterHandlerRef.current = () => {
+    if (revelado) siguiente()
+    else if (listo) comprobar()
+  }
 
   return (
     <div className="page quiz-rapido">
       <div className="barra-superior">
-        <button type="button" className="boton-volver" onClick={() => setSesion(null)}>
+        <button type="button" className="boton-volver" onClick={reiniciar}>
           ← Detener
         </button>
         <div style={{ flex: 1 }} />
@@ -503,7 +549,7 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
           <div className="qr-content">
             <div className="qr-status">
               <span>
-                {indice + 1} / {sesion.length}
+                {dominadas.size} / {sesion.length} dominadas
               </span>
               <div className="qr-progreso">
                 <div className="qr-progreso-relleno" style={{ width: `${progressPct}%` }} />
@@ -514,6 +560,7 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
             <div className="qr-badges">
               <span className="qr-badge">{ETIQUETA_FORMATO[item.formato]}</span>
               {categorias && <span className="qr-badge qr-badge--suave">{etiquetaCategoria(item.categoria, categorias)}</span>}
+              {entradaActual.repeticion && <span className="qr-badge qr-badge--suave">Repite</span>}
             </div>
 
             <p className="qr-enunciado">{item.enunciado}</p>
@@ -551,9 +598,6 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
                     value={fillValue}
                     onChange={(e) => setFillValue(e.target.value)}
                     placeholder="Escribe tu respuesta…"
-                    onKeyDown={(e) => {
-                      if (e.key === 'Enter') comprobar()
-                    }}
                   />
                 )}
               </div>
@@ -672,7 +716,7 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
               )}
               {revelado && (
                 <button type="button" className="qr-boton-primario" onClick={siguiente}>
-                  {indice + 1 >= sesion.length ? 'Ver resultado' : 'Siguiente'}
+                  {acerto && cola.length === 1 ? 'Ver resultado' : 'Siguiente'}
                   <IconoFlechaDerecha size={14} color="#fff" />
                 </button>
               )}
