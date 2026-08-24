@@ -22,7 +22,7 @@ export function fechaDesdeClave(clave) {
 }
 
 // Fecha oficial del examen Saber Pro que se está preparando.
-export const FECHA_EXAMEN = new Date('2026-09-06')
+export const FECHA_EXAMEN = new Date('2026-10-18')
 
 // Días de calendario completos entre dos fechas (ignora la hora del día,
 // para que "hoy" y "el día del examen" no den un decimal según la hora

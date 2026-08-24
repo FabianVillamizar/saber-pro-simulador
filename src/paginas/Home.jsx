@@ -120,7 +120,7 @@ export function Home({ perfil, onCambiarPerfil, onAbrirModulo, onIrADirecto, onI
 
       <div className="dashboard-saludo">
         <h1>Hola, {perfil.nombre}</h1>
-        <p>Sigue así — cada tarjeta cuenta para el 6 de septiembre.</p>
+        <p>Sigue así — cada tarjeta cuenta para el 18 de octubre.</p>
       </div>
 
       <div
