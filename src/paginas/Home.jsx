@@ -46,6 +46,7 @@ export function Home({ perfil, onCambiarPerfil, onAbrirModulo, onIrADirecto, onI
   const { modulo: razonamientoCuantitativo } = useModulo('razonamiento-cuantitativo')
   const { modulo: comunicacionEscrita } = useModulo('comunicacion-escrita')
   const { modulo: frances } = useModulo('frances')
+  const { modulo: inorganica } = useModulo('inorganica')
   const [mostrandoGate, setMostrandoGate] = useState(null)
 
   useEffect(() => {
@@ -76,6 +77,7 @@ export function Home({ perfil, onCambiarPerfil, onAbrirModulo, onIrADirecto, onI
     'razonamiento-cuantitativo': razonamientoCuantitativo,
     'comunicacion-escrita': comunicacionEscrita,
     frances,
+    inorganica,
   }
   const dominioPorModulo = {}
   for (const [id, mod] of Object.entries(modulosCargados)) {

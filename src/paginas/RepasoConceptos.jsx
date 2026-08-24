@@ -13,6 +13,7 @@ import { ThemeToggle } from '../componentes/ThemeToggle.jsx'
 import { SelectorPerfil } from '../componentes/SelectorPerfil.jsx'
 import { TarjetaFlip } from '../componentes/TarjetaFlip.jsx'
 import { TextoConNegritas } from '../componentes/TextoConNegritas.jsx'
+import { TextoConFormulas } from '../componentes/TextoConFormulas.jsx'
 import { Formula } from '../componentes/Formula.jsx'
 import { VisualCientifico } from '../componentes/VisualCientifico.jsx'
 import { FraseConTokens } from '../componentes/FraseConTokens.jsx'
@@ -399,7 +400,7 @@ export function RepasoConceptos({
                           {tarjeta.despues}
                         </>
                       ) : (
-                        tarjeta.pregunta
+                        <TextoConFormulas texto={tarjeta.pregunta} />
                       )}
                     </div>
                     {tarjeta.formula_latex && (
@@ -566,7 +567,7 @@ export function RepasoConceptos({
                       </>
                     ) : (
                       <span className="repaso-reverso-respuesta">
-                        <TextoConNegritas texto={tarjeta.respuesta} />
+                        <TextoConFormulas texto={tarjeta.respuesta} />
                       </span>
                     )}
                   </div>
@@ -588,7 +589,7 @@ export function RepasoConceptos({
                   <div>
                     <div className="repaso-seccion-label">Regla</div>
                     <div className="repaso-seccion-texto">
-                      <TextoConNegritas texto={tarjeta.regla} />
+                      <TextoConFormulas texto={tarjeta.regla} />
                     </div>
                   </div>
                 )}
@@ -597,7 +598,7 @@ export function RepasoConceptos({
                   <div className="repaso-ejemplo">
                     <div className="repaso-seccion-label repaso-seccion-label--accent">Ejemplo</div>
                     <div className="repaso-ejemplo-texto">
-                      <TextoConNegritas texto={tarjeta.ejemplo} />
+                      <TextoConFormulas texto={tarjeta.ejemplo} />
                     </div>
                   </div>
                 )}
@@ -607,7 +608,7 @@ export function RepasoConceptos({
                   <div>
                     <div className="repaso-seccion-label repaso-seccion-label--warn">Error común</div>
                     <div className="repaso-error-texto">
-                      <TextoConNegritas texto={tarjeta.error_comun} />
+                      <TextoConFormulas texto={tarjeta.error_comun} />
                     </div>
                   </div>
                 </div>
@@ -618,7 +619,7 @@ export function RepasoConceptos({
                     <div>
                       <div className="repaso-seccion-label repaso-seccion-label--exito">Conexión con la vida diaria</div>
                       <div className="repaso-cotidiana-texto">
-                        <TextoConNegritas texto={tarjeta.conexion_cotidiana} />
+                        <TextoConFormulas texto={tarjeta.conexion_cotidiana} />
                       </div>
                     </div>
                   </div>

@@ -349,4 +349,22 @@ export const indiceModulos = {
     },
     adapters: adaptersDiosgenina,
   },
+  inorganica: {
+    id: 'inorganica',
+    nombre: 'Inorgánica · Posgrado',
+    monograma: 'IQ',
+    descripcion: 'Relectura experta de Inorgánica rumbo a un posgrado en química de materiales.',
+    disponible: true,
+    // Autoestudio de posgrado, no hay examen oficial que simular ni banco
+    // de opción múltiple todavía (ver la bitácora del módulo) — igual que
+    // Français, `preguntas` queda vacío y no aplica Simulacro.
+    soportaSimulacro: false,
+    // Un solo tema por ahora (Teoría de Grupos y Simetría Molecular);
+    // cada tema nuevo que Fabián vaya subiendo a Guías/ agrega su propia
+    // entrada aquí, mismo patrón por bloque que ya usa Diosgenina.
+    categorias: {
+      teoria_grupos: 'Teoría de Grupos y Simetría Molecular',
+    },
+    adapters: {},
+  },
 }

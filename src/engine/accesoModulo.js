@@ -1,5 +1,5 @@
-// Visibilidad y acceso de módulos restringidos (hoy "diosgenina" y
-// "frances"). Dos capas independientes:
+// Visibilidad y acceso de módulos restringidos (hoy "diosgenina",
+// "frances" e "inorganica"). Dos capas independientes:
 //   1. Visibilidad por perfil: la tarjeta del módulo ni siquiera existe en
 //      el dashboard para otros perfiles/invitado (ver esVisibleParaPerfil).
 //   2. Código de acceso (opcional, por módulo): una vez visible, un código
@@ -20,6 +20,7 @@ const PERFIL_REQUERIDO_POR_MODULO = {
   diosgenina: 'Fabian',
   frances: 'Fabian',
   'quimica-completa': 'Fabian',
+  inorganica: 'Fabian',
 }
 
 const CODIGOS_ACCESO = {}
