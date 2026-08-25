@@ -1,0 +1,335 @@
+[
+  {
+    "id": "HL-LLE-001",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué la extracción líquido-líquido no se puede tratar con el mismo nivel de certeza matemática en un tubo de ensayo que en una planta industrial?",
+    "respuesta": "Porque el equilibrio de reparto entre dos fases líquidas inmiscibles es termodinámica de soluciones pura en el núcleo (potencial químico, $\\Delta G^\\circ$, coeficientes de actividad), donde sí existen ecuaciones exactas. Pero al sacar la técnica del tubo de ensayo hacia un sistema real, como una planta o una matriz de suelo, aparecen no linealidades que ninguna ecuación de equilibrio predice: formación de terceras fases, cinética de transferencia limitada por difusión, y heterogeneidad de matriz.",
+    "regla": "Un modelo de equilibrio ideal describe correctamente el núcleo termodinámico de un fenómeno, pero deja de predecir el comportamiento en cuanto el sistema real introduce heterogeneidad, cinética limitante o fases adicionales que el modelo no contempla.",
+    "ejemplo": "La Ley de Reparto de Nernst predice con precisión el reparto de un soluto entre agua y éter en un tubo de ensayo limpio, pero no predice si en una planta de extracción de cobre se va a formar una tercera fase que paralice el proceso.",
+    "error_comun": "Asumir que porque una ecuación de equilibrio es exacta en el papel, también va a describir con la misma exactitud un sistema industrial o ambiental real.",
+    "conexion_cotidiana": "Esta misma distinción se repite en cualquier ciencia aplicada: un modelo de gas ideal describe bien un gas diluido, pero deja de predecir el comportamiento cerca del punto de condensación.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "HL-LLE-002",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿En qué momento de un flujo de trabajo experimental real aparece típicamente una extracción líquido-líquido, y qué la precede y qué la sucede?",
+    "respuesta": "La LLE aparece como paso de separación por reparto diferencial en cuatro lugares típicos: preparación de muestra antes de cromatografía o espectroscopía, el work-up de una síntesis orgánica con lavados ácido/base/salmuera, el aislamiento de un producto natural desde una matriz vegetal, o la recuperación industrial a gran escala. Lo que la precede suele ser digestión, hidrólisis o disolución de la matriz; lo que la sucede suele ser concentración por evaporación, derivatización o inyección directa a un instrumento.",
+    "regla": "La LLE no es una reacción, es un paso de separación que transfiere un analito desde una matriz compleja hacia un solvente más simple, siempre entre un paso de preparación de matriz y un paso de concentración o análisis.",
+    "ejemplo": "En la purificación de un producto de síntesis orgánica, después de la reacción se hace un lavado con solución de bicarbonato para quitar el ácido residual, y luego se evapora el solvente orgánico para aislar el producto sólido.",
+    "error_comun": "Pensar en la LLE como un evento aislado de laboratorio, sin ubicarla dentro del flujo completo de trabajo que la justifica.",
+    "conexion_cotidiana": "Reconocer dónde vive un paso técnico dentro de un flujo completo es lo que permite diagnosticar dónde falló un protocolo cuando el resultado final no cuadra.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "HL-LLE-003",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué la condición de equilibrio químico entre dos fases inmiscibles obliga a que el coeficiente de reparto $K_D$ tenga la forma de una exponencial de $\\Delta G^\\circ$?",
+    "respuesta": "En el equilibrio, el soluto debe tener el mismo potencial químico en ambas fases ($\\mu_{i,ac} = \\mu_{i,org}$); si no fuera así seguiría habiendo transferencia neta de materia, por definición de equilibrio. Escribiendo cada potencial químico en términos de actividad e igualando, se despeja $RT\\cdot\\ln(a_{i,org}/a_{i,ac}) = -\\Delta G^\\circ_{transferencia}$, y al exponenciar se obtiene la Ley de Reparto de Nernst.",
+    "regla": "Toda constante de equilibrio termodinámico, incluida $K_D$, nace de igualar potenciales químicos y despejar el cociente de actividades; por eso siempre toma la forma $K = \\exp(-\\Delta G^\\circ/RT)$.",
+    "ejemplo": "Nernst dedujo esta misma ley en 1891 con el razonamiento de potencial químico que después reutilizó, sin cambiarlo en esencia, para derivar su ecuación de electroquímica.",
+    "error_comun": "Tratar $K_D$ como un número empírico sin conexión con la termodinámica, en vez de reconocer que su forma exponencial en $\\Delta G^\\circ$ es una consecuencia directa y obligada de la condición de equilibrio.",
+    "conexion_cotidiana": "La misma lógica de igualar potenciales en el equilibrio es la que explica por qué el agua fluye de un nivel alto a uno bajo hasta igualar la altura, solo que aquí la cantidad que se iguala es el potencial químico, no la altura.",
+    "dificultad": "media",
+    "prereqs": [],
+    "formula_latex": "K_D = \\dfrac{a_{i,org}}{a_{i,ac}} = \\exp\\!\\left(\\dfrac{-\\Delta G^\\circ_{transferencia}}{RT}\\right)"
+  },
+  {
+    "id": "HL-LLE-004",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Bajo qué condiciones exactas el coeficiente de reparto termodinámico $K_D$ coincide con el coeficiente de reparto $P$ que realmente se mide en el laboratorio?",
+    "respuesta": "Coinciden solo cuando se puede asumir solución diluida en ambas fases, con $\\gamma \\approx 1$, de modo que la actividad se aproxima a la concentración, y cuando el soluto es una única especie molecular que no cambia de forma entre las dos fases. Si el soluto se ioniza, se dimeriza o se acompleja, $P$ deja de describir lo que realmente ocurre.",
+    "regla": "$K_D$ es una constante termodinámica basada en actividades y nunca cambia; $P \\approx [i]_{org}/[i]_{ac}$ es su aproximación práctica de concentraciones, válida solo bajo condiciones idealizadas que hay que verificar, no asumir.",
+    "ejemplo": "Para un ácido benzoico neutro en un sistema diluido éter-agua, $P$ es una buena aproximación de $K_D$; pero si ese mismo ácido se ioniza parcialmente en la fase acuosa, lo que se mide ya no es $P$ sino el coeficiente de distribución $D$, que sí depende del pH.",
+    "error_comun": "Usar $P$ y $K_D$ como sinónimos intercambiables sin comprobar que la especie no cambia de forma entre fases ni que la solución es lo bastante diluida.",
+    "conexion_cotidiana": "Es el mismo tipo de distinción que entre un dato teórico de un manual y la medición real de laboratorio: coinciden solo cuando las condiciones idealizadas del manual realmente se cumplen.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-LLE-003"
+    ]
+  },
+  {
+    "id": "HL-LLE-005",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿De qué tres contribuciones moleculares nace realmente el valor de $\\Delta G^\\circ_{transferencia}$, y por qué eso convierte a \"lo semejante disuelve a lo semejante\" en una afirmación cuantitativa?",
+    "respuesta": "$\\Delta G^\\circ_{transferencia}$ es la diferencia neta entre lo que cuesta romper interacciones soluto-solvente en la fase acuosa, formar una cavidad en la fase orgánica, y establecer nuevas interacciones soluto-solvente ahí: energía de cavidad, ligada a la densidad de energía cohesiva del solvente o parámetro de Hildebrand δ; interacciones dispersivas y dipolo-dipolo; y puentes de hidrógeno donde aplique. \"Lo semejante disuelve a lo semejante\" deja de ser una frase intuitiva cuando se traduce en qué tan bien coinciden las densidades de energía cohesiva de soluto y solvente, medidas por los parámetros de Hansen δd, δp y δh.",
+    "regla": "Ninguna preferencia de un soluto por una fase es arbitraria: siempre se puede descomponer en energía de cavidad más interacciones dispersivas, dipolares y de puente de hidrógeno.",
+    "ejemplo": "Un soluto muy polar paga un costo alto de cavidad en un solvente apolar y gana poco en interacciones nuevas, así que su $\\Delta G^\\circ_{transferencia}$ hacia esa fase orgánica es desfavorable.",
+    "error_comun": "Aceptar \"lo semejante disuelve a lo semejante\" como una regla mnemotécnica sin conexión con ninguna magnitud medible, en vez de reconocerla como consecuencia de comparar parámetros de solubilidad reales.",
+    "conexion_cotidiana": "Es la misma razón química por la que el aceite y el agua no se mezclan: el agua tendría que romper su red de puentes de hidrógeno para hacerle espacio a una molécula de aceite, un costo energético que ninguna interacción nueva compensa.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-LLE-003"
+    ]
+  },
+  {
+    "id": "HL-LLE-006",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Cómo se deriva, a partir del balance de masa y la constante de acidez, que el coeficiente de distribución $D$ de un ácido débil dependa del pH aunque el coeficiente de reparto $P$ de la forma neutra no dependa de él?",
+    "respuesta": "Para un ácido débil HA, solo la forma neutra se reparte apreciablemente hacia la fase orgánica. El balance de masa en la fase acuosa es $C_{ac,total} = [HA]_{ac} + [A^-]_{ac}$; usando $K_a = [H^+][A^-]/[HA]$ para sustituir $[A^-]_{ac}$ y dividiendo por el balance total, se llega a $D = [HA]_{org}/C_{ac,total} = P/(1+10^{(pH-pK_a)})$. Para una base débil el resultado es análogo con el signo del exponente invertido: $D = P/(1+10^{(pK_a-pH)})$.",
+    "regla": "$D$ es el cociente entre lo que hay en la fase orgánica y todo lo que hay en la fase acuosa, neutro más ionizado, mientras que $P$ solo describe la forma neutra; por eso $D$ hereda la dependencia con el pH que $P$ nunca tuvo.",
+    "ejemplo": "A pH muy por debajo del $pK_a$ de un ácido domina la forma neutra HA y $D$ se acerca a $P$; a pH muy por encima domina A⁻ y $D$ cae varios órdenes de magnitud por debajo de $P$.",
+    "error_comun": "Aplicar la fórmula de $D$ de un ácido a una base débil sin invertir el signo del exponente, o al revés.",
+    "conexion_cotidiana": "Esta derivación es la base matemática exacta de todo protocolo de extracción y reextracción selectiva por pH en purificación orgánica y en limpieza de muestras analíticas.",
+    "dificultad": "alta",
+    "prereqs": [
+      "HL-LLE-004"
+    ],
+    "formula_latex": "D_{acido} = \\dfrac{P}{1+10^{(pH-pKa)}} \\qquad D_{base} = \\dfrac{P}{1+10^{(pKa-pH)}}"
+  },
+  {
+    "id": "HL-LLE-007",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Cómo se obtiene, a partir de un balance de moles, la fracción de soluto que permanece en la fase acuosa tras una sola extracción?",
+    "respuesta": "Con un balance de moles entre el volumen acuoso $V_{ac}$ y el volumen orgánico $V_{org}$ usado en una etapa, la fracción remanente en la fase acuosa es f₁ = $V_{ac}$/($V_{ac}$ + $K_D$·$V_{org}$). El porcentaje extraído hacia la fase orgánica es simplemente 1 − f₁.",
+    "regla": "La fracción remanente crece con el volumen acuoso y decrece tanto con $K_D$ como con el volumen orgánico usado; los tres factores entran en la misma expresión, no se pueden variar de forma aislada.",
+    "ejemplo": "Con $K_D$=4 y volúmenes iguales de 10 mL, f₁ = 10/(10+4×10) = 0.20, es decir que el 80% del soluto pasó a la fase orgánica en una sola etapa.",
+    "error_comun": "Olvidar que f₁ es la fracción que queda en la fase acuosa, no la fracción extraída, e interpretar el número directamente al revés.",
+    "conexion_cotidiana": "Es la misma lógica de balance que se usa para calcular cuánta sal queda disuelta en un caldo después de colar una porción del líquido hacia otro recipiente.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-LLE-004"
+    ],
+    "formula_latex": "f_1 = \\dfrac{V_{ac}}{V_{ac}+K_D \\cdot V_{org}}"
+  },
+  {
+    "id": "HL-LLE-008",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué dividir un volumen orgánico fijo en varias extracciones pequeñas siempre extrae más soluto que usar todo el volumen en una sola etapa?",
+    "respuesta": "Si el volumen orgánico total se reparte en $n$ porciones iguales y se extrae $n$ veces con solvente fresco, la fracción remanente es $f_n = \\left[\\dfrac{V_{ac}}{V_{ac}+K_D\\cdot(V_{org}/n)}\\right]^n$, que decrece con $n$ porque cada etapa vuelve a aplicar la misma razón de reparto sobre lo que ya quedaba, en vez de diluir un único volumen de solvente sobre todo el soluto de una vez.",
+    "regla": "$f_n$ es una potencia n-ésima de un cociente menor que 1, así que aumentar el número de etapas con el mismo solvente total siempre reduce la fracción remanente, aunque con rendimientos decrecientes.",
+    "ejemplo": "Con $K_D$=4, $V_{ac}$=10 mL y 10 mL de solvente total, una sola extracción recupera 80.0%, tres extracciones de 3.33 mL recuperan 92.1%, y diez extracciones de 1 mL recuperan 96.5%: el salto de 1 a 3 etapas es grande, el de 3 a 10 es pequeño pero exige mucho más trabajo de banco.",
+    "error_comun": "Suponer que repartir el solvente en más y más etapas mejora la recuperación en proporción directa al esfuerzo invertido, en vez de reconocer los rendimientos decrecientes de la función $f_n$(n).",
+    "conexion_cotidiana": "Es la razón cuantitativa, no una superstición de laboratorio, detrás de la práctica estándar de \"tres extracciones\" en el work-up de una síntesis orgánica. El mismo módulo de Diosgenina, bloque ELL, aplica exactamente esta fórmula al protocolo real de 3×25 mL frente a 1×75 mL de DCM.",
+    "dificultad": "alta",
+    "prereqs": [
+      "HL-LLE-007"
+    ],
+    "formula_latex": "f_n = \\left[\\dfrac{V_{ac}}{V_{ac}+K_D \\cdot (V_{org}/n)}\\right]^n",
+    "connects_to": [
+      "diosgenina:ELL"
+    ]
+  },
+  {
+    "id": "HL-LLE-009",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué las fuerzas de dispersión de London, responsables de parte del término dispersivo de $\\Delta G^\\circ_{transferencia}$, no tienen ningún análogo en física clásica?",
+    "respuesta": "Las fuerzas de London surgen de fluctuaciones correlacionadas de la densidad electrónica, es decir, dipolos instantáneos que aparecen y se correlacionan entre moléculas vecinas; ese efecto solo se explica con teoría de perturbaciones de segundo orden en mecánica cuántica, porque la física clásica no admite que una distribución de carga neutra en promedio genere una atracción neta sistemática.",
+    "regla": "Sin mecánica cuántica no se puede explicar por qué la polarizabilidad molecular predice tendencias reales de log $P$, porque el origen físico de la dispersión no existe en ningún marco clásico.",
+    "ejemplo": "Un hidrocarburo apolar tiene una solubilidad acuosa pequeña pero sistemáticamente creciente con el tamaño molecular, y esa tendencia es evidencia experimental directa de que las fuerzas de dispersión escalan con la polarizabilidad, no con ninguna carga neta.",
+    "error_comun": "Tratar las fuerzas de dispersión como una curiosidad menor frente a las interacciones dipolo-dipolo, cuando en realidad son la única fuerza atractiva presente incluso entre moléculas totalmente apolares.",
+    "conexion_cotidiana": "Es el mismo principio que explica por qué un gas noble como el argón, sin ningún momento dipolar, puede licuarse a temperatura suficientemente baja: sin dispersión de London no habría ninguna fuerza atractiva que lo permitiera.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-LLE-005"
+    ]
+  },
+  {
+    "id": "HL-LLE-010",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué el log $P$ es un descriptor central en el diseño de fármacos orales, y qué papel juegan los efectos inductivos y de resonancia de la química orgánica en esa historia?",
+    "respuesta": "Los grupos funcionales de una molécula determinan su $pK_a$ a través de efectos inductivos y de resonancia, y el $pK_a$ determina directamente el coeficiente de distribución $D$ vía la ecuación de pH-dependencia. El log $P$, medido en el sistema octanol-agua, resume esa capacidad de repartirse hacia una fase lipídica, y decide en la práctica si una molécula tiene alguna oportunidad de atravesar membranas y ser absorbida por vía oral, lo que llevó a la Regla de Cinco de Lipinski a usar log $P$ ≤ 5 como uno de sus cuatro criterios de \"drogabilidad\".",
+    "regla": "El diseño molecular de un fármaco no es solo actividad biológica: el log $P$, gobernado por la estructura orgánica de la molécula, decide si esa actividad biológica siquiera llega a su blanco por vía oral.",
+    "ejemplo": "Sustituir un grupo con efecto inductivo electroatractor puede bajar el $pK_a$ de un ácido carboxílico, cambiando el pH al que su forma neutra domina y por tanto su comportamiento de reparto.",
+    "error_comun": "Tratar el log $P$ como una propiedad fija de una molécula, ignorando que en un ácido o base débil el valor que realmente importa en el organismo es $D$, no $P$, porque $D$ varía con el pH fisiológico de cada compartimento.",
+    "conexion_cotidiana": "Es la razón por la que un químico medicinal revisa el log $P$ calculado de una molécula recién sintetizada antes incluso de probarla, porque ese solo número predice si el compuesto tiene alguna posibilidad real de convertirse en un medicamento oral, exactamente la clase de dato que un semillero como Pharmactive necesita saber leer.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-LLE-006"
+    ]
+  },
+  {
+    "id": "HL-LLE-011",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Qué problema resuelve concretamente la LLE cuando se usa como paso de limpieza antes de una inyección a cromatografía de gases o líquidos?",
+    "respuesta": "Una matriz biológica o ambiental compleja, como sangre, suelo digerido o extracto vegetal, contiene miles de componentes que dañarían la columna cromatográfica o interferirían con la detección del analito de interés. La LLE saca selectivamente el analito hacia un solvente simple, dejando atrás la mayor parte de la matriz, antes de que la muestra llegue al instrumento.",
+    "regla": "El control de pH para extracción y reextracción selectiva es la base de casi todo protocolo de limpieza de matriz compleja previo a un análisis cromatográfico.",
+    "ejemplo": "Antes de analizar residuos de plaguicidas en un extracto de alimento por GC, una LLE selectiva por pH separa el analito neutro de interés de otros compuestos ionizados de la matriz que no se necesitan detectar.",
+    "error_comun": "Pensar que la limpieza de matriz es un paso opcional que solo mejora la sensibilidad del análisis, cuando en muchos casos es lo que evita que la columna o el detector se saturen o se dañen.",
+    "conexion_cotidiana": "Es la misma lógica de \"purificar antes de medir\" que se aplica al filtrar el agua antes de analizarla, para no confundir partículas suspendidas con la señal que realmente interesa.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "HL-LLE-012",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué un extractante quelante funciona bien para un metal y no para otro, y qué tiene que ver eso con la teoría de ácidos y bases duros y blandos (HSAB)?",
+    "respuesta": "La teoría HSAB de Pearson tiene su raíz en teoría de orbitales frontera: los ácidos y bases duros, con alta densidad de carga y baja polarizabilidad, prefieren interacción electrostática; los blandos, más polarizables y con HOMO-LUMO más cercanos, prefieren solapamiento orbital y covalencia. Un extractante con átomo donador duro, como el oxígeno fosforilo del fosfato de tributilo (TBP), extrae bien metales duros como UO₂²⁺ o lantánidos; uno con átomo donador blando, como el N/S de la ditizona, extrae bien metales blandos como Hg²⁺ o Pb²⁺.",
+    "regla": "La selectividad de un extractante quelante no es empírica ni arbitraria: coincide con la clasificación dura-blanda del átomo donador del extractante y del metal objetivo.",
+    "ejemplo": "Las oximas (LIX), con átomos donadores de frontera O/N, extraen bien Cu²⁺, un metal también de frontera entre duro y blando.",
+    "error_comun": "Memorizar reglas prácticas como \"usa ditizona para plomo\" sin saber que la razón detrás es exactamente esta coincidencia dura-blanda, lo que impide predecir qué extractante probar frente a un metal nuevo.",
+    "conexion_cotidiana": "El proceso PUREX, usado desde los años 50 para reprocesar prácticamente todo el combustible nuclear gastado del mundo, es LLE industrial pura explotando esta misma selectividad dura: TBP en queroseno extrae selectivamente U(VI) y Pu(IV) como complejos neutros de nitrato.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-LLE-005",
+      "HL-LLE-009"
+    ]
+  },
+  {
+    "id": "HL-LLE-013",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué el coeficiente de distribución suelo-agua $K_d$, usado en ciencia del suelo, es formalmente el mismo objeto matemático que el $K_D$ de la LLE derivado en esta guía?",
+    "respuesta": "$K_d$ describe el mismo equilibrio de reparto, solo que una fase ahora es sólida, el suelo, en vez de líquida. La diferencia real es que la no idealidad es la norma y no la excepción, porque los sitios de sorción de un sólido son heterogéneos, lo que suele exigir isotermas de Freundlich o Langmuir en vez de una constante fija. Los esquemas de Tessier (1979) para especiación de metales en suelo aplican la misma lógica de reparto por etapas, pero para estimar biodisponibilidad, no para purificar.",
+    "regla": "Todo lo que se deriva para una constante de reparto líquido-líquido es transferible, con la salvedad de la heterogeneidad de los sitios de sorción, a un reparto líquido-sólido.",
+    "ejemplo": "Un esquema de Tessier extrae secuencialmente con reactivos de fuerza creciente para separar la fracción de un metal intercambiable, la ligada a óxidos, y la que está en la red mineral, aplicando la lógica de extracciones sucesivas a especiación en vez de purificación.",
+    "error_comun": "Tratar la sorción suelo-agua como un fenómeno distinto a la LLE, cuando comparte el mismo marco de reparto por equilibrio, solo con no idealidad más pronunciada.",
+    "conexion_cotidiana": "Relevante para razonar cuánto cadmio queda retenido en un composito de geopolímero funcionalizado frente a cuánto permanece móvil en el agua del suelo, aunque esta conexión con un proyecto de tesis específico es razonamiento a partir del tema, no verificación del protocolo exacto de ese trabajo.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-LLE-007",
+      "HL-LLE-008"
+    ]
+  },
+  {
+    "id": "HL-LLE-014",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Cómo puede un mismo descriptor, el log $K_{ow}$, predecir a la vez la bioacumulación de un contaminante y ser la base física de un método analítico usado en control de residuos de alimentos?",
+    "respuesta": "El log $K_{ow}$ predice qué tanto un compuesto se acumula en tejido graso frente a permanecer disuelto en agua, y es el descriptor central del factor de bioconcentración (BCF) en modelos ambientales y en los criterios PBT (persistente-bioacumulable-tóxico) de regulación química europea. El método QuEChERS, estándar mundial para residuos de plaguicidas en alimentos de exportación, es en el fondo una LLE asistida por sal: partición hacia acetonitrilo forzada con MgSO₄/NaCl, la misma matemática de reparto de esta guía con salting-out.",
+    "regla": "Un mismo coeficiente de reparto describe simultáneamente el destino ambiental de una molécula y el fundamento de la técnica que se usa para medirla en el laboratorio.",
+    "ejemplo": "Un plaguicida con log $K_{ow}$ alto tiende tanto a bioacumularse en tejido graso en el ambiente como a repartirse eficientemente hacia el acetonitrilo en un análisis QuEChERS, porque ambos fenómenos dependen del mismo tipo de afinidad por una fase orgánica.",
+    "error_comun": "Ver el log $K_{ow}$ como un dato puramente ambiental sin relación con el método analítico que se usa para cuantificar el propio contaminante.",
+    "conexion_cotidiana": "Un informe de límites máximos de residuos para exportación de alimentos a la Unión Europea se apoya, en el fondo, en esta misma física de reparto, algo directamente relevante para cualquier consultoría de cumplimiento ambiental que tenga que interpretar o defender ese tipo de informe.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-LLE-006",
+      "HL-LLE-012"
+    ]
+  },
+  {
+    "id": "HL-LLE-015",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué reemplazar un solvente orgánico molecular clásico por un líquido iónico o un disolvente eutéctico profundo (DES) cambia el balance de términos de $\\Delta G^\\circ_{transferencia}$, y qué papel juega COSMO-RS en esta frontera?",
+    "respuesta": "Cuando el \"solvente\" está hecho de iones grandes en vez de moléculas neutras, la energía de cavidad y las interacciones dispersivas cambian de naturaleza, así que los términos de $\\Delta G^\\circ_{transferencia}$ ya no pesan igual que en un solvente molecular clásico, abriendo la puerta a medios de extracción \"verdes\" con selectividades distintas. COSMO-RS, un método que usa mecánica cuántica (DFT con solvatación continua) para predecir coeficientes de reparto antes de pisar el laboratorio, ya es una herramienta industrial real y la aplicación moderna del mismo argumento cuántico del origen de la dispersión.",
+    "regla": "La frontera de investigación en LLE no cambia la termodinámica de fondo de esta guía, cambia qué términos de $\\Delta G^\\circ_{transferencia}$ dominan según de qué está hecho el solvente.",
+    "ejemplo": "BASF, entre otras, usa COSMO-RS como herramienta industrial de cribado antes de decidir qué solvente probar experimentalmente.",
+    "error_comun": "Suponer que la predicción computacional de $K_D$ ya reemplaza la medición experimental; sigue siendo cribado, no reemplazo total cuando la precisión importa, por ejemplo en un contexto regulatorio.",
+    "conexion_cotidiana": "Discusión abierta del semillero, sin una única respuesta esperada: al pasar a un líquido iónico, cavidad y dipolo-dipolo son los términos que más cambian de naturaleza, mientras el argumento cuántico de la dispersión sigue aplicando en ambos casos; vale la pena defenderlo por escrito, no darlo por sentado.",
+    "dificultad": "alta",
+    "prereqs": [
+      "HL-LLE-005",
+      "HL-LLE-009"
+    ]
+  },
+  {
+    "id": "HL-LLE-016",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Qué complicación real de la extracción industrial de cobre por solventes (SX-EW) escapa por completo a la ecuación simple de $K_D$?",
+    "respuesta": "En un proceso SX-EW con extractantes tipo oxima (LIX) y mezcladores-sedimentadores en contracorriente, el cálculo de etapas teóricas, tipo Kremser o McCabe-Thiele, sigue la misma lógica de reparto por etapas de esta guía. Pero un fenómeno emergente llamado \"crud\" o tercera fase, formado por partículas sólidas finas más productos de degradación con carácter tensioactivo, puede estabilizar una emulsión que paralice la planta, y ninguna ecuación de $K_D$ simple lo predice.",
+    "regla": "El cálculo de etapas teóricas en contracorriente extiende el modelo ideal de reparto a una operación industrial completa, pero la formación de una tercera fase es un fenómeno de sistema complejo que ese mismo modelo no contempla.",
+    "ejemplo": "El mismo problema de tercera fase aparece en PUREX a escala nuclear, no es exclusivo de la hidrometalurgia de cobre.",
+    "error_comun": "Diseñar una planta de extracción por solventes basándose únicamente en el número de etapas teóricas que predice $K_D$, sin anticipar el riesgo de formación de tercera fase.",
+    "conexion_cotidiana": "Es un recordatorio concreto de que el modelo ideal de dos fases limpias y la realidad de una planta industrial no siempre coinciden, la misma advertencia con la que abre esta guía.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-LLE-007",
+      "HL-LLE-008",
+      "HL-LLE-012"
+    ]
+  },
+  {
+    "id": "HL-LLE-017",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Qué papel juega la extracción líquido-líquido en la purificación clásica de una sapogenina esteroidal como la diosgenina, después de la hidrólisis ácida de las saponinas del ñame?",
+    "respuesta": "En la literatura, tras la hidrólisis ácida de las saponinas del ñame, la etapa típica de purificación es un reparto líquido-líquido de la sapogenina liberada hacia un solvente orgánico como éter de petróleo o cloroformo, separándola del hidrolizado acuoso. La baja solubilidad acuosa de la forma neutra de la sapogenina es exactamente el tipo de comportamiento que predice el marco de reparto derivado en esta guía.",
+    "regla": "El mismo razonamiento de reparto que separa un ácido orgánico simple de una fase acuosa aplica a moléculas mucho más complejas, como una sapogenina esteroidal, siempre que la forma que domina en las condiciones de trabajo tenga baja solubilidad acuosa.",
+    "ejemplo": "Un precipitado blanquecino que aparece tras neutralizar un hidrolizado ácido es consistente con una sapogenina de baja solubilidad acuosa saliendo de solución, el mismo comportamiento que predeciría esta guía para la forma neutra de un soluto poco polar.",
+    "error_comun": "Asumir que técnicas \"clásicas\" de purificación de productos naturales no tienen el mismo fundamento termodinámico riguroso que un ejemplo de laboratorio analítico simple.",
+    "conexion_cotidiana": "El módulo de Diosgenina de este mismo simulador (bloque ELL) ya cubre el protocolo real de reparto con DCM paso a paso, densidad de fases, emulsiones y todo; esta tarjeta conecta ese protocolo concreto con su fundamento termodinámico, aunque el vínculo con el precipitado exacto reportado es un razonamiento a partir de lo que se sabe del proyecto, no una verificación del protocolo seguido en el semillero.",
+    "dificultad": "baja",
+    "prereqs": [
+      "HL-LLE-006",
+      "HL-LLE-007"
+    ],
+    "connects_to": [
+      "diosgenina:ELL"
+    ]
+  },
+  {
+    "id": "HL-LLE-018",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué el \"salting-out\" no es un truco empírico sin fundamento, sino la explotación deliberada de que $\\gamma$ no siempre vale 1?",
+    "respuesta": "A concentraciones altas o fuerza iónica alta, la actividad de un soluto se aleja mucho de su concentración, es decir $\\gamma \\neq 1$. Agregar sal a la fase acuosa aumenta la actividad efectiva del soluto orgánico disuelto en agua, lo que empuja el equilibrio y aumenta el $K_D$ medido de muchos compuestos orgánicos. QuEChERS explota exactamente este efecto con MgSO₄/NaCl para forzar la partición hacia acetonitrilo.",
+    "regla": "Asumir $\\gamma = 1$ es una simplificación válida solo a baja concentración y baja fuerza iónica; a concentraciones altas es un error real, no una aproximación razonable.",
+    "ejemplo": "El mismo compuesto orgánico puede repartirse de forma notablemente distinta hacia la fase orgánica en agua pura frente a una salmuera saturada, aunque su $K_D$ termodinámico verdadero no haya cambiado.",
+    "error_comun": "Confundir un aumento de $K_D$ aparente por salting-out con un cambio real en la naturaleza química del soluto o del solvente.",
+    "conexion_cotidiana": "Es la misma razón por la que un lavado con salmuera al final de un work-up orgánico ayuda a separar mejor las fases y a reducir la cantidad de producto orgánico que queda disuelto en el agua de lavado.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-LLE-003",
+      "HL-LLE-004"
+    ]
+  },
+  {
+    "id": "HL-LLE-019",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué un $K_D$ termodinámicamente muy favorable no garantiza que una extracción sea rápida en la práctica?",
+    "respuesta": "$K_D$ describe únicamente el estado de equilibrio, es decir, hacia dónde se inclina el reparto una vez que el sistema deja de cambiar. Pero la velocidad con la que el soluto realmente cruza la interfase entre las dos fases es un problema de difusión completamente separado, gobernado por la cinética de transferencia de masa, que puede ser lenta en solventes viscosos o en interfases estabilizadas por tensioactivos.",
+    "regla": "Termodinámica y cinética responden preguntas distintas: una dice si el reparto es favorable en el equilibrio, la otra dice qué tan rápido se llega a ese equilibrio; un valor favorable de una no dice nada sobre la otra.",
+    "ejemplo": "Dos sistemas con el mismo $K_D$ pueden tardar tiempos muy distintos en alcanzar el equilibrio si uno usa un solvente mucho más viscoso que el otro, porque la viscosidad afecta la difusión, no el reparto termodinámico final.",
+    "error_comun": "Concluir que una extracción \"no funcionó\" porque no se completó en el tiempo de agitación usado, cuando el problema real puede ser cinético y no termodinámico.",
+    "conexion_cotidiana": "Es la misma distinción que existe entre que una reacción sea termodinámicamente favorable y que ocurra rápido: el diamante es termodinámicamente menos estable que el grafito a temperatura ambiente, pero la conversión es tan lenta que no se observa en la práctica.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-LLE-003"
+    ]
+  }
+]

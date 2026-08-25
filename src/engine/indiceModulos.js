@@ -367,4 +367,33 @@ export const indiceModulos = {
     },
     adapters: {},
   },
+  'habilidades-laboratorio': {
+    id: 'habilidades-laboratorio',
+    nombre: 'Habilidades de Laboratorio',
+    monograma: 'HL',
+    descripcion: 'Repaso semanal del semillero Pharmactive: cada técnica de laboratorio derivada desde primeros principios.',
+    disponible: true,
+    // Semillero académico, no examen oficial — igual que Inorgánica/Français,
+    // `preguntas` queda vacío y no aplica Simulacro (ver bitácora del módulo).
+    soportaSimulacro: false,
+    // Una técnica por ahora (Extracción Líquido-Líquido); cada técnica nueva
+    // que el semillero repase agrega su propia entrada aquí, mismo patrón
+    // por bloque que ya usan Diosgenina e Inorgánica.
+    categorias: {
+      lle: 'Extracción Líquido-Líquido',
+    },
+    // Este módulo escribe símbolos matemáticos inline ($K_D$, $V_{ac}$,
+    // etc.) en enunciados/opciones de Quiz Rápido y Lápiz y papel, no solo
+    // en tarjetas de concepto. Otros módulos (RC, Diosgenina) usan "$" para
+    // montos de dinero en esos mismos campos ("$102", "$1.000.000"), y un
+    // "$...$" sin escapar ahí rompería el render si QuizRapido.jsx/
+    // PracticarLapizPapel.jsx trataran cualquier "$" como delimitador de
+    // fórmula — por eso el render con TextoConFormulas en esos dos
+    // componentes es opt-in por módulo, no global. Activar esta bandera
+    // solo si el módulo nuevo de verdad usa LaTeX inline fuera de las
+    // tarjetas de concepto (que sí usan TextoConFormulas siempre, ver
+    // RepasoConceptos.jsx) y no tiene montos de dinero en esos campos.
+    renderizaFormulas: true,
+    adapters: {},
+  },
 }

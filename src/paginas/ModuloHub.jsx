@@ -108,7 +108,6 @@ export function ModuloHub({ moduloId, perfil, onCambiarPerfil, onVolver, onSelec
 
   const esFrances = moduloId === 'frances'
   const esComunicacionEscrita = moduloId === 'comunicacion-escrita'
-  const esRazonamientoCuantitativo = moduloId === 'razonamiento-cuantitativo'
 
   // "Práctica por sub-categoría" solo tiene sentido si el módulo tiene
   // preguntas — francés, por ejemplo, es solo repaso de conceptos porque
@@ -134,7 +133,13 @@ export function ModuloHub({ moduloId, perfil, onCambiarPerfil, onVolver, onSelec
             // cada una de las 362 tarjetas cloze, mecánicamente, así que
             // conserva la misma cobertura completa que tenía ese modo).
             .filter((modo) => modo.id !== 'quiz-rapido' || modulo.quizRapido.length > 0),
-          ...(esRazonamientoCuantitativo ? [MODO_LAPIZ_PAPEL_RC] : []),
+          // Gateado por el propio banco de ejercicios (`modulo.lapizPapel`,
+          // ver loadModulos.js), no por moduloId: cualquier módulo de
+          // opción múltiple normal que agregue ejercicios de este tipo
+          // gana el botón automáticamente, sin tocar este archivo de nuevo
+          // (introducido para RC, reutilizado tal cual por Habilidades de
+          // Laboratorio).
+          ...(modulo.lapizPapel.length > 0 ? [MODO_LAPIZ_PAPEL_RC] : []),
         ]
 
   const esDiosgenina = moduloId === 'diosgenina'

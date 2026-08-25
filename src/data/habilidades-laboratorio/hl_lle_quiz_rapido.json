@@ -1,0 +1,397 @@
+[
+  {
+    "id": "HL-QR-001",
+    "tarjetaId": "HL-LLE-003",
+    "categoria": "lle",
+    "formato": "mcq",
+    "enunciado": "En el equilibrio de reparto entre dos fases inmiscibles, ¿por qué la igualdad de potencial químico obliga a que $K_D$ tenga la forma de una exponencial de $\\Delta G^\\circ$?",
+    "opciones": [
+      "Porque al despejar la igualdad de potenciales en términos de actividad aparece un logaritmo, y exponenciar para aislar el cociente de actividades da una exponencial de $\\Delta G^\\circ/RT$.",
+      "Porque Nernst ajustó una curva exponencial a datos experimentales de reparto entre fases, sin que ninguna relación termodinámica previa exigiera esa forma matemática en particular.",
+      "Porque el potencial químico crece de forma proporcional al cuadrado de la concentración, y ese exponente cuadrático se traslada directamente a la expresión final de $K_D$.",
+      "Porque la actividad de una especie siempre resulta proporcional al logaritmo de su concentración, lo que introduce artificialmente el término exponencial en la fórmula de $K_D$."
+    ],
+    "correcta": 0,
+    "explicacion": "La forma exponencial no es un ajuste empírico: es la consecuencia matemática directa de igualar dos potenciales químicos escritos en términos de actividad."
+  },
+  {
+    "id": "HL-QR-002",
+    "tarjetaId": "HL-LLE-004",
+    "categoria": "lle",
+    "formato": "mcq",
+    "enunciado": "Un estudiante mide el reparto de un ácido carboxílico entre agua y diclorometano a pH 7, donde el ácido está parcialmente ionizado, y reporta el resultado como $P$. ¿Qué error cometió?",
+    "opciones": [
+      "No cometió ningún error, porque $P$ y $K_D$ describen exactamente lo mismo siempre que la medición se haga a temperatura y presión constantes.",
+      "Confundió $P$ con $D$: al haber una especie ionizada presente en el equilibrio, lo que realmente midió es el coeficiente de distribución $D$, que depende del pH, no $P$.",
+      "El error fue no corregir el resultado por la diferencia de densidad entre las dos fases antes de calcular el cociente de concentraciones medidas.",
+      "El error fue elegir diclorometano en vez de éter etílico, que es el único solvente aceptado formalmente para reportar un valor de $P$."
+    ],
+    "correcta": 1,
+    "explicacion": "$P$ describe solo la forma neutra de una especie; en cuanto hay ionización presente, lo que se mide es $D$, y $D$ sí depende del pH."
+  },
+  {
+    "id": "HL-QR-003",
+    "tarjetaId": "HL-LLE-005",
+    "categoria": "lle",
+    "formato": "mcq",
+    "enunciado": "¿Qué comparación cuantitativa reemplaza correctamente la frase intuitiva \"lo semejante disuelve a lo semejante\" al evaluar si un soluto se repartirá bien hacia un solvente orgánico?",
+    "opciones": [
+      "Comparar los puntos de ebullición del soluto y del solvente, ya que una diferencia térmica grande predice mala afinidad de reparto.",
+      "Comparar las masas molares del soluto y del solvente, porque una molécula mucho más pesada casi nunca se reparte bien hacia él.",
+      "Comparar las densidades de energía cohesiva de soluto y solvente mediante los parámetros de Hansen δd, δp y δh.",
+      "Comparar el número de átomos de carbono de las dos moléculas, ya que cadenas de longitud similar predicen buena afinidad entre ellas."
+    ],
+    "correcta": 2,
+    "explicacion": "Los parámetros de Hansen traducen la intuición de afinidad química en números comparables, derivados de la misma energía de cavidad e interacciones que componen $\\Delta G^\\circ_{transferencia}$."
+  },
+  {
+    "id": "HL-QR-004",
+    "tarjetaId": "HL-LLE-006",
+    "categoria": "lle",
+    "formato": "mcq",
+    "enunciado": "Para un ácido débil con $pK_a$=4.2, ¿en qué rango de pH domina la forma ionizada A⁻ y el coeficiente de distribución $D$ cae muy por debajo de $P$?",
+    "opciones": [
+      "A cualquier pH, porque el coeficiente $D$ siempre resulta menor que $P$ sin importar qué tan ácida o básica sea la fase acuosa.",
+      "Únicamente a un pH exactamente igual al $pK_a$, donde las concentraciones de HA y de A⁻ están en proporción exacta de uno a uno en la mezcla.",
+      "A pH muy por debajo del $pK_a$, donde domina ampliamente la forma neutra HA sobre la forma ionizada A⁻ en la fase acuosa total.",
+      "A pH muy por encima del $pK_a$, donde la forma ionizada A⁻ domina el balance de masa total de la fase acuosa sobre la forma neutra."
+    ],
+    "correcta": 3,
+    "explicacion": "Cuando el pH supera ampliamente el $pK_a$, casi todo el ácido está como A⁻, y esa forma cargada no se reparte hacia la fase orgánica."
+  },
+  {
+    "id": "HL-QR-005",
+    "tarjetaId": "HL-LLE-007",
+    "categoria": "lle",
+    "formato": "mcq",
+    "enunciado": "Con $K_D$=3, $V_{ac}$=15 mL y $V_{org}$=5 mL en una sola extracción, ¿qué porcentaje del soluto pasa a la fase orgánica?",
+    "opciones": [
+      "50%, porque f₁=15/(15+3×5)=0.5, y el porcentaje extraído hacia la fase orgánica es uno menos esa fracción remanente.",
+      "75%, porque $K_D$=3 se multiplica directamente por un 25% base para dar el porcentaje final extraído en una sola etapa.",
+      "33%, porque solo la tercera parte del volumen orgánico total entra realmente en la fórmula de la fracción remanente.",
+      "85%, porque un $K_D$ de 3 siempre corresponde a un 85% fijo de extracción en cualquier combinación de volúmenes usada."
+    ],
+    "correcta": 0,
+    "explicacion": "f₁ = $V_{ac}$/($V_{ac}$+$K_D$·$V_{org}$) = 15/30 = 0.5, así que el 50% queda en agua y el otro 50% pasa a la fase orgánica."
+  },
+  {
+    "id": "HL-QR-006",
+    "tarjetaId": "HL-LLE-008",
+    "categoria": "lle",
+    "formato": "mcq",
+    "enunciado": "Con el mismo volumen total de solvente, ¿por qué tres extracciones pequeñas recuperan más soluto que una extracción grande?",
+    "opciones": [
+      "Porque el solvente fresco de cada etapa reacciona químicamente con el soluto restante y lo neutraliza por completo en cada paso.",
+      "Porque $f_n$ es una potencia n-ésima de un cociente menor que 1, y aumentar n reduce esa fracción más rápido que agrandar el volumen de una sola etapa.",
+      "Porque la temperatura del sistema sube ligeramente con cada agitación adicional, lo que favorece el desplazamiento del equilibrio de reparto.",
+      "Porque cada etapa adicional de extracción aumenta de forma artificial el valor real del coeficiente $K_D$ del sistema completo."
+    ],
+    "correcta": 1,
+    "explicacion": "$K_D$ no cambia entre etapas; lo que cambia es que elevar un cociente menor que 1 a una potencia mayor lo reduce más rápido que agrandar linealmente el denominador."
+  },
+  {
+    "id": "HL-QR-007",
+    "tarjetaId": "HL-LLE-009",
+    "categoria": "lle",
+    "formato": "mcq",
+    "enunciado": "¿Por qué un hidrocarburo apolar, sin ningún momento dipolar permanente, tiene de todos modos una solubilidad acuosa pequeña pero medible?",
+    "opciones": [
+      "Porque toda molécula orgánica conserva un dipolo permanente débil, aunque ese dipolo no se detecte con instrumentos comunes de laboratorio.",
+      "Porque el agua disuelve cualquier sustancia en cantidades mínimas por una definición termodinámica general que aplica a todos los solutos.",
+      "Porque las fuerzas de dispersión de London, originadas en fluctuaciones cuánticas de la densidad electrónica, generan atracción neta incluso sin dipolo.",
+      "Porque el hidrocarburo se ioniza parcialmente al entrar en contacto con agua, generando especies cargadas más solubles en esa fase."
+    ],
+    "correcta": 2,
+    "explicacion": "La solubilidad acuosa pequeña pero creciente con el tamaño molecular es evidencia experimental directa de un efecto que solo existe en mecánica cuántica."
+  },
+  {
+    "id": "HL-QR-008",
+    "tarjetaId": "HL-LLE-010",
+    "categoria": "lle",
+    "formato": "mcq",
+    "enunciado": "Según la Regla de Cinco de Lipinski, ¿qué papel juega el log $P$ calculado de una molécula recién sintetizada en un semillero de química farmacéutica?",
+    "opciones": [
+      "Determina directamente si la molécula tendrá actividad biológica suficiente contra su blanco terapéutico específico.",
+      "Sirve únicamente para calcular el costo aproximado de síntesis del compuesto en una etapa muy temprana de desarrollo farmacéutico completo.",
+      "Reemplaza por completo la necesidad de medir el $pK_a$ real de los grupos funcionales presentes en la molécula sintetizada.",
+      "Es uno de los cuatro criterios que estima si la molécula tiene alguna posibilidad de absorberse por vía oral, con el límite log $P$ ≤ 5."
+    ],
+    "correcta": 3,
+    "explicacion": "El log $P$ no dice nada sobre actividad biológica; dice si la molécula, siendo activa o no, tiene alguna chance de llegar a su blanco por vía oral."
+  },
+  {
+    "id": "HL-QR-009",
+    "tarjetaId": "HL-LLE-012",
+    "categoria": "lle",
+    "formato": "mcq",
+    "enunciado": "Un extractante con átomo donador duro, como el oxígeno fosforilo del TBP, ¿qué tipo de metal extraerá mejor según HSAB?",
+    "opciones": [
+      "Metales duros, de alta densidad de carga y baja polarizabilidad, como el UO₂²⁺ o los lantánidos trivalentes de la serie.",
+      "Metales blandos, de alta polarizabilidad electrónica, como el Hg²⁺ o la Ag⁺ presentes en soluciones acuosas complejas reales.",
+      "Cualquier metal de transición disponible, sin importar en absoluto su clasificación como duro o blando según Pearson.",
+      "Solo metales alcalinos simples, porque el TBP nunca llega a formar complejos con ningún metal de transición real."
+    ],
+    "correcta": 0,
+    "explicacion": "Duro con duro y blando con blando: la coincidencia electrónica entre extractante y metal es lo que explica la selectividad real, no una regla memorizada."
+  },
+  {
+    "id": "HL-QR-010",
+    "tarjetaId": "HL-LLE-014",
+    "categoria": "lle",
+    "formato": "mcq",
+    "enunciado": "¿Por qué el método QuEChERS logra una extracción eficiente de plaguicidas hacia acetonitrilo agregando MgSO₄ y NaCl a la muestra?",
+    "opciones": [
+      "Porque la sal reacciona químicamente con el plaguicida disuelto en la muestra y lo convierte en un compuesto mucho más volátil para el análisis.",
+      "Porque a alta fuerza iónica $\\gamma \\neq 1$, y la sal aumenta la actividad efectiva del analito orgánico en agua, empujando el reparto hacia la fase orgánica.",
+      "Porque la sal agregada baja el punto de congelación del agua, permitiendo trabajar el protocolo a menor temperatura ambiente.",
+      "Porque el MgSO₄ actúa como catalizador directo de la reacción de extracción, acelerando notablemente la velocidad del equilibrio químico."
+    ],
+    "correcta": 1,
+    "explicacion": "Este es el mismo salting-out de la Fase 8: el $K_D$ termodinámico no cambia, pero la actividad efectiva sí, y eso desplaza el reparto medido."
+  },
+  {
+    "id": "HL-QR-011",
+    "tarjetaId": "HL-LLE-016",
+    "categoria": "lle",
+    "formato": "mcq",
+    "enunciado": "En una planta de extracción por solventes de cobre (SX-EW), ¿qué fenómeno puede paralizar la operación sin que ninguna ecuación de $K_D$ lo haya anticipado?",
+    "opciones": [
+      "Un aumento súbito y completamente espontáneo del propio valor de $K_D$ del sistema durante la operación normal.",
+      "La conversión total del extractante LIX en un compuesto químicamente inerte por efecto simple y directo de la temperatura ambiente.",
+      "La formación de una tercera fase o \"crud\", estabilizada por partículas sólidas finas y productos de degradación tensioactivos.",
+      "La evaporación completa del solvente orgánico durante el mezclado en contracorriente dentro del sedimentador."
+    ],
+    "correcta": 2,
+    "explicacion": "El modelo de dos fases limpias que da $K_D$ no incluye sólidos ni tensioactivos de degradación, así que no puede predecir el crud."
+  },
+  {
+    "id": "HL-QR-012",
+    "tarjetaId": "HL-LLE-019",
+    "categoria": "lle",
+    "formato": "mcq",
+    "enunciado": "Una extracción con $K_D$ muy favorable no llega al equilibrio tras 2 minutos de agitación en un solvente muy viscoso. ¿Cuál es el diagnóstico correcto?",
+    "opciones": [
+      "El $K_D$ reportado debe estar mal calculado, porque un valor favorable siempre implica necesariamente una extracción rápida.",
+      "El soluto probablemente se descompuso por completo durante los dos minutos de agitación mecánica que se aplicaron al sistema.",
+      "La fase acuosa y la fase orgánica dejaron de ser inmiscibles en algún punto durante el proceso completo de agitación.",
+      "El problema es cinético, no termodinámico: la transferencia por la interfase es lenta en un solvente viscoso, sin importar el equilibrio."
+    ],
+    "correcta": 3,
+    "explicacion": "$K_D$ solo describe el destino final del equilibrio, no la velocidad con la que se llega a él; esa velocidad es un problema de difusión aparte."
+  },
+  {
+    "id": "HL-QR-013",
+    "tarjetaId": "HL-LLE-013",
+    "categoria": "lle",
+    "formato": "mcq",
+    "enunciado": "¿Por qué el coeficiente $K_d$ de la ciencia del suelo casi nunca es una constante fija, a diferencia de un $K_D$ de LLE bien controlado en el laboratorio?",
+    "opciones": [
+      "Porque los sitios de sorción de un sólido son heterogéneos por naturaleza, lo que exige isotermas de Freundlich o Langmuir.",
+      "Porque el suelo es realmente una fase gaseosa dispersa, y eso invalida cualquier coeficiente de reparto calculado sobre él en el análisis.",
+      "Porque el agua intersticial del suelo nunca alcanza equilibrio termodinámico real con la fase sólida circundante.",
+      "Porque $K_d$ depende exclusivamente de la temperatura ambiente del sitio, sin ninguna dependencia real de la matriz."
+    ],
+    "correcta": 0,
+    "explicacion": "La forma matemática de $K_d$ y $K_D$ es la misma; lo que cambia es que la heterogeneidad del sólido hace que la no idealidad sea la norma, no la excepción."
+  },
+  {
+    "id": "HL-QR-014",
+    "tarjetaId": "HL-LLE-011",
+    "categoria": "lle",
+    "formato": "mcq",
+    "enunciado": "¿Por qué un análisis por GC de residuos de plaguicidas en un extracto de alimento casi siempre incluye una LLE selectiva por pH antes de la inyección?",
+    "opciones": [
+      "Porque el cromatógrafo solo puede procesar muestras completamente puras, sin ningún componente de la matriz original.",
+      "Porque la matriz compleja contiene miles de componentes que dañarían la columna o interferirían con la detección, y la LLE los separa.",
+      "Porque la LLE aumenta artificialmente el punto de ebullición del analito, facilitando su paso completo por la columna.",
+      "Porque sin una LLE previa el detector del cromatógrafo no logra generar ninguna señal eléctrica medible en el equipo."
+    ],
+    "correcta": 1,
+    "explicacion": "La limpieza de matriz no es cosmética: en muchos casos es lo que evita que la columna o el detector se saturen o se dañen."
+  },
+  {
+    "id": "HL-QR-015",
+    "tarjetaId": "HL-LLE-003",
+    "categoria": "lle",
+    "formato": "fill",
+    "enunciado": "Completa la condición de equilibrio de reparto:",
+    "antes": "En el equilibrio, un soluto distribuido entre una fase acuosa y una orgánica inmiscibles debe tener el mismo",
+    "despues": "en ambas fases, porque si no fuera así seguiría habiendo transferencia neta de materia.",
+    "respuesta": "potencial químico",
+    "alternativas": [
+      "potencial químico"
+    ],
+    "explicacion": "Esa igualdad, escrita en términos de actividad, es el punto de partida exacto de donde se deriva la Ley de Reparto de Nernst."
+  },
+  {
+    "id": "HL-QR-016",
+    "tarjetaId": "HL-LLE-005",
+    "categoria": "lle",
+    "formato": "fill",
+    "enunciado": "Completa la descomposición de $\\Delta G^\\circ_{transferencia}$:",
+    "antes": "$\\Delta G^\\circ_{transferencia}$ se descompone en energía de cavidad, interacciones dispersivas y dipolo-dipolo, y",
+    "despues": "donde aplique: son contribuciones moleculares reales, no un número arbitrario.",
+    "respuesta": "puentes de hidrógeno",
+    "alternativas": [
+      "puentes de hidrógeno",
+      "puentes de hidrogeno"
+    ],
+    "explicacion": "Estas tres contribuciones son exactamente lo que miden los parámetros de Hansen δd, δp y δh al comparar soluto y solvente."
+  },
+  {
+    "id": "HL-QR-017",
+    "tarjetaId": "HL-LLE-013",
+    "categoria": "lle",
+    "formato": "fill",
+    "enunciado": "Completa la equivalencia entre ciencia del suelo y LLE:",
+    "antes": "El coeficiente de distribución suelo-agua $K_d$ es formalmente el mismo objeto matemático que",
+    "despues": "de esta guía, solo que una de las dos fases ahora es sólida en vez de líquida.",
+    "respuesta": "K_D",
+    "alternativas": [
+      "K_D",
+      "el K_D",
+      "KD"
+    ],
+    "explicacion": "La forma matemática es la misma; lo que cambia es que la heterogeneidad de los sitios de sorción hace que la no idealidad sea la norma."
+  },
+  {
+    "id": "HL-QR-018",
+    "tarjetaId": "HL-LLE-018",
+    "categoria": "lle",
+    "formato": "fill",
+    "enunciado": "Completa el efecto del salting-out sobre $K_D$:",
+    "antes": "Agregar sal a la fase acuosa aumenta la actividad efectiva del soluto orgánico disuelto en agua, lo que",
+    "despues": "el $K_D$ medido de muchos compuestos orgánicos, exactamente lo que explota QuEChERS.",
+    "respuesta": "aumenta",
+    "alternativas": [
+      "aumenta",
+      "incrementa"
+    ],
+    "explicacion": "El $K_D$ termodinámico verdadero no cambia; lo que cambia es la actividad, porque a fuerza iónica alta $\\gamma$ deja de valer 1."
+  },
+  {
+    "id": "HL-QR-019",
+    "tarjetaId": "HL-LLE-006",
+    "categoria": "lle",
+    "formato": "build",
+    "enunciado": "Arma la razón por la que $D$, a diferencia de $P$, depende del pH:",
+    "fragmentos": [
+      "$D$ es el cociente entre lo que hay en la fase orgánica y todo lo que hay en la fase acuosa,",
+      "neutro más ionizado,",
+      "mientras que $P$ solo describe la forma neutra,",
+      "así que $D$ hereda una dependencia con el pH que $P$ nunca tuvo."
+    ],
+    "explicacion": "Esta es exactamente la derivación que lleva a $D = P/(1+10^{(pH-pK_a)})$ para un ácido débil, partiendo del balance de masa y la constante de acidez."
+  },
+  {
+    "id": "HL-QR-020",
+    "tarjetaId": "HL-LLE-008",
+    "categoria": "lle",
+    "formato": "build",
+    "enunciado": "Arma por qué dividir el solvente en más etapas siempre reduce más la fracción remanente de soluto:",
+    "fragmentos": [
+      "$f_n$ es una potencia n-ésima de un cociente menor que 1,",
+      "así que aumentar el número de etapas con el mismo solvente total",
+      "reduce la fracción remanente más rápido",
+      "que aumentar linealmente el volumen orgánico de una sola etapa."
+    ],
+    "explicacion": "Por eso el salto de 1 a 3 extracciones es grande y el de 3 a 10 es pequeño: la función $f_n$(n) tiene rendimientos decrecientes, pero siempre decrecientes."
+  },
+  {
+    "id": "HL-QR-021",
+    "tarjetaId": "HL-LLE-012",
+    "categoria": "lle",
+    "formato": "build",
+    "enunciado": "Arma por qué el TBP extrae bien uranio y plutonio en el proceso PUREX:",
+    "fragmentos": [
+      "El oxígeno fosforilo del TBP es un átomo donador duro,",
+      "de alta densidad de carga y baja polarizabilidad,",
+      "así que prefiere interacción electrostática",
+      "con metales igualmente duros como UO₂²⁺ o los lantánidos."
+    ],
+    "explicacion": "Esta coincidencia dura-dura, no una regla memorizada, es lo que explica por qué PUREX usa TBP para extraer uranio y plutonio del combustible nuclear gastado."
+  },
+  {
+    "id": "HL-QR-022",
+    "tarjetaId": "HL-LLE-016",
+    "categoria": "lle",
+    "formato": "build",
+    "enunciado": "Arma por qué el modelo de $K_D$ no predice la formación de una tercera fase industrial:",
+    "fragmentos": [
+      "El modelo de $K_D$ asume dos fases líquidas limpias,",
+      "pero en una planta real aparecen partículas sólidas finas",
+      "y productos de degradación con carácter tensioactivo",
+      "que pueden estabilizar una tercera fase que ninguna ecuación de equilibrio predice."
+    ],
+    "explicacion": "El mismo problema de tercera fase o \"crud\" aparece tanto en SX-EW de cobre como en PUREX a escala nuclear."
+  },
+  {
+    "id": "HL-QR-023",
+    "tarjetaId": "HL-LLE-012",
+    "categoria": "lle",
+    "formato": "match",
+    "enunciado": "Empareja cada extractante con el metal que extrae mejor según HSAB:",
+    "izq": [
+      "Fosfato de tributilo (TBP)",
+      "Ditizona",
+      "Oximas (LIX)"
+    ],
+    "der": [
+      "UO₂²⁺, Th⁴⁺, lantánidos (duro-duro)",
+      "Hg²⁺, Ag⁺, Pb²⁺ (blando-blando)",
+      "Cu²⁺ (frontera-frontera)"
+    ],
+    "pares": {
+      "0": 0,
+      "1": 1,
+      "2": 2
+    },
+    "explicacion": "La selectividad de cada extractante coincide con la clasificación dura-blanda de su átomo donador y del metal objetivo, según la teoría HSAB de Pearson."
+  },
+  {
+    "id": "HL-QR-024",
+    "tarjetaId": "HL-LLE-007",
+    "categoria": "lle",
+    "formato": "match",
+    "enunciado": "Empareja cada fenómeno con la ecuación que lo describe:",
+    "izq": [
+      "Reparto en el equilibrio",
+      "Efecto del pH en la distribución",
+      "Eficiencia tras n extracciones"
+    ],
+    "der": [
+      "$K_D = \\exp(-\\Delta G^\\circ/RT)$",
+      "$D = P/(1+10^{(pH-pK_a)})$",
+      "$f_n = \\left[\\dfrac{V_{ac}}{V_{ac}+K_D\\cdot(V_{org}/n)}\\right]^n$"
+    ],
+    "pares": {
+      "0": 0,
+      "1": 1,
+      "2": 2
+    },
+    "explicacion": "Cada fenómeno de esta guía tiene su propia ecuación derivada: Nernst para el equilibrio puro, pH-dependencia para ácidos y bases débiles, y extracciones múltiples para el diseño experimental."
+  },
+  {
+    "id": "HL-QR-025",
+    "tarjetaId": "HL-LLE-014",
+    "categoria": "lle",
+    "formato": "match",
+    "enunciado": "Empareja cada término con lo que realmente predice:",
+    "izq": [
+      "$\\Delta G^\\circ_{transferencia}$",
+      "log $K_{ow}$",
+      "log $P$"
+    ],
+    "der": [
+      "La energía libre neta de pasar de la fase acuosa a la orgánica",
+      "La bioacumulación y el destino ambiental de un contaminante",
+      "Si una molécula tiene alguna posibilidad de absorberse por vía oral (Lipinski)"
+    ],
+    "pares": {
+      "0": 0,
+      "1": 1,
+      "2": 2
+    },
+    "explicacion": "Los tres son formas del mismo concepto de reparto aplicadas a preguntas distintas: mecanismo termodinámico, destino ambiental, y diseño de fármacos."
+  }
+]

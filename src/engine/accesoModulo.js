@@ -21,6 +21,7 @@ const PERFIL_REQUERIDO_POR_MODULO = {
   frances: 'Fabian',
   'quimica-completa': 'Fabian',
   inorganica: 'Fabian',
+  'habilidades-laboratorio': 'Fabian',
 }
 
 const CODIGOS_ACCESO = {}

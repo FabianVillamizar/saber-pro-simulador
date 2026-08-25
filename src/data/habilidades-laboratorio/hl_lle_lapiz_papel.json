@@ -1,0 +1,218 @@
+[
+  {
+    "id": "HL-LP-001",
+    "bloque": "EFICIENCIA-EXTRACCION",
+    "subcategoria": "Extracción Líquido-Líquido",
+    "tipo": "formula",
+    "enunciado": "Con $K_D$=6, $V_{ac}$=20 mL y $V_{org}$=5 mL, ¿qué porcentaje del soluto se extrae en una sola etapa?",
+    "promptFase1": "Sin calcular nada todavía, ¿qué fórmula aplica aquí?",
+    "opciones": [
+      {
+        "texto": "Fracción remanente de una sola extracción: $f_1=\\dfrac{V_{ac}}{V_{ac}+K_D\\cdot V_{org}}$",
+        "correcta": true
+      },
+      {
+        "texto": "Ley de reparto de Nernst directa: $K_D=\\exp(-\\Delta G^\\circ/RT)$",
+        "correcta": false
+      },
+      {
+        "texto": "Efecto del pH sobre $D$: $D=P/(1+10^{(pH-pK_a)})$",
+        "correcta": false
+      },
+      {
+        "texto": "Fracción remanente tras $n$ extracciones: $f_n=\\left[\\dfrac{V_{ac}}{V_{ac}+K_D\\cdot(V_{org}/n)}\\right]^n$",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "La fórmula que aplica",
+    "formula": "f_1 = \\dfrac{V_{ac}}{V_{ac}+K_D \\cdot V_{org}}",
+    "enfoqueCorto": "Fracción remanente de una sola extracción",
+    "porQue": "Es una sola etapa con un volumen orgánico fijo, sin pH involucrado ni división en varias porciones, así que la fórmula de una sola extracción es la que aplica directamente.",
+    "respuesta": "60% del soluto pasa a la fase orgánica.",
+    "desarrollo": "$f_1 = 20/(20+6\\times5) = 20/50 = 0.4$. El porcentaje extraído es $1-0.4 = 0.6$, es decir 60%.",
+    "atajoPct": 5,
+    "atajoCosto": "1 sustitución algebraica",
+    "brutoCosto": "simulación iterativa de equilibrio por aproximaciones sucesivas",
+    "notaAtajo": "La fórmula cerrada da el resultado exacto en un paso; sin ella solo quedaría aproximar el equilibrio por prueba y error hasta converger, mucho más trabajo para el mismo número."
+  },
+  {
+    "id": "HL-LP-002",
+    "bloque": "EFICIENCIA-EXTRACCION",
+    "subcategoria": "Extracción Líquido-Líquido",
+    "tipo": "formula",
+    "enunciado": "Con el mismo $K_D$=6 y $V_{ac}$=20 mL, compara 1 extracción de 5 mL contra 2 extracciones de 2.5 mL cada una. ¿Cuánto mejora el porcentaje extraído?",
+    "promptFase1": "Antes de calcular, ¿qué cambia entre los dos escenarios y qué fórmula usa cada uno?",
+    "opciones": [
+      {
+        "texto": "El primero usa $f_1$ con $V_{org}$=5 mL; el segundo usa $f_n$ con $n=2$ y $V_{org}/n$=2.5 mL cada etapa.",
+        "correcta": true
+      },
+      {
+        "texto": "Ambos usan la misma fórmula $f_1$, porque el volumen orgánico total es idéntico en los dos casos.",
+        "correcta": false
+      },
+      {
+        "texto": "El segundo escenario requiere recalcular $K_D$, porque cambia al dividir el volumen en dos partes.",
+        "correcta": false
+      },
+      {
+        "texto": "El primero usa la fórmula de pH-dependencia, porque una sola etapa siempre depende del pH.",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "Qué fórmula usa cada escenario",
+    "formula": "f_1 = \\dfrac{V_{ac}}{V_{ac}+K_D \\cdot V_{org}} \\quad;\\quad f_2 = \\left[\\dfrac{V_{ac}}{V_{ac}+K_D \\cdot (V_{org}/2)}\\right]^2",
+    "enfoqueCorto": "Comparar $f_1$ contra $f_n$ con $n=2$",
+    "porQue": "El volumen orgánico total es el mismo en los dos escenarios; la diferencia real está en si se aplica la fórmula de una sola etapa o la de dos etapas sucesivas.",
+    "respuesta": "El porcentaje extraído mejora de 60.0% a 67.3%, una ganancia de 7.3 puntos porcentuales.",
+    "desarrollo": "$1\\times5$ mL: $f_1=20/(20+30)=0.4$, extraído=60%. $2\\times2.5$ mL: $f_2=[20/(20+15)]^2=[20/35]^2=0.5714^2=0.3265$, extraído=$1-0.3265=67.35\\%$.",
+    "atajoPct": 8,
+    "atajoCosto": "2 sustituciones y una potencia",
+    "brutoCosto": "recalcular el remanente etapa por etapa a mano",
+    "notaAtajo": "El atajo evita simular la primera etapa, sacar el remanente, y volver a aplicar la fórmula para la segunda: la potencia n-ésima ya captura ese proceso en un solo cálculo."
+  },
+  {
+    "id": "HL-LP-003",
+    "bloque": "PH-SELECTIVIDAD",
+    "subcategoria": "Extracción Líquido-Líquido",
+    "tipo": "formula",
+    "enunciado": "Una base débil tiene $pK_a$ (de su ácido conjugado) = 9.0 y $P$ = 50. Calcula $D$ a pH 7 y a pH 11, y decide a qué pH extraerías la base hacia la fase orgánica y a qué pH la reextraerías.",
+    "promptFase1": "Sin calcular todavía, ¿qué fórmula de $D$ aplica para una base débil, y no para un ácido?",
+    "opciones": [
+      {
+        "texto": "$D_{base} = P/(1+10^{(pK_a-pH)})$, con el signo del exponente invertido respecto al de un ácido.",
+        "correcta": true
+      },
+      {
+        "texto": "$D_{base} = P/(1+10^{(pH-pK_a)})$, exactamente la misma fórmula que para un ácido débil.",
+        "correcta": false
+      },
+      {
+        "texto": "$D_{base} = P \\times 10^{(pH-pK_a)}$, porque las bases multiplican en vez de dividir.",
+        "correcta": false
+      },
+      {
+        "texto": "$D_{base} = P/(1+pH-pK_a)$, sin exponente porque las bases se comportan de forma lineal.",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "La fórmula de $D$ para una base débil",
+    "formula": "D = \\dfrac{P}{1+10^{(pK_a-pH)}}",
+    "enfoqueCorto": "$D_{base}$ con el exponente invertido",
+    "porQue": "Para una base, la forma neutra domina a pH alto, no a pH bajo como en un ácido, así que el exponente lleva el signo opuesto.",
+    "respuesta": "$D(\\text{pH}=7)\\approx0.495$, $D(\\text{pH}=11)\\approx49.5$. Se extrae la base a pH 11 y se reextrae a pH 7.",
+    "desarrollo": "pH7: exponente=$9-7=2$, $D=50/(1+100)=50/101=0.495$. pH11: exponente=$9-11=-2$, $D=50/(1+0.01)=50/1.01=49.5$. A pH alto domina la forma neutra ($D$ alto, se extrae bien); a pH bajo domina la forma protonada cargada ($D$ bajo, se queda en agua).",
+    "atajoPct": 10,
+    "atajoCosto": "2 sustituciones directas",
+    "brutoCosto": "calcular las concentraciones de ambas formas por separado y armar el balance de masa a mano",
+    "notaAtajo": "La fórmula ya incorpora el balance de masa completo; calcularlo aparte por especie da el mismo resultado con mucho más trabajo."
+  },
+  {
+    "id": "HL-LP-004",
+    "bloque": "EFICIENCIA-EXTRACCION",
+    "subcategoria": "Extracción Líquido-Líquido",
+    "tipo": "formula",
+    "enunciado": "Necesitas ≥95% de recuperación con $K_D$=2 y $V_{ac}$=10 mL, usando un presupuesto total de solvente de 10 mL. ¿Cuántas etapas de extracción como mínimo necesitas?",
+    "promptFase1": "Antes de probar valores de $n$ uno por uno, ¿qué deberías calcular primero para saber si la meta es alcanzable?",
+    "opciones": [
+      {
+        "texto": "El límite de $f_n$ cuando $n$ tiende a infinito, para saber el máximo porcentaje que este presupuesto puede alcanzar sin importar $n$.",
+        "correcta": true
+      },
+      {
+        "texto": "El valor de $f_n$ para $n=1$, porque ese ya determina si la meta es alcanzable o no.",
+        "correcta": false
+      },
+      {
+        "texto": "El valor de $K_D$ a una temperatura distinta, porque $K_D$ cambia con el número de etapas.",
+        "correcta": false
+      },
+      {
+        "texto": "El $pK_a$ del soluto, porque toda meta de recuperación depende del pH de trabajo.",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "El límite cuando $n\\to\\infty$, antes de tantear valores",
+    "formula": "\\lim_{n\\to\\infty} f_n = \\exp\\!\\left(-\\dfrac{K_D \\cdot V_{org}}{V_{ac}}\\right)",
+    "enfoqueCorto": "Límite asintótico de $f_n$ antes de buscar $n$",
+    "porQue": "$f_n=\\left[\\dfrac{V_{ac}}{V_{ac}+K_D\\cdot V_{org}/n}\\right]^n$ tiene la forma $[1/(1+x/n)]^n$ con $x=K_D\\cdot V_{org}/V_{ac}$ fijo, y esa expresión converge a $\\exp(-x)$ cuando $n$ crece, sin importar qué tan grande sea.",
+    "respuesta": "No es posible: con este presupuesto el máximo teórico es 86.5% de recuperación, incluso con infinitas etapas. Ningún $n$ finito llega a 95%.",
+    "desarrollo": "$x=K_D\\cdot V_{org}/V_{ac}=2\\times10/10=2$. El límite es $\\exp(-2)=0.1353$, un máximo de 86.47% extraído aunque $n\\to\\infty$. Verificado con $n=10$ (83.9%), $n=20$ (85.1%) y $n=100$ (86.2%), todos acercándose a ese techo sin cruzarlo. Para llegar a 95% haría falta aumentar el presupuesto total de solvente, no el número de etapas: se necesitaría $x\\approx3$ ($-\\ln 0.05$), cerca de 15 mL de solvente total en vez de 10 mL.",
+    "atajoPct": 90,
+    "atajoCosto": "1 cálculo de límite",
+    "brutoCosto": "calcular $f_n$ para n=1,2,3...20+ hasta sospechar que nunca se alcanza el 95%",
+    "notaAtajo": "Sin reconocer el límite asintótico, es fácil probar valores de $n$ cada vez más grandes sin darse cuenta de que hay un techo real: lo que hay que aumentar es el presupuesto de solvente, no el número de etapas."
+  },
+  {
+    "id": "HL-LP-005",
+    "bloque": "TERMODINAMICA-VANTHOFF",
+    "subcategoria": "Extracción Líquido-Líquido",
+    "tipo": "formula",
+    "enunciado": "Si mides $K_D$ a dos temperaturas distintas, ¿qué gráfico construirías para estimar $\\Delta H^\\circ_{transferencia}$, y por qué esa forma funcional?",
+    "promptFase1": "Antes de decidir qué graficar, ¿qué relación conecta $K_D$ con la temperatura?",
+    "opciones": [
+      {
+        "texto": "$K_D=\\exp(-\\Delta G^\\circ/RT)$, y $\\Delta G^\\circ=\\Delta H^\\circ-T\\Delta S^\\circ$, así que $\\ln(K_D)$ es una función lineal de $1/T$.",
+        "correcta": true
+      },
+      {
+        "texto": "$K_D=\\exp(-\\Delta G^\\circ/RT)$, y $\\Delta G^\\circ$ no depende de la temperatura, así que $K_D$ es constante para cualquier $T$.",
+        "correcta": false
+      },
+      {
+        "texto": "$K_D$ crece linealmente con $T$, así que basta graficar $K_D$ directamente contra $T$.",
+        "correcta": false
+      },
+      {
+        "texto": "$K_D$ no tiene ninguna relación con $\\Delta H^\\circ$, porque $\\Delta H^\\circ$ solo aplica a reacciones químicas, no a equilibrios de reparto.",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "La relación entre $K_D$ y la temperatura",
+    "formula": "\\ln K_D = -\\dfrac{\\Delta H^\\circ}{R}\\cdot\\dfrac{1}{T} + \\dfrac{\\Delta S^\\circ}{R}",
+    "enfoqueCorto": "Gráfico de van't Hoff: $\\ln(K_D)$ contra $1/T$",
+    "porQue": "Sustituyendo $\\Delta G^\\circ=\\Delta H^\\circ-T\\Delta S^\\circ$ en $K_D=\\exp(-\\Delta G^\\circ/RT)$ y tomando logaritmo natural se obtiene una recta en $\\ln(K_D)$ contra $1/T$, la misma estructura que la ecuación de van't Hoff para una constante de equilibrio química.",
+    "respuesta": "Un gráfico de $\\ln(K_D)$ contra $1/T$ da una recta; la pendiente es $-\\Delta H^\\circ/R$ y el intercepto es $\\Delta S^\\circ/R$.",
+    "desarrollo": "$\\Delta G^\\circ=\\Delta H^\\circ-T\\Delta S^\\circ$ y $K_D=\\exp(-\\Delta G^\\circ/RT)$ implican $\\ln(K_D)=-\\Delta H^\\circ/(RT)+\\Delta S^\\circ/R$. Con solo dos temperaturas se resuelve el sistema de dos ecuaciones para despejar $\\Delta H^\\circ$ y $\\Delta S^\\circ$ directamente, sin necesitar más puntos.",
+    "atajoPct": 15,
+    "atajoCosto": "reconocer la analogía con van't Hoff, luego 2 ecuaciones lineales",
+    "brutoCosto": "ajustar por mínimos cuadrados sin saber qué forma funcional buscar",
+    "notaAtajo": "Reconocer que la forma es idéntica a van't Hoff evita perder tiempo probando gráficos de $K_D$ contra $T$, contra $T^2$, o contra otras variables sin ninguna razón termodinámica."
+  },
+  {
+    "id": "HL-LP-006",
+    "bloque": "HSAB-SELECTIVIDAD",
+    "subcategoria": "Extracción Líquido-Líquido",
+    "tipo": "formula",
+    "enunciado": "Tienes una mezcla acuosa de Fe³⁺ (duro) y Hg²⁺ (blando). Diseña un esquema de extracción selectiva secuencial que separe ambos metales, y justifica cada extractante elegido según HSAB.",
+    "promptFase1": "Antes de elegir extractantes, ¿qué característica de cada metal determina cuál usar primero?",
+    "opciones": [
+      {
+        "texto": "La clasificación dura o blanda de cada metal según su densidad de carga y polarizabilidad, comparada con el átomo donador de cada extractante.",
+        "correcta": true
+      },
+      {
+        "texto": "La carga total del ion, sin importar su clasificación dura o blanda según Pearson.",
+        "correcta": false
+      },
+      {
+        "texto": "El radio atómico del metal, porque los extractantes solo distinguen por tamaño.",
+        "correcta": false
+      },
+      {
+        "texto": "El color de cada solución acuosa, porque eso indica directamente qué extractante usar.",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "El criterio real de selección de extractante",
+    "formula": "",
+    "enfoqueCorto": "Emparejar duro con duro y blando con blando",
+    "porQue": "Fe³⁺, de alta densidad de carga y baja polarizabilidad, es un ácido duro; Hg²⁺, muy polarizable, es un ácido blando. Un extractante con átomo donador duro coordina selectivamente al metal duro sin coordinar bien al blando, y viceversa.",
+    "respuesta": "Primera etapa: extraer Fe³⁺ con un extractante de átomo donador duro tipo TBP (oxígeno fosforilo), dejando Hg²⁺ en la fase acuosa. Segunda etapa: extraer el Hg²⁺ remanente con ditizona (donador N,S, blando).",
+    "desarrollo": "Fe³⁺ comparte la misma clasificación dura que UO₂²⁺, Th⁴⁺ y los lantánidos que el TBP ya extrae bien en la tabla de esta guía, así que un extractante tipo TBP en medio ácido, el sistema TBP-Fe(III)-HCl es una separación real usada en hidrometalurgia, lo saca selectivamente sin arrastrar al Hg²⁺, que prefiere coordinación covalente con donadores blandos. La fase acuosa restante, ya sin Fe³⁺, se trata entonces con ditizona para sacar el Hg²⁺ como su complejo blando-blando.",
+    "atajoPct": 20,
+    "atajoCosto": "clasificar 2 iones y consultar la tabla de la Fase 3.5",
+    "brutoCosto": "probar extractantes al azar sobre la mezcla completa hasta ver cuál separa algo",
+    "notaAtajo": "La tabla HSAB predice la selectividad antes de tocar un solo reactivo: separar por ensayo y error sobre una mezcla de dos metales es mucho más lento y arriesga coextraer ambos a la vez."
+  }
+]

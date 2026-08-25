@@ -7,6 +7,7 @@ import { ID_INVITADO } from '../engine/perfiles.js'
 import { registrarPracticaParte } from '../engine/progreso.js'
 import { formatoFecha, diferenciaDias } from '../engine/fecha.js'
 import { TextoConNegritas } from '../componentes/TextoConNegritas.jsx'
+import { TextoConFormulas } from '../componentes/TextoConFormulas.jsx'
 import { ThemeToggle } from '../componentes/ThemeToggle.jsx'
 import { SelectorPerfil } from '../componentes/SelectorPerfil.jsx'
 import { IconoFlechaCircular, IconoFlechaDerecha, IconoCheck, IconoChevronIzquierdo } from '../componentes/iconos.jsx'
@@ -19,6 +20,21 @@ const DURACIONES = [
   { id: 'repaso', nombre: 'Repaso', cantidad: 20 },
   { id: 'banco', nombre: 'Banco completo', cantidad: Infinity },
 ]
+
+// Render inline seguro por módulo — ver `renderizaFormulas` en
+// indiceModulos.js: RC/Diosgenina usan "$" para montos de dinero en estos
+// mismos campos (enunciado/opciones/explicación de Quiz Rápido), así que
+// tratar cualquier "$...$" como LaTeX ahí rompería esos montos. Solo los
+// módulos que declaran `renderizaFormulas` (hoy, Habilidades de
+// Laboratorio) pasan por TextoConFormulas aquí; el resto conserva el
+// comportamiento de siempre (texto plano, o **negrita** vía
+// TextoConNegritas donde ya se usaba).
+function Texto({ texto, formulas }) {
+  return formulas ? <TextoConFormulas texto={texto} /> : texto
+}
+function TextoExplicacion({ texto, formulas }) {
+  return formulas ? <TextoConFormulas texto={texto} /> : <TextoConNegritas texto={texto} />
+}
 
 function barajar(lista) {
   const copia = [...lista]
@@ -66,7 +82,7 @@ function tarjetaDeItem(item, tarjetasConcepto) {
 // cuales existe en sus tarjetas) y la tarjeta relacionada se mostraba con
 // respuesta y explicación en blanco, sin ejemplo, aunque el enlace en sí
 // fuera correcto.
-function TarjetaTeoria({ tarjeta }) {
+function TarjetaTeoria({ tarjeta, formulas }) {
   const esCientifica = 'modo' in tarjeta
   const esCloze = esCientifica ? tarjeta.modo === 'cloze' : 'antes' in tarjeta
   const enunciado = esCloze ? `${tarjeta.antes}___${tarjeta.despues}` : tarjeta.pregunta
@@ -77,17 +93,17 @@ function TarjetaTeoria({ tarjeta }) {
 
   return (
     <div className="qr-teoria">
-      <p className="qr-teoria-pregunta">{enunciado}</p>
-      <p className="qr-teoria-respuesta">{respuesta}</p>
+      <p className="qr-teoria-pregunta"><Texto texto={enunciado} formulas={formulas} /></p>
+      <p className="qr-teoria-respuesta"><Texto texto={respuesta} formulas={formulas} /></p>
       <div className="qr-teoria-label">Explicación</div>
       <p className="qr-teoria-texto">
-        <TextoConNegritas texto={explicacion} />
+        <TextoExplicacion texto={explicacion} formulas={formulas} />
       </p>
       {ejemplo && (
         <>
           <div className="qr-teoria-label qr-teoria-label--accent">Ejemplo</div>
           <p className="qr-teoria-texto">
-            <TextoConNegritas texto={ejemplo} />
+            <TextoExplicacion texto={ejemplo} formulas={formulas} />
           </p>
         </>
       )}
@@ -95,7 +111,7 @@ function TarjetaTeoria({ tarjeta }) {
         <>
           <div className="qr-teoria-label qr-teoria-label--warn">Error común</div>
           <p className="qr-teoria-texto">
-            <TextoConNegritas texto={tarjeta.error_comun} />
+            <TextoExplicacion texto={tarjeta.error_comun} formulas={formulas} />
           </p>
         </>
       )}
@@ -407,10 +423,10 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
                       const tarjeta = tarjetaDeItem(f.item, modulo.tarjetasConcepto)
                       return (
                         <div key={f.item.id} className="qr-fallo">
-                          <p className="qr-fallo-enunciado">{f.item.enunciado}</p>
+                          <p className="qr-fallo-enunciado"><Texto texto={f.item.enunciado} formulas={modulo.renderizaFormulas} /></p>
                           <div className="qr-fallo-respuestas">
-                            <span className="qr-fallo-tuya">tu respuesta: {f.tuRespuesta}</span>
-                            <span className="qr-fallo-correcta">correcta: {f.correcta}</span>
+                            <span className="qr-fallo-tuya"><Texto texto={`tu respuesta: ${f.tuRespuesta}`} formulas={modulo.renderizaFormulas} /></span>
+                            <span className="qr-fallo-correcta"><Texto texto={`correcta: ${f.correcta}`} formulas={modulo.renderizaFormulas} /></span>
                           </div>
                           {tarjeta && (
                             <button
@@ -425,7 +441,7 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
                               {abierto ? 'Ocultar tarjeta relacionada' : 'Ver tarjeta relacionada'}
                             </button>
                           )}
-                          {abierto && tarjeta && <TarjetaTeoria tarjeta={tarjeta} />}
+                          {abierto && tarjeta && <TarjetaTeoria tarjeta={tarjeta} formulas={modulo.renderizaFormulas} />}
                         </div>
                       )
                     })}
@@ -572,7 +588,7 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
               {entradaActual.repeticion && <span className="qr-badge qr-badge--suave">Repite</span>}
             </div>
 
-            <p className="qr-enunciado">{item.enunciado}</p>
+            <p className="qr-enunciado"><Texto texto={item.enunciado} formulas={modulo.renderizaFormulas} /></p>
 
             {item.formato === 'mcq' && (
               <div className="qr-opciones">
@@ -585,7 +601,7 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
                   return (
                     <button key={i} type="button" className={cls} disabled={revelado} onClick={() => setSeleccion(i)}>
                       <span className="qr-opcion-letra">{LETRAS[i]}</span>
-                      <span className="qr-opcion-texto">{texto}</span>
+                      <span className="qr-opcion-texto"><Texto texto={texto} formulas={modulo.renderizaFormulas} /></span>
                     </button>
                   )
                 })}
@@ -595,11 +611,11 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
             {item.formato === 'fill' && (
               <div className="qr-fill">
                 <p className="qr-fill-frase">
-                  {item.antes}{' '}
+                  <Texto texto={item.antes} formulas={modulo.renderizaFormulas} />{' '}
                   <span className={`qr-fill-hueco${revelado ? (acerto ? ' qr-fill-hueco--correcta' : ' qr-fill-hueco--incorrecta') : ''}`}>
                     {revelado ? item.respuesta : fillValue.trim() || '?'}
                   </span>{' '}
-                  {item.despues}
+                  <Texto texto={item.despues} formulas={modulo.renderizaFormulas} />
                 </p>
                 {!revelado && (
                   <input
@@ -627,7 +643,7 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
                       disabled={revelado}
                       onClick={() => setArmado((a) => a.filter((_, i) => i !== pos))}
                     >
-                      {item.fragmentos[fragIdx]}
+                      <Texto texto={item.fragmentos[fragIdx]} formulas={modulo.renderizaFormulas} />
                     </button>
                   ))}
                 </div>
@@ -642,7 +658,7 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
                           className="qr-chip"
                           onClick={() => setArmado((a) => [...a, b.idx])}
                         >
-                          {b.texto}
+                          <Texto texto={b.texto} formulas={modulo.renderizaFormulas} />
                         </button>
                       ))}
                   </div>
@@ -667,7 +683,7 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
                         disabled={revelado || tienePar}
                         onClick={() => setMatchPendiente(i)}
                       >
-                        {texto}
+                        <Texto texto={texto} formulas={modulo.renderizaFormulas} />
                       </button>
                     )
                   })}
@@ -690,7 +706,7 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
                           setMatchPendiente(null)
                         }}
                       >
-                        {texto}
+                        <Texto texto={texto} formulas={modulo.renderizaFormulas} />
                       </button>
                     )
                   })}
@@ -704,7 +720,7 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
                   {acerto ? '¡Correcto!' : 'Casi. Revisa esto:'}
                 </p>
                 <div className="qr-feedback-explicacion">
-                  <TextoConNegritas texto={item.explicacion} />
+                  <TextoExplicacion texto={item.explicacion} formulas={modulo.renderizaFormulas} />
                 </div>
                 {tarjetaRelacionada && (
                   <>
@@ -712,7 +728,7 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
                       <IconoChevronIzquierdo size={12} color="var(--qr-accent)" />
                       {teoriaAbierta ? 'Ocultar tarjeta relacionada' : 'Ver tarjeta relacionada'}
                     </button>
-                    {teoriaAbierta && <TarjetaTeoria tarjeta={tarjetaRelacionada} />}
+                    {teoriaAbierta && <TarjetaTeoria tarjeta={tarjetaRelacionada} formulas={modulo.renderizaFormulas} />}
                   </>
                 )}
               </div>

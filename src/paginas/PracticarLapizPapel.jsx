@@ -4,8 +4,20 @@ import { useTheme } from '../hooks/useTheme.js'
 import { ThemeToggle } from '../componentes/ThemeToggle.jsx'
 import { SelectorPerfil } from '../componentes/SelectorPerfil.jsx'
 import { Formula } from '../componentes/Formula.jsx'
+import { TextoConFormulas } from '../componentes/TextoConFormulas.jsx'
 import { IconoChevronIzquierdo, IconoCheck, IconoX, IconoFlechaDerecha } from '../componentes/iconos.jsx'
 import './PracticarLapizPapel.css'
+
+// Render inline seguro por módulo — ver `renderizaFormulas` en
+// indiceModulos.js: RC usa "$" para montos de dinero en estos mismos
+// campos (enunciado/porQue/respuesta/desarrollo), así que tratar
+// cualquier "$...$" como LaTeX ahí rompería esos montos. Solo los módulos
+// que declaran `renderizaFormulas` (hoy, Habilidades de Laboratorio)
+// pasan por TextoConFormulas aquí; el resto conserva el texto plano de
+// siempre.
+function Texto({ texto, formulas }) {
+  return formulas ? <TextoConFormulas texto={texto} /> : texto
+}
 
 function barajar(items) {
   const copia = [...items]
@@ -130,11 +142,11 @@ export function PracticarLapizPapel({ moduloId, perfil, onCambiarPerfil, onVolve
             <div className="practicar-lp-badge-sub">{ej.subcategoria}</div>
           </div>
 
-          <div className="practicar-lp-enunciado">{ej.enunciado}</div>
+          <div className="practicar-lp-enunciado"><Texto texto={ej.enunciado} formulas={modulo.renderizaFormulas} /></div>
 
           {fase === 1 && (
             <div className="practicar-lp-fase1">
-              <div className="practicar-lp-eyebrow">{ej.promptFase1}</div>
+              <div className="practicar-lp-eyebrow"><Texto texto={ej.promptFase1} formulas={modulo.renderizaFormulas} /></div>
               <div className="practicar-lp-opciones">
                 {ej.opciones.map((o, i) => {
                   const elegida = seleccion === i
@@ -157,7 +169,7 @@ export function PracticarLapizPapel({ moduloId, perfil, onCambiarPerfil, onVolve
                       }}
                     >
                       <span className="practicar-lp-opcion-letra">{LETRAS[i]}</span>
-                      <span className="practicar-lp-opcion-texto">{o.texto}</span>
+                      <span className="practicar-lp-opcion-texto"><Texto texto={o.texto} formulas={modulo.renderizaFormulas} /></span>
                       {revelado && o.correcta && <IconoCheck size={16} color="var(--exito)" />}
                       {revelado && elegida && !o.correcta && <IconoX size={15} color="var(--lp-error)" />}
                     </div>
@@ -167,13 +179,13 @@ export function PracticarLapizPapel({ moduloId, perfil, onCambiarPerfil, onVolve
 
               {revelado && (
                 <div className={`practicar-lp-revelado practicar-lp-revelado--${esFormula ? 'formula' : 'trampa'}`}>
-                  <div className="practicar-lp-revelado-titulo">{ej.labelHerramienta}</div>
+                  <div className="practicar-lp-revelado-titulo"><Texto texto={ej.labelHerramienta} formulas={modulo.renderizaFormulas} /></div>
                   {ej.formula && (
                     <div className="practicar-lp-revelado-formula">
                       <Formula tex={ej.formula} />
                     </div>
                   )}
-                  <div className="practicar-lp-revelado-texto">{ej.porQue}</div>
+                  <div className="practicar-lp-revelado-texto"><Texto texto={ej.porQue} formulas={modulo.renderizaFormulas} /></div>
                 </div>
               )}
 
@@ -192,7 +204,7 @@ export function PracticarLapizPapel({ moduloId, perfil, onCambiarPerfil, onVolve
                 <IconoCheck size={14} color={esFormula ? 'var(--accent)' : 'var(--warning)'} />
                 <div className="practicar-lp-enfoque-info">
                   <div className="practicar-lp-enfoque-eyebrow">Tu enfoque</div>
-                  <div className="practicar-lp-enfoque-nombre">{ej.enfoqueCorto}</div>
+                  <div className="practicar-lp-enfoque-nombre"><Texto texto={ej.enfoqueCorto} formulas={modulo.renderizaFormulas} /></div>
                 </div>
                 {ej.formula && (
                   <div className="practicar-lp-enfoque-formula">
@@ -227,8 +239,8 @@ export function PracticarLapizPapel({ moduloId, perfil, onCambiarPerfil, onVolve
                 <div className="practicar-lp-solucion">
                   <div className="practicar-lp-solucion-caja">
                     <div className="practicar-lp-eyebrow">Respuesta</div>
-                    <div className="practicar-lp-solucion-respuesta">{ej.respuesta}</div>
-                    <div className="practicar-lp-solucion-desarrollo">{ej.desarrollo}</div>
+                    <div className="practicar-lp-solucion-respuesta"><Texto texto={ej.respuesta} formulas={modulo.renderizaFormulas} /></div>
+                    <div className="practicar-lp-solucion-desarrollo"><Texto texto={ej.desarrollo} formulas={modulo.renderizaFormulas} /></div>
                   </div>
 
                   <div className="practicar-lp-atajo">
@@ -247,7 +259,7 @@ export function PracticarLapizPapel({ moduloId, perfil, onCambiarPerfil, onVolve
                       <div className="practicar-lp-atajo-costo practicar-lp-atajo-costo--tenue">{ej.brutoCosto}</div>
                     </div>
                   </div>
-                  <p className="practicar-lp-nota-atajo">{ej.notaAtajo}</p>
+                  <p className="practicar-lp-nota-atajo"><Texto texto={ej.notaAtajo} formulas={modulo.renderizaFormulas} /></p>
 
                   <div className="practicar-lp-autoeval">
                     <div className="practicar-lp-eyebrow">¿Cómo te fue?</div>

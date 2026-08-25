@@ -47,6 +47,7 @@ export function Home({ perfil, onCambiarPerfil, onAbrirModulo, onIrADirecto, onI
   const { modulo: comunicacionEscrita } = useModulo('comunicacion-escrita')
   const { modulo: frances } = useModulo('frances')
   const { modulo: inorganica } = useModulo('inorganica')
+  const { modulo: habilidadesLaboratorio } = useModulo('habilidades-laboratorio')
   const [mostrandoGate, setMostrandoGate] = useState(null)
 
   useEffect(() => {
@@ -78,6 +79,7 @@ export function Home({ perfil, onCambiarPerfil, onAbrirModulo, onIrADirecto, onI
     'comunicacion-escrita': comunicacionEscrita,
     frances,
     inorganica,
+    'habilidades-laboratorio': habilidadesLaboratorio,
   }
   const dominioPorModulo = {}
   for (const [id, mod] of Object.entries(modulosCargados)) {
