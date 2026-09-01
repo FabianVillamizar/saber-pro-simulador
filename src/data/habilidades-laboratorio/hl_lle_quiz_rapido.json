@@ -597,5 +597,63 @@
       "2": 2
     },
     "explicacion": "Capacidad, completitud y velocidad son ejes independientes, y además el desecante no debe acomplejar el analito: por eso el CaCl₂ queda descartado con alcoholes y aminas."
+  },
+  {
+    "id": "HL-QR-039",
+    "tarjetaId": "HL-LLE-002",
+    "categoria": "lle",
+    "formato": "mcq",
+    "enunciado": "¿Qué describe mejor el papel de la extracción líquido-líquido dentro de un flujo de trabajo experimental?",
+    "opciones": [
+      "Es una reacción química que transforma el analito en un derivado más fácil de detectar por el instrumento final.",
+      "Es el paso final del análisis, el que entrega directamente el resultado cuantitativo sin ningún tratamiento posterior.",
+      "Es un paso de separación por reparto diferencial, entre la preparación de la matriz y la concentración o el análisis.",
+      "Es un evento aislado de laboratorio, sin relación con los pasos de digestión o de concentración que hay alrededor."
+    ],
+    "correcta": 2,
+    "explicacion": "La LLE no es una reacción: transfiere el analito de una matriz compleja a un solvente simple, siempre entre un paso de preparación de matriz (digestión, hidrólisis) y uno de concentración o análisis."
+  },
+  {
+    "id": "HL-QR-040",
+    "tarjetaId": "HL-LLE-027",
+    "categoria": "lle",
+    "formato": "mcq",
+    "enunciado": "Una emulsión persistente cede al agregar salmuera saturada, pero no había cedido al filtrarla. ¿Qué indica ese resultado sobre su causa?",
+    "opciones": [
+      "Que la emulsión estaba estabilizada por partículas sólidas gomosas, que la salmuera disolvió y el filtro no retuvo.",
+      "Que el $K_D$ del soluto era desfavorable, y la salmuera lo corrigió subiendo la afinidad del analito por el orgánico.",
+      "Que las dos fases se habían vuelto miscibles, y el ion cloruro de la salmuera restauró la inmiscibilidad entre ellas.",
+      "Que la interfase estaba sostenida por solutos disueltos de carácter tensioactivo, desestabilizados por el salting-out."
+    ],
+    "correcta": 3,
+    "explicacion": "Cada remedio apunta a una causa distinta: si cede a la salmuera (salting-out) pero no al filtro, el estabilizador es un soluto anfifílico disuelto, no material particulado. El $K_D$ no cambió; cambió la actividad en la interfase."
+  },
+  {
+    "id": "HL-QR-041",
+    "tarjetaId": "HL-LLE-028",
+    "categoria": "lle",
+    "formato": "fill",
+    "enunciado": "Completa el procedimiento para no botar la fase equivocada:",
+    "antes": "Antes de descartar nada, se compara la densidad de cada solvente contra el agua y, si queda duda, se añade una gota de",
+    "despues": "a una de las fases: la acuosa la absorbe sin que se forme una gota nueva.",
+    "respuesta": "agua",
+    "alternativas": [
+      "agua"
+    ],
+    "explicacion": "El error más común es descartar la fase que llevaba el producto. Razonar la densidad antes de agregar nada, y la prueba de la gota de agua para identificar la fase acuosa, lo evitan."
+  },
+  {
+    "id": "HL-QR-042",
+    "tarjetaId": "HL-LLE-031",
+    "categoria": "lle",
+    "formato": "build",
+    "enunciado": "Arma la conexión entre la extracción y la cromatografía de reparto:",
+    "fragmentos": [
+      "La distribución en contracorriente de Craig automatiza en cientos de tubos el equivalente de n extracciones sucesivas,",
+      "lo que permite separar compuestos con coeficientes de reparto casi idénticos;",
+      "llevar esa idea a una columna, con ambas fases líquidas y miles de micro-equilibrios de reparto,",
+      "es la base de la cromatografía de reparto (Nobel de Química de 1952 a Martin y Synge)."
+    ],
+    "explicacion": "La LLE no es una técnica aislada: la repetición sistemática de contactos de reparto es el fundamento conceptual de buena parte de la cromatografía moderna."
   }
 ]
