@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 196" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <defs>
+    <marker id="hl-flecha" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="var(--text-sub)" />
+    </marker>
+    <marker id="hl-flecha-ac" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto">
+      <path d="M0,0 L9,4.5 L0,9 Z" fill="var(--accent)" />
+    </marker>
+  </defs>
+
+  <rect x="18" y="26" width="98" height="116" rx="8" fill="var(--surface-alt)" stroke="var(--border)" stroke-width="1.6" />
+  <circle cx="44" cy="46" r="7" fill="none" stroke="var(--accent)" stroke-width="1.6" />
+    <circle cx="80" cy="42" r="5" fill="none" stroke="var(--accent)" stroke-width="1.6" />
+    <circle cx="60" cy="68" r="9" fill="none" stroke="var(--accent)" stroke-width="1.6" />
+    <circle cx="90" cy="74" r="6" fill="none" stroke="var(--accent)" stroke-width="1.6" />
+    <circle cx="48" cy="98" r="6" fill="none" stroke="var(--accent)" stroke-width="1.6" />
+    <circle cx="78" cy="106" r="8" fill="none" stroke="var(--accent)" stroke-width="1.6" />
+    <circle cx="96" cy="120" r="5" fill="none" stroke="var(--accent)" stroke-width="1.6" />
+    <circle cx="54" cy="128" r="7" fill="none" stroke="var(--accent)" stroke-width="1.6" />
+  <text x="67" y="158" fill="var(--text)" font-size="10" font-weight="700" text-anchor="middle">emulsión</text>
+  <text x="67" y="170" fill="var(--text-sub)" font-size="8.5" font-weight="500" text-anchor="middle">gotitas finas estabilizadas</text>
+  <line x1="120" y1="84" x2="166" y2="84" stroke="var(--text-sub)" stroke-width="1.8" stroke-linecap="round" marker-end="url(#hl-flecha)" />
+  <text x="143" y="77" fill="var(--text-faint)" font-size="8.5" font-weight="500" text-anchor="middle">coalescen</text>
+
+  <rect x="170" y="26" width="98" height="116" rx="8" fill="var(--surface-alt)" stroke="var(--border)" stroke-width="1.6" />
+  <circle cx="206" cy="54" r="14" fill="none" stroke="var(--accent)" stroke-width="1.6" />
+    <circle cx="238" cy="62" r="11" fill="none" stroke="var(--accent)" stroke-width="1.6" />
+    <circle cx="216" cy="102" r="16" fill="none" stroke="var(--accent)" stroke-width="1.6" />
+    <circle cx="242" cy="118" r="10" fill="none" stroke="var(--accent)" stroke-width="1.6" />
+  <text x="219" y="158" fill="var(--text)" font-size="10" font-weight="700" text-anchor="middle">gotas más grandes</text>
+  <text x="219" y="170" fill="var(--text-sub)" font-size="8.5" font-weight="500" text-anchor="middle">y menos numerosas</text>
+  <line x1="272" y1="84" x2="318" y2="84" stroke="var(--text-sub)" stroke-width="1.8" stroke-linecap="round" marker-end="url(#hl-flecha)" />
+  <text x="295" y="77" fill="var(--text-faint)" font-size="8.5" font-weight="500" text-anchor="middle">separan</text>
+
+  <rect x="322" y="26" width="98" height="116" rx="8" fill="var(--surface-alt)" stroke="var(--border)" stroke-width="1.6" />
+  <rect x="323" y="27" width="96" height="62" fill="var(--accent)" opacity="0.12" />
+  <rect x="323" y="91" width="96" height="50" fill="var(--warning)" opacity="0.14" />
+  <path d="M322 90 h98" stroke="var(--text-sub)" stroke-width="1.4" />
+  <text x="371" y="158" fill="var(--text)" font-size="10" font-weight="700" text-anchor="middle">dos capas limpias</text>
+  <text x="371" y="170" fill="var(--text-sub)" font-size="8.5" font-weight="500" text-anchor="middle">el reparto ya estaba hecho</text>
+
+  <text x="220" y="189" fill="var(--text-faint)" font-size="8.5" font-weight="500" text-anchor="middle">Reposo, salmuera o centrífuga solo aceleran la coalescencia: es cinética, no termodinámica.</text>
+  
+</svg>

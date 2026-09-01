@@ -68,7 +68,13 @@ export function PracticarLapizPapel({ moduloId, perfil, onCambiarPerfil, onVolve
   if (error) return <div className="page estado-error">No se pudo cargar el módulo: {error.message}</div>
 
   if (barajada === null) {
-    setBarajada(barajar(modulo.lapizPapel))
+    // Baraja tanto el orden de los ejercicios como el de las opciones de la
+    // fase 1: los JSON traen la opción correcta siempre primera, y sin
+    // barajar aquí "la correcta es la A" se vuelve un tell (ver
+    // feedback_mcq_guessable_bias). `o.correcta` viaja en el objeto, así
+    // que reordenar no rompe la detección; `seleccion` guarda el índice de
+    // render, estable durante la vida del ejercicio.
+    setBarajada(barajar(modulo.lapizPapel).map((e) => ({ ...e, opciones: barajar(e.opciones) })))
     return <div className="page estado-carga">Cargando…</div>
   }
 

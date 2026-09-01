@@ -95,7 +95,54 @@
     "prereqs": [
       "HL-LLE-004"
     ],
-    "formula_latex": "D_{acido} = \\dfrac{P}{1+10^{(pH-pKa)}} \\qquad D_{base} = \\dfrac{P}{1+10^{(pKa-pH)}}"
+    "formula_latex": "D_{acido} = \\dfrac{P}{1+10^{(pH-pKa)}} \\qquad D_{base} = \\dfrac{P}{1+10^{(pKa-pH)}}",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Curvas de D/P frente al pH: un ácido débil (pKa 4.2) se extrae bien a pH bajo y cae a casi cero por encima de pH 6; una base débil (pKa del BH+ 9.0) hace lo contrario, casi nula por debajo de pH 7 y casi total por encima de pH 11.",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "pH de la fase acuosa",
+      "ejeY": "D / P  (fracción extraíble)",
+      "series": [
+        {
+          "nombre": "Ácido débil (pKa 4.2)",
+          "datos": [
+            { "x": 1, "y": 0.999 },
+            { "x": 2, "y": 0.994 },
+            { "x": 3, "y": 0.941 },
+            { "x": 4, "y": 0.613 },
+            { "x": 5, "y": 0.137 },
+            { "x": 6, "y": 0.016 },
+            { "x": 7, "y": 0.002 },
+            { "x": 8, "y": 0.000 },
+            { "x": 9, "y": 0.000 },
+            { "x": 10, "y": 0.000 },
+            { "x": 11, "y": 0.000 },
+            { "x": 12, "y": 0.000 },
+            { "x": 13, "y": 0.000 }
+          ]
+        },
+        {
+          "nombre": "Base débil (pKa del BH+ 9.0)",
+          "datos": [
+            { "x": 1, "y": 0.000 },
+            { "x": 2, "y": 0.000 },
+            { "x": 3, "y": 0.000 },
+            { "x": 4, "y": 0.000 },
+            { "x": 5, "y": 0.000 },
+            { "x": 6, "y": 0.001 },
+            { "x": 7, "y": 0.010 },
+            { "x": 8, "y": 0.091 },
+            { "x": 9, "y": 0.500 },
+            { "x": 10, "y": 0.909 },
+            { "x": 11, "y": 0.990 },
+            { "x": 12, "y": 0.999 },
+            { "x": 13, "y": 1.000 }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Dos curvas sigmoideas espejo: la del ácido baja de 1 a 0 entre pH 3 y 7 con punto medio en pH 4.2; la de la base sube de 0 a 1 entre pH 7 y 11 con punto medio en pH 9."
+    }
   },
   {
     "id": "HL-LLE-007",
@@ -134,7 +181,31 @@
     "formula_latex": "f_n = \\left[\\dfrac{V_{ac}}{V_{ac}+K_D \\cdot (V_{org}/n)}\\right]^n",
     "connects_to": [
       "diosgenina:ELL"
-    ]
+    ],
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Fracción de soluto que queda en la fase acuosa tras repartir un mismo volumen total de solvente en n porciones (KD 4, volúmenes iguales): cae de 20% con una sola extracción a 7.9% con tres y 3.5% con diez, aplanándose hacia el techo asintótico de 1.8%.",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Número de extracciones, n (mismo solvente total)",
+      "ejeY": "Fracción remanente en agua (%)",
+      "series": [
+        {
+          "nombre": "Fracción remanente fn",
+          "datos": [
+            { "x": 1, "y": 20.0 },
+            { "x": 2, "y": 11.1 },
+            { "x": 3, "y": 7.9 },
+            { "x": 4, "y": 6.2 },
+            { "x": 5, "y": 5.3 },
+            { "x": 6, "y": 4.7 },
+            { "x": 8, "y": 3.9 },
+            { "x": 10, "y": 3.5 }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Curva decreciente con rendimientos rápidamente decrecientes: el salto grande es de n=1 a n=3 (20% a 7.9%); de n=3 a n=10 apenas baja de 7.9% a 3.5%."
+    }
   },
   {
     "id": "HL-LLE-009",
@@ -194,14 +265,18 @@
     "pregunta": "¿Por qué un extractante quelante funciona bien para un metal y no para otro, y qué tiene que ver eso con la teoría de ácidos y bases duros y blandos (HSAB)?",
     "respuesta": "La teoría HSAB de Pearson tiene su raíz en teoría de orbitales frontera: los ácidos y bases duros, con alta densidad de carga y baja polarizabilidad, prefieren interacción electrostática; los blandos, más polarizables y con HOMO-LUMO más cercanos, prefieren solapamiento orbital y covalencia. Un extractante con átomo donador duro, como el oxígeno fosforilo del fosfato de tributilo (TBP), extrae bien metales duros como UO₂²⁺ o lantánidos; uno con átomo donador blando, como el N/S de la ditizona, extrae bien metales blandos como Hg²⁺ o Pb²⁺.",
     "regla": "La selectividad de un extractante quelante no es empírica ni arbitraria: coincide con la clasificación dura-blanda del átomo donador del extractante y del metal objetivo.",
-    "ejemplo": "Las oximas (LIX), con átomos donadores de frontera O/N, extraen bien Cu²⁺, un metal también de frontera entre duro y blando.",
+    "ejemplo": "Las oximas (LIX), con átomos donadores de frontera O/N, extraen bien Cu²⁺, un metal también de frontera entre duro y blando. El esquema de la tarjeta alinea cada extractante con su metal y los colorea por dureza: azul duro, naranja blando, verde frontera.",
     "error_comun": "Memorizar reglas prácticas como \"usa ditizona para plomo\" sin saber que la razón detrás es exactamente esta coincidencia dura-blanda, lo que impide predecir qué extractante probar frente a un metal nuevo.",
     "conexion_cotidiana": "El proceso PUREX, usado desde los años 50 para reprocesar prácticamente todo el combustible nuclear gastado del mundo, es LLE industrial pura explotando esta misma selectividad dura: TBP en queroseno extrae selectivamente U(VI) y Pu(IV) como complejos neutros de nitrato.",
     "dificultad": "media",
     "prereqs": [
       "HL-LLE-005",
       "HL-LLE-009"
-    ]
+    ],
+    "tipo_visual": "diagrama_esquematico",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Tabla de tres filas que empareja extractante y metal por clasificación HSAB: TBP (donador O duro) con UO2 2+, Th4+, Ln3+; ditizona (donador N,S blando) con Hg2+, Ag+, Pb2+; oximas LIX (O,N frontera) con Cu2+.",
+    "imagen": "HL-LLE-012.svg"
   },
   {
     "id": "HL-LLE-013",
@@ -330,6 +405,294 @@
     "dificultad": "media",
     "prereqs": [
       "HL-LLE-003"
+    ]
+  },
+  {
+    "id": "HL-LLE-020",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Cómo afecta la temperatura al coeficiente de reparto $K_D$, y por qué \"a mayor temperatura, mejor extracción\" no es una ley general?",
+    "respuesta": "La temperatura entra en $K_D$ solo a través de $\\ln K_D = -\\Delta H^\\circ_{transferencia}/(RT) + \\Delta S^\\circ_{transferencia}/R$, que es la ecuación de van't Hoff aplicada al equilibrio de reparto en vez de a una reacción. Que la solubilidad absoluta de un soluto suba al calentar no dice nada sobre la razón $K_D$: eso depende solo del signo de $\\Delta H^\\circ_{transferencia}$. Si es negativo, $K_D$ baja al subir la temperatura; si es positivo, $K_D$ sube. Sin medir $K_D$ a dos temperaturas no hay forma de saber a priori cuál de los dos casos aplica.",
+    "regla": "La dependencia de $K_D$ con la temperatura no tiene signo fijo: lo fija el signo de $\\Delta H^\\circ_{transferencia}$, y solo el dato experimental a dos temperaturas lo decide.",
+    "ejemplo": "Un sistema con $\\Delta H^\\circ_{transferencia}$ negativo pierde eficiencia de reparto al calentar: $K_D$ cae de 8 a 5 al pasar de 15 a 40 °C, lo contrario de lo que sugiere la intuición de \"caliento y extraigo mejor\".",
+    "error_comun": "Suponer que subir la temperatura siempre mejora una extracción \"porque aumenta la solubilidad\", confundiendo la solubilidad absoluta en cada fase con la razón de reparto entre las dos.",
+    "conexion_cotidiana": "Es la misma lógica de van't Hoff por la que algunas sales se disuelven peor en agua caliente: la dirección del efecto térmico la fija la entalpía del proceso, no una regla única.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-LLE-003",
+      "HL-LLE-005"
+    ],
+    "formula_latex": "\\ln K_D = -\\dfrac{\\Delta H^\\circ_{transferencia}}{R}\\cdot\\dfrac{1}{T} + \\dfrac{\\Delta S^\\circ_{transferencia}}{R}",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Gráfico de van't Hoff (ln KD frente a 1/T): una recta de pendiente positiva para un reparto exotérmico (ΔH° < 0), donde KD baja al calentar, y otra de pendiente negativa para uno endotérmico (ΔH° > 0), donde KD sube al calentar. El signo de la pendiente es el signo de −ΔH°/R.",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "1/T  (×10⁻³ K⁻¹)  — la temperatura crece hacia la izquierda",
+      "ejeY": "ln KD",
+      "series": [
+        {
+          "nombre": "ΔH° < 0 (exotérmico): KD baja al calentar",
+          "datos": [
+            { "x": 3.19, "y": 1.61 },
+            { "x": 3.30, "y": 1.77 },
+            { "x": 3.41, "y": 1.92 },
+            { "x": 3.47, "y": 2.08 }
+          ]
+        },
+        {
+          "nombre": "ΔH° > 0 (endotérmico): KD sube al calentar",
+          "datos": [
+            { "x": 3.19, "y": 2.08 },
+            { "x": 3.30, "y": 1.92 },
+            { "x": 3.41, "y": 1.77 },
+            { "x": 3.47, "y": 1.61 }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Dos rectas que se cruzan cerca del centro: una asciende de izquierda a derecha (exotérmica) y la otra desciende (endotérmica), reflejo una de la otra."
+    }
+  },
+  {
+    "id": "HL-LLE-021",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Cómo organiza un work-up orgánico la separación de impurezas en tres tipos de lavado, y por qué el bicarbonato de sodio saca los ácidos carboxílicos pero deja intacto un fenol?",
+    "respuesta": "El esquema tiene tres categorías: lavado con agua para sales inorgánicas y especies muy polares de bajo peso; lavado ácido con HCl diluido, que protona las impurezas básicas (aminas → R-NH₃⁺Cl⁻, soluble en agua); y lavado básico, que desprotona las impurezas ácidas. La fuerza de la base importa: un ácido carboxílico tiene $pK_a$ ≈ 4-5, un fenol ≈ 10, unas cinco unidades más alto. El NaHCO₃ es lo bastante básico para desprotonar el ácido carboxílico pero no el fenol, así que separa por fuerza de acidez; con NaOH, base más fuerte, se llevan ambos.",
+    "regla": "Elegir la base del lavado por su fuerza convierte el lavado ácido-base en una herramienta de separación selectiva entre ácidos de distinta fuerza, no solo en un filtro de \"tiene o no tiene acidez\".",
+    "ejemplo": "De una mezcla de un ácido carboxílico y un fenol en éter, un lavado con NaHCO₃ se lleva solo el carboxilato al agua; el fenol se queda en el éter hasta que se lava con NaOH. El diagrama de la tarjeta muestra la cascada en orden: HCl, luego NaHCO₃, luego NaOH, y al final el neutro por evaporación.",
+    "error_comun": "Usar NaOH para todo lavado básico y perder la posibilidad de separar un ácido carboxílico de un fenol, que un lavado escalonado con NaHCO₃ primero sí distingue.",
+    "conexion_cotidiana": "Es la base de cómo un laboratorio de productos naturales fracciona un extracto crudo en subfracciones ácida, básica y neutra antes de intentar aislar un solo compuesto.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-LLE-006"
+    ],
+    "tipo_visual": "diagrama_esquematico",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Diagrama de flujo de la escalera de lavados: la fase orgánica se lava en orden con HCl diluido (saca la amina), NaHCO3 base debil (saca solo el acido carboxilico), NaOH base fuerte (saca el fenol); cada fase acuosa se acidifica para recuperar su compuesto, y el orgánico final se evapora para el compuesto neutro.",
+    "imagen": "HL-LLE-021.svg"
+  },
+  {
+    "id": "HL-LLE-022",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Qué es la back-extraction o backwashing, y en qué se diferencia de hacer varias extracciones sucesivas para mejorar el rendimiento?",
+    "respuesta": "Cuando se extrae un ácido carboxílico hacia una fase acuosa básica, esa fase casi nunca queda limpia: arrastra algo de material neutro por co-solubilidad o en gotitas atrapadas. El backwashing es lavar esa fase acuosa, la que ya lleva el producto, con una porción fresca de solvente orgánico para sacar ese contaminante neutro antes de revertir el pH y recuperar el producto. Es una extracción en sentido contrario usada como paso de limpieza. La extracción múltiple persigue rendimiento, sacar más soluto; el backwashing persigue pureza, quitar lo que se coextrajo por error.",
+    "regla": "Extracción múltiple y backwashing usan la misma operación física con objetivos opuestos: una maximiza cuánto producto se recupera, la otra minimiza qué impureza viaja con él.",
+    "ejemplo": "Tras pasar un ácido a una fase acuosa de NaHCO₃, se lava esa fase con un poco de éter limpio; el éter se lleva las trazas neutras coextraídas y se descarta, y solo entonces se acidifica la fase acuosa para recuperar el ácido puro.",
+    "error_comun": "Tratar cualquier extracción adicional como si siempre aumentara el rendimiento, sin ver que lavar la fase que ya tiene el producto sacrifica un poco de producto a cambio de pureza.",
+    "conexion_cotidiana": "Es el mismo principio de \"enjuagar en sentido contrario\" que se usa al lavar un precipitado en un embudo con solvente limpio en vez de con la solución madre.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-LLE-006",
+      "HL-LLE-021"
+    ]
+  },
+  {
+    "id": "HL-LLE-023",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué se prefiere amoníaco o bicarbonato de sodio, y no NaOH concentrado, para alcalinizar una mezcla que contiene moléculas orgánicas sensibles?",
+    "respuesta": "Muchos enlaces orgánicos, ésteres, amidas, glicósidos y epóxidos, se hidrolizan bajo catálisis de base fuerte. Si se alcaliniza con NaOH concentrado, el pH puede dispararse muy por encima de lo necesario para solo desprotonar la amina de interés, y ese exceso de basicidad cataliza reacciones secundarias sobre otras partes de la molécula. El amoníaco (NH₃ac) y el NaHCO₃ son bases más débiles y autolimitadas: rara vez pasan de pH 10-11, suficiente para desprotonar una amina alifática (que necesita superar su $pK_a$, típicamente 9-11) sin arriesgar el resto de la estructura.",
+    "regla": "La base de un lavado se elige para llevar el pH justo hasta desprotonar el grupo de interés y no más: el exceso de fuerza básica no aporta separación y sí puede degradar el producto.",
+    "ejemplo": "Para liberar una amina de su sal sin tocar un éster presente en la misma molécula, se basifica con NH₃ acuoso hasta pH ~10, no con NaOH 2 M.",
+    "error_comun": "Alcanzar el pH deseado con NaOH concentrado \"porque es lo que hay\", sin considerar que ese exceso de OH⁻ puede hidrolizar enlaces sensibles del propio producto.",
+    "conexion_cotidiana": "En un work-up con base durante una extracción de diosgenina esto aplica a los glicósidos: el enlace que se rompe a propósito con hidrólisis ácida controlada también es sensible a base fuerte si aparece en subproductos, aunque el vínculo con el protocolo exacto del semillero es razonamiento a partir del tema, no verificación de ese protocolo.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-LLE-021"
+    ],
+    "connects_to": [
+      "diosgenina:ELL"
+    ]
+  },
+  {
+    "id": "HL-LLE-024",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué la fórmula de $D$ para una base débil usa el $pK_a$ del ácido conjugado y no el $pK_b$ de la base, y por qué el $pK_a$ del agua no es 14?",
+    "respuesta": "Son dos confusiones de constantes distintas. Primera: la fórmula $D = P/(1+10^{(pK_a-pH)})$ para una base usa el $pK_a$ de su ácido conjugado BH⁺, ligado al $pK_b$ por $pK_a(BH^+) + pK_b(B) = pK_w = 14.00$ a 25 °C. Un alcaloide con $pK_b$ ≈ 4 tiene $pK_a$ = 10 en la fórmula, no 4; confundirlos hace acidificar o alcalinizar al revés. Segunda: $pK_w = 14$ es el producto iónico del agua, mientras que el $pK_a$ del agua actuando como ácido, calculado como el de cualquier ácido débil usando la concentración del agua pura (55.5 M), es ≈ 15.7.",
+    "regla": "Cada constante responde una pregunta distinta: $pK_b$ mide la basicidad de B, $pK_a(BH^+)$ la acidez de su conjugado, $pK_w$ el producto iónico del agua; solo $pK_a(BH^+)$ entra en la fórmula de $D$ de una base.",
+    "ejemplo": "Para una base con $pK_b$ = 5, el exponente de la fórmula de $D$ se arma con $pK_a$ = 14 − 5 = 9, así que su forma neutra domina a pH por encima de 9.",
+    "error_comun": "Meter el $pK_b$ directamente en la fórmula de $D$, o usar 14 como el $pK_a$ del agua al decidir si un compuesto orgánico es \"más ácido que el agua\".",
+    "conexion_cotidiana": "Es una confusión frecuente incluso entre químicos con formación: los dos pares de números se parecen y se citan en los mismos problemas, pero mezclarlos invierte el signo de la decisión de extracción.",
+    "dificultad": "alta",
+    "prereqs": [
+      "HL-LLE-006"
+    ],
+    "formula_latex": "pK_a(\\text{BH}^+) + pK_b(\\text{B}) = pK_w = 14.00"
+  },
+  {
+    "id": "HL-LLE-025",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Cómo funciona un agente desecante, en qué tres ejes independientes se evalúa, y por qué CaCl₂ es mala elección para secar una solución que contiene una amina?",
+    "respuesta": "Un desecante es una sal inorgánica anhidra que captura agua formando un hidrato sólido insoluble en el solvente orgánico. Se evalúa en tres ejes que no van juntos: capacidad (agua absorbida por gramo), completitud (qué tan seco deja el sistema en el equilibrio) y velocidad (qué tan rápido llega). El MgSO₄ es de alta capacidad y rápido; el Na₂SO₄ tiene alta capacidad pero baja completitud; el CaSO₄ seca muy bien pero con poca capacidad. El CaCl₂ forma complejos de coordinación con compuestos que tienen pares libres de O o N, así que retendría la propia amina o alcohol que se quiere secar.",
+    "regla": "Un buen desecante no es solo \"el que absorbe más agua\": capacidad, completitud y velocidad son ejes separados, y además el desecante no debe reaccionar ni acomplejar el analito.",
+    "ejemplo": "Para secar una fase orgánica con una amina o un éster sensible a trazas de ácido se usa K₂CO₃, ligeramente básico y compatible, en vez de una sal que pueda comportarse como ácido en superficie.",
+    "error_comun": "Elegir un desecante solo por su capacidad y pasar por alto que puede dejar el sistema aún húmedo (baja completitud) o que reacciona con el compuesto de interés.",
+    "conexion_cotidiana": "Secar una amina sobre un desecante ácido en superficie es el mismo tipo de error que alcalinizar con NaOH en vez de amoníaco: el reactivo auxiliar ataca al producto que se quería proteger.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-LLE-002"
+    ],
+    "formula_latex": "\\text{Na}_2\\text{SO}_4(s) + n\\,\\text{H}_2\\text{O} \\rightleftharpoons \\text{Na}_2\\text{SO}_4\\!\\cdot\\! n\\,\\text{H}_2\\text{O}(s)"
+  },
+  {
+    "id": "HL-LLE-026",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué una emulsión no es una falla del equilibrio de reparto, sino un problema de cinética de coalescencia?",
+    "respuesta": "En una emulsión las dos fases siguen siendo inmiscibles y siguen buscando separarse: la termodinámica de reparto no cambió. Lo que pasa es que quedan atrapadas cinéticamente como una suspensión coloidal de gotitas finas de una fase dentro de la otra, porque algo con carácter tensioactivo (material gomoso, proteínas, productos de degradación) estabiliza la interfase de esas gotitas e impide que coalescan en una capa continua. El obstáculo es la barrera para que las gotitas se junten, no la dirección del equilibrio.",
+    "regla": "Una emulsión es un estado metaestable de coalescencia lenta, no un equilibrio de reparto desplazado: por eso se rompe atacando la estabilización de la interfase, no cambiando $K_D$.",
+    "ejemplo": "Agitar con violencia un embudo con un extracto vegetal rico en material gomoso genera gotitas tan finas y estabilizadas que la fase no se separa ni tras varios minutos de reposo, aunque el $K_D$ del soluto sea favorable. El esquema de la tarjeta muestra el proceso: gotitas finas estabilizadas → coalescen → dos capas limpias, con el reparto ya hecho.",
+    "error_comun": "Interpretar una emulsión persistente como señal de que la extracción \"no funcionó\" en el sentido termodinámico, cuando el reparto ya ocurrió y el problema es solo que las fases no se separan.",
+    "conexion_cotidiana": "Es la misma diferencia entre termodinámica y cinética de la tarjeta de $K_D$ y velocidad: el sistema va hacia donde debe ir, solo que la velocidad de llegar está limitada por una barrera física.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-LLE-019"
+    ],
+    "connects_to": [
+      "diosgenina:ELL"
+    ],
+    "tipo_visual": "diagrama_esquematico",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Tres frascos en secuencia: una emulsión de muchas gotitas finas estabilizadas en la interfase; luego gotas más grandes y menos numerosas al coalescer; luego dos capas limpias separadas. El reparto ya estaba hecho; romper la emulsión es cinética, no termodinámica.",
+    "imagen": "HL-LLE-026.svg"
+  },
+  {
+    "id": "HL-LLE-027",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué cada remedio para romper una emulsión (reposo, salmuera, filtración, centrifugación) ataca una causa distinta, y qué dice sobre la emulsión el que funcione uno y no otro?",
+    "respuesta": "Reposo con agitación suave: da tiempo a que la coalescencia gane; si basta, la emulsión estaba débilmente estabilizada. Salmuera saturada de NaCl: sube la fuerza iónica, el mismo salting-out que actúa sobre $K_D$ aplicado aquí a desestabilizar la interfase; si funciona, la estabilización venía de solutos tipo tensioactivo disueltos. Filtración: si funciona, la causa era material gomoso o particulado. Centrifugación: vence mecánicamente la barrera de coalescencia sin importar la causa, útil a microescala.",
+    "regla": "El remedio que rompe una emulsión identifica su causa: la sal apunta a solutos iónicos o tensioactivos, el filtro a sólidos en suspensión, y si solo cede a la centrífuga es un coloide muy estable.",
+    "ejemplo": "Si una emulsión cede al agregar salmuera pero no al filtrar, el estabilizador es un soluto disuelto con carácter anfifílico, no partículas sólidas.",
+    "error_comun": "Ir directo a la centrifugación como primer recurso, perdiendo la información diagnóstica que dan los métodos más simples sobre qué está causando la emulsión.",
+    "conexion_cotidiana": "Agregar un poco de detergente para romper una emulsión estabilizada por tensioactivos parece contradictorio, pero es el mismo principio con el que se dispersan derrames de petróleo en el mar.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-LLE-026",
+      "HL-LLE-018"
+    ]
+  },
+  {
+    "id": "HL-LLE-028",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Cuál es el error más común al hacer una extracción, y qué procedimiento sistemático lo evita antes de descartar cualquier fase?",
+    "respuesta": "El error más común es botar por accidente la fase que contenía el producto, por no haber razonado cuál fase es cuál antes de descartar nada. El procedimiento que lo evita: comparar la densidad de los solventes contra el agua (éter etílico 0.71, ligroína ~0.68, tolueno 0.87, agua 1.00, diclorometano 1.33 g/mL) y razonar antes de agregar nada cuál fase debería quedar arriba; en caso de duda, una gota de agua añadida a una fase indica cuál es la acuosa, porque se mezcla sin formar una gota nueva. A microescala conviene además expulsar aire de la pipeta Pasteur antes de sumergirla, para no succionar líquido de la fase equivocada.",
+    "regla": "Nunca se descarta una fase sin haberla identificado por densidad y, si hace falta, por la prueba de la gota de agua: la fase descartada por error rara vez se recupera.",
+    "ejemplo": "Con diclorometano (1.33 g/mL) la fase orgánica queda abajo; con éter etílico (0.71 g/mL) queda arriba, así que la misma extracción cambia de \"guardar la de abajo\" a \"guardar la de arriba\" solo por el solvente. La imagen de la tarjeta rotula justo eso en un embudo de decantación: capa de baja densidad arriba, de alta densidad abajo, con tapón y llave de paso.",
+    "error_comun": "Asumir que la fase orgánica siempre está arriba, o siempre abajo, sin revisar la densidad del solvente concreto que se está usando en esa extracción.",
+    "conexion_cotidiana": "El módulo de Diosgenina, bloque ELL, cubre este mismo cuidado de densidad de fases y descarte con el protocolo real de DCM paso a paso.",
+    "dificultad": "baja",
+    "prereqs": [],
+    "connects_to": [
+      "diosgenina:ELL"
+    ],
+    "tipo_visual": "diagrama_esquematico",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Embudo de decantación rotulado: tapón arriba, cuerpo del embudo, líquido de baja densidad en la capa superior, líquido de alta densidad en la capa inferior, y llave de paso al fondo.",
+    "imagen": "hl-lle-028-embudo-decantacion.png"
+  },
+  {
+    "id": "HL-LLE-029",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Qué automatiza un extractor Soxhlet frente a una maceración simple, y en qué se diferencia de un extractor líquido-líquido continuo?",
+    "respuesta": "El Soxhlet hace extracción sólido-líquido continua: el sólido (tejido vegetal seco y molido) va en un cartucho poroso; un solvente de bajo punto de ebullición hierve a reflujo abajo, y su vapor condensado gotea sobre el sólido y disuelve el compuesto de interés, hasta que un sifón lo drena todo de vuelta al balón. El ciclo se repite cientos de veces y el producto se concentra en el balón. El extractor líquido-líquido continuo hace lo análogo cuando el producto ya está en una fase acuosa con $K_D$ desfavorable: circula solvente orgánico fresco a través de la fase acuosa, automatizando el límite $n \\to \\infty$ de las extracciones múltiples.",
+    "regla": "Ambos reemplazan la repetición manual de contactos con solvente fresco por un ciclo automático: el Soxhlet para un analito atrapado en un sólido, el extractor continuo para un analito con reparto desfavorable en solución.",
+    "ejemplo": "Para extraer una sapogenina esteroidal de tejido de ñame seco, un Soxhlet con un solvente apolar hace exhaustiva la extracción del material crudo antes de la hidrólisis. El corte de la tarjeta sigue ese ciclo: vapor sube, condensador, goteo sobre el cartucho, sifón de vuelta al balón.",
+    "error_comun": "Usar Soxhlet para un analito que ya está disuelto en un líquido, donde el problema es un reparto líquido-líquido y no una extracción desde una matriz sólida.",
+    "conexion_cotidiana": "Aparece en la literatura de extracción de diosgenina desde ñame seco como alternativa o complemento a la maceración seguida de partición, aunque el vínculo con el flujo de trabajo exacto del semillero es razonamiento a partir del tema.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-LLE-008"
+    ],
+    "connects_to": [
+      "diosgenina:ELL"
+    ],
+    "tipo_visual": "diagrama_esquematico",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Aparato Soxhlet en corte: condensador arriba, brazo lateral por el que sube el vapor del solvente, cámara central con el cartucho de extracción que contiene la muestra sólida, tubo sifón que devuelve el extracto, y balón inferior donde hierve el solvente y se acumula el extracto. Rótulos en inglés.",
+    "imagen": "hl-lle-029-soxhlet.jpg"
+  },
+  {
+    "id": "HL-LLE-030",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Cómo aplica el principio de reparto a la extracción en fase sólida (SPE), y por qué la descafeinización de té o café por SPE es más limpia que una extracción líquido-líquido directa?",
+    "respuesta": "En SPE la segunda fase no es un líquido sino un adsorbente sólido, típicamente sílice modificada con cadenas C18 (fase reversa), por el que se hace pasar la muestra acuosa. El mismo \"lo semejante disuelve a lo semejante\" que gobierna el reparto líquido-líquido gobierna aquí la retención: un compuesto suficientemente apolar queda retenido mientras el agua y los compuestos muy polares pasan de largo; luego un volumen pequeño de solvente orgánico eluye el compuesto retenido, ya concentrado. En la descafeinización, la cafeína, moderadamente apolar, se retiene en el C18 mientras el resto de la infusión pasa, y se recupera con poco solvente, más limpia que con una LLE sobre la infusión completa.",
+    "regla": "SPE es reparto entre una fase acuosa y una superficie sólida funcionalizada: retiene por afinidad apolar y eluye con un volumen mínimo de solvente, así que concentra y limpia en un solo paso.",
+    "ejemplo": "Una infusión de café pasada por un cartucho C18 deja la cafeína retenida; un mililitro de solvente orgánico la libera como un extracto concentrado, sin la emulsión ni el volumen de solvente de una LLE clásica. La tarjeta lo separa en cuatro pasos: acondicionar, cargar, lavar y eluir.",
+    "error_comun": "Pensar que SPE es un mecanismo totalmente distinto de la LLE, cuando comparte el mismo fundamento de afinidad de fase, solo con un sólido en lugar de un segundo líquido.",
+    "conexion_cotidiana": "Es el mismo principio de los cartuchos de limpieza de muestra que se usan de rutina antes de un análisis por HPLC en control de calidad.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-LLE-005",
+      "HL-LLE-011"
+    ],
+    "tipo_visual": "diagrama_esquematico",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Cartucho de extracción en fase sólida en cuatro pasos: acondicionar el cartucho, cargar la muestra (entran analito e interferentes), lavar (los interferentes salen y el analito queda retenido) y eluir (sale el analito ya concentrado). Rótulos en inglés.",
+    "imagen": "hl-lle-030-spe-cartucho.webp"
+  },
+  {
+    "id": "HL-LLE-031",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "¿Cómo conecta la distribución en contracorriente de Craig con el Nobel de 1952 por la cromatografía de reparto, y qué tiene que ver con que el CCl₄ ya no se use como solvente de extracción?",
+    "respuesta": "Craig (1944) construyó aparatos de cientos de tubos interconectados que automatizan el equivalente de $n$ extracciones sucesivas, y así separan compuestos con $K_D$ muy parecidos, imposible con pocas extracciones manuales; se usó para antibióticos, alcaloides y hormonas. Llevar esa idea a que ambas fases, móvil y estacionaria, sean líquidas, con miles de micro-equilibrios de reparto a lo largo de una columna, es la base de la cromatografía de reparto, por la que Martin y Synge recibieron el Nobel de Química de 1952. Aparte, el CCl₄ fue un solvente de extracción común durante décadas y hoy está casi prohibido por su papel en la destrucción de la capa de ozono (Nobel de Química de 1995).",
+    "regla": "La LLE no es una técnica aislada: la repetición sistemática de contactos de reparto es el fundamento conceptual de buena parte de la cromatografía moderna, y la elección de solvente responde también a criterios ambientales.",
+    "ejemplo": "Separar dos alcaloides con $K_D$ casi iguales es inviable en un embudo de decantación, pero un aparato de Craig con cien etapas los resuelve, igual que después lo haría una columna cromatográfica de reparto.",
+    "error_comun": "Ver la cromatografía como algo desconectado de la extracción, sin reconocer que una columna de reparto es, en el fondo, miles de extracciones líquido-líquido en serie.",
+    "conexion_cotidiana": "Que un solvente funcione bien en el banco no basta: el CCl₄ era excelente extrayendo y aun así se abandonó, la misma lógica de química verde que empuja hoy hacia líquidos iónicos y disolventes eutécticos.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-LLE-008"
+    ]
+  },
+  {
+    "id": "HL-LLE-032",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "lle",
+    "modo": "pregunta",
+    "pregunta": "Además del pH y de la teoría HSAB, ¿qué tercer eje de selectividad usa el proceso PUREX para separar plutonio de uranio?",
+    "respuesta": "El control del estado de oxidación. En PUREX, el TBP extrae U(VI) y Pu(IV) juntos como complejos neutros de nitrato por selectividad dura (HSAB). Para separarlos entre sí, el plutonio se reduce deliberadamente de Pu(IV) a Pu(III); ese cambio de estado de oxidación altera lo suficiente su comportamiento de coordinación para que Pu(III) se re-extraiga selectivamente hacia una fase acuosa fresca, mientras el uranio permanece en la fase orgánica. Así, la caja de herramientas de selectividad de la LLE tiene tres ejes: pH, dureza-blandura del átomo donador, y estado redox del metal.",
+    "regla": "La selectividad de una extracción se modula por tres vías independientes: el pH que controla la ionización, la coincidencia dura-blanda que controla la afinidad de coordinación, y el estado de oxidación que cambia la química de coordinación de un mismo elemento.",
+    "ejemplo": "Uranio y plutonio se coextraen juntos con TBP; solo al reducir Pu(IV) a Pu(III) con un agente reductor en la fase acuosa se logra devolver el plutonio al agua y dejar el uranio en el solvente.",
+    "error_comun": "Suponer que si dos metales tienen dureza HSAB parecida y se extraen con el mismo extractante ya no hay forma de separarlos, olvidando que cambiar el estado de oxidación de uno es una palanca adicional.",
+    "conexion_cotidiana": "Es el mismo razonamiento de esquema de separación secuencial que se usa en química analítica para aislar un metal de una matriz con varios metales de propiedades cercanas.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-LLE-006",
+      "HL-LLE-012"
     ]
   }
 ]

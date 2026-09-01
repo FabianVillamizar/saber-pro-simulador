@@ -393,5 +393,209 @@
       "2": 2
     },
     "explicacion": "Los tres son formas del mismo concepto de reparto aplicadas a preguntas distintas: mecanismo termodinámico, destino ambiental, y diseño de fármacos."
+  },
+  {
+    "id": "HL-QR-026",
+    "tarjetaId": "HL-LLE-020",
+    "categoria": "lle",
+    "formato": "mcq",
+    "enunciado": "En una clase se afirmó que subir la temperatura siempre mejora una extracción \"porque aumenta la solubilidad\". ¿Por qué esto no es una ley general?",
+    "opciones": [
+      "Porque subir la temperatura siempre reduce $K_D$, así que el efecto real de calentar es hacer toda extracción algo menos eficiente de lo que sería en frío.",
+      "Porque la dirección en que cambia $K_D$ con la temperatura la fija el signo de $\\Delta H^\\circ_{transferencia}$, y no se sabe si sube o baja sin medirlo.",
+      "Porque la temperatura no aparece en ninguna ecuación de reparto, de modo que $K_D$ es estrictamente independiente de ella en todos los sistemas reales.",
+      "Porque la solubilidad de un soluto en agua y en el solvente orgánico crece siempre en igual proporción, dejando la razón $K_D$ exactamente igual que antes."
+    ],
+    "correcta": 1,
+    "explicacion": "Que la solubilidad absoluta suba con la temperatura no dice nada sobre la razón $K_D$: eso depende solo del signo de $\\Delta H^\\circ_{transferencia}$, y solo el dato experimental lo decide."
+  },
+  {
+    "id": "HL-QR-027",
+    "tarjetaId": "HL-LLE-021",
+    "categoria": "lle",
+    "formato": "mcq",
+    "enunciado": "De una mezcla en éter de un ácido carboxílico ($pK_a$ ≈ 4.5) y un fenol ($pK_a$ ≈ 10), ¿qué logra un lavado con NaHCO₃ diluido?",
+    "opciones": [
+      "Desprotona y se lleva al agua tanto el ácido carboxílico como el fenol, porque el bicarbonato neutraliza por igual cualquier grupo ácido orgánico que encuentre.",
+      "No desprotona a ninguno de los dos, porque el bicarbonato es demasiado débil para actuar sobre grupos ácidos con $pK_a$ menor que el del agua.",
+      "Desprotona y se lleva al agua el ácido carboxílico, pero deja el fenol intacto en el éter, porque el fenol es unas cinco unidades de $pK_a$ menos ácido.",
+      "Convierte el fenol en fenolato y deja el ácido carboxílico neutro en el éter, porque el bicarbonato actúa antes sobre el ácido más débil de los dos."
+    ],
+    "correcta": 2,
+    "explicacion": "El NaHCO₃ es lo bastante básico para el ácido carboxílico pero no para el fenol: eso lo hace una herramienta de separación selectiva por fuerza de acidez. Con NaOH se llevarían ambos."
+  },
+  {
+    "id": "HL-QR-028",
+    "tarjetaId": "HL-LLE-022",
+    "categoria": "lle",
+    "formato": "mcq",
+    "enunciado": "Tras extraer un ácido carboxílico hacia una fase acuosa básica, se lava esa fase acuosa con una porción de éter limpio antes de acidificar. ¿Con qué objetivo?",
+    "opciones": [
+      "Para sacar el material neutro coextraído por co-solubilidad, un paso de limpieza (backwashing) cuyo fin es la pureza, no aumentar el rendimiento.",
+      "Para extraer más ácido carboxílico de la fase acuosa, aprovechando que cada contacto con solvente fresco aumenta el rendimiento total recuperado.",
+      "Para subir el $K_D$ del ácido en el sistema, ya que el contacto adicional con éter modifica de forma permanente la constante de reparto medida.",
+      "Para bajar la temperatura de la fase acuosa antes de acidificar, evitando así que el ácido se degrade al recuperarlo del medio fuertemente básico."
+    ],
+    "correcta": 0,
+    "explicacion": "El backwashing usa la misma operación física que la extracción múltiple pero con objetivo opuesto: quitar la impureza neutra que viajó con el producto, sacrificando algo de producto a cambio de pureza."
+  },
+  {
+    "id": "HL-QR-029",
+    "tarjetaId": "HL-LLE-023",
+    "categoria": "lle",
+    "formato": "mcq",
+    "enunciado": "Se necesita liberar una amina de su sal en una molécula que también tiene un éster y un glicósido. ¿Por qué se prefiere NH₃ acuoso a NaOH concentrado para alcalinizar?",
+    "opciones": [
+      "Porque el NaOH concentrado no alcanza el pH necesario para desprotonar una amina alifática, mientras que el amoníaco sí llega a ese pH con facilidad.",
+      "Porque el amoníaco reacciona solo con la sal de amina y no toca ningún otro grupo, mientras que el NaOH no distingue entre la sal y la amina libre.",
+      "Porque el NaOH concentrado precipita la amina como hidróxido insoluble, y el amoníaco la mantiene disuelta y disponible para la extracción posterior.",
+      "Porque el NaOH concentrado puede llevar el pH muy por encima de lo necesario y catalizar la hidrólisis del éster y del glicósido; el amoníaco es autolimitado a pH 10-11."
+    ],
+    "correcta": 3,
+    "explicacion": "Ésteres, amidas, glicósidos y epóxidos se hidrolizan bajo base fuerte. NH₃ y NaHCO₃ son bases débiles y autolimitadas: llegan a pH ~10-11, suficiente para la amina sin arriesgar el resto de la molécula."
+  },
+  {
+    "id": "HL-QR-030",
+    "tarjetaId": "HL-LLE-024",
+    "categoria": "lle",
+    "formato": "mcq",
+    "enunciado": "Un alcaloide tiene $pK_b$ ≈ 4. ¿Qué valor entra en la fórmula $D = P/(1+10^{(pK_a-pH)})$ para esa base?",
+    "opciones": [
+      "$pK_a$ = 4, porque para una base el $pK_b$ se usa directamente como el $pK_a$ de la fórmula, sin ninguna conversión previa.",
+      "$pK_a$ = 10, es decir el $pK_a$ del ácido conjugado BH⁺, que sale de la relación $pK_a(BH^+) + pK_b(B) = 14$ a 25 °C.",
+      "$pK_a$ = 14, porque toda base débil disuelta en agua toma como referencia el producto iónico del agua para repartirse.",
+      "$pK_a$ ≈ 15.7, el valor del agua actuando como ácido, que fija la escala de acidez de cualquier base disuelta en agua."
+    ],
+    "correcta": 1,
+    "explicacion": "La fórmula de $D$ de una base usa el $pK_a$ de su ácido conjugado, no el $pK_b$. El 15.7 es el $pK_a$ del agua, una confusión distinta; 14 es el $pK_w$."
+  },
+  {
+    "id": "HL-QR-031",
+    "tarjetaId": "HL-LLE-025",
+    "categoria": "lle",
+    "formato": "mcq",
+    "enunciado": "Se acaba de extraer una amina terciaria en diclorometano y hay que secar la fase orgánica. ¿Por qué CaCl₂ es mala elección pese a figurar como \"neutro\"?",
+    "opciones": [
+      "Porque el CaCl₂ tiene una capacidad de absorción de agua tan baja que nunca llega a secar una fase orgánica en un tiempo razonable de contacto.",
+      "Porque el CaCl₂ es en realidad fuertemente básico y desprotonaría la amina, arrastrándola hacia una forma que ya no se extrae a la fase orgánica.",
+      "Porque el CaCl₂ forma complejos de coordinación con especies que tienen pares libres de O o N, así que retendría la amina que se busca conservar.",
+      "Porque el CaCl₂ solo actúa como desecante por encima de 40 °C, temperatura a la que el diclorometano ya se habría evaporado casi por completo."
+    ],
+    "correcta": 2,
+    "explicacion": "\"Neutro\" se refiere a la acidez, no a la inercia química: el CaCl₂ acompleja alcoholes y aminas. Para una amina o un éster sensible se usa K₂CO₃, ligeramente básico y compatible."
+  },
+  {
+    "id": "HL-QR-032",
+    "tarjetaId": "HL-LLE-026",
+    "categoria": "lle",
+    "formato": "mcq",
+    "enunciado": "Una extracción forma una emulsión persistente aunque el $K_D$ del soluto es muy favorable. ¿Qué describe correctamente la situación?",
+    "opciones": [
+      "El reparto ya ocurrió; las fases quedaron atrapadas cinéticamente como gotitas finas estabilizadas por tensioactivos: el problema es cinético, no de reparto.",
+      "El $K_D$ favorable debe estar mal medido, porque un reparto termodinámicamente favorable siempre produce una separación de fases limpia y rápida en el embudo.",
+      "Las dos fases se volvieron miscibles durante la agitación, y por eso ya no se separan en dos capas por más que se deje reposar el embudo mucho tiempo.",
+      "El soluto se degradó por completo durante la agitación, y son sus productos de descomposición los que impiden que el equilibrio de reparto llegue a darse."
+    ],
+    "correcta": 0,
+    "explicacion": "Una emulsión es un estado metaestable de coalescencia lenta: las fases siguen siendo inmiscibles y el reparto ya se dio. Se rompe atacando la estabilización de la interfase, no cambiando $K_D$."
+  },
+  {
+    "id": "HL-QR-033",
+    "tarjetaId": "HL-LLE-029",
+    "categoria": "lle",
+    "formato": "mcq",
+    "enunciado": "¿En qué situación tiene sentido usar un extractor Soxhlet en vez de una partición líquido-líquido clásica?",
+    "opciones": [
+      "Cuando el analito ya está disuelto en una fase acuosa y su $K_D$ hacia el solvente orgánico es muy favorable, para acelerar una separación que sería lenta.",
+      "Cuando hay que separar dos solutos con coeficientes de reparto casi idénticos, porque el Soxhlet resuelve mezclas que un embudo de decantación no puede.",
+      "Cuando la muestra forma emulsiones persistentes, porque el ciclo de reflujo del Soxhlet impide por diseño que las dos fases líquidas lleguen a emulsionar.",
+      "Cuando el compuesto de interés está atrapado en una matriz sólida, como tejido vegetal seco, y hace falta extracción sólido-líquido exhaustiva con solvente fresco."
+    ],
+    "correcta": 3,
+    "explicacion": "El Soxhlet hace extracción sólido-líquido continua: reflujo, condensación, goteo sobre el sólido y sifón, repetido cientos de veces. Para un analito ya en solución el problema es un reparto líquido-líquido."
+  },
+  {
+    "id": "HL-QR-034",
+    "tarjetaId": "HL-LLE-024",
+    "categoria": "lle",
+    "formato": "fill",
+    "enunciado": "Completa la distinción entre dos constantes del agua:",
+    "antes": "El valor $pK_w = 14$ es el producto iónico del agua, mientras que el $pK_a$ del agua actuando como ácido, calculado como el de cualquier ácido débil, es aproximadamente",
+    "despues": "y confundir los dos lleva a errores al decidir si un compuesto orgánico es más ácido que el agua.",
+    "respuesta": "15.7",
+    "alternativas": [
+      "15.7",
+      "15,7",
+      "≈ 15.7",
+      "15.74"
+    ],
+    "explicacion": "Son dos números que responden preguntas distintas: $pK_w$ mide la autoionización del agua; el $pK_a$ del agua la mide como donante de un protón, usando su concentración pura de 55.5 M como referencia."
+  },
+  {
+    "id": "HL-QR-035",
+    "tarjetaId": "HL-LLE-026",
+    "categoria": "lle",
+    "formato": "fill",
+    "enunciado": "Completa la naturaleza de una emulsión:",
+    "antes": "Una emulsión no es un equilibrio de reparto desplazado, sino un problema de cinética de",
+    "despues": ": las fases siguen siendo inmiscibles y buscan separarse, pero quedan atrapadas como gotitas finas estabilizadas en la interfase.",
+    "respuesta": "coalescencia",
+    "alternativas": [
+      "coalescencia",
+      "coalescencia de gotas",
+      "coalescencia de las gotitas"
+    ],
+    "explicacion": "Por eso se rompe con métodos que atacan la estabilización de la interfase, salmuera, filtración o centrifugación, y no cambiando $K_D$."
+  },
+  {
+    "id": "HL-QR-036",
+    "tarjetaId": "HL-LLE-030",
+    "categoria": "lle",
+    "formato": "build",
+    "enunciado": "Arma por qué la extracción en fase sólida (SPE) concentra y limpia en un solo paso:",
+    "fragmentos": [
+      "La muestra acuosa se hace pasar por un adsorbente sólido con cadenas C18,",
+      "donde un compuesto suficientemente apolar queda retenido por afinidad",
+      "mientras el agua y los compuestos muy polares pasan de largo,",
+      "y luego un volumen pequeño de solvente orgánico lo eluye ya concentrado."
+    ],
+    "explicacion": "Es el mismo \"lo semejante retiene a lo semejante\" del reparto líquido-líquido, con una superficie sólida funcionalizada en lugar de un segundo líquido; así funciona la descafeinización de té y café por SPE."
+  },
+  {
+    "id": "HL-QR-037",
+    "tarjetaId": "HL-LLE-032",
+    "categoria": "lle",
+    "formato": "build",
+    "enunciado": "Arma cómo PUREX separa plutonio de uranio una vez que ambos están en la fase orgánica:",
+    "fragmentos": [
+      "El TBP extrae U(VI) y Pu(IV) juntos como complejos neutros de nitrato,",
+      "así que el pH y la selectividad dura no bastan para separarlos entre sí;",
+      "entonces se reduce el plutonio de Pu(IV) a Pu(III),",
+      "y ese cambio de estado de oxidación deja que Pu(III) vuelva al agua mientras el uranio queda en el solvente."
+    ],
+    "explicacion": "El estado redox es un tercer eje de selectividad en LLE, junto al pH (ionización de ácidos y bases débiles) y a la dureza-blandura HSAB del átomo donador."
+  },
+  {
+    "id": "HL-QR-038",
+    "tarjetaId": "HL-LLE-025",
+    "categoria": "lle",
+    "formato": "match",
+    "enunciado": "Empareja cada agente desecante con lo que lo caracteriza:",
+    "izq": [
+      "CaCl₂",
+      "K₂CO₃",
+      "MgSO₄"
+    ],
+    "der": [
+      "No sirve con compuestos con O o N: forma complejos de coordinación",
+      "Ligeramente básico: apto para aminas y ésteres sensibles a ácido",
+      "Neutro, alta capacidad y rápido: desecante general de uso común"
+    ],
+    "pares": {
+      "0": 0,
+      "1": 1,
+      "2": 2
+    },
+    "explicacion": "Capacidad, completitud y velocidad son ejes independientes, y además el desecante no debe acomplejar el analito: por eso el CaCl₂ queda descartado con alcoholes y aminas."
   }
 ]

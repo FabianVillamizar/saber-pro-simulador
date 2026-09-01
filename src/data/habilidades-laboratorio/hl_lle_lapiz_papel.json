@@ -12,11 +12,11 @@
         "correcta": true
       },
       {
-        "texto": "Ley de reparto de Nernst directa: $K_D=\\exp(-\\Delta G^\\circ/RT)$",
+        "texto": "Ley de reparto de Nernst directa: $K_D=\\exp(-\\Delta G^\\circ/RT)$, sin volúmenes involucrados",
         "correcta": false
       },
       {
-        "texto": "Efecto del pH sobre $D$: $D=P/(1+10^{(pH-pK_a)})$",
+        "texto": "Efecto del pH sobre la distribución: $D=P/(1+10^{(pH-pK_a)})$, para un ácido débil",
         "correcta": false
       },
       {
@@ -44,7 +44,7 @@
     "promptFase1": "Antes de calcular, ¿qué cambia entre los dos escenarios y qué fórmula usa cada uno?",
     "opciones": [
       {
-        "texto": "El primero usa $f_1$ con $V_{org}$=5 mL; el segundo usa $f_n$ con $n=2$ y $V_{org}/n$=2.5 mL cada etapa.",
+        "texto": "El primero usa $f_1$ con $V_{org}$=5 mL; el segundo, $f_n$ con $n=2$ y 2.5 mL por etapa.",
         "correcta": true
       },
       {
@@ -56,7 +56,7 @@
         "correcta": false
       },
       {
-        "texto": "El primero usa la fórmula de pH-dependencia, porque una sola etapa siempre depende del pH.",
+        "texto": "El primero usa la fórmula de pH-dependencia, porque una sola etapa siempre depende del pH del medio.",
         "correcta": false
       }
     ],
@@ -80,19 +80,19 @@
     "promptFase1": "Sin calcular todavía, ¿qué fórmula de $D$ aplica para una base débil, y no para un ácido?",
     "opciones": [
       {
-        "texto": "$D_{base} = P/(1+10^{(pK_a-pH)})$, con el signo del exponente invertido respecto al de un ácido.",
+        "texto": "$D_{base}=P/(1+10^{(pK_a-pH)})$, con el exponente de signo invertido frente al de un ácido.",
         "correcta": true
       },
       {
-        "texto": "$D_{base} = P/(1+10^{(pH-pK_a)})$, exactamente la misma fórmula que para un ácido débil.",
+        "texto": "$D_{base}=P/(1+10^{(pH-pK_a)})$, exactamente la misma fórmula que se usa para un ácido débil.",
         "correcta": false
       },
       {
-        "texto": "$D_{base} = P \\times 10^{(pH-pK_a)}$, porque las bases multiplican en vez de dividir.",
+        "texto": "$D_{base}=P\\times 10^{(pH-pK_a)}$, porque para las bases el término multiplica en vez de dividir.",
         "correcta": false
       },
       {
-        "texto": "$D_{base} = P/(1+pH-pK_a)$, sin exponente porque las bases se comportan de forma lineal.",
+        "texto": "$D_{base}=P/(1+pH-pK_a)$, sin exponente porque las bases se comportan de forma lineal.",
         "correcta": false
       }
     ],
@@ -116,19 +116,19 @@
     "promptFase1": "Antes de probar valores de $n$ uno por uno, ¿qué deberías calcular primero para saber si la meta es alcanzable?",
     "opciones": [
       {
-        "texto": "El límite de $f_n$ cuando $n$ tiende a infinito, para saber el máximo porcentaje que este presupuesto puede alcanzar sin importar $n$.",
+        "texto": "El límite de $f_n$ cuando $n\\to\\infty$, para saber el máximo alcanzable con este presupuesto.",
         "correcta": true
       },
       {
-        "texto": "El valor de $f_n$ para $n=1$, porque ese ya determina si la meta es alcanzable o no.",
+        "texto": "El valor de $f_n$ para $n=1$, porque una sola etapa ya dice si la meta es alcanzable o no lo es.",
         "correcta": false
       },
       {
-        "texto": "El valor de $K_D$ a una temperatura distinta, porque $K_D$ cambia con el número de etapas.",
+        "texto": "El valor de $K_D$ a otra temperatura, porque $K_D$ cambia con el número de etapas de extracción.",
         "correcta": false
       },
       {
-        "texto": "El $pK_a$ del soluto, porque toda meta de recuperación depende del pH de trabajo.",
+        "texto": "El $pK_a$ del soluto, porque toda meta de recuperación depende del pH al que se trabaje la extracción.",
         "correcta": false
       }
     ],
@@ -152,7 +152,7 @@
     "promptFase1": "Antes de decidir qué graficar, ¿qué relación conecta $K_D$ con la temperatura?",
     "opciones": [
       {
-        "texto": "$K_D=\\exp(-\\Delta G^\\circ/RT)$, y $\\Delta G^\\circ=\\Delta H^\\circ-T\\Delta S^\\circ$, así que $\\ln(K_D)$ es una función lineal de $1/T$.",
+        "texto": "$K_D=\\exp(-\\Delta G^\\circ/RT)$ con $\\Delta G^\\circ=\\Delta H^\\circ-T\\Delta S^\\circ$, así que $\\ln(K_D)$ es lineal en $1/T$.",
         "correcta": true
       },
       {
@@ -160,11 +160,11 @@
         "correcta": false
       },
       {
-        "texto": "$K_D$ crece linealmente con $T$, así que basta graficar $K_D$ directamente contra $T$.",
+        "texto": "$K_D$ crece de forma lineal con $T$, así que basta con graficar $K_D$ directamente contra la temperatura $T$.",
         "correcta": false
       },
       {
-        "texto": "$K_D$ no tiene ninguna relación con $\\Delta H^\\circ$, porque $\\Delta H^\\circ$ solo aplica a reacciones químicas, no a equilibrios de reparto.",
+        "texto": "$K_D$ no tiene relación con $\\Delta H^\\circ$: la entalpía solo aplica a reacciones químicas, no a un equilibrio de reparto.",
         "correcta": false
       }
     ],
@@ -188,19 +188,19 @@
     "promptFase1": "Antes de elegir extractantes, ¿qué característica de cada metal determina cuál usar primero?",
     "opciones": [
       {
-        "texto": "La clasificación dura o blanda de cada metal según su densidad de carga y polarizabilidad, comparada con el átomo donador de cada extractante.",
+        "texto": "La clasificación dura o blanda de cada metal, comparada con el átomo donador de cada extractante.",
         "correcta": true
       },
       {
-        "texto": "La carga total del ion, sin importar su clasificación dura o blanda según Pearson.",
+        "texto": "La carga total del ion metálico, sin atender a su clasificación dura o blanda según Pearson.",
         "correcta": false
       },
       {
-        "texto": "El radio atómico del metal, porque los extractantes solo distinguen por tamaño.",
+        "texto": "El radio iónico del metal, porque los extractantes quelantes solo distinguen a los metales por tamaño.",
         "correcta": false
       },
       {
-        "texto": "El color de cada solución acuosa, porque eso indica directamente qué extractante usar.",
+        "texto": "El color de cada solución acuosa, porque el color indica de forma directa qué extractante usar.",
         "correcta": false
       }
     ],
@@ -214,5 +214,365 @@
     "atajoCosto": "clasificar 2 iones y consultar la tabla de la Fase 3.5",
     "brutoCosto": "probar extractantes al azar sobre la mezcla completa hasta ver cuál separa algo",
     "notaAtajo": "La tabla HSAB predice la selectividad antes de tocar un solo reactivo: separar por ensayo y error sobre una mezcla de dos metales es mucho más lento y arriesga coextraer ambos a la vez."
+  },
+  {
+    "id": "HL-LP-007",
+    "bloque": "TERMODINAMICA-VANTHOFF",
+    "subcategoria": "Extracción Líquido-Líquido",
+    "tipo": "formula",
+    "enunciado": "Mides $K_D$ = 8 a 15 °C y $K_D$ = 5 a 40 °C para un mismo sistema de reparto. ¿El signo de $\\Delta H^\\circ_{transferencia}$ es positivo o negativo, y contradice esto la idea de \"más temperatura, mejor extracción\"?",
+    "promptFase1": "Antes de calcular, ¿qué relación conecta dos valores de $K_D$ a dos temperaturas con $\\Delta H^\\circ$?",
+    "opciones": [
+      {
+        "texto": "La forma de dos puntos de van't Hoff: $\\ln(K_{D,2}/K_{D,1})=-\\dfrac{\\Delta H^\\circ}{R}(1/T_2-1/T_1)$",
+        "correcta": true
+      },
+      {
+        "texto": "La ley de reparto $K_D=\\exp(-\\Delta G^\\circ/RT)$ a una sola temperatura, sin usar el segundo dato medido",
+        "correcta": false
+      },
+      {
+        "texto": "La fórmula de extracciones múltiples $f_n$, con $n=2$ por tratarse de dos temperaturas distintas de medida",
+        "correcta": false
+      },
+      {
+        "texto": "La relación de pH $D=P/(1+10^{(pH-pK_a)})$, porque $K_D$ depende del pH y este cambia con la temperatura",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "La forma de dos puntos de van't Hoff",
+    "formula": "\\ln\\dfrac{K_{D,2}}{K_{D,1}} = -\\dfrac{\\Delta H^\\circ}{R}\\left(\\dfrac{1}{T_2}-\\dfrac{1}{T_1}\\right)",
+    "enfoqueCorto": "van't Hoff de dos puntos para el signo de $\\Delta H^\\circ$",
+    "porQue": "Con $K_D$ a dos temperaturas, la ecuación de van't Hoff de dos puntos despeja $\\Delta H^\\circ_{transferencia}$ directamente; su signo dice en qué dirección se mueve $K_D$ al calentar.",
+    "respuesta": "$\\Delta H^\\circ_{transferencia}$ es negativo, alrededor de −14 kJ/mol. Sí contradice la idea de la clase: aquí calentar baja $K_D$ de 8 a 5, es decir empeora la extracción.",
+    "desarrollo": "$T_1$ = 288.15 K, $T_2$ = 313.15 K. $\\ln(5/8) = -0.470$. $1/T_2 - 1/T_1 = 3.1934\\times10^{-3} - 3.4704\\times10^{-3} = -2.771\\times10^{-4}$ K⁻¹. Entonces $-0.470 = -\\dfrac{\\Delta H^\\circ}{8.314}\\,(-2.771\\times10^{-4})$, de donde $\\Delta H^\\circ = -0.470 \\times 8.314 / (2.771\\times10^{-4}) \\approx -1.41\\times10^{4}$ J/mol = −14.1 kJ/mol. El signo negativo significa que el paso a la fase orgánica libera energía, y por van't Hoff eso implica que $K_D$ baja al subir la temperatura, justo lo contrario de la intuición de \"caliento y extraigo mejor\".",
+    "atajoPct": 12,
+    "atajoCosto": "1 evaluación de la ecuación de dos puntos",
+    "brutoCosto": "montar y resolver el sistema de dos ecuaciones $\\ln K_D = -\\Delta H^\\circ/(RT)+\\Delta S^\\circ/R$ para $\\Delta H^\\circ$ y $\\Delta S^\\circ$ a la vez",
+    "notaAtajo": "Para solo el signo de $\\Delta H^\\circ$ basta ver que $K_D$ bajó al subir $T$; la forma de dos puntos lo confirma con un cálculo, y resolver también $\\Delta S^\\circ$ no aporta nada a la pregunta."
+  },
+  {
+    "id": "HL-LP-008",
+    "bloque": "PH-SELECTIVIDAD",
+    "subcategoria": "Extracción Líquido-Líquido",
+    "tipo": "formula",
+    "enunciado": "Tienes en éter una mezcla de una amina ($pK_a$ del ácido conjugado ≈ 10), un ácido carboxílico ($pK_a$ ≈ 4.8), un fenol ($pK_a$ ≈ 10) y un compuesto neutro. Diseña la secuencia de lavados que aísla los cuatro por separado.",
+    "promptFase1": "Antes de escribir la secuencia, ¿qué propiedad de cada componente fija el orden de los lavados?",
+    "opciones": [
+      {
+        "texto": "El $pK_a$ o la basicidad de cada componente y la fuerza de base que lo ioniza, para ordenar los lavados",
+        "correcta": true
+      },
+      {
+        "texto": "El punto de ebullición de cada componente, extrayendo primero el más volátil y dejando el resto en el éter",
+        "correcta": false
+      },
+      {
+        "texto": "La masa molar de cada componente, lavando primero los más livianos porque se ionizan antes en agua",
+        "correcta": false
+      },
+      {
+        "texto": "El color de cada componente en solución, que indica de forma directa qué reactivo de lavado usar",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "El criterio que ordena los lavados",
+    "formula": "",
+    "enfoqueCorto": "Lavados de selectividad ácido-base en orden de fuerza",
+    "porQue": "Cada lavado ioniza solo un tipo de componente y lo pasa al agua; usar HCl para la base, luego NaHCO₃ (débil) para el ácido carboxílico y solo después NaOH (fuerte) para el fenol separa los cuatro sin solapamiento.",
+    "respuesta": "1) Lavar el éter con HCl diluido: la amina pasa al agua como sal; se basifica esa fase con NH₃ y se reextrae la amina a éter limpio. 2) Lavar el éter con NaHCO₃: el ácido carboxílico pasa como carboxilato; se acidifica y se reextrae. 3) Lavar el éter con NaOH: el fenol pasa como fenolato; se acidifica y se reextrae. 4) Lo que queda en el éter, secado y evaporado, es el compuesto neutro.",
+    "desarrollo": "El HCl solo toca la amina, único componente básico. El NaHCO₃ desprotona el ácido carboxílico ($pK_a$ ≈ 4.8) pero no el fenol ($pK_a$ ≈ 10), así que ambos ácidos se separan entre sí gracias a la diferencia de fuerza: por eso el lavado con base débil va antes que el de base fuerte. El NaOH ya solo encuentra el fenol. El compuesto neutro nunca se ioniza y permanece en el éter en todos los pasos. Cada fase acuosa se lleva al pH opuesto y se reextrae a solvente limpio para recuperar el componente puro.",
+    "atajoPct": 25,
+    "atajoCosto": "clasificar 4 componentes por acidez o basicidad y ordenar 3 lavados",
+    "brutoCosto": "probar combinaciones de reactivos sobre la mezcla completa hasta dar con una que separe algo",
+    "notaAtajo": "Reconocer que NaHCO₃ debe ir antes que NaOH es lo que evita coextraer el ácido carboxílico y el fenol juntos y tener que volver a empezar la separación."
+  },
+  {
+    "id": "HL-LP-009",
+    "bloque": "WORKUP-PURIFICACION",
+    "subcategoria": "Extracción Líquido-Líquido",
+    "tipo": "formula",
+    "enunciado": "Acabas de extraer una amina terciaria sensible en diclorometano y vas a secar la fase orgánica. ¿Por qué CaCl₂ sería mala elección, aun apareciendo como \"neutro\" en las tablas de desecantes?",
+    "promptFase1": "Antes de responder, ¿qué eje de evaluación de un desecante NO cubre la etiqueta \"neutro\"?",
+    "opciones": [
+      {
+        "texto": "La compatibilidad química con el analito: \"neutro\" es la acidez, no si el desecante lo acompleja.",
+        "correcta": true
+      },
+      {
+        "texto": "La capacidad: \"neutro\" no dice cuánta agua absorbe el desecante por cada gramo de sal anhidra usada.",
+        "correcta": false
+      },
+      {
+        "texto": "La velocidad: \"neutro\" no dice qué tan rápido el desecante llega al equilibrio con el agua disuelta.",
+        "correcta": false
+      },
+      {
+        "texto": "La completitud: \"neutro\" no dice qué tan seca deja la fase orgánica una vez alcanzado el equilibrio.",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "El eje que \"neutro\" no cubre",
+    "formula": "",
+    "enfoqueCorto": "Compatibilidad química desecante-analito",
+    "porQue": "Capacidad, completitud y velocidad describen el desempeño frente al agua, pero ninguna dice si el desecante ataca al analito; el CaCl₂ forma complejos con pares libres de O y N.",
+    "respuesta": "Porque el CaCl₂ forma complejos de coordinación con compuestos que tienen pares libres de O o N, como aminas y alcoholes, así que retendría la propia amina terciaria del producto. La elección adecuada es K₂CO₃, ligeramente básico y compatible con aminas, o Na₂SO₄ / MgSO₄ si no hay grupos que acomplejen.",
+    "desarrollo": "En la tabla de desecantes el CaCl₂ figura como \"neutro\" solo en el sentido ácido-base, y se usa bien con hidrocarburos y halogenados. Pero \"neutro\" no implica inerte: sus iones Ca²⁺ acomplejan bases de Lewis con O o N, de modo que parte de la amina quedaría atrapada en el sólido y se perdería al filtrar el desecante. Es el mismo tipo de error que alcalinizar una molécula sensible con NaOH en vez de amoníaco: el reactivo auxiliar daña o retiene el producto que se quería conservar.",
+    "atajoPct": 15,
+    "atajoCosto": "identificar el grupo funcional del analito y cruzarlo con la compatibilidad del desecante",
+    "brutoCosto": "secar con CaCl₂, evaporar, y recién en el rendimiento final notar que falta producto sin saber por qué",
+    "notaAtajo": "Mirar la columna de compatibilidad química de la tabla, no solo la de acidez, evita perder producto en un paso que parecía inocuo."
+  },
+  {
+    "id": "HL-LP-010",
+    "bloque": "EXTRACCION-CONTINUA",
+    "subcategoria": "Extracción Líquido-Líquido",
+    "tipo": "formula",
+    "enunciado": "En un flujo de trabajo para aislar un producto natural desde tejido vegetal seco, ¿en qué etapa tiene sentido usar un Soxhlet y en qué etapa deja de tenerlo y hay que pasar a LLE clásica? Justifica con el mecanismo de cada técnica.",
+    "promptFase1": "Antes de responder, ¿qué distingue mecánicamente al Soxhlet de una partición líquido-líquido?",
+    "opciones": [
+      {
+        "texto": "El Soxhlet hace extracción sólido-líquido (el analito está atrapado en un sólido); la LLE reparte un analito ya disuelto entre dos líquidos inmiscibles",
+        "correcta": true
+      },
+      {
+        "texto": "El Soxhlet solo funciona con solventes polares y la LLE solo con solventes apolares, así que la elección depende únicamente de la polaridad del solvente disponible",
+        "correcta": false
+      },
+      {
+        "texto": "El Soxhlet separa por diferencia de punto de ebullición y la LLE por diferencia de densidad, así que se elige según qué propiedad difiera más entre los componentes",
+        "correcta": false
+      },
+      {
+        "texto": "El Soxhlet es un método de un solo contacto y la LLE es siempre multietapa, así que el Soxhlet se usa cuando basta una extracción y la LLE cuando hacen falta varias",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "Sólido-líquido frente a líquido-líquido",
+    "formula": "",
+    "enfoqueCorto": "Soxhlet para la matriz sólida, LLE para el analito ya disuelto",
+    "porQue": "El Soxhlet cicla solvente fresco condensado sobre un sólido para extraer de forma exhaustiva lo que está atrapado en él; una vez que el compuesto está en solución, el problema pasa a ser un reparto entre dos líquidos y el Soxhlet ya no aporta.",
+    "respuesta": "El Soxhlet tiene sentido en la etapa inicial: extraer el compuesto crudo desde el tejido vegetal seco y molido, donde el analito está atrapado en una matriz sólida y se necesita extracción sólido-líquido exhaustiva. Deja de tenerlo en cuanto el compuesto ya está disuelto, por ejemplo en el extracto crudo o en el hidrolizado tras la hidrólisis: ahí el problema es un reparto líquido-líquido y se usa LLE clásica, o un extractor LLE continuo si el $K_D$ es desfavorable.",
+    "desarrollo": "Mecanismo del Soxhlet: reflujo del solvente, condensación, goteo sobre el cartucho con el sólido, y sifón que devuelve el extracto al balón; cientos de ciclos concentran el producto en el balón. Eso resuelve el problema de sacar el analito de una matriz sólida. Pero no hay ninguna matriz sólida cuando el analito ya está en una fase líquida: separar la sapogenina del hidrolizado acuoso es repartirla hacia un solvente orgánico, es decir LLE. Además, el calentamiento prolongado del Soxhlet al punto de ebullición del solvente puede degradar compuestos termolábiles, otra razón para no extenderlo más allá de la extracción del crudo.",
+    "atajoPct": 20,
+    "atajoCosto": "clasificar cada etapa como sólido-líquido o líquido-líquido",
+    "brutoCosto": "montar un Soxhlet para una etapa en la que el analito ya está en solución y no obtener ninguna ventaja sobre un embudo de decantación",
+    "notaAtajo": "Preguntar \"¿el analito está en un sólido o ya en un líquido?\" en cada etapa decide la técnica sin ensayo y error."
+  },
+  {
+    "id": "HL-LP-011",
+    "bloque": "EMULSIONES",
+    "subcategoria": "Extracción Líquido-Líquido",
+    "tipo": "formula",
+    "enunciado": "Tu extracción forma una emulsión persistente que no se separa tras 10 minutos de reposo. Enumera, en el orden en que las probarías, al menos tres estrategias para romperla, y explica qué te diría sobre la causa el que una funcione y otra no.",
+    "promptFase1": "Antes de listar remedios, ¿de qué tipo de problema es una emulsión?",
+    "opciones": [
+      {
+        "texto": "De cinética de coalescencia: las fases siguen inmiscibles pero gotitas finas quedan estabilizadas en la interfase",
+        "correcta": true
+      },
+      {
+        "texto": "De termodinámica de reparto: el $K_D$ se volvió desfavorable al agitar y hay que corregirlo con solvente o temperatura",
+        "correcta": false
+      },
+      {
+        "texto": "De miscibilidad total: las dos fases se disolvieron una en la otra y hace falta un tercer solvente para separarlas",
+        "correcta": false
+      },
+      {
+        "texto": "De reacción química: el soluto se degradó al agitar y sus productos impiden que se alcance el equilibrio de reparto",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "Una emulsión es un problema cinético de coalescencia",
+    "formula": "",
+    "enfoqueCorto": "Remedios en orden de menor a mayor información diagnóstica perdida",
+    "porQue": "Empezar por los métodos suaves y específicos (reposo, salmuera, filtración) antes de la centrifugación conserva la información de qué está estabilizando la interfase; la centrífuga funciona siempre pero no dice nada sobre la causa.",
+    "respuesta": "Orden sugerido: 1) más reposo con agitación suave por una varilla; 2) agregar salmuera saturada de NaCl; 3) filtrar por un lecho de material filtrante; y como último recurso 4) centrifugar. Si cede solo al reposo, la emulsión estaba débilmente estabilizada. Si cede a la salmuera, el estabilizador era un soluto de carácter tensioactivo disuelto, roto por salting-out en la interfase. Si cede a la filtración, la causa era material gomoso o particulado. Si solo cede a la centrífuga, es un coloide muy estable y el resto no localizó la causa.",
+    "desarrollo": "Una emulsión es coalescencia lenta, no reparto desplazado, así que cada remedio ataca una forma distinta de estabilización de la interfase: el reposo deja que la coalescencia gane por sí sola; la salmuera sube la fuerza iónica y desestabiliza una interfase sostenida por solutos anfifílicos, el mismo salting-out que actúa sobre $K_D$; la filtración retira sólidos que estabilizan mecánicamente la interfase; la centrifugación vence la barrera de coalescencia por fuerza, sin discriminar la causa. Por eso el patrón de qué funciona y qué no es, en la práctica, un diagnóstico de qué está causando la emulsión.",
+    "atajoPct": 20,
+    "atajoCosto": "ordenar 4 remedios por especificidad de mecanismo",
+    "brutoCosto": "ir directo a la centrífuga y romper la emulsión sin aprender nada sobre por qué se formó",
+    "notaAtajo": "Probar primero los métodos específicos convierte la ruptura de la emulsión en información sobre su causa, útil para prevenir la siguiente."
+  },
+  {
+    "id": "HL-LP-012",
+    "bloque": "EFICIENCIA-EXTRACCION",
+    "subcategoria": "Extracción Líquido-Líquido",
+    "tipo": "formula",
+    "enunciado": "Purificas una sapogenina de un hidrolizado acuoso con $K_D$ (DCM/agua) ≈ 5 y $V_{ac}$ = 75 mL. Compara extraer con 1×75 mL de DCM contra 3×25 mL. ¿Cuánto cambia el porcentaje recuperado?",
+    "promptFase1": "Antes de calcular, ¿qué fórmula describe cada uno de los dos esquemas?",
+    "opciones": [
+      {
+        "texto": "El primero es $f_1$ con todo el volumen; el segundo es $f_n$ con $n=3$ y un tercio del volumen por etapa",
+        "correcta": true
+      },
+      {
+        "texto": "Los dos son $f_1$, porque el volumen total de DCM es el mismo y solo cambia en cuántas veces se vierte",
+        "correcta": false
+      },
+      {
+        "texto": "El segundo obliga a recalcular $K_D$, ya que repartir el DCM en tres porciones cambia la constante de reparto",
+        "correcta": false
+      },
+      {
+        "texto": "El primero se rige por la fórmula de pH, porque una extracción única de un producto natural siempre depende del pH",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "Qué fórmula usa cada esquema",
+    "formula": "f_1 = \\dfrac{V_{ac}}{V_{ac}+K_D \\cdot V_{org}} \\quad;\\quad f_3 = \\left[\\dfrac{V_{ac}}{V_{ac}+K_D \\cdot (V_{org}/3)}\\right]^3",
+    "enfoqueCorto": "Comparar $f_1$ (1×75 mL) contra $f_n$ con $n=3$ (3×25 mL)",
+    "porQue": "El volumen total de DCM es el mismo (75 mL); lo único que cambia es si se usa de una vez o en tres contactos sucesivos con solvente fresco, y eso es exactamente el salto de $f_1$ a $f_n$.",
+    "respuesta": "1×75 mL recupera 83.3%; 3×25 mL recupera 94.7%. Dividir el mismo DCM en tres porciones sube la recuperación 11.4 puntos, con la misma cantidad de solvente.",
+    "desarrollo": "1×75 mL: $f_1 = 75/(75 + 5\\times75) = 75/450 = 0.1667$, extraído $= 83.3\\%$. 3×25 mL: $f_3 = [75/(75 + 5\\times25)]^3 = [75/200]^3 = 0.375^3 = 0.0527$, extraído $= 1-0.0527 = 94.7\\%$. Es el mismo cálculo que hace el bloque ELL de Diosgenina para el reparto real con DCM: tres contactos pequeños con solvente fresco baten a uno grande porque $f_n$ es una potencia de un cociente menor que 1.",
+    "atajoPct": 10,
+    "atajoCosto": "2 sustituciones y una potencia cúbica",
+    "brutoCosto": "seguir el remanente etapa por etapa: extraer, calcular lo que queda, volver a extraer, tres veces",
+    "notaAtajo": "La potencia $n$-ésima de $f_n$ ya encapsula las tres etapas sucesivas en un solo cálculo, sin arrastrar el remanente a mano de una etapa a la siguiente."
+  },
+  {
+    "id": "HL-LP-013",
+    "bloque": "PH-SELECTIVIDAD",
+    "subcategoria": "Extracción Líquido-Líquido",
+    "tipo": "formula",
+    "enunciado": "Un alcaloide se comporta como base débil con $pK_a$ (del ácido conjugado) ≈ 8.6 y $P$ ≈ 100. ¿A qué pH lo llevarías a la fase orgánica como base libre, y a qué pH lo devolverías al agua como su sal? Calcula $D$ a pH 6 y a pH 10.",
+    "promptFase1": "Antes de calcular, ¿qué forma de la molécula se reparte al solvente orgánico y cuál se queda en agua?",
+    "opciones": [
+      {
+        "texto": "La base libre neutra pasa al solvente orgánico; la forma protonada BH⁺, cargada, se queda en la fase acuosa",
+        "correcta": true
+      },
+      {
+        "texto": "La forma protonada BH⁺ pasa al solvente orgánico, porque la carga positiva aumenta su afinidad por la fase apolar",
+        "correcta": false
+      },
+      {
+        "texto": "Ambas formas se reparten por igual al solvente orgánico, así que el pH no cambia en nada el resultado de la extracción",
+        "correcta": false
+      },
+      {
+        "texto": "Solo la base libre pasa al agua; la sal BH⁺ es la que se reparte al solvente orgánico por ser más soluble en él",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "Qué forma va a cada fase",
+    "formula": "D = \\dfrac{P}{1+10^{(pK_a-pH)}}",
+    "enfoqueCorto": "Base libre al orgánico a pH alto, sal BH⁺ al agua a pH bajo",
+    "porQue": "En una base débil solo la forma neutra (base libre) tiene afinidad por el solvente orgánico; a pH por debajo del $pK_a$ domina BH⁺, cargada y soluble en agua, y a pH por encima domina la base libre.",
+    "respuesta": "Se basifica hasta pH ≈ 10 para extraer la base libre al solvente ($D\\approx96$), y se acidifica hasta pH ≈ 6 para devolverla al agua como sal ($D\\approx0.25$), lista para aislarla como el clorhidrato. Es la misma lógica base-libre/sal de la purificación de alcaloides.",
+    "desarrollo": "pH 6: exponente $= 8.6-6 = 2.6$, $D = 100/(1+10^{2.6}) = 100/399 = 0.25$: casi todo queda en agua como BH⁺. pH 10: exponente $= 8.6-10 = -1.4$, $D = 100/(1+10^{-1.4}) = 100/1.04 = 96.2$: casi todo pasa al solvente como base libre. Subir el pH libera la base y la manda al orgánico; bajarlo la reprotona y la trae de vuelta al agua, exactamente el ciclo base-libre ↔ sal que se usa para purificar y aislar alcaloides.",
+    "atajoPct": 10,
+    "atajoCosto": "2 sustituciones en la fórmula de $D$ de una base",
+    "brutoCosto": "armar el equilibrio ácido-base y el balance de masa de las dos especies a mano para cada pH",
+    "notaAtajo": "La fórmula de $D$ ya trae dentro el equilibrio de protonación y el balance de masa: basta un exponente por pH en vez de resolver el sistema de especies."
+  },
+  {
+    "id": "HL-LP-014",
+    "bloque": "PH-SELECTIVIDAD",
+    "subcategoria": "Extracción Líquido-Líquido",
+    "tipo": "formula",
+    "enunciado": "Quieres aislar el ácido acetilsalicílico ($pK_a$ ≈ 3.5, $P$ ≈ 30) de una tableta triturada que además trae un excipiente neutro soluble en éter y aglutinantes insolubles. Diseña la extracción y calcula $D$ a pH 2 y a pH 8.",
+    "promptFase1": "Antes de calcular, ¿qué lavado separa el ácido acetilsalicílico del excipiente neutro sin sacar también al excipiente?",
+    "opciones": [
+      {
+        "texto": "Un lavado con NaHCO₃: desprotona el ácido y lo pasa al agua como carboxilato, dejando el neutro en el éter",
+        "correcta": true
+      },
+      {
+        "texto": "Un lavado con HCl diluido: protona el ácido acetilsalicílico y lo arrastra a la fase acuosa como catión",
+        "correcta": false
+      },
+      {
+        "texto": "Un lavado con agua pura: basta para separar el ácido del neutro porque el ácido es mucho más soluble en agua",
+        "correcta": false
+      },
+      {
+        "texto": "Ningún lavado los separa: hay que destilar el éter y confiar en que el excipiente neutro quede como residuo aparte",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "El lavado que ioniza solo al ácido",
+    "formula": "D = \\dfrac{P}{1+10^{(pH-pK_a)}}",
+    "enfoqueCorto": "Disolver a pH bajo, lavar con NaHCO₃, reacidificar",
+    "porQue": "Solo la forma neutra del ácido acetilsalicílico se reparte al éter; un lavado básico con NaHCO₃ la desprotona y la manda al agua como carboxilato, mientras el excipiente neutro, que nunca se ioniza, se queda en el éter.",
+    "respuesta": "Disolver el triturado en éter a pH 2 ($D\\approx29$: el ácido y el neutro pasan al éter, los aglutinantes insolubles se filtran). Lavar el éter con NaHCO₃ ($D\\approx0.001$ a pH 8: el ácido pasa al agua como carboxilato, el neutro se queda). Reacidificar la fase acuosa a pH 2 y reextraer a éter limpio, o dejar precipitar el ácido acetilsalicílico.",
+    "desarrollo": "pH 2: exponente $= 2-3.5 = -1.5$, $D = 30/(1+10^{-1.5}) = 30/1.03 = 29.1$: la forma neutra domina y se extrae bien al éter. pH 8: exponente $= 8-3.5 = 4.5$, $D = 30/(1+10^{4.5}) = 30/31624 = 9.5\\times10^{-4}$: casi todo el ácido está como carboxilato y se queda en el agua. El neutro no tiene $pK_a$ relevante, así que ningún cambio de pH lo mueve: por eso el lavado con NaHCO₃ los separa limpio.",
+    "atajoPct": 12,
+    "atajoCosto": "2 sustituciones en la fórmula de $D$ de un ácido",
+    "brutoCosto": "calcular las fracciones protonada y desprotonada del ácido por separado a cada pH y armar el balance",
+    "notaAtajo": "El contraste de $D$ entre pH 2 y pH 8 (de 29 a 0.001) muestra de un vistazo que el lavado básico es lo que limpia; no hace falta el balance de especies detallado."
+  },
+  {
+    "id": "HL-LP-015",
+    "bloque": "HSAB-SELECTIVIDAD",
+    "subcategoria": "Extracción Líquido-Líquido",
+    "tipo": "formula",
+    "enunciado": "En PUREX, U(VI) y Pu(IV) se coextraen juntos con TBP a alta concentración de nitrato. Diseña las etapas que separan el plutonio del uranio, e identifica qué eje de selectividad usa cada una.",
+    "promptFase1": "Una vez que U y Pu están los dos en la fase orgánica, ¿qué propiedad todavía puede separarlos?",
+    "opciones": [
+      {
+        "texto": "El estado de oxidación: reducir Pu(IV) a Pu(III) cambia su coordinación y lo despega del TBP, mientras el U(VI) no cambia",
+        "correcta": true
+      },
+      {
+        "texto": "La dureza HSAB: el Pu(III) es mucho más blando que el U(VI), así que un extractante blando lo saca de forma selectiva",
+        "correcta": false
+      },
+      {
+        "texto": "La masa atómica: el plutonio, más pesado, sedimenta antes en el mezclador-sedimentador y se separa por decantación",
+        "correcta": false
+      },
+      {
+        "texto": "El color: el nitrato de plutonio es verde y el de uranilo amarillo, y esa diferencia guía en qué orden se drena cada fase",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "El eje que aún separa a dos metales ya coextraídos",
+    "formula": "",
+    "enfoqueCorto": "pH/nitrato para coextraer, redox para separar Pu, nitrato bajo para strippear U",
+    "porQue": "El pH y la dureza HSAB ya trataron a U(VI) y Pu(IV) igual (ambos duros, ambos complejos neutros de nitrato con TBP), así que lo único que queda para separarlos es cambiar el estado de oxidación de uno de los dos.",
+    "respuesta": "1) Coextracción: TBP/queroseno con HNO₃ concentrado extrae U(VI) y Pu(IV) como complejos neutros de nitrato; los productos de fisión (Cs⁺, Sr²⁺, lantánidos) se quedan en el agua. Eje: HSAB duro + concentración de nitrato. 2) Partición de Pu: contactar la fase orgánica con una acuosa que lleva un reductor; Pu(IV)→Pu(III), que no forma complejo neutro con TBP y se va al agua, mientras U(VI) sigue en el orgánico. Eje: estado redox. 3) Strip de U: contactar el orgánico con HNO₃ muy diluido o agua tibia; al bajar el nitrato, el equilibrio de reparto se invierte y el U(VI) vuelve al agua. Eje: concentración de nitrato (acción de masas).",
+    "desarrollo": "PUREX encadena los tres ejes de selectividad de la LLE. El primero (coextracción) usa la selectividad dura del oxígeno fosforilo del TBP por cationes de alta densidad de carga, ayudada por un exceso de nitrato que forma los complejos neutros extraíbles. El segundo es puramente redox: Pu(III), a diferencia de Pu(IV), no arma un complejo neutro con TBP, así que un cambio de un electrón lo devuelve al agua sin tocar el uranio. El tercero es acción de masas: la extracción de U(VI) depende de $[\\text{NO}_3^-]$, y diluirlo corre el equilibrio de reparto de vuelta hacia la fase acuosa. Ninguna ecuación simple de $K_D$ captura los tres a la vez: es el modelo ideal encadenado tres veces con una palanca distinta en cada paso.",
+    "atajoPct": 25,
+    "atajoCosto": "clasificar qué eje (pH/nitrato, HSAB, redox) sigue disponible en cada etapa",
+    "brutoCosto": "buscar un extractante nuevo que distinga U de Pu por afinidad, cuando la vía real es cambiar el estado de oxidación",
+    "notaAtajo": "Ver que pH y HSAB ya se agotaron (ambos metales duros, ambos coextraídos) lleva directo a la única palanca que queda: el estado redox del plutonio."
+  },
+  {
+    "id": "HL-LP-016",
+    "bloque": "HSAB-SELECTIVIDAD",
+    "subcategoria": "Extracción Líquido-Líquido",
+    "tipo": "formula",
+    "enunciado": "Quieres saber qué fracción del cadmio de un suelo contaminado es móvil y biodisponible frente a cuánto está atrapado en la red mineral. Diseña un esquema de extracción secuencial y explica qué mide cada paso.",
+    "promptFase1": "¿Qué varía entre los reactivos sucesivos de un esquema tipo Tessier, y qué estima el conjunto?",
+    "opciones": [
+      {
+        "texto": "La agresividad del reactivo sube etapa a etapa, y cada una libera el metal ligado a una fase distinta del suelo",
+        "correcta": true
+      },
+      {
+        "texto": "El volumen de reactivo sube etapa a etapa, y el conjunto mide la concentración total de cadmio en la muestra",
+        "correcta": false
+      },
+      {
+        "texto": "La temperatura sube etapa a etapa, y cada paso mide la solubilidad del cadmio a esa temperatura concreta",
+        "correcta": false
+      },
+      {
+        "texto": "El pH sube etapa a etapa, y el conjunto reconstruye la curva de $D$ del cadmio en función del pH del suelo",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "Reactivos de fuerza creciente, uno por fase del suelo",
+    "formula": "",
+    "enfoqueCorto": "Extracción secuencial: cada reactivo ataca una fracción de enlace distinta",
+    "porQue": "El coeficiente suelo-agua $K_d$ es el mismo objeto que $K_D$, y un esquema secuencial es la lógica de extracciones por etapas aplicada a especiación: cada reactivo, más agresivo que el anterior, moviliza el metal que estaba unido a una fase específica del suelo.",
+    "respuesta": "Esquema tipo Tessier, de suave a agresivo: 1) MgCl₂ o acetato de amonio a pH 7, fracción intercambiable; 2) acetato de sodio ajustado a pH 5 con ácido acético, fracción ligada a carbonatos; 3) hidroxilamina en ácido acético diluido, en caliente, fracción ligada a óxidos de Fe y Mn (disolución reductiva); 4) H₂O₂ + HNO₃ y luego acetato de amonio, fracción ligada a materia orgánica y sulfuros (oxidación); 5) digestión con HF/HClO₄, fracción residual en la red mineral. Móvil y biodisponible ≈ fracciones 1 y 2 (a veces 3); la fracción 5 es prácticamente inerte, y evaluar un composito inmovilizador de cadmio es, en el fondo, ver cuánto metal pasa de las fracciones 1-2 a las 4-5.",
+    "desarrollo": "Cada paso explota un mecanismo distinto para romper un tipo de enlace: intercambio iónico (sal neutra), disolución ácida (carbonatos), disolución reductiva (óxidos de Fe/Mn), oxidación (materia orgánica y sulfuros), y digestión total (silicatos). Es la misma idea de \"varias extracciones sucesivas\" de $f_n$, pero en vez de repetir el mismo reactivo para subir el rendimiento, se cambia de reactivo en cada etapa para separar el metal por su forma de enlace. El resultado no es un producto purificado sino un perfil de especiación, que es lo que predice la biodisponibilidad.",
+    "atajoPct": 20,
+    "atajoCosto": "ordenar 5 reactivos por mecanismo (intercambio → ácido → reductor → oxidante → digestión total)",
+    "brutoCosto": "hacer una sola digestión total y quedarse solo con el cadmio total, sin ninguna información de movilidad",
+    "notaAtajo": "Reconocer que cada reactivo apunta a una fase del suelo distinta convierte cinco extracciones en un perfil de biodisponibilidad; una digestión única daría solo un número."
   }
 ]

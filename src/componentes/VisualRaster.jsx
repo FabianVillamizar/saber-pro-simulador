@@ -6,7 +6,7 @@ import './VisualRaster.css'
 // en src/assets/raster/<modulo>/, un archivo por imagen. Los IDs de ítem
 // son únicos entre módulos, así que indexar solo por nombre de archivo (sin
 // la carpeta) no genera colisiones — mismo criterio que VisualSvg.
-const imagenesCrudas = import.meta.glob('../assets/raster/*/*.{png,jpg,jpeg}', {
+const imagenesCrudas = import.meta.glob('../assets/raster/*/*.{png,jpg,jpeg,webp}', {
   eager: true,
   import: 'default',
 })
