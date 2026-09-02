@@ -1,0 +1,152 @@
+[
+  {
+    "id": "HL-R-nernst",
+    "tipo": "ley",
+    "titulo": "Ley de Reparto de Nernst",
+    "variante": "desarrollo",
+    "cuerpo": "En el equilibrio, el soluto tiene el mismo potencial químico en ambas fases. Al escribir cada potencial en términos de actividad e igualar, el cociente de actividades queda fijado por $\\Delta G^\\circ$ de transferencia, así que toda constante de reparto tiene por fuerza forma exponencial.",
+    "formula": "K_D = \\exp\\!\\left(\\dfrac{-\\Delta G^\\circ_{transferencia}}{RT}\\right)",
+    "ejemplo": "Nernst dedujo esta ley en 1891 con el mismo razonamiento de potencial químico que luego reutilizó para su ecuación de electroquímica."
+  },
+  {
+    "id": "HL-R-kd-vs-p",
+    "tipo": "definicion",
+    "titulo": "$K_D$ frente a $P$",
+    "variante": "corta",
+    "cuerpo": "$K_D$ es la constante termodinámica basada en actividades y no cambia nunca. $P \\approx [i]_{org}/[i]_{ac}$ es su aproximación de concentraciones, válida solo si la solución es diluida ($\\gamma \\approx 1$) y el soluto es una sola especie que no se ioniza, dimeriza ni acompleja.",
+    "ejemplo": "Ácido benzoico neutro en éter-agua diluido: $P$ aproxima bien a $K_D$. Si ese ácido se ioniza en la fase acuosa, lo que se mide ya es $D$, que depende del pH."
+  },
+  {
+    "id": "HL-R-coef-distribucion",
+    "tipo": "regla",
+    "titulo": "Coeficiente de distribución $D$ y el pH",
+    "variante": "desarrollo",
+    "cuerpo": "$D$ compara todo lo que hay en la fase orgánica contra todo lo que hay en la acuosa, neutro más ionizado, mientras que $P$ solo describe la forma neutra. Por eso $D$ hereda una dependencia con el pH que $P$ nunca tuvo: baja al subir el pH para un ácido débil, y al bajarlo para una base débil.",
+    "formula": "D_{acido} = \\dfrac{P}{1+10^{\\,pH-pK_a}} \\qquad D_{base} = \\dfrac{P}{1+10^{\\,pK_a-pH}}",
+    "ejemplo": "A pH muy por debajo del $pK_a$ de un ácido domina HA y $D \\to P$; muy por encima domina A⁻ y $D$ cae varios órdenes de magnitud."
+  },
+  {
+    "id": "HL-R-extracciones-multiples",
+    "tipo": "regla",
+    "titulo": "Muchas extracciones pequeñas ganan a una grande",
+    "variante": "desarrollo",
+    "cuerpo": "Con el mismo volumen total de solvente repartido en $n$ porciones y $n$ contactos con solvente fresco, la fracción que queda en la fase acuosa es una potencia $n$-ésima de un cociente menor que 1, así que baja al aumentar $n$, con rendimientos decrecientes.",
+    "formula": "f_1 = \\dfrac{V_{ac}}{V_{ac}+K_D\\,V_{org}} \\qquad f_n = \\left[\\dfrac{V_{ac}}{V_{ac}+K_D\\,(V_{org}/n)}\\right]^{n}",
+    "ejemplo": "$K_D = 4$, $V_{ac} = 10$ mL, 10 mL de solvente total: 1 etapa recupera 80.0 %, 3 etapas 92.1 %, 10 etapas 96.5 %. El salto de 1 a 3 vale la pena; el de 3 a 10, poco."
+  },
+  {
+    "id": "HL-R-vant-hoff",
+    "tipo": "regla",
+    "titulo": "Temperatura y $K_D$: van't Hoff",
+    "variante": "desarrollo",
+    "cuerpo": "La temperatura entra en $K_D$ solo por van't Hoff. Que la solubilidad absoluta suba al calentar no dice nada sobre la razón de reparto: el signo del efecto lo fija el signo de $\\Delta H^\\circ$ de transferencia, y solo medir $K_D$ a dos temperaturas lo decide.",
+    "formula": "\\ln K_D = -\\dfrac{\\Delta H^\\circ_{transferencia}}{R}\\cdot\\dfrac{1}{T} + \\dfrac{\\Delta S^\\circ_{transferencia}}{R}",
+    "ejemplo": "Con $\\Delta H^\\circ$ negativo, $K_D$ cae de 8 a 5 al pasar de 15 a 40 °C: lo contrario de la intuición de «caliento y extraigo mejor»."
+  },
+  {
+    "id": "HL-R-hsab",
+    "tipo": "regla",
+    "titulo": "HSAB y selectividad de extractantes",
+    "variante": "desarrollo",
+    "cuerpo": "La selectividad de un extractante quelante no es empírica: coincide con la clasificación dura-blanda del átomo donador y del metal. Un donador duro, con alta densidad de carga y baja polarizabilidad, prefiere metales duros; uno blando, más polarizable, prefiere metales blandos.",
+    "tabla": {
+      "titulo": "átomo donador → metal que extrae mejor",
+      "encabezados": ["extractante", "átomo donador", "extrae mejor"],
+      "filas": [
+        ["TBP (fosfato de tributilo)", "$O$ fosforilo · duro", "UO₂²⁺, Th⁴⁺, lantánidos"],
+        ["ditizona", "$N$, $S$ · blando", "Hg²⁺, Ag⁺, Pb²⁺"],
+        ["oximas (LIX)", "$O$, $N$ · frontera", "Cu²⁺"]
+      ]
+    },
+    "ejemplo": "PUREX es esta regla a escala industrial: TBP en queroseno extrae U(VI) y Pu(IV) como complejos neutros de nitrato por selectividad dura."
+  },
+  {
+    "id": "HL-R-seleccion-base",
+    "tipo": "regla",
+    "titulo": "Elegir la base del lavado por su fuerza",
+    "variante": "corta",
+    "cuerpo": "Un ácido carboxílico tiene $pK_a \\approx 4$-$5$; un fenol, $\\approx 10$. El NaHCO₃ es lo bastante básico para desprotonar el carboxílico pero no el fenol, así que separa por fuerza de acidez. Con NaOH se llevan los dos y se pierde la separación.",
+    "ejemplo": "Mezcla de ácido carboxílico y fenol en éter: un lavado con NaHCO₃ pasa solo el carboxilato al agua; el fenol se queda hasta el lavado con NaOH."
+  },
+  {
+    "id": "HL-R-base-suave",
+    "tipo": "regla",
+    "titulo": "Base suave para no hidrolizar la molécula",
+    "variante": "corta",
+    "cuerpo": "Ésteres, amidas, glicósidos y epóxidos se hidrolizan bajo base fuerte. NH₃ acuoso y NaHCO₃ son bases autolimitadas que rara vez pasan de pH 10-11, suficiente para desprotonar una amina alifática sin degradar el resto de la estructura; NaOH concentrado dispara el pH mucho más de lo necesario.",
+    "ejemplo": "Para liberar una amina de su sal sin tocar un éster de la misma molécula, se basifica con NH₃ acuoso hasta pH ~10, no con NaOH 2 M."
+  },
+  {
+    "id": "HL-R-termo-no-cinetica",
+    "tipo": "principio",
+    "titulo": "Termodinámica no es cinética",
+    "variante": "corta",
+    "cuerpo": "$K_D$ dice hacia dónde se inclina el reparto en el equilibrio, no qué tan rápido se llega. La velocidad de cruce de la interfase es difusión, gobernada por la cinética de transferencia de masa, y puede ser lenta en solventes viscosos o en interfases con tensioactivos aunque el $K_D$ sea muy favorable.",
+    "ejemplo": "Dos sistemas con el mismo $K_D$ tardan tiempos muy distintos si uno usa un solvente más viscoso. Como el diamante frente al grafito: favorable no es lo mismo que rápido."
+  },
+  {
+    "id": "HL-R-salting-out",
+    "tipo": "regla",
+    "titulo": "Salting-out: $\\gamma \\neq 1$ a propósito",
+    "variante": "corta",
+    "cuerpo": "Asumir $\\gamma = 1$ vale solo a baja concentración y baja fuerza iónica. Agregar sal a la fase acuosa sube la actividad efectiva del soluto orgánico disuelto en agua y empuja el equilibrio, así que el $K_D$ medido de muchos compuestos orgánicos aumenta sin que su $K_D$ termodinámico verdadero cambie.",
+    "ejemplo": "QuEChERS explota esto con MgSO₄ y NaCl para forzar la partición hacia acetonitrilo. Un lavado final con salmuera hace lo mismo en un work-up orgánico."
+  },
+  {
+    "id": "HL-R-lipinski",
+    "tipo": "regla",
+    "titulo": "Regla de Cinco de Lipinski",
+    "variante": "corta",
+    "cuerpo": "Los grupos funcionales fijan el $pK_a$ por efectos inductivos y de resonancia, el $pK_a$ fija $D$ vía la ecuación del pH, y el log $P$ octanol-agua resume la capacidad de repartirse hacia una fase lipídica. Lipinski usa log $P \\le 5$ como uno de sus cuatro criterios de absorción oral.",
+    "ejemplo": "Un químico medicinal revisa el log $P$ calculado de una molécula recién sintetizada antes de probarla: ese solo número predice si puede llegar a ser un fármaco oral."
+  },
+  {
+    "id": "HL-R-kd-suelo",
+    "tipo": "corolario",
+    "titulo": "$K_d$ suelo-agua es el mismo objeto que $K_D$",
+    "variante": "corta",
+    "cuerpo": "El coeficiente de distribución suelo-agua $K_d$ describe el mismo equilibrio de reparto con una fase sólida en vez de líquida. Todo lo derivado para $K_D$ es transferible, con la salvedad de que la heterogeneidad de los sitios de sorción hace de la no idealidad la norma, no la excepción.",
+    "ejemplo": "Los esquemas de Tessier extraen en secuencia con reactivos de fuerza creciente para especiar un metal en suelo: la lógica de extracciones sucesivas aplicada a biodisponibilidad, no a purificación."
+  },
+  {
+    "id": "HL-R-tres-ejes",
+    "tipo": "regla",
+    "titulo": "Tres ejes de selectividad en LLE",
+    "variante": "desarrollo",
+    "cuerpo": "La selectividad de una extracción se modula por tres vías independientes. Encadenarlas permite separar especies que un solo eje no distingue, como el plutonio del uranio en PUREX.",
+    "tabla": {
+      "titulo": "los tres ejes",
+      "encabezados": ["eje", "qué controla"],
+      "filas": [
+        ["pH", "el grado de ionización del soluto, vía la ecuación de $D$"],
+        ["dureza HSAB", "la afinidad de coordinación entre átomo donador y metal"],
+        ["estado redox", "la química de coordinación de un mismo elemento al cambiar su estado de oxidación"]
+      ]
+    },
+    "ejemplo": "PUREX: TBP coextrae U(VI) y Pu(IV) por dureza; reducir Pu(IV) a Pu(III) devuelve el plutonio al agua y deja el uranio en el solvente."
+  },
+  {
+    "id": "HL-R-semejante-retiene",
+    "tipo": "principio",
+    "titulo": "SPE: lo semejante retiene a lo semejante",
+    "variante": "corta",
+    "cuerpo": "En la extracción en fase sólida la segunda fase es un adsorbente, casi siempre sílice con cadenas C18. El mismo «lo semejante disuelve a lo semejante» del reparto líquido-líquido gobierna la retención: lo apolar queda retenido, el agua y lo muy polar pasan de largo, y un volumen mínimo de solvente eluye el analito ya concentrado. Concentra y limpia en un paso.",
+    "ejemplo": "Una infusión de café por un cartucho C18 deja la cafeína retenida; 1 mL de solvente orgánico la libera concentrada, sin la emulsión ni el volumen de una LLE clásica."
+  },
+  {
+    "id": "HL-R-emulsion-cinetica",
+    "tipo": "definicion",
+    "titulo": "Una emulsión es cinética, no termodinámica",
+    "variante": "corta",
+    "cuerpo": "En una emulsión las dos fases siguen inmiscibles y el reparto ya ocurrió: la termodinámica no cambió. Quedan atrapadas como gotitas finas que no coalescen porque algo con carácter tensioactivo estabiliza su interfase. Se rompe atacando esa estabilización, no cambiando $K_D$.",
+    "ejemplo": "Agitar con violencia un extracto vegetal gomoso genera gotitas tan estabilizadas que la fase no separa en minutos, aunque el $K_D$ sea favorable. La salmuera saturada o la centrifugación las hacen coalescer."
+  },
+  {
+    "id": "HL-R-pkw-pka-agua",
+    "tipo": "norma",
+    "titulo": "$pK_w$ no es el $pK_a$ del agua",
+    "variante": "corta",
+    "cuerpo": "La fórmula de $D$ de una base usa el $pK_a$ del ácido conjugado BH⁺, ligado al $pK_b$ por $pK_a(\\text{BH}^+) + pK_b(\\text{B}) = pK_w = 14.00$ a 25 °C. Aparte, $pK_w = 14$ es el producto iónico del agua; el $pK_a$ del agua como ácido, calculado con su concentración pura de 55.5 M, es $\\approx 15.7$. Mezclarlos invierte la decisión de extracción.",
+    "ejemplo": "Alcaloide con $pK_b \\approx 4$: en la fórmula de $D$ entra $pK_a = 14 - 4 = 10$, no 4. Su forma neutra domina a pH por encima de 10."
+  }
+]

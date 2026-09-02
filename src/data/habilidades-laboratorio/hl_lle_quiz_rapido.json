@@ -12,7 +12,7 @@
       "Porque la actividad de una especie siempre resulta proporcional al logaritmo de su concentración, lo que introduce artificialmente el término exponencial en la fórmula de $K_D$."
     ],
     "correcta": 0,
-    "explicacion": "La forma exponencial no es un ajuste empírico: es la consecuencia matemática directa de igualar dos potenciales químicos escritos en términos de actividad."
+    "explicacion": "La forma exponencial no es un ajuste empírico: es la consecuencia directa de la [[HL-R-nernst|Ley de Reparto de Nernst]], que sale de igualar dos potenciales químicos escritos en términos de actividad."
   },
   {
     "id": "HL-QR-002",
@@ -27,7 +27,7 @@
       "El error fue elegir diclorometano en vez de éter etílico, que es el único solvente aceptado formalmente para reportar un valor de $P$."
     ],
     "correcta": 1,
-    "explicacion": "$P$ describe solo la forma neutra de una especie; en cuanto hay ionización presente, lo que se mide es $D$, y $D$ sí depende del pH."
+    "explicacion": "Según la [[HL-R-kd-vs-p|distinción entre $K_D$ y $P$]], $P$ describe solo la forma neutra de una especie; en cuanto hay ionización presente, lo que se mide es $D$, y $D$ sí depende del pH."
   },
   {
     "id": "HL-QR-003",
@@ -49,7 +49,7 @@
     "tarjetaId": "HL-LLE-006",
     "categoria": "lle",
     "formato": "mcq",
-    "enunciado": "Para un ácido débil con $pK_a$=4.2, ¿en qué rango de pH domina la forma ionizada A⁻ y el coeficiente de distribución $D$ cae muy por debajo de $P$?",
+    "enunciado": "Para un ácido débil con $pK_a$=4.2, ¿en qué rango de pH domina la forma ionizada A⁻ y el [[HL-R-coef-distribucion|coeficiente de distribución $D$]] cae muy por debajo de $P$?",
     "opciones": [
       "A cualquier pH, porque el coeficiente $D$ siempre resulta menor que $P$ sin importar qué tan ácida o básica sea la fase acuosa.",
       "Únicamente a un pH exactamente igual al $pK_a$, donde las concentraciones de HA y de A⁻ están en proporción exacta de uno a uno en la mezcla.",
@@ -64,7 +64,7 @@
     "tarjetaId": "HL-LLE-007",
     "categoria": "lle",
     "formato": "mcq",
-    "enunciado": "Con $K_D$=3, $V_{ac}$=15 mL y $V_{org}$=5 mL en una sola extracción, ¿qué porcentaje del soluto pasa a la fase orgánica?",
+    "enunciado": "Con $K_D$=3, $V_{ac}$=15 mL y $V_{org}$=5 mL en [[HL-R-extracciones-multiples|una sola extracción]], ¿qué porcentaje del soluto pasa a la fase orgánica?",
     "opciones": [
       "50%, porque f₁=15/(15+3×5)=0.5, y el porcentaje extraído hacia la fase orgánica es uno menos esa fracción remanente.",
       "75%, porque $K_D$=3 se multiplica directamente por un 25% base para dar el porcentaje final extraído en una sola etapa.",
@@ -79,7 +79,7 @@
     "tarjetaId": "HL-LLE-008",
     "categoria": "lle",
     "formato": "mcq",
-    "enunciado": "Con el mismo volumen total de solvente, ¿por qué tres extracciones pequeñas recuperan más soluto que una extracción grande?",
+    "enunciado": "Con el mismo volumen total de solvente, ¿por qué [[HL-R-extracciones-multiples|tres extracciones pequeñas recuperan más soluto que una grande]]?",
     "opciones": [
       "Porque el solvente fresco de cada etapa reacciona químicamente con el soluto restante y lo neutraliza por completo en cada paso.",
       "Porque $f_n$ es una potencia n-ésima de un cociente menor que 1, y aumentar n reduce esa fracción más rápido que agrandar el volumen de una sola etapa.",
@@ -109,7 +109,7 @@
     "tarjetaId": "HL-LLE-010",
     "categoria": "lle",
     "formato": "mcq",
-    "enunciado": "Según la Regla de Cinco de Lipinski, ¿qué papel juega el log $P$ calculado de una molécula recién sintetizada en un semillero de química farmacéutica?",
+    "enunciado": "Según la [[HL-R-lipinski|Regla de Cinco de Lipinski]], ¿qué papel juega el log $P$ calculado de una molécula recién sintetizada en un semillero de química farmacéutica?",
     "opciones": [
       "Determina directamente si la molécula tendrá actividad biológica suficiente contra su blanco terapéutico específico.",
       "Sirve únicamente para calcular el costo aproximado de síntesis del compuesto en una etapa muy temprana de desarrollo farmacéutico completo.",
@@ -124,7 +124,7 @@
     "tarjetaId": "HL-LLE-012",
     "categoria": "lle",
     "formato": "mcq",
-    "enunciado": "Un extractante con átomo donador duro, como el oxígeno fosforilo del TBP, ¿qué tipo de metal extraerá mejor según HSAB?",
+    "enunciado": "Un extractante con átomo donador duro, como el oxígeno fosforilo del TBP, ¿qué tipo de metal extraerá mejor [[HL-R-hsab|según HSAB]]?",
     "opciones": [
       "Metales duros, de alta densidad de carga y baja polarizabilidad, como el UO₂²⁺ o los lantánidos trivalentes de la serie.",
       "Metales blandos, de alta polarizabilidad electrónica, como el Hg²⁺ o la Ag⁺ presentes en soluciones acuosas complejas reales.",
@@ -147,7 +147,7 @@
       "Porque el MgSO₄ actúa como catalizador directo de la reacción de extracción, acelerando notablemente la velocidad del equilibrio químico."
     ],
     "correcta": 1,
-    "explicacion": "Este es el mismo salting-out de la Fase 8: el $K_D$ termodinámico no cambia, pero la actividad efectiva sí, y eso desplaza el reparto medido."
+    "explicacion": "Este es el mismo [[HL-R-salting-out|salting-out]]: el $K_D$ termodinámico no cambia, pero la actividad efectiva sí, y eso desplaza el reparto medido."
   },
   {
     "id": "HL-QR-011",
@@ -177,14 +177,14 @@
       "El problema es cinético, no termodinámico: la transferencia por la interfase es lenta en un solvente viscoso, sin importar el equilibrio."
     ],
     "correcta": 3,
-    "explicacion": "$K_D$ solo describe el destino final del equilibrio, no la velocidad con la que se llega a él; esa velocidad es un problema de difusión aparte."
+    "explicacion": "Por el principio de que [[HL-R-termo-no-cinetica|termodinámica no es cinética]], $K_D$ solo describe el destino final del equilibrio, no la velocidad con la que se llega a él; esa velocidad es un problema de difusión aparte."
   },
   {
     "id": "HL-QR-013",
     "tarjetaId": "HL-LLE-013",
     "categoria": "lle",
     "formato": "mcq",
-    "enunciado": "¿Por qué el coeficiente $K_d$ de la ciencia del suelo casi nunca es una constante fija, a diferencia de un $K_D$ de LLE bien controlado en el laboratorio?",
+    "enunciado": "¿Por qué el [[HL-R-kd-suelo|coeficiente $K_d$ de la ciencia del suelo]] casi nunca es una constante fija, a diferencia de un $K_D$ de LLE bien controlado en el laboratorio?",
     "opciones": [
       "Porque los sitios de sorción de un sólido son heterogéneos por naturaleza, lo que exige isotermas de Freundlich o Langmuir.",
       "Porque el suelo es realmente una fase gaseosa dispersa, y eso invalida cualquier coeficiente de reparto calculado sobre él en el análisis.",
@@ -221,7 +221,7 @@
     "alternativas": [
       "potencial químico"
     ],
-    "explicacion": "Esa igualdad, escrita en términos de actividad, es el punto de partida exacto de donde se deriva la Ley de Reparto de Nernst."
+    "explicacion": "Esa igualdad, escrita en términos de actividad, es el punto de partida exacto de donde se deriva la [[HL-R-nernst|Ley de Reparto de Nernst]]."
   },
   {
     "id": "HL-QR-016",
@@ -252,7 +252,7 @@
       "el K_D",
       "KD"
     ],
-    "explicacion": "La forma matemática es la misma; lo que cambia es que la heterogeneidad de los sitios de sorción hace que la no idealidad sea la norma."
+    "explicacion": "La [[HL-R-kd-suelo|forma matemática es la misma]]; lo que cambia es que la heterogeneidad de los sitios de sorción hace que la no idealidad sea la norma."
   },
   {
     "id": "HL-QR-018",
@@ -267,14 +267,14 @@
       "aumenta",
       "incrementa"
     ],
-    "explicacion": "El $K_D$ termodinámico verdadero no cambia; lo que cambia es la actividad, porque a fuerza iónica alta $\\gamma$ deja de valer 1."
+    "explicacion": "El $K_D$ termodinámico verdadero no cambia; lo que cambia es la actividad, porque a [[HL-R-salting-out|fuerza iónica alta $\\gamma$ deja de valer 1]]."
   },
   {
     "id": "HL-QR-019",
     "tarjetaId": "HL-LLE-006",
     "categoria": "lle",
     "formato": "build",
-    "enunciado": "Arma la razón por la que $D$, a diferencia de $P$, depende del pH:",
+    "enunciado": "Arma la razón por la que $D$, a diferencia de $P$, [[HL-R-coef-distribucion|depende del pH]]:",
     "fragmentos": [
       "$D$ es el cociente entre lo que hay en la fase orgánica y todo lo que hay en la fase acuosa,",
       "neutro más ionizado,",
@@ -288,7 +288,7 @@
     "tarjetaId": "HL-LLE-008",
     "categoria": "lle",
     "formato": "build",
-    "enunciado": "Arma por qué dividir el solvente en más etapas siempre reduce más la fracción remanente de soluto:",
+    "enunciado": "Arma por qué [[HL-R-extracciones-multiples|dividir el solvente en más etapas siempre reduce más la fracción remanente]] de soluto:",
     "fragmentos": [
       "$f_n$ es una potencia n-ésima de un cociente menor que 1,",
       "así que aumentar el número de etapas con el mismo solvente total",
@@ -309,7 +309,7 @@
       "así que prefiere interacción electrostática",
       "con metales igualmente duros como UO₂²⁺ o los lantánidos."
     ],
-    "explicacion": "Esta coincidencia dura-dura, no una regla memorizada, es lo que explica por qué PUREX usa TBP para extraer uranio y plutonio del combustible nuclear gastado."
+    "explicacion": "Esta [[HL-R-hsab|coincidencia dura-dura]], no una regla memorizada, es lo que explica por qué PUREX usa TBP para extraer uranio y plutonio del combustible nuclear gastado."
   },
   {
     "id": "HL-QR-022",
@@ -323,14 +323,14 @@
       "y productos de degradación con carácter tensioactivo",
       "que pueden estabilizar una tercera fase que ninguna ecuación de equilibrio predice."
     ],
-    "explicacion": "El mismo problema de tercera fase o \"crud\" aparece tanto en SX-EW de cobre como en PUREX a escala nuclear."
+    "explicacion": "El modelo de dos fases limpias de la [[HL-R-nernst|Ley de Reparto]] no incluye sólidos ni tensioactivos; el mismo problema de tercera fase o \"crud\" aparece tanto en SX-EW de cobre como en PUREX a escala nuclear."
   },
   {
     "id": "HL-QR-023",
     "tarjetaId": "HL-LLE-012",
     "categoria": "lle",
     "formato": "match",
-    "enunciado": "Empareja cada extractante con el metal que extrae mejor según HSAB:",
+    "enunciado": "Empareja cada extractante con el metal que extrae mejor [[HL-R-hsab|según HSAB]]:",
     "izq": [
       "Fosfato de tributilo (TBP)",
       "Ditizona",
@@ -369,7 +369,7 @@
       "1": 1,
       "2": 2
     },
-    "explicacion": "Cada fenómeno de esta guía tiene su propia ecuación derivada: Nernst para el equilibrio puro, pH-dependencia para ácidos y bases débiles, y extracciones múltiples para el diseño experimental."
+    "explicacion": "Cada fenómeno de esta guía tiene su propia ecuación derivada: [[HL-R-nernst|Nernst]] para el equilibrio puro, [[HL-R-coef-distribucion|pH-dependencia]] para ácidos y bases débiles, y [[HL-R-extracciones-multiples|extracciones múltiples]] para el diseño experimental."
   },
   {
     "id": "HL-QR-025",
@@ -392,7 +392,7 @@
       "1": 1,
       "2": 2
     },
-    "explicacion": "Los tres son formas del mismo concepto de reparto aplicadas a preguntas distintas: mecanismo termodinámico, destino ambiental, y diseño de fármacos."
+    "explicacion": "Los tres son formas del mismo concepto de reparto aplicadas a preguntas distintas: mecanismo termodinámico, destino ambiental, y diseño de fármacos ([[HL-R-lipinski|Lipinski]])."
   },
   {
     "id": "HL-QR-026",
@@ -407,7 +407,7 @@
       "Porque la solubilidad de un soluto en agua y en el solvente orgánico crece siempre en igual proporción, dejando la razón $K_D$ exactamente igual que antes."
     ],
     "correcta": 1,
-    "explicacion": "Que la solubilidad absoluta suba con la temperatura no dice nada sobre la razón $K_D$: eso depende solo del signo de $\\Delta H^\\circ_{transferencia}$, y solo el dato experimental lo decide."
+    "explicacion": "Que la solubilidad absoluta suba con la temperatura no dice nada sobre la razón $K_D$: eso depende solo del [[HL-R-vant-hoff|signo de $\\Delta H^\\circ_{transferencia}$]], y solo el dato experimental lo decide."
   },
   {
     "id": "HL-QR-027",
@@ -422,7 +422,7 @@
       "Convierte el fenol en fenolato y deja el ácido carboxílico neutro en el éter, porque el bicarbonato actúa antes sobre el ácido más débil de los dos."
     ],
     "correcta": 2,
-    "explicacion": "El NaHCO₃ es lo bastante básico para el ácido carboxílico pero no para el fenol: eso lo hace una herramienta de separación selectiva por fuerza de acidez. Con NaOH se llevarían ambos."
+    "explicacion": "El NaHCO₃ es lo bastante básico para el ácido carboxílico pero no para el fenol: eso lo hace una herramienta de [[HL-R-seleccion-base|separación selectiva por fuerza de acidez]]. Con NaOH se llevarían ambos."
   },
   {
     "id": "HL-QR-028",
@@ -437,7 +437,7 @@
       "Para bajar la temperatura de la fase acuosa antes de acidificar, evitando así que el ácido se degrade al recuperarlo del medio fuertemente básico."
     ],
     "correcta": 0,
-    "explicacion": "El backwashing usa la misma operación física que la extracción múltiple pero con objetivo opuesto: quitar la impureza neutra que viajó con el producto, sacrificando algo de producto a cambio de pureza."
+    "explicacion": "El backwashing usa la misma operación física que la [[HL-R-extracciones-multiples|extracción múltiple]] pero con objetivo opuesto: quitar la impureza neutra que viajó con el producto, sacrificando algo de producto a cambio de pureza."
   },
   {
     "id": "HL-QR-029",
@@ -452,7 +452,7 @@
       "Porque el NaOH concentrado puede llevar el pH muy por encima de lo necesario y catalizar la hidrólisis del éster y del glicósido; el amoníaco es autolimitado a pH 10-11."
     ],
     "correcta": 3,
-    "explicacion": "Ésteres, amidas, glicósidos y epóxidos se hidrolizan bajo base fuerte. NH₃ y NaHCO₃ son bases débiles y autolimitadas: llegan a pH ~10-11, suficiente para la amina sin arriesgar el resto de la molécula."
+    "explicacion": "Ésteres, amidas, glicósidos y epóxidos se hidrolizan bajo base fuerte. NH₃ y NaHCO₃ son [[HL-R-base-suave|bases débiles y autolimitadas]]: llegan a pH ~10-11, suficiente para la amina sin arriesgar el resto de la molécula."
   },
   {
     "id": "HL-QR-030",
@@ -467,7 +467,7 @@
       "$pK_a$ ≈ 15.7, el valor del agua actuando como ácido, que fija la escala de acidez de cualquier base disuelta en agua."
     ],
     "correcta": 1,
-    "explicacion": "La fórmula de $D$ de una base usa el $pK_a$ de su ácido conjugado, no el $pK_b$. El 15.7 es el $pK_a$ del agua, una confusión distinta; 14 es el $pK_w$."
+    "explicacion": "La fórmula de $D$ de una base [[HL-R-pkw-pka-agua|usa el $pK_a$ de su ácido conjugado, no el $pK_b$]]. El 15.7 es el $pK_a$ del agua, una confusión distinta; 14 es el $pK_w$."
   },
   {
     "id": "HL-QR-031",
@@ -497,7 +497,7 @@
       "El soluto se degradó por completo durante la agitación, y son sus productos de descomposición los que impiden que el equilibrio de reparto llegue a darse."
     ],
     "correcta": 0,
-    "explicacion": "Una emulsión es un estado metaestable de coalescencia lenta: las fases siguen siendo inmiscibles y el reparto ya se dio. Se rompe atacando la estabilización de la interfase, no cambiando $K_D$."
+    "explicacion": "Una emulsión es un [[HL-R-emulsion-cinetica|estado metaestable de coalescencia lenta]]: las fases siguen siendo inmiscibles y el reparto ya se dio. Se rompe atacando la estabilización de la interfase, no cambiando $K_D$."
   },
   {
     "id": "HL-QR-033",
@@ -529,7 +529,7 @@
       "≈ 15.7",
       "15.74"
     ],
-    "explicacion": "Son dos números que responden preguntas distintas: $pK_w$ mide la autoionización del agua; el $pK_a$ del agua la mide como donante de un protón, usando su concentración pura de 55.5 M como referencia."
+    "explicacion": "Son [[HL-R-pkw-pka-agua|dos números que responden preguntas distintas]]: $pK_w$ mide la autoionización del agua; el $pK_a$ del agua la mide como donante de un protón, usando su concentración pura de 55.5 M como referencia."
   },
   {
     "id": "HL-QR-035",
@@ -545,7 +545,7 @@
       "coalescencia de gotas",
       "coalescencia de las gotitas"
     ],
-    "explicacion": "Por eso se rompe con métodos que atacan la estabilización de la interfase, salmuera, filtración o centrifugación, y no cambiando $K_D$."
+    "explicacion": "Por eso [[HL-R-emulsion-cinetica|se rompe atacando la estabilización de la interfase]], salmuera, filtración o centrifugación, y no cambiando $K_D$."
   },
   {
     "id": "HL-QR-036",
@@ -559,7 +559,7 @@
       "mientras el agua y los compuestos muy polares pasan de largo,",
       "y luego un volumen pequeño de solvente orgánico lo eluye ya concentrado."
     ],
-    "explicacion": "Es el mismo \"lo semejante retiene a lo semejante\" del reparto líquido-líquido, con una superficie sólida funcionalizada en lugar de un segundo líquido; así funciona la descafeinización de té y café por SPE."
+    "explicacion": "Es el mismo [[HL-R-semejante-retiene|\"lo semejante retiene a lo semejante\"]] del reparto líquido-líquido, con una superficie sólida funcionalizada en lugar de un segundo líquido; así funciona la descafeinización de té y café por SPE."
   },
   {
     "id": "HL-QR-037",
@@ -573,7 +573,7 @@
       "entonces se reduce el plutonio de Pu(IV) a Pu(III),",
       "y ese cambio de estado de oxidación deja que Pu(III) vuelva al agua mientras el uranio queda en el solvente."
     ],
-    "explicacion": "El estado redox es un tercer eje de selectividad en LLE, junto al pH (ionización de ácidos y bases débiles) y a la dureza-blandura HSAB del átomo donador."
+    "explicacion": "El estado redox es un [[HL-R-tres-ejes|tercer eje de selectividad en LLE]], junto al pH (ionización de ácidos y bases débiles) y a la dureza-blandura HSAB del átomo donador."
   },
   {
     "id": "HL-QR-038",
@@ -626,7 +626,7 @@
       "Que la interfase estaba sostenida por solutos disueltos de carácter tensioactivo, desestabilizados por el salting-out."
     ],
     "correcta": 3,
-    "explicacion": "Cada remedio apunta a una causa distinta: si cede a la salmuera (salting-out) pero no al filtro, el estabilizador es un soluto anfifílico disuelto, no material particulado. El $K_D$ no cambió; cambió la actividad en la interfase."
+    "explicacion": "Cada remedio apunta a una causa distinta: si [[HL-R-salting-out|cede a la salmuera (salting-out)]] pero no al filtro, el estabilizador es un soluto anfifílico disuelto, no material particulado. El $K_D$ no cambió; cambió la actividad en la interfase."
   },
   {
     "id": "HL-QR-041",
@@ -654,6 +654,6 @@
       "llevar esa idea a una columna, con ambas fases líquidas y miles de micro-equilibrios de reparto,",
       "es la base de la cromatografía de reparto (Nobel de Química de 1952 a Martin y Synge)."
     ],
-    "explicacion": "La LLE no es una técnica aislada: la repetición sistemática de contactos de reparto es el fundamento conceptual de buena parte de la cromatografía moderna."
+    "explicacion": "La LLE no es una técnica aislada: la [[HL-R-extracciones-multiples|repetición sistemática de contactos de reparto]] es el fundamento conceptual de buena parte de la cromatografía moderna."
   }
 ]

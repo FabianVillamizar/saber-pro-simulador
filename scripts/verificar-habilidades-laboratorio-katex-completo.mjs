@@ -61,5 +61,82 @@ for (const ej of lp) {
   if (ej.formula) compilar(ej.formula, `${ej.id}.formula`)
 }
 
+// ---- Rulebook "Reglas en contexto" — hl_reglas.json ----
+// (feature transversal, piloto Inorgánica; ver TextoConReglas.jsx). Cada
+// $...$/formula/celda compila en KaTeX, esquema consistente, y cada token
+// [[HL-R-...]] del Quiz Rápido resuelve contra este archivo. Los
+// disparadores solo pueden vivir en enunciado/explicacion/antes/despues,
+// nunca en una opción, fragmento o respuesta (darían pista).
+const RUTA_REGLAS = new URL('../src/data/habilidades-laboratorio/hl_reglas.json', import.meta.url)
+const reglas = JSON.parse(readFileSync(RUTA_REGLAS, 'utf-8'))
+const TIPOS_REGLA = new Set(['regla', 'ley', 'corolario', 'teorema', 'norma', 'principio', 'definicion'])
+const VARIANTES_REGLA = new Set(['corta', 'desarrollo'])
+const idsRegla = new Set()
+for (const r of reglas) {
+  if (idsRegla.has(r.id)) {
+    console.log(`FAIL regla duplicada: ${r.id}`)
+    errores++
+  }
+  idsRegla.add(r.id)
+  if (!/^HL-R-[a-z0-9-]+$/.test(r.id)) {
+    console.log(`FAIL id de regla mal formado (esperado HL-R-<slug>): ${r.id}`)
+    errores++
+  }
+  if (!TIPOS_REGLA.has(r.tipo)) {
+    console.log(`FAIL tipo de regla desconocido ("${r.tipo}") en ${r.id}`)
+    errores++
+  }
+  if (!VARIANTES_REGLA.has(r.variante)) {
+    console.log(`FAIL variante de regla desconocida ("${r.variante}") en ${r.id}`)
+    errores++
+  }
+  if (!r.titulo || !r.cuerpo) {
+    console.log(`FAIL regla sin titulo/cuerpo: ${r.id}`)
+    errores++
+  }
+  if (r.variante === 'desarrollo' && !r.formula && !r.tabla) {
+    console.log(`FAIL variante "desarrollo" sin formula ni tabla: ${r.id}`)
+    errores++
+  }
+  for (const c of ['titulo', 'cuerpo', 'ejemplo']) if (r[c]) revisarSpans(r[c], `${r.id}.${c}`)
+  if (r.formula) compilar(r.formula, `${r.id}.formula`)
+  if (r.tabla) {
+    ;(r.tabla.encabezados ?? []).forEach((c, i) => revisarSpans(String(c), `${r.id}.tabla.encabezados[${i}]`))
+    ;(r.tabla.filas ?? []).forEach((fila, i) =>
+      fila.forEach((c, j) => revisarSpans(String(c), `${r.id}.tabla.filas[${i}][${j}]`)),
+    )
+  }
+}
+
+// ---- Tokens [[HL-R-...]] en el Quiz Rápido ----
+const TOKEN = /\[\[([^\]|]+?)(?:\|[^\]]*?)?\]\]/g
+const CAMPOS_CON_TOKEN = ['enunciado', 'explicacion', 'antes', 'despues']
+const CAMPOS_SIN_TOKEN = ['opciones', 'fragmentos', 'izq', 'der', 'respuesta', 'alternativas']
+let refsResueltas = 0
+for (const it of quiz) {
+  for (const campo of CAMPOS_CON_TOKEN) {
+    const v = it[campo]
+    if (typeof v !== 'string') continue
+    for (const m of v.matchAll(TOKEN)) {
+      const id = m[1].trim()
+      if (!idsRegla.has(id)) {
+        console.log(`FAIL ${it.id}.${campo}: [[${id}]] no existe en hl_reglas.json`)
+        errores++
+      } else refsResueltas++
+    }
+  }
+  for (const campo of CAMPOS_SIN_TOKEN) {
+    const v = it[campo]
+    const arr = Array.isArray(v) ? v : v == null ? [] : [v]
+    arr.forEach((x, i) => {
+      if (typeof x === 'string' && x.includes('[[')) {
+        console.log(`FAIL ${it.id}.${campo}[${i}]: un disparador [[...]] aquí daría pista`)
+        errores++
+      }
+    })
+  }
+}
+console.log(`\n${reglas.length} reglas en el rulebook · ${refsResueltas} referencias [[HL-R-...]] resueltas en el Quiz Rápido`)
+
 console.log(errores === 0 ? 'OK — 0 errores de KaTeX en los tres archivos' : `${errores} error(es)`)
 process.exit(errores === 0 ? 0 : 1)
