@@ -1,0 +1,78 @@
+[
+  {
+    "id": "IQ-R-lagrange",
+    "tipo": "teorema",
+    "titulo": "Teorema de Lagrange",
+    "variante": "corta",
+    "cuerpo": "El orden de todo subgrupo de un grupo finito divide exacto al orden del grupo. Por eso los únicos tamaños de subgrupo posibles son los divisores de $h=|G|$.",
+    "ejemplo": "$C_{3v}$ tiene $h=6$; sus subgrupos solo pueden ser de orden 1, 2, 3 o 6."
+  },
+  {
+    "id": "IQ-R-clases-irreps",
+    "tipo": "ley",
+    "titulo": "Número de clases = número de irreps",
+    "variante": "corta",
+    "cuerpo": "En todo grupo finito, la cantidad de clases de conjugación es exactamente igual a la cantidad de representaciones irreducibles. Predice cuántas filas tendrá la tabla de caracteres antes de construirla.",
+    "ejemplo": "$C_{3v}$ tiene 3 clases ($\\hat{E}$; $2\\hat{C}_3$; $3\\hat{\\sigma}_v$) → 3 irreps: $A_1$, $A_2$, $E$."
+  },
+  {
+    "id": "IQ-R-suma-cuadrados",
+    "tipo": "corolario",
+    "titulo": "Suma de cuadrados de las dimensiones",
+    "variante": "desarrollo",
+    "cuerpo": "La suma de los cuadrados de las dimensiones de las irreps de un grupo es igual a su orden. Sirve como chequeo rápido de que una tabla de caracteres está completa.",
+    "formula": "\\sum_i l_i^{\\,2} = h",
+    "tabla": {
+      "titulo": "chequeo en dos grupos",
+      "encabezados": ["grupo", "irreps", "$\\sum_i l_i^{\\,2}$", "$h$"],
+      "filas": [
+        ["$C_{3v}$", "$A_1,\\,A_2,\\,E$", "$1+1+4$", "$6$ ✓"],
+        ["$C_{4v}$", "$A_1,A_2,B_1,B_2,E$", "$1+1+1+1+4$", "$8$ ✓"]
+      ]
+    },
+    "ejemplo": "Si la suma no da $h$, falta una irrep en la tabla."
+  },
+  {
+    "id": "IQ-R-legendre",
+    "tipo": "regla",
+    "titulo": "Paridad de Legendre (plano horizontal)",
+    "variante": "desarrollo",
+    "cuerpo": "Cualquier armónico esférico transforma bajo el plano horizontal $\\hat{\\sigma}_h$ multiplicándose por $(-1)$ elevado a $(l+m)$. De ahí sale, sin memorizar, qué orbitales quedan «primados» y cuáles «doble prima».",
+    "formula": "Y_{l,m}\\;\\xrightarrow{\\;\\hat{\\sigma}_h\\;}\\;(-1)^{l+m}\\,Y_{l,m}",
+    "tabla": {
+      "titulo": "orbitales d, l = 2",
+      "encabezados": ["$m$", "orbital", "$(-1)^{l+m}$ bajo $\\hat{\\sigma}_h$"],
+      "filas": [
+        ["$0$", "$d_{z^2}$", "$+1$ · primado"],
+        ["$\\pm 1$", "$d_{xz},\\,d_{yz}$", "$-1$ · doble prima"],
+        ["$\\pm 2$", "$d_{x^2-y^2},\\,d_{xy}$", "$+1$ · primado"]
+      ]
+    },
+    "ejemplo": "$p_z$ ($l=1$, $m=0$): $(-1)^1=-1$, antisimétrico → $A_2''$."
+  },
+  {
+    "id": "IQ-R-orbita",
+    "tipo": "definicion",
+    "titulo": "Órbita de átomos equivalentes",
+    "variante": "corta",
+    "cuerpo": "Conjunto de átomos que alguna operación del grupo intercambia entre sí. Átomos de órbitas distintas nunca se mezclan bajo ninguna operación, y cada órbita aporta su propia combinación totalmente simétrica.",
+    "ejemplo": "$PCl_5$: los 3 Cl ecuatoriales son una órbita, los 2 axiales otra. Ninguna rotación o reflexión lleva un axial a una posición ecuatorial."
+  },
+  {
+    "id": "IQ-R-reduccion",
+    "tipo": "regla",
+    "titulo": "Fórmula de reducción",
+    "variante": "desarrollo",
+    "cuerpo": "Cuántas veces aparece la irrep $i$ dentro de una representación reducible. $g_k$ es el tamaño de la clase $k$, $h$ el orden del grupo, y las $\\chi$ son los caracteres.",
+    "formula": "n_i=\\frac{1}{h}\\sum_k g_k\\,\\chi_i(\\hat{R}_k)\\,\\chi(\\hat{R}_k)",
+    "ejemplo": "$\\Gamma_{3N}$ del $H_2O$ = (9, −1, 1, 3) → $n(A_1)=\\frac{1}{4}[9-1+1+3]=3$."
+  },
+  {
+    "id": "IQ-R-exclusion",
+    "tipo": "norma",
+    "titulo": "Regla de exclusión mutua",
+    "variante": "corta",
+    "cuerpo": "Ningún modo vibracional es IR y Raman activo a la vez, pero solo es un teorema exacto en grupos con centro de inversión $\\hat{i}$. En $D_{3h}$, que no tiene $\\hat{i}$, es apenas una tendencia que hay que verificar en la tabla.",
+    "ejemplo": "$D_{6h}$ tiene $\\hat{i}$: exclusión rigurosa. $D_{3h}$ no: caso por caso."
+  }
+]

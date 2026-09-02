@@ -365,6 +365,14 @@ export const indiceModulos = {
     categorias: {
       teoria_grupos: 'Teoría de Grupos y Simetría Molecular',
     },
+    // Igual que Habilidades de Laboratorio: este módulo escribe LaTeX
+    // inline ($C_{3v}$, $\hat{C}_n$, matrices) en enunciados/opciones/
+    // explicación de Quiz Rápido, no solo en tarjetas de concepto, y no
+    // tiene montos de dinero en esos campos, así que el render con
+    // fórmulas es seguro de activar. También habilita la capa "Reglas en
+    // contexto" (token `[[id-regla|texto]]` → popover), cuyo rulebook vive
+    // en src/data/inorganica/iq_reglas.json (ver la bitácora del módulo).
+    renderizaFormulas: true,
     adapters: {},
   },
   'habilidades-laboratorio': {

@@ -1,6 +1,4 @@
-import katex from 'katex'
-import 'katex/dist/katex.min.css'
-import './Formula.css'
+import { PATRON, renderizarFragmento } from './textoFragmentos.jsx'
 
 // Fórmulas y símbolos incrustados dentro de una oración normal
 // ($...$ inline, $$...$$ en bloque), más **negrita** — necesario para
@@ -27,31 +25,10 @@ import './Formula.css'
 // sin sombrero y sin "d" (C₂ᵥ, C₃ᵥ, D₆ₕ, Oₕ) sí pueden seguir en
 // Unicode plano dentro del texto si se prefiere — ese subconjunto no
 // tiene ninguno de los dos problemas.
-const PATRON = /(\$\$[^$]+?\$\$|\$[^$]+?\$|\*\*.+?\*\*)/g
-
-function renderizarFormula(tex, bloque, key) {
-  const html = katex.renderToString(tex, { throwOnError: false, displayMode: bloque })
-  return (
-    <span
-      key={key}
-      className={bloque ? 'formula-latex formula-latex-bloque' : 'formula-latex'}
-      dangerouslySetInnerHTML={{ __html: html }}
-    />
-  )
-}
-
-function renderizarFragmento(fragmento, key) {
-  if (fragmento.startsWith('$$') && fragmento.endsWith('$$')) {
-    return renderizarFormula(fragmento.slice(2, -2), true, key)
-  }
-  if (fragmento.startsWith('$') && fragmento.endsWith('$')) {
-    return renderizarFormula(fragmento.slice(1, -1), false, key)
-  }
-  if (fragmento.startsWith('**') && fragmento.endsWith('**')) {
-    return <strong key={key}>{fragmento.slice(2, -2)}</strong>
-  }
-  return <span key={key}>{fragmento}</span>
-}
+//
+// El parser en sí (PATRON + renderizarFragmento) vive en
+// textoFragmentos.jsx, compartido con TextoConReglas (superset estricto
+// que además reconoce el token `[[id-regla|texto]]`).
 
 // Mismo soporte de párrafos separados por línea en blanco que
 // TextoConNegritas, para no perderlo en campos largos (explicacion de

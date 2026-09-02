@@ -1,0 +1,421 @@
+/* Capa "Reglas en contexto" — disparador subrayado + popover de regla.
+   Estilo portado de la maqueta de Claude Design
+   (Downloads/…/Inorganica/Vistas HTML/Quiz Rápido - Reglas.dc.html +
+   ReglaPopover.dc.html). Acento del módulo: teal petróleo. */
+
+.rc-disp,
+.rc-pop-wrap {
+  --rc-acc: oklch(45% 0.1 215);
+  --rc-acc-soft: oklch(45% 0.1 215 / 0.1);
+  --rc-acc-soft-2: oklch(45% 0.1 215 / 0.19);
+  --rc-pop-bg: oklch(99.2% 0.006 85);
+  --rc-pop-bd: oklch(45% 0.1 215 / 0.17);
+  --rc-pop-ink: oklch(24% 0.014 245);
+  --rc-pop-body: oklch(40% 0.014 245);
+  --rc-pop-well: oklch(45% 0.1 215 / 0.06);
+  --rc-pop-mute: oklch(58% 0.014 245);
+  --rc-pop-max: 360px;
+}
+
+:root[data-theme='dark'] .rc-disp,
+:root[data-theme='dark'] .rc-pop-wrap {
+  --rc-acc: oklch(78% 0.1 205);
+  --rc-acc-soft: oklch(78% 0.1 205 / 0.14);
+  --rc-acc-soft-2: oklch(78% 0.1 205 / 0.24);
+  --rc-pop-bg: oklch(30% 0.018 248);
+  --rc-pop-bd: oklch(78% 0.1 205 / 0.22);
+  --rc-pop-ink: oklch(96% 0.006 85);
+  --rc-pop-body: oklch(81% 0.01 248);
+  --rc-pop-well: oklch(78% 0.1 205 / 0.1);
+  --rc-pop-mute: oklch(66% 0.012 248);
+}
+
+@media (max-width: 480px) {
+  .rc-disp,
+  .rc-pop-wrap {
+    --rc-pop-max: 266px;
+  }
+}
+
+/* ---------- disparador ---------- */
+
+.rc-disp {
+  position: relative;
+  z-index: 5;
+  cursor: pointer;
+  color: var(--rc-acc);
+  font-weight: 600;
+  padding: 0 0.12em;
+  border-radius: 4px;
+  text-decoration: underline;
+  text-decoration-color: var(--rc-acc);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 0.22em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  transition:
+    background 0.16s ease,
+    text-decoration-thickness 0.16s ease;
+}
+
+.rc-disp:hover,
+.rc-disp--activa {
+  background: var(--rc-acc-soft);
+  text-decoration-thickness: 2px;
+}
+
+.rc-disp--fijada {
+  background: var(--rc-acc-soft-2);
+  text-decoration-thickness: 2px;
+}
+
+.rc-disp-punto {
+  font-size: 0.46em;
+  vertical-align: 0.62em;
+  margin-left: 0.18em;
+  letter-spacing: 0;
+}
+
+/* ---------- envoltorio + animación ---------- */
+
+.rc-pop-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: block;
+  width: max-content;
+  transform-origin: 24px top;
+  animation: rcRuleIn 0.19s cubic-bezier(0.2, 0.85, 0.3, 1) both;
+}
+
+.rc-pop-wrap--saliendo {
+  animation: rcRuleOut 0.16s ease-in both;
+  pointer-events: none;
+}
+
+@keyframes rcRuleIn {
+  from {
+    opacity: 0;
+    transform: translateY(-7px) scale(0.962);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes rcRuleOut {
+  from {
+    opacity: 1;
+    transform: none;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-5px) scale(0.972);
+  }
+}
+
+/* ---------- tarjeta del popover ---------- */
+
+.rc-pop {
+  display: block;
+  box-sizing: border-box;
+  width: max-content;
+  max-width: min(430px, var(--rc-pop-max, 360px));
+  background: var(--rc-pop-bg);
+  color: var(--rc-pop-ink);
+  border: 1px solid var(--rc-pop-bd);
+  border-radius: 13px;
+  box-shadow:
+    0 26px 50px -26px rgba(12, 20, 28, 0.55),
+    0 2px 6px rgba(12, 20, 28, 0.07);
+  padding: 12px 14px 11px;
+  font-family: 'Manrope', system-ui, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  line-height: 1.5;
+  letter-spacing: 0;
+  cursor: default;
+  white-space: normal;
+}
+
+:root[data-theme='dark'] .rc-pop {
+  box-shadow:
+    0 26px 50px -26px rgba(0, 0, 0, 0.7),
+    0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.rc-pop .katex {
+  color: inherit;
+  font-size: 1.02em;
+}
+
+/* ---------- cabecera + badge por tipo ---------- */
+
+.rc-pop-cabecera {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 8px;
+}
+
+.rc-pop-badge {
+  font-size: 9.5px;
+  font-weight: 800;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--rc-badge-fg, var(--rc-pop-mute));
+  background: var(--rc-badge-bg, oklch(0% 0 0 / 0.06));
+  padding: 4px 8px 3px;
+  border-radius: 999px;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+.rc-pop[data-tipo='teorema'] {
+  --rc-badge-fg: oklch(44% 0.13 258);
+  --rc-badge-bg: oklch(44% 0.13 258 / 0.1);
+}
+.rc-pop[data-tipo='ley'] {
+  --rc-badge-fg: oklch(45% 0.13 288);
+  --rc-badge-bg: oklch(45% 0.13 288 / 0.1);
+}
+.rc-pop[data-tipo='corolario'] {
+  --rc-badge-fg: oklch(45% 0.11 185);
+  --rc-badge-bg: oklch(45% 0.11 185 / 0.12);
+}
+.rc-pop[data-tipo='regla'] {
+  --rc-badge-fg: oklch(45% 0.1 215);
+  --rc-badge-bg: oklch(45% 0.1 215 / 0.11);
+}
+.rc-pop[data-tipo='norma'],
+.rc-pop[data-tipo='principio'] {
+  --rc-badge-fg: oklch(46% 0.13 328);
+  --rc-badge-bg: oklch(46% 0.13 328 / 0.1);
+}
+.rc-pop[data-tipo='definicion'] {
+  --rc-badge-fg: oklch(44% 0.02 250);
+  --rc-badge-bg: oklch(44% 0.02 250 / 0.09);
+}
+
+:root[data-theme='dark'] .rc-pop[data-tipo='teorema'] {
+  --rc-badge-fg: oklch(82% 0.11 258);
+  --rc-badge-bg: oklch(82% 0.11 258 / 0.16);
+}
+:root[data-theme='dark'] .rc-pop[data-tipo='ley'] {
+  --rc-badge-fg: oklch(82% 0.11 288);
+  --rc-badge-bg: oklch(82% 0.11 288 / 0.16);
+}
+:root[data-theme='dark'] .rc-pop[data-tipo='corolario'] {
+  --rc-badge-fg: oklch(82% 0.1 185);
+  --rc-badge-bg: oklch(82% 0.1 185 / 0.16);
+}
+:root[data-theme='dark'] .rc-pop[data-tipo='regla'] {
+  --rc-badge-fg: oklch(80% 0.1 215);
+  --rc-badge-bg: oklch(80% 0.1 215 / 0.16);
+}
+:root[data-theme='dark'] .rc-pop[data-tipo='norma'],
+:root[data-theme='dark'] .rc-pop[data-tipo='principio'] {
+  --rc-badge-fg: oklch(82% 0.12 328);
+  --rc-badge-bg: oklch(82% 0.12 328 / 0.16);
+}
+:root[data-theme='dark'] .rc-pop[data-tipo='definicion'] {
+  --rc-badge-fg: oklch(78% 0.02 250);
+  --rc-badge-bg: oklch(78% 0.02 250 / 0.14);
+}
+
+.rc-pop-fijado {
+  margin-left: auto;
+  flex: 0 0 auto;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--rc-acc);
+  box-shadow: 0 0 0 3.5px var(--rc-acc-soft);
+}
+
+.rc-pop-cerrar {
+  all: unset;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-left: auto;
+  flex: 0 0 auto;
+  width: 21px;
+  height: 21px;
+  display: grid;
+  place-items: center;
+  border-radius: 6px;
+  color: var(--rc-pop-mute);
+  font-size: 16px;
+  line-height: 1;
+  transition:
+    background 0.14s ease,
+    color 0.14s ease;
+}
+.rc-pop-fijado + .rc-pop-cerrar {
+  margin-left: 0;
+}
+.rc-pop-cerrar:hover {
+  background: var(--rc-acc-soft);
+  color: var(--rc-acc);
+}
+
+/* ---------- cuerpo ---------- */
+
+.rc-pop-titulo {
+  display: block;
+  font-size: 14.5px;
+  font-weight: 700;
+  letter-spacing: -0.014em;
+  line-height: 1.28;
+  margin-bottom: 6px;
+  color: var(--rc-pop-ink);
+  max-width: 22em;
+}
+
+.rc-pop-cuerpo {
+  display: block;
+  font-size: 12.9px;
+  line-height: 1.58;
+  color: var(--rc-pop-body);
+  max-width: 31em;
+  text-wrap: pretty;
+}
+
+.rc-pop-formula {
+  display: block;
+  margin: 10px 0 1px;
+  padding: 9px 12px 8px;
+  border-radius: 9px;
+  background: var(--rc-pop-well);
+  border: 1px solid var(--rc-pop-bd);
+  text-align: center;
+  font-size: 14px;
+  color: var(--rc-pop-ink);
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.rc-pop-formula .katex-display {
+  margin: 0;
+}
+
+/* ---------- mini-tabla ---------- */
+
+.rc-pop-tabla-bloque {
+  display: block;
+  margin-top: 11px;
+}
+.rc-pop-tabla-titulo {
+  display: block;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--rc-pop-mute);
+  margin-bottom: 5px;
+}
+.rc-pop-tabla-scroll {
+  display: block;
+  border: 1px solid var(--rc-pop-bd);
+  border-radius: 8px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: thin;
+}
+.rc-pop-tabla {
+  display: table;
+  box-sizing: border-box;
+  width: max-content;
+  border-collapse: collapse;
+}
+.rc-pop-tr {
+  display: table-row;
+}
+.rc-pop-tr--cabecera {
+  background: var(--rc-pop-well);
+}
+.rc-pop-th,
+.rc-pop-td {
+  display: table-cell;
+  vertical-align: middle;
+  border-left: 1px solid var(--rc-pop-bd);
+  line-height: 1.4;
+  white-space: nowrap;
+}
+.rc-pop-th:first-child,
+.rc-pop-td:first-child {
+  border-left: none;
+}
+.rc-pop-th {
+  padding: 6px 9px 5px;
+  font-size: 10.5px;
+  font-weight: 700;
+  color: var(--rc-pop-mute);
+}
+.rc-pop-td {
+  padding: 5.5px 9px;
+  font-size: 11.5px;
+  color: var(--rc-pop-body);
+  border-top: 1px solid var(--rc-pop-bd);
+}
+
+/* ---------- ejemplo ---------- */
+
+.rc-pop-ejemplo {
+  margin-top: 10px;
+  padding-top: 9px;
+  border-top: 1px dashed var(--rc-pop-bd);
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  font-size: 12.2px;
+  font-style: italic;
+  color: var(--rc-pop-body);
+  line-height: 1.5;
+  text-wrap: pretty;
+}
+.rc-pop-ejemplo-marca {
+  flex: 0 0 auto;
+  font-family: 'Kalam', cursive;
+  font-size: 12.5px;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--rc-acc);
+  line-height: 1.4;
+}
+
+/* ---------- flechita ---------- */
+
+.rc-pop-caret {
+  position: absolute;
+  top: 6px;
+  left: 22px;
+  width: 9px;
+  height: 9px;
+  transform: rotate(45deg);
+  background: var(--rc-pop-bg);
+  border-left: 1px solid var(--rc-pop-bd);
+  border-top: 1px solid var(--rc-pop-bd);
+}
+.rc-pop-caret[data-lado='abajo'] {
+  top: auto;
+  bottom: 6px;
+  border-left: none;
+  border-top: none;
+  border-right: 1px solid var(--rc-pop-bd);
+  border-bottom: 1px solid var(--rc-pop-bd);
+}
+.rc-pop-caret[data-lado='izquierda'] {
+  border-top: none;
+  border-right: none;
+  border-left: 1px solid var(--rc-pop-bd);
+  border-bottom: 1px solid var(--rc-pop-bd);
+}
+.rc-pop-caret[data-lado='derecha'] {
+  border-left: none;
+  border-bottom: none;
+  border-top: 1px solid var(--rc-pop-bd);
+  border-right: 1px solid var(--rc-pop-bd);
+}

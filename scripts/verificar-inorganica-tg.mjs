@@ -102,5 +102,167 @@ const max = Math.max(...longitudes.map((l) => l.longitud))
 const min = Math.min(...longitudes.map((l) => l.longitud))
 
 console.log(`\n${tarjetas.length} tarjetas, longitud promedio ${promedio} car. (min ${min}, max ${max})`)
-console.log(errores === 0 ? 'OK — 0 errores' : `${errores} error(es) encontrados`)
+
+// ===========================================================================
+// Rulebook "Reglas en contexto" — src/data/inorganica/iq_reglas.json
+// (feature transversal, piloto Inorgánica; ver BITACORA.md §"Reglas en
+// contexto"). Cada fórmula/celda compila en KaTeX, ningún símbolo prohibido
+// suelto, esquema consistente.
+// ===========================================================================
+const RUTA_REGLAS = new URL('../src/data/inorganica/iq_reglas.json', import.meta.url)
+const reglas = JSON.parse(readFileSync(RUTA_REGLAS, 'utf-8'))
+const TIPOS_REGLA = new Set(['regla', 'ley', 'corolario', 'teorema', 'norma', 'principio', 'definicion'])
+const VARIANTES_REGLA = new Set(['corta', 'desarrollo'])
+const idsRegla = new Set()
+let erroresReglas = 0
+
+function compilaKatex(tex, ctx) {
+  try {
+    katex.renderToString(tex, { throwOnError: true })
+  } catch (e) {
+    console.log(`FAIL KaTeX no compila en ${ctx}: "${tex}" -> ${e.message}`)
+    return false
+  }
+  return true
+}
+function revisarSpansMath(valor, ctx) {
+  for (const span of valor.match(PATRON_MATH) ?? []) {
+    const tex = span.startsWith('$$') ? span.slice(2, -2) : span.slice(1, -1)
+    if (!compilaKatex(tex, ctx)) erroresReglas++
+  }
+  const sinMath = valor.replace(PATRON_MATH, '')
+  const prohibido = sinMath.match(PATRON_SIMBOLO_PROHIBIDO)
+  if (prohibido) {
+    console.log(`FAIL símbolo prohibido en Unicode plano ("${prohibido[0]}") en ${ctx}`)
+    erroresReglas++
+  }
+}
+
+for (const r of reglas) {
+  if (idsRegla.has(r.id)) {
+    console.log('FAIL id de regla duplicado:', r.id)
+    erroresReglas++
+  }
+  idsRegla.add(r.id)
+  if (!/^IQ-R-[a-z0-9-]+$/.test(r.id)) {
+    console.log(`FAIL id de regla mal formado (esperado IQ-R-<slug>): ${r.id}`)
+    erroresReglas++
+  }
+  if (!TIPOS_REGLA.has(r.tipo)) {
+    console.log(`FAIL tipo de regla desconocido ("${r.tipo}") en ${r.id}`)
+    erroresReglas++
+  }
+  if (!VARIANTES_REGLA.has(r.variante)) {
+    console.log(`FAIL variante de regla desconocida ("${r.variante}") en ${r.id}`)
+    erroresReglas++
+  }
+  if (!r.titulo || !r.cuerpo) {
+    console.log(`FAIL regla sin titulo/cuerpo: ${r.id}`)
+    erroresReglas++
+  }
+  if (r.variante === 'desarrollo' && !r.formula && !r.tabla) {
+    console.log(`FAIL variante "desarrollo" sin formula ni tabla: ${r.id}`)
+    erroresReglas++
+  }
+  for (const campo of ['cuerpo', 'ejemplo']) {
+    if (r[campo]) revisarSpansMath(r[campo], `${r.id}.${campo}`)
+  }
+  if (r.formula && !compilaKatex(r.formula, `${r.id}.formula`)) erroresReglas++
+  if (r.tabla) {
+    for (const [i, celda] of (r.tabla.encabezados ?? []).entries()) {
+      revisarSpansMath(String(celda), `${r.id}.tabla.encabezados[${i}]`)
+    }
+    for (const [i, fila] of (r.tabla.filas ?? []).entries()) {
+      for (const [j, celda] of fila.entries()) {
+        revisarSpansMath(String(celda), `${r.id}.tabla.filas[${i}][${j}]`)
+      }
+    }
+  }
+}
+console.log(`\n${reglas.length} reglas en el rulebook`)
+
+// ===========================================================================
+// Banco de Quiz Rápido — src/data/inorganica/iq_quiz_rapido.json
+// Referencias [[id-regla]] resueltas, disparadores solo en enunciado/
+// explicación (nunca en opciones), tarjetaId real, y rúbrica mcq
+// (posición de la correcta variada, longitudes equilibradas por ítem,
+// la correcta no es la más larga en más de la mitad del lote).
+// ===========================================================================
+const RUTA_QUIZ = new URL('../src/data/inorganica/iq_quiz_rapido.json', import.meta.url)
+const quiz = JSON.parse(readFileSync(RUTA_QUIZ, 'utf-8'))
+const PATRON_TOKEN = /\[\[([^\]|]+?)(?:\|[^\]]*?)?\]\]/g
+let erroresQuiz = 0
+
+function refsDeReglas(texto) {
+  const ids = []
+  for (const m of String(texto ?? '').matchAll(PATRON_TOKEN)) ids.push(m[1].trim())
+  return ids
+}
+// aproxima el ancho visual: cada $...$ colapsa a ~4 caracteres, para que
+// la comparación de longitud no la dominen los comandos LaTeX crudos
+function anchoVisual(texto) {
+  return String(texto).replace(PATRON_MATH, '____').length
+}
+
+const posiciones = []
+let correctaMasLarga = 0
+for (const it of quiz) {
+  if (it.formato !== 'mcq') continue
+  // referencias de reglas
+  for (const campo of ['enunciado', 'explicacion']) {
+    for (const id of refsDeReglas(it[campo])) {
+      if (!idsRegla.has(id)) {
+        console.log(`FAIL ${it.id}.${campo}: [[${id}]] no existe en iq_reglas.json`)
+        erroresQuiz++
+      }
+    }
+  }
+  for (const [i, op] of it.opciones.entries()) {
+    if (refsDeReglas(op).length || /\[\[/.test(op)) {
+      console.log(`FAIL ${it.id}.opciones[${i}]: un disparador [[...]] en una opción daría pistas`)
+      erroresQuiz++
+    }
+  }
+  // tarjetaId real
+  if (it.tarjetaId && !porId[it.tarjetaId]) {
+    console.log(`FAIL ${it.id}: tarjetaId "${it.tarjetaId}" no existe en el mazo`)
+    erroresQuiz++
+  }
+  // KaTeX de enunciado/opciones/explicación
+  for (const campo of ['enunciado', 'explicacion']) revisarSpansMathQuiz(it[campo], `${it.id}.${campo}`)
+  it.opciones.forEach((op, i) => revisarSpansMathQuiz(op, `${it.id}.opciones[${i}]`))
+  // rúbrica mcq
+  posiciones.push(it.correcta)
+  const anchos = it.opciones.map(anchoVisual)
+  const ratio = Math.min(...anchos) / Math.max(...anchos)
+  if (ratio < 0.55) {
+    console.log(`FAIL ${it.id}: opciones desbalanceadas (ratio ancho ${ratio.toFixed(2)} < 0.55)`)
+    erroresQuiz++
+  }
+  if (anchos[it.correcta] === Math.max(...anchos)) correctaMasLarga++
+}
+function revisarSpansMathQuiz(valor, ctx) {
+  for (const span of String(valor ?? '').match(PATRON_MATH) ?? []) {
+    const tex = span.startsWith('$$') ? span.slice(2, -2) : span.slice(1, -1)
+    if (!compilaKatex(tex, ctx)) erroresQuiz++
+  }
+}
+const mcq = quiz.filter((q) => q.formato === 'mcq')
+const conteoPos = posiciones.reduce((m, p) => ((m[p] = (m[p] ?? 0) + 1), m), {})
+const posDistintas = Object.keys(conteoPos).length
+const posMax = Math.max(...Object.values(conteoPos))
+if (mcq.length >= 4 && (posDistintas < 3 || posMax > Math.ceil(mcq.length / 2))) {
+  console.log(`FAIL posición de la correcta poco variada: ${JSON.stringify(conteoPos)}`)
+  erroresQuiz++
+}
+if (correctaMasLarga > Math.ceil(mcq.length / 2)) {
+  console.log(`FAIL la correcta es la opción más larga en ${correctaMasLarga}/${mcq.length} ítems (> mitad)`)
+  erroresQuiz++
+}
+console.log(
+  `\n${mcq.length} ítems mcq de Quiz Rápido · posiciones ${JSON.stringify(conteoPos)} · correcta-más-larga ${correctaMasLarga}/${mcq.length}`,
+)
+
+errores += erroresReglas + erroresQuiz
+console.log(errores === 0 ? '\nOK — 0 errores' : `\n${errores} error(es) encontrados`)
 process.exit(errores === 0 ? 0 : 1)

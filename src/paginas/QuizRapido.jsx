@@ -8,6 +8,7 @@ import { registrarPracticaParte } from '../engine/progreso.js'
 import { formatoFecha, diferenciaDias } from '../engine/fecha.js'
 import { TextoConNegritas } from '../componentes/TextoConNegritas.jsx'
 import { TextoConFormulas } from '../componentes/TextoConFormulas.jsx'
+import { ReglasProvider, TextoConReglas } from '../componentes/TextoConReglas.jsx'
 import { ThemeToggle } from '../componentes/ThemeToggle.jsx'
 import { SelectorPerfil } from '../componentes/SelectorPerfil.jsx'
 import { IconoFlechaCircular, IconoFlechaDerecha, IconoCheck, IconoChevronIzquierdo } from '../componentes/iconos.jsx'
@@ -32,8 +33,17 @@ const DURACIONES = [
 function Texto({ texto, formulas }) {
   return formulas ? <TextoConFormulas texto={texto} /> : texto
 }
+// Enunciado y explicación pueden traer disparadores de regla en contexto
+// (`[[id-regla|texto]]` → popover); las OPCIONES nunca (un subrayado
+// consultable sobre una opción antes de revelar daría pistas) — ver la
+// bitácora de Inorgánica, decisión 4. TextoConReglas es superset estricto
+// de TextoConFormulas, así que para módulos sin rulebook el token se
+// ignora y el resto se renderiza igual.
+function TextoConDisparadores({ texto, formulas }) {
+  return formulas ? <TextoConReglas texto={texto} /> : texto
+}
 function TextoExplicacion({ texto, formulas }) {
-  return formulas ? <TextoConFormulas texto={texto} /> : <TextoConNegritas texto={texto} />
+  return formulas ? <TextoConReglas texto={texto} /> : <TextoConNegritas texto={texto} />
 }
 
 function barajar(lista) {
@@ -244,8 +254,8 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
             </div>
             <div className="qr-tab-modulo">{modulo.nombre}</div>
           </div>
-          <div className="qr-sheet">
-            <div className="qr-margin" />
+          <div className="qr-sheet" data-reglas-bounds>
+            <div className="qr-margin" data-reglas-margin />
             <div className="qr-rules" />
             <div className="qr-content">
               <h1 className="qr-titulo">¿Cuánto quieres repasar?</h1>
@@ -359,6 +369,7 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
     })
 
     return (
+      <ReglasProvider reglas={modulo.reglas}>
       <div className="page quiz-rapido">
         <div className="barra-superior">
           <button type="button" className="boton-volver" onClick={onVolver}>
@@ -377,8 +388,8 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
             </div>
             <div className="qr-tab-modulo">{modulo.nombre}</div>
           </div>
-          <div className="qr-sheet">
-            <div className="qr-margin" />
+          <div className="qr-sheet" data-reglas-bounds>
+            <div className="qr-margin" data-reglas-margin />
             <div className="qr-rules" />
             <div className="qr-content">
               <h1 className="qr-titulo">{titulo}</h1>
@@ -423,7 +434,7 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
                       const tarjeta = tarjetaDeItem(f.item, modulo.tarjetasConcepto)
                       return (
                         <div key={f.item.id} className="qr-fallo">
-                          <p className="qr-fallo-enunciado"><Texto texto={f.item.enunciado} formulas={modulo.renderizaFormulas} /></p>
+                          <p className="qr-fallo-enunciado"><TextoConDisparadores texto={f.item.enunciado} formulas={modulo.renderizaFormulas} /></p>
                           <div className="qr-fallo-respuestas">
                             <span className="qr-fallo-tuya"><Texto texto={`tu respuesta: ${f.tuRespuesta}`} formulas={modulo.renderizaFormulas} /></span>
                             <span className="qr-fallo-correcta"><Texto texto={`correcta: ${f.correcta}`} formulas={modulo.renderizaFormulas} /></span>
@@ -461,6 +472,7 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
           </div>
         </div>
       </div>
+      </ReglasProvider>
     )
   }
 
@@ -550,6 +562,7 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
   }
 
   return (
+    <ReglasProvider reglas={modulo.reglas}>
     <div className="page quiz-rapido">
       <div className="barra-superior">
         <button type="button" className="boton-volver" onClick={reiniciar}>
@@ -588,7 +601,7 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
               {entradaActual.repeticion && <span className="qr-badge qr-badge--suave">Repite</span>}
             </div>
 
-            <p className="qr-enunciado"><Texto texto={item.enunciado} formulas={modulo.renderizaFormulas} /></p>
+            <p className="qr-enunciado"><TextoConDisparadores texto={item.enunciado} formulas={modulo.renderizaFormulas} /></p>
 
             {item.formato === 'mcq' && (
               <div className="qr-opciones">
@@ -751,5 +764,6 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
         </div>
       </div>
     </div>
+    </ReglasProvider>
   )
 }

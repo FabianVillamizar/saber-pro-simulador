@@ -30,6 +30,7 @@ export async function cargarModulo(moduloId) {
   const contraejemplos = []
   const lapizPapel = []
   const quizRapido = []
+  const reglas = []
 
   // Mismo discriminador estructural que antes, ampliado para Comunicación
   // Escrita (que no tiene ítems de opción múltiple, solo tarjetas de
@@ -49,10 +50,15 @@ export async function cargarModulo(moduloId) {
   // (mcq/fill/build/match) — a diferencia de `preguntas`, no viene del
   // banco de examen ICFES sino que se deriva de una tarjeta de concepto
   // (`tarjetaId`) para convertirla en algo más corto y jugable; por eso es
-  // una entidad propia y no una variante de `itemsCrudos`. Cada chequeo es
-  // mutuamente excluyente con los anteriores, así que el orden no importa
-  // salvo por legibilidad. Para cualquier otro módulo estas listas quedan
-  // vacías y no las consume nadie.
+  // una entidad propia y no una variante de `itemsCrudos`. Una "regla en
+  // contexto" (ver TextoConReglas.jsx, piloto Inorgánica) siempre tiene
+  // `tipo` (regla/ley/corolario/teorema/norma/principio/definicion) junto
+  // con `cuerpo` — el rulebook del módulo, referenciado desde el texto por
+  // el token `[[id-regla|texto]]`; ninguna otra entidad usa esa pareja de
+  // campos (las tarjetas científicas discriminan por `modo`, no `tipo`).
+  // Cada chequeo es mutuamente excluyente con los anteriores, así que el
+  // orden no importa salvo por legibilidad. Para cualquier otro módulo
+  // estas listas quedan vacías y no las consume nadie.
   for (const modulo of archivosCargados) {
     const entradas = modulo.default ?? modulo
     for (const entrada of entradas) {
@@ -63,6 +69,7 @@ export async function cargarModulo(moduloId) {
       else if ('error_demostrado' in entrada) contraejemplos.push(entrada)
       else if ('promptFase1' in entrada) lapizPapel.push(entrada)
       else if ('formato' in entrada) quizRapido.push(entrada)
+      else if ('tipo' in entrada && 'cuerpo' in entrada) reglas.push(entrada)
       else tarjetasConcepto.push(entrada)
     }
   }
@@ -79,5 +86,6 @@ export async function cargarModulo(moduloId) {
     contraejemplos,
     lapizPapel,
     quizRapido,
+    reglas,
   }
 }

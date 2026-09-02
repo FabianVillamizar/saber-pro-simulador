@@ -1,0 +1,122 @@
+[
+  {
+    "id": "IQ-QR-001",
+    "tarjetaId": "IQ-TG-029",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "El grupo $C_{4v}$ tiene 5 [[IQ-R-clases-irreps|clases de conjugación]]. Sin construir la tabla de caracteres, ¿qué se puede afirmar de sus [[IQ-R-suma-cuadrados|representaciones irreducibles]]?",
+    "opciones": [
+      "Tiene exactamente 5 irreps, y la suma de sus dimensiones al cuadrado da 8, el orden del grupo.",
+      "Tiene 4 irreps, porque la clase de la identidad no aporta una representación irreducible propia.",
+      "No se puede decir nada del número de irreps mientras no se construya la tabla de caracteres completa.",
+      "Tiene 5 irreps y todas son de dimensión 1, ya que $C_{4v}$ es un grupo abeliano de orden 8."
+    ],
+    "correcta": 0,
+    "explicacion": "Por el [[IQ-R-clases-irreps|conteo de clases]], $C_{4v}$ tiene 5 irreps: $A_1$, $A_2$, $B_1$, $B_2$, $E$. El [[IQ-R-suma-cuadrados|corolario de dimensiones]] lo confirma: $1+1+1+1+4=8=h$. $C_{4v}$ no es abeliano, así que la irrep $E$ es de dimensión 2."
+  },
+  {
+    "id": "IQ-QR-002",
+    "tarjetaId": "IQ-TG-013",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "El grupo $C_{3v}$ tiene orden $h=6$. Según el [[IQ-R-lagrange|teorema de Lagrange]], ¿qué órdenes son posibles para uno de sus subgrupos?",
+    "opciones": [
+      "Cualquier entero de 1 a 6, ya que un subgrupo se forma tomando cualquier número de operaciones del grupo.",
+      "Solo 1 y 6: un subgrupo propio no trivial no puede existir en un grupo cuyo orden es un número par.",
+      "Solo 1, 2, 3 y 6, porque el orden de un subgrupo tiene que dividir exacto al orden del grupo.",
+      "Solo 2 y 3, los divisores primos de 6, ya que todo subgrupo tiene orden primo por el teorema de Cauchy."
+    ],
+    "correcta": 2,
+    "explicacion": "El [[IQ-R-lagrange|teorema de Lagrange]] obliga a que $|H|$ divida a $|G|=6$, así que los únicos órdenes posibles son 1, 2, 3 y 6. Un orden como 4 o 5 queda descartado sin necesidad de buscar el subgrupo."
+  },
+  {
+    "id": "IQ-QR-003",
+    "tarjetaId": "IQ-TG-023",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "Se sabe que $C_{3v}$ tiene 3 [[IQ-R-clases-irreps|clases de conjugación]]. ¿Cuántas representaciones irreducibles distintas admite?",
+    "opciones": [
+      "Seis: una por cada operación del grupo ($\\hat{E}$, $\\hat{C}_3$, $\\hat{C}_3^2$ y los tres $\\hat{\\sigma}_v$).",
+      "Tres, exactamente el número de clases de conjugación; la tabla de caracteres tendrá tres filas.",
+      "Dos: la totalmente simétrica y su opuesta, como en cualquier grupo con planos de reflexión.",
+      "No está determinado por las clases; depende de qué base de orbitales se use para la representación."
+    ],
+    "correcta": 1,
+    "explicacion": "En todo grupo finito el [[IQ-R-clases-irreps|número de clases]] iguala al número de irreps. $C_{3v}$ tiene 3 clases ($\\hat{E}$; $2\\hat{C}_3$; $3\\hat{\\sigma}_v$), luego 3 irreps: $A_1$, $A_2$, $E$."
+  },
+  {
+    "id": "IQ-QR-004",
+    "tarjetaId": "IQ-TG-030",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "En la [[IQ-R-reduccion|fórmula de reducción]] $n_i=\\frac{1}{h}\\sum_k g_k\\,\\chi_i(\\hat{R}_k)\\,\\chi(\\hat{R}_k)$, ¿qué representa el factor $g_k$?",
+    "opciones": [
+      "El orden del subgrupo generado por $\\hat{R}_k$, que normaliza cada término al tamaño de ese subgrupo.",
+      "El carácter de la representación totalmente simétrica, que siempre multiplica a los demás en la suma.",
+      "El número de irreps del grupo, que aparece para que el resultado $n_i$ quede acotado por ese número.",
+      "El número de operaciones en la clase $k$, para sumar una sola vez por clase en vez de operación por operación."
+    ],
+    "correcta": 3,
+    "explicacion": "Los caracteres son constantes dentro de una clase, así que la suma se hace por clases y cada una se pesa por su tamaño $g_k$. La [[IQ-R-reduccion|fórmula]] da siempre un entero exacto: si sale fraccionario, hay un error en los caracteres de $\\Gamma$."
+  },
+  {
+    "id": "IQ-QR-005",
+    "tarjetaId": "IQ-TG-038",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "La [[IQ-R-exclusion|regla de exclusión mutua]] dice que ningún modo normal es IR y Raman activo a la vez. ¿En qué grupos puntuales es una afirmación rigurosa?",
+    "opciones": [
+      "En todos: es un teorema general de la teoría de grupos, válido para cualquier molécula con eje de rotación.",
+      "Solo en los que tienen centro de inversión $\\hat{i}$; sin $\\hat{i}$ es apenas una tendencia que hay que verificar.",
+      "Solo en los grupos abelianos, donde cada modo pertenece a una irrep de dimensión 1 y no puede solaparse.",
+      "En ninguno de forma exacta; siempre hay algún modo débilmente activo en las dos técnicas a la vez."
+    ],
+    "correcta": 1,
+    "explicacion": "La exclusión es exacta solo con [[IQ-R-exclusion|centro de inversión]]: ahí las funciones $x,y,z$ (IR) son $u$ y las cuadráticas (Raman) son $g$, y ninguna irrep es ambas. $D_{6h}$ tiene $\\hat{i}$: rigurosa. $D_{3h}$ no: caso por caso."
+  },
+  {
+    "id": "IQ-QR-006",
+    "tarjetaId": "IQ-TG-035",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "Los 3 átomos de H del NH₃ forman una sola [[IQ-R-orbita|órbita de átomos equivalentes]]. ¿Qué implica eso al construir sus SALC?",
+    "opciones": [
+      "Que las operaciones del grupo solo permutan esos 3 H entre sí, y una representación de dimensión 3 los cubre a todos.",
+      "Que cada H necesita su propia representación por separado, porque ocupa una posición geométricamente distinta.",
+      "Que el H puede mezclarse con el par libre del N bajo alguna operación, así que la órbita abarca 4 centros.",
+      "Que las SALC son de entrada ortogonales a cualquier orbital del N, sin necesidad de la regla de oro de simetría."
+    ],
+    "correcta": 0,
+    "explicacion": "Una [[IQ-R-orbita|órbita]] es un conjunto cerrado bajo todas las operaciones del grupo: los 3 H se permutan entre sí y nunca llegan a la posición del N. Su representación reducible ($\\chi=(3,0,1)$ en $C_{3v}$) se reduce a $A_1\\oplus E$."
+  },
+  {
+    "id": "IQ-QR-007",
+    "tarjetaId": "IQ-TG-029",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "Para $C_{3v}$ ($h=6$) alguien propone la lista de irreps $\\{A_1, A_2\\}$, ambas de dimensión 1. El [[IQ-R-suma-cuadrados|corolario $\\sum_i l_i^2 = h$]] la descarta al instante. ¿Por qué?",
+    "opciones": [
+      "Porque $A_2$ no aparece en grupos con planos $\\sigma_v$, así que la lista ya trae una irrep de más.",
+      "Porque toda lista de irreps debe incluir al menos una de dimensión 3, y aquí la mayor es de dimensión 1.",
+      "Porque el número de irreps de un grupo siempre es par, y una lista de exactamente dos ya lo viola.",
+      "Porque $1^2 + 1^2 = 2 \\neq 6$: falta representación, y en efecto hace falta una $E$ de dimensión 2 ($2^2=4$)."
+    ],
+    "correcta": 3,
+    "explicacion": "El [[IQ-R-suma-cuadrados|corolario]] exige $\\sum_i l_i^2 = h$. Con $A_1$ y $A_2$ solo se llega a 2; al agregar $E$ ($l=2$): $1+1+4=6=h$. Si la suma no da $h$, la tabla está incompleta."
+  },
+  {
+    "id": "IQ-QR-008",
+    "tarjetaId": "IQ-TG-014",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "Antes de armar la tabla de caracteres de $C_{4v}$ cuentas sus [[IQ-R-clases-irreps|clases de conjugación]]: $\\{\\hat{E}\\}$, $\\{\\hat{C}_2\\}$, $\\{2\\hat{C}_4\\}$, $\\{2\\hat{\\sigma}_v\\}$, $\\{2\\hat{\\sigma}_d\\}$. ¿Cuántas filas tendrá la tabla?",
+    "opciones": [
+      "Ocho, una por cada operación individual del grupo, ya que $C_{4v}$ tiene orden $h=8$.",
+      "Cuatro, porque dos de esas cinco clases se fusionan al pasar a la tabla de caracteres.",
+      "Cinco, una por cada clase de conjugación; el número de irreps iguala al de clases.",
+      "No se sabe contando clases; el número de filas depende de qué representación reducible se analice."
+    ],
+    "correcta": 2,
+    "explicacion": "El [[IQ-R-clases-irreps|número de clases]] iguala al de irreps: 5 clases dan 5 filas ($A_1$, $A_2$, $B_1$, $B_2$, $E$). El orden $h=8$ se recupera con $\\sum_i l_i^2 = 1+1+1+1+4 = 8$."
+  }
+]
