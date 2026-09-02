@@ -378,5 +378,105 @@
     "opciones": ["Porque $D_{3h} \\cong C_{3v} \\times C_s$ y $C_s$ aporta dos irreps propias (simétrica y antisimétrica bajo $\\hat{\\sigma}_h$), así que cada irrep de $C_{3v}$ se desdobla en dos.", "Porque $D_{3h}$ tiene el doble de operaciones que $C_{3v}$, y en cualquier grupo el número de irreps es siempre exactamente la mitad de su orden.", "Porque añadir los tres ejes $\\hat{C}_2'$ perpendiculares crea una imagen especular de cada una de las representaciones irreducibles originales.", "Porque en $D_{3h}$ la representación bidimensional $E$ se cuenta dos veces por separado, una por cada componente de su degeneración doble."],
     "correcta": 0,
     "explicacion": "El número de irreps de un producto directo es el producto del de cada factor. $C_{3v}$ tiene 3 irreps y $C_s$ tiene 2, así que [[IQ-R-dnh-cs|$D_{3h}$]] tiene $3 \\times 2 = 6$: cada una en versión primada ($'$, $+1$ bajo $\\hat{\\sigma}_h$) y doble prima ($''$, $-1$)."
+  },
+  {
+    "id": "IQ-QR-039",
+    "tarjetaId": "IQ-TG-002",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "Un compañero escribe $C_3$ y $\\hat{C}_3$ como si fueran lo mismo. ¿Qué distingue al símbolo con «sombrero»?",
+    "opciones": ["El sombrero marca una acción que mueve la molécula; $C_3$ sin sombrero nombra solo la línea geométrica alrededor de la cual se gira.", "El sombrero indica que la rotación va en sentido antihorario; sin él, $C_3$ sería exactamente la misma rotación pero recorrida en sentido horario.", "El sombrero señala que la operación ya lleva compuesta la identidad $\\hat{E}$; $C_3$ a secas sería la rotación todavía sin componer con nada.", "El sombrero distingue un eje impropio de uno propio; $C_3$ sin sombrero llevaría siempre asociada una reflexión."],
+    "correcta": 0,
+    "explicacion": "Todo el aparato de la teoría de grupos actúa sobre operaciones: $\\hat{C}_3$ es la acción de rotar $120°$, y $C_3$ es solo la línea en el espacio. Un mismo eje $C_3$ genera varias operaciones ($\\hat{C}_3$, $\\hat{C}_3^2$). Esa distinción reaparece en cada fórmula: la $\\hat{R}$ que suma el [[IQ-R-got|Gran Teorema de Ortogonalidad]] siempre es una operación, no un elemento."
+  },
+  {
+    "id": "IQ-QR-040",
+    "tarjetaId": "IQ-TG-024",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "¿Por qué el carácter $\\chi(\\hat{R})$ se define como la traza de la matriz de $\\hat{R}$, y no como su determinante o alguna de sus entradas?",
+    "opciones": ["Porque la traza siempre da un número entero, mientras que el determinante y las entradas sueltas pueden salir complejos o fraccionarios.", "Porque la traza no cambia al cambiar la base ($\\mathrm{Tr}(X^{-1}AX)=\\mathrm{Tr}(A)$), así que es propiedad de la operación y no de la base elegida.", "Porque la traza mide el ángulo total girado por la operación, y las demás cantidades de la matriz no tienen ninguna lectura geométrica.", "Porque la traza es la única cantidad de una matriz que se calcula sin conocer sus entradas fuera de la diagonal principal."],
+    "correcta": 1,
+    "explicacion": "La traza es invariante bajo transformaciones de similitud, así que $\\chi$ es la «huella digital» de la representación: bases distintas dan matrices distintas pero el mismo $\\chi$. Por eso todo el [[IQ-R-got|GOT]] y sus corolarios trabajan con caracteres, no con matrices completas. Y toda una [[IQ-R-clases-irreps|clase de conjugación]] comparte el mismo $\\chi$."
+  },
+  {
+    "id": "IQ-QR-041",
+    "tarjetaId": "IQ-TG-023",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "Al reducir una representación se escribe $\\Gamma = A_1 \\oplus E$. ¿Qué dice el símbolo $\\oplus$ que un signo $+$ corriente no diría?",
+    "opciones": ["Que primero hay que restar $A_1$ de $E$, en lugar de sumarlos, para poder aislar la parte que todavía queda reducible dentro de $\\Gamma$.", "Que $A_1$ y $E$ se funden en una nueva irrep de dimensión $1+2=3$ que sería propia de $\\Gamma$.", "Que $A_1$ y $E$ ocupan bloques diagonales separados y ninguna operación del grupo los mezcla entre sí.", "Que $A_1$ aporta la parte real de $\\Gamma$ y $E$ la imaginaria, como en la suma de dos números complejos."],
+    "correcta": 2,
+    "explicacion": "$\\oplus$ es suma directa: apila bloques en la diagonal, $\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}\\oplus(p)$, con ceros fuera. Los bloques no se acoplan bajo ninguna de las $h$ operaciones, por eso siguen siendo piezas irreducibles. No confundir con el producto directo $\\times$ del [[IQ-R-dnh-cs|teorema $D_{nh}\\cong C_{nv}\\times C_s$]], que combina dos grupos en uno mayor."
+  },
+  {
+    "id": "IQ-QR-042",
+    "tarjetaId": "IQ-TG-015",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "En las notas aparecen $\\Gamma_{3N}$, $\\Gamma_{\\text{vib}}$, $\\Gamma_{\\text{tras}}$ y también $A_1$, $E$. ¿Qué distingue a una $\\Gamma$ mayúscula de una etiqueta como $A_1$?",
+    "opciones": ["$\\Gamma$ se usa solo en grupos de alta simetría como $O_h$; $A_1$ y $E$ son exclusivas de grupos con eje $C_3$.", "$\\Gamma$ indica un carácter ya calculado; $A_1$ y $E$ son operaciones del grupo que aún no se han representado.", "$\\Gamma$ señala una representación escrita en la base compleja de orbitales; $A_1$ y $E$ marcan que ya se hizo el cambio a orbitales reales.", "$\\Gamma$ nombra una representación cualquiera, casi siempre reducible; $A_1$ y $E$ son las piezas irreducibles en que se descompone."],
+    "correcta": 3,
+    "explicacion": "Una representación es un conjunto entero de matrices, una por operación. El subíndice de $\\Gamma$ dice sobre qué base: $\\Gamma_{3N}$ sobre los $3N$ desplazamientos cartesianos, $\\Gamma_{\\text{vib}}$ tras quitar traslación y rotación. Reducir $\\Gamma$ es escribirla como $\\oplus$ de irreps, y hay [[IQ-R-clases-irreps|tantas irreps como clases de conjugación]] tenga el grupo."
+  },
+  {
+    "id": "IQ-QR-043",
+    "tarjetaId": "IQ-TG-025",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "Sin mirar la tabla, ¿qué se puede afirmar de un nivel etiquetado $T_{2g}$ leyendo solo el símbolo, según las [[IQ-R-mulliken|etiquetas de Mulliken]]?",
+    "opciones": ["Está triplemente degenerado (letra $T$) y es par bajo el centro de inversión (subíndice $g$).", "Es un nivel no degenerado, el segundo en energía ($T_2$), y de carácter enlazante ($g$ de «gerade»).", "Está doblemente degenerado (letra $T$) y cambia de signo bajo el plano horizontal (subíndice $g$).", "Corresponde a un orbital $d$ (letra $T$) colocado en un entorno de coordinación tetraédrico (subíndice $g$)."],
+    "correcta": 0,
+    "explicacion": "La letra da la dimensión: $A,B$ = 1, $E$ = 2, $T$ = 3, que es el grado de [[IQ-R-degeneracion|degeneración]]. El subíndice $g$/$u$ es la paridad bajo $\\hat{i}$, y $1$/$2$ el comportamiento bajo $\\hat{\\sigma}_v$. Así $T_{2g}$ es un trío degenerado y par: el juego $d_{xy},d_{xz},d_{yz}$ en campo octaédrico, del que sale la separación $t_{2g}$/$e_g$."
+  },
+  {
+    "id": "IQ-QR-044",
+    "tarjetaId": "IQ-TG-037",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "El $2p_x$ del N y la SALC totalmente simétrica de los H del $NH_3$ tienen energías parecidas, pero no se mezclan. ¿Qué principio lo prohíbe?",
+    "opciones": ["El principio de exclusión de Pauli: dos orbitales con la misma energía no pueden compartir electrones, así que no llegan a formar enlace.", "El principio de la integral nula: el integrando $E \\otimes A_1$ no contiene la parte totalmente simétrica, así que el solapamiento se anula por simetría.", "La regla de Hund: la densidad electrónica se reparte primero entre todos los orbitales degenerados disponibles antes de aparearse en uno solo, y eso bloquea el enlace.", "El teorema de Koopmans: un orbital molecular no puede quedar por debajo en energía del orbital atómico más bajo que lo forma."],
+    "correcta": 1,
+    "explicacion": "Una integral molecular es cero si el integrando no contiene la irrep totalmente simétrica. La [[IQ-R-regla-oro|regla de oro]] (solo combinan funciones de la misma irrep) es su caso particular para solapamientos; aplicada a la integral de momento de transición da las reglas de selección [[IQ-R-exclusion|IR/Raman]]. La cercanía de energías no cambia nada."
+  },
+  {
+    "id": "IQ-QR-045",
+    "tarjetaId": "IQ-TG-027",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "El conteo «nº de clases = nº de irreps», el corolario $\\sum_i l_i^2 = h$ y la fórmula de reducción se presentan como tres reglas sueltas. ¿Qué tienen en común?",
+    "opciones": ["Se comprobaron midiendo los espectros de muchas moléculas distintas y resultaron coincidir dentro del error experimental.", "Valen únicamente para grupos que tengan exactamente tres clases de conjugación, como $C_{3v}$, y hay que readaptarlas una por una para cualquier otro.", "Son consecuencias exactas del Gran Teorema de Ortogonalidad: salen de que las filas de caracteres sean vectores ortogonales, de norma $h$ cada una.", "Se deducen de los cuatro axiomas de grupo, sin necesidad de hablar de matrices ni de representaciones."],
+    "correcta": 2,
+    "explicacion": "El [[IQ-R-got|GOT]] es el enunciado único del que todo lo demás es corolario: la ortogonalidad de las filas fija su número (= nº de clases), la norma $h$ da $\\sum_i l_i^2 = h$, y proyectar una $\\Gamma$ sobre cada fila da la [[IQ-R-reduccion|fórmula de reducción]]. Basta con recordar los corolarios, no la forma completa."
+  },
+  {
+    "id": "IQ-QR-046",
+    "tarjetaId": "IQ-TG-034",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "La [[IQ-R-reduccion|fórmula de reducción]] y el [[IQ-R-proyeccion|operador de proyección]] se aprenden como recetas separadas. ¿Qué estructura comparten?",
+    "opciones": ["Ambas requieren invertir la matriz completa de caracteres del grupo y multiplicarla luego por el vector de la representación reducible que se analiza.", "Ambas solo funcionan si la representación de partida ya viene escrita en forma de bloques diagonales antes de aplicarlas.", "Ambas dependen de elegir de antemano un orbital que transforme como la representación totalmente simétrica del grupo.", "Ambas promedian sobre las operaciones del grupo pesando cada una por el carácter de la irrep: $\\tfrac{1}{h}\\sum_{\\hat{R}}\\chi_i(\\hat{R})\\,(\\cdots)$."],
+    "correcta": 3,
+    "explicacion": "Las dos son «proyectar sobre el grupo»: sumar $\\hat{R}$ (o su carácter) sobre las $h$ operaciones. La [[IQ-R-reduccion|reducción]] cuenta cuántas veces aparece la irrep; el [[IQ-R-proyeccion|operador de proyección]] construye la combinación explícita, la SALC. Ver el patrón evita memorizarlas por separado."
+  },
+  {
+    "id": "IQ-QR-047",
+    "tarjetaId": "IQ-TG-014",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "En la tabla de $C_{3v}$ los tres planos verticales comparten una sola columna, rotulada $3\\hat{\\sigma}_v$. ¿Por qué van juntos y no en tres columnas?",
+    "opciones": ["Porque están en la misma clase de conjugación: son la misma reflexión vista desde ejes equivalentes, con idéntico carácter en toda irrep.", "Porque las tablas de caracteres se abrevian para ahorrar espacio y agrupan las operaciones de tres en tres siempre que exista un eje $C_3$ en el grupo.", "Porque los tres planos, aplicados uno tras otro, equivalen a la identidad y por eso cuentan como una sola operación.", "Porque solo uno de los tres planos es un elemento de simetría real; los otros dos son combinaciones sin carácter propio."],
+    "correcta": 0,
+    "explicacion": "Dos operaciones son conjugadas si una es la otra «vista desde una orientación girada» ($\\hat{A}=\\hat{X}^{-1}\\hat{B}\\hat{X}$). Las rotaciones $\\hat{C}_3$ del $NH_3$ transforman un $\\hat{\\sigma}_v$ en otro, así que los tres forman una clase y comparten $\\chi$. De ahí que [[IQ-R-clases-irreps|nº de clases = nº de irreps]]."
+  },
+  {
+    "id": "IQ-QR-048",
+    "tarjetaId": "IQ-TG-062",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "Un espectroscopista dice que con la tabla de caracteres del $H_2O$ ya sabe qué bandas esperar en IR y en Raman antes de medir. ¿En qué se apoya?",
+    "opciones": ["La tabla de caracteres lista directamente en su última columna la frecuencia en $\\mathrm{cm}^{-1}$ de cada modo normal junto con su intensidad relativa esperada.", "Un modo es IR-activo si su irrep está en la fila de $x,y,z$ y Raman-activo si está en la de las funciones cuadráticas, y ambas filas vienen en la tabla.", "El número de operaciones del grupo iguala al número de bandas IR, así que basta con contar las columnas de la tabla.", "Cada irrep de la tabla es una banda y su carácter bajo $\\hat{E}$ fija la longitud de onda a la que aparece."],
+    "correcta": 1,
+    "explicacion": "El momento dipolar se transforma como $(x,y,z)$ y la polarizabilidad como las cuadráticas; por la [[IQ-R-regla-oro|coincidencia de irrep]] un modo se acopla a la luz solo si comparte simetría con ese operador. Con centro de inversión aparece además la [[IQ-R-exclusion|exclusión mutua]]. Todo se lee de la tabla, sin integrales, la conexión directa con el FTIR de laboratorio."
   }
 ]

@@ -159,5 +159,32 @@
     "cuerpo": "Como cada $Y_{l,m}$ tiene dependencia azimutal $\\propto e^{im\\phi}$ y $\\hat{C}_n$ solo hace $\\phi \\to \\phi + \\alpha$, cada orbital se multiplica por $e^{im\\alpha}$ sin mezclarse con ningún otro. Vale para todo $l$, no solo para orbitales p.",
     "formula": "\\hat{C}_n(\\alpha):\\ Y_{l,m} \\;\\to\\; e^{im\\alpha}\\,Y_{l,m}",
     "ejemplo": "Solo las reflexiones y los $\\hat{C}_2'$ mezclan estados $+m$ con $-m$; las rotaciones puras nunca."
+  },
+  {
+    "id": "IQ-R-integral-cero",
+    "tipo": "principio",
+    "titulo": "Principio de la integral nula",
+    "variante": "corta",
+    "cuerpo": "Cualquier integral molecular (solapamiento, momento de transición, elemento de energía) es forzosamente cero si el integrando no contiene la representación totalmente simétrica. Por eso la simetría predice qué orbitales se combinan y qué transiciones se observan sin resolver la integral.",
+    "ejemplo": "En $NH_3$, $\\langle 2p_x^{N} \\,|\\, \\mathrm{SALC}(A_1) \\rangle$: el integrando transforma como $E \\otimes A_1 = E$, sin parte $A_1$, así que vale cero aunque las energías coincidan."
+  },
+  {
+    "id": "IQ-R-mulliken",
+    "tipo": "norma",
+    "titulo": "Etiquetas de Mulliken",
+    "variante": "desarrollo",
+    "cuerpo": "El símbolo de una irrep se lee por partes: la letra da la dimensión (el grado de degeneración) y los subíndices y primas dicen cómo se comporta bajo operaciones concretas. Es la etiqueta que llevará cada orbital molecular, cada modo normal y cada término espectroscópico.",
+    "tabla": {
+      "titulo": "cómo se lee cada parte",
+      "encabezados": ["parte", "qué dice"],
+      "filas": [
+        ["$A$ / $B$", "dimensión 1; $A$ simétrica y $B$ antisimétrica bajo la $\\hat{C}_n$ principal"],
+        ["$E$ / $T$", "dimensión 2 ($E$) o 3 ($T$): el nivel está degenerado"],
+        ["$g$ / $u$", "par ($g$) o impar ($u$) bajo el centro de inversión $\\hat{i}$"],
+        ["$X'$ / $X''$", "simétrica ($X'$) o antisimétrica ($X''$) bajo el plano horizontal $\\hat{\\sigma}_h$"],
+        ["$X_1$ / $X_2$", "simétrica ($X_1$) o antisimétrica ($X_2$) bajo $\\hat{\\sigma}_v$ o un $\\hat{C}_2$ perpendicular"]
+      ]
+    },
+    "ejemplo": "$T_{2g}$ en $O_h$: trío degenerado (letra $T$), par bajo $\\hat{i}$ (subíndice $g$) — el juego $d_{xy},d_{xz},d_{yz}$ del campo octaédrico."
   }
 ]
