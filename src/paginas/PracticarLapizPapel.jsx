@@ -249,23 +249,34 @@ export function PracticarLapizPapel({ moduloId, perfil, onCambiarPerfil, onVolve
                     <div className="practicar-lp-solucion-desarrollo"><Texto texto={ej.desarrollo} formulas={modulo.renderizaFormulas} /></div>
                   </div>
 
-                  <div className="practicar-lp-atajo">
-                    <div className={`practicar-lp-atajo-fila practicar-lp-atajo-fila--${esFormula ? 'formula' : 'trampa'}`}>
-                      <div className="practicar-lp-atajo-etiqueta">Atajo</div>
-                      <div className="practicar-lp-atajo-barra">
-                        <div className="practicar-lp-atajo-relleno" style={{ width: `${ej.atajoPct}%` }} />
+                  {/* La comparación "atajo vs a pulso" solo tiene sentido cuando el
+                      ejercicio es de tipo cálculo con una fórmula-atajo (RC, Habilidades
+                      de Laboratorio). Los "casos" de Teoría de Grupos son procedimientos
+                      de razonamiento sin un número al final, así que omiten estos campos
+                      y este bloque no se pinta. */}
+                  {ej.atajoPct != null && (
+                    <>
+                      <div className="practicar-lp-atajo">
+                        <div className={`practicar-lp-atajo-fila practicar-lp-atajo-fila--${esFormula ? 'formula' : 'trampa'}`}>
+                          <div className="practicar-lp-atajo-etiqueta">Atajo</div>
+                          <div className="practicar-lp-atajo-barra">
+                            <div className="practicar-lp-atajo-relleno" style={{ width: `${ej.atajoPct}%` }} />
+                          </div>
+                          <div className="practicar-lp-atajo-costo">{ej.atajoCosto}</div>
+                        </div>
+                        <div className="practicar-lp-atajo-fila">
+                          <div className="practicar-lp-atajo-etiqueta practicar-lp-atajo-etiqueta--tenue">A pulso</div>
+                          <div className="practicar-lp-atajo-barra">
+                            <div className="practicar-lp-atajo-relleno practicar-lp-atajo-relleno--tenue" style={{ width: '100%' }} />
+                          </div>
+                          <div className="practicar-lp-atajo-costo practicar-lp-atajo-costo--tenue">{ej.brutoCosto}</div>
+                        </div>
                       </div>
-                      <div className="practicar-lp-atajo-costo">{ej.atajoCosto}</div>
-                    </div>
-                    <div className="practicar-lp-atajo-fila">
-                      <div className="practicar-lp-atajo-etiqueta practicar-lp-atajo-etiqueta--tenue">A pulso</div>
-                      <div className="practicar-lp-atajo-barra">
-                        <div className="practicar-lp-atajo-relleno practicar-lp-atajo-relleno--tenue" style={{ width: '100%' }} />
-                      </div>
-                      <div className="practicar-lp-atajo-costo practicar-lp-atajo-costo--tenue">{ej.brutoCosto}</div>
-                    </div>
-                  </div>
-                  <p className="practicar-lp-nota-atajo"><Texto texto={ej.notaAtajo} formulas={modulo.renderizaFormulas} /></p>
+                      {ej.notaAtajo && (
+                        <p className="practicar-lp-nota-atajo"><Texto texto={ej.notaAtajo} formulas={modulo.renderizaFormulas} /></p>
+                      )}
+                    </>
+                  )}
 
                   <div className="practicar-lp-autoeval">
                     <div className="practicar-lp-eyebrow">¿Cómo te fue?</div>

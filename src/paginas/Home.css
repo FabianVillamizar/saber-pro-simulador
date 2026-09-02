@@ -202,6 +202,18 @@
   color: var(--text-sub);
 }
 
+/* Sección "Universidad" — separada del grid del Saber Pro por una línea
+   tenue y un poco más de aire arriba. */
+.dashboard-universidad-header {
+  margin-top: 44px;
+  padding-top: 26px;
+  border-top: 1px solid var(--border);
+}
+.dashboard-universidad-sub {
+  font-size: 13px;
+  color: var(--text-sub);
+}
+
 .tarjeta-mapa-quimica {
   margin-top: 20px;
   width: 100%;

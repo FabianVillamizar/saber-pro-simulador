@@ -5,12 +5,7 @@
     "categoria": "teoria_grupos",
     "formato": "mcq",
     "enunciado": "El grupo $C_{4v}$ tiene 5 [[IQ-R-clases-irreps|clases de conjugación]]. Sin construir la tabla de caracteres, ¿qué se puede afirmar de sus [[IQ-R-suma-cuadrados|representaciones irreducibles]]?",
-    "opciones": [
-      "Tiene exactamente 5 irreps, y la suma de sus dimensiones al cuadrado da 8, el orden del grupo.",
-      "Tiene 4 irreps, porque la clase de la identidad no aporta una representación irreducible propia.",
-      "No se puede decir nada del número de irreps mientras no se construya la tabla de caracteres completa.",
-      "Tiene 5 irreps y todas son de dimensión 1, ya que $C_{4v}$ es un grupo abeliano de orden 8."
-    ],
+    "opciones": ["Tiene exactamente 5 irreps, y la suma de sus dimensiones al cuadrado da 8, el orden del grupo.", "Tiene 4 irreps, porque la clase de la identidad no aporta una representación irreducible propia.", "No se puede decir nada del número de irreps mientras no se construya la tabla de caracteres completa.", "Tiene 5 irreps y todas son de dimensión 1, ya que $C_{4v}$ es un grupo abeliano de orden 8."],
     "correcta": 0,
     "explicacion": "Por el [[IQ-R-clases-irreps|conteo de clases]], $C_{4v}$ tiene 5 irreps: $A_1$, $A_2$, $B_1$, $B_2$, $E$. El [[IQ-R-suma-cuadrados|corolario de dimensiones]] lo confirma: $1+1+1+1+4=8=h$. $C_{4v}$ no es abeliano, así que la irrep $E$ es de dimensión 2."
   },
@@ -20,12 +15,7 @@
     "categoria": "teoria_grupos",
     "formato": "mcq",
     "enunciado": "El grupo $C_{3v}$ tiene orden $h=6$. Según el [[IQ-R-lagrange|teorema de Lagrange]], ¿qué órdenes son posibles para uno de sus subgrupos?",
-    "opciones": [
-      "Cualquier entero de 1 a 6, ya que un subgrupo se forma tomando cualquier número de operaciones del grupo.",
-      "Solo 1 y 6: un subgrupo propio no trivial no puede existir en un grupo cuyo orden es un número par.",
-      "Solo 1, 2, 3 y 6, porque el orden de un subgrupo tiene que dividir exacto al orden del grupo.",
-      "Solo 2 y 3, los divisores primos de 6, ya que todo subgrupo tiene orden primo por el teorema de Cauchy."
-    ],
+    "opciones": ["Cualquier entero de 1 a 6, ya que un subgrupo se forma tomando cualquier número de operaciones del grupo.", "Solo 1 y 6: un subgrupo propio no trivial no puede existir en un grupo cuyo orden es un número par.", "Solo 1, 2, 3 y 6, porque el orden de un subgrupo tiene que dividir exacto al orden del grupo.", "Solo 2 y 3, los divisores primos de 6, ya que todo subgrupo tiene orden primo por el teorema de Cauchy."],
     "correcta": 2,
     "explicacion": "El [[IQ-R-lagrange|teorema de Lagrange]] obliga a que $|H|$ divida a $|G|=6$, así que los únicos órdenes posibles son 1, 2, 3 y 6. Un orden como 4 o 5 queda descartado sin necesidad de buscar el subgrupo."
   },
@@ -35,12 +25,7 @@
     "categoria": "teoria_grupos",
     "formato": "mcq",
     "enunciado": "Se sabe que $C_{3v}$ tiene 3 [[IQ-R-clases-irreps|clases de conjugación]]. ¿Cuántas representaciones irreducibles distintas admite?",
-    "opciones": [
-      "Seis: una por cada operación del grupo ($\\hat{E}$, $\\hat{C}_3$, $\\hat{C}_3^2$ y los tres $\\hat{\\sigma}_v$).",
-      "Tres, exactamente el número de clases de conjugación; la tabla de caracteres tendrá tres filas.",
-      "Dos: la totalmente simétrica y su opuesta, como en cualquier grupo con planos de reflexión.",
-      "No está determinado por las clases; depende de qué base de orbitales se use para la representación."
-    ],
+    "opciones": ["Seis: una por cada operación del grupo ($\\hat{E}$, $\\hat{C}_3$, $\\hat{C}_3^2$ y los tres $\\hat{\\sigma}_v$).", "Tres, exactamente el número de clases de conjugación; la tabla de caracteres tendrá tres filas.", "Dos: la totalmente simétrica y su opuesta, como en cualquier grupo con planos de reflexión.", "No está determinado por las clases; depende de qué base de orbitales se use para la representación."],
     "correcta": 1,
     "explicacion": "En todo grupo finito el [[IQ-R-clases-irreps|número de clases]] iguala al número de irreps. $C_{3v}$ tiene 3 clases ($\\hat{E}$; $2\\hat{C}_3$; $3\\hat{\\sigma}_v$), luego 3 irreps: $A_1$, $A_2$, $E$."
   },
@@ -50,12 +35,7 @@
     "categoria": "teoria_grupos",
     "formato": "mcq",
     "enunciado": "En la [[IQ-R-reduccion|fórmula de reducción]] $n_i=\\frac{1}{h}\\sum_k g_k\\,\\chi_i(\\hat{R}_k)\\,\\chi(\\hat{R}_k)$, ¿qué representa el factor $g_k$?",
-    "opciones": [
-      "El orden del subgrupo generado por $\\hat{R}_k$, que normaliza cada término al tamaño de ese subgrupo.",
-      "El carácter de la representación totalmente simétrica, que siempre multiplica a los demás en la suma.",
-      "El número de irreps del grupo, que aparece para que el resultado $n_i$ quede acotado por ese número.",
-      "El número de operaciones en la clase $k$, para sumar una sola vez por clase en vez de operación por operación."
-    ],
+    "opciones": ["El orden del subgrupo generado por $\\hat{R}_k$, que normaliza cada término al tamaño de ese subgrupo.", "El carácter de la representación totalmente simétrica, que siempre multiplica a los demás en la suma.", "El número de irreps del grupo, que aparece para que el resultado $n_i$ quede acotado por ese número.", "El número de operaciones en la clase $k$, para sumar una sola vez por clase en vez de operación por operación."],
     "correcta": 3,
     "explicacion": "Los caracteres son constantes dentro de una clase, así que la suma se hace por clases y cada una se pesa por su tamaño $g_k$. La [[IQ-R-reduccion|fórmula]] da siempre un entero exacto: si sale fraccionario, hay un error en los caracteres de $\\Gamma$."
   },
@@ -65,12 +45,7 @@
     "categoria": "teoria_grupos",
     "formato": "mcq",
     "enunciado": "La [[IQ-R-exclusion|regla de exclusión mutua]] dice que ningún modo normal es IR y Raman activo a la vez. ¿En qué grupos puntuales es una afirmación rigurosa?",
-    "opciones": [
-      "En todos: es un teorema general de la teoría de grupos, válido para cualquier molécula con eje de rotación.",
-      "Solo en los que tienen centro de inversión $\\hat{i}$; sin $\\hat{i}$ es apenas una tendencia que hay que verificar.",
-      "Solo en los grupos abelianos, donde cada modo pertenece a una irrep de dimensión 1 y no puede solaparse.",
-      "En ninguno de forma exacta; siempre hay algún modo débilmente activo en las dos técnicas a la vez."
-    ],
+    "opciones": ["En todos: es un teorema general de la teoría de grupos, válido para cualquier molécula con eje de rotación.", "Solo en los que tienen centro de inversión $\\hat{i}$; sin $\\hat{i}$ es apenas una tendencia que hay que verificar.", "Solo en los grupos abelianos, donde cada modo pertenece a una irrep de dimensión 1 y no puede solaparse.", "En ninguno de forma exacta; siempre hay algún modo débilmente activo en las dos técnicas a la vez."],
     "correcta": 1,
     "explicacion": "La exclusión es exacta solo con [[IQ-R-exclusion|centro de inversión]]: ahí las funciones $x,y,z$ (IR) son $u$ y las cuadráticas (Raman) son $g$, y ninguna irrep es ambas. $D_{6h}$ tiene $\\hat{i}$: rigurosa. $D_{3h}$ no: caso por caso."
   },
@@ -80,12 +55,7 @@
     "categoria": "teoria_grupos",
     "formato": "mcq",
     "enunciado": "Los 3 átomos de H del NH₃ forman una sola [[IQ-R-orbita|órbita de átomos equivalentes]]. ¿Qué implica eso al construir sus SALC?",
-    "opciones": [
-      "Que las operaciones del grupo solo permutan esos 3 H entre sí, y una representación de dimensión 3 los cubre a todos.",
-      "Que cada H necesita su propia representación por separado, porque ocupa una posición geométricamente distinta.",
-      "Que el H puede mezclarse con el par libre del N bajo alguna operación, así que la órbita abarca 4 centros.",
-      "Que las SALC son de entrada ortogonales a cualquier orbital del N, sin necesidad de la regla de oro de simetría."
-    ],
+    "opciones": ["Que las operaciones del grupo solo permutan esos 3 H entre sí, y una representación de dimensión 3 los cubre a todos.", "Que cada H necesita su propia representación por separado, porque ocupa una posición geométricamente distinta.", "Que el H puede mezclarse con el par libre del N bajo alguna operación, así que la órbita abarca 4 centros.", "Que las SALC son de entrada ortogonales a cualquier orbital del N, sin necesidad de la regla de oro de simetría."],
     "correcta": 0,
     "explicacion": "Una [[IQ-R-orbita|órbita]] es un conjunto cerrado bajo todas las operaciones del grupo: los 3 H se permutan entre sí y nunca llegan a la posición del N. Su representación reducible ($\\chi=(3,0,1)$ en $C_{3v}$) se reduce a $A_1\\oplus E$."
   },
@@ -95,12 +65,7 @@
     "categoria": "teoria_grupos",
     "formato": "mcq",
     "enunciado": "Para $C_{3v}$ ($h=6$) alguien propone la lista de irreps $\\{A_1, A_2\\}$, ambas de dimensión 1. El [[IQ-R-suma-cuadrados|corolario $\\sum_i l_i^2 = h$]] la descarta al instante. ¿Por qué?",
-    "opciones": [
-      "Porque $A_2$ no aparece en grupos con planos $\\sigma_v$, así que la lista ya trae una irrep de más.",
-      "Porque toda lista de irreps debe incluir al menos una de dimensión 3, y aquí la mayor es de dimensión 1.",
-      "Porque el número de irreps de un grupo siempre es par, y una lista de exactamente dos ya lo viola.",
-      "Porque $1^2 + 1^2 = 2 \\neq 6$: falta representación, y en efecto hace falta una $E$ de dimensión 2 ($2^2=4$)."
-    ],
+    "opciones": ["Porque $A_2$ no aparece en grupos con planos $\\sigma_v$, así que la lista ya trae una irrep de más.", "Porque toda lista de irreps debe incluir al menos una de dimensión 3, y aquí la mayor es de dimensión 1.", "Porque el número de irreps de un grupo siempre es par, y una lista de exactamente dos ya lo viola.", "Porque $1^2 + 1^2 = 2 \\neq 6$: falta representación, y en efecto hace falta una $E$ de dimensión 2 ($2^2=4$)."],
     "correcta": 3,
     "explicacion": "El [[IQ-R-suma-cuadrados|corolario]] exige $\\sum_i l_i^2 = h$. Con $A_1$ y $A_2$ solo se llega a 2; al agregar $E$ ($l=2$): $1+1+4=6=h$. Si la suma no da $h$, la tabla está incompleta."
   },
@@ -110,13 +75,308 @@
     "categoria": "teoria_grupos",
     "formato": "mcq",
     "enunciado": "Antes de armar la tabla de caracteres de $C_{4v}$ cuentas sus [[IQ-R-clases-irreps|clases de conjugación]]: $\\{\\hat{E}\\}$, $\\{\\hat{C}_2\\}$, $\\{2\\hat{C}_4\\}$, $\\{2\\hat{\\sigma}_v\\}$, $\\{2\\hat{\\sigma}_d\\}$. ¿Cuántas filas tendrá la tabla?",
-    "opciones": [
-      "Ocho, una por cada operación individual del grupo, ya que $C_{4v}$ tiene orden $h=8$.",
-      "Cuatro, porque dos de esas cinco clases se fusionan al pasar a la tabla de caracteres.",
-      "Cinco, una por cada clase de conjugación; el número de irreps iguala al de clases.",
-      "No se sabe contando clases; el número de filas depende de qué representación reducible se analice."
-    ],
+    "opciones": ["Ocho, una por cada operación individual del grupo, ya que $C_{4v}$ tiene orden $h=8$.", "Cuatro, porque dos de esas cinco clases se fusionan al pasar a la tabla de caracteres.", "Cinco, una por cada clase de conjugación; el número de irreps iguala al de clases.", "No se sabe contando clases; el número de filas depende de qué representación reducible se analice."],
     "correcta": 2,
     "explicacion": "El [[IQ-R-clases-irreps|número de clases]] iguala al de irreps: 5 clases dan 5 filas ($A_1$, $A_2$, $B_1$, $B_2$, $E$). El orden $h=8$ se recupera con $\\sum_i l_i^2 = 1+1+1+1+4 = 8$."
+  },
+  {
+    "id": "IQ-QR-009",
+    "tarjetaId": "IQ-TG-042",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "El grupo $D_{3h}$ tiene orden $h = 12$. Según el [[IQ-R-lagrange|teorema de Lagrange]], ¿qué órdenes son posibles para uno de sus subgrupos?",
+    "opciones": ["Cualquier valor entero entre 1 y 12, ya que un subgrupo se obtiene tomando cualquier subconjunto no vacío de las operaciones del grupo.", "Únicamente 1, 2, 3, 4, 6 y 12, porque el orden de todo subgrupo tiene que dividir exacto al orden 12 del grupo completo.", "Solamente 2 y 3, que son los divisores primos de 12, porque cada subgrupo propio no trivial tiene forzosamente orden primo.", "Solo 6 y 12, dado que un subgrupo tiene que contener al menos la mitad de las operaciones para cerrarse bajo multiplicación."],
+    "correcta": 1,
+    "explicacion": "El [[IQ-R-lagrange|teorema de Lagrange]] exige que $|H|$ divida a $|G| = 12$; los divisores de 12 son $1, 2, 3, 4, 6, 12$. Un subgrupo de orden 5 o 7 queda descartado sin tener que buscarlo."
+  },
+  {
+    "id": "IQ-QR-010",
+    "tarjetaId": "IQ-TG-013",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "En $C_{3v}$ ($h = 6$) no existe ningún subgrupo de orden 4 ni de orden 5. ¿Cuál es la razón de fondo, sin intentar construirlos?",
+    "opciones": ["Que $C_{3v}$ no es un grupo abeliano, y solo los grupos abelianos admiten subgrupos de absolutamente todos los tamaños intermedios.", "Que $C_{3v}$ tiene exactamente tres clases de conjugación, y cada subgrupo está obligado a agrupar clases enteras del grupo padre.", "Que 4 es par y 5 es impar, y un subgrupo necesita que todos sus posibles órdenes tengan la misma paridad entre sí.", "Que ni 4 ni 5 dividen a 6, y por el teorema de Lagrange el orden de cualquier subgrupo debe dividir al orden del grupo."],
+    "correcta": 3,
+    "explicacion": "El [[IQ-R-lagrange|teorema de Lagrange]] deja solo $1, 2, 3, 6$ como órdenes posibles en $C_{3v}$. La inexistencia de un subgrupo de orden 4 está garantizada de antemano; no hace falta ensayar combinaciones."
+  },
+  {
+    "id": "IQ-QR-011",
+    "tarjetaId": "IQ-TG-043",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "$D_{3h}$ tiene 6 [[IQ-R-clases-irreps|clases de conjugación]]. ¿Cuántas filas tendrá su tabla de caracteres, y cómo se relacionan con las de $C_{3v}$?",
+    "opciones": ["Seis filas: cada una de las tres irreps de $C_{3v}$ se desdobla en una versión primada y otra doble prima según su carácter bajo $\\hat{\\sigma}_h$.", "Doce filas, una por cada operación individual de $D_{3h}$, porque su orden es $h = 12$ y cada operación genera su propia representación.", "Tres filas idénticas a las $A_1, A_2, E$ de $C_{3v}$, porque las columnas nuevas de $D_{3h}$ no aportan ninguna representación adicional.", "Nueve filas: las tres heredadas de $C_{3v}$ más seis nuevas asociadas exclusivamente a los tres ejes $\\hat{C}_2'$ perpendiculares."],
+    "correcta": 0,
+    "explicacion": "El [[IQ-R-dnh-cs|producto directo $D_{3h} \\cong C_{3v} \\times C_s$]] da $3 \\times 2 = 6$ irreps: $A_1', A_2', E', A_1'', A_2'', E''$. El [[IQ-R-clases-irreps|conteo de clases]] lo confirma: 6 clases, 6 filas."
+  },
+  {
+    "id": "IQ-QR-012",
+    "tarjetaId": "IQ-TG-032",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "Se quiere saber cuántas irreps tiene el grupo de rotación $O$ (orden 24) antes de construir su tabla. ¿Qué basta con contar?",
+    "opciones": ["Los 24 elementos del grupo uno por uno, porque en un grupo de rotación pura cada operación genera su propia representación irreducible.", "Los ejes de rotación de distinto tipo que tiene el grupo, cada uno de los cuales aporta una irrep más la totalmente simétrica común.", "Las clases de conjugación del grupo, porque su número coincide exactamente con el número de representaciones irreducibles.", "Los divisores del orden 24, que determinan de forma unívoca cuántas irreps de cada dimensión posible puede llegar a tener el grupo."],
+    "correcta": 2,
+    "explicacion": "El [[IQ-R-clases-irreps|número de clases]] iguala al de irreps. $O$ tiene 5 clases ($\\hat{E}$; $8\\hat{C}_3$; $3\\hat{C}_2$; $6\\hat{C}_4$; $6\\hat{C}_2'$), luego 5 irreps: $A_1, A_2, E, T_1, T_2$."
+  },
+  {
+    "id": "IQ-QR-013",
+    "tarjetaId": "IQ-TG-029",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "El grupo de rotación $O$ tiene irreps de dimensiones $1, 1, 2, 3, 3$. ¿Qué dice el [[IQ-R-suma-cuadrados|corolario $\\sum_i l_i^2 = h$]] sobre esa lista?",
+    "opciones": ["Que la lista está incompleta y faltan más irreps de dimensión baja hasta que la suma de sus cuadrados alcance el valor 24.", "Que sobra una representación, porque un grupo de orden 24 no puede tener dos irreps tridimensionales distintas al mismo tiempo.", "Que las dimensiones tendrían que ser todas iguales entre sí para que la suma de sus cuadrados diera un cuadrado perfecto.", "Que la lista es consistente y completa: $1 + 1 + 4 + 9 + 9 = 24 = h$, así que la tabla de caracteres de $O$ está entera."],
+    "correcta": 3,
+    "explicacion": "El [[IQ-R-suma-cuadrados|corolario]] exige $\\sum l_i^2 = h$. Aquí $1^2 + 1^2 + 2^2 + 3^2 + 3^2 = 24$: la lista de 5 irreps está completa, con dos tridimensionales ($T_1, T_2$) que no existían en $C_{3v}$."
+  },
+  {
+    "id": "IQ-QR-014",
+    "tarjetaId": "IQ-TG-029",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "Alguien propone que $C_{4v}$ ($h = 8$) tiene solo cuatro irreps, todas de dimensión 1. ¿Cómo se descarta con el [[IQ-R-suma-cuadrados|corolario de dimensiones]]?",
+    "opciones": ["Porque $1 + 1 + 1 + 1 = 4 \\neq 8$: falta representación, y en efecto hace falta una irrep $E$ de dimensión 2, ya que $2^2 = 4$ completa la cuenta.", "Porque un grupo que tiene planos diedros $\\sigma_d$ nunca puede tener irreps unidimensionales, sino únicamente representaciones bidimensionales.", "Porque el número de representaciones irreducibles de cualquier grupo tiene que ser una potencia exacta de 2, y 4 lo cumple pero 5 no.", "Porque el corolario no permite descartar ninguna lista propuesta sin haber construido antes la tabla de caracteres completa del grupo."],
+    "correcta": 0,
+    "explicacion": "El [[IQ-R-suma-cuadrados|corolario]] pide $\\sum l_i^2 = 8$. Cuatro irreps de dimensión 1 solo llegan a 4; con la $E$ ($1+1+1+1+4 = 8$) se completa. $C_{4v}$ tiene 5 irreps: $A_1, A_2, B_1, B_2, E$."
+  },
+  {
+    "id": "IQ-QR-015",
+    "tarjetaId": "IQ-TG-051",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "Usando la [[IQ-R-legendre|paridad de Legendre]], ¿cómo transforma el orbital $p_z$ ($l = 1$, $m = 0$) bajo el plano horizontal $\\hat{\\sigma}_h$?",
+    "opciones": ["Se convierte en el orbital $p_x$, porque $\\hat{\\sigma}_h$ equivale a una rotación de $90°$ del orbital dentro del plano ecuatorial.", "No cambia en absoluto, porque $p_z$ está dirigido a lo largo del eje principal y el plano $\\hat{\\sigma}_h$ lo deja invariante.", "Cambia de signo, ya que $(-1)^{l+m} = (-1)^{1+0} = -1$; es antisimétrico bajo $\\hat{\\sigma}_h$ y en $D_{3h}$ clasifica como $A_2''$.", "Se anula por completo, porque $\\hat{\\sigma}_h$ superpone el lóbulo positivo de $p_z$ sobre el negativo y ambos se cancelan."],
+    "correcta": 2,
+    "explicacion": "La [[IQ-R-legendre|regla]] da el factor $(-1)^{l+m}$. Para $p_z$: $(-1)^1 = -1$, así que el orbital cambia de signo bajo $\\hat{\\sigma}_h$, es doble prima, y en $D_{3h}$ es $A_2''$ (la fila que lleva la etiqueta $z$)."
+  },
+  {
+    "id": "IQ-QR-016",
+    "tarjetaId": "IQ-TG-054",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "En el PCl₅, los orbitales $d_{xz}$ y $d_{yz}$ del fósforo quedan no enlazantes frente a las SALC de los cloros. Según la [[IQ-R-legendre|paridad de Legendre]], ¿por qué?",
+    "opciones": ["Porque $d_{xz}$ y $d_{yz}$ apuntan justo entre los ligandos y quedan demasiado lejos de ellos como para tener solapamiento apreciable.", "Porque son doble prima ($E''$), y las SALC formadas solamente con orbitales $s$ de los ligandos son siempre primadas, nunca doble prima.", "Porque la configuración electrónica de valencia del fósforo no incluye ningún orbital $d$ ocupado que pudiera participar en el enlace.", "Porque en el grupo $D_{3h}$ no existe la representación irreducible $E''$, así que esos orbitales no clasifican bajo ninguna simetría del grupo."],
+    "correcta": 1,
+    "explicacion": "Con $l = 2$, $m = \\pm 1$: $(-1)^{2\\pm1} = -1$, así que $d_{xz}, d_{yz}$ son doble prima ($E''$). Un orbital $s$ equivale a $l = 0, m = 0$ y $(-1)^0 = +1$: sus SALC nunca son $E''$, y no hay pareja de enlace $\\sigma$."
+  },
+  {
+    "id": "IQ-QR-017",
+    "tarjetaId": "IQ-TG-047",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "En el PCl₅ ($D_{3h}$), ¿cuántas [[IQ-R-orbita|órbitas de átomos equivalentes]] forman los cinco cloros, y por qué?",
+    "opciones": ["Dos órbitas: los tres cloros ecuatoriales por un lado y los dos axiales por otro, porque ninguna operación del grupo lleva un axial a una posición ecuatorial.", "Una sola órbita, dado que los cinco átomos son del mismo elemento químico y están todos enlazados directamente al mismo átomo central de fósforo.", "Cinco órbitas independientes, una por cada cloro, porque cada uno se encuentra a una distancia ligeramente distinta del núcleo de fósforo.", "Tres órbitas en total: los ecuatoriales cuentan como una y cada uno de los dos cloros axiales forma la suya propia por estar sobre el eje $C_3$."],
+    "correcta": 0,
+    "explicacion": "Una [[IQ-R-orbita|órbita]] es un conjunto cerrado bajo las operaciones del grupo. Los ecuatoriales están en el plano perpendicular al eje $C_3$ y los axiales sobre él: geométricamente distintos, así que ninguna operación los mezcla. Son dos órbitas."
+  },
+  {
+    "id": "IQ-QR-018",
+    "tarjetaId": "IQ-TG-047",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "Los tres hidrógenos del NH₃ forman una sola [[IQ-R-orbita|órbita]], a diferencia de los cloros del PCl₅. ¿Qué lo garantiza?",
+    "opciones": ["Que son solo tres átomos en total, y por definición una órbita de simetría nunca puede contener a más de tres elementos equivalentes.", "Que el átomo de nitrógeno los polariza a todos por igual, borrando cualquier diferencia electrónica que hubiera podido distinguirlos.", "Que están más cerca del átomo central de lo que estaban los cloros del PCl₅, y esa mayor cercanía fuerza a que sean equivalentes.", "Que cualquier operación de $C_{3v}$ puede llevar $H_a$ a la posición de $H_b$ o de $H_c$: los tres tienen exactamente el mismo entorno de simetría."],
+    "correcta": 3,
+    "explicacion": "Los tres H de $NH_3$ tienen distancia y ángulo idénticos al N y ningún elemento de simetría los distingue, así que las rotaciones y reflexiones de $C_{3v}$ los permutan libremente: una órbita. En el PCl₅, axial y ecuatorial ya eran distintos de entrada."
+  },
+  {
+    "id": "IQ-QR-019",
+    "tarjetaId": "IQ-TG-035",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "La representación de los tres $1s$ de H del NH₃ tiene caracteres $\\chi = (3, 0, 1)$ en $C_{3v}$. Aplicando la [[IQ-R-reduccion|fórmula de reducción]] ($h = 6$; tamaños de clase $1, 2, 3$), ¿a qué se reduce?",
+    "opciones": ["A $3A_1$, porque el carácter bajo la identidad vale 3 y ese número cuenta directamente las tres SALC totalmente simétricas de la molécula.", "A la suma directa $A_1 \\oplus E$, una copia de cada irrep: la fórmula de reducción da coeficiente 1 para $A_1$ y coeficiente 1 para el par $E$, que permanece degenerado.", "A $A_1 \\oplus A_2 \\oplus E$, es decir una copia de cada una de las tres representaciones irreducibles que tiene el grupo $C_{3v}$.", "A $E \\oplus E$, un par doblemente degenerado repetido, porque los tres hidrógenos son completamente equivalentes entre sí bajo el grupo."],
+    "correcta": 1,
+    "explicacion": "Con $\\chi_{A_1} = (1,1,1)$: $n(A_1) = \\tfrac{1}{6}[1\\cdot1\\cdot3 + 2\\cdot1\\cdot0 + 3\\cdot1\\cdot1] = 1$. Con $\\chi_E = (2,-1,0)$: $n(E) = \\tfrac{1}{6}[1\\cdot2\\cdot3 + 0 + 0] = 1$. Las SALC de los H son $A_1 \\oplus E$."
+  },
+  {
+    "id": "IQ-QR-020",
+    "tarjetaId": "IQ-TG-030",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "Al aplicar la [[IQ-R-reduccion|fórmula de reducción]] a una representación, uno de los coeficientes $n_i$ sale igual a $2{,}5$. ¿Qué significa?",
+    "opciones": ["Que esa irrep aparece dos veces y media, algo que sí ocurre cuando la representación reducible tiene dimensión total impar.", "Que basta con redondear el resultado al entero más cercano, de modo que en la práctica se toma $n_i = 3$ para seguir el cálculo.", "Que hay un error en los caracteres de $\\Gamma$ o en los tamaños de clase: $n_i$ es un conteo, así que siempre tiene que ser un entero.", "Que la representación analizada no es reducible, y por eso la fórmula de reducción no llega a converger a un valor entero definido."],
+    "correcta": 2,
+    "explicacion": "La [[IQ-R-reduccion|fórmula de reducción]] cuenta cuántas veces aparece cada irrep, así que su resultado es siempre un entero no negativo. Un valor fraccionario delata un error aritmético en $\\chi(\\Gamma)$, en $\\chi_i$ o en los $g_k$."
+  },
+  {
+    "id": "IQ-QR-021",
+    "tarjetaId": "IQ-TG-063",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "¿En cuál de estos grupos la [[IQ-R-exclusion|regla de exclusión mutua]] es un teorema exacto, y en cuál solo una tendencia?",
+    "opciones": ["Es exacta en $C_{3v}$ y solo una tendencia en $D_{6h}$, porque los grupos con un eje $C_6$ acumulan modos degenerados que rompen la regla.", "Es exacta en los dos grupos por igual, ya que cualquier grupo puntual que contenga planos de reflexión la cumple sin excepción alguna.", "Es solo una tendencia en ambos, dado que no existe ningún grupo puntual real en el que la exclusión mutua llegue a ser rigurosa.", "Es exacta en $D_{6h}$, que tiene centro de inversión $\\hat{i}$, y solo una tendencia en $D_{3h}$, que carece de $\\hat{i}$."],
+    "correcta": 3,
+    "explicacion": "La exclusión es rigurosa solo con [[IQ-R-exclusion|centro de inversión]]. $D_{6h}$ tiene $\\hat{i}$ ($n$ par, $\\hat{i} = \\hat{S}_2$); $D_{3h}$ no ($n$ impar). En $D_{3h}$ la separación primada/doble prima se parece a $g/u$ pero no la garantiza."
+  },
+  {
+    "id": "IQ-QR-022",
+    "tarjetaId": "IQ-TG-063",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "Un modo del PCl₅ ($D_{3h}$) no aparece en el espectro Raman. ¿Se puede concluir sin más que es IR-activo, apelando a la [[IQ-R-exclusion|regla de exclusión mutua]]?",
+    "opciones": ["No: como $D_{3h}$ no tiene centro de inversión, la exclusión mutua no es un teorema, y hay que comprobar en la tabla si la irrep del modo coincide con $x, y$ o $z$.", "Sí: la ausencia de una banda en Raman implica siempre su presencia en el espectro IR, por conservación de la intensidad total dispersada y absorbida.", "Sí, aunque solo si el modo pertenece a una irrep primada; si en cambio es doble prima, entonces puede resultar inactivo tanto en IR como en Raman.", "No se puede afirmar nada sobre ese modo sin registrar además su espectro rotacional de microondas para fijar su simetría con certeza."],
+    "correcta": 0,
+    "explicacion": "La [[IQ-R-exclusion|exclusión mutua]] solo es exacta con $\\hat{i}$. En $D_{3h}$ un modo puede ser inactivo en Raman y también en IR (por ejemplo si es $A_2'$). Hay que comprobar en la tabla si su irrep coincide con $x, y, z$."
+  },
+  {
+    "id": "IQ-QR-023",
+    "tarjetaId": "IQ-TG-028",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "En $C_{3v}$ (tamaños de clase $1, 2, 3$), el producto pesado de las filas de caracteres de $A_1$ y $A_2$ da cero. ¿Qué principio expresa eso?",
+    "opciones": ["Que $A_1$ y $A_2$ son en el fondo la misma representación irreducible, escrita de dos maneras distintas que se anulan al restarse.", "Que la suma de todos los caracteres que aparecen en una tabla de caracteres siempre da cero, sin importar de qué grupo se trate.", "El Gran Teorema de Ortogonalidad: las filas de dos irreps distintas son vectores ortogonales cuando cada término se pesa por el tamaño de su clase.", "Que la irrep $A_2$ tiene traza negativa en la clase de los planos $\\sigma_v$, y ese signo negativo cancela por sí solo cualquier otra fila de la tabla."],
+    "correcta": 2,
+    "explicacion": "El [[IQ-R-got|GOT]] dice que $\\sum_k g_k\\,\\chi_i(\\hat{R}_k)\\,\\chi_j(\\hat{R}_k) = h\\,\\delta_{ij}$. Para $A_1$ y $A_2$: $1(1)(1) + 2(1)(1) + 3(1)(-1) = 0$. Para $A_1$ consigo misma: $1 + 2 + 3 = 6 = h$."
+  },
+  {
+    "id": "IQ-QR-024",
+    "tarjetaId": "IQ-TG-027",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "El conteo de irreps, el corolario $\\sum l_i^2 = h$ y la fórmula de reducción parecen tres reglas sueltas. ¿De dónde salen las tres?",
+    "opciones": ["De tres mediciones espectroscópicas independientes, hechas sobre moléculas distintas, que por casualidad histórica arrojaron el mismo tipo de resultado.", "Del Gran Teorema de Ortogonalidad: las tres son consecuencias directas de que las filas de caracteres sean vectores ortogonales de norma $h$.", "De la tabla de caracteres concreta del grupo $C_{3v}$, y por eso solo son válidas para grupos que tengan exactamente tres clases de conjugación.", "De los cuatro axiomas de la definición de grupo, sin que haga falta invocar ningún teorema adicional sobre representaciones matriciales."],
+    "correcta": 1,
+    "explicacion": "El [[IQ-R-got|GOT]] es el enunciado del que se derivan las tres: la ortogonalidad de las filas fija el número de irreps, la norma $h$ da $\\sum l_i^2 = h$, y proyectar sobre cada fila da la fórmula de reducción."
+  },
+  {
+    "id": "IQ-QR-025",
+    "tarjetaId": "IQ-TG-024",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "En la representación de los tres $1s$ de H del NH₃, ¿cuánto vale el [[IQ-R-caracter|carácter]] $\\chi(\\hat{C}_3)$, y por qué?",
+    "opciones": ["Vale $0$: bajo $\\hat{C}_3$ los tres hidrógenos rotan a posiciones distintas de las suyas, ningún término de la diagonal sobrevive y la traza total es cero.", "Vale $3$, porque al haber tres átomos en la representación cada operación del grupo aporta una contribución de $+1$ por cada átomo presente.", "Vale $-1$, ya que la rotación $\\hat{C}_3$ invierte el signo de las tres funciones $1s$ a la vez al girarlas $120°$ alrededor del eje principal.", "Vale $1$, porque tras girar $120°$ uno de los tres hidrógenos queda lo bastante cerca de su posición original como para contar como fijo."],
+    "correcta": 0,
+    "explicacion": "El [[IQ-R-caracter|carácter]] es la traza de la matriz de la operación. Bajo $\\hat{C}_3$ ningún H queda fijo, así que la diagonal es toda ceros y $\\chi(\\hat{C}_3) = 0$. Bajo $\\hat{E}$: $\\chi = 3$; bajo $\\hat{\\sigma}_v$: $\\chi = 1$ (un H fijo)."
+  },
+  {
+    "id": "IQ-QR-026",
+    "tarjetaId": "IQ-TG-024",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "En la tabla de caracteres de $C_{3v}$ hay una sola columna para $2\\hat{C}_3$, no dos columnas separadas para $\\hat{C}_3$ y $\\hat{C}_3^2$. ¿Por qué es correcto agruparlas?",
+    "opciones": ["Porque $\\hat{C}_3$ y $\\hat{C}_3^2$ son la misma rotación aplicada dos veces seguidas, de modo que el carácter de la segunda es exactamente el doble del de la primera.", "Porque la convención de las tablas de caracteres solo lista las operaciones de orden par, y $\\hat{C}_3^2$ se omite por tener orden impar como $\\hat{C}_3$.", "Porque una tabla de caracteres estándar tiene espacio para un número fijo de columnas y hay que comprimir las rotaciones para que quepan todas.", "Porque $\\hat{C}_3$ y $\\hat{C}_3^2$ están en la misma clase de conjugación, y las operaciones de una misma clase tienen idéntico carácter en toda irrep."],
+    "correcta": 3,
+    "explicacion": "El [[IQ-R-caracter|carácter]] es invariante dentro de una clase de conjugación. $\\hat{C}_3$ y $\\hat{C}_3^2$ son conjugadas en $C_{3v}$ (una $\\hat{\\sigma}_v$ lleva una en la otra), así que comparten carácter y ocupan una sola columna, rotulada $2\\hat{C}_3$."
+  },
+  {
+    "id": "IQ-QR-027",
+    "tarjetaId": "IQ-TG-034",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "La fórmula de reducción dice cuántas SALC de cada simetría hay, pero no cómo son. ¿Qué herramienta cierra ese hueco?",
+    "opciones": ["Volver a aplicar la fórmula de reducción, esta vez con el signo cambiado en cada carácter, lo que despeja la forma explícita de cada SALC buscada.", "El operador de proyección: aplicado a un orbital de un ligando, devuelve directamente la SALC de la simetría que se le indique.", "El teorema de Lagrange, que fija los coeficientes de cada combinación lineal a partir del orden del subgrupo que estabiliza a ese ligando.", "La tabla de multiplicación de Cayley del grupo, cuyas filas, una vez normalizadas, ya son precisamente las SALC de la molécula."],
+    "correcta": 1,
+    "explicacion": "El [[IQ-R-proyeccion|operador de proyección]] $\\hat{P}^{(i)} = \\tfrac{l_i}{h}\\sum_{\\hat{R}} \\chi_i(\\hat{R})^{*}\\,\\hat{R}$ extrae de una función arbitraria su componente de simetría $i$. La reducción cuenta; la proyección construye."
+  },
+  {
+    "id": "IQ-QR-028",
+    "tarjetaId": "IQ-TG-036",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "Se aplica el [[IQ-R-proyeccion|operador de proyección]] $\\hat{P}^{(A_1)}$ a un orbital $1s$ de un hidrógeno del NH₃. ¿Qué SALC se obtiene?",
+    "opciones": ["El propio $1s$ de ese hidrógeno, exactamente igual y sin cambios, porque para la simetría $A_1$ el operador de proyección actúa como la identidad.", "Una combinación con un signo negativo entre dos de los tres hidrógenos y cero en el tercero, del tipo que caracteriza a las representaciones $E$.", "La suma simétrica y normalizada de los $1s$ de los tres hidrógenos, es decir la combinación $\\tfrac{1}{\\sqrt{3}}(s_a + s_b + s_c)$ con los tres coeficientes iguales y positivos.", "El resultado es exactamente cero, porque un único orbital $1s$ tomado de forma aislada no contiene ninguna componente de simetría $A_1$ que el operador pueda proyectar."],
+    "correcta": 2,
+    "explicacion": "Bajo $A_1$ todos los caracteres valen 1, así que $\\hat{P}^{(A_1)}$ suma las imágenes de $s_a$ bajo todas las operaciones: se obtienen los tres $1s$ con el mismo signo, que normalizados dan $\\tfrac{1}{\\sqrt{3}}(s_a + s_b + s_c)$."
+  },
+  {
+    "id": "IQ-QR-029",
+    "tarjetaId": "IQ-TG-037",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "El $2s$ del nitrógeno del NH₃ transforma como $A_1$. ¿Con cuál de las SALC de los hidrógenos puede formar enlace $\\sigma$?",
+    "opciones": ["Con las dos SALC del par $E$ a la vez, porque el orbital $2s$ es esférico y solapa por igual con cualquier combinación de los tres hidrógenos.", "Con ninguna de las SALC: un orbital $s$ carece de la direccionalidad que hace falta para dar un solapamiento de enlace $\\sigma$ efectivo.", "Con la SALC $A_1$ y también con las dos SALC $E$, ya que el $2s$ está claramente más bajo en energía que todas ellas y las tres se estabilizan.", "Solo con la SALC $A_1$ de los tres hidrógenos, porque por la regla de oro de la simetría dos funciones combinan si y solo si transforman como una misma representación irreducible."],
+    "correcta": 3,
+    "explicacion": "La [[IQ-R-regla-oro|regla de oro]] es exacta: el solapamiento entre funciones de irreps distintas es cero por simetría. El $2s$ ($A_1$) solo se mezcla con la SALC $A_1$; con las SALC $E$ el solapamiento se anula sin importar la energía."
+  },
+  {
+    "id": "IQ-QR-030",
+    "tarjetaId": "IQ-TG-037",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "En un $XH_3$ plano hipotético ($D_{3h}$), el $p_z$ del átomo central es $A_2''$ y las SALC de los tres H (de $1s$) son $A_1' \\oplus E'$. ¿Qué le pasa a ese $p_z$?",
+    "opciones": ["Queda no enlazante: por la regla de oro de la simetría necesitaría una SALC de tipo $A_2''$ para enlazar, y entre las de los hidrógenos no hay ninguna de esa simetría.", "Se mezcla con la SALC $A_1'$ de los hidrógenos, dado que ambas son totalmente simétricas respecto al eje $C_3$ de la molécula plana.", "Forma un enlace $\\pi$ deslocalizado con las tres SALC de los hidrógenos a la vez, repartiendo su densidad electrónica por igual entre las tres.", "Se transforma en una función de simetría $E'$ al acercarse a los hidrógenos, y entonces sí puede combinarse con las SALC de ese par."],
+    "correcta": 0,
+    "explicacion": "Las SALC de $1s$ de los H solo pueden ser primadas ($A_1', E'$). El $p_z$ del centro es $A_2''$, y por la [[IQ-R-regla-oro|regla de oro]] su solapamiento con cualquier función que no sea $A_2''$ es exactamente cero: queda no enlazante."
+  },
+  {
+    "id": "IQ-QR-031",
+    "tarjetaId": "IQ-TG-050",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "Según la [[IQ-R-cnv-diagonal|regla para rotaciones en la base compleja]], ¿qué le hace una rotación $\\hat{C}_n(\\alpha)$ alrededor del eje principal a un armónico esférico $Y_{l,m}$?",
+    "opciones": ["Lo mezcla con $Y_{l,-m}$, de modo que para cada valor de $|m|$ aparece una matriz $2 \\times 2$ no diagonal que hay que diagonalizar aparte.", "Lo multiplica por el número $e^{im\\alpha}$ sin mezclarlo con ningún otro armónico, y esto vale para cualquier valor del número cuántico $l$.", "Lo deja prácticamente igual salvo por un desfase pequeño que solo llega a ser apreciable en el caso de los orbitales p, con $l = 1$.", "Lo transforma en el armónico $Y_{l+1,m}$, subiendo en una unidad el número cuántico angular $l$ cada vez que se aplica una rotación completa."],
+    "correcta": 1,
+    "explicacion": "Como $Y_{l,m} \\propto e^{im\\phi}$ y $\\hat{C}_n$ solo hace $\\phi \\to \\phi + \\alpha$, cada orbital se multiplica por $e^{im\\alpha}$: la [[IQ-R-cnv-diagonal|matriz de la rotación es diagonal]] para todo $l$. Solo las reflexiones y los $\\hat{C}_2'$ mezclan $+m$ con $-m$."
+  },
+  {
+    "id": "IQ-QR-032",
+    "tarjetaId": "IQ-TG-052",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "Se necesita clasificar orbitales $f$ ($l = 3$) de un lantánido bajo un grupo $D_{nh}$. ¿Qué hay que hacer con la [[IQ-R-formula-maestra|fórmula maestra]]?",
+    "opciones": ["Deducir desde cero un juego de reglas nuevo, porque la fórmula maestra solo fue derivada para orbitales con $l \\le 2$ y no se extiende más allá.", "Añadir un término de corrección relativista a cada línea, un paso que se vuelve obligatorio para todos los elementos pesados de la tabla periódica.", "Usar exactamente las mismas cinco líneas sustituyendo $l = 3$, porque la derivación de la fórmula nunca dependió del valor concreto de $l$.", "Convertir primero los orbitales $f$ a una base de funciones reales, ya que la fórmula maestra solo está definida para orbitales reales y no complejos."],
+    "correcta": 2,
+    "explicacion": "La [[IQ-R-formula-maestra|fórmula maestra]] sale de la dependencia $e^{im\\phi}$ y de la paridad de Legendre, propiedades de todos los armónicos esféricos. Para orbitales $f$ se sustituye $l = 3$ en las mismas líneas, sin nada nuevo que derivar."
+  },
+  {
+    "id": "IQ-QR-033",
+    "tarjetaId": "IQ-TG-059",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "En un análisis vibracional $3N$ cartesiano, ¿cuánto aporta al carácter cada átomo que no se mueve bajo la operación identidad $\\hat{E}$?",
+    "opciones": ["Aporta $+3$, la traza de la matriz identidad $3 \\times 3$, porque cada átomo que permanece fijo contribuye con sus tres grados de libertad direccionales.", "Aporta $+1$, exactamente igual que en el método de coordenadas internas, ya que la operación identidad por definición no cambia nada de la molécula.", "Aporta $0$, dado que bajo la operación identidad ningún átomo llega a desplazarse y por tanto no hay ninguna contribución que sumar al carácter.", "Aporta $+9$, contando tres grados de libertad direccionales por cada uno de los tres ejes cartesianos $x$, $y$ y $z$ del sistema de referencia."],
+    "correcta": 0,
+    "explicacion": "La [[IQ-R-atomo-fijo|contribución de un átomo fijo]] es la traza de la matriz $3\\times3$ de la operación. Para $\\hat{E}$ esa matriz es la identidad, de traza $3$. La fórmula general $1 + 2\\cos\\theta$ con $\\theta = 0$ también da $3$."
+  },
+  {
+    "id": "IQ-QR-034",
+    "tarjetaId": "IQ-TG-059",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "Al pasar de coordenadas internas al método $3N$ cartesiano, un átomo fijo ya no aporta un simple $+1$ al carácter. ¿Por qué cambia?",
+    "opciones": ["Porque el método cartesiano exige dividir cada contribución entre la masa del átomo correspondiente, y ese factor de masa escala el valor del carácter.", "Porque las coordenadas internas se construyen a partir de ángulos y las cartesianas a partir de distancias, magnitudes que entran con signos opuestos.", "Porque al pasar a cartesianas el número efectivo de átomos de la molécula se triplica, y hay que compensar ese triple conteo en cada operación.", "Porque un desplazamiento cartesiano $(\\delta x, \\delta y, \\delta z)$ tiene dirección, y hay que contar cómo transforma ese vector: es la traza de una matriz $3\\times3$, no un escalar."],
+    "correcta": 3,
+    "explicacion": "Una coordenada interna es un número sin dirección, así que un átomo fijo contribuye $+1$. Un desplazamiento cartesiano es un vector, y la [[IQ-R-atomo-fijo|contribución]] es la traza de la matriz de rotación o reflexión que actúa sobre él: $1 + 2\\cos\\theta$ para $\\hat{C}_n$."
+  },
+  {
+    "id": "IQ-QR-035",
+    "tarjetaId": "IQ-TG-060",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "Para el H₂O en $C_{2v}$ ($z \\to A_1$, $x \\to B_1$, $y \\to B_2$), ¿cuál es $\\Gamma_{\\text{tras}}$, y de dónde se lee?",
+    "opciones": ["Es $3A_1$, porque trasladar la molécula completa la desplaza tres veces a lo largo de la dirección marcada por el eje principal de simetría.", "Es $A_1 \\oplus A_2 \\oplus B_1$, con una traslación asignada a cada eje cartesiano y rotulada con las tres primeras irreps de la tabla en orden.", "Es $A_1 \\oplus B_1 \\oplus B_2$, que se lee directamente de la fila $(x, y, z)$ de la tabla de caracteres del grupo $C_{2v}$.", "No se puede leer de la tabla de caracteres: hay que calcular $\\Gamma_{\\text{tras}}$ aparte, con su propio conteo de átomos que quedan fijos en cada operación."],
+    "correcta": 2,
+    "explicacion": "La [[IQ-R-tras-rot|traslación de toda la molécula]] se transforma como el vector $(x, y, z)$. En $C_{2v}$: $x \\to B_1$, $y \\to B_2$, $z \\to A_1$, así que $\\Gamma_{\\text{tras}} = A_1 \\oplus B_1 \\oplus B_2$, sin ningún cálculo aparte."
+  },
+  {
+    "id": "IQ-QR-036",
+    "tarjetaId": "IQ-TG-061",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "Al calcular $\\Gamma_{\\text{vib}}$ del H₂O, alguien resta la fila $(R_x, R_y, R_z)$ dos veces y omite por completo la fila $(x, y, z)$. ¿Qué le pasa al resultado?",
+    "opciones": ["No le pasa nada: como en $C_{2v}$ ambas filas suman el mismo conjunto de irreps, el resultado final de $\\Gamma_{\\text{vib}}$ coincide de todas formas.", "Le sale mal el número de modos vibracionales, porque estaría restando rotación de más y traslación de menos, y las dos filas difieren en $A_1$ y $A_2$.", "Le aparece un factor de 2 extra en la dimensión total de la representación, que se corrige normalizando los coeficientes al final del cálculo.", "El resultado sigue siendo $2A_1 \\oplus B_2$, solo que con las etiquetas de simetría de los tres modos intercambiadas entre sí por el error."],
+    "correcta": 1,
+    "explicacion": "Hay que restar una vez $\\Gamma_{\\text{tras}} = (x,y,z)$ y una vez $\\Gamma_{\\text{rot}} = (R_x,R_y,R_z)$. En $C_{2v}$ son $A_1 \\oplus B_1 \\oplus B_2$ y $A_2 \\oplus B_1 \\oplus B_2$: difieren en $A_1$ y $A_2$. Equivocar la fila cambia qué irreps quedan."
+  },
+  {
+    "id": "IQ-QR-037",
+    "tarjetaId": "IQ-TG-042",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "Sin contar operación por operación, ¿cómo se obtiene el orden de [[IQ-R-dnh-cs|$D_{3h}$]] a partir del de $C_{3v}$?",
+    "opciones": ["Sumándole 6 al orden de $C_{3v}$, uno por cada operación impropia nueva que el plano horizontal $\\hat{\\sigma}_h$ introduce en la familia $D_{nh}$.", "Elevando el orden de $C_{3v}$ al cuadrado y dividiendo entre el orden de $C_s$, es decir $|D_{3h}| = |C_{3v}|^2 / |C_s|$, lo que da 18.", "Multiplicando el orden de $C_{3v}$ por el número de ejes $\\hat{C}_2'$ del grupo, que en $D_{3h}$ son tres, de modo que $6 \\times 3 = 18$.", "Multiplicando por 2 el orden de $C_{3v}$, porque $D_{3h} \\cong C_{3v} \\times C_s$ y el factor $C_s$ tiene orden 2, de manera que $|D_{3h}| = 2 \\times 6 = 12$, justo el doble."],
+    "correcta": 3,
+    "explicacion": "El orden de un producto directo es el producto de los órdenes. Como [[IQ-R-dnh-cs|$D_{nh} \\cong C_{nv} \\times C_s$]] y $C_s = \\{\\hat{E}, \\hat{\\sigma}_h\\}$ tiene orden 2, siempre resulta $|D_{nh}| = 2\\,|C_{nv}|$."
+  },
+  {
+    "id": "IQ-QR-038",
+    "tarjetaId": "IQ-TG-043",
+    "categoria": "teoria_grupos",
+    "formato": "mcq",
+    "enunciado": "¿Por qué [[IQ-R-dnh-cs|$D_{3h}$]] tiene exactamente el doble de representaciones irreducibles que $C_{3v}$?",
+    "opciones": ["Porque $D_{3h} \\cong C_{3v} \\times C_s$ y $C_s$ aporta dos irreps propias (simétrica y antisimétrica bajo $\\hat{\\sigma}_h$), así que cada irrep de $C_{3v}$ se desdobla en dos.", "Porque $D_{3h}$ tiene el doble de operaciones que $C_{3v}$, y en cualquier grupo el número de irreps es siempre exactamente la mitad de su orden.", "Porque añadir los tres ejes $\\hat{C}_2'$ perpendiculares crea una imagen especular de cada una de las representaciones irreducibles originales.", "Porque en $D_{3h}$ la representación bidimensional $E$ se cuenta dos veces por separado, una por cada componente de su degeneración doble."],
+    "correcta": 0,
+    "explicacion": "El número de irreps de un producto directo es el producto del de cada factor. $C_{3v}$ tiene 3 irreps y $C_s$ tiene 2, así que [[IQ-R-dnh-cs|$D_{3h}$]] tiene $3 \\times 2 = 6$: cada una en versión primada ($'$, $+1$ bajo $\\hat{\\sigma}_h$) y doble prima ($''$, $-1$)."
   }
 ]

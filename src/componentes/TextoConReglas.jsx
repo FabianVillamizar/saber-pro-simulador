@@ -291,7 +291,7 @@ function ReglaPopover({ regla, anchor, pinned, saliendo, onCerrar }) {
             </button>
           )}
         </span>
-        <span className="rc-pop-titulo">{regla.titulo}</span>
+        <span className="rc-pop-titulo" dangerouslySetInnerHTML={katexInline(regla.titulo)} />
         <span className="rc-pop-cuerpo" dangerouslySetInnerHTML={katexInline(regla.cuerpo)} />
         {desarrollo && regla.formula && (
           <span className="rc-pop-formula" dangerouslySetInnerHTML={katexBloque(regla.formula)} />

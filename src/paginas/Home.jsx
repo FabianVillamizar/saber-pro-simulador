@@ -19,6 +19,14 @@ import { GateAcceso } from '../componentes/GateAcceso.jsx'
 import { IconoCalendario, IconoFlechaDerecha, IconoEngranaje, IconoCandado } from '../componentes/iconos.jsx'
 import './Home.css'
 
+// Sección "Universidad": trabajo académico/de investigación propio de
+// Fabián dentro de la universidad (semillero, posgrado, tesis), distinto
+// del grid oficial del Saber Pro y de Français (proyecto de vida personal,
+// se queda como tarjeta restringida aparte). Ver la bitácora de Inorgánica.
+// `quimica-completa` ("Tesis") no está en indiceModulos.js, así que se
+// añade a esta sección por su propio camino (el botón de mapa de química).
+const MODULOS_UNIVERSIDAD = new Set(['diosgenina', 'inorganica'])
+
 function etiquetaRelativa(clave) {
   if (!clave) return null
   const dias = diferenciaDias(fechaDesdeClave(clave), new Date())
@@ -92,12 +100,48 @@ export function Home({ perfil, onCambiarPerfil, onAbrirModulo, onIrADirecto, onI
   // array para otros perfiles/invitado — no aparecen en el grid ni cuentan
   // para el promedio general, en vez de mostrarse bloqueados.
   const modulos = listarModulos().filter((m) => esVisibleParaPerfil(m.id, perfil))
-  const disponibles = modulos.filter((m) => m.disponible)
+  const modulosSaberPro = modulos.filter((m) => !MODULOS_UNIVERSIDAD.has(m.id))
+  const modulosUniversidad = modulos.filter((m) => MODULOS_UNIVERSIDAD.has(m.id))
+  const tesisVisible = esVisibleParaPerfil('quimica-completa', perfil)
+  // El "promedio general" acompaña al encabezado "Tus módulos", así que
+  // solo cuenta los módulos del Saber Pro — los de Universidad tienen su
+  // propia sección y no son parte de esa métrica.
+  const disponibles = modulosSaberPro.filter((m) => m.disponible)
   const overallAvg = disponibles.length
     ? Math.round(
         disponibles.reduce((suma, m) => suma + (dominioPorModulo[m.id]?.pct ?? 0), 0) / disponibles.length
       )
     : 0
+
+  const renderTarjetaModulo = (m) => {
+    const dominio = dominioPorModulo[m.id]
+    const pct = dominio?.pct ?? 0
+    const bloqueado = m.disponible && !moduloDesbloqueado(perfil.id, m.id)
+    return (
+      <article
+        key={m.id}
+        className={`modulo-tarjeta${m.disponible ? '' : ' modulo-tarjeta--bloqueada'}`}
+        onClick={() => {
+          if (!m.disponible) return
+          if (bloqueado) setMostrandoGate(m.id)
+          else onAbrirModulo(m.id)
+        }}
+      >
+        <div className="modulo-tarjeta-monograma">{m.monograma}</div>
+        <div className="modulo-tarjeta-info">
+          <div className="modulo-tarjeta-nombre">{m.nombre}</div>
+          <div className="modulo-tarjeta-meta">
+            {!m.disponible
+              ? 'Próximamente'
+              : bloqueado
+                ? 'Toca para desbloquear'
+                : `${dominio?.hechas ?? 0}/${dominio?.total ?? 0} tarjetas${m.id === 'ingles' && ultimaRevision ? ` · ${ultimaRevision}` : ''}`}
+          </div>
+        </div>
+        {m.disponible && (bloqueado ? <IconoCandado color="var(--text-faint)" /> : <AnilloProgreso porcentaje={pct} />)}
+      </article>
+    )
+  }
 
   const hayPendientes = pendientesIngles > 0
   const totalTarjetasIngles = ingles?.tarjetasConcepto.length ?? 0
@@ -172,50 +216,31 @@ export function Home({ perfil, onCambiarPerfil, onAbrirModulo, onIrADirecto, onI
           <div className="dashboard-modulos-avg">{overallAvg}% promedio general</div>
         </div>
 
-        <div className="dashboard-modulos-grid">
-          {modulos.map((m) => {
-            const dominio = dominioPorModulo[m.id]
-            const pct = dominio?.pct ?? 0
-            const bloqueado = m.disponible && !moduloDesbloqueado(perfil.id, m.id)
-            return (
-              <article
-                key={m.id}
-                className={`modulo-tarjeta${m.disponible ? '' : ' modulo-tarjeta--bloqueada'}`}
-                onClick={() => {
-                  if (!m.disponible) return
-                  if (bloqueado) setMostrandoGate(m.id)
-                  else onAbrirModulo(m.id)
-                }}
-              >
-                <div className="modulo-tarjeta-monograma">{m.monograma}</div>
-                <div className="modulo-tarjeta-info">
-                  <div className="modulo-tarjeta-nombre">{m.nombre}</div>
-                  <div className="modulo-tarjeta-meta">
-                    {!m.disponible
-                      ? 'Próximamente'
-                      : bloqueado
-                        ? 'Toca para desbloquear'
-                        : `${dominio?.hechas ?? 0}/${dominio?.total ?? 0} tarjetas${m.id === 'ingles' && ultimaRevision ? ` · ${ultimaRevision}` : ''}`}
+        <div className="dashboard-modulos-grid">{modulosSaberPro.map(renderTarjetaModulo)}</div>
+
+        {(modulosUniversidad.length > 0 || tesisVisible) && (
+          <>
+            <div className="dashboard-modulos-header dashboard-universidad-header">
+              <div className="dashboard-modulos-titulo">Universidad</div>
+              <div className="dashboard-universidad-sub">Semillero · posgrado · tesis</div>
+            </div>
+            {modulosUniversidad.length > 0 && (
+              <div className="dashboard-modulos-grid">{modulosUniversidad.map(renderTarjetaModulo)}</div>
+            )}
+            {tesisVisible && (
+              <button type="button" className="tarjeta-mapa-quimica" onClick={onIrAMapaQuimica}>
+                <div className="tarjeta-mapa-quimica-info">
+                  <div className="tarjeta-mapa-quimica-etiqueta">Sin tarjetas todavía · solo la estructura</div>
+                  <div className="tarjeta-mapa-quimica-titulo">Tesis</div>
+                  <div className="tarjeta-mapa-quimica-desc">
+                    El mapa curricular de las 8 ramas de química organizado por qué explica qué — la hoja de ruta antes
+                    de construir el contenido.
                   </div>
                 </div>
-                {m.disponible && (bloqueado ? <IconoCandado color="var(--text-faint)" /> : <AnilloProgreso porcentaje={pct} />)}
-              </article>
-            )
-          })}
-        </div>
-
-        {esVisibleParaPerfil('quimica-completa', perfil) && (
-          <button type="button" className="tarjeta-mapa-quimica" onClick={onIrAMapaQuimica}>
-            <div className="tarjeta-mapa-quimica-info">
-              <div className="tarjeta-mapa-quimica-etiqueta">Fuera del Saber Pro · sin tarjetas todavía</div>
-              <div className="tarjeta-mapa-quimica-titulo">Tesis</div>
-              <div className="tarjeta-mapa-quimica-desc">
-                El mapa curricular de las 8 ramas de química organizado por qué explica qué — la hoja de ruta antes
-                de construir el contenido.
-              </div>
-            </div>
-            <IconoFlechaDerecha size={15} color="var(--text-sub)" />
-          </button>
+                <IconoFlechaDerecha size={15} color="var(--text-sub)" />
+              </button>
+            )}
+          </>
         )}
 
         <PanelProgreso />

@@ -164,7 +164,7 @@ for (const r of reglas) {
     console.log(`FAIL variante "desarrollo" sin formula ni tabla: ${r.id}`)
     erroresReglas++
   }
-  for (const campo of ['cuerpo', 'ejemplo']) {
+  for (const campo of ['titulo', 'cuerpo', 'ejemplo']) {
     if (r[campo]) revisarSpansMath(r[campo], `${r.id}.${campo}`)
   }
   if (r.formula && !compilaKatex(r.formula, `${r.id}.formula`)) erroresReglas++
@@ -180,6 +180,28 @@ for (const r of reglas) {
   }
 }
 console.log(`\n${reglas.length} reglas en el rulebook`)
+
+// Referencias [[id-regla]] dentro de las tarjetas de concepto: cada token
+// tiene que resolver a una regla del rulebook, y su texto visible no debe
+// traer LaTeX (se renderiza tal cual, no pasa por KaTeX).
+const PATRON_TOKEN_TARJETA = /\[\[([^\]|]+?)(?:\|([^\]]*?))?\]\]/g
+for (const t of tarjetas) {
+  for (const campo of CAMPOS_TEXTO) {
+    const valor = t[campo]
+    if (!valor) continue
+    for (const m of valor.matchAll(PATRON_TOKEN_TARJETA)) {
+      const id = m[1].trim()
+      if (!idsRegla.has(id)) {
+        console.log(`FAIL ${t.id}.${campo}: [[${id}]] no existe en iq_reglas.json`)
+        erroresReglas++
+      }
+      if (m[2] && m[2].includes('$')) {
+        console.log(`FAIL ${t.id}.${campo}: el texto visible de [[${id}]] contiene LaTeX ("${m[2]}")`)
+        erroresReglas++
+      }
+    }
+  }
+}
 
 // ===========================================================================
 // Banco de Quiz Rápido — src/data/inorganica/iq_quiz_rapido.json
@@ -263,6 +285,38 @@ console.log(
   `\n${mcq.length} ítems mcq de Quiz Rápido · posiciones ${JSON.stringify(conteoPos)} · correcta-más-larga ${correctaMasLarga}/${mcq.length}`,
 )
 
-errores += erroresReglas + erroresQuiz
+// ===========================================================================
+// Casos de "Lápiz y papel" — src/data/inorganica/iq_tg_lapiz_papel.json
+// (ver PracticarLapizPapel.jsx). Exactamente una opción correcta por caso,
+// campos obligatorios presentes, y cada $...$ compila en KaTeX.
+// ===========================================================================
+const RUTA_LP = new URL('../src/data/inorganica/iq_tg_lapiz_papel.json', import.meta.url)
+const casos = JSON.parse(readFileSync(RUTA_LP, 'utf-8'))
+const CAMPOS_LP = ['enunciado', 'promptFase1', 'labelHerramienta', 'porQue', 'enfoqueCorto', 'respuesta', 'desarrollo']
+let erroresLP = 0
+for (const c of casos) {
+  for (const campo of CAMPOS_LP) {
+    if (!c[campo]) {
+      console.log(`FAIL ${c.id}: falta el campo obligatorio "${campo}"`)
+      erroresLP++
+      continue
+    }
+    revisarSpansMathQuiz(c[campo], `${c.id}.${campo}`)
+  }
+  if (c.formula && !compilaKatex(c.formula, `${c.id}.formula`)) erroresLP++
+  const correctas = (c.opciones ?? []).filter((o) => o.correcta).length
+  if (correctas !== 1) {
+    console.log(`FAIL ${c.id}: tiene ${correctas} opciones marcadas correcta (debe ser exactamente 1)`)
+    erroresLP++
+  }
+  ;(c.opciones ?? []).forEach((o, i) => revisarSpansMathQuiz(o.texto, `${c.id}.opciones[${i}]`))
+  if (!c.promptFase1) {
+    console.log(`FAIL ${c.id}: sin promptFase1, el loader no lo enruta a lapizPapel`)
+    erroresLP++
+  }
+}
+console.log(`\n${casos.length} casos de Lápiz y papel`)
+
+errores += erroresReglas + erroresQuiz + erroresLP
 console.log(errores === 0 ? '\nOK — 0 errores' : `\n${errores} error(es) encontrados`)
 process.exit(errores === 0 ? 0 : 1)
