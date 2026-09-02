@@ -113,17 +113,25 @@ export function PracticarLapizPapel({ moduloId, perfil, onCambiarPerfil, onVolve
       </div>
 
       <div className="practicar-lp-cuerpo">
-        <div className="practicar-lp-nota">
-          <svg width="16" height="16" viewBox="0 0 16 16" className="practicar-lp-nota-icono">
-            <circle cx="8" cy="8" r="7" fill="none" stroke="var(--text-sub)" strokeWidth="1.4" />
-            <line x1="8" y1="7" x2="8" y2="11.5" stroke="var(--text-sub)" strokeWidth="1.5" strokeLinecap="round" />
-            <circle cx="8" cy="4.7" r="0.9" fill="var(--text-sub)" />
-          </svg>
-          <div>
-            El ICFES advierte que no pedirá operaciones extenuantes. Aquí no se cronometra la cuenta: se practica{' '}
-            <b>reconocer el enfoque</b> antes de calcular nada.
+        {/* La nota sobre el ICFES ("no pedirá operaciones extenuantes",
+            "no se cronometra") solo tiene sentido en Razonamiento
+            Cuantitativo, el único módulo de examen que usa este modo. En
+            los módulos que no son del ICFES (Habilidades de Laboratorio,
+            Inorgánica) se omite — las dos fases de abajo ya explican el
+            flujo. */}
+        {moduloId === 'razonamiento-cuantitativo' && (
+          <div className="practicar-lp-nota">
+            <svg width="16" height="16" viewBox="0 0 16 16" className="practicar-lp-nota-icono">
+              <circle cx="8" cy="8" r="7" fill="none" stroke="var(--text-sub)" strokeWidth="1.4" />
+              <line x1="8" y1="7" x2="8" y2="11.5" stroke="var(--text-sub)" strokeWidth="1.5" strokeLinecap="round" />
+              <circle cx="8" cy="4.7" r="0.9" fill="var(--text-sub)" />
+            </svg>
+            <div>
+              El ICFES advierte que no pedirá operaciones extenuantes. Aquí no se cronometra la cuenta: se practica{' '}
+              <b>reconocer el enfoque</b> antes de calcular nada.
+            </div>
           </div>
-        </div>
+        )}
 
         <div className="practicar-lp-fases">
           <div className="practicar-lp-fase-item">

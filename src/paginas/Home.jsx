@@ -25,7 +25,7 @@ import './Home.css'
 // se queda como tarjeta restringida aparte). Ver la bitácora de Inorgánica.
 // `quimica-completa` ("Tesis") no está en indiceModulos.js, así que se
 // añade a esta sección por su propio camino (el botón de mapa de química).
-const MODULOS_UNIVERSIDAD = new Set(['diosgenina', 'inorganica'])
+const MODULOS_UNIVERSIDAD = new Set(['diosgenina', 'inorganica', 'habilidades-laboratorio'])
 
 function etiquetaRelativa(clave) {
   if (!clave) return null
