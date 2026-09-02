@@ -182,8 +182,10 @@ for (const r of reglas) {
 console.log(`\n${reglas.length} reglas en el rulebook`)
 
 // Referencias [[id-regla]] dentro de las tarjetas de concepto: cada token
-// tiene que resolver a una regla del rulebook, y su texto visible no debe
-// traer LaTeX (se renderiza tal cual, no pasa por KaTeX).
+// tiene que resolver a una regla del rulebook. El texto visible del token
+// puede traer `$...$` (TextoConReglas lo renderiza con KaTeX, igual que
+// cualquier otro fragmento) y sus spans ya se validan en el bloque de
+// KaTeX de arriba junto con el resto del campo.
 const PATRON_TOKEN_TARJETA = /\[\[([^\]|]+?)(?:\|([^\]]*?))?\]\]/g
 for (const t of tarjetas) {
   for (const campo of CAMPOS_TEXTO) {
@@ -193,10 +195,6 @@ for (const t of tarjetas) {
       const id = m[1].trim()
       if (!idsRegla.has(id)) {
         console.log(`FAIL ${t.id}.${campo}: [[${id}]] no existe en iq_reglas.json`)
-        erroresReglas++
-      }
-      if (m[2] && m[2].includes('$')) {
-        console.log(`FAIL ${t.id}.${campo}: el texto visible de [[${id}]] contiene LaTeX ("${m[2]}")`)
         erroresReglas++
       }
     }

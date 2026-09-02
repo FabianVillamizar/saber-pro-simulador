@@ -2,7 +2,7 @@ import { createContext, useCallback, useContext, useEffect, useId, useLayoutEffe
 import { createPortal } from 'react-dom'
 import katex from 'katex'
 import 'katex/dist/katex.min.css'
-import { PATRON as PATRON_FORMULAS, renderizarFragmento } from './textoFragmentos.jsx'
+import { PATRON as PATRON_FORMULAS, renderizarFragmento, renderizarTextoInline } from './textoFragmentos.jsx'
 import './TextoConReglas.css'
 
 // Capa "Reglas en contexto" (piloto Inorgánica, ver la bitácora del
@@ -355,7 +355,7 @@ function DisparadorRegla({ regla, texto, clave }) {
         fijar(clave)
       }}
     >
-      {texto}
+      {renderizarTextoInline(texto, `${clave}-txt`)}
       <span className="rc-disp-punto" aria-hidden="true">
         ●
       </span>
@@ -391,7 +391,7 @@ function renderizarParrafo(parrafo, prefijo, reglasPorId, uid) {
         const { id, texto } = parsearToken(frag)
         const regla = reglasPorId && reglasPorId.get(id)
         if (regla) return <DisparadorRegla key={clave} regla={regla} texto={texto} clave={`${uid}-${clave}`} />
-        return <span key={clave}>{texto}</span>
+        return <span key={clave}>{renderizarTextoInline(texto, clave)}</span>
       }
       return renderizarFragmento(frag, clave)
     })

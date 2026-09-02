@@ -32,3 +32,16 @@ export function renderizarFragmento(fragmento, key) {
   }
   return <span key={key}>{fragmento}</span>
 }
+
+// Renderiza una cadena suelta con los mismos fragmentos inline (`$...$`,
+// `**negrita**`) — para contextos donde el texto no pasa por el split
+// principal de un párrafo, como el texto visible de un disparador de
+// regla en TextoConReglas. Sin ningún fragmento especial devuelve el
+// texto tal cual, así que es seguro usarlo en cualquier etiqueta.
+export function renderizarTextoInline(texto, prefijo = 't') {
+  if (texto == null || texto === '') return null
+  return String(texto)
+    .split(PATRON)
+    .filter((parte) => parte !== '')
+    .map((frag, i) => renderizarFragmento(frag, `${prefijo}-${i}`))
+}

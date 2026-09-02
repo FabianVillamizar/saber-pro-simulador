@@ -145,7 +145,7 @@
     "categoria": "teoria_grupos",
     "formato": "mcq",
     "enunciado": "Usando la [[IQ-R-legendre|paridad de Legendre]], ¿cómo transforma el orbital $p_z$ ($l = 1$, $m = 0$) bajo el plano horizontal $\\hat{\\sigma}_h$?",
-    "opciones": ["Se convierte en el orbital $p_x$, porque $\\hat{\\sigma}_h$ equivale a una rotación de $90°$ del orbital dentro del plano ecuatorial.", "No cambia en absoluto, porque $p_z$ está dirigido a lo largo del eje principal y el plano $\\hat{\\sigma}_h$ lo deja invariante.", "Cambia de signo, ya que $(-1)^{l+m} = (-1)^{1+0} = -1$; es antisimétrico bajo $\\hat{\\sigma}_h$ y en $D_{3h}$ clasifica como $A_2''$.", "Se anula por completo, porque $\\hat{\\sigma}_h$ superpone el lóbulo positivo de $p_z$ sobre el negativo y ambos se cancelan."],
+    "opciones": ["Se convierte en el orbital $p_x$, porque $\\hat{\\sigma}_h$ equivale a una rotación de 90° del orbital dentro del plano ecuatorial.", "No cambia en absoluto, porque $p_z$ está dirigido a lo largo del eje principal y el plano $\\hat{\\sigma}_h$ lo deja invariante.", "Cambia de signo, ya que $(-1)^{l+m} = (-1)^{1+0} = -1$; es antisimétrico bajo $\\hat{\\sigma}_h$ y en $D_{3h}$ clasifica como $A_2''$.", "Se anula por completo, porque $\\hat{\\sigma}_h$ superpone el lóbulo positivo de $p_z$ sobre el negativo y ambos se cancelan."],
     "correcta": 2,
     "explicacion": "La [[IQ-R-legendre|regla]] da el factor $(-1)^{l+m}$. Para $p_z$: $(-1)^1 = -1$, así que el orbital cambia de signo bajo $\\hat{\\sigma}_h$, es doble prima, y en $D_{3h}$ es $A_2''$ (la fila que lleva la etiqueta $z$)."
   },
@@ -245,7 +245,7 @@
     "categoria": "teoria_grupos",
     "formato": "mcq",
     "enunciado": "En la representación de los tres $1s$ de H del NH₃, ¿cuánto vale el [[IQ-R-caracter|carácter]] $\\chi(\\hat{C}_3)$, y por qué?",
-    "opciones": ["Vale $0$: bajo $\\hat{C}_3$ los tres hidrógenos rotan a posiciones distintas de las suyas, ningún término de la diagonal sobrevive y la traza total es cero.", "Vale $3$, porque al haber tres átomos en la representación cada operación del grupo aporta una contribución de $+1$ por cada átomo presente.", "Vale $-1$, ya que la rotación $\\hat{C}_3$ invierte el signo de las tres funciones $1s$ a la vez al girarlas $120°$ alrededor del eje principal.", "Vale $1$, porque tras girar $120°$ uno de los tres hidrógenos queda lo bastante cerca de su posición original como para contar como fijo."],
+    "opciones": ["Vale $0$: bajo $\\hat{C}_3$ los tres hidrógenos rotan a posiciones distintas de las suyas, ningún término de la diagonal sobrevive y la traza total es cero.", "Vale $3$, porque al haber tres átomos en la representación cada operación del grupo aporta una contribución de $+1$ por cada átomo presente.", "Vale $-1$, ya que la rotación $\\hat{C}_3$ invierte el signo de las tres funciones $1s$ a la vez al girarlas 120° alrededor del eje principal.", "Vale $1$, porque tras girar 120° uno de los tres hidrógenos queda lo bastante cerca de su posición original como para contar como fijo."],
     "correcta": 0,
     "explicacion": "El [[IQ-R-caracter|carácter]] es la traza de la matriz de la operación. Bajo $\\hat{C}_3$ ningún H queda fijo, así que la diagonal es toda ceros y $\\chi(\\hat{C}_3) = 0$. Bajo $\\hat{E}$: $\\chi = 3$; bajo $\\hat{\\sigma}_v$: $\\chi = 1$ (un H fijo)."
   },
