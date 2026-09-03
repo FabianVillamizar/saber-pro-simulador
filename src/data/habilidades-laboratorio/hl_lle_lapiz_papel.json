@@ -574,5 +574,113 @@
     "atajoCosto": "ordenar 5 reactivos por mecanismo (intercambio → ácido → reductor → oxidante → digestión total)",
     "brutoCosto": "hacer una sola digestión total y quedarse solo con el cadmio total, sin ninguna información de movilidad",
     "notaAtajo": "Reconocer que cada reactivo apunta a una fase del suelo distinta convierte cinco extracciones en un perfil de biodisponibilidad; una digestión única daría solo un número."
+  },
+  {
+    "id": "HL-LP-017",
+    "bloque": "EFICIENCIA-EXTRACCION",
+    "subcategoria": "Extracción Líquido-Líquido",
+    "tipo": "trampa",
+    "enunciado": "Un compañero hace una sola extracción de un ácido orgánico entre 25 mL de fase acuosa y 25 mL de solvente, calcula $f_1 = 0.30$ con la fórmula de una etapa, y anota en la bitácora: «recuperación del 30 % hacia la fase orgánica, hay que repetir». ¿Qué conviene revisar antes de aceptar esa conclusión?",
+    "promptFase1": "Sin recalcular nada todavía, ¿qué te piden reconocer?",
+    "opciones": [
+      {
+        "texto": "Qué representa $f_1$: es la fracción que se queda en el agua, así que ya se extrajo el 70 %, no el 30 %",
+        "correcta": true
+      },
+      {
+        "texto": "Si los 25 mL de cada fase se midieron con la misma probeta, porque un error de volumen cambia el valor de $f_1$",
+        "correcta": false
+      },
+      {
+        "texto": "Si el $K_D$ que usó viene de una tabla a otra temperatura, lo que desplazaría el reparto real del sistema",
+        "correcta": false
+      },
+      {
+        "texto": "Si el ácido se ioniza al pH de trabajo, porque entonces habría que usar $D$ en vez de $K_D$ en la fórmula",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "La trampa que hay que ver",
+    "formula": "",
+    "enfoqueCorto": "$f_1$ es lo que queda en el agua, no lo que se fue",
+    "porQue": "No hay cuenta nueva que hacer: el número está bien, la lectura no. La fórmula de una etapa da la fracción que permanece en la fase acuosa. Con $f_1 = 0.30$, el 30 % se quedó en el agua y el 70 % pasó al solvente, que para una sola extracción es un resultado perfectamente bueno. La bitácora invierte el sentido del símbolo y por eso concluye lo contrario.",
+    "respuesta": "La extracción recuperó el 70 %, no el 30 %. No hace falta repetir por ese motivo.",
+    "desarrollo": "Extraído $= 1 - f_1 = 1 - 0.30 = 0.70$. El error es tratar $f_1$ como «fracción extraída». Un chequeo rápido para no confundirse: más solvente y un $K_D$ más alto siempre mejoran la extracción, y los dos hacen bajar $f_1$, así que un $f_1$ pequeño tiene que ser lo bueno, es decir poco soluto remanente.",
+    "atajoPct": 5,
+    "atajoCosto": "leer bien qué lado de la fracción es cuál",
+    "brutoCosto": "montar una segunda y una tercera extracción para «subir del 30 %» que en realidad ya era 70 %",
+    "notaAtajo": "Recalcular con más decimales no cambia nada: el número ya era correcto, lo que fallaba era a qué fase corresponde."
+  },
+  {
+    "id": "HL-LP-018",
+    "bloque": "PH-SELECTIVIDAD",
+    "subcategoria": "Extracción Líquido-Líquido",
+    "tipo": "trampa",
+    "enunciado": "Se quiere pasar una amina alifática, disuelta junto con impurezas neutras en éter, hacia una fase acuosa para separarla. Un protocolo propone: «lavar la fase orgánica con NaOH diluido para arrastrar la amina al agua». ¿Qué falla en esa instrucción?",
+    "promptFase1": "Sin escribir ningún equilibrio, ¿qué te piden detectar?",
+    "opciones": [
+      {
+        "texto": "El sentido del pH: una amina pasa al agua protonada, con ácido; con NaOH queda neutra y se queda en el éter",
+        "correcta": true
+      },
+      {
+        "texto": "Que el NaOH es demasiado fuerte y podría hidrolizar la amina, cuando bastaría con bicarbonato de sodio diluido",
+        "correcta": false
+      },
+      {
+        "texto": "Que falta la concentración exacta del NaOH, sin la cual no se puede predecir a qué pH queda la fase acuosa",
+        "correcta": false
+      },
+      {
+        "texto": "Que el lavado debería hacerse en tres porciones pequeñas y no en una sola, para arrastrar más cantidad de amina",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "La trampa que hay que ver",
+    "formula": "",
+    "enfoqueCorto": "Para llevar una base al agua se acidifica, no se basifica",
+    "porQue": "La instrucción aplica a una base la lógica de un ácido. Un ácido orgánico se manda al agua con base, porque se desprotona a su forma iónica. Una amina es lo contrario: su forma iónica es la protonada, así que se lleva al agua con ácido. Lavar con NaOH deja la amina como base libre neutra, que es justo la que se reparte hacia el éter, así que el lavado no arrastraría casi nada.",
+    "respuesta": "Para pasar la amina al agua hay que lavar con un ácido diluido, no con NaOH. Con NaOH la amina queda neutra y permanece en el éter.",
+    "desarrollo": "La ruta correcta: lavar el éter con HCl diluido, la amina pasa al agua como sal de amonio soluble; luego se basifica esa fase acuosa con amoníaco y se reextrae la amina libre a éter limpio. Aparte, para basificar conviene [[HL-R-base-suave|amoníaco o bicarbonato antes que NaOH concentrado, que puede atacar enlaces sensibles]], pero ese es un problema secundario: con NaOH el lavado ni siquiera mueve la amina en la dirección buscada.",
+    "atajoPct": 8,
+    "atajoCosto": "ubicar si el analito es ácido o base y hacia dónde lo empuja cada pH",
+    "brutoCosto": "hacer el lavado con NaOH, ver que la fase acuosa sale casi vacía y no entender por qué",
+    "notaAtajo": "Regla rápida: al agua se va la forma con carga. Un ácido se carga con base; una base se carga con ácido."
+  },
+  {
+    "id": "HL-LP-019",
+    "bloque": "EMULSIONES",
+    "subcategoria": "Extracción Líquido-Líquido",
+    "tipo": "trampa",
+    "enunciado": "Tras agitar con fuerza un embudo con un extracto vegetal y diclorometano, la interfase queda como una capa lechosa que no se separa ni después de varios minutos de reposo. El operador anota: «la extracción no funcionó, el $K_D$ debe ser muy bajo para este sistema» y decide cambiar de solvente. ¿Qué conviene cuestionar de ese diagnóstico?",
+    "promptFase1": "Sin tocar el valor del $K_D$, ¿qué te piden reconocer?",
+    "opciones": [
+      {
+        "texto": "Que una emulsión no dice nada del $K_D$: el reparto ya ocurrió y lo que falla es que las gotas no coalescen",
+        "correcta": true
+      },
+      {
+        "texto": "Que el $K_D$ solo se puede juzgar midiendo la concentración en cada fase, algo imposible mientras siga la emulsión",
+        "correcta": false
+      },
+      {
+        "texto": "Que el diclorometano fue mala elección de entrada porque su densidad es demasiado parecida a la del agua",
+        "correcta": false
+      },
+      {
+        "texto": "Que agitar con fuerza siempre baja el rendimiento de una extracción y por eso el reparto quedó incompleto",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "La trampa que hay que ver",
+    "formula": "",
+    "enfoqueCorto": "La emulsión es cinética, no un $K_D$ bajo",
+    "porQue": "El diagnóstico mezcla dos cosas distintas. El reparto entre las dos fases es termodinámica y ya se completó mientras se agitaba: el soluto quedó donde manda el $K_D$. Lo que no ocurrió es la separación física de las fases, porque [[HL-R-emulsion-cinetica|algo con carácter tensioactivo en el extracto estabiliza las gotas e impide que coalescan]]. Cambiar de solvente no ataca esa causa; romper la emulsión sí.",
+    "respuesta": "La emulsión no informa sobre el $K_D$. El reparto ya se dio; falta romper la emulsión con reposo, salmuera, filtración o centrifugación, no cambiar de solvente.",
+    "desarrollo": "Primero reposo con agitación suave; si no cede, salmuera saturada para subir la fuerza iónica y desestabilizar la interfase; luego filtrar por un lecho si hay material gomoso; y como último recurso centrifugar. Solo si tras separar las fases el rendimiento sigue bajo tiene sentido sospechar del reparto, y aun así se comprueba midiendo, no se supone. El diclorometano, con densidad 1.33 frente a 1.00 del agua, no tiene ningún problema de densidad parecida.",
+    "atajoPct": 10,
+    "atajoCosto": "separar «ya se repartió» de «las fases no se separan»",
+    "brutoCosto": "descartar el solvente, repetir todo con otro y volver a emulsionar porque la causa real seguía ahí",
+    "notaAtajo": "Si el soluto ya cruzó y solo falta que las capas se aclaren, el problema es de coalescencia, no de $K_D$."
   }
 ]
