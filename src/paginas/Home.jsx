@@ -19,13 +19,13 @@ import { GateAcceso } from '../componentes/GateAcceso.jsx'
 import { IconoCalendario, IconoFlechaDerecha, IconoEngranaje, IconoCandado } from '../componentes/iconos.jsx'
 import './Home.css'
 
-// Sección "Universidad": trabajo académico/de investigación propio de
-// Fabián dentro de la universidad (semillero, posgrado, tesis), distinto
-// del grid oficial del Saber Pro y de Français (proyecto de vida personal,
-// se queda como tarjeta restringida aparte). Ver la bitácora de Inorgánica.
+// Sección "Universidad": estudio propio de Fabián fuera del examen oficial
+// del Saber Pro — semillero, posgrado, idiomas y tesis. `frances` vive aquí
+// (y no en el grid del Saber Pro) porque es un curso personal, no un módulo
+// del ICFES; al no estar en ese grid tampoco entra en el "promedio general".
 // `quimica-completa` ("Tesis") no está en indiceModulos.js, así que se
 // añade a esta sección por su propio camino (el botón de mapa de química).
-const MODULOS_UNIVERSIDAD = new Set(['diosgenina', 'inorganica', 'habilidades-laboratorio'])
+const MODULOS_UNIVERSIDAD = new Set(['diosgenina', 'inorganica', 'habilidades-laboratorio', 'frances'])
 
 function etiquetaRelativa(clave) {
   if (!clave) return null
@@ -222,7 +222,7 @@ export function Home({ perfil, onCambiarPerfil, onAbrirModulo, onIrADirecto, onI
           <>
             <div className="dashboard-modulos-header dashboard-universidad-header">
               <div className="dashboard-modulos-titulo">Universidad</div>
-              <div className="dashboard-universidad-sub">Semillero · posgrado · tesis</div>
+              <div className="dashboard-universidad-sub">Semillero · posgrado · idiomas · tesis</div>
             </div>
             {modulosUniversidad.length > 0 && (
               <div className="dashboard-modulos-grid">{modulosUniversidad.map(renderTarjetaModulo)}</div>
