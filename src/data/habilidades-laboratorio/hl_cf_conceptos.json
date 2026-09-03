@@ -1,0 +1,845 @@
+[
+  {
+    "id": "HL-CF-001",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué conviene ver el punto de fusión, el de ebullición, el índice de refracción y la rotación óptica como una sola familia de medidas y no como cuatro procedimientos sueltos?",
+    "respuesta": "Las cuatro salen de imponer una condición de extremal. Fusión y ebullición minimizan la energía libre de Gibbs; el índice de refracción minimiza el tiempo de recorrido de la luz; la rotación óptica selecciona la única respuesta de fase compatible con la simetría de la molécula. Cada una tiene además una capa de corrección: retraso cinético en las de temperatura, tratamiento clásico de un fenómeno de raíz cuántica en la óptica.",
+    "regla": "Toda constante física de esta clase resuelve un problema de no queda nada por optimizar: equilibrio de fases, tiempo mínimo o compatibilidad con la simetría. La capa de leyes fuertes se deriva exacta; la de correcciones es empírica y se trata como tal.",
+    "ejemplo": "El punto de fusión en el equilibrio se calcula exacto con $T_{trans}=\\Delta H/\\Delta S$, pero el valor que lee el termómetro depende de la velocidad de calentamiento, que es cinética pura y no aparece en esa fórmula.",
+    "error_comun": "Memorizar cuatro recetas instrumentales sueltas y no ver que comparten la misma estructura lógica, o presentar las correcciones empíricas con la misma certeza que la derivación termodinámica.",
+    "conexion_cotidiana": "Si sabes qué se optimiza en cada caso, sabes qué mueve a la constante: por eso este encuadre deja predecir una medida nueva sin aprenderla desde cero.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "HL-CF-002",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿En qué punto de un flujo de trabajo real aparece la determinación de constantes físicas, y qué la precede y qué la sucede?",
+    "respuesta": "Va después de sintetizar o extraer y después de purificar (cristalización, destilación, y antes de eso una extracción líquido-líquido). Con el compuesto ya puro, las constantes físicas confirman su identidad comparándolas con valores tabulados y evalúan su pureza, porque una impureza deprime y ensancha el intervalo de fusión y desvía el punto de ebullición y el índice de refracción. Si hace falta más resolución estructural, recién ahí se pasa a espectroscopía o cromatografía.",
+    "regla": "Las constantes físicas son el último paso barato de caracterización: rápidas, no destructivas y con instrumentación mínima, se hacen antes de recurrir a técnicas espectroscópicas costosas.",
+    "ejemplo": "Un sólido recristalizado que funde agudo a 122 °C, el valor tabulado del ácido benzoico, queda identificado y con pureza aceptable sin necesidad de un espectro.",
+    "error_comun": "Saltar directo a resonancia magnética o espectrometría de masas para identificar un producto conocido, cuando un punto de fusión y un índice de refracción lo habrían confirmado en minutos y a costo casi nulo.",
+    "conexion_cotidiana": "Las farmacopeas y las normas de calidad industrial siguen exigiendo estas medidas como control obligatorio de lote, justamente por su bajo costo y su rapidez.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "HL-CF-003",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Cuál es el principio único del que se derivan las cuatro constantes, y cómo se especializa en cada caso?",
+    "respuesta": "El principio es imponer una condición de extremal o de equilibrio. En fusión y ebullición se traduce en $dG=0$: las energías libres molares de las dos fases se igualan. En el índice de refracción se traduce en $dt/dx=0$: de todos los caminos posibles, la luz toma el de tiempo mínimo, que es el principio de Fermat. En la rotación óptica se traduce en una superposición coherente que solo se rompe si la molécula carece de simetría especular. Un mismo criterio, tres especializaciones.",
+    "regla": "[[HL-R-cf-extremal|Fusión y ebullición vienen de minimizar energía libre]]; el índice de refracción, de minimizar tiempo; la rotación óptica, de la ruptura de simetría especular en una superposición de estados. Reconocer cuál aplica dice de entrada qué variables gobiernan la constante.",
+    "ejemplo": "Ver que la ley de Snell sale de minimizar tiempo, no distancia, explica por qué la luz se curva hacia la normal al entrar en un medio más lento: gasta menos tiempo total aunque el trayecto sea más largo.",
+    "error_comun": "Creer que la ley de Snell describe el camino más corto, o que la fusión ocurre cuando se aporta suficiente calor en lugar de cuando se igualan las energías libres.",
+    "conexion_cotidiana": "Los principios de extremal recorren toda la física: la misma idea que fija el punto de fusión fija la trayectoria de un rayo de luz y la forma de una pompa de jabón.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-CF-001",
+      "HL-CF-002"
+    ]
+  },
+  {
+    "id": "HL-CF-004",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Cómo se llega, desde la igualdad de energías libres de dos fases, a que la temperatura de transición sea $T_{trans}=\\Delta H_{trans}/\\Delta S_{trans}$?",
+    "respuesta": "En el equilibrio entre las fases $\\alpha$ y $\\beta$ a $T$ y $P$ fijas, la energía libre total es mínima, lo que obliga a $G^\\alpha_m=G^\\beta_m$: si una fase tuviera menor $G_m$, el sistema seguiría transformándose hacia ella. Escribiendo $G_m=H_m-TS_m$ en cada fase, igualando en el punto de transición y despejando, se obtiene $T_{trans}=\\Delta H_{trans}/\\Delta S_{trans}$. No es una definición arbitraria: es la consecuencia directa de exigir $\\Delta G_{trans}=0$ en ese punto exacto.",
+    "regla": "[[HL-R-cf-t-trans|La temperatura de fusión o de ebullición es un cociente de dos propiedades moleculares]]: la entalpía que cuesta romper el orden de la fase de partida sobre la entropía que se gana al romperlo.",
+    "ejemplo": "Un sólido con $\\Delta H_{fus}$ grande y $\\Delta S_{fus}$ típico funde alto; si dos sólidos tienen $\\Delta S_{fus}$ parecido, el de mayor $\\Delta H_{fus}$ es siempre el de mayor punto de fusión.",
+    "error_comun": "Tomar $T_{trans}=\\Delta H/\\Delta S$ como una fórmula empírica de tablas, en vez de reconocer que sale de igualar energías libres y despejar.",
+    "conexion_cotidiana": "Comparar puntos de fusión es, en la práctica, comparar entalpías de fusión, es decir comparar la fuerza de las interacciones intermoleculares de cada sólido.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-CF-003"
+    ],
+    "formula_latex": "G^\\alpha_m = G^\\beta_m \\;\\Longrightarrow\\; T_{trans} = \\dfrac{\\Delta H_{trans}}{\\Delta S_{trans}}"
+  },
+  {
+    "id": "HL-CF-005",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué, para sólidos moleculares simples, comparar puntos de fusión equivale a comparar entalpías de fusión?",
+    "respuesta": "Porque el denominador de $T_{fus}=\\Delta H_{fus}/\\Delta S_{fus}$ es casi constante entre ellos. La regla empírica de Walden-Hildebrand sitúa $\\Delta S_{fus}$ en torno a 8 a 12 J·mol⁻¹·K⁻¹ para sólidos moleculares que no cambian de conformación al fundir, porque el desorden que se gana al pasar de red cristalina a líquido es parecido en todos. Con el denominador fijo, $T_{fus}$ queda gobernada por el numerador $\\Delta H_{fus}$, que mide la fuerza de las interacciones intermoleculares.",
+    "regla": "[[HL-R-cf-walden-hildebrand|Si $\\Delta S_{fus}$ es normal, un punto de fusión más alto significa interacciones intermoleculares más fuertes]]: más puentes de hidrógeno, mayor polarizabilidad o mejor empaquetamiento cristalino.",
+    "ejemplo": "El ácido benzoico funde a 122 °C y el naftaleno a 80 °C: ambos son cristales moleculares con $\\Delta S_{fus}$ parecido, y la diferencia está en que el benzoico forma dímeros por puente de hidrógeno y el naftaleno solo tiene dispersión.",
+    "error_comun": "Usar la regla para razonar sobre un sólido con conformaciones flexibles o con transiciones sólido-sólido cercanas, donde $\\Delta S_{fus}$ se sale del rango típico y la aproximación deja de valer.",
+    "conexion_cotidiana": "Es la base de por qué el punto de fusión sirve como huella de identidad: refleja de forma directa la red de fuerzas que mantiene unido a ese sólido en particular.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-CF-004"
+    ],
+    "connects_to": [
+      "diosgenina:FQT"
+    ]
+  },
+  {
+    "id": "HL-CF-006",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Cómo se pasa de la igualdad de energías libres en un punto a la ecuación de Clausius-Clapeyron, que describe toda la curva de coexistencia?",
+    "respuesta": "La igualdad $G^\\alpha_m=G^\\beta_m$ no se cumple solo en un punto sino a lo largo de toda la curva que separa dos fases en el diagrama $P$-$T$. Si se avanza una distancia infinitesimal sobre esa curva, ambas energías libres cambian pero deben seguir siendo iguales: $dG^\\alpha_m=dG^\\beta_m$. Sustituyendo $dG_m=-S_m\\,dT+V_m\\,dP$ en cada fase y reagrupando se obtiene $dP/dT=\\Delta S_{trans}/\\Delta V_{trans}$, y como en el equilibrio $\\Delta S_{trans}=\\Delta H_{trans}/T$, queda la ecuación de Clausius-Clapeyron.",
+    "regla": "[[HL-R-cf-clausius-clapeyron|La pendiente de una curva de coexistencia de fases está fijada por la entalpía de transición]] dividida por el producto de la temperatura y el cambio de volumen: $dP/dT=\\Delta H_{trans}/(T\\,\\Delta V_{trans})$.",
+    "ejemplo": "Para la fusión, $\\Delta V$ suele ser pequeño y la curva sólido-líquido es casi vertical; para la vaporización, $\\Delta V$ es enorme y la curva líquido-vapor sube con pendiente suave.",
+    "error_comun": "Confundir la forma diferencial general, válida para cualquier transición, con la forma integrada, que solo vale para el equilibrio líquido-vapor tras aproximar $\\Delta V$ por el volumen del gas.",
+    "conexion_cotidiana": "Es la misma ecuación que explica por qué el hielo se derrite bajo presión y por qué una olla a presión cocina más rápido: mover $P$ mueve la temperatura de transición.",
+    "dificultad": "alta",
+    "prereqs": [
+      "HL-CF-004"
+    ],
+    "formula_latex": "\\dfrac{dP}{dT} = \\dfrac{\\Delta H_{trans}}{T\\,\\Delta V_{trans}}"
+  },
+  {
+    "id": "HL-CF-007",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Qué aproximaciones convierten la forma diferencial de Clausius-Clapeyron en $\\ln(P_2/P_1)=-\\dfrac{\\Delta H_{vap}}{R}\\left(\\dfrac{1}{T_2}-\\dfrac{1}{T_1}\\right)$?",
+    "respuesta": "Tres. Primero, para la vaporización se desprecia el volumen del líquido frente al del gas, $\\Delta V_{vap}\\approx V^{gas}_m$. Segundo, se toma el gas como ideal, $V^{gas}_m=RT/P$, lo que convierte el lado izquierdo en $d(\\ln P)/dT$. Tercero, se supone $\\Delta H_{vap}$ constante en el intervalo, lo que permite sacarlo de la integral entre dos estados de equilibrio $(T_1,P_1)$ y $(T_2,P_2)$. El resultado es una recta si se grafica $\\ln P$ frente a $1/T$, con pendiente $-\\Delta H_{vap}/R$.",
+    "regla": "La forma integrada solo vale para líquido-vapor, lejos del punto crítico y en un intervalo de temperatura donde $\\Delta H_{vap}$ no cambie mucho; graficar $\\ln P$ contra $1/T$ y ajustar una recta es cómo se mide $\\Delta H_{vap}$ en la práctica.",
+    "ejemplo": "Con $\\Delta H_{vap}$ del agua de unos 40.7 kJ·mol⁻¹, bajar la presión de 101.3 a 90 kPa desplaza el punto de ebullición de 100 a unos 97 °C.",
+    "error_comun": "Aplicar la fórmula integrada a la fusión o a presiones altas cercanas al punto crítico, donde el gas ya no es ideal y $\\Delta V\\approx V_{gas}$ deja de valer.",
+    "conexion_cotidiana": "Las tablas de presión de vapor frente a temperatura que usa cualquier ingeniero de procesos son esta ecuación tabulada.",
+    "dificultad": "alta",
+    "prereqs": [
+      "HL-CF-006"
+    ],
+    "formula_latex": "\\ln\\!\\left(\\dfrac{P_2}{P_1}\\right) = -\\dfrac{\\Delta H_{vap}}{R}\\left(\\dfrac{1}{T_2}-\\dfrac{1}{T_1}\\right)",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Recta descendente de ln(P) frente a 1/T para el agua entre 60 y 100 grados Celsius: al crecer 1/T, es decir al bajar la temperatura, ln(P) cae de forma lineal, con pendiente igual a menos delta H de vaporización sobre R.",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "1/T  (10^-3 K^-1)",
+      "ejeY": "ln( P / kPa )",
+      "series": [
+        {
+          "nombre": "Agua (dH_vap ~ 40.7 kJ/mol)",
+          "datos": [
+            {
+              "x": 2.681,
+              "y": 4.618
+            },
+            {
+              "x": 2.754,
+              "y": 4.261
+            },
+            {
+              "x": 2.832,
+              "y": 3.879
+            },
+            {
+              "x": 2.914,
+              "y": 3.475
+            },
+            {
+              "x": 3.002,
+              "y": 3.047
+            },
+            {
+              "x": 3.095,
+              "y": 2.592
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Seis puntos alineados sobre una recta de pendiente negativa: al aumentar 1/T de 2.68 a 3.10, ln(P) baja de 4.62 a 2.59. La linealidad confirma delta H de vaporización aproximadamente constante en el intervalo."
+    }
+  },
+  {
+    "id": "HL-CF-008",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Qué dice la regla de Trouton y por qué el hecho de que ciertos líquidos la violen es información útil?",
+    "respuesta": "La regla de Trouton observa que, para muchos líquidos normales, la entropía de vaporización en el punto de ebullición normal ronda 85 a 88 J·mol⁻¹·K⁻¹. Es el espejo de Walden-Hildebrand aplicado a la vaporización: el desorden que se gana al pasar de líquido a gas es parecido entre sustancias no asociadas. Los líquidos que la violan claramente, agua, alcoholes, ácidos carboxílicos, son precisamente los que forman puentes de hidrógeno fuertes o se asocian en fase vapor, así que la desviación misma delata ese comportamiento.",
+    "regla": "[[HL-R-cf-trouton|Una $\\Delta S_{vap}$ muy por encima de 88 J·mol⁻¹·K⁻¹ indica un líquido más ordenado de lo normal]] por asociación por puente de hidrógeno; muy por debajo indica asociación en la fase vapor.",
+    "ejemplo": "El agua tiene $\\Delta S_{vap}\\approx 109$ J·mol⁻¹·K⁻¹, bastante por encima del rango de Trouton, coherente con su densa red de puentes de hidrógeno en el líquido.",
+    "error_comun": "Usar la regla de Trouton para estimar $\\Delta H_{vap}$ de un alcohol o de un ácido carboxílico como si obedeciera el valor normal, cuando son justamente los casos que se desvían.",
+    "conexion_cotidiana": "Sirve como chequeo rápido: si un $\\Delta H_{vap}$ medido y el punto de ebullición no dan una $\\Delta S_{vap}$ en el rango esperado, hay que sospechar asociación molecular o un error experimental.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-CF-007"
+    ]
+  },
+  {
+    "id": "HL-CF-009",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué el punto de ebullición depende de la presión atmosférica local, y qué significa que el valor tabulado sea el punto de ebullición normal?",
+    "respuesta": "Un líquido hierve cuando su presión de vapor iguala la presión externa: $P_{vap}(T_{eb})=P_{atm}$. Como la presión de vapor crece con la temperatura según Clausius-Clapeyron, si baja $P_{atm}$ hace falta menos temperatura para alcanzar esa igualdad. El punto de ebullición normal es el que se mide a exactamente 101.325 kPa, una atmósfera, y es el que aparece en la literatura para poder comparar entre laboratorios. En altura o con mal tiempo, el valor observado es más bajo.",
+    "regla": "[[HL-R-cf-punto-ebullicion|El punto de ebullición no es una propiedad intrínseca fija]]: es la temperatura a la que la presión de vapor alcanza la presión ambiente del momento, así que siempre hay que registrar la presión barométrica junto con la lectura.",
+    "ejemplo": "En Bucaramanga, a unos 959 m y cerca de 90.3 kPa, el agua hierve a unos 96.8 °C, más de 3 °C por debajo del valor a nivel del mar.",
+    "error_comun": "Reportar un punto de ebullición medido en altura como si fuera comparable con el valor tabulado, sin corregirlo a presión normal.",
+    "conexion_cotidiana": "Es por lo que en ciudades altas las recetas piden más tiempo de cocción y por lo que una olla a presión, al subir $P_{atm}$ artificialmente, sube el punto de ebullición y cocina más rápido.",
+    "dificultad": "baja",
+    "prereqs": [
+      "HL-CF-007"
+    ],
+    "connects_to": [
+      "diosgenina:FQT"
+    ],
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Punto de ebullición del agua frente a la presión atmosférica entre 70 y 101 kPa: crece de forma casi lineal en ese tramo, de unos 90 grados Celsius a 70 kPa hasta 100 grados Celsius a 101.3 kPa. Bucaramanga, a 90.3 kPa, cae sobre la curva en 96.8 grados Celsius.",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Presión atmosférica (kPa)",
+      "ejeY": "Punto de ebullición del agua (grados C)",
+      "series": [
+        {
+          "nombre": "P_vap(T) = P_atm",
+          "datos": [
+            {
+              "x": 70,
+              "y": 90.0
+            },
+            {
+              "x": 75,
+              "y": 91.8
+            },
+            {
+              "x": 80,
+              "y": 93.5
+            },
+            {
+              "x": 85,
+              "y": 95.1
+            },
+            {
+              "x": 90.3,
+              "y": 96.8
+            },
+            {
+              "x": 95,
+              "y": 98.2
+            },
+            {
+              "x": 101.325,
+              "y": 100.0
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Curva creciente y casi recta en este tramo: a menor presion, menor temperatura de ebullicion. El punto de Bucaramanga (90.3 kPa, 96.8 grados) queda sobre la curva, unos 3 grados por debajo del valor a nivel del mar."
+    }
+  },
+  {
+    "id": "HL-CF-010",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué la corrección de Sydney Young para el punto de ebullición no es una fórmula empírica arbitraria?",
+    "respuesta": "La corrección $T_{corr}=T_{obs}+K(101.325-P_{obs})(273+T_{obs})$ es la linealización de la forma integrada de Clausius-Clapeyron alrededor de la presión normal. Partiendo de $dT/dP=RT^2/(\\Delta H_{vap}P)$ y evaluando esa derivada en el punto normal, el cambio de temperatura para una variación pequeña de presión $\\Delta P=P^\\circ-P_{obs}$ queda proporcional a $(273+T_{obs})^2$. Sydney Young absorbió el factor $R/\\Delta H_{vap}$ y parte de ese cuadrado en una constante efectiva $K$ dependiente del compuesto.",
+    "regla": "[[HL-R-cf-sydney-young|Sydney Young no inventó una relación]]: reescribió Clausius-Clapeyron en forma lineal en $(273+T_{obs})$, válida mientras $P_{obs}$ esté razonablemente cerca de la presión normal.",
+    "ejemplo": "Para hidrocarburos típicos, con $\\Delta H_{vap}$ de unos 30 kJ·mol⁻¹, la constante sale en el rango $K\\approx 0.00010$ a $0.00012$, tal como figura en el método normalizado ASTM D-86.",
+    "error_comun": "Aplicar la corrección lineal en un laboratorio a gran altitud, donde $\\Delta P$ es grande, la curvatura real de $\\ln P$ frente a $1/T$ ya no es despreciable y la aproximación se degrada.",
+    "conexion_cotidiana": "Es parte del estándar ASTM D-86 que se usa a diario en refinería para reportar curvas de destilación comparables entre plantas a distinta altura.",
+    "dificultad": "alta",
+    "prereqs": [
+      "HL-CF-007",
+      "HL-CF-009"
+    ],
+    "formula_latex": "T_{corr} = T_{obs} + K\\,(101.325 - P_{obs})\\,(273 + T_{obs})"
+  },
+  {
+    "id": "HL-CF-011",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué calentar demasiado rápido desplaza el punto de fusión observado hacia arriba, y qué modelo lo cuantifica?",
+    "respuesta": "La fórmula de equilibrio describe el punto de fusión cuando el sistema está en cuasi-equilibrio en cada instante, pero un experimento transcurre en tiempo finito. Si el baño sube su temperatura a velocidad constante $\\beta$, la muestra dentro del capilar la sigue con retraso porque hay resistencia térmica: el vidrio y el propio baño conducen el calor con una constante de tiempo $\\tau$. Resolviendo la ley de enfriamiento de Newton en estado estacionario se obtiene $\\Delta T_{lag}=\\beta\\,\\tau$: el retraso es proporcional a la velocidad de calentamiento.",
+    "regla": "[[HL-R-cf-retraso-termico|El desfase entre la temperatura del baño y la del cristal es directamente proporcional a la rampa de calentamiento]]; como $\\tau$ depende del montaje y no se controla, la única variable en manos del analista es $\\beta$.",
+    "ejemplo": "El protocolo estándar de farmacopeas pide calentar rápido, 5 °C·min⁻¹ o más, hasta unos 10 °C por debajo del valor esperado, y luego bajar a 1 °C·min⁻¹ o menos para leer cerca del equilibrio.",
+    "error_comun": "Tratar el intervalo de fusión ensanchado y elevado por calentar rápido como si fuera una señal de impureza, cuando es un artefacto puramente cinético del montaje.",
+    "conexion_cotidiana": "Es la misma física del termómetro clínico que necesita unos minutos para estabilizarse: cualquier sensor mide con retraso lo que ocurre a su alrededor.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-CF-004"
+    ],
+    "formula_latex": "\\Delta T_{lag} = \\beta\\,\\tau"
+  },
+  {
+    "id": "HL-CF-012",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿De dónde sale la corrección de columna emergente $\\Delta T_{tallo}=k\\,N\\,(T-T_s)$ y cuándo es obligatorio aplicarla?",
+    "respuesta": "Un termómetro de mercurio en vidrio se calibra para un modo de inmersión fijo, total o parcial. Si se usa en el otro modo, la porción de mercurio que queda fuera del baño, la columna emergente, está a una temperatura media $T_s$ distinta de la del bulbo $T$ y se expande diferente a lo previsto por la escala. El desajuste es proporcional a la diferencia real de temperatura $(T-T_s)$, al número de grados de columna afectados $N$ y a la diferencia entre los coeficientes de expansión del mercurio y del vidrio, agrupada en la constante $k$.",
+    "regla": "Cuando el modo de inmersión real no coincide con el de calibración, hay que sumar [[HL-R-cf-columna-emergente|$\\Delta T_{tallo}=k\\,N\\,(T-T_s)$]], con $k\\approx 0.00016$ °C⁻¹ para mercurio en vidrio de borosilicato; no es un detalle cosmético.",
+    "ejemplo": "Un termómetro de inmersión total usado en inmersión parcial a 215 °C, con 139 °C de columna emergente a una media de 45 °C, acumula $\\Delta T_{tallo}\\approx 3.8$ °C, muy por encima de la tolerancia típica de $\\pm 0.3$ °C.",
+    "error_comun": "Ignorar la corrección porque el termómetro parece leer bien, sin notar que un error de varios grados por columna emergente es sistemático y no se ve como ruido.",
+    "conexion_cotidiana": "Es la razón por la que los termómetros de laboratorio traen grabado su modo de inmersión: usarlos fuera de ese modo sin corregir invalida la medida.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-CF-011"
+    ],
+    "formula_latex": "\\Delta T_{tallo} = k\\,N\\,(T - T_s)"
+  },
+  {
+    "id": "HL-CF-013",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Cómo se calibra un termómetro con sustancias de referencia y por qué se eligen esas sustancias y no otras?",
+    "respuesta": "Se toman al menos dos, idealmente tres, sustancias de punto de fusión certificado que cubran el intervalo de trabajo, se mide su punto de fusión observado con el protocolo de doble velocidad, y se calcula la corrección en cada punto como $\\Delta T=T_{certificado}-T_{observado}$. Con esos puntos se ajusta por regresión lineal una corrección de pendiente y desplazamiento frente a la temperatura. Las sustancias se eligen por alta pureza, estabilidad térmica, no se descomponen al fundir, y trazabilidad a laboratorios de metrología o farmacopeas.",
+    "regla": "Una calibración necesita varios puntos que abarquen el rango porque el error de un termómetro suele tener a la vez un componente constante y uno proporcional a la temperatura; un solo punto no los separa.",
+    "ejemplo": "Una serie típica va del ácido benzoico a 122.4 °C, pasando por acetanilida a 114.3 °C y cafeína a 236.0 °C, hasta el nitrato de potasio a 334.0 °C.",
+    "error_comun": "Calibrar con un solo patrón y aplicar esa corrección constante a todo el rango, ignorando que la pendiente del error puede cambiar el resultado varios grados en el otro extremo.",
+    "conexion_cotidiana": "Es el mismo principio de cualquier instrumento de medida: se contrasta contra referencias conocidas que cubran el rango de uso antes de confiar en sus lecturas.",
+    "dificultad": "baja",
+    "prereqs": [
+      "HL-CF-012"
+    ]
+  },
+  {
+    "id": "HL-CF-014",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué el tubo de Thiele homogeniza la temperatura del baño sin necesidad de agitación mecánica?",
+    "respuesta": "El tubo de Thiele es un recipiente con un asa lateral triangular que conecta la parte baja del tubo vertical con un punto más alto, formando un circuito cerrado de aceite. Al calentar con un mechero el vértice de ese triángulo, el aceite caliente asciende por el asa, entra por arriba al tubo vertical y desciende, estableciendo una corriente de convección continua. Esa circulación reparte el calor de forma pareja alrededor del capilar de muestra sin que nadie tenga que agitar.",
+    "regla": "La geometría del asa lateral fuerza un lazo de convección: calentar un punto bajo del circuito genera un flujo estacionario que iguala la temperatura en todo el baño.",
+    "ejemplo": "El capilar con la muestra se sujeta al termómetro con una banda de caucho, con la muestra por encima del nivel del aceite, justo en la zona que la corriente mantiene isoterma.",
+    "error_comun": "Calentar el tubo vertical en lugar del vértice del asa, lo que rompe el lazo de convección y crea gradientes de temperatura entre el bulbo del termómetro y la muestra.",
+    "conexion_cotidiana": "Es el mismo principio de un radiador de calefacción por convección o de una corriente oceánica: calentar por debajo pone en movimiento todo el fluido.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "HL-CF-015",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Cómo detectan el punto de fusión los fusiómetros automáticos, y en qué se diferencian un termopar y un termistor como sensores de temperatura?",
+    "respuesta": "El fusiómetro automático sustituye el baño de aceite por un bloque metálico con control de rampa y detecta la fusión por transmitancia óptica: un fotodetector registra la caída de intensidad cuando el sólido opaco se vuelve líquido transparente. Para medir la temperatura, un termopar se basa en el efecto Seebeck, una tensión que aparece en la unión de dos metales distintos proporcional a la diferencia de temperatura; cubre rangos amplios pero con sensibilidad moderada. Un termistor es un óxido semiconductor cuya resistencia cae de forma exponencial con la temperatura; tiene altísima resolución en rangos moderados.",
+    "regla": "El fusiómetro solo automatiza la detección del mismo evento de equilibrio; termopares y termistores se calibran ambos contra los mismos puntos fijos de sustancias de referencia.",
+    "ejemplo": "Un termopar tipo K llega a más de 1200 °C con sensibilidad de unos 40 µV·°C⁻¹; un termistor da resolución mejor que 0.01 °C pero solo entre unos -50 y 300 °C.",
+    "error_comun": "Suponer que un instrumento digital elimina la física de fondo, cuando sigue midiendo el mismo cambio de fase y sigue arrastrando el retraso térmico si la rampa es agresiva.",
+    "conexion_cotidiana": "El termistor es el sensor de los termostatos domésticos y de las baterías de litio; el termopar, el de los hornos industriales y las turbinas.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-CF-013"
+    ]
+  },
+  {
+    "id": "HL-CF-016",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Cómo determina el punto de ebullición en microescala la técnica de Siwoloboff, y qué instante concreto se registra?",
+    "respuesta": "Se pone la muestra líquida en un capilar fino y dentro se introduce, con el extremo abierto hacia abajo, un segundo capilar sellado por arriba. El conjunto se sujeta al termómetro y se calienta en un tubo de Thiele. Al acercarse al punto de ebullición, el aire atrapado en el capilar invertido se expande y sale como un tren rápido y continuo de burbujas. El punto de ebullición se registra en el momento en que, al detener el calentamiento, las burbujas cesan y el líquido empieza a subir por el capilar invertido.",
+    "regla": "El tren continuo de burbujas marca que la presión de vapor del líquido ha igualado la presión externa; el instante clave para leer es cuando se enfría lo justo para que el líquido reingrese al capilar.",
+    "ejemplo": "Basta con una gota de muestra, lo que hace la técnica útil cuando solo se dispone de unos miligramos de un producto de síntesis.",
+    "error_comun": "Leer la temperatura durante el burbujeo violento, que ocurre por encima del punto de ebullición real; el valor correcto es el de la reentrada del líquido.",
+    "conexion_cotidiana": "Es una forma elegante de medir una propiedad de bulto con una cantidad de muestra mínima, algo valioso cuando cada miligramo cuesta semanas de trabajo.",
+    "dificultad": "baja",
+    "prereqs": [
+      "HL-CF-009"
+    ]
+  },
+  {
+    "id": "HL-CF-017",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Cómo se deduce la ley de Snell del principio de Fermat, y por qué importa que sea tiempo mínimo y no distancia mínima?",
+    "respuesta": "Se consideran dos puntos, uno en cada medio, y se parametriza por $x$ la posición del punto de cruce en la interfaz. El tiempo total de recorrido es la suma de cada tramo dividido por la velocidad en su medio, $v_i=c/n_i$. Minimizando $t(x)$, es decir imponiendo $dt/dx=0$, los dos cocientes que aparecen son por geometría $\\operatorname{sen}\\theta_1$ y $\\operatorname{sen}\\theta_2$, y la condición se reduce a $n_1\\operatorname{sen}\\theta_1=n_2\\operatorname{sen}\\theta_2$. Si fuera distancia mínima el rayo iría recto y no habría refracción.",
+    "regla": "[[HL-R-cf-fermat-snell|La ley de Snell no es un postulado]]: es la condición de tiempo estacionario de Fermat. La luz se curva hacia la normal al entrar en un medio más lento porque así reduce el tiempo total aunque alargue el camino.",
+    "ejemplo": "Es el mismo cálculo que el del socorrista que corre por la playa y luego nada: le conviene recorrer más metros por la arena, donde va rápido, para acortar el tramo lento en el agua.",
+    "error_comun": "Decir que la luz sigue el camino más corto entre dos puntos; el trayecto refractado es más largo en distancia que la línea recta.",
+    "conexion_cotidiana": "Es por lo que una cuchara metida en un vaso de agua se ve quebrada y por lo que las piscinas parecen menos profundas de lo que son.",
+    "dificultad": "alta",
+    "prereqs": [
+      "HL-CF-003"
+    ],
+    "formula_latex": "\\dfrac{dt}{dx}=0 \\;\\Longrightarrow\\; n_1\\,\\operatorname{sen}\\theta_1 = n_2\\,\\operatorname{sen}\\theta_2"
+  },
+  {
+    "id": "HL-CF-018",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Qué es el ángulo crítico y cómo lo usa el refractómetro de Abbe para medir el índice de refracción de una muestra?",
+    "respuesta": "Cuando la luz pasa de un medio más denso ópticamente a uno menos denso, el ángulo refractado es mayor que el de incidencia; existe un ángulo crítico $\\theta_c$ para el cual el rayo refractado emerge tangente a la interfaz, $\\theta_2=90°$, y de la ley de Snell $\\operatorname{sen}\\theta_c=n_2/n_1$. Por encima de $\\theta_c$ hay reflexión total interna. En el refractómetro de Abbe el medio 1 es un prisma de índice conocido y el 2 es la muestra líquida; el telescopio localiza la frontera nítida entre la zona iluminada y la oscura, que cae exactamente en $\\theta_c$, y de ahí se obtiene $n_D=n_1\\operatorname{sen}\\theta_c$.",
+    "regla": "[[HL-R-cf-angulo-critico|El ángulo crítico codifica el cociente de índices]]; medir dónde aparece la frontera luz-sombra equivale a medir el índice de refracción de la muestra.",
+    "ejemplo": "Con un prisma de $n_1=1.750$ y una frontera observada en $\\theta_c=51.2°$, la muestra tiene $n_D=1.750\\times\\operatorname{sen}(51.2°)\\approx 1.364$, cercano al del etanol.",
+    "error_comun": "Confundir el ángulo crítico con el ángulo de Brewster o suponer que hay reflexión total pasando de un medio menos denso a uno más denso, donde no existe.",
+    "conexion_cotidiana": "La reflexión total interna es lo que hace que una fibra óptica guíe la luz kilómetros sin que escape por las paredes.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-CF-017"
+    ],
+    "formula_latex": "\\operatorname{sen}\\theta_c = \\dfrac{n_2}{n_1} \\qquad n_D = n_1\\,\\operatorname{sen}\\theta_c"
+  },
+  {
+    "id": "HL-CF-019",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué el índice de refracción se reporta siempre con temperatura y longitud de onda, y qué son la línea D y los prismas de Amici?",
+    "respuesta": "El índice de refracción de un líquido orgánico cae con la temperatura a un ritmo de unos $4\\times 10^{-4}$ por grado, así que una medida sin termostatar puede errar en la tercera o cuarta cifra decimal, que es justo donde vive la información. También depende de la longitud de onda por dispersión, por eso se fija la línea D del sodio, 589 nm, como referencia estándar y se escribe $n_D^{20}$. Los prismas de Amici compensan la dispersión y permiten usar luz blanca leyendo el valor equivalente a esa línea.",
+    "regla": "Un índice de refracción sin $T$ ni $\\lambda$ no es reproducible: se reporta como $n_D^{T}$, con la línea D del sodio y la temperatura de medida.",
+    "ejemplo": "El instrumento se calibra antes de cada sesión con agua destilada, $n_D^{20}=1.3330$, o con un vidrio patrón certificado.",
+    "error_comun": "Comparar un $n_D$ propio con un valor de tabla sin verificar que ambos estén a la misma temperatura, o medir con luz blanca sin compensador y obtener una frontera difusa.",
+    "conexion_cotidiana": "La línea D del sodio se volvió el estándar por un accidente histórico: una lámpara de sodio era la fuente casi monocromática más brillante y barata del siglo XIX.",
+    "dificultad": "baja",
+    "prereqs": [
+      "HL-CF-017"
+    ],
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Indice de refraccion n_D de un liquido organico tipico frente a la temperatura entre 15 y 35 grados Celsius: recta descendente que baja unas cuatro milesimas por cada grado, de aproximadamente 1.3620 a 15 grados hasta 1.3540 a 35 grados.",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Temperatura (grados C)",
+      "ejeY": "n_D",
+      "series": [
+        {
+          "nombre": "Liquido organico (dn/dT ~ -4e-4 /grado)",
+          "datos": [
+            {
+              "x": 15,
+              "y": 1.362
+            },
+            {
+              "x": 20,
+              "y": 1.36
+            },
+            {
+              "x": 25,
+              "y": 1.358
+            },
+            {
+              "x": 30,
+              "y": 1.356
+            },
+            {
+              "x": 35,
+              "y": 1.354
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Recta de pendiente negativa: n_D baja de forma lineal al subir la temperatura, unas cuatro milesimas por grado. Por eso una diferencia de 5 grados sin termostatar cambia la tercera cifra decimal."
+    }
+  },
+  {
+    "id": "HL-CF-020",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Qué conecta la relación de Lorentz-Lorenz entre el índice de refracción macroscópico y una propiedad electrónica microscópica?",
+    "respuesta": "La relación de Lorentz-Lorenz dice que $\\dfrac{n^2-1}{n^2+2}=\\dfrac{N\\,\\alpha_{pol}}{3\\varepsilon_0}$, donde $N$ es la densidad numérica de moléculas y $\\alpha_{pol}$ la polarizabilidad electrónica molecular, la facilidad con que la nube de electrones se deforma bajo un campo. Es decir, el índice de refracción de un líquido, que se mide en un banco con un refractómetro trivial, está gobernado por la misma polarizabilidad que controla las fuerzas de dispersión de London que aparecieron en la Guía 1 de extracción líquido-líquido.",
+    "regla": "[[HL-R-cf-lorentz-lorenz|El índice de refracción es una ventana macroscópica a la polarizabilidad electrónica]]: una medida de banco da acceso a una propiedad que de otro modo exigiría un cálculo cuántico.",
+    "ejemplo": "Un líquido con $n_D=1.40$ y $N=6.0\\times 10^{27}$ m⁻³ tiene, despejando, $\\alpha_{pol}\\approx 1.1\\times 10^{-39}$ C·m²·V⁻¹.",
+    "error_comun": "Ver el índice de refracción como un número puramente óptico sin relación con la estructura electrónica, o confundir la polarizabilidad con el momento dipolar permanente.",
+    "conexion_cotidiana": "La polarizabilidad que fija el índice de refracción de un aceite es la misma que decide cómo se reparte ese aceite entre dos disolventes: una sola propiedad electrónica detrás de dos fenómenos distintos.",
+    "dificultad": "alta",
+    "prereqs": [
+      "HL-CF-017"
+    ],
+    "connects_to": [
+      "diosgenina:FQT"
+    ],
+    "formula_latex": "\\dfrac{n^2-1}{n^2+2} = \\dfrac{N\\,\\alpha_{pol}}{3\\varepsilon_0}"
+  },
+  {
+    "id": "HL-CF-021",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Qué distingue la rotación observada de la rotación específica en la ley de Biot, y por qué el convenio de unidades es peculiar?",
+    "respuesta": "La ley de Biot es $\\alpha=[\\alpha]^T_\\lambda\\,l\\,c$: el ángulo observado $\\alpha$ crece con la longitud de la celda $l$ y con la concentración $c$ del soluto activo. La rotación específica $[\\alpha]^T_\\lambda$ es la constante de proporcionalidad, la propiedad intrínseca del compuesto a una temperatura y longitud de onda dadas. Por convención histórica $l$ se expresa en decímetros y $c$ en g·mL⁻¹, de modo que $[\\alpha]$ sale en unas unidades mixtas que se abrevian solo como grados; se mantiene así para comparar directo con las tablas de la literatura.",
+    "regla": "[[HL-R-cf-obs-vs-especifica|$\\alpha_{obs}$ depende de la celda, la concentración y el disolvente; $[\\alpha]$ es la cantidad normalizada e intrínseca]]. Reportar una sin la otra, y sin disolvente y temperatura, hace la medida irreproducible.",
+    "ejemplo": "Una disolución en celda de 1 dm que da $\\alpha_{obs}=+2.0°$ a $c=0.10$ g·mL⁻¹ corresponde a $[\\alpha]=+20$; la misma sustancia a doble concentración daría $+4.0°$ observados.",
+    "error_comun": "Reportar el ángulo observado como si fuera la rotación específica, exactamente el mismo error que confundir el coeficiente de reparto $P$ con el de distribución $D$ en la Guía 1 de extracción.",
+    "conexion_cotidiana": "Es el principio del control de calidad del azúcar: la rotación observada de un jugo de caña, normalizada, da su grado de pureza polarimétrica.",
+    "dificultad": "media",
+    "prereqs": [],
+    "formula_latex": "\\alpha = [\\alpha]^{T}_{\\lambda}\\,l\\,c"
+  },
+  {
+    "id": "HL-CF-022",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué la rotación óptica se describe como birrefringencia circular, y qué condición hace que no haya rotación neta?",
+    "respuesta": "Una onda linealmente polarizada se puede escribir exactamente como la suma coherente de dos componentes circularmente polarizadas de igual amplitud, una a izquierda y otra a derecha, en fase. Si el medio responde exactamente igual a ambas, sus índices de refracción $n_L$ y $n_R$ son iguales, las dos componentes viajan a la misma velocidad y al recombinarse a la salida el plano de polarización no ha girado. Solo si $n_L\\neq n_R$ una componente se retrasa respecto a la otra y el plano sale rotado un ángulo proporcional a $(n_L-n_R)$.",
+    "regla": "La rotación óptica es una diferencia entre los índices de refracción para luz circular izquierda y derecha; cualquier molécula con plano especular o centro de inversión tiene $n_L=n_R$ y no rota el plano.",
+    "ejemplo": "El agua, el etanol y cualquier disolvente aquiral tienen $n_L=n_R$ y no aportan rotación; por eso el cero del polarímetro se ajusta con el disolvente puro.",
+    "error_comun": "Imaginar que la molécula gira físicamente el plano de polarización como un engranaje, en vez de entender que retrasa selectivamente una de las dos componentes circulares.",
+    "conexion_cotidiana": "Es el mismo tipo de fenómeno que las gafas de cine 3D, que separan la imagen de cada ojo usando luz con polarización circular opuesta.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-CF-021"
+    ],
+    "formula_latex": "\\alpha = \\dfrac{\\pi\\,l}{\\lambda}\\,(n_L - n_R)"
+  },
+  {
+    "id": "HL-CF-023",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Cuál es el origen cuántico de que $n_L\\neq n_R$, y por qué actividad óptica y quiralidad son la misma afirmación?",
+    "respuesta": "Aplicando teoría de perturbaciones dependiente del tiempo, cada transición electrónica tiene un momento dipolar eléctrico $\\vec{\\mu}$ y uno magnético $\\vec{m}$. Lo que decide si contribuye a la rotación óptica es la fuerza rotacional de Rosenfeld, $R=\\operatorname{Im}(\\vec{\\mu}\\cdot\\vec{m})$. La clave: $R$ es un pseudoescalar, cambia de signo bajo reflexión especular, así que es idénticamente cero salvo que la molécula carezca de todo eje impropio, plano, centro o $S_n$, que es la definición de quiralidad.",
+    "regla": "[[HL-R-cf-rosenfeld|La fuerza rotacional $R=\\operatorname{Im}(\\vec{\\mu}\\cdot\\vec{m})$ es un pseudoescalar]]; es no nula únicamente para moléculas quirales. Actividad óptica y quiralidad molecular no son dos hechos relacionados: son la misma afirmación cuántica vista desde dos lados.",
+    "ejemplo": "Dos enantiómeros de un mismo cromóforo dan dicroísmo circular de igual magnitud y signo opuesto: sus $R$ solo difieren en el signo, porque la reflexión no cambia la fuerza de la transición, solo la simetría del acoplamiento $\\vec{\\mu}\\cdot\\vec{m}$.",
+    "error_comun": "Explicar la rotación óptica como pura birrefringencia clásica sin llegar a por qué una molécula quiral rompe la igualdad $n_L=n_R$, que la clásica describe pero no explica.",
+    "conexion_cotidiana": "Que la quiralidad tenga una firma medible con luz es lo que permite asignar la configuración absoluta de un fármaco nuevo sin necesitar un cristal para difracción de rayos X.",
+    "dificultad": "alta",
+    "prereqs": [
+      "HL-CF-022",
+      "HL-CF-026"
+    ],
+    "formula_latex": "R = \\operatorname{Im}(\\vec{\\mu}\\cdot\\vec{m})"
+  },
+  {
+    "id": "HL-CF-024",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Qué son el efecto Cotton y el dicroísmo circular, y por qué la polarimetría de una sola longitud de onda es un caso particular?",
+    "respuesta": "Si se mide la fuerza rotacional $R$ en función de la longitud de onda alrededor de una banda de absorción, la rotación óptica cambia de signo al cruzarla y la absorción de luz circular izquierda y derecha se vuelve distinta; ese comportamiento conjunto es el efecto Cotton. La técnica que mide sistemáticamente la diferencia de absorción es el dicroísmo circular, CD, y la que mide la rotación frente a $\\lambda$ es la dispersión rotatoria óptica, ORD. La polarimetría de laboratorio, a la línea D del sodio, es literalmente un único punto de ese espectro mucho más informativo.",
+    "regla": "El dicroísmo circular es hoy herramienta estándar para determinar estructura secundaria de proteínas y confirmar configuración absoluta de fármacos quirales; la polarimetría clásica es su versión de un solo punto.",
+    "ejemplo": "Dos enantiómeros de un cromóforo muestran curvas de CD espejo alrededor de la misma banda UV: igual magnitud, signo opuesto, tal como exige que $R$ sea pseudoescalar.",
+    "error_comun": "Creer que una lectura de polarímetro captura toda la información quiroóptica de una molécula, cuando solo da el valor de $R$ integrado en una longitud de onda.",
+    "conexion_cotidiana": "El CD acoplado a cálculos cuánticos es la frontera actual para asignar configuración absoluta de compuestos nuevos sin un monocristal.",
+    "dificultad": "alta",
+    "prereqs": [
+      "HL-CF-023"
+    ],
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Efecto Cotton: dos curvas de dispersion rotatoria optica en espejo alrededor de una banda de absorcion. El enantiomero R sube a un maximo positivo, cruza cero en el centro de la banda y baja a un minimo; el enantiomero S hace lo contrario, misma magnitud y signo opuesto en cada longitud de onda.",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Longitud de onda relativa a la banda (nm)",
+      "ejeY": "Rotacion optica [alpha] (u. arb.)",
+      "series": [
+        {
+          "nombre": "Enantiomero (+)",
+          "datos": [
+            {
+              "x": -40,
+              "y": 5
+            },
+            {
+              "x": -25,
+              "y": 30
+            },
+            {
+              "x": -12,
+              "y": 60
+            },
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 12,
+              "y": -60
+            },
+            {
+              "x": 25,
+              "y": -30
+            },
+            {
+              "x": 40,
+              "y": -5
+            }
+          ]
+        },
+        {
+          "nombre": "Enantiomero (-)",
+          "datos": [
+            {
+              "x": -40,
+              "y": -5
+            },
+            {
+              "x": -25,
+              "y": -30
+            },
+            {
+              "x": -12,
+              "y": -60
+            },
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 12,
+              "y": 60
+            },
+            {
+              "x": 25,
+              "y": 30
+            },
+            {
+              "x": 40,
+              "y": 5
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Dos curvas antisimetricas que se cruzan en cero en el centro de la banda. Cada punto de una es el negativo exacto del de la otra, la firma de que la fuerza rotacional cambia de signo bajo reflexion pero conserva su magnitud."
+    }
+  },
+  {
+    "id": "HL-CF-025",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Cómo se pasa de un ángulo de rotación observado al exceso enantiomérico de una muestra?",
+    "respuesta": "En una mezcla de los dos enantiómeros con fracciones $x_+$ y $x_-$, con $x_++x_-=1$, las rotaciones específicas son iguales en magnitud y opuestas en signo, así que la rotación observada es la suma algebraica: $\\alpha_{obs}=(x_+-x_-)\\,[\\alpha]_{puro}\\,l\\,c$. Comparando con la ley de Biot aplicada a la mezcla, $[\\alpha]_{mezcla}=(x_+-x_-)\\,[\\alpha]_{puro}$. El exceso enantiomérico es precisamente esa diferencia de fracciones, $ee=x_+-x_-$, de modo que $ee(\\%)=\\dfrac{[\\alpha]_{mezcla}}{[\\alpha]_{puro}}\\times 100$.",
+    "regla": "[[HL-R-cf-ee|El exceso enantiomérico se estima como el cociente entre la rotación específica de la mezcla y la del enantiómero puro de referencia]]; requiere conocer $[\\alpha]_{puro}$ con confianza.",
+    "ejemplo": "Una muestra a $c=0.85$ g·mL⁻¹ en celda de 1 dm da $\\alpha_{obs}=+18.4°$; con $[\\alpha]_{puro}=+26.5$ sale $[\\alpha]_{mezcla}=21.65$, $ee\\approx 81.7\\%$, es decir 90.9 % del enantiómero mayoritario y 9.1 % del minoritario.",
+    "error_comun": "Calcular $ee$ con un $[\\alpha]_{puro}$ de tabla medido en otro disolvente o a otra temperatura, o con una muestra que contiene impurezas ópticamente activas que sesgan $\\alpha_{obs}$.",
+    "conexion_cotidiana": "Es cómo un laboratorio de control estima la pureza óptica de un lote de principio activo con una sola lectura, sin recurrir a cromatografía quiral más cara.",
+    "dificultad": "alta",
+    "prereqs": [
+      "HL-CF-021"
+    ],
+    "formula_latex": "ee(\\%) = \\dfrac{\\alpha_{obs}}{[\\alpha]_{puro}\\,l\\,c}\\times 100 = (x_+ - x_-)\\times 100"
+  },
+  {
+    "id": "HL-CF-026",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué un carbono con cuatro sustituyentes distintos es la fuente más común de quiralidad, y cómo se conecta con la condición de la fuerza rotacional?",
+    "respuesta": "Un carbono estereogénico, con cuatro grupos diferentes, no tiene ningún plano de simetría que pase por él: su imagen especular no es superponible con la molécula original. Esa ausencia de plano especular, y de centro de inversión y de eje impropio, es exactamente la condición geométrica que la fuerza rotacional de Rosenfeld necesita para ser no nula. Por eso una molécula con un solo carbono estereogénico ya es, en general, ópticamente activa.",
+    "regla": "Quiralidad es ausencia de todo elemento de simetría impropia; el carbono con cuatro sustituyentes distintos es la forma más frecuente de conseguirla en química orgánica, pero no la única.",
+    "ejemplo": "El ácido láctico tiene un carbono unido a $\\text{OH}$, $\\text{COOH}$, $\\text{CH}_3$ y $\\text{H}$: cuatro grupos distintos, molécula quiral, dos enantiómeros con rotaciones opuestas.",
+    "error_comun": "Suponer que hace falta un carbono estereogénico para que haya quiralidad; existen moléculas quirales por eje o por plano, como los alenos sustituidos y los binaftilos.",
+    "conexion_cotidiana": "El (R)-limoneno huele a naranja y el (S)-limoneno a trementina: misma fórmula, mismo punto de ebullición, distinta mano, y los receptores olfativos, que también son quirales, los distinguen.",
+    "dificultad": "baja",
+    "prereqs": []
+  },
+  {
+    "id": "HL-CF-027",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué una mezcla racémica y un compuesto aquiral dan ambos rotación cero, y en qué se diferencian mecanísticamente?",
+    "respuesta": "Una mezcla racémica verdadera, 50:50 de los dos enantiómeros, da $\\alpha_{obs}=0$ porque las contribuciones opuestas de cada enantiómero se cancelan exactamente: cada molécula tiene fuerza rotacional no nula, pero la simetría de la mezcla las anula. Un compuesto genuinamente aquiral también da $\\alpha_{obs}=0$, pero porque su fuerza rotacional es idénticamente cero por simetría molecular. Por polarimetría simple ambos casos son indistinguibles; separarlos exige otra técnica.",
+    "regla": "[[HL-R-cf-racemico-no-aquiral|Rotación observada nula no implica compuesto aquiral]]: puede ser un racemato cuyas rotaciones se cancelan. Distinguir un caso del otro requiere cromatografía quiral o dicroísmo circular sobre las fracciones separadas.",
+    "ejemplo": "Un fármaco sintetizado sin control estereoquímico sale racémico y no rota el plano de polarización, aunque cada molécula individual sea quiral y potencialmente activa en el cuerpo.",
+    "error_comun": "Concluir que un producto es aquiral solo porque el polarímetro marca cero, sin descartar que sea una mezcla racémica.",
+    "conexion_cotidiana": "Es una distinción crítica en farmacia: un racemato puede tener un enantiómero terapéutico y otro tóxico, y la lectura cero del polarímetro no avisa de nada.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-CF-023",
+      "HL-CF-025"
+    ]
+  },
+  {
+    "id": "HL-CF-028",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué el cloruro de sodio funde a 801 °C y el naftaleno a 80 °C, si la fórmula $T_{fus}=\\Delta H_{fus}/\\Delta S_{fus}$ es la misma para ambos?",
+    "respuesta": "La diferencia está casi toda en $\\Delta H_{fus}$. Romper una red iónica exige vencer atracciones electrostáticas de largo alcance entre iones con carga completa; esa entalpía está gobernada por [[HL-R-cf-born-lande|la energía reticular, aproximada por la ecuación de Born-Landé]] $U=-\\dfrac{N_A M z^+z^- e^2}{4\\pi\\varepsilon_0 r_0}\\left(1-\\dfrac{1}{n}\\right)$. Romper un cristal molecular como el naftaleno solo pide vencer fuerzas de dispersión de London, uno o dos órdenes de magnitud más débiles. Las entropías de fusión de ambos son comparables.",
+    "regla": "La escala de puntos de fusión de una tabla de sustancias de referencia es un recorrido por el espectro de tipos de sólido: molecular, molecular con puente de hidrógeno e iónico, con $\\Delta H_{fus}$ creciente en ese orden.",
+    "ejemplo": "En una tabla típica de calibración, del ácido benzoico a 122 °C, molecular con puente de hidrógeno, se sube hasta el nitrato de potasio a 334 °C, iónico: el salto es entalpía reticular, no entropía.",
+    "error_comun": "Atribuir el alto punto de fusión de una sal a una entropía de fusión anómalamente baja, en vez de a la entalpía reticular que domina el numerador.",
+    "conexion_cotidiana": "Es por lo que la sal de mesa aguanta el horno sin fundirse mientras el azúcar, molecular, se carameliza y se derrite a temperaturas modestas.",
+    "dificultad": "alta",
+    "prereqs": [
+      "HL-CF-005"
+    ],
+    "formula_latex": "U = -\\dfrac{N_A\\,M\\,z^+z^-\\,e^2}{4\\pi\\varepsilon_0\\,r_0}\\left(1-\\dfrac{1}{n}\\right)",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Barras de punto de fusion de las sustancias de referencia de la clase, ordenadas de menor a mayor: vainillina 82, acetanilida 114, acido benzoico 122, fenacetina 135, sulfanilamida 165, cafeina 236 y nitrato de potasio 334 grados Celsius. El salto grande hasta el nitrato de potasio marca el paso de solido molecular a solido ionico.",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "barras",
+      "ejeX": "Sustancia de referencia",
+      "ejeY": "Punto de fusion (grados C)",
+      "series": [
+        {
+          "nombre": "Punto de fusion certificado",
+          "datos": [
+            {
+              "x": "Vainillina",
+              "y": 82
+            },
+            {
+              "x": "Acetanilida",
+              "y": 114
+            },
+            {
+              "x": "Ac. benzoico",
+              "y": 122
+            },
+            {
+              "x": "Fenacetina",
+              "y": 135
+            },
+            {
+              "x": "Sulfanilamida",
+              "y": 165
+            },
+            {
+              "x": "Cafeina",
+              "y": 236
+            },
+            {
+              "x": "Nitrato de potasio",
+              "y": 334
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Siete barras crecientes. Las seis primeras, solidos moleculares, suben de forma gradual de 82 a 236 grados; la septima, el nitrato de potasio ionico, salta a 334 grados. La diferencia es entalpia reticular, no entropia."
+    }
+  },
+  {
+    "id": "HL-CF-029",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué el isómero simétrico de un compuesto suele fundir más alto y la cadena ramificada hierve más bajo?",
+    "respuesta": "Son dos efectos de empaquetamiento y contacto. Una molécula más simétrica encaja mejor en la red cristalina, con más puntos de contacto por unidad de volumen, así que su entalpía de fusión y su punto de fusión suben aunque las fuerzas intermoleculares por contacto sean parecidas a las del isómero asimétrico. En la ebullición manda la superficie de contacto de van der Waals en el líquido: una cadena ramificada es más compacta, ofrece menos área para las fuerzas de dispersión y por eso hierve más bajo que la lineal.",
+    "regla": "La simetría de empaquetamiento sube el punto de fusión; la ramificación de cadena baja el punto de ebullición al reducir el área de contacto de van der Waals.",
+    "ejemplo": "El para-diclorobenceno, muy simétrico, funde bastante más alto que el orto, mucho menos simétrico, pese a fuerzas intermoleculares comparables.",
+    "error_comun": "Explicar toda diferencia de punto de fusión entre isómeros por la fuerza de las interacciones, ignorando que la eficiencia del empaquetamiento cristalino pesa tanto o más.",
+    "conexion_cotidiana": "Es la base de por qué la gasolina se formula con hidrocarburos ramificados: hierven en el rango adecuado y resisten mejor la autoignición que los lineales.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-CF-005"
+    ]
+  },
+  {
+    "id": "HL-CF-030",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Cómo reaparecen el punto de ebullición y el índice de refracción como herramientas dentro de la química analítica moderna?",
+    "respuesta": "El índice de retención de Kovats en cromatografía de gases usa una escala logarítmica anclada a una serie homóloga de $n$-alcanos y correlaciona empíricamente con el punto de ebullición del analito: la misma constante física reaparece como criterio de identificación cromatográfica. Y los detectores de índice de refracción, RID, en cromatografía líquida son un refractómetro de Abbe miniaturizado en línea que detecta cualquier analito cuyo $n$ difiera del de la fase móvil, útil justo para compuestos sin cromóforo ultravioleta como muchos azúcares.",
+    "regla": "El punto de ebullición vive dentro del índice de Kovats como eje de correlación; el índice de refracción vive dentro del detector RID como principio de medida en línea.",
+    "ejemplo": "Un azúcar que no absorbe en el ultravioleta pasa desapercibido para un detector de arreglo de diodos pero da una señal clara en un RID, porque su índice de refracción difiere del de la fase móvil acuosa.",
+    "error_comun": "Pensar que las constantes físicas quedaron obsoletas frente a la cromatografía, cuando siguen operando dentro de sus detectores y de sus escalas de retención.",
+    "conexion_cotidiana": "Un refractómetro de mano para medir grados Brix en fruta es el mismo instrumento del ángulo crítico, y su versión en línea vigila la concentración de jarabe en una planta de bebidas.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-CF-009",
+      "HL-CF-018"
+    ]
+  },
+  {
+    "id": "HL-CF-031",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Cómo se aplican Clausius-Clapeyron y la refractometría de ángulo crítico a problemas de suelos y de destino ambiental de contaminantes?",
+    "respuesta": "La misma ecuación de Clausius-Clapeyron que predice el punto de ebullición del agua en altura predice la presión de vapor de un plaguicida a temperatura ambiente, y esa presión de vapor, junto con la constante de la ley de Henry, es lo que determina si un contaminante depositado en suelo tiende a volatilizarse hacia la atmósfera o a quedarse retenido. Y un refractómetro de mano, basado en el mismo ángulo crítico del laboratorio, es una herramienta barata de campo para estimar sólidos disueltos totales en un extracto de saturación de suelo.",
+    "regla": "La presión de vapor gobernada por Clausius-Clapeyron es una de las variables clave del reparto de un contaminante entre suelo y aire; la refractometría de campo estima carga salina de forma rápida y no destructiva.",
+    "ejemplo": "Un plaguicida volátil con presión de vapor apreciable a 25 °C se pierde del suelo por volatilización en días; uno de presión de vapor muy baja permanece y se degrada por otras vías.",
+    "error_comun": "Evaluar el destino ambiental de un compuesto solo por su solubilidad en agua, sin considerar que su presión de vapor puede dominar la pérdida desde el suelo.",
+    "conexion_cotidiana": "Es una conexión directa con la consultoría ambiental: la misma matemática de la destilación de laboratorio decide si un residuo agrícola termina en la atmósfera o en el perfil del suelo.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-CF-007"
+    ]
+  },
+  {
+    "id": "HL-CF-032",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué la quiralidad de un plaguicida importa para su comportamiento en el ambiente, y qué implica para la regulación?",
+    "respuesta": "Muchos plaguicidas modernos son quirales, y sus enantiómeros pueden degradarse a velocidades distintas en el suelo por acción microbiana enantioselectiva y pueden tener toxicidades distintas. Es el mismo fenómeno de reconocimiento molecular quiral que hizo que la talidomida tuviera un enantiómero terapéutico y otro teratogénico. La consecuencia regulatoria es una tendencia internacional hacia el análisis de residuos específico por enantiómero, no solo por compuesto total, donde la polarimetría, o más realistamente la cromatografía con fase estacionaria quiral, se vuelve directamente relevante.",
+    "regla": "Un residuo de plaguicida quiral no se caracteriza del todo con su concentración total: la proporción de enantiómeros cambia con el tiempo y afecta la toxicidad real. Esto es área de investigación activa, no una relación tan cerrada como la termodinámica de fases.",
+    "ejemplo": "Dos enantiómeros de un mismo herbicida pueden persistir semanas de diferencia en el mismo suelo, de modo que una medida de compuesto total sobreestima o subestima el riesgo según cuál domine.",
+    "error_comun": "Asumir que dos enantiómeros de un plaguicida se comportan igual en el ambiente porque comparten fórmula y propiedades escalares.",
+    "conexion_cotidiana": "Es un frente donde evaluar el cumplimiento de límites máximos de residuos en exportaciones agrícolas exige, cada vez más, mirar la composición enantiomérica.",
+    "dificultad": "media",
+    "prereqs": [
+      "HL-CF-023",
+      "HL-CF-031"
+    ]
+  },
+  {
+    "id": "HL-CF-033",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Por qué el punto de fusión mixto identifica un compuesto, y por qué la crioscopía servía como método de masa molar?",
+    "respuesta": "Si se mezclan dos muestras que se sospecha son el mismo compuesto y se vuelve a medir el punto de fusión, cada una actúa como impureza de la otra en caso de ser distintas: aparece un componente nuevo que deprime y ensancha el intervalo de fusión, por la misma física del equilibrio de fases. Si son idénticas, no hay componente nuevo y el punto de fusión permanece agudo. La crioscopía extiende esa idea: la depresión del punto de congelación de una disolución diluida, vía la ley de Raoult, es proporcional a la concentración molar del soluto, así que medirla con un termómetro de alta resolución daba la masa molar de un desconocido.",
+    "regla": "[[HL-R-cf-pf-mixto|El punto de fusión mixto es un experimento de equilibrio de fases disfrazado de prueba de identidad]]; la crioscopía es el mismo equilibrio usado para contar moles y despejar masa molar.",
+    "ejemplo": "Antes de cualquier espectrómetro, la depresión crioscópica medida con un termómetro Beckmann era el método estándar para estimar el peso molecular de un compuesto orgánico nuevo.",
+    "error_comun": "Interpretar un punto de fusión mixto agudo como prueba de identidad sin considerar el caso raro de un cocristal o de una solución sólida que no deprime.",
+    "conexion_cotidiana": "Es la misma física por la que echar sal a una carretera helada derrite el hielo: el soluto deprime el punto de congelación del agua.",
+    "dificultad": "baja",
+    "prereqs": [
+      "HL-CF-005"
+    ],
+    "connects_to": [
+      "diosgenina:FQT"
+    ]
+  },
+  {
+    "id": "HL-CF-034",
+    "modulo": "habilidades_laboratorio",
+    "tipo": "concepto",
+    "bloque": "cf",
+    "modo": "pregunta",
+    "pregunta": "¿Cuáles son los errores frecuentes y los límites del modelo ideal en la determinación de constantes físicas?",
+    "respuesta": "Cuatro recurrentes. [[HL-R-cf-obs-vs-especifica|Confundir $\\alpha_{obs}$ con $[\\alpha]$]], el mismo error que $P$ frente a $D$ en la Guía 1: una cantidad medida contra una normalizada. Asumir que sin rotación observable el compuesto es aquiral, cuando puede ser un racemato. Omitir la corrección de columna emergente cuando el modo de inmersión no coincide con la calibración. Y usar Walden-Hildebrand sin verificar que $\\Delta S_{fus}$ sea normal, que falla en sólidos flexibles o con transiciones sólido-sólido cercanas. La frontera está en asignar configuración absoluta por dicroísmo circular con cálculos cuánticos de $R$.",
+    "regla": "El modelo ideal se rompe donde $\\gamma\\neq 1$, donde el gas deja de ser ideal cerca del punto crítico, donde el sólido no tiene $\\Delta S_{fus}$ típico, y donde la termodinámica del equilibrio no dice nada de la cinética con que se alcanza.",
+    "ejemplo": "Un termómetro de inmersión total leído en inmersión parcial puede errar 4 °C: no es ruido, es un sesgo sistemático que solo se ve si se calcula la corrección aparte.",
+    "error_comun": "Tratar los fusiómetros y refractómetros digitales como si eliminaran la física de fondo, cuando solo automatizan la detección del mismo evento de equilibrio y siguen sujetos a sus límites.",
+    "conexion_cotidiana": "Saber dónde falla un modelo es lo que separa medir con criterio de copiar un número: cada una tiene un régimen donde la fórmula deja de predecir.",
+    "dificultad": "alta",
+    "prereqs": [
+      "HL-CF-005",
+      "HL-CF-021",
+      "HL-CF-023"
+    ]
+  }
+]

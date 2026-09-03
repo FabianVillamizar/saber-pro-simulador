@@ -1,0 +1,362 @@
+[
+  {
+    "id": "HL-CF-LP-001",
+    "bloque": "EQUILIBRIO-FASES",
+    "subcategoria": "Determinación de Constantes Físicas",
+    "tipo": "formula",
+    "enunciado": "Un compuesto tiene $\\Delta H_{fus}=18.0$ kJ·mol⁻¹ y $\\Delta S_{fus}=9.5$ J·mol⁻¹·K⁻¹, dentro del rango de Walden-Hildebrand. Estima su temperatura de fusión y evalúa si el resultado es físicamente razonable.",
+    "promptFase1": "Sin calcular nada todavía, ¿qué relación aplica aquí?",
+    "opciones": [
+      {
+        "texto": "Temperatura de transición de fase: $T_{fus}=\\Delta H_{fus}/\\Delta S_{fus}$, con la entalpía en las mismas unidades de energía que la entropía",
+        "correcta": true
+      },
+      {
+        "texto": "Ecuación de Clausius-Clapeyron integrada: $\\ln(P_2/P_1)=-(\\Delta H/R)(1/T_2-1/T_1)$, despejando la temperatura $T_2$ del sólido",
+        "correcta": false
+      },
+      {
+        "texto": "Regla de Trouton para la vaporización: $\\Delta S_{vap}\\approx 88$ J·mol⁻¹·K⁻¹, usada para estimar la temperatura de cambio de fase",
+        "correcta": false
+      },
+      {
+        "texto": "Corrección de columna emergente: $\\Delta T=k\\,N\\,(T-T_s)$, sumada al valor observado para obtener la temperatura real de fusión",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "La relación que aplica",
+    "formula": "T_{fus} = \\dfrac{\\Delta H_{fus}}{\\Delta S_{fus}}",
+    "enfoqueCorto": "Temperatura de transición como cociente entalpía sobre entropía",
+    "porQue": "Es una transición de fase en el equilibrio: la temperatura sale de igualar energías libres y despejar, que da [[HL-R-cf-t-trans|$T_{fus}=\\Delta H_{fus}/\\Delta S_{fus}$]]. No hay presiones ni curva de coexistencia, así que Clausius-Clapeyron no aplica.",
+    "respuesta": "$T_{fus}\\approx 1895$ K, un valor claramente irreal para un compuesto orgánico simple: es una señal de alerta, no un resultado válido.",
+    "desarrollo": "$T_{fus}=18\\,000/9.5\\approx 1895$ K. Con $\\Delta S_{fus}$ típico, esa temperatura exigiría un $\\Delta H_{fus}$ propio de una red de puentes de hidrógeno extensa o de un sólido iónico. Aplicar la [[HL-R-cf-walden-hildebrand|fórmula]] sin verificar que los datos correspondan al tipo de sólido correcto produce números sin sentido físico.",
+    "atajoPct": 5,
+    "atajoCosto": "una división",
+    "brutoCosto": "buscar el dato en tablas compuesto por compuesto",
+    "notaAtajo": "La fórmula da el número en un paso; lo que no puede hacer sola es avisar de que los datos de entrada no son coherentes entre sí. Eso lo pone el criterio."
+  },
+  {
+    "id": "HL-CF-LP-002",
+    "bloque": "EQUILIBRIO-FASES",
+    "subcategoria": "Determinación de Constantes Físicas",
+    "tipo": "formula",
+    "enunciado": "Un líquido tiene $\\Delta H_{vap}=32$ kJ·mol⁻¹ y su punto de ebullición normal es 350 K. ¿Obedece razonablemente la regla de Trouton? Justifica con el cálculo de $\\Delta S_{vap}$.",
+    "promptFase1": "Sin calcular nada todavía, ¿qué hay que evaluar?",
+    "opciones": [
+      {
+        "texto": "La entropía de vaporización en el punto de ebullición, $\\Delta S_{vap}=\\Delta H_{vap}/T_{eb}$, comparada con el rango normal de 85 a 88 J·mol⁻¹·K⁻¹",
+        "correcta": true
+      },
+      {
+        "texto": "La entalpía de vaporización corregida por presión, $\\Delta H_{vap}(P)=\\Delta H_{vap}^\\circ+RT\\ln(P/P^\\circ)$, y su cociente con la temperatura ambiente",
+        "correcta": false
+      },
+      {
+        "texto": "El coeficiente de Sydney Young del líquido, $K=R/(\\Delta H_{vap}P^\\circ)$, para ver si cae en el intervalo 0.00010 a 0.00012 de los hidrocarburos",
+        "correcta": false
+      },
+      {
+        "texto": "La pendiente de $\\ln P$ frente a $1/T$, igual a $-\\Delta H_{vap}/R$, evaluada en dos puntos de la curva de presión de vapor tabulada",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "La cantidad que hay que comparar",
+    "formula": "\\Delta S_{vap} = \\dfrac{\\Delta H_{vap}}{T_{eb}}",
+    "enfoqueCorto": "Entropía de vaporización frente al rango de Trouton",
+    "porQue": "La [[HL-R-cf-trouton|regla de Trouton]] es una afirmación sobre $\\Delta S_{vap}$ en el punto de ebullición normal. Basta dividir la entalpía por esa temperatura y ver si el resultado cae en la banda típica de líquidos no asociados.",
+    "respuesta": "$\\Delta S_{vap}\\approx 91.4$ J·mol⁻¹·K⁻¹, apenas por encima del rango de Trouton: el líquido lo obedece de forma razonable, sin señal de asociación fuerte.",
+    "desarrollo": "$\\Delta S_{vap}=32\\,000/350\\approx 91.4$ J·mol⁻¹·K⁻¹. Está cerca del extremo alto de la banda 85 a 88, sin llegar a los valores muy elevados del agua o los alcoholes, así que no hay evidencia de una red de puentes de hidrógeno importante en el líquido.",
+    "atajoPct": 5,
+    "atajoCosto": "una división y una comparación",
+    "brutoCosto": "medir la curva de presión de vapor completa para inferir la asociación molecular",
+    "notaAtajo": "El cociente entalpía sobre temperatura de ebullición ya dice si el líquido es normal; no hace falta la curva entera para responder a la pregunta que se hace."
+  },
+  {
+    "id": "HL-CF-LP-003",
+    "bloque": "EQUILIBRIO-FASES",
+    "subcategoria": "Determinación de Constantes Físicas",
+    "tipo": "trampa",
+    "enunciado": "Un compañero mide el punto de fusión de un producto de síntesis y obtiene un intervalo de 118 a 124 °C, más ancho y más bajo que los 126 °C tabulados del compuesto puro. Anota: «el termómetro está descalibrado, hay que recalibrar antes de seguir». ¿Qué conviene reconocer antes de aceptar esa conclusión?",
+    "promptFase1": "Sin recalcular nada todavía, ¿qué te piden reconocer?",
+    "opciones": [
+      {
+        "texto": "Que un intervalo ancho y deprimido es la firma de una segunda fase presente: cada componente actúa como impureza del otro y desordena el equilibrio",
+        "correcta": true
+      },
+      {
+        "texto": "Que el termómetro necesita la corrección de columna emergente, porque se usó en inmersión parcial estando calibrado para inmersión total del bulbo",
+        "correcta": false
+      },
+      {
+        "texto": "Que la rampa de calentamiento fue demasiado rápida, y el retraso térmico $\\Delta T_{lag}=\\beta\\tau$ desplazó la lectura hacia valores más bajos de lo real",
+        "correcta": false
+      },
+      {
+        "texto": "Que el valor tabulado de 126 °C se midió a otra presión atmosférica, y hay que corregirlo a 101.325 kPa antes de comparar con la medida propia",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "La trampa que hay que ver",
+    "formula": "",
+    "enfoqueCorto": "Intervalo ancho y bajo = otra fase, no termómetro descalibrado",
+    "porQue": "Un termómetro descalibrado desplazaría el valor, no ensancharía el intervalo. Un rango de fusión ancho y deprimido respecto al valor puro es exactamente lo que produce un segundo componente: introduce un grado de libertad de composición que hace que el sólido empiece a fundir antes y termine después. El retraso térmico eleva la lectura, no la baja, y la presión casi no afecta a la fusión.",
+    "respuesta": "El producto no está puro. El ensanchamiento y la depresión del intervalo son diagnóstico de otra fase, no de un termómetro descalibrado; toca recristalizar, no recalibrar.",
+    "desarrollo": "En el lenguaje de fases: un sólido de un solo componente funde a temperatura fija porque sólido y líquido de la misma composición coexisten en un solo punto. [[HL-R-cf-t-trans|Añadir un segundo componente]] da un tramo de coexistencia sobre un rango de temperatura, que se observa como un intervalo de fusión ancho, y baja la temperatura a la que aparece la primera gota de líquido.",
+    "atajoPct": 5,
+    "atajoCosto": "leer qué información lleva la forma del intervalo, no solo su valor",
+    "brutoCosto": "desmontar y recalibrar el termómetro con tres patrones para un problema que la recalibración no resuelve",
+    "notaAtajo": "Ningún ajuste del termómetro va a estrechar un intervalo que es ancho porque la muestra tiene dos componentes. El dato que importaba estaba en la forma, no en el número."
+  },
+  {
+    "id": "HL-CF-LP-004",
+    "bloque": "CLAUSIUS-CLAPEYRON",
+    "subcategoria": "Determinación de Constantes Físicas",
+    "tipo": "formula",
+    "enunciado": "Calcula el punto de ebullición del agua en una ciudad a 2600 m de altitud, donde la presión atmosférica es aproximadamente 74.7 kPa. Usa la ecuación de Clausius-Clapeyron integrada con $\\Delta H_{vap}\\approx 40.7$ kJ·mol⁻¹ y el punto de referencia de 373.15 K a 101.325 kPa.",
+    "promptFase1": "Sin calcular nada todavía, ¿qué ecuación aplica aquí?",
+    "opciones": [
+      {
+        "texto": "Clausius-Clapeyron integrada: $\\ln(P_2/P_1)=-(\\Delta H_{vap}/R)(1/T_2-1/T_1)$, despejando $T_2$ con $P_2$ la presión local",
+        "correcta": true
+      },
+      {
+        "texto": "Temperatura de transición de fase: $T_{eb}=\\Delta H_{vap}/\\Delta S_{vap}$, usando la regla de Trouton para estimar la entropía de vaporización",
+        "correcta": false
+      },
+      {
+        "texto": "Corrección de Sydney Young: $T_{corr}=T_{obs}+K(101.325-P_{obs})(273+T_{obs})$, con $T_{obs}$ el valor a nivel del mar",
+        "correcta": false
+      },
+      {
+        "texto": "Ley de Biot escalada por presión: $\\alpha=[\\alpha]\\,l\\,c\\,(P/P^\\circ)$, evaluada a la presión atmosférica reducida de la ciudad",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "La ecuación que aplica",
+    "formula": "\\ln\\!\\left(\\dfrac{P_2}{P_1}\\right) = -\\dfrac{\\Delta H_{vap}}{R}\\left(\\dfrac{1}{T_2}-\\dfrac{1}{T_1}\\right)",
+    "enfoqueCorto": "Clausius-Clapeyron integrada, despejando la temperatura",
+    "porQue": "Se pide la temperatura a la que el agua hierve a una presión externa distinta de la normal, moviéndose a lo largo de la curva líquido-vapor. Esa es exactamente la [[HL-R-cf-clausius-clapeyron|forma integrada de Clausius-Clapeyron]], no una temperatura de transición de un solo punto.",
+    "respuesta": "$T_{eb}\\approx 364.7$ K, es decir unos 91.5 °C, más de 8 °C por debajo del valor a nivel del mar.",
+    "desarrollo": "$1/T_2 = 1/373.15 - (8.314/40\\,700)\\cdot\\ln(74.7/101.325)$. Con $\\ln(0.7372)=-0.3048$: $1/T_2 = 2.6798\\times10^{-3} + 6.23\\times10^{-5} = 2.7421\\times10^{-3}$ K⁻¹, de donde $T_2\\approx 364.7$ K $= 91.5$ °C.",
+    "atajoPct": 8,
+    "atajoCosto": "un logaritmo y un despeje de $1/T$",
+    "brutoCosto": "interpolar en tablas de presión de vapor del agua entre entradas tabuladas",
+    "notaAtajo": "La forma integrada da el valor directo para cualquier presión; la tabla solo tiene puntos sueltos y obliga a interpolar entre ellos con menos precisión."
+  },
+  {
+    "id": "HL-CF-LP-005",
+    "bloque": "INSTRUMENTACION",
+    "subcategoria": "Determinación de Constantes Físicas",
+    "tipo": "trampa",
+    "enunciado": "Un termómetro se calibra con tres patrones y se obtienen correcciones de $+0.2$ °C a 122 °C, $+0.5$ °C a 236 °C y $+0.9$ °C a 334 °C. Un compañero concluye: «la corrección promedio es $+0.53$ °C, se la sumo a todas mis lecturas». ¿Qué conviene reconocer antes de aceptar esa conclusión?",
+    "promptFase1": "Sin recalcular nada todavía, ¿qué te piden reconocer?",
+    "opciones": [
+      {
+        "texto": "Que la corrección crece de forma monótona con la temperatura, así que el error es proporcional a $T$ y no una constante que se pueda promediar",
+        "correcta": true
+      },
+      {
+        "texto": "Que las tres correcciones son tan pequeñas que caen dentro de la incertidumbre del método y lo correcto es no aplicar ninguna corrección",
+        "correcta": false
+      },
+      {
+        "texto": "Que faltó incluir un cuarto patrón por debajo de 100 °C, sin el cual la recta de calibración no queda bien definida en todo el rango",
+        "correcta": false
+      },
+      {
+        "texto": "Que las correcciones deben restarse en lugar de sumarse, porque por convención $\\Delta T=T_{observado}-T_{certificado}$ y no al revés",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "La trampa que hay que ver",
+    "formula": "",
+    "enfoqueCorto": "El error crece con T: es proporcional, no constante",
+    "porQue": "Promediar solo tiene sentido si el error es una constante con ruido alrededor. Aquí las tres correcciones suben de forma ordenada, $+0.2$, $+0.5$, $+0.9$, al subir la temperatura de 122 a 334 °C: eso es un error sistemático proporcional a $T$, del tipo que corrige un ajuste de pendiente, no un desplazamiento fijo. Aplicar el promedio sobre-corregiría a baja temperatura y sub-corregiría a alta.",
+    "respuesta": "El error no es constante: crece con la temperatura. Hay que ajustar por regresión lineal la corrección frente a $T$, no aplicar un promedio único.",
+    "desarrollo": "De 122 a 334 °C, unos 212 °C de rango, la corrección pasa de $+0.2$ a $+0.9$ °C, unos $+0.7$ °C de variación, casi lineal. Eso apunta a un error de ganancia del termómetro. La calibración correcta ajusta pendiente y desplazamiento de $\\Delta T$ contra $T$ y usa esa recta, no un número plano.",
+    "atajoPct": 5,
+    "atajoCosto": "ver la tendencia de los tres puntos antes de promediar",
+    "brutoCosto": "aplicar un promedio erróneo y arrastrar un sesgo de hasta medio grado en los extremos del rango",
+    "notaAtajo": "Los tres puntos ya muestran la tendencia; promediarlos borra justo la información que hacía falta, que es cómo cambia el error con la temperatura."
+  },
+  {
+    "id": "HL-CF-LP-006",
+    "bloque": "INSTRUMENTACION",
+    "subcategoria": "Determinación de Constantes Físicas",
+    "tipo": "formula",
+    "enunciado": "Un termómetro de inmersión total se usa en inmersión parcial en un tubo de Thiele. La lectura del bulbo es 215 °C; la columna emergente cubre 139 °C de escala a una temperatura media de 45 °C. Con $k\\approx 0.00016$ °C⁻¹, calcula la corrección de columna emergente y la temperatura verdadera.",
+    "promptFase1": "Sin calcular nada todavía, ¿qué fórmula aplica aquí?",
+    "opciones": [
+      {
+        "texto": "Corrección de columna emergente: $\\Delta T_{tallo}=k\\,N\\,(T-T_s)$, con $N$ los grados de columna fuera del baño y $T_s$ su temperatura media",
+        "correcta": true
+      },
+      {
+        "texto": "Corrección de Sydney Young: $T_{corr}=T_{obs}+K(101.325-P_{obs})(273+T_{obs})$, usando la presión barométrica del laboratorio",
+        "correcta": false
+      },
+      {
+        "texto": "Retraso térmico estacionario: $\\Delta T_{lag}=\\beta\\,\\tau$, con $\\beta$ la rampa de calentamiento y $\\tau$ la constante de tiempo del montaje",
+        "correcta": false
+      },
+      {
+        "texto": "Interpolación lineal entre dos puntos de calibración: $\\Delta T = \\Delta T_1 + (\\Delta T_2-\\Delta T_1)\\,(T-T_1)/(T_2-T_1)$",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "La fórmula que aplica",
+    "formula": "\\Delta T_{tallo} = k\\,N\\,(T - T_s)",
+    "enfoqueCorto": "Corrección de columna emergente, sumada a la lectura",
+    "porQue": "El problema dice explícitamente que el modo de inmersión real, parcial, no coincide con el de calibración, total, y da los tres datos de la [[HL-R-cf-columna-emergente|fórmula]]: grados de columna emergente $N$, temperatura del bulbo $T$ y temperatura media de la columna $T_s$. No hay presión ni rampa involucradas.",
+    "respuesta": "$\\Delta T_{tallo}\\approx 3.8$ °C, así que la temperatura verdadera es unos 218.8 °C.",
+    "desarrollo": "$\\Delta T_{tallo}=(0.00016)(139)(215-45)=(0.00016)(139)(170)\\approx 3.78$ °C. $T_{corr}=215+3.78\\approx 218.8$ °C. El error de casi 4 °C está muy por encima de la tolerancia típica de $\\pm 0.3$ °C: la corrección no es opcional cuando el modo de inmersión no coincide.",
+    "atajoPct": 5,
+    "atajoCosto": "un producto de tres factores",
+    "brutoCosto": "conseguir un segundo termómetro certificado para el mismo rango y medir en paralelo",
+    "notaAtajo": "La fórmula recupera la temperatura real con los datos que ya se tienen; sin ella habría que montar una medida de referencia en paralelo solo para cuantificar el mismo sesgo."
+  },
+  {
+    "id": "HL-CF-LP-007",
+    "bloque": "INDICE-REFRACCION",
+    "subcategoria": "Determinación de Constantes Físicas",
+    "tipo": "formula",
+    "enunciado": "Un refractómetro de Abbe usa un prisma de medida de índice $n_1=1.750$. Se observa que la frontera luz-sombra ocurre a un ángulo crítico interno $\\theta_c=51.2°$. ¿Cuál es el índice de refracción de la muestra?",
+    "promptFase1": "Sin calcular nada todavía, ¿qué relación aplica aquí?",
+    "opciones": [
+      {
+        "texto": "Índice de la muestra a partir del ángulo crítico: $n_D=n_1\\operatorname{sen}\\theta_c$, con $n_1$ el índice conocido del prisma de medida",
+        "correcta": true
+      },
+      {
+        "texto": "Relación de Lorentz-Lorenz: $(n^2-1)/(n^2+2)=N\\alpha_{pol}/3\\varepsilon_0$, despejando $n$ a partir de la polarizabilidad tabulada",
+        "correcta": false
+      },
+      {
+        "texto": "Ley de Snell directa: $n_1\\operatorname{sen}\\theta_1=n_2\\operatorname{sen}\\theta_2$, con $\\theta_1$ el ángulo de incidencia externo y $\\theta_2=45°$ fijo",
+        "correcta": false
+      },
+      {
+        "texto": "Corrección térmica del índice: $n_D^{20}=n_D^{T}+(dn/dT)(T-20)$, con $dn/dT\\approx-4\\times10^{-4}$ °C⁻¹ para líquidos orgánicos",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "La relación que aplica",
+    "formula": "n_D = n_1\\,\\operatorname{sen}\\theta_c",
+    "enfoqueCorto": "Índice de la muestra desde el ángulo crítico y el prisma",
+    "porQue": "El [[HL-R-cf-angulo-critico|refractómetro de Abbe localiza el ángulo crítico]] de la interfaz prisma-muestra. De $\\operatorname{sen}\\theta_c=n_2/n_1$ se despeja el índice de la muestra multiplicando el seno del ángulo observado por el índice conocido del prisma.",
+    "respuesta": "$n_D\\approx 1.364$, un valor cercano al del etanol puro.",
+    "desarrollo": "$n_D=n_1\\operatorname{sen}\\theta_c=(1.750)\\operatorname{sen}(51.2°)=(1.750)(0.7793)\\approx 1.364$. El prisma debe tener índice mayor que cualquier muestra líquida habitual para que exista el ángulo crítico dentro del rango medible.",
+    "atajoPct": 5,
+    "atajoCosto": "un seno y un producto",
+    "brutoCosto": "medir el ángulo de desviación del rayo a varios ángulos de incidencia y ajustar",
+    "notaAtajo": "El ángulo crítico da el índice en una sola operación; barrer ángulos de incidencia daría el mismo número con mucho más trabajo de medida."
+  },
+  {
+    "id": "HL-CF-LP-008",
+    "bloque": "ROTACION-OPTICA",
+    "subcategoria": "Determinación de Constantes Físicas",
+    "tipo": "formula",
+    "enunciado": "Dos enantiómeros puros tienen $[\\alpha]^{20}_D=+52°$ y $-52°$. Una mezcla de ambos, medida a $c=1.2$ g·mL⁻¹ en una celda de $l=1$ dm, da $\\alpha_{obs}=+9.1°$. Calcula el exceso enantiomérico y la composición porcentual de cada enantiómero.",
+    "promptFase1": "Sin calcular nada todavía, ¿qué relaciones aplican aquí?",
+    "opciones": [
+      {
+        "texto": "Ley de Biot para la mezcla, $[\\alpha]_{mezcla}=\\alpha_{obs}/(l\\,c)$, y luego $ee=[\\alpha]_{mezcla}/[\\alpha]_{puro}$, con $x_\\pm=(1\\pm ee)/2$",
+        "correcta": true
+      },
+      {
+        "texto": "Balance de masa entre las dos formas, $[HA]+[A^-]=C_{total}$, con la razón fijada por el $pK_a$ y el pH de la disolución medida",
+        "correcta": false
+      },
+      {
+        "texto": "Promedio ponderado de las rotaciones específicas por fracción molar, sin usar la longitud de celda ni la concentración de la muestra",
+        "correcta": false
+      },
+      {
+        "texto": "Fuerza rotacional de Rosenfeld, $R=\\operatorname{Im}(\\vec{\\mu}\\cdot\\vec{m})$, integrada sobre la banda de absorción del cromóforo activo",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "Las relaciones que aplican",
+    "formula": "ee = \\dfrac{[\\alpha]_{mezcla}}{[\\alpha]_{puro}} = \\dfrac{\\alpha_{obs}/(l\\,c)}{[\\alpha]_{puro}}",
+    "enfoqueCorto": "Rotación específica de la mezcla, luego cociente con la del puro",
+    "porQue": "Primero se normaliza la rotación observada con la [[HL-R-cf-biot|ley de Biot]] para obtener $[\\alpha]_{mezcla}$; ese valor, dividido por la rotación específica del enantiómero puro, es directamente el [[HL-R-cf-ee|exceso enantiomérico]], del que salen las dos fracciones.",
+    "respuesta": "$ee\\approx 14.6\\%$: la mezcla es 57.3 % del enantiómero dextrógiro y 42.7 % del levógiro.",
+    "desarrollo": "$[\\alpha]_{mezcla}=9.1/(1\\times1.2)\\approx 7.58$. $ee=7.58/52\\approx 0.146$, es decir 14.6 %. Con $x_++x_-=1$ y $x_+-x_-=0.146$: $x_+=(1+0.146)/2\\approx 0.573$ y $x_-\\approx 0.427$.",
+    "atajoPct": 8,
+    "atajoCosto": "una normalización y una división",
+    "brutoCosto": "separar la mezcla por cromatografía quiral y pesar cada fracción por separado",
+    "notaAtajo": "Una sola lectura de polarímetro, con el $[\\alpha]$ de referencia, da la composición sin montar una separación quiral, que es horas de trabajo para el mismo dato."
+  },
+  {
+    "id": "HL-CF-LP-009",
+    "bloque": "RAMIFICACION",
+    "subcategoria": "Determinación de Constantes Físicas",
+    "tipo": "trampa",
+    "enunciado": "Un estudiante afirma: «como el punto de fusión sale de $T_{fus}=\\Delta H_{fus}/\\Delta S_{fus}$, el del NaCl (801 °C) debe ser tan alto porque su entropía de fusión es minúscula; y el del naftaleno casi no cambiaría si sustituyéramos hidrógenos por deuterio, porque eso subiría mucho su entropía». ¿Qué conviene reconocer en este razonamiento?",
+    "promptFase1": "Sin recalcular nada todavía, ¿qué te piden reconocer?",
+    "opciones": [
+      {
+        "texto": "Que en ambos casos manda la entalpía de fusión, no la entropía: la del NaCl es enorme por la energía reticular y la sustitución isotópica casi no la toca",
+        "correcta": true
+      },
+      {
+        "texto": "Que la entropía de fusión del NaCl es efectivamente diez veces menor que la del naftaleno, y ese es el factor que explica los 700 °C de diferencia",
+        "correcta": false
+      },
+      {
+        "texto": "Que la sustitución de hidrógeno por deuterio cambia sobre todo la entropía vibracional del cristal, y por eso subiría de forma apreciable el punto de fusión",
+        "correcta": false
+      },
+      {
+        "texto": "Que la fórmula no aplica a sólidos iónicos y hay que usar en su lugar la ecuación de Born-Landé despejada para la temperatura de fusión de la red",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "La trampa que hay que ver",
+    "formula": "",
+    "enfoqueCorto": "Manda la entalpía reticular, no la entropía de fusión",
+    "porQue": "Las entropías de fusión del NaCl y del naftaleno son de hecho comparables. El punto de fusión altísimo del NaCl viene de su $\\Delta H_{fus}$ enorme, ligada a la energía reticular de Born-Landé: romper una red de iones con carga completa cuesta mucho más que romper un cristal molecular sostenido por dispersión de London. Y sustituir hidrógeno por deuterio cambia masas vibracionales de forma marginal para la entropía de fusión: el punto de fusión del naftaleno es casi insensible a eso porque su $\\Delta H_{fus}$ apenas se altera.",
+    "respuesta": "El razonamiento invierte los papeles: en los dos casos el que decide es $\\Delta H_{fus}$. El del NaCl es alto por energía reticular; el del naftaleno es estable frente a isótopos porque su entalpía apenas cambia.",
+    "desarrollo": "Con $\\Delta S_{fus}$ comparable entre ambos, la relación $T_{fus}=\\Delta H_{fus}/\\Delta S_{fus}$ dice que la diferencia de 700 °C es diferencia de entalpía. La [[HL-R-cf-born-lande|energía reticular]] escala con $z^+z^-/r_0$: cargas completas y distancias cortas dan entalpías de fusión iónicas uno o dos órdenes por encima de las moleculares.",
+    "atajoPct": 5,
+    "atajoCosto": "recordar que $\\Delta S_{fus}$ es parecido y mirar el numerador",
+    "brutoCosto": "buscar y tabular entropías de fusión de sales y de cristales moleculares para confirmar que son del mismo orden",
+    "notaAtajo": "No hace falta la tabla completa de entropías: basta saber que son comparables para ver que toda la diferencia vive en la entalpía reticular."
+  },
+  {
+    "id": "HL-CF-LP-010",
+    "bloque": "CLAUSIUS-CLAPEYRON",
+    "subcategoria": "Determinación de Constantes Físicas",
+    "tipo": "formula",
+    "enunciado": "Un hidrocarburo destila con un punto de ebullición observado de 124.0 °C a una presión barométrica de 91.0 kPa. Con $K=0.00011$ para ese compuesto, corrige el valor al punto de ebullición normal usando la ecuación de Sydney Young.",
+    "promptFase1": "Sin calcular nada todavía, ¿qué fórmula aplica aquí?",
+    "opciones": [
+      {
+        "texto": "Corrección de Sydney Young: $T_{corr}=T_{obs}+K(101.325-P_{obs})(273+T_{obs})$, la forma lineal en $(273+T_{obs})$",
+        "correcta": true
+      },
+      {
+        "texto": "Clausius-Clapeyron integrada completa: $\\ln(P_2/P_1)=-(\\Delta H_{vap}/R)(1/T_2-1/T_1)$, con $\\Delta H_{vap}$ estimado por Trouton",
+        "correcta": false
+      },
+      {
+        "texto": "Corrección de columna emergente: $\\Delta T_{tallo}=k\\,N\\,(T-T_s)$, con la constante $K$ dada haciendo el papel de $k$ del termómetro",
+        "correcta": false
+      },
+      {
+        "texto": "Temperatura de transición de fase: $T_{eb}=\\Delta H_{vap}/\\Delta S_{vap}$, corregida por el cociente entre la presión local y la normal",
+        "correcta": false
+      }
+    ],
+    "labelHerramienta": "La fórmula que aplica",
+    "formula": "T_{corr} = T_{obs} + K\\,(101.325 - P_{obs})\\,(273 + T_{obs})",
+    "enfoqueCorto": "Sydney Young, la forma lineal de Clausius-Clapeyron cerca de $P^\\circ$",
+    "porQue": "Se da la constante $K$ del compuesto y una presión observada cercana a la normal; eso es exactamente el dominio de validez de la [[HL-R-cf-sydney-young|corrección de Sydney Young, que es la linealización de Clausius-Clapeyron]] y evita resolver la forma integrada completa.",
+    "respuesta": "$T_{corr}\\approx 124.5$ °C: la corrección suma unos 0.45 °C porque se destiló por debajo de la presión normal.",
+    "desarrollo": "$T_{corr}=124.0+(0.00011)(101.325-91.0)(273+124.0)=124.0+(0.00011)(10.325)(397.0)\\approx 124.0+0.45=124.5$ °C. La corrección es positiva porque a menor presión el líquido hierve más frío, así que el valor a presión normal es más alto que el observado.",
+    "atajoPct": 6,
+    "atajoCosto": "un producto de tres factores",
+    "brutoCosto": "resolver la forma integrada de Clausius-Clapeyron con un $\\Delta H_{vap}$ que aquí ni se da",
+    "notaAtajo": "Cerca de la presión normal la forma lineal basta y solo pide la constante $K$; la forma integrada exigiría además la entalpía de vaporización del compuesto."
+  }
+]

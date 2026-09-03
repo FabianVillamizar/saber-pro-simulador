@@ -385,11 +385,14 @@ export const indiceModulos = {
     // Semillero académico, no examen oficial — igual que Inorgánica/Français,
     // `preguntas` queda vacío y no aplica Simulacro (ver bitácora del módulo).
     soportaSimulacro: false,
-    // Una técnica por ahora (Extracción Líquido-Líquido); cada técnica nueva
-    // que el semillero repase agrega su propia entrada aquí, mismo patrón
-    // por bloque que ya usan Diosgenina e Inorgánica.
+    // Cada técnica que el semillero repase agrega su propia entrada aquí,
+    // mismo patrón por bloque que ya usan Diosgenina e Inorgánica. La clave
+    // alimenta el badge por tarjeta (RepasoConceptos), el filtro de chips y
+    // el diagnóstico por técnica (QuizRapido), y el selector de técnica
+    // (ExploracionHabilidadesLaboratorio).
     categorias: {
       lle: 'Extracción Líquido-Líquido',
+      cf: 'Determinación de Constantes Físicas',
     },
     // Este módulo escribe símbolos matemáticos inline ($K_D$, $V_{ac}$,
     // etc.) en enunciados/opciones de Quiz Rápido y Lápiz y papel, no solo

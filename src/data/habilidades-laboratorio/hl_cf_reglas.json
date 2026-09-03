@@ -1,0 +1,166 @@
+[
+  {
+    "id": "HL-R-cf-extremal",
+    "tipo": "principio",
+    "titulo": "Las constantes físicas como condición de extremal",
+    "variante": "corta",
+    "cuerpo": "Punto de fusión, punto de ebullición, índice de refracción y rotación óptica se obtienen imponiendo que el sistema no tenga nada mejor que hacer: minimizar energía libre, minimizar tiempo de recorrido, o seleccionar la única respuesta de fase compatible con la simetría.",
+    "ejemplo": "Ver que la ley de Snell sale de minimizar tiempo, no distancia, explica por qué la luz se curva hacia la normal al entrar en un medio más lento."
+  },
+  {
+    "id": "HL-R-cf-t-trans",
+    "tipo": "ley",
+    "titulo": "Temperatura de transición de fase",
+    "variante": "desarrollo",
+    "cuerpo": "En el equilibrio, las energías libres molares de las dos fases se igualan ($G^\\alpha_m=G^\\beta_m$). Escribiendo $G_m=H_m-TS_m$ en cada fase e igualando en el punto de transición, se despeja la temperatura como un cociente de la entalpía sobre la entropía de transición.",
+    "formula": "T_{trans} = \\dfrac{\\Delta H_{trans}}{\\Delta S_{trans}}",
+    "ejemplo": "Como $\\Delta S_{fus}$ es casi constante entre sólidos moleculares, comparar puntos de fusión equivale a comparar $\\Delta H_{fus}$, es decir la fuerza de las interacciones intermoleculares."
+  },
+  {
+    "id": "HL-R-cf-walden-hildebrand",
+    "tipo": "regla",
+    "titulo": "Regla de Walden-Hildebrand",
+    "variante": "corta",
+    "cuerpo": "Para sólidos moleculares simples que no cambian de conformación al fundir, la entropía de fusión ronda 8 a 12 J·mol⁻¹·K⁻¹. Con ese denominador casi fijo en $T_{fus}=\\Delta H_{fus}/\\Delta S_{fus}$, el punto de fusión lo gobierna la entalpía de fusión.",
+    "ejemplo": "Falla en sólidos con conformaciones flexibles o con transiciones sólido-sólido cercanas, donde $\\Delta S_{fus}$ se sale del rango típico."
+  },
+  {
+    "id": "HL-R-cf-clausius-clapeyron",
+    "tipo": "ley",
+    "titulo": "Ecuación de Clausius-Clapeyron",
+    "variante": "desarrollo",
+    "cuerpo": "La igualdad de energías libres se cumple sobre toda la curva de coexistencia: $dG^\\alpha_m=dG^\\beta_m$ punto a punto da la pendiente de la curva. Para el equilibrio líquido-vapor, aproximando $\\Delta V\\approx V_{gas}$ y gas ideal, se integra a $\\ln(P_2/P_1)=-(\\Delta H_{vap}/R)(1/T_2-1/T_1)$, que es una recta al graficar $\\ln P$ frente a $1/T$.",
+    "formula": "\\dfrac{dP}{dT} = \\dfrac{\\Delta H_{trans}}{T\\,\\Delta V_{trans}}",
+    "ejemplo": "La forma integrada solo vale para líquido-vapor lejos del punto crítico y en un intervalo donde $\\Delta H_{vap}$ no cambie mucho."
+  },
+  {
+    "id": "HL-R-cf-trouton",
+    "tipo": "regla",
+    "titulo": "Regla de Trouton",
+    "variante": "corta",
+    "cuerpo": "Para líquidos normales, la entropía de vaporización en el punto de ebullición normal ronda 85 a 88 J·mol⁻¹·K⁻¹. Una desviación clara es diagnóstica: por encima indica asociación por puente de hidrógeno en el líquido, por debajo indica asociación en la fase vapor.",
+    "ejemplo": "El agua tiene $\\Delta S_{vap}\\approx 109$ J·mol⁻¹·K⁻¹, coherente con su densa red de puentes de hidrógeno."
+  },
+  {
+    "id": "HL-R-cf-punto-ebullicion",
+    "tipo": "definicion",
+    "titulo": "Punto de ebullición normal",
+    "variante": "corta",
+    "cuerpo": "Un líquido hierve cuando su presión de vapor iguala la presión externa: $P_{vap}(T_{eb})=P_{atm}$. El punto de ebullición normal se mide a exactamente 101.325 kPa; en altura, con menor presión, el valor observado es más bajo.",
+    "ejemplo": "En Bucaramanga, a unos 90.3 kPa, el agua hierve a unos 96.8 °C, más de 3 °C por debajo del valor a nivel del mar."
+  },
+  {
+    "id": "HL-R-cf-sydney-young",
+    "tipo": "regla",
+    "titulo": "Corrección de Sydney Young",
+    "variante": "desarrollo",
+    "cuerpo": "No es una fórmula empírica arbitraria: es la linealización de la forma integrada de Clausius-Clapeyron alrededor de la presión normal. Partiendo de $dT/dP=RT^2/(\\Delta H_{vap}P)$ y evaluando en el punto normal, el cambio de temperatura queda proporcional a $(273+T_{obs})^2$, con $K$ absorbiendo el factor $R/\\Delta H_{vap}$.",
+    "formula": "T_{corr} = T_{obs} + K\\,(101.325 - P_{obs})\\,(273 + T_{obs})",
+    "ejemplo": "Para hidrocarburos típicos, $K\\approx 0.00010$ a $0.00012$; la aproximación se degrada a gran altitud, donde $\\Delta P$ es grande."
+  },
+  {
+    "id": "HL-R-cf-retraso-termico",
+    "tipo": "principio",
+    "titulo": "Retraso térmico en la medida de temperatura",
+    "variante": "desarrollo",
+    "cuerpo": "La fórmula de equilibrio vale en cuasi-equilibrio instantáneo. Con una rampa de calentamiento $\\beta$, la muestra sigue al baño con un desfase estacionario proporcional a $\\beta$ y a la constante de tiempo térmica $\\tau$ del montaje. Como $\\tau$ no se controla, la única variable del analista es $\\beta$.",
+    "formula": "\\Delta T_{lag} = \\beta\\,\\tau",
+    "ejemplo": "El protocolo de farmacopeas pide calentar rápido hasta 10 °C antes del valor esperado y luego bajar a 1 °C·min⁻¹ o menos para leer cerca del equilibrio."
+  },
+  {
+    "id": "HL-R-cf-columna-emergente",
+    "tipo": "regla",
+    "titulo": "Corrección de columna emergente",
+    "variante": "desarrollo",
+    "cuerpo": "Cuando el modo de inmersión real de un termómetro no coincide con el de calibración, la porción de mercurio fuera del baño está a otra temperatura y se expande distinto. La corrección es proporcional a la diferencia real $(T-T_s)$, a los grados de columna emergente $N$ y a la diferencia de expansión mercurio-vidrio, $k\\approx 0.00016$ °C⁻¹.",
+    "formula": "\\Delta T_{tallo} = k\\,N\\,(T - T_s)",
+    "ejemplo": "Un termómetro de inmersión total usado en inmersión parcial a 215 °C, con 139 °C de columna a 45 °C de media, acumula unos 3.8 °C de error sistemático."
+  },
+  {
+    "id": "HL-R-cf-fermat-snell",
+    "tipo": "ley",
+    "titulo": "Ley de Snell desde el principio de Fermat",
+    "variante": "desarrollo",
+    "cuerpo": "La luz recorre el camino de tiempo mínimo, no de distancia mínima. Parametrizando por $x$ el punto de cruce en la interfaz y minimizando $t(x)$, los cocientes geométricos que aparecen son $\\operatorname{sen}\\theta_1$ y $\\operatorname{sen}\\theta_2$, y la condición se reduce a la ley de Snell.",
+    "formula": "\\dfrac{dt}{dx}=0 \\;\\Longrightarrow\\; n_1\\,\\operatorname{sen}\\theta_1 = n_2\\,\\operatorname{sen}\\theta_2",
+    "ejemplo": "Por eso la luz se curva hacia la normal al entrar en un medio más lento: reduce el tiempo total aunque el trayecto sea más largo en distancia."
+  },
+  {
+    "id": "HL-R-cf-angulo-critico",
+    "tipo": "regla",
+    "titulo": "Ángulo crítico y refractómetro de Abbe",
+    "variante": "desarrollo",
+    "cuerpo": "Al pasar de un medio más denso ópticamente a uno menos denso, existe un ángulo $\\theta_c$ para el cual el rayo refractado emerge tangente a la interfaz; por encima hay reflexión total interna. El refractómetro de Abbe localiza la frontera luz-sombra en $\\theta_c$ y, con el índice conocido del prisma, obtiene el de la muestra.",
+    "formula": "\\operatorname{sen}\\theta_c = \\dfrac{n_2}{n_1} \\qquad n_D = n_1\\,\\operatorname{sen}\\theta_c",
+    "ejemplo": "Con un prisma de $n_1=1.750$ y una frontera en $\\theta_c=51.2°$, la muestra tiene $n_D\\approx 1.364$."
+  },
+  {
+    "id": "HL-R-cf-lorentz-lorenz",
+    "tipo": "ley",
+    "titulo": "Relación de Lorentz-Lorenz",
+    "variante": "desarrollo",
+    "cuerpo": "Conecta el índice de refracción macroscópico con la polarizabilidad electrónica molecular $\\alpha_{pol}$, la facilidad con que la nube de electrones se deforma bajo un campo. Es la misma polarizabilidad que gobierna las fuerzas de dispersión de London de la Guía 1 de extracción.",
+    "formula": "\\dfrac{n^2-1}{n^2+2} = \\dfrac{N\\,\\alpha_{pol}}{3\\varepsilon_0}",
+    "ejemplo": "Un líquido con $n_D=1.40$ y $N=6.0\\times10^{27}$ m⁻³ tiene $\\alpha_{pol}\\approx 1.1\\times10^{-39}$ C·m²·V⁻¹."
+  },
+  {
+    "id": "HL-R-cf-biot",
+    "tipo": "ley",
+    "titulo": "Ley de Biot",
+    "variante": "desarrollo",
+    "cuerpo": "El ángulo de rotación observado crece con la longitud de la celda $l$ y la concentración $c$ del soluto activo. La rotación específica $[\\alpha]^T_\\lambda$ es la constante de proporcionalidad intrínseca del compuesto. Por convención, $l$ va en decímetros y $c$ en g·mL⁻¹.",
+    "formula": "\\alpha = [\\alpha]^{T}_{\\lambda}\\,l\\,c",
+    "ejemplo": "Una disolución en celda de 1 dm que da $+2.0°$ a $c=0.10$ g·mL⁻¹ corresponde a $[\\alpha]=+20$."
+  },
+  {
+    "id": "HL-R-cf-rosenfeld",
+    "tipo": "ley",
+    "titulo": "Fuerza rotacional de Rosenfeld",
+    "variante": "desarrollo",
+    "cuerpo": "Lo que decide si una transición electrónica contribuye a la rotación óptica es $R=\\operatorname{Im}(\\vec{\\mu}\\cdot\\vec{m})$, con $\\vec{\\mu}$ el momento dipolar eléctrico y $\\vec{m}$ el magnético de transición. $R$ es un pseudoescalar: cambia de signo bajo reflexión especular, así que es cero salvo que la molécula carezca de todo eje impropio, es decir salvo que sea quiral.",
+    "formula": "R = \\operatorname{Im}(\\vec{\\mu}\\cdot\\vec{m})",
+    "ejemplo": "Actividad óptica y quiralidad molecular no son dos hechos relacionados: son la misma afirmación cuántica vista desde dos lados."
+  },
+  {
+    "id": "HL-R-cf-obs-vs-especifica",
+    "tipo": "definicion",
+    "titulo": "Rotación observada frente a rotación específica",
+    "variante": "corta",
+    "cuerpo": "$\\alpha_{obs}$ depende de la celda, la concentración y el disolvente; $[\\alpha]$ es la cantidad normalizada e intrínseca, a $T$ y $\\lambda$ dadas. Reportar una sin la otra, y sin disolvente y temperatura, hace la medida irreproducible.",
+    "ejemplo": "Es el mismo tipo de distinción que $P$ frente a $D$ en la Guía 1 de extracción: una cantidad medida contra una cantidad normalizada."
+  },
+  {
+    "id": "HL-R-cf-ee",
+    "tipo": "regla",
+    "titulo": "Exceso enantiomérico por polarimetría",
+    "variante": "desarrollo",
+    "cuerpo": "En una mezcla de dos enantiómeros con fracciones $x_+$ y $x_-$, la rotación observada es la suma algebraica de sus contribuciones opuestas. Comparando con la ley de Biot, el exceso enantiomérico es el cociente entre la rotación específica de la mezcla y la del enantiómero puro de referencia.",
+    "formula": "ee(\\%) = \\dfrac{[\\alpha]_{mezcla}}{[\\alpha]_{puro}}\\times 100 = (x_+ - x_-)\\times 100",
+    "ejemplo": "Requiere conocer bien $[\\alpha]_{puro}$; una impureza ópticamente activa o un $[\\alpha]$ medido en otro disolvente sesgan el resultado."
+  },
+  {
+    "id": "HL-R-cf-racemico-no-aquiral",
+    "tipo": "norma",
+    "titulo": "Rotación nula no implica compuesto aquiral",
+    "variante": "corta",
+    "cuerpo": "Una mezcla racémica 50:50 da $\\alpha_{obs}=0$ porque las rotaciones opuestas se cancelan por simetría de la mezcla, aunque cada molécula tenga fuerza rotacional no nula. Un compuesto aquiral también da cero, pero por fuerza rotacional idénticamente nula. Distinguirlos exige cromatografía quiral.",
+    "ejemplo": "Un fármaco sintetizado sin control estereoquímico sale racémico y no rota el plano, aunque cada molécula sea quiral y potencialmente activa en el cuerpo."
+  },
+  {
+    "id": "HL-R-cf-born-lande",
+    "tipo": "regla",
+    "titulo": "Energía reticular y punto de fusión iónico",
+    "variante": "desarrollo",
+    "cuerpo": "El punto de fusión altísimo de un sólido iónico frente a uno molecular está casi todo en $\\Delta H_{fus}$, no en la entropía. Romper la red iónica exige vencer atracciones electrostáticas de largo alcance entre iones con carga completa, gobernadas por la energía reticular de Born-Landé, uno o dos órdenes por encima de la dispersión de London.",
+    "formula": "U = -\\dfrac{N_A\\,M\\,z^+z^-\\,e^2}{4\\pi\\varepsilon_0\\,r_0}\\left(1-\\dfrac{1}{n}\\right)",
+    "ejemplo": "El NaCl funde a 801 °C y el naftaleno a 80 °C con entropías de fusión comparables: la diferencia es entalpía reticular."
+  },
+  {
+    "id": "HL-R-cf-pf-mixto",
+    "tipo": "regla",
+    "titulo": "Punto de fusión mixto",
+    "variante": "corta",
+    "cuerpo": "Si al mezclar dos muestras y remedir el punto de fusión el intervalo se deprime y se ensancha, las muestras son compuestos distintos: cada uno actúa como impureza del otro, por la física del equilibrio de fases. Si el punto de fusión permanece agudo, son el mismo compuesto.",
+    "ejemplo": "Es un experimento de equilibrio de fases disfrazado de prueba de identidad; la crioscopía usa el mismo equilibrio para despejar masa molar."
+  }
+]

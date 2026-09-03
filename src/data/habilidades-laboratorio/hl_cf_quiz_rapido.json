@@ -1,0 +1,483 @@
+[
+  {
+    "id": "HL-CF-QR-001",
+    "tarjetaId": "HL-CF-001",
+    "categoria": "cf",
+    "formato": "mcq",
+    "enunciado": "¿Qué comparten el punto de fusión, el de ebullición, el índice de refracción y la rotación óptica que justifica tratarlos como una sola familia?",
+    "opciones": [
+      "Que todas se determinan a partir de la masa molar mediante relaciones empíricas ajustadas sobre series homólogas de compuestos de referencia.",
+      "Que todas requieren un espectrofotómetro y se derivan de la ley de Beer aplicada a distintas regiones del espectro electromagnético del compuesto.",
+      "Que todas solo tienen sentido físico en fase gaseosa y se extrapolan a fase condensada mediante factores de corrección tabulados de forma individual por compuesto.",
+      "Que todas se obtienen imponiendo una condición de extremal: minimizar energía libre, minimizar tiempo de recorrido, o compatibilidad con la simetría."
+    ],
+    "correcta": 3,
+    "explicacion": "Fusión y ebullición minimizan la energía libre de Gibbs; el índice de refracción minimiza el tiempo de recorrido de la luz; la rotación óptica selecciona la respuesta de fase compatible con la simetría molecular. Un mismo tipo de [[HL-R-cf-extremal|argumento de extremal]]."
+  },
+  {
+    "id": "HL-CF-QR-002",
+    "tarjetaId": "HL-CF-003",
+    "categoria": "cf",
+    "formato": "mcq",
+    "enunciado": "La ley de Snell se deduce del principio de Fermat. ¿Qué magnitud minimiza la luz al refractarse?",
+    "opciones": [
+      "El tiempo total de recorrido, aunque para lograrlo el trayecto refractado resulte más largo en distancia que la línea recta entre los puntos.",
+      "La distancia recorrida entre los dos puntos, razón por la cual el rayo se acerca a la línea recta al pasar de un medio a otro más denso.",
+      "La energía disipada en la interfaz, que resulta proporcional al ángulo de incidencia del rayo medido respecto a la normal a la superficie.",
+      "El número de reflexiones internas en la interfaz, que se anula justo cuando se cumple la relación entre los dos índices de refracción."
+    ],
+    "correcta": 0,
+    "explicacion": "Minimizando el tiempo $t(x)$ e imponiendo $dt/dx=0$, los cocientes geométricos que aparecen son $\\operatorname{sen}\\theta_1$ y $\\operatorname{sen}\\theta_2$, y sale $n_1\\operatorname{sen}\\theta_1=n_2\\operatorname{sen}\\theta_2$. Si fuera distancia mínima el rayo iría recto: es la [[HL-R-cf-fermat-snell|condición de tiempo mínimo de Fermat]]."
+  },
+  {
+    "id": "HL-CF-QR-003",
+    "tarjetaId": "HL-CF-004",
+    "categoria": "cf",
+    "formato": "mcq",
+    "enunciado": "¿De dónde sale la expresión $T_{trans}=\\Delta H_{trans}/\\Delta S_{trans}$ para la temperatura de fusión o de ebullición?",
+    "opciones": [
+      "De un ajuste empírico de puntos de fusión tabulados frente a la entalpía de fusión medida por calorimetría diferencial de barrido en cada caso.",
+      "De igualar la energía cinética media de las moléculas de las dos fases, que fija la temperatura a la que se rompe el orden de la red cristalina.",
+      "De igualar las energías libres molares de las dos fases en el punto de transición y despejar $T$, es decir de exigir $\\Delta G_{trans}=0$ ahí.",
+      "De la ecuación de Clausius-Clapeyron integrada y evaluada en el límite de presión externa cero, donde el volumen molar del gas tiende a infinito."
+    ],
+    "correcta": 2,
+    "explicacion": "En el equilibrio $G^\\alpha_m=G^\\beta_m$; escribiendo $G_m=H_m-TS_m$ en cada fase, igualando y despejando se obtiene el cociente. No es empírica: es [[HL-R-cf-t-trans|consecuencia de $\\Delta G_{trans}=0$]]."
+  },
+  {
+    "id": "HL-CF-QR-004",
+    "tarjetaId": "HL-CF-005",
+    "categoria": "cf",
+    "formato": "mcq",
+    "enunciado": "¿Por qué, para sólidos moleculares simples, comparar puntos de fusión equivale en la práctica a comparar entalpías de fusión?",
+    "opciones": [
+      "Porque la entalpía de fusión de un sólido molecular es siempre proporcional a su temperatura de fusión con la misma constante universal.",
+      "Porque la entropía de fusión crece de forma lineal con la masa molar, y ese efecto cancela con precisión la variación de la entalpía entre compuestos distintos.",
+      "Porque en un sólido molecular la entalpía de fusión es despreciable frente al término entrópico, que es el que fija de verdad el punto de fusión.",
+      "Porque la entropía de fusión de esos sólidos es casi constante, unos 8 a 12 J·mol⁻¹·K⁻¹, así que el punto de fusión lo gobierna $\\Delta H_{fus}$."
+    ],
+    "correcta": 3,
+    "explicacion": "La [[HL-R-cf-walden-hildebrand|regla de Walden-Hildebrand]] sitúa $\\Delta S_{fus}$ en un rango estrecho para sólidos que no cambian de conformación al fundir. Con el denominador casi fijo, el punto de fusión refleja la fuerza de las interacciones intermoleculares."
+  },
+  {
+    "id": "HL-CF-QR-005",
+    "tarjetaId": "HL-CF-006",
+    "categoria": "cf",
+    "formato": "mcq",
+    "enunciado": "¿Qué relación hay entre la condición $G^\\alpha_m=G^\\beta_m$ de un punto y la ecuación de Clausius-Clapeyron?",
+    "opciones": [
+      "Clausius-Clapeyron sustituye la igualdad de energías libres por una igualdad de presiones de vapor que solo se cumple en el punto triple del diagrama.",
+      "Es esa misma igualdad impuesta a lo largo de toda la curva de coexistencia: $dG^\\alpha_m=dG^\\beta_m$ punto a punto lleva a $dP/dT=\\Delta H/(T\\Delta V)$.",
+      "Son relaciones independientes: la igualdad de energías libres describe la fusión y Clausius-Clapeyron describe solamente la sublimación de un sólido.",
+      "Clausius-Clapeyron relaja la condición $\\Delta G=0$ a $\\Delta G<0$, lo que convierte la curva de equilibrio en una región de transición espontánea."
+    ],
+    "correcta": 1,
+    "explicacion": "La igualdad de energías libres no se cumple solo en un punto sino sobre toda la curva $P$-$T$ que separa dos fases. Al moverse sobre ella, $dG^\\alpha_m=dG^\\beta_m$, y sustituyendo $dG_m=-S_m dT+V_m dP$ sale la [[HL-R-cf-clausius-clapeyron|ecuación de Clausius-Clapeyron]]."
+  },
+  {
+    "id": "HL-CF-QR-006",
+    "tarjetaId": "HL-CF-008",
+    "categoria": "cf",
+    "formato": "mcq",
+    "enunciado": "El agua, los alcoholes y los ácidos carboxílicos violan la regla de Trouton. ¿Por qué esa desviación es información útil?",
+    "opciones": [
+      "Porque una entropía de vaporización fuera del rango normal delata asociación por puente de hidrógeno en el líquido, o asociación en la fase vapor.",
+      "Porque indica un error sistemático de calibración en la medida de $\\Delta H_{vap}$ que hay que restar antes de tabular el valor del compuesto.",
+      "Porque significa que esos líquidos no obedecen la ecuación de Clausius-Clapeyron y requieren una forma integrada distinta para su presión de vapor.",
+      "Porque revela que su punto de ebullición normal se midió a una presión distinta de 101.325 kPa y por tanto necesita la corrección de altitud."
+    ],
+    "correcta": 0,
+    "explicacion": "La [[HL-R-cf-trouton|regla de Trouton]] sitúa $\\Delta S_{vap}$ en torno a 85 a 88 J·mol⁻¹·K⁻¹ para líquidos no asociados. El agua está en unos 109: su densa red de puentes de hidrógeno la hace más ordenada de lo normal, y la desviación lo delata."
+  },
+  {
+    "id": "HL-CF-QR-007",
+    "tarjetaId": "HL-CF-009",
+    "categoria": "cf",
+    "formato": "mcq",
+    "enunciado": "¿Qué significa que el valor tabulado sea el punto de ebullición normal de una sustancia?",
+    "opciones": [
+      "Que se midió a la presión de vapor estándar de 1 bar y a la temperatura de referencia de 25 °C, según el convenio termoquímico de la IUPAC.",
+      "Que corresponde al promedio de las medidas de varios laboratorios tras descartar los valores atípicos por un criterio estadístico acordado.",
+      "Que es el valor extrapolado a presión externa nula, donde la presión de vapor del líquido llega a igualar a un vacío perfecto sobre su superficie.",
+      "Que se midió a exactamente 101.325 kPa de presión externa, para que el valor sea comparable entre laboratorios situados a distinta altitud."
+    ],
+    "correcta": 3,
+    "explicacion": "Un líquido [[HL-R-cf-punto-ebullicion|hierve cuando $P_{vap}(T_{eb})=P_{atm}$]]. El punto de ebullición normal se mide a una atmósfera; en altura o con baja presión, el valor observado es más bajo y hay que registrar la presión barométrica."
+  },
+  {
+    "id": "HL-CF-QR-008",
+    "tarjetaId": "HL-CF-010",
+    "categoria": "cf",
+    "formato": "mcq",
+    "enunciado": "¿Por qué se dice que la corrección de Sydney Young no es una fórmula empírica arbitraria?",
+    "opciones": [
+      "Porque es un promedio de correcciones medidas en cientos de compuestos, con una incertidumbre acotada y trazable a patrones certificados de destilación.",
+      "Porque es la linealización de la forma integrada de Clausius-Clapeyron alrededor de la presión normal, con $K$ absorbiendo el factor $R/\\Delta H_{vap}$.",
+      "Porque se dedujo de la teoría cinética de gases, imponiendo que la velocidad media de las moléculas iguale a la velocidad del sonido en el vapor.",
+      "Porque coincide numéricamente con la corrección de columna emergente siempre que el termómetro se use en su modo de inmersión de calibración."
+    ],
+    "correcta": 1,
+    "explicacion": "Partiendo de $dT/dP=RT^2/(\\Delta H_{vap}P)$ y evaluando en el punto normal, el cambio de temperatura queda proporcional a $(273+T_{obs})^2$. [[HL-R-cf-sydney-young|Sydney Young reescribió eso en forma lineal en $(273+T_{obs})$]]."
+  },
+  {
+    "id": "HL-CF-QR-009",
+    "tarjetaId": "HL-CF-011",
+    "categoria": "cf",
+    "formato": "mcq",
+    "enunciado": "¿Por qué calentar demasiado rápido desplaza el punto de fusión observado hacia valores más altos?",
+    "opciones": [
+      "Porque la rampa rápida aporta energía cinética extra que eleva la entalpía de fusión efectiva del sólido mientras dura la medida en el capilar.",
+      "Porque al aumentar la rampa sube la presión de vapor del sólido, y eso desplaza el equilibrio sólido-líquido hacia una temperatura más alta.",
+      "Porque el cristal funde en cuasi-equilibrio pero sigue al baño con un retraso $\\Delta T_{lag}=\\beta\\tau$, proporcional a la rampa de calentamiento $\\beta$.",
+      "Porque la velocidad de calentamiento modifica la entropía de fusión del compuesto y, con ella, la temperatura de transición de equilibrio que predice la fórmula termodinámica."
+    ],
+    "correcta": 2,
+    "explicacion": "La fórmula de equilibrio vale en cuasi-equilibrio instantáneo. La resistencia térmica del vidrio y del baño introduce un [[HL-R-cf-retraso-termico|desfase estacionario $\\Delta T_{lag}=\\beta\\tau$]]; como $\\tau$ no se controla, la única variable del analista es $\\beta$."
+  },
+  {
+    "id": "HL-CF-QR-010",
+    "tarjetaId": "HL-CF-018",
+    "categoria": "cf",
+    "formato": "mcq",
+    "enunciado": "En el refractómetro de Abbe, ¿qué mide realmente la posición de la frontera nítida entre la zona iluminada y la oscura?",
+    "opciones": [
+      "El ángulo crítico $\\theta_c$, con $\\operatorname{sen}\\theta_c=n_2/n_1$; de ahí $n_D=n_1\\operatorname{sen}\\theta_c$ usando el índice conocido del prisma.",
+      "El ángulo de Brewster de la muestra, para el cual la luz reflejada en la interfaz queda totalmente polarizada en el plano de incidencia del rayo.",
+      "El ángulo de desviación mínima del prisma de medida, que depende solo del ángulo de apertura del propio prisma y no del líquido analizado.",
+      "El ángulo de incidencia para el cual la reflexión total interna desaparece por completo al pasar la luz desde la muestra hacia el prisma."
+    ],
+    "correcta": 0,
+    "explicacion": "Por encima de $\\theta_c$ hay reflexión total interna; por debajo, la luz atraviesa. La [[HL-R-cf-angulo-critico|frontera cae exactamente en $\\theta_c$]], y con el $n_1$ conocido del prisma se obtiene el índice de la muestra."
+  },
+  {
+    "id": "HL-CF-QR-011",
+    "tarjetaId": "HL-CF-020",
+    "categoria": "cf",
+    "formato": "mcq",
+    "enunciado": "¿Qué propiedad microscópica conecta la relación de Lorentz-Lorenz con el índice de refracción macroscópico?",
+    "opciones": [
+      "El momento dipolar permanente de la molécula, que se alinea con el campo oscilante de la luz y frena así su propagación dentro del medio.",
+      "La energía de ionización, que fija cuánta luz se absorbe antes de que el resto se transmita a través del medio con una velocidad reducida.",
+      "La densidad de masa del líquido, que determina el número de choques que sufre cada fotón por cada unidad de longitud que recorre dentro del medio material.",
+      "La polarizabilidad electrónica $\\alpha_{pol}$, la misma que gobierna las fuerzas de dispersión de London que aparecieron en la Guía 1 de extracción."
+    ],
+    "correcta": 3,
+    "explicacion": "$\\dfrac{n^2-1}{n^2+2}=\\dfrac{N\\alpha_{pol}}{3\\varepsilon_0}$: una [[HL-R-cf-lorentz-lorenz|medida de banco da acceso a la polarizabilidad electrónica]], la misma propiedad que decide el reparto de un soluto entre dos disolventes."
+  },
+  {
+    "id": "HL-CF-QR-012",
+    "tarjetaId": "HL-CF-021",
+    "categoria": "cf",
+    "formato": "mcq",
+    "enunciado": "¿Cuál es la diferencia entre la rotación observada $\\alpha_{obs}$ y la rotación específica $[\\alpha]$ en la ley de Biot?",
+    "opciones": [
+      "$\\alpha_{obs}$ depende de la celda, la concentración y el disolvente; $[\\alpha]$ es la constante de proporcionalidad intrínseca, a $T$ y $\\lambda$ fijas.",
+      "$\\alpha_{obs}$ se mide con luz blanca y $[\\alpha]$ con la línea D del sodio; salvo esa diferencia de longitud de onda, son exactamente la misma cantidad.",
+      "$\\alpha_{obs}$ es la rotación de un enantiómero puro y $[\\alpha]$ la de la mezcla racémica del mismo compuesto medida en idénticas condiciones.",
+      "$\\alpha_{obs}$ se expresa en radianes por metro y $[\\alpha]$ en grados; basta convertir las unidades para transformar una magnitud en la otra."
+    ],
+    "correcta": 0,
+    "explicacion": "En $\\alpha=[\\alpha]^T_\\lambda\\,l\\,c$, el ángulo observado crece con $l$ y $c$. La rotación específica es la propiedad del compuesto. [[HL-R-cf-obs-vs-especifica|Confundirlas]] es el mismo error que $P$ frente a $D$ en la Guía 1."
+  },
+  {
+    "id": "HL-CF-QR-013",
+    "tarjetaId": "HL-CF-023",
+    "categoria": "cf",
+    "formato": "mcq",
+    "enunciado": "La fuerza rotacional de Rosenfeld $R=\\operatorname{Im}(\\vec{\\mu}\\cdot\\vec{m})$ es un pseudoescalar. ¿Qué implica eso para la actividad óptica?",
+    "opciones": [
+      "Que $R$ crece con el cuadrado de la longitud de onda, de modo que la rotación óptica siempre es mayor en el infrarrojo que en la región visible.",
+      "Que $R$ cambia de signo bajo reflexión especular, así que es cero salvo que la molécula carezca de todo eje impropio, es decir salvo que sea quiral.",
+      "Que $R$ solo es no nula si la molécula posee al menos un plano de simetría interno, condición que comparten todas las moléculas aquirales conocidas.",
+      "Que $R$ depende únicamente del momento dipolar eléctrico $\\vec{\\mu}$, porque el término magnético $\\vec{m}$ se anula al promediar sobre orientaciones."
+    ],
+    "correcta": 1,
+    "explicacion": "Un pseudoescalar cambia de signo al reflejar. $R$ es idénticamente cero a menos que la molécula no tenga plano, ni centro, ni eje $S_n$: la definición de quiralidad. [[HL-R-cf-rosenfeld|Actividad óptica y quiralidad son la misma afirmación]]."
+  },
+  {
+    "id": "HL-CF-QR-014",
+    "tarjetaId": "HL-CF-027",
+    "categoria": "cf",
+    "formato": "mcq",
+    "enunciado": "Una mezcla racémica y un compuesto aquiral dan ambos $\\alpha_{obs}=0$. ¿En qué se diferencian?",
+    "opciones": [
+      "En nada mecánicamente relevante: ambos casos resultan indistinguibles por cualquier técnica quiróptica o cromatográfica de la que se disponga hoy.",
+      "El racemato absorbe luz circular izquierda y derecha con distinta intensidad; el aquiral absorbe ambas por igual pero aun así rota el plano un poco.",
+      "El racemato tiene fuerza rotacional no nula que se cancela por la simetría de la mezcla; el aquiral la tiene idénticamente nula por simetría molecular.",
+      "El aquiral da cero solo a la línea D del sodio; medido a otra longitud de onda mostraría una rotación neta que la mezcla racémica nunca llega a dar."
+    ],
+    "correcta": 2,
+    "explicacion": "Por polarimetría simple son indistinguibles, pero mecánicamente son fenómenos distintos: cancelación por simetría de la mezcla frente a $R$ nula por simetría de la molécula. [[HL-R-cf-racemico-no-aquiral|Separarlos exige cromatografía quiral]]."
+  },
+  {
+    "id": "HL-CF-QR-015",
+    "tarjetaId": "HL-CF-028",
+    "categoria": "cf",
+    "formato": "mcq",
+    "enunciado": "El NaCl funde a 801 °C y el naftaleno a 80 °C. Con la misma fórmula $T_{fus}=\\Delta H_{fus}/\\Delta S_{fus}$, ¿dónde está la diferencia?",
+    "opciones": [
+      "En la entropía de fusión: la del NaCl es unas diez veces menor porque la red iónica está mucho más ordenada que un cristal molecular como el naftaleno.",
+      "En que el naftaleno sublima de forma apreciable antes de llegar a fundir, así que su punto de fusión aparente cae muy por debajo del valor real.",
+      "En la entalpía de fusión: romper la red iónica del NaCl exige vencer atracciones electrostáticas de largo alcance, gobernadas por la energía reticular.",
+      "En el cambio de volumen al fundir, mucho mayor para el NaCl, lo que según Clausius-Clapeyron eleva bastante su temperatura de transición sólido-líquido."
+    ],
+    "correcta": 2,
+    "explicacion": "Las entropías de fusión de ambos son comparables. Romper el cristal molecular del naftaleno solo pide vencer dispersión de London; romper la red iónica, atracciones de carga completa [[HL-R-cf-born-lande|aproximadas por Born-Landé]]."
+  },
+  {
+    "id": "HL-CF-QR-016",
+    "tarjetaId": "HL-CF-030",
+    "categoria": "cf",
+    "formato": "mcq",
+    "enunciado": "¿Cómo sigue presente el punto de ebullición dentro de la cromatografía de gases moderna?",
+    "opciones": [
+      "Como límite superior de temperatura del horno cromatográfico, que nunca debe superar el punto de ebullición del analito para no degradarlo en columna.",
+      "Dentro del índice de retención de Kovats, una escala logarítmica anclada a $n$-alcanos que correlaciona de forma empírica con el punto de ebullición.",
+      "Como criterio de elución estricto: los compuestos abandonan la columna en orden exacto de punto de ebullición, sin influencia de la fase estacionaria.",
+      "Como factor de corrección del tiempo muerto, proporcional a la diferencia entre el punto de ebullición del analito y el del gas portador empleado."
+    ],
+    "correcta": 1,
+    "explicacion": "El índice de Kovats usa una serie homóloga de $n$-alcanos como regla logarítmica y correlaciona con el punto de ebullición: la constante física reaparece como herramienta de identificación cromatográfica."
+  },
+  {
+    "id": "HL-CF-QR-017",
+    "tarjetaId": "HL-CF-004",
+    "categoria": "cf",
+    "formato": "fill",
+    "enunciado": "Completa la condición de equilibrio de fases:",
+    "antes": "En el punto de transición, la energía libre total es mínima, lo que obliga a que las energías libres molares de las dos fases se",
+    "despues": "; de ahí, escribiendo $G_m=H_m-TS_m$ y despejando, sale $T_{trans}=\\Delta H_{trans}/\\Delta S_{trans}$.",
+    "respuesta": "igualen",
+    "alternativas": [
+      "igualen",
+      "igualan"
+    ],
+    "explicacion": "Si una fase tuviera menor $G_m$, el sistema seguiría transformándose hacia ella; el equilibrio exige [[HL-R-cf-t-trans|$G^\\alpha_m=G^\\beta_m$]]."
+  },
+  {
+    "id": "HL-CF-QR-018",
+    "tarjetaId": "HL-CF-007",
+    "categoria": "cf",
+    "formato": "fill",
+    "enunciado": "Completa el resultado gráfico de Clausius-Clapeyron integrada:",
+    "antes": "Suponiendo $\\Delta H_{vap}$ constante en el intervalo, graficar $\\ln P$ frente a $1/T$ da una",
+    "despues": "de pendiente $-\\Delta H_{vap}/R$, y ajustarla es cómo se mide la entalpía de vaporización.",
+    "respuesta": "recta",
+    "alternativas": [
+      "recta",
+      "línea recta",
+      "linea recta"
+    ],
+    "explicacion": "La forma integrada $\\ln(P_2/P_1)=-\\dfrac{\\Delta H_{vap}}{R}\\left(\\dfrac{1}{T_2}-\\dfrac{1}{T_1}\\right)$ es [[HL-R-cf-clausius-clapeyron|lineal en $1/T$]]."
+  },
+  {
+    "id": "HL-CF-QR-019",
+    "tarjetaId": "HL-CF-019",
+    "categoria": "cf",
+    "formato": "fill",
+    "enunciado": "Completa la referencia estándar de la polarimetría y la refractometría:",
+    "antes": "El índice de refracción y la rotación específica se reportan a la línea D del sodio, cuya longitud de onda es",
+    "despues": "nm; se eligió por un accidente histórico: era la fuente casi monocromática más brillante y barata del siglo XIX.",
+    "respuesta": "589",
+    "alternativas": [
+      "589",
+      "589 nm",
+      "~589"
+    ],
+    "explicacion": "Por eso el valor se escribe $n_D^{20}$ o $[\\alpha]_D^{20}$: la D es esa línea de emisión del sodio."
+  },
+  {
+    "id": "HL-CF-QR-020",
+    "tarjetaId": "HL-CF-005",
+    "categoria": "cf",
+    "formato": "fill",
+    "enunciado": "Completa la regla empírica de Walden-Hildebrand:",
+    "antes": "Para sólidos moleculares simples que no cambian de conformación al fundir, la entropía de fusión ronda un valor estrecho, entre unos 8 y",
+    "despues": "J·mol⁻¹·K⁻¹, así que $T_{fus}$ queda gobernada por la entalpía de fusión.",
+    "respuesta": "12",
+    "alternativas": [
+      "12",
+      "12 J/mol·K",
+      "~12"
+    ],
+    "explicacion": "Con el denominador de $T_{fus}=\\Delta H_{fus}/\\Delta S_{fus}$ casi fijo, comparar puntos de fusión equivale a comparar la [[HL-R-cf-walden-hildebrand|fuerza de las interacciones intermoleculares]]."
+  },
+  {
+    "id": "HL-CF-QR-021",
+    "tarjetaId": "HL-CF-012",
+    "categoria": "cf",
+    "formato": "fill",
+    "enunciado": "Completa el valor de la constante de columna emergente:",
+    "antes": "La corrección de columna emergente es $\\Delta T_{tallo}=k\\,N\\,(T-T_s)$; para un termómetro de mercurio en vidrio de borosilicato, $k$ vale aproximadamente",
+    "despues": "°C⁻¹, y se aplica siempre que el modo de inmersión real no coincida con el de calibración.",
+    "respuesta": "0.00016",
+    "alternativas": [
+      "0.00016",
+      "0,00016",
+      "1.6e-4",
+      "0.00016 C-1"
+    ],
+    "explicacion": "Con ese $k$, un termómetro de inmersión total leído en inmersión parcial a 215 °C acumula unos 3.8 °C de [[HL-R-cf-columna-emergente|error sistemático]]."
+  },
+  {
+    "id": "HL-CF-QR-022",
+    "tarjetaId": "HL-CF-025",
+    "categoria": "cf",
+    "formato": "fill",
+    "enunciado": "Completa la fórmula del exceso enantiomérico a partir de polarimetría:",
+    "antes": "El exceso enantiomérico se estima como $ee(\\%)=\\dfrac{[\\alpha]_{mezcla}}{[\\alpha]_{puro}}\\times$",
+    "despues": ", donde $[\\alpha]_{mezcla}=(x_+-x_-)\\,[\\alpha]_{puro}$ y hay que conocer bien $[\\alpha]_{puro}$.",
+    "respuesta": "100",
+    "alternativas": [
+      "100",
+      "100%"
+    ],
+    "explicacion": "El $ee$ es la diferencia de fracciones $x_+-x_-$; expresado en porcentaje, [[HL-R-cf-ee|se multiplica por 100]]."
+  },
+  {
+    "id": "HL-CF-QR-023",
+    "tarjetaId": "HL-CF-016",
+    "categoria": "cf",
+    "formato": "fill",
+    "enunciado": "Completa el criterio de lectura de la técnica de Siwoloboff:",
+    "antes": "Al acercarse al punto de ebullición, el aire del capilar invertido sale como un tren rápido de burbujas. El punto de ebullición se registra cuando, al detener el calentamiento, las burbujas cesan y el líquido empieza a",
+    "despues": "por el capilar invertido.",
+    "respuesta": "subir",
+    "alternativas": [
+      "subir",
+      "ascender",
+      "entrar",
+      "reingresar"
+    ],
+    "explicacion": "El burbujeo violento ocurre por encima del punto de ebullición real; el valor correcto es el de la reentrada del líquido al capilar."
+  },
+  {
+    "id": "HL-CF-QR-024",
+    "tarjetaId": "HL-CF-017",
+    "categoria": "cf",
+    "formato": "build",
+    "enunciado": "Arma la deducción de la ley de Snell desde el principio de Fermat:",
+    "fragmentos": [
+      "El tiempo total de recorrido entre dos puntos, uno en cada medio,",
+      "se parametriza por la posición $x$ del punto de cruce en la interfaz;",
+      "imponiendo tiempo estacionario, $dt/dx=0$,",
+      "los cocientes geométricos que aparecen son $\\operatorname{sen}\\theta_1$ y $\\operatorname{sen}\\theta_2$,",
+      "y la condición se reduce a $n_1\\operatorname{sen}\\theta_1=n_2\\operatorname{sen}\\theta_2$."
+    ],
+    "explicacion": "La ley de Snell es la [[HL-R-cf-fermat-snell|condición de tiempo mínimo de Fermat]], no de distancia mínima: por eso la luz se curva hacia la normal al entrar en un medio más lento."
+  },
+  {
+    "id": "HL-CF-QR-025",
+    "tarjetaId": "HL-CF-023",
+    "categoria": "cf",
+    "formato": "build",
+    "enunciado": "Arma por qué actividad óptica y quiralidad son la misma afirmación:",
+    "fragmentos": [
+      "La fuerza rotacional de una transición es $R=\\operatorname{Im}(\\vec{\\mu}\\cdot\\vec{m})$;",
+      "$R$ es un pseudoescalar, así que cambia de signo bajo reflexión especular;",
+      "por tanto $R$ es idénticamente cero",
+      "salvo que la molécula carezca de todo eje impropio, plano o centro,",
+      "que es exactamente la definición de quiralidad."
+    ],
+    "explicacion": "La óptica clásica describe la birrefringencia circular pero no explica por qué una molécula quiral rompe la igualdad $n_L=n_R$; la [[HL-R-cf-rosenfeld|fuerza rotacional pseudoescalar]] sí."
+  },
+  {
+    "id": "HL-CF-QR-026",
+    "tarjetaId": "HL-CF-009",
+    "categoria": "cf",
+    "formato": "build",
+    "enunciado": "Arma por qué el punto de ebullición depende de la altitud:",
+    "fragmentos": [
+      "Un líquido hierve cuando su presión de vapor iguala la presión externa;",
+      "la presión de vapor crece con la temperatura según Clausius-Clapeyron;",
+      "en altura la presión atmosférica es menor,",
+      "así que hace falta menos temperatura para alcanzar esa igualdad,",
+      "y el punto de ebullición observado baja."
+    ],
+    "explicacion": "En Bucaramanga, a unos 90.3 kPa, el agua hierve a unos 96.8 °C, más de 3 °C por debajo del valor a nivel del mar."
+  },
+  {
+    "id": "HL-CF-QR-027",
+    "tarjetaId": "HL-CF-005",
+    "categoria": "cf",
+    "formato": "build",
+    "enunciado": "Arma el razonamiento de Walden-Hildebrand sobre el punto de fusión:",
+    "fragmentos": [
+      "La entropía de fusión de los sólidos moleculares simples es casi constante,",
+      "porque el desorden que se gana al pasar de red cristalina a líquido es parecido en todos;",
+      "con el denominador de $T_{fus}=\\Delta H_{fus}/\\Delta S_{fus}$ casi fijo,",
+      "el punto de fusión queda gobernado por la entalpía de fusión,",
+      "que mide la fuerza de las interacciones intermoleculares."
+    ],
+    "explicacion": "Por eso comparar puntos de fusión es, en la práctica, comparar entalpías de fusión, siempre que $\\Delta S_{fus}$ sea normal."
+  },
+  {
+    "id": "HL-CF-QR-028",
+    "tarjetaId": "HL-CF-003",
+    "categoria": "cf",
+    "formato": "match",
+    "enunciado": "Empareja cada constante física con la condición de extremal de la que se deriva:",
+    "izq": [
+      "Punto de fusión y de ebullición",
+      "Índice de refracción",
+      "Rotación óptica"
+    ],
+    "der": [
+      "Energía libre de Gibbs mínima: $dG=0$",
+      "Tiempo de recorrido mínimo: $dt/dx=0$ (Fermat)",
+      "Ruptura de simetría especular en una superposición coherente"
+    ],
+    "pares": {
+      "0": 0,
+      "1": 1,
+      "2": 2
+    },
+    "explicacion": "Las cuatro constantes comparten la estructura de imponer que el sistema no tenga nada mejor que hacer, especializada en cada caso."
+  },
+  {
+    "id": "HL-CF-QR-029",
+    "tarjetaId": "HL-CF-015",
+    "categoria": "cf",
+    "formato": "match",
+    "enunciado": "Empareja cada elemento del fusiómetro moderno con su principio físico:",
+    "izq": [
+      "Detección del punto de fusión",
+      "Termopar tipo K",
+      "Termistor NTC"
+    ],
+    "der": [
+      "Transmitancia óptica: el sólido opaco se vuelve líquido transparente",
+      "Efecto Seebeck: tensión en la unión de dos metales distintos",
+      "Resistencia de un óxido semiconductor que cae exponencial con $T$"
+    ],
+    "pares": {
+      "0": 0,
+      "1": 1,
+      "2": 2
+    },
+    "explicacion": "El fusiómetro automatiza la detección del mismo evento de equilibrio; ambos sensores se calibran contra los mismos puntos fijos de sustancias de referencia."
+  },
+  {
+    "id": "HL-CF-QR-030",
+    "tarjetaId": "HL-CF-010",
+    "categoria": "cf",
+    "formato": "match",
+    "enunciado": "Empareja cada corrección de la medida de temperatura con la causa que compensa:",
+    "izq": [
+      "Corrección de Sydney Young",
+      "Corrección de columna emergente",
+      "Protocolo de doble velocidad de calentamiento"
+    ],
+    "der": [
+      "La presión atmosférica local no es 101.325 kPa",
+      "El modo de inmersión del termómetro no coincide con su calibración",
+      "El retraso térmico $\\Delta T_{lag}=\\beta\\tau$ entre el baño y el cristal"
+    ],
+    "pares": {
+      "0": 0,
+      "1": 1,
+      "2": 2
+    },
+    "explicacion": "Las tres corrigen desviaciones sistemáticas distintas: [[HL-R-cf-sydney-young|presión]], modo de inmersión y cinética de calentamiento."
+  }
+]
