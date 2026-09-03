@@ -286,12 +286,15 @@ console.log(
 // ===========================================================================
 // Casos de "Lápiz y papel" — src/data/inorganica/iq_tg_lapiz_papel.json
 // (ver PracticarLapizPapel.jsx). Exactamente una opción correcta por caso,
-// campos obligatorios presentes, y cada $...$ compila en KaTeX.
+// campos obligatorios presentes, cada $...$ compila en KaTeX, y las
+// referencias [[IQ-R-...]] resuelven — solo en prosa post-revelado, nunca
+// en las opciones de fase 1 (un disparador ahí daría pista del enfoque).
 // ===========================================================================
 const RUTA_LP = new URL('../src/data/inorganica/iq_tg_lapiz_papel.json', import.meta.url)
 const casos = JSON.parse(readFileSync(RUTA_LP, 'utf-8'))
 const CAMPOS_LP = ['enunciado', 'promptFase1', 'labelHerramienta', 'porQue', 'enfoqueCorto', 'respuesta', 'desarrollo']
 let erroresLP = 0
+let refsLP = 0
 for (const c of casos) {
   for (const campo of CAMPOS_LP) {
     if (!c[campo]) {
@@ -300,6 +303,12 @@ for (const c of casos) {
       continue
     }
     revisarSpansMathQuiz(c[campo], `${c.id}.${campo}`)
+    for (const id of refsDeReglas(c[campo])) {
+      if (!idsRegla.has(id)) {
+        console.log(`FAIL ${c.id}.${campo}: [[${id}]] no existe en iq_reglas.json`)
+        erroresLP++
+      } else refsLP++
+    }
   }
   if (c.formula && !compilaKatex(c.formula, `${c.id}.formula`)) erroresLP++
   const correctas = (c.opciones ?? []).filter((o) => o.correcta).length
@@ -307,13 +316,19 @@ for (const c of casos) {
     console.log(`FAIL ${c.id}: tiene ${correctas} opciones marcadas correcta (debe ser exactamente 1)`)
     erroresLP++
   }
-  ;(c.opciones ?? []).forEach((o, i) => revisarSpansMathQuiz(o.texto, `${c.id}.opciones[${i}]`))
+  ;(c.opciones ?? []).forEach((o, i) => {
+    revisarSpansMathQuiz(o.texto, `${c.id}.opciones[${i}]`)
+    if (/\[\[/.test(o.texto ?? '')) {
+      console.log(`FAIL ${c.id}.opciones[${i}]: un disparador [[...]] en una opción de fase 1 daría pista`)
+      erroresLP++
+    }
+  })
   if (!c.promptFase1) {
     console.log(`FAIL ${c.id}: sin promptFase1, el loader no lo enruta a lapizPapel`)
     erroresLP++
   }
 }
-console.log(`\n${casos.length} casos de Lápiz y papel`)
+console.log(`\n${casos.length} casos de Lápiz y papel · ${refsLP} referencias [[IQ-R-...]] resueltas`)
 
 errores += erroresReglas + erroresQuiz + erroresLP
 console.log(errores === 0 ? '\nOK — 0 errores' : `\n${errores} error(es) encontrados`)
