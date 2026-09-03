@@ -334,7 +334,7 @@ export function RepasoConceptos({
   const enlacesConecta = esCientifica ? enlacesCruzados(tarjeta.connects_to, moduloId, perfil) : []
 
   return (
-    <ReglasProvider reglas={modulo.reglas}>
+    <ReglasProvider reglas={modulo.reglas} acento={modulo.acentoReglas}>
     <div className="repaso">
       <div className="repaso-topbar">
         <button type="button" className="boton-icono" onClick={onVolver}>

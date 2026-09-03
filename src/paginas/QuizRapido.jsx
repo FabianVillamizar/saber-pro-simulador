@@ -369,7 +369,7 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
     })
 
     return (
-      <ReglasProvider reglas={modulo.reglas}>
+      <ReglasProvider reglas={modulo.reglas} acento={modulo.acentoReglas}>
       <div className="page quiz-rapido">
         <div className="barra-superior">
           <button type="button" className="boton-volver" onClick={onVolver}>
@@ -562,7 +562,7 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
   }
 
   return (
-    <ReglasProvider reglas={modulo.reglas}>
+    <ReglasProvider reglas={modulo.reglas} acento={modulo.acentoReglas}>
     <div className="page quiz-rapido">
       <div className="barra-superior">
         <button type="button" className="boton-volver" onClick={reiniciar}>

@@ -1,0 +1,212 @@
+[
+  {
+    "id": "fr-r-gusto-infinitivo",
+    "tipo": "regla",
+    "titulo": "Verbo de gusto + infinitivo, sin preposición",
+    "variante": "corta",
+    "cuerpo": "Después de aimer, adorer, préférer y détester, el segundo verbo va en infinitivo directo. No se pone ninguna preposición entre los dos verbos.",
+    "ejemplo": "J'aime jouer au tennis. J'adore voyager. Nunca «J'aime de jouer» ni «J'aime à jouer», que calcan el español «me gusta de»."
+  },
+  {
+    "id": "fr-r-jouer-a",
+    "tipo": "regla",
+    "titulo": "jouer à con deportes de pelota, de equipo y juegos",
+    "variante": "desarrollo",
+    "cuerpo": "El verbo jouer con deportes de equipo, de pelota o juegos siempre lleva la preposición à, que se contrae con el artículo según el género y el número de la actividad.",
+    "tabla": {
+      "titulo": "Contracciones de à",
+      "encabezados": ["forma", "cuándo"],
+      "filas": [
+        ["au", "masculino singular"],
+        ["à la", "femenino singular"],
+        ["à l'", "vocal o h muda"],
+        ["aux", "plural"]
+      ]
+    },
+    "ejemplo": "Je joue au football, à la pétanque, à l'ordinateur, aux échecs."
+  },
+  {
+    "id": "fr-r-faire-de",
+    "tipo": "regla",
+    "titulo": "faire de con deportes individuales, disciplinas y artes",
+    "variante": "desarrollo",
+    "cuerpo": "El verbo faire con deportes individuales, actividades físicas o disciplinas artísticas lleva la preposición de, que se combina con el artículo formando el partitivo.",
+    "tabla": {
+      "titulo": "Partitivo de faire",
+      "encabezados": ["forma", "cuándo"],
+      "filas": [
+        ["du", "masculino singular"],
+        ["de la", "femenino singular"],
+        ["de l'", "vocal o h muda"],
+        ["des", "plural"]
+      ]
+    },
+    "ejemplo": "Je fais du vélo, de la natation, de l'équitation, des arts martiaux."
+  },
+  {
+    "id": "fr-r-jouer-de-instrumento",
+    "tipo": "regla",
+    "titulo": "jouer de con instrumentos de música",
+    "variante": "corta",
+    "cuerpo": "Con un instrumento musical, jouer cambia de preposición y usa de, en las formas du, de la o de l'. Ahí significa tocar, no jugar. Es la única situación en que jouer no lleva à.",
+    "ejemplo": "Je joue du piano, du violon. Je joue de la guitare, de la batterie. Compara con je joue au tennis, que es deporte y va con à."
+  },
+  {
+    "id": "fr-r-jouer-o-faire",
+    "tipo": "principio",
+    "titulo": "¿jouer o faire? Dos maneras de decidir",
+    "variante": "desarrollo",
+    "cuerpo": "Si en el ejercicio ya ves la preposición, ella sola te lo dice: à, au, à la, aux piden jouer; du, de la, des piden faire. Si tienes que elegir por el significado, piensa en el tipo de actividad.",
+    "tabla": {
+      "titulo": "Por tipo de actividad",
+      "encabezados": ["jouer", "faire"],
+      "filas": [
+        ["pelota, equipo, rival", "individual, naturaleza"],
+        ["fútbol, tenis, básquet", "senderismo, natación"],
+        ["ajedrez, cartas, videojuegos", "boxeo, judo, esquí"],
+        ["instrumentos, con de", "danza, yoga, teatro"]
+      ]
+    },
+    "ejemplo": "Nous ___ au tennis: como sigue au, es jouer. Elle ___ de la randonnée: como sigue de la, es faire."
+  },
+  {
+    "id": "fr-r-faire-quehaceres",
+    "tipo": "regla",
+    "titulo": "faire + quehacer de la casa: artículo definido, sin partitivo",
+    "variante": "desarrollo",
+    "cuerpo": "Con las tareas del hogar, faire usa el artículo definido le, la, les, no el partitivo. La tarea se hace entera y concreta, no se practica un poco de ella.",
+    "tabla": {
+      "titulo": "Expresiones fijas",
+      "encabezados": ["expresión", "significado"],
+      "filas": [
+        ["faire la vaisselle", "lavar los platos"],
+        ["faire le lit", "hacer la cama"],
+        ["faire le ménage", "hacer la limpieza"],
+        ["faire les courses", "hacer las compras"],
+        ["faire la cuisine", "cocinar"]
+      ]
+    },
+    "ejemplo": "Je fais de la natation, con partitivo por ser deporte, pero je fais la vaisselle, con artículo definido por ser tarea."
+  },
+  {
+    "id": "fr-r-negacion-partitivo",
+    "tipo": "regla",
+    "titulo": "En negación el partitivo colapsa a de",
+    "variante": "desarrollo",
+    "cuerpo": "Cuando la frase pasa a negativa con ne… pas, los artículos du, de la, de l', des se convierten todos en de, o en d' ante vocal. Vale para la comida, para faire de y para jouer de un instrumento.",
+    "tabla": {
+      "titulo": "Afirmativa frente a negativa",
+      "encabezados": ["afirmativa", "negativa"],
+      "filas": [
+        ["Je joue du piano.", "Je ne joue pas de piano."],
+        ["Je fais de la randonnée.", "Je ne fais pas de randonnée."],
+        ["Il mange des légumes.", "Il ne mange pas de légumes."]
+      ]
+    },
+    "ejemplo": "Los quehaceres con le, la, les no colapsan: je ne fais pas la vaisselle, nunca «pas de vaisselle»."
+  },
+  {
+    "id": "fr-r-gusto-articulo-definido",
+    "tipo": "regla",
+    "titulo": "Gusto + sustantivo: artículo definido, nunca à ni de",
+    "variante": "corta",
+    "cuerpo": "Cuando el gusto va con un sustantivo, y no con otro verbo, se usa le, la, l', les. Con aimer, adorer, préférer y détester nunca aparecen à ni de.",
+    "ejemplo": "J'aime le foot. Je déteste la boxe. J'adore les échecs. Compara con je joue au foot, donde el verbo jouer sí pide à."
+  },
+  {
+    "id": "fr-r-des-a-de",
+    "tipo": "regla",
+    "titulo": "Adjetivo plural antes del sustantivo: des pasa a de",
+    "variante": "corta",
+    "cuerpo": "Si un adjetivo en plural va delante de un sustantivo en plural, des se vuelve de, o d' ante vocal. Si el adjetivo va detrás, se mantiene des.",
+    "ejemplo": "J'apprends de nouvelles choses, con el adjetivo delante. J'apprends des choses intéressantes, con el adjetivo detrás. Je connais de bons amis, nunca «des bons amis»."
+  },
+  {
+    "id": "fr-r-de-des-o-les",
+    "tipo": "principio",
+    "titulo": "de y des para cantidad, les para generalidad",
+    "variante": "corta",
+    "cuerpo": "Se usa de o des cuando hablas de una cantidad indeterminada, algunas cosas. Se usa les cuando hablas de algo en general o de cosas ya identificadas. Truco: si en español no dirías las, en francés va de o des.",
+    "ejemplo": "J'apprends de nouvelles choses significa aprendo cosas nuevas. J'aime les choses simples significa me gustan las cosas simples en general."
+  },
+  {
+    "id": "fr-r-preferer-acento",
+    "tipo": "norma",
+    "titulo": "préférer cambia é en è cuando la sílaba es tónica",
+    "variante": "desarrollo",
+    "cuerpo": "En préférer, la penúltima é se escribe è en las formas donde esa sílaba lleva el acento, es decir en todo el singular y en la tercera persona del plural. En nous y vous se queda é.",
+    "tabla": {
+      "titulo": "préférer, presente",
+      "encabezados": ["persona", "forma"],
+      "filas": [
+        ["je", "préfère"],
+        ["tu", "préfères"],
+        ["il / elle", "préfère"],
+        ["nous", "préférons"],
+        ["vous", "préférez"],
+        ["ils / elles", "préfèrent"]
+      ]
+    },
+    "ejemplo": "Je préfère le thé, mais nous préférons le café."
+  },
+  {
+    "id": "fr-r-conjug-faire",
+    "tipo": "regla",
+    "titulo": "faire en presente",
+    "variante": "desarrollo",
+    "cuerpo": "faire es irregular. Cuidado con vous faites, que no lleva -ez, y con ils font, que no lleva -ent. La forma nous faisons se pronuncia como si fuera «fesons».",
+    "tabla": {
+      "titulo": "faire, presente",
+      "encabezados": ["persona", "forma"],
+      "filas": [
+        ["je", "fais"],
+        ["tu", "fais"],
+        ["il / elle", "fait"],
+        ["nous", "faisons"],
+        ["vous", "faites"],
+        ["ils / elles", "font"]
+      ]
+    },
+    "ejemplo": "Vous faites du sport. Ils font la cuisine."
+  },
+  {
+    "id": "fr-r-conjug-jouer",
+    "tipo": "regla",
+    "titulo": "jouer en presente",
+    "variante": "desarrollo",
+    "cuerpo": "jouer es un verbo regular en -er. Las cuatro formas del singular más ils y elles suenan igual al hablar; por escrito solo nous y vous cambian de terminación.",
+    "tabla": {
+      "titulo": "jouer, presente",
+      "encabezados": ["persona", "forma"],
+      "filas": [
+        ["je", "joue"],
+        ["tu", "joues"],
+        ["il / elle", "joue"],
+        ["nous", "jouons"],
+        ["vous", "jouez"],
+        ["ils / elles", "jouent"]
+      ]
+    },
+    "ejemplo": "Nous jouons aux cartes. Tu joues au foot."
+  },
+  {
+    "id": "fr-r-conjug-aller",
+    "tipo": "regla",
+    "titulo": "aller en presente",
+    "variante": "desarrollo",
+    "cuerpo": "aller es de los verbos más irregulares del francés. Sirve para el movimiento y también para el futuro próximo, con la estructura aller + infinitivo.",
+    "tabla": {
+      "titulo": "aller, presente",
+      "encabezados": ["persona", "forma"],
+      "filas": [
+        ["je", "vais"],
+        ["tu", "vas"],
+        ["il / elle", "va"],
+        ["nous", "allons"],
+        ["vous", "allez"],
+        ["ils / elles", "vont"]
+      ]
+    },
+    "ejemplo": "Je vais au parc. On va faire du sport."
+  }
+]

@@ -37,6 +37,22 @@
   }
 }
 
+/* Acento propio de Français: carmesí --fr-accent en vez del teal general
+   ("el rincón de francés casi no usa el azul", ver bitácora del módulo).
+   Solo se toca el acento del disparador y sus lavados; el borde y el
+   relleno del popover se quedan neutros (son translúcidos al 6-17%, no se
+   nota, y evita problemas de contraste del rojo fijo en modo oscuro).
+   --fr-accent no cambia por tema a propósito, así que no hace falta un
+   bloque oscuro. */
+.rc-disp[data-acento='fr'],
+.rc-pop-wrap[data-acento='fr'],
+:root[data-theme='dark'] .rc-disp[data-acento='fr'],
+:root[data-theme='dark'] .rc-pop-wrap[data-acento='fr'] {
+  --rc-acc: var(--fr-accent);
+  --rc-acc-soft: color-mix(in oklch, var(--fr-accent) 12%, transparent);
+  --rc-acc-soft-2: color-mix(in oklch, var(--fr-accent) 22%, transparent);
+}
+
 /* ---------- disparador ---------- */
 
 .rc-disp {
@@ -315,9 +331,18 @@
   text-transform: uppercase;
   color: var(--rc-pop-mute);
   margin-bottom: 5px;
+  text-align: center;
 }
 .rc-pop-tabla-scroll {
+  /* Hug the table's natural width instead of stretching the bordered box
+     to the whole popover (una tabla de conjugación de 2 columnas cortas se
+     veía como un recuadro medio vacío). Se centra; si la tabla es más
+     ancha que el popover (p. ej. matrices KaTeX de Inorgánica) queda
+     topada al 100% y con scroll horizontal, como antes. */
   display: block;
+  width: max-content;
+  max-width: 100%;
+  margin-inline: auto;
   border: 1px solid var(--rc-pop-bd);
   border-radius: 8px;
   overflow-x: auto;

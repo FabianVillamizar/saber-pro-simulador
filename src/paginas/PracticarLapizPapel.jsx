@@ -107,7 +107,7 @@ export function PracticarLapizPapel({ moduloId, perfil, onCambiarPerfil, onVolve
   }
 
   return (
-    <ReglasProvider reglas={modulo.reglas}>
+    <ReglasProvider reglas={modulo.reglas} acento={modulo.acentoReglas}>
     <div className="page practicar-lp">
       <div className="barra-superior">
         <button type="button" className="boton-icono" onClick={onVolver}>

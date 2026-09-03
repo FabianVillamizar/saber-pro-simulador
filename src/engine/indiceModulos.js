@@ -311,7 +311,19 @@ export const indiceModulos = {
       'clase-loisirs': 'Loisirs, sports y verbos (jouer/faire/aller)',
       'clase-profesiones': 'Profesiones y restauration rapide',
       'clase-petits-boulots': 'Petits boulots y jobs de rêve',
+      'clase-gustos-y-preposiciones': 'Gustos, faire/jouer y preposiciones',
     },
+    // El Quiz Rápido de Français activa la capa "Reglas en contexto"
+    // (token `[[id-regla|texto]]` → popover con la regla / conjugación),
+    // cuyo rulebook vive en src/data/frances/fr_reglas.json. Es seguro:
+    // este módulo no escribe montos de dinero en enunciados/explicación, y
+    // los ítems previos no traen `$` ni `**` que el render de fórmulas
+    // pudiera reinterpretar (ver la bitácora del módulo, sección 20).
+    renderizaFormulas: true,
+    // Acento carmesí propio del módulo para el disparador y el popover de
+    // "Reglas en contexto" (en vez del teal general). Lo consume
+    // <ReglasProvider acento={...}> vía data-acento en TextoConReglas.css.
+    acentoReglas: 'fr',
     adapters: {},
   },
   diosgenina: {

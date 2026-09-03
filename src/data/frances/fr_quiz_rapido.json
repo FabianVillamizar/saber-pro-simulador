@@ -1383,5 +1383,288 @@
       "."
     ],
     "explicacion": "**Je voudrais être** es la fórmula del afiche para la profesión soñada: voudrais, condicional de vouloir, suena más cortés que «je veux»."
+  },
+  {
+    "id": "FR-QR-105",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "mcq",
+    "enunciado": "Después de un [[fr-r-gusto-infinitivo|verbo de gusto]] como adorer, ¿cuál oración está bien escrita?",
+    "opciones": [
+      "J'adore de voyager en France.",
+      "J'adore voyager en France.",
+      "J'adore à voyager en France.",
+      "J'adore le voyager en France."
+    ],
+    "correcta": 1,
+    "explicacion": "**adorer + infinitivo** no lleva preposición. «J'adore de voyager» es el error más tentador porque calca el español «me encanta de viajar». Ver [[fr-r-gusto-infinitivo|la regla del gusto con infinitivo]]."
+  },
+  {
+    "id": "FR-QR-106",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "mcq",
+    "enunciado": "«Nous ___ au football le week-end» — la forma correcta de [[fr-r-conjug-jouer|jouer]].",
+    "opciones": ["joue", "jouez", "jouons", "jouent"],
+    "correcta": 2,
+    "explicacion": "nous siempre lleva **-ons**: jouons. «joue» es el error más tentador porque el singular y ils jouent suenan igual que nous al hablar, pero por escrito solo nous cambia así."
+  },
+  {
+    "id": "FR-QR-107",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "mcq",
+    "enunciado": "«Je fais ___ [[fr-r-faire-quehaceres|vaisselle]] après le dîner» — elige la opción correcta.",
+    "opciones": ["la", "de la", "du", "des"],
+    "correcta": 0,
+    "explicacion": "**faire la vaisselle** es una tarea de casa: va con artículo definido, sin partitivo. «de la» es el error más tentador porque parece el mismo patrón que faire de la natation, pero los quehaceres son la excepción."
+  },
+  {
+    "id": "FR-QR-108",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "mcq",
+    "enunciado": "«Elle ___ [[fr-r-faire-de|de la randonnée]] tous les dimanches» — ¿qué verbo va, y en qué forma?",
+    "opciones": ["joue", "joues", "fais", "fait"],
+    "correcta": 3,
+    "explicacion": "La pista es **de la**: solo faire se conecta con de. Y elle pide fait. «joue» es el error más tentador si te fijas en el sentido deportivo antes que en la preposición. Ver [[fr-r-jouer-o-faire|cómo decidir entre jouer y faire]]."
+  },
+  {
+    "id": "FR-QR-109",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "mcq",
+    "enunciado": "«Je joue ___ piano depuis trois ans» — elige la opción correcta.",
+    "opciones": ["au", "du", "le", "à la"],
+    "correcta": 1,
+    "explicacion": "Con un [[fr-r-jouer-de-instrumento|instrumento]], jouer usa **de**: du piano. «au» es el error más tentador porque con deportes sí es jouer au, pero la música cambia la preposición."
+  },
+  {
+    "id": "FR-QR-110",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "mcq",
+    "enunciado": "«J'apprends ___ nouvelles choses en cours» — elige la opción correcta.",
+    "opciones": ["de", "des", "les", "de les"],
+    "correcta": 0,
+    "explicacion": "Un [[fr-r-des-a-de|adjetivo plural antepuesto]] convierte des en **de**: de nouvelles choses. «des» es el error más tentador porque es el plural normal, pero delante del adjetivo se reduce."
+  },
+  {
+    "id": "FR-QR-111",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "mcq",
+    "enunciado": "«J'ai acheté ___ livres intéressants» — aquí el adjetivo va detrás del sustantivo.",
+    "opciones": ["de", "le", "des", "d'"],
+    "correcta": 2,
+    "explicacion": "Con el adjetivo **detrás**, se mantiene des: des livres intéressants. «de» es el error más tentador si recuerdas a medias la regla del adjetivo antepuesto, que aquí no aplica. Ver [[fr-r-des-a-de|des y de con adjetivos]]."
+  },
+  {
+    "id": "FR-QR-112",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "mcq",
+    "enunciado": "«Je ne joue pas ___ piano» — pon en negativa la frase «je joue du piano».",
+    "opciones": ["du", "au", "le", "de"],
+    "correcta": 3,
+    "explicacion": "En [[fr-r-negacion-partitivo|negación]] el partitivo du colapsa a **de**: pas de piano. «du» es el error más tentador porque es la forma afirmativa sin ajustar."
+  },
+  {
+    "id": "FR-QR-113",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "mcq",
+    "enunciado": "«Nous ne faisons pas ___ vaisselle le dimanche» — elige la opción correcta.",
+    "opciones": ["la", "de", "de la", "d'"],
+    "correcta": 0,
+    "explicacion": "faire la vaisselle usa artículo definido, y el definido **no colapsa** en negación: sigue siendo la. «de» es el error más tentador porque en negativa casi todo pasa a de, pero eso es solo para el partitivo. Ver [[fr-r-negacion-partitivo|la negación del partitivo]]."
+  },
+  {
+    "id": "FR-QR-114",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "mcq",
+    "enunciado": "«Elle ___ de la guitare et moi je ___ au tennis» — el mismo verbo va en los dos huecos.",
+    "opciones": ["fait / fais", "joue / joue", "joue / fais", "fait / joue"],
+    "correcta": 1,
+    "explicacion": "Es **jouer** en los dos casos: de la guitare por ser instrumento, au tennis por ser deporte. «fait / fais» es el error más tentador porque de la hace pensar en faire, pero con música es jouer de. Ver [[fr-r-jouer-de-instrumento|jouer de un instrumento]]."
+  },
+  {
+    "id": "FR-QR-115",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "mcq",
+    "enunciado": "«Vous ___ du karaté trois fois par semaine» — la forma correcta de [[fr-r-conjug-faire|faire]].",
+    "opciones": ["faisez", "fasite", "faisiez", "faites"],
+    "correcta": 3,
+    "explicacion": "vous **faites**, sin -ez. «faisez» es el error más tentador porque casi todos los verbos hacen vous con -ez, pero faire y dire son irregulares aquí."
+  },
+  {
+    "id": "FR-QR-116",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "mcq",
+    "enunciado": "«Je préfère jouer aux échecs» — ¿por qué échecs lleva aux?",
+    "opciones": [
+      "porque échecs es una palabra femenina en plural",
+      "porque la palabra échecs empieza por vocal acentuada",
+      "porque échecs es plural, y à más les da la contracción aux",
+      "porque todos los juegos de mesa se construyen siempre con aux"
+    ],
+    "correcta": 2,
+    "explicacion": "**aux** es la contracción de à más les, y échecs es plural. «porque empieza por vocal» es el error más tentador: la vocal solo pediría à l' en singular, pero aquí manda el plural. Ver [[fr-r-jouer-a|las contracciones de à]]."
+  },
+  {
+    "id": "FR-QR-117",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "mcq",
+    "enunciado": "«___ -tu au foot le samedi ?» — la forma correcta de jouer.",
+    "opciones": ["Joues", "Joue", "Jouez", "Jouent"],
+    "correcta": 0,
+    "explicacion": "tú pide **joues**, con -s, aunque en la inversión con -tu suene igual que joue. «Joue» es el error más tentador justo por eso, porque al oído no se distingue. Ver [[fr-r-conjug-jouer|la conjugación de jouer]]."
+  },
+  {
+    "id": "FR-QR-118",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "mcq",
+    "enunciado": "«Le week-end, on ___ du vélo à la campagne» — elige el verbo correcto.",
+    "opciones": ["joue", "fait", "font", "jouent"],
+    "correcta": 1,
+    "explicacion": "La pista es **du**: solo faire va con du. Y on lleva la forma de il o elle, que es fait. «font» es el error más tentador porque on parece plural por el sentido, pero gramaticalmente es singular. Ver [[fr-r-conjug-faire|faire en presente]]."
+  },
+  {
+    "id": "FR-QR-119",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "mcq",
+    "enunciado": "«Tu détestes ___ jeux vidéo» — elige la opción correcta.",
+    "opciones": ["aux", "des", "du", "les"],
+    "correcta": 3,
+    "explicacion": "Un [[fr-r-gusto-articulo-definido|gusto]] con sustantivo lleva artículo definido: les jeux vidéo. «aux» es el error más tentador porque con jouer sí sería jouer aux jeux vidéo, pero détester no es jouer."
+  },
+  {
+    "id": "FR-QR-120",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "mcq",
+    "enunciado": "«J'aime ___ tennis, mais je préfère ___ natation» — elige la pareja correcta.",
+    "opciones": [
+      "au para el primero y de la para el segundo",
+      "jouer au para el primero y faire de la para el segundo",
+      "le para el primero y la para el segundo",
+      "du para el primero y de la para el segundo"
+    ],
+    "correcta": 2,
+    "explicacion": "aimer y préférer con un sustantivo usan artículo definido: le tennis, la natation. La opción con «au» y «de la» es el error más tentador porque mezcla las preposiciones de jouer y faire, que aquí no van. Ver [[fr-r-gusto-articulo-definido|gusto con sustantivo]]."
+  },
+  {
+    "id": "FR-QR-121",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "mcq",
+    "enunciado": "«Elle ___ de la batterie dans un groupe» — elige el verbo correcto.",
+    "opciones": ["joue", "fait", "jouent", "font"],
+    "correcta": 0,
+    "explicacion": "Instrumento pide **jouer de**: elle joue de la batterie. «fait» es el error más tentador porque de la parece pedir faire, pero con música siempre es jouer de. Ver [[fr-r-jouer-de-instrumento|jouer con instrumentos]]."
+  },
+  {
+    "id": "FR-QR-122",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "fill",
+    "enunciado": "Conjuga [[fr-r-conjug-faire|faire]] para vous:",
+    "antes": "Le samedi, vous",
+    "despues": "les courses au marché.",
+    "respuesta": "faites",
+    "alternativas": [],
+    "explicacion": "faire es irregular: vous **faites**, sin -ez. Ver [[fr-r-conjug-faire|la conjugación completa]]."
+  },
+  {
+    "id": "FR-QR-123",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "fill",
+    "enunciado": "Conjuga faire para nous:",
+    "antes": "Nous",
+    "despues": "de la randonnée en été.",
+    "respuesta": "faisons",
+    "alternativas": [],
+    "explicacion": "nous pide **faisons**. Se escribe con ai aunque suene como «fesons»."
+  },
+  {
+    "id": "FR-QR-124",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "fill",
+    "enunciado": "Completa con la [[fr-r-jouer-a|contracción]] correcta:",
+    "antes": "Je joue",
+    "despues": "cartes avec mes amis.",
+    "respuesta": "aux",
+    "alternativas": [],
+    "explicacion": "cartes es plural, así que à más les da **aux**. Ver [[fr-r-jouer-a|las contracciones de à]]."
+  },
+  {
+    "id": "FR-QR-125",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "fill",
+    "enunciado": "Completa con el partitivo correcto:",
+    "antes": "Elle fait",
+    "despues": "boxe le mardi.",
+    "respuesta": "de la",
+    "alternativas": [],
+    "explicacion": "boxe es femenino singular, así que el partitivo de faire es **de la**. Ver [[fr-r-faire-de|el partitivo de faire]]."
+  },
+  {
+    "id": "FR-QR-126",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "fill",
+    "enunciado": "Pon en negativa: «Je fais du sport».",
+    "antes": "Je ne fais pas",
+    "despues": "sport.",
+    "respuesta": "de",
+    "alternativas": [],
+    "explicacion": "En [[fr-r-negacion-partitivo|negación]] du colapsa a **de**: pas de sport."
+  },
+  {
+    "id": "FR-QR-127",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "build",
+    "enunciado": "Ordena para formar: «Yo no toco el piano.»",
+    "fragmentos": ["Je", "ne joue pas", "de piano"],
+    "explicacion": "En [[fr-r-negacion-partitivo|negación]], du piano colapsa a **de piano**, y ne … pas rodea al verbo conjugado."
+  },
+  {
+    "id": "FR-QR-128",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "build",
+    "enunciado": "Ordena para formar: «Los fines de semana hago senderismo.»",
+    "fragmentos": ["Le week-end,", "je fais", "de la randonnée"],
+    "explicacion": "**faire de la randonnée**: deporte individual, así que lleva el partitivo de la. Ver [[fr-r-faire-de|faire con de]]."
+  },
+  {
+    "id": "FR-QR-129",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "build",
+    "enunciado": "Ordena para formar: «Ella prefiere jugar a las cartas.»",
+    "fragmentos": ["Elle préfère", "jouer", "aux cartes"],
+    "explicacion": "**préférer + infinitivo** sin preposición, y luego jouer aux cartes con à más les. Ojo con el acento: es elle [[fr-r-preferer-acento|préfère]], con è. Ver [[fr-r-gusto-infinitivo|gusto con infinitivo]]."
+  },
+  {
+    "id": "FR-QR-130",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "build",
+    "enunciado": "Ordena para formar: «Aprendo cosas nuevas cada día.»",
+    "fragmentos": ["J'apprends", "de nouvelles choses", "chaque jour"],
+    "explicacion": "Adjetivo plural antepuesto: **de** nouvelles choses, no des. Ver [[fr-r-des-a-de|des que pasa a de]]."
+  },
+  {
+    "id": "FR-QR-131",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "mcq",
+    "enunciado": "«Je mange ___ légumes tous les jours, et j'adore ___ légumes verts» — elige la pareja correcta.",
+    "opciones": [
+      "les … des",
+      "des … des",
+      "des … les",
+      "les … les"
+    ],
+    "correcta": 2,
+    "explicacion": "**des** para la cantidad que comes cada día, **les** para las verduras verdes como categoría que te gusta. «les … des» es el error más tentador si te guías por el orden de las palabras y no por el sentido: manger habla de cantidad, adorer habla de generalidad. Ver [[fr-r-de-des-o-les|de y des para cantidad, les para generalidad]]."
+  },
+  {
+    "id": "FR-QR-132",
+    "categoria": "clase-gustos-y-preposiciones",
+    "formato": "mcq",
+    "enunciado": "En «nous préf__rons le café» el hueco lleva é, pero en «je préf__re» lleva è. ¿Por qué cambia? Ver [[fr-r-preferer-acento|préférer]].",
+    "opciones": [
+      "Es un error de imprenta: préférer se escribe siempre con é en todas sus personas.",
+      "El è solo aparece cuando el verbo lleva un pronombre delante; suelto va con é.",
+      "En je préfère esa sílaba es tónica y pide è; en nous préférons es átona y va é.",
+      "El è es del presente y el é del infinitivo; no depende de la sílaba tónica."
+    ],
+    "correcta": 2,
+    "explicacion": "El acento sigue a la **sílaba tónica**: en je préf**è**re esa e suena fuerte y se escribe con è; en nous préf**é**rons el peso se va a -rons y la e vuelve a é. «siempre con é» es el error más tentador si te fías solo del infinitivo préférer. Ver [[fr-r-preferer-acento|el cambio é en è de préférer]]."
   }
 ]

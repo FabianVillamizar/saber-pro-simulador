@@ -70,7 +70,11 @@ function katexBloque(src) {
 // en desktop, clic/tap fija, clic-fuera y Esc cierran. `abierta` guarda
 // { key, pinned, phase: 'in' | 'out' } — la fase 'out' mantiene el nodo
 // montado ~170 ms para la animación de salida.
-export function ReglasProvider({ reglas, children }) {
+// `acento` (opcional): nombre corto del acento de módulo — hoy solo 'fr'
+// (carmesí --fr-accent en vez del teal general). Se propaga como
+// `data-acento` al disparador y al popover; el color lo pone
+// TextoConReglas.css.
+export function ReglasProvider({ reglas, acento, children }) {
   const reglasPorId = useMemo(() => {
     const m = new Map()
     for (const r of reglas ?? []) m.set(r.id, r)
@@ -163,8 +167,8 @@ export function ReglasProvider({ reglas, children }) {
   }, [cerrar])
 
   const valor = useMemo(
-    () => ({ reglasPorId, abierta, hoverEnter, hoverLeave, fijar, cerrar }),
-    [reglasPorId, abierta, hoverEnter, hoverLeave, fijar, cerrar],
+    () => ({ reglasPorId, abierta, hoverEnter, hoverLeave, fijar, cerrar, acento }),
+    [reglasPorId, abierta, hoverEnter, hoverLeave, fijar, cerrar, acento],
   )
 
   return <ContextoReglas.Provider value={valor}>{children}</ContextoReglas.Provider>
@@ -242,7 +246,7 @@ function posicionar(wrap, anchor) {
 }
 
 // ---------- popover ----------
-function ReglaPopover({ regla, anchor, pinned, saliendo, onCerrar }) {
+function ReglaPopover({ regla, anchor, pinned, saliendo, onCerrar, acento }) {
   const wrapRef = useRef(null)
   const desarrollo = regla.variante === 'desarrollo'
 
@@ -279,6 +283,7 @@ function ReglaPopover({ regla, anchor, pinned, saliendo, onCerrar }) {
     <span
       ref={wrapRef}
       data-pop
+      data-acento={acento || undefined}
       className={`rc-pop-wrap${saliendo ? ' rc-pop-wrap--saliendo' : ''}`}
     >
       <span data-card className="rc-pop" data-tipo={regla.tipo}>
@@ -333,7 +338,7 @@ function ReglaPopover({ regla, anchor, pinned, saliendo, onCerrar }) {
 // ---------- disparador ----------
 function DisparadorRegla({ regla, texto, clave }) {
   const ctx = useContext(ContextoReglas)
-  const { abierta, hoverEnter, hoverLeave, fijar, cerrar } = ctx
+  const { abierta, hoverEnter, hoverLeave, fijar, cerrar, acento } = ctx
   const anclaRef = useRef(null)
   const activa = abierta && abierta.key === clave
   const visible = activa && abierta.phase === 'in'
@@ -346,6 +351,7 @@ function DisparadorRegla({ regla, texto, clave }) {
       className={`rc-disp${fijada ? ' rc-disp--fijada' : ''}${visible ? ' rc-disp--activa' : ''}`}
       data-trig
       data-tipo={regla.tipo}
+      data-acento={acento || undefined}
       onPointerEnter={(e) => {
         if (e.pointerType !== 'touch') hoverEnter(clave)
       }}
@@ -366,6 +372,7 @@ function DisparadorRegla({ regla, texto, clave }) {
           pinned={fijada}
           saliendo={saliendo}
           onCerrar={cerrar}
+          acento={acento}
         />
       )}
     </span>
