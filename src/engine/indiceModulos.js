@@ -310,6 +310,7 @@ export const indiceModulos = {
       // interfieren con esa lógica.
       'clase-loisirs': 'Loisirs, sports y verbos (jouer/faire/aller)',
       'clase-profesiones': 'Profesiones y restauration rapide',
+      'clase-petits-boulots': 'Petits boulots y jobs de rêve',
     },
     adapters: {},
   },

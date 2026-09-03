@@ -1042,5 +1042,346 @@
       "?"
     ],
     "explicacion": "ou plutôt ofrece elegir entre dos opciones dentro de la misma pregunta con est-ce que."
+  },
+  {
+    "id": "FR-QR-079",
+    "categoria": "clase-petits-boulots",
+    "formato": "mcq",
+    "enunciado": "«un petit boulot» y «un travail» — ¿en qué se diferencian?",
+    "opciones": [
+      "boulot es un trabajo mal pagado; travail es uno bien pagado",
+      "boulot es coloquial; travail es la palabra neutra de siempre",
+      "boulot es trabajo manual; travail es trabajo de oficina",
+      "boulot se usa en Canadá; travail solo en Francia"
+    ],
+    "correcta": 1,
+    "explicacion": "**boulot** y **travail** significan lo mismo, pero boulot es coloquial, como decir «curro». «boulot es un trabajo mal pagado» sería el error más tentador: se le atribuye al registro una diferencia de sueldo que no existe."
+  },
+  {
+    "id": "FR-QR-080",
+    "categoria": "clase-petits-boulots",
+    "formato": "mcq",
+    "enunciado": "«J'ai trouvé un poste dans une entreprise.» — ¿qué es «un poste» aquí?",
+    "opciones": [
+      "un puesto, un empleo concreto igual que un travail",
+      "una oficina de correos donde se envían cartas",
+      "un turno con un horario fijo cada semana",
+      "un anuncio en el que se ofrece un empleo"
+    ],
+    "correcta": 0,
+    "explicacion": "**un poste** es un puesto de trabajo, sinónimo directo de un travail. «una oficina de correos» sería el error más tentador: la poste, en femenino, sí es el correo, pero un poste en masculino es un empleo."
+  },
+  {
+    "id": "FR-QR-081",
+    "categoria": "clase-petits-boulots",
+    "formato": "mcq",
+    "enunciado": "«un travail saisonnier» describe un trabajo que...",
+    "opciones": [
+      "se hace solo en cierta época concreta del año",
+      "se hace desde casa, a distancia, por internet",
+      "no exige ninguna formación ni experiencia previa",
+      "se paga por día trabajado y no por mes"
+    ],
+    "correcta": 0,
+    "explicacion": "**saisonnier** viene de saison, estación del año: un trabajo atado a una temporada concreta, como vender helados en verano. «se paga por día» sería el error más tentador: eso describe un trabajo por jornadas, que puede durar todo el año."
+  },
+  {
+    "id": "FR-QR-082",
+    "categoria": "clase-petits-boulots",
+    "formato": "mcq",
+    "enunciado": "«un créneau de trois heures» — ¿qué es un «créneau» en este contexto?",
+    "opciones": [
+      "un descanso corto entre dos turnos seguidos",
+      "un contrato temporal de unos tres meses",
+      "una franja de horario, un turno de tres horas",
+      "un aumento de sueldo por las horas extra"
+    ],
+    "correcta": 2,
+    "explicacion": "**un créneau** es una franja de tiempo reservada para algo, aquí un turno de tres horas. «un contrato temporal» sería el error más tentador: se confunde la duración del turno con la del contrato."
+  },
+  {
+    "id": "FR-QR-083",
+    "categoria": "clase-petits-boulots",
+    "formato": "mcq",
+    "enunciado": "«faire la fermeture» de un local significa...",
+    "opciones": [
+      "encargarse de abrir el local por la mañana",
+      "encargarse de cerrar el local al final del día",
+      "tener el puesto asegurado, sin riesgo de despido",
+      "hacer el recuento de caja una vez al mes"
+    ],
+    "correcta": 1,
+    "explicacion": "**la fermeture** es el cierre; su par natural es l'ouverture, la apertura. «abrir el local por la mañana» sería el error más tentador: es justo el turno opuesto, el de ouverture."
+  },
+  {
+    "id": "FR-QR-084",
+    "categoria": "clase-petits-boulots",
+    "formato": "mcq",
+    "enunciado": "«Elle vend des magazines dans un bureau de tabac.» — ¿qué vende?",
+    "opciones": [
+      "tiendas",
+      "almacenes",
+      "mercados",
+      "revistas"
+    ],
+    "correcta": 3,
+    "explicacion": "**un magazine** es una revista; **un magasin** es una tienda. «tiendas» sería el error más tentador: magazine y magasin se escriben y suenan casi igual, solo cambia esa e."
+  },
+  {
+    "id": "FR-QR-085",
+    "categoria": "clase-petits-boulots",
+    "formato": "mcq",
+    "enunciado": "«Il y a beaucoup de magasins dans cette rue.» — ¿qué hay en la calle?",
+    "opciones": [
+      "muchas revistas",
+      "muchas tiendas",
+      "mucho tráfico",
+      "muchos bancos"
+    ],
+    "correcta": 1,
+    "explicacion": "**un magasin** es una tienda o comercio. «muchas revistas» sería el error más tentador: es la trampa inversa de magazine, la palabra casi gemela que sí significa revista."
+  },
+  {
+    "id": "FR-QR-086",
+    "categoria": "clase-petits-boulots",
+    "formato": "mcq",
+    "enunciado": "Un «bureau de tabac» es un sitio donde se vende sobre todo...",
+    "opciones": [
+      "tabaco, prensa y sellos, como un estanco",
+      "muebles de oficina y material de escritorio",
+      "café y bollería recién hecha para llevar",
+      "billetes de tren y abonos de autobús"
+    ],
+    "correcta": 0,
+    "explicacion": "**un bureau de tabac** es un estanco: vende tabaco, prensa, sellos y a veces lotería. «muebles de oficina» sería el error más tentador: bureau también significa escritorio, pero aquí forma expresión fija con tabac."
+  },
+  {
+    "id": "FR-QR-087",
+    "categoria": "clase-petits-boulots",
+    "formato": "mcq",
+    "enunciado": "«assembler des cartons» en una fábrica es...",
+    "opciones": [
+      "montar cajas de cartón juntando sus partes",
+      "separar el cartón usado para reciclarlo",
+      "cargar las cajas ya llenas en un camión",
+      "diseñar el embalaje de un producto nuevo"
+    ],
+    "correcta": 0,
+    "explicacion": "**assembler** es juntar piezas para formar algo; aquí, armar cajas. «separar el cartón para reciclarlo» sería el error más tentador: es otra tarea con cartón, pero assembler siempre implica construir, no separar."
+  },
+  {
+    "id": "FR-QR-088",
+    "categoria": "clase-petits-boulots",
+    "formato": "mcq",
+    "enunciado": "«Je me régale avec ces crêpes.» — ¿qué expresa?",
+    "opciones": [
+      "que las crêpes le sientan mal al estómago",
+      "que está preparando crêpes para los demás",
+      "que disfruta muchísimo comiéndolas",
+      "que le están regalando crêpes sin cobrarle"
+    ],
+    "correcta": 2,
+    "explicacion": "**se régaler** es disfrutar mucho al comer algo. «que le regalan crêpes gratis» sería el error más tentador: régaler recuerda a «regalar» en español, pero no tiene ese sentido."
+  },
+  {
+    "id": "FR-QR-089",
+    "categoria": "clase-petits-boulots",
+    "formato": "mcq",
+    "enunciado": "«Je m'occupe des clients.» — ¿cuál es la mejor traducción?",
+    "opciones": [
+      "Estoy ocupado y no puedo atender a los clientes.",
+      "Me encargo de atender a los clientes.",
+      "Estoy molesto por culpa de los clientes.",
+      "Ocupo el puesto que dejaron los clientes."
+    ],
+    "correcta": 1,
+    "explicacion": "**s'occuper de** es encargarse de algo o de alguien. «estoy ocupado» sería el error más tentador: occupé sí significa ocupado, pero el reflexivo s'occuper de cambia el sentido a hacerse cargo."
+  },
+  {
+    "id": "FR-QR-090",
+    "categoria": "clase-petits-boulots",
+    "formato": "mcq",
+    "enunciado": "«Elle se rapproche de son objectif.» — ¿qué quiere decir?",
+    "opciones": [
+      "Ha renunciado del todo a su objetivo.",
+      "Aplaza su objetivo para más adelante.",
+      "Se acerca cada vez más a su objetivo.",
+      "Vuelve a empezar su objetivo desde cero."
+    ],
+    "correcta": 2,
+    "explicacion": "**se rapprocher de** es acercarse a algo o a alguien; viene de proche, cercano. «ha renunciado a su objetivo» sería el error más tentador: se elige lo contrario de acercarse por no reconocer la raíz proche."
+  },
+  {
+    "id": "FR-QR-091",
+    "categoria": "clase-petits-boulots",
+    "formato": "mcq",
+    "enunciado": "«Nous ___ de la fermeture ce soir.» — forma correcta de s'occuper.",
+    "opciones": [
+      "nous occupons",
+      "nous occupent",
+      "s'occupons",
+      "nous nous occupons"
+    ],
+    "correcta": 3,
+    "explicacion": "El reflexivo lleva dos pronombres con nous: **nous nous occupons**, uno de sujeto y otro reflexivo. «nous occupons» sería el error más tentador: se omite el segundo nous, que en francés siempre aparece aunque suene repetitivo."
+  },
+  {
+    "id": "FR-QR-092",
+    "categoria": "clase-petits-boulots",
+    "formato": "mcq",
+    "enunciado": "¿Cuál de estos verbos reflexivos NO sigue el patrón regular de -er?",
+    "opciones": [
+      "se tester",
+      "se régaler",
+      "se servir de",
+      "se rapprocher de"
+    ],
+    "correcta": 2,
+    "explicacion": "**se servir de** viene de servir, un verbo -ir irregular, así que hereda esa irregularidad: je me sers. Los otros tres son -er normales. «se rapprocher de» sería el error más tentador por ser largo y llevar preposición, pero rapprocher es -er regular."
+  },
+  {
+    "id": "FR-QR-093",
+    "categoria": "clase-petits-boulots",
+    "formato": "mcq",
+    "enunciado": "«Béatrice a eu un éventail de petits boulots.» — ¿qué significa «un éventail de»?",
+    "opciones": [
+      "un abanico de mano para darse aire",
+      "una lista breve de dos o tres cosas",
+      "una sucesión de intentos fallidos",
+      "una gran variedad de esas cosas"
+    ],
+    "correcta": 3,
+    "explicacion": "**un éventail de** es, en sentido figurado, una gama amplia de algo, como un éventail de options. «un abanico de mano» sería el error más tentador: es el sentido literal de éventail, pero aquí va seguido de de y una idea abstracta."
+  },
+  {
+    "id": "FR-QR-094",
+    "categoria": "clase-petits-boulots",
+    "formato": "mcq",
+    "enunciado": "«lorsque» se puede reemplazar, sin cambiar el sentido, por...",
+    "opciones": [
+      "quand",
+      "parce que",
+      "pendant",
+      "puisque"
+    ],
+    "correcta": 0,
+    "explicacion": "**lorsque** y **quand** significan lo mismo, cuando; lorsque es algo más formal y de escritura. «parce que» sería el error más tentador: introduce causa, porque, no un momento en el tiempo."
+  },
+  {
+    "id": "FR-QR-095",
+    "categoria": "clase-petits-boulots",
+    "formato": "mcq",
+    "enunciado": "En un afiche «Jobs de rêve», ¿con qué frase se dice qué profesión sueñas?",
+    "opciones": [
+      "C'est un ou une...",
+      "Il ou elle travaille dans...",
+      "J'aime cette profession parce que...",
+      "Je voudrais être..."
+    ],
+    "correcta": 3,
+    "explicacion": "**Je voudrais être...** expresa el deseo con el condicional de vouloir. «C'est un ou une...» sería el error más tentador: también va al inicio del afiche, pero sirve para definir la profesión, no para decir qué sueñas."
+  },
+  {
+    "id": "FR-QR-096",
+    "categoria": "clase-petits-boulots",
+    "formato": "fill",
+    "enunciado": "Conjuga se régaler para tú:",
+    "antes": "Tu te",
+    "despues": "avec des crêpes le dimanche.",
+    "respuesta": "régales",
+    "alternativas": [],
+    "explicacion": "verbo -er regular: tu → **régales**. El pronombre te no cambia la terminación, solo se antepone al verbo ya conjugado."
+  },
+  {
+    "id": "FR-QR-097",
+    "categoria": "clase-petits-boulots",
+    "formato": "fill",
+    "enunciado": "Completa con la forma de s'occuper para nosotros:",
+    "antes": "Nous nous",
+    "despues": "de la fermeture du magasin.",
+    "respuesta": "occupons",
+    "alternativas": [],
+    "explicacion": "nous → **occupons**, con la terminación -ons de siempre. El primer nous es el sujeto y el segundo el reflexivo; aquí solo falta el verbo."
+  },
+  {
+    "id": "FR-QR-098",
+    "categoria": "clase-petits-boulots",
+    "formato": "fill",
+    "enunciado": "Conjuga se rapprocher para ella:",
+    "antes": "Elle se",
+    "despues": "de son objectif professionnel.",
+    "respuesta": "rapproche",
+    "alternativas": [],
+    "explicacion": "il / elle → **rapproche**. Verbo -er regular formado sobre proche, cercano: acercarse a algo."
+  },
+  {
+    "id": "FR-QR-099",
+    "categoria": "clase-petits-boulots",
+    "formato": "fill",
+    "enunciado": "Completa con el adjetivo que significa «de temporada»:",
+    "antes": "En été, elle a un travail",
+    "despues": ": elle vend des glaces sur la plage.",
+    "respuesta": "saisonnier",
+    "alternativas": [],
+    "explicacion": "**saisonnier** viene de saison, estación del año: un trabajo que solo existe en cierta temporada."
+  },
+  {
+    "id": "FR-QR-100",
+    "categoria": "clase-petits-boulots",
+    "formato": "fill",
+    "enunciado": "Completa con la palabra que significa «revistas»:",
+    "antes": "Dans le bureau de tabac, elle vend des",
+    "despues": "et des cigarettes.",
+    "respuesta": "magazines",
+    "alternativas": [],
+    "explicacion": "**magazine** es revista; no confundir con magasin, que es tienda. Después de des va en plural: magazines."
+  },
+  {
+    "id": "FR-QR-101",
+    "categoria": "clase-petits-boulots",
+    "formato": "build",
+    "enunciado": "Ordena para formar: «Ella tiene un trabajo de temporada.»",
+    "fragmentos": [
+      "Elle a",
+      "un travail saisonnier",
+      "."
+    ],
+    "explicacion": "En francés el adjetivo saisonnier va después del sustantivo: un travail saisonnier, nunca «un saisonnier travail»."
+  },
+  {
+    "id": "FR-QR-102",
+    "categoria": "clase-petits-boulots",
+    "formato": "build",
+    "enunciado": "Ordena para formar: «Yo me encargo de los clientes.»",
+    "fragmentos": [
+      "Je m'occupe",
+      "des clients",
+      "."
+    ],
+    "explicacion": "s'occuper siempre lleva de: m'occupe **des** clients, con de + les contraído en des."
+  },
+  {
+    "id": "FR-QR-103",
+    "categoria": "clase-petits-boulots",
+    "formato": "build",
+    "enunciado": "Ordena para formar: «Ella también trabajó en el sector gastronómico.»",
+    "fragmentos": [
+      "Elle a aussi travaillé",
+      "dans la restauration",
+      "."
+    ],
+    "explicacion": "travailler dans + sector: dans la restauration para la gastronomía. aussi se coloca entre el auxiliar y el participio: a aussi travaillé."
+  },
+  {
+    "id": "FR-QR-104",
+    "categoria": "clase-petits-boulots",
+    "formato": "build",
+    "enunciado": "Ordena para formar: «Me gustaría ser ingeniero de medio ambiente.»",
+    "fragmentos": [
+      "Je voudrais être",
+      "ingénieur en environnement",
+      "."
+    ],
+    "explicacion": "**Je voudrais être** es la fórmula del afiche para la profesión soñada: voudrais, condicional de vouloir, suena más cortés que «je veux»."
   }
 ]
