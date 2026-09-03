@@ -5,6 +5,7 @@ import { ThemeToggle } from '../componentes/ThemeToggle.jsx'
 import { SelectorPerfil } from '../componentes/SelectorPerfil.jsx'
 import { Formula } from '../componentes/Formula.jsx'
 import { TextoConFormulas } from '../componentes/TextoConFormulas.jsx'
+import { ReglasProvider, TextoConReglas } from '../componentes/TextoConReglas.jsx'
 import { IconoChevronIzquierdo, IconoCheck, IconoX, IconoFlechaDerecha } from '../componentes/iconos.jsx'
 import './PracticarLapizPapel.css'
 
@@ -17,6 +18,17 @@ import './PracticarLapizPapel.css'
 // siempre.
 function Texto({ texto, formulas }) {
   return formulas ? <TextoConFormulas texto={texto} /> : texto
+}
+
+// Igual que Texto pero además reconoce los disparadores `[[id-regla|texto]]`
+// de la capa "Reglas en contexto" (ver TextoConReglas.jsx). Se usa en la
+// prosa del enunciado y del revelado; las opciones de la fase 1 siguen en
+// Texto (un disparador ahí daría pista, mismo criterio que QuizRapido).
+// TextoConReglas es superset estricto de TextoConFormulas, así que sin
+// rulebook (RC no lo tiene) el token degrada a su texto visible y el resto
+// se comporta idéntico.
+function TextoConDisparadores({ texto, formulas }) {
+  return formulas ? <TextoConReglas texto={texto} /> : texto
 }
 
 function barajar(items) {
@@ -95,6 +107,7 @@ export function PracticarLapizPapel({ moduloId, perfil, onCambiarPerfil, onVolve
   }
 
   return (
+    <ReglasProvider reglas={modulo.reglas}>
     <div className="page practicar-lp">
       <div className="barra-superior">
         <button type="button" className="boton-icono" onClick={onVolver}>
@@ -112,7 +125,7 @@ export function PracticarLapizPapel({ moduloId, perfil, onCambiarPerfil, onVolve
         <ThemeToggle dark={dark} onToggle={toggle} />
       </div>
 
-      <div className="practicar-lp-cuerpo">
+      <div className="practicar-lp-cuerpo" data-reglas-bounds>
         {/* La nota sobre el ICFES ("no pedirá operaciones extenuantes",
             "no se cronometra") solo tiene sentido en Razonamiento
             Cuantitativo, el único módulo de examen que usa este modo. En
@@ -156,11 +169,11 @@ export function PracticarLapizPapel({ moduloId, perfil, onCambiarPerfil, onVolve
             <div className="practicar-lp-badge-sub">{ej.subcategoria}</div>
           </div>
 
-          <div className="practicar-lp-enunciado"><Texto texto={ej.enunciado} formulas={modulo.renderizaFormulas} /></div>
+          <div className="practicar-lp-enunciado"><TextoConDisparadores texto={ej.enunciado} formulas={modulo.renderizaFormulas} /></div>
 
           {fase === 1 && (
             <div className="practicar-lp-fase1">
-              <div className="practicar-lp-eyebrow"><Texto texto={ej.promptFase1} formulas={modulo.renderizaFormulas} /></div>
+              <div className="practicar-lp-eyebrow"><TextoConDisparadores texto={ej.promptFase1} formulas={modulo.renderizaFormulas} /></div>
               <div className="practicar-lp-opciones">
                 {ej.opciones.map((o, i) => {
                   const elegida = seleccion === i
@@ -193,13 +206,13 @@ export function PracticarLapizPapel({ moduloId, perfil, onCambiarPerfil, onVolve
 
               {revelado && (
                 <div className={`practicar-lp-revelado practicar-lp-revelado--${esFormula ? 'formula' : 'trampa'}`}>
-                  <div className="practicar-lp-revelado-titulo"><Texto texto={ej.labelHerramienta} formulas={modulo.renderizaFormulas} /></div>
+                  <div className="practicar-lp-revelado-titulo"><TextoConDisparadores texto={ej.labelHerramienta} formulas={modulo.renderizaFormulas} /></div>
                   {ej.formula && (
                     <div className="practicar-lp-revelado-formula">
                       <Formula tex={ej.formula} />
                     </div>
                   )}
-                  <div className="practicar-lp-revelado-texto"><Texto texto={ej.porQue} formulas={modulo.renderizaFormulas} /></div>
+                  <div className="practicar-lp-revelado-texto"><TextoConDisparadores texto={ej.porQue} formulas={modulo.renderizaFormulas} /></div>
                 </div>
               )}
 
@@ -218,7 +231,7 @@ export function PracticarLapizPapel({ moduloId, perfil, onCambiarPerfil, onVolve
                 <IconoCheck size={14} color={esFormula ? 'var(--accent)' : 'var(--warning)'} />
                 <div className="practicar-lp-enfoque-info">
                   <div className="practicar-lp-enfoque-eyebrow">Tu enfoque</div>
-                  <div className="practicar-lp-enfoque-nombre"><Texto texto={ej.enfoqueCorto} formulas={modulo.renderizaFormulas} /></div>
+                  <div className="practicar-lp-enfoque-nombre"><TextoConDisparadores texto={ej.enfoqueCorto} formulas={modulo.renderizaFormulas} /></div>
                 </div>
                 {ej.formula && (
                   <div className="practicar-lp-enfoque-formula">
@@ -253,8 +266,8 @@ export function PracticarLapizPapel({ moduloId, perfil, onCambiarPerfil, onVolve
                 <div className="practicar-lp-solucion">
                   <div className="practicar-lp-solucion-caja">
                     <div className="practicar-lp-eyebrow">Respuesta</div>
-                    <div className="practicar-lp-solucion-respuesta"><Texto texto={ej.respuesta} formulas={modulo.renderizaFormulas} /></div>
-                    <div className="practicar-lp-solucion-desarrollo"><Texto texto={ej.desarrollo} formulas={modulo.renderizaFormulas} /></div>
+                    <div className="practicar-lp-solucion-respuesta"><TextoConDisparadores texto={ej.respuesta} formulas={modulo.renderizaFormulas} /></div>
+                    <div className="practicar-lp-solucion-desarrollo"><TextoConDisparadores texto={ej.desarrollo} formulas={modulo.renderizaFormulas} /></div>
                   </div>
 
                   {/* La comparación "atajo vs a pulso" solo tiene sentido cuando el
@@ -281,7 +294,7 @@ export function PracticarLapizPapel({ moduloId, perfil, onCambiarPerfil, onVolve
                         </div>
                       </div>
                       {ej.notaAtajo && (
-                        <p className="practicar-lp-nota-atajo"><Texto texto={ej.notaAtajo} formulas={modulo.renderizaFormulas} /></p>
+                        <p className="practicar-lp-nota-atajo"><TextoConDisparadores texto={ej.notaAtajo} formulas={modulo.renderizaFormulas} /></p>
                       )}
                     </>
                   )}
@@ -313,5 +326,6 @@ export function PracticarLapizPapel({ moduloId, perfil, onCambiarPerfil, onVolve
         </div>
       </div>
     </div>
+    </ReglasProvider>
   )
 }

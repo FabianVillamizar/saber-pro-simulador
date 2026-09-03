@@ -138,5 +138,45 @@ for (const it of quiz) {
 }
 console.log(`\n${reglas.length} reglas en el rulebook · ${refsResueltas} referencias [[HL-R-...]] resueltas en el Quiz Rápido`)
 
+// ---- Tokens [[HL-R-...]] en tarjetas de concepto y en Lápiz y papel ----
+// RepasoConceptos.jsx y PracticarLapizPapel.jsx pasan la prosa por
+// TextoConReglas para módulos con renderizaFormulas. Cada [[id]] resuelve;
+// ningún disparador en las opciones de fase 1 de Lápiz y papel (daría pista).
+let refsTarjetas = 0
+for (const t of conceptos) {
+  for (const campo of ['pregunta', 'respuesta', 'regla', 'ejemplo', 'error_comun', 'conexion_cotidiana']) {
+    const v = t[campo]
+    if (typeof v !== 'string') continue
+    for (const m of v.matchAll(TOKEN)) {
+      const id = m[1].trim()
+      if (!idsRegla.has(id)) {
+        console.log(`FAIL ${t.id}.${campo}: [[${id}]] no existe en hl_reglas.json`)
+        errores++
+      } else refsTarjetas++
+    }
+  }
+}
+let refsLp = 0
+for (const ej of lp) {
+  for (const campo of ['enunciado', 'promptFase1', 'labelHerramienta', 'enfoqueCorto', 'porQue', 'respuesta', 'desarrollo', 'notaAtajo']) {
+    const v = ej[campo]
+    if (typeof v !== 'string') continue
+    for (const m of v.matchAll(TOKEN)) {
+      const id = m[1].trim()
+      if (!idsRegla.has(id)) {
+        console.log(`FAIL ${ej.id}.${campo}: [[${id}]] no existe en hl_reglas.json`)
+        errores++
+      } else refsLp++
+    }
+  }
+  ;(ej.opciones ?? []).forEach((o, i) => {
+    if (typeof o?.texto === 'string' && o.texto.includes('[[')) {
+      console.log(`FAIL ${ej.id}.opciones[${i}]: un disparador [[...]] en una opción de fase 1 daría pista`)
+      errores++
+    }
+  })
+}
+console.log(`${refsTarjetas} referencias resueltas en tarjetas de concepto · ${refsLp} en Lápiz y papel`)
+
 console.log(errores === 0 ? 'OK — 0 errores de KaTeX en los tres archivos' : `${errores} error(es)`)
 process.exit(errores === 0 ? 0 : 1)

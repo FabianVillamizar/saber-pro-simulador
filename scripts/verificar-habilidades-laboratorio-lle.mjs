@@ -10,6 +10,13 @@ const tarjetas = JSON.parse(readFileSync(RUTA, 'utf-8'))
 
 const CAMPOS_TEXTO = ['pregunta', 'respuesta', 'regla', 'ejemplo', 'error_comun', 'conexion_cotidiana']
 
+// La longitud es carga de lectura: se mide sobre lo que el lector ve, así
+// que un disparador `[[id-regla|texto visible]]` cuenta solo por su texto
+// visible, no por el marcado del token (ver TextoConReglas.jsx).
+function textoVisible(s) {
+  return String(s ?? '').replace(/\[\[[^\]|]+\|([^\]]*)\]\]/g, '$1').replace(/\[\[([^\]|]+)\]\]/g, '$1')
+}
+
 let errores = 0
 const ids = new Set()
 const longitudes = []
@@ -21,7 +28,7 @@ for (const t of tarjetas) {
   }
   ids.add(t.id)
 
-  const textoCompleto = CAMPOS_TEXTO.map((c) => t[c] ?? '').join(' ')
+  const textoCompleto = CAMPOS_TEXTO.map((c) => textoVisible(t[c])).join(' ')
   const longitud = textoCompleto.length
   longitudes.push({ id: t.id, longitud })
   if (longitud < 700 || longitud > 1700) {
