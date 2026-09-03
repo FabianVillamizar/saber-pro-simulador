@@ -1,0 +1,198 @@
+.explorar-hl {
+  max-width: 780px;
+}
+
+.explorar-hl-titulo-modulo {
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--text);
+}
+
+.explorar-hl-titulo-sub {
+  font-size: 12px;
+  color: var(--text-faint);
+  margin-top: 1px;
+}
+
+.explorar-hl-cuerpo {
+  padding-top: 8px;
+}
+
+.explorar-hl-intro {
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--text-sub);
+  margin-bottom: 16px;
+}
+
+/* Repaso mezclado — el comportamiento de siempre, presentado como una
+   opción explícita en vez de la única puerta. */
+.explorar-hl-mezclado {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 100%;
+  text-align: left;
+  padding: 15px 18px;
+  margin-bottom: 20px;
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radio-md);
+  cursor: pointer;
+  font-family: inherit;
+  transition: border-color var(--dur-hover) ease, box-shadow var(--dur-hover) ease, transform var(--dur-hover) ease;
+}
+
+.explorar-hl-mezclado:hover {
+  border-color: var(--accent);
+  box-shadow: 0 6px 18px var(--sombra-hover);
+  transform: translateY(-2px);
+}
+
+.explorar-hl-mezclado-texto {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  flex: 1;
+}
+
+.explorar-hl-mezclado-titulo {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.explorar-hl-mezclado-sub {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--text-faint);
+}
+
+.explorar-hl-mezclado-flecha {
+  font-size: 18px;
+  color: var(--text-sub);
+  flex-shrink: 0;
+}
+
+/* Lista de técnicas */
+.explorar-hl-lista {
+  display: grid;
+  gap: 14px;
+}
+
+.explorar-hl-tecnica {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radio-md);
+  transition: border-color var(--dur-hover) ease, box-shadow var(--dur-hover) ease;
+}
+
+.explorar-hl-tecnica:hover {
+  border-color: var(--accent);
+  box-shadow: 0 6px 18px var(--sombra-hover);
+}
+
+.explorar-hl-tecnica--dominado {
+  border-color: color-mix(in oklch, var(--success, #16a34a) 45%, var(--border));
+}
+
+.explorar-hl-tecnica-cabecera {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.explorar-hl-tecnica-codigo {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 42px;
+  height: 42px;
+  padding: 0 8px;
+  border-radius: 10px;
+  background: color-mix(in oklch, var(--accent) 12%, var(--surface));
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+
+:root[data-theme='dark'] .explorar-hl-tecnica-codigo {
+  background: color-mix(in oklch, var(--accent) 22%, var(--surface));
+}
+
+.explorar-hl-tecnica-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.explorar-hl-tecnica-nombre {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+
+.explorar-hl-tecnica-meta {
+  font-size: 12px;
+  color: var(--text-faint);
+  margin-top: 2px;
+}
+
+.explorar-hl-tecnica-pct {
+  flex-shrink: 0;
+  text-align: right;
+}
+
+.explorar-hl-tecnica-pct-num {
+  font-size: 17px;
+  font-weight: 800;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.explorar-hl-tecnica-pct-label {
+  font-size: 10.5px;
+  color: var(--text-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.explorar-hl-barra {
+  height: 5px;
+  border-radius: 3px;
+  background: var(--surface-alt);
+  overflow: hidden;
+}
+
+.explorar-hl-barra-relleno {
+  height: 100%;
+  border-radius: 3px;
+  background: var(--accent);
+  transition: width var(--dur-hover) ease;
+}
+
+.explorar-hl-tecnica-desc {
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: var(--text-sub);
+}
+
+.explorar-hl-tecnica .boton-primario {
+  align-self: flex-start;
+}
+
+@media (max-width: 520px) {
+  .explorar-hl-tecnica-cabecera {
+    flex-wrap: wrap;
+  }
+
+  .explorar-hl-tecnica-pct {
+    text-align: left;
+  }
+}
