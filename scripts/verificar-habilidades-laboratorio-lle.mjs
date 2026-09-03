@@ -1,9 +1,12 @@
 // Verificación de contenido para src/data/habilidades-laboratorio/hl_lle_conceptos.json,
 // aplicando la rúbrica de la bitácora del módulo: longitud por tarjeta,
 // compilación KaTeX de formula_latex, integridad de prereqs (sin ciclos,
-// sin referencias rotas), ids duplicados.
+// sin referencias rotas), ids duplicados, y que cada `connects_to` cruzado
+// ("modulo:bloque") apunte a un módulo y bloque reales (RepasoConceptos
+// lo pinta como chip navegable — ver enlacesCruzados en RepasoConceptos.jsx).
 import { readFileSync } from 'node:fs'
 import katex from 'katex'
+import { indiceModulos } from '../src/engine/indiceModulos.js'
 
 const RUTA = new URL('../src/data/habilidades-laboratorio/hl_lle_conceptos.json', import.meta.url)
 const tarjetas = JSON.parse(readFileSync(RUTA, 'utf-8'))
@@ -41,6 +44,19 @@ for (const t of tarjetas) {
       katex.renderToString(t.formula_latex, { throwOnError: true })
     } catch (e) {
       console.log(`FAIL KaTeX no compila en ${t.id}.formula_latex: "${t.formula_latex}" -> ${e.message}`)
+      errores++
+    }
+  }
+
+  for (const destino of t.connects_to ?? []) {
+    if (!String(destino).includes(':')) continue // código de bloque suelto: metadata, no chip
+    const [modId, bloque] = String(destino).split(':')
+    const mod = indiceModulos[modId]
+    if (!mod) {
+      console.log(`FAIL ${t.id}.connects_to: módulo "${modId}" no existe (en "${destino}")`)
+      errores++
+    } else if (!mod.categorias?.[bloque]) {
+      console.log(`FAIL ${t.id}.connects_to: "${modId}" no tiene el bloque "${bloque}" en sus categorías`)
       errores++
     }
   }

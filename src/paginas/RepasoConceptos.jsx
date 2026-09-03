@@ -9,6 +9,8 @@ import { leccionesDesbloqueadas } from '../engine/progresoFrances.js'
 import { crearCola, reencolarTrasFallo, retirarTrasAcierto } from '../engine/colaRefuerzo.js'
 import { registrarRepaso } from '../engine/progreso.js'
 import { reproducirSonido } from '../engine/sonido.js'
+import { indiceModulos } from '../engine/indiceModulos.js'
+import { esVisibleParaPerfil } from '../engine/accesoModulo.js'
 import { ThemeToggle } from '../componentes/ThemeToggle.jsx'
 import { SelectorPerfil } from '../componentes/SelectorPerfil.jsx'
 import { TarjetaFlip } from '../componentes/TarjetaFlip.jsx'
@@ -81,6 +83,33 @@ const BOTONES_EVAL = [
   { calificacion: 'facil', etiqueta: 'Fácil', intervalo: '6 días', clase: 'facil' },
 ]
 
+// `connects_to` en las tarjetas científicas tiene dos formas históricas:
+// un código de bloque suelto ("ELL", "parte_IV"), que es metadata
+// informativa dentro del mismo tema, y la forma cruzada "modulo:bloque"
+// ("diosgenina:ELL"), que sí apunta a otro módulo. Solo la segunda se
+// convierte en un chip navegable; la primera se ignora. Se descarta el
+// destino si el módulo no existe o el perfil no puede verlo.
+function enlacesCruzados(connectsTo, moduloActual, perfil) {
+  if (!Array.isArray(connectsTo)) return []
+  return connectsTo
+    .map((crudo) => {
+      const sep = String(crudo).indexOf(':')
+      if (sep === -1) return null
+      const destinoId = crudo.slice(0, sep)
+      const bloque = crudo.slice(sep + 1)
+      if (!destinoId || !bloque || destinoId === moduloActual) return null
+      const destino = indiceModulos[destinoId]
+      if (!destino || !esVisibleParaPerfil(destinoId, perfil)) return null
+      return {
+        moduloId: destinoId,
+        bloque,
+        nombre: destino.nombre,
+        bloqueLabel: destino.categorias?.[bloque] ?? bloque,
+      }
+    })
+    .filter(Boolean)
+}
+
 export function RepasoConceptos({
   moduloId,
   leccion,
@@ -91,6 +120,7 @@ export function RepasoConceptos({
   onVolver,
   onIrACompletaFrase,
   onIrATraduce,
+  onIrAModuloBloque,
 }) {
   const { modulo, cargando, error } = useModulo(moduloId)
   const { dark, toggle } = useTheme()
@@ -301,6 +331,7 @@ export function RepasoConceptos({
   // ni `error_comun`: categoria/pregunta/respuesta_breve/explicacion/
   // ejemplo_aplicado únicamente — reverso de 2 secciones en vez de 3.
   const esCultura = !esFrances && !esCientifica && !esCloze && 'categoria' in tarjeta
+  const enlacesConecta = esCientifica ? enlacesCruzados(tarjeta.connects_to, moduloId, perfil) : []
 
   return (
     <ReglasProvider reglas={modulo.reglas}>
@@ -622,6 +653,25 @@ export function RepasoConceptos({
                       <div className="repaso-cotidiana-texto">
                         <TextoConReglas texto={tarjeta.conexion_cotidiana} />
                       </div>
+                    </div>
+                  </div>
+                )}
+
+                {enlacesConecta.length > 0 && (
+                  <div className="repaso-conecta">
+                    <div className="repaso-seccion-label">Conecta con</div>
+                    <div className="repaso-conecta-chips">
+                      {enlacesConecta.map((enlace) => (
+                        <button
+                          key={`${enlace.moduloId}:${enlace.bloque}`}
+                          type="button"
+                          className="repaso-conecta-chip"
+                          onClick={() => onIrAModuloBloque?.(enlace.moduloId, enlace.bloque)}
+                        >
+                          <span className="repaso-conecta-chip-modulo">{enlace.nombre}</span>
+                          <span className="repaso-conecta-chip-bloque">{enlace.bloqueLabel}</span>
+                        </button>
+                      ))}
                     </div>
                   </div>
                 )}

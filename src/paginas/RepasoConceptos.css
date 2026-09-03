@@ -516,6 +516,49 @@
   line-height: 1.5;
 }
 
+/* "Conecta con" — chips navegables a un bloque de otro módulo
+   (connects_to en forma "modulo:bloque"). */
+.repaso-conecta {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.repaso-conecta-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.repaso-conecta-chip {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  text-align: left;
+  padding: 8px 13px;
+  border-radius: 10px;
+  border: 1px solid color-mix(in oklch, var(--accent) 32%, var(--border));
+  background: color-mix(in oklch, var(--accent) 8%, var(--surface));
+  color: var(--text);
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.repaso-conecta-chip:hover {
+  background: color-mix(in oklch, var(--accent) 15%, var(--surface));
+  border-color: color-mix(in oklch, var(--accent) 50%, var(--border));
+}
+
+.repaso-conecta-chip-modulo {
+  font-size: 11px;
+  color: var(--text-sub);
+}
+
+.repaso-conecta-chip-bloque {
+  font-size: 13px;
+  font-weight: 600;
+}
+
 /* Autoevaluación */
 .repaso-eval {
   max-width: 600px;

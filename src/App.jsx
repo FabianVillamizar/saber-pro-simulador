@@ -157,7 +157,13 @@ function App() {
 
   if (pantalla.tipo === 'repaso') {
     return (
+      // `key` por módulo: RepasoConceptos siembra su estado SRS con un
+      // inicializador perezoso que solo corre al montar, así que un salto
+      // repaso -> repaso de otro módulo (los chips "Conecta con") tiene que
+      // remontar para no escribir el SRS del módulo viejo bajo la clave del
+      // nuevo.
       <RepasoConceptos
+        key={`repaso-${pantalla.moduloId}`}
         moduloId={pantalla.moduloId}
         leccion={pantalla.leccion}
         categoriaFiltro={pantalla.categoriaFiltro}
@@ -167,6 +173,9 @@ function App() {
         onVolver={volverAModulo}
         onIrACompletaFrase={() => setPantalla({ tipo: 'completa-frase', moduloId: 'frances' })}
         onIrATraduce={() => setPantalla({ tipo: 'traduce', moduloId: 'frances' })}
+        onIrAModuloBloque={(destinoId, bloque) =>
+          setPantalla({ tipo: 'repaso', moduloId: destinoId, bloquesFiltro: [bloque] })
+        }
       />
     )
   }
