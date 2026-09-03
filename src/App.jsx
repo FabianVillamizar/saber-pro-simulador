@@ -24,6 +24,7 @@ import { ExploracionPensamientoCientifico } from './paginas/ExploracionPensamien
 import { ExploracionDiosgenina } from './paginas/ExploracionDiosgenina.jsx'
 import { ExploracionHabilidadesLaboratorio } from './paginas/ExploracionHabilidadesLaboratorio.jsx'
 import { MapaConocimientoQuimica } from './paginas/MapaConocimientoQuimica.jsx'
+import { GramaticaVistazo } from './paginas/GramaticaVistazo.jsx'
 
 function App() {
   const { perfil, cambiarPerfil } = usePerfilActivo()
@@ -273,6 +274,17 @@ function App() {
   if (pantalla.tipo === 'lapiz-papel') {
     return (
       <PracticarLapizPapel
+        moduloId={pantalla.moduloId}
+        perfil={perfil}
+        onCambiarPerfil={onCambiarPerfil}
+        onVolver={volverAModulo}
+      />
+    )
+  }
+
+  if (pantalla.tipo === 'gramatica-vistazo') {
+    return (
+      <GramaticaVistazo
         moduloId={pantalla.moduloId}
         perfil={perfil}
         onCambiarPerfil={onCambiarPerfil}

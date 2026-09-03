@@ -78,6 +78,15 @@ const MODO_LAPIZ_PAPEL_RC = {
   descripcion: 'Reconoce el enfoque antes de calcular, resuelve a mano y compárate contra el atajo.',
 }
 
+// Solo Inglés por ahora: el rulebook de "Reglas en contexto"
+// (modulo.reglas) como pantalla de referencia navegable, filtrable por
+// nivel MCER. Ver GramaticaVistazo.jsx.
+const MODO_GRAMATICA_VISTAZO = {
+  id: 'gramatica-vistazo',
+  nombre: 'Gramática de un vistazo',
+  descripcion: 'Todas las reglas del módulo en una hoja: tiempos, condicionales, modales, preposiciones y patrones de vocabulario, filtrables por nivel.',
+}
+
 // Comunicación Escrita tampoco es un módulo de opción múltiple: el ICFES
 // evalúa un ensayo argumentativo completo, así que sus modos propios
 // reemplazan práctica/simulacro igual que Français (ver MODOS_FRANCES).
@@ -140,6 +149,7 @@ export function ModuloHub({ moduloId, perfil, onCambiarPerfil, onVolver, onSelec
           // (introducido para RC, reutilizado tal cual por Habilidades de
           // Laboratorio).
           ...(modulo.lapizPapel.length > 0 ? [MODO_LAPIZ_PAPEL_RC] : []),
+          ...(moduloId === 'ingles' && modulo.reglas?.length > 0 ? [MODO_GRAMATICA_VISTAZO] : []),
         ]
 
   const esDiosgenina = moduloId === 'diosgenina'

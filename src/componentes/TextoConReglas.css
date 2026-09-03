@@ -53,6 +53,19 @@
   --rc-acc-soft-2: color-mix(in oklch, var(--fr-accent) 22%, transparent);
 }
 
+/* Acento propio de Inglés: --in-accent (índigo, ya con valor claro/oscuro
+   en tokens.css). Mismo apunte de especificidad que arriba: hay que
+   repetir con el prefijo :root[data-theme='dark'] para ganarle a la regla
+   base oscura. */
+.rc-disp[data-acento='in'],
+.rc-pop-wrap[data-acento='in'],
+:root[data-theme='dark'] .rc-disp[data-acento='in'],
+:root[data-theme='dark'] .rc-pop-wrap[data-acento='in'] {
+  --rc-acc: var(--in-accent);
+  --rc-acc-soft: color-mix(in oklch, var(--in-accent) 12%, transparent);
+  --rc-acc-soft-2: color-mix(in oklch, var(--in-accent) 22%, transparent);
+}
+
 /* ---------- disparador ---------- */
 
 .rc-disp {

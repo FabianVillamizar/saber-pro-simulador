@@ -1,0 +1,146 @@
+.gv-titulo-modulo {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-sub);
+  letter-spacing: 0.02em;
+}
+.gv-titulo-sub {
+  font-size: 17px;
+  font-weight: 800;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+
+.gv-contenido {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 18px 20px 80px;
+}
+
+.gv-intro {
+  margin: 0 0 16px;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--text-sub);
+  max-width: 60ch;
+}
+
+/* --- filtro de nivel --- */
+.gv-filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-bottom: 24px;
+}
+.gv-chip {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-sub);
+  font: inherit;
+  font-size: 12.5px;
+  font-weight: 700;
+  padding: 6px 14px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition:
+    background 0.14s ease,
+    border-color 0.14s ease,
+    color 0.14s ease;
+}
+.gv-chip:hover {
+  border-color: var(--in-accent);
+  color: var(--text);
+}
+.gv-chip--on {
+  background: var(--in-accent);
+  border-color: var(--in-accent);
+  color: #fff;
+}
+
+/* --- grupos y grid --- */
+.gv-grupo {
+  margin-bottom: 30px;
+}
+.gv-grupo-titulo {
+  margin: 0 0 12px;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+.gv-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  align-items: start;
+}
+/* Las reglas con tabla ocupan las dos columnas para que la tabla respire
+   sin scroll horizontal; las cortas quedan de a dos por fila. */
+.gv-card--ancha {
+  grid-column: 1 / -1;
+}
+
+/* --- tarjeta de regla --- */
+.gv-card {
+  --rc-acc: var(--in-accent);
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 16px 18px 15px;
+  box-shadow: var(--sombra-suave);
+}
+
+.gv-card-cabecera {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 9px;
+}
+.gv-nivel {
+  margin-left: auto;
+  font-size: 10.5px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  color: var(--text-sub);
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  padding: 2px 8px 1px;
+}
+
+/* Reutiliza los estilos internos de TextoConReglas.css (.rc-pop-titulo,
+   .rc-pop-cuerpo, .rc-pop-tabla*, .rc-pop-ejemplo, .rc-pop-badge). Solo se
+   ajusta el título, que en la tarjeta manda más que en el popover. */
+.gv-card .rc-pop-titulo {
+  font-size: 15.5px;
+  margin-bottom: 7px;
+}
+.gv-card .rc-pop-cuerpo {
+  font-size: 13px;
+}
+/* En el popover la tabla se centra (es angosto); en una tarjeta ancha de
+   la hoja de referencia queda mejor alineada a la izquierda y el título
+   de la tabla también. */
+.gv-card .rc-pop-tabla-scroll {
+  margin-inline: 0;
+}
+.gv-card .rc-pop-tabla-titulo {
+  text-align: left;
+}
+
+.gv-vacio {
+  color: var(--text-sub);
+  font-size: 13px;
+}
+
+@media (max-width: 620px) {
+  .gv-grid {
+    grid-template-columns: 1fr;
+  }
+  .gv-card--ancha {
+    grid-column: auto;
+  }
+}

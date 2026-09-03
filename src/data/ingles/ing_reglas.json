@@ -1,0 +1,406 @@
+[
+  {
+    "id": "ing-r-present-simple",
+    "grupo": "gramatica",
+    "nivel": "A1",
+    "tipo": "regla",
+    "titulo": "Present simple",
+    "variante": "corta",
+    "cuerpo": "Se usa para hábitos, rutinas y hechos generales. Con he, she e it el verbo añade -s (work → works, study → studies). Los negativos y las preguntas se forman con do / does, y el verbo principal vuelve a su forma base: she doesn't work, does she work?",
+    "ejemplo": "My sister works in a hospital. She doesn't work on weekends. Does she work at night?"
+  },
+  {
+    "id": "ing-r-past-tenses",
+    "grupo": "gramatica",
+    "nivel": "A2",
+    "tipo": "regla",
+    "titulo": "Past simple y past continuous",
+    "variante": "desarrollo",
+    "cuerpo": "El past simple cuenta acciones terminadas en un momento del pasado; los verbos regulares añaden -ed y los irregulares tienen forma propia (go → went). El past continuous (was / were + -ing) describe una acción en desarrollo en el pasado, a menudo interrumpida por otra en past simple.",
+    "tabla": {
+      "titulo": "Cuál usar",
+      "encabezados": ["tiempo", "para qué", "ejemplo"],
+      "filas": [
+        ["past simple", "acción completa, una tras otra", "I woke up and made coffee."],
+        ["past continuous", "acción en curso / de fondo", "I was sleeping when the phone rang."]
+      ]
+    },
+    "ejemplo": "While she was studying, the lights went out."
+  },
+  {
+    "id": "ing-r-present-perfect",
+    "grupo": "gramatica",
+    "nivel": "A2",
+    "tipo": "regla",
+    "titulo": "Present perfect",
+    "variante": "desarrollo",
+    "cuerpo": "Se forma con have / has + participio pasado. Conecta el pasado con el presente: experiencias de vida sin fecha, acciones recientes con efecto ahora, y situaciones que empezaron antes y siguen (con for y since). Si hay un tiempo pasado terminado (yesterday, in 2019, last week), se usa past simple, no present perfect.",
+    "tabla": {
+      "titulo": "Present perfect frente a past simple",
+      "encabezados": ["present perfect", "past simple"],
+      "filas": [
+        ["I have visited Japan.", "I visited Japan in 2019."],
+        ["She has lived here for ten years.", "She lived there when she was a child."],
+        ["Have you finished?", "Did you finish yesterday?"]
+      ]
+    },
+    "ejemplo": "I've known her since 2015 (y todavía la conozco)."
+  },
+  {
+    "id": "ing-r-future",
+    "grupo": "gramatica",
+    "nivel": "A2",
+    "tipo": "regla",
+    "titulo": "Formas de futuro: will, going to, present continuous",
+    "variante": "desarrollo",
+    "cuerpo": "El inglés elige la forma de futuro según de dónde viene la idea: una decisión en el momento, un plan ya pensado, una predicción con pruebas o una cita ya acordada.",
+    "tabla": {
+      "titulo": "Cuál usar",
+      "encabezados": ["forma", "para qué", "ejemplo"],
+      "filas": [
+        ["will", "decisión al instante, promesa, predicción sin pruebas", "I'll help you."],
+        ["be going to", "plan o intención ya pensada, predicción con pruebas", "We're going to move house."],
+        ["present continuous", "cita o arreglo fijo con hora y lugar", "I'm meeting Ana at six."]
+      ]
+    },
+    "ejemplo": "Look at those clouds — it's going to rain."
+  },
+  {
+    "id": "ing-r-conditionals",
+    "grupo": "gramatica",
+    "nivel": "B1",
+    "tipo": "regla",
+    "titulo": "Los cuatro condicionales",
+    "variante": "desarrollo",
+    "cuerpo": "El tipo de condicional dice qué tan real o probable es la situación. El verbo de la parte con if nunca lleva will.",
+    "tabla": {
+      "titulo": "if… / resultado",
+      "encabezados": ["tipo", "if…", "resultado"],
+      "filas": [
+        ["zero (hecho siempre cierto)", "present simple", "present simple"],
+        ["first (futuro probable)", "present simple", "will + base"],
+        ["second (presente irreal)", "past simple", "would + base"],
+        ["third (pasado que ya pasó)", "past perfect", "would have + participio"]
+      ]
+    },
+    "ejemplo": "If I had more time, I would learn the piano. If you heat ice, it melts."
+  },
+  {
+    "id": "ing-r-passive",
+    "grupo": "gramatica",
+    "nivel": "B1",
+    "tipo": "regla",
+    "titulo": "Voz pasiva",
+    "variante": "desarrollo",
+    "cuerpo": "Se usa cuando importa más la acción o quien la recibe que quien la hace. Se forma con el verbo be en el tiempo que toque + participio pasado. El agente se añade solo si aporta algo, con by.",
+    "tabla": {
+      "titulo": "be + participio, por tiempo",
+      "encabezados": ["tiempo", "estructura", "ejemplo"],
+      "filas": [
+        ["presente", "am / is / are + participio", "This bread is made with rye."],
+        ["pasado", "was / were + participio", "The bridge was built in 1930."],
+        ["perfecto", "has / have been + participio", "The report has been sent."],
+        ["futuro", "will be + participio", "The results will be published tomorrow."]
+      ]
+    },
+    "ejemplo": "Millions of tickets are sold every year (no importa quién los vende)."
+  },
+  {
+    "id": "ing-r-reported-speech",
+    "grupo": "gramatica",
+    "nivel": "B1",
+    "tipo": "regla",
+    "titulo": "Discurso indirecto (reported speech)",
+    "variante": "desarrollo",
+    "cuerpo": "Al contar lo que alguien dijo, el verbo suele retroceder un tiempo, y cambian los pronombres y las palabras de tiempo y lugar (now → then, here → there, tomorrow → the next day). Las preguntas indirectas pierden la inversión y usan if o whether cuando no hay palabra interrogativa.",
+    "tabla": {
+      "titulo": "Retroceso de tiempo",
+      "encabezados": ["directo", "indirecto"],
+      "filas": [
+        ["\"I work here\"", "She said she worked there."],
+        ["\"I am working\"", "She said she was working."],
+        ["\"I have finished\"", "She said she had finished."],
+        ["\"I will call\"", "She said she would call."]
+      ]
+    },
+    "ejemplo": "\"Where do you live?\" → He asked me where I lived."
+  },
+  {
+    "id": "ing-r-modals-ability",
+    "grupo": "gramatica",
+    "nivel": "A2",
+    "tipo": "regla",
+    "titulo": "Modales de habilidad y permiso: can, could, be able to",
+    "variante": "corta",
+    "cuerpo": "Can expresa habilidad o permiso en presente; could, la habilidad general en el pasado y también un permiso o petición más cortés. Para una habilidad concreta lograda en un momento del pasado se usa was / were able to, no could. Los modales nunca llevan to después ni -s en tercera persona.",
+    "ejemplo": "She can swim. When I was young I could run fast. After hours of work, they were able to open the door."
+  },
+  {
+    "id": "ing-r-modals-obligation",
+    "grupo": "gramatica",
+    "nivel": "A2",
+    "tipo": "regla",
+    "titulo": "Modales de obligación: must, have to, should",
+    "variante": "desarrollo",
+    "cuerpo": "El matiz cambia según de dónde viene la obligación y qué significa el negativo. Ojo con mustn't (prohibición) frente a don't have to (no es necesario), que se confunden todo el tiempo.",
+    "tabla": {
+      "titulo": "Función",
+      "encabezados": ["forma", "significado"],
+      "filas": [
+        ["must", "obligación fuerte, a menudo del hablante o de una norma"],
+        ["have to", "obligación que viene de fuera, de una circunstancia o regla"],
+        ["should", "consejo o recomendación, no obligación"],
+        ["mustn't", "prohibición: no está permitido"],
+        ["don't have to", "no es obligatorio, puedes elegir"]
+      ]
+    },
+    "ejemplo": "You mustn't smoke here. You don't have to come if you're tired."
+  },
+  {
+    "id": "ing-r-modals-deduction",
+    "grupo": "gramatica",
+    "nivel": "B1",
+    "tipo": "regla",
+    "titulo": "Modales de deducción y posibilidad: must, might, can't",
+    "variante": "corta",
+    "cuerpo": "Para adivinar qué tan seguro estás de algo: must be cuando estás casi seguro de que sí, can't be cuando estás casi seguro de que no, y might / may / could be cuando lo ves solo posible. En pasado se añade have + participio: must have been, can't have been, might have been.",
+    "ejemplo": "The lights are off, so they must be asleep. He can't be at work — it's Sunday. She might have missed the train."
+  },
+  {
+    "id": "ing-r-relative-clauses",
+    "grupo": "gramatica",
+    "nivel": "B1",
+    "tipo": "regla",
+    "titulo": "Cláusulas relativas",
+    "variante": "desarrollo",
+    "cuerpo": "Añaden información sobre un sustantivo con who (personas), which (cosas), that (ambas, solo en las especificativas), whose (posesión) y where (lugares). Si la cláusula es solo información extra, va entre comas, no admite that y no se puede omitir el pronombre.",
+    "tabla": {
+      "titulo": "Especificativa frente a explicativa",
+      "encabezados": ["tipo", "comas", "ejemplo"],
+      "filas": [
+        ["especificativa (define cuál)", "sin comas", "The book that you lent me was great."],
+        ["explicativa (dato extra)", "entre comas", "My brother, who lives in Cali, is a nurse."]
+      ]
+    },
+    "ejemplo": "That's the woman whose car was stolen."
+  },
+  {
+    "id": "ing-r-comparatives",
+    "grupo": "gramatica",
+    "nivel": "A1",
+    "tipo": "regla",
+    "titulo": "Comparativos y superlativos",
+    "variante": "desarrollo",
+    "cuerpo": "Los adjetivos cortos añaden -er / -est; los largos usan more / most. Hay irregulares (good, bad, far). El comparativo va con than, el superlativo con the.",
+    "tabla": {
+      "titulo": "Formación",
+      "encabezados": ["adjetivo", "comparativo", "superlativo"],
+      "filas": [
+        ["big (corto)", "bigger than", "the biggest"],
+        ["easy (-y)", "easier than", "the easiest"],
+        ["expensive (largo)", "more expensive than", "the most expensive"],
+        ["good / bad (irregular)", "better / worse than", "the best / the worst"]
+      ]
+    },
+    "ejemplo": "This is the most difficult exam, and it's harder than last year's."
+  },
+  {
+    "id": "ing-r-articles",
+    "grupo": "gramatica",
+    "nivel": "A1",
+    "tipo": "regla",
+    "titulo": "Artículos: a, an, the y artículo cero",
+    "variante": "desarrollo",
+    "cuerpo": "a / an presentan algo por primera vez o no específico; a / an depende del sonido, no de la letra (a university, an hour). the marca algo ya conocido o único. No se usa artículo con plurales o incontables en sentido general (I like music).",
+    "tabla": {
+      "titulo": "Cuál usar",
+      "encabezados": ["caso", "artículo", "ejemplo"],
+      "filas": [
+        ["algo nuevo, no específico", "a / an", "I saw a dog."],
+        ["sonido vocálico", "an", "an honest man, an MP"],
+        ["ya conocido o único", "the", "the dog was barking; the sun"],
+        ["general, plural o incontable", "(nada)", "Dogs are loyal. Water is essential."]
+      ]
+    },
+    "ejemplo": "She waited for an hour and then took a taxi; the taxi was late."
+  },
+  {
+    "id": "ing-r-prepositions",
+    "grupo": "gramatica",
+    "nivel": "A2",
+    "tipo": "regla",
+    "titulo": "Preposiciones de tiempo y lugar: in, on, at",
+    "variante": "desarrollo",
+    "cuerpo": "La misma trinca sirve para tiempo y para lugar, de lo más general (in) a lo más puntual (at). Muchas expresiones son fijas y hay que aprenderlas de memoria (at night, on time, in the end).",
+    "tabla": {
+      "titulo": "in / on / at",
+      "encabezados": ["", "tiempo", "lugar"],
+      "filas": [
+        ["in", "meses, años, estaciones, partes del día", "países, ciudades, espacios cerrados"],
+        ["on", "días y fechas concretas", "superficies, calles, medios de transporte públicos"],
+        ["at", "horas, momentos exactos, festivos", "puntos concretos, direcciones, at home / work / school"]
+      ]
+    },
+    "ejemplo": "The meeting is at 9 on Monday in June. I'll see you at the station."
+  },
+  {
+    "id": "ing-r-connectors",
+    "grupo": "gramatica",
+    "nivel": "B1",
+    "tipo": "regla",
+    "titulo": "Conectores: contraste, causa y consecuencia",
+    "variante": "desarrollo",
+    "cuerpo": "Todos pueden expresar la misma idea, pero la gramática que exigen es distinta: qué va detrás (una oración completa, un sustantivo, media frase) y dónde va la coma.",
+    "tabla": {
+      "titulo": "Qué va detrás",
+      "encabezados": ["conector", "detrás va…", "ejemplo"],
+      "filas": [
+        ["but / so", "otra oración, misma frase", "It was late, so we left."],
+        ["however / therefore", "otra oración, tras punto o punto y coma", "It was late. However, we stayed."],
+        ["although / because", "sujeto + verbo (subordinada)", "Although it was late, we stayed."],
+        ["despite / because of", "sustantivo o -ing", "Despite the rain, we walked."]
+      ]
+    },
+    "ejemplo": "We stayed because of the storm, although we were tired."
+  },
+  {
+    "id": "ing-r-quantifiers",
+    "grupo": "gramatica",
+    "nivel": "A1",
+    "tipo": "regla",
+    "titulo": "Cuantificadores: some, any, much, many, a lot of",
+    "variante": "desarrollo",
+    "cuerpo": "La elección depende de si la frase es afirmativa, negativa o pregunta, y de si el sustantivo es contable o incontable.",
+    "tabla": {
+      "titulo": "Cuál usar",
+      "encabezados": ["", "contable plural", "incontable"],
+      "filas": [
+        ["afirmativa", "some, a lot of, many", "some, a lot of, much"],
+        ["negativa / pregunta", "any, many", "any, much"],
+        ["poca cantidad", "few, a few", "little, a little"]
+      ]
+    },
+    "ejemplo": "I have some questions but I don't have much time. Are there any seats left?"
+  },
+  {
+    "id": "ing-r-gerund-infinitive",
+    "grupo": "gramatica",
+    "nivel": "A2",
+    "tipo": "regla",
+    "titulo": "Gerundio o infinitivo tras un verbo",
+    "variante": "desarrollo",
+    "cuerpo": "Después de otro verbo, el segundo va en -ing o con to según cuál sea el primero; es una lista que se memoriza. Tras preposición siempre va -ing (good at cooking). Unos pocos verbos (stop, remember, try) cambian de sentido según la forma.",
+    "tabla": {
+      "titulo": "Según el primer verbo",
+      "encabezados": ["+ verbo -ing", "+ to + infinitivo"],
+      "filas": [
+        ["enjoy, avoid, finish, suggest, mind, keep", "want, need, decide, hope, promise, offer"],
+        ["She enjoys reading.", "She wants to read."]
+      ]
+    },
+    "ejemplo": "I stopped smoking (lo dejé) vs. I stopped to smoke (me detuve para fumar)."
+  },
+  {
+    "id": "ing-r-auxiliaries",
+    "grupo": "gramatica",
+    "nivel": "A1",
+    "tipo": "regla",
+    "titulo": "Auxiliares do, does, did en negativos y preguntas",
+    "variante": "corta",
+    "cuerpo": "En present y past simple, los negativos y las preguntas necesitan do / does / did, y el verbo principal vuelve a su forma base, sin -s ni -ed. El auxiliar ya lleva la marca de tercera persona o de pasado.",
+    "ejemplo": "She doesn't like coffee (no \"doesn't likes\"). Did you go? (no \"Did you went?\")."
+  },
+  {
+    "id": "ing-r-question-tags",
+    "grupo": "gramatica",
+    "nivel": "A2",
+    "tipo": "regla",
+    "titulo": "Question tags",
+    "variante": "corta",
+    "cuerpo": "La coletilla repite el auxiliar de la frase (o be) con el pronombre del sujeto y cambia de signo: frase afirmativa lleva coletilla negativa y viceversa. Si no hay auxiliar, se usa do / does / did.",
+    "ejemplo": "You're coming, aren't you? He doesn't drive, does he? They left early, didn't they?"
+  },
+  {
+    "id": "ing-r-indirect-questions",
+    "grupo": "gramatica",
+    "nivel": "B1",
+    "tipo": "regla",
+    "titulo": "Preguntas indirectas",
+    "variante": "corta",
+    "cuerpo": "Después de fórmulas como Do you know…, Could you tell me…, I wonder…, el orden vuelve al de una afirmación (sujeto + verbo), sin inversión y sin do / does / did. Si la pregunta original era de sí o no, se enlaza con if o whether.",
+    "ejemplo": "Could you tell me where the station is? (no \"where is the station\"). I wonder if she has arrived."
+  },
+  {
+    "id": "ing-r-falsos-amigos",
+    "grupo": "vocabulario",
+    "nivel": "B1",
+    "tipo": "definicion",
+    "titulo": "Falsos amigos español–inglés",
+    "variante": "desarrollo",
+    "cuerpo": "Palabras que se parecen a una española pero significan otra cosa. El error es traducir por la forma y no por el sentido.",
+    "tabla": {
+      "titulo": "No es lo que parece",
+      "encabezados": ["parece…", "en realidad es…", "la palabra correcta"],
+      "filas": [
+        ["actually = actualmente", "en realidad, de hecho", "currently = actualmente"],
+        ["library = librería", "biblioteca", "bookshop = librería"],
+        ["embarrassed = embarazada", "avergonzado", "pregnant = embarazada"],
+        ["sensible = sensible", "sensato", "sensitive = sensible"],
+        ["assist = asistir (a un evento)", "ayudar", "attend = asistir"],
+        ["realize = realizar", "darse cuenta", "carry out = realizar"]
+      ]
+    },
+    "ejemplo": "I'm not pregnant, I'm embarrassed. She works at a library, not a bookshop."
+  },
+  {
+    "id": "ing-r-phrasal-verbs",
+    "grupo": "vocabulario",
+    "nivel": "B1",
+    "tipo": "principio",
+    "titulo": "Cómo funcionan los phrasal verbs",
+    "variante": "corta",
+    "cuerpo": "Un verbo más una partícula (up, out, off, on, down) que juntos cambian de significado: give up no es dar. Muchos son separables (turn the light off / turn off the light), pero si el objeto es un pronombre va en medio a la fuerza (turn it off, nunca turn off it). Otros son inseparables (look after the kids).",
+    "ejemplo": "Please turn it off. I ran into an old friend. She looks after her grandmother."
+  },
+  {
+    "id": "ing-r-colocaciones",
+    "grupo": "vocabulario",
+    "nivel": "A2",
+    "tipo": "regla",
+    "titulo": "Colocaciones: make, do, take, have",
+    "variante": "desarrollo",
+    "cuerpo": "Estos verbos se combinan con sustantivos concretos por costumbre, no por lógica. Se aprenden en bloque, como una sola palabra.",
+    "tabla": {
+      "titulo": "Combinaciones fijas",
+      "encabezados": ["verbo", "va con…"],
+      "filas": [
+        ["make", "a decision, a mistake, progress, an effort, noise"],
+        ["do", "homework, the housework, business, a favour, research"],
+        ["take", "a photo, a break, a shower, a risk, notes"],
+        ["have", "a good time, breakfast, a look, a rest"]
+      ]
+    },
+    "ejemplo": "You made a mistake, but you did your best."
+  },
+  {
+    "id": "ing-r-registro-academico",
+    "grupo": "vocabulario",
+    "nivel": "B2",
+    "tipo": "principio",
+    "titulo": "Registro formal y académico",
+    "variante": "desarrollo",
+    "cuerpo": "En un texto formal se cambian los verbos y expresiones cotidianas por otras más precisas, se evitan los phrasal verbs y las contracciones, y se prefiere la voz pasiva o formas impersonales.",
+    "tabla": {
+      "titulo": "Cotidiano frente a académico",
+      "encabezados": ["cotidiano", "académico"],
+      "filas": [
+        ["get", "obtain, receive"],
+        ["a lot of", "numerous, a significant number of"],
+        ["show", "demonstrate, indicate"],
+        ["find out", "determine, discover"],
+        ["big / huge", "substantial, considerable"]
+      ]
+    },
+    "ejemplo": "The study demonstrates a significant number of cases (no \"shows a lot of\")."
+  }
+]

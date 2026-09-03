@@ -30,6 +30,16 @@ export const indiceModulos = {
       cultura_general: 'Cultura general',
     },
     adapters: adaptersIngles,
+    // "Reglas en contexto" (token `[[id-regla|texto]]` -> popover) en el
+    // Quiz Rápido y en Repaso de conceptos. El rulebook vive en
+    // src/data/ingles/ing_reglas.json (24 reglas: 20 de gramática, una por
+    // `bloque`, + 4 patrones de vocabulario). Seguro de activar: los 389
+    // ítems y las 362 tarjetas no traen `$` ni `**` sin pareja en los
+    // campos que ahora pasan por TextoConReglas (ver bitácora del Saber
+    // Pro). `acentoReglas: 'in'` pinta el disparador y el popover con el
+    // azul propio `--in-accent` (distinto del `--accent` azul de botones).
+    renderizaFormulas: true,
+    acentoReglas: 'in',
     // Puente pregunta -> teoría de Parte 4 (ver enlazarTeoriaIngles en
     // modulos/ingles/adapters.js): opcional, como `categorias`/`nucleos` —
     // loadModulos.js lo llama después de armar `preguntas` y

@@ -20,7 +20,7 @@ import './TextoConReglas.css'
 
 const PATRON_REGLAS = /(\[\[[^\]]+?\]\]|\$\$[^$]+?\$\$|\$[^$]+?\$|\*\*.+?\*\*)/g
 
-const ETIQUETA_TIPO = {
+export const ETIQUETA_TIPO = {
   teorema: 'Teorema',
   ley: 'Ley',
   corolario: 'Corolario',
@@ -28,6 +28,51 @@ const ETIQUETA_TIPO = {
   norma: 'Norma',
   principio: 'Principio',
   definicion: 'Definición',
+}
+
+// Cuerpo de una regla (título, cuerpo, fórmula, tabla, ejemplo), sin la
+// cabecera ni el contenedor: lo comparten el popover y la pantalla
+// "Gramática de un vistazo". Todo en <span> para poder vivir dentro de un
+// <p> sin romper el HTML (misma razón que el popover).
+export function ContenidoRegla({ regla }) {
+  const desarrollo = regla.variante === 'desarrollo'
+  const tabla = desarrollo ? regla.tabla : null
+  return (
+    <>
+      <span className="rc-pop-titulo" dangerouslySetInnerHTML={katexInline(regla.titulo)} />
+      <span className="rc-pop-cuerpo" dangerouslySetInnerHTML={katexInline(regla.cuerpo)} />
+      {desarrollo && regla.formula && (
+        <span className="rc-pop-formula" dangerouslySetInnerHTML={katexBloque(regla.formula)} />
+      )}
+      {tabla && (
+        <span className="rc-pop-tabla-bloque">
+          {tabla.titulo && <span className="rc-pop-tabla-titulo">{tabla.titulo}</span>}
+          <span className="rc-pop-tabla-scroll">
+            <span className="rc-pop-tabla">
+              <span className="rc-pop-tr rc-pop-tr--cabecera">
+                {(tabla.encabezados ?? []).map((celda, i) => (
+                  <span key={i} className="rc-pop-th" dangerouslySetInnerHTML={katexInline(celda)} />
+                ))}
+              </span>
+              {(tabla.filas ?? []).map((fila, i) => (
+                <span key={i} className="rc-pop-tr">
+                  {fila.map((celda, j) => (
+                    <span key={j} className="rc-pop-td" dangerouslySetInnerHTML={katexInline(celda)} />
+                  ))}
+                </span>
+              ))}
+            </span>
+          </span>
+        </span>
+      )}
+      {regla.ejemplo && (
+        <span className="rc-pop-ejemplo">
+          <span className="rc-pop-ejemplo-marca">ej.</span>
+          <span dangerouslySetInnerHTML={katexInline(regla.ejemplo)} />
+        </span>
+      )}
+    </>
+  )
 }
 
 const ContextoReglas = createContext(null)
@@ -272,8 +317,6 @@ function ReglaPopover({ regla, anchor, pinned, saliendo, onCerrar, acento }) {
     }
   }, [regla, desarrollo, anchor])
 
-  const tabla = desarrollo ? regla.tabla : null
-
   // Portal a <body>: `.qr-sheet` tiene `overflow: hidden` (para la espiral
   // y los renglones), así que un popover posicionado dentro de la hoja se
   // recorta. Fuera del <p>/<div> de la app, además, ya no hay problema de
@@ -296,38 +339,7 @@ function ReglaPopover({ regla, anchor, pinned, saliendo, onCerrar, acento }) {
             </button>
           )}
         </span>
-        <span className="rc-pop-titulo" dangerouslySetInnerHTML={katexInline(regla.titulo)} />
-        <span className="rc-pop-cuerpo" dangerouslySetInnerHTML={katexInline(regla.cuerpo)} />
-        {desarrollo && regla.formula && (
-          <span className="rc-pop-formula" dangerouslySetInnerHTML={katexBloque(regla.formula)} />
-        )}
-        {tabla && (
-          <span className="rc-pop-tabla-bloque">
-            {tabla.titulo && <span className="rc-pop-tabla-titulo">{tabla.titulo}</span>}
-            <span className="rc-pop-tabla-scroll">
-              <span className="rc-pop-tabla">
-                <span className="rc-pop-tr rc-pop-tr--cabecera">
-                  {(tabla.encabezados ?? []).map((celda, i) => (
-                    <span key={i} className="rc-pop-th" dangerouslySetInnerHTML={katexInline(celda)} />
-                  ))}
-                </span>
-                {(tabla.filas ?? []).map((fila, i) => (
-                  <span key={i} className="rc-pop-tr">
-                    {fila.map((celda, j) => (
-                      <span key={j} className="rc-pop-td" dangerouslySetInnerHTML={katexInline(celda)} />
-                    ))}
-                  </span>
-                ))}
-              </span>
-            </span>
-          </span>
-        )}
-        {regla.ejemplo && (
-          <span className="rc-pop-ejemplo">
-            <span className="rc-pop-ejemplo-marca">ej.</span>
-            <span dangerouslySetInnerHTML={katexInline(regla.ejemplo)} />
-          </span>
-        )}
+        <ContenidoRegla regla={regla} />
       </span>
       <span data-caret className="rc-pop-caret" data-lado="arriba" />
     </span>,
@@ -358,6 +370,11 @@ function DisparadorRegla({ regla, texto, clave }) {
       onPointerLeave={() => hoverLeave(clave)}
       onClick={(e) => {
         if (e.target.closest && e.target.closest('[data-pop]')) return
+        // El disparador puede vivir dentro de un contenedor que también
+        // reacciona al clic (p. ej. la tarjeta click-para-voltear de
+        // RepasoConceptos): tocar la regla no debe además voltear la
+        // tarjeta.
+        e.stopPropagation()
         fijar(clave)
       }}
     >

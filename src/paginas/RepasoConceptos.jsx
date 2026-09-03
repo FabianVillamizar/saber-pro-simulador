@@ -332,6 +332,12 @@ export function RepasoConceptos({
   // ejemplo_aplicado únicamente — reverso de 2 secciones en vez de 3.
   const esCultura = !esFrances && !esCientifica && !esCloze && 'categoria' in tarjeta
   const enlacesConecta = esCientifica ? enlacesCruzados(tarjeta.connects_to, moduloId, perfil) : []
+  // En módulos con rulebook (`renderizaFormulas`, hoy Inglés) el reverso de
+  // la tarjeta cloze pasa por TextoConReglas para que los tokens
+  // `[[id-regla|texto]]` de `regla`/`error_comun` abran su popover; en el
+  // resto degrada a TextoConNegritas exacto (mismo manejo de `**` y de
+  // párrafos separados por línea en blanco).
+  const TextoCloze = modulo.renderizaFormulas ? TextoConReglas : TextoConNegritas
 
   return (
     <ReglasProvider reglas={modulo.reglas} acento={modulo.acentoReglas}>
@@ -690,14 +696,14 @@ export function RepasoConceptos({
                 <div>
                   <div className="repaso-seccion-label">Regla</div>
                   <div className="repaso-seccion-texto">
-                    <TextoConNegritas texto={tarjeta.regla} />
+                    <TextoCloze texto={tarjeta.regla} />
                   </div>
                 </div>
 
                 <div className="repaso-ejemplo">
                   <div className="repaso-seccion-label repaso-seccion-label--accent">Ejemplo</div>
                   <div className="repaso-ejemplo-texto">
-                    <TextoConNegritas texto={tarjeta.ejemplo} />
+                    <TextoCloze texto={tarjeta.ejemplo} />
                   </div>
                 </div>
 
@@ -706,7 +712,7 @@ export function RepasoConceptos({
                   <div>
                     <div className="repaso-seccion-label repaso-seccion-label--warn">Error común</div>
                     <div className="repaso-error-texto">
-                      <TextoConNegritas texto={tarjeta.error_comun} />
+                      <TextoCloze texto={tarjeta.error_comun} />
                     </div>
                   </div>
                 </div>
