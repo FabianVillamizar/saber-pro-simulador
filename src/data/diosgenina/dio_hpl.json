@@ -437,6 +437,848 @@
       "EST"
     ],
     "regla": "el tailing es un defecto de FORMA de un solo compuesto (interacción secundaria); el hombro es evidencia de un SEGUNDO compuesto no resuelto — causas fisicoquímicas distintas.",
-    "conexion_cotidiana": "El 'factor de cola' (tailing factor) tiene un pariente conceptual en **sismología**: los sismogramas de un terremoto también muestran ondas asimétricas (la onda P llega casi simétrica, pero las de superficie posteriores muestran una 'cola' que decae lentamente), y los sismólogos usan medidas de asimetría análogas — en ambos campos, la forma de una señal que 'debería' ser simétrica lleva información sobre el proceso físico subyacente."
+    "conexion_cotidiana": "El 'factor de cola' (tailing factor) tiene un pariente conceptual en **sismología**: los sismogramas de un terremoto también muestran ondas asimétricas (la onda P llega casi simétrica, pero las de superficie posteriores muestran una 'cola' que decae lentamente), y los sismólogos usan medidas de asimetría análogas — en ambos campos, la forma de una señal que 'debería' ser simétrica lleva información sobre el proceso físico subyacente.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Tres picos cromatográficos superpuestos en el mismo eje de tiempo: uno gaussiano ideal (simétrico), uno con cola que decae lentamente tras el máximo (tailing típico de interacción con silanoles), y uno con una protuberancia lateral que delata un segundo compuesto no resuelto (hombro). El tailing es un defecto de forma de UN compuesto; el hombro es evidencia de DOS compuestos.",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Tiempo de retención (min)",
+      "ejeY": "Señal del detector (u.a.)",
+      "series": [
+        {
+          "nombre": "Pico ideal (gaussiano simétrico)",
+          "datos": [
+            {
+              "x": 0.0,
+              "y": 0.0
+            },
+            {
+              "x": 0.15,
+              "y": 0.0
+            },
+            {
+              "x": 0.3,
+              "y": 0.0
+            },
+            {
+              "x": 0.45,
+              "y": 0.0
+            },
+            {
+              "x": 0.6,
+              "y": 0.0
+            },
+            {
+              "x": 0.75,
+              "y": 0.0
+            },
+            {
+              "x": 0.9,
+              "y": 0.0
+            },
+            {
+              "x": 1.05,
+              "y": 0.0
+            },
+            {
+              "x": 1.2,
+              "y": 0.0
+            },
+            {
+              "x": 1.35,
+              "y": 0.0
+            },
+            {
+              "x": 1.5,
+              "y": 0.0
+            },
+            {
+              "x": 1.65,
+              "y": 0.0
+            },
+            {
+              "x": 1.8,
+              "y": 0.0
+            },
+            {
+              "x": 1.95,
+              "y": 0.0
+            },
+            {
+              "x": 2.1,
+              "y": 0.0
+            },
+            {
+              "x": 2.25,
+              "y": 0.0
+            },
+            {
+              "x": 2.4,
+              "y": 0.0
+            },
+            {
+              "x": 2.55,
+              "y": 0.0
+            },
+            {
+              "x": 2.7,
+              "y": 0.1
+            },
+            {
+              "x": 2.85,
+              "y": 0.2
+            },
+            {
+              "x": 3.0,
+              "y": 0.4
+            },
+            {
+              "x": 3.15,
+              "y": 0.9
+            },
+            {
+              "x": 3.3,
+              "y": 1.8
+            },
+            {
+              "x": 3.45,
+              "y": 3.6
+            },
+            {
+              "x": 3.6,
+              "y": 6.6
+            },
+            {
+              "x": 3.75,
+              "y": 11.4
+            },
+            {
+              "x": 3.9,
+              "y": 18.6
+            },
+            {
+              "x": 4.05,
+              "y": 28.6
+            },
+            {
+              "x": 4.2,
+              "y": 41.1
+            },
+            {
+              "x": 4.35,
+              "y": 55.6
+            },
+            {
+              "x": 4.5,
+              "y": 70.7
+            },
+            {
+              "x": 4.65,
+              "y": 84.4
+            },
+            {
+              "x": 4.8,
+              "y": 94.6
+            },
+            {
+              "x": 4.95,
+              "y": 99.7
+            },
+            {
+              "x": 5.1,
+              "y": 98.6
+            },
+            {
+              "x": 5.25,
+              "y": 91.7
+            },
+            {
+              "x": 5.4,
+              "y": 80.1
+            },
+            {
+              "x": 5.55,
+              "y": 65.7
+            },
+            {
+              "x": 5.7,
+              "y": 50.6
+            },
+            {
+              "x": 5.85,
+              "y": 36.7
+            },
+            {
+              "x": 6.0,
+              "y": 24.9
+            },
+            {
+              "x": 6.15,
+              "y": 15.9
+            },
+            {
+              "x": 6.3,
+              "y": 9.6
+            },
+            {
+              "x": 6.45,
+              "y": 5.4
+            },
+            {
+              "x": 6.6,
+              "y": 2.9
+            },
+            {
+              "x": 6.75,
+              "y": 1.4
+            },
+            {
+              "x": 6.9,
+              "y": 0.7
+            },
+            {
+              "x": 7.05,
+              "y": 0.3
+            },
+            {
+              "x": 7.2,
+              "y": 0.1
+            },
+            {
+              "x": 7.35,
+              "y": 0.0
+            },
+            {
+              "x": 7.5,
+              "y": 0.0
+            },
+            {
+              "x": 7.65,
+              "y": 0.0
+            },
+            {
+              "x": 7.8,
+              "y": 0.0
+            },
+            {
+              "x": 7.95,
+              "y": 0.0
+            },
+            {
+              "x": 8.1,
+              "y": 0.0
+            },
+            {
+              "x": 8.25,
+              "y": 0.0
+            },
+            {
+              "x": 8.4,
+              "y": 0.0
+            },
+            {
+              "x": 8.55,
+              "y": 0.0
+            },
+            {
+              "x": 8.7,
+              "y": 0.0
+            },
+            {
+              "x": 8.85,
+              "y": 0.0
+            },
+            {
+              "x": 9.0,
+              "y": 0.0
+            },
+            {
+              "x": 9.15,
+              "y": 0.0
+            },
+            {
+              "x": 9.3,
+              "y": 0.0
+            },
+            {
+              "x": 9.45,
+              "y": 0.0
+            },
+            {
+              "x": 9.6,
+              "y": 0.0
+            },
+            {
+              "x": 9.75,
+              "y": 0.0
+            },
+            {
+              "x": 9.9,
+              "y": 0.0
+            },
+            {
+              "x": 10.05,
+              "y": 0.0
+            }
+          ]
+        },
+        {
+          "nombre": "Pico con cola (tailing)",
+          "datos": [
+            {
+              "x": 0.0,
+              "y": 0.0
+            },
+            {
+              "x": 0.15,
+              "y": 0.0
+            },
+            {
+              "x": 0.3,
+              "y": 0.0
+            },
+            {
+              "x": 0.45,
+              "y": 0.0
+            },
+            {
+              "x": 0.6,
+              "y": 0.0
+            },
+            {
+              "x": 0.75,
+              "y": 0.0
+            },
+            {
+              "x": 0.9,
+              "y": 0.0
+            },
+            {
+              "x": 1.05,
+              "y": 0.0
+            },
+            {
+              "x": 1.2,
+              "y": 0.0
+            },
+            {
+              "x": 1.35,
+              "y": 0.0
+            },
+            {
+              "x": 1.5,
+              "y": 0.0
+            },
+            {
+              "x": 1.65,
+              "y": 0.0
+            },
+            {
+              "x": 1.8,
+              "y": 0.0
+            },
+            {
+              "x": 1.95,
+              "y": 0.0
+            },
+            {
+              "x": 2.1,
+              "y": 0.0
+            },
+            {
+              "x": 2.25,
+              "y": 0.0
+            },
+            {
+              "x": 2.4,
+              "y": 0.0
+            },
+            {
+              "x": 2.55,
+              "y": 0.0
+            },
+            {
+              "x": 2.7,
+              "y": 0.1
+            },
+            {
+              "x": 2.85,
+              "y": 0.2
+            },
+            {
+              "x": 3.0,
+              "y": 0.4
+            },
+            {
+              "x": 3.15,
+              "y": 0.9
+            },
+            {
+              "x": 3.3,
+              "y": 1.8
+            },
+            {
+              "x": 3.45,
+              "y": 3.6
+            },
+            {
+              "x": 3.6,
+              "y": 6.6
+            },
+            {
+              "x": 3.75,
+              "y": 11.4
+            },
+            {
+              "x": 3.9,
+              "y": 18.6
+            },
+            {
+              "x": 4.05,
+              "y": 28.6
+            },
+            {
+              "x": 4.2,
+              "y": 41.1
+            },
+            {
+              "x": 4.35,
+              "y": 55.6
+            },
+            {
+              "x": 4.5,
+              "y": 70.7
+            },
+            {
+              "x": 4.65,
+              "y": 84.4
+            },
+            {
+              "x": 4.8,
+              "y": 94.6
+            },
+            {
+              "x": 4.95,
+              "y": 99.7
+            },
+            {
+              "x": 5.1,
+              "y": 93.6
+            },
+            {
+              "x": 5.25,
+              "y": 84.6
+            },
+            {
+              "x": 5.4,
+              "y": 76.6
+            },
+            {
+              "x": 5.55,
+              "y": 69.3
+            },
+            {
+              "x": 5.7,
+              "y": 62.7
+            },
+            {
+              "x": 5.85,
+              "y": 56.7
+            },
+            {
+              "x": 6.0,
+              "y": 51.3
+            },
+            {
+              "x": 6.15,
+              "y": 46.5
+            },
+            {
+              "x": 6.3,
+              "y": 42.0
+            },
+            {
+              "x": 6.45,
+              "y": 38.0
+            },
+            {
+              "x": 6.6,
+              "y": 34.4
+            },
+            {
+              "x": 6.75,
+              "y": 31.1
+            },
+            {
+              "x": 6.9,
+              "y": 28.2
+            },
+            {
+              "x": 7.05,
+              "y": 25.5
+            },
+            {
+              "x": 7.2,
+              "y": 23.1
+            },
+            {
+              "x": 7.35,
+              "y": 20.9
+            },
+            {
+              "x": 7.5,
+              "y": 18.9
+            },
+            {
+              "x": 7.65,
+              "y": 17.1
+            },
+            {
+              "x": 7.8,
+              "y": 15.5
+            },
+            {
+              "x": 7.95,
+              "y": 14.0
+            },
+            {
+              "x": 8.1,
+              "y": 12.7
+            },
+            {
+              "x": 8.25,
+              "y": 11.5
+            },
+            {
+              "x": 8.4,
+              "y": 10.4
+            },
+            {
+              "x": 8.55,
+              "y": 9.4
+            },
+            {
+              "x": 8.7,
+              "y": 8.5
+            },
+            {
+              "x": 8.85,
+              "y": 7.7
+            },
+            {
+              "x": 9.0,
+              "y": 6.9
+            },
+            {
+              "x": 9.15,
+              "y": 6.3
+            },
+            {
+              "x": 9.3,
+              "y": 5.7
+            },
+            {
+              "x": 9.45,
+              "y": 5.1
+            },
+            {
+              "x": 9.6,
+              "y": 4.7
+            },
+            {
+              "x": 9.75,
+              "y": 4.2
+            },
+            {
+              "x": 9.9,
+              "y": 3.8
+            },
+            {
+              "x": 10.05,
+              "y": 3.5
+            }
+          ]
+        },
+        {
+          "nombre": "Hombro (2º compuesto no resuelto)",
+          "datos": [
+            {
+              "x": 0.0,
+              "y": 0.0
+            },
+            {
+              "x": 0.15,
+              "y": 0.0
+            },
+            {
+              "x": 0.3,
+              "y": 0.0
+            },
+            {
+              "x": 0.45,
+              "y": 0.0
+            },
+            {
+              "x": 0.6,
+              "y": 0.0
+            },
+            {
+              "x": 0.75,
+              "y": 0.0
+            },
+            {
+              "x": 0.9,
+              "y": 0.0
+            },
+            {
+              "x": 1.05,
+              "y": 0.0
+            },
+            {
+              "x": 1.2,
+              "y": 0.0
+            },
+            {
+              "x": 1.35,
+              "y": 0.0
+            },
+            {
+              "x": 1.5,
+              "y": 0.0
+            },
+            {
+              "x": 1.65,
+              "y": 0.0
+            },
+            {
+              "x": 1.8,
+              "y": 0.0
+            },
+            {
+              "x": 1.95,
+              "y": 0.0
+            },
+            {
+              "x": 2.1,
+              "y": 0.0
+            },
+            {
+              "x": 2.25,
+              "y": 0.0
+            },
+            {
+              "x": 2.4,
+              "y": 0.0
+            },
+            {
+              "x": 2.55,
+              "y": 0.0
+            },
+            {
+              "x": 2.7,
+              "y": 0.0
+            },
+            {
+              "x": 2.85,
+              "y": 0.0
+            },
+            {
+              "x": 3.0,
+              "y": 0.1
+            },
+            {
+              "x": 3.15,
+              "y": 0.3
+            },
+            {
+              "x": 3.3,
+              "y": 0.8
+            },
+            {
+              "x": 3.45,
+              "y": 1.9
+            },
+            {
+              "x": 3.6,
+              "y": 3.9
+            },
+            {
+              "x": 3.75,
+              "y": 7.6
+            },
+            {
+              "x": 3.9,
+              "y": 13.5
+            },
+            {
+              "x": 4.05,
+              "y": 22.5
+            },
+            {
+              "x": 4.2,
+              "y": 34.8
+            },
+            {
+              "x": 4.35,
+              "y": 49.9
+            },
+            {
+              "x": 4.5,
+              "y": 66.5
+            },
+            {
+              "x": 4.65,
+              "y": 82.5
+            },
+            {
+              "x": 4.8,
+              "y": 95.5
+            },
+            {
+              "x": 4.95,
+              "y": 103.5
+            },
+            {
+              "x": 5.1,
+              "y": 105.8
+            },
+            {
+              "x": 5.25,
+              "y": 103.2
+            },
+            {
+              "x": 5.4,
+              "y": 97.4
+            },
+            {
+              "x": 5.55,
+              "y": 90.7
+            },
+            {
+              "x": 5.7,
+              "y": 84.4
+            },
+            {
+              "x": 5.85,
+              "y": 78.8
+            },
+            {
+              "x": 6.0,
+              "y": 73.1
+            },
+            {
+              "x": 6.15,
+              "y": 66.0
+            },
+            {
+              "x": 6.3,
+              "y": 56.9
+            },
+            {
+              "x": 6.45,
+              "y": 46.1
+            },
+            {
+              "x": 6.6,
+              "y": 34.8
+            },
+            {
+              "x": 6.75,
+              "y": 24.3
+            },
+            {
+              "x": 6.9,
+              "y": 15.5
+            },
+            {
+              "x": 7.05,
+              "y": 9.1
+            },
+            {
+              "x": 7.2,
+              "y": 4.9
+            },
+            {
+              "x": 7.35,
+              "y": 2.4
+            },
+            {
+              "x": 7.5,
+              "y": 1.1
+            },
+            {
+              "x": 7.65,
+              "y": 0.5
+            },
+            {
+              "x": 7.8,
+              "y": 0.2
+            },
+            {
+              "x": 7.95,
+              "y": 0.1
+            },
+            {
+              "x": 8.1,
+              "y": 0.0
+            },
+            {
+              "x": 8.25,
+              "y": 0.0
+            },
+            {
+              "x": 8.4,
+              "y": 0.0
+            },
+            {
+              "x": 8.55,
+              "y": 0.0
+            },
+            {
+              "x": 8.7,
+              "y": 0.0
+            },
+            {
+              "x": 8.85,
+              "y": 0.0
+            },
+            {
+              "x": 9.0,
+              "y": 0.0
+            },
+            {
+              "x": 9.15,
+              "y": 0.0
+            },
+            {
+              "x": 9.3,
+              "y": 0.0
+            },
+            {
+              "x": 9.45,
+              "y": 0.0
+            },
+            {
+              "x": 9.6,
+              "y": 0.0
+            },
+            {
+              "x": 9.75,
+              "y": 0.0
+            },
+            {
+              "x": 9.9,
+              "y": 0.0
+            },
+            {
+              "x": 10.05,
+              "y": 0.0
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Tres curvas superpuestas: una gaussiana simétrica de referencia, una con cola asimétrica que decae lentamente tras el máximo, y una con una protuberancia lateral que revela un segundo compuesto no separado."
+    }
   }
 ]

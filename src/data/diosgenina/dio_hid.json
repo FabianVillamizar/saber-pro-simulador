@@ -17,7 +17,44 @@
       "ELL"
     ],
     "regla": "es una secuencia de 5 pasos con un catión intermedio, no una ruptura directa del enlace.",
-    "conexion_cotidiana": "Este mecanismo (protonación → salida del grupo saliente → catión estabilizado por resonancia → ataque nucleofílico) es idéntico, paso a paso, al que usan las glicosidasas digestivas humanas (sacarasa, lactasa) para romper enlaces glucosídicos de la dieta."
+    "conexion_cotidiana": "Este mecanismo (protonación → salida del grupo saliente → catión estabilizado por resonancia → ataque nucleofílico) es idéntico, paso a paso, al que usan las glicosidasas digestivas humanas (sacarasa, lactasa) para romper enlaces glucosídicos de la dieta.",
+    "tipo_visual": "diagrama_esquematico",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Tabla de 5 pasos del mecanismo SN1-like de hidrólisis ácida de un enlace glucosídico, desde la protonación del oxígeno hasta la regeneración del catalizador H+.",
+    "tabla_filas": {
+      "columnas": [
+        "Paso",
+        "Qué ocurre",
+        "Especie clave"
+      ],
+      "filas": [
+        [
+          "1. Protonación",
+          "El H+ del H2SO4 protona el oxígeno del enlace glucosídico.",
+          "Oxígeno glucosídico protonado"
+        ],
+        [
+          "2. Salida del grupo saliente",
+          "Ese oxígeno protonado se va como agua neutra desde el carbono anomérico.",
+          "Ion oxocarbenio"
+        ],
+        [
+          "3. Estabilización por resonancia",
+          "El oxígeno del anillo dona su par libre hacia el carbono catiónico (efecto anomérico).",
+          "C=O+ parcial"
+        ],
+        [
+          "4. Ataque nucleofílico del agua",
+          "El agua ataca el carbono electrofílico desde cualquiera de las dos caras (por eso hay pérdida de estereoquímica).",
+          "Mecanismo SN1"
+        ],
+        [
+          "5. Desprotonación",
+          "El oxígeno recién unido pierde un protón, que vuelve al medio y regenera el catalizador.",
+          "H+ regenerado"
+        ]
+      ]
+    }
   },
   {
     "id": "HID-02",
