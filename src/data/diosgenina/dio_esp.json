@@ -16,7 +16,47 @@
       "HPL"
     ],
     "regla": "la TRANSMITANCIA decae exponencialmente con la concentración — la ABSORBANCIA es el logaritmo de eso, y es justamente ese paso logarítmico lo que la vuelve lineal.",
-    "conexion_cotidiana": "Es el fundamento del **oxímetro de pulso** (el clip del dedo en el hospital): pasa luz roja e infrarroja por el dedo, mide cuánta se transmite y aplica [[DG-R-beer-lambert|Beer-Lambert]] para calcular la proporción de hemoglobina oxigenada vs. desoxigenada."
+    "conexion_cotidiana": "Es el fundamento del **oxímetro de pulso** (el clip del dedo en el hospital): pasa luz roja e infrarroja por el dedo, mide cuánta se transmite y aplica [[DG-R-beer-lambert|Beer-Lambert]] para calcular la proporción de hemoglobina oxigenada vs. desoxigenada.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Absorbancia contra concentración: una recta que pasa por el origen (A = ε·b·c), con ε = 15,000 M⁻¹cm⁻¹, ilustrando la relación lineal que resulta de tomar el logaritmo de la atenuación exponencial de la luz.",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Concentración c (×10⁻⁵ M)",
+      "ejeY": "Absorbancia A",
+      "series": [
+        {
+          "nombre": "A = ε·b·c (ε=15,000)",
+          "datos": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 2,
+              "y": 0.3
+            },
+            {
+              "x": 4,
+              "y": 0.6
+            },
+            {
+              "x": 6,
+              "y": 0.9
+            },
+            {
+              "x": 8,
+              "y": 1.2
+            },
+            {
+              "x": 10,
+              "y": 1.5
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Recta que pasa por el origen, pendiente ε·b."
+    }
   },
   {
     "id": "ESP-02",
@@ -35,7 +75,100 @@
       "HPL"
     ],
     "regla": "[[DG-R-beer-lambert|Beer-Lambert]] es una aproximación válida solo en un rango limitado (típicamente A < 1-1.5) — se desvía a alta concentración por razones químicas e instrumentales distintas.",
-    "conexion_cotidiana": "El mismo 'aplanamiento' de una señal a alta intensidad es el problema al fotografiar objetos muy brillantes con un sensor CCD: cada píxel tiene una carga máxima que puede acumular, y una vez saturado deja de registrar aumentos de forma proporcional ('blooming')."
+    "conexion_cotidiana": "El mismo 'aplanamiento' de una señal a alta intensidad es el problema al fotografiar objetos muy brillantes con un sensor CCD: cada píxel tiene una carga máxima que puede acumular, y una vez saturado deja de registrar aumentos de forma proporcional ('blooming').",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Absorbancia medida contra la predicción ideal de Beer-Lambert: ambas coinciden a baja concentración, pero la curva real se aplana por debajo de la ideal a partir de A≈1.5, por desviaciones químicas e instrumentales.",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Concentración c (×10⁻⁵ M)",
+      "ejeY": "Absorbancia A",
+      "series": [
+        {
+          "nombre": "Ideal (Beer-Lambert)",
+          "datos": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 2.5,
+              "y": 0.375
+            },
+            {
+              "x": 5,
+              "y": 0.75
+            },
+            {
+              "x": 7.5,
+              "y": 1.125
+            },
+            {
+              "x": 10,
+              "y": 1.5
+            },
+            {
+              "x": 12.5,
+              "y": 1.875
+            },
+            {
+              "x": 15,
+              "y": 2.25
+            },
+            {
+              "x": 17.5,
+              "y": 2.625
+            },
+            {
+              "x": 20,
+              "y": 3
+            }
+          ]
+        },
+        {
+          "nombre": "Real (medida)",
+          "datos": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 2.5,
+              "y": 0.375
+            },
+            {
+              "x": 5,
+              "y": 0.75
+            },
+            {
+              "x": 7.5,
+              "y": 1.1
+            },
+            {
+              "x": 10,
+              "y": 1.4
+            },
+            {
+              "x": 12.5,
+              "y": 1.6
+            },
+            {
+              "x": 15,
+              "y": 1.75
+            },
+            {
+              "x": 17.5,
+              "y": 1.85
+            },
+            {
+              "x": 20,
+              "y": 1.9
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "La curva real se separa de la ideal y se aplana a partir de A≈1.5."
+    }
   },
   {
     "id": "ESP-03",
@@ -94,7 +227,117 @@
       "HPL"
     ],
     "regla": "[[DG-R-lod-loq|LOD]] responde '¿hay algo?' con 3 desviaciones estándar de confianza; LOQ responde '¿cuánto hay, con precisión aceptable?' con 10 desviaciones estándar — LOQ siempre es mayor que LOD.",
-    "conexion_cotidiana": "El mismo par tiene una aplicación dramática en física de partículas: el criterio de **'5 sigma'** con que el CERN anunció el bosón de Higgs en 2012 (probabilidad extremadamente baja de que la señal fuera solo ruido) es el mismo razonamiento que define el LOD/LOQ — cambia solo qué tan estricto es el umbral según el costo de un falso positivo."
+    "conexion_cotidiana": "El mismo par tiene una aplicación dramática en física de partículas: el criterio de **'5 sigma'** con que el CERN anunció el bosón de Higgs en 2012 (probabilidad extremadamente baja de que la señal fuera solo ruido) es el mismo razonamiento que define el LOD/LOQ — cambia solo qué tan estricto es el umbral según el costo de un falso positivo.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Curva de calibración con dos líneas de referencia horizontales: el límite de detección (LOD, blanco + 3 desviaciones estándar) en c=1.5, y el límite de cuantificación (LOQ, blanco + 10 desviaciones estándar) en c=5 — LOQ siempre por encima de LOD.",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Concentración (µM)",
+      "ejeY": "Señal",
+      "series": [
+        {
+          "nombre": "Señal (curva de calibración)",
+          "datos": [
+            {
+              "x": 0,
+              "y": 0.05
+            },
+            {
+              "x": 1.5,
+              "y": 0.2
+            },
+            {
+              "x": 5,
+              "y": 0.55
+            },
+            {
+              "x": 8,
+              "y": 0.85
+            },
+            {
+              "x": 12,
+              "y": 1.25
+            },
+            {
+              "x": 16,
+              "y": 1.65
+            },
+            {
+              "x": 20,
+              "y": 2.05
+            }
+          ]
+        },
+        {
+          "nombre": "LOD (blanco + 3σ)",
+          "datos": [
+            {
+              "x": 0,
+              "y": 0.2
+            },
+            {
+              "x": 1.5,
+              "y": 0.2
+            },
+            {
+              "x": 5,
+              "y": 0.2
+            },
+            {
+              "x": 8,
+              "y": 0.2
+            },
+            {
+              "x": 12,
+              "y": 0.2
+            },
+            {
+              "x": 16,
+              "y": 0.2
+            },
+            {
+              "x": 20,
+              "y": 0.2
+            }
+          ]
+        },
+        {
+          "nombre": "LOQ (blanco + 10σ)",
+          "datos": [
+            {
+              "x": 0,
+              "y": 0.55
+            },
+            {
+              "x": 1.5,
+              "y": 0.55
+            },
+            {
+              "x": 5,
+              "y": 0.55
+            },
+            {
+              "x": 8,
+              "y": 0.55
+            },
+            {
+              "x": 12,
+              "y": 0.55
+            },
+            {
+              "x": 16,
+              "y": 0.55
+            },
+            {
+              "x": 20,
+              "y": 0.55
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "La recta de calibración cruza la línea de LOD en c=1.5 y la de LOQ en c=5."
+    }
   },
   {
     "id": "ESP-06",

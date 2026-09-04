@@ -108,7 +108,59 @@
     "connects_to": [
       "HID"
     ],
-    "conexion_cotidiana": "La ecuación de Arrhenius surge por analogía con la ecuación de van 't Hoff para cómo cambia una constante de equilibrio con la temperatura."
+    "conexion_cotidiana": "La ecuación de Arrhenius surge por analogía con la ecuación de van 't Hoff para cómo cambia una constante de equilibrio con la temperatura.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Velocidad relativa de la hidrólisis contra temperatura (Ea=60 kJ/mol): crece exponencialmente, no linealmente — de 25°C a 100°C la velocidad se multiplica por ~130.",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Temperatura (°C)",
+      "ejeY": "Velocidad relativa (25°C = 1)",
+      "series": [
+        {
+          "nombre": "k(T) / k(25°C), Ea=60 kJ/mol",
+          "datos": [
+            {
+              "x": 25,
+              "y": 1
+            },
+            {
+              "x": 35,
+              "y": 2.2
+            },
+            {
+              "x": 45,
+              "y": 4.59
+            },
+            {
+              "x": 55,
+              "y": 9.16
+            },
+            {
+              "x": 65,
+              "y": 17.57
+            },
+            {
+              "x": 75,
+              "y": 32.44
+            },
+            {
+              "x": 85,
+              "y": 57.9
+            },
+            {
+              "x": 95,
+              "y": 100.14
+            },
+            {
+              "x": 100,
+              "y": 130.25
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Curva exponencial creciente, de 1 a ~130 entre 25°C y 100°C."
+    }
   },
   {
     "id": "FQT-07",

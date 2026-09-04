@@ -151,7 +151,100 @@
       "EST"
     ],
     "regla": "si las dos reacciones tienen distinta Ea, la temperatura no solo cambia 'qué tan rápido' — cambia 'cuál gana'.",
-    "conexion_cotidiana": "Este principio es la lógica detrás de por qué la fermentación de cerveza tipo lager se hace a **temperaturas bajas controladas** (10-20°C): a temperaturas más altas, reacciones metabólicas secundarias de la levadura (producción de ésteres y alcoholes 'de fusel', con su propia Ea) se aceleran desproporcionadamente, generando sabores no deseados."
+    "conexion_cotidiana": "Este principio es la lógica detrás de por qué la fermentación de cerveza tipo lager se hace a **temperaturas bajas controladas** (10-20°C): a temperaturas más altas, reacciones metabólicas secundarias de la levadura (producción de ésteres y alcoholes 'de fusel', con su propia Ea) se aceleran desproporcionadamente, generando sabores no deseados.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Velocidad relativa de hidrólisis (Ea=50 kJ/mol) y de degradación (Ea=80 kJ/mol) contra temperatura: ambas parten iguales a 25°C, pero la degradación —con mayor Ea— crece mucho más rápido, alcanzando 660× a 100°C frente a 58× de la hidrólisis.",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Temperatura (°C)",
+      "ejeY": "Velocidad relativa (25°C = 1)",
+      "series": [
+        {
+          "nombre": "Hidrólisis (Ea=50 kJ/mol)",
+          "datos": [
+            {
+              "x": 25,
+              "y": 1
+            },
+            {
+              "x": 35,
+              "y": 1.93
+            },
+            {
+              "x": 45,
+              "y": 3.56
+            },
+            {
+              "x": 55,
+              "y": 6.33
+            },
+            {
+              "x": 65,
+              "y": 10.89
+            },
+            {
+              "x": 75,
+              "y": 18.17
+            },
+            {
+              "x": 85,
+              "y": 29.44
+            },
+            {
+              "x": 95,
+              "y": 46.47
+            },
+            {
+              "x": 100,
+              "y": 57.85
+            }
+          ]
+        },
+        {
+          "nombre": "Degradación (Ea=80 kJ/mol)",
+          "datos": [
+            {
+              "x": 25,
+              "y": 1
+            },
+            {
+              "x": 35,
+              "y": 2.85
+            },
+            {
+              "x": 45,
+              "y": 7.62
+            },
+            {
+              "x": 55,
+              "y": 19.17
+            },
+            {
+              "x": 65,
+              "y": 45.66
+            },
+            {
+              "x": 75,
+              "y": 103.47
+            },
+            {
+              "x": 85,
+              "y": 224.01
+            },
+            {
+              "x": 95,
+              "y": 465.01
+            },
+            {
+              "x": 100,
+              "y": 660.21
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Dos curvas exponenciales que parten iguales; la de degradación (mayor Ea) se dispara mucho más al subir la temperatura."
+    }
   },
   {
     "id": "HID-09",

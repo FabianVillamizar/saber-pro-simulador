@@ -150,7 +150,35 @@
       "EST"
     ],
     "regla": "son dos mecanismos de degradación distintos, y cada elemento de almacenamiento ataca uno.",
-    "conexion_cotidiana": "La regla Q₁₀ es la misma herramienta de los **estudios de estabilidad acelerada**: en vez de esperar años, se guarda el fármaco a 40-60°C unas semanas, se mide la degradación y se extrapola con Arrhenius a la vida útil normal — la misma lógica, en dirección inversa, que justifica los -20°C."
+    "conexion_cotidiana": "La regla Q₁₀ es la misma herramienta de los **estudios de estabilidad acelerada**: en vez de esperar años, se guarda el fármaco a 40-60°C unas semanas, se mide la degradación y se extrapola con Arrhenius a la vida útil normal — la misma lógica, en dirección inversa, que justifica los -20°C.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Velocidad relativa de degradación a tres temperaturas de almacenamiento (Ea=80 kJ/mol): 100% a 25°C, 8.6% a 4°C (11× más lento), y solo 0.32% a -20°C (más de 300× más lento) — por qué -20°C protege mucho más que solo refrigerar.",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "barras",
+      "ejeX": "Temperatura de almacenamiento",
+      "ejeY": "Velocidad relativa de degradación (%, 25°C=100%)",
+      "series": [
+        {
+          "nombre": "Velocidad relativa",
+          "datos": [
+            {
+              "x": "25°C (ambiente)",
+              "y": 100
+            },
+            {
+              "x": "4°C (refrigerador)",
+              "y": 8.65
+            },
+            {
+              "x": "-20°C (congelador)",
+              "y": 0.32
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Barras decrecientes de 100% a 8.6% a 0.32% — escala logarítmica por el rango de más de 100×."
+    }
   },
   {
     "id": "SER-09",

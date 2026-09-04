@@ -16,7 +16,47 @@
       "SER"
     ],
     "regla": "[[DG-R-extracciones-multiples|la fracción NO extraída]] se eleva a la potencia n (número de extracciones) — por eso más extracciones gana, aunque cada una use menos solvente.",
-    "conexion_cotidiana": "Esta misma ecuación exponencial (fracción remanente elevada a n etapas) es matemáticamente idéntica a la que describe la eficiencia de la **diálisis renal** o el diseño de **filtros de agua en serie**: pasar el fluido por varias etapas pequeñas es sistemáticamente más eficiente que una sola etapa grande con el mismo presupuesto total."
+    "conexion_cotidiana": "Esta misma ecuación exponencial (fracción remanente elevada a n etapas) es matemáticamente idéntica a la que describe la eficiencia de la **diálisis renal** o el diseño de **filtros de agua en serie**: pasar el fluido por varias etapas pequeñas es sistemáticamente más eficiente que una sola etapa grande con el mismo presupuesto total.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Porcentaje extraído contra número de extracciones n, con el volumen total fijo (75 mL) repartido en n partes iguales: 1 extracción de 75 mL extrae 79%, 3 de 25 mL extraen 91%, con rendimientos decrecientes después.",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "barras",
+      "ejeX": "Número de extracciones (n), 75 mL repartidos",
+      "ejeY": "% extraído",
+      "series": [
+        {
+          "nombre": "% extraído",
+          "datos": [
+            {
+              "x": "1× 75 mL",
+              "y": 78.95
+            },
+            {
+              "x": "2× 37.5 mL",
+              "y": 87.9
+            },
+            {
+              "x": "3× 25 mL",
+              "y": 91.22
+            },
+            {
+              "x": "4× 18.75 mL",
+              "y": 92.9
+            },
+            {
+              "x": "5× 15 mL",
+              "y": 93.91
+            },
+            {
+              "x": "6× 12.5 mL",
+              "y": 94.57
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Barras crecientes con rendimientos decrecientes: de 79% (n=1) a 94.6% (n=6), el protocolo real (n=3) ya captura 91.2%."
+    }
   },
   {
     "id": "ELL-02",

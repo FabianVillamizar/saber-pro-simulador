@@ -54,7 +54,31 @@
       "EST"
     ],
     "regla": "el butanol tiene selectividad limitada (ELL-08), y el método simplemente PESA el residuo — no distingue qué fracción de esa masa es saponina real.",
-    "conexion_cotidiana": "El mismo problema —un criterio de separación físico simple que arrastra más de lo que se quiere medir— aparece en el análisis de alimentos: la **'fibra cruda'**, un método de más de 150 años, mide el residuo tras hervir la muestra en ácido y base diluidos, y se sabe que SUBESTIMA la fibra real porque parte de ella se disuelve y se pierde del residuo."
+    "conexion_cotidiana": "El mismo problema —un criterio de separación físico simple que arrastra más de lo que se quiere medir— aparece en el análisis de alimentos: la **'fibra cruda'**, un método de más de 150 años, mide el residuo tras hervir la muestra en ácido y base diluidos, y se sabe que SUBESTIMA la fibra real porque parte de ella se disuelve y se pierde del residuo.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Señal relativa reportada por dos métodos sobre la misma muestra: el colorimétrico (específico, reacciona solo con lo que tiene el cromóforo) como referencia en 1, y el gravimétrico (pesa todo lo que co-precipita) sobreestimando del orden de 8-40 veces según la literatura — la barra muestra un valor ilustrativo de 20×, a mitad del rango reportado.",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "barras",
+      "ejeX": "Método de cuantificación",
+      "ejeY": "Señal relativa (colorimétrico = 1)",
+      "series": [
+        {
+          "nombre": "Señal relativa",
+          "datos": [
+            {
+              "x": "Colorimétrico (específico)",
+              "y": 1
+            },
+            {
+              "x": "Gravimétrico (no específico)",
+              "y": 20
+            }
+          ]
+        }
+      ],
+      "descripcionAccesible": "El gravimétrico da una señal ~20 veces mayor que el colorimétrico sobre la misma muestra, ilustrativo del rango 8-40× reportado en la literatura."
+    }
   },
   {
     "id": "PFT-04",
