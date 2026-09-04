@@ -33,7 +33,14 @@
     "connects_to": [
       "ELL"
     ],
-    "conexion_cotidiana": "Esta cancelación geométrica es precisamente la razón por la que el CO₂ supercrítico se puede usar como solvente de extracción 'verde' que se comporta como un solvente apolar tipo hexano, pese a estar hecho de enlaces polares."
+    "conexion_cotidiana": "Esta cancelación geométrica es precisamente la razón por la que el CO₂ supercrítico se puede usar como solvente de extracción 'verde' que se comporta como un solvente apolar tipo hexano, pese a estar hecho de enlaces polares.",
+    "tipo_visual": "estructura_quimica",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Modelos de bolas y varillas de CO₂ (lineal) y H₂O (angular), con los vectores de dipolo de enlace dibujados: en el CO₂ los dos vectores son colineales y opuestos y se cancelan; en el H₂O no son opuestos y su resultante (flecha naranja) apunta hacia el oxígeno.",
+    "imagen": "fqt-02-co2-h2o-dipolos.png",
+    "visual_fuente": {
+      "texto": "Modelos moleculares de Jynto (CO₂, CC0) y Benjah-bmm27 (H₂O, dominio público), Wikimedia Commons. Vectores de dipolo añadidos."
+    }
   },
   {
     "id": "FQT-03",
