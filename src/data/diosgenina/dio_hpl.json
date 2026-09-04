@@ -75,9 +75,9 @@
     "tipo": "concepto",
     "bloque": "HPL",
     "modo": "pregunta",
-    "pregunta": "El tiempo de retención (tR) es 'cuánto tarda el compuesto en salir de la columna', pero ¿por qué ese número solo no basta para comparar entre días o equipos distintos, y qué es el factor de capacidad k' que se usa en su lugar?",
-    "respuesta": "tR depende de factores instrumentales sin relación con la afinidad química del compuesto: el flujo exacto de la bomba, la longitud exacta de la columna, variaciones de temperatura. Dos corridas en días distintos pueden dar tR ligeramente diferentes para el MISMO compuesto por esa variabilidad. El **factor de capacidad k'** lo normaliza: k' = (tR − t0) / t0, donde t0 es el tiempo muerto (**HPL-12**), lo que tarda un compuesto no retenido en atravesar la columna. Al restar y dividir por t0, k' representa cuántas 'veces t0' adicionales tarda el compuesto por SU interacción química real, cancelando casi toda la variabilidad instrumental.",
-    "error_comun": "Pensar que tR es una propiedad química fija y comparable directamente entre cualquier corrida sin ajuste: depende de las condiciones instrumentales de esa corrida particular.",
+    "pregunta": "El tiempo de retención ($t_R$) es 'cuánto tarda el compuesto en salir de la columna', pero ¿por qué ese número solo no basta para comparar entre días o equipos distintos, y qué es el factor de capacidad k' que se usa en su lugar?",
+    "respuesta": "$t_R$ depende de factores instrumentales sin relación con la afinidad química del compuesto: el flujo exacto de la bomba, la longitud exacta de la columna, variaciones de temperatura. Dos corridas en días distintos pueden dar $t_R$ ligeramente diferentes para el MISMO compuesto por esa variabilidad. El **factor de capacidad k'** lo normaliza: $k' = (t_R - t_0)/t_0$, donde $t_0$ es el tiempo muerto (**HPL-12**), lo que tarda un compuesto no retenido en atravesar la columna. Al restar y dividir por $t_0$, k' representa cuántas 'veces $t_0$' adicionales tarda el compuesto por SU interacción química real, cancelando casi toda la variabilidad instrumental.",
+    "error_comun": "Pensar que $t_R$ es una propiedad química fija y comparable directamente entre cualquier corrida sin ajuste: depende de las condiciones instrumentales de esa corrida particular.",
     "dificultad": "alta",
     "prereqs": [
       "TLC-01"
@@ -85,7 +85,7 @@
     "connects_to": [
       "EST"
     ],
-    "regla": "tR depende de variabilidad puramente instrumental; k' normaliza eso restando y dividiendo por t0, dejando solo la interacción química real.",
+    "regla": "$t_R$ depende de variabilidad puramente instrumental; k' normaliza eso restando y dividiendo por $t_0$, dejando solo la interacción química real.",
     "conexion_cotidiana": "Normalizar una medición de tiempo por un valor de referencia tiene paralelo en astrofísica: el **corrimiento al rojo (z)** de una galaxia no se reporta en nanómetros absolutos sino normalizado respecto a la longitud de onda original de esa línea (z = Δλ/λ0), dando un número comparable entre observaciones y telescopios distintos."
   },
   {
@@ -105,7 +105,7 @@
     "connects_to": [
       "EST"
     ],
-    "regla": "H = A + B/u + C·u — tres mecanismos independientes, dos que empeoran a flujo lento y uno que empeora a flujo rápido, dan un óptimo en velocidad intermedia.",
+    "regla": "$H = A + B/u + C\\cdot u$ — tres mecanismos independientes, dos que empeoran a flujo lento y uno que empeora a flujo rápido, dan un óptimo en velocidad intermedia.",
     "conexion_cotidiana": "El concepto de 'plato teórico' viene de la **destilación fraccionada** de petróleo y licores: cada plato es una etapa de equilibrio vapor-líquido idealizada, y los cromatografistas de los años 1940-50 lo tomaron prestado — hablar del 'número de platos teóricos' de una columna usa un concepto hecho para diseñar torres de whisky o gasolina."
   },
   {
@@ -115,7 +115,7 @@
     "bloque": "HPL",
     "modo": "pregunta",
     "pregunta": "¿Cuál es la ecuación formal que dice si dos picos están 'bien separados' o no, y qué tres factores independientes contribuyen a esa separación?",
-    "respuesta": "**N** es el número de platos teóricos (eficiencia de la columna, **HPL-06**). **α** es el factor de **selectividad** (relación entre los k' de los dos compuestos, un factor puramente químico). **k'** es el factor de capacidad promedio (**HPL-05**). Cada uno se mejora por vías distintas: subir N pide columna más larga o partícula más fina (costoso); subir α pide cambiar la QUÍMICA (otra fase móvil, otro pH); k' se ajusta con la fuerza general de elución. Como N entra bajo raíz cuadrada, cuadruplicarlo solo duplica esa parte de Rs — mejorar α suele dar más ganancia por menor 'costo'.",
+    "respuesta": "**N** es el número de platos teóricos (eficiencia de la columna, **HPL-06**). **α** es el factor de **selectividad** (relación entre los k' de los dos compuestos, un factor puramente químico). **k'** es el factor de capacidad promedio (**HPL-05**). Cada uno se mejora por vías distintas: subir N pide columna más larga o partícula más fina (costoso); subir α pide cambiar la QUÍMICA (otra fase móvil, otro pH); k' se ajusta con la fuerza general de elución. Como N entra bajo raíz cuadrada, cuadruplicarlo solo duplica esa parte de $R_s$ — mejorar α suele dar más ganancia por menor 'costo'.",
     "error_comun": "Pensar que aumentar el tiempo de corrida o la longitud de la columna (subir N) es siempre la vía más eficiente para una separación pobre: como N entra bajo raíz cuadrada, hay rendimientos decrecientes fuertes.",
     "dificultad": "alta",
     "prereqs": [
@@ -125,8 +125,8 @@
     "connects_to": [
       "PFT"
     ],
-    "regla": "Rs = (1/4)·√N · (α-1)/α · k'/(1+k') — mejorar la selectividad química (α) suele dar más ganancia que aumentar la eficiencia (N), porque N solo entra bajo raíz cuadrada.",
-    "conexion_cotidiana": "La misma estructura —resolución como producto de varios factores independientes— aparece en el **criterio de Rayleigh** para la resolución angular de un telescopio: distinguir dos puntos de luz cercanos depende del diámetro de la apertura óptica y de la longitud de onda, análogo a cómo Rs depende de la eficiencia de la columna y la selectividad química."
+    "regla": "$R_s = \\tfrac{1}{4}\\sqrt{N}\\cdot\\dfrac{\\alpha-1}{\\alpha}\\cdot\\dfrac{k'}{1+k'}$ — mejorar la selectividad química (α) suele dar más ganancia que aumentar la eficiencia (N), porque N solo entra bajo raíz cuadrada.",
+    "conexion_cotidiana": "La misma estructura —resolución como producto de varios factores independientes— aparece en el **criterio de Rayleigh** para la resolución angular de un telescopio: distinguir dos puntos de luz cercanos depende del diámetro de la apertura óptica y de la longitud de onda, análogo a cómo $R_s$ depende de la eficiencia de la columna y la selectividad química."
   },
   {
     "id": "HPL-08",
@@ -207,16 +207,16 @@
     "tipo": "concepto",
     "bloque": "HPL",
     "modo": "pregunta",
-    "pregunta": "Ya mencionaron que k' se calcula usando t0, el 'tiempo muerto'. ¿Qué es exactamente ese tiempo, y por qué no es simplemente cero (el momento en que se inyecta la muestra)?",
-    "respuesta": "El tiempo muerto (t0) es el tiempo que tarda un compuesto completamente NO retenido por la fase estacionaria en atravesar TODO el sistema desde el punto de inyección hasta el detector, incluyendo el volumen de la columna y de la tubería de conexión. No es cero porque, aunque no interactúe con la fase estacionaria, el compuesto todavía tiene que recorrer físicamente una distancia y un volumen real de líquido a un flujo finito. Se determina inyectando un compuesto que se sabe no se retiene en ese sistema.",
-    "error_comun": "Confundir t0 con 'el tiempo cero de la corrida' o 'el momento de inyección' — t0 es un tiempo real y medible, mayor que cero.",
+    "pregunta": "Ya mencionaron que k' se calcula usando $t_0$, el 'tiempo muerto'. ¿Qué es exactamente ese tiempo, y por qué no es simplemente cero (el momento en que se inyecta la muestra)?",
+    "respuesta": "El tiempo muerto ($t_0$) es el tiempo que tarda un compuesto completamente NO retenido por la fase estacionaria en atravesar TODO el sistema desde el punto de inyección hasta el detector, incluyendo el volumen de la columna y de la tubería de conexión. No es cero porque, aunque no interactúe con la fase estacionaria, el compuesto todavía tiene que recorrer físicamente una distancia y un volumen real de líquido a un flujo finito. Se determina inyectando un compuesto que se sabe no se retiene en ese sistema.",
+    "error_comun": "Confundir $t_0$ con 'el tiempo cero de la corrida' o 'el momento de inyección' — $t_0$ es un tiempo real y medible, mayor que cero.",
     "dificultad": "alta",
     "prereqs": [
       "HPL-05"
     ],
     "connects_to": [],
-    "regla": "t0 es el tiempo mínimo físico que cualquier cosa, retenida o no, tarda en atravesar el sistema — no puede ser cero porque hay un volumen real que recorrer.",
-    "conexion_cotidiana": "El concepto de 'tiempo mínimo que algo tarda en atravesar un sistema sin ninguna interacción retardante' tiene un paralelo en relatividad: el **tiempo de tránsito de la luz** por cualquier distancia (los ~8 minutos del Sol a la Tierra) es el 't0' absoluto de esa distancia, el mínimo contra el cual se mide cualquier retraso adicional (como el efecto Shapiro)."
+    "regla": "$t_0$ es el tiempo mínimo físico que cualquier cosa, retenida o no, tarda en atravesar el sistema — no puede ser cero porque hay un volumen real que recorrer.",
+    "conexion_cotidiana": "El concepto de 'tiempo mínimo que algo tarda en atravesar un sistema sin ninguna interacción retardante' tiene un paralelo en relatividad: el **tiempo de tránsito de la luz** por cualquier distancia (los ~8 minutos del Sol a la Tierra) es el $t_0$ absoluto de esa distancia, el mínimo contra el cual se mide cualquier retraso adicional (como el efecto Shapiro)."
   },
   {
     "id": "HPL-13",
@@ -281,7 +281,7 @@
     "bloque": "HPL",
     "modo": "pregunta",
     "pregunta": "Un pico de HPLC 'perfecto' en un libro de texto es una curva gaussiana simétrica. En la práctica, ven picos con 'cola' (tailing) o con un 'hombro' pegado a otro pico. ¿Qué causa fisicoquímica tiene cada uno de estos defectos?",
-    "respuesta": "**Tailing (cola)**: el pico sube normalmente al frente pero decae mucho más lentamente en su parte posterior. La causa más común es la interacción secundaria con silanoles residuales ionizados de **HPL-15**: una pequeña fracción de moléculas queda 'atrapada' temporalmente y se retrasa desproporcionadamente respecto al resto. También puede deberse a sobrecarga de columna (análogo al streaking de **TLC-08**).\n\n**Hombro (shoulder)**: una protuberancia en el costado de un pico principal, casi siempre un SEGUNDO compuesto con tR muy cercano no separado del todo (resolución insuficiente, **HPL-07**), no un defecto del pico principal en sí.",
+    "respuesta": "**Tailing (cola)**: el pico sube normalmente al frente pero decae mucho más lentamente en su parte posterior. La causa más común es la interacción secundaria con silanoles residuales ionizados de **HPL-15**: una pequeña fracción de moléculas queda 'atrapada' temporalmente y se retrasa desproporcionadamente respecto al resto. También puede deberse a sobrecarga de columna (análogo al streaking de **TLC-08**).\n\n**Hombro (shoulder)**: una protuberancia en el costado de un pico principal, casi siempre un SEGUNDO compuesto con $t_R$ muy cercano no separado del todo (resolución insuficiente, **HPL-07**), no un defecto del pico principal en sí.",
     "error_comun": "Confundir tailing con la presencia de un segundo compuesto: el tailing típico es un defecto de FORMA de un solo compuesto, mientras que un hombro específicamente sugiere una segunda especie química distinta.",
     "dificultad": "alta",
     "prereqs": [

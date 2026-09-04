@@ -235,7 +235,7 @@
     "formato": "mcq",
     "enunciado": "Con el mismo volumen TOTAL de solvente disponible, ¿qué predice la ecuación de extracciones múltiples sobre dividir ese volumen en 3 extracciones en vez de usarlo todo en una sola?",
     "opciones": [
-      "Dividir en 3 deja menos soluto sin extraer: la fracción remanente se eleva a n",
+      "Dividir enundefineddeja menos soluto sin extraer: la fracción remanente se eleva a n",
       "El resultado es igual: el coeficiente de partición depende solo del volumen total",
       "Una sola extracción grande recupera más: el equilibrio tiene más tiempo de contacto",
       "Dividir solo ayuda si el coeficiente de partición es bajo, no con la diosgenina"
@@ -296,7 +296,7 @@
       "El baño transmite el calor tan bien que calienta el etanol por encima de su ajuste",
       "La rotación del matraz genera fricción y sube la temperatura real del líquido",
       "El vacío reduce las moléculas necesarias para saturar el vapor, sin tocar la temperatura",
-      "El vacío baja la presión, y con menos presión externa el etanol hierve antes de 78 °C"
+      "El vacío baja la presión, y con menos presión externa el etanol hierve antes deundefined°C"
     ],
     "correcta": 3,
     "explicacion": "El punto de ebullición depende de la presión externa, no es una propiedad fija del líquido: bajar la presión con la bomba de vacío baja también la temperatura a la que el líquido entra en ebullición, el mismo principio por el que el agua hierve a menos de 100°C en La Paz."
@@ -326,7 +326,7 @@
       "Sí: evaporar el solvente separa la diosgenina de los demás compuestos disueltos",
       "No: evaporar solo quita el solvente; lo demás queda en el residuo, más concentrado",
       "No: la evaporación degrada una fracción importante de la diosgenina al secar",
-      "Sí, si se hace a menos de 40 °C, porque solo el DCM se evapora a esa temperatura"
+      "Sí, si se hace a menos deundefined°C, porque solo el DCM se evapora a esa temperatura"
     ],
     "correcta": 1,
     "explicacion": "Evaporación es un paso de concentración, no de purificación: separar de verdad la diosgenina de otros compuestos co-extraídos requiere técnicas con selectividad real, como cromatografía o recristalización."
@@ -349,7 +349,7 @@
     "tarjetaId": "TLC-01",
     "categoria": "TLC",
     "formato": "mcq",
-    "enunciado": "Dos laboratorios distintos corren la misma muestra en TLC, pero cada uno usa una fase móvil distinta sobre el mismo tipo de sílice. ¿Qué esperarían encontrar sobre el Rf del mismo compuesto en ambos casos?",
+    "enunciado": "Dos laboratorios distintos corren la misma muestra en TLC, pero cada uno usa una fase móvil distinta sobre el mismo tipo de sílice. ¿Qué esperarían encontrar sobre el $R_f$ del mismo compuesto en ambos casos?",
     "opciones": [
       "El $R_f$ puede variar bastante: depende del compuesto y de ambas fases a la vez",
       "El $R_f$ debería ser idéntico: es una propiedad intrínseca, como el punto de fusión",
@@ -357,22 +357,22 @@
       "El $R_f$ depende solo de la temperatura ambiente de cada laboratorio"
     ],
     "correcta": 0,
-    "explicacion": "El compuesto pasa por miles de ciclos de adsorción y desorción mientras el solvente sube; cuánto tiempo pasa 'pegado' a la fase estacionaria depende de ambas fases a la vez, así que cambiar cualquiera de las dos cambia el Rf resultante."
+    "explicacion": "El compuesto pasa por miles de ciclos de adsorción y desorción mientras el solvente sube; cuánto tiempo pasa 'pegado' a la fase estacionaria depende de ambas fases a la vez, así que cambiar cualquiera de las dos cambia el $R_f$ resultante."
   },
   {
     "id": "DIO-QR-026",
     "tarjetaId": "TLC-01",
     "categoria": "TLC",
     "formato": "fill",
-    "enunciado": "Completa la idea sobre qué determina que un compuesto tenga Rf bajo:",
-    "antes": "Un compuesto que pasa proporcionalmente más tiempo adsorbido a la sílice, por tener mayor afinidad con la fase estacionaria polar, se mueve menos respecto al frente del solvente durante el desarrollo de la placa, dando un Rf",
-    "despues": "; uno que pasa más tiempo en la fase móvil se acerca a un Rf cercano a 1.",
+    "enunciado": "Completa la idea sobre qué determina que un compuesto tenga $R_f$ bajo:",
+    "antes": "Un compuesto que pasa proporcionalmente más tiempo adsorbido a la sílice, por tener mayor afinidad con la fase estacionaria polar, se mueve menos respecto al frente del solvente durante el desarrollo de la placa, dando un $R_f$",
+    "despues": "; uno que pasa más tiempo en la fase móvil se acerca a un $R_f$ cercano a 1.",
     "respuesta": "bajo",
     "alternativas": [
       "bajo",
       "cercano a 0"
     ],
-    "explicacion": "El Rf resume, en un solo número entre 0 y 1, qué proporción del tiempo total pasó cada compuesto en la fase móvil en vez de adsorbido a la fase estacionaria."
+    "explicacion": "El $R_f$ resume, en un solo número entre 0 y 1, qué proporción del tiempo total pasó cada compuesto en la fase móvil en vez de adsorbido a la fase estacionaria."
   },
   {
     "id": "DIO-QR-027",
@@ -878,7 +878,7 @@
       "Ninguno de los dos aporta información diagnóstica real, así que ambos se pueden ignorar"
     ],
     "correcta": 2,
-    "explicacion": "El tailing típico viene de una pequeña fracción de moléculas quedando atrapada temporalmente por silanoles residuales ionizados, retrasándose desproporcionadamente; el hombro, en cambio, suele señalar resolución insuficiente entre dos compuestos distintos con tR muy cercano, no un defecto de forma del pico principal."
+    "explicacion": "El tailing típico viene de una pequeña fracción de moléculas quedando atrapada temporalmente por silanoles residuales ionizados, retrasándose desproporcionadamente; el hombro, en cambio, suele señalar resolución insuficiente entre dos compuestos distintos con $t_R$ muy cercano, no un defecto de forma del pico principal."
   },
   {
     "id": "DIO-QR-062",
@@ -1148,7 +1148,7 @@
       "La polaridad del compuesto en una escala relativa de referencia."
     ],
     "correcta": 0,
-    "explicacion": "El compuesto se reparte una y otra vez entre la sílice fija y el solvente que sube; el Rf resume ese reparto repetido en la razón distancia de la mancha sobre distancia del frente. Es la ley de reparto aplicada miles de veces en vez de una. Fase normal o reversa solo dice cuál fase es la polar."
+    "explicacion": "El compuesto se reparte una y otra vez entre la sílice fija y el solvente que sube; el $R_f$ resume ese reparto repetido en la razón distancia de la mancha sobre distancia del frente. Es la ley de reparto aplicada miles de veces en vez de una. Fase normal o reversa solo dice cuál fase es la polar."
   },
   {
     "id": "DIO-QR-080",
@@ -1172,10 +1172,10 @@
     "formato": "mcq",
     "enunciado": "Una prueba estadística sobre el perfil espino contra criollo da p = 0.04. Según [[DG-R-pvalor|lo que el p-valor significa]], ¿cuál lectura es correcta?",
     "opciones": [
-      "Hay 4 % de probabilidad de que no exista diferencia real entre las variedades.",
-      "Datos así de extremos aparecen el 4 % de las veces si no hubiera diferencia.",
-      "Hay 96 % de probabilidad de que la diferencia observada sea real.",
-      "La diferencia entre variedades es del 4 % en promedio."
+      "Hayundefined% de probabilidad de que no exista diferencia real entre las variedades.",
+      "Datos así de extremos aparecen elundefined% de las veces si no hubiera diferencia.",
+      "Hayundefined% de probabilidad de que la diferencia observada sea real.",
+      "La diferencia entre variedades es delundefined% en promedio."
     ],
     "correcta": 1,
     "explicacion": "El p-valor es P(datos | hipótesis nula verdadera), no P(nula verdadera | datos). Un p = 0.04 dice que datos tan extremos como estos son raros bajo el supuesto de que no hay diferencia; no cuantifica la probabilidad de la hipótesis ni el tamaño del efecto."
@@ -1220,7 +1220,7 @@
       "Porque el ácido residual se concentra hacia el final y el riesgo de degradación sube justo ahí.",
       "Porque el diclorometano se vuelve inflamable y explosivo por encima de esa temperatura de baño.",
       "Porque a mayor temperatura el rotavaporador pierde el vacío interno que necesita para operar.",
-      "Porque por encima de 40 °C la diosgenina empieza a sublimar y se pierde arrastrada por el vapor."
+      "Porque por encima deundefined°C la diosgenina empieza a sublimar y se pierde arrastrada por el vapor."
     ],
     "correcta": 0,
     "explicacion": "Evaporar solo quita solvente: el ácido que quedó se concentra en menos volumen. El riesgo de degradación no es constante, crece hacia el final de la evaporación, y calentar más fuerte acelera esa degradación justo cuando el medio está más agresivo."
@@ -1330,7 +1330,7 @@
     "enunciado": "Se llama fase normal a usar sílice polar con eluyente apolar. ¿Qué significa normal ahí? Ver [[DG-R-rf|fase normal y reversa]].",
     "opciones": [
       "Es una etiqueta histórica: fue el primer montaje que se usó, no el más común hoy.",
-      "Significa que da los Rf más reproducibles y por eso quedó como el montaje estándar.",
+      "Significa que da los $R_f$ más reproducibles y por eso quedó como el montaje estándar.",
       "Indica que la fase móvil circula a presión atmosférica normal, sin ayuda de bomba.",
       "Quiere decir que separa compuestos neutros, mientras que la reversa separa iones."
     ],
@@ -1387,15 +1387,15 @@
     "tarjetaId": "TLC-09",
     "categoria": "TLC",
     "formato": "mcq",
-    "enunciado": "Dos manchas con Rf parecido salen casi como una sola mancha alargada. ¿De qué depende poder separarlas? Ver [[DG-R-resolucion|resolución]].",
+    "enunciado": "Dos manchas con $R_f$ parecido salen casi como una sola mancha alargada. ¿De qué depende poder separarlas? Ver [[DG-R-resolucion|resolución]].",
     "opciones": [
-      "Solo de la diferencia entre sus Rf: si difieren en algo, con paciencia se separan.",
+      "Solo de la diferencia entre sus $R_f$: si difieren en algo, con paciencia se separan.",
       "Solo del revelador: uno más selectivo las distingue aunque físicamente se solapen.",
-      "De la diferencia de Rf y además del ancho de las manchas y la distancia de desarrollo.",
+      "De la diferencia de $R_f$ y además del ancho de las manchas y la distancia de desarrollo.",
       "Del grosor de la capa de sílice: una placa más gruesa siempre resuelve mejor dos manchas."
     ],
     "correcta": 2,
-    "explicacion": "La resolución va como 2·Δx / (w₁ + w₂): manchas anchas se solapan aunque sus centros estén separados. Se mejora alargando el recorrido, cambiando el eluyente para abrir la diferencia de Rf, o sembrando menos muestra para estrechar las manchas."
+    "explicacion": "La resolución va como 2·Δx / (w₁ + w₂): manchas anchas se solapan aunque sus centros estén separados. Se mejora alargando el recorrido, cambiando el eluyente para abrir la diferencia de $R_f$, o sembrando menos muestra para estrechar las manchas."
   },
   {
     "id": "DIO-QR-096",
@@ -1409,7 +1409,7 @@
       "hace falta un densitómetro",
       "que mida su intensidad de forma reproducible"
     ],
-    "explicacion": "La TLC simple responde si hay algo y a qué Rf. Para pasar a una concentración hay que digitalizar la mancha con un densitómetro y calibrar contra estándares, que ya es un método instrumental, más cerca del HPLC que de leer la placa a ojo."
+    "explicacion": "La TLC simple responde si hay algo y a qué $R_f$. Para pasar a una concentración hay que digitalizar la mancha con un densitómetro y calibrar contra estándares, que ya es un método instrumental, más cerca del HPLC que de leer la placa a ojo."
   },
   {
     "id": "DIO-QR-097",
@@ -1502,10 +1502,10 @@
     "formato": "mcq",
     "enunciado": "El piloto del semillero tiene n = 2 por grupo. ¿Por qué eso no solo da menos confianza, sino que impide detectar ciertos efectos reales? Ver [[DG-R-poder|poder estadístico]].",
     "opciones": [
-      "Porque con n = 2 no se puede calcular una desviación estándar fiable de la muestra.",
+      "Porque con n =undefinedno se puede calcular una desviación estándar fiable de la muestra.",
       "Porque toda prueba estadística exige un mínimo de treinta datos por grupo para ser válida.",
       "Porque el poder crece con n, y con n muy chico un efecto real no llega a ser significativo.",
-      "Porque n = 2 obliga a usar estadística no paramétrica, que por diseño nunca da p < 0.05."
+      "Porque n =undefinedobliga a usar estadística no paramétrica, que por diseño nunca da p < 0.05."
     ],
     "correcta": 2,
     "explicacion": "El poder es la probabilidad de detectar un efecto que sí existe, y crece con el tamaño de muestra, el del efecto y la baja variabilidad. Con n = 2 el poder es tan bajo que, salvo un efecto enorme, la prueba no puede rechazar la nula aunque haya diferencia. Sirve para estimar variabilidad, no para concluir."

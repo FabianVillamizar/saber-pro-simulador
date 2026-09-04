@@ -5,9 +5,9 @@
     "tipo": "concepto",
     "bloque": "TLC",
     "modo": "pregunta",
-    "pregunta": "El Rf es 'la distancia que recorre la mancha dividida entre la distancia del frente del solvente' — pero fisicoquímicamente, ¿qué representa ese número?",
-    "respuesta": "Mientras el solvente sube, cada molécula de analito pasa por un ciclo continuo de **adsorción** a la sílice (pegándose un momento) y **desorción** hacia la fase móvil (siendo arrastrada) — miles de micro-equilibrios mientras la placa se desarrolla. Un compuesto que pasa más tiempo 'pegado' a la sílice se mueve menos respecto al frente: **Rf bajo**. Uno que pasa más tiempo en la fase móvil casi acompaña al frente: **Rf cercano a 1**. El Rf no es propiedad 'del compuesto' en abstracto: es propiedad del equilibrio entre ese compuesto, esa fase estacionaria y esa fase móvil.",
-    "error_comun": "Pensar que el Rf es una constante universal de un compuesto, como su punto de fusión: depende de qué fases se usen; el mismo compuesto puede tener Rf 0.2 en un sistema y 0.8 en otro.",
+    "pregunta": "El $R_f$ es 'la distancia que recorre la mancha dividida entre la distancia del frente del solvente' — pero fisicoquímicamente, ¿qué representa ese número?",
+    "respuesta": "Mientras el solvente sube, cada molécula de analito pasa por un ciclo continuo de **adsorción** a la sílice (pegándose un momento) y **desorción** hacia la fase móvil (siendo arrastrada) — miles de micro-equilibrios mientras la placa se desarrolla. Un compuesto que pasa más tiempo 'pegado' a la sílice se mueve menos respecto al frente: $R_f$ **bajo**. Uno que pasa más tiempo en la fase móvil casi acompaña al frente: $R_f$ **cercano a 1**. El $R_f$ no es propiedad 'del compuesto' en abstracto: es propiedad del equilibrio entre ese compuesto, esa fase estacionaria y esa fase móvil.",
+    "error_comun": "Pensar que el $R_f$ es una constante universal de un compuesto, como su punto de fusión: depende de qué fases se usen; el mismo compuesto puede tener $R_f$ 0.2 en un sistema y 0.8 en otro.",
     "dificultad": "alta",
     "prereqs": [
       "FQT-03",
@@ -16,7 +16,7 @@
     "connects_to": [
       "HPL"
     ],
-    "regla": "el Rf es un coeficiente de partición (FQT-03) pero en un sistema donde el compuesto se reparte miles de veces mientras el solvente avanza, no una sola vez como en un embudo.",
+    "regla": "el $R_f$ es un coeficiente de partición (FQT-03) pero en un sistema donde el compuesto se reparte miles de veces mientras el solvente avanza, no una sola vez como en un embudo.",
     "conexion_cotidiana": "El nombre 'cromatografía' (griego chroma, color; graphein, escribir) viene del experimento fundacional del botánico ruso **Mikhail Tswett** (1900-1903): separó los pigmentos de hojas pasando un extracto por una columna de carbonato de calcio y viendo bandas de colores a distintas alturas."
   },
   {
@@ -26,7 +26,7 @@
     "bloque": "TLC",
     "modo": "pregunta",
     "pregunta": "¿Qué tiene específicamente la sílice (SiO₂) en su superficie que la hace tan útil como fase estacionaria polar en TLC?",
-    "respuesta": "En la superficie de la sílice, muchos silicios que en el interior estarían unidos a 4 oxígenos quedan con un enlace 'colgante' que se satura con un -OH, formando **grupos silanol (Si-OH)** densamente distribuidos. Estos hacen puentes de hidrógeno (**FQT-10**) con cualquier analito que tenga -OH, -NH o carbonilos: cuantos más grupos así tenga el analito, más fuerte interactúa con la sílice y menor su Rf. Esa abundancia de sitios de puente de H es lo que hace de la sílice una fase estacionaria polar tan efectiva.",
+    "respuesta": "En la superficie de la sílice, muchos silicios que en el interior estarían unidos a 4 oxígenos quedan con un enlace 'colgante' que se satura con un -OH, formando **grupos silanol (Si-OH)** densamente distribuidos. Estos hacen puentes de hidrógeno (**FQT-10**) con cualquier analito que tenga -OH, -NH o carbonilos: cuantos más grupos así tenga el analito, más fuerte interactúa con la sílice y menor su $R_f$. Esa abundancia de sitios de puente de H es lo que hace de la sílice una fase estacionaria polar tan efectiva.",
     "error_comun": "Pensar en la sílice como un sólido 'inerte' que actúa solo por tamaño de poro o superficie física: su función principal es química (silanoles formando puentes de H), no un 'colador molecular'.",
     "dificultad": "alta",
     "prereqs": [
@@ -99,8 +99,8 @@
     "bloque": "TLC",
     "modo": "pregunta",
     "pregunta": "¿Por qué se tapa la cámara de desarrollo y se deja 'equilibrar' unos minutos antes de introducir la placa, en vez de meter la placa apenas se vierte el solvente?",
-    "respuesta": "Al verter solvente fresco y tapar la cámara, el aire de dentro se llena con vapor de ese solvente (según su presión de vapor, **FQT-08**) hasta casi saturarse. Si se mete la placa ANTES de ese equilibrio, el solvente que asciende se evapora hacia un aire aún seco en vez de estar en equilibrio con una atmósfera ya cargada del mismo vapor: eso genera un gradiente de evaporación desigual a lo largo de la placa, curva el frente y afecta la reproducibilidad del Rf, sobre todo con mezclas de solventes de distinta volatilidad.",
-    "error_comun": "Pensar que 'saturar la cámara' es solo un paso opcional de refinamiento sin impacto real: para sistemas de solvente mixto afecta directamente la reproducibilidad del Rf y la forma del frente.",
+    "respuesta": "Al verter solvente fresco y tapar la cámara, el aire de dentro se llena con vapor de ese solvente (según su presión de vapor, **FQT-08**) hasta casi saturarse. Si se mete la placa ANTES de ese equilibrio, el solvente que asciende se evapora hacia un aire aún seco en vez de estar en equilibrio con una atmósfera ya cargada del mismo vapor: eso genera un gradiente de evaporación desigual a lo largo de la placa, curva el frente y afecta la reproducibilidad del $R_f$, sobre todo con mezclas de solventes de distinta volatilidad.",
+    "error_comun": "Pensar que 'saturar la cámara' es solo un paso opcional de refinamiento sin impacto real: para sistemas de solvente mixto afecta directamente la reproducibilidad del $R_f$ y la forma del frente.",
     "dificultad": "alta",
     "prereqs": [
       "FQT-08"
@@ -152,8 +152,8 @@
     "tipo": "concepto",
     "bloque": "TLC",
     "modo": "pregunta",
-    "pregunta": "Si dos compuestos tienen Rf muy parecido y sus manchas casi se sobreponen o se ven como una sola mancha alargada, ¿qué está pasando fisicoquímicamente, y qué opciones hay para resolverlo mejor?",
-    "respuesta": "Dos compuestos con Rf muy similar tienen, por definición (**TLC-01**), un comportamiento de partición casi idéntico — normalmente porque tienen polaridad y capacidad de puente de H parecidas. La resolución depende no solo de la diferencia de Rf, sino del ancho de las manchas (manchas anchas por sobrecarga, **TLC-08**, se solapan aun con Rf algo distintos) y de la distancia de desarrollo (una placa más larga separa mejor). Opciones: cambiar la fase móvil (un cambio sutil puede abrir mucho el Rf relativo), usar placa más larga, o cambiar la fase estacionaria (normal a reversa, **TLC-03**).",
+    "pregunta": "Si dos compuestos tienen $R_f$ muy parecido y sus manchas casi se sobreponen o se ven como una sola mancha alargada, ¿qué está pasando fisicoquímicamente, y qué opciones hay para resolverlo mejor?",
+    "respuesta": "Dos compuestos con $R_f$ muy similar tienen, por definición (**TLC-01**), un comportamiento de partición casi idéntico — normalmente porque tienen polaridad y capacidad de puente de H parecidas. La resolución depende no solo de la diferencia de $R_f$, sino del ancho de las manchas (manchas anchas por sobrecarga, **TLC-08**, se solapan aun con $R_f$ algo distintos) y de la distancia de desarrollo (una placa más larga separa mejor). Opciones: cambiar la fase móvil (un cambio sutil puede abrir mucho el $R_f$ relativo), usar placa más larga, o cambiar la fase estacionaria (normal a reversa, **TLC-03**).",
     "error_comun": "Pensar que 'correr la placa más tiempo con el mismo solvente' mejora la separación: si el frente ya llegó al borde, correr más no tiene sentido físico; lo que ayuda es una placa MÁS LARGA desde el inicio.",
     "dificultad": "alta",
     "prereqs": [
@@ -163,8 +163,8 @@
     "connects_to": [
       "HPL"
     ],
-    "regla": "la resolución depende de qué tan distintos son los Rf, pero también de qué tan anchas son las manchas y de la distancia total de desarrollo disponible.",
-    "conexion_cotidiana": "Tiene un paralelo en astronomía observacional: dos estrellas muy juntas se ven como un punto borroso con un telescopio de baja resolución, igual que dos manchas de Rf parecido se ven como una sola mancha alargada — la solución es la misma: aumentar la 'distancia' efectiva de separación (placa más larga, o mayor apertura)."
+    "regla": "la resolución depende de qué tan distintos son los $R_f$, pero también de qué tan anchas son las manchas y de la distancia total de desarrollo disponible.",
+    "conexion_cotidiana": "Tiene un paralelo en astronomía observacional: dos estrellas muy juntas se ven como un punto borroso con un telescopio de baja resolución, igual que dos manchas de $R_f$ parecido se ven como una sola mancha alargada — la solución es la misma: aumentar la 'distancia' efectiva de separación (placa más larga, o mayor apertura)."
   },
   {
     "id": "TLC-10",
