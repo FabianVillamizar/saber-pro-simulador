@@ -3,8 +3,11 @@
   border: 1px solid var(--border);
   border-radius: var(--radio-md);
   padding: 12px;
+  margin: 0;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
 }
 
 .visual-raster img {
@@ -12,4 +15,15 @@
   height: auto;
   max-width: 480px;
   border-radius: calc(var(--radio-md) - 4px);
+}
+
+.visual-raster-fuente {
+  font-size: 0.75rem;
+  color: var(--text-sub);
+  text-align: center;
+}
+
+.visual-raster-fuente a {
+  color: inherit;
+  text-decoration: underline;
 }

@@ -424,6 +424,7 @@ export function RepasoConceptos({
                       graficaDatos={tarjeta.grafica_datos_estructurados}
                       tablaDatos={tarjeta.tabla_filas}
                       imagen={tarjeta.imagen}
+                      fuente={tarjeta.visual_fuente}
                     />
                   </div>
                 )}
@@ -619,6 +620,7 @@ export function RepasoConceptos({
                       graficaDatos={tarjeta.grafica_datos_estructurados}
                       tablaDatos={tarjeta.tabla_filas}
                       imagen={tarjeta.imagen}
+                      fuente={tarjeta.visual_fuente}
                     />
                   </div>
                 )}

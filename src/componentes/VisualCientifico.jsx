@@ -11,11 +11,11 @@ import { VisualPendiente } from './VisualPendiente.jsx'
 // `imagen` puede ser un SVG dibujado a mano (VisualSvg, temable) o una
 // foto/captura real (VisualRaster, <img> normal) — se distingue por la
 // extensión del archivo, sin agregar un campo nuevo al esquema.
-export function VisualCientifico({ tipo, descripcion, graficaDatos, tablaDatos, imagen }) {
+export function VisualCientifico({ tipo, descripcion, graficaDatos, tablaDatos, imagen, fuente }) {
   if (!tipo || tipo === 'ninguno') return null
   if (graficaDatos) return <GraficaDatos datos={graficaDatos} />
   if (tablaDatos) return <TablaDatos datos={tablaDatos} />
   if (imagen?.endsWith('.svg')) return <VisualSvg archivo={imagen} descripcion={descripcion} />
-  if (imagen) return <VisualRaster archivo={imagen} descripcion={descripcion} />
+  if (imagen) return <VisualRaster archivo={imagen} descripcion={descripcion} fuente={fuente} />
   return <VisualPendiente tipo={tipo} descripcion={descripcion} />
 }

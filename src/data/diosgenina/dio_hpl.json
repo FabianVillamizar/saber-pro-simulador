@@ -145,7 +145,15 @@
       "PFT"
     ],
     "regla": "cada detector aprovecha una propiedad física distinta del analito — elegir el correcto depende de cuál propiedad tiene tu compuesto.",
-    "conexion_cotidiana": "El **ELSD** es uno de los detectores estándar de la industria para el análisis cuantitativo de **azúcares y carbohidratos** en alimentos: los azúcares, con muchos -OH pero sin conjugación aromática, son casi invisibles para UV sin derivatizar, pero perfectamente detectables por ELSD porque simplemente no se evaporan con el solvente."
+    "conexion_cotidiana": "El **ELSD** es uno de los detectores estándar de la industria para el análisis cuantitativo de **azúcares y carbohidratos** en alimentos: los azúcares, con muchos -OH pero sin conjugación aromática, son casi invisibles para UV sin derivatizar, pero perfectamente detectables por ELSD porque simplemente no se evaporan con el solvente.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Cromatogramas UPLC-DAD apilados de 7 especies de Dioscorea y plantas relacionadas; el pico de diosgenina, marcado, eluye cerca de 5.2 minutos y varía mucho de altura entre especies (alto en D. zingiberensis, ausente o mínimo en varias otras).",
+    "imagen": "hpl-08-cromatograma-uplc-diosgenina.png",
+    "visual_fuente": {
+      "texto": "Yi et al. (2014). Comparative analysis of diosgenin in Dioscorea species and related medicinal plants by UPLC-DAD-MS. BMC Biochemistry 15:19, Fig. 2 (CC BY 4.0). Anotado.",
+      "doi": "10.1186/1471-2091-15-19"
+    }
   },
   {
     "id": "HPL-09",
@@ -254,7 +262,15 @@
       "PFT"
     ],
     "regla": "MS ioniza las moléculas y separa los iones por masa/carga — dando peso molecular y, con fragmentación (MS/MS), una huella estructural, algo que ningún detector óptico puede dar.",
-    "conexion_cotidiana": "La ionización por electrospray (ESI) que hace posible acoplar HPLC con MS la desarrolló **John Fenn** (Premio Nobel de Química 2002); resultó fundacional para la proteómica moderna, incluido el control de calidad de terapias biológicas como las **vacunas de ARN mensajero** — la misma técnica que confirmaría la identidad de tu diosgenina verificó la integridad de las vacunas de ARNm contra COVID-19."
+    "conexion_cotidiana": "La ionización por electrospray (ESI) que hace posible acoplar HPLC con MS la desarrolló **John Fenn** (Premio Nobel de Química 2002); resultó fundacional para la proteómica moderna, incluido el control de calidad de terapias biológicas como las **vacunas de ARN mensajero** — la misma técnica que confirmaría la identidad de tu diosgenina verificó la integridad de las vacunas de ARNm contra COVID-19.",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Espectro de masas real de diosgenina en modo positivo, con el ion molecular [M+H]+ en m/z 415.32 marcado, y a su izquierda, más pequeño, el ion [M-H2O+H]+ en m/z 397.31 por pérdida del 3-OH; la estructura de diosgenina en la esquina.",
+    "imagen": "hpl-14-espectro-masas-diosgenina.png",
+    "visual_fuente": {
+      "texto": "Yi et al. (2014). Comparative analysis of diosgenin in Dioscorea species and related medicinal plants by UPLC-DAD-MS. BMC Biochemistry 15:19, Fig. 1 (CC BY 4.0). Anotado.",
+      "doi": "10.1186/1471-2091-15-19"
+    }
   },
   {
     "id": "HPL-15",

@@ -12,13 +12,30 @@ const imagenesCrudas = import.meta.glob('../assets/raster/*/*.{png,jpg,jpeg,webp
 })
 const urlPorArchivo = Object.fromEntries(Object.entries(imagenesCrudas).map(([ruta, url]) => [ruta.split('/').pop(), url]))
 
-export function VisualRaster({ archivo, descripcion }) {
+// `fuente` es opcional: una foto/figura real tomada de un artículo trae
+// `{ texto, doi }` (cita corta + DOI, sin "https://doi.org/") y se muestra
+// como pie visible con enlace — a diferencia de `descripcion`, que solo
+// llega al alt-text. Un diagrama propio (sin `fuente`) no muestra pie.
+export function VisualRaster({ archivo, descripcion, fuente }) {
   if (!archivo) return null
   const url = urlPorArchivo[archivo]
   if (!url) return null
   return (
-    <div className="visual-raster">
+    <figure className="visual-raster">
       <img src={url} alt={descripcion ?? ''} loading="lazy" />
-    </div>
+      {fuente?.texto && (
+        <figcaption className="visual-raster-fuente">
+          {fuente.texto}
+          {fuente.doi && (
+            <>
+              {' · '}
+              <a href={`https://doi.org/${fuente.doi}`} target="_blank" rel="noopener noreferrer">
+                DOI
+              </a>
+            </>
+          )}
+        </figcaption>
+      )}
+    </figure>
   )
 }
