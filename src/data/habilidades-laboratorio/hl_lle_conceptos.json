@@ -276,7 +276,14 @@
     "tipo_visual": "diagrama_esquematico",
     "visual_posicion": "reverso",
     "visual_descripcion": "Tabla de tres filas que empareja extractante y metal por clasificación HSAB: TBP (donador O duro) con UO2 2+, Th4+, Ln3+; ditizona (donador N,S blando) con Hg2+, Ag+, Pb2+; oximas LIX (O,N frontera) con Cu2+.",
-    "imagen": "HL-LLE-012.svg"
+    "tabla_filas": {
+      "columnas": ["Extractante", "Átomo donador", "Clasificación HSAB", "Metal(es) que extrae bien"],
+      "filas": [
+        ["TBP (fosfato de tributilo)", "O fosforilo", "Duro", "UO₂²⁺, Th⁴⁺, Ln³⁺"],
+        ["Ditizona", "N, S", "Blando", "Hg²⁺, Ag⁺, Pb²⁺"],
+        ["Oximas (LIX)", "O, N", "Frontera", "Cu²⁺"]
+      ]
+    }
   },
   {
     "id": "HL-LLE-013",
@@ -474,7 +481,15 @@
     "tipo_visual": "diagrama_esquematico",
     "visual_posicion": "reverso",
     "visual_descripcion": "Diagrama de flujo de la escalera de lavados: la fase orgánica se lava en orden con HCl diluido (saca la amina), NaHCO3 base debil (saca solo el acido carboxilico), NaOH base fuerte (saca el fenol); cada fase acuosa se acidifica para recuperar su compuesto, y el orgánico final se evapora para el compuesto neutro.",
-    "imagen": "HL-LLE-021.svg"
+    "tabla_filas": {
+      "columnas": ["Paso", "Reactivo del lavado", "Qué sale de la fase orgánica", "Cómo se recupera"],
+      "filas": [
+        ["1", "HCl diluido", "Aminas (protonadas a R-NH₃⁺Cl⁻)", "Basificar la fase acuosa ácida y re-extraer"],
+        ["2", "NaHCO₃ (base débil)", "Ácidos carboxílicos (pKa 4-5)", "Acidificar la fase acuosa y re-extraer"],
+        ["3", "NaOH (base fuerte)", "Fenoles (pKa ≈ 10)", "Acidificar la fase acuosa y re-extraer"],
+        ["4", "Evaporar el solvente", "Compuesto neutro (quedó en la fase orgánica)", "Se obtiene directo, sin lavado"]
+      ]
+    }
   },
   {
     "id": "HL-LLE-022",
@@ -571,8 +586,11 @@
     ],
     "tipo_visual": "diagrama_esquematico",
     "visual_posicion": "reverso",
-    "visual_descripcion": "Tres frascos en secuencia: una emulsión de muchas gotitas finas estabilizadas en la interfase; luego gotas más grandes y menos numerosas al coalescer; luego dos capas limpias separadas. El reparto ya estaba hecho; romper la emulsión es cinética, no termodinámica.",
-    "imagen": "HL-LLE-026.svg"
+    "visual_descripcion": "Foto real de dos tubos de ensayo: el tubo 1 es una emulsión turbia de arriba a abajo, sin ninguna capa; el tubo 2 ya coalesció parcialmente y muestra una capa clara arriba sobre una emulsión residual turbia abajo, con la frontera marcada por escaneo de color. El reparto ya estaba hecho en ambos tubos; lo que cambia entre ellos es cuánto ha avanzado la coalescencia cinética, no el equilibrio termodinámico.",
+    "imagen": "hl-lle-026-emulsion.jpg",
+    "visual_fuente": {
+      "texto": "Francesco Mulas. Emulsione acqua olio. Wikimedia Commons (CC BY 3.0). Anotado con 3 marcadores numerados."
+    }
   },
   {
     "id": "HL-LLE-027",
@@ -611,8 +629,11 @@
     ],
     "tipo_visual": "diagrama_esquematico",
     "visual_posicion": "reverso",
-    "visual_descripcion": "Embudo de decantación rotulado: tapón arriba, cuerpo del embudo, líquido de baja densidad en la capa superior, líquido de alta densidad en la capa inferior, y llave de paso al fondo.",
-    "imagen": "hl-lle-028-embudo-decantacion.png"
+    "visual_descripcion": "Foto real de un embudo de decantación con dos fases líquidas separadas (amarilla arriba, verde abajo), rotulada con 4 marcadores numerados: tapón con venteo, fase de baja densidad en la capa superior, fase de alta densidad en la capa inferior con la interfaz real medida por escaneo de color, y la llave de paso al fondo.",
+    "imagen": "hl-lle-028-embudo-decantacion.jpg",
+    "visual_fuente": {
+      "texto": "PRHaney. Separatory funnel with oil and colored water. Wikimedia Commons (CC BY-SA 3.0). Anotado con 4 marcadores numerados."
+    }
   },
   {
     "id": "HL-LLE-029",
@@ -635,8 +656,11 @@
     ],
     "tipo_visual": "diagrama_esquematico",
     "visual_posicion": "reverso",
-    "visual_descripcion": "Aparato Soxhlet en corte: condensador arriba, brazo lateral por el que sube el vapor del solvente, cámara central con el cartucho de extracción que contiene la muestra sólida, tubo sifón que devuelve el extracto, y balón inferior donde hierve el solvente y se acumula el extracto. Rótulos en inglés.",
-    "imagen": "hl-lle-029-soxhlet.jpg"
+    "visual_descripcion": "Aparato Soxhlet en corte, coloreado y con el ciclo en marcha: condensador arriba con agua de enfriamiento en contracorriente, brazo lateral por el que sube el vapor del solvente, cámara central con el cartucho que contiene la muestra empapándose de solvente condensado, tubo sifón que devuelve el extracto, y balón inferior calentado donde hierve el solvente y se acumula el extracto. 5 marcadores numerados en español.",
+    "imagen": "hl-lle-029-soxhlet.png",
+    "visual_fuente": {
+      "texto": "Quantockgoblin (dibujo original); Slashme (adaptación SVG). Soxhlet extractor. Wikimedia Commons (dominio público). Recoloreado y anotado con 5 marcadores en español."
+    }
   },
   {
     "id": "HL-LLE-030",
@@ -657,8 +681,16 @@
     ],
     "tipo_visual": "diagrama_esquematico",
     "visual_posicion": "reverso",
-    "visual_descripcion": "Cartucho de extracción en fase sólida en cuatro pasos: acondicionar el cartucho, cargar la muestra (entran analito e interferentes), lavar (los interferentes salen y el analito queda retenido) y eluir (sale el analito ya concentrado). Rótulos en inglés.",
-    "imagen": "hl-lle-030-spe-cartucho.webp"
+    "visual_descripcion": "Tabla de los cuatro pasos de SPE en fase reversa C18: acondicionar, cargar, lavar y eluir, con qué entra, qué pasa en el cartucho y qué sale en cada paso.",
+    "tabla_filas": {
+      "columnas": ["Paso", "Qué entra", "Qué pasa en el cartucho", "Qué sale"],
+      "filas": [
+        ["1. Acondicionar", "Solvente orgánico, luego agua/buffer", "Activa la fase C18 para que retenga por afinidad apolar", "Solvente de acondicionamiento (a desecho)"],
+        ["2. Cargar", "Muestra acuosa (ej. infusión de café)", "El analito apolar (cafeína) queda retenido; el resto pasa de largo", "Agua e interferentes polares (a desecho)"],
+        ["3. Lavar", "Agua o buffer diluido", "Saca interferentes débilmente retenidos sin arrastrar el analito", "Interferentes residuales (a desecho)"],
+        ["4. Eluir", "Volumen pequeño de solvente orgánico fuerte", "Rompe la retención del analito en el C18", "Analito ya concentrado (se recoge)"]
+      ]
+    }
   },
   {
     "id": "HL-LLE-031",
