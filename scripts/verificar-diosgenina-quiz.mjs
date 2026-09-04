@@ -124,7 +124,7 @@ console.log(`${idsTarjeta.size} tarjetas de concepto · ${refsTarjeta} referenci
 // ===========================================================================
 const quiz = leer('dio_quiz_rapido.json')
 const CAMPOS_CONTEXTO = ['enunciado', 'explicacion', 'antes', 'despues']
-const CAMPOS_SIN_TOKEN = ['opciones', 'fragmentos', 'respuesta', 'alternativas', 'izquierda', 'derecha']
+const CAMPOS_SIN_TOKEN = ['opciones', 'fragmentos', 'respuesta', 'alternativas', 'izq', 'der']
 const posiciones = []
 let correctaMasLarga = 0
 let refsQuiz = 0
@@ -157,6 +157,26 @@ for (const it of quiz) {
   if (it.tarjetaId && !idsTarjeta.has(it.tarjetaId)) {
     console.log(`FAIL ${it.id}: tarjetaId "${it.tarjetaId}" no existe en ningún mazo`)
     errores++
+  }
+  // estructura de `match`: izq/der del mismo largo, `pares` mapea cada índice de izq a un índice válido de der
+  if (it.formato === 'match') {
+    const nI = Array.isArray(it.izq) ? it.izq.length : 0
+    const nD = Array.isArray(it.der) ? it.der.length : 0
+    if (nI < 2 || nI !== nD) {
+      console.log(`FAIL ${it.id}: match mal formado (izq ${nI}, der ${nD})`)
+      errores++
+    }
+    const claves = Object.keys(it.pares ?? {})
+    if (claves.length !== nI) {
+      console.log(`FAIL ${it.id}: match.pares cubre ${claves.length} de ${nI} filas`)
+      errores++
+    }
+    for (const [k, v] of Object.entries(it.pares ?? {})) {
+      if (+k < 0 || +k >= nI || +v < 0 || +v >= nD) {
+        console.log(`FAIL ${it.id}: match.pares["${k}"] = ${v} fuera de rango`)
+        errores++
+      }
+    }
   }
   // rúbrica mcq
   if (it.formato === 'mcq') {

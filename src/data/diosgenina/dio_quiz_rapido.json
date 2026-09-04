@@ -1194,5 +1194,392 @@
     ],
     "correcta": 0,
     "explicacion": "Perfilar es una comparación relativa rigurosa bajo un único método: ordena las muestras sin poner una cifra absoluta. Cuantificar exige trazabilidad a un patrón certificado, y recién ahí se puede reportar X mg/g o compararlo con un umbral externo. Las dos son válidas, con alcances distintos."
+  },
+  {
+    "id": "DIO-QR-083",
+    "tarjetaId": "SER-01",
+    "categoria": "SER",
+    "formato": "mcq",
+    "enunciado": "Al agregar Na₂SO₄ anhidro a la fase orgánica húmeda, ¿qué le pasa a cada molécula de agua que toca el sólido? Ver [[DG-R-desecante|cómo seca un desecante]].",
+    "opciones": [
+      "Queda pegada a la superficie del sólido por atracción física, reversible como una esponja.",
+      "Se evapora al liberar el sólido un calor de disolución que entibia la fase orgánica.",
+      "Se incorpora a la red del sólido formando un hidrato definido, con proporción fija.",
+      "Se parte en H⁺ y OH⁻ sobre los sitios ácidos del sulfato de sodio."
+    ],
+    "correcta": 2,
+    "explicacion": "El Na₂SO₄ anhidro reacciona con el agua y forma Na₂SO₄·10H₂O, un hidrato con estequiometría fija. Por eso tiene una capacidad máxima: pasada esa cantidad de agua no seca más, hay que filtrarlo y usar sólido fresco. No es adsorción física reversible."
+  },
+  {
+    "id": "DIO-QR-084",
+    "tarjetaId": "SER-03",
+    "categoria": "SER",
+    "formato": "mcq",
+    "enunciado": "Para terminar antes, ¿por qué el protocolo insiste en evaporar el diclorometano a ≤ 40 °C en vez de calentar más fuerte? Ver [[DG-R-evaporar-concentra|qué pasa al evaporar]].",
+    "opciones": [
+      "Porque el ácido residual se concentra hacia el final y el riesgo de degradación sube justo ahí.",
+      "Porque el diclorometano se vuelve inflamable y explosivo por encima de esa temperatura de baño.",
+      "Porque a mayor temperatura el rotavaporador pierde el vacío interno que necesita para operar.",
+      "Porque por encima de 40 °C la diosgenina empieza a sublimar y se pierde arrastrada por el vapor."
+    ],
+    "correcta": 0,
+    "explicacion": "Evaporar solo quita solvente: el ácido que quedó se concentra en menos volumen. El riesgo de degradación no es constante, crece hacia el final de la evaporación, y calentar más fuerte acelera esa degradación justo cuando el medio está más agresivo."
+  },
+  {
+    "id": "DIO-QR-085",
+    "tarjetaId": "SER-04",
+    "categoria": "SER",
+    "formato": "fill",
+    "enunciado": "Un líquido calentado sin agitación puede saltar violentamente en vez de hervir suave. Ver [[DG-R-nucleacion|por qué]].",
+    "antes": "Las perlas de ebullición evitan ese salto porque aportan sitios de ",
+    "despues": " donde puede empezar a formarse la burbuja de vapor.",
+    "respuesta": "nucleación",
+    "alternativas": [
+      "nucleación",
+      "nucleacion"
+    ],
+    "explicacion": "Sin un sitio donde nuclear, el líquido se sobrecalienta por encima de su punto de ebullición sin hervir y luego libera todo ese exceso de golpe. Una perla, o una superficie rugosa, da el punto de partida y el hervor se vuelve suave y continuo."
+  },
+  {
+    "id": "DIO-QR-086",
+    "tarjetaId": "SER-07",
+    "categoria": "SER",
+    "formato": "mcq",
+    "enunciado": "El residuo seco queda como una costra amorfa pegada al vial, no como cristales. ¿Qué dice eso sobre la pureza? Ver [[DG-R-nucleacion|sólido amorfo o cristal]].",
+    "opciones": [
+      "Que la diosgenina se degradó al evaporar y perdió su estructura molecular original.",
+      "Que el residuo es más puro que si cristalizara, porque los cristales atrapan solvente dentro.",
+      "Que el vial no estaba lo bastante frío como para permitir que se formara un cristal.",
+      "Que varios compuestos se disputan un espacio de solvente que se encoge, sin ordenarse en red."
+    ],
+    "correcta": 3,
+    "explicacion": "Un cristal se forma cuando un compuesto bastante puro tiene tiempo y espacio para ordenarse. Una costra amorfa es la firma de una mezcla: varios solutos quedan atrapados desordenados al irse el solvente. No prueba degradación, pero sí que el residuo no es una sola sustancia."
+  },
+  {
+    "id": "DIO-QR-087",
+    "tarjetaId": "SER-08",
+    "categoria": "SER",
+    "formato": "match",
+    "enunciado": "Empareja cada medida de almacenamiento del extracto con el mecanismo de degradación que frena. Ver [[DG-R-almacenamiento|los dos ejes]].",
+    "izq": [
+      "Vial ámbar",
+      "Congelador a −20 °C",
+      "Bolsita de sílica gel en la caja"
+    ],
+    "der": [
+      "Fotodegradación por luz UV y visible",
+      "Cinética de las reacciones de degradación",
+      "Humedad que rehidrata o hidroliza el residuo"
+    ],
+    "pares": {
+      "0": 0,
+      "1": 1,
+      "2": 2
+    },
+    "explicacion": "Cada medida cubre una vía distinta: la luz rompe enlaces sensibles, el frío frena toda la química por Arrhenius, y la humedad reactiva la hidrólisis. Un vial transparente a 4 °C dejaría dos de las tres vías abiertas."
+  },
+  {
+    "id": "DIO-QR-088",
+    "tarjetaId": "SER-09",
+    "categoria": "SER",
+    "formato": "mcq",
+    "enunciado": "¿Por qué conviene dejar que un vial sacado del congelador llegue a temperatura ambiente antes de destaparlo?",
+    "opciones": [
+      "Para que el vidrio no se agriete por el choque térmico contra el aire cálido del laboratorio.",
+      "Porque si su superficie está bajo el punto de rocío, el vapor de agua del aire condensa encima.",
+      "Para que la diosgenina recupere su solubilidad antes de exponer el residuo al oxígeno.",
+      "Porque el sello de rosca del vial solo cierra de forma hermética a temperatura ambiente."
+    ],
+    "correcta": 1,
+    "explicacion": "Una superficie más fría que el punto de rocío del aire condensa agua directamente sobre ella. Si se abre el vial frío, esa agua cae sobre el residuo seco y reintroduce la humedad que el almacenamiento buscaba evitar. Templar el vial cerrado elimina el problema."
+  },
+  {
+    "id": "DIO-QR-089",
+    "tarjetaId": "SER-10",
+    "categoria": "SER",
+    "formato": "build",
+    "enunciado": "Arma en qué se distingue la liofilización de simplemente evaporar en frío:",
+    "fragmentos": [
+      "el sólido pasa directo a vapor por sublimación,",
+      "sin pasar nunca por fase líquida,",
+      "así el compuesto jamás queda disuelto",
+      "y móvil en un líquido caliente"
+    ],
+    "explicacion": "En la liofilización se congela la muestra y se baja la presión hasta que el hielo sublima. Como no hay líquido en ningún momento, un compuesto termolábil nunca se expone a estar disuelto y caliente a la vez, que es donde más se degrada. Evaporar en frío sí tiene fase líquida."
+  },
+  {
+    "id": "DIO-QR-090",
+    "tarjetaId": "TLC-02",
+    "categoria": "TLC",
+    "formato": "mcq",
+    "enunciado": "¿Qué tiene la superficie de la sílice que la hace retener compuestos polares en capa fina? Ver [[DG-R-silanol|los silanoles]].",
+    "opciones": [
+      "Una carga negativa neta de la red que atrae electrostáticamente a los analitos.",
+      "Poros de tamaño calibrado que separan las moléculas según su tamaño molecular.",
+      "Grupos silanol Si-OH que forman puentes de hidrógeno con el analito.",
+      "Un recubrimiento de cadenas C18 que interactúa por fuerzas de dispersión."
+    ],
+    "correcta": 2,
+    "explicacion": "La retención en sílice es química: los Si-OH de la superficie hacen puentes de hidrógeno con los grupos polares del analito. No es un tamiz físico ni una atracción de carga. El que interactúa por dispersión es el C18 injertado en fase reversa, no la sílice desnuda."
+  },
+  {
+    "id": "DIO-QR-091",
+    "tarjetaId": "TLC-03",
+    "categoria": "TLC",
+    "formato": "mcq",
+    "enunciado": "Se llama fase normal a usar sílice polar con eluyente apolar. ¿Qué significa normal ahí? Ver [[DG-R-rf|fase normal y reversa]].",
+    "opciones": [
+      "Es una etiqueta histórica: fue el primer montaje que se usó, no el más común hoy.",
+      "Significa que da los Rf más reproducibles y por eso quedó como el montaje estándar.",
+      "Indica que la fase móvil circula a presión atmosférica normal, sin ayuda de bomba.",
+      "Quiere decir que separa compuestos neutros, mientras que la reversa separa iones."
+    ],
+    "correcta": 0,
+    "explicacion": "Normal y reversa solo nombran cuál fase es la polar. La normal, con estacionaria polar, se usó primero y de ahí el nombre; en HPLC moderno domina la reversa (estacionaria apolar tipo C18). No dice nada sobre reproducibilidad, presión ni carga del analito."
+  },
+  {
+    "id": "DIO-QR-092",
+    "tarjetaId": "TLC-04",
+    "categoria": "TLC",
+    "formato": "mcq",
+    "enunciado": "¿Qué fuerza hace subir el eluyente por la placa contra la gravedad, sin bomba? Ver [[DG-R-capilaridad|capilaridad]].",
+    "opciones": [
+      "La evaporación del solvente en la parte alta, que succiona más líquido desde abajo.",
+      "La diferencia de densidad entre el solvente puro y el solvente con analito disuelto.",
+      "El calor de la cámara de desarrollo, que genera una corriente de convección ascendente.",
+      "La adhesión del líquido a la sílice, que supera su cohesión interna y moja los poros."
+    ],
+    "correcta": 3,
+    "explicacion": "Es capilaridad: cuando el líquido prefiere mojar la superficie de sílice antes que mantenerse unido a sí mismo, avanza por la red de poros finos. Por eso una placa dañada o una cámara mal saturada dan un frente irregular."
+  },
+  {
+    "id": "DIO-QR-093",
+    "tarjetaId": "TLC-05",
+    "categoria": "TLC",
+    "formato": "mcq",
+    "enunciado": "¿Qué pasa si la placa se coloca con la línea de siembra por debajo del nivel del solvente en la cámara?",
+    "opciones": [
+      "El analito se disuelve directo en el reservorio y no queda un punto de partida para separarse.",
+      "El frente del solvente sube más rápido y comprime todas las manchas contra el borde superior.",
+      "La sílice se satura de agua líquida y pierde la capacidad de retener los compuestos polares.",
+      "El revelador posterior no reacciona porque el analito quedó demasiado diluido dentro de la placa."
+    ],
+    "correcta": 0,
+    "explicacion": "La siembra tiene que estar sobre el nivel del líquido para que el analito arranque retenido en un punto y de ahí se reparta al subir el eluyente. Sumergida, se disuelve toda en el reservorio y sube difusa: mancha corrida o directamente ausente."
+  },
+  {
+    "id": "DIO-QR-094",
+    "tarjetaId": "TLC-06",
+    "categoria": "TLC",
+    "formato": "mcq",
+    "enunciado": "¿Por qué se tapa la cámara y se deja equilibrar antes de meter la placa? Ver [[DG-R-capilaridad|frente y saturación]].",
+    "opciones": [
+      "Para que el solvente de la cámara alcance su temperatura de trabajo y luego suba a velocidad constante.",
+      "Para saturar el aire de vapor y que la placa no evapore hacia un aire seco, deformando el frente.",
+      "Para que los vapores tóxicos del eluyente no escapen al laboratorio durante la corrida.",
+      "Para que la sílice absorba humedad del aire de la cámara y active así sus grupos silanol."
+    ],
+    "correcta": 1,
+    "explicacion": "Si el aire de la cámara no está saturado con vapor del eluyente, la placa pierde solvente por evaporación mientras corre, más en los bordes, y el frente sale curvo. La tapa y el papel de filtro en las paredes saturan la atmósfera antes de introducir la placa."
+  },
+  {
+    "id": "DIO-QR-095",
+    "tarjetaId": "TLC-09",
+    "categoria": "TLC",
+    "formato": "mcq",
+    "enunciado": "Dos manchas con Rf parecido salen casi como una sola mancha alargada. ¿De qué depende poder separarlas? Ver [[DG-R-resolucion|resolución]].",
+    "opciones": [
+      "Solo de la diferencia entre sus Rf: si difieren en algo, con paciencia se separan.",
+      "Solo del revelador: uno más selectivo las distingue aunque físicamente se solapen.",
+      "De la diferencia de Rf y además del ancho de las manchas y la distancia de desarrollo.",
+      "Del grosor de la capa de sílice: una placa más gruesa siempre resuelve mejor dos manchas."
+    ],
+    "correcta": 2,
+    "explicacion": "La resolución va como 2·Δx / (w₁ + w₂): manchas anchas se solapan aunque sus centros estén separados. Se mejora alargando el recorrido, cambiando el eluyente para abrir la diferencia de Rf, o sembrando menos muestra para estrechar las manchas."
+  },
+  {
+    "id": "DIO-QR-096",
+    "tarjetaId": "TLC-10",
+    "categoria": "TLC",
+    "formato": "build",
+    "enunciado": "Arma por qué ver una mancha no basta para decir cuánta diosgenina hay. Ver [[DG-R-revelado|del ojo al número]].",
+    "fragmentos": [
+      "el ojo humano no es un instrumento cuantitativo,",
+      "así que para volver una mancha un número confiable",
+      "hace falta un densitómetro",
+      "que mida su intensidad de forma reproducible"
+    ],
+    "explicacion": "La TLC simple responde si hay algo y a qué Rf. Para pasar a una concentración hay que digitalizar la mancha con un densitómetro y calibrar contra estándares, que ya es un método instrumental, más cerca del HPLC que de leer la placa a ojo."
+  },
+  {
+    "id": "DIO-QR-097",
+    "tarjetaId": "PFT-02",
+    "categoria": "PFT",
+    "formato": "mcq",
+    "enunciado": "El índice de espuma mide la altura de espuma de un extracto agitado en agua. ¿Qué refleja eso, fisicoquímicamente? Ver [[DG-R-tres-indices|qué mide cada índice]].",
+    "opciones": [
+      "La actividad tensioactiva total, que mezcla concentración y eficiencia de cada tensioactivo.",
+      "La cantidad de saponina presente, de forma directamente proporcional a su masa en el extracto.",
+      "La viscosidad del extracto, que sube al aumentar el contenido de glicósidos esteroidales.",
+      "El pH del extracto, que baja cuanta más saponina de carácter ácido esté disuelta."
+    ],
+    "correcta": 0,
+    "explicacion": "La espuma la estabiliza cualquier molécula que baje la tensión superficial, no solo las saponinas, y no todas lo hacen con la misma eficiencia. Por eso el índice de espuma es un proxy de saponinas totales, no una medida directa, y por eso se cruza con los otros dos índices."
+  },
+  {
+    "id": "DIO-QR-098",
+    "tarjetaId": "PFT-04",
+    "categoria": "PFT",
+    "formato": "mcq",
+    "enunciado": "Cada uno de los tres índices tiene su propio sesgo. ¿Por qué combinarlos da más confianza que usar solo el mejor? Ver [[DG-R-tres-indices|convergencia]].",
+    "opciones": [
+      "Porque el promedio de tres medidas siempre es más exacto que cualquiera de ellas por separado.",
+      "Porque así se cumple el requisito de análisis por triplicado que exige la estadística básica.",
+      "Porque el índice más impreciso arrastra a los otros dos hacia el valor verdadero al promediar.",
+      "Porque un interferente que sesga uno difícilmente sesga los tres en la misma dirección."
+    ],
+    "correcta": 3,
+    "explicacion": "Los tres índices ven propiedades distintas del extracto: color formado, actividad de espuma, masa del residuo. Que coincidan en el orden espino contra criollo es difícil de explicar por un artefacto compartido. No es promediar, es exigir consistencia entre medidas independientes."
+  },
+  {
+    "id": "DIO-QR-099",
+    "tarjetaId": "PFT-05",
+    "categoria": "PFT",
+    "formato": "fill",
+    "enunciado": "Reportar el índice colorimétrico como mg equivalentes de escina, en vez de la absorbancia cruda, tiene una ventaja. Ver [[DG-R-estandar-interno|normalizar contra un estándar]].",
+    "antes": "Correr la escina en la misma sesión y expresar el resultado relativo a ella cancela buena parte de la ",
+    "despues": " compartida de esa sesión: lámpara, temperatura, lote de reactivo.",
+    "respuesta": "variabilidad",
+    "alternativas": [
+      "variabilidad",
+      "variación",
+      "variacion"
+    ],
+    "explicacion": "La absorbancia cruda depende de las condiciones del día. Un estándar corrido en paralelo sube y baja con esas mismas condiciones, así que la razón muestra sobre estándar es mucho más estable entre sesiones que la lectura sola."
+  },
+  {
+    "id": "DIO-QR-100",
+    "tarjetaId": "PFT-07",
+    "categoria": "PFT",
+    "formato": "mcq",
+    "enunciado": "Varios índices miden saponinas totales, pero el objetivo es la diosgenina. ¿Qué supone usar la diosgenina como marcador de esa familia? Ver [[DG-R-perfilar-vs-cuantificar|marcador agregado]].",
+    "opciones": [
+      "Que la diosgenina es la única sapogenina esteroidal presente en el tubérculo de ñame.",
+      "Que la proporción entre los glicósidos individuales no cambia la respuesta a la pregunta.",
+      "Que todos los glicósidos de la muestra se hidrolizan a diosgenina con el mismo rendimiento.",
+      "Que la espuma y la masa del residuo provienen únicamente de la diosgenina ya libre."
+    ],
+    "correcta": 1,
+    "explicacion": "Un marcador agregado resume una familia entera en un número. Funciona si da igual la mezcla exacta de dioscina, protodioscina y demás, y solo importa cuánta sapogenina esteroidal hay en total. Si la pregunta dependiera del perfil individual, el marcador escondería justo lo que importa."
+  },
+  {
+    "id": "DIO-QR-101",
+    "tarjetaId": "PFT-08",
+    "categoria": "PFT",
+    "formato": "match",
+    "enunciado": "Empareja cada término de metrología con lo que cambia entre las dos medidas que compara.",
+    "izq": [
+      "Repetibilidad",
+      "Reproducibilidad",
+      "Réplica biológica"
+    ],
+    "der": [
+      "Nada: mismo operador, mismo día, mismo equipo",
+      "El operador, el día o el equipo",
+      "La muestra de ñame misma"
+    ],
+    "pares": {
+      "0": 0,
+      "1": 1,
+      "2": 2
+    },
+    "explicacion": "Repetibilidad y reproducibilidad se diferencian en cuántas fuentes de variación se dejan entrar: la reproducibilidad siempre incluye más. Una réplica biológica cambia la muestra misma, así que mezcla el ruido del método con la diferencia real entre tubérculos."
+  },
+  {
+    "id": "DIO-QR-102",
+    "tarjetaId": "EST-03",
+    "categoria": "EST",
+    "formato": "mcq",
+    "enunciado": "El piloto del semillero tiene n = 2 por grupo. ¿Por qué eso no solo da menos confianza, sino que impide detectar ciertos efectos reales? Ver [[DG-R-poder|poder estadístico]].",
+    "opciones": [
+      "Porque con n = 2 no se puede calcular una desviación estándar fiable de la muestra.",
+      "Porque toda prueba estadística exige un mínimo de treinta datos por grupo para ser válida.",
+      "Porque el poder crece con n, y con n muy chico un efecto real no llega a ser significativo.",
+      "Porque n = 2 obliga a usar estadística no paramétrica, que por diseño nunca da p < 0.05."
+    ],
+    "correcta": 2,
+    "explicacion": "El poder es la probabilidad de detectar un efecto que sí existe, y crece con el tamaño de muestra, el del efecto y la baja variabilidad. Con n = 2 el poder es tan bajo que, salvo un efecto enorme, la prueba no puede rechazar la nula aunque haya diferencia. Sirve para estimar variabilidad, no para concluir."
+  },
+  {
+    "id": "DIO-QR-103",
+    "tarjetaId": "EST-04",
+    "categoria": "EST",
+    "formato": "mcq",
+    "enunciado": "Probar variedad (espino/criollo) y parte del tubérculo (cáscara/pulpa) en un mismo diseño 2×2, ¿por qué es mejor que dos experimentos separados? Ver [[DG-R-factorial|diseño factorial]].",
+    "opciones": [
+      "Porque cruza todos los niveles y revela si el efecto de la variedad cambia según la parte.",
+      "Porque necesita la mitad de muestras que hacer dos experimentos independientes uno tras otro.",
+      "Porque al probar todo a la vez elimina la necesidad de incluir réplicas en el diseño.",
+      "Porque garantiza que ambos factores terminen resultando estadísticamente significativos."
+    ],
+    "correcta": 0,
+    "explicacion": "Variar un factor a la vez nunca prueba las cuatro combinaciones, así que no puede detectar una interacción. El factorial 2×2 sí las prueba todas y revela si la diferencia entre variedades depende de mirar cáscara o pulpa. No ahorra muestras ni sustituye a las réplicas."
+  },
+  {
+    "id": "DIO-QR-104",
+    "tarjetaId": "EST-05",
+    "categoria": "EST",
+    "formato": "mcq",
+    "enunciado": "¿Qué significaría, en términos químicos, que haya interacción entre variedad y parte del tubérculo en ese 2×2? Ver [[DG-R-factorial|interacción]].",
+    "opciones": [
+      "Que los dos factores por separado aumentan el contenido de sapogenina medido.",
+      "Que la diferencia entre espino y criollo no es la misma en la cáscara que en la pulpa.",
+      "Que la variedad y la parte del tubérculo están correlacionadas entre sí en la muestra.",
+      "Que hace falta introducir un tercer factor para poder explicar los resultados obtenidos."
+    ],
+    "correcta": 1,
+    "explicacion": "Interacción quiere decir que el efecto de un factor depende del nivel del otro. Sin interacción, las líneas de respuesta salen paralelas; con interacción, no, y pueden hasta cruzarse. Aquí sería: el contraste entre variedades cambia de tamaño, o de signo, según la parte del tubérculo."
+  },
+  {
+    "id": "DIO-QR-105",
+    "tarjetaId": "EST-06",
+    "categoria": "EST",
+    "formato": "fill",
+    "enunciado": "Comparar reportar rendimiento promedio 2.3 % contra 2.3 % (IC 95 %: 1.8 a 2.8 %). Ver [[DG-R-efecto-vs-significancia|por qué el intervalo]].",
+    "antes": "El promedio solo comunica una falsa sensación de precisión exacta; el intervalo de confianza comunica la ",
+    "despues": " real de la estimación.",
+    "respuesta": "incertidumbre",
+    "alternativas": [
+      "incertidumbre",
+      "imprecisión",
+      "imprecision"
+    ],
+    "explicacion": "Un número puntual no dice si detrás hay 2 réplicas muy dispersas o 20 muy juntas. El intervalo de confianza pone ese rango sobre la mesa, y con n pequeño sale ancho, que es justamente la información honesta que hay que dar."
+  },
+  {
+    "id": "DIO-QR-106",
+    "tarjetaId": "EST-02",
+    "categoria": "EST",
+    "formato": "match",
+    "enunciado": "Empareja cada concepto estadístico con la pregunta que responde.",
+    "izq": [
+      "p-valor",
+      "Poder",
+      "Tamaño de efecto",
+      "Intervalo de confianza"
+    ],
+    "der": [
+      "Qué tan raros serían estos datos si no hubiera efecto",
+      "Probabilidad de detectar un efecto real si existe",
+      "Qué tan grande es el fenómeno",
+      "En qué rango cae la estimación"
+    ],
+    "pares": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3
+    },
+    "explicacion": "Son cuatro preguntas distintas que se confunden a menudo. El p-valor no mide el tamaño ni la probabilidad de la hipótesis; el poder es una propiedad del diseño anterior a ver los datos; el tamaño de efecto y el intervalo son lo que de verdad hay que reportar para que otro juzgue el resultado."
   }
 ]

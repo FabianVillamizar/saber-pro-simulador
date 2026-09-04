@@ -185,6 +185,15 @@
     "ejemplo": "Un plato poroso o la agitación dan sitios de nucleación y evitan el bumping durante la evaporación."
   },
   {
+    "id": "DG-R-almacenamiento",
+    "grupo": "SER",
+    "tipo": "norma",
+    "titulo": "Guardar el extracto: dos ejes de degradación",
+    "variante": "corta",
+    "cuerpo": "Un extracto sensible se guarda atacando dos vías a la vez: vial ámbar contra la fotodegradación, y frío a $-20\\,^\\circ\\text{C}$ para frenar la cinética de las reacciones de degradación y de la hidrólisis residual. Cada medida cubre un mecanismo distinto.",
+    "ejemplo": "Refrigerar a $4\\,^\\circ\\text{C}$ en vial transparente deja abierta la vía de la luz y frena poco la química."
+  },
+  {
     "id": "DG-R-rf",
     "grupo": "TLC",
     "tipo": "definicion",
@@ -211,6 +220,25 @@
     "variante": "corta",
     "cuerpo": "El reactivo de Baccou modificado, anisaldehído con ácido, reacciona con la sapogenina y crea un cromóforo nuevo donde no había uno útil. No es una tinción pasiva. Y el ojo no es cuantitativo: para convertir una mancha en un número hace falta un densitómetro.",
     "ejemplo": "Es la misma reacción de color que después se lee en el espectrofotómetro a 425-430 nm para la curva de calibración."
+  },
+  {
+    "id": "DG-R-capilaridad",
+    "grupo": "TLC",
+    "tipo": "regla",
+    "titulo": "Capilaridad: por qué el eluyente sube solo",
+    "variante": "corta",
+    "cuerpo": "El eluyente sube por la placa sin bomba porque la adhesión líquido-sílice supera la cohesión del líquido consigo mismo: el líquido prefiere mojar la superficie y avanza por los poros. La cámara se satura de vapor antes de correr para que la placa no evapore hacia un aire seco y deforme el frente.",
+    "ejemplo": "Si el frente sale curvo o irregular, casi siempre es cámara mal saturada o placa tocando las paredes."
+  },
+  {
+    "id": "DG-R-resolucion",
+    "grupo": "TLC",
+    "tipo": "regla",
+    "titulo": "Resolución entre dos manchas o picos",
+    "variante": "desarrollo",
+    "cuerpo": "Separar dos compuestos no depende solo de que la distancia entre sus centros $\\Delta x$ sea grande: también de qué tan anchas son las bandas y de la distancia o eficiencia disponible. Bandas anchas se solapan aunque sus centros estén separados.",
+    "formula": "R_s = \\dfrac{2\\,\\Delta x}{w_1 + w_2}",
+    "ejemplo": "En capa fina se gana resolución alargando el recorrido o cambiando el eluyente; en HPLC, subiendo $N$ o, mejor, la selectividad $\\alpha$."
   },
   {
     "id": "DG-R-beer-lambert",
@@ -297,11 +325,27 @@
     "cuerpo": "El perfilaje usa tres medidas que ven propiedades fisicoquímicas distintas del extracto. Un interferente que sesgue una es poco probable que sesgue las tres en la misma dirección, así que la convergencia de las tres da confianza sin un patrón absoluto.",
     "tabla": {
       "titulo": "los tres índices",
-      "encabezados": ["índice", "qué mide", "sesgo típico"],
+      "encabezados": [
+        "índice",
+        "qué mide",
+        "sesgo típico"
+      ],
       "filas": [
-        ["colorimétrico (Baccou)", "cromóforo formado con la sapogenina", "otros compuestos que reaccionan con anisaldehído"],
-        ["espumante (IS)", "actividad tensioactiva total", "tensioactivos no saponínicos del extracto"],
-        ["gravimétrico (FGL)", "masa del residuo en $n$-butanol", "todo lo co-extraído por el butanol"]
+        [
+          "colorimétrico (Baccou)",
+          "cromóforo formado con la sapogenina",
+          "otros compuestos que reaccionan con anisaldehído"
+        ],
+        [
+          "espumante (IS)",
+          "actividad tensioactiva total",
+          "tensioactivos no saponínicos del extracto"
+        ],
+        [
+          "gravimétrico (FGL)",
+          "masa del residuo en $n$-butanol",
+          "todo lo co-extraído por el butanol"
+        ]
       ]
     },
     "ejemplo": "Si los tres ordenan igual a espino y criollo, la diferencia es creíble; si discrepan, hay que entender por qué antes de concluir."
@@ -323,5 +367,23 @@
     "variante": "corta",
     "cuerpo": "El tamaño de efecto dice cuán grande es el fenómeno; la significancia dice cuán confiables son los datos para descartar el azar. Con $n$ grande una diferencia trivial puede ser significativa; con $n$ pequeño una diferencia real puede no serlo. Un intervalo de confianza comunica las dos cosas.",
     "ejemplo": "Con $n = 2$ por grupo lo honesto es tratar la comparación espino contra criollo como exploratoria y mostrar el intervalo, no un p-valor."
+  },
+  {
+    "id": "DG-R-poder",
+    "grupo": "EST",
+    "tipo": "definicion",
+    "titulo": "Poder estadístico",
+    "variante": "corta",
+    "cuerpo": "El poder es la probabilidad de detectar un efecto real si de verdad existe. Depende a la vez del tamaño del efecto, del tamaño de muestra y de la variabilidad de los datos. Con $n$ muy pequeño el poder es tan bajo que ciertos efectos reales no pueden alcanzar significancia por más que existan.",
+    "ejemplo": "Un piloto de $n = 2$ por grupo sirve para estimar variabilidad y afinar el método, no para probar una hipótesis."
+  },
+  {
+    "id": "DG-R-factorial",
+    "grupo": "EST",
+    "tipo": "regla",
+    "titulo": "Diseño factorial e interacciones",
+    "variante": "corta",
+    "cuerpo": "Variar un factor a la vez nunca prueba las combinaciones donde dos factores actúan juntos, así que no puede ver interacciones. Un diseño factorial cruza todos los niveles y sí las detecta. Sin interacción, las curvas de respuesta a un factor bajo cada nivel del otro salen paralelas; con interacción, no.",
+    "ejemplo": "Comparar espino contra criollo en cáscara y en pulpa a la vez es un $2\\times 2$: revela si la diferencia entre variedades cambia según la parte del tubérculo."
   }
 ]
