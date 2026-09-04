@@ -1,0 +1,327 @@
+[
+  {
+    "id": "DG-R-disolucion-energia",
+    "grupo": "FQT",
+    "tipo": "principio",
+    "titulo": "Disolver es contabilidad de energía",
+    "variante": "corta",
+    "cuerpo": "Antes de mezclarse hay que separar las moléculas del soluto entre sí y las del solvente entre sí, y las dos cosas cuestan energía. La mezcla solo ocurre si las nuevas interacciones soluto-solvente devuelven una cantidad comparable. Por eso lo semejante disuelve lo semejante: no es una regla mágica, es que las fuerzas rotas y las formadas tienen que cuadrar.",
+    "ejemplo": "La saponina intacta, llena de grupos hidroxilo, paga barata su mezcla con agua y carísima con diclorometano; la diosgenina libre, casi sin ellos, al revés."
+  },
+  {
+    "id": "DG-R-reparto",
+    "grupo": "FQT",
+    "tipo": "ley",
+    "titulo": "Ley de reparto de Nernst",
+    "variante": "desarrollo",
+    "cuerpo": "En el equilibrio un soluto tiene el mismo potencial químico en las dos fases inmiscibles. Igualando actividades, el cociente de concentraciones queda fijado por la energía libre de transferencia, así que a temperatura constante es un número fijo y no depende de cuánto soluto pusiste.",
+    "formula": "K = \\dfrac{[\\text{soluto}]_{\\text{org}}}{[\\text{soluto}]_{\\text{ac}}} = \\exp\\!\\left(\\dfrac{-\\Delta G^\\circ_{\\text{transf}}}{RT}\\right)",
+    "ejemplo": "Es la base de la extracción líquido-líquido, del $R_f$ en capa fina y de la retención en HPLC: siempre un soluto repartiéndose entre algo que se mueve y algo que se queda."
+  },
+  {
+    "id": "DG-R-dielectrica",
+    "grupo": "FQT",
+    "tipo": "regla",
+    "titulo": "Constante dieléctrica y mecanismos con carga",
+    "variante": "corta",
+    "cuerpo": "La constante dieléctrica $\\varepsilon$ mide qué tan bien un medio apantalla la atracción entre cargas opuestas. En un medio de $\\varepsilon$ alto (agua, alcohol) los iones y los estados de transición cargados se estabilizan; en hexano, con $\\varepsilon \\approx 2$, no, y un mecanismo iónico como la hidrólisis ácida simplemente no arranca.",
+    "ejemplo": "Por eso la hidrólisis del glicósido se hace en isopropanol al 70 % y no en un solvente apolar, aunque el sustrato se disolviera mejor ahí."
+  },
+  {
+    "id": "DG-R-accion-de-masas",
+    "grupo": "FQT",
+    "tipo": "principio",
+    "titulo": "Acción de masas y principio de Le Chatelier",
+    "variante": "corta",
+    "cuerpo": "Toda reacción en equilibrio se puede empujar cambiando las concentraciones. Un gran exceso de agua desplaza una hidrólisis reversible hacia los productos; quitar agua del sistema desplaza la reacción inversa, la condensación.",
+    "ejemplo": "La hidrólisis del glicósido usa agua en enorme exceso, como reactivo y como solvente, así la saponina rota no se vuelve a formar."
+  },
+  {
+    "id": "DG-R-arrhenius",
+    "grupo": "FQT",
+    "tipo": "ley",
+    "titulo": "Ecuación de Arrhenius",
+    "variante": "desarrollo",
+    "cuerpo": "La constante de velocidad crece exponencialmente con la temperatura porque la fracción de moléculas con energía sobre la barrera $E_a$ crece exponencialmente. Si dos reacciones tienen distinta $E_a$, subir la temperatura no solo las acelera a ambas: cambia cuál gana.",
+    "formula": "k = A\\,e^{-E_a / RT}",
+    "ejemplo": "Calentar a reflujo acelera la hidrólisis, pero como la degradación de la diosgenina tiene otra $E_a$, más temperatura también corre esa carrera; por eso hay una temperatura y un tiempo óptimos, no cuanto más caliente mejor."
+  },
+  {
+    "id": "DG-R-catalisis-especifica",
+    "grupo": "FQT",
+    "tipo": "definicion",
+    "titulo": "Catálisis ácida específica",
+    "variante": "corta",
+    "cuerpo": "Un catalizador ofrece un camino de $E_a$ más baja sin cambiar la termodinámica global y sale intacto al final. En catálisis ácida específica la velocidad depende solo de $[\\text{H}_3\\text{O}^+]$, no de qué ácido lo generó: $\\text{H}_2\\text{SO}_4$ o $\\text{HCl}$ a igual pH dan la misma cinética.",
+    "ejemplo": "Deja elegir el ácido por criterios prácticos, como su volatilidad o cómo se neutraliza después, no por su fuerza."
+  },
+  {
+    "id": "DG-R-ebullicion-presion",
+    "grupo": "FQT",
+    "tipo": "definicion",
+    "titulo": "Punto de ebullición y presión",
+    "variante": "corta",
+    "cuerpo": "Un líquido hierve cuando su presión de vapor iguala la presión externa. Bajar la presión externa baja el punto de ebullición: el mismo solvente se evapora a menor temperatura y un producto sensible sufre menos.",
+    "ejemplo": "El rotavaporador combina vacío con una película delgada y renovada para evaporar el diclorometano a $\\le 40\\,^\\circ\\text{C}$ sin sobrecalentar el residuo."
+  },
+  {
+    "id": "DG-R-henderson-hasselbalch",
+    "grupo": "FQT",
+    "tipo": "ley",
+    "titulo": "Ecuación de Henderson-Hasselbalch",
+    "variante": "desarrollo",
+    "cuerpo": "La proporción entre la forma protonada y la desprotonada de un ácido débil depende del pH relativo a su $pK_a$. Cerca del $pK_a$ un cambio pequeño de pH voltea la especie dominante, y con ella su solubilidad: la forma neutra prefiere el solvente orgánico, la cargada prefiere el agua.",
+    "formula": "\\text{pH} = pK_a + \\log\\dfrac{[\\text{A}^-]}{[\\text{HA}]}",
+    "ejemplo": "Ajustar el pH enciende y apaga la extracción de un analito ionizable: acidificar para pasarlo al orgánico, basificar para reextraerlo al agua."
+  },
+  {
+    "id": "DG-R-fick",
+    "grupo": "FQT",
+    "tipo": "ley",
+    "titulo": "Primera ley de Fick",
+    "variante": "desarrollo",
+    "cuerpo": "El flujo de difusión es proporcional al gradiente de concentración y al área disponible para el transporte. No cambia la difusividad del sistema, pero sí cuánta materia cruza por segundo.",
+    "formula": "J = -D\\,\\dfrac{dC}{dx}",
+    "ejemplo": "Moler el ñame más fino multiplica el área de contacto sólido-líquido, y por eso la extracción se acelera mucho más de lo que sugiere obviamente ayuda."
+  },
+  {
+    "id": "DG-R-cromoforo",
+    "grupo": "FQT",
+    "tipo": "principio",
+    "titulo": "Absorción de luz y cromóforo",
+    "variante": "corta",
+    "cuerpo": "Una molécula absorbe un fotón solo si tiene una transición electrónica de exactamente esa energía. Sin un sistema de electrones apropiado, como dobles enlaces conjugados o grupos con pares libres acoplados, la molécula es transparente en el visible y el UV cercano.",
+    "ejemplo": "La diosgenina casi no absorbe donde el espectrofotómetro mide bien; por eso el protocolo la hace reaccionar con anisaldehído para fabricarle un cromóforo, y por eso en HPLC hay que derivatizar o usar otro detector."
+  },
+  {
+    "id": "DG-R-oxocarbenio",
+    "grupo": "HID",
+    "tipo": "regla",
+    "titulo": "Ion oxocarbenio en la hidrólisis del glicósido",
+    "variante": "corta",
+    "cuerpo": "La hidrólisis del enlace glicosídico no es una ruptura directa: es una secuencia con un catión intermedio en el carbono anomérico, estabilizado porque un par libre del oxígeno del anillo dona densidad al orbital vacío. Ese es el efecto anomérico, y es lo que hace viable la reacción.",
+    "ejemplo": "Explica por qué el agua ataca después de que se forma el catión y no como un $S_N2$ sobre el enlace intacto."
+  },
+  {
+    "id": "DG-R-rendimiento-cruce",
+    "grupo": "HID",
+    "tipo": "regla",
+    "titulo": "El rendimiento es una carrera entre dos reacciones",
+    "variante": "corta",
+    "cuerpo": "La diosgenina se forma por hidrólisis y se destruye por degradación ácida, y los dos relojes arrancan en momentos distintos. El rendimiento neto sube, llega a un máximo en el cruce de las dos curvas y después baja.",
+    "ejemplo": "Con $\\text{H}_2\\text{SO}_4$ en isopropanol al 70 % a $100\\,^\\circ\\text{C}$ ese máximo cae cerca de las 2 h; dejarlo 4 h no termina mejor, degrada."
+  },
+  {
+    "id": "DG-R-neutralizacion-suave",
+    "grupo": "HID",
+    "tipo": "norma",
+    "titulo": "Neutralizar con bicarbonato, no con sosa",
+    "variante": "corta",
+    "cuerpo": "Sobre un producto ya sensible al ácido y al calor se neutraliza con $\\text{NaHCO}_3$: reacciona liberando $\\text{CO}_2$ gaseoso, lo que auto-limita la velocidad y evita picos locales de temperatura y de pH. El $\\text{NaOH}$ neutralizaría de golpe y localmente.",
+    "ejemplo": "Misma lógica que preferir una base débil para lavar la fase orgánica: control sobre la velocidad de la reacción."
+  },
+  {
+    "id": "DG-R-extracciones-multiples",
+    "grupo": "ELL",
+    "tipo": "regla",
+    "titulo": "Las extracciones múltiples ganan",
+    "variante": "desarrollo",
+    "cuerpo": "La fracción de soluto que queda sin extraer se eleva a la potencia $n$, el número de extracciones. Por eso repartir el solvente en varias porciones pequeñas saca más que usar todo el volumen de una vez, aunque suene contraintuitivo.",
+    "formula": "f_n = \\left[\\dfrac{V_{\\text{ac}}}{V_{\\text{ac}} + K\\,V_{\\text{org}}/n}\\right]^{n}",
+    "ejemplo": "$3\\times 25$ mL de diclorometano recuperan bastante más que $1\\times 75$ mL. Ojo: al aumentar $n$ la recuperación tiende a un techo $1-e^{-K V_{\\text{org}}/V_{\\text{ac}}}$, no al 100 %."
+  },
+  {
+    "id": "DG-R-lavado-inverso",
+    "grupo": "ELL",
+    "tipo": "definicion",
+    "titulo": "Un lavado es una mini-extracción al revés",
+    "variante": "corta",
+    "cuerpo": "Lavar la fase orgánica con agua o solución acuosa fresca no saca el analito: saca hacia el agua las impurezas iónicas o ácidas que sí prefieren esa fase. Es la ley de reparto usada en la dirección contraria.",
+    "ejemplo": "El lavado con $\\text{NaHCO}_3$ tras la extracción retira ácido residual sin arrastrar la diosgenina, que se queda en el diclorometano."
+  },
+  {
+    "id": "DG-R-eficiencia-vs-selectividad",
+    "grupo": "ELL",
+    "tipo": "principio",
+    "titulo": "Eficiencia y selectividad rara vez suben juntas",
+    "variante": "corta",
+    "cuerpo": "Un solvente que extrae mucho de lo que interesa suele arrastrar también lo demás. Elegir solvente, pH y número de etapas es negociar entre sacar bastante analito y no ensuciar el extracto; casi nunca se optimizan ambas cosas a la vez.",
+    "ejemplo": "El $n$-butanol del índice gravimétrico extrae con poca selectividad, y como el método solo pesa el residuo, no distingue qué parte de esa masa es saponina real."
+  },
+  {
+    "id": "DG-R-emulsion",
+    "grupo": "ELL",
+    "tipo": "definicion",
+    "titulo": "Una emulsión es cinética, no termodinámica",
+    "variante": "corta",
+    "cuerpo": "Las gotas finas de una fase dispersas en la otra están atrapadas, no en equilibrio: un tensioactivo se acomoda en la interfase y baja tanto su costo energético que el sistema deja de tener prisa por separarse. Hay que forzar la coalescencia.",
+    "ejemplo": "Añadir $\\text{NaCl}$ saturado retira agua de hidratación de las saponinas interfaciales y rompe la emulsión, no la empeora."
+  },
+  {
+    "id": "DG-R-desecante",
+    "grupo": "SER",
+    "tipo": "regla",
+    "titulo": "Secar es una reacción con estequiometría",
+    "variante": "corta",
+    "cuerpo": "El $\\text{Na}_2\\text{SO}_4$ anhidro no absorbe agua como una esponja: la fija formando un hidrato definido, así que tiene una capacidad máxima. Pasada esa capacidad, agregar más no seca más; hay que filtrarlo y usar desecante fresco.",
+    "ejemplo": "Si la fase orgánica sigue turbia después de agregar sulfato, es señal de que se saturó, no de que no sirve."
+  },
+  {
+    "id": "DG-R-evaporar-concentra",
+    "grupo": "SER",
+    "tipo": "principio",
+    "titulo": "Evaporar solo quita solvente",
+    "variante": "corta",
+    "cuerpo": "La evaporación retira el solvente y nada más. Todo lo demás disuelto, analito, impurezas y ácido residual, queda en las mismas proporciones relativas, solo más concentrado. Por eso el riesgo de degradación aumenta hacia el final de la evaporación, no es constante.",
+    "ejemplo": "Un residuo llevado a sequedad total con ácido aún presente se degrada más que si se detiene la evaporación con algo de solvente todavía."
+  },
+  {
+    "id": "DG-R-nucleacion",
+    "grupo": "SER",
+    "tipo": "definicion",
+    "titulo": "Nucleación: sobrecalentamiento y sólido amorfo",
+    "variante": "corta",
+    "cuerpo": "Sin sitios donde empezar un cambio de fase, un líquido puede pasar su punto de ebullición sin hervir y luego soltar todo el exceso de golpe. Al secar, varios compuestos compitiendo por un espacio de solvente que se encoge quedan en un arreglo desordenado: un sólido amorfo, no un cristal.",
+    "ejemplo": "Un plato poroso o la agitación dan sitios de nucleación y evitan el bumping durante la evaporación."
+  },
+  {
+    "id": "DG-R-rf",
+    "grupo": "TLC",
+    "tipo": "definicion",
+    "titulo": "El $R_f$ es un coeficiente de reparto",
+    "variante": "desarrollo",
+    "cuerpo": "En capa fina el compuesto se reparte miles de veces entre la sílice fija y el solvente que avanza. El $R_f$ resume ese reparto repetido en un número entre 0 y 1. Fase normal, sílice polar con eluyente apolar, y fase reversa son solo cuál de las dos fases es la polar, no cuál es mejor.",
+    "formula": "R_f = \\dfrac{\\text{distancia recorrida por la mancha}}{\\text{distancia recorrida por el frente}}",
+    "ejemplo": "Un $R_f$ reproducible bajo un eluyente fijo identifica un compuesto de forma relativa, igual que el perfilaje: comparación bajo el mismo método."
+  },
+  {
+    "id": "DG-R-silanol",
+    "grupo": "TLC",
+    "tipo": "definicion",
+    "titulo": "Silanoles: retención química y colas de pico",
+    "variante": "corta",
+    "cuerpo": "La sílice retiene por sus grupos silanol $\\text{Si-OH}$ de superficie, que forman puentes de hidrógeno con el analito. Su función es química, no un filtro físico. Los mismos silanoles residuales de una columna de HPLC causan colas si no se controla el pH con un buffer.",
+    "ejemplo": "Un pico con cola no resuelto no es lo mismo que un hombro: la cola es un defecto de forma de un compuesto, el hombro es un segundo compuesto escondido."
+  },
+  {
+    "id": "DG-R-revelado",
+    "grupo": "TLC",
+    "tipo": "definicion",
+    "titulo": "El revelador fabrica el color, no lo tiñe",
+    "variante": "corta",
+    "cuerpo": "El reactivo de Baccou modificado, anisaldehído con ácido, reacciona con la sapogenina y crea un cromóforo nuevo donde no había uno útil. No es una tinción pasiva. Y el ojo no es cuantitativo: para convertir una mancha en un número hace falta un densitómetro.",
+    "ejemplo": "Es la misma reacción de color que después se lee en el espectrofotómetro a 425-430 nm para la curva de calibración."
+  },
+  {
+    "id": "DG-R-beer-lambert",
+    "grupo": "ESP",
+    "tipo": "ley",
+    "titulo": "Ley de Beer-Lambert",
+    "variante": "desarrollo",
+    "cuerpo": "La transmitancia decae exponencialmente con la concentración; la absorbancia es el logaritmo de eso, y ese paso logarítmico es lo que la vuelve lineal en $c$. Es una aproximación: por encima de $A \\approx 1.5$ se desvía por razones químicas e instrumentales.",
+    "formula": "A = \\varepsilon\\,b\\,c",
+    "ejemplo": "Si una muestra da $A = 2.3$ no se reporta: se diluye un factor conocido, se vuelve a leer dentro del rango lineal y se multiplica la concentración por ese factor."
+  },
+  {
+    "id": "DG-R-blanco",
+    "grupo": "ESP",
+    "tipo": "norma",
+    "titulo": "Restar el blanco correcto",
+    "variante": "corta",
+    "cuerpo": "Un blanco es todo lo que no viene del analito, procesado igual que la muestra. El blanco de reactivos capta la absorbancia propia del reactivo cromógeno; el blanco de matriz capta interferencias de la matriz vegetal. Restar solo solvente puro deja fuera la señal del reactivo.",
+    "ejemplo": "En la lectura, $A_{\\text{corregida}} = A_{\\text{muestra}} - A_{\\text{blanco}}$ antes de aplicar Beer-Lambert, no después."
+  },
+  {
+    "id": "DG-R-lod-loq",
+    "grupo": "ESP",
+    "tipo": "definicion",
+    "titulo": "Límite de detección y de cuantificación",
+    "variante": "desarrollo",
+    "cuerpo": "El $\\text{LOD}$ responde si hay algo, con $3.3$ desviaciones estándar del blanco sobre la pendiente de calibración; el $\\text{LOQ}$ responde cuánto hay con precisión aceptable, con $10$. El $\\text{LOQ}$ siempre es mayor que el $\\text{LOD}$.",
+    "formula": "\\text{LOD} = \\dfrac{3.3\\,\\sigma}{S}, \\qquad \\text{LOQ} = \\dfrac{10\\,\\sigma}{S}",
+    "ejemplo": "Una señal entre $\\text{LOD}$ y $\\text{LOQ}$ confirma presencia pero no se puede reportar como una cifra de concentración."
+  },
+  {
+    "id": "DG-R-lambda-max",
+    "grupo": "ESP",
+    "tipo": "norma",
+    "titulo": "Leer en $\\lambda_{\\max}$",
+    "variante": "corta",
+    "cuerpo": "Se mide en el máximo de absorción por dos razones: es donde la señal es mayor, más sensibilidad, y donde la curva es más plana, así un pequeño error de calibración de longitud de onda casi no cambia la lectura.",
+    "ejemplo": "El complejo de color del anisaldehído se lee a 425-430 nm porque ahí está su máximo, no en un valor redondo cualquiera."
+  },
+  {
+    "id": "DG-R-van-deemter",
+    "grupo": "HPL",
+    "tipo": "ley",
+    "titulo": "Ecuación de van Deemter",
+    "variante": "desarrollo",
+    "cuerpo": "El ancho de banda por unidad de longitud de columna tiene tres contribuciones independientes: caminos múltiples $A$, difusión longitudinal $B/u$, peor a flujo lento, y resistencia a la transferencia de masa $C\\,u$, peor a flujo rápido. La suma tiene un mínimo a velocidad intermedia.",
+    "formula": "H = A + \\dfrac{B}{u} + C\\,u",
+    "ejemplo": "Correr la columna más rápido no siempre empeora la separación: por debajo del flujo óptimo, acelerar la mejora."
+  },
+  {
+    "id": "DG-R-factor-capacidad",
+    "grupo": "HPL",
+    "tipo": "definicion",
+    "titulo": "Factor de capacidad $k'$",
+    "variante": "desarrollo",
+    "cuerpo": "El tiempo de retención bruto mezcla la química real con variabilidad instrumental. El $k'$ la normaliza restando y dividiendo por el tiempo muerto $t_0$, el mínimo físico que tarda algo no retenido en cruzar el sistema. $t_0$ nunca es cero porque hay un volumen real que recorrer.",
+    "formula": "k' = \\dfrac{t_R - t_0}{t_0}",
+    "ejemplo": "Comparar $k'$ entre equipos o entre días es válido; comparar $t_R$ crudo, no."
+  },
+  {
+    "id": "DG-R-estandar-interno",
+    "grupo": "HPL",
+    "tipo": "regla",
+    "titulo": "Estándar interno",
+    "variante": "corta",
+    "cuerpo": "Se añade a cada muestra una cantidad fija de un compuesto que no está en ella y se reporta la relación de áreas analito sobre estándar. Cualquier error proporcional, como el volumen de inyección o la deriva del detector, afecta a los dos por igual y se cancela en el cociente.",
+    "ejemplo": "Convierte una medida absoluta frágil en una relativa robusta, la misma idea que normalizar la absorbancia contra un estándar corrido en la misma sesión."
+  },
+  {
+    "id": "DG-R-perfilar-vs-cuantificar",
+    "grupo": "PFT",
+    "tipo": "principio",
+    "titulo": "Perfilar no es cuantificar",
+    "variante": "corta",
+    "cuerpo": "Cuantificar exige trazabilidad a un patrón certificado y permite decir hay $X$ mg/g. Perfilar es una comparación relativa rigurosa bajo un único método y permite decir la variedad A tiene más que la B. Las dos son válidas, con alcances de afirmación distintos.",
+    "ejemplo": "El perfilaje espino contra criollo con los tres índices es legítimo aunque el estándar de diosgenina todavía no haya llegado."
+  },
+  {
+    "id": "DG-R-tres-indices",
+    "grupo": "PFT",
+    "tipo": "regla",
+    "titulo": "Tres índices convergentes",
+    "variante": "desarrollo",
+    "cuerpo": "El perfilaje usa tres medidas que ven propiedades fisicoquímicas distintas del extracto. Un interferente que sesgue una es poco probable que sesgue las tres en la misma dirección, así que la convergencia de las tres da confianza sin un patrón absoluto.",
+    "tabla": {
+      "titulo": "los tres índices",
+      "encabezados": ["índice", "qué mide", "sesgo típico"],
+      "filas": [
+        ["colorimétrico (Baccou)", "cromóforo formado con la sapogenina", "otros compuestos que reaccionan con anisaldehído"],
+        ["espumante (IS)", "actividad tensioactiva total", "tensioactivos no saponínicos del extracto"],
+        ["gravimétrico (FGL)", "masa del residuo en $n$-butanol", "todo lo co-extraído por el butanol"]
+      ]
+    },
+    "ejemplo": "Si los tres ordenan igual a espino y criollo, la diferencia es creíble; si discrepan, hay que entender por qué antes de concluir."
+  },
+  {
+    "id": "DG-R-pvalor",
+    "grupo": "EST",
+    "tipo": "definicion",
+    "titulo": "Qué es y qué no es el p-valor",
+    "variante": "corta",
+    "cuerpo": "El p-valor es la probabilidad de los datos observados, o más extremos, suponiendo que la hipótesis nula es verdadera. No es la probabilidad de que la nula sea verdadera dados los datos. Invertir ese condicionamiento es un error lógico, no un matiz.",
+    "ejemplo": "$p = 0.04$ no significa 4 % de probabilidad de que no haya diferencia; significa datos así de raros de ver si no hubiera diferencia."
+  },
+  {
+    "id": "DG-R-efecto-vs-significancia",
+    "grupo": "EST",
+    "tipo": "principio",
+    "titulo": "Tamaño de efecto y significancia",
+    "variante": "corta",
+    "cuerpo": "El tamaño de efecto dice cuán grande es el fenómeno; la significancia dice cuán confiables son los datos para descartar el azar. Con $n$ grande una diferencia trivial puede ser significativa; con $n$ pequeño una diferencia real puede no serlo. Un intervalo de confianza comunica las dos cosas.",
+    "ejemplo": "Con $n = 2$ por grupo lo honesto es tratar la comparación espino contra criollo como exploratoria y mostrar el intervalo, no un p-valor."
+  }
+]

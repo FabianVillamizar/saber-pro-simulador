@@ -66,6 +66,19 @@
   --rc-acc-soft-2: color-mix(in oklch, var(--in-accent) 22%, transparent);
 }
 
+/* Acento propio de Diosgenina: --dg-accent (verde botánico, con valor
+   claro/oscuro en tokens.css). Mismo apunte de especificidad que Inglés:
+   repetir con el prefijo :root[data-theme='dark'] para ganarle a la regla
+   base oscura. */
+.rc-disp[data-acento='dg'],
+.rc-pop-wrap[data-acento='dg'],
+:root[data-theme='dark'] .rc-disp[data-acento='dg'],
+:root[data-theme='dark'] .rc-pop-wrap[data-acento='dg'] {
+  --rc-acc: var(--dg-accent);
+  --rc-acc-soft: color-mix(in oklch, var(--dg-accent) 12%, transparent);
+  --rc-acc-soft-2: color-mix(in oklch, var(--dg-accent) 22%, transparent);
+}
+
 /* ---------- disparador ---------- */
 
 .rc-disp {

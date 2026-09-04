@@ -985,5 +985,214 @@
       "90,0"
     ],
     "explicacion": "El número en sí es una división simple; lo que hay que recordar es multiplicar por 100 para expresarlo como porcentaje y no invertir cuál masa va en el numerador."
+  },
+  {
+    "id": "DIO-QR-069",
+    "tarjetaId": "FQT-03",
+    "categoria": "FQT",
+    "formato": "mcq",
+    "enunciado": "Agitas diclorometano y agua con diosgenina disuelta y esperas al equilibrio. La [[DG-R-reparto|constante de reparto K]] tiene un valor fijo a temperatura constante. ¿Qué es exactamente lo que se mantiene fijo?",
+    "opciones": [
+      "La masa total de diosgenina que termina en la fase orgánica, en miligramos.",
+      "La diferencia entre la concentración en la fase orgánica y en la acuosa.",
+      "El volumen de fase orgánica que hace falta para vaciar la fase acuosa.",
+      "El cociente entre la concentración en la fase orgánica y en la acuosa."
+    ],
+    "correcta": 3,
+    "explicacion": "K es un cociente de concentraciones, no de masas ni una diferencia. Sale de igualar el potencial químico del soluto en las dos fases, así que depende solo de la temperatura y del par soluto-solventes. Cambiar los volúmenes cambia cuántos miligramos van a cada lado, pero no el cociente de concentraciones en el equilibrio."
+  },
+  {
+    "id": "DIO-QR-070",
+    "tarjetaId": "FQT-01",
+    "categoria": "FQT",
+    "formato": "mcq",
+    "enunciado": "El refrán [[DG-R-disolucion-energia|lo semejante disuelve lo semejante]] predice bien qué se disuelve en qué. ¿Qué propiedad de soluto y solvente tiene que parecerse para que funcione?",
+    "opciones": [
+      "El tamaño de las moléculas del soluto frente a las del solvente.",
+      "La masa molar del soluto comparada con la del solvente.",
+      "La forma de las moléculas y qué tan bien encajan unas con otras.",
+      "El tipo y la fuerza de las interacciones intermoleculares en juego."
+    ],
+    "correcta": 3,
+    "explicacion": "Disolver cuesta energía: hay que separar soluto-soluto y solvente-solvente antes de mezclar, y solo se compensa si las nuevas interacciones soluto-solvente devuelven algo parecido. Tamaño, masa y forma no dicen nada sobre ese balance; el tipo de fuerza (dispersión, dipolo, puente de hidrógeno) sí."
+  },
+  {
+    "id": "DIO-QR-071",
+    "tarjetaId": "ESP-03",
+    "categoria": "ESP",
+    "formato": "mcq",
+    "enunciado": "La diosgenina pura casi no absorbe luz donde el espectrofotómetro mide bien, así que el protocolo la hace reaccionar con anisaldehído para darle color. Según el [[DG-R-cromoforo|requisito para absorber luz]], ¿por qué no absorbe de entrada?",
+    "opciones": [
+      "Sus moléculas son demasiado pequeñas para interceptar un fotón visible.",
+      "Está demasiado diluida en el extracto para dar una señal medible.",
+      "No tiene una transición electrónica con la energía de esos fotones.",
+      "El diclorometano en que está disuelta absorbe la luz antes que ella."
+    ],
+    "correcta": 2,
+    "explicacion": "Absorber un fotón exige una transición electrónica de exactamente esa energía. A la diosgenina le faltan los dobles enlaces conjugados que darían esa transición en el visible o el UV cercano, así que es transparente ahí por más concentrada que esté. La reacción con anisaldehído fabrica un cromóforo nuevo que sí absorbe a 425-430 nm."
+  },
+  {
+    "id": "DIO-QR-072",
+    "tarjetaId": "ESP-01",
+    "categoria": "ESP",
+    "formato": "mcq",
+    "enunciado": "La transmitancia decae de forma exponencial con la concentración; la [[DG-R-beer-lambert|absorbancia]] sube de forma lineal. ¿Qué es la absorbancia, en relación con la transmitancia?",
+    "opciones": [
+      "Su inverso: uno dividido entre la transmitancia.",
+      "Su complemento: la fracción de luz que no se transmite.",
+      "Su logaritmo negativo, y por eso la relación con la concentración es lineal.",
+      "Su derivada respecto de la concentración del analito."
+    ],
+    "correcta": 2,
+    "explicacion": "A = −log(T). Ese paso logarítmico es justo lo que convierte el decaimiento exponencial de la transmitancia en una recta contra la concentración, y por eso se trabaja con absorbancia. La linealidad se pierde por encima de A ≈ 1.5 por razones químicas e instrumentales."
+  },
+  {
+    "id": "DIO-QR-073",
+    "tarjetaId": "ESP-06",
+    "categoria": "ESP",
+    "formato": "fill",
+    "enunciado": "Antes de aplicar Beer-Lambert hay que restar el [[DG-R-blanco|blanco]] a la lectura de la muestra.",
+    "antes": "Si la muestra lee A = 0.42 y el blanco de reactivos lee A = 0.05, la absorbancia corregida que entra en el cálculo es ",
+    "despues": ".",
+    "respuesta": "0.37",
+    "alternativas": [
+      "0.37",
+      "0,37"
+    ],
+    "explicacion": "A corregida = A muestra − A blanco = 0.42 − 0.05 = 0.37, y la resta va antes de dividir por ε·b, no después. Un blanco de solo solvente puro no captaría la absorbancia propia del reactivo cromógeno y dejaría la resta incompleta."
+  },
+  {
+    "id": "DIO-QR-074",
+    "tarjetaId": "FQT-06",
+    "categoria": "FQT",
+    "formato": "mcq",
+    "enunciado": "Subir la temperatura de reflujo unos pocos grados acelera bastante la hidrólisis. Según la [[DG-R-arrhenius|ecuación de Arrhenius]], ¿por qué el efecto es tan grande para un cambio tan chico?",
+    "opciones": [
+      "Porque la constante de velocidad crece de forma lineal con la temperatura.",
+      "Porque la fracción de moléculas con energía sobre la barrera crece exponencialmente.",
+      "Porque a más temperatura las moléculas chocan proporcionalmente más veces.",
+      "Porque la energía de activación de la reacción baja al calentar el sistema."
+    ],
+    "correcta": 1,
+    "explicacion": "En k = A·e^(−Ea/RT) la temperatura entra en un exponente, así que un aumento pequeño de T sube k mucho. El número de choques sí crece, pero solo con la raíz de T. Y Ea no cambia con la temperatura. Corolario: si dos reacciones tienen distinta Ea, subir T cambia cuál gana."
+  },
+  {
+    "id": "DIO-QR-075",
+    "tarjetaId": "FQT-07",
+    "categoria": "FQT",
+    "formato": "mcq",
+    "enunciado": "El H₂SO₄ protona el oxígeno del enlace glicosídico pero aparece intacto al final. Según la [[DG-R-catalisis-especifica|catálisis ácida específica]], ¿de qué depende la velocidad de la hidrólisis?",
+    "opciones": [
+      "De la concentración de iones H₃O⁺, sin importar qué ácido los aportó.",
+      "De la identidad del ácido: el H₂SO₄ cataliza mejor que el HCl por naturaleza.",
+      "De la concentración de ácido sin disociar presente en el medio.",
+      "De cuántas veces el ácido se consume y se regenera por ciclo de reacción."
+    ],
+    "correcta": 0,
+    "explicacion": "En catálisis específica de ácido lo único que cuenta es [H₃O⁺]: dos ácidos distintos al mismo pH dan la misma cinética. El catalizador abre un camino de menor Ea y sale regenerado, sin tocar la termodinámica. Eso deja elegir el ácido por practicidad, no por fuerza."
+  },
+  {
+    "id": "DIO-QR-076",
+    "tarjetaId": "HID-01",
+    "categoria": "HID",
+    "formato": "mcq",
+    "enunciado": "La hidrólisis ácida del enlace glicosídico no rompe el enlace de un golpe. Según el [[DG-R-oxocarbenio|mecanismo por ion oxocarbenio]], ¿qué pasa primero?",
+    "opciones": [
+      "El agua ataca el carbono anomérico y desplaza al azúcar en un solo paso.",
+      "Se forma un catión en el carbono anomérico, estabilizado por el oxígeno del anillo.",
+      "El ácido sulfúrico se une covalentemente al azúcar y lo arrastra fuera.",
+      "Los dos anillos se separan por simple calentamiento antes de que entre el ácido."
+    ],
+    "correcta": 1,
+    "explicacion": "Primero se protona el oxígeno del enlace y sale el grupo saliente, dejando un catión en el carbono anomérico. Ese catión es inusualmente estable porque un par libre del oxígeno del anillo dona densidad a su orbital vacío (efecto anomérico). Recién entonces ataca el agua. El ataque directo tipo SN2 está bloqueado por ese mismo entorno."
+  },
+  {
+    "id": "DIO-QR-077",
+    "tarjetaId": "ELL-01",
+    "categoria": "ELL",
+    "formato": "mcq",
+    "enunciado": "Con el mismo volumen total de diclorometano, hacer 3 extracciones de 25 mL saca más diosgenina que 1 sola de 75 mL. Según la [[DG-R-extracciones-multiples|fórmula de extracciones múltiples]], ¿por qué?",
+    "opciones": [
+      "Porque cada contacto nuevo agita más el sistema y sube la constante de reparto.",
+      "Porque el diclorometano fresco de cada etapa disuelve más rápido que el usado.",
+      "Porque tres embudos separan mejor las fases que uno solo más grande.",
+      "Porque la fracción no extraída se eleva a la potencia n, el número de etapas."
+    ],
+    "correcta": 3,
+    "explicacion": "fₙ = [V_ac / (V_ac + K·V_org/n)]ⁿ. Repartir el solvente en n porciones mete el reparto n veces, y como la fracción que queda se eleva a n, el resultado mejora aunque cada etapa use menos solvente. K no cambia. Cuidado: al subir n la recuperación tiende a un techo, no al 100 %."
+  },
+  {
+    "id": "DIO-QR-078",
+    "tarjetaId": "SER-02",
+    "categoria": "SER",
+    "formato": "build",
+    "enunciado": "Arma por qué el rotavaporador evapora el diclorometano sin degradar el residuo, usando la [[DG-R-ebullicion-presion|relación entre ebullición y presión]]:",
+    "fragmentos": [
+      "bajar la presión externa con vacío",
+      "baja el punto de ebullición del solvente,",
+      "así se evapora a menor temperatura",
+      "y el residuo sensible sufre menos calor"
+    ],
+    "explicacion": "Un líquido hierve cuando su presión de vapor iguala la presión externa; al hacer vacío esa igualdad se alcanza a menor temperatura. La película delgada y renovada del rotavapor evita además sobrecalentamientos locales, y el residuo de diosgenina se concentra a ≤ 40 °C."
+  },
+  {
+    "id": "DIO-QR-079",
+    "tarjetaId": "TLC-01",
+    "categoria": "TLC",
+    "formato": "mcq",
+    "enunciado": "El [[DG-R-rf|Rf de una mancha en capa fina]] es un número entre 0 y 1. ¿Qué representa físicamente?",
+    "opciones": [
+      "Un coeficiente de reparto, tras miles de repartos a lo largo de la placa.",
+      "La solubilidad del compuesto en el eluyente, en gramos por litro.",
+      "La velocidad de la mancha dividida por el tiempo total de la corrida.",
+      "La polaridad del compuesto en una escala relativa de referencia."
+    ],
+    "correcta": 0,
+    "explicacion": "El compuesto se reparte una y otra vez entre la sílice fija y el solvente que sube; el Rf resume ese reparto repetido en la razón distancia de la mancha sobre distancia del frente. Es la ley de reparto aplicada miles de veces en vez de una. Fase normal o reversa solo dice cuál fase es la polar."
+  },
+  {
+    "id": "DIO-QR-080",
+    "tarjetaId": "HPL-06",
+    "categoria": "HPL",
+    "formato": "mcq",
+    "enunciado": "La [[DG-R-van-deemter|ecuación de van Deemter]] suma tres términos para el ensanchamiento de un pico. ¿Qué implica su forma para la velocidad de flujo?",
+    "opciones": [
+      "Cuanto más lento el flujo, más angosto el pico: conviene siempre el flujo mínimo.",
+      "El flujo no afecta el ancho del pico, solo el tiempo total del análisis.",
+      "Cuanto más rápido el flujo, mejor la separación, sin un límite práctico.",
+      "Hay una velocidad de flujo intermedia donde el ancho del pico es mínimo."
+    ],
+    "correcta": 3,
+    "explicacion": "H = A + B/u + C·u: el término B/u empeora a flujo lento (difusión longitudinal) y el C·u empeora a flujo rápido (transferencia de masa), así que la suma tiene un mínimo a velocidad intermedia. Por debajo del óptimo, acelerar el flujo mejora la separación."
+  },
+  {
+    "id": "DIO-QR-081",
+    "tarjetaId": "EST-01",
+    "categoria": "EST",
+    "formato": "mcq",
+    "enunciado": "Una prueba estadística sobre el perfil espino contra criollo da p = 0.04. Según [[DG-R-pvalor|lo que el p-valor significa]], ¿cuál lectura es correcta?",
+    "opciones": [
+      "Hay 4 % de probabilidad de que no exista diferencia real entre las variedades.",
+      "Datos así de extremos aparecen el 4 % de las veces si no hubiera diferencia.",
+      "Hay 96 % de probabilidad de que la diferencia observada sea real.",
+      "La diferencia entre variedades es del 4 % en promedio."
+    ],
+    "correcta": 1,
+    "explicacion": "El p-valor es P(datos | hipótesis nula verdadera), no P(nula verdadera | datos). Un p = 0.04 dice que datos tan extremos como estos son raros bajo el supuesto de que no hay diferencia; no cuantifica la probabilidad de la hipótesis ni el tamaño del efecto."
+  },
+  {
+    "id": "DIO-QR-082",
+    "tarjetaId": "PFT-01",
+    "categoria": "PFT",
+    "formato": "mcq",
+    "enunciado": "Mientras no llegue el estándar certificado, el semillero hace [[DG-R-perfilar-vs-cuantificar|perfilaje]] en vez de cuantificación. ¿Qué tipo de afirmación permite el perfilaje?",
+    "opciones": [
+      "Que una variedad tiene más sapogenina que otra bajo el mismo método.",
+      "Que una variedad contiene X miligramos de diosgenina por gramo de tubérculo.",
+      "Que el contenido absoluto coincide con el reportado en la literatura china.",
+      "Que la muestra cumple el límite legal para un ingrediente nutracéutico."
+    ],
+    "correcta": 0,
+    "explicacion": "Perfilar es una comparación relativa rigurosa bajo un único método: ordena las muestras sin poner una cifra absoluta. Cuantificar exige trazabilidad a un patrón certificado, y recién ahí se puede reportar X mg/g o compararlo con un umbral externo. Las dos son válidas, con alcances distintos."
   }
 ]

@@ -371,6 +371,28 @@ export const indiceModulos = {
       EST: 'Estadística',
     },
     adapters: adaptersDiosgenina,
+    // "Reglas en contexto" (token `[[id-regla|texto]]` -> popover) en el
+    // Quiz Rápido y en Repaso de conceptos. El rulebook vive en
+    // src/data/diosgenina/dio_reglas.json — las leyes, principios,
+    // definiciones y normas que el protocolo de extracción usa en cada
+    // etapa del pipeline FQT -> EST. Seguro de activar: verificado que los
+    // 11 JSON del módulo no traen `$` ni `**` sin pareja en los campos que
+    // ahora pasan por TextoConReglas (todo el módulo escribe en Unicode:
+    // CO₂, ε, 10⁻⁵). `acentoReglas: 'dg'` pinta el disparador y el popover
+    // con el verde botánico `--dg-accent` — el rincón del ñame, distinto
+    // del azul de botones, el carmesí de Français y el índigo de Inglés.
+    renderizaFormulas: true,
+    acentoReglas: 'dg',
+    // Copia para la pantalla de referencia genérica (ReglasModulo.jsx, vía
+    // GramaticaVistazo): Diosgenina agrupa por bloque del protocolo, no por
+    // grupo gramatical, y no tiene niveles MCER.
+    reglasVistazo: {
+      titulo: 'Reglas del protocolo',
+      tileDescripcion:
+        'Las leyes, principios, definiciones y normas detrás de cada etapa del protocolo de extracción, en una sola hoja y en el orden del pipeline FQT a EST.',
+      intro:
+        'las leyes, principios, definiciones y normas detrás del protocolo de extracción, agrupadas por etapa del pipeline. Son las mismas que abre el popover al tocar un término subrayado en el Quiz Rápido y en Repaso de conceptos.',
+    },
   },
   inorganica: {
     id: 'inorganica',

@@ -78,14 +78,21 @@ const MODO_LAPIZ_PAPEL_RC = {
   descripcion: 'Reconoce el enfoque antes de calcular, resuelve a mano y compárate contra el atajo.',
 }
 
-// Solo Inglés por ahora: el rulebook de "Reglas en contexto"
-// (modulo.reglas) como pantalla de referencia navegable, filtrable por
-// nivel MCER. Ver GramaticaVistazo.jsx.
-const MODO_GRAMATICA_VISTAZO = {
-  id: 'gramatica-vistazo',
-  nombre: 'Gramática de un vistazo',
-  descripcion: 'Todas las reglas del módulo en una hoja: tiempos, condicionales, modales, preposiciones y patrones de vocabulario, filtrables por nivel.',
+// El rulebook de "Reglas en contexto" (modulo.reglas) como pantalla de
+// referencia navegable. Ver GramaticaVistazo.jsx. La copia del tile sale
+// de `modulo.reglasVistazo` cuando el módulo la define (Diosgenina agrupa
+// por bloque del protocolo, no por grupo gramatical); Inglés cae al texto
+// por defecto con su filtro de nivel MCER.
+function modoReglasVistazo(modulo) {
+  return {
+    id: 'gramatica-vistazo',
+    nombre: modulo.reglasVistazo?.titulo ?? 'Gramática de un vistazo',
+    descripcion:
+      modulo.reglasVistazo?.tileDescripcion ??
+      'Todas las reglas del módulo en una hoja: tiempos, condicionales, modales, preposiciones y patrones de vocabulario, filtrables por nivel.',
+  }
 }
+const MODULOS_CON_REGLAS_VISTAZO = new Set(['ingles', 'diosgenina'])
 
 // Comunicación Escrita tampoco es un módulo de opción múltiple: el ICFES
 // evalúa un ensayo argumentativo completo, así que sus modos propios
@@ -149,7 +156,9 @@ export function ModuloHub({ moduloId, perfil, onCambiarPerfil, onVolver, onSelec
           // (introducido para RC, reutilizado tal cual por Habilidades de
           // Laboratorio).
           ...(modulo.lapizPapel.length > 0 ? [MODO_LAPIZ_PAPEL_RC] : []),
-          ...(moduloId === 'ingles' && modulo.reglas?.length > 0 ? [MODO_GRAMATICA_VISTAZO] : []),
+          ...(MODULOS_CON_REGLAS_VISTAZO.has(moduloId) && modulo.reglas?.length > 0
+            ? [modoReglasVistazo(modulo)]
+            : []),
         ]
 
   const esDiosgenina = moduloId === 'diosgenina'

@@ -29,6 +29,13 @@
      el subrayado siga siendo legible sobre el fondo del popover. */
   --in-accent: #1e40af;
 
+  /* Módulo Diosgenina (Semillero Pharmactive): verde botánico propio para
+     la capa "Reglas en contexto" — "el rincón del ñame", distinto del
+     --accent azul, el carmesí de Français y el índigo de Inglés. Cambia
+     por tema: en oscuro se aclara para que el subrayado siga legible
+     sobre el fondo del popover. */
+  --dg-accent: #15803d;
+
   --mix-base: white;
 
   --radio-lg: 20px;
@@ -61,6 +68,7 @@
 
   --fr-cultura: oklch(72% 0.1 40);
   --in-accent: #6b9bff;
+  --dg-accent: #5fbf86;
 
   --mix-base: black;
 
@@ -83,6 +91,7 @@
     --exito: oklch(75% 0.13 150);
     --fr-cultura: oklch(72% 0.1 40);
     --in-accent: #6b9bff;
+    --dg-accent: #5fbf86;
     --mix-base: black;
     --sombra-suave: 0 12px 30px rgba(0, 0, 0, 0.35);
     --sombra-hover: rgba(0, 0, 0, 0.35);
