@@ -13,7 +13,7 @@
       "FQT-13"
     ],
     "connects_to": [],
-    "regla": "no es absorción física tipo esponja — es una reacción química de hidratación con estequiometría exacta, y por eso tiene un límite de capacidad.",
+    "regla": "no es absorción física tipo esponja — es una [[DG-R-desecante|reacción química de hidratación con estequiometría]] exacta, y por eso tiene un límite de capacidad.",
     "conexion_cotidiana": "El mismo fenómeno de cristales hidratados con estequiometría exacta explica la **mirabilita** (Na₂SO₄·10H₂O como mineral natural), que se deposita en las orillas de lagos salinos al evaporarse en climas áridos."
   },
   {
@@ -33,7 +33,7 @@
     "connects_to": [
       "PFT"
     ],
-    "regla": "reducir la presión externa baja el punto de ebullición (FQT-08); el rotavaporador suma a eso una película delgada y renovada para evitar sobrecalentamiento local.",
+    "regla": "[[DG-R-ebullicion-presion|reducir la presión externa baja el punto de ebullición]] (FQT-08); el rotavaporador suma a eso una película delgada y renovada para evitar sobrecalentamiento local.",
     "conexion_cotidiana": "El mismo principio explica por qué en **La Paz, Bolivia (~3600 msnm)** el agua hierve cerca de 88°C en vez de 100°C, y cocinar ahí toma más tiempo."
   },
   {
@@ -43,7 +43,7 @@
     "bloque": "SER",
     "modo": "pregunta",
     "pregunta": "Si quieren terminar rápido, ¿por qué no simplemente calentar más fuerte para evaporar el DCM más rápido, en vez de limitarse a ≤40°C?",
-    "respuesta": "Ya vieron en **HID-06** que la diosgenina liberada es vulnerable a deshidratación ácida, y esa degradación sigue Arrhenius (**FQT-06**): más temperatura, más velocidad, incluso con trazas de ácido residual tras un lavado imperfecto (**ELL-06**). Durante la evaporación el residuo se concentra en cada vez menos volumen, así que cualquier ácido residual está cada vez MÁS concentrado justo cuando se aplica calor para evaporar el último remanente. Mantener el baño ≤40°C toda la evaporación minimiza ese riesgo acumulado, aunque tarde más.",
+    "respuesta": "Ya vieron en **HID-06** que la diosgenina liberada es vulnerable a deshidratación ácida, y esa degradación [[DG-R-arrhenius|sigue Arrhenius]] (**FQT-06**): más temperatura, más velocidad, incluso con trazas de ácido residual tras un lavado imperfecto (**ELL-06**). Durante la evaporación el residuo se concentra en cada vez menos volumen, así que cualquier ácido residual está cada vez MÁS concentrado justo cuando se aplica calor para evaporar el último remanente. Mantener el baño ≤40°C toda la evaporación minimiza ese riesgo acumulado, aunque tarde más.",
     "error_comun": "Pensar que el riesgo de degradación es constante durante toda la evaporación: en realidad aumenta hacia el final, cuando el ácido residual está más concentrado en menos volumen.",
     "dificultad": "alta",
     "prereqs": [
@@ -71,7 +71,7 @@
       "FQT-08"
     ],
     "connects_to": [],
-    "regla": "sin sitios de nucleación, un líquido puede sobrecalentarse por encima de su punto de ebullición sin hervir visiblemente — y luego liberar todo ese exceso de golpe.",
+    "regla": "sin [[DG-R-nucleacion|sitios de nucleación]], un líquido puede sobrecalentarse por encima de su punto de ebullición sin hervir visiblemente — y luego liberar todo ese exceso de golpe.",
     "conexion_cotidiana": "El mismo sobrecalentamiento por falta de sitios de nucleación explica la 'explosión retardada' del agua pura en un **microondas**: se calienta por encima de 100°C sin hervir, y al moverla hierve de golpe — lo que las perlas de ebullición previenen."
   },
   {
@@ -129,7 +129,7 @@
       "FQT-13"
     ],
     "connects_to": [],
-    "regla": "varios compuestos compitiendo por el mismo espacio decreciente de solvente quedan atrapados en un arreglo desordenado — eso es un sólido amorfo, no un cristal.",
+    "regla": "varios compuestos compitiendo por el mismo espacio decreciente de solvente quedan atrapados en un arreglo desordenado — eso es [[DG-R-nucleacion|un sólido amorfo]], no un cristal.",
     "conexion_cotidiana": "Tiene consecuencias médicas: el mismo fármaco puede ser cristalino o amorfo, y la forma amorfa suele tener mayor solubilidad y biodisponibilidad — por eso a veces se formula deliberadamente en forma amorfa, aceptando que pueda re-cristalizar en el almacenamiento."
   },
   {
@@ -139,7 +139,7 @@
     "bloque": "SER",
     "modo": "pregunta",
     "pregunta": "¿Por qué el extracto se guarda específicamente en vial ámbar (no transparente) Y a -20°C (no solo refrigerado a 4°C) para 'pendiente derivatización'?",
-    "respuesta": "**Fotodegradación**: enlaces con electrones π (**FQT-16**) pueden romperse o isomerizarse al absorber luz UV o visible, sin necesidad de calor ni ácido; el vidrio ámbar filtra buena parte de esa radiación. **Degradación térmica/cinética**: cualquier reacción residual sigue Arrhenius (**FQT-06**), y a menor temperatura, mucha menor velocidad. La **regla Q₁₀** (usada en estabilidad farmacéutica) dice que muchas reacciones de degradación duplican o triplican su velocidad por cada 10°C: de ~25°C a -20°C son 45°C de diferencia, varios órdenes de magnitud menos degradación.",
+    "respuesta": "**Fotodegradación**: enlaces con electrones π (**FQT-16**) pueden romperse o isomerizarse al absorber luz UV o visible, sin necesidad de calor ni ácido; el vidrio ámbar filtra buena parte de esa radiación. **Degradación térmica/cinética**: cualquier reacción residual [[DG-R-arrhenius|sigue Arrhenius]] (**FQT-06**), y a menor temperatura, mucha menor velocidad. La **regla Q₁₀** (usada en estabilidad farmacéutica) dice que muchas reacciones de degradación duplican o triplican su velocidad por cada 10°C: de ~25°C a -20°C son 45°C de diferencia, varios órdenes de magnitud menos degradación.",
     "error_comun": "Pensar que refrigerar a 4°C 'basta' y que -20°C es precaución excesiva: según la Ea de la reacción de degradación, la diferencia entre 4°C y -20°C puede ser una reducción sustancial, no un margen trivial.",
     "dificultad": "alta",
     "prereqs": [

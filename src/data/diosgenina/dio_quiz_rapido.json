@@ -4,7 +4,7 @@
     "tarjetaId": "FQT-01",
     "categoria": "FQT",
     "formato": "mcq",
-    "enunciado": "Un químico intenta disolver cloruro de sodio, un sólido iónico, en hexano puro y no observa disolución visible. ¿Cuál es la explicación más precisa según la contabilidad energética de la mezcla?",
+    "enunciado": "Un químico intenta disolver cloruro de sodio, un sólido iónico, en hexano puro y no observa disolución visible. ¿Cuál es la explicación más precisa según la [[DG-R-disolucion-energia|contabilidad energética de la mezcla]]?",
     "opciones": [
       "El NaCl es una molécula demasiado grande para caber entre las moléculas de hexano",
       "El hexano reconoce químicamente que el NaCl no pertenece a su grupo y lo excluye",
@@ -20,7 +20,7 @@
     "categoria": "FQT",
     "formato": "fill",
     "enunciado": "Completa la idea sobre cuándo la disolución es favorable:",
-    "antes": "El proceso de disolución se rige por el balance energético de la mezcla. Si soluto y solvente tienen fuerzas intermoleculares de tipo y magnitud parecida, las nuevas interacciones compensan bien lo que se rompió y el proceso es",
+    "antes": "El proceso de disolución se rige por el [[DG-R-disolucion-energia|balance energético de la mezcla]]. Si soluto y solvente tienen fuerzas intermoleculares de tipo y magnitud parecida, las nuevas interacciones compensan bien lo que se rompió y el proceso es",
     "despues": "; si son muy distintas, el disolvente prefiere quedarse consigo mismo.",
     "respuesta": "favorable",
     "alternativas": [
@@ -61,7 +61,7 @@
     "tarjetaId": "FQT-03",
     "categoria": "FQT",
     "formato": "mcq",
-    "enunciado": "Al agitar diclorometano y agua con un extracto que contiene tanto diosgenina libre, de log P alto, como saponinas intactas cargadas de azúcares, de log P bajo, ¿qué predice el coeficiente de partición sobre a dónde va cada una?",
+    "enunciado": "Al agitar diclorometano y agua con un extracto que contiene tanto diosgenina libre, de log P alto, como saponinas intactas cargadas de azúcares, de log P bajo, ¿qué predice el [[DG-R-reparto|coeficiente de partición]] sobre a dónde va cada una?",
     "opciones": [
       "Las saponinas migran al DCM primero y la diosgenina pasa después, más lento",
       "El coeficiente de partición dice cuánto soluto hay en total, no en qué fase va cada uno",
@@ -83,7 +83,7 @@
     "alternativas": [
       "fresco"
     ],
-    "explicacion": "El coeficiente de partición es una constante de equilibrio, específica del par de solventes, que no depende de cuánto soluto haya. Por eso repetir la extracción con solvente nuevo recupera más que una sola extracción grande."
+    "explicacion": "El [[DG-R-reparto|coeficiente de partición]] es una constante de equilibrio, específica del par de solventes, que no depende de cuánto soluto haya. Por eso repetir la extracción con solvente nuevo recupera más que una sola extracción grande."
   },
   {
     "id": "DIO-QR-007",
@@ -111,14 +111,14 @@
       "fuertemente hacia los productos de hidrólisis,",
       "sin cambiar la velocidad a la que se llega a ese equilibrio"
     ],
-    "explicacion": "Le Chatelier predice hacia dónde se mueve el sistema, no qué tan rápido llega ahí. Confundir desplazamiento de equilibrio con velocidad de reacción es el error más común al razonar sobre este punto."
+    "explicacion": "[[DG-R-accion-de-masas|Le Chatelier]] predice hacia dónde se mueve el sistema, no qué tan rápido llega ahí. Confundir desplazamiento de equilibrio con velocidad de reacción es el error más común al razonar sobre este punto."
   },
   {
     "id": "DIO-QR-009",
     "tarjetaId": "FQT-06",
     "categoria": "FQT",
     "formato": "mcq",
-    "enunciado": "Un compañero de laboratorio propone que duplicar la temperatura de reflujo debería duplicar exactamente la velocidad de la hidrólisis ácida. ¿Qué corrige esta suposición según la ecuación de Arrhenius?",
+    "enunciado": "Un compañero de laboratorio propone que duplicar la temperatura de reflujo debería duplicar exactamente la velocidad de la hidrólisis ácida. ¿Qué corrige esta suposición según [[DG-R-arrhenius|la ecuación de Arrhenius]]?",
     "opciones": [
       "La temperatura no afecta la velocidad de una reacción que ya tiene catalizador ácido",
       "Duplicar la temperatura duplica la velocidad: la constante es proporcional a T",
@@ -213,7 +213,7 @@
       "La diosgenina ya liberada se degrada por la misma química ácida que la liberó"
     ],
     "correcta": 3,
-    "explicacion": "Son dos reacciones con relojes distintos: la hidrólisis se satura porque el sustrato se agota, mientras que la degradación de la diosgenina ya liberada sigue acumulándose; el rendimiento neto es la resta de ambas curvas, y por eso tiene un máximo en un punto intermedio, no al final."
+    "explicacion": "Son [[DG-R-rendimiento-cruce|dos reacciones con relojes]] distintos: la hidrólisis se satura porque el sustrato se agota, mientras que la degradación de la diosgenina ya liberada sigue acumulándose; el rendimiento neto es la resta de ambas curvas, y por eso tiene un máximo en un punto intermedio, no al final."
   },
   {
     "id": "DIO-QR-016",
@@ -233,7 +233,7 @@
     "tarjetaId": "ELL-01",
     "categoria": "ELL",
     "formato": "mcq",
-    "enunciado": "Con el mismo volumen TOTAL de solvente disponible, ¿qué predice la ecuación de extracciones múltiples sobre dividir ese volumen en 3 extracciones en vez de usarlo todo en una sola?",
+    "enunciado": "Con el mismo volumen TOTAL de solvente disponible, ¿qué predice [[DG-R-extracciones-multiples|la ecuación de extracciones múltiples]] sobre dividir ese volumen en 3 extracciones en vez de usarlo todo en una sola?",
     "opciones": [
       "Dividir enundefineddeja menos soluto sin extraer: la fracción remanente se eleva a n",
       "El resultado es igual: el coeficiente de partición depende solo del volumen total",
@@ -249,7 +249,7 @@
     "categoria": "ELL",
     "formato": "fill",
     "enunciado": "Completa la idea sobre por qué el número de extracciones importa más que el volumen total:",
-    "antes": "En la fórmula de la fracción no extraída, el volumen de solvente por extracción entra de forma lineal en el denominador, pero el número de extracciones entra como",
+    "antes": "En la fórmula de [[DG-R-extracciones-multiples|la fracción no extraída]], el volumen de solvente por extracción entra de forma lineal en el denominador, pero el número de extracciones entra como",
     "despues": ", y elevar una fracción menor que 1 a una potencia mayor la reduce mucho más rápido que aumentar linealmente ese denominador.",
     "respuesta": "exponente",
     "alternativas": [
@@ -271,7 +271,7 @@
       "El embudo no reposó lo suficiente para que la gravedad separe dos densidades parecidas"
     ],
     "correcta": 2,
-    "explicacion": "Una emulsión no es solo 'lento por falta de tiempo': un tensioactivo reduce tanto la tensión interfacial que el sistema puede quedar atrapado en gotas dispersas durante horas, un estado cinéticamente estable, no solo una separación que tarda más de lo normal."
+    "explicacion": "Una emulsión no es solo 'lento por falta de tiempo': un tensioactivo reduce tanto la tensión interfacial que el sistema puede quedar atrapado en gotas dispersas durante horas, un estado [[DG-R-emulsion|cinéticamente estable]], no solo una separación que tarda más de lo normal."
   },
   {
     "id": "DIO-QR-020",
@@ -299,7 +299,7 @@
       "El vacío baja la presión, y con menos presión externa el etanol hierve antes deundefined°C"
     ],
     "correcta": 3,
-    "explicacion": "El punto de ebullición depende de la presión externa, no es una propiedad fija del líquido: bajar la presión con la bomba de vacío baja también la temperatura a la que el líquido entra en ebullición, el mismo principio por el que el agua hierve a menos de 100°C en La Paz."
+    "explicacion": "[[DG-R-ebullicion-presion|El punto de ebullición depende de la presión externa]], no es una propiedad fija del líquido: bajar la presión con la bomba de vacío baja también la temperatura a la que el líquido entra en ebullición, el mismo principio por el que el agua hierve a menos de 100°C en La Paz."
   },
   {
     "id": "DIO-QR-022",
@@ -314,7 +314,7 @@
       "sobrecalentamiento",
       "sobrecalentamiento local"
     ],
-    "explicacion": "Sin la película renovada por rotación, el líquido podría acumularse en un punto y sobrecalentarse localmente, generando el mismo tipo de proyección violenta que las perlas de ebullición previenen en un calentamiento normal."
+    "explicacion": "Sin la película renovada por rotación, el líquido podría acumularse en un punto y sobrecalentarse localmente, generando el mismo tipo de proyección violenta que las [[DG-R-nucleacion|perlas de ebullición]] previenen en un calentamiento normal."
   },
   {
     "id": "DIO-QR-023",
@@ -329,7 +329,7 @@
       "Sí, si se hace a menos deundefined°C, porque solo el DCM se evapora a esa temperatura"
     ],
     "correcta": 1,
-    "explicacion": "Evaporación es un paso de concentración, no de purificación: separar de verdad la diosgenina de otros compuestos co-extraídos requiere técnicas con selectividad real, como cromatografía o recristalización."
+    "explicacion": "Evaporación es un [[DG-R-evaporar-concentra|paso de concentración, no de purificación]]: separar de verdad la diosgenina de otros compuestos co-extraídos requiere técnicas con selectividad real, como cromatografía o recristalización."
   },
   {
     "id": "DIO-QR-024",
@@ -349,7 +349,7 @@
     "tarjetaId": "TLC-01",
     "categoria": "TLC",
     "formato": "mcq",
-    "enunciado": "Dos laboratorios distintos corren la misma muestra en TLC, pero cada uno usa una fase móvil distinta sobre el mismo tipo de sílice. ¿Qué esperarían encontrar sobre el $R_f$ del mismo compuesto en ambos casos?",
+    "enunciado": "Dos laboratorios distintos corren la misma muestra en TLC, pero cada uno usa una fase móvil distinta sobre el mismo tipo de sílice. ¿Qué esperarían encontrar sobre el [[DG-R-rf|$R_f$]] del mismo compuesto en ambos casos?",
     "opciones": [
       "El $R_f$ puede variar bastante: depende del compuesto y de ambas fases a la vez",
       "El $R_f$ debería ser idéntico: es una propiedad intrínseca, como el punto de fusión",
@@ -364,7 +364,7 @@
     "tarjetaId": "TLC-01",
     "categoria": "TLC",
     "formato": "fill",
-    "enunciado": "Completa la idea sobre qué determina que un compuesto tenga $R_f$ bajo:",
+    "enunciado": "Completa la idea sobre qué determina que un compuesto tenga [[DG-R-rf|$R_f$]] bajo:",
     "antes": "Un compuesto que pasa proporcionalmente más tiempo adsorbido a la sílice, por tener mayor afinidad con la fase estacionaria polar, se mueve menos respecto al frente del solvente durante el desarrollo de la placa, dando un $R_f$",
     "despues": "; uno que pasa más tiempo en la fase móvil se acerca a un $R_f$ cercano a 1.",
     "respuesta": "bajo",
@@ -400,14 +400,14 @@
       "con conjugación extendida,",
       "donde antes no existía ninguno útil"
     ],
-    "explicacion": "La diosgenina es incolora porque su brecha HOMO-LUMO cae en el UV, fuera del rango visible; el revelador modifica su estructura para bajar esa brecha hasta energías de luz visible."
+    "explicacion": "La diosgenina es incolora porque su [[DG-R-cromoforo|brecha HOMO-LUMO]] cae en el UV, fuera del rango visible; el revelador modifica su estructura para bajar esa brecha hasta energías de luz visible."
   },
   {
     "id": "DIO-QR-029",
     "tarjetaId": "ESP-01",
     "categoria": "ESP",
     "formato": "mcq",
-    "enunciado": "La ley de Beer-Lambert dice A = ε·b·c, una relación lineal con la concentración. Pero la luz transmitida a través de la muestra decae de forma exponencial con la concentración, no lineal. ¿Cómo se reconcilian estas dos afirmaciones?",
+    "enunciado": "[[DG-R-beer-lambert|La ley de Beer-Lambert]] dice A = ε·b·c, una relación lineal con la concentración. Pero la luz transmitida a través de la muestra decae de forma exponencial con la concentración, no lineal. ¿Cómo se reconcilian estas dos afirmaciones?",
     "opciones": [
       "No se reconcilian: Beer-Lambert solo es una aproximación empírica en rango corto",
       "La transmitancia decae lineal y la absorbancia exponencial, así que ambas frases dicen lo mismo",
@@ -422,7 +422,7 @@
     "tarjetaId": "ESP-01",
     "categoria": "ESP",
     "formato": "fill",
-    "enunciado": "Completa la idea sobre qué representa cada término de la ley de Beer-Lambert:",
+    "enunciado": "Completa la idea sobre qué representa cada término de [[DG-R-beer-lambert|la ley de Beer-Lambert]]:",
     "antes": "En A = ε·b·c, el coeficiente ε es la constante específica de cada compuesto a una longitud de onda dada, b es la longitud del camino óptico, y c es la",
     "despues": "; los tres términos juntos determinan cuánta luz absorbe la muestra a esa longitud de onda.",
     "respuesta": "concentración molar",
@@ -445,7 +445,7 @@
       "El instrumento detecta dos picos distintos y reporta cada uno por separado"
     ],
     "correcta": 1,
-    "explicacion": "Beer-Lambert, aplicada a una mezcla, predice que las absorbancias de cada compuesto presente se suman: A_total = Σ(εi·b·ci); el instrumento no tiene forma de distinguir de dónde viene cada contribución, así que cualquier compuesto que reaccione de forma similar contribuye a la señal."
+    "explicacion": "[[DG-R-beer-lambert|Beer-Lambert]], aplicada a una mezcla, predice que las absorbancias de cada compuesto presente se suman: A_total = Σ(εi·b·ci); el instrumento no tiene forma de distinguir de dónde viene cada contribución, así que cualquier compuesto que reaccione de forma similar contribuye a la señal."
   },
   {
     "id": "DIO-QR-032",
@@ -473,7 +473,7 @@
       "El ancho del pico depende solo de la longitud de la columna y se anularía con una muy corta"
     ],
     "correcta": 0,
-    "explicacion": "La ecuación de van Deemter (H = A + B/u + C·u) combina tres términos independientes: dos que empeoran a flujo lento y uno que empeora a flujo rápido, dando una curva de eficiencia con un mínimo en una velocidad intermedia, no en ningún extremo."
+    "explicacion": "[[DG-R-van-deemter|La ecuación de van Deemter]] (H = A + B/u + C·u) combina tres términos independientes: dos que empeoran a flujo lento y uno que empeora a flujo rápido, dando una curva de eficiencia con un mínimo en una velocidad intermedia, no en ningún extremo."
   },
   {
     "id": "DIO-QR-034",
@@ -495,7 +495,7 @@
     "tarjetaId": "HPL-13",
     "categoria": "HPL",
     "formato": "mcq",
-    "enunciado": "Un compañero propone comparar el área del pico de diosgenina de la muestra directamente contra una curva hecha con estándares externos puros inyectados por separado. ¿Qué fuente de error introduce este enfoque que un estándar interno evitaría?",
+    "enunciado": "Un compañero propone comparar el área del pico de diosgenina de la muestra directamente contra una curva hecha con estándares externos puros inyectados por separado. ¿Qué fuente de error introduce este enfoque que [[DG-R-estandar-interno|un estándar interno]] evitaría?",
     "opciones": [
       "El estándar externo no detecta si la columna se degradó entre inyecciones",
       "El estándar externo exige un compuesto idéntico a la diosgenina; el interno, cualquiera",
@@ -510,7 +510,7 @@
     "tarjetaId": "HPL-13",
     "categoria": "HPL",
     "formato": "build",
-    "enunciado": "Arma qué compensa el estándar interno al usar la relación de áreas en vez del área absoluta:",
+    "enunciado": "Arma qué compensa [[DG-R-estandar-interno|el estándar interno]] al usar la relación de áreas en vez del área absoluta:",
     "fragmentos": [
       "si el volumen inyectado varía levemente,",
       "ambas áreas cambian proporcionalmente,",
@@ -589,14 +589,14 @@
       "El p-valor bajo solo se explica por un error de medición que infló la diferencia"
     ],
     "correcta": 2,
-    "explicacion": "Tamaño de efecto y significancia estadística responden preguntas distintas: cuán grande es el fenómeno, y cuán confiables son los datos para descartar que sea puro ruido. Un informe riguroso reporta ambas cosas por separado, nunca solo el p-valor."
+    "explicacion": "[[DG-R-efecto-vs-significancia|Tamaño de efecto y significancia]] estadística responden preguntas distintas: cuán grande es el fenómeno, y cuán confiables son los datos para descartar que sea puro ruido. Un informe riguroso reporta ambas cosas por separado, nunca solo el p-valor."
   },
   {
     "id": "DIO-QR-042",
     "tarjetaId": "EST-02",
     "categoria": "EST",
     "formato": "fill",
-    "enunciado": "Completa la idea sobre qué mide el tamaño de efecto, a diferencia de la significancia:",
+    "enunciado": "Completa la idea sobre qué mide [[DG-R-efecto-vs-significancia|el tamaño de efecto]], a diferencia de la significancia:",
     "antes": "El tamaño de efecto, como la diferencia real entre dos medias o esa diferencia en unidades de desviación estándar, mide cuán grande es el fenómeno observado, independiente del tamaño de",
     "despues": "usado para detectarlo estadísticamente.",
     "respuesta": "muestra",
@@ -668,7 +668,7 @@
     "tarjetaId": "HID-12",
     "categoria": "HID",
     "formato": "mcq",
-    "enunciado": "El protocolo neutraliza el hidrolizado con bicarbonato de sodio, una base débil, en vez de hidróxido de sodio, mucho más fuerte y rápido. ¿Cuál es la razón principal para preferir la base débil aquí?",
+    "enunciado": "El protocolo neutraliza el hidrolizado [[DG-R-neutralizacion-suave|con bicarbonato de sodio, una base débil]], en vez de hidróxido de sodio, mucho más fuerte y rápido. ¿Cuál es la razón principal para preferir la base débil aquí?",
     "opciones": [
       "El NaHCO₃ libera CO₂ al reaccionar, autolimita su velocidad y evita el calor local del NaOH",
       "El NaOH no reacciona con el H₂SO₄ diluido; solo el NaHCO₃ neutraliza de verdad el ácido",
@@ -725,7 +725,7 @@
     "tarjetaId": "ELL-08",
     "categoria": "ELL",
     "formato": "mcq",
-    "enunciado": "¿El diclorometano es el solvente 'más eficiente' posible para extraer diosgenina, o hay un compromiso entre extraer MUCHO y extraer LIMPIO?",
+    "enunciado": "¿El diclorometano es el solvente 'más eficiente' posible para extraer diosgenina, o hay [[DG-R-eficiencia-vs-selectividad|un compromiso entre extraer MUCHO y extraer LIMPIO]]?",
     "opciones": [
       "El DCM es a la vez el solvente más eficiente y el más selectivo, así que no existe compromiso",
       "El DCM cambia pureza por rendimiento: su polaridad media también arrastra compuestos parecidos",
@@ -848,7 +848,7 @@
       "Con UV a 210-220 nm la sensibilidad es mala, así que se usa ELSD o derivatización en el flujo"
     ],
     "correcta": 3,
-    "explicacion": "El mismo problema de ε bajo de la cuantificación directa se traslada a HPLC: hay que crear un cromóforo, ya sea con un detector que no dependa de absorción de luz como ELSD, o con derivatización dentro del flujo cromatográfico, la misma lógica de crear conjugación donde no existía."
+    "explicacion": "El mismo problema de ε bajo de la cuantificación directa se traslada a HPLC: hay que [[DG-R-cromoforo|crear un cromóforo]], ya sea con un detector que no dependa de absorción de luz como ELSD, o con derivatización dentro del flujo cromatográfico, la misma lógica de crear conjugación donde no existía."
   },
   {
     "id": "DIO-QR-060",
@@ -878,7 +878,7 @@
       "Ninguno de los dos aporta información diagnóstica real, así que ambos se pueden ignorar"
     ],
     "correcta": 2,
-    "explicacion": "El tailing típico viene de una pequeña fracción de moléculas quedando atrapada temporalmente por silanoles residuales ionizados, retrasándose desproporcionadamente; el hombro, en cambio, suele señalar resolución insuficiente entre dos compuestos distintos con $t_R$ muy cercano, no un defecto de forma del pico principal."
+    "explicacion": "El tailing típico viene de una pequeña fracción de moléculas quedando atrapada temporalmente por [[DG-R-silanol|silanoles residuales]] ionizados, retrasándose desproporcionadamente; el hombro, en cambio, suele señalar resolución insuficiente entre dos compuestos distintos con $t_R$ muy cercano, no un defecto de forma del pico principal."
   },
   {
     "id": "DIO-QR-062",
@@ -906,14 +906,14 @@
       "3.5 × 10⁻⁴ M, dividiendo la absorbancia corregida entre un ε diez veces menor al reportado para esta longitud de onda"
     ],
     "correcta": 0,
-    "explicacion": "Hay que restar el blanco antes de aplicar Beer-Lambert: A corregida = 0.47 - 0.05 = 0.42, y c = A/(ε·b) = 0.42/12000 = 3.5 × 10⁻⁵ M. Usar la absorbancia sin corregir sobreestima la concentración, porque parte de esa señal viene del reactivo mismo, no del analito."
+    "explicacion": "Hay que [[DG-R-blanco|restar el blanco]] antes de aplicar Beer-Lambert: A corregida = 0.47 - 0.05 = 0.42, y c = A/(ε·b) = 0.42/12000 = 3.5 × 10⁻⁵ M. Usar la absorbancia sin corregir sobreestima la concentración, porque parte de esa señal viene del reactivo mismo, no del analito."
   },
   {
     "id": "DIO-QR-064",
     "tarjetaId": "ESP-06",
     "categoria": "ESP",
     "formato": "fill",
-    "enunciado": "Completa el paso que hay que hacer antes de aplicar Beer-Lambert:",
+    "enunciado": "Completa el paso que hay que hacer antes de aplicar [[DG-R-beer-lambert|Beer-Lambert]]:",
     "antes": "Con blanco = 0.03 y muestra sin corregir = 0.28 a la misma longitud de onda, la absorbancia que realmente corresponde al analito es la resta entre ambas: A = 0.28 − 0.03 = ",
     "despues": ", y solo ese valor corregido se usa para calcular la concentración.",
     "respuesta": "0.25",
@@ -929,7 +929,7 @@
     "tarjetaId": "ESP-02",
     "categoria": "ESP",
     "formato": "mcq",
-    "enunciado": "Diluyeron una muestra 1:5, 1 mL de muestra en un volumen final de 5 mL, porque la absorbancia sin diluir se salía del rango lineal de Beer-Lambert. La concentración medida en esa dilución fue 0.008 M. ¿Cuál es la concentración real en la muestra original, antes de diluir?",
+    "enunciado": "Diluyeron una muestra 1:5, 1 mL de muestra en un volumen final de 5 mL, porque la absorbancia sin diluir se salía del rango lineal de [[DG-R-beer-lambert|Beer-Lambert]]. La concentración medida en esa dilución fue 0.008 M. ¿Cuál es la concentración real en la muestra original, antes de diluir?",
     "opciones": [
       "0.008 M, porque diluir solo cambia el volumen que se mide, no la concentración real de la muestra original antes de diluir",
       "0.04 M, multiplicando la concentración medida en la dilución por el factor de dilución para volver a la concentración original",
@@ -1580,6 +1580,6 @@
       "2": 1,
       "3": 0
     },
-    "explicacion": "Son cuatro preguntas distintas que se confunden a menudo. El p-valor no mide el tamaño ni la probabilidad de la hipótesis; el poder es una propiedad del diseño anterior a ver los datos; el tamaño de efecto y el intervalo son lo que de verdad hay que reportar para que otro juzgue el resultado."
+    "explicacion": "Son cuatro preguntas distintas que se confunden a menudo. El p-valor no mide el tamaño ni la probabilidad de la hipótesis; el poder es una propiedad del diseño anterior a ver los datos; [[DG-R-efecto-vs-significancia|el tamaño de efecto]] y el intervalo son lo que de verdad hay que reportar para que otro juzgue el resultado."
   }
 ]

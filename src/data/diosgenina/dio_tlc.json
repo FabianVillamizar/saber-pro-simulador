@@ -16,7 +16,7 @@
     "connects_to": [
       "HPL"
     ],
-    "regla": "el $R_f$ es un coeficiente de partición (FQT-03) pero en un sistema donde el compuesto se reparte miles de veces mientras el solvente avanza, no una sola vez como en un embudo.",
+    "regla": "el [[DG-R-rf|$R_f$]] es un coeficiente de partición (FQT-03) pero en un sistema donde el compuesto se reparte miles de veces mientras el solvente avanza, no una sola vez como en un embudo.",
     "conexion_cotidiana": "El nombre 'cromatografía' (griego chroma, color; graphein, escribir) viene del experimento fundacional del botánico ruso **Mikhail Tswett** (1900-1903): separó los pigmentos de hojas pasando un extracto por una columna de carbonato de calcio y viendo bandas de colores a distintas alturas."
   },
   {
@@ -35,7 +35,7 @@
     "connects_to": [
       "HPL"
     ],
-    "regla": "la superficie de sílice está saturada de grupos silanol (Si-OH), que forman puentes de hidrógeno con el analito — su función es química, no un simple 'colador' físico.",
+    "regla": "la superficie de sílice está saturada de [[DG-R-silanol|grupos silanol]] (Si-OH), que forman puentes de hidrógeno con el analito — su función es química, no un simple 'colador' físico.",
     "conexion_cotidiana": "Esa misma química de superficie es por qué el **gel de sílice** es el desecante de los sobrecitos 'no comer': los mismos silanoles que retienen tu analito capturan agua del aire, y esa sílice tiene un enorme volumen de poro interno que multiplica los sitios disponibles."
   },
   {
@@ -64,7 +64,7 @@
     "bloque": "TLC",
     "modo": "pregunta",
     "pregunta": "¿Qué fuerza física hace que el solvente suba activamente contra la gravedad por la placa de sílice, sin ninguna bomba ni presión externa aplicada?",
-    "respuesta": "La capilaridad sale del balance entre **cohesión** (moléculas del líquido atrayéndose entre sí, sobre todo por puentes de H) y **adhesión** (moléculas del líquido atraídas a la superficie de sílice, vía puentes de H con los silanoles de **TLC-02**). Cuando la adhesión supera la cohesión interna, el líquido se extiende sobre el sólido en vez de mantenerse compacto: se forma un menisco cóncavo, y la tensión superficial genera una fuerza neta hacia arriba dentro de los poros diminutos entre partículas, que actúan como capilares microscópicos. Esa fuerza sigue tirando del líquido mientras haya adhesión disponible, contra la gravedad.",
+    "respuesta": "La [[DG-R-capilaridad|capilaridad]] sale del balance entre **cohesión** (moléculas del líquido atrayéndose entre sí, sobre todo por puentes de H) y **adhesión** (moléculas del líquido atraídas a la superficie de sílice, vía puentes de H con los silanoles de **TLC-02**). Cuando la adhesión supera la cohesión interna, el líquido se extiende sobre el sólido en vez de mantenerse compacto: se forma un menisco cóncavo, y la tensión superficial genera una fuerza neta hacia arriba dentro de los poros diminutos entre partículas, que actúan como capilares microscópicos. Esa fuerza sigue tirando del líquido mientras haya adhesión disponible, contra la gravedad.",
     "error_comun": "Pensar que el solvente 'sube' por alguna fuerza activa de la sílice empujándolo: es un fenómeno pasivo de balance de fuerzas intermoleculares (adhesión vs. cohesión).",
     "dificultad": "alta",
     "prereqs": [
@@ -90,7 +90,7 @@
     ],
     "connects_to": [],
     "regla": "si el punto de siembra queda sumergido, el analito se disuelve directamente en el reservorio líquido en vez de quedar retenido en un punto discreto para empezar su partición controlada.",
-    "conexion_cotidiana": "Tiene un paralelo en las **mechas de velas y lámparas de aceite**: una mecha necesita estar parcialmente sumergida para absorber combustible por capilaridad, pero si quedara del todo sumergida sin nada expuesto arriba, no habría transporte hacia la llama."
+    "conexion_cotidiana": "Tiene un paralelo en las **mechas de velas y lámparas de aceite**: una mecha necesita estar parcialmente sumergida para absorber combustible por [[DG-R-capilaridad|capilaridad]], pero si quedara del todo sumergida sin nada expuesto arriba, no habría transporte hacia la llama."
   },
   {
     "id": "TLC-06",
@@ -99,7 +99,7 @@
     "bloque": "TLC",
     "modo": "pregunta",
     "pregunta": "¿Por qué se tapa la cámara de desarrollo y se deja 'equilibrar' unos minutos antes de introducir la placa, en vez de meter la placa apenas se vierte el solvente?",
-    "respuesta": "Al verter solvente fresco y tapar la cámara, el aire de dentro se llena con vapor de ese solvente (según su presión de vapor, **FQT-08**) hasta casi saturarse. Si se mete la placa ANTES de ese equilibrio, el solvente que asciende se evapora hacia un aire aún seco en vez de estar en equilibrio con una atmósfera ya cargada del mismo vapor: eso genera un gradiente de evaporación desigual a lo largo de la placa, curva el frente y afecta la reproducibilidad del $R_f$, sobre todo con mezclas de solventes de distinta volatilidad.",
+    "respuesta": "Al verter solvente fresco y tapar la cámara, el aire de dentro se llena con vapor de ese solvente (según su presión de vapor, **FQT-08**) hasta casi saturarse. Si se mete la placa ANTES de ese equilibrio, el solvente que asciende se evapora hacia un aire aún seco en vez de estar en equilibrio con una atmósfera ya cargada del mismo vapor: eso genera un gradiente de evaporación desigual a lo largo de la placa, curva el frente y afecta la reproducibilidad del [[DG-R-rf|$R_f$]], sobre todo con mezclas de solventes de distinta volatilidad.",
     "error_comun": "Pensar que 'saturar la cámara' es solo un paso opcional de refinamiento sin impacto real: para sistemas de solvente mixto afecta directamente la reproducibilidad del $R_f$ y la forma del frente.",
     "dificultad": "alta",
     "prereqs": [
@@ -126,7 +126,7 @@
     "connects_to": [
       "ESP"
     ],
-    "regla": "el revelador no 'tiñe' pasivamente — reacciona químicamente con el analito creando un cromóforo nuevo donde antes no existía uno útil.",
+    "regla": "[[DG-R-revelado|el revelador no 'tiñe' pasivamente]] — reacciona químicamente con el analito creando un cromóforo nuevo donde antes no existía uno útil.",
     "conexion_cotidiana": "Esta derivatización química IN SITU para hacer visible lo invisible tiene un pariente forense: revelar **huellas dactilares latentes** con ninhidrina funciona igual — reacciona con los aminoácidos formando un compuesto coloreado (púrpura de Ruhemann), haciendo visible una huella indetectable a simple vista."
   },
   {
@@ -163,7 +163,7 @@
     "connects_to": [
       "HPL"
     ],
-    "regla": "la resolución depende de qué tan distintos son los $R_f$, pero también de qué tan anchas son las manchas y de la distancia total de desarrollo disponible.",
+    "regla": "la resolución depende de qué tan distintos son los [[DG-R-rf|$R_f$]], pero también de qué tan anchas son las manchas y de la distancia total de desarrollo disponible.",
     "conexion_cotidiana": "Tiene un paralelo en astronomía observacional: dos estrellas muy juntas se ven como un punto borroso con un telescopio de baja resolución, igual que dos manchas de $R_f$ parecido se ven como una sola mancha alargada — la solución es la misma: aumentar la 'distancia' efectiva de separación (placa más larga, o mayor apertura)."
   },
   {

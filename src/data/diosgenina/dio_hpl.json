@@ -6,7 +6,7 @@
     "bloque": "HPL",
     "modo": "pregunta",
     "pregunta": "Conceptualmente, TLC y HPLC separan por el mismo principio de partición entre fase estacionaria y móvil (TLC-01). Entonces, ¿qué es literalmente lo que cambia al pasar de una placa a una columna?",
-    "respuesta": "**(1)** La fase estacionaria ya no es una capa delgada abierta al aire, sino partículas empacadas densamente dentro de un tubo cerrado (la columna) — mucha más área en poco volumen. **(2)** La fase móvil ya no sube por capilaridad (**TLC-04**) sino que se bombea a alta presión (**HPL-03**), porque el empaque denso resiste mucho más el flujo. **(3)** La detección ya no es una imagen estática al final (**TLC-07**) sino una medición en tiempo real conforme el líquido sale de la columna y pasa por un detector (**HPL-08**), dando un cromatograma en vez de manchas fijas.",
+    "respuesta": "**(1)** La fase estacionaria ya no es una capa delgada abierta al aire, sino partículas empacadas densamente dentro de un tubo cerrado (la columna) — mucha más área en poco volumen. **(2)** La fase móvil ya no sube por [[DG-R-capilaridad|capilaridad]] (**TLC-04**) sino que se bombea a alta presión (**HPL-03**), porque el empaque denso resiste mucho más el flujo. **(3)** La detección ya no es una imagen estática al final (**TLC-07**) sino una medición en tiempo real conforme el líquido sale de la columna y pasa por un detector (**HPL-08**), dando un cromatograma en vez de manchas fijas.",
     "error_comun": "Pensar que HPLC es 'una técnica completamente distinta' de TLC en su fundamento: comparten exactamente el mismo principio de partición entre dos fases; HPLC es una implementación más sofisticada.",
     "dificultad": "alta",
     "prereqs": [
@@ -85,7 +85,7 @@
     "connects_to": [
       "EST"
     ],
-    "regla": "$t_R$ depende de variabilidad puramente instrumental; k' normaliza eso restando y dividiendo por $t_0$, dejando solo la interacción química real.",
+    "regla": "[[DG-R-factor-capacidad|$t_R$ depende de variabilidad]] puramente instrumental; k' normaliza eso restando y dividiendo por $t_0$, dejando solo la interacción química real.",
     "conexion_cotidiana": "Normalizar una medición de tiempo por un valor de referencia tiene paralelo en astrofísica: el **corrimiento al rojo (z)** de una galaxia no se reporta en nanómetros absolutos sino normalizado respecto a la longitud de onda original de esa línea (z = Δλ/λ0), dando un número comparable entre observaciones y telescopios distintos."
   },
   {
@@ -164,7 +164,7 @@
     "connects_to": [
       "PFT"
     ],
-    "regla": "el mismo problema de ε bajo de ESP-03 se traslada a HPLC — hay que crear un cromóforo, ya sea con otro detector o con derivatización dentro del flujo cromatográfico.",
+    "regla": "el mismo problema de ε bajo de ESP-03 se traslada a HPLC — hay que [[DG-R-cromoforo|crear un cromóforo]], ya sea con otro detector o con derivatización dentro del flujo cromatográfico.",
     "conexion_cotidiana": "Tiene un paralelo casi idéntico en el análisis clínico de **colesterol en sangre**: el colesterol, muy parecido a la diosgenina (esterol con un solo -OH y sin cromóforo fuerte), se cuantifica por métodos enzimático-colorimétricos donde la colesterol oxidasa genera peróxido que reacciona con un reactivo cromógeno dando color — por la misma limitación de detección directa."
   },
   {
@@ -215,7 +215,7 @@
       "HPL-05"
     ],
     "connects_to": [],
-    "regla": "$t_0$ es el tiempo mínimo físico que cualquier cosa, retenida o no, tarda en atravesar el sistema — no puede ser cero porque hay un volumen real que recorrer.",
+    "regla": "[[DG-R-factor-capacidad|$t_0$]] es el tiempo mínimo físico que cualquier cosa, retenida o no, tarda en atravesar el sistema — no puede ser cero porque hay un volumen real que recorrer.",
     "conexion_cotidiana": "El concepto de 'tiempo mínimo que algo tarda en atravesar un sistema sin ninguna interacción retardante' tiene un paralelo en relatividad: el **tiempo de tránsito de la luz** por cualquier distancia (los ~8 minutos del Sol a la Tierra) es el $t_0$ absoluto de esa distancia, el mínimo contra el cual se mide cualquier retraso adicional (como el efecto Shapiro)."
   },
   {
@@ -234,7 +234,7 @@
     "connects_to": [
       "EST"
     ],
-    "regla": "con estándar interno, cualquier error proporcional de inyección afecta por igual a ambos compuestos, y se cancela al tomar la relación entre sus áreas.",
+    "regla": "[[DG-R-estandar-interno|con estándar interno]], cualquier error proporcional de inyección afecta por igual a ambos compuestos, y se cancela al tomar la relación entre sus áreas.",
     "conexion_cotidiana": "El mismo principio —añadir una cantidad conocida de un marcador de referencia para corregir por pérdidas del proceso— es la lógica de la **dilución isotópica** en geoquímica y arqueología: se añade una cantidad conocida de un isótopo del mismo elemento antes de cualquier procesamiento, de modo que cualquier pérdida de material se cancele al calcular la relación final."
   },
   {
@@ -271,7 +271,7 @@
       "TLC-03"
     ],
     "connects_to": [],
-    "regla": "dos funciones simultáneas — controla el pH de los silanoles residuales de la columna (mejorando la forma del pico) Y es compatible con MS por ser volátil.",
+    "regla": "dos funciones simultáneas — controla el pH de los [[DG-R-silanol|silanoles residuales]] de la columna (mejorando la forma del pico) Y es compatible con MS por ser volátil.",
     "conexion_cotidiana": "Es la misma estrategia de **ELL-07** (extracción ácido-base selectiva): manipular el pH del sistema para controlar si un grupo ionizable está en su forma neutra o cargada — el mismo principio de pH/pKa (**FQT-12**), aquí aplicado a la superficie de la fase estacionaria de la columna."
   },
   {
@@ -281,7 +281,7 @@
     "bloque": "HPL",
     "modo": "pregunta",
     "pregunta": "Un pico de HPLC 'perfecto' en un libro de texto es una curva gaussiana simétrica. En la práctica, ven picos con 'cola' (tailing) o con un 'hombro' pegado a otro pico. ¿Qué causa fisicoquímica tiene cada uno de estos defectos?",
-    "respuesta": "**Tailing (cola)**: el pico sube normalmente al frente pero decae mucho más lentamente en su parte posterior. La causa más común es la interacción secundaria con silanoles residuales ionizados de **HPL-15**: una pequeña fracción de moléculas queda 'atrapada' temporalmente y se retrasa desproporcionadamente respecto al resto. También puede deberse a sobrecarga de columna (análogo al streaking de **TLC-08**).\n\n**Hombro (shoulder)**: una protuberancia en el costado de un pico principal, casi siempre un SEGUNDO compuesto con $t_R$ muy cercano no separado del todo (resolución insuficiente, **HPL-07**), no un defecto del pico principal en sí.",
+    "respuesta": "**Tailing (cola)**: el pico sube normalmente al frente pero decae mucho más lentamente en su parte posterior. La causa más común es la interacción secundaria con [[DG-R-silanol|silanoles residuales]] ionizados de **HPL-15**: una pequeña fracción de moléculas queda 'atrapada' temporalmente y se retrasa desproporcionadamente respecto al resto. También puede deberse a sobrecarga de columna (análogo al streaking de **TLC-08**).\n\n**Hombro (shoulder)**: una protuberancia en el costado de un pico principal, casi siempre un SEGUNDO compuesto con $t_R$ muy cercano no separado del todo (resolución insuficiente, **HPL-07**), no un defecto del pico principal en sí.",
     "error_comun": "Confundir tailing con la presencia de un segundo compuesto: el tailing típico es un defecto de FORMA de un solo compuesto, mientras que un hombro específicamente sugiere una segunda especie química distinta.",
     "dificultad": "alta",
     "prereqs": [

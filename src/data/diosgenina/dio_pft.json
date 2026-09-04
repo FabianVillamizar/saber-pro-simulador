@@ -15,7 +15,7 @@
     "connects_to": [
       "EST"
     ],
-    "regla": "cuantificar exige trazabilidad a un patrón de referencia certificado; perfilar es una comparación relativa rigurosa bajo el mismo método — ambos válidos, pero con afirmaciones de alcance distinto.",
+    "regla": "[[DG-R-perfilar-vs-cuantificar|cuantificar exige trazabilidad]] a un patrón de referencia certificado; perfilar es una comparación relativa rigurosa bajo el mismo método — ambos válidos, pero con afirmaciones de alcance distinto.",
     "conexion_cotidiana": "Esta distinción entre medida relativa y medida absoluta trazable es vieja en ecología de comunidades: el **índice de diversidad de Shannon** no mide una biodiversidad absoluta trazable a una unidad física, es un número relativo útil solo para comparar entre sitios bajo el mismo protocolo — igual que tu índice colorimétrico entre muestras de ñame."
   },
   {
@@ -84,7 +84,7 @@
     "bloque": "PFT",
     "modo": "pregunta",
     "pregunta": "Aún no tienen diosgenina pura, pero ya se recomendó usar escina comercial como referencia provisional para el índice colorimétrico. ¿Qué gana el resultado al reportarlo como 'mg equivalentes de escina' en vez de solo la absorbancia cruda?",
-    "respuesta": "La absorbancia cruda depende de las condiciones de esa sesión: concentración del reactivo cromógeno ese día, calibración del espectrofotómetro, tiempo de reacción real (**ESP-10**), así que comparar absorbancias crudas entre sesiones es poco confiable. Al normalizar contra una curva de calibración hecha con escina CORRIDA EN LA MISMA SESIÓN, esa absorbancia se vuelve un número relativo mucho más estable frente a la variabilidad día a día, igual que el estándar interno de **HPL-13** cancela la variabilidad de volumen de inyección.",
+    "respuesta": "La absorbancia cruda depende de las condiciones de esa sesión: concentración del reactivo cromógeno ese día, calibración del espectrofotómetro, tiempo de reacción real (**ESP-10**), así que comparar absorbancias crudas entre sesiones es poco confiable. Al normalizar contra una curva de calibración hecha con escina CORRIDA EN LA MISMA SESIÓN, esa absorbancia se vuelve un número relativo mucho más estable frente a la variabilidad día a día, igual que [[DG-R-estandar-interno|el estándar interno]] de **HPL-13** cancela la variabilidad de volumen de inyección.",
     "error_comun": "Pensar que 'mg equivalentes de escina' significa que la muestra contiene escina, o que la señal ES escina: es solo una unidad de normalización, no una afirmación de identidad química.",
     "dificultad": "alta",
     "prereqs": [

@@ -6,7 +6,7 @@
     "bloque": "EST",
     "modo": "pregunta",
     "pregunta": "El p-valor de una prueba de hipótesis se malinterpreta constantemente incluso por científicos experimentados. ¿Cuál es su definición formal exacta, y cuáles son las dos interpretaciones erróneas más comunes?",
-    "respuesta": "El p-valor es la probabilidad de observar un resultado tan extremo o más que el obtenido, ASUMIENDO que la hipótesis nula (H₀, 'no hay diferencia real') es verdadera. **Primer error**: leerlo como 'la probabilidad de que H₀ sea verdadera dados los datos' — eso es P(H₀ | datos), otra cantidad que exige razonamiento bayesiano. **Segundo error**: tratarlo como medida de 'qué tan fuerte' es la evidencia — un p pequeño puede venir de un efecto pequeño medido con mucha precisión (n grande), y un p grande puede ocultar un efecto grande medido con poca. El p-valor mezcla tamaño de efecto Y tamaño de muestra, así que no se lee como 'qué tan importante' es el hallazgo sin mirar el tamaño de efecto aparte (**EST-02**).",
+    "respuesta": "[[DG-R-pvalor|El p-valor es la probabilidad]] de observar un resultado tan extremo o más que el obtenido, ASUMIENDO que la hipótesis nula (H₀, 'no hay diferencia real') es verdadera. **Primer error**: leerlo como 'la probabilidad de que H₀ sea verdadera dados los datos' — eso es P(H₀ | datos), otra cantidad que exige razonamiento bayesiano. **Segundo error**: tratarlo como medida de 'qué tan fuerte' es la evidencia — un p pequeño puede venir de un efecto pequeño medido con mucha precisión (n grande), y un p grande puede ocultar un efecto grande medido con poca. El p-valor mezcla tamaño de efecto Y tamaño de muestra, así que no se lee como 'qué tan importante' es el hallazgo sin mirar el tamaño de efecto aparte (**EST-02**).",
     "error_comun": "Decir o pensar 'el p-valor es la probabilidad de que la hipótesis nula sea verdadera' — la falacia de inversión condicional más común y persistente, incluso entre investigadores publicados.",
     "dificultad": "alta",
     "prereqs": [],
@@ -28,7 +28,7 @@
       "EST-01"
     ],
     "connects_to": [],
-    "regla": "tamaño de efecto y significancia estadística responden preguntas distintas — cuán grande es el fenómeno, vs. cuán confiables son los datos para descartar ruido.",
+    "regla": "[[DG-R-efecto-vs-significancia|tamaño de efecto y significancia]] estadística responden preguntas distintas — cuán grande es el fenómeno, vs. cuán confiables son los datos para descartar ruido.",
     "conexion_cotidiana": "En investigación clínica esto se mide con el **NNT (número necesario a tratar)**: un fármaco puede reducir el riesgo de forma 'muy significativa' en un ensayo de decenas de miles de pacientes y aun así tener un NNT de 200 — robusto estadísticamente, pero de relevancia clínica marginal para un paciente."
   },
   {
@@ -45,7 +45,7 @@
       "EST-02"
     ],
     "connects_to": [],
-    "regla": "poder = probabilidad de detectar un efecto real, SI existe — depende de tamaño de efecto, tamaño de muestra y variabilidad de los datos, los tres a la vez.",
+    "regla": "poder = probabilidad de detectar un efecto real, SI existe — depende de [[DG-R-efecto-vs-significancia|tamaño de efecto]], tamaño de muestra y variabilidad de los datos, los tres a la vez.",
     "conexion_cotidiana": "El poder estadístico es el mismo razonamiento que hace un jugador de **póker** al decidir si 'llama' una apuesta grande con mano marginal: la decisión racional no depende solo de si hay probabilidad de ganar, sino de si esa probabilidad justifica el costo de la apuesta — 'pot odds', la misma lógica que un análisis de poder."
   },
   {
@@ -62,7 +62,7 @@
       "EST-03"
     ],
     "connects_to": [],
-    "regla": "un diseño 'un factor a la vez' no puede ver interacciones porque nunca prueba las combinaciones que las revelan — un factorial sí las prueba, todas, a la vez.",
+    "regla": "un diseño '[[DG-R-factorial|un factor a la vez]]' no puede ver interacciones porque nunca prueba las combinaciones que las revelan — un factorial sí las prueba, todas, a la vez.",
     "conexion_cotidiana": "El diseño factorial lo desarrolló en gran parte el mismo **Ronald Fisher** de **EST-01**, al ver en sus experimentos agrícolas que el rendimiento de un cultivo dependía de interacciones entre factores (un fertilizante nitrogenado podía rendir muy distinto según el suelo o el riego) que un enfoque 'un factor a la vez' no detectaba."
   },
   {

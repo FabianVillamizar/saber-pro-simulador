@@ -6,7 +6,7 @@
     "bloque": "HID",
     "modo": "pregunta",
     "pregunta": "Paso a paso, ¿qué le pasa exactamente a la molécula de dioscina durante la hidrólisis ácida, átomo por átomo?",
-    "respuesta": "1. **Protonación**: el H⁺ del H₂SO₄ protona el oxígeno del enlace glucosídico.\n\n2. **Salida del grupo saliente**: ese oxígeno protonado se va como agua neutra, dejando un catión en el carbono anomérico: el **ion oxocarbenio**.\n\n3. **Estabilización por resonancia**: el oxígeno del anillo dona su par libre hacia el carbono catiónico, formando un doble enlace parcial C=O+ (efecto anomérico, ver **HID-03**).\n\n4. **Ataque nucleofílico del agua**: el agua ataca ese carbono electrofílico desde cualquiera de las dos caras, por eso hay pérdida de estereoquímica (mecanismo **SN1**, ver **HID-02**).\n\n5. **Desprotonación**: el oxígeno recién unido pierde un protón, que vuelve al medio regenerando el catalizador.\n\nRepetir esto en cada enlace glucosídico libera, secuencialmente, cada azúcar hasta quedar diosgenina libre.",
+    "respuesta": "1. **Protonación**: el H⁺ del H₂SO₄ protona el oxígeno del enlace glucosídico.\n\n2. **Salida del grupo saliente**: ese oxígeno protonado se va como agua neutra, dejando un catión en el [[DG-R-oxocarbenio|carbono anomérico]]: el **ion oxocarbenio**.\n\n3. **Estabilización por resonancia**: el oxígeno del anillo dona su par libre hacia el carbono catiónico, formando un doble enlace parcial C=O+ (efecto anomérico, ver **HID-03**).\n\n4. **Ataque nucleofílico del agua**: el agua ataca ese carbono electrofílico desde cualquiera de las dos caras, por eso hay pérdida de estereoquímica (mecanismo **SN1**, ver **HID-02**).\n\n5. **Desprotonación**: el oxígeno recién unido pierde un protón, que vuelve al medio regenerando el catalizador.\n\nRepetir esto en cada enlace glucosídico libera, secuencialmente, cada azúcar hasta quedar diosgenina libre.",
     "error_comun": "Pensar que el mecanismo es SN2 (ataque concertado con salida simultánea) — es SN1-like, con un intermediario catiónico discreto (ver HID-02).",
     "dificultad": "alta",
     "prereqs": [
@@ -33,7 +33,7 @@
       "HID-01"
     ],
     "connects_to": [],
-    "regla": "el carbono anomérico está rodeado de dos oxígenos, y eso bloquea el SN2 pero habilita un catión inusualmente estable.",
+    "regla": "el [[DG-R-oxocarbenio|carbono anomérico]] está rodeado de dos oxígenos, y eso bloquea el SN2 pero habilita un catión inusualmente estable.",
     "conexion_cotidiana": "Este mismo fenómeno (carbono junto a un oxígeno con pares libres formando cationes anormalmente estables) es la razón química de por qué los **acetales se usan como grupos protectores** en síntesis orgánica: protegen un alcohol o aldehído en condiciones básicas/neutras, y se pueden 'desproteger' después con un simple lavado ácido suave — el mismo mecanismo que usas para liberar diosgenina."
   },
   {
@@ -229,7 +229,7 @@
       "ELL",
       "SER"
     ],
-    "regla": "NaHCO₃ se 'auto-limita' térmicamente liberando CO₂ gaseoso, dando control; NaOH neutralizaría de golpe y localmente, arriesgando sobrecalentamiento puntual sobre un producto ya sensible.",
+    "regla": "[[DG-R-neutralizacion-suave|NaHCO₃ se 'auto-limita' térmicamente liberando CO₂]] gaseoso, dando control; NaOH neutralizaría de golpe y localmente, arriesgando sobrecalentamiento puntual sobre un producto ya sensible.",
     "conexion_cotidiana": "Esta misma estrategia (base débil y auto-limitada en vez de un reactivo fuerte e instantáneo) es el principio detrás de los **antiácidos estomacales** de venta libre (bicarbonato de sodio o carbonato de calcio): neutralizan el exceso de HCl gástrico de forma progresiva, con la misma liberación de CO₂, de ahí el eructo característico después de tomar un antiácido con bicarbonato."
   }
 ]

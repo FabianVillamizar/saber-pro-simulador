@@ -15,7 +15,7 @@
     "connects_to": [
       "SER"
     ],
-    "regla": "la fracción NO extraída se eleva a la potencia n (número de extracciones) — por eso más extracciones gana, aunque cada una use menos solvente.",
+    "regla": "[[DG-R-extracciones-multiples|la fracción NO extraída]] se eleva a la potencia n (número de extracciones) — por eso más extracciones gana, aunque cada una use menos solvente.",
     "conexion_cotidiana": "Esta misma ecuación exponencial (fracción remanente elevada a n etapas) es matemáticamente idéntica a la que describe la eficiencia de la **diálisis renal** o el diseño de **filtros de agua en serie**: pasar el fluido por varias etapas pequeñas es sistemáticamente más eficiente que una sola etapa grande con el mismo presupuesto total."
   },
   {
@@ -40,7 +40,7 @@
     "bloque": "ELL",
     "modo": "pregunta",
     "pregunta": "Físicamente, ¿qué ES una emulsión, y por qué las saponinas remanentes la hacen tan difícil de romper?",
-    "respuesta": "En la interfase entre dos líquidos inmiscibles existe una **tensión interfacial**: una energía por unidad de área que el sistema paga por esa superficie de contacto. El sistema prefiere minimizar esa área total, por eso dos líquidos inmiscibles separan en dos capas planas, no en gotas dispersas. Un **tensioactivo** (como una saponina, con su parte polar de azúcares y su parte apolar esteroidal) se acomoda literalmente EN la interfase, reduciendo drásticamente esa energía costosa. Al bajar tanto el costo de tener mucha área interfacial, el sistema puede quedar cinéticamente atrapado como gotas pequeñas estabilizadas (emulsión) en vez de separar limpiamente.",
+    "respuesta": "En la interfase entre dos líquidos inmiscibles existe una **tensión interfacial**: una energía por unidad de área que el sistema paga por esa superficie de contacto. El sistema prefiere minimizar esa área total, por eso dos líquidos inmiscibles separan en dos capas planas, no en gotas dispersas. Un **tensioactivo** (como una saponina, con su parte polar de azúcares y su parte apolar esteroidal) se acomoda literalmente EN la interfase, reduciendo drásticamente esa energía costosa. Al bajar tanto el costo de tener mucha área interfacial, el sistema puede quedar [[DG-R-emulsion|cinéticamente atrapado]] como gotas pequeñas estabilizadas (emulsión) en vez de separar limpiamente.",
     "error_comun": "Pensar que una emulsión es 'solo una mezcla que aún no se ha separado por falta de tiempo' — es un estado cinéticamente estabilizado (a veces horas o días) por el tensioactivo, no simplemente lento.",
     "dificultad": "alta",
     "prereqs": [
@@ -96,7 +96,7 @@
     "bloque": "ELL",
     "modo": "pregunta",
     "pregunta": "Ya extrajeron la diosgenina al DCM y la separaron del hidrolizado acuoso principal. ¿Qué es exactamente lo que quitan al 'lavar' esa fase con agua adicional, si se supone que ya está separada?",
-    "respuesta": "Ninguna separación de fases es perfecta al 100%: siempre queda una pequeña cantidad de fase acuosa arrastrada mecánicamente dentro de la orgánica, además de compuestos con solubilidad intermedia que pueden haber pasado al DCM junto con la diosgenina. El lavado con agua fresca usa agua para extraer FUERA del DCM cualquier traza de compuestos polares co-disueltos (furfurales, productos de degradación de azúcares, ácido residual, sales) que tengan mejor afinidad por el agua. Como la diosgenina tiene un coeficiente de partición muy favorable hacia el DCM (**FQT-03**), el lavado la deja mayormente intacta mientras remueve selectivamente lo que sí prefiere el agua.",
+    "respuesta": "Ninguna separación de fases es perfecta al 100%: siempre queda una pequeña cantidad de fase acuosa arrastrada mecánicamente dentro de la orgánica, además de compuestos con solubilidad intermedia que pueden haber pasado al DCM junto con la diosgenina. El lavado con agua fresca usa agua para extraer FUERA del DCM cualquier traza de compuestos polares co-disueltos (furfurales, productos de degradación de azúcares, ácido residual, sales) que tengan mejor afinidad por el agua. Como la diosgenina tiene un [[DG-R-reparto|coeficiente de partición]] muy favorable hacia el DCM (**FQT-03**), el lavado la deja mayormente intacta mientras remueve selectivamente lo que sí prefiere el agua.",
     "error_comun": "Pensar que el lavado es 'redundante' porque ya se hizo la separación principal — cumple una función de purificación adicional, no es un paso repetido sin propósito.",
     "dificultad": "alta",
     "prereqs": [
@@ -133,7 +133,7 @@
     "bloque": "ELL",
     "modo": "pregunta",
     "pregunta": "¿Es DCM el solvente 'más eficiente' posible para extraer diosgenina, o hay un trade-off entre extraer MUCHO y extraer LIMPIO?",
-    "respuesta": "Un solvente extractor ideal tendría un coeficiente de partición (**FQT-03**) extremadamente favorable para el compuesto de interés Y muy desfavorable para todos los demás. En la práctica, un solvente de polaridad intermedia como el DCM extrae eficientemente diosgenina, pero por esa misma polaridad intermedia también arrastra otros compuestos con polaridad parecida (pigmentos, fenoles, trazas de furfurales) que un solvente más apolar dejaría atrás casi por completo, a costa de extraer también mucha menos diosgenina. Elegir DCM es un compromiso deliberado: prioriza rendimiento sobre pureza absoluta, confiando en que los pasos posteriores (lavado, derivatización, cromatografía) terminen de limpiar lo que el solvente no pudo dejar atrás.",
+    "respuesta": "Un solvente extractor ideal tendría un [[DG-R-reparto|coeficiente de partición]] (**FQT-03**) extremadamente favorable para el compuesto de interés Y muy desfavorable para todos los demás. En la práctica, un solvente de polaridad intermedia como el DCM extrae eficientemente diosgenina, pero por esa misma polaridad intermedia también arrastra otros compuestos con polaridad parecida (pigmentos, fenoles, trazas de furfurales) que un solvente más apolar dejaría atrás casi por completo, a costa de extraer también mucha menos diosgenina. Elegir DCM es un compromiso deliberado: prioriza rendimiento sobre pureza absoluta, confiando en que los pasos posteriores (lavado, derivatización, cromatografía) terminen de limpiar lo que el solvente no pudo dejar atrás.",
     "error_comun": "Asumir que 'el solvente que más extrae' es automáticamente 'el mejor solvente' — depende de qué tan limpio necesite quedar el extracto para el análisis posterior.",
     "dificultad": "alta",
     "prereqs": [

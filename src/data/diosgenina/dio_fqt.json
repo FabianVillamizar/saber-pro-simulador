@@ -43,7 +43,7 @@
     "modo": "pregunta",
     "pregunta": "Cuando agitas DCM y agua con diosgenina disuelta, ¿qué determina exactamente cuánto va a cada fase, y por qué ese número es constante?",
     "respuesta": "En equilibrio, la relación de concentraciones de un soluto entre dos fases inmiscibles es una constante a temperatura fija: K = [soluto]orgánica / [soluto]acuosa (Ley de distribución de Nernst). El log de esa constante para el sistema de referencia octanol/agua es el log P, el número que resume qué tan 'grasosa' o 'acuosa' es una molécula. Diosgenina, con su esqueleto esteroidal grande y pocos -OH expuestos, tiene log P alto y prefiere fuertemente el DCM; las saponinas intactas, cargadas de azúcares con muchos -OH, tienen log P bajo y se quedan en el agua hasta que la hidrólisis les quita los azúcares.",
-    "error_comun": "Pensar que el coeficiente de partición depende de cuánto soluto hay — es una constante de equilibrio, no depende de la cantidad (sí de la temperatura).",
+    "error_comun": "Pensar que el [[DG-R-reparto|coeficiente de partición]] depende de cuánto soluto hay — es una constante de equilibrio, no depende de la cantidad (sí de la temperatura).",
     "dificultad": "alta",
     "prereqs": [
       "FQT-01"
@@ -62,7 +62,7 @@
     "bloque": "FQT",
     "modo": "pregunta",
     "pregunta": "¿Por qué el mecanismo de hidrólisis ácida necesita un medio con agua o alcohol, y no funcionaría igual en un solvente como el hexano?",
-    "respuesta": "La constante dieléctrica (ε) mide qué tan bien un medio apantalla la atracción electrostática entre cargas opuestas (Ley de Coulomb: fuerza inversamente proporcional a ε). La hidrólisis ácida de un enlace glucosídico pasa por un intermediario catiónico (oxocarbenio) que necesita un medio de alta ε para estabilizarse, o la energía para formarlo sería prohibitiva. El isopropanol (ε ≈ 18-20) es un punto intermedio: estabiliza cargas parcialmente y a la vez solubiliza mejor las partes menos polares del sustrato que el agua pura.",
+    "respuesta": "La [[DG-R-dielectrica|constante dieléctrica]] (ε) mide qué tan bien un medio apantalla la atracción electrostática entre cargas opuestas (Ley de Coulomb: fuerza inversamente proporcional a ε). La hidrólisis ácida de un enlace glucosídico pasa por un intermediario catiónico (oxocarbenio) que necesita un medio de alta ε para estabilizarse, o la energía para formarlo sería prohibitiva. El isopropanol (ε ≈ 18-20) es un punto intermedio: estabiliza cargas parcialmente y a la vez solubiliza mejor las partes menos polares del sustrato que el agua pura.",
     "error_comun": "Pensar que el rol del solvente es solo 'disolver', ignorando que también estabiliza (o desestabiliza) estados de transición e intermediarios cargados.",
     "dificultad": "alta",
     "prereqs": [
@@ -80,7 +80,7 @@
     "bloque": "FQT",
     "modo": "pregunta",
     "pregunta": "La hidrólisis de un enlace glucosídico es, en principio, reversible. ¿Por qué no se vuelve a formar la saponina, y qué tiene que ver esto con por qué en otras reacciones orgánicas se elimina agua del sistema?",
-    "respuesta": "Cualquier reacción catalizada por ácido en medio acuoso es, en principio, un equilibrio: hidrólisis hacia adelante, condensación (glicosidación) hacia atrás. Trabajar con exceso masivo de agua desplaza el equilibrio fuertemente hacia los productos de hidrólisis (Le Chatelier). Es la misma lógica en dirección contraria de por qué en esterificación de Fischer se usa un aparato Dean-Stark para retirar el agua producida: al remover un producto, se fuerza el equilibrio hacia adelante en esa reacción de condensación.",
+    "respuesta": "Cualquier reacción catalizada por ácido en medio acuoso es, en principio, un equilibrio: hidrólisis hacia adelante, condensación (glicosidación) hacia atrás. Trabajar con exceso masivo de agua desplaza el equilibrio fuertemente hacia los productos de hidrólisis ([[DG-R-accion-de-masas|Le Chatelier]]). Es la misma lógica en dirección contraria de por qué en esterificación de Fischer se usa un aparato Dean-Stark para retirar el agua producida: al remover un producto, se fuerza el equilibrio hacia adelante en esa reacción de condensación.",
     "error_comun": "Tratar 'hidrólisis ácida' como irreversible por definición — es reversible; las condiciones del protocolo (exceso de agua) la empujan casi completamente hacia un lado.",
     "dificultad": "alta",
     "prereqs": [
@@ -99,7 +99,7 @@
     "bloque": "FQT",
     "modo": "pregunta",
     "pregunta": "¿Por qué calentar a reflujo acelera la hidrólisis, y qué tiene que ver esto con la posibilidad de que el microondas haga algo más que 'solo calentar más rápido'?",
-    "respuesta": "k = A·e^(−Ea/RT): la constante de velocidad depende exponencialmente de la temperatura, así que pequeños aumentos de T producen aumentos grandes de k porque una fracción exponencialmente mayor de moléculas alcanza la Ea necesaria. Esa es la razón térmica pura del reflujo. La pregunta debatida en síntesis por microondas es si existe, además, un 'efecto no térmico' donde la radiación interactúa directamente con dipolos moleculares bajando la Ea más allá de lo que explica la temperatura medida — estudios cuidadosos encuentran que en la mayoría de casos el efecto es casi enteramente térmico, pero el debate no está cerrado al 100%.",
+    "respuesta": "k = A·e^(−Ea/RT): la constante de velocidad [[DG-R-arrhenius|depende exponencialmente de la temperatura]], así que pequeños aumentos de T producen aumentos grandes de k porque una fracción exponencialmente mayor de moléculas alcanza la Ea necesaria. Esa es la razón térmica pura del reflujo. La pregunta debatida en síntesis por microondas es si existe, además, un 'efecto no térmico' donde la radiación interactúa directamente con dipolos moleculares bajando la Ea más allá de lo que explica la temperatura medida — estudios cuidadosos encuentran que en la mayoría de casos el efecto es casi enteramente térmico, pero el debate no está cerrado al 100%.",
     "error_comun": "Asumir que doblar la temperatura duplica la velocidad — la relación es exponencial, no lineal.",
     "dificultad": "alta",
     "prereqs": [
@@ -117,7 +117,7 @@
     "bloque": "FQT",
     "modo": "pregunta",
     "pregunta": "El H₂SO₄ protona el oxígeno del enlace glucosídico, pero al final de la reacción el ácido sigue ahí sin gastarse. ¿Cómo 'participa' sin consumirse?",
-    "respuesta": "Un catalizador cambia el mecanismo hacia uno con Ea más baja, sin cambiar la termodinámica global. En catálisis ácida específica, el H⁺ protona el oxígeno del enlace glucosídico, haciendo que ese enlace C-O sea mucho más fácil de romper. Una vez que el enlace se rompe y el agua ataca al catión resultante, el protón se libera de nuevo al medio en el paso final: termina exactamente donde empezó, listo para catalizar la siguiente molécula.",
+    "respuesta": "Un catalizador cambia el mecanismo hacia uno con Ea más baja, sin cambiar la termodinámica global. En [[DG-R-catalisis-especifica|catálisis ácida específica]], el H⁺ protona el oxígeno del enlace glucosídico, haciendo que ese enlace C-O sea mucho más fácil de romper. Una vez que el enlace se rompe y el agua ataca al catión resultante, el protón se libera de nuevo al medio en el paso final: termina exactamente donde empezó, listo para catalizar la siguiente molécula.",
     "error_comun": "Pensar que el catalizador se consume proporcionalmente al producto formado — no es así en el mecanismo, aunque se use en exceso en la práctica de laboratorio.",
     "dificultad": "alta",
     "prereqs": [
@@ -211,7 +211,7 @@
     "bloque": "FQT",
     "modo": "pregunta",
     "pregunta": "¿Por qué el mismo compuesto (un ácido orgánico débil, o un metal en solución) puede estar en una forma a un pH y en otra completamente distinta a un pH ligeramente diferente?",
-    "respuesta": "Henderson-Hasselbalch: pH = pKa + log([A-]/[HA]). Describe cómo la proporción entre la forma protonada (HA) y desprotonada (A-) de un ácido débil depende del pH relativo a su pKa: cuando pH = pKa hay 50/50, y cada unidad de pH cambia la proporción en un factor de 10. Por eso a pH 2 (hidrólisis ácida fuerte) casi todo grupo ionizable está protonado, mientras que a pH 5 (condiciones enzimáticas suaves) la especiación puede ser completamente distinta, afectando la actividad enzimática y la solubilidad del propio sustrato.",
+    "respuesta": "[[DG-R-henderson-hasselbalch|Henderson-Hasselbalch]]: pH = pKa + log([A-]/[HA]). Describe cómo la proporción entre la forma protonada (HA) y desprotonada (A-) de un ácido débil depende del pH relativo a su pKa: cuando pH = pKa hay 50/50, y cada unidad de pH cambia la proporción en un factor de 10. Por eso a pH 2 (hidrólisis ácida fuerte) casi todo grupo ionizable está protonado, mientras que a pH 5 (condiciones enzimáticas suaves) la especiación puede ser completamente distinta, afectando la actividad enzimática y la solubilidad del propio sustrato.",
     "error_comun": "Tratar pH y pKa como el mismo tipo de número intercambiable — pH describe el medio, pKa describe una propiedad intrínseca de cada especie química.",
     "dificultad": "alta",
     "prereqs": [
@@ -267,7 +267,7 @@
     "bloque": "FQT",
     "modo": "pregunta",
     "pregunta": "¿Por qué moler el polvo de ñame más fino acelera tanto la extracción, más allá de 'obviamente ayuda'?",
-    "respuesta": "La primera ley de Fick dice que el flujo de difusión es proporcional al gradiente de concentración y al área disponible. Moler más fino no cambia la difusividad ni el gradiente en sí, pero sí aumenta drásticamente el área superficial por unidad de masa y acorta la distancia que el soluto recorre por difusión hasta la superficie. Ambos efectos aceleran qué tan rápido el soluto sale de la matriz vegetal, sin cambiar nada de la química de la extracción en sí.",
+    "respuesta": "La [[DG-R-fick|primera ley de Fick]] dice que el flujo de difusión es proporcional al gradiente de concentración y al área disponible. Moler más fino no cambia la difusividad ni el gradiente en sí, pero sí aumenta drásticamente el área superficial por unidad de masa y acorta la distancia que el soluto recorre por difusión hasta la superficie. Ambos efectos aceleran qué tan rápido el soluto sale de la matriz vegetal, sin cambiar nada de la química de la extracción en sí.",
     "error_comun": "Pensar que moler más fino cambia la solubilidad de equilibrio del soluto — no la cambia, solo la velocidad con la que se alcanza ese equilibrio.",
     "dificultad": "alta",
     "prereqs": [
@@ -297,6 +297,6 @@
       "HPL",
       "TLC"
     ],
-    "conexion_cotidiana": "El tamaño exacto de esta brecha HOMO-LUMO es fundamentalmente un cálculo de mecánica cuántica: el modelo simple de partícula en una caja ya predice que cadenas de conjugación más largas bajan la energía de la transición, corriendo el color hacia el rojo."
+    "conexion_cotidiana": "El tamaño exacto de esta [[DG-R-cromoforo|brecha HOMO-LUMO]] es fundamentalmente un cálculo de mecánica cuántica: el modelo simple de partícula en una caja ya predice que cadenas de conjugación más largas bajan la energía de la transición, corriendo el color hacia el rojo."
   }
 ]

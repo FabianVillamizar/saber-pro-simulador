@@ -16,7 +16,7 @@
       "HPL"
     ],
     "regla": "la TRANSMITANCIA decae exponencialmente con la concentración — la ABSORBANCIA es el logaritmo de eso, y es justamente ese paso logarítmico lo que la vuelve lineal.",
-    "conexion_cotidiana": "Es el fundamento del **oxímetro de pulso** (el clip del dedo en el hospital): pasa luz roja e infrarroja por el dedo, mide cuánta se transmite y aplica Beer-Lambert para calcular la proporción de hemoglobina oxigenada vs. desoxigenada."
+    "conexion_cotidiana": "Es el fundamento del **oxímetro de pulso** (el clip del dedo en el hospital): pasa luz roja e infrarroja por el dedo, mide cuánta se transmite y aplica [[DG-R-beer-lambert|Beer-Lambert]] para calcular la proporción de hemoglobina oxigenada vs. desoxigenada."
   },
   {
     "id": "ESP-02",
@@ -34,7 +34,7 @@
     "connects_to": [
       "HPL"
     ],
-    "regla": "Beer-Lambert es una aproximación válida solo en un rango limitado (típicamente A < 1-1.5) — se desvía a alta concentración por razones químicas e instrumentales distintas.",
+    "regla": "[[DG-R-beer-lambert|Beer-Lambert]] es una aproximación válida solo en un rango limitado (típicamente A < 1-1.5) — se desvía a alta concentración por razones químicas e instrumentales distintas.",
     "conexion_cotidiana": "El mismo 'aplanamiento' de una señal a alta intensidad es el problema al fotografiar objetos muy brillantes con un sensor CCD: cada píxel tiene una carga máxima que puede acumular, y una vez saturado deja de registrar aumentos de forma proporcional ('blooming')."
   },
   {
@@ -73,7 +73,7 @@
     "connects_to": [
       "HPL"
     ],
-    "regla": "leer en el máximo maximiza sensibilidad Y, sobre todo, hace la medición robusta frente a pequeños errores de calibración de longitud de onda.",
+    "regla": "[[DG-R-lambda-max|leer en el máximo]] maximiza sensibilidad Y, sobre todo, hace la medición robusta frente a pequeños errores de calibración de longitud de onda.",
     "conexion_cotidiana": "El mismo principio es por qué los astrónomos usan **líneas espectrales muy específicas y bien caracterizadas** (la H-alfa del hidrógeno a 656.3 nm) para medir el corrimiento al rojo de galaxias, en vez de la intensidad total en un rango amplio: centrar la medición en el pico de una línea conocida detecta cualquier error de calibración con máxima precisión."
   },
   {
@@ -93,7 +93,7 @@
       "EST",
       "HPL"
     ],
-    "regla": "LOD responde '¿hay algo?' con 3 desviaciones estándar de confianza; LOQ responde '¿cuánto hay, con precisión aceptable?' con 10 desviaciones estándar — LOQ siempre es mayor que LOD.",
+    "regla": "[[DG-R-lod-loq|LOD]] responde '¿hay algo?' con 3 desviaciones estándar de confianza; LOQ responde '¿cuánto hay, con precisión aceptable?' con 10 desviaciones estándar — LOQ siempre es mayor que LOD.",
     "conexion_cotidiana": "El mismo par tiene una aplicación dramática en física de partículas: el criterio de **'5 sigma'** con que el CERN anunció el bosón de Higgs en 2012 (probabilidad extremadamente baja de que la señal fuera solo ruido) es el mismo razonamiento que define el LOD/LOQ — cambia solo qué tan estricto es el umbral según el costo de un falso positivo."
   },
   {
@@ -103,7 +103,7 @@
     "bloque": "ESP",
     "modo": "pregunta",
     "pregunta": "El protocolo de calibración usa un 'blanco' para restar de todas las lecturas — pero ¿un blanco de qué exactamente, y por qué a veces se necesita más de un tipo?",
-    "respuesta": "Un blanco es una muestra procesada igual que las reales pero sin el analito: su absorbancia se resta para aislar la señal del compuesto de interés. **Blanco de reactivos**: todo el reactivo cromógeno, solvente y condiciones de reacción, pero sin extracto — capta la absorbancia propia del reactivo. **Blanco de matriz**: una muestra de la matriz vegetal sin el analito, por el protocolo completo — capta interferencias de otros componentes que reaccionen parcialmente. Para una matriz vegetal compleja el blanco de matriz es más riguroso, aunque conseguir una matriz genuinamente libre del analito puede ser difícil.",
+    "respuesta": "[[DG-R-blanco|Un blanco es una muestra]] procesada igual que las reales pero sin el analito: su absorbancia se resta para aislar la señal del compuesto de interés. **Blanco de reactivos**: todo el reactivo cromógeno, solvente y condiciones de reacción, pero sin extracto — capta la absorbancia propia del reactivo. **Blanco de matriz**: una muestra de la matriz vegetal sin el analito, por el protocolo completo — capta interferencias de otros componentes que reaccionen parcialmente. Para una matriz vegetal compleja el blanco de matriz es más riguroso, aunque conseguir una matriz genuinamente libre del analito puede ser difícil.",
     "error_comun": "Pensar que 'un blanco es solo agua o solvente puro' sin reactivo cromógeno: eso no capta la absorbancia propia del reactivo mismo, y la resta queda incompleta.",
     "dificultad": "alta",
     "prereqs": [
@@ -123,7 +123,7 @@
     "bloque": "ESP",
     "modo": "pregunta",
     "pregunta": "Si otro compuesto co-presente en el extracto también absorbe luz cerca de 425-430 nm, ¿qué pasa con su lectura de 'diosgenina', y cómo se relaciona con el concepto de artefacto que ya vieron?",
-    "respuesta": "Beer-Lambert, aplicada a una mezcla de varios compuestos absorbentes, predice que las absorbancias de cada uno a esa longitud de onda se suman: A_total = Σ(εi·b·ci). Si otro compuesto de la matriz (otro esterol, un fenol, o el propio dieno de degradación de **HID-06**/**HID-10**) también reacciona con el anisaldehído-sulfúrico dando color en esa región, su contribución se SUMA a la de la diosgenina genuina: el valor 'de diosgenina' es una sobreestimación. Es el problema de especificidad que Chua (2021) y Oakenfull & Sidhu señalaron sobre los métodos vainillina/anisaldehído: sensibles pero no específicos, reaccionan también con fitosteroles y flavonoides.",
+    "respuesta": "[[DG-R-beer-lambert|Beer-Lambert]], aplicada a una mezcla de varios compuestos absorbentes, predice que las absorbancias de cada uno a esa longitud de onda se suman: A_total = Σ(εi·b·ci). Si otro compuesto de la matriz (otro esterol, un fenol, o el propio dieno de degradación de **HID-06**/**HID-10**) también reacciona con el anisaldehído-sulfúrico dando color en esa región, su contribución se SUMA a la de la diosgenina genuina: el valor 'de diosgenina' es una sobreestimación. Es el problema de especificidad que Chua (2021) y Oakenfull & Sidhu señalaron sobre los métodos vainillina/anisaldehído: sensibles pero no específicos, reaccionan también con fitosteroles y flavonoides.",
     "error_comun": "Pensar que 'si la reacción da color, entonces necesariamente es diosgenina reaccionando': el método colorimétrico no es específico a nivel molecular; cualquier compuesto que reaccione de forma similar contribuye a la señal.",
     "dificultad": "alta",
     "prereqs": [
