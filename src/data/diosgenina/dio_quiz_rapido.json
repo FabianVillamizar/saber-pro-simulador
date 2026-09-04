@@ -6,10 +6,10 @@
     "formato": "mcq",
     "enunciado": "Un químico intenta disolver cloruro de sodio, un sólido iónico, en hexano puro y no observa disolución visible. ¿Cuál es la explicación más precisa según la contabilidad energética de la mezcla?",
     "opciones": [
-      "El cloruro de sodio es una molécula demasiado grande para caber físicamente entre las moléculas de hexano dispuestas en el líquido de forma ordenada",
-      "Las moléculas de hexano reconocen químicamente que el cloruro de sodio no pertenece a su mismo grupo estructural y lo excluyen activamente del sistema",
-      "El hexano tiene un momento dipolar neto tan alto que repele activamente cualquier ion cargado que intente acercarse a su estructura molecular, sin importar qué tan fuerte sea esa carga eléctrica",
-      "Las fuertes interacciones iónicas del cloruro de sodio no se compensan con las débiles fuerzas de dispersión del hexano, así que el proceso no es energéticamente favorable"
+      "El NaCl es una molécula demasiado grande para caber entre las moléculas de hexano",
+      "El hexano reconoce químicamente que el NaCl no pertenece a su grupo y lo excluye",
+      "El hexano tiene un momento dipolar neto tan alto que repele activamente cualquier ion",
+      "La dispersión del hexano no compensa el costo de romper la red iónica del NaCl"
     ],
     "correcta": 3,
     "explicacion": "Disolver algo exige primero romper las interacciones del soluto consigo mismo, un costo energético alto para un sólido iónico. El hexano solo ofrece fuerzas de dispersión débiles, que no alcanzan a compensar ese costo, así que el proceso completo resulta desfavorable."
@@ -35,10 +35,10 @@
     "formato": "mcq",
     "enunciado": "El tetracloruro de carbono tiene cuatro enlaces carbono-cloro muy polares, dispuestos en una geometría tetraédrica perfecta. ¿Por qué se comporta como una molécula no polar?",
     "opciones": [
-      "Porque el cloro, pese a ser más electronegativo que el carbono, no forma en realidad ningún dipolo real dentro de ese enlace específico",
-      "Porque los cuatro vectores de dipolo de enlace apuntan en direcciones que se cancelan exactamente por la simetría tetraédrica, dejando un momento dipolar neto de cero",
-      "Porque la molécula gira tan rápido en solución que el dipolo neto se promedia matemáticamente a cero en cualquier instante de tiempo que se observe experimentalmente",
-      "Porque el carbono central bloquea físicamente que los átomos de cloro ejerzan cualquier efecto electrónico sobre el resto de la molécula"
+      "El enlace C-Cl en realidad no forma ningún dipolo pese a la diferencia de electronegatividad",
+      "Los cuatro dipolos de enlace se cancelan por la simetría tetraédrica",
+      "La molécula gira tan rápido que su dipolo neto se promedia a cero",
+      "El carbono central bloquea el efecto electrónico de los cloros sobre el resto"
     ],
     "correcta": 1,
     "explicacion": "La polaridad molecular es la suma vectorial de los dipolos de enlace, no su suma simple. En una geometría perfectamente simétrica, esos cuatro vectores se cancelan entre sí aunque cada enlace individual sea genuinamente polar."
@@ -63,10 +63,10 @@
     "formato": "mcq",
     "enunciado": "Al agitar diclorometano y agua con un extracto que contiene tanto diosgenina libre, de log P alto, como saponinas intactas cargadas de azúcares, de log P bajo, ¿qué predice el coeficiente de partición sobre a dónde va cada una?",
     "opciones": [
-      "Las saponinas intactas migrarán al diclorometano primero, y solo después la diosgenina libre podrá pasar lentamente a esa fase",
-      "El coeficiente de partición determina cuánto soluto hay en total, no en qué fase se concentra cada compuesto realmente disuelto",
-      "La diosgenina libre se concentrará preferentemente en la fase de diclorometano, mientras que las saponinas intactas permanecerán mayormente en la fase acuosa",
-      "Ambas se repartirán en proporciones prácticamente idénticas entre las dos fases, porque el coeficiente de partición no distingue realmente entre compuestos químicos distintos"
+      "Las saponinas migran al DCM primero y la diosgenina pasa después, más lento",
+      "El coeficiente de partición dice cuánto soluto hay en total, no en qué fase va cada uno",
+      "La diosgenina libre se concentra en el DCM y las saponinas intactas se quedan en el agua",
+      "Ambas se reparten en proporciones casi idénticas entre las dos fases"
     ],
     "correcta": 2,
     "explicacion": "Diosgenina, con su esqueleto esteroidal grande y pocos -OH expuestos, tiene log P alto y prefiere fuertemente el diclorometano. Las saponinas intactas, cargadas de azúcares con muchos -OH, tienen log P bajo y se quedan en el agua hasta que la hidrólisis les quita los azúcares."
@@ -92,10 +92,10 @@
     "formato": "mcq",
     "enunciado": "Un estudiante argumenta que la hidrólisis ácida de dioscina debería considerarse irreversible por definición, ya que en la práctica el extracto final contiene diosgenina libre y no dioscina regenerada. ¿Qué corrige mejor este razonamiento?",
     "opciones": [
-      "La reacción es reversible en principio; el exceso masivo de agua y medio ácido-alcohólico desplaza el equilibrio casi por completo hacia la hidrólisis, sin volverla irreversible en sí misma",
-      "El estudiante tiene razón: cualquier reacción catalizada por un ácido fuerte en medio acuoso es irreversible por la propia naturaleza química del catalizador ácido empleado",
-      "La reacción sería reversible solo si se usara una base en vez de un ácido, ya que las bases favorecen la condensación por defecto en prácticamente cualquier sistema químico conocido en la literatura",
-      "La irreversibilidad depende exclusivamente de la temperatura de reflujo alcanzada, no de la proporción de agua presente en el sistema de reacción"
+      "Es reversible en principio; el exceso de agua desplaza el equilibrio casi por completo",
+      "Cualquier reacción catalizada por ácido fuerte en agua es irreversible por definición",
+      "Sería reversible solo con base en vez de ácido, porque las bases favorecen la condensación",
+      "La irreversibilidad depende solo de la temperatura de reflujo, no del agua presente"
     ],
     "correcta": 0,
     "explicacion": "Un catalizador acelera ambas direcciones de la reacción por igual, no cambia dónde está el equilibrio. Lo que empuja el sistema hacia los productos de hidrólisis es el exceso constante de agua, el mismo principio que explica por qué se retira agua en una esterificación de Fischer para forzar la reacción en sentido contrario."
@@ -120,10 +120,10 @@
     "formato": "mcq",
     "enunciado": "Un compañero de laboratorio propone que duplicar la temperatura de reflujo debería duplicar exactamente la velocidad de la hidrólisis ácida. ¿Qué corrige esta suposición según la ecuación de Arrhenius?",
     "opciones": [
-      "La temperatura no afecta realmente la velocidad de una reacción catalizada por ácido, solo afecta reacciones sin catalizador presente",
-      "Duplicar la temperatura sí duplica exactamente la velocidad, porque la constante de velocidad es directamente proporcional a la temperatura",
-      "La energía de activación aumenta proporcionalmente con la temperatura, cancelando cualquier efecto que el calor tendría sobre la velocidad",
-      "La constante de velocidad depende exponencialmente de la temperatura, así que un pequeño aumento puede producir un aumento mucho mayor que el doble en la velocidad"
+      "La temperatura no afecta la velocidad de una reacción que ya tiene catalizador ácido",
+      "Duplicar la temperatura duplica la velocidad: la constante es proporcional a T",
+      "La energía de activación sube con la temperatura y cancela el efecto del calor",
+      "La constante de velocidad crece con la temperatura de forma exponencial, no lineal"
     ],
     "correcta": 3,
     "explicacion": "La constante de velocidad depende exponencialmente de la temperatura, no linealmente: una fracción exponencialmente mayor de moléculas alcanza la energía de activación necesaria con solo un pequeño aumento térmico, no un aumento proporcional simple."
@@ -149,10 +149,10 @@
     "formato": "mcq",
     "enunciado": "Al final de la hidrólisis ácida completa de una muestra, el ácido sulfúrico sigue presente en el medio en la misma cantidad con la que se agregó al inicio. ¿Cómo se explica esto si el ácido participó activamente en el mecanismo de reacción?",
     "opciones": [
-      "El ácido sulfúrico en realidad no participa en el mecanismo de hidrólisis, solo mantiene el pH general de la mezcla de reacción",
-      "El protón que activa el enlace glucosídico se libera de nuevo al medio en el paso final del mecanismo, quedando disponible para catalizar la siguiente molécula",
-      "El ácido se regenera químicamente a partir del agua liberada durante la hidrólisis, produciendo una cantidad neta idéntica a la original",
-      "Solo una fracción minúscula del ácido agregado participa realmente en la reacción, y el resto permanece inactivo desde el inicio"
+      "El H₂SO₄ no participa realmente en el mecanismo, solo mantiene el pH de la mezcla",
+      "El protón que activa el enlace glucosídico se libera de nuevo en el paso final",
+      "El ácido se regenera a partir del agua liberada durante la hidrólisis",
+      "Solo una fracción minúscula del ácido agregado llega a reaccionar"
     ],
     "correcta": 1,
     "explicacion": "Un catalizador cambia el mecanismo hacia uno con menor energía de activación sin cambiar la termodinámica global. El protón termina exactamente donde empezó, disponible para catalizar la siguiente molécula, aunque en la práctica de laboratorio se use en exceso estequiométrico por razones cinéticas."
@@ -177,10 +177,10 @@
     "formato": "mcq",
     "enunciado": "El protocolo especifica H₂SO₄ para la hidrólisis a reflujo prolongado, aunque el HCl también es un ácido fuerte que se disocia completamente en agua. ¿Cuál es la razón más importante para preferir H₂SO₄ en una reacción de varias horas a temperatura de reflujo?",
     "opciones": [
-      "El HCl no logra protonar el oxígeno del enlace glucosídico con suficiente eficiencia bajo las condiciones típicas de reflujo, dando una velocidad mucho más lenta que con H₂SO₄",
-      "El HCl es volátil y parte de él puede escaparse como gas durante horas de reflujo, cambiando la concentración efectiva de ácido con el tiempo",
-      "El ion sulfato ataca directamente el carbono anomérico antes que el agua, acelerando la hidrólisis por un mecanismo distinto al de la protonación normal del oxígeno glucosídico",
-      "El H₂SO₄ disuelve mejor el isopropanol del medio de reacción, mientras que el HCl forma una fase separada que reduce notablemente el contacto con el sustrato de partida"
+      "El HCl no protona el oxígeno glucosídico con suficiente eficiencia bajo reflujo",
+      "El HCl es volátil: parte se pierde como gas durante el reflujo largo",
+      "El ion sulfato ataca el carbono anomérico antes que el agua, por otro mecanismo",
+      "El H₂SO₄ disuelve mejor el isopropanol del medio; el HCl forma una fase aparte"
     ],
     "correcta": 1,
     "explicacion": "La volatilidad importa tanto como la fuerza ácida en una reacción de horas: si el ácido se escapa parcialmente como vapor, la concentración efectiva de H⁺ cambia durante la corrida, algo que el H₂SO₄ (punto de ebullición ~337°C) evita casi por completo."
@@ -207,10 +207,10 @@
     "formato": "mcq",
     "enunciado": "El rendimiento de diosgenina en función del tiempo de hidrólisis sube, alcanza un máximo, y luego baja si se sigue calentando. ¿Qué explica esa caída después del máximo?",
     "opciones": [
-      "El ácido sulfúrico se consume progresivamente durante la reacción, así que después de cierto tiempo ya no queda suficiente catalizador para mantener la hidrólisis a la velocidad inicial",
-      "La diosgenina liberada se evapora del medio de reacción una vez que alcanza cierta concentración, reduciendo la cantidad medible en el extracto final recolectado al terminar la reacción",
-      "El exceso de agua del medio empieza a diluir la concentración de diosgenina disuelta, haciendo que la señal analítica baje aunque la cantidad total presente no haya cambiado en absoluto",
-      "Una vez liberada, la diosgenina empieza a degradarse por la misma química ácida que la liberó, acumulándose sobre un pool cada vez mayor mientras la hidrólisis del resto se satura"
+      "El H₂SO₄ se consume durante la reacción y deja de haber catalizador suficiente",
+      "La diosgenina liberada se evapora del medio al pasar cierta concentración",
+      "El exceso de agua diluye la diosgenina y baja la señal, no la cantidad real",
+      "La diosgenina ya liberada se degrada por la misma química ácida que la liberó"
     ],
     "correcta": 3,
     "explicacion": "Son dos reacciones con relojes distintos: la hidrólisis se satura porque el sustrato se agota, mientras que la degradación de la diosgenina ya liberada sigue acumulándose; el rendimiento neto es la resta de ambas curvas, y por eso tiene un máximo en un punto intermedio, no al final."
@@ -235,10 +235,10 @@
     "formato": "mcq",
     "enunciado": "Con el mismo volumen TOTAL de solvente disponible, ¿qué predice la ecuación de extracciones múltiples sobre dividir ese volumen en 3 extracciones en vez de usarlo todo en una sola?",
     "opciones": [
-      "Dividir el volumen en 3 extracciones deja menos soluto sin extraer que usar todo el volumen en una sola, porque la fracción remanente se eleva a una potencia igual al número de extracciones",
-      "El resultado es exactamente el mismo en ambos casos, porque el coeficiente de partición depende solo del volumen total de solvente usado, sin importar cómo se reparta ese volumen entre pasos",
-      "Usar una sola extracción grande recupera más soluto, porque el equilibrio de partición tiene más tiempo para establecerse completamente con un volumen mayor de solvente en contacto directo",
-      "Dividir en varias extracciones solo ayuda cuando el coeficiente de partición es muy bajo, y no aporta ninguna ventaja matemática cuando el coeficiente es alto, como el de la diosgenina"
+      "Dividir en 3 deja menos soluto sin extraer: la fracción remanente se eleva a n",
+      "El resultado es igual: el coeficiente de partición depende solo del volumen total",
+      "Una sola extracción grande recupera más: el equilibrio tiene más tiempo de contacto",
+      "Dividir solo ayuda si el coeficiente de partición es bajo, no con la diosgenina"
     ],
     "correcta": 0,
     "explicacion": "La fracción no extraída es (Vac/(Vac+K·Vorg))^n: el número de extracciones n entra como exponente, así que dividir el mismo volumen total en más pasos reduce esa fracción mucho más rápido que aumentar el volumen de una sola extracción."
@@ -265,10 +265,10 @@
     "formato": "mcq",
     "enunciado": "Después de agitar el embudo de separación, las dos fases no se separan limpiamente y quedan como una mezcla turbia y estable durante horas. ¿Qué explica que este estado persista tanto tiempo en vez de separarse rápido?",
     "opciones": [
-      "El DCM y el agua alcanzaron una temperatura demasiado baja durante la agitación, lo que aumenta artificialmente su miscibilidad mutua de forma temporal e inesperada",
-      "La agitación rompió accidentalmente algunos enlaces químicos de la diosgenina, generando subproductos que resultan solubles simultáneamente en ambas fases del sistema, complicando aún más la separación",
-      "Las saponinas remanentes actúan como tensioactivo, acomodándose en la interfase y reduciendo tanto el costo energético de esa área que el sistema queda cinéticamente atrapado como gotas estabilizadas",
-      "El embudo no se dejó reposar el tiempo suficiente para que la gravedad separe completamente dos líquidos de densidades relativamente parecidas entre sí"
+      "El DCM y el agua se enfriaron demasiado al agitar y subió su miscibilidad mutua",
+      "La agitación rompió enlaces de la diosgenina y generó subproductos anfifílicos",
+      "Las saponinas remanentes actúan como tensioactivo y estabilizan las gotas en la interfase",
+      "El embudo no reposó lo suficiente para que la gravedad separe dos densidades parecidas"
     ],
     "correcta": 2,
     "explicacion": "Una emulsión no es solo 'lento por falta de tiempo': un tensioactivo reduce tanto la tensión interfacial que el sistema puede quedar atrapado en gotas dispersas durante horas, un estado cinéticamente estable, no solo una separación que tarda más de lo normal."
@@ -293,10 +293,10 @@
     "formato": "mcq",
     "enunciado": "El rotavaporador logra evaporar etanol (punto de ebullición normal ~78°C) usando un baño de solo 30-40°C. ¿Qué efecto del equipo hace posible esto?",
     "opciones": [
-      "El baño de agua transmite el calor de forma tan eficiente que logra calentar el etanol muy por encima de la temperatura nominal fijada en el propio baño",
-      "La rotación del matraz por sí sola genera suficiente fricción mecánica para elevar la temperatura real del líquido muy por encima de los 30-40°C del baño",
-      "El vacío del sistema reduce la cantidad de moléculas de etanol necesarias para saturar el espacio de vapor por completo, sin cambiar en absoluto la temperatura a la que hierve el líquido en sí mismo",
-      "La bomba de vacío reduce la presión del sistema, y como el punto de ebullición es la temperatura donde la presión de vapor iguala la externa, esto permite que el etanol hierva antes de 78°C"
+      "El baño transmite el calor tan bien que calienta el etanol por encima de su ajuste",
+      "La rotación del matraz genera fricción y sube la temperatura real del líquido",
+      "El vacío reduce las moléculas necesarias para saturar el vapor, sin tocar la temperatura",
+      "El vacío baja la presión, y con menos presión externa el etanol hierve antes de 78 °C"
     ],
     "correcta": 3,
     "explicacion": "El punto de ebullición depende de la presión externa, no es una propiedad fija del líquido: bajar la presión con la bomba de vacío baja también la temperatura a la que el líquido entra en ebullición, el mismo principio por el que el agua hierve a menos de 100°C en La Paz."
@@ -323,10 +323,10 @@
     "formato": "mcq",
     "enunciado": "Tras evaporar todo el DCM del extracto, queda un residuo sólido concentrado. ¿Es correcto llamar a ese residuo 'diosgenina pura'?",
     "opciones": [
-      "Sí, porque evaporar el solvente separa químicamente la diosgenina de cualquier otro compuesto que estuviera disuelto junto con ella en el DCM original",
-      "No, porque evaporar solo remueve el solvente: cualquier otro compuesto disuelto en el DCM junto con la diosgenina queda en el mismo residuo, solo más concentrado",
-      "No, porque la evaporación degrada químicamente una fracción significativa de la diosgenina, convirtiéndola en otros compuestos antes de completarse el secado total",
-      "Sí, siempre que la evaporación se haga a menos de 40°C, porque a esa temperatura solo el DCM tiene presión de vapor suficiente para evaporarse del todo"
+      "Sí: evaporar el solvente separa la diosgenina de los demás compuestos disueltos",
+      "No: evaporar solo quita el solvente; lo demás queda en el residuo, más concentrado",
+      "No: la evaporación degrada una fracción importante de la diosgenina al secar",
+      "Sí, si se hace a menos de 40 °C, porque solo el DCM se evapora a esa temperatura"
     ],
     "correcta": 1,
     "explicacion": "Evaporación es un paso de concentración, no de purificación: separar de verdad la diosgenina de otros compuestos co-extraídos requiere técnicas con selectividad real, como cromatografía o recristalización."
@@ -351,10 +351,10 @@
     "formato": "mcq",
     "enunciado": "Dos laboratorios distintos corren la misma muestra en TLC, pero cada uno usa una fase móvil distinta sobre el mismo tipo de sílice. ¿Qué esperarían encontrar sobre el Rf del mismo compuesto en ambos casos?",
     "opciones": [
-      "El Rf puede ser bastante distinto entre los dos sistemas, porque no es una propiedad fija del compuesto sino del equilibrio entre ese compuesto, esa fase estacionaria, y esa fase móvil",
-      "El Rf debería ser idéntico en ambos casos, porque el Rf es una propiedad química intrínseca del compuesto, comparable en cualquier sistema de TLC igual que su punto de fusión",
-      "El Rf solo puede diferir si cambia la fase estacionaria, pero permanece constante ante cualquier cambio en la composición de la fase móvil utilizada durante el desarrollo de la placa",
-      "El Rf depende únicamente de la temperatura ambiente de cada laboratorio, así que la diferencia entre los dos sistemas solo importaría si trabajaron a temperaturas distintas"
+      "El $R_f$ puede variar bastante: depende del compuesto y de ambas fases a la vez",
+      "El $R_f$ debería ser idéntico: es una propiedad intrínseca, como el punto de fusión",
+      "El $R_f$ solo cambia si cambia la fase estacionaria, no la fase móvil",
+      "El $R_f$ depende solo de la temperatura ambiente de cada laboratorio"
     ],
     "correcta": 0,
     "explicacion": "El compuesto pasa por miles de ciclos de adsorción y desorción mientras el solvente sube; cuánto tiempo pasa 'pegado' a la fase estacionaria depende de ambas fases a la vez, así que cambiar cualquiera de las dos cambia el Rf resultante."
@@ -381,10 +381,10 @@
     "formato": "mcq",
     "enunciado": "La diosgenina en la placa de TLC es invisible bajo luz normal antes de rociar con el reactivo revelador. ¿Qué hace exactamente el revelador para que aparezca una mancha coloreada?",
     "opciones": [
-      "El revelador es un colorante que se adhiere físicamente a la superficie de la mancha, tiñéndola del mismo modo en que un marcador tiñe una hoja de papel común",
-      "El revelador aumenta la temperatura local de la placa lo suficiente como para que la diosgenina emita luz visible por incandescencia térmica directa",
-      "El revelador reacciona químicamente con la diosgenina, generando un compuesto derivado con conjugación extendida que sí absorbe luz visible, creando un cromóforo donde antes no existía",
-      "El revelador disuelve selectivamente la sílice alrededor de la mancha, dejando expuesta la diosgenina concentrada como un punto visiblemente más denso y oscuro"
+      "El revelador es un colorante que se adhiere a la mancha y la tiñe",
+      "El revelador calienta la zona hasta que la diosgenina emite luz por incandescencia",
+      "El revelador reacciona con la diosgenina y forma un derivado con conjugación que absorbe luz",
+      "El revelador disuelve selectivamente la sílice alrededor y deja la mancha como punto más denso"
     ],
     "correcta": 2,
     "explicacion": "No es una tinción pasiva: es la misma lógica de derivatización de la reacción de Baccou, ahora ocurriendo directamente sobre la placa, y el calor solo acelera esa reacción química hasta que el color se desarrolla en minutos."
@@ -409,10 +409,10 @@
     "formato": "mcq",
     "enunciado": "La ley de Beer-Lambert dice A = ε·b·c, una relación lineal con la concentración. Pero la luz transmitida a través de la muestra decae de forma exponencial con la concentración, no lineal. ¿Cómo se reconcilian estas dos afirmaciones?",
     "opciones": [
-      "En realidad no se reconcilian: Beer-Lambert es solo una aproximación empírica que funciona bien únicamente cuando la transmitancia también se comporta de forma aproximadamente lineal en ese rango",
-      "La transmitancia decae linealmente y es la absorbancia la que decae de forma exponencial, así que ambas afirmaciones describen exactamente lo mismo con distinto nombre técnico",
-      "La relación exponencial solo aplica en UV, mientras que en el rango visible la transmitancia sí decae de forma lineal con la concentración por razones ópticas distintas",
-      "La absorbancia se define como el logaritmo de la razón entre intensidad incidente y transmitida; ese logaritmo convierte la atenuación exponencial en una relación lineal con la concentración"
+      "No se reconcilian: Beer-Lambert solo es una aproximación empírica en rango corto",
+      "La transmitancia decae lineal y la absorbancia exponencial, así que ambas frases dicen lo mismo",
+      "La relación exponencial solo aplica en UV; en el visible la transmitancia es lineal",
+      "La absorbancia es el logaritmo de I₀/I, y ese log convierte la caída exponencial en lineal"
     ],
     "correcta": 3,
     "explicacion": "A = log(I₀/I): el paso logarítmico es justamente lo que transforma la exponencial I = I₀·e^(-k·c·b) en la relación lineal A = ε·b·c, así que ambas descripciones son consistentes entre sí, no contradictorias."
@@ -439,10 +439,10 @@
     "formato": "mcq",
     "enunciado": "Si otro compuesto de la matriz vegetal también reacciona con el anisaldehído-sulfúrico y absorbe luz cerca de 425-430 nm, ¿qué le pasa a la lectura reportada como 'diosgenina' de esa muestra?",
     "opciones": [
-      "No cambia nada, porque el espectrofotómetro puede distinguir automáticamente qué fracción de la absorbancia viene de la diosgenina y cuál viene de otros compuestos presentes",
-      "La absorbancia de ese otro compuesto se suma a la de la diosgenina genuina en la misma lectura, dando un valor de 'diosgenina' que en realidad es una sobreestimación",
-      "La lectura baja, porque dos compuestos compitiendo por reaccionar con el mismo reactivo cromógeno reducen la cantidad de reactivo disponible para cada uno",
-      "El instrumento detecta automáticamente dos picos de absorbancia distintos y reporta cada contribución por separado en la misma lectura final"
+      "No cambia nada, porque el espectrofotómetro distingue automáticamente qué fracción es diosgenina",
+      "La absorbancia del otro compuesto se suma a la de la diosgenina y sobreestima la lectura",
+      "La lectura baja: los dos compuestos compiten por el reactivo cromógeno",
+      "El instrumento detecta dos picos distintos y reporta cada uno por separado"
     ],
     "correcta": 1,
     "explicacion": "Beer-Lambert, aplicada a una mezcla, predice que las absorbancias de cada compuesto presente se suman: A_total = Σ(εi·b·ci); el instrumento no tiene forma de distinguir de dónde viene cada contribución, así que cualquier compuesto que reaccione de forma similar contribuye a la señal."
@@ -467,10 +467,10 @@
     "formato": "mcq",
     "enunciado": "Si todas las moléculas de un compuesto entran juntas a la columna de HPLC, en teoría deberían salir todas juntas también. ¿Por qué en la práctica forman un pico con cierto ancho en vez de salir como una línea infinitamente delgada?",
     "opciones": [
-      "Tres mecanismos distintos ensanchan el pico: caminos ligeramente distintos entre partículas, difusión aleatoria mientras avanzan, y el tiempo finito para equilibrarse entre fases",
-      "El ancho del pico es puramente un artefacto del detector, que no puede medir con precisión infinita el instante exacto en que cada molécula sale de la columna",
-      "Las moléculas reaccionan químicamente entre sí dentro de la columna, generando pequeñas cantidades de productos secundarios que salen en tiempos ligeramente distintos",
-      "El ancho del pico depende exclusivamente de la longitud de la columna, y desaparecería por completo si se usara una columna infinitamente corta en su diseño"
+      "Tres mecanismos ensanchan el pico: caminos distintos, difusión al azar y equilibrado finito",
+      "El ancho del pico es un artefacto del detector, que no mide con precisión infinita",
+      "Las moléculas reaccionan entre sí en la columna y salen en tiempos distintos",
+      "El ancho del pico depende solo de la longitud de la columna y se anularía con una muy corta"
     ],
     "correcta": 0,
     "explicacion": "La ecuación de van Deemter (H = A + B/u + C·u) combina tres términos independientes: dos que empeoran a flujo lento y uno que empeora a flujo rápido, dando una curva de eficiencia con un mínimo en una velocidad intermedia, no en ningún extremo."
@@ -497,10 +497,10 @@
     "formato": "mcq",
     "enunciado": "Un compañero propone comparar el área del pico de diosgenina de la muestra directamente contra una curva hecha con estándares externos puros inyectados por separado. ¿Qué fuente de error introduce este enfoque que un estándar interno evitaría?",
     "opciones": [
-      "El estándar externo no puede detectar si la columna se degradó entre una inyección y otra, un problema que solo el estándar interno lograría diagnosticar a tiempo",
-      "El estándar externo requiere usar un compuesto químicamente idéntico a la diosgenina, mientras que el estándar interno puede ser cualquier compuesto disponible en el laboratorio",
-      "El estándar externo no permite calcular la concentración en unidades molares, solo en unidades de masa relativa al compuesto de referencia elegido para esa curva",
-      "El estándar externo asume que el volumen exacto inyectado es idéntico entre muestra y estándar; cualquier discrepancia introduce un error proporcional que no se cancela"
+      "El estándar externo no detecta si la columna se degradó entre inyecciones",
+      "El estándar externo exige un compuesto idéntico a la diosgenina; el interno, cualquiera",
+      "El estándar externo no da concentración molar, solo masa relativa al patrón",
+      "El estándar externo asume volumen inyectado idéntico; cualquier diferencia mete error"
     ],
     "correcta": 3,
     "explicacion": "Con estándar interno, añadido en cantidad fija a cada muestra y estándar, cualquier variación de volumen inyectado afecta por igual a ambas áreas, así que la relación entre ellas permanece constante y ese error se cancela."
@@ -525,10 +525,10 @@
     "formato": "mcq",
     "enunciado": "El método gravimétrico de saponinas particiona el extracto con n-butanol, evapora esa fase, y pesa el residuo como 'saponinas totales'. ¿Por qué este método tiende a sobreestimar mucho más que el método colorimétrico?",
     "opciones": [
-      "Porque el butanol reacciona químicamente con las saponinas durante la partición, aumentando notablemente su masa molecular antes de pesarlas en la balanza",
-      "Porque el método gravimétrico solo pesa el residuo sin distinguir químicamente qué fracción de esa masa es saponina real; cualquier compuesto con polaridad similar cuenta igual",
-      "Porque el butanol tiene mayor densidad que la fase acuosa, así que arrastra consigo partículas sólidas de la matriz vegetal que no se disuelven en ninguna fase",
-      "Porque la balanza analítica usada para pesar el residuo tiene un error sistemático conocido que siempre sobreestima masas pequeñas de forma predecible"
+      "El butanol reacciona químicamente con las saponinas y aumenta su masa antes del pesaje",
+      "El gravimétrico pesa todo el residuo sin distinguir qué fracción es saponina real",
+      "El butanol es más denso que la fase acuosa y arrastra sólidos de la matriz vegetal",
+      "La balanza tiene un error sistemático que sobreestima las masas pequeñas"
     ],
     "correcta": 1,
     "explicacion": "A diferencia del método colorimétrico, que al menos exige que el compuesto co-extraído reaccione con el anisaldehído para contribuir a la señal, el gravimétrico no tiene ninguna barrera de especificidad: cualquier cosa con la polaridad correcta para disolverse en butanol cuenta hacia el peso final."
@@ -555,10 +555,10 @@
     "formato": "mcq",
     "enunciado": "Si repiten el mismo índice colorimétrico dos veces sobre la MISMA muestra de extracto y obtienen valores ligeramente distintos, ¿cómo distinguen si esa diferencia es variabilidad real del ñame o solo ruido del método?",
     "opciones": [
-      "Comparando la dispersión entre réplicas analíticas de la misma muestra contra la dispersión entre muestras biológicas distintas; si la primera es pequeña, las diferencias son mayormente reales",
-      "Es imposible distinguirlas sin repetir el experimento completo en un laboratorio distinto, porque cualquier variabilidad observada dentro del mismo laboratorio se considera automáticamente parte del ruido de fondo",
-      "Basta con medir cada muestra biológica una sola vez, porque cualquier diferencia observada entre valores únicos ya refleja variabilidad real por definición del método",
-      "La única forma confiable es aumentar la concentración del reactivo cromógeno hasta que la señal sea fuerte y el ruido del método deje de ser relevante en la práctica"
+      "Comparando la dispersión entre réplicas de una misma muestra contra la de muestras distintas",
+      "Es imposible distinguirlas sin repetir el experimento completo en un laboratorio distinto",
+      "Basta medir cada muestra biológica una sola vez, porque toda diferencia ya es variabilidad real",
+      "Aumentar la concentración del reactivo cromógeno hasta que el ruido del método deje de importar"
     ],
     "correcta": 0,
     "explicacion": "La variabilidad analítica, en las mismas condiciones sobre la misma muestra, refleja solo la precisión del método; la variabilidad biológica, entre muestras distintas, mezcla eso con diferencias reales. Solo comparando réplicas de ambos tipos se puede separar señal de ruido."
@@ -583,10 +583,10 @@
     "formato": "mcq",
     "enunciado": "Un experimento con muestra muy grande encuentra p < 0.001 para una diferencia de rendimiento de solo 0.02 puntos porcentuales de diosgenina, un cambio prácticamente irrelevante para el protocolo. ¿Qué explica que un efecto tan pequeño dé un p-valor tan bajo?",
     "opciones": [
-      "Es imposible que eso ocurra: un p-valor tan bajo garantiza matemáticamente que el efecto detectado también es grande en magnitud práctica real",
-      "El p-valor está calculado incorrectamente en ese caso, porque un efecto tan pequeño nunca puede alcanzar significancia estadística bajo ninguna condición de muestreo posible",
-      "Con una muestra suficientemente grande, incluso una diferencia trivialmente pequeña puede dar un p-valor muy bajo, porque la significancia depende del tamaño de muestra tanto como del efecto",
-      "El p-valor bajo solo puede explicarse por un error sistemático de medición que infló artificialmente la diferencia observada entre los dos grupos comparados"
+      "Imposible: un p-valor tan bajo garantiza que el efecto también es grande en la práctica",
+      "El p-valor está mal calculado: un efecto tan pequeño nunca puede dar significancia",
+      "Con una muestra muy grande, una diferencia trivial ya da un p-valor muy bajo",
+      "El p-valor bajo solo se explica por un error de medición que infló la diferencia"
     ],
     "correcta": 2,
     "explicacion": "Tamaño de efecto y significancia estadística responden preguntas distintas: cuán grande es el fenómeno, y cuán confiables son los datos para descartar que sea puro ruido. Un informe riguroso reporta ambas cosas por separado, nunca solo el p-valor."
@@ -613,10 +613,10 @@
     "formato": "mcq",
     "enunciado": "Un compañero sostiene que subir la temperatura de reflujo debería mejorar el rendimiento neto de diosgenina en cualquier caso, porque más calor acelera la reacción. Aplicando Arrhenius a dos reacciones competidoras con distinta energía de activación, ¿qué corrige esta suposición?",
     "opciones": [
-      "Ambas reacciones, hidrólisis y degradación, se aceleran exactamente en el mismo factor al subir la temperatura, porque comparten el mismo catalizador ácido y el mismo medio de reacción",
-      "Si las dos reacciones tienen distinta energía de activación, la que tiene mayor Ea se acelera desproporcionadamente más, así que subir la temperatura puede cambiar cuál domina",
-      "La temperatura solo afecta la velocidad de una reacción cuando no hay catalizador presente, así que en un sistema catalizado por ácido su efecto es prácticamente irrelevante",
-      "Subir la temperatura siempre favorece la hidrólisis sobre la degradación, porque la hidrólisis es la reacción que el protocolo busca que ocurra en primer lugar"
+      "Hidrólisis y degradación se aceleran exactamente en el mismo factor: comparten catalizador y medio",
+      "Con distinta energía de activación, la de mayor Ea se acelera más al subir la temperatura",
+      "La temperatura solo importa sin catalizador; con ácido presente su efecto es irrelevante",
+      "Subir la temperatura siempre favorece la hidrólisis, que es la reacción que se busca"
     ],
     "correcta": 1,
     "explicacion": "La constante de velocidad depende exponencialmente de Ea y T; si la degradación tiene mayor Ea que la hidrólisis, subir la temperatura la acelera más que proporcionalmente, empeorando el rendimiento neto pese a que la reacción global vaya más rápido."
@@ -642,10 +642,10 @@
     "formato": "mcq",
     "enunciado": "Un compañero de laboratorio argumenta que la presencia del dieno de degradación en el hidrolizado significa que el experimento salió mal y hay que repetirlo desde cero. ¿Qué corrige mejor esta idea sobre qué es un 'artefacto' analítico?",
     "opciones": [
-      "Un artefacto siempre indica un error de manipulación del experimentador, así que su sola presencia confirma que algo se hizo incorrectamente durante el procedimiento",
-      "El dieno no es un artefacto real, sino un compuesto que ya estaba presente en el tejido vivo del ñame antes de cualquier manipulación en el laboratorio",
-      "Un artefacto solo aparece cuando se usa una técnica de cuantificación defectuosa, así que cambiar de método analítico eliminaría por completo su formación",
-      "Un artefacto es un compuesto que se forma por el propio método de análisis y no estaba en la muestra original, pero eso no significa que el experimento esté mal hecho"
+      "Un artefacto siempre indica un error de manipulación, así que confirma que algo se hizo mal",
+      "El dieno no es un artefacto real: ya estaba en el tejido vivo del ñame antes de manipularlo",
+      "Un artefacto solo aparece al usar una técnica de cuantificación defectuosa que se puede cambiar",
+      "Es un compuesto que crea el propio método de análisis, no una señal de que el experimento esté mal"
     ],
     "correcta": 3,
     "explicacion": "El dieno de degradación se forma como consecuencia mecanística esperada de exponer la diosgenina ya liberada a las mismas condiciones ácidas y calientes que la liberaron; su presencia no invalida el experimento, aunque sí complica la cuantificación si no se distingue bien de la diosgenina genuina."
@@ -670,10 +670,10 @@
     "formato": "mcq",
     "enunciado": "El protocolo neutraliza el hidrolizado con bicarbonato de sodio, una base débil, en vez de hidróxido de sodio, mucho más fuerte y rápido. ¿Cuál es la razón principal para preferir la base débil aquí?",
     "opciones": [
-      "El NaHCO₃ libera CO₂ al reaccionar, autolimitando su propia velocidad y evitando el calor localizado que generaría el NaOH sobre un producto ya sensible térmicamente",
-      "El NaOH no reacciona en absoluto con el H₂SO₄ diluido del hidrolizado, así que solo el NaHCO₃ logra neutralizar de verdad el exceso de ácido presente",
-      "El NaHCO₃ resulta más económico de conseguir en cantidades grandes que el NaOH, así que la elección responde sobre todo a razones de costo del reactivo",
-      "El NaOH reacciona demasiado despacio frente a ácidos fuertes como el H₂SO₄, así que tardaría horas adicionales en alcanzar un pH estable, incluso agregándolo en pequeñas porciones"
+      "El NaHCO₃ libera CO₂ al reaccionar, autolimita su velocidad y evita el calor local del NaOH",
+      "El NaOH no reacciona con el H₂SO₄ diluido; solo el NaHCO₃ neutraliza de verdad el ácido",
+      "El NaHCO₃ es más barato de conseguir en cantidad, así que la elección es de costo",
+      "El NaOH reacciona demasiado lento frente a ácidos fuertes y tardaría horas en estabilizar el pH"
     ],
     "correcta": 0,
     "explicacion": "Con NaOH la neutralización sería casi instantánea y muy exotérmica en el punto de adición, generando calor localizado que arriesga degradar aún más la diosgenina ya liberada; el NaHCO₃ consume parte de esa energía formando y liberando CO₂ en vez de solo calentar la solución, dando más control al ajustar el pH en porciones pequeñas."
@@ -699,10 +699,10 @@
     "formato": "mcq",
     "enunciado": "Si agitar mezcla mejor las dos fases y acelera el paso de soluto entre ellas, ¿por qué el protocolo insiste en agitar 'suave' en vez de fuerte?",
     "opciones": [
-      "Agitar fuerte rompe químicamente algunos enlaces de la diosgenina, generando subproductos no deseados que complican la separación posterior de las fases",
-      "Agitar fuerte hace que el DCM se evapore casi por completo dentro del embudo cerrado, dejando muy poco solvente disponible para completar la extracción",
-      "Agitar fuerte dispersa las fases en gotas cada vez más pequeñas y numerosas, que con tensioactivo presente tardan mucho más en coalescer de nuevo en dos capas separadas",
-      "Agitar fuerte y agitar suave transfieren exactamente la misma cantidad de soluto entre fases, así que la intensidad de agitación no tiene ningún efecto real sobre el resultado"
+      "Agitar fuerte rompe enlaces de la diosgenina y genera subproductos no deseados",
+      "Agitar fuerte evapora casi todo el DCM dentro del embudo cerrado",
+      "Agitar fuerte dispersa las fases en gotas finas que tardan mucho más en coalescer",
+      "Agitar fuerte y agitar suave transfieren exactamente el mismo soluto entre fases"
     ],
     "correcta": 2,
     "explicacion": "Agitar gana velocidad de transferencia de soluto entre fases a cambio de perder muchísimo tiempo después en la separación: cuanto más pequeñas y numerosas sean las gotas, más tienen que coalescer para volver a dos fases, un proceso lento cuando hay tensioactivo presente."
@@ -727,10 +727,10 @@
     "formato": "mcq",
     "enunciado": "¿El diclorometano es el solvente 'más eficiente' posible para extraer diosgenina, o hay un compromiso entre extraer MUCHO y extraer LIMPIO?",
     "opciones": [
-      "El DCM es simultáneamente el solvente más eficiente y el más selectivo posible, así que no existe ningún compromiso real entre esas dos propiedades en este caso",
-      "El DCM prioriza deliberadamente rendimiento sobre pureza absoluta: su polaridad intermedia extrae bien la diosgenina, pero por esa misma polaridad también arrastra otros compuestos parecidos",
-      "Un solvente más apolar que el DCM extraería siempre más diosgenina y menos impurezas al mismo tiempo, así que la elección del DCM no responde a ningún compromiso técnico",
-      "La pureza del extracto depende únicamente de los pasos posteriores de purificación, así que la elección del solvente extractor no influye en absoluto sobre qué tan limpio queda"
+      "El DCM es a la vez el solvente más eficiente y el más selectivo, así que no existe compromiso",
+      "El DCM cambia pureza por rendimiento: su polaridad media también arrastra compuestos parecidos",
+      "Un solvente más apolar que el DCM extraería siempre más diosgenina y menos impurezas a la vez",
+      "La pureza del extracto depende únicamente de los pasos de purificación posteriores"
     ],
     "correcta": 1,
     "explicacion": "Un solvente ideal tendría coeficiente de partición muy favorable para diosgenina y muy desfavorable para todo lo demás; en la práctica, la polaridad intermedia del DCM que lo hace buen extractor también lo hace poco selectivo, arrastrando pigmentos y fenoles que los pasos posteriores deben terminar de limpiar."
@@ -757,10 +757,10 @@
     "formato": "mcq",
     "enunciado": "El protocolo indica dejar reposar el embudo 3-5 minutos después de agitar. ¿Por qué ese número es una estimación empírica para este sistema específico, y no una constante universal aplicable a cualquier extracción?",
     "opciones": [
-      "Porque la Ley de Stokes solo aplica a sistemas acuosos, así que cualquier extracción con solventes orgánicos requiere un tiempo de reposo determinado por métodos completamente distintos",
-      "Porque el tiempo de reposo depende únicamente del volumen total de líquido en el embudo, sin relación con las propiedades físicas de los solventes involucrados en cada caso",
-      "Porque agitar siempre genera exactamente el mismo tamaño de gota sin importar el sistema, así que el único factor que cambia entre extracciones es la temperatura ambiente",
-      "Porque la velocidad de sedimentación depende de la diferencia de densidad, el radio de la gota y la viscosidad, factores que cambian según el par de solventes y el tensioactivo presente"
+      "La Ley de Stokes solo aplica a sistemas acuosos, no a extracciones con solventes orgánicos",
+      "El tiempo de reposo depende solo del volumen total de líquido que haya en el embudo",
+      "Agitar siempre genera el mismo tamaño de gota, así que solo cambia la temperatura ambiente",
+      "La sedimentación depende de la diferencia de densidad, el radio de gota y la viscosidad"
     ],
     "correcta": 3,
     "explicacion": "Según la Ley de Stokes, la velocidad terminal de sedimentación es proporcional a la diferencia de densidad y al radio de la gota al cuadrado, e inversamente proporcional a la viscosidad; sistemas con mayor diferencia de densidad o gotas más grandes separan más rápido, por eso el tiempo sube a 10-15 minutos cuando ya hay emulsión formada."
@@ -785,10 +785,10 @@
     "formato": "mcq",
     "enunciado": "Un extracto contiene compuestos de polaridad muy distinta entre sí. ¿Por qué en ese caso conviene más un gradiente de elución que mantener la fase móvil con una sola composición fija (isocrática) durante toda la corrida?",
     "opciones": [
-      "Con composición fija, un solo porcentaje de solvente orgánico resuelve bien un extremo de polaridad pero hace que el otro extremo eluya casi sin separación o con picos excesivamente anchos",
-      "El gradiente siempre acorta el tiempo total de la corrida sin importar qué tan parecidas sean las polaridades de los compuestos presentes en la muestra analizada",
-      "La elución isocrática es simplemente una versión más antigua y obsoleta del gradiente, sin ninguna ventaja práctica que la haga preferible en algún caso",
-      "El gradiente cambia la temperatura de la columna progresivamente durante la corrida, en vez de cambiar la composición de la fase móvil como ocurre en TLC, una confusión común entre ambas técnicas"
+      "Con composición fija, un extremo de polaridad se resuelve y el otro eluye casi sin separación",
+      "El gradiente siempre acorta el tiempo total de la corrida sin importar las polaridades presentes",
+      "La elución isocrática es solo una versión obsoleta del gradiente, sin ninguna ventaja práctica",
+      "El gradiente cambia la temperatura de la columna durante la corrida, no la fase móvil"
     ],
     "correcta": 0,
     "explicacion": "El gradiente optimiza la fuerza de elución dinámicamente durante la corrida: los compuestos más polares eluyen primero bajo condiciones acuosas donde tienen buena resolución, y conforme sube el porcentaje orgánico, los más apolares eluyen en un tiempo razonable con picos también razonablemente estrechos."
@@ -814,10 +814,10 @@
     "formato": "mcq",
     "enunciado": "La resolución entre dos picos depende de N (platos teóricos), α (selectividad) y k' (factor de capacidad), pero N entra bajo raíz cuadrada en la ecuación. ¿Qué implica esto para cómo conviene mejorar una separación pobre?",
     "opciones": [
-      "N, α y k' contribuyen exactamente por igual a la resolución final, así que mejorar cualquiera de los tres produce siempre la misma ganancia relativa en Rs",
-      "El factor de capacidad k' es el único término que realmente determina la resolución, mientras que N y α solo afectan la forma de los picos, no su separación",
-      "Como N entra bajo raíz cuadrada, cuadruplicar el número de platos teóricos solo duplica esa parte de la resolución, así que mejorar la selectividad química suele dar ganancias más dramáticas por menor costo",
-      "Aumentar la longitud de la columna es siempre la forma más eficiente de mejorar cualquier separación pobre, sin importar qué tan cerca estén los tR de los dos compuestos"
+      "N, $\\alpha$ y k' contribuyen exactamente por igual, así que mejorar cualquiera da la misma ganancia",
+      "El factor k' es el único que determina la resolución; N y $\\alpha$ solo dan forma al pico",
+      "N entra bajo raíz: cuadruplicar los platos solo duplica esa parte, así que conviene más subir $\\alpha$",
+      "Alargar la columna siempre es la forma más eficiente de mejorar una separación pobre"
     ],
     "correcta": 2,
     "explicacion": "Aumentar N requiere columna más larga o partícula más fina, una vía costosa con rendimientos decrecientes por la raíz cuadrada; aumentar α requiere cambiar la química, otra fase móvil u otro pH, y suele dar ganancias mucho más dramáticas para el mismo esfuerzo."
@@ -842,10 +842,10 @@
     "formato": "mcq",
     "enunciado": "Ya se sabe que la diosgenina tiene ε bajo en UV-Vis. Aplicado a HPLC, ¿qué implica esto más allá de solo 'usar el reactivo de Baccou en una cubeta'?",
     "opciones": [
-      "El problema de ε bajo desaparece por completo al pasar de un espectrofotómetro simple a un HPLC, porque el detector UV de un HPLC es intrínsecamente más sensible que una cubeta",
-      "La única solución posible es reemplazar por completo el detector UV con un detector de masas, ya que ningún otro tipo de detector puede compensar un ε tan bajo como el de la diosgenina",
-      "El mismo protocolo de Baccou usado en la cubeta se puede conectar directamente a la salida de la columna sin ningún ajuste adicional al método de detección",
-      "Detectar diosgenina con UV convencional a 210-220 nm daría mala sensibilidad, así que se prefiere ELSD o derivatización pre/post-columna para crear un cromóforo en el flujo"
+      "El problema de $\\varepsilon$ bajo desaparece al pasar de un espectrofotómetro simple a un HPLC más sensible",
+      "La única salida es reemplazar el detector UV por un detector de masas",
+      "El protocolo de Baccou de la cubeta se conecta a la salida de la columna sin ningún ajuste",
+      "Con UV a 210-220 nm la sensibilidad es mala, así que se usa ELSD o derivatización en el flujo"
     ],
     "correcta": 3,
     "explicacion": "El mismo problema de ε bajo de la cuantificación directa se traslada a HPLC: hay que crear un cromóforo, ya sea con un detector que no dependa de absorción de luz como ELSD, o con derivatización dentro del flujo cromatográfico, la misma lógica de crear conjugación donde no existía."
@@ -872,10 +872,10 @@
     "formato": "mcq",
     "enunciado": "Un pico de HPLC muestra una 'cola' larga en su parte posterior; otro pico distinto muestra un 'hombro' pegado a un pico vecino. ¿Qué distingue la causa fisicoquímica de cada defecto?",
     "opciones": [
-      "Ambos defectos tienen exactamente la misma causa física, interacción con silanoles residuales de la columna, y solo se diferencian por cuál lado del pico afectan visualmente",
-      "El hombro siempre indica un problema del detector, mientras que el tailing siempre indica un problema exclusivo de la bomba que impulsa la fase móvil a través de la columna",
-      "El tailing es un defecto de forma de un solo compuesto por interacción secundaria con la fase estacionaria; el hombro indica típicamente un segundo compuesto con tR muy cercano",
-      "Ninguno de los dos defectos aporta información diagnóstica real sobre el sistema cromatográfico, así que ambos se pueden ignorar sin afectar la cuantificación"
+      "Los dos defectos tienen exactamente la misma causa física y solo cambia qué lado del pico afectan",
+      "El hombro es siempre un problema del detector; el tailing, siempre de la bomba de fase móvil",
+      "Tailing: un compuesto retenido por silanoles. Hombro: un segundo compuesto con $t_R$ muy cercano",
+      "Ninguno de los dos aporta información diagnóstica real, así que ambos se pueden ignorar"
     ],
     "correcta": 2,
     "explicacion": "El tailing típico viene de una pequeña fracción de moléculas quedando atrapada temporalmente por silanoles residuales ionizados, retrasándose desproporcionadamente; el hombro, en cambio, suele señalar resolución insuficiente entre dos compuestos distintos con tR muy cercano, no un defecto de forma del pico principal."
@@ -962,10 +962,10 @@
     "formato": "mcq",
     "enunciado": "El hidrolizado contenía 12.0 mg de diosgenina antes de extraer, y el extracto final de DCM, tras las 3 extracciones del protocolo, contiene 10.2 mg. ¿Cuál es el porcentaje de eficiencia de extracción?",
     "opciones": [
-      "117.6%, dividiendo la masa inicial entre la masa recuperada en el extracto, y multiplicando ese cociente por 100",
-      "0.85%, dividiendo la masa recuperada entre la masa inicial presente antes de extraer, sin multiplicar ese cociente por 100",
-      "85%, dividiendo la masa recuperada en el extracto entre la masa inicial presente antes de extraer, y multiplicando ese cociente por 100",
-      "1.8 mg, porque la eficiencia de extracción se reporta como la masa que quedó sin extraer, no como la masa que sí se recuperó"
+      "117,6 %, dividiendo la masa inicial entre la recuperada y multiplicando por 100",
+      "0,85 %, dividiendo la recuperada entre la inicial sin multiplicar por 100",
+      "85 %, dividiendo la masa recuperada entre la masa inicial y multiplicando por 100",
+      "1,8 mg, porque la eficiencia se reporta como la masa que quedó sin extraer"
     ],
     "correcta": 2,
     "explicacion": "La eficiencia de extracción es la fracción de lo que había originalmente que efectivamente se recuperó, expresada como porcentaje: 10.2/12.0 × 100 = 85%. Invertir la razón, reportar la masa remanente en vez de la recuperada, u olvidar multiplicar por 100 son los tres errores más comunes al calcular este número, aunque la aritmética de fondo sea simple."
@@ -1038,10 +1038,10 @@
     "formato": "mcq",
     "enunciado": "La transmitancia decae de forma exponencial con la concentración; la [[DG-R-beer-lambert|absorbancia]] sube de forma lineal. ¿Qué es la absorbancia, en relación con la transmitancia?",
     "opciones": [
-      "Su inverso: uno dividido entre la transmitancia.",
-      "Su complemento: la fracción de luz que no se transmite.",
-      "Su logaritmo negativo, y por eso la relación con la concentración es lineal.",
-      "Su derivada respecto de la concentración del analito."
+      "El inverso de la transmitancia: uno partido por el valor de T.",
+      "El complemento: la fracción de la luz que la muestra no deja pasar.",
+      "El logaritmo negativo de la transmitancia: A = −log(T).",
+      "La derivada de la transmitancia respecto de la concentración."
     ],
     "correcta": 2,
     "explicacion": "A = −log(T). Ese paso logarítmico es justo lo que convierte el decaimiento exponencial de la transmitancia en una recta contra la concentración, y por eso se trabaja con absorbancia. La linealidad se pierde por encima de A ≈ 1.5 por razones químicas e instrumentales."
@@ -1068,8 +1068,8 @@
     "formato": "mcq",
     "enunciado": "Subir la temperatura de reflujo unos pocos grados acelera bastante la hidrólisis. Según la [[DG-R-arrhenius|ecuación de Arrhenius]], ¿por qué el efecto es tan grande para un cambio tan chico?",
     "opciones": [
-      "Porque la constante de velocidad crece de forma lineal con la temperatura.",
-      "Porque la fracción de moléculas con energía sobre la barrera crece exponencialmente.",
+      "Porque la constante de velocidad crece de forma lineal con la temperatura absoluta.",
+      "Porque la fracción de moléculas por encima de la barrera crece exponencialmente.",
       "Porque a más temperatura las moléculas chocan proporcionalmente más veces.",
       "Porque la energía de activación de la reacción baja al calentar el sistema."
     ],
@@ -1267,14 +1267,14 @@
       "Bolsita de sílica gel en la caja"
     ],
     "der": [
-      "Fotodegradación por luz UV y visible",
       "Cinética de las reacciones de degradación",
-      "Humedad que rehidrata o hidroliza el residuo"
+      "Humedad que rehidrata o hidroliza el residuo",
+      "Fotodegradación por luz UV y visible"
     ],
     "pares": {
-      "0": 0,
-      "1": 1,
-      "2": 2
+      "0": 2,
+      "1": 0,
+      "2": 1
     },
     "explicacion": "Cada medida cubre una vía distinta: la luz rompe enlaces sensibles, el frío frena toda la química por Arrhenius, y la humedad reactiva la hidrólisis. Un vial transparente a 4 °C dejaría dos de las tres vías abiertas."
   },
@@ -1484,14 +1484,14 @@
       "Réplica biológica"
     ],
     "der": [
+      "La muestra de ñame misma",
       "Nada: mismo operador, mismo día, mismo equipo",
-      "El operador, el día o el equipo",
-      "La muestra de ñame misma"
+      "El operador, el día o el equipo"
     ],
     "pares": {
-      "0": 0,
-      "1": 1,
-      "2": 2
+      "0": 1,
+      "1": 2,
+      "2": 0
     },
     "explicacion": "Repetibilidad y reproducibilidad se diferencian en cuántas fuentes de variación se dejan entrar: la reproducibilidad siempre incluye más. Una réplica biológica cambia la muestra misma, así que mezcla el ruido del método con la diferencia real entre tubérculos."
   },
@@ -1569,16 +1569,16 @@
       "Intervalo de confianza"
     ],
     "der": [
-      "Qué tan raros serían estos datos si no hubiera efecto",
-      "Probabilidad de detectar un efecto real si existe",
+      "En qué rango cae la estimación",
       "Qué tan grande es el fenómeno",
-      "En qué rango cae la estimación"
+      "Qué tan raros serían estos datos si no hubiera efecto",
+      "Probabilidad de detectar un efecto real si existe"
     ],
     "pares": {
-      "0": 0,
-      "1": 1,
-      "2": 2,
-      "3": 3
+      "0": 2,
+      "1": 3,
+      "2": 1,
+      "3": 0
     },
     "explicacion": "Son cuatro preguntas distintas que se confunden a menudo. El p-valor no mide el tamaño ni la probabilidad de la hipótesis; el poder es una propiedad del diseño anterior a ver los datos; el tamaño de efecto y el intervalo son lo que de verdad hay que reportar para que otro juzgue el resultado."
   }

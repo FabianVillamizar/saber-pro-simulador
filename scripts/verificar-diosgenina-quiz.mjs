@@ -127,6 +127,8 @@ const CAMPOS_CONTEXTO = ['enunciado', 'explicacion', 'antes', 'despues']
 const CAMPOS_SIN_TOKEN = ['opciones', 'fragmentos', 'respuesta', 'alternativas', 'izq', 'der']
 const posiciones = []
 let correctaMasLarga = 0
+let correctaMasCorta = 0
+let rankLongitudSuma = 0
 let refsQuiz = 0
 
 for (const it of quiz) {
@@ -177,6 +179,13 @@ for (const it of quiz) {
         errores++
       }
     }
+    // el motor baraja `der` al render, pero la fuente no debe escribirse con
+    // el mapeo identidad {0:0,1:1,...}: obliga a pensar el emparejamiento y
+    // deja el JSON legible sin que parezca ya resuelto en orden.
+    if (nI >= 2 && Object.entries(it.pares ?? {}).every(([k, v]) => +k === +v)) {
+      console.log(`FAIL ${it.id}: match.pares es el mapeo identidad — baraja la columna der en la fuente`)
+      errores++
+    }
   }
   // rúbrica mcq
   if (it.formato === 'mcq') {
@@ -192,7 +201,21 @@ for (const it of quiz) {
       console.log(`FAIL ${it.id}: opciones desbalanceadas (ratio ancho ${ratio.toFixed(2)} < 0.55)`)
       errores++
     }
-    if (anchos[it.correcta] === Math.max(...anchos)) correctaMasLarga++
+    const maxAncho = Math.max(...anchos)
+    const minAncho = Math.min(...anchos)
+    const segundo = [...anchos].sort((a, b) => b - a)[1]
+    // tope de margen por ítem: la correcta no puede sacarle más de 8 car.
+    // visuales a la siguiente opción — un margen mayor la delata sola aunque
+    // el lote completo salga equilibrado.
+    if (anchos[it.correcta] === maxAncho && anchos[it.correcta] - segundo > 8) {
+      console.log(
+        `FAIL ${it.id}: la correcta es la más larga por ${anchos[it.correcta] - segundo} car. (> 8) — recórtala o alarga un distractor`,
+      )
+      errores++
+    }
+    if (anchos[it.correcta] === maxAncho) correctaMasLarga++
+    if (anchos[it.correcta] === minAncho) correctaMasCorta++
+    rankLongitudSuma += anchos.filter((a) => a < anchos[it.correcta]).length
   }
 }
 
@@ -208,9 +231,32 @@ if (correctaMasLarga > Math.ceil(mcq.length / 2)) {
   console.log(`FAIL la correcta es la opción más larga en ${correctaMasLarga}/${mcq.length} ítems (> mitad)`)
   errores++
 }
+// asimetría corta/larga: si la correcta casi nunca es la más corta, eliminar
+// la opción más corta la delata aunque "más larga ≤ mitad" pase. Se exige un
+// piso de ~1/8 del lote (y, por simetría, que tampoco sea corta en exceso).
+const pisoCorta = Math.floor(mcq.length / 8)
+if (mcq.length >= 16 && correctaMasCorta < pisoCorta) {
+  console.log(
+    `FAIL la correcta es la más corta en solo ${correctaMasCorta}/${mcq.length} ítems (< ${pisoCorta}) — eliminar la más corta la delata`,
+  )
+  errores++
+}
+if (correctaMasCorta > Math.ceil(mcq.length / 2)) {
+  console.log(`FAIL la correcta es la opción más corta en ${correctaMasCorta}/${mcq.length} ítems (> mitad)`)
+  errores++
+}
+// rank de longitud promedio de la correcta (0 = siempre la más corta,
+// 3 = siempre la más larga en un ítem de 4). Neutro ≈ 1.5; fuera de
+// [1.15, 1.85] hay un sesgo sistemático de longitud en el lote.
+const rankProm = rankLongitudSuma / Math.max(mcq.length, 1)
+if (mcq.length >= 16 && (rankProm < 1.15 || rankProm > 1.85)) {
+  console.log(`FAIL rank de longitud promedio de la correcta ${rankProm.toFixed(2)} (fuera de 1.15-1.85)`)
+  errores++
+}
 console.log(
   `${quiz.length} ítems de Quiz Rápido (${mcq.length} mcq) · ${refsQuiz} refs [[DG-R-...]] · ` +
-    `posiciones ${JSON.stringify(conteoPos)} · correcta-más-larga ${correctaMasLarga}/${mcq.length}`,
+    `posiciones ${JSON.stringify(conteoPos)} · correcta-más-larga ${correctaMasLarga}/${mcq.length} · ` +
+    `correcta-más-corta ${correctaMasCorta}/${mcq.length} · rank-long ${rankProm.toFixed(2)}`,
 )
 
 // ===========================================================================
