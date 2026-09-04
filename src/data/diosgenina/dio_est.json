@@ -6,13 +6,13 @@
     "bloque": "EST",
     "modo": "pregunta",
     "pregunta": "El p-valor de una prueba de hipótesis se malinterpreta constantemente incluso por científicos experimentados. ¿Cuál es su definición formal exacta, y cuáles son las dos interpretaciones erróneas más comunes?",
-    "respuesta": "El p-valor es la probabilidad de observar un resultado tan extremo o más extremo que el obtenido, ASUMIENDO que la hipótesis nula (H₀, típicamente 'no hay diferencia real') es verdadera. **Primer error común**: confundirlo con 'la probabilidad de que H₀ sea verdadera dados estos datos' — eso sería P(H₀ | datos), una cantidad completamente distinta que requeriría razonamiento bayesiano, no lo que un p-valor frecuentista calcula. **Segundo error común**: tratarlo como medida continua de 'qué tan fuerte' es la evidencia — un p-valor pequeño puede surgir de un efecto genuinamente pequeño medido con mucha precisión (n grande), y un p-valor grande puede ocultar un efecto genuinamente grande medido con poca precisión (n pequeño, la situación de de Winter 2013). El p-valor mezcla tamaño de efecto Y tamaño de muestra en un solo número, así que no se lee directamente como 'qué tan importante' es el hallazgo sin mirar también el tamaño de efecto por separado (**EST-02**).",
+    "respuesta": "El p-valor es la probabilidad de observar un resultado tan extremo o más que el obtenido, ASUMIENDO que la hipótesis nula (H₀, 'no hay diferencia real') es verdadera. **Primer error**: leerlo como 'la probabilidad de que H₀ sea verdadera dados los datos' — eso es P(H₀ | datos), otra cantidad que exige razonamiento bayesiano. **Segundo error**: tratarlo como medida de 'qué tan fuerte' es la evidencia — un p pequeño puede venir de un efecto pequeño medido con mucha precisión (n grande), y un p grande puede ocultar un efecto grande medido con poca. El p-valor mezcla tamaño de efecto Y tamaño de muestra, así que no se lee como 'qué tan importante' es el hallazgo sin mirar el tamaño de efecto aparte (**EST-02**).",
     "error_comun": "Decir o pensar 'el p-valor es la probabilidad de que la hipótesis nula sea verdadera' — la falacia de inversión condicional más común y persistente, incluso entre investigadores publicados.",
     "dificultad": "alta",
     "prereqs": [],
     "connects_to": [],
-    "regla": "el p-valor es P(datos | H₀ verdadera), NO P(H₀ verdadera | datos) — invertir ese condicionamiento es un error lógico real, no de matiz.",
-    "conexion_cotidiana": "Ronald Fisher, quien popularizó el umbral convencional de 0.05, desarrolló buena parte de su marco estadístico moderno —incluyendo el diseño factorial que probablemente usarán para su experimento 2×2 (**EST-04**)— trabajando literalmente en una **estación experimental agrícola** (Rothamsted Research, Inglaterra, desde 1919), diseñando experimentos de campo para comparar rendimientos de cultivos bajo distintos fertilizantes."
+    "regla": "el p-valor es P(datos | H₀ verdadera), NO P(H₀ verdadera | datos) — invertir ese condicionamiento es un error lógico, no de matiz.",
+    "conexion_cotidiana": "Ronald Fisher, que popularizó el umbral de 0.05, desarrolló buena parte de su estadística —incluido el diseño factorial de **EST-04**— trabajando en una estación experimental agrícola (Rothamsted, Inglaterra, desde 1919), diseñando experimentos de campo para comparar rendimientos de cultivos bajo distintos fertilizantes."
   },
   {
     "id": "EST-02",
@@ -21,15 +21,15 @@
     "bloque": "EST",
     "modo": "pregunta",
     "pregunta": "¿Puede un resultado ser 'estadísticamente significativo' (p < 0.05) y a la vez ser prácticamente irrelevante? ¿Puede ser 'no significativo' y aun así reflejar un efecto real e importante?",
-    "respuesta": "El **tamaño de efecto** (la diferencia real entre dos medias, o esa diferencia en unidades de desviación estándar, la d de Cohen) mide CUÁN GRANDE es el fenómeno observado, independiente del tamaño de muestra. La significancia estadística depende conjuntamente del tamaño de efecto Y del tamaño de muestra Y de la variabilidad de los datos: con muestra suficientemente grande, incluso una diferencia trivialmente pequeña puede dar p < 0.05; con muestra pequeña (como su propio piloto de n=2), incluso un efecto genuinamente grande puede no alcanzar significancia por falta de poder (**EST-03**), no porque no exista. Un informe riguroso reporta idealmente AMBAS cosas por separado: el tamaño de efecto y la significancia — son preguntas complementarias, no la misma pregunta con dos nombres.",
-    "error_comun": "Usar 'significativo' en sentido estadístico como sinónimo de 'importante' o 'grande' en sentido coloquial — la jerga estadística desafortunadamente comparte una palabra ambigua entre ambos.",
+    "respuesta": "El **tamaño de efecto** (la diferencia real entre dos medias, o esa diferencia en desviaciones estándar, la d de Cohen) mide CUÁN GRANDE es el fenómeno, independiente del tamaño de muestra. La significancia depende a la vez del tamaño de efecto, del tamaño de muestra y de la variabilidad: con muestra grande, una diferencia trivial puede dar p < 0.05; con muestra pequeña (tu piloto de n=2), un efecto grande puede no alcanzar significancia por falta de poder (**EST-03**), no porque no exista. Un informe riguroso reporta ambas cosas por separado: tamaño de efecto y significancia son preguntas complementarias.",
+    "error_comun": "Usar 'significativo' en sentido estadístico como sinónimo de 'importante' o 'grande' en sentido coloquial — la jerga comparte una palabra ambigua entre ambos.",
     "dificultad": "alta",
     "prereqs": [
       "EST-01"
     ],
     "connects_to": [],
     "regla": "tamaño de efecto y significancia estadística responden preguntas distintas — cuán grande es el fenómeno, vs. cuán confiables son los datos para descartar ruido.",
-    "conexion_cotidiana": "Esta distinción tiene una consecuencia enorme en investigación clínica, donde se usa una medida de tamaño de efecto llamada **NNT (número necesario a tratar)**: un fármaco puede reducir el riesgo relativo de un evento adverso de forma 'estadísticamente muy significativa' en un ensayo masivo con decenas de miles de pacientes, y sin embargo tener un NNT altísimo (por ejemplo, 200) — un hallazgo estadísticamente robusto pero de relevancia clínica marginal para un paciente individual."
+    "conexion_cotidiana": "En investigación clínica esto se mide con el **NNT (número necesario a tratar)**: un fármaco puede reducir el riesgo de forma 'muy significativa' en un ensayo de decenas de miles de pacientes y aun así tener un NNT de 200 — robusto estadísticamente, pero de relevancia clínica marginal para un paciente."
   },
   {
     "id": "EST-03",
@@ -38,15 +38,15 @@
     "bloque": "EST",
     "modo": "pregunta",
     "pregunta": "¿Qué significa exactamente 'poder estadístico' de un experimento, y por qué su piloto de n=2 no solo da 'menos confianza' sino que literalmente no puede detectar ciertos efectos aunque existan?",
-    "respuesta": "El poder estadístico es la probabilidad de detectar correctamente un efecto real de una magnitud dada, si ese efecto realmente existe: formalmente, 1 menos la probabilidad de error Tipo II (β, 'falso negativo'). Depende de tres factores: el tamaño de efecto real (efectos más grandes son más fáciles de detectar), el tamaño de muestra (más muestra da más poder), y la variabilidad inherente de los datos (más ruido reduce el poder). Con n=2 por grupo, como en su piloto exploratorio, el poder para detectar cualquier cosa que no sea un efecto absolutamente enorme es extremadamente bajo (la conclusión cuantitativa de de Winter 2013): no es que el experimento sea 'menos confiable' de forma vaga, es que la probabilidad matemática de detectar un efecto real de magnitud moderada, aunque exista, es simplemente demasiado baja.",
-    "error_comun": "Confundir 'bajo poder estadístico' con 'el método analítico es malo o impreciso' — el poder depende del DISEÑO del experimento (principalmente n), no de la calidad intrínseca del instrumento o técnica de medición.",
+    "respuesta": "El poder estadístico es la probabilidad de detectar correctamente un efecto real de cierta magnitud, si existe: formalmente, 1 menos la probabilidad de error Tipo II (β, 'falso negativo'). Depende de tres cosas: el tamaño de efecto real, el tamaño de muestra y la variabilidad de los datos. Con n=2 por grupo, el poder para detectar cualquier cosa que no sea un efecto enorme es muy bajo: no es que el experimento sea 'menos confiable' de forma vaga, es que la probabilidad de detectar un efecto real de magnitud moderada, aunque exista, es demasiado baja.",
+    "error_comun": "Confundir 'bajo poder estadístico' con 'el método analítico es malo o impreciso': el poder depende del DISEÑO del experimento (sobre todo n), no de la calidad del instrumento.",
     "dificultad": "alta",
     "prereqs": [
       "EST-02"
     ],
     "connects_to": [],
-    "regla": "poder = probabilidad de detectar un efecto real, SI existe — depende de tamaño de efecto, tamaño de muestra, y variabilidad de los datos, los tres a la vez.",
-    "conexion_cotidiana": "El concepto de poder estadístico es el mismo tipo de razonamiento cuantitativo que hace un **jugador de póker** experto al decidir si vale la pena 'llamar' una apuesta grande con una mano marginal: la decisión racional no depende solo de si HAY probabilidad de ganar, sino de si esa probabilidad, combinada con el costo de la apuesta (análogo al costo/tiempo de recolectar más muestras), justifica seguir jugando — los jugadores profesionales calculan 'pot odds' comparando probabilidad de éxito contra costo, la misma lógica que un análisis de poder estadístico."
+    "regla": "poder = probabilidad de detectar un efecto real, SI existe — depende de tamaño de efecto, tamaño de muestra y variabilidad de los datos, los tres a la vez.",
+    "conexion_cotidiana": "El poder estadístico es el mismo razonamiento que hace un jugador de **póker** al decidir si 'llama' una apuesta grande con mano marginal: la decisión racional no depende solo de si hay probabilidad de ganar, sino de si esa probabilidad justifica el costo de la apuesta — 'pot odds', la misma lógica que un análisis de poder."
   },
   {
     "id": "EST-04",
@@ -54,16 +54,16 @@
     "tipo": "concepto",
     "bloque": "EST",
     "modo": "pregunta",
-    "pregunta": "Su diseño 2×2 (concentración de NaOH × curado sellado/no sellado) suena como 'probar dos cosas a la vez'. ¿Por qué eso es fundamentalmente distinto —y mejor— que simplemente hacer dos experimentos separados, uno variando NaOH y otro variando el curado?",
-    "respuesta": "Un diseño 'un factor a la vez' (OFAT) mantiene todos los demás factores fijos mientras varía uno solo, repitiendo esto por separado para cada factor: solo puede detectar el efecto PROMEDIO de cada factor aisladamente, bajo las condiciones fijas del 'otro' factor. Un **diseño factorial** (2×2, con las 4 combinaciones posibles: NaOH bajo+sellado, bajo+no sellado, alto+sellado, alto+no sellado) prueba TODAS las combinaciones simultáneamente. Esto permite estimar no solo los efectos principales de cada factor, sino también, crucialmente, si existe **interacción** entre ellos (**EST-05**): si el efecto del NaOH depende de si el curado fue sellado o no. Un OFAT es incapaz de detectar interacciones, porque nunca prueba las combinaciones necesarias para verlas — y las interacciones son, en química de materiales, a menudo el hallazgo más interesante del estudio.",
-    "error_comun": "Pensar que un diseño factorial 2×2 'requiere el doble de trabajo' que dos experimentos OFAT separados — con réplicas adecuadas, suele dar MÁS información (incluyendo interacciones) con un número de corridas comparable o menor que hacer OFAT secuenciales bien replicados.",
+    "pregunta": "Tu diseño 2×2 (concentración de NaOH × curado sellado/no sellado) suena como 'probar dos cosas a la vez'. ¿Por qué eso es fundamentalmente distinto —y mejor— que hacer dos experimentos separados, uno por factor?",
+    "respuesta": "Un diseño 'un factor a la vez' (OFAT) fija todo lo demás y varía uno solo, repitiéndolo por factor: solo ve el efecto PROMEDIO de cada factor aislado, bajo las condiciones fijas del otro. Un **diseño factorial** 2×2 prueba las 4 combinaciones a la vez, así que estima los efectos principales Y si hay **interacción** (**EST-05**): si el efecto del NaOH depende de que el curado sea sellado o no. Un OFAT no puede detectar interacciones, porque nunca prueba las combinaciones que las revelan — y en química de materiales la interacción suele ser el hallazgo más interesante.",
+    "error_comun": "Pensar que un factorial 2×2 'requiere el doble de trabajo' que dos OFAT separados: con réplicas adecuadas suele dar MÁS información (incluidas interacciones) con un número de corridas comparable o menor.",
     "dificultad": "alta",
     "prereqs": [
       "EST-03"
     ],
     "connects_to": [],
-    "regla": "un diseño 'un factor a la vez' es incapaz de ver interacciones porque nunca prueba las combinaciones necesarias para detectarlas — un diseño factorial sí las prueba, todas, a la vez.",
-    "conexion_cotidiana": "El diseño factorial fue desarrollado en gran parte por el mismo **Ronald Fisher** de **EST-01**, precisamente porque en sus experimentos agrícolas en Rothamsted se dio cuenta de que el rendimiento de un cultivo frecuentemente dependía de INTERACCIONES entre factores (el efecto de cierto fertilizante nitrogenado podía ser muy distinto según el tipo de suelo o la cantidad de riego disponible) que un enfoque 'un factor a la vez' simplemente no podía detectar."
+    "regla": "un diseño 'un factor a la vez' no puede ver interacciones porque nunca prueba las combinaciones que las revelan — un factorial sí las prueba, todas, a la vez.",
+    "conexion_cotidiana": "El diseño factorial lo desarrolló en gran parte el mismo **Ronald Fisher** de **EST-01**, al ver en sus experimentos agrícolas que el rendimiento de un cultivo dependía de interacciones entre factores (un fertilizante nitrogenado podía rendir muy distinto según el suelo o el riego) que un enfoque 'un factor a la vez' no detectaba."
   },
   {
     "id": "EST-05",
@@ -72,15 +72,15 @@
     "bloque": "EST",
     "modo": "pregunta",
     "pregunta": "Concretamente, ¿qué significaría, en términos químicos reales, que exista 'interacción' entre concentración de NaOH y curado sellado/no sellado en su experimento de geopolímero?",
-    "respuesta": "Una interacción significa que el efecto de un factor NO es constante, sino que cambia dependiendo del nivel del OTRO factor. SIN interacción, el efecto de aumentar la concentración de NaOH sería aproximadamente el mismo tamaño y dirección tanto en curado sellado como en no sellado (líneas aproximadamente **paralelas**). CON interacción, el efecto de aumentar NaOH podría ser fuertemente positivo bajo curado sellado pero mínimo o negativo bajo curado no sellado (líneas NO paralelas, podrían cruzarse) — esto tendría sentido mecanísticamente si la geopolimerización requiere tanto suficiente álcali COMO suficiente retención de humedad para completarse, de forma que ninguno de los dos factores por sí solo sea suficiente sin el otro.",
-    "error_comun": "Pensar que 'interacción' significa simplemente que 'los dos factores están relacionados' de forma vaga — tiene un significado preciso: que la MAGNITUD (y a veces dirección) del efecto de un factor cambia según el nivel del otro.",
+    "respuesta": "Una interacción significa que el efecto de un factor NO es constante, sino que cambia según el nivel del otro. SIN interacción, subir la concentración de NaOH tendría el mismo tamaño y dirección de efecto en curado sellado y no sellado (líneas **paralelas**). CON interacción, subir NaOH podría ayudar mucho bajo curado sellado y poco o nada bajo no sellado (líneas NO paralelas, que hasta se cruzan) — algo con sentido mecanístico si la geopolimerización necesita a la vez suficiente álcali y suficiente humedad retenida para completarse.",
+    "error_comun": "Pensar que 'interacción' significa vagamente que 'los dos factores están relacionados': significa algo preciso — que la magnitud (y a veces la dirección) del efecto de un factor cambia según el nivel del otro.",
     "dificultad": "alta",
     "prereqs": [
       "EST-04"
     ],
     "connects_to": [],
     "regla": "sin interacción, las líneas de respuesta a NaOH bajo cada tipo de curado serían aproximadamente paralelas; con interacción, no lo son — podrían incluso cruzarse.",
-    "conexion_cotidiana": "El concepto de interacción entre factores, con la misma estructura (líneas paralelas = sin interacción, líneas que se cruzan = interacción), tiene una aplicación clínica de altísimo riesgo en farmacología: las **interacciones farmacológicas** entre dos medicamentos (cómo la warfarina anticoagulante interactúa con ciertos antibióticos, potenciando peligrosamente su efecto) se estudian con esta misma lógica de diseño factorial — un médico decidiendo si es seguro recetar dos medicamentos juntos está haciendo la misma pregunta que tú con NaOH y curado."
+    "conexion_cotidiana": "La misma estructura (líneas paralelas = sin interacción, líneas que se cruzan = interacción) tiene un uso clínico de alto riesgo: las **interacciones farmacológicas** entre dos medicamentos (la warfarina con ciertos antibióticos, que potencian peligrosamente su efecto) se estudian con esta misma lógica factorial."
   },
   {
     "id": "EST-06",
@@ -89,14 +89,14 @@
     "bloque": "EST",
     "modo": "pregunta",
     "pregunta": "Si reportan 'el rendimiento promedio fue 2.3% de diosgenina', ¿qué información crítica le falta a esa afirmación comparada con reportar '2.3% (IC 95%: 1.8-2.8%)'?",
-    "respuesta": "Cualquier promedio calculado de una muestra finita es una ESTIMACIÓN del verdadero valor poblacional, sujeta a incertidumbre que depende del tamaño de muestra y la variabilidad de los datos. El **intervalo de confianza (IC)** comunica explícitamente esa incertidumbre: un IC del 95% es, en la interpretación frecuentista formal, el rango que, si repitieran el experimento muchísimas veces, contendría el verdadero valor poblacional en el 95% de esas repeticiones — NO significa 'hay 95% de probabilidad de que el valor verdadero esté en este rango' (una interpretación bayesiana distinta). Un IC estrecho (1.8-2.8%) comunica que la estimación es razonablemente precisa; un IC muy amplio (0.5-4.1% para el mismo promedio de 2.3%) comunicaría que, pese al mismo número central, la incertidumbre real es enorme.",
-    "error_comun": "Reportar solo el promedio sin ninguna medida de dispersión o incertidumbre (ni desviación estándar, ni error estándar, ni IC) — omite información crítica que cualquier lector necesita para evaluar qué tan confiable es esa estimación puntual.",
+    "respuesta": "Cualquier promedio de una muestra finita es una ESTIMACIÓN del verdadero valor poblacional, con incertidumbre que depende del tamaño de muestra y la variabilidad. El **intervalo de confianza** comunica esa incertidumbre: un IC del 95% es el rango que, repitiendo el experimento muchas veces, contendría el valor verdadero en el 95% de las repeticiones — NO 'hay 95% de probabilidad de que el valor esté en este rango' (esa es la lectura bayesiana). Un IC estrecho (1.8-2.8%) dice que la estimación es precisa; uno amplio (0.5-4.1% para el mismo 2.3%) diría que la incertidumbre real es enorme pese al mismo número central.",
+    "error_comun": "Reportar solo el promedio sin ninguna medida de dispersión ni incertidumbre (ni desviación estándar, ni error estándar, ni IC): omite lo que el lector necesita para juzgar qué tan confiable es esa estimación.",
     "dificultad": "alta",
     "prereqs": [
       "EST-01"
     ],
     "connects_to": [],
     "regla": "un promedio puntual comunica implícitamente una falsa sensación de precisión exacta — el intervalo de confianza comunica honestamente la incertidumbre real de la estimación.",
-    "conexion_cotidiana": "Este mismo principio de comunicar un rango de incertidumbre en vez de un número puntual falsamente preciso es por qué los meteorólogos modernos reportan pronósticos en términos de **probabilidad** ('70% de probabilidad de lluvia mañana') en vez de predicciones binarias ('mañana lloverá' o 'no lloverá') — un pronóstico probabilístico comunica honestamente la incertidumbre de un sistema caótico como la atmósfera, igual que un IC comunica la incertidumbre de estimar un parámetro a partir de una muestra finita."
+    "conexion_cotidiana": "Es por lo mismo que los meteorólogos reportan **probabilidad** ('70% de probabilidad de lluvia') en vez de predicciones binarias: un pronóstico probabilístico comunica honestamente la incertidumbre de un sistema caótico, igual que un IC comunica la de estimar un parámetro con una muestra finita."
   }
 ]

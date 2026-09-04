@@ -6,8 +6,8 @@
     "bloque": "HPL",
     "modo": "pregunta",
     "pregunta": "Conceptualmente, TLC y HPLC separan por el mismo principio de partición entre fase estacionaria y móvil (TLC-01). Entonces, ¿qué es literalmente lo que cambia al pasar de una placa a una columna?",
-    "respuesta": "**(1)** La fase estacionaria ya no es una capa delgada abierta al aire, sino partículas empacadas densamente dentro de un tubo cerrado (la columna) — compacta mucha más área superficial en un volumen pequeño. **(2)** La fase móvil ya no sube por capilaridad pasiva (**TLC-04**) sino que se bombea activamente a alta presión (**HPL-03**), porque el empaque denso ofrece mucha más resistencia al flujo. **(3)** La detección ya no es una imagen visual estática al final (**TLC-07**) sino una medición en tiempo real mientras el líquido sale de la columna, pasando por un detector (**HPL-08**) que registra continuamente, dando un cromatograma en vez de una placa con manchas fijas.",
-    "error_comun": "Pensar que HPLC es 'una técnica completamente distinta' de TLC en su fundamento — comparten exactamente el mismo principio de partición entre dos fases; HPLC es una implementación mucho más sofisticada del mismo concepto.",
+    "respuesta": "**(1)** La fase estacionaria ya no es una capa delgada abierta al aire, sino partículas empacadas densamente dentro de un tubo cerrado (la columna) — mucha más área en poco volumen. **(2)** La fase móvil ya no sube por capilaridad (**TLC-04**) sino que se bombea a alta presión (**HPL-03**), porque el empaque denso resiste mucho más el flujo. **(3)** La detección ya no es una imagen estática al final (**TLC-07**) sino una medición en tiempo real conforme el líquido sale de la columna y pasa por un detector (**HPL-08**), dando un cromatograma en vez de manchas fijas.",
+    "error_comun": "Pensar que HPLC es 'una técnica completamente distinta' de TLC en su fundamento: comparten exactamente el mismo principio de partición entre dos fases; HPLC es una implementación más sofisticada.",
     "dificultad": "alta",
     "prereqs": [
       "TLC-10"
@@ -16,7 +16,7 @@
       "PFT"
     ],
     "regla": "mismo principio de partición, tres cambios de implementación — empaque cerrado, bombeo activo, detección continua.",
-    "conexion_cotidiana": "La primera cromatografía líquida de alta presión moderna surgió en los años 1960 cuando se descubrió que reducir el tamaño de partícula de la fase estacionaria mejoraba dramáticamente la eficiencia (van Deemter, **HPL-06**), pero requería presiones de bombeo mucho mayores — el mismo salto tecnológico que sigue empujando el desarrollo de UHPLC hoy."
+    "conexion_cotidiana": "La primera cromatografía líquida de alta presión surgió en los años 1960 al descubrir que reducir el tamaño de partícula mejoraba mucho la eficiencia (van Deemter, **HPL-06**) pero exigía presiones de bombeo mayores — el mismo salto tecnológico que sigue empujando el UHPLC hoy."
   },
   {
     "id": "HPL-02",
@@ -24,16 +24,16 @@
     "tipo": "concepto",
     "bloque": "HPL",
     "modo": "pregunta",
-    "pregunta": "Ya vieron en TLC-03 qué es 'fase reversa' (C18). En una columna de HPLC, ¿por qué el tamaño exacto de esas partículas de sílice (medido en micrómetros) es una de las especificaciones más importantes de la columna?",
-    "respuesta": "Partículas más pequeñas dan mayor área superficial total por volumen de columna y reducen la distancia de difusión para alcanzar el equilibrio de partición, mejorando la eficiencia (**HPL-06**/**HPL-07**). Pero también empacan más densamente, dejando canales de flujo más estrechos, lo que aumenta dramáticamente la resistencia: siguiendo la Ley de Darcy, la caída de presión necesaria escala aproximadamente con el inverso del cuadrado del diámetro de partícula, así que reducirlo a la mitad puede requerir hasta 4 veces más presión. Columnas convencionales usan partículas de 3-5 μm; las UHPLC modernas usan sub-2 μm, requiriendo bombas de presiones mucho mayores.",
-    "error_comun": "Pensar que 'partículas más pequeñas son simplemente mejores sin ninguna desventaja' — mejoran la eficiencia pero aumentan drásticamente la resistencia al flujo, requiriendo equipo capaz de generar presiones proporcionalmente mayores.",
+    "pregunta": "Ya vieron en TLC-03 qué es 'fase reversa' (C18). En una columna de HPLC, ¿por qué el tamaño exacto de esas partículas de sílice (en micrómetros) es una de las especificaciones más importantes?",
+    "respuesta": "Partículas más pequeñas dan más área superficial por volumen y acortan la distancia de difusión para alcanzar el equilibrio de partición, mejorando la eficiencia (**HPL-06**/**HPL-07**). Pero también empacan más denso, con canales de flujo más estrechos y mucha más resistencia: por la Ley de Darcy, la caída de presión necesaria escala con el inverso del cuadrado del diámetro de partícula, así que reducirlo a la mitad puede pedir 4 veces más presión. Columnas convencionales usan 3-5 μm; las UHPLC modernas, sub-2 μm.",
+    "error_comun": "Pensar que 'partículas más pequeñas son simplemente mejores sin ninguna desventaja': mejoran la eficiencia pero disparan la resistencia al flujo, y hace falta equipo capaz de generar presiones proporcionalmente mayores.",
     "dificultad": "alta",
     "prereqs": [
       "TLC-03"
     ],
     "connects_to": [],
     "regla": "partícula más pequeña mejora la eficiencia, pero aumenta drásticamente la resistencia al flujo — un trade-off directo, no una mejora gratuita.",
-    "conexion_cotidiana": "Esta misma física de fondo (partículas más finas dan mejor rendimiento pero requieren más presión para forzar flujo) es el problema de ingeniería central en las plantas desalinizadoras de **ósmosis inversa**: membranas con poros más finos rechazan más eficazmente sales del agua de mar, pero requieren bombas de altísima presión, comparable en orden de magnitud a un UHPLC."
+    "conexion_cotidiana": "La misma física (partículas más finas rinden mejor pero piden más presión) es el problema de ingeniería central en las plantas de **ósmosis inversa**: membranas de poros más finos rechazan mejor las sales del agua de mar, pero necesitan bombas de altísima presión, comparable en orden de magnitud a un UHPLC."
   },
   {
     "id": "HPL-03",
@@ -42,15 +42,15 @@
     "bloque": "HPL",
     "modo": "pregunta",
     "pregunta": "¿Por qué se necesita literalmente cientos o miles de psi de presión solo para hacer pasar un líquido a través de una columna de unos 15-25 cm de longitud?",
-    "respuesta": "Forzar un líquido a través de un medio poroso densamente empacado requiere vencer la resistencia friccional acumulada de innumerables canales microscópicos entre partículas. La Ley de Darcy dice que la caída de presión necesaria es proporcional a la viscosidad del líquido y a la longitud de la columna, e inversamente proporcional al cuadrado del diámetro de partícula (**HPL-02**) y al cuadrado del radio de la columna. Con partículas de solo unos pocos micrómetros, incluso columnas relativamente cortas generan resistencias enormes, de ahí que las bombas de HPLC operen rutinariamente en el rango de cientos a miles de psi.",
-    "error_comun": "Pensar que la presión alta es 'un efecto secundario indeseable que hay que tolerar' — es consecuencia directa y necesaria de usar partículas finas para lograr buena eficiencia (HPL-02); no se puede tener partículas finas eficientes sin necesitar presión alta.",
+    "respuesta": "Forzar un líquido por un medio poroso densamente empacado exige vencer la resistencia friccional acumulada de innumerables canales microscópicos entre partículas. La Ley de Darcy dice que la caída de presión necesaria es proporcional a la viscosidad y a la longitud de la columna, e inversa al cuadrado del diámetro de partícula (**HPL-02**) y al cuadrado del radio de la columna. Con partículas de solo unos pocos micrómetros, incluso columnas cortas generan resistencias enormes: de ahí las bombas de cientos a miles de psi.",
+    "error_comun": "Pensar que la presión alta es 'un efecto secundario indeseable que hay que tolerar': es consecuencia directa y necesaria de usar partículas finas para lograr buena eficiencia (HPL-02); no hay una sin la otra.",
     "dificultad": "alta",
     "prereqs": [
       "HPL-02"
     ],
     "connects_to": [],
     "regla": "millones de canales microscópicos entre partículas, cada uno diminuto, suman una resistencia total considerable.",
-    "conexion_cotidiana": "Las presiones de operación típicas de un sistema UHPLC moderno (hasta ~19,000 psi, cerca de 1,300 atmósferas) son comparables, en el mismo orden de magnitud, a la presión en el fondo de la **fosa de las Marianas** (~1,086 atmósferas a casi 11 km de profundidad) — el líquido dentro de la columna está sometido a una presión comparable a la que soportaría un submarino de aguas profundas, contenida en un tubo de acero de apenas milímetros."
+    "conexion_cotidiana": "Las presiones de un UHPLC moderno (hasta ~19,000 psi, cerca de 1,300 atmósferas) son del orden de la presión en el fondo de la **fosa de las Marianas** (~1,086 atm a casi 11 km de profundidad) — esa presión, contenida en un tubo de acero de apenas milímetros."
   },
   {
     "id": "HPL-04",
@@ -59,15 +59,15 @@
     "bloque": "HPL",
     "modo": "pregunta",
     "pregunta": "¿Qué es exactamente un 'gradiente de elución', y por qué a veces conviene más que mantener la fase móvil con la misma composición durante toda la corrida (isocrático)?",
-    "respuesta": "En elución **isocrática**, la composición de la fase móvil se mantiene constante. Funciona bien cuando todos los compuestos tienen polaridades parecidas, pero si hay compuestos de polaridad muy distinta, un solo % de solvente orgánico fijo resuelve bien un extremo mientras hace que el otro eluya casi instantáneamente sin separación, o tarde demasiado con picos excesivamente anchos. En elución con **gradiente**, la composición cambia progresivamente (típicamente aumentando el % orgánico con el tiempo en fase reversa): los compuestos más polares eluyen primero bajo condiciones acuosas donde tienen buena resolución, y conforme aumenta el % orgánico, los más apolares eluyen en tiempo razonable con picos también razonablemente estrechos.",
-    "error_comun": "Pensar que el gradiente 'simplemente hace que todo salga más rápido' — su función principal es resolver un rango amplio de polaridades en un tiempo razonable, no necesariamente acortar el tiempo total per se.",
+    "respuesta": "En elución **isocrática** la composición de la fase móvil se mantiene constante. Va bien si todos los compuestos tienen polaridad parecida, pero con polaridades muy distintas un solo % de orgánico fijo resuelve bien un extremo mientras el otro eluye casi sin separación o tarda demasiado con picos muy anchos. En elución con **gradiente** la composición cambia progresivamente (subiendo el % orgánico con el tiempo en fase reversa): los más polares eluyen primero con buena resolución, y al subir el % orgánico los más apolares eluyen en tiempo razonable con picos también razonables.",
+    "error_comun": "Pensar que el gradiente 'simplemente hace que todo salga más rápido': su función principal es resolver un rango amplio de polaridades en un tiempo razonable, no necesariamente acortar el tiempo total.",
     "dificultad": "alta",
     "prereqs": [
       "HPL-01"
     ],
     "connects_to": [],
     "regla": "una sola composición fija resuelve bien un extremo del rango de polaridad y mal el otro — el gradiente optimiza la fuerza de elución dinámicamente durante la corrida.",
-    "conexion_cotidiana": "El mismo concepto de 'cambiar progresivamente una condición para separar componentes de propiedades muy distintas' tiene un paralelo en la **destilación fraccionada del petróleo crudo**: en vez de calentar a una temperatura fija, las torres industriales usan un gradiente de temperatura a lo largo de su altura, permitiendo que fracciones de distinto punto de ebullición (gases ligeros arriba, asfaltos pesados en el fondo) se condensen en distintos niveles — el mismo principio de gradiente progresivo, aplicado con temperatura en vez de composición de solvente."
+    "conexion_cotidiana": "El mismo concepto —cambiar progresivamente una condición para separar componentes de propiedades muy distintas— aparece en la **destilación fraccionada del petróleo crudo**: en vez de una temperatura fija, las torres usan un gradiente de temperatura a lo alto, y cada fracción (gases ligeros arriba, asfaltos en el fondo) condensa a su nivel — gradiente progresivo con temperatura en vez de composición de solvente."
   },
   {
     "id": "HPL-05",
@@ -75,9 +75,9 @@
     "tipo": "concepto",
     "bloque": "HPL",
     "modo": "pregunta",
-    "pregunta": "El tiempo de retención (tR) es 'cuánto tarda el compuesto en salir de la columna' — pero, ¿por qué ese número por sí solo no es suficiente para comparar resultados entre distintos días o distintos equipos, y qué es el factor de capacidad k' que se usa en su lugar?",
-    "respuesta": "tR depende de factores instrumentales que no tienen nada que ver con la afinidad química del compuesto: el flujo exacto de la bomba, la longitud exacta de la columna, variaciones de temperatura. Dos corridas en días distintos pueden dar tR ligeramente diferentes para el MISMO compuesto por esta variabilidad. El **factor de capacidad k'** normaliza esto: k' = (tR − t0) / t0, donde t0 es el tiempo muerto (**HPL-12**), el tiempo que tarda un compuesto completamente no retenido en atravesar la columna. Al restar y normalizar por t0, k' representa cuántas 'veces t0' adicionales tarda el compuesto por SU interacción química real, cancelando en gran medida la variabilidad instrumental.",
-    "error_comun": "Pensar que tR es una propiedad química fija y comparable directamente entre cualquier corrida sin ajuste — depende de condiciones instrumentales específicas de esa corrida particular.",
+    "pregunta": "El tiempo de retención (tR) es 'cuánto tarda el compuesto en salir de la columna', pero ¿por qué ese número solo no basta para comparar entre días o equipos distintos, y qué es el factor de capacidad k' que se usa en su lugar?",
+    "respuesta": "tR depende de factores instrumentales sin relación con la afinidad química del compuesto: el flujo exacto de la bomba, la longitud exacta de la columna, variaciones de temperatura. Dos corridas en días distintos pueden dar tR ligeramente diferentes para el MISMO compuesto por esa variabilidad. El **factor de capacidad k'** lo normaliza: k' = (tR − t0) / t0, donde t0 es el tiempo muerto (**HPL-12**), lo que tarda un compuesto no retenido en atravesar la columna. Al restar y dividir por t0, k' representa cuántas 'veces t0' adicionales tarda el compuesto por SU interacción química real, cancelando casi toda la variabilidad instrumental.",
+    "error_comun": "Pensar que tR es una propiedad química fija y comparable directamente entre cualquier corrida sin ajuste: depende de las condiciones instrumentales de esa corrida particular.",
     "dificultad": "alta",
     "prereqs": [
       "TLC-01"
@@ -86,7 +86,7 @@
       "EST"
     ],
     "regla": "tR depende de variabilidad puramente instrumental; k' normaliza eso restando y dividiendo por t0, dejando solo la interacción química real.",
-    "conexion_cotidiana": "Esta necesidad de normalizar una medición de tiempo por un valor de referencia tiene un paralelo en astrofísica: cuando los astrónomos miden el **corrimiento al rojo (z)** de una galaxia distante, no reportan el desplazamiento absoluto en nanómetros, sino que lo NORMALIZAN respecto a la longitud de onda original de esa línea (z = Δλ/λ0), dando un número comparable entre observaciones y telescopios distintos — el mismo principio de normalizar por un valor de referencia del sistema."
+    "conexion_cotidiana": "Normalizar una medición de tiempo por un valor de referencia tiene paralelo en astrofísica: el **corrimiento al rojo (z)** de una galaxia no se reporta en nanómetros absolutos sino normalizado respecto a la longitud de onda original de esa línea (z = Δλ/λ0), dando un número comparable entre observaciones y telescopios distintos."
   },
   {
     "id": "HPL-06",
@@ -95,8 +95,8 @@
     "bloque": "HPL",
     "modo": "pregunta",
     "pregunta": "En teoría, si todas las moléculas de un compuesto entran juntas a la columna, ¿por qué no salen todas juntas también, en vez de formar un pico con cierto ancho?",
-    "respuesta": "**Término A (eddy diffusion)**: distintas moléculas toman caminos ligeramente distintos entre las partículas empacadas, llegando en tiempos ligeramente distintos aunque hayan viajado a la misma velocidad promedio.\n\n**Término B/u (difusión longitudinal)**: las moléculas se difunden aleatoriamente hacia adelante y atrás por movimiento browniano (**FQT-15**) mientras avanzan; a flujos MUY lentos hay más tiempo para que esto ensanche el pico.\n\n**Término C·u (resistencia a transferencia de masa)**: toma un tiempo finito equilibrarse entre fase móvil y estacionaria (**TLC-01**); a flujos MUY rápidos, las moléculas no alcanzan ese equilibrio antes de ser arrastradas.\n\nLa combinación da una curva de eficiencia con un **mínimo (óptimo)** en una velocidad de flujo intermedia.",
-    "error_comun": "Pensar que 'flujo más lento siempre da mejor separación porque hay más tiempo de contacto' — es cierto solo hasta cierto punto; a flujos muy lentos, la difusión longitudinal (término B) empieza a dominar y ensancha los picos también.",
+    "respuesta": "**Término A (eddy diffusion)**: distintas moléculas toman caminos ligeramente distintos entre las partículas y llegan en tiempos algo distintos aunque viajen a la misma velocidad media.\n\n**Término B/u (difusión longitudinal)**: las moléculas se difunden al azar hacia adelante y atrás por movimiento browniano (**FQT-15**) mientras avanzan; a flujos MUY lentos hay más tiempo para que esto ensanche el pico.\n\n**Término C·u (resistencia a transferencia de masa)**: equilibrarse entre fase móvil y estacionaria (**TLC-01**) toma un tiempo finito; a flujos MUY rápidos las moléculas no alcanzan ese equilibrio antes de ser arrastradas.\n\nLa combinación da una curva de eficiencia con un **mínimo (óptimo)** en una velocidad de flujo intermedia.",
+    "error_comun": "Pensar que 'flujo más lento siempre da mejor separación porque hay más tiempo de contacto': es cierto solo hasta cierto punto; a flujos muy lentos la difusión longitudinal (término B) domina y también ensancha los picos.",
     "dificultad": "alta",
     "prereqs": [
       "FQT-15",
@@ -106,7 +106,7 @@
       "EST"
     ],
     "regla": "H = A + B/u + C·u — tres mecanismos independientes, dos que empeoran a flujo lento y uno que empeora a flujo rápido, dan un óptimo en velocidad intermedia.",
-    "conexion_cotidiana": "El concepto de 'plato teórico' viene de la teoría de **destilación fraccionada** desarrollada para refinación de petróleo y producción de licores: cada 'plato teórico' representa una etapa de equilibrio vapor-líquido idealizada, y los cromatografistas de los años 1940-1950 tomaron prestado ese concepto — así que hablar del 'número de platos teóricos' de una columna usa un concepto desarrollado originalmente para diseñar las torres que producen whisky o gasolina."
+    "conexion_cotidiana": "El concepto de 'plato teórico' viene de la **destilación fraccionada** de petróleo y licores: cada plato es una etapa de equilibrio vapor-líquido idealizada, y los cromatografistas de los años 1940-50 lo tomaron prestado — hablar del 'número de platos teóricos' de una columna usa un concepto hecho para diseñar torres de whisky o gasolina."
   },
   {
     "id": "HPL-07",
@@ -115,8 +115,8 @@
     "bloque": "HPL",
     "modo": "pregunta",
     "pregunta": "¿Cuál es la ecuación formal que dice si dos picos están 'bien separados' o no, y qué tres factores independientes contribuyen a esa separación?",
-    "respuesta": "**N** es el número de platos teóricos (eficiencia de la columna, **HPL-06**). **α** es el factor de **selectividad** (relación entre los k' de los dos compuestos, un factor puramente químico). **k'** es el factor de capacidad promedio (**HPL-05**). Cada factor se mejora por vías distintas: aumentar N requiere columna más larga o partícula más fina (costoso); aumentar α requiere cambiar la QUÍMICA (otra fase móvil, otro pH); ajustar k' se logra ajustando la fuerza general de elución. Como N entra bajo raíz cuadrada, cuadruplicar N solo duplica esa parte de Rs — mejorar α suele dar ganancias más dramáticas por menor 'costo'.",
-    "error_comun": "Pensar que aumentar el tiempo de corrida o la longitud de la columna (aumentando N) es siempre la forma más eficiente de mejorar una separación pobre — dado que N entra bajo raíz cuadrada, hay rendimientos decrecientes fuertes.",
+    "respuesta": "**N** es el número de platos teóricos (eficiencia de la columna, **HPL-06**). **α** es el factor de **selectividad** (relación entre los k' de los dos compuestos, un factor puramente químico). **k'** es el factor de capacidad promedio (**HPL-05**). Cada uno se mejora por vías distintas: subir N pide columna más larga o partícula más fina (costoso); subir α pide cambiar la QUÍMICA (otra fase móvil, otro pH); k' se ajusta con la fuerza general de elución. Como N entra bajo raíz cuadrada, cuadruplicarlo solo duplica esa parte de Rs — mejorar α suele dar más ganancia por menor 'costo'.",
+    "error_comun": "Pensar que aumentar el tiempo de corrida o la longitud de la columna (subir N) es siempre la vía más eficiente para una separación pobre: como N entra bajo raíz cuadrada, hay rendimientos decrecientes fuertes.",
     "dificultad": "alta",
     "prereqs": [
       "HPL-05",
@@ -126,7 +126,7 @@
       "PFT"
     ],
     "regla": "Rs = (1/4)·√N · (α-1)/α · k'/(1+k') — mejorar la selectividad química (α) suele dar más ganancia que aumentar la eficiencia (N), porque N solo entra bajo raíz cuadrada.",
-    "conexion_cotidiana": "Esta misma estructura de 'resolución como producto de varios factores independientes' tiene un paralelo en el **criterio de Rayleigh** para la resolución angular mínima de un telescopio: la capacidad de distinguir dos puntos de luz cercanos depende del diámetro de la apertura óptica y de la longitud de onda, de forma análoga a como Rs depende de la eficiencia de la columna y la selectividad química."
+    "conexion_cotidiana": "La misma estructura —resolución como producto de varios factores independientes— aparece en el **criterio de Rayleigh** para la resolución angular de un telescopio: distinguir dos puntos de luz cercanos depende del diámetro de la apertura óptica y de la longitud de onda, análogo a cómo Rs depende de la eficiencia de la columna y la selectividad química."
   },
   {
     "id": "HPL-08",
@@ -135,8 +135,8 @@
     "bloque": "HPL",
     "modo": "pregunta",
     "pregunta": "Hay varios tipos de detector que se pueden acoplar al final de una columna de HPLC. ¿Qué determina cuál elegir para un compuesto dado?",
-    "respuesta": "**UV-Vis (DAD/PDA)**: requiere cromóforo con absorción útil (**FQT-16**, **ESP-03**) — excelente para compuestos aromáticos/conjugados, prácticamente ciego para diosgenina libre sin derivatizar (**HPL-09**).\n\n**Fluorescencia**: requiere que el analito no solo absorba sino que RE-EMITA parte de esa energía — mucho más sensible cuando aplica, pero para un subconjunto más restringido de compuestos.\n\n**ELSD** (**HPL-10**): no depende de propiedades ópticas, sino de que el analito sea NO volátil — funciona para casi cualquier compuesto no volátil sin cromóforo, aunque es menos lineal y algo menos sensible que UV cuando este sí aplica.\n\n**Espectrometría de masas (LC-MS, HPL-14)**: detecta prácticamente cualquier compuesto ionizable, dando información estructural mucho más allá de solo 'hay algo aquí' — el más versátil e informativo, pero también el más costoso.",
-    "error_comun": "Pensar que 'más sensible siempre es mejor sin considerar el costo/complejidad' — un ELSD, aunque menos sensible que UV para compuestos con buen cromóforo, puede ser la elección correcta precisamente porque no requiere derivatización previa.",
+    "respuesta": "**UV-Vis (DAD/PDA)**: requiere cromóforo con absorción útil (**FQT-16**, **ESP-03**) — excelente para aromáticos/conjugados, casi ciego para diosgenina libre sin derivatizar (**HPL-09**).\n\n**Fluorescencia**: requiere que el analito además RE-EMITA parte de esa energía — más sensible cuando aplica, pero para un subconjunto más restringido de compuestos.\n\n**ELSD** (**HPL-10**): no depende de propiedades ópticas sino de que el analito sea NO volátil — sirve para casi cualquier compuesto no volátil sin cromóforo, aunque es menos lineal y algo menos sensible que UV cuando este sí aplica.\n\n**Espectrometría de masas (LC-MS, HPL-14)**: detecta casi cualquier compuesto ionizable y da información estructural mucho más allá de 'hay algo aquí' — el más versátil e informativo, y el más costoso.",
+    "error_comun": "Pensar que 'más sensible siempre es mejor sin considerar el costo/complejidad': un ELSD, aunque menos sensible que UV para compuestos con buen cromóforo, puede ser la elección correcta precisamente porque no requiere derivatización previa.",
     "dificultad": "alta",
     "prereqs": [
       "ESP-01"
@@ -145,7 +145,7 @@
       "PFT"
     ],
     "regla": "cada detector aprovecha una propiedad física distinta del analito — elegir el correcto depende de cuál propiedad tiene tu compuesto.",
-    "conexion_cotidiana": "El **ELSD** tiene una aplicación comercial notable: es uno de los detectores estándar de la industria para el análisis cuantitativo de **azúcares y carbohidratos** en alimentos (jarabes, jugos, control de calidad de bebidas), precisamente porque los azúcares, con muchos -OH pero sin conjugación aromática, son casi invisibles para UV sin derivatización, pero perfectamente detectables por ELSD porque simplemente no se evaporan junto con el solvente."
+    "conexion_cotidiana": "El **ELSD** es uno de los detectores estándar de la industria para el análisis cuantitativo de **azúcares y carbohidratos** en alimentos: los azúcares, con muchos -OH pero sin conjugación aromática, son casi invisibles para UV sin derivatizar, pero perfectamente detectables por ELSD porque simplemente no se evaporan con el solvente."
   },
   {
     "id": "HPL-09",
@@ -153,9 +153,9 @@
     "tipo": "concepto",
     "bloque": "HPL",
     "modo": "pregunta",
-    "pregunta": "Ya vieron en ESP-03 por qué la diosgenina tiene ε bajo en UV-Vis. Aplicando eso específicamente a HPLC, ¿qué implica esto para el diseño de su método de detección, más allá de solo 'usar el reactivo de Baccou en una cubeta'?",
-    "respuesta": "Si intentaran detectar diosgenina eluyendo de una columna solo con UV convencional a longitud de onda típica (210-220 nm), la sensibilidad sería mala y esa región tiene mucha más interferencia de fondo (**ESP-07**). Esto explica por qué la literatura menciona repetidamente ELSD como detector preferido para diosgenina en HPLC, o alternativamente por qué algunos métodos hacen derivatización POST-columna o PRE-columna con un reactivo cromógeno similar en principio al de Baccou — la misma lógica de **FQT-16**/**TLC-07**/**ESP-03** (crear conjugación donde no existía) aplicada ahora en flujo continuo.",
-    "error_comun": "Pensar que 'si funciona para cuantificar en el espectrofotómetro simple con Baccou, funcionará igual conectado a una columna de HPLC sin ajustes' — no es trivial simplemente 'conectar' el mismo protocolo a un sistema de flujo continuo sin rediseñar dónde exactamente ocurre la derivatización.",
+    "pregunta": "Ya vieron en ESP-03 por qué la diosgenina tiene ε bajo en UV-Vis. Aplicando eso a HPLC, ¿qué implica para el diseño de su método de detección, más allá de 'usar el reactivo de Baccou en una cubeta'?",
+    "respuesta": "Detectar diosgenina eluyendo de una columna solo con UV convencional a longitud de onda típica (210-220 nm) daría mala sensibilidad, y esa región tiene mucha más interferencia de fondo (**ESP-07**). Por eso la literatura menciona repetidamente ELSD como detector preferido para diosgenina en HPLC, o hace derivatización POST o PRE-columna con un reactivo cromógeno similar en principio al de Baccou — la misma lógica de **FQT-16**/**TLC-07**/**ESP-03** (crear conjugación donde no existía), ahora en flujo continuo.",
+    "error_comun": "Pensar que 'si funciona para cuantificar en el espectrofotómetro simple con Baccou, funcionará igual conectado a una columna de HPLC sin ajustes': no es trivial 'conectar' el mismo protocolo a un sistema de flujo continuo sin rediseñar dónde ocurre la derivatización.",
     "dificultad": "alta",
     "prereqs": [
       "ESP-03",
@@ -165,7 +165,7 @@
       "PFT"
     ],
     "regla": "el mismo problema de ε bajo de ESP-03 se traslada a HPLC — hay que crear un cromóforo, ya sea con otro detector o con derivatización dentro del flujo cromatográfico.",
-    "conexion_cotidiana": "Esta necesidad de 'crear artificialmente un cromóforo para poder detectar por UV' tiene un paralelo casi idéntico en el análisis clínico de **colesterol en sangre**: el colesterol, químicamente muy parecido a la diosgenina (ambos esteroles con un solo -OH y sin cromóforo fuerte), se cuantifica mediante métodos enzimático-colorimétricos donde la colesterol oxidasa genera peróxido de hidrógeno que reacciona con un reactivo cromógeno dando color medible — por la misma limitación de detección directa."
+    "conexion_cotidiana": "Tiene un paralelo casi idéntico en el análisis clínico de **colesterol en sangre**: el colesterol, muy parecido a la diosgenina (esterol con un solo -OH y sin cromóforo fuerte), se cuantifica por métodos enzimático-colorimétricos donde la colesterol oxidasa genera peróxido que reacciona con un reactivo cromógeno dando color — por la misma limitación de detección directa."
   },
   {
     "id": "HPL-10",
@@ -174,15 +174,15 @@
     "bloque": "HPL",
     "modo": "pregunta",
     "pregunta": "Si el ELSD no depende de que el compuesto absorba luz, ¿cómo detecta entonces la presencia de un compuesto eluyendo de la columna?",
-    "respuesta": "**Nebulización**: el líquido que sale de la columna se convierte en un aerosol de gotas microscópicas mediante una corriente de gas (nitrógeno). **Evaporación**: el aerosol pasa por un tubo calentado donde el solvente volátil se evapora completamente, dejando atrás, si el analito es NO volátil, una partícula sólida microscópica por cada gotita original. **Dispersión de luz**: esas partículas, suspendidas en el gas, pasan por un haz láser, y la cantidad de luz DISPERSADA (no absorbida) es proporcional, de forma no lineal pero medible, a la masa de esas partículas. Es, en esencia, 'pesar' indirectamente cada mancha microscópica de analito residual midiendo cuánta luz dispersa.",
-    "error_comun": "Pensar que el ELSD 'mide absorción de luz' como el UV-Vis — es un mecanismo físico completamente distinto (dispersión, no absorción), sin relación con el coeficiente de extinción molar del analito.",
+    "respuesta": "**Nebulización**: el líquido que sale de la columna se convierte en un aerosol de gotas microscópicas mediante una corriente de gas (nitrógeno). **Evaporación**: el aerosol pasa por un tubo calentado donde el solvente volátil se evapora del todo, dejando, si el analito es NO volátil, una partícula sólida microscópica por cada gotita. **Dispersión de luz**: esas partículas pasan por un haz láser, y la cantidad de luz DISPERSADA (no absorbida) es proporcional, de forma no lineal pero medible, a su masa. Es, en esencia, 'pesar' indirectamente cada mancha de analito residual midiendo cuánta luz dispersa.",
+    "error_comun": "Pensar que el ELSD 'mide absorción de luz' como el UV-Vis: es un mecanismo físico completamente distinto (dispersión, no absorción), sin relación con el coeficiente de extinción molar del analito.",
     "dificultad": "alta",
     "prereqs": [
       "HPL-08"
     ],
     "connects_to": [],
     "regla": "nebuliza → evapora el solvente → dispersa luz con las partículas sólidas residuales del analito. Ninguna etapa involucra absorción de luz.",
-    "conexion_cotidiana": "El principio físico de dispersión de luz por partículas microscópicas suspendidas en un gas (el mismo mecanismo del ELSD) es el mismo fenómeno que hace visibles los rayos de luz solar entrando por una ventana en una habitación con polvo, o el haz de los faros de un carro en niebla densa: luz dispersándose por partículas microscópicas que de otra forma serían invisibles individualmente."
+    "conexion_cotidiana": "La dispersión de luz por partículas microscópicas suspendidas en un gas (el mecanismo del ELSD) es lo que hace visibles los rayos de sol que entran por una ventana en una habitación con polvo, o el haz de los faros de un carro en niebla densa: luz dispersándose por partículas que de otra forma serían invisibles."
   },
   {
     "id": "HPL-11",
@@ -191,15 +191,15 @@
     "bloque": "HPL",
     "modo": "pregunta",
     "pregunta": "¿Por qué es obligatorio filtrar el extracto por un filtro de jeringa (típicamente 0.22 o 0.45 μm) antes de inyectarlo en el HPLC, y qué pasa exactamente si no lo hacen?",
-    "respuesta": "La columna está empacada densamente con partículas de sílice de unos pocos micrómetros (**HPL-02**), creando canales de flujo extremadamente estrechos. Cualquier partícula sólida en la muestra inyectada de tamaño comparable o mayor a esos canales puede quedar físicamente atrapada al entrar a la columna, obstruyendo progresivamente los canales desde el extremo de entrada: esto se manifiesta como aumento gradual (o súbito) de la presión de operación, hasta eventualmente exceder el límite seguro del equipo, dañando la columna de forma permanente y potencialmente la bomba también.",
-    "error_comun": "Pensar que 'si el extracto se ve claro y transparente a simple vista, no necesita filtrarse' — partículas suficientemente pequeñas para obstruir progresivamente una columna (unos pocos micrómetros o menos) son completamente invisibles al ojo humano.",
+    "respuesta": "La columna está empacada densamente con partículas de sílice de unos pocos micrómetros (**HPL-02**), con canales de flujo muy estrechos. Cualquier partícula sólida de la muestra de tamaño comparable o mayor queda atrapada físicamente al entrar, obstruyendo los canales desde el extremo de entrada: se manifiesta como un aumento gradual (o súbito) de la presión de operación, hasta exceder el límite seguro del equipo y dañar la columna de forma permanente, y a veces también la bomba.",
+    "error_comun": "Pensar que 'si el extracto se ve claro y transparente a simple vista, no necesita filtrarse': partículas capaces de obstruir progresivamente una columna (unos pocos micrómetros o menos) son completamente invisibles al ojo humano.",
     "dificultad": "alta",
     "prereqs": [
       "HPL-02"
     ],
     "connects_to": [],
     "regla": "cualquier partícula sólida del tamaño de los canales de flujo entre partículas de sílice queda atrapada, obstruyendo la columna de forma progresiva e irreversible.",
-    "conexion_cotidiana": "Esta misma lógica de 'proteger un sistema de flujo fino filtrando partículas ANTES de que causen daño acumulativo' es el principio detrás de los **filtros de aceite y combustible** en un motor: partículas microscópicas de desgaste metálico o contaminantes en el combustible, si no se filtran antes de llegar a componentes de precisión (inyectores con orificios de apenas micrómetros), causan desgaste acelerado y obstrucción progresiva análoga a lo que le pasaría a tu columna sin filtración previa."
+    "conexion_cotidiana": "La misma lógica —filtrar partículas ANTES de que causen daño acumulativo en un sistema de flujo fino— es la de los **filtros de aceite y combustible** de un motor: partículas microscópicas de desgaste o del combustible, si no se filtran antes de llegar a inyectores con orificios de micrómetros, causan desgaste acelerado y obstrucción progresiva, análoga a lo que le pasaría a tu columna."
   },
   {
     "id": "HPL-12",
@@ -208,7 +208,7 @@
     "bloque": "HPL",
     "modo": "pregunta",
     "pregunta": "Ya mencionaron que k' se calcula usando t0, el 'tiempo muerto'. ¿Qué es exactamente ese tiempo, y por qué no es simplemente cero (el momento en que se inyecta la muestra)?",
-    "respuesta": "El tiempo muerto (t0) es el tiempo que tarda un compuesto completamente NO retenido por la fase estacionaria en atravesar TODO el sistema desde el punto de inyección hasta el detector, incluyendo el volumen de la columna y de cualquier tubería de conexión. No es cero porque, aunque el compuesto no interactúe con la fase estacionaria, todavía tiene que recorrer físicamente una distancia y un volumen real de líquido a un flujo finito. Determinar t0 experimentalmente se hace inyectando un compuesto conocido por no retenerse en absoluto en ese sistema particular.",
+    "respuesta": "El tiempo muerto (t0) es el tiempo que tarda un compuesto completamente NO retenido por la fase estacionaria en atravesar TODO el sistema desde el punto de inyección hasta el detector, incluyendo el volumen de la columna y de la tubería de conexión. No es cero porque, aunque no interactúe con la fase estacionaria, el compuesto todavía tiene que recorrer físicamente una distancia y un volumen real de líquido a un flujo finito. Se determina inyectando un compuesto que se sabe no se retiene en ese sistema.",
     "error_comun": "Confundir t0 con 'el tiempo cero de la corrida' o 'el momento de inyección' — t0 es un tiempo real y medible, mayor que cero.",
     "dificultad": "alta",
     "prereqs": [
@@ -216,7 +216,7 @@
     ],
     "connects_to": [],
     "regla": "t0 es el tiempo mínimo físico que cualquier cosa, retenida o no, tarda en atravesar el sistema — no puede ser cero porque hay un volumen real que recorrer.",
-    "conexion_cotidiana": "El concepto de 'tiempo mínimo que algo tarda en atravesar un sistema, sin ninguna interacción retardante' tiene un paralelo en relatividad: el **tiempo de tránsito de la luz** a través de cualquier distancia (los ~8 minutos del Sol a la Tierra) funciona como el 't0' absoluto para esa distancia, el límite mínimo contra el cual se mide cualquier retraso adicional causado por otros fenómenos (como el efecto Shapiro, la curvatura del espacio-tiempo retrasando una señal)."
+    "conexion_cotidiana": "El concepto de 'tiempo mínimo que algo tarda en atravesar un sistema sin ninguna interacción retardante' tiene un paralelo en relatividad: el **tiempo de tránsito de la luz** por cualquier distancia (los ~8 minutos del Sol a la Tierra) es el 't0' absoluto de esa distancia, el mínimo contra el cual se mide cualquier retraso adicional (como el efecto Shapiro)."
   },
   {
     "id": "HPL-13",
@@ -224,9 +224,9 @@
     "tipo": "concepto",
     "bloque": "HPL",
     "modo": "pregunta",
-    "pregunta": "Para construir la curva de calibración, ¿por qué a veces conviene añadir deliberadamente OTRO compuesto conocido (un 'estándar interno') a cada muestra, en vez de simplemente comparar el área del pico de diosgenina contra una curva hecha con estándares externos puros?",
-    "respuesta": "Con **estándar externo**, se comparan las áreas de estándares puros inyectados por separado contra el área de la muestra real: esto asume que el VOLUMEN exacto inyectado es idéntico entre ambas inyecciones; cualquier discrepancia introduce error directamente proporcional. Con **estándar interno**, se añade una cantidad FIJA y conocida de otro compuesto (que no esté presente naturalmente, que se separe bien cromatográficamente, y que responda al detector de forma comparable) a CADA muestra y CADA estándar. En vez de usar el área absoluta de diosgenina, se usa la RELACIÓN entre su área y la del estándar interno: si el volumen inyectado varía levemente, AMBAS áreas varían proporcionalmente, así que la relación permanece constante, cancelando ese error.",
-    "error_comun": "Pensar que el estándar interno 'corrige cualquier tipo de error' de forma genérica — corrige específicamente errores PROPORCIONALES que afectan por igual a ambos compuestos, pero no errores que afecten de forma distinta y no proporcional a cada uno.",
+    "pregunta": "Para construir la curva de calibración, ¿por qué a veces conviene añadir a cada muestra OTRO compuesto conocido (un 'estándar interno') en vez de comparar el área del pico de diosgenina contra una curva de estándares externos puros?",
+    "respuesta": "Con **estándar externo** se comparan las áreas de estándares puros inyectados por separado contra el área de la muestra: eso asume que el VOLUMEN inyectado es idéntico entre ambas inyecciones, y cualquier discrepancia introduce un error directamente proporcional. Con **estándar interno** se añade una cantidad FIJA y conocida de otro compuesto (que no esté presente naturalmente, que se separe bien y responda al detector de forma comparable) a CADA muestra y CADA estándar. En vez del área absoluta de diosgenina, se usa la RELACIÓN entre su área y la del estándar interno: si el volumen inyectado varía un poco, AMBAS áreas varían proporcionalmente y la relación se mantiene, cancelando ese error.",
+    "error_comun": "Pensar que el estándar interno 'corrige cualquier tipo de error' de forma genérica: corrige específicamente errores PROPORCIONALES que afectan por igual a ambos compuestos, no errores que afecten de forma distinta a cada uno.",
     "dificultad": "alta",
     "prereqs": [
       "ESP-05"
@@ -235,7 +235,7 @@
       "EST"
     ],
     "regla": "con estándar interno, cualquier error proporcional de inyección afecta por igual a ambos compuestos, y se cancela al tomar la relación entre sus áreas.",
-    "conexion_cotidiana": "Este mismo principio de 'añadir una cantidad conocida de un marcador de referencia para corregir por pérdidas del proceso' es la lógica del método de **dilución isotópica** en geoquímica y arqueología para datación radiométrica de alta precisión: se añade una cantidad conocida de un isótopo del mismo elemento a la muestra antes de cualquier procesamiento, de modo que cualquier pérdida de material se cancele matemáticamente al calcular la relación final."
+    "conexion_cotidiana": "El mismo principio —añadir una cantidad conocida de un marcador de referencia para corregir por pérdidas del proceso— es la lógica de la **dilución isotópica** en geoquímica y arqueología: se añade una cantidad conocida de un isótopo del mismo elemento antes de cualquier procesamiento, de modo que cualquier pérdida de material se cancele al calcular la relación final."
   },
   {
     "id": "HPL-14",
@@ -244,8 +244,8 @@
     "bloque": "HPL",
     "modo": "pregunta",
     "pregunta": "Un detector UV o ELSD les dice 'aquí hay algo, y en esta cantidad' — pero, ¿cómo logra un detector de masas (MS) decirles además 'y esto ES específicamente diosgenina, no otra cosa parecida'?",
-    "respuesta": "Un detector de masas primero **ioniza** las moléculas que salen de la columna (en HPLC, típicamente por electrospray, ESI: el líquido se rocía a través de un capilar con alto voltaje, generando gotas cargadas que, al evaporarse el solvente, liberan iones del analito, típicamente [M+H]+ o [M-H]-), y luego separa esos iones según su relación masa/carga (m/z), generando un espectro de masas. El ion molecular confirma directamente el peso molecular del compuesto, información que ni UV ni ELSD pueden dar. En MS/MS, ese ion se puede fragmentar deliberadamente y analizar el patrón de fragmentos, una 'huella dactilar estructural' que permite distinguir compuestos con el mismo peso molecular pero estructura distinta.",
-    "error_comun": "Pensar que MS 'reemplaza' la necesidad de una buena separación cromatográfica previa — compuestos co-eluyentes pueden complicar la interpretación del espectro si tienen masas similares o hay supresión de ionización entre ellos.",
+    "respuesta": "Un detector de masas primero **ioniza** las moléculas que salen de la columna (en HPLC, típicamente por electrospray, ESI: el líquido se rocía por un capilar con alto voltaje, generando gotas cargadas que al evaporarse el solvente liberan iones del analito, [M+H]+ o [M-H]-), y luego separa esos iones según su relación masa/carga (m/z), generando un espectro de masas. El ion molecular confirma el peso molecular del compuesto, información que ni UV ni ELSD pueden dar. En MS/MS ese ion se fragmenta deliberadamente y el patrón de fragmentos es una 'huella estructural' que distingue compuestos con el mismo peso molecular pero distinta estructura.",
+    "error_comun": "Pensar que MS 'reemplaza' la necesidad de una buena separación cromatográfica previa: compuestos co-eluyentes pueden complicar la interpretación del espectro si tienen masas similares o hay supresión de ionización entre ellos.",
     "dificultad": "alta",
     "prereqs": [
       "HPL-08"
@@ -254,7 +254,7 @@
       "PFT"
     ],
     "regla": "MS ioniza las moléculas y separa los iones por masa/carga — dando peso molecular y, con fragmentación (MS/MS), una huella estructural, algo que ningún detector óptico puede dar.",
-    "conexion_cotidiana": "La ionización por electrospray (ESI) que hace posible acoplar HPLC con MS fue desarrollada en gran parte por **John Fenn**, quien recibió el Premio Nobel de Química en 2002 por este trabajo — ESI resultó fundacional para toda la proteómica moderna, incluyendo el control de calidad de terapias biológicas complejas como las **vacunas de ARN mensajero**: la misma técnica que podrían usar para confirmar la identidad de tu diosgenina verificó la integridad molecular de las vacunas de ARNm contra COVID-19."
+    "conexion_cotidiana": "La ionización por electrospray (ESI) que hace posible acoplar HPLC con MS la desarrolló **John Fenn** (Premio Nobel de Química 2002); resultó fundacional para la proteómica moderna, incluido el control de calidad de terapias biológicas como las **vacunas de ARN mensajero** — la misma técnica que confirmaría la identidad de tu diosgenina verificó la integridad de las vacunas de ARNm contra COVID-19."
   },
   {
     "id": "HPL-15",
@@ -263,8 +263,8 @@
     "bloque": "HPL",
     "modo": "pregunta",
     "pregunta": "Muchos métodos de HPLC en fase reversa añaden un poco de ácido fórmico (u otro ácido) a la fase móvil acuosa, en vez de usar simplemente agua pura. ¿Qué función cumple exactamente ese ácido?",
-    "respuesta": "**Supresión de silanoles residuales**: incluso en columnas de fase reversa (C18, **TLC-03**), no TODOS los grupos silanol de la sílice base quedan cubiertos — quedan silanoles residuales expuestos que pueden ionizarse parcialmente a pH neutro/básico e interactuar de forma no deseada con analitos que tengan grupos básicos, causando picos asimétricos o con cola (**HPL-16**). Acidificar la fase móvil mantiene esos silanoles en su forma protonada neutra, minimizando esa interacción. **Compatibilidad con MS**: el ácido fórmico es volátil y no deja residuo sólido al evaporarse en la fuente de ionización (a diferencia de tampones con sales no volátiles), y ayuda a promover la ionización positiva ([M+H]+) en electrospray.",
-    "error_comun": "Pensar que el ácido fórmico se añade solo 'para bajar el pH y ya' sin entender el mecanismo específico de por qué eso mejora la forma del pico o la compatibilidad con MS.",
+    "respuesta": "**Supresión de silanoles residuales**: incluso en columnas de fase reversa (C18, **TLC-03**) no TODOS los silanoles de la sílice base quedan cubiertos — los residuales expuestos pueden ionizarse a pH neutro/básico e interactuar de forma no deseada con analitos que tengan grupos básicos, causando picos asimétricos o con cola (**HPL-16**). Acidificar la fase móvil los mantiene protonados y neutros, minimizando esa interacción. **Compatibilidad con MS**: el ácido fórmico es volátil y no deja residuo sólido al evaporarse en la fuente de ionización (a diferencia de tampones con sales no volátiles), y ayuda a promover la ionización positiva ([M+H]+) en electrospray.",
+    "error_comun": "Pensar que el ácido fórmico se añade solo 'para bajar el pH y ya', sin entender el mecanismo específico por el que eso mejora la forma del pico o la compatibilidad con MS.",
     "dificultad": "alta",
     "prereqs": [
       "FQT-12",
@@ -272,7 +272,7 @@
     ],
     "connects_to": [],
     "regla": "dos funciones simultáneas — controla el pH de los silanoles residuales de la columna (mejorando la forma del pico) Y es compatible con MS por ser volátil.",
-    "conexion_cotidiana": "Esta estrategia de 'acidificar deliberadamente para suprimir la ionización de un grupo funcional' tiene un paralelo directo con **ELL-07** (extracción ácido-base selectiva): en ambos casos se manipula el pH del sistema para controlar si un grupo ionizable está en su forma neutra o cargada — el mismo principio de pH/pKa (**FQT-12**) aplicado esta vez a la superficie de la fase estacionaria de la columna."
+    "conexion_cotidiana": "Es la misma estrategia de **ELL-07** (extracción ácido-base selectiva): manipular el pH del sistema para controlar si un grupo ionizable está en su forma neutra o cargada — el mismo principio de pH/pKa (**FQT-12**), aquí aplicado a la superficie de la fase estacionaria de la columna."
   },
   {
     "id": "HPL-16",
@@ -281,8 +281,8 @@
     "bloque": "HPL",
     "modo": "pregunta",
     "pregunta": "Un pico de HPLC 'perfecto' en un libro de texto es una curva gaussiana simétrica. En la práctica, ven picos con 'cola' (tailing) o con un 'hombro' pegado a otro pico. ¿Qué causa fisicoquímica tiene cada uno de estos defectos?",
-    "respuesta": "**Tailing (cola)**: el pico sube normalmente al frente pero decae mucho más lentamente en su parte posterior. La causa más común es la interacción secundaria con silanoles residuales ionizados de **HPL-15**: una pequeña fracción de moléculas queda 'atrapada' temporalmente y se retrasa desproporcionadamente respecto al resto. También puede deberse a sobrecarga de columna (análogo al streaking de **TLC-08**).\n\n**Hombro (shoulder)**: una protuberancia en el costado de un pico principal, generalmente indicando la presencia de un SEGUNDO compuesto con tR muy cercano pero no separado completamente (resolución insuficiente, **HPL-07**), no un defecto del pico principal en sí.",
-    "error_comun": "Confundir tailing con la presencia de un segundo compuesto — el tailing típico es un defecto de FORMA de un solo compuesto, mientras que un hombro específicamente sugiere una segunda especie química distinta.",
+    "respuesta": "**Tailing (cola)**: el pico sube normalmente al frente pero decae mucho más lentamente en su parte posterior. La causa más común es la interacción secundaria con silanoles residuales ionizados de **HPL-15**: una pequeña fracción de moléculas queda 'atrapada' temporalmente y se retrasa desproporcionadamente respecto al resto. También puede deberse a sobrecarga de columna (análogo al streaking de **TLC-08**).\n\n**Hombro (shoulder)**: una protuberancia en el costado de un pico principal, casi siempre un SEGUNDO compuesto con tR muy cercano no separado del todo (resolución insuficiente, **HPL-07**), no un defecto del pico principal en sí.",
+    "error_comun": "Confundir tailing con la presencia de un segundo compuesto: el tailing típico es un defecto de FORMA de un solo compuesto, mientras que un hombro específicamente sugiere una segunda especie química distinta.",
     "dificultad": "alta",
     "prereqs": [
       "HPL-15",
@@ -292,6 +292,6 @@
       "EST"
     ],
     "regla": "el tailing es un defecto de FORMA de un solo compuesto (interacción secundaria); el hombro es evidencia de un SEGUNDO compuesto no resuelto — causas fisicoquímicas distintas.",
-    "conexion_cotidiana": "El 'factor de cola' (tailing factor, As) tiene un pariente conceptual en **sismología**: los sismogramas de un terremoto también muestran ondas asimétricas (la onda P llega de forma relativamente simétrica, pero las ondas de superficie posteriores muestran una 'cola' prolongada que decae lentamente), y los sismólogos usan medidas de asimetría análogas para caracterizar propiedades del terremoto — en ambos campos, la forma de una señal que 'debería' ser simétrica contiene información diagnóstica sobre el proceso físico subyacente."
+    "conexion_cotidiana": "El 'factor de cola' (tailing factor) tiene un pariente conceptual en **sismología**: los sismogramas de un terremoto también muestran ondas asimétricas (la onda P llega casi simétrica, pero las de superficie posteriores muestran una 'cola' que decae lentamente), y los sismólogos usan medidas de asimetría análogas — en ambos campos, la forma de una señal que 'debería' ser simétrica lleva información sobre el proceso físico subyacente."
   }
 ]

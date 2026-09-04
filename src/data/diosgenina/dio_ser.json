@@ -6,15 +6,15 @@
     "bloque": "SER",
     "modo": "pregunta",
     "pregunta": "El Na₂SO₄ anhidro 'seca' la fase orgánica — pero literalmente, ¿qué le pasa a cada molécula de agua cuando entra en contacto con él?",
-    "respuesta": "El sulfato de sodio anhidro es un sólido cristalino cuya red tiene espacios energéticamente favorables para incorporar moléculas de agua, formando un nuevo cristal hidratado (Na₂SO₄·10H₂O) — proceso termodinámicamente favorable (ΔG negativo, **FQT-13**) porque la red hidratada es más estable que el sólido anhidro más agua libre dispersa en el solvente. Tiene estequiometría definida (10 moléculas de agua por fórmula), así que tiene un límite de capacidad: una vez suficiente Na₂SO₄ se convirtió en la forma decahidratada, ya no puede capturar más agua. Por eso se agrega en exceso visible: ese exceso sin aglomerar en el fondo confirma que aún hay capacidad de secado disponible.",
-    "error_comun": "Pensar que el desecante 'absorbe' agua como una esponja física genérica — es una reacción química de hidratación con estequiometría definida, no absorción física inespecífica.",
+    "respuesta": "El Na₂SO₄ anhidro es un sólido cristalino cuya red tiene espacios favorables para incorporar agua, formando un cristal hidratado (Na₂SO₄·10H₂O) — proceso termodinámicamente favorable (**FQT-13**) porque la red hidratada es más estable que el sólido anhidro más agua libre en el solvente. La estequiometría es fija (10 aguas por fórmula), así que hay un límite de capacidad: una vez todo el Na₂SO₄ pasó a decahidrato, ya no captura más. Por eso se agrega en exceso visible: el exceso suelto en el fondo confirma que aún queda capacidad de secado.",
+    "error_comun": "Pensar que el desecante 'absorbe' agua como una esponja física: es una reacción química de hidratación con estequiometría definida, no absorción física inespecífica.",
     "dificultad": "alta",
     "prereqs": [
       "FQT-13"
     ],
     "connects_to": [],
     "regla": "no es absorción física tipo esponja — es una reacción química de hidratación con estequiometría exacta, y por eso tiene un límite de capacidad.",
-    "conexion_cotidiana": "Este mismo fenómeno de cristales hidratados con estequiometría exacta es la razón geológica detrás de la **mirabilita** (Na₂SO₄·10H₂O, el mismo compuesto, pero como mineral natural) que se forma cuando lagos salinos se evaporan en climas áridos, depositándose en las orillas del Gran Lago Salado en Utah."
+    "conexion_cotidiana": "El mismo fenómeno de cristales hidratados con estequiometría exacta explica la **mirabilita** (Na₂SO₄·10H₂O como mineral natural), que se deposita en las orillas de lagos salinos al evaporarse en climas áridos."
   },
   {
     "id": "SER-02",
@@ -23,8 +23,8 @@
     "bloque": "SER",
     "modo": "pregunta",
     "pregunta": "¿Cómo logra un rotavaporador evaporar un solvente usando una temperatura de baño mucho más baja que la que necesitaría con evaporación abierta normal?",
-    "respuesta": "El rotavaporador combina dos efectos. **Primero**, reduce la presión con una bomba de vacío: el punto de ebullición es la temperatura a la que la presión de vapor iguala la presión externa (**FQT-08**), así que reducirla permite que el líquido hierva a una temperatura mucho menor — por eso solventes de punto de ebullición relativamente alto pueden evaporarse con un baño de solo 30-40°C. **Segundo**, la rotación crea una película delgada de líquido constantemente renovada sobre el vidrio, maximizando el área expuesta al vacío y evitando que el líquido se acumule en un punto sobreexpuesto al calor (lo que causaría sobrecalentamiento local y proyección violenta, **SER-04**).",
-    "error_comun": "Pensar que el rotavaporador 'hierve más rápido simplemente porque gira' — la rotación ayuda con transferencia de calor y evita sobrecalentamiento local, pero el efecto dominante en bajar la temperatura necesaria es la reducción de presión, no la rotación en sí.",
+    "respuesta": "El rotavaporador combina dos efectos. **Primero**, reduce la presión con una bomba de vacío: el punto de ebullición es donde la presión de vapor iguala la externa (**FQT-08**), así que bajarla deja hervir el líquido a mucha menos temperatura — por eso solventes de ebullición alta se evaporan con un baño de 30-40°C. **Segundo**, la rotación crea una película delgada y renovada de líquido sobre el vidrio, que maximiza el área expuesta al vacío y evita sobrecalentamiento local y proyección (**SER-04**).",
+    "error_comun": "Pensar que el rotavaporador 'hierve más rápido porque gira': la rotación ayuda con la transferencia de calor, pero el efecto dominante para bajar la temperatura necesaria es la reducción de presión.",
     "dificultad": "alta",
     "prereqs": [
       "FQT-08",
@@ -33,8 +33,8 @@
     "connects_to": [
       "PFT"
     ],
-    "regla": "reducir la presión externa baja el punto de ebullición (FQT-08) — el rotavaporador combina eso con una película delgada y renovada de líquido para evitar sobrecalentamiento local.",
-    "conexion_cotidiana": "Este mismo principio (reducir presión externa para bajar el punto de ebullición) es la física detrás de por qué a gran altitud, como en **La Paz, Bolivia (~3600 msnm)**, el agua hierve a una temperatura notablemente menor que 100°C (alrededor de 88°C), y por qué cocinar ciertos alimentos ahí toma más tiempo."
+    "regla": "reducir la presión externa baja el punto de ebullición (FQT-08); el rotavaporador suma a eso una película delgada y renovada para evitar sobrecalentamiento local.",
+    "conexion_cotidiana": "El mismo principio explica por qué en **La Paz, Bolivia (~3600 msnm)** el agua hierve cerca de 88°C en vez de 100°C, y cocinar ahí toma más tiempo."
   },
   {
     "id": "SER-03",
@@ -43,8 +43,8 @@
     "bloque": "SER",
     "modo": "pregunta",
     "pregunta": "Si quieren terminar rápido, ¿por qué no simplemente calentar más fuerte para evaporar el DCM más rápido, en vez de limitarse a ≤40°C?",
-    "respuesta": "Ya establecieron en **HID-06** que la diosgenina liberada es vulnerable a deshidratación ácida, y esa degradación sigue la misma ecuación de Arrhenius (**FQT-06**): más temperatura, más velocidad, incluso con trazas de ácido residual tras un lavado imperfecto (**ELL-06**). Durante la evaporación, el residuo se concentra progresivamente en un volumen cada vez menor, así que cualquier traza de ácido está cada vez MÁS concentrada justo cuando se aplica calor para terminar de evaporar el último remanente. Mantener el baño ≤40°C durante toda la evaporación minimiza este riesgo acumulado, aunque tome más tiempo.",
-    "error_comun": "Pensar que el riesgo de degradación es constante durante toda la evaporación — en realidad aumenta hacia el final, cuando el residual de ácido está más concentrado en menos volumen.",
+    "respuesta": "Ya vieron en **HID-06** que la diosgenina liberada es vulnerable a deshidratación ácida, y esa degradación sigue Arrhenius (**FQT-06**): más temperatura, más velocidad, incluso con trazas de ácido residual tras un lavado imperfecto (**ELL-06**). Durante la evaporación el residuo se concentra en cada vez menos volumen, así que cualquier ácido residual está cada vez MÁS concentrado justo cuando se aplica calor para evaporar el último remanente. Mantener el baño ≤40°C toda la evaporación minimiza ese riesgo acumulado, aunque tarde más.",
+    "error_comun": "Pensar que el riesgo de degradación es constante durante toda la evaporación: en realidad aumenta hacia el final, cuando el ácido residual está más concentrado en menos volumen.",
     "dificultad": "alta",
     "prereqs": [
       "HID-06",
@@ -55,7 +55,7 @@
       "HPL"
     ],
     "regla": "el riesgo de degradación no es constante durante la evaporación — AUMENTA hacia el final, cuando el ácido residual está más concentrado en menos volumen.",
-    "conexion_cotidiana": "Este problema —que el riesgo de degradación térmica aumenta hacia el FINAL de un proceso de concentración, cuando queda poco líquido protector— es central en la industria farmacéutica al **liofilizar productos biológicos sensibles** (vacunas, anticuerpos): el momento más crítico de todo el ciclo no es el congelamiento inicial, sino el 'secado secundario', cuando queda poquísima agua residual y el producto es más vulnerable por unidad de tiempo de exposición."
+    "conexion_cotidiana": "Que el riesgo de degradación térmica aumente hacia el FINAL de una concentración, cuando queda poco líquido protector, es central al **liofilizar productos biológicos sensibles**: el momento más crítico no es el congelamiento sino el 'secado secundario', con poquísima agua residual."
   },
   {
     "id": "SER-04",
@@ -64,15 +64,15 @@
     "bloque": "SER",
     "modo": "pregunta",
     "pregunta": "¿Por qué a veces un líquido calentado sin agitación 'salta' violentamente en vez de hervir suavemente, y qué hacen exactamente las perlas de ebullición para evitarlo?",
-    "respuesta": "Para que se forme una burbuja de vapor DENTRO de un líquido se necesita un sitio de nucleación: una imperfección microscópica donde quede atrapado un poco de gas que sirva de 'semilla'. Un líquido puro en un recipiente de vidrio perfectamente liso puede calentarse por ENCIMA de su punto de ebullición teórico sin formar burbujas visibles (**sobrecalentamiento**), por falta de sitios de nucleación. Cuando finalmente se forma una burbuja, crece y colapsa de forma extremadamente violenta, liberando de golpe toda la energía acumulada y proyectando líquido caliente hacia afuera. Las perlas de ebullición tienen superficies rugosas con cavidades de aire atrapado, proporcionando sitios de nucleación desde el principio, así el líquido forma burbujas pequeñas y controladas mucho antes de acumular sobrecalentamiento peligroso.",
-    "error_comun": "Pensar que las perlas de ebullición 'enfrían' el líquido o cambian su punto de ebullición — no hacen nada de eso, solo proporcionan sitios físicos de nucleación para ebullición gradual y controlada.",
+    "respuesta": "Para que se forme una burbuja de vapor DENTRO del líquido hace falta un sitio de nucleación: una imperfección microscópica con algo de gas atrapado que sirva de 'semilla'. Un líquido puro en vidrio liso puede calentarse por ENCIMA de su punto de ebullición sin formar burbujas visibles (**sobrecalentamiento**), por falta de esos sitios. Cuando por fin se forma una burbuja, crece y colapsa de forma violenta, liberando de golpe la energía acumulada y proyectando líquido caliente. Las perlas de ebullición tienen superficies rugosas con aire atrapado que dan sitios de nucleación desde el principio, así el líquido hierve en burbujas pequeñas y controladas.",
+    "error_comun": "Pensar que las perlas de ebullición 'enfrían' el líquido o cambian su punto de ebullición: solo aportan sitios físicos de nucleación para una ebullición gradual.",
     "dificultad": "alta",
     "prereqs": [
       "FQT-08"
     ],
     "connects_to": [],
     "regla": "sin sitios de nucleación, un líquido puede sobrecalentarse por encima de su punto de ebullición sin hervir visiblemente — y luego liberar todo ese exceso de golpe.",
-    "conexion_cotidiana": "Este mismo fenómeno de sobrecalentamiento por ausencia de sitios de nucleación explica, contraintuitivamente, por qué calentar agua pura en un recipiente muy liso en un **microondas doméstico** puede ocasionalmente producir 'explosión retardada': el agua se calienta por encima de 100°C sin hervir visiblemente, y al moverla o añadirle algo después, hierve instantánea y violentamente — el mismo mecanismo que las perlas de ebullición previenen deliberadamente en el laboratorio."
+    "conexion_cotidiana": "El mismo sobrecalentamiento por falta de sitios de nucleación explica la 'explosión retardada' del agua pura en un **microondas**: se calienta por encima de 100°C sin hervir, y al moverla hierve de golpe — lo que las perlas de ebullición previenen."
   },
   {
     "id": "SER-05",
@@ -81,8 +81,8 @@
     "bloque": "SER",
     "modo": "pregunta",
     "pregunta": "Después de evaporar todo el DCM, ¿el residuo que queda es 'diosgenina pura', o hay una distinción importante entre 'concentrado' y 'puro' que vale la pena tener clara?",
-    "respuesta": "Evaporar el solvente remueve el solvente, nada más. Cualquier compuesto que haya quedado disuelto en el DCM (diosgenina, pero también otros componentes co-extraídos que el lavado, **ELL-06**, no haya removido: pigmentos, otros esteroles/lípidos, trazas fenólicas) queda TODO junto en el residuo final, ahora más concentrado pero en las mismas proporciones relativas. Evaporación es un paso de **concentración**, no de **purificación**: para separar de verdad la diosgenina de esos otros compuestos hacen falta técnicas con selectividad real (cromatografía, recristalización, derivatización selectiva). El residuo seco es 'extracto crudo concentrado', un paso intermedio, no el producto final purificado.",
-    "error_comun": "Confundir 'concentrado' con 'puro' — son conceptos completamente distintos; se puede tener un residuo muy concentrado y aun así impuro, o un extracto diluido y relativamente puro.",
+    "respuesta": "Evaporar el solvente remueve el solvente, nada más. Todo lo que quedó disuelto en el DCM —diosgenina, pero también co-extraídos que el lavado (**ELL-06**) no removió: pigmentos, otros esteroles, trazas fenólicas— queda junto en el residuo, ahora más concentrado pero en las mismas proporciones. Evaporación es un paso de **concentración**, no de **purificación**: separar de verdad la diosgenina exige técnicas con selectividad real (cromatografía, recristalización). El residuo seco es 'extracto crudo concentrado', un paso intermedio.",
+    "error_comun": "Confundir 'concentrado' con 'puro': se puede tener un residuo muy concentrado y aun así impuro, o un extracto diluido y relativamente puro.",
     "dificultad": "alta",
     "prereqs": [
       "ELL-08"
@@ -92,7 +92,7 @@
       "HPL"
     ],
     "regla": "evaporar quita el solvente — no quita nada más. Todo lo demás disuelto queda en las mismas proporciones relativas, solo más concentrado.",
-    "conexion_cotidiana": "Esta distinción tiene una analogía en **astroquímica**: cuando la atmósfera de un exoplaneta 'se concentra' en ciertos compuestos tras el escape del hidrógeno, más ligero, al espacio, eso NO significa que esos gases pesados se hayan 'purificado' o separado unos de otros — simplemente hay menos gas ligero diluyendo la mezcla."
+    "conexion_cotidiana": "Tiene analogía en **astroquímica**: que la atmósfera de un exoplaneta 'se concentre' en gases pesados tras escapar el hidrógeno no significa que esos gases se hayan purificado o separado entre sí — solo hay menos gas ligero diluyendo la mezcla."
   },
   {
     "id": "SER-06",
@@ -100,9 +100,9 @@
     "tipo": "concepto",
     "bloque": "SER",
     "modo": "pregunta",
-    "pregunta": "Si ya tienen la diosgenina disuelta en DCM antes de evaporar, ¿por qué evaporarla del todo y redisolverla en otro solvente (etanol o EtOAc), en vez de usar directamente el DCM para el siguiente paso?",
-    "respuesta": "El DCM se optimizó para partición eficiente de la diosgenina fuera de la fase acuosa (**FQT-03**, **ELL-08**). El siguiente paso —la reacción cromógena con el reactivo de Baccou (p-anisaldehído + H₂SO₄)— fue desarrollado y validado para funcionar en un solvente específico (etanol) donde la química de la reacción de color es reproducible y da la absortividad molar esperada: cambiar el solvente podría alterar la cinética, la posición del máximo de absorción, o la estabilidad del color, invalidando la comparación con la curva de calibración. Además, el DCM es volátil (**FQT-08**) y podría evaporarse parcialmente durante los 20 min de reacción a 60°C, cambiando la concentración efectiva. Por eso se evapora el solvente de extracción y se redisuelve en el solvente que la química analítica del siguiente paso requiere.",
-    "error_comun": "Pensar que 'ya está disuelto, para qué evaporar y volver a disolver' sin considerar que las necesidades del paso de extracción y del paso de cuantificación son químicamente distintas.",
+    "pregunta": "¿Por qué evaporar del todo la diosgenina ya disuelta en DCM y redisolverla en otro solvente (etanol o EtOAc), en vez de usar el DCM directo para el siguiente paso?",
+    "respuesta": "El DCM se optimizó para partir la diosgenina fuera de la fase acuosa (**FQT-03**, **ELL-08**). El siguiente paso —la reacción cromógena con el reactivo de Baccou— se validó para un solvente específico (etanol) donde la química de color es reproducible y da la absortividad esperada: cambiar de solvente podría alterar la cinética, el máximo de absorción o la estabilidad del color, e invalidar la curva de calibración. Además el DCM es volátil (**FQT-08**) y podría evaporarse durante los 20 min a 60°C, cambiando la concentración. Por eso se redisuelve en el solvente que la química analítica del paso requiere.",
+    "error_comun": "Pensar que 'ya está disuelto, para qué evaporar y volver a disolver', sin ver que las necesidades del paso de extracción y del de cuantificación son químicamente distintas.",
     "dificultad": "alta",
     "prereqs": [
       "FQT-03",
@@ -112,7 +112,7 @@
       "ESP"
     ],
     "regla": "cada paso del protocolo tiene su propio solvente 'óptimo' para su propia función — extracción y reacción cromógena no tienen los mismos requerimientos.",
-    "conexion_cotidiana": "Este principio de 'cada etapa tiene su propio solvente óptimo' es la lógica del **intercambio de solvente** (solvent switching) en cromatografía líquida preparativa farmacéutica: un compuesto purificado en un solvente A (optimizado para separación) frecuentemente necesita ser evaporado y redisuelto en un solvente B distinto antes de la siguiente etapa (cristalización, formulación, almacenamiento)."
+    "conexion_cotidiana": "Es la lógica del **intercambio de solvente** (solvent switching) en cromatografía preparativa farmacéutica: un compuesto purificado en un solvente A a menudo se evapora y redisuelve en un solvente B antes de la siguiente etapa."
   },
   {
     "id": "SER-07",
@@ -121,8 +121,8 @@
     "bloque": "SER",
     "modo": "pregunta",
     "pregunta": "El residuo seco se ve como una 'película o costra' pegada al vial, no como cristales bien definidos. ¿Por qué no cristaliza limpiamente, y eso qué les dice sobre la pureza?",
-    "respuesta": "Cuando un solvente se evapora de una mezcla de VARIOS compuestos disueltos (no uno puro), las moléculas no tienen tiempo ni 'espacio químico' limpio para organizarse en una red cristalina ordenada de un solo compuesto: quedan atrapadas en un arreglo desordenado, sin el ordenamiento periódico que define un cristal verdadero, un **sólido amorfo**. La velocidad de evaporación también importa: una evaporación muy rápida no da tiempo para que las moléculas se reorganicen hacia el arreglo termodinámicamente más estable (mismo razonamiento cinético vs. termodinámico de **FQT-13/14**). La formación de una película en vez de cristales definidos es consistente con (aunque no prueba) que el residuo es una mezcla de varios compuestos.",
-    "error_comun": "Pensar que 'no cristalizó, entonces algo salió mal en el experimento' — para un extracto crudo con múltiples compuestos, NO cristalizar limpiamente es lo esperado, no una señal de error.",
+    "respuesta": "Cuando un solvente se evapora de una mezcla de VARIOS compuestos disueltos (no uno puro), las moléculas no tienen tiempo ni 'espacio químico' limpio para organizarse en una red cristalina de un solo compuesto: quedan atrapadas en un arreglo desordenado, sin el orden periódico que define un cristal, un **sólido amorfo**. La velocidad importa: una evaporación muy rápida no da tiempo a reorganizarse hacia el arreglo más estable (cinético vs. termodinámico, **FQT-13/14**). Una película en vez de cristales definidos es consistente con —aunque no prueba— que el residuo es una mezcla.",
+    "error_comun": "Pensar que 'no cristalizó, entonces algo salió mal': para un extracto crudo con varios compuestos, NO cristalizar limpiamente es lo esperado, no una señal de error.",
     "dificultad": "alta",
     "prereqs": [
       "FQT-14",
@@ -130,7 +130,7 @@
     ],
     "connects_to": [],
     "regla": "varios compuestos compitiendo por el mismo espacio decreciente de solvente quedan atrapados en un arreglo desordenado — eso es un sólido amorfo, no un cristal.",
-    "conexion_cotidiana": "Esta distinción tiene consecuencias médicas serias: el mismo fármaco puede existir en forma cristalina o amorfa, y la forma amorfa, al no tener el ordenamiento estable de un cristal, suele tener mayor solubilidad y biodisponibilidad — por lo que la industria farmacéutica a veces formula deliberadamente fármacos poco solubles en su forma amorfa, aceptando el riesgo de que pueda re-cristalizar durante el almacenamiento."
+    "conexion_cotidiana": "Tiene consecuencias médicas: el mismo fármaco puede ser cristalino o amorfo, y la forma amorfa suele tener mayor solubilidad y biodisponibilidad — por eso a veces se formula deliberadamente en forma amorfa, aceptando que pueda re-cristalizar en el almacenamiento."
   },
   {
     "id": "SER-08",
@@ -139,8 +139,8 @@
     "bloque": "SER",
     "modo": "pregunta",
     "pregunta": "¿Por qué el extracto se guarda específicamente en vial ámbar (no transparente) Y a -20°C (no solo refrigerado a 4°C) para 'pendiente derivatización'?",
-    "respuesta": "**Fotodegradación**: ciertos enlaces (dobles enlaces, cualquier estructura con electrones π, **FQT-16**) pueden romperse o isomerizarse al absorber luz UV o visible, iniciando reacciones fotoquímicas que no requieren calor ni ácido; el vidrio ámbar filtra buena parte de esa radiación. **Degradación térmica/cinética**: cualquier reacción residual sigue Arrhenius (**FQT-06**), a menor temperatura, drásticamente menor velocidad. La **regla Q₁₀**, usada en estabilidad de productos farmacéuticos, dice que muchas reacciones de degradación duplican o triplican su velocidad por cada 10°C de aumento: bajar de temperatura ambiente (~25°C) a -20°C representa 45°C de diferencia, lo que podría significar varios órdenes de magnitud menos degradación.",
-    "error_comun": "Pensar que refrigerar a 4°C sería 'suficiente' y que -20°C es precaución excesiva — dependiendo de la Ea de la reacción de degradación relevante, la diferencia entre 4°C y -20°C puede representar una reducción adicional sustancial, no un margen trivial.",
+    "respuesta": "**Fotodegradación**: enlaces con electrones π (**FQT-16**) pueden romperse o isomerizarse al absorber luz UV o visible, sin necesidad de calor ni ácido; el vidrio ámbar filtra buena parte de esa radiación. **Degradación térmica/cinética**: cualquier reacción residual sigue Arrhenius (**FQT-06**), y a menor temperatura, mucha menor velocidad. La **regla Q₁₀** (usada en estabilidad farmacéutica) dice que muchas reacciones de degradación duplican o triplican su velocidad por cada 10°C: de ~25°C a -20°C son 45°C de diferencia, varios órdenes de magnitud menos degradación.",
+    "error_comun": "Pensar que refrigerar a 4°C 'basta' y que -20°C es precaución excesiva: según la Ea de la reacción de degradación, la diferencia entre 4°C y -20°C puede ser una reducción sustancial, no un margen trivial.",
     "dificultad": "alta",
     "prereqs": [
       "FQT-16",
@@ -150,7 +150,7 @@
       "EST"
     ],
     "regla": "son dos mecanismos de degradación distintos, y cada elemento de almacenamiento ataca uno.",
-    "conexion_cotidiana": "La regla Q₁₀ es la misma herramienta que usa la industria farmacéutica para diseñar los **estudios de estabilidad acelerada**: en vez de esperar años a temperatura ambiente, se almacena el fármaco a temperaturas elevadas (40-60°C) durante semanas, se mide la degradación, y se EXTRAPOLA con Arrhenius para predecir la vida útil normal — la misma lógica que justifica que -20°C protege tu extracto, en dirección inversa."
+    "conexion_cotidiana": "La regla Q₁₀ es la misma herramienta de los **estudios de estabilidad acelerada**: en vez de esperar años, se guarda el fármaco a 40-60°C unas semanas, se mide la degradación y se extrapola con Arrhenius a la vida útil normal — la misma lógica, en dirección inversa, que justifica los -20°C."
   },
   {
     "id": "SER-09",
@@ -159,15 +159,15 @@
     "bloque": "SER",
     "modo": "pregunta",
     "pregunta": "¿Por qué dejar que un frasco frío llegue a temperatura ambiente ANTES de abrirlo evita que se condense humedad sobre el contenido, y qué tiene que ver esto con el 'punto de rocío'?",
-    "respuesta": "El aire caliente puede 'sostener' más vapor de agua que el aire frío antes de saturarse (la presión de vapor de saturación del agua aumenta fuertemente con la temperatura, **FQT-08**). El **punto de rocío** es la temperatura a la que, si se enfría el aire manteniendo su contenido de vapor, ese vapor alcanza la saturación y empieza a condensar. Al abrir un frasco recién sacado del congelador, la superficie fría enfría localmente el aire húmedo que entra en contacto con ella; si esa superficie está por debajo del punto de rocío del aire ambiente (casi garantizado con una diferencia de temperatura tan grande), el vapor condensa directamente sobre ella, igual que el rocío sobre el pasto en una mañana fría. Dejar que el frasco alcance temperatura ambiente antes de abrirlo evita eso.",
-    "error_comun": "Pensar que el riesgo es 'que entre humedad del aire' de forma vaga — el mecanismo específico es condensación por diferencia de temperatura entre una superficie fría y el punto de rocío del aire ambiente.",
+    "respuesta": "El aire caliente sostiene más vapor de agua que el frío antes de saturarse (la presión de vapor de saturación sube fuerte con la temperatura, **FQT-08**). El **punto de rocío** es la temperatura a la que, al enfriar ese aire, el vapor se satura y empieza a condensar. Al abrir un frasco recién sacado del congelador, su superficie fría enfría el aire húmedo en contacto; si está por debajo del punto de rocío del aire ambiente (casi seguro con esa diferencia de temperatura), el vapor condensa sobre ella, como el rocío sobre el pasto. Dejar que el frasco llegue a temperatura ambiente antes de abrirlo lo evita.",
+    "error_comun": "Pensar que el riesgo es 'que entre humedad del aire' de forma vaga: el mecanismo es condensación por la diferencia entre una superficie fría y el punto de rocío del aire ambiente.",
     "dificultad": "alta",
     "prereqs": [
       "FQT-08"
     ],
     "connects_to": [],
     "regla": "si la superficie fría está por debajo del punto de rocío del aire ambiente, el vapor de agua de ese aire condensa directamente sobre ella.",
-    "conexion_cotidiana": "El punto de rocío es también la base física de los **deshumidificadores domésticos e industriales**: enfrían deliberadamente el aire por debajo de su punto de rocío con un serpentín frío, forzando que el exceso de vapor condense y se drene como líquido, y luego recalientan el aire antes de devolverlo — el mismo fenómeno que quieren EVITAR al abrir su vial frío es exactamente lo que un deshumidificador provoca DELIBERADAMENTE para proteger bodegas farmacéuticas o museos."
+    "conexion_cotidiana": "El punto de rocío es la base de los **deshumidificadores**: enfrían el aire por debajo de su punto de rocío con un serpentín frío para que el vapor condense y se drene, y luego lo recalientan — lo mismo que quieres EVITAR al abrir el vial frío, provocado a propósito."
   },
   {
     "id": "SER-10",
@@ -175,9 +175,9 @@
     "tipo": "concepto",
     "bloque": "SER",
     "modo": "pregunta",
-    "pregunta": "Para compuestos muy sensibles al calor, existe una alternativa a evaporar calentando: la liofilización (freeze-drying). ¿Cómo funciona, y por qué es conceptualmente tan distinta de simplemente 'evaporar frío'?",
-    "respuesta": "La liofilización congela primero la muestra completamente, y luego reduce drásticamente la presión mientras aplica un poco de calor controlado, de forma que el hielo pase DIRECTAMENTE a vapor sin pasar por fase líquida: **sublimación**, que ocurre porque a presiones suficientemente bajas (por debajo del punto triple del solvente, **FQT-14**), la fase líquida deja de ser estable entre la sólida y la gaseosa. La ventaja crítica para compuestos sensibles: como el solvente nunca pasa por fase líquida, el compuesto de interés permanece atrapado en una matriz sólida rígida en vez de estar disuelto y móvil en un líquido caliente donde podría degradarse más fácilmente.",
-    "error_comun": "Pensar que liofilizar es simplemente 'evaporar a temperatura muy baja' en el mismo sentido que el rotavaporador (**SER-02**) — es conceptualmente distinto: nunca hay fase líquida involucrada, es sublimación directa de sólido a gas, no evaporación de líquido a gas.",
+    "pregunta": "Para compuestos muy sensibles al calor hay una alternativa a evaporar calentando: la liofilización (freeze-drying). ¿Cómo funciona, y por qué es conceptualmente distinta de 'evaporar en frío'?",
+    "respuesta": "La liofilización congela primero la muestra por completo, y luego baja mucho la presión mientras aplica un poco de calor controlado, de modo que el hielo pase DIRECTAMENTE a vapor sin fase líquida: **sublimación**, posible porque por debajo del punto triple del solvente (**FQT-14**) la fase líquida deja de ser estable. La ventaja para compuestos sensibles: como el solvente nunca es líquido, el compuesto queda atrapado en una matriz sólida rígida en vez de disuelto y móvil en un líquido caliente donde se degradaría más fácil.",
+    "error_comun": "Pensar que liofilizar es 'evaporar a temperatura muy baja' como el rotavaporador (**SER-02**): es distinto — nunca hay fase líquida, es sublimación directa de sólido a gas.",
     "dificultad": "alta",
     "prereqs": [
       "FQT-14",
@@ -187,6 +187,6 @@
       "PFT"
     ],
     "regla": "nunca hay fase líquida — el sólido pasa directo a vapor por sublimación, así que el compuesto nunca está disuelto y móvil en un líquido caliente.",
-    "conexion_cotidiana": "La liofilización es la tecnología detrás de por qué la **comida de astronauta** puede almacenarse años sin refrigeración y rehidratarse antes de comer — y, más críticamente, es la tecnología que permite que el **plasma sanguíneo liofilizado** y ciertas vacunas termolábiles puedan almacenarse y transportarse sin cadena de frío, un problema logístico relevante en el contexto colombiano, reconstituyéndose con agua estéril justo antes de usarse."
+    "conexion_cotidiana": "La liofilización es por qué la **comida de astronauta** dura años sin refrigeración y, más importante, por qué el **plasma sanguíneo liofilizado** y ciertas vacunas termolábiles se transportan sin cadena de frío, reconstituyéndose con agua estéril justo antes de usarse."
   }
 ]
