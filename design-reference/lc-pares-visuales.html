@@ -1,0 +1,403 @@
+<title>Pares que se confunden</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --bg: #f4f7f6;
+    --surface: #ffffff;
+    --surface-alt: #eaf2f0;
+    --border: #dbe6e3;
+    --text: #14231f;
+    --text-sub: #4c605a;
+    --text-faint: #82948e;
+    --accent: #0f766e;
+    --accent-strong: #0b544e;
+    --accent-soft: color-mix(in oklch, #0f766e 10%, transparent);
+    --accent-soft-2: color-mix(in oklch, #0f766e 18%, transparent);
+    --shadow: 0 1px 2px rgba(20, 35, 31, 0.04), 0 8px 24px rgba(20, 35, 31, 0.05);
+    color-scheme: light;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0e1815;
+      --surface: #16211e;
+      --surface-alt: #1b2925;
+      --border: #2a3a35;
+      --text: #edf3f1;
+      --text-sub: #b4c6c0;
+      --text-faint: #82968f;
+      --accent: #4fd1c5;
+      --accent-strong: #8be7db;
+      --accent-soft: color-mix(in oklch, #4fd1c5 12%, transparent);
+      --accent-soft-2: color-mix(in oklch, #4fd1c5 20%, transparent);
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.25), 0 12px 28px rgba(0, 0, 0, 0.3);
+      color-scheme: dark;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #0e1815;
+    --surface: #16211e;
+    --surface-alt: #1b2925;
+    --border: #2a3a35;
+    --text: #edf3f1;
+    --text-sub: #b4c6c0;
+    --text-faint: #82968f;
+    --accent: #4fd1c5;
+    --accent-strong: #8be7db;
+    --accent-soft: color-mix(in oklch, #4fd1c5 12%, transparent);
+    --accent-soft-2: color-mix(in oklch, #4fd1c5 20%, transparent);
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.25), 0 12px 28px rgba(0, 0, 0, 0.3);
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+    line-height: 1.5;
+  }
+
+  .page {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 56px 28px 80px;
+  }
+
+  header.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 48px;
+    max-width: 640px;
+  }
+
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    align-self: flex-start;
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent-strong);
+    background: var(--accent-soft);
+    border: 1px solid var(--accent-soft-2);
+    padding: 5px 12px;
+    border-radius: 100px;
+  }
+
+  .eyebrow::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+
+  h1 {
+    font-family: "Fraunces", Georgia, serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: clamp(34px, 5vw, 46px);
+    line-height: 1.08;
+    margin: 0;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+
+  h1 em {
+    font-style: italic;
+    font-weight: 500;
+    color: var(--accent-strong);
+  }
+
+  .lede {
+    font-size: 16px;
+    color: var(--text-sub);
+    max-width: 54ch;
+  }
+
+  .lede strong { color: var(--text); font-weight: 600; }
+
+  .meta-row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-size: 13px;
+    color: var(--text-faint);
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    padding-top: 6px;
+    border-top: 1px solid var(--border);
+    margin-top: 4px;
+  }
+
+  .meta-row span { white-space: nowrap; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    gap: 20px;
+  }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 26px 26px 22px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .card-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .pair-name {
+    font-family: "Fraunces", Georgia, serif;
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: -0.005em;
+  }
+
+  .pair-name .sep {
+    color: var(--accent);
+    padding: 0 6px;
+    font-weight: 400;
+  }
+
+  .card-id {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 11px;
+    color: var(--text-faint);
+    white-space: nowrap;
+  }
+
+  .pregunta {
+    font-style: italic;
+    color: var(--text-sub);
+    font-size: 14.5px;
+    line-height: 1.45;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+    table-layout: fixed;
+  }
+
+  caption {
+    text-align: left;
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+    margin-bottom: 6px;
+  }
+
+  thead th {
+    text-align: left;
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent-strong);
+    background: var(--accent-soft);
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+  }
+
+  thead th:first-child { width: 34%; border-top-left-radius: 8px; }
+  thead th:last-child { border-top-right-radius: 8px; }
+
+  tbody td {
+    padding: 10px 12px;
+    border: 1px solid var(--border);
+    vertical-align: top;
+    color: var(--text-sub);
+  }
+
+  tbody td:first-child {
+    font-weight: 600;
+    color: var(--text);
+    font-family: "Fraunces", Georgia, serif;
+    font-size: 15px;
+  }
+
+  .table-wrap { overflow-x: auto; }
+
+  footer {
+    margin-top: 56px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 12px;
+    color: var(--text-faint);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  @media (max-width: 520px) {
+    .page { padding: 36px 18px 56px; }
+    .grid { grid-template-columns: 1fr; }
+  }
+</style>
+
+<div class="page">
+  <header class="intro">
+    <span class="eyebrow">Lectura Crítica · Repaso de conceptos</span>
+    <h1>7 pares que <em>se confunden</em></h1>
+    <p class="lede">
+      "El margen" ya agrupaba estas 7 tarjetas de distinción. Cada una tiene ahora,
+      en su reverso, una tabla nativa que pone las dos figuras lado a lado con su
+      <strong>rasgo distintivo</strong> — el mismo mecanismo que ya usa Competencias
+      Ciudadanas, sin cambios de motor.
+    </p>
+    <div class="meta-row">
+      <span>7 tarjetas · Identificación local</span>
+      <span>tipo_visual: tabla</span>
+      <span>visual_posicion: reverso</span>
+    </div>
+  </header>
+
+  <div class="grid">
+
+    <article class="card">
+      <div class="card-head">
+        <span class="pair-name">Símil<span class="sep">↔</span>Metáfora</span>
+        <span class="card-id">LC-FIG-005</span>
+      </div>
+      <p class="pregunta">¿Cuál es la diferencia exacta entre metáfora y símil?</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Figura</th><th>Rasgo distintivo</th></tr></thead>
+          <tbody>
+            <tr><td>Símil</td><td>Usa un conector comparativo explícito: como, cual, parece.</td></tr>
+            <tr><td>Metáfora</td><td>Funde los dos términos sin conector: identifica uno con el otro directamente.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-head">
+        <span class="pair-name">Metonimia<span class="sep">↔</span>Sinécdoque</span>
+        <span class="card-id">LC-FIG-010</span>
+      </div>
+      <p class="pregunta">¿En qué se diferencian exactamente la metonimia y la sinécdoque?</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Figura</th><th>Rasgo distintivo</th></tr></thead>
+          <tbody>
+            <tr><td>Metonimia</td><td>Sustituye un término por otro relacionado por contigüidad: causa por efecto, contenedor por contenido, autor por obra.</td></tr>
+            <tr><td>Sinécdoque</td><td>Caso específico de metonimia: la relación es estrictamente de parte por el todo, o de todo por la parte.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-head">
+        <span class="pair-name">Ironía<span class="sep">↔</span>Sarcasmo</span>
+        <span class="card-id">LC-FIG-015</span>
+      </div>
+      <p class="pregunta">¿En qué se diferencian la ironía y el sarcasmo?</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Figura</th><th>Rasgo distintivo</th></tr></thead>
+          <tbody>
+            <tr><td>Ironía</td><td>Dice lo contrario de lo que se piensa; puede ser neutral o incluso humorística.</td></tr>
+            <tr><td>Sarcasmo</td><td>Dice lo contrario de lo que se piensa, con intención explícita de herir o burlarse de alguien.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-head">
+        <span class="pair-name">Personificación<span class="sep">↔</span>Apóstrofe</span>
+        <span class="card-id">LC-FIG-020</span>
+      </div>
+      <p class="pregunta">¿En qué se diferencian la personificación y el apóstrofe retórico?</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Figura</th><th>Rasgo distintivo</th></tr></thead>
+          <tbody>
+            <tr><td>Personificación</td><td>Atribuye cualidades humanas a algo no humano, descrito en tercera persona.</td></tr>
+            <tr><td>Apóstrofe retórico</td><td>Se dirige directamente a ese algo en segunda persona, como si pudiera responder.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-head">
+        <span class="pair-name">Oxímoron<span class="sep">↔</span>Paradoja</span>
+        <span class="card-id">LC-FIG-025</span>
+      </div>
+      <p class="pregunta">¿En qué se diferencian el oxímoron y la paradoja?</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Figura</th><th>Rasgo distintivo</th></tr></thead>
+          <tbody>
+            <tr><td>Oxímoron</td><td>Combina dos palabras opuestas en una expresión muy corta, casi siempre sustantivo y adjetivo.</td></tr>
+            <tr><td>Paradoja</td><td>Desarrolla una contradicción a lo largo de una afirmación más extensa que necesita explicarse.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-head">
+        <span class="pair-name">Símbolo<span class="sep">↔</span>Alegoría</span>
+        <span class="card-id">LC-FIG-038</span>
+      </div>
+      <p class="pregunta">¿Cómo se distingue si un texto usa un símbolo puntual o una alegoría completa?</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Figura</th><th>Rasgo distintivo</th></tr></thead>
+          <tbody>
+            <tr><td>Símbolo</td><td>Un elemento puntual, o pocos, con correspondencia sistemática con un segundo significado.</td></tr>
+            <tr><td>Alegoría</td><td>Casi todos los elementos de una narración completa tienen esa correspondencia sistemática.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card-head">
+        <span class="pair-name">Epíteto<span class="sep">↔</span>Metáfora</span>
+        <span class="card-id">LC-FIG-043</span>
+      </div>
+      <p class="pregunta">¿En qué se diferencian el epíteto y la metáfora?</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Figura</th><th>Rasgo distintivo</th></tr></thead>
+          <tbody>
+            <tr><td>Epíteto</td><td>Adjetivo que describe literalmente una cualidad ya propia del sustantivo, aunque redundante.</td></tr>
+            <tr><td>Metáfora</td><td>Identifica el sustantivo con algo distinto, de forma figurada, basada en una semejanza imaginada.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </article>
+
+  </div>
+
+  <footer>
+    <span>saber-pro-simulador · Lectura Crítica · Identificación local</span>
+    <span>7/7 tarjetas de distinción con visual</span>
+  </footer>
+</div>
