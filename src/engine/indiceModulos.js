@@ -78,6 +78,26 @@ export const indiceModulos = {
       geometria: 'Geometría',
     },
     adapters: adaptersRazonamientoCuantitativo,
+    // "Reglas en contexto" (token `[[id-regla|texto]]` -> popover) en Repaso
+    // de conceptos y en Lápiz y papel. El rulebook vive en
+    // src/data/razonamiento-cuantitativo/rc_reglas.json — una regla por cada
+    // bloque temático real de los 4 núcleos, más las "trampas" de contexto
+    // aplicado y los principios transversales (factor multiplicativo,
+    // proporcionalidad directa/inversa, promedio ponderado, regla de tres,
+    // riesgo relativo vs. absoluto, correlación ≠ causalidad...).
+    //
+    // A diferencia de los otros 7 módulos con la capa, RC NO puede usar
+    // `renderizaFormulas: true`: escribe `$` como símbolo de moneda ("$102",
+    // "$1.000.000") en enunciados, opciones y explicación — 635 montos en los
+    // 10 JSON del módulo — y el render de `$...$` como KaTeX los rompería.
+    // Por eso `reglasEnContexto` es un flag propio, desacoplado de
+    // `renderizaFormulas`: activa solo el token `[[...]]` (ver `sinFormulas`
+    // en TextoConReglas.jsx / ReglasProvider), dejando los `$` literales.
+    // RC ya usa `formula_latex` + <Formula> para su matemática, no `$...$`
+    // inline, así que no pierde nada. `acentoReglas: 'rc'` pinta el
+    // disparador y el popover con el índigo-tinta propio `--rc-accent`.
+    reglasEnContexto: true,
+    acentoReglas: 'rc',
   },
   'lectura-critica': {
     id: 'lectura-critica',

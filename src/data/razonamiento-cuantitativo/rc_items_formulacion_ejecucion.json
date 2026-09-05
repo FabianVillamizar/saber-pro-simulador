@@ -15,8 +15,8 @@
         "opciones": {
           "A": "$56.000.000",
           "B": "$70.000.000",
-          "C": "$46.666.667",
-          "D": "$14.000.000"
+          "C": "$14.000.000",
+          "D": "$46.666.667"
         },
         "respuesta_correcta": "A",
         "explicacion_correcta": "La finca se reparte en 5 partes iguales (los 5 hijos originales, incluyendo a Alberto aunque ya no esté vivo): 280.000.000÷5=$56.000.000. Cada uno de los 4 hijos vivos recibe esta cantidad.",
@@ -26,12 +26,12 @@
             "patron_trampa": "reparto_proporcional_mal_aplicado"
           },
           "C": {
-            "explicacion": "Divide entre 6 personas, tratando a los 4 nietos como beneficiarios adicionales del primer nivel, en lugar de repartir primero entre los 5 hijos originales.",
-            "patron_trampa": "reparto_proporcional_mal_aplicado"
-          },
-          "D": {
             "explicacion": "Corresponde a la parte de un nieto (heredero de Alberto), no a la de un hijo vivo.",
             "patron_trampa": "confusion_variable"
+          },
+          "D": {
+            "explicacion": "Divide entre 6 personas, tratando a los 4 nietos como beneficiarios adicionales del primer nivel, en lugar de repartir primero entre los 5 hijos originales.",
+            "patron_trampa": "reparto_proporcional_mal_aplicado"
           }
         },
         "dificultad": "media",
@@ -47,25 +47,25 @@
         "tipo_contexto": "familiar_personal",
         "enunciado": "¿Cuánto recibe cada uno de los 4 hijos de Alberto (nietos de don Rafael)?",
         "opciones": {
-          "A": "$56.000.000",
-          "B": "$14.000.000",
+          "A": "$14.000.000",
+          "B": "$46.666.667",
           "C": "$70.000.000",
-          "D": "$46.666.667"
+          "D": "$56.000.000"
         },
-        "respuesta_correcta": "B",
-        "explicacion_correcta": "La parte de Alberto es 280.000.000÷5=$56.000.000. Esa parte se divide en partes iguales entre sus 4 hijos: 56.000.000÷4=$14.000.000 para cada uno.",
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "La parte de Alberto es 280.000.000÷5=$56.000.000. Esa parte se divide [[RC-R-reparto-proporcional|en partes iguales]] entre sus 4 hijos: 56.000.000÷4=$14.000.000 para cada uno.",
         "distractores": {
-          "A": {
-            "explicacion": "Reporta la parte completa de Alberto sin dividirla entre sus 4 hijos.",
-            "patron_trampa": "reparto_proporcional_mal_aplicado"
+          "B": {
+            "explicacion": "Corresponde al resultado de un reparto entre 6 personas (el error de la pregunta anterior), no a la parte real de cada nieto.",
+            "patron_trampa": "confusion_variable"
           },
           "C": {
             "explicacion": "Reparte la finca entre 4 hijos vivos en lugar de 5 hijos originales, y aplica ese resultado erróneo a la parte de Alberto.",
             "patron_trampa": "reparto_proporcional_mal_aplicado"
           },
           "D": {
-            "explicacion": "Corresponde al resultado de un reparto entre 6 personas (el error de la pregunta anterior), no a la parte real de cada nieto.",
-            "patron_trampa": "confusion_variable"
+            "explicacion": "Reporta la parte completa de Alberto sin dividirla entre sus 4 hijos.",
+            "patron_trampa": "reparto_proporcional_mal_aplicado"
           }
         },
         "dificultad": "alta",
@@ -92,24 +92,24 @@
         "tipo_contexto": "laboral_ocupacional",
         "enunciado": "¿Cuántos ensayos distintos debe realizar el estudiante para probar todas las combinaciones posibles?",
         "opciones": {
-          "A": "9",
-          "B": "12",
-          "C": "24",
-          "D": "48"
+          "A": "24",
+          "B": "48",
+          "C": "12",
+          "D": "9"
         },
-        "respuesta_correcta": "C",
-        "explicacion_correcta": "Por el principio de la multiplicación, el total de combinaciones es 3×4×2=24, ya que cada ensayo combina una concentración, un tiempo y una temperatura.",
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "Por el [[RC-R-principio-multiplicacion|principio de la multiplicación]], el total de combinaciones es 3×4×2=24, ya que cada ensayo combina una concentración, un tiempo y una temperatura.",
         "distractores": {
-          "A": {
-            "explicacion": "Suma las opciones de cada variable (3+4+2=9) en lugar de multiplicarlas.",
+          "B": {
+            "explicacion": "Cuenta la temperatura dos veces en la multiplicación por error de conteo.",
             "patron_trampa": "operacion_incorrecta"
           },
-          "B": {
+          "C": {
             "explicacion": "Multiplica solo concentración por tiempo (3×4=12), olvidando incluir la variable temperatura.",
             "patron_trampa": "procedimiento_con_paso_erroneo"
           },
           "D": {
-            "explicacion": "Cuenta la temperatura dos veces en la multiplicación por error de conteo.",
+            "explicacion": "Suma las opciones de cada variable (3+4+2=9) en lugar de multiplicarlas.",
             "patron_trampa": "operacion_incorrecta"
           }
         },
@@ -136,25 +136,25 @@
         "tipo_contexto": "laboral_ocupacional",
         "enunciado": "Según la definición dada, ¿cuál es el índice de cobertura de este producto (redondeado al entero más cercano)?",
         "opciones": {
-          "A": "6",
+          "A": "0,14",
           "B": "21.450",
-          "C": "0,14",
-          "D": "7"
+          "C": "7",
+          "D": "6"
         },
-        "respuesta_correcta": "D",
+        "respuesta_correcta": "C",
         "explicacion_correcta": "Aplicando exactamente la fórmula: 390÷55≈7,09, que redondeado al entero más cercano es 7.",
         "distractores": {
           "A": {
-            "explicacion": "Redondea hacia abajo en lugar de al entero más cercano (7,09 se redondea a 7, no a 6).",
-            "patron_trampa": "redondeo_erroneo"
+            "explicacion": "Invierte la razón, calculando 55÷390 en lugar de 390÷55.",
+            "patron_trampa": "lectura_invertida_datos"
           },
           "B": {
             "explicacion": "Multiplica en lugar de dividir (390×55=21.450), invirtiendo la operación que define el índice.",
             "patron_trampa": "operacion_incorrecta"
           },
-          "C": {
-            "explicacion": "Invierte la razón, calculando 55÷390 en lugar de 390÷55.",
-            "patron_trampa": "lectura_invertida_datos"
+          "D": {
+            "explicacion": "Redondea hacia abajo en lugar de al entero más cercano (7,09 se redondea a 7, no a 6).",
+            "patron_trampa": "redondeo_erroneo"
           }
         },
         "dificultad": "media",
@@ -180,25 +180,25 @@
         "tipo_contexto": "comunitario_social",
         "enunciado": "¿Cuál es la probabilidad de ganar el premio en un solo intento?",
         "opciones": {
-          "A": "1/8",
-          "B": "3/4",
-          "C": "1/2",
-          "D": "1/24"
+          "A": "3/4",
+          "B": "1/8",
+          "C": "1/24",
+          "D": "1/2"
         },
-        "respuesta_correcta": "A",
-        "explicacion_correcta": "P(par en el dado)=3/6=1/2. P(3 en la ruleta)=1/4. Como son eventos independientes, P(ambos)=1/2×1/4=1/8.",
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "P(par en el dado)=3/6=1/2. P(3 en la ruleta)=1/4. Como son [[RC-R-falacia-del-jugador|eventos independientes]], P(ambos)=1/2×1/4=1/8.",
         "distractores": {
-          "B": {
+          "A": {
             "explicacion": "Suma las probabilidades individuales (1/2+1/4=3/4) en lugar de multiplicarlas, que es la regla correcta para 'ambos eventos ocurren juntos'.",
             "patron_trampa": "operacion_incorrecta"
           },
           "C": {
-            "explicacion": "Reporta solo la probabilidad del dado, ignorando por completo la condición de la ruleta.",
-            "patron_trampa": "dato_no_disponible_o_supuesto"
-          },
-          "D": {
             "explicacion": "Cuenta solo 1 caso favorable del dado (en vez de los 3 números pares posibles) sobre el total de 24 combinaciones, subestimando los casos favorables.",
             "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "Reporta solo la probabilidad del dado, ignorando por completo la condición de la ruleta.",
+            "patron_trampa": "dato_no_disponible_o_supuesto"
           }
         },
         "dificultad": "alta",
@@ -252,22 +252,22 @@
         "enunciado": "¿Cuánto le corresponde a cada uno de los 2 hijos del Socio 3 fallecido?",
         "opciones": {
           "A": "$30.000.000",
-          "B": "$15.000.000",
-          "C": "$37.500.000",
-          "D": "$7.500.000"
+          "B": "$37.500.000",
+          "C": "$7.500.000",
+          "D": "$15.000.000"
         },
-        "respuesta_correcta": "B",
-        "explicacion_correcta": "La participación del Socio 3 es 150.000.000×0,20=$30.000.000. Esa parte se divide en partes iguales entre sus 2 hijos: 30.000.000÷2=$15.000.000 para cada uno.",
+        "respuesta_correcta": "D",
+        "explicacion_correcta": "La participación del Socio 3 es 150.000.000×0,20=$30.000.000. Esa parte se divide [[RC-R-reparto-proporcional|en partes iguales]] entre sus 2 hijos: 30.000.000÷2=$15.000.000 para cada uno.",
         "distractores": {
           "A": {
             "explicacion": "Reporta la parte completa del Socio 3 sin dividirla entre sus 2 hijos herederos.",
             "patron_trampa": "reparto_proporcional_mal_aplicado"
           },
-          "C": {
+          "B": {
             "explicacion": "Divide la utilidad total entre los 4 socios vivos y asigna esa cifra a cada hijo, en lugar de calcular primero la parte específica del Socio 3 fallecido.",
             "patron_trampa": "reparto_proporcional_mal_aplicado"
           },
-          "D": {
+          "C": {
             "explicacion": "Divide la parte del Socio 3 entre 4 (el número de socios vivos) en lugar de entre 2 (el número real de hijos herederos).",
             "patron_trampa": "confusion_variable"
           }
@@ -286,25 +286,25 @@
         "tipo_contexto": "laboral_ocupacional",
         "enunciado": "¿Cuánto recibe el Socio 1 (30% de participación) este año?",
         "opciones": {
-          "A": "$56.250.000",
+          "A": "$30.000.000",
           "B": "$37.500.000",
-          "C": "$45.000.000",
-          "D": "$30.000.000"
+          "C": "$56.250.000",
+          "D": "$45.000.000"
         },
-        "respuesta_correcta": "C",
+        "respuesta_correcta": "D",
         "explicacion_correcta": "La muerte del Socio 3 no altera el porcentaje de los demás socios: el Socio 1 sigue recibiendo su 30%: 150.000.000×0,30=$45.000.000.",
         "distractores": {
           "A": {
-            "explicacion": "Redistribuye erróneamente el porcentaje del Socio 3 fallecido entre los demás socios, aumentando la participación de todos, cuando el testamento/acuerdo no indica eso.",
-            "patron_trampa": "reparto_proporcional_mal_aplicado"
+            "explicacion": "Corresponde a la participación del Socio 3 (20%), no a la del Socio 1 (30%).",
+            "patron_trampa": "confusion_variable"
           },
           "B": {
             "explicacion": "Corresponde a la participación del Socio 2 (25%), no a la del Socio 1 (30%).",
             "patron_trampa": "confusion_variable"
           },
-          "D": {
-            "explicacion": "Corresponde a la participación del Socio 3 (20%), no a la del Socio 1 (30%).",
-            "patron_trampa": "confusion_variable"
+          "C": {
+            "explicacion": "Redistribuye erróneamente el porcentaje del Socio 3 fallecido entre los demás socios, aumentando la participación de todos, cuando el testamento/acuerdo no indica eso.",
+            "patron_trampa": "reparto_proporcional_mal_aplicado"
           }
         },
         "dificultad": "media",
@@ -331,10 +331,10 @@
         "opciones": {
           "A": "II solamente.",
           "B": "I y III solamente.",
-          "C": "III solamente.",
-          "D": "I solamente."
+          "C": "I solamente.",
+          "D": "III solamente."
         },
-        "respuesta_correcta": "D",
+        "respuesta_correcta": "C",
         "explicacion_correcta": "Para convertir dólares a pesos, se multiplica la cantidad en dólares por la tasa de cambio (pesos por dólar): 850×4.100=$3.485.000. El procedimiento I es el único correcto.",
         "distractores": {
           "A": {
@@ -345,7 +345,7 @@
             "explicacion": "El procedimiento III parece un 'doble chequeo', pero en realidad multiplica y luego divide entre la misma cantidad de dólares, lo que simplemente devuelve la tasa de cambio original (4.100) y no la cantidad total en pesos; no es válido para este cálculo.",
             "patron_trampa": "procedimiento_con_paso_erroneo"
           },
-          "C": {
+          "D": {
             "explicacion": "El procedimiento III no calcula la cantidad total en pesos, sino que revierte el cálculo a la tasa de cambio original; usarlo solo no resuelve lo que pide la pregunta.",
             "patron_trampa": "procedimiento_con_paso_erroneo"
           }
@@ -373,25 +373,25 @@
         "tipo_contexto": "comunitario_social",
         "enunciado": "¿Cuántos miembros del club practican AL MENOS uno de los dos deportes (fútbol o baloncesto)?",
         "opciones": {
-          "A": "135",
-          "B": "160",
-          "C": "185",
-          "D": "45"
+          "A": "185",
+          "B": "45",
+          "C": "135",
+          "D": "160"
         },
-        "respuesta_correcta": "A",
+        "respuesta_correcta": "C",
         "explicacion_correcta": "Por el principio de inclusión-exclusión: |Fútbol∪Baloncesto|=90+70−25=135.",
         "distractores": {
-          "B": {
-            "explicacion": "Suma 90+70=160 sin restar los 25 que practican ambos deportes, contándolos dos veces.",
-            "patron_trampa": "operacion_incorrecta"
-          },
-          "C": {
+          "A": {
             "explicacion": "Suma los tres números de la tabla (90+70+25=185) en lugar de restar la intersección.",
             "patron_trampa": "operacion_incorrecta"
           },
-          "D": {
+          "B": {
             "explicacion": "Realiza un cálculo parcial incompleto (por ejemplo, 70−25=45), sin completar el procedimiento de inclusión-exclusión.",
             "patron_trampa": "procedimiento_con_paso_erroneo"
+          },
+          "D": {
+            "explicacion": "Suma 90+70=160 sin restar los 25 que practican ambos deportes, contándolos dos veces.",
+            "patron_trampa": "operacion_incorrecta"
           }
         },
         "dificultad": "media",
@@ -486,11 +486,11 @@
         "enunciado": "¿Cuál es el costo por minuto del Plan Plus, y cómo se compara con el costo por minuto del Plan Básico?",
         "opciones": {
           "A": "Plan Plus cuesta $350 por minuto, igual que el Plan Básico.",
-          "B": "Plan Plus cuesta $110 por minuto.",
-          "C": "Plan Plus cuesta $275 por minuto, más barato que el Plan Básico ($350 por minuto).",
-          "D": "Plan Plus cuesta $275 por minuto, pero es más caro que el Plan Básico porque su precio total es mayor."
+          "B": "Plan Plus cuesta $275 por minuto, pero es más caro que el Plan Básico porque su precio total es mayor.",
+          "C": "Plan Plus cuesta $110 por minuto.",
+          "D": "Plan Plus cuesta $275 por minuto, más barato que el Plan Básico ($350 por minuto)."
         },
-        "respuesta_correcta": "C",
+        "respuesta_correcta": "D",
         "explicacion_correcta": "Plan Plus: 55.000÷200=$275/min. Plan Básico: 35.000÷100=$350/min. El Plan Plus tiene un costo por minuto menor.",
         "distractores": {
           "A": {
@@ -498,11 +498,11 @@
             "patron_trampa": "confusion_variable"
           },
           "B": {
-            "explicacion": "Divide 55.000 entre 500 (los minutos del Plan Ilimitado) en lugar de entre los 200 minutos del Plan Plus.",
+            "explicacion": "Confunde 'costo por minuto' (una razón por unidad) con 'costo total' (el precio total del plan); el Plan Plus sí es más barato por minuto aunque su precio total sea mayor que el del Plan Básico.",
             "patron_trampa": "confusion_variable"
           },
-          "D": {
-            "explicacion": "Confunde 'costo por minuto' (una razón por unidad) con 'costo total' (el precio total del plan); el Plan Plus sí es más barato por minuto aunque su precio total sea mayor que el del Plan Básico.",
+          "C": {
+            "explicacion": "Divide 55.000 entre 500 (los minutos del Plan Ilimitado) en lugar de entre los 200 minutos del Plan Plus.",
             "patron_trampa": "confusion_variable"
           }
         },
@@ -520,22 +520,22 @@
         "enunciado": "Un usuario necesita AL MENOS 8 GB de datos al mes. Considerando solo los planes que cumplen ese requisito, ¿cuál es la opción más económica?",
         "opciones": {
           "A": "Plan Ilimitado, por $150.000.",
-          "B": "Plan Plus, por $55.000.",
-          "C": "Plan Básico, por $35.000.",
-          "D": "Plan Premium, por $85.000."
+          "B": "Plan Premium, por $85.000.",
+          "C": "Plan Plus, por $55.000.",
+          "D": "Plan Básico, por $35.000."
         },
-        "respuesta_correcta": "D",
+        "respuesta_correcta": "B",
         "explicacion_correcta": "Solo Premium (10 GB) e Ilimitado (20 GB) cumplen el requisito de al menos 8 GB. Entre esas dos opciones, Premium ($85.000) es más económico que Ilimitado ($150.000).",
         "distractores": {
           "A": {
             "explicacion": "Elige el plan con más datos en lugar del más económico que cumple el requisito mínimo de 8 GB.",
             "patron_trampa": "generalizacion_indebida"
           },
-          "B": {
+          "C": {
             "explicacion": "El Plan Plus solo ofrece 5 GB, por lo que NO cumple el requisito de al menos 8 GB; ignora esta restricción del problema.",
             "patron_trampa": "dato_no_disponible_o_supuesto"
           },
-          "C": {
+          "D": {
             "explicacion": "El Plan Básico solo ofrece 2 GB, por lo que tampoco cumple el requisito de al menos 8 GB.",
             "patron_trampa": "dato_no_disponible_o_supuesto"
           }
@@ -594,15 +594,15 @@
         "tipo_contexto": "laboral_ocupacional",
         "enunciado": "¿Cuáles son el promedio y el rango de estas 6 mediciones?",
         "opciones": {
-          "A": "Promedio 6,85 y rango 0,3.",
-          "B": "Promedio 6,85 y rango 6,85.",
+          "A": "Promedio 6,85 y rango 6,85.",
+          "B": "Promedio 6,85 y rango 0,3.",
           "C": "Promedio 6,9 y rango 0,3.",
           "D": "Promedio 6,85 y rango 7,0."
         },
-        "respuesta_correcta": "A",
-        "explicacion_correcta": "Suma=6,8+6,9+6,7+7,0+6,8+6,9=41,1. Promedio=41,1÷6=6,85. Rango=7,0−6,7=0,3.",
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "Suma=6,8+6,9+6,7+7,0+6,8+6,9=41,1. Promedio=41,1÷6=6,85. [[RC-R-media-y-rango|Rango]]=7,0−6,7=0,3.",
         "distractores": {
-          "B": {
+          "A": {
             "explicacion": "Confunde el rango con el promedio, reportando el mismo valor para ambas medidas.",
             "patron_trampa": "confusion_variable"
           },
@@ -661,25 +661,25 @@
         "tipo_contexto": "laboral_ocupacional",
         "enunciado": "¿A cuáles vendedores se les debe otorgar el bono, considerando que el umbral es 'ventas que SUPEREN $8.000.000'?",
         "opciones": {
-          "A": "Vendedor 2, Vendedor 3 y Vendedor 4.",
-          "B": "Vendedor 2 y Vendedor 4 solamente.",
-          "C": "Todos los vendedores.",
-          "D": "Vendedor 4 solamente."
+          "A": "Todos los vendedores.",
+          "B": "Vendedor 4 solamente.",
+          "C": "Vendedor 2, Vendedor 3 y Vendedor 4.",
+          "D": "Vendedor 2 y Vendedor 4 solamente."
         },
-        "respuesta_correcta": "B",
+        "respuesta_correcta": "D",
         "explicacion_correcta": "Solo el Vendedor 2 ($8.200.000) y el Vendedor 4 ($9.100.000) tienen ventas que SUPERAN (son mayores que) $8.000.000. El Vendedor 3 tiene exactamente $8.000.000, que no es 'más' de $8.000.000, sino igual.",
         "distractores": {
           "A": {
-            "explicacion": "Incluye al Vendedor 3, cuyas ventas son exactamente $8.000.000; 'superar' significa ser estrictamente mayor, y un valor igual al umbral no lo cumple.",
-            "patron_trampa": "confusion_variable"
-          },
-          "C": {
             "explicacion": "Ignora por completo el umbral establecido, otorgando el bono sin verificar las ventas de cada vendedor.",
             "patron_trampa": "generalizacion_indebida"
           },
-          "D": {
+          "B": {
             "explicacion": "Omite al Vendedor 2, que también supera el umbral, posiblemente por un error de lectura de la tabla.",
             "patron_trampa": "lectura_invertida_datos"
+          },
+          "C": {
+            "explicacion": "Incluye al Vendedor 3, cuyas ventas son exactamente $8.000.000; 'superar' significa ser estrictamente mayor, y un valor igual al umbral no lo cumple.",
+            "patron_trampa": "confusion_variable"
           }
         },
         "dificultad": "alta",
@@ -706,10 +706,10 @@
         "opciones": {
           "A": "3E",
           "B": "8H",
-          "C": "5E",
-          "D": "5C"
+          "C": "5C",
+          "D": "5E"
         },
-        "respuesta_correcta": "C",
+        "respuesta_correcta": "D",
         "explicacion_correcta": "La fila avanza 3: 2+3=5. La columna avanza 2 letras: de C a E (C→D→E). La casilla final es '5E'.",
         "distractores": {
           "A": {
@@ -720,7 +720,7 @@
             "explicacion": "Confunde el resultado con las coordenadas máximas del tablero (fila 8, columna H) en lugar de sumar el movimiento a la posición inicial de la unidad.",
             "patron_trampa": "confusion_variable"
           },
-          "D": {
+          "C": {
             "explicacion": "Olvida aplicar el segundo movimiento (el avance de columnas), dejando la columna sin cambios.",
             "patron_trampa": "dato_no_disponible_o_supuesto"
           }
@@ -738,25 +738,25 @@
         "tipo_contexto": "familiar_personal",
         "enunciado": "Un jugador controla 5 territorios, tiene 8 unidades militares, y ha consumido 12 turnos. Según la fórmula definida, ¿cuál es su puntaje actual?",
         "opciones": {
-          "A": "31",
-          "B": "9",
-          "C": "22",
-          "D": "19"
+          "A": "19",
+          "B": "22",
+          "C": "9",
+          "D": "31"
         },
-        "respuesta_correcta": "D",
+        "respuesta_correcta": "A",
         "explicacion_correcta": "Aplicando la fórmula: (5×3)+(8×2)−12 = 15+16−12 = 19.",
         "distractores": {
-          "A": {
-            "explicacion": "Olvida restar los turnos consumidos, reportando solo 15+16=31.",
-            "patron_trampa": "procedimiento_con_paso_erroneo"
-          },
           "B": {
+            "explicacion": "Intercambia los coeficientes de territorios y unidades (usa ×2 para territorios y ×3 para unidades): 5×2+8×3−12=22.",
+            "patron_trampa": "confusion_variable"
+          },
+          "C": {
             "explicacion": "Olvida multiplicar los territorios por 3, tratándolos como si el coeficiente fuera 1: 5+16−12=9.",
             "patron_trampa": "procedimiento_con_paso_erroneo"
           },
-          "C": {
-            "explicacion": "Intercambia los coeficientes de territorios y unidades (usa ×2 para territorios y ×3 para unidades): 5×2+8×3−12=22.",
-            "patron_trampa": "confusion_variable"
+          "D": {
+            "explicacion": "Olvida restar los turnos consumidos, reportando solo 15+16=31.",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
           }
         },
         "dificultad": "media",
@@ -845,18 +845,18 @@
         "enunciado": "¿Cuál es la calificación promedio combinada de los clientes de ambas sucursales?",
         "opciones": {
           "A": "3,9",
-          "B": "3,72",
-          "C": "3,6",
+          "B": "3,6",
+          "C": "3,72",
           "D": "7,8"
         },
-        "respuesta_correcta": "B",
-        "explicacion_correcta": "Promedio ponderado: (30×4,2+120×3,6)÷(30+120)=(126+432)÷150=558÷150=3,72.",
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "[[RC-R-promedio-ponderado|Promedio ponderado]]: (30×4,2+120×3,6)÷(30+120)=(126+432)÷150=558÷150=3,72.",
         "distractores": {
           "A": {
             "explicacion": "Calcula el promedio simple de los dos promedios de sucursal ((4,2+3,6)÷2=3,9), sin ponderar por el número de clientes encuestados en cada una.",
             "patron_trampa": "generalizacion_indebida"
           },
-          "C": {
+          "B": {
             "explicacion": "Asume que el promedio combinado es igual al de la sucursal más grande, sin calcular realmente el promedio ponderado.",
             "patron_trampa": "redondeo_erroneo"
           },
@@ -878,19 +878,19 @@
         "tipo_contexto": "laboral_ocupacional",
         "enunciado": "¿Cuántos clientes en total fueron encuestados entre las dos sucursales, y qué porcentaje de ese total corresponde a la Sucursal Norte?",
         "opciones": {
-          "A": "150 clientes en total; 25% corresponde a la Sucursal Norte.",
-          "B": "90 clientes en total; 33% corresponde a la Sucursal Norte.",
-          "C": "150 clientes en total; 20% corresponde a la Sucursal Norte.",
+          "A": "150 clientes en total; 20% corresponde a la Sucursal Norte.",
+          "B": "150 clientes en total; 25% corresponde a la Sucursal Norte.",
+          "C": "90 clientes en total; 33% corresponde a la Sucursal Norte.",
           "D": "150 clientes en total; 80% corresponde a la Sucursal Norte."
         },
-        "respuesta_correcta": "C",
+        "respuesta_correcta": "A",
         "explicacion_correcta": "Total=30+120=150 clientes. Porcentaje de la Sucursal Norte: 30÷150=20%.",
         "distractores": {
-          "A": {
+          "B": {
             "explicacion": "Calcula mal la proporción 30÷150, obteniendo 25% en lugar de 20%.",
             "patron_trampa": "redondeo_erroneo"
           },
-          "B": {
+          "C": {
             "explicacion": "Resta en lugar de sumar los clientes de ambas sucursales (120−30=90).",
             "patron_trampa": "operacion_incorrecta"
           },
@@ -922,22 +922,22 @@
         "enunciado": "¿Cuántas velas debe vender el emprendedor en el mes para cubrir exactamente sus costos totales (punto de equilibrio)?",
         "opciones": {
           "A": "150",
-          "B": "60",
-          "C": "200",
-          "D": "100"
+          "B": "100",
+          "C": "60",
+          "D": "200"
         },
-        "respuesta_correcta": "D",
+        "respuesta_correcta": "B",
         "explicacion_correcta": "La ganancia por vela es 20.000−8.000=$12.000. Punto de equilibrio: 1.200.000÷12.000=100 velas.",
         "distractores": {
           "A": {
             "explicacion": "Divide los costos fijos entre el costo de material por vela ($8.000) en lugar de entre la ganancia neta por unidad ($12.000).",
             "patron_trampa": "procedimiento_con_paso_erroneo"
           },
-          "B": {
+          "C": {
             "explicacion": "Divide los costos fijos entre el precio de venta ($20.000), ignorando que también debe cubrir el costo de material de cada vela.",
             "patron_trampa": "procedimiento_con_paso_erroneo"
           },
-          "C": {
+          "D": {
             "explicacion": "Usa una ganancia por unidad de $6.000 en lugar de $12.000, un error al restar el costo de material del precio de venta.",
             "patron_trampa": "operacion_incorrecta"
           }
@@ -964,25 +964,25 @@
         "tipo_contexto": "laboral_ocupacional",
         "enunciado": "¿Qué proporción (en porcentaje) de las plántulas tratadas sobrevivió y mostró un crecimiento saludable?",
         "opciones": {
-          "A": "85%",
-          "B": "15%",
-          "C": "117,6%",
-          "D": "204%"
+          "A": "117,6%",
+          "B": "204%",
+          "C": "15%",
+          "D": "85%"
         },
-        "respuesta_correcta": "A",
+        "respuesta_correcta": "D",
         "explicacion_correcta": "204 de 240 plántulas sobrevivieron: 204÷240=0,85=85%.",
         "distractores": {
-          "B": {
-            "explicacion": "Calcula el porcentaje de plántulas que NO sobrevivieron (36 de 240=15%), respondiendo la pregunta complementaria en lugar de la que se pidió.",
-            "patron_trampa": "confusion_variable"
-          },
-          "C": {
+          "A": {
             "explicacion": "Invierte la división, calculando 240÷204×100 en lugar de 204÷240×100.",
             "patron_trampa": "lectura_invertida_datos"
           },
-          "D": {
+          "B": {
             "explicacion": "Reporta 204 directamente como si ya fuera un porcentaje, sin dividir entre el total de 240 plántulas.",
             "patron_trampa": "operacion_incorrecta"
+          },
+          "C": {
+            "explicacion": "Calcula el porcentaje de plántulas que NO sobrevivieron (36 de 240=15%), respondiendo la pregunta complementaria en lugar de la que se pidió.",
+            "patron_trampa": "confusion_variable"
           }
         },
         "dificultad": "baja",
@@ -1035,24 +1035,24 @@
         "enunciado": "¿Cuál es el promedio de producción semanal durante estas 5 semanas?",
         "opciones": {
           "A": "110",
-          "B": "95",
+          "B": "100",
           "C": "79,2",
-          "D": "100"
+          "D": "95"
         },
-        "respuesta_correcta": "B",
+        "respuesta_correcta": "D",
         "explicacion_correcta": "Suma=80+88+95+102+110=475. Promedio=475÷5=95.",
         "distractores": {
           "A": {
             "explicacion": "Reporta el valor de la última semana (el máximo) en lugar de calcular el promedio de las 5 semanas.",
             "patron_trampa": "confusion_variable"
           },
+          "B": {
+            "explicacion": "Redondea o aproxima el promedio hacia un valor central de la serie sin calcularlo realmente.",
+            "patron_trampa": "redondeo_erroneo"
+          },
           "C": {
             "explicacion": "Divide la suma entre 6 en lugar de entre 5, un error al contar el número de semanas.",
             "patron_trampa": "operacion_incorrecta"
-          },
-          "D": {
-            "explicacion": "Redondea o aproxima el promedio hacia un valor central de la serie sin calcularlo realmente.",
-            "patron_trampa": "redondeo_erroneo"
           }
         },
         "dificultad": "baja",
@@ -1065,25 +1065,25 @@
         "tipo_contexto": "laboral_ocupacional",
         "enunciado": "Si la fábrica quisiera estimar la producción esperada para la Semana 6, manteniendo el patrón de crecimiento observado (aumento de aproximadamente 7 a 8 sillas por semana), ¿cuál sería una estimación razonable?",
         "opciones": {
-          "A": "Exactamente 118 sillas, calculado con precisión a partir de la tendencia.",
-          "B": "No se puede estimar nada, porque no hay ningún dato de la Semana 6.",
-          "C": "Aproximadamente entre 115 y 120 sillas, reconociendo que es una estimación con cierto margen de incertidumbre, no un valor exacto.",
-          "D": "Exactamente 95 sillas, el promedio de las 5 semanas anteriores."
+          "A": "No se puede estimar nada para la Semana 6, porque no hay ningún dato registrado de esa semana.",
+          "B": "Aproximadamente entre 115 y 120 sillas, como estimación con margen, no un valor exacto.",
+          "C": "Exactamente 95 sillas, que es el promedio de las 5 semanas anteriores registradas.",
+          "D": "Exactamente 118 sillas, calculado con precisión total a partir de la tendencia de las semanas."
         },
-        "respuesta_correcta": "C",
-        "explicacion_correcta": "La tendencia observada (+7 a +8 sillas por semana) permite proyectar un RANGO razonable para la Semana 6, pero no un valor exacto garantizado, ya que una tendencia de corto plazo no asegura una cifra precisa.",
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "La tendencia observada (+7 a +8 sillas por semana) permite proyectar un [[RC-R-media-y-rango|RANGO]] razonable para la Semana 6, pero no un valor exacto garantizado, ya que una tendencia de corto plazo no asegura una cifra precisa.",
         "distractores": {
           "A": {
-            "explicacion": "Trata la tendencia observada como si garantizara un valor futuro exacto, una extrapolación indebida a partir de una tendencia de corto plazo.",
-            "patron_trampa": "extrapolacion_estadistica_indebida"
-          },
-          "B": {
             "explicacion": "Ignora que sí se puede hacer una estimación razonable (aunque no exacta) a partir del patrón observado en las 5 semanas anteriores.",
             "patron_trampa": "generalizacion_indebida"
           },
-          "D": {
+          "C": {
             "explicacion": "Ignora por completo la tendencia CRECIENTE observada, usando el promedio general en lugar de proyectar la continuación del patrón.",
             "patron_trampa": "generalizacion_indebida"
+          },
+          "D": {
+            "explicacion": "Trata la tendencia observada como si garantizara un valor futuro exacto, una extrapolación indebida a partir de una tendencia de corto plazo.",
+            "patron_trampa": "extrapolacion_estadistica_indebida"
           }
         },
         "dificultad": "alta",
@@ -1109,23 +1109,23 @@
         "tipo_contexto": "familiar_personal",
         "enunciado": "¿Cuál es el valor de cada cuota mensual?",
         "opciones": {
-          "A": "$500.000",
-          "B": "$507.500",
-          "C": "$600.000",
-          "D": "$590.000"
+          "A": "$590.000",
+          "B": "$500.000",
+          "C": "$507.500",
+          "D": "$600.000"
         },
-        "respuesta_correcta": "D",
+        "respuesta_correcta": "A",
         "explicacion_correcta": "Interés total: 6.000.000×0,015×12=$1.080.000. Total a pagar: 6.000.000+1.080.000=$7.080.000. Cuota: 7.080.000÷12=$590.000.",
         "distractores": {
-          "A": {
+          "B": {
             "explicacion": "Olvida sumar el interés, dividiendo solo el capital original entre las 12 cuotas.",
             "patron_trampa": "dato_no_disponible_o_supuesto"
           },
-          "B": {
+          "C": {
             "explicacion": "Aplica la tasa mensual una sola vez sobre todo el préstamo, en lugar de multiplicarla por los 12 meses del plazo.",
             "patron_trampa": "procedimiento_con_paso_erroneo"
           },
-          "C": {
+          "D": {
             "explicacion": "Redondea el capital original hacia arriba antes de calcular el interés, introduciendo un error de redondeo prematuro.",
             "patron_trampa": "redondeo_erroneo"
           }
@@ -1143,25 +1143,25 @@
         "tipo_contexto": "familiar_personal",
         "enunciado": "¿Cuánto dinero en TOTAL habrá pagado la persona al final de las 12 cuotas, y cuánto de eso corresponde a intereses?",
         "opciones": {
-          "A": "$7.080.000 en total, de los cuales $1.080.000 son intereses.",
+          "A": "$7.800.000 en total, de los cuales $1.800.000 son intereses.",
           "B": "$6.000.000 en total, sin intereses adicionales.",
-          "C": "$7.080.000 en total, de los cuales $6.000.000 son intereses.",
-          "D": "$7.800.000 en total, de los cuales $1.800.000 son intereses."
+          "C": "$7.080.000 en total, de los cuales $1.080.000 son intereses.",
+          "D": "$7.080.000 en total, de los cuales $6.000.000 son intereses."
         },
-        "respuesta_correcta": "A",
+        "respuesta_correcta": "C",
         "explicacion_correcta": "El total pagado es capital+interés = 6.000.000+1.080.000=$7.080.000, de los cuales $1.080.000 corresponden a intereses.",
         "distractores": {
+          "A": {
+            "explicacion": "Comete un error de cálculo al multiplicar la tasa o el tiempo, obteniendo cifras que no corresponden a los datos del préstamo.",
+            "patron_trampa": "operacion_incorrecta"
+          },
           "B": {
             "explicacion": "Ignora por completo el interés pactado en el préstamo.",
             "patron_trampa": "dato_no_disponible_o_supuesto"
           },
-          "C": {
+          "D": {
             "explicacion": "Confunde cuál parte del total corresponde al capital y cuál a los intereses.",
             "patron_trampa": "confusion_variable"
-          },
-          "D": {
-            "explicacion": "Comete un error de cálculo al multiplicar la tasa o el tiempo, obteniendo cifras que no corresponden a los datos del préstamo.",
-            "patron_trampa": "operacion_incorrecta"
           }
         },
         "dificultad": "media",
@@ -1226,24 +1226,24 @@
         "enunciado": "¿Cuál es el tiempo promedio de entrega de estos 8 pedidos?",
         "opciones": {
           "A": "33",
-          "B": "32,25",
+          "B": "45",
           "C": "36,875",
-          "D": "45"
+          "D": "32,25"
         },
-        "respuesta_correcta": "B",
+        "respuesta_correcta": "D",
         "explicacion_correcta": "Suma=22+35+28+45+30+25+40+33=258. Promedio=258÷8=32,25 minutos.",
         "distractores": {
           "A": {
             "explicacion": "Redondea el promedio real (32,25) sin calcularlo con precisión.",
             "patron_trampa": "redondeo_erroneo"
           },
+          "B": {
+            "explicacion": "Reporta el valor máximo (45 minutos) en lugar de calcular el promedio de los 8 pedidos.",
+            "patron_trampa": "confusion_variable"
+          },
           "C": {
             "explicacion": "Divide la suma entre 7 en lugar de entre 8, omitiendo un pedido del conteo.",
             "patron_trampa": "operacion_incorrecta"
-          },
-          "D": {
-            "explicacion": "Reporta el valor máximo (45 minutos) en lugar de calcular el promedio de los 8 pedidos.",
-            "patron_trampa": "confusion_variable"
           }
         },
         "dificultad": "baja",
@@ -1256,24 +1256,24 @@
         "tipo_contexto": "laboral_ocupacional",
         "enunciado": "¿Qué proporción de estos 8 pedidos cumplió la promesa de entrega en 35 minutos o menos?",
         "opciones": {
-          "A": "5 de 8 (62,5%).",
+          "A": "6 de 8 (75%).",
           "B": "7 de 8 (87,5%).",
-          "C": "6 de 8 (75%).",
-          "D": "2 de 8 (25%)."
+          "C": "2 de 8 (25%).",
+          "D": "5 de 8 (62,5%)."
         },
-        "respuesta_correcta": "C",
+        "respuesta_correcta": "A",
         "explicacion_correcta": "Cumplen (≤35 min): 22, 35, 28, 30, 25, 33, es decir 6 de los 8 pedidos (75%). Solo 45 y 40 exceden los 35 minutos.",
         "distractores": {
-          "A": {
-            "explicacion": "Excluye por error el pedido de exactamente 35 minutos, tratando '35 minutos o menos' como si fuera estrictamente menor a 35.",
-            "patron_trampa": "confusion_variable"
-          },
           "B": {
             "explicacion": "Incluye por error uno de los pedidos que sí excede los 35 minutos, posiblemente confundiendo el valor 40 con uno menor.",
             "patron_trampa": "lectura_invertida_datos"
           },
-          "D": {
+          "C": {
             "explicacion": "Cuenta los pedidos que NO cumplieron la promesa (2 de 8) en lugar de los que SÍ la cumplieron.",
+            "patron_trampa": "confusion_variable"
+          },
+          "D": {
+            "explicacion": "Excluye por error el pedido de exactamente 35 minutos, tratando '35 minutos o menos' como si fuera estrictamente menor a 35.",
             "patron_trampa": "confusion_variable"
           }
         },
@@ -1299,24 +1299,24 @@
         "tipo_contexto": "laboral_ocupacional",
         "enunciado": "Si la muestra es representativa de toda la producción, ¿cuántas unidades defectuosas se esperaría encontrar en un mes completo?",
         "opciones": {
-          "A": "300",
-          "B": "15",
-          "C": "1.500",
+          "A": "15",
+          "B": "1.500",
+          "C": "300",
           "D": "600"
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Tasa de defectos en la muestra: 15÷500=0,03 (3%). Aplicada a la producción mensual: 20.000×0,03=600 unidades defectuosas esperadas.",
         "distractores": {
           "A": {
-            "explicacion": "Calcula mal la tasa de la muestra, usando 1,5% en lugar de 3%.",
-            "patron_trampa": "operacion_incorrecta"
-          },
-          "B": {
             "explicacion": "Asume que el número de defectos no cambia con la escala de producción, ignorando que la muestra representa solo una fracción del total mensual.",
             "patron_trampa": "generalizacion_indebida"
           },
-          "C": {
+          "B": {
             "explicacion": "Comete un error de escala de un orden de magnitud al aplicar la proporción a la producción mensual.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "C": {
+            "explicacion": "Calcula mal la tasa de la muestra, usando 1,5% en lugar de 3%.",
             "patron_trampa": "operacion_incorrecta"
           }
         },
@@ -1343,15 +1343,15 @@
         "tipo_contexto": "comunitario_social",
         "enunciado": "¿Cuál es la densidad poblacional aproximada de esta región, en habitantes por km²?",
         "opciones": {
-          "A": "80",
-          "B": "8",
+          "A": "8",
+          "B": "80",
           "C": "800",
           "D": "0,8"
         },
-        "respuesta_correcta": "A",
+        "respuesta_correcta": "B",
         "explicacion_correcta": "3,6×10⁶ ÷ 4,5×10⁴ = (3,6÷4,5)×10^(6−4) = 0,8×10² = 80 habitantes por km².",
         "distractores": {
-          "B": {
+          "A": {
             "explicacion": "Calcula correctamente el cociente de los coeficientes (0,8) pero no aplica correctamente la potencia de 10 resultante.",
             "patron_trampa": "procedimiento_con_paso_erroneo"
           },
@@ -1411,22 +1411,22 @@
         "enunciado": "¿Cuál es el promedio ponderado semestral de este estudiante?",
         "opciones": {
           "A": "4,17",
-          "B": "4,2",
-          "C": "37,8",
-          "D": "4,5"
+          "B": "37,8",
+          "C": "4,5",
+          "D": "4,2"
         },
-        "respuesta_correcta": "B",
+        "respuesta_correcta": "D",
         "explicacion_correcta": "(4×4,5+3×3,8+2×4,2)÷(4+3+2) = (18+11,4+8,4)÷9 = 37,8÷9 = 4,2.",
         "distractores": {
           "A": {
             "explicacion": "Calcula el promedio simple de las tres calificaciones sin ponderar por créditos: (4,5+3,8+4,2)÷3=4,17.",
             "patron_trampa": "generalizacion_indebida"
           },
-          "C": {
+          "B": {
             "explicacion": "Olvida dividir entre el total de créditos, reportando solo la suma ponderada (37,8).",
             "patron_trampa": "procedimiento_con_paso_erroneo"
           },
-          "D": {
+          "C": {
             "explicacion": "Reporta la calificación más alta (Química, 4,5) en lugar de calcular el promedio ponderado real.",
             "patron_trampa": "confusion_variable"
           }
@@ -1454,20 +1454,20 @@
         "tipo_contexto": "laboral_ocupacional",
         "enunciado": "¿Cuál es el área total del terreno donde se construirá la bodega?",
         "opciones": {
-          "A": "65 m²",
+          "A": "1.000 m²",
           "B": "100 m²",
-          "C": "1.000 m²",
+          "C": "65 m²",
           "D": "500 m²"
         },
-        "respuesta_correcta": "C",
+        "respuesta_correcta": "A",
         "explicacion_correcta": "Área = largo × ancho = 40m × 25m = 1.000 m².",
         "distractores": {
-          "A": {
-            "explicacion": "Suma las dimensiones (40+25=65) en lugar de multiplicarlas.",
-            "patron_trampa": "operacion_incorrecta"
-          },
           "B": {
             "explicacion": "Comete un error de escala al calcular el producto de las dimensiones.",
+            "patron_trampa": "operacion_incorrecta"
+          },
+          "C": {
+            "explicacion": "Suma las dimensiones (40+25=65) en lugar de multiplicarlas.",
             "patron_trampa": "operacion_incorrecta"
           },
           "D": {
@@ -1488,11 +1488,11 @@
         "enunciado": "¿Cuál es la capacidad aproximada (en litros) del tanque cilíndrico de almacenamiento? (recuerda que 1 m³ equivale a 1.000 litros)",
         "opciones": {
           "A": "Aproximadamente 12.000 litros.",
-          "B": "Aproximadamente 3.770 litros.",
-          "C": "Aproximadamente 150.800 litros.",
-          "D": "Aproximadamente 37.700 litros."
+          "B": "Aproximadamente 150.800 litros.",
+          "C": "Aproximadamente 37.700 litros.",
+          "D": "Aproximadamente 3.770 litros."
         },
-        "respuesta_correcta": "D",
+        "respuesta_correcta": "C",
         "explicacion_correcta": "Volumen = πr²h = π×2²×3 = π×12 ≈ 37,7 m³. Convertido a litros: 37,7×1.000 ≈ 37.700 litros.",
         "distractores": {
           "A": {
@@ -1500,12 +1500,12 @@
             "patron_trampa": "procedimiento_con_paso_erroneo"
           },
           "B": {
-            "explicacion": "No convierte correctamente de m³ a litros, usando un factor de conversión 10 veces menor al real.",
-            "patron_trampa": "unidades_no_convertidas"
-          },
-          "C": {
             "explicacion": "Usa 4 (el doble del radio) en lugar de 2 al elevarlo al cuadrado en la fórmula πr²h, multiplicando el resultado real por 4.",
             "patron_trampa": "denominador_o_escala_incorrecta"
+          },
+          "D": {
+            "explicacion": "No convierte correctamente de m³ a litros, usando un factor de conversión 10 veces menor al real.",
+            "patron_trampa": "unidades_no_convertidas"
           }
         },
         "dificultad": "alta",

@@ -10,7 +10,7 @@
     "opciones": [
       { "texto": "Progresión aritmética: término n directo", "correcta": true },
       { "texto": "Progresión geométrica: razón constante", "correcta": false },
-      { "texto": "Regla de tres simple", "correcta": false },
+      { "texto": "Regla de tres simple entre fila y butacas", "correcta": false },
       { "texto": "Sumar 4 butacas fila por fila hasta la 15", "correcta": false }
     ],
     "labelHerramienta": "La fórmula que aplica",
@@ -33,7 +33,7 @@
     "enunciado": "Un tanque de riego se vacía de manera constante: pasa de 480 litros a 330 litros en 25 minutos. ¿Cuál es la razón de cambio del volumen, en litros por minuto?",
     "promptFase1": "Sin calcular todavía — ¿qué herramienta aplica aquí?",
     "opciones": [
-      { "texto": "Razón de cambio: dividir el cambio en la cantidad entre el cambio en el tiempo", "correcta": true },
+      { "texto": "Razón de cambio entre las dos lecturas", "correcta": true },
       { "texto": "Regla de tres simple entre 480 y 330", "correcta": false },
       { "texto": "Promedio ponderado entre las dos lecturas", "correcta": false },
       { "texto": "Porcentaje de cambio relativo", "correcta": false }
@@ -83,7 +83,7 @@
     "enunciado": "Un laboratorio necesita convertir 4.200.000 mililitros de solución a metros cúbicos, sabiendo que 1.000 mL = 1 L y 1.000 L = 1 m³. ¿Cuántos m³ son?",
     "promptFase1": "Sin calcular todavía — ¿qué herramienta aplica aquí?",
     "opciones": [
-      { "texto": "Conversión en cadena: mL→L→m³, dividiendo dos veces entre 1.000", "correcta": true },
+      { "texto": "Conversión en cadena de unidades mL→L→m³", "correcta": true },
       { "texto": "Multiplicar 4.200.000 por 1.000 dos veces", "correcta": false },
       { "texto": "Regla de tres simple en un solo paso", "correcta": false },
       { "texto": "Notación científica sin convertir de unidad", "correcta": false }
@@ -108,7 +108,7 @@
     "enunciado": "En una ciudad costera, los meses con más ventas de protector solar son también los meses con más accidentes de tránsito por exceso de velocidad en la vía a la playa. Un titular concluye: 'usar protector solar aumenta el riesgo de manejar imprudentemente'. ¿Qué se necesita para evaluar esa conclusión?",
     "promptFase1": "Sin resolver todavía — ¿qué te están pidiendo reconocer?",
     "opciones": [
-      { "texto": "Que correlación no implica causalidad: falta descartar un factor común", "correcta": true },
+      { "texto": "Correlación no implica causalidad: falta un factor común", "correcta": true },
       { "texto": "Calcular el coeficiente de correlación exacto entre ambas variables", "correcta": false },
       { "texto": "Verificar si la muestra de meses es suficientemente grande", "correcta": false },
       { "texto": "Comparar los promedios de accidentes entre meses de verano e invierno", "correcta": false }
@@ -133,7 +133,7 @@
     "enunciado": "Un colegio tiene dos sedes: la sede A tiene 20 estudiantes con promedio 4,0, y la sede B tiene 180 estudiantes con promedio 3,0. ¿Cuál es el promedio real de las 200 estudiantes combinadas?",
     "promptFase1": "Sin calcular todavía — ¿qué herramienta aplica aquí?",
     "opciones": [
-      { "texto": "Promedio ponderado: pesar cada sede por su número de estudiantes", "correcta": true },
+      { "texto": "Promedio ponderado por número de estudiantes", "correcta": true },
       { "texto": "Promediar 4,0 y 3,0 directamente", "correcta": false },
       { "texto": "Calcular la mediana del conjunto combinado", "correcta": false },
       { "texto": "Sumar los dos promedios y dividir entre 200", "correcta": false }
@@ -158,7 +158,7 @@
     "enunciado": "Dos gráficas de barras muestran los mismos datos de ventas trimestrales: $102, $105, $108 y $112 millones. En la primera, las barras se ven casi iguales; en la segunda, la última barra se ve el doble de alta que la primera. ¿Cómo es posible con los mismos datos?",
     "promptFase1": "Sin resolver todavía — ¿qué te están pidiendo reconocer?",
     "opciones": [
-      { "texto": "Las dos gráficas usan escalas distintas en el eje vertical", "correcta": true },
+      { "texto": "Las dos gráficas usan escalas verticales distintas", "correcta": true },
       { "texto": "Los datos de la segunda gráfica están mal calculados", "correcta": false },
       { "texto": "La segunda gráfica usa una unidad de medida distinta", "correcta": false },
       { "texto": "El promedio de las dos gráficas es diferente", "correcta": false }
@@ -183,7 +183,7 @@
     "enunciado": "Un titular dice: 'Consumir cierto aditivo triplica el riesgo de una reacción alérgica rara'. Se investiga y el riesgo base de esa reacción es de 2 en 300.000 personas por año. ¿Qué significa 'triplicar el riesgo' en términos absolutos?",
     "promptFase1": "Sin resolver todavía — ¿qué te están pidiendo reconocer?",
     "opciones": [
-      { "texto": "Riesgo relativo vs. absoluto: triplicar una base minúscula sigue siendo minúsculo", "correcta": true },
+      { "texto": "Riesgo relativo frente a absoluto: la base es minúscula", "correcta": true },
       { "texto": "Calcular el riesgo exacto multiplicando por 3 el número de personas", "correcta": false },
       { "texto": "Verificar si 300.000 es una muestra representativa", "correcta": false },
       { "texto": "Comparar el riesgo con el de otra enfermedad más común", "correcta": false }
@@ -233,7 +233,7 @@
     "enunciado": "Un vendedor registra sus ventas diarias durante 5 días: $180.000, $220.000, $195.000, $240.000 y $165.000. ¿Cuál es el promedio diario?",
     "promptFase1": "Sin calcular todavía — ¿qué herramienta aplica aquí?",
     "opciones": [
-      { "texto": "Promedio: sumar todos los valores y dividir entre el número de días", "correcta": true },
+      { "texto": "Promedio: suma dividida entre el número de días", "correcta": true },
       { "texto": "Rango: restar el valor máximo menos el mínimo", "correcta": false },
       { "texto": "Promedio ponderado por el tamaño de cada venta", "correcta": false },
       { "texto": "Mediana de las cinco ventas", "correcta": false }
@@ -258,7 +258,7 @@
     "enunciado": "Una heladería ofrece 6 sabores de helado y 4 tipos de toppings. Si un cliente elige exactamente un sabor y un topping, ¿cuántas combinaciones distintas puede pedir?",
     "promptFase1": "Sin calcular todavía — ¿qué herramienta aplica aquí?",
     "opciones": [
-      { "texto": "Principio de la multiplicación: combinar una opción de cada grupo", "correcta": true },
+      { "texto": "Principio de la multiplicación: una de cada grupo", "correcta": true },
       { "texto": "Principio de la suma: elegir de un grupo o del otro", "correcta": false },
       { "texto": "Probabilidad de elegir un sabor específico", "correcta": false },
       { "texto": "Promedio entre el número de sabores y toppings", "correcta": false }
@@ -283,7 +283,7 @@
     "enunciado": "Una tabla de ventas mensuales muestra: Enero $980.000, Febrero $1.050.000, Marzo $1.120.000, Abril $990.000, Mayo $1.200.000, Junio $1.080.000. Alguien afirma: 'todos los meses tuvieron ventas superiores a $1.000.000'. ¿Cómo se verifica esta afirmación lo más rápido posible?",
     "promptFase1": "Sin revisar mes por mes en orden — ¿qué estrategia es más eficiente?",
     "opciones": [
-      { "texto": "Buscar un solo mes que la contradiga — basta un contraejemplo para descartarla", "correcta": true },
+      { "texto": "Buscar un mes que la contradiga: un contraejemplo basta", "correcta": true },
       { "texto": "Calcular el promedio de los 6 meses y compararlo con $1.000.000", "correcta": false },
       { "texto": "Sumar todas las ventas y dividir entre $1.000.000", "correcta": false },
       { "texto": "Ordenar los meses de mayor a menor venta antes de revisar", "correcta": false }
@@ -358,7 +358,7 @@
     "enunciado": "Un edificio de dos pisos tiene una planta baja rectangular y un segundo piso más pequeño, de forma distinta. Alguien mide solo el largo, ancho y altura de la planta baja y afirma que con eso ya puede calcular el volumen total del edificio. ¿Es correcto?",
     "promptFase1": "Sin resolver todavía — ¿qué decide este ejercicio?",
     "opciones": [
-      { "texto": "Suficiencia de datos: medir solo una parte no describe el conjunto completo", "correcta": true },
+      { "texto": "Suficiencia de datos: una parte no describe el todo", "correcta": true },
       { "texto": "Aplicar directamente la fórmula de volumen de la caja rectangular", "correcta": false },
       { "texto": "Suponer que el segundo piso tiene las mismas medidas que la planta baja", "correcta": false },
       { "texto": "Calcular solo el área de la planta baja, no el volumen", "correcta": false }
@@ -383,7 +383,7 @@
     "enunciado": "¿Es posible construir un triángulo con lados de longitud 5 cm, 7 cm y 13 cm?",
     "promptFase1": "Antes de calcular — ¿qué decide este ejercicio?",
     "opciones": [
-      { "texto": "Desigualdad triangular: sumar los dos lados más cortos y comparar con el más largo", "correcta": true },
+      { "texto": "Desigualdad triangular entre los tres lados", "correcta": true },
       { "texto": "Teorema de Pitágoras sobre los tres lados", "correcta": false },
       { "texto": "Área del triángulo con la fórmula de Herón", "correcta": false },
       { "texto": "Suponer que sí, porque las tres son medidas positivas", "correcta": false }
@@ -408,9 +408,9 @@
     "enunciado": "Un bate y una pelota cuestan juntos $11.000. El bate cuesta $10.000 más que la pelota. ¿Cuánto cuesta la pelota?",
     "promptFase1": "Antes de responder por instinto — ¿qué te están pidiendo reconocer?",
     "opciones": [
-      { "texto": "Plantear una ecuación: pelota + (pelota + 10.000) = 11.000", "correcta": true },
+      { "texto": "Plantear una ecuación con la diferencia de 10.000", "correcta": true },
       { "texto": "Restar directamente: 11.000 − 10.000 = 1.000", "correcta": false },
-      { "texto": "Dividir 11.000 entre 2", "correcta": false },
+      { "texto": "Dividir 11.000 en dos partes iguales", "correcta": false },
       { "texto": "Suponer que el bate cuesta 10.000 y la pelota el resto", "correcta": false }
     ],
     "labelHerramienta": "La trampa que hay que ver",
@@ -433,7 +433,7 @@
     "enunciado": "Una prueba para detectar una enfermedad rara (afecta a 1 de cada 1.000 personas) es 99% precisa: si tienes la enfermedad da positivo el 99% de las veces, y si no la tienes da negativo el 99% de las veces (1% de falsos positivos). Si una persona elegida al azar da positivo, ¿cuál es la probabilidad real de que tenga la enfermedad?",
     "promptFase1": "Sin calcular todavía — ¿qué te están pidiendo reconocer?",
     "opciones": [
-      { "texto": "Falacia de la tasa base: hay que comparar contra cuántos sanos también dan falso positivo", "correcta": true },
+      { "texto": "Falacia de la tasa base: contar también los falsos positivos", "correcta": true },
       { "texto": "Calcular directamente la precisión de la prueba (99%)", "correcta": false },
       { "texto": "Verificar si la muestra de 1.000 personas es representativa", "correcta": false },
       { "texto": "Multiplicar 99% por la cantidad de personas enfermas", "correcta": false }
@@ -458,7 +458,7 @@
     "enunciado": "¿Cuántas personas se necesitan reunir en una sala para que la probabilidad de que al menos dos compartan la misma fecha de cumpleaños (día y mes) supere el 50%?",
     "promptFase1": "Sin calcular todavía — ¿qué herramienta aplica aquí?",
     "opciones": [
-      { "texto": "Probabilidad complementaria: 1 menos la probabilidad de que TODOS tengan cumpleaños distintos", "correcta": true },
+      { "texto": "Complemento del caso 'todos con cumpleaños distintos'", "correcta": true },
       { "texto": "Regla de tres simple: 365 días ÷ 2 personas", "correcta": false },
       { "texto": "Sumar la probabilidad individual de cada persona", "correcta": false },
       { "texto": "Dividir 365 entre el número de personas", "correcta": false }
@@ -483,7 +483,7 @@
     "enunciado": "En un concurso hay 3 puertas: detrás de una hay un carro, detrás de las otras dos hay cabras. Eliges la puerta 1. El presentador, que sabe dónde está el carro, abre la puerta 3 y muestra una cabra, y te ofrece cambiar a la puerta 2. ¿Deberías cambiar?",
     "promptFase1": "Sin decidir todavía — ¿qué te están pidiendo reconocer?",
     "opciones": [
-      { "texto": "El presentador siempre revela una cabra a propósito: eso no reparte la probabilidad en partes iguales", "correcta": true },
+      { "texto": "El presentador revela una cabra a propósito, no al azar", "correcta": true },
       { "texto": "Como quedan 2 puertas, la probabilidad ahora es 50% para cada una", "correcta": false },
       { "texto": "Cambiar o quedarse da exactamente la misma probabilidad", "correcta": false },
       { "texto": "Elegir de nuevo al azar entre las 2 puertas restantes", "correcta": false }
@@ -508,7 +508,7 @@
     "enunciado": "Dos tratamientos para cálculos renales se comparan en 100 pacientes cada uno. Tratamiento A: en cálculos pequeños (80 pacientes) tiene 90% de éxito; en cálculos grandes (20 pacientes) tiene 60% de éxito. Tratamiento B: en cálculos pequeños (20 pacientes) tiene 95% de éxito; en cálculos grandes (80 pacientes) tiene 65% de éxito. B gana en ambos subgrupos (95%>90% y 65%>60%). ¿Es B el mejor tratamiento en general?",
     "promptFase1": "Sin sumar todavía — ¿qué te están pidiendo reconocer?",
     "opciones": [
-      { "texto": "Paradoja de Simpson: la mezcla de casos que trató cada uno puede invertir la conclusión al combinar", "correcta": true },
+      { "texto": "Paradoja de Simpson al combinar los subgrupos", "correcta": true },
       { "texto": "Calcular el promedio simple de 90%/60% y 95%/65%", "correcta": false },
       { "texto": "B es mejor, porque gana en ambos subgrupos", "correcta": false },
       { "texto": "Verificar si 100 pacientes es una muestra suficiente", "correcta": false }
@@ -536,7 +536,7 @@
       { "texto": "Regla del 72: dividir 72 entre la tasa de interés anual", "correcta": true },
       { "texto": "Dividir 100 entre la tasa de interés", "correcta": false },
       { "texto": "Multiplicar el capital por la tasa cada año hasta llegar al doble, a mano", "correcta": false },
-      { "texto": "Sumar la tasa 72 veces", "correcta": false }
+      { "texto": "Sumar la tasa de interés 72 veces seguidas", "correcta": false }
     ],
     "labelHerramienta": "El atajo que aplica",
     "formula": "\\text{años} \\approx \\dfrac{72}{\\text{tasa}\\%}",
@@ -558,7 +558,7 @@
     "enunciado": "Una moneda justa (50% cara, 50% sello) ha salido cara 6 veces seguidas. Alguien dice: 'ya casi seguro que toca sello, la racha tiene que cortarse'. ¿Cuál es la probabilidad real de que salga sello en el siguiente lanzamiento?",
     "promptFase1": "Sin resolver todavía — ¿qué te están pidiendo reconocer?",
     "opciones": [
-      { "texto": "Falacia del jugador: cada lanzamiento es independiente, la moneda no 'recuerda' los anteriores", "correcta": true },
+      { "texto": "Falacia del jugador: cada lanzamiento es independiente", "correcta": true },
       { "texto": "Calcular la probabilidad de 7 caras seguidas para ver qué tan rara es la racha", "correcta": false },
       { "texto": "La probabilidad de sello sube porque 'ya tocaba'", "correcta": false },
       { "texto": "Verificar si la moneda está cargada, dado lo inusual de la racha", "correcta": false }
@@ -583,7 +583,7 @@
     "enunciado": "Una pelota rebota de tal forma que cada rebote alcanza exactamente la mitad de la altura del anterior. Si el primer rebote alcanza 1 metro, y los rebotes continuaran infinitamente, ¿cuál es la suma total de las alturas de TODOS los rebotes?",
     "promptFase1": "Sin sumar todavía — ¿qué herramienta aplica aquí?",
     "opciones": [
-      { "texto": "Suma de una serie geométrica infinita: a₁ ÷ (1−r)", "correcta": true },
+      { "texto": "Suma de una serie geométrica infinita", "correcta": true },
       { "texto": "Suma de una progresión aritmética: n/2×(a₁+aₙ)", "correcta": false },
       { "texto": "No se puede saber, porque son infinitos términos", "correcta": false },
       { "texto": "Multiplicar 1 metro por infinito", "correcta": false }
@@ -608,7 +608,7 @@
     "enunciado": "Un gimnasio ofrece tres planes mensuales: 10 clases por $250.000, 15 clases por $330.000, y 20 clases por $400.000. Camilo quiere el plan con el menor costo por clase individual. ¿Cuál plan debería elegir?",
     "promptFase1": "Sin calcular todavía — ¿qué herramienta aplica aquí?",
     "opciones": [
-      { "texto": "Optimizar la razón: dividir el costo total entre el número de clases de cada plan", "correcta": true },
+      { "texto": "Optimizar la razón costo por clase", "correcta": true },
       { "texto": "Elegir el plan de menor costo total", "correcta": false },
       { "texto": "Elegir el plan de mayor número de clases sin calcular", "correcta": false },
       { "texto": "Promediar los tres costos totales", "correcta": false }
@@ -633,7 +633,7 @@
     "enunciado": "Un cultivo de bacterias se duplica exactamente cada hora. Si empieza con 50 bacterias, ¿cuántas habrá después de 8 horas?",
     "promptFase1": "Sin calcular todavía — ¿qué herramienta aplica aquí?",
     "opciones": [
-      { "texto": "Progresión geométrica: multiplicar por la razón (2) el número de veces que se duplica", "correcta": true },
+      { "texto": "Progresión geométrica: multiplicar por la razón cada hora", "correcta": true },
       { "texto": "Progresión aritmética: sumar el mismo número de bacterias cada hora", "correcta": false },
       { "texto": "Regla de tres simple entre horas y bacterias", "correcta": false },
       { "texto": "Sumar 50 bacterias por cada hora transcurrida", "correcta": false }
@@ -658,7 +658,7 @@
     "enunciado": "Una secuencia empieza así: 4, 12, 36, 108... ¿Es una progresión aritmética o geométrica, y cuál es su siguiente término?",
     "promptFase1": "Sin asumir nada — ¿cómo se verifica el patrón antes de continuar la secuencia?",
     "opciones": [
-      { "texto": "Probar restas consecutivas y luego divisiones consecutivas para ver cuál es constante", "correcta": true },
+      { "texto": "Probar si es constante la resta o la división entre términos", "correcta": true },
       { "texto": "Asumir que es aritmética porque los números van creciendo", "correcta": false },
       { "texto": "Calcular el promedio de los cuatro términos", "correcta": false },
       { "texto": "Buscar un patrón de suma alternada entre los términos", "correcta": false }
@@ -683,7 +683,7 @@
     "enunciado": "La empresa A ofrece un aumento fijo de $45.000 en tu salario cada año. La empresa B ofrece un aumento del 3% de tu salario actual cada año. Ambas parten de un salario de $1.500.000. ¿Cuál conviene más a largo plazo (por ejemplo, en 20 años), y por qué se puede saber esto sin calcular año por año?",
     "promptFase1": "Sin calcular año por año — ¿qué principio general aplica aquí?",
     "opciones": [
-      { "texto": "Crecimiento lineal vs. exponencial: el exponencial siempre termina superando al lineal a largo plazo", "correcta": true },
+      { "texto": "Crecimiento lineal frente a exponencial a largo plazo", "correcta": true },
       { "texto": "El que empieza con el aumento más grande siempre gana", "correcta": false },
       { "texto": "Hay que simular año por año, no hay atajo posible", "correcta": false },
       { "texto": "El aumento porcentual siempre es peor, porque parte de un número más chico", "correcta": false }
@@ -708,7 +708,7 @@
     "enunciado": "Usando triángulos rectángulos encadenados (cada uno con un cateto de longitud 1 y el otro cateto igual a la hipotenusa del triángulo anterior), ¿qué número de triángulo en la cadena tiene como hipotenusa exactamente √6, y por qué no es el triángulo número 6?",
     "promptFase1": "Sin construir la cadena completa — ¿qué relación aplica aquí?",
     "opciones": [
-      { "texto": "El triángulo n de la espiral de Teodoro da hipotenusa √(n+1): hay que restar 1, no usar 6 directo", "correcta": true },
+      { "texto": "El triángulo n da hipotenusa √(n+1): hay que restar 1", "correcta": true },
       { "texto": "El triángulo n da directamente hipotenusa √n, así que es el triángulo 6", "correcta": false },
       { "texto": "Hay que construir los 6 triángulos y medir la hipotenusa de cada uno", "correcta": false },
       { "texto": "La hipotenusa del triángulo n es n²+1", "correcta": false }
@@ -733,7 +733,7 @@
     "enunciado": "Un dron parte del punto (2, 3) y debe llegar al punto (14, 8) en línea recta (coordenadas en metros). ¿Qué distancia recorre?",
     "promptFase1": "Sin calcular todavía — ¿qué herramienta aplica aquí?",
     "opciones": [
-      { "texto": "Fórmula de distancia: raíz de la suma de los cuadrados de las diferencias en x e y", "correcta": true },
+      { "texto": "Fórmula de distancia entre dos puntos", "correcta": true },
       { "texto": "Sumar directamente las diferencias en x y en y", "correcta": false },
       { "texto": "Multiplicar las diferencias en x y en y", "correcta": false },
       { "texto": "Calcular el área del rectángulo formado por los dos puntos", "correcta": false }
@@ -758,7 +758,7 @@
     "enunciado": "Un ganadero tiene 240 metros de cerca para encerrar un potrero rectangular junto a un río recto — el lado que da al río no necesita cerca. ¿Qué dimensiones del rectángulo maximizan el área encerrada?",
     "promptFase1": "Sin probar dimensiones al azar — ¿qué herramienta aplica aquí?",
     "opciones": [
-      { "texto": "Plantear el área como función de una sola variable y maximizarla derivando e igualando a cero", "correcta": true },
+      { "texto": "Plantear el área como función de una variable y derivar", "correcta": true },
       { "texto": "Dividir los 240 m en tres partes iguales, como si fuera un cuadrado", "correcta": false },
       { "texto": "Regla de tres simple entre el perímetro y el área", "correcta": false },
       { "texto": "Elegir directamente el rectángulo con el lado más largo posible junto al río", "correcta": false }
@@ -783,7 +783,7 @@
     "enunciado": "La altura de un objeto lanzado verticalmente sigue h(t) = −5t² + 20t + 3 (metros, con t en segundos). ¿En qué instante alcanza su altura máxima, sin calcular la altura en muchos tiempos distintos?",
     "promptFase1": "Sin calcular todavía — ¿qué herramienta aplica aquí?",
     "opciones": [
-      { "texto": "Derivar h(t) e igualar a cero: la velocidad es cero justo en el punto más alto", "correcta": true },
+      { "texto": "Derivar h(t) e igualarla a cero en el punto más alto", "correcta": true },
       { "texto": "Calcular h(t) para varios valores de t y comparar cuál da el número más grande", "correcta": false },
       { "texto": "Dividir el coeficiente de t entre el coeficiente independiente", "correcta": false },
       { "texto": "Regla de tres simple entre el tiempo y la altura inicial", "correcta": false }
@@ -808,7 +808,7 @@
     "enunciado": "Dos grifos llenan un mismo tanque: el primero, abierto solo, tarda 6 horas en llenarlo; el segundo, abierto solo, tarda 3 horas. Si se abren los dos al mismo tiempo, ¿en cuánto tiempo llenan el tanque juntos?",
     "promptFase1": "Sin promediar los tiempos — ¿qué herramienta aplica aquí?",
     "opciones": [
-      { "texto": "Sumar las tasas de llenado (1/tiempo de cada grifo) y luego invertir el resultado", "correcta": true },
+      { "texto": "Sumar las tasas de llenado y luego invertir", "correcta": true },
       { "texto": "Promediar los dos tiempos: (6+3)/2 = 4,5 horas", "correcta": false },
       { "texto": "Restar los tiempos: 6−3 = 3 horas", "correcta": false },
       { "texto": "Sumar los tiempos directamente: 6+3 = 9 horas", "correcta": false }
@@ -833,7 +833,7 @@
     "enunciado": "Una fábrica produce 850 unidades en 5 días trabajando a ritmo constante. Si necesita entregar 2.040 unidades, ¿en cuántos días las producirá al mismo ritmo?",
     "promptFase1": "Sin calcular todavía — ¿qué herramienta aplica aquí?",
     "opciones": [
-      { "texto": "Regla de tres simple directa: más unidades requieren más días, en la misma proporción", "correcta": true },
+      { "texto": "Regla de tres simple directa entre unidades y días", "correcta": true },
       { "texto": "Regla de tres simple inversa: más unidades requieren menos días", "correcta": false },
       { "texto": "Restar 2.040−850 y dividir entre 5", "correcta": false },
       { "texto": "Promediar 850 y 2.040, y dividir entre 5", "correcta": false }
@@ -858,7 +858,7 @@
     "enunciado": "8 obreros construyen un muro en 15 días trabajando 6 horas diarias. Si se dispone de 6 obreros trabajando 10 horas diarias, al mismo ritmo por hora-trabajador, ¿en cuántos días terminarán el mismo muro?",
     "promptFase1": "Sin usar una sola regla de tres — ¿qué herramienta aplica aquí?",
     "opciones": [
-      { "texto": "Regla de tres compuesta: multiplicar los días originales por el inverso de cada razón (obreros y horas), porque ambas son inversamente proporcionales a los días", "correcta": true },
+      { "texto": "Regla de tres compuesta con ambas razones inversas", "correcta": true },
       { "texto": "Regla de tres simple solo entre obreros y días, ignorando el cambio en las horas diarias", "correcta": false },
       { "texto": "Regla de tres compuesta, pero tratando ambas razones como directas en vez de inversas", "correcta": false },
       { "texto": "Promediar los días originales con los que tomaría un solo obrero trabajando solo", "correcta": false }
@@ -883,7 +883,7 @@
     "enunciado": "Una pared rectangular mide 6 m de largo por 3,5 m de alto, y tiene una ventana rectangular de 1,2 m × 1,5 m que no se pinta. Si 1 litro de pintura cubre 6 m², ¿cuántos litros se necesitan como mínimo?",
     "promptFase1": "Sin calcular todavía — ¿qué herramienta aplica aquí?",
     "opciones": [
-      { "texto": "Restar el área de la ventana del área total de la pared, y dividir entre el rendimiento por litro", "correcta": true },
+      { "texto": "Restar la ventana del área de la pared y dividir por el rendimiento", "correcta": true },
       { "texto": "Dividir el área total de la pared entre el rendimiento por litro, sin restar la ventana", "correcta": false },
       { "texto": "Multiplicar el área de la pared por el rendimiento por litro", "correcta": false },
       { "texto": "Sumar el área de la pared y el área de la ventana antes de dividir", "correcta": false }

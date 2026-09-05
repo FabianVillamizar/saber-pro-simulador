@@ -19,6 +19,20 @@ import './TextoConReglas.css'
 // cambia nada.
 
 const PATRON_REGLAS = /(\[\[[^\]]+?\]\]|\$\$[^$]+?\$\$|\$[^$]+?\$|\*\*.+?\*\*)/g
+// Variante sin `$…$`/`$$…$$`: para módulos que quieren la capa de tokens
+// `[[id|texto]]` pero cuyo texto usa `$` como símbolo de moneda ("$102",
+// "$1.000.000") y no como delimitador de fórmula (Razonamiento
+// Cuantitativo). Se activa con el flag `sinFormulas` del ReglasProvider —
+// ver `reglasEnContexto` en indiceModulos.js, desacoplado de
+// `renderizaFormulas` justamente por este choque.
+const PATRON_REGLAS_SIN_FORMULAS = /(\[\[[^\]]+?\]\]|\*\*.+?\*\*)/g
+
+function renderizarFragmentoSinFormulas(fragmento, key) {
+  if (fragmento.startsWith('**') && fragmento.endsWith('**')) {
+    return <strong key={key}>{fragmento.slice(2, -2)}</strong>
+  }
+  return <span key={key}>{fragmento}</span>
+}
 
 export const ETIQUETA_TIPO = {
   teorema: 'Teorema',
@@ -119,7 +133,7 @@ function katexBloque(src) {
 // (carmesí --fr-accent en vez del teal general). Se propaga como
 // `data-acento` al disparador y al popover; el color lo pone
 // TextoConReglas.css.
-export function ReglasProvider({ reglas, acento, children }) {
+export function ReglasProvider({ reglas, acento, sinFormulas = false, children }) {
   const reglasPorId = useMemo(() => {
     const m = new Map()
     for (const r of reglas ?? []) m.set(r.id, r)
@@ -212,8 +226,8 @@ export function ReglasProvider({ reglas, acento, children }) {
   }, [cerrar])
 
   const valor = useMemo(
-    () => ({ reglasPorId, abierta, hoverEnter, hoverLeave, fijar, cerrar, acento }),
-    [reglasPorId, abierta, hoverEnter, hoverLeave, fijar, cerrar, acento],
+    () => ({ reglasPorId, abierta, hoverEnter, hoverLeave, fijar, cerrar, acento, sinFormulas }),
+    [reglasPorId, abierta, hoverEnter, hoverLeave, fijar, cerrar, acento, sinFormulas],
   )
 
   return <ContextoReglas.Provider value={valor}>{children}</ContextoReglas.Provider>
@@ -405,9 +419,11 @@ function parsearToken(fragmento) {
   return { id: interior.slice(0, barra).trim(), texto: interior.slice(barra + 1).trim() }
 }
 
-function renderizarParrafo(parrafo, prefijo, reglasPorId, uid) {
+function renderizarParrafo(parrafo, prefijo, reglasPorId, uid, sinFormulas) {
+  const patron = sinFormulas ? PATRON_REGLAS_SIN_FORMULAS : PATRON_REGLAS
+  const renderResto = sinFormulas ? renderizarFragmentoSinFormulas : renderizarFragmento
   return parrafo
-    .split(PATRON_REGLAS)
+    .split(patron)
     .filter((p) => p !== '')
     .map((frag, i) => {
       const clave = `${prefijo}-${i}`
@@ -415,9 +431,9 @@ function renderizarParrafo(parrafo, prefijo, reglasPorId, uid) {
         const { id, texto } = parsearToken(frag)
         const regla = reglasPorId && reglasPorId.get(id)
         if (regla) return <DisparadorRegla key={clave} regla={regla} texto={texto} clave={`${uid}-${clave}`} />
-        return <span key={clave}>{renderizarTextoInline(texto, clave)}</span>
+        return <span key={clave}>{sinFormulas ? texto : renderizarTextoInline(texto, clave)}</span>
       }
-      return renderizarFragmento(frag, clave)
+      return renderResto(frag, clave)
     })
 }
 
@@ -429,12 +445,13 @@ export function TextoConReglas({ texto }) {
   // Sin provider (o sin rulebook): degradar a exactamente TextoConFormulas
   // — se ignora `[[...]]` como token y se muestra el texto visible.
   const reglasPorId = ctx?.reglasPorId ?? null
+  const sinFormulas = ctx?.sinFormulas ?? false
 
   const parrafos = texto.split(/\n{2,}/)
-  if (parrafos.length === 1) return renderizarParrafo(texto, 'p0', reglasPorId, uid)
+  if (parrafos.length === 1) return renderizarParrafo(texto, 'p0', reglasPorId, uid, sinFormulas)
   return parrafos.map((parrafo, i) => (
     <p key={i} style={{ margin: i === 0 ? 0 : '0.7em 0 0' }}>
-      {renderizarParrafo(parrafo, `p${i}`, reglasPorId, uid)}
+      {renderizarParrafo(parrafo, `p${i}`, reglasPorId, uid, sinFormulas)}
     </p>
   ))
 }

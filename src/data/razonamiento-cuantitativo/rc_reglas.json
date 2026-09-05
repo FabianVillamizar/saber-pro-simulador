@@ -1,0 +1,436 @@
+[
+  {
+    "id": "RC-R-porcentaje-de",
+    "tipo": "regla",
+    "titulo": "Porcentaje de una cantidad",
+    "variante": "desarrollo",
+    "cuerpo": "El X por ciento de una cantidad C es C multiplicado por X y dividido entre 100. Un porcentaje es solo una fracción con denominador 100, así que 'el 20% de 350' es lo mismo que 350 por 20 sobre 100.",
+    "formula": "X\\%\\ \\text{de}\\ C = C \\times \\dfrac{X}{100}",
+    "ejemplo": "El 20% de 350 es 350 por 20 sobre 100, es decir 70."
+  },
+  {
+    "id": "RC-R-cambio-porcentual",
+    "tipo": "regla",
+    "titulo": "Variación porcentual",
+    "variante": "desarrollo",
+    "cuerpo": "La variación porcentual entre un valor viejo y uno nuevo es la diferencia dividida entre el valor viejo, multiplicada por 100. El denominador es siempre el valor de partida, no el de llegada ni el promedio de los dos.",
+    "formula": "\\%\\ \\text{cambio} = \\dfrac{\\text{nuevo} - \\text{viejo}}{\\text{viejo}} \\times 100",
+    "ejemplo": "De 80 a 100 el cambio es 20 sobre 80 por 100, o sea un aumento del 25%."
+  },
+  {
+    "id": "RC-R-factor-multiplicativo",
+    "tipo": "principio",
+    "titulo": "Todo cambio porcentual es una multiplicación",
+    "variante": "desarrollo",
+    "cuerpo": "Aumentar un r por ciento equivale a multiplicar por 1 más r sobre 100. Disminuir un r por ciento equivale a multiplicar por 1 menos r sobre 100. Pensar cada cambio como un factor evita casi todos los errores de porcentaje encadenado.",
+    "formula": "\\text{sube } r\\%: \\times\\left(1+\\tfrac{r}{100}\\right) \\qquad \\text{baja } r\\%: \\times\\left(1-\\tfrac{r}{100}\\right)",
+    "ejemplo": "Subir 10% es multiplicar por 1,10; bajar 5% es multiplicar por 0,95."
+  },
+  {
+    "id": "RC-R-notacion-cientifica",
+    "tipo": "definicion",
+    "titulo": "Notación científica",
+    "variante": "desarrollo",
+    "cuerpo": "Un número en notación científica se escribe como un coeficiente entre 1 y 10 multiplicado por una potencia de 10. El exponente cuenta cuántos lugares se corre la coma: positivo para números grandes, negativo para números pequeños.",
+    "formula": "a \\times 10^{n}, \\quad 1 \\le |a| < 10",
+    "ejemplo": "45.000 se escribe 4,5 por 10 elevado a 4; 0,00032 se escribe 3,2 por 10 elevado a menos 4."
+  },
+  {
+    "id": "RC-R-notacion-cientifica-ops",
+    "tipo": "regla",
+    "titulo": "Operar en notación científica",
+    "variante": "desarrollo",
+    "cuerpo": "Para multiplicar, se multiplican los coeficientes y se suman los exponentes. Para dividir, se dividen los coeficientes y se restan los exponentes. Es la propiedad de las potencias de la misma base, no una regla nueva.",
+    "formula": "(a\\times 10^{m})(b\\times 10^{n}) = (a\\,b)\\times 10^{m+n}",
+    "ejemplo": "3 por 10 elevado a 5, por 2 por 10 elevado a 3, da 6 por 10 elevado a 8."
+  },
+  {
+    "id": "RC-R-relacion-lineal",
+    "tipo": "definicion",
+    "titulo": "Relación lineal",
+    "variante": "desarrollo",
+    "cuerpo": "Una relación es lineal cuando y crece o decrece a un ritmo constante respecto de x. La pendiente m es ese ritmo, la razón de cambio; el intercepto b es el valor de y cuando x vale cero.",
+    "formula": "y = m\\,x + b",
+    "ejemplo": "Un taxi que cobra 3.000 de banderazo más 1.500 por kilómetro sigue y igual a 1.500x más 3.000."
+  },
+  {
+    "id": "RC-R-razon-de-cambio",
+    "tipo": "definicion",
+    "titulo": "Razón de cambio",
+    "variante": "desarrollo",
+    "cuerpo": "La razón de cambio entre dos magnitudes es cuánto varía una por cada unidad que varía la otra: la variación de la primera dividida entre la variación de la segunda. Cuando es constante, la relación es lineal.",
+    "formula": "\\text{razón} = \\dfrac{\\Delta y}{\\Delta x} = \\dfrac{y_2 - y_1}{x_2 - x_1}",
+    "ejemplo": "Si el tanque baja de 480 a 330 litros en 3 horas, la razón es menos 150 sobre 3, o sea 50 litros menos por hora."
+  },
+  {
+    "id": "RC-R-conversion-unidades",
+    "tipo": "regla",
+    "titulo": "Conversión de unidades",
+    "variante": "corta",
+    "cuerpo": "Convertir es multiplicar por factores que valen 1, como 1.000 metros sobre 1 kilómetro. Al pasar de una unidad grande a una más pequeña el número crece, así que se multiplica; al revés se divide.",
+    "ejemplo": "2,5 metros cúbicos a litros: se multiplica por 1.000, da 2.500 litros, no se divide."
+  },
+  {
+    "id": "RC-R-reparto-proporcional",
+    "tipo": "regla",
+    "titulo": "Reparto proporcional",
+    "variante": "desarrollo",
+    "cuerpo": "Para repartir un total en proporción a unos pesos, cada parte es el total multiplicado por su peso y dividido entre la suma de todos los pesos. Repartir en partes iguales es el caso particular en que todos los pesos valen lo mismo.",
+    "formula": "\\text{parte}_i = T \\times \\dfrac{w_i}{\\sum w}",
+    "ejemplo": "Repartir 180 cajas entre sucursales de 20, 30 y 40 empleados: 180 por 20 sobre 90, da 40 cajas a la primera."
+  },
+  {
+    "id": "RC-R-reparto-en-cascada",
+    "tipo": "regla",
+    "titulo": "Reparto por niveles o en cascada",
+    "variante": "corta",
+    "cuerpo": "Cuando un reparto ocurre en varios niveles, cada nivel conserva su propia proporción. La parte de un beneficiario que no está se subdivide solo entre sus propios sucesores, no se vuelve a repartir entre todos.",
+    "ejemplo": "Una herencia entre 4 hijos: si uno falleció y dejó 3 hijos, esos 3 nietos se reparten solo esa cuarta parte, no una porción igual a la de un hijo vivo."
+  },
+  {
+    "id": "RC-R-costo-por-unidad",
+    "tipo": "regla",
+    "titulo": "Comparar por razón unitaria",
+    "variante": "corta",
+    "cuerpo": "Para decidir cuál opción conviene se compara el costo por unidad, es decir el costo total dividido entre la cantidad. El costo total solo o la cantidad sola no permiten comparar presentaciones distintas.",
+    "ejemplo": "Una caja de 50 tornillos a 12.000 sale a 240 por tornillo; una de 200 a 44.000 sale a 220 por tornillo, así que la grande conviene por unidad."
+  },
+  {
+    "id": "RC-R-progresion-aritmetica",
+    "tipo": "definicion",
+    "titulo": "Progresión aritmética",
+    "variante": "desarrollo",
+    "cuerpo": "En una progresión aritmética cada término se obtiene sumando una diferencia fija d al anterior. El término n sale directo sin construir toda la lista, y la suma de los primeros n términos usa el promedio del primero y el último.",
+    "formula": "a_n = a_1 + (n-1)\\,d \\qquad S_n = \\dfrac{n\\,(a_1 + a_n)}{2}",
+    "ejemplo": "18 butacas en la fila 1 y 4 más por fila: la fila 15 tiene 18 más 14 por 4, o sea 74."
+  },
+  {
+    "id": "RC-R-progresion-geometrica",
+    "tipo": "definicion",
+    "titulo": "Progresión geométrica",
+    "variante": "desarrollo",
+    "cuerpo": "En una progresión geométrica cada término se obtiene multiplicando el anterior por una razón fija r. El interés compuesto y el crecimiento de una población son progresiones geométricas con otro nombre.",
+    "formula": "a_n = a_1 \\times r^{\\,n-1}",
+    "ejemplo": "Una bacteria que se duplica cada hora sigue 1, 2, 4, 8, con razón 2; a las 10 horas hay 2 elevado a 10, es decir 1.024."
+  },
+  {
+    "id": "RC-R-aritmetica-vs-geometrica",
+    "tipo": "regla",
+    "titulo": "Distinguir aritmética de geométrica",
+    "variante": "corta",
+    "cuerpo": "Con solo tres términos consecutivos alcanza: si la resta entre términos es constante, la sucesión es aritmética; si la división entre términos es constante, es geométrica.",
+    "ejemplo": "En 3, 6, 12 la resta cambia pero la división es siempre 2, así que es geométrica."
+  },
+  {
+    "id": "RC-R-serie-geometrica-infinita",
+    "tipo": "regla",
+    "titulo": "Suma de una serie geométrica infinita",
+    "variante": "desarrollo",
+    "cuerpo": "Si la razón r está entre menos 1 y 1, la suma de infinitos términos de una progresión geométrica es finita: el primer término dividido entre 1 menos r. Sumar 'infinitos pedazos' no da infinito cuando cada uno es una fracción del anterior.",
+    "formula": "S = \\dfrac{a_1}{1 - r}, \\quad |r| < 1",
+    "ejemplo": "Avanzar 1 metro, luego medio, luego un cuarto, y así, suma 1 sobre 1 menos 0,5, o sea 2 metros."
+  },
+  {
+    "id": "RC-R-variaciones-sucesivas",
+    "tipo": "regla",
+    "titulo": "Cambios porcentuales sucesivos",
+    "variante": "desarrollo",
+    "cuerpo": "Varios cambios porcentuales encadenados se calculan multiplicando sus factores, uno tras otro. Sumar los porcentajes casi nunca da el resultado exacto. Como es una multiplicación, el orden de los cambios no altera el valor final.",
+    "formula": "V_{\\text{final}} = V_0 \\times (1+r_1)(1+r_2)\\cdots(1+r_k)",
+    "ejemplo": "Sube 10% y luego baja 5%: por 1,10 y por 0,95 da por 1,045, un aumento neto del 4,5%, no del 5%."
+  },
+  {
+    "id": "RC-R-subir-bajar-mismo-porcentaje",
+    "tipo": "corolario",
+    "titulo": "Subir y bajar el mismo porcentaje no se cancela",
+    "variante": "corta",
+    "cuerpo": "Aplicar un aumento y luego una rebaja del mismo porcentaje deja el valor por debajo del original. La rebaja se calcula sobre una base más grande que la del aumento, así que quita más de lo que este había agregado.",
+    "ejemplo": "100 sube 25% a 125 y luego baja 25% de 125, quedando en 93,75, no en 100."
+  },
+  {
+    "id": "RC-R-interes-simple",
+    "tipo": "definicion",
+    "titulo": "Interés simple",
+    "variante": "desarrollo",
+    "cuerpo": "El interés simple se calcula siempre sobre el capital original: capital por tasa por número de periodos. El monto final es el capital más ese interés. Los intereses no generan más intereses.",
+    "formula": "M = C\\,(1 + i\\,t)",
+    "ejemplo": "1.000.000 al 5% anual durante 1 año gana 50.000 de interés; el monto es 1.050.000."
+  },
+  {
+    "id": "RC-R-interes-compuesto",
+    "tipo": "definicion",
+    "titulo": "Interés compuesto",
+    "variante": "desarrollo",
+    "cuerpo": "En el interés compuesto los intereses de cada periodo se suman al capital y también generan intereses. Es una progresión geométrica de razón 1 más i. Supera al interés simple desde el segundo periodo y la brecha crece con el tiempo.",
+    "formula": "M = C\\,(1 + i)^{\\,t}",
+    "ejemplo": "2.000.000 al 8% anual: a interés simple da 2.800.000 en 5 años; a interés compuesto, 2.000.000 por 1,08 elevado a 5, cerca de 2.938.656."
+  },
+  {
+    "id": "RC-R-regla-del-72",
+    "tipo": "regla",
+    "titulo": "Regla del 72",
+    "variante": "corta",
+    "cuerpo": "El tiempo que tarda un capital en duplicarse a interés compuesto es aproximadamente 72 dividido entre la tasa expresada en porcentaje. Es una estimación mental, no un valor exacto.",
+    "ejemplo": "Al 6% anual, un ahorro se duplica en unos 72 sobre 6, o sea 12 años."
+  },
+  {
+    "id": "RC-R-promedio-ponderado",
+    "tipo": "regla",
+    "titulo": "Promedio ponderado",
+    "variante": "desarrollo",
+    "cuerpo": "El promedio real de varios grupos pesa cada promedio por el tamaño de su grupo: se suman los productos tamaño por promedio y se divide entre el total de elementos. El promedio simple de promedios solo coincide con el real cuando todos los grupos tienen el mismo tamaño.",
+    "formula": "\\bar{x} = \\dfrac{\\sum n_i\\,\\bar{x}_i}{\\sum n_i}",
+    "ejemplo": "8 empleados con promedio 2.200.000 y 32 con 1.900.000: el promedio real es 78.400.000 sobre 40, es decir 1.960.000, no 2.050.000."
+  },
+  {
+    "id": "RC-R-correlacion-causalidad",
+    "tipo": "principio",
+    "titulo": "Correlación no es causalidad",
+    "variante": "corta",
+    "cuerpo": "Que dos variables suban o bajen juntas no demuestra que una cause la otra. Puede existir una tercera variable que influya en ambas, la causa puede ir al revés, o puede ser coincidencia.",
+    "ejemplo": "Las ciudades con más cafeterías por habitante tienen más librerías por habitante, pero es más plausible que el nivel educativo explique ambas cosas."
+  },
+  {
+    "id": "RC-R-eje-truncado",
+    "tipo": "regla",
+    "titulo": "Ejes engañosos",
+    "variante": "corta",
+    "cuerpo": "Un eje vertical que no arranca en cero, o que usa una escala comprimida, exagera visualmente diferencias que son pequeñas en la escala real. Siempre hay que leer los valores numéricos, no la altura de las barras.",
+    "ejemplo": "Dos barras de 102 y 108 se ven el doble de altas una que otra si el eje empieza en 100."
+  },
+  {
+    "id": "RC-R-proporcionalidad-directa",
+    "tipo": "definicion",
+    "titulo": "Proporcionalidad directa",
+    "variante": "corta",
+    "cuerpo": "Dos magnitudes son directamente proporcionales cuando su cociente es constante: al multiplicar una por un número, la otra se multiplica por el mismo número. Cuidado si hay una parte fija que no escala.",
+    "ejemplo": "Si 4 personas necesitan 300 gramos de arroz, 8 personas necesitan 600, el doble."
+  },
+  {
+    "id": "RC-R-proporcionalidad-inversa",
+    "tipo": "definicion",
+    "titulo": "Proporcionalidad inversa",
+    "variante": "corta",
+    "cuerpo": "Dos magnitudes son inversamente proporcionales cuando su producto es constante: al multiplicar una por un número, la otra se divide por ese número. Más recursos para la misma tarea significan menos tiempo, no más.",
+    "ejemplo": "Si 8 obreros pintan una casa en 6 días, 16 obreros la pintan en 3 días, no en 12."
+  },
+  {
+    "id": "RC-R-tasas-que-se-suman",
+    "tipo": "regla",
+    "titulo": "Trabajos simultáneos: sumar tasas",
+    "variante": "desarrollo",
+    "cuerpo": "Cuando varios agentes trabajan a la vez, se suman sus tasas, es decir 1 dividido entre el tiempo de cada uno, y luego se invierte la suma para obtener el tiempo conjunto. Promediar los tiempos es el error clásico.",
+    "formula": "\\dfrac{1}{T} = \\dfrac{1}{t_1} + \\dfrac{1}{t_2}",
+    "ejemplo": "Un grifo llena en 6 horas y otro en 3; juntos, un sexto más un tercio es un medio, así que llenan en 2 horas."
+  },
+  {
+    "id": "RC-R-regla-de-tres-simple",
+    "tipo": "regla",
+    "titulo": "Regla de tres simple",
+    "variante": "corta",
+    "cuerpo": "Con dos magnitudes proporcionales y tres datos conocidos se despeja el cuarto. Si son directamente proporcionales se multiplica en cruz; si son inversamente proporcionales se multiplica en línea.",
+    "ejemplo": "Si 850 unidades se hacen en 5 días, en 12 días se hacen 850 por 12 sobre 5, es decir 2.040 unidades."
+  },
+  {
+    "id": "RC-R-regla-de-tres-compuesta",
+    "tipo": "regla",
+    "titulo": "Regla de tres compuesta",
+    "variante": "corta",
+    "cuerpo": "Cuando el resultado depende de varias magnitudes a la vez, se parte del valor conocido y se multiplica por cada razón. Cada razón se usa directa si esa magnitud es directamente proporcional al resultado, e invertida si es inversamente proporcional.",
+    "ejemplo": "Si cambian a la vez el número de obreros y las horas por día, ambas inversamente proporcionales a los días, se multiplican los días originales por las dos razones invertidas."
+  },
+  {
+    "id": "RC-R-notacion-nueva",
+    "tipo": "regla",
+    "titulo": "Símbolo definido en el problema",
+    "variante": "corta",
+    "cuerpo": "Cuando un problema define un símbolo o una operación propia, hay que aplicarlo tal como lo describe, al pie de la letra. No es una operación estándar ya conocida y no se le pueden suponer propiedades que no diga el enunciado.",
+    "ejemplo": "Si el problema define a triángulo b como el doble de a más b, entonces 3 triángulo 4 es 2 por 3 más 4, o sea 10."
+  },
+  {
+    "id": "RC-R-riesgo-relativo-absoluto",
+    "tipo": "regla",
+    "titulo": "Riesgo relativo frente a riesgo absoluto",
+    "variante": "desarrollo",
+    "cuerpo": "El riesgo relativo compara dos probabilidades entre sí, por ejemplo 'el triple'. El riesgo absoluto es la probabilidad en sí misma. Un riesgo relativo grande sobre una base minúscula sigue siendo minúsculo, así que sin conocer la base no se puede juzgar la gravedad.",
+    "tabla": {
+      "titulo": "Un mismo 'triple' con distinta base",
+      "encabezados": ["Base", "Triplicado", "Riesgo relativo"],
+      "filas": [
+        ["1 en 1.000.000", "3 en 1.000.000", "3 veces"],
+        ["1 en 100", "3 en 100", "3 veces"]
+      ]
+    },
+    "ejemplo": "Que un hábito 'triplique el riesgo' de una enfermedad que afecta a 1 de cada millón lo lleva a 3 de cada millón, todavía muy raro."
+  },
+  {
+    "id": "RC-R-probabilidad-clasica",
+    "tipo": "definicion",
+    "titulo": "Probabilidad clásica",
+    "variante": "desarrollo",
+    "cuerpo": "La probabilidad de un evento con resultados igualmente posibles es el número de casos favorables dividido entre el número de casos posibles. Siempre es un valor entre 0 y 1; un resultado mayor que 1 indica que la división se hizo al revés.",
+    "formula": "P(E) = \\dfrac{\\text{casos favorables}}{\\text{casos posibles}}",
+    "ejemplo": "Sacar carta roja de una baraja de 52: 26 sobre 52, es decir 0,5."
+  },
+  {
+    "id": "RC-R-probabilidad-complementaria",
+    "tipo": "regla",
+    "titulo": "Probabilidad complementaria",
+    "variante": "desarrollo",
+    "cuerpo": "La probabilidad de que un evento ocurra es 1 menos la probabilidad de que no ocurra. Es el atajo cuando calcular 'al menos uno' directamente obligaría a sumar muchos casos.",
+    "formula": "P(A) = 1 - P(\\text{no } A)",
+    "ejemplo": "La probabilidad de que al menos dos personas de un grupo compartan cumpleaños es 1 menos la probabilidad de que todas lo tengan distinto."
+  },
+  {
+    "id": "RC-R-principio-multiplicacion",
+    "tipo": "regla",
+    "titulo": "Principio de la multiplicación",
+    "variante": "corta",
+    "cuerpo": "Si una elección se arma tomando una opción de cada uno de varios grupos, el número de combinaciones posibles es el producto de los tamaños de los grupos.",
+    "ejemplo": "Con 3 sabores de helado y 4 toppings hay 3 por 4, es decir 12 combinaciones."
+  },
+  {
+    "id": "RC-R-principio-suma",
+    "tipo": "regla",
+    "titulo": "Principio de la suma",
+    "variante": "corta",
+    "cuerpo": "Si una elección consiste en tomar un elemento de un grupo o de otro, y los grupos no se solapan, el número de opciones es la suma de los tamaños de los grupos.",
+    "ejemplo": "Si hay 5 rutas por tierra y 2 por mar, hay 5 más 2, es decir 7 formas de llegar."
+  },
+  {
+    "id": "RC-R-media-y-rango",
+    "tipo": "definicion",
+    "titulo": "Media y rango",
+    "variante": "desarrollo",
+    "cuerpo": "La media aritmética es la suma de todos los valores dividida entre cuántos son. El rango es el valor máximo menos el mínimo y mide qué tan dispersos están los datos, no su valor central.",
+    "formula": "\\bar{x} = \\dfrac{\\sum x_i}{n} \\qquad \\text{rango} = x_{\\max} - x_{\\min}",
+    "ejemplo": "En 4, 6, 6, 8, 11 la media es 35 sobre 5, o sea 7, y el rango es 11 menos 4, es decir 7."
+  },
+  {
+    "id": "RC-R-muestra-representativa",
+    "tipo": "principio",
+    "titulo": "Muestra representativa",
+    "variante": "corta",
+    "cuerpo": "Una muestra permite generalizar a la población solo si es suficientemente grande y además cubre su diversidad, sin dejar por fuera de forma sistemática a ningún grupo. Elegir al azar dentro de un solo lugar no basta.",
+    "ejemplo": "Para estimar la estatura promedio del campus, medir 100 estudiantes repartidos entre todas las facultades es mejor que medir 20 solo en una facultad."
+  },
+  {
+    "id": "RC-R-conjuntos-union-interseccion",
+    "tipo": "regla",
+    "titulo": "Unión de dos conjuntos",
+    "variante": "desarrollo",
+    "cuerpo": "El número de elementos de la unión de dos conjuntos es la suma de sus tamaños menos el de la intersección, porque los elementos comunes se contarían dos veces. Con diagramas de Venn se ve directo.",
+    "formula": "|A \\cup B| = |A| + |B| - |A \\cap B|",
+    "ejemplo": "Si 18 personas hablan inglés, 15 francés y 6 ambos, hablan al menos uno 18 más 15 menos 6, es decir 27."
+  },
+  {
+    "id": "RC-R-extrapolacion",
+    "tipo": "regla",
+    "titulo": "Extrapolar fuera del rango observado",
+    "variante": "corta",
+    "cuerpo": "Proyectar una tendencia más allá de los datos observados es cada vez más incierto cuanto más lejos se va. Una tendencia de pocos periodos no garantiza un valor exacto en el futuro, sobre todo si hay efectos de temporada.",
+    "ejemplo": "Cuatro meses de ventas subiendo 2 millones cada uno no aseguran que en diciembre, seis meses después, sean exactamente 30 millones."
+  },
+  {
+    "id": "RC-R-tendencia-vs-fluctuacion",
+    "tipo": "regla",
+    "titulo": "Disminución constante frente a fluctuación",
+    "variante": "corta",
+    "cuerpo": "Afirmar que algo 'disminuyó de forma constante' exige que baje en cada paso del periodo. Que el valor final sea menor que el inicial no implica que todos los pasos intermedios bajaran; puede haber subidas en medio.",
+    "ejemplo": "Accidentes por año 340, 310, 365, 298: el total bajó, pero en 2023 subieron respecto a 2022, así que no fue constante."
+  },
+  {
+    "id": "RC-R-falacia-tasa-base",
+    "tipo": "regla",
+    "titulo": "Falacia de la tasa base",
+    "variante": "corta",
+    "cuerpo": "Al interpretar un resultado positivo de una prueba, hay que comparar cuántos enfermos da positivo contra cuántos sanos también dan falso positivo. Si la enfermedad es rara, la mayoría de los positivos pueden ser sanos aunque la prueba sea muy precisa.",
+    "ejemplo": "Una prueba con 99% de acierto aplicada a una enfermedad que tiene 1 de cada 10.000 personas produce muchos más falsos positivos que verdaderos positivos."
+  },
+  {
+    "id": "RC-R-falacia-del-jugador",
+    "tipo": "regla",
+    "titulo": "Falacia del jugador",
+    "variante": "corta",
+    "cuerpo": "En eventos independientes, los resultados anteriores no cambian la probabilidad del siguiente. Una moneda no 'recuerda' las tiradas pasadas y no está 'a punto de compensar' una racha.",
+    "ejemplo": "Después de 7 caras seguidas, la probabilidad de cara en la octava sigue siendo un medio."
+  },
+  {
+    "id": "RC-R-area-triangulo",
+    "tipo": "definicion",
+    "titulo": "Área de un triángulo",
+    "variante": "desarrollo",
+    "cuerpo": "El área de un triángulo es la base por la altura dividida entre 2. La altura es la distancia perpendicular desde la base hasta el vértice opuesto, no la longitud de un lado inclinado.",
+    "formula": "A = \\dfrac{\\text{base} \\times \\text{altura}}{2}",
+    "ejemplo": "Base 10 cm y altura 4 cm: 10 por 4 sobre 2, es decir 20 centímetros cuadrados."
+  },
+  {
+    "id": "RC-R-area-circulo",
+    "tipo": "definicion",
+    "titulo": "Área y perímetro del círculo",
+    "variante": "desarrollo",
+    "cuerpo": "El área de un círculo es pi por el radio al cuadrado. La longitud de la circunferencia es 2 pi por el radio. El error más común es usar el diámetro en lugar del radio, lo que multiplica el área por 4.",
+    "formula": "A = \\pi\\,r^{2} \\qquad C = 2\\,\\pi\\,r",
+    "ejemplo": "Radio 3 cm: el área es pi por 9, cerca de 28,3 centímetros cuadrados, no pi por 3."
+  },
+  {
+    "id": "RC-R-volumen-prisma-cilindro",
+    "tipo": "regla",
+    "titulo": "Volumen de un prisma o cilindro",
+    "variante": "desarrollo",
+    "cuerpo": "El volumen de cualquier cuerpo con dos caras iguales y paralelas, como un prisma o un cilindro, es el área de la base multiplicada por la altura. Para el cubo, esa fórmula se reduce a la arista al cubo.",
+    "formula": "V = A_{\\text{base}} \\times h",
+    "ejemplo": "Un cilindro de radio 3 cm y altura 10 cm: pi por 9 por 10, cerca de 283 centímetros cúbicos."
+  },
+  {
+    "id": "RC-R-perimetro-no-determina-area",
+    "tipo": "principio",
+    "titulo": "El perímetro no determina el área",
+    "variante": "corta",
+    "cuerpo": "Dos figuras con el mismo perímetro pueden tener áreas muy distintas según su forma. Conocer solo el perímetro no alcanza para calcular el área de una figura irregular; hacen falta más datos, como las diagonales o una división en triángulos.",
+    "ejemplo": "Un rectángulo de 1 por 11 y otro de 5 por 7 tienen ambos perímetro 24, pero áreas 11 y 35."
+  },
+  {
+    "id": "RC-R-desigualdad-triangular",
+    "tipo": "teorema",
+    "titulo": "Desigualdad triangular",
+    "variante": "desarrollo",
+    "cuerpo": "Tres longitudes pueden formar un triángulo solo si la suma de las dos más cortas es mayor que la más larga. Si son iguales, los tres puntos quedan alineados y no hay triángulo.",
+    "formula": "a + b > c \\quad (\\text{con } c \\text{ el lado mayor})",
+    "ejemplo": "Con 3, 4 y 8 no hay triángulo, porque 3 más 4 es 7, que no supera a 8."
+  },
+  {
+    "id": "RC-R-suficiencia-de-datos",
+    "tipo": "regla",
+    "titulo": "Suficiencia de datos",
+    "variante": "corta",
+    "cuerpo": "Antes de calcular conviene preguntarse si los datos disponibles determinan la respuesta. Medir solo una parte de un sistema no describe el conjunto, y a veces falta un dato clave sin el cual el problema no tiene solución única.",
+    "ejemplo": "Para el volumen total de dos tanques conectados no basta con medir uno solo; hacen falta las dimensiones de los dos."
+  },
+  {
+    "id": "RC-R-distancia-entre-puntos",
+    "tipo": "definicion",
+    "titulo": "Distancia entre dos puntos",
+    "variante": "desarrollo",
+    "cuerpo": "La distancia entre dos puntos del plano es la raíz cuadrada de la suma de los cuadrados de las diferencias en x y en y. Es el teorema de Pitágoras aplicado al segmento que los une.",
+    "formula": "d = \\sqrt{(x_2 - x_1)^{2} + (y_2 - y_1)^{2}}",
+    "ejemplo": "De (0, 0) a (3, 4): raíz de 9 más 16, es decir 5."
+  },
+  {
+    "id": "RC-R-numeracion-pistas",
+    "tipo": "regla",
+    "titulo": "Numeración de pistas y rumbos",
+    "variante": "corta",
+    "cuerpo": "El número de una pista de aterrizaje es su rumbo en grados dividido entre 10 y redondeado. Girar el rumbo 180 grados cambia el número de pista en 18, no en 180.",
+    "ejemplo": "Un rumbo de 140 grados corresponde a la pista 14; la cabecera opuesta es la pista 32."
+  },
+  {
+    "id": "RC-R-espiral-de-teodoro",
+    "tipo": "regla",
+    "titulo": "Espiral de Teodoro",
+    "variante": "desarrollo",
+    "cuerpo": "La espiral de raíces se construye encadenando triángulos rectángulos: cada uno usa como un cateto la hipotenusa del anterior y como el otro cateto un segmento de longitud 1. El triángulo número n tiene hipotenusa raíz de n más 1, así que el primero da raíz de 2, no raíz de 1.",
+    "formula": "h_n = \\sqrt{n+1}",
+    "ejemplo": "El triángulo 6 de la espiral tiene hipotenusa raíz de 7, no raíz de 6."
+  }
+]

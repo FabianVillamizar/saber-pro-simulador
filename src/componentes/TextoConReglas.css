@@ -103,6 +103,19 @@
   --rc-acc-soft-2: color-mix(in oklch, var(--lc-accent) 22%, transparent);
 }
 
+/* Acento propio de Razonamiento Cuantitativo: --rc-accent (violeta, con
+   valor claro/oscuro en tokens.css). Ojo: el token de módulo es
+   `--rc-accent`, distinto del interno `--rc-acc` de este archivo. Mismo
+   apunte de especificidad que los anteriores. */
+.rc-disp[data-acento='rc'],
+.rc-pop-wrap[data-acento='rc'],
+:root[data-theme='dark'] .rc-disp[data-acento='rc'],
+:root[data-theme='dark'] .rc-pop-wrap[data-acento='rc'] {
+  --rc-acc: var(--rc-accent);
+  --rc-acc-soft: color-mix(in oklch, var(--rc-accent) 12%, transparent);
+  --rc-acc-soft-2: color-mix(in oklch, var(--rc-accent) 22%, transparent);
+}
+
 /* ---------- disparador ---------- */
 
 .rc-disp {

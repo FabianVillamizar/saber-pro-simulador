@@ -50,6 +50,12 @@
      legible sobre el fondo del popover. */
   --lc-accent: #0f766e;
 
+  /* Módulo Razonamiento Cuantitativo: violeta propio para la capa "Reglas
+     en contexto" — distinto del azul de botones, del índigo de Inglés y de
+     los otros cuatro acentos. Cambia por tema: en oscuro se aclara para
+     que el subrayado siga legible sobre el fondo del popover. */
+  --rc-accent: #6d28d9;
+
   --mix-base: white;
 
   --radio-lg: 20px;
@@ -85,6 +91,7 @@
   --dg-accent: #5fbf86;
   --cc-accent: #e0973b;
   --lc-accent: #4fd1c5;
+  --rc-accent: #a78bfa;
 
   --mix-base: black;
 
@@ -110,6 +117,7 @@
     --dg-accent: #5fbf86;
     --cc-accent: #e0973b;
     --lc-accent: #4fd1c5;
+    --rc-accent: #a78bfa;
     --mix-base: black;
     --sombra-suave: 0 12px 30px rgba(0, 0, 0, 0.35);
     --sombra-hover: rgba(0, 0, 0, 0.35);

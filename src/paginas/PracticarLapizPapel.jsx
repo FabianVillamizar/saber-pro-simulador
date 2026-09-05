@@ -25,8 +25,8 @@ function Texto({ texto, formulas }) {
 // prosa del enunciado y del revelado; las opciones de la fase 1 siguen en
 // Texto (un disparador ahí daría pista, mismo criterio que QuizRapido).
 // TextoConReglas es superset estricto de TextoConFormulas, así que sin
-// rulebook (RC no lo tiene) el token degrada a su texto visible y el resto
-// se comporta idéntico.
+// rulebook el token degrada a su texto visible y el resto se comporta
+// idéntico. Con `sinFormulas` en el provider (RC) además no toca los `$`.
 function TextoConDisparadores({ texto, formulas }) {
   return formulas ? <TextoConReglas texto={texto} /> : texto
 }
@@ -93,6 +93,11 @@ export function PracticarLapizPapel({ moduloId, perfil, onCambiarPerfil, onVolve
   const ej = barajada[indice % barajada.length]
   const esFormula = ej.tipo === 'formula'
   const revelado = seleccion !== null
+  // Capa "Reglas en contexto" en la prosa del revelado: activa con
+  // `renderizaFormulas` (token + `$…$` KaTeX) o con `reglasEnContexto`
+  // (solo token, `$` literal — para RC, que escribe montos "$1.000.000").
+  const usaReglas = modulo.renderizaFormulas || modulo.reglasEnContexto
+  const reglasSinFormulas = !!modulo.reglasEnContexto && !modulo.renderizaFormulas
 
   function reiniciarEjercicio() {
     setFase(1)
@@ -107,7 +112,7 @@ export function PracticarLapizPapel({ moduloId, perfil, onCambiarPerfil, onVolve
   }
 
   return (
-    <ReglasProvider reglas={modulo.reglas} acento={modulo.acentoReglas}>
+    <ReglasProvider reglas={modulo.reglas} acento={modulo.acentoReglas} sinFormulas={reglasSinFormulas}>
     <div className="page practicar-lp">
       <div className="barra-superior">
         <button type="button" className="boton-icono" onClick={onVolver}>
@@ -169,11 +174,11 @@ export function PracticarLapizPapel({ moduloId, perfil, onCambiarPerfil, onVolve
             <div className="practicar-lp-badge-sub">{ej.subcategoria}</div>
           </div>
 
-          <div className="practicar-lp-enunciado"><TextoConDisparadores texto={ej.enunciado} formulas={modulo.renderizaFormulas} /></div>
+          <div className="practicar-lp-enunciado"><TextoConDisparadores texto={ej.enunciado} formulas={usaReglas} /></div>
 
           {fase === 1 && (
             <div className="practicar-lp-fase1">
-              <div className="practicar-lp-eyebrow"><TextoConDisparadores texto={ej.promptFase1} formulas={modulo.renderizaFormulas} /></div>
+              <div className="practicar-lp-eyebrow"><TextoConDisparadores texto={ej.promptFase1} formulas={usaReglas} /></div>
               <div className="practicar-lp-opciones">
                 {ej.opciones.map((o, i) => {
                   const elegida = seleccion === i
@@ -206,13 +211,13 @@ export function PracticarLapizPapel({ moduloId, perfil, onCambiarPerfil, onVolve
 
               {revelado && (
                 <div className={`practicar-lp-revelado practicar-lp-revelado--${esFormula ? 'formula' : 'trampa'}`}>
-                  <div className="practicar-lp-revelado-titulo"><TextoConDisparadores texto={ej.labelHerramienta} formulas={modulo.renderizaFormulas} /></div>
+                  <div className="practicar-lp-revelado-titulo"><TextoConDisparadores texto={ej.labelHerramienta} formulas={usaReglas} /></div>
                   {ej.formula && (
                     <div className="practicar-lp-revelado-formula">
                       <Formula tex={ej.formula} />
                     </div>
                   )}
-                  <div className="practicar-lp-revelado-texto"><TextoConDisparadores texto={ej.porQue} formulas={modulo.renderizaFormulas} /></div>
+                  <div className="practicar-lp-revelado-texto"><TextoConDisparadores texto={ej.porQue} formulas={usaReglas} /></div>
                 </div>
               )}
 
@@ -231,7 +236,7 @@ export function PracticarLapizPapel({ moduloId, perfil, onCambiarPerfil, onVolve
                 <IconoCheck size={14} color={esFormula ? 'var(--accent)' : 'var(--warning)'} />
                 <div className="practicar-lp-enfoque-info">
                   <div className="practicar-lp-enfoque-eyebrow">Tu enfoque</div>
-                  <div className="practicar-lp-enfoque-nombre"><TextoConDisparadores texto={ej.enfoqueCorto} formulas={modulo.renderizaFormulas} /></div>
+                  <div className="practicar-lp-enfoque-nombre"><TextoConDisparadores texto={ej.enfoqueCorto} formulas={usaReglas} /></div>
                 </div>
                 {ej.formula && (
                   <div className="practicar-lp-enfoque-formula">
@@ -266,8 +271,8 @@ export function PracticarLapizPapel({ moduloId, perfil, onCambiarPerfil, onVolve
                 <div className="practicar-lp-solucion">
                   <div className="practicar-lp-solucion-caja">
                     <div className="practicar-lp-eyebrow">Respuesta</div>
-                    <div className="practicar-lp-solucion-respuesta"><TextoConDisparadores texto={ej.respuesta} formulas={modulo.renderizaFormulas} /></div>
-                    <div className="practicar-lp-solucion-desarrollo"><TextoConDisparadores texto={ej.desarrollo} formulas={modulo.renderizaFormulas} /></div>
+                    <div className="practicar-lp-solucion-respuesta"><TextoConDisparadores texto={ej.respuesta} formulas={usaReglas} /></div>
+                    <div className="practicar-lp-solucion-desarrollo"><TextoConDisparadores texto={ej.desarrollo} formulas={usaReglas} /></div>
                   </div>
 
                   {/* La comparación "atajo vs a pulso" solo tiene sentido cuando el
@@ -294,7 +299,7 @@ export function PracticarLapizPapel({ moduloId, perfil, onCambiarPerfil, onVolve
                         </div>
                       </div>
                       {ej.notaAtajo && (
-                        <p className="practicar-lp-nota-atajo"><TextoConDisparadores texto={ej.notaAtajo} formulas={modulo.renderizaFormulas} /></p>
+                        <p className="practicar-lp-nota-atajo"><TextoConDisparadores texto={ej.notaAtajo} formulas={usaReglas} /></p>
                       )}
                     </>
                   )}

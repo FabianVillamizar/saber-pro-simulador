@@ -332,16 +332,19 @@ export function RepasoConceptos({
   // ejemplo_aplicado únicamente — reverso de 2 secciones en vez de 3.
   const esCultura = !esFrances && !esCientifica && !esCloze && 'categoria' in tarjeta
   const enlacesConecta = esCientifica ? enlacesCruzados(tarjeta.connects_to, moduloId, perfil) : []
-  // En módulos con rulebook (`renderizaFormulas`) el reverso de la tarjeta
-  // pasa por TextoConReglas para que los tokens `[[id-regla|texto]]` de
-  // regla/explicación/ejemplo/error_comun abran su popover, sin importar
-  // la variante de tarjeta (cloze de Inglés o explicación de CC/PC/cultura);
-  // en el resto degrada a TextoConNegritas exacto (mismo manejo de `**` y
-  // de párrafos separados por línea en blanco).
-  const TextoReverso = modulo.renderizaFormulas ? TextoConReglas : TextoConNegritas
+  // En módulos con rulebook el reverso de la tarjeta pasa por TextoConReglas
+  // para que los tokens `[[id-regla|texto]]` de regla/explicación/ejemplo/
+  // error_comun abran su popover, sin importar la variante de tarjeta (cloze
+  // de Inglés o explicación de CC/PC/cultura); en el resto degrada a
+  // TextoConNegritas exacto. Dos formas de activarlo: `renderizaFormulas`
+  // (el token viaja con el render de `$…$` KaTeX) o `reglasEnContexto` (solo
+  // el token, sin tocar `$` — para módulos como RC que usan `$` de moneda).
+  const usaReglas = modulo.renderizaFormulas || modulo.reglasEnContexto
+  const reglasSinFormulas = !!modulo.reglasEnContexto && !modulo.renderizaFormulas
+  const TextoReverso = usaReglas ? TextoConReglas : TextoConNegritas
 
   return (
-    <ReglasProvider reglas={modulo.reglas} acento={modulo.acentoReglas}>
+    <ReglasProvider reglas={modulo.reglas} acento={modulo.acentoReglas} sinFormulas={reglasSinFormulas}>
     <div className="repaso">
       <div className="repaso-topbar">
         <button type="button" className="boton-icono" onClick={onVolver}>

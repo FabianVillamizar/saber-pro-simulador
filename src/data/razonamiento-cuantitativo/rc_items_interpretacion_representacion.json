@@ -12,25 +12,25 @@
         "tipo_contexto": "comunitario_social",
         "enunciado": "¿Qué porcentaje (aproximado) del total de paquetes vendidos en MARZO corresponde a la categoría Pastelería?",
         "opciones": {
-          "A": "18%",
-          "B": "14%",
-          "C": "20%",
-          "D": "60%"
+          "A": "14%",
+          "B": "18%",
+          "C": "60%",
+          "D": "20%"
         },
-        "respuesta_correcta": "A",
+        "respuesta_correcta": "B",
         "explicacion_correcta": "En marzo, Pastelería vendió 120 paquetes de un total de 660 ese mes: 120÷660 ≈ 0,182, es decir, aproximadamente 18%.",
         "distractores": {
-          "B": {
+          "A": {
             "explicacion": "Corresponde a usar el valor de Pastelería de ABRIL (90) dividido entre el total de MARZO (660): 90÷660≈14%, mezclando datos de dos meses distintos.",
             "patron_trampa": "lectura_invertida_datos"
           },
           "C": {
-            "explicacion": "Corresponde a dividir el valor correcto de Pastelería en marzo (120) entre el total de ABRIL (600) en lugar del total de marzo: 120÷600=20%, usando el total del mes equivocado.",
-            "patron_trampa": "confusion_variable"
-          },
-          "D": {
             "explicacion": "Corresponde a dividir Pastelería (120) entre Pan tajado (200) en lugar de entre el TOTAL del mes: 120÷200=60%, usando una categoría en vez del total como denominador.",
             "patron_trampa": "denominador_o_escala_incorrecta"
+          },
+          "D": {
+            "explicacion": "Corresponde a dividir el valor correcto de Pastelería en marzo (120) entre el total de ABRIL (600) en lugar del total de marzo: 120÷600=20%, usando el total del mes equivocado.",
+            "patron_trampa": "confusion_variable"
           }
         },
         "dificultad": "media",
@@ -45,16 +45,16 @@
         "tipo_contexto": "comunitario_social",
         "enunciado": "¿Cuál de las siguientes afirmaciones sobre los datos de la tabla es FALSA?",
         "opciones": {
-          "A": "Pan francés fue, en todos los meses, la categoría con mayor número de paquetes vendidos.",
-          "B": "El total de paquetes vendidos aumentó cada mes, sin excepción, entre enero y junio.",
+          "A": "El total de paquetes vendidos aumentó cada mes, sin excepción, entre enero y junio.",
+          "B": "El total vendido en junio fue mayor que el vendido en cualquier otro mes del semestre.",
           "C": "En mayo, la pastelería representó más del 15% del total vendido ese mes.",
-          "D": "El total vendido en junio fue mayor que el vendido en cualquier otro mes del semestre."
+          "D": "Pan francés fue, en todos los meses, la categoría con mayor número de paquetes vendidos."
         },
-        "respuesta_correcta": "B",
+        "respuesta_correcta": "A",
         "explicacion_correcta": "Es falsa porque el total NO aumentó en todos los meses sin excepción: de marzo (660) a abril (600) el total DISMINUYÓ. La palabra 'sin excepción' hace falsa la afirmación con solo ese caso.",
         "distractores": {
-          "A": {
-            "explicacion": "Es verdadera: revisando cada uno de los 6 meses, Pan francés (320,310,340,300,330,350) siempre supera a Pan tajado y a Pastelería en esa misma fila.",
+          "B": {
+            "explicacion": "Es verdadera: el total de junio (700) es mayor que los totales de los otros 5 meses (600,610,660,600,680).",
             "patron_trampa": "lectura_invertida_datos"
           },
           "C": {
@@ -62,7 +62,7 @@
             "patron_trampa": "redondeo_erroneo"
           },
           "D": {
-            "explicacion": "Es verdadera: el total de junio (700) es mayor que los totales de los otros 5 meses (600,610,660,600,680).",
+            "explicacion": "Es verdadera: revisando cada uno de los 6 meses, Pan francés (320,310,340,300,330,350) siempre supera a Pan tajado y a Pastelería en esa misma fila.",
             "patron_trampa": "lectura_invertida_datos"
           }
         },
@@ -78,8 +78,8 @@
         "tipo_contexto": "comunitario_social",
         "enunciado": "¿Cuál de las siguientes opciones describe correctamente una gráfica de barras que representa el TOTAL de paquetes vendidos cada mes, de enero a junio?",
         "opciones": {
-          "A": "Barras de alturas 320, 310, 340, 300, 330, 350 (los valores de Pan francés, no el total).",
-          "B": "Barras de alturas 600, 610, 660, 610, 680, 700, con abril igual a febrero.",
+          "A": "Barras de alturas 600, 610, 660, 610, 680, 700, con abril igual a febrero.",
+          "B": "Barras de alturas 320, 310, 340, 300, 330, 350 (los valores de Pan francés, no el total).",
           "C": "Barras de alturas 600, 610, 660, 600, 680, 700 (en ese orden, de enero a junio).",
           "D": "Las mismas barras (600, 610, 660, 600, 680, 700) pero ordenadas de mayor a menor en vez de por mes."
         },
@@ -87,12 +87,12 @@
         "explicacion_correcta": "Esta opción usa exactamente los valores de la columna Total en el orden cronológico correcto: 600 (ene), 610 (feb), 660 (mar), 600 (abr), 680 (may), 700 (jun).",
         "distractores": {
           "A": {
-            "explicacion": "Usa los valores de Pan francés en lugar de los del Total; representaría una variable distinta a la que pide la pregunta.",
-            "patron_trampa": "confusion_variable"
-          },
-          "B": {
             "explicacion": "El valor de abril está mal: la tabla muestra 600 para abril, no 610 (ese es el valor de febrero); se confundió la fila de abril con la de febrero.",
             "patron_trampa": "lectura_invertida_datos"
+          },
+          "B": {
+            "explicacion": "Usa los valores de Pan francés en lugar de los del Total; representaría una variable distinta a la que pide la pregunta.",
+            "patron_trampa": "confusion_variable"
           },
           "D": {
             "explicacion": "Usa los valores correctos pero rompe el orden cronológico (enero a junio), que es esencial para que la gráfica muestre la evolución mes a mes.",
@@ -112,23 +112,23 @@
         "tipo_contexto": "comunitario_social",
         "enunciado": "En junio, ¿cuál es la razón, en su mínima expresión, entre las unidades vendidas de Pan francés y las de Pastelería?",
         "opciones": {
-          "A": "2:5",
+          "A": "5:2",
           "B": "3:2",
-          "C": "3:1",
-          "D": "5:2"
+          "C": "2:5",
+          "D": "3:1"
         },
-        "respuesta_correcta": "D",
+        "respuesta_correcta": "A",
         "explicacion_correcta": "En junio, Pan francés=350 y Pastelería=140. La razón 350:140 se simplifica dividiendo ambos entre 70, dando 5:2.",
         "distractores": {
-          "A": {
-            "explicacion": "Es la razón invertida (Pastelería:Pan francés en vez de Pan francés:Pastelería).",
-            "patron_trampa": "lectura_invertida_datos"
-          },
           "B": {
             "explicacion": "Corresponde a la razón entre Pan tajado (210) y Pastelería (140) en junio, no entre Pan francés y Pastelería.",
             "patron_trampa": "confusion_variable"
           },
           "C": {
+            "explicacion": "Es la razón invertida (Pastelería:Pan francés en vez de Pan francés:Pastelería).",
+            "patron_trampa": "lectura_invertida_datos"
+          },
+          "D": {
             "explicacion": "Corresponde a redondear 350÷140=2,5 hacia arriba a 3, en lugar de expresar la razón exacta simplificada.",
             "patron_trampa": "redondeo_erroneo"
           }
@@ -210,8 +210,8 @@
         "opciones": {
           "A": "150 m²",
           "B": "140 m²",
-          "C": "135 m²",
-          "D": "15 m²"
+          "C": "15 m²",
+          "D": "135 m²"
         },
         "respuesta_correcta": "B",
         "explicacion_correcta": "El área total del huerto es 15m×10m=150 m². El camino ocupa 1m×10m=10 m² (1 metro de ancho por los 10 metros que atraviesa). Área para siembra = 150−10=140 m².",
@@ -221,11 +221,11 @@
             "patron_trampa": "procedimiento_con_paso_erroneo"
           },
           "C": {
-            "explicacion": "Calcula mal el área del camino, usando 1m×15m=15 en vez de 1m×10m=10 (confunde en qué dirección atraviesa el camino), y resta 15 en vez de 10: 150−15=135.",
+            "explicacion": "Reporta el área aproximada del camino en lugar del área disponible para siembra, invirtiendo lo que la pregunta realmente pide.",
             "patron_trampa": "confusion_variable"
           },
           "D": {
-            "explicacion": "Reporta el área aproximada del camino en lugar del área disponible para siembra, invirtiendo lo que la pregunta realmente pide.",
+            "explicacion": "Calcula mal el área del camino, usando 1m×15m=15 en vez de 1m×10m=10 (confunde en qué dirección atraviesa el camino), y resta 15 en vez de 10: 150−15=135.",
             "patron_trampa": "confusion_variable"
           }
         },
@@ -253,25 +253,25 @@
         "tipo_contexto": "familiar_personal",
         "enunciado": "¿Cuántas tazas de arroz necesita Sledy para preparar la receta para 10 personas?",
         "opciones": {
-          "A": "6 tazas",
-          "B": "0,8 tazas",
-          "C": "8 tazas",
+          "A": "0,8 tazas",
+          "B": "8 tazas",
+          "C": "6 tazas",
           "D": "5 tazas"
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "La receta usa 2 tazas para 4 personas, es decir, 0,5 tazas por persona. Para 10 personas: 0,5×10=5 tazas.",
         "distractores": {
           "A": {
-            "explicacion": "Corresponde a un cálculo parcial incompleto al escalar la receta, combinando de forma incorrecta la cantidad base con el número de personas adicionales.",
-            "patron_trampa": "procedimiento_con_paso_erroneo"
-          },
-          "B": {
             "explicacion": "Aplica la lógica de una proporcionalidad INVERSA (más personas, menos arroz por persona) a una situación que en realidad es de proporcionalidad DIRECTA.",
             "patron_trampa": "operacion_incorrecta"
           },
-          "C": {
+          "B": {
             "explicacion": "Suma de forma intuitiva 1 taza extra por cada persona adicional (2 tazas + 6 personas adicionales × 1 taza = 8), en lugar de usar la razón real de 0,5 tazas por persona.",
             "patron_trampa": "operacion_incorrecta"
+          },
+          "C": {
+            "explicacion": "Corresponde a un cálculo parcial incompleto al escalar la receta, combinando de forma incorrecta la cantidad base con el número de personas adicionales.",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
           }
         },
         "dificultad": "baja",
@@ -296,24 +296,24 @@
         "enunciado": "¿Cuánto dinero, en pesos, destina la familia a Alimentación cada mes?",
         "opciones": {
           "A": "$1.000.000",
-          "B": "$1.400.000",
-          "C": "$250.000",
-          "D": "$600.000"
+          "B": "$600.000",
+          "C": "$1.400.000",
+          "D": "$250.000"
         },
         "respuesta_correcta": "A",
-        "explicacion_correcta": "Alimentación es el 25% del presupuesto: 4.000.000×0,25=$1.000.000.",
+        "explicacion_correcta": "Alimentación es [[RC-R-porcentaje-de|el 25% de]]l presupuesto: 4.000.000×0,25=$1.000.000.",
         "distractores": {
           "B": {
-            "explicacion": "Usa el 35% (el porcentaje de Vivienda) en lugar del 25% correspondiente a Alimentación.",
+            "explicacion": "Usa el 15% (el porcentaje de Transporte o Educación) en lugar del 25% correspondiente a Alimentación.",
             "patron_trampa": "confusion_variable"
           },
           "C": {
-            "explicacion": "Corresponde a un error de cálculo al ubicar mal la coma decimal o dividir incorrectamente en lugar de multiplicar por 0,25.",
-            "patron_trampa": "operacion_incorrecta"
+            "explicacion": "Usa el 35% (el porcentaje de Vivienda) en lugar del 25% correspondiente a Alimentación.",
+            "patron_trampa": "confusion_variable"
           },
           "D": {
-            "explicacion": "Usa el 15% (el porcentaje de Transporte o Educación) en lugar del 25% correspondiente a Alimentación.",
-            "patron_trampa": "confusion_variable"
+            "explicacion": "Corresponde a un error de cálculo al ubicar mal la coma decimal o dividir incorrectamente en lugar de multiplicar por 0,25.",
+            "patron_trampa": "operacion_incorrecta"
           }
         },
         "dificultad": "baja",
@@ -326,25 +326,25 @@
         "tipo_contexto": "familiar_personal",
         "enunciado": "¿Cuántas veces más grande es el porcentaje destinado a Vivienda (35%) comparado con el destinado a Ahorro (10%)?",
         "opciones": {
-          "A": "2,5 veces",
+          "A": "25 puntos porcentuales",
           "B": "4 veces",
-          "C": "3,5 veces",
-          "D": "25 puntos porcentuales"
+          "C": "2,5 veces",
+          "D": "3,5 veces"
         },
-        "respuesta_correcta": "C",
+        "respuesta_correcta": "D",
         "explicacion_correcta": "Para comparar 'cuántas veces más grande', se divide: 35÷10=3,5. Vivienda es 3,5 veces el porcentaje de Ahorro.",
         "distractores": {
           "A": {
-            "explicacion": "Corresponde a un error de cálculo al dividir 35÷10, simplificando mal la fracción.",
-            "patron_trampa": "operacion_incorrecta"
+            "explicacion": "Confunde 'cuántas veces más' (una razón, que se calcula dividiendo) con 'cuántos puntos porcentuales más' (una resta: 35−10=25); son dos formas distintas de comparar y no son intercambiables.",
+            "patron_trampa": "confusion_variable"
           },
           "B": {
             "explicacion": "Corresponde a redondear 3,5 hacia arriba a 4 en vez de reportar el valor exacto.",
             "patron_trampa": "redondeo_erroneo"
           },
-          "D": {
-            "explicacion": "Confunde 'cuántas veces más' (una razón, que se calcula dividiendo) con 'cuántos puntos porcentuales más' (una resta: 35−10=25); son dos formas distintas de comparar y no son intercambiables.",
-            "patron_trampa": "confusion_variable"
+          "C": {
+            "explicacion": "Corresponde a un error de cálculo al dividir 35÷10, simplificando mal la fracción.",
+            "patron_trampa": "operacion_incorrecta"
           }
         },
         "dificultad": "media",
@@ -399,24 +399,24 @@
         "tipo_contexto": "familiar_personal",
         "enunciado": "¿Cuál es el valor total de la factura de esta familia por su consumo de 22 m³ de agua este mes?",
         "opciones": {
-          "A": "$39.600",
-          "B": "$26.400",
-          "C": "$55.000",
-          "D": "$30.600"
+          "A": "$30.600",
+          "B": "$55.000",
+          "C": "$26.400",
+          "D": "$39.600"
         },
-        "respuesta_correcta": "D",
+        "respuesta_correcta": "A",
         "explicacion_correcta": "Los primeros 15 m³ se cobran a $1.200: 15×1.200=$18.000. El excedente (22−15=7 m³) se cobra a $1.800: 7×1.800=$12.600. Total: 18.000+12.600=$30.600.",
         "distractores": {
-          "A": {
-            "explicacion": "Aplica la tarifa del segundo tramo ($1.800) a los 22 m³ completos, en lugar de aplicarla solo a los 7 m³ que exceden los primeros 15.",
-            "patron_trampa": "procedimiento_con_paso_erroneo"
-          },
           "B": {
-            "explicacion": "Aplica la tarifa del primer tramo ($1.200) a los 22 m³ completos, ignorando que el consumo superó el límite de 15 m³ del primer tramo.",
+            "explicacion": "Aplica la tarifa del tercer tramo ($2.500, para más de 30 m³) a los 22 m³ completos, cuando ese tramo ni siquiera corresponde a este nivel de consumo.",
             "patron_trampa": "procedimiento_con_paso_erroneo"
           },
           "C": {
-            "explicacion": "Aplica la tarifa del tercer tramo ($2.500, para más de 30 m³) a los 22 m³ completos, cuando ese tramo ni siquiera corresponde a este nivel de consumo.",
+            "explicacion": "Aplica la tarifa del primer tramo ($1.200) a los 22 m³ completos, ignorando que el consumo superó el límite de 15 m³ del primer tramo.",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
+          },
+          "D": {
+            "explicacion": "Aplica la tarifa del segundo tramo ($1.800) a los 22 m³ completos, en lugar de aplicarla solo a los 7 m³ que exceden los primeros 15.",
             "patron_trampa": "procedimiento_con_paso_erroneo"
           }
         },
@@ -462,25 +462,25 @@
         "tipo_contexto": "comunitario_social",
         "enunciado": "¿Cuál de las siguientes afirmaciones sobre los resultados de la encuesta es FALSA?",
         "opciones": {
-          "A": "Menos del 10% de los encuestados usa la moto como medio principal.",
-          "B": "Más de la tercera parte de los encuestados usa el bus urbano como medio principal.",
-          "C": "El número de personas que va a pie es igual al número de personas que usa vehículo particular.",
-          "D": "La bicicleta es utilizada por el doble de personas que la moto."
+          "A": "El número de personas que va a pie es igual al número de personas que usa vehículo particular.",
+          "B": "Menos del 10% de los encuestados usa la moto como medio principal.",
+          "C": "La bicicleta es utilizada por el doble de personas que la moto.",
+          "D": "Más de la tercera parte de los encuestados usa el bus urbano como medio principal."
         },
-        "respuesta_correcta": "A",
+        "respuesta_correcta": "B",
         "explicacion_correcta": "Es falsa porque 40 de 400 personas usan moto, es decir, exactamente el 10% — no MENOS del 10%. La afirmación sería verdadera si dijera 'como máximo el 10%', pero 'menos del 10%' es un error, ya que 10% no es menor que 10%.",
         "distractores": {
-          "B": {
-            "explicacion": "Es verdadera: 160 de 400 es el 40%, que sí supera la tercera parte (33,3%).",
-            "patron_trampa": "redondeo_erroneo"
-          },
-          "C": {
+          "A": {
             "explicacion": "Es verdadera: ambos valores son 60 (a pie y vehículo particular).",
             "patron_trampa": "lectura_invertida_datos"
           },
-          "D": {
+          "C": {
             "explicacion": "Es verdadera: bicicleta=80 y moto=40, y 80 es efectivamente el doble de 40.",
             "patron_trampa": "operacion_incorrecta"
+          },
+          "D": {
+            "explicacion": "Es verdadera: 160 de 400 es el 40%, que sí supera la tercera parte (33,3%).",
+            "patron_trampa": "redondeo_erroneo"
           }
         },
         "dificultad": "alta",
@@ -497,22 +497,22 @@
         "enunciado": "¿Cuál es la razón, en su mínima expresión, entre las personas que usan bus urbano y las que usan bicicleta?",
         "opciones": {
           "A": "1:2",
-          "B": "2:1",
-          "C": "4:1",
-          "D": "8:4"
+          "B": "4:1",
+          "C": "8:4",
+          "D": "2:1"
         },
-        "respuesta_correcta": "B",
+        "respuesta_correcta": "D",
         "explicacion_correcta": "Bus urbano=160, bicicleta=80. La razón 160:80 se simplifica dividiendo ambos entre 80, dando 2:1.",
         "distractores": {
           "A": {
             "explicacion": "Es la razón invertida (bicicleta:bus urbano en vez de bus urbano:bicicleta).",
             "patron_trampa": "lectura_invertida_datos"
           },
-          "C": {
+          "B": {
             "explicacion": "Corresponde a comparar bus urbano (160) con moto (40) en lugar de con bicicleta (80): 160:40=4:1.",
             "patron_trampa": "confusion_variable"
           },
-          "D": {
+          "C": {
             "explicacion": "Es la razón correcta (160:80) simplificada solo parcialmente (dividiendo entre 20 en vez de entre 80), sin llevarla a su mínima expresión.",
             "patron_trampa": "operacion_incorrecta"
           }
@@ -568,18 +568,18 @@
         "enunciado": "Según el plano y su escala, ¿cuál es el área REAL de la habitación principal?",
         "opciones": {
           "A": "12 cm²",
-          "B": "1.200 m²",
-          "C": "12 m²",
+          "B": "12 m²",
+          "C": "1.200 m²",
           "D": "700 m²"
         },
-        "respuesta_correcta": "C",
+        "respuesta_correcta": "B",
         "explicacion_correcta": "Cada dimensión se escala por separado: 4cm×100=4m de largo real, 3cm×100=3m de ancho real. Área real = 4m×3m=12 m².",
         "distractores": {
           "A": {
             "explicacion": "Calcula el área en el plano (4cm×3cm=12 cm²) pero no convierte el resultado a la unidad real (metros), dejándolo en las unidades del plano.",
             "patron_trampa": "unidades_no_convertidas"
           },
-          "B": {
+          "C": {
             "explicacion": "Multiplica el área del plano (12 cm²) directamente por el factor de escala 100, en lugar de escalar cada DIMENSIÓN por separado antes de multiplicar; como el área escala con el CUADRADO del factor, este atajo da un resultado 100 veces mayor al real.",
             "patron_trampa": "denominador_o_escala_incorrecta"
           },
@@ -614,10 +614,10 @@
         "opciones": {
           "A": "$400.000",
           "B": "$75.000",
-          "C": "$25.000",
-          "D": "$100.000"
+          "C": "$100.000",
+          "D": "$25.000"
         },
-        "respuesta_correcta": "D",
+        "respuesta_correcta": "C",
         "explicacion_correcta": "El excedente sobre los 2.000 MB incluidos es 2.500−2.000=500 MB. Costo variable: 500×150=$75.000. Total: 25.000 (fijo)+75.000 (variable)=$100.000.",
         "distractores": {
           "A": {
@@ -628,7 +628,7 @@
             "explicacion": "Calcula correctamente el cargo variable (500×150=75.000) pero olvida sumar el cargo fijo mensual de $25.000.",
             "patron_trampa": "dato_no_disponible_o_supuesto"
           },
-          "C": {
+          "D": {
             "explicacion": "Reporta solo el cargo fijo mensual ($25.000), ignorando que el consumo superó el límite incluido en el plan.",
             "patron_trampa": "dato_no_disponible_o_supuesto"
           }
@@ -655,19 +655,19 @@
         "enunciado": "¿En qué mes se registró la temperatura promedio más baja del año?",
         "opciones": {
           "A": "Julio",
-          "B": "Junio",
-          "C": "Agosto",
+          "B": "Agosto",
+          "C": "Junio",
           "D": "Enero"
         },
         "respuesta_correcta": "A",
         "explicacion_correcta": "Julio registra 16°C, el valor más bajo de los 12 meses mostrados en la gráfica.",
         "distractores": {
           "B": {
-            "explicacion": "Junio registra 18°C, un valor cercano al mínimo pero no el más bajo; se confunde con el mes vecino a julio.",
+            "explicacion": "Agosto registra 17°C, el segundo valor más bajo, pero no el mínimo real (julio, con 16°C).",
             "patron_trampa": "lectura_invertida_datos"
           },
           "C": {
-            "explicacion": "Agosto registra 17°C, el segundo valor más bajo, pero no el mínimo real (julio, con 16°C).",
+            "explicacion": "Junio registra 18°C, un valor cercano al mínimo pero no el más bajo; se confunde con el mes vecino a julio.",
             "patron_trampa": "lectura_invertida_datos"
           },
           "D": {
@@ -685,23 +685,23 @@
         "tipo_contexto": "comunitario_social",
         "enunciado": "Entre septiembre y noviembre, ¿qué tendencia general se observa en la temperatura promedio mensual?",
         "opciones": {
-          "A": "Una tendencia decreciente.",
-          "B": "Una tendencia creciente, con un aumento aproximado cada mes.",
-          "C": "Se mantiene constante, sin cambios relevantes.",
-          "D": "Fluctúa sin ningún patrón identificable."
+          "A": "Se mantiene constante, sin cambios relevantes de un mes a otro.",
+          "B": "Una tendencia decreciente a lo largo de los meses.",
+          "C": "Fluctúa de un mes a otro sin ningún patrón identificable.",
+          "D": "Una tendencia creciente, con un aumento aproximado cada mes."
         },
-        "respuesta_correcta": "B",
+        "respuesta_correcta": "D",
         "explicacion_correcta": "Septiembre (19°C), octubre (21°C) y noviembre (22°C) muestran un aumento consistente mes a mes, de aproximadamente 1 a 2°C por mes.",
         "distractores": {
           "A": {
+            "explicacion": "Ignora el cambio real de 3°C entre septiembre y noviembre, que sí es una variación relevante y consistente.",
+            "patron_trampa": "generalizacion_indebida"
+          },
+          "B": {
             "explicacion": "Invierte la dirección real de la tendencia: los valores suben (19→21→22), no bajan.",
             "patron_trampa": "lectura_invertida_datos"
           },
           "C": {
-            "explicacion": "Ignora el cambio real de 3°C entre septiembre y noviembre, que sí es una variación relevante y consistente.",
-            "patron_trampa": "generalizacion_indebida"
-          },
-          "D": {
             "explicacion": "Pasa por alto que sí existe un patrón claro y consistente de aumento entre estos tres meses.",
             "patron_trampa": "generalizacion_indebida"
           }
@@ -718,25 +718,25 @@
         "tipo_contexto": "comunitario_social",
         "enunciado": "Basándose únicamente en la tendencia de aumento observada entre septiembre y noviembre, alguien afirma: 'en diciembre la temperatura será exactamente 23°C'. ¿Esta predicción es razonable?",
         "opciones": {
-          "A": "Sí es razonable, porque la tendencia de los dos meses anteriores garantiza ese valor.",
-          "B": "Sí, porque las temperaturas siempre aumentan de septiembre a diciembre en cualquier año.",
-          "C": "No es razonable, porque una tendencia de corto plazo no garantiza un valor exacto futuro, y de hecho los datos muestran que diciembre bajó a 20°C.",
-          "D": "Es imposible saberlo, porque no hay ningún dato sobre diciembre en la gráfica."
+          "A": "Es imposible saberlo, porque la gráfica no incluye ningún dato sobre el mes de diciembre.",
+          "B": "Sí es razonable, porque la tendencia de los dos meses anteriores garantiza que se alcance ese valor.",
+          "C": "No es razonable: una tendencia corta no fija un valor futuro exacto, y diciembre de hecho bajó a 20°C.",
+          "D": "Sí, porque las temperaturas siempre aumentan de septiembre a diciembre en cualquier año y ciudad."
         },
         "respuesta_correcta": "C",
         "explicacion_correcta": "Una tendencia de solo dos meses no permite predecir un valor futuro exacto; además, la gráfica SÍ incluye el dato real de diciembre (20°C), que de hecho bajó respecto a noviembre (22°C), contradiciendo la predicción de 23°C.",
         "distractores": {
           "A": {
+            "explicacion": "Ignora que la gráfica SÍ incluye el dato de diciembre (20°C); asume que falta información que en realidad está disponible.",
+            "patron_trampa": "dato_no_disponible_o_supuesto"
+          },
+          "B": {
             "explicacion": "Trata una tendencia de corto plazo como si garantizara un valor futuro exacto, lo cual es una extrapolación indebida a partir de una tendencia general.",
             "patron_trampa": "extrapolacion_estadistica_indebida"
           },
-          "B": {
+          "D": {
             "explicacion": "Generaliza un patrón observado en un solo año como si fuera una regla que se repite siempre, sin ninguna base para esa generalización.",
             "patron_trampa": "generalizacion_indebida"
-          },
-          "D": {
-            "explicacion": "Ignora que la gráfica SÍ incluye el dato de diciembre (20°C); asume que falta información que en realidad está disponible.",
-            "patron_trampa": "dato_no_disponible_o_supuesto"
           }
         },
         "dificultad": "alta",
@@ -823,25 +823,25 @@
         "tipo_contexto": "familiar_personal",
         "enunciado": "¿Cuántas tazas de leche se necesitan para completar la receta?",
         "opciones": {
-          "A": "6 tazas",
-          "B": "187,5 tazas",
-          "C": "0,3 tazas",
-          "D": "3 tazas"
+          "A": "3 tazas",
+          "B": "0,3 tazas",
+          "C": "187,5 tazas",
+          "D": "6 tazas"
         },
-        "respuesta_correcta": "D",
+        "respuesta_correcta": "A",
         "explicacion_correcta": "750 mL ÷ 250 mL/taza = 3 tazas.",
         "distractores": {
-          "A": {
-            "explicacion": "Corresponde a usar un factor de conversión equivocado, como si 1 taza equivaliera a 125 mL en lugar de 250 mL.",
-            "patron_trampa": "operacion_incorrecta"
-          },
           "B": {
+            "explicacion": "Invierte la división, calculando 250÷750 en lugar de 750÷250.",
+            "patron_trampa": "lectura_invertida_datos"
+          },
+          "C": {
             "explicacion": "Multiplica en lugar de dividir (750×0,25=187,5), en vez de dividir 750 entre 250.",
             "patron_trampa": "operacion_incorrecta"
           },
-          "C": {
-            "explicacion": "Invierte la división, calculando 250÷750 en lugar de 750÷250.",
-            "patron_trampa": "lectura_invertida_datos"
+          "D": {
+            "explicacion": "Corresponde a usar un factor de conversión equivocado, como si 1 taza equivaliera a 125 mL en lugar de 250 mL.",
+            "patron_trampa": "operacion_incorrecta"
           }
         },
         "dificultad": "baja",
@@ -865,23 +865,23 @@
         "tipo_contexto": "comunitario_social",
         "enunciado": "¿Cuál presentación de arroz tiene el menor costo por kilogramo?",
         "opciones": {
-          "A": "La bolsa de 5 kg, con $3.700 por kg.",
-          "B": "La bolsa de 3 kg, con $3.900 por kg.",
-          "C": "La bolsa de 1 kg, porque tiene el precio total más bajo.",
-          "D": "Las tres presentaciones tienen el mismo costo por kilogramo."
+          "A": "La bolsa de 3 kg, con $3.900 por kg.",
+          "B": "La bolsa de 1 kg, porque tiene el precio total más bajo.",
+          "C": "Las tres presentaciones tienen el mismo costo por kilogramo.",
+          "D": "La bolsa de 5 kg, con $3.700 por kg."
         },
-        "respuesta_correcta": "A",
+        "respuesta_correcta": "D",
         "explicacion_correcta": "Costo por kg: bolsa 1kg=4.200÷1=$4.200/kg; bolsa 3kg=11.700÷3=$3.900/kg; bolsa 5kg=18.500÷5=$3.700/kg. La bolsa de 5 kg tiene el menor costo por kilogramo.",
         "distractores": {
-          "B": {
+          "A": {
             "explicacion": "Es la segunda mejor opción ($3.900/kg), pero no la de menor costo por kilogramo; refleja no haber comparado las TRES presentaciones antes de decidir.",
             "patron_trampa": "generalizacion_indebida"
           },
-          "C": {
+          "B": {
             "explicacion": "Confunde 'menor costo TOTAL' (la bolsa de 1 kg es la más barata en pesos totales) con 'menor costo POR UNIDAD', que son preguntas distintas.",
             "patron_trampa": "confusion_variable"
           },
-          "D": {
+          "C": {
             "explicacion": "Asume que el precio escala de forma proporcional directa al peso, sin verificar los tres costos por kilogramo reales, que de hecho son distintos entre sí.",
             "patron_trampa": "generalizacion_indebida"
           }
@@ -900,21 +900,21 @@
         "tipo_contexto": "comunitario_social",
         "enunciado": "¿La relación entre el peso de la bolsa de arroz y su precio total corresponde a una proporcionalidad directa exacta (donde el precio por kilogramo es siempre el mismo)?",
         "opciones": {
-          "A": "Sí, porque el precio total aumenta a medida que aumenta el peso de la bolsa.",
-          "B": "No, porque el precio por kilogramo no es el mismo en las tres presentaciones (varía entre $3.700 y $4.200 por kg), lo que descarta una proporcionalidad directa exacta.",
-          "C": "Sí, porque se puede calcular un precio por kilogramo para cada presentación.",
-          "D": "No se puede determinar sin conocer el precio de una bolsa de 10 kg."
+          "A": "Sí, porque para cada presentación se puede calcular un precio por kilogramo y compararlo.",
+          "B": "Sí, porque el precio total de la bolsa aumenta a medida que aumenta su peso en kilogramos.",
+          "C": "No, porque el precio por kilogramo cambia entre presentaciones: va de $3.700 a $4.200 por kg.",
+          "D": "No se puede determinar sin conocer también el precio de una bolsa de 10 kg."
         },
-        "respuesta_correcta": "B",
-        "explicacion_correcta": "En una proporcionalidad directa exacta, el cociente (precio÷peso) debe ser constante. Aquí varía: $4.200/kg, $3.900/kg y $3.700/kg, por lo que la relación NO es de proporcionalidad directa exacta.",
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "En una [[RC-R-proporcionalidad-directa|proporcionalidad directa]] exacta, el cociente (precio÷peso) debe ser constante. Aquí varía: $4.200/kg, $3.900/kg y $3.700/kg, por lo que la relación NO es de proporcionalidad directa exacta.",
         "distractores": {
           "A": {
-            "explicacion": "Que ambas variables aumenten juntas no es suficiente para ser proporcionalidad directa exacta; se requiere que su COCIENTE sea siempre el mismo, lo cual no ocurre aquí.",
-            "patron_trampa": "generalizacion_indebida"
-          },
-          "C": {
             "explicacion": "Poder calcular una razón (precio por kg) para cada presentación no implica que esa razón sea constante entre las tres; de hecho, aquí no lo es.",
             "patron_trampa": "confusion_variable"
+          },
+          "B": {
+            "explicacion": "Que ambas variables aumenten juntas no es suficiente para ser proporcionalidad directa exacta; se requiere que su COCIENTE sea siempre el mismo, lo cual no ocurre aquí.",
+            "patron_trampa": "generalizacion_indebida"
           },
           "D": {
             "explicacion": "Los tres datos ya disponibles (1kg, 3kg y 5kg) son suficientes para responder la pregunta comparando sus tres precios por kilogramo; no hace falta un dato adicional.",
@@ -965,11 +965,11 @@
         "enunciado": "Según el sistema de orientación definido por el instructor, ¿hacia qué dirección (en grados) debe lanzar el atleta en su segundo intento?",
         "opciones": {
           "A": "60°",
-          "B": "320°",
-          "C": "140°",
-          "D": "40°"
+          "B": "40°",
+          "C": "320°",
+          "D": "140°"
         },
-        "respuesta_correcta": "C",
+        "respuesta_correcta": "D",
         "explicacion_correcta": "Girar hacia la derecha (sentido horario) significa SUMAR el ángulo de giro a la dirección inicial: 100°+40°=140°.",
         "distractores": {
           "A": {
@@ -977,12 +977,12 @@
             "patron_trampa": "operacion_incorrecta"
           },
           "B": {
-            "explicacion": "Suma incorrectamente y luego resta de 360°, o confunde la nueva dirección con la dirección opuesta a la calculada correctamente.",
-            "patron_trampa": "procedimiento_con_paso_erroneo"
-          },
-          "D": {
             "explicacion": "Ignora la dirección inicial de 100° y reporta solamente el ángulo de giro (40°), sin sumarlo a la dirección de partida.",
             "patron_trampa": "dato_no_disponible_o_supuesto"
+          },
+          "C": {
+            "explicacion": "Suma incorrectamente y luego resta de 360°, o confunde la nueva dirección con la dirección opuesta a la calculada correctamente.",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
           }
         },
         "dificultad": "media",
@@ -1009,18 +1009,14 @@
         "tipo_contexto": "comunitario_social",
         "enunciado": "¿Cuántos puntos tiene el equipo Unidos FC después de la primera vuelta?",
         "opciones": {
-          "A": "9",
+          "A": "10",
           "B": "11",
           "C": "13",
-          "D": "10"
+          "D": "9"
         },
-        "respuesta_correcta": "D",
+        "respuesta_correcta": "A",
         "explicacion_correcta": "Unidos FC tiene 10 puntos, según la columna de Puntos de la tabla.",
         "distractores": {
-          "A": {
-            "explicacion": "Olvida sumar el punto correspondiente al empate (3 ganados×3=9, sin sumar el 1 del empate).",
-            "patron_trampa": "operacion_incorrecta"
-          },
           "B": {
             "explicacion": "Corresponde a los puntos de Real Barrio, no a los de Unidos FC.",
             "patron_trampa": "lectura_invertida_datos"
@@ -1028,6 +1024,10 @@
           "C": {
             "explicacion": "Corresponde a los puntos de Los Halcones, no a los de Unidos FC.",
             "patron_trampa": "lectura_invertida_datos"
+          },
+          "D": {
+            "explicacion": "Olvida sumar el punto correspondiente al empate (3 ganados×3=9, sin sumar el 1 del empate).",
+            "patron_trampa": "operacion_incorrecta"
           }
         },
         "dificultad": "baja",
@@ -1040,25 +1040,25 @@
         "tipo_contexto": "comunitario_social",
         "enunciado": "¿Cuál de las siguientes afirmaciones sobre la tabla de posiciones es FALSA?",
         "opciones": {
-          "A": "Los Halcones es el único equipo que no ha perdido más de un partido.",
+          "A": "La diferencia de puntos entre el primer lugar (Los Halcones) y el último lugar (Los Tigres) es de 9 puntos.",
           "B": "Todos los equipos han jugado la misma cantidad de partidos (6 cada uno).",
-          "C": "Real Barrio tiene más empates que cualquier otro equipo, junto con Estrella Azul.",
-          "D": "La diferencia de puntos entre el primer lugar (Los Halcones) y el último lugar (Los Tigres) es de 9 puntos."
+          "C": "Los Halcones es el único equipo que no ha perdido más de un partido.",
+          "D": "Real Barrio tiene más empates que cualquier otro equipo, junto con Estrella Azul."
         },
-        "respuesta_correcta": "A",
+        "respuesta_correcta": "C",
         "explicacion_correcta": "Es falsa porque Real Barrio TAMBIÉN ha perdido solo 1 partido, igual que Los Halcones; por lo tanto, Los Halcones NO es el único equipo con esa característica.",
         "distractores": {
+          "A": {
+            "explicacion": "Es verdadera: 13−4=9 puntos de diferencia.",
+            "patron_trampa": "operacion_incorrecta"
+          },
           "B": {
             "explicacion": "Es verdadera: todos los equipos muestran 6 en la columna de partidos jugados.",
             "patron_trampa": "lectura_invertida_datos"
           },
-          "C": {
+          "D": {
             "explicacion": "Es verdadera: Real Barrio y Estrella Azul empatan en el máximo de empates (2 cada uno).",
             "patron_trampa": "confusion_variable"
-          },
-          "D": {
-            "explicacion": "Es verdadera: 13−4=9 puntos de diferencia.",
-            "patron_trampa": "operacion_incorrecta"
           }
         },
         "dificultad": "alta",
@@ -1074,24 +1074,24 @@
         "tipo_contexto": "comunitario_social",
         "enunciado": "¿Cuál es la razón entre los partidos ganados por Los Halcones y los partidos ganados por Los Tigres?",
         "opciones": {
-          "A": "1:4",
+          "A": "3:1",
           "B": "4:1",
-          "C": "6:1",
-          "D": "3:1"
+          "C": "1:4",
+          "D": "6:1"
         },
         "respuesta_correcta": "B",
         "explicacion_correcta": "Los Halcones ganó 4 partidos y Los Tigres ganó 1. La razón es 4:1.",
         "distractores": {
           "A": {
+            "explicacion": "Usa los partidos ganados por Real Barrio (3) en lugar de los de Los Halcones (4) como término de comparación.",
+            "patron_trampa": "confusion_variable"
+          },
+          "C": {
             "explicacion": "Es la razón invertida (Los Tigres:Los Halcones en vez de Los Halcones:Los Tigres).",
             "patron_trampa": "lectura_invertida_datos"
           },
-          "C": {
-            "explicacion": "Usa los partidos JUGADOS por Los Tigres (6) en lugar de los GANADOS (1) como término de comparación.",
-            "patron_trampa": "confusion_variable"
-          },
           "D": {
-            "explicacion": "Usa los partidos ganados por Real Barrio (3) en lugar de los de Los Halcones (4) como término de comparación.",
+            "explicacion": "Usa los partidos JUGADOS por Los Tigres (6) en lugar de los GANADOS (1) como término de comparación.",
             "patron_trampa": "confusion_variable"
           }
         },
@@ -1166,25 +1166,25 @@
         "tipo_contexto": "familiar_personal",
         "enunciado": "¿Cuánto interés simple ganará Camilo al final del año por su inversión de $3.500.000?",
         "opciones": {
-          "A": "$140.000",
+          "A": "$175.000",
           "B": "$210.000",
-          "C": "$175.000",
-          "D": "$75.000"
+          "C": "$75.000",
+          "D": "$140.000"
         },
-        "respuesta_correcta": "C",
-        "explicacion_correcta": "El monto de $3.500.000 corresponde al segundo rango (entre $2.000.001 y $5.000.000), con tasa del 5% sobre el monto TOTAL: 3.500.000×0,05=$175.000.",
+        "respuesta_correcta": "A",
+        "explicacion_correcta": "El monto de $3.500.000 corresponde al segundo [[RC-R-media-y-rango|rango]] (entre $2.000.001 y $5.000.000), con tasa del 5% sobre el monto TOTAL: 3.500.000×0,05=$175.000.",
         "distractores": {
-          "A": {
-            "explicacion": "Usa la tasa del primer rango (4%), que no corresponde al monto invertido por Camilo.",
-            "patron_trampa": "procedimiento_con_paso_erroneo"
-          },
           "B": {
             "explicacion": "Usa la tasa del tercer rango (6%), que tampoco corresponde a este monto (solo aplica a montos superiores a $5.000.000).",
             "patron_trampa": "procedimiento_con_paso_erroneo"
           },
-          "D": {
+          "C": {
             "explicacion": "Aplica la tasa del 5% solo al EXCEDENTE sobre $2.000.000, confundiendo esta tabla con un esquema de tarifas marginales o escalonadas; aquí la tasa se aplica sobre el monto TOTAL, no solo sobre el excedente.",
             "patron_trampa": "confusion_variable"
+          },
+          "D": {
+            "explicacion": "Usa la tasa del primer rango (4%), que no corresponde al monto invertido por Camilo.",
+            "patron_trampa": "procedimiento_con_paso_erroneo"
           }
         },
         "dificultad": "alta",
@@ -1229,25 +1229,25 @@
         "tipo_contexto": "comunitario_social",
         "enunciado": "Un restaurante compra 15 cajas de fruta. ¿Cuánto paga en total, considerando el descuento correspondiente?",
         "opciones": {
-          "A": "$300.000",
-          "B": "$240.000",
-          "C": "$288.000",
-          "D": "$270.000"
+          "A": "$288.000",
+          "B": "$270.000",
+          "C": "$300.000",
+          "D": "$240.000"
         },
-        "respuesta_correcta": "D",
-        "explicacion_correcta": "15 cajas están en el rango de 10 a 19, que tiene 10% de descuento sobre el precio de TODAS las cajas. Precio base: 15×20.000=$300.000. Con el 10% de descuento: 300.000×0,9=$270.000.",
+        "respuesta_correcta": "B",
+        "explicacion_correcta": "15 cajas están en el rango de 10 a 19, que tiene 10% de descuento sobre el precio de TODAS las cajas. Precio base: 15×20.000=$300.000. Con [[RC-R-porcentaje-de|el 10% de]] descuento: 300.000×0,9=$270.000.",
         "distractores": {
           "A": {
+            "explicacion": "Aplica el 10% de descuento solo a las cajas que exceden 9, en lugar de aplicarlo sobre el total de las 15 cajas, como indica la definición del descuento.",
+            "patron_trampa": "confusion_variable"
+          },
+          "C": {
             "explicacion": "Reporta el precio base sin aplicar ningún descuento, ignorando que 15 cajas ya califican para el 10% de descuento.",
             "patron_trampa": "dato_no_disponible_o_supuesto"
           },
-          "B": {
+          "D": {
             "explicacion": "Aplica el 20% de descuento (correspondiente a 20 cajas o más) en lugar del 10% que corresponde al rango de 15 cajas.",
             "patron_trampa": "procedimiento_con_paso_erroneo"
-          },
-          "C": {
-            "explicacion": "Aplica el 10% de descuento solo a las cajas que exceden 9, en lugar de aplicarlo sobre el total de las 15 cajas, como indica la definición del descuento.",
-            "patron_trampa": "confusion_variable"
           }
         },
         "dificultad": "media",
@@ -1297,19 +1297,19 @@
         "tipo_contexto": "laboral_ocupacional",
         "enunciado": "¿Cuál de las siguientes afirmaciones sobre los resultados de la encuesta es FALSA?",
         "opciones": {
-          "A": "La cantidad de empleados muy insatisfechos representa menos del 5% de la muestra encuestada.",
-          "B": "Más del 70% de los encuestados se declaró satisfecho o muy satisfecho.",
-          "C": "El número de empleados insatisfechos es el cuádruple del número de empleados muy insatisfechos.",
+          "A": "Más del 70% de los encuestados se declaró satisfecho o muy satisfecho.",
+          "B": "El número de empleados insatisfechos es el cuádruple del número de empleados muy insatisfechos.",
+          "C": "La cantidad de empleados muy insatisfechos representa menos del 5% de la muestra encuestada.",
           "D": "Los resultados de esta encuesta corresponden a una MUESTRA de la población total de 800 empleados, no a la totalidad de ellos."
         },
-        "respuesta_correcta": "A",
-        "explicacion_correcta": "Es falsa porque los 5 empleados muy insatisfechos representan exactamente el 5% de la muestra de 100 (5÷100=5%), no MENOS del 5%.",
+        "respuesta_correcta": "C",
+        "explicacion_correcta": "Es falsa porque los 5 empleados muy insatisfechos representan exactamente [[RC-R-porcentaje-de|el 5% de]] la muestra de 100 (5÷100=5%), no MENOS del 5%.",
         "distractores": {
-          "B": {
+          "A": {
             "explicacion": "Es verdadera: 35+40=75 empleados, que es el 75% de la muestra, superando el 70%.",
             "patron_trampa": "operacion_incorrecta"
           },
-          "C": {
+          "B": {
             "explicacion": "Es verdadera: 20 (insatisfechos) es efectivamente 4 veces 5 (muy insatisfechos).",
             "patron_trampa": "redondeo_erroneo"
           },
@@ -1331,24 +1331,24 @@
         "tipo_contexto": "laboral_ocupacional",
         "enunciado": "Si se quisiera generalizar el resultado de esta encuesta (75% satisfecho o muy satisfecho) a los 800 empleados de la empresa, ¿qué condición debe cumplirse para que esta generalización sea razonable?",
         "opciones": {
-          "A": "Que los 100 empleados encuestados hayan respondido exactamente lo mismo entre sí.",
-          "B": "Que la muestra de 100 empleados haya sido seleccionada de forma representativa (por ejemplo, aleatoria y sin excluir sistemáticamente a ningún grupo de empleados).",
-          "C": "Que se encueste al menos al 50% del total de empleados para que el resultado sea válido.",
-          "D": "No se puede generalizar en ningún caso, porque una muestra nunca representa a la población completa."
+          "A": "No se puede generalizar en ningún caso, porque una muestra nunca llega a representar a toda la población.",
+          "B": "Que se encueste al menos al 50% del total de empleados para que el resultado sea válido.",
+          "C": "Que los 100 empleados encuestados hayan respondido exactamente lo mismo entre sí, sin ninguna discrepancia.",
+          "D": "Que los 100 empleados se hayan elegido de forma representativa y aleatoria, sin excluir a ningún grupo."
         },
-        "respuesta_correcta": "B",
+        "respuesta_correcta": "D",
         "explicacion_correcta": "Para generalizar razonablemente los resultados de una muestra a la población, la muestra debe ser representativa: seleccionada de forma que refleje la diversidad de los 800 empleados, sin excluir sistemáticamente a ningún grupo.",
         "distractores": {
           "A": {
-            "explicacion": "No se requiere unanimidad en las respuestas; una muestra representativa puede tener respuestas variadas y aun así permitir una generalización razonable.",
+            "explicacion": "Una muestra representativa SÍ permite una generalización razonable (con cierto margen de error); descartar cualquier generalización es una sobre-generalización del escepticismo.",
             "patron_trampa": "generalizacion_indebida"
           },
-          "C": {
+          "B": {
             "explicacion": "No existe una regla fija de 'mínimo 50%' para que una muestra sea válida; lo que importa es la representatividad, no un porcentaje mínimo arbitrario.",
             "patron_trampa": "dato_no_disponible_o_supuesto"
           },
-          "D": {
-            "explicacion": "Una muestra representativa SÍ permite una generalización razonable (con cierto margen de error); descartar cualquier generalización es una sobre-generalización del escepticismo.",
+          "C": {
+            "explicacion": "No se requiere unanimidad en las respuestas; una muestra representativa puede tener respuestas variadas y aun así permitir una generalización razonable.",
             "patron_trampa": "generalizacion_indebida"
           }
         },
@@ -1400,21 +1400,21 @@
         "tipo_contexto": "comunitario_social",
         "enunciado": "¿Cuál es la distancia REAL aproximada entre el museo y la plaza principal?",
         "opciones": {
-          "A": "150 km",
+          "A": "1,5 km",
           "B": "0,15 km",
-          "C": "1,5 km",
+          "C": "150 km",
           "D": "15 km"
         },
-        "respuesta_correcta": "C",
+        "respuesta_correcta": "A",
         "explicacion_correcta": "6 cm × 25.000 = 150.000 cm. Convirtiendo a metros (÷100): 1.500 m, y a kilómetros (÷1.000): 1,5 km.",
         "distractores": {
-          "A": {
-            "explicacion": "Calcula correctamente 6×25.000=150.000 cm, pero no convierte correctamente a kilómetros, dejando un factor de 1.000 de más.",
-            "patron_trampa": "unidades_no_convertidas"
-          },
           "B": {
             "explicacion": "Divide entre la escala en lugar de multiplicar, invirtiendo la operación de conversión.",
             "patron_trampa": "operacion_incorrecta"
+          },
+          "C": {
+            "explicacion": "Calcula correctamente 6×25.000=150.000 cm, pero no convierte correctamente a kilómetros, dejando un factor de 1.000 de más.",
+            "patron_trampa": "unidades_no_convertidas"
           },
           "D": {
             "explicacion": "Convierte de centímetros a kilómetros usando un factor de conversión equivocado, generando un error de un orden de magnitud.",
@@ -1443,25 +1443,25 @@
         "tipo_contexto": "familiar_personal",
         "enunciado": "Si el patrón de ahorro se mantiene igual, ¿cuál será el saldo acumulado en el mes 6?",
         "opciones": {
-          "A": "$950.000",
-          "B": "$900.000",
-          "C": "$1.200.000",
-          "D": "$1.100.000"
+          "A": "$1.100.000",
+          "B": "$1.200.000",
+          "C": "$950.000",
+          "D": "$900.000"
         },
-        "respuesta_correcta": "D",
+        "respuesta_correcta": "A",
         "explicacion_correcta": "El saldo sigue la relación: saldo = 200.000 + 150.000×mes. En el mes 6: 200.000+150.000×6=200.000+900.000=$1.100.000.",
         "distractores": {
-          "A": {
+          "B": {
+            "explicacion": "Multiplica el depósito inicial ($200.000) por el número de meses (6), en lugar de usar $150.000 como la razón de cambio mensual constante.",
+            "patron_trampa": "confusion_variable"
+          },
+          "C": {
             "explicacion": "Usa 150.000×5 en lugar de 150.000×6, un error al contar el número de meses transcurridos.",
             "patron_trampa": "operacion_incorrecta"
           },
-          "B": {
+          "D": {
             "explicacion": "Calcula correctamente el aumento acumulado (150.000×6=900.000) pero olvida sumar el depósito inicial de $200.000.",
             "patron_trampa": "dato_no_disponible_o_supuesto"
-          },
-          "C": {
-            "explicacion": "Multiplica el depósito inicial ($200.000) por el número de meses (6), en lugar de usar $150.000 como la razón de cambio mensual constante.",
-            "patron_trampa": "confusion_variable"
           }
         },
         "dificultad": "media",
@@ -1522,8 +1522,8 @@
         "opciones": {
           "A": "50",
           "B": "2",
-          "C": "200",
-          "D": "0,5"
+          "C": "0,5",
+          "D": "200"
         },
         "respuesta_correcta": "A",
         "explicacion_correcta": "Aplicando exactamente la fórmula definida: I=(450÷900)×100=0,5×100=50.",
@@ -1533,12 +1533,12 @@
             "patron_trampa": "procedimiento_con_paso_erroneo"
           },
           "C": {
-            "explicacion": "Invierte la razón (usa unidades en bodega÷unidades vendidas en lugar de al revés) y luego multiplica por 100.",
-            "patron_trampa": "lectura_invertida_datos"
-          },
-          "D": {
             "explicacion": "Calcula correctamente la razón (450÷900=0,5) pero olvida multiplicar por 100, como exige la definición dada en el problema.",
             "patron_trampa": "procedimiento_con_paso_erroneo"
+          },
+          "D": {
+            "explicacion": "Invierte la razón (usa unidades en bodega÷unidades vendidas en lugar de al revés) y luego multiplica por 100.",
+            "patron_trampa": "lectura_invertida_datos"
           }
         },
         "dificultad": "media",
@@ -1566,8 +1566,8 @@
         "opciones": {
           "A": "63 km/h",
           "B": "70 km/h",
-          "C": "141,75 km/h",
-          "D": "45 km/h"
+          "C": "45 km/h",
+          "D": "141,75 km/h"
         },
         "respuesta_correcta": "B",
         "explicacion_correcta": "Velocidad = distancia ÷ tiempo = 315 km ÷ 4,5 h = 70 km/h.",
@@ -1577,12 +1577,12 @@
             "patron_trampa": "operacion_incorrecta"
           },
           "C": {
-            "explicacion": "Multiplica en lugar de dividir, en vez de dividir 315 entre 4,5.",
-            "patron_trampa": "operacion_incorrecta"
-          },
-          "D": {
             "explicacion": "Confunde el cálculo con una unidad distinta a km/h.",
             "patron_trampa": "unidades_no_convertidas"
+          },
+          "D": {
+            "explicacion": "Multiplica en lugar de dividir, en vez de dividir 315 entre 4,5.",
+            "patron_trampa": "operacion_incorrecta"
           }
         },
         "dificultad": "baja",
@@ -1607,25 +1607,25 @@
         "tipo_contexto": "laboral_ocupacional",
         "enunciado": "¿Cuánto dinero le corresponde al socio C, según el reparto proporcional acordado?",
         "opciones": {
-          "A": "$6.666.667",
+          "A": "$12.000.000",
           "B": "$4.000.000",
-          "C": "$10.000.000",
-          "D": "$12.000.000"
+          "C": "$6.666.667",
+          "D": "$10.000.000"
         },
-        "respuesta_correcta": "C",
+        "respuesta_correcta": "D",
         "explicacion_correcta": "El total de partes es 2+3+5=10. Al socio C le corresponden 5 de esas 10 partes: (5÷10)×20.000.000=$10.000.000.",
         "distractores": {
           "A": {
-            "explicacion": "Reparte las ganancias en partes iguales entre los 3 socios, ignorando la proporción 2:3:5 establecida por sus aportes.",
-            "patron_trampa": "dato_no_disponible_o_supuesto"
+            "explicacion": "Usa 6 de 10 partes en lugar de 5 de 10, un error al identificar las partes correspondientes a cada socio.",
+            "patron_trampa": "operacion_incorrecta"
           },
           "B": {
             "explicacion": "Calcula la parte correspondiente al socio A (2 de 10 partes) en lugar de la del socio C (5 de 10 partes).",
             "patron_trampa": "confusion_variable"
           },
-          "D": {
-            "explicacion": "Usa 6 de 10 partes en lugar de 5 de 10, un error al identificar las partes correspondientes a cada socio.",
-            "patron_trampa": "operacion_incorrecta"
+          "C": {
+            "explicacion": "Reparte las ganancias en partes iguales entre los 3 socios, ignorando la proporción 2:3:5 establecida por sus aportes.",
+            "patron_trampa": "dato_no_disponible_o_supuesto"
           }
         },
         "dificultad": "media",
@@ -1650,24 +1650,24 @@
         "tipo_contexto": "comunitario_social",
         "enunciado": "¿Qué porcentaje (aproximado) de la población total del país vive en la ciudad capital?",
         "opciones": {
-          "A": "64%",
-          "B": "1,6%",
-          "C": "160%",
-          "D": "16%"
+          "A": "160%",
+          "B": "16%",
+          "C": "64%",
+          "D": "1,6%"
         },
-        "respuesta_correcta": "D",
+        "respuesta_correcta": "B",
         "explicacion_correcta": "(8×10⁶ ÷ 5,1×10⁷)×100 ≈ 15,7%, aproximadamente 16%.",
         "distractores": {
           "A": {
-            "explicacion": "Invierte cuál valor es la parte y cuál es el todo, calculando al revés de lo que corresponde.",
-            "patron_trampa": "lectura_invertida_datos"
-          },
-          "B": {
-            "explicacion": "Resta mal los exponentes al dividir en notación científica, obteniendo un resultado 10 veces menor al real.",
+            "explicacion": "Resta mal los exponentes en la otra dirección, obteniendo un resultado 10 veces mayor al real.",
             "patron_trampa": "operacion_incorrecta"
           },
           "C": {
-            "explicacion": "Resta mal los exponentes en la otra dirección, obteniendo un resultado 10 veces mayor al real.",
+            "explicacion": "Invierte cuál valor es la parte y cuál es el todo, calculando al revés de lo que corresponde.",
+            "patron_trampa": "lectura_invertida_datos"
+          },
+          "D": {
+            "explicacion": "Resta mal los exponentes al dividir en notación científica, obteniendo un resultado 10 veces menor al real.",
             "patron_trampa": "operacion_incorrecta"
           }
         },
