@@ -1,0 +1,394 @@
+[
+  {
+    "id": "LC-R-fig-metafora-simil",
+    "tipo": "definicion",
+    "titulo": "Metáfora y símil",
+    "variante": "corta",
+    "cuerpo": "Ambas figuras comparan dos elementos distintos por una semejanza real o imaginada. El símil deja visible el conector comparativo, como 'como' o 'parece'; la metáfora lo omite y funde los dos términos en una sola expresión, como si fueran la misma cosa.",
+    "ejemplo": "'Sus palabras eran como cuchillos' es símil; 'sus palabras eran cuchillos' es metáfora."
+  },
+  {
+    "id": "LC-R-fig-metonimia-sinecdoque",
+    "tipo": "definicion",
+    "titulo": "Metonimia y sinécdoque",
+    "variante": "corta",
+    "cuerpo": "Ambas nombran algo usando una palabra distinta relacionada con ello, no por parecido. La sinécdoque es el caso específico en que esa relación es de parte por el todo o de todo por la parte; la metonimia general abarca también otras relaciones, como causa por efecto o autor por obra.",
+    "ejemplo": "'La Casa Blanca respondió' es metonimia; 'necesito manos extra para la cosecha' es sinécdoque, porque las manos son literalmente parte de las personas."
+  },
+  {
+    "id": "LC-R-fig-ironia-sarcasmo",
+    "tipo": "definicion",
+    "titulo": "Ironía y sarcasmo",
+    "variante": "corta",
+    "cuerpo": "Ambas dicen lo contrario de lo que se piensa, confiando en que el contexto revele el sentido real. El sarcasmo añade una intención hiriente o burlona explícita hacia alguien; la ironía puede quedarse neutral o incluso humorística sin buscar herir a nadie.",
+    "ejemplo": "Decirle 'qué puntual eres' a quien llegó tres horas tarde, con tono cortante, es sarcasmo porque busca humillar; la misma frase dicha sin esa intención sería solo ironía."
+  },
+  {
+    "id": "LC-R-fig-personificacion-apostrofe",
+    "tipo": "definicion",
+    "titulo": "Personificación y apóstrofe retórico",
+    "variante": "corta",
+    "cuerpo": "La personificación atribuye cualidades o acciones humanas a algo que no es humano, como un animal, un objeto o una idea. El apóstrofe retórico va un paso más allá: se dirige directamente a ese algo en segunda persona, como si pudiera escuchar y responder.",
+    "ejemplo": "'La ciudad nunca duerme' es personificación; 'oh, viento, ¿por qué te llevas mis palabras?' es apóstrofe retórico, porque le habla directamente."
+  },
+  {
+    "id": "LC-R-fig-oximoron-paradoja",
+    "tipo": "definicion",
+    "titulo": "Oxímoron y paradoja",
+    "variante": "corta",
+    "cuerpo": "Ambas figuras combinan ideas que a primera vista se contradicen. El oxímoron junta dos palabras opuestas en una expresión muy corta, casi siempre un sustantivo con su adjetivo; la paradoja desarrolla la contradicción a lo largo de una afirmación más extensa que necesita explicarse para revelar el sentido coherente que esconde.",
+    "ejemplo": "'Silencio ensordecedor' es oxímoron; 'cuanto más rápido corría, más se alejaba la meta' es paradoja, porque exige pensar un momento para entenderla."
+  },
+  {
+    "id": "LC-R-fig-simbolo-alegoria",
+    "tipo": "definicion",
+    "titulo": "Símbolo y alegoría",
+    "variante": "corta",
+    "cuerpo": "El símbolo es un elemento concreto, un objeto, un color o un animal, que representa una idea abstracta de forma reconocible dentro de una cultura o del propio texto. La alegoría amplía ese mismo mecanismo a una narración completa, donde casi todos los elementos tienen una correspondencia sistemática con un segundo significado.",
+    "ejemplo": "Una paloma que representa la paz en un solo poema es símbolo; una fábula donde cada animal representa sistemáticamente un vicio humano distinto es alegoría."
+  },
+  {
+    "id": "LC-R-fig-epiteto-metafora",
+    "tipo": "definicion",
+    "titulo": "Epíteto y metáfora",
+    "variante": "corta",
+    "cuerpo": "El epíteto es un adjetivo que resalta una cualidad que el sustantivo ya tiene por naturaleza, sin añadir información nueva ni distinguirlo de otros de su tipo. La metáfora identifica el sustantivo con otra cosa completamente distinta, de forma figurada, no literal.",
+    "ejemplo": "'El feroz león' es epíteto porque la ferocidad ya se espera de un león; 'el león de la clase' aplicado a una persona es metáfora."
+  },
+  {
+    "id": "LC-R-fig-hiperbole",
+    "tipo": "definicion",
+    "titulo": "Hipérbole",
+    "variante": "corta",
+    "cuerpo": "Es una exageración deliberada de una cualidad, cantidad o acción, usada para dar énfasis, sin ninguna intención de que se tome literalmente. Se distingue de un dato erróneo porque la hipérbole es evidente e imposible de creer al pie de la letra, mientras que un dato falso se presenta como si fuera una cifra real.",
+    "ejemplo": "'Te lo he dicho un millón de veces' es hipérbole; nadie espera que se cuenten literalmente un millón de repeticiones."
+  },
+  {
+    "id": "LC-R-fig-antitesis",
+    "tipo": "definicion",
+    "titulo": "Antítesis",
+    "variante": "corta",
+    "cuerpo": "Es contraponer dos ideas o expresiones de significado opuesto dentro de la misma oración o párrafo, para resaltar el contraste entre ambas. Exige que las dos ideas sean realmente opuestas, no solo distintas, y que estén colocadas deliberadamente una frente a otra.",
+    "ejemplo": "'Vivimos en la era de la información y de la desinformación' contrapone dos ideas opuestas de forma deliberada."
+  },
+  {
+    "id": "LC-R-fig-anafora",
+    "tipo": "definicion",
+    "titulo": "Anáfora",
+    "variante": "corta",
+    "cuerpo": "Es la repetición de una misma palabra o frase al inicio de dos o más versos, oraciones o cláusulas seguidas. Su efecto típico en un texto persuasivo es generar un ritmo acumulativo que refuerza emocionalmente la idea repetida cada vez con más fuerza.",
+    "ejemplo": "'Tengo un sueño... tengo un sueño... tengo un sueño' repite la misma frase al inicio de cada oración para acumular fuerza persuasiva."
+  },
+  {
+    "id": "LC-R-fig-aliteracion",
+    "tipo": "definicion",
+    "titulo": "Aliteración",
+    "variante": "corta",
+    "cuerpo": "Es la repetición notoria de un mismo sonido, generalmente una consonante, en palabras cercanas dentro de la misma oración o verso. Aparece más en poesía que en textos argumentativos porque su efecto es sobre todo sonoro y estético, y se aprovecha mejor cuando el texto está pensado para leerse en voz alta.",
+    "ejemplo": "'El ruido con que rueda la ronca tempestad' repite el sonido 'r' varias veces seguidas."
+  },
+  {
+    "id": "LC-R-fig-eufemismo",
+    "tipo": "definicion",
+    "titulo": "Eufemismo",
+    "variante": "corta",
+    "cuerpo": "Es sustituir una expresión considerada dura, incómoda o de mal gusto por otra más suave o indirecta, sin cambiar el significado de fondo. En textos institucionales o políticos suele usarse para reducir el impacto negativo de una noticia o decisión ante el público.",
+    "ejemplo": "Decir 'ajuste de personal' en vez de 'despidos masivos' es eufemismo: suaviza la noticia sin cambiar el hecho."
+  },
+  {
+    "id": "LC-R-fig-hiperbaton",
+    "tipo": "definicion",
+    "titulo": "Hipérbaton",
+    "variante": "corta",
+    "cuerpo": "Es alterar el orden natural de las palabras en una oración, sujeto, verbo y complemento, por razones de énfasis, ritmo o estilo. Para comprobarlo, se reescribe la oración en su orden natural y se compara si solo cambió el orden, no el significado.",
+    "ejemplo": "'Del salón en el ángulo oscuro' invierte el orden natural, que sería 'en el ángulo oscuro del salón'."
+  },
+  {
+    "id": "LC-R-fig-pregunta-retorica",
+    "tipo": "definicion",
+    "titulo": "Pregunta retórica",
+    "variante": "corta",
+    "cuerpo": "Es una pregunta que no busca realmente una respuesta del lector, sino que afirma o refuerza una idea de forma indirecta. En un texto persuasivo, invita al lector a llegar por sí mismo a la conclusión que el autor ya defiende, haciendo que el argumento parezca una reflexión compartida en vez de una imposición.",
+    "ejemplo": "'¿Acaso no merecemos todos una vida digna?' no espera respuesta: afirma que sí la merecemos."
+  },
+  {
+    "id": "LC-R-fig-onomatopeya",
+    "tipo": "definicion",
+    "titulo": "Onomatopeya",
+    "variante": "corta",
+    "cuerpo": "Es una palabra cuyo sonido imita el sonido real de aquello que nombra. Es más frecuente en textos narrativos con escenas de acción, en poesía, y en textos discontinuos como cómics o historietas, donde los sonidos suelen representarse gráficamente.",
+    "ejemplo": "'Tic-tac' imitando el sonido de un reloj es onomatopeya."
+  },
+  {
+    "id": "LC-R-fig-gradacion",
+    "tipo": "definicion",
+    "titulo": "Gradación o clímax",
+    "variante": "corta",
+    "cuerpo": "Es presentar una serie de palabras o ideas en un orden de intensidad creciente o decreciente. Para comprobar que una enumeración es gradación y no una lista simple, basta reordenar sus elementos al azar: si se pierde el efecto de intensidad, el orden original era intencional.",
+    "ejemplo": "'Vine, vi, vencí' presenta tres acciones en un orden de intensidad creciente."
+  },
+  {
+    "id": "LC-R-fig-metaficcion",
+    "tipo": "definicion",
+    "titulo": "Metaficción",
+    "variante": "corta",
+    "cuerpo": "Es un recurso narrativo en el que el propio relato hace evidente que es una obra de ficción, por ejemplo cuando un personaje lee, escribe o interactúa con la historia que lo contiene. Rompe la ilusión de realidad para llamar la atención sobre el acto mismo de narrar.",
+    "ejemplo": "Un personaje que descubre que está leyendo el libro en el que aparece es un caso claro de metaficción."
+  },
+  {
+    "id": "LC-R-fun-idea-principal",
+    "tipo": "regla",
+    "titulo": "Idea principal de un párrafo",
+    "variante": "corta",
+    "cuerpo": "Es la afirmación central que organiza todo el párrafo; las ideas secundarias solo la explican, ejemplifican o sustentan. Un dato o cifra específica casi nunca es la idea principal por sí sola: casi siempre funciona como evidencia que sostiene esa idea, no como la idea en sí.",
+    "ejemplo": "En un párrafo sobre reciclaje, la cifra 'el 30% de la basura es reciclable' es evidencia; la idea principal es que reciclar más reduciría la basura enviada a rellenos sanitarios."
+  },
+  {
+    "id": "LC-R-fun-ubicacion-tesis",
+    "tipo": "regla",
+    "titulo": "Dónde suele aparecer la tesis",
+    "variante": "corta",
+    "cuerpo": "En un texto argumentativo, la tesis aparece con más frecuencia en la primera oración o al cierre del primer párrafo, aunque a veces queda implícita. Una tesis implícita se infiere identificando hacia qué conclusión apuntan en conjunto todos los argumentos y datos del texto.",
+    "ejemplo": "Si un texto nunca dice explícitamente que el transporte público debería ser gratuito, pero todos sus párrafos defienden esa idea con datos distintos, esa es su tesis implícita."
+  },
+  {
+    "id": "LC-R-fun-hecho-opinion",
+    "tipo": "regla",
+    "titulo": "Hecho frente a opinión",
+    "variante": "corta",
+    "cuerpo": "Un hecho se puede verificar con evidencia externa; una opinión expresa una valoración que puede cambiar según quién la emita. Algunas opiniones parecen hechos a primera vista porque se apoyan en datos reales, aunque la conclusión que se saca de esos datos siga siendo una interpretación del autor.",
+    "ejemplo": "'La inflación subió 5%' es un hecho verificable; 'esa inflación es catastrófica para el país' es una opinión construida sobre ese mismo dato."
+  },
+  {
+    "id": "LC-R-fun-resumen-fiel",
+    "tipo": "regla",
+    "titulo": "Resumir con fidelidad, sin opinar",
+    "variante": "corta",
+    "cuerpo": "Resumir reproduce fielmente lo que el autor dijo, eliminando ejemplos y datos secundarios pero sin agregar valoraciones propias. Opinar añade una lectura personal sobre ese contenido; confundir ambas cosas es riesgoso, porque una opción que refleja la opinión del lector en vez del texto suele ser un distractor diseñado para parecer razonable.",
+    "ejemplo": "Si el texto dice que una política redujo el desempleo, resumir es repetir exactamente eso; opinar sería agregar que esa política 'fue la mejor decisión del gobierno', algo que el texto nunca afirmó."
+  },
+  {
+    "id": "LC-R-fun-proposito-texto",
+    "tipo": "regla",
+    "titulo": "Cómo detectar el propósito de un texto",
+    "variante": "corta",
+    "cuerpo": "Se observa la estructura y el lenguaje: si da datos neutros informa, si defiende una postura persuade, si cuenta eventos narra, si busca divertir entretiene. Un mismo texto puede tener más de un propósito a la vez, pero casi siempre hay uno dominante que organiza a los demás.",
+    "ejemplo": "Una columna de opinión puede narrar una anécdota personal al inicio, pero su propósito dominante sigue siendo persuadir al lector de una postura."
+  },
+  {
+    "id": "LC-R-glo-tesis-soporte",
+    "tipo": "regla",
+    "titulo": "Tesis y argumentos de soporte",
+    "variante": "corta",
+    "cuerpo": "La tesis es la afirmación central que el autor defiende; los argumentos son las razones, datos o ejemplos que buscan convencer al lector de que esa tesis es válida. Un argumento es una razón general que justifica la tesis; un ejemplo es apenas un caso concreto que ilustra esa razón, sin ser la razón en sí misma.",
+    "ejemplo": "La tesis puede ser que hace falta más inversión en salud pública; un argumento sería que reduce el gasto futuro en emergencias, y un ejemplo sería el caso puntual de un hospital que logró bajar costos así."
+  },
+  {
+    "id": "LC-R-glo-tesis-antitesis",
+    "tipo": "regla",
+    "titulo": "Tesis y su antítesis a nivel textual",
+    "variante": "corta",
+    "cuerpo": "La antítesis de un texto completo es la idea exactamente opuesta a su tesis, invirtiendo el sentido central, no solo negando una palabra suelta. Rara vez aparece escrita literalmente, porque el autor dedica el texto a defender su propia tesis, así que la idea opuesta normalmente solo se menciona para refutarla.",
+    "ejemplo": "Si la tesis es que el trabajo remoto mejora la productividad, su antítesis es que el trabajo remoto la reduce, aunque el texto solo mencione esa idea para rebatirla."
+  },
+  {
+    "id": "LC-R-glo-audiencia",
+    "tipo": "regla",
+    "titulo": "Tipos de audiencia de un texto",
+    "variante": "corta",
+    "cuerpo": "Se identifica el tipo de audiencia de un texto analizando el nivel de vocabulario, qué conocimientos previos asume el autor, y si hay menciones directas al lector. Muchas preguntas piden directamente para quién fue escrito un texto, o qué reacción esperaría generar en ese público específico.",
+    "ejemplo": "Un artículo que explica un virus usando términos técnicos sin definirlos asume una audiencia especializada, no al público general."
+  },
+  {
+    "id": "LC-R-glo-voces-interlocutores",
+    "tipo": "regla",
+    "titulo": "Voces e interlocutores en un texto",
+    "variante": "corta",
+    "cuerpo": "Un texto puede tener la voz del autor o narrador y una o más voces citadas o representadas, como expertos, personajes u opositores; se identifican por comillas, verbos de habla como 'afirma' o 'sostiene', y cambios de perspectiva. El interlocutor, a quien se dirige el texto, se identifica por el tono, el vocabulario y las referencias que el autor asume que el lector ya comparte.",
+    "ejemplo": "'Según el ministro, la medida reducirá el desempleo' marca con 'según' que esa es una voz citada, distinta de la del autor del artículo."
+  },
+  {
+    "id": "LC-R-glo-tipologia-textual",
+    "tipo": "regla",
+    "titulo": "Tipología textual y textos discontinuos",
+    "variante": "corta",
+    "cuerpo": "El texto argumentativo defiende una postura con razones, el expositivo explica un tema de forma neutral, el narrativo cuenta hechos en secuencia temporal y el descriptivo detalla características. Aparte de esa tipología, el texto continuo se organiza en párrafos seguidos, mientras que el discontinuo organiza la información en formatos no lineales como infografías, tablas, gráficas o cómics, que conviene leer identificando primero sus unidades separadas.",
+    "ejemplo": "Una infografía con datos de vacunación es un texto discontinuo: hay que entender primero cada sección antes de interpretar el mensaje completo."
+  },
+  {
+    "id": "LC-R-glo-estrategias-discursivas",
+    "tipo": "regla",
+    "titulo": "Comparación, ejemplificación, refutación, concesión y autoridad",
+    "variante": "corta",
+    "cuerpo": "La comparación relaciona dos elementos para resaltar semejanzas o diferencias; la ejemplificación ilustra una idea general con un caso concreto; la refutación rechaza directamente un argumento contrario; la concesión acepta parcialmente algo de ese argumento antes de matizarlo; y la cita de autoridad apoya una afirmación mencionando a una fuente reconocida en el tema. Cuando un párrafo combina varias, la que predomina es la que organiza su estructura general.",
+    "ejemplo": "'Aunque algunos estudios sugieren beneficios menores, la evidencia acumulada muestra un efecto claro' concede primero y refuta después en la misma oración."
+  },
+  {
+    "id": "LC-R-glo-funcion-titulo-parrafos",
+    "tipo": "regla",
+    "titulo": "Función del título y de cada párrafo",
+    "variante": "corta",
+    "cuerpo": "El título anticipa el tema, delimita la perspectiva desde la que se abordará y a veces adelanta la postura del autor. Para identificar la función de un párrafo específico conviene preguntarse qué papel cumple frente a los demás, si introduce, desarrolla, ejemplifica, contrasta o concluye; un párrafo de cierre suele retomar la tesis inicial y usar conectores como 'en conclusión' o 'finalmente'.",
+    "ejemplo": "Un párrafo que empieza con 'en definitiva' y resume los argumentos anteriores está cumpliendo función de cierre."
+  },
+  {
+    "id": "LC-R-glo-causa-efecto",
+    "tipo": "regla",
+    "titulo": "Relación causa-efecto en un texto",
+    "variante": "corta",
+    "cuerpo": "Se identifica buscando un conector que indique consecuencia, como 'por eso' o 'debido a', y verificando que un hecho realmente provoque al otro, no solo que ocurran juntos. La causa principal es indispensable para que ocurra el efecto; las causas secundarias solo intensifican un efecto que de todas formas ocurriría.",
+    "ejemplo": "'Llovió toda la noche, por eso se inundó la calle' marca una relación causal explícita con 'por eso'."
+  },
+  {
+    "id": "LC-R-glo-conclusiones-implicitas",
+    "tipo": "regla",
+    "titulo": "Extraer conclusiones no explícitas",
+    "variante": "corta",
+    "cuerpo": "Es formular una idea que se desprende lógicamente de lo que el texto dice, aunque el autor nunca la haya escrito con esas palabras. Se verifica rastreando cada parte de la conclusión hasta una afirmación específica del texto; una conclusión deducible se desprende necesariamente de la información dada, mientras que una simplemente compatible no la contradice pero tampoco tiene el mismo respaldo.",
+    "ejemplo": "Si el texto dice que todas las tiendas del barrio cerraron menos una cadena grande, se puede concluir sin que lo diga explícitamente que esa cadena resistió mejor la competencia."
+  },
+  {
+    "id": "LC-R-glo-conectores",
+    "tipo": "regla",
+    "titulo": "Conectores y sentido global",
+    "variante": "corta",
+    "cuerpo": "Más allá de una oración aislada, los conectores señalan cómo se relacionan las grandes secciones de un texto entre sí: si una idea se opone a la anterior, la desarrolla, la matiza o cierra el razonamiento. Eliminar mentalmente un conector deja las ideas yuxtapuestas sin que se entienda cómo se relacionan, lo que ayuda a confirmar qué función cumplía.",
+    "ejemplo": "Quitar 'sin embargo' de un párrafo deja dos ideas sueltas sin marcar que la segunda contradice a la primera."
+  },
+  {
+    "id": "LC-R-glo-funcion-poetica",
+    "tipo": "regla",
+    "titulo": "Función poética del lenguaje",
+    "variante": "corta",
+    "cuerpo": "Ocurre cuando el lenguaje llama la atención sobre su propia forma, sonido, ritmo o elección de palabras, no solo sobre el contenido que transmite. Un texto informativo casi nunca la tiene, porque su prioridad es la claridad y la precisión, no el efecto estético de las palabras.",
+    "ejemplo": "Un poema que elige palabras por su sonoridad, más que por precisión informativa, está usando la función poética del lenguaje."
+  },
+  {
+    "id": "LC-R-glo-foreshadowing",
+    "tipo": "regla",
+    "titulo": "Anticipación narrativa",
+    "variante": "corta",
+    "cuerpo": "Es un detalle, ambiente o comentario colocado antes en la narración que, sin revelarlo del todo, prepara al lector para algo que ocurrirá más adelante en la historia. Se reconoce porque, al releer, ese detalle adquiere un sentido que en la primera lectura pasaba casi desapercibido.",
+    "ejemplo": "Un personaje que menciona de pasada que nunca ha viajado en avión, poco antes de un accidente aéreo en la trama, es anticipación narrativa."
+  },
+  {
+    "id": "LC-R-glo-proporcion-relativa",
+    "tipo": "regla",
+    "titulo": "Proporción relativa frente a valor absoluto",
+    "variante": "corta",
+    "cuerpo": "El porcentaje muestra qué parte representa algo dentro de un total; el valor absoluto es la cantidad real. Ambos pueden cambiar de forma independiente si el total también cambia, así que un aumento porcentual no siempre implica un aumento en la cantidad real, ni al revés.",
+    "ejemplo": "Si una empresa pasa de 2 a 4 empleadas mujeres mientras contrata 100 personas más, el porcentaje de mujeres puede bajar aunque el número absoluto haya subido."
+  },
+  {
+    "id": "LC-R-fal-ad-hominem",
+    "tipo": "regla",
+    "titulo": "Falacia ad hominem",
+    "variante": "corta",
+    "cuerpo": "Es atacar a la persona que presenta un argumento, su carácter, motivos o circunstancias, en vez de responder al argumento mismo. El argumento puede seguir siendo válido incluso si quien lo defiende tiene motivos cuestionables.",
+    "ejemplo": "Descartar una propuesta de ley ambiental solo porque quien la presenta tuvo un escándalo personal ajeno al tema es ad hominem."
+  },
+  {
+    "id": "LC-R-fal-falsa-dicotomia",
+    "tipo": "regla",
+    "titulo": "Falacia de falsa dicotomía",
+    "variante": "corta",
+    "cuerpo": "Es presentar solo dos opciones como si fueran las únicas posibles, cuando en realidad existen alternativas intermedias o adicionales. Suele usarse para forzar al lector a elegir entre dos extremos y descartar así cualquier postura matizada.",
+    "ejemplo": "'O apoyas esta reforma completa o estás en contra del progreso' ignora que se podría apoyar una versión modificada de la reforma."
+  },
+  {
+    "id": "LC-R-fal-generalizacion-apresurada",
+    "tipo": "regla",
+    "titulo": "Falacia de generalización apresurada",
+    "variante": "corta",
+    "cuerpo": "Es sacar una conclusión general a partir de muy pocos casos o de una muestra que no representa bien a todo el grupo. Una anécdota aislada, por vívida que sea, no basta como evidencia de un patrón general.",
+    "ejemplo": "Concluir que todos los productos de una marca son defectuosos porque un solo cliente tuvo un problema es generalización apresurada."
+  },
+  {
+    "id": "LC-R-fal-apelacion-autoridad",
+    "tipo": "regla",
+    "titulo": "Falacia de apelación a la autoridad",
+    "variante": "corta",
+    "cuerpo": "Es aceptar una afirmación como verdadera solo porque la dice alguien con prestigio o poder, sin verificar si esa persona tiene experticia real en el tema específico. Citar a una autoridad legítima en su propio campo sí es válido; el error es extender ese prestigio a un tema ajeno.",
+    "ejemplo": "Un actor famoso recomendando una inversión financiera no aporta ninguna autoridad real sobre economía, aunque sea una autoridad reconocida en actuación."
+  },
+  {
+    "id": "LC-R-fal-apelacion-emocion",
+    "tipo": "regla",
+    "titulo": "Falacia de apelación a la emoción",
+    "variante": "corta",
+    "cuerpo": "Es intentar convencer generando una reacción emocional fuerte, como miedo, lástima o indignación, en vez de presentar razones o evidencia sobre el tema. Mencionar una emoción real no es el problema; el problema aparece cuando esa emoción reemplaza por completo a los datos.",
+    "ejemplo": "Mostrar solo imágenes conmovedoras para exigir un proyecto sin presentar ningún estudio de viabilidad es apelación a la emoción."
+  },
+  {
+    "id": "LC-R-fal-pendiente-resbaladiza",
+    "tipo": "regla",
+    "titulo": "Falacia de la pendiente resbaladiza",
+    "variante": "corta",
+    "cuerpo": "Es afirmar que una primera acción, aparentemente inofensiva, desencadenará inevitablemente una cadena de consecuencias cada vez más graves, sin evidencia real de que esa cadena vaya a ocurrir. Cada paso de la cadena necesita su propia justificación, no solo darse por hecho.",
+    "ejemplo": "'Si permitimos esta excepción hoy, mañana no habrá ninguna regla que se respete' salta a una consecuencia extrema sin mostrar por qué es inevitable."
+  },
+  {
+    "id": "LC-R-fal-circularidad",
+    "tipo": "regla",
+    "titulo": "Falacia de circularidad",
+    "variante": "corta",
+    "cuerpo": "Es usar la misma conclusión que se quiere probar como si fuera una de las razones que la sustentan, dando vueltas sin aportar evidencia nueva. También se conoce como petición de principio.",
+    "ejemplo": "'Esta ley es justa porque es lo correcto, y sabemos que es lo correcto porque es justa' repite la misma idea sin probar nada nuevo."
+  },
+  {
+    "id": "LC-R-fal-hombre-de-paja",
+    "tipo": "regla",
+    "titulo": "Falacia del hombre de paja",
+    "variante": "corta",
+    "cuerpo": "Es distorsionar o exagerar la posición de un oponente para volverla más fácil de atacar, y luego refutar esa versión distorsionada en vez del argumento real. El oponente termina defendiéndose de algo que nunca dijo.",
+    "ejemplo": "Responder a 'deberíamos regular mejor las redes sociales' con 'entonces quieres censurar toda la libertad de expresión' distorsiona la propuesta original."
+  },
+  {
+    "id": "LC-R-fal-correlacion-causalidad",
+    "tipo": "regla",
+    "titulo": "Falacia de confundir correlación con causalidad",
+    "variante": "corta",
+    "cuerpo": "Es asumir que, porque un evento ocurrió después de o junto con otro, el primero necesariamente causó al segundo, sin descartar otras explicaciones posibles. También se llama post hoc, y es una de las falacias más comunes al leer estadísticas o noticias.",
+    "ejemplo": "Concluir que un nuevo semáforo causó el aumento de ventas en la tienda de al lado, solo porque ambos eventos coincidieron en el tiempo, ignora otras causas posibles."
+  },
+  {
+    "id": "LC-R-ref-supuestos-no-explicitos",
+    "tipo": "regla",
+    "titulo": "Supuestos no explícitos de un argumento",
+    "variante": "corta",
+    "cuerpo": "Es una idea que el autor da por cierta y necesita para que su argumento funcione, pero que nunca afirma directamente en el texto. Un argumento es tan fuerte como sus supuestos: si el supuesto oculto es dudoso o falso, la conclusión pierde su respaldo aunque los datos mencionados sean ciertos.",
+    "ejemplo": "Un texto que recomienda estudiar en el extranjero para 'tener mejores oportunidades' da por sentado, sin decirlo, que las oportunidades locales son insuficientes."
+  },
+  {
+    "id": "LC-R-ref-sesgo-autor",
+    "tipo": "regla",
+    "titulo": "Cómo detectar sesgo o parcialidad del autor",
+    "variante": "corta",
+    "cuerpo": "Se detecta revisando si el texto presenta solo una perspectiva del asunto, usa un lenguaje desigual para describir a las partes involucradas, o ignora sistemáticamente evidencia que contradiría su posición. Un texto puede ser sesgado incluso si todos sus datos son ciertos, porque el sesgo también está en qué datos se seleccionan y destacan.",
+    "ejemplo": "Un artículo que solo cita expertos a favor de una política, sin mencionar ninguna crítica documentada, muestra sesgo aunque cada dato citado sea verdadero."
+  },
+  {
+    "id": "LC-R-ref-suficiencia-evidencia",
+    "tipo": "regla",
+    "titulo": "Suficiencia de la evidencia",
+    "variante": "corta",
+    "cuerpo": "Es comparar el tamaño y la fuerza de una conclusión con la cantidad y calidad de la evidencia realmente ofrecida, sin dar por hecho que cualquier evidencia alcanza para cualquier conclusión. La evidencia sólida proviene de fuentes sistemáticas y verificables; la anecdótica se basa en casos aislados que no representan necesariamente al conjunto.",
+    "ejemplo": "Concluir que una dieta funciona para todo el mundo porque un conocido bajó de peso con ella se apoya en evidencia anecdótica, no suficiente."
+  },
+  {
+    "id": "LC-R-ref-intencion-autor",
+    "tipo": "regla",
+    "titulo": "Cómo valorar la intención del autor",
+    "variante": "corta",
+    "cuerpo": "Valorar la intención del autor va más allá de identificarla: significa evaluar si está bien lograda, si es apropiada para la audiencia y el tema, y qué efecto tiene realmente en el lector. Si la intención declarada o aparente no coincide con las técnicas realmente usadas, la credibilidad del texto se ve comprometida.",
+    "ejemplo": "Un texto que dice buscar 'informar objetivamente' pero solo usa lenguaje cargado de connotación negativa hacia un lado no logra la intención que declara."
+  },
+  {
+    "id": "LC-R-ref-tecnicas-persuasion",
+    "tipo": "regla",
+    "titulo": "Técnicas de persuasión",
+    "variante": "corta",
+    "cuerpo": "Se reconocen observando recursos como el tono elegido, las palabras cargadas de connotación positiva o negativa, las imágenes usadas y qué información se destaca u omite. Una técnica persuasiva es legítima cuando complementa evidencia real y razonamiento válido, y se vuelve manipuladora cuando reemplaza por completo a la evidencia.",
+    "ejemplo": "Elegir llamar a una medida 'ajuste necesario' en vez de 'recorte' es una técnica persuasiva que cambia la percepción sin cambiar el hecho."
+  }
+]

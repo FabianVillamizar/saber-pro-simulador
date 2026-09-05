@@ -43,6 +43,13 @@
      del popover. */
   --cc-accent: #b45309;
 
+  /* Módulo Lectura Crítica: teal de tinta propio para la capa "Reglas en
+     contexto" — distinto del azul, el carmesí de Français, el índigo de
+     Inglés, el verde de Diosgenina y el ámbar de Competencias Ciudadanas.
+     Cambia por tema: en oscuro se aclara para que el subrayado siga
+     legible sobre el fondo del popover. */
+  --lc-accent: #0f766e;
+
   --mix-base: white;
 
   --radio-lg: 20px;
@@ -77,6 +84,7 @@
   --in-accent: #6b9bff;
   --dg-accent: #5fbf86;
   --cc-accent: #e0973b;
+  --lc-accent: #4fd1c5;
 
   --mix-base: black;
 
@@ -101,6 +109,7 @@
     --in-accent: #6b9bff;
     --dg-accent: #5fbf86;
     --cc-accent: #e0973b;
+    --lc-accent: #4fd1c5;
     --mix-base: black;
     --sombra-suave: 0 12px 30px rgba(0, 0, 0, 0.35);
     --sombra-hover: rgba(0, 0, 0, 0.35);

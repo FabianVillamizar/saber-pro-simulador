@@ -91,6 +91,18 @@
   --rc-acc-soft-2: color-mix(in oklch, var(--cc-accent) 22%, transparent);
 }
 
+/* Acento propio de Lectura Crítica: --lc-accent (teal de tinta, con valor
+   claro/oscuro en tokens.css). Mismo apunte de especificidad que los
+   anteriores. */
+.rc-disp[data-acento='lc'],
+.rc-pop-wrap[data-acento='lc'],
+:root[data-theme='dark'] .rc-disp[data-acento='lc'],
+:root[data-theme='dark'] .rc-pop-wrap[data-acento='lc'] {
+  --rc-acc: var(--lc-accent);
+  --rc-acc-soft: color-mix(in oklch, var(--lc-accent) 12%, transparent);
+  --rc-acc-soft-2: color-mix(in oklch, var(--lc-accent) 22%, transparent);
+}
+
 /* ---------- disparador ---------- */
 
 .rc-disp {

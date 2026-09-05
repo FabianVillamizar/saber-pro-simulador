@@ -116,6 +116,18 @@ export const indiceModulos = {
       discontinuo: 'Elementos discontinuos',
     },
     adapters: adaptersLecturaCritica,
+    // "Reglas en contexto" (token `[[id-regla|texto]]` -> popover) en Repaso
+    // de conceptos y en el Quiz Rápido. El rulebook vive en
+    // src/data/lectura-critica/lc_reglas.json — 49 reglas: figuras
+    // retóricas (17, la mayoría como pares que se confunden entre sí),
+    // estrategias fundamentales y discursivas de lectura, y herramientas de
+    // evaluación crítica incluidas las 9 falacias con nombre propio.
+    // `acentoReglas: 'lc'` pinta el disparador y el popover con el teal de
+    // tinta propio `--lc-accent`, distinto del azul, el carmesí de
+    // Français, el índigo de Inglés, el verde de Diosgenina y el ámbar de
+    // Competencias Ciudadanas.
+    renderizaFormulas: true,
+    acentoReglas: 'lc',
   },
   'competencias-ciudadanas': {
     id: 'competencias-ciudadanas',
