@@ -4,6 +4,7 @@ import { useTheme } from '../hooks/useTheme.js'
 import {
   armarSimulacro,
   calificarSimulacro,
+  barajarOpcionesPregunta,
   DISTRIBUCION_DEFECTO,
   DURACION_DEFECTO_MINUTOS,
   DISTRIBUCION_RC,
@@ -94,7 +95,7 @@ export function Simulacro({ moduloId, perfil, onCambiarPerfil, onVolver, onIrARe
 
   function comenzar() {
     const { preguntas: seleccionadas, advertencias: adv } = armarSimulacro(modulo.preguntas, distribucion)
-    setExamen(seleccionadas)
+    setExamen(seleccionadas.map(barajarOpcionesPregunta))
     setAdvertencias(adv)
     setRespuestas({})
     setIndice(0)

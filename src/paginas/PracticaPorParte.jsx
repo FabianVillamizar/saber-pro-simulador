@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useModulo } from '../hooks/useModulo.js'
 import { useTheme } from '../hooks/useTheme.js'
 import { crearCola, reencolarTrasFallo, retirarTrasAcierto } from '../engine/colaRefuerzo.js'
-import { barajarPorGrupo } from '../engine/simulacro.js'
+import { barajarPorGrupo, barajarOpcionesPregunta } from '../engine/simulacro.js'
 import { registrarPracticaParte } from '../engine/progreso.js'
 import { registrarFalloTrampa, leerPatronesTrampa, priorizarPorPatrones } from '../engine/patronesPerfil.js'
 import { reproducirSonido } from '../engine/sonido.js'
@@ -59,7 +59,7 @@ export function PracticaPorParte({ moduloId, perfil, onCambiarPerfil, onVolver }
     // reordena por tus patron_trampa más frecuentes en los últimos días
     // (ver VENTANA_DIAS en patronesPerfil.js): lo que más te cuesta ahora
     // aparece antes en la cola.
-    const barajadas = barajarPorGrupo(preguntasParte)
+    const barajadas = barajarPorGrupo(preguntasParte).map(barajarOpcionesPregunta)
     const priorizadas = priorizarPorPatrones(barajadas, leerPatronesTrampa(perfil.id))
     const colaInicial = crearCola(priorizadas, { yaOrdenado: true })
     setParteSeleccionada(parte)

@@ -62,6 +62,50 @@ export function barajarPorGrupo(preguntas) {
   return barajar(agruparPorGrupo(preguntas)).flat()
 }
 
+const LETRAS = ['A', 'B', 'C', 'D']
+
+// Los ítems de opción múltiple de CC/PC/RC/LC (formato "grupo + preguntas",
+// opciones A-D fijas en el JSON fuente) comparten PreguntaMultipleChoice.jsx
+// y PanelExplicacion.jsx para render y feedback. Un audit de los ~150 ítems
+// reales de Lectura Crítica encontró que la opción correcta es la más larga
+// en el 90% de los casos (ver bitácora del módulo, 2026-09-05) — adivinable
+// sin leer, igual que el sesgo que ya se corrigió en el Quiz Rápido de
+// Competencias Ciudadanas. Esta función baraja el orden A-D UNA VEZ por
+// pregunta (se llama al armar la cola/examen, no en cada render) y
+// re-etiqueta `opciones`/`respuestaCorrecta`/`distractores`/`opcionesImagen`
+// a las letras nuevas — así toda la pregunta queda consistente en cualquier
+// componente que la use después (PreguntaMultipleChoice, PanelExplicacion,
+// el registro de patrón_trampa por letra), en vez de barajar solo la vista
+// y dejar que otro componente siga leyendo la letra original de los datos.
+export function barajarOpcionesPregunta(pregunta) {
+  if (!pregunta.opciones) return pregunta
+  const original = Object.keys(pregunta.opciones)
+  // nuevoOrden[i] = letra original que va a ocupar la posición visual i
+  // (LETRAS[i]). Construir el objeto remapeado RECORRIENDO nuevoOrden (no
+  // las claves originales) es lo que garantiza que Object.keys() salga
+  // A,B,C,D en ese orden — recorrer las claves originales y solo traducir
+  // cada una con `mapa` deja el objeto insertado en un orden dependiente
+  // del azar (ej. C,A,D,B), que Object.entries()/PreguntaMultipleChoice.jsx
+  // renderizaría tal cual, mostrando las opciones fuera de orden en pantalla.
+  const nuevoOrden = barajar(original)
+  const mapa = Object.fromEntries(nuevoOrden.map((letraOriginal, i) => [letraOriginal, LETRAS[i]]))
+  const remapear = (obj) => {
+    if (!obj) return obj
+    const resultado = {}
+    for (const [i, letraOriginal] of nuevoOrden.entries()) {
+      if (letraOriginal in obj) resultado[LETRAS[i]] = obj[letraOriginal]
+    }
+    return resultado
+  }
+  return {
+    ...pregunta,
+    opciones: remapear(pregunta.opciones),
+    respuestaCorrecta: mapa[pregunta.respuestaCorrecta],
+    distractores: remapear(pregunta.distractores),
+    opcionesImagen: remapear(pregunta.opcionesImagen),
+  }
+}
+
 // Selecciona `cantidad` preguntas de una parte barajando grupos completos
 // y cortando al total exacto. Funciona igual para partes con grupos de 1
 // pregunta (conversación) que con grupos de varias (emparejamiento,
