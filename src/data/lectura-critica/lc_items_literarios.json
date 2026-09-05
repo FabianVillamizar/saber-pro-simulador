@@ -48,7 +48,7 @@
         "opciones": {
           "A": "Cada par de estrofas describe una estación del año distinta en la que floreció el amor",
           "B": "Cada par de estrofas contrapone un fenómeno natural que volverá cíclicamente con un aspecto irrepetible del amor pasado",
-          "C": "Cada par de estrofas narra un evento cronológico distinto dentro de la relación de la pareja",
+          "C": "Cada par de estrofas narra un evento cronológico distinto dentro de la relación de la pareja, ordenados desde el principio hasta el final",
           "D": "Cada par de estrofas presenta una queja distinta contra la persona amada"
         },
         "respuesta_correcta": "B",
@@ -155,7 +155,7 @@
           "A": "En la primera parte el hablante camina acompañado y feliz; en la segunda camina solo, de luto, y la sombra de la persona amada, ya muerta, vuelve a unirse a la suya",
           "B": "En la primera parte el hablante camina bajo la luz fría de la luna llena; en la segunda camina bajo un calor húmedo que anuncia la primavera",
           "C": "En la primera parte el hablante todavía duda del amor que siente por la mujer; en la segunda lo reconoce por completo y decide declararse",
-          "D": "En la primera parte el hablante camina por la llanura junto a un río; en la segunda se ha mudado definitivamente a vivir a la ciudad"
+          "D": "En la primera parte el hablante camina por la llanura junto a un río; en la segunda se ha mudado definitivamente a vivir a la ciudad, dejando atrás el paisaje de su juventud"
         },
         "respuesta_correcta": "A",
         "explicacion_correcta": "El poema contrasta una noche de amor compartido con otra noche de soledad y duelo ('las agonías de tu muerte'), en la que la sombra de la amada reaparece.",
@@ -187,7 +187,7 @@
           "A": "Como una alegoría sobre las diferencias sociales y de clase que existían entre los dos amantes",
           "B": "Como una fusión espiritual entre el hablante y el recuerdo de la persona fallecida, ya que solo las sombras se reencuentran, no las personas",
           "C": "Como un efecto óptico casual, propio de la luz de la luna, sin relación real con el duelo del hablante",
-          "D": "Como la prueba de que, en el fondo, la mujer no llegó a morir y el hablante se reencuentra con ella en persona"
+          "D": "Como la prueba de que, en el fondo, la mujer no llegó a morir y el hablante se reencuentra con ella en persona, cerrando la historia con un final feliz"
         },
         "respuesta_correcta": "B",
         "explicacion_correcta": "El poema insiste en el frío, el sepulcro y las 'agonías de tu muerte'; el reencuentro de sombras es simbólico, no literal, y expresa cómo el duelo hace presente lo perdido.",
@@ -257,7 +257,7 @@
         ],
         "enunciado": "¿Cuál es la tesis central que defiende el hablante frente a la figura de Roosevelt y de Estados Unidos?",
         "opciones": {
-          "A": "Que el hablante admira sin reservas a Roosevelt y apoya abiertamente la expansión territorial que describe",
+          "A": "Que el hablante admira sin reservas a Roosevelt y apoya abiertamente la expansión territorial que describe, viéndola como un progreso necesario",
           "B": "Que América Latina debería adoptar por completo el modelo político y cultural de Estados Unidos",
           "C": "Que Estados Unidos y América Latina comparten, en el fondo, el mismo origen cultural y la misma historia",
           "D": "Que, frente al poder expansionista de Estados Unidos, América Latina posee una identidad cultural e histórica propia que la sostiene y la protege"
@@ -487,7 +487,7 @@
         "opciones": {
           "A": "Que quienes fusilaron a la Oveja negra por diferente la honran después con una estatua, y usan esa diferencia para seguir persiguiendo a otras",
           "B": "Que la Oveja negra, a pesar de su nombre, no llegó a ser tan distinta de las demás ovejas del rebaño",
-          "C": "Que la escultura despertó en el rebaño un interés artístico que antes casi no existía entre las ovejas",
+          "C": "Que la escultura despertó en el rebaño un interés artístico que antes casi no existía entre las ovejas, cambiando incluso su manera de entender el arte",
           "D": "Que el rebaño, arrepentido de verdad por lo ocurrido, decide no volver a fusilar a ninguna otra oveja"
         },
         "respuesta_correcta": "A",
@@ -517,7 +517,7 @@
         ],
         "enunciado": "¿Qué crítica social plantea Monterroso al mostrar que las futuras ovejas negras siguen siendo fusiladas para que las generaciones futuras 'pudieran ejercitarse también en la escultura'?",
         "opciones": {
-          "A": "Que las estatuas ecuestres son, sin discusión, la forma de arte más noble y elevada que existe",
+          "A": "Que las estatuas ecuestres son, sin discusión, la forma de arte más noble y elevada que existe, y merecen financiarse por encima de cualquier otra",
           "B": "Que hace falta una mayor inversión pública en programas de educación artística para el rebaño",
           "C": "Que las ovejas negras deberían esforzarse más por comportarse como el resto y ser obedientes",
           "D": "Que las sociedades a veces rinden homenaje tardío a quienes antes persiguieron, sin cambiar su trato hacia los diferentes de hoy"
@@ -561,7 +561,7 @@
           "A": "Que la boda se celebrara en España, en la tierra natal de don Luis, en vez de en Lima",
           "B": "Que Margarita aprendiera primero a hablar francés antes de poder casarse con don Luis",
           "C": "Que don Raimundo jurara ante la Hostia no darle a su hija dote ni herencia, aunque sí la camisa de novia",
-          "D": "Que don Luis Alcázar renunciara públicamente a su apellido y a su linaje familiar"
+          "D": "Que don Luis Alcázar renunciara públicamente a su apellido y a su linaje familiar ante toda la sociedad limeña reunida"
         },
         "respuesta_correcta": "C",
         "explicacion_correcta": "El texto lo dice explícitamente: don Honorato exige el juramento de no dar dote ni herencia, y solo cede en permitir la camisa de novia.",
@@ -591,7 +591,7 @@
         "enunciado": "¿Qué función cumple la anécdota completa en relación con el dicho popular citado al inicio del relato ('más caro que la camisa de Margarita Pareja')?",
         "opciones": {
           "A": "Explica el origen del dicho: pese al juramento de no dar dote, la camisa terminó siendo carísima por sus encajes y joyas",
-          "B": "Explica por qué, en general, las camisas de novia eran la prenda más económica de esa época colonial",
+          "B": "Explica por qué, en general, las camisas de novia eran la prenda más económica de esa época colonial, según las costumbres de la Lima virreinal",
           "C": "Sugiere que el dicho es una invención tardía y que Margarita Pareja no llegó a existir en realidad",
           "D": "Funciona como una simple introducción, apenas relacionada con el resto de la anécdota que sigue"
         },
@@ -623,7 +623,7 @@
         "enunciado": "¿Qué revela el desenlace sobre el verdadero cumplimiento del juramento de don Raimundo?",
         "opciones": {
           "A": "Que don Honorato descubrió el engaño casi de inmediato y por eso decidió anular la boda",
-          "B": "Que don Raimundo rompió su juramento abiertamente y toda Lima se enteró y lo castigó por ello",
+          "B": "Que don Raimundo rompió su juramento abiertamente y toda Lima se enteró y lo castigó por ello, quedando su nombre manchado para siempre",
           "C": "Que Margarita finalmente rechazó la camisa por considerarla una compensación insuficiente",
           "D": "Que cumplió la letra del juramento, sin dote ni herencia, pero burló su espíritu con una camisa que equivalía a una fortuna"
         },
@@ -665,7 +665,7 @@
         "opciones": {
           "A": "Sentía picazón en las manos, y no permitía que la tocara la sirvienta",
           "B": "Sentía un frío intenso, y no permitía que apagaran las luces del cuarto",
-          "C": "Sentía hambre constante, y no permitía que le retiraran la bandeja de comida",
+          "C": "Sentía hambre constante, y no permitía que le retiraran la bandeja de comida, aunque apenas lograba probar unos bocados",
           "D": "Sentía un gran peso al despertar, y no permitía que le tocaran la cama ni que le arreglaran el almohadón"
         },
         "respuesta_correcta": "D",
@@ -697,7 +697,7 @@
         "opciones": {
           "A": "Sirven principalmente para alargar la introducción del relato, sin aportar demasiado al desenlace",
           "B": "Demuestran que Jordán fue quien envenenó deliberadamente a su esposa desde el principio",
-          "C": "Tienen poca relación entre sí: son dos elementos bastante independientes dentro de la estructura del cuento",
+          "C": "Tienen poca relación entre sí: son dos elementos bastante independientes dentro de la estructura del cuento, incluidos solo por costumbre narrativa",
           "D": "La atmósfera fría y hostil de la casa anticipa el hallazgo final: un parásito escondido en el almohadón que drenaba la vida de Alicia"
         },
         "respuesta_correcta": "D",
@@ -728,7 +728,7 @@
         "enunciado": "¿Qué efecto logra Quiroga al revelar la causa real de la enfermedad de Alicia solo hasta las últimas líneas del cuento?",
         "opciones": {
           "A": "Convierte el cuento, hacia el final, en una comedia de equivocaciones entre los personajes",
-          "B": "Reduce bastante la tensión narrativa, porque el lector ya sospechaba la causa desde el principio del relato",
+          "B": "Reduce bastante la tensión narrativa, porque el lector ya sospechaba la causa desde el principio del relato, sin que el final aporte ninguna sorpresa real",
           "C": "Apenas modifica la interpretación general que el lector ya se había formado del relato hasta ese punto",
           "D": "Genera un final de horror que resignifica los síntomas descritos antes (alucinaciones, palidez, debilidad) como pistas de una causa física concreta"
         },
@@ -802,7 +802,7 @@
         "enunciado": "¿Qué revela la frase del dentista, dicha mientras extrae la muela, sobre la relación entre los dos personajes?",
         "opciones": {
           "A": "Revela una tensión política no resuelta entre ambos, en la que el dentista usa el dolor físico como ajuste de cuentas silencioso",
-          "B": "Revela que el alcalde le debe una suma importante de dinero al dentista por tratamientos anteriores",
+          "B": "Revela que el alcalde le debe una suma importante de dinero al dentista por tratamientos anteriores que nunca terminó de pagar",
           "C": "Revela que ambos son enemigos desde la infancia por un viejo asunto de honor familiar",
           "D": "Revela que el dentista solo está bromeando con el alcalde y no habla en serio en momento alguno"
         },
@@ -834,7 +834,7 @@
         "enunciado": "¿Cómo se puede interpretar la calma y precisión con que el dentista realiza la extracción, en contraste con la amenaza de muerte que había recibido del alcalde?",
         "opciones": {
           "A": "Muestra que el dentista se mantiene indiferente frente al trasfondo político que rodea al alcalde",
-          "B": "Muestra que el dentista no le tenía ningún miedo porque sabía que la amenaza del alcalde era falsa",
+          "B": "Muestra que el dentista no le tenía ningún miedo porque sabía que la amenaza del alcalde era falsa y que jamás pensaba cumplirla",
           "C": "Muestra que el procedimiento dental es un trámite médico corriente, sin mayor carga simbólica",
           "D": "La calma del dentista funciona como un poder silencioso que invierte, por un momento, la relación de poder entre ambos"
         },
@@ -877,7 +877,7 @@
         ],
         "enunciado": "¿Qué recurso estructural central define este cuento?",
         "opciones": {
-          "A": "Una narración cronológica y lineal, con muy pocos cambios de plano narrativo a lo largo del relato",
+          "A": "Una narración cronológica y lineal, con muy pocos cambios de plano narrativo a lo largo del relato, que avanza escena por escena sin interrupciones",
           "B": "Un diálogo extenso entre dos personajes que tarda mucho en resolverse dentro de la trama",
           "C": "Un desenlace feliz y previsible, que el lector puede anticipar ya desde las primeras líneas",
           "D": "La metaficción: el lector del cuento termina siendo, sin saberlo, la víctima de la novela que está leyendo, fusionando ficción y realidad"
@@ -911,7 +911,7 @@
         "enunciado": "¿Qué efecto logra Cortázar al no revelar explícitamente, sino solo sugerir mediante detalles repetidos (el sillón verde, la ventana, los robles), que el lector asesinado es el mismo hombre que estaba leyendo la novela?",
         "opciones": {
           "A": "Simplifica bastante la lectura, al dejar la revelación explícita ya desde el principio del relato",
-          "B": "No cambia demasiado la experiencia de lectura del cuento respecto a una narración más convencional",
+          "B": "No cambia demasiado la experiencia de lectura del cuento respecto a una narración más convencional, porque el lector igual habría entendido todo desde el principio",
           "C": "Obliga al lector a reconstruir la conexión entre ambos planos narrativos a partir de detalles repetidos, sin ninguna declaración directa",
           "D": "Elimina casi toda ambigüedad sobre la identidad del asesino dentro de la trama interna"
         },
@@ -952,7 +952,7 @@
         "enunciado": "Según el texto, ¿qué le responde Sancho a don Quijote cuando este señala 'gigantes' en el campo?",
         "opciones": {
           "A": "Que efectivamente son gigantes enormes y que ambos deben huir de inmediato del lugar",
-          "B": "Que, por más que mira hacia el campo, no logra ver absolutamente nada allí",
+          "B": "Que, por más que mira hacia el campo, no logra ver absolutamente nada allí que se parezca a lo que describe don Quijote",
           "C": "Que lo que se ve allí no son gigantes sino molinos de viento, y los brazos son las aspas que mueve el viento",
           "D": "Que son gigantes, en efecto, pero que ya están muertos y no representan ningún peligro"
         },
@@ -986,7 +986,7 @@
           "A": "Decide abandonar, desanimado, la aventura de la caballería andante para siempre",
           "B": "Afirma que el encantador Frestón, su enemigo, convirtió a los gigantes en molinos para quitarle la gloria de vencerlos",
           "C": "Culpa directamente a Sancho por no haberle advertido a tiempo sobre el peligro real",
-          "D": "Admite abiertamente que se equivocó y que aquello, desde un principio, eran molinos de viento"
+          "D": "Admite abiertamente que se equivocó y que aquello, desde un principio, eran molinos de viento, pidiéndole disculpas a Sancho"
         },
         "respuesta_correcta": "B",
         "explicacion_correcta": "Don Quijote sostiene su versión inicial inventando una explicación mágica (el encantador Frestón) en vez de aceptar el error, mostrando cómo reinterpreta la realidad para no contradecir su creencia.",
@@ -1056,7 +1056,7 @@
         "habilidad": "identificar una acción explícita de un personaje secundario",
         "enunciado": "Según el fragmento, ¿qué hizo la hermana del narrador la noche antes de su viaje?",
         "opciones": {
-          "A": "Le escribió una larga carta de despedida para que la leyera en el camino",
+          "A": "Le escribió una larga carta de despedida para que la leyera en el camino, contándole todo lo que no se atrevía a decirle en persona",
           "B": "Le preparó personalmente el equipaje para el viaje",
           "C": "Le cantó una canción de cuna como cuando era niño",
           "D": "Entró a su cuarto sin decir palabra, ahogada por los sollozos, y le cortó unos cabellos"
@@ -1091,7 +1091,7 @@
           "A": "Funciona como un anticipo narrativo que genera la expectativa de un sufrimiento futuro, sin revelar todavía de qué tipo",
           "B": "Confirma de inmediato, en este mismo capítulo, que María va a morir poco después del viaje",
           "C": "Indica de forma específica que el narrador se arrepentirá para siempre de haber estudiado en Bogotá",
-          "D": "Funciona apenas como un detalle decorativo del relato, sin relación clara con lo que vendrá después"
+          "D": "Funciona apenas como un detalle decorativo del relato, sin relación clara con lo que vendrá después, incluido solo para darle color a la escena"
         },
         "respuesta_correcta": "A",
         "explicacion_correcta": "El presentimiento se plantea de forma deliberadamente vaga ('vago presentimiento de muchos pesares'), funcionando como una anticipación narrativa que genera expectativa sin adelantar los hechos concretos.",
@@ -1163,7 +1163,7 @@
         "opciones": {
           "A": "La compara con una ciudad moderna, ruidosa y llena de movimiento constante",
           "B": "La compara con una catedral de la pesadumbre y con un cementerio donde ella misma se pudre y resucita",
-          "C": "La compara con un océano en calma, sereno y sin ningún peligro aparente",
+          "C": "La compara con un océano en calma, sereno y sin ningún peligro aparente, que invita al descanso y a la contemplación",
           "D": "La compara con un jardín cuidado, ordenado y perfectamente controlado por el hombre"
         },
         "respuesta_correcta": "B",
@@ -1196,7 +1196,7 @@
           "A": "Revela que el protagonista, al salir de la selva, planea dedicarse por completo a la botánica",
           "B": "Revela que prefiere las flores sobre todo por motivos estéticos, sin mayor relación con su propia situación vital",
           "C": "Revela que se identifica más con lo temporal y frágil que con lo perpetuo e imponente, quizás porque su propia vida se siente breve frente a la selva",
-          "D": "Revela que el protagonista, tras este monólogo, ya no le teme en absoluto a la muerte"
+          "D": "Revela que el protagonista, tras este monólogo, ya no le teme en absoluto a la muerte, habiendo alcanzado una paz total y definitiva consigo mismo"
         },
         "respuesta_correcta": "C",
         "explicacion_correcta": "La comparación explícita ('efímera como el hombre... marchitable como su ilusión') conecta la preferencia por lo pasajero con la propia condición mortal y vulnerable del hablante, en contraste con la 'perpetuidad' agobiante de la selva.",
@@ -1234,7 +1234,7 @@
         "habilidad": "identificar la motivación explícita de un personaje en una escena inicial",
         "enunciado": "En la escena inicial de la novela, ¿por qué decide Damaris llevarse a la cachorra?",
         "opciones": {
-          "A": "Porque la cachorra, sola y perdida, la siguió por la playa hasta la puerta de su casa",
+          "A": "Porque la cachorra, sola y perdida, la siguió por la playa hasta la puerta de su casa sin que nadie más se ofreciera a recogerla",
           "B": "Porque Rogelio, su pareja, se la pidió expresamente como regalo de cumpleaños",
           "C": "Porque la ganó por sorpresa en una rifa que se organizó esa semana en el pueblo",
           "D": "La vio entre una camada de cachorros que doña Elodia no lograba repartir, tras la muerte envenenada de la madre"
@@ -1268,7 +1268,7 @@
         "opciones": {
           "A": "El inicio y el final de toda la novela ocurren, de manera sorprendente, en un mismo y único día narrativo de la historia",
           "B": "La escena inicial, con la muerte de la perra madre, anticipa un ciclo de apego y pérdida que se repite hasta el desenlace trágico de Damaris",
-          "C": "Existe muy poca relación temática real entre el inicio y el final de toda la novela",
+          "C": "Existe muy poca relación temática real entre el inicio y el final de toda la novela, ya que el autor cambia por completo de tono y de personajes",
           "D": "El final revela que la escena inicial de la adopción fue apenas un sueño lejano de Damaris"
         },
         "respuesta_correcta": "B",

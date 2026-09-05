@@ -122,7 +122,7 @@
         "opciones": {
           "A": "La tabla incluye muy poca información sobre el carro particular, apenas una cifra aislada",
           "B": "La tabla mide solo tres variables (costo, tiempo, emisiones) y no considera otros factores relevantes, como la comodidad del viaje",
-          "C": "La tabla prueba que el carro particular es, en general, la opción más rápida para moverse en la ciudad",
+          "C": "La tabla prueba que el carro particular es, en general, la opción más rápida para moverse en la ciudad, según los propios datos de la tabla",
           "D": "La tabla demuestra que el carro particular resulta, en todos los casos, más barato que la bicicleta"
         },
         "respuesta_correcta": "B",
@@ -309,7 +309,7 @@
         "opciones": {
           "A": "Que es el jugo más barato del mercado",
           "B": "Que no tiene azúcar añadida y que está hecho con frutas seleccionadas",
-          "C": "Que se puede conseguir en cualquier país del mundo",
+          "C": "Que se puede conseguir en cualquier país del mundo, según indica la etiqueta del producto",
           "D": "Que contiene vitaminas añadidas artificialmente"
         },
         "respuesta_correcta": "B",
@@ -340,7 +340,7 @@
         ],
         "enunciado": "El eslogan '100% DE FRUTA. 100% DE VIDA.' puede inducir al lector a pensar erróneamente que...",
         "opciones": {
-          "A": "el producto no contiene azúcares naturales de ningún tipo, ni siquiera los propios de la fruta",
+          "A": "el producto no contiene azúcares naturales de ningún tipo, ni siquiera los propios de la fruta, contradiciendo la información nutricional",
           "B": "el producto está hecho en su totalidad de fruta, cuando en realidad es una frase publicitaria sin porcentaje verificable",
           "C": "el producto contiene, en secreto, conservantes artificiales que no se mencionan en el empaque",
           "D": "el producto es recomendado activamente por nutricionistas certificados a nivel nacional"
@@ -415,7 +415,7 @@
         "opciones": {
           "A": "Una defensa entusiasta del uso de las redes sociales en la vida diaria",
           "B": "Una recomendación técnica detallada sobre cómo cuidar peces domésticos en casa",
-          "C": "Una crítica directa hacia el alto precio de las conexiones a internet en el país",
+          "C": "Una crítica directa hacia el alto precio de las conexiones a internet en el país, comparándolas con las de países vecinos",
           "D": "Una crítica irónica hacia la sensación de estar siempre 'navegando' sin llegar a ningún lugar concreto"
         },
         "respuesta_correcta": "D",
@@ -489,7 +489,7 @@
           "A": "Ninguno de los tres programas ofrece algún tipo de financiación disponible",
           "B": "Programa C, por su menor costo (9.000 USD/año) y sus becas completas para investigación",
           "C": "Programa A, porque ofrece becas parciales de hasta el 40% del costo total",
-          "D": "Programa B, porque es el único que no exige ningún nivel de idioma extranjero"
+          "D": "Programa B, porque es el único que no exige ningún nivel de idioma extranjero como requisito de admisión"
         },
         "respuesta_correcta": "B",
         "explicacion_correcta": "El Programa C combina el menor costo de los tres (9.000 USD/año) con la única financiación completa disponible en la tabla.",
@@ -560,7 +560,7 @@
         "enunciado": "Alguien concluye, a partir del gráfico, que 'las personas de 18 a 25 años no leen por falta de interés en los libros'. ¿Qué problema tiene esa conclusión?",
         "opciones": {
           "A": "El gráfico respalda esa conclusión con datos directos sobre las motivaciones reales de los lectores",
-          "B": "El gráfico muestra, en realidad, que ese grupo tiene el porcentaje de lectura más alto, no el más bajo",
+          "B": "El gráfico muestra, en realidad, que ese grupo tiene el porcentaje de lectura más alto, no el más bajo, contradiciendo la afirmación inicial",
           "C": "El gráfico solo muestra el porcentaje que reporta leer al menos un libro al mes, sin indicar las razones detrás de esa cifra",
           "D": "El gráfico no incluye ninguna barra ni dato específico sobre el grupo de 18 a 25 años"
         },
@@ -635,7 +635,7 @@
           "A": "Que solo un tipo de plástico específico puede reciclarse en todo el mundo actualmente",
           "B": "Que el reciclaje de una botella es un proceso de varias etapas, desde su depósito hasta volverse materia prima nueva",
           "C": "Que el proceso de reciclaje ocurre casi de forma instantánea, sin pasos intermedios reales",
-          "D": "Que la mayoría de las botellas plásticas terminan, de todas formas, en un relleno sanitario"
+          "D": "Que la mayoría de las botellas plásticas terminan, de todas formas, en un relleno sanitario, sin que el reciclaje funcione realmente"
         },
         "respuesta_correcta": "B",
         "explicacion_correcta": "La estructura completa de la infografía, organizada como línea de tiempo de seis etapas, desarrolla exactamente esta idea general.",
@@ -705,7 +705,7 @@
         ],
         "enunciado": "El gráfico muestra que la energía nuclear tiene una emisión de CO2 por kWh similar a la eólica y menor que la solar. ¿Qué limita usar solo este gráfico para concluir que la energía nuclear es la mejor alternativa energética en términos generales?",
         "opciones": {
-          "A": "El gráfico demuestra que la energía nuclear casi no emite CO2 en ningún escenario posible",
+          "A": "El gráfico demuestra que la energía nuclear casi no emite CO2 en ningún escenario posible, sin importar cómo se desmantele la planta",
           "B": "El gráfico no incluye ninguna barra ni cifra específica sobre la energía nuclear",
           "C": "El gráfico solo mide un aspecto (emisiones por kWh) y no incluye otras variables relevantes, como el costo o la gestión de residuos",
           "D": "El gráfico sugiere que todas las fuentes de energía terminan siendo, en la práctica, muy parecidas"
@@ -749,7 +749,7 @@
           "A": "Se va a dormir la siesta de inmediato, sin empezar a trabajar",
           "B": "Apaga por completo su teléfono y lo guarda en un cajón",
           "C": "Revisa su teléfono al sonar una notificación, diciendo que solo lo hará 'un segundo'",
-          "D": "Termina todo su trabajo mucho antes de lo previsto originalmente"
+          "D": "Termina todo su trabajo mucho antes de lo previsto originalmente, sin ninguna interrupción en todo el proceso"
         },
         "respuesta_correcta": "C",
         "explicacion_correcta": "La viñeta 2 muestra exactamente esta acción inmediatamente después del anuncio de la viñeta 1.",
@@ -780,7 +780,7 @@
         "opciones": {
           "A": "Sugiere que trabajar frente a un computador suele ser, casi siempre, improductivo",
           "B": "Ironiza sobre lo fácil que una pequeña distracción puede consumir mucho más tiempo del que uno planea",
-          "C": "Recomienda técnicamente cómo configurar y silenciar las notificaciones de un teléfono",
+          "C": "Recomienda técnicamente cómo configurar y silenciar las notificaciones de un teléfono para evitar interrupciones",
           "D": "Celebra abiertamente la productividad que Marcela logró durante esas dos horas"
         },
         "respuesta_correcta": "B",
