@@ -390,5 +390,61 @@
     "variante": "corta",
     "cuerpo": "Se reconocen observando recursos como el tono elegido, las palabras cargadas de connotación positiva o negativa, las imágenes usadas y qué información se destaca u omite. Una técnica persuasiva es legítima cuando complementa evidencia real y razonamiento válido, y se vuelve manipuladora cuando reemplaza por completo a la evidencia.",
     "ejemplo": "Elegir llamar a una medida 'ajuste necesario' en vez de 'recorte' es una técnica persuasiva que cambia la percepción sin cambiar el hecho."
+  },
+  {
+    "id": "LC-R-fun-lectura-activa",
+    "tipo": "regla",
+    "titulo": "Lectura activa: hacerse preguntas y predecir",
+    "variante": "corta",
+    "cuerpo": "Leer activamente significa interrogar el texto mientras se avanza, no solo recorrerlo con la vista: preguntarse quién habla, para qué lo dice y qué prueba ofrece. Predecir lo que vendrá antes de leerlo por completo, y luego confirmar o corregir esa predicción, obliga a procesar el contenido en vez de solo pasar los ojos por las palabras.",
+    "ejemplo": "Antes de terminar un párrafo sobre una nueva política, preguntarse para qué la escribe el autor ayuda a notar si busca informar o convencer."
+  },
+  {
+    "id": "LC-R-fun-frase-dificil",
+    "tipo": "regla",
+    "titulo": "Qué hacer con una palabra o frase que no se entiende",
+    "variante": "corta",
+    "cuerpo": "Si una frase no se entiende en la primera lectura, conviene aislar la palabra o parte confusa y releerla; si sigue sin entenderse, seguir leyendo y volver después con más contexto suele resolverlo. El significado de una palabra desconocida se infiere observando las palabras y oraciones cercanas, sin necesidad de un diccionario.",
+    "ejemplo": "Si 'inefable' no se entiende, seguir leyendo la oración completa suele revelar que describe algo imposible de expresar con palabras."
+  },
+  {
+    "id": "LC-R-fun-distinguir-conceptos",
+    "tipo": "regla",
+    "titulo": "Distinguir dos conceptos relacionados pero distintos",
+    "variante": "corta",
+    "cuerpo": "Cuando un texto presenta dos conceptos parecidos, como 'archivo' y 'monumento', la forma precisa de distinguirlos es buscar la función que cada uno cumple en el texto, no solo su definición aislada, y comparar esas dos funciones directamente entre sí.",
+    "ejemplo": "Un archivo conserva información sobre el pasado; un monumento decide activamente qué parte de ese pasado se sigue honrando hoy."
+  },
+  {
+    "id": "LC-R-ref-hipotesis-fragmentaria",
+    "tipo": "regla",
+    "titulo": "Construir una hipótesis de sentido con información fragmentaria",
+    "variante": "corta",
+    "cuerpo": "Cuando un texto no ofrece toda la información necesaria para una conclusión firme, conviene construir una hipótesis de sentido: la interpretación que mejor explica las pistas disponibles, sin presentarla como una certeza absoluta. Entre varias hipótesis posibles, la más razonable es la que explica más pistas del fragmento con menos suposiciones adicionales no sustentadas.",
+    "ejemplo": "Ante un diálogo que termina con una decisión tomada sin explicar el conflicto previo, la hipótesis más razonable es la que menos detalles inventa fuera del propio fragmento."
+  },
+  {
+    "id": "LC-R-ref-situaciones-hipoteticas",
+    "tipo": "regla",
+    "titulo": "Evaluar situaciones hipotéticas a partir del texto",
+    "variante": "corta",
+    "cuerpo": "Imaginar una situación hipotética a partir de un texto es proyectar cómo se comportaría un elemento, un personaje, un argumento o una política en una circunstancia distinta a la descrita, manteniendo la coherencia con lo que el texto ya estableció. Se evalúa verificando que cada elemento de esa situación tenga respaldo en alguna característica, regla o dato que el texto realmente afirma.",
+    "ejemplo": "Si un texto dice que una empresa prioriza la sostenibilidad, es coherente suponer que rechazaría un proveedor más barato pero contaminante."
+  },
+  {
+    "id": "LC-R-ref-contexto-cotidiano",
+    "tipo": "regla",
+    "titulo": "Relacionar el texto con el contexto cotidiano",
+    "variante": "corta",
+    "cuerpo": "Conectar una idea general del texto con una situación concreta y reconocible de la vida diaria no solo la acerca al lector, también ayuda a evaluar su validez: poner a prueba una idea general contra situaciones reales permite detectar si se sostiene siempre, solo a veces, o si tiene excepciones que el texto no consideró.",
+    "ejemplo": "Un texto que afirma que la falta de tiempo libre reduce la creatividad se pone a prueba pensando en quienes tienen jornadas laborales muy largas."
+  },
+  {
+    "id": "LC-R-ref-racionalizacion",
+    "tipo": "regla",
+    "titulo": "Racionalización de una creencia previa",
+    "variante": "corta",
+    "cuerpo": "Es cuando un personaje, frente a evidencia que contradice lo que cree, inventa una explicación alternativa para no tener que abandonar su creencia original. También se conoce como sesgo de confirmación llevado a la ficción: el personaje interpreta los hechos para que encajen con lo que ya pensaba, en vez de ajustar su pensamiento a los hechos.",
+    "ejemplo": "Un personaje convencido de que nadie lo aprecia puede interpretar un gesto amable como lástima, en vez de reconsiderar su creencia."
   }
 ]

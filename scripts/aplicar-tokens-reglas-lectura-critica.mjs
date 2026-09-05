@@ -69,6 +69,13 @@ const SUBTEMA_A_REGLA = {
   como_valorar_la_intencion_del_autor: 'LC-R-ref-intencion-autor',
   como_detectar_sesgo_o_parcialidad_del_autor: 'LC-R-ref-sesgo-autor',
   como_evaluar_la_suficiencia_de_la_evidencia: 'LC-R-ref-suficiencia-evidencia',
+  lectura_activa_hacerse_preguntas: 'LC-R-fun-lectura-activa',
+  que_hacer_cuando_no_se_entiende_una_frase: 'LC-R-fun-frase-dificil',
+  como_distinguir_dos_conceptos_relacionados: 'LC-R-fun-distinguir-conceptos',
+  como_elaborar_una_hipotesis_de_sentido_con_informacion_fragmentaria: 'LC-R-ref-hipotesis-fragmentaria',
+  como_imaginar_situaciones_hipoteticas_a_partir_del_texto: 'LC-R-ref-situaciones-hipoteticas',
+  relacion_del_texto_con_el_contexto_cotidiano: 'LC-R-ref-contexto-cotidiano',
+  racionalizacion_de_una_creencia_previa: 'LC-R-ref-racionalizacion',
 }
 // Las 9 falacias comparten subtema 'tipos_de_falacias_comunes' — se
 // resuelven por el texto de la propia pregunta (ver FALACIAS abajo), no por
@@ -129,6 +136,13 @@ const FRASES_POR_REGLA = {
   'LC-R-ref-intencion-autor': [/intenci[oó]n del autor/i, /intenci[oó]n declarada/i, /intenci[oó]n persuasiva/i, /\bintenci[oó]n\b/i],
   'LC-R-ref-sesgo-autor': [/sesgo o parcialidad/i, /\bsesgo\b/i],
   'LC-R-ref-suficiencia-evidencia': [/suficiencia de la evidencia/i, /evidencia (?:sólida|anecd[oó]tica)/i],
+  'LC-R-fun-lectura-activa': [/preguntas [uú]tiles/i, /predicci[oó]n/i, /predecir/i],
+  'LC-R-fun-frase-dificil': [/el contexto revela/i, /el contexto[^.]{0,30}aclara/i, /hip[oó]tesis de significado/i, /pistas cercanas/i],
+  'LC-R-fun-distinguir-conceptos': [/distinci[oó]n funcional/i, /funci[oó]n que cada uno cumple/i],
+  'LC-R-ref-hipotesis-fragmentaria': [/hip[oó]tesis m[aá]s razonable/i, /hip[oó]tesis razonable/i],
+  'LC-R-ref-situaciones-hipoteticas': [/situaci[oó]n hipot[eé]tica v[aá]lida/i, /situaci[oó]n hipot[eé]tica coherente/i, /hip[oó]tesis coherente/i, /hip[oó]tesis incoherente/i, /escenario hipot[eé]tico/i],
+  'LC-R-ref-contexto-cotidiano': [/experiencia cotidiana/i, /vida cotidiana/i, /prueba de resistencia/i],
+  'LC-R-ref-racionalizacion': [/racionalizaci[oó]n/i],
   'LC-R-fal-ad-hominem': [/ad hominem/i, /ataque personal/i],
   'LC-R-fal-falsa-dicotomia': [/falsa dicotom[ií]a/i, /falso dilema/i, /dos opciones extremas/i],
   'LC-R-fal-generalizacion-apresurada': [/generalizaci[oó]n apresurada/i, /\bgeneralizaci[oó]n\b/i],
