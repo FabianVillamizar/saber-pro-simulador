@@ -332,12 +332,13 @@ export function RepasoConceptos({
   // ejemplo_aplicado únicamente — reverso de 2 secciones en vez de 3.
   const esCultura = !esFrances && !esCientifica && !esCloze && 'categoria' in tarjeta
   const enlacesConecta = esCientifica ? enlacesCruzados(tarjeta.connects_to, moduloId, perfil) : []
-  // En módulos con rulebook (`renderizaFormulas`, hoy Inglés) el reverso de
-  // la tarjeta cloze pasa por TextoConReglas para que los tokens
-  // `[[id-regla|texto]]` de `regla`/`error_comun` abran su popover; en el
-  // resto degrada a TextoConNegritas exacto (mismo manejo de `**` y de
-  // párrafos separados por línea en blanco).
-  const TextoCloze = modulo.renderizaFormulas ? TextoConReglas : TextoConNegritas
+  // En módulos con rulebook (`renderizaFormulas`) el reverso de la tarjeta
+  // pasa por TextoConReglas para que los tokens `[[id-regla|texto]]` de
+  // regla/explicación/ejemplo/error_comun abran su popover, sin importar
+  // la variante de tarjeta (cloze de Inglés o explicación de CC/PC/cultura);
+  // en el resto degrada a TextoConNegritas exacto (mismo manejo de `**` y
+  // de párrafos separados por línea en blanco).
+  const TextoReverso = modulo.renderizaFormulas ? TextoConReglas : TextoConNegritas
 
   return (
     <ReglasProvider reglas={modulo.reglas} acento={modulo.acentoReglas}>
@@ -698,14 +699,14 @@ export function RepasoConceptos({
                 <div>
                   <div className="repaso-seccion-label">Regla</div>
                   <div className="repaso-seccion-texto">
-                    <TextoCloze texto={tarjeta.regla} />
+                    <TextoReverso texto={tarjeta.regla} />
                   </div>
                 </div>
 
                 <div className="repaso-ejemplo">
                   <div className="repaso-seccion-label repaso-seccion-label--accent">Ejemplo</div>
                   <div className="repaso-ejemplo-texto">
-                    <TextoCloze texto={tarjeta.ejemplo} />
+                    <TextoReverso texto={tarjeta.ejemplo} />
                   </div>
                 </div>
 
@@ -714,7 +715,7 @@ export function RepasoConceptos({
                   <div>
                     <div className="repaso-seccion-label repaso-seccion-label--warn">Error común</div>
                     <div className="repaso-error-texto">
-                      <TextoCloze texto={tarjeta.error_comun} />
+                      <TextoReverso texto={tarjeta.error_comun} />
                     </div>
                   </div>
                 </div>
@@ -752,17 +753,30 @@ export function RepasoConceptos({
                   <div className="repaso-reverso-oracion repaso-reverso-respuesta">{tarjeta.respuesta_breve}</div>
                 </div>
 
+                {tarjeta.visual_posicion === 'reverso' && (
+                  <div className="repaso-visual">
+                    <VisualCientifico
+                      tipo={tarjeta.tipo_visual}
+                      descripcion={tarjeta.visual_descripcion}
+                      graficaDatos={tarjeta.grafica_datos_estructurados}
+                      tablaDatos={tarjeta.tabla_filas}
+                      imagen={tarjeta.imagen}
+                      fuente={tarjeta.visual_fuente}
+                    />
+                  </div>
+                )}
+
                 <div>
                   <div className="repaso-seccion-label">Explicación</div>
                   <div className="repaso-seccion-texto">
-                    <TextoConNegritas texto={tarjeta.explicacion} />
+                    <TextoReverso texto={tarjeta.explicacion} />
                   </div>
                 </div>
 
                 <div className="repaso-ejemplo">
                   <div className="repaso-seccion-label repaso-seccion-label--accent">Ejemplo aplicado</div>
                   <div className="repaso-ejemplo-texto">
-                    <TextoConNegritas texto={tarjeta.ejemplo_aplicado} />
+                    <TextoReverso texto={tarjeta.ejemplo_aplicado} />
                   </div>
                 </div>
 
@@ -771,7 +785,7 @@ export function RepasoConceptos({
                   <div>
                     <div className="repaso-seccion-label repaso-seccion-label--warn">Error común</div>
                     <div className="repaso-error-texto">
-                      <TextoConNegritas texto={tarjeta.error_comun} />
+                      <TextoReverso texto={tarjeta.error_comun} />
                     </div>
                   </div>
                 </div>

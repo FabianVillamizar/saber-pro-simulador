@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360">
+  <defs>
+    <marker id="flecha-cc" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--cc-accent)" />
+    </marker>
+  </defs>
+
+  <text x="240" y="26" fill="var(--text)" font-size="15" font-weight="800" text-anchor="middle" font-style="normal">Jerarquía normativa colombiana</text>
+
+  <path d="M195,50 L285,50 L350,130 L130,130 Z" fill="color-mix(in oklch, var(--cc-accent) 55%, transparent)" stroke="var(--text)" stroke-width="1.5" />
+  <text x="240" y="84" fill="var(--text)" font-size="14" font-weight="700" text-anchor="middle" font-style="normal">Constitución</text>
+  <text x="240" y="103" fill="var(--text)" font-size="11" font-weight="500" text-anchor="middle" font-style="normal">+ bloque de constitucionalidad</text>
+
+  <path d="M130,130 L350,130 L415,224 L65,224 Z" fill="color-mix(in oklch, var(--cc-accent) 30%, transparent)" stroke="var(--text)" stroke-width="1.5" />
+  <text x="240" y="168" fill="var(--text)" font-size="14" font-weight="700" text-anchor="middle" font-style="normal">Leyes</text>
+  <text x="240" y="187" fill="var(--text-sub)" font-size="11" font-weight="500" text-anchor="middle" font-style="normal">estatutaria · orgánica · ordinaria</text>
+  <text x="240" y="204" fill="var(--text-faint)" font-size="10" font-weight="500" text-anchor="middle" font-style="normal">mayor a menor exigencia de trámite</text>
+
+  <path d="M65,224 L415,224 L455,298 L25,298 Z" fill="color-mix(in oklch, var(--cc-accent) 12%, transparent)" stroke="var(--text)" stroke-width="1.5" />
+  <text x="240" y="252" fill="var(--text)" font-size="14" font-weight="700" text-anchor="middle" font-style="normal">Decretos reglamentarios</text>
+  <text x="240" y="271" fill="var(--text-sub)" font-size="11" font-weight="500" text-anchor="middle" font-style="normal">expedidos por el Presidente</text>
+  <text x="240" y="287" fill="var(--text-faint)" font-size="10" font-weight="500" text-anchor="middle" font-style="normal">para precisar cómo se aplica una ley</text>
+
+  <text x="240" y="328" fill="var(--text-faint)" font-size="11" font-weight="500" text-anchor="middle" font-style="italic">una norma inferior no puede contradecir</text>
+  <text x="240" y="344" fill="var(--text-faint)" font-size="11" font-weight="500" text-anchor="middle" font-style="italic">a ninguna de las superiores</text>
+
+</svg>

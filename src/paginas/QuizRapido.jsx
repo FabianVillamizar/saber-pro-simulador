@@ -149,6 +149,7 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
   const [fillValue, setFillValue] = useState('')
   const [banco, setBanco] = useState([])
   const [armado, setArmado] = useState([])
+  const [mcqOpciones, setMcqOpciones] = useState([])
   const [matchDer, setMatchDer] = useState([])
   const [matchPares, setMatchPares] = useState({})
   const [matchPendiente, setMatchPendiente] = useState(null)
@@ -203,6 +204,15 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
     } else {
       setBanco([])
       setArmado([])
+    }
+    // Igual que build/match: se baraja la posición en pantalla pero `seleccion`
+    // sigue guardando el índice ORIGINAL (op.idx), así que comprobar() /
+    // respuestaMostrada() / respuestaCorrectaTexto() no necesitan tocar
+    // item.correcta para nada — ver PracticarLapizPapel.jsx para el mismo patrón.
+    if (item.formato === 'mcq') {
+      setMcqOpciones(barajar(item.opciones.map((texto, idx) => ({ texto, idx }))))
+    } else {
+      setMcqOpciones([])
     }
     if (item.formato === 'match') {
       setMatchDer(barajar(item.der.map((texto, idx) => ({ texto, idx }))))
@@ -605,14 +615,14 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
 
             {item.formato === 'mcq' && (
               <div className="qr-opciones">
-                {item.opciones.map((texto, i) => {
+                {mcqOpciones.map(({ texto, idx }, i) => {
                   let cls = 'qr-opcion'
                   if (revelado) {
-                    if (i === item.correcta) cls += ' qr-opcion--correcta'
-                    else if (i === seleccion) cls += ' qr-opcion--incorrecta'
-                  } else if (i === seleccion) cls += ' qr-opcion--seleccionada'
+                    if (idx === item.correcta) cls += ' qr-opcion--correcta'
+                    else if (idx === seleccion) cls += ' qr-opcion--incorrecta'
+                  } else if (idx === seleccion) cls += ' qr-opcion--seleccionada'
                   return (
-                    <button key={i} type="button" className={cls} disabled={revelado} onClick={() => setSeleccion(i)}>
+                    <button key={idx} type="button" className={cls} disabled={revelado} onClick={() => setSeleccion(idx)}>
                       <span className="qr-opcion-letra">{LETRAS[i]}</span>
                       <span className="qr-opcion-texto"><Texto texto={texto} formulas={modulo.renderizaFormulas} /></span>
                     </button>

@@ -79,6 +79,18 @@
   --rc-acc-soft-2: color-mix(in oklch, var(--dg-accent) 22%, transparent);
 }
 
+/* Acento propio de Competencias Ciudadanas: --cc-accent (ámbar
+   institucional, con valor claro/oscuro en tokens.css). Mismo apunte de
+   especificidad que los anteriores. */
+.rc-disp[data-acento='cc'],
+.rc-pop-wrap[data-acento='cc'],
+:root[data-theme='dark'] .rc-disp[data-acento='cc'],
+:root[data-theme='dark'] .rc-pop-wrap[data-acento='cc'] {
+  --rc-acc: var(--cc-accent);
+  --rc-acc-soft: color-mix(in oklch, var(--cc-accent) 12%, transparent);
+  --rc-acc-soft-2: color-mix(in oklch, var(--cc-accent) 22%, transparent);
+}
+
 /* ---------- disparador ---------- */
 
 .rc-disp {

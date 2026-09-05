@@ -1,0 +1,471 @@
+[
+  {
+    "id": "CC-R-arg-estructura",
+    "tipo": "definicion",
+    "titulo": "Premisa y conclusión",
+    "variante": "corta",
+    "cuerpo": "Todo argumento tiene una conclusión, lo que se quiere probar, sostenida por una o más premisas. Una premisa puede quedar implícita, sin decirse en voz alta, y aun así sostener la conclusión: identificarla es el primer paso para evaluar si el argumento funciona.",
+    "ejemplo": "«Juan vota, luego es mayor de edad» esconde la premisa implícita de que solo los mayores de edad pueden votar."
+  },
+  {
+    "id": "CC-R-arg-necesaria-suficiente",
+    "tipo": "definicion",
+    "titulo": "Condición necesaria y condición suficiente",
+    "variante": "corta",
+    "cuerpo": "Una condición necesaria tiene que cumplirse para que algo ocurra, pero cumplirla sola no garantiza el resultado. Una condición suficiente basta por sí sola para producirlo, aunque existan otras vías distintas para llegar al mismo resultado.",
+    "ejemplo": "Ser mayor de edad es necesario para votar, pero no suficiente: falta estar inscrito en el censo electoral."
+  },
+  {
+    "id": "CC-R-arg-informacion-insuficiente",
+    "tipo": "regla",
+    "titulo": "Información insuficiente para sostener una conclusión",
+    "variante": "corta",
+    "cuerpo": "Un argumento puede fallar no porque sus premisas sean falsas, sino porque no alcanzan para sostener la conclusión que afirma. Reconocer esta falla exige preguntar qué información adicional haría falta, no solo si lo que se dice es cierto.",
+    "ejemplo": "Que un candidato tenga experiencia no basta para concluir que gobernará bien: falta evidencia sobre sus decisiones pasadas concretas."
+  },
+  {
+    "id": "CC-R-arg-credibilidad-fuentes",
+    "tipo": "regla",
+    "titulo": "Credibilidad y pertinencia de una fuente",
+    "variante": "corta",
+    "cuerpo": "La credibilidad de una fuente depende de su experticia real en el tema y de su independencia frente al interés que defiende. Una fuente puede ser prestigiosa en general y aun así no ser pertinente para la afirmación específica que se evalúa.",
+    "ejemplo": "Un premio Nobel de física opinando sobre nutrición no es una fuente pertinente para ese tema, aunque sí lo sea en el suyo."
+  },
+  {
+    "id": "CC-R-arg-coherencia",
+    "tipo": "definicion",
+    "titulo": "Coherencia entre enunciados",
+    "variante": "corta",
+    "cuerpo": "Dos enunciados son incoherentes cuando no pueden ser verdaderos al mismo tiempo dentro del mismo argumento. Detectar una incoherencia no exige verificar hechos externos, solo comparar lo que la propia persona afirmó en momentos distintos.",
+    "ejemplo": "Defender la libertad de expresión sin límites y pedir censurar una opinión propia en el mismo discurso es incoherente."
+  },
+  {
+    "id": "CC-R-arg-refutar-vs-sustentar",
+    "tipo": "regla",
+    "titulo": "Refutar una afirmación frente a sustentarla",
+    "variante": "corta",
+    "cuerpo": "Sustentar una afirmación exige acumular evidencia a favor; refutarla no exige lo mismo en sentido inverso. Para invalidar un enunciado universal del tipo todo X causa Y basta un solo caso real que lo contradiga.",
+    "ejemplo": "Basta un solo empleo que resistió un alza salarial para refutar que todo aumento del mínimo destruye empleo."
+  },
+  {
+    "id": "CC-R-arg-contraejemplos",
+    "tipo": "regla",
+    "titulo": "Función del contraejemplo",
+    "variante": "corta",
+    "cuerpo": "Un contraejemplo no prueba que una afirmación sea falsa en general, solo que no es universalmente cierta como se presentó. Por eso un solo contraejemplo real pesa más que muchos casos que confirman la regla.",
+    "ejemplo": "Un solo cisne negro basta para refutar que todos los cisnes son blancos, sin importar cuántos cisnes blancos existan."
+  },
+  {
+    "id": "CC-R-fal-ad-hominem",
+    "tipo": "regla",
+    "titulo": "Falacia ad hominem",
+    "variante": "corta",
+    "cuerpo": "Ataca a la persona que argumenta, su reputación, su vida o sus intereses, en vez de evaluar el contenido de lo que dice. El argumento puede ser correcto incluso si quien lo defiende tiene motivos cuestionables.",
+    "ejemplo": "Descartar una propuesta ambiental solo porque quien la presenta tiene antecedentes penales por otro delito distinto."
+  },
+  {
+    "id": "CC-R-fal-autoridad",
+    "tipo": "regla",
+    "titulo": "Apelación a la autoridad",
+    "variante": "corta",
+    "cuerpo": "Respalda una afirmación solo en el prestigio de quien la dice, sin verificar si esa persona tiene competencia real en el tema específico ni si ofrece razones propias. Citar a una autoridad legítima en su campo sí es válido; el error es extender ese prestigio a temas ajenos.",
+    "ejemplo": "Un actor famoso recomendando una inversión financiera no aporta ninguna autoridad real sobre ese tema."
+  },
+  {
+    "id": "CC-R-fal-emocion",
+    "tipo": "regla",
+    "titulo": "Apelación a la emoción",
+    "variante": "corta",
+    "cuerpo": "Ocurre cuando el impacto emocional reemplaza por completo cualquier evidencia o razón concreta, no cuando simplemente la acompaña. Mencionar el sufrimiento real de alguien no es el problema; el problema aparece cuando esa emoción sustituye a los datos.",
+    "ejemplo": "Mostrar imágenes de niños llorando para exigir un proyecto sin ningún estudio de viabilidad técnica."
+  },
+  {
+    "id": "CC-R-fal-falsa-dicotomia",
+    "tipo": "regla",
+    "titulo": "Falsa dicotomía",
+    "variante": "corta",
+    "cuerpo": "Presenta solo dos opciones extremas como si fueran las únicas posibles, ocultando alternativas intermedias que sí existen. Reconocerla exige preguntar si de verdad no hay ninguna tercera vía razonable.",
+    "ejemplo": "Decir que hay que elegir entre minería sin ninguna regulación o pobreza total ignora la minería regulada."
+  },
+  {
+    "id": "CC-R-fal-pendiente-resbaladiza",
+    "tipo": "regla",
+    "titulo": "Pendiente resbaladiza",
+    "variante": "corta",
+    "cuerpo": "Presenta una cadena de consecuencias cada vez más graves como inevitable, sin mostrar el mecanismo real por el cual un paso llevaría necesariamente al siguiente. No toda advertencia sobre un riesgo encadenado es esta falacia, solo la que da el encadenamiento por hecho sin justificarlo.",
+    "ejemplo": "Afirmar que una sola excepción a una norma de parqueo hará que nadie respete ninguna norma de tránsito."
+  },
+  {
+    "id": "CC-R-fal-generalizacion-apresurada",
+    "tipo": "regla",
+    "titulo": "Generalización apresurada",
+    "variante": "corta",
+    "cuerpo": "Extiende una conclusión general a partir de una muestra demasiado pequeña o no representativa del conjunto que se quiere describir. El error está en el tamaño y la representatividad de la muestra, no en que la conclusión sea necesariamente falsa.",
+    "ejemplo": "Concluir que una política funciona en todo el país por el resultado de un solo municipio piloto."
+  },
+  {
+    "id": "CC-R-fal-circularidad",
+    "tipo": "regla",
+    "titulo": "Circularidad o petición de principio",
+    "variante": "corta",
+    "cuerpo": "La premisa y la conclusión dicen, en el fondo, lo mismo con otras palabras, así que el argumento no aporta ninguna razón nueva. Se reconoce cuando dos términos del argumento funcionan como sinónimos disfrazados.",
+    "ejemplo": "Decir que una política es justa porque es equitativa, y que es equitativa porque es justa, no prueba nada nuevo."
+  },
+  {
+    "id": "CC-R-fal-hombre-de-paja",
+    "tipo": "regla",
+    "titulo": "Hombre de paja",
+    "variante": "corta",
+    "cuerpo": "Distorsiona o exagera la postura real de un interlocutor para volverla más fácil de atacar, y luego refuta esa versión distorsionada en vez de la postura original. Se reconoce comparando lo que la persona dijo realmente contra lo que el argumento le atribuye.",
+    "ejemplo": "Responder a quien pide regulación ambiental diciendo que quiere prohibir toda la minería del país."
+  },
+  {
+    "id": "CC-R-fal-correlacion-causalidad",
+    "tipo": "regla",
+    "titulo": "Correlación no es causalidad",
+    "variante": "corta",
+    "cuerpo": "Que dos hechos coincidan en el tiempo o varíen juntos no prueba que uno cause al otro. Antes de afirmar causalidad hay que descartar la casualidad, la causalidad inversa y una tercera variable que explique ambos fenómenos a la vez.",
+    "ejemplo": "Las ventas de helado y los ahogamientos suben juntos en verano porque el calor explica ambos, no porque uno cause el otro."
+  },
+  {
+    "id": "CC-R-posicion-vs-interes",
+    "tipo": "definicion",
+    "titulo": "Posición frente a interés",
+    "variante": "corta",
+    "cuerpo": "La posición es lo que alguien pide de forma explícita; el interés es la necesidad o motivación real detrás de esa petición. Dos posiciones opuestas pueden compartir el mismo interés de fondo, lo que abre espacio a soluciones que la posición sola no deja ver.",
+    "ejemplo": "Pedir que se cierre una fábrica es una posición; el interés de fondo puede ser simplemente respirar aire limpio."
+  },
+  {
+    "id": "CC-R-postura-explicita-implicita",
+    "tipo": "definicion",
+    "titulo": "Postura explícita frente a implícita",
+    "variante": "corta",
+    "cuerpo": "Una postura explícita se declara abiertamente en palabras; una implícita se infiere de las decisiones y prioridades que alguien realmente muestra. La segunda puede contradecir a la primera, y cuando eso pasa, las acciones suelen revelar más que el discurso.",
+    "ejemplo": "Declararse a favor del medio ambiente mientras se ignoran sistemáticamente las alertas de un estudio ambiental propio."
+  },
+  {
+    "id": "CC-R-acuerdos-desacuerdos-parciales",
+    "tipo": "definicion",
+    "titulo": "Acuerdos y desacuerdos parciales",
+    "variante": "corta",
+    "cuerpo": "Dos posturas rara vez son totalmente opuestas o totalmente iguales: identificar en qué puntos concretos coinciden y en cuáles difieren abre la puerta a acuerdos parciales, en vez de forzar una sola conclusión que gane sobre la otra.",
+    "ejemplo": "Dos vecinos pueden coincidir en que hace falta más seguridad y discrepar solo en si la solución es más policía o más luz pública."
+  },
+  {
+    "id": "CC-R-interseccion-intereses",
+    "tipo": "definicion",
+    "titulo": "Intersección de intereses",
+    "variante": "corta",
+    "cuerpo": "Cuando los intereses de fondo de dos partes en conflicto se superponen en algún punto, ese punto de intersección es el lugar más productivo para buscar una solución, aunque las posiciones declaradas parezcan irreconciliables.",
+    "ejemplo": "Comerciantes y peatones parecen enfrentados por el uso de una calle, pero ambos comparten el interés de que haya más movimiento de gente."
+  },
+  {
+    "id": "CC-R-cosmovision-comportamiento",
+    "tipo": "definicion",
+    "titulo": "Cosmovisión reflejada en el comportamiento",
+    "variante": "corta",
+    "cuerpo": "La cosmovisión de un grupo no es solo lo que declara creer, sino el trasfondo que se puede inferir observando qué prioriza en sus decisiones cotidianas. No hace falta un discurso formal explícito para identificarla.",
+    "ejemplo": "Organizar el calendario agrícola según ciclos naturales y rituales revela una cosmovisión centrada en la relación con la naturaleza."
+  },
+  {
+    "id": "CC-R-rol-institucional-vs-opinion",
+    "tipo": "definicion",
+    "titulo": "Rol institucional frente a opinión personal",
+    "variante": "corta",
+    "cuerpo": "Cuando alguien habla desde un cargo público, su declaración compromete a la institución que representa, no solo su opinión personal. Distinguir en qué calidad habla una persona es clave para saber a quién obliga lo que dice.",
+    "ejemplo": "Lo que un juez opina en una entrevista personal no tiene el mismo peso que lo que decide en una sentencia."
+  },
+  {
+    "id": "CC-R-cambio-postura-evidencia",
+    "tipo": "definicion",
+    "titulo": "Cambio de postura ante nueva evidencia",
+    "variante": "corta",
+    "cuerpo": "Cambiar de postura ante nueva evidencia no es una contradicción ni una debilidad argumentativa: es la respuesta esperada de un razonamiento honesto. Lo que sí debilita un argumento es ignorar evidencia relevante para sostener la postura original a toda costa.",
+    "ejemplo": "Un funcionario que ajusta una política pública al ver que los datos reales contradicen su supuesto inicial razona bien, no mal."
+  },
+  {
+    "id": "CC-R-tension-derechos",
+    "tipo": "principio",
+    "titulo": "Ponderación entre derechos legítimos",
+    "variante": "corta",
+    "cuerpo": "Cuando dos derechos constitucionales legítimos entran en tensión, la solución no es darle prioridad automática y permanente a uno sobre el otro. La Constitución exige ponderar caso por caso, según el contexto, el interés público y qué tan grave sería el daño a cada derecho.",
+    "ejemplo": "Libertad de expresión y buen nombre, o privacidad e información en salud pública, se resuelven ponderando el caso concreto, no con una regla fija."
+  },
+  {
+    "id": "CC-R-dimensiones-problema",
+    "tipo": "definicion",
+    "titulo": "Dimensiones de un problema social",
+    "variante": "corta",
+    "cuerpo": "Un problema social complejo casi nunca tiene una sola dimensión relevante, como la económica: suele tener también una dimensión social, ambiental, política o cultural que una solución parcial puede pasar por alto.",
+    "ejemplo": "Un proyecto de vivienda no es solo un problema de costos: también tiene una dimensión de acceso a servicios y de arraigo comunitario."
+  },
+  {
+    "id": "CC-R-relaciones-dimensiones",
+    "tipo": "definicion",
+    "titulo": "Relaciones entre dimensiones",
+    "variante": "corta",
+    "cuerpo": "Las dimensiones de un problema casi nunca son independientes entre sí: una decisión en una dimensión suele mover a las demás, a veces reforzándolas y a veces entrando en conflicto con ellas.",
+    "ejemplo": "Bajar el precio del transporte público, una decisión económica, puede mejorar también el acceso al trabajo, una dimensión social."
+  },
+  {
+    "id": "CC-R-transferibilidad-solucion",
+    "tipo": "definicion",
+    "titulo": "Transferibilidad de una solución a otro contexto",
+    "variante": "corta",
+    "cuerpo": "Que una solución funcione en un contexto no garantiza que funcione igual en otro: hay que revisar si las condiciones que la hicieron exitosa, como recursos, cultura local o escala, también están presentes en el nuevo contexto.",
+    "ejemplo": "Un programa de reciclaje exitoso en una ciudad grande puede fallar en un municipio pequeño sin la misma infraestructura de recolección."
+  },
+  {
+    "id": "CC-R-consecuencias-deseadas-no-deseadas",
+    "tipo": "definicion",
+    "titulo": "Consecuencias deseadas y no deseadas",
+    "variante": "corta",
+    "cuerpo": "Toda intervención sobre un sistema social puede producir, además del efecto buscado, consecuencias no deseadas que no estaban en el diseño original. Anticiparlas exige pensar en el sistema completo, no solo en el objetivo declarado.",
+    "ejemplo": "Subsidiar un cultivo para proteger a agricultores locales puede, sin buscarlo, encarecer ese alimento para el resto de la población."
+  },
+  {
+    "id": "CC-R-dimension-desatendida",
+    "tipo": "definicion",
+    "titulo": "Dimensión desatendida en una solución parcial",
+    "variante": "corta",
+    "cuerpo": "Una solución que resuelve bien una dimensión de un problema puede dejar otra completamente sin atender, y esa dimensión desatendida suele ser la que después genera nuevos conflictos.",
+    "ejemplo": "Construir más cárceles atiende la dimensión de seguridad inmediata pero deja intacta la dimensión de reinserción social."
+  },
+  {
+    "id": "CC-R-tradeoffs-dimensiones",
+    "tipo": "definicion",
+    "titulo": "Tradeoffs entre dimensiones",
+    "variante": "corta",
+    "cuerpo": "Un tradeoff ocurre cuando mejorar una dimensión de un problema exige ceder en otra, no porque falte voluntad, sino porque las dos dimensiones compiten por los mismos recursos o el mismo espacio de decisión.",
+    "ejemplo": "Más velocidad en un trámite público suele implicar menos controles detallados sobre cada caso individual."
+  },
+  {
+    "id": "CC-R-escala-temporal-consecuencias",
+    "tipo": "definicion",
+    "titulo": "Escala temporal de las consecuencias",
+    "variante": "corta",
+    "cuerpo": "Una decisión puede traer un beneficio visible en el corto plazo y un costo que solo se manifiesta en el largo plazo, o al revés. Evaluar una política solo por su efecto inmediato ignora esa escala temporal distinta de sus consecuencias.",
+    "ejemplo": "Explotar un recurso natural sin límite genera ingresos inmediatos pero compromete su disponibilidad en las próximas décadas."
+  },
+  {
+    "id": "CC-R-dilema-cooperacion",
+    "tipo": "regla",
+    "titulo": "Estrategia dominante y dilema de cooperación",
+    "variante": "corta",
+    "cuerpo": "En un dilema de cooperación, cada actor puede tener una estrategia dominante, la opción que le conviene sin importar lo que haga el otro, aunque seguirla ambos deje a los dos peor que si hubieran cooperado. Evaluar solo el propio problema aislado esconde ese costo colectivo.",
+    "ejemplo": "En el dilema del prisionero, incriminar al cómplice conviene a cada uno por separado aunque ambos salgan peor que si hubieran guardado silencio."
+  },
+  {
+    "id": "CC-R-rama-ejecutiva",
+    "tipo": "norma",
+    "titulo": "Rama ejecutiva: los tres roles del Presidente",
+    "variante": "corta",
+    "cuerpo": "El Presidente actúa en tres roles distintos que la Constitución separa a propósito: Jefe de Estado en las relaciones internacionales, Jefe de Gobierno en la política interna, y Suprema Autoridad Administrativa al dirigir la función pública.",
+    "ejemplo": "Firmar un tratado es un acto de Jefe de Estado; nombrar un ministro es un acto de Suprema Autoridad Administrativa."
+  },
+  {
+    "id": "CC-R-rama-legislativa",
+    "tipo": "norma",
+    "titulo": "Rama legislativa: legislar y controlar",
+    "variante": "corta",
+    "cuerpo": "El Congreso no solo aprueba leyes: también ejerce control político sobre el Gobierno, y la Cámara y el Senado se reparten funciones judiciales especiales, como acusar y juzgar a altos funcionarios, que ninguna de las dos cámaras concentra por sí sola.",
+    "ejemplo": "La Cámara acusa a un alto funcionario por una falta grave y es el Senado quien juzga esa acusación."
+  },
+  {
+    "id": "CC-R-rama-judicial",
+    "tipo": "norma",
+    "titulo": "Rama judicial: jurisdicciones y tribunales de cierre",
+    "variante": "corta",
+    "cuerpo": "Colombia tiene varias jurisdicciones especializadas, cada una con su propio tribunal de cierre: la ordinaria con la Corte Suprema, la contencioso-administrativa con el Consejo de Estado, y la constitucional con la Corte Constitucional.",
+    "ejemplo": "Demandar al Estado por una vía mal señalizada es un asunto contencioso-administrativo, cuyo cierre es el Consejo de Estado, no la Corte Suprema."
+  },
+  {
+    "id": "CC-R-equilibrio-poderes",
+    "tipo": "principio",
+    "titulo": "Equilibrio de poderes",
+    "variante": "corta",
+    "cuerpo": "Ninguna de las tres ramas del poder público puede concentrar funciones que le permitan actuar sin ningún control de las otras dos. Este equilibrio de pesos y contrapesos es lo que impide que una sola rama domine a las demás.",
+    "ejemplo": "El Congreso puede acusar a un funcionario, pero es la rama judicial la que finalmente lo juzga y lo sanciona."
+  },
+  {
+    "id": "CC-R-organos-control",
+    "tipo": "norma",
+    "titulo": "Ministerio Público y órganos de control",
+    "variante": "corta",
+    "cuerpo": "El Ministerio Público, integrado por la Procuraduría y las personerías, vigila la conducta de los servidores públicos. La Contraloría es un órgano de control distinto, encargado de vigilar el manejo de los recursos y los bienes públicos.",
+    "ejemplo": "Investigar el manejo del presupuesto de una alcaldía es función de la Contraloría, no de la Procuraduría."
+  },
+  {
+    "id": "CC-R-eleccion-altos-funcionarios",
+    "tipo": "norma",
+    "titulo": "Elección de Procurador, Contralor, Defensor y Fiscal",
+    "variante": "corta",
+    "cuerpo": "El Procurador, el Defensor del Pueblo y el Fiscal se eligen mediante una terna donde el Presidente participa proponiendo candidatos. El Contralor rompe ese patrón desde 2015: se elige por concurso público de méritos, sin que ninguna rama presente candidatos.",
+    "ejemplo": "El Fiscal General se elige de una terna que envía el Presidente; el Contralor, por convocatoria pública ante el Congreso."
+  },
+  {
+    "id": "CC-R-estados-excepcion",
+    "tipo": "norma",
+    "titulo": "Estados de excepción",
+    "variante": "corta",
+    "cuerpo": "La Constitución prevé tres estados de excepción: guerra exterior, conmoción interior y emergencia económica. La regla general exige autorización previa del Senado o del Congreso, pero frente a una agresión que exige respuesta inmediata el Presidente puede actuar primero.",
+    "ejemplo": "Si tropas extranjeras cruzan la frontera sin previo aviso, el Presidente puede declarar la guerra exterior sin esperar la autorización previa del Senado."
+  },
+  {
+    "id": "CC-R-generaciones-derechos",
+    "tipo": "definicion",
+    "titulo": "Derechos fundamentales, sociales y colectivos",
+    "variante": "corta",
+    "cuerpo": "Los derechos fundamentales protegen a la persona de forma directa e inmediata, como la vida o la libertad. Los sociales, económicos y culturales dependen de las capacidades del Estado, como la salud o la vivienda. Los colectivos y ambientales pertenecen a toda una comunidad, no a una persona en particular.",
+    "ejemplo": "El ambiente sano es un derecho colectivo: no pertenece a un habitante en particular sino a toda la comunidad afectada."
+  },
+  {
+    "id": "CC-R-derechos-por-conexidad",
+    "tipo": "norma",
+    "titulo": "Derechos fundamentales por conexidad",
+    "variante": "corta",
+    "cuerpo": "Un derecho que no es fundamental por sí mismo, como la salud en ciertos casos, puede protegerse por tutela cuando su vulneración pone en riesgo directo y verificable otro derecho que sí es fundamental, como la vida o la integridad.",
+    "ejemplo": "Negar una cirugía que compromete el desarrollo físico de un niño conecta la salud con su integridad, y por eso puede protegerse por tutela."
+  },
+  {
+    "id": "CC-R-mecanismos-proteccion",
+    "tipo": "norma",
+    "titulo": "Los cuatro mecanismos judiciales de protección",
+    "variante": "desarrollo",
+    "cuerpo": "La tutela protege derechos fundamentales de una persona ante una vulneración concreta. La acción popular protege derechos colectivos sin exigir un perjuicio individual probado. La acción de cumplimiento obliga a aplicar una norma vigente que se incumple. El habeas corpus protege la libertad personal de alguien detenido.",
+    "tabla": {
+      "titulo": "Cuándo usar cada mecanismo",
+      "encabezados": ["mecanismo", "protege"],
+      "filas": [
+        ["Tutela", "derecho fundamental individual"],
+        ["Acción popular", "derecho colectivo o ambiental"],
+        ["Acción de cumplimiento", "norma vigente que no se aplica"],
+        ["Habeas corpus", "libertad personal de un detenido"]
+      ]
+    },
+    "ejemplo": "Una empresa que contamina un río del que dependen varios municipios se enfrenta con una acción popular, no con una tutela."
+  },
+  {
+    "id": "CC-R-vulneracion-formas",
+    "tipo": "definicion",
+    "titulo": "Vulneración directa, disfrazada y múltiple",
+    "variante": "corta",
+    "cuerpo": "Una vulneración directa niega un derecho abiertamente; una disfrazada ofrece el servicio solo de forma formal, vaciándolo de contenido real. Una misma situación puede además vulnerar más de un derecho a la vez, y reconocer esa doble afectación suele ser la respuesta más completa.",
+    "ejemplo": "Un hospital que agenda una cita de control cada seis meses cuando el tratamiento exige revisión mensual vulnera el derecho de forma disfrazada, no abierta."
+  },
+  {
+    "id": "CC-R-deberes-articulo-95",
+    "tipo": "norma",
+    "titulo": "Deberes ciudadanos del artículo 95",
+    "variante": "corta",
+    "cuerpo": "El artículo 95 no solo enumera derechos: impone deberes, como respetar los derechos ajenos y obrar con solidaridad ante calamidades públicas concretas. Este deber puntual es distinto del principio de solidaridad permanente que sostiene todo el sistema de seguridad social.",
+    "ejemplo": "Ayudar en una emergencia natural puntual responde al deber del artículo 95, no al principio de solidaridad del artículo 48."
+  },
+  {
+    "id": "CC-R-mecanismos-participacion",
+    "tipo": "norma",
+    "titulo": "Mecanismos de participación ciudadana",
+    "variante": "desarrollo",
+    "cuerpo": "Además del voto, la Constitución habilita otros mecanismos: el referendo deroga o aprueba una norma ya expedida, el plebiscito respalda o rechaza una decisión política del Ejecutivo, la consulta popular somete una pregunta a votación, el cabildo abierto abre una sesión pública sin votación, y la revocatoria del mandato destituye a un elegido antes de terminar su período.",
+    "tabla": {
+      "titulo": "Mecanismos y su naturaleza",
+      "encabezados": ["mecanismo", "qué hace"],
+      "filas": [
+        ["Referendo", "aprueba o deroga una norma existente"],
+        ["Plebiscito", "respalda o rechaza una decisión del Ejecutivo"],
+        ["Consulta popular", "somete una pregunta a votación"],
+        ["Cabildo abierto", "discusión directa sin votación"],
+        ["Revocatoria del mandato", "destituye a un elegido antes de tiempo"]
+      ]
+    },
+    "ejemplo": "El plebiscito no sirve para modificar el texto de la Constitución, solo para respaldar o rechazar una decisión política."
+  },
+  {
+    "id": "CC-R-participacion-juvenil",
+    "tipo": "norma",
+    "titulo": "Consejos de Juventud",
+    "variante": "corta",
+    "cuerpo": "Los Consejos de Juventud son un mecanismo de elección popular con función consultiva, abierto a jóvenes entre 14 y 28 años, que permite participación política antes de cumplir la mayoría de edad necesaria para votar en elecciones ordinarias.",
+    "ejemplo": "Un joven de 17 años puede participar en decisiones de su municipio a través del Consejo de Juventud, sin necesidad de poder votar todavía."
+  },
+  {
+    "id": "CC-R-jerarquia-normativa",
+    "tipo": "norma",
+    "titulo": "Jerarquía normativa y bloque de constitucionalidad",
+    "variante": "corta",
+    "cuerpo": "La Constitución está en la cima de la jerarquía normativa, junto con el bloque de constitucionalidad, formado por los tratados de derechos humanos ratificados que no pueden suspenderse ni en estados de excepción. Debajo siguen las leyes estatutarias, orgánicas y ordinarias, y luego los decretos.",
+    "ejemplo": "Un tratado cualquiera que Colombia firme no entra automáticamente al bloque de constitucionalidad, solo los de derechos humanos con esa condición especial."
+  },
+  {
+    "id": "CC-R-reforma-constitucional",
+    "tipo": "norma",
+    "titulo": "Las tres vías de reforma constitucional",
+    "variante": "corta",
+    "cuerpo": "El artículo 374 establece solo tres vías para reformar la Constitución: el Congreso mediante acto legislativo, una Asamblea Constituyente, o el pueblo mediante referendo. El plebiscito no está entre ellas: sirve para respaldar una decisión política, no para modificar el texto constitucional.",
+    "ejemplo": "Proponer un plebiscito para cambiar la duración del período presidencial no es constitucionalmente viable: esa reforma exige una de las tres vías del artículo 374."
+  },
+  {
+    "id": "CC-R-estado-laico",
+    "tipo": "principio",
+    "titulo": "Estado laico y neutralidad religiosa",
+    "variante": "corta",
+    "cuerpo": "El Estado laico no ignora el fenómeno religioso, exige neutralidad: no puede favorecer ni perjudicar a ninguna confesión. Una decisión administrativa que, sin ninguna razón técnica, termina afectando desproporcionadamente a un grupo religioso rompe esa neutralidad.",
+    "ejemplo": "Programar todas las citas médicas justo en el horario de oración semanal de una minoría religiosa, sin alternativa, compromete la neutralidad estatal."
+  },
+  {
+    "id": "CC-R-estado-social-derecho",
+    "tipo": "principio",
+    "titulo": "Estado social de derecho",
+    "variante": "corta",
+    "cuerpo": "Un Estado de derecho clásico solo garantiza que las autoridades actúen conforme a la ley. El Estado social de derecho va más allá: asume la obligación de intervenir activamente para garantizar condiciones materiales mínimas de vida digna, sin que eso signifique una economía estatizada.",
+    "ejemplo": "Garantizar un mínimo vital de agua potable a quien no puede pagarla es una obligación propia del Estado social de derecho."
+  },
+  {
+    "id": "CC-R-tipos-democracia",
+    "tipo": "definicion",
+    "titulo": "Democracia representativa, participativa y deliberativa",
+    "variante": "corta",
+    "cuerpo": "La democracia representativa se centra en quién decide, normalmente los elegidos. La participativa habilita mecanismos para intervenir directamente en decisiones. La deliberativa exige, además, que haya discusión pública argumentada antes de decidir, sin importar quién tome la decisión final.",
+    "ejemplo": "Aprobar una ley solo contando votos, sin ningún debate real, cumple el trámite representativo pero vulnera la exigencia deliberativa."
+  },
+  {
+    "id": "CC-R-principio-solidaridad",
+    "tipo": "principio",
+    "titulo": "Principio de solidaridad del artículo 48",
+    "variante": "corta",
+    "cuerpo": "El artículo 48 organiza todo el sistema de pensiones y salud alrededor de un fondo común, para que la protección social no dependa solo del ahorro individual de cada persona sino de un mecanismo colectivo permanente.",
+    "ejemplo": "Un fondo común financiado por trabajadores activos sostiene una renta para adultos mayores que nunca lograron pensionarse por sí solos."
+  },
+  {
+    "id": "CC-R-principio-vs-regla",
+    "tipo": "definicion",
+    "titulo": "Principio frente a regla constitucional",
+    "variante": "corta",
+    "cuerpo": "Una regla funciona de forma todo o nada: si se cumple la condición, se aplica la consecuencia directamente. Un principio puede entrar en tensión con otro principio y exige ponderación caso por caso, no una aplicación mecánica.",
+    "ejemplo": "La edad mínima para ser Presidente es una regla que se aplica directamente; el Estado social de derecho es un principio que se pondera frente a otros."
+  },
+  {
+    "id": "CC-R-constituyente-1991",
+    "tipo": "definicion",
+    "titulo": "De la Constitución de 1886 a la de 1991",
+    "variante": "corta",
+    "cuerpo": "La Constitución de 1886 concentraba mucho poder en el Ejecutivo y no ofrecía un mecanismo judicial ágil para proteger derechos. La Asamblea de 1991 respondió a esa carencia creando la tutela y la Corte Constitucional, un cambio estructural y no solo una lista nueva de derechos en el papel.",
+    "ejemplo": "La Séptima Papeleta, una acción ciudadana espontánea sin respaldo institucional formal, fue el antecedente que presionó la convocatoria de esa Asamblea."
+  },
+  {
+    "id": "CC-R-identidad-cultural",
+    "tipo": "definicion",
+    "titulo": "Diversidad étnica, cultural y patrimonio",
+    "variante": "corta",
+    "cuerpo": "La Constitución reconoce y protege la diversidad étnica y cultural de la nación como un valor propio, no como una excepción tolerada al modelo cultural mayoritario. Esa protección incluye el patrimonio cultural como parte de la identidad nacional.",
+    "ejemplo": "Sancionar a un estudiante indígena por asistir con su vestimenta tradicional desconoce la protección constitucional a su identidad cultural."
+  },
+  {
+    "id": "CC-R-estatuto-oposicion",
+    "tipo": "norma",
+    "titulo": "Estatuto de la Oposición",
+    "variante": "corta",
+    "cuerpo": "La Ley 1909 de 2018 otorga garantías a quienes se declaran en oposición o independientes del gobierno de turno. En elecciones uninominales, además, otorga una curul en el Senado al candidato presidencial que quedó de segundo, buscando pluralismo ideológico en las instituciones.",
+    "ejemplo": "El candidato que pierde la segunda vuelta presidencial obtiene una curul garantizada en el Senado gracias a este estatuto."
+  }
+]

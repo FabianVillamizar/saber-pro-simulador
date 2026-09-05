@@ -36,6 +36,13 @@
      sobre el fondo del popover. */
   --dg-accent: #15803d;
 
+  /* Módulo Competencias Ciudadanas: ámbar institucional propio para la
+     capa "Reglas en contexto" — distinto del azul, el carmesí de Français,
+     el índigo de Inglés y el verde de Diosgenina. Cambia por tema: en
+     oscuro se aclara para que el subrayado siga legible sobre el fondo
+     del popover. */
+  --cc-accent: #b45309;
+
   --mix-base: white;
 
   --radio-lg: 20px;
@@ -69,6 +76,7 @@
   --fr-cultura: oklch(72% 0.1 40);
   --in-accent: #6b9bff;
   --dg-accent: #5fbf86;
+  --cc-accent: #e0973b;
 
   --mix-base: black;
 
@@ -92,6 +100,7 @@
     --fr-cultura: oklch(72% 0.1 40);
     --in-accent: #6b9bff;
     --dg-accent: #5fbf86;
+    --cc-accent: #e0973b;
     --mix-base: black;
     --sombra-suave: 0 12px 30px rgba(0, 0, 0, 0.35);
     --sombra-hover: rgba(0, 0, 0, 0.35);

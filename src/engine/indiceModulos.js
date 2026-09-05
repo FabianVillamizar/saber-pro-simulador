@@ -139,6 +139,16 @@ export const indiceModulos = {
       pensamiento_sistemico: 'Pensamiento Sistémico',
     },
     adapters: adaptersCompetenciasCiudadanas,
+    // "Reglas en contexto" (token `[[id-regla|texto]]` -> popover) en Repaso
+    // de conceptos y en el Quiz Rápido. El rulebook vive en
+    // src/data/competencias-ciudadanas/cc_reglas.json — normas y principios
+    // constitucionales, tipos de falacia y conceptos de pensamiento
+    // sistémico, referenciados desde `explicacion`/`ejemplo_aplicado`/
+    // `error_comun` de las tarjetas y desde la `explicacion` del quiz.
+    // `acentoReglas: 'cc'` pinta el disparador y el popover con el ámbar
+    // institucional propio `--cc-accent`.
+    renderizaFormulas: true,
+    acentoReglas: 'cc',
   },
   'comunicacion-escrita': {
     id: 'comunicacion-escrita',
