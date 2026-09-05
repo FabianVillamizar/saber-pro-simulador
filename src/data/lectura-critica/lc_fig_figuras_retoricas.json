@@ -74,7 +74,25 @@
     "prereqs": [
       "LC-FIG-001",
       "LC-FIG-003"
-    ]
+    ],
+    "tipo_visual": "tabla",
+    "visual_posicion": "reverso",
+    "tabla_filas": {
+      "columnas": [
+        "Figura",
+        "Rasgo distintivo"
+      ],
+      "filas": [
+        [
+          "Símil",
+          "Usa un conector comparativo explícito: como, cual, parece."
+        ],
+        [
+          "Metáfora",
+          "Funde los dos términos sin conector: identifica uno con el otro directamente."
+        ]
+      ]
+    }
   },
   {
     "id": "LC-FIG-006",
@@ -153,7 +171,25 @@
       "LC-FIG-006",
       "LC-FIG-008",
       "LC-FIG-009"
-    ]
+    ],
+    "tipo_visual": "tabla",
+    "visual_posicion": "reverso",
+    "tabla_filas": {
+      "columnas": [
+        "Figura",
+        "Rasgo distintivo"
+      ],
+      "filas": [
+        [
+          "Metonimia",
+          "Sustituye un término por otro relacionado por contigüidad: causa por efecto, contenedor por contenido, autor por obra."
+        ],
+        [
+          "Sinécdoque",
+          "Caso específico de metonimia: la relación es estrictamente de parte por el todo, o de todo por la parte."
+        ]
+      ]
+    }
   },
   {
     "id": "LC-FIG-011",
@@ -230,7 +266,25 @@
     "prereqs": [
       "LC-FIG-013",
       "LC-FIG-014"
-    ]
+    ],
+    "tipo_visual": "tabla",
+    "visual_posicion": "reverso",
+    "tabla_filas": {
+      "columnas": [
+        "Figura",
+        "Rasgo distintivo"
+      ],
+      "filas": [
+        [
+          "Ironía",
+          "Dice lo contrario de lo que se piensa; puede ser neutral o incluso humorística."
+        ],
+        [
+          "Sarcasmo",
+          "Dice lo contrario de lo que se piensa, con intención explícita de herir o burlarse de alguien."
+        ]
+      ]
+    }
   },
   {
     "id": "LC-FIG-016",
@@ -307,7 +361,25 @@
     "prereqs": [
       "LC-FIG-016",
       "LC-FIG-018"
-    ]
+    ],
+    "tipo_visual": "tabla",
+    "visual_posicion": "reverso",
+    "tabla_filas": {
+      "columnas": [
+        "Figura",
+        "Rasgo distintivo"
+      ],
+      "filas": [
+        [
+          "Personificación",
+          "Atribuye cualidades humanas a algo no humano, descrito en tercera persona."
+        ],
+        [
+          "Apóstrofe retórico",
+          "Se dirige directamente a ese algo en segunda persona, como si pudiera responder."
+        ]
+      ]
+    }
   },
   {
     "id": "LC-FIG-021",
@@ -384,7 +456,25 @@
     "prereqs": [
       "LC-FIG-021",
       "LC-FIG-023"
-    ]
+    ],
+    "tipo_visual": "tabla",
+    "visual_posicion": "reverso",
+    "tabla_filas": {
+      "columnas": [
+        "Figura",
+        "Rasgo distintivo"
+      ],
+      "filas": [
+        [
+          "Oxímoron",
+          "Combina dos palabras opuestas en una expresión muy corta, casi siempre sustantivo y adjetivo."
+        ],
+        [
+          "Paradoja",
+          "Desarrolla una contradicción a lo largo de una afirmación más extensa que necesita explicarse."
+        ]
+      ]
+    }
   },
   {
     "id": "LC-FIG-026",
@@ -581,7 +671,25 @@
     "prereqs": [
       "LC-FIG-036",
       "LC-FIG-037"
-    ]
+    ],
+    "tipo_visual": "tabla",
+    "visual_posicion": "reverso",
+    "tabla_filas": {
+      "columnas": [
+        "Figura",
+        "Rasgo distintivo"
+      ],
+      "filas": [
+        [
+          "Símbolo",
+          "Un elemento puntual, o pocos, con correspondencia sistemática con un segundo significado."
+        ],
+        [
+          "Alegoría",
+          "Casi todos los elementos de una narración completa tienen esa correspondencia sistemática."
+        ]
+      ]
+    }
   },
   {
     "id": "LC-FIG-039",
@@ -658,7 +766,25 @@
     "prereqs": [
       "LC-FIG-001",
       "LC-FIG-041"
-    ]
+    ],
+    "tipo_visual": "tabla",
+    "visual_posicion": "reverso",
+    "tabla_filas": {
+      "columnas": [
+        "Figura",
+        "Rasgo distintivo"
+      ],
+      "filas": [
+        [
+          "Epíteto",
+          "Adjetivo que describe literalmente una cualidad ya propia del sustantivo, aunque redundante."
+        ],
+        [
+          "Metáfora",
+          "Identifica el sustantivo con algo distinto, de forma figurada, basada en una semejanza imaginada."
+        ]
+      ]
+    }
   },
   {
     "id": "LC-FIG-044",
