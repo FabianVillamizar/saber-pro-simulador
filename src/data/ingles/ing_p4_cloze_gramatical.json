@@ -118,7 +118,7 @@
         "categoria_gramatical": "articulos",
         "opciones": {
           "A": "a",
-          "B": "",
+          "B": "(ningún artículo)",
           "C": "the"
         },
         "respuesta_correcta": "C",
@@ -340,7 +340,7 @@
         "opciones": {
           "A": "the",
           "B": "a",
-          "C": ""
+          "C": "(ningún artículo)"
         },
         "respuesta_correcta": "A",
         "explicacion_correcta": "Los superlativos siempre requieren el artículo 'the' ('one of the most important'), ya que comparan con todo un grupo.",
@@ -455,7 +455,7 @@
         "categoria_gramatical": "articulos",
         "opciones": {
           "A": "An",
-          "B": "",
+          "B": "(ningún artículo)",
           "C": "The"
         },
         "respuesta_correcta": "C",
@@ -698,7 +698,7 @@
         "opciones": {
           "A": "a",
           "B": "the",
-          "C": ""
+          "C": "(ningún artículo)"
         },
         "respuesta_correcta": "B",
         "explicacion_correcta": "'The world' es una expresión fija que siempre requiere el artículo definido, ya que se refiere a un concepto único.",
@@ -1192,7 +1192,7 @@
         "categoria_gramatical": "articulos",
         "opciones": {
           "A": "the",
-          "B": "",
+          "B": "(ningún artículo)",
           "C": "a"
         },
         "respuesta_correcta": "C",

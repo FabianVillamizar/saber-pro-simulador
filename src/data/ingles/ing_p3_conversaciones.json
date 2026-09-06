@@ -7,9 +7,9 @@
     "nivel_mcer": "A2",
     "enunciado": "Would you like to come to my birthday party on Saturday?",
     "opciones": {
-      "A": "I'd love to! What time should I arrive?",
-      "B": "No, I haven't been there before.",
-      "C": "Sure, I'll have a large one, please."
+      "A": "I'd love to! What time should I get there on Saturday?",
+      "B": "Thanks, but I'm not really a fan of big parties.",
+      "C": "Sure, I'll have a large one with milk, please."
     },
     "respuesta_correcta": "A",
     "explicacion_correcta": "Esta respuesta acepta la invitación de forma natural y añade una pregunta lógica de seguimiento (la hora), que es exactamente el tipo de respuesta que se espera ante una invitación.",
@@ -33,7 +33,7 @@
     "enunciado": "Do you want to grab lunch together tomorrow?",
     "opciones": {
       "A": "Yes, I had a great time yesterday.",
-      "B": "Sure, is 1 pm okay with you?",
+      "B": "Sure, does 1 pm tomorrow work for you?",
       "C": "Yes, it's usually pretty quiet on weekends."
     },
     "respuesta_correcta": "B",
@@ -82,7 +82,7 @@
     "nivel_mcer": "A2",
     "enunciado": "There's a new exhibit at the art museum. Want to check it out this weekend?",
     "opciones": {
-      "A": "I'd love to. What time does it open?",
+      "A": "I'd love to. What time does the exhibit open?",
       "B": "I've never really liked painting my own art.",
       "C": "That museum is closed on Mondays, I think."
     },
@@ -107,9 +107,9 @@
     "nivel_mcer": "A2",
     "enunciado": "A few of us are going hiking on Sunday morning. Would you like to come along?",
     "opciones": {
-      "A": "Yes, I go to the gym three times a week.",
+      "A": "Yes, I try to go to the gym about three times a week.",
       "B": "Sounds fun, but I already have plans that day.",
-      "C": "I think it's supposed to rain on Tuesday."
+      "C": "I heard it might rain sometime next Tuesday."
     },
     "respuesta_correcta": "B",
     "explicacion_correcta": "Esta respuesta responde directamente a la invitación, declinándola de forma cortés y dando una razón, lo cual es una respuesta natural y completa.",
@@ -182,9 +182,9 @@
     "nivel_mcer": "A2",
     "enunciado": "We're thinking of having a picnic in the park next Saturday. Interested?",
     "opciones": {
-      "A": "It rained really hard last Saturday.",
+      "A": "It actually rained really hard here last Saturday.",
       "B": "That could be fun. Should I bring some snacks?",
-      "C": "I've never really liked parks that much."
+      "C": "I've never really been that fond of picnics."
     },
     "respuesta_correcta": "B",
     "explicacion_correcta": "Esta respuesta muestra interés genuino en el plan y ofrece colaborar, que es una respuesta natural y colaborativa ante una invitación.",
@@ -207,8 +207,8 @@
     "nivel_mcer": "B1",
     "enunciado": "I'm so sorry I'm late — the bus took forever.",
     "opciones": {
-      "A": "That's okay, I'll take the next one.",
-      "B": "No problem, I already paid for the tickets.",
+      "A": "That's okay, I'll just catch the next one.",
+      "B": "No problem, I already bought the tickets for us.",
       "C": "Don't worry about it, we haven't started yet."
     },
     "respuesta_correcta": "C",
@@ -233,8 +233,8 @@
     "enunciado": "Excuse me, but this soup is cold. Could you please heat it up?",
     "opciones": {
       "A": "I'm so sorry about that. I'll bring you a hot one right away.",
-      "B": "Sure, the restaurant closes at 10 tonight.",
-      "C": "Of course, would you like it well done?"
+      "B": "Sure, our kitchen closes at 10 o'clock tonight.",
+      "C": "Of course, sir. Would you like that with a side of bread as well?"
     },
     "respuesta_correcta": "A",
     "explicacion_correcta": "Esta respuesta responde apropiadamente a una queja de servicio, disculpándose y ofreciendo una solución inmediata al problema mencionado.",
@@ -257,9 +257,9 @@
     "nivel_mcer": "B1",
     "enunciado": "I'm really sorry, I completely forgot to send you the file yesterday.",
     "opciones": {
-      "A": "Yes, I received three files last week.",
+      "A": "Yes, I think I got about three files from you last week.",
       "B": "No worries, just send it whenever you get the chance.",
-      "C": "I'm sure it will arrive on time tomorrow."
+      "C": "I'm sure the file will arrive some time tomorrow."
     },
     "respuesta_correcta": "B",
     "explicacion_correcta": "Esta respuesta acepta la disculpa de manera comprensiva y da una instrucción clara sobre qué hacer a continuación, que es la reacción natural ante este tipo de disculpa.",
@@ -282,9 +282,9 @@
     "nivel_mcer": "B1",
     "enunciado": "This jacket has a small hole in the sleeve. I'd like a refund, please.",
     "opciones": {
-      "A": "Yes, that color is very popular this season.",
-      "B": "Sure, would you like to try a smaller size?",
-      "C": "I apologize for the inconvenience. Let me process that refund for you."
+      "A": "Yes, that particular color has been really popular all season.",
+      "B": "Sure, would you like to exchange it for one in a smaller size?",
+      "C": "I'm sorry about that. Let me process the refund for you now."
     },
     "respuesta_correcta": "C",
     "explicacion_correcta": "Esta respuesta reconoce el problema, se disculpa y ofrece exactamente lo que el cliente pidió (el reembolso), respondiendo de forma completa a la queja.",
@@ -308,8 +308,8 @@
     "enunciado": "I owe you an apology — I shouldn't have raised my voice during the meeting.",
     "opciones": {
       "A": "Thank you for saying that. I really appreciate it.",
-      "B": "Yes, the meeting started a bit late.",
-      "C": "That's fine, I'll email you the notes later."
+      "B": "Yes, I did notice the meeting started a little bit late.",
+      "C": "That's fine, I'll email everyone the notes later."
     },
     "respuesta_correcta": "A",
     "explicacion_correcta": "Esta respuesta reconoce y agradece la disculpa de forma directa, que es la respuesta esperada cuando alguien se disculpa sinceramente por su comportamiento.",
@@ -332,9 +332,9 @@
     "nivel_mcer": "B1",
     "enunciado": "The delivery was supposed to arrive yesterday, and it's still not here. This is unacceptable.",
     "opciones": {
-      "A": "Yes, our store opens at 9 am every day.",
-      "B": "I completely understand your frustration. Let me check the status right away.",
-      "C": "Yeah, my bad, that's kind of a bummer, I guess."
+      "A": "Yes, our store opens at 9 in the morning, every single day.",
+      "B": "I understand the frustration. Let me go check the status for you.",
+      "C": "Yeah, my bad about that, deliveries have been unpredictable lately."
     },
     "respuesta_correcta": "B",
     "explicacion_correcta": "Esta respuesta valida la frustración del cliente y ofrece una acción concreta e inmediata, que es la manera adecuada de responder a una queja formal sobre un servicio.",
@@ -357,8 +357,8 @@
     "nivel_mcer": "B1",
     "enunciado": "I'm sorry for the mess I made in the kitchen last night.",
     "opciones": {
-      "A": "Yes, I cooked pasta for dinner.",
-      "B": "I think we're out of clean towels.",
+      "A": "Yes, I made myself some pasta for dinner last night.",
+      "B": "I think we've run out of clean kitchen towels again.",
       "C": "It's okay, I already cleaned it up this morning."
     },
     "respuesta_correcta": "C",
@@ -382,7 +382,7 @@
     "nivel_mcer": "B1",
     "enunciado": "I apologize for interrupting, but could I ask you something quickly?",
     "opciones": {
-      "A": "Of course, go ahead.",
+      "A": "Of course, please go right ahead and ask.",
       "B": "Yes, the meeting room is down the hall.",
       "C": "That's a great question, actually."
     },
@@ -407,9 +407,9 @@
     "nivel_mcer": "B1",
     "enunciado": "I'm afraid I can't come to your presentation — something urgent came up at work.",
     "opciones": {
-      "A": "Yes, the presentation starts at 3 pm sharp.",
+      "A": "Yes, I know, your presentation starts at exactly 3 pm sharp.",
       "B": "No worries at all, I'll send you the slides afterward.",
-      "C": "I hope your presentation goes really well."
+      "C": "I really hope your presentation goes well today."
     },
     "respuesta_correcta": "B",
     "explicacion_correcta": "Esta respuesta acepta la disculpa por no poder asistir y ofrece una solución razonable (compartir el material después), que responde adecuadamente a la situación.",
@@ -432,9 +432,9 @@
     "nivel_mcer": "A2",
     "enunciado": "Excuse me, do you know what time the next train to the city center leaves?",
     "opciones": {
-      "A": "Yes, I take the train every day for work.",
-      "B": "It's about a 20-minute ride, if I remember correctly.",
-      "C": "I think there's one at 4:15, but you should double-check the board."
+      "A": "Yes, I take that exact train into work almost every single day.",
+      "B": "It's roughly a 20-minute ride on that line, from what I remember.",
+      "C": "I think there's one at 4:15, but check the board to be sure."
     },
     "respuesta_correcta": "C",
     "explicacion_correcta": "Esta respuesta responde directamente a la pregunta sobre la hora del próximo tren, dando información útil y sugiriendo confirmar en el tablero.",
@@ -458,8 +458,8 @@
     "enunciado": "Could you tell me where the nearest pharmacy is?",
     "opciones": {
       "A": "Yes, there's one two blocks from here, on the left.",
-      "B": "Sure, they open at 8 am on weekdays.",
-      "C": "I think they're having a sale this week."
+      "B": "Sure, I think they open around 8 am on weekdays.",
+      "C": "I heard that pharmacy is having a pretty big sale this week."
     },
     "respuesta_correcta": "A",
     "explicacion_correcta": "Esta respuesta da la ubicación específica que se pidió, respondiendo de forma directa y útil a la pregunta sobre dónde queda la farmacia.",
@@ -482,9 +482,9 @@
     "nivel_mcer": "A2",
     "enunciado": "Do you happen to know how much this jacket costs?",
     "opciones": {
-      "A": "Yes, it comes in three different colors.",
+      "A": "Yes, it comes in three or four different colors.",
       "B": "Let me check — I think it's on sale for $45.",
-      "C": "It's made of a really soft, warm fabric."
+      "C": "It's made from a really soft and warm kind of fabric."
     },
     "respuesta_correcta": "B",
     "explicacion_correcta": "Esta respuesta responde con la información específica que se pidió, el precio, que es exactamente lo que la pregunta buscaba.",
@@ -507,8 +507,8 @@
     "nivel_mcer": "A2",
     "enunciado": "Do you know if this bus goes to the airport?",
     "opciones": {
-      "A": "Yes, I flew out of that airport last month.",
-      "B": "It usually takes about 45 minutes by car.",
+      "A": "Yes, I flew out of that same airport last month.",
+      "B": "It usually takes around 45 minutes to get there by car.",
       "C": "I'm not sure, but you could ask the driver to confirm."
     },
     "respuesta_correcta": "C",
@@ -557,9 +557,9 @@
     "nivel_mcer": "A2",
     "enunciado": "Do you know if the museum is open on public holidays?",
     "opciones": {
-      "A": "Yes, I visited it last summer with my family.",
+      "A": "Yes, I went to see it last summer with my family.",
       "B": "I believe it is, but it might have shorter hours.",
-      "C": "The entrance fee is quite reasonable, actually."
+      "C": "The entrance fee is actually quite reasonable, I think."
     },
     "respuesta_correcta": "B",
     "explicacion_correcta": "Esta respuesta responde directamente a la pregunta sobre si el museo abre en días festivos, dando información relevante y matizada.",
@@ -632,9 +632,9 @@
     "nivel_mcer": "A2",
     "enunciado": "Would you rather watch a movie or go for a walk tonight?",
     "opciones": {
-      "A": "Yes, I really enjoy watching documentaries.",
-      "B": "Honestly, I'd prefer to stay in and watch something relaxing.",
-      "C": "The weather forecast says it might rain later."
+      "A": "Yes, I really enjoy watching nature documentaries.",
+      "B": "Honestly, I'd rather stay in and watch something relaxing.",
+      "C": "The forecast says it might start raining a bit later tonight."
     },
     "respuesta_correcta": "B",
     "explicacion_correcta": "Esta respuesta responde directamente a la pregunta de preferencia entre dos opciones, eligiendo una de ellas con una razón implícita.",
@@ -683,8 +683,8 @@
     "enunciado": "Would you rather live in a big city or a small town?",
     "opciones": {
       "A": "I think I'd choose a small town — it feels calmer.",
-      "B": "Yes, I've lived in three different cities.",
-      "C": "Big cities usually have more traffic and noise."
+      "B": "Yes, I've lived in three or four different cities.",
+      "C": "Big cities usually have a lot more traffic and noise."
     },
     "respuesta_correcta": "A",
     "explicacion_correcta": "Esta respuesta elige directamente una de las dos opciones presentadas y da una breve razón, respondiendo completamente a la pregunta de preferencia.",
@@ -707,9 +707,9 @@
     "nivel_mcer": "A2",
     "enunciado": "Which do you like better, action movies or comedies?",
     "opciones": {
-      "A": "Yes, I go to the movies almost every weekend.",
+      "A": "Yes, I go to the movies almost every single weekend.",
       "B": "I'd say comedies — I just want to relax and laugh.",
-      "C": "That theater has really comfortable seats."
+      "C": "That theater has really comfortable reclining seats."
     },
     "respuesta_correcta": "B",
     "explicacion_correcta": "Esta respuesta elige una de las dos categorías mencionadas y justifica brevemente su preferencia, respondiendo directamente a la pregunta.",
@@ -732,8 +732,8 @@
     "nivel_mcer": "A2",
     "enunciado": "Would you rather travel by train or by plane?",
     "opciones": {
-      "A": "Yes, I've flown to Europe twice.",
-      "B": "Planes are usually much faster for long distances.",
+      "A": "Yes, I've flown across to Europe a good few times by now.",
+      "B": "Planes are usually a lot faster than trains over long distances.",
       "C": "I actually prefer trains — I like watching the scenery go by."
     },
     "respuesta_correcta": "C",
@@ -758,8 +758,8 @@
     "enunciado": "Do you like spicy food, or do you prefer milder dishes?",
     "opciones": {
       "A": "I actually love spicy food — the spicier, the better!",
-      "B": "Yes, I cook dinner almost every night.",
-      "C": "That restaurant has amazing service."
+      "B": "Yes, I end up cooking dinner almost every night.",
+      "C": "That new restaurant has really friendly and quick service."
     },
     "respuesta_correcta": "A",
     "explicacion_correcta": "Esta respuesta responde directamente indicando su preferencia entre las dos opciones mencionadas.",
@@ -782,9 +782,9 @@
     "nivel_mcer": "A2",
     "enunciado": "Would you rather work from home or go to the office?",
     "opciones": {
-      "A": "Yes, I usually start work around 9 am.",
-      "B": "Honestly, I like going to the office — I miss the social interaction otherwise.",
-      "C": "Working from home can save a lot of commuting time."
+      "A": "Yes, I usually get started with work at around 9 in the morning.",
+      "B": "Honestly, I like the office, I miss the social side otherwise.",
+      "C": "Working from home really does save you a lot of commuting time."
     },
     "respuesta_correcta": "B",
     "explicacion_correcta": "Esta respuesta elige directamente una de las dos opciones planteadas y explica brevemente por qué, respondiendo completamente a la pregunta.",
@@ -807,8 +807,8 @@
     "nivel_mcer": "A2",
     "enunciado": "Do you prefer reading paper books or e-books?",
     "opciones": {
-      "A": "Yes, I read almost every night before bed.",
-      "B": "E-readers have gotten a lot cheaper recently.",
+      "A": "Yes, I read for a little while almost every night before bed.",
+      "B": "E-readers have honestly gotten a lot cheaper over the last year.",
       "C": "I still prefer paper books — I like the feel of turning pages."
     },
     "respuesta_correcta": "C",
@@ -833,8 +833,8 @@
     "enunciado": "I think we should postpone the meeting until next week.",
     "opciones": {
       "A": "I agree, that would give us more time to prepare.",
-      "B": "Yes, the meeting room holds about twenty people.",
-      "C": "I already sent the invitations to everyone."
+      "B": "Yes, that meeting room holds around twenty people.",
+      "C": "I've already sent the invitations out to everyone."
     },
     "respuesta_correcta": "A",
     "explicacion_correcta": "Esta respuesta expresa acuerdo directo con la propuesta y añade una razón que apoya la idea.",
@@ -857,9 +857,9 @@
     "nivel_mcer": "B1",
     "enunciado": "I don't think we should cancel the trip just because of the weather forecast.",
     "opciones": {
-      "A": "Yes, I checked the forecast this morning.",
+      "A": "Yes, I had a look at the forecast this morning too.",
       "B": "That's a fair point — forecasts aren't always accurate anyway.",
-      "C": "The hotel has a great cancellation policy."
+      "C": "The hotel does have a pretty generous cancellation policy, though."
     },
     "respuesta_correcta": "B",
     "explicacion_correcta": "Esta respuesta expresa acuerdo con la opinión presentada y añade una razón que refuerza el punto de vista.",
@@ -882,9 +882,9 @@
     "nivel_mcer": "B1",
     "enunciado": "In my opinion, remote work is more productive than working in an office.",
     "opciones": {
-      "A": "Yes, a lot of companies offer remote positions now.",
-      "B": "My office is about a 20-minute drive from my house.",
-      "C": "I actually disagree — I think people focus better with a clear routine at the office."
+      "A": "Yes, a lot of companies are offering fully remote positions these days.",
+      "B": "My office is only about a 20-minute drive away from where I live.",
+      "C": "I actually disagree, people focus better with a clear office routine."
     },
     "respuesta_correcta": "C",
     "explicacion_correcta": "Esta respuesta expresa un desacuerdo claro y respetuoso con la opinión, dando una razón que sustenta su punto de vista contrario.",
@@ -932,9 +932,9 @@
     "nivel_mcer": "B1",
     "enunciado": "I don't think social media has a negative effect on teenagers.",
     "opciones": {
-      "A": "Yes, most teenagers use social media every day.",
-      "B": "I see it differently — I think it can affect their self-esteem quite a bit.",
-      "C": "My phone's battery doesn't last very long these days."
+      "A": "Yes, nearly all teenagers seem to be on social media every single day.",
+      "B": "I see it differently, I think it really hurts their self-esteem.",
+      "C": "My phone's battery honestly hasn't been lasting very long lately."
     },
     "respuesta_correcta": "B",
     "explicacion_correcta": "Esta respuesta expresa un desacuerdo claro con la opinión presentada, dando una razón concreta que sustenta su postura contraria.",
@@ -957,8 +957,8 @@
     "nivel_mcer": "B1",
     "enunciado": "I think the new policy will actually help small businesses.",
     "opciones": {
-      "A": "Yes, the policy was announced last Tuesday.",
-      "B": "Small businesses often struggle with high rent costs.",
+      "A": "Yes, I think that policy was announced last Tuesday.",
+      "B": "Small businesses often really struggle with high monthly rent costs.",
       "C": "That's a fair point, though I'm still not fully convinced."
     },
     "respuesta_correcta": "C",
@@ -983,8 +983,8 @@
     "enunciado": "I really think the movie was overrated; I didn't enjoy it at all.",
     "opciones": {
       "A": "Really? I actually loved it — I thought the story was great.",
-      "B": "Yes, it was released a few months ago.",
-      "C": "The tickets for that movie were pretty expensive."
+      "B": "Yes, I think it came out just a few months ago.",
+      "C": "The tickets for that movie were honestly surprisingly expensive."
     },
     "respuesta_correcta": "A",
     "explicacion_correcta": "Esta respuesta expresa un desacuerdo directo con la opinión sobre la película, ofreciendo su propia valoración contraria.",
@@ -1007,9 +1007,9 @@
     "nivel_mcer": "B1",
     "enunciado": "I think we should wait until prices go down before buying a new car.",
     "opciones": {
-      "A": "Yes, car prices have gone up a lot recently.",
+      "A": "Yes, car prices really have gone up a lot recently.",
       "B": "That makes sense to me; there's no rush anyway.",
-      "C": "My current car is almost ten years old."
+      "C": "My current car is already almost ten years old now."
     },
     "respuesta_correcta": "B",
     "explicacion_correcta": "Esta respuesta expresa acuerdo con la sugerencia y añade una razón que la respalda.",
@@ -1032,8 +1032,8 @@
     "nivel_mcer": "B1",
     "enunciado": "I don't think it's a good idea to skip breakfast every day.",
     "opciones": {
-      "A": "Yes, I usually wake up around 6:30.",
-      "B": "Breakfast food can be quite expensive these days.",
+      "A": "Yes, I usually end up waking up at around 6:30.",
+      "B": "Breakfast food seems to have gotten pretty expensive these days.",
       "C": "I agree — it's important to have some energy in the morning."
     },
     "respuesta_correcta": "C",
@@ -1082,9 +1082,9 @@
     "nivel_mcer": "A2",
     "enunciado": "Can I get you something to drink while you wait?",
     "opciones": {
-      "A": "Yes, the waiting room is just down the hall.",
+      "A": "Yes, the waiting room is just a bit further down the hall.",
       "B": "Sure, a glass of water would be great, thanks.",
-      "C": "I've been waiting for about ten minutes."
+      "C": "I've only been waiting here for about ten minutes."
     },
     "respuesta_correcta": "B",
     "explicacion_correcta": "Esta respuesta acepta el ofrecimiento y especifica lo que le gustaría, respondiendo de forma completa y natural.",
@@ -1107,9 +1107,9 @@
     "nivel_mcer": "A2",
     "enunciado": "I made too much pasta — would you like some?",
     "opciones": {
-      "A": "Yes, I love Italian restaurants.",
-      "B": "I usually cook pasta on Fridays.",
-      "C": "Sure, that would be lovely, thank you."
+      "A": "Yes, I really love a good Italian restaurant.",
+      "B": "I usually make a big batch of pasta on Fridays.",
+      "C": "Sure, that would honestly be lovely, thank you."
     },
     "respuesta_correcta": "C",
     "explicacion_correcta": "Esta respuesta acepta el ofrecimiento de comida de forma directa y cortés.",
@@ -1157,9 +1157,9 @@
     "nivel_mcer": "A2",
     "enunciado": "Let me know if you need any help moving those boxes.",
     "opciones": {
-      "A": "Yes, we're moving to a new apartment next month.",
+      "A": "Yes, we're moving into a new apartment next month.",
       "B": "Thanks, I might take you up on that a bit later.",
-      "C": "The boxes are labeled by room."
+      "C": "The boxes are all labeled by room, by the way."
     },
     "respuesta_correcta": "B",
     "explicacion_correcta": "Esta respuesta responde apropiadamente al ofrecimiento, indicando que podría aceptar la ayuda más adelante, lo cual es una respuesta natural y educada.",
@@ -1208,8 +1208,8 @@
     "enunciado": "I'm heading to the store — do you want me to pick up anything for you?",
     "opciones": {
       "A": "Actually, could you grab some milk if it's not too much trouble?",
-      "B": "Yes, that store has really good prices.",
-      "C": "I went there yesterday and it was quite crowded."
+      "B": "Yes, that store usually does have really good prices on things.",
+      "C": "I actually went there just yesterday and it was pretty crowded."
     },
     "respuesta_correcta": "A",
     "explicacion_correcta": "Esta respuesta aprovecha el ofrecimiento y hace una petición específica y cortés, respondiendo de forma natural a la pregunta.",
@@ -1232,9 +1232,9 @@
     "nivel_mcer": "A2",
     "enunciado": "Can I help you set up the chairs for the event?",
     "opciones": {
-      "A": "Yes, the event starts at 6 pm sharp.",
-      "B": "That would be great, we could really use an extra pair of hands.",
-      "C": "There are about fifty chairs in storage."
+      "A": "Yes, I'm pretty sure the event is starting at 6 pm sharp.",
+      "B": "That would be great, we could use an extra pair of hands.",
+      "C": "There are around fifty folding chairs stored in the back room."
     },
     "respuesta_correcta": "B",
     "explicacion_correcta": "Esta respuesta acepta el ofrecimiento de ayuda de forma directa y agradecida, respondiendo completamente a la pregunta.",

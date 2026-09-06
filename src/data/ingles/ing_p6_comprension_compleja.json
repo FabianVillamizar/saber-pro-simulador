@@ -12,9 +12,9 @@
         "habilidad": "inferencia",
         "enunciado": "What can be inferred about the author's view of technology companies' claims that notifications are meant to be helpful?",
         "opciones": {
-          "A": "The author believes these claims are only partly true and often serve the companies' interests more than the user's.",
-          "B": "The author fully agrees that all notifications are designed to help users.",
-          "C": "The author believes technology companies have no influence over how notifications are designed."
+          "A": "The author sees them as only partly true; most notifications serve the companies' interests, not the user's.",
+          "B": "The author agrees that nearly all notifications are genuinely built to keep users informed and to make daily life more convenient.",
+          "C": "The author thinks users, not companies, decide how notifications are designed and how often they appear."
         },
         "respuesta_correcta": "A",
         "explicacion_correcta": "El autor reconoce 'some truth' en la afirmación, pero inmediatamente la cuestiona ('let's not pretend that most notifications serve our interests'), mostrando una postura escéptica pero matizada.",
@@ -34,9 +34,9 @@
         "habilidad": "proposito_autor",
         "enunciado": "What is the author's main purpose in writing this text?",
         "opciones": {
-          "A": "To provide a technical explanation of how notification systems are programmed.",
-          "B": "To encourage readers to reconsider their relationship with phone notifications rather than accept them passively.",
-          "C": "To convince readers to stop using smartphones completely."
+          "A": "To give a technical account of how notification systems are built and how alerts get delivered to phones.",
+          "B": "To encourage readers to reconsider their relationship with notifications instead of accepting them passively.",
+          "C": "To persuade readers that the sensible response is to give up smartphones and live without notifications entirely."
         },
         "respuesta_correcta": "B",
         "explicacion_correcta": "El texto argumenta a favor de una reflexión crítica, terminando con una pregunta directa al lector para que reconsidere su comportamiento.",
@@ -56,8 +56,8 @@
         "habilidad": "tono_actitud",
         "enunciado": "What is the author's tone throughout most of the text?",
         "opciones": {
-          "A": "Purely angry and dismissive of all technology.",
-          "B": "Neutral and completely indifferent to the topic.",
+          "A": "Consistently angry and dismissive, rejecting every aspect of modern technology without exception.",
+          "B": "Neutral and detached, presenting both sides without taking any position.",
           "C": "Critical but reasonable, acknowledging some benefits while questioning common assumptions."
         },
         "respuesta_correcta": "C",
@@ -78,9 +78,9 @@
         "habilidad": "significado_implicito",
         "enunciado": "What does the author imply by saying 'anyone suggesting a return to some notification-free paradise is probably selling something just as aggressively as the tech companies are'?",
         "opciones": {
-          "A": "Claims of a perfect solution to phone addiction should be viewed with the same skepticism as the tech industry's own claims.",
-          "B": "There is no way to reduce phone notifications at all.",
-          "C": "Technology companies have created a genuinely perfect way to live without notifications."
+          "A": "Claims of a perfect fix for phone addiction deserve the same skepticism as the tech industry's own claims.",
+          "B": "There is no realistic way to reduce the number of phone notifications, so trying to resist them is a waste of effort.",
+          "C": "A notification-free way of living has already been perfected and is offered by well-meaning experts."
         },
         "respuesta_correcta": "A",
         "explicacion_correcta": "Esta frase sugiere que las soluciones 'perfectas' también deben cuestionarse con el mismo escepticismo que las afirmaciones de las empresas tecnológicas.",
@@ -100,9 +100,9 @@
         "habilidad": "inferencia",
         "enunciado": "Based on the text, what can be inferred about the effect of notifications on reading long books?",
         "opciones": {
-          "A": "Books have become significantly longer and more complex in recent years.",
+          "A": "Books have grown longer and more complex, which is why finishing one now feels harder for many people.",
           "B": "Frequent interruptions have gradually reduced people's ability to concentrate for long periods.",
-          "C": "People no longer have access to physical books due to technology."
+          "C": "Physical books are no longer widely available because technology has replaced most printed copies."
         },
         "respuesta_correcta": "B",
         "explicacion_correcta": "El texto sugiere que 'our capacity to sit with one thought for very long has quietly eroded' debido al hábito de saltar la atención.",
@@ -132,9 +132,9 @@
         "habilidad": "inferencia",
         "enunciado": "What can be inferred about the author's view of constantly filling idle moments with a phone?",
         "opciones": {
-          "A": "The author believes it has no effect on how people think.",
-          "B": "The author believes it is the most efficient use of spare time.",
-          "C": "The author believes it may prevent valuable, unstructured thinking from occurring."
+          "A": "The author believes it has no real effect on how people think or solve problems.",
+          "B": "The author believes it is the most efficient possible use of small pockets of spare time.",
+          "C": "The author believes it may prevent valuable, unstructured thinking from taking place."
         },
         "respuesta_correcta": "C",
         "explicacion_correcta": "El autor argumenta que llenar cada momento libre elimina 'the space in which unstructured thinking used to happen'.",
@@ -154,9 +154,9 @@
         "habilidad": "proposito_autor",
         "enunciado": "What is the author's main purpose in this text?",
         "opciones": {
-          "A": "To argue that boredom has hidden value that is being lost in modern life.",
-          "B": "To provide scientific data proving that boredom improves memory.",
-          "C": "To criticize people who use smartphones in public places."
+          "A": "To argue that boredom has a hidden value that modern life is quietly taking away.",
+          "B": "To present scientific data proving that being bored measurably improves human memory.",
+          "C": "To criticize people who take out their smartphones while in public places."
         },
         "respuesta_correcta": "A",
         "explicacion_correcta": "El texto completo defiende la idea de que el aburrimiento tiene un valor oculto que se está perdiendo.",
@@ -176,9 +176,9 @@
         "habilidad": "tono_actitud",
         "enunciado": "What is the author's tone in this text?",
         "opciones": {
-          "A": "Angry and accusatory toward technology companies.",
+          "A": "Angry and accusatory, blaming technology companies for the loss of idle time.",
           "B": "Thoughtful and mildly persuasive, presenting an unconventional viewpoint.",
-          "C": "Purely factual and emotionally detached."
+          "C": "Purely factual and emotionally detached, offering no personal position."
         },
         "respuesta_correcta": "B",
         "explicacion_correcta": "El autor presenta un argumento poco convencional ('I'd like to make an unfashionable argument') de manera reflexiva y persuasiva.",
@@ -198,9 +198,9 @@
         "habilidad": "significado_implicito",
         "enunciado": "What does the author imply by saying 'It's a strange thing to have to argue for something so easily available and so consistently avoided'?",
         "opciones": {
-          "A": "Boredom has become impossible to experience under any circumstances.",
-          "B": "The author believes boredom should be made illegal in public spaces.",
-          "C": "Boredom is not actually rare, but people actively avoid experiencing it despite its accessibility."
+          "A": "Boredom has become genuinely impossible to experience under any of today's normal circumstances.",
+          "B": "The author believes boredom should be discouraged or even banned in shared public spaces.",
+          "C": "Boredom is not actually rare; people simply avoid it even though it is always within reach."
         },
         "respuesta_correcta": "C",
         "explicacion_correcta": "Esta frase implica que, aunque el aburrimiento sigue siendo fácilmente accesible, las personas lo evitan de forma tan constante que defenderlo suena extraño.",
@@ -220,9 +220,9 @@
         "habilidad": "inferencia",
         "enunciado": "What can be inferred about children's experience of boredom, according to the text?",
         "opciones": {
-          "A": "Children today have less opportunity to experience boredom because devices are almost always available to them.",
-          "B": "Children today experience boredom more intensely than adults.",
-          "C": "Children are no longer capable of feeling bored under any circumstances."
+          "A": "Children today have fewer chances to feel bored because devices are almost always within reach.",
+          "B": "Children today feel boredom far more intensely and more often than adults do.",
+          "C": "Children are no longer capable of feeling bored at all, since screens now occupy every moment of their attention."
         },
         "respuesta_correcta": "A",
         "explicacion_correcta": "El texto dice que los niños 'seem to be losing this experience earliest and most thoroughly, since a phone or tablet is now often within reach'.",
@@ -252,9 +252,9 @@
         "habilidad": "inferencia",
         "enunciado": "What can be inferred about the author's opinion of arguments that strongly favor remote work for everyone?",
         "opciones": {
-          "A": "The author completely agrees with these arguments.",
+          "A": "The author fully agrees with these arguments and shares their strong enthusiasm for working remotely.",
           "B": "The author believes such arguments overlook important differences between workers' situations.",
-          "C": "The author believes remote work should be banned entirely."
+          "C": "The author believes remote work causes more harm than good and should be phased out."
         },
         "respuesta_correcta": "B",
         "explicacion_correcta": "El autor señala repetidamente detalles que 'los defensores más ruidosos del trabajo remoto rara vez reconocen', sugiriendo que estas visiones simplifican demasiado la realidad.",
@@ -274,9 +274,9 @@
         "habilidad": "proposito_autor",
         "enunciado": "What is the author's main purpose in this text?",
         "opciones": {
-          "A": "To convince companies to eliminate remote work policies completely.",
-          "B": "To describe the technical requirements for setting up a home office.",
-          "C": "To argue that the value of remote work depends on individual circumstances rather than being universally good or bad."
+          "A": "To convince companies to end their remote work policies and require every employee back on-site full time.",
+          "B": "To describe the technical equipment and internet setup needed for a functional home office.",
+          "C": "To argue that remote work's value depends on the individual, not on it being universally good or bad."
         },
         "respuesta_correcta": "C",
         "explicacion_correcta": "El texto concluye explícitamente que el trabajo remoto 'is neither a universal solution nor a universal mistake'.",
@@ -297,8 +297,8 @@
         "enunciado": "What is the author's tone in this text?",
         "opciones": {
           "A": "Balanced and measured, resisting simple conclusions in favor of nuance.",
-          "B": "Enthusiastically supportive of remote work in all situations.",
-          "C": "Dismissive and mocking toward remote workers."
+          "B": "Enthusiastically supportive, recommending remote work for every kind of job and worker.",
+          "C": "Dismissive and mocking toward employees who say they prefer working from home."
         },
         "respuesta_correcta": "A",
         "explicacion_correcta": "El autor evita tomar una postura extrema, reconociendo beneficios y problemas según la situación de cada persona.",
@@ -318,9 +318,9 @@
         "habilidad": "significado_implicito",
         "enunciado": "What does the author imply by describing remote work's freedom as 'an invisible tax paid in distraction and discomfort' for some people?",
         "opciones": {
-          "A": "Remote workers are literally required to pay additional taxes to their government.",
+          "A": "Remote workers are literally required to pay an extra government tax simply for working from their homes.",
           "B": "For some workers, the apparent benefits of remote work come with hidden, less visible costs.",
-          "C": "Remote work always costs more money than commuting to an office."
+          "C": "Working remotely always ends up costing more money than commuting to a shared office would."
         },
         "respuesta_correcta": "B",
         "explicacion_correcta": "Esta metáfora sugiere que, aunque el trabajo remoto parece ofrecer libertad, para algunas personas implica costos ocultos no siempre evidentes.",
@@ -340,9 +340,9 @@
         "habilidad": "inferencia",
         "enunciado": "What can be inferred about the experience of younger employees working remotely, according to the text?",
         "opciones": {
-          "A": "They generally prefer remote work more than experienced employees do.",
-          "B": "They are unable to perform their job duties without in-person supervision.",
-          "C": "They may miss out on informal learning opportunities that happen naturally in a physical office."
+          "A": "They tend to prefer remote work even more strongly than their experienced, senior colleagues do.",
+          "B": "They are generally unable to do their job properly without in-person supervision.",
+          "C": "They may miss out on informal learning that happens naturally around colleagues in an office."
         },
         "respuesta_correcta": "C",
         "explicacion_correcta": "El texto menciona que los empleados jóvenes 'often report a specific kind of loss: the informal mentorship' de estar cerca de colegas experimentados.",
@@ -372,9 +372,9 @@
         "habilidad": "inferencia",
         "enunciado": "What can be inferred about why people continue buying fast fashion despite knowing about its human costs?",
         "opciones": {
-          "A": "The connection between the product and the people who made it feels distant and abstract to consumers.",
-          "B": "Most consumers are completely unaware that any problems exist in the fashion industry.",
-          "C": "Fast fashion companies have made it illegal to discuss labor conditions publicly."
+          "A": "The link between the finished product and the people who made it feels distant and abstract to shoppers.",
+          "B": "Most shoppers are genuinely unaware that any labor or supply-chain problems exist in the fashion industry.",
+          "C": "Fast fashion companies have made it illegal to discuss factory labor conditions in public."
         },
         "respuesta_correcta": "A",
         "explicacion_correcta": "El texto sugiere que 'the connection between a shirt on a hanger and the person who sewed it feels abstract, easy to set aside at the checkout counter'.",
@@ -394,9 +394,9 @@
         "habilidad": "proposito_autor",
         "enunciado": "What is the author's main purpose in this text?",
         "opciones": {
-          "A": "To provide a step-by-step guide for starting a clothing recycling business.",
-          "B": "To raise awareness about the hidden human and environmental costs of fast fashion while avoiding blaming individual consumers entirely.",
-          "C": "To argue that all clothing donation programs are completely useless."
+          "A": "To give a step-by-step guide for starting a profitable clothing recycling business.",
+          "B": "To raise awareness of fast fashion's hidden human and environmental costs without blaming shoppers.",
+          "C": "To argue that every clothing donation and textile recycling program in existence is completely pointless."
         },
         "respuesta_correcta": "B",
         "explicacion_correcta": "El texto expone los costos de la moda rápida, pero aclara explícitamente que no busca culpar únicamente a los consumidores individuales.",
@@ -416,8 +416,8 @@
         "habilidad": "tono_actitud",
         "enunciado": "What is the author's tone in this text?",
         "opciones": {
-          "A": "Completely indifferent to the ethical concerns of the fashion industry.",
-          "B": "Celebratory and enthusiastic about the fast fashion industry.",
+          "A": "Completely indifferent to any ethical concern connected to the fashion industry.",
+          "B": "Celebratory and enthusiastic, openly praising the fast fashion industry and the low prices it delivers.",
           "C": "Concerned and critical, but ultimately measured rather than accusatory toward individual shoppers."
         },
         "respuesta_correcta": "C",
@@ -438,9 +438,9 @@
         "habilidad": "significado_implicito",
         "enunciado": "What does the author imply by comparing questioning fast fashion to 'objecting to gravity'?",
         "opciones": {
-          "A": "Fast fashion has become so widely accepted as normal that criticizing it feels unusual or out of place.",
-          "B": "Fast fashion is a scientifically proven natural law that cannot be changed.",
-          "C": "The fashion industry has more power than the laws of physics."
+          "A": "Fast fashion has become so accepted as normal that criticizing it feels strange or out of place.",
+          "B": "Fast fashion is a genuine scientific law of nature that no amount of human effort could ever change.",
+          "C": "The fashion industry now holds more real-world power than the laws of physics themselves."
         },
         "respuesta_correcta": "A",
         "explicacion_correcta": "Esta comparación exagerada sugiere que cuestionar la moda rápida se siente tan extraño como cuestionar una ley física básica, porque se ha normalizado tanto.",
@@ -460,9 +460,9 @@
         "habilidad": "inferencia",
         "enunciado": "What can be inferred about the effectiveness of clothing donation bins, according to the text?",
         "opciones": {
-          "A": "They completely eliminate the environmental impact of discarded clothing.",
-          "B": "They provide a false sense of responsibility, since only a small fraction of donated clothing is actually resold.",
-          "C": "They are the primary way that fast fashion companies reduce their carbon emissions."
+          "A": "They completely remove the environmental impact of the clothing that people no longer want and throw away.",
+          "B": "They create a false sense of responsibility, since only a small share of donations is actually resold.",
+          "C": "They are the main method fast fashion companies use to lower their own carbon emissions."
         },
         "respuesta_correcta": "B",
         "explicacion_correcta": "El texto dice explícitamente que las cajas de donación 'offer a comforting illusion of responsibility', ya que solo una pequeña fracción se revende.",
@@ -492,8 +492,8 @@
         "habilidad": "inferencia",
         "enunciado": "What can be inferred about why multitasking feels productive even when it isn't, according to the text?",
         "opciones": {
-          "A": "Multitasking has been scientifically proven to save significant amounts of time.",
-          "B": "People who multitask are naturally more intelligent than those who focus on one task.",
+          "A": "Multitasking has been clearly proven to save people large and measurable amounts of working time.",
+          "B": "People who multitask well are simply more intelligent than those who focus on one task.",
           "C": "The sense of busyness created by switching tasks feels satisfying, even without real progress."
         },
         "respuesta_correcta": "C",
@@ -515,8 +515,8 @@
         "enunciado": "What is the author's main purpose in this text?",
         "opciones": {
           "A": "To challenge the common belief that multitasking is an efficient and admirable skill.",
-          "B": "To provide step-by-step instructions for improving multitasking ability.",
-          "C": "To argue that all forms of task-switching should be completely eliminated from daily life."
+          "B": "To give step-by-step instructions for training yourself to multitask more effectively.",
+          "C": "To argue that every form of task-switching should be removed entirely from daily life."
         },
         "respuesta_correcta": "A",
         "explicacion_correcta": "El texto cuestiona directamente la creencia popular de que la multitarea es eficiente, citando investigación sobre atención.",
@@ -536,9 +536,9 @@
         "habilidad": "tono_actitud",
         "enunciado": "What is the author's tone in this text?",
         "opciones": {
-          "A": "Angry and highly critical of people who multitask.",
+          "A": "Angry and harshly critical of anyone who tries to do several things at once.",
           "B": "Skeptical but reasonable, questioning a popular belief without being extreme.",
-          "C": "Completely neutral, presenting no personal viewpoint at all."
+          "C": "Completely neutral, reporting the research without offering any personal view."
         },
         "respuesta_correcta": "B",
         "explicacion_correcta": "El autor cuestiona la creencia popular con base en investigación, pero mantiene un tono razonable, sin culpar a nadie.",
@@ -558,9 +558,9 @@
         "habilidad": "significado_implicito",
         "enunciado": "What does the author imply by describing multitasking as 'a way of feeling busy that frequently gets in the way of being effective'?",
         "opciones": {
-          "A": "People who multitask are lazy and unwilling to work hard.",
-          "B": "Feeling busy and being effective always mean exactly the same thing.",
-          "C": "The sensation of productivity from multitasking often does not match actual results."
+          "A": "People who multitask are fundamentally lazy and unwilling to do focused, sustained hard work.",
+          "B": "Feeling busy and being effective are, in practice, exactly the same thing.",
+          "C": "The sensation of productivity from multitasking often does not match the actual results."
         },
         "respuesta_correcta": "C",
         "explicacion_correcta": "Esta frase distingue entre 'sentirse ocupado' (una sensación) y 'ser efectivo' (un resultado real), sugiriendo que la multitarea genera la sensación sin el resultado.",
@@ -580,9 +580,9 @@
         "habilidad": "inferencia",
         "enunciado": "What can be inferred about the author's view of completely eliminating task-switching from daily life?",
         "opciones": {
-          "A": "The author believes this is an unrealistic goal that isn't necessary to address the real problem.",
-          "B": "The author believes this is essential and should be everyone's top priority.",
-          "C": "The author believes this has already been achieved by most successful professionals."
+          "A": "The author thinks it is an unrealistic goal that isn't necessary to fix the real problem.",
+          "B": "The author thinks it is essential and should be nearly everyone's single most important priority.",
+          "C": "The author thinks most successful professionals have already managed to achieve it."
         },
         "respuesta_correcta": "A",
         "explicacion_correcta": "El autor dice explícitamente que eliminar la multitarea por completo es 'an unrealistic goal for most modern jobs'.",
@@ -612,9 +612,9 @@
         "habilidad": "inferencia",
         "enunciado": "What can be inferred about why noise pollution receives less attention than other forms of pollution, according to the text?",
         "opciones": {
-          "A": "Noise pollution does not actually cause any real health problems.",
-          "B": "Its effects are less visible and harder to represent visually than problems like smog or litter.",
-          "C": "City planners are completely unaware that noise pollution exists."
+          "A": "Noise pollution does not actually cause any measurable harm to people's health or wellbeing.",
+          "B": "Its effects are less visible and harder to picture than problems such as smog or litter.",
+          "C": "City planners are, for the most part, completely unaware that noise pollution exists."
         },
         "respuesta_correcta": "B",
         "explicacion_correcta": "El texto sugiere que la contaminación acústica 'rarely gets the attention it deserves... perhaps because its effects are harder to photograph than smog or litter'.",
@@ -634,9 +634,9 @@
         "habilidad": "proposito_autor",
         "enunciado": "What is the author's main purpose in this text?",
         "opciones": {
-          "A": "To provide a technical manual for reducing traffic noise using specific materials.",
-          "B": "To convince readers that cities should eliminate all forms of noise entirely.",
-          "C": "To argue that noise pollution deserves more serious consideration in urban planning."
+          "A": "To offer a technical manual for cutting traffic noise using particular road materials.",
+          "B": "To persuade readers that cities should aim to eliminate every kind of noise entirely.",
+          "C": "To argue that noise pollution deserves more serious attention in urban planning."
         },
         "respuesta_correcta": "C",
         "explicacion_correcta": "El texto argumenta consistentemente que el silencio 'deserves a seat at the table when we design urban spaces'.",
@@ -657,8 +657,8 @@
         "enunciado": "What is the author's tone in this text?",
         "opciones": {
           "A": "Advocating and concerned, calling for more attention to an underappreciated issue.",
-          "B": "Purely humorous, treating the topic as a joke.",
-          "C": "Resigned and hopeless about the possibility of any improvement."
+          "B": "Mainly humorous, treating urban noise as a joke rather than a real concern.",
+          "C": "Resigned and hopeless, doubting that any real improvement to urban noise is realistically possible."
         },
         "respuesta_correcta": "A",
         "explicacion_correcta": "El autor defiende activamente la importancia del silencio en la planificación urbana, mostrando preocupación por un problema subestimado.",
@@ -678,9 +678,9 @@
         "habilidad": "significado_implicito",
         "enunciado": "What does the author imply by saying noise pollution has 'no obvious villain to blame'?",
         "opciones": {
-          "A": "No person or company has ever contributed to noise pollution.",
+          "A": "No single person or company has ever contributed anything to a city's noise pollution.",
           "B": "Noise pollution results from many small, individually reasonable decisions rather than one clear cause.",
-          "C": "Noise pollution is a crime that cannot be legally prosecuted."
+          "C": "Noise pollution is technically a criminal act that, for legal reasons, can never actually be prosecuted."
         },
         "respuesta_correcta": "B",
         "explicacion_correcta": "El texto explica que el ruido 'emerges... from thousands of small, individually reasonable decisions', lo cual implica que no hay un solo responsable claro.",
@@ -700,8 +700,8 @@
         "habilidad": "inferencia",
         "enunciado": "What can be inferred about the author's view of a completely silent city?",
         "opciones": {
-          "A": "The author believes total silence is achievable and should be the ultimate goal for all cities.",
-          "B": "The author believes cities were completely silent before industrialization and should return to that state.",
+          "A": "The author believes total silence is fully achievable and should be the ultimate goal for every city.",
+          "B": "The author believes cities were silent before industrialization and should return to that state.",
           "C": "The author believes total silence would feel unsettling and is not a realistic or desirable goal."
         },
         "respuesta_correcta": "C",
@@ -732,9 +732,9 @@
         "habilidad": "inferencia",
         "enunciado": "What can be inferred about the author's view of people who claim reading formats don't matter at all?",
         "opciones": {
-          "A": "The author partially agrees but still believes there are meaningful differences between formats.",
-          "B": "The author completely agrees that formats make no difference whatsoever.",
-          "C": "The author believes these people have never actually read a physical book."
+          "A": "The author partly agrees but still believes there are meaningful differences between formats.",
+          "B": "The author completely agrees that the reading format truly makes no difference of any kind at all.",
+          "C": "The author suspects these people have never really sat down with a printed book."
         },
         "respuesta_correcta": "A",
         "explicacion_correcta": "El autor dice explícitamente 'I understand the argument, and I even agree with parts of it', pero luego explica por qué sigue resistiéndose a la idea de una equivalencia total.",
@@ -754,9 +754,9 @@
         "habilidad": "proposito_autor",
         "enunciado": "What is the author's main purpose in this text?",
         "opciones": {
-          "A": "To convince readers to completely stop using e-readers.",
-          "B": "To argue that physical books offer distinct advantages that shouldn't be dismissed, without rejecting e-readers entirely.",
-          "C": "To provide a detailed history of how printed books were first invented."
+          "A": "To persuade readers to give up e-readers and go back to printed books only.",
+          "B": "To argue that physical books have distinct advantages worth keeping, without rejecting e-readers.",
+          "C": "To give a detailed historical account of how the earliest printed books were designed and produced."
         },
         "respuesta_correcta": "B",
         "explicacion_correcta": "El autor defiende el valor de los libros físicos mientras reconoce explícitamente las ventajas reales de los e-readers.",
@@ -776,9 +776,9 @@
         "habilidad": "tono_actitud",
         "enunciado": "What is the author's tone in this text?",
         "opciones": {
-          "A": "Harshly critical of anyone who uses e-readers.",
-          "B": "Completely indifferent to the topic of reading formats.",
-          "C": "Fond and persuasive, defending a personal preference while acknowledging other viewpoints."
+          "A": "Harshly critical and impatient toward anyone who chooses to read on an e-reader instead of paper.",
+          "B": "Completely indifferent, with no real interest in the question of reading formats.",
+          "C": "Fond and persuasive, defending a personal preference while acknowledging other views."
         },
         "respuesta_correcta": "C",
         "explicacion_correcta": "El autor expresa cariño por los libros físicos ('with some affection') mientras reconoce con respeto las ventajas de los formatos digitales.",
@@ -798,9 +798,9 @@
         "habilidad": "significado_implicito",
         "enunciado": "What does the author imply by describing a physical book's single function as 'one of its greatest strengths'?",
         "opciones": {
-          "A": "A physical book's inability to offer distractions helps readers maintain focus, unlike multipurpose digital devices.",
-          "B": "Physical books are technologically more advanced than digital devices.",
-          "C": "Physical books are more difficult to use than digital devices, which makes them special."
+          "A": "A physical book's lack of distractions helps readers stay focused, unlike multipurpose digital devices.",
+          "B": "Physical books are, in technical terms, more advanced pieces of technology than digital devices.",
+          "C": "Physical books are harder to use than digital devices, and that difficulty is what makes them worthwhile."
         },
         "respuesta_correcta": "A",
         "explicacion_correcta": "El autor contrasta el libro físico, que 'offers no such temptation', con los dispositivos digitales llenos de distracciones.",
@@ -820,9 +820,9 @@
         "habilidad": "inferencia",
         "enunciado": "What can be inferred about the author's view of digital reading formats for people with visual impairments?",
         "opciones": {
-          "A": "The author believes people with visual impairments should not use any reading format at all.",
-          "B": "The author believes digital formats can be a genuine necessity rather than simply a preference for some readers.",
-          "C": "The author believes digital formats are never appropriate for anyone under any circumstances."
+          "A": "The author believes readers with visual impairments should not rely on any digital reading format at all.",
+          "B": "The author believes digital formats can be a real necessity, not just a preference, for some readers.",
+          "C": "The author believes digital formats are never suitable for anyone under any circumstances."
         },
         "respuesta_correcta": "B",
         "explicacion_correcta": "El texto dice explícitamente que para lectores con discapacidades visuales, los formatos digitales 'aren't simply a preference but a genuine necessity'.",
@@ -852,9 +852,9 @@
         "habilidad": "inferencia",
         "enunciado": "What can be inferred about the relationship between tourism's economic benefits and its costs, according to the text?",
         "opciones": {
-          "A": "Tourism's economic benefits and costs are always shared equally among all residents.",
-          "B": "Tourism has no negative effects on local communities at all.",
-          "C": "The people who benefit economically from tourism are often different from those who bear its negative effects."
+          "A": "Tourism's economic benefits and its costs are always shared equally among all local residents.",
+          "B": "Tourism produces no negative effects of any kind for the communities that receive it.",
+          "C": "The people who benefit economically from tourism are often not the ones who bear its costs."
         },
         "respuesta_correcta": "C",
         "explicacion_correcta": "El texto dice explícitamente que 'the economic benefits of tourism and the people who bear its costs are frequently not the same people at all'.",
@@ -875,8 +875,8 @@
         "enunciado": "What is the author's main purpose in this text?",
         "opciones": {
           "A": "To highlight the often-overlooked costs of tourism without arguing against travel itself.",
-          "B": "To convince readers to stop traveling completely.",
-          "C": "To provide a list of the best tourist destinations to visit this year."
+          "B": "To persuade readers that the only responsible choice is to stop traveling to other places altogether.",
+          "C": "To provide a ranked list of the best tourist destinations to visit this year."
         },
         "respuesta_correcta": "A",
         "explicacion_correcta": "El autor aclara explícitamente que su argumento 'is not an argument against travel itself', sino un llamado a considerar los costos menos visibles.",
@@ -896,9 +896,9 @@
         "habilidad": "tono_actitud",
         "enunciado": "What is the author's tone in this text?",
         "opciones": {
-          "A": "Completely hostile toward all tourists and travel companies.",
-          "B": "Concerned but self-aware, acknowledging their own position as someone who also enjoys traveling.",
-          "C": "Indifferent and disengaged from the topic."
+          "A": "Completely hostile and scornful toward all tourists and the travel companies that serve them.",
+          "B": "Concerned but self-aware, admitting that the author also enjoys traveling to new places.",
+          "C": "Indifferent and disengaged, with little real interest in the subject."
         },
         "respuesta_correcta": "B",
         "explicacion_correcta": "El autor reconoce su propia posición como viajero ('coming from someone who enjoys visiting new places as much as anyone').",
@@ -918,9 +918,9 @@
         "habilidad": "significado_implicito",
         "enunciado": "What does the author imply by describing some neighborhoods as functioning 'more like backdrops for visitors passing through'?",
         "opciones": {
-          "A": "These neighborhoods have literally been converted into movie or photography studios.",
-          "B": "These neighborhoods have become completely empty, with no visitors or residents at all.",
-          "C": "These neighborhoods have lost their character as functional communities and exist mainly for tourists' visual experience."
+          "A": "These neighborhoods have literally been turned into film sets or photography studios.",
+          "B": "These neighborhoods have become almost completely empty, with neither visitors nor permanent residents left.",
+          "C": "These neighborhoods have lost their life as real communities and now exist mainly for tourists to look at."
         },
         "respuesta_correcta": "C",
         "explicacion_correcta": "Esta metáfora sugiere que estos vecindarios han perdido su función como comunidades reales, existiendo principalmente como una experiencia visual para los turistas.",
@@ -940,9 +940,9 @@
         "habilidad": "inferencia",
         "enunciado": "What can be inferred about the current state of solutions like visitor caps and redirected taxes, according to the text?",
         "opciones": {
-          "A": "These solutions exist in some places but are not yet widely adopted.",
-          "B": "These solutions have completely solved the problem of overtourism worldwide.",
-          "C": "These solutions have been tried everywhere and have all failed completely."
+          "A": "These solutions exist in a few places but have not yet been widely adopted.",
+          "B": "These solutions have already fully solved the problem of overtourism around the world.",
+          "C": "These solutions have been tried everywhere and have failed in every single case."
         },
         "respuesta_correcta": "A",
         "explicacion_correcta": "El texto dice explícitamente que estas soluciones 'remain exceptions rather than the rule'.",
