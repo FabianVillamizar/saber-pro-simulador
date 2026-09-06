@@ -17,7 +17,7 @@
         "enunciado": "En este argumento, ¿qué papel cumple la afirmación 'los estudiantes con mejor promedio tienen más probabilidades de graduarse a tiempo'?",
         "dificultad": "alta",
         "opciones": {
-          "A": "Es una conclusión intermedia: se deriva de la primera afirmación y, a la vez, sirve de premisa para llegar a la conclusión final sobre la deserción.",
+          "A": "Es una conclusión intermedia: deriva de una afirmación previa y a la vez sirve de premisa para la conclusión final.",
           "B": "Es la conclusión final de todo el argumento, ya que es la afirmación más general que se presenta.",
           "C": "Es un supuesto implícito, porque el argumento nunca menciona explícitamente esta relación entre promedio y graduación.",
           "D": "Es un dato de contexto irrelevante que podría eliminarse del argumento sin afectar en nada su validez."
@@ -52,7 +52,7 @@
         "dificultad": "alta",
         "opciones": {
           "A": "Nada adicional, porque cada paso de este argumento en cadena se sigue lógicamente del anterior sin necesidad de más evidencia empírica.",
-          "B": "Que exista evidencia de que la mejora en el promedio y la graduación a tiempo realmente reduzcan la deserción, y no se deban a otros factores simultáneos.",
+          "B": "Que la mejora del promedio y la graduación a tiempo de verdad reduzcan la deserción, y no obedezcan a otros factores que ocurran a la vez.",
           "C": "Únicamente que el colegio cuente con recursos suficientes para ampliar el programa de tutorías a todos los estudiantes interesados.",
           "D": "Únicamente que los docentes del programa de tutorías estén de acuerdo con la propuesta de ampliación presentada en el consejo académico."
         },
@@ -96,7 +96,7 @@
         "opciones": {
           "A": "Que el municipio cuenta con el presupuesto necesario para mantener el doble de árboles sembrados este año.",
           "B": "Que los habitantes de la región apoyan las políticas ambientales del municipio relacionadas con la reforestación de la ronda del río.",
-          "C": "Que los árboles sembrados alcanzarán, en ese plazo, un desarrollo suficiente para generar un efecto medible sobre la calidad del agua de la cuenca.",
+          "C": "Que los árboles sembrados alcancen en ese plazo un desarrollo capaz de influir de forma medible en la calidad del agua.",
           "D": "Que ningún otro factor, como vertimientos industriales, esté afectando actualmente la calidad del agua de la cuenca."
         },
         "respuesta_correcta": "C",
@@ -140,7 +140,7 @@
           "A": "Que las agencias regulatorias de esos países desarrollados nunca cometen errores al aprobar medicamentos o vacunas nuevas.",
           "B": "Que la vacuna tiene un costo de producción suficientemente bajo como para distribuirla gratuitamente a toda la población del país.",
           "C": "Que la población de este país ha solicitado explícitamente que se acelere el proceso de vacunación sin más estudios adicionales.",
-          "D": "Que las condiciones de salud y el contexto epidemiológico de este país son suficientemente similares a las de esos países como para trasladar los resultados de seguridad sin ajustes."
+          "D": "Que el contexto epidemiológico y de salud de este país sea lo bastante similar al de esos países como para trasladar sus resultados."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "El argumento asume, sin decirlo explícitamente, que la aprobación en otros países garantiza automáticamente la misma seguridad en un contexto poblacional distinto; ese es el **supuesto mínimo** que necesita, y precisamente el más cuestionable, porque las condiciones de salud y epidemiológicas pueden variar de un país a otro.",
@@ -180,7 +180,7 @@
         "enunciado": "¿Qué error de razonamiento comete este analista al pasar de la primera afirmación a la conclusión sobre la alta participación electoral?",
         "dificultad": "media",
         "opciones": {
-          "A": "Trata una condición necesaria (tener cédula) como si también fuera suficiente para una alta participación, ignorando otros factores igualmente necesarios para votar.",
+          "A": "Trata el hecho de tener cédula (una condición necesaria) como si también fuera suficiente para lograr una alta participación, ignorando los demás factores.",
           "B": "Ningún error; el razonamiento es válido porque toda condición necesaria para un resultado es, automáticamente, también suficiente para producirlo.",
           "C": "Comete una generalización indebida, porque supone que todos los ciudadanos del país opinan exactamente igual sobre la importancia cívica de votar.",
           "D": "Comete una falacia de apelación a la autoridad, porque asume que, por ser un analista político, su afirmación debe aceptarse sin cuestionamientos."
@@ -223,8 +223,8 @@
         "enunciado": "¿Qué problema tiene este razonamiento, incluso si aceptamos que el título universitario efectivamente es relevante para el cargo?",
         "dificultad": "alta",
         "opciones": {
-          "A": "Ninguno; si una condición es suficiente para un resultado, entonces cualquier persona que la cumpla debe producir automáticamente ese mismo resultado, sin necesidad de más evaluación.",
-          "B": "Trata una condición suficiente entre varias posibles como si fuera la única vía válida para el éxito en el cargo, descartando sin evaluar otras competencias (como experiencia o habilidades de liderazgo) que también podrían ser relevantes.",
+          "A": "Ninguno; si una condición es suficiente para un resultado, cualquiera que la cumpla debe producir ese resultado sin más evaluación.",
+          "B": "Trata una condición suficiente como si fuera la única vía posible, sin evaluar otras competencias que también podrían llevar al éxito en el cargo.",
           "C": "El problema es que el título universitario en realidad es una condición necesaria, no suficiente, para desempeñarse en cualquier cargo directivo del país.",
           "D": "El problema es que el gerente de recursos humanos no tiene la autoridad institucional para decidir sobre las contrataciones de este cargo directivo."
         },
@@ -268,7 +268,7 @@
         "opciones": {
           "A": "Porque doscientas personas es un número demasiado pequeño para que cualquier encuesta sobre un tema de salud pública sea considerada válida.",
           "B": "Porque las personas encuestadas podrían haber exagerado o mentido al calificar la atención recibida en esa clínica en particular.",
-          "C": "Porque la muestra, aunque numerosa, proviene solo de un segmento no representativo (pacientes de una clínica privada de alta gama), lo que impide extenderla a la población general.",
+          "C": "Porque la muestra, aunque numerosa, proviene de un segmento no representativo (una clínica privada de alta gama) y no se puede extender a toda la población.",
           "D": "Porque el sistema de salud del país efectivamente no funciona de manera excelente para ningún segmento de la población, incluidos los pacientes de la clínica encuestada."
         },
         "respuesta_correcta": "C",
@@ -312,7 +312,7 @@
           "A": "Nada adicional; un solo caso documentado con rigor metodológico es suficiente para generalizar con confianza a cualquier contexto educativo del país.",
           "B": "Verificar únicamente que los estudiantes de ese colegio piloto hayan aprobado satisfactoriamente todas las materias del año escolar evaluado.",
           "C": "Verificar que el funcionario de educación tenga suficiente experiencia profesional como para hacer afirmaciones sobre políticas educativas nacionales.",
-          "D": "Si las condiciones del colegio piloto (recursos, infraestructura, apoyo docente) se repiten en la generalidad de los colegios, o si fueron factores específicos de ese colegio los que explican la mejora."
+          "D": "Si las condiciones del colegio piloto (recursos, infraestructura, apoyo docente) se repiten en la generalidad de los colegios o fueron propias de ese caso."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Un solo caso exitoso, aunque documentado con rigor, no permite generalizar automáticamente a un contexto tan diverso como 'todos los colegios del país' sin verificar si las condiciones que explicaron el éxito en ese colegio piloto (por ejemplo, mayores recursos o apoyo docente adicional) están presentes de forma similar en la generalidad de las instituciones educativas.",
@@ -352,7 +352,7 @@
         "enunciado": "¿Por qué esta conclusión no está suficientemente sostenida por la premisa presentada, aunque el dato sobre los contenedores sea completamente cierto?",
         "dificultad": "media",
         "opciones": {
-          "A": "Porque instalar contenedores en cinco parques no cubre todos los aspectos del manejo de residuos de un municipio, como la recolección residencial, industrial o la disposición final.",
+          "A": "Porque instalar contenedores en cinco parques no cubre todo el manejo de residuos del municipio (recolección, disposición final).",
           "B": "Porque es falso que la administración municipal haya instalado contenedores de reciclaje en esos cinco parques este año.",
           "C": "Porque los habitantes del municipio no fueron consultados antes de decidir en qué parques instalar los contenedores de reciclaje.",
           "D": "Porque el concejal, como funcionario, no tiene la competencia legal para anunciar este tipo de logros en manejo de residuos sólidos."
@@ -396,7 +396,7 @@
         "dificultad": "media",
         "opciones": {
           "A": "Porque es imposible que un estudio con solo cien voluntarios arroje resultados científicamente válidos sobre cualquier tema relacionado con la salud.",
-          "B": "Porque el estudio solo midió la percepción de energía de un grupo durante un mes, y el titular generaliza eso a 'una vida saludable' para 'cualquier persona'.",
+          "B": "Porque el estudio solo midió la percepción de energía de un grupo durante un mes, y el titular lo generaliza a 'una vida saludable' para cualquiera.",
           "C": "Porque los voluntarios que durmieron ocho horas podrían haber exagerado deliberadamente su sensación de energía al responder la encuesta del estudio.",
           "D": "Porque el estudio debió haber sido publicado en una revista científica reconocida internacionalmente para que sus resultados fueran creíbles."
         },
@@ -440,7 +440,7 @@
         "opciones": {
           "A": "Ningún problema, porque cualquier persona con reconocimiento profesional en su campo tiene automáticamente la autoridad para opinar válidamente sobre cualquier otro tema de interés público.",
           "B": "El problema es que el cirujano probablemente tiene una posición política personal que sesga completamente su opinión sobre la reforma tributaria.",
-          "C": "Es una fuente creíble en su campo de especialidad médica, pero no necesariamente pertinente para pronunciarse sobre efectos macroeconómicos, un área ajena a su formación y experiencia profesional.",
+          "C": "Es una fuente creíble en su especialidad médica, pero no necesariamente pertinente para hablar de efectos macroeconómicos, un área ajena a su formación.",
           "D": "Ningún problema, porque cualquier persona con muchos años de experiencia profesional, sin importar en qué campo, adquiere automáticamente competencia en temas económicos."
         },
         "respuesta_correcta": "C",
@@ -484,7 +484,7 @@
           "A": "Ninguno; toda empresa que participa en una licitación tiene automáticamente la obligación legal de presentar información veraz, por lo que su informe debe aceptarse sin más verificación.",
           "B": "Si la empresa tiene suficiente experiencia previa en la construcción de proyectos viales similares en otras regiones del país.",
           "C": "Si el informe fue redactado usando un lenguaje técnico apropiado y con buena ortografía y presentación formal.",
-          "D": "Si existe un conflicto de interés evidente, dado que la empresa que elabora el informe es, al mismo tiempo, una de las interesadas directas en ganar la licitación que ese mismo informe evalúa."
+          "D": "Si existe un conflicto de interés: la empresa que elabora el informe es a la vez una de las interesadas en ganar la licitación que evalúa."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Cuando la fuente de una información tiene un **interés directo** en el resultado del debate —como ocurre aquí, pues la empresa evalúa su propia propuesta dentro de una licitación en la que compite—, conviene contrastar esa información con fuentes independientes antes de aceptar sus conclusiones sin más, sin que esto signifique que la información sea automáticamente falsa.",
@@ -524,7 +524,7 @@
         "enunciado": "¿Por qué estas dos afirmaciones del vocero podrían considerarse incoherentes entre sí?",
         "dificultad": "alta",
         "opciones": {
-          "A": "Porque sostener que nunca ha habido discriminación resulta difícil de conciliar con un criterio de selección que, en la práctica, ha excluido sistemáticamente a un grupo etario específico durante varios años.",
+          "A": "Porque sostener que nunca ha habido discriminación no encaja con un criterio de selección que en la práctica excluyó a un grupo de edad durante varios años.",
           "B": "No hay ninguna incoherencia, porque ambas afirmaciones se refieren a temas completamente distintos y no guardan ninguna relación lógica entre sí.",
           "C": "Sí hay una incoherencia, pero se debe a que el vocero mintió deliberadamente sobre la política de contratación de la empresa en toda la entrevista.",
           "D": "No hay incoherencia, porque preferir perfiles con proyección de carrera a largo plazo es un criterio empresarial legítimo que cualquier compañía puede aplicar libremente."
@@ -559,7 +559,7 @@
         "dificultad": "alta",
         "opciones": {
           "A": "'Preferimos perfiles jóvenes porque se adaptan más fácilmente a los cambios tecnológicos que la empresa ha venido implementando en los últimos años.'",
-          "B": "'Revisamos nuestros criterios de selección recientemente porque notamos que estaban excluyendo, sin ninguna justificación técnica, a candidatos mayores de 50 años, y ya los hemos corregido.'",
+          "B": "'Hace poco revisamos nuestros criterios de selección porque estaban dejando fuera, sin ninguna justificación, a candidatos mayores de 50 años, y ya lo corregimos.'",
           "C": "'Los candidatos mayores de 50 años simplemente no se han postulado con la frecuencia suficiente como para ser considerados en los procesos recientes.'",
           "D": "'La empresa cree en la igualdad de oportunidades para todos los grupos de edad, aunque reconocemos que aún no hemos revisado si existe algún patrón de exclusión en nuestros procesos.'"
         },
@@ -603,7 +603,7 @@
         "opciones": {
           "A": "No hay ninguna incoherencia, porque las dos declaraciones fueron hechas en eventos distintos y ante audiencias diferentes.",
           "B": "Sí hay incoherencia, pero únicamente porque el funcionario cambió deliberadamente de opinión para quedar bien políticamente ante la segunda audiencia.",
-          "C": "Porque afirmar que no hay recursos suficientes para ampliar el programa es difícil de conciliar con anunciar, poco después, una triplicación de su cobertura sin necesidad de recursos adicionales.",
+          "C": "Porque decir que no hay recursos para ampliar el programa no encaja con anunciar poco después que se triplicará su cobertura sin recursos extra.",
           "D": "No hay incoherencia, porque es perfectamente posible ampliar la cobertura de cualquier programa social sin necesidad de ningún recurso adicional en ningún caso."
         },
         "respuesta_correcta": "C",
@@ -689,7 +689,7 @@
         "enunciado": "¿Qué falacia comete esta afirmación?",
         "dificultad": "media",
         "opciones": {
-          "A": "Falsa dicotomía, porque presenta solo dos opciones extremas como si fueran las únicas posibles, ignorando alternativas intermedias de financiamiento del sistema de salud.",
+          "A": "Falsa dicotomía, porque plantea solo dos opciones extremas como si fueran las únicas posibles, dejando fuera las alternativas intermedias de financiamiento.",
           "B": "Apelación a la emoción, porque menciona la posibilidad de que miles de personas mueran para conmover al público sin ofrecer ninguna razón adicional.",
           "C": "Pendiente resbaladiza, porque afirma que no aumentar los impuestos desencadenará automáticamente una cadena de consecuencias cada vez más graves para el sistema de salud.",
           "D": "Circularidad, porque la conclusión sobre la necesidad de aumentar los impuestos ya estaba contenida en la premisa presentada por el participante."
@@ -734,7 +734,7 @@
         "dificultad": "baja",
         "opciones": {
           "A": "Hombre de paja, porque distorsiona la posición de quienes se oponen al proyecto minero para hacerla parecer más fácil de refutar.",
-          "B": "Apelación a la autoridad, porque respalda la conclusión solo en el prestigio de una persona reconocida en un campo (la física) sin relación con la evaluación de impactos ambientales.",
+          "B": "Apelación a la autoridad, porque se apoya solo en el prestigio de alguien reconocido en la física, un campo ajeno a la evaluación ambiental.",
           "C": "Generalización apresurada, porque concluye algo sobre todos los proyectos mineros del país a partir de la opinión de una sola persona.",
           "D": "Circularidad, porque la conclusión sobre la seguridad ambiental del proyecto ya estaba contenida, con otras palabras, en la premisa presentada."
         },
@@ -779,7 +779,7 @@
         "opciones": {
           "A": "Falsa dicotomía, porque presenta solo dos alternativas posibles: aprobar el proyecto de inmediato o dejar a la población desplazada sin ninguna solución.",
           "B": "Generalización apresurada, porque concluye a partir de unas pocas fotografías que todos los proyectos de vivienda para población desplazada deben aprobarse sin análisis técnico.",
-          "C": "Apelación a la emoción, porque busca que la audiencia acepte la conclusión por el impacto emocional de las imágenes presentadas, sustituyendo por completo cualquier análisis técnico o de viabilidad del proyecto.",
+          "C": "Apelación a la emoción, porque busca que la audiencia acepte la conclusión por el impacto emocional de las imágenes, sin análisis técnico ni de viabilidad.",
           "D": "Ad hominem, porque ataca a quienes se oponen al proyecto de vivienda calificándolos de insensibles ante el sufrimiento de la población desplazada."
         },
         "respuesta_correcta": "C",
@@ -824,7 +824,7 @@
           "A": "Falsa dicotomía, porque el congresista presenta solo dos alternativas: aprobar la excepción o mantener intacto el sistema de contratación pública sin ningún cambio.",
           "B": "Apelación a la emoción, porque busca generar temor entre los congresistas para que rechacen la propuesta sin ningún análisis adicional.",
           "C": "Circularidad, porque la conclusión sobre el colapso del sistema de contratación pública ya estaba contenida en la premisa sobre la excepción puntual.",
-          "D": "Pendiente resbaladiza, porque afirma que una excepción puntual desencadenará inevitablemente una cadena de consecuencias cada vez más graves, sin ofrecer evidencia de que cada paso de esa cadena efectivamente ocurriría."
+          "D": "Pendiente resbaladiza, porque afirma que una excepción puntual desencadenará sin remedio una cadena de consecuencias cada vez más graves, sin evidencia de ello."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "La **pendiente resbaladiza** presenta una sucesión de pasos hipotéticos, cada uno más extremo que el anterior, como si fueran una consecuencia automática e inevitable del primer paso, sin demostrar el mecanismo concreto que conectaría una excepción puntual y limitada a una emergencia sanitaria con el colapso total del sistema de contratación pública del país.",
@@ -864,7 +864,7 @@
         "enunciado": "¿Cuál de los siguientes hallazgos, si se confirmara, refutaría la afirmación del investigador tal como fue formulada?",
         "dificultad": "media",
         "opciones": {
-          "A": "Un programa de mentoría entre pares implementado en una universidad, documentado y evaluado rigurosamente, en el que el desempeño académico de los participantes no mejoró ni se mantuvo igual respecto al de un grupo similar sin mentoría.",
+          "A": "Un programa de mentoría entre pares, documentado y evaluado con rigor, en el que el desempeño de los participantes no mejoró respecto a un grupo similar sin mentoría.",
           "B": "Un programa de mentoría entre pares implementado en un colegio, en el que el desempeño académico de los participantes mejoró de forma similar a lo que el investigador describe.",
           "C": "Una encuesta de opinión en la que la mayoría de los estudiantes universitarios del país afirma estar de acuerdo con la implementación de programas de mentoría entre pares.",
           "D": "Un estudio que concluye que los programas de mentoría entre pares son más económicos de implementar que otras estrategias de acompañamiento académico."
@@ -899,7 +899,7 @@
         "dificultad": "alta",
         "opciones": {
           "A": "No cumpliría ninguna función relevante, porque un solo caso nunca es suficiente para cuestionar una afirmación general sobre un tema académico.",
-          "B": "Funcionaría como un contraejemplo suficiente para invalidar la afirmación tal como fue formulada, precisamente porque el uso de la palabra 'todo' la compromete con que no exista ningún caso distinto.",
+          "B": "Sería un contraejemplo suficiente para invalidar la afirmación tal como fue formulada, porque la palabra 'todo' la compromete con que no haya ningún caso distinto.",
           "C": "Funcionaría como evidencia de que la mayoría de los programas de mentoría entre pares no mejoran el desempeño académico de los estudiantes.",
           "D": "Funcionaría únicamente como una anécdota interesante para incluir en publicaciones futuras, pero sin ningún peso lógico frente a la afirmación original del investigador."
         },
@@ -943,7 +943,7 @@
         "opciones": {
           "A": "Un informe que documenta una ciudad específica donde, tras instalar paneles solares en edificios públicos, el consumo de energía no renovable se mantuvo exactamente igual que antes.",
           "B": "Una encuesta que muestra que la mayoría de los ciudadanos apoya la instalación de paneles solares en edificios públicos por razones estéticas y de imagen institucional.",
-          "C": "Un informe que documenta, en varias ciudades con climas y niveles de radiación solar distintos, una reducción consistente del consumo de energía no renovable tras la instalación de paneles solares en edificios públicos.",
+          "C": "Un informe que documenta, en varias ciudades con climas y radiación solar distintos, una reducción sostenida del consumo de energía no renovable tras instalar los paneles.",
           "D": "Un estudio que concluye que instalar paneles solares en edificios públicos es más costoso a corto plazo que mantener el suministro eléctrico convencional."
         },
         "respuesta_correcta": "C",
@@ -987,7 +987,7 @@
           "A": "Bastaría con presentar un solo caso documentado de un estudiante que repitió el año y continuó exitosamente sus estudios después, sin necesidad de ningún dato adicional.",
           "B": "Necesitaría demostrar que ningún estudiante en la historia del colegio ha abandonado definitivamente sus estudios después de repetir un año escolar.",
           "C": "Necesitaría cuestionar directamente la experiencia profesional del rector como educador, en lugar de aportar casos concretos sobre estudiantes que repitieron el año escolar.",
-          "D": "Necesitaría mostrar que los casos de estudiantes que repiten un año y continúan sus estudios exitosamente son más frecuentes de lo que la expresión 'en la mayoría de los casos' sugiere, y no solo presentar uno o dos casos aislados de éxito."
+          "D": "Necesitaría mostrar que repetir año y seguir con éxito es más frecuente de lo que 'en la mayoría de los casos' admite, no bastar con uno o dos casos aislados."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Como la afirmación del rector ya reconoce excepciones (usa la expresión 'en la mayoría de los casos', no 'todos los casos'), un solo contraejemplo aislado de un estudiante que repitió el año y continuó exitosamente no la refuta, porque la afirmación ya contemplaba que existieran casos distintos. Para cuestionarla con fuerza real, habría que mostrar que esos casos de continuidad exitosa son más frecuentes de lo que la propia afirmación reconoce, no simplemente que existen.",

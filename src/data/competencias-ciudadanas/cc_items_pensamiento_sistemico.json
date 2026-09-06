@@ -114,7 +114,7 @@
         "opciones": {
           "A": "La calidad de la infraestructura del colegio y el número de docentes disponibles para dictar las clases adicionales, que el caso describe como insuficientes.",
           "B": "El paro de transporte que originó la pérdida de clases y las políticas nacionales de transporte público, que son responsabilidad exclusiva del Gobierno central.",
-          "C": "El cumplimiento del contenido curricular exigido mediante la extensión del calendario y la necesidad económica de las familias agrícolas de contar con la ayuda de sus hijos durante la cosecha.",
+          "C": "El cumplimiento del currículo mediante la extensión del calendario y la necesidad económica de las familias agrícolas de contar con sus hijos en la cosecha.",
           "D": "El contenido curricular exigido en matemáticas y el contenido curricular exigido en ciencias sociales, que compiten por las mismas horas de clase adicionales."
         },
         "respuesta_correcta": "C",
@@ -159,7 +159,7 @@
           "A": "Ninguna relación directa; la disminución del caudal y la caída de los ingresos agrícolas son dos fenómenos independientes que ocurrieron al mismo tiempo por pura coincidencia.",
           "B": "Una relación donde la caída de los ingresos agrícolas fue la causa que llevó a la disminución del caudal del río durante la temporada seca.",
           "C": "Una relación de doble vía, en la que la caída de los ingresos agrícolas también provocó, a su vez, una reducción adicional del caudal del río.",
-          "D": "Una relación de causa a efecto: la reducción del caudal disponible para riego, generada por la operación de la central, afectó directamente la producción agrícola y, con ello, los ingresos de los agricultores."
+          "D": "Una relación de causa a efecto: la central redujo el caudal disponible para riego, lo que afectó la producción agrícola y con ella los ingresos de los agricultores."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "La situación describe una cadena causal clara: la operación de la central redujo el caudal disponible en temporada seca, lo cual afectó el riego de los cultivos y, en consecuencia, las cosechas e ingresos de los agricultores. Es una relación de una sola dirección claramente descrita en el caso.",
@@ -191,7 +191,7 @@
         "enunciado": "Un año después, ¿qué otra dimensión adicional podría verse afectada como consecuencia de la caída en los ingresos agrícolas, formando una nueva cadena de efectos?",
         "dificultad": "alta",
         "opciones": {
-          "A": "La dimensión social de la región, si la caída de ingresos lleva a los agricultores a migrar hacia otras zonas en busca de mejores oportunidades económicas, alterando la composición y las redes comunitarias de las veredas.",
+          "A": "La dimensión social de la región, si la caída de ingresos empuja a los agricultores a migrar a otras zonas, alterando las redes comunitarias de las veredas.",
           "B": "La dimensión política nacional, ya que una caída de ingresos agrícolas en unas pocas veredas modificaría automáticamente la política energética de todo el país.",
           "C": "La dimensión ambiental nuevamente, ya que la caída de ingresos agrícolas necesariamente aumentaría de nuevo el caudal del río a su nivel original.",
           "D": "Ninguna dimensión adicional se vería afectada, ya que los efectos de la construcción de la central se agotan completamente en la dimensión económica de los agricultores."
@@ -281,7 +281,7 @@
         "opciones": {
           "A": "Si los médicos que participarían en el programa de telemedicina en la nueva región tenían la misma especialidad que los médicos de la primera región.",
           "B": "Si los habitantes de la nueva región estaban de acuerdo, en una consulta previa, con la implementación del programa de telemedicina.",
-          "C": "Si las condiciones de infraestructura que explicaron el éxito del programa en la primera región también estaban presentes en la nueva región antes de replicarlo exactamente igual.",
+          "C": "Si las condiciones de infraestructura que explicaron el éxito en la primera región también estaban presentes en la nueva antes de replicar el programa.",
           "D": "Nada adicional; un programa que funcionó bien en una región debe funcionar exactamente igual en cualquier otra región del país sin necesidad de ningún ajuste."
         },
         "respuesta_correcta": "C",
@@ -326,7 +326,7 @@
           "A": "Si los docentes del colegio público tienen la misma cantidad de años de experiencia que los docentes del colegio privado donde se implementó originalmente el modelo.",
           "B": "Si el colegio público cuenta con la misma cantidad de estudiantes por salón que el colegio privado donde el modelo tuvo éxito.",
           "C": "Nada crítico; el modelo de aulas invertidas depende únicamente de la calidad pedagógica del docente, sin importar el acceso tecnológico de los estudiantes fuera del colegio.",
-          "D": "Si los estudiantes del colegio público tienen, o no, acceso equivalente a dispositivos e internet fuera del horario escolar, ya que ese acceso es una condición que explica el éxito del modelo en el colegio privado."
+          "D": "Si los estudiantes del colegio público tienen acceso equivalente a dispositivos e internet fuera del horario escolar, condición que explicó el éxito en el privado."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "El modelo de aulas invertidas depende de que los estudiantes puedan ver el material teórico en casa, lo cual requiere acceso a dispositivos e internet fuera del colegio. Esta condición, presente en el colegio privado, no está garantizada en el colegio público, lo que hace crítico evaluarla antes de asumir que el modelo funcionará igual sin ningún ajuste.",
@@ -367,7 +367,7 @@
         "enunciado": "¿Qué condición del primer barrio, ausente en el segundo, resulta crítica para explicar por qué el programa de mediación podría no funcionar igual en el nuevo contexto?",
         "dificultad": "media",
         "opciones": {
-          "A": "La existencia de líderes comunitarios reconocidos y de una estructura organizativa consolidada, condiciones que hacían posible la mediación efectiva en el primer barrio y que no están presentes en el segundo.",
+          "A": "La existencia de líderes comunitarios reconocidos y una estructura organizativa consolidada, condiciones que hacían posible la mediación en el primer barrio y faltan en el segundo.",
           "B": "El tamaño físico del segundo barrio, que según la situación es mucho más grande que el primero en términos de extensión territorial.",
           "C": "El número de conflictos vecinales reportados en cada barrio, que la situación describe como significativamente mayor en el segundo barrio que en el primero.",
           "D": "Ninguna condición particular; un programa de mediación comunitaria exitoso debe funcionar exactamente igual en cualquier barrio de la misma ciudad, sin importar sus características sociales."
@@ -412,7 +412,7 @@
         "dificultad": "media",
         "opciones": {
           "A": "La consecuencia deseada es el aumento del tráfico periférico, ya que esto demuestra que más personas están usando rutas alternativas de forma voluntaria.",
-          "B": "La consecuencia deseada es la reducción del 30% en la congestión del centro; la consecuencia no deseada es el aumento del tráfico y la congestión en las vías periféricas que antes no tenían ese problema.",
+          "B": "La deseada es la reducción del 30% en la congestión del centro; la no deseada es el aumento del tráfico en las vías periféricas, que antes no tenían ese problema.",
           "C": "Ambos efectos, la reducción en el centro y el aumento en la periferia, fueron consecuencias igualmente deseadas y planeadas desde el diseño original de la política.",
           "D": "No existe ninguna consecuencia no deseada en este caso, ya que cualquier efecto posterior a una política pública debe considerarse parte de su diseño original."
         },
@@ -448,7 +448,7 @@
         "opciones": {
           "A": "Sí, porque cualquier consecuencia no deseada de una política pública, sin importar su magnitud, es motivo suficiente para eliminarla de inmediato.",
           "B": "No, porque en realidad no existe ninguna relación entre la política de peajes y el aumento de tráfico en las vías periféricas, que se debe a factores completamente distintos.",
-          "C": "No necesariamente, porque el análisis debe comparar la magnitud del beneficio logrado frente al costo del efecto no deseado, y explorar si existen ajustes que mitiguen ese efecto sin eliminar la política.",
+          "C": "No necesariamente, porque hay que comparar la magnitud del beneficio frente al costo del efecto no deseado y ver si hay ajustes que lo mitiguen sin eliminar la política.",
           "D": "Sí, porque una política pública solo puede considerarse exitosa si logra mejorar todas las dimensiones relacionadas con el problema sin generar ningún efecto adicional en ninguna zona."
         },
         "respuesta_correcta": "C",
@@ -493,7 +493,7 @@
           "A": "La recuperación de la población de la especie protegida, ya que ese resultado nunca fue parte del objetivo original de la prohibición de pesca.",
           "B": "La reducción en los ingresos de los pescadores artesanales durante el primer mes de la prohibición, antes de que comenzaran a pescar la segunda especie.",
           "C": "Ninguna consecuencia no deseada; todos los efectos descritos en la situación fueron anticipados y planificados desde el diseño original de la prohibición de pesca.",
-          "D": "El aumento de la presión pesquera sobre la segunda especie, que antes no enfrentaba ese nivel de explotación, como resultado indirecto de la prohibición sobre la primera especie."
+          "D": "El aumento de la presión pesquera sobre la segunda especie, que antes no sufría ese nivel de explotación, como efecto indirecto de la prohibición sobre la primera."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "La prohibición logró su objetivo directo: la recuperación de la especie en peligro. Sin embargo, generó un efecto adicional no buscado: los pescadores desplazaron su actividad hacia otra especie, generando una nueva presión pesquera sobre ella, que es la consecuencia no deseada de la medida.",
@@ -579,7 +579,7 @@
         "dificultad": "media",
         "opciones": {
           "A": "La dimensión académica, ya que el programa de tutorías nunca llegó a cubrir de forma completa todas las materias técnicas del programa de ciencias e ingeniería.",
-          "B": "La dimensión económica, relacionada con las dificultades de los estudiantes para sostener sus gastos de manutención, que resultó ser la causa principal de la deserción según la encuesta.",
+          "B": "La dimensión económica: las dificultades de los estudiantes para cubrir sus gastos de manutención, que la encuesta señaló como causa principal de la deserción.",
           "C": "La dimensión ambiental, relacionada con la falta de espacios adecuados de estudio dentro del campus universitario para los estudiantes de ciencias e ingeniería.",
           "D": "Ninguna dimensión quedó desatendida, ya que el programa de tutorías abordó de manera integral todos los aspectos relevantes de la deserción estudiantil."
         },
@@ -624,7 +624,7 @@
         "opciones": {
           "A": "La dimensión disciplinaria, ya que el nuevo reglamento no estableció sanciones lo suficientemente severas para desincentivar por completo los conflictos entre estudiantes.",
           "B": "La dimensión económica del colegio, relacionada con el presupuesto insuficiente para contratar más personal de vigilancia durante los descansos.",
-          "C": "La dimensión social y relacional de fondo que genera los conflictos entre estudiantes, ya que el reglamento se enfocó en sancionar las conductas visibles sin atender las causas que originan las tensiones entre ellos.",
+          "C": "La dimensión social y relacional que genera los conflictos: el reglamento sancionó las conductas visibles sin atender las causas de las tensiones entre estudiantes.",
           "D": "Ninguna dimensión quedó desatendida, ya que la disminución en el número de incidentes reportados formalmente demuestra que el problema de convivencia fue resuelto de manera integral."
         },
         "respuesta_correcta": "C",
@@ -669,7 +669,7 @@
           "A": "La dimensión de sensibilización, ya que la capacitación debió durar más de un día para lograr un cambio de comportamiento real entre los empleados.",
           "B": "La dimensión económica de la empresa, relacionada con el presupuesto insuficiente destinado a la organización de la capacitación sobre respeto laboral.",
           "C": "Ninguna dimensión quedó desatendida, ya que ofrecer una capacitación sobre respeto y buen trato es, en cualquier caso, una medida suficiente para resolver el acoso laboral por razón de género.",
-          "D": "La dimensión institucional relacionada con la aplicación efectiva de consecuencias disciplinarias a quienes son señalados en denuncias, sin la cual una capacitación general resulta insuficiente para cambiar el comportamiento de quienes ya han incurrido en acoso."
+          "D": "La dimensión institucional: aplicar consecuencias disciplinarias efectivas a quienes son señalados en denuncias, sin lo cual una capacitación general no cambia el comportamiento de quien ya acosó."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "La capacitación atendió únicamente la dimensión de sensibilización general sobre el respeto en el trabajo, pero dejó desatendida la dimensión institucional de aplicar consecuencias disciplinarias reales a quienes ya habían sido señalados en denuncias previas; sin esa aplicación efectiva, la sola capacitación no logra cambiar el comportamiento de quienes incurren en acoso.",
@@ -800,7 +800,7 @@
         "opciones": {
           "A": "No existe ningún tradeoff real, ya que el aumento en la tasa de reingresos se debe únicamente a que los pacientes no siguieron adecuadamente las recomendaciones médicas después de su alta.",
           "B": "Un tradeoff entre el número de médicos contratados por el hospital y el número de camas disponibles en las instalaciones, que el estudio describe como inversamente relacionados.",
-          "C": "Un tradeoff entre la capacidad del hospital para atender a un mayor número de pacientes reduciendo la estancia hospitalaria, y el aumento medible en la tasa de reingresos por complicaciones posteriores al alta.",
+          "C": "Un tradeoff entre atender a más pacientes reduciendo la estancia hospitalaria y el aumento medible en la tasa de reingresos por complicaciones tras el alta.",
           "D": "Un tradeoff entre el costo total del tratamiento hospitalario y la satisfacción general de los pacientes con la atención recibida, que resultan inversamente proporcionales según el caso."
         },
         "respuesta_correcta": "C",
@@ -845,7 +845,7 @@
           "A": "Ambas consecuencias son iguales, ya que el alivio del costo de vida de las familias y el déficit fiscal ocurren exactamente al mismo tiempo y con la misma intensidad.",
           "B": "La consecuencia de corto plazo es el déficit fiscal, mientras que la consecuencia de largo plazo es el alivio inmediato del costo de vida de las familias.",
           "C": "No existe ninguna diferencia relevante entre el corto y el largo plazo en este caso, ya que cualquier subsidio genera siempre los mismos efectos sin importar cuánto tiempo se mantenga vigente.",
-          "D": "En el corto plazo, la consecuencia es un alivio inmediato y positivo del costo de vida de las familias; en el largo plazo, la consecuencia es un déficit fiscal creciente que termina afectando otros programas sociales del departamento."
+          "D": "En el corto plazo, un alivio inmediato del costo de vida de las familias; en el largo plazo, un déficit fiscal creciente que termina afectando otros programas sociales del departamento."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "El subsidio generó un efecto inmediato y claramente positivo en el corto plazo, pero al mantenerse sin ningún criterio de finalización, generó una consecuencia distinta y negativa en el largo plazo: un déficit fiscal creciente que ahora compromete otros programas sociales, lo cual muestra que el efecto de corto plazo no garantiza que el resultado siga siendo positivo con el paso del tiempo.",
@@ -922,7 +922,7 @@
         "dificultad": "alta",
         "opciones": {
           "A": "Estarían cometiendo el error de suponer que la inversión en infraestructura científica nunca generará ningún resultado de innovación tecnológica en el futuro, sin importar cuánto tiempo pase.",
-          "B": "Estarían evaluando una consecuencia que, según los propios científicos, opera en una escala temporal de largo plazo, utilizando un criterio de corto plazo que no corresponde al tiempo real que ese tipo de resultados requiere para materializarse.",
+          "B": "Estarían evaluando con un criterio de corto plazo una consecuencia que, según los propios científicos, opera a largo plazo y necesita más tiempo para materializarse.",
           "C": "Estarían cometiendo el error de comparar la inversión en infraestructura científica de su país con la de otros países que invierten menos recursos en investigación.",
           "D": "Estarían cometiendo el error de exigir que la infraestructura de investigación beneficie exclusivamente a los mismos científicos que participaron en su construcción inicial."
         },
@@ -967,7 +967,7 @@
         "opciones": {
           "A": "Que la proporción de mujeres en cargos directivos jamás podrá aumentar en esta empresa, sin importar cuántos años más se mantenga el programa de mentoría.",
           "B": "Que el programa de mentoría debería compararse con programas similares implementados en empresas de otros países para determinar si dos años es un plazo adecuado.",
-          "C": "Que los cambios en cargos directivos suelen depender de ciclos de promoción interna que toman varios años, por lo que dos años podría ser un plazo insuficiente para evaluar el programa.",
+          "C": "Que los cambios en cargos directivos dependen de ciclos de promoción interna de varios años, por lo que dos años puede ser un plazo insuficiente para evaluar.",
           "D": "Que el fracaso del programa se debe exclusivamente a que las mujeres participantes no se esforzaron lo suficiente por alcanzar los cargos directivos disponibles."
         },
         "respuesta_correcta": "C",
