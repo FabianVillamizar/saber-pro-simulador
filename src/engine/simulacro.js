@@ -35,6 +35,25 @@ export const DISTRIBUCION_LC = {
 }
 export const DURACION_LC_MINUTOS = 40
 
+// Pensamiento Científico: el ICFES SÍ publica la estructura de este módulo
+// (Marco de Referencia, 5.2): 40 preguntas cerradas = 25 del núcleo común
+// + 15 del núcleo específico (Química, en este simulador), con las 5
+// afirmaciones parejas dentro de cada núcleo. A diferencia de Inglés/RC/LC
+// (una sola sub-categoría), aquí la distribución es 2D: el valor de cada
+// afirmación es un objeto `{ nucleo: n }`. `armarSimulacro` lo detecta y
+// reparte por `pregunta.nucleo` dentro de cada afirmación. El banco real
+// (100 ítems, 51 común / 49 química) tiene holgura para variar entre
+// intentos. El tiempo (55 min) sigue siendo un estimado propio: el ICFES
+// no publica minutos por módulo específico por separado.
+export const DISTRIBUCION_PC = {
+  plantear_preguntas: { comun: 5, especifico_quimica: 3 },
+  establecer_estrategias: { comun: 5, especifico_quimica: 3 },
+  adquirir_interpretar: { comun: 5, especifico_quimica: 3 },
+  analizar_concluir: { comun: 5, especifico_quimica: 3 },
+  comprender_modelos: { comun: 5, especifico_quimica: 3 },
+}
+export const DURACION_PC_MINUTOS = 55
+
 function barajar(items) {
   const copia = [...items]
   for (let i = copia.length - 1; i > 0; i--) {
@@ -135,14 +154,30 @@ export function armarSimulacro(preguntas, distribucion = DISTRIBUCION_DEFECTO) {
   // falta forzar `Number()` (que rompía las claves no numéricas, dejando
   // `porParte[NaN]` sin preguntas).
   for (const parte of Object.keys(distribucion)) {
-    const cantidad = distribucion[parte]
+    const valor = distribucion[parte]
     const disponibles = porParte[parte] ?? []
-    if (disponibles.length < cantidad) {
-      advertencias.push(
-        `Parte ${parte}: se pidieron ${cantidad} preguntas pero solo hay ${disponibles.length} disponibles.`
-      )
+    if (typeof valor === 'number') {
+      if (disponibles.length < valor) {
+        advertencias.push(
+          `Parte ${parte}: se pidieron ${valor} preguntas pero solo hay ${disponibles.length} disponibles.`
+        )
+      }
+      seleccionadas.push(...seleccionarPreguntasParte(disponibles, valor))
+      continue
     }
-    seleccionadas.push(...seleccionarPreguntasParte(disponibles, cantidad))
+    // Distribución 2D (Pensamiento Científico): el valor es
+    // `{ <nucleo>: cantidad }` — se reparte por `pregunta.nucleo` dentro
+    // de esta afirmación (25 común / 15 específico del examen real).
+    for (const subEje of Object.keys(valor)) {
+      const cantidad = valor[subEje]
+      const subDisponibles = disponibles.filter((p) => p.nucleo === subEje)
+      if (subDisponibles.length < cantidad) {
+        advertencias.push(
+          `${parte} · ${subEje}: se pidieron ${cantidad} preguntas pero solo hay ${subDisponibles.length} disponibles.`
+        )
+      }
+      seleccionadas.push(...seleccionarPreguntasParte(subDisponibles, cantidad))
+    }
   }
 
   return { preguntas: seleccionadas, advertencias }

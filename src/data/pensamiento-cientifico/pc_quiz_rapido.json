@@ -688,5 +688,815 @@
     ],
     "correcta": 1,
     "explicacion": "El protocolo registra tiempo hasta la disolución completa a distintas temperaturas, un diseño típico para estudiar velocidad, no para cuantificar cuánto se disuelve, algo que exigiría medir una masa o concentración final. Asociar cualquier medición sobre una disolución con \"determinar cantidad\" ignora que la variable específica registrada aquí, el tiempo, apunta a la rapidez del proceso."
+  },
+  {
+    "id": "PC-QR-047",
+    "tarjetaId": "PC-RAZ-031",
+    "categoria": "plantear_preguntas",
+    "formato": "mcq",
+    "enunciado": "Un investigador propone: 'las plantas de esta especie crecen más porque tienen un impulso vital que ningún instrumento puede medir.' ¿Por qué esa hipótesis no sirve para una investigación?",
+    "opciones": [
+      "Usa un vocabulario demasiado técnico para el público",
+      "No propone ninguna predicción que pueda resultar falsa",
+      "No menciona estudios previos sobre el tema",
+      "Está redactada en muy pocas palabras"
+    ],
+    "correcta": 1,
+    "explicacion": "Una hipótesis solo es científica si genera una predicción comprobable que podría no cumplirse. 'Algo que ningún instrumento puede medir' se blinda contra cualquier prueba, así que no se puede investigar."
+  },
+  {
+    "id": "PC-QR-048",
+    "tarjetaId": "PC-RAZ-032",
+    "categoria": "plantear_preguntas",
+    "formato": "mcq",
+    "enunciado": "Dos explicaciones para que un péndulo oscile más lento: (1) 'el aire lo frena un poco'; (2) 'el péndulo tiene voluntad de detenerse'. ¿Cuál permite diseñar un experimento?",
+    "opciones": [
+      "Ninguna: las dos son igual de válidas mientras no se demuestre lo contrario",
+      "La (2): describe mejor lo que se observa a simple vista",
+      "La (1): predice que en un tubo al vacío el péndulo oscilaría más tiempo",
+      "La (2): es más breve y directa que la (1)"
+    ],
+    "correcta": 2,
+    "explicacion": "La explicación (1) hace una predicción que se puede montar y comprobar. La (2) no predice nada medible: pase lo que pase, siempre se puede decir que 'esa era su voluntad'."
+  },
+  {
+    "id": "PC-QR-049",
+    "tarjetaId": "PC-EST-019",
+    "categoria": "plantear_preguntas",
+    "formato": "mcq",
+    "enunciado": "Un protocolo mide el tiempo que tarda una tableta en disolverse a 5 temperaturas distintas del agua. ¿Qué pregunta permite responder ese protocolo?",
+    "opciones": [
+      "Cuánto cuesta fabricar cada tableta",
+      "Cuál es la composición química exacta de la tableta",
+      "Si la tableta es segura para el consumo humano",
+      "Cómo cambia la velocidad de disolución con la temperatura"
+    ],
+    "correcta": 3,
+    "explicacion": "El protocolo varía una sola cosa, la temperatura, y mide una sola respuesta, el tiempo. Solo puede responder por la relación entre esas dos; lo demás exige otro montaje."
+  },
+  {
+    "id": "PC-QR-050",
+    "tarjetaId": "PC-EST-020",
+    "categoria": "plantear_preguntas",
+    "formato": "mcq",
+    "enunciado": "Un protocolo compara el punto de fusión de una muestra desconocida contra el de varias sustancias puras de referencia. ¿Cuál es su objetivo?",
+    "opciones": [
+      "Identificar de qué sustancia se trata la muestra",
+      "Estimar cuánta cantidad de sustancia hay en la muestra",
+      "Medir la temperatura del laboratorio ese día",
+      "Calcular la masa molar de la muestra"
+    ],
+    "correcta": 0,
+    "explicacion": "Comparar una propiedad contra referencias conocidas sirve para identificar, no para cuantificar. Saber cuánto hay exigiría medir una señal proporcional a la cantidad."
+  },
+  {
+    "id": "PC-QR-051",
+    "tarjetaId": "PC-QUI-057",
+    "categoria": "plantear_preguntas",
+    "formato": "mcq",
+    "enunciado": "Un polvo negro acelera la descomposición del agua oxigenada sin gastarse. Un estudiante quiere una hipótesis falsable sobre por qué. ¿Cuál lo es?",
+    "opciones": [
+      "'Tiene una capacidad catalítica especial que otros polvos no poseen'",
+      "'Está hecho de un material poco común y difícil de conseguir'",
+      "'Da una superficie donde la reacción ocurre más fácil; molerlo más fino debería acelerarla'",
+      "'Actúa por un principio que la química todavía no logra explicar'"
+    ],
+    "correcta": 2,
+    "explicacion": "Solo la segunda propone un mecanismo con una predicción comprobable: si es la superficie, más superficie por molienda debería acelerar más. Las otras solo ponen una etiqueta al fenómeno."
+  },
+  {
+    "id": "PC-QR-052",
+    "tarjetaId": "PC-QUI-058",
+    "categoria": "plantear_preguntas",
+    "formato": "mcq",
+    "enunciado": "Un resultado sale al revés de lo que predice el modelo. Un estudiante quiere una hipótesis que se pueda poner a prueba. ¿Cuál sirve?",
+    "opciones": [
+      "'Se midió antes de llegar al nuevo equilibrio; esperar más debería corregir el valor'",
+      "'El equipo de medición no estaba bien calibrado ese día en particular'",
+      "'Hubo un error en algún punto del montaje que no se logró identificar'",
+      "'El modelo simplemente no se aplica a esta reacción concreta'"
+    ],
+    "correcta": 0,
+    "explicacion": "Descartar el resultado como 'un error' no dice qué error ni predice nada. La tercera nombra una causa concreta con una predicción que se puede comprobar esperando y midiendo de nuevo."
+  },
+  {
+    "id": "PC-QR-053",
+    "tarjetaId": "PC-QUI-059",
+    "categoria": "plantear_preguntas",
+    "formato": "mcq",
+    "enunciado": "Un estudiante midió la densidad de un material a −20, 0, 40 y 60 °C y trazó una recta. Sabe que el material tiene una transición estructural cerca de 20 °C, temperatura que no midió. ¿Qué conviene hacer antes de reportar la recta?",
+    "opciones": [
+      "Reportar la recta: cuatro puntos alineados son suficientes",
+      "Repetir las cuatro medidas con otro instrumento",
+      "Descartar el punto de 60 °C por estar muy lejos de los demás",
+      "Medir también cerca de 20 °C, donde ocurre la transición"
+    ],
+    "correcta": 3,
+    "explicacion": "Hay una razón física conocida para sospechar un cambio justo en el hueco de datos. Interpolar una recta ahí ignora que una transición de fase puede alterar la propiedad de forma abrupta."
+  },
+  {
+    "id": "PC-QR-054",
+    "tarjetaId": "PC-QUI-060",
+    "categoria": "plantear_preguntas",
+    "formato": "mcq",
+    "enunciado": "En una cromatografía en capa fina se compara el Rf de cada mancha contra el de patrones puros. Un estudiante dice que así se mide la concentración de cada componente. ¿Es correcto?",
+    "opciones": [
+      "Sí: la posición de la mancha es proporcional a la cantidad",
+      "Identifica qué componentes hay, no cuánto de cada uno",
+      "Sí: el Rf sube cuando hay más sustancia",
+      "No: la cromatografía en capa fina no sirve para nada cuantitativo ni cualitativo"
+    ],
+    "correcta": 1,
+    "explicacion": "El Rf ubica una mancha y permite decir qué es al compararla con un patrón. Para cuánto hay habría que medir el área o la intensidad de la mancha, no su posición."
+  },
+  {
+    "id": "PC-QR-055",
+    "tarjetaId": "PC-RAZ-021",
+    "categoria": "plantear_preguntas",
+    "formato": "mcq",
+    "enunciado": "Un estudio midió la temperatura del subsuelo a 100, 500 y 1.000 m de profundidad y encontró un aumento parejo. ¿Qué pregunta convendría responder antes de afirmar que el aumento es constante metro a metro?",
+    "opciones": [
+      "¿Quién financió la perforación del pozo?",
+      "Qué pasa en las profundidades que no se midieron",
+      "¿En qué país se hizo el estudio?",
+      "¿Cuánto costó cada medición?"
+    ],
+    "correcta": 1,
+    "explicacion": "Con solo tres puntos muy separados no se sabe si entre ellos el aumento fue parejo o si hubo tramos distintos. Esos datos intermedios son los que faltan para sostener la afirmación."
+  },
+  {
+    "id": "PC-QR-056",
+    "tarjetaId": "PC-RAZ-022",
+    "categoria": "plantear_preguntas",
+    "formato": "mcq",
+    "enunciado": "Un estudio probó un conservante al 0 %, 1 % y 5 % y midió el crecimiento bacteriano. Un estudiante quiere afirmar que el efecto entre 1 % y 5 % es lineal. ¿Qué le falta?",
+    "opciones": [
+      "Usar un tipo de bacteria completamente distinto",
+      "Repetir la prueba en un laboratorio de otra ciudad",
+      "Probar concentraciones intermedias, como 2 % y 3 %",
+      "Aumentar el tiempo total del experimento"
+    ],
+    "correcta": 2,
+    "explicacion": "Con solo dos puntos, 1 % y 5 %, siempre se puede trazar una recta, pero eso no prueba que el comportamiento intermedio sea recto. Medir en el medio es lo que permitiría verlo."
+  },
+  {
+    "id": "PC-QR-057",
+    "tarjetaId": "PC-EST-020",
+    "categoria": "plantear_preguntas",
+    "formato": "mcq",
+    "enunciado": "Un aficionado dice que su equipo perdió 'porque el árbitro estaba en contra'. ¿Cómo se convierte eso en algo investigable?",
+    "opciones": [
+      "Volver a ver la repetición completa del partido una vez más con calma",
+      "Aceptar que una queja así no se puede investigar de ninguna forma",
+      "Preguntar a los demás hinchas del equipo si opinan lo mismo del árbitro",
+      "Contar si ese árbitro sanciona más faltas contra ese equipo que el promedio"
+    ],
+    "correcta": 3,
+    "explicacion": "Una queja se vuelve pregunta científica cuando se traduce en algo contable y comparable. 'Más faltas que el promedio' se puede medir; 'estaba en contra' no."
+  },
+  {
+    "id": "PC-QR-058",
+    "tarjetaId": "PC-EST-019",
+    "categoria": "plantear_preguntas",
+    "formato": "mcq",
+    "enunciado": "Con un péndulo, una regla y un cronómetro se mide el periodo de oscilación para varias longitudes de hilo. ¿Cuál de estas preguntas puede responder ese montaje?",
+    "opciones": [
+      "El valor de la aceleración de la gravedad ahí",
+      "La masa exacta de la bola del péndulo",
+      "El material del que está hecho el hilo",
+      "El color de la bola del péndulo"
+    ],
+    "correcta": 0,
+    "explicacion": "El periodo de un péndulo depende de su longitud y de la gravedad, así que midiendo periodo y longitud se puede despejar la gravedad. La masa, el material o el color no entran en esa relación."
+  },
+  {
+    "id": "PC-QR-059",
+    "tarjetaId": "PC-EST-019",
+    "categoria": "plantear_preguntas",
+    "formato": "mcq",
+    "enunciado": "Un protocolo compara el tiempo de retención de un compuesto en un cromatógrafo contra el de sustancias conocidas. ¿Para qué sirve?",
+    "opciones": [
+      "Para medir la temperatura del compuesto",
+      "Para saber cuántos gramos del compuesto hay",
+      "Para identificar de qué compuesto se trata",
+      "Para calcular su masa molar"
+    ],
+    "correcta": 2,
+    "explicacion": "El tiempo de retención es como una huella: comparándolo con patrones se dice qué es. La cantidad se obtiene del área del pico, no del tiempo en que aparece."
+  },
+  {
+    "id": "PC-QR-060",
+    "tarjetaId": "PC-RAZ-031",
+    "categoria": "plantear_preguntas",
+    "formato": "mcq",
+    "enunciado": "'Este método de enseñanza funciona porque los estudiantes aprenden, y sabemos que aprenden porque el método funciona.' ¿Qué problema tiene como explicación?",
+    "opciones": [
+      "Es circular: no ofrece nada comprobable aparte de sí misma",
+      "Es demasiado larga y enredada para funcionar como hipótesis de trabajo",
+      "Usa un vocabulario técnico de pedagogía que el público no entiende",
+      "Menciona resultados del método sin acompañarlos de ninguna cifra"
+    ],
+    "correcta": 0,
+    "explicacion": "La afirmación da vueltas: usa cada mitad para justificar la otra sin aportar una predicción que se pueda poner a prueba. Sin eso, no hay nada que investigar."
+  },
+  {
+    "id": "PC-QR-061",
+    "tarjetaId": "PC-QUI-059",
+    "categoria": "plantear_preguntas",
+    "formato": "mcq",
+    "enunciado": "Una tabla da la población de una especie en 2000, 2010 y 2020, siempre creciente. Antes de afirmar 'la población creció de forma constante cada año', ¿qué falta?",
+    "opciones": [
+      "El nombre de quien financió el estudio",
+      "El nombre científico completo de la especie",
+      "El país donde se hizo el conteo",
+      "Datos de los años intermedios, que no se midieron"
+    ],
+    "correcta": 3,
+    "explicacion": "Tres conteos separados una década solo dicen que 2020 tuvo más que 2000. Entre esos años pudo haber subidas, bajadas o saltos; sin esos datos, 'constante cada año' va más allá de lo medido."
+  },
+  {
+    "id": "PC-QR-062",
+    "tarjetaId": "PC-RAZ-009",
+    "categoria": "establecer_estrategias",
+    "formato": "mcq",
+    "enunciado": "Un estudiante compara dos grupos de plantas: al grupo A le da más agua Y más luz que al grupo B, y el A crece más. ¿Por qué este diseño no permite concluir qué causó la diferencia?",
+    "opciones": [
+      "El número de plantas por grupo es insuficiente",
+      "Cambió dos variables a la vez y el efecto no se puede separar",
+      "No midió el crecimiento todos los días",
+      "No usó la misma especie en ambos grupos"
+    ],
+    "correcta": 1,
+    "explicacion": "Con agua y luz cambiando juntas, la mayor altura del grupo A puede deberse a una, a la otra o a la combinación. Para atribuirlo hay que variar una sola cosa por vez."
+  },
+  {
+    "id": "PC-QR-063",
+    "tarjetaId": "PC-RAZ-010",
+    "categoria": "establecer_estrategias",
+    "formato": "mcq",
+    "enunciado": "Un estudiante mide que una reacción con catalizador se completa en 45 segundos y concluye que el catalizador la aceleró. ¿Qué ensayo le falta?",
+    "opciones": [
+      "Repetir el ensayo con catalizador exactamente 100 veces",
+      "Uno igual pero sin el catalizador, para comparar",
+      "Usar un recipiente de otro material",
+      "Esperar una semana antes de medir"
+    ],
+    "correcta": 1,
+    "explicacion": "Sin un ensayo de referencia sin catalizador no se sabe cuánto tardaba la reacción por sí sola. 45 segundos solo tiene sentido comparado con ese control."
+  },
+  {
+    "id": "PC-QR-064",
+    "tarjetaId": "PC-EST-009",
+    "categoria": "establecer_estrategias",
+    "formato": "mcq",
+    "enunciado": "Para probar si escuchar música mejora la memoria, un estudiante compara su desempeño estudiando con música un día y sin música otro día. ¿Qué variable importante no está controlando?",
+    "opciones": [
+      "La marca de sus audífonos",
+      "El género musical que escuchó",
+      "Qué tan difícil o cansado fue cada día",
+      "La hora exacta a la que empezó"
+    ],
+    "correcta": 2,
+    "explicacion": "Si un día el material era más fácil o estaba más descansado, esa diferencia se confunde con el efecto de la música. Hay que igualar la dificultad y el estado entre las dos condiciones."
+  },
+  {
+    "id": "PC-QR-065",
+    "tarjetaId": "PC-EST-011",
+    "categoria": "establecer_estrategias",
+    "formato": "mcq",
+    "enunciado": "Un investigador tiene 40 voluntarios para probar un método de estudio. ¿Cuál es la mejor forma de repartirlos en dos grupos?",
+    "opciones": [
+      "Poner en un grupo a los que se inscribieron primero",
+      "Dejar que cada uno elija el grupo que prefiera",
+      "Poner en un grupo a los que ya tienen mejores notas",
+      "Asignarlos al azar a cada grupo"
+    ],
+    "correcta": 3,
+    "explicacion": "El azar reparte de forma pareja, en promedio, tanto las diferencias conocidas como las que nadie midió, como la motivación. Dejar elegir o agrupar por notas mete esas diferencias en un solo grupo."
+  },
+  {
+    "id": "PC-QR-066",
+    "tarjetaId": "PC-EST-026",
+    "categoria": "establecer_estrategias",
+    "formato": "mcq",
+    "enunciado": "Para evaluar un método de enseñanza, un investigador deja que los profesores interesados lo apliquen y compara sus resultados con los de las demás aulas. ¿Qué debilidad tiene ese diseño?",
+    "opciones": [
+      "Los profesores que se ofrecen suelen ser más motivados, y eso se mezcla con el método",
+      "El método se aplicó durante un número de semanas demasiado corto para notarse",
+      "El rendimiento no se midió con una prueba igual para todas las aulas del estudio",
+      "Las aulas comparadas tenían un número de estudiantes muy distinto entre sí"
+    ],
+    "correcta": 0,
+    "explicacion": "Quien se ofrece a probar algo nuevo no es un profesor cualquiera. Su motivación viaja junto con el método, así que un mejor resultado podría deberse al profesor y no al método."
+  },
+  {
+    "id": "PC-QR-067",
+    "tarjetaId": "PC-QUI-001",
+    "categoria": "establecer_estrategias",
+    "formato": "mcq",
+    "enunciado": "Un estudiante quiere comprobar que en una reacción química no se crean ni se destruyen átomos, sin escribir la ecuación balanceada. ¿Qué medición se lo permite?",
+    "opciones": [
+      "Contar el número de burbujas que se forman",
+      "Medir la temperatura antes y después",
+      "Pesar el sistema cerrado antes y después de la reacción",
+      "Medir el color de la mezcla al final"
+    ],
+    "correcta": 2,
+    "explicacion": "Si la masa total no cambia en un recipiente cerrado, los átomos solo se reordenaron. Balancear la ecuación es la forma de escribir esa misma conservación en símbolos."
+  },
+  {
+    "id": "PC-QR-068",
+    "tarjetaId": "PC-QUI-007",
+    "categoria": "establecer_estrategias",
+    "formato": "mcq",
+    "enunciado": "El volumen y la temperatura de un gas cambian al mismo tiempo. Un estudiante calcula el efecto del volumen con la ley de Boyle y luego, aparte, el de la temperatura. ¿Por qué falla esa estrategia?",
+    "opciones": [
+      "Cada ley supone su tercera variable fija, y aquí ninguna lo está",
+      "La ley de Boyle no aplica a gases reales",
+      "Falta conocer la masa molar del gas",
+      "El orden de los cálculos altera el resultado final"
+    ],
+    "correcta": 0,
+    "explicacion": "La ley de Boyle solo vale a temperatura constante y la de Charles a presión constante. Con todo cambiando a la vez hay que usar la relación combinada en un solo paso."
+  },
+  {
+    "id": "PC-QR-069",
+    "tarjetaId": "PC-QUI-037",
+    "categoria": "establecer_estrategias",
+    "formato": "mcq",
+    "enunciado": "La extracción ácido-base separa un ácido orgánico de una impureza neutra volviéndolo una sal soluble en agua y luego reprotonándolo. Para separar una base orgánica de una impureza neutra con la misma idea, ¿qué habría que hacer?",
+    "opciones": [
+      "Filtrar la mezcla en frío sin añadirle ningún reactivo, solo por gravedad",
+      "Agitar la mezcla con más base fuerte hasta que todo el sólido se disuelva",
+      "Calentar la mezcla poco a poco hasta que la impureza neutra se evapore sola",
+      "Volverla una sal soluble con un ácido, separarla y recuperarla con una base"
+    ],
+    "correcta": 3,
+    "explicacion": "El principio es cambiar la solubilidad al pasar a la forma iónica. Una base se ioniza con un ácido, se separa en la fase acuosa y se recupera al volver a su forma neutra con una base."
+  },
+  {
+    "id": "PC-QR-070",
+    "tarjetaId": "PC-QUI-041",
+    "categoria": "establecer_estrategias",
+    "formato": "mcq",
+    "enunciado": "Un estudiante debe recristalizar un compuesto orgánico no polar y tiene agua (muy polar) y hexano (no polar). ¿Cuál conviene, y por qué?",
+    "opciones": [
+      "El agua, porque es el disolvente más común y disponible",
+      "El hexano: un disolvente disuelve mejor a un soluto de polaridad parecida",
+      "Cualquiera de los dos, porque la polaridad no afecta la solubilidad",
+      "El agua, porque siempre disuelve más que un disolvente orgánico"
+    ],
+    "correcta": 1,
+    "explicacion": "'Lo semejante disuelve lo semejante': las interacciones son más favorables entre moléculas de naturaleza parecida. Un compuesto no polar se disolverá bien en hexano y mal en agua."
+  },
+  {
+    "id": "PC-QR-071",
+    "tarjetaId": "PC-QUI-043",
+    "categoria": "establecer_estrategias",
+    "formato": "mcq",
+    "enunciado": "Un compuesto se disuelve bien en cierto disolvente a temperatura ambiente, pero su solubilidad casi no cambia al calentar o enfriar. ¿Por qué ese disolvente no sirve para recristalizarlo?",
+    "opciones": [
+      "Porque el compuesto se descompone en ese disolvente",
+      "Porque hay que disolver en caliente y que precipite al enfriar",
+      "Porque el disolvente hierve a una temperatura muy baja",
+      "Porque el compuesto reacciona químicamente con el disolvente"
+    ],
+    "correcta": 1,
+    "explicacion": "Recristalizar consiste en disolver mucho en caliente y recuperar cristales al enfriar. Si la solubilidad no cambia con la temperatura, casi nada vuelve a precipitar y el rendimiento es mínimo."
+  },
+  {
+    "id": "PC-QR-072",
+    "tarjetaId": "PC-RAZ-013",
+    "categoria": "establecer_estrategias",
+    "formato": "mcq",
+    "enunciado": "Un geólogo mide la concentración de un mineral en una sola muestra de roca y reporta ese número como el valor de la formación completa. ¿Qué le falta para dar un valor confiable?",
+    "opciones": [
+      "Medir también la temperatura de la roca",
+      "Usar un instrumento con más decimales",
+      "Analizar varias muestras de puntos distintos de la formación",
+      "Repetir la misma medición sobre la misma muestra diez veces"
+    ],
+    "correcta": 2,
+    "explicacion": "Una sola muestra puede no representar a toda la formación, que suele variar de un punto a otro. Repetir sobre la misma muestra solo mejora la precisión, no la representatividad."
+  },
+  {
+    "id": "PC-QR-073",
+    "tarjetaId": "PC-EST-001",
+    "categoria": "adquirir_interpretar",
+    "formato": "mcq",
+    "enunciado": "Los sueldos mensuales de 5 empleados de un taller son 1.100.000, 1.150.000, 1.200.000, 1.180.000 y 9.000.000, este último el del dueño. ¿Qué medida representa mejor el sueldo típico?",
+    "opciones": [
+      "El promedio entre el más alto y el más bajo",
+      "La media, porque usa el valor de todos los sueldos",
+      "El sueldo más alto, porque marca el tope de la empresa",
+      "La mediana, porque el sueldo del dueño infla la media"
+    ],
+    "correcta": 3,
+    "explicacion": "La media queda arrastrada por el valor atípico del dueño. La mediana, el valor central de los datos ordenados, se queda cerca de lo que gana la mayoría."
+  },
+  {
+    "id": "PC-QR-074",
+    "tarjetaId": "PC-EST-002",
+    "categoria": "adquirir_interpretar",
+    "formato": "mcq",
+    "enunciado": "Dos cursos tienen la misma nota promedio, 3,5. En el curso A casi todos sacaron entre 3,3 y 3,7; en el curso B las notas van de 1,0 a 5,0. ¿Qué se puede decir?",
+    "opciones": [
+      "El promedio igual esconde que en B las notas están mucho más dispersas",
+      "Los dos cursos tienen el mismo desempeño porque el promedio es igual",
+      "El curso B tiene mejor desempeño porque alguien sacó 5,0",
+      "No se puede comparar sin conocer el número de estudiantes"
+    ],
+    "correcta": 0,
+    "explicacion": "El promedio solo no distingue un grupo parejo de uno muy disperso. La dispersión, qué tan lejos están las notas entre sí, es información aparte que aquí cambia por completo la lectura."
+  },
+  {
+    "id": "PC-QR-075",
+    "tarjetaId": "PC-EST-004",
+    "categoria": "adquirir_interpretar",
+    "formato": "mcq",
+    "enunciado": "En un diagrama de dispersión de horas de estudio (X) contra calificación (Y), los puntos suben de izquierda a derecha pero muy regados. ¿Qué se puede concluir?",
+    "opciones": [
+      "Estudiar más horas garantiza una mejor nota en absolutamente todos los casos",
+      "No existe ninguna relación entre las horas de estudio y la calificación",
+      "Hay una tendencia positiva pero débil, con mucha variación entre personas",
+      "Es la calificación obtenida la que determina cuántas horas estudia cada quien"
+    ],
+    "correcta": 2,
+    "explicacion": "Una nube que sube pero está muy dispersa indica una asociación positiva pero floja. No es una garantía individual ni una relación causal, y tampoco es ausencia total de relación."
+  },
+  {
+    "id": "PC-QR-076",
+    "tarjetaId": "PC-EST-005",
+    "categoria": "adquirir_interpretar",
+    "formato": "mcq",
+    "enunciado": "Un estudio reporta un coeficiente de correlación r = 0,85 entre horas de ejercicio semanal y capacidad pulmonar. ¿Qué dice ese número?",
+    "opciones": [
+      "Que hay una asociación lineal fuerte entre las dos variables",
+      "Que el ejercicio causa directamente la mejora pulmonar",
+      "Que por cada hora de ejercicio la capacidad sube 0,85 unidades",
+      "Que el 85 % de las personas mejoró su capacidad pulmonar"
+    ],
+    "correcta": 0,
+    "explicacion": "Un r cercano a 1 indica que los puntos se acercan a una recta, es decir, asociación lineal fuerte. No es la pendiente, ni un porcentaje de personas, ni prueba de causalidad."
+  },
+  {
+    "id": "PC-QR-077",
+    "tarjetaId": "PC-QUI-005",
+    "categoria": "adquirir_interpretar",
+    "formato": "mcq",
+    "enunciado": "Una gráfica de presión contra volumen de un gas a temperatura fija tiene forma de curva que baja cada vez menos. ¿Qué se mantiene constante a lo largo de esa curva?",
+    "opciones": [
+      "El cociente de la presión entre el volumen",
+      "La suma de la presión y el volumen",
+      "La diferencia entre presión y volumen",
+      "El producto de la presión por el volumen"
+    ],
+    "correcta": 3,
+    "explicacion": "Es la ley de Boyle: presión y volumen son inversamente proporcionales a temperatura fija, así que su producto P·V se mantiene igual en cualquier punto de la curva."
+  },
+  {
+    "id": "PC-QR-078",
+    "tarjetaId": "PC-QUI-009",
+    "categoria": "adquirir_interpretar",
+    "formato": "mcq",
+    "enunciado": "En una gráfica de concentración contra tiempo, las curvas de reactivo y producto se vuelven horizontales tras un rato. ¿Qué marca ese punto, y qué NO significa?",
+    "opciones": [
+      "Marca el fin de la reacción, que a partir de ahí ya no ocurre en absoluto",
+      "Marca el equilibrio: ya no hay cambio neto, pero la reacción no se detuvo",
+      "Marca el momento en que el reactivo se agotó del todo dentro del recipiente",
+      "Marca un error del instrumento que registra la concentración en el tiempo"
+    ],
+    "correcta": 1,
+    "explicacion": "En el equilibrio las velocidades directa e inversa se igualan, así que las concentraciones se estabilizan aunque la reacción sigue ocurriendo en ambos sentidos. Casi siempre queda reactivo sin convertir."
+  },
+  {
+    "id": "PC-QR-079",
+    "tarjetaId": "PC-QUI-015",
+    "categoria": "adquirir_interpretar",
+    "formato": "mcq",
+    "enunciado": "Dos reacciones se grafican como concentración contra tiempo: la de A es una recta que baja, la de B una curva que baja cada vez más lento. Sin cálculos, ¿qué sugiere cada forma?",
+    "opciones": [
+      "Las dos son de primer orden, solo cambian de escala",
+      "A sugiere orden cero; B, primer orden (se frena al bajar la concentración)",
+      "A es de primer orden y B de orden cero",
+      "La forma de la curva no dice nada sobre el orden de reacción"
+    ],
+    "correcta": 1,
+    "explicacion": "Una recta descendente significa velocidad constante, típico de orden cero. Una curva que se aplana significa que la velocidad depende de la concentración y baja con ella, típico de primer orden."
+  },
+  {
+    "id": "PC-QR-080",
+    "tarjetaId": "PC-QUI-020",
+    "categoria": "adquirir_interpretar",
+    "formato": "mcq",
+    "enunciado": "En un calorímetro, tras mezclar un ácido y una base, la temperatura sube a un pico y luego baja lento. ¿Qué explica esa bajada?",
+    "opciones": [
+      "El termómetro se descalibró en algún momento durante la toma de datos",
+      "La reacción entre el ácido y la base empezó a ocurrir en sentido inverso",
+      "El calorímetro no aísla del todo y pierde calor hacia el ambiente tras el pico",
+      "El ácido y la base se volvieron a separar en dos fases dentro del vaso"
+    ],
+    "correcta": 2,
+    "explicacion": "Ningún calorímetro real aísla del todo, así que después del pico empieza a enfriarse hacia el ambiente. Por eso se extrapola la temperatura máxima hacia el instante de la mezcla."
+  },
+  {
+    "id": "PC-QR-081",
+    "tarjetaId": "PC-QUI-039",
+    "categoria": "adquirir_interpretar",
+    "formato": "mcq",
+    "enunciado": "En la curva de titulación de un ácido débil con base fuerte hay un salto brusco de pH cerca de los 25 mL y una zona muy plana cerca de los 12,5 mL. ¿Qué representa cada punto?",
+    "opciones": [
+      "Ninguno de los dos tiene un significado especial en la curva",
+      "25 mL es la media equivalencia; 12,5 mL es el punto de equivalencia",
+      "Los dos puntos marcan el punto de equivalencia con distinta precisión",
+      "25 mL es la equivalencia; 12,5 mL la media equivalencia, donde el pH iguala al pKa"
+    ],
+    "correcta": 3,
+    "explicacion": "El salto brusco marca la equivalencia, donde la base neutralizó todo el ácido. A la mitad de ese volumen, ácido y base conjugada están en igual cantidad y el pH coincide con el pKa."
+  },
+  {
+    "id": "PC-QR-082",
+    "tarjetaId": "PC-QUI-045",
+    "categoria": "adquirir_interpretar",
+    "formato": "mcq",
+    "enunciado": "Un espectro UV-Vis de una solución muestra un pico de absorción máxima cerca de 450 nm (luz azul). ¿De qué color se verá la solución?",
+    "opciones": [
+      "Amarilla-anaranjada, el color complementario de la luz que más absorbe",
+      "Azul, el mismo color que la luz que la solución absorbe con más intensidad",
+      "Incolora, porque toda la absorción ocurre dentro del rango de luz visible",
+      "Verde, que resulta de promediar todos los colores del espectro visible"
+    ],
+    "correcta": 0,
+    "explicacion": "Lo que vemos es la luz que no se absorbe. Si la solución absorbe fuerte en el azul, el ojo recibe el resto y la percibe del color complementario, amarillo-anaranjado."
+  },
+  {
+    "id": "PC-QR-083",
+    "tarjetaId": "PC-EST-010",
+    "categoria": "analizar_concluir",
+    "formato": "mcq",
+    "enunciado": "Un estudio observa que quienes toman más café tienen, en promedio, mejor salud cardiovascular, y concluye que el café protege el corazón. ¿Qué debilidad tiene esa conclusión?",
+    "opciones": [
+      "La muestra de personas del estudio era demasiado grande para ser fiable",
+      "El café no produce en realidad ningún efecto medible sobre el organismo",
+      "Quienes toman más café pueden compartir otros hábitos que expliquen la diferencia",
+      "El estudio no registró cuántas tazas de café tomaba cada participante al día"
+    ],
+    "correcta": 2,
+    "explicacion": "En un estudio observacional, los grupos difieren en más cosas que el café. Un tercer factor asociado al consumo de café podría ser la verdadera causa de la mejor salud."
+  },
+  {
+    "id": "PC-QR-084",
+    "tarjetaId": "PC-EST-006",
+    "categoria": "analizar_concluir",
+    "formato": "mcq",
+    "enunciado": "En un experimento controlado, subir la dosis de un medicamento baja de forma ordenada la presión arterial, y el efecto desaparece al quitar el medicamento. ¿Es razonable concluir que el medicamento baja la presión?",
+    "opciones": [
+      "Sí: hay relación dosis-respuesta, reversible, en un diseño controlado",
+      "No: una asociación entre dos variables no permite jamás concluir una causa",
+      "No: primero haría falta repetir exactamente el mismo estudio en otro país",
+      "Sí, aunque solo porque se trata de un medicamento de uso muy extendido"
+    ],
+    "correcta": 0,
+    "explicacion": "Una relación dosis-respuesta clara, reversible al retirar la causa y observada en un diseño controlado, es justo el tipo de evidencia que sí respalda una conclusión causal."
+  },
+  {
+    "id": "PC-QR-085",
+    "tarjetaId": "PC-EST-021",
+    "categoria": "analizar_concluir",
+    "formato": "mcq",
+    "enunciado": "Un estudiante pesa la misma moneda 3 veces y obtiene 5,02 g, 5,03 g y 5,02 g. El valor certificado es 5,00 g. ¿Qué se concluye sobre la balanza?",
+    "opciones": [
+      "No se puede afirmar nada sobre la balanza con solo tres mediciones",
+      "Es exacta pero no precisa: acierta el valor real aunque varíen las medidas",
+      "Es a la vez precisa y exacta, porque las tres lecturas son muy parecidas",
+      "Es precisa (las medidas concuerdan) pero puede no ser exacta"
+    ],
+    "correcta": 3,
+    "explicacion": "Las tres lecturas están muy cerca entre sí, así que hay buena precisión. Pero todas quedan por encima del valor certificado, lo que sugiere un sesgo sistemático: precisa sin ser exacta."
+  },
+  {
+    "id": "PC-QR-086",
+    "tarjetaId": "PC-EST-023",
+    "categoria": "analizar_concluir",
+    "formato": "mcq",
+    "enunciado": "Una balanza siempre marca 0,5 g de más. Un estudiante decide pesar cada muestra diez veces y promediar. ¿Corrige eso el problema?",
+    "opciones": [
+      "Sí: el promedio de muchas medidas siempre da el valor verdadero",
+      "No: promediar baja el error aleatorio, no un sesgo sistemático",
+      "Sí: diez medidas son suficientes para cancelar cualquier error",
+      "No: el problema es que diez medidas son muy pocas"
+    ],
+    "correcta": 1,
+    "explicacion": "Si el error va siempre en la misma dirección y magnitud, aparece igual en cada medida y sobrevive al promedio. Corregirlo exige recalibrar la balanza contra un patrón."
+  },
+  {
+    "id": "PC-QR-087",
+    "tarjetaId": "PC-QUI-010",
+    "categoria": "analizar_concluir",
+    "formato": "mcq",
+    "enunciado": "En una reacción en equilibrio se añade más de uno de los reactivos. Un estudiante concluye que todo ese reactivo extra se convierte en productos. ¿Es correcto?",
+    "opciones": [
+      "Sí: añadir reactivo siempre lo convierte por completo",
+      "No: el sistema se desplaza hacia los productos solo en parte",
+      "No: añadir reactivo no cambia nada en el equilibrio",
+      "Sí, pero solo si la reacción es exotérmica"
+    ],
+    "correcta": 1,
+    "explicacion": "Le Chatelier dice que el sistema contrarresta la perturbación en parte, no del todo. Habrá más producto que antes, pero menos que si todo el reactivo añadido reaccionara."
+  },
+  {
+    "id": "PC-QR-088",
+    "tarjetaId": "PC-QUI-027",
+    "categoria": "analizar_concluir",
+    "formato": "mcq",
+    "enunciado": "Un instrumento reporta que el 70 % del hierro de una muestra está como Fe³⁺. Un estudiante concluye que la muestra tiene 'mucho' Fe³⁺ en cantidad absoluta. ¿Es válido solo con ese dato?",
+    "opciones": [
+      "No: el instrumento no puede medir proporciones de forma fiable",
+      "Sí: un 70 % siempre significa una cantidad grande",
+      "No: el 70 % es una proporción; poco hierro total daría el mismo valor",
+      "Sí: cualquier porcentaje por encima de 50 % indica abundancia"
+    ],
+    "correcta": 2,
+    "explicacion": "Una proporción dice cómo se reparte el hierro entre sus dos estados, no cuánto hay en total. Sin conocer la cantidad total, 'mucho' Fe³⁺ no está respaldado."
+  },
+  {
+    "id": "PC-QR-089",
+    "tarjetaId": "PC-QUI-030",
+    "categoria": "analizar_concluir",
+    "formato": "mcq",
+    "enunciado": "El etano no decolora una solución de permanganato en condiciones suaves. Un estudiante concluye que 'todos los alcanos son inertes frente a cualquier oxidante en cualquier condición'. ¿Es adecuada?",
+    "opciones": [
+      "No: en realidad el etano sí decolora el permanganato",
+      "Sí: si un alcano no reacciona, ninguno lo hace",
+      "Sí: el permanganato es el oxidante más fuerte que existe",
+      "No: vale solo para ese alcano, ese oxidante y esas condiciones"
+    ],
+    "correcta": 3,
+    "explicacion": "Un resultado negativo bajo condiciones suaves no prueba una inercia total. Los alcanos sí se oxidan, por ejemplo al arder con oxígeno o con oxidantes fuertes en condiciones severas."
+  },
+  {
+    "id": "PC-QR-090",
+    "tarjetaId": "PC-QUI-047",
+    "categoria": "analizar_concluir",
+    "formato": "mcq",
+    "enunciado": "En un espectro infrarrojo, el pico de un grupo en la muestra 1 es mucho más alto que el pico de otro grupo distinto en la muestra 2. Un estudiante concluye que la muestra 1 tiene 'más sustancia'. ¿Es válida la comparación?",
+    "opciones": [
+      "Cada enlace absorbe con intensidad propia; picos de grupos distintos no se comparan",
+      "Sí: en un espectro, un pico más alto significa siempre mayor cantidad de sustancia",
+      "Sí: la espectroscopía infrarroja mide directamente la cantidad de cada sustancia",
+      "No: el infrarrojo no sirve para identificar grupos funcionales dentro de una muestra"
+    ],
+    "correcta": 0,
+    "explicacion": "La altura de un pico depende de qué tan fuerte absorbe ese enlace, no solo de cuánto hay. Comparar la intensidad de grupos funcionales distintos, en muestras distintas, no dice nada sobre cantidad relativa."
+  },
+  {
+    "id": "PC-QR-091",
+    "tarjetaId": "PC-RAZ-018",
+    "categoria": "analizar_concluir",
+    "formato": "mcq",
+    "enunciado": "Una prueba genética indica que una persona tiene una variante asociada a mayor riesgo cardiovascular. Su abuelo tenía la misma variante y vivió sano hasta los 95. La persona concluye que la variante 'no hace nada'. ¿Es correcto ese razonamiento?",
+    "opciones": [
+      "Sí: las pruebas genéticas de este tipo no son lo bastante confiables",
+      "Sí: como el abuelo tenía la variante y vivió sano, la variante es inofensiva",
+      "Un caso individual no refuta un riesgo expresado en probabilidades",
+      "No: en realidad esa variante genética protege al corazón en vez de dañarlo"
+    ],
+    "correcta": 2,
+    "explicacion": "Un riesgo mayor no es una certeza para cada persona: es una probabilidad más alta en el conjunto. Que un familiar con la variante viviera muchos años no contradice esa estadística."
+  },
+  {
+    "id": "PC-QR-092",
+    "tarjetaId": "PC-QUI-016",
+    "categoria": "comprender_modelos",
+    "formato": "mcq",
+    "enunciado": "Muchos recuerdan la regla 'la velocidad de una reacción se duplica por cada 10 °C que sube la temperatura'. ¿Por qué es solo una aproximación y no una ley exacta?",
+    "opciones": [
+      "El efecto real depende de la energía de activación, distinta en cada reacción",
+      "La regla solo deja de funcionar por encima de los 100 °C de temperatura",
+      "La regla quedó obsoleta hace tiempo y ya casi nadie la usa en la práctica",
+      "En realidad la temperatura no influye de forma apreciable en la velocidad"
+    ],
+    "correcta": 0,
+    "explicacion": "La relación exacta entre temperatura y velocidad la da la ecuación de Arrhenius, y el resultado cambia según la energía de activación de cada reacción. La regla del 'x2 cada 10 °C' es solo una guía de bolsillo."
+  },
+  {
+    "id": "PC-QR-093",
+    "tarjetaId": "PC-QUI-017",
+    "categoria": "comprender_modelos",
+    "formato": "mcq",
+    "enunciado": "La fórmula q = m·c·ΔT predice bien el calor para calentar agua de 20 °C a 90 °C. Un estudiante la usa igual para el tramo en que el agua hierve a 100 °C. ¿Es válido?",
+    "opciones": [
+      "Sí: la fórmula q = m·c·ΔT vale para cualquier proceso que ocurra con agua",
+      "Sí: basta con que las unidades de cada una de las variables sean coherentes",
+      "No: la fórmula solo es válida para temperaturas por debajo de los 50 °C",
+      "No: en un cambio de estado ΔT = 0, así que la fórmula queda fuera de su dominio"
+    ],
+    "correcta": 3,
+    "explicacion": "q = m·c·ΔT solo describe el calor ligado a un cambio de temperatura. Mientras el agua hierve, se le entrega calor sin que la temperatura suba, y ese tramo lo gobierna el calor latente, otra relación."
+  },
+  {
+    "id": "PC-QR-094",
+    "tarjetaId": "PC-QUI-028",
+    "categoria": "comprender_modelos",
+    "formato": "mcq",
+    "enunciado": "En el CO₂ se dice que el carbono tiene número de oxidación +4 y cada oxígeno −2, aunque el CO₂ es covalente y no hay iones C⁴⁺ ni O²⁻ reales. ¿Cómo se concilia esto?",
+    "opciones": [
+      "En el CO₂ los enlaces son en realidad iónicos",
+      "El número de oxidación es un conteo formal, no la carga real del átomo",
+      "El número de oxidación siempre es igual a la carga real",
+      "Es un error de la tabla de números de oxidación"
+    ],
+    "correcta": 1,
+    "explicacion": "El número de oxidación se calcula asignando por convención todos los electrones de cada enlace al átomo más electronegativo. Sirve para seguir la transferencia de electrones, no para describir la carga verdadera."
+  },
+  {
+    "id": "PC-QR-095",
+    "tarjetaId": "PC-QUI-033",
+    "categoria": "comprender_modelos",
+    "formato": "mcq",
+    "enunciado": "El modelo VSEPR predice 109,5° para cuatro dominios de electrones, pero el NH₃ mide ~107° y el H₂O ~104,5°. ¿Qué indica esa diferencia?",
+    "opciones": [
+      "Que el modelo VSEPR está equivocado de raíz y no debería seguir usándose nunca",
+      "El modelo base es una aproximación; los pares solitarios que omite explican la desviación",
+      "Que las mediciones de esos ángulos de enlace son poco confiables o están mal hechas",
+      "Que el NH₃ y el H₂O no tienen realmente cuatro dominios de electrones alrededor"
+    ],
+    "correcta": 1,
+    "explicacion": "La desviación es sistemática: el ángulo siempre baja, y más cuantos más pares solitarios hay. Un patrón así no invalida el modelo, señala un efecto que una versión refinada sí incorpora."
+  },
+  {
+    "id": "PC-QR-096",
+    "tarjetaId": "PC-QUI-040",
+    "categoria": "comprender_modelos",
+    "formato": "mcq",
+    "enunciado": "Dos soluciones reguladoras tienen el mismo pH, 5,0, pero una está a 0,1 M y la otra a 1,0 M de ácido y base conjugada. ¿Tienen la misma capacidad para resistir cambios de pH?",
+    "opciones": [
+      "Sí: si dos soluciones tienen el mismo pH, resisten igual los cambios de pH",
+      "No: la de 0,1 M resiste más justamente porque está más diluida que la otra",
+      "No: el pH lo fija la razón de concentraciones; la capacidad, sus valores absolutos",
+      "Sí, siempre y cuando el pKa del ácido de ambas sea exactamente el mismo"
+    ],
+    "correcta": 2,
+    "explicacion": "El pH lo fija la proporción entre ácido y base conjugada, igual en ambas. Pero la más concentrada tiene más reservas para neutralizar ácido o base antes de que el pH se mueva."
+  },
+  {
+    "id": "PC-QR-097",
+    "tarjetaId": "PC-QUI-044",
+    "categoria": "comprender_modelos",
+    "formato": "mcq",
+    "enunciado": "Un estudiante dice que cuando el azúcar se disuelve en agua 'reacciona' con el agua y forma una sustancia nueva. ¿Es correcta esa descripción?",
+    "opciones": [
+      "Sí: toda disolución de algo en agua es en el fondo una reacción química",
+      "Sí: al disolverse, el azúcar se transforma en un compuesto químico distinto",
+      "No: el azúcar en realidad no llega a disolverse de verdad dentro del agua",
+      "No: disolver es un proceso físico; al evaporar el agua se recupera el azúcar"
+    ],
+    "correcta": 3,
+    "explicacion": "Al disolverse, las moléculas de azúcar se dispersan entre las de agua por interacciones intermoleculares, pero siguen siendo azúcar. Evaporar el agua devuelve el azúcar original: no hubo reacción."
+  },
+  {
+    "id": "PC-QR-098",
+    "tarjetaId": "PC-RAZ-011",
+    "categoria": "comprender_modelos",
+    "formato": "mcq",
+    "enunciado": "La ecuación de los gases ideales supone partículas sin volumen propio y sin atracción entre ellas. ¿En qué condiciones se espera que falle más?",
+    "opciones": [
+      "A presión muy alta y temperatura baja, donde el volumen y las atracciones ya cuentan",
+      "A presión y temperatura ambiente normales, en cualquier recipiente corriente",
+      "Solo cuando se trabaja con gases nobles, como el helio o el argón",
+      "Nunca: la ecuación de los gases ideales es exacta en toda condición"
+    ],
+    "correcta": 0,
+    "explicacion": "A presión alta las moléculas están tan juntas que su volumen propio cuenta, y a temperatura baja las atracciones entre ellas cuentan. Ahí el gas real se aparta del modelo ideal."
+  },
+  {
+    "id": "PC-QR-099",
+    "tarjetaId": "PC-RAZ-028",
+    "categoria": "comprender_modelos",
+    "formato": "mcq",
+    "enunciado": "El modelo de crecimiento exponencial supone recursos ilimitados. Una población de bacterias en un frasco cerrado crece rápido al principio y luego se estabiliza. ¿Qué modelo describe mejor ese frasco?",
+    "opciones": [
+      "Ninguno: el crecimiento de bacterias no se puede modelar",
+      "El exponencial, porque toda población empieza creciendo rápido",
+      "El logístico, que añade una capacidad de carga por los recursos limitados",
+      "El exponencial, porque el frasco es un sistema cerrado"
+    ],
+    "correcta": 2,
+    "explicacion": "El exponencial solo vale mientras sobran recursos. En un frasco cerrado los nutrientes se agotan, y eso frena y estabiliza el crecimiento, justo lo que añade el modelo logístico."
+  },
+  {
+    "id": "PC-QR-100",
+    "tarjetaId": "PC-RAZ-030",
+    "categoria": "comprender_modelos",
+    "formato": "mcq",
+    "enunciado": "El modelo de tectónica de placas explica bien los terremotos, las cordilleras y los volcanes en los bordes de placa. Un estudiante espera que también explique con detalle el clima de una región. ¿Es razonable esa expectativa?",
+    "opciones": [
+      "No: cada modelo cubre un dominio de fenómenos, y el clima queda fuera del suyo",
+      "Sí: un buen modelo científico debería explicar cualquier fenómeno de la Tierra",
+      "No: la teoría de la tectónica de placas todavía no está del todo confirmada",
+      "Sí: el relieve que crea la tectónica de placas determina por completo el clima"
+    ],
+    "correcta": 0,
+    "explicacion": "Un modelo se juzga por lo que dice explicar. La tectónica de placas cubre procesos geológicos de la corteza; pedirle un pronóstico climático detallado es sacarlo de su terreno."
   }
 ]

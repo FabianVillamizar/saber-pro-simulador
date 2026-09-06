@@ -255,11 +255,15 @@ export const indiceModulos = {
     monograma: 'PC',
     descripcion: 'Indagación y razonamiento científico.',
     disponible: true,
-    // Igual que Competencias Ciudadanas: todavía no hay distribución de
-    // simulacro ni escala de resultado diseñadas para este módulo (dos
-    // núcleos con proporción real 30/20 en el examen real, sin definir
-    // acá) — ver saber_pro_resultado_scope en memoria.
-    soportaSimulacro: false,
+    // Cuarto módulo con Simulacro completo real (después de Inglés, RC y
+    // LC). A diferencia de esos tres, el ICFES SÍ publica la estructura de
+    // este módulo (Marco de Referencia 5.2): 40 preguntas = 25 núcleo
+    // común + 15 núcleo específico, con las 5 afirmaciones parejas dentro
+    // de cada núcleo — ver `DISTRIBUCION_PC` en engine/simulacro.js, que
+    // reparte en 2D (núcleo × afirmación). El Resultado usa el mismo
+    // descriptor no-oficial que RC/LC (no hay una escala externa publicada
+    // por el ICFES para Pensamiento Científico).
+    soportaSimulacro: true,
     // Las 5 "afirmaciones" son la taxonomía propia de los datos (adquirir
     // e interpretar información, analizar y concluir, etc.), no las 3
     // competencias oficiales del ICFES — se muestran tal cual como

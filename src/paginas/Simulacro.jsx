@@ -11,6 +11,8 @@ import {
   DURACION_RC_MINUTOS,
   DISTRIBUCION_LC,
   DURACION_LC_MINUTOS,
+  DISTRIBUCION_PC,
+  DURACION_PC_MINUTOS,
 } from '../engine/simulacro.js'
 import { registrarSimulacro } from '../engine/progreso.js'
 import { registrarFalloTrampa } from '../engine/patronesPerfil.js'
@@ -50,8 +52,16 @@ function configSimulacro(moduloId) {
   if (moduloId === 'lectura-critica') {
     return { distribucion: DISTRIBUCION_LC, duracion: DURACION_LC_MINUTOS }
   }
+  if (moduloId === 'pensamiento-cientifico') {
+    return { distribucion: DISTRIBUCION_PC, duracion: DURACION_PC_MINUTOS }
+  }
   return { distribucion: DISTRIBUCION_DEFECTO, duracion: DURACION_DEFECTO_MINUTOS }
 }
+
+// El valor de cada clave de la distribución es un número (Inglés/RC/LC) o
+// `{ <sub-eje>: n }` (Pensamiento Científico, reparto 2D núcleo × afirmación).
+const cuentaDistribucion = (valor) =>
+  typeof valor === 'number' ? valor : Object.values(valor).reduce((a, b) => a + b, 0)
 
 export function Simulacro({ moduloId, perfil, onCambiarPerfil, onVolver, onIrARepaso }) {
   const { modulo, cargando, error } = useModulo(moduloId)
@@ -132,16 +142,22 @@ export function Simulacro({ moduloId, perfil, onCambiarPerfil, onVolver, onIrARe
   }
 
   if (fase === 'config') {
-    const total = Object.values(distribucion).reduce((a, b) => a + b, 0)
+    const total = Object.values(distribucion).reduce((a, v) => a + cuentaDistribucion(v), 0)
     // Inglés conserva su texto original ("5/5/5/8/7/5/10 por parte 1-7");
-    // cualquier módulo con `categorias` (RC, y el próximo que active
-    // soportaSimulacro) arma el desglose con las etiquetas reales de sus
-    // competencias en vez de "parte N".
-    const desglose = modulo.categorias
-      ? Object.entries(distribucion)
-          .map(([clave, n]) => `${n} de ${modulo.categorias[clave]}`)
-          .join(' · ')
-      : `${Object.values(distribucion).join('/')} por parte 1-${Object.keys(distribucion).length}`
+    // cualquier módulo con `categorias` (RC, LC) arma el desglose con las
+    // etiquetas reales de sus competencias en vez de "parte N".
+    // Pensamiento Científico, con distribución 2D, muestra además el
+    // reparto núcleo común / específico del examen real.
+    const es2D = Object.values(distribucion).some((v) => typeof v !== 'number')
+    const desglose = es2D
+      ? `${Object.values(distribucion).reduce((a, v) => a + (v.comun ?? 0), 0)} del núcleo común y ` +
+        `${Object.values(distribucion).reduce((a, v) => a + (v.especifico_quimica ?? 0), 0)} del específico de Química, ` +
+        `parejas entre las ${Object.keys(distribucion).length} afirmaciones`
+      : modulo.categorias
+        ? Object.entries(distribucion)
+            .map(([clave, n]) => `${n} de ${modulo.categorias[clave]}`)
+            .join(' · ')
+        : `${Object.values(distribucion).join('/')} por parte 1-${Object.keys(distribucion).length}`
 
     return (
       <div className="page">
