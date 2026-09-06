@@ -159,6 +159,12 @@ for (const [categoria, tarjetas] of Object.entries(bancosConceptos)) {
         fail(`${t.id}: "${c}" lleva un token de regla — solo explicacion/ejemplo_aplicado/error_comun deberían tenerlo`)
       }
     }
+    // `respuesta_breve` es una respuesta directa de 1-2 frases, no un
+    // segundo párrafo que duplique `explicacion` (auditoría 2026-09-06:
+    // 26 tarjetas la traían a 300-365 caracteres).
+    if (typeof t.respuesta_breve === 'string' && t.respuesta_breve.length > 300) {
+      fail(`${t.id}: respuesta_breve tiene ${t.respuesta_breve.length} caracteres (máx 300 — debe ser una respuesta directa, no un párrafo)`)
+    }
   }
 }
 const idsRuleUsadas = new Set()
@@ -174,8 +180,13 @@ console.log(`${tarjetasConToken}/${totalTarjetas} tarjetas de concepto con al me
 if (sinUsar.length) aviso(`reglas sin ningún token que las referencie: ${sinUsar.join(', ')}`)
 const media = Math.round(longitudes.reduce((a, b) => a + b, 0) / longitudes.length)
 const max = Math.max(...longitudes)
-console.log(`Longitud de tarjeta (5 campos de prosa): media ${media} · máx ${max}`)
-if (max > 1800) aviso(`hay tarjetas por encima de 1800 caracteres totales (máx ${max})`)
+const sobre1400 = longitudes.filter((l) => l > 1400).length
+console.log(`Longitud de tarjeta (5 campos de prosa): media ${media} · máx ${max} · sobre 1400: ${sobre1400}`)
+// Auditoría 2026-09-06: 49 tarjetas superaban los 1200 caracteres de cuerpo
+// (el peor caso, 1569). Objetivo del módulo: ~1000-1200 de cuerpo, que con
+// el enunciado incluido en esta métrica de 5 campos son ~1150-1350.
+if (max > 1650) fail(`hay una tarjeta con ${max} caracteres (máx 1650 en la métrica de 5 campos)`)
+else if (sobre1400 > 0) aviso(`${sobre1400} tarjeta(s) por encima de 1400 caracteres en la métrica de 5 campos`)
 
 // ---- 6. Rúbrica mcq: reparto de posición y sesgo de longitud ----
 const mcq = items.filter((i) => i.formato === 'mcq')
