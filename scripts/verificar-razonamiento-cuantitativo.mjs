@@ -55,6 +55,11 @@ const CONCEPTOS = {
 const BANCOS_ITEMS = [
   'rc_items_argumentacion',
   'rc_items_formulacion_ejecucion',
+  // `geometria_contexto_facil` y `probabilidad` tienen, a propósito,
+  // opciones puramente numéricas ("40 m²", "26,3%") de 3-6 caracteres: la
+  // longitud no da ninguna pista y el chequeo de sesgo de longitud las
+  // ignora (umbral de 40 caracteres). No hace falta "des-sesgarlas"; el
+  // barajado de posición en vivo se encarga del resto.
   'rc_items_geometria_contexto_facil',
   'rc_items_interpretacion_representacion',
   'rc_items_probabilidad',
