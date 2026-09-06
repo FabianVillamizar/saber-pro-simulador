@@ -22,7 +22,7 @@
     "enunciado": "Un estudiante mide el reparto de un ácido carboxílico entre agua y diclorometano a pH 7, donde el ácido está parcialmente ionizado, y reporta el resultado como $P$. ¿Qué error cometió?",
     "opciones": [
       "No cometió ningún error, porque $P$ y $K_D$ describen exactamente lo mismo siempre que la medición se haga a temperatura y presión constantes.",
-      "Confundió $P$ con $D$: al haber una especie ionizada presente en el equilibrio, lo que realmente midió es el coeficiente de distribución $D$, que depende del pH, no $P$.",
+      "Confundió $P$ con $D$: al haber una especie ionizada en el equilibrio, lo que midió es el coeficiente de distribución $D$, que depende del pH.",
       "El error fue no corregir el resultado por la diferencia de densidad entre las dos fases antes de calcular el cociente de concentraciones medidas.",
       "El error fue elegir diclorometano en vez de éter etílico, que es el único solvente aceptado formalmente para reportar un valor de $P$."
     ],
@@ -98,7 +98,7 @@
     "opciones": [
       "Porque toda molécula orgánica conserva un dipolo permanente débil, aunque ese dipolo no se detecte con instrumentos comunes de laboratorio.",
       "Porque el agua disuelve cualquier sustancia en cantidades mínimas por una definición termodinámica general que aplica a todos los solutos.",
-      "Porque las fuerzas de dispersión de London, originadas en fluctuaciones cuánticas de la densidad electrónica, generan atracción neta incluso sin dipolo.",
+      "Porque las fuerzas de dispersión de London, nacidas de fluctuaciones cuánticas de la nube electrónica, dan atracción neta aun sin dipolo.",
       "Porque el hidrocarburo se ioniza parcialmente al entrar en contacto con agua, generando especies cargadas más solubles en esa fase."
     ],
     "correcta": 2,
@@ -142,7 +142,7 @@
     "enunciado": "¿Por qué el método QuEChERS logra una extracción eficiente de plaguicidas hacia acetonitrilo agregando MgSO₄ y NaCl a la muestra?",
     "opciones": [
       "Porque la sal reacciona químicamente con el plaguicida disuelto en la muestra y lo convierte en un compuesto mucho más volátil para el análisis.",
-      "Porque a alta fuerza iónica $\\gamma \\neq 1$, y la sal aumenta la actividad efectiva del analito orgánico en agua, empujando el reparto hacia la fase orgánica.",
+      "Porque a alta fuerza iónica $\\gamma \\neq 1$: la sal sube la actividad efectiva del analito en agua y empuja el reparto al orgánico.",
       "Porque la sal agregada baja el punto de congelación del agua, permitiendo trabajar el protocolo a menor temperatura ambiente.",
       "Porque el MgSO₄ actúa como catalizador directo de la reacción de extracción, acelerando notablemente la velocidad del equilibrio químico."
     ],
@@ -202,7 +202,7 @@
     "enunciado": "¿Por qué un análisis por GC de residuos de plaguicidas en un extracto de alimento casi siempre incluye una LLE selectiva por pH antes de la inyección?",
     "opciones": [
       "Porque el cromatógrafo solo puede procesar muestras completamente puras, sin ningún componente de la matriz original.",
-      "Porque la matriz compleja contiene miles de componentes que dañarían la columna o interferirían con la detección, y la LLE los separa.",
+      "Porque la matriz compleja trae miles de componentes que dañarían la columna o el detector, y la LLE los aparta.",
       "Porque la LLE aumenta artificialmente el punto de ebullición del analito, facilitando su paso completo por la columna.",
       "Porque sin una LLE previa el detector del cromatógrafo no logra generar ninguna señal eléctrica medible en el equipo."
     ],
@@ -449,7 +449,7 @@
       "Porque el NaOH concentrado no alcanza el pH necesario para desprotonar una amina alifática, mientras que el amoníaco sí llega a ese pH con facilidad.",
       "Porque el amoníaco reacciona solo con la sal de amina y no toca ningún otro grupo, mientras que el NaOH no distingue entre la sal y la amina libre.",
       "Porque el NaOH concentrado precipita la amina como hidróxido insoluble, y el amoníaco la mantiene disuelta y disponible para la extracción posterior.",
-      "Porque el NaOH concentrado puede llevar el pH muy por encima de lo necesario y catalizar la hidrólisis del éster y del glicósido; el amoníaco es autolimitado a pH 10-11."
+      "Porque el NaOH concentrado sube el pH mucho más de lo necesario y cataliza la hidrólisis del éster y del glicósido; el amoníaco es autolimitado."
     ],
     "correcta": 3,
     "explicacion": "Ésteres, amidas, glicósidos y epóxidos se hidrolizan bajo base fuerte. NH₃ y NaHCO₃ son [[HL-R-base-suave|bases débiles y autolimitadas]]: llegan a pH ~10-11, suficiente para la amina sin arriesgar el resto de la molécula."

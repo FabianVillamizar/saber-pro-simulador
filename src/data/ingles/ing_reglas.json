@@ -150,11 +150,12 @@
         ["must", "obligación fuerte, a menudo del hablante o de una norma"],
         ["have to", "obligación que viene de fuera, de una circunstancia o regla"],
         ["should", "consejo o recomendación, no obligación"],
+        ["had better", "consejo fuerte con advertencia: si no, pasa algo malo"],
         ["mustn't", "prohibición: no está permitido"],
         ["don't have to", "no es obligatorio, puedes elegir"]
       ]
     },
-    "ejemplo": "You mustn't smoke here. You don't have to come if you're tired."
+    "ejemplo": "You mustn't smoke here. You'd better leave now. You don't have to come if you're tired."
   },
   {
     "id": "ing-r-modals-deduction",
@@ -162,8 +163,17 @@
     "nivel": "B1",
     "tipo": "regla",
     "titulo": "Modales de deducción y posibilidad: must, might, can't",
-    "variante": "corta",
-    "cuerpo": "Para adivinar qué tan seguro estás de algo: must be cuando estás casi seguro de que sí, can't be cuando estás casi seguro de que no, y might / may / could be cuando lo ves solo posible. En pasado se añade have + participio: must have been, can't have been, might have been.",
+    "variante": "desarrollo",
+    "cuerpo": "Estos modales dicen qué tan seguro estás de una conclusión, no una obligación. En pasado se añade have + participio.",
+    "tabla": {
+      "titulo": "Qué tan seguro estás",
+      "encabezados": ["seguridad", "presente", "pasado"],
+      "filas": [
+        ["casi seguro que sí", "must be", "must have been"],
+        ["solo posible", "might / may / could be", "might / may / could have been"],
+        ["casi seguro que no", "can't be", "can't have been"]
+      ]
+    },
     "ejemplo": "The lights are off, so they must be asleep. He can't be at work — it's Sunday. She might have missed the train."
   },
   {
@@ -258,10 +268,11 @@
         ["but / so", "otra oración, misma frase", "It was late, so we left."],
         ["however / therefore", "otra oración, tras punto o punto y coma", "It was late. However, we stayed."],
         ["although / because", "sujeto + verbo (subordinada)", "Although it was late, we stayed."],
-        ["despite / because of", "sustantivo o -ing", "Despite the rain, we walked."]
+        ["despite / because of", "sustantivo o -ing", "Despite the rain, we walked."],
+        ["so … that / such … that", "so + adjetivo, such + (a) + sustantivo; da una consecuencia", "so late that we left / such a long day that…"]
       ]
     },
-    "ejemplo": "We stayed because of the storm, although we were tired."
+    "ejemplo": "We stayed because of the storm, although we were tired. It was so cold that the lake froze."
   },
   {
     "id": "ing-r-quantifiers",
@@ -306,8 +317,17 @@
     "nivel": "A1",
     "tipo": "regla",
     "titulo": "Auxiliares do, does, did en negativos y preguntas",
-    "variante": "corta",
+    "variante": "desarrollo",
     "cuerpo": "En present y past simple, los negativos y las preguntas necesitan do / does / did, y el verbo principal vuelve a su forma base, sin -s ni -ed. El auxiliar ya lleva la marca de tercera persona o de pasado.",
+    "tabla": {
+      "titulo": "Qué auxiliar usar",
+      "encabezados": ["tiempo y sujeto", "auxiliar", "ejemplo"],
+      "filas": [
+        ["present · I / you / we / they", "do", "Do you like it? / I don't know."],
+        ["present · he / she / it", "does", "Does she work here? / He doesn't drive."],
+        ["past · todos los sujetos", "did", "Did you go? / They didn't call."]
+      ]
+    },
     "ejemplo": "She doesn't like coffee (no \"doesn't likes\"). Did you go? (no \"Did you went?\")."
   },
   {
@@ -316,8 +336,18 @@
     "nivel": "A2",
     "tipo": "regla",
     "titulo": "Question tags",
-    "variante": "corta",
+    "variante": "desarrollo",
     "cuerpo": "La coletilla repite el auxiliar de la frase (o be) con el pronombre del sujeto y cambia de signo: frase afirmativa lleva coletilla negativa y viceversa. Si no hay auxiliar, se usa do / does / did.",
+    "tabla": {
+      "titulo": "Cómo se forma",
+      "encabezados": ["frase", "coletilla", "por qué"],
+      "filas": [
+        ["She's coming,", "isn't she?", "afirmativa → coletilla negativa, mismo auxiliar (is)"],
+        ["He doesn't drive,", "does he?", "negativa → coletilla afirmativa"],
+        ["They left early,", "didn't they?", "sin auxiliar → do / does / did según el tiempo"],
+        ["I'm late,", "aren't I?", "irregular: 'am' usa 'aren't I' en la coletilla"]
+      ]
+    },
     "ejemplo": "You're coming, aren't you? He doesn't drive, does he? They left early, didn't they?"
   },
   {
@@ -326,9 +356,56 @@
     "nivel": "B1",
     "tipo": "regla",
     "titulo": "Preguntas indirectas",
-    "variante": "corta",
+    "variante": "desarrollo",
     "cuerpo": "Después de fórmulas como Do you know…, Could you tell me…, I wonder…, el orden vuelve al de una afirmación (sujeto + verbo), sin inversión y sin do / does / did. Si la pregunta original era de sí o no, se enlaza con if o whether.",
+    "tabla": {
+      "titulo": "Directa frente a indirecta",
+      "encabezados": ["pregunta directa", "pregunta indirecta"],
+      "filas": [
+        ["Where is the station?", "Could you tell me where the station is?"],
+        ["What time does it start?", "Do you know what time it starts?"],
+        ["Did she arrive?", "I wonder if / whether she arrived."]
+      ]
+    },
     "ejemplo": "Could you tell me where the station is? (no \"where is the station\"). I wonder if she has arrived."
+  },
+  {
+    "id": "ing-r-causative",
+    "grupo": "gramatica",
+    "nivel": "B1",
+    "tipo": "regla",
+    "titulo": "Causativo: have / get something done",
+    "variante": "desarrollo",
+    "cuerpo": "Se usa cuando otra persona hace la acción por ti, no tú mismo, con el foco en el resultado. 'Have' es neutro, 'get' es más informal. Funciona en cualquier tiempo verbal cambiando solo ese verbo.",
+    "tabla": {
+      "titulo": "Tres estructuras",
+      "encabezados": ["estructura", "significado", "ejemplo"],
+      "filas": [
+        ["have / get + objeto + participio", "alguien lo hace por ti (foco en el resultado)", "I had my hair cut. / She got her car fixed."],
+        ["have + persona + verbo base", "consigues u ordenas que alguien lo haga", "She had the electrician check the wiring."],
+        ["get + persona + to + infinitivo", "persuades a alguien de hacerlo", "I got my brother to help me."]
+      ]
+    },
+    "ejemplo": "We're going to have the kitchen painted next week (no lo pintamos nosotros)."
+  },
+  {
+    "id": "ing-r-used-to",
+    "grupo": "gramatica",
+    "nivel": "B1",
+    "tipo": "regla",
+    "titulo": "used to / be used to / get used to",
+    "variante": "desarrollo",
+    "cuerpo": "Tres estructuras que se confunden. La clave: 'used to + base' es un hábito pasado; 'be used to' y 'get used to' llevan un sustantivo o un verbo en -ing (aquí 'to' es preposición) y hablan de estar o volverse acostumbrado.",
+    "tabla": {
+      "titulo": "Cuál es cuál",
+      "encabezados": ["estructura", "significado", "ejemplo"],
+      "filas": [
+        ["used to + verbo base", "hábito o estado pasado que ya no ocurre", "I used to smoke."],
+        ["be used to + -ing / sustantivo", "estar acostumbrado a algo (estado actual)", "I'm used to waking up early."],
+        ["get used to + -ing / sustantivo", "acostumbrarse a algo (el proceso)", "He's getting used to the new job."]
+      ]
+    },
+    "ejemplo": "She used to hate the cold, but now she's used to it."
   },
   {
     "id": "ing-r-falsos-amigos",
@@ -358,8 +435,17 @@
     "nivel": "B1",
     "tipo": "principio",
     "titulo": "Cómo funcionan los phrasal verbs",
-    "variante": "corta",
-    "cuerpo": "Un verbo más una partícula (up, out, off, on, down) que juntos cambian de significado: give up no es dar. Muchos son separables (turn the light off / turn off the light), pero si el objeto es un pronombre va en medio a la fuerza (turn it off, nunca turn off it). Otros son inseparables (look after the kids).",
+    "variante": "desarrollo",
+    "cuerpo": "Un verbo más una partícula (up, out, off, on, down) que juntos cambian de significado: give up no es dar. La partícula puede o no separarse del verbo según el phrasal verb, pero un pronombre objeto siempre va en medio.",
+    "tabla": {
+      "titulo": "Separables e inseparables",
+      "encabezados": ["tipo", "regla de posición", "ejemplo"],
+      "filas": [
+        ["separable + sustantivo", "la partícula va antes o después", "turn off the light / turn the light off"],
+        ["separable + pronombre", "el pronombre va siempre en medio", "turn it off (nunca 'turn off it')"],
+        ["inseparable", "verbo y partícula nunca se separan", "look after the kids / look after them"]
+      ]
+    },
     "ejemplo": "Please turn it off. I ran into an old friend. She looks after her grandmother."
   },
   {

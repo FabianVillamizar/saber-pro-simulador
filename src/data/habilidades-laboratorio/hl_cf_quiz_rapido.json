@@ -479,5 +479,194 @@
       "2": 2
     },
     "explicacion": "Las tres corrigen desviaciones sistemáticas distintas: [[HL-R-cf-sydney-young|presión]], modo de inmersión y cinética de calentamiento."
+  },
+  {
+    "id": "HL-CF-QR-031",
+    "tarjetaId": "HL-CF-002",
+    "categoria": "cf",
+    "formato": "mcq",
+    "enunciado": "¿Dónde encaja la determinación de constantes físicas dentro de un flujo de trabajo real, y qué la precede?",
+    "opciones": [
+      "Va antes de sintetizar o extraer, para fijar la identidad del material de partida y decidir con ese dato qué ruta de reacción conviene seguir a continuación.",
+      "Va en paralelo a la resonancia magnética nuclear, como una segunda medida redundante que confirma exactamente el mismo dato estructural ya obtenido.",
+      "Va después de purificar por cristalización o destilación: con el compuesto ya puro, confirma identidad contra valores tabulados y evalúa pureza.",
+      "Va al final de todo, después de la espectrometría de masas, solo para reportar propiedades físicas que ya no cambian ninguna decisión."
+    ],
+    "correcta": 2,
+    "explicacion": "Es el último paso barato de caracterización: rápido, no destructivo y con instrumentación mínima. Una impureza deprime y ensancha el intervalo de fusión, así que se hace antes de recurrir a técnicas espectroscópicas costosas."
+  },
+  {
+    "id": "HL-CF-QR-032",
+    "tarjetaId": "HL-CF-022",
+    "categoria": "cf",
+    "formato": "mcq",
+    "enunciado": "La rotación óptica es una birrefringencia circular. ¿Qué condición hace que no haya rotación neta del plano de polarización?",
+    "opciones": [
+      "Que el medio responda igual a las dos componentes circulares, con $n_L=n_R$: entonces viajan a la misma velocidad y el plano no gira.",
+      "Que la longitud de la celda sea un múltiplo entero de la longitud de onda de la luz, de modo que las dos componentes circulares se recombinen exactamente en fase.",
+      "Que la concentración del soluto ópticamente activo quede por debajo del límite de detección del polarímetro, aunque cada molécula sea quiral.",
+      "Que la luz incidente ya esté circularmente polarizada, porque entonces solo una de las dos componentes llega a atravesar realmente la muestra."
+    ],
+    "correcta": 0,
+    "explicacion": "Una onda lineal es la suma coherente de una componente circular izquierda y una derecha. Solo si $n_L\\neq n_R$ una se retrasa respecto a la otra y el plano sale rotado un ángulo proporcional a $(n_L-n_R)$. Toda molécula con plano especular o centro de inversión tiene $n_L=n_R$."
+  },
+  {
+    "id": "HL-CF-QR-033",
+    "tarjetaId": "HL-CF-024",
+    "categoria": "cf",
+    "formato": "mcq",
+    "enunciado": "¿Por qué una lectura de polarímetro a la línea D del sodio es un caso particular del efecto Cotton?",
+    "opciones": [
+      "Porque el polarímetro mide la absorción diferencial de luz circular izquierda y derecha en todo el espectro ultravioleta y visible del compuesto.",
+      "Porque el efecto Cotton solo aparece en muestras cristalinas, y una disolución medida en el polarímetro no lo muestra a ninguna longitud de onda.",
+      "Porque la línea D del sodio cae siempre dentro de una banda de absorción del analito, y es justo ahí donde la rotación óptica cambia de signo con la longitud de onda.",
+      "Porque la polarimetría clásica da la fuerza rotacional en una sola longitud de onda; el efecto Cotton es su comportamiento en un barrido alrededor de una banda."
+    ],
+    "correcta": 3,
+    "explicacion": "Medir la rotación frente a $\\lambda$ es dispersión rotatoria óptica; medir la diferencia de absorción circular es dicroísmo circular. La polarimetría de banco es literalmente un único punto de ese espectro más informativo."
+  },
+  {
+    "id": "HL-CF-QR-034",
+    "tarjetaId": "HL-CF-026",
+    "categoria": "cf",
+    "formato": "mcq",
+    "enunciado": "¿Es cierto que hace falta un carbono con cuatro sustituyentes distintos para que una molécula sea quiral?",
+    "opciones": [
+      "Sí: sin un carbono estereogénico no puede haber quiralidad, porque es el único elemento estructural capaz de romper la simetría especular de una molécula orgánica.",
+      "No: el carbono estereogénico es la fuente más común, pero también hay moléculas quirales por eje o por plano, como los alenos sustituidos y los binaftilos.",
+      "Sí, salvo en polímeros, donde la quiralidad surge de la conformación helicoidal de la cadena principal aunque no haya ningún centro estereogénico.",
+      "No: basta con que la molécula tenga un plano de simetría interno, y esa condición por sí sola ya garantiza dos enantiómeros no superponibles."
+    ],
+    "correcta": 1,
+    "explicacion": "Quiralidad es ausencia de todo elemento de simetría impropia, plano, centro o eje $S_n$. El carbono con cuatro grupos distintos la consigue sin ninguno de esos elementos, pero no es la única vía."
+  },
+  {
+    "id": "HL-CF-QR-035",
+    "tarjetaId": "HL-CF-029",
+    "categoria": "cf",
+    "formato": "mcq",
+    "enunciado": "Entre dos isómeros, ¿por qué el más simétrico suele fundir más alto mientras que la cadena ramificada hierve más bajo?",
+    "opciones": [
+      "La simetría mejora el empaquetamiento cristalino y sube $\\Delta H_{fus}$; la ramificación reduce el área de contacto de van der Waals en el líquido y baja el punto de ebullición.",
+      "El isómero simétrico tiene siempre una masa molar bastante mayor y la cadena ramificada una bastante menor, y los dos efectos se explican únicamente por ese cambio de peso molecular.",
+      "El isómero simétrico forma más puentes de hidrógeno en la red del sólido, y la cadena ramificada rompe todos los puentes de hidrógeno posibles al pasar al líquido.",
+      "La simetría eleva la entropía de fusión y por eso sube $T_{fus}$; la ramificación eleva la entropía de vaporización y por eso baja $T_{eb}$."
+    ],
+    "correcta": 0,
+    "explicacion": "Son dos efectos de contacto. Una molécula simétrica encaja mejor en la red, con más puntos de contacto por volumen. En la ebullición manda la superficie de van der Waals del líquido: una cadena ramificada es más compacta y ofrece menos área."
+  },
+  {
+    "id": "HL-CF-QR-036",
+    "tarjetaId": "HL-CF-032",
+    "categoria": "cf",
+    "formato": "mcq",
+    "enunciado": "¿Por qué la concentración total de un plaguicida quiral no basta para caracterizar su riesgo ambiental?",
+    "opciones": [
+      "Porque la concentración total de un compuesto quiral se degrada siempre más rápido que la de cada enantiómero medido por separado, y por eso subestima la persistencia del residuo.",
+      "Porque los dos enantiómeros tienen puntos de ebullición distintos entre sí y por eso se pierden del suelo por volatilización a velocidades notablemente diferentes.",
+      "Porque los enantiómeros pueden degradarse a distinta velocidad por acción microbiana enantioselectiva y tener toxicidades distintas, así que su proporción cambia con el tiempo.",
+      "Porque la rotación óptica del residuo interfiere con la señal del detector y obliga a corregir la concentración total midiendo el ángulo observado de la muestra."
+    ],
+    "correcta": 2,
+    "explicacion": "Es el mismo reconocimiento molecular quiral que hizo a la talidomida tener un enantiómero terapéutico y otro teratogénico. Por eso la regulación internacional tiende al análisis de residuos específico por enantiómero."
+  },
+  {
+    "id": "HL-CF-QR-037",
+    "tarjetaId": "HL-CF-033",
+    "categoria": "cf",
+    "formato": "mcq",
+    "enunciado": "Se mezclan dos muestras que se sospecha son el mismo compuesto y se vuelve a medir el punto de fusión. ¿Qué prueba ese experimento?",
+    "opciones": [
+      "Prueba la masa molar de la mezcla por depresión crioscópica, midiendo cuántos grados baja el punto de fusión respecto al del componente puro de referencia.",
+      "Si el intervalo se deprime y se ensancha, son compuestos distintos: cada uno actúa como impureza del otro. Si sigue agudo, son el mismo.",
+      "Prueba la pureza de cada muestra por separado, porque al mezclarlas los perfiles de fusión individuales se suman y se resuelven en dos picos distintos.",
+      "Prueba la entalpía de fusión de la mezcla, que solo coincide con la del compuesto puro cuando las dos muestras resultan ser idénticas entre sí."
+    ],
+    "correcta": 1,
+    "explicacion": "Es un [[HL-R-cf-pf-mixto|experimento de equilibrio de fases disfrazado de prueba de identidad]]. La única salvedad es el caso raro de un cocristal o una solución sólida que no deprime; la crioscopía usa el mismo equilibrio para despejar masa molar."
+  },
+  {
+    "id": "HL-CF-QR-038",
+    "tarjetaId": "HL-CF-034",
+    "categoria": "cf",
+    "formato": "mcq",
+    "enunciado": "¿Cuál de estas situaciones es un límite real del modelo ideal, y no un simple error de operación que se corrige con buen protocolo?",
+    "opciones": [
+      "Leer el termómetro sin esperar a que la columna de mercurio se estabilice después de introducirlo en el baño caliente del tubo de Thiele.",
+      "Reportar un punto de ebullición medido en altura sin corregirlo antes a la presión atmosférica normal de 101.325 kPa, que es la condición del valor tabulado.",
+      "Calibrar el termómetro con un único patrón de referencia y aplicar esa misma corrección constante a todo el rango de trabajo del instrumento.",
+      "Usar Walden-Hildebrand en un sólido con conformaciones flexibles, donde $\\Delta S_{fus}$ se sale del rango típico y la aproximación deja de valer."
+    ],
+    "correcta": 3,
+    "explicacion": "Los otros tres se arreglan con buen procedimiento. El de [[HL-R-cf-walden-hildebrand|Walden-Hildebrand]] es un límite del propio modelo: la hipótesis de $\\Delta S_{fus}$ casi constante falla en sólidos flexibles o con transiciones sólido-sólido cercanas."
+  },
+  {
+    "id": "HL-CF-QR-039",
+    "tarjetaId": "HL-CF-013",
+    "categoria": "cf",
+    "formato": "fill",
+    "enunciado": "Completa el mínimo de patrones de una calibración de termómetro:",
+    "antes": "El error de un termómetro suele tener a la vez un componente constante y uno proporcional a la temperatura, y un solo punto no los separa; por eso se calibra con al menos",
+    "despues": "sustancias de punto de fusión certificado que cubran el rango, idealmente tres.",
+    "respuesta": "dos",
+    "alternativas": [
+      "dos",
+      "2"
+    ],
+    "explicacion": "Con dos o tres puntos se ajusta por regresión lineal una corrección de pendiente y desplazamiento frente a la temperatura; con uno solo, la pendiente del error queda sin determinar."
+  },
+  {
+    "id": "HL-CF-QR-040",
+    "tarjetaId": "HL-CF-014",
+    "categoria": "cf",
+    "formato": "fill",
+    "enunciado": "Completa dónde se calienta un tubo de Thiele:",
+    "antes": "El calor se aplica con el mechero en el",
+    "despues": "del asa lateral triangular: eso arranca un lazo de convección que iguala la temperatura en todo el baño sin necesidad de agitación.",
+    "respuesta": "vértice",
+    "alternativas": [
+      "vértice",
+      "vertice",
+      "codo",
+      "vértice del asa"
+    ],
+    "explicacion": "Calentar el tubo vertical en lugar del vértice del asa rompe el lazo de convección y crea gradientes de temperatura entre el bulbo del termómetro y la muestra."
+  },
+  {
+    "id": "HL-CF-QR-041",
+    "tarjetaId": "HL-CF-031",
+    "categoria": "cf",
+    "formato": "build",
+    "enunciado": "Arma cómo la misma ecuación de la destilación de laboratorio decide el destino de un plaguicida en el suelo:",
+    "fragmentos": [
+      "La ecuación de Clausius-Clapeyron predice la presión de vapor de un compuesto a temperatura ambiente,",
+      "y esa presión de vapor, junto con la constante de la ley de Henry,",
+      "determina si el contaminante tiende a volatilizarse del suelo hacia la atmósfera",
+      "o a quedarse retenido en el perfil y degradarse por otras vías."
+    ],
+    "explicacion": "Un plaguicida con presión de vapor apreciable a 25 °C se pierde del suelo en días; uno de presión de vapor muy baja permanece. Evaluar el destino ambiental solo por la solubilidad en agua ignora esta vía."
+  },
+  {
+    "id": "HL-CF-QR-042",
+    "tarjetaId": "HL-CF-024",
+    "categoria": "cf",
+    "formato": "match",
+    "enunciado": "Empareja cada técnica quiróptica con lo que mide:",
+    "izq": [
+      "Polarimetría (línea D del sodio)",
+      "Dispersión rotatoria óptica (ORD)",
+      "Dicroísmo circular (CD)"
+    ],
+    "der": [
+      "La fuerza rotacional integrada en una sola longitud de onda",
+      "La rotación óptica en función de la longitud de onda alrededor de una banda",
+      "La diferencia de absorción entre luz circular izquierda y derecha"
+    ],
+    "pares": {
+      "0": 0,
+      "1": 1,
+      "2": 2
+    },
+    "explicacion": "El efecto Cotton es el comportamiento conjunto de ORD y CD alrededor de una banda de absorción; la polarimetría clásica es su versión de un solo punto."
   }
 ]

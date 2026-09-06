@@ -36,7 +36,7 @@
     "bloque": "cf",
     "modo": "pregunta",
     "pregunta": "¿Cuál es el principio único del que se derivan las cuatro constantes, y cómo se especializa en cada caso?",
-    "respuesta": "El principio es imponer una condición de extremal o de equilibrio. En fusión y ebullición se traduce en $dG=0$: las energías libres molares de las dos fases se igualan. En el índice de refracción se traduce en $dt/dx=0$: de todos los caminos posibles, la luz toma el de tiempo mínimo, que es el principio de Fermat. En la rotación óptica se traduce en una superposición coherente que solo se rompe si la molécula carece de simetría especular. Un mismo criterio, tres especializaciones.",
+    "respuesta": "El principio es imponer una condición de extremal o de equilibrio. En fusión y ebullición se traduce en $dG=0$: las energías libres molares de las dos fases se igualan. En el índice de refracción se traduce en $dt/dx=0$: de todos los caminos posibles, la luz toma el de tiempo mínimo, que es el principio de Fermat. En la rotación óptica se traduce en una superposición coherente que solo se rompe si la molécula carece de simetría especular. Un mismo criterio, tres especializaciones que el cuadro de la tarjeta pone lado a lado.",
     "regla": "[[HL-R-cf-extremal|Fusión y ebullición vienen de minimizar energía libre]]; el índice de refracción, de minimizar tiempo; la rotación óptica, de la ruptura de simetría especular en una superposición de estados. Reconocer cuál aplica dice de entrada qué variables gobiernan la constante.",
     "ejemplo": "Ver que la ley de Snell sale de minimizar tiempo, no distancia, explica por qué la luz se curva hacia la normal al entrar en un medio más lento: gasta menos tiempo total aunque el trayecto sea más largo.",
     "error_comun": "Creer que la ley de Snell describe el camino más corto, o que la fusión ocurre cuando se aporta suficiente calor en lugar de cuando se igualan las energías libres.",
@@ -45,7 +45,18 @@
     "prereqs": [
       "HL-CF-001",
       "HL-CF-002"
-    ]
+    ],
+    "tipo_visual": "diagrama_esquematico",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Cuadro de tres filas que alinea cada constante física con su condición de extremal y con la variable que la gobierna: fusión y ebullición con energía libre de Gibbs mínima (dG = 0) y las propiedades ΔH y ΔS de la transición; índice de refracción con tiempo de recorrido mínimo de Fermat y la polarizabilidad electrónica del medio; rotación óptica con la ruptura de simetría especular en una superposición coherente y la presencia o ausencia de quiralidad.",
+    "tabla_filas": {
+      "columnas": ["Constante física", "Condición de extremal", "Qué la gobierna"],
+      "filas": [
+        ["Punto de fusión y de ebullición", "Energía libre de Gibbs mínima: dG = 0", "ΔH y ΔS de la transición de fase"],
+        ["Índice de refracción", "Tiempo de recorrido mínimo: dt/dx = 0 (Fermat)", "Polarizabilidad electrónica del medio"],
+        ["Rotación óptica", "Ruptura de simetría especular en una superposición coherente", "Presencia o ausencia de quiralidad molecular"]
+      ]
+    }
   },
   {
     "id": "HL-CF-004",
@@ -94,14 +105,44 @@
     "pregunta": "¿Cómo se pasa de la igualdad de energías libres en un punto a la ecuación de Clausius-Clapeyron, que describe toda la curva de coexistencia?",
     "respuesta": "La igualdad $G^\\alpha_m=G^\\beta_m$ no se cumple solo en un punto sino a lo largo de toda la curva que separa dos fases en el diagrama $P$-$T$. Si se avanza una distancia infinitesimal sobre esa curva, ambas energías libres cambian pero deben seguir siendo iguales: $dG^\\alpha_m=dG^\\beta_m$. Sustituyendo $dG_m=-S_m\\,dT+V_m\\,dP$ en cada fase y reagrupando se obtiene $dP/dT=\\Delta S_{trans}/\\Delta V_{trans}$, y como en el equilibrio $\\Delta S_{trans}=\\Delta H_{trans}/T$, queda la ecuación de Clausius-Clapeyron.",
     "regla": "[[HL-R-cf-clausius-clapeyron|La pendiente de una curva de coexistencia de fases está fijada por la entalpía de transición]] dividida por el producto de la temperatura y el cambio de volumen: $dP/dT=\\Delta H_{trans}/(T\\,\\Delta V_{trans})$.",
-    "ejemplo": "Para la fusión, $\\Delta V$ suele ser pequeño y la curva sólido-líquido es casi vertical; para la vaporización, $\\Delta V$ es enorme y la curva líquido-vapor sube con pendiente suave.",
+    "ejemplo": "Para la fusión, $\\Delta V$ suele ser pequeño y la curva sólido-líquido es casi vertical; para la vaporización, $\\Delta V$ es enorme y la curva líquido-vapor sube con pendiente suave. La gráfica de la tarjeta traza ambas saliendo del mismo punto.",
     "error_comun": "Confundir la forma diferencial general, válida para cualquier transición, con la forma integrada, que solo vale para el equilibrio líquido-vapor tras aproximar $\\Delta V$ por el volumen del gas.",
     "conexion_cotidiana": "Es la misma ecuación que explica por qué el hielo se derrite bajo presión y por qué una olla a presión cocina más rápido: mover $P$ mueve la temperatura de transición.",
     "dificultad": "alta",
     "prereqs": [
       "HL-CF-004"
     ],
-    "formula_latex": "\\dfrac{dP}{dT} = \\dfrac{\\Delta H_{trans}}{T\\,\\Delta V_{trans}}"
+    "formula_latex": "\\dfrac{dP}{dT} = \\dfrac{\\Delta H_{trans}}{T\\,\\Delta V_{trans}}",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Diagrama presion-temperatura esquematico con dos curvas de coexistencia que parten del mismo punto. La de fusion, solido-liquido, sube casi vertical: apenas se mueve en temperatura entre presion baja y alta. La de vaporizacion, liquido-vapor, sube con pendiente suave y forma concava, y cubre un rango de temperatura amplio. La pendiente de cada curva es delta H de transicion sobre T por delta V, y por eso la de fusion, con delta V pequeno, es mucho mas empinada.",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Temperatura (u. arb.)",
+      "ejeY": "Presion (u. arb.)",
+      "series": [
+        {
+          "nombre": "Fusion (solido-liquido): delta V pequeno, curva casi vertical",
+          "datos": [
+            { "x": 100.0, "y": 6 },
+            { "x": 100.3, "y": 40 },
+            { "x": 100.6, "y": 75 },
+            { "x": 100.9, "y": 110 }
+          ]
+        },
+        {
+          "nombre": "Vaporizacion (liquido-vapor): delta V grande, pendiente suave",
+          "datos": [
+            { "x": 100.0, "y": 6 },
+            { "x": 112, "y": 20 },
+            { "x": 128, "y": 45 },
+            { "x": 148, "y": 78 },
+            { "x": 165, "y": 110 }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Dos curvas crecientes que arrancan juntas en (100, 6). La de fusion llega a (100.9, 110): casi no se mueve en temperatura. La de vaporizacion llega a (165, 110): se extiende unas 65 unidades de temperatura. Esa diferencia de pendiente es la diferencia de delta V entre fundir y vaporizar."
+    }
   },
   {
     "id": "HL-CF-007",
@@ -270,14 +311,47 @@
     "pregunta": "¿Por qué calentar demasiado rápido desplaza el punto de fusión observado hacia arriba, y qué modelo lo cuantifica?",
     "respuesta": "La fórmula de equilibrio describe el punto de fusión cuando el sistema está en cuasi-equilibrio en cada instante, pero un experimento transcurre en tiempo finito. Si el baño sube su temperatura a velocidad constante $\\beta$, la muestra dentro del capilar la sigue con retraso porque hay resistencia térmica: el vidrio y el propio baño conducen el calor con una constante de tiempo $\\tau$. Resolviendo la ley de enfriamiento de Newton en estado estacionario se obtiene $\\Delta T_{lag}=\\beta\\,\\tau$: el retraso es proporcional a la velocidad de calentamiento.",
     "regla": "[[HL-R-cf-retraso-termico|El desfase entre la temperatura del baño y la del cristal es directamente proporcional a la rampa de calentamiento]]; como $\\tau$ depende del montaje y no se controla, la única variable en manos del analista es $\\beta$.",
-    "ejemplo": "El protocolo estándar de farmacopeas pide calentar rápido, 5 °C·min⁻¹ o más, hasta unos 10 °C por debajo del valor esperado, y luego bajar a 1 °C·min⁻¹ o menos para leer cerca del equilibrio.",
+    "ejemplo": "El protocolo estándar de farmacopeas pide calentar rápido, 5 °C·min⁻¹ o más, hasta unos 10 °C por debajo del valor esperado, y luego bajar a 1 °C·min⁻¹ o menos para leer cerca del equilibrio. La gráfica de la tarjeta muestra por qué el retraso escala con la rampa.",
     "error_comun": "Tratar el intervalo de fusión ensanchado y elevado por calentar rápido como si fuera una señal de impureza, cuando es un artefacto puramente cinético del montaje.",
     "conexion_cotidiana": "Es la misma física del termómetro clínico que necesita unos minutos para estabilizarse: cualquier sensor mide con retraso lo que ocurre a su alrededor.",
     "dificultad": "media",
     "prereqs": [
       "HL-CF-004"
     ],
-    "formula_latex": "\\Delta T_{lag} = \\beta\\,\\tau"
+    "formula_latex": "\\Delta T_{lag} = \\beta\\,\\tau",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Dos rectas de retraso termico delta T lag frente a la rampa de calentamiento beta, una por cada montaje. Con constante de tiempo tau de 0.5 minutos el retraso va de 0.5 grados a 1 grado por minuto hasta 5 grados a 10 grados por minuto. Con tau de 1.2 minutos va de 1.2 grados hasta 12 grados en el mismo rango. Las dos pasan por el origen: sin rampa no hay retraso, y como tau lo fija el montaje, la unica variable del analista es beta.",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Rampa de calentamiento beta (grados C por minuto)",
+      "ejeY": "Retraso termico delta T lag (grados C)",
+      "series": [
+        {
+          "nombre": "Montaje rapido (tau ~ 0.5 min)",
+          "datos": [
+            { "x": 1, "y": 0.5 },
+            { "x": 2, "y": 1.0 },
+            { "x": 4, "y": 2.0 },
+            { "x": 6, "y": 3.0 },
+            { "x": 8, "y": 4.0 },
+            { "x": 10, "y": 5.0 }
+          ]
+        },
+        {
+          "nombre": "Montaje lento (tau ~ 1.2 min)",
+          "datos": [
+            { "x": 1, "y": 1.2 },
+            { "x": 2, "y": 2.4 },
+            { "x": 4, "y": 4.8 },
+            { "x": 6, "y": 7.2 },
+            { "x": 8, "y": 9.6 },
+            { "x": 10, "y": 12.0 }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Dos rectas que salen del origen: al multiplicar tau por 2.4, la pendiente se multiplica por 2.4. A 5 grados por minuto el montaje rapido va unos 2.5 grados atrasado y el lento unos 6. El analista solo puede bajar beta."
+    }
   },
   {
     "id": "HL-CF-012",
@@ -306,13 +380,33 @@
     "pregunta": "¿Cómo se calibra un termómetro con sustancias de referencia y por qué se eligen esas sustancias y no otras?",
     "respuesta": "Se toman al menos dos, idealmente tres, sustancias de punto de fusión certificado que cubran el intervalo de trabajo, se mide su punto de fusión observado con el protocolo de doble velocidad, y se calcula la corrección en cada punto como $\\Delta T=T_{certificado}-T_{observado}$. Con esos puntos se ajusta por regresión lineal una corrección de pendiente y desplazamiento frente a la temperatura. Las sustancias se eligen por alta pureza, estabilidad térmica, no se descomponen al fundir, y trazabilidad a laboratorios de metrología o farmacopeas.",
     "regla": "Una calibración necesita varios puntos que abarquen el rango porque el error de un termómetro suele tener a la vez un componente constante y uno proporcional a la temperatura; un solo punto no los separa.",
-    "ejemplo": "Una serie típica va del ácido benzoico a 122.4 °C, pasando por acetanilida a 114.3 °C y cafeína a 236.0 °C, hasta el nitrato de potasio a 334.0 °C.",
+    "ejemplo": "Una serie típica va del ácido benzoico a 122.4 °C, pasando por acetanilida a 114.3 °C y cafeína a 236.0 °C, hasta el nitrato de potasio a 334.0 °C. La gráfica de la tarjeta ajusta la corrección de esos cuatro puntos frente a la temperatura.",
     "error_comun": "Calibrar con un solo patrón y aplicar esa corrección constante a todo el rango, ignorando que la pendiente del error puede cambiar el resultado varios grados en el otro extremo.",
     "conexion_cotidiana": "Es el mismo principio de cualquier instrumento de medida: se contrasta contra referencias conocidas que cubran el rango de uso antes de confiar en sus lecturas.",
     "dificultad": "baja",
     "prereqs": [
       "HL-CF-012"
-    ]
+    ],
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Correccion del termometro, temperatura certificada menos observada, frente a la temperatura de cada patron: acetanilida a 114 grados con mas 0.2, acido benzoico a 122 grados con mas 0.3, cafeina a 236 grados con mas 0.6 y nitrato de potasio a 334 grados con mas 0.95. Los cuatro puntos caen sobre una recta con pendiente y desplazamiento: un solo patron no habria separado el componente constante del error del componente proporcional a la temperatura.",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Temperatura del patron (grados C)",
+      "ejeY": "Correccion delta T = T certificada menos T observada (grados C)",
+      "series": [
+        {
+          "nombre": "Puntos de calibracion (acetanilida, ac. benzoico, cafeina, KNO3)",
+          "datos": [
+            { "x": 114.3, "y": 0.2 },
+            { "x": 122.4, "y": 0.3 },
+            { "x": 236.0, "y": 0.6 },
+            { "x": 334.0, "y": 0.95 }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Cuatro puntos casi alineados que suben de mas 0.2 grados a 114 grados hasta mas 0.95 grados a 334 grados. La tendencia clara con la temperatura es un error proporcional a T, no un desplazamiento fijo: se ajusta pendiente y offset, no se promedia."
+    }
   },
   {
     "id": "HL-CF-014",
@@ -338,13 +432,24 @@
     "pregunta": "¿Cómo detectan el punto de fusión los fusiómetros automáticos, y en qué se diferencian un termopar y un termistor como sensores de temperatura?",
     "respuesta": "El fusiómetro automático sustituye el baño de aceite por un bloque metálico con control de rampa y detecta la fusión por transmitancia óptica: un fotodetector registra la caída de intensidad cuando el sólido opaco se vuelve líquido transparente. Para medir la temperatura, un termopar se basa en el efecto Seebeck, una tensión que aparece en la unión de dos metales distintos proporcional a la diferencia de temperatura; cubre rangos amplios pero con sensibilidad moderada. Un termistor es un óxido semiconductor cuya resistencia cae de forma exponencial con la temperatura; tiene altísima resolución en rangos moderados.",
     "regla": "El fusiómetro solo automatiza la detección del mismo evento de equilibrio; termopares y termistores se calibran ambos contra los mismos puntos fijos de sustancias de referencia.",
-    "ejemplo": "Un termopar tipo K llega a más de 1200 °C con sensibilidad de unos 40 µV·°C⁻¹; un termistor da resolución mejor que 0.01 °C pero solo entre unos -50 y 300 °C.",
+    "ejemplo": "Un termopar tipo K llega a más de 1200 °C con sensibilidad de unos 40 µV·°C⁻¹; un termistor da resolución mejor que 0.01 °C pero solo entre unos -50 y 300 °C. El cuadro de la tarjeta pone los tres lado a lado.",
     "error_comun": "Suponer que un instrumento digital elimina la física de fondo, cuando sigue midiendo el mismo cambio de fase y sigue arrastrando el retraso térmico si la rampa es agresiva.",
     "conexion_cotidiana": "El termistor es el sensor de los termostatos domésticos y de las baterías de litio; el termopar, el de los hornos industriales y las turbinas.",
     "dificultad": "media",
     "prereqs": [
       "HL-CF-013"
-    ]
+    ],
+    "tipo_visual": "diagrama_esquematico",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Cuadro comparativo de tres elementos del fusiómetro automático. El termopar tipo K mide por efecto Seebeck, la tensión que aparece en la unión de dos metales distintos; cubre de −200 a más de 1200 °C con sensibilidad moderada de unos 40 µV por grado. El termistor NTC mide por la caída exponencial de resistencia de un óxido semiconductor; solo de −50 a 300 °C, pero con resolución mejor que 0.01 °C. La detección óptica no mide temperatura: registra la caída de transmitancia cuando el sólido opaco se vuelve líquido transparente.",
+    "tabla_filas": {
+      "columnas": ["Elemento", "Principio físico", "Rango típico", "Resolución o sensibilidad"],
+      "filas": [
+        ["Termopar tipo K", "Efecto Seebeck: tensión en la unión de dos metales distintos", "−200 a 1200+ °C", "~40 µV·°C⁻¹ (moderada)"],
+        ["Termistor NTC", "Resistencia de un óxido semiconductor, cae exponencial con T", "−50 a 300 °C", "mejor que 0.01 °C (alta)"],
+        ["Detección óptica", "Caída de transmitancia: el sólido opaco se vuelve líquido transparente", "—", "detecta el evento de fusión, no mide T"]
+      ]
+    }
   },
   {
     "id": "HL-CF-016",
@@ -390,14 +495,38 @@
     "pregunta": "¿Qué es el ángulo crítico y cómo lo usa el refractómetro de Abbe para medir el índice de refracción de una muestra?",
     "respuesta": "Cuando la luz pasa de un medio más denso ópticamente a uno menos denso, el ángulo refractado es mayor que el de incidencia; existe un ángulo crítico $\\theta_c$ para el cual el rayo refractado emerge tangente a la interfaz, $\\theta_2=90°$, y de la ley de Snell $\\operatorname{sen}\\theta_c=n_2/n_1$. Por encima de $\\theta_c$ hay reflexión total interna. En el refractómetro de Abbe el medio 1 es un prisma de índice conocido y el 2 es la muestra líquida; el telescopio localiza la frontera nítida entre la zona iluminada y la oscura, que cae exactamente en $\\theta_c$, y de ahí se obtiene $n_D=n_1\\operatorname{sen}\\theta_c$.",
     "regla": "[[HL-R-cf-angulo-critico|El ángulo crítico codifica el cociente de índices]]; medir dónde aparece la frontera luz-sombra equivale a medir el índice de refracción de la muestra.",
-    "ejemplo": "Con un prisma de $n_1=1.750$ y una frontera observada en $\\theta_c=51.2°$, la muestra tiene $n_D=1.750\\times\\operatorname{sen}(51.2°)\\approx 1.364$, cercano al del etanol.",
+    "ejemplo": "Con un prisma de $n_1=1.750$ y una frontera observada en $\\theta_c=51.2°$, la muestra tiene $n_D=1.750\\times\\operatorname{sen}(51.2°)\\approx 1.364$, cercano al del etanol. La gráfica de la tarjeta traza esa relación para todo el rango del prisma.",
     "error_comun": "Confundir el ángulo crítico con el ángulo de Brewster o suponer que hay reflexión total pasando de un medio menos denso a uno más denso, donde no existe.",
     "conexion_cotidiana": "La reflexión total interna es lo que hace que una fibra óptica guíe la luz kilómetros sin que escape por las paredes.",
     "dificultad": "media",
     "prereqs": [
       "HL-CF-017"
     ],
-    "formula_latex": "\\operatorname{sen}\\theta_c = \\dfrac{n_2}{n_1} \\qquad n_D = n_1\\,\\operatorname{sen}\\theta_c"
+    "formula_latex": "\\operatorname{sen}\\theta_c = \\dfrac{n_2}{n_1} \\qquad n_D = n_1\\,\\operatorname{sen}\\theta_c",
+    "tipo_visual": "grafica_datos",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Indice de refraccion de la muestra, igual a n1 por el seno del angulo critico, frente al angulo critico observado, para un prisma fijo de n1 igual a 1.750. Curva creciente y concava hacia abajo que va de n cercano a 1.00 en 35 grados hasta n cercano a 1.74 en 85 grados, aplanandose cerca del tope. El punto del etanol, angulo critico 51.2 grados e indice 1.364, cae sobre la curva. Medir donde aparece la frontera luz-sombra equivale a leer el indice de la muestra en esta curva.",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Angulo critico observado (grados)",
+      "ejeY": "Indice de la muestra (n1 por seno del angulo critico)",
+      "series": [
+        {
+          "nombre": "Prisma de n1 = 1.750",
+          "datos": [
+            { "x": 35, "y": 1.004 },
+            { "x": 40, "y": 1.125 },
+            { "x": 45, "y": 1.237 },
+            { "x": 51.2, "y": 1.364 },
+            { "x": 60, "y": 1.516 },
+            { "x": 70, "y": 1.644 },
+            { "x": 80, "y": 1.723 },
+            { "x": 85, "y": 1.743 }
+          ]
+        }
+      ],
+      "descripcionAccesible": "Curva monotona creciente y concava hacia abajo. Entre 35 y 51 grados el indice sube de 1.00 a 1.36; entre 70 y 85 grados solo de 1.64 a 1.74. El etanol, en 51.2 grados y 1.364, esta sobre la curva."
+    }
   },
   {
     "id": "HL-CF-019",
@@ -830,7 +959,7 @@
     "bloque": "cf",
     "modo": "pregunta",
     "pregunta": "¿Cuáles son los errores frecuentes y los límites del modelo ideal en la determinación de constantes físicas?",
-    "respuesta": "Cuatro recurrentes. [[HL-R-cf-obs-vs-especifica|Confundir $\\alpha_{obs}$ con $[\\alpha]$]], el mismo error que $P$ frente a $D$ en la Guía 1: una cantidad medida contra una normalizada. Asumir que sin rotación observable el compuesto es aquiral, cuando puede ser un racemato. Omitir la corrección de columna emergente cuando el modo de inmersión no coincide con la calibración. Y usar Walden-Hildebrand sin verificar que $\\Delta S_{fus}$ sea normal, que falla en sólidos flexibles o con transiciones sólido-sólido cercanas. La frontera está en asignar configuración absoluta por dicroísmo circular con cálculos cuánticos de $R$.",
+    "respuesta": "Cuatro recurrentes, que el cuadro de la tarjeta detalla. [[HL-R-cf-obs-vs-especifica|Confundir $\\alpha_{obs}$ con $[\\alpha]$]], el mismo error que $P$ frente a $D$ en la Guía 1. Leer una rotación nula como compuesto aquiral, cuando puede ser un racemato. Omitir la corrección de columna emergente cuando el modo de inmersión no coincide con la calibración. Y usar Walden-Hildebrand sin verificar que $\\Delta S_{fus}$ sea normal, que falla en sólidos flexibles o con transiciones sólido-sólido cercanas. La frontera está en asignar configuración absoluta por dicroísmo circular con cálculo cuántico de $R$.",
     "regla": "El modelo ideal se rompe donde $\\gamma\\neq 1$, donde el gas deja de ser ideal cerca del punto crítico, donde el sólido no tiene $\\Delta S_{fus}$ típico, y donde la termodinámica del equilibrio no dice nada de la cinética con que se alcanza.",
     "ejemplo": "Un termómetro de inmersión total leído en inmersión parcial puede errar 4 °C: no es ruido, es un sesgo sistemático que solo se ve si se calcula la corrección aparte.",
     "error_comun": "Tratar los fusiómetros y refractómetros digitales como si eliminaran la física de fondo, cuando solo automatizan la detección del mismo evento de equilibrio y siguen sujetos a sus límites.",
@@ -840,6 +969,19 @@
       "HL-CF-005",
       "HL-CF-021",
       "HL-CF-023"
-    ]
+    ],
+    "tipo_visual": "diagrama_esquematico",
+    "visual_posicion": "reverso",
+    "visual_descripcion": "Cuadro que reúne los errores recurrentes de la determinación de constantes físicas y, para los que aplican, el régimen donde el modelo ideal deja de predecir: confundir la rotación observada con la específica; leer rotación nula como compuesto aquiral cuando puede ser un racemato; omitir la corrección de columna emergente; usar Walden-Hildebrand sin verificar que ΔS de fusión sea normal; y aplicar la forma integrada de Clausius-Clapeyron cerca del punto crítico o a gran altitud. La frontera de la técnica es asignar configuración absoluta por dicroísmo circular con cálculo cuántico de la fuerza rotacional.",
+    "tabla_filas": {
+      "columnas": ["Error o límite", "Qué se confunde", "Dónde se rompe el modelo ideal"],
+      "filas": [
+        ["α_obs por [α]", "Cantidad medida frente a cantidad normalizada (como P frente a D en LLE)", "—"],
+        ["Rotación nula ⇒ aquiral", "Racemato que se cancela frente a molécula con fuerza rotacional idénticamente nula", "—"],
+        ["Omitir la columna emergente", "Modo de inmersión real distinto del de calibración", "Sesgo sistemático de varios °C, no ruido"],
+        ["Walden-Hildebrand a ciegas", "Sólido rígido frente a sólido flexible o con transición sólido-sólido", "ΔS_fus fuera de 8–12 J·mol⁻¹·K⁻¹"],
+        ["Clausius-Clapeyron integrada fuera de dominio", "Gas ideal y ΔV ≈ V_gas", "Cerca del punto crítico y a gran altitud"]
+      ]
+    }
   }
 ]

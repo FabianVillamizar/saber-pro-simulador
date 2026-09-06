@@ -2436,5 +2436,244 @@
       "ING-GRA-015",
       "ING-GRA-017"
     ]
+  },
+  {
+    "id": "ING-GRA-148",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "causativo",
+    "antes": "I don't cut my own hair; I",
+    "despues": "it cut at a salon every month.",
+    "respuesta": "have",
+    "regla": "El **causativo** con **have + objeto + participio pasado** ('have something done') expresa que otra persona hace la acción por ti, no tú mismo. El foco está en el resultado, no en quién lo hace.",
+    "ejemplo": "We had the house painted last summer.",
+    "error_comun": "Un error común es usar la voz activa y decir **'I cut my hair at a salon'**, que en inglés significa que te lo cortas tú mismo ahí; para indicar que alguien lo hace por ti hace falta 'have it cut'. Ver [[ing-r-causative|el causativo (have / get something done)]].",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-032"
+    ]
+  },
+  {
+    "id": "ING-GRA-149",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "causativo",
+    "antes": "My laptop screen is cracked. I need to",
+    "despues": "it repaired before Monday.",
+    "respuesta": "get",
+    "regla": "**Get + objeto + participio pasado** ('get something done') es la variante más informal del causativo, con el mismo significado que 'have something done': alguien más hace la acción por ti.",
+    "ejemplo": "She got her passport renewed last week.",
+    "error_comun": "Un error común es decir **'I need to repair it'** cuando en realidad lo va a llevar a un técnico; 'get it repaired' deja claro que el trabajo lo hace otra persona. Ver [[ing-r-causative|el causativo (have / get something done)]].",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-032"
+    ]
+  },
+  {
+    "id": "ING-GRA-150",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "causativo",
+    "antes": "We're going to",
+    "despues": "the kitchen remodeled next month.",
+    "respuesta": "have",
+    "regla": "El causativo funciona en cualquier tiempo verbal: solo cambia el verbo 'have' o 'get'. **Be going to have + objeto + participio** para planes futuros ('going to have it remodeled').",
+    "ejemplo": "They will have the results published tomorrow.",
+    "error_comun": "Un error común es dejar el participio en forma base, diciendo **'have the kitchen remodel'**; la estructura siempre pide participio pasado ('remodeled'). Ver [[ing-r-causative|el causativo (have / get something done)]].",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-032",
+      "ING-GRA-019"
+    ]
+  },
+  {
+    "id": "ING-GRA-151",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "causativo",
+    "antes": "She",
+    "despues": "the electrician check the wiring before she moved in.",
+    "respuesta": "had",
+    "regla": "**Have + persona + verbo base** ('have someone do something') expresa que consigues u ordenas que alguien haga algo. Aquí el segundo verbo va en **forma base**, no en participio, a diferencia de 'have something done'.",
+    "ejemplo": "The manager had his assistant book the flights.",
+    "error_comun": "Un error común es mezclar las dos estructuras y decir **'she had the electrician checked'**, usando participio con una persona; con persona nombrada va la forma base ('had the electrician check'). Ver [[ing-r-causative|el causativo (have / get something done)]].",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-148"
+    ]
+  },
+  {
+    "id": "ING-GRA-152",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "causativo",
+    "antes": "He couldn't lift the sofa alone, so he",
+    "despues": "his neighbor to help him.",
+    "respuesta": "got",
+    "regla": "**Get + persona + to + infinitivo** ('get someone to do something') significa persuadir o convencer a alguien de hacer algo. A diferencia de 'have someone do', 'get' lleva **'to'** antes del verbo.",
+    "ejemplo": "I finally got my brother to lend me his car.",
+    "error_comun": "Un error común es decir **'he got his neighbor help him'** sin 'to', o **'he got his neighbor helping'**; con 'get someone' la forma correcta es siempre 'to + infinitivo'. Ver [[ing-r-causative|el causativo (have / get something done)]].",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-095"
+    ]
+  },
+  {
+    "id": "ING-GRA-153",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "estar_acostumbrado_a",
+    "antes": "I've lived in the mountains for years, so I'm",
+    "despues": "to the cold now.",
+    "respuesta": "used",
+    "regla": "**Be used to + sustantivo o verbo -ing** significa 'estar acostumbrado a' (un estado actual). No confundir con **used to + verbo base**, que es un hábito pasado que ya no ocurre.",
+    "ejemplo": "She's used to working night shifts.",
+    "error_comun": "Un error muy común es decir **'I used to the cold'** para 'estoy acostumbrado', olvidando el verbo 'be'; o usarlo cuando en realidad se quiere el hábito pasado 'antes vivía en el frío' (que sería 'I used to live in the cold'). Ver [[ing-r-used-to|used to / be used to / get used to]].",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-107"
+    ]
+  },
+  {
+    "id": "ING-GRA-154",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "estar_acostumbrado_a",
+    "antes": "It took a few weeks, but I finally got",
+    "despues": "to driving on the left.",
+    "respuesta": "used",
+    "regla": "**Get used to + -ing** describe el **proceso** de acostumbrarse a algo nuevo, mientras que 'be used to' describe el estado ya alcanzado.",
+    "ejemplo": "He's still getting used to his new schedule.",
+    "error_comun": "Un error común es usar el infinitivo, diciendo **'get used to drive'**; después de 'used to' aquí va el gerundio ('-ing'), porque 'to' es preposición, no parte de un infinitivo. Ver [[ing-r-used-to|used to / be used to / get used to]].",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-153"
+    ]
+  },
+  {
+    "id": "ING-GRA-155",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "estar_acostumbrado_a",
+    "antes": "When he moved to Canada, he wasn't",
+    "despues": "to the long winters, but now he doesn't mind them.",
+    "respuesta": "used",
+    "regla": "La negación y las preguntas de **be used to** funcionan como con cualquier 'be': **wasn't used to**, **are you used to...?** Lo que sigue va en -ing o es un sustantivo.",
+    "ejemplo": "Are you used to the noise yet?",
+    "error_comun": "Un error común es decir **'he didn't used to the winters'**, mezclando el auxiliar 'did' (que va con el hábito pasado 'didn't use to') con la estructura de estado 'wasn't used to'. Ver [[ing-r-used-to|used to / be used to / get used to]].",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-153"
+    ]
+  },
+  {
+    "id": "ING-GRA-156",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "modales_consejo_posibilidad",
+    "antes": "It's getting late. We",
+    "despues": "leave now if we want to catch the train.",
+    "respuesta": "had better",
+    "regla": "**Had better + verbo base** ('d better) da un consejo fuerte con una advertencia implícita: si no lo haces, habrá una consecuencia negativa. Es más urgente que 'should'.",
+    "ejemplo": "You'd better see a doctor about that.",
+    "error_comun": "Un error común es decir **'we would better leave'** o **'we had better to leave'** — la forma fija es 'had better' (nunca 'would better') seguida del verbo base sin 'to'. Ver [[ing-r-modals-deduction|modales de deducción]].",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-053"
+    ]
+  },
+  {
+    "id": "ING-GRA-157",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "modales_consejo_posibilidad",
+    "antes": "You",
+    "despues": "not tell her what happened; she'll be furious.",
+    "respuesta": "had better",
+    "regla": "El negativo de 'had better' es **had better not + verbo base**, no 'hadn't better'. Se usa para advertir de que algo es mala idea.",
+    "ejemplo": "He'd better not be late again.",
+    "error_comun": "Un error común es formar el negativo como con otros auxiliares, diciendo **'you hadn't better tell her'**; la negación va después: 'had better not tell'. Ver [[ing-r-modals-deduction|modales de deducción]].",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-156"
+    ]
+  },
+  {
+    "id": "ING-GRA-158",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "conectores_conjunciones",
+    "antes": "The movie was",
+    "despues": "boring that half the audience left.",
+    "respuesta": "so",
+    "regla": "**So + adjetivo o adverbio + that** introduce una consecuencia. 'So' va directamente antes del adjetivo o adverbio ('so boring that', 'so quickly that').",
+    "ejemplo": "She spoke so fast that nobody understood her.",
+    "error_comun": "Un error común es usar 'such' con un adjetivo solo, diciendo **'it was such boring that...'**; con un adjetivo sin sustantivo se usa 'so' ('so boring'), no 'such'. Ver [[ing-r-connectors|los conectores]].",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-083"
+    ]
+  },
+  {
+    "id": "ING-GRA-159",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "conectores_conjunciones",
+    "antes": "It was",
+    "despues": "a long meeting that everyone was exhausted.",
+    "respuesta": "such",
+    "regla": "**Such + (a/an) + adjetivo + sustantivo + that** introduce la misma idea de consecuencia que 'so...that', pero cuando hay un **sustantivo** ('such a long meeting that', 'such nice people that').",
+    "ejemplo": "They had such a big house that they got lost in it.",
+    "error_comun": "Un error común es decir **'it was so a long meeting that...'**; cuando hay un sustantivo contable en singular la estructura es 'such a + adjetivo + sustantivo', no 'so'. Ver [[ing-r-connectors|los conectores]].",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-158"
+    ]
+  },
+  {
+    "id": "ING-GRA-160",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B1",
+    "bloque": "condicionales",
+    "antes": "I'm so bored.",
+    "despues": "I had something to read!",
+    "respuesta": "If only",
+    "regla": "**If only + past simple** expresa un deseo intenso sobre el presente, igual que 'I wish' pero con más carga emocional. El verbo va en pasado aunque se hable del presente.",
+    "ejemplo": "If only she were here right now.",
+    "error_comun": "Un error común es usar el presente después de 'if only', diciendo **'if only I have something to read'**; como con 'wish', el deseo sobre el presente se expresa con past simple ('if only I had'). Ver [[ing-r-conditionals|los condicionales]].",
+    "dificultad": "media",
+    "prereqs": [
+      "ING-GRA-113"
+    ]
+  },
+  {
+    "id": "ING-GRA-161",
+    "modulo": "ingles",
+    "tipo": "gramatica",
+    "nivel_mcer": "B2",
+    "bloque": "condicionales",
+    "antes": "The exam went terribly.",
+    "despues": "I had studied harder!",
+    "respuesta": "If only",
+    "regla": "**If only + past perfect** (had + participio) expresa arrepentimiento sobre el pasado, igual que 'I wish I had...'. Se usa para lamentar algo que ya no se puede cambiar.",
+    "ejemplo": "If only we had left earlier, we wouldn't have missed the flight.",
+    "error_comun": "Un error común es usar el pasado simple para lamentar el pasado, diciendo **'if only I studied harder'** (eso sería un deseo sobre el presente); para el arrepentimiento pasado va 'if only I had studied'. Ver [[ing-r-conditionals|los condicionales]].",
+    "dificultad": "alta",
+    "prereqs": [
+      "ING-GRA-114"
+    ]
   }
 ]
