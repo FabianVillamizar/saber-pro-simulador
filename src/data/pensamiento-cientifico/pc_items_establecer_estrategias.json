@@ -13,12 +13,12 @@
         "evidencia": "4.1",
         "enunciado": "¿Qué variable adicional sería importante controlar para que esta comparación permita atribuir con más confianza cualquier diferencia de resultados específicamente al método de enseñanza, y no a otros factores?",
         "opciones": {
-          "A": "La identidad del profesor que enseña en cada salón, ya que actualmente cada método es aplicado por una persona distinta, lo que impide separar el efecto del método de enseñanza del efecto del estilo o habilidad particular de cada profesor.",
+          "A": "El clima registrado en la ciudad durante el semestre, ya que las condiciones climáticas generales podrían influir de alguna manera en el rendimiento académico de ambos salones por igual.",
           "B": "El color de las paredes de cada salón de clase, ya que estudios han demostrado que los colores llamativos pueden distraer a los estudiantes durante las lecciones de matemáticas.",
           "C": "La marca de los cuadernos que usan los estudiantes para tomar apuntes en cada salón, ya que distintas marcas de papel podrían afectar la calidad de sus notas de clase.",
-          "D": "El clima registrado en la ciudad durante el semestre, ya que las condiciones climáticas generales podrían influir de alguna manera en el rendimiento académico de ambos salones por igual."
+          "D": "La identidad del profesor de cada salón: como cada método lo dicta una persona distinta, hoy no se puede separar el efecto del método del estilo de cada profesor."
         },
-        "respuesta_correcta": "A",
+        "respuesta_correcta": "D",
         "explicacion_correcta": "Actualmente, el método de enseñanza está completamente confundido con la identidad del profesor: cada profesor aplica un método distinto, por lo que cualquier diferencia observada podría deberse al método, al profesor específico, o a ambos combinados; para aislar el efecto del método, sería ideal que el mismo profesor aplicara ambos métodos, o que se asignaran profesores aleatoriamente a cada uno.",
         "distractores": {
           "B": {
@@ -29,7 +29,7 @@
             "explicacion": "Propone controlar una variable trivial y sin relación plausible con el rendimiento en exámenes de matemáticas, ignorando la variable de confusión central (el profesor distinto en cada salón).",
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           },
-          "D": {
+          "A": {
             "explicacion": "Propone controlar una variable que afectaría por igual a ambos salones (misma ciudad, mismo semestre), por lo que no distingue específicamente los resultados de un salón frente al otro.",
             "patron_trampa": "diseño_no_controlado"
           }
@@ -58,7 +58,7 @@
         "enunciado": "¿Qué le falta a este diseño experimental para poder concluir con confianza que el fertilizante fue realmente responsable del crecimiento observado?",
         "opciones": {
           "A": "Falta medir la altura de las plantas todos los días en lugar de solo al final de las 6 semanas, ya que sin mediciones diarias no se puede calcular ningún promedio de altura.",
-          "B": "Falta un grupo control de plantas de tomate cultivadas en las mismas condiciones (misma tierra, luz y agua) pero SIN el fertilizante nuevo, para poder comparar si esas plantas crecen menos, igual, o incluso más que las que sí lo recibieron.",
+          "B": "Un grupo control de tomates en las mismas condiciones de tierra, luz y agua pero sin el fertilizante nuevo, para comparar si crecen menos, igual o más.",
           "C": "Falta plantar un número mucho mayor de semillas, ya que 10 macetas nunca son suficientes para obtener ningún resultado interpretable en un experimento de este tipo.",
           "D": "Falta usar semillas de una variedad de tomate completamente distinta, ya que la variedad actual podría no ser compatible en absoluto con ningún tipo de fertilizante."
         },
@@ -148,7 +148,7 @@
           "A": "Aumentar el número de participantes a 200 personas, manteniendo exactamente el mismo diseño de comparación entre quienes ya usan o no usan pantallas por su propia cuenta.",
           "B": "Pedir a los participantes que reporten su calidad de sueño usando una escala numérica más detallada, en lugar de una descripción general de cómo durmieron.",
           "C": "Realizar el estudio durante un periodo de tiempo más largo, manteniendo el mismo diseño de comparación entre dos grupos de personas que ya tenían hábitos de uso de pantallas distintos desde antes.",
-          "D": "Asignar aleatoriamente a los mismos participantes a usar o no usar pantallas antes de dormir en noches distintas (un diseño donde cada persona actúa como su propio control), en lugar de comparar grupos de personas que ya diferían en este hábito desde el principio."
+          "D": "Asignar al azar a los mismos participantes a usar o no pantallas en noches distintas, con cada persona como su propio control, en vez de comparar personas que ya diferían en el hábito."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Actualmente, el estudio compara personas que ya diferían en sus hábitos y otros factores desde antes de participar; asignar aleatoriamente al mismo grupo de personas a ambas condiciones en noches distintas permite que cada persona actúe como su propio control, reduciendo el efecto de diferencias individuales preexistentes.",
@@ -189,25 +189,25 @@
         "evidencia": "4.1",
         "enunciado": "¿Qué le falta a este procedimiento para poder calcular con confianza el porcentaje real de bacterias eliminadas por el filtro?",
         "opciones": {
-          "A": "Falta analizar también una muestra del agua original del río ANTES de pasar por el filtro, bajo las mismas condiciones de análisis, para poder comparar la cantidad de bacterias antes y después y así calcular el porcentaje de reducción real.",
+          "A": "Falta esperar exactamente una semana después de filtrar el agua antes de realizar cualquier análisis, ya que las bacterias necesitan ese tiempo específico para desarrollarse en cualquier muestra de agua.",
           "B": "Falta repetir el análisis de la muestra filtrada exactamente 100 veces, ya que ese número específico de repeticiones es el estándar obligatorio para cualquier prueba de calidad del agua.",
-          "C": "Falta esperar exactamente una semana después de filtrar el agua antes de realizar cualquier análisis, ya que las bacterias necesitan ese tiempo específico para desarrollarse en cualquier muestra de agua.",
+          "C": "Analizar también una muestra del agua del río antes del filtro, en las mismas condiciones, para comparar la cantidad de bacterias antes y después y calcular la reducción real.",
           "D": "Falta usar un río completamente distinto para la prueba, ya que el río actual podría no tener suficientes bacterias como para que la prueba sea representativa de otras fuentes de agua."
         },
-        "respuesta_correcta": "A",
+        "respuesta_correcta": "C",
         "explicacion_correcta": "Para calcular un porcentaje de reducción, es imprescindible conocer tanto la cantidad de bacterias antes del filtrado como después; sin la muestra de referencia (el agua sin filtrar, analizada bajo las mismas condiciones), no hay manera de calcular qué porcentaje de la cantidad original fue realmente eliminado.",
         "distractores": {
           "B": {
             "explicacion": "Propone un número específico de repeticiones sin ninguna justificación real, y no aborda el problema central: la ausencia de una muestra de referencia antes del filtrado.",
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           },
-          "C": {
-            "explicacion": "Introduce un tiempo de espera arbitrario sin ninguna justificación relacionada con el problema real, que es la falta de una muestra de comparación antes del filtrado.",
-            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
-          },
           "D": {
             "explicacion": "Propone cambiar la fuente de agua sin resolver el problema central; el problema no es qué río se usa, sino la falta de una muestra sin filtrar del mismo río.",
             "patron_trampa": "diseño_no_controlado"
+          },
+          "A": {
+            "explicacion": "Introduce un tiempo de espera arbitrario sin ninguna justificación relacionada con el problema real, que es la falta de una muestra de comparación antes del filtrado.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
         "dificultad": "baja",
@@ -234,7 +234,7 @@
         "enunciado": "¿Qué le falta a este diseño para poder afirmar que el programa de ejercicio efectivamente mejoró el estado de ánimo de los participantes (y no que simplemente ya tenían un buen estado de ánimo desde el principio)?",
         "opciones": {
           "A": "Falta aumentar la duración del programa de ejercicio a más de 4 semanas, ya que ese periodo es demasiado corto para que cualquier tipo de ejercicio físico tenga algún efecto psicológico medible.",
-          "B": "Falta medir el estado de ánimo de los mismos participantes ANTES de comenzar el programa de ejercicio, para poder comparar los valores de antes y después y así determinar si realmente hubo un cambio atribuible al programa.",
+          "B": "Medir el estado de ánimo de los mismos participantes antes de empezar el programa, para comparar antes y después y ver si el cambio es atribuible al programa.",
           "C": "Falta aplicar la encuesta de estado de ánimo a un número mucho mayor de participantes, ya que 30 personas nunca son suficientes para sacar ninguna conclusión sobre un programa de ejercicio.",
           "D": "Falta cambiar el tipo de ejercicio del programa por uno completamente distinto, ya que el tipo actual de ejercicio podría no tener ninguna relación con el estado de ánimo de las personas."
         },
@@ -303,7 +303,7 @@
         "opciones": {
           "A": "Usar un tercer tipo de pastilla de freno adicional en las pruebas, para tener más opciones de comparación disponibles al final del estudio.",
           "B": "Aumentar la velocidad de ambas pruebas a 120 km/h, ya que las pastillas de freno solo pueden compararse de forma confiable a velocidades muy altas.",
-          "C": "Probar ambas pastillas de freno en el mismo tipo de carro, en la misma pista, en las mismas condiciones climáticas y a la misma velocidad, cambiando únicamente el tipo de pastilla entre una prueba y otra.",
+          "C": "Probar ambas pastillas en el mismo carro, la misma pista, el mismo clima y la misma velocidad, cambiando solo el tipo de pastilla entre una prueba y otra.",
           "D": "Realizar las pruebas en dos países distintos, ya que las condiciones de las carreteras de diferentes países ofrecen una validación más robusta de cualquier producto automotriz."
         },
         "respuesta_correcta": "C",
@@ -348,7 +348,7 @@
           "A": "Aumentar el volumen de la música durante la segunda semana, para asegurar que el efecto de la música, si existe, sea lo suficientemente notable como para medirse con claridad.",
           "B": "Realizar la comparación durante un periodo de tiempo mucho más largo, manteniendo el mismo diseño de comparar dos departamentos distintos en semanas distintas del mes.",
           "C": "Pedir a los empleados que califiquen subjetivamente qué tan productivos se sintieron cada semana, en vez de contar el número real de tareas completadas.",
-          "D": "Comparar al mismo grupo de empleados, con las mismas tareas, trabajando con y sin música en distintos días de una misma semana, en vez de comparar departamentos y semanas distintas."
+          "D": "Comparar al mismo grupo, con las mismas tareas, con y sin música en días distintos de una misma semana, en vez de comparar departamentos y semanas distintas."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Actualmente se comparan dos departamentos distintos (con tareas y personas diferentes) en semanas distintas, lo que introduce múltiples variables de confusión no controladas; mantener el mismo grupo realizando el mismo tipo de tareas, variando solo la presencia de música, permite aislar mejor su efecto específico.",
@@ -389,7 +389,7 @@
         "evidencia": "4.1",
         "enunciado": "¿Qué le falta a este diseño experimental para poder afirmar con confianza que el catalizador fue el responsable de la velocidad observada?",
         "opciones": {
-          "A": "Falta un ensayo de referencia (control) con la misma muestra de H₂O₂, en las mismas condiciones de temperatura y concentración, pero SIN el catalizador, para poder comparar el tiempo de descomposición con y sin el catalizador.",
+          "A": "Un ensayo de control con la misma muestra de H₂O₂, misma temperatura y concentración pero sin el catalizador, para comparar el tiempo de descomposición con y sin él.",
           "B": "Falta repetir el experimento usando una concentración de H₂O₂ mucho más alta, ya que 45 segundos es un tiempo demasiado corto para ser considerado válido en cualquier análisis cinético.",
           "C": "Falta usar un catalizador de un color distinto, ya que el color de un catalizador determina directamente su efectividad para acelerar una reacción química.",
           "D": "Falta realizar el experimento en un recipiente de un material completamente distinto, ya que el material del recipiente es siempre la variable más determinante en cualquier reacción de descomposición."
@@ -434,7 +434,7 @@
         "enunciado": "¿Qué le falta a esta prueba para poder afirmar con confianza que fue específicamente el quitamanchas el responsable de la eliminación de la mancha, y no otro factor del proceso de lavado?",
         "opciones": {
           "A": "Falta usar un tipo de mancha completamente distinto, como de vino o de grasa, ya que las manchas de café nunca son representativas de ningún otro tipo de mancha que los consumidores puedan tener.",
-          "B": "Falta lavar, en las mismas condiciones (misma agua, mismo detergente, mismo ciclo de lavado), otra tela con una mancha de café similar pero SIN aplicar el quitamanchas, para comparar si la mancha se elimina de forma similar solo con el lavado normal.",
+          "B": "Lavar otra tela con una mancha de café similar en las mismas condiciones, misma agua, detergente y ciclo, pero sin quitamanchas, para ver si la mancha sale igual solo con el lavado.",
           "C": "Falta repetir la prueba usando una marca de tela completamente distinta, ya que el tipo de tela es la única variable que podría afectar el resultado de esta prueba de limpieza.",
           "D": "Falta aplicar el quitamanchas durante un tiempo mucho más largo antes de lavar la tela, ya que ese es el único factor que podría explicar por qué la mancha desapareció."
         },
@@ -479,7 +479,7 @@
         "opciones": {
           "A": "Falta medir la temperatura exacta del ambiente de almacenamiento cada hora durante los 10 días, ya que sin ese registro detallado ningún resultado sobre la aparición de moho puede considerarse válido.",
           "B": "Falta repetir la prueba usando una marca de harina completamente distinta para hacer el pan, ya que el tipo de harina es la única variable capaz de influir en la aparición de moho en cualquier producto horneado.",
-          "C": "Falta almacenar, en las mismas condiciones de temperatura y humedad, un lote de pan idéntico pero SIN el conservante añadido, para comparar si ese lote desarrolla moho antes, y así determinar si el conservante realmente hizo una diferencia.",
+          "C": "Almacenar en las mismas condiciones de temperatura y humedad un pan idéntico pero sin el conservante, para comparar si desarrolla moho antes y ver si el conservante hizo la diferencia.",
           "D": "Falta aumentar la cantidad de conservante añadida al pan, ya que una mayor cantidad del producto garantizaría de forma automática una vida útil todavía más larga."
         },
         "respuesta_correcta": "C",
@@ -524,7 +524,7 @@
           "A": "Aumentar la concentración de sal en el agua utilizada durante la prueba, ya que una mayor concentración de sal siempre produce resultados de corrosión más fáciles de interpretar.",
           "B": "Repetir la prueba usando un tipo de metal completamente distinto para la tubería, ya que el tipo de metal es la única variable capaz de influir en el grado de corrosión observado.",
           "C": "Extender la duración de la prueba a 60 días en lugar de 30, ya que ese es el único cambio que permitiría obtener resultados más confiables sobre la efectividad del recubrimiento.",
-          "D": "Exponer, en las mismas condiciones de agua salada y durante el mismo periodo de tiempo, una tubería del mismo metal pero SIN el recubrimiento, para comparar el grado de corrosión y así determinar si el recubrimiento realmente marcó una diferencia."
+          "D": "Exponer en las mismas condiciones de agua salada y el mismo tiempo una tubería del mismo metal pero sin recubrimiento, para comparar el grado de corrosión."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Sin una tubería de control (del mismo metal, expuesta a las mismas condiciones y tiempo, pero sin el recubrimiento), no se puede saber si la baja corrosión se debe realmente al recubrimiento o si ese metal se corroe poco de todos modos bajo esas condiciones.",
@@ -565,7 +565,7 @@
         "evidencia": "4.1",
         "enunciado": "¿Qué le falta a este procedimiento para poder respaldar la afirmación de que el nuevo disolvente es más eficiente para esta extracción?",
         "opciones": {
-          "A": "Falta repetir la extracción con la misma muestra y las mismas condiciones de tiempo y temperatura, pero usando un disolvente estándar ya conocido, para comparar la cantidad de compuesto obtenida con cada uno.",
+          "A": "Repetir la extracción con la misma muestra y las mismas condiciones de tiempo y temperatura pero con un disolvente estándar conocido, para comparar la cantidad obtenida con cada uno.",
           "B": "Falta repetir la extracción usando una cantidad de muestra vegetal mucho menor, ya que 100 gramos es una cantidad demasiado grande para que cualquier extracción sea considerada representativa.",
           "C": "Falta cambiar la especie de planta usada como muestra vegetal, ya que la especie actual podría no ser compatible con ningún disolvente conocido en la literatura.",
           "D": "Falta triplicar la cantidad de disolvente nuevo utilizado en la extracción, ya que una mayor cantidad de disolvente garantiza de forma automática una mayor cantidad de compuesto extraído."
@@ -610,7 +610,7 @@
         "enunciado": "¿Qué estrategia sería necesaria para determinar de forma confiable el rango de pH en el que este nuevo indicador cambia de color?",
         "opciones": {
           "A": "Repetir la prueba usando una cantidad mucho mayor del pigmento vegetal extraído, ya que una mayor concentración del indicador garantiza automáticamente una determinación más precisa de su rango de cambio de color.",
-          "B": "Probar el indicador en una serie de soluciones reguladoras (buffers) de pH conocido y certificado, cubriendo un rango amplio de valores (por ejemplo, de pH 1 a pH 14), y registrar en qué valores específicos de pH ocurre el cambio de color observado.",
+          "B": "Probar el indicador en soluciones buffer de pH conocido y certificado, en un rango amplio, por ejemplo de 1 a 14, y registrar en qué valores ocurre el cambio de color.",
           "C": "Comparar el color obtenido con el de otro indicador de pH ya conocido, sin necesidad de usar ninguna solución de pH certificado, ya que dos indicadores siempre cambian de color exactamente en los mismos valores de pH.",
           "D": "Realizar la prueba en un ambiente completamente oscuro, ya que la luz ambiental es la única variable capaz de alterar el color observado de cualquier indicador de pH."
         },
@@ -683,7 +683,7 @@
         "opciones": {
           "A": "Aumentar el número de ensayos a diez, manteniendo el mismo diseño de cambiar simultáneamente tanto la concentración de la enzima como la del sustrato en cada ensayo.",
           "B": "Medir la velocidad de reacción con instrumentos mucho más precisos, sin cambiar la forma en que se diseñan los ensayos ni qué variables se modifican.",
-          "C": "Mantener constante la concentración del sustrato en todos los ensayos, variando solo la concentración de la enzima, para poder atribuir cualquier cambio en la velocidad específicamente a la enzima.",
+          "C": "Mantener constante la concentración de sustrato en todos los ensayos y variar solo la de la enzima, para atribuir cualquier cambio de velocidad a la enzima.",
           "D": "Realizar los ensayos a una temperatura mucho más alta de lo habitual, ya que las enzimas siempre funcionan de forma más medible a temperaturas elevadas."
         },
         "respuesta_correcta": "C",
@@ -728,7 +728,7 @@
           "A": "Aumentar la temperatura del agua a un nivel mucho más alto que el habitual, ya que el agua muy caliente siempre elimina cualquier tipo de mancha de grasa sin necesidad de ningún detergente.",
           "B": "Aumentar la cantidad de detergente nuevo en cada lavado, ya que una mayor cantidad del producto garantiza siempre una eliminación más completa de cualquier mancha.",
           "C": "Repetir la prueba usando un tipo de grasa completamente distinto al de cocina, ya que ese es el único factor capaz de influir en la efectividad de cualquier detergente.",
-          "D": "Lavar, con la misma temperatura, tela, cantidad de grasa y ciclo, otro lote de telas usando un detergente convencional ya existente, para comparar el grado de eliminación logrado por cada producto."
+          "D": "Lavar con la misma temperatura, tela, cantidad de grasa y ciclo otro lote con un detergente convencional, para comparar el grado de eliminación de cada producto."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Sin una comparación directa con un detergente convencional ya existente, lavado bajo exactamente las mismas condiciones, no hay forma de saber si el nuevo detergente elimina la grasa mejor, igual, o peor que las opciones ya disponibles.",
@@ -769,12 +769,12 @@
         "evidencia": "4.1",
         "enunciado": "¿Cuál reactivo es el limitante, y cuántos mol de PbI₂ se forman como máximo?",
         "opciones": {
-          "A": "El KI es el reactivo limitante, porque se necesitan 0,080 mol de KI para consumir por completo los 0,040 mol de Pb(NO₃)₂ disponibles (según la relación 1:2), pero solo hay 0,060 mol de KI; se forman como máximo 0,030 mol de PbI₂.",
+          "A": "Ambos reactivos se consumen por completo de forma simultánea, formando 0,050 mol de PbI₂, el promedio de las cantidades molares disponibles de cada reactivo.",
           "B": "El Pb(NO₃)₂ es el reactivo limitante, porque su cantidad disponible (0,040 mol) es menor que la de KI (0,060 mol); se forman como máximo 0,040 mol de PbI₂.",
           "C": "El KI es el reactivo limitante; se forman como máximo 0,060 mol de PbI₂, considerando que cada mol de KI reacciona con un mol de Pb(NO₃)₂ para producir un mol de PbI₂.",
-          "D": "Ambos reactivos se consumen por completo de forma simultánea, formando 0,050 mol de PbI₂, el promedio de las cantidades molares disponibles de cada reactivo."
+          "D": "El KI es el limitante: harían falta 0,080 mol de KI para los 0,040 mol de Pb(NO₃)₂ en relación 1:2, pero solo hay 0,060 mol; se forman 0,030 mol de PbI₂."
         },
-        "respuesta_correcta": "A",
+        "respuesta_correcta": "D",
         "explicacion_correcta": "El KI es el reactivo limitante: la relación estequiométrica exige 2 mol de KI por cada mol de Pb(NO₃)₂, así que los 0,040 mol de Pb(NO₃)₂ requerirían 0,080 mol de KI, pero solo hay 0,060 mol disponibles; según la relación 2:1 entre KI y PbI₂, se forman 0,060/2 = 0,030 mol de PbI₂ como máximo.",
         "distractores": {
           "B": {
@@ -785,7 +785,7 @@
             "explicacion": "Identifica correctamente al KI como limitante, pero ignora el coeficiente 2 de la ecuación balanceada al calcular el PbI₂ formado, tratando la relación KI:PbI₂ como 1:1 en lugar de 2:1.",
             "patron_trampa": "ignora_coeficiente_estequiometrico"
           },
-          "D": {
+          "A": {
             "explicacion": "Combina arbitrariamente las cantidades disponibles de ambos reactivos (promediándolas) sin aplicar ninguna relación estequiométrica real derivada de la ecuación balanceada.",
             "patron_trampa": "combinacion_arbitraria_sin_relacion_estequiometrica"
           }
@@ -812,7 +812,7 @@
         "evidencia": "4.1",
         "enunciado": "Usando la ley de Hess, ¿cuál es la entalpía de la reacción S(s) + 3/2 O₂(g) → SO₃(g)?",
         "opciones": {
-          "A": "−395,7 kJ, sumando directamente ΔH₁ + ΔH₂, porque al sumar las dos reacciones tal como están escritas, el SO₂ intermedio se cancela y el resultado neto es exactamente S(s) + 3/2 O₂(g) → SO₃(g).",
+          "A": "−395,7 kJ, sumando ΔH₁ + ΔH₂ tal como están escritas: el SO₂ intermedio se cancela y queda S(s) + 3/2 O₂(g) → SO₃(g).",
           "B": "−197,9 kJ, restando ΔH₁ − ΔH₂, porque para aplicar la ley de Hess siempre es necesario invertir el signo de una de las dos reacciones antes de combinarlas.",
           "C": "−98,9 kJ, usando solamente ΔH₂, porque es el paso que forma directamente el SO₃, y el paso previo de formación del SO₂ no forma parte del resultado final.",
           "D": "+395,7 kJ, sumando los valores absolutos de ΔH₁ y ΔH₂, porque combinar dos reacciones exotérmicas siempre produce un proceso global endotérmico."
@@ -855,7 +855,7 @@
         "evidencia": "4.1",
         "enunciado": "Si cada Fe²⁺ cede exactamente un electrón al oxidarse a Fe³⁺, ¿cuál es el coeficiente correcto de Fe²⁺ en la ecuación balanceada, y cuántos electrones se transfieren en total?",
         "opciones": {
-          "A": "El coeficiente de Fe²⁺ es 6, y se transfieren 6 electrones en total: la semirreacción de reducción muestra que se necesitan 6 electrones (porque hay 2 átomos de Cr, y cada uno gana 3 electrones), y como cada Fe²⁺ solo cede 1 electrón, se necesitan 6 iones Fe²⁺ para aportarlos.",
+          "A": "El coeficiente de Fe²⁺ es 6, y se transfieren 6 electrones: el Cr₂O₇²⁻ gana 6 en total y cada Fe²⁺ cede solo 1.",
           "B": "El coeficiente de Fe²⁺ es 3, porque el ion dicromato completo solo necesita 3 electrones para reducirse, según lo que indica la semirreacción.",
           "C": "El coeficiente de Fe²⁺ es 3, porque cada Fe²⁺ cede 2 electrones al oxidarse a Fe³⁺, y 6 electrones necesarios ÷ 2 electrones por Fe²⁺ = 3.",
           "D": "El coeficiente de Fe²⁺ es 1, ya que basta con balancear los átomos de Cr, O e H visibles en la ecuación para que quede correctamente balanceada."
@@ -899,7 +899,7 @@
         "evidencia": "4.2",
         "enunciado": "Si se sintetiza una nueva nanopartícula del mismo material con radio 1 nm (la mitad del anterior), ¿cuál sería el gap adicional esperado según el modelo, y cuál el gap energético total?",
         "opciones": {
-          "A": "El gap adicional esperado sería 3,20 eV, y el gap total 4,40 eV. Como el gap adicional es proporcional a 1/r², al reducir el radio a la mitad, 1/r² se multiplica por 4 (porque (1/1²) / (1/2²) = 4); así, 0,80 eV × 4 = 3,20 eV de gap adicional, que sumado al gap macroscópico de 1,20 eV da un gap total de 4,40 eV.",
+          "A": "3,20 eV de gap adicional y 4,40 eV total: el gap adicional va como 1/r², así que al bajar el radio a la mitad se multiplica por 4, 0,80 × 4 = 3,20, más 1,20.",
           "B": "El gap adicional esperado sería 1,60 eV, y el gap total 2,80 eV, porque al reducir el radio a la mitad, el gap adicional simplemente se duplica en la misma proporción.",
           "C": "El gap total esperado sería 3,20 eV, calculado multiplicando directamente 0,80 eV por 4.",
           "D": "El gap adicional esperado sería 0,20 eV, y el gap total 1,40 eV, porque al reducir el radio a la mitad, el gap adicional se reduce a la cuarta parte."
@@ -942,8 +942,8 @@
         "evidencia": "4.1",
         "enunciado": "¿Qué estrategia de diseño permitiría atribuir con más confianza la diferencia de desempeño específicamente al programa de capacitación, y no a características previas de quienes decidieron inscribirse voluntariamente?",
         "opciones": {
-          "A": "Asignar aleatoriamente a los empleados al grupo A o al grupo B (por ejemplo, por sorteo), en vez de dejar que cada uno elija participar o no; la aleatorización reparte de forma equilibrada, en promedio, tanto las diferencias conocidas como las desconocidas entre empleados (como su motivación o desempeño previo).",
-          "B": "Aumentar el número de empleados encuestados a 500, manteniendo el mismo diseño en el que cada empleado decide voluntariamente si participa o no.",
+          "A": "Asignar al azar a los empleados al grupo A o B, en vez de dejar que cada uno elija; el azar reparte de forma pareja las diferencias conocidas y las desconocidas entre empleados.",
+          "B": "Aumentar el número de empleados encuestados a 500, manteniendo el mismo diseño en el que cada empleado decide de forma voluntaria si participa o no en el programa de capacitación.",
           "C": "Usar una escala de evaluación de desempeño mucho más detallada y precisa, en lugar de la escala actual.",
           "D": "Extender la duración del programa de capacitación a 6 meses en lugar de 3, manteniendo el mismo diseño de inscripción voluntaria."
         },
@@ -985,7 +985,7 @@
         "evidencia": "4.2",
         "enunciado": "Más allá de la falta evidente de un grupo control con una crema placebo, ¿qué otro elemento del diseño sería importante añadir para reducir el riesgo de que los resultados estén sesgados?",
         "opciones": {
-          "A": "Sería importante que el estudio fuera doble ciego: que ni los participantes ni la dermatóloga que evalúa las arrugas sepan quién recibió la crema real y quién el placebo, para evitar que la expectativa de ambos influya en la evaluación.",
+          "A": "Que el estudio fuera doble ciego: ni los participantes ni la dermatóloga que evalúa sepan quién recibió la crema real, para que la expectativa no influya en la evaluación.",
           "B": "Sería importante aumentar la cantidad de crema aplicada por cada participante, para asegurar que el efecto, si existe, sea lo suficientemente notable como para medirse con claridad.",
           "C": "Sería importante realizar el estudio en una clínica de mayor prestigio, ya que la reputación del lugar donde se realiza un estudio influye directamente en la validez de sus resultados.",
           "D": "Sería importante que la dermatóloga fuera la misma persona que fabricó la crema, para garantizar mayor consistencia en la evaluación de cada participante."

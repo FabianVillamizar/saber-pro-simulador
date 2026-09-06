@@ -14,12 +14,12 @@
         "evidencia": "3.1",
         "enunciado": "Según el modelo de la primera ley de Newton, ¿qué le sucederá a la velocidad de la nave después de apagar sus motores, suponiendo que no actúa ninguna fuerza externa significativa sobre ella?",
         "opciones": {
-          "A": "La nave continuará moviéndose a 20.000 km/h de forma indefinida, porque sin una fuerza neta que actúe sobre ella, no hay ninguna causa que cambie su velocidad.",
+          "A": "No se puede predecir el comportamiento de la nave sin conocer la masa exacta de la nave espacial.",
           "B": "La nave disminuirá gradualmente su velocidad hasta detenerse por completo, porque todo objeto en movimiento eventualmente se detiene si no se le aplica una fuerza continua.",
           "C": "La nave mantendrá su velocidad solo durante un tiempo limitado, y después se detendrá, porque ningún objeto puede moverse indefinidamente sin combustible que lo impulse.",
-          "D": "No se puede predecir el comportamiento de la nave sin conocer la masa exacta de la nave espacial."
+          "D": "La nave continuará moviéndose a 20.000 km/h de forma indefinida, porque sin una fuerza neta que actúe sobre ella, no hay ninguna causa que cambie su velocidad."
         },
-        "respuesta_correcta": "A",
+        "respuesta_correcta": "D",
         "explicacion_correcta": "El modelo de la primera ley de Newton establece que, en ausencia de una fuerza neta, un objeto en movimiento continúa moviéndose a velocidad constante indefinidamente; en el vacío del espacio, sin fricción ni otras fuerzas significativas, la nave mantendría su velocidad de 20.000 km/h sin necesidad de que los motores sigan encendidos.",
         "distractores": {
           "B": {
@@ -30,7 +30,7 @@
             "explicacion": "Confunde el papel del combustible (necesario para generar una fuerza de propulsión) con la necesidad de una fuerza continua para mantener la velocidad, cuando según el modelo de Newton no se necesita ninguna fuerza para mantener una velocidad constante.",
             "patron_trampa": "equilibrio_confundido_con_reposo"
           },
-          "D": {
+          "A": {
             "explicacion": "Introduce un requisito irrelevante; el modelo predice que la velocidad se mantendrá constante independientemente de la masa de la nave, ya que la masa no es necesaria para responder qué le sucede a la velocidad en ausencia de fuerza neta.",
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
@@ -131,7 +131,7 @@
         "enunciado": "Un estudiante usa la ecuación de los gases ideales para predecir el volumen de un gas real a una presión extremadamente alta (cientos de atmósferas) y a una temperatura muy baja, cercana a su punto de condensación. ¿Qué se puede esperar sobre la precisión de esta predicción?",
         "opciones": {
           "A": "La predicción será exactamente precisa, porque la ecuación de los gases ideales es una ley física universal válida en cualquier condición de presión y temperatura, sin excepción alguna.",
-          "B": "La predicción probablemente no será precisa, porque a presiones muy altas y temperaturas bajas, el volumen propio de las moléculas y las fuerzas de atracción entre ellas se vuelven significativas.",
+          "B": "La predicción probablemente no será precisa, porque a presión muy alta y temperatura baja el volumen propio de las moléculas y las atracciones entre ellas ya pesan.",
           "C": "La predicción será más precisa que en condiciones normales, porque a mayor presión, las moléculas de gas se comportan de forma más parecida a partículas ideales sin volumen ni interacciones.",
           "D": "No se puede determinar si la predicción será precisa sin conocer primero la masa molar exacta del gas real que se está estudiando en este caso específico."
         },
@@ -330,7 +330,7 @@
         "opciones": {
           "A": "El modelo exponencial, porque describe cualquier tipo de crecimiento poblacional que comience de forma rápida, sin importar lo que ocurra después.",
           "B": "Ambos modelos son igualmente válidos para describir esta situación, porque las diferencias entre ellos son solo matemáticas y no reflejan diferencias reales en el fenómeno biológico.",
-          "C": "El modelo logístico, porque incorpora una capacidad de carga (los nutrientes limitados del frasco), que explica por qué el crecimiento se desacelera y se estabiliza, algo que el exponencial no predice.",
+          "C": "El modelo logístico, porque incorpora una capacidad de carga, los nutrientes limitados, que explica la desaceleración y el plateau que el exponencial no predice.",
           "D": "El modelo exponencial, porque una vez que la población dejó de crecer, ya no hace falta ningún modelo matemático para describirla."
         },
         "respuesta_correcta": "C",
@@ -376,7 +376,7 @@
           "A": "El modelo de Bohr predecirá el espectro de estos átomos con exactamente la misma precisión que para el hidrógeno, porque todos los átomos comparten la misma estructura básica de núcleo y electrones orbitando.",
           "B": "El modelo de Bohr no puede aplicarse en absoluto a ningún átomo distinto del hidrógeno, ya que fue diseñado exclusivamente para ese elemento específico y ningún otro.",
           "C": "El modelo de Bohr predecirá estos espectros con mayor precisión que para el hidrógeno, porque los átomos con más electrones tienen espectros más simples de calcular en la práctica.",
-          "D": "No predice con precisión los espectros de átomos con más de un electrón, porque el modelo original no incluye las repulsiones entre múltiples electrones, algo que sí modelan tratamientos mecánico-cuánticos más completos."
+          "D": "No, porque el modelo original no incluye las repulsiones entre varios electrones, algo que los átomos con más de un electrón sí requieren y que la mecánica cuántica sí modela."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "El modelo de Bohr fue desarrollado considerando un solo electrón orbitando un núcleo, y no incluye las interacciones de repulsión electrón-electrón que se vuelven relevantes en átomos con más de un electrón; por eso, aunque funciona notablemente bien para el hidrógeno, sus predicciones para átomos multielectrónicos requieren tratamientos más completos.",
@@ -517,25 +517,25 @@
         "evidencia": "3.2",
         "enunciado": "Un estudiante mide el periodo de un péndulo para ángulos de oscilación pequeños (5°) y confirma que coincide con la predicción del modelo. Luego repite la medición con un ángulo mucho mayor (80°) y encuentra que el periodo medido es notablemente más largo que el predicho por la misma fórmula. ¿Qué explica esta discrepancia a ángulos grandes?",
         "opciones": {
-          "A": "La fórmula T=2π√(L/g) es una aproximación válida solo para ángulos pequeños; a 80° deja de ser precisa, y el periodo real también depende de la amplitud del movimiento.",
+          "A": "La discrepancia se debe a que a 80° el péndulo deja de comportarse como un péndulo simple y se convierte en un objeto físico completamente distinto.",
           "B": "El estudiante debió cometer un error de medición, porque el periodo de cualquier péndulo simple es exactamente el mismo sin importar el ángulo de oscilación usado.",
-          "C": "La discrepancia se debe a que a 80° el péndulo deja de comportarse como un péndulo simple y se convierte en un objeto físico completamente distinto.",
+          "C": "La fórmula T=2π√(L/g) es una aproximación válida solo para ángulos pequeños; a 80° deja de ser precisa, y el periodo real también depende de la amplitud del movimiento.",
           "D": "La fórmula es incorrecta en general y debería reemplazarse por una ecuación completamente distinta para describir cualquier péndulo, sin importar el ángulo de oscilación."
         },
-        "respuesta_correcta": "A",
+        "respuesta_correcta": "C",
         "explicacion_correcta": "La fórmula simplificada se deriva asumiendo un ángulo pequeño; a ángulos grandes esa aproximación ya no es precisa, y el periodo real sí depende de la amplitud, un efecto que la versión simplificada no captura, por lo que la discrepancia observada es esperada y no un error de medición.",
         "distractores": {
           "B": {
             "explicacion": "Asume que la fórmula simplificada es exacta bajo cualquier condición, cuando es una aproximación derivada específicamente para ángulos pequeños; a ángulos grandes el periodo real sí depende de la amplitud.",
             "patron_trampa": "modelo_fuera_de_dominio"
           },
-          "C": {
-            "explicacion": "Introduce la idea de que el objeto cambia de naturaleza física a ángulos grandes, cuando sigue siendo el mismo péndulo; lo que cambia es la validez de la aproximación matemática, no el objeto físico.",
-            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
-          },
           "D": {
             "explicacion": "Sobregeneraliza el problema, sugiriendo que la fórmula es incorrecta en cualquier caso, cuando es precisa y útil específicamente dentro de su rango de validez (ángulos pequeños).",
             "patron_trampa": "sobregeneralizacion_de_un_metodo"
+          },
+          "A": {
+            "explicacion": "Introduce la idea de que el objeto cambia de naturaleza física a ángulos grandes, cuando sigue siendo el mismo péndulo; lo que cambia es la validez de la aproximación matemática, no el objeto físico.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
         "dificultad": "alta",
@@ -563,7 +563,7 @@
         "enunciado": "Al iluminar una placa metálica con luz de cierta frecuencia, se observa que se emiten electrones desde la superficie del metal, pero solo si la frecuencia de la luz supera un valor mínimo específico, sin importar qué tan intensa sea la luz por debajo de esa frecuencia. ¿Cuál de los dos modelos de la luz explica mejor esta observación?",
         "opciones": {
           "A": "El modelo ondulatorio, porque las ondas de luz de mayor intensidad siempre transportan más energía, sin importar su frecuencia, lo cual explicaría la emisión de electrones.",
-          "B": "El modelo corpuscular (de fotones), porque cada fotón transporta una energía proporcional a su frecuencia, y solo los fotones con energía suficiente liberan un electrón, sin importar cuántos de baja energía incidan.",
+          "B": "El modelo corpuscular, de fotones: la energía de cada fotón depende de su frecuencia y solo los que pasan un umbral liberan un electrón.",
           "C": "Ambos modelos explican esta observación con exactamente el mismo nivel de detalle, sin ninguna ventaja de uno sobre el otro para este fenómeno.",
           "D": "Ninguno de los dos modelos puede explicar este fenómeno, ya que el efecto fotoeléctrico no guarda ninguna relación con las propiedades de la luz."
         },
@@ -670,7 +670,7 @@
         "opciones": {
           "A": "Ninguna, porque un modelo de regresión lineal ajustado con datos reales siempre sigue siendo válido para predecir cualquier periodo futuro, sin importar cuánto tiempo haya pasado.",
           "B": "El modelo es inválido incluso para los primeros 5 años, porque ningún proceso económico real puede seguir una tendencia lineal durante ningún periodo de tiempo.",
-          "C": "El modelo fue ajustado y validado solo con datos de los primeros 5 años; extender la tendencia 15 años más allá ignora que factores como la saturación del mercado podrían alterar la tendencia futura.",
+          "C": "El modelo se ajustó solo con 5 años de datos; extender la tendencia 15 años más ignora que factores como la saturación del mercado pueden cambiarla.",
           "D": "La predicción sería más confiable si se usara un modelo de regresión lineal ajustado con muchos más años de datos futuros, que todavía no existen hoy."
         },
         "respuesta_correcta": "C",
@@ -715,7 +715,7 @@
           "A": "La conducción, porque es el mecanismo de transferencia de calor más común y, por lo tanto, el más probable en cualquier situación, incluso en el vacío del espacio.",
           "B": "La convección, porque el movimiento del satélite en su órbita genera un flujo similar al de un fluido en movimiento, que transfiere el calor del Sol hacia la superficie del satélite.",
           "C": "Tanto la conducción como la convección son igualmente responsables de este calentamiento, ya que ambos mecanismos requieren siempre estar presentes simultáneamente en cualquier proceso de transferencia de calor.",
-          "D": "La radiación, porque este mecanismo de transferencia de calor ocurre mediante ondas electromagnéticas y no requiere ningún medio material entre la fuente de calor (el Sol) y el objeto que se calienta (el satélite), a diferencia de la conducción y la convección."
+          "D": "La radiación, porque transfiere calor por ondas electromagnéticas y no necesita un medio material entre el Sol y el satélite, a diferencia de conducción y convección."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "La radiación es el único de los tres mecanismos que no requiere un medio material, ya que el calor se transfiere mediante ondas electromagnéticas que pueden viajar a través del vacío; tanto la conducción como la convección requieren un medio, ausente en el vacío entre el Sol y el satélite.",
@@ -757,7 +757,7 @@
         "evidencia": "3.3",
         "enunciado": "En la reacción NH₃(g) + HCl(g) → NH₄Cl(s), que ocurre en fase gaseosa sin ningún disolvente presente, el HCl actúa como ácido al donar un protón al NH₃, que actúa como base al aceptarlo. ¿Puede el modelo de Arrhenius describir adecuadamente esta reacción como una reacción ácido-base?",
         "opciones": {
-          "A": "No, porque el modelo de Arrhenius se define en términos de iones H⁺ y OH⁻ en solución acuosa, condición que no se cumple aquí; el modelo de Brønsted-Lowry sí describe bien esta reacción, ya que no requiere agua.",
+          "A": "No, porque el modelo de Arrhenius exige iones H⁺ y OH⁻ en solución acuosa, y aquí no hay agua; el de Brønsted-Lowry sí describe esta reacción en fase gas.",
           "B": "Sí, porque cualquier reacción donde una sustancia dona un protón a otra debe clasificarse automáticamente según el modelo de Arrhenius, sin importar en qué fase o medio ocurra.",
           "C": "No, porque en realidad esta reacción entre NH₃ y HCl no es una reacción ácido-base según ningún modelo químico existente en la actualidad.",
           "D": "Sí, porque el modelo de Arrhenius y el modelo de Brønsted-Lowry son exactamente equivalentes en todos los casos posibles, sin ninguna diferencia en su alcance."
@@ -803,7 +803,7 @@
         "enunciado": "Un estudiante intenta aplicar el modelo VSEPR, tal como se usa para moléculas de los elementos representativos (como el CH₄ o el NH₃), para predecir la geometría de un complejo de coordinación de un metal de transición, como el [Co(NH₃)₆]³⁺, contando simplemente los pares de electrones alrededor del cobalto central. ¿Es apropiado este uso directo del modelo VSEPR para este tipo de compuesto?",
         "opciones": {
           "A": "Sí, porque el modelo VSEPR fue diseñado específicamente para predecir con precisión la geometría de cualquier tipo de compuesto químico, incluyendo los complejos de coordinación de metales de transición.",
-          "B": "No completamente, porque los complejos de metales de transición involucran orbitales d en el enlace, algo que el VSEPR simple no considera; para estos compuestos se usan modelos más específicos, como el campo cristalino.",
+          "B": "No del todo, porque los complejos de metales de transición usan orbitales d en el enlace, que el VSEPR simple no considera; se usan modelos como el de campo cristalino.",
           "C": "No, porque los complejos de coordinación de metales de transición no tienen ninguna geometría molecular definida, así que ningún modelo puede predecirla.",
           "D": "Sí, porque los metales de transición nunca forman enlaces con más de cuatro átomos o grupos a su alrededor, por lo que el conteo simple de pares de electrones es directamente aplicable."
         },
@@ -863,11 +863,11 @@
             },
             {
               "x": "150",
-              "y": 0.00001
+              "y": 1e-05
             },
             {
               "x": "100",
-              "y": 1e-8
+              "y": 1e-08
             },
             {
               "x": "75",
@@ -916,39 +916,39 @@
             },
             {
               "x": "150",
-              "y": 0.00001
+              "y": 1e-05
             },
             {
               "x": "100",
-              "y": 1e-7
+              "y": 1e-07
             },
             {
               "x": "75",
-              "y": 5e-7
+              "y": 5e-07
             },
             {
               "x": "50",
-              "y": 0.000002
+              "y": 2e-06
             },
             {
               "x": "25",
-              "y": 0.000001
+              "y": 1e-06
             },
             {
               "x": "10",
-              "y": 8e-7
+              "y": 8e-07
             },
             {
               "x": "5",
-              "y": 7e-7
+              "y": 7e-07
             },
             {
               "x": "2",
-              "y": 7e-7
+              "y": 7e-07
             },
             {
               "x": "1",
-              "y": 7e-7
+              "y": 7e-07
             }
           ]
         }
@@ -964,7 +964,7 @@
         "opciones": {
           "A": "Indica que el modelo de Arrhenius es completamente incorrecto y debe descartarse por completo para describir cualquier reacción, sin importar la temperatura.",
           "B": "Indica que las mediciones experimentales a temperaturas tan bajas deben contener errores, ya que ninguna reacción química puede ocurrir cerca del cero absoluto bajo ninguna circunstancia.",
-          "C": "Indica que el modelo de Arrhenius, basado en la cinética clásica, tiene un dominio de validez limitado; a temperaturas muy bajas, el efecto túnel cuántico puede acelerar la reacción más de lo previsto.",
+          "C": "El modelo de Arrhenius, basado en cinética clásica, tiene un dominio limitado: a temperaturas muy bajas el efecto túnel cuántico acelera la reacción más de lo previsto.",
           "D": "Indica que la energía de activación de estas reacciones específicas debe ser negativa, un valor que el modelo de Arrhenius no puede representar en ningún caso."
         },
         "respuesta_correcta": "C",
@@ -1009,7 +1009,7 @@
           "A": "Sí, porque un valor de K muy alto siempre indica que la reacción alcanza el equilibrio de forma casi instantánea, sin importar otros factores presentes.",
           "B": "No, porque en realidad un valor de K tan alto como 10¹² es matemáticamente imposible para cualquier reacción química real conocida.",
           "C": "Sí, porque la constante de equilibrio y la velocidad de reacción son, en el fondo, matemáticamente la misma cantidad expresada de dos formas.",
-          "D": "No, porque K describe solo la posición del equilibrio, no la velocidad para llegar a él; una reacción puede tener un K muy grande y aun así ser muy lenta si su energía de activación es alta."
+          "D": "No, porque K dice dónde queda el equilibrio, no cuánto tarda en llegar; con K enorme una reacción aún puede ser lenta si su energía de activación es alta."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "El modelo de la constante de equilibrio es un concepto termodinámico que describe la posición del equilibrio, completamente independiente de la velocidad (un concepto cinético) a la que el sistema llega a esa posición; una reacción puede ser termodinámicamente muy favorable pero cinéticamente muy lenta, como ocurre con la oxidación del diamante a CO₂.",
@@ -1103,7 +1103,7 @@
         "evidencia": "3.2",
         "enunciado": "En experimentos reales, se mide el factor de van't Hoff efectivo del NaCl en soluciones acuosas de distintas concentraciones, y se encuentra que a concentraciones bajas el valor medido es muy cercano a 2, pero a concentraciones más altas, el valor medido es notablemente menor (por ejemplo, 1,8). ¿Qué explica esta desviación del modelo simple a concentraciones más altas?",
         "opciones": {
-          "A": "El modelo simple de i = 2 asume una disociación completa e independiente de los iones, pero a concentraciones más altas, los iones Na⁺ y Cl⁻ están más cerca unos de otros y pueden formar pares iónicos temporales, reduciendo el número efectivo de partículas independientes en solución.",
+          "A": "El modelo i = 2 supone disociación completa e independiente; a mayor concentración los iones Na⁺ y Cl⁻ quedan más cerca y forman pares iónicos, bajando el número efectivo de partículas.",
           "B": "El NaCl deja de disolverse completamente en agua a concentraciones más altas, por lo que una fracción del NaCl permanece como sólido sin disociarse en absoluto.",
           "C": "El agua deja de actuar como disolvente a concentraciones más altas de NaCl, lo cual invalida cualquier medición del factor de van't Hoff en esas condiciones.",
           "D": "El valor de i real del NaCl siempre ha sido 1,8 en cualquier concentración, y el modelo simple que predice i = 2 estuvo equivocado desde el principio, sin ninguna relación con la concentración de la solución."
@@ -1149,7 +1149,7 @@
         "enunciado": "Experimentalmente, se observa que el oxígeno molecular (O₂) es paramagnético, es decir, es atraído por un campo magnético, lo cual indica la presencia de electrones desapareados. La estructura de Lewis simple del O₂ predice un doble enlace con todos los electrones apareados. ¿Qué modelo describe mejor esta propiedad observada del O₂, y por qué?",
         "opciones": {
           "A": "La teoría de enlace de valencia, porque predice correctamente que todos los electrones del O₂ están apareados, coincidiendo con las propiedades magnéticas observadas experimentalmente.",
-          "B": "La teoría de orbitales moleculares, porque al distribuir los electrones en orbitales que abarcan toda la molécula, predice correctamente la existencia de dos electrones desapareados en orbitales de antienlace, explicando el paramagnetismo observado del O₂.",
+          "B": "La teoría de orbitales moleculares: al repartir los electrones en orbitales de toda la molécula predice dos electrones desapareados que explican el paramagnetismo del O₂.",
           "C": "Ninguno de los dos modelos puede explicar las propiedades magnéticas de ninguna molécula, ya que el magnetismo es un fenómeno físico sin relación con la estructura electrónica de los compuestos.",
           "D": "Ambos modelos predicen exactamente el mismo resultado para el O₂, por lo que la elección entre uno u otro no tiene ninguna consecuencia práctica."
         },
@@ -1194,7 +1194,7 @@
         "opciones": {
           "A": "Sí, porque los coeficientes estequiométricos de cualquier ecuación balanceada representan directamente los exponentes de la ley de velocidad de esa reacción, sin ninguna excepción posible.",
           "B": "No, porque las ecuaciones químicas balanceadas nunca contienen ninguna información útil relacionada con la velocidad de una reacción química.",
-          "C": "No en general, porque la ley de velocidad depende del mecanismo real (que puede tener varios pasos), y solo coincide con los coeficientes en una reacción elemental de un solo paso; por eso se determina experimentalmente.",
+          "C": "No en general, porque la ley de velocidad depende del mecanismo real, que puede tener varios pasos, y solo coincide con los coeficientes si la reacción es elemental; por eso se mide.",
           "D": "Sí, porque cualquier reacción que involucre gases, como esta entre NO y O₂, sigue automáticamente una ley de velocidad basada en sus coeficientes, a diferencia de las reacciones en solución."
         },
         "respuesta_correcta": "C",
@@ -1301,7 +1301,7 @@
           "A": "Sí, porque la ecuación de Henderson-Hasselbalch es válida y precisa en cualquier punto de una titulación ácido-base, sin ninguna limitación de concentración.",
           "B": "Sí, porque el punto de equivalencia es precisamente la condición ideal para la que fue diseñada la ecuación de Henderson-Hasselbalch, más que para cualquier otro punto de la titulación.",
           "C": "No, porque la ecuación de Henderson-Hasselbalch nunca es válida en ningún punto de ninguna titulación ácido-base, sea cual sea el caso.",
-          "D": "No, porque cuando el ácido remanente es casi cero, el cociente base/ácido se dispara, y la ecuación predice un pH sin sentido; cerca del punto de equivalencia, el pH real depende de la hidrólisis de la base conjugada."
+          "D": "No, porque cuando el ácido remanente tiende a cero el cociente base/ácido se dispara y la ecuación da un pH sin sentido; cerca de la equivalencia el pH lo fija la hidrólisis."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "La ecuación de Henderson-Hasselbalch es una aproximación derivada para la región reguladora, donde las concentraciones de ácido y base conjugada son comparables; cerca del punto de equivalencia, el cociente se vuelve extremadamente grande y la ecuación deja de dar una predicción con sentido físico, porque allí el pH está determinado por la hidrólisis de la base conjugada, no incorporada en esta ecuación.",

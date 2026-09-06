@@ -13,12 +13,12 @@
         "evidencia": "5.1",
         "enunciado": "¿Cuál de las siguientes es la pregunta de investigación que este estudio, tal como está diseñado, puede responder de forma más directa?",
         "opciones": {
-          "A": "¿Existe una asociación entre el número de horas de trabajo remoto y el nivel de satisfacción laboral reportado por los empleados?",
+          "A": "¿Qué opinan los empleados de otras empresas de la misma industria sobre el trabajo remoto en general?",
           "B": "¿El trabajo remoto es la causa principal de todos los problemas de salud mental que puedan experimentar los empleados de esta empresa?",
           "C": "¿Debería esta empresa eliminar por completo la opción de trabajo remoto para todos sus empleados en el futuro?",
-          "D": "¿Qué opinan los empleados de otras empresas de la misma industria sobre el trabajo remoto en general?"
+          "D": "¿Existe una asociación entre el número de horas de trabajo remoto y el nivel de satisfacción laboral reportado por los empleados?"
         },
-        "respuesta_correcta": "A",
+        "respuesta_correcta": "D",
         "explicacion_correcta": "El diseño descrito está orientado específicamente a explorar una asociación estadística entre esas dos variables; ese es el tipo de pregunta que este diseño puede abordar directamente, a diferencia de preguntas sobre causalidad definitiva, decisiones de política empresarial, o poblaciones no incluidas en el estudio.",
         "distractores": {
           "B": {
@@ -29,7 +29,7 @@
             "explicacion": "Propone una pregunta de decisión de política empresarial, que va más allá de lo que un estudio observacional sobre asociación entre dos variables puede responder por sí solo.",
             "patron_trampa": "sobregeneralizacion_de_un_metodo"
           },
-          "D": {
+          "A": {
             "explicacion": "Propone una pregunta sobre una población completamente distinta (empleados de otras empresas) que no fue incluida en el estudio descrito.",
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
@@ -58,7 +58,7 @@
         "enunciado": "¿Cuál de las siguientes es una hipótesis plausible e investigable para explicar esta diferencia inesperada, que el investigador podría poner a prueba en un siguiente experimento?",
         "opciones": {
           "A": "El suelo de ambos invernaderos es completamente idéntico, por lo que la diferencia de altura debe atribuirse únicamente al azar en el crecimiento individual de cada planta.",
-          "B": "Podría existir una diferencia no detectada en la composición del suelo o el sustrato usado en cada invernadero (por ejemplo, en el contenido de algún nutriente), que valdría la pena analizar químicamente para comparar ambos suelos.",
+          "B": "Podría haber una diferencia no detectada en el suelo o el sustrato de cada invernadero, por ejemplo en algún nutriente; conviene analizar y comparar ambos suelos.",
           "C": "El experimento debe descartarse por completo, ya que cualquier diferencia inesperada entre dos grupos que deberían ser idénticos significa que el estudio no tiene ningún valor científico.",
           "D": "Las plantas del Invernadero 2 recibieron más ruido ambiental proveniente de un pasillo cercano, y el ruido es un factor conocido por acelerar directamente el crecimiento de las plantas."
         },
@@ -127,7 +127,7 @@
         "opciones": {
           "A": "¿Qué tratamiento farmacológico recibió cada paciente diagnosticado durante los meses que sí aparecen registrados en la tabla?",
           "B": "¿Cuántos habitantes tiene la ciudad en total, sin importar si estuvieron o no en riesgo de contraer la enfermedad respiratoria durante el año?",
-          "C": "¿Cuántos casos hubo en abril, mayo y junio, meses que no aparecen en la tabla? Sin esos datos no se sabe si la baja fue gradual o si hubo un repunte intermedio no registrado.",
+          "C": "¿Cuántos casos hubo en los meses ausentes de la tabla, abril a junio? Sin ellos no se sabe si la baja fue gradual o hubo un repunte.",
           "D": "¿Qué medidas de distanciamiento social u otras políticas de salud pública estuvieron vigentes en la ciudad durante esos meses del año?"
         },
         "respuesta_correcta": "C",
@@ -171,7 +171,7 @@
           "A": "¿Por qué las aves migran en general, considerando todos los factores posibles que podrían influir en cualquier especie de ave en cualquier parte del mundo?",
           "B": "¿Es la migración de las aves algo bueno o malo para la naturaleza en un sentido moral o ético?",
           "C": "¿Qué sienten las aves migratorias durante su viaje, en términos de experiencias subjetivas internas comparables a las emociones humanas?",
-          "D": "¿Existe una diferencia en la fecha promedio de inicio de la migración de una especie de ave local entre los años con inviernos más cálidos y los años con inviernos más fríos en esta región específica?"
+          "D": "¿La fecha promedio de inicio de la migración de una especie local difiere entre años de invierno cálido y años de invierno frío en esta región?"
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Esta pregunta especifica una especie concreta, una región específica, una variable medible (fecha de inicio de la migración) y una comparación clara, lo cual permite diseñar un estudio con datos concretos; las demás son demasiado amplias, subjetivas, o hacen referencia a experiencias internas no medibles.",
@@ -212,24 +212,24 @@
         "evidencia": "5.2",
         "enunciado": "¿Cuál de las siguientes es una pregunta o conjetura alternativa razonable que el investigador debería considerar antes de concluir que el café reduce directamente el riesgo de esta enfermedad?",
         "opciones": {
-          "A": "¿Podría ser que quienes consumen café también tengan otros hábitos de vida (como menor consumo de alcohol) que expliquen el menor riesgo observado?",
+          "A": "¿Existen estudios previos que hayan investigado la relación entre el consumo de té, en lugar de café, y esta misma enfermedad hepática?",
           "B": "¿Qué método usaron los investigadores para medir con precisión cuánto café consumía cada participante cada semana durante el estudio?",
-          "C": "¿Existen estudios previos que hayan investigado la relación entre el consumo de té, en lugar de café, y esta misma enfermedad hepática?",
+          "C": "¿Quienes toman café también tienen otros hábitos, como menos alcohol, que expliquen el menor riesgo observado?",
           "D": "¿Cuál es el costo promedio de un tratamiento para esta enfermedad hepática en los países donde se realizó el estudio observacional?"
         },
-        "respuesta_correcta": "A",
+        "respuesta_correcta": "C",
         "explicacion_correcta": "Antes de concluir que el café en sí mismo causa la reducción del riesgo observado, es razonable investigar si existen otras variables de confusión asociadas con el hábito de tomar café que podrían ser las verdaderas responsables de la asociación, un paso esencial antes de inferir causalidad.",
         "distractores": {
           "B": {
             "explicacion": "Pregunta por la precisión de la medición, un asunto metodológico real pero distinto de identificar una posible variable de confusión que explique la asociación observada.",
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           },
-          "C": {
-            "explicacion": "Pregunta por otra sustancia (el té) que no fue parte de este estudio, sin abordar la posible variable de confusión que explicaría la asociación observada con el café.",
-            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
-          },
           "D": {
             "explicacion": "Pregunta por un dato económico que no ayuda a explicar la asociación estadística observada entre el consumo de café y el riesgo de la enfermedad.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "A": {
+            "explicacion": "Pregunta por otra sustancia (el té) que no fue parte de este estudio, sin abordar la posible variable de confusión que explicaría la asociación observada con el café.",
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
@@ -257,7 +257,7 @@
         "enunciado": "¿Qué pregunta de investigación permitiría distinguir de forma más directa entre estas dos hipótesis alternativas?",
         "opciones": {
           "A": "¿Cuál es la temperatura promedio registrada en el bosque durante cada uno de los últimos 5 años, y ha variado de forma notable?",
-          "B": "¿Han cambiado, en los últimos 5 años, la población de depredadores y la disponibilidad de semillas y frutos en el bosque, y cuál de esos cambios se correlaciona más con la disminución de ardillas?",
+          "B": "¿Cambiaron la población de depredadores y la oferta de alimento en 5 años, y cuál se correlaciona más con la caída de ardillas?",
           "C": "¿Qué opinan los visitantes ocasionales del bosque sobre cuántas ardillas creen haber visto durante sus paseos en los últimos años?",
           "D": "¿Cuál de las dos hipótesis es más popular entre otros ecólogos que han estudiado bosques distintos, sin importar las condiciones específicas de este bosque?"
         },
@@ -301,7 +301,7 @@
         "opciones": {
           "A": "¿Cuántas horas a la semana dedican los estudiantes a actividades extracurriculares no académicas, como el deporte o la música?",
           "B": "¿A qué hora del día suelen los estudiantes presentar sus evaluaciones o exámenes más importantes durante el semestre?",
-          "C": "¿Existe relación entre las horas de sueño y el tiempo que los estudiantes dedican a estudiar, de modo que quienes duermen más también organicen mejor su tiempo en general?",
+          "C": "¿Hay relación entre dormir más y estudiar más, de modo que quienes duermen más también organicen mejor su tiempo?",
           "D": "¿Consumen los estudiantes bebidas con cafeína antes de dormir, y podría eso afectar la calidad reportada de su propio sueño?"
         },
         "respuesta_correcta": "C",
@@ -412,7 +412,7 @@
         "evidencia": "5.1",
         "enunciado": "Dada esta tabla de datos, ¿cuál sería la pregunta de seguimiento más relevante antes de describir con precisión cómo cambió la velocidad de la reacción entre los minutos 10 y 30?",
         "opciones": {
-          "A": "¿Cómo cambió la concentración entre los minutos 10 y 30 (por ejemplo, en el 15 o 20)? Sin esos datos no se sabe si la baja fue gradual o si ocurrió en una parte específica del intervalo.",
+          "A": "¿Cómo cambió la concentración entre los minutos 10 y 30? Sin datos intermedios no se sabe si la baja fue gradual o brusca.",
           "B": "¿Qué otras sustancias o productos se formaron simultáneamente durante la reacción, además del reactivo cuya concentración fue medida?",
           "C": "¿A qué temperatura exacta se mantuvo el sistema de reacción durante todo el experimento, desde el minuto 0 hasta el minuto 30?",
           "D": "¿Qué instrumento se utilizó exactamente para medir la concentración del reactivo en cada uno de los tiempos registrados en la tabla?"
@@ -457,7 +457,7 @@
         "enunciado": "¿Cuál de las siguientes preguntas está formulada de una manera que permite diseñar un experimento de laboratorio concreto para responderla, a diferencia de las demás, que son demasiado amplias o no medibles directamente?",
         "opciones": {
           "A": "¿Por qué existe la solubilidad como fenómeno general en el universo, considerando todos los tipos posibles de sustancias y disolventes conocidos y por conocer?",
-          "B": "¿Cuál es la solubilidad (en gramos por 100 mL) del cloruro de potasio (KCl) en agua a tres temperaturas específicas (0 °C, 25 °C y 50 °C), medida experimentalmente en el laboratorio?",
+          "B": "¿Cuál es la solubilidad del KCl en agua, en g/100 mL, a 0 °C, 25 °C y 50 °C, medida en el laboratorio?",
           "C": "¿Es la solubilidad de una sustancia algo estéticamente agradable de observar en un experimento de laboratorio de química general?",
           "D": "¿Qué sienten las moléculas de un soluto al disolverse en un disolvente, en términos de una experiencia subjetiva comparable a la de un ser humano?"
         },
@@ -549,7 +549,7 @@
           "A": "¿Cuál es el nombre sistemático (IUPAC) completo y exacto del producto final obtenido al terminar esta reacción orgánica?",
           "B": "¿Qué color tiene el producto final obtenido, y podría ese color ayudar a distinguir entre los dos mecanismos propuestos por el estudiante?",
           "C": "¿Cuántos gramos en total del producto final se obtuvieron, sin importar cuál fue su configuración estereoquímica específica resultante?",
-          "D": "Al analizar el producto con técnicas que distinguen configuraciones espaciales, ¿se obtiene una mezcla de ambas configuraciones posibles, o predominantemente una sola configuración específica?"
+          "D": "Al analizar el producto con técnicas que distinguen la configuración espacial, ¿sale una mezcla de las dos o predomina una?"
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Dado que los dos mecanismos propuestos predicen resultados distintos específicamente en términos de la configuración estereoquímica del producto, la pregunta que evalúa directamente qué configuración(es) se observan realmente en el producto es la que permite distinguir entre ambos mecanismos de forma más directa.",
@@ -616,7 +616,7 @@
         "evidencia": "5.1",
         "enunciado": "¿Cuál sería la pregunta de seguimiento más relevante antes de asumir que esta misma tendencia de aumento de velocidad se mantiene en cualquier rango de temperatura?",
         "opciones": {
-          "A": "¿Qué sucede con la velocidad por encima de 40 °C o por debajo de 20 °C, un rango no medido, donde la tendencia podría no mantenerse?",
+          "A": "¿Qué pasa con la velocidad fuera del rango medido, por encima de 40 °C o por debajo de 20 °C?",
           "B": "¿Qué concentración inicial de reactivo se usó en cada uno de los tres ensayos realizados a las distintas temperaturas medidas?",
           "C": "¿Se ha observado esta misma reacción en otros laboratorios de otras universidades, usando los mismos tres niveles de temperatura?",
           "D": "¿Cuál fue la presión atmosférica exacta registrada en el laboratorio durante cada uno de los tres ensayos de temperatura?"
@@ -705,7 +705,7 @@
         "evidencia": "5.1",
         "enunciado": "¿Es correcta esta identificación del objetivo del protocolo?",
         "opciones": {
-          "A": "No es correcta: comparar el tiempo de enturbiamiento de la muestra contra el de un aceite puro certificado evalúa la pureza del aceite (si fue mezclado o adulterado con otros aceites), no el rendimiento del proceso de extracción, que exigiría medir la cantidad de aceite obtenida en relación con la cantidad de aceitunas procesadas.",
+          "A": "No: comparar el enturbiamiento contra un aceite puro certificado mide la pureza, si fue adulterado, no el rendimiento de extracción, que exigiría pesar el aceite frente a las aceitunas.",
           "B": "No es correcta: el protocolo en realidad busca determinar la concentración exacta de aceite en la muestra, no su rendimiento de extracción.",
           "C": "Sí es correcta, porque medir cuánto tarda una muestra en enturbiarse es la forma estándar de determinar el rendimiento de cualquier proceso de extracción de aceite.",
           "D": "No es correcta: el objetivo real del protocolo es determinar el punto de fusión exacto del aceite de oliva, ya que el enfriamiento controlado es la técnica estándar para medir puntos de fusión."

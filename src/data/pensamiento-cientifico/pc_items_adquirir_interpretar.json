@@ -13,12 +13,12 @@
         "evidencia": "1.2",
         "enunciado": "Según la gráfica, ¿en qué intervalo de tiempo fue mayor la tasa de crecimiento (bacterias por hora) de la colonia?",
         "opciones": {
-          "A": "Entre las horas 2 y 6, porque en ese tramo la curva tiene la pendiente más pronunciada, es decir, el mayor cambio de bacterias por hora.",
+          "A": "Es la misma en todo el experimento, porque el número de bacterias aumenta de forma constante a lo largo de las 10 horas.",
           "B": "Entre las horas 0 y 2, porque es el inicio del cultivo, cuando hay más nutrientes disponibles para que las bacterias se reproduzcan.",
           "C": "Entre las horas 6 y 10, porque es cuando se registra el mayor número total acumulado de bacterias en todo el cultivo.",
-          "D": "Es la misma en todo el experimento, porque el número de bacterias aumenta de forma constante a lo largo de las 10 horas."
+          "D": "Entre las horas 2 y 6, porque en ese tramo la curva tiene su pendiente más pronunciada."
         },
-        "respuesta_correcta": "A",
+        "respuesta_correcta": "D",
         "explicacion_correcta": "La tasa de crecimiento (cambio de población por unidad de tiempo) se lee en una gráfica como la pendiente de la curva; el intervalo entre las horas 2 y 6 es donde la curva sube más pronunciadamente, es decir, donde ocurre el mayor cambio de número de bacterias por cada hora, independientemente de que el número total más alto se alcance después.",
         "distractores": {
           "B": {
@@ -29,7 +29,7 @@
             "explicacion": "Confunde el valor más alto acumulado (el número total de bacterias) con la tasa de cambio; en esa fase final la curva es plana, lo que indica que la población casi no cambia por hora, aunque sea el momento con más bacterias en total.",
             "patron_trampa": "lectura_invertida_grafica"
           },
-          "D": {
+          "A": {
             "explicacion": "Asume que la tasa de crecimiento es constante solo porque el número de bacterias nunca disminuye, confundiendo un aumento sostenido (monotonía) con una relación de proporcionalidad directa entre tiempo y número de bacterias.",
             "patron_trampa": "proporcionalidad_directa_vs_inversa"
           }
@@ -116,7 +116,7 @@
         "enunciado": "Un compañero afirma que la forma de esta gráfica significa que 'a mayor longitud, siempre mayor periodo, en una proporción directa exacta (si se duplica la longitud, se duplica el periodo)'. ¿Es correcta esta interpretación de la gráfica?",
         "opciones": {
           "A": "Sí, porque la gráfica muestra que el periodo siempre aumenta cuando la longitud aumenta, lo cual confirma una proporcionalidad directa entre ambas variables.",
-          "B": "No, porque aunque el periodo aumenta con la longitud, la forma curva (no una línea recta) indica que la relación no es de proporcionalidad directa simple; duplicar la longitud no duplica el periodo.",
+          "B": "No, porque la forma curva, y no una recta, indica que la relación no es de proporcionalidad directa: duplicar la longitud no duplica el periodo.",
           "C": "No, porque el periodo en realidad disminuye a longitudes muy grandes, aunque la gráfica no alcance a mostrar ese descenso.",
           "D": "Sí, porque cualquier gráfica que sea creciente de izquierda a derecha representa necesariamente una relación de proporcionalidad directa entre las dos variables."
         },
@@ -205,7 +205,7 @@
         "opciones": {
           "A": "Que la población creció de forma perfectamente constante entre 2010 y 2020, incluyendo el año 2015.",
           "B": "Que la población disminuyó en algún momento entre 2010 y 2020, aunque el dato final sea más alto.",
-          "C": "Que la población fue mayor en 2020 que en 2010, aunque no se sabe con precisión cómo cambió durante los años intermedios no registrados.",
+          "C": "Que la población fue mayor en 2020 que en 2010, pero no cómo cambió en los años intermedios no registrados.",
           "D": "Que la población alcanzó su punto máximo exactamente en el año 2015, aunque ese año no fue registrado en la tabla."
         },
         "respuesta_correcta": "C",
@@ -273,7 +273,7 @@
           "A": "El Corredor 1, porque en el minuto 2 su línea está por encima de la del Corredor 2, es decir, va más adelantado en la carrera.",
           "B": "Ambos corredores tienen exactamente la misma velocidad en el minuto 2, porque sus dos líneas todavía no se han cruzado.",
           "C": "No se puede determinar la velocidad de ningún corredor a partir de esta gráfica, solo se puede leer la distancia recorrida.",
-          "D": "El Corredor 2, porque su línea tiene una pendiente más pronunciada, es decir, recorre más distancia por unidad de tiempo en ese tramo."
+          "D": "El Corredor 2, porque su línea tiene mayor pendiente, es decir, recorre más distancia por unidad de tiempo en ese tramo."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "La velocidad en una gráfica de distancia vs tiempo se lee como la pendiente de la línea, no como la posición vertical en ese instante; aunque el Corredor 1 esté 'adelante' (más alto) en el minuto 2 por su ventaja inicial, el Corredor 2 tiene una pendiente más pronunciada en ese tramo, lo que indica que se mueve más rápido en ese momento, y por eso eventualmente lo alcanza y supera.",
@@ -387,25 +387,25 @@
         "evidencia": "1.3",
         "enunciado": "¿Qué explica mejor esta discrepancia?",
         "opciones": {
-          "A": "Es probable que las cintas métricas tengan un error sistemático de fabricación (una escala mal calibrada), ya que la alta coincidencia entre las 20 mediciones no garantiza que el valor sea correcto.",
+          "A": "El valor de 148,5 cm del especialista es menos confiable, porque una sola medición nunca puede ser más precisa que el promedio de 20 mediciones independientes.",
           "B": "Los 20 estudiantes probablemente cometieron el mismo error aleatorio de lectura, y por pura coincidencia estadística todos leyeron un valor similar, distinto al real.",
-          "C": "El valor de 148,5 cm del especialista es menos confiable, porque una sola medición nunca puede ser más precisa que el promedio de 20 mediciones independientes.",
+          "C": "Es probable que las cintas tengan un error sistemático de calibración: la alta coincidencia entre las 20 medidas no garantiza que el valor sea correcto.",
           "D": "La mesa probablemente cambió de tamaño físico entre el momento en que los estudiantes la midieron y el momento en que el especialista la midió después."
         },
-        "respuesta_correcta": "A",
+        "respuesta_correcta": "C",
         "explicacion_correcta": "Que las 20 mediciones de los estudiantes sean muy parecidas entre sí (alta precisión, poca dispersión) no garantiza que sean cercanas al valor real (exactitud); si todas usan el mismo tipo de instrumento con un error sistemático, es esperable que las mediciones sean consistentes entre sí pero consistentemente alejadas del valor certificado, tal como ocurre aquí.",
         "distractores": {
           "B": {
             "explicacion": "Un error verdaderamente aleatorio no produciría, por pura coincidencia, que 20 mediciones independientes coincidan tan cercanamente entre sí; esa consistencia es más compatible con un error sistemático compartido que con 20 coincidencias aleatorias independientes.",
             "patron_trampa": "incertidumbre_mal_atribuida"
           },
-          "C": {
-            "explicacion": "Asume que promediar más mediciones siempre produce un resultado más confiable, sin considerar que si todas comparten el mismo error sistemático, promediarlas no corrige ese sesgo; el número de mediciones reduce el error aleatorio, no el sistemático.",
-            "patron_trampa": "confusion_exactitud_precision"
-          },
           "D": {
             "explicacion": "Propone una explicación sin respaldo ni plausibilidad física para un objeto sólido como una mesa en un periodo tan corto, ignorando la explicación mucho más simple de un instrumento mal calibrado.",
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
+          },
+          "A": {
+            "explicacion": "Asume que promediar más mediciones siempre produce un resultado más confiable, sin considerar que si todas comparten el mismo error sistemático, promediarlas no corrige ese sesgo; el número de mediciones reduce el error aleatorio, no el sistemático.",
+            "patron_trampa": "confusion_exactitud_precision"
           }
         },
         "dificultad": "alta",
@@ -523,8 +523,8 @@
         "enunciado": "¿Este único dato atípico es evidencia suficiente para rechazar la tendencia general observada en los otros 29 participantes?",
         "opciones": {
           "A": "Sí, porque un solo dato que contradice la tendencia es suficiente para invalidar cualquier conclusión general sobre la relación entre sueño y tiempo de reacción.",
-          "B": "No necesariamente, porque un solo caso atípico (que podría deberse a otros factores no controlados, como el estado de salud de ese participante ese día) no es evidencia suficiente para descartar una tendencia clara observada en el resto de los datos.",
-          "C": "Sí, porque si el sueño realmente causara el tiempo de reacción de forma determinante, no deberían existir excepciones; este caso atípico demuestra que la relación observada es solo una coincidencia estadística sin ninguna causa real.",
+          "B": "No necesariamente, porque un caso atípico, que puede deberse a factores no controlados, no basta para descartar una tendencia clara en el resto d",
+          "C": "Sí, porque si el sueño causara el tiempo de reacción de forma determinante no habría excepciones, así que este caso prueba que la relación es solo coincidencia.",
           "D": "No, porque los datos atípicos nunca deben tenerse en cuenta al interpretar una tendencia, sin importar cuántos participantes sigan el patrón general."
         },
         "respuesta_correcta": "B",
@@ -700,7 +700,7 @@
         "opciones": {
           "A": "Sí, porque los tres valores muestran un aumento claro entre 1990 y 2010, lo cual demuestra un aumento constante año a año.",
           "B": "Sí, porque estos datos demuestran directamente que el cambio climático global es la causa específica del aumento de precipitación observado en esta ciudad en particular.",
-          "C": "No, porque con solo tres puntos de datos espaciados una década entre sí, no se puede saber si el aumento fue realmente constante año a año, o si hubo fluctuaciones durante los años no registrados entre esas mediciones.",
+          "C": "No, porque con solo tres puntos separados una década no se puede saber si el aumento fue constante año a año o si hubo fluctuaciones intermedias.",
           "D": "Sí, porque cualquier tendencia observada entre solo dos o tres puntos de datos es suficiente para generalizar el comportamiento de todos los años intermedios."
         },
         "respuesta_correcta": "C",
@@ -766,7 +766,7 @@
           "A": "Sí, porque la ley de Hooke es una ley física universal que se cumple exactamente para cualquier resorte, sin importar cuánto se estire.",
           "B": "Sí, porque si el ajuste lineal fue muy bueno entre 0 y 8 cm, matemáticamente debe seguir siendo válido para cualquier valor de estiramiento, sin límite.",
           "C": "No, porque la constante k = 50 N/m fue calculada de forma incorrecta a partir de los datos que solo llegan hasta los 8 cm de estiramiento.",
-          "D": "No necesariamente, porque los datos solo confirman el comportamiento lineal dentro del rango medido; a 50 cm el resorte probablemente superó su límite elástico."
+          "D": "No necesariamente: los datos solo confirman la linealidad dentro del rango medido, y a 50 cm el resorte pudo superar su límite elástico."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "La ley de Hooke describe el comportamiento elástico de un resorte solo dentro de su rango elástico; los datos disponibles solo confirman ese comportamiento lineal hasta 8 cm, y extrapolar la misma relación a 50 cm (más de 6 veces el rango medido) ignora que el resorte probablemente ya se deformó permanentemente mucho antes de llegar a esa longitud, saliendo del dominio de validez del modelo.",
@@ -856,7 +856,7 @@
         "evidencia": "1.1",
         "enunciado": "Un estudiante concluye que, en ese tramo, el bloque debe estar en reposo (sin moverse). ¿Es correcta esta conclusión?",
         "opciones": {
-          "A": "No, porque fuerzas balanceadas (fuerza neta cero) implican aceleración cero, es decir, velocidad constante; el bloque puede seguir moviéndose, no necesariamente estar en reposo.",
+          "A": "No, porque fuerza neta cero implica aceleración cero, es decir velocidad constante: el bloque puede seguir en movimiento, no en reposo.",
           "B": "Sí, porque si dos fuerzas se cancelan exactamente, el objeto sobre el que actúan no puede tener ningún tipo de movimiento en ese instante.",
           "C": "No, porque en la práctica las fuerzas de fricción nunca pueden estar perfectamente balanceadas en ninguna situación real de movimiento.",
           "D": "Sí, porque la fuerza neta cero es matemáticamente equivalente a una velocidad de cero según las leyes de Newton."
@@ -901,7 +901,7 @@
         "enunciado": "Un estudiante concluye que estas diferencias se deben a que 'los termómetros de las estaciones son imprecisos y no miden bien la temperatura'. ¿Es esta la explicación más adecuada para las diferencias observadas?",
         "opciones": {
           "A": "Sí, porque cualquier diferencia entre mediciones de temperatura hechas en el mismo momento solo puede explicarse por errores del instrumento.",
-          "B": "No necesariamente, porque las diferencias pueden reflejar variabilidad real del ambiente (microclimas dentro de la ciudad), no necesariamente imprecisión de los termómetros certificados.",
+          "B": "No necesariamente, porque las diferencias pueden reflejar variabilidad real del ambiente, como microclimas, y no imprecisión de termómetros certificados.",
           "C": "Sí, porque si los termómetros estuvieran bien calibrados, todas las estaciones deberían registrar exactamente el mismo valor de temperatura en todo momento.",
           "D": "No, porque la temperatura ambiente de una ciudad siempre es exactamente uniforme en todos sus puntos en un instante dado."
         },
@@ -973,7 +973,7 @@
         "opciones": {
           "A": "El punto P, porque es donde comienza la valoración y el ácido está en su forma más concentrada.",
           "B": "El punto Q, porque es la zona donde el pH cambia menos, lo que indica que la reacción ha llegado a su estado más estable.",
-          "C": "El punto R, porque el punto de equivalencia se identifica por el cambio brusco y pronunciado de pH en un intervalo pequeño de volumen añadido.",
+          "C": "El punto R, porque el punto de equivalencia se identifica por el cambio brusco de pH en un intervalo pequeño de volumen.",
           "D": "El punto S, porque es donde se alcanza el valor de pH más alto registrado en toda la curva."
         },
         "respuesta_correcta": "C",
@@ -1107,7 +1107,7 @@
           "A": "Sí, porque una tendencia lineal observada en un rango de datos siempre se puede extender matemáticamente a cualquier temperatura, sin ninguna limitación física.",
           "B": "Sí, porque la solubilidad de cualquier sal en agua es un fenómeno que se comporta de forma idéntica sin importar la temperatura o el estado físico del agua.",
           "C": "No, porque los datos experimentales entre 0 y 80 °C contienen errores de medición que invalidan cualquier extrapolación posterior.",
-          "D": "No necesariamente, porque a 150 °C, bajo presión atmosférica normal, el agua ya no existe como líquido (hierve a 100 °C), por lo que el experimento de solubilidad en agua líquida no se puede realizar en esas condiciones."
+          "D": "No necesariamente: a 150 °C y presión normal el agua ya hirvió, a 100 °C, así que no hay agua líquida en la que medir solubilidad."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Los datos de solubilidad fueron medidos únicamente entre 0 y 80 °C, un rango donde el agua permanece líquida a presión atmosférica normal; a 150 °C, bajo esas mismas condiciones de presión, el agua ya se encuentra en estado gaseoso, por lo que el concepto mismo de 'solubilidad en agua líquida' pierde sentido en esas condiciones, y la extrapolación de la tendencia lineal más allá del rango medido no es válida.",
@@ -1290,7 +1290,7 @@
         "enunciado": "En este experimento, ¿cuál es la variable independiente y cuál es la variable dependiente?",
         "opciones": {
           "A": "La variable independiente es la velocidad inicial de la reacción, y la variable dependiente es la concentración de A, porque la velocidad determina cuánta cantidad de A se debe usar.",
-          "B": "La variable independiente es la concentración de A, porque es la que el investigador decidió cambiar deliberadamente entre los tres ensayos; la variable dependiente es la velocidad inicial, porque es la que se midió como resultado de ese cambio.",
+          "B": "La independiente es la concentración de A, porque el investigador la fijó en tres valores; la dependiente es la velocidad inicial, que se midió como resultado.",
           "C": "Tanto la concentración de A como la velocidad inicial son variables independientes, porque ambas cambian de un ensayo a otro.",
           "D": "No se puede determinar cuál variable es independiente y cuál es dependiente sin conocer la ecuación de velocidad completa de la reacción."
         },
@@ -1468,7 +1468,7 @@
           "A": "Sí, porque más electrones siempre ocupan más espacio alrededor del núcleo, sin importar otros factores del átomo.",
           "B": "Sí, porque la gráfica probablemente invirtió los ejes X e Y, y en realidad el radio atómico debería aumentar con el número atómico.",
           "C": "No, porque el radio atómico de los elementos no guarda ninguna relación con el número atómico dentro de un mismo periodo.",
-          "D": "No, porque dentro de un mismo periodo la carga nuclear efectiva también aumenta y atrae con más fuerza los electrones de valencia, contrayendo el átomo en vez de expandirlo."
+          "D": "No, porque en un periodo la carga nuclear efectiva sube y contrae el átomo al atraer más fuerte los electrones de valencia."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Dentro de un mismo periodo, aunque el número de protones y electrones aumenta de izquierda a derecha, todos los electrones de valencia se ubican aproximadamente en el mismo nivel de energía principal; el aumento simultáneo de la carga nuclear incrementa la atracción efectiva del núcleo sobre esos electrones, superando el efecto de tener más electrones, lo que provoca una contracción neta del radio atómico a lo largo del periodo, tal como muestra correctamente la gráfica.",
@@ -1553,8 +1553,8 @@
         "evidencia": "1.2",
         "enunciado": "¿Qué se puede inferir sobre la presencia de estos grupos funcionales en cada compuesto?",
         "opciones": {
-          "A": "El compuesto 1 probablemente contiene un grupo carbonilo (C=O), porque su banda de absorción cae dentro del rango típico de esa vibración; el compuesto 2 probablemente contiene un grupo hidroxilo (O-H), porque su banda ancha cae dentro del rango típico de esa vibración.",
-          "B": "El compuesto 1 probablemente contiene un grupo hidroxilo (O-H), y el compuesto 2 probablemente contiene un grupo carbonilo (C=O), ya que ambos rangos de absorción mencionados se pueden intercambiar sin problema entre los dos grupos funcionales.",
+          "A": "El compuesto 1 probablemente tiene un carbonilo, C=O, porque su banda cae en el rango típico de esa vibración; el compuesto 2, un hidroxilo, O-H, por la misma razón.",
+          "B": "El compuesto 1 tiene un hidroxilo, O-H, y el compuesto 2 un carbonilo, C=O, porque los dos rangos de absorción son intercambiables entre ambos grupos.",
           "C": "No se puede inferir la presencia de ningún grupo funcional a partir de la posición de una banda de absorción, solo a partir de su intensidad relativa.",
           "D": "El compuesto que tenga la banda más intensa (más alta) contiene mayor cantidad de esa sustancia, independientemente de en qué posición del espectro se encuentre la banda."
         },
@@ -1763,7 +1763,7 @@
         "opciones": {
           "A": "Sí, porque una curva de calibración lineal siempre se puede extender matemáticamente a cualquier concentración, sin ninguna limitación.",
           "B": "Sí, porque la ley de Beer-Lambert garantiza que la absorbancia es proporcional a la concentración para cualquier valor, sin excepciones.",
-          "C": "No necesariamente, porque la curva de calibración solo fue construida y verificada dentro del rango de 0,00 a 0,05 M; a concentraciones más altas, la relación entre absorbancia y concentración podría dejar de ser lineal.",
+          "C": "No necesariamente: la curva solo se verificó hasta 0,05 M, y a concentraciones más altas la relación absorbancia-concentración puede dejar de ser lineal.",
           "D": "No, porque cualquier valor de absorbancia que no corresponda exactamente a uno de los estándares medidos debe considerarse un error de medición y debe descartarse."
         },
         "respuesta_correcta": "C",
@@ -1846,7 +1846,7 @@
           "A": "Sí, porque cualquier par de variables que cambien juntas en un experimento debe ser, por definición, directamente proporcional entre sí.",
           "B": "Sí, porque los tres ensayos muestran que a mayor volumen, se registran distintos valores de presión, lo que confirma la proporcionalidad directa.",
           "C": "No se puede determinar el tipo de relación entre presión y volumen sin conocer con exactitud la temperatura del gas en cada ensayo realizado.",
-          "D": "No, porque a mayor volumen la presión disminuye, y el producto P×V se mantiene aproximadamente constante (8,0) en los tres ensayos, lo característico de una relación inversa, no directa."
+          "D": "No, porque a mayor volumen la presión baja y el producto P×V se mantiene casi constante en 8,0, lo característico de una relación inversa."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Al calcular el producto P × V en cada ensayo (4,0×2,0=8,0; 2,0×4,0=8,0; 1,0×8,0=8,0), se observa que este producto permanece aproximadamente constante, lo cual es la firma característica de una relación de proporcionalidad inversa (P·V = k), no directa; en una relación directamente proporcional, ambas variables aumentarían o disminuirían juntas, lo contrario de lo que muestran estos datos.",
@@ -1915,10 +1915,10 @@
         "evidencia": "1.1",
         "enunciado": "¿Qué medida representa mejor el tiempo 'típico' de entrega en esta zona: la media o la mediana? Calcule ambas.",
         "opciones": {
-          "A": "La mediana (20 minutos) representa mejor el tiempo típico de entrega. La media es 173/5 = 34,6 minutos, un valor inflado por el tiempo atípico de 95 minutos causado por el accidente; la mediana, al ser el valor central de los datos ordenados (18, 19, 20, 21, 95), no se ve afectada de la misma forma por ese valor extremo.",
+          "A": "La mediana, 20 minutos. La media es 173/5 = 34,6 y queda inflada por el dato atípico de 95; la mediana, valor central de los datos ordenados, no.",
           "B": "La media (34,6 minutos) siempre representa mejor el desempeño típico de un conjunto de datos, porque a diferencia de la mediana, usa el valor exacto de cada observación en su cálculo.",
           "C": "La mediana es 19,5 minutos, calculada promediando los dos valores centrales del conjunto (19 y 20); esta cifra representa mejor el tiempo típico que la media de 34,6 minutos.",
-          "D": "Ninguna de las dos medidas es confiable en este caso: la diferencia tan grande entre la media (34,6) y la mediana (20) indica que los datos fueron mal recolectados y deben descartarse por completo."
+          "D": "Ninguna es confiable: la diferencia entre media, 34,6, y mediana, 20, indica que los datos se recolectaron mal y deben descartarse."
         },
         "respuesta_correcta": "A",
         "explicacion_correcta": "La media es (18+19+20+21+95)/5 = 173/5 = 34,6 minutos, un valor inflado por el pedido atípico de 95 minutos; la mediana, con los datos ya ordenados (18, 19, 20, 21, 95), es el valor central único, 20 minutos, que representa mucho mejor el tiempo típico de entrega en esta zona.",
@@ -1958,7 +1958,7 @@
         "evidencia": "1.2",
         "enunciado": "¿Qué forma de representación (tabla o gráfica, y de qué tipo) conviene para cada producto, y por qué?",
         "opciones": {
-          "A": "Para el reporte con cifras exactas por municipio que otras instituciones deben citar, conviene una tabla, porque permite leer valores exactos sin ambigüedad. Para la infografía que muestra la evolución semanal durante 3 meses, conviene una gráfica de líneas, porque comunica mejor una tendencia numérica en el tiempo para un público general, aunque sacrifique algo de precisión.",
+          "A": "Una tabla para el reporte, porque da los valores exactos y citables; una gráfica de líneas para la infografía, porque comunica mejor la tendencia semanal a un público general.",
           "B": "Para ambos productos conviene usar gráficas, porque las gráficas siempre comunican la información de forma más clara y visual que las tablas, sin importar el propósito de cada producto.",
           "C": "Para ambos productos conviene usar tablas, porque las tablas son inherentemente más rigurosas y científicas que cualquier tipo de gráfica.",
           "D": "Para la infografía de evolución semanal conviene un histograma, ya que un histograma es la forma estándar de representar cualquier tipo de dato numérico."

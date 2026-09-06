@@ -47,12 +47,12 @@
         "evidencia": "2.1",
         "enunciado": "¿Es esta una conclusión adecuada a partir de estos datos?",
         "opciones": {
-          "A": "No, porque es más probable que el tamaño del incendio sea una variable de confusión: los incendios más grandes requieren más bomberos Y producen más daño de forma independiente, sin que el número de bomberos sea la causa del daño.",
+          "A": "Sí, porque el agua usada para combatir incendios es conocida por causar daños adicionales a las estructuras, así que esta explicación causal debe ser correcta sin necesidad de más análisis.",
           "B": "Sí, porque los datos muestran una asociación clara entre el número de bomberos y el daño, y cualquier asociación estadística clara implica necesariamente una relación de causa y efecto.",
           "C": "No, porque en realidad no existe ninguna asociación entre el número de bomberos enviados y el daño material observado en los incendios.",
-          "D": "Sí, porque el agua usada para combatir incendios es conocida por causar daños adicionales a las estructuras, así que esta explicación causal debe ser correcta sin necesidad de más análisis."
+          "D": "No, porque el tamaño del incendio es una variable de confusión: los incendios grandes exigen más bomberos Y causan más daño por sí solos."
         },
-        "respuesta_correcta": "A",
+        "respuesta_correcta": "D",
         "explicacion_correcta": "El tamaño o la gravedad inicial del incendio es una variable de confusión plausible: los incendios más grandes o graves, por su propia naturaleza, requieren desplegar más bomberos Y causan más daño material, independientemente de cuántos bomberos se envíen; esta variable de confusión puede explicar la asociación observada sin que exista una relación causal directa.",
         "distractores": {
           "B": {
@@ -63,7 +63,7 @@
             "explicacion": "Niega la existencia de la asociación descrita explícitamente en el enunciado, contradiciendo directamente los datos presentados en el estudio.",
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           },
-          "D": {
+          "A": {
             "explicacion": "Aunque el agua de las mangueras puede causar cierto daño, aceptar esta explicación causal específica sin descartar otras explicaciones plausibles (como el tamaño del incendio) es una conclusión apresurada que no está completamente respaldada solo por esta asociación estadística.",
             "patron_trampa": "correlacion_causalidad"
           }
@@ -114,7 +114,7 @@
         "enunciado": "¿Qué problema metodológico afecta esta comparación?",
         "opciones": {
           "A": "Ninguno; comparar el promedio final de pérdida de peso entre dos grupos de personas completamente distintas siempre permite concluir con total certeza cuál de los dos programas de entrenamiento es realmente más efectivo.",
-          "B": "El estudio compara grupos de personas distintas con diferencias preexistentes de edad y peso inicial, en lugar de controlar esas diferencias; esto introduce variables de confusión no controladas que pueden explicar el resultado.",
+          "B": "El estudio compara personas con diferencias previas de edad y peso inicial en vez de controlarlas, lo que introduce variables de confusión no controladas.",
           "C": "El problema es que el gimnasio A probablemente manipuló o alteró deliberadamente sus datos de seguimiento para que sus resultados finales se vieran mejor que los obtenidos por el gimnasio B en el mismo periodo.",
           "D": "El problema es que un periodo de apenas 3 meses es demasiado corto para medir de forma confiable cualquier tipo de pérdida de peso sostenida en un programa de entrenamiento físico prolongado."
         },
@@ -203,7 +203,7 @@
           "A": "Sí, porque los 5 voluntarios mejoraron su puntaje, y una mejora observada en el 100 % de los participantes es evidencia suficiente para cualquier afirmación sobre el producto.",
           "B": "Sí, porque cualquier estudio, sin importar su tamaño de muestra o su diseño metodológico, respalda afirmaciones publicitarias sobre un producto.",
           "C": "No, porque 2 semanas es un periodo demasiado corto para que cualquier suplemento tenga algún efecto biológico medible en el cuerpo.",
-          "D": "No, porque la muestra es muy pequeña (5 personas) y no hay grupo control; la mejora podría deberse al placebo, a la práctica repetida, o al azar, no necesariamente al suplemento."
+          "D": "No, porque la muestra es muy pequeña, 5 personas, y no hay grupo control; la mejora pudo ser placebo, práctica repetida o azar."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Un estudio con una muestra muy pequeña y sin grupo control no permite descartar explicaciones alternativas para la mejora observada, como el efecto placebo, el efecto de práctica o la variabilidad natural; la frase 'clínicamente comprobado' sugiere un nivel de evidencia que este diseño experimental específico no proporciona.",
@@ -244,25 +244,25 @@
         "evidencia": "2.1",
         "enunciado": "¿Qué problema tiene el razonamiento de esta persona?",
         "opciones": {
-          "A": "Usa un caso individual (anecdótico) como si refutara una tendencia estadística poblacional; un caso no invalida una relación de riesgo expresada en probabilidades, no en certezas para cada persona.",
+          "A": "El problema es que la edad de 95 años de la abuela probablemente fue un error de registro, ya que nadie que fume puede vivir tantos años.",
           "B": "Ninguno; si una persona específica vivió muchos años a pesar de fumar, esto demuestra que los estudios epidemiológicos sobre el tabaquismo están equivocados.",
-          "C": "El problema es que la edad de 95 años de la abuela probablemente fue un error de registro, ya que nadie que fume puede vivir tantos años.",
+          "C": "Usa un caso individual como si refutara una tendencia estadística poblacional; un caso no invalida un riesgo expresado en probabilidades, no en certezas.",
           "D": "El problema es que los estudios epidemiológicos sobre el tabaquismo no consideran ningún caso individual, por lo que no son aplicables a ninguna persona en particular."
         },
-        "respuesta_correcta": "A",
+        "respuesta_correcta": "C",
         "explicacion_correcta": "Las relaciones de riesgo epidemiológico se expresan en términos de probabilidades y promedios poblacionales, no como certezas absolutas para cada individuo; que exista un caso excepcional es estadísticamente esperable dentro de una población grande, y no contradice ni invalida la tendencia general observada en los estudios.",
         "distractores": {
           "B": {
             "explicacion": "Trata un solo caso anecdótico como si tuviera el mismo peso evidencial que estudios epidemiológicos a gran escala, invirtiendo la relación adecuada entre evidencia individual y evidencia estadística poblacional.",
             "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           },
-          "C": {
-            "explicacion": "Asume, sin ninguna base, que el caso descrito debe ser falso simplemente porque contradice la tendencia general, en lugar de reconocer que los casos excepcionales son estadísticamente esperables.",
-            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
-          },
           "D": {
             "explicacion": "Malinterpreta lo que significa una relación de riesgo poblacional, sugiriendo que no aplica a ningún individuo, cuando en realidad sí es relevante para estimar el riesgo relativo de cualquier persona.",
             "patron_trampa": "sobregeneralizacion_de_un_metodo"
+          },
+          "A": {
+            "explicacion": "Asume, sin ninguna base, que el caso descrito debe ser falso simplemente porque contradice la tendencia general, en lugar de reconocer que los casos excepcionales son estadísticamente esperables.",
+            "patron_trampa": "evidencia_insuficiente_o_irrelevante"
           }
         },
         "dificultad": "media",
@@ -289,7 +289,7 @@
         "enunciado": "¿Está esta afirmación respaldada adecuadamente por los resultados de la prueba?",
         "opciones": {
           "A": "Sí, porque una preferencia de 7 sobre 10 catadores es una mayoría clara y suficiente para respaldar cualquier afirmación general sobre la superioridad de un producto.",
-          "B": "No, porque la prueba solo evaluó preferencia de sabor en un grupo pequeño; eso no dice nada sobre otros aspectos, como valor nutricional, precio, o preferencia de la población general.",
+          "B": "No, porque la prueba solo midió preferencia de sabor en un grupo pequeño; no dice nada de nutrición, precio ni de la población general.",
           "C": "No, porque una prueba de sabor a ciegas nunca puede producir resultados confiables, sin importar cuántos catadores participen en ella.",
           "D": "Sí, porque las pruebas de sabor a ciegas son el estándar de oro para evaluar todos los aspectos de calidad de un producto alimenticio."
         },
@@ -387,7 +387,7 @@
         "opciones": {
           "A": "Sí, porque cualquier asociación estadística observada entre dos variables demuestra, por sí sola, que una es la causa directa de la otra.",
           "B": "Sí, porque las bibliotecas ofrecen actividades educativas que mantienen a los jóvenes ocupados, así que esta explicación causal debe ser correcta sin necesidad de más evidencia.",
-          "C": "No, porque un tercer factor, como el nivel socioeconómico de la ciudad, probablemente esté asociado tanto con la cantidad de bibliotecas como con la criminalidad, sin que las bibliotecas sean la causa directa.",
+          "C": "No, porque un tercer factor, como el nivel socioeconómico de la ciudad, puede estar asociado tanto a las bibliotecas como a la criminalidad.",
           "D": "No, porque en realidad no puede existir ninguna relación estadística entre la infraestructura cultural de una ciudad y sus tasas de criminalidad."
         },
         "respuesta_correcta": "C",
@@ -431,7 +431,7 @@
           "A": "El puntaje que cada estudiante obtuvo en la prueba estandarizada, porque es precisamente la variable que se mide como resultado principal en este estudio educativo.",
           "B": "El hecho de que ambos grupos de estudiantes asistieron exactamente a la misma prueba el mismo día del año, porque eso constituiría una variable de confusión evidente y determinante.",
           "C": "El tipo específico de alimento consumido en el desayuno de cada estudiante, porque diferentes desayunos podrían tener efectos nutricionales distintos sobre su rendimiento académico general.",
-          "D": "El nivel socioeconómico de la familia del estudiante, porque las familias con más recursos podrían facilitar un desayuno regular y, de forma independiente, brindar más apoyo educativo o un ambiente más propicio para aprender."
+          "D": "El nivel socioeconómico de la familia, porque las familias con más recursos facilitan un desayuno regular y, por separado, más apoyo para aprender."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "El nivel socioeconómico familiar es una variable de confusión plausible porque puede estar relacionada tanto con la probabilidad de que un estudiante desayune regularmente como con el rendimiento académico, sin que el desayuno en sí sea necesariamente la causa directa de los mejores puntajes.",
@@ -494,7 +494,7 @@
         "evidencia": "2.1",
         "enunciado": "¿Es adecuada esta conclusión?",
         "opciones": {
-          "A": "No, porque se cambiaron dos variables a la vez (riego y fertilizante); no es posible saber si el aumento se debió al fertilizante, al riego, o a la combinación de ambos.",
+          "A": "No, porque se cambiaron dos variables a la vez, riego y fertilizante, y no se puede saber a cuál de las dos se debió el aumento.",
           "B": "Sí, porque los fertilizantes nuevos generalmente producen mejores resultados que los fertilizantes antiguos, así que esta debe ser la explicación correcta.",
           "C": "No, porque un aumento del 25 % en la producción es una cifra demasiado alta para ser real, y probablemente refleja un error al medir la cosecha.",
           "D": "Sí, porque comparar dos campos distintos bajo condiciones diferentes siempre permite aislar con total precisión el efecto de cada variable."
@@ -538,7 +538,7 @@
         "enunciado": "¿Está esta predicción adecuadamente respaldada por los datos recolectados?",
         "opciones": {
           "A": "Sí, porque cualquier muestra de personas, sin importar su tamaño o representatividad geográfica, es suficiente para predecir el comportamiento electoral de todo un país.",
-          "B": "No, porque una muestra de solo 15 personas, tomada en un único lugar de una sola ciudad, es demasiado pequeña y poco representativa de la diversidad geográfica, social y económica de todo el electorado nacional.",
+          "B": "No, porque una muestra de 15 personas en un solo punto de una sola ciudad es muy pequeña y poco representativa del electorado nacional.",
           "C": "No, porque las encuestas de intención de voto nunca son útiles para predecir resultados electorales, sin importar cómo se realicen.",
           "D": "Sí, porque entrevistar personas cara a cara en un centro comercial es un método más confiable que cualquier otro tipo de encuesta electoral."
         },
@@ -623,7 +623,7 @@
         "opciones": {
           "A": "Sí, porque la velocidad de agitación es un factor conocido en química que siempre mejora el rendimiento de cualquier reacción, sin excepción.",
           "B": "Sí, porque la asociación observada entre velocidad de agitación y rendimiento es estadísticamente clara, y toda asociación estadística clara implica una relación causal directa.",
-          "C": "No necesariamente, porque la temperatura del baño (que varió de forma no controlada entre los distintos asistentes) podría ser la verdadera variable responsable del mayor rendimiento, y no la velocidad de agitación en sí misma.",
+          "C": "No necesariamente, porque la temperatura del baño varió sin control entre asistentes y podría ser ella, y no la agitación, la causa del mayor rendimiento.",
           "D": "No, porque en un laboratorio real es imposible que la velocidad de agitación tenga ningún efecto medible sobre el rendimiento de una reacción química."
         },
         "respuesta_correcta": "C",
@@ -693,7 +693,7 @@
           "A": "Ninguno; comparar la pureza final de dos lotes preparados por personas completamente distintas siempre permite concluir con total certeza cuál técnica de recristalización es realmente mejor.",
           "B": "El problema es que el punto de fusión no es en absoluto una medida confiable de la pureza de un compuesto en ningún contexto experimental de laboratorio.",
           "C": "El problema es que el Estudiante Y probablemente reportó datos falsos o alterados para que su resultado final se viera mejor que el obtenido por el Estudiante X.",
-          "D": "El estudio compara lotes preparados en condiciones distintas (día, proveedor de materia prima, estudiante) en lugar de controlar esas diferencias; esto introduce variables de confusión no controladas."
+          "D": "El estudio compara lotes hechos en condiciones distintas, día, proveedor y estudiante, en vez de controlarlas, lo que introduce variables de confusión."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Comparar lotes preparados en condiciones que difieren en múltiples aspectos simultáneamente sin controlar esas diferencias introduce variables de confusión no controladas: la diferencia de pureza observada podría deberse a la calidad de la materia prima de cada proveedor, y no necesariamente a la técnica de recristalización de cada estudiante.",
@@ -777,7 +777,7 @@
         "enunciado": "¿Está esta afirmación respaldada adecuadamente por los datos obtenidos?",
         "opciones": {
           "A": "Sí, porque un rendimiento del 95 % es un valor muy alto y cercano al máximo teórico posible, lo cual demuestra que el método es consistente en cualquier laboratorio.",
-          "B": "No, porque un único ensayo no permite establecer que un método siempre produce el mismo resultado; el rendimiento puede variar por múltiples factores no controlados entre repeticiones.",
+          "B": "No, porque un único ensayo no prueba que el método siempre dé lo mismo; el rendimiento puede variar por factores no controlados entre repeticiones.",
           "C": "No, porque obtener un rendimiento del 95 % es matemática y químicamente imposible de alcanzar en la práctica en cualquier síntesis orgánica real de laboratorio.",
           "D": "Sí, porque cualquier resultado individual obtenido en un laboratorio universitario debe considerarse representativo del comportamiento general de ese método químico."
         },
@@ -822,7 +822,7 @@
         "opciones": {
           "A": "Sí, porque si un metal muestra signos visibles de corrosión en una semana, todos los demás metales deben corroerse exactamente a la misma velocidad bajo condiciones similares.",
           "B": "Sí, porque la corrosión es un fenómeno químico universal que ocurre de forma exactamente igual en todos los metales conocidos, sin ninguna variación entre ellos.",
-          "C": "No, porque generaliza el comportamiento de un solo metal a todos los demás, sin considerar que la velocidad de corrosión depende de la reactividad específica de cada metal (el oro resiste más que el cobre, el hierro se oxida más rápido).",
+          "C": "No, porque generaliza de un solo metal a todos, sin considerar que la velocidad de corrosión depende de la reactividad propia de cada metal.",
           "D": "No, porque el cobre en realidad no puede formar ningún tipo de capa superficial visible al exponerse al aire libre durante ningún periodo de tiempo."
         },
         "respuesta_correcta": "C",
@@ -866,7 +866,7 @@
           "A": "Sí, porque cualquier prueba colorimétrica que produzca un cambio de color visible debe considerarse una confirmación definitiva e inequívoca de la presencia de la sustancia buscada.",
           "B": "Sí, porque una vez que se obtiene un resultado positivo en cualquier prueba de laboratorio, ya no es necesario realizar ninguna prueba adicional de confirmación.",
           "C": "No, porque las pruebas de mancha colorimétricas nunca son útiles para ningún propósito serio de análisis químico, y deberían evitarse siempre.",
-          "D": "No, porque una prueba presuntiva solo indica que la presencia del ion es probable, no confirmada; iones similares pueden dar el mismo positivo, así que se necesita una prueba confirmatoria adicional."
+          "D": "No, porque una prueba presuntiva solo indica que el ion es probable; iones parecidos dan el mismo positivo, así que falta una prueba confirmatoria."
         },
         "respuesta_correcta": "D",
         "explicacion_correcta": "Una prueba presuntiva está diseñada para dar una indicación rápida y preliminar de la posible presencia de una sustancia, pero no para confirmarla con certeza, precisamente porque puede producir falsos positivos; el método permite concluir que la presencia del ion es plausible, pero afirmar una 'confirmación definitiva' va más allá de lo que este tipo de prueba puede demostrar por sí sola.",
@@ -980,7 +980,7 @@
         "evidencia": "2.1",
         "enunciado": "¿Es adecuada esta conclusión?",
         "opciones": {
-          "A": "No necesariamente, porque el color y la velocidad podrían ser efectos de una causa común (la concentración de un intermediario coloreado formado durante la reacción), sin que el color cause la aceleración.",
+          "A": "No necesariamente, porque el color y la velocidad pueden ser dos efectos de una causa común, como un intermediario coloreado, sin que uno cause al otro.",
           "B": "Sí, porque cualquier asociación observada entre dos variables medidas en el mismo experimento demuestra que una es la causa directa de la otra.",
           "C": "No, porque el color de una reacción química nunca guarda ninguna relación real con la velocidad a la que ocurre esa reacción.",
           "D": "Sí, porque el color es una propiedad física directamente observable, y las propiedades físicas directamente observables siempre son la causa de los cambios químicos que ocurren en un sistema."
@@ -1064,7 +1064,7 @@
         "enunciado": "Un investigador quiere identificar la variable de confusión más plausible que podría explicar la relación observada entre cantidad de catalizador y rendimiento, sin que el catalizador sea necesariamente la única causa. ¿Cuál es esa variable?",
         "opciones": {
           "A": "El rendimiento obtenido en cada ensayo, porque es la variable que se mide como resultado en este estudio y por lo tanto no puede ser una variable de confusión.",
-          "B": "La temperatura de cada ensayo, porque al haber variado de forma no controlada junto con la cantidad de catalizador, podría ser ella (y no el catalizador) la responsable, total o parcialmente, del cambio observado en el rendimiento.",
+          "B": "La temperatura de cada ensayo, porque varió sin control junto con el catalizador y podría ser ella la responsable del cambio de rendimiento.",
           "C": "El tipo de recipiente de vidrio usado en cada ensayo, porque cualquier diferencia en el material de laboratorio siempre afecta significativamente el rendimiento de una reacción química.",
           "D": "El color del catalizador utilizado, porque las propiedades visuales de un catalizador son las que determinan su efecto sobre el rendimiento de una reacción."
         },
@@ -1131,7 +1131,7 @@
         "opciones": {
           "A": "Sí, porque la solubilidad de cualquier compuesto es una propiedad fija que no depende del disolvente ni de la temperatura de medición.",
           "B": "Sí, porque un valor numérico de solubilidad más alto siempre indica una mayor solubilidad general del compuesto, sin importar en qué condiciones se haya medido cada uno.",
-          "C": "No, porque se compararon los dos compuestos en condiciones distintas (disolvente y temperatura); no se puede saber cuál es 'generalmente' más soluble sin medir ambos en las mismas condiciones.",
+          "C": "No, porque se comparó en condiciones distintas, disolvente y temperatura; no se puede decir cuál es 'generalmente' más soluble sin igualar condiciones.",
           "D": "No, porque el etanol nunca puede disolver ninguna cantidad medible de ningún compuesto químico, sin importar las condiciones del experimento."
         },
         "respuesta_correcta": "C",
@@ -1216,7 +1216,7 @@
         "evidencia": "2.1",
         "enunciado": "¿Es válida esta afirmación a partir únicamente del dato de proporción relativa reportado por la técnica?",
         "opciones": {
-          "A": "No es válida en ninguna de sus dos partes: el 85 % es una proporción relativa entre las dos formas de hierro, no una medida de la cantidad absoluta disuelta (una muestra con muy poca concentración total de hierro podría mostrar la misma proporción); además, la técnica no identifica el compuesto específico presente, por lo que afirmar que es siderita no está respaldado por este dato.",
+          "A": "No es válida: el 85 % es una proporción entre las dos formas de hierro, no la cantidad absoluta disuelta, y la técnica tampoco identifica el compuesto, así que 'siderita' no está respaldado.",
           "B": "Sí es válida, porque un 85 % es una cifra suficientemente alta como para concluir directamente que hay una gran cantidad de hierro tóxico disuelto en la muestra.",
           "C": "Sí es válida, porque una proporción de Fe²⁺ del 85 % permite identificar directamente que el compuesto presente es siderita (FeCO₃), la principal fuente de hierro reducido en aguas subterráneas.",
           "D": "No es válida, porque las técnicas que miden proporciones de estados de oxidación no son confiables y deben descartarse por completo en estudios ambientales serios."
@@ -1260,10 +1260,10 @@
         "evidencia": "2.1",
         "enunciado": "Con estos resultados, ¿qué puede concluir con confianza sobre las tres muestras, y qué NO puede concluir sobre la diferencia entre las muestras 2 y 3?",
         "opciones": {
-          "A": "Puede concluir con confianza que la Muestra 1 es el hexano, el único de los tres compuestos sin enlaces múltiples carbono-carbono, ya que no reaccionó con ninguno de los dos reactivos; sin embargo, estos resultados NO permiten determinar con certeza cuál de las muestras 2 o 3 es el alqueno y cuál el alquino, porque tanto el agua de bromo como el KMnO₄ reaccionan con enlaces dobles y triples de forma similar.",
-          "B": "Puede concluir que la Muestra 3, al decolorar el Br₂ más rápido, es definitivamente el 1-hexino, porque los enlaces triples siempre reaccionan más rápido que los dobles frente al agua de bromo en cualquier condición experimental.",
+          "A": "La Muestra 1 es el hexano, el único sin enlaces múltiples carbono-carbono, ya que no reaccionó con nada; pero los datos no distinguen cuál de las muestras 2 y 3 es el alqueno y cuál el alquino.",
+          "B": "La Muestra 3, al decolorar el Br₂ más rápido, es el 1-hexino, porque los triples siempre reaccionan más rápido que los dobles frente al agua de bromo.",
           "C": "Puede concluir que la Muestra 1 es completamente inerte frente a cualquier agente oxidante bajo cualquier condición, ya que no reaccionó ni con el Br₂ ni con el KMnO₄.",
-          "D": "Las pruebas de agua de bromo y de KMnO₄ son redundantes, porque ambas detectan exactamente el mismo tipo de reacción química, así que hubiera bastado con realizar solo una de las dos."
+          "D": "Las pruebas de agua de bromo y de permanganato son redundantes entre sí, porque las dos detectan el mismo tipo de enlace, así que hubiera bastado con hacer solo una de ellas y ahorrar tiempo y reactivo."
         },
         "respuesta_correcta": "A",
         "explicacion_correcta": "La ausencia de reacción de la Muestra 1 frente a ambos reactivos es consistente solo con el hexano, un alcano sin enlaces múltiples; en cambio, tanto los alquenos como los alquinos reaccionan con el Br₂ (adición electrofílica) y con el KMnO₄ (oxidación), por lo que una diferencia cualitativa de velocidad entre las muestras 2 y 3 no es prueba suficiente para determinar con certeza cuál es el alqueno y cuál el alquino.",
@@ -1304,10 +1304,10 @@
         "evidencia": "2.1",
         "enunciado": "¿Cómo se clasifica cada estudio, y cuál de los dos permite una conclusión causal más fuerte sobre el efecto de leer antes de dormir en la calidad del sueño?",
         "opciones": {
-          "A": "El Estudio 1 es observacional, porque registra hábitos y resultados tal como ocurren naturalmente, sin manipular nada; el Estudio 2 es experimental, porque asigna activamente y al azar la variable de interés (el hábito antes de dormir). El Estudio 2 permite una conclusión causal más fuerte, porque la asignación aleatoria reduce el riesgo de que otras diferencias entre las personas (y no el hábito de lectura) expliquen la diferencia observada.",
-          "B": "Ambos estudios son experimentales, porque ambos involucran una medición controlada de la calidad del sueño con instrumentos o encuestas estandarizadas.",
-          "C": "El Estudio 1 permite una conclusión causal más fuerte, porque su muestra de 500 personas es mucho mayor que la de 60 voluntarios del Estudio 2.",
-          "D": "Ninguno de los dos estudios permite ninguna conclusión útil, porque ambos tienen limitaciones metodológicas que los invalidan por completo."
+          "A": "El Estudio 1 es observacional y el Estudio 2 experimental. El 2 permite una conclusión causal más fuerte, porque la asignación al azar del hábito evita que otras diferencias entre las personas expliquen el resultado.",
+          "B": "Ambos son experimentales, porque los dos miden la calidad del sueño con instrumentos y encuestas estandarizadas. El Estudio 1 da una conclusión más fuerte por tener una muestra mucho mayor, de 500 personas frente a 60.",
+          "C": "El Estudio 1 es experimental y el 2 observacional. El 1 permite una conclusión causal más fuerte, porque su muestra de 500 personas es mucho mayor que la de 60 voluntarios del Estudio 2.",
+          "D": "El Estudio 1 es observacional y el 2 experimental, pero ninguno permite una conclusión causal, porque en los dos quedan demasiadas variables sin controlar para atribuir un efecto."
         },
         "respuesta_correcta": "A",
         "explicacion_correcta": "El Estudio 1 es observacional porque solo registra hábitos y resultados existentes, sin manipular ninguna variable; el Estudio 2 es experimental porque asigna aleatoriamente el hábito de lectura a cada participante. Solo un estudio experimental bien diseñado, con asignación al azar, permite conclusiones causales fuertes, porque reduce el riesgo de que variables de confusión (como diferencias individuales preexistentes) expliquen el resultado observado.",
@@ -1347,7 +1347,7 @@
         "evidencia": "2.2",
         "enunciado": "Si el sensor no tiene ningún error sistemático de calibración, ¿cuál sería el nuevo error estándar esperado con n = 100 mediciones, y qué relación matemática lo explica?",
         "opciones": {
-          "A": "El nuevo error estándar esperado sería 0,20 mg/L. El error estándar es proporcional a 1/√n; al cuadruplicar el número de mediciones (de 25 a 100), √n se duplica (de 5 a 10), por lo que el error estándar se reduce a la mitad (de 0,40 a 0,20 mg/L).",
+          "A": "Sería 0,20 mg/L. El error estándar es proporcional a 1/√n: al pasar de 25 a 100 medidas, √n se duplica de 5 a 10, y el error estándar se reduce a la mitad, de 0,40 a 0,20.",
           "B": "El nuevo error estándar esperado sería 0,10 mg/L, porque al cuadruplicar el número de mediciones, el error estándar se reduce en la misma proporción, a la cuarta parte.",
           "C": "El error estándar seguiría siendo 0,40 mg/L, porque aumentar el número de repeticiones nunca reduce ningún tipo de incertidumbre sin antes recalibrar el instrumento.",
           "D": "El nuevo error estándar esperado sería 0,80 mg/L, porque al aumentar las mediciones de 25 a 100, √n también aumenta, y multiplicar por ese factor incrementa el error estándar en la misma proporción."
@@ -1391,10 +1391,10 @@
         "evidencia": "2.2",
         "enunciado": "¿Qué tipo de validez tiende a priorizar cada opción, y qué se sacrifica en cada caso?",
         "opciones": {
-          "A": "La Opción A prioriza la validez interna: el control estricto de cada alimento minimiza variables de confusión, pero el ambiente artificial de la unidad metabólica limita cuánto se pueden generalizar los resultados a la vida cotidiana (menor validez externa). La Opción B prioriza la validez externa: refleja mejor las condiciones reales de alimentación, pero la falta de supervisión directa introduce más variables no controladas, reduciendo la validez interna.",
-          "B": "La Opción A tiene tanto mayor validez interna como mayor validez externa que la Opción B, porque su tamaño de muestra más pequeño (20 personas) permite un seguimiento mucho más detallado de cada participante.",
-          "C": "La Opción B tiene automáticamente mayor validez interna que la Opción A, porque su tamaño de muestra (300 familias) es mucho mayor.",
-          "D": "Ninguna de las dos opciones tiene ninguna ventaja particular sobre la otra, porque ambas tienen limitaciones que las invalidan igualmente como diseños de investigación."
+          "A": "La Opción A prioriza la validez interna: controla los confusores, pero su ambiente artificial limita generalizar a la vida real. La Opción B prioriza la validez externa, a costa de dejar entrar más variables sin controlar.",
+          "B": "La Opción A tiene tanto mayor validez interna como mayor validez externa que la Opción B, porque su tamaño de muestra más pequeño, de solo 20 personas, permite un seguimiento mucho más detallado y cercano de cada participante.",
+          "C": "La Opción B tiene mayor validez interna que la A, porque su muestra de 300 familias es mucho más grande, y una muestra grande por sí sola controla mejor las variables de confusión de un estudio.",
+          "D": "Ninguna de las dos tiene ventaja sobre la otra en validez interna ni externa, porque ambas usan el mismo instrumento y difieren solo en el tamaño de la muestra."
         },
         "respuesta_correcta": "A",
         "explicacion_correcta": "Existe un compromiso característico entre validez interna y externa: la Opción A, al controlar estrictamente cada alimento, maximiza la validez interna (confianza en que la dieta causó el resultado) pero a costa de la validez externa (el entorno artificial limita la generalización); la Opción B, al ocurrir en condiciones de vida real con una muestra más grande, prioriza la validez externa pero sacrifica el control sobre variables de confusión propio de la validez interna.",
