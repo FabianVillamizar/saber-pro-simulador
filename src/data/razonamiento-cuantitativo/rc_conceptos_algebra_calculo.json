@@ -172,16 +172,36 @@
     "despues": "",
     "pregunta": "¿Cuál fracción es mayor: 5/8 o 7/11? Explica un método para compararlas sin usar calculadora.",
     "respuesta": "5/8 = 0,625 y 7/11 ≈ 0,636, así que 7/11 es mayor. Un método sin calculadora es la 'multiplicación cruzada': comparar 5×11=55 contra 7×8=56; como 56>55, 7/11 es mayor.",
-    "regla": "Para comparar dos fracciones con distinto denominador sin convertirlas a decimal, se puede usar la **multiplicación cruzada**: multiplicar el numerador de cada fracción por el denominador de la otra; la fracción cuyo producto cruzado es mayor, es la fracción mayor (siempre que ambos denominadores sean positivos).",
+    "regla": "Para comparar dos fracciones con distinto denominador sin convertirlas a decimal, se puede usar la **multiplicación cruzada**: multiplicar el numerador de cada fracción por el denominador de la otra; la fracción cuyo producto cruzado es mayor, es la fracción mayor (siempre que ambos denominadores sean positivos). La tabla compara los dos productos cruzados: 55 frente a 56.",
     "ejemplo": "Para comparar 2/3 y 3/5: 2×5=10 y 3×3=9; como 10>9, 2/3 es mayor que 3/5.",
     "error_comun": "Se compara solo el numerador o solo el denominador de cada fracción por separado (por ejemplo, pensar que 7/11 es menor que 5/8 solo porque 7<8), sin considerar cómo se relacionan numerador y denominador en conjunto dentro de cada fracción.",
-    "tipo_visual": "ninguno",
+    "tipo_visual": "tabla",
     "visual_descripcion": "",
     "formula_latex": "\\dfrac{a}{b} \\gtrless \\dfrac{c}{d} \\iff a \\times d \\gtrless c \\times b",
     "dificultad": "media",
     "prereqs": [
       "RC-ALG-002"
-    ]
+    ],
+    "visual_posicion": "reverso",
+    "tabla_filas": {
+      "columnas": [
+        "Fracción",
+        "Producto cruzado",
+        "¿Mayor?"
+      ],
+      "filas": [
+        [
+          "5/8",
+          "5 × 11 = 55",
+          ""
+        ],
+        [
+          "7/11",
+          "7 × 8 = 56",
+          "sí, 56 > 55"
+        ]
+      ]
+    }
   },
   {
     "id": "RC-ALG-008",
@@ -688,16 +708,45 @@
     "despues": "",
     "pregunta": "Un corredor recorre los primeros 5 km en 20 minutos, y los siguientes 5 km en 30 minutos (porque se cansó). ¿Cuál es su velocidad promedio en todo el recorrido de 10 km, y por qué no es simplemente el promedio de las dos velocidades parciales?",
     "respuesta": "La velocidad promedio es distancia total ÷ tiempo total = 10 km ÷ (20+30) min = 10 km ÷ 50 min = 0,2 km/min (12 km/h). No es el promedio simple de las velocidades parciales (15 km/h y 10 km/h, que promediarían 12,5 km/h) porque los dos tramos no duraron el mismo tiempo, así que promediar directamente las velocidades les da un peso igual que no refleja la realidad.",
-    "regla": "La **velocidad promedio de un recorrido completo** siempre se calcula como distancia total ÷ tiempo total, y no como el promedio simple de las velocidades de cada tramo, salvo que todos los tramos hayan durado exactamente el mismo tiempo; si los tiempos son distintos, promediar las velocidades directamente da un resultado incorrecto porque no pondera cada tramo según cuánto duró realmente.",
+    "regla": "La **velocidad promedio de un recorrido completo** siempre se calcula como distancia total ÷ tiempo total, y no como el promedio simple de las velocidades de cada tramo, salvo que todos los tramos hayan durado exactamente el mismo tiempo; si los tiempos son distintos, promediar las velocidades directamente da un resultado incorrecto porque no pondera cada tramo según cuánto duró realmente. La tabla separa los dos tramos y la fila Total trae el cálculo correcto.",
     "ejemplo": "Si un tramo de 1 hora se recorre a 100 km/h y otro tramo (también de 1 hora) a 50 km/h, ahí sí el promedio simple (75 km/h) coincide con el promedio real, porque ambos tramos duraron lo mismo.",
     "error_comun": "Se promedian las velocidades de cada tramo por separado (sumarlas y dividir entre 2) sin verificar si los tramos duraron el mismo tiempo, lo que da una velocidad promedio incorrecta cuando los tiempos de cada tramo son distintos.",
-    "tipo_visual": "ninguno",
+    "tipo_visual": "tabla",
     "visual_descripcion": "",
     "formula_latex": "v_{promedio} = \\dfrac{\\text{distancia total}}{\\text{tiempo total}}",
     "dificultad": "alta",
     "prereqs": [
       "RC-ALG-021"
-    ]
+    ],
+    "visual_posicion": "reverso",
+    "tabla_filas": {
+      "columnas": [
+        "Tramo",
+        "Distancia",
+        "Tiempo",
+        "Velocidad"
+      ],
+      "filas": [
+        [
+          "1",
+          "5 km",
+          "20 min",
+          "15 km/h"
+        ],
+        [
+          "2",
+          "5 km",
+          "30 min",
+          "10 km/h"
+        ],
+        [
+          "Total",
+          "10 km",
+          "50 min",
+          "12 km/h"
+        ]
+      ]
+    }
   },
   {
     "id": "RC-ALG-024",
@@ -1162,16 +1211,36 @@
     "despues": ", o como un aumento relativo del 25% (porque 5 es el 25% de 20).",
     "pregunta": "",
     "respuesta": "porcentuales",
-    "regla": "Es clave distinguir entre **puntos porcentuales** (la resta directa entre dos porcentajes, ej. 25%−20%=5 puntos porcentuales) y el **porcentaje de cambio relativo** (cuánto representa ese cambio respecto al valor original, ej. 5/20=25% de aumento relativo); ambos describen el mismo cambio, pero con números distintos, y confundirlos lleva a interpretar mal noticias, estadísticas o resultados de un problema.",
+    "regla": "Es clave distinguir entre **puntos porcentuales** (la resta directa entre dos porcentajes, ej. 25%−20%=5 puntos porcentuales) y el **porcentaje de cambio relativo** (cuánto representa ese cambio respecto al valor original, ej. 5/20=25% de aumento relativo); ambos describen el mismo cambio, pero con números distintos, y confundirlos lleva a interpretar mal noticias, estadísticas o resultados de un problema. La tabla contrasta las dos formas de describir el mismo cambio.",
     "ejemplo": "Si la aprobación de un producto sube de 40% a 44%, eso es un aumento de 4 puntos porcentuales, pero un aumento relativo del 10% (porque 4 es el 10% de 40).",
     "error_comun": "Se dice que algo 'aumentó 5%' cuando en realidad aumentó 5 puntos porcentuales (que en términos relativos puede ser un cambio mucho mayor o menor al 5%), una confusión extremadamente común en medios de comunicación y en el lenguaje cotidiano.",
-    "tipo_visual": "ninguno",
+    "tipo_visual": "tabla",
     "visual_descripcion": "",
     "formula_latex": "",
     "dificultad": "alta",
     "prereqs": [
       "RC-ALG-003"
-    ]
+    ],
+    "visual_posicion": "reverso",
+    "tabla_filas": {
+      "columnas": [
+        "Forma de describir el cambio de 20% a 25%",
+        "Cálculo",
+        "Resultado"
+      ],
+      "filas": [
+        [
+          "Puntos porcentuales",
+          "25 − 20",
+          "5 puntos"
+        ],
+        [
+          "Cambio relativo",
+          "5 ÷ 20",
+          "25%"
+        ]
+      ]
+    }
   },
   {
     "id": "RC-ALG-043",
@@ -1253,17 +1322,47 @@
     "despues": "",
     "pregunta": "Una tienda aplica un descuento del 10% sobre un producto, y luego, sobre el precio ya rebajado, aplica un segundo descuento del 5% por pago en efectivo. Un cliente afirma que esto equivale a un descuento único del 15%. ¿Tiene razón?",
     "respuesta": "No tiene razón. Con un precio inicial de $100: el primer descuento de 10% deja el precio en $90; el segundo descuento del 5% se aplica sobre $90 (no sobre 100), dejando 90−4,5=$85,50. Un descuento único del 15% habría dejado el precio en $85, un valor ligeramente distinto (en este caso el descuento sucesivo terminó siendo un poco menor al 15%, es decir 14,5%).",
-    "regla": "Dos descuentos (o aumentos) porcentuales **sucesivos** no se suman directamente para dar un porcentaje único equivalente, porque el segundo porcentaje se aplica sobre una base ya modificada por el primero, no sobre la base original; para saber el descuento total real, hay que aplicar los descuentos uno tras otro y comparar el resultado final con el precio original.",
+    "regla": "Dos descuentos (o aumentos) porcentuales **sucesivos** no se suman directamente para dar un porcentaje único equivalente, porque el segundo porcentaje se aplica sobre una base ya modificada por el primero, no sobre la base original; para saber el descuento total real, hay que aplicar los descuentos uno tras otro y comparar el resultado final con el precio original. La tabla compara los dos descuentos sucesivos, $85,50, con un único descuento del 15%, $85.",
     "ejemplo": "Dos aumentos sucesivos del 10% cada uno (sobre $100) dan 100→110→121, un aumento total del 21%, no del 20% (10%+10%) que se esperaría al sumarlos directamente.",
     "error_comun": "Se suman los dos porcentajes directamente (10%+5%=15%) asumiendo que aplican sobre la misma base, sin considerar que el segundo porcentaje se calcula sobre el valor ya modificado por el primero.",
-    "tipo_visual": "ninguno",
+    "tipo_visual": "tabla",
     "visual_descripcion": "",
     "formula_latex": "",
     "dificultad": "alta",
     "prereqs": [
       "RC-ALG-043",
       "RC-ALG-044"
-    ]
+    ],
+    "visual_posicion": "reverso",
+    "tabla_filas": {
+      "columnas": [
+        "Paso",
+        "Cálculo",
+        "Precio"
+      ],
+      "filas": [
+        [
+          "Inicial",
+          "",
+          "$100"
+        ],
+        [
+          "Descuento 10%",
+          "100 × 0,90",
+          "$90"
+        ],
+        [
+          "Descuento 5% sobre $90",
+          "90 × 0,95",
+          "$85,50"
+        ],
+        [
+          "Un solo descuento del 15%",
+          "100 × 0,85",
+          "$85"
+        ]
+      ]
+    }
   },
   {
     "id": "RC-ALG-046",
@@ -1318,16 +1417,49 @@
     "despues": "",
     "pregunta": "Sin sumar los 100 números uno por uno, ¿cómo se puede calcular rápidamente la suma 1+2+3+...+100?",
     "respuesta": "Emparejando el primero con el último (1+100=101), el segundo con el penúltimo (2+99=101), y así sucesivamente: hay 50 parejas que suman 101 cada una, así que el total es 50×101 = 5.050. En general, para sumar los primeros n términos de una [[RC-R-progresion-aritmetica|progresión aritmética]] se usa Sₙ = n/2 × (a₁+aₙ), sin sumar ningún término individualmente.",
-    "regla": "La **suma de los primeros n términos de una progresión aritmética** (Sₙ = n/2 × (a₁+aₙ)) funciona porque emparejar el primer término con el último, el segundo con el penúltimo, etc., siempre da la misma suma por pareja — el 'truco de Gauss'. Para usarla solo hace falta conocer cuántos términos hay (n), el primero (a₁) y el último (aₙ), sin necesidad de conocer ni sumar ninguno de los términos intermedios.",
+    "regla": "La **suma de los primeros n términos de una progresión aritmética** (Sₙ = n/2 × (a₁+aₙ)) funciona porque emparejar el primer término con el último, el segundo con el penúltimo, etc., siempre da la misma suma por pareja — el 'truco de Gauss'. Para usarla solo hace falta conocer cuántos términos hay (n), el primero (a₁) y el último (aₙ), sin necesidad de conocer ni sumar ninguno de los términos intermedios. La tabla muestra el emparejamiento: 50 parejas que suman 101.",
     "ejemplo": "Sumar los múltiplos de 5 del 5 al 100 (5, 10, 15, ..., 100): son n=20 términos, a₁=5, a₂₀=100, así que la suma es 20/2 × (5+100) = 10 × 105 = 1.050.",
     "error_comun": "Se olvida dividir entre 2 (dejando el resultado del doble de lo correcto, porque cada pareja se contó pensando en la suma total en vez de en el promedio por pareja), o se usa un valor de n equivocado por no contar bien cuántos términos hay realmente en el rango pedido.",
-    "tipo_visual": "ninguno",
+    "tipo_visual": "tabla",
     "visual_descripcion": "",
     "formula_latex": "S_n = \\frac{n}{2}(a_1+a_n)",
     "dificultad": "media",
     "prereqs": [
       "RC-ALG-047"
-    ]
+    ],
+    "visual_posicion": "reverso",
+    "tabla_filas": {
+      "columnas": [
+        "Pareja",
+        "Suma"
+      ],
+      "filas": [
+        [
+          "1 + 100",
+          "101"
+        ],
+        [
+          "2 + 99",
+          "101"
+        ],
+        [
+          "3 + 98",
+          "101"
+        ],
+        [
+          "…",
+          "…"
+        ],
+        [
+          "50 + 51",
+          "101"
+        ],
+        [
+          "50 parejas × 101",
+          "5.050"
+        ]
+      ]
+    }
   },
   {
     "id": "RC-ALG-049",
@@ -1340,16 +1472,41 @@
     "despues": ").",
     "pregunta": "",
     "respuesta": "1",
-    "regla": "Una **progresión geométrica** es una secuencia donde cada término se obtiene multiplicando siempre por la misma cantidad (la **razón común**, r) al término anterior — a diferencia de la [[RC-R-progresion-aritmetica|progresión aritmética]], que suma una cantidad fija, esta multiplica. La fórmula aₙ = a₁ × r^(n−1) evita multiplicar n−1 veces seguidas para llegar a un término lejano.",
+    "regla": "Una **progresión geométrica** es una secuencia donde cada término se obtiene multiplicando siempre por la misma cantidad (la **razón común**, r) al término anterior — a diferencia de la [[RC-R-progresion-aritmetica|progresión aritmética]], que suma una cantidad fija, esta multiplica. La fórmula aₙ = a₁ × r^(n−1) evita multiplicar n−1 veces seguidas para llegar a un término lejano. La tabla pone lado a lado la progresión aritmética y la geométrica.",
     "ejemplo": "En la secuencia 3, 6, 12, 24, 48... (a₁=3, r=2), el término 10 es a₁₀ = 3 × 2⁹ = 3 × 512 = 1.536, sin necesidad de duplicar 9 veces seguidas a mano.",
     "error_comun": "Se confunde la razón (r, que se multiplica) con la diferencia (d, que se suma) de una progresión aritmética, aplicando por error la fórmula de suma (a₁+(n−1)d) a una secuencia que en realidad crece multiplicando.",
-    "tipo_visual": "ninguno",
+    "tipo_visual": "tabla",
     "visual_descripcion": "",
     "formula_latex": "a_n = a_1 \\cdot r^{n-1}",
     "dificultad": "baja",
     "prereqs": [
       "RC-ALG-047"
-    ]
+    ],
+    "visual_posicion": "reverso",
+    "tabla_filas": {
+      "columnas": [
+        "",
+        "Progresión aritmética",
+        "Progresión geométrica"
+      ],
+      "filas": [
+        [
+          "Cada término",
+          "suma una diferencia d constante",
+          "multiplica por una razón r constante"
+        ],
+        [
+          "Término n",
+          "a₁ + (n − 1) · d",
+          "a₁ · r elevado a (n − 1)"
+        ],
+        [
+          "Ejemplo",
+          "2, 5, 8, 11, 14, …",
+          "2, 6, 18, 54, 162, …"
+        ]
+      ]
+    }
   },
   {
     "id": "RC-ALG-050",
@@ -1385,17 +1542,40 @@
     "despues": "",
     "pregunta": "Sin conocer de antemano el contexto ni ninguna fórmula, ¿cómo se puede saber en segundos si una secuencia de números — por ejemplo 3, 6, 12, 24... — es aritmética o geométrica, para saber cuál fórmula usar?",
     "respuesta": "Restando dos términos consecutivos: si la resta da siempre el mismo número, es aritmética (esa resta es d). Si la resta no da un número constante, se prueba dividiendo dos términos consecutivos: si el cociente da siempre el mismo número, es geométrica (ese cociente es r). En 3, 6, 12, 24: 6−3=3 pero 12−6=6 (no es constante, no es aritmética); 6÷3=2 y 12÷6=2 y 24÷12=2 (sí es constante) → es geométrica con r=2.",
-    "regla": "Antes de aplicar cualquier fórmula de progresión hay que identificar cuál de las dos aplica — perder tiempo memorizando o probando ambas fórmulas es evitable con esta verificación rápida: **resta consecutiva constante → aritmética; división consecutiva constante → geométrica**. Con solo 3 términos ya alcanza para confirmar el patrón (dos restas o dos divisiones que coincidan).",
+    "regla": "Antes de aplicar cualquier fórmula de progresión hay que identificar cuál de las dos aplica — perder tiempo memorizando o probando ambas fórmulas es evitable con esta verificación rápida: **resta consecutiva constante → aritmética; división consecutiva constante → geométrica**. Con solo 3 términos ya alcanza para confirmar el patrón (dos restas o dos divisiones que coincidan). La tabla muestra la prueba rápida: resta constante o división constante.",
     "ejemplo": "En 2, 5, 8, 11: 5−2=3, 8−5=3, 11−8=3 (resta constante) → aritmética, d=3. En 2, 6, 18, 54: 6÷2=3, 18÷6=3, 54÷18=3 (división constante) → geométrica, r=3.",
     "error_comun": "Se asume que una secuencia es aritmética solo porque 'va creciendo de forma pareja a simple vista', sin verificar realmente si la diferencia entre términos consecutivos es constante — una secuencia geométrica con razón cercana a 1 también puede parecer que crece 'poco a poco' sin serlo.",
-    "tipo_visual": "ninguno",
+    "tipo_visual": "tabla",
     "visual_descripcion": "",
     "formula_latex": "",
     "dificultad": "media",
     "prereqs": [
       "RC-ALG-047",
       "RC-ALG-049"
-    ]
+    ],
+    "visual_posicion": "reverso",
+    "tabla_filas": {
+      "columnas": [
+        "Secuencia",
+        "Resta de términos",
+        "División de términos",
+        "Tipo"
+      ],
+      "filas": [
+        [
+          "4, 8, 12, 16",
+          "+4 constante",
+          "no constante",
+          "aritmética"
+        ],
+        [
+          "3, 6, 12, 24",
+          "no constante",
+          "× 2 constante",
+          "geométrica"
+        ]
+      ]
+    }
   },
   {
     "id": "RC-ALG-052",
@@ -1408,15 +1588,89 @@
     "despues": "",
     "pregunta": "La ciudad A crece siempre en 5.000 habitantes por año (progresión aritmética). La ciudad B crece siempre un 5% por año (progresión geométrica). Si ambas empiezan con 100.000 habitantes, ¿cuál será más poblada a largo plazo, y por qué se puede saber esto sin calcular año por año?",
     "respuesta": "A largo plazo, la ciudad B (crecimiento geométrico/exponencial) siempre termina superando a la ciudad A (crecimiento aritmético/lineal), sin importar qué tan pequeño sea el porcentaje de B comparado con la cantidad fija de A. Esto se sabe sin calcular año por año porque un crecimiento que se multiplica sobre una base cada vez más grande termina acelerando más que uno que siempre suma la misma cantidad fija — es una propiedad general de [[RC-R-aritmetica-vs-geometrica|aritmética vs. geométrica]], no algo que dependa de los números específicos de este caso.",
-    "regla": "Un crecimiento **aritmético/lineal** suma siempre la misma cantidad absoluta (nunca acelera). Un crecimiento **geométrico/exponencial** multiplica sobre una base que crece (por eso acelera con el tiempo). Aunque al principio el crecimiento lineal puede ir adelante (5.000 personas es más que el 5% de 100.000 = 5.000 el primer año, empatados; pero el 5% de una ciudad más grande ya es más de 5.000), el geométrico siempre termina superando al lineal — reconocer cuál tipo de crecimiento describe una situación evita tener que simular año por año para predecir el ganador a largo plazo.",
+    "regla": "Un crecimiento **aritmético/lineal** suma siempre la misma cantidad absoluta (nunca acelera). Un crecimiento **geométrico/exponencial** multiplica sobre una base que crece (por eso acelera con el tiempo). Aunque al principio el crecimiento lineal puede ir adelante (5.000 personas es más que el 5% de 100.000 = 5.000 el primer año, empatados; pero el 5% de una ciudad más grande ya es más de 5.000), el geométrico siempre termina superando al lineal — reconocer cuál tipo de crecimiento describe una situación evita tener que simular año por año para predecir el ganador a largo plazo. La gráfica muestra cómo la ciudad B, que al principio va pareja, termina despegándose de la A.",
     "ejemplo": "Año 10: ciudad A tiene 100.000+10×5.000=150.000; ciudad B tiene 100.000×1,05¹⁰≈162.889 — ya la superó, y la brecha solo va a seguir creciendo cada año siguiente.",
     "error_comun": "Se asume que un porcentaje 'pequeño' (como 5%) siempre crece más lento que una cantidad fija 'grande' (como 5.000), sin considerar que el porcentaje se aplica sobre una base que también está creciendo — la comparación correcta no es entre los números iniciales, sino entre los dos tipos de modelo (lineal vs. exponencial).",
-    "tipo_visual": "ninguno",
+    "tipo_visual": "grafica_datos",
     "visual_descripcion": "",
     "formula_latex": "",
     "dificultad": "alta",
     "prereqs": [
       "RC-ALG-051"
-    ]
+    ],
+    "visual_posicion": "reverso",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Años",
+      "ejeY": "Habitantes",
+      "series": [
+        {
+          "nombre": "Ciudad A (+5.000 por año)",
+          "datos": [
+            {
+              "x": 0,
+              "y": 100000
+            },
+            {
+              "x": 5,
+              "y": 125000
+            },
+            {
+              "x": 10,
+              "y": 150000
+            },
+            {
+              "x": 15,
+              "y": 175000
+            },
+            {
+              "x": 20,
+              "y": 200000
+            },
+            {
+              "x": 25,
+              "y": 225000
+            },
+            {
+              "x": 30,
+              "y": 250000
+            }
+          ]
+        },
+        {
+          "nombre": "Ciudad B (+5% por año)",
+          "datos": [
+            {
+              "x": 0,
+              "y": 100000
+            },
+            {
+              "x": 5,
+              "y": 127628
+            },
+            {
+              "x": 10,
+              "y": 162889
+            },
+            {
+              "x": 15,
+              "y": 207893
+            },
+            {
+              "x": 20,
+              "y": 265330
+            },
+            {
+              "x": 25,
+              "y": 338635
+            },
+            {
+              "x": 30,
+              "y": 432194
+            }
+          ]
+        }
+      ]
+    }
   }
 ]

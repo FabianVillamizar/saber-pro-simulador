@@ -52,17 +52,47 @@
     "despues": "",
     "pregunta": "El salario de una persona cambia así en tres años consecutivos: año 1 sube 10%, año 2 baja 5%, año 3 sube 8%. Si el salario inicial era $2.000.000, ¿cuál es el salario final, y cuál sería el error de calcularlo sumando los tres porcentajes (10%−5%+8%=13%)?",
     "respuesta": "El salario final correcto es 2.000.000 × 1,10 × 0,95 × 1,08 ≈ $2.257.200 (un aumento neto de aproximadamente 12,86%, no exactamente 13%). Sumar los porcentajes (13%) da un resultado parecido pero no idéntico al correcto; la diferencia crece mientras más cambios sucesivos haya o más grandes sean los porcentajes.",
-    "regla": "Con tres o más **cambios porcentuales sucesivos**, se [[RC-R-variaciones-sucesivas|multiplican todos los factores]] (1+r) uno tras otro, en cualquier orden; sumar los porcentajes directamente puede dar un resultado cercano cuando los porcentajes son pequeños, pero nunca es exactamente correcto, y el error se hace más grande mientras más cambios se acumulen o más grandes sean los porcentajes individuales.",
+    "regla": "Con tres o más **cambios porcentuales sucesivos**, se [[RC-R-variaciones-sucesivas|multiplican todos los factores]] (1+r) uno tras otro, en cualquier orden; sumar los porcentajes directamente puede dar un resultado cercano cuando los porcentajes son pequeños, pero nunca es exactamente correcto, y el error se hace más grande mientras más cambios se acumulen o más grandes sean los porcentajes individuales. La tabla sigue el salario año por año; sumar 10 − 5 + 8 = 13% daría $2.260.000, no $2.257.200.",
     "ejemplo": "Tres descuentos sucesivos del 10% cada uno no equivalen a un descuento del 30%, sino a multiplicar por 0,9×0,9×0,9=0,729, es decir, un descuento real del 27,1%.",
     "error_comun": "Se suman los tres porcentajes (10%−5%+8%=13%) confiando en que es una aproximación suficientemente exacta, sin calcular el valor real multiplicando los tres factores, lo que puede llevar a una respuesta numéricamente incorrecta en un problema que pide el valor exacto.",
-    "tipo_visual": "ninguno",
+    "tipo_visual": "tabla",
     "visual_descripcion": "",
     "formula_latex": "",
     "dificultad": "alta",
     "prereqs": [
       "RC-CTX-001",
       "RC-CTX-002"
-    ]
+    ],
+    "visual_posicion": "reverso",
+    "tabla_filas": {
+      "columnas": [
+        "Año",
+        "Cambio",
+        "Salario"
+      ],
+      "filas": [
+        [
+          "Inicial",
+          "",
+          "$2.000.000"
+        ],
+        [
+          "1",
+          "+10%",
+          "$2.200.000"
+        ],
+        [
+          "2",
+          "−5%",
+          "$2.090.000"
+        ],
+        [
+          "3",
+          "+8%",
+          "$2.257.200"
+        ]
+      ]
+    }
   },
   {
     "id": "RC-CTX-004",
@@ -185,16 +215,122 @@
     "despues": "",
     "pregunta": "Se invierten $5.000.000 durante 10 años a una tasa del 6% anual. Compara (aproximadamente) el monto final con interés simple contra interés compuesto, y explica por qué la diferencia crece con el tiempo.",
     "respuesta": "Con interés simple: 5.000.000×(1+0,06×10)=5.000.000×1,6=$8.000.000. Con interés compuesto: 5.000.000×(1,06)¹⁰≈5.000.000×1,7908≈$8.954.000. La diferencia (unos $954.000) existe porque en el interés compuesto, cada año se gana interés también sobre los intereses acumulados de años anteriores, un efecto que se acumula y crece cada vez más mientras más tiempo pase.",
-    "regla": "Mientras más tiempo transcurra, mayor es la diferencia entre el **interés simple y el interés compuesto** (a la misma tasa), porque el [[RC-R-interes-compuesto|interés compuesto]] crece de forma exponencial (cada vez más rápido) mientras que el interés simple crece de forma constante (lineal); a plazos cortos la diferencia es pequeña, pero a plazos largos puede ser muy significativa.",
+    "regla": "Mientras más tiempo transcurra, mayor es la diferencia entre el **interés simple y el interés compuesto** (a la misma tasa), porque el [[RC-R-interes-compuesto|interés compuesto]] crece de forma exponencial (cada vez más rápido) mientras que el interés simple crece de forma constante (lineal); a plazos cortos la diferencia es pequeña, pero a plazos largos puede ser muy significativa. En la gráfica, las dos curvas arrancan juntas y la del interés compuesto se va separando cada año.",
     "ejemplo": "A 1 año, la diferencia entre interés simple y compuesto es mínima o nula; a 30 años, con la misma tasa, el monto con interés compuesto puede ser varias veces mayor que con interés simple.",
     "error_comun": "Se asume que la diferencia entre interés simple y compuesto es siempre pequeña o poco relevante, sin considerar que esa diferencia depende fuertemente del plazo: a mayor tiempo, el interés compuesto se distancia mucho más del simple.",
-    "tipo_visual": "ninguno",
+    "tipo_visual": "grafica_datos",
     "visual_descripcion": "",
     "formula_latex": "",
     "dificultad": "alta",
     "prereqs": [
       "RC-CTX-005"
-    ]
+    ],
+    "visual_posicion": "reverso",
+    "grafica_datos_estructurados": {
+      "tipoGrafico": "lineas",
+      "ejeX": "Años",
+      "ejeY": "Monto ($)",
+      "series": [
+        {
+          "nombre": "Interés simple",
+          "datos": [
+            {
+              "x": 0,
+              "y": 5000000
+            },
+            {
+              "x": 1,
+              "y": 5300000
+            },
+            {
+              "x": 2,
+              "y": 5600000
+            },
+            {
+              "x": 3,
+              "y": 5900000
+            },
+            {
+              "x": 4,
+              "y": 6200000
+            },
+            {
+              "x": 5,
+              "y": 6500000
+            },
+            {
+              "x": 6,
+              "y": 6800000
+            },
+            {
+              "x": 7,
+              "y": 7100000
+            },
+            {
+              "x": 8,
+              "y": 7400000
+            },
+            {
+              "x": 9,
+              "y": 7700000
+            },
+            {
+              "x": 10,
+              "y": 8000000
+            }
+          ]
+        },
+        {
+          "nombre": "Interés compuesto",
+          "datos": [
+            {
+              "x": 0,
+              "y": 5000000
+            },
+            {
+              "x": 1,
+              "y": 5300000
+            },
+            {
+              "x": 2,
+              "y": 5618000
+            },
+            {
+              "x": 3,
+              "y": 5955080
+            },
+            {
+              "x": 4,
+              "y": 6312385
+            },
+            {
+              "x": 5,
+              "y": 6691128
+            },
+            {
+              "x": 6,
+              "y": 7092596
+            },
+            {
+              "x": 7,
+              "y": 7518151
+            },
+            {
+              "x": 8,
+              "y": 7969240
+            },
+            {
+              "x": 9,
+              "y": 8447395
+            },
+            {
+              "x": 10,
+              "y": 8954238
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "RC-CTX-007",
@@ -364,16 +500,39 @@
     "despues": "",
     "pregunta": "En una ciudad, se observa que los meses con más ventas de helado son también los meses con más casos de ahogamiento en piscinas y playas. ¿Esto significa que comer helado causa ahogamientos? Si no, ¿qué explica esta correlación?",
     "respuesta": "No, comer helado no causa ahogamientos. La correlación se explica por una tercera variable (una variable de confusión): la temperatura. En los meses más calurosos, tanto las ventas de helado como las visitas a piscinas y playas (y por tanto el riesgo de ahogamiento) aumentan juntas, sin que una cause a la otra directamente.",
-    "regla": "Una **variable de confusión** (o tercera variable) es un factor que influye simultáneamente sobre las dos variables que parecen estar relacionadas, creando una [[RC-R-correlacion-causalidad|correlación]] que no representa una relación causal directa entre ellas; identificar esa posible tercera variable es clave antes de aceptar una explicación causal simple.",
+    "regla": "Una **variable de confusión** (o tercera variable) es un factor que influye simultáneamente sobre las dos variables que parecen estar relacionadas, creando una [[RC-R-correlacion-causalidad|correlación]] que no representa una relación causal directa entre ellas; identificar esa posible tercera variable es clave antes de aceptar una explicación causal simple. La columna de temperatura de la tabla es la variable de confusión que explica las otras dos.",
     "ejemplo": "Los pueblos con más iglesias suelen tener también más bares; esto no significa que las iglesias causen bares (ni viceversa), sino que ambos números están relacionados con una tercera variable: el tamaño de la población del pueblo.",
     "error_comun": "Se busca una relación causal directa entre las dos variables observadas, sin preguntarse si existe alguna tercera variable (como la época del año, el tamaño de la población, o el nivel económico) que pueda explicar por qué ambas cambian juntas.",
-    "tipo_visual": "ninguno",
+    "tipo_visual": "tabla",
     "visual_descripcion": "",
     "formula_latex": "",
     "dificultad": "media",
     "prereqs": [
       "RC-CTX-012"
-    ]
+    ],
+    "visual_posicion": "reverso",
+    "tabla_filas": {
+      "columnas": [
+        "Mes",
+        "Ventas de helado",
+        "Ahogamientos",
+        "Temperatura"
+      ],
+      "filas": [
+        [
+          "Enero",
+          "Bajas",
+          "Pocos",
+          "Fría"
+        ],
+        [
+          "Julio",
+          "Altas",
+          "Muchos",
+          "Calurosa"
+        ]
+      ]
+    }
   },
   {
     "id": "RC-CTX-014",
@@ -696,16 +855,36 @@
     "despues": "",
     "pregunta": "Un titular de noticias dice: 'Consumir cierto alimento duplica el riesgo de desarrollar una enfermedad rara'. Si se investiga y se encuentra que el riesgo base de esa enfermedad es de 1 en 50.000 personas por año, ¿qué significa realmente 'duplicar el riesgo' en términos absolutos, y por qué el titular puede ser engañoso sin este dato?",
     "respuesta": "Duplicar el riesgo significa pasar de 1 en 50.000 a 2 en 50.000 (es decir, de 0,002% a 0,004% de probabilidad anual), un cambio absoluto extremadamente pequeño, aunque suene alarmante como 'el doble de riesgo'. El titular es engañoso sin el dato del riesgo base porque 'duplicar' un riesgo ya minúsculo sigue dejando un riesgo minúsculo, mientras que el titular por sí solo puede hacer pensar en un peligro mucho más significativo.",
-    "regla": "Antes de reaccionar ante una afirmación de **riesgo relativo** (duplicar, triplicar, aumentar un X%), es fundamental conocer el riesgo absoluto de base sobre el que se aplica ese cambio; un [[RC-R-riesgo-relativo-absoluto|riesgo relativo]] grande sobre una base absoluta diminuta sigue siendo, en términos prácticos, un riesgo diminuto, y esta distinción es clave para tomar decisiones informadas (de salud, de seguridad, financieras) sin dejarse llevar por titulares alarmistas.",
+    "regla": "Antes de reaccionar ante una afirmación de **riesgo relativo** (duplicar, triplicar, aumentar un X%), es fundamental conocer el riesgo absoluto de base sobre el que se aplica ese cambio; un [[RC-R-riesgo-relativo-absoluto|riesgo relativo]] grande sobre una base absoluta diminuta sigue siendo, en términos prácticos, un riesgo diminuto, y esta distinción es clave para tomar decisiones informadas (de salud, de seguridad, financieras) sin dejarse llevar por titulares alarmistas. La tabla muestra que \"el doble\" lleva el riesgo de 0,002% a 0,004%.",
     "ejemplo": "Un estudio que reporta 'el riesgo aumenta un 300%' de una complicación que originalmente afecta a 1 de cada 100.000 personas implica un riesgo final de apenas 4 en 100.000, mientras que el mismo 300% de aumento sobre un riesgo base de 1 en 10 (uno mucho más común) sí representaría un cambio absoluto grande y realmente preocupante.",
     "error_comun": "Se reacciona ante el porcentaje de cambio relativo (300%, el doble, etc.) sin buscar o exigir el dato del riesgo absoluto de base, lo que hace posible que titulares técnicamente correctos, pero incompletos, generen una alarma desproporcionada respecto al riesgo real.",
-    "tipo_visual": "ninguno",
+    "tipo_visual": "tabla",
     "visual_descripcion": "",
     "formula_latex": "",
     "dificultad": "alta",
     "prereqs": [
       "RC-CTX-027"
-    ]
+    ],
+    "visual_posicion": "reverso",
+    "tabla_filas": {
+      "columnas": [
+        "",
+        "Sin el alimento",
+        "Con el alimento"
+      ],
+      "filas": [
+        [
+          "Riesgo absoluto",
+          "1 en 50.000 (0,002%)",
+          "2 en 50.000 (0,004%)"
+        ],
+        [
+          "Riesgo relativo",
+          "referencia",
+          "el doble"
+        ]
+      ]
+    }
   },
   {
     "id": "RC-CTX-029",
