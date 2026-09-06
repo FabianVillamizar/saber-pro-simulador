@@ -66,7 +66,7 @@
     "formato": "mcq",
     "enunciado": "Un estudiante dice haber 'replicado' el experimento de un compañero porque usó las mismas sustancias y llegó a una conclusión parecida, aunque cambió el orden en que las mezcló y no registró la temperatura del laboratorio ese día. ¿Es esto una verdadera réplica experimental?",
     "opciones": [
-      "No, porque no controló todas las variables que pudieron afectar el resultado",
+      "No, porque no controló todas las variables relevantes",
       "Sí, porque usó exactamente los mismos reactivos",
       "Sí, porque llegar a una conclusión parecida ya es suficiente",
       "No, porque una réplica siempre debe hacerla la misma persona"
@@ -81,9 +81,9 @@
     "formato": "mcq",
     "enunciado": "En un ensayo clínico ya existe un grupo control que recibe placebo, pero tanto los pacientes como el médico que evalúa el dolor saben quién recibió el medicamento real. ¿Qué debilidad tiene este diseño a pesar de tener grupo control?",
     "opciones": [
-      "La muestra es demasiado pequeña",
-      "Falta cegamiento, así que la expectativa puede sesgar el resultado",
-      "No hay certeza de que el placebo sea inerte",
+      "La muestra de pacientes es demasiado pequeña para concluir",
+      "Falta cegamiento; la expectativa sesga el resultado",
+      "No hay certeza de que el placebo usado sea del todo inerte",
       "Falta un segundo grupo control"
     ],
     "correcta": 1,
@@ -98,7 +98,7 @@
     "opciones": [
       "Porque duró más semanas que una observación puntual",
       "Porque midió a más personas que el primer estudio",
-      "Porque la asignación al azar reparte otras diferencias por igual entre los grupos",
+      "Porque el azar iguala las demás diferencias entre los grupos",
       "Porque preguntó directamente cómo se sentían los participantes"
     ],
     "correcta": 2,
@@ -141,8 +141,8 @@
     "formato": "mcq",
     "enunciado": "Para saber si un nuevo pienso mejora el peso de pollos de engorde, un granjero compara pollos que ya comen ese pienso en una granja con pollos de otra granja distinta que nunca lo han comido. ¿Qué cambio metodológico reduciría mejor la incertidumbre sobre el efecto real del pienso?",
     "opciones": [
-      "Observar a más pollos en cada una de las dos granjas",
-      "Medir a los mismos pollos antes y después, o asignar el pienso al azar",
+      "Observar a bastantes más pollos en cada una de las dos granjas",
+      "Pesar los mismos pollos antes y después de dar el pienso",
       "Pesar a los pollos con una balanza más precisa",
       "Extender el estudio por más semanas"
     ],
@@ -218,7 +218,7 @@
     "opciones": [
       "Sí, el orden de la descripción no importa",
       "Sí, el eje horizontal siempre depende del vertical",
-      "No, la gráfica muestra cómo cambia la altura según el agua añadida",
+      "No: la altura cambia según el agua, no al revés",
       "No se puede saber sin conocer el tipo de planta"
     ],
     "correcta": 2,
@@ -336,10 +336,10 @@
     "formato": "mcq",
     "enunciado": "Un estudiante varía la temperatura del agua y mide cuánto tarda en disolverse completamente una tableta efervescente, manteniendo fijos el tamaño de la tableta y el volumen de agua. ¿Cuál es la variable dependiente en este experimento?",
     "opciones": [
-      "La temperatura del agua",
-      "El tamaño de la tableta",
-      "El tiempo que tarda en disolverse la tableta",
-      "El volumen de agua"
+      "La temperatura del agua, que se va subiendo",
+      "El tamaño inicial de la tableta efervescente",
+      "El tiempo en disolverse la tableta",
+      "El volumen de agua del vaso"
     ],
     "correcta": 2,
     "explicacion": "La variable dependiente es la que se mide como consecuencia del cambio, aquí el tiempo de disolución; la temperatura es la independiente porque el estudiante la manipula a propósito. El tamaño de la tableta y el volumen de agua son variables controladas, mantenidas fijas justamente para que el resultado se deba solo a la temperatura."
@@ -578,7 +578,7 @@
     "opciones": [
       "No, nunca es válido comparar intensidades entre muestras",
       "Solo si además se conociera el color de las soluciones",
-      "Sí, bajo esas condiciones controladas la señal suele ser proporcional",
+      "Sí, en esas condiciones la señal es proporcional",
       "No, cada muestra tiene un coeficiente de absorción distinto"
     ],
     "correcta": 2,
@@ -771,7 +771,7 @@
     "formato": "mcq",
     "enunciado": "Un resultado sale al revés de lo que predice el modelo. Un estudiante quiere una hipótesis que se pueda poner a prueba. ¿Cuál sirve?",
     "opciones": [
-      "'Se midió antes de llegar al nuevo equilibrio; esperar más debería corregir el valor'",
+      "'Se midió antes del equilibrio; esperar más lo corregiría'",
       "'El equipo de medición no estaba bien calibrado ese día en particular'",
       "'Hubo un error en algún punto del montaje que no se logró identificar'",
       "'El modelo simplemente no se aplica a esta reacción concreta'"
@@ -921,8 +921,8 @@
     "formato": "mcq",
     "enunciado": "Un estudiante compara dos grupos de plantas: al grupo A le da más agua Y más luz que al grupo B, y el A crece más. ¿Por qué este diseño no permite concluir qué causó la diferencia?",
     "opciones": [
-      "El número de plantas por grupo es insuficiente",
-      "Cambió dos variables a la vez y el efecto no se puede separar",
+      "El número de plantas por grupo es demasiado bajo para concluir",
+      "Cambió dos variables a la vez y no se puede separar el efecto",
       "No midió el crecimiento todos los días",
       "No usó la misma especie en ambos grupos"
     ],
@@ -998,7 +998,7 @@
     "opciones": [
       "Contar el número de burbujas que se forman",
       "Medir la temperatura antes y después",
-      "Pesar el sistema cerrado antes y después de la reacción",
+      "Pesar el sistema cerrado antes y después",
       "Medir el color de la mezcla al final"
     ],
     "correcta": 2,
@@ -1011,7 +1011,7 @@
     "formato": "mcq",
     "enunciado": "El volumen y la temperatura de un gas cambian al mismo tiempo. Un estudiante calcula el efecto del volumen con la ley de Boyle y luego, aparte, el de la temperatura. ¿Por qué falla esa estrategia?",
     "opciones": [
-      "Cada ley supone su tercera variable fija, y aquí ninguna lo está",
+      "Cada ley da por fija la variable que la otra cambia",
       "La ley de Boyle no aplica a gases reales",
       "Falta conocer la masa molar del gas",
       "El orden de los cálculos altera el resultado final"
@@ -1209,7 +1209,7 @@
       "Ninguno de los dos tiene un significado especial en la curva",
       "25 mL es la media equivalencia; 12,5 mL es el punto de equivalencia",
       "Los dos puntos marcan el punto de equivalencia con distinta precisión",
-      "25 mL es la equivalencia; 12,5 mL la media equivalencia, donde el pH iguala al pKa"
+      "25 mL es la equivalencia; 12,5 mL la media equivalencia (pH = pKa)"
     ],
     "correcta": 3,
     "explicacion": "El salto brusco marca la equivalencia, donde la base neutralizó todo el ácido. A la mitad de ese volumen, ácido y base conjugada están en igual cantidad y el pH coincide con el pKa."
@@ -1402,7 +1402,7 @@
     "enunciado": "En el CO₂ se dice que el carbono tiene número de oxidación +4 y cada oxígeno −2, aunque el CO₂ es covalente y no hay iones C⁴⁺ ni O²⁻ reales. ¿Cómo se concilia esto?",
     "opciones": [
       "En el CO₂ los enlaces son en realidad iónicos",
-      "El número de oxidación es un conteo formal, no la carga real del átomo",
+      "El número de oxidación es un conteo formal, no carga real",
       "El número de oxidación siempre es igual a la carga real",
       "Es un error de la tabla de números de oxidación"
     ],
@@ -1417,7 +1417,7 @@
     "enunciado": "El modelo VSEPR predice 109,5° para cuatro dominios de electrones, pero el NH₃ mide ~107° y el H₂O ~104,5°. ¿Qué indica esa diferencia?",
     "opciones": [
       "Que el modelo VSEPR está equivocado de raíz y no debería seguir usándose nunca",
-      "Que el modelo base es una aproximación, y los pares solitarios que omite explican la desviación",
+      "Que el modelo es aproximado y los pares solitarios omitidos explican la desviación",
       "Que las mediciones de esos ángulos de enlace son poco confiables o están mal hechas",
       "Que el NH₃ y el H₂O no tienen realmente cuatro dominios de electrones alrededor"
     ],
@@ -1478,7 +1478,7 @@
     "opciones": [
       "Ninguno: el crecimiento de bacterias no se puede modelar",
       "El exponencial, porque toda población empieza creciendo rápido",
-      "El logístico, que añade una capacidad de carga por los recursos limitados",
+      "El logístico, porque los recursos limitados imponen un techo",
       "El exponencial, porque el frasco es un sistema cerrado"
     ],
     "correcta": 2,
