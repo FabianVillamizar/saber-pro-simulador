@@ -98,6 +98,13 @@ export const indiceModulos = {
     // disparador y el popover con el índigo-tinta propio `--rc-accent`.
     reglasEnContexto: true,
     acentoReglas: 'rc',
+    reglasVistazo: {
+      titulo: 'Reglas de un vistazo',
+      tileDescripcion:
+        'Las 50 reglas del módulo en una hoja: álgebra y cálculo, contexto aplicado, estadística y probabilidad, y geometría.',
+      intro:
+        'las reglas, principios y trampas de contexto de los cuatro núcleos, agrupadas por tema. Son las mismas que abre el popover al tocar un término subrayado en Repaso de conceptos y en Lápiz y papel.',
+    },
   },
   'lectura-critica': {
     id: 'lectura-critica',
@@ -148,6 +155,13 @@ export const indiceModulos = {
     // Competencias Ciudadanas.
     renderizaFormulas: true,
     acentoReglas: 'lc',
+    reglasVistazo: {
+      titulo: 'Reglas de un vistazo',
+      tileDescripcion:
+        'Las 56 reglas del módulo en una hoja: figuras retóricas, estrategias de lectura, falacias y herramientas de evaluación crítica.',
+      intro:
+        'las figuras retóricas, las estrategias de lectura y las herramientas de evaluación crítica, incluidas las nueve falacias con nombre propio, agrupadas por tema. Son las mismas que abre el popover al tocar un término subrayado en el Quiz Rápido y en Repaso de conceptos.',
+    },
   },
   'competencias-ciudadanas': {
     id: 'competencias-ciudadanas',
@@ -181,6 +195,13 @@ export const indiceModulos = {
     // institucional propio `--cc-accent`.
     renderizaFormulas: true,
     acentoReglas: 'cc',
+    reglasVistazo: {
+      titulo: 'Reglas de un vistazo',
+      tileDescripcion:
+        'Las 56 reglas del módulo en una hoja: argumentación y falacias, multiperspectivismo, pensamiento sistémico y la Constitución.',
+      intro:
+        'las normas y principios constitucionales, los tipos de falacia y las herramientas de multiperspectivismo y pensamiento sistémico, agrupados por tema. Son los mismos que abre el popover al tocar un término subrayado en el Quiz Rápido y en Repaso de conceptos.',
+    },
   },
   'comunicacion-escrita': {
     id: 'comunicacion-escrita',

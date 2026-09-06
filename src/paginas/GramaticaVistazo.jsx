@@ -25,6 +25,60 @@ const GRUPOS_INGLES = [
   { id: 'vocabulario', label: 'Vocabulario' },
 ]
 
+// Módulos cuyo rulebook no trae `grupo` en cada regla y cuyos ids son
+// demasiado granulares para agrupar por prefijo (37+ prefijos en CC/RC):
+// se derivan grupos temáticos por el patrón del id de la regla. Cada regla
+// cae en el primer grupo cuyo `re` casa con su id; el orden es el de
+// despliegue. Diosgenina/Inglés no están aquí porque sus reglas sí traen
+// `grupo` o el prefijo ya sirve.
+const GRUPOS_DERIVADOS = {
+  'lectura-critica': [
+    { id: 'fig', label: 'Figuras retóricas', re: /^LC-R-fig-/ },
+    { id: 'fun', label: 'Estrategias fundamentales de lectura', re: /^LC-R-fun-/ },
+    { id: 'glo', label: 'Estrategias discursivas', re: /^LC-R-glo-/ },
+    { id: 'fal', label: 'Falacias', re: /^LC-R-fal-/ },
+    { id: 'ref', label: 'Herramientas de evaluación crítica', re: /^LC-R-ref-/ },
+  ],
+  'competencias-ciudadanas': [
+    { id: 'arg', label: 'Argumentación y falacias', re: /^CC-R-(arg|fal)-/ },
+    {
+      id: 'mul',
+      label: 'Multiperspectivismo',
+      re: /^CC-R-(posicion|postura|acuerdos|interseccion|cosmovision|rol-institucional|cambio-postura|tension-derechos)/,
+    },
+    {
+      id: 'sis',
+      label: 'Pensamiento sistémico',
+      re: /^CC-R-(dimensiones|relaciones-dimensiones|transferibilidad|consecuencias|dimension-desatendida|tradeoffs|escala-temporal|dilema)/,
+    },
+    { id: 'con', label: 'Constitución y estructura del Estado', re: /^CC-R-/ },
+  ],
+  'razonamiento-cuantitativo': [
+    {
+      id: 'alg',
+      label: 'Álgebra y cálculo',
+      re: /^RC-R-(porcentaje|cambio-porcentual|factor-multiplicativo|notacion-cientifica|relacion-lineal|razon-de-cambio|conversion|reparto|costo-por-unidad|progresion|serie-geometrica|aritmetica-vs|regla-de-tres)/,
+    },
+    {
+      id: 'ctx',
+      label: 'Contexto aplicado',
+      re: /^RC-R-(variaciones|subir-bajar|interes|regla-del-72|promedio-ponderado|riesgo|proporcionalidad|tasas-que-se-suman|notacion-nueva|correlacion|eje-truncado)/,
+    },
+    {
+      id: 'est',
+      label: 'Estadística y probabilidad',
+      re: /^RC-R-(probabilidad|principio-mult|principio-suma|media-y-rango|muestra|conjuntos|extrapolacion|tendencia|falacia-tasa|falacia-del-jugador)/,
+    },
+    { id: 'geo', label: 'Geometría', re: /^RC-R-/ },
+  ],
+}
+
+function grupoDerivado(moduloId, regla) {
+  const mapa = GRUPOS_DERIVADOS[moduloId]
+  if (!mapa) return regla.grupo ?? '__todas'
+  return mapa.find((g) => g.re.test(regla.id))?.id ?? mapa[mapa.length - 1].id
+}
+
 const INTRO_POR_DEFECTO =
   'Las mismas que abre el popover al tocar un término subrayado en el Quiz Rápido y en Repaso de conceptos, aquí todas juntas.'
 
@@ -50,6 +104,11 @@ export function GramaticaVistazo({ moduloId, perfil, onCambiarPerfil, onVolver }
     if (!modulo) return []
     const usaInglesGrupos = reglas.some((r) => r.grupo === 'gramatica' || r.grupo === 'vocabulario')
     if (usaInglesGrupos) return GRUPOS_INGLES
+    const mapaDerivado = GRUPOS_DERIVADOS[moduloId]
+    if (mapaDerivado) {
+      const usados = new Set(reglas.map((r) => grupoDerivado(moduloId, r)))
+      return mapaDerivado.filter((g) => usados.has(g.id))
+    }
     const vistos = []
     for (const r of reglas) {
       const g = r.grupo ?? '__todas'
@@ -57,7 +116,7 @@ export function GramaticaVistazo({ moduloId, perfil, onCambiarPerfil, onVolver }
     }
     if (vistos.length === 1 && vistos[0] === '__todas') return [{ id: '__todas', label: null }]
     return vistos.map((g) => ({ id: g, label: modulo.categorias?.[g] ?? g }))
-  }, [modulo, reglas])
+  }, [modulo, moduloId, reglas])
 
   if (cargando) return <div className="page estado-carga">Cargando…</div>
   if (error) return <div className="page estado-error">No se pudo cargar el módulo: {error.message}</div>
@@ -65,10 +124,11 @@ export function GramaticaVistazo({ moduloId, perfil, onCambiarPerfil, onVolver }
   const titulo = modulo.reglasVistazo?.titulo ?? 'Gramática de un vistazo'
   const intro = modulo.reglasVistazo?.intro ?? INTRO_POR_DEFECTO
   const visibles = nivel ? reglas.filter((r) => r.nivel === nivel) : reglas
+  const usaDerivado = Boolean(GRUPOS_DERIVADOS[moduloId])
   const gruposConReglas = grupos
     .map((g) => ({
       ...g,
-      reglas: visibles.filter((r) => (r.grupo ?? '__todas') === g.id),
+      reglas: visibles.filter((r) => (usaDerivado ? grupoDerivado(moduloId, r) : (r.grupo ?? '__todas')) === g.id),
     }))
     .filter((g) => g.reglas.length)
 

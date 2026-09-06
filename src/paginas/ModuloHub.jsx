@@ -92,7 +92,17 @@ function modoReglasVistazo(modulo) {
       'Todas las reglas del módulo en una hoja: tiempos, condicionales, modales, preposiciones y patrones de vocabulario, filtrables por nivel.',
   }
 }
-const MODULOS_CON_REGLAS_VISTAZO = new Set(['ingles', 'diosgenina'])
+const MODULOS_CON_REGLAS_VISTAZO = new Set([
+  'ingles',
+  'diosgenina',
+  // Los tres genéricos con "Reglas en contexto" y un rulebook completo:
+  // GramaticaVistazo.jsx deriva sus grupos temáticos del id de cada regla
+  // (ver GRUPOS_DERIVADOS ahí), y la copia del tile sale de `reglasVistazo`
+  // en indiceModulos.js.
+  'competencias-ciudadanas',
+  'lectura-critica',
+  'razonamiento-cuantitativo',
+])
 
 // Comunicación Escrita tampoco es un módulo de opción múltiple: el ICFES
 // evalúa un ensayo argumentativo completo, así que sus modos propios
