@@ -1,0 +1,1366 @@
+[
+  {
+    "id": "RC-QR-001",
+    "tarjetaId": "RC-ALG-001",
+    "categoria": "interpretacion_representacion",
+    "formato": "mcq",
+    "enunciado": "En un salón hay 12 hombres y 18 mujeres. ¿Cuál expresión es la razón de hombres a mujeres?",
+    "opciones": [
+      "18 : 12, que se simplifica a 3 : 2",
+      "12 / 30 expresado como porcentaje",
+      "12 : 18, que se simplifica a 2 : 3",
+      "12 : 30, comparando hombres con el total"
+    ],
+    "correcta": 2,
+    "explicacion": "Una **razón parte-parte** compara dos subgrupos entre sí, así que el denominador es el otro grupo (18 mujeres), no el total. 12 : 18 se simplifica dividiendo ambos términos entre 6."
+  },
+  {
+    "id": "RC-QR-002",
+    "tarjetaId": "RC-ALG-001",
+    "categoria": "interpretacion_representacion",
+    "formato": "mcq",
+    "enunciado": "De 30 personas, 12 son hombres. Alguien dice: 'la razón de hombres a mujeres es 12/30'. ¿Qué falla en esa afirmación?",
+    "opciones": [
+      "12/30 ya está mal simplificada y debería ser 2/5",
+      "12/30 es la fracción respecto al total, no la razón",
+      "no falla nada: 12/30 es la forma correcta de la razón",
+      "debería escribirse como 30/12 para que sea una razón válida"
+    ],
+    "correcta": 1,
+    "explicacion": "El denominador 30 es el total de personas, así que 12/30 es una **fracción parte-todo**. La razón hombres : mujeres compara solo los dos subgrupos: 12 : 18, o sea 2 : 3."
+  },
+  {
+    "id": "RC-QR-003",
+    "tarjetaId": "RC-ALG-002",
+    "categoria": "formulacion_ejecucion",
+    "formato": "fill",
+    "enunciado": "Completa: toda fracción se convierte a decimal dividiendo el numerador entre el denominador, y ese decimal se convierte a porcentaje multiplicándolo por ___ .",
+    "antes": "el decimal se convierte a porcentaje multiplicándolo por",
+    "despues": "(y se agrega el símbolo %)",
+    "respuesta": "100",
+    "explicacion": "Fracción, decimal y porcentaje son tres formas del **mismo valor**. Se divide primero (a ÷ b) y luego se multiplica el resultado por 100."
+  },
+  {
+    "id": "RC-QR-004",
+    "tarjetaId": "RC-ALG-003",
+    "categoria": "formulacion_ejecucion",
+    "formato": "mcq",
+    "enunciado": "¿Cuánto es el 15% de 200?",
+    "opciones": [
+      "13,33, dividiendo 200 entre 15",
+      "1.333, porque 200 ÷ 15 × 100",
+      "30, porque 200 × 15 ÷ 100 = 30",
+      "3.000, multiplicando 200 por 15"
+    ],
+    "correcta": 2,
+    "explicacion": "El X% de una cantidad es la cantidad por X dividido entre 100: 200 × 15 ÷ 100 = 30. Multiplicar directo por 15 olvida que el porcentaje significa 'de cada 100'."
+  },
+  {
+    "id": "RC-QR-005",
+    "tarjetaId": "RC-ALG-004",
+    "categoria": "formulacion_ejecucion",
+    "formato": "mcq",
+    "enunciado": "Un soluto de 12 g es el 8% de la masa total de una solución. ¿Cuál es la masa total?",
+    "opciones": [
+      "150 g, dividiendo 12 entre 0,08",
+      "0,96 g, multiplicando 12 por 0,08",
+      "104 g, sumando 12 más el 8% restante",
+      "1.500 g, multiplicando 12 por 100 y entre 8"
+    ],
+    "correcta": 0,
+    "explicacion": "Se conoce la parte y el porcentaje que representa, y se pide el total: se **divide** la parte entre el porcentaje como decimal. 12 ÷ 0,08 = 150. Multiplicar sería hallar el porcentaje de un total ya conocido."
+  },
+  {
+    "id": "RC-QR-006",
+    "tarjetaId": "RC-ALG-007",
+    "categoria": "formulacion_ejecucion",
+    "formato": "mcq",
+    "enunciado": "Sin calculadora, ¿cuál fracción es mayor: 5/8 o 7/11?",
+    "opciones": [
+      "5/8, porque su numerador y denominador son más pequeños",
+      "son iguales, porque ambas están cerca de un medio",
+      "7/11, porque 7 × 8 = 56 es mayor que 5 × 11 = 55",
+      "5/8, porque 8 es mayor que 11 no, y 5 es menor"
+    ],
+    "correcta": 2,
+    "explicacion": "Con **multiplicación cruzada** se comparan 5 × 11 = 55 y 7 × 8 = 56. El producto cruzado mayor corresponde a la fracción mayor, así que 7/11 > 5/8."
+  },
+  {
+    "id": "RC-QR-007",
+    "tarjetaId": "RC-ALG-006",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Para simplificar la razón 15 : 25, alguien divide solo el primer término entre 5 y escribe 3 : 25. ¿Qué error cometió?",
+    "opciones": [
+      "dividió un solo término y cambió el valor de la razón",
+      "debió multiplicar ambos términos por 5 en lugar de dividir",
+      "ninguno: 3 : 25 es la forma más simple de 15 : 25",
+      "usó 5 en vez del máximo común divisor, que es 3"
+    ],
+    "correcta": 0,
+    "explicacion": "Simplificar exige dividir **ambos** términos entre el mismo factor. 15 : 25 dividido entre 5 en los dos términos da 3 : 5, que sí conserva la relación."
+  },
+  {
+    "id": "RC-QR-008",
+    "tarjetaId": "RC-ALG-008",
+    "categoria": "formulacion_ejecucion",
+    "formato": "mcq",
+    "enunciado": "¿Cuánto vale la expresión 3 + 4 × 2?",
+    "opciones": [
+      "11, resolviendo 4 × 2 antes que la suma",
+      "14, sumando 3 + 4 y multiplicando por 2",
+      "24, multiplicando todos los números",
+      "9, restando en vez de operar en orden"
+    ],
+    "correcta": 0,
+    "explicacion": "El **orden de operaciones** resuelve la multiplicación antes que la suma: 4 × 2 = 8, luego 3 + 8 = 11. Ir de izquierda a derecha sin jerarquía da 14, que es incorrecto."
+  },
+  {
+    "id": "RC-QR-009",
+    "tarjetaId": "RC-ALG-009",
+    "categoria": "formulacion_ejecucion",
+    "formato": "mcq",
+    "enunciado": "Aplicando la propiedad distributiva, ¿a qué equivale 5 × (20 + 3)?",
+    "opciones": [
+      "5 × 23, que no se puede resolver sin calculadora",
+      "5 × 20 + 3, que da 103",
+      "5 × 20 + 5 × 3, que da 115",
+      "5 + 20 × 5 + 3, que da 108"
+    ],
+    "correcta": 2,
+    "explicacion": "La distributiva reparte la multiplicación entre **cada** término del paréntesis: 5 × 20 + 5 × 3 = 100 + 15 = 115. Multiplicar solo por el primer término deja fuera el 5 × 3."
+  },
+  {
+    "id": "RC-QR-010",
+    "tarjetaId": "RC-ALG-010",
+    "categoria": "interpretacion_representacion",
+    "formato": "fill",
+    "enunciado": "En notación científica un número se escribe como a × 10 elevado a n, donde el coeficiente a debe ser mayor o igual a 1 y menor que ___ .",
+    "antes": "el coeficiente a debe ser mayor o igual a 1 y menor que",
+    "despues": "y n es un exponente entero",
+    "respuesta": "10",
+    "explicacion": "El rango 1 ≤ a < 10 es la convención. Por eso 45 × 10⁶ está mal escrito: se corrige a 4,5 × 10⁷."
+  },
+  {
+    "id": "RC-QR-011",
+    "tarjetaId": "RC-ALG-011",
+    "categoria": "formulacion_ejecucion",
+    "formato": "mcq",
+    "enunciado": "¿Cuál es el resultado de (3 × 10⁵) × (2 × 10³) en notación científica?",
+    "opciones": [
+      "6 × 10⁸, sumando los exponentes 5 y 3",
+      "6 × 10¹⁵, multiplicando también los exponentes",
+      "6 × 10², restando los exponentes",
+      "5 × 10⁸, sumando los coeficientes y los exponentes"
+    ],
+    "correcta": 0,
+    "explicacion": "Para multiplicar se multiplican los coeficientes (3 × 2 = 6) y se **suman** los exponentes (5 + 3 = 8). Multiplicar los exponentes confunde la regla con otra propiedad de potencias."
+  },
+  {
+    "id": "RC-QR-012",
+    "tarjetaId": "RC-ALG-012",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "¿Se puede resolver (3 × 10⁵) + (2 × 10⁴) sumando directamente los coeficientes para obtener 5 × 10⁵?",
+    "opciones": [
+      "no: primero hay que igualar los exponentes",
+      "sí: en notación científica siempre se suman los coeficientes",
+      "no: la suma en notación científica es imposible sin calculadora",
+      "sí, pero el resultado correcto sería 5 × 10⁹"
+    ],
+    "correcta": 0,
+    "explicacion": "Para **sumar o restar** los exponentes de 10 deben ser iguales. 2 × 10⁴ = 0,2 × 10⁵, entonces 3 × 10⁵ + 0,2 × 10⁵ = 3,2 × 10⁵."
+  },
+  {
+    "id": "RC-QR-013",
+    "tarjetaId": "RC-ALG-013",
+    "categoria": "interpretacion_representacion",
+    "formato": "mcq",
+    "enunciado": "¿Cuál número es mayor: 9 × 10⁴ o 1 × 10⁵?",
+    "opciones": [
+      "no se pueden comparar sin convertirlos a decimal primero",
+      "1 × 10⁵, porque su exponente es mayor",
+      "son iguales, porque ambos rondan las decenas de miles",
+      "9 × 10⁴, porque su coeficiente 9 es mayor que 1"
+    ],
+    "correcta": 1,
+    "explicacion": "Con coeficientes en rango 1 ≤ a < 10, el número con **mayor exponente** siempre es más grande: 1 × 10⁵ = 100.000 frente a 9 × 10⁴ = 90.000."
+  },
+  {
+    "id": "RC-QR-014",
+    "tarjetaId": "RC-ALG-014",
+    "categoria": "interpretacion_representacion",
+    "formato": "mcq",
+    "enunciado": "Una tarifa se modela con y = 3x + 5, donde x son las horas. ¿Qué representa el 5?",
+    "opciones": [
+      "el costo por cada hora adicional de servicio",
+      "un cargo fijo que se cobra aunque x sea 0",
+      "el descuento que se aplica sobre el total",
+      "la cantidad total de horas contratadas"
+    ],
+    "correcta": 1,
+    "explicacion": "En y = mx + b, el **intercepto** b es el valor de y cuando x = 0: aquí un cargo fijo de 5. La pendiente 3 es el costo por hora."
+  },
+  {
+    "id": "RC-QR-015",
+    "tarjetaId": "RC-ALG-017",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Una tabla da los pares (1, 5), (2, 8), (3, 11), (4, 14). ¿Cómo se comprueba que la relación es lineal sin graficar?",
+    "opciones": [
+      "verificando que y sea siempre el triple de x",
+      "viendo que y crece siempre 3 cuando x crece 1: diferencia constante",
+      "comparando solo el primer par (1, 5) con el último (4, 14)",
+      "comprobando que la suma de x e y sea constante en cada par"
+    ],
+    "correcta": 1,
+    "explicacion": "Una relación es lineal si las diferencias de y para incrementos iguales de x son **constantes**: 8−5 = 11−8 = 14−11 = 3. Esa diferencia constante es la pendiente."
+  },
+  {
+    "id": "RC-QR-016",
+    "tarjetaId": "RC-ALG-019",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "'Toda proporcionalidad directa es lineal, y toda relación lineal es proporcional directa.' ¿Es correcta la afirmación?",
+    "opciones": [
+      "es totalmente correcta: lineal y proporcional directa son lo mismo",
+      "es correcta solo cuando la pendiente es igual a 1",
+      "es totalmente falsa: ninguna proporcionalidad directa es lineal",
+      "es parcialmente correcta: toda proporcional directa es lineal, pero una lineal con b distinto de 0 no es proporcional directa"
+    ],
+    "correcta": 3,
+    "explicacion": "La proporcionalidad directa (y = mx) es un **caso particular** de relación lineal con b = 0. Si b no es 0, la relación sigue siendo lineal pero duplicar x ya no duplica y."
+  },
+  {
+    "id": "RC-QR-017",
+    "tarjetaId": "RC-ALG-016",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Un carro recorre 300 km fijos entre dos ciudades: t = 300 / v. Si la velocidad se duplica, ¿qué pasa con el tiempo?",
+    "opciones": [
+      "aumenta al cuádruple por el efecto de la potencia",
+      "no cambia, porque la distancia sigue siendo la misma",
+      "se duplica, porque v y t cambian en la misma proporción",
+      "se reduce a la mitad: es proporcionalidad inversa"
+    ],
+    "correcta": 3,
+    "explicacion": "t = k/v es **proporcionalidad inversa**: al multiplicar v por 2, t queda dividido entre 2. Es el comportamiento opuesto a la proporcionalidad directa."
+  },
+  {
+    "id": "RC-QR-018",
+    "tarjetaId": "RC-ALG-020",
+    "categoria": "formulacion_ejecucion",
+    "formato": "fill",
+    "enunciado": "Una razón de cambio (o tasa) mide cuánto varía una cantidad por cada unidad que varía ___ cantidad relacionada con ella.",
+    "antes": "por cada unidad que varía",
+    "despues": "cantidad relacionada con ella",
+    "respuesta": "otra",
+    "explicacion": "Ejemplos: pesos por hora, kilómetros por litro, grados por minuto. Se calcula dividiendo el cambio total en una cantidad entre el cambio total en la otra."
+  },
+  {
+    "id": "RC-QR-019",
+    "tarjetaId": "RC-ALG-023",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Un corredor hace 5 km en 20 min y otros 5 km en 30 min. ¿Cuál es su velocidad promedio en los 10 km?",
+    "opciones": [
+      "12,5 km/h, promediando 15 km/h y 10 km/h",
+      "25 km/h, sumando las distancias de cada tramo",
+      "13 km/h, sumando las dos velocidades parciales",
+      "0,2 km/min (12 km/h): distancia total entre tiempo total"
+    ],
+    "correcta": 3,
+    "explicacion": "La velocidad promedio de un recorrido es **distancia total ÷ tiempo total**: 10 km ÷ 50 min. Promediar las velocidades solo vale si los tramos duran lo mismo, y aquí no."
+  },
+  {
+    "id": "RC-QR-020",
+    "tarjetaId": "RC-ALG-024",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Un préstamo tiene interés simple del 24% anual. ¿Es válido decir que la tasa mensual equivalente es 24 ÷ 12 = 2%?",
+    "opciones": [
+      "no, la tasa mensual sería 24% igual que la anual",
+      "sí, y también valdría si el interés fuera compuesto",
+      "sí, el interés simple crece proporcional al tiempo",
+      "no, porque las tasas nunca se pueden prorratear por período"
+    ],
+    "correcta": 2,
+    "explicacion": "Prorratear dividiendo entre el número de períodos solo vale para **interés simple**, que crece linealmente con el tiempo. En interés compuesto el crecimiento es exponencial y ese atajo falla."
+  },
+  {
+    "id": "RC-QR-021",
+    "tarjetaId": "RC-ALG-028",
+    "categoria": "formulacion_ejecucion",
+    "formato": "mcq",
+    "enunciado": "Un fondo de $600.000.000 se reparte en partes iguales entre 5 socios. Un socio falleció y dejó 3 hijos herederos de su parte. ¿Cuánto recibe cada hijo?",
+    "opciones": [
+      "$200.000.000, sumando su parte más la de los socios vivos",
+      "$85.714.285, repartiendo el total entre las 7 personas",
+      "$40.000.000: 120 millones entre los 3 hijos",
+      "$120.000.000, la parte completa de un socio"
+    ],
+    "correcta": 2,
+    "explicacion": "En un **reparto en cascada** primero se halla la parte del socio (600 ÷ 5 = 120 millones) y luego esa parte se divide entre sus 3 hijos: 40 millones cada uno. Los otros 4 socios reciben sus 120 millones sin cambio."
+  },
+  {
+    "id": "RC-QR-022",
+    "tarjetaId": "RC-ALG-029",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "En ese mismo reparto, alguien propone dividir los $600.000.000 en partes iguales entre las 7 personas que reciben algo. ¿Es correcto?",
+    "opciones": [
+      "no: solo la parte del socio fallecido se subdivide",
+      "sí, siempre que los socios vivos estén de acuerdo",
+      "no, pero solo porque los hijos deberían recibir más que los socios",
+      "sí, porque al final hay 7 beneficiarios y todos deben recibir lo mismo"
+    ],
+    "correcta": 0,
+    "explicacion": "El reparto ocurre por **niveles**: los 4 socios vivos conservan su parte de la división entre 5, y solo la rama del socio fallecido se subdivide entre sus hijos. Repartir entre 7 iguala niveles que no son iguales."
+  },
+  {
+    "id": "RC-QR-023",
+    "tarjetaId": "RC-ALG-030",
+    "categoria": "formulacion_ejecucion",
+    "formato": "fill",
+    "enunciado": "Una forma de verificar un reparto es sumar todas las porciones entregadas: esa suma debe ser exactamente igual al ___ original.",
+    "antes": "esa suma debe ser exactamente igual al",
+    "despues": "original que se repartió",
+    "respuesta": "total",
+    "explicacion": "Si la suma de las porciones da más o menos que el total, hay un error en alguna parte del reparto que conviene revisar antes de dar la respuesta por buena."
+  },
+  {
+    "id": "RC-QR-024",
+    "tarjetaId": "RC-ALG-032",
+    "categoria": "formulacion_ejecucion",
+    "formato": "mcq",
+    "enunciado": "Tres planes de gimnasio: 8 clases por $240.000, 12 por $324.000, 16 por $400.000. ¿Cuál tiene el menor costo por clase?",
+    "opciones": [
+      "el de 12 clases, porque está en un punto intermedio",
+      "el de 16 clases: $25.000 por clase, menos que $30.000 y $27.000",
+      "el de 8 clases, porque su precio total es el más bajo",
+      "todos cuestan lo mismo por clase al dividir"
+    ],
+    "correcta": 1,
+    "explicacion": "Se divide el costo total entre las clases de cada plan: 400.000 ÷ 16 = 25.000; 240.000 ÷ 8 = 30.000; 324.000 ÷ 12 = 27.000. El menor precio total no es el mejor por unidad."
+  },
+  {
+    "id": "RC-QR-025",
+    "tarjetaId": "RC-ALG-035",
+    "categoria": "interpretacion_representacion",
+    "formato": "mcq",
+    "enunciado": "Un carro hace 480 km con 40 L; otro hace 350 km con 25 L. ¿Cuál rinde más kilómetros por litro?",
+    "opciones": [
+      "rinden igual, porque ambos gastan gasolina",
+      "el primero, porque recorrió más kilómetros en total",
+      "el segundo: 14 km/L frente a 12 km/L",
+      "el primero, porque tiene el tanque más grande"
+    ],
+    "correcta": 2,
+    "explicacion": "El rendimiento por unidad es distancia ÷ consumo. 14 km/L supera a 12 km/L. Comparar solo la distancia total ignora cuánto combustible usó cada carro."
+  },
+  {
+    "id": "RC-QR-026",
+    "tarjetaId": "RC-ALG-036",
+    "categoria": "formulacion_ejecucion",
+    "formato": "fill",
+    "enunciado": "Un factor de conversión es una fracción que vale exactamente 1; multiplicar por él cambia las ___ de un valor sin cambiar la cantidad real que representa.",
+    "antes": "multiplicar por él cambia las",
+    "despues": "de un valor sin cambiar la cantidad real",
+    "respuesta": "unidades",
+    "explicacion": "1.000 mL / 1 L vale 1 porque numerador y denominador son la misma cantidad. Usarlo al revés da un resultado 1.000 veces distinto."
+  },
+  {
+    "id": "RC-QR-027",
+    "tarjetaId": "RC-ALG-039",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Para pasar 8.000 g a toneladas: Paso 1: 8.000 ÷ 1.000 = 8 kg. Paso 2: 8 × 1.000 = 8.000 t. ¿Dónde está el error?",
+    "opciones": [
+      "en el Paso 1: debió multiplicar por 1.000, no dividir",
+      "no hay error: el procedimiento y el resultado son correctos",
+      "en ambos pasos: la conversión completa es de un solo paso",
+      "en el Paso 2: de kg a toneladas se divide entre 1.000, así que son 0,008 t"
+    ],
+    "correcta": 3,
+    "explicacion": "1 tonelada = 1.000 kg, así que de kg a toneladas se **divide**. El resultado correcto es 8 ÷ 1.000 = 0,008 t. El Paso 1 sí estaba bien."
+  },
+  {
+    "id": "RC-QR-028",
+    "tarjetaId": "RC-ALG-040",
+    "categoria": "argumentacion",
+    "formato": "fill",
+    "enunciado": "Que el resultado final de una conversión coincida con el valor esperado no garantiza que el procedimiento sea válido: se puede llegar al número correcto por ___ si dos errores se cancelan.",
+    "antes": "se puede llegar al número correcto por",
+    "despues": "si dos errores se cancelan entre sí",
+    "respuesta": "casualidad",
+    "explicacion": "Validar un procedimiento es revisar que **cada paso** sea correcto, no solo que el número final calce. Dos errores en pasos distintos pueden compensarse y dar por coincidencia el valor correcto."
+  },
+  {
+    "id": "RC-QR-029",
+    "tarjetaId": "RC-ALG-042",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Una tasa de desempleo pasa de 20% a 25%. Un titular dice 'subió 5%'. ¿Es preciso?",
+    "opciones": [
+      "no: en realidad bajó, porque 25 está más cerca de 100",
+      "sí, y además el aumento relativo también es del 5%",
+      "no: subió 5 puntos porcentuales (25% relativo)",
+      "sí, subió exactamente 5% en todos los sentidos"
+    ],
+    "correcta": 2,
+    "explicacion": "25% − 20% = 5 **puntos porcentuales**. El cambio relativo es 5 ÷ 20 = 25%. Decir '5%' mezcla las dos ideas, un error muy común en medios."
+  },
+  {
+    "id": "RC-QR-030",
+    "tarjetaId": "RC-ALG-043",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Un precio sube 20% un mes y baja 20% al siguiente. ¿Vuelve al valor original?",
+    "opciones": [
+      "no: queda por debajo del valor original",
+      "sí, siempre que el precio inicial sea un número redondo",
+      "no: queda por encima, porque subir pesa más que bajar",
+      "sí, porque el mismo porcentaje de subida y bajada se cancela"
+    ],
+    "correcta": 0,
+    "explicacion": "Con $100: sube a $120, luego baja 20% de $120 (no de $100) = $96. Cada porcentaje se aplica sobre una base distinta, así que nunca se cancela exactamente."
+  },
+  {
+    "id": "RC-QR-031",
+    "tarjetaId": "RC-ALG-044",
+    "categoria": "formulacion_ejecucion",
+    "formato": "fill",
+    "enunciado": "El porcentaje de cambio entre un valor viejo y uno nuevo se calcula como (nuevo menos viejo) dividido entre el valor ___ , por 100.",
+    "antes": "dividido entre el valor",
+    "despues": "y multiplicado por 100",
+    "respuesta": "viejo",
+    "explicacion": "El porcentaje de cambio siempre se toma respecto al valor **original**. Dividir entre el valor nuevo da un porcentaje distinto (y menor cuando hubo aumento)."
+  },
+  {
+    "id": "RC-QR-032",
+    "tarjetaId": "RC-ALG-045",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Una tienda aplica 10% de descuento y luego 5% más sobre el precio ya rebajado. Un cliente dice que es un 15% total. ¿Tiene razón?",
+    "opciones": [
+      "sí, siempre que el segundo descuento sea menor que el primero",
+      "no: el total real es 16%, porque los descuentos se multiplican al alza",
+      "no: el descuento real es 14,5%, no 15%",
+      "sí, los descuentos sucesivos se suman: 10% + 5% = 15%"
+    ],
+    "correcta": 2,
+    "explicacion": "Con $100: 10% deja $90; 5% de $90 = $4,50, deja $85,50. El descuento real es 14,5%, no 15%, porque el segundo porcentaje actúa sobre una base más pequeña."
+  },
+  {
+    "id": "RC-QR-033",
+    "tarjetaId": "RC-ALG-047",
+    "categoria": "formulacion_ejecucion",
+    "formato": "mcq",
+    "enunciado": "Una progresión aritmética empieza en 18 y suma 4 en cada paso. ¿Cuál es el término 15, con aₙ = a₁ + (n − 1) × d?",
+    "opciones": [
+      "78, calculando 18 + 15 × 4",
+      "60, sumando 18 más 15 más 4 más 4",
+      "82, calculando 18 + 16 × 4",
+      "74, calculando 18 + (15 − 1) × 4"
+    ],
+    "correcta": 3,
+    "explicacion": "aₙ = 18 + (15 − 1) × 4 = 18 + 56 = 74. Se usa (n − 1) porque el primer término aún no sumó ninguna diferencia."
+  },
+  {
+    "id": "RC-QR-034",
+    "tarjetaId": "RC-ALG-048",
+    "categoria": "formulacion_ejecucion",
+    "formato": "mcq",
+    "enunciado": "Sin sumar uno por uno, ¿cuánto vale 1 + 2 + 3 + ... + 100?",
+    "opciones": [
+      "10.100, sumando 101 cien veces",
+      "10.000, multiplicando 100 por 100",
+      "2.550, contando solo los números pares",
+      "5.050, con el truco de Gauss"
+    ],
+    "correcta": 3,
+    "explicacion": "Emparejando 1+100, 2+99, ... hay 50 parejas de 101: 50 × 101 = 5.050. Es la fórmula Sₙ = n/2 × (a₁ + aₙ); olvidar el ÷2 da el doble."
+  },
+  {
+    "id": "RC-QR-035",
+    "tarjetaId": "RC-ALG-051",
+    "categoria": "interpretacion_representacion",
+    "formato": "mcq",
+    "enunciado": "¿Cómo se sabe rápido si la secuencia 3, 6, 12, 24 es aritmética o geométrica?",
+    "opciones": [
+      "restando términos: 6−3 = 3 pero 12−6 = 6, así que no es aritmética; dividiendo, 6÷3 = 2 constante, es geométrica",
+      "es aritmética, porque los números van creciendo de forma pareja",
+      "no se puede saber sin conocer el contexto del problema",
+      "es geométrica, porque la resta entre términos siempre da 3"
+    ],
+    "correcta": 0,
+    "explicacion": "Resta consecutiva constante indica aritmética; división consecutiva constante indica geométrica. Aquí la razón 2 se repite (3→6→12→24), así que es geométrica."
+  },
+  {
+    "id": "RC-QR-036",
+    "tarjetaId": "RC-ALG-052",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "La ciudad A crece 5.000 habitantes por año; la ciudad B crece 5% por año. Ambas parten de 100.000. ¿Cuál será más poblada a largo plazo?",
+    "opciones": [
+      "quedan siempre iguales, porque el 5% de 100.000 es 5.000",
+      "la B: el crecimiento geométrico supera al aritmético",
+      "la A, porque 5.000 personas siempre es más que un 5%",
+      "no se puede comparar porcentajes con cantidades fijas"
+    ],
+    "correcta": 1,
+    "explicacion": "El crecimiento **geométrico** de B multiplica sobre una base cada vez mayor, así que acelera y a largo plazo supera al crecimiento **aritmético** de A, que suma siempre lo mismo."
+  },
+  {
+    "id": "RC-QR-037",
+    "tarjetaId": "RC-CTX-001",
+    "categoria": "formulacion_ejecucion",
+    "formato": "fill",
+    "enunciado": "Cuando una cantidad sufre varios cambios porcentuales sucesivos, el valor final se calcula multiplicando por (1 + r₁), luego por (1 + r₂), y NO ___ los porcentajes entre sí.",
+    "antes": "y NO",
+    "despues": "los porcentajes entre sí",
+    "respuesta": "sumando",
+    "explicacion": "Cada cambio porcentual es un **factor multiplicativo**: +r% es multiplicar por (1 + r/100). Los cambios sucesivos se multiplican, no se suman."
+  },
+  {
+    "id": "RC-QR-038",
+    "tarjetaId": "RC-CTX-002",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Una cantidad sube 15% y luego baja 10%. ¿Cambia el resultado final si primero baja 10% y luego sube 15%?",
+    "opciones": [
+      "sí, el orden siempre importa en los cambios porcentuales",
+      "no: multiplicar por 1,15 y 0,90 es conmutativo",
+      "no, pero solo si los dos porcentajes son iguales",
+      "sí, aplicar primero el cambio grande da un resultado distinto"
+    ],
+    "correcta": 1,
+    "explicacion": "Cada cambio es una multiplicación por un factor fijo, y la multiplicación es **conmutativa**: 1,15 × 0,90 da lo mismo en cualquier orden. Solo cambian los valores intermedios."
+  },
+  {
+    "id": "RC-QR-039",
+    "tarjetaId": "RC-CTX-003",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Un salario sube 10%, luego baja 5%, luego sube 8%. ¿Qué error tiene calcular el cambio neto como 10 − 5 + 8 = 13%?",
+    "opciones": [
+      "el error es olvidar dividir el resultado entre 3",
+      "el error es de signo: debería ser 10 + 5 + 8 = 23%",
+      "sumar porcentajes sucesivos no es exacto: cada uno actúa sobre una base distinta",
+      "ninguno: 13% es el cambio neto correcto"
+    ],
+    "correcta": 2,
+    "explicacion": "El cambio real es 1,10 × 0,95 × 1,08 ≈ 1,1286, o sea +12,86%, no 13%. Sumar da un valor cercano con porcentajes pequeños, pero nunca exacto."
+  },
+  {
+    "id": "RC-QR-040",
+    "tarjetaId": "RC-CTX-004",
+    "categoria": "interpretacion_representacion",
+    "formato": "fill",
+    "enunciado": "El modelo de multiplicar por factores (1 + r) período tras período es el mismo que describe el crecimiento de un capital a interés ___ .",
+    "antes": "el crecimiento de un capital a interés",
+    "despues": "período tras período",
+    "respuesta": "compuesto",
+    "explicacion": "El interés compuesto es 'cambios porcentuales sucesivos' aplicados sobre un capital con el mismo factor (1 + tasa) cada período."
+  },
+  {
+    "id": "RC-QR-041",
+    "tarjetaId": "RC-CTX-005",
+    "categoria": "interpretacion_representacion",
+    "formato": "mcq",
+    "enunciado": "¿Qué distingue estructuralmente al interés compuesto del interés simple?",
+    "opciones": [
+      "el simple usa porcentajes y el compuesto usa fracciones",
+      "en el compuesto el tiempo multiplica a la tasa; en el simple es un exponente",
+      "no hay diferencia real, solo cambia el nombre",
+      "en el simple el tiempo multiplica; en el compuesto es exponente"
+    ],
+    "correcta": 3,
+    "explicacion": "Interés simple: C(1 + r·t), el tiempo multiplica, crecimiento lineal. Interés compuesto: C(1 + r)ᵗ, el tiempo es exponente, crecimiento cada vez más rápido."
+  },
+  {
+    "id": "RC-QR-042",
+    "tarjetaId": "RC-CTX-007",
+    "categoria": "formulacion_ejecucion",
+    "formato": "mcq",
+    "enunciado": "Con la 'regla del 72', ¿en cuántos años se duplica aproximadamente un capital al 6% anual compuesto?",
+    "opciones": [
+      "6 años, restando 72 menos 66",
+      "12 años, dividiendo 72 entre 6",
+      "72 años, el número de la regla directamente",
+      "3 años, dividiendo 6 entre 2"
+    ],
+    "correcta": 1,
+    "explicacion": "La regla del 72 estima el tiempo de duplicación dividiendo 72 entre la tasa: 72 ÷ 6 = 12 años. Aplica al crecimiento **compuesto**, no al simple."
+  },
+  {
+    "id": "RC-QR-043",
+    "tarjetaId": "RC-CTX-008",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Un banco dice: 'ganas 3% cada mes sobre el saldo total, incluyendo los intereses de meses anteriores'. ¿Interés simple o compuesto?",
+    "opciones": [
+      "simple, porque la tasa es fija cada mes",
+      "compuesto: se calcula sobre el saldo acumulado",
+      "simple, porque no aparece la palabra 'compuesto'",
+      "ninguno de los dos: es una tasa plana"
+    ],
+    "correcta": 1,
+    "explicacion": "La frase 'sobre el saldo total, incluyendo intereses anteriores' es la marca del **interés compuesto**: los intereses ganados también generan intereses."
+  },
+  {
+    "id": "RC-QR-044",
+    "tarjetaId": "RC-CTX-010",
+    "categoria": "formulacion_ejecucion",
+    "formato": "mcq",
+    "enunciado": "Sede A: 20 estudiantes, promedio 4,0. Sede B: 180 estudiantes, promedio 3,0. ¿Cuál es el promedio real de los 200 juntos?",
+    "opciones": [
+      "7,0, sumando los dos promedios",
+      "3,5, promediando 4,0 y 3,0",
+      "3,0, tomando el de la sede más grande",
+      "3,1: (20 × 4,0 + 180 × 3,0) ÷ 200"
+    ],
+    "correcta": 3,
+    "explicacion": "El **promedio ponderado** pesa cada grupo por su tamaño: (80 + 540) ÷ 200 = 3,1. Promediar 4,0 y 3,0 trataría a 20 estudiantes igual que a 180."
+  },
+  {
+    "id": "RC-QR-045",
+    "tarjetaId": "RC-CTX-009",
+    "categoria": "argumentacion",
+    "formato": "fill",
+    "enunciado": "Promediar directamente los promedios de varios grupos solo da el promedio real del conjunto completo cuando todos los grupos tienen el mismo ___ .",
+    "antes": "cuando todos los grupos tienen el mismo",
+    "despues": "de elementos",
+    "respuesta": "número",
+    "explicacion": "Si los grupos tienen tamaños distintos hay que usar un promedio ponderado, dando más peso al grupo más grande."
+  },
+  {
+    "id": "RC-QR-046",
+    "tarjetaId": "RC-CTX-012",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Que dos variables estén correlacionadas significa que:",
+    "opciones": [
+      "nunca pueden tener ninguna relación causal entre sí",
+      "una de las dos necesariamente causa la otra",
+      "son exactamente la misma variable con otro nombre",
+      "tienden a cambiar juntas, sin implicar una causa"
+    ],
+    "correcta": 3,
+    "explicacion": "Correlación es un patrón: cambian juntas. Causalidad es una afirmación más fuerte que exige descartar terceras variables, coincidencia o causalidad inversa."
+  },
+  {
+    "id": "RC-QR-047",
+    "tarjetaId": "RC-CTX-013",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Los meses con más ventas de helado son también los de más ahogamientos. ¿Comer helado causa ahogamientos?",
+    "opciones": [
+      "sí, pero solo en verano",
+      "no se puede opinar sin más datos de cada persona",
+      "no: el calor, una tercera variable, explica ambos",
+      "sí, los datos muestran que van juntos"
+    ],
+    "correcta": 2,
+    "explicacion": "La **variable de confusión** es el calor: en meses calurosos se compra más helado y también más gente se mete al agua. La correlación no es causa directa."
+  },
+  {
+    "id": "RC-QR-048",
+    "tarjetaId": "RC-CTX-014",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "'Quienes hacen ejercicio reportan más felicidad, luego el ejercicio causa felicidad.' ¿Qué otra explicación (en dirección opuesta) también encaja?",
+    "opciones": [
+      "que la felicidad se mida siempre con error",
+      "que ser más feliz lo lleve a hacer más ejercicio",
+      "que el ejercicio y la felicidad no tengan nada que ver",
+      "que la muestra fuera demasiado pequeña para concluir algo"
+    ],
+    "correcta": 1,
+    "explicacion": "Es **causalidad inversa**: en lugar de A causa B, podría ser B causa A. Personas más felices tienen más energía o motivación para ejercitarse."
+  },
+  {
+    "id": "RC-QR-049",
+    "tarjetaId": "RC-CTX-016",
+    "categoria": "interpretacion_representacion",
+    "formato": "mcq",
+    "enunciado": "Una gráfica de barras tiene el eje vertical empezando en 80 en lugar de 0. ¿Qué efecto visual produce?",
+    "opciones": [
+      "hace que todas las barras se vean del mismo tamaño",
+      "reduce visualmente las diferencias entre las barras",
+      "exagera las diferencias entre las barras",
+      "no cambia nada, porque los números del eje siguen siendo correctos"
+    ],
+    "correcta": 2,
+    "explicacion": "Un **eje truncado** recorta la parte baja: diferencias pequeñas en los datos se ven enormes. Siempre conviene mirar en qué valor arranca el eje."
+  },
+  {
+    "id": "RC-QR-050",
+    "tarjetaId": "RC-CTX-019",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "En una gráfica de doble eje, la línea de 'ventas' y la de 'satisfacción' se ven casi idénticas. ¿Prueba eso que están fuertemente relacionadas?",
+    "opciones": [
+      "no, porque las gráficas de líneas nunca sirven para comparar",
+      "no: cada eje se ajusta por separado para que calcen",
+      "sí, siempre que ambos ejes empiecen en cero",
+      "sí, si las líneas coinciden es que las variables van juntas"
+    ],
+    "correcta": 1,
+    "explicacion": "En una **gráfica de doble eje** quien la hace elige cada escala por separado, así que casi cualquier par de líneas puede parecer sincronizado sin que la relación sea fuerte."
+  },
+  {
+    "id": "RC-QR-051",
+    "tarjetaId": "RC-CTX-021",
+    "categoria": "formulacion_ejecucion",
+    "formato": "mcq",
+    "enunciado": "Si 6 pintores tardan 8 días en pintar una casa, ¿cuánto tardan 12 pintores al mismo ritmo?",
+    "opciones": [
+      "8 días, porque la casa es la misma",
+      "2 días, dividiendo 8 entre 4",
+      "16 días, el doble, porque hay el doble de pintores",
+      "4 días: proporcionalidad inversa"
+    ],
+    "correcta": 3,
+    "explicacion": "Repartir un trabajo fijo entre más trabajadores es **proporcionalidad inversa**: al duplicar los pintores, el tiempo se reduce a la mitad."
+  },
+  {
+    "id": "RC-QR-052",
+    "tarjetaId": "RC-CTX-024",
+    "categoria": "formulacion_ejecucion",
+    "formato": "mcq",
+    "enunciado": "Un problema define a△b = 2a + b. ¿Cuánto valen 3△5 y 5△3?",
+    "opciones": [
+      "3△5 = 11 y 5△3 = 13: no son iguales, △ no es conmutativa",
+      "no se puede calcular sin conocer más reglas",
+      "3△5 = 13 y 5△3 = 11, invirtiendo la fórmula",
+      "ambos dan 11, porque la operación es conmutativa"
+    ],
+    "correcta": 0,
+    "explicacion": "Se aplica la definición dada: 3△5 = 2(3) + 5 = 11; 5△3 = 2(5) + 3 = 13. Una operación **inventada** no tiene por qué cumplir las propiedades de la suma o el producto."
+  },
+  {
+    "id": "RC-QR-053",
+    "tarjetaId": "RC-CTX-023",
+    "categoria": "argumentacion",
+    "formato": "fill",
+    "enunciado": "Cuando un problema define su propio sistema de notación o reglas, la estrategia correcta es aplicar únicamente las reglas que el propio problema ___ , sin importar otros significados conocidos.",
+    "antes": "aplicar únicamente las reglas que el propio problema",
+    "despues": "sin importar otros significados conocidos",
+    "respuesta": "define",
+    "explicacion": "Es una meta-habilidad, no contenido matemático nuevo: leer con cuidado la definición dada y aplicarla tal cual, sin suponer que se comporta como algo parecido y conocido."
+  },
+  {
+    "id": "RC-QR-054",
+    "tarjetaId": "RC-CTX-028",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Un titular dice: 'este alimento duplica el riesgo de una enfermedad rara'. El riesgo base es 1 en 50.000 por año. ¿Qué significa 'duplicar'?",
+    "opciones": [
+      "que la mitad de la población la desarrollará",
+      "que ahora la enfermedad es muy probable",
+      "pasar de 1 en 50.000 a 2 en 50.000: un cambio absoluto diminuto",
+      "que el riesgo sube al 200% de la población"
+    ],
+    "correcta": 2,
+    "explicacion": "Un **riesgo relativo** grande sobre un **riesgo absoluto** diminuto sigue siendo diminuto: de 0,002% a 0,004%. Hay que conocer el riesgo base antes de alarmarse."
+  },
+  {
+    "id": "RC-QR-055",
+    "tarjetaId": "RC-CTX-029",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Una campaña baja el riesgo de una enfermedad común de 20% a 19% en una ciudad de 5 millones. ¿Por qué el impacto absoluto es grande aunque el cambio relativo sea pequeño?",
+    "opciones": [
+      "porque un cambio del 5% siempre es enorme",
+      "porque el riesgo base del 20% en realidad es bajo",
+      "1 punto sobre 5 millones son 50.000 personas",
+      "porque las enfermedades comunes no tienen riesgo medible"
+    ],
+    "correcta": 2,
+    "explicacion": "Un cambio relativo pequeño tiene **impacto absoluto grande** cuando el riesgo base ya es alto y la población es numerosa: 1% de 5.000.000 = 50.000 personas."
+  },
+  {
+    "id": "RC-QR-056",
+    "tarjetaId": "RC-EST-001",
+    "categoria": "interpretacion_representacion",
+    "formato": "fill",
+    "enunciado": "Cuando unos datos se agrupan por categorías con barras separadas del mismo ancho para comparar cantidades entre grupos distintos, se llama una gráfica de ___ .",
+    "antes": "se llama una gráfica de",
+    "despues": ".",
+    "respuesta": "barras",
+    "explicacion": "La gráfica de barras sirve para **comparar** categorías (no numéricas continuas); la altura de cada barra es proporcional a la cantidad que representa."
+  },
+  {
+    "id": "RC-QR-057",
+    "tarjetaId": "RC-EST-004",
+    "categoria": "interpretacion_representacion",
+    "formato": "mcq",
+    "enunciado": "En una gráfica circular, el sector de 'alimentación' ocupa 90° de los 360°. ¿Qué porcentaje del total representa?",
+    "opciones": [
+      "9%, quitando un cero a los grados",
+      "25%, porque 90 ÷ 360 = 1/4",
+      "90%, porque son 90 grados",
+      "36%, dividiendo 90 entre 250"
+    ],
+    "correcta": 1,
+    "explicacion": "El círculo completo (360°) es el 100%. Un sector es (su ángulo ÷ 360) × 100: 90 ÷ 360 = 0,25 = 25%."
+  },
+  {
+    "id": "RC-QR-058",
+    "tarjetaId": "RC-EST-005",
+    "categoria": "interpretacion_representacion",
+    "formato": "mcq",
+    "enunciado": "En una gráfica de barras apiladas, ¿cómo se halla el valor de un segmento intermedio (no el de la base)?",
+    "opciones": [
+      "se divide la altura total entre el número de segmentos",
+      "se resta el límite inferior del segmento a su límite superior",
+      "se suma la altura total de la barra más el segmento",
+      "se lee directamente la posición donde termina el segmento en el eje"
+    ],
+    "correcta": 1,
+    "explicacion": "Cada barra apilada suma sus segmentos hasta la altura total. Un segmento intermedio es la **diferencia** entre donde empieza y donde termina, no su posición final en el eje."
+  },
+  {
+    "id": "RC-QR-059",
+    "tarjetaId": "RC-EST-006",
+    "categoria": "interpretacion_representacion",
+    "formato": "fill",
+    "enunciado": "La ___ de dos conjuntos A y B (A ∪ B) reúne todos los elementos que están en A, en B o en ambos, sin repetirlos.",
+    "antes": "La",
+    "despues": "de dos conjuntos A y B",
+    "respuesta": "unión",
+    "explicacion": "En la unión cada elemento se cuenta una sola vez aunque esté en los dos conjuntos originales."
+  },
+  {
+    "id": "RC-QR-060",
+    "tarjetaId": "RC-EST-009",
+    "categoria": "formulacion_ejecucion",
+    "formato": "mcq",
+    "enunciado": "40 personas: 28 tienen perro, 19 tienen gato, 6 tienen ambos. ¿Cuántas tienen perro o gato (al menos uno)?",
+    "opciones": [
+      "53, sumando los tres números dados",
+      "13, restando 19 − 6",
+      "41: se resta la intersección (28 + 19 − 6)",
+      "47, sumando 28 + 19 sin ajustar"
+    ],
+    "correcta": 2,
+    "explicacion": "Por **inclusión-exclusión**: |A ∪ B| = |A| + |B| − |A ∩ B| = 28 + 19 − 6 = 41. Al sumar 28 y 19, las 6 personas con ambas mascotas quedaban contadas dos veces."
+  },
+  {
+    "id": "RC-QR-061",
+    "tarjetaId": "RC-EST-010",
+    "categoria": "interpretacion_representacion",
+    "formato": "mcq",
+    "enunciado": "28 personas tienen perro y 6 de ellas también tienen gato. Alguien dice que 'solo perro' son 28. ¿Es correcto?",
+    "opciones": [
+      "no: 'solo perro' es 28 + 6 = 34",
+      "sí, porque las 28 tienen perro",
+      "sí, siempre que nadie tenga otras mascotas",
+      "no: 'solo perro' es 28 − 6 = 22"
+    ],
+    "correcta": 3,
+    "explicacion": "El valor |A| = 28 incluye a los de 'solo A' más los de 'A y B'. Para 'solo perro' hay que restar la intersección: 28 − 6 = 22."
+  },
+  {
+    "id": "RC-QR-062",
+    "tarjetaId": "RC-EST-013",
+    "categoria": "formulacion_ejecucion",
+    "formato": "mcq",
+    "enunciado": "Una vela se define por 3 tamaños, 4 aromas y 2 colores, con una opción de cada uno. ¿Cuántas velas distintas hay?",
+    "opciones": [
+      "12, multiplicando solo tamaños por colores",
+      "24, multiplicando 3 × 4 × 2",
+      "18, promediando las combinaciones",
+      "9, sumando 3 + 4 + 2"
+    ],
+    "correcta": 1,
+    "explicacion": "Por el **principio de la multiplicación**, decisiones independientes sucesivas se multiplican: 3 × 4 × 2 = 24 combinaciones."
+  },
+  {
+    "id": "RC-QR-063",
+    "tarjetaId": "RC-EST-014",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Marcela hará UNA cosa el sábado: ir a cine (5 películas) o quedarse viendo UNA de 8 series. ¿Cuántas opciones tiene?",
+    "opciones": [
+      "40, multiplicando 5 × 8 sin pensar",
+      "13: se suma (5 + 8), no se multiplica",
+      "5, contando solo las películas",
+      "3, restando 8 − 5"
+    ],
+    "correcta": 1,
+    "explicacion": "Cuando las opciones son **caminos alternativos** de los que se toma solo uno, se aplica el principio de la **suma**: 5 + 8 = 13. Multiplicar sería si combinara ambas cosas."
+  },
+  {
+    "id": "RC-QR-064",
+    "tarjetaId": "RC-EST-015",
+    "categoria": "formulacion_ejecucion",
+    "formato": "mcq",
+    "enunciado": "¿Cuántos saludos de mano distintos hay entre 6 personas (cada par se saluda una vez)?",
+    "opciones": [
+      "15: 6 × 5 ÷ 2 (el orden no importa)",
+      "36, multiplicando 6 × 6",
+      "30, multiplicando 6 × 5 sin ajustar",
+      "12, sumando 6 + 6"
+    ],
+    "correcta": 0,
+    "explicacion": "Multiplicar 6 × 5 cuenta cada pareja dos veces ({Ana, Luis} = {Luis, Ana}). Como el orden no importa, se **divide entre 2**: 15 saludos."
+  },
+  {
+    "id": "RC-QR-065",
+    "tarjetaId": "RC-EST-016",
+    "categoria": "formulacion_ejecucion",
+    "formato": "fill",
+    "enunciado": "La probabilidad clásica de un evento es el número de casos favorables dividido entre el número de casos ___ , si todos los resultados son igualmente posibles.",
+    "antes": "dividido entre el número de casos",
+    "despues": "si todos los resultados son igualmente posibles",
+    "respuesta": "posibles",
+    "explicacion": "El resultado siempre queda entre 0 (imposible) y 1 (seguro)."
+  },
+  {
+    "id": "RC-QR-066",
+    "tarjetaId": "RC-EST-017",
+    "categoria": "formulacion_ejecucion",
+    "formato": "mcq",
+    "enunciado": "Si la probabilidad de que llueva mañana es 0,7, ¿cuál es la probabilidad de que NO llueva?",
+    "opciones": [
+      "0,7, la misma, porque son el mismo evento",
+      "0,3, porque 1 − 0,7",
+      "0, porque ya se sabe que llueve",
+      "1,7, sumando 1 más 0,7"
+    ],
+    "correcta": 1,
+    "explicacion": "La **probabilidad complementaria** es 1 − P(A), porque todos los resultados posibles suman 1: 1 − 0,7 = 0,3."
+  },
+  {
+    "id": "RC-QR-067",
+    "tarjetaId": "RC-EST-018",
+    "categoria": "formulacion_ejecucion",
+    "formato": "mcq",
+    "enunciado": "Se lanza una moneda y un dado. ¿Cuál es la probabilidad de sacar cara y un 6?",
+    "opciones": [
+      "1/6, tomando solo el dado",
+      "1/8, sumando 1/2 y 1/6",
+      "2/8, promediando las dos probabilidades",
+      "1/12: eventos independientes, 1/2 × 1/6"
+    ],
+    "correcta": 3,
+    "explicacion": "Moneda y dado son **independientes**: la probabilidad de que ambos ocurran es el producto, 1/2 × 1/6 = 1/12."
+  },
+  {
+    "id": "RC-QR-068",
+    "tarjetaId": "RC-EST-019",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "De una bolsa con 4 rojas y 6 azules se saca una bola sin devolverla y luego otra. ¿La segunda extracción depende de la primera?",
+    "opciones": [
+      "no, porque siempre quedan 10 bolas en total",
+      "no, cada extracción es independiente de la anterior",
+      "sí, pero solo si la primera bola es azul",
+      "sí: sin devolver la bola cambian las cantidades"
+    ],
+    "correcta": 3,
+    "explicacion": "Sin reposición los eventos son **dependientes**: si la primera fue roja quedan 3 rojas de 9; si fue azul quedan 4 rojas de 9."
+  },
+  {
+    "id": "RC-QR-069",
+    "tarjetaId": "RC-EST-041",
+    "categoria": "formulacion_ejecucion",
+    "formato": "mcq",
+    "enunciado": "En un grupo, P(hace deporte y es mujer) = 0,2 y P(es mujer) = 0,5. ¿Cuál es P(hace deporte | es mujer)?",
+    "opciones": [
+      "0,7, sumando 0,2 y 0,5",
+      "0,5, la probabilidad de ser mujer",
+      "0,1, multiplicando 0,2 por 0,5",
+      "0,4: se divide 0,2 entre 0,5"
+    ],
+    "correcta": 3,
+    "explicacion": "La **probabilidad condicional** P(A|B) = P(A ∩ B) ÷ P(B) = 0,2 ÷ 0,5 = 0,4."
+  },
+  {
+    "id": "RC-QR-070",
+    "tarjetaId": "RC-EST-042",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Se sabe que P(hace deporte | es mujer) = 0,4. ¿Se puede concluir que P(es mujer | hace deporte) también es 0,4?",
+    "opciones": [
+      "sí, siempre que el grupo tenga 100 personas",
+      "sí, la probabilidad condicional es simétrica",
+      "no: cada una divide entre un total distinto",
+      "no, porque una de las dos siempre es 0"
+    ],
+    "correcta": 2,
+    "explicacion": "P(A|B) y P(B|A) dividen entre denominadores distintos (el evento condicionante de cada caso). Confundirlas es un error frecuente al leer probabilidades condicionales."
+  },
+  {
+    "id": "RC-QR-071",
+    "tarjetaId": "RC-EST-044",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Un juego cuesta $2.000. Con probabilidad 1/10 se gana neto $13.000; con 9/10 se pierden los $2.000. ¿Conviene jugar muchas veces?",
+    "opciones": [
+      "da igual: el valor esperado es 0",
+      "no: el valor esperado es −500, se pierde a la larga",
+      "sí, porque a la larga siempre se recupera lo invertido",
+      "sí, porque el premio de $13.000 es grande"
+    ],
+    "correcta": 1,
+    "explicacion": "El **valor esperado** = 1.300 − 1.800 = −500 por partida. Repitiendo muchas veces se pierde en promedio; así funcionan loterías y casinos."
+  },
+  {
+    "id": "RC-QR-072",
+    "tarjetaId": "RC-EST-021",
+    "categoria": "formulacion_ejecucion",
+    "formato": "fill",
+    "enunciado": "El promedio o media aritmética de un conjunto de datos se calcula sumando todos los valores y dividiendo entre el ___ de valores.",
+    "antes": "y dividiendo entre el",
+    "despues": "de valores",
+    "respuesta": "número",
+    "explicacion": "El promedio es sensible a valores atípicos muy altos o muy bajos, que lo 'desvían' de lo típico del conjunto."
+  },
+  {
+    "id": "RC-QR-073",
+    "tarjetaId": "RC-EST-022",
+    "categoria": "formulacion_ejecucion",
+    "formato": "mcq",
+    "enunciado": "Las temperaturas de una semana fueron 18, 22, 15, 25, 19, 21 y 24 grados. ¿Cuál es el rango?",
+    "opciones": [
+      "40, sumando el máximo y el mínimo",
+      "10: 25 − 15, máximo menos mínimo",
+      "7, el número de días de la semana",
+      "20, cerca del promedio de los datos"
+    ],
+    "correcta": 1,
+    "explicacion": "El **rango** es la diferencia entre el valor máximo y el mínimo: 25 − 15 = 10. Mide qué tan esparcidos están los datos."
+  },
+  {
+    "id": "RC-QR-074",
+    "tarjetaId": "RC-EST-023",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Cuatro empleados ganan cerca de $1.250.000 y el dueño gana $9.500.000. El promedio de los 5 es $2.906.000. ¿Representa bien lo que gana la mayoría?",
+    "opciones": [
+      "sí, porque se calculó con los cinco salarios",
+      "sí, el promedio siempre representa bien al grupo",
+      "no, faltó incluir a más empleados en el cálculo",
+      "no: el sueldo del dueño, atípico, infla el promedio"
+    ],
+    "correcta": 3,
+    "explicacion": "Un **valor atípico** muy alto 'jala' el promedio lejos de lo que gana la mayoría. Cuatro de los cinco ganan la mitad o menos de ese promedio."
+  },
+  {
+    "id": "RC-QR-075",
+    "tarjetaId": "RC-EST-025",
+    "categoria": "interpretacion_representacion",
+    "formato": "mcq",
+    "enunciado": "Dos grupos de datos tienen el mismo promedio pero rangos muy distintos. ¿Qué significa?",
+    "opciones": [
+      "que los datos son idénticos en ambos grupos",
+      "que un grupo tiene datos más dispersos que el otro",
+      "que uno de los dos promedios está mal calculado",
+      "que el grupo con mayor rango tiene mayor promedio"
+    ],
+    "correcta": 1,
+    "explicacion": "Promedio y rango miden cosas distintas: el promedio ubica el centro, el rango mide la dispersión. Mismo centro, distinta variabilidad."
+  },
+  {
+    "id": "RC-QR-076",
+    "tarjetaId": "RC-EST-026",
+    "categoria": "interpretacion_representacion",
+    "formato": "fill",
+    "enunciado": "La ___ es el conjunto completo de individuos que se quieren estudiar; la muestra es solo una parte de ese conjunto que se selecciona para analizar.",
+    "antes": "La",
+    "despues": "es el conjunto completo de individuos",
+    "respuesta": "población",
+    "explicacion": "Se estudia la muestra con la esperanza de que refleje razonablemente lo que ocurre en toda la población."
+  },
+  {
+    "id": "RC-QR-077",
+    "tarjetaId": "RC-EST-029",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Para saber cuánta televisión ven los adultos de un país, se encuesta solo a quienes están en un centro comercial un martes a las 10 a.m. ¿Es representativa esa muestra?",
+    "opciones": [
+      "sí, un centro comercial recibe todo tipo de personas",
+      "no: a esa hora y lugar predomina un tipo de persona",
+      "sí, siempre que se encueste a muchas personas",
+      "no, porque los centros comerciales están prohibidos para encuestas"
+    ],
+    "correcta": 1,
+    "explicacion": "Una muestra es **representativa** si refleja la diversidad de la población. Ese método favorece sistemáticamente a un tipo de persona, así que las conclusiones no se pueden generalizar."
+  },
+  {
+    "id": "RC-QR-078",
+    "tarjetaId": "RC-EST-035",
+    "categoria": "interpretacion_representacion",
+    "formato": "mcq",
+    "enunciado": "La tabla muestra: Norte vendió 1.200 unidades y Sur vendió 1.500. Una afirmación dice 'Norte vendió más que Sur'. ¿Qué error tiene?",
+    "opciones": [
+      "ninguno, 1.200 es mayor que 1.500 en ese contexto",
+      "confundió unidades con pesos",
+      "invirtió la comparación: Sur (1.500) vendió más que Norte (1.200)",
+      "sumó mal las dos cifras"
+    ],
+    "correcta": 2,
+    "explicacion": "Se leyeron bien los números pero se planteó la relación al revés. Conviene comparar la afirmación directamente con los datos, no confiar en la primera impresión."
+  },
+  {
+    "id": "RC-QR-079",
+    "tarjetaId": "RC-EST-037",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Diciembre siempre ha tenido ventas más altas que los demás meses. Alguien afirma: 'este diciembre venderemos exactamente 245 unidades'. ¿Es razonable?",
+    "opciones": [
+      "no, porque diciembre no tiene por qué seguir la tendencia",
+      "no: la tendencia da un rango, no un valor exacto",
+      "sí, siempre que diciembre pasado también fueran 245",
+      "sí, la tendencia histórica permite predecir el número exacto"
+    ],
+    "correcta": 1,
+    "explicacion": "Una tendencia indica el **sentido general** (seguirá siendo alto), no un valor único y preciso. Afirmar un número exacto a partir de una tendencia es exagerar lo que los datos permiten."
+  },
+  {
+    "id": "RC-QR-080",
+    "tarjetaId": "RC-EST-039",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "El uso de bicicleta pública se triplicó cada año 3 años seguidos (100 → 300 → 900). Alguien proyecta más de 5 millones de usuarios en 10 años con esa tendencia. ¿Qué falla?",
+    "opciones": [
+      "nada: si se triplicó tres veces, seguirá triplicándose siempre",
+      "asume que el crecimiento rápido no tiene límites",
+      "el error es de cálculo: en 10 años serían menos de 5 millones",
+      "faltó incluir el primer año en la cuenta"
+    ],
+    "correcta": 1,
+    "explicacion": "Las tendencias de crecimiento rápido casi nunca continúan sin freno: chocan con límites de recursos, población o capacidad. Extrapolar tan lejos sin considerarlos es una **extrapolación no razonable**."
+  },
+  {
+    "id": "RC-QR-081",
+    "tarjetaId": "RC-EST-040",
+    "categoria": "argumentacion",
+    "formato": "fill",
+    "enunciado": "Extrapolar una tendencia suele ser más razonable en el ___ plazo, con condiciones parecidas a las observadas, que en el largo plazo.",
+    "antes": "más razonable en el",
+    "despues": "plazo, con condiciones parecidas a las observadas",
+    "respuesta": "corto",
+    "explicacion": "Entre más lejano el período que se quiere predecir, más probable es que aparezcan cambios no reflejados en los datos que se tienen."
+  },
+  {
+    "id": "RC-QR-082",
+    "tarjetaId": "RC-GEO-001",
+    "categoria": "formulacion_ejecucion",
+    "formato": "fill",
+    "enunciado": "El perímetro de una figura plana es la suma de las longitudes de todos sus ___ , y se mide en unidades de longitud, nunca al cuadrado.",
+    "antes": "la suma de las longitudes de todos sus",
+    "despues": "y se mide en unidades de longitud",
+    "respuesta": "lados",
+    "explicacion": "El perímetro es la distancia total recorrida al caminar por todo el borde de la figura, sumando cada lado una sola vez."
+  },
+  {
+    "id": "RC-QR-083",
+    "tarjetaId": "RC-GEO-004",
+    "categoria": "interpretacion_representacion",
+    "formato": "mcq",
+    "enunciado": "Un estudiante calcula el contorno de un círculo de radio 7 con la fórmula π r² y obtiene un resultado en cm². ¿Qué error cometió?",
+    "opciones": [
+      "el radio debía ser el diámetro",
+      "ninguno: π r² sirve para el contorno de un círculo",
+      "usó la fórmula del área; el contorno es 2 π r",
+      "olvidó multiplicar por 2 el área"
+    ],
+    "correcta": 2,
+    "explicacion": "π r² es el **área** (en cm²). La **circunferencia** o contorno es 2 π r (en cm). Fijarse en si el resultado va en cm o cm² ayuda a elegir la fórmula."
+  },
+  {
+    "id": "RC-QR-084",
+    "tarjetaId": "RC-GEO-002",
+    "categoria": "formulacion_ejecucion",
+    "formato": "mcq",
+    "enunciado": "¿Cuál es el área de un triángulo de base 10 cm y altura 6 cm?",
+    "opciones": [
+      "30 cm²: (base × altura) ÷ 2",
+      "120 cm², multiplicando y por 2",
+      "16 cm², sumando base más altura",
+      "60 cm², multiplicando base por altura"
+    ],
+    "correcta": 0,
+    "explicacion": "El área del triángulo es (base × altura) ÷ 2 = (10 × 6) ÷ 2 = 30 cm². La altura es la distancia perpendicular a la base, no un lado inclinado."
+  },
+  {
+    "id": "RC-QR-085",
+    "tarjetaId": "RC-GEO-005",
+    "categoria": "formulacion_ejecucion",
+    "formato": "mcq",
+    "enunciado": "Una figura en forma de L es un rectángulo de 10 m × 6 m al que le falta un rectángulo de 4 m × 3 m en una esquina. ¿Cuál es su área?",
+    "opciones": [
+      "60 m², sin descontar el recorte",
+      "72 m², sumando las dos áreas por error",
+      "48 m²: 60 menos 12, el recorte",
+      "23 m², sumando los lados"
+    ],
+    "correcta": 2,
+    "explicacion": "Una **figura compuesta** se descompone en figuras simples: área del grande (10 × 6 = 60) menos el recorte (4 × 3 = 12) = 48 m²."
+  },
+  {
+    "id": "RC-QR-086",
+    "tarjetaId": "RC-GEO-006",
+    "categoria": "formulacion_ejecucion",
+    "formato": "fill",
+    "enunciado": "El volumen de una caja rectangular se calcula multiplicando el largo, el ancho y el ___ , y se expresa en unidades al cubo.",
+    "antes": "el largo, el ancho y el",
+    "despues": "y se expresa en unidades al cubo",
+    "respuesta": "alto",
+    "explicacion": "El volumen mide el espacio tridimensional que ocupa el cuerpo. Las tres dimensiones deben estar en la misma unidad."
+  },
+  {
+    "id": "RC-QR-087",
+    "tarjetaId": "RC-GEO-010",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Si el radio de una esfera se duplica (de 2 cm a 4 cm), ¿el volumen también se duplica?",
+    "opciones": [
+      "no: se multiplica por 4, porque r² manda",
+      "sí, pero solo si la esfera es hueca",
+      "sí, porque el radio se multiplicó por 2",
+      "no: el volumen depende de r³ (×2³ = 8)"
+    ],
+    "correcta": 3,
+    "explicacion": "Al multiplicar una longitud por k, el área escala k² y el **volumen escala k³**. Duplicar el radio multiplica el volumen por 8."
+  },
+  {
+    "id": "RC-QR-088",
+    "tarjetaId": "RC-GEO-012",
+    "categoria": "formulacion_ejecucion",
+    "formato": "mcq",
+    "enunciado": "Una transversal corta dos rectas paralelas. Un ángulo en el primer cruce mide 70°. ¿Cuánto mide el ángulo correspondiente en el segundo cruce?",
+    "opciones": [
+      "110°, tomándolo como suplemento de 70°",
+      "no se puede saber sin medir el ángulo",
+      "70°: los ángulos correspondientes son iguales",
+      "20°, tomándolo como complemento de 70°"
+    ],
+    "correcta": 2,
+    "explicacion": "Cuando una transversal corta dos rectas **paralelas**, los ángulos correspondientes (misma posición en cada cruce) son iguales: 70°."
+  },
+  {
+    "id": "RC-QR-089",
+    "tarjetaId": "RC-GEO-013",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Dos segmentos son ambos perpendiculares a una misma tercera recta. ¿Qué se concluye sobre ellos, sin medir nada más?",
+    "opciones": [
+      "que se cruzan en algún punto",
+      "que forman un ángulo de 45° entre sí",
+      "que son perpendiculares entre sí",
+      "que son paralelos entre sí, porque ambos forman 90° con la misma recta"
+    ],
+    "correcta": 3,
+    "explicacion": "Si dos rectas son perpendiculares a una misma tercera recta, entonces son **paralelas entre sí**: mantienen la misma dirección."
+  },
+  {
+    "id": "RC-QR-090",
+    "tarjetaId": "RC-GEO-015",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "¿Se puede formar un triángulo con lados de 2 cm, 3 cm y 6 cm?",
+    "opciones": [
+      "no, porque los tres números deberían ser iguales",
+      "sí, cualquier terna de longitudes forma un triángulo",
+      "sí, porque 6 es menor que 2 × 3",
+      "no: 2 + 3 = 5 no supera a 6"
+    ],
+    "correcta": 3,
+    "explicacion": "Por la **desigualdad triangular**, la suma de los dos lados más cortos debe superar al más largo. 2 + 3 = 5 < 6, así que no hay triángulo."
+  },
+  {
+    "id": "RC-QR-091",
+    "tarjetaId": "RC-GEO-017",
+    "categoria": "formulacion_ejecucion",
+    "formato": "mcq",
+    "enunciado": "¿Cuál es la distancia entre los puntos (0, 0) y (3, 4) en el plano cartesiano?",
+    "opciones": [
+      "3,5, promediando las coordenadas",
+      "7, sumando 3 más 4",
+      "12, multiplicando 3 por 4",
+      "5: raíz de (3² + 4²) = raíz de 25"
+    ],
+    "correcta": 3,
+    "explicacion": "La **fórmula de distancia** es la raíz de [(diferencia en x)² + (diferencia en y)²] = raíz de (9 + 16) = raíz de 25 = 5. Viene del teorema de Pitágoras."
+  },
+  {
+    "id": "RC-QR-092",
+    "tarjetaId": "RC-GEO-018",
+    "categoria": "interpretacion_representacion",
+    "formato": "mcq",
+    "enunciado": "Un segmento va de (0, 0) a (4, 2); otro va de (1, 5) a (5, 7). ¿Cómo se verifica si son paralelos?",
+    "opciones": [
+      "viendo si comparten algún punto en común",
+      "comparando su pendiente (subida ÷ avance): ambos dan 2/4 = 0,5, así que son paralelos",
+      "comparando su longitud: si miden lo mismo, son paralelos",
+      "sumando las coordenadas de cada extremo"
+    ],
+    "correcta": 1,
+    "explicacion": "Dos segmentos son **paralelos** si tienen la misma pendiente: el primero sube 2 y avanza 4 (0,5); el segundo sube 2 y avanza 4 (0,5). Iguales, luego paralelos."
+  },
+  {
+    "id": "RC-QR-093",
+    "tarjetaId": "RC-GEO-020",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "Un sistema tiene dos tanques conectados. Solo se conocen las medidas del tanque inferior. ¿Bastan para calcular la capacidad total del sistema?",
+    "opciones": [
+      "sí, si el tubo que los conecta es delgado",
+      "no, porque nunca se puede calcular una capacidad total",
+      "no: falta la capacidad del tanque superior",
+      "sí, un tanque representa todo el sistema"
+    ],
+    "correcta": 2,
+    "explicacion": "Un error de **suficiencia de datos** es medir solo una parte de un sistema compuesto y suponer que basta para el conjunto. Hay que verificar si el dato cubre todo lo que se pregunta."
+  },
+  {
+    "id": "RC-QR-094",
+    "tarjetaId": "RC-GEO-021",
+    "categoria": "argumentacion",
+    "formato": "mcq",
+    "enunciado": "¿Por qué conocer un solo lado basta para hallar el área de un cuadrado, pero no la de un rectángulo cualquiera?",
+    "opciones": [
+      "porque el cuadrado es más pequeño que el rectángulo",
+      "porque el cuadrado siempre tiene lados de número entero",
+      "un lado ya determina el cuadrado; el rectángulo no",
+      "porque el rectángulo no tiene fórmula de área"
+    ],
+    "correcta": 2,
+    "explicacion": "Una figura con una **propiedad especial** (todos los lados iguales) queda determinada con un solo dato. Una figura más general necesita más medidas."
+  },
+  {
+    "id": "RC-QR-095",
+    "tarjetaId": "RC-GEO-023",
+    "categoria": "formulacion_ejecucion",
+    "formato": "mcq",
+    "enunciado": "Una persona camina en dirección 80° (sistema de 0° a 360° desde el norte) y gira 45° a su derecha. ¿Cuál es su nueva dirección?",
+    "opciones": [
+      "45°, solo el ángulo girado",
+      "35°, restando el giro a la dirección",
+      "125°: a la derecha se suma el giro",
+      "260°, sumando de más"
+    ],
+    "correcta": 2,
+    "explicacion": "Girar a la **derecha** (sentido horario) suma el ángulo girado a la dirección inicial: 80° + 45° = 125°. Girar a la izquierda restaría."
+  },
+  {
+    "id": "RC-QR-096",
+    "tarjetaId": "RC-GEO-028",
+    "categoria": "formulacion_ejecucion",
+    "formato": "mcq",
+    "enunciado": "Un piloto alineado con la pista 24 gira 30° a la derecha. ¿Con qué número de pista queda alineado? (el número de pista es el rumbo ÷ 10)",
+    "opciones": [
+      "pista 30, tomando solo el giro",
+      "pista 27: 240° + 30° = 270°, dividido entre 10",
+      "pista 54, sumando 24 más 30",
+      "pista 21, restando 30 al rumbo"
+    ],
+    "correcta": 1,
+    "explicacion": "No se pueden sumar los grados directamente al número de pista (mezcla escala ×10 con ×1). Se convierte a rumbo (240°), se suma el giro (270°) y se vuelve a dividir entre 10: pista 27."
+  }
+]

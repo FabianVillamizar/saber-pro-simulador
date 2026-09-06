@@ -319,10 +319,93 @@ if (existsSync(rutaReglas)) {
 }
 
 // ---------------------------------------------------------------------------
+// 5. Quiz Rápido (rc_quiz_rapido.json) — Fase 5 de la auditoría
+// ---------------------------------------------------------------------------
+// Distinto del banco de examen (`rc_items_*`): sus ítems se derivan de una
+// tarjeta de concepto (`tarjetaId`) en un formato más corto. RC NO declara
+// `renderizaFormulas`, así que QuizRapido.jsx renderiza enunciado/opciones/
+// explicación como texto plano — nada de `$…$` KaTeX ni de tokens
+// `[[regla]]` (que sí funcionan en Repaso de conceptos vía `reglasEnContexto`,
+// pero no en el Quiz). Por eso el verificador exige matemática en Unicode.
+const rutaQuiz = new URL('rc_quiz_rapido.json', base)
+let quizStats = null
+if (existsSync(rutaQuiz)) {
+  const quiz = JSON.parse(readFileSync(rutaQuiz, 'utf-8'))
+  const idsQuiz = new Set()
+  const q = { total: 0, mcq: 0, fill: 0, pos: { 0: 0, 1: 0, 2: 0, 3: 0 }, conLongitud: 0, masLarga: 0, masCorta: 0, cat: {} }
+  for (const it of quiz) {
+    q.total++
+    if (!/^RC-QR-\d+$/.test(it.id ?? '')) fail(`rc_quiz_rapido: id fuera de patrón ${JSON.stringify(it.id)}`)
+    if (idsQuiz.has(it.id)) fail(`rc_quiz_rapido: id duplicado ${it.id}`)
+    idsQuiz.add(it.id)
+    if (!['mcq', 'fill'].includes(it.formato)) fail(`${it.id}: formato debe ser mcq|fill (es ${JSON.stringify(it.formato)})`)
+    if (!COMPETENCIAS.has(it.categoria)) fail(`${it.id}: categoria inválida ${JSON.stringify(it.categoria)} (debe ser una competencia)`)
+    q.cat[it.categoria] = (q.cat[it.categoria] ?? 0) + 1
+    if (it.tarjetaId != null && !idsConcepto.has(it.tarjetaId)) fail(`${it.id}: tarjetaId "${it.tarjetaId}" no corresponde a ninguna tarjeta de concepto`)
+    for (const campo of ['enunciado', 'explicacion']) {
+      if (typeof it[campo] !== 'string' || it[campo].trim() === '') fail(`${it.id}: campo "${campo}" vacío`)
+    }
+    // El Quiz de RC se renderiza como texto plano: los tokens de regla
+    // `[[id|texto]]` no se resuelven ahí (sí en Repaso de conceptos), y la
+    // matemática debe ir en Unicode, no en `\frac`/`_`/`^{…}` de LaTeX. El
+    // "$" suelto SÍ es válido: es el símbolo de moneda ("$40.000.000"), la
+    // misma razón por la que RC no declara `renderizaFormulas`.
+    const todoTexto = JSON.stringify(it)
+    if (/\[\[[^\]]+\]\]/.test(todoTexto)) fail(`${it.id}: contiene un token [[regla]] — no renderiza en el Quiz de RC`)
+    if (/\\(frac|dfrac|times|div|sqrt|cdot)\b|[_^]\{/.test(todoTexto)) fail(`${it.id}: parece contener LaTeX — el Quiz de RC solo renderiza texto plano, usar Unicode`)
+
+    if (it.formato === 'fill') {
+      q.fill++
+      for (const campo of ['antes', 'despues', 'respuesta']) {
+        if (typeof it[campo] !== 'string' || it[campo].trim() === '') fail(`${it.id}: fill sin "${campo}"`)
+      }
+    } else {
+      q.mcq++
+      if (!Array.isArray(it.opciones) || it.opciones.length < 3) {
+        fail(`${it.id}: mcq necesita al menos 3 opciones`)
+        continue
+      }
+      it.opciones.forEach((o, i) => {
+        if (typeof o !== 'string' || o.trim() === '') fail(`${it.id}: opción ${i} vacía o no es texto`)
+      })
+      if (!Number.isInteger(it.correcta) || it.correcta < 0 || it.correcta >= it.opciones.length) {
+        fail(`${it.id}: "correcta" (${it.correcta}) fuera de rango`)
+        continue
+      }
+      q.pos[it.correcta] = (q.pos[it.correcta] ?? 0) + 1
+      const lens = it.opciones.map((o) => o.length)
+      const cl = lens[it.correcta]
+      const max = Math.max(...lens)
+      const min = Math.min(...lens)
+      if (max !== min && max >= 40) {
+        q.conLongitud++
+        if (cl === max) q.masLarga++
+        if (cl === min) q.masCorta++
+      }
+    }
+  }
+  quizStats = q
+} else {
+  console.log('\nrc_quiz_rapido.json: aún no existe (Fase 5 de la auditoría) — se omite')
+}
+
+// ---------------------------------------------------------------------------
 // Informe
 // ---------------------------------------------------------------------------
 console.log(`\n== Inventario ==`)
 console.log(`${tarjetas.length} tarjetas de concepto · ${idsItem.size} preguntas en ${idsGrupo.size} grupos · ${lp.length} ejercicios de lápiz y papel`)
+if (quizStats) {
+  const pL = pct(quizStats.masLarga, quizStats.conLongitud)
+  console.log(
+    `\n== Quiz Rápido ==\n  ${quizStats.total} ítems (${quizStats.mcq} mcq, ${quizStats.fill} fill) · por competencia ${JSON.stringify(quizStats.cat)}` +
+      `\n  mcq: posición de la correcta ${LETRAS.map((l, i) => `${l}:${quizStats.pos[i]}`).join(' ')} (se baraja en vivo)` +
+      `\n  correcta = más larga ${pL}% · más corta ${pct(quizStats.masCorta, quizStats.conLongitud)}% (sobre ${quizStats.conLongitud} ítems con opciones de prosa > 40 car.)`,
+  )
+  if (quizStats.conLongitud >= 8 && pL > 55) fail(`rc_quiz_rapido: la correcta es la más larga en ${pL}% (umbral 55%)`)
+  else if (quizStats.conLongitud >= 8 && pL > 45) aviso(`rc_quiz_rapido: la correcta es la más larga en ${pL}% (por encima del 45%)`)
+  const maxPos = Math.max(...Object.values(quizStats.pos))
+  if (quizStats.mcq >= 8 && pct(maxPos, quizStats.mcq) > 45) aviso(`rc_quiz_rapido: posición de la correcta sesgada en el JSON fuente (${LETRAS.map((l, i) => `${l}:${quizStats.pos[i]}`).join(' ')})`)
+}
 
 console.log(`\n== Cobertura visual por núcleo ==`)
 for (const [n, v] of Object.entries(visualPorNucleo)) {
