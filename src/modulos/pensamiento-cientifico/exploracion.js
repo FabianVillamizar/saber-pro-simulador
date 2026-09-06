@@ -39,58 +39,31 @@ export const NOMBRES_BLOQUE_COMUN = {
   representar_datos_en_grafica_o_tabla: 'Elegir tabla o gráfica',
 }
 
+// Fase 2 (reconstrucción del módulo): la bandeja de química se re-bloqueó
+// por las 5 afirmaciones del ICFES en vez de 14 casillas temáticas. Cada
+// tarjeta de química ahora enseña un movimiento de razonamiento (la
+// química es el escenario, no el contenido), así que la familia natural
+// es la afirmación que ejercita, no el tema de química. `bloque` de cada
+// tarjeta = `quimica_<afirmacion>`.
 export const NOMBRES_BLOQUE_QUIMICA = {
-  estequiometria_y_balance_de_ecuaciones: 'Estequiometría y balance',
-  gases_ideales_leyes_de_boyle_y_gay_lussac: 'Gases ideales',
-  equilibrio_quimico_le_chatelier: 'Equilibrio y Le Chatelier',
-  cinetica_de_reaccion_y_efecto_catalitico: 'Cinética y catálisis',
-  termoquimica_y_calorimetria: 'Termoquímica y calorimetría',
-  redox_y_balanceo_de_ecuaciones: 'Redox y su balanceo',
-  estados_de_oxidacion_e_interpretacion_de_datos_relativos: 'Estados de oxidación',
-  reactividad_alcanos_alquinos_alquenos_frente_a_oxidantes: 'Reactividad orgánica básica',
-  geometria_molecular_y_angulos_de_enlace: 'Geometría molecular',
-  acido_base_y_procedimientos_de_laboratorio: 'Ácido-base en el laboratorio',
-  solubilidad_y_recristalizacion: 'Solubilidad y recristalización',
-  espectroscopia_e_intensidad_de_senal_basica: 'Espectroscopía básica',
-  nanomateriales_y_confinamiento_cuantico: 'Nanomateriales y confinamiento',
-  soluciones_y_propiedades_coligativas: 'Soluciones y propiedades coligativas',
+  quimica_plantear_preguntas: 'Plantear preguntas en un contexto químico',
+  quimica_establecer_estrategias: 'Estrategias para abordar un problema químico',
+  quimica_adquirir_interpretar: 'Adquirir e interpretar datos químicos',
+  quimica_analizar_concluir: 'Analizar resultados y concluir',
+  quimica_comprender_modelos: 'Comprender y usar modelos químicos',
 }
 
-// Orden de lectura de las 14 casillas de química: agrupadas por afinidad
-// temática (no es el orden de creación del dato fuente), pero SIN cadena de
-// dependencia entre ellas — se verificó con script contra `prereqs` reales
-// y las 60 tarjetas de química no tienen ni un solo prerrequisito que cruce
-// de un bloque a otro (a diferencia de Razonamiento Cuantitativo, donde sí
-// los hay). Los 14 bloques son honestamente 14 puntos de entrada
-// independientes hoy; el mockup mostraba flechas de dependencia entre
-// casillas ("Redox depende de Estados de oxidación", etc.) que no existen
-// en el dato real, así que esta vista no las dibuja.
+// Orden de lectura de las 5 familias de química. Sin cadena de dependencia
+// entre ellas: las 60 tarjetas de química no tienen ni un solo prerrequisito
+// que cruce de una familia a otra (los `prereqs` que existen son todos
+// dentro de la misma afirmación). Los tamaños son desiguales a propósito
+// (4 a 18), como en el núcleo común.
 export const ORDEN_CASILLAS_QUIMICA = [
-  'estequiometria_y_balance_de_ecuaciones',
-  'gases_ideales_leyes_de_boyle_y_gay_lussac',
-  'termoquimica_y_calorimetria',
-  'equilibrio_quimico_le_chatelier',
-  'cinetica_de_reaccion_y_efecto_catalitico',
-  'solubilidad_y_recristalizacion',
-  'soluciones_y_propiedades_coligativas',
-  'acido_base_y_procedimientos_de_laboratorio',
-  'redox_y_balanceo_de_ecuaciones',
-  'estados_de_oxidacion_e_interpretacion_de_datos_relativos',
-  'geometria_molecular_y_angulos_de_enlace',
-  'reactividad_alcanos_alquinos_alquenos_frente_a_oxidantes',
-  'espectroscopia_e_intensidad_de_senal_basica',
-  'nanomateriales_y_confinamiento_cuantico',
-]
-
-// Los 3 bloques de método científico aplicado a química — mismos 3
-// conceptos del núcleo común (ver HERRAMIENTAS, clave 'preguntas'), pero
-// con ejemplos de química (MnO₂ como catalizador, transición de fase del
-// Na₂SO₄, Rf de cromatografía). Los nombres se reutilizan de
-// NOMBRES_BLOQUE_COMUN porque son el mismo concepto, no una variante.
-export const METODO_QUIMICA = [
-  'formulacion_de_hipotesis_falsable',
-  'brecha_de_datos_ignorada',
-  'objetivo_de_un_protocolo_experimental',
+  'quimica_plantear_preguntas',
+  'quimica_establecer_estrategias',
+  'quimica_adquirir_interpretar',
+  'quimica_analizar_concluir',
+  'quimica_comprender_modelos',
 ]
 
 // Los 31 bloques del núcleo común agrupados en 6 "herramientas" reales —

@@ -54,9 +54,17 @@ for (const banco of BANCOS_CONCEPTO) {
     if (!['pregunta', 'cloze'].includes(t.modo)) fail(`${t.id}: modo debe ser pregunta|cloze (es ${JSON.stringify(t.modo)})`)
     if (t.afirmacion_asociada && !AFIRMACIONES.has(t.afirmacion_asociada)) fail(`${t.id}: afirmacion_asociada desconocida ${JSON.stringify(t.afirmacion_asociada)}`)
     if (t.nucleo && !NUCLEOS.has(t.nucleo)) fail(`${t.id}: nucleo desconocido ${JSON.stringify(t.nucleo)}`)
-    const campos = t.modo === 'cloze' ? ['antes', 'despues', 'respuesta', 'regla'] : ['pregunta', 'respuesta', 'regla']
+    // Fase 2: `regla`/`ejemplo`/`conexion_cotidiana` son opcionales (se
+    // dropean cuando solo repiten la respuesta); el renderer ya los pinta
+    // condicionalmente. Obligatorios: solo el enunciado y la respuesta.
+    const campos = t.modo === 'cloze' ? ['antes', 'despues', 'respuesta'] : ['pregunta', 'respuesta']
     for (const c of campos) {
       if (typeof t[c] !== 'string' || t[c].trim() === '') fail(`${t.id}: campo "${c}" vacío o ausente`)
+    }
+    // química ya re-bloqueada por afirmación (Fase 2): bloque = quimica_<afirmacion>
+    if (t.id.startsWith('PC-QUI-')) {
+      const esperado = `quimica_${t.afirmacion_asociada}`
+      if (t.bloque !== esperado) fail(`${t.id}: bloque "${t.bloque}" no coincide con quimica_<afirmacion> ("${esperado}")`)
     }
   }
 }
@@ -65,6 +73,16 @@ for (const t of conceptos) {
   for (const p of t.prereqs ?? []) {
     if (!idsConcepto.has(p)) fail(`${t.id}: prereq "${p}" no corresponde a ninguna tarjeta`)
   }
+}
+// coherencia con la vista de exploración: los `bloque` de química deben
+// ser exactamente las 5 familias que dibuja la bandeja de química
+const { ORDEN_CASILLAS_QUIMICA } = await import('../src/modulos/pensamiento-cientifico/exploracion.js')
+const bloquesQuiPresentes = new Set(conceptos.filter((t) => t.id.startsWith('PC-QUI-')).map((t) => t.bloque))
+for (const b of bloquesQuiPresentes) {
+  if (!ORDEN_CASILLAS_QUIMICA.includes(b)) fail(`bloque de química "${b}" no está en ORDEN_CASILLAS_QUIMICA (exploracion.js)`)
+}
+for (const b of ORDEN_CASILLAS_QUIMICA) {
+  if (!bloquesQuiPresentes.has(b)) fail(`ORDEN_CASILLAS_QUIMICA declara "${b}" pero ninguna tarjeta de química lo usa`)
 }
 // longitud de prosa (mismo criterio que Diosgenina / LC)
 const longitudes = conceptos.map((t) => {

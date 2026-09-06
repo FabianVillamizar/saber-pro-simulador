@@ -8,7 +8,6 @@ import {
   NOMBRES_BLOQUE_COMUN,
   NOMBRES_BLOQUE_QUIMICA,
   ORDEN_CASILLAS_QUIMICA,
-  METODO_QUIMICA,
   HERRAMIENTAS,
   gradoDeBloque,
 } from '../modulos/pensamiento-cientifico/exploracion.js'
@@ -64,17 +63,11 @@ export function ExploracionPensamientoCientifico({ moduloId, perfil, onCambiarPe
     return { bloque, nombre: NOMBRES_BLOQUE_QUIMICA[bloque] ?? bloque, cards, estado, hechas }
   })
 
-  const metodoQuimica = METODO_QUIMICA.map((bloque) => {
-    const cards = quimica.filter((t) => t.bloque === bloque)
-    const estado = estadoDeGrupo(cards, estadosSRS)
-    return { bloque, nombre: NOMBRES_BLOQUE_COMUN[bloque] ?? bloque, n: cards.length, estado }
-  })
-
   function repasarComun() {
     onRepasar(null, herramientas.flatMap((h) => h.bloques))
   }
   function repasarQuimica() {
-    onRepasar(null, [...ORDEN_CASILLAS_QUIMICA, ...METODO_QUIMICA])
+    onRepasar(null, ORDEN_CASILLAS_QUIMICA)
   }
   function repasarTodo() {
     onRepasar(null, null)
@@ -139,8 +132,8 @@ export function ExploracionPensamientoCientifico({ moduloId, perfil, onCambiarPe
               <span className="pc-meson-n">{quimica.length}</span>
             </div>
             <p className="pc-meson-desc">
-              14 casillas de exactamente 4 tarjetas. Cada tema es un punto de entrada propio — ninguno exige otro
-              primero.
+              Cinco familias, una por afirmación del ICFES. Cada tarjeta ejercita un movimiento de razonamiento
+              con la química como escenario; ninguna familia exige otra primero.
             </p>
             <div className="pc-meson-barra">
               <div className="pc-meson-barra-relleno" style={{ width: `${quimPct}%` }} />
@@ -250,8 +243,9 @@ export function ExploracionPensamientoCientifico({ moduloId, perfil, onCambiarPe
         {superficie === 'quimica' && (
           <div className="pc-seccion">
             <p className="explorar-pc-intro">
-              Catorce casillas de exactamente cuatro tarjetas: la retícula es literal, cada celda es una tarjeta.
-              Ninguna casilla depende de otra — son 14 puntos de entrada reales, no una cadena.
+              Cinco familias, una por cada afirmación del ICFES. Cada tarjeta ejercita un movimiento de
+              razonamiento y la química es solo el escenario, así que agrupan por lo que entrenan, no por el
+              tema. El tamaño de cada familia es su número real de tarjetas; ninguna depende de otra.
             </p>
 
             <div className="pc-casillas">
@@ -274,24 +268,6 @@ export function ExploracionPensamientoCientifico({ moduloId, perfil, onCambiarPe
                   </div>
                 </div>
               ))}
-            </div>
-
-            <div className="pc-metodo">
-              <div className="pc-metodo-etiqueta">No son temas de química</div>
-              <div className="pc-metodo-titulo">Método científico aplicado a química</div>
-              <div className="pc-metodo-chips">
-                {metodoQuimica.map((m) => (
-                  <div key={m.bloque} className={`pc-metodo-chip pc-metodo-chip--${m.estado}`}>
-                    <span className="pc-metodo-punto" />
-                    <span className="pc-metodo-nombre">{m.nombre}</span>
-                    <span className="pc-metodo-n">{m.n}</span>
-                  </div>
-                ))}
-              </div>
-              <p className="pc-metodo-nota">
-                Estos tres rompen la retícula a propósito: son la caja de herramientas del otro lado del mesón,
-                aplicada a un contexto químico concreto. Es el único punto donde las dos superficies se tocan.
-              </p>
             </div>
 
             <button type="button" className="boton-primario explorar-pc-cta" onClick={repasarQuimica}>
