@@ -5,8 +5,7 @@
     "modulo": "pensamiento_cientifico",
     "nucleo": "comun",
     "contexto_cientifico": "El modelo de la primera ley de Newton (ley de inercia) establece que un objeto sobre el que no actúa ninguna fuerza neta mantendrá su estado de movimiento (en reposo o con velocidad constante) indefinidamente. Una nave espacial en el vacío del espacio profundo, lejos de cualquier planeta o estrella, apaga por completo sus motores después de alcanzar una velocidad de 20.000 km/h.",
-    "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Diagrama de una nave espacial en el espacio profundo con los motores apagados, mostrando una flecha de velocidad constante y ninguna fuerza neta actuando sobre ella.",
+    "tipo_visual": "ninguno",
     "preguntas": [
       {
         "id": "PC-ITEM-041",
@@ -43,7 +42,7 @@
         ]
       }
     ],
-    "imagen": "PC-GRUPO-041.svg"
+    "visual_posicion": "ninguna"
   },
   {
     "tipo": "contexto_cientifico",
@@ -364,8 +363,7 @@
     "modulo": "pensamiento_cientifico",
     "nucleo": "comun",
     "contexto_cientifico": "El modelo de Bohr describe el átomo de hidrógeno como un núcleo con un electrón que orbita en niveles de energía específicos y cuantizados, y predice con gran precisión las longitudes de onda del espectro de emisión del hidrógeno.",
-    "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Diagrama comparando el átomo de hidrógeno (un electrón orbitando el núcleo, modelo de Bohr aplicable) con un átomo de litio (tres electrones con interacciones entre sí, fuera del dominio simple del modelo de Bohr original).",
+    "tipo_visual": "ninguno",
     "preguntas": [
       {
         "id": "PC-ITEM-044",
@@ -402,7 +400,7 @@
         ]
       }
     ],
-    "imagen": "PC-GRUPO-044.svg"
+    "visual_posicion": "ninguna"
   },
   {
     "tipo": "contexto_cientifico",
@@ -552,8 +550,7 @@
     "modulo": "pensamiento_cientifico",
     "nucleo": "comun",
     "contexto_cientifico": "La luz puede describirse mediante dos modelos distintos: el modelo ondulatorio, que explica fenómenos como la interferencia y la difracción, y el modelo corpuscular (de fotones), que explica fenómenos como el efecto fotoeléctrico (la emisión de electrones de un material al incidir luz sobre él).",
-    "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Diagrama del efecto fotoeléctrico mostrando fotones de distinta frecuencia incidiendo sobre una placa metálica: los de baja frecuencia no liberan electrones (sin importar su intensidad), mientras que los de frecuencia superior al umbral sí lo hacen.",
+    "tipo_visual": "ninguno",
     "formula_latex": "E = hf",
     "preguntas": [
       {
@@ -590,7 +587,7 @@
         ]
       }
     ],
-    "imagen": "PC-GRUPO-046.svg"
+    "visual_posicion": "ninguna"
   },
   {
     "tipo": "contexto_cientifico",
@@ -703,8 +700,7 @@
     "modulo": "pensamiento_cientifico",
     "nucleo": "comun",
     "contexto_cientifico": "Existen tres modelos o mecanismos principales para describir la transferencia de calor: conducción (a través de un medio material por contacto directo), convección (mediante el movimiento de un fluido), y radiación (mediante ondas electromagnéticas, que no requiere ningún medio material).",
-    "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Diagrama de un satélite en el vacío del espacio, con el Sol emitiendo ondas electromagnéticas (radiación) hacia la superficie del satélite orientada hacia él, sin ningún medio material entre ambos.",
+    "tipo_visual": "ninguno",
     "preguntas": [
       {
         "id": "PC-ITEM-048",
@@ -740,7 +736,7 @@
         ]
       }
     ],
-    "imagen": "PC-GRUPO-048.svg"
+    "visual_posicion": "ninguna"
   },
   {
     "tipo": "contexto_cientifico",
@@ -748,8 +744,8 @@
     "modulo": "pensamiento_cientifico",
     "nucleo": "especifico_quimica",
     "contexto_cientifico": "El modelo de Arrhenius define un ácido como una sustancia que libera iones H⁺ en solución acuosa, y una base como una sustancia que libera iones OH⁻ en solución acuosa. El modelo de Brønsted-Lowry, más amplio, define un ácido como cualquier sustancia capaz de donar un protón (H⁺) a otra especie, y una base como cualquier sustancia capaz de aceptar un protón, sin necesidad de que la reacción ocurra en agua.",
-    "tipo_visual": "estructura_quimica",
-    "visual_descripcion": "Diagrama de la reacción NH₃(g) + HCl(g) → NH₄Cl(s) mostrando la transferencia del protón H⁺ desde el HCl hacia el NH₃, sin presencia de agua ni ningún disolvente.",
+    "tipo_visual": "tabla",
+    "visual_descripcion": "El modelo de Arrhenius necesita agua; el de Brønsted-Lowry solo necesita una transferencia de protón.",
     "preguntas": [
       {
         "id": "PC-ITEM-049",
@@ -785,7 +781,25 @@
         ]
       }
     ],
-    "imagen": "PC-GRUPO-049.svg"
+    "tabla_filas": {
+      "columnas": [
+        "Modelo",
+        "¿Necesita solución acuosa?",
+        "¿Describe NH₃(g) + HCl(g)?"
+      ],
+      "filas": [
+        [
+          "Arrhenius",
+          "Sí (iones H⁺ / OH⁻ en agua)",
+          "No"
+        ],
+        [
+          "Brønsted-Lowry",
+          "No (basta que un protón se transfiera)",
+          "Sí"
+        ]
+      ]
+    }
   },
   {
     "tipo": "contexto_cientifico",
@@ -793,8 +807,8 @@
     "modulo": "pensamiento_cientifico",
     "nucleo": "especifico_quimica",
     "contexto_cientifico": "El modelo de repulsión de pares de electrones de valencia (VSEPR) predice la geometría molecular de compuestos de los elementos representativos contando los pares de electrones enlazantes y no enlazantes alrededor del átomo central, asumiendo que estos se distribuyen para minimizar la repulsión entre ellos.",
-    "tipo_visual": "estructura_quimica",
-    "visual_descripcion": "Estructura del complejo [Co(NH₃)₆]³⁺ mostrando geometría octaédrica, junto a una comparación con una molécula simple de elementos representativos (como el CH₄) donde el modelo VSEPR aplica directamente.",
+    "tipo_visual": "tabla",
+    "visual_descripcion": "El VSEPR simple aplica a elementos representativos; los metales de transición usan orbitales d y requieren otro modelo.",
     "preguntas": [
       {
         "id": "PC-ITEM-050",
@@ -831,7 +845,25 @@
         ]
       }
     ],
-    "imagen": "PC-GRUPO-050.svg"
+    "tabla_filas": {
+      "columnas": [
+        "Compuesto",
+        "Átomo central",
+        "¿VSEPR simple aplica?"
+      ],
+      "filas": [
+        [
+          "CH₄",
+          "Elemento representativo",
+          "Sí, directo"
+        ],
+        [
+          "[Co(NH₃)₆]³⁺",
+          "Metal de transición (orbitales d)",
+          "No: se usa teoría del campo cristalino"
+        ]
+      ]
+    }
   },
   {
     "tipo": "contexto_cientifico",
@@ -1139,8 +1171,7 @@
     "modulo": "pensamiento_cientifico",
     "nucleo": "especifico_quimica",
     "contexto_cientifico": "La teoría de enlace de valencia (TEV) describe los enlaces químicos principalmente en términos de pares de electrones compartidos entre átomos específicos, mientras que la teoría de orbitales moleculares (TOM) describe los electrones como distribuidos en orbitales moleculares que abarcan toda la molécula, algunos de los cuales pueden tener electrones desapareados.",
-    "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Diagrama de orbitales moleculares del O₂ mostrando los electrones distribuidos en orbitales enlazantes y antienlazantes, con dos electrones desapareados en orbitales π* de antienlace, junto a la estructura de Lewis simple del O₂ que muestra todos los electrones apareados.",
+    "tipo_visual": "ninguno",
     "preguntas": [
       {
         "id": "PC-ITEM-054",
@@ -1176,7 +1207,7 @@
         ]
       }
     ],
-    "imagen": "PC-GRUPO-054.svg"
+    "visual_posicion": "ninguna"
   },
   {
     "tipo": "contexto_cientifico",

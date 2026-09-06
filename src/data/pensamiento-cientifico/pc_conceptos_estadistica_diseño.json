@@ -316,12 +316,30 @@
     "ejemplo": "En un ensayo clínico, un grupo recibe el medicamento y otro un placebo idéntico, manteniendo todo lo demás igual.",
     "error_comun": "Se cambian varias variables a la vez, haciendo imposible saber cuál causó la diferencia.",
     "conexion_cotidiana": "Cambiar rutina, dieta y sueño a la vez impide saber cuál cambio mejoró realmente tu energía.",
-    "tipo_visual": "diagrama_esquematico",
+    "tipo_visual": "tabla",
     "visual_posicion": "frente",
-    "visual_descripcion": "Diagrama con dos grupos de plantas idénticos en todas las condiciones excepto la presencia del fertilizante (grupo A) o su ausencia (grupo B, control), con una flecha señalando la única variable que difiere.",
+    "visual_descripcion": "En un experimento controlado, el grupo experimental y el control son iguales en todo salvo la variable manipulada.",
     "dificultad": "baja",
     "prereqs": [],
-    "imagen": "PC-EST-007.svg"
+    "tabla_filas": {
+      "columnas": [
+        "",
+        "Grupo A",
+        "Grupo B (control)"
+      ],
+      "filas": [
+        [
+          "Fertilizante nuevo",
+          "Sí",
+          "No"
+        ],
+        [
+          "Especie, edad, suelo, luz, agua",
+          "Iguales",
+          "Iguales"
+        ]
+      ]
+    }
   },
   {
     "id": "PC-EST-008",
@@ -539,14 +557,12 @@
     "ejemplo": "Diluir un ácido agregándolo al agua, y no al revés, es crítico por seguridad: invertir el orden libera calor de forma más concentrada y peligrosa.",
     "error_comun": "Se asume que un procedimiento es equivalente a otro con los mismos materiales, sin considerar que el orden puede alterar la dinámica del proceso.",
     "conexion_cotidiana": "Agregar aceite lentamente sobre vinagre para emulsionar da un resultado distinto a verter ambos juntos, con los mismos ingredientes.",
-    "tipo_visual": "diagrama_esquematico",
-    "visual_posicion": "frente",
-    "visual_descripcion": "Diagrama de dos procedimientos con las mismas sustancias A y B pero orden de adición invertido, mostrando resultados distintos (reacción gradual vs vigorosa) para cada secuencia.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
     "dificultad": "alta",
     "prereqs": [
       "PC-EST-017"
-    ],
-    "imagen": "PC-EST-018.svg"
+    ]
   },
   {
     "id": "PC-EST-019",

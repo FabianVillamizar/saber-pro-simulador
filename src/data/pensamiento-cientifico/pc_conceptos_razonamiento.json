@@ -56,14 +56,42 @@
     "ejemplo": "En arquería, un arquero cuyas flechas caen agrupadas lejos del centro es preciso pero no exacto; otro cuyas flechas se dispersan pero promedian el centro es exacto en promedio pero impreciso.",
     "error_comun": "Se interpreta que todos los datos coincidiendo entre sí significa que son correctos, olvidando que la reproducibilidad no descarta un error sistemático.",
     "conexion_cotidiana": "Un test casero de embarazo que da el mismo resultado varias veces es preciso, pero solo un examen de laboratorio confirma si además es exacto.",
-    "tipo_visual": "diagrama_esquematico",
+    "tipo_visual": "tabla",
     "visual_posicion": "reverso",
-    "visual_descripcion": "Cuatro dianas de tiro al arco en cuadrícula 2x2: (1) precisa y exacta - flechas agrupadas en el centro, (2) precisa pero no exacta - flechas agrupadas fuera del centro, (3) exacta en promedio pero no precisa - flechas dispersas alrededor del centro, (4) ni exacta ni precisa - flechas dispersas y lejos del centro.",
+    "visual_descripcion": "Las cuatro combinaciones de exactitud y precisión: si las medidas están agrupadas entre sí y si están centradas en el valor real.",
     "dificultad": "media",
     "prereqs": [
       "PC-RAZ-001"
     ],
-    "imagen": "PC-RAZ-002.svg"
+    "tabla_filas": {
+      "columnas": [
+        "Caso",
+        "¿Agrupadas entre sí?",
+        "¿Centradas en el valor real?"
+      ],
+      "filas": [
+        [
+          "Precisa y exacta",
+          "Sí",
+          "Sí"
+        ],
+        [
+          "Precisa, no exacta",
+          "Sí",
+          "No"
+        ],
+        [
+          "Exacta en promedio, no precisa",
+          "No",
+          "El promedio sí"
+        ],
+        [
+          "Ni una ni otra",
+          "No",
+          "No"
+        ]
+      ]
+    }
   },
   {
     "id": "PC-RAZ-003",
@@ -164,12 +192,30 @@
     "ejemplo": "No sería adecuado concluir que un suplemento mejora la masa muscular comparando fisicoculturistas que ya lo consumen con personas sedentarias que no lo consumen, en vez de medir a las mismas personas antes y después.",
     "error_comun": "Se confunde \"encontrar una diferencia entre dos grupos\" con \"haber demostrado el efecto de una intervención\", sin notar que los grupos pueden diferir en edad, genética o hábitos previos.",
     "conexion_cotidiana": "No sería válido concluir que un champú causa cabello más brillante comparando modelos que ya lo usan con personas cualquiera que no lo usan, en vez de comparar a las mismas personas antes y después.",
-    "tipo_visual": "diagrama_esquematico",
+    "tipo_visual": "tabla",
     "visual_posicion": "frente",
-    "visual_descripcion": "Dos diseños comparados lado a lado: (incorrecto) Grupo A de parcelas en zona 1 con fertilizante vs Grupo B de parcelas en zona 2 sin fertilizante; (correcto) las mismas parcelas medidas en el tiempo 1 (sin fertilizante) y tiempo 2 (con fertilizante).",
+    "visual_descripcion": "Un diseño donde la zona y el tratamiento cambian juntos no permite aislar el efecto; comparar las mismas parcelas antes y después sí.",
     "dificultad": "alta",
     "prereqs": [],
-    "imagen": "PC-RAZ-005.svg"
+    "tabla_filas": {
+      "columnas": [
+        "Diseño",
+        "Qué cambia entre las condiciones",
+        "¿Se puede aislar el efecto del fertilizante?"
+      ],
+      "filas": [
+        [
+          "Zona 1 con · Zona 2 sin",
+          "La zona y el fertilizante a la vez",
+          "No: están confundidos"
+        ],
+        [
+          "Mismas parcelas, antes sin · después con",
+          "Solo el fertilizante (y el tiempo)",
+          "Sí, mucho mejor"
+        ]
+      ]
+    }
   },
   {
     "id": "PC-RAZ-006",
@@ -206,13 +252,36 @@
     "ejemplo": "En un experimento de germinación, si se varía la cantidad de agua y se mide el número de semillas germinadas, el agua es la independiente y la germinación es la dependiente.",
     "error_comun": "Se confunde la dependiente con la independiente cuando no queda claro cuál decide el investigador y cuál se observa como consecuencia.",
     "conexion_cotidiana": "Al probar si el tiempo de cocción afecta la textura de un huevo hervido, el tiempo es la variable independiente y la textura es la dependiente.",
-    "tipo_visual": "diagrama_esquematico",
+    "tipo_visual": "tabla",
     "visual_posicion": "frente",
-    "visual_descripcion": "Diagrama de flujo del experimento del péndulo: caja 'Variable independiente: longitud del hilo' con flecha hacia caja 'Variable dependiente: periodo de oscilación', y a un lado un recuadro 'Variables controladas: masa de la bola, ángulo inicial'.",
+    "visual_descripcion": "Rol de cada variable en el experimento del péndulo.",
     "formula_latex": "T = 2\\pi\\sqrt{l/g}",
     "dificultad": "media",
     "prereqs": [],
-    "imagen": "PC-RAZ-007.svg"
+    "tabla_filas": {
+      "columnas": [
+        "Variable",
+        "Rol"
+      ],
+      "filas": [
+        [
+          "Longitud del hilo",
+          "Independiente (se cambia a propósito)"
+        ],
+        [
+          "Periodo de oscilación",
+          "Dependiente (se mide como resultado)"
+        ],
+        [
+          "Masa de la bola",
+          "Controlada (se mantiene fija)"
+        ],
+        [
+          "Ángulo inicial",
+          "Controlada (se mantiene fija)"
+        ]
+      ]
+    }
   },
   {
     "id": "PC-RAZ-008",
@@ -431,11 +500,11 @@
           "nombre": "Extrapolación fuera de dominio (hacia una bacteria)",
           "datos": [
             {
-              "x": 1e-9,
-              "y": 0.0000124
+              "x": 1e-09,
+              "y": 1.24e-05
             },
             {
-              "x": 0.000001,
+              "x": 1e-06,
               "y": 0.0022
             },
             {
@@ -607,13 +676,11 @@
     "ejemplo": "Un paracaidista en velocidad terminal desciende a velocidad constante porque su peso está equilibrado por la fricción del aire, aunque sigue moviéndose.",
     "error_comun": "Se asocia intuitivamente \"fuerza neta cero\" con \"objeto quieto\", pero la primera ley de Newton establece que el objeto mantiene su velocidad, sea esta cero o no.",
     "conexion_cotidiana": "Un ascensor que sube a velocidad constante entre dos pisos tiene las fuerzas equilibradas igual que cuando está detenido.",
-    "tipo_visual": "diagrama_esquematico",
-    "visual_posicion": "frente",
-    "visual_descripcion": "Diagrama de cuerpo libre de un carro en movimiento a velocidad constante, mostrando la fuerza del motor hacia adelante y la fricción más resistencia del aire hacia atrás, de igual magnitud, con una flecha de velocidad constante hacia adelante.",
+    "tipo_visual": "ninguno",
+    "visual_posicion": "ninguna",
     "formula_latex": "\\Sigma F = 0 \\Rightarrow a = 0",
     "dificultad": "media",
-    "prereqs": [],
-    "imagen": "PC-RAZ-019.svg"
+    "prereqs": []
   },
   {
     "id": "PC-RAZ-020",

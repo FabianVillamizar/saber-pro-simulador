@@ -847,8 +847,7 @@
     "modulo": "pensamiento_cientifico",
     "nucleo": "comun",
     "contexto_cientifico": "Un bloque se desliza sobre un piso con fricción, empujado por una fuerza horizontal constante. Un sensor de fuerza confirma que, en un tramo del movimiento, la fuerza aplicada es exactamente igual en magnitud a la fuerza de fricción que se opone al movimiento (las fuerzas están balanceadas, es decir, la fuerza neta es cero).",
-    "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Diagrama de un bloque sobre un piso con dos flechas de igual longitud en direcciones opuestas representando la fuerza aplicada y la fuerza de fricción, con una nota indicando que el bloque se mueve a velocidad constante hacia la derecha.",
+    "tipo_visual": "ninguno",
     "preguntas": [
       {
         "id": "PC-ITEM-009",
@@ -884,7 +883,7 @@
         ]
       }
     ],
-    "imagen": "PC-GRUPO-009.svg"
+    "visual_posicion": "ninguna"
   },
   {
     "tipo": "contexto_cientifico",
@@ -1707,8 +1706,8 @@
     "modulo": "pensamiento_cientifico",
     "nucleo": "especifico_quimica",
     "contexto_cientifico": "El diagrama de fases del CO₂ muestra que su punto triple ocurre a una presión de 5,11 atm y una temperatura de −56,6 °C; por debajo de esa presión (como a 1 atm, la presión atmosférica normal), el CO₂ sólido pasa directamente a gas al calentarse, sin pasar por un estado líquido intermedio (sublimación), un fenómeno conocido en el 'hielo seco'.",
-    "tipo_visual": "diagrama_esquematico",
-    "visual_descripcion": "Diagrama de fases de presión (eje Y) vs temperatura (eje X) para el CO₂, mostrando las regiones de sólido, líquido y gas, el punto triple marcado en 5,11 atm y −56,6 °C, y una línea horizontal en 1 atm que solo cruza las regiones de sólido y gas.",
+    "tipo_visual": "tabla",
+    "visual_descripcion": "A 1 atm el CO₂ no pasa por fase líquida porque esa presión está por debajo de su punto triple (5,11 atm).",
     "preguntas": [
       {
         "id": "PC-ITEM-018",
@@ -1744,7 +1743,22 @@
         ]
       }
     ],
-    "imagen": "PC-GRUPO-018.svg"
+    "tabla_filas": {
+      "columnas": [
+        "Presión",
+        "Al calentar CO₂ sólido"
+      ],
+      "filas": [
+        [
+          "1 atm (menor que el punto triple)",
+          "Sublima: sólido → gas, sin fase líquida"
+        ],
+        [
+          "Mayor que 5,11 atm",
+          "Funde y luego hierve: sólido → líquido → gas"
+        ]
+      ]
+    }
   },
   {
     "tipo": "contexto_cientifico",

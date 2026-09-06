@@ -522,15 +522,33 @@
     "respuesta": "Hay que contar los moles de gas de cada lado: 4 a la izquierda, 2 a la derecha. Recién entonces aplica la regla de que más presión desplaza hacia el lado con menos moles gaseosos (aquí, el NH₃). Si los moles fueran iguales, la presión no haría nada: la regla tiene una condición previa que hay que verificar.",
     "error_comun": "Aplicar una regla sin comprobar antes la condición que la hace válida en ese caso.",
     "conexion_cotidiana": "Un descuento 'por volumen' solo aplica si superas cierta cantidad; conviene mirar el umbral antes de asumir que te lo dan.",
-    "tipo_visual": "diagrama_esquematico",
+    "tipo_visual": "tabla",
     "visual_posicion": "frente",
-    "visual_descripcion": "Diagrama de un recipiente con émbolo comprimido reduciendo el volumen a la mitad, mostrando el conteo de moléculas de gas en cada lado (4 vs 2) y una flecha hacia los productos.",
+    "visual_descripcion": "Número total de moles de gas a cada lado de la ecuación balanceada.",
     "formula_latex": "N_2(g) + 3H_2(g) \\rightleftharpoons 2NH_3(g)",
     "dificultad": "alta",
     "prereqs": [
       "PC-QUI-010"
     ],
-    "imagen": "PC-QUI-011.svg"
+    "tabla_filas": {
+      "columnas": [
+        "Lado",
+        "Especies",
+        "Moles de gas"
+      ],
+      "filas": [
+        [
+          "Reactivos",
+          "N₂ + 3H₂",
+          "4"
+        ],
+        [
+          "Productos",
+          "2NH₃",
+          "2"
+        ]
+      ]
+    }
   },
   {
     "id": "PC-QUI-012",
@@ -1340,14 +1358,32 @@
     "respuesta": "Una reacción de adición electrofílica: el bromo se adiciona al doble enlace del ciclohexeno, formando un producto dibromado incoloro; el ciclohexano, sin enlaces múltiples, no puede reaccionar así, por lo que el color se mantiene.",
     "error_comun": "Se confunde esta prueba con la del KMnO₄, asumiendo que ambas indican exactamente el mismo tipo de reacción, cuando una es una adición electrofílica y la otra una oxidación.",
     "conexion_cotidiana": "Una prueba rápida de tiras para el cloro del agua funciona igual: un cambio de color visible responde una pregunta de sí o no.",
-    "tipo_visual": "estructura_quimica",
+    "tipo_visual": "tabla",
     "visual_posicion": "frente",
-    "visual_descripcion": "Estructuras del ciclohexano y el ciclohexeno lado a lado, con una flecha mostrando la adición de Br₂ al doble enlace del ciclohexeno.",
+    "visual_descripcion": "El agua de bromo se decolora solo si hay un enlace múltiple carbono-carbono al que el Br₂ se pueda adicionar.",
     "dificultad": "media",
     "prereqs": [
       "PC-QUI-029"
     ],
-    "imagen": "PC-QUI-031.svg"
+    "tabla_filas": {
+      "columnas": [
+        "Compuesto",
+        "Enlaces C–C",
+        "¿Decolora el agua de bromo?"
+      ],
+      "filas": [
+        [
+          "Ciclohexano",
+          "Solo sencillos",
+          "No, el color persiste"
+        ],
+        [
+          "Ciclohexeno",
+          "Un doble enlace",
+          "Sí, rápido (el Br₂ se adiciona al doble enlace)"
+        ]
+      ]
+    }
   },
   {
     "id": "PC-QUI-032",
@@ -1380,12 +1416,35 @@
     "respuesta": "No. El modelo base da una primera aproximación y las desviaciones son sistemáticas: el ángulo siempre baja, y baja más cuantos más pares solitarios hay. Un patrón así no invalida el modelo, señala un factor que la versión simple no incluye y que una versión refinada (los pares solitarios repelen más) sí captura. Acotar el rango de un modelo no es descartarlo.",
     "error_comun": "Tratar cualquier desviación entre modelo y medición como prueba de que el modelo 'no sirve', sin mirar si la desviación es sistemática y explicable.",
     "conexion_cotidiana": "Un mapa plano deforma las distancias cerca de los polos; no por eso es un mal mapa, solo hay que saber dónde deja de ser fiel.",
-    "tipo_visual": "estructura_quimica",
+    "tipo_visual": "tabla",
     "visual_posicion": "frente",
-    "visual_descripcion": "Tres estructuras moleculares (CH₄ tetraédrica, NH₃ piramidal trigonal, H₂O angular) con sus ángulos de enlace etiquetados y los pares solitarios resaltados.",
+    "visual_descripcion": "A igual número de dominios de electrones (4), el ángulo baja cuantos más pares solitarios tiene el átomo central.",
     "dificultad": "media",
     "prereqs": [],
-    "imagen": "PC-QUI-033.svg"
+    "tabla_filas": {
+      "columnas": [
+        "Molécula",
+        "Pares solitarios",
+        "Ángulo medido"
+      ],
+      "filas": [
+        [
+          "CH₄",
+          "0",
+          "109,5°"
+        ],
+        [
+          "NH₃",
+          "1",
+          "~107°"
+        ],
+        [
+          "H₂O",
+          "2",
+          "~104,5°"
+        ]
+      ]
+    }
   },
   {
     "id": "PC-QUI-034",
@@ -1399,14 +1458,41 @@
     "respuesta": "Porque llega a la misma respuesta con menos pasos y menos ocasiones de equivocarse: es un atajo de reconocimiento visual sobre la estructura de Lewis. Elegir la estrategia más simple que da el mismo resultado es parte de resolver bien, no una trampa.",
     "error_comun": "Usar el procedimiento largo por inercia cuando existe uno equivalente y más robusto.",
     "conexion_cotidiana": "Para saber si un número es par miras la última cifra, no lo divides entre 2: mismo resultado, menos trabajo.",
-    "tipo_visual": "estructura_quimica",
+    "tipo_visual": "tabla",
     "visual_posicion": "frente",
-    "visual_descripcion": "Tres estructuras de carbono con hibridación sp³ (109,5°), sp² (120°) y sp (180°), junto a un ejemplo de molécula típica de cada una.",
+    "visual_descripcion": "La hibridación de un carbono se reconoce contando cuántos átomos tiene unidos directamente.",
     "dificultad": "media",
     "prereqs": [
       "PC-QUI-033"
     ],
-    "imagen": "PC-QUI-034.svg"
+    "tabla_filas": {
+      "columnas": [
+        "Hibridación",
+        "Átomos unidos",
+        "Ángulo",
+        "Ejemplo"
+      ],
+      "filas": [
+        [
+          "sp³",
+          "4",
+          "109,5°",
+          "CH₄"
+        ],
+        [
+          "sp²",
+          "3",
+          "120°",
+          "C₂H₄"
+        ],
+        [
+          "sp",
+          "2",
+          "180°",
+          "C₂H₂"
+        ]
+      ]
+    }
   },
   {
     "id": "PC-QUI-035",
@@ -1420,14 +1506,32 @@
     "respuesta": "Contar también los pares solitarios del átomo central. El boro no tiene ninguno, el nitrógeno tiene uno que ocupa un cuarto dominio y empuja los enlaces hacia abajo. Dos casos que 'se ven iguales' por una variable pueden separarse solo al mirar la que el conteo simple omitía.",
     "error_comun": "Concluir que dos casos son equivalentes porque coinciden en la variable que uno miró, sin comprobar si hay otra que los separa.",
     "conexion_cotidiana": "Dos personas con el mismo sueldo pueden tener finanzas muy distintas si una tiene deudas que el dato del sueldo no muestra.",
-    "tipo_visual": "estructura_quimica",
+    "tipo_visual": "tabla",
     "visual_posicion": "frente",
-    "visual_descripcion": "Estructuras de Lewis del BF₃ (trigonal plana, sin par solitario en B) y del NF₃ (piramidal trigonal, con un par solitario en N), con ángulos etiquetados.",
+    "visual_descripcion": "Dos moléculas con tres flúor unidos al centro difieren en geometría solo por los pares solitarios del átomo central.",
     "dificultad": "alta",
     "prereqs": [
       "PC-QUI-033"
     ],
-    "imagen": "PC-QUI-035.svg"
+    "tabla_filas": {
+      "columnas": [
+        "Molécula",
+        "Pares solitarios en el centro",
+        "Geometría"
+      ],
+      "filas": [
+        [
+          "BF₃",
+          "0",
+          "Trigonal plana, 120°"
+        ],
+        [
+          "NF₃",
+          "1",
+          "Piramidal, ángulos < 109,5°"
+        ]
+      ]
+    }
   },
   {
     "id": "PC-QUI-036",
@@ -1441,15 +1545,33 @@
     "respuesta": "Describen cosas distintas. 'Tetraédrica' es lo que el modelo reparte en el espacio: los cuatro dominios de electrones, enlazantes y solitarios. 'Angular' es lo que se observa: dónde quedan los átomos. El modelo describe más de lo que se puede ver, y solo coinciden cuando no hay pares solitarios.",
     "error_comun": "Usar como intercambiables dos términos que se refieren a niveles distintos, lo que el modelo postula y lo que se mide.",
     "conexion_cotidiana": "El plano de una casa muestra muros y espacios de circulación; una foto solo muestra los muebles. No se contradicen, describen capas distintas.",
-    "tipo_visual": "estructura_quimica",
+    "tipo_visual": "tabla",
     "visual_posicion": "frente",
-    "visual_descripcion": "Estructura del agua mostrando la geometría de dominios de electrones tetraédrica (con los 2 pares solitarios) junto a la geometría molecular angular, para contraste directo.",
+    "visual_descripcion": "Los dos nombres describen niveles distintos: lo que el modelo reparte en el espacio y lo que se observa.",
     "dificultad": "alta",
     "prereqs": [
       "PC-QUI-033",
       "PC-QUI-035"
     ],
-    "imagen": "PC-QUI-036.svg"
+    "tabla_filas": {
+      "columnas": [
+        "Nombre",
+        "Qué cuenta",
+        "Para el H₂O"
+      ],
+      "filas": [
+        [
+          "Geometría de dominios",
+          "Enlaces + pares solitarios",
+          "Tetraédrica"
+        ],
+        [
+          "Geometría molecular",
+          "Solo la posición de los átomos",
+          "Angular"
+        ]
+      ]
+    }
   },
   {
     "id": "PC-QUI-037",
@@ -1463,12 +1585,35 @@
     "respuesta": "El NaOH convierte el ácido benzoico en benzoato de sodio (soluble en agua), separándolo de la impureza neutra que permanece en la fase orgánica; el HCl reprotona el benzoato de sodio, regenerando el ácido benzoico insoluble, que precipita purificado.",
     "error_comun": "Se memoriza el procedimiento sin entender el principio (el cambio de solubilidad al cambiar la forma iónica/neutra), dificultando adaptarlo a otro compuesto.",
     "conexion_cotidiana": "Si entiendes por qué un truco funciona (cambia la solubilidad al ionizar) puedes adaptarlo a otro compuesto; si solo lo memorizas, no.",
-    "tipo_visual": "diagrama_esquematico",
+    "tipo_visual": "tabla",
     "visual_posicion": "frente",
-    "visual_descripcion": "Diagrama de flujo: mezcla en disolvente orgánico → agitación con NaOH → separación de fases → acidificación con HCl → precipitación del ácido benzoico purificado.",
+    "visual_descripcion": "Cada paso de la extracción ácido-base y qué logra.",
     "dificultad": "media",
     "prereqs": [],
-    "imagen": "PC-QUI-037.svg"
+    "tabla_filas": {
+      "columnas": [
+        "Paso",
+        "Qué hace"
+      ],
+      "filas": [
+        [
+          "Disolver en disolvente orgánico + agitar con NaOH",
+          "El ácido benzoico pasa a benzoato de sodio, soluble en agua; la impureza neutra se queda en la fase orgánica"
+        ],
+        [
+          "Separar las fases",
+          "Se descarta la fase orgánica con la impureza"
+        ],
+        [
+          "Acidificar la fase acuosa con HCl",
+          "El benzoato vuelve a ácido benzoico, insoluble"
+        ],
+        [
+          "Filtrar",
+          "Se recoge el ácido benzoico ya purificado"
+        ]
+      ]
+    }
   },
   {
     "id": "PC-QUI-038",
