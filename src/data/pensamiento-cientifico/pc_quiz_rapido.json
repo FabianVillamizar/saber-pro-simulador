@@ -757,12 +757,12 @@
     "enunciado": "Un polvo negro acelera la descomposición del agua oxigenada sin gastarse. Un estudiante quiere una hipótesis falsable sobre por qué. ¿Cuál lo es?",
     "opciones": [
       "'Tiene una capacidad catalítica especial que otros polvos no poseen'",
-      "'Está hecho de un material poco común y difícil de conseguir'",
+      "'Está hecho de un material químico poco común y difícil de conseguir en el laboratorio'",
       "'Da una superficie donde la reacción ocurre más fácil; molerlo más fino debería acelerarla'",
-      "'Actúa por un principio que la química todavía no logra explicar'"
+      "'Actúa por un principio químico que la ciencia todavía no ha logrado explicar del todo'"
     ],
     "correcta": 2,
-    "explicacion": "Solo la segunda propone un mecanismo con una predicción comprobable: si es la superficie, más superficie por molienda debería acelerar más. Las otras solo ponen una etiqueta al fenómeno."
+    "explicacion": "Solo la opción sobre la superficie propone un mecanismo con una predicción comprobable: si es la superficie, molerlo más fino debería acelerar más. Las otras solo le ponen una etiqueta al fenómeno."
   },
   {
     "id": "PC-QR-052",
@@ -777,7 +777,7 @@
       "'El modelo simplemente no se aplica a esta reacción concreta'"
     ],
     "correcta": 0,
-    "explicacion": "Descartar el resultado como 'un error' no dice qué error ni predice nada. La tercera nombra una causa concreta con una predicción que se puede comprobar esperando y midiendo de nuevo."
+    "explicacion": "Descartar el resultado como 'un error' no dice qué error ni predice nada. La opción sobre el equilibrio nombra una causa concreta y comprobable: se espera más y se vuelve a medir."
   },
   {
     "id": "PC-QR-053",
@@ -802,7 +802,7 @@
     "enunciado": "En una cromatografía en capa fina se compara el Rf de cada mancha contra el de patrones puros. Un estudiante dice que así se mide la concentración de cada componente. ¿Es correcto?",
     "opciones": [
       "Sí: la posición de la mancha es proporcional a la cantidad",
-      "Identifica qué componentes hay, no cuánto de cada uno",
+      "No: identifica qué componentes hay, no cuánto de cada uno",
       "Sí: el Rf sube cuando hay más sustancia",
       "No: la cromatografía en capa fina no sirve para nada cuantitativo ni cualitativo"
     ],
@@ -1177,8 +1177,8 @@
     "enunciado": "Dos reacciones se grafican como concentración contra tiempo: la de A es una recta que baja, la de B una curva que baja cada vez más lento. Sin cálculos, ¿qué sugiere cada forma?",
     "opciones": [
       "Las dos son de primer orden, solo cambian de escala",
-      "A sugiere orden cero; B, primer orden (se frena al bajar la concentración)",
-      "A es de primer orden y B de orden cero",
+      "A sugiere orden cero; B, primer orden que se frena al bajar la concentración",
+      "A corresponde a primer orden y B a orden cero, al contrario de lo que se ve",
       "La forma de la curva no dice nada sobre el orden de reacción"
     ],
     "correcta": 1,
@@ -1269,7 +1269,7 @@
       "No se puede afirmar nada sobre la balanza con solo tres mediciones",
       "Es exacta pero no precisa: acierta el valor real aunque varíen las medidas",
       "Es a la vez precisa y exacta, porque las tres lecturas son muy parecidas",
-      "Es precisa (las medidas concuerdan) pero puede no ser exacta"
+      "Es precisa, las medidas concuerdan entre sí, pero puede no ser exacta"
     ],
     "correcta": 3,
     "explicacion": "Las tres lecturas están muy cerca entre sí, así que hay buena precisión. Pero todas quedan por encima del valor certificado, lo que sugiere un sesgo sistemático: precisa sin ser exacta."
@@ -1341,7 +1341,7 @@
     "formato": "mcq",
     "enunciado": "En un espectro infrarrojo, el pico de un grupo en la muestra 1 es mucho más alto que el pico de otro grupo distinto en la muestra 2. Un estudiante concluye que la muestra 1 tiene 'más sustancia'. ¿Es válida la comparación?",
     "opciones": [
-      "Cada enlace absorbe con intensidad propia; picos de grupos distintos no se comparan",
+      "No: cada enlace absorbe con intensidad propia; picos de grupos distintos no se comparan",
       "Sí: en un espectro, un pico más alto significa siempre mayor cantidad de sustancia",
       "Sí: la espectroscopía infrarroja mide directamente la cantidad de cada sustancia",
       "No: el infrarrojo no sirve para identificar grupos funcionales dentro de una muestra"
@@ -1358,7 +1358,7 @@
     "opciones": [
       "Sí: las pruebas genéticas de este tipo no son lo bastante confiables",
       "Sí: como el abuelo tenía la variante y vivió sano, la variante es inofensiva",
-      "Un caso individual no refuta un riesgo expresado en probabilidades",
+      "No: un caso individual no refuta un riesgo expresado en probabilidades",
       "No: en realidad esa variante genética protege al corazón en vez de dañarlo"
     ],
     "correcta": 2,
@@ -1417,7 +1417,7 @@
     "enunciado": "El modelo VSEPR predice 109,5° para cuatro dominios de electrones, pero el NH₃ mide ~107° y el H₂O ~104,5°. ¿Qué indica esa diferencia?",
     "opciones": [
       "Que el modelo VSEPR está equivocado de raíz y no debería seguir usándose nunca",
-      "El modelo base es una aproximación; los pares solitarios que omite explican la desviación",
+      "Que el modelo base es una aproximación, y los pares solitarios que omite explican la desviación",
       "Que las mediciones de esos ángulos de enlace son poco confiables o están mal hechas",
       "Que el NH₃ y el H₂O no tienen realmente cuatro dominios de electrones alrededor"
     ],
