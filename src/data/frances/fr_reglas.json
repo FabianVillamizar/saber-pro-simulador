@@ -56,7 +56,7 @@
     "tipo": "principio",
     "titulo": "¿jouer o faire? Dos maneras de decidir",
     "variante": "desarrollo",
-    "cuerpo": "Si en el ejercicio ya ves la preposición, ella sola te lo dice: à, au, à la, aux piden jouer; du, de la, des piden faire. Si tienes que elegir por el significado, piensa en el tipo de actividad.",
+    "cuerpo": "Si en el ejercicio ya ves la preposición, ella sola te lo dice. Las formas à, au, à la y aux piden jouer, y las formas du, de la y des piden faire. Si tienes que elegir por el significado, piensa en el tipo de actividad.",
     "tabla": {
       "titulo": "Por tipo de actividad",
       "encabezados": ["jouer", "faire"],
@@ -67,7 +67,7 @@
         ["instrumentos, con de", "danza, yoga, teatro"]
       ]
     },
-    "ejemplo": "Nous ___ au tennis: como sigue au, es jouer. Elle ___ de la randonnée: como sigue de la, es faire."
+    "ejemplo": "Nous ___ au tennis es jouer, porque sigue au. Elle ___ de la randonnée es faire, porque sigue de la."
   },
   {
     "id": "fr-r-faire-quehaceres",
@@ -103,7 +103,7 @@
         ["Il mange des légumes.", "Il ne mange pas de légumes."]
       ]
     },
-    "ejemplo": "Los quehaceres con le, la, les no colapsan: je ne fais pas la vaisselle, nunca «pas de vaisselle»."
+    "ejemplo": "Los quehaceres con le, la y les no colapsan, así que se dice je ne fais pas la vaisselle y nunca «pas de vaisselle»."
   },
   {
     "id": "fr-r-gusto-articulo-definido",
@@ -126,7 +126,7 @@
     "tipo": "principio",
     "titulo": "de y des para cantidad, les para generalidad",
     "variante": "corta",
-    "cuerpo": "Se usa de o des cuando hablas de una cantidad indeterminada, algunas cosas. Se usa les cuando hablas de algo en general o de cosas ya identificadas. Truco: si en español no dirías las, en francés va de o des.",
+    "cuerpo": "Se usa de o des cuando hablas de una cantidad indeterminada, algunas cosas. Se usa les cuando hablas de algo en general o de cosas ya identificadas. Un truco es que si en español no dirías las, en francés va de o des.",
     "ejemplo": "J'apprends de nouvelles choses significa aprendo cosas nuevas. J'aime les choses simples significa me gustan las cosas simples en general."
   },
   {
@@ -147,7 +147,7 @@
         ["ils / elles", "préfèrent"]
       ]
     },
-    "ejemplo": "Je préfère le thé, mais nous préférons le café."
+    "ejemplo": "Je préfère le thé, mais nous préférons le café. Igual espérer y répéter, con j'espère y nous espérons."
   },
   {
     "id": "fr-r-conjug-faire",
@@ -208,5 +208,1191 @@
       ]
     },
     "ejemplo": "Je vais au parc. On va faire du sport."
+  },
+  {
+    "id": "fr-r-tres-grupos",
+    "tipo": "principio",
+    "titulo": "Los tres grupos de verbos y cómo reconocerlos",
+    "variante": "desarrollo",
+    "cuerpo": "Antes de conjugar, pregunta de qué grupo es el verbo. Cada grupo tiene sus propias terminaciones y sus propias excepciones.",
+    "tabla": {
+      "titulo": "Los tres grupos",
+      "encabezados": ["grupo", "cómo reconocerlo"],
+      "filas": [
+        ["1er grupo", "infinitivo en -er, excepto aller"],
+        ["2º grupo", "infinitivo en -ir con nous en -issons"],
+        ["3er grupo", "todo lo demás, incluido aller"]
+      ]
+    },
+    "ejemplo": "parler es del primer grupo, finir del segundo, y dormir, prendre y aller del tercero."
+  },
+  {
+    "id": "fr-r-test-issons",
+    "tipo": "principio",
+    "titulo": "El test del -issons para separar el segundo grupo del tercero",
+    "variante": "corta",
+    "cuerpo": "Conjuga el verbo con nous. Si existe la forma en -issons, el verbo es del segundo grupo. Si esa forma no existe, es del tercero.",
+    "ejemplo": "finir da nous finissons, así que es del segundo grupo. dormir no da dormissons sino dormons, así que es del tercero. ouvrir da ouvrons, también del tercero."
+  },
+  {
+    "id": "fr-r-pronombres-sujeto",
+    "tipo": "regla",
+    "titulo": "Pronombres sujeto: je pasa a j' y on conjuga como il",
+    "variante": "corta",
+    "cuerpo": "Delante de vocal o h muda, je se vuelve j'. El pronombre on se usa mucho en lugar de nous, pero se conjuga como il.",
+    "ejemplo": "J'aime, j'habite, j'écris, j'attends. On fait du sport significa hacemos deporte."
+  },
+  {
+    "id": "fr-r-presente-er",
+    "tipo": "regla",
+    "titulo": "Presente de los verbos en -er",
+    "variante": "desarrollo",
+    "cuerpo": "Quita -er del infinitivo y agrega las terminaciones. Al hablar suenan igual parle, parles, parle y parlent, porque la -ent de ils nunca se pronuncia. Solo nous y vous se oyen distinto.",
+    "tabla": {
+      "titulo": "Terminaciones del primer grupo",
+      "encabezados": ["persona", "terminación"],
+      "filas": [
+        ["je", "-e"],
+        ["tu", "-es"],
+        ["il / elle / on", "-e"],
+        ["nous", "-ons"],
+        ["vous", "-ez"],
+        ["ils / elles", "-ent"]
+      ]
+    },
+    "ejemplo": "parler da je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent."
+  },
+  {
+    "id": "fr-r-ger",
+    "tipo": "regla",
+    "titulo": "Verbos en -ger: nous lleva -geons",
+    "variante": "corta",
+    "cuerpo": "Delante de -ons, la g necesita una e para seguir sonando suave. Sin esa e sonaría fuerte, como en gato. En el presente solo ocurre en nous, porque es la única terminación que empieza con o.",
+    "ejemplo": "manger da nous mangeons, voyager da nous voyageons, nager da nous nageons, partager da nous partageons. Vous mangez no lleva e extra."
+  },
+  {
+    "id": "fr-r-cer",
+    "tipo": "regla",
+    "titulo": "Verbos en -cer: nous lleva -çons",
+    "variante": "corta",
+    "cuerpo": "Delante de -ons, la c cambia a ç para conservar el sonido de s. Sin la cedilla sonaría como k. En el presente solo ocurre en nous.",
+    "ejemplo": "commencer da nous commençons, avancer da nous avançons, lancer da nous lançons. Vous commencez no lleva cedilla."
+  },
+  {
+    "id": "fr-r-yer",
+    "tipo": "regla",
+    "titulo": "Verbos en -yer: la y pasa a i delante de terminación muda",
+    "variante": "desarrollo",
+    "cuerpo": "En je, tu, il e ils la terminación es muda y la y se vuelve i. En nous y vous la terminación se pronuncia y la y se queda. Con -oyer y -uyer el cambio es obligatorio. Con -ayer, como payer y essayer, también se acepta conservar la y.",
+    "tabla": {
+      "titulo": "payer, presente",
+      "encabezados": ["persona", "forma"],
+      "filas": [
+        ["je", "paie"],
+        ["tu", "paies"],
+        ["il / elle", "paie"],
+        ["nous", "payons"],
+        ["vous", "payez"],
+        ["ils / elles", "paient"]
+      ]
+    },
+    "ejemplo": "J'envoie, nous envoyons. Je nettoie, nous nettoyons. Con payer también se escribe je paye."
+  },
+  {
+    "id": "fr-r-e-grave",
+    "tipo": "norma",
+    "titulo": "acheter, lever, promener: la e pasa a è",
+    "variante": "desarrollo",
+    "cuerpo": "Cuando la terminación es muda, la e de la base se abre a è. En nous y vous la terminación se pronuncia y la base vuelve a e simple. Es el mismo mecanismo de préférer, solo que allí la letra que cambia es la é.",
+    "tabla": {
+      "titulo": "acheter, presente",
+      "encabezados": ["persona", "forma"],
+      "filas": [
+        ["je", "achète"],
+        ["tu", "achètes"],
+        ["il / elle", "achète"],
+        ["nous", "achetons"],
+        ["vous", "achetez"],
+        ["ils / elles", "achètent"]
+      ]
+    },
+    "ejemplo": "J'achète du pain. Nous achetons des fruits. Lo mismo ocurre con se lever y se promener."
+  },
+  {
+    "id": "fr-r-doble-consonante",
+    "tipo": "norma",
+    "titulo": "appeler y jeter: la consonante se duplica",
+    "variante": "desarrollo",
+    "cuerpo": "Cuando la terminación es muda, la l de appeler y la t de jeter se duplican. En nous y vous vuelven a ser simples. Es la otra manera, además de è, de marcar el cambio de la base.",
+    "tabla": {
+      "titulo": "Doble consonante",
+      "encabezados": ["infinitivo", "je y nous"],
+      "filas": [
+        ["appeler", "j'appelle, nous appelons"],
+        ["jeter", "je jette, nous jetons"],
+        ["s'appeler", "je m'appelle, nous nous appelons"]
+      ]
+    },
+    "ejemplo": "Il appelle son frère. Ils jettent les papiers. Qué verbo usa è y cuál duplica no lo decide una regla, se aprende."
+  },
+  {
+    "id": "fr-r-regla-bota",
+    "tipo": "principio",
+    "titulo": "La regla de la bota: solo je, tu, il e ils cambian de base",
+    "variante": "corta",
+    "cuerpo": "Todos los cambios de base pasan donde la terminación es muda, es decir en je, tu, il e ils. En nous y vous la terminación se pronuncia y la base vuelve a ser la del infinitivo. Si escribes las formas en dos columnas, las que cambian dibujan una bota.",
+    "ejemplo": "j'achète, tu achètes, il achète e ils achètent cambian, y nous achetons y vous achetez no. Sirve con payer, appeler y, en el tercer grupo, con venir y prendre."
+  },
+  {
+    "id": "fr-r-segundo-grupo",
+    "tipo": "regla",
+    "titulo": "Presente del segundo grupo: -iss- en el plural",
+    "variante": "desarrollo",
+    "cuerpo": "Quita -ir. En singular agrega -is, -is, -it. En plural agrega -iss- antes de -ons, -ez, -ent. Sin el -iss- el verbo queda incompleto.",
+    "tabla": {
+      "titulo": "finir, presente",
+      "encabezados": ["persona", "forma"],
+      "filas": [
+        ["je", "finis"],
+        ["tu", "finis"],
+        ["il / elle", "finit"],
+        ["nous", "finissons"],
+        ["vous", "finissez"],
+        ["ils / elles", "finissent"]
+      ]
+    },
+    "ejemplo": "Ils finissent à cinq heures. Ils atterrissent à Medellín. Igual choisir, réussir, grandir, remplir, réfléchir y obéir."
+  },
+  {
+    "id": "fr-r-tercer-a",
+    "tipo": "regla",
+    "titulo": "dormir, sortir, partir, servir: el singular pierde la consonante",
+    "variante": "desarrollo",
+    "cuerpo": "En singular se pierde la última consonante de la base, y en plural vuelve. Por eso dormir da dors y dort, pero dormons, dormez y dorment. Igual sentir y mentir.",
+    "tabla": {
+      "titulo": "Singular de la familia",
+      "encabezados": ["verbo", "je, tu, il"],
+      "filas": [
+        ["dormir", "dors, dors, dort"],
+        ["sortir", "sors, sors, sort"],
+        ["partir", "pars, pars, part"],
+        ["servir", "sers, sers, sert"],
+        ["sentir", "sens, sens, sent"]
+      ]
+    },
+    "ejemplo": "Tu dors encore. Les enfants sortent dans la cour. Le garçon sert les clients, nunca serve."
+  },
+  {
+    "id": "fr-r-tercer-b",
+    "tipo": "regla",
+    "titulo": "lire, écrire, conduire, vivre: el plural gana una consonante",
+    "variante": "desarrollo",
+    "cuerpo": "Es al revés que en dormir. El singular es corto y el plural gana una consonante que el singular no tiene. Escucha el plural y sabrás cuál. Igual s'instruire, que va como conduire.",
+    "tabla": {
+      "titulo": "Singular y plural",
+      "encabezados": ["verbo", "je y nous"],
+      "filas": [
+        ["lire", "je lis, nous lisons"],
+        ["écrire", "j'écris, nous écrivons"],
+        ["conduire", "je conduis, nous conduisons"],
+        ["vivre", "je vis, nous vivons"]
+      ]
+    },
+    "ejemplo": "Elle écrit un article. Nous lisons le journal. Ils conduisent vite."
+  },
+  {
+    "id": "fr-r-tercer-dre",
+    "tipo": "regla",
+    "titulo": "Verbos en -dre: il y elle no llevan t",
+    "variante": "desarrollo",
+    "cuerpo": "En il y elle no se agrega t, porque la d ya está al final de la base. Se conjugan igual vendre, descendre, rendre, répondre, entendre y perdre.",
+    "tabla": {
+      "titulo": "attendre, presente",
+      "encabezados": ["persona", "forma"],
+      "filas": [
+        ["je", "attends"],
+        ["tu", "attends"],
+        ["il / elle", "attend"],
+        ["nous", "attendons"],
+        ["vous", "attendez"],
+        ["ils / elles", "attendent"]
+      ]
+    },
+    "ejemplo": "Il attend, nunca attendt. J'attends lleva apóstrofo porque je pasa a j' delante de vocal."
+  },
+  {
+    "id": "fr-r-prendre",
+    "tipo": "regla",
+    "titulo": "prendre tiene tres bases",
+    "variante": "desarrollo",
+    "cuerpo": "prendre usa prend en singular, pren en nous y vous, y prenn en ils. Por eso ils prennent lleva doble n. Igual apprendre, comprendre y surprendre.",
+    "tabla": {
+      "titulo": "prendre, presente",
+      "encabezados": ["persona", "forma"],
+      "filas": [
+        ["je", "prends"],
+        ["tu", "prends"],
+        ["il / elle", "prend"],
+        ["nous", "prenons"],
+        ["vous", "prenez"],
+        ["ils / elles", "prennent"]
+      ]
+    },
+    "ejemplo": "Ils prennent le bus. Vous comprenez bien."
+  },
+  {
+    "id": "fr-r-venir",
+    "tipo": "regla",
+    "titulo": "venir tiene tres bases y es el verbo del passé récent",
+    "variante": "desarrollo",
+    "cuerpo": "venir usa vien en singular, ven en nous y vous, y vienn en ils. Por eso ils viennent lleva doble n. Igual revenir, devenir y tenir.",
+    "tabla": {
+      "titulo": "venir, presente",
+      "encabezados": ["persona", "forma"],
+      "filas": [
+        ["je", "viens"],
+        ["tu", "viens"],
+        ["il / elle", "vient"],
+        ["nous", "venons"],
+        ["vous", "venez"],
+        ["ils / elles", "viennent"]
+      ]
+    },
+    "ejemplo": "Il vient de partir. Ils reviennent demain."
+  },
+  {
+    "id": "fr-r-mettre",
+    "tipo": "regla",
+    "titulo": "mettre tiene dos bases",
+    "variante": "desarrollo",
+    "cuerpo": "mettre usa met en singular y mett en plural. En singular no se agrega una t extra, por eso il met lleva una sola t. Igual promettre, permettre y se promettre.",
+    "tabla": {
+      "titulo": "mettre, presente",
+      "encabezados": ["persona", "forma"],
+      "filas": [
+        ["je", "mets"],
+        ["tu", "mets"],
+        ["il / elle", "met"],
+        ["nous", "mettons"],
+        ["vous", "mettez"],
+        ["ils / elles", "mettent"]
+      ]
+    },
+    "ejemplo": "Il se promet de faire attention. Ils mettent la table."
+  },
+  {
+    "id": "fr-r-connaitre",
+    "tipo": "regla",
+    "titulo": "connaître: el circunflejo solo aparece delante de t",
+    "variante": "desarrollo",
+    "cuerpo": "connaître usa connai en singular y connaiss en plural. El acento circunflejo de la i aparece solo cuando sigue una t, es decir en il connaît y en el infinitivo. Igual reconnaître y paraître.",
+    "tabla": {
+      "titulo": "connaître, presente",
+      "encabezados": ["persona", "forma"],
+      "filas": [
+        ["je", "connais"],
+        ["tu", "connais"],
+        ["il / elle", "connaît"],
+        ["nous", "connaissons"],
+        ["vous", "connaissez"],
+        ["ils / elles", "connaissent"]
+      ]
+    },
+    "ejemplo": "Je connais bien mes voisins. Il paraît fatigué."
+  },
+  {
+    "id": "fr-r-conjug-etre",
+    "tipo": "regla",
+    "titulo": "être en presente",
+    "variante": "desarrollo",
+    "cuerpo": "être es totalmente irregular y se memoriza tal cual. Dos de sus formas son de las especiales de la hoja, vous êtes e ils sont.",
+    "tabla": {
+      "titulo": "être, presente",
+      "encabezados": ["persona", "forma"],
+      "filas": [
+        ["je", "suis"],
+        ["tu", "es"],
+        ["il / elle", "est"],
+        ["nous", "sommes"],
+        ["vous", "êtes"],
+        ["ils / elles", "sont"]
+      ]
+    },
+    "ejemplo": "Nous sommes à Bucaramanga. Vous êtes prêts."
+  },
+  {
+    "id": "fr-r-conjug-avoir",
+    "tipo": "regla",
+    "titulo": "avoir en presente",
+    "variante": "desarrollo",
+    "cuerpo": "avoir es irregular y se memoriza tal cual. Ils ont es una de las cuatro formas en -ont, junto a ils sont, ils vont e ils font.",
+    "tabla": {
+      "titulo": "avoir, presente",
+      "encabezados": ["persona", "forma"],
+      "filas": [
+        ["je", "ai"],
+        ["tu", "as"],
+        ["il / elle", "a"],
+        ["nous", "avons"],
+        ["vous", "avez"],
+        ["ils / elles", "ont"]
+      ]
+    },
+    "ejemplo": "J'ai vingt ans. Ils ont deux enfants."
+  },
+  {
+    "id": "fr-r-conjug-pouvoir",
+    "tipo": "regla",
+    "titulo": "pouvoir en presente",
+    "variante": "desarrollo",
+    "cuerpo": "pouvoir es irregular y es uno de los dos verbos de la hoja con je y tu en -x. Nous y vous recuperan la base pouv, y ils usa la base peuv.",
+    "tabla": {
+      "titulo": "pouvoir, presente",
+      "encabezados": ["persona", "forma"],
+      "filas": [
+        ["je", "peux"],
+        ["tu", "peux"],
+        ["il / elle", "peut"],
+        ["nous", "pouvons"],
+        ["vous", "pouvez"],
+        ["ils / elles", "peuvent"]
+      ]
+    },
+    "ejemplo": "Je peux venir demain. Ils peuvent partir."
+  },
+  {
+    "id": "fr-r-conjug-vouloir",
+    "tipo": "regla",
+    "titulo": "vouloir en presente",
+    "variante": "desarrollo",
+    "cuerpo": "vouloir es irregular y, igual que pouvoir, termina en -x en je y tu. Nous y vous recuperan la base voul, y ils usa la base veul.",
+    "tabla": {
+      "titulo": "vouloir, presente",
+      "encabezados": ["persona", "forma"],
+      "filas": [
+        ["je", "veux"],
+        ["tu", "veux"],
+        ["il / elle", "veut"],
+        ["nous", "voulons"],
+        ["vous", "voulez"],
+        ["ils / elles", "veulent"]
+      ]
+    },
+    "ejemplo": "Je veux un café. Nous voulons partir."
+  },
+  {
+    "id": "fr-r-super-irregulares",
+    "tipo": "principio",
+    "titulo": "Los súper irregulares: cuatro en -ont, tres en -tes, dos en -x",
+    "variante": "desarrollo",
+    "cuerpo": "Hay tres terminaciones que solo pertenecen a un puñado de verbos. Si una forma las lleva, ya sabes de qué verbo se trata. Casi todos los demás verbos terminan en -ez con vous y en -ent con ils.",
+    "tabla": {
+      "titulo": "Terminaciones únicas",
+      "encabezados": ["terminación", "formas"],
+      "filas": [
+        ["-ont", "ils sont, ils ont, ils vont, ils font"],
+        ["-tes", "vous êtes, vous faites, vous dites"],
+        ["-x", "je peux, je veux, tu peux, tu veux"]
+      ]
+    },
+    "ejemplo": "Vous faites du sport, nunca vous faisez. Ils font la cuisine, nunca ils faisent."
+  },
+  {
+    "id": "fr-r-pronominales",
+    "tipo": "regla",
+    "titulo": "Verbos pronominales: el pronombre cambia con la persona",
+    "variante": "desarrollo",
+    "cuerpo": "El pronombre va justo antes del verbo y cambia con el sujeto. Me, te y se pasan a m', t' y s' delante de vocal o h muda. El verbo se conjuga según su grupo, y el pronombre se repite aunque ya aparezca nous o vous.",
+    "tabla": {
+      "titulo": "se lever, presente",
+      "encabezados": ["persona", "forma"],
+      "filas": [
+        ["je", "me lève"],
+        ["tu", "te lèves"],
+        ["il / elle", "se lève"],
+        ["nous", "nous levons"],
+        ["vous", "vous levez"],
+        ["ils / elles", "se lèvent"]
+      ]
+    },
+    "ejemplo": "Nous nous levons tôt. Je m'appelle Marc. Ils s'instruisent beaucoup."
+  },
+  {
+    "id": "fr-r-negacion-ne-pas",
+    "tipo": "regla",
+    "titulo": "La negación ne … pas rodea al verbo conjugado",
+    "variante": "desarrollo",
+    "cuerpo": "Ne va antes del verbo conjugado y pas después. Delante de vocal o h muda, ne pasa a n'. Con verbos pronominales el pronombre queda dentro, entre ne y el verbo.",
+    "tabla": {
+      "titulo": "Afirmativa frente a negativa",
+      "encabezados": ["afirmativa", "negativa"],
+      "filas": [
+        ["Je mange de la viande.", "Je ne mange pas de viande."],
+        ["J'aime la télévision.", "Je n'aime pas la télévision."],
+        ["Je me lève tôt.", "Je ne me lève pas tôt."]
+      ]
+    },
+    "ejemplo": "Elle ne conduit pas souvent. Ils ne travaillent pas."
+  },
+  {
+    "id": "fr-r-futur-proche",
+    "tipo": "regla",
+    "titulo": "Futur proche: aller en presente más infinitivo",
+    "variante": "desarrollo",
+    "cuerpo": "Conjuga aller en presente y pon el segundo verbo en infinitivo, sin conjugar. No pongas nada entre los dos. En español decimos voy a comer, pero en francés es je vais manger, sin la preposición à.",
+    "tabla": {
+      "titulo": "aller + infinitivo",
+      "encabezados": ["persona", "forma"],
+      "filas": [
+        ["je", "vais étudier"],
+        ["tu", "vas partir"],
+        ["il / elle / on", "va manger"],
+        ["nous", "allons sortir"],
+        ["vous", "allez lire"],
+        ["ils / elles", "vont dormir"]
+      ]
+    },
+    "ejemplo": "Demain, nous allons voyager à Medellín. Ce soir, on va regarder un film."
+  },
+  {
+    "id": "fr-r-futur-proche-neg",
+    "tipo": "regla",
+    "titulo": "Futur proche en negativo y con pronominales",
+    "variante": "desarrollo",
+    "cuerpo": "En negativo, ne y pas rodean a aller, no al infinitivo. Con verbos pronominales, el pronombre va pegado al infinitivo y cambia con el sujeto.",
+    "tabla": {
+      "titulo": "Afirmativa frente a negativa",
+      "encabezados": ["afirmativa", "negativa"],
+      "filas": [
+        ["Je vais sortir.", "Je ne vais pas sortir."],
+        ["Je vais me coucher.", "Je ne vais pas me coucher."],
+        ["Nous allons nous promener.", "Nous n'allons pas nous promener."]
+      ]
+    },
+    "ejemplo": "Ils ne vont pas travailler demain. Je vais me coucher tôt, nunca je me vais coucher."
+  },
+  {
+    "id": "fr-r-aller-lugar",
+    "tipo": "principio",
+    "titulo": "aller más lugar o aller más infinitivo",
+    "variante": "corta",
+    "cuerpo": "Si después de aller viene un lugar, es el verbo ir en presente y no un futuro. Si viene un infinitivo, es el futur proche. La estructura se parece, pero el significado cambia.",
+    "ejemplo": "Je vais au cinéma significa voy al cine. Je vais regarder un film significa voy a ver una película."
+  },
+  {
+    "id": "fr-r-marcadores-futuro",
+    "tipo": "regla",
+    "titulo": "Palabras que anuncian un futur proche",
+    "variante": "corta",
+    "cuerpo": "Un futur proche suele venir con una marca de tiempo que mira hacia adelante.",
+    "ejemplo": "demain, ce soir, cet après-midi, ce week-end, bientôt, la semaine prochaine, le mois prochain, l'année prochaine, dans deux heures."
+  },
+  {
+    "id": "fr-r-passe-recent",
+    "tipo": "regla",
+    "titulo": "Passé récent: venir de más infinitivo",
+    "variante": "desarrollo",
+    "cuerpo": "Conjuga venir en presente, agrega de, que es obligatorio, y pon el segundo verbo en infinitivo. De pasa a d' delante de vocal. Se usa casi siempre en afirmativo.",
+    "tabla": {
+      "titulo": "venir de + infinitivo",
+      "encabezados": ["persona", "forma"],
+      "filas": [
+        ["je", "viens de manger"],
+        ["tu", "viens de finir"],
+        ["il / elle / on", "vient de partir"],
+        ["nous", "venons d'arriver"],
+        ["vous", "venez de lire"],
+        ["ils / elles", "viennent de sortir"]
+      ]
+    },
+    "ejemplo": "Je viens de manger significa acabo de comer. Elle vient d'arriver à l'instant."
+  },
+  {
+    "id": "fr-r-passe-recent-pron",
+    "tipo": "regla",
+    "titulo": "Passé récent con verbos pronominales",
+    "variante": "corta",
+    "cuerpo": "Con un verbo pronominal, el pronombre va entre de y el infinitivo y cambia con el sujeto.",
+    "ejemplo": "Je viens de me réveiller. Ils viennent de se lever. Nunca je me viens de lever."
+  },
+  {
+    "id": "fr-r-venir-de-lugar",
+    "tipo": "principio",
+    "titulo": "venir de más lugar o venir de más infinitivo",
+    "variante": "desarrollo",
+    "cuerpo": "Con un lugar, venir de indica origen, y si el lugar lleva artículo, de se contrae. Con un infinitivo es el passé récent, y como delante de un infinitivo nunca hay artículo, de nunca se contrae.",
+    "tabla": {
+      "titulo": "Dos usos de venir de",
+      "encabezados": ["estructura", "significado"],
+      "filas": [
+        ["venir de + lugar", "origen, con du y des si hay artículo"],
+        ["venir de + infinitivo", "passé récent, de nunca se contrae"]
+      ]
+    },
+    "ejemplo": "Je viens de Bucaramanga. Je viens du Canada. Elle vient des États-Unis. Je viens de manger, nunca je viens du manger."
+  },
+  {
+    "id": "fr-r-tres-tiempos",
+    "tipo": "principio",
+    "titulo": "El mismo verbo en passé récent, presente y futur proche",
+    "variante": "desarrollo",
+    "cuerpo": "En el presente cambias el verbo principal. En el passé récent y en el futur proche solo cambias venir o aller, y el infinitivo no se toca.",
+    "tabla": {
+      "titulo": "Tres tiempos",
+      "encabezados": ["tiempo", "ejemplo"],
+      "filas": [
+        ["passé récent", "je viens de manger"],
+        ["présent", "je mange"],
+        ["futur proche", "je vais manger"]
+      ]
+    },
+    "ejemplo": "Elle vient de sortir, elle sort, elle va sortir."
+  },
+  {
+    "id": "fr-r-marcadores-pasado",
+    "tipo": "regla",
+    "titulo": "Palabras que acompañan un passé récent",
+    "variante": "corta",
+    "cuerpo": "Un passé récent suele venir con expresiones que subrayan lo inmediato.",
+    "ejemplo": "à l'instant, tout juste, juste, il y a cinq minutes. Je viens juste de finir. Elle vient d'arriver à l'instant."
+  },
+  {
+    "id": "fr-r-opinion",
+    "tipo": "regla",
+    "titulo": "Expresiones para dar una opinión",
+    "variante": "corta",
+    "cuerpo": "Para dar tu opinión, abre con una de estas fórmulas y sigue con una frase completa. Je pense que y je crois que van seguidas de un verbo conjugado. Pour moi, selon moi, d'après moi y à mon avis van seguidas de una coma.",
+    "ejemplo": "À mon avis, WhatsApp est pratique parce que je parle avec ma famille tous les jours. Je préfère WhatsApp parce que c'est rapide."
+  },
+  {
+    "id": "fr-r-relato",
+    "tipo": "regla",
+    "titulo": "Conectores y frecuencia para contar una historia en presente",
+    "variante": "corta",
+    "cuerpo": "Para encadenar acciones usa puis, ensuite, alors, mais y finalement. Para decir con qué frecuencia pasan, usa toujours, souvent, parfois y rarement, de más a menos frecuente. Para dar la causa usa parce que.",
+    "ejemplo": "Le matin, je me lève toujours tôt. Puis je prends le bus. Ensuite, je vais à l'université, mais parfois je travaille à la maison."
+  },
+  {
+    "id": "fr-r-ouvrir-como-er",
+    "tipo": "norma",
+    "titulo": "ouvrir, offrir, couvrir, souffrir y cueillir se conjugan como verbos en -er",
+    "variante": "desarrollo",
+    "cuerpo": "Estos verbos terminan en -ir, pero en presente usan las terminaciones del primer grupo, sin -iss-. No pasan el test del -issons, así que son del tercer grupo.",
+    "tabla": {
+      "titulo": "ouvrir, presente",
+      "encabezados": ["persona", "forma"],
+      "filas": [
+        ["je", "ouvre"],
+        ["tu", "ouvres"],
+        ["il / elle", "ouvre"],
+        ["nous", "ouvrons"],
+        ["vous", "ouvrez"],
+        ["ils / elles", "ouvrent"]
+      ]
+    },
+    "ejemplo": "J'ouvre la fenêtre. Elle offre un cadeau. Nous ouvrons à neuf heures."
+  },
+  {
+    "id": "fr-r-indre",
+    "tipo": "norma",
+    "titulo": "Verbos en -indre: peignons, craignons",
+    "variante": "desarrollo",
+    "cuerpo": "En peindre, craindre y joindre, el singular termina en -ins, -ins, -int y el plural usa -gn-. Por eso nous peignons, vous peignez, ils peignent.",
+    "tabla": {
+      "titulo": "peindre, presente",
+      "encabezados": ["persona", "forma"],
+      "filas": [
+        ["je", "peins"],
+        ["tu", "peins"],
+        ["il / elle", "peint"],
+        ["nous", "peignons"],
+        ["vous", "peignez"],
+        ["ils / elles", "peignent"]
+      ]
+    },
+    "ejemplo": "Nous peignons le mur. Ils craignent le froid."
+  },
+  {
+    "id": "fr-r-verbos-oir",
+    "tipo": "regla",
+    "titulo": "voir, croire, savoir, devoir y recevoir",
+    "variante": "desarrollo",
+    "cuerpo": "Son del tercer grupo y cada uno trae una base que cambia. En voir y croire la y de nous y vous pasa a i en ils. Recevoir lleva ç delante de o y de oi.",
+    "tabla": {
+      "titulo": "je y ils",
+      "encabezados": ["verbo", "formas"],
+      "filas": [
+        ["voir", "je vois, ils voient"],
+        ["croire", "je crois, ils croient"],
+        ["savoir", "je sais, ils savent"],
+        ["devoir", "je dois, ils doivent"],
+        ["recevoir", "je reçois, ils reçoivent"]
+      ]
+    },
+    "ejemplo": "Nous voyons la mer. Ils doivent partir. Vous savez la réponse."
+  },
+  {
+    "id": "fr-r-dire-boire-courir",
+    "tipo": "regla",
+    "titulo": "dire, boire, courir y suivre",
+    "variante": "desarrollo",
+    "cuerpo": "Son del tercer grupo y se memorizan. Dire es uno de los tres verbos con vous en -tes. Boire cambia su base a buv en nous y vous y a boiv en ils. Suivre da je suis, igual que être.",
+    "tabla": {
+      "titulo": "Cuatro verbos frecuentes",
+      "encabezados": ["verbo", "je, tu, il, nous, vous, ils"],
+      "filas": [
+        ["dire", "dis, dis, dit, disons, dites, disent"],
+        ["boire", "bois, bois, boit, buvons, buvez, boivent"],
+        ["courir", "cours, cours, court, courons, courez, courent"],
+        ["suivre", "suis, suis, suit, suivons, suivez, suivent"]
+      ]
+    },
+    "ejemplo": "Vous dites la vérité. Nous buvons du café. Je suis un cours de français con suivre, y je suis étudiant con être."
+  },
+  {
+    "id": "fr-r-negacion-otras",
+    "tipo": "regla",
+    "titulo": "ne … jamais, ne … plus y ne … rien",
+    "variante": "desarrollo",
+    "cuerpo": "Funcionan igual que ne … pas y rodean al verbo conjugado. Después de ellas, du, de la y des también pasan a de, o a d' delante de vocal.",
+    "tabla": {
+      "titulo": "Otras negaciones",
+      "encabezados": ["negación", "significado"],
+      "filas": [
+        ["ne … jamais", "nunca"],
+        ["ne … plus", "ya no"],
+        ["ne … rien", "nada"]
+      ]
+    },
+    "ejemplo": "Je ne mange jamais de viande. Il n'habite plus ici. Elle ne dit rien."
+  },
+  {
+    "id": "fr-r-venir-sin-de",
+    "tipo": "regla",
+    "titulo": "venir más infinitivo sin de significa venir a hacer algo",
+    "variante": "corta",
+    "cuerpo": "Si quitas el de, el significado cambia por completo. Con de es el passé récent. Sin de es venir con un propósito.",
+    "ejemplo": "Je viens de manger significa acabo de comer. Je viens manger significa vengo a comer."
+  },
+  {
+    "id": "fr-r-venir-de-paises",
+    "tipo": "regla",
+    "titulo": "venir de con ciudades y países",
+    "variante": "desarrollo",
+    "cuerpo": "Las ciudades y los países femeninos no llevan artículo después de de. Los países masculinos usan du, y los plurales usan des.",
+    "tabla": {
+      "titulo": "Origen",
+      "encabezados": ["tipo", "ejemplo"],
+      "filas": [
+        ["ciudad", "Je viens de Bucaramanga."],
+        ["país femenino", "Je viens de Colombie."],
+        ["país masculino", "Je viens du Canada."],
+        ["país plural", "Je viens des États-Unis."]
+      ]
+    },
+    "ejemplo": "Elle vient d'Italie, con d' porque Italie empieza con vocal."
+  },
+  {
+    "id": "fr-r-aller-contraccion",
+    "tipo": "regla",
+    "titulo": "aller más lugar: au, à la, à l' y aux",
+    "variante": "desarrollo",
+    "cuerpo": "Con aller y un lugar, la preposición à se contrae con el artículo igual que con jouer.",
+    "tabla": {
+      "titulo": "Contracciones de à con aller",
+      "encabezados": ["forma", "cuándo"],
+      "filas": [
+        ["au", "masculino singular"],
+        ["à la", "femenino singular"],
+        ["à l'", "vocal o h muda"],
+        ["aux", "plural"]
+      ]
+    },
+    "ejemplo": "Je vais au cinéma, à la plage, à l'école, aux États-Unis."
+  },
+  {
+    "id": "fr-r-interrogacion-aller-venir",
+    "tipo": "regla",
+    "titulo": "Preguntas con aller y venir",
+    "variante": "corta",
+    "cuerpo": "Para preguntar con futur proche o passé récent, abre con est-ce que o invierte el pronombre y el verbo conjugado con un guion. El infinitivo se queda detrás.",
+    "ejemplo": "Est-ce que tu vas partir ? Vas-tu partir ? Vient-il de partir ?"
+  },
+  {
+    "id": "fr-r-e-o-doble-lista",
+    "tipo": "norma",
+    "titulo": "Qué verbos llevan è y cuáles duplican la consonante",
+    "variante": "desarrollo",
+    "cuerpo": "No hay una regla que lo decida, así que se aprenden las listas. Los más comunes con è son acheter, lever, promener, mener y geler. Los más comunes con consonante doble son appeler, jeter y rappeler.",
+    "tabla": {
+      "titulo": "Dos listas",
+      "encabezados": ["cambio", "verbos"],
+      "filas": [
+        ["è", "acheter, lever, promener, mener, geler"],
+        ["doble consonante", "appeler, jeter, rappeler"]
+      ]
+    },
+    "ejemplo": "Il gèle ce matin. Elle rappelle son frère."
+  },
+  {
+    "id": "fr-r-futur-simple",
+    "tipo": "regla",
+    "titulo": "Futur simple: el infinitivo más -ai, -as, -a, -ons, -ez, -ont",
+    "variante": "desarrollo",
+    "cuerpo": "Se toma el infinitivo completo y se le agregan las terminaciones, que vienen del presente de avoir con nous y vous recortados a -ons y -ez. La r del infinitivo siempre se conserva, así que en todo futur simple se oye una r antes de la terminación. Los verbos en -re pierden la e final.",
+    "tabla": {
+      "titulo": "parler, futur simple",
+      "encabezados": ["persona", "forma"],
+      "filas": [
+        ["je", "parlerai"],
+        ["tu", "parleras"],
+        ["il / elle", "parlera"],
+        ["nous", "parlerons"],
+        ["vous", "parlerez"],
+        ["ils / elles", "parleront"]
+      ]
+    },
+    "ejemplo": "Demain, je parlerai avec ma famille. Nous finirons à cinq heures."
+  },
+  {
+    "id": "fr-r-futur-simple-re",
+    "tipo": "regla",
+    "titulo": "Verbos en -re: pierden la e final en el futuro",
+    "variante": "desarrollo",
+    "cuerpo": "Si el infinitivo termina en -re, se quita esa e antes de agregar las terminaciones. Así prendre da prendrai y no prenderai.",
+    "tabla": {
+      "titulo": "Verbos en -re",
+      "encabezados": ["infinitivo", "je"],
+      "filas": [
+        ["prendre", "prendrai"],
+        ["attendre", "attendrai"],
+        ["vendre", "vendrai"],
+        ["mettre", "mettrai"],
+        ["lire", "lirai"],
+        ["écrire", "écrirai"],
+        ["dire", "dirai"],
+        ["boire", "boirai"]
+      ]
+    },
+    "ejemplo": "Je prendrai le bus. Elle écrira un article."
+  },
+  {
+    "id": "fr-r-futur-simple-ortografia",
+    "tipo": "norma",
+    "titulo": "La ortografía también cambia en el futuro: è, doble consonante y y a i",
+    "variante": "desarrollo",
+    "cuerpo": "Como la terminación se agrega al infinitivo entero, acheter, lever, appeler, jeter y los verbos en -yer cambian la base igual que en je, tu, il e ils del presente. Los verbos en -ger y -cer no cambian porque la e ya está en el infinitivo, y préférer conserva la é.",
+    "tabla": {
+      "titulo": "Ortografía del futuro",
+      "encabezados": ["infinitivo", "je"],
+      "filas": [
+        ["acheter", "j'achèterai"],
+        ["lever", "je lèverai"],
+        ["appeler", "j'appellerai"],
+        ["jeter", "je jetterai"],
+        ["payer", "je paierai"],
+        ["nettoyer", "je nettoierai"],
+        ["manger", "je mangerai"],
+        ["commencer", "je commencerai"],
+        ["préférer", "je préférerai"]
+      ]
+    },
+    "ejemplo": "Demain, j'achèterai du pain. Nous mangerons à midi, con la e que ya traía el infinitivo."
+  },
+  {
+    "id": "fr-r-futur-irregulares-a",
+    "tipo": "regla",
+    "titulo": "Cuatro futuros irregulares muy frecuentes",
+    "variante": "desarrollo",
+    "cuerpo": "être, avoir, aller y faire usan una base propia en lugar del infinitivo, pero con las mismas terminaciones. La base siempre termina en r.",
+    "tabla": {
+      "titulo": "Bases irregulares",
+      "encabezados": ["infinitivo", "je"],
+      "filas": [
+        ["être", "je serai"],
+        ["avoir", "j'aurai"],
+        ["aller", "j'irai"],
+        ["faire", "je ferai"]
+      ]
+    },
+    "ejemplo": "Demain, nous serons à Medellín. Ils iront au cinéma. Tu feras du sport."
+  },
+  {
+    "id": "fr-r-futur-irregulares-b",
+    "tipo": "regla",
+    "titulo": "Otros futuros irregulares",
+    "variante": "desarrollo",
+    "cuerpo": "Estas bases hay que aprenderlas, pero todas terminan en r y llevan las mismas terminaciones. venir y tenir intercalan una d, y voir, envoyer y courir terminan en rr.",
+    "tabla": {
+      "titulo": "Bases irregulares",
+      "encabezados": ["infinitivo", "je"],
+      "filas": [
+        ["venir", "je viendrai"],
+        ["tenir", "je tiendrai"],
+        ["voir", "je verrai"],
+        ["pouvoir", "je pourrai"],
+        ["vouloir", "je voudrai"],
+        ["devoir", "je devrai"],
+        ["savoir", "je saurai"],
+        ["envoyer", "j'enverrai"],
+        ["courir", "je courrai"],
+        ["recevoir", "je recevrai"]
+      ]
+    },
+    "ejemplo": "Elle viendra demain. Ils pourront partir. Je verrai la mer."
+  },
+  {
+    "id": "fr-r-futur-simple-pron-neg",
+    "tipo": "regla",
+    "titulo": "Futur simple con pronominales y negación",
+    "variante": "desarrollo",
+    "cuerpo": "A diferencia del futur proche, aquí el pronombre va antes del verbo conjugado, como en el presente. En negativo, ne y pas rodean al verbo conjugado, que es una sola palabra.",
+    "tabla": {
+      "titulo": "Afirmativa frente a negativa",
+      "encabezados": ["afirmativa", "negativa"],
+      "filas": [
+        ["Je mangerai.", "Je ne mangerai pas."],
+        ["Je me lèverai.", "Je ne me lèverai pas."],
+        ["Nous irons.", "Nous n'irons pas."]
+      ]
+    },
+    "ejemplo": "Elle se couchera tôt. Ils ne partiront pas demain."
+  },
+  {
+    "id": "fr-r-futur-simple-vs-proche",
+    "tipo": "principio",
+    "titulo": "futur simple o futur proche",
+    "variante": "desarrollo",
+    "cuerpo": "Los dos hablan del futuro y muchas veces se pueden cambiar. El futur proche suena más cercano y más seguro. El futur simple se usa más para planes lejanos, promesas y predicciones.",
+    "tabla": {
+      "titulo": "Dos futuros",
+      "encabezados": ["tiempo", "ejemplo"],
+      "filas": [
+        ["futur proche", "Je vais étudier ce soir."],
+        ["futur simple", "J'étudierai à l'université l'année prochaine."]
+      ]
+    },
+    "ejemplo": "Ce soir, je vais manger au restaurant. L'année prochaine, je voyagerai en France."
+  },
+  {
+    "id": "fr-r-marcadores-futuro-simple",
+    "tipo": "regla",
+    "titulo": "Palabras que acompañan un futur simple",
+    "variante": "corta",
+    "cuerpo": "El futur simple suele venir con marcas de un futuro más lejano que las del futur proche.",
+    "ejemplo": "demain, après-demain, la semaine prochaine, le mois prochain, l'année prochaine, bientôt, plus tard, un jour, dans deux ans. Un jour, nous habiterons à Paris. Plus tard, elle sera médecin."
+  },
+  {
+    "id": "fr-r-si-presente-futuro",
+    "tipo": "regla",
+    "titulo": "si más presente, futur simple",
+    "variante": "corta",
+    "cuerpo": "Para una condición posible, el verbo que sigue a si va en presente y el resultado va en futur simple. Después de si nunca se usa el futuro.",
+    "ejemplo": "S'il pleut, je resterai à la maison. Si tu étudies, tu réussiras."
+  },
+  {
+    "id": "fr-r-passe-compose",
+    "tipo": "regla",
+    "titulo": "Passé composé: avoir o être en presente más el participio",
+    "variante": "desarrollo",
+    "cuerpo": "Se conjuga el auxiliar en presente y se agrega el participio pasado, que no se conjuga. Dice que una acción ya terminó en el pasado. La gran mayoría de los verbos usa avoir.",
+    "tabla": {
+      "titulo": "manger, passé composé",
+      "encabezados": ["persona", "forma"],
+      "filas": [
+        ["je", "ai mangé"],
+        ["tu", "as mangé"],
+        ["il / elle", "a mangé"],
+        ["nous", "avons mangé"],
+        ["vous", "avez mangé"],
+        ["ils / elles", "ont mangé"]
+      ]
+    },
+    "ejemplo": "Hier, j'ai mangé au restaurant. Nous avons fini à cinq heures."
+  },
+  {
+    "id": "fr-r-participio-regular",
+    "tipo": "regla",
+    "titulo": "Participios regulares: -é, -i y -u",
+    "variante": "desarrollo",
+    "cuerpo": "Los verbos en -er hacen el participio en -é. Los del segundo grupo lo hacen en -i. Muchos verbos en -dre lo hacen en -u. El participio no cambia con la persona.",
+    "tabla": {
+      "titulo": "Tres terminaciones",
+      "encabezados": ["terminación", "ejemplos"],
+      "filas": [
+        ["-er a -é", "parler parlé, manger mangé, aller allé"],
+        ["-ir a -i", "finir fini, choisir choisi, dormir dormi"],
+        ["-dre a -u", "attendre attendu, répondre répondu, perdre perdu"]
+      ]
+    },
+    "ejemplo": "J'ai parlé. Tu as fini. Il a attendu le bus."
+  },
+  {
+    "id": "fr-r-participio-is-it",
+    "tipo": "regla",
+    "titulo": "Participios en -is y en -it",
+    "variante": "desarrollo",
+    "cuerpo": "prendre y mettre dan -is, y faire, dire, écrire y conduire dan -it. Los derivados siguen a su verbo base, como apprendre, comprendre y permettre.",
+    "tabla": {
+      "titulo": "Participios en -is y -it",
+      "encabezados": ["infinitivo", "participio"],
+      "filas": [
+        ["prendre", "pris"],
+        ["apprendre", "appris"],
+        ["comprendre", "compris"],
+        ["mettre", "mis"],
+        ["permettre", "permis"],
+        ["faire", "fait"],
+        ["dire", "dit"],
+        ["écrire", "écrit"],
+        ["conduire", "conduit"]
+      ]
+    },
+    "ejemplo": "Elle a pris le bus. Nous avons écrit un article."
+  },
+  {
+    "id": "fr-r-participio-u",
+    "tipo": "regla",
+    "titulo": "Participios irregulares en -u",
+    "variante": "desarrollo",
+    "cuerpo": "Varios verbos irregulares hacen el participio en -u sin parecerse al infinitivo. Hay que memorizarlos.",
+    "tabla": {
+      "titulo": "Participios en -u",
+      "encabezados": ["infinitivo", "participio"],
+      "filas": [
+        ["avoir", "eu"],
+        ["voir", "vu"],
+        ["lire", "lu"],
+        ["boire", "bu"],
+        ["connaître", "connu"],
+        ["croire", "cru"],
+        ["vivre", "vécu"],
+        ["courir", "couru"],
+        ["tenir", "tenu"]
+      ]
+    },
+    "ejemplo": "J'ai eu un problème. Ils ont vu la mer. Il a lu le journal."
+  },
+  {
+    "id": "fr-r-participio-modales",
+    "tipo": "regla",
+    "titulo": "Participios de pouvoir, vouloir, savoir, devoir y recevoir",
+    "variante": "desarrollo",
+    "cuerpo": "Todos terminan en -u. devoir lleva circunflejo en dû para distinguirlo de du, y recevoir lleva cedilla en reçu para conservar el sonido de s.",
+    "tabla": {
+      "titulo": "Participios en -u",
+      "encabezados": ["infinitivo", "participio"],
+      "filas": [
+        ["pouvoir", "pu"],
+        ["vouloir", "voulu"],
+        ["savoir", "su"],
+        ["devoir", "dû"],
+        ["recevoir", "reçu"]
+      ]
+    },
+    "ejemplo": "Elle a voulu partir. Nous avons su la réponse. Tu as reçu un message."
+  },
+  {
+    "id": "fr-r-participio-ert",
+    "tipo": "regla",
+    "titulo": "ouvrir, offrir, couvrir y souffrir: participio en -ert",
+    "variante": "desarrollo",
+    "cuerpo": "Aunque en presente se conjugan como verbos en -er, el participio no termina en -é sino en -ert.",
+    "tabla": {
+      "titulo": "Participios en -ert",
+      "encabezados": ["infinitivo", "participio"],
+      "filas": [
+        ["ouvrir", "ouvert"],
+        ["offrir", "offert"],
+        ["couvrir", "couvert"],
+        ["souffrir", "souffert"]
+      ]
+    },
+    "ejemplo": "J'ai ouvert la fenêtre. Elle a offert un cadeau."
+  },
+  {
+    "id": "fr-r-participio-otros",
+    "tipo": "regla",
+    "titulo": "Participios irregulares que conviene memorizar",
+    "variante": "desarrollo",
+    "cuerpo": "Estos no siguen una familia y se aprenden uno por uno. venir, devenir, naître y mourir se conjugan con être, y los demás con avoir.",
+    "tabla": {
+      "titulo": "Participios sueltos",
+      "encabezados": ["infinitivo", "participio"],
+      "filas": [
+        ["être", "été"],
+        ["naître", "né"],
+        ["mourir", "mort"],
+        ["venir", "venu"],
+        ["devenir", "devenu"],
+        ["suivre", "suivi"],
+        ["peindre", "peint"],
+        ["craindre", "craint"]
+      ]
+    },
+    "ejemplo": "Elle est née à Bucaramanga. J'ai été à Paris. Il est venu hier."
+  },
+  {
+    "id": "fr-r-aux-avoir-o-etre",
+    "tipo": "principio",
+    "titulo": "avoir o être, cuál auxiliar usar",
+    "variante": "desarrollo",
+    "cuerpo": "La gran mayoría de los verbos usa avoir. Usan être un grupo pequeño de verbos de movimiento o de cambio de estado, y todos los verbos pronominales.",
+    "tabla": {
+      "titulo": "Dos auxiliares",
+      "encabezados": ["auxiliar", "cuándo"],
+      "filas": [
+        ["avoir", "la gran mayoría de los verbos"],
+        ["être", "aller, venir, arriver, partir y compañía"],
+        ["être", "todos los verbos pronominales"]
+      ]
+    },
+    "ejemplo": "J'ai mangé, pero je suis allé. Elle a lu, pero elle s'est levée."
+  },
+  {
+    "id": "fr-r-aux-etre-lista",
+    "tipo": "regla",
+    "titulo": "Los verbos de la lista de être",
+    "variante": "desarrollo",
+    "cuerpo": "Son verbos de movimiento y de cambio de estado, y conviene aprenderlos por parejas de opuestos. Todos forman el passé composé con être y su participio concuerda con el sujeto.",
+    "tabla": {
+      "titulo": "Pares de opuestos",
+      "encabezados": ["verbos", "participios"],
+      "filas": [
+        ["aller y venir", "allé y venu"],
+        ["arriver y partir", "arrivé y parti"],
+        ["entrer y sortir", "entré y sorti"],
+        ["monter y descendre", "monté y descendu"],
+        ["naître y mourir", "né y mort"],
+        ["rester y tomber", "resté y tombé"],
+        ["devenir y revenir", "devenu y revenu"],
+        ["rentrer y retourner", "rentré y retourné"]
+      ]
+    },
+    "ejemplo": "Elle est arrivée à midi. Ils sont partis hier. Nous sommes restés à la maison."
+  },
+  {
+    "id": "fr-r-aux-etre-con-complemento",
+    "tipo": "norma",
+    "titulo": "monter, descendre, sortir, rentrer y retourner pueden usar avoir",
+    "variante": "corta",
+    "cuerpo": "Si el verbo lleva un complemento directo, el auxiliar pasa a ser avoir, porque ya no es un movimiento del sujeto sino una acción sobre algo.",
+    "ejemplo": "Je suis sorti, pero j'ai sorti la voiture. Elle est descendue, pero elle a descendu les valises."
+  },
+  {
+    "id": "fr-r-aux-pronominales",
+    "tipo": "regla",
+    "titulo": "Los verbos pronominales siempre usan être",
+    "variante": "desarrollo",
+    "cuerpo": "El pronombre va antes del auxiliar, y el participio concuerda con el sujeto casi siempre. Delante de vocal me, te y se pasan a m', t' y s'.",
+    "tabla": {
+      "titulo": "se lever, passé composé",
+      "encabezados": ["persona", "forma"],
+      "filas": [
+        ["je", "me suis levé o levée"],
+        ["tu", "t'es levé o levée"],
+        ["il", "s'est levé"],
+        ["elle", "s'est levée"],
+        ["nous", "nous sommes levés o levées"],
+        ["vous", "vous êtes levé, levée, levés o levées"],
+        ["ils", "se sont levés"],
+        ["elles", "se sont levées"]
+      ]
+    },
+    "ejemplo": "Je me suis réveillé tard. Elle s'est couchée à minuit. Ils se sont promenés."
+  },
+  {
+    "id": "fr-r-acuerdo-etre",
+    "tipo": "regla",
+    "titulo": "Con être, el participio concuerda con el sujeto",
+    "variante": "desarrollo",
+    "cuerpo": "Al participio se le agrega e para el femenino y s para el plural, igual que a un adjetivo. Con avoir el participio no concuerda con el sujeto.",
+    "tabla": {
+      "titulo": "allé con être",
+      "encabezados": ["sujeto", "participio"],
+      "filas": [
+        ["il", "allé"],
+        ["elle", "allée"],
+        ["ils", "allés"],
+        ["elles", "allées"]
+      ]
+    },
+    "ejemplo": "Marie est arrivée. Paul et Marc sont partis. Pero Marie a mangé y ils ont mangé, sin cambios."
+  },
+  {
+    "id": "fr-r-pc-negacion",
+    "tipo": "regla",
+    "titulo": "Passé composé en negativo",
+    "variante": "desarrollo",
+    "cuerpo": "ne y pas rodean al auxiliar y no al participio. Con verbos pronominales el pronombre queda entre ne y el auxiliar. Delante de vocal, ne pasa a n'.",
+    "tabla": {
+      "titulo": "Afirmativa frente a negativa",
+      "encabezados": ["afirmativa", "negativa"],
+      "filas": [
+        ["J'ai mangé.", "Je n'ai pas mangé."],
+        ["Je suis allé.", "Je ne suis pas allé."],
+        ["Je me suis levé.", "Je ne me suis pas levé."]
+      ]
+    },
+    "ejemplo": "Elle n'a pas fini. Ils ne sont pas arrivés."
+  },
+  {
+    "id": "fr-r-pc-marcadores",
+    "tipo": "regla",
+    "titulo": "Palabras que acompañan un passé composé",
+    "variante": "corta",
+    "cuerpo": "El passé composé suele venir con marcas de un tiempo que ya pasó.",
+    "ejemplo": "hier, hier soir, ce matin, la semaine dernière, le mois dernier, l'année dernière, il y a deux jours. Hier, j'ai travaillé. La semaine dernière, nous sommes allés au cinéma."
+  },
+  {
+    "id": "fr-r-pc-vs-passe-recent",
+    "tipo": "principio",
+    "titulo": "passé composé o passé récent",
+    "variante": "desarrollo",
+    "cuerpo": "El passé récent dice que algo acaba de pasar y todavía está cerca. El passé composé dice que algo ya terminó en el pasado, sin importar cuánto tiempo hace.",
+    "tabla": {
+      "titulo": "Dos pasados",
+      "encabezados": ["tiempo", "ejemplo"],
+      "filas": [
+        ["passé récent", "Je viens de manger."],
+        ["passé composé", "J'ai mangé hier."]
+      ]
+    },
+    "ejemplo": "Elle vient d'arriver. Son frère est arrivé à midi."
+  },
+  {
+    "id": "fr-r-pc-adverbios",
+    "tipo": "regla",
+    "titulo": "Adverbios cortos entre el auxiliar y el participio",
+    "variante": "corta",
+    "cuerpo": "déjà, bien, aussi y toujours van entre el auxiliar y el participio. No van detrás del participio.",
+    "ejemplo": "J'ai déjà mangé. Elle a bien travaillé. Nous avons aussi voyagé."
+  },
+  {
+    "id": "fr-r-pc-acuerdo-cod",
+    "tipo": "norma",
+    "titulo": "Con avoir, el participio concuerda con el objeto directo que va antes",
+    "variante": "corta",
+    "cuerpo": "Si el complemento directo aparece antes del verbo, el participio concuerda con él en género y número. Si va después, no concuerda.",
+    "ejemplo": "J'ai écrit la lettre, pero la lettre que j'ai écrite. Les fleurs que j'ai achetées."
+  },
+  {
+    "id": "fr-r-tiempos-comparados",
+    "tipo": "principio",
+    "titulo": "Cinco tiempos del mismo verbo",
+    "variante": "desarrollo",
+    "cuerpo": "El passé récent y el futur proche solo cambian venir o aller. El passé composé cambia el auxiliar y agrega un participio, y el futur simple cambia la terminación del infinitivo. El presente cambia el verbo principal.",
+    "tabla": {
+      "titulo": "manger en cinco tiempos",
+      "encabezados": ["tiempo", "je"],
+      "filas": [
+        ["passé composé", "j'ai mangé"],
+        ["passé récent", "je viens de manger"],
+        ["présent", "je mange"],
+        ["futur proche", "je vais manger"],
+        ["futur simple", "je mangerai"]
+      ]
+    },
+    "ejemplo": "Hier, j'ai mangé. Je viens de manger. Maintenant je mange. Je vais manger ce soir. Demain, je mangerai."
   }
 ]

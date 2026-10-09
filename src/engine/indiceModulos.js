@@ -378,17 +378,33 @@ export const indiceModulos = {
       '47': 'Un déménagement',
       '48': 'Ça ne me dit rien',
       '49': 'Révision',
-      // Dos claves extra, aparte de las lecciones numeradas del curso
+      // Claves extra (todas las que empiezan con "clase-"), aparte de las lecciones numeradas del curso
       // Assimil: agrupan el banco de "Quiz rápido" (fr_quiz_rapido.json)
       // por tema de clase real (con tutor), no por lección del libro. Solo
       // se usan como etiqueta de filtro/badge dentro de QuizRapido.jsx —
       // MapaDelCurso y RepasoConceptos acceden a `categorias` únicamente
-      // por número de lección (String(n)), así que estas dos claves no
+      // por número de lección (String(n)), así que estas claves no
       // interfieren con esa lógica.
       'clase-loisirs': 'Loisirs, sports y verbos (jouer/faire/aller)',
       'clase-profesiones': 'Profesiones y restauration rapide',
       'clase-petits-boulots': 'Petits boulots y jobs de rêve',
       'clase-gustos-y-preposiciones': 'Gustos, faire/jouer y preposiciones',
+      // Français II, hoja "Révision pour les ateliers" (examen de conjugación):
+      // presente de los tres grupos, pronominales y negación, futur proche y
+      // passé récent, más los conectores de la hoja y un bloque de casos que
+      // la hoja no muestra.
+      'clase-presente-1er-grupo': 'Primer grupo en -er y sus excepciones',
+      'clase-presente-2do-grupo': 'Segundo grupo con -iss-',
+      'clase-presente-3er-grupo': 'Tercer grupo e irregulares',
+      'clase-pronominales-negacion': 'Verbos pronominales y negación',
+      'clase-futur-proche-passe-recent': 'Futur proche y passé récent',
+      'clase-opinion-y-relato': 'Dar una opinión y contar en presente',
+      'clase-presente-mas-alla': 'Más allá de la guía, casos y excepciones extra',
+      // Passé composé y futur simple NO están en la hoja "Révision pour les
+      // ateliers"; se agregaron aparte, a pedido, para el mismo examen.
+      'clase-passe-compose': 'Passé composé',
+      'clase-futur-simple': 'Futur simple',
+      'clase-pasado-futuro-comparados': 'Los cinco tiempos del pasado y del futuro juntos',
     },
     // El Quiz Rápido de Français activa la capa "Reglas en contexto"
     // (token `[[id-regla|texto]]` → popover con la regla / conjugación),
