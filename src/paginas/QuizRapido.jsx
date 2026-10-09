@@ -63,6 +63,15 @@ function normalizar(s) {
     .replace(new RegExp('[\\u0300-\\u036f]', 'g'), '')
 }
 
+// Para un `fill` con `acento: true`: el acento es justo lo que se evalúa
+// (j'achète / nous achetons, nous commençons / vous commencez, il connaît),
+// así que normalizar() no sirve porque lo borra. Solo se ignoran mayúsculas,
+// espacios de los bordes y la forma de composición del carácter (NFC), para
+// que una é escrita como e + acento combinante cuente igual.
+function normalizarConAcentos(s) {
+  return s.trim().toLowerCase().normalize('NFC')
+}
+
 function etiquetaFecha(fechaClave) {
   const dias = diferenciaDias(new Date(`${fechaClave}T00:00:00`), new Date())
   if (dias <= 0) return 'hoy'
@@ -514,8 +523,9 @@ export function QuizRapido({ moduloId, perfil, onCambiarPerfil, onVolver }) {
       ok = seleccion === item.correcta
     } else if (item.formato === 'fill') {
       if (!fillValue.trim()) return
-      const val = normalizar(fillValue)
-      ok = [item.respuesta, ...(item.alternativas ?? [])].some((a) => normalizar(a) === val)
+      const norm = item.acento ? normalizarConAcentos : normalizar
+      const val = norm(fillValue)
+      ok = [item.respuesta, ...(item.alternativas ?? [])].some((a) => norm(a) === val)
     } else if (item.formato === 'build') {
       if (armado.length !== item.fragmentos.length) return
       ok = armado.every((idx, pos) => idx === pos)
