@@ -400,11 +400,6 @@ export const indiceModulos = {
       'clase-futur-proche-passe-recent': 'Futur proche y passé récent',
       'clase-opinion-y-relato': 'Dar una opinión y contar en presente',
       'clase-presente-mas-alla': 'Más allá de la guía, casos y excepciones extra',
-      // Passé composé y futur simple NO están en la hoja "Révision pour les
-      // ateliers"; se agregaron aparte, a pedido, para el mismo examen.
-      'clase-passe-compose': 'Passé composé',
-      'clase-futur-simple': 'Futur simple',
-      'clase-pasado-futuro-comparados': 'Los cinco tiempos del pasado y del futuro juntos',
     },
     // El Quiz Rápido de Français activa la capa "Reglas en contexto"
     // (token `[[id-regla|texto]]` → popover con la regla / conjugación),
